@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Kilback Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 460,
+  "Name": "Ullrich, Prohaska and Wisoky",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 494,
-  "Rank": 821
+  "UdListDefinitionId": 163,
+  "Rank": 954
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Mante LLC",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "UdListDefinitionId": 735,
-  "Rank": 722,
+  "Id": 915,
+  "Name": "Bernhard, Orn and Schumm",
+  "Tooltip": "quidem",
+  "Deleted": true,
+  "UdListDefinitionId": 359,
+  "Rank": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 226
     }
   }
 }

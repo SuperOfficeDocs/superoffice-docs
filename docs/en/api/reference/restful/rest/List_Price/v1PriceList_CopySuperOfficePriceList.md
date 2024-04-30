@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/10/2003 12:19:56
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=09/17/1999 12:19:56
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=113
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=04/22/1998 11:44:45
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/21/1998 11:44:45
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=448
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 854,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 340,
-  "Name": "Kassulke, Ondricka and Kling",
-  "Description": "Robust bifurcated concept",
-  "Currency": "est",
-  "CurrencyName": "Stoltenberg-Cremin",
-  "ValidFrom": "2019-12-12T12:19:54.6802476+01:00",
-  "ValidTo": "2015-04-01T12:19:54.6802476+02:00",
+  "PriceListId": 454,
+  "ERPPriceListKey": "cupiditate",
+  "QuoteConnectionId": 40,
+  "Name": "Okuneva-Toy",
+  "Description": "Up-sized object-oriented help-desk",
+  "Currency": "commodi",
+  "CurrencyName": "Schultz, Schuster and Hane",
+  "ValidFrom": "2022-04-10T11:44:43.1637513+02:00",
+  "ValidTo": "2014-07-26T11:44:43.1637513+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 404
     }
   }
 }

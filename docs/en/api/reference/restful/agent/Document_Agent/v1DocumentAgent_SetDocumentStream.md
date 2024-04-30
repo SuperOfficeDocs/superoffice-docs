@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 123,
+  "DocumentId": 148,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "expedita",
-  "Name": "Sawayn Group",
-  "OurRef": "tempora",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2009-03-12T12:19:45.1485453+01:00",
-  "UpdatedDate": "2013-11-14T12:19:45.1485453+01:00",
-  "Description": "Streamlined multi-state challenge",
+  "Attention": "praesentium",
+  "Header": "repellendus",
+  "Name": "Swaniawski-Ferry",
+  "OurRef": "cum",
+  "YourRef": "perferendis",
+  "CreatedDate": "2008-01-10T11:44:33.4785117+01:00",
+  "UpdatedDate": "1997-04-18T11:44:33.4785117+02:00",
+  "Description": "Robust client-server policy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-01-05T12:19:45.1485453+01:00",
-  "ExternalRef": "dolorem",
+  "Date": "2014-08-24T11:44:33.4940679+02:00",
+  "ExternalRef": "omnis",
   "Completed": "Completed",
-  "ActiveLinks": 61,
+  "ActiveLinks": 311,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Dare, Grady and Rosenbaum",
-      "Id": 658,
-      "Description": "Optional even-keeled complexity",
-      "ExtraInfo": "ratione",
-      "LinkId": 340,
+      "EntityName": "Hyatt-Hettinger",
+      "Id": 955,
+      "Description": "Digitized stable hardware",
+      "ExtraInfo": "vel",
+      "LinkId": 242,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 700
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 634,
-  "Snum": 492,
+  "SuggestedDocumentId": 269,
+  "Snum": 685,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Prof. Brandyn Rosina Kerluke"
+    "SuperOffice:1": "Miss Anne Wehner",
+    "SuperOffice:2": "1323048666"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "sit"
+    "CustomFields1": "quod",
+    "CustomFields2": "culpa"
   },
-  "PublishEventDate": "2014-11-16T12:19:45.1485453+01:00",
-  "PublishTo": "1999-10-14T12:19:45.1485453+02:00",
-  "PublishFrom": "2001-09-26T12:19:45.1485453+02:00",
+  "PublishEventDate": "2002-01-12T11:44:33.4940679+01:00",
+  "PublishTo": "2021-05-02T11:44:33.4940679+02:00",
+  "PublishFrom": "2003-07-30T11:44:33.4940679+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 577,
+      "VisibleId": 766,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldType": "System.Int32",
+          "FieldLength": 314
         }
       }
     },
     {
-      "VisibleId": 577,
+      "VisibleId": 766,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldType": "System.Int32",
+          "FieldLength": 314
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 407
     }
   }
 }

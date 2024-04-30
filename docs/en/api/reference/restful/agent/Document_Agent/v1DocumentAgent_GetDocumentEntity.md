@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=213
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=246
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 605,
+  "DocumentId": 645,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "architecto",
-  "Header": "error",
-  "Name": "Daniel, Steuber and Jerde",
-  "OurRef": "voluptates",
-  "YourRef": "dolor",
-  "CreatedDate": "2020-02-13T12:19:45.1329234+01:00",
-  "UpdatedDate": "2012-06-27T12:19:45.1329234+02:00",
-  "Description": "Up-sized grid-enabled project",
+  "Attention": "recusandae",
+  "Header": "aliquid",
+  "Name": "Konopelski, Nienow and Stanton",
+  "OurRef": "quia",
+  "YourRef": "deleniti",
+  "CreatedDate": "2005-07-09T11:44:33.4785117+02:00",
+  "UpdatedDate": "2010-09-25T11:44:33.4785117+02:00",
+  "Description": "Fundamental eco-centric hierarchy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-09-16T12:19:45.1329234+02:00",
-  "ExternalRef": "et",
+  "Date": "2014-11-26T11:44:33.4785117+01:00",
+  "ExternalRef": "sapiente",
   "Completed": "Completed",
-  "ActiveLinks": 545,
+  "ActiveLinks": 617,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ankunding-Daugherty",
-      "Id": 734,
-      "Description": "Multi-layered stable customer loyalty",
-      "ExtraInfo": "at",
-      "LinkId": 403,
+      "EntityName": "Champlin Group",
+      "Id": 771,
+      "Description": "Synergized 5th generation support",
+      "ExtraInfo": "expedita",
+      "LinkId": 609,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 838
+          "FieldType": "System.Int32",
+          "FieldLength": 813
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 663,
-  "Snum": 671,
+  "SuggestedDocumentId": 582,
+  "Snum": 928,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Kacie Wunsch",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Reilly Gleichner"
   },
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "et"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "vitae"
+    "CustomFields1": "saepe",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2000-05-30T12:19:45.1329234+02:00",
-  "PublishTo": "2007-12-03T12:19:45.1329234+01:00",
-  "PublishFrom": "2003-09-02T12:19:45.1329234+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-01-01T11:44:33.4785117+01:00",
+  "PublishTo": "2020-10-14T11:44:33.4785117+02:00",
+  "PublishFrom": "2000-04-22T11:44:33.4785117+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 290,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldType": "System.Int32",
+          "FieldLength": 165
         }
       }
     },
     {
-      "VisibleId": 290,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldType": "System.Int32",
+          "FieldLength": 165
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 737
     }
   }
 }

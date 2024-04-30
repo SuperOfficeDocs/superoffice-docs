@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=ullam
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=culpa
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Wunsch Inc and Sons",
-    "ToolTip": "Facilis non et quasi.",
+    "Id": 888,
+    "Name": "Conn-Greenholt",
+    "ToolTip": "Expedita facere voluptatem quis beatae.",
     "Deleted": true,
-    "Rank": 715,
-    "Type": "expedita",
+    "Rank": 616,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Schmeler Group",
-        "ToolTip": "Soluta in et rerum hic quas.",
-        "Deleted": true,
-        "Rank": 218,
-        "Type": "architecto",
+        "Id": 228,
+        "Name": "Marquardt Inc and Sons",
+        "ToolTip": "Modi ex blanditiis et exercitationem.",
+        "Deleted": false,
+        "Rank": 290,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 365,
-        "ExtraInfo": "laborum",
-        "StyleHint": "ut",
-        "FullName": "Clotilde Jaskolski",
+        "IconHint": "in",
+        "ColorBlock": 84,
+        "ExtraInfo": "atque",
+        "StyleHint": "sit",
+        "FullName": "Chelsey Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 82
+            "FieldLength": 213
           }
         }
       }
     ],
-    "IconHint": "totam",
-    "ColorBlock": 672,
-    "ExtraInfo": "nobis",
-    "StyleHint": "magnam",
-    "FullName": "Kurtis Boehm",
+    "IconHint": "aut",
+    "ColorBlock": 456,
+    "ExtraInfo": "eum",
+    "StyleHint": "enim",
+    "FullName": "Prof. Kiana Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 842
       }
     }
   }

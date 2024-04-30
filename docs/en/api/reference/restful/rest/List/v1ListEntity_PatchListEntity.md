@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quidem",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quidem",
+    "path": "non",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Spinka LLC",
-  "Tooltip": "facere",
+  "Id": 23,
+  "Name": "Kerluke-Miller",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 385,
-  "IsCustomList": false,
+  "Rank": 566,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 322
     }
   },
   "_Links": {

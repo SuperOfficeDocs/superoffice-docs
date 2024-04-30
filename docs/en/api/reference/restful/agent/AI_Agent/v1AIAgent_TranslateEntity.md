@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Dicki, McLaughlin and Mraz",
-  "EntityId": 19,
-  "TargetLanguage": "impedit"
+  "EntityName": "Wiza, Funk and Hansen",
+  "EntityId": 642,
+  "TargetLanguage": "voluptas"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptate"
+"iusto"
 ```

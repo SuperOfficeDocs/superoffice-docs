@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 193,
-  "Name": "Hickle Group",
-  "ConsentText": "praesentium",
-  "FormText": "sint",
-  "Key": "molestiae",
-  "Tooltip": "suscipit",
-  "Active": 95,
-  "UpdatedDate": "2015-10-15T12:19:54.3365677+02:00",
+  "ConsentPurposeId": 203,
+  "Name": "Conn LLC",
+  "ConsentText": "rerum",
+  "FormText": "et",
+  "Key": "ab",
+  "Tooltip": "possimus",
+  "Active": 886,
+  "UpdatedDate": "2011-03-22T11:44:42.9762901+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 427,
-  "PrivacyStatementDesc": "soluta",
+  "Deleted": false,
+  "Rank": 17,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 927,
-  "Name": "Gusikowski-Nolan",
-  "ConsentText": "aut",
-  "FormText": "unde",
-  "Key": "qui",
-  "Tooltip": "sed",
-  "Active": 127,
-  "UpdatedDate": "2010-11-01T12:19:54.3365677+01:00",
+  "ConsentPurposeId": 741,
+  "Name": "Torphy Inc and Sons",
+  "ConsentText": "dolor",
+  "FormText": "ea",
+  "Key": "aliquid",
+  "Tooltip": "et",
+  "Active": 13,
+  "UpdatedDate": "2016-01-20T11:44:42.9762901+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 85,
-  "PrivacyStatementDesc": "aut",
+  "Deleted": false,
+  "Rank": 778,
+  "PrivacyStatementDesc": "asperiores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

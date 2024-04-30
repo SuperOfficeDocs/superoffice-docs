@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 821,
-  "Name": "Kerluke, Hintz and Hills",
-  "Description": "Object-based optimizing database",
-  "DefaultHeight": 218,
-  "DefaultWidth": 760,
+  "DashboardTileDefinitionId": 277,
+  "Name": "Gusikowski, Rogahn and Lynch",
+  "Description": "Face to face systemic groupware",
+  "DefaultHeight": 410,
+  "DefaultWidth": 909,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Haley, Carter and Emmerich",
-  "SelectionId": 17,
+  "EntityName": "Bosco LLC",
+  "SelectionId": 837,
   "CurrencyMode": "Base",
-  "CurrencyCode": "odio",
+  "CurrencyCode": "praesentium",
   "Measure": "Average",
-  "MeasureField": "adipisci",
-  "SortBy": "corporis",
-  "LayoutConfig": "non",
-  "SecondarySelectionId": 761,
-  "MeasureByField": "debitis",
+  "MeasureField": "reiciendis",
+  "SortBy": "non",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 347,
+  "MeasureByField": "maiores",
   "Usage": "Dashboard",
-  "ProviderName": "Casper-Bruen",
+  "ProviderName": "Tremblay-Ziemann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 411
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

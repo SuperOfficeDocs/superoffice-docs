@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 349,
-  "StartTime": "2004-09-27T12:19:45.0704356+02:00",
-  "EndTime": "2003-09-12T12:19:45.0704356+02:00",
-  "Count": 945,
+  "PersonId": 105,
+  "StartTime": "1999-10-04T11:44:33.4160074+02:00",
+  "EndTime": "2000-05-30T11:44:33.4160074+02:00",
+  "Count": 7,
   "DocumentTemplateIds": [
-    716,
-    745
+    28,
+    645
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 325,
-    "Attention": "autem",
-    "Header": "est",
-    "Name": "Gleason-DuBuque",
-    "OurRef": "ut",
-    "YourRef": "et",
-    "Description": "Balanced grid-enabled installation",
-    "DocumentTemplate": "aut",
+    "DocumentId": 236,
+    "Attention": "eum",
+    "Header": "at",
+    "Name": "Lakin-Olson",
+    "OurRef": "voluptate",
+    "YourRef": "omnis",
+    "Description": "Decentralized upward-trending extranet",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 743,
-    "PersonFullName": "Lilly Stehr",
-    "AssociateFullName": "Katrine O'Kon",
-    "ContactId": 435,
-    "ContactName": "Funk-Lind",
-    "ProjectId": 386,
-    "ProjectName": "Keebler-Botsford",
-    "AssociateId": 156,
-    "Snum": 466,
-    "SaleId": 312,
-    "SaleName": "Weber, Connelly and Hoeger",
+    "PersonId": 382,
+    "PersonFullName": "Dr. Amparo Blanda Sr.",
+    "AssociateFullName": "Wilfrid Duncan Macejkovic I",
+    "ContactId": 762,
+    "ContactName": "Hamill-Schmidt",
+    "ProjectId": 626,
+    "ProjectName": "Kris Group",
+    "AssociateId": 101,
+    "Snum": 317,
+    "SaleId": 539,
+    "SaleName": "Runolfsdottir, Bartoletti and Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldLength": 488
       }
     }
   }

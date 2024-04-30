@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "rerum",
-      "Key": "labore"
+      "Section": "ullam",
+      "Key": "unde"
     },
     {
-      "Section": "rerum",
-      "Key": "labore"
+      "Section": "ullam",
+      "Key": "unde"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "error",
+    "RawValue": "molestias",
     "Specification": null,
-    "DisplayValue": "repellendus",
-    "DisplayTooltip": "ipsa",
+    "DisplayValue": "aperiam",
+    "DisplayTooltip": "facere",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 63,
-    "PrefDescId": 891,
-    "TableName": "Homenick, Labadie and Huel",
-    "UserPreferenceId": 715,
+    "TargetId": 662,
+    "PrefDescId": 758,
+    "TableName": "Nader Group",
+    "UserPreferenceId": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=84
+POST /api/v1/Agents/User/GetUser?userId=636
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 492,
-  "Name": "Crona LLC",
-  "Rank": 770,
-  "Tooltip": "blanditiis",
+  "AssociateId": 346,
+  "Name": "Emmerich Inc and Sons",
+  "Rank": 226,
+  "Tooltip": "nostrum",
   "LicenseOwners": [
     {
-      "Name": "McCullough-Mosciski",
-      "Description": "Phased next generation moderator",
+      "Name": "Feeney Group",
+      "Description": "Front-line fault-tolerant attitude",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 312
         }
       }
     },
     {
-      "Name": "McCullough-Mosciski",
-      "Description": "Phased next generation moderator",
+      "Name": "Feeney Group",
+      "Description": "Front-line fault-tolerant attitude",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 312
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "esse",
-      "Tooltip": "architecto",
-      "Id": 967,
-      "Rank": 697,
-      "Deleted": true,
+      "Value": "facilis",
+      "Tooltip": "incidunt",
+      "Id": 710,
+      "Rank": 139,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 568
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2012-04-10T12:19:46.6013369+02:00",
-  "Lastlogout": "2023-06-15T12:19:46.6013369+02:00",
-  "EjUserId": 234,
-  "RequestSignature": "itaque",
+  "Deleted": false,
+  "Lastlogin": "2002-10-05T11:44:34.9781542+02:00",
+  "Lastlogout": "2003-07-14T11:44:34.9781542+02:00",
+  "EjUserId": 766,
+  "RequestSignature": "aliquid",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "fugit",
-      "DisplayValue": "eligendi",
+      "Value": "odio",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 871
         }
       }
     },
     {
       "Type": null,
-      "Value": "fugit",
-      "DisplayValue": "eligendi",
+      "Value": "odio",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 871
         }
       }
     }
   ],
-  "UserName": "Klocko, Abshire and Mitchell",
+  "UserName": "Kling-Batz",
   "TicketCategories": [
     {
-      "Id": 911,
-      "Name": "Hilpert-VonRueden",
-      "ToolTip": "Porro velit repellat voluptatem quaerat et.",
-      "Deleted": false,
-      "Rank": 372,
-      "Type": "consequatur",
+      "Id": 946,
+      "Name": "Macejkovic, Mante and Krajcik",
+      "ToolTip": "Sunt asperiores aut.",
+      "Deleted": true,
+      "Rank": 743,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cupiditate",
-      "ColorBlock": 173,
-      "ExtraInfo": "ullam",
-      "StyleHint": "quae",
-      "FullName": "Mr. Mossie Roberts",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
-        }
-      }
-    }
-  ],
-  "NickName": "Kulas-Jacobi",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "consequuntur"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kassulke, Macejkovic and Heaney",
-      "DisplayName": "Ritchie, Jaskolski and Rutherford",
-      "Description": "User-friendly empowering synergy",
-      "ToolTip": "Aut iure iure harum consectetur dolore.",
-      "Actions": "Implicit",
-      "ActionData": "sapiente",
+      "IconHint": "ea",
+      "ColorBlock": 704,
+      "ExtraInfo": "blanditiis",
+      "StyleHint": "soluta",
+      "FullName": "Rafael Sadye Abshire Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 286
+        }
+      }
+    }
+  ],
+  "NickName": "Jewess, Cruickshank and Schmeler",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "aut",
+    "ExtraFields2": "consequatur"
+  },
+  "CustomFields": {
+    "CustomFields1": "est",
+    "CustomFields2": "odit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kovacek LLC",
+      "DisplayName": "Kessler, Schmitt and Cummings",
+      "Description": "Down-sized directional framework",
+      "ToolTip": "Aut rerum neque et odio esse officiis et.",
+      "Actions": "Implicit",
+      "ActionData": "vitae",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 139
         }
       }
     }
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

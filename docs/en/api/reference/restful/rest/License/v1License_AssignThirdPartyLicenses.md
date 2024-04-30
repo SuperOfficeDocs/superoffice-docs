@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 942,
-    "Tooltip": "iure",
+    "Unrestricted": true,
+    "Total": 523,
+    "Tooltip": "voluptas",
     "CanAssign": false,
-    "Free": 38,
-    "InUse": 323,
+    "Free": 965,
+    "InUse": 693,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 559,
-    "Name": "Schamberger, Schiller and Morar",
-    "Description": "Team-oriented mobile concept",
-    "PrerequisiteModuleName": "Hahn LLC",
-    "SortOrder": 20,
-    "ExtraFlags": 500,
+    "ModuleLicenseId": 391,
+    "Name": "Kunde-Kuhlman",
+    "Description": "Extended secondary utilisation",
+    "PrerequisiteModuleName": "Champlin-Nader",
+    "SortOrder": 910,
+    "ExtraFlags": 135,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 623
       }
     }
   }

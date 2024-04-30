@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Runolfsdottir, Swaniawski and Brakus"
+  "StorageType": "rerum",
+  "ProviderName": "Kassulke, Roberts and Brekke"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "nihil",
-  "laborum"
+  "incidunt",
+  "dolorum"
 ]
 ```

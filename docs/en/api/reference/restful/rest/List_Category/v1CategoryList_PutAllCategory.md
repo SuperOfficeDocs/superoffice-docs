@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Dickinson-Heidenreich",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 473,
-    "Rank": 800
+    "Id": 294,
+    "Name": "Littel-Hermann",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "UdListDefinitionId": 338,
+    "Rank": 967
   },
   {
-    "Id": 747,
-    "Name": "Dickinson-Heidenreich",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 473,
-    "Rank": 800
+    "Id": 294,
+    "Name": "Littel-Hermann",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "UdListDefinitionId": 338,
+    "Rank": 967
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Thiel-Wehner",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "UdListDefinitionId": 476,
-    "Rank": 384,
+    "Id": 396,
+    "Name": "Luettgen Group",
+    "Tooltip": "aliquam",
+    "Deleted": true,
+    "UdListDefinitionId": 410,
+    "Rank": 37,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldType": "System.Int32",
+        "FieldLength": 804
       }
     }
   }

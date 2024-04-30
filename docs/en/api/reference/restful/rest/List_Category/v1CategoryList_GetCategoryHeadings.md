@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 885,
-    "Name": "Spinka, Witting and Hahn",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 372,
-    "UdListDefinitionId": 6,
+    "HeadingId": 511,
+    "Name": "Murphy-Bode",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 15,
+    "UdListDefinitionId": 36,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

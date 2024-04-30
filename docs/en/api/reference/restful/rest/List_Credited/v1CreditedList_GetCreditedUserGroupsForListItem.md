@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Mante-Goodwin",
-    "ToolTip": "Beatae eaque quaerat repellat voluptatem voluptas nihil quaerat.",
-    "Deleted": false,
-    "Rank": 181,
-    "Type": "natus",
-    "ColorBlock": 236,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2005-06-23T12:19:54.383431+02:00",
+    "Id": 911,
+    "Name": "Altenwerth-DuBuque",
+    "ToolTip": "Consequatur et facere.",
+    "Deleted": true,
+    "Rank": 834,
+    "Type": "vero",
+    "ColorBlock": 361,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2020-10-30T11:44:43.0231528+01:00",
     "ChildItems": [
       {
-        "Id": 869,
-        "Name": "Bosco, Parisian and Schowalter",
-        "ToolTip": "Quod quo est ex quae harum.",
-        "Deleted": false,
-        "Rank": 116,
-        "Type": "architecto",
-        "ColorBlock": 814,
-        "IconHint": "quibusdam",
-        "Selected": false,
-        "LastChanged": "2001-06-02T12:19:54.383431+02:00",
+        "Id": 93,
+        "Name": "Considine, Gutmann and Kirlin",
+        "ToolTip": "Sit est vitae mollitia qui.",
+        "Deleted": true,
+        "Rank": 679,
+        "Type": "eum",
+        "ColorBlock": 490,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2014-10-18T11:44:43.0231528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "ad",
-        "Hidden": true,
-        "FullName": "Prof. Tabitha Kunde III",
+        "ExtraInfo": "soluta",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Kody Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 968
+            "FieldType": "System.Int32",
+            "FieldLength": 879
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "qui",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Mrs. Rico Golden Hermiston II",
+    "FullName": "Dr. Fredrick Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   }

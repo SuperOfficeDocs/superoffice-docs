@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 894
+  "UserGroupId": 320
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 402,
-    "ColumnId": 931,
-    "FieldDefault": "omnis",
-    "FieldHeight": 655,
-    "FieldLabel": "ratione",
-    "FieldLeft": 394,
-    "FieldTop": 984,
+    "UDefFieldId": 869,
+    "ColumnId": 772,
+    "FieldDefault": "a",
+    "FieldHeight": 462,
+    "FieldLabel": "nobis",
+    "FieldLeft": 96,
+    "FieldTop": 765,
     "FieldType": "Checkbox",
-    "FieldWidth": 526,
-    "FormatMask": "aperiam",
+    "FieldWidth": 500,
+    "FormatMask": "impedit",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 434,
-    "LabelLeft": 143,
-    "LabelTop": 563,
-    "LabelWidth": 420,
-    "LastVersionId": 461,
-    "ListTableId": 7,
+    "IsIndexed": false,
+    "LabelHeight": 854,
+    "LabelLeft": 840,
+    "LabelTop": 124,
+    "LabelWidth": 980,
+    "LastVersionId": 864,
+    "ListTableId": 259,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 70,
-    "ProgId": "sunt",
-    "IsReadOnly": true,
-    "ShortLabel": "eum",
-    "TabOrder": 168,
-    "TextLength": 541,
-    "Tooltip": "hic",
-    "UdefIdentity": 755,
-    "UDListDefinitionId": 14,
+    "Page1LineNo": 639,
+    "ProgId": "voluptatem",
+    "IsReadOnly": false,
+    "ShortLabel": "non",
+    "TabOrder": 33,
+    "TextLength": 716,
+    "Tooltip": "dolores",
+    "UdefIdentity": 550,
+    "UDListDefinitionId": 124,
     "Justification": "Center",
-    "Version": 868,
-    "TemplateVariableName": "Green Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Deckow-Weimann",
+    "Version": 1001,
+    "TemplateVariableName": "Bergstrom, Kutch and Greenholt",
+    "HasBeenPublished": false,
+    "MdoListName": "Mitchell, Carroll and D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldType": "System.String",
+        "FieldLength": 358
       }
     }
   }

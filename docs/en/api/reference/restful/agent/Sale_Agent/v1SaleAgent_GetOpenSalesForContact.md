@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 849
+  "ContactId": 733
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "West, Schaden and Pfeffer",
-    "SaleDate": "2018-07-17T12:19:46.210807+02:00",
-    "SaleId": 301,
-    "Probability": 584,
-    "Title": "nisi",
-    "Amount": 7703.3719999999994,
-    "Currency": "dolorem",
-    "ProjectName": "Rogahn-Reynolds",
-    "AssociateFullName": "Gia Rice Jr.",
-    "Description": "Managed needs-based encryption",
+    "ContactName": "Von-Wiegand",
+    "SaleDate": "2018-06-06T11:44:34.4001629+02:00",
+    "SaleId": 401,
+    "Probability": 315,
+    "Title": "ut",
+    "Amount": 25109.608,
+    "Currency": "molestiae",
+    "ProjectName": "Raynor, Wuckert and Heidenreich",
+    "AssociateFullName": "Shaylee Langworth",
+    "Description": "Implemented exuding data-warehouse",
     "Status": "Lost",
-    "WeightedAmount": 17365.494,
-    "ProjectId": 732,
-    "EarningPercent": 19383.79,
-    "Earning": 16550.654,
-    "ContactId": 771,
-    "AssociateId": 818,
-    "PersonId": 307,
-    "SaleTypeId": 752,
-    "SaleTypeName": "Nolan Inc and Sons",
-    "PersonFullName": "Justice Phyllis Harber I",
+    "WeightedAmount": 8590.294,
+    "ProjectId": 913,
+    "EarningPercent": 9696.596,
+    "Earning": 19051.586,
+    "ContactId": 157,
+    "AssociateId": 225,
+    "PersonId": 187,
+    "SaleTypeId": 987,
+    "SaleTypeName": "Roob-Schamberger",
+    "PersonFullName": "Haylie Frami",
     "Completed": "Completed",
-    "ActiveErpLinks": 700,
-    "NextDueDate": "2013-03-19T12:19:46.210807+01:00",
-    "Number": "438357",
+    "ActiveErpLinks": 714,
+    "NextDueDate": "2023-04-20T11:44:34.4001629+02:00",
+    "Number": "1411866",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 505
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

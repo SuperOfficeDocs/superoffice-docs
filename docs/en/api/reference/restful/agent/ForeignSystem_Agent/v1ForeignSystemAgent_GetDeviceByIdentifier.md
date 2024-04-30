@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Miller LLC",
-  "DeviceName": "Herman-Yundt",
-  "DeviceIdentifier": "beatae"
+  "ApplicationName": "Flatley Inc and Sons",
+  "DeviceName": "Bartell LLC",
+  "DeviceIdentifier": "veniam"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 705,
-  "Name": "Price-Leffler",
-  "CreatedDate": "1999-05-03T12:19:45.4141069+02:00",
-  "UpdatedDate": "2014-04-29T12:19:45.4141069+02:00",
-  "AssociateFullName": "Mr. Cory Gudrun Bahringer Jr.",
-  "CreatedBy": "vitae",
-  "UpdatedBy": "odio",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 309,
+  "ForeignDeviceId": 943,
+  "Name": "Hoppe-Okuneva",
+  "CreatedDate": "2010-12-15T11:44:33.7596833+01:00",
+  "UpdatedDate": "2008-01-06T11:44:33.7596833+01:00",
+  "AssociateFullName": "Melyssa Botsford",
+  "CreatedBy": "harum",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "eligendi",
+  "ForeignAppId": 809,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 614
     }
   }
 }

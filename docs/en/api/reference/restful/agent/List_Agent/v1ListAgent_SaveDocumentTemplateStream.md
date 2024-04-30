@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 954,
+  "DocumentTemplateId": 629,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "sapiente",
-  "PluginId": 973
+  "LanguageCode": "ducimus",
+  "PluginId": 977
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weber Inc and Sons",
-  "Description": "Profit-focused disintermediate definition",
-  "ExternalReference": "provident",
-  "MimeType": "facere",
-  "PluginId": 579
+  "Name": "Reynolds, Bode and Welch",
+  "Description": "Profound radical concept",
+  "ExternalReference": "velit",
+  "MimeType": "officia",
+  "PluginId": 34
 }
 ```

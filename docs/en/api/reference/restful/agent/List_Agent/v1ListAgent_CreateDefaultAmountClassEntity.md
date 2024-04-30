@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 206,
-  "Name": "Bode Group",
-  "Tooltip": "debitis",
-  "Rank": 132,
-  "AmountFrom": 12282.145999999999,
-  "AmountTo": 2306.624,
-  "Deleted": false,
-  "CurrencyId": 953,
+  "AmountClassId": 624,
+  "Name": "Ward-Williamson",
+  "Tooltip": "veritatis",
+  "Rank": 449,
+  "AmountFrom": 11570.728,
+  "AmountTo": 14949.18,
+  "Deleted": true,
+  "CurrencyId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 412
     }
   }
 }

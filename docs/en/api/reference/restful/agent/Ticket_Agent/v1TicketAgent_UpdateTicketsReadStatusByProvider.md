@@ -74,28 +74,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "voluptatum",
+  "Provider": "veniam",
   "Restrictions": [
     {
-      "Name": "Kub-Zieme",
-      "Operator": "blanditiis",
+      "Name": "Mueller-Wilkinson",
+      "Operator": "sed",
       "Values": [
-        "cupiditate",
-        "rerum"
+        "eos",
+        "nesciunt"
       ],
       "DisplayValues": [
-        "et",
-        "provident"
+        "sed",
+        "quisquam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 104,
+      "InterParenthesis": 6,
       "InterOperator": "And",
-      "UniqueHash": 467
+      "UniqueHash": 932
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  442,
-  252
+  461,
+  889
 ]
 ```

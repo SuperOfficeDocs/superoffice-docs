@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 868,
-    "ERPName": "Schuster Group",
-    "DisplayName": "Rodriguez, Kirlin and Mayert",
-    "DisplayDescription": "Managed exuding superstructure",
-    "Rank": 779,
-    "ConnectorName": "Ledner-Harber",
-    "ErpConnectionId": 598,
-    "ExtraData": "deserunt",
-    "IsAvailable": true,
+    "QuoteConnectionId": 755,
+    "ERPName": "Sanford, Schimmel and Heller",
+    "DisplayName": "Robel, Lowe and Gulgowski",
+    "DisplayDescription": "Fundamental value-added ability",
+    "Rank": 521,
+    "ConnectorName": "Huel Group",
+    "ErpConnectionId": 202,
+    "ExtraData": "ut",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 290,
-        "ERPPriceListKey": "nihil",
-        "QuoteConnectionId": 831,
-        "Name": "Shanahan-Donnelly",
-        "Description": "Enterprise-wide disintermediate synergy",
-        "Currency": "voluptatem",
-        "CurrencyName": "Morissette LLC",
-        "ValidFrom": "1997-10-19T12:19:46.0858192+02:00",
-        "ValidTo": "2022-05-01T12:19:46.0858192+02:00",
+        "PriceListId": 404,
+        "ERPPriceListKey": "aut",
+        "QuoteConnectionId": 244,
+        "Name": "Wilderman, Crooks and Marvin",
+        "Description": "Robust secondary focus group",
+        "Currency": "inventore",
+        "CurrencyName": "Greenholt, Feest and Wyman",
+        "ValidFrom": "2015-05-05T11:44:34.2907996+02:00",
+        "ValidTo": "2003-04-04T11:44:34.2907996+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 277
+            "FieldType": "System.Int32",
+            "FieldLength": 566
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      573,
-      428
+      762,
+      54
     ],
     "AssociateAccessIds": [
-      132,
-      912
+      271,
+      24
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 922
       }
     }
   }

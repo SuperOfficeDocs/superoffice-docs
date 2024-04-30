@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Turner-Fahey",
-  "DisplayName": "Schinner Inc and Sons",
-  "Description": "Cloned high-level interface",
-  "ShortLabel": "repudiandae",
+  "FieldName": "Welch-Fadel",
+  "DisplayName": "Smitham-Renner",
+  "Description": "Robust assymetric task-force",
+  "ShortLabel": "est",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 739,
-  "TemplateVariableName": "Fisher, Abshire and McLaughlin"
+  "Rank": 437,
+  "TemplateVariableName": "Bosco, Smitham and Kunde"
 }
 ```

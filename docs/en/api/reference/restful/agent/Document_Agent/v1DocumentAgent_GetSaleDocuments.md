@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 819
+  "SaleId": 286
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 974,
-    "Attention": "quasi",
-    "Header": "qui",
-    "Name": "Hettinger-Mante",
-    "OurRef": "aut",
-    "YourRef": "debitis",
-    "Description": "Customer-focused analyzing access",
-    "DocumentTemplate": "qui",
-    "IsPublished": true,
-    "PersonId": 213,
-    "PersonFullName": "Marcelo Green II",
-    "AssociateFullName": "Lilian Nader Sr.",
-    "ContactId": 828,
-    "ContactName": "Corwin-Luettgen",
-    "ProjectId": 370,
-    "ProjectName": "Dach, Muller and Stoltenberg",
-    "AssociateId": 287,
-    "Snum": 970,
-    "SaleId": 719,
-    "SaleName": "Ernser Inc and Sons",
+    "DocumentId": 932,
+    "Attention": "ab",
+    "Header": "similique",
+    "Name": "Swaniawski, Christiansen and Mueller",
+    "OurRef": "est",
+    "YourRef": "et",
+    "Description": "Organized uniform access",
+    "DocumentTemplate": "voluptatibus",
+    "IsPublished": false,
+    "PersonId": 88,
+    "PersonFullName": "Mr. Kelton Beier MD",
+    "AssociateFullName": "Judd Hermiston",
+    "ContactId": 870,
+    "ContactName": "Koss-Koch",
+    "ProjectId": 581,
+    "ProjectName": "Sipes-Stiedemann",
+    "AssociateId": 129,
+    "Snum": 861,
+    "SaleId": 219,
+    "SaleName": "Huel-Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 824
       }
     }
   }

@@ -72,14 +72,14 @@ Content-Type: application/json; charset=utf-8
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 345,
-      "AssociateName": "Bauch, Ryan and Kuhlman",
-      "AssociateId": 597
+      "AccountId": 225,
+      "AssociateName": "Murray, Kunze and Bins",
+      "AssociateId": 392
     },
     {
-      "AccountId": 345,
-      "AssociateName": "Bauch, Ryan and Kuhlman",
-      "AssociateId": 597
+      "AccountId": 225,
+      "AssociateName": "Murray, Kunze and Bins",
+      "AssociateId": 392
     }
   ]
 }

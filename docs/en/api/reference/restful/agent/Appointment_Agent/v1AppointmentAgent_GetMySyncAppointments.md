@@ -101,12 +101,12 @@ OK
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2020-11-24T12:19:44.1800107+01:00",
-  "EndTime": "1997-09-22T12:19:44.1800107+02:00"
+  "StartTime": "2000-11-24T11:44:32.4631128+01:00",
+  "EndTime": "2010-11-06T11:44:32.4631128+01:00"
 }
 ```
 
@@ -118,72 +118,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2014-07-22T12:19:44.1800107+02:00",
-    "AppointmentId": 141,
-    "AppointmentText": "rerum",
-    "ContactDepartment": "",
-    "ContactFullName": "Mrs. Jimmie Runolfsson",
-    "ContactName": "Jerde, Abshire and Jaskolski",
-    "ContactId": 992,
-    "EndDate": "2019-05-01T12:19:44.1800107+02:00",
-    "HasAlarm": false,
-    "IsAllDay": true,
+    "AlarmTime": "2000-05-02T11:44:32.4787305+02:00",
+    "AppointmentId": 27,
+    "AppointmentText": "sed",
+    "ContactDepartment": "exploit interactive portals",
+    "ContactFullName": "Ms. Scarlett Koepp",
+    "ContactName": "Gusikowski-Reichert",
+    "ContactId": 93,
+    "EndDate": "2016-07-25T11:44:32.4787305+02:00",
+    "HasAlarm": true,
+    "IsAllDay": false,
     "IsAssignment": false,
-    "IsBusy": false,
+    "IsBusy": true,
     "IsCompleted": false,
-    "IsInvitation": false,
-    "IsTentative": false,
-    "Location": "aut",
+    "IsInvitation": true,
+    "IsTentative": true,
+    "Location": "eum",
     "Participants": [
       {
-        "PersonId": 995,
-        "PersonFirstName": "Kozey, Eichmann and Emmerich",
-        "PersonMiddleName": "Volkman Group",
-        "PersonLastname": "Botsford",
-        "PersonMrmrs": "nihil",
-        "PersonTitle": "mollitia",
-        "PersonPosition": "aperiam",
-        "PersonAcademicTitle": "et",
-        "PersonFormalName": "Purdy, Haley and Bartoletti",
-        "PersonFullName": "Heloise Grady",
-        "ContactId": 296,
-        "ContactName": "Thiel Group",
+        "PersonId": 443,
+        "PersonFirstName": "D'Amore, Crooks and Stracke",
+        "PersonMiddleName": "Spinka, Mohr and Mosciski",
+        "PersonLastname": "Cummings",
+        "PersonMrmrs": "accusamus",
+        "PersonTitle": "reprehenderit",
+        "PersonPosition": "officia",
+        "PersonAcademicTitle": "aliquam",
+        "PersonFormalName": "King Group",
+        "PersonFullName": "Elsa Bartell",
+        "ContactId": 797,
+        "ContactName": "Tillman, Barrows and Schmeler",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Emmitt Rutherford",
+        "ContactFullName": "Ms. Emory Reagan Christiansen I",
         "EMail": [
-          "provident",
-          "aperiam"
+          "mollitia",
+          "omnis"
         ],
         "PhonePrivate": [
-          "(238)908-5903 x8382",
-          "1-976-507-2063"
+          "(215)560-8438 x85469",
+          "(745)805-6180 x375"
         ],
         "PhoneFax": [
-          "(620)251-2233 x56645",
-          "332-389-1710"
+          "1-770-963-6366 x77766",
+          "013-122-9062 x476"
         ],
         "PhoneMobile": [
-          "1-679-184-4271 x614",
-          "419-549-5555"
+          "(061)150-2677",
+          "655-226-4479 x347"
         ],
         "PhoneDirect": [
-          "(550)619-5130 x69924",
-          "118.148.7192"
+          "1-570-016-9964",
+          "168-768-9383"
         ],
         "PhoneContact": [
-          "883-200-0592 x363",
-          "(964)312-7138"
+          "528.194.3476",
+          "570-490-5232 x7155"
         ],
         "Messenger": [
-          "quidem",
-          "saepe"
+          "temporibus",
+          "quia"
         ],
         "Voip": [
-          "et",
-          "molestiae"
+          "vel",
+          "modi"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -203,27 +203,27 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 115
+            "FieldType": "System.Int32",
+            "FieldLength": 701
           }
         }
       }
     ],
-    "PersonFormalName": "Koch, Corwin and Steuber",
-    "PersonFullName": "Raymond Effertz",
-    "PersonId": 363,
-    "ProjectId": 726,
-    "ProjectName": "Kessler-Harvey",
-    "SaleId": 521,
-    "SaleName": "Hickle Inc and Sons",
-    "StartDate": "2002-11-07T12:19:44.1956294+01:00",
-    "TaskName": "McCullough Inc and Sons",
+    "PersonFormalName": "Weissnat, Feest and Abbott",
+    "PersonFullName": "Helmer Christiansen II",
+    "PersonId": 917,
+    "ProjectId": 869,
+    "ProjectName": "Adams-Stracke",
+    "SaleId": 295,
+    "SaleName": "Schumm, Mueller and Nienow",
+    "StartDate": "1996-12-28T11:44:32.4787305+01:00",
+    "TaskName": "Harris Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   }

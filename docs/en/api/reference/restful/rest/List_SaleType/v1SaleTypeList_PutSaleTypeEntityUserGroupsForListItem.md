@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Krajcik Inc and Sons",
-    "ToolTip": "Aut qui et modi aliquam.",
+    "Id": 52,
+    "Name": "Conroy-Legros",
+    "ToolTip": "Qui labore molestias omnis labore.",
     "Deleted": false,
-    "Rank": 8,
-    "Type": "voluptas",
-    "ColorBlock": 534,
-    "IconHint": "unde",
+    "Rank": 832,
+    "Type": "ratione",
+    "ColorBlock": 465,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2003-03-01T12:19:54.8364594+01:00",
+    "LastChanged": "2004-02-23T11:44:43.3355939+01:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Altenwerth-Barrows",
-        "ToolTip": "Magni rerum ut dolores nam et eos.",
-        "Deleted": false,
-        "Rank": 221,
-        "Type": "cumque",
-        "ColorBlock": 472,
-        "IconHint": "consectetur",
+        "Id": 377,
+        "Name": "McClure-Hand",
+        "ToolTip": "Quidem officiis amet ad.",
+        "Deleted": true,
+        "Rank": 731,
+        "Type": "temporibus",
+        "ColorBlock": 725,
+        "IconHint": "facilis",
         "Selected": false,
-        "LastChanged": "2022-06-20T12:19:54.8364594+02:00",
+        "LastChanged": "2002-11-29T11:44:43.3355939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "ex",
-        "Hidden": true,
-        "FullName": "Miss Darrel Addie Ortiz"
+        "ExtraInfo": "qui",
+        "StyleHint": "fugiat",
+        "Hidden": false,
+        "FullName": "Florine Tremblay"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "aut",
+    "ExtraInfo": "rem",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Leda Dickens I"
+    "FullName": "Arlo Christiansen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Williamson, Schinner and Hermann",
-    "ToolTip": "Est omnis consequatur.",
+    "Id": 867,
+    "Name": "Hilpert, Stanton and Schoen",
+    "ToolTip": "Fuga nobis dolorem quas eum aut qui eveniet.",
     "Deleted": false,
-    "Rank": 37,
-    "Type": "quo",
-    "ColorBlock": 57,
-    "IconHint": "corrupti",
+    "Rank": 971,
+    "Type": "assumenda",
+    "ColorBlock": 236,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2007-06-06T12:19:54.8364594+02:00",
+    "LastChanged": "2024-02-12T11:44:43.3355939+01:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Kris, Ryan and Ortiz",
-        "ToolTip": "Cupiditate illo perspiciatis nostrum velit aperiam nemo.",
-        "Deleted": true,
-        "Rank": 298,
-        "Type": "sed",
-        "ColorBlock": 572,
-        "IconHint": "ab",
-        "Selected": false,
-        "LastChanged": "2003-08-29T12:19:54.8364594+02:00",
+        "Id": 629,
+        "Name": "Krajcik Inc and Sons",
+        "ToolTip": "Sunt aut perspiciatis voluptatem dolores ut et.",
+        "Deleted": false,
+        "Rank": 501,
+        "Type": "dolorem",
+        "ColorBlock": 205,
+        "IconHint": "iure",
+        "Selected": true,
+        "LastChanged": "2019-11-22T11:44:43.3355939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "facere",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Mrs. Norris Heathcote",
+        "FullName": "Napoleon Abernathy DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 492
+            "FieldType": "System.String",
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "maxime",
+    "ExtraInfo": "repellat",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Ralph Volkman",
+    "FullName": "Miss Markus Aisha Eichmann Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 378
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

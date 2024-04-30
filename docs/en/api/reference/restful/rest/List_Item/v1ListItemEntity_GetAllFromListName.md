@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Gleichner-Towne",
-    "Tooltip": "omnis",
+    "Id": 351,
+    "Name": "Murray-Jenkins",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "UdListDefinitionId": 410,
-    "Rank": 70,
+    "UdListDefinitionId": 38,
+    "Rank": 843,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldLength": 898
       }
     }
   }

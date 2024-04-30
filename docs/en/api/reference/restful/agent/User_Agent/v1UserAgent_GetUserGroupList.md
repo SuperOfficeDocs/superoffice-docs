@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "laboriosam",
-    "Tooltip": "quos",
-    "Id": 537,
-    "Rank": 407,
+    "Value": "quisquam",
+    "Tooltip": "mollitia",
+    "Id": 543,
+    "Rank": 65,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldType": "System.Int32",
+        "FieldLength": 940
       }
     }
   }

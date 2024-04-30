@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "voluptatem",
+  "SourceInput": "nesciunt",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 335,
-  "PersonId": 477,
-  "ProjectId": 80,
-  "SelectionId": 873,
-  "AppointmentId": 745,
-  "DocumentId": 41,
-  "SaleId": 921,
-  "QuoteLineId": 180,
-  "QuoteAlternativeId": 989,
-  "ProductKey": "veniam",
+  "ContactId": 917,
+  "PersonId": 638,
+  "ProjectId": 699,
+  "SelectionId": 706,
+  "AppointmentId": 972,
+  "DocumentId": 320,
+  "SaleId": 595,
+  "QuoteLineId": 602,
+  "QuoteAlternativeId": 475,
+  "ProductKey": "mollitia",
   "CustomTags": [
     [
       {}
@@ -103,14 +103,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 439,
+  "TicketId": 585,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   }
 }

@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mosciski-Mante",
+  "TableName": "Morissette, Daniel and Lubowitz",
   "Columns": [
-    "corporis",
-    "ut"
+    "rerum",
+    "illo"
   ],
   "Keys": [
-    "quia",
-    "laudantium"
+    "vel",
+    "voluptas"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "porro",
-  "Inserts": 596,
-  "Updates": 405,
-  "Deletes": 54,
+  "Success": true,
+  "Message": "quas",
+  "Inserts": 321,
+  "Updates": 829,
+  "Deletes": 132,
   "RowStatus": [
     {
-      "PrimaryKey": 446,
+      "PrimaryKey": 541,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sunt",
-        "possimus"
+        "veritatis",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     },
     {
-      "PrimaryKey": 446,
+      "PrimaryKey": 541,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sunt",
-        "possimus"
+        "veritatis",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 253
     }
   }
 }

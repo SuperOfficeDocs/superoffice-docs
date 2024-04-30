@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "minima",
-  "ProviderName": "Turcotte, Collier and Kihn",
-  "StorageKey": "tenetur",
-  "Rank": 803,
-  "Context": "velit"
+  "StorageType": "qui",
+  "ProviderName": "Gutkowski-Crist",
+  "StorageKey": "sed",
+  "Rank": 88,
+  "Context": "odio"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Sanford-Russel",
-  "Description": "Managed regional moderator",
-  "Rank": 209,
+  "Name": "Boyle Inc and Sons",
+  "Description": "Diverse bi-directional groupware",
+  "Rank": 807,
   "Restrictions": [
     {
-      "Name": "Purdy-Langworth",
-      "Operator": "eveniet",
+      "Name": "Feil LLC",
+      "Operator": "maxime",
       "Values": [
-        "dolore",
-        "dolorem"
+        "nihil",
+        "quia"
       ],
       "DisplayValues": [
-        "corrupti",
-        "id"
+        "nam",
+        "voluptas"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 3,
+      "InterParenthesis": 113,
       "InterOperator": "And",
-      "UniqueHash": 473
+      "UniqueHash": 269
     }
   ]
 }

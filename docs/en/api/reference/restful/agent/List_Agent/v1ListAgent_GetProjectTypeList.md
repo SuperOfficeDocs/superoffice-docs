@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Value": "ut",
-    "Tooltip": "tempore",
+    "Id": 510,
+    "Value": "incidunt",
+    "Tooltip": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 146
       }
     }
   },
   {
-    "Id": 298,
-    "Value": "ut",
-    "Tooltip": "tempore",
+    "Id": 510,
+    "Value": "incidunt",
+    "Tooltip": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 146
       }
     }
   }

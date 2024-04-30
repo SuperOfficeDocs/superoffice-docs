@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=odit
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ad
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 05 Feb 2016 12:19:53 G2T
+Last-Modified: Fri, 17 Aug 2012 11:44:42 G8T
 
 {
-  "Key": "qui",
-  "Value": "non",
-  "RecordId": 927,
-  "CreatedDate": "2024-01-07T12:19:53.6023745+01:00",
-  "UpdatedDate": "2016-02-05T12:19:53.6023745+01:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "rerum",
-  "TableName": "Nolan-Abbott",
+  "Key": "repellat",
+  "Value": "dolor",
+  "RecordId": 97,
+  "CreatedDate": "2009-06-10T11:44:42.0077636+02:00",
+  "UpdatedDate": "2012-08-17T11:44:42.0077636+02:00",
+  "UpdatedBy": "in",
+  "CreatedBy": "qui",
+  "TableName": "Larson LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

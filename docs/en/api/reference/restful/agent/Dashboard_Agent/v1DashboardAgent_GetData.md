@@ -77,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 137,
-  "Restrictions": "aut"
+  "DashboardTileId": 199,
+  "Restrictions": "est"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Johnston-Connelly",
-        "DisplayTooltip": "qui",
-        "DisplayType": "delectus",
+        "DisplayName": "Stokes Inc and Sons",
+        "DisplayTooltip": "quia",
+        "DisplayType": "quia",
         "CanOrderBy": false,
-        "Name": "Flatley, Cormier and Dach",
-        "CanRestrictBy": true,
-        "RestrictionType": "in",
-        "RestrictionListName": "Pagac, Hayes and Abbott",
+        "Name": "Conroy, Pfannerstill and Greenholt",
+        "CanRestrictBy": false,
+        "RestrictionType": "unde",
+        "RestrictionListName": "Goldner, Kunze and Simonis",
         "IsVisible": false,
-        "ExtraInfo": "consequatur",
-        "Width": "quasi",
-        "IconHint": "dolore",
-        "HeadingIconHint": "fugiat"
+        "ExtraInfo": "repudiandae",
+        "Width": "sed",
+        "IconHint": "repudiandae",
+        "HeadingIconHint": "facere"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Johnston-Connelly",
-        "DisplayTooltip": "qui",
-        "DisplayType": "delectus",
+        "DisplayName": "Stokes Inc and Sons",
+        "DisplayTooltip": "quia",
+        "DisplayType": "quia",
         "CanOrderBy": false,
-        "Name": "Flatley, Cormier and Dach",
-        "CanRestrictBy": true,
-        "RestrictionType": "in",
-        "RestrictionListName": "Pagac, Hayes and Abbott",
+        "Name": "Conroy, Pfannerstill and Greenholt",
+        "CanRestrictBy": false,
+        "RestrictionType": "unde",
+        "RestrictionListName": "Goldner, Kunze and Simonis",
         "IsVisible": false,
-        "ExtraInfo": "consequatur",
-        "Width": "quasi",
-        "IconHint": "dolore",
-        "HeadingIconHint": "fugiat"
+        "ExtraInfo": "repudiandae",
+        "Width": "sed",
+        "IconHint": "repudiandae",
+        "HeadingIconHint": "facere"
       }
     ],
     "Result": null

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Value": "consectetur",
-    "Tooltip": "dolores",
+    "Id": 30,
+    "Value": "repellendus",
+    "Tooltip": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 376
       }
     }
   },
   {
-    "Id": 457,
-    "Value": "consectetur",
-    "Tooltip": "dolores",
+    "Id": 30,
+    "Value": "repellendus",
+    "Tooltip": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 376
       }
     }
   }

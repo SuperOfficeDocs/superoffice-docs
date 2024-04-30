@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=aut
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Ratke-Wolf",
-    "ToolTip": "Et quibusdam aut et non eos deleniti ad.",
+    "Id": 161,
+    "Name": "King LLC",
+    "ToolTip": "Molestiae blanditiis rerum magni dolor ut qui nostrum.",
     "Deleted": true,
-    "Rank": 418,
-    "Type": "enim",
+    "Rank": 558,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Hoppe, Gottlieb and Tremblay",
-        "ToolTip": "Voluptatibus doloribus exercitationem et cum omnis nobis nemo.",
+        "Id": 232,
+        "Name": "Hansen-Hoppe",
+        "ToolTip": "Aut eaque.",
         "Deleted": false,
-        "Rank": 319,
-        "Type": "deleniti",
+        "Rank": 739,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 261,
-        "ExtraInfo": "ullam",
-        "StyleHint": "consequatur",
-        "FullName": "Mrs. Herminia Gutmann",
+        "IconHint": "voluptate",
+        "ColorBlock": 233,
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "natus",
+        "FullName": "Elise Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldType": "System.String",
+            "FieldLength": 352
           }
         }
       }
     ],
-    "IconHint": "quidem",
-    "ColorBlock": 817,
-    "ExtraInfo": "est",
-    "StyleHint": "sed",
-    "FullName": "Alisa Breitenberg",
+    "IconHint": "expedita",
+    "ColorBlock": 337,
+    "ExtraInfo": "ab",
+    "StyleHint": "eos",
+    "FullName": "Prof. Chadrick Kassulke DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 300
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 451,
-    "Name": "Jacobs-Welch",
-    "Tooltip": "doloremque",
+    "HeadingId": 81,
+    "Name": "Hilpert, Wilderman and Wintheiser",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 523,
-    "UdListDefinitionId": 320,
+    "Rank": 244,
+    "UdListDefinitionId": 831,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 778
+        "FieldType": "System.Int32",
+        "FieldLength": 298
       }
     }
   }

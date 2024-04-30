@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    602,
-    377
+    557,
+    487
   ],
-  "StartTime": "2009-08-06T12:19:44.1800107+02:00",
-  "EndTime": "2013-09-24T12:19:44.1800107+02:00"
+  "StartTime": "2015-10-18T11:44:32.4631128+02:00",
+  "EndTime": "2017-02-18T11:44:32.4631128+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 630,
-    "StartDate": "2009-12-02T12:19:44.1800107+01:00",
-    "EndDate": "2013-03-15T12:19:44.1800107+01:00",
+    "AppointmentId": 872,
+    "StartDate": "2020-04-25T11:44:32.4631128+02:00",
+    "EndDate": "2004-02-15T11:44:32.4631128+01:00",
     "Type": "BookingForChecklist",
-    "Task": "perspiciatis",
-    "AssociateFullName": "Dylan Leuschke",
-    "ContactName": "Kuvalis Inc and Sons",
-    "Description": "Operative fresh-thinking firmware",
-    "PersonFullName": "Christy Kuhic",
-    "PersonId": 583,
-    "ContactId": 599,
-    "ProjectId": 810,
-    "ProjectName": "Denesik Group",
+    "Task": "blanditiis",
+    "AssociateFullName": "Frankie Lucy Nicolas III",
+    "ContactName": "Russel-Bailey",
+    "Description": "Compatible mobile adapter",
+    "PersonFullName": "Jacklyn Yost",
+    "PersonId": 720,
+    "ContactId": 715,
+    "ProjectId": 841,
+    "ProjectName": "Kling-Runolfsdottir",
     "IsPublished": false,
-    "AssociateId": 836,
-    "ColorIndex": 230,
+    "AssociateId": 446,
+    "ColorIndex": 830,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 722,
-    "PriorityName": "Hills Inc and Sons",
+    "PriorityId": 313,
+    "PriorityName": "Marquardt LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2012-06-25T12:19:44.1800107+02:00",
+    "ActiveDate": "2018-09-12T11:44:32.4631128+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-12-15T12:19:44.1800107+01:00",
-    "RecurringEndDate": "2001-09-16T12:19:44.1800107+02:00",
-    "MotherId": 160,
-    "AssignedBy": 166,
-    "AssignedByFullName": "Prof. Roma Kunde",
+    "RecurringStartDate": "2016-02-10T11:44:32.4631128+01:00",
+    "RecurringEndDate": "2015-02-08T11:44:32.4631128+01:00",
+    "MotherId": 912,
+    "AssignedBy": 511,
+    "AssignedByFullName": "Dr. Conner West",
     "RejectReason": "",
-    "Location": "nisi",
-    "AlarmLeadTime": "ullam",
-    "SaleId": 931,
-    "SaleName": "Hansen-Gleichner",
-    "AssociateName": "Cormier, Kemmer and Kutch",
-    "CreatedDate": "2009-06-05T12:19:44.1800107+02:00",
-    "CreatedBy": "quidem",
-    "CreatedByFullName": "Ms. Harmon Lazaro Huel",
-    "CreatedByAssociateId": 468,
+    "Location": "earum",
+    "AlarmLeadTime": "aut",
+    "SaleId": 278,
+    "SaleName": "Thiel, Tillman and Bayer",
+    "AssociateName": "Runolfsson, Boyle and Miller",
+    "CreatedDate": "2018-09-21T11:44:32.4631128+02:00",
+    "CreatedBy": "deleniti",
+    "CreatedByFullName": "Darlene Hirthe",
+    "CreatedByAssociateId": 974,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 733,
-    "Title": "pariatur",
-    "Agenda": "enim",
-    "InternalNotes": "debitis",
+    "PreferredTZLocation": 541,
+    "Title": "ullam",
+    "Agenda": "a",
+    "InternalNotes": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldType": "System.Int32",
+        "FieldLength": 72
       }
     }
   }

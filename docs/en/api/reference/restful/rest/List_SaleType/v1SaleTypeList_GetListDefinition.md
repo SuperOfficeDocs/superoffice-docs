@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Kerluke LLC",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "Rank": 228,
+  "Id": 912,
+  "Name": "Crona, Veum and Wehner",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 206,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 407
     }
   },
   "_Links": {

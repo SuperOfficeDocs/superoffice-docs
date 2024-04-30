@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Dare, Welch and Schuster",
-    "ToolTip": "Tempore rerum ut inventore.",
-    "Deleted": true,
-    "Rank": 357,
-    "Type": "provident",
-    "ColorBlock": 952,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "2007-07-29T12:19:54.8520816+02:00",
+    "Id": 103,
+    "Name": "Deckow-Ankunding",
+    "ToolTip": "Voluptatem in aut rerum adipisci.",
+    "Deleted": false,
+    "Rank": 586,
+    "Type": "quis",
+    "ColorBlock": 176,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2017-07-29T11:44:43.3668335+02:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "DuBuque Group",
-        "ToolTip": "Aut fuga et aut nam.",
+        "Id": 938,
+        "Name": "Turcotte LLC",
+        "ToolTip": "Ipsa recusandae modi eveniet rerum autem.",
         "Deleted": false,
-        "Rank": 52,
-        "Type": "error",
-        "ColorBlock": 343,
-        "IconHint": "voluptate",
-        "Selected": false,
-        "LastChanged": "2022-01-26T12:19:54.8520816+01:00",
+        "Rank": 171,
+        "Type": "ut",
+        "ColorBlock": 342,
+        "IconHint": "libero",
+        "Selected": true,
+        "LastChanged": "2015-01-10T11:44:43.3668335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Arjun Graham",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Adriel Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 858
+            "FieldType": "System.Int32",
+            "FieldLength": 953
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "enim",
+    "StyleHint": "maiores",
     "Hidden": true,
-    "FullName": "Mr. Geovanny Roselyn Paucek",
+    "FullName": "Hattie Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 585
       }
     }
   }

@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 335
+  "ProjectId": 605
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 437,
-  "StartDate": "2022-05-31T12:19:46.0077209+02:00",
-  "EndDate": "2012-12-31T12:19:46.0077209+01:00",
+  "AppointmentId": 118,
+  "StartDate": "2003-07-21T11:44:34.1970838+02:00",
+  "EndDate": "2014-08-11T11:44:34.1970838+02:00",
   "Type": "BookingForChecklist",
-  "Task": "qui",
-  "AssociateFullName": "Nicolas Beatty",
-  "ContactName": "Parisian, Hills and Tromp",
-  "Description": "Devolved homogeneous forecast",
-  "PersonFullName": "Josiah Herman",
-  "PersonId": 610,
-  "ContactId": 915,
-  "ProjectId": 238,
-  "ProjectName": "Kuhlman, Schroeder and Becker",
+  "Task": "quam",
+  "AssociateFullName": "Maynard Mayert I",
+  "ContactName": "Graham-Harvey",
+  "Description": "Optimized directional frame",
+  "PersonFullName": "Woodrow Beatty",
+  "PersonId": 785,
+  "ContactId": 187,
+  "ProjectId": 539,
+  "ProjectName": "Casper-Halvorson",
   "IsPublished": false,
-  "AssociateId": 82,
-  "ColorIndex": 124,
+  "AssociateId": 301,
+  "ColorIndex": 49,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 960,
-  "PriorityName": "Ziemann, Bahringer and Wolf",
+  "PriorityId": 850,
+  "PriorityName": "Waelchi, Deckow and Stanton",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2013-11-19T12:19:46.0077209+01:00",
+  "ActiveDate": "2017-03-25T11:44:34.1970838+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2006-10-14T12:19:46.0077209+02:00",
-  "RecurringEndDate": "1998-07-15T12:19:46.0077209+02:00",
-  "MotherId": 940,
-  "AssignedBy": 467,
-  "AssignedByFullName": "Jarred Kuhn I",
+  "RecurringStartDate": "2003-10-04T11:44:34.1970838+02:00",
+  "RecurringEndDate": "2016-03-14T11:44:34.1970838+01:00",
+  "MotherId": 569,
+  "AssignedBy": 266,
+  "AssignedByFullName": "Torey Kihn",
   "RejectReason": "",
-  "Location": "nisi",
-  "AlarmLeadTime": "quaerat",
-  "SaleId": 722,
-  "SaleName": "Leannon LLC",
-  "AssociateName": "Douglas LLC",
-  "CreatedDate": "2017-10-22T12:19:46.0233436+02:00",
-  "CreatedBy": "cum",
-  "CreatedByFullName": "Petra Smitham",
-  "CreatedByAssociateId": 114,
+  "Location": "sed",
+  "AlarmLeadTime": "ab",
+  "SaleId": 374,
+  "SaleName": "Hilll-Koepp",
+  "AssociateName": "Ryan, Turner and Schinner",
+  "CreatedDate": "1998-05-11T11:44:34.1970838+02:00",
+  "CreatedBy": "minima",
+  "CreatedByFullName": "Onie Berge",
+  "CreatedByAssociateId": 253,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 240,
-  "Title": "voluptatem",
-  "Agenda": "tempore",
-  "InternalNotes": "aliquam",
+  "PreferredTZLocation": 580,
+  "Title": "aliquid",
+  "Agenda": "est",
+  "InternalNotes": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 528
     }
   }
 }

@@ -590,7 +590,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=registeredDate,mailingAddr/contact/postAddress/line3,mailingAddr/contact/streetAddress/state,mailingAddr/contact/SaintStatus1,mailingAddr/person/isProjectMember
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/contactExtra/x_contact_default_integer,mailingAddr/contact/LastActivity,mailingAddr/person/email/emailDescription,mailingAddr/person/personAddress/wgs84latitude,associate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

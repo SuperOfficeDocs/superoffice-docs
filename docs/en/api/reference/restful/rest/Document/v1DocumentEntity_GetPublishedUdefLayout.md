@@ -88,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 443,
-    "ColumnId": 419,
-    "FieldDefault": "adipisci",
-    "FieldHeight": 776,
-    "FieldLabel": "dolores",
-    "FieldLeft": 988,
-    "FieldTop": 951,
+    "UDefFieldId": 719,
+    "ColumnId": 902,
+    "FieldDefault": "nisi",
+    "FieldHeight": 437,
+    "FieldLabel": "eaque",
+    "FieldLeft": 949,
+    "FieldTop": 693,
     "FieldType": "Checkbox",
-    "FieldWidth": 199,
-    "FormatMask": "ut",
+    "FieldWidth": 217,
+    "FormatMask": "quam",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 740,
-    "LabelLeft": 514,
-    "LabelTop": 203,
-    "LabelWidth": 830,
-    "LastVersionId": 657,
-    "ListTableId": 130,
-    "IsMandatory": true,
+    "LabelHeight": 554,
+    "LabelLeft": 575,
+    "LabelTop": 368,
+    "LabelWidth": 67,
+    "LastVersionId": 112,
+    "ListTableId": 164,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 802,
-    "ProgId": "illum",
-    "IsReadOnly": false,
-    "ShortLabel": "voluptas",
-    "TabOrder": 610,
-    "TextLength": 907,
-    "Tooltip": "porro",
-    "UdefIdentity": 397,
-    "UDListDefinitionId": 255,
+    "Page1LineNo": 119,
+    "ProgId": "enim",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 516,
+    "TextLength": 737,
+    "Tooltip": "quasi",
+    "UdefIdentity": 249,
+    "UDListDefinitionId": 665,
     "Justification": "Center",
-    "Version": 893,
-    "TemplateVariableName": "Stiedemann-Simonis",
+    "Version": 285,
+    "TemplateVariableName": "Hegmann Group",
     "HasBeenPublished": false,
-    "MdoListName": "Gutmann, Nicolas and Zieme",
+    "MdoListName": "Powlowski-Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 358
       }
     }
   }

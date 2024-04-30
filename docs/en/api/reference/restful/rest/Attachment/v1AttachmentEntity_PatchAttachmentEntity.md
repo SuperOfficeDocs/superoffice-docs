@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "non",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 347,
-  "Name": "Hudson-McGlynn",
-  "ContentType": "voluptate",
-  "AttSize": 125,
+  "AttachmentId": 189,
+  "Name": "Emard, Kshlerin and Runte",
+  "ContentType": "officiis",
+  "AttSize": 433,
   "InlineImage": false,
-  "ContentId": "blanditiis",
-  "AuthKey": "fugiat",
+  "ContentId": "velit",
+  "AuthKey": "eos",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldLength": 113
     }
   },
   "_Links": {

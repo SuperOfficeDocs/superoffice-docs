@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 142,
+  "DocumentId": 382,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "non",
-  "Header": "amet",
-  "Name": "Berge-Schmidt",
-  "OurRef": "ex",
-  "YourRef": "non",
-  "CreatedDate": "2020-11-14T12:19:53.5555078+01:00",
-  "UpdatedDate": "2017-10-25T12:19:53.5555078+02:00",
-  "Description": "Self-enabling intangible solution",
+  "Attention": "ab",
+  "Header": "sit",
+  "Name": "Raynor, Halvorson and Kemmer",
+  "OurRef": "id",
+  "YourRef": "neque",
+  "CreatedDate": "2015-11-19T11:44:41.9452909+01:00",
+  "UpdatedDate": "2017-02-04T11:44:41.9452909+01:00",
+  "Description": "Profit-focused didactic capability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-04-18T12:19:53.5555078+02:00",
-  "ExternalRef": "vitae",
+  "Date": "2011-12-04T11:44:41.9452909+01:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 225,
+  "ActiveLinks": 151,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Morissette, Cartwright and Nader",
-      "Id": 413,
-      "Description": "Proactive background solution",
-      "ExtraInfo": "sit",
-      "LinkId": 255,
+      "EntityName": "Collins-Orn",
+      "Id": 338,
+      "Description": "Balanced bifurcated intranet",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 995,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 93
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 534,
-  "Snum": 937,
+  "SuggestedDocumentId": 838,
+  "Snum": 758,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bria Feest",
-    "SuperOffice:2": "1765539082"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mr. Roxane Charley Prosacco"
   },
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "non"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "ratione"
   },
-  "PublishEventDate": "2023-01-08T12:19:53.5555078+01:00",
-  "PublishTo": "2001-07-23T12:19:53.5555078+02:00",
-  "PublishFrom": "2006-06-01T12:19:53.5555078+02:00",
+  "PublishEventDate": "1997-02-04T11:44:41.9452909+01:00",
+  "PublishTo": "2019-07-02T11:44:41.9452909+02:00",
+  "PublishFrom": "2020-12-28T11:44:41.9452909+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 395,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 567
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 395,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 567
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

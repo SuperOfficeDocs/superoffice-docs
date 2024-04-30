@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -132,63 +132,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 374,
+  "EjMessageId": 458,
   "Ticket": null,
-  "CreatedAt": "2004-07-06T12:19:54.0553956+02:00",
+  "CreatedAt": "1999-01-13T11:44:42.679493+01:00",
   "CreatedBy": null,
-  "Author": "veritatis",
+  "Author": "quis",
   "Slevel": "External",
   "Type": "Html",
   "MessageId": "suscipit",
-  "TimeSpent": 680,
-  "Body": "itaque",
-  "HtmlBody": "vero",
-  "EmailHeader": "sabryna_hoeger@sanford.biz",
-  "DebugInfo": "aut",
-  "MailSorter": "repellendus",
+  "TimeSpent": 177,
+  "Body": "qui",
+  "HtmlBody": "provident",
+  "EmailHeader": "chaya.swaniawski@klein.name",
+  "DebugInfo": "et",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "asperiores",
   "MessageHeaders": [
     {
-      "Id": 640,
-      "Name": "Conn LLC",
-      "Value": "sed",
+      "Id": 748,
+      "Name": "Morissette, Stehr and Reichert",
+      "Value": "animi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 640,
-      "Name": "Conn LLC",
-      "Value": "sed",
+      "Id": 748,
+      "Name": "Morissette, Stehr and Reichert",
+      "Value": "animi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "repudiandae",
-  "Sentiment": 527,
-  "SentimentConfidence": 195,
+  "Language": "qui",
+  "Sentiment": 132,
+  "SentimentConfidence": 340,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 200,
-      "Name": "Kertzmann Group",
-      "ContentType": "perspiciatis",
-      "AttSize": 139,
-      "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "neque",
-      "IsSafeFileExtension": false
+      "AttachmentId": 87,
+      "Name": "Bode-Willms",
+      "ContentType": "dicta",
+      "AttSize": 815,
+      "InlineImage": false,
+      "ContentId": "quisquam",
+      "AuthKey": "pariatur",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "magni"
+    "CustomFields1": "aut",
+    "CustomFields2": "veritatis"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 547,
+  "EjMessageId": 565,
   "Ticket": null,
-  "CreatedAt": "2004-12-21T12:19:54.0710197+01:00",
+  "CreatedAt": "2009-04-01T11:44:42.679493+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quo",
-  "TimeSpent": 283,
-  "Body": "ipsum",
-  "HtmlBody": "sit",
-  "EmailHeader": "amparo@heidenreich.co.uk",
-  "DebugInfo": "voluptas",
-  "MailSorter": "omnis",
+  "MessageId": "tenetur",
+  "TimeSpent": 256,
+  "Body": "quas",
+  "HtmlBody": "praesentium",
+  "EmailHeader": "janelle@gerholdvandervort.biz",
+  "DebugInfo": "rerum",
+  "MailSorter": "molestias",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatum",
+  "SearchTitle": "id",
   "MessageHeaders": [
     {
-      "Id": 453,
-      "Name": "Heller Inc and Sons",
-      "Value": "molestiae",
+      "Id": 491,
+      "Name": "McGlynn-Effertz",
+      "Value": "accusantium",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 27
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "aliquam",
-  "Sentiment": 380,
-  "SentimentConfidence": 150,
+  "Important": false,
+  "Language": "porro",
+  "Sentiment": 566,
+  "SentimentConfidence": 71,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 326,
-      "Name": "Cartwright Group",
-      "ContentType": "est",
-      "AttSize": 499,
+      "AttachmentId": 227,
+      "Name": "Bergstrom LLC",
+      "ContentType": "et",
+      "AttSize": 888,
       "InlineImage": true,
-      "ContentId": "impedit",
-      "AuthKey": "incidunt",
+      "ContentId": "adipisci",
+      "AuthKey": "dolores",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 766
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "sit",
+    "CustomFields2": "deserunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

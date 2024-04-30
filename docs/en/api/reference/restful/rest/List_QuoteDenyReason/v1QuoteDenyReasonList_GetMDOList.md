@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=accusantium
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=dolorum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Gerhold Inc and Sons",
-    "ToolTip": "Mollitia provident soluta consequatur et.",
+    "Id": 721,
+    "Name": "Wisozk Group",
+    "ToolTip": "Ad ab.",
     "Deleted": false,
-    "Rank": 434,
-    "Type": "doloremque",
+    "Rank": 306,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Gutmann-Hodkiewicz",
-        "ToolTip": "Ducimus aspernatur qui ducimus quasi iure.",
-        "Deleted": false,
-        "Rank": 880,
-        "Type": "corrupti",
+        "Id": 615,
+        "Name": "Dickinson Inc and Sons",
+        "ToolTip": "Libero eos quas quibusdam voluptas.",
+        "Deleted": true,
+        "Rank": 943,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 378,
-        "ExtraInfo": "in",
-        "StyleHint": "aut",
-        "FullName": "Aron Boyer",
+        "IconHint": "quas",
+        "ColorBlock": 11,
+        "ExtraInfo": "tempore",
+        "StyleHint": "omnis",
+        "FullName": "Alayna Citlalli Dach PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 349
+            "FieldLength": 402
           }
         }
       }
     ],
-    "IconHint": "libero",
-    "ColorBlock": 881,
-    "ExtraInfo": "dicta",
-    "StyleHint": "itaque",
-    "FullName": "Geraldine Harvey",
+    "IconHint": "voluptates",
+    "ColorBlock": 27,
+    "ExtraInfo": "dolores",
+    "StyleHint": "atque",
+    "FullName": "Fatima Garth Murazik PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 878
       }
     }
   }

@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2010-09-18T12:19:44.8829726+02:00",
+  "ActivityStartTime": "2013-07-08T11:44:33.0410903+02:00",
   "ContactCategories": [
-    124,
-    552
+    828,
+    939
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 530,
+    "ContactId": 848,
     "Department": "",
-    "OrgNr": "1115964",
-    "Name": "Wuckert-Spencer",
+    "OrgNr": "972961",
+    "Name": "Legros Inc and Sons",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Ms. Zola Barrows",
+    "AssociateFullName": "Prof. Eryn Keebler",
     "Action": "ActivityCompleted",
-    "ActionTime": "2003-11-22T12:19:44.8829726+01:00",
+    "ActionTime": "2000-09-29T11:44:33.0567111+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Wisoky Inc and Sons",
-    "ActionId": 840,
-    "PersonId": 706,
-    "ActivityPersonId": 531,
-    "AssociateId": 19,
+    "ActivityPersonName": "Lang Group",
+    "ActionId": 246,
+    "PersonId": 997,
+    "ActivityPersonId": 554,
+    "AssociateId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldLength": 186
       }
     }
   }

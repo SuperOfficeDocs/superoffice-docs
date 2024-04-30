@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Kiehn-Bednar",
-  "Tooltip": "excepturi",
+  "Id": 201,
+  "Name": "Nienow, Fahey and Nolan",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "UdListDefinitionId": 239,
-  "Rank": 286,
+  "UdListDefinitionId": 817,
+  "Rank": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 955
     }
   }
 }

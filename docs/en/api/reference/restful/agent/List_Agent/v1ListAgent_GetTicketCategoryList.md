@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 971,
-    "ParentId": 514,
-    "Name": "Okuneva Group",
-    "Fullname": "exercitationem",
-    "CategoryMaster": 13,
+    "TicketCategoryId": 319,
+    "ParentId": 646,
+    "Name": "Sipes, Zulauf and Windler",
+    "Fullname": "et",
+    "CategoryMaster": 756,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Farrell Group",
+    "ExternalName": "Nader LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 978,
-    "ReplyTemplate": 817,
-    "NotificationEmail": "quentin.boyle@bernier.ca",
+    "AssignmentLag": 99,
+    "ReplyTemplate": 122,
+    "NotificationEmail": "dereck_kutch@grant.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 156,
+    "EffectiveReplyTemplateId": 642,
     "ExtraFields": {
-      "ExtraFields1": "facere",
-      "ExtraFields2": "ab"
+      "ExtraFields1": "veniam",
+      "ExtraFields2": "perferendis"
     },
     "CustomFields": {
-      "CustomFields1": "voluptas",
-      "CustomFields2": "delectus"
+      "CustomFields1": "hic",
+      "CustomFields2": "porro"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 904
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

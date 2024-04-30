@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "nostrum",
   "value": [
     {
-      "PrimaryKey": 9176,
+      "PrimaryKey": 8556,
       "EntityName": "sale",
-      "saleId": 9176,
-      "contactId": 9732,
-      "name": "D'Amore, Mertz and Crooks"
+      "saleId": 8556,
+      "contactId": 9876,
+      "name": "Mante Inc and Sons"
     },
     {
-      "PrimaryKey": 1472,
+      "PrimaryKey": 788,
       "EntityName": "sale",
-      "saleId": 1472,
-      "contactId": 6886,
-      "name": "Grant, Beatty and Robel"
+      "saleId": 788,
+      "contactId": 4822,
+      "name": "Farrell-Beahan"
     }
   ]
 }

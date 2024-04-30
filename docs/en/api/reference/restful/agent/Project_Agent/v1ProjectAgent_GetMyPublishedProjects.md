@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 832,
-    "Name": "Maggio Group",
-    "Description": "Mandatory upward-trending time-frame",
+    "ProjectId": 660,
+    "Name": "Kerluke Group",
+    "Description": "Reactive bifurcated encryption",
     "URL": "http://www.example.com/",
-    "Type": "cupiditate",
-    "AssociateId": 368,
-    "AssociateFullName": "Kasey Satterfield",
-    "TypeId": 184,
-    "Updated": "2013-06-20T12:19:46.038959+02:00",
-    "StatusId": 586,
-    "Status": "est",
-    "TextId": 923,
-    "PublishTo": "2001-11-14T12:19:46.038959+01:00",
-    "PublishFrom": "2023-06-21T12:19:46.038959+02:00",
+    "Type": "quisquam",
+    "AssociateId": 196,
+    "AssociateFullName": "Rosamond Heidenreich",
+    "TypeId": 378,
+    "Updated": "2003-03-30T11:44:34.2126949+02:00",
+    "StatusId": 358,
+    "Status": "mollitia",
+    "TextId": 732,
+    "PublishTo": "2005-09-18T11:44:34.2126949+02:00",
+    "PublishFrom": "2021-04-15T11:44:34.2126949+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1293442",
-    "ActiveErpLinks": 124,
+    "ProjectNumber": "384110",
+    "ActiveErpLinks": 117,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 129
+        "FieldType": "System.Int32",
+        "FieldLength": 361
       }
     }
   }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 532,
-  "StartTime": "2005-04-24T12:19:45.0704356+02:00",
-  "EndTime": "2020-12-08T12:19:45.0704356+01:00",
-  "Count": 865,
-  "DocumentTemplateId": 864
+  "PersonId": 789,
+  "StartTime": "1999-06-22T11:44:33.4160074+02:00",
+  "EndTime": "1997-09-22T11:44:33.4160074+02:00",
+  "Count": 375,
+  "DocumentTemplateId": 880
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 671,
-    "Attention": "illo",
-    "Header": "recusandae",
-    "Name": "Bosco-Ankunding",
-    "OurRef": "nulla",
+    "DocumentId": 797,
+    "Attention": "deserunt",
+    "Header": "quibusdam",
+    "Name": "Kirlin-Hodkiewicz",
+    "OurRef": "neque",
     "YourRef": "non",
-    "Description": "Persistent homogeneous synergy",
-    "DocumentTemplate": "quia",
-    "IsPublished": false,
-    "PersonId": 774,
-    "PersonFullName": "Dulce Borer",
-    "AssociateFullName": "Dr. Cortney Padberg",
-    "ContactId": 107,
-    "ContactName": "Kuphal, Moen and Zulauf",
-    "ProjectId": 167,
-    "ProjectName": "Keeling-Rice",
-    "AssociateId": 129,
-    "Snum": 722,
-    "SaleId": 808,
-    "SaleName": "Gottlieb-Stoltenberg",
+    "Description": "Upgradable coherent artificial intelligence",
+    "DocumentTemplate": "tempora",
+    "IsPublished": true,
+    "PersonId": 888,
+    "PersonFullName": "Mr. Casper Gerlach",
+    "AssociateFullName": "Devante Spinka",
+    "ContactId": 778,
+    "ContactName": "Bradtke Inc and Sons",
+    "ProjectId": 561,
+    "ProjectName": "Wolf, Mitchell and Kerluke",
+    "AssociateId": 100,
+    "Snum": 557,
+    "SaleId": 522,
+    "SaleName": "Haley Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 505
+        "FieldLength": 749
       }
     }
   }

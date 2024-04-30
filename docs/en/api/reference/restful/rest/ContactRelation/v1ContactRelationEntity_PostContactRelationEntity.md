@@ -114,24 +114,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 859,
-  "SourcePersonId": 380,
-  "DestinationContactId": 907,
-  "DestinationPersonId": 266,
-  "RelationId": 997,
-  "Comment": "ut",
-  "RelationDefinitionId": 699,
-  "Reversed": 352,
-  "UpdatedDate": "2005-10-14T12:19:53.2899404+02:00",
-  "CreatedDate": "2011-01-07T12:19:53.2899404+01:00",
+  "SourceContactId": 58,
+  "SourcePersonId": 102,
+  "DestinationContactId": 502,
+  "DestinationPersonId": 553,
+  "RelationId": 39,
+  "Comment": "earum",
+  "RelationDefinitionId": 960,
+  "Reversed": 548,
+  "UpdatedDate": "2015-03-13T11:44:41.8515534+01:00",
+  "CreatedDate": "2005-07-31T11:44:41.8515534+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Collier-Watsica",
-  "SourcePersonName": "Hauck-Effertz",
-  "DestinationContactName": "Cole LLC",
-  "DestinationPersonName": "Stiedemann, Little and Ratke",
-  "ActiveText": "quia",
-  "PassiveText": "perferendis"
+  "SourceContactName": "Schaden, Veum and Gerhold",
+  "SourcePersonName": "Fahey, Haag and Waters",
+  "DestinationContactName": "Schumm, Lockman and O'Hara",
+  "DestinationPersonName": "Lubowitz-Dare",
+  "ActiveText": "harum",
+  "PassiveText": "nobis"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 593,
-  "SourcePersonId": 286,
-  "DestinationContactId": 418,
-  "DestinationPersonId": 431,
-  "RelationId": 969,
-  "Comment": "cum",
-  "RelationDefinitionId": 400,
-  "Reversed": 800,
-  "UpdatedDate": "2001-07-29T12:19:53.2899404+02:00",
-  "CreatedDate": "2021-12-17T12:19:53.2899404+01:00",
+  "SourceContactId": 495,
+  "SourcePersonId": 514,
+  "DestinationContactId": 783,
+  "DestinationPersonId": 58,
+  "RelationId": 31,
+  "Comment": "possimus",
+  "RelationDefinitionId": 160,
+  "Reversed": 361,
+  "UpdatedDate": "2005-07-23T11:44:41.8515534+02:00",
+  "CreatedDate": "2008-11-02T11:44:41.8515534+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Nolan LLC",
-  "SourcePersonName": "Hoeger-Zemlak",
-  "DestinationContactName": "Homenick LLC",
-  "DestinationPersonName": "Bechtelar Inc and Sons",
-  "ActiveText": "voluptas",
-  "PassiveText": "sit",
+  "SourceContactName": "Rohan Group",
+  "SourcePersonName": "Gorczany Group",
+  "DestinationContactName": "Becker-Reinger",
+  "DestinationPersonName": "Tremblay Group",
+  "ActiveText": "voluptatum",
+  "PassiveText": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 135
     }
   },
   "_Links": {

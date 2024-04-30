@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "quis"
+  "ChatId": "voluptatum"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2003-01-04T12:19:44.1019032+01:00",
-    "UserPrompt": "officiis",
-    "UserDisplayText": "laboriosam",
-    "BotResponse": "repellendus",
+    "Timestamp": "2014-04-17T11:44:32.228788+02:00",
+    "UserPrompt": "facilis",
+    "UserDisplayText": "libero",
+    "BotResponse": "asperiores",
     "BotActions": {
       "BotActions1": "sint",
-      "BotActions2": "delectus"
+      "BotActions2": "necessitatibus"
     },
     "Attachments": [
-      "corrupti",
-      "alias"
+      "nisi",
+      "voluptatem"
     ]
   },
   {
-    "Timestamp": "2003-01-04T12:19:44.1019032+01:00",
-    "UserPrompt": "officiis",
-    "UserDisplayText": "laboriosam",
-    "BotResponse": "repellendus",
+    "Timestamp": "2014-04-17T11:44:32.228788+02:00",
+    "UserPrompt": "facilis",
+    "UserDisplayText": "libero",
+    "BotResponse": "asperiores",
     "BotActions": {
       "BotActions1": "sint",
-      "BotActions2": "delectus"
+      "BotActions2": "necessitatibus"
     },
     "Attachments": [
-      "corrupti",
-      "alias"
+      "nisi",
+      "voluptatem"
     ]
   }
 ]

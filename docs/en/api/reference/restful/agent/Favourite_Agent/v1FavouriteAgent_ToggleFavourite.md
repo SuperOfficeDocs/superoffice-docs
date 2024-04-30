@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Keefe, Flatley and Wiza",
-  "RecordId": 865,
-  "AssociateId": 83,
-  "ExtraInfo": "qui"
+  "TableName": "Keebler-Jacobson",
+  "RecordId": 424,
+  "AssociateId": 53,
+  "ExtraInfo": "delectus"
 }
 ```
 

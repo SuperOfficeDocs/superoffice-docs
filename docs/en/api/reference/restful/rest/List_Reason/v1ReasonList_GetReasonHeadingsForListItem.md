@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Kreiger LLC",
-    "ToolTip": "Perferendis iusto soluta qui ea non expedita.",
+    "Id": 540,
+    "Name": "Green-Schumm",
+    "ToolTip": "Quia ut qui debitis sint maxime.",
     "Deleted": false,
-    "Rank": 336,
-    "Type": "molestiae",
-    "ColorBlock": 95,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2020-01-20T12:19:54.8052144+01:00",
+    "Rank": 742,
+    "Type": "cumque",
+    "ColorBlock": 355,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2009-07-04T11:44:43.2887254+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Huel-Howell",
-        "ToolTip": "Voluptas et vero voluptas hic qui.",
+        "Id": 465,
+        "Name": "Berge LLC",
+        "ToolTip": "Id non fugit est iure.",
         "Deleted": false,
-        "Rank": 377,
-        "Type": "nihil",
-        "ColorBlock": 523,
-        "IconHint": "quas",
-        "Selected": false,
-        "LastChanged": "1998-01-31T12:19:54.8052144+01:00",
+        "Rank": 419,
+        "Type": "aut",
+        "ColorBlock": 687,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2006-05-30T11:44:43.2887254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "sunt",
+        "ExtraInfo": "quis",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mrs. Marta Bernier",
+        "FullName": "Edwardo Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldLength": 688
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Herman Kling",
+    "ExtraInfo": "in",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Jacklyn Prohaska PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   }

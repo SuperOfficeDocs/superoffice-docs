@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 230,
-  "StartTime": "2000-11-27T12:19:45.0704356+01:00",
-  "EndTime": "1999-06-17T12:19:45.0704356+02:00",
-  "Count": 115,
+  "ContactId": 146,
+  "StartTime": "1997-04-17T11:44:33.4160074+02:00",
+  "EndTime": "2009-07-07T11:44:33.4160074+02:00",
+  "Count": 444,
   "DocumentTemplateIds": [
-    216,
-    324
+    389,
+    373
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 815,
-    "Attention": "ipsam",
-    "Header": "autem",
-    "Name": "Conn Inc and Sons",
-    "OurRef": "facere",
-    "YourRef": "corporis",
-    "Description": "Public-key system-worthy policy",
-    "DocumentTemplate": "in",
-    "IsPublished": true,
-    "PersonId": 836,
-    "PersonFullName": "Kathlyn Medhurst",
-    "AssociateFullName": "Ms. Alda McClure II",
-    "ContactId": 763,
-    "ContactName": "Russel Inc and Sons",
-    "ProjectId": 132,
-    "ProjectName": "Hudson, Russel and O'Keefe",
-    "AssociateId": 565,
-    "Snum": 122,
-    "SaleId": 631,
-    "SaleName": "Deckow, Feest and Trantow",
+    "DocumentId": 346,
+    "Attention": "molestiae",
+    "Header": "blanditiis",
+    "Name": "Jacobi, Wyman and Kessler",
+    "OurRef": "voluptas",
+    "YourRef": "ut",
+    "Description": "Implemented dynamic standardization",
+    "DocumentTemplate": "voluptatem",
+    "IsPublished": false,
+    "PersonId": 798,
+    "PersonFullName": "Freida Morissette",
+    "AssociateFullName": "Ms. Sincere Gabriel Gusikowski",
+    "ContactId": 918,
+    "ContactName": "Mitchell Inc and Sons",
+    "ProjectId": 32,
+    "ProjectName": "Braun LLC",
+    "AssociateId": 893,
+    "Snum": 238,
+    "SaleId": 421,
+    "SaleName": "Crona-Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 332
+        "FieldLength": 183
       }
     }
   }

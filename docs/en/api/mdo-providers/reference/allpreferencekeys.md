@@ -50,7 +50,7 @@ foreach (var item in listProvider.RootItems) {
 |1000074|Alarm on follow-up||[SR_PD_DiaryView_NAME]|
 |1000061|All-day end time|bold|[SR_PD_DiaryView_NAME]|
 |1000062|All-day start time|bold|[SR_PD_DiaryView_NAME]|
-|1000153|Archive sent appointments||[SR_PD_Mail_NAME]|
+|1000153|Archive sent follow-ups||[SR_PD_Mail_NAME]|
 |1000154|Archive sent documents||[SR_PD_Mail_NAME]|
 |1000155|Archive forwarded e-mail||[SR_PD_Mail_NAME]|
 |1000098|Archive page size||[SR_PD_Functions_NAME]|

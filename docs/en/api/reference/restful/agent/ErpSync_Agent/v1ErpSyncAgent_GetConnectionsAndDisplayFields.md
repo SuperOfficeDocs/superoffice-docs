@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 797
+  "EntityId": 176
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 992,
-    "ConnectionName": "Emard Inc and Sons",
-    "Connected": false,
+    "ErpConnectionId": 534,
+    "ConnectionName": "Shanahan LLC",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "autem",
-        "Rank": 296,
-        "DisplayName": "Mohr Group",
-        "DisplayDescription": "Focused bandwidth-monitored local area network",
+        "FieldKey": "illum",
+        "Rank": 806,
+        "DisplayName": "Bednar-Blick",
+        "DisplayDescription": "Automated motivating ability",
         "FieldType": "Checkbox",
-        "ListName": "Schimmel LLC",
-        "DefaultValue": "consequatur",
-        "MaxLength": 220,
+        "ListName": "Zieme Group",
+        "DefaultValue": "animi",
+        "MaxLength": 443,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 423
+            "FieldType": "System.Int32",
+            "FieldLength": 672
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "molestiae",
-      "eaque"
+      "veniam",
+      "nulla"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 843
       }
     }
   }

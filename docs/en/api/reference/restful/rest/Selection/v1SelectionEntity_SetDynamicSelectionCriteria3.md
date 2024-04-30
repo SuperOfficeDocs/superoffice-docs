@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schaden LLC",
-    "Operator": "voluptatem",
+    "Name": "Leannon LLC",
+    "Operator": "id",
     "Values": [
-      "natus",
-      "magni"
+      "quis",
+      "minus"
     ],
     "DisplayValues": [
-      "alias",
-      "impedit"
+      "beatae",
+      "consequatur"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Blanda-Lowe",
-        "Operator": "voluptatem",
+        "Name": "Bode Inc and Sons",
+        "Operator": "rerum",
         "Values": [
-          "maiores",
-          "voluptatem"
+          "ut",
+          "cupiditate"
         ],
         "DisplayValues": [
-          "aspernatur",
-          "sunt"
+          "accusantium",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 104,
+        "InterParenthesis": 223,
         "InterOperator": "And",
-        "UniqueHash": 351
+        "UniqueHash": 785
       }
     ],
-    "InterParenthesis": 223,
+    "InterParenthesis": 814,
     "InterOperator": "And",
-    "UniqueHash": 931
+    "UniqueHash": 644
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kris-Flatley",
-    "Operator": "tempora",
+    "Name": "Roob-Ebert",
+    "Operator": "aut",
     "Values": [
-      "delectus",
-      "aut"
+      "voluptate",
+      "voluptatem"
     ],
     "DisplayValues": [
-      "et",
-      "et"
+      "doloribus",
+      "maiores"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Hauck LLC",
-        "Operator": "et",
+        "Name": "Corkery-Simonis",
+        "Operator": "placeat",
         "Values": [
-          "at",
-          "cumque"
+          "animi",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "est",
-          "beatae"
+          "sit",
+          "eligendi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 999,
+        "InterParenthesis": 621,
         "InterOperator": "And",
-        "UniqueHash": 313
+        "UniqueHash": 166
       }
     ],
-    "InterParenthesis": 966,
+    "InterParenthesis": 201,
     "InterOperator": "And",
-    "UniqueHash": 888
+    "UniqueHash": 363
   }
 ]
 ```

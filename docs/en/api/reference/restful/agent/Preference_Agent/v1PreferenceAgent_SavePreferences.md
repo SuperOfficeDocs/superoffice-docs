@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "placeat",
+      "RawValue": "non",
       "Specification": null,
-      "DisplayValue": "aut",
-      "DisplayTooltip": "sequi",
+      "DisplayValue": "consequuntur",
+      "DisplayTooltip": "accusantium",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 323,
-      "PrefDescId": 910,
-      "TableName": "Emard Group",
-      "UserPreferenceId": 242
+      "TargetId": 609,
+      "PrefDescId": 567,
+      "TableName": "Bradtke Inc and Sons",
+      "UserPreferenceId": 409
     }
   ]
 }

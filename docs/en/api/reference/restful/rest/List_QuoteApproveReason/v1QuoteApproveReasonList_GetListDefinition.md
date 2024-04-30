@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Collier-Okuneva",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 618,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 987,
+  "Name": "Willms, Hansen and Jast",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 226,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

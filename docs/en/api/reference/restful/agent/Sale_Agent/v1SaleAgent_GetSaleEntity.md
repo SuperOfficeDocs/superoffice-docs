@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=156
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=176
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "blanditiis",
+  "SaleText": "quam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-01-08T12:19:46.1951792+01:00",
-  "Amount": 27861.26,
-  "SaleId": 119,
-  "Earning": 22129.174,
-  "EarningPercent": 30600.376,
-  "Heading": "non",
-  "Number": "1032507",
-  "Probability": 878,
-  "CreatedDate": "2011-04-27T12:19:46.1951792+02:00",
-  "UpdatedDate": "1997-08-24T12:19:46.1951792+02:00",
+  "Saledate": "2006-12-23T11:44:34.3845408+01:00",
+  "Amount": 16434.696,
+  "SaleId": 566,
+  "Earning": 7330.4259999999995,
+  "EarningPercent": 1842.792,
+  "Heading": "aut",
+  "Number": "755999",
+  "Probability": 777,
+  "CreatedDate": "2008-05-02T11:44:34.3845408+02:00",
+  "UpdatedDate": "2009-08-17T11:44:34.3845408+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 809,
+  "ActiveLinks": 497,
   "Links": [
     {
-      "EntityName": "Leffler LLC",
-      "Id": 154,
-      "Description": "Public-key incremental protocol",
-      "ExtraInfo": "ullam",
-      "LinkId": 812,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 333
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2023-11-10T12:19:46.1951792+01:00",
-  "Postit": "tenetur",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2012-06-29T12:19:46.1951792+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Hackett, Stroman and Reinger",
-      "Comment": "eaque",
-      "StakeholderRoleId": 660,
-      "CountryId": 523,
-      "PersonId": 843,
-      "EmailDescription": "porter_rutherford@larsonpowlowski.uk",
-      "EmailId": 404,
-      "EmailAddress": "nova@bode.biz",
-      "PhoneId": 530,
-      "ContactName": "Ortiz, Koepp and Streich",
-      "ContactId": 174,
-      "SaleId": 1000,
-      "Mrmrs": "aut",
-      "Firstname": "Bridie",
-      "MiddleName": "Hintz Inc and Sons",
-      "Lastname": "Miller",
-      "SaleStakeholderId": 675,
-      "Rank": 21,
-      "Phone": "(552)714-8341",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 606
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 448,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Miss Roma Schultz"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "asperiores"
-  },
-  "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "soluta"
-  },
-  "PublishEventDate": "2017-11-23T12:19:46.1951792+01:00",
-  "PublishTo": "2019-11-01T12:19:46.1951792+01:00",
-  "PublishFrom": "1998-04-05T12:19:46.1951792+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 352,
-      "Visibility": "All",
-      "DisplayValue": "officia",
+      "EntityName": "Cremin Group",
+      "Id": 502,
+      "Description": "Universal tangible circuit",
+      "ExtraInfo": "non",
+      "LinkId": 606,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 673
+        }
+      }
+    }
+  ],
+  "NextDueDate": "1997-11-19T11:44:34.3845408+01:00",
+  "Postit": "voluptatibus",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2004-02-21T11:44:34.3845408+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Fahey-O'Conner",
+      "Comment": "est",
+      "StakeholderRoleId": 17,
+      "CountryId": 738,
+      "PersonId": 163,
+      "EmailDescription": "ada@denesik.uk",
+      "EmailId": 314,
+      "EmailAddress": "yvette.schmidt@bauch.biz",
+      "PhoneId": 458,
+      "ContactName": "Ortiz Group",
+      "ContactId": 291,
+      "SaleId": 796,
+      "Mrmrs": "aut",
+      "Firstname": "Helena",
+      "MiddleName": "Boehm Inc and Sons",
+      "Lastname": "Mann",
+      "SaleStakeholderId": 193,
+      "Rank": 364,
+      "Phone": "532.594.3301 x6059",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 444
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 530,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "sint",
+    "ExtraFields2": "ex"
+  },
+  "CustomFields": {
+    "CustomFields1": "modi",
+    "CustomFields2": "voluptates"
+  },
+  "PublishEventDate": "2001-08-29T11:44:34.3845408+02:00",
+  "PublishTo": "2021-02-17T11:44:34.3845408+01:00",
+  "PublishFrom": "2017-05-20T11:44:34.3845408+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 657,
+      "Visibility": "All",
+      "DisplayValue": "culpa",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 301
         }
       }
     },
     {
-      "VisibleId": 352,
+      "VisibleId": 657,
       "Visibility": "All",
-      "DisplayValue": "officia",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldType": "System.String",
+          "FieldLength": 301
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 944
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

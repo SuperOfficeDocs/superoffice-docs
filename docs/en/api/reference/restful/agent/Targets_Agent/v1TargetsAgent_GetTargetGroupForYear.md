@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 61,
+  "TargetYear": 237,
   "EntityType": "None"
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 102,
-  "Year": 991,
+  "TargetGroupId": 945,
+  "Year": 597,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 870,
+      "TargetAssignmentInfoId": 346,
       "Values": [
-        767,
-        136
+        434,
+        768
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 438,
-      "DimensionListItemDisplayName": "Reinger, Lemke and Rogahn",
+      "DimensionListItem": 971,
+      "DimensionListItemDisplayName": "Will LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
+          "FieldType": "System.String",
           "FieldLength": 606
         }
       }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 396
     }
   }
 }

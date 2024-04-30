@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 534,
-  "UniqueId": "ullam",
-  "Name": "Stoltenberg Inc and Sons",
-  "Description": "Profound exuding Graphic Interface",
-  "AssociateId": 633,
-  "Columns": 107,
+  "DashboardId": 985,
+  "UniqueId": "velit",
+  "Name": "Yost Inc and Sons",
+  "Description": "Cross-platform clear-thinking software",
+  "AssociateId": 361,
+  "Columns": 576,
   "Theme": null,
-  "VisibleForAll": 335,
+  "VisibleForAll": 88,
   "VisibleForAssociates": [
-    699,
-    906
+    585,
+    278
   ],
   "VisibleForGroups": [
-    651,
-    748
+    68,
+    915
   ],
-  "PinForAll": 340,
+  "PinForAll": 646,
   "PinForAssociates": [
-    100,
-    895
+    834,
+    69
   ],
   "PinForGroups": [
-    329,
-    825
+    444,
+    702
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 329
     }
   }
 }

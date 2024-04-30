@@ -63,6 +63,10 @@ The TicketTypeEntity to be saved.
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | Boolean | Is this Ticket Type marked as default |
+| ShowInNew | Boolean | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | Boolean | Do not insert user signature automatically |
+| ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 
 ## Response:
 
@@ -88,6 +92,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -98,28 +106,32 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 692,
-  "Name": "Lowe, Goodwin and Dare",
-  "Rank": 654,
-  "Tooltip": "tempore",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 384,
+  "TicketTypeId": 211,
+  "Name": "Hills LLC",
+  "Rank": 485,
+  "Tooltip": "id",
+  "Icon": "velit",
+  "DefaultTicketStatus": 234,
   "TicketStatuses": [
-    477,
-    577
+    767,
+    350
   ],
-  "DefaultTicketPriority": 10,
+  "DefaultTicketPriority": 146,
   "TicketPriorities": [
-    721,
-    175
+    394,
+    937
   ],
-  "ReplyTemplate": 836,
-  "IsExternalVisible": false,
-  "IsDefault": false
+  "ReplyTemplate": 332,
+  "IsExternalVisible": true,
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false
 }
 ```
 
@@ -130,35 +142,39 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 248,
-  "Name": "Mayert Group",
-  "Rank": 280,
-  "Tooltip": "a",
-  "Icon": "illo",
-  "DefaultTicketStatus": 358,
+  "TicketTypeId": 279,
+  "Name": "McDermott Inc and Sons",
+  "Rank": 199,
+  "Tooltip": "et",
+  "Icon": "dicta",
+  "DefaultTicketStatus": 505,
   "TicketStatuses": [
-    420,
-    921
+    898,
+    173
   ],
-  "DefaultTicketPriority": 658,
+  "DefaultTicketPriority": 142,
   "TicketPriorities": [
-    952,
-    676
+    911,
+    117
   ],
-  "ReplyTemplate": 296,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 266,
+  "IsExternalVisible": true,
   "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 884
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 674,
-      "ContactName": "Rippin, Torp and Reynolds",
-      "PersonId": 882,
-      "PersonName": "Gislason, Conn and Moen",
-      "AssociateId": 623,
-      "Address": "inventore",
-      "EmailId": 356,
+      "ContactId": 454,
+      "ContactName": "Marks, Steuber and Koss",
+      "PersonId": 787,
+      "PersonName": "Rempel-Corkery",
+      "AssociateId": 138,
+      "Address": "velit",
+      "EmailId": 205,
       "DuplicatePersonIds": [
-        547,
-        349
+        52,
+        229
       ],
-      "Name": "Abbott-Murray",
+      "Name": "Feest-Hegmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldLength": 202
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 130,
-      "ContactName": "White-Ziemann",
-      "PersonId": 115,
-      "PersonName": "Kessler-Grant",
-      "AssociateId": 313,
-      "Address": "nihil",
-      "EmailId": 740,
+      "ContactId": 852,
+      "ContactName": "Rempel Inc and Sons",
+      "PersonId": 936,
+      "PersonName": "Windler Inc and Sons",
+      "AssociateId": 669,
+      "Address": "voluptate",
+      "EmailId": 693,
       "DuplicatePersonIds": [
-        589,
-        498
+        125,
+        666
       ],
-      "Name": "O'Kon LLC",
+      "Name": "Weimann-Streich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 670,
-      "ContactName": "Lebsack-Kassulke",
-      "PersonId": 201,
-      "PersonName": "Botsford LLC",
-      "AssociateId": 661,
-      "Address": "vero",
-      "EmailId": 368,
+      "ContactId": 59,
+      "ContactName": "Gusikowski, Hoeger and Nitzsche",
+      "PersonId": 449,
+      "PersonName": "Barton, Berge and Johnston",
+      "AssociateId": 294,
+      "Address": "officia",
+      "EmailId": 64,
       "DuplicatePersonIds": [
-        809,
-        409
+        899,
+        478
       ],
-      "Name": "Aufderhar, Hodkiewicz and Olson",
+      "Name": "Runolfsdottir LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 604
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "tempora",
+  "Subject": "error",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2008-06-08T12:19:45.2266504+02:00",
+  "Sent": "2008-01-24T11:44:33.5722192+01:00",
   "Size": 965,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "officiis",
-  "PlainBody": "rerum",
+  "MessageID": "animi",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 43,
+  "ServerId": 443,
   "Attachments": [
     {
-      "Description": "Automated leading edge focus group",
-      "Filename": "distinctio",
-      "Size": 372,
-      "Type": "ullam",
-      "Encoding": "doloribus",
-      "Id": "illum",
-      "Disposition": "et",
-      "IsSafeFileExtension": false,
+      "Description": "Intuitive stable application",
+      "Filename": "mollitia",
+      "Size": 826,
+      "Type": "alias",
+      "Encoding": "et",
+      "Id": "sed",
+      "Disposition": "illum",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 685
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Treutel-Kuhlman",
+      "Name": "Nitzsche, Rolfson and Goodwin",
       "Values": [
-        "sit",
-        "fugit"
+        "doloremque",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 640
         }
       }
     },
     {
-      "Name": "Treutel-Kuhlman",
+      "Name": "Nitzsche, Rolfson and Goodwin",
       "Values": [
-        "sit",
-        "fugit"
+        "doloremque",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 640
         }
       }
     }
   ],
-  "FolderName": "Ullrich, Yundt and Goyette",
-  "EmailItemId": 261,
-  "AccountId": 267,
-  "ReceivedAt": "2003-03-06T12:19:45.2266504+01:00",
+  "FolderName": "Ruecker Inc and Sons",
+  "EmailItemId": 62,
+  "AccountId": 621,
+  "ReceivedAt": "2019-07-02T11:44:33.5722192+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-04-04T12:19:45.2266504+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2003-02-18T11:44:33.5722192+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 196
     }
   }
 }

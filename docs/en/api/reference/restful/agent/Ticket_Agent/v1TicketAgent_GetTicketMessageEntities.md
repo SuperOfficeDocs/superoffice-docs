@@ -103,10 +103,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 599,
+  "TicketId": 846,
   "MessageIds": [
-    846,
-    504
+    578,
+    520
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 696,
+    "EjMessageId": 918,
     "Ticket": null,
-    "CreatedAt": "2020-04-23T12:19:46.491985+02:00",
+    "CreatedAt": "2005-12-04T11:44:34.8687993+01:00",
     "CreatedBy": null,
-    "Author": "quisquam",
+    "Author": "vitae",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "eveniet",
-    "TimeSpent": 201,
-    "Body": "nostrum",
-    "HtmlBody": "sapiente",
-    "EmailHeader": "eulah_veum@breitenberg.uk",
-    "DebugInfo": "consectetur",
-    "MailSorter": "asperiores",
+    "MessageId": "perferendis",
+    "TimeSpent": 63,
+    "Body": "quidem",
+    "HtmlBody": "ducimus",
+    "EmailHeader": "bobby@windler.com",
+    "DebugInfo": "expedita",
+    "MailSorter": "assumenda",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "et",
+    "SearchTitle": "nihil",
     "MessageHeaders": [
       {
-        "Id": 353,
-        "Name": "Nikolaus-Ferry",
-        "Value": "consequatur",
+        "Id": 458,
+        "Name": "Harvey Inc and Sons",
+        "Value": "officia",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 660
           }
         }
       }
     ],
     "Important": false,
-    "Language": "alias",
-    "Sentiment": 803,
-    "SentimentConfidence": 176,
+    "Language": "molestiae",
+    "Sentiment": 827,
+    "SentimentConfidence": 337,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 815,
-        "Name": "Von Inc and Sons",
-        "ContentType": "deserunt",
-        "AttSize": 39,
+        "AttachmentId": 953,
+        "Name": "Murray Inc and Sons",
+        "ContentType": "rem",
+        "AttSize": 347,
         "InlineImage": true,
-        "ContentId": "magnam",
-        "AuthKey": "cumque",
+        "ContentId": "voluptatibus",
+        "AuthKey": "est",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 152
+            "FieldType": "System.Int32",
+            "FieldLength": 537
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "cumque",
-      "ExtraFields2": "quod"
+      "ExtraFields1": "similique",
+      "ExtraFields2": "expedita"
     },
     "CustomFields": {
-      "CustomFields1": "est",
-      "CustomFields2": "ipsa"
+      "CustomFields1": "dolorum",
+      "CustomFields2": "consequatur"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldType": "System.String",
+        "FieldLength": 91
       }
     }
   }

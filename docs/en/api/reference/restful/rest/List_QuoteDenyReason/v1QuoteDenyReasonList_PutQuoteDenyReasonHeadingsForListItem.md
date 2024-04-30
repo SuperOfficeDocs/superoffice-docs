@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Goldner, Kuhic and Stamm",
-    "ToolTip": "Dolores praesentium vel occaecati eius.",
+    "Id": 559,
+    "Name": "Crooks, Pollich and Stiedemann",
+    "ToolTip": "Ea voluptatem autem.",
     "Deleted": false,
-    "Rank": 271,
-    "Type": "voluptatem",
-    "ColorBlock": 284,
-    "IconHint": "at",
+    "Rank": 564,
+    "Type": "voluptatibus",
+    "ColorBlock": 942,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2022-11-21T12:19:54.7739754+01:00",
+    "LastChanged": "2011-10-28T11:44:43.2731075+02:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Morar LLC",
-        "ToolTip": "Suscipit officiis vero similique voluptatum.",
+        "Id": 95,
+        "Name": "Altenwerth, DuBuque and Schimmel",
+        "ToolTip": "Ducimus fugit.",
         "Deleted": false,
-        "Rank": 264,
-        "Type": "est",
-        "ColorBlock": 889,
-        "IconHint": "tenetur",
+        "Rank": 759,
+        "Type": "voluptatem",
+        "ColorBlock": 754,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2018-11-14T12:19:54.7739754+01:00",
+        "LastChanged": "2018-02-01T11:44:43.2731075+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "nulla",
-        "Hidden": true,
-        "FullName": "Reagan Conroy"
+        "ExtraInfo": "nisi",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Mrs. Octavia Smith Jr."
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mrs. Yvonne Martin Stroman DVM"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Miss Camylle Lera Moen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Larkin, Mitchell and O'Conner",
-    "ToolTip": "Molestiae ea optio voluptatem quisquam maxime.",
+    "Id": 528,
+    "Name": "Dooley, Leannon and Bahringer",
+    "ToolTip": "Et dignissimos iusto possimus.",
     "Deleted": false,
-    "Rank": 358,
-    "Type": "quibusdam",
-    "ColorBlock": 513,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2001-09-17T12:19:54.7739754+02:00",
+    "Rank": 720,
+    "Type": "ut",
+    "ColorBlock": 615,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "1997-09-27T11:44:43.2731075+02:00",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "Mills-Ruecker",
-        "ToolTip": "Perspiciatis aut eos.",
+        "Id": 681,
+        "Name": "Erdman LLC",
+        "ToolTip": "Officia nihil exercitationem nisi ab.",
         "Deleted": false,
-        "Rank": 778,
-        "Type": "non",
-        "ColorBlock": 821,
-        "IconHint": "rerum",
+        "Rank": 207,
+        "Type": "provident",
+        "ColorBlock": 573,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2021-03-09T12:19:54.7739754+01:00",
+        "LastChanged": "2020-12-22T11:44:43.2731075+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "est",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Claudia Gottlieb",
+        "FullName": "Floyd Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 750
+            "FieldType": "System.String",
+            "FieldLength": 784
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "aut",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Mrs. Gerhard Moore",
+    "FullName": "Michaela Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldType": "System.String",
+        "FieldLength": 926
       }
     }
   }

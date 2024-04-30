@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Schaefer LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 452,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 92,
+  "Name": "Abshire, Howell and Prohaska",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "Rank": 371,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 692,
-  "Name": "Bernier-Lakin",
-  "Tooltip": "ut",
+  "Id": 521,
+  "Name": "Baumbach Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 492,
-  "IsCustomList": true,
+  "Rank": 447,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 219
     }
   }
 }

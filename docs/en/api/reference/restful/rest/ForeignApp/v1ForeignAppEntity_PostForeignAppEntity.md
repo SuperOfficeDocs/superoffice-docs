@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 798,
-  "Name": "Abernathy-Waelchi",
-  "CreatedDate": "2012-08-15T12:19:53.5867469+02:00",
-  "UpdatedDate": "2011-12-13T12:19:53.5867469+01:00",
+  "ForeignAppId": 893,
+  "Name": "Gulgowski-Durgan",
+  "CreatedDate": "2003-08-05T11:44:41.9921474+02:00",
+  "UpdatedDate": "2005-10-07T11:44:41.9921474+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 969,
-      "Name": "Hane-Hermann",
-      "CreatedDate": "2008-05-16T12:19:53.5867469+02:00",
-      "UpdatedDate": "2004-09-04T12:19:53.5867469+02:00",
-      "AssociateFullName": "Sheila Schamberger",
-      "CreatedBy": "dignissimos",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 671
+      "ForeignDeviceId": 972,
+      "Name": "Murphy Inc and Sons",
+      "CreatedDate": "2003-08-23T11:44:41.9921474+02:00",
+      "UpdatedDate": "2007-12-18T11:44:41.9921474+01:00",
+      "AssociateFullName": "Kristian Jacobson",
+      "CreatedBy": "deleniti",
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "voluptatum",
+      "ForeignAppId": 470
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 186,
-  "Name": "O'Keefe-Farrell",
-  "CreatedDate": "2013-02-12T12:19:53.5867469+01:00",
-  "UpdatedDate": "2016-08-20T12:19:53.5867469+02:00",
+  "ForeignAppId": 660,
+  "Name": "O'Hara, Weissnat and Leannon",
+  "CreatedDate": "2014-04-12T11:44:41.9921474+02:00",
+  "UpdatedDate": "2001-12-26T11:44:41.9921474+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 993,
-      "Name": "Kirlin, Powlowski and Bednar",
-      "CreatedDate": "2018-03-18T12:19:53.5867469+01:00",
-      "UpdatedDate": "2010-08-26T12:19:53.5867469+02:00",
-      "AssociateFullName": "Mr. Jaylin Steuber Sr.",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "libero",
-      "ForeignAppId": 294,
+      "ForeignDeviceId": 52,
+      "Name": "Little Group",
+      "CreatedDate": "2006-03-28T11:44:41.9921474+02:00",
+      "UpdatedDate": "1998-06-07T11:44:41.9921474+02:00",
+      "AssociateFullName": "Miss Sarai Kihn",
+      "CreatedBy": "ut",
+      "UpdatedBy": "repellendus",
+      "DeviceIdentifier": "vero",
+      "ForeignAppId": 941,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldType": "System.String",
+          "FieldLength": 561
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 385
     }
   },
   "_Links": {

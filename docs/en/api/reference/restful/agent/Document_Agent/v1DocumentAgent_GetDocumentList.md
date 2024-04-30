@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 584,
-    "Attention": "occaecati",
-    "Header": "ratione",
-    "Name": "Cremin Inc and Sons",
-    "OurRef": "dolorum",
-    "YourRef": "quasi",
-    "Description": "Fully-configurable global middleware",
-    "DocumentTemplate": "quod",
+    "DocumentId": 143,
+    "Attention": "libero",
+    "Header": "nulla",
+    "Name": "Feest-Predovic",
+    "OurRef": "qui",
+    "YourRef": "autem",
+    "Description": "Organic explicit knowledge base",
+    "DocumentTemplate": "iusto",
     "IsPublished": true,
-    "PersonId": 179,
-    "PersonFullName": "Autumn Schinner",
-    "AssociateFullName": "Miss Gia Stamm",
-    "ContactId": 451,
-    "ContactName": "Jacobi Group",
-    "ProjectId": 626,
-    "ProjectName": "Johnston, DuBuque and Johnston",
-    "AssociateId": 465,
-    "Snum": 533,
-    "SaleId": 231,
-    "SaleName": "Morissette Inc and Sons",
+    "PersonId": 340,
+    "PersonFullName": "Aditya Kemmer",
+    "AssociateFullName": "Nathen Hane",
+    "ContactId": 296,
+    "ContactName": "Reilly-Jenkins",
+    "ProjectId": 373,
+    "ProjectName": "Kunze, Rempel and Smith",
+    "AssociateId": 697,
+    "Snum": 468,
+    "SaleId": 94,
+    "SaleName": "Christiansen, Herman and Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 510
+        "FieldType": "System.Int32",
+        "FieldLength": 100
       }
     }
   }

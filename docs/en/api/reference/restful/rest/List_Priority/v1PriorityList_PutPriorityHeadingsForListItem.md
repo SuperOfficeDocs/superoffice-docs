@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Hintz-Hilpert",
-    "ToolTip": "Blanditiis nemo.",
+    "Id": 432,
+    "Name": "Kulas-Russel",
+    "ToolTip": "Eum distinctio.",
     "Deleted": false,
-    "Rank": 673,
-    "Type": "et",
-    "ColorBlock": 545,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2019-01-05T12:19:54.6802476+01:00",
+    "Rank": 763,
+    "Type": "aliquam",
+    "ColorBlock": 605,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2012-10-29T11:44:43.1793782+01:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Bergstrom LLC",
-        "ToolTip": "Reiciendis sed sint.",
+        "Id": 232,
+        "Name": "Murazik Inc and Sons",
+        "ToolTip": "Hic veniam quisquam dignissimos.",
         "Deleted": false,
-        "Rank": 341,
-        "Type": "et",
-        "ColorBlock": 923,
-        "IconHint": "aspernatur",
+        "Rank": 293,
+        "Type": "non",
+        "ColorBlock": 857,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2004-04-02T12:19:54.6802476+02:00",
+        "LastChanged": "2014-05-12T11:44:43.1793782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "dolor",
+        "ExtraInfo": "veniam",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Nathaniel Jerod Runte IV"
+        "FullName": "Prof. Beryl Schumm II"
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "hic",
-    "Hidden": false,
-    "FullName": "Dr. Casey Clementine Hegmann DVM"
+    "ExtraInfo": "est",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Prof. Irwin Gusikowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Grant Inc and Sons",
-    "ToolTip": "Fuga ut aut.",
-    "Deleted": false,
-    "Rank": 532,
-    "Type": "ab",
-    "ColorBlock": 451,
-    "IconHint": "eos",
+    "Id": 475,
+    "Name": "Nikolaus Inc and Sons",
+    "ToolTip": "Pariatur rerum vel.",
+    "Deleted": true,
+    "Rank": 676,
+    "Type": "non",
+    "ColorBlock": 287,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "1999-11-02T12:19:54.6802476+01:00",
+    "LastChanged": "2002-04-18T11:44:43.1793782+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Doyle, Monahan and Towne",
-        "ToolTip": "Aut praesentium velit optio ut dolorum nulla.",
+        "Id": 306,
+        "Name": "Hansen Inc and Sons",
+        "ToolTip": "Consequuntur fuga quia dolores non sit consequatur.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "maxime",
-        "ColorBlock": 697,
-        "IconHint": "voluptatibus",
+        "Rank": 966,
+        "Type": "aut",
+        "ColorBlock": 305,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2005-03-04T12:19:54.6802476+01:00",
+        "LastChanged": "2008-05-28T11:44:43.1793782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Dr. Lila Dena Maggio",
+        "ExtraInfo": "aut",
+        "StyleHint": "a",
+        "Hidden": false,
+        "FullName": "Davon Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 572
+            "FieldType": "System.String",
+            "FieldLength": 292
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "cum",
+    "StyleHint": "exercitationem",
     "Hidden": true,
-    "FullName": "Marie Cronin",
+    "FullName": "Justen Hauck DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

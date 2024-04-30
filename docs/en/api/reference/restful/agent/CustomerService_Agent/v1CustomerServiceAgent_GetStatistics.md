@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "explicabo",
-    "architecto"
+    "rerum",
+    "laboriosam"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "nobis",
+    "Label": "ad",
     "Values": [
       {
-        "Label": "accusamus",
-        "Value": 22643.149999999998,
-        "Description": "Progressive human-resource parallelism",
+        "Label": "laboriosam",
+        "Value": 12504.66,
+        "Description": "Phased national infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 281
+            "FieldLength": 398
           }
         }
       },
       {
-        "Label": "accusamus",
-        "Value": 22643.149999999998,
-        "Description": "Progressive human-resource parallelism",
+        "Label": "laboriosam",
+        "Value": 12504.66,
+        "Description": "Phased national infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 281
+            "FieldLength": 398
           }
         }
       }
     ],
-    "Description": "Re-engineered executive leverage",
+    "Description": "Reactive stable firmware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldType": "System.Int32",
+        "FieldLength": 445
       }
     }
   },
   {
-    "Label": "nobis",
+    "Label": "ad",
     "Values": [
       {
-        "Label": "accusamus",
-        "Value": 22643.149999999998,
-        "Description": "Progressive human-resource parallelism",
+        "Label": "laboriosam",
+        "Value": 12504.66,
+        "Description": "Phased national infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 281
+            "FieldLength": 398
           }
         }
       },
       {
-        "Label": "accusamus",
-        "Value": 22643.149999999998,
-        "Description": "Progressive human-resource parallelism",
+        "Label": "laboriosam",
+        "Value": 12504.66,
+        "Description": "Phased national infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 281
+            "FieldLength": 398
           }
         }
       }
     ],
-    "Description": "Re-engineered executive leverage",
+    "Description": "Reactive stable firmware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldType": "System.Int32",
+        "FieldLength": 445
       }
     }
   }

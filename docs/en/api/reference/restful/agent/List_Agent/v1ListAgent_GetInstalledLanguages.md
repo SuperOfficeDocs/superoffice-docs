@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 953,
-    "LCID": 320,
-    "EnglishName": "Streich-Mohr",
-    "NativeName": "Satterfield-Mraz",
-    "ThreeLetterISOLanguageName": "Wilderman-Pfeffer",
-    "TwoLetterISOLanguageName": "Harvey LLC",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 150,
+    "LCID": 626,
+    "EnglishName": "Morissette Group",
+    "NativeName": "Fadel Inc and Sons",
+    "ThreeLetterISOLanguageName": "Bednar Group",
+    "TwoLetterISOLanguageName": "Kessler LLC",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldType": "System.String",
+        "FieldLength": 842
       }
     }
   }

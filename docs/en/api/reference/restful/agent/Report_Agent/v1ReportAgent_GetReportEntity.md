@@ -26,7 +26,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=796
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=562
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Report/GetReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 922,
+  "ReportId": 94,
   "ReportCategory": "All",
-  "Description": "Robust zero defect archive",
+  "Description": "Re-contextualized executive contingency",
   "ReportLayout": "CalendarMonth",
-  "Name": "Renner Group",
-  "AssociateId": 644,
-  "TemplateId": 179,
+  "Name": "Murray, Parker and Pfannerstill",
+  "AssociateId": 862,
+  "TemplateId": 406,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

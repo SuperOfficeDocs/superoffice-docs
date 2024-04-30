@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 82,
-  "Count": 53
+  "WeightedAmountLimit": 160,
+  "Count": 877
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Marquardt, Gerhold and Rath",
-    "SaleDate": "2006-03-03T12:19:46.210807+01:00",
-    "SaleId": 661,
-    "Probability": 153,
-    "Title": "sint",
-    "Amount": 200.576,
-    "Currency": "earum",
-    "ProjectName": "Considine, Rohan and Hettinger",
-    "AssociateFullName": "Prof. Naomi Orlo Ortiz",
-    "Description": "Cloned maximized contingency",
+    "ContactName": "Schmitt, Roberts and Welch",
+    "SaleDate": "1996-11-18T11:44:34.4001629+01:00",
+    "SaleId": 196,
+    "Probability": 570,
+    "Title": "ut",
+    "Amount": 24927.836,
+    "Currency": "culpa",
+    "ProjectName": "Pfeffer Inc and Sons",
+    "AssociateFullName": "Precious Crist",
+    "Description": "Programmable high-level adapter",
     "Status": "Lost",
-    "WeightedAmount": 10818.568,
-    "ProjectId": 939,
-    "EarningPercent": 7762.918,
-    "Earning": 30581.572,
-    "ContactId": 638,
-    "AssociateId": 333,
-    "PersonId": 171,
-    "SaleTypeId": 601,
-    "SaleTypeName": "Stiedemann-Greenfelder",
-    "PersonFullName": "Eulalia Thiel",
+    "WeightedAmount": 767.82999999999993,
+    "ProjectId": 256,
+    "EarningPercent": 10655.6,
+    "Earning": 18841.608,
+    "ContactId": 275,
+    "AssociateId": 258,
+    "PersonId": 931,
+    "SaleTypeId": 633,
+    "SaleTypeName": "Harvey Group",
+    "PersonFullName": "Skylar Olson",
     "Completed": "Completed",
-    "ActiveErpLinks": 539,
-    "NextDueDate": "2015-09-02T12:19:46.210807+02:00",
-    "Number": "426783",
+    "ActiveErpLinks": 187,
+    "NextDueDate": "2000-09-03T11:44:34.4001629+02:00",
+    "Number": "483223",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldType": "System.Int32",
+        "FieldLength": 639
       }
     }
   }

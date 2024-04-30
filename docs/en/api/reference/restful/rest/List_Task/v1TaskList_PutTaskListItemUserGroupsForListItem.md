@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Erdman LLC",
-    "ToolTip": "Alias sed.",
+    "Id": 541,
+    "Name": "Zieme-Hermann",
+    "ToolTip": "Minus ipsum.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "nostrum",
-    "ColorBlock": 799,
+    "Rank": 987,
+    "Type": "aut",
+    "ColorBlock": 755,
     "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2020-10-02T12:19:54.8833241+02:00",
+    "LastChanged": "1997-07-03T11:44:43.3824544+02:00",
     "ChildItems": [
       {
-        "Id": 351,
-        "Name": "Conn-Bergnaum",
-        "ToolTip": "Itaque suscipit explicabo molestiae molestiae deserunt.",
+        "Id": 322,
+        "Name": "Barrows, Waelchi and Flatley",
+        "ToolTip": "Ut delectus aut sed.",
         "Deleted": false,
-        "Rank": 753,
-        "Type": "laborum",
-        "ColorBlock": 694,
-        "IconHint": "corrupti",
+        "Rank": 422,
+        "Type": "et",
+        "ColorBlock": 187,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2019-10-21T12:19:54.8833241+02:00",
+        "LastChanged": "2008-06-02T11:44:43.3824544+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "neque",
+        "ExtraInfo": "aut",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Ms. Kari Ferry DVM"
+        "FullName": "Laurie Orrin Ferry PhD"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Mr. Keshaun Welch"
+    "ExtraInfo": "eos",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Carrie Kirlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Jacobi Group",
-    "ToolTip": "Qui aliquam iusto.",
+    "Id": 721,
+    "Name": "Kulas-Wyman",
+    "ToolTip": "Omnis quibusdam recusandae et natus rerum earum.",
     "Deleted": false,
-    "Rank": 278,
-    "Type": "quaerat",
-    "ColorBlock": 581,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2018-01-26T12:19:54.8833241+01:00",
+    "Rank": 962,
+    "Type": "est",
+    "ColorBlock": 971,
+    "IconHint": "quod",
+    "Selected": true,
+    "LastChanged": "1999-04-15T11:44:43.3824544+02:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "McKenzie, Rath and Mraz",
-        "ToolTip": "Veniam rerum quam.",
-        "Deleted": false,
-        "Rank": 471,
-        "Type": "aut",
-        "ColorBlock": 275,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2022-07-23T12:19:54.8833241+02:00",
+        "Id": 628,
+        "Name": "Zieme-Buckridge",
+        "ToolTip": "Ratione itaque molestiae maiores.",
+        "Deleted": true,
+        "Rank": 690,
+        "Type": "qui",
+        "ColorBlock": 788,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "1997-08-04T11:44:43.3824544+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "odio",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mr. Mayra Wuckert Jr.",
+        "FullName": "Miss Tyson Maribel Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 287
+            "FieldLength": 160
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "enim",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Wilford Macey Reichert IV",
+    "FullName": "Kamron Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldType": "System.String",
+        "FieldLength": 574
       }
     }
   }

@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Feest-Cronin",
-      "Delimiter": "alias",
-      "Flags": "deserunt",
-      "TotalItems": 529,
-      "UnreadItems": 273,
-      "Subscribed": false,
-      "EmailFolderId": 419
+      "Name": "Bayer, Gottlieb and Schmitt",
+      "Delimiter": "libero",
+      "Flags": "cum",
+      "TotalItems": 466,
+      "UnreadItems": 169,
+      "Subscribed": true,
+      "EmailFolderId": 527
     }
   ]
 }

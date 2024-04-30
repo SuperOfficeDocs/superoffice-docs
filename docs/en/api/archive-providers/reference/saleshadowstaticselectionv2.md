@@ -1293,7 +1293,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=currency,person/hasInfoText,person/personAssociate/isActiveText,person/isMailingRecipient,contact/stop
+GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=person/personAssociate/assocType,contact/postAddress/line1,document/associate/title,saleStakeholder/person/personMobilePhone/formattedNumber,saleStakeholder/person/personExtra/y_rental/x_end
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

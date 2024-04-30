@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122
+  "Id": 25
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "enim",
   "Specification": null,
-  "DisplayValue": "explicabo",
-  "DisplayTooltip": "reprehenderit",
+  "DisplayValue": "aperiam",
+  "DisplayTooltip": "in",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 238,
-  "PrefDescId": 563,
-  "TableName": "Barrows, Mertz and Jast",
-  "UserPreferenceId": 248,
+  "TargetId": 622,
+  "PrefDescId": 947,
+  "TableName": "O'Conner, Schimmel and Hand",
+  "UserPreferenceId": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 858
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Heidenreich Group",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "UdListDefinitionId": 573,
-  "Rank": 69
+  "Id": 653,
+  "Name": "Powlowski Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "UdListDefinitionId": 504,
+  "Rank": 195
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Leuschke, Schimmel and Bechtelar",
-  "Tooltip": "soluta",
+  "Id": 80,
+  "Name": "Little-Mayer",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "UdListDefinitionId": 423,
-  "Rank": 352,
+  "UdListDefinitionId": 18,
+  "Rank": 209,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   }
 }

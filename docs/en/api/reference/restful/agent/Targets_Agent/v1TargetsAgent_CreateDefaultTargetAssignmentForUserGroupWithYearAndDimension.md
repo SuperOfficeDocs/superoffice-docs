@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 107,
-  "Year": 86,
-  "TargetDimensionId": 28
+  "UserGroupId": 353,
+  "Year": 782,
+  "TargetDimensionId": 191
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 848,
+    "TargetAssignmentInfoId": 229,
     "Values": [
-      836,
-      676
+      687,
+      561
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 299,
-    "DimensionListItemDisplayName": "Macejkovic, Donnelly and Lehner",
+    "DimensionListItem": 226,
+    "DimensionListItemDisplayName": "Trantow-Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

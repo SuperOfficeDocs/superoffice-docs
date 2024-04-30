@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    563,
-    918
+    437,
+    203
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 141,
-    "Name": "Heathcote, Graham and Reynolds",
-    "Description": "Function-based well-modulated knowledge base",
+    "ProjectId": 937,
+    "Name": "Cruickshank, Gorczany and Rosenbaum",
+    "Description": "Ameliorated attitude-oriented approach",
     "URL": "http://www.example.com/",
-    "Type": "expedita",
-    "AssociateId": 487,
-    "AssociateFullName": "Harry Shanahan",
-    "TypeId": 373,
-    "Updated": "2016-03-24T12:19:46.038959+01:00",
-    "StatusId": 581,
-    "Status": "qui",
-    "TextId": 718,
-    "PublishTo": "2019-08-25T12:19:46.038959+02:00",
-    "PublishFrom": "2006-01-17T12:19:46.038959+01:00",
-    "IsPublished": false,
+    "Type": "amet",
+    "AssociateId": 43,
+    "AssociateFullName": "Douglas Kuhic II",
+    "TypeId": 540,
+    "Updated": "2021-07-09T11:44:34.2126949+02:00",
+    "StatusId": 658,
+    "Status": "labore",
+    "TextId": 60,
+    "PublishTo": "2004-12-24T11:44:34.2126949+01:00",
+    "PublishFrom": "2012-04-29T11:44:34.2126949+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "858492",
-    "ActiveErpLinks": 238,
+    "ProjectNumber": "752110",
+    "ActiveErpLinks": 709,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 187
+        "FieldLength": 885
       }
     }
   }

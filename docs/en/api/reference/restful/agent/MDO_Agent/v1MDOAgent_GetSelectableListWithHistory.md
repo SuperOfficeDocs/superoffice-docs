@@ -91,16 +91,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torp LLC",
+  "Name": "Bradtke-Welch",
   "ForceFlatList": false,
-  "AdditionalInfo": "libero",
+  "AdditionalInfo": "eum",
   "HistoryItems": [
-    683,
-    554
+    596,
+    5
   ],
   "OnlyHistory": true
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Rohan LLC",
-    "ToolTip": "Rerum sunt vel sint impedit illum reiciendis.",
-    "Deleted": false,
-    "Rank": 990,
-    "Type": "possimus",
-    "ColorBlock": 699,
-    "IconHint": "nam",
+    "Id": 869,
+    "Name": "Funk Group",
+    "ToolTip": "Et dolorum deserunt quam dicta ad debitis.",
+    "Deleted": true,
+    "Rank": 56,
+    "Type": "iusto",
+    "ColorBlock": 351,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2014-05-07T12:19:45.6015646+02:00",
+    "LastChanged": "2022-08-30T11:44:33.9471419+02:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Hermann-Williamson",
-        "ToolTip": "Perferendis veniam id provident omnis accusantium consectetur non.",
-        "Deleted": false,
-        "Rank": 230,
-        "Type": "ratione",
-        "ColorBlock": 800,
-        "IconHint": "voluptatem",
+        "Id": 29,
+        "Name": "Green Group",
+        "ToolTip": "Quisquam exercitationem.",
+        "Deleted": true,
+        "Rank": 156,
+        "Type": "dolore",
+        "ColorBlock": 751,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2016-09-27T12:19:45.6015646+02:00",
+        "LastChanged": "2016-01-03T11:44:33.9471419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Jerad Upton",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Evangeline Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 214
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "et",
+    "ExtraInfo": "amet",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Irving Zulauf",
+    "FullName": "Lela Wuckert DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 746
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

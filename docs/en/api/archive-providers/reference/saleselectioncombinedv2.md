@@ -1293,7 +1293,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombinedV2?$select=person/mrMrs,person/personUdef/SuperOffice:3,person/correspondingAssociate/usergroup,contact/updatedBy,contact/contactAssociate/lastName
+GET /api/v1/archive/SaleSelectionCombinedV2?$select=person/personAssociate/contactName,contact/code,contact/contactAssociate/isActiveText,contact/contactExtra/x_contact_short_dropdown,contact/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 883,
-    "Name": "Rodriguez, Buckridge and Ferry",
-    "Tooltip": "architecto",
+    "HeadingId": 509,
+    "Name": "Stoltenberg-Wintheiser",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 22,
-    "UdListDefinitionId": 216,
+    "Rank": 963,
+    "UdListDefinitionId": 809,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldType": "System.String",
+        "FieldLength": 928
       }
     }
   }

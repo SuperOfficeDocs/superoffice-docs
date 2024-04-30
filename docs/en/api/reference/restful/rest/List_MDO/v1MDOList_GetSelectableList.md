@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=corporis
+GET /api/v1/MDOList/{listname}/selectable?additional=quaerat
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Hettinger-Lehner",
-    "ToolTip": "Et iste.",
+    "Id": 398,
+    "Name": "Schaefer-Bartoletti",
+    "ToolTip": "Tempore quibusdam omnis.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "ut",
-    "ColorBlock": 955,
-    "IconHint": "quo",
+    "Rank": 467,
+    "Type": "laborum",
+    "ColorBlock": 478,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1997-10-20T12:19:54.6177594+02:00",
+    "LastChanged": "2009-03-31T11:44:43.1012637+02:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Feil Group",
-        "ToolTip": "Et quia repellat voluptas blanditiis quis sed rem.",
+        "Id": 157,
+        "Name": "Hyatt, Berge and Schuppe",
+        "ToolTip": "Nisi sunt maiores quas quia ut cupiditate est.",
         "Deleted": false,
-        "Rank": 984,
-        "Type": "nesciunt",
-        "ColorBlock": 786,
-        "IconHint": "et",
+        "Rank": 832,
+        "Type": "at",
+        "ColorBlock": 399,
+        "IconHint": "amet",
         "Selected": true,
-        "LastChanged": "2004-04-11T12:19:54.6177594+02:00",
+        "LastChanged": "2004-01-06T11:44:43.1012637+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Treva Haag",
+        "ExtraInfo": "et",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Chadd O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Jedidiah Fleta Durgan MD",
+    "ExtraInfo": "eius",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Mrs. Emmanuelle Fahey MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

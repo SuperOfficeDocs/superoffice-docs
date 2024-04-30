@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "id",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "id",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 813,
-  "TopicId": 583,
+  "ChatSessionId": 32,
+  "TopicId": 68,
   "User": null,
   "Person": null,
-  "CustomerAlias": "repellendus",
-  "CustomerHost": "explicabo",
-  "CustomerName": "Kris-McDermott",
-  "CustomerEmail": "aylin@howestark.us",
-  "CustomerPhone": "1-305-598-5356 x6777",
+  "CustomerAlias": "libero",
+  "CustomerHost": "rerum",
+  "CustomerName": "Lueilwitz-Monahan",
+  "CustomerEmail": "johnathon_larson@kreiger.ca",
+  "CustomerPhone": "1-280-084-6911",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Abernathy-Rau",
+  "CustomerCompanyName": "Barrows, Koepp and Halvorson",
   "Status": "Closed",
   "FirstMessage": "voluptatem",
-  "LastMessage": "voluptatem",
-  "WhenRequested": "2005-03-06T12:19:53.0712329+01:00",
-  "WhenStarted": "2000-02-01T12:19:53.0712329+01:00",
-  "WhenEnded": "2007-02-23T12:19:53.0712329+01:00",
-  "WhenIdle": "2004-04-25T12:19:53.0712329+02:00",
-  "WhenFetched": "1999-12-24T12:19:53.0712329+01:00",
-  "SessionKey": "provident",
-  "InitialQueuePos": 934,
-  "AlertLevel": 666,
-  "Rank": 912,
+  "LastMessage": "saepe",
+  "WhenRequested": "2005-07-17T11:44:41.5859953+02:00",
+  "WhenStarted": "2013-05-29T11:44:41.5859953+02:00",
+  "WhenEnded": "2023-08-07T11:44:41.5859953+02:00",
+  "WhenIdle": "2010-09-19T11:44:41.5859953+02:00",
+  "WhenFetched": "1997-12-15T11:44:41.5859953+01:00",
+  "SessionKey": "labore",
+  "InitialQueuePos": 585,
+  "AlertLevel": 787,
+  "Rank": 861,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,18 +192,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 979,
+  "Rating": 779,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 566
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

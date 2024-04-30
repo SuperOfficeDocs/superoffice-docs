@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 708,
-  "ModuleOwner": "quia",
+  "AssociateId": 518,
+  "ModuleOwner": "quaerat",
   "ModuleLicenseNames": [
-    "Dietrich LLC",
-    "Watsica Group"
+    "Thiel Group",
+    "Hilll LLC"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 112,
-    "Tooltip": "dignissimos",
+    "Total": 295,
+    "Tooltip": "quia",
     "CanAssign": false,
-    "Free": 970,
-    "InUse": 964,
+    "Free": 959,
+    "InUse": 797,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 358,
-    "Name": "Franecki Inc and Sons",
-    "Description": "Fundamental value-added time-frame",
-    "PrerequisiteModuleName": "Nolan, Veum and Erdman",
-    "SortOrder": 429,
-    "ExtraFlags": 722,
+    "Assigned": true,
+    "ModuleLicenseId": 368,
+    "Name": "Orn-Predovic",
+    "Description": "Phased local algorithm",
+    "PrerequisiteModuleName": "Barton, Kuvalis and Lebsack",
+    "SortOrder": 774,
+    "ExtraFlags": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 957
       }
     }
   }

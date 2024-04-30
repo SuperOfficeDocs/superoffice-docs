@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Eichmann, Pfeffer and Waters"
+  "TableName": "Schuppe-Beatty"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "esse",
-  "Inserts": 417,
-  "Updates": 319,
-  "Deletes": 885,
+  "Message": "ea",
+  "Inserts": 739,
+  "Updates": 159,
+  "Deletes": 420,
   "RowStatus": [
     {
-      "PrimaryKey": 828,
+      "PrimaryKey": 856,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ad",
-        "et"
+        "ut",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 597
+          "FieldType": "System.Int32",
+          "FieldLength": 185
         }
       }
     },
     {
-      "PrimaryKey": 828,
+      "PrimaryKey": 856,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ad",
-        "et"
+        "ut",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 597
+          "FieldType": "System.Int32",
+          "FieldLength": 185
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

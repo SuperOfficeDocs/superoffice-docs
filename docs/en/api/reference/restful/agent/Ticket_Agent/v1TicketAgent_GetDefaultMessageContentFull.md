@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 171,
+  "TicketId": 567,
   "MessageActionType": "Forward",
-  "TicketMessageId": 393,
-  "TicketTypeId": 527
+  "TicketMessageId": 626,
+  "TicketTypeId": 875
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "quia",
+  "Body": "ut",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 33,
-      "Name": "Gottlieb-Dietrich",
-      "ContentType": "aliquid",
-      "AttSize": 203,
-      "InlineImage": true,
-      "ContentId": "vero",
-      "AuthKey": "est",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 901,
+      "Name": "Shanahan-Reichert",
+      "ContentType": "sit",
+      "AttSize": 564,
+      "InlineImage": false,
+      "ContentId": "possimus",
+      "AuthKey": "provident",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 109
         }
       }
     }

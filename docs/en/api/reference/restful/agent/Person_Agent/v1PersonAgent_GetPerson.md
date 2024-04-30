@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=366
+POST /api/v1/Agents/Person/GetPerson?personId=749
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "repellat",
-  "PersonId": 374,
-  "Mrmrs": "sed",
-  "Firstname": "Roberto",
-  "Lastname": "Rodriguez",
-  "MiddleName": "Quigley-Farrell",
-  "Title": "aut",
-  "Description": "Assimilated global success",
-  "Email": "candice.thompson@faygerhold.name",
-  "FullName": "Jordon Gibson",
-  "DirectPhone": "498-246-1812 x56145",
-  "FormalName": "Breitenberg LLC",
-  "CountryId": 609,
-  "ContactId": 237,
-  "ContactName": "Stanton LLC",
-  "Retired": 611,
-  "Rank": 470,
-  "ActiveInterests": 396,
+  "Position": "exercitationem",
+  "PersonId": 78,
+  "Mrmrs": "est",
+  "Firstname": "Ryder",
+  "Lastname": "Turner",
+  "MiddleName": "Bayer-Wilkinson",
+  "Title": "ea",
+  "Description": "Customer-focused 24/7 Graphic Interface",
+  "Email": "candida.barton@blanda.uk",
+  "FullName": "Prof. Tad Runolfsdottir IV",
+  "DirectPhone": "(320)369-7045 x145",
+  "FormalName": "Koepp-Cartwright",
+  "CountryId": 169,
+  "ContactId": 594,
+  "ContactName": "Aufderhar Group",
+  "Retired": 123,
+  "Rank": 129,
+  "ActiveInterests": 915,
   "ContactDepartment": "",
-  "ContactCountryId": 983,
-  "ContactOrgNr": "1276595",
-  "FaxPhone": "745-950-9639 x1356",
-  "MobilePhone": "095.993.1761 x1104",
-  "ContactPhone": "1-388-799-4311",
-  "AssociateName": "Kulas-Raynor",
-  "AssociateId": 764,
+  "ContactCountryId": 227,
+  "ContactOrgNr": "904303",
+  "FaxPhone": "111-765-4403 x01011",
+  "MobilePhone": "1-377-576-3446 x02328",
+  "ContactPhone": "241-533-4724 x16682",
+  "AssociateName": "Wuckert LLC",
+  "AssociateId": 219,
   "UsePersonAddress": true,
-  "ContactFax": "fuga",
-  "Kanafname": "debitis",
-  "Kanalname": "dolorum",
-  "Post1": "quidem",
-  "Post2": "maiores",
-  "Post3": "vel",
-  "EmailName": "dannie@dare.name",
-  "ContactFullName": "Greta Bednar",
-  "ActiveErpLinks": 501,
-  "TicketPriorityId": 675,
-  "SupportLanguageId": 213,
-  "SupportAssociateId": 651,
+  "ContactFax": "omnis",
+  "Kanafname": "exercitationem",
+  "Kanalname": "nostrum",
+  "Post1": "illo",
+  "Post2": "quo",
+  "Post3": "sed",
+  "EmailName": "kirk_brekke@sipesauer.info",
+  "ContactFullName": "Jocelyn Lowe",
+  "ActiveErpLinks": 563,
+  "TicketPriorityId": 840,
+  "SupportLanguageId": 823,
+  "SupportAssociateId": 505,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 762
     }
   }
 }

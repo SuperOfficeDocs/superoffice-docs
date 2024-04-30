@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "tempora",
     "value": {}
   },
   {
     "op": "add",
-    "path": "accusamus",
+    "path": "tempora",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 8,
-  "SourcePersonId": 938,
-  "DestinationContactId": 463,
-  "DestinationPersonId": 42,
-  "RelationId": 592,
-  "Comment": "voluptatibus",
-  "RelationDefinitionId": 140,
-  "Reversed": 621,
-  "UpdatedDate": "2013-09-21T12:19:53.3055654+02:00",
-  "CreatedDate": "2012-06-16T12:19:53.3055654+02:00",
+  "SourceContactId": 929,
+  "SourcePersonId": 86,
+  "DestinationContactId": 118,
+  "DestinationPersonId": 161,
+  "RelationId": 916,
+  "Comment": "inventore",
+  "RelationDefinitionId": 226,
+  "Reversed": 745,
+  "UpdatedDate": "2014-10-21T11:44:41.8671838+02:00",
+  "CreatedDate": "2009-07-05T11:44:41.8671838+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "West-Frami",
-  "SourcePersonName": "Roob LLC",
-  "DestinationContactName": "Raynor-Littel",
-  "DestinationPersonName": "Torp, Weissnat and Mayert",
-  "ActiveText": "dolore",
-  "PassiveText": "voluptatem",
+  "SourceContactName": "Mayert LLC",
+  "SourcePersonName": "Gulgowski, Schinner and Leffler",
+  "DestinationContactName": "Erdman-Reinger",
+  "DestinationPersonName": "Stoltenberg Group",
+  "ActiveText": "quas",
+  "PassiveText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 243
     }
   },
   "_Links": {

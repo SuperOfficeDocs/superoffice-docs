@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 392,
-  "SelectionId": 577,
-  "IncludeEmails": false
+  "DocumentPluginId": 489,
+  "SelectionId": 130,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 754,
-  "NumDocumentsAlreadyMigrated": 75,
+  "NumDocumentsOmitted": 904,
+  "NumDocumentsAlreadyMigrated": 431,
   "Documents": [
     {
-      "DocumentId": 72,
-      "ContactId": 926,
-      "PersonId": 803,
-      "SaleId": 368,
-      "ProjectId": 405,
-      "DocTmplId": 844,
-      "AssociateId": 531,
-      "UserGroupId": 325,
-      "VisibleForId": 967
+      "DocumentId": 415,
+      "ContactId": 509,
+      "PersonId": 646,
+      "SaleId": 370,
+      "ProjectId": 127,
+      "DocTmplId": 466,
+      "AssociateId": 525,
+      "UserGroupId": 361,
+      "VisibleForId": 660
     }
   ],
   "Associates": [
     {
-      "AssociateId": 922,
-      "EmailAddress": "robin_heidenreich@cummerata.us"
+      "AssociateId": 694,
+      "EmailAddress": "belle@kihn.uk"
     },
     {
-      "AssociateId": 922,
-      "EmailAddress": "robin_heidenreich@cummerata.us"
+      "AssociateId": 694,
+      "EmailAddress": "belle@kihn.uk"
     }
   ]
 }

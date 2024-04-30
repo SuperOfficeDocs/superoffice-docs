@@ -2770,6 +2770,8 @@ items:
     href: TicketMessage/v1TicketMessageEntity_GetCustomFieldInfo.md
   - name: GET TicketMessage/default
     href: TicketMessage/v1TicketMessageEntity_DefaultTicketMessageEntity.md
+  - name: GET TicketMessage/RfcAttachment/{id}/{position}
+    href: TicketMessage/v1TicketMessageEntity_GetRfcAttachmentStream.md
   - name: PATCH TicketMessage/{id}
     href: TicketMessage/v1TicketMessageEntity_PatchTicketMessageEntity.md
   - name: POST TicketMessage

@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 178,
-      "ContactName": "Langosh-Beahan",
-      "PersonId": 344,
-      "PersonName": "Stanton-Anderson",
-      "AssociateId": 4,
-      "Address": "pariatur",
-      "EmailId": 982,
+      "ContactId": 311,
+      "ContactName": "Green-Bednar",
+      "PersonId": 719,
+      "PersonName": "Fahey-O'Kon",
+      "AssociateId": 579,
+      "Address": "qui",
+      "EmailId": 103,
       "DuplicatePersonIds": [
-        616,
-        143
+        873,
+        889
       ],
-      "Name": "Lehner, Block and Wilderman",
+      "Name": "Weissnat LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldLength": 749
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 227,
-      "ContactName": "Lockman Inc and Sons",
-      "PersonId": 95,
-      "PersonName": "Johnson-Renner",
-      "AssociateId": 1001,
-      "Address": "vel",
-      "EmailId": 537,
+      "ContactId": 291,
+      "ContactName": "Kunde Inc and Sons",
+      "PersonId": 689,
+      "PersonName": "Collier Inc and Sons",
+      "AssociateId": 871,
+      "Address": "sunt",
+      "EmailId": 81,
       "DuplicatePersonIds": [
-        965,
-        707
+        353,
+        760
       ],
-      "Name": "Ernser, Bashirian and Herzog",
+      "Name": "Hayes LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldType": "System.String",
+          "FieldLength": 60
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 382,
-      "ContactName": "Larson-Dare",
-      "PersonId": 408,
-      "PersonName": "Dach LLC",
-      "AssociateId": 606,
-      "Address": "iusto",
-      "EmailId": 725,
+      "ContactId": 278,
+      "ContactName": "Mosciski Inc and Sons",
+      "PersonId": 543,
+      "PersonName": "Nicolas LLC",
+      "AssociateId": 338,
+      "Address": "facere",
+      "EmailId": 125,
       "DuplicatePersonIds": [
-        377,
-        514
+        250,
+        284
       ],
-      "Name": "Purdy Group",
+      "Name": "Yost, Herzog and Little",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 420
+          "FieldType": "System.Int32",
+          "FieldLength": 470
         }
       }
     }
   ],
-  "Subject": "ipsa",
-  "HTMLBody": "ut",
+  "Subject": "quo",
+  "HTMLBody": "ipsa",
   "From": null,
-  "Sent": "2000-08-29T12:19:45.2266504+02:00",
-  "Size": 782,
+  "Sent": "2022-03-07T11:44:33.5722192+01:00",
+  "Size": 706,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "dicta",
+  "MessageID": "consequatur",
+  "PlainBody": "consequatur",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 499,
+  "ServerId": 475,
   "Attachments": [
     {
-      "Description": "User-friendly optimizing adapter",
-      "Filename": "assumenda",
-      "Size": 438,
-      "Type": "nobis",
-      "Encoding": "praesentium",
-      "Id": "et",
-      "Disposition": "totam",
+      "Description": "Down-sized encompassing productivity",
+      "Filename": "id",
+      "Size": 228,
+      "Type": "eligendi",
+      "Encoding": "ut",
+      "Id": "voluptatum",
+      "Disposition": "quisquam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldType": "System.Int32",
+          "FieldLength": 410
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bosco LLC",
+      "Name": "Muller-Botsford",
       "Values": [
-        "voluptas",
-        "beatae"
+        "temporibus",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 213
         }
       }
     },
     {
-      "Name": "Bosco LLC",
+      "Name": "Muller-Botsford",
       "Values": [
-        "voluptas",
-        "beatae"
+        "temporibus",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 213
         }
       }
     }
   ],
-  "FolderName": "Padberg Group",
-  "EmailItemId": 120,
-  "AccountId": 204,
-  "ReceivedAt": "2001-11-21T12:19:45.2266504+01:00",
+  "FolderName": "Goodwin, Breitenberg and Hintz",
+  "EmailItemId": 486,
+  "AccountId": 206,
+  "ReceivedAt": "2007-01-26T11:44:33.5722192+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-07-04T12:19:45.2266504+02:00",
+  "RepliedAt": "2015-07-08T11:44:33.5722192+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldType": "System.Int32",
+      "FieldLength": 499
     }
   }
 }

@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bernhard, Parker and Pagac",
+  "ProviderName": "Senger, Little and Will",
   "Restrictions": [
     {
-      "Name": "Herman Group",
-      "Operator": "laborum",
+      "Name": "Predovic-Hagenes",
+      "Operator": "repellat",
       "Values": [
-        "nisi",
-        "et"
+        "accusamus",
+        "sunt"
       ],
       "DisplayValues": [
-        "ab",
-        "explicabo"
+        "rerum",
+        "nemo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 543,
+      "InterParenthesis": 852,
       "InterOperator": "And",
-      "UniqueHash": 847
+      "UniqueHash": 518
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  379,
-  647
+  148,
+  309
 ]
 ```

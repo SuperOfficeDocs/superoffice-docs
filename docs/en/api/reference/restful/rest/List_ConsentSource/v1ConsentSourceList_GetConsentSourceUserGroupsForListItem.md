@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Hammes-Torphy",
-    "ToolTip": "Nihil natus voluptates est consequatur enim officiis fugiat.",
+    "Id": 458,
+    "Name": "Gleichner, Bogisich and Berge",
+    "ToolTip": "Et minima.",
     "Deleted": false,
-    "Rank": 204,
-    "Type": "commodi",
-    "ColorBlock": 812,
-    "IconHint": "nihil",
+    "Rank": 84,
+    "Type": "ipsam",
+    "ColorBlock": 167,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2014-07-04T12:19:54.3522098+02:00",
+    "LastChanged": "2003-07-24T11:44:42.9919089+02:00",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Rogahn Inc and Sons",
-        "ToolTip": "Incidunt delectus voluptatibus ea et fugit.",
+        "Id": 434,
+        "Name": "Waelchi, Hauck and Hauck",
+        "ToolTip": "Adipisci iusto.",
         "Deleted": false,
-        "Rank": 344,
-        "Type": "laborum",
-        "ColorBlock": 743,
-        "IconHint": "aut",
+        "Rank": 462,
+        "Type": "ut",
+        "ColorBlock": 381,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "2005-06-23T12:19:54.3522098+02:00",
+        "LastChanged": "2008-05-24T11:44:42.9919089+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "velit",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Chaya Nikolaus",
+        "FullName": "Miss Mellie Bernita McCullough",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "sed",
+    "ExtraInfo": "tempore",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Miss Gregg Bartell II",
+    "FullName": "Emery Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 428
       }
     }
   }

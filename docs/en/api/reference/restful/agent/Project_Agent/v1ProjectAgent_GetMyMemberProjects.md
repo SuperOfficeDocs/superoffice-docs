@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 287,
-    "Name": "Swaniawski-Howell",
-    "Description": "Profound demand-driven protocol",
+    "ProjectId": 857,
+    "Name": "Lockman Inc and Sons",
+    "Description": "Visionary zero administration conglomeration",
     "URL": "http://www.example.com/",
-    "Type": "eius",
-    "AssociateId": 689,
-    "AssociateFullName": "Kristopher Mosciski",
-    "TypeId": 953,
-    "Updated": "2006-07-25T12:19:46.0233436+02:00",
-    "StatusId": 431,
-    "Status": "est",
-    "TextId": 386,
-    "PublishTo": "2006-04-27T12:19:46.0233436+02:00",
-    "PublishFrom": "2009-09-03T12:19:46.0233436+02:00",
+    "Type": "adipisci",
+    "AssociateId": 880,
+    "AssociateFullName": "Daisha Glover",
+    "TypeId": 444,
+    "Updated": "1996-11-28T11:44:34.2126949+01:00",
+    "StatusId": 214,
+    "Status": "itaque",
+    "TextId": 182,
+    "PublishTo": "2019-02-27T11:44:34.2126949+01:00",
+    "PublishFrom": "2002-04-21T11:44:34.2126949+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1610430",
-    "ActiveErpLinks": 5,
+    "ProjectNumber": "689121",
+    "ActiveErpLinks": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldLength": 52
       }
     }
   }

@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 515,
-  "Name": "Considine-Rice",
-  "Tooltip": "doloribus",
+  "HeadingId": 718,
+  "Name": "Sipes Group",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 926,
-  "UdListDefinitionId": 890
+  "Rank": 832,
+  "UdListDefinitionId": 69
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 752,
-  "Name": "Parker Inc and Sons",
-  "Tooltip": "commodi",
+  "HeadingId": 671,
+  "Name": "Hamill Inc and Sons",
+  "Tooltip": "odio",
   "Deleted": true,
-  "Rank": 486,
-  "UdListDefinitionId": 325,
+  "Rank": 456,
+  "UdListDefinitionId": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 965
     }
   }
 }

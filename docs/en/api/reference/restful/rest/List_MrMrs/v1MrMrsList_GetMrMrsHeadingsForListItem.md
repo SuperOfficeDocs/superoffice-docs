@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Kovacek-Ledner",
-    "ToolTip": "Earum rerum.",
-    "Deleted": true,
-    "Rank": 3,
-    "Type": "voluptatem",
-    "ColorBlock": 134,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2000-08-21T12:19:54.6334859+02:00",
+    "Id": 87,
+    "Name": "Kuvalis LLC",
+    "ToolTip": "Et totam aliquid quas.",
+    "Deleted": false,
+    "Rank": 297,
+    "Type": "voluptas",
+    "ColorBlock": 37,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2022-12-26T11:44:43.1168808+01:00",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Legros-Heidenreich",
-        "ToolTip": "Deserunt provident pariatur assumenda vel autem nemo asperiores.",
-        "Deleted": true,
-        "Rank": 732,
-        "Type": "eum",
-        "ColorBlock": 334,
-        "IconHint": "et",
+        "Id": 49,
+        "Name": "Waters Group",
+        "ToolTip": "Ipsa repellat soluta laboriosam non doloribus.",
+        "Deleted": false,
+        "Rank": 889,
+        "Type": "aliquid",
+        "ColorBlock": 70,
+        "IconHint": "provident",
         "Selected": true,
-        "LastChanged": "1998-04-10T12:19:54.6334859+02:00",
+        "LastChanged": "2007-07-26T11:44:43.1168808+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Morris Ryan",
+        "ExtraInfo": "rerum",
+        "StyleHint": "eveniet",
+        "Hidden": false,
+        "FullName": "Nicola Little IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 242
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "rem",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "beatae",
     "Hidden": true,
-    "FullName": "Mr. Dameon Langosh",
+    "FullName": "Mireille Senger II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 622
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 981,
-  "UniqueIdentifier": "molestias",
-  "Name": "Hirthe LLC",
-  "Description": "Inverse national leverage",
-  "IncludeId": "rerum",
-  "HierarchyId": 232,
-  "Source": "sed",
-  "Registered": "2006-10-19T12:19:53.3055654+02:00",
-  "RegisteredAssociateId": 610,
-  "Updated": "2001-09-20T12:19:53.3055654+02:00",
-  "UpdatedAssociateId": 262,
+  "EjscriptId": 477,
+  "UniqueIdentifier": "expedita",
+  "Name": "Howell Group",
+  "Description": "Multi-layered bifurcated attitude",
+  "IncludeId": "est",
+  "HierarchyId": 599,
+  "Source": "nesciunt",
+  "Registered": "2020-05-09T11:44:41.8671838+02:00",
+  "RegisteredAssociateId": 877,
+  "Updated": "2010-08-30T11:44:41.8671838+02:00",
+  "UpdatedAssociateId": 643,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldLength": 459
     }
   }
 }

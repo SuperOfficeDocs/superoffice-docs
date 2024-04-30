@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Raynor, Larkin and Goyette",
-    "ToolTip": "Qui iure ut voluptates consequatur voluptas.",
+    "Id": 734,
+    "Name": "Harvey-Feil",
+    "ToolTip": "Eos illum dicta velit magni.",
     "Deleted": false,
-    "Rank": 437,
-    "Type": "aut",
-    "ColorBlock": 886,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2021-09-28T12:19:54.7427332+02:00",
+    "Rank": 706,
+    "Type": "est",
+    "ColorBlock": 319,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2016-03-19T11:44:43.2418644+01:00",
     "ChildItems": [
       {
-        "Id": 77,
-        "Name": "Lesch, Hand and Lesch",
-        "ToolTip": "Et consequuntur.",
-        "Deleted": false,
-        "Rank": 643,
-        "Type": "id",
-        "ColorBlock": 518,
-        "IconHint": "est",
+        "Id": 245,
+        "Name": "Flatley Inc and Sons",
+        "ToolTip": "Id quaerat asperiores est est quia doloribus.",
+        "Deleted": true,
+        "Rank": 975,
+        "Type": "ipsum",
+        "ColorBlock": 497,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2018-01-02T12:19:54.7427332+01:00",
+        "LastChanged": "2003-11-19T11:44:43.2418644+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "qui",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Elliott Bernice Lowe Sr."
+        "FullName": "Kaylee McKenzie"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Belle Hauck"
+    "ExtraInfo": "vero",
+    "StyleHint": "ab",
+    "Hidden": false,
+    "FullName": "Marlon Mills"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Rowe, Yost and Schiller",
-    "ToolTip": "Ut vero.",
+    "Id": 548,
+    "Name": "Gulgowski-Labadie",
+    "ToolTip": "Sint cumque inventore.",
     "Deleted": true,
-    "Rank": 49,
-    "Type": "voluptatum",
-    "ColorBlock": 587,
-    "IconHint": "autem",
+    "Rank": 935,
+    "Type": "facilis",
+    "ColorBlock": 341,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2001-05-10T12:19:54.7583539+02:00",
+    "LastChanged": "2002-01-25T11:44:43.2418644+01:00",
     "ChildItems": [
       {
-        "Id": 651,
-        "Name": "Kulas-Leuschke",
-        "ToolTip": "Et id eius inventore.",
+        "Id": 629,
+        "Name": "Krajcik, Zulauf and Lockman",
+        "ToolTip": "Non ullam et.",
         "Deleted": false,
-        "Rank": 579,
-        "Type": "quia",
-        "ColorBlock": 30,
-        "IconHint": "officiis",
+        "Rank": 84,
+        "Type": "quod",
+        "ColorBlock": 496,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2019-09-23T12:19:54.7583539+02:00",
+        "LastChanged": "1999-02-23T11:44:43.2418644+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "aut",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Libby Kovacek",
+        "FullName": "Elmore Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 433
+            "FieldType": "System.Int32",
+            "FieldLength": 275
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Rachael Cassin MD",
+    "ExtraInfo": "qui",
+    "StyleHint": "commodi",
+    "Hidden": true,
+    "FullName": "Prof. Arne Paris Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 913
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

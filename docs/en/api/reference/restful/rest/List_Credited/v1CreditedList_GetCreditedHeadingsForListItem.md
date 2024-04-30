@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Hegmann, Jerde and Aufderhar",
-    "ToolTip": "Laudantium repellendus dolor adipisci.",
+    "Id": 642,
+    "Name": "Schultz, O'Kon and Halvorson",
+    "ToolTip": "Quam qui.",
     "Deleted": false,
-    "Rank": 261,
-    "Type": "et",
-    "ColorBlock": 899,
-    "IconHint": "velit",
+    "Rank": 871,
+    "Type": "suscipit",
+    "ColorBlock": 34,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "1997-12-18T12:19:54.383431+01:00",
+    "LastChanged": "2017-12-05T11:44:43.0231528+01:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Bogan-Connelly",
-        "ToolTip": "Omnis consequuntur eos libero sequi provident similique dolores.",
-        "Deleted": true,
-        "Rank": 895,
-        "Type": "iste",
-        "ColorBlock": 854,
-        "IconHint": "doloribus",
+        "Id": 174,
+        "Name": "Heaney Inc and Sons",
+        "ToolTip": "Inventore debitis.",
+        "Deleted": false,
+        "Rank": 641,
+        "Type": "est",
+        "ColorBlock": 852,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "1996-11-16T12:19:54.383431+01:00",
+        "LastChanged": "2023-09-13T11:44:43.0231528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Kay Abernathy",
+        "FullName": "Mr. Velva Walter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldType": "System.Int32",
+            "FieldLength": 267
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Prof. Herta Danielle Mueller DVM",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mrs. Lazaro Selena Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldType": "System.String",
+        "FieldLength": 227
       }
     }
   }

@@ -993,6 +993,10 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="DefaultTicketStatus" type="xs:int" />
               <xs:element minOccurs="0" name="DefaultTicketPriority" type="xs:int" />
               <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ShowInNew" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExcludeSignature" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExcludeEmailRecipients" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExternalAsDefault" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1759,6 +1763,31 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SanitizeMailContentWithOptions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Options" type="tns:HtmlSanitizerOptions" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:simpleType name="HtmlSanitizerOptions">
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="RemoveComment" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="HtmlSanitizerOptions" nillable="true" type="tns:HtmlSanitizerOptions" />
+      <xs:element name="SanitizeMailContentWithOptionsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SanitizeMailContents">
         <xs:complexType>
           <xs:sequence>
@@ -1841,6 +1870,39 @@ title: Services88.TicketAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetAttachmentPreview">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AttachmentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAttachmentPreviewResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AttachmentPreview" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="AttachmentPreview">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="MimeType" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Size" type="xs:int" />
+              <xs:element minOccurs="0" name="Content" nillable="true" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="EmailSubject" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EmailFrom" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EmailTo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EmailCc" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EmailDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EmailAttachmentsInfo" nillable="true" type="tns:ArrayOfAttachmentEntity" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="AttachmentPreview" nillable="true" type="tns:AttachmentPreview" />
       <xs:element name="GetPreviewAttachmentStream">
         <xs:complexType>
           <xs:sequence>
@@ -1868,6 +1930,21 @@ title: Services88.TicketAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="DocumentPreview" nillable="true" type="tns:DocumentPreview" />
+      <xs:element name="GetRfcAttachmentStream">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AttachmentId" type="xs:int" />
+            <xs:element minOccurs="0" name="Position" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetRfcAttachmentStreamResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SendTicketMessage">
         <xs:complexType>
           <xs:sequence>
@@ -2885,6 +2962,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SanitizeMailContentWithOptionsRequest">
+    <wsdl:part name="parameters" element="tns:SanitizeMailContentWithOptions" />
+  </wsdl:message>
+  <wsdl:message name="SanitizeMailContentWithOptionsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SanitizeMailContentWithOptionsResponse">
+    <wsdl:part name="parameters" element="tns:SanitizeMailContentWithOptionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SanitizeMailContentWithOptionsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="SanitizeMailContentsRequest">
     <wsdl:part name="parameters" element="tns:SanitizeMailContents" />
   </wsdl:message>
@@ -2987,6 +3081,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetAttachmentPreviewRequest">
+    <wsdl:part name="parameters" element="tns:GetAttachmentPreview" />
+  </wsdl:message>
+  <wsdl:message name="GetAttachmentPreviewRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAttachmentPreviewResponse">
+    <wsdl:part name="parameters" element="tns:GetAttachmentPreviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAttachmentPreviewResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPreviewAttachmentStreamRequest">
     <wsdl:part name="parameters" element="tns:GetPreviewAttachmentStream" />
   </wsdl:message>
@@ -2999,6 +3110,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="parameters" element="tns:GetPreviewAttachmentStreamResponse" />
   </wsdl:message>
   <wsdl:message name="GetPreviewAttachmentStreamResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRfcAttachmentStreamRequest">
+    <wsdl:part name="parameters" element="tns:GetRfcAttachmentStream" />
+  </wsdl:message>
+  <wsdl:message name="GetRfcAttachmentStreamRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRfcAttachmentStreamResponse">
+    <wsdl:part name="parameters" element="tns:GetRfcAttachmentStreamResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRfcAttachmentStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -3373,6 +3501,10 @@ title: Services88.TicketAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContent" name="SanitizeMailContentRequest" message="tns:SanitizeMailContentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContentResponse" name="SanitizeMailContentResponse" message="tns:SanitizeMailContentResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SanitizeMailContentWithOptions">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContentWithOptions" name="SanitizeMailContentWithOptionsRequest" message="tns:SanitizeMailContentWithOptionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContentWithOptionsResponse" name="SanitizeMailContentWithOptionsResponse" message="tns:SanitizeMailContentWithOptionsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="SanitizeMailContents">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContents" name="SanitizeMailContentsRequest" message="tns:SanitizeMailContentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContentsResponse" name="SanitizeMailContentsResponse" message="tns:SanitizeMailContentsResponse" />
@@ -3397,9 +3529,17 @@ title: Services88.TicketAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/RemoveMessageAttachments" name="RemoveMessageAttachmentsRequest" message="tns:RemoveMessageAttachmentsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/RemoveMessageAttachmentsResponse" name="RemoveMessageAttachmentsResponse" message="tns:RemoveMessageAttachmentsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetAttachmentPreview">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentPreview" name="GetAttachmentPreviewRequest" message="tns:GetAttachmentPreviewRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentPreviewResponse" name="GetAttachmentPreviewResponse" message="tns:GetAttachmentPreviewResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentStream">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetPreviewAttachmentStream" name="GetPreviewAttachmentStreamRequest" message="tns:GetPreviewAttachmentStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetPreviewAttachmentStreamResponse" name="GetPreviewAttachmentStreamResponse" message="tns:GetPreviewAttachmentStreamResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRfcAttachmentStream">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetRfcAttachmentStream" name="GetRfcAttachmentStreamRequest" message="tns:GetRfcAttachmentStreamRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetRfcAttachmentStreamResponse" name="GetRfcAttachmentStreamResponse" message="tns:GetRfcAttachmentStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="SendTicketMessage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SendTicketMessage" name="SendTicketMessageRequest" message="tns:SendTicketMessageRequest" />
@@ -4108,6 +4248,22 @@ title: Services88.TicketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="SanitizeMailContentWithOptions">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContentWithOptions" style="document" />
+      <wsdl:input name="SanitizeMailContentWithOptionsRequest">
+        <soap:header message="tns:SanitizeMailContentWithOptionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SanitizeMailContentWithOptionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SanitizeMailContentWithOptionsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SanitizeMailContentWithOptionsResponse">
+        <soap:header message="tns:SanitizeMailContentWithOptionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SanitizeMailContentWithOptionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SanitizeMailContentWithOptionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SanitizeMailContentWithOptionsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SanitizeMailContents">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SanitizeMailContents" style="document" />
       <wsdl:input name="SanitizeMailContentsRequest">
@@ -4204,6 +4360,22 @@ title: Services88.TicketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetAttachmentPreview">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentPreview" style="document" />
+      <wsdl:input name="GetAttachmentPreviewRequest">
+        <soap:header message="tns:GetAttachmentPreviewRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAttachmentPreviewRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAttachmentPreviewRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAttachmentPreviewResponse">
+        <soap:header message="tns:GetAttachmentPreviewResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAttachmentPreviewResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAttachmentPreviewResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAttachmentPreviewResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetPreviewAttachmentStream">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetPreviewAttachmentStream" style="document" />
       <wsdl:input name="GetPreviewAttachmentStreamRequest">
@@ -4217,6 +4389,22 @@ title: Services88.TicketAgent WSDL
         <soap:header message="tns:GetPreviewAttachmentStreamResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPreviewAttachmentStreamResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPreviewAttachmentStreamResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRfcAttachmentStream">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetRfcAttachmentStream" style="document" />
+      <wsdl:input name="GetRfcAttachmentStreamRequest">
+        <soap:header message="tns:GetRfcAttachmentStreamRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetRfcAttachmentStreamRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetRfcAttachmentStreamRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetRfcAttachmentStreamResponse">
+        <soap:header message="tns:GetRfcAttachmentStreamResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetRfcAttachmentStreamResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetRfcAttachmentStreamResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetRfcAttachmentStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

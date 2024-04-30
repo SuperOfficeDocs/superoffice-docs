@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 936,
+  "SourceDocumentTemplateId": 352,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 438,
-  "Name": "Huels-Rau",
-  "Tooltip": "reprehenderit",
-  "SaveInDb": 403,
-  "Filename": "ipsa",
-  "DefaultOref": "architecto",
+  "DocumentTemplateId": 300,
+  "Name": "Hintz-Larkin",
+  "Tooltip": "nesciunt",
+  "SaveInDb": 228,
+  "Filename": "reiciendis",
+  "DefaultOref": "quibusdam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 609,
-  "IntentId": 606,
+  "AutoeventId": 136,
+  "IntentId": 211,
   "IsDefaultPublished": false,
-  "Rank": 932,
-  "LoadTemplateFromPlugin": 233,
-  "MimeType": "numquam",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 588,
+  "Rank": 109,
+  "LoadTemplateFromPlugin": 904,
+  "MimeType": "itaque",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 226,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "anabel_heidenreich@swaniawskibartoletti.co.uk",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "daryl_mcdermott@mohr.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lillie@williamsonkihn.ca",
+  "SenderEmailAddress": "teresa_beier@koelpin.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 918
     }
   }
 }

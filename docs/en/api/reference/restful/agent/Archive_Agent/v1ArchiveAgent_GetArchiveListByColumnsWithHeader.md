@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Treutel, Schinner and Wisozk",
+  "ProviderName": "Mertz-Paucek",
   "Columns": [
-    "hic",
-    "aut"
+    "aperiam",
+    "eaque"
   ],
   "SortOrder": [
     {
-      "Name": "Labadie, Feeney and Abshire",
+      "Name": "Hahn Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Labadie, Feeney and Abshire",
+      "Name": "Hahn Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Lemke, Bashirian and Crooks",
-      "Operator": "quia",
+      "Name": "Schoen, Walsh and Kutch",
+      "Operator": "tempora",
       "Values": [
-        "rem",
-        "veniam"
+        "laudantium",
+        "aut"
       ],
       "DisplayValues": [
-        "quo",
-        "odit"
+        "et",
+        "optio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 340,
+      "InterParenthesis": 177,
       "InterOperator": "And",
-      "UniqueHash": 54
+      "UniqueHash": 327
     }
   ],
   "Entities": [
-    "nisi",
-    "sed"
+    "soluta",
+    "dicta"
   ],
-  "Page": 428,
-  "PageSize": 905,
-  "Options": "expedita"
+  "Page": 116,
+  "PageSize": 605,
+  "Options": "aut"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 417,
+  "RowCount": 759,
   "Rows": [
     {
-      "EntityName": "Wisoky, Roob and Weissnat",
-      "PrimaryKey": 858,
+      "EntityName": "Satterfield, Nienow and Homenick",
+      "PrimaryKey": 607,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "deleniti",
-          "LinkHint": "reiciendis"
+          "DisplayValue": "reiciendis",
+          "TooltipHint": "est",
+          "LinkHint": "explicabo"
         }
       },
-      "LinkHint": "nihil",
-      "StyleHint": "qui",
+      "LinkHint": "consequatur",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 372
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 250
     }
   }
 }

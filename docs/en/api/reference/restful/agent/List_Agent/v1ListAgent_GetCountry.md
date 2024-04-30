@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=55
+POST /api/v1/Agents/List/GetCountry?countryId=590
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 458,
-  "Name": "Harvey-Kling",
-  "CurrencyId": 648,
-  "EnglishName": "McClure-Marks",
+  "CountryId": 793,
+  "Name": "Lueilwitz Inc and Sons",
+  "CurrencyId": 833,
+  "EnglishName": "Heidenreich Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Advanced homogeneous contingency",
-  "OrgNrText": "654736",
-  "InterAreaPrefix": "earum",
-  "DialInPrefix": "sapiente",
-  "ZipPrefix": "ipsum",
-  "DomainName": "Windler-Von",
-  "AddressLayoutId": 523,
-  "DomesticAddressLayoutId": 257,
-  "ForeignAddressLayoutId": 998,
-  "Rank": 12,
-  "Tooltip": "nam",
+  "ImageDescription": "Horizontal dynamic capability",
+  "OrgNrText": "718692",
+  "InterAreaPrefix": "necessitatibus",
+  "DialInPrefix": "explicabo",
+  "ZipPrefix": "rerum",
+  "DomainName": "Hermiston, Terry and Herzog",
+  "AddressLayoutId": 570,
+  "DomesticAddressLayoutId": 982,
+  "ForeignAddressLayoutId": 352,
+  "Rank": 61,
+  "Tooltip": "omnis",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 130
     }
   }
 }

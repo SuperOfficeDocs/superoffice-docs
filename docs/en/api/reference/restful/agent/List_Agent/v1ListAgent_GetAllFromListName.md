@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kertzmann, Mayer and Gerhold",
+  "UdListDefinitionName": "McDermott-Schneider",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Bogisich Inc and Sons",
-    "Tooltip": "eaque",
+    "Id": 669,
+    "Name": "Mayer-Eichmann",
+    "Tooltip": "aspernatur",
     "Deleted": true,
-    "UdListDefinitionId": 138,
-    "Rank": 269,
+    "UdListDefinitionId": 650,
+    "Rank": 858,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 724
       }
     }
   }

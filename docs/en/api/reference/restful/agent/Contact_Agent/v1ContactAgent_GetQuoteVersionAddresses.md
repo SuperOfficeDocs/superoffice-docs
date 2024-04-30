@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 744
+  "QuoteVersionId": 611
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 14391.328,
-    "Wgs84Longitude": 22426.904,
+    "Wgs84Latitude": 22900.138,
+    "Wgs84Longitude": 18565.816,
     "LocalizedAddress": [
       [
         {
-          "Name": "Gorczany LLC",
-          "Value": "qui",
-          "Tooltip": "voluptas",
-          "Label": "pariatur",
-          "ValueLength": 424,
-          "AddressType": "ut",
+          "Name": "Schneider Group",
+          "Value": "odit",
+          "Tooltip": "commodi",
+          "Label": "perspiciatis",
+          "ValueLength": 256,
+          "AddressType": "sit",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 888
+              "FieldType": "System.Int32",
+              "FieldLength": 463
             }
           }
         }
       ],
       [
         {
-          "Name": "Russel-Rippin",
-          "Value": "assumenda",
-          "Tooltip": "omnis",
-          "Label": "beatae",
-          "ValueLength": 589,
-          "AddressType": "pariatur",
+          "Name": "Haag LLC",
+          "Value": "maiores",
+          "Tooltip": "vitae",
+          "Label": "quaerat",
+          "ValueLength": 830,
+          "AddressType": "ratione",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 866
+              "FieldLength": 948
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "libero",
+    "Formatted": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 150
       }
     }
   }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 541,
-  "ModuleOwner": "amet"
+  "AssociateId": 683,
+  "ModuleOwner": "occaecati"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 219,
-    "Tooltip": "rerum",
-    "CanAssign": false,
-    "Free": 150,
-    "InUse": 738,
+    "Total": 711,
+    "Tooltip": "quia",
+    "CanAssign": true,
+    "Free": 220,
+    "InUse": 320,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 937,
-    "Name": "Homenick, Grimes and Haag",
-    "Description": "Profit-focused full-range core",
-    "PrerequisiteModuleName": "Cole, Greenfelder and Bode",
-    "SortOrder": 161,
-    "ExtraFlags": 144,
+    "ModuleLicenseId": 470,
+    "Name": "Collins, Upton and Wiegand",
+    "Description": "Exclusive didactic neural-net",
+    "PrerequisiteModuleName": "Doyle Group",
+    "SortOrder": 91,
+    "ExtraFlags": 795,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

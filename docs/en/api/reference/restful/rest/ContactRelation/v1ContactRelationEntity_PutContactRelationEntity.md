@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 389,
-  "SourcePersonId": 630,
-  "DestinationContactId": 787,
-  "DestinationPersonId": 525,
-  "RelationId": 170,
-  "Comment": "qui",
-  "RelationDefinitionId": 212,
-  "Reversed": 74,
-  "UpdatedDate": "2017-11-07T12:19:53.3055654+01:00",
-  "CreatedDate": "2003-09-30T12:19:53.3055654+02:00",
+  "SourceContactId": 288,
+  "SourcePersonId": 687,
+  "DestinationContactId": 579,
+  "DestinationPersonId": 709,
+  "RelationId": 351,
+  "Comment": "voluptas",
+  "RelationDefinitionId": 879,
+  "Reversed": 706,
+  "UpdatedDate": "2022-11-20T11:44:41.8671838+01:00",
+  "CreatedDate": "2005-04-11T11:44:41.8671838+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stroman Group",
-  "SourcePersonName": "Kovacek Inc and Sons",
-  "DestinationContactName": "Willms, Pfeffer and Marquardt",
-  "DestinationPersonName": "Bartoletti-Mann",
-  "ActiveText": "debitis",
-  "PassiveText": "est"
+  "SourceContactName": "Dickinson, Schaden and Hammes",
+  "SourcePersonName": "Buckridge LLC",
+  "DestinationContactName": "Moore-Ritchie",
+  "DestinationPersonName": "Gutmann LLC",
+  "ActiveText": "exercitationem",
+  "PassiveText": "voluptates"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 670,
-  "SourcePersonId": 271,
-  "DestinationContactId": 338,
-  "DestinationPersonId": 608,
-  "RelationId": 100,
-  "Comment": "animi",
-  "RelationDefinitionId": 526,
-  "Reversed": 701,
-  "UpdatedDate": "2007-03-05T12:19:53.3055654+01:00",
-  "CreatedDate": "2005-09-26T12:19:53.3055654+02:00",
+  "SourceContactId": 23,
+  "SourcePersonId": 215,
+  "DestinationContactId": 427,
+  "DestinationPersonId": 517,
+  "RelationId": 936,
+  "Comment": "doloribus",
+  "RelationDefinitionId": 821,
+  "Reversed": 609,
+  "UpdatedDate": "2006-10-29T11:44:41.8671838+01:00",
+  "CreatedDate": "2013-04-12T11:44:41.8671838+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bauch, Cole and Brekke",
-  "SourcePersonName": "Heathcote-Bogisich",
-  "DestinationContactName": "Orn-Monahan",
-  "DestinationPersonName": "Cruickshank Inc and Sons",
-  "ActiveText": "eum",
-  "PassiveText": "suscipit",
+  "SourceContactName": "Mohr-Dare",
+  "SourcePersonName": "Hilll, Kiehn and Lubowitz",
+  "DestinationContactName": "Shields, Graham and Dickinson",
+  "DestinationPersonName": "Hoppe LLC",
+  "ActiveText": "at",
+  "PassiveText": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 702
     }
   },
   "_Links": {

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Padberg, Turner and Bergnaum",
-    "ToolTip": "Tenetur laboriosam.",
+    "Id": 147,
+    "Name": "Hermiston Inc and Sons",
+    "ToolTip": "Quia qui pariatur officia.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "quibusdam",
-    "ColorBlock": 698,
-    "IconHint": "esse",
+    "Rank": 758,
+    "Type": "maxime",
+    "ColorBlock": 204,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2022-11-20T12:19:54.7583539+01:00",
+    "LastChanged": "1998-10-17T11:44:43.2574879+02:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Spinka, Zemlak and Klocko",
-        "ToolTip": "Quam omnis.",
-        "Deleted": false,
-        "Rank": 738,
-        "Type": "porro",
-        "ColorBlock": 131,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2012-09-12T12:19:54.7583539+02:00",
+        "Id": 815,
+        "Name": "Von, Boehm and Shields",
+        "ToolTip": "Voluptatum cupiditate sed quia vel quod ut sunt.",
+        "Deleted": true,
+        "Rank": 62,
+        "Type": "voluptatum",
+        "ColorBlock": 203,
+        "IconHint": "maiores",
+        "Selected": true,
+        "LastChanged": "2012-10-13T11:44:43.2574879+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "laudantium",
-        "Hidden": true,
-        "FullName": "Ms. Tressa Althea Kautzer",
+        "ExtraInfo": "natus",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Mr. Ryley Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 25
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "ratione",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Mekhi Hagenes",
+    "FullName": "Miss Leonor Dorcas Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldLength": 620
       }
     }
   }

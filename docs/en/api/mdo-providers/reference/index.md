@@ -458,3 +458,4 @@ so.envir: onsite, online
 | [workflowtimewaitintervaltype](workflowtimewaitintervaltype.md) |MDO provider for the WorkflowTimeWaitIntervalType enum|
 | [workflowtriggertype](workflowtriggertype.md) |MDO provider for the WorkflowTriggerType enum|
 | [y_car](y_car.md) |Extra tables lists. List names are 'y_xyz' - based on the custom table name|
+

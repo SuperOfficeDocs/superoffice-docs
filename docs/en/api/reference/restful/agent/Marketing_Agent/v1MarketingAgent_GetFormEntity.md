@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=222
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=874
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 53,
-  "FormKey": "sint",
-  "Name": "Howell-Lockman",
-  "Description": "Intuitive zero defect database",
-  "Config": "assumenda",
-  "FolderId": 525,
-  "ScriptId": 299,
-  "ResponseShipmentId": 29,
-  "Active": true,
-  "Expires": "2007-09-07T12:19:45.585943+02:00",
-  "MaxSubmits": 805,
+  "FormId": 531,
+  "FormKey": "molestias",
+  "Name": "O'Conner-Kuhic",
+  "Description": "Managed value-added installation",
+  "Config": "et",
+  "FolderId": 339,
+  "ScriptId": 988,
+  "ResponseShipmentId": 904,
+  "Active": false,
+  "Expires": "2006-03-13T11:44:33.9315193+01:00",
+  "MaxSubmits": 839,
   "Type": "Normal",
-  "Recipe": "natus",
-  "GroupId": 457,
+  "Recipe": "tempore",
+  "GroupId": 389,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2019-06-21T12:19:45.585943+02:00",
-  "RegisteredAssociateId": 809,
-  "Updated": "2014-07-06T12:19:45.585943+02:00",
-  "UpdatedAssociateId": 592,
-  "UpdatedCount": 170,
+  "Registered": "2015-02-01T11:44:33.9315193+01:00",
+  "RegisteredAssociateId": 378,
+  "Updated": "1997-05-20T11:44:33.9315193+02:00",
+  "UpdatedAssociateId": 253,
+  "UpdatedCount": 870,
   "EmailFlows": [
-    942,
-    619
+    613,
+    265
   ],
-  "FolderName": "Wyman LLC",
+  "FolderName": "Shanahan, Hermiston and Weimann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 805
     }
   }
 }

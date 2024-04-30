@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 711,
-    "Name": "Cole-Gaylord",
-    "Tooltip": "dolores",
-    "SaveInDb": 861,
-    "Filename": "occaecati",
-    "DefaultOref": "ut",
+    "DocumentTemplateId": 706,
+    "Name": "Koepp-Hoeger",
+    "Tooltip": "ipsum",
+    "SaveInDb": 91,
+    "Filename": "optio",
+    "DefaultOref": "fugit",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 751,
-    "IntentId": 845,
-    "IsDefaultPublished": false,
-    "Rank": 9,
-    "LoadTemplateFromPlugin": 909,
-    "MimeType": "magnam",
+    "AutoeventId": 178,
+    "IntentId": 729,
+    "IsDefaultPublished": true,
+    "Rank": 157,
+    "LoadTemplateFromPlugin": 957,
+    "MimeType": "est",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 502,
+    "DocumentTypeKey": 762,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "okey@ortiz.ca",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
+    "EmailSubject": "kamren.kirlin@hessel.biz",
+    "IncludeSignature": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "hulda@schuster.us",
+    "SenderEmailAddress": "tamara_moore@macejkovic.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldType": "System.String",
+        "FieldLength": 740
       }
     }
   }

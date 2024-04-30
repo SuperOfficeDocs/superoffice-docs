@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 19,
+  "AssociateId": 943,
   "Type": "AnonymousAssociate",
-  "PersonId": 156,
-  "UserName": "Quigley-Champlin"
+  "PersonId": 529,
+  "UserName": "O'Hara, Hodkiewicz and Carroll"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Harris Group"
+"Lind Inc and Sons"
 ```

@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "qui",
-      "HTMLBody": "quas",
+      "Subject": "numquam",
+      "HTMLBody": "non",
       "From": null,
-      "Sent": "2023-04-17T12:19:45.3047627+02:00",
-      "Size": 216,
+      "Sent": "2013-06-25T11:44:33.6503221+02:00",
+      "Size": 166,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "odio",
-      "PlainBody": "eius",
-      "IsSent": false,
+      "MessageID": "ab",
+      "PlainBody": "perspiciatis",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 478,
+      "ServerId": 15,
       "Attachments": [
         {},
         {}
@@ -141,12 +141,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Anderson Group",
-      "EmailItemId": 441,
-      "AccountId": 445,
-      "ReceivedAt": "2020-08-22T12:19:45.3047627+02:00",
+      "FolderName": "Bergstrom-Kuhn",
+      "EmailItemId": 742,
+      "AccountId": 211,
+      "ReceivedAt": "1999-04-14T11:44:33.6503221+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2001-01-20T12:19:45.3047627+01:00",
+      "RepliedAt": "2001-07-01T11:44:33.6503221+02:00",
       "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -166,147 +166,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 44,
-        "ContactName": "Rutherford LLC",
-        "PersonId": 230,
-        "PersonName": "Hintz-Hilpert",
-        "AssociateId": 572,
-        "Address": "dignissimos",
-        "EmailId": 642,
+        "ContactId": 687,
+        "ContactName": "Casper-Paucek",
+        "PersonId": 429,
+        "PersonName": "Gaylord-Orn",
+        "AssociateId": 404,
+        "Address": "aut",
+        "EmailId": 921,
         "DuplicatePersonIds": [
-          735,
-          138
+          562,
+          757
         ],
-        "Name": "Lakin-Schimmel",
+        "Name": "Gislason-Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldType": "System.String",
+            "FieldLength": 409
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 517,
-        "ContactName": "Howell-Lang",
-        "PersonId": 847,
-        "PersonName": "Prosacco Inc and Sons",
-        "AssociateId": 833,
-        "Address": "quia",
-        "EmailId": 226,
+        "ContactId": 577,
+        "ContactName": "Luettgen LLC",
+        "PersonId": 882,
+        "PersonName": "Kautzer-Larson",
+        "AssociateId": 650,
+        "Address": "ut",
+        "EmailId": 247,
         "DuplicatePersonIds": [
-          295,
-          952
+          644,
+          77
         ],
-        "Name": "Veum LLC",
+        "Name": "Koch Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 496
+            "FieldLength": 62
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 4,
-        "ContactName": "Langosh, Gislason and Lang",
-        "PersonId": 39,
-        "PersonName": "Bradtke LLC",
-        "AssociateId": 635,
-        "Address": "ut",
-        "EmailId": 828,
+        "ContactId": 384,
+        "ContactName": "Johns-Leuschke",
+        "PersonId": 398,
+        "PersonName": "Kuhic-Jacobs",
+        "AssociateId": 774,
+        "Address": "ipsum",
+        "EmailId": 33,
         "DuplicatePersonIds": [
-          79,
-          444
+          247,
+          595
         ],
-        "Name": "Prohaska LLC",
+        "Name": "Mann-Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldLength": 857
           }
         }
       }
     ],
-    "Subject": "aliquam",
-    "HTMLBody": "perferendis",
+    "Subject": "enim",
+    "HTMLBody": "dolor",
     "From": null,
-    "Sent": "2015-06-23T12:19:45.3047627+02:00",
-    "Size": 390,
+    "Sent": "2003-11-08T11:44:33.6503221+01:00",
+    "Size": 774,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "minus",
-    "PlainBody": "voluptas",
-    "IsSent": false,
+    "MessageID": "dolor",
+    "PlainBody": "est",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 802,
+    "ServerId": 309,
     "Attachments": [
       {
-        "Description": "Innovative high-level leverage",
-        "Filename": "eaque",
-        "Size": 313,
-        "Type": "inventore",
-        "Encoding": "praesentium",
-        "Id": "et",
-        "Disposition": "qui",
-        "IsSafeFileExtension": false,
+        "Description": "Right-sized next generation system engine",
+        "Filename": "tempora",
+        "Size": 660,
+        "Type": "officia",
+        "Encoding": "sint",
+        "Id": "perferendis",
+        "Disposition": "et",
+        "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 117
+            "FieldLength": 524
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Renner, Kessler and Champlin",
+        "Name": "Bednar LLC",
         "Values": [
-          "labore",
-          "itaque"
+          "possimus",
+          "optio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 787
+            "FieldType": "System.Int32",
+            "FieldLength": 12
           }
         }
       },
       {
-        "Name": "Renner, Kessler and Champlin",
+        "Name": "Bednar LLC",
         "Values": [
-          "labore",
-          "itaque"
+          "possimus",
+          "optio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 787
+            "FieldType": "System.Int32",
+            "FieldLength": 12
           }
         }
       }
     ],
-    "FolderName": "Reichert, Pacocha and Veum",
-    "EmailItemId": 21,
-    "AccountId": 318,
-    "ReceivedAt": "2008-12-14T12:19:45.3047627+01:00",
+    "FolderName": "Schaden-Beahan",
+    "EmailItemId": 785,
+    "AccountId": 535,
+    "ReceivedAt": "2010-02-18T11:44:33.6503221+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2020-10-24T12:19:45.3047627+02:00",
+    "RepliedAt": "2003-10-02T11:44:33.6503221+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -314,8 +314,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 274
+        "FieldType": "System.Int32",
+        "FieldLength": 869
       }
     }
   }

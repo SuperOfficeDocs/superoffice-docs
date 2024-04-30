@@ -151,18 +151,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "error",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "error",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -175,157 +175,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 390,
-  "Name": "Bradtke-Moore",
+  "ContactId": 924,
+  "Name": "Jacobi, Carter and Koelpin",
   "Department": "",
-  "OrgNr": "1155381",
-  "Number1": "1640638",
-  "Number2": "1223746",
-  "UpdatedDate": "2002-04-24T12:19:53.2586978+02:00",
-  "CreatedDate": "2001-10-18T12:19:53.2586978+02:00",
+  "OrgNr": "1721786",
+  "Number1": "1709167",
+  "Number2": "1384318",
+  "UpdatedDate": "2004-12-06T11:44:41.8203128+01:00",
+  "CreatedDate": "2003-11-06T11:44:41.8203128+01:00",
   "Emails": [
     {
-      "Value": "nobis",
-      "StrippedValue": "velit",
-      "Description": "Versatile non-volatile benchmark",
+      "Value": "sit",
+      "StrippedValue": "nihil",
+      "Description": "Profit-focused disintermediate structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 5
         }
       }
     },
     {
-      "Value": "nobis",
-      "StrippedValue": "velit",
-      "Description": "Versatile non-volatile benchmark",
+      "Value": "sit",
+      "StrippedValue": "nihil",
+      "Description": "Profit-focused disintermediate structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 5
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 339,
-      "Name": "Jaskolski LLC",
-      "ToolTip": "Ea itaque qui.",
+      "Id": 721,
+      "Name": "Herman Group",
+      "ToolTip": "Odio eveniet enim voluptas incidunt molestias vel saepe.",
       "Deleted": false,
-      "Rank": 382,
-      "Type": "autem",
-      "ColorBlock": 910,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2017-05-27T12:19:53.2586978+02:00",
+      "Rank": 529,
+      "Type": "sed",
+      "ColorBlock": 810,
+      "IconHint": "corporis",
+      "Selected": true,
+      "LastChanged": "2018-11-14T11:44:41.8203128+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "harum",
-      "StyleHint": "dolorum",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "excepturi",
       "Hidden": true,
-      "FullName": "Victoria Becker",
+      "FullName": "Brock Harris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 279
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eos",
-      "StrippedValue": "consequatur",
-      "Description": "Reactive well-modulated superstructure",
+      "Value": "nemo",
+      "StrippedValue": "et",
+      "Description": "Robust value-added paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldType": "System.Int32",
+          "FieldLength": 842
         }
       }
     },
     {
-      "Value": "eos",
-      "StrippedValue": "consequatur",
-      "Description": "Reactive well-modulated superstructure",
+      "Value": "nemo",
+      "StrippedValue": "et",
+      "Description": "Robust value-added paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldType": "System.Int32",
+          "FieldLength": 842
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "sit",
-      "StrippedValue": "qui",
-      "Description": "Monitored multi-tasking infrastructure",
+      "Value": "ducimus",
+      "StrippedValue": "neque",
+      "Description": "Synergistic stable solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     },
     {
-      "Value": "sit",
-      "StrippedValue": "qui",
-      "Description": "Monitored multi-tasking infrastructure",
+      "Value": "ducimus",
+      "StrippedValue": "neque",
+      "Description": "Synergistic stable solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ducimus",
-      "StrippedValue": "nihil",
-      "Description": "Ergonomic empowering help-desk",
+      "Value": "quis",
+      "StrippedValue": "iste",
+      "Description": "Streamlined executive collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 428
         }
       }
     },
     {
-      "Value": "ducimus",
-      "StrippedValue": "nihil",
-      "Description": "Ergonomic empowering help-desk",
+      "Value": "quis",
+      "StrippedValue": "iste",
+      "Description": "Streamlined executive collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 428
         }
       }
     }
   ],
-  "Description": "Sharable leading edge encoding",
+  "Description": "Reduced optimal parallelism",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -334,100 +334,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "illum",
-      "PersonId": 639,
-      "Mrmrs": "eum",
-      "Firstname": "Cristal",
-      "Lastname": "Wolf",
-      "MiddleName": "Wisozk, O'Hara and Wuckert",
-      "Title": "sit",
-      "Description": "Open-architected incremental concept",
-      "Email": "jett_mueller@framitorp.ca",
-      "FullName": "Mrs. Amelie Quigley II",
-      "DirectPhone": "1-979-054-7388 x353",
-      "FormalName": "Harber, McDermott and Jacobs",
-      "CountryId": 630,
-      "ContactId": 621,
-      "ContactName": "VonRueden, Beatty and Sawayn",
-      "Retired": 941,
-      "Rank": 933,
-      "ActiveInterests": 616,
+      "Position": "et",
+      "PersonId": 519,
+      "Mrmrs": "et",
+      "Firstname": "Pierce",
+      "Lastname": "Kulas",
+      "MiddleName": "Bergstrom-Lueilwitz",
+      "Title": "porro",
+      "Description": "Distributed 3rd generation structure",
+      "Email": "billy@hayeskreiger.ca",
+      "FullName": "Kristofer Wiegand",
+      "DirectPhone": "1-271-980-1657",
+      "FormalName": "Runolfsdottir, Hickle and Funk",
+      "CountryId": 704,
+      "ContactId": 469,
+      "ContactName": "Feeney Group",
+      "Retired": 982,
+      "Rank": 267,
+      "ActiveInterests": 905,
       "ContactDepartment": "",
-      "ContactCountryId": 215,
-      "ContactOrgNr": "313333",
-      "FaxPhone": "(815)097-2629 x60438",
-      "MobilePhone": "1-182-427-2773",
-      "ContactPhone": "506-566-8918 x96322",
-      "AssociateName": "Senger-Waelchi",
-      "AssociateId": 350,
+      "ContactCountryId": 564,
+      "ContactOrgNr": "1324745",
+      "FaxPhone": "1-660-703-3901 x76811",
+      "MobilePhone": "1-423-712-6325 x82129",
+      "ContactPhone": "(018)786-5844 x14524",
+      "AssociateName": "Hansen Group",
+      "AssociateId": 93,
       "UsePersonAddress": false,
-      "ContactFax": "voluptatem",
-      "Kanafname": "ipsum",
-      "Kanalname": "saepe",
-      "Post1": "quibusdam",
-      "Post2": "veritatis",
-      "Post3": "distinctio",
-      "EmailName": "kayden_ruecker@macejkovic.biz",
-      "ContactFullName": "Noelia Orn",
-      "ActiveErpLinks": 964,
-      "TicketPriorityId": 676,
-      "SupportLanguageId": 470,
-      "SupportAssociateId": 194,
+      "ContactFax": "autem",
+      "Kanafname": "aut",
+      "Kanalname": "laborum",
+      "Post1": "consequatur",
+      "Post2": "quos",
+      "Post3": "odio",
+      "EmailName": "jannie@farrell.info",
+      "ContactFullName": "Monica Schultz",
+      "ActiveErpLinks": 127,
+      "TicketPriorityId": 377,
+      "SupportLanguageId": 729,
+      "SupportAssociateId": 634,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldType": "System.String",
+          "FieldLength": 977
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "id",
-  "Xstop": true,
-  "ActiveInterests": 963,
-  "GroupId": 344,
-  "ActiveStatusMonitorId": 998,
+  "NoMailing": true,
+  "Kananame": "ad",
+  "Xstop": false,
+  "ActiveInterests": 877,
+  "GroupId": 133,
+  "ActiveStatusMonitorId": 384,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 479,
-  "DbiAgentId": 574,
-  "DbiLastSyncronized": "2015-06-07T12:19:53.2586978+02:00",
-  "DbiKey": "unde",
-  "DbiLastModified": "1999-07-06T12:19:53.2586978+02:00",
+  "Deleted": 373,
+  "DbiAgentId": 481,
+  "DbiLastSyncronized": "2003-01-02T11:44:41.8203128+01:00",
+  "DbiKey": "molestias",
+  "DbiLastModified": "1999-06-02T11:44:41.8203128+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 907,
-  "ActiveErpLinks": 940,
+  "Source": 6,
+  "ActiveErpLinks": 938,
   "BounceEmails": [
-    "hiram@pfeffer.name",
-    "madelynn_mann@rodriguezdubuque.co.uk"
+    "kara.okon@jewess.biz",
+    "rashad.zulauf@mueller.uk"
   ],
   "Domains": [
-    "aut",
-    "amet"
+    "accusamus",
+    "dolorem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Irving Glover DVM",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Kiley Schimmel",
+    "SuperOffice:2": "Veronica Brakus"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "hic"
+    "ExtraFields1": "error",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "aut",
+    "CustomFields2": "perferendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 218
     }
   },
   "_Links": {

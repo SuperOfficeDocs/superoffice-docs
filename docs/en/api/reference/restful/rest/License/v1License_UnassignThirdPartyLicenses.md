@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 704,
-    "Tooltip": "dolor",
+    "Unrestricted": false,
+    "Total": 232,
+    "Tooltip": "earum",
     "CanAssign": false,
-    "Free": 777,
-    "InUse": 330,
-    "IsHidden": false,
+    "Free": 685,
+    "InUse": 458,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 819,
-    "Name": "Jast Group",
-    "Description": "Enterprise-wide client-driven flexibility",
-    "PrerequisiteModuleName": "Schinner, Feeney and Pollich",
-    "SortOrder": 828,
-    "ExtraFlags": 629,
+    "ModuleLicenseId": 435,
+    "Name": "VonRueden, Bogisich and Kshlerin",
+    "Description": "Reverse-engineered actuating parallelism",
+    "PrerequisiteModuleName": "Rempel-Torphy",
+    "SortOrder": 988,
+    "ExtraFlags": 888,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 422
       }
     }
   }

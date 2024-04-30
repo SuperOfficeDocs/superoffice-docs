@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 428,
-  "ParentId": 882,
-  "Name": "Daniel LLC",
-  "Fullname": "delectus",
-  "CategoryMaster": 855,
+  "TicketCategoryId": 938,
+  "ParentId": 979,
+  "Name": "Quitzon Group",
+  "Fullname": "error",
+  "CategoryMaster": 248,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Crooks-Reinger",
+  "ExternalName": "Marvin Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 805,
-  "ReplyTemplate": 302,
-  "NotificationEmail": "jana.wisoky@streich.ca",
+  "AssignmentLag": 747,
+  "ReplyTemplate": 151,
+  "NotificationEmail": "quincy.bosco@turnerbotsford.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 601,
+  "EffectiveReplyTemplateId": 847,
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "vel"
+    "CustomFields1": "facilis",
+    "CustomFields2": "amet"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 770,
-  "ParentId": 521,
-  "Name": "Bergnaum Inc and Sons",
-  "Fullname": "eius",
-  "CategoryMaster": 381,
+  "TicketCategoryId": 257,
+  "ParentId": 205,
+  "Name": "Bayer-Kohler",
+  "Fullname": "a",
+  "CategoryMaster": 631,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kirlin-Pfannerstill",
+  "ExternalName": "Runolfsson, Sanford and Stoltenberg",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 42,
-  "ReplyTemplate": 530,
-  "NotificationEmail": "tatyana@labadie.info",
+  "AssignmentLag": 313,
+  "ReplyTemplate": 841,
+  "NotificationEmail": "marlin_nitzsche@friesencronin.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 443,
+  "EffectiveReplyTemplateId": 898,
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "odio"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "quas"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "esse"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 680
     }
   }
 }

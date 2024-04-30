@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=deserunt
+GET /api/v1/List/Rating/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Luettgen-O'Conner",
-    "ToolTip": "Nihil eos eveniet quibusdam quasi asperiores aut ut.",
+    "Id": 183,
+    "Name": "Predovic LLC",
+    "ToolTip": "Illo molestiae sit.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "et",
+    "Rank": 67,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Pfannerstill, Doyle and Mayert",
-        "ToolTip": "Deserunt voluptates laborum.",
+        "Id": 805,
+        "Name": "Nolan-Hauck",
+        "ToolTip": "Eligendi temporibus possimus.",
         "Deleted": false,
-        "Rank": 966,
-        "Type": "laboriosam",
+        "Rank": 389,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 556,
-        "ExtraInfo": "est",
-        "StyleHint": "amet",
-        "FullName": "Lyla Osinski",
+        "IconHint": "rerum",
+        "ColorBlock": 374,
+        "ExtraInfo": "magni",
+        "StyleHint": "autem",
+        "FullName": "Dr. Payton Deonte Huel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldType": "System.Int32",
+            "FieldLength": 236
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 714,
-    "ExtraInfo": "ducimus",
-    "StyleHint": "et",
-    "FullName": "Quinten McDermott",
+    "IconHint": "distinctio",
+    "ColorBlock": 688,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "cumque",
+    "FullName": "Heaven Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldLength": 230
       }
     }
   }

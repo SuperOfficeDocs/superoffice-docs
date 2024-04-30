@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Reichel-Medhurst",
-    "ToolTip": "Nobis numquam sit quos rem.",
-    "Deleted": false,
-    "Rank": 289,
-    "Type": "accusamus",
-    "ColorBlock": 548,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2017-07-15T12:19:54.7114903+02:00",
+    "Id": 577,
+    "Name": "Borer LLC",
+    "ToolTip": "Distinctio asperiores.",
+    "Deleted": true,
+    "Rank": 802,
+    "Type": "in",
+    "ColorBlock": 219,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2012-11-24T11:44:43.1949983+01:00",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "Von, Eichmann and Mann",
-        "ToolTip": "Ut et impedit rem dolor nihil voluptatem.",
+        "Id": 480,
+        "Name": "Nikolaus Group",
+        "ToolTip": "Cum repellendus ipsam eum id odio rerum eum.",
         "Deleted": false,
-        "Rank": 819,
-        "Type": "placeat",
-        "ColorBlock": 704,
-        "IconHint": "eveniet",
+        "Rank": 841,
+        "Type": "accusamus",
+        "ColorBlock": 460,
+        "IconHint": "eum",
         "Selected": true,
-        "LastChanged": "2009-11-06T12:19:54.7114903+01:00",
+        "LastChanged": "2019-06-16T11:44:43.1949983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "sit",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "aspernatur",
         "Hidden": true,
-        "FullName": "Mae Kulas",
+        "FullName": "Leola Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 960
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Emelia Boehm",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Mozelle Fanny Stroman V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 795
       }
     }
   }

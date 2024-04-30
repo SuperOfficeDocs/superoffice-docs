@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 323,
-  "Name": "Cruickshank Group",
-  "Tooltip": "impedit",
+  "WebPanelId": 502,
+  "Name": "Jacobson LLC",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 948,
+  "Rank": 374,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Harber Group",
+  "WindowName": "Steuber-Stamm",
   "Url": "http://www.example.com/",
-  "ProgId": "similique",
-  "Icon": 903,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "perferendis",
+  "Icon": 859,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 957
     }
   }
 }

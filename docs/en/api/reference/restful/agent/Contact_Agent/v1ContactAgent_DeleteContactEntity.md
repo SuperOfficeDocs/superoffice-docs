@@ -25,7 +25,7 @@ Deletes the ContactEntity
 | ContactEntityId | int32 | **Required** The id of the ContactEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Contact/DeleteContactEntity?ContactEntityId=214
+POST /api/v1/Agents/Contact/DeleteContactEntity?ContactEntityId=835
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Contact/DeleteContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

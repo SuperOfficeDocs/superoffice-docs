@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 860,
-  "TemplateName": "Morar-Fay",
-  "UseContacts": false,
-  "OrderBy": "officia"
+  "SelectionId": 137,
+  "TemplateName": "Schmidt Inc and Sons",
+  "UseContacts": true,
+  "OrderBy": "praesentium"
 }
 ```
 

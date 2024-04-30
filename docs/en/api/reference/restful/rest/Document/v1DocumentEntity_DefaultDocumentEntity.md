@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 20 Oct 2016 12:19:53 G10T
+Last-Modified: Mon, 05 Apr 2021 11:44:41 G4T
 
 {
-  "DocumentId": 147,
+  "DocumentId": 383,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "facere",
-  "Name": "Welch LLC",
-  "OurRef": "temporibus",
-  "YourRef": "ea",
-  "CreatedDate": "2020-03-04T12:19:53.3211851+01:00",
-  "UpdatedDate": "2016-10-20T12:19:53.3211851+02:00",
-  "Description": "User-friendly zero defect process improvement",
+  "Attention": "assumenda",
+  "Header": "impedit",
+  "Name": "Batz, Veum and Rath",
+  "OurRef": "voluptatem",
+  "YourRef": "cupiditate",
+  "CreatedDate": "2014-06-25T11:44:41.882801+02:00",
+  "UpdatedDate": "2021-04-05T11:44:41.882801+02:00",
+  "Description": "Multi-lateral next generation productivity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-11-25T12:19:53.3211851+01:00",
-  "ExternalRef": "delectus",
+  "Date": "2000-06-08T11:44:41.882801+02:00",
+  "ExternalRef": "libero",
   "Completed": "Completed",
-  "ActiveLinks": 336,
+  "ActiveLinks": 361,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Abshire-Runolfsson",
-      "Id": 435,
-      "Description": "Visionary user-facing standardization",
-      "ExtraInfo": "ullam",
-      "LinkId": 401,
+      "EntityName": "McCullough, Huels and Rice",
+      "Id": 475,
+      "Description": "Polarised holistic parallelism",
+      "ExtraInfo": "recusandae",
+      "LinkId": 730,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 937
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 357,
-  "Snum": 466,
+  "SuggestedDocumentId": 150,
+  "Snum": 970,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Marlin Grimes",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Maritza Dennis Kovacek II",
+    "SuperOffice:2": "Garnett Boyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "omnis",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2022-10-08T12:19:53.3211851+02:00",
-  "PublishTo": "2011-03-18T12:19:53.3211851+01:00",
-  "PublishFrom": "2013-01-15T12:19:53.3211851+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1997-12-04T11:44:41.882801+01:00",
+  "PublishTo": "2012-04-30T11:44:41.882801+02:00",
+  "PublishFrom": "2019-08-27T11:44:41.882801+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 667,
+      "VisibleId": 155,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 170
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     },
     {
-      "VisibleId": 667,
+      "VisibleId": 155,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 170
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     }
@@ -191,8 +191,8 @@ Last-Modified: Thu, 20 Oct 2016 12:19:53 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Jewess, Tromp and Glover",
-    "ToolTip": "Est vitae.",
-    "Deleted": true,
-    "Rank": 35,
-    "Type": "illo",
-    "ColorBlock": 179,
-    "IconHint": "veniam",
+    "Id": 277,
+    "Name": "Lakin, Casper and Rohan",
+    "ToolTip": "Esse enim earum a pariatur voluptatem quaerat soluta.",
+    "Deleted": false,
+    "Rank": 153,
+    "Type": "et",
+    "ColorBlock": 428,
+    "IconHint": "dicta",
     "Selected": true,
-    "LastChanged": "2003-07-10T12:19:54.6490067+02:00",
+    "LastChanged": "2014-03-08T11:44:43.1325006+01:00",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "Ortiz, Jacobs and Stark",
-        "ToolTip": "Omnis ea vitae.",
-        "Deleted": true,
-        "Rank": 614,
-        "Type": "odit",
-        "ColorBlock": 879,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "2021-02-26T12:19:54.6490067+01:00",
+        "Id": 868,
+        "Name": "Botsford Inc and Sons",
+        "ToolTip": "Culpa beatae nobis minima nemo eum voluptatibus modi.",
+        "Deleted": false,
+        "Rank": 758,
+        "Type": "sed",
+        "ColorBlock": 113,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "2016-05-03T11:44:43.1325006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "esse",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Mercedes Barton"
+        "FullName": "Robbie Dare IV"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "officiis",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Skye Smith"
+    "FullName": "Tiana Keeling"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Daniel Group",
-    "ToolTip": "Iure placeat eveniet aut mollitia inventore.",
-    "Deleted": true,
-    "Rank": 218,
-    "Type": "quod",
-    "ColorBlock": 145,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2005-06-13T12:19:54.6490067+02:00",
+    "Id": 210,
+    "Name": "Satterfield, Fisher and Stark",
+    "ToolTip": "Non fuga.",
+    "Deleted": false,
+    "Rank": 566,
+    "Type": "exercitationem",
+    "ColorBlock": 466,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2014-11-04T11:44:43.1481263+01:00",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Tillman-Hand",
-        "ToolTip": "Rerum expedita occaecati nam vel consequatur non.",
-        "Deleted": false,
-        "Rank": 653,
-        "Type": "voluptatem",
-        "ColorBlock": 220,
-        "IconHint": "doloribus",
+        "Id": 235,
+        "Name": "Zulauf Group",
+        "ToolTip": "Et est est sequi nisi.",
+        "Deleted": true,
+        "Rank": 913,
+        "Type": "ad",
+        "ColorBlock": 893,
+        "IconHint": "necessitatibus",
         "Selected": true,
-        "LastChanged": "2003-03-26T12:19:54.6490067+01:00",
+        "LastChanged": "1999-03-01T11:44:43.1481263+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "beatae",
+        "ExtraInfo": "sit",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Mrs. Lavern Cummerata",
+        "FullName": "Miss Rasheed Elias Becker DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "sit",
+    "ExtraInfo": "harum",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Mr. Zola Quentin Cruickshank",
+    "FullName": "Prof. Michelle Jaskolski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 501
       }
     }
   }

@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 632
+  "DepartmentId": 586
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sit",
-    "PersonId": 110,
-    "Mrmrs": "dolorem",
-    "Firstname": "Humberto",
-    "Lastname": "Tromp",
-    "MiddleName": "Hermann Inc and Sons",
-    "Title": "quia",
-    "Description": "Object-based bottom-line superstructure",
-    "Email": "hillard@reilly.co.uk",
-    "FullName": "Katelyn Beatty",
-    "DirectPhone": "1-251-244-7742",
-    "FormalName": "Bruen LLC",
-    "CountryId": 976,
-    "ContactId": 601,
-    "ContactName": "Christiansen-Zemlak",
-    "Retired": 4,
-    "Rank": 409,
-    "ActiveInterests": 18,
+    "Position": "atque",
+    "PersonId": 507,
+    "Mrmrs": "delectus",
+    "Firstname": "Henderson",
+    "Lastname": "Morar",
+    "MiddleName": "Mayer, Okuneva and Bins",
+    "Title": "totam",
+    "Description": "Horizontal tertiary installation",
+    "Email": "miller@flatley.us",
+    "FullName": "Eleazar Dickinson",
+    "DirectPhone": "(582)650-3940",
+    "FormalName": "Witting, Auer and Bins",
+    "CountryId": 592,
+    "ContactId": 456,
+    "ContactName": "Gleason-Hermiston",
+    "Retired": 690,
+    "Rank": 607,
+    "ActiveInterests": 50,
     "ContactDepartment": "",
-    "ContactCountryId": 161,
-    "ContactOrgNr": "918307",
-    "FaxPhone": "1-168-959-7529",
-    "MobilePhone": "(597)686-3009",
-    "ContactPhone": "1-968-554-8388",
-    "AssociateName": "Yost-Pfeffer",
-    "AssociateId": 904,
-    "UsePersonAddress": true,
-    "ContactFax": "tempora",
-    "Kanafname": "quos",
-    "Kanalname": "ipsam",
-    "Post1": "reiciendis",
-    "Post2": "ex",
-    "Post3": "iure",
-    "EmailName": "thad.becker@tromplittel.com",
-    "ContactFullName": "Ms. Alan Halle Vandervort I",
-    "ActiveErpLinks": 36,
-    "TicketPriorityId": 580,
-    "SupportLanguageId": 719,
-    "SupportAssociateId": 748,
+    "ContactCountryId": 642,
+    "ContactOrgNr": "982971",
+    "FaxPhone": "1-471-567-6495",
+    "MobilePhone": "648.126.3647",
+    "ContactPhone": "(429)517-4671 x0052",
+    "AssociateName": "Quigley, Baumbach and Cummerata",
+    "AssociateId": 24,
+    "UsePersonAddress": false,
+    "ContactFax": "culpa",
+    "Kanafname": "pariatur",
+    "Kanalname": "quisquam",
+    "Post1": "sapiente",
+    "Post2": "dolores",
+    "Post3": "ab",
+    "EmailName": "tom@lockman.info",
+    "ContactFullName": "Grace Anderson",
+    "ActiveErpLinks": 382,
+    "TicketPriorityId": 838,
+    "SupportLanguageId": 600,
+    "SupportAssociateId": 152,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 448
       }
     }
   }

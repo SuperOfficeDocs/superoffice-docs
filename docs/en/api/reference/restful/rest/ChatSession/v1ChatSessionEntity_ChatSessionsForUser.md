@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 312,
-    "TopicId": 182,
+    "ChatSessionId": 11,
+    "TopicId": 309,
     "User": null,
     "Person": null,
-    "CustomerAlias": "aliquam",
-    "CustomerHost": "laboriosam",
-    "CustomerName": "Mante-Schimmel",
-    "CustomerEmail": "emelia_runolfsdottir@walter.com",
-    "CustomerPhone": "1-135-508-8065",
+    "CustomerAlias": "perferendis",
+    "CustomerHost": "vel",
+    "CustomerName": "Adams-Parisian",
+    "CustomerEmail": "kelly@marksjacobi.com",
+    "CustomerPhone": "672.177.4133",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Denesik Group",
+    "CustomerCompanyName": "Luettgen-Doyle",
     "Status": "Closed",
-    "FirstMessage": "porro",
-    "LastMessage": "temporibus",
-    "WhenRequested": "2010-12-14T12:19:53.086862+01:00",
-    "WhenStarted": "2001-08-24T12:19:53.086862+02:00",
-    "WhenEnded": "2003-12-28T12:19:53.086862+01:00",
-    "WhenIdle": "2002-12-05T12:19:53.086862+01:00",
-    "WhenFetched": "2023-06-27T12:19:53.086862+02:00",
-    "SessionKey": "eligendi",
-    "InitialQueuePos": 469,
-    "AlertLevel": 473,
-    "Rank": 552,
+    "FirstMessage": "reiciendis",
+    "LastMessage": "neque",
+    "WhenRequested": "2007-12-05T11:44:41.6015673+01:00",
+    "WhenStarted": "2008-03-25T11:44:41.6015673+01:00",
+    "WhenEnded": "2019-11-12T11:44:41.6015673+01:00",
+    "WhenIdle": "2006-06-05T11:44:41.6015673+02:00",
+    "WhenFetched": "2007-02-03T11:44:41.6015673+01:00",
+    "SessionKey": "et",
+    "InitialQueuePos": 282,
+    "AlertLevel": 591,
+    "Rank": 821,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -128,13 +128,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 494,
+    "Rating": 790,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 344
       }
     }
   }

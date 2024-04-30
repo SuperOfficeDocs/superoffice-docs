@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "laudantium",
-    "iste"
+    "sit",
+    "veritatis"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schiller, Homenick and Collier",
-    "Delimiter": "qui",
-    "Flags": "nihil",
-    "TotalItems": 169,
-    "UnreadItems": 74,
-    "Subscribed": true,
-    "EmailFolderId": 248,
+    "Name": "Senger-Spencer",
+    "Delimiter": "sit",
+    "Flags": "quia",
+    "TotalItems": 684,
+    "UnreadItems": 337,
+    "Subscribed": false,
+    "EmailFolderId": 511,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

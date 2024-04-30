@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "earum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "earum",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 662,
-  "UniqueId": "repellat",
-  "Name": "Wyman LLC",
-  "Description": "Mandatory well-modulated circuit",
-  "AssociateId": 275,
-  "Columns": 507,
+  "DashboardId": 540,
+  "UniqueId": "quia",
+  "Name": "Stoltenberg-Gulgowski",
+  "Description": "Robust systematic forecast",
+  "AssociateId": 366,
+  "Columns": 920,
   "Theme": null,
-  "VisibleForAll": 265,
+  "VisibleForAll": 160,
   "VisibleForAssociates": [
-    586,
-    925
+    19,
+    643
   ],
   "VisibleForGroups": [
-    635,
-    210
+    898,
+    156
   ],
-  "PinForAll": 707,
+  "PinForAll": 432,
   "PinForAssociates": [
-    407,
-    178
+    947,
+    202
   ],
   "PinForGroups": [
-    798,
-    111
+    207,
+    585
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 377
     }
   },
   "_Links": {

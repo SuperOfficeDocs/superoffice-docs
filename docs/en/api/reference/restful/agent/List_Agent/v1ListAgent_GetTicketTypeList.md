@@ -72,6 +72,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -81,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +96,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 945,
-    "Name": "Kuhic, Schoen and Hettinger",
-    "Rank": 402,
-    "Tooltip": "in",
-    "Icon": "dolores",
-    "DefaultTicketStatus": 387,
+    "TicketTypeId": 556,
+    "Name": "Fay, Harris and Rogahn",
+    "Rank": 70,
+    "Tooltip": "animi",
+    "Icon": "animi",
+    "DefaultTicketStatus": 20,
     "TicketStatuses": [
-      148,
-      561
+      865,
+      83
     ],
-    "DefaultTicketPriority": 26,
+    "DefaultTicketPriority": 260,
     "TicketPriorities": [
-      391,
-      669
+      547,
+      744
     ],
-    "ReplyTemplate": 462,
+    "ReplyTemplate": 925,
     "IsExternalVisible": false,
-    "IsDefault": false,
+    "IsDefault": true,
+    "ShowInNew": false,
+    "ExcludeSignature": true,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 447
       }
     }
   }

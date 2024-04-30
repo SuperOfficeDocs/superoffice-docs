@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=totam
+GET /api/v1/List/Category/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Casper-Grant",
-    "ToolTip": "Dolorem labore nulla similique.",
-    "Deleted": false,
-    "Rank": 593,
-    "Type": "voluptatem",
+    "Id": 533,
+    "Name": "Connelly-Kovacek",
+    "ToolTip": "Fugit vel et temporibus tempora.",
+    "Deleted": true,
+    "Rank": 992,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Gerhold, Stokes and Wiza",
-        "ToolTip": "Ut necessitatibus.",
+        "Id": 706,
+        "Name": "Smith, Romaguera and Heller",
+        "ToolTip": "Ab et culpa assumenda rerum.",
         "Deleted": false,
-        "Rank": 146,
-        "Type": "quis",
+        "Rank": 271,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 367,
-        "ExtraInfo": "quod",
-        "StyleHint": "cupiditate",
-        "FullName": "Mrs. Kirsten Kassulke",
+        "IconHint": "eum",
+        "ColorBlock": 960,
+        "ExtraInfo": "qui",
+        "StyleHint": "dolorum",
+        "FullName": "Fletcher Alessandro Bins Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldType": "System.Int32",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 405,
-    "ExtraInfo": "fuga",
-    "StyleHint": "id",
-    "FullName": "Mariela Dennis Wiza DDS",
+    "IconHint": "quas",
+    "ColorBlock": 452,
+    "ExtraInfo": "corporis",
+    "StyleHint": "nihil",
+    "FullName": "Freeman Bernhard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldType": "System.String",
+        "FieldLength": 853
       }
     }
   }

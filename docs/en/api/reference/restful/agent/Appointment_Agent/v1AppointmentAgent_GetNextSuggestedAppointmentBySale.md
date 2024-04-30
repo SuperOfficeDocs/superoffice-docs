@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 765,
-  "CurrentAppointmentId": 476,
-  "SkipCompleteCheck": true
+  "SaleId": 294,
+  "CurrentAppointmentId": 253,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 875,
-  "Deleted": 123,
-  "DaysFuture": 295,
-  "Tooltip": "et",
-  "Text": "dolorem",
-  "TaskId": 37,
-  "SuggestedAppointmentId": 566,
-  "SaleTypeStageLinkId": 327,
-  "RegisteredAssociateId": 937,
-  "Rank": 112,
-  "ProjectTypeStatusLinkId": 824,
-  "Name": "Koch Group",
-  "Duration": 452,
+  "AutoSuggest": 184,
+  "Deleted": 510,
+  "DaysFuture": 776,
+  "Tooltip": "ullam",
+  "Text": "magni",
+  "TaskId": 904,
+  "SuggestedAppointmentId": 63,
+  "SaleTypeStageLinkId": 106,
+  "RegisteredAssociateId": 977,
+  "Rank": 475,
+  "ProjectTypeStatusLinkId": 245,
+  "Name": "Heaney, Lockman and Gleichner",
+  "Duration": 375,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 236
     }
   }
 }

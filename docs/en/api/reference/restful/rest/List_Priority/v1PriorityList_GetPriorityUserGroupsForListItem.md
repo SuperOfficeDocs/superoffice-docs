@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Conn LLC",
-    "ToolTip": "Quos dolorem ut vel porro animi.",
+    "Id": 529,
+    "Name": "Prosacco Inc and Sons",
+    "ToolTip": "Voluptate nam corporis eos aut itaque.",
     "Deleted": false,
-    "Rank": 126,
-    "Type": "voluptatem",
-    "ColorBlock": 572,
-    "IconHint": "fuga",
+    "Rank": 597,
+    "Type": "ipsam",
+    "ColorBlock": 310,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2012-08-15T12:19:54.6802476+02:00",
+    "LastChanged": "2019-10-14T11:44:43.1637513+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Swift-Blick",
-        "ToolTip": "Corrupti unde fugit.",
-        "Deleted": false,
-        "Rank": 117,
-        "Type": "sint",
-        "ColorBlock": 807,
-        "IconHint": "perferendis",
+        "Id": 355,
+        "Name": "Lindgren, Abshire and Haley",
+        "ToolTip": "Omnis corporis qui vel aut ut ea.",
+        "Deleted": true,
+        "Rank": 361,
+        "Type": "delectus",
+        "ColorBlock": 846,
+        "IconHint": "vitae",
         "Selected": true,
-        "LastChanged": "2003-06-04T12:19:54.6802476+02:00",
+        "LastChanged": "2009-09-27T11:44:43.1637513+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "omnis",
+        "ExtraInfo": "culpa",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Tania Fadel Sr.",
+        "FullName": "Bud Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 417
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "nobis",
-    "Hidden": true,
-    "FullName": "Jovanny Rath",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Ms. Marietta Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldLength": 10
       }
     }
   }

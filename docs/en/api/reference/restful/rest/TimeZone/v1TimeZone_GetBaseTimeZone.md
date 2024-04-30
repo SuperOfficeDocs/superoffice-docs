@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 134,
-  "Name": "Monahan-Wolf",
-  "TZLocationCode": "non",
-  "TZLocationCities": "architecto",
-  "IsoNumber": 893,
+  "TZLocationID": 820,
+  "Name": "Hyatt LLC",
+  "TZLocationCode": "perspiciatis",
+  "TZLocationCities": "provident",
+  "IsoNumber": 510,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 740,
-      "StartMonth": 842,
-      "EndDay": 578,
-      "EndMonth": 649,
-      "TZOffset": 818,
-      "StartRulePattern": "suscipit",
-      "EndRulePattern": "ipsa"
+      "StartDay": 917,
+      "StartMonth": 409,
+      "EndDay": 37,
+      "EndMonth": 157,
+      "TZOffset": 811,
+      "StartRulePattern": "dolor",
+      "EndRulePattern": "commodi"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 282,
-      "StartMonth": 696,
-      "EndDay": 695,
-      "EndMonth": 547,
-      "TZOffset": 925,
-      "StartRulePattern": "aut",
-      "EndRulePattern": "quis"
+      "StartDay": 568,
+      "StartMonth": 671,
+      "EndDay": 750,
+      "EndMonth": 38,
+      "TZOffset": 975,
+      "StartRulePattern": "fugiat",
+      "EndRulePattern": "velit"
     }
   }
 }

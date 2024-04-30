@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hermiston-Ryan",
+  "ProviderName": "Terry, Hermiston and Dare",
   "Columns": [
-    "distinctio",
-    "tempore"
+    "voluptatibus",
+    "non"
   ],
   "SortOrder": [
     {
-      "Name": "Nicolas-Olson",
+      "Name": "Gorczany-Schumm",
       "Direction": "ASC"
     },
     {
-      "Name": "Nicolas-Olson",
+      "Name": "Gorczany-Schumm",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rodriguez-Prosacco",
-      "Operator": "inventore",
+      "Name": "Botsford-Haag",
+      "Operator": "accusantium",
       "Values": [
-        "enim",
-        "nihil"
+        "quia",
+        "tempore"
       ],
       "DisplayValues": [
-        "expedita",
-        "exercitationem"
+        "debitis",
+        "architecto"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 383,
+      "InterParenthesis": 197,
       "InterOperator": "And",
-      "UniqueHash": 904
+      "UniqueHash": 88
     }
   ],
   "Entities": [
-    "sed",
-    "et"
+    "ipsum",
+    "dicta"
   ],
-  "Page": 869,
-  "PageSize": 745,
-  "Context": "earum"
+  "Page": 203,
+  "PageSize": 96,
+  "Context": "voluptatum"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Smith, Kuvalis and Hackett",
-    "PrimaryKey": 45,
+    "EntityName": "Stark-Greenfelder",
+    "PrimaryKey": 632,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "occaecati",
-        "TooltipHint": "impedit",
-        "LinkHint": "corporis"
+        "DisplayValue": "officiis",
+        "TooltipHint": "veniam",
+        "LinkHint": "culpa"
       }
     },
-    "LinkHint": "in",
-    "StyleHint": "omnis",
+    "LinkHint": "et",
+    "StyleHint": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 876
       }
     }
   }

@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 883,
-  "Name": "Hoeger-Ryan",
+  "SelectionId": 714,
+  "Name": "Huel, Jast and Macejkovic",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed intangible monitoring",
-  "Postit": "vel",
+  "Description": "Total user-facing initiative",
+  "Postit": "saepe",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 80,
-  "IncludePerson": 783,
-  "MemberCount": 856,
-  "Name": "Erdman Group",
-  "PostitTextId": 544,
-  "CreatedDate": "2000-05-10T12:19:46.2889068+02:00",
-  "SelectionId": 859,
-  "SoundEx": "aut",
-  "Source": 92,
-  "TextId": 180,
-  "UpdatedDate": "2022-10-15T12:19:46.2889068+02:00",
-  "UpdatedCount": 383,
-  "Visibility": 491,
+  "GroupIdx": 637,
+  "IncludePerson": 598,
+  "MemberCount": 515,
+  "Name": "Greenfelder Inc and Sons",
+  "PostitTextId": 947,
+  "CreatedDate": "2006-02-26T11:44:34.4782654+01:00",
+  "SelectionId": 409,
+  "SoundEx": "architecto",
+  "Source": 266,
+  "TextId": 581,
+  "UpdatedDate": "2007-10-11T11:44:34.4782654+02:00",
+  "UpdatedCount": 991,
+  "Visibility": 887,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 877,
-  "TargetTableName": "Pagac-McGlynn",
-  "Completed": false,
-  "LeftSelectionId": 674,
-  "RightSelectionId": 735,
+  "TargetTableNumber": 487,
+  "TargetTableName": "Simonis, Conroy and Murray",
+  "Completed": true,
+  "LeftSelectionId": 843,
+  "RightSelectionId": 11,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Dickens Group",
-  "ShadowProviderName": "Brekke-Nienow",
-  "ChartKey": "nihil",
-  "LastLoaded": "2013-03-07T12:19:46.2889068+01:00",
-  "LastLoadedBy": 558,
+  "MainProviderName": "Glover, Wintheiser and Cummings",
+  "ShadowProviderName": "Ferry, Cremin and Bruen",
+  "ChartKey": "dolore",
+  "LastLoaded": "2004-07-11T11:44:34.4782654+02:00",
+  "LastLoadedBy": 774,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-08-04T12:19:46.2889068+02:00",
-  "LastMembershipChangeBy": 842,
+  "LastMembershipChange": "1999-05-18T11:44:34.4782654+02:00",
+  "LastMembershipChangeBy": 662,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nihil",
-  "MemberTabHeading": "dolore",
-  "MailingsProviderName": "Gerhold, Hayes and Lemke",
-  "DashboardTileDefinitionId": 561,
+  "MainHeading": "recusandae",
+  "MemberTabHeading": "dolores",
+  "MailingsProviderName": "Lind-Gulgowski",
+  "DashboardTileDefinitionId": 503,
   "VisibleFor": [
     {
-      "VisibleId": 675,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 869
         }
       }
     },
     {
-      "VisibleId": 675,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 869
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 562
     }
   }
 }

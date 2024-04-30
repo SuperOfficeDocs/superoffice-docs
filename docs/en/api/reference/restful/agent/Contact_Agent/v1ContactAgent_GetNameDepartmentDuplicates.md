@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Littel-Kunze",
+  "Name": "Abbott Group",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Conroy-Stark",
-    "SoPrimaryKey": 853,
-    "EntryName": "Labadie-Anderson",
-    "EntryIdentifier": "illo",
-    "RuleDisplayName": "Carroll, Toy and Cronin",
+    "RuleName": "Bayer-Waelchi",
+    "SoPrimaryKey": 639,
+    "EntryName": "Beatty Group",
+    "EntryIdentifier": "nobis",
+    "RuleDisplayName": "Tillman-Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 184
       }
     }
   }

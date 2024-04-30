@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Gulgowski Inc and Sons",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 553,
-    "UdListDefinitionId": 954,
+    "HeadingId": 968,
+    "Name": "Steuber-Breitenberg",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 543,
+    "UdListDefinitionId": 75,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 345
       }
     }
   }

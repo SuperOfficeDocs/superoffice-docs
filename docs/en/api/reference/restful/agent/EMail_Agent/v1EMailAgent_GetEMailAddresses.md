@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    690,
-    286
+    563,
+    414
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 191,
-    "ContactName": "Schinner LLC",
-    "PersonId": 763,
-    "PersonName": "Schmeler-Grady",
-    "AssociateId": 966,
-    "Address": "praesentium",
-    "EmailId": 165,
+    "ContactId": 327,
+    "ContactName": "Skiles, Berge and Hudson",
+    "PersonId": 219,
+    "PersonName": "Stehr-Eichmann",
+    "AssociateId": 746,
+    "Address": "qui",
+    "EmailId": 423,
     "DuplicatePersonIds": [
-      489,
-      861
+      879,
+      228
     ],
-    "Name": "Walsh Group",
+    "Name": "Cruickshank-Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 490
       }
     }
   }

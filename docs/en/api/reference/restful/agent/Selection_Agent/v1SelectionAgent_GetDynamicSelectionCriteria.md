@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 374
+  "SelectionId": 874
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jakubowski, Marvin and Wisozk",
-    "Operator": "et",
+    "Name": "Maggio, Hessel and Koepp",
+    "Operator": "rerum",
     "Values": [
-      "labore",
-      "est"
+      "reprehenderit",
+      "vel"
     ],
     "DisplayValues": [
-      "voluptatum",
-      "dolores"
+      "fugiat",
+      "voluptatem"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Hoeger Group",
-        "Operator": "voluptatem",
+        "Name": "Nitzsche-Christiansen",
+        "Operator": "recusandae",
         "Values": [
-          "sed",
-          "et"
+          "minima",
+          "aut"
         ],
         "DisplayValues": [
-          "doloremque",
-          "dolore"
+          "repudiandae",
+          "est"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 74,
+        "InterParenthesis": 546,
         "InterOperator": "And",
-        "UniqueHash": 612
+        "UniqueHash": 470
       }
     ],
-    "InterParenthesis": 995,
+    "InterParenthesis": 432,
     "InterOperator": "And",
-    "UniqueHash": 644
+    "UniqueHash": 609
   }
 ]
 ```

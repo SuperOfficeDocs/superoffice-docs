@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 713,
-  "TopicId": 915,
+  "ChatSessionId": 667,
+  "TopicId": 3,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "enim",
-  "CustomerName": "Okuneva-McCullough",
-  "CustomerEmail": "toy_kshlerin@reynoldscorkery.co.uk",
-  "CustomerPhone": "1-003-792-1320 x625",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Corwin Group",
+  "CustomerAlias": "exercitationem",
+  "CustomerHost": "dolor",
+  "CustomerName": "Hartmann LLC",
+  "CustomerEmail": "summer_beahan@lemke.us",
+  "CustomerPhone": "1-301-956-8954 x0342",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Huels LLC",
   "Status": "Closed",
-  "FirstMessage": "perferendis",
-  "LastMessage": "labore",
-  "WhenRequested": "2022-07-28T12:19:53.0556123+02:00",
-  "WhenStarted": "2002-11-11T12:19:53.0556123+01:00",
-  "WhenEnded": "2010-08-01T12:19:53.0556123+02:00",
-  "WhenIdle": "2020-11-30T12:19:53.0556123+01:00",
-  "WhenFetched": "2020-10-02T12:19:53.0556123+02:00",
-  "SessionKey": "delectus",
-  "InitialQueuePos": 40,
-  "AlertLevel": 644,
-  "Rank": 656,
+  "FirstMessage": "quisquam",
+  "LastMessage": "porro",
+  "WhenRequested": "2003-12-17T11:44:41.5547517+01:00",
+  "WhenStarted": "2019-08-17T11:44:41.5547517+02:00",
+  "WhenEnded": "2004-08-22T11:44:41.5547517+02:00",
+  "WhenIdle": "2004-01-27T11:44:41.5547517+01:00",
+  "WhenFetched": "2000-07-19T11:44:41.5547517+02:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 885,
+  "AlertLevel": 469,
+  "Rank": 437,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 371,
+  "ChatbotIsActive": true,
+  "Rating": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 951
     }
   },
   "_Links": {

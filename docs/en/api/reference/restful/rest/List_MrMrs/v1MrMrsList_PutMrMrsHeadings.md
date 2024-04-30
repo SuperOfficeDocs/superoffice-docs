@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 958,
-    "Name": "Jacobson LLC",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 876,
-    "UdListDefinitionId": 968
+    "HeadingId": 640,
+    "Name": "Zemlak-Altenwerth",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 163,
+    "UdListDefinitionId": 911
   },
   {
-    "HeadingId": 958,
-    "Name": "Jacobson LLC",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 876,
-    "UdListDefinitionId": 968
+    "HeadingId": 640,
+    "Name": "Zemlak-Altenwerth",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 163,
+    "UdListDefinitionId": 911
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 935,
-    "Name": "Cremin Group",
-    "Tooltip": "occaecati",
+    "HeadingId": 708,
+    "Name": "Dicki, Homenick and DuBuque",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 62,
-    "UdListDefinitionId": 547,
+    "Rank": 221,
+    "UdListDefinitionId": 954,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 831
       }
     }
   }

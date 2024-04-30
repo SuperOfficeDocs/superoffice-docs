@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 675,
-    "ColumnId": 496,
-    "FieldDefault": "et",
-    "FieldHeight": 815,
-    "FieldLabel": "esse",
-    "FieldLeft": 584,
-    "FieldTop": 240,
+    "UDefFieldId": 645,
+    "ColumnId": 781,
+    "FieldDefault": "vel",
+    "FieldHeight": 356,
+    "FieldLabel": "eum",
+    "FieldLeft": 854,
+    "FieldTop": 625,
     "FieldType": "Checkbox",
-    "FieldWidth": 297,
-    "FormatMask": "nisi",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 449,
-    "LabelLeft": 375,
-    "LabelTop": 550,
-    "LabelWidth": 859,
-    "LastVersionId": 62,
-    "ListTableId": 968,
+    "FieldWidth": 873,
+    "FormatMask": "culpa",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 585,
+    "LabelLeft": 947,
+    "LabelTop": 310,
+    "LabelWidth": 94,
+    "LastVersionId": 52,
+    "ListTableId": 647,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 893,
-    "ProgId": "voluptatum",
+    "Page1LineNo": 429,
+    "ProgId": "nostrum",
     "IsReadOnly": false,
-    "ShortLabel": "numquam",
-    "TabOrder": 336,
-    "TextLength": 213,
-    "Tooltip": "architecto",
-    "UdefIdentity": 448,
-    "UDListDefinitionId": 379,
+    "ShortLabel": "alias",
+    "TabOrder": 546,
+    "TextLength": 625,
+    "Tooltip": "earum",
+    "UdefIdentity": 917,
+    "UDListDefinitionId": 403,
     "Justification": "Center",
-    "Version": 64,
-    "TemplateVariableName": "Funk, Kerluke and Block",
-    "HasBeenPublished": true,
-    "MdoListName": "Block, Maggio and Lakin",
+    "Version": 207,
+    "TemplateVariableName": "Ritchie-Hills",
+    "HasBeenPublished": false,
+    "MdoListName": "O'Reilly Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 622
       }
     }
   }

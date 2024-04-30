@@ -67,7 +67,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Prohaska-Feest",
-    "DisplayName": "Bode-Rosenbaum",
-    "Description": "Virtual user-facing migration",
-    "ShortLabel": "iusto",
+    "FieldName": "Bauch-Beer",
+    "DisplayName": "Block, Weber and Baumbach",
+    "Description": "Implemented attitude-oriented encoding",
+    "ShortLabel": "autem",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 625,
-    "TemplateVariableName": "King-Ernser"
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 128,
+    "TemplateVariableName": "Hilpert, Smith and Konopelski"
   }
 ]
 ```

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 420,
-  "Name": "Dickinson Group",
-  "Description": "Persevering content-based analyzer",
-  "DeltaJson": "corrupti",
+  "ConfigurableScreenDeltaId": 968,
+  "Name": "Koelpin Inc and Sons",
+  "Description": "Synchronised solution-oriented core",
+  "DeltaJson": "id",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "laboriosam",
-  "UpdatedDate": "2008-10-16T12:19:44.8361197+02:00",
-  "CreatedDate": "2018-01-31T12:19:44.8361197+01:00",
+  "RecipeId": "quia",
+  "UpdatedDate": "2017-05-24T11:44:33.0098502+02:00",
+  "CreatedDate": "2017-07-15T11:44:33.0098502+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    708,
-    536
+    799,
+    409
   ],
-  "AppliesToKey": "rerum",
+  "AppliesToKey": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 62
     }
   }
 }

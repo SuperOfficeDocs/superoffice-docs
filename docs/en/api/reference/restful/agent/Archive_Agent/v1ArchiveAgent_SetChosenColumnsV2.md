@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bednar LLC",
-  "ProviderName": "Nitzsche Group",
-  "Context": "quos",
-  "OwnerKeys": "iure",
+  "GuiName": "Heller Inc and Sons",
+  "ProviderName": "Labadie-Littel",
+  "Context": "quae",
+  "OwnerKeys": "sapiente",
   "ChosenColumns": [
-    "magni",
-    "non"
+    "aut",
+    "temporibus"
   ]
 }
 ```

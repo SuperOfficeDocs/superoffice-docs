@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dicki Group",
-    "DisplayName": "Rippin LLC",
-    "DisplayTooltip": "sit",
+    "Name": "Mitchell, Strosin and Mills",
+    "DisplayName": "Conroy, Stracke and Upton",
+    "DisplayTooltip": "enim",
     "IsActive": false
   },
   {
-    "Name": "Dicki Group",
-    "DisplayName": "Rippin LLC",
-    "DisplayTooltip": "sit",
+    "Name": "Mitchell, Strosin and Mills",
+    "DisplayName": "Conroy, Stracke and Upton",
+    "DisplayTooltip": "enim",
     "IsActive": false
   }
 ]

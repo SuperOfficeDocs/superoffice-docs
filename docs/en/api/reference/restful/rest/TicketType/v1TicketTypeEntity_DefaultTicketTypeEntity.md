@@ -59,6 +59,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -68,7 +72,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,30 +82,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 519,
-  "Name": "Murray Inc and Sons",
-  "Rank": 878,
-  "Tooltip": "quia",
-  "Icon": "in",
-  "DefaultTicketStatus": 561,
+  "TicketTypeId": 141,
+  "Name": "Legros-Rutherford",
+  "Rank": 416,
+  "Tooltip": "doloremque",
+  "Icon": "molestiae",
+  "DefaultTicketStatus": 984,
   "TicketStatuses": [
-    158,
-    39
+    45,
+    384
   ],
-  "DefaultTicketPriority": 413,
+  "DefaultTicketPriority": 326,
   "TicketPriorities": [
-    459,
-    18
+    117,
+    803
   ],
-  "ReplyTemplate": 974,
+  "ReplyTemplate": 297,
   "IsExternalVisible": false,
   "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 638
     }
   }
 }

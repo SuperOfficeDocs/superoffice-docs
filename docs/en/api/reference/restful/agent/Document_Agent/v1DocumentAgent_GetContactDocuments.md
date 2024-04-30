@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 664,
-  "StartTime": "2012-07-04T12:19:45.0704356+02:00",
-  "EndTime": "2009-02-26T12:19:45.0704356+01:00",
-  "Count": 436
+  "ContactId": 227,
+  "StartTime": "2022-04-12T11:44:33.4160074+02:00",
+  "EndTime": "2013-09-02T11:44:33.4160074+02:00",
+  "Count": 278
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 946,
-    "Attention": "qui",
-    "Header": "animi",
-    "Name": "Kautzer-Schoen",
-    "OurRef": "et",
-    "YourRef": "eius",
-    "Description": "Re-contextualized multi-state paradigm",
-    "DocumentTemplate": "molestiae",
-    "IsPublished": true,
-    "PersonId": 113,
-    "PersonFullName": "Jennifer Jacobson",
-    "AssociateFullName": "Deonte Konopelski",
-    "ContactId": 321,
-    "ContactName": "Gutmann-Hintz",
-    "ProjectId": 146,
-    "ProjectName": "Schmidt LLC",
-    "AssociateId": 879,
-    "Snum": 320,
-    "SaleId": 860,
-    "SaleName": "Predovic Inc and Sons",
+    "DocumentId": 886,
+    "Attention": "culpa",
+    "Header": "impedit",
+    "Name": "Renner, Lowe and Stokes",
+    "OurRef": "debitis",
+    "YourRef": "odio",
+    "Description": "Cloned radical knowledge user",
+    "DocumentTemplate": "ea",
+    "IsPublished": false,
+    "PersonId": 723,
+    "PersonFullName": "Casey Fadel",
+    "AssociateFullName": "Dr. Twila River Cartwright III",
+    "ContactId": 727,
+    "ContactName": "Hermiston-Klocko",
+    "ProjectId": 400,
+    "ProjectName": "Blick Inc and Sons",
+    "AssociateId": 676,
+    "Snum": 508,
+    "SaleId": 631,
+    "SaleName": "Pfannerstill Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldType": "System.Int32",
+        "FieldLength": 321
       }
     }
   }

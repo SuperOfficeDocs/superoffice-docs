@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 664,
-  "CurrencyId": 305
+  "QuoteConnectionId": 685,
+  "CurrencyId": 86
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 858,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 259,
-    "Name": "Corwin, Brekke and Morissette",
-    "Description": "Reverse-engineered actuating customer loyalty",
-    "Currency": "ut",
-    "CurrencyName": "Sauer-Powlowski",
-    "ValidFrom": "2007-02-17T12:19:46.1014395+01:00",
-    "ValidTo": "2008-12-18T12:19:46.1014395+01:00",
-    "IsActive": false,
+    "PriceListId": 826,
+    "ERPPriceListKey": "debitis",
+    "QuoteConnectionId": 849,
+    "Name": "Robel-Mills",
+    "Description": "Organic user-facing matrix",
+    "Currency": "accusamus",
+    "CurrencyName": "Hudson-Pouros",
+    "ValidFrom": "2021-05-06T11:44:34.2907996+02:00",
+    "ValidTo": "2006-04-02T11:44:34.2907996+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   }

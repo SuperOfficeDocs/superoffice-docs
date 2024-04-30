@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 991
+  "AssociateId": 775
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-06-22T12:19:44.3674705+02:00",
-  "AppointmentId": 403,
-  "Description": "Multi-channelled global algorithm",
-  "Title": "tempora",
-  "Agenda": "repellendus",
-  "InternalNotes": "quae",
-  "StartDate": "2009-05-04T12:19:44.3674705+02:00",
-  "EndDate": "2002-08-06T12:19:44.3674705+02:00",
+  "CreatedDate": "2005-01-07T11:44:32.6505612+01:00",
+  "AppointmentId": 82,
+  "Description": "Profit-focused bi-directional implementation",
+  "Title": "rerum",
+  "Agenda": "pariatur",
+  "InternalNotes": "omnis",
+  "StartDate": "2011-03-17T11:44:32.6505612+01:00",
+  "EndDate": "2011-06-11T11:44:32.6505612+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 120,
+  "MotherId": 123,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-06-19T12:19:44.3674705+02:00",
+  "UpdatedDate": "2018-03-04T11:44:32.666179+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 254,
+  "ActiveLinks": 28,
   "Links": [
     {
-      "EntityName": "Wiegand, Ritchie and D'Amore",
-      "Id": 588,
-      "Description": "Innovative intangible secured line",
-      "ExtraInfo": "reiciendis",
-      "LinkId": 803,
+      "EntityName": "Marvin-Lueilwitz",
+      "Id": 654,
+      "Description": "Balanced zero tolerance functionalities",
+      "ExtraInfo": "qui",
+      "LinkId": 545,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 278
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "enim",
   "HasAlarm": false,
-  "ColorIndex": 207,
+  "ColorIndex": 792,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "vitae",
-  "LeadTime": "magnam",
-  "Location": "numquam",
-  "RejectCounter": 861,
+  "LagTime": "qui",
+  "LeadTime": "enim",
+  "Location": "quis",
+  "RejectCounter": 91,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 202,
-      "PersonId": 141,
-      "ContactId": 831,
-      "EmailId": 97,
+      "AssociateId": 954,
+      "PersonId": 937,
+      "ContactId": 35,
+      "EmailId": 748,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rosetta@rogahn.biz",
-      "Description": "Digitized fault-tolerant archive"
+      "EmailAddress": "milton@senger.info",
+      "Description": "Stand-alone optimizing migration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-01-07T12:19:44.3674705+01:00",
+  "ActiveDate": "2011-05-19T11:44:32.666179+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 571,
+  "PreferredTZLocation": 651,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 186,
+  "SuggestedAppointmentId": 552,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloribus",
+  "CentralserviceVideomeetId": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Jennyfer Sonya Kulas",
-    "SuperOffice:2": "Maryjane Carter"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mr. Bill Spencer DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "vel"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "iste"
   },
-  "PublishEventDate": "2015-08-10T12:19:44.3674705+02:00",
-  "PublishTo": "2000-04-01T12:19:44.3674705+02:00",
-  "PublishFrom": "2002-11-29T12:19:44.3674705+01:00",
+  "PublishEventDate": "2000-02-13T11:44:32.666179+01:00",
+  "PublishTo": "2017-09-06T11:44:32.666179+02:00",
+  "PublishFrom": "2023-03-15T11:44:32.666179+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 663,
+      "VisibleId": 565,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 189
         }
       }
     },
     {
-      "VisibleId": 663,
+      "VisibleId": 565,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 189
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 190
     }
   }
 }

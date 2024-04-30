@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Lubowitz-Lesch",
-    "ToolTip": "Voluptatum est est magnam tempora ex.",
+    "Id": 422,
+    "Name": "Sporer Group",
+    "ToolTip": "Aliquid eveniet quae deserunt labore est.",
     "Deleted": false,
-    "Rank": 932,
-    "Type": "laborum",
-    "ColorBlock": 104,
-    "IconHint": "est",
+    "Rank": 590,
+    "Type": "et",
+    "ColorBlock": 495,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2010-07-18T12:19:54.602145+02:00",
+    "LastChanged": "2006-04-08T11:44:43.1012637+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Bosco Group",
-        "ToolTip": "Occaecati consequatur excepturi quis molestiae illo.",
+        "Id": 922,
+        "Name": "Doyle Inc and Sons",
+        "ToolTip": "Nisi consequatur.",
         "Deleted": false,
-        "Rank": 202,
-        "Type": "tempore",
-        "ColorBlock": 32,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "1998-07-03T12:19:54.602145+02:00",
+        "Rank": 189,
+        "Type": "repellendus",
+        "ColorBlock": 871,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2003-08-26T11:44:43.1012637+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Madeline DuBuque",
+        "FullName": "Victor Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 623
+            "FieldLength": 160
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quia",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Alessandra Cartwright",
+    "FullName": "Pablo Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 579
+  "QuoteId": 933
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 837,
-    "ERPQuoteVersionKey": "minus",
-    "QuoteId": 178,
-    "Description": "Digitized dedicated knowledge base",
-    "Number": "729118",
+    "QuoteVersionId": 478,
+    "ERPQuoteVersionKey": "rerum",
+    "QuoteId": 250,
+    "Description": "Versatile methodical project",
+    "Number": "497439",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 959,
-    "SentDate": "2018-06-17T12:19:46.054573+02:00",
-    "FollowupId": 40,
-    "ExpirationDate": "2001-04-04T12:19:46.054573+02:00",
-    "DeliveryCountryId": 936,
+    "LikelyQuoteAlternativeId": 759,
+    "SentDate": "2006-03-04T11:44:34.2439386+01:00",
+    "FollowupId": 887,
+    "ExpirationDate": "2010-01-28T11:44:34.2439386+01:00",
+    "DeliveryCountryId": 430,
     "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 606,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "deleniti",
-    "ERPPaymentTypeKey": "quae",
-    "ERPDeliveryTermsKey": "sit",
-    "ERPDeliveryTypeKey": "aut",
-    "Rank": 83,
-    "ApprovedBy": 964,
-    "ApprovedText": "nulla",
-    "ApprovedRegisteredBy": 608,
-    "ApprovedRegisteredDate": "2006-01-10T12:19:46.054573+01:00",
-    "ExtraField1": "ut",
-    "ExtraField2": "odit",
-    "ExtraField3": "illum",
-    "ExtraField4": "aut",
-    "ExtraField5": "magnam",
-    "LastRecalculated": "2018-08-14T12:19:46.054573+02:00",
-    "Updated": "2008-12-16T12:19:46.054573+01:00",
-    "UpdatedAssociateId": 790,
-    "Registered": "2017-11-19T12:19:46.054573+01:00",
-    "RegisteredAssociateId": 57,
-    "RequestAssociateId": 896,
-    "RequestComment": "aut",
+    "InvoiceCountryId": 479,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "accusamus",
+    "ERPPaymentTypeKey": "est",
+    "ERPDeliveryTermsKey": "iure",
+    "ERPDeliveryTypeKey": "sequi",
+    "Rank": 568,
+    "ApprovedBy": 245,
+    "ApprovedText": "cumque",
+    "ApprovedRegisteredBy": 397,
+    "ApprovedRegisteredDate": "2018-02-22T11:44:34.2439386+01:00",
+    "ExtraField1": "omnis",
+    "ExtraField2": "eum",
+    "ExtraField3": "ut",
+    "ExtraField4": "rerum",
+    "ExtraField5": "qui",
+    "LastRecalculated": "2001-08-22T11:44:34.2439386+02:00",
+    "Updated": "2017-12-29T11:44:34.2439386+01:00",
+    "UpdatedAssociateId": 287,
+    "Registered": "2023-12-25T11:44:34.2439386+01:00",
+    "RegisteredAssociateId": 653,
+    "RequestAssociateId": 585,
+    "RequestComment": "illo",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 523,
-        "ERPQuoteAlternativeKey": "aut",
-        "QuoteVersionId": 133,
-        "Name": "Emard-Pfannerstill",
-        "Description": "Enhanced stable moratorium",
+        "QuoteAlternativeId": 425,
+        "ERPQuoteAlternativeKey": "porro",
+        "QuoteVersionId": 982,
+        "Name": "Keebler, Tremblay and Schuster",
+        "Description": "Visionary intangible access",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 28296.886,
-        "ERPDiscountAmount": 3441.132,
-        "DiscountPercent": 22392.43,
-        "DiscountAmount": 17882.604,
+        "ERPDiscountPercent": 28199.732,
+        "ERPDiscountAmount": 23276.218,
+        "DiscountPercent": 17359.226,
+        "DiscountAmount": 23088.178,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "eligendi",
-        "VAT": 14237.761999999999,
-        "EarningPercent": 18358.971999999998,
-        "EarningAmount": 17967.221999999998,
-        "SubTotal": 6919.8719999999994,
-        "TotalPrice": 1125.106,
-        "ExtraField1": "quos",
-        "ExtraField2": "dolorum",
-        "ExtraField3": "est",
-        "ExtraField4": "dolores",
-        "ExtraField5": "ut",
+        "VATInfo": "aut",
+        "VAT": 7568.61,
+        "EarningPercent": 21665.342,
+        "EarningAmount": 3049.382,
+        "SubTotal": 9311.114,
+        "TotalPrice": 6393.36,
+        "ExtraField1": "numquam",
+        "ExtraField2": "deleniti",
+        "ExtraField3": "quod",
+        "ExtraField4": "sit",
+        "ExtraField5": "facilis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 513
+            "FieldType": "System.Int32",
+            "FieldLength": 866
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 500
       }
     }
   }

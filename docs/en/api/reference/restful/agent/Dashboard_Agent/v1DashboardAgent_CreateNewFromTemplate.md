@@ -94,20 +94,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 458,
-  "Caption": "iure",
-  "Description": "Seamless uniform extranet",
-  "SelectionId": 921,
+  "DashboardTileId": 895,
+  "Caption": "minus",
+  "Description": "Realigned 4th generation contingency",
+  "SelectionId": 8,
   "VisibleFor": [
     {
-      "VisibleId": 197,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 197,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 690,
-  "Caption": "enim",
-  "Description": "Open-architected executive middleware",
-  "ChartName": "Welch-Hilpert",
-  "ChartId": "eligendi",
-  "IsDefault": true,
-  "AssociateId": 545,
-  "GroupId": 402,
-  "SelectionId": 383,
-  "Config": "fugiat",
+  "DashboardTileId": 91,
+  "Caption": "doloribus",
+  "Description": "Synchronised discrete challenge",
+  "ChartName": "Toy-Medhurst",
+  "ChartId": "nihil",
+  "IsDefault": false,
+  "AssociateId": 90,
+  "GroupId": 232,
+  "SelectionId": 486,
+  "Config": "sed",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "O'Hara LLC",
-      "Description": "Exclusive mission-critical data-warehouse",
+      "Name": "Jakubowski Group",
+      "Description": "Implemented maximized forecast",
       "Type": "Boolean",
-      "ListName": "Schulist-Gibson",
+      "ListName": "Spinka Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ad",
+      "Value": "doloremque",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 662
+          "FieldLength": 554
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 150,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 120
         }
       }
     },
     {
-      "VisibleId": 150,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 120
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 654,
-  "BlobId": 923
+  "ProductId": 258,
+  "BlobId": 202
 }
 ```
 

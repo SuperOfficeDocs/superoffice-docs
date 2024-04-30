@@ -1185,7 +1185,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/isActive,saintActivityType,sale/updatedDate,sale/registeredDate,document/who
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactInterestIds,contactExtra/x_contact_default_integer,sale/saleId,sale/associate/contactName,appointment/completedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

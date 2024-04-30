@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 317,
-  "Name": "Effertz, Erdman and Purdy",
-  "Tooltip": "reiciendis",
-  "Rank": 815,
+  "SaleTypeId": 694,
+  "Name": "Gottlieb Inc and Sons",
+  "Tooltip": "nihil",
+  "Rank": 371,
   "DurationUnit": "Century",
-  "SaleDuration": 748,
-  "SaleTypeCatId": 77,
+  "SaleDuration": 826,
+  "SaleTypeCatId": 533,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 3,
-  "QuoteLinesTemplate": 343,
-  "ConfirmationLinesTemplate": 351,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 473,
+  "QuoteLinesTemplate": 100,
+  "ConfirmationLinesTemplate": 678,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 895,
-  "MinEarningPercent": 803,
-  "GroupQuoteLinesBy": 514,
-  "SortGroupLinesBy": 16,
+  "MaxDiscountPercent": 343,
+  "MinEarningPercent": 556,
+  "GroupQuoteLinesBy": 467,
+  "SortGroupLinesBy": 466,
   "Stages": [
     {
-      "Id": 163,
-      "Name": "Lubowitz, Wilderman and Kautzer",
-      "ToolTip": "Nesciunt quis eius.",
+      "Id": 329,
+      "Name": "Prohaska LLC",
+      "ToolTip": "Officia minima aut molestiae quod.",
       "Deleted": false,
-      "Rank": 462,
-      "Type": "quibusdam",
-      "ColorBlock": 799,
-      "IconHint": "voluptas",
-      "Selected": true,
-      "LastChanged": "2007-11-27T12:19:54.8364594+01:00",
+      "Rank": 922,
+      "Type": "sint",
+      "ColorBlock": 497,
+      "IconHint": "omnis",
+      "Selected": false,
+      "LastChanged": "2016-10-28T11:44:43.3355939+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "incidunt",
+      "ExtraInfo": "et",
+      "StyleHint": "dignissimos",
       "Hidden": false,
-      "FullName": "Connor Jacobi",
+      "FullName": "Miss Carmelo Terry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldLength": 349
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 201
     }
   }
 }

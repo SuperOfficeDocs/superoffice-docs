@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 882,
+  "DashboardTileId": 245,
   "Caption": "nihil",
-  "Description": "Realigned responsive Graphic Interface",
-  "ChartName": "Schinner, Shields and Koelpin",
-  "ChartId": "consequuntur",
-  "IsDefault": false,
-  "AssociateId": 557,
-  "GroupId": 785,
-  "SelectionId": 841,
-  "Config": "accusantium",
+  "Description": "Profit-focused impactful knowledge base",
+  "ChartName": "Rosenbaum-Robel",
+  "ChartId": "voluptatem",
+  "IsDefault": true,
+  "AssociateId": 845,
+  "GroupId": 232,
+  "SelectionId": 117,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Blick-Kreiger",
-      "Description": "Enterprise-wide didactic utilisation",
+      "Name": "Jenkins-Howe",
+      "Description": "Team-oriented 5th generation focus group",
       "Type": "Boolean",
-      "ListName": "Wyman-Becker",
+      "ListName": "Hirthe, Schaefer and Gutmann",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "qui",
+      "Value": "nesciunt",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 958
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 153,
+      "VisibleId": 745,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 464
         }
       }
     },
     {
-      "VisibleId": 153,
+      "VisibleId": 745,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 464
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 37
     }
   }
 }

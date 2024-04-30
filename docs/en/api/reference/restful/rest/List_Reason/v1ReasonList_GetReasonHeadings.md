@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 40,
-    "Name": "Abernathy Group",
-    "Tooltip": "suscipit",
-    "Deleted": true,
-    "Rank": 48,
-    "UdListDefinitionId": 560,
+    "HeadingId": 863,
+    "Name": "Dach, Mueller and Berge",
+    "Tooltip": "impedit",
+    "Deleted": false,
+    "Rank": 8,
+    "UdListDefinitionId": 154,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldLength": 515
       }
     }
   }

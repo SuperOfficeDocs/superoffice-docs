@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 535,
-  "Name": "Aufderhar-Heller",
-  "AssociateId": 202,
-  "DetailsTable": 691,
-  "DetailsRecord": 943,
+  "Id": 858,
+  "Name": "Bahringer-Feil",
+  "AssociateId": 340,
+  "DetailsTable": 141,
+  "DetailsRecord": 172,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "cum"
+    "ParameterObject1": "numquam",
+    "ParameterObject2": "pariatur"
   },
-  "LastStarted": "1999-02-24T12:19:54.0866374+01:00",
-  "Created": "1999-04-11T12:19:54.0866374+02:00",
-  "StartCount": 73,
-  "DatabaseSerialNumber": "867914",
-  "Context": "adipisci",
-  "Result": "voluptatem",
+  "LastStarted": "2002-09-18T11:44:42.7107372+02:00",
+  "Created": "2002-03-31T11:44:42.7107372+02:00",
+  "StartCount": 33,
+  "DatabaseSerialNumber": "259802",
+  "Context": "ea",
+  "Result": "dignissimos",
   "State": "All",
-  "Description": "Object-based full-range budgetary management",
-  "Response": "molestiae",
-  "Request": "rerum",
-  "ProgressDescription": "Profound incremental alliance",
-  "ProgressPercent": 847,
-  "FileName": "Zboncak, Yost and Bode",
+  "Description": "Mandatory exuding application",
+  "Response": "nihil",
+  "Request": "eveniet",
+  "ProgressDescription": "Persistent explicit forecast",
+  "ProgressPercent": 340,
+  "FileName": "Haley, Schneider and Mitchell",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 541
     }
   }
 }

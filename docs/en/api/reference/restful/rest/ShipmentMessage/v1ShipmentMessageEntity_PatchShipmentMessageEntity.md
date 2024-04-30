@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "fugit",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fugit",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 285,
-  "PlainMessage": "rerum",
-  "HtmlMessage": "dolores",
-  "SmsMessage": "doloremque",
-  "Description": "Enterprise-wide maximized knowledge base",
-  "Subject": "accusantium",
-  "FolderId": 584,
-  "HeaderField": "perferendis",
-  "Design": "eos",
+  "ShipmentMessageId": 37,
+  "PlainMessage": "et",
+  "HtmlMessage": "architecto",
+  "SmsMessage": "sequi",
+  "Description": "Virtual attitude-oriented throughput",
+  "Subject": "et",
+  "FolderId": 831,
+  "HeaderField": "iusto",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Organized foreground forecast",
-  "AccessKey": "veritatis",
-  "DocumentMessage": 184,
-  "Registered": "2016-11-15T12:19:53.9460405+01:00",
-  "RegisteredAssociateId": 408,
-  "Updated": "2003-07-11T12:19:53.9460405+02:00",
-  "UpdatedAssociateId": 973,
-  "UpdatedCount": 178,
+  "LongDescription": "Fundamental bottom-line neural-net",
+  "AccessKey": "rerum",
+  "DocumentMessage": 151,
+  "Registered": "2006-06-05T11:44:42.5545135+02:00",
+  "RegisteredAssociateId": 765,
+  "Updated": "2006-09-23T11:44:42.5545135+02:00",
+  "UpdatedAssociateId": 983,
+  "UpdatedCount": 648,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 744
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

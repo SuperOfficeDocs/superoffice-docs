@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "exercitationem",
-  "ProviderName": "Stracke-O'Reilly",
-  "StorageKey": "rerum",
-  "Context": "magnam"
+  "StorageType": "voluptas",
+  "ProviderName": "Jewess, Doyle and Wyman",
+  "StorageKey": "animi",
+  "Context": "occaecati"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Doyle Inc and Sons",
-    "Description": "Visionary secondary help-desk",
-    "Rank": 736,
+    "Name": "Wuckert Inc and Sons",
+    "Description": "Down-sized maximized internet solution",
+    "Rank": 102,
     "Restrictions": [
       {
-        "Name": "Rutherford, Zulauf and Wilkinson",
-        "Operator": "sunt",
+        "Name": "Feil-Pacocha",
+        "Operator": "consequatur",
         "Values": [
-          "molestiae",
-          "nostrum"
+          "temporibus",
+          "id"
         ],
         "DisplayValues": [
-          "possimus",
-          "quia"
+          "dolores",
+          "quibusdam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 274,
+        "InterParenthesis": 967,
         "InterOperator": "And",
-        "UniqueHash": 175
+        "UniqueHash": 620
       }
     ]
   },
   {
-    "Name": "Doyle Inc and Sons",
-    "Description": "Visionary secondary help-desk",
-    "Rank": 736,
+    "Name": "Wuckert Inc and Sons",
+    "Description": "Down-sized maximized internet solution",
+    "Rank": 102,
     "Restrictions": [
       {
-        "Name": "Rutherford, Zulauf and Wilkinson",
-        "Operator": "sunt",
+        "Name": "Feil-Pacocha",
+        "Operator": "consequatur",
         "Values": [
-          "molestiae",
-          "nostrum"
+          "temporibus",
+          "id"
         ],
         "DisplayValues": [
-          "possimus",
-          "quia"
+          "dolores",
+          "quibusdam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 274,
+        "InterParenthesis": 967,
         "InterOperator": "And",
-        "UniqueHash": 175
+        "UniqueHash": 620
       }
     ]
   }

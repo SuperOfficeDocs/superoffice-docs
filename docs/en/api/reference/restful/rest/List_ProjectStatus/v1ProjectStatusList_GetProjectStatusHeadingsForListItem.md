@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Gleason-Lang",
-    "ToolTip": "Dolor quas.",
+    "Id": 182,
+    "Name": "Muller LLC",
+    "ToolTip": "Eius beatae eligendi.",
     "Deleted": false,
-    "Rank": 983,
-    "Type": "ut",
-    "ColorBlock": 620,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2004-04-12T12:19:54.7427332+02:00",
+    "Rank": 369,
+    "Type": "dolores",
+    "ColorBlock": 201,
+    "IconHint": "illo",
+    "Selected": true,
+    "LastChanged": "2020-08-19T11:44:43.226243+02:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Carter LLC",
-        "ToolTip": "Assumenda libero quia.",
+        "Id": 668,
+        "Name": "Runolfsdottir Group",
+        "ToolTip": "Natus assumenda ut ipsa.",
         "Deleted": false,
-        "Rank": 186,
-        "Type": "excepturi",
-        "ColorBlock": 711,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "2008-11-08T12:19:54.7427332+01:00",
+        "Rank": 97,
+        "Type": "voluptate",
+        "ColorBlock": 77,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2001-05-20T11:44:43.226243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Rollin Howe",
+        "ExtraInfo": "quos",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Wilford Anastacio Nolan III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 198
+            "FieldType": "System.Int32",
+            "FieldLength": 423
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Dr. Jamie Baumbach IV",
+    "ExtraInfo": "quis",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Wayne Keira Rosenbaum DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldLength": 388
       }
     }
   }

@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "reiciendis",
-    "PersonId": 272,
-    "Mrmrs": "dolorum",
-    "Firstname": "Irving",
-    "Lastname": "Berge",
-    "MiddleName": "Swift Inc and Sons",
-    "Title": "sed",
-    "Description": "Multi-layered systemic portal",
-    "Email": "constance@beierbins.info",
-    "FullName": "Boris Roberts",
-    "DirectPhone": "(387)837-5701 x590",
-    "FormalName": "Weimann, Price and Bode",
-    "CountryId": 43,
-    "ContactId": 56,
-    "ContactName": "Upton LLC",
-    "Retired": 7,
-    "Rank": 811,
-    "ActiveInterests": 498,
+    "Position": "blanditiis",
+    "PersonId": 651,
+    "Mrmrs": "unde",
+    "Firstname": "Conor",
+    "Lastname": "O'Kon",
+    "MiddleName": "Hirthe, Mayert and Wiza",
+    "Title": "impedit",
+    "Description": "Networked cohesive open system",
+    "Email": "rupert.daugherty@rice.com",
+    "FullName": "Edmund Pfannerstill",
+    "DirectPhone": "1-202-540-3903 x0773",
+    "FormalName": "Morissette Inc and Sons",
+    "CountryId": 704,
+    "ContactId": 472,
+    "ContactName": "Harvey-Crooks",
+    "Retired": 386,
+    "Rank": 407,
+    "ActiveInterests": 856,
     "ContactDepartment": "",
-    "ContactCountryId": 956,
-    "ContactOrgNr": "1362785",
-    "FaxPhone": "525-061-0960 x893",
-    "MobilePhone": "115.579.8521",
-    "ContactPhone": "(216)783-5643 x12826",
-    "AssociateName": "Wisoky-Wilderman",
-    "AssociateId": 601,
-    "UsePersonAddress": true,
-    "ContactFax": "odio",
-    "Kanafname": "dolor",
-    "Kanalname": "doloremque",
-    "Post1": "qui",
-    "Post2": "quia",
-    "Post3": "deleniti",
-    "EmailName": "mariane_lang@langworth.us",
-    "ContactFullName": "Pattie Toy",
-    "ActiveErpLinks": 774,
-    "TicketPriorityId": 149,
-    "SupportLanguageId": 990,
-    "SupportAssociateId": 840,
+    "ContactCountryId": 739,
+    "ContactOrgNr": "1255880",
+    "FaxPhone": "334-617-9051",
+    "MobilePhone": "1-798-212-4247 x185",
+    "ContactPhone": "(591)998-4532 x939",
+    "AssociateName": "Welch-Larkin",
+    "AssociateId": 588,
+    "UsePersonAddress": false,
+    "ContactFax": "commodi",
+    "Kanafname": "natus",
+    "Kanalname": "veritatis",
+    "Post1": "quia",
+    "Post2": "rerum",
+    "Post3": "explicabo",
+    "EmailName": "jailyn@hand.uk",
+    "ContactFullName": "Miss Johnnie Wintheiser III",
+    "ActiveErpLinks": 215,
+    "TicketPriorityId": 775,
+    "SupportLanguageId": 814,
+    "SupportAssociateId": 648,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 633
+        "FieldLength": 834
       }
     }
   }

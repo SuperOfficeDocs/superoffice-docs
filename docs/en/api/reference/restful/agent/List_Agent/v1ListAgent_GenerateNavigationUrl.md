@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Kuhic-Hills"
+  "WindowName": "Haag-Cartwright"
 }
 ```
 

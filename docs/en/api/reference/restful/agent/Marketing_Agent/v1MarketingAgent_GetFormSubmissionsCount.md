@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionsCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 804,
+  "FormId": 136,
   "Status": "EmailVerification"
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-929
+866
 ```

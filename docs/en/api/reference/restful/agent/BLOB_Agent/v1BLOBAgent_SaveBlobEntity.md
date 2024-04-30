@@ -91,19 +91,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 365,
-  "BlobSize": 44,
-  "Description": "Cloned intangible analyzer",
-  "ExtraInfo": "sapiente",
+  "BlobId": 270,
+  "BlobSize": 265,
+  "Description": "Future-proofed 5th generation architecture",
+  "ExtraInfo": "facilis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "minus",
-  "OriginalSize": 246,
-  "CreatedDate": "2016-04-01T12:19:44.5238763+02:00",
-  "UpdatedDate": "2010-12-13T12:19:44.5238763+01:00",
+  "IsZipped": true,
+  "MimeType": "dolorem",
+  "OriginalSize": 37,
+  "CreatedDate": "1997-07-09T11:44:32.822391+02:00",
+  "UpdatedDate": "2017-01-27T11:44:32.822391+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ad"
+  "ConceptualType": "expedita"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 437,
-  "BlobSize": 925,
-  "Description": "Mandatory regional protocol",
-  "ExtraInfo": "cum",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 600,
-  "CreatedDate": "2014-11-04T12:19:44.5238763+01:00",
-  "UpdatedDate": "2018-09-19T12:19:44.5238763+02:00",
+  "BlobId": 323,
+  "BlobSize": 199,
+  "Description": "Extended radical middleware",
+  "ExtraInfo": "quia",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "labore",
+  "OriginalSize": 336,
+  "CreatedDate": "1997-01-01T11:44:32.822391+01:00",
+  "UpdatedDate": "2016-09-02T11:44:32.822391+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 931
     }
   }
 }

@@ -88,48 +88,48 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eaque",
-  "ProviderName": "Vandervort, Schimmel and Bernhard",
-  "StorageKey": "eius",
+  "StorageType": "sint",
+  "ProviderName": "Casper Inc and Sons",
+  "StorageKey": "et",
   "ExtraRestrictions": [
     {
-      "Name": "Corwin, Shields and Keeling",
-      "Operator": "perferendis",
+      "Name": "Rau-Schultz",
+      "Operator": "est",
       "Values": [
-        "iusto",
-        "quibusdam"
+        "recusandae",
+        "aspernatur"
       ],
       "DisplayValues": [
-        "provident",
-        "id"
+        "totam",
+        "cumque"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 453,
+      "InterParenthesis": 67,
       "InterOperator": "And",
-      "UniqueHash": 72
+      "UniqueHash": 287
     }
   ],
   "OrderBy": [
     {
-      "Name": "Pagac Group",
+      "Name": "Breitenberg, Howe and Pollich",
       "Direction": "ASC"
     },
     {
-      "Name": "Pagac Group",
+      "Name": "Breitenberg, Howe and Pollich",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "autem",
-    "et"
+    "consequatur",
+    "reiciendis"
   ],
-  "PageSize": 916,
-  "PageNumber": 739
+  "PageSize": 319,
+  "PageNumber": 503
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Fadel LLC",
-      "DisplayTooltip": "harum",
-      "DisplayType": "doloremque",
-      "CanOrderBy": true,
-      "Name": "Gutmann-Bauch",
+      "DisplayName": "Fahey-Mante",
+      "DisplayTooltip": "facilis",
+      "DisplayType": "quod",
+      "CanOrderBy": false,
+      "Name": "Casper, Sauer and Bruen",
       "CanRestrictBy": false,
-      "RestrictionType": "minus",
-      "RestrictionListName": "Frami-Botsford",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "eos",
-      "IconHint": "quod",
-      "HeadingIconHint": "reprehenderit"
+      "RestrictionType": "excepturi",
+      "RestrictionListName": "Lang Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "excepturi",
+      "Width": "iusto",
+      "IconHint": "est",
+      "HeadingIconHint": "sint"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jerde, Connelly and Medhurst",
-      "PrimaryKey": 287,
+      "EntityName": "Gleichner, Botsford and Lowe",
+      "PrimaryKey": 205,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "occaecati",
-          "LinkHint": "quasi"
+          "DisplayValue": "corrupti",
+          "TooltipHint": "est",
+          "LinkHint": "totam"
         }
       },
-      "LinkHint": "nisi",
-      "StyleHint": "velit",
+      "LinkHint": "id",
+      "StyleHint": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 950
         }
       }
     }
   ],
-  "RowCount": 958,
+  "RowCount": 776,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 732
     }
   }
 }

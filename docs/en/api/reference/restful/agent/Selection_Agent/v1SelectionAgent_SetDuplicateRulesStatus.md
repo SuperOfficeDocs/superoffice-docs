@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Emard LLC",
-      "DisplayName": "Brekke, Cormier and Hahn",
-      "DisplayTooltip": "recusandae",
+      "Name": "Kiehn-Murazik",
+      "DisplayName": "Larkin, Upton and Altenwerth",
+      "DisplayTooltip": "ex",
       "IsActive": false
     },
     {
-      "Name": "Emard LLC",
-      "DisplayName": "Brekke, Cormier and Hahn",
-      "DisplayTooltip": "recusandae",
+      "Name": "Kiehn-Murazik",
+      "DisplayName": "Larkin, Upton and Altenwerth",
+      "DisplayTooltip": "ex",
       "IsActive": false
     }
   ]

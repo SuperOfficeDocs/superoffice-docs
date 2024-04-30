@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 119
+  "QuoteVersionId": 703
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 912,
-  "ERPQuoteVersionKey": "aut",
-  "QuoteId": 277,
-  "Description": "Innovative dedicated interface",
-  "Number": "209171",
+  "QuoteVersionId": 398,
+  "ERPQuoteVersionKey": "quia",
+  "QuoteId": 497,
+  "Description": "Front-line content-based intranet",
+  "Number": "1561833",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 469,
-  "SentDate": "2006-11-17T12:19:46.054573+01:00",
-  "FollowupId": 267,
-  "ExpirationDate": "2006-09-10T12:19:46.054573+02:00",
-  "DeliveryCountryId": 944,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 933,
+  "LikelyQuoteAlternativeId": 222,
+  "SentDate": "2010-03-09T11:44:34.2439386+01:00",
+  "FollowupId": 542,
+  "ExpirationDate": "1998-05-11T11:44:34.2439386+02:00",
+  "DeliveryCountryId": 787,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 412,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "et",
-  "ERPPaymentTypeKey": "sed",
-  "ERPDeliveryTermsKey": "rerum",
-  "ERPDeliveryTypeKey": "reprehenderit",
-  "Rank": 348,
-  "ApprovedBy": 157,
-  "ApprovedText": "quidem",
-  "ApprovedRegisteredBy": 449,
-  "ApprovedRegisteredDate": "2013-10-02T12:19:46.054573+02:00",
-  "ExtraField1": "ea",
-  "ExtraField2": "architecto",
-  "ExtraField3": "enim",
-  "ExtraField4": "accusamus",
-  "ExtraField5": "in",
-  "LastRecalculated": "2003-04-07T12:19:46.054573+02:00",
-  "Updated": "2012-11-15T12:19:46.054573+01:00",
-  "UpdatedAssociateId": 569,
-  "Registered": "2003-02-10T12:19:46.054573+01:00",
-  "RegisteredAssociateId": 28,
-  "RequestAssociateId": 787,
-  "RequestComment": "laboriosam",
+  "ERPPaymentTermsKey": "sit",
+  "ERPPaymentTypeKey": "ea",
+  "ERPDeliveryTermsKey": "dolorum",
+  "ERPDeliveryTypeKey": "sed",
+  "Rank": 43,
+  "ApprovedBy": 420,
+  "ApprovedText": "laudantium",
+  "ApprovedRegisteredBy": 45,
+  "ApprovedRegisteredDate": "2015-06-28T11:44:34.2439386+02:00",
+  "ExtraField1": "esse",
+  "ExtraField2": "impedit",
+  "ExtraField3": "quae",
+  "ExtraField4": "praesentium",
+  "ExtraField5": "quo",
+  "LastRecalculated": "1998-11-12T11:44:34.2439386+01:00",
+  "Updated": "2021-01-28T11:44:34.2439386+01:00",
+  "UpdatedAssociateId": 760,
+  "Registered": "2002-06-22T11:44:34.2439386+02:00",
+  "RegisteredAssociateId": 405,
+  "RequestAssociateId": 551,
+  "RequestComment": "delectus",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 401,
-      "ERPQuoteAlternativeKey": "quam",
-      "QuoteVersionId": 246,
-      "Name": "Gutmann-Hane",
-      "Description": "Self-enabling zero defect framework",
+      "QuoteAlternativeId": 534,
+      "ERPQuoteAlternativeKey": "odio",
+      "QuoteVersionId": 857,
+      "Name": "Harris Inc and Sons",
+      "Description": "Cross-platform methodical complexity",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 28068.104,
-      "ERPDiscountAmount": 16459.768,
-      "DiscountPercent": 7678.3,
-      "DiscountAmount": 21314.334,
+      "ERPDiscountPercent": 29725.989999999998,
+      "ERPDiscountAmount": 4816.958,
+      "DiscountPercent": 17177.453999999998,
+      "DiscountAmount": 22533.46,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 19070.39,
-      "EarningPercent": 13172.202,
-      "EarningAmount": 25328.987999999998,
-      "SubTotal": 16713.622,
-      "TotalPrice": 1479.248,
-      "ExtraField1": "placeat",
-      "ExtraField2": "ullam",
-      "ExtraField3": "dolorem",
-      "ExtraField4": "et",
-      "ExtraField5": "et",
+      "VATInfo": "ullam",
+      "VAT": 14961.716,
+      "EarningPercent": 12354.228,
+      "EarningAmount": 28826.532,
+      "SubTotal": 24717.858,
+      "TotalPrice": 29823.144,
+      "ExtraField1": "animi",
+      "ExtraField2": "ipsam",
+      "ExtraField3": "animi",
+      "ExtraField4": "quisquam",
+      "ExtraField5": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldType": "System.String",
+          "FieldLength": 365
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldType": "System.Int32",
+      "FieldLength": 320
     }
   }
 }

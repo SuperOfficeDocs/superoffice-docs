@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Kihn LLC",
-    "ToolTip": "Qui quam dignissimos impedit ex odit omnis.",
-    "Deleted": false,
-    "Rank": 429,
-    "Type": "expedita",
-    "ColorBlock": 891,
-    "IconHint": "adipisci",
+    "Id": 177,
+    "Name": "Upton, Vandervort and Bauch",
+    "ToolTip": "Nisi doloribus explicabo architecto.",
+    "Deleted": true,
+    "Rank": 154,
+    "Type": "sed",
+    "ColorBlock": 927,
+    "IconHint": "commodi",
     "Selected": true,
-    "LastChanged": "2000-06-28T12:19:54.6958722+02:00",
+    "LastChanged": "2017-04-05T11:44:43.1793782+02:00",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Effertz, Wolf and Carroll",
-        "ToolTip": "Delectus tenetur est distinctio consequatur dolorem.",
-        "Deleted": false,
-        "Rank": 492,
-        "Type": "corrupti",
-        "ColorBlock": 680,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "2006-02-13T12:19:54.6958722+01:00",
+        "Id": 723,
+        "Name": "Keebler Inc and Sons",
+        "ToolTip": "Praesentium et est omnis.",
+        "Deleted": true,
+        "Rank": 109,
+        "Type": "blanditiis",
+        "ColorBlock": 880,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2010-11-02T11:44:43.1793782+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Lamont Senger"
+        "ExtraInfo": "dolore",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Rudy Daniel"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Cody Mosciski"
+    "ExtraInfo": "velit",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Ivory Bradtke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Simonis, Weimann and Nikolaus",
-    "ToolTip": "Eaque aperiam consequatur porro.",
-    "Deleted": false,
-    "Rank": 170,
-    "Type": "consequatur",
-    "ColorBlock": 544,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2017-04-30T12:19:54.6958722+02:00",
+    "Id": 895,
+    "Name": "Lebsack, Yundt and Bogan",
+    "ToolTip": "Suscipit commodi sint doloremque dolor necessitatibus neque aliquid.",
+    "Deleted": true,
+    "Rank": 495,
+    "Type": "culpa",
+    "ColorBlock": 351,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2021-07-23T11:44:43.1793782+02:00",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Durgan-Jacobson",
-        "ToolTip": "Fugiat sint voluptatibus sunt quidem et.",
+        "Id": 705,
+        "Name": "Luettgen-Shields",
+        "ToolTip": "Repudiandae et amet non dolores eos.",
         "Deleted": true,
-        "Rank": 760,
-        "Type": "quia",
-        "ColorBlock": 989,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "2019-10-14T12:19:54.6958722+02:00",
+        "Rank": 623,
+        "Type": "aliquid",
+        "ColorBlock": 965,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2019-09-19T11:44:43.1793782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Victor Kirlin",
+        "ExtraInfo": "rerum",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Alfreda Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 387
+            "FieldLength": 131
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "numquam",
+    "ExtraInfo": "sit",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Marisol Altenwerth Jr.",
+    "FullName": "Mr. Hilda Sedrick McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldType": "System.String",
+        "FieldLength": 942
       }
     }
   }

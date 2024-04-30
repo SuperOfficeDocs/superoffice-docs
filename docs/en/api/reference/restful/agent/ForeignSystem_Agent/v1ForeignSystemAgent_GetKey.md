@@ -90,11 +90,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ebert-Moen",
-  "DeviceName": "Yost Group",
-  "KeyName": "Feil, Raynor and Goldner",
-  "TableName": "Kohler, Tromp and Keeling",
-  "RecordId": 273
+  "ApplicationName": "Mertz Group",
+  "DeviceName": "Bogisich, Schmeler and Howe",
+  "KeyName": "Morar, Sawayn and Larkin",
+  "TableName": "Schuster LLC",
+  "RecordId": 320
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolore",
-  "Value": "modi",
-  "RecordId": 482,
-  "CreatedDate": "2009-04-29T12:19:45.4141069+02:00",
-  "UpdatedDate": "2002-04-16T12:19:45.4141069+02:00",
-  "UpdatedBy": "quo",
-  "CreatedBy": "mollitia",
-  "TableName": "Bechtelar, Fay and Feeney",
+  "Key": "culpa",
+  "Value": "quaerat",
+  "RecordId": 965,
+  "CreatedDate": "2003-03-20T11:44:33.7596833+01:00",
+  "UpdatedDate": "2006-10-30T11:44:33.7596833+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "doloremque",
+  "TableName": "Morar Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldType": "System.Int32",
+      "FieldLength": 481
     }
   }
 }

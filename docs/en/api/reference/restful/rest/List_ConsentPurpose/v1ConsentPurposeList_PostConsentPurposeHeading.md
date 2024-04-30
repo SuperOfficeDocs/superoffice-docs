@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 930,
-  "Name": "Wunsch, Wilkinson and Hamill",
-  "Tooltip": "necessitatibus",
+  "HeadingId": 854,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 292,
-  "UdListDefinitionId": 996
+  "Rank": 471,
+  "UdListDefinitionId": 219
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 746,
-  "Name": "Berge LLC",
-  "Tooltip": "placeat",
+  "HeadingId": 543,
+  "Name": "Kris LLC",
+  "Tooltip": "laudantium",
   "Deleted": true,
-  "Rank": 835,
-  "UdListDefinitionId": 157,
+  "Rank": 70,
+  "UdListDefinitionId": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pacocha Group",
-  "RecordId": 253,
-  "AssociateId": 151
+  "TableName": "Jacobi-Breitenberg",
+  "RecordId": 729,
+  "AssociateId": 445
 }
 ```
 

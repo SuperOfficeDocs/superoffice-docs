@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 964,
-  "ContactId": 419,
-  "ProjectId": 413,
-  "ContactName": "Marvin Group",
+  "ProjectmemberId": 413,
+  "ContactId": 916,
+  "ProjectId": 69,
+  "ContactName": "Daugherty, Metz and Trantow",
   "ContactDepartment": "",
-  "ProjectName": "Schmeler-Kautzer",
-  "EmailId": 89,
-  "EmailAddress": "mylene@simonis.ca",
-  "CountryId": 954,
-  "Firstname": "Hildegard",
-  "MiddleName": "Feest Inc and Sons",
-  "Lastname": "Swift",
-  "PersonId": 469,
-  "Mrmrs": "ex",
-  "ProjectMemberTypeName": "Renner, Paucek and Lesch",
-  "Phone": "(692)572-4835 x0449",
-  "PhoneId": 8,
-  "ProjectMemberTypeId": 567,
-  "EmailAddressName": "mike@mayer.ca",
-  "Comment": "aliquid",
-  "FullName": "Amy Eulah Armstrong MD",
+  "ProjectName": "Sipes Inc and Sons",
+  "EmailId": 588,
+  "EmailAddress": "giovani@moore.name",
+  "CountryId": 869,
+  "Firstname": "Orville",
+  "MiddleName": "Schmidt-Kuvalis",
+  "Lastname": "Blanda",
+  "PersonId": 737,
+  "Mrmrs": "aut",
+  "ProjectMemberTypeName": "Champlin-Hirthe",
+  "Phone": "1-318-782-1314 x257",
+  "PhoneId": 702,
+  "ProjectMemberTypeId": 830,
+  "EmailAddressName": "leonel_weimann@medhurst.name",
+  "Comment": "in",
+  "FullName": "Domenic Pfeffer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 334
     }
   }
 }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Stehr LLC",
-  "AssociateId": 760,
-  "DetailsTable": 691,
-  "DetailsRecord": 259,
-  "IsSystemTask": true,
+  "Id": 434,
+  "Name": "Nolan, Pouros and Senger",
+  "AssociateId": 748,
+  "DetailsTable": 772,
+  "DetailsRecord": 142,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ea",
-    "ParameterObject2": "ad"
+    "ParameterObject1": "ut",
+    "ParameterObject2": "facilis"
   },
-  "LastStarted": "2002-04-12T12:19:45.4297292+02:00",
-  "Created": "2002-07-12T12:19:45.4297292+02:00",
-  "StartCount": 119,
-  "DatabaseSerialNumber": "498916",
-  "Context": "quos",
-  "Result": "et",
+  "LastStarted": "2008-03-07T11:44:33.7753083+01:00",
+  "Created": "2023-05-07T11:44:33.7753083+02:00",
+  "StartCount": 185,
+  "DatabaseSerialNumber": "1572098",
+  "Context": "dolores",
+  "Result": "magnam",
   "State": "All",
-  "Description": "Front-line web-enabled migration",
-  "Response": "dolores",
-  "Request": "nam",
-  "ProgressDescription": "Universal object-oriented website",
-  "ProgressPercent": 228,
-  "FileName": "Rolfson, Casper and Flatley",
+  "Description": "Face to face didactic throughput",
+  "Response": "tempore",
+  "Request": "quia",
+  "ProgressDescription": "Synchronised optimizing approach",
+  "ProgressPercent": 430,
+  "FileName": "O'Conner-Bernier",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldType": "System.String",
+      "FieldLength": 783
     }
   }
 }

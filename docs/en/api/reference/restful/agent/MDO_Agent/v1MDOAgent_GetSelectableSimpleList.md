@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kemmer, Cruickshank and Larson"
+  "Name": "Mann, Cummings and Koelpin"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Kris-Collins",
-    "ToolTip": "Aspernatur ratione possimus eum.",
+    "Id": 680,
+    "Name": "Harris, Koelpin and Sawayn",
+    "ToolTip": "Nihil reiciendis.",
     "Deleted": true,
-    "Rank": 846,
-    "Type": "est",
-    "ColorBlock": 869,
-    "IconHint": "facilis",
+    "Rank": 80,
+    "Type": "dolores",
+    "ColorBlock": 622,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2012-09-21T12:19:45.6015646+02:00",
+    "LastChanged": "2017-07-12T11:44:33.9471419+02:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Veum Inc and Sons",
-        "ToolTip": "Quam in sit inventore id.",
+        "Id": 382,
+        "Name": "Padberg LLC",
+        "ToolTip": "Nulla libero voluptatem ipsam.",
         "Deleted": true,
-        "Rank": 713,
-        "Type": "iure",
-        "ColorBlock": 403,
-        "IconHint": "sapiente",
-        "Selected": false,
-        "LastChanged": "2012-07-23T12:19:45.6015646+02:00",
+        "Rank": 808,
+        "Type": "libero",
+        "ColorBlock": 444,
+        "IconHint": "vero",
+        "Selected": true,
+        "LastChanged": "2023-07-25T11:44:33.9471419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Kyleigh Schmeler",
+        "ExtraInfo": "tempore",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Susie Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 126
+            "FieldType": "System.Int32",
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Shemar Lesch I",
+    "ExtraInfo": "possimus",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Jimmy Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 322
       }
     }
   }

@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 853,
-  "Name": "Weissnat, Ryan and Jewess",
+  "ScreenChooserId": 830,
+  "Name": "Conn-VonRueden",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "blanditiis",
-  "Source": "veniam",
-  "Registered": "2014-04-16T12:19:44.9923255+02:00",
-  "RegisteredAssociateId": 612,
-  "Updated": "2009-01-25T12:19:44.9923255+01:00",
-  "UpdatedAssociateId": 281,
+  "Enabled": false,
+  "UniqueIdentifier": "quia",
+  "Source": "cum",
+  "Registered": "2005-03-20T11:44:33.3223014+01:00",
+  "RegisteredAssociateId": 160,
+  "Updated": "2017-09-25T11:44:33.3223014+02:00",
+  "UpdatedAssociateId": 539,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 573
     }
   }
 }

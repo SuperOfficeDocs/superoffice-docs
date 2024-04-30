@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 597
+  "ChatSessionId": 479
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 300,
-  "TopicId": 503,
+  "ChatSessionId": 763,
+  "TopicId": 160,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestias",
-  "CustomerHost": "esse",
-  "CustomerName": "Friesen, Gutkowski and Nader",
-  "CustomerEmail": "payton@bashirian.us",
-  "CustomerPhone": "(782)865-4317",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Cruickshank-Lebsack",
+  "CustomerAlias": "quis",
+  "CustomerHost": "et",
+  "CustomerName": "Haley, Kerluke and Zemlak",
+  "CustomerEmail": "dimitri@orn.info",
+  "CustomerPhone": "331-079-5276",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Yundt LLC",
   "Status": "Closed",
-  "FirstMessage": "nobis",
-  "LastMessage": "dolores",
-  "WhenRequested": "2015-07-19T12:19:44.7736323+02:00",
-  "WhenStarted": "2008-11-05T12:19:44.7736323+01:00",
-  "WhenEnded": "2003-08-27T12:19:44.7736323+02:00",
-  "WhenIdle": "2015-03-21T12:19:44.7736323+01:00",
-  "WhenFetched": "2016-09-03T12:19:44.7736323+02:00",
-  "SessionKey": "quis",
-  "InitialQueuePos": 279,
-  "AlertLevel": 930,
-  "Rank": 426,
+  "FirstMessage": "odio",
+  "LastMessage": "ducimus",
+  "WhenRequested": "2005-01-31T11:44:32.947363+01:00",
+  "WhenStarted": "2004-03-21T11:44:32.947363+01:00",
+  "WhenEnded": "2023-01-11T11:44:32.947363+01:00",
+  "WhenIdle": "1998-09-20T11:44:32.947363+02:00",
+  "WhenFetched": "2013-02-28T11:44:32.947363+01:00",
+  "SessionKey": "quo",
+  "InitialQueuePos": 10,
+  "AlertLevel": 686,
+  "Rank": 485,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 840,
+  "ChatbotIsActive": false,
+  "Rating": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

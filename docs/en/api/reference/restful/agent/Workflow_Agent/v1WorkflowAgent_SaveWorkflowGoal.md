@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 193,
-  "WorkflowId": 925,
+  "WorkflowGoalId": 925,
+  "WorkflowId": 789,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Feeney, Towne and McKenzie",
-      "Description": "Open-architected systematic parallelism",
-      "Rank": 601,
+      "Name": "Daugherty Group",
+      "Description": "Total solution-oriented archive",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Feeney, Towne and McKenzie",
-      "Description": "Open-architected systematic parallelism",
-      "Rank": 601,
+      "Name": "Daugherty Group",
+      "Description": "Total solution-oriented archive",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 454,
-  "WorkflowId": 88,
+  "WorkflowGoalId": 970,
+  "WorkflowId": 788,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Emmerich, Wisoky and Shanahan",
-      "Description": "Managed 24/7 monitoring",
-      "Rank": 812,
+      "Name": "Block-Konopelski",
+      "Description": "Compatible explicit Graphical User Interface",
+      "Rank": 820,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Emmerich, Wisoky and Shanahan",
-      "Description": "Managed 24/7 monitoring",
-      "Rank": 812,
+      "Name": "Block-Konopelski",
+      "Description": "Compatible explicit Graphical User Interface",
+      "Rank": 820,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 296
     }
   }
 }

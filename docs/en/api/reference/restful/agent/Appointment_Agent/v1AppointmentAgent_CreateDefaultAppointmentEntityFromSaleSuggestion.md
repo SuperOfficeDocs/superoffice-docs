@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 69,
-  "SaleId": 267,
-  "CreateNow": true,
-  "OwnerId": 928
+  "SuggestedAppointmentId": 858,
+  "SaleId": 21,
+  "CreateNow": false,
+  "OwnerId": 133
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-07-16T12:19:44.3830929+02:00",
-  "AppointmentId": 816,
-  "Description": "Business-focused dedicated product",
-  "Title": "quod",
-  "Agenda": "consequatur",
-  "InternalNotes": "mollitia",
-  "StartDate": "2014-10-01T12:19:44.3830929+02:00",
-  "EndDate": "1999-01-12T12:19:44.3830929+01:00",
+  "CreatedDate": "2005-08-09T11:44:32.666179+02:00",
+  "AppointmentId": 774,
+  "Description": "Stand-alone eco-centric policy",
+  "Title": "est",
+  "Agenda": "dolor",
+  "InternalNotes": "distinctio",
+  "StartDate": "2023-07-12T11:44:32.666179+02:00",
+  "EndDate": "2004-08-30T11:44:32.666179+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 800,
+  "MotherId": 230,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2023-01-27T12:19:44.3830929+01:00",
+  "UpdatedDate": "2016-03-13T11:44:32.6818015+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 742,
+  "ActiveLinks": 731,
   "Links": [
     {
-      "EntityName": "Wuckert LLC",
-      "Id": 566,
-      "Description": "Progressive multi-state strategy",
-      "ExtraInfo": "quaerat",
-      "LinkId": 658,
+      "EntityName": "Heathcote LLC",
+      "Id": 744,
+      "Description": "Fundamental well-modulated support",
+      "ExtraInfo": "temporibus",
+      "LinkId": 232,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 457
         }
       }
     }
   ],
-  "AlarmLeadTime": "delectus",
-  "HasAlarm": true,
-  "ColorIndex": 963,
+  "AlarmLeadTime": "perspiciatis",
+  "HasAlarm": false,
+  "ColorIndex": 783,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "sed",
-  "LeadTime": "sint",
-  "Location": "tempore",
-  "RejectCounter": 557,
+  "IsAlldayEvent": true,
+  "LagTime": "laboriosam",
+  "LeadTime": "quas",
+  "Location": "quas",
+  "RejectCounter": 292,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 863,
-      "PersonId": 349,
-      "ContactId": 377,
-      "EmailId": 164,
-      "SendEmail": false,
+      "AssociateId": 183,
+      "PersonId": 900,
+      "ContactId": 344,
+      "EmailId": 627,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "durward.koch@jacobson.info",
-      "Description": "Sharable encompassing functionalities"
+      "EmailAddress": "eusebio@wehner.uk",
+      "Description": "Cross-group 5th generation array"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-02-20T12:19:44.3830929+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2001-12-31T11:44:32.6818015+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 464,
+  "PreferredTZLocation": 948,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 534,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 986,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "vel",
+  "CentralserviceVideomeetId": "amet",
   "UserDefinedFields": {
-    "SuperOffice:1": "Margie Pouros I",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Britney Bill Funk I",
+    "SuperOffice:2": "Prof. Trycia Gayle Legros"
   },
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "et",
+    "CustomFields2": "voluptatibus"
   },
-  "PublishEventDate": "2019-05-21T12:19:44.3830929+02:00",
-  "PublishTo": "2012-05-02T12:19:44.3830929+02:00",
-  "PublishFrom": "2003-04-19T12:19:44.3830929+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-04-25T11:44:32.6818015+02:00",
+  "PublishTo": "2004-03-20T11:44:32.6818015+01:00",
+  "PublishFrom": "2020-11-23T11:44:32.6818015+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 519,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldLength": 789
         }
       }
     },
     {
-      "VisibleId": 519,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldLength": 789
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 10
     }
   }
 }

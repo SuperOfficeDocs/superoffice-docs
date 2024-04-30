@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Conn LLC",
+  "UdListDefinitionName": "Schmitt Inc and Sons",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Schinner Inc and Sons",
-  "Tooltip": "aperiam",
+  "Id": 711,
+  "Name": "Jenkins Inc and Sons",
+  "Tooltip": "eveniet",
   "Deleted": true,
-  "UdListDefinitionId": 170,
-  "Rank": 578,
+  "UdListDefinitionId": 43,
+  "Rank": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

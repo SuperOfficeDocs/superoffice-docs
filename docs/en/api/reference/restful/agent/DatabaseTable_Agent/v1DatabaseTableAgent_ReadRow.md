@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Haag Group",
-  "Id": 796
+  "TableName": "Orn, Hegmann and Auer",
+  "Id": 118
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "dignissimos",
-    "Values2": "qui"
+    "Values1": "dolor",
+    "Values2": "atque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 539
     }
   }
 }

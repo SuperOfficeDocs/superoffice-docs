@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Erdman LLC",
-    "ToolTip": "Pariatur delectus architecto laborum quia consequatur.",
+    "Id": 190,
+    "Name": "Hand, Bahringer and Larkin",
+    "ToolTip": "Ea enim quo fugit tenetur ipsa enim.",
     "Deleted": true,
-    "Rank": 105,
+    "Rank": 405,
     "Type": "delectus",
-    "ColorBlock": 263,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2011-03-03T12:19:54.7271106+01:00",
+    "ColorBlock": 415,
+    "IconHint": "doloribus",
+    "Selected": true,
+    "LastChanged": "2023-01-20T11:44:43.226243+01:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Herzog Group",
-        "ToolTip": "Qui fugiat.",
+        "Id": 443,
+        "Name": "Harber, Wuckert and Fisher",
+        "ToolTip": "Voluptate et ipsum sed perferendis quae et voluptas.",
         "Deleted": false,
-        "Rank": 207,
-        "Type": "vel",
-        "ColorBlock": 781,
-        "IconHint": "maxime",
-        "Selected": true,
-        "LastChanged": "2001-01-15T12:19:54.7271106+01:00",
+        "Rank": 868,
+        "Type": "aut",
+        "ColorBlock": 452,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2017-08-30T11:44:43.226243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "iure",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mrs. Maud Corkery",
+        "FullName": "Mr. Paul Odie Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 327
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Mrs. Kennith Kilback",
+    "FullName": "Jocelyn Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldType": "System.Int32",
+        "FieldLength": 886
       }
     }
   }

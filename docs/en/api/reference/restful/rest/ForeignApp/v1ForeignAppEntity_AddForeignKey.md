@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatum",
-  "Value": "dolorum",
-  "RecordId": 795,
-  "CreatedDate": "2001-10-09T12:19:53.6023745+02:00",
-  "UpdatedDate": "2000-02-09T12:19:53.6023745+01:00",
-  "UpdatedBy": "expedita",
-  "CreatedBy": "sit",
-  "TableName": "Cronin Group"
+  "Key": "fugit",
+  "Value": "quia",
+  "RecordId": 284,
+  "CreatedDate": "1998-04-08T11:44:42.0077636+02:00",
+  "UpdatedDate": "2006-07-29T11:44:42.0077636+02:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "deserunt",
+  "TableName": "Haag, Ryan and White"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aspernatur",
-  "Value": "facilis",
-  "RecordId": 8,
-  "CreatedDate": "2023-05-08T12:19:53.6023745+02:00",
-  "UpdatedDate": "2011-06-05T12:19:53.6023745+02:00",
-  "UpdatedBy": "corrupti",
-  "CreatedBy": "sit",
-  "TableName": "Larkin, Marks and Wiza",
+  "Key": "fugit",
+  "Value": "et",
+  "RecordId": 696,
+  "CreatedDate": "2023-10-15T11:44:42.0077636+02:00",
+  "UpdatedDate": "2012-11-15T11:44:42.0077636+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "ut",
+  "TableName": "Stokes Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

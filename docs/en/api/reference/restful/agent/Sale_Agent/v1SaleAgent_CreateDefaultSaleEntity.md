@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ducimus",
+  "SaleText": "voluptatem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-08-02T12:19:46.1639363+02:00",
-  "Amount": 27851.858,
-  "SaleId": 553,
-  "Earning": 27478.912,
-  "EarningPercent": 7646.96,
-  "Heading": "hic",
-  "Number": "1707976",
-  "Probability": 623,
-  "CreatedDate": "2009-03-13T12:19:46.1639363+01:00",
-  "UpdatedDate": "2001-12-14T12:19:46.1639363+01:00",
+  "Saledate": "2019-10-16T11:44:34.3532949+02:00",
+  "Amount": 22226.327999999998,
+  "SaleId": 723,
+  "Earning": 27895.734,
+  "EarningPercent": 13852.279999999999,
+  "Heading": "nam",
+  "Number": "1308903",
+  "Probability": 463,
+  "CreatedDate": "2022-04-18T11:44:34.3532949+02:00",
+  "UpdatedDate": "2007-08-29T11:44:34.3532949+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 622,
+  "ActiveLinks": 989,
   "Links": [
     {
-      "EntityName": "Wiza, Braun and Schinner",
-      "Id": 406,
-      "Description": "Universal interactive conglomeration",
-      "ExtraInfo": "sit",
-      "LinkId": 641,
+      "EntityName": "Lehner LLC",
+      "Id": 708,
+      "Description": "Profound attitude-oriented data-warehouse",
+      "ExtraInfo": "ea",
+      "LinkId": 691,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 938
+          "FieldLength": 298
         }
       }
     }
   ],
-  "NextDueDate": "2013-01-30T12:19:46.1639363+01:00",
-  "Postit": "eos",
+  "NextDueDate": "2014-11-17T11:44:34.3532949+01:00",
+  "Postit": "eaque",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-12-06T12:19:46.1639363+01:00",
+  "ReopenDate": "2013-05-02T11:44:34.3532949+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wiza, Beer and Koepp",
-      "Comment": "unde",
-      "StakeholderRoleId": 617,
-      "CountryId": 250,
-      "PersonId": 209,
-      "EmailDescription": "chanel@douglasdare.info",
-      "EmailId": 38,
-      "EmailAddress": "fabiola.lynch@kuhn.ca",
-      "PhoneId": 460,
-      "ContactName": "Koelpin, Kerluke and Leffler",
-      "ContactId": 321,
-      "SaleId": 891,
-      "Mrmrs": "dolores",
-      "Firstname": "Nathan",
-      "MiddleName": "Block-Boehm",
-      "Lastname": "Littel",
-      "SaleStakeholderId": 375,
-      "Rank": 257,
-      "Phone": "818-997-0937 x1966",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 530,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Glenna Cummerata",
-    "SuperOffice:2": "Israel Rolfson Jr."
-  },
-  "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "quia"
-  },
-  "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "assumenda"
-  },
-  "PublishEventDate": "2005-11-06T12:19:46.1639363+01:00",
-  "PublishTo": "2018-08-29T12:19:46.1639363+02:00",
-  "PublishFrom": "2014-07-14T12:19:46.1639363+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 396,
-      "Visibility": "All",
-      "DisplayValue": "saepe",
+      "StakeholderRoleName": "Hermann LLC",
+      "Comment": "non",
+      "StakeholderRoleId": 13,
+      "CountryId": 483,
+      "PersonId": 578,
+      "EmailDescription": "giles.dicki@lehner.uk",
+      "EmailId": 421,
+      "EmailAddress": "queen.schaefer@jenkinsblock.ca",
+      "PhoneId": 598,
+      "ContactName": "McGlynn, Lebsack and Kozey",
+      "ContactId": 596,
+      "SaleId": 77,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Vivienne",
+      "MiddleName": "Yundt Inc and Sons",
+      "Lastname": "Dooley",
+      "SaleStakeholderId": 370,
+      "Rank": 582,
+      "Phone": "587.544.5238",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 358
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 132,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Vincent Doug Bartell DDS",
+    "SuperOffice:2": "Merle Amiya Shields DDS"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "qui",
+    "ExtraFields2": "dolorum"
+  },
+  "CustomFields": {
+    "CustomFields1": "odio",
+    "CustomFields2": "voluptatem"
+  },
+  "PublishEventDate": "2008-06-18T11:44:34.3532949+02:00",
+  "PublishTo": "2021-07-09T11:44:34.3532949+02:00",
+  "PublishFrom": "2012-10-09T11:44:34.3532949+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 726,
+      "Visibility": "All",
+      "DisplayValue": "corporis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 677
         }
       }
     },
     {
-      "VisibleId": 396,
+      "VisibleId": 726,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 677
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldLength": 935
     }
   }
 }

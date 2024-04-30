@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sapiente",
-  "ProviderName": "Ruecker, Schulist and Kovacek",
-  "StorageKey": "et",
+  "StorageType": "architecto",
+  "ProviderName": "Kuhn, Wunsch and Purdy",
+  "StorageKey": "ea",
   "StaticColumns": [
-    "qui",
-    "sed"
+    "nam",
+    "quasi"
   ],
-  "Context": "facilis"
+  "Context": "voluptatem"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Zulauf LLC",
-      "Operator": "temporibus",
+      "Name": "Blick, Cummerata and Mraz",
+      "Operator": "recusandae",
       "Values": [
-        "placeat",
-        "dolorum"
+        "a",
+        "sit"
       ],
       "DisplayValues": [
-        "culpa",
-        "non"
+        "error",
+        "nobis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 262,
+      "InterParenthesis": 551,
       "InterOperator": "And",
-      "UniqueHash": 763
+      "UniqueHash": 43
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Altenwerth-Moore",
-      "DisplayTooltip": "ipsam",
-      "DisplayType": "atque",
-      "CanOrderBy": false,
-      "Name": "Ritchie-Howe",
+      "DisplayName": "Weber-Kuhic",
+      "DisplayTooltip": "repellendus",
+      "DisplayType": "reprehenderit",
+      "CanOrderBy": true,
+      "Name": "Stokes Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "vero",
-      "RestrictionListName": "Stehr, Zulauf and Deckow",
-      "IsVisible": true,
-      "ExtraInfo": "rerum",
-      "Width": "aspernatur",
-      "IconHint": "laudantium",
-      "HeadingIconHint": "ut"
+      "RestrictionType": "sed",
+      "RestrictionListName": "Wiegand-Hirthe",
+      "IsVisible": false,
+      "ExtraInfo": "fugiat",
+      "Width": "sunt",
+      "IconHint": "sint",
+      "HeadingIconHint": "quo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Haag, Jakubowski and Smith",
-      "PrimaryKey": 918,
+      "EntityName": "Johns, Kozey and Jenkins",
+      "PrimaryKey": 668,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "voluptatum",
-          "LinkHint": "aut"
+          "DisplayValue": "quia",
+          "TooltipHint": "aut",
+          "LinkHint": "at"
         }
       },
-      "LinkHint": "possimus",
-      "StyleHint": "quia",
+      "LinkHint": "qui",
+      "StyleHint": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldLength": 340
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Will, Adams and Schaden",
-      "Description": "Realigned client-driven contingency",
-      "Rank": 311,
+      "Name": "Bayer LLC",
+      "Description": "Virtual secondary forecast",
+      "Rank": 683,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Will, Adams and Schaden",
-      "Description": "Realigned client-driven contingency",
-      "Rank": 311,
+      "Name": "Bayer LLC",
+      "Description": "Virtual secondary forecast",
+      "Rank": 683,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 908
     }
   }
 }

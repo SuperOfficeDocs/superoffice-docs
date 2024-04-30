@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 536,
-  "Name": "Wolff, Grant and Schmeler",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 24,
-  "Rank": 921,
+  "Id": 993,
+  "Name": "Fisher LLC",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 262,
+  "Rank": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldLength": 623
     }
   }
 }

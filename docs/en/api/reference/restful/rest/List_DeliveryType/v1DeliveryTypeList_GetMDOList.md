@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=adipisci
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=quisquam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Rosenbaum-Thompson",
-    "ToolTip": "Tempore sit unde ut quam voluptate.",
+    "Id": 436,
+    "Name": "Lemke, Cummings and Rau",
+    "ToolTip": "Repellendus cum ut adipisci voluptas rerum aut.",
     "Deleted": false,
-    "Rank": 493,
-    "Type": "impedit",
+    "Rank": 443,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Howe LLC",
-        "ToolTip": "Commodi et explicabo atque amet qui quia labore.",
-        "Deleted": true,
-        "Rank": 436,
-        "Type": "id",
+        "Id": 913,
+        "Name": "Macejkovic-Lockman",
+        "ToolTip": "Non sit.",
+        "Deleted": false,
+        "Rank": 326,
+        "Type": "labore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 724,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "non",
-        "FullName": "Kaela Koss",
+        "IconHint": "dolores",
+        "ColorBlock": 927,
+        "ExtraInfo": "vero",
+        "StyleHint": "architecto",
+        "FullName": "Lilian Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 596
+            "FieldType": "System.Int32",
+            "FieldLength": 381
           }
         }
       }
     ],
-    "IconHint": "ab",
-    "ColorBlock": 389,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "soluta",
-    "FullName": "Prof. Jodie Stracke",
+    "IconHint": "impedit",
+    "ColorBlock": 559,
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "porro",
+    "FullName": "Estell Windler DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 869
       }
     }
   }

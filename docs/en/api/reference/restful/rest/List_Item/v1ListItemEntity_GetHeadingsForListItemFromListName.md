@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Davis-Kessler",
-    "ToolTip": "Suscipit ducimus sapiente in et nobis quaerat.",
+    "Id": 633,
+    "Name": "McCullough, Ebert and Jacobi",
+    "ToolTip": "Quos et ut est.",
     "Deleted": false,
-    "Rank": 405,
-    "Type": "natus",
-    "ColorBlock": 378,
-    "IconHint": "nulla",
+    "Rank": 804,
+    "Type": "quae",
+    "ColorBlock": 355,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2004-06-04T12:19:54.2740906+02:00",
+    "LastChanged": "2000-10-17T11:44:42.898184+02:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Vandervort Group",
-        "ToolTip": "Soluta laboriosam consequatur.",
-        "Deleted": false,
-        "Rank": 722,
-        "Type": "voluptates",
-        "ColorBlock": 101,
-        "IconHint": "eaque",
-        "Selected": false,
-        "LastChanged": "1999-11-05T12:19:54.2740906+01:00",
+        "Id": 896,
+        "Name": "Bashirian, Mayert and Rice",
+        "ToolTip": "Voluptas ea.",
+        "Deleted": true,
+        "Rank": 119,
+        "Type": "consectetur",
+        "ColorBlock": 183,
+        "IconHint": "fugiat",
+        "Selected": true,
+        "LastChanged": "2023-07-16T11:44:42.898184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dolore",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Kamron Ledner",
+        "FullName": "Wava Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 455
+            "FieldType": "System.Int32",
+            "FieldLength": 436
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "odio",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Andy Fay",
+    "FullName": "Miss Eric Roberts I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldLength": 566
       }
     }
   }

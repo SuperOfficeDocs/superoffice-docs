@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuvalis, Weber and Weber",
-  "RecordId": 940,
-  "AssociateId": 770,
-  "ExtraInfo": "dolorem"
+  "TableName": "Collier-Bins",
+  "RecordId": 703,
+  "AssociateId": 575,
+  "ExtraInfo": "labore"
 }
 ```
 

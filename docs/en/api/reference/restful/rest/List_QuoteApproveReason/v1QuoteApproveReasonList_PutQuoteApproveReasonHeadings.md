@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Effertz, Jerde and Cole",
-    "Tooltip": "ratione",
+    "HeadingId": 652,
+    "Name": "Collins, Auer and Koss",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "Rank": 900,
-    "UdListDefinitionId": 888
+    "Rank": 692,
+    "UdListDefinitionId": 839
   },
   {
-    "HeadingId": 579,
-    "Name": "Effertz, Jerde and Cole",
-    "Tooltip": "ratione",
+    "HeadingId": 652,
+    "Name": "Collins, Auer and Koss",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "Rank": 900,
-    "UdListDefinitionId": 888
+    "Rank": 692,
+    "UdListDefinitionId": 839
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 963,
-    "Name": "Connelly, Powlowski and Frami",
-    "Tooltip": "consequuntur",
+    "HeadingId": 373,
+    "Name": "O'Connell Inc and Sons",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 523,
-    "UdListDefinitionId": 411,
+    "Rank": 398,
+    "UdListDefinitionId": 750,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 33
       }
     }
   }

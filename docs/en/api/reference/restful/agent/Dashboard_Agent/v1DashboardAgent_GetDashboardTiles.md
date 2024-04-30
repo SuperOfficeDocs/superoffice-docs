@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    688,
-    819
+    820,
+    915
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 748,
-    "Caption": "dicta",
-    "Description": "Networked empowering collaboration",
-    "ChartName": "Konopelski LLC",
-    "ChartId": "inventore",
-    "IsDefault": true,
-    "AssociateId": 267,
-    "GroupId": 633,
-    "SelectionId": 413,
-    "Config": "sit",
+    "DashboardTileId": 214,
+    "Caption": "fugit",
+    "Description": "Phased global knowledge base",
+    "ChartName": "Kuhn, Kunze and Schamberger",
+    "ChartId": "velit",
+    "IsDefault": false,
+    "AssociateId": 21,
+    "GroupId": 95,
+    "SelectionId": 749,
+    "Config": "molestiae",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Kemmer, Konopelski and Dietrich",
-        "Description": "Enterprise-wide intangible algorithm",
+        "Name": "Kris-Beahan",
+        "Description": "Sharable intermediate implementation",
         "Type": "Boolean",
-        "ListName": "Rodriguez, Treutel and Waelchi",
+        "ListName": "Connelly Group",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "quod",
-        "DefaultDataOption": false,
+        "Value": "tempore",
+        "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldLength": 747
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 688,
+        "VisibleId": 53,
         "Visibility": "All",
-        "DisplayValue": "magnam",
+        "DisplayValue": "pariatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldLength": 631
           }
         }
       },
       {
-        "VisibleId": 688,
+        "VisibleId": 53,
         "Visibility": "All",
-        "DisplayValue": "magnam",
+        "DisplayValue": "pariatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldLength": 631
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 138
       }
     }
   }

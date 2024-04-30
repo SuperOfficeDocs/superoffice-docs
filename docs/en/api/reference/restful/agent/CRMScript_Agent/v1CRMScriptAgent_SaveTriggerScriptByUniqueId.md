@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "eligendi",
+  "TriggerScriptUniqueId": "modi",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 253,
-  "Name": "Ernser LLC",
+  "ScreenChooserId": 202,
+  "Name": "Smith-Lindgren",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "laudantium",
-  "Source": "ipsa",
-  "Registered": "2009-03-16T12:19:45.0079506+01:00",
-  "RegisteredAssociateId": 471,
-  "Updated": "2017-07-15T12:19:45.0079506+02:00",
-  "UpdatedAssociateId": 352,
+  "Enabled": true,
+  "UniqueIdentifier": "ratione",
+  "Source": "quam",
+  "Registered": "2022-10-03T11:44:33.3379103+02:00",
+  "RegisteredAssociateId": 393,
+  "Updated": "2017-12-16T11:44:33.3379103+01:00",
+  "UpdatedAssociateId": 779,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldType": "System.String",
+      "FieldLength": 271
     }
   }
 }

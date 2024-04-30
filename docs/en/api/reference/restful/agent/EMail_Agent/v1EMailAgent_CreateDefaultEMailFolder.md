@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weissnat, Shields and Keeling",
-  "Delimiter": "est",
-  "Flags": "rerum",
-  "TotalItems": 927,
-  "UnreadItems": 453,
+  "Name": "Jenkins-Steuber",
+  "Delimiter": "dolore",
+  "Flags": "sit",
+  "TotalItems": 821,
+  "UnreadItems": 598,
   "Subscribed": false,
-  "EmailFolderId": 929,
+  "EmailFolderId": 904,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   }
 }

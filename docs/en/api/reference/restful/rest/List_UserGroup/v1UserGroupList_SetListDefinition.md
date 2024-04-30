@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
-  "Name": "Reichert-Hahn",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "Rank": 354,
-  "IsCustomList": true,
+  "Id": 10,
+  "Name": "Klein Inc and Sons",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "Rank": 339,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Name": "Baumbach, Kautzer and Bailey",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 248,
+  "Id": 579,
+  "Name": "Runolfsdottir Group",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 69,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "id",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

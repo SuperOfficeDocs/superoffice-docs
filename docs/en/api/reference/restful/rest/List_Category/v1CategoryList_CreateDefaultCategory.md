@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 555,
-  "Name": "Bailey Group",
-  "Tooltip": "deleniti",
-  "Deleted": false,
-  "UdListDefinitionId": 760,
-  "Rank": 607,
+  "Id": 4,
+  "Name": "Hammes-Collier",
+  "Tooltip": "laborum",
+  "Deleted": true,
+  "UdListDefinitionId": 783,
+  "Rank": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 111
+      "FieldLength": 373
     }
   }
 }

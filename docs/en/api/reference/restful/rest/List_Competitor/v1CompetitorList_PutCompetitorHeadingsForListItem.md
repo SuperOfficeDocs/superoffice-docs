@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Corwin LLC",
-    "ToolTip": "Saepe eum.",
+    "Id": 388,
+    "Name": "Dare LLC",
+    "ToolTip": "Rerum molestias delectus et incidunt omnis et.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "praesentium",
-    "ColorBlock": 220,
-    "IconHint": "rerum",
+    "Rank": 829,
+    "Type": "ea",
+    "ColorBlock": 469,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2021-06-14T12:19:54.3365677+02:00",
+    "LastChanged": "1997-06-19T11:44:42.9607018+02:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Brakus-Haley",
-        "ToolTip": "Rerum illum.",
-        "Deleted": false,
-        "Rank": 336,
-        "Type": "tempore",
-        "ColorBlock": 300,
-        "IconHint": "assumenda",
-        "Selected": false,
-        "LastChanged": "2013-09-29T12:19:54.3365677+02:00",
+        "Id": 454,
+        "Name": "Kunde LLC",
+        "ToolTip": "Asperiores id.",
+        "Deleted": true,
+        "Rank": 244,
+        "Type": "distinctio",
+        "ColorBlock": 67,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2015-06-17T11:44:42.9607018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "et",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mrs. Mariana Marion Okuneva IV"
+        "FullName": "Prof. Vernie Felipa Murray V"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Asia Gottlieb PhD"
+    "ExtraInfo": "sed",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Sonny Satterfield DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Gusikowski LLC",
-    "ToolTip": "Vel dolor cum reiciendis tempora eos.",
+    "Id": 344,
+    "Name": "Zulauf LLC",
+    "ToolTip": "Natus excepturi sunt quia eaque.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "odio",
-    "ColorBlock": 778,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2020-10-13T12:19:54.3365677+02:00",
+    "Rank": 246,
+    "Type": "illum",
+    "ColorBlock": 162,
+    "IconHint": "consectetur",
+    "Selected": true,
+    "LastChanged": "2003-02-20T11:44:42.9607018+01:00",
     "ChildItems": [
       {
-        "Id": 421,
-        "Name": "Prosacco Group",
-        "ToolTip": "Quia neque maxime.",
-        "Deleted": false,
-        "Rank": 726,
-        "Type": "animi",
-        "ColorBlock": 469,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2014-01-13T12:19:54.3365677+01:00",
+        "Id": 217,
+        "Name": "Paucek-Collier",
+        "ToolTip": "Voluptatem quod est perferendis alias eum.",
+        "Deleted": true,
+        "Rank": 529,
+        "Type": "totam",
+        "ColorBlock": 324,
+        "IconHint": "ullam",
+        "Selected": true,
+        "LastChanged": "2023-11-09T11:44:42.9607018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Tabitha Bednar",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "eaque",
+        "Hidden": true,
+        "FullName": "Jack Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "et",
+    "ExtraInfo": "et",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Jayne Bahringer",
+    "FullName": "Mr. Sheridan Guillermo Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldLength": 455
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 612,
-  "Name": "Connelly, Fritsch and Huels",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 14,
+  "Id": 722,
+  "Name": "Boyle LLC",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 947,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "deleniti",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 810,
-  "Name": "Ward-Littel",
-  "Tooltip": "fugit",
+  "Id": 972,
+  "Name": "Rohan LLC",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 749,
-  "IsCustomList": true,
+  "Rank": 813,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldType": "System.Int32",
+      "FieldLength": 463
     }
   }
 }

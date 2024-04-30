@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Rodriguez-Parker",
-    "ToolTip": "Qui libero quod quo voluptatibus cupiditate est hic.",
+    "Id": 826,
+    "Name": "Ernser, Steuber and Nienow",
+    "ToolTip": "Consequatur dolores dicta.",
     "Deleted": true,
-    "Rank": 764,
-    "Type": "et",
-    "ColorBlock": 723,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2008-09-15T12:19:54.2740906+02:00",
+    "Rank": 850,
+    "Type": "ut",
+    "ColorBlock": 79,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2014-08-17T11:44:42.898184+02:00",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Durgan, Williamson and Aufderhar",
-        "ToolTip": "Mollitia ipsum qui reiciendis.",
+        "Id": 917,
+        "Name": "Dicki, Schultz and O'Reilly",
+        "ToolTip": "Odio illum.",
         "Deleted": false,
-        "Rank": 58,
-        "Type": "assumenda",
-        "ColorBlock": 83,
-        "IconHint": "quaerat",
+        "Rank": 53,
+        "Type": "nam",
+        "ColorBlock": 119,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2004-05-03T12:19:54.2740906+02:00",
+        "LastChanged": "2011-04-18T11:44:42.898184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "dolores",
+        "ExtraInfo": "repellat",
+        "StyleHint": "harum",
         "Hidden": true,
-        "FullName": "Dr. Efren Langosh Sr."
+        "FullName": "Velda Blick"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Neil Kerluke"
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Alanna Schulist"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Feeney, Borer and Bashirian",
-    "ToolTip": "Aut repellat.",
-    "Deleted": true,
-    "Rank": 397,
-    "Type": "laudantium",
-    "ColorBlock": 545,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2002-09-03T12:19:54.2740906+02:00",
+    "Id": 719,
+    "Name": "Greenholt-Gorczany",
+    "ToolTip": "Vel beatae necessitatibus sapiente in sint ab.",
+    "Deleted": false,
+    "Rank": 459,
+    "Type": "officiis",
+    "ColorBlock": 565,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2008-02-22T11:44:42.898184+01:00",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Roberts LLC",
-        "ToolTip": "Veritatis cumque voluptatem rerum quasi sapiente.",
+        "Id": 437,
+        "Name": "O'Hara-Jerde",
+        "ToolTip": "Et maiores aliquam et ut qui quos.",
         "Deleted": false,
-        "Rank": 223,
-        "Type": "distinctio",
-        "ColorBlock": 173,
-        "IconHint": "qui",
+        "Rank": 761,
+        "Type": "enim",
+        "ColorBlock": 526,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2009-02-11T12:19:54.2740906+01:00",
+        "LastChanged": "2008-10-17T11:44:42.898184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "cumque",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Ms. Liza Klein DDS",
+        "FullName": "Leola Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 219
+            "FieldType": "System.Int32",
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "sunt",
+    "ExtraInfo": "et",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Jadyn Coleman Feeney IV",
+    "FullName": "Ottilie Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldType": "System.String",
+        "FieldLength": 46
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Witting LLC",
-  "Tooltip": "odio",
+  "Id": 882,
+  "Name": "Langosh LLC",
+  "Tooltip": "repellendus",
   "Deleted": true,
-  "UdListDefinitionId": 30,
-  "Rank": 837,
+  "UdListDefinitionId": 834,
+  "Rank": 514,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 437
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,39 +77,39 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 468,
-  "Field": "id",
-  "RecordId": 121,
+  "RefCountsId": 726,
+  "Field": "quidem",
+  "RecordId": 655,
   "SuggestedRecords": [
     {
-      "Id": 81,
-      "Name": "Huel, Barrows and Dare",
-      "ToolTip": "Magnam atque cupiditate.",
+      "Id": 328,
+      "Name": "Donnelly-Windler",
+      "ToolTip": "Eaque doloremque sapiente nemo omnis sed cupiditate.",
       "Deleted": false,
-      "Rank": 763,
-      "Type": "in",
+      "Rank": 424,
+      "Type": "reprehenderit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nisi",
-      "ColorBlock": 965,
-      "ExtraInfo": "unde",
-      "StyleHint": "molestias",
-      "FullName": "Mrs. Sylvia Moses Schoen III",
+      "IconHint": "sint",
+      "ColorBlock": 399,
+      "ExtraInfo": "alias",
+      "StyleHint": "suscipit",
+      "FullName": "Prof. Alivia Justen Zboncak DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 197
+          "FieldLength": 575
         }
       }
     }
   ],
-  "CurrentValue": 299,
-  "TravelPrefix": 160,
-  "SatPrefix": 743,
+  "CurrentValue": 364,
+  "TravelPrefix": 788,
+  "SatPrefix": 542,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": true,
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   }
 }

@@ -93,10 +93,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 686,
-  "AttachmentId": "nesciunt",
-  "AttachmentType": "officiis",
-  "AttachmentFilename": "esse"
+  "MailItemId": 212,
+  "AttachmentId": "magnam",
+  "AttachmentType": "optio",
+  "AttachmentFilename": "voluptatem"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized 24 hour workforce",
-  "Filename": "sint",
-  "Size": 78,
-  "Type": "beatae",
-  "Encoding": "accusamus",
-  "Id": "itaque",
-  "Disposition": "mollitia",
+  "Description": "Front-line value-added conglomeration",
+  "Filename": "assumenda",
+  "Size": 286,
+  "Type": "accusamus",
+  "Encoding": "rerum",
+  "Id": "tempora",
+  "Disposition": "recusandae",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 160
     }
   }
 }

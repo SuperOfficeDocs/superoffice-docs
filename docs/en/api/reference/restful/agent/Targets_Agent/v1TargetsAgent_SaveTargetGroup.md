@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 847,
-  "Year": 245,
+  "TargetGroupId": 808,
+  "Year": 897,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 582,
+      "TargetAssignmentInfoId": 816,
       "Values": [
-        873,
-        274
+        857,
+        186
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 721,
-      "DimensionListItemDisplayName": "Howe-Bosco"
+      "DimensionListItem": 646,
+      "DimensionListItemDisplayName": "Kuhic, Greenfelder and Kohler"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 35,
-  "Year": 102,
+  "TargetGroupId": 224,
+  "Year": 588,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 156,
+      "TargetAssignmentInfoId": 145,
       "Values": [
-        144,
-        124
+        921,
+        775
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 409,
-      "DimensionListItemDisplayName": "Sawayn LLC",
+      "DimensionListItem": 315,
+      "DimensionListItemDisplayName": "Aufderhar, Beer and Quitzon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldLength": 262
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 286
     }
   }
 }

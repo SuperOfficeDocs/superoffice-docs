@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 589,
-  "PrefDescId": 851,
-  "PrefValue": "consequatur",
-  "PrefShowValue": "rem",
-  "Description": "Cloned encompassing matrix",
+  "PrefDescLineId": 562,
+  "PrefDescId": 817,
+  "PrefValue": "quos",
+  "PrefShowValue": "odit",
+  "Description": "Mandatory context-sensitive knowledge user",
   "IsBuiltin": false
 }
 ```
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 676,
-  "PrefDescId": 481,
-  "PrefValue": "libero",
-  "PrefShowValue": "sapiente",
-  "Description": "Open-architected intermediate alliance",
+  "PrefDescLineId": 557,
+  "PrefDescId": 623,
+  "PrefValue": "mollitia",
+  "PrefShowValue": "error",
+  "Description": "Profit-focused foreground open system",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 131
     }
   },
   "_Links": {

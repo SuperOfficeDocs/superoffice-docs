@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Value": "exercitationem",
-    "Tooltip": "ea",
+    "Id": 287,
+    "Value": "sed",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 971
       }
     }
   },
   {
-    "Id": 233,
-    "Value": "exercitationem",
-    "Tooltip": "ea",
+    "Id": 287,
+    "Value": "sed",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 971
       }
     }
   }

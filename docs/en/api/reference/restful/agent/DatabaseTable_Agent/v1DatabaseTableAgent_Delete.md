@@ -83,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ondricka, Willms and Rogahn",
+  "TableName": "Ernser LLC",
   "IDs": [
-    2,
-    162
+    307,
+    705
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "quidem",
-  "Inserts": 790,
-  "Updates": 604,
-  "Deletes": 323,
+  "Message": "unde",
+  "Inserts": 829,
+  "Updates": 907,
+  "Deletes": 916,
   "RowStatus": [
     {
-      "PrimaryKey": 168,
+      "PrimaryKey": 940,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nesciunt",
-        "architecto"
+        "delectus",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldLength": 719
         }
       }
     },
     {
-      "PrimaryKey": 168,
+      "PrimaryKey": 940,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nesciunt",
-        "architecto"
+        "delectus",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldLength": 719
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 589
     }
   }
 }

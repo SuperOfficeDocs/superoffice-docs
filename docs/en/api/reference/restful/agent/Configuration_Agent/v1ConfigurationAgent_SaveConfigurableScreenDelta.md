@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 631,
-  "Name": "Barton Group",
-  "Description": "Versatile optimizing open architecture",
-  "DeltaJson": "quis",
+  "ConfigurableScreenDeltaId": 55,
+  "Name": "Mayert-Bailey",
+  "Description": "Down-sized stable Graphical User Interface",
+  "DeltaJson": "eius",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "expedita",
-  "UpdatedDate": "2023-08-07T12:19:44.8204988+02:00",
-  "CreatedDate": "2018-10-14T12:19:44.8204988+02:00",
+  "RecipeId": "magni",
+  "UpdatedDate": "2021-04-25T11:44:32.9942315+02:00",
+  "CreatedDate": "2019-02-02T11:44:32.9942315+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    580,
-    603
+    411,
+    79
   ],
-  "AppliesToKey": "eius"
+  "AppliesToKey": "voluptatem"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 169,
-  "Name": "Raynor, Krajcik and Dooley",
-  "Description": "Distributed disintermediate algorithm",
-  "DeltaJson": "aut",
+  "ConfigurableScreenDeltaId": 486,
+  "Name": "Nienow, Smitham and Klocko",
+  "Description": "Optimized didactic leverage",
+  "DeltaJson": "id",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "beatae",
-  "UpdatedDate": "2021-01-15T12:19:44.8361197+01:00",
-  "CreatedDate": "2015-02-20T12:19:44.8361197+01:00",
+  "RecipeId": "voluptas",
+  "UpdatedDate": "2011-12-20T11:44:32.9942315+01:00",
+  "CreatedDate": "2018-02-12T11:44:32.9942315+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    983,
-    323
+    853,
+    365
   ],
-  "AppliesToKey": "distinctio",
+  "AppliesToKey": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldLength": 220
     }
   }
 }

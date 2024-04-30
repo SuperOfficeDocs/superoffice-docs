@@ -469,7 +469,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=associate/contactId,person/fullName,person/personPager/description,person/legalBaseStore,person/consentSourceStore
+GET /api/v1/archive/FormSubmission?$select=associate/locationAddress,person/personPrivate/description,contact/saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

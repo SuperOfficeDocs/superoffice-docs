@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 915,
-  "ColumnId": 839,
-  "FieldDefault": "repudiandae",
-  "FieldHeight": 665,
-  "FieldLabel": "et",
-  "FieldLeft": 535,
-  "FieldTop": 923,
+  "UDefFieldId": 858,
+  "ColumnId": 164,
+  "FieldDefault": "iure",
+  "FieldHeight": 86,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 264,
+  "FieldTop": 856,
   "FieldType": "Checkbox",
-  "FieldWidth": 719,
-  "FormatMask": "at",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 363,
-  "LabelLeft": 452,
-  "LabelTop": 358,
-  "LabelWidth": 760,
-  "LastVersionId": 416,
-  "ListTableId": 990,
+  "FieldWidth": 400,
+  "FormatMask": "quia",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 884,
+  "LabelLeft": 785,
+  "LabelTop": 226,
+  "LabelWidth": 344,
+  "LastVersionId": 172,
+  "ListTableId": 587,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 934,
-  "ProgId": "neque",
-  "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 182,
-  "TextLength": 104,
-  "Tooltip": "et",
-  "UdefIdentity": 775,
-  "UDListDefinitionId": 813,
+  "Page1LineNo": 418,
+  "ProgId": "sit",
+  "IsReadOnly": false,
+  "ShortLabel": "vitae",
+  "TabOrder": 230,
+  "TextLength": 185,
+  "Tooltip": "eius",
+  "UdefIdentity": 588,
+  "UDListDefinitionId": 393,
   "Justification": "Center",
-  "Version": 330,
-  "TemplateVariableName": "Abbott, Marks and Gibson",
+  "Version": 955,
+  "TemplateVariableName": "Macejkovic LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Larson, Bogan and Kunze",
+  "MdoListName": "Barrows-Parisian",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

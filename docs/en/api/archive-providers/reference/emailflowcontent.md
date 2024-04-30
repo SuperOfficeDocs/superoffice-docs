@@ -29,8 +29,9 @@ Lists all email flow content
 |contentId|int|ID: ID| x |
 |shipmentMessagePictureFolderId| *None* |Folder: Folder|  |
 |contentThumbnail| *None* |Thumbnail|  |
-|nameOrDescription| *None* |Subject: Subject|  |
-|contentDescription|string|Description : Description| x |
+|shipmentMessageSubject| *None* |Subject: Subject|  |
+|shipmentMessageDescription| *None* |Description : Description|  |
+|nameOrDescription| *None* |Description : Description|  |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
@@ -42,6 +43,7 @@ Lists all email flow content
 |emailFlow/thumbnail| *None* |Thumbnail|  |
 |emailFlow/mediumThumbnail| *None* |Thumbnail|  |
 |emailFlow/workflowId|int|Workflow id: Id of a worflow definition| x |
+|emailFlow/workflowName|string|Name: Name of the workflow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of the workflow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
@@ -121,12 +123,12 @@ Lists all email flow content
 |shipment/project/projectAssociate/firstName| *None* |First name: Displays the contact's first name|  |
 |shipment/project/projectAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
 |shipment/project/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|shipment/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|shipment/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|shipment/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |shipment/project/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |shipment/project/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |shipment/project/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -187,12 +189,13 @@ Lists all email flow content
 |shipment/project/saintTicketCategory| *None* |Category|  |
 |shipment/project/project/textId| *None* |Text ID|  |
 |shipment/project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
-|emailFlow/workflowName| *None* |Name: Name of the workflow definition|  |
+|contentDescription| *None* |Description: Form description|  |
+|contentIcon| *None* |Icon: Icon| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/project/registeredByFullName,shipment/contactId,shipment/project/nextMilestone
+GET /api/v1/archive/EmailFlowContent?$select=shipment/associateId,shipment/project/hasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

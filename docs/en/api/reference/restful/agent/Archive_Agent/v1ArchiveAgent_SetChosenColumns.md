@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rohan LLC",
-  "ProviderName": "Steuber, Schinner and Wisozk",
+  "GuiName": "Feeney-Kovacek",
+  "ProviderName": "Kub Group",
   "ChosenColumns": [
-    "dolore",
-    "cum"
+    "rerum",
+    "voluptatum"
   ]
 }
 ```

@@ -96,40 +96,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quas",
-    "InputValues2": "voluptas"
+    "InputValues1": "sapiente",
+    "InputValues2": "dolor"
   },
   "BlockExecution": false,
-  "NavigateTo": "ullam",
-  "Message": "praesentium",
-  "ShowDialog": "quisquam",
+  "NavigateTo": "qui",
+  "Message": "excepturi",
+  "ShowDialog": "ut",
   "OutputValues": {
-    "OutputValues1": "aut",
-    "OutputValues2": "suscipit"
+    "OutputValues1": "et",
+    "OutputValues2": "recusandae"
   },
   "StateValues": {
-    "StateValues1": "est",
-    "StateValues2": "sunt"
+    "StateValues1": "sit",
+    "StateValues2": "aut"
   },
-  "Exception": "voluptates",
+  "Exception": "ullam",
   "ParserValues": {
-    "ParserValues1": "incidunt",
-    "ParserValues2": "expedita"
+    "ParserValues1": "est",
+    "ParserValues2": "consequatur"
   },
   "CgiVariables": {
-    "CgiVariables1": "nam",
-    "CgiVariables2": "quia"
+    "CgiVariables1": "iusto",
+    "CgiVariables2": "pariatur"
   },
-  "CgiContent": "repellat",
+  "CgiContent": "fugit",
   "Headers": {
-    "Headers1": "modi",
-    "Headers2": "ut"
+    "Headers1": "alias",
+    "Headers2": "animi"
   }
 }
 ```
@@ -143,41 +143,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "dolores",
-    "InputValues2": "veniam"
+    "InputValues1": "quia",
+    "InputValues2": "accusamus"
   },
   "BlockExecution": true,
-  "NavigateTo": "et",
-  "Message": "porro",
-  "ShowDialog": "enim",
+  "NavigateTo": "voluptas",
+  "Message": "repellendus",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "quo",
-    "OutputValues2": "cupiditate"
+    "OutputValues1": "amet",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "ratione",
-    "StateValues2": "et"
+    "StateValues1": "impedit",
+    "StateValues2": "laudantium"
   },
-  "Exception": "quis",
+  "Exception": "id",
   "ParserValues": {
-    "ParserValues1": "animi",
-    "ParserValues2": "quia"
+    "ParserValues1": "consequuntur",
+    "ParserValues2": "odit"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "facere"
+    "CgiVariables1": "natus",
+    "CgiVariables2": "nihil"
   },
-  "CgiContent": "voluptatem",
+  "CgiContent": "et",
   "Headers": {
-    "Headers1": "fugiat",
-    "Headers2": "natus"
+    "Headers1": "voluptatem",
+    "Headers2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 8
     }
   }
 }

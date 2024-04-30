@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 518,
-      "Id": 891,
-      "HistoryName": "Price-D'Amore",
-      "HistoryId": 335,
-      "AssociateId": 914,
-      "Name": "Tromp Group",
-      "ItemInfo": "ut"
+      "Rank": 584,
+      "Id": 476,
+      "HistoryName": "Purdy, Keebler and Corwin",
+      "HistoryId": 883,
+      "AssociateId": 490,
+      "Name": "Goyette-Ortiz",
+      "ItemInfo": "repellendus"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 673,
-    "Id": 487,
-    "HistoryName": "Schroeder Group",
-    "HistoryId": 708,
-    "AssociateId": 274,
-    "Name": "Koepp-Kozey",
-    "ItemInfo": "non",
+    "Rank": 246,
+    "Id": 815,
+    "HistoryName": "Harvey, Crona and Trantow",
+    "HistoryId": 461,
+    "AssociateId": 618,
+    "Name": "Pollich Group",
+    "ItemInfo": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 862
+        "FieldLength": 936
       }
     }
   }

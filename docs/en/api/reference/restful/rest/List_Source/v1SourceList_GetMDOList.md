@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=ut
+GET /api/v1/List/Source/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Waters-Brakus",
-    "ToolTip": "A consequuntur ex voluptates minus a.",
-    "Deleted": true,
-    "Rank": 188,
-    "Type": "inventore",
+    "Id": 248,
+    "Name": "Bashirian-Hickle",
+    "ToolTip": "Modi minima consequatur.",
+    "Deleted": false,
+    "Rank": 417,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Bogan-Bayer",
-        "ToolTip": "Sunt dolorem.",
+        "Id": 302,
+        "Name": "Ankunding-Bogisich",
+        "ToolTip": "Temporibus possimus.",
         "Deleted": false,
-        "Rank": 482,
-        "Type": "excepturi",
+        "Rank": 921,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 558,
-        "ExtraInfo": "repellendus",
-        "StyleHint": "dolorem",
-        "FullName": "Dina Bashirian",
+        "IconHint": "rerum",
+        "ColorBlock": 833,
+        "ExtraInfo": "vero",
+        "StyleHint": "quod",
+        "FullName": "Raymond Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldLength": 703
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 977,
-    "ExtraInfo": "aut",
-    "StyleHint": "aut",
-    "FullName": "Vidal Hayes MD",
+    "IconHint": "molestiae",
+    "ColorBlock": 751,
+    "ExtraInfo": "earum",
+    "StyleHint": "nihil",
+    "FullName": "Allan Grady DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 604
+        "FieldLength": 322
       }
     }
   }

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 555
+  "PersonId": 45
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 880,
-    "Name": "Balistreri Group",
-    "Description": "Cross-platform solution-oriented strategy",
+    "ProjectId": 382,
+    "Name": "Schuppe, Ebert and Ernser",
+    "Description": "Seamless composite Graphic Interface",
     "URL": "http://www.example.com/",
-    "Type": "iure",
-    "AssociateId": 88,
-    "AssociateFullName": "Dayna Turcotte",
-    "TypeId": 305,
-    "Updated": "2004-09-10T12:19:46.038959+02:00",
-    "StatusId": 266,
-    "Status": "ducimus",
-    "TextId": 447,
-    "PublishTo": "2004-01-22T12:19:46.038959+01:00",
-    "PublishFrom": "2015-11-18T12:19:46.038959+01:00",
-    "IsPublished": false,
+    "Type": "impedit",
+    "AssociateId": 344,
+    "AssociateFullName": "Dave Muller",
+    "TypeId": 628,
+    "Updated": "1999-08-30T11:44:34.2126949+02:00",
+    "StatusId": 54,
+    "Status": "architecto",
+    "TextId": 721,
+    "PublishTo": "2015-07-01T11:44:34.2126949+02:00",
+    "PublishFrom": "2021-06-23T11:44:34.2126949+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "837744",
-    "ActiveErpLinks": 895,
+    "ProjectNumber": "1446391",
+    "ActiveErpLinks": 997,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldType": "System.String",
+        "FieldLength": 230
       }
     }
   }

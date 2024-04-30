@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 867,
-  "Name": "Rippin Inc and Sons",
+  "TicketPriorityId": 609,
+  "Name": "Mueller, Daniel and Rodriguez",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 413,
+  "SortOrder": 760,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 283,
-  "MonStart": "1997-03-31T12:19:54.898948+02:00",
-  "MonStop": "2021-12-24T12:19:54.898948+01:00",
-  "TueStart": "2020-12-22T12:19:54.898948+01:00",
-  "TueStop": "2011-10-17T12:19:54.898948+02:00",
-  "WedStart": "2014-02-16T12:19:54.898948+01:00",
-  "WedStop": "2006-01-27T12:19:54.898948+01:00",
-  "ThuStart": "2006-03-02T12:19:54.898948+01:00",
-  "ThuStop": "1999-09-20T12:19:54.898948+02:00",
-  "FriStart": "2017-10-17T12:19:54.898948+02:00",
-  "FriStop": "1997-05-12T12:19:54.898948+02:00",
-  "SatStart": "2000-07-03T12:19:54.898948+02:00",
-  "SatStop": "1997-02-09T12:19:54.898948+01:00",
-  "SunStart": "2005-07-11T12:19:54.898948+02:00",
-  "SunStop": "2018-12-11T12:19:54.898948+01:00",
+  "Deadline": 428,
+  "MonStart": "1999-11-03T11:44:43.398025+01:00",
+  "MonStop": "2008-01-05T11:44:43.398025+01:00",
+  "TueStart": "2008-07-10T11:44:43.398025+02:00",
+  "TueStop": "2006-01-31T11:44:43.398025+01:00",
+  "WedStart": "2005-05-23T11:44:43.398025+02:00",
+  "WedStop": "2009-01-06T11:44:43.398025+01:00",
+  "ThuStart": "2009-09-26T11:44:43.398025+02:00",
+  "ThuStop": "2004-07-14T11:44:43.398025+02:00",
+  "FriStart": "2022-05-17T11:44:43.398025+02:00",
+  "FriStop": "2015-01-15T11:44:43.398025+01:00",
+  "SatStart": "2019-01-19T11:44:43.398025+01:00",
+  "SatStop": "2002-02-02T11:44:43.398025+01:00",
+  "SunStart": "2013-08-15T11:44:43.398025+02:00",
+  "SunStop": "2011-08-15T11:44:43.398025+02:00",
   "NonDates": [
-    "hic",
-    "velit"
+    "beatae",
+    "est"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 105,
-      "AlertLevel": 852,
-      "AlertTimeout": 204,
-      "Action": 611,
-      "DelegateTo": 84,
-      "ScriptId": 960,
-      "EmailTo": "elyssa@murazik.ca",
-      "SmsTo": "et",
-      "ReplyTemplateIdCustomer": 453,
-      "ReplyTemplateIdUser": 742,
-      "ReplyTemplateIdCatmast": 657,
-      "ReplyTemplateIdEmail": 340,
-      "RtiCustomerSms": 392,
-      "ReplyTemplateIdUserSms": 679,
-      "ReplyTemplateIdCatmastSms": 714,
-      "ReplyTemplateIdSms": 454,
+      "TicketAlertId": 429,
+      "AlertLevel": 926,
+      "AlertTimeout": 357,
+      "Action": 389,
+      "DelegateTo": 762,
+      "ScriptId": 711,
+      "EmailTo": "valentin_herman@kuhicratke.name",
+      "SmsTo": "dignissimos",
+      "ReplyTemplateIdCustomer": 790,
+      "ReplyTemplateIdUser": 664,
+      "ReplyTemplateIdCatmast": 499,
+      "ReplyTemplateIdEmail": 173,
+      "RtiCustomerSms": 98,
+      "ReplyTemplateIdUserSms": 343,
+      "ReplyTemplateIdCatmastSms": 509,
+      "ReplyTemplateIdSms": 505,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 102
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldType": "System.String",
+      "FieldLength": 195
     }
   }
 }

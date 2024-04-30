@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ullam"
+  "TriggerScriptUniqueId": "molestiae"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 124,
-  "Name": "Ziemann Group",
+  "ScreenChooserId": 739,
+  "Name": "Howell-Gusikowski",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "possimus",
-  "Source": "nihil",
-  "Registered": "2000-10-07T12:19:45.0079506+02:00",
-  "RegisteredAssociateId": 991,
-  "Updated": "1997-07-30T12:19:45.0079506+02:00",
-  "UpdatedAssociateId": 210,
+  "UniqueIdentifier": "esse",
+  "Source": "architecto",
+  "Registered": "2007-05-31T11:44:33.3379103+02:00",
+  "RegisteredAssociateId": 666,
+  "Updated": "2017-05-11T11:44:33.3379103+02:00",
+  "UpdatedAssociateId": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 284
     }
   }
 }

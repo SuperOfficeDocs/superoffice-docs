@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Ratke-Considine",
-    "ToolTip": "Iste harum saepe quasi et amet eveniet distinctio.",
+    "Id": 409,
+    "Name": "Ortiz-Keeling",
+    "ToolTip": "Maxime nesciunt.",
     "Deleted": false,
-    "Rank": 513,
-    "Type": "consequatur",
-    "ColorBlock": 439,
-    "IconHint": "officia",
-    "Selected": false,
-    "LastChanged": "2021-06-18T12:19:54.3522098+02:00",
+    "Rank": 565,
+    "Type": "excepturi",
+    "ColorBlock": 829,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2010-02-21T11:44:42.9762901+01:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Frami Group",
-        "ToolTip": "Nemo nostrum doloribus est reprehenderit explicabo fuga doloribus.",
+        "Id": 521,
+        "Name": "Hamill, Stroman and Stoltenberg",
+        "ToolTip": "Praesentium fugiat vero et rerum deleniti deleniti.",
         "Deleted": false,
-        "Rank": 716,
-        "Type": "quidem",
-        "ColorBlock": 13,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "1998-11-02T12:19:54.3522098+01:00",
+        "Rank": 262,
+        "Type": "voluptatem",
+        "ColorBlock": 907,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2019-01-07T11:44:42.9762901+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Dr. Dimitri Sheridan Denesik"
+        "ExtraInfo": "natus",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Ms. Josiah Dooley"
       }
     ],
-    "ExtraInfo": "hic",
+    "ExtraInfo": "quisquam",
     "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Ms. Audrey Caleb Dibbert"
+    "Hidden": true,
+    "FullName": "Dr. Jayce Jazlyn Wyman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Welch LLC",
-    "ToolTip": "Quae ea.",
-    "Deleted": false,
-    "Rank": 812,
-    "Type": "cupiditate",
-    "ColorBlock": 389,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2018-03-12T12:19:54.3522098+01:00",
+    "Id": 485,
+    "Name": "Okuneva Group",
+    "ToolTip": "Sed dignissimos omnis eligendi.",
+    "Deleted": true,
+    "Rank": 993,
+    "Type": "dolor",
+    "ColorBlock": 210,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2000-12-01T11:44:42.9762901+01:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Daugherty-Ward",
-        "ToolTip": "Quod et molestiae aut accusantium tempore.",
-        "Deleted": false,
-        "Rank": 244,
-        "Type": "odio",
-        "ColorBlock": 630,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2016-09-15T12:19:54.3522098+02:00",
+        "Id": 395,
+        "Name": "Howell Group",
+        "ToolTip": "Alias qui suscipit est ratione sunt.",
+        "Deleted": true,
+        "Rank": 63,
+        "Type": "voluptatibus",
+        "ColorBlock": 417,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2017-06-19T11:44:42.9762901+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Ms. Nayeli Blake Kshlerin",
+        "ExtraInfo": "amet",
+        "StyleHint": "distinctio",
+        "Hidden": true,
+        "FullName": "Johnny Curtis Schmidt Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldLength": 399
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "iure",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Ethel Berta Morissette Jr.",
+    "FullName": "Lorna Nikolaus DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 84
       }
     }
   }

@@ -471,7 +471,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/useAsMailingAddress,person/restrictionAddress/county,contact/phone/formattedNumber,contact/streetAddress/city
+GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/personAddress/wgs84longitude,person/correspondingAssociate/associateDbId,person/withdrawnStoreConsent,contact/contactAssociate/contactCategory,contact/contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

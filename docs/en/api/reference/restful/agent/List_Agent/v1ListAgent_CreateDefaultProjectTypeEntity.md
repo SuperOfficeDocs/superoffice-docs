@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 85,
-  "Name": "Gusikowski-Hauck",
-  "Tooltip": "asperiores",
-  "Rank": 771,
+  "ProjTypeId": 937,
+  "Name": "Swaniawski-Keebler",
+  "Tooltip": "ut",
+  "Rank": 62,
   "DurationUnit": "Century",
-  "ProjectDuration": 979,
+  "ProjectDuration": 128,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 946,
-      "Name": "Rowe, Hane and Sanford",
-      "ToolTip": "Tempora fugit esse officiis ut recusandae.",
-      "Deleted": true,
-      "Rank": 787,
-      "Type": "odit",
-      "ColorBlock": 700,
-      "IconHint": "repellendus",
+      "Id": 612,
+      "Name": "Little Inc and Sons",
+      "ToolTip": "Fugit eligendi.",
+      "Deleted": false,
+      "Rank": 612,
+      "Type": "corporis",
+      "ColorBlock": 737,
+      "IconHint": "aperiam",
       "Selected": true,
-      "LastChanged": "2001-03-07T12:19:45.5547007+01:00",
+      "LastChanged": "2013-03-28T11:44:33.9002761+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "praesentium",
+      "ExtraInfo": "at",
+      "StyleHint": "sunt",
       "Hidden": false,
-      "FullName": "Leif Brown MD",
+      "FullName": "Ms. Dino Antonietta Hudson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 447
+          "FieldLength": 444
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 850
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 254,
-  "Name": "Jones LLC",
-  "Tooltip": "debitis",
-  "Rank": 708,
+  "SaleTypeId": 777,
+  "Name": "Botsford-Kassulke",
+  "Tooltip": "est",
+  "Rank": 810,
   "DurationUnit": "Century",
-  "SaleDuration": 794,
-  "SaleTypeCatId": 657,
+  "SaleDuration": 648,
+  "SaleTypeCatId": 431,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 408,
-  "QuoteLinesTemplate": 549,
-  "ConfirmationLinesTemplate": 262,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 62,
+  "QuoteLinesTemplate": 840,
+  "ConfirmationLinesTemplate": 875,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 826,
-  "MinEarningPercent": 128,
-  "GroupQuoteLinesBy": 834,
-  "SortGroupLinesBy": 95,
+  "MaxDiscountPercent": 323,
+  "MinEarningPercent": 211,
+  "GroupQuoteLinesBy": 372,
+  "SortGroupLinesBy": 828,
   "Stages": [
     {
-      "Id": 412,
-      "Name": "Hoppe Group",
-      "ToolTip": "Sunt ducimus amet quia.",
+      "Id": 543,
+      "Name": "Gutmann-Marquardt",
+      "ToolTip": "Reprehenderit eum iste autem placeat ab libero.",
       "Deleted": false,
-      "Rank": 6,
-      "Type": "necessitatibus",
-      "ColorBlock": 955,
-      "IconHint": "minima",
+      "Rank": 114,
+      "Type": "numquam",
+      "ColorBlock": 611,
+      "IconHint": "ipsam",
       "Selected": false,
-      "LastChanged": "2008-11-30T12:19:54.8364594+01:00",
+      "LastChanged": "2006-04-26T11:44:43.3355939+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nostrum",
-      "StyleHint": "velit",
+      "ExtraInfo": "iure",
+      "StyleHint": "placeat",
       "Hidden": false,
-      "FullName": "Ms. Garnet Grant Sr.",
+      "FullName": "Roderick Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldType": "System.String",
+          "FieldLength": 314
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 608
     }
   }
 }

@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 801,
-  "Name": "Hermiston, Beer and Langosh",
-  "Tooltip": "minima",
+  "RoleId": 660,
+  "Name": "Emmerich-Carter",
+  "Tooltip": "quo",
   "RoleType": "Anonymous",
-  "Deleted": 152,
-  "Rank": 168,
-  "Created": "2007-04-12T12:19:46.5544699+02:00",
-  "UseCategories": 792,
+  "Deleted": 188,
+  "Rank": 564,
+  "Created": "2014-04-23T11:44:34.9469084+02:00",
+  "UseCategories": 173,
   "CreatedBy": null,
-  "Updated": "2022-01-12T12:19:46.5544699+01:00",
+  "Updated": "2013-05-19T11:44:34.9469084+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 643,
-  "Name": "Rippin-Gusikowski",
-  "Tooltip": "id",
+  "RoleId": 656,
+  "Name": "Prosacco LLC",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 683,
-  "Rank": 581,
-  "Created": "2000-05-09T12:19:46.5544699+02:00",
-  "UseCategories": 744,
+  "Deleted": 47,
+  "Rank": 184,
+  "Created": "2017-07-08T11:44:34.9469084+02:00",
+  "UseCategories": 492,
   "CreatedBy": null,
-  "Updated": "2015-02-08T12:19:46.5700918+01:00",
+  "Updated": "2010-07-06T11:44:34.9469084+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 345
     }
   }
 }

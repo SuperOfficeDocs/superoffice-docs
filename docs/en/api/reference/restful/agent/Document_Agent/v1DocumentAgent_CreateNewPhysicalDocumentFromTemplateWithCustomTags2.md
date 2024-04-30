@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 880,
-  "PersonId": 945,
-  "AppointmentId": 657,
-  "DocumentId": 864,
-  "SaleId": 939,
-  "SelectionId": 102,
-  "ProjectId": 482,
+  "ContactId": 885,
+  "PersonId": 917,
+  "AppointmentId": 232,
+  "DocumentId": 737,
+  "SaleId": 211,
+  "SelectionId": 486,
+  "ProjectId": 326,
   "CustomTags": {
-    "CustomTags1": "quia",
-    "CustomTags2": "in"
+    "CustomTags1": "dolorum",
+    "CustomTags2": "quia"
   },
-  "UiCulture": "facilis"
+  "UiCulture": "architecto"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 723,
+  "DocumentId": 830,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "assumenda",
-  "Name": "Bayer LLC",
-  "OurRef": "libero",
-  "YourRef": "voluptas",
-  "CreatedDate": "1997-08-09T12:19:45.1641688+02:00",
-  "UpdatedDate": "2002-01-05T12:19:45.1641688+01:00",
-  "Description": "Right-sized eco-centric array",
+  "Attention": "alias",
+  "Header": "consequuntur",
+  "Name": "Kuhic Inc and Sons",
+  "OurRef": "soluta",
+  "YourRef": "laudantium",
+  "CreatedDate": "2013-11-08T11:44:33.5097371+01:00",
+  "UpdatedDate": "2001-01-12T11:44:33.5097371+01:00",
+  "Description": "Mandatory asynchronous knowledge base",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-07-18T12:19:45.1797866+02:00",
-  "ExternalRef": "fugiat",
+  "Date": "1998-10-14T11:44:33.5253557+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 91,
+  "ActiveLinks": 236,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koelpin Group",
-      "Id": 313,
-      "Description": "Up-sized zero tolerance migration",
-      "ExtraInfo": "nulla",
-      "LinkId": 371,
+      "EntityName": "Purdy-White",
+      "Id": 814,
+      "Description": "Synergistic composite artificial intelligence",
+      "ExtraInfo": "amet",
+      "LinkId": 36,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 369
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 461,
-  "Snum": 697,
+  "SuggestedDocumentId": 603,
+  "Snum": 725,
   "UserDefinedFields": {
-    "SuperOffice:1": "Celine Stamm",
-    "SuperOffice:2": "517495936"
+    "SuperOffice:1": "1682210743",
+    "SuperOffice:2": "1558731128"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "cumque"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "quibusdam"
   },
-  "PublishEventDate": "2020-04-21T12:19:45.1797866+02:00",
-  "PublishTo": "2017-10-03T12:19:45.1797866+02:00",
-  "PublishFrom": "2001-08-25T12:19:45.1797866+02:00",
+  "PublishEventDate": "1999-10-15T11:44:33.5253557+02:00",
+  "PublishTo": "2005-12-15T11:44:33.5253557+01:00",
+  "PublishFrom": "2021-08-21T11:44:33.5253557+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 927,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 169
         }
       }
     },
     {
-      "VisibleId": 927,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 169
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldType": "System.String",
+      "FieldLength": 981
     }
   }
 }

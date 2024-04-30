@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 453,
-  "SaleId": 178,
-  "QuoteConnectionId": 253,
-  "ERPQuoteKey": "magnam",
-  "ERPOrderKey": "est",
-  "ActiveQuoteVersionId": 649,
-  "AcceptedQuoteAlternativeId": 90,
-  "UseValuesFromQuote": 266,
-  "DocumentId": 871,
-  "PoNumber": "370496",
-  "OrderComment": "eos",
-  "PreferredEmailCulture": "vita.langworth@thompsonaltenwerth.co.uk",
+  "QuoteId": 937,
+  "SaleId": 740,
+  "QuoteConnectionId": 988,
+  "ERPQuoteKey": "culpa",
+  "ERPOrderKey": "magnam",
+  "ActiveQuoteVersionId": 328,
+  "AcceptedQuoteAlternativeId": 488,
+  "UseValuesFromQuote": 319,
+  "DocumentId": 907,
+  "PoNumber": "1663354",
+  "OrderComment": "amet",
+  "PreferredEmailCulture": "clarabelle_mraz@kreiger.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldLength": 455
     }
   }
 }

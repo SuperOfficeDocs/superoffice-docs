@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Daugherty LLC",
-    "ToolTip": "Repellendus a libero sint.",
-    "Deleted": false,
-    "Rank": 322,
-    "Type": "aspernatur",
-    "ColorBlock": 963,
-    "IconHint": "eum",
+    "Id": 453,
+    "Name": "Johns, Watsica and Schneider",
+    "ToolTip": "Similique reiciendis.",
+    "Deleted": true,
+    "Rank": 912,
+    "Type": "sed",
+    "ColorBlock": 192,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2002-05-07T12:19:54.383431+02:00",
+    "LastChanged": "2013-10-12T11:44:43.0075335+02:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Eichmann-Hudson",
-        "ToolTip": "Nihil ab consequatur qui ut quasi.",
-        "Deleted": true,
-        "Rank": 710,
-        "Type": "magni",
-        "ColorBlock": 908,
-        "IconHint": "quibusdam",
-        "Selected": false,
-        "LastChanged": "2012-01-21T12:19:54.383431+01:00",
+        "Id": 754,
+        "Name": "Sporer Group",
+        "ToolTip": "Fuga et voluptates aliquid aut.",
+        "Deleted": false,
+        "Rank": 966,
+        "Type": "ipsa",
+        "ColorBlock": 525,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2017-12-10T11:44:43.0075335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "id",
+        "ExtraInfo": "neque",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Jannie Ullrich",
+        "FullName": "Miss D'angelo Destany Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 198
+            "FieldLength": 893
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "officia",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Emilio Delores Moen II",
+    "FullName": "Dariana Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldLength": 457
       }
     }
   }

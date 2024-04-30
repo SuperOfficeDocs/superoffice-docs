@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=qui
-GET /api/v1/BatchTask?$top=246
-GET /api/v1/BatchTask?$skip=500
+GET /api/v1/BatchTask?$entities=omnis
+GET /api/v1/BatchTask?$top=844
+GET /api/v1/BatchTask?$skip=491
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=autem
+GET /api/v1/BatchTask?$context=doloremque
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repellat",
+  "odata.nextLink": "ut",
   "value": [
     {
-      "PrimaryKey": 8861,
+      "PrimaryKey": 1538,
       "EntityName": "sale",
-      "saleId": 8861,
-      "contactId": 7962,
-      "name": "Dibbert Group"
+      "saleId": 1538,
+      "contactId": 8327,
+      "name": "Wehner, Johns and Effertz"
     },
     {
-      "PrimaryKey": 8056,
+      "PrimaryKey": 8955,
       "EntityName": "sale",
-      "saleId": 8056,
-      "contactId": 5671,
-      "name": "Sporer, Jones and O'Keefe"
+      "saleId": 8955,
+      "contactId": 30,
+      "name": "Huels-Dickinson"
     }
   ]
 }

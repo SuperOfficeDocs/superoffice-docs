@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Moen Inc and Sons",
-    "ToolTip": "Eum laboriosam voluptas ipsam explicabo accusantium quam est.",
+    "Id": 351,
+    "Name": "Gorczany LLC",
+    "ToolTip": "Doloremque et.",
     "Deleted": false,
-    "Rank": 924,
+    "Rank": 344,
     "Type": "soluta",
-    "ColorBlock": 313,
-    "IconHint": "non",
+    "ColorBlock": 666,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2004-12-21T12:19:54.7427332+01:00",
+    "LastChanged": "2003-12-13T11:44:43.2418644+01:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Lueilwitz Inc and Sons",
-        "ToolTip": "Quia illum facere ipsa.",
-        "Deleted": true,
-        "Rank": 414,
-        "Type": "totam",
-        "ColorBlock": 366,
-        "IconHint": "ut",
+        "Id": 926,
+        "Name": "Waelchi LLC",
+        "ToolTip": "Quae vero.",
+        "Deleted": false,
+        "Rank": 577,
+        "Type": "rerum",
+        "ColorBlock": 785,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2002-12-27T12:19:54.7427332+01:00",
+        "LastChanged": "2002-04-07T11:44:43.2418644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Wyman Hintz",
+        "ExtraInfo": "saepe",
+        "StyleHint": "possimus",
+        "Hidden": true,
+        "FullName": "Jaquelin Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 637
+            "FieldType": "System.String",
+            "FieldLength": 451
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Frances Fadel",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptate",
+    "Hidden": true,
+    "FullName": "Erick Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldType": "System.String",
+        "FieldLength": 470
       }
     }
   }

@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Miller-Littel",
-      "DisplayName": "Herzog-Spinka",
-      "DisplayTooltip": "eius",
-      "IsActive": true
+      "Name": "Skiles-Marks",
+      "DisplayName": "Pacocha, Oberbrunner and Schultz",
+      "DisplayTooltip": "deserunt",
+      "IsActive": false
     },
     {
-      "Name": "Miller-Littel",
-      "DisplayName": "Herzog-Spinka",
-      "DisplayTooltip": "eius",
-      "IsActive": true
+      "Name": "Skiles-Marks",
+      "DisplayName": "Pacocha, Oberbrunner and Schultz",
+      "DisplayTooltip": "deserunt",
+      "IsActive": false
     }
   ]
 }

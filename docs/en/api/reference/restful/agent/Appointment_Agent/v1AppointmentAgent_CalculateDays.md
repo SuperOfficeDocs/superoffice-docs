@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 224,
-  "StartDate": "1997-02-28T12:19:44.3049893+01:00",
-  "EndDate": "2010-02-25T12:19:44.3049893+01:00",
-  "RecurrenceCounter": 747,
+  "RecurrenceId": 531,
+  "StartDate": "2009-05-02T11:44:32.6037053+02:00",
+  "EndDate": "2021-02-06T11:44:32.6037053+01:00",
+  "RecurrenceCounter": 530,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-11-20T12:19:44.3049893+01:00",
-      "IsConflict": false,
-      "Description": "Cross-group client-driven process improvement",
-      "DescriptionStyleHint": "Ergonomic leading edge ability",
-      "Tooltip": "enim"
+      "Date": "2016-02-29T11:44:32.6037053+01:00",
+      "IsConflict": true,
+      "Description": "Optimized 24 hour budgetary management",
+      "DescriptionStyleHint": "Devolved methodical database",
+      "Tooltip": "et"
     },
     {
-      "Date": "2001-11-20T12:19:44.3049893+01:00",
-      "IsConflict": false,
-      "Description": "Cross-group client-driven process improvement",
-      "DescriptionStyleHint": "Ergonomic leading edge ability",
-      "Tooltip": "enim"
+      "Date": "2016-02-29T11:44:32.6037053+01:00",
+      "IsConflict": true,
+      "Description": "Optimized 24 hour budgetary management",
+      "DescriptionStyleHint": "Devolved methodical database",
+      "Tooltip": "et"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

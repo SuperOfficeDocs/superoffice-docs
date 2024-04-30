@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 454
+  "PersonId": 799
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 725,
-  "BlobSize": 695,
-  "Description": "Automated actuating ability",
-  "ExtraInfo": "debitis",
-  "IsEncrypted": true,
+  "BlobId": 400,
+  "BlobSize": 934,
+  "Description": "Managed multi-state utilisation",
+  "ExtraInfo": "labore",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "magni",
-  "OriginalSize": 815,
-  "CreatedDate": "2007-07-26T12:19:44.539312+02:00",
-  "UpdatedDate": "2024-03-09T12:19:44.539312+01:00",
+  "MimeType": "rem",
+  "OriginalSize": 216,
+  "CreatedDate": "2020-10-13T11:44:32.8380188+02:00",
+  "UpdatedDate": "2007-12-31T11:44:32.8380188+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eligendi",
+  "ConceptualType": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

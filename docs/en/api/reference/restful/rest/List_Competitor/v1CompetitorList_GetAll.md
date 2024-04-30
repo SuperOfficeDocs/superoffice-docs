@@ -25,7 +25,7 @@ Gets all the Competitor items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Competitor/Items?includeDeleted=False
+GET /api/v1/List/Competitor/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Bauch-VonRueden",
-    "Tooltip": "labore",
+    "Id": 22,
+    "Name": "West, Denesik and Nienow",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "UdListDefinitionId": 239,
-    "Rank": 528,
+    "UdListDefinitionId": 749,
+    "Rank": 837,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 940
       }
     }
   }

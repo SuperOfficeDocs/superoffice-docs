@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 488
+  "ErpConnectionId": 888
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Altenwerth, Lind and Jerde",
+      "ErpListName": "McDermott Inc and Sons",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Pfeffer-Mitchell",
-      "ErpFieldId": 585,
+      "ErpActorTypeName": "Hirthe, Kozey and Brakus",
+      "ErpFieldId": 885,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 328
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     }
   ],
-  "ErpConnectionId": 606,
-  "ErpConnectionName": "Reinger Inc and Sons",
+  "ErpConnectionId": 68,
+  "ErpConnectionName": "Schaefer, Donnelly and Quigley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 845
     }
   }
 }

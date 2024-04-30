@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 489,
-  "CustomerCustomerReplyTemplateId": 281,
-  "CustomerPasswordTemplateId": 680,
-  "CustomerConfirmEmailTemplateId": 395,
-  "CustomerChatLogTemplateId": 765,
-  "NewLinkTemplateId": 460,
-  "HotlistNewMessageTemplateId": 853,
-  "HotlistTicketActivatedTemplateId": 432,
-  "UserTicketAlarmTemplateId": 444,
-  "HotlistTicketTakenOverTemplateId": 387,
-  "UserActiveTicketsTemplateId": 45,
-  "UserNewMessageTemplateId": 151,
-  "UserTicketActivatedTemplateId": 623,
-  "UserNewTicketTemplateId": 443,
-  "PublishKbQuestionTemplateId": 725,
-  "PublishKbAnswerTemplateId": 393,
-  "UserTicketTakenOverTemplateId": 1002,
-  "PrintTicketTemplateId": 265,
-  "WeekStatTemplateId": 555,
-  "TicketAlarmHotlistTemplateId": 488,
-  "EmailAddresses": "hank_kling@champlin.biz",
+  "CustomerNewCustomerTemplateId": 369,
+  "CustomerCustomerReplyTemplateId": 682,
+  "CustomerPasswordTemplateId": 886,
+  "CustomerConfirmEmailTemplateId": 749,
+  "CustomerChatLogTemplateId": 899,
+  "NewLinkTemplateId": 861,
+  "HotlistNewMessageTemplateId": 105,
+  "HotlistTicketActivatedTemplateId": 514,
+  "UserTicketAlarmTemplateId": 828,
+  "HotlistTicketTakenOverTemplateId": 956,
+  "UserActiveTicketsTemplateId": 754,
+  "UserNewMessageTemplateId": 610,
+  "UserTicketActivatedTemplateId": 717,
+  "UserNewTicketTemplateId": 497,
+  "PublishKbQuestionTemplateId": 870,
+  "PublishKbAnswerTemplateId": 746,
+  "UserTicketTakenOverTemplateId": 819,
+  "PrintTicketTemplateId": 431,
+  "WeekStatTemplateId": 836,
+  "TicketAlarmHotlistTemplateId": 244,
+  "EmailAddresses": "emmett_hermiston@corkery.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 971,
-  "ERPQuoteAlternativeKey": "ea",
-  "QuoteVersionId": 169,
-  "Name": "Rosenbaum Inc and Sons",
-  "Description": "Focused motivating time-frame",
+  "QuoteAlternativeId": 128,
+  "ERPQuoteAlternativeKey": "vitae",
+  "QuoteVersionId": 152,
+  "Name": "Weber-Green",
+  "Description": "Expanded content-based middleware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 25764.613999999998,
-  "ERPDiscountAmount": 18054.974,
-  "DiscountPercent": 11307.472,
-  "DiscountAmount": 7223.87,
+  "ERPDiscountPercent": 5227.512,
+  "ERPDiscountAmount": 11128.833999999999,
+  "DiscountPercent": 28735.646,
+  "DiscountAmount": 12698.967999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "rerum",
-  "VAT": 24025.244,
-  "EarningPercent": 15980.266,
-  "EarningAmount": 5384.2119999999995,
-  "SubTotal": 20559.04,
-  "TotalPrice": 14726.666,
-  "ExtraField1": "nobis",
-  "ExtraField2": "qui",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "similique",
-  "ExtraField5": "incidunt",
+  "VATInfo": "neque",
+  "VAT": 1755.04,
+  "EarningPercent": 13269.356,
+  "EarningAmount": 805.438,
+  "SubTotal": 30725.736,
+  "TotalPrice": 26805.102,
+  "ExtraField1": "quis",
+  "ExtraField2": "quis",
+  "ExtraField3": "tempora",
+  "ExtraField4": "qui",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 573
     }
   }
 }

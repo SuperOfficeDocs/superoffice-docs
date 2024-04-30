@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 337
+  "ProjectId": 951
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 210,
-  "Name": "Jones-Corkery",
-  "Description": "Enterprise-wide zero administration Graphical User Interface",
+  "ProjectId": 180,
+  "Name": "Kassulke Inc and Sons",
+  "Description": "Multi-lateral grid-enabled solution",
   "URL": "http://www.example.com/",
-  "Type": "ratione",
-  "AssociateId": 55,
-  "AssociateFullName": "Landen Toni Willms DVM",
-  "TypeId": 99,
-  "Updated": "2010-05-25T12:19:46.038959+02:00",
-  "StatusId": 276,
-  "Status": "sed",
-  "TextId": 227,
-  "PublishTo": "2009-10-29T12:19:46.038959+01:00",
-  "PublishFrom": "2002-11-25T12:19:46.038959+01:00",
-  "IsPublished": true,
+  "Type": "praesentium",
+  "AssociateId": 179,
+  "AssociateFullName": "Amelia Efrain Raynor DDS",
+  "TypeId": 215,
+  "Updated": "2009-12-09T11:44:34.2126949+01:00",
+  "StatusId": 572,
+  "Status": "totam",
+  "TextId": 208,
+  "PublishTo": "2022-08-15T11:44:34.2126949+02:00",
+  "PublishFrom": "2010-06-18T11:44:34.2126949+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "434138",
-  "ActiveErpLinks": 530,
+  "ProjectNumber": "886819",
+  "ActiveErpLinks": 96,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 90
     }
   }
 }

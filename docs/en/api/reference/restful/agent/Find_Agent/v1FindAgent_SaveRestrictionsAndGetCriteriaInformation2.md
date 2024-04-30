@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dicta",
-  "ProviderName": "Dibbert Group",
-  "StorageKey": "ipsa",
-  "Restrictions": "dolores",
-  "StaticColumns": "ex"
+  "StorageType": "officia",
+  "ProviderName": "Herzog Group",
+  "StorageKey": "a",
+  "Restrictions": "repudiandae",
+  "StaticColumns": "dolores"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ritchie-Ratke",
-      "Operator": "et",
+      "Name": "McDermott, Reinger and Hamill",
+      "Operator": "iusto",
       "Values": [
-        "tenetur",
-        "laboriosam"
+        "ut",
+        "suscipit"
       ],
       "DisplayValues": [
-        "eligendi",
-        "consequuntur"
+        "ducimus",
+        "eveniet"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 338,
+      "InterParenthesis": 996,
       "InterOperator": "And",
       "UniqueHash": 397
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Conroy-Legros",
-      "DisplayTooltip": "porro",
-      "DisplayType": "itaque",
+      "DisplayName": "Denesik, Rau and Schmeler",
+      "DisplayTooltip": "officia",
+      "DisplayType": "aut",
       "CanOrderBy": true,
-      "Name": "Fadel, Schinner and Huels",
-      "CanRestrictBy": true,
-      "RestrictionType": "officiis",
-      "RestrictionListName": "Kuphal Group",
-      "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "amet",
-      "IconHint": "officiis",
-      "HeadingIconHint": "ipsam"
+      "Name": "Kunze, Borer and Cronin",
+      "CanRestrictBy": false,
+      "RestrictionType": "doloremque",
+      "RestrictionListName": "Bogisich Group",
+      "IsVisible": true,
+      "ExtraInfo": "quas",
+      "Width": "eligendi",
+      "IconHint": "suscipit",
+      "HeadingIconHint": "ipsum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Steuber, Armstrong and Heller",
-      "PrimaryKey": 198,
+      "EntityName": "Fadel-Yost",
+      "PrimaryKey": 522,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "facilis",
-          "TooltipHint": "asperiores",
-          "LinkHint": "impedit"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "inventore",
+          "LinkHint": "expedita"
         }
       },
-      "LinkHint": "deleniti",
-      "StyleHint": "assumenda",
+      "LinkHint": "quaerat",
+      "StyleHint": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 728
+          "FieldLength": 718
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Brekke-Mante",
-      "Description": "Adaptive composite portal",
-      "Rank": 553,
+      "Name": "Nicolas, Rath and Cormier",
+      "Description": "Innovative demand-driven support",
+      "Rank": 931,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Brekke-Mante",
-      "Description": "Adaptive composite portal",
-      "Rank": 553,
+      "Name": "Nicolas, Rath and Cormier",
+      "Description": "Innovative demand-driven support",
+      "Rank": 931,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 728
     }
   }
 }

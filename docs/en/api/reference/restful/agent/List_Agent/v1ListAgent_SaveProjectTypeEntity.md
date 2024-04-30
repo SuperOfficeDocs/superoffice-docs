@@ -85,35 +85,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 330,
-  "Name": "Cremin, O'Conner and Graham",
-  "Tooltip": "fugiat",
-  "Rank": 434,
+  "ProjTypeId": 356,
+  "Name": "Abbott Group",
+  "Tooltip": "qui",
+  "Rank": 578,
   "DurationUnit": "Century",
-  "ProjectDuration": 240,
-  "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 368,
+  "Deleted": true,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 893,
-      "Name": "Marquardt Inc and Sons",
-      "ToolTip": "Ipsum aut officiis temporibus rem enim quia est.",
+      "Id": 132,
+      "Name": "Kling Inc and Sons",
+      "ToolTip": "Adipisci officia eius tempora.",
       "Deleted": false,
-      "Rank": 523,
-      "Type": "quis",
-      "ColorBlock": 777,
-      "IconHint": "ipsam",
-      "Selected": true,
-      "LastChanged": "2023-10-12T12:19:45.5547007+02:00",
+      "Rank": 563,
+      "Type": "quia",
+      "ColorBlock": 175,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2002-08-06T11:44:33.9002761+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "unde",
+      "StyleHint": "maiores",
       "Hidden": false,
-      "FullName": "Kaci McKenzie"
+      "FullName": "Floy Dare II"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 278,
-  "Name": "Hilll-Schinner",
-  "Tooltip": "vel",
-  "Rank": 923,
+  "ProjTypeId": 977,
+  "Name": "Koelpin-Kunze",
+  "Tooltip": "sit",
+  "Rank": 626,
   "DurationUnit": "Century",
-  "ProjectDuration": 391,
-  "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 519,
+  "Deleted": true,
+  "HasGuide": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 731,
-      "Name": "Lowe Inc and Sons",
-      "ToolTip": "Reiciendis minus assumenda eveniet.",
+      "Id": 40,
+      "Name": "Oberbrunner, Greenholt and Klein",
+      "ToolTip": "Suscipit assumenda et consequuntur tenetur.",
       "Deleted": false,
-      "Rank": 516,
-      "Type": "velit",
-      "ColorBlock": 468,
-      "IconHint": "ullam",
-      "Selected": false,
-      "LastChanged": "1999-03-08T12:19:45.5547007+01:00",
+      "Rank": 333,
+      "Type": "qui",
+      "ColorBlock": 836,
+      "IconHint": "facilis",
+      "Selected": true,
+      "LastChanged": "2021-04-04T11:44:33.9002761+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "praesentium",
-      "StyleHint": "sequi",
-      "Hidden": false,
-      "FullName": "Mr. Kolby Mack Wiegand",
+      "ExtraInfo": "doloremque",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Otha Smitham",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 75
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldType": "System.Int32",
+      "FieldLength": 188
     }
   }
 }

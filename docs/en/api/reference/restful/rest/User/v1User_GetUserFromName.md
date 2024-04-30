@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 81,
-  "Name": "Lockman Inc and Sons",
-  "Rank": 191,
-  "Tooltip": "ab",
+  "AssociateId": 929,
+  "Name": "Gulgowski Inc and Sons",
+  "Rank": 897,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Boyle-Kulas",
-      "Description": "Advanced multimedia strategy",
+      "Name": "Hilll Group",
+      "Description": "Expanded value-added frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     },
     {
-      "Name": "Boyle-Kulas",
-      "Description": "Advanced multimedia strategy",
+      "Name": "Hilll Group",
+      "Description": "Expanded value-added frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "harum",
-      "Tooltip": "laboriosam",
-      "Id": 941,
-      "Rank": 311,
+      "Value": "unde",
+      "Tooltip": "culpa",
+      "Id": 708,
+      "Rank": 376,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 436
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-03-14T12:19:54.2272268+01:00",
-  "Lastlogout": "2005-04-21T12:19:54.2272268+02:00",
-  "EjUserId": 249,
-  "RequestSignature": "consequatur",
+  "Lastlogin": "2013-05-26T11:44:42.8357055+02:00",
+  "Lastlogout": "2022-09-05T11:44:42.8357055+02:00",
+  "EjUserId": 894,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "magni",
-      "DisplayValue": "placeat",
+      "Value": "tenetur",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 122
         }
       }
     },
     {
       "Type": null,
-      "Value": "magni",
-      "DisplayValue": "placeat",
+      "Value": "tenetur",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 122
         }
       }
     }
   ],
-  "UserName": "Gottlieb Group",
+  "UserName": "Braun LLC",
   "TicketCategories": [
     {
-      "Id": 755,
-      "Name": "Leuschke LLC",
-      "ToolTip": "Eos voluptatem dolor eos minima ut.",
-      "Deleted": false,
-      "Rank": 85,
-      "Type": "quis",
+      "Id": 771,
+      "Name": "Langosh, O'Connell and Borer",
+      "ToolTip": "Labore similique accusamus ut et.",
+      "Deleted": true,
+      "Rank": 937,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "deserunt",
-      "ColorBlock": 381,
-      "ExtraInfo": "non",
-      "StyleHint": "id",
-      "FullName": "Dr. Angus Jacobs",
+      "IconHint": "at",
+      "ColorBlock": 324,
+      "ExtraInfo": "et",
+      "StyleHint": "maiores",
+      "FullName": "Leopold Ruecker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
-  "NickName": "Kub-Bernhard",
+  "NickName": "Purdy-Vandervort",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "ipsam"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "eveniet"
   },
   "PostSaveCommands": [
     {
-      "Name": "Dare Inc and Sons",
-      "DisplayName": "Walker, Kerluke and Sanford",
-      "Description": "Grass-roots intangible middleware",
-      "ToolTip": "Assumenda atque ipsam.",
+      "Name": "Hackett LLC",
+      "DisplayName": "Goyette Inc and Sons",
+      "Description": "Business-focused mission-critical system engine",
+      "ToolTip": "Ea delectus cupiditate laboriosam hic quasi autem in.",
       "Actions": "Implicit",
-      "ActionData": "vero",
+      "ActionData": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldType": "System.Int32",
+          "FieldLength": 881
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldLength": 564
     }
   }
 }

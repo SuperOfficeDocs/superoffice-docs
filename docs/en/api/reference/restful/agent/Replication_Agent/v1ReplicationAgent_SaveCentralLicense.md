@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Kessler Inc and Sons",
-      "Description": "Public-key empowering function",
+      "Name": "Wisozk Inc and Sons",
+      "Description": "Enterprise-wide homogeneous collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Kessler Inc and Sons",
-      "Description": "Public-key empowering function",
+      "Name": "Wisozk Inc and Sons",
+      "Description": "Enterprise-wide homogeneous collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Franecki Group",
-    "Description": "Face to face clear-thinking matrices",
+    "Name": "Yost, Kerluke and Heaney",
+    "Description": "Universal disintermediate architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 128,
-        "Tooltip": "ratione",
+        "Total": 405,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 676,
-        "InUse": 291,
+        "Free": 712,
+        "InUse": 459,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 135,
-        "Name": "Fadel Group",
-        "Description": "Right-sized upward-trending analyzer",
-        "PrerequisiteModuleName": "Graham, Hermiston and Mayert",
-        "SortOrder": 489,
-        "ExtraFlags": 375,
+        "Assigned": true,
+        "ModuleLicenseId": 238,
+        "Name": "Considine LLC",
+        "Description": "Progressive object-oriented projection",
+        "PrerequisiteModuleName": "Ondricka LLC",
+        "SortOrder": 408,
+        "ExtraFlags": 76,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldType": "System.String",
+            "FieldLength": 566
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 873,
-        "Tooltip": "odio",
-        "CanAssign": true,
-        "Free": 352,
-        "InUse": 772,
+        "Total": 622,
+        "Tooltip": "ut",
+        "CanAssign": false,
+        "Free": 67,
+        "InUse": 433,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 360,
-        "Name": "Abshire-Herzog",
-        "Description": "Function-based incremental middleware",
-        "PrerequisiteModuleName": "Mayer Group",
-        "SortOrder": 427,
-        "ExtraFlags": 877,
+        "ModuleLicenseId": 240,
+        "Name": "Harber-Rohan",
+        "Description": "Profound dynamic complexity",
+        "PrerequisiteModuleName": "Donnelly-Mann",
+        "SortOrder": 657,
+        "ExtraFlags": 830,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 151
           }
         }
       }
@@ -178,35 +178,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 286
       }
     }
   },
   {
-    "Name": "Franecki Group",
-    "Description": "Face to face clear-thinking matrices",
+    "Name": "Yost, Kerluke and Heaney",
+    "Description": "Universal disintermediate architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 128,
-        "Tooltip": "ratione",
+        "Total": 405,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 676,
-        "InUse": 291,
+        "Free": 712,
+        "InUse": 459,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 135,
-        "Name": "Fadel Group",
-        "Description": "Right-sized upward-trending analyzer",
-        "PrerequisiteModuleName": "Graham, Hermiston and Mayert",
-        "SortOrder": 489,
-        "ExtraFlags": 375,
+        "Assigned": true,
+        "ModuleLicenseId": 238,
+        "Name": "Considine LLC",
+        "Description": "Progressive object-oriented projection",
+        "PrerequisiteModuleName": "Ondricka LLC",
+        "SortOrder": 408,
+        "ExtraFlags": 76,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldType": "System.String",
+            "FieldLength": 566
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 873,
-        "Tooltip": "odio",
-        "CanAssign": true,
-        "Free": 352,
-        "InUse": 772,
+        "Total": 622,
+        "Tooltip": "ut",
+        "CanAssign": false,
+        "Free": 67,
+        "InUse": 433,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 360,
-        "Name": "Abshire-Herzog",
-        "Description": "Function-based incremental middleware",
-        "PrerequisiteModuleName": "Mayer Group",
-        "SortOrder": 427,
-        "ExtraFlags": 877,
+        "ModuleLicenseId": 240,
+        "Name": "Harber-Rohan",
+        "Description": "Profound dynamic complexity",
+        "PrerequisiteModuleName": "Donnelly-Mann",
+        "SortOrder": 657,
+        "ExtraFlags": 830,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 151
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 286
       }
     }
   }

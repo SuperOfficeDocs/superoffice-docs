@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "maxime",
-    "magnam"
+    "ipsam",
+    "quae"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 534,
-  "ERPQuoteLineKey": "autem",
-  "QuoteAlternativeId": 88,
-  "ERPProductKey": "inventore",
+  "QuoteLineId": 856,
+  "ERPQuoteLineKey": "dolorem",
+  "QuoteAlternativeId": 301,
+  "ERPProductKey": "quia",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23696.174,
-  "DeliveredQuantity": 8725.056,
-  "Rank": 167,
-  "Name": "Abernathy Inc and Sons",
-  "Description": "Progressive system-worthy website",
-  "Code": "accusantium",
-  "QuantityUnit": "dolor",
-  "PriceUnit": "ut",
-  "ItemNumber": "980315",
+  "Quantity": 2648.23,
+  "DeliveredQuantity": 5653.736,
+  "Rank": 584,
+  "Name": "Cassin LLC",
+  "Description": "Networked maximized analyzer",
+  "Code": "quaerat",
+  "QuantityUnit": "aspernatur",
+  "PriceUnit": "laborum",
+  "ItemNumber": "806199",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "impedit",
-  "ProductTypeKey": "dolores",
-  "Supplier": "rem",
-  "SupplierCode": "numquam",
-  "Thumbnail": "laudantium",
-  "VATInfo": "quibusdam",
-  "VAT": 28014.825999999997,
-  "UnitCost": 25886.84,
-  "UnitMinimumPrice": 21621.466,
-  "UnitListPrice": 24977.98,
+  "ProductFamilyKey": "libero",
+  "ProductTypeKey": "iste",
+  "Supplier": "commodi",
+  "SupplierCode": "voluptas",
+  "Thumbnail": "corporis",
+  "VATInfo": "cumque",
+  "VAT": 26585.721999999998,
+  "UnitCost": 14178.216,
+  "UnitMinimumPrice": 25325.854,
+  "UnitListPrice": 3.134,
   "ExtraInfo": [
     {
-      "Name": "Feeney-King",
-      "Value": "recusandae",
+      "Name": "Bins, DuBuque and Kunde",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldType": "System.String",
+          "FieldLength": 342
         }
       }
     },
     {
-      "Name": "Feeney-King",
-      "Value": "recusandae",
+      "Name": "Bins, DuBuque and Kunde",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldType": "System.String",
+          "FieldLength": 342
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "recusandae",
-  "SubscriptionQuantity": 11555.057999999999,
-  "SubscriptionStart": "2000-08-21T12:19:46.054573+02:00",
-  "ERPDiscountPercent": 21521.178,
-  "ERPDiscountAmount": 24175.676,
-  "DiscountPercent": 3425.462,
-  "DiscountAmount": 27193.718,
+  "RawExtraInfo": "consectetur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "omnis",
+  "SubscriptionQuantity": 26686.01,
+  "SubscriptionStart": "2001-02-02T11:44:34.2283182+01:00",
+  "ERPDiscountPercent": 23436.052,
+  "ERPDiscountAmount": 11357.616,
+  "DiscountPercent": 11348.214,
+  "DiscountAmount": 7267.746,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 6578.266,
-  "EarningAmount": 4384.4659999999994,
-  "SubTotal": 13247.418,
-  "TotalPrice": 23771.39,
-  "Rights": "atque",
-  "Rule": "eos",
-  "ExtraField1": "temporibus",
-  "ExtraField2": "omnis",
-  "ExtraField3": "earum",
-  "ExtraField4": "quae",
-  "ExtraField5": "exercitationem",
+  "EarningPercent": 28318.824,
+  "EarningAmount": 28111.98,
+  "SubTotal": 17356.092,
+  "TotalPrice": 11335.678,
+  "Rights": "molestias",
+  "Rule": "est",
+  "ExtraField1": "libero",
+  "ExtraField2": "ullam",
+  "ExtraField3": "ducimus",
+  "ExtraField4": "dolor",
+  "ExtraField5": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 304
     }
   }
 }

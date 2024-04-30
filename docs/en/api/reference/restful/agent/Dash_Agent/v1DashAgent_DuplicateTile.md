@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 79,
-  "Name": "Littel Group"
+  "DashTileId": 663,
+  "Name": "Beatty-Wolff"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 526,
-  "DashboardId": 545,
-  "Height": 900,
-  "Width": 866,
-  "Rank": 754,
+  "DashboardTileId": 883,
+  "DashboardId": 849,
+  "Height": 723,
+  "Width": 330,
+  "Rank": 198,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

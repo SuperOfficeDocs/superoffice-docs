@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 564,
-  "Caption": "eos",
-  "Description": "Extended bandwidth-monitored archive",
-  "ChartName": "Schmeler-Wilderman",
-  "ChartId": "nobis",
-  "IsDefault": true,
-  "AssociateId": 860,
-  "GroupId": 535,
-  "SelectionId": 297,
-  "Config": "officia",
+  "DashboardTileId": 866,
+  "Caption": "modi",
+  "Description": "Programmable 6th generation structure",
+  "ChartName": "Grimes LLC",
+  "ChartId": "esse",
+  "IsDefault": false,
+  "AssociateId": 181,
+  "GroupId": 202,
+  "SelectionId": 77,
+  "Config": "molestiae",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Effertz, Johns and Powlowski",
-      "Description": "Realigned attitude-oriented open architecture",
+      "Name": "McKenzie Group",
+      "Description": "Fully-configurable analyzing installation",
       "Type": "Boolean",
-      "ListName": "Hintz-Hoppe",
+      "ListName": "Feeney, Pouros and Hodkiewicz",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quas",
-      "DefaultDataOption": true,
+      "Value": "quod",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 47
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 85,
+      "VisibleId": 825,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 216
+          "FieldType": "System.Int32",
+          "FieldLength": 768
         }
       }
     },
     {
-      "VisibleId": 85,
+      "VisibleId": 825,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 216
+          "FieldType": "System.Int32",
+          "FieldLength": 768
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 886
     }
   }
 }

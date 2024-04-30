@@ -51,6 +51,10 @@ The TicketTypeEntity to be saved.
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | Boolean | Is this Ticket Type marked as default |
+| ShowInNew | Boolean | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | Boolean | Do not insert user signature automatically |
+| ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 
 ## Response:
 
@@ -76,6 +80,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -89,24 +97,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 483,
-  "Name": "Satterfield, Zieme and Schoen",
-  "Rank": 112,
-  "Tooltip": "vel",
-  "Icon": "non",
-  "DefaultTicketStatus": 19,
+  "TicketTypeId": 46,
+  "Name": "Deckow-Okuneva",
+  "Rank": 975,
+  "Tooltip": "natus",
+  "Icon": "commodi",
+  "DefaultTicketStatus": 918,
   "TicketStatuses": [
-    111,
-    110
+    626,
+    99
   ],
-  "DefaultTicketPriority": 562,
+  "DefaultTicketPriority": 387,
   "TicketPriorities": [
-    785,
-    401
+    137,
+    389
   ],
-  "ReplyTemplate": 379,
-  "IsExternalVisible": false,
-  "IsDefault": false
+  "ReplyTemplate": 510,
+  "IsExternalVisible": true,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true
 }
 ```
 
@@ -117,30 +129,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 786,
-  "Name": "Turner Group",
-  "Rank": 481,
-  "Tooltip": "corrupti",
-  "Icon": "asperiores",
-  "DefaultTicketStatus": 480,
+  "TicketTypeId": 721,
+  "Name": "Fahey, Monahan and Dooley",
+  "Rank": 123,
+  "Tooltip": "et",
+  "Icon": "quod",
+  "DefaultTicketStatus": 683,
   "TicketStatuses": [
-    434,
-    462
+    900,
+    575
   ],
-  "DefaultTicketPriority": 912,
+  "DefaultTicketPriority": 810,
   "TicketPriorities": [
-    793,
-    866
+    651,
+    905
   ],
-  "ReplyTemplate": 303,
+  "ReplyTemplate": 848,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

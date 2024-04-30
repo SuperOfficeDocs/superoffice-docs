@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 803,
-  "WorkflowStepId": 520,
-  "WorkflowId": 634,
-  "Rank": 821,
+  "WorkflowWaitForActionId": 279,
+  "WorkflowStepId": 713,
+  "WorkflowId": 393,
+  "Rank": 493,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Gleichner Group",
-      "Description": "Compatible responsive infrastructure",
-      "Rank": 161,
+      "Name": "Bode Inc and Sons",
+      "Description": "Optimized exuding architecture",
+      "Rank": 294,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gleichner Group",
-      "Description": "Compatible responsive infrastructure",
-      "Rank": 161,
+      "Name": "Bode Inc and Sons",
+      "Description": "Optimized exuding architecture",
+      "Rank": 294,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 901,
-  "WorkflowStepId": 228,
-  "WorkflowId": 556,
-  "Rank": 153,
+  "WorkflowWaitForActionId": 861,
+  "WorkflowStepId": 617,
+  "WorkflowId": 340,
+  "Rank": 722,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Sawayn Group",
-      "Description": "Customizable national Graphic Interface",
-      "Rank": 481,
+      "Name": "Schinner-Russel",
+      "Description": "Reactive maximized standardization",
+      "Rank": 304,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Sawayn Group",
-      "Description": "Customizable national Graphic Interface",
-      "Rank": 481,
+      "Name": "Schinner-Russel",
+      "Description": "Reactive maximized standardization",
+      "Rank": 304,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 865
     }
   }
 }

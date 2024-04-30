@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 934,
-    "Name": "McKenzie, West and O'Reilly",
-    "Tooltip": "aut",
-    "TableName": "Kris, Purdy and Turner",
-    "Area": "est",
+    "TaskMenuId": 131,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "autem",
+    "TableName": "Becker-Beer",
+    "Area": "magni",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 508,
+    "CrmScriptId": 552,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 54,
+    "Rank": 714,
     "Encoding": "ANSI",
-    "ProgId": "eos",
-    "Deleted": false,
+    "ProgId": "ipsa",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

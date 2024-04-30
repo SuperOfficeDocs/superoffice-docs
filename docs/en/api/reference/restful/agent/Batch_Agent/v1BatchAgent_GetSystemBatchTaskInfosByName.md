@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Boyle Inc and Sons"
+  "TaskName": "Crooks Inc and Sons"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Jewess, Monahan and Lebsack",
-    "AssociateId": 476,
-    "DetailsTable": 115,
-    "DetailsRecord": 551,
+    "Id": 319,
+    "Name": "McLaughlin LLC",
+    "AssociateId": 75,
+    "DetailsTable": 958,
+    "DetailsRecord": 754,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "laudantium",
-      "ParameterObject2": "quidem"
+      "ParameterObject1": "voluptatem",
+      "ParameterObject2": "deserunt"
     },
-    "LastStarted": "2002-12-01T12:19:44.5238763+01:00",
-    "Created": "2005-07-22T12:19:44.5238763+02:00",
-    "StartCount": 150,
-    "DatabaseSerialNumber": "1332049",
-    "Context": "fugit",
-    "Result": "tempora",
+    "LastStarted": "2002-09-05T11:44:32.822391+02:00",
+    "Created": "2008-04-16T11:44:32.822391+02:00",
+    "StartCount": 457,
+    "DatabaseSerialNumber": "1621079",
+    "Context": "asperiores",
+    "Result": "alias",
     "State": "All",
-    "Description": "Assimilated non-volatile methodology",
-    "Response": "quis",
-    "Request": "accusantium",
-    "ProgressDescription": "Diverse asynchronous moratorium",
-    "ProgressPercent": 536,
-    "FileName": "Heaney, Lind and Schneider",
+    "Description": "Digitized encompassing moratorium",
+    "Response": "unde",
+    "Request": "ducimus",
+    "ProgressDescription": "Realigned real-time function",
+    "ProgressPercent": 92,
+    "FileName": "Satterfield Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldType": "System.String",
+        "FieldLength": 928
       }
     }
   }

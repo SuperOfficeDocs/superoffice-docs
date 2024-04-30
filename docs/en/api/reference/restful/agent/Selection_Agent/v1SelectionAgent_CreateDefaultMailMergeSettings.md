@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 618,
-  "DocumentId": 928,
+  "SelectionId": 250,
+  "DocumentId": 165,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "quis",
+  "CustomAttention": "nihil",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "officiis",
+  "CustomMailBody": "atque",
   "TaskEntity": null,
-  "AddCompanyInterest": 246,
-  "AddPersonInterest": 719,
-  "RemoveCompanyInterest": 987,
-  "RemovePersonInterest": 956,
-  "IncludeNoMailingsRecipient": true,
-  "TestOnly": true,
-  "ProjectId": 801,
-  "IncludeRetiredRecipients": false,
+  "AddCompanyInterest": 636,
+  "AddPersonInterest": 688,
+  "RemoveCompanyInterest": 682,
+  "RemovePersonInterest": 457,
+  "IncludeNoMailingsRecipient": false,
+  "TestOnly": false,
+  "ProjectId": 375,
+  "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "aut",
-  "ExtraInfo": "possimus",
-  "Synchronous": true,
+  "CustomMailSubject": "molestiae",
+  "ExtraInfo": "atque",
+  "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 435
     }
   }
 }

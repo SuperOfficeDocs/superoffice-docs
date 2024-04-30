@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 840,
-  "Name": "Roob-Mraz",
-  "Tooltip": "ut",
+  "ExtAppId": 521,
+  "Name": "Cartwright Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 591,
-  "Filename": "officiis",
-  "Parameters": "autem",
-  "Workdir": "consectetur",
+  "Rank": 271,
+  "Filename": "quia",
+  "Parameters": "sit",
+  "Workdir": "iure",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 307,
+  "ShowInStatusBar": true,
+  "Icon": 491,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptatibus",
+  "Path": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 716
     }
   }
 }

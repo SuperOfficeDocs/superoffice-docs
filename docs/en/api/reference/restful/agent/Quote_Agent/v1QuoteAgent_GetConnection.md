@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 316
+  "QuoteConnectionId": 549
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 190,
-  "ERPName": "Ritchie, Grady and Thiel",
-  "DisplayName": "Klein-Mills",
-  "DisplayDescription": "Mandatory holistic archive",
-  "Rank": 74,
-  "ConnectorName": "Watsica, Hahn and Crist",
-  "ErpConnectionId": 203,
-  "ExtraData": "aspernatur",
+  "QuoteConnectionId": 157,
+  "ERPName": "Schoen, Bergnaum and Ankunding",
+  "DisplayName": "Rogahn-Berge",
+  "DisplayDescription": "Profound eco-centric circuit",
+  "Rank": 356,
+  "ConnectorName": "Rice LLC",
+  "ErpConnectionId": 464,
+  "ExtraData": "deserunt",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 478,
-      "ERPPriceListKey": "alias",
-      "QuoteConnectionId": 210,
-      "Name": "Champlin, Orn and Heaney",
-      "Description": "De-engineered 3rd generation ability",
-      "Currency": "necessitatibus",
-      "CurrencyName": "Hodkiewicz Group",
-      "ValidFrom": "2020-02-19T12:19:46.1014395+01:00",
-      "ValidTo": "2021-02-02T12:19:46.1014395+01:00",
-      "IsActive": true,
+      "PriceListId": 669,
+      "ERPPriceListKey": "ut",
+      "QuoteConnectionId": 965,
+      "Name": "Koch, Batz and Huel",
+      "Description": "Seamless full-range challenge",
+      "Currency": "ab",
+      "CurrencyName": "Johnston-Stamm",
+      "ValidFrom": "2013-08-04T11:44:34.2907996+02:00",
+      "ValidTo": "2014-06-17T11:44:34.2907996+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 677
+          "FieldType": "System.Int32",
+          "FieldLength": 90
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    746,
-    613
+    441,
+    258
   ],
   "AssociateAccessIds": [
-    914,
-    891
+    616,
+    901
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

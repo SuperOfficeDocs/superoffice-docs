@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Beatty Inc and Sons"
+  "EntityName": "Bechtelar Inc and Sons"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 315,
-  "Name": "Walter, Goyette and Stamm",
-  "Description": "Cross-group mission-critical archive",
-  "DefaultHeight": 610,
-  "DefaultWidth": 459,
+  "DashboardTileDefinitionId": 92,
+  "Name": "Goodwin-Okuneva",
+  "Description": "Devolved systematic benchmark",
+  "DefaultHeight": 983,
+  "DefaultWidth": 106,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kutch Group",
-  "SelectionId": 576,
+  "EntityName": "Romaguera Inc and Sons",
+  "SelectionId": 490,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sequi",
+  "CurrencyCode": "eum",
   "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "nobis",
-  "LayoutConfig": "nam",
-  "SecondarySelectionId": 556,
-  "MeasureByField": "repellendus",
+  "MeasureField": "illo",
+  "SortBy": "delectus",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 999,
+  "MeasureByField": "quia",
   "Usage": "Dashboard",
-  "ProviderName": "DuBuque, Hills and Ruecker",
+  "ProviderName": "Shanahan-Sporer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 910
     }
   }
 }

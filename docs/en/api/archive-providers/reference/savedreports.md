@@ -704,7 +704,7 @@ documents that represent saved reports are shown</description></item></list>
 ## Sample
 
 ```http!
-GET /api/v1/archive/SavedReports?$select=person/correspondingAssociate/contactDepartment,contact/contactUdef/SuperOffice:7,associate/credentialType
+GET /api/v1/archive/SavedReports?$select=projectId,person/personAssociate/firstName,person/correspondingAssociate/firstName,person/correspondingAssociate/contactDepartment,project/projectAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

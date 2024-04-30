@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hansen Inc and Sons",
-  "DeviceName": "Morissette Inc and Sons",
-  "DeviceIdentifier": "commodi"
+  "ApplicationName": "Wintheiser-Reynolds",
+  "DeviceName": "Lueilwitz Inc and Sons",
+  "DeviceIdentifier": "officia"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 546,
-  "Name": "Powlowski Group",
-  "CreatedDate": "2013-01-22T12:19:45.4141069+01:00",
-  "UpdatedDate": "2023-03-17T12:19:45.4141069+01:00",
-  "AssociateFullName": "Josefina Mitchell",
-  "CreatedBy": "distinctio",
-  "UpdatedBy": "doloremque",
-  "DeviceIdentifier": "quisquam",
-  "ForeignAppId": 241,
+  "ForeignDeviceId": 784,
+  "Name": "Hoeger Inc and Sons",
+  "CreatedDate": "2011-10-03T11:44:33.7596833+02:00",
+  "UpdatedDate": "2018-10-09T11:44:33.7596833+02:00",
+  "AssociateFullName": "Mr. Marion Murray DVM",
+  "CreatedBy": "et",
+  "UpdatedBy": "iure",
+  "DeviceIdentifier": "illo",
+  "ForeignAppId": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 919
     }
   }
 }

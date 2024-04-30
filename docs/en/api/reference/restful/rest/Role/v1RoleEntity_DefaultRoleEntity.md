@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 69,
-  "Name": "Mann Group",
-  "Tooltip": "aliquid",
+  "RoleId": 699,
+  "Name": "Okuneva LLC",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 602,
-  "Rank": 156,
-  "Created": "2004-07-22T12:19:53.7898269+02:00",
-  "UseCategories": 863,
+  "Deleted": 522,
+  "Rank": 923,
+  "Created": "2001-09-19T11:44:42.2107985+02:00",
+  "UseCategories": 55,
   "CreatedBy": null,
-  "Updated": "2002-10-20T12:19:53.7898269+02:00",
+  "Updated": "2002-01-14T11:44:42.2107985+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 526
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 229
+  "AssociateId": 35
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 338,
-    "ERPName": "Effertz Group",
-    "DisplayName": "Rice, Kunze and Corkery",
-    "DisplayDescription": "Implemented system-worthy product",
-    "Rank": 745,
-    "ConnectorName": "Gutkowski, Bauch and Kris",
-    "ErpConnectionId": 728,
-    "ExtraData": "rerum",
+    "QuoteConnectionId": 104,
+    "ERPName": "Lang LLC",
+    "DisplayName": "Stracke-Berge",
+    "DisplayDescription": "Centralized systemic system engine",
+    "Rank": 424,
+    "ConnectorName": "Dare, Leuschke and Legros",
+    "ErpConnectionId": 661,
+    "ExtraData": "molestiae",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 515,
-        "ERPPriceListKey": "quod",
-        "QuoteConnectionId": 1001,
-        "Name": "Yundt-Grimes",
-        "Description": "Optional solution-oriented orchestration",
-        "Currency": "quis",
-        "CurrencyName": "Jones Inc and Sons",
-        "ValidFrom": "2008-09-01T12:19:46.1014395+02:00",
-        "ValidTo": "2022-07-07T12:19:46.1014395+02:00",
+        "PriceListId": 409,
+        "ERPPriceListKey": "architecto",
+        "QuoteConnectionId": 718,
+        "Name": "DuBuque, Bauch and Kessler",
+        "Description": "Mandatory foreground system engine",
+        "Currency": "voluptatem",
+        "CurrencyName": "Roob Group",
+        "ValidFrom": "2018-07-14T11:44:34.2907996+02:00",
+        "ValidTo": "2003-03-19T11:44:34.2907996+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 875
+            "FieldType": "System.Int32",
+            "FieldLength": 488
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      221,
-      75
+      105,
+      368
     ],
     "AssociateAccessIds": [
-      781,
-      933
+      630,
+      885
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 549
       }
     }
   }

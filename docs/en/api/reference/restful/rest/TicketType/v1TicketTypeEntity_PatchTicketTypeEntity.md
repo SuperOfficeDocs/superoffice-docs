@@ -109,6 +109,10 @@ TicketTypeEntity  updated.
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -125,12 +129,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aliquid",
+    "path": "officiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquid",
+    "path": "officiis",
     "value": {}
   }
 ]
@@ -143,30 +147,34 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 845,
-  "Name": "Ratke Group",
-  "Rank": 736,
-  "Tooltip": "doloremque",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 583,
+  "TicketTypeId": 903,
+  "Name": "Cronin-Waters",
+  "Rank": 310,
+  "Tooltip": "qui",
+  "Icon": "in",
+  "DefaultTicketStatus": 638,
   "TicketStatuses": [
-    615,
-    362
+    676,
+    983
   ],
-  "DefaultTicketPriority": 860,
+  "DefaultTicketPriority": 107,
   "TicketPriorities": [
-    361,
-    241
+    99,
+    118
   ],
-  "ReplyTemplate": 12,
+  "ReplyTemplate": 415,
   "IsExternalVisible": false,
   "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 396
     }
   },
   "_Links": {

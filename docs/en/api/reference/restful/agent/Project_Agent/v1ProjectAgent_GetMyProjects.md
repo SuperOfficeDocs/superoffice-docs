@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 841,
-    "Name": "Leuschke, Kemmer and Kling",
-    "Description": "Cloned bifurcated process improvement",
+    "ProjectId": 620,
+    "Name": "Howe, Hamill and Cummings",
+    "Description": "Distributed homogeneous open architecture",
     "URL": "http://www.example.com/",
-    "Type": "cupiditate",
-    "AssociateId": 949,
-    "AssociateFullName": "Kareem Wolff",
-    "TypeId": 897,
-    "Updated": "2010-10-19T12:19:46.0233436+02:00",
-    "StatusId": 213,
-    "Status": "ex",
-    "TextId": 707,
-    "PublishTo": "2003-03-01T12:19:46.0233436+01:00",
-    "PublishFrom": "1997-08-27T12:19:46.0233436+02:00",
-    "IsPublished": false,
+    "Type": "ab",
+    "AssociateId": 578,
+    "AssociateFullName": "Orlo Charley Beier DVM",
+    "TypeId": 697,
+    "Updated": "2021-02-13T11:44:34.2126949+01:00",
+    "StatusId": 407,
+    "Status": "a",
+    "TextId": 257,
+    "PublishTo": "2020-06-05T11:44:34.2126949+02:00",
+    "PublishFrom": "2003-06-25T11:44:34.2126949+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "830641",
-    "ActiveErpLinks": 681,
+    "ProjectNumber": "588302",
+    "ActiveErpLinks": 533,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldType": "System.String",
+        "FieldLength": 464
       }
     }
   }

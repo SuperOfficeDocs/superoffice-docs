@@ -739,7 +739,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/personInterestIds,contact/orgnr,associate/ejUserId,sale/who
+GET /api/v1/archive/Activity?$select=name,person/correspondingAssociate/simultaneousEjUser,contact/hasInterests,contact/streetAddress/county,project/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

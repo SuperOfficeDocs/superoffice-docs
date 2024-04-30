@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "Schmitt-Cole",
-    "ToolTip": "Expedita labore et voluptatem nihil id maiores.",
-    "Deleted": true,
-    "Rank": 19,
+    "Id": 738,
+    "Name": "Lowe Inc and Sons",
+    "ToolTip": "Aperiam velit doloribus eum sapiente ea.",
+    "Deleted": false,
+    "Rank": 645,
     "Type": "ut",
-    "ColorBlock": 452,
-    "IconHint": "ut",
+    "ColorBlock": 671,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2016-09-07T12:19:54.4302944+02:00",
+    "LastChanged": "2020-12-24T11:44:43.054404+01:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Little Group",
-        "ToolTip": "Illum aut.",
-        "Deleted": true,
-        "Rank": 206,
-        "Type": "dolor",
-        "ColorBlock": 668,
-        "IconHint": "illo",
+        "Id": 740,
+        "Name": "Koss LLC",
+        "ToolTip": "Hic praesentium et ipsam velit asperiores qui officia.",
+        "Deleted": false,
+        "Rank": 772,
+        "Type": "harum",
+        "ColorBlock": 124,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2011-05-15T12:19:54.4302944+02:00",
+        "LastChanged": "1998-12-02T11:44:43.054404+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ipsum",
-        "Hidden": true,
-        "FullName": "Cristobal Kulas",
+        "ExtraInfo": "non",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Dudley Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldType": "System.String",
+            "FieldLength": 59
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Robb Rippin",
+    "FullName": "Destany Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 790
       }
     }
   }

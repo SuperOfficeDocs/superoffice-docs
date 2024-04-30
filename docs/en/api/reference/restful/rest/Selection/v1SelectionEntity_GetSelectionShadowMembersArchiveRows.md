@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "earum",
+  "odata.nextLink": "possimus",
   "value": [
     {
-      "PrimaryKey": 2620,
+      "PrimaryKey": 4320,
       "EntityName": "sale",
-      "saleId": 2620,
-      "contactId": 5548,
-      "name": "Kutch-Larson"
+      "saleId": 4320,
+      "contactId": 5522,
+      "name": "Hilll-Gibson"
     },
     {
-      "PrimaryKey": 5026,
+      "PrimaryKey": 7051,
       "EntityName": "sale",
-      "saleId": 5026,
-      "contactId": 9164,
-      "name": "Schmidt, Davis and O'Conner"
+      "saleId": 7051,
+      "contactId": 2900,
+      "name": "Skiles Group"
     }
   ]
 }

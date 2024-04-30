@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 750,
-    "Name": "Sawayn-Bergnaum",
-    "ToolTip": "Id assumenda quia in vel.",
-    "Deleted": false,
-    "Rank": 357,
-    "Type": "quia",
-    "ColorBlock": 916,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2021-06-10T12:19:54.7271106+02:00",
+    "Id": 240,
+    "Name": "Barton-Padberg",
+    "ToolTip": "Recusandae ipsum aut culpa ut beatae quibusdam.",
+    "Deleted": true,
+    "Rank": 676,
+    "Type": "nihil",
+    "ColorBlock": 618,
+    "IconHint": "facilis",
+    "Selected": false,
+    "LastChanged": "2009-09-17T11:44:43.2106158+02:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Crist, Reinger and DuBuque",
-        "ToolTip": "Dolorem provident.",
+        "Id": 484,
+        "Name": "Hessel, Spinka and Cremin",
+        "ToolTip": "Temporibus laborum laboriosam quod reiciendis rem ab sint.",
         "Deleted": true,
-        "Rank": 589,
-        "Type": "ut",
-        "ColorBlock": 600,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2014-10-04T12:19:54.7271106+02:00",
+        "Rank": 902,
+        "Type": "porro",
+        "ColorBlock": 790,
+        "IconHint": "placeat",
+        "Selected": true,
+        "LastChanged": "2011-09-24T11:44:43.2106158+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "animi",
+        "ExtraInfo": "dolore",
+        "StyleHint": "vero",
         "Hidden": false,
-        "FullName": "Prof. Carmella Cleve Hermiston",
+        "FullName": "Petra Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 498
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "libero",
-    "Hidden": false,
-    "FullName": "Kaela Stokes",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Kenneth Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 89
       }
     }
   }

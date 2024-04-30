@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 354,
-  "ColumnId": 809,
-  "FieldDefault": "ut",
-  "FieldHeight": 952,
-  "FieldLabel": "et",
-  "FieldLeft": 436,
-  "FieldTop": 99,
+  "UDefFieldId": 972,
+  "ColumnId": 522,
+  "FieldDefault": "quidem",
+  "FieldHeight": 734,
+  "FieldLabel": "quia",
+  "FieldLeft": 720,
+  "FieldTop": 142,
   "FieldType": "Checkbox",
-  "FieldWidth": 384,
-  "FormatMask": "eos",
-  "HideLabel": true,
+  "FieldWidth": 767,
+  "FormatMask": "sed",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 128,
-  "LabelLeft": 259,
-  "LabelTop": 429,
-  "LabelWidth": 168,
-  "LastVersionId": 842,
-  "ListTableId": 387,
-  "IsMandatory": true,
+  "LabelHeight": 726,
+  "LabelLeft": 850,
+  "LabelTop": 884,
+  "LabelWidth": 698,
+  "LastVersionId": 163,
+  "ListTableId": 179,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 472,
-  "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "sit",
-  "TabOrder": 403,
-  "TextLength": 393,
-  "Tooltip": "sint",
-  "UdefIdentity": 854,
-  "UDListDefinitionId": 946,
+  "Page1LineNo": 585,
+  "ProgId": "est",
+  "IsReadOnly": false,
+  "ShortLabel": "ut",
+  "TabOrder": 414,
+  "TextLength": 971,
+  "Tooltip": "minus",
+  "UdefIdentity": 769,
+  "UDListDefinitionId": 10,
   "Justification": "Center",
-  "Version": 591,
-  "TemplateVariableName": "Schultz-Romaguera",
+  "Version": 99,
+  "TemplateVariableName": "Sporer Group",
   "HasBeenPublished": false,
-  "MdoListName": "Fritsch LLC",
+  "MdoListName": "Turcotte-Thiel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 269
     }
   }
 }

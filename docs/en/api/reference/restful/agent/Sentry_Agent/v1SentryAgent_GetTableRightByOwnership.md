@@ -78,9 +78,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Price Inc and Sons",
-  "ContactGroupId": 190,
-  "ContactAssociateId": 811
+  "TableName": "Mayert Inc and Sons",
+  "ContactGroupId": 912,
+  "ContactAssociateId": 1002
 }
 ```
 
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": ""
+  "Reason": "synthesize B2B partnerships"
 }
 ```

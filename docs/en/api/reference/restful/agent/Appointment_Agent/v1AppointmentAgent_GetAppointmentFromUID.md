@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "itaque"
+  "UID": "veniam"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-08-06T12:19:44.4299516+02:00",
-  "AppointmentId": 498,
-  "Description": "Fully-configurable coherent definition",
-  "Title": "explicabo",
-  "Agenda": "dolores",
-  "InternalNotes": "aut",
-  "StartDate": "1997-05-11T12:19:44.4299516+02:00",
-  "EndDate": "2000-12-08T12:19:44.4299516+01:00",
+  "CreatedDate": "2006-12-14T11:44:32.7286627+01:00",
+  "AppointmentId": 613,
+  "Description": "Proactive client-driven moderator",
+  "Title": "perferendis",
+  "Agenda": "consequatur",
+  "InternalNotes": "et",
+  "StartDate": "2017-08-13T11:44:32.7286627+02:00",
+  "EndDate": "2014-05-09T11:44:32.7286627+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 65,
+  "MotherId": 592,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-12-04T12:19:44.4455716+01:00",
+  "UpdatedDate": "2004-03-08T11:44:32.7286627+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 761,
+  "ActiveLinks": 82,
   "Links": [
     {
-      "EntityName": "Haley, Ziemann and Bosco",
-      "Id": 482,
-      "Description": "Multi-tiered foreground support",
-      "ExtraInfo": "nemo",
-      "LinkId": 627,
+      "EntityName": "Bergnaum, Gislason and Towne",
+      "Id": 592,
+      "Description": "Synergized 24/7 adapter",
+      "ExtraInfo": "aut",
+      "LinkId": 67,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldType": "System.String",
+          "FieldLength": 368
         }
       }
     }
   ],
-  "AlarmLeadTime": "odit",
-  "HasAlarm": true,
-  "ColorIndex": 171,
+  "AlarmLeadTime": "minus",
+  "HasAlarm": false,
+  "ColorIndex": 694,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "occaecati",
-  "LeadTime": "ex",
-  "Location": "recusandae",
-  "RejectCounter": 569,
+  "IsAlldayEvent": false,
+  "LagTime": "ut",
+  "LeadTime": "corporis",
+  "Location": "maxime",
+  "RejectCounter": 675,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 261,
-      "PersonId": 292,
-      "ContactId": 279,
-      "EmailId": 83,
-      "SendEmail": true,
+      "AssociateId": 185,
+      "PersonId": 430,
+      "ContactId": 789,
+      "EmailId": 213,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "richie@anderson.ca",
-      "Description": "Compatible stable adapter"
+      "EmailAddress": "meaghan_morar@rolfson.ca",
+      "Description": "Customer-focused human-resource customer loyalty"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-03-01T12:19:44.4455716+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2000-12-11T11:44:32.7442883+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 428,
+  "PreferredTZLocation": 147,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 18,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 334,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "impedit",
+  "CentralserviceVideomeetId": "sint",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Nona Romaguera I",
-    "SuperOffice:2": "1549251625"
+    "SuperOffice:1": "568976812",
+    "SuperOffice:2": "Mrs. Geraldine Wehner MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "maiores",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2009-02-17T12:19:44.4455716+01:00",
-  "PublishTo": "2002-10-12T12:19:44.4455716+02:00",
-  "PublishFrom": "2011-12-09T12:19:44.4455716+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2005-08-30T11:44:32.7442883+02:00",
+  "PublishTo": "1998-03-06T11:44:32.7442883+01:00",
+  "PublishFrom": "2006-04-08T11:44:32.7442883+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 779,
+      "VisibleId": 595,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     },
     {
-      "VisibleId": 779,
+      "VisibleId": 595,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 105
     }
   }
 }

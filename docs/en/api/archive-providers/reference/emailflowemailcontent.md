@@ -42,6 +42,7 @@ Lists all email flow message content
 |emailFlow/thumbnail| *None* |Thumbnail|  |
 |emailFlow/mediumThumbnail| *None* |Thumbnail|  |
 |emailFlow/workflowId|int|Workflow id: Id of a worflow definition| x |
+|emailFlow/workflowName|string|Name: Name of the workflow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of the workflow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
@@ -57,6 +58,7 @@ Lists all email flow message content
 |emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |shipment/mailingId|int|ID: Displays the ID of the mailing| x |
 |shipment/mailingSelectionId|int|Selection ID: The database ID of the selection| x |
+|shipment/mailingDescription|string|Name: Displays the name of the mailing| x |
 |shipment/mailingSent|listAny|Sent: Displays the sent status of the mailing| x |
 |shipment/mailingSimpleStatus|listAny|Status: Status| x |
 |shipment/mailingEndDate|date|Date sent: Displays the date when the mailing was sent (completed)| x |
@@ -120,12 +122,12 @@ Lists all email flow message content
 |shipment/project/projectUrl/URLDescription|string|Description| x |
 |shipment/project/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |shipment/project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|shipment/project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|shipment/project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|shipment/project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |shipment/project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |shipment/project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |shipment/project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -191,7 +193,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=emailFlow/workflowDefinitionStatus,emailFlow/startOnlyOnce,shipment/project/updatedBy
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/text,shipment/project/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

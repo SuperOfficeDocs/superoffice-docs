@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 962,
-  "ErpConnectorId": 763,
-  "DisplayName": "Daugherty-Lind",
-  "DisplayDescription": "Triple-buffered 5th generation hardware",
+  "ErpConnectionId": 381,
+  "ErpConnectorId": 51,
+  "DisplayName": "Kshlerin, Douglas and Gutmann",
+  "DisplayDescription": "Switchable tangible algorithm",
   "Active": false,
-  "ConnectionId": "repudiandae",
-  "MostRecentTimestamp": "numquam",
+  "ConnectionId": "aut",
+  "MostRecentTimestamp": "voluptas",
   "ConfigFields": {
-    "ConfigFields1": "quibusdam",
-    "ConfigFields2": "qui"
+    "ConfigFields1": "sed",
+    "ConfigFields2": "sint"
   },
-  "Deleted": true,
-  "AllAccess": true,
+  "Deleted": false,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    937,
-    481
+    156,
+    960
   ],
   "AssociateAccessIds": [
-    569,
-    185
+    244,
+    503
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 440
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "West, Bashirian and Huel",
-    "ToolTip": "Et ad.",
-    "Deleted": false,
-    "Rank": 405,
-    "Type": "rerum",
-    "ColorBlock": 223,
-    "IconHint": "architecto",
+    "Id": 386,
+    "Name": "Daugherty, Harvey and Howe",
+    "ToolTip": "Quaerat quam occaecati.",
+    "Deleted": true,
+    "Rank": 487,
+    "Type": "nam",
+    "ColorBlock": 9,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2023-01-12T12:19:54.789597+01:00",
+    "LastChanged": "2007-02-06T11:44:43.2887254+01:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Paucek, Crona and Witting",
-        "ToolTip": "Eius velit qui est maxime similique ut et.",
+        "Id": 364,
+        "Name": "Christiansen-Schmeler",
+        "ToolTip": "Est odio aperiam explicabo pariatur mollitia ut esse.",
         "Deleted": false,
-        "Rank": 578,
-        "Type": "doloribus",
-        "ColorBlock": 366,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "1999-03-11T12:19:54.789597+01:00",
+        "Rank": 84,
+        "Type": "iste",
+        "ColorBlock": 686,
+        "IconHint": "officia",
+        "Selected": true,
+        "LastChanged": "2005-04-07T11:44:43.2887254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "qui",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Americo Yost"
+        "FullName": "Dax Wilford Mraz Jr."
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "dicta",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Ms. Alene Cole Jr."
+    "FullName": "Dr. Berenice Sebastian Runolfsdottir"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Walsh-Marvin",
-    "ToolTip": "Laborum dicta dolore.",
+    "Id": 936,
+    "Name": "Mills, Jerde and Shields",
+    "ToolTip": "Culpa culpa minus ad est iure enim et.",
     "Deleted": false,
-    "Rank": 741,
-    "Type": "natus",
-    "ColorBlock": 512,
-    "IconHint": "magnam",
+    "Rank": 535,
+    "Type": "ea",
+    "ColorBlock": 551,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2010-11-28T12:19:54.789597+01:00",
+    "LastChanged": "2015-07-23T11:44:43.2887254+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Osinski-Koelpin",
-        "ToolTip": "Incidunt amet.",
-        "Deleted": false,
-        "Rank": 845,
-        "Type": "ullam",
-        "ColorBlock": 588,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "2013-11-24T12:19:54.789597+01:00",
+        "Id": 416,
+        "Name": "Waelchi-Spinka",
+        "ToolTip": "Iusto et excepturi dolor dicta.",
+        "Deleted": true,
+        "Rank": 776,
+        "Type": "omnis",
+        "ColorBlock": 365,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2000-09-23T11:44:43.2887254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "laboriosam",
-        "Hidden": true,
-        "FullName": "Kian Hayes",
+        "ExtraInfo": "modi",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Lilliana Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 46
+            "FieldLength": 21
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "dolor",
+    "ExtraInfo": "vel",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Prof. Hazel Hammes III",
+    "FullName": "Ms. Ora Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 398
       }
     }
   }

@@ -94,12 +94,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 197,
-  "Name": "Becker, Jast and Heaney",
-  "Tooltip": "reprehenderit",
-  "PassiveText": "neque",
-  "Deleted": false,
-  "Rank": 919,
+  "ReldefId": 742,
+  "Name": "Renner-Reinger",
+  "Tooltip": "at",
+  "PassiveText": "nam",
+  "Deleted": true,
+  "Rank": 449,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 202,
-  "Name": "Greenfelder Inc and Sons",
-  "Tooltip": "quis",
-  "PassiveText": "officia",
+  "ReldefId": 116,
+  "Name": "Schneider-Feeney",
+  "Tooltip": "alias",
+  "PassiveText": "fuga",
   "Deleted": false,
-  "Rank": 759,
+  "Rank": 824,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

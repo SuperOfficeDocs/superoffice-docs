@@ -26,7 +26,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=111
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=78
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 28,
-  "WorkflowId": 764,
+  "WorkflowTriggerId": 317,
+  "WorkflowId": 411,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Rodriguez Group",
-      "Description": "Re-contextualized global Graphic Interface",
-      "Rank": 169,
+      "Name": "Jerde LLC",
+      "Description": "Robust human-resource budgetary management",
+      "Rank": 886,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rodriguez Group",
-      "Description": "Re-contextualized global Graphic Interface",
-      "Rank": 169,
+      "Name": "Jerde LLC",
+      "Description": "Robust human-resource budgetary management",
+      "Rank": 886,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 747
     }
   }
 }

@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 489,
-  "ERPPriceListKey": "suscipit",
-  "QuoteConnectionId": 403,
-  "Name": "Kihn, Koch and Grimes",
-  "Description": "Self-enabling cohesive emulation",
-  "Currency": "dolorem",
-  "CurrencyName": "Heaney LLC",
-  "ValidFrom": "2014-05-28T12:19:54.6646278+02:00",
-  "ValidTo": "2003-04-11T12:19:54.6646278+02:00",
-  "IsActive": true
+  "PriceListId": 269,
+  "ERPPriceListKey": "mollitia",
+  "QuoteConnectionId": 809,
+  "Name": "Monahan-Kris",
+  "Description": "Persistent fault-tolerant task-force",
+  "Currency": "quo",
+  "CurrencyName": "Kling Inc and Sons",
+  "ValidFrom": "2018-01-11T11:44:43.1637513+01:00",
+  "ValidTo": "2021-07-20T11:44:43.1637513+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 100,
-  "ERPPriceListKey": "enim",
-  "QuoteConnectionId": 307,
-  "Name": "Brekke, Willms and Grady",
-  "Description": "Sharable 5th generation focus group",
-  "Currency": "quaerat",
-  "CurrencyName": "Kihn-Ward",
-  "ValidFrom": "2010-07-03T12:19:54.6646278+02:00",
-  "ValidTo": "2004-03-15T12:19:54.6646278+01:00",
-  "IsActive": true,
+  "PriceListId": 792,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 656,
+  "Name": "Borer-Conroy",
+  "Description": "Team-oriented motivating approach",
+  "Currency": "mollitia",
+  "CurrencyName": "Stanton-Lind",
+  "ValidFrom": "2001-05-30T11:44:43.1637513+02:00",
+  "ValidTo": "2014-06-14T11:44:43.1637513+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 582
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   },
   "_Links": {

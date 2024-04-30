@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 479,
-  "Name": "Hoppe Inc and Sons",
+  "ScreenChooserId": 753,
+  "Name": "Grant, Jacobs and Shields",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
+  "Enabled": true,
   "UniqueIdentifier": "asperiores",
-  "Source": "sunt",
-  "Registered": "2010-09-13T12:19:54.0866374+02:00",
-  "RegisteredAssociateId": 597,
-  "Updated": "2006-09-10T12:19:54.0866374+02:00",
-  "UpdatedAssociateId": 243
+  "Source": "voluptatem",
+  "Registered": "2019-06-05T11:44:42.6951171+02:00",
+  "RegisteredAssociateId": 168,
+  "Updated": "2008-01-29T11:44:42.6951171+01:00",
+  "UpdatedAssociateId": 846
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 437,
-  "Name": "Bauch, Brown and Emard",
+  "ScreenChooserId": 345,
+  "Name": "Predovic Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "cupiditate",
-  "Source": "reprehenderit",
-  "Registered": "2002-10-13T12:19:54.0866374+02:00",
-  "RegisteredAssociateId": 783,
-  "Updated": "1997-08-23T12:19:54.0866374+02:00",
-  "UpdatedAssociateId": 59,
+  "UniqueIdentifier": "nam",
+  "Source": "dolore",
+  "Registered": "2002-01-29T11:44:42.6951171+01:00",
+  "RegisteredAssociateId": 176,
+  "Updated": "2017-03-13T11:44:42.6951171+01:00",
+  "UpdatedAssociateId": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 931
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

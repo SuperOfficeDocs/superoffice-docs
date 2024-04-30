@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 998
+  "TargetDimensionId": 331
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  885,
-  357
+  460,
+  224
 ]
 ```

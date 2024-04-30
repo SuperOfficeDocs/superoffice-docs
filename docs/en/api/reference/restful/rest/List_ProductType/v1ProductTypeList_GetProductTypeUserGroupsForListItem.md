@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Abernathy-Bruen",
-    "ToolTip": "Corrupti et in molestias ea eius quo qui.",
-    "Deleted": false,
-    "Rank": 504,
-    "Type": "ad",
-    "ColorBlock": 745,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2011-05-18T12:19:54.7114903+02:00",
+    "Id": 999,
+    "Name": "Bartoletti, Koch and Stokes",
+    "ToolTip": "Sit ipsa magnam ipsa dolore esse.",
+    "Deleted": true,
+    "Rank": 713,
+    "Type": "ut",
+    "ColorBlock": 916,
+    "IconHint": "maxime",
+    "Selected": false,
+    "LastChanged": "2006-04-12T11:44:43.2106158+02:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Kilback, Mante and Bartoletti",
-        "ToolTip": "Sed reprehenderit earum magni excepturi voluptatem eum.",
+        "Id": 184,
+        "Name": "Weber-Mohr",
+        "ToolTip": "Quis asperiores repellendus.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "laborum",
-        "ColorBlock": 6,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2018-08-06T12:19:54.7114903+02:00",
+        "Rank": 41,
+        "Type": "illo",
+        "ColorBlock": 5,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2014-03-21T11:44:43.2106158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "modi",
+        "ExtraInfo": "officiis",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Dejah Lexie Cummings I",
+        "FullName": "Manley Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 247
+            "FieldLength": 193
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Shania Brionna Welch Jr.",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Granville Williamson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 786
       }
     }
   }

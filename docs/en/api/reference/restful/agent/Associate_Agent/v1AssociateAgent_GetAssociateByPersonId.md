@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 789
+  "PersonId": 616
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 619,
-  "Name": "Oberbrunner Inc and Sons",
-  "PersonId": 711,
-  "Rank": 267,
-  "Tooltip": "ex",
+  "AssociateId": 334,
+  "Name": "Zieme-Cremin",
+  "PersonId": 593,
+  "Rank": 664,
+  "Tooltip": "occaecati",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 522,
-  "FullName": "Dr. Eloise Lennie Wyman",
-  "FormalName": "Emard-Von",
+  "GroupIdx": 586,
+  "FullName": "Eddie O'Hara",
+  "FormalName": "Beatty, Hahn and Kovacek",
   "Deleted": false,
-  "EjUserId": 133,
-  "UserName": "Schumm Group",
+  "EjUserId": 39,
+  "UserName": "Vandervort Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 1001
     }
   }
 }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 292,
-    "Name": "Cassin Inc and Sons",
-    "Tooltip": "vel",
+    "Id": 151,
+    "Name": "Osinski, Herzog and McCullough",
+    "Tooltip": "sint",
     "Deleted": true,
-    "UdListDefinitionId": 706,
-    "Rank": 272,
+    "UdListDefinitionId": 30,
+    "Rank": 118,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldType": "System.Int32",
+        "FieldLength": 697
       }
     }
   }

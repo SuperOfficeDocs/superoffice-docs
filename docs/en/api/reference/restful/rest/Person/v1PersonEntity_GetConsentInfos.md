@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 494,
-    "Comment": "ut",
-    "Registered": "2023-05-17T12:19:53.6961005+02:00",
-    "RegisteredAssociateId": 69,
-    "Updated": "2001-08-06T12:19:53.6961005+02:00",
-    "UpdatedAssociateId": 842,
-    "LegalBaseId": 544,
-    "LegalBaseKey": "quae",
-    "LegalBaseName": "Rowe Group",
-    "ConsentPurposeId": 222,
-    "ConsentPurposeKey": "soluta",
-    "ConsentPurposeName": "Ankunding Inc and Sons",
-    "ConsentSourceId": 910,
-    "ConsentSourceKey": "ea",
-    "ConsentSourceName": "Wisoky-Runte",
+    "ConsentPersonId": 266,
+    "Comment": "nobis",
+    "Registered": "2009-10-01T11:44:42.101503+02:00",
+    "RegisteredAssociateId": 82,
+    "Updated": "2017-08-22T11:44:42.101503+02:00",
+    "UpdatedAssociateId": 592,
+    "LegalBaseId": 99,
+    "LegalBaseKey": "voluptatem",
+    "LegalBaseName": "Champlin-Emmerich",
+    "ConsentPurposeId": 552,
+    "ConsentPurposeKey": "eveniet",
+    "ConsentPurposeName": "VonRueden-Douglas",
+    "ConsentSourceId": 81,
+    "ConsentSourceKey": "nulla",
+    "ConsentSourceName": "Fahey LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldType": "System.String",
+        "FieldLength": 703
       }
     }
   }

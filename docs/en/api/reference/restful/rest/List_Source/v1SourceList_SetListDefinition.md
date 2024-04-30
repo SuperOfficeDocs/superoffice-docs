@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 591,
-  "Name": "Waters Inc and Sons",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 199,
+  "Id": 501,
+  "Name": "Gutmann-Davis",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "Rank": 837,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": false
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Brekke, Borer and Fay",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 10,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 214,
+  "Name": "Deckow-Wiegand",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "Rank": 601,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 532
     }
   }
 }

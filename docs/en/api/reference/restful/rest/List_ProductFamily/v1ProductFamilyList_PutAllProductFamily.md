@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Koepp, Connelly and Sawayn",
-    "Tooltip": "a",
+    "Id": 208,
+    "Name": "Wilkinson Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 866,
-    "Rank": 339
+    "UdListDefinitionId": 487,
+    "Rank": 428
   },
   {
-    "Id": 204,
-    "Name": "Koepp, Connelly and Sawayn",
-    "Tooltip": "a",
+    "Id": 208,
+    "Name": "Wilkinson Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 866,
-    "Rank": 339
+    "UdListDefinitionId": 487,
+    "Rank": 428
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "Nikolaus, Stamm and Denesik",
-    "Tooltip": "quo",
+    "Id": 348,
+    "Name": "Daugherty-Hagenes",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "UdListDefinitionId": 462,
-    "Rank": 245,
+    "UdListDefinitionId": 400,
+    "Rank": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 310
       }
     }
   }

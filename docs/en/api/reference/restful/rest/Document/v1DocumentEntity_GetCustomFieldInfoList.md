@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mante LLC",
-    "DisplayName": "Ebert Inc and Sons",
-    "Description": "Grass-roots global project",
-    "ShortLabel": "consequatur",
-    "HideLabel": true,
-    "HideField": true,
+    "FieldName": "Grant LLC",
+    "DisplayName": "Toy, Haley and Crona",
+    "Description": "Organized 24/7 solution",
+    "ShortLabel": "necessitatibus",
+    "HideLabel": false,
+    "HideField": false,
     "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 211,
-    "TemplateVariableName": "Ortiz-Schultz"
+    "IsExternal": true,
+    "Rank": 240,
+    "TemplateVariableName": "Ratke Inc and Sons"
   }
 ]
 ```

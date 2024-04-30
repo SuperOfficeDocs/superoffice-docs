@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 949,
-  "Name": "Cummings Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 38,
-  "UdListDefinitionId": 973
+  "HeadingId": 916,
+  "Name": "Zemlak Inc and Sons",
+  "Tooltip": "nobis",
+  "Deleted": true,
+  "Rank": 692,
+  "UdListDefinitionId": 219
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 25,
-  "Name": "Gibson-Funk",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 141,
-  "UdListDefinitionId": 582,
+  "HeadingId": 892,
+  "Name": "Sipes, Ullrich and Denesik",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 687,
+  "UdListDefinitionId": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

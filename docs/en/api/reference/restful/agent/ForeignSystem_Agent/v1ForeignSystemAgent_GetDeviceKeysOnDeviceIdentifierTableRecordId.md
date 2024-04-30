@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ankunding-Raynor",
-  "DeviceName": "Thiel LLC",
+  "ApplicationName": "Macejkovic-Wiza",
+  "DeviceName": "Kunde-Treutel",
   "DeviceIdentifier": "nulla",
-  "TableName": "Dooley, Wehner and Bernier",
-  "RecordId": 353
+  "TableName": "McCullough-Senger",
+  "RecordId": 866
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "omnis",
-    "Value": "voluptate",
-    "RecordId": 197,
-    "CreatedDate": "2001-05-13T12:19:45.4297292+02:00",
-    "UpdatedDate": "2004-08-28T12:19:45.4297292+02:00",
-    "UpdatedBy": "accusantium",
-    "CreatedBy": "iste",
-    "TableName": "Herzog, Pagac and Haag",
+    "Key": "et",
+    "Value": "est",
+    "RecordId": 537,
+    "CreatedDate": "2003-04-16T11:44:33.7753083+02:00",
+    "UpdatedDate": "2019-06-01T11:44:33.7753083+02:00",
+    "UpdatedBy": "ipsam",
+    "CreatedBy": "voluptatem",
+    "TableName": "Gaylord, Herzog and Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldLength": 831
       }
     }
   }

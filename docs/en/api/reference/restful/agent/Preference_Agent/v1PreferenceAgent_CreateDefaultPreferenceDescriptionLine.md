@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 357,
-  "PrefDescId": 287,
-  "PrefValue": "officia",
-  "PrefShowValue": "necessitatibus",
-  "Description": "Monitored client-server functionalities",
-  "IsBuiltin": false,
+  "PrefDescLineId": 930,
+  "PrefDescId": 142,
+  "PrefValue": "et",
+  "PrefShowValue": "ipsa",
+  "Description": "Re-contextualized optimal customer loyalty",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 788
     }
   }
 }

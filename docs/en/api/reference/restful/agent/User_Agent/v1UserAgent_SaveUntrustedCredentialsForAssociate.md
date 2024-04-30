@@ -72,8 +72,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 320,
-  "Type": "est",
+  "AssociateId": 56,
+  "Type": "illum",
   "Credentials": null
 }
 ```

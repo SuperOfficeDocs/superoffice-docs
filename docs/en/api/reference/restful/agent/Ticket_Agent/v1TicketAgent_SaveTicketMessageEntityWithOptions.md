@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "Entity": null,
   "Notify": true,
   "AttachmentIds": [
-    275,
-    338
+    12,
+    97
   ],
   "UpdateRepliedAt": false
 }
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 559,
+  "EjMessageId": 832,
   "Ticket": null,
-  "CreatedAt": "2020-04-10T12:19:46.5232276+02:00",
+  "CreatedAt": "2007-05-14T11:44:34.9000492+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "repellendus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eaque",
-  "TimeSpent": 705,
-  "Body": "et",
-  "HtmlBody": "itaque",
-  "EmailHeader": "oliver.feest@schambergerullrich.us",
-  "DebugInfo": "quaerat",
-  "MailSorter": "fugiat",
+  "MessageId": "accusantium",
+  "TimeSpent": 890,
+  "Body": "sint",
+  "HtmlBody": "beatae",
+  "EmailHeader": "lizzie.greenfelder@gerhold.us",
+  "DebugInfo": "ut",
+  "MailSorter": "animi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "molestiae",
+  "SearchTitle": "cupiditate",
   "MessageHeaders": [
     {
-      "Id": 924,
-      "Name": "Orn-Mayert",
-      "Value": "at",
+      "Id": 779,
+      "Name": "Schinner, Haag and Toy",
+      "Value": "magni",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldType": "System.Int32",
+          "FieldLength": 41
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "amet",
-  "Sentiment": 728,
-  "SentimentConfidence": 490,
+  "Important": true,
+  "Language": "magni",
+  "Sentiment": 219,
+  "SentimentConfidence": 754,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 424,
-      "Name": "Connelly-Miller",
-      "ContentType": "placeat",
-      "AttSize": 163,
-      "InlineImage": true,
-      "ContentId": "eos",
-      "AuthKey": "quaerat",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 209,
+      "Name": "Jacobi, Rowe and Cartwright",
+      "ContentType": "omnis",
+      "AttSize": 788,
+      "InlineImage": false,
+      "ContentId": "harum",
+      "AuthKey": "consequatur",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 496
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "minus"
+    "CustomFields1": "ut",
+    "CustomFields2": "veritatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   }
 }

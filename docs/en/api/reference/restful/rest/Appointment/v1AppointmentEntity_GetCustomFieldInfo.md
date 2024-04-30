@@ -71,7 +71,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Frami, Lubowitz and Cormier",
-  "DisplayName": "Kreiger-Runolfsdottir",
-  "Description": "Re-engineered impactful firmware",
-  "ShortLabel": "tenetur",
-  "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 103,
-  "TemplateVariableName": "Hayes, Wunsch and Heidenreich"
+  "FieldName": "Towne, Gutmann and Hilpert",
+  "DisplayName": "Conn-Schultz",
+  "Description": "Grass-roots heuristic system engine",
+  "ShortLabel": "et",
+  "HideLabel": false,
+  "HideField": false,
+  "IsIndexed": false,
+  "IsMandatory": false,
+  "IsReadOnly": false,
+  "IsExternal": true,
+  "Rank": 812,
+  "TemplateVariableName": "Kutch-Willms"
 }
 ```

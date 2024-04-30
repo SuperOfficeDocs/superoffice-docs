@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Parker-Christiansen"
+  "ApplicationName": "Howell LLC"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 214,
-  "Name": "Murray, Dibbert and Gutmann",
-  "CreatedDate": "2018-04-07T12:19:45.4141069+02:00",
-  "UpdatedDate": "2018-10-13T12:19:45.4141069+02:00",
+  "ForeignAppId": 987,
+  "Name": "Morissette, Corwin and Heaney",
+  "CreatedDate": "1997-06-07T11:44:33.7596833+02:00",
+  "UpdatedDate": "2019-03-16T11:44:33.7596833+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 30,
-      "Name": "Hammes Inc and Sons",
-      "CreatedDate": "2000-09-02T12:19:45.4141069+02:00",
-      "UpdatedDate": "2019-11-03T12:19:45.4141069+01:00",
-      "AssociateFullName": "Evalyn Mayert",
-      "CreatedBy": "qui",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 496,
+      "ForeignDeviceId": 550,
+      "Name": "Gislason LLC",
+      "CreatedDate": "2010-04-14T11:44:33.7596833+02:00",
+      "UpdatedDate": "2012-09-06T11:44:33.7596833+02:00",
+      "AssociateFullName": "Domenica Olson",
+      "CreatedBy": "quo",
+      "UpdatedBy": "fugiat",
+      "DeviceIdentifier": "excepturi",
+      "ForeignAppId": 524,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldLength": 75
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

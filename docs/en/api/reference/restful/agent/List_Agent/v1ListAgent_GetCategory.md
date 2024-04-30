@@ -26,7 +26,7 @@ Gets a Category object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCategory?categoryId=132
+POST /api/v1/Agents/List/GetCategory?categoryId=64
 POST /api/v1/Agents/List/GetCategory?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 409,
-  "Value": "minima",
-  "Tooltip": "eius",
+  "Id": 812,
+  "Value": "quo",
+  "Tooltip": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 480
+      "FieldLength": 10
     }
   }
 }

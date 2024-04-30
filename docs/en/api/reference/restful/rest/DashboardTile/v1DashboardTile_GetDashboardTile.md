@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 489,
-  "Caption": "itaque",
-  "Description": "Synergistic disintermediate focus group",
-  "ChartName": "Heidenreich Inc and Sons",
-  "ChartId": "blanditiis",
+  "DashboardTileId": 674,
+  "Caption": "aut",
+  "Description": "Proactive eco-centric hub",
+  "ChartName": "Johns, Schuster and Yost",
+  "ChartId": "quis",
   "IsDefault": true,
-  "AssociateId": 758,
-  "GroupId": 55,
-  "SelectionId": 155,
-  "Config": "vero",
+  "AssociateId": 997,
+  "GroupId": 398,
+  "SelectionId": 824,
+  "Config": "distinctio",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "McDermott, Kling and Pfannerstill",
-      "Description": "Mandatory motivating contingency",
+      "Name": "Kilback Group",
+      "Description": "Assimilated neutral synergy",
       "Type": "Boolean",
-      "ListName": "Keeling-Rowe",
+      "ListName": "Cruickshank Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "minima",
+      "Value": "aliquid",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 607
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 983,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 922
         }
       }
     },
     {
-      "VisibleId": 983,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 922
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 402
     }
   },
   "_Links": {

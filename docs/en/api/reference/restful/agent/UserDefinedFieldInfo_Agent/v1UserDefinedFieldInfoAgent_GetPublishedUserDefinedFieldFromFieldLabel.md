@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "quis",
+  "FieldLabel": "est",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 404,
-  "ColumnId": 424,
-  "FieldDefault": "eveniet",
-  "FieldHeight": 520,
-  "FieldLabel": "earum",
-  "FieldLeft": 634,
-  "FieldTop": 448,
+  "UDefFieldId": 280,
+  "ColumnId": 767,
+  "FieldDefault": "iusto",
+  "FieldHeight": 189,
+  "FieldLabel": "deserunt",
+  "FieldLeft": 778,
+  "FieldTop": 556,
   "FieldType": "Checkbox",
-  "FieldWidth": 955,
-  "FormatMask": "molestiae",
+  "FieldWidth": 169,
+  "FormatMask": "deleniti",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 917,
-  "LabelLeft": 640,
-  "LabelTop": 209,
-  "LabelWidth": 578,
-  "LastVersionId": 394,
-  "ListTableId": 128,
+  "LabelHeight": 836,
+  "LabelLeft": 878,
+  "LabelTop": 494,
+  "LabelWidth": 334,
+  "LastVersionId": 695,
+  "ListTableId": 593,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 683,
-  "ProgId": "reiciendis",
+  "Page1LineNo": 378,
+  "ProgId": "temporibus",
   "IsReadOnly": false,
-  "ShortLabel": "optio",
-  "TabOrder": 160,
-  "TextLength": 330,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 466,
-  "UDListDefinitionId": 36,
+  "ShortLabel": "harum",
+  "TabOrder": 480,
+  "TextLength": 522,
+  "Tooltip": "qui",
+  "UdefIdentity": 49,
+  "UDListDefinitionId": 55,
   "Justification": "Center",
-  "Version": 31,
-  "TemplateVariableName": "Prosacco, Berge and Gutkowski",
-  "HasBeenPublished": true,
-  "MdoListName": "McCullough-Stiedemann",
+  "Version": 430,
+  "TemplateVariableName": "Cummings, Hickle and Welch",
+  "HasBeenPublished": false,
+  "MdoListName": "Waters Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

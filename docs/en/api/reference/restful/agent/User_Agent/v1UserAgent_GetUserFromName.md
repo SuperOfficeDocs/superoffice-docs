@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Abbott-Monahan"
+  "UserName": "Jast-Ebert"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 558,
-  "Name": "Will LLC",
-  "Rank": 72,
-  "Tooltip": "autem",
+  "AssociateId": 164,
+  "Name": "Deckow-Borer",
+  "Rank": 123,
+  "Tooltip": "iure",
   "LicenseOwners": [
     {
-      "Name": "Wiegand, Murazik and Douglas",
-      "Description": "Business-focused full-range functionalities",
+      "Name": "Dicki-Fisher",
+      "Description": "Multi-layered needs-based structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 845
         }
       }
     },
     {
-      "Name": "Wiegand, Murazik and Douglas",
-      "Description": "Business-focused full-range functionalities",
+      "Name": "Dicki-Fisher",
+      "Description": "Multi-layered needs-based structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 845
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nihil",
-      "Tooltip": "maiores",
-      "Id": 496,
-      "Rank": 214,
-      "Deleted": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 270
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2019-12-28T12:19:46.6013369+01:00",
-  "Lastlogout": "2004-11-13T12:19:46.6013369+01:00",
-  "EjUserId": 823,
-  "RequestSignature": "ut",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "in",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 115
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "in",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 115
-        }
-      }
-    }
-  ],
-  "UserName": "Rutherford Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 940,
-      "Name": "Leffler, Ebert and Gleason",
-      "ToolTip": "Reprehenderit quis quaerat provident quia esse exercitationem.",
-      "Deleted": false,
-      "Rank": 887,
-      "Type": "et",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "nam",
-      "ColorBlock": 352,
-      "ExtraInfo": "ut",
-      "StyleHint": "nobis",
-      "FullName": "Helga Lubowitz",
+      "Value": "eius",
+      "Tooltip": "laborum",
+      "Id": 273,
+      "Rank": 330,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 280
+          "FieldLength": 778
         }
       }
     }
   ],
-  "NickName": "Rutherford Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "non"
-  },
-  "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "neque"
-  },
-  "PostSaveCommands": [
+  "Person": null,
+  "Deleted": false,
+  "Lastlogin": "2018-11-09T11:44:34.9937757+01:00",
+  "Lastlogout": "2000-03-17T11:44:34.9937757+01:00",
+  "EjUserId": 570,
+  "RequestSignature": "architecto",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
+  "Credentials": [
     {
-      "Name": "Corwin, Bradtke and Harris",
-      "DisplayName": "Swaniawski Inc and Sons",
-      "Description": "Intuitive bi-directional parallelism",
-      "ToolTip": "Ut maxime sunt incidunt nulla laboriosam.",
-      "Actions": "Implicit",
-      "ActionData": "sint",
+      "Type": null,
+      "Value": "ipsum",
+      "DisplayValue": "vel",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 490
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ipsum",
+      "DisplayValue": "vel",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 490
+        }
+      }
+    }
+  ],
+  "UserName": "Davis, Dibbert and Rath",
+  "TicketCategories": [
+    {
+      "Id": 593,
+      "Name": "Hoppe, Kunze and Jerde",
+      "ToolTip": "Veritatis perspiciatis laborum alias natus iure.",
+      "Deleted": false,
+      "Rank": 488,
+      "Type": "est",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "culpa",
+      "ColorBlock": 412,
+      "ExtraInfo": "ut",
+      "StyleHint": "accusamus",
+      "FullName": "Mr. Melany Kautzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 594
+        }
+      }
+    }
+  ],
+  "NickName": "Harber Group",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "delectus"
+  },
+  "CustomFields": {
+    "CustomFields1": "eum",
+    "CustomFields2": "quia"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kutch-Mayer",
+      "DisplayName": "Fisher-Williamson",
+      "Description": "Team-oriented fault-tolerant secured line",
+      "ToolTip": "Magni vel quisquam aspernatur.",
+      "Actions": "Implicit",
+      "ActionData": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldLength": 474
     }
   }
 }

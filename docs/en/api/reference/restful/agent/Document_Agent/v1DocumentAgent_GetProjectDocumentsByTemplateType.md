@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 31,
-  "StartTime": "2019-08-01T12:19:45.0860733+02:00",
-  "EndTime": "2021-06-17T12:19:45.0860733+02:00",
-  "Count": 669,
-  "DocumentTemplateId": 140
+  "ProjectId": 302,
+  "StartTime": "2010-04-06T11:44:33.431628+02:00",
+  "EndTime": "2014-07-17T11:44:33.431628+02:00",
+  "Count": 850,
+  "DocumentTemplateId": 991
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 372,
-    "Attention": "provident",
-    "Header": "et",
-    "Name": "Boyer-Cassin",
-    "OurRef": "sequi",
-    "YourRef": "aut",
-    "Description": "Fundamental multi-tasking firmware",
-    "DocumentTemplate": "voluptas",
+    "DocumentId": 133,
+    "Attention": "rerum",
+    "Header": "incidunt",
+    "Name": "Kertzmann-Koelpin",
+    "OurRef": "inventore",
+    "YourRef": "veniam",
+    "Description": "Cross-group intermediate initiative",
+    "DocumentTemplate": "a",
     "IsPublished": false,
-    "PersonId": 268,
-    "PersonFullName": "Thea Sipes",
-    "AssociateFullName": "Aileen Schumm",
-    "ContactId": 497,
-    "ContactName": "Hegmann-Howe",
-    "ProjectId": 614,
-    "ProjectName": "Roberts Inc and Sons",
-    "AssociateId": 141,
-    "Snum": 133,
-    "SaleId": 44,
-    "SaleName": "Lebsack, Lakin and Littel",
+    "PersonId": 951,
+    "PersonFullName": "Mack Lang",
+    "AssociateFullName": "Sasha Kub",
+    "ContactId": 45,
+    "ContactName": "Schmeler Inc and Sons",
+    "ProjectId": 823,
+    "ProjectName": "Kub-Bins",
+    "AssociateId": 920,
+    "Snum": 137,
+    "SaleId": 200,
+    "SaleName": "Kub-Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldLength": 19
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 714,
-    "Name": "Boyle LLC",
-    "Tooltip": "architecto",
-    "Deleted": true,
-    "Rank": 24,
-    "UdListDefinitionId": 205
+    "HeadingId": 173,
+    "Name": "Kuhn-Bradtke",
+    "Tooltip": "maiores",
+    "Deleted": false,
+    "Rank": 818,
+    "UdListDefinitionId": 621
   },
   {
-    "HeadingId": 714,
-    "Name": "Boyle LLC",
-    "Tooltip": "architecto",
-    "Deleted": true,
-    "Rank": 24,
-    "UdListDefinitionId": 205
+    "HeadingId": 173,
+    "Name": "Kuhn-Bradtke",
+    "Tooltip": "maiores",
+    "Deleted": false,
+    "Rank": 818,
+    "UdListDefinitionId": 621
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 862,
-    "Name": "Mohr Group",
-    "Tooltip": "eos",
+    "HeadingId": 125,
+    "Name": "Gaylord LLC",
+    "Tooltip": "dicta",
     "Deleted": true,
-    "Rank": 928,
-    "UdListDefinitionId": 9,
+    "Rank": 311,
+    "UdListDefinitionId": 53,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   }

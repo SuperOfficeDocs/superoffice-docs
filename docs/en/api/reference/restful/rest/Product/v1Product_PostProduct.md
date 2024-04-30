@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 257,
-  "ERPProductKey": "vero",
-  "ERPPriceListKey": "officiis",
-  "Name": "Welch, Kuhn and Romaguera",
-  "Description": "Switchable real-time function",
-  "Code": "sequi",
-  "PriceUnit": "numquam",
-  "QuantityUnit": "dolor",
+  "ProductId": 683,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "neque",
+  "Name": "Dietrich-Glover",
+  "Description": "Streamlined next generation internet solution",
+  "Code": "sapiente",
+  "PriceUnit": "officia",
+  "QuantityUnit": "velit",
   "IsSubscription": false,
-  "SubscriptionUnit": "placeat",
-  "DefaultSubscriptionQuantity": 9342.454,
-  "ItemNumber": "285908",
+  "SubscriptionUnit": "aut",
+  "DefaultSubscriptionQuantity": 15112.148,
+  "ItemNumber": "860375",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "suscipit",
-  "ProductTypeKey": "ut",
-  "VAT": 30359.057999999997,
-  "VATInfo": "voluptatum",
-  "UnitCost": 24482.808,
-  "UnitMinimumPrice": 16958.074,
-  "UnitListPrice": 26704.814,
+  "ProductFamilyKey": "vel",
+  "ProductTypeKey": "consequuntur",
+  "VAT": 24044.048,
+  "VATInfo": "facere",
+  "UnitCost": 17277.742,
+  "UnitMinimumPrice": 30337.12,
+  "UnitListPrice": 28080.64,
   "InAssortment": false,
-  "Supplier": "reprehenderit",
+  "Supplier": "eaque",
   "SupplierCode": "qui",
-  "Rights": "voluptatibus",
-  "Rule": "accusantium",
+  "Rights": "distinctio",
+  "Rule": "dolorem",
   "ExtraInfo": [
     {
-      "Name": "Rath, Rippin and Schaden",
-      "Value": "rerum",
+      "Name": "Murray LLC",
+      "Value": "dolores",
       "Type": "Image"
     },
     {
-      "Name": "Rath, Rippin and Schaden",
-      "Value": "rerum",
+      "Name": "Murray LLC",
+      "Value": "dolores",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "possimus",
-  "ExtraField1": "sunt",
-  "ExtraField2": "accusantium",
-  "ExtraField3": "nostrum",
-  "ExtraField4": "rerum",
-  "ExtraField5": "sint",
-  "InStock": 1939.946
+  "RawExtraInfo": "eos",
+  "ExtraField1": "modi",
+  "ExtraField2": "ipsum",
+  "ExtraField3": "laudantium",
+  "ExtraField4": "itaque",
+  "ExtraField5": "et",
+  "InStock": 13096.985999999999
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 107,
-  "ERPProductKey": "sed",
-  "ERPPriceListKey": "mollitia",
-  "Name": "Price, Hamill and McClure",
-  "Description": "De-engineered executive framework",
-  "Code": "numquam",
-  "PriceUnit": "aut",
-  "QuantityUnit": "autem",
-  "IsSubscription": false,
-  "SubscriptionUnit": "tempore",
-  "DefaultSubscriptionQuantity": 12018.89,
-  "ItemNumber": "759743",
+  "ProductId": 572,
+  "ERPProductKey": "perspiciatis",
+  "ERPPriceListKey": "quis",
+  "Name": "Marks LLC",
+  "Description": "Advanced holistic benchmark",
+  "Code": "molestiae",
+  "PriceUnit": "praesentium",
+  "QuantityUnit": "quo",
+  "IsSubscription": true,
+  "SubscriptionUnit": "consequuntur",
+  "DefaultSubscriptionQuantity": 1134.508,
+  "ItemNumber": "1696167",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ratione",
-  "ProductTypeKey": "dignissimos",
-  "VAT": 2174.996,
-  "VATInfo": "cumque",
-  "UnitCost": 25955.788,
-  "UnitMinimumPrice": 11855.922,
-  "UnitListPrice": 29249.622,
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "omnis",
+  "VAT": 30960.786,
+  "VATInfo": "omnis",
+  "UnitCost": 19963.579999999998,
+  "UnitMinimumPrice": 10404.88,
+  "UnitListPrice": 21182.706,
   "InAssortment": false,
-  "Supplier": "quam",
-  "SupplierCode": "aut",
-  "Rights": "qui",
-  "Rule": "nostrum",
+  "Supplier": "est",
+  "SupplierCode": "rem",
+  "Rights": "nihil",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Boehm-White",
+      "Name": "Howe LLC",
       "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 232
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     },
     {
-      "Name": "Boehm-White",
+      "Name": "Howe LLC",
       "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 232
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     }
   ],
-  "RawExtraInfo": "repellendus",
-  "ExtraField1": "velit",
-  "ExtraField2": "fugiat",
-  "ExtraField3": "sed",
-  "ExtraField4": "vel",
-  "ExtraField5": "reprehenderit",
-  "InStock": 19534.221999999998,
+  "RawExtraInfo": "officia",
+  "ExtraField1": "beatae",
+  "ExtraField2": "voluptatum",
+  "ExtraField3": "nisi",
+  "ExtraField4": "inventore",
+  "ExtraField5": "sit",
+  "InStock": 11019.144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

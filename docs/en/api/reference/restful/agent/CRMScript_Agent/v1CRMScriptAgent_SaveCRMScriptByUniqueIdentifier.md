@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ipsum",
+  "UniqueIdentifier": "et",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aliquid",
-  "Name": "Heaney-Klein",
-  "Description": "Up-sized methodical capability",
-  "IncludeId": "sit",
-  "Source": "repudiandae",
-  "Registered": "2024-03-20T12:19:44.9923255+01:00",
-  "RegisteredBy": "et",
-  "Updated": "1997-03-20T12:19:44.9923255+01:00",
-  "UpdatedBy": "exercitationem",
-  "Path": "qui",
+  "UniqueIdentifier": "eligendi",
+  "Name": "Collier-Ernser",
+  "Description": "Reduced interactive array",
+  "IncludeId": "quis",
+  "Source": "sint",
+  "Registered": "2015-02-24T11:44:33.3223014+01:00",
+  "RegisteredBy": "ducimus",
+  "Updated": "2022-03-25T11:44:33.3223014+01:00",
+  "UpdatedBy": "aut",
+  "Path": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

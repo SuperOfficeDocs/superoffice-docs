@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 240,
-  "ColumnId": 735,
-  "FieldDefault": "ipsa",
-  "FieldHeight": 387,
-  "FieldLabel": "quia",
-  "FieldLeft": 789,
-  "FieldTop": 535,
+  "UDefFieldId": 916,
+  "ColumnId": 429,
+  "FieldDefault": "recusandae",
+  "FieldHeight": 641,
+  "FieldLabel": "beatae",
+  "FieldLeft": 322,
+  "FieldTop": 440,
   "FieldType": "Checkbox",
-  "FieldWidth": 833,
-  "FormatMask": "excepturi",
-  "HideLabel": true,
+  "FieldWidth": 390,
+  "FormatMask": "maxime",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 149,
-  "LabelLeft": 712,
-  "LabelTop": 294,
-  "LabelWidth": 964,
-  "LastVersionId": 400,
-  "ListTableId": 635,
-  "IsMandatory": true,
+  "LabelHeight": 223,
+  "LabelLeft": 502,
+  "LabelTop": 709,
+  "LabelWidth": 756,
+  "LastVersionId": 500,
+  "ListTableId": 996,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 339,
-  "ProgId": "saepe",
-  "IsReadOnly": false,
-  "ShortLabel": "magni",
-  "TabOrder": 856,
-  "TextLength": 558,
-  "Tooltip": "nostrum",
-  "UdefIdentity": 18,
-  "UDListDefinitionId": 345,
+  "Page1LineNo": 7,
+  "ProgId": "explicabo",
+  "IsReadOnly": true,
+  "ShortLabel": "nobis",
+  "TabOrder": 515,
+  "TextLength": 679,
+  "Tooltip": "numquam",
+  "UdefIdentity": 234,
+  "UDListDefinitionId": 761,
   "Justification": "Center",
-  "Version": 518,
-  "TemplateVariableName": "Hamill Inc and Sons",
+  "Version": 879,
+  "TemplateVariableName": "Konopelski, Sipes and Kessler",
   "HasBeenPublished": false,
-  "MdoListName": "Yost, Purdy and Bednar",
+  "MdoListName": "Brekke, Jacobi and Hessel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 906
     }
   }
 }

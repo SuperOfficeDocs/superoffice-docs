@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 975,
-  "MinDate": "2002-02-22T12:19:45.2266504+01:00",
-  "MaxDate": "2018-08-09T12:19:45.2266504+02:00",
+  "DocumentPluginId": 883,
+  "MinDate": "2023-01-10T11:44:33.5722192+01:00",
+  "MaxDate": "2002-09-21T11:44:33.5722192+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 455,
-  "NumDocumentsAlreadyMigrated": 529,
+  "NumDocumentsOmitted": 438,
+  "NumDocumentsAlreadyMigrated": 503,
   "Documents": [
     {
-      "DocumentId": 801,
-      "ContactId": 826,
-      "PersonId": 738,
-      "SaleId": 791,
-      "ProjectId": 583,
-      "DocTmplId": 198,
-      "AssociateId": 132,
-      "UserGroupId": 903,
-      "VisibleForId": 9
+      "DocumentId": 260,
+      "ContactId": 889,
+      "PersonId": 233,
+      "SaleId": 683,
+      "ProjectId": 309,
+      "DocTmplId": 25,
+      "AssociateId": 786,
+      "UserGroupId": 702,
+      "VisibleForId": 830
     }
   ],
   "Associates": [
     {
-      "AssociateId": 990,
-      "EmailAddress": "berry@conn.uk"
+      "AssociateId": 654,
+      "EmailAddress": "nola.bruen@morissette.biz"
     },
     {
-      "AssociateId": 990,
-      "EmailAddress": "berry@conn.uk"
+      "AssociateId": 654,
+      "EmailAddress": "nola.bruen@morissette.biz"
     }
   ]
 }

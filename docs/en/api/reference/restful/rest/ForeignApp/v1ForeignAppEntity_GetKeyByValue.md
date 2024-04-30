@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=harum
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=deleniti
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 10 Jun 2023 12:19:53 G6T
+Last-Modified: Fri, 21 Nov 2008 11:44:42 G11T
 
 {
-  "Key": "nihil",
-  "Value": "adipisci",
-  "RecordId": 81,
-  "CreatedDate": "1999-12-15T12:19:53.6023745+01:00",
-  "UpdatedDate": "2023-06-10T12:19:53.6023745+02:00",
-  "UpdatedBy": "eaque",
-  "CreatedBy": "non",
-  "TableName": "Kunde Group",
+  "Key": "quaerat",
+  "Value": "sit",
+  "RecordId": 127,
+  "CreatedDate": "2006-02-25T11:44:42.0077636+01:00",
+  "UpdatedDate": "2008-11-21T11:44:42.0077636+01:00",
+  "UpdatedBy": "est",
+  "CreatedBy": "recusandae",
+  "TableName": "Reichert-Wolff",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 494
     }
   }
 }

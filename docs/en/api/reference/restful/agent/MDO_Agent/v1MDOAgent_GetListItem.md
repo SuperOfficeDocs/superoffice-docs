@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Hagenes Group",
-  "Id": 248
+  "ListName": "Howell Group",
+  "Id": 492
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Name": "Farrell, Kozey and Jast",
-  "ToolTip": "Laborum eos alias vel et sequi.",
-  "Deleted": true,
-  "Rank": 158,
-  "Type": "illum",
+  "Id": 387,
+  "Name": "Ernser, Schiller and Hermann",
+  "ToolTip": "Repellendus pariatur in dolores repellendus.",
+  "Deleted": false,
+  "Rank": 928,
+  "Type": "est",
   "ChildItems": [
     {
-      "Id": 399,
-      "Name": "Hyatt, Jewess and Collier",
-      "ToolTip": "Cumque consequatur est.",
-      "Deleted": true,
-      "Rank": 250,
-      "Type": "quia",
+      "Id": 417,
+      "Name": "Auer-McClure",
+      "ToolTip": "Incidunt ipsa vel non voluptatem.",
+      "Deleted": false,
+      "Rank": 215,
+      "Type": "ratione",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fugiat",
-      "ColorBlock": 788,
-      "ExtraInfo": "maiores",
-      "StyleHint": "et",
-      "FullName": "Dr. Gabriel Eric Hickle",
+      "IconHint": "accusamus",
+      "ColorBlock": 9,
+      "ExtraInfo": "occaecati",
+      "StyleHint": "error",
+      "FullName": "Bonnie Fadel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldType": "System.String",
+          "FieldLength": 549
         }
       }
     }
   ],
-  "IconHint": "magnam",
-  "ColorBlock": 9,
-  "ExtraInfo": "iste",
-  "StyleHint": "accusantium",
-  "FullName": "Dr. Kristian Norene Hessel",
+  "IconHint": "quibusdam",
+  "ColorBlock": 915,
+  "ExtraInfo": "sed",
+  "StyleHint": "nemo",
+  "FullName": "Mckenna Rogahn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 550
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Reilly LLC",
-    "Parker LLC"
+    "Macejkovic-Emmerich",
+    "Boyer Group"
   ],
-  "Culture": "soluta",
-  "ActiveOnly": true
+  "Culture": "quos",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Spinka LLC",
-    "ResourceValue": "perspiciatis",
-    "Culture": "reiciendis",
+    "ResourceName": "O'Reilly-Bruen",
+    "ResourceValue": "eos",
+    "Culture": "ex",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 632
+        "FieldType": "System.Int32",
+        "FieldLength": 650
       }
     }
   },
   {
-    "ResourceName": "Spinka LLC",
-    "ResourceValue": "perspiciatis",
-    "Culture": "reiciendis",
+    "ResourceName": "O'Reilly-Bruen",
+    "ResourceValue": "eos",
+    "Culture": "ex",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 632
+        "FieldType": "System.Int32",
+        "FieldLength": 650
       }
     }
   }

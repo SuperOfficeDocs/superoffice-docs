@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Quigley Inc and Sons",
-  "Tooltip": "sint",
+  "Id": 407,
+  "Name": "Kovacek, Fay and Farrell",
+  "Tooltip": "magni",
   "Deleted": false,
-  "UdListDefinitionId": 153,
-  "Rank": 384,
+  "UdListDefinitionId": 491,
+  "Rank": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 386
     }
   }
 }

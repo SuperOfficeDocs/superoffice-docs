@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "deleniti",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "deleniti",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 863,
-  "Name": "Champlin LLC",
-  "Config": "commodi",
-  "Rank": 780,
-  "Client": "sit",
-  "Style": "et",
+  "DashboardThemeId": 357,
+  "Name": "Emard Group",
+  "Config": "velit",
+  "Rank": 45,
+  "Client": "neque",
+  "Style": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

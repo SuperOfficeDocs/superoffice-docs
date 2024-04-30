@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bernier Group",
+  "Name": "O'Conner-Swift",
   "ForceFlatList": true,
-  "AdditionalInfo": "molestiae",
-  "OnlyHistory": true
+  "AdditionalInfo": "consequuntur",
+  "OnlyHistory": false
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Feil Inc and Sons",
-    "ToolTip": "Id corporis nihil deleniti ut ut explicabo consequatur.",
-    "Deleted": false,
-    "Rank": 870,
-    "Type": "cum",
+    "Id": 520,
+    "Name": "Ferry Group",
+    "ToolTip": "Aut dolores explicabo debitis voluptatem quos magnam.",
+    "Deleted": true,
+    "Rank": 963,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Farrell-Goodwin",
-        "ToolTip": "Sed quia quibusdam.",
+        "Id": 357,
+        "Name": "Rolfson Group",
+        "ToolTip": "Autem est.",
         "Deleted": false,
-        "Rank": 911,
-        "Type": "sit",
+        "Rank": 206,
+        "Type": "exercitationem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 587,
-        "ExtraInfo": "sequi",
-        "StyleHint": "numquam",
-        "FullName": "Ella Harris",
+        "IconHint": "porro",
+        "ColorBlock": 363,
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "in",
+        "FullName": "Cruz Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldType": "System.String",
+            "FieldLength": 210
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 884,
-    "ExtraInfo": "alias",
-    "StyleHint": "totam",
-    "FullName": "Ms. Henderson Lily O'Hara Jr.",
+    "IconHint": "dolor",
+    "ColorBlock": 74,
+    "ExtraInfo": "facere",
+    "StyleHint": "ipsum",
+    "FullName": "Kirk Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 833
       }
     }
   }

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 710
+  "SaleId": 666
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Hayes-Beer",
-    "Comment": "ducimus",
-    "StakeholderRoleId": 389,
-    "CountryId": 774,
-    "PersonId": 418,
-    "EmailDescription": "jamie@schinnerkovacek.us",
-    "EmailId": 381,
-    "EmailAddress": "brock@wintheiser.uk",
-    "PhoneId": 143,
-    "ContactName": "Stracke LLC",
-    "ContactId": 10,
-    "SaleId": 477,
-    "Mrmrs": "aliquam",
-    "Firstname": "Triston",
-    "MiddleName": "Walker LLC",
-    "Lastname": "Simonis",
-    "SaleStakeholderId": 381,
-    "Rank": 215,
-    "Phone": "407.329.5007 x037",
+    "StakeholderRoleName": "Kulas-Skiles",
+    "Comment": "ab",
+    "StakeholderRoleId": 336,
+    "CountryId": 934,
+    "PersonId": 349,
+    "EmailDescription": "paul.hartmann@ortizweissnat.co.uk",
+    "EmailId": 278,
+    "EmailAddress": "freeda_lindgren@mueller.biz",
+    "PhoneId": 586,
+    "ContactName": "Kozey Group",
+    "ContactId": 672,
+    "SaleId": 491,
+    "Mrmrs": "dolores",
+    "Firstname": "Justus",
+    "MiddleName": "Dickinson, Batz and Wunsch",
+    "Lastname": "Wilderman",
+    "SaleStakeholderId": 518,
+    "Rank": 241,
+    "Phone": "229.784.7895",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldLength": 898
       }
     }
   }

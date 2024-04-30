@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 736,
-  "Name": "Christiansen LLC",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 929,
+  "Id": 244,
+  "Name": "Ratke, Schumm and Kuphal",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 115,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "exercitationem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldLength": 455
     }
   }
 }

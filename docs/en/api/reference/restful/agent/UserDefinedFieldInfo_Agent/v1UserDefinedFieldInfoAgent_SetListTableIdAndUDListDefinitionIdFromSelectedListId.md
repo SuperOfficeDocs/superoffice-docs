@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 597
+  "SelectedListId": 992
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 628,
-  "ColumnId": 624,
-  "FieldDefault": "assumenda",
-  "FieldHeight": 130,
-  "FieldLabel": "ut",
-  "FieldLeft": 316,
-  "FieldTop": 435,
+  "UDefFieldId": 802,
+  "ColumnId": 318,
+  "FieldDefault": "temporibus",
+  "FieldHeight": 552,
+  "FieldLabel": "doloremque",
+  "FieldLeft": 396,
+  "FieldTop": 366,
   "FieldType": "Checkbox",
-  "FieldWidth": 866,
-  "FormatMask": "ut",
+  "FieldWidth": 762,
+  "FormatMask": "repellat",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 854,
-  "LabelLeft": 100,
-  "LabelTop": 170,
-  "LabelWidth": 444,
-  "LastVersionId": 702,
-  "ListTableId": 465,
+  "LabelHeight": 848,
+  "LabelLeft": 549,
+  "LabelTop": 80,
+  "LabelWidth": 307,
+  "LastVersionId": 237,
+  "ListTableId": 568,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 40,
-  "ProgId": "ipsa",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 913,
-  "TextLength": 685,
-  "Tooltip": "et",
-  "UdefIdentity": 279,
-  "UDListDefinitionId": 128,
+  "Page1LineNo": 486,
+  "ProgId": "ea",
+  "IsReadOnly": true,
+  "ShortLabel": "non",
+  "TabOrder": 365,
+  "TextLength": 300,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 896,
+  "UDListDefinitionId": 977,
   "Justification": "Center",
-  "Version": 511,
-  "TemplateVariableName": "Jones, Pacocha and Heidenreich",
+  "Version": 781,
+  "TemplateVariableName": "Haley-Veum",
   "HasBeenPublished": false,
-  "MdoListName": "Williamson-Murray",
+  "MdoListName": "Turcotte-Murphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 67
     }
   }
 }

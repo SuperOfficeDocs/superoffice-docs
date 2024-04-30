@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 680
+  "DocumentId": 768
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "aspernatur",
-    "DocumentId": 298,
-    "VersionId": "optio",
-    "CheckedInDate": "2023-06-04T12:19:45.1954094+02:00",
-    "CheckedInByName": "Wolff LLC",
-    "CheckedInByAssociateId": 737,
-    "Description": "Upgradable assymetric concept",
-    "DisplayText": "asperiores",
+    "ExternalReference": "dolor",
+    "DocumentId": 407,
+    "VersionId": "nostrum",
+    "CheckedInDate": "2008-11-25T11:44:33.5253557+01:00",
+    "CheckedInByName": "Brekke-Williamson",
+    "CheckedInByAssociateId": 777,
+    "Description": "Cloned systemic moratorium",
+    "DisplayText": "reiciendis",
     "ExtraFields": [
-      "iste",
-      "aut"
+      "voluptatem",
+      "est"
     ]
   }
 ]

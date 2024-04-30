@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 800,
-    "Name": "Walsh, McDermott and Gulgowski",
-    "Tooltip": "delectus",
+    "HeadingId": 600,
+    "Name": "Weissnat Inc and Sons",
+    "Tooltip": "in",
     "Deleted": true,
-    "Rank": 918,
-    "UdListDefinitionId": 953,
+    "Rank": 365,
+    "UdListDefinitionId": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 476
       }
     }
   }

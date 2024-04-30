@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 243
+  "MailItemId": 155
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 491,
-  "StartDate": "2014-05-10T12:19:45.2578956+02:00",
-  "EndDate": "2009-12-25T12:19:45.2578956+01:00",
-  "RecurrenceCounter": 378,
+  "RecurrenceId": 934,
+  "StartDate": "2020-06-20T11:44:33.6034713+02:00",
+  "EndDate": "2016-08-22T11:44:33.6034713+02:00",
+  "RecurrenceCounter": 808,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2007-08-31T12:19:45.2578956+02:00",
-      "IsConflict": true,
-      "Description": "Pre-emptive multi-state architecture",
-      "DescriptionStyleHint": "Upgradable radical firmware",
-      "Tooltip": "quia"
+      "Date": "2012-03-30T11:44:33.6034713+02:00",
+      "IsConflict": false,
+      "Description": "Compatible fault-tolerant forecast",
+      "DescriptionStyleHint": "De-engineered even-keeled encryption",
+      "Tooltip": "vel"
     },
     {
-      "Date": "2007-08-31T12:19:45.2578956+02:00",
-      "IsConflict": true,
-      "Description": "Pre-emptive multi-state architecture",
-      "DescriptionStyleHint": "Upgradable radical firmware",
-      "Tooltip": "quia"
+      "Date": "2012-03-30T11:44:33.6034713+02:00",
+      "IsConflict": false,
+      "Description": "Compatible fault-tolerant forecast",
+      "DescriptionStyleHint": "De-engineered even-keeled encryption",
+      "Tooltip": "vel"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

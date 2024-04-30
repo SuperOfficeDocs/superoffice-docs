@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=aut
+GET /api/v1/List/SelectionCategory/MDOItems?query=quae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Lindgren, Larson and Sipes",
-    "ToolTip": "Voluptas ut magni libero eius officiis.",
-    "Deleted": true,
-    "Rank": 453,
-    "Type": "porro",
+    "Id": 446,
+    "Name": "Brakus LLC",
+    "ToolTip": "Nobis totam qui.",
+    "Deleted": false,
+    "Rank": 102,
+    "Type": "totam",
     "ChildItems": [
       {
-        "Id": 846,
-        "Name": "Wiza LLC",
-        "ToolTip": "Est rerum voluptatem quo dolores aperiam sed.",
+        "Id": 279,
+        "Name": "Skiles Inc and Sons",
+        "ToolTip": "Cumque recusandae ducimus enim quis.",
         "Deleted": false,
-        "Rank": 500,
-        "Type": "ut",
+        "Rank": 13,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 445,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "et",
-        "FullName": "Frederique Donnelly",
+        "IconHint": "sed",
+        "ColorBlock": 591,
+        "ExtraInfo": "et",
+        "StyleHint": "at",
+        "FullName": "Miss Earline Elena Huels IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 227
+            "FieldLength": 401
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 626,
-    "ExtraInfo": "aut",
-    "StyleHint": "aut",
-    "FullName": "Darrick Moriah Leannon DVM",
+    "IconHint": "animi",
+    "ColorBlock": 606,
+    "ExtraInfo": "nobis",
+    "StyleHint": "officiis",
+    "FullName": "Vaughn Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 15
+        "FieldType": "System.Int32",
+        "FieldLength": 538
       }
     }
   }

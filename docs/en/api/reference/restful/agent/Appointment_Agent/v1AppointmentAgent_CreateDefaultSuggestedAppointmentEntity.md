@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 699,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "nemo",
-  "Rank": 449,
+  "SuggestedAppointmentId": 187,
+  "Name": "Kuphal Inc and Sons",
+  "Tooltip": "aut",
+  "Rank": 532,
   "Deleted": false,
-  "DaysFuture": 185,
-  "Duration": "debitis",
-  "AutoSuggest": true,
+  "DaysFuture": 698,
+  "Duration": "et",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "culpa",
+  "Text": "debitis",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 670
     }
   }
 }

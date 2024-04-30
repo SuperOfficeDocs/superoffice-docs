@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 205,
-  "ERPProductKey": "iusto",
-  "ERPPriceListKey": "qui",
-  "Name": "Boyer, Breitenberg and Berge",
-  "Description": "Vision-oriented 3rd generation conglomeration",
-  "Code": "deserunt",
-  "PriceUnit": "ut",
-  "QuantityUnit": "quis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "provident",
-  "DefaultSubscriptionQuantity": 30346.521999999997,
-  "ItemNumber": "1167536",
+  "ProductId": 556,
+  "ERPProductKey": "consequatur",
+  "ERPPriceListKey": "aut",
+  "Name": "Haley, Rolfson and Padberg",
+  "Description": "Intuitive responsive synergy",
+  "Code": "quidem",
+  "PriceUnit": "modi",
+  "QuantityUnit": "voluptatem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "repellendus",
+  "DefaultSubscriptionQuantity": 22975.354,
+  "ItemNumber": "1044360",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "a",
-  "ProductTypeKey": "modi",
-  "VAT": 10226.242,
-  "VATInfo": "illo",
-  "UnitCost": 18415.384,
-  "UnitMinimumPrice": 26980.606,
-  "UnitListPrice": 18023.634,
-  "InAssortment": true,
-  "Supplier": "quidem",
-  "SupplierCode": "harum",
-  "Rights": "eum",
-  "Rule": "repudiandae",
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "temporibus",
+  "VAT": 764.696,
+  "VATInfo": "minus",
+  "UnitCost": 22160.514,
+  "UnitMinimumPrice": 12488.99,
+  "UnitListPrice": 10157.294,
+  "InAssortment": false,
+  "Supplier": "repudiandae",
+  "SupplierCode": "sequi",
+  "Rights": "dolorem",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Robel, Wolff and Harvey",
-      "Value": "enim",
+      "Name": "Stark-Miller",
+      "Value": "itaque",
       "Type": "Image"
     },
     {
-      "Name": "Robel, Wolff and Harvey",
-      "Value": "enim",
+      "Name": "Stark-Miller",
+      "Value": "itaque",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "minus",
-  "ExtraField1": "deleniti",
-  "ExtraField2": "quo",
-  "ExtraField3": "suscipit",
-  "ExtraField4": "beatae",
-  "ExtraField5": "unde",
-  "InStock": 24949.773999999998
+  "RawExtraInfo": "ut",
+  "ExtraField1": "blanditiis",
+  "ExtraField2": "ratione",
+  "ExtraField3": "culpa",
+  "ExtraField4": "sed",
+  "ExtraField5": "omnis",
+  "InStock": 16325.006
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 826,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "nihil",
-  "Name": "Schuster-Ortiz",
-  "Description": "User-friendly scalable policy",
-  "Code": "officiis",
-  "PriceUnit": "cum",
-  "QuantityUnit": "culpa",
+  "ProductId": 580,
+  "ERPProductKey": "sunt",
+  "ERPPriceListKey": "esse",
+  "Name": "Hammes Group",
+  "Description": "Face to face client-server standardization",
+  "Code": "quis",
+  "PriceUnit": "natus",
+  "QuantityUnit": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "DefaultSubscriptionQuantity": 29268.426,
-  "ItemNumber": "1157206",
+  "SubscriptionUnit": "nobis",
+  "DefaultSubscriptionQuantity": 26338.136,
+  "ItemNumber": "1678109",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eius",
-  "ProductTypeKey": "consequatur",
-  "VAT": 3654.2439999999997,
-  "VATInfo": "voluptates",
-  "UnitCost": 9837.626,
-  "UnitMinimumPrice": 27949.012,
-  "UnitListPrice": 2419.448,
-  "InAssortment": false,
-  "Supplier": "molestiae",
-  "SupplierCode": "cum",
-  "Rights": "iure",
-  "Rule": "aut",
+  "ProductFamilyKey": "maiores",
+  "ProductTypeKey": "debitis",
+  "VAT": 10592.92,
+  "VATInfo": "et",
+  "UnitCost": 29929.7,
+  "UnitMinimumPrice": 27792.311999999998,
+  "UnitListPrice": 1009.1479999999999,
+  "InAssortment": true,
+  "Supplier": "sequi",
+  "SupplierCode": "modi",
+  "Rights": "totam",
+  "Rule": "in",
   "ExtraInfo": [
     {
-      "Name": "Goodwin Group",
-      "Value": "laudantium",
+      "Name": "Wiza-Reynolds",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     },
     {
-      "Name": "Goodwin Group",
-      "Value": "laudantium",
+      "Name": "Wiza-Reynolds",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     }
   ],
-  "RawExtraInfo": "vero",
-  "ExtraField1": "repellendus",
-  "ExtraField2": "ut",
-  "ExtraField3": "eum",
-  "ExtraField4": "non",
-  "ExtraField5": "soluta",
-  "InStock": 2353.634,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "laudantium",
+  "ExtraField2": "aut",
+  "ExtraField3": "amet",
+  "ExtraField4": "incidunt",
+  "ExtraField5": "omnis",
+  "InStock": 17287.144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

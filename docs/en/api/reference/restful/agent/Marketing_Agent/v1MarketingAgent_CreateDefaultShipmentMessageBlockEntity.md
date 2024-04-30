@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 933,
-  "AssociateId": 190,
-  "Block": "voluptatibus",
-  "Registered": "2005-05-09T12:19:45.585943+02:00",
-  "RegisteredAssociateId": 339,
-  "Updated": "2023-11-07T12:19:45.585943+01:00",
-  "UpdatedAssociateId": 229,
-  "UpdatedCount": 314,
+  "ShipmentMessageBlockId": 104,
+  "AssociateId": 624,
+  "Block": "accusantium",
+  "Registered": "2004-10-25T11:44:33.9315193+02:00",
+  "RegisteredAssociateId": 53,
+  "Updated": "2005-01-29T11:44:33.9315193+01:00",
+  "UpdatedAssociateId": 991,
+  "UpdatedCount": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

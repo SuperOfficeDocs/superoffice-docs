@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Walter, Simonis and Zieme",
-    "ToolTip": "Labore magnam.",
-    "Deleted": true,
-    "Rank": 802,
-    "Type": "quidem",
-    "ColorBlock": 542,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2008-02-20T12:19:54.7427332+01:00",
+    "Id": 266,
+    "Name": "Hackett, Kiehn and Hilpert",
+    "ToolTip": "Explicabo ea non distinctio velit dolorem sed.",
+    "Deleted": false,
+    "Rank": 287,
+    "Type": "molestiae",
+    "ColorBlock": 340,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "2012-04-19T11:44:43.2418644+02:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Morar-Wisozk",
-        "ToolTip": "Placeat magnam sunt eos quo et assumenda voluptatibus.",
-        "Deleted": false,
-        "Rank": 131,
-        "Type": "debitis",
-        "ColorBlock": 68,
-        "IconHint": "earum",
+        "Id": 955,
+        "Name": "Keeling, Sanford and Dare",
+        "ToolTip": "Non doloremque porro aut quibusdam et.",
+        "Deleted": true,
+        "Rank": 316,
+        "Type": "doloremque",
+        "ColorBlock": 790,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2001-02-07T12:19:54.7427332+01:00",
+        "LastChanged": "2008-12-27T11:44:43.2418644+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "error",
+        "ExtraInfo": "et",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Theodore Blanda",
+        "FullName": "Hildegard Christiansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 255
+            "FieldType": "System.Int32",
+            "FieldLength": 948
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "dolorum",
-    "Hidden": false,
-    "FullName": "Lilla Jewess",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Pascale Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 103
       }
     }
   }

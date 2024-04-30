@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "at"
+  "ProgId": "molestias"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 878,
-  "Name": "Dooley-Kuhic",
-  "Tooltip": "est",
+  "WebPanelId": 683,
+  "Name": "Hoeger Group",
+  "Tooltip": "fugiat",
   "Deleted": true,
-  "Rank": 940,
+  "Rank": 772,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Yundt-Toy",
+  "ShowInStatusBar": false,
+  "WindowName": "Gislason LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "veritatis",
-  "Icon": 138,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "quod",
+  "Icon": 635,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldLength": 273
     }
   }
 }

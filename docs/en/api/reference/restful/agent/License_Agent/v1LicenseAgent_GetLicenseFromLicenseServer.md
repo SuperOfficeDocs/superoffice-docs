@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hackett, Flatley and Cartwright"
+  "OwnerName": "Koch Inc and Sons"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 768,
-      "NumberOfLicensesFree": 153,
-      "NumberOfLicensesAdded": 547,
-      "NumberOfLicensesNewTotal": 666,
-      "NumberOfLicensesNewFree": 974,
-      "NumberOfLicensesTotal": 747
+      "NumberOfLicensesInUse": 453,
+      "NumberOfLicensesFree": 886,
+      "NumberOfLicensesAdded": 167,
+      "NumberOfLicensesNewTotal": 53,
+      "NumberOfLicensesNewFree": 639,
+      "NumberOfLicensesTotal": 260
     }
   ],
-  "AccumulatedNextCheckDate": "1998-04-19T12:19:45.4297292+02:00"
+  "AccumulatedNextCheckDate": "2020-05-06T11:44:33.7753083+02:00"
 }
 ```

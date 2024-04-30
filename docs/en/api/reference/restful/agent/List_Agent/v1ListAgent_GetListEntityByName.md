@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Halvorson Group"
+  "Name": "Herzog LLC"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Hane, Braun and Terry",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 479,
+  "Id": 91,
+  "Name": "Swift, Harris and Von",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 784,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "amet",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sint",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 160
     }
   }
 }

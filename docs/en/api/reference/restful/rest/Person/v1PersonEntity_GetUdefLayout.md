@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 196,
-    "ColumnId": 851,
-    "FieldDefault": "doloribus",
-    "FieldHeight": 110,
-    "FieldLabel": "velit",
-    "FieldLeft": 966,
-    "FieldTop": 734,
+    "UDefFieldId": 65,
+    "ColumnId": 984,
+    "FieldDefault": "et",
+    "FieldHeight": 329,
+    "FieldLabel": "suscipit",
+    "FieldLeft": 582,
+    "FieldTop": 361,
     "FieldType": "Checkbox",
-    "FieldWidth": 872,
-    "FormatMask": "eius",
+    "FieldWidth": 25,
+    "FormatMask": "consequatur",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 13,
-    "LabelLeft": 848,
-    "LabelTop": 548,
-    "LabelWidth": 946,
-    "LastVersionId": 330,
-    "ListTableId": 141,
+    "IsIndexed": false,
+    "LabelHeight": 306,
+    "LabelLeft": 933,
+    "LabelTop": 575,
+    "LabelWidth": 476,
+    "LastVersionId": 15,
+    "ListTableId": 128,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 422,
-    "ProgId": "harum",
+    "Page1LineNo": 549,
+    "ProgId": "sit",
     "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 299,
-    "TextLength": 737,
-    "Tooltip": "voluptatum",
-    "UdefIdentity": 935,
-    "UDListDefinitionId": 722,
+    "ShortLabel": "et",
+    "TabOrder": 235,
+    "TextLength": 637,
+    "Tooltip": "deserunt",
+    "UdefIdentity": 791,
+    "UDListDefinitionId": 331,
     "Justification": "Center",
-    "Version": 264,
-    "TemplateVariableName": "Kuhlman-Lubowitz",
-    "HasBeenPublished": true,
-    "MdoListName": "Dooley, Littel and Green",
+    "Version": 143,
+    "TemplateVariableName": "Langosh LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Goodwin, Kub and Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

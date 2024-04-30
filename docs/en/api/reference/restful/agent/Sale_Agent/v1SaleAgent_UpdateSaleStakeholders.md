@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Bartoletti, Rau and Thompson",
-      "Comment": "necessitatibus",
-      "StakeholderRoleId": 640,
-      "CountryId": 520,
-      "PersonId": 708,
-      "EmailDescription": "yasmin@rowe.name",
-      "EmailId": 683,
-      "EmailAddress": "coty@nicolas.co.uk",
-      "PhoneId": 166,
-      "ContactName": "Wehner-Conroy",
-      "ContactId": 367,
-      "SaleId": 425,
-      "Mrmrs": "aperiam",
-      "Firstname": "Vernice",
-      "MiddleName": "Toy LLC",
-      "Lastname": "Kling",
-      "SaleStakeholderId": 673,
-      "Rank": 308,
-      "Phone": "(312)383-9786 x1102"
+      "StakeholderRoleName": "Spinka-Hudson",
+      "Comment": "dolor",
+      "StakeholderRoleId": 193,
+      "CountryId": 705,
+      "PersonId": 417,
+      "EmailDescription": "geovanni.hills@wisozk.info",
+      "EmailId": 741,
+      "EmailAddress": "lavern@gradylang.biz",
+      "PhoneId": 117,
+      "ContactName": "Rowe, Reichert and Jacobson",
+      "ContactId": 347,
+      "SaleId": 3,
+      "Mrmrs": "doloribus",
+      "Firstname": "Natasha",
+      "MiddleName": "Vandervort-Mohr",
+      "Lastname": "Labadie",
+      "SaleStakeholderId": 876,
+      "Rank": 98,
+      "Phone": "(137)822-6690 x21979"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Kirlin-Lang",
-    "Comment": "quis",
-    "StakeholderRoleId": 377,
-    "CountryId": 999,
-    "PersonId": 120,
-    "EmailDescription": "sheridan.parker@runolfsdottir.ca",
-    "EmailId": 582,
-    "EmailAddress": "aurore@hoeger.name",
-    "PhoneId": 725,
-    "ContactName": "Walker-Marks",
-    "ContactId": 13,
-    "SaleId": 244,
-    "Mrmrs": "modi",
-    "Firstname": "Clovis",
-    "MiddleName": "Hamill, Hermiston and Mayert",
-    "Lastname": "Will",
-    "SaleStakeholderId": 652,
-    "Rank": 656,
-    "Phone": "435.646.0890 x6416",
+    "StakeholderRoleName": "Grimes, Blanda and Hyatt",
+    "Comment": "ex",
+    "StakeholderRoleId": 510,
+    "CountryId": 71,
+    "PersonId": 621,
+    "EmailDescription": "christ_schaden@white.com",
+    "EmailId": 636,
+    "EmailAddress": "maritza_schowalter@kunze.info",
+    "PhoneId": 298,
+    "ContactName": "Gottlieb-Champlin",
+    "ContactId": 937,
+    "SaleId": 531,
+    "Mrmrs": "quae",
+    "Firstname": "Cicero",
+    "MiddleName": "Parisian, Rosenbaum and Lubowitz",
+    "Lastname": "Schaden",
+    "SaleStakeholderId": 949,
+    "Rank": 138,
+    "Phone": "180.873.6290 x168",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldType": "System.String",
+        "FieldLength": 910
       }
     }
   }

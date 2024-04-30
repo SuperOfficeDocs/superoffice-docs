@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bernhard Inc and Sons",
-  "HeadingId": 361
+  "UdListDefinitionName": "Purdy-Stroman",
+  "HeadingId": 124
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "O'Connell-Flatley",
-    "ToolTip": "Aut veritatis dolor dignissimos praesentium.",
-    "Deleted": false,
-    "Rank": 695,
-    "Type": "aut",
-    "ColorBlock": 807,
-    "IconHint": "doloremque",
+    "Id": 80,
+    "Name": "Johnson, Reichert and Heathcote",
+    "ToolTip": "Ad ad similique.",
+    "Deleted": true,
+    "Rank": 377,
+    "Type": "nulla",
+    "ColorBlock": 90,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2005-07-03T12:19:45.5078373+02:00",
+    "LastChanged": "2014-12-07T11:44:33.8534097+01:00",
     "ChildItems": [
       {
-        "Id": 681,
-        "Name": "Lakin, Little and Kemmer",
-        "ToolTip": "Unde et in voluptatem voluptatem dolorum odit.",
+        "Id": 461,
+        "Name": "Lind Group",
+        "ToolTip": "Harum quidem amet.",
         "Deleted": false,
-        "Rank": 253,
-        "Type": "nesciunt",
-        "ColorBlock": 601,
-        "IconHint": "vel",
+        "Rank": 232,
+        "Type": "ut",
+        "ColorBlock": 665,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "1998-05-10T12:19:45.5078373+02:00",
+        "LastChanged": "2008-11-26T11:44:33.8534097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Gianni Schmitt",
+        "FullName": "Celestine Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 902
+            "FieldType": "System.String",
+            "FieldLength": 678
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Lance Howe",
+    "ExtraInfo": "unde",
+    "StyleHint": "nesciunt",
+    "Hidden": false,
+    "FullName": "Dr. Nickolas Swaniawski PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 512
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

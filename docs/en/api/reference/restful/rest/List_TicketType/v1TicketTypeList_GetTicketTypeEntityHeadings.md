@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 263,
-    "Name": "Padberg, Hickle and Bruen",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "Rank": 16,
-    "UdListDefinitionId": 913,
+    "HeadingId": 789,
+    "Name": "Kuhic-Green",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 71,
+    "UdListDefinitionId": 188,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldLength": 701
       }
     }
   }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 541
+  "UserGroupId": 362
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 984,
+    "TargetAssignmentInfoId": 521,
     "Values": [
-      601,
-      838
+      363,
+      757
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 535,
-    "DimensionListItemDisplayName": "Runte-Hettinger",
+    "DimensionListItem": 55,
+    "DimensionListItemDisplayName": "Koss-Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

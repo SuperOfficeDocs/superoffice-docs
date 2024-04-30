@@ -62,8 +62,6 @@ foreach (var item in listProvider.RootItems) {
 |47|ResourceItem 7: Heading 2||associate_id=47&location=False|
 |48|ResourceItem 8: Heading 2||associate_id=48&location=False|
 |49|ResourceItem 9: Heading 2||associate_id=49&location=False|
-|50|ResourceItem 10: Heading 3||associate_id=50&location=False|
-|51|ResourceItem 11: Heading 3||associate_id=51&location=False|
 |79|ResourceItem 12: Heading 1 og 3||associate_id=79&location=False|
 |80|ResourceItem 13: Heading 2 og 3||associate_id=80&location=False|
 

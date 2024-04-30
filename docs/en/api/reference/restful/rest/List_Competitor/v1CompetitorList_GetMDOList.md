@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=voluptatem
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Hackett LLC",
-    "ToolTip": "Laudantium optio sequi facere iure et.",
+    "Id": 685,
+    "Name": "Corkery, Kovacek and Christiansen",
+    "ToolTip": "Molestiae magni quia occaecati facilis.",
     "Deleted": false,
-    "Rank": 288,
-    "Type": "est",
+    "Rank": 108,
+    "Type": "temporibus",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Quitzon, Gaylord and Harber",
-        "ToolTip": "Numquam id officia.",
-        "Deleted": false,
-        "Rank": 251,
-        "Type": "quaerat",
+        "Id": 322,
+        "Name": "Marks-Eichmann",
+        "ToolTip": "Tenetur cupiditate.",
+        "Deleted": true,
+        "Rank": 855,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 300,
-        "ExtraInfo": "autem",
-        "StyleHint": "saepe",
-        "FullName": "Kip Stark",
+        "IconHint": "eos",
+        "ColorBlock": 953,
+        "ExtraInfo": "sed",
+        "StyleHint": "in",
+        "FullName": "Eugene Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 792
           }
         }
       }
     ],
-    "IconHint": "beatae",
-    "ColorBlock": 924,
-    "ExtraInfo": "amet",
-    "StyleHint": "qui",
-    "FullName": "Mrs. Dan Goodwin",
+    "IconHint": "rerum",
+    "ColorBlock": 8,
+    "ExtraInfo": "repellat",
+    "StyleHint": "mollitia",
+    "FullName": "Alfonso Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 726
+        "FieldType": "System.Int32",
+        "FieldLength": 643
       }
     }
   }

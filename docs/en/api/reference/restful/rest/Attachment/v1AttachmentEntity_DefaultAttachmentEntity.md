@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 863,
-  "Name": "Hyatt LLC",
-  "ContentType": "voluptatem",
-  "AttSize": 978,
+  "AttachmentId": 460,
+  "Name": "Waters-Koelpin",
+  "ContentType": "reprehenderit",
+  "AttSize": 568,
   "InlineImage": false,
-  "ContentId": "dolorem",
-  "AuthKey": "quae",
-  "IsSafeFileExtension": true,
+  "ContentId": "eum",
+  "AuthKey": "quos",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 755
     }
   }
 }

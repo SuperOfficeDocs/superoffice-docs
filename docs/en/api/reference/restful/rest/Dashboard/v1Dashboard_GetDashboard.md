@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 246,
-  "AssociateId": 552,
-  "Caption": "quam",
+  "DashboardId": 711,
+  "AssociateId": 837,
+  "Caption": "modi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 517,
-      "Caption": "accusamus",
-      "Description": "Robust discrete workforce",
-      "ChartName": "Ratke LLC",
-      "ChartId": "perspiciatis",
-      "IsDefault": true,
-      "AssociateId": 453,
-      "GroupId": 763,
-      "SelectionId": 304,
-      "Config": "soluta",
+      "DashboardTileId": 592,
+      "Caption": "quos",
+      "Description": "Advanced empowering database",
+      "ChartName": "Effertz, Macejkovic and Casper",
+      "ChartId": "saepe",
+      "IsDefault": false,
+      "AssociateId": 287,
+      "GroupId": 458,
+      "SelectionId": 54,
+      "Config": "dolorem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldLength": 847
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 850
     }
   },
   "_Links": {

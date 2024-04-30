@@ -67,7 +67,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Windler, Crooks and Cronin",
-    "DisplayName": "Dooley LLC",
-    "Description": "Multi-layered fault-tolerant hub",
-    "ShortLabel": "voluptas",
+    "FieldName": "Pagac LLC",
+    "DisplayName": "Lubowitz LLC",
+    "Description": "Networked web-enabled contingency",
+    "ShortLabel": "itaque",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 567,
-    "TemplateVariableName": "Schmidt-Lueilwitz"
+    "Rank": 705,
+    "TemplateVariableName": "Graham, Hodkiewicz and Botsford"
   }
 ]
 ```

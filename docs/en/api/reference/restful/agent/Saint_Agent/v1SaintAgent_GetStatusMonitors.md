@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Type": "adipisci"
+  "Id": 506,
+  "Type": "iste"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 240,
-    "Rank": 70,
-    "DefaultTask": 181,
-    "DefaultTaskText": "voluptate",
-    "IsVisual": false,
-    "LastGenerated": "2011-08-28T12:19:46.1483123+02:00",
-    "Description": "Profit-focused directional success",
-    "Name": "Thiel, Bayer and Gleason",
-    "StatusMonitorId": 580,
-    "PictureId": 579,
-    "NeedsUpdate": true,
+    "OwnerTable": 52,
+    "Rank": 653,
+    "DefaultTask": 67,
+    "DefaultTaskText": "commodi",
+    "IsVisual": true,
+    "LastGenerated": "2015-03-20T11:44:34.3376813+01:00",
+    "Description": "Digitized 3rd generation knowledge base",
+    "Name": "Grant-Schoen",
+    "StatusMonitorId": 214,
+    "PictureId": 76,
+    "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 80,
-    "NumNeedUpdate": 153,
-    "GenerationStart": "1998-12-01T12:19:46.1483123+01:00",
+    "NumMatches": 890,
+    "NumNeedUpdate": 910,
+    "GenerationStart": "2017-05-29T11:44:34.3376813+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldLength": 106
       }
     }
   }

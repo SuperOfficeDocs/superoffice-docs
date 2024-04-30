@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 993,
-    "Name": "Hermann, Kilback and Ferry",
+    "TicketStatusId": 963,
+    "Name": "O'Kon LLC",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 737
       }
     }
   }

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 935
+  "UserGroupId": 105
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 586,
-    "ColumnId": 165,
+    "UDefFieldId": 618,
+    "ColumnId": 946,
     "FieldDefault": "aut",
-    "FieldHeight": 804,
-    "FieldLabel": "sit",
-    "FieldLeft": 613,
-    "FieldTop": 331,
+    "FieldHeight": 458,
+    "FieldLabel": "ut",
+    "FieldLeft": 999,
+    "FieldTop": 147,
     "FieldType": "Checkbox",
-    "FieldWidth": 973,
-    "FormatMask": "voluptatem",
+    "FieldWidth": 887,
+    "FormatMask": "rerum",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 440,
-    "LabelLeft": 621,
-    "LabelTop": 543,
-    "LabelWidth": 457,
-    "LastVersionId": 190,
-    "ListTableId": 952,
-    "IsMandatory": true,
+    "LabelHeight": 566,
+    "LabelLeft": 198,
+    "LabelTop": 156,
+    "LabelWidth": 857,
+    "LastVersionId": 51,
+    "ListTableId": 424,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 137,
-    "ProgId": "sed",
+    "Page1LineNo": 190,
+    "ProgId": "tempore",
     "IsReadOnly": true,
-    "ShortLabel": "asperiores",
-    "TabOrder": 101,
-    "TextLength": 638,
-    "Tooltip": "ea",
-    "UdefIdentity": 716,
-    "UDListDefinitionId": 335,
+    "ShortLabel": "ut",
+    "TabOrder": 858,
+    "TextLength": 194,
+    "Tooltip": "autem",
+    "UdefIdentity": 861,
+    "UDListDefinitionId": 138,
     "Justification": "Center",
-    "Version": 44,
-    "TemplateVariableName": "Miller, Schiller and Eichmann",
-    "HasBeenPublished": false,
-    "MdoListName": "Hudson, Bins and Fisher",
+    "Version": 782,
+    "TemplateVariableName": "Hauck, Gleichner and Terry",
+    "HasBeenPublished": true,
+    "MdoListName": "Harris Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 965
       }
     }
   }

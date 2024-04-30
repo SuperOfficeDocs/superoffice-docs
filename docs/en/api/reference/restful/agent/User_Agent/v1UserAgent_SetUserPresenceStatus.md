@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/User/SetUserPresenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 805,
+  "AssociateId": 169,
   "UserPresenceStatus": null
 }
 ```
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "repellendus"
+  "Message": "aut"
 }
 ```

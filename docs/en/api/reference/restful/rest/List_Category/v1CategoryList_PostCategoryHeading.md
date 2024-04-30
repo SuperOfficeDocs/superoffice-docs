@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 771,
-  "Name": "Ullrich Inc and Sons",
-  "Tooltip": "rerum",
+  "HeadingId": 387,
+  "Name": "Johnston Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 834,
-  "UdListDefinitionId": 801
+  "Rank": 461,
+  "UdListDefinitionId": 572
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 824,
-  "Name": "Stehr, Schuster and Thiel",
-  "Tooltip": "hic",
+  "HeadingId": 389,
+  "Name": "Beahan-Prosacco",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 564,
-  "UdListDefinitionId": 54,
+  "Rank": 791,
+  "UdListDefinitionId": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 113
     }
   }
 }

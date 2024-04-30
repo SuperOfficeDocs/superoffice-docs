@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 69
+  "QuoteAlternativeId": 879
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 434,
-    "ERPQuoteLineKey": "rerum",
-    "QuoteAlternativeId": 990,
-    "ERPProductKey": "fuga",
+    "QuoteLineId": 358,
+    "ERPQuoteLineKey": "sed",
+    "QuoteAlternativeId": 632,
+    "ERPProductKey": "nihil",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 1999.492,
-    "DeliveredQuantity": 12420.042,
-    "Rank": 813,
-    "Name": "Yost, Hammes and Gibson",
-    "Description": "Organic dedicated artificial intelligence",
-    "Code": "quia",
-    "QuantityUnit": "excepturi",
-    "PriceUnit": "totam",
-    "ItemNumber": "1805459",
+    "Quantity": 28400.307999999997,
+    "DeliveredQuantity": 5312.13,
+    "Rank": 1001,
+    "Name": "Bartell, Schimmel and Mayer",
+    "Description": "Exclusive explicit forecast",
+    "Code": "alias",
+    "QuantityUnit": "nobis",
+    "PriceUnit": "eos",
+    "ItemNumber": "1399056",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "sit",
-    "ProductTypeKey": "eius",
-    "Supplier": "quia",
-    "SupplierCode": "atque",
-    "Thumbnail": "ipsam",
-    "VATInfo": "nihil",
-    "VAT": 30443.676,
-    "UnitCost": 28262.412,
-    "UnitMinimumPrice": 6681.688,
-    "UnitListPrice": 11561.326,
+    "ProductFamilyKey": "eaque",
+    "ProductTypeKey": "est",
+    "Supplier": "omnis",
+    "SupplierCode": "aut",
+    "Thumbnail": "illum",
+    "VATInfo": "aspernatur",
+    "VAT": 29653.908,
+    "UnitCost": 22555.398,
+    "UnitMinimumPrice": 9370.66,
+    "UnitListPrice": 16625.87,
     "ExtraInfo": [
       {
-        "Name": "Mante-Bashirian",
-        "Value": "consequatur",
+        "Name": "Bernhard-Hirthe",
+        "Value": "rem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 599
           }
         }
       },
       {
-        "Name": "Mante-Bashirian",
-        "Value": "consequatur",
+        "Name": "Bernhard-Hirthe",
+        "Value": "rem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 599
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptatem",
+    "RawExtraInfo": "consequatur",
     "IsSubscription": false,
-    "SubscriptionUnit": "sunt",
-    "SubscriptionQuantity": 10975.268,
-    "SubscriptionStart": "2015-02-08T12:19:46.117062+01:00",
-    "ERPDiscountPercent": 5829.24,
-    "ERPDiscountAmount": 28300.02,
-    "DiscountPercent": 16676.014,
-    "DiscountAmount": 3315.772,
+    "SubscriptionUnit": "qui",
+    "SubscriptionQuantity": 12783.586,
+    "SubscriptionStart": "1997-07-22T11:44:34.3063794+02:00",
+    "ERPDiscountPercent": 30788.415999999997,
+    "ERPDiscountAmount": 21167.036,
+    "DiscountPercent": 2290.9539999999997,
+    "DiscountAmount": 12626.886,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 26573.185999999998,
-    "EarningAmount": 20248.773999999998,
-    "SubTotal": 1360.156,
-    "TotalPrice": 6268.0,
-    "Rights": "architecto",
-    "Rule": "provident",
-    "ExtraField1": "quaerat",
-    "ExtraField2": "sapiente",
-    "ExtraField3": "officiis",
-    "ExtraField4": "saepe",
-    "ExtraField5": "id",
+    "EarningPercent": 17951.552,
+    "EarningAmount": 15234.374,
+    "SubTotal": 24677.115999999998,
+    "TotalPrice": 16920.466,
+    "Rights": "laudantium",
+    "Rule": "animi",
+    "ExtraField1": "eligendi",
+    "ExtraField2": "eveniet",
+    "ExtraField3": "eveniet",
+    "ExtraField4": "et",
+    "ExtraField5": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 838
       }
     }
   }

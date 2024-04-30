@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Goldner Inc and Sons"
+  "TaskName": "Smitham, Larkin and Spencer"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Corwin, O'Keefe and Keebler",
-    "AssociateId": 936,
-    "DetailsTable": 333,
-    "DetailsRecord": 794,
-    "IsSystemTask": false,
+    "Id": 220,
+    "Name": "Schultz Group",
+    "AssociateId": 706,
+    "DetailsTable": 317,
+    "DetailsRecord": 271,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ad",
-      "ParameterObject2": "et"
+      "ParameterObject1": "alias",
+      "ParameterObject2": "libero"
     },
-    "LastStarted": "2011-06-06T12:19:44.5238763+02:00",
-    "Created": "2009-05-07T12:19:44.5238763+02:00",
-    "StartCount": 215,
-    "DatabaseSerialNumber": "1392672",
-    "Context": "asperiores",
-    "Result": "voluptatem",
+    "LastStarted": "2000-12-27T11:44:32.822391+01:00",
+    "Created": "2013-01-29T11:44:32.822391+01:00",
+    "StartCount": 240,
+    "DatabaseSerialNumber": "823923",
+    "Context": "quibusdam",
+    "Result": "itaque",
     "State": "All",
-    "Description": "Synchronised encompassing Graphical User Interface",
-    "Response": "quos",
-    "Request": "neque",
-    "ProgressDescription": "Decentralized demand-driven service-desk",
-    "ProgressPercent": 42,
-    "FileName": "Herman Inc and Sons",
+    "Description": "Fully-configurable 3rd generation adapter",
+    "Response": "similique",
+    "Request": "officia",
+    "ProgressDescription": "Cloned well-modulated open architecture",
+    "ProgressPercent": 566,
+    "FileName": "Roberts, Sauer and Runolfsson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

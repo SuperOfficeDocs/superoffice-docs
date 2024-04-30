@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 45,
-  "Name": "Mraz-Sporer",
-  "Tooltip": "et",
-  "Rank": 758,
+  "SaleTypeId": 647,
+  "Name": "Gerlach, Von and Murphy",
+  "Tooltip": "qui",
+  "Rank": 777,
   "DurationUnit": "Century",
-  "SaleDuration": 357,
-  "SaleTypeCatId": 243,
+  "SaleDuration": 655,
+  "SaleTypeCatId": 899,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 995,
-  "QuoteLinesTemplate": 949,
-  "ConfirmationLinesTemplate": 415,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 539,
+  "QuoteLinesTemplate": 917,
+  "ConfirmationLinesTemplate": 414,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 553,
-  "MinEarningPercent": 433,
-  "GroupQuoteLinesBy": 80,
-  "SortGroupLinesBy": 625,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 835,
+  "MinEarningPercent": 60,
+  "GroupQuoteLinesBy": 306,
+  "SortGroupLinesBy": 772,
   "Stages": [
     {
-      "Id": 243,
-      "Name": "Grimes Inc and Sons",
-      "ToolTip": "Explicabo quas quia atque omnis repellendus dolor suscipit.",
+      "Id": 583,
+      "Name": "Bernhard Group",
+      "ToolTip": "Animi eius.",
       "Deleted": false,
-      "Rank": 491,
-      "Type": "voluptate",
-      "ColorBlock": 551,
-      "IconHint": "omnis",
+      "Rank": 28,
+      "Type": "cum",
+      "ColorBlock": 71,
+      "IconHint": "expedita",
       "Selected": false,
-      "LastChanged": "2024-01-09T12:19:45.5547007+01:00",
+      "LastChanged": "2023-01-20T11:44:33.9158989+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "ipsum",
+      "ExtraInfo": "quia",
+      "StyleHint": "id",
       "Hidden": false,
-      "FullName": "Joannie Heaney I",
+      "FullName": "Ceasar Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 164
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

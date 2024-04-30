@@ -82,6 +82,10 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:ReplyTemplate xsi:type="xsd:int">0</List:ReplyTemplate>
      <List:IsExternalVisible xsi:type="xsd:boolean">false</List:IsExternalVisible>
      <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
+     <List:ShowInNew xsi:type="xsd:boolean">false</List:ShowInNew>
+     <List:ExcludeSignature xsi:type="xsd:boolean">false</List:ExcludeSignature>
+     <List:ExcludeEmailRecipients xsi:type="xsd:boolean">false</List:ExcludeEmailRecipients>
+     <List:ExternalAsDefault xsi:type="xsd:boolean">false</List:ExternalAsDefault>
     </List:TicketTypeEntity>
    </List:Response>
   </List:GetTicketTypeListResponse>

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Klocko, Bernier and Thompson",
+  "Name": "Ruecker, Spinka and Harris",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Name": "Armstrong-Waters",
-    "AssociateId": 80,
-    "DetailsTable": 507,
-    "DetailsRecord": 690,
+    "Id": 826,
+    "Name": "Wuckert, Schamberger and Pagac",
+    "AssociateId": 430,
+    "DetailsTable": 139,
+    "DetailsRecord": 574,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sint",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "itaque",
+      "ParameterObject2": "animi"
     },
-    "LastStarted": "2006-12-21T12:19:44.5238763+01:00",
-    "Created": "2013-07-01T12:19:44.5238763+02:00",
-    "StartCount": 196,
-    "DatabaseSerialNumber": "1566014",
-    "Context": "dolor",
-    "Result": "numquam",
+    "LastStarted": "2005-01-17T11:44:32.822391+01:00",
+    "Created": "2001-07-30T11:44:32.822391+02:00",
+    "StartCount": 551,
+    "DatabaseSerialNumber": "950120",
+    "Context": "voluptatem",
+    "Result": "ut",
     "State": "All",
-    "Description": "Optimized attitude-oriented open system",
-    "Response": "voluptatem",
-    "Request": "labore",
-    "ProgressDescription": "Open-source non-volatile customer loyalty",
-    "ProgressPercent": 983,
-    "FileName": "Tremblay Inc and Sons",
+    "Description": "Monitored disintermediate pricing structure",
+    "Response": "similique",
+    "Request": "aperiam",
+    "ProgressDescription": "Organized holistic structure",
+    "ProgressPercent": 951,
+    "FileName": "Hyatt, O'Kon and Hintz",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 889
       }
     }
   }

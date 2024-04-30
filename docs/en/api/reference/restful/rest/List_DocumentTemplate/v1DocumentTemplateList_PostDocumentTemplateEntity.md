@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 870,
-  "Name": "Kiehn LLC",
-  "Tooltip": "doloremque",
-  "SaveInDb": 224,
-  "Filename": "cum",
-  "DefaultOref": "quaerat",
+  "DocumentTemplateId": 37,
+  "Name": "Hirthe-Carroll",
+  "Tooltip": "distinctio",
+  "SaveInDb": 130,
+  "Filename": "facilis",
+  "DefaultOref": "neque",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 827,
-  "IntentId": 404,
-  "IsDefaultPublished": true,
-  "Rank": 661,
-  "LoadTemplateFromPlugin": 683,
-  "MimeType": "accusantium",
+  "AutoeventId": 302,
+  "IntentId": 415,
+  "IsDefaultPublished": false,
+  "Rank": 560,
+  "LoadTemplateFromPlugin": 797,
+  "MimeType": "et",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 86,
+  "DocumentTypeKey": 132,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "savanna@nikolaus.info",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "selmer@dubuque.us",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jerad@nader.com",
+  "SenderEmailAddress": "grant_ebert@hane.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 958,
-  "Name": "Grant Inc and Sons",
-  "Tooltip": "quia",
-  "SaveInDb": 402,
-  "Filename": "dolorum",
-  "DefaultOref": "nostrum",
+  "DocumentTemplateId": 536,
+  "Name": "Swaniawski-Leannon",
+  "Tooltip": "et",
+  "SaveInDb": 143,
+  "Filename": "eos",
+  "DefaultOref": "quibusdam",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 14,
-  "IntentId": 580,
+  "AutoeventId": 289,
+  "IntentId": 484,
   "IsDefaultPublished": true,
-  "Rank": 758,
-  "LoadTemplateFromPlugin": 936,
-  "MimeType": "aliquam",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 688,
+  "Rank": 198,
+  "LoadTemplateFromPlugin": 591,
+  "MimeType": "quia",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 126,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "victor_batz@fahey.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "isac@jewessschamberger.com",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "chet@krajcik.uk",
+  "SenderEmailAddress": "urban_homenick@schinnermclaughlin.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 14
     }
   }
 }

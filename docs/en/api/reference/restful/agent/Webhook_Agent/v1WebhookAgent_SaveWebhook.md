@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 661,
-  "Name": "Quitzon-Kshlerin",
+  "WebhookId": 988,
+  "Name": "Crist LLC",
   "Events": [
-    "dolor",
-    "velit"
+    "perferendis",
+    "sequi"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "omnis",
+  "Secret": "officia",
   "State": "Active",
-  "Type": "reprehenderit",
+  "Type": "eos",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "aspernatur"
+    "Headers1": "labore",
+    "Headers2": "sequi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-11-23T12:19:46.6638166+01:00",
+  "Registered": "2022-11-27T11:44:35.0406407+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-02-14T12:19:46.6638166+01:00",
+  "Updated": "2014-03-02T11:44:35.0406407+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "moshe@grady.co.uk"
+  "ErrorsEmail": "armani@considinetillman.com"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 908,
-  "Name": "Friesen, Nicolas and Ferry",
+  "WebhookId": 79,
+  "Name": "Durgan Group",
   "Events": [
-    "perspiciatis",
-    "ex"
+    "quod",
+    "blanditiis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ad",
+  "Secret": "id",
   "State": "Active",
-  "Type": "id",
+  "Type": "molestiae",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "et"
+    "Headers1": "porro",
+    "Headers2": "dolor"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-03-07T12:19:46.6638166+01:00",
+  "Registered": "2011-04-11T11:44:35.0562611+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-08-20T12:19:46.6638166+02:00",
+  "Updated": "2005-01-19T11:44:35.0562611+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "baylee.walter@windler.us"
+  "ErrorsEmail": "catharine@blockstehr.us"
 }
 ```

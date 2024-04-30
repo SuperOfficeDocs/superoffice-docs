@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 978
+  "SelectionId": 655
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kilback LLC",
-    "Description": "Reverse-engineered interactive productivity",
-    "Rank": 892,
+    "Name": "Carter-Koepp",
+    "Description": "Robust coherent groupware",
+    "Rank": 586,
     "Restrictions": [
       {
-        "Name": "McClure-Mante",
-        "Operator": "sed",
+        "Name": "Powlowski-Bradtke",
+        "Operator": "distinctio",
         "Values": [
-          "tempora",
-          "et"
+          "id",
+          "ut"
         ],
         "DisplayValues": [
-          "ullam",
-          "assumenda"
+          "impedit",
+          "at"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 687,
+        "InterParenthesis": 409,
         "InterOperator": "And",
-        "UniqueHash": 980
+        "UniqueHash": 446
       }
     ]
   },
   {
-    "Name": "Kilback LLC",
-    "Description": "Reverse-engineered interactive productivity",
-    "Rank": 892,
+    "Name": "Carter-Koepp",
+    "Description": "Robust coherent groupware",
+    "Rank": 586,
     "Restrictions": [
       {
-        "Name": "McClure-Mante",
-        "Operator": "sed",
+        "Name": "Powlowski-Bradtke",
+        "Operator": "distinctio",
         "Values": [
-          "tempora",
-          "et"
+          "id",
+          "ut"
         ],
         "DisplayValues": [
-          "ullam",
-          "assumenda"
+          "impedit",
+          "at"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 687,
+        "InterParenthesis": 409,
         "InterOperator": "And",
-        "UniqueHash": 980
+        "UniqueHash": 446
       }
     ]
   }

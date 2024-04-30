@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "eum",
-    "Type": "et",
-    "Description": "Stand-alone disintermediate budgetary management",
+    "DisplayType": "aut",
+    "Type": "sapiente",
+    "Description": "Decentralized local model",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldType": "System.String",
+        "FieldLength": 181
       }
     }
   }

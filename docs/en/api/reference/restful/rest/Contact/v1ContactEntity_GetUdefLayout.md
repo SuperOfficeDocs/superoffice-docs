@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 399,
-    "ColumnId": 235,
-    "FieldDefault": "et",
-    "FieldHeight": 438,
-    "FieldLabel": "illum",
-    "FieldLeft": 580,
-    "FieldTop": 186,
+    "UDefFieldId": 39,
+    "ColumnId": 315,
+    "FieldDefault": "hic",
+    "FieldHeight": 298,
+    "FieldLabel": "voluptates",
+    "FieldLeft": 303,
+    "FieldTop": 861,
     "FieldType": "Checkbox",
-    "FieldWidth": 146,
-    "FormatMask": "et",
+    "FieldWidth": 597,
+    "FormatMask": "officia",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 418,
-    "LabelLeft": 231,
-    "LabelTop": 459,
-    "LabelWidth": 100,
-    "LastVersionId": 441,
-    "ListTableId": 297,
-    "IsMandatory": false,
+    "LabelHeight": 8,
+    "LabelLeft": 739,
+    "LabelTop": 850,
+    "LabelWidth": 970,
+    "LastVersionId": 465,
+    "ListTableId": 324,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 680,
-    "ProgId": "optio",
+    "Page1LineNo": 607,
+    "ProgId": "eveniet",
     "IsReadOnly": true,
-    "ShortLabel": "incidunt",
-    "TabOrder": 198,
-    "TextLength": 119,
-    "Tooltip": "quae",
-    "UdefIdentity": 359,
-    "UDListDefinitionId": 798,
+    "ShortLabel": "officiis",
+    "TabOrder": 867,
+    "TextLength": 603,
+    "Tooltip": "itaque",
+    "UdefIdentity": 208,
+    "UDListDefinitionId": 158,
     "Justification": "Center",
-    "Version": 625,
-    "TemplateVariableName": "Zboncak-White",
+    "Version": 391,
+    "TemplateVariableName": "Yost Group",
     "HasBeenPublished": false,
-    "MdoListName": "Wiegand LLC",
+    "MdoListName": "Farrell, Spinka and Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 734
       }
     }
   }

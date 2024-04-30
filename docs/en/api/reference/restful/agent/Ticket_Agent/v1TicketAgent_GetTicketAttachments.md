@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 956
+  "TicketEntityId": 522
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 412,
-    "Name": "Okuneva LLC",
-    "ContentType": "ut",
-    "AttSize": 88,
+    "AttachmentId": 623,
+    "Name": "Wilkinson LLC",
+    "ContentType": "delectus",
+    "AttSize": 506,
     "InlineImage": false,
-    "ContentId": "exercitationem",
-    "AuthKey": "provident",
-    "IsSafeFileExtension": true,
+    "ContentId": "commodi",
+    "AuthKey": "quis",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldLength": 890
       }
     }
   }

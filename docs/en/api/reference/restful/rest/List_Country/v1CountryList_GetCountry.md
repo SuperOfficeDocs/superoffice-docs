@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 271,
-  "Name": "Jakubowski, Gorczany and Smitham",
-  "CurrencyId": 89,
-  "EnglishName": "Nolan-Carter",
+  "CountryId": 638,
+  "Name": "Goyette LLC",
+  "CurrencyId": 515,
+  "EnglishName": "Torphy-Schoen",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Open-architected maximized project",
-  "OrgNrText": "503912",
-  "InterAreaPrefix": "debitis",
-  "DialInPrefix": "et",
-  "ZipPrefix": "voluptatem",
-  "DomainName": "Waters, O'Reilly and Langworth",
-  "AddressLayoutId": 226,
-  "DomesticAddressLayoutId": 414,
-  "ForeignAddressLayoutId": 180,
-  "Rank": 56,
-  "Tooltip": "tenetur",
-  "Deleted": true,
+  "ImageDescription": "Assimilated discrete software",
+  "OrgNrText": "530130",
+  "InterAreaPrefix": "deserunt",
+  "DialInPrefix": "nisi",
+  "ZipPrefix": "voluptatibus",
+  "DomainName": "Legros LLC",
+  "AddressLayoutId": 73,
+  "DomesticAddressLayoutId": 37,
+  "ForeignAddressLayoutId": 416,
+  "Rank": 72,
+  "Tooltip": "facere",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 184
     }
   }
 }

@@ -532,7 +532,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=project/projectUdef/SuperOffice:10,person/personCountry,contact/contactAssociate/associateDbId
+GET /api/v1/archive/ProjectMember?$select=project/projectAssociate/firstName,contact/contactExtra/x_contact_time,contact/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

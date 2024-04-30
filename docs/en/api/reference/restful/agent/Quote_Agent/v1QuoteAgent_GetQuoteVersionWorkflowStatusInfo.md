@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 163
+  "QuoteVersionId": 134
 }
 ```
 
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "numquam",
-  "DisplayMessage": "amet",
-  "DisplayTooltip": "recusandae",
+  "IconHint": "consequatur",
+  "DisplayMessage": "molestiae",
+  "DisplayTooltip": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

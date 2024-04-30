@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 804,
-    "Name": "Wuckert-McCullough",
-    "OrgNr": "1420853",
+    "ContactId": 191,
+    "Name": "Nader, Lesch and Wilkinson",
+    "OrgNr": "545868",
     "Department": "",
     "URL": "http://www.example.com/",
     "City": "ut",
-    "DirectPhone": "261.303.7155",
-    "AssociateId": 275,
-    "CountryId": 392,
-    "EmailAddress": "nicholaus@schmeler.uk",
-    "Kananame": "sed",
-    "EmailAddressName": "magnus@kunde.ca",
+    "DirectPhone": "1-780-400-0367 x3466",
+    "AssociateId": 451,
+    "CountryId": 648,
+    "EmailAddress": "maryjane@green.biz",
+    "Kananame": "omnis",
+    "EmailAddressName": "tyree@prosaccorice.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Retta Kub IV",
+    "AssociateFullName": "Prof. Duane Taylor Schuppe",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "vel",
-    "FullName": "Prof. Eda Jerde",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 253,
-    "Number1": "932815",
-    "Number2": "1478301",
+    "FormattedAddress": "occaecati",
+    "FullName": "Prof. Orpha Irwin Waelchi PhD",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 234,
+    "Number1": "211306",
+    "Number2": "219121",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldLength": 829
       }
     }
   }

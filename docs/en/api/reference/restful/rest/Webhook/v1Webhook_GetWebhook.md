@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,31 +97,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 956,
-  "Name": "Howell Inc and Sons",
+  "WebhookId": 916,
+  "Name": "Cremin Inc and Sons",
   "Events": [
-    "nihil",
-    "ut"
+    "nemo",
+    "dicta"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "at",
+  "Secret": "earum",
   "State": "Active",
-  "Type": "reprehenderit",
+  "Type": "possimus",
   "Headers": {
-    "Headers1": "architecto",
-    "Headers2": "ut"
+    "Headers1": "mollitia",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-02-14T12:19:54.2584759+01:00",
+  "Registered": "2023-02-21T11:44:42.8825602+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2001-12-19T12:19:54.2584759+01:00",
+  "Updated": "2023-01-30T11:44:42.8825602+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jordon@zboncak.co.uk",
+  "ErrorsEmail": "leonor.wisoky@andersonratke.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

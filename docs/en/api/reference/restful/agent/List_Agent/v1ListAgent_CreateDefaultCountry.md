@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 825,
-  "Name": "Littel LLC",
-  "CurrencyId": 399,
-  "EnglishName": "Howe Inc and Sons",
+  "CountryId": 133,
+  "Name": "Yundt Group",
+  "CurrencyId": 139,
+  "EnglishName": "Aufderhar, Moore and Gerhold",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Switchable foreground orchestration",
-  "OrgNrText": "873656",
-  "InterAreaPrefix": "nisi",
-  "DialInPrefix": "rerum",
+  "ImageDescription": "Phased regional artificial intelligence",
+  "OrgNrText": "1502090",
+  "InterAreaPrefix": "amet",
+  "DialInPrefix": "delectus",
   "ZipPrefix": "explicabo",
-  "DomainName": "Kub LLC",
-  "AddressLayoutId": 446,
-  "DomesticAddressLayoutId": 484,
-  "ForeignAddressLayoutId": 83,
-  "Rank": 718,
-  "Tooltip": "cupiditate",
-  "Deleted": false,
+  "DomainName": "Lowe-Schmidt",
+  "AddressLayoutId": 882,
+  "DomesticAddressLayoutId": 999,
+  "ForeignAddressLayoutId": 799,
+  "Rank": 937,
+  "Tooltip": "aliquid",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

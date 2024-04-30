@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "itaque",
+    "path": "culpa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "itaque",
+    "path": "culpa",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 36,
-  "Name": "Langworth, Cormier and Smith",
-  "Description": "Intuitive tertiary secured line",
-  "WelcomeMessage": "cupiditate",
+  "ChatTopicId": 669,
+  "Name": "Olson LLC",
+  "Description": "Sharable background policy",
+  "WelcomeMessage": "nesciunt",
   "Language": null,
-  "LastAccept": "2001-02-08T12:19:53.1649635+01:00",
-  "SecondsPrAccept": 991,
-  "AlertRecipient": "et",
+  "LastAccept": "2016-07-13T11:44:41.7109149+02:00",
+  "SecondsPrAccept": 308,
+  "AlertRecipient": "qui",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "enim",
+  "BadgeHeader": "modi",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 738,
-  "WarnManagerNewChatMinutes": 937,
+  "CustomQueueText": "sapiente",
+  "WarnNewChatMinutes": 862,
+  "WarnManagerNewChatMinutes": 396,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 158,
-  "WarnManagerChatMessageMinutes": 128,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 381,
+  "WarnManagerChatMessageMinutes": 160,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 732,
-  "OfflineFormQueueLength": 396,
+  "OfflineFormTimeLimit": 385,
+  "OfflineFormQueueLength": 612,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sed",
+  "WidgetRatingText": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 407
     }
   },
   "_Links": {

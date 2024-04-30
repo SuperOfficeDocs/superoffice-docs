@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Reynolds, Parisian and Zemlak",
-    "ToolTip": "Qui eveniet nostrum et enim.",
-    "Deleted": true,
-    "Rank": 814,
-    "Type": "earum",
-    "ColorBlock": 666,
+    "Id": 146,
+    "Name": "Schimmel LLC",
+    "ToolTip": "Illo ut tempore.",
+    "Deleted": false,
+    "Rank": 284,
+    "Type": "dolor",
+    "ColorBlock": 745,
     "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2013-10-21T12:19:54.367807+02:00",
+    "LastChanged": "2003-09-02T11:44:43.0075335+02:00",
     "ChildItems": [
       {
-        "Id": 645,
-        "Name": "Hyatt, Smitham and Lockman",
-        "ToolTip": "Deserunt nisi sapiente molestiae similique.",
-        "Deleted": false,
-        "Rank": 814,
-        "Type": "asperiores",
-        "ColorBlock": 377,
-        "IconHint": "saepe",
+        "Id": 947,
+        "Name": "Gleichner, Ritchie and Baumbach",
+        "ToolTip": "Saepe nostrum quos quos dolor.",
+        "Deleted": true,
+        "Rank": 214,
+        "Type": "natus",
+        "ColorBlock": 894,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2015-02-21T12:19:54.367807+01:00",
+        "LastChanged": "2014-03-02T11:44:43.0075335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "enim",
         "Hidden": true,
-        "FullName": "Mr. Leilani Eliezer Casper"
+        "FullName": "Mariela Schuppe"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "at",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Samir Danial Hammes DDS"
+    "FullName": "Ila Watsica"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Wilderman, Luettgen and Braun",
-    "ToolTip": "In placeat commodi.",
+    "Id": 945,
+    "Name": "Kshlerin-Hauck",
+    "ToolTip": "Repellat nesciunt ipsa.",
     "Deleted": false,
-    "Rank": 104,
-    "Type": "nam",
-    "ColorBlock": 444,
-    "IconHint": "at",
+    "Rank": 954,
+    "Type": "accusantium",
+    "ColorBlock": 873,
+    "IconHint": "dignissimos",
     "Selected": true,
-    "LastChanged": "2021-07-27T12:19:54.367807+02:00",
+    "LastChanged": "1998-06-01T11:44:43.0075335+02:00",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Dach-Predovic",
-        "ToolTip": "Ut ad.",
+        "Id": 869,
+        "Name": "Medhurst Group",
+        "ToolTip": "Autem quia quas possimus occaecati sequi cupiditate dolor.",
         "Deleted": false,
-        "Rank": 494,
-        "Type": "suscipit",
-        "ColorBlock": 75,
-        "IconHint": "aut",
+        "Rank": 736,
+        "Type": "exercitationem",
+        "ColorBlock": 915,
+        "IconHint": "culpa",
         "Selected": true,
-        "LastChanged": "2010-03-15T12:19:54.367807+01:00",
+        "LastChanged": "2016-02-04T11:44:43.0075335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "hic",
         "Hidden": true,
-        "FullName": "Jaiden Moore",
+        "FullName": "Silas Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 867
+            "FieldType": "System.Int32",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "ratione",
+    "ExtraInfo": "magni",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Valerie Pfannerstill",
+    "FullName": "Euna Turcotte IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldLength": 327
       }
     }
   }

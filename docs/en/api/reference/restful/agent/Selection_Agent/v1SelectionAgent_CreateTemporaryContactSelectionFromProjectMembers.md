@@ -117,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 100
+  "ProjectId": 326
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone asynchronous matrices",
-  "Postit": "dicta",
+  "Description": "Future-proofed discrete leverage",
+  "Postit": "nihil",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 291,
-  "IncludePerson": 381,
-  "MemberCount": 417,
-  "Name": "Hoeger Group",
-  "PostitTextId": 179,
-  "CreatedDate": "2017-09-18T12:19:46.2576612+02:00",
-  "SelectionId": 276,
-  "SoundEx": "corporis",
-  "Source": 198,
-  "TextId": 849,
-  "UpdatedDate": "2016-08-02T12:19:46.2576612+02:00",
-  "UpdatedCount": 355,
-  "Visibility": 846,
+  "GroupIdx": 50,
+  "IncludePerson": 870,
+  "MemberCount": 147,
+  "Name": "Paucek Group",
+  "PostitTextId": 313,
+  "CreatedDate": "1998-01-11T11:44:34.4470256+01:00",
+  "SelectionId": 454,
+  "SoundEx": "perferendis",
+  "Source": 810,
+  "TextId": 503,
+  "UpdatedDate": "2017-04-17T11:44:34.4470256+02:00",
+  "UpdatedCount": 937,
+  "Visibility": 669,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 162,
-  "TargetTableName": "Flatley Group",
+  "TargetTableNumber": 592,
+  "TargetTableName": "Wolff-Jacobi",
   "Completed": false,
-  "LeftSelectionId": 35,
-  "RightSelectionId": 317,
+  "LeftSelectionId": 308,
+  "RightSelectionId": 735,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hamill, DuBuque and Berge",
-  "ShadowProviderName": "Bauch, Kuhn and Kovacek",
-  "ChartKey": "dolore",
-  "LastLoaded": "1999-04-15T12:19:46.2576612+02:00",
-  "LastLoadedBy": 311,
+  "MainProviderName": "Leannon-Casper",
+  "ShadowProviderName": "Nicolas, Baumbach and Schulist",
+  "ChartKey": "rerum",
+  "LastLoaded": "1997-07-31T11:44:34.4470256+02:00",
+  "LastLoadedBy": 835,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-04-20T12:19:46.2576612+02:00",
-  "LastMembershipChangeBy": 34,
+  "LastMembershipChange": "2013-11-11T11:44:34.4470256+01:00",
+  "LastMembershipChangeBy": 784,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eaque",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "McLaughlin-Satterfield",
-  "DashboardTileDefinitionId": 558,
+  "MainHeading": "quaerat",
+  "MemberTabHeading": "ad",
+  "MailingsProviderName": "Douglas, Kertzmann and McCullough",
+  "DashboardTileDefinitionId": 34,
   "VisibleFor": [
     {
-      "VisibleId": 152,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldType": "System.String",
+          "FieldLength": 692
         }
       }
     },
     {
-      "VisibleId": 152,
+      "VisibleId": 480,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldType": "System.String",
+          "FieldLength": 692
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 343
+      "FieldType": "System.Int32",
+      "FieldLength": 969
     }
   }
 }

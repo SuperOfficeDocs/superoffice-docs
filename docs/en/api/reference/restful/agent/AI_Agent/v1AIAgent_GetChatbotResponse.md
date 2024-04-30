@@ -87,37 +87,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "et",
-  "IsoLangCode": "neque",
-  "UserPrompt": "aut",
-  "DisplayValue": "est",
+  "ChatId": "ut",
+  "IsoLangCode": "officia",
+  "UserPrompt": "odio",
+  "DisplayValue": "ut",
   "PreviousTurns": [
     {
-      "Timestamp": "2010-05-11T12:19:44.1019032+02:00",
-      "UserPrompt": "ipsa",
-      "UserDisplayText": "doloribus",
-      "BotResponse": "vel",
+      "Timestamp": "2009-10-06T11:44:32.228788+02:00",
+      "UserPrompt": "corrupti",
+      "UserDisplayText": "minima",
+      "BotResponse": "est",
       "BotActions": {
-        "BotActions1": "error",
-        "BotActions2": "facere"
+        "BotActions1": "enim",
+        "BotActions2": "vero"
       },
       "Attachments": [
-        "aut",
-        "quos"
+        "dolore",
+        "id"
       ]
     },
     {
-      "Timestamp": "2010-05-11T12:19:44.1019032+02:00",
-      "UserPrompt": "ipsa",
-      "UserDisplayText": "doloribus",
-      "BotResponse": "vel",
+      "Timestamp": "2009-10-06T11:44:32.228788+02:00",
+      "UserPrompt": "corrupti",
+      "UserDisplayText": "minima",
+      "BotResponse": "est",
       "BotActions": {
-        "BotActions1": "error",
-        "BotActions2": "facere"
+        "BotActions1": "enim",
+        "BotActions2": "vero"
       },
       "Attachments": [
-        "aut",
-        "quos"
+        "dolore",
+        "id"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2000-08-08T12:19:44.1019032+02:00",
-  "UserPrompt": "provident",
-  "UserDisplayText": "odit",
-  "BotResponse": "eligendi",
+  "Timestamp": "2004-03-28T11:44:32.228788+02:00",
+  "UserPrompt": "non",
+  "UserDisplayText": "quasi",
+  "BotResponse": "labore",
   "BotActions": {
-    "BotActions1": "eveniet",
-    "BotActions2": "est"
+    "BotActions1": "mollitia",
+    "BotActions2": "optio"
   },
   "Attachments": [
-    "illum",
-    "in"
+    "voluptate",
+    "provident"
   ]
 }
 ```

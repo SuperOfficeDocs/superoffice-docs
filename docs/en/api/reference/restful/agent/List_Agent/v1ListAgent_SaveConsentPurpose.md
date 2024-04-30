@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 479,
-  "Name": "Hackett-Bosco",
-  "ConsentText": "voluptas",
-  "FormText": "dolorem",
-  "Key": "sint",
-  "Tooltip": "delectus",
-  "Active": 620,
-  "UpdatedDate": "2014-09-10T12:19:45.5703411+02:00",
+  "ConsentPurposeId": 121,
+  "Name": "Hermann Inc and Sons",
+  "ConsentText": "aut",
+  "FormText": "dignissimos",
+  "Key": "aliquid",
+  "Tooltip": "sequi",
+  "Active": 461,
+  "UpdatedDate": "2005-08-05T11:44:33.9315193+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 358,
-  "PrivacyStatementDesc": "nisi",
+  "Deleted": true,
+  "Rank": 422,
+  "PrivacyStatementDesc": "in",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

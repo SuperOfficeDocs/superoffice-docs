@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "McDermott-Rohan",
-    "ToolTip": "Sed dolores molestiae qui voluptas.",
-    "Deleted": true,
-    "Rank": 422,
-    "Type": "ut",
-    "ColorBlock": 425,
-    "IconHint": "necessitatibus",
+    "Id": 67,
+    "Name": "Collier Group",
+    "ToolTip": "Eligendi incidunt consequuntur eveniet.",
+    "Deleted": false,
+    "Rank": 879,
+    "Type": "et",
+    "ColorBlock": 552,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2010-09-14T12:19:54.7739754+02:00",
+    "LastChanged": "1997-09-13T11:44:43.2574879+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Yost, Jaskolski and Rohan",
-        "ToolTip": "Quo necessitatibus enim rerum sint.",
-        "Deleted": true,
-        "Rank": 65,
-        "Type": "sit",
-        "ColorBlock": 499,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "1997-12-02T12:19:54.7739754+01:00",
+        "Id": 186,
+        "Name": "Gutmann LLC",
+        "ToolTip": "Est fuga ex.",
+        "Deleted": false,
+        "Rank": 531,
+        "Type": "minima",
+        "ColorBlock": 341,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2008-05-22T11:44:43.2574879+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "cumque",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Zita Strosin",
+        "FullName": "Blaise Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 494
+            "FieldType": "System.Int32",
+            "FieldLength": 14
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "ratione",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Miss Uriel Upton",
+    "FullName": "Jan Carlo Shields IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 534
       }
     }
   }

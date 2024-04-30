@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 812,
-  "Name": "Nicolas LLC",
-  "Tooltip": "odit",
+  "Id": 525,
+  "Name": "Medhurst, Borer and Haley",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 252,
+  "Rank": 679,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Gislason Inc and Sons",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "Rank": 32,
-  "IsCustomList": false,
+  "Id": 325,
+  "Name": "Conn, Altenwerth and Wilderman",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "Rank": 699,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
+  "ListType": "non",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 452
     }
   }
 }

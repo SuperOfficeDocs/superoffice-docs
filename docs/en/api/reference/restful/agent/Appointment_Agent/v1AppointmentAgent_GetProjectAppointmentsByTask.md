@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 433,
-  "StartTime": "2013-03-09T12:19:44.1331553+01:00",
-  "EndTime": "2012-05-29T12:19:44.1331553+02:00",
-  "Count": 424,
-  "TaskId": 899
+  "ProjectId": 573,
+  "StartTime": "2000-02-25T11:44:32.2756519+01:00",
+  "EndTime": "2022-02-08T11:44:32.2756519+01:00",
+  "Count": 515,
+  "TaskId": 336
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 675,
-    "StartDate": "2008-12-19T12:19:44.1487684+01:00",
-    "EndDate": "2010-08-12T12:19:44.1487684+02:00",
+    "AppointmentId": 835,
+    "StartDate": "2022-06-20T11:44:32.2756519+02:00",
+    "EndDate": "2000-08-26T11:44:32.2756519+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Caitlyn Stiedemann",
-    "ContactName": "Towne-Rowe",
-    "Description": "Diverse multi-tasking standardization",
-    "PersonFullName": "Gail Wilkinson",
-    "PersonId": 608,
-    "ContactId": 74,
-    "ProjectId": 863,
-    "ProjectName": "Bailey, Shanahan and Powlowski",
+    "Task": "in",
+    "AssociateFullName": "Skyla Melisa Keebler DVM",
+    "ContactName": "Wisozk LLC",
+    "Description": "Future-proofed motivating budgetary management",
+    "PersonFullName": "Miss Jamal Schmidt Sr.",
+    "PersonId": 83,
+    "ContactId": 658,
+    "ProjectId": 837,
+    "ProjectName": "Cronin Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 504,
-    "ColorIndex": 696,
+    "AssociateId": 701,
+    "ColorIndex": 632,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 810,
-    "PriorityName": "Windler, Altenwerth and Mayert",
+    "PriorityId": 28,
+    "PriorityName": "Cummerata LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2002-03-19T12:19:44.1487684+01:00",
+    "ActiveDate": "1999-05-21T11:44:32.2756519+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-09-05T12:19:44.1487684+02:00",
-    "RecurringEndDate": "2002-05-30T12:19:44.1487684+02:00",
-    "MotherId": 53,
-    "AssignedBy": 380,
-    "AssignedByFullName": "Prof. Valerie Catherine Lang",
+    "RecurringStartDate": "2000-09-25T11:44:32.2756519+02:00",
+    "RecurringEndDate": "2011-12-24T11:44:32.2756519+01:00",
+    "MotherId": 387,
+    "AssignedBy": 366,
+    "AssignedByFullName": "Miss John Arielle Gislason",
     "RejectReason": "",
-    "Location": "porro",
-    "AlarmLeadTime": "enim",
-    "SaleId": 532,
-    "SaleName": "Crist-McGlynn",
-    "AssociateName": "Carroll-Emard",
-    "CreatedDate": "2008-11-19T12:19:44.1487684+01:00",
-    "CreatedBy": "maiores",
-    "CreatedByFullName": "Ms. Leonora Hickle",
-    "CreatedByAssociateId": 1000,
+    "Location": "id",
+    "AlarmLeadTime": "est",
+    "SaleId": 56,
+    "SaleName": "Hahn, Williamson and Hoppe",
+    "AssociateName": "Carroll, Ullrich and Herman",
+    "CreatedDate": "2006-01-27T11:44:32.2756519+01:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Laverna Metz",
+    "CreatedByAssociateId": 478,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 105,
-    "Title": "quam",
-    "Agenda": "rem",
-    "InternalNotes": "eveniet",
+    "PreferredTZLocation": 188,
+    "Title": "tempora",
+    "Agenda": "pariatur",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 601
+        "FieldType": "System.Int32",
+        "FieldLength": 888
       }
     }
   }

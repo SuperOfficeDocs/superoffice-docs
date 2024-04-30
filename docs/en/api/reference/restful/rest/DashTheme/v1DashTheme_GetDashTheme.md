@@ -78,7 +78,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 639,
-  "Name": "Strosin Group",
-  "Config": "exercitationem",
-  "Rank": 803,
-  "Client": "commodi",
-  "Style": "placeat",
+  "DashboardThemeId": 679,
+  "Name": "Okuneva, Roob and Turner",
+  "Config": "consequuntur",
+  "Rank": 187,
+  "Client": "ullam",
+  "Style": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   },
   "_Links": {

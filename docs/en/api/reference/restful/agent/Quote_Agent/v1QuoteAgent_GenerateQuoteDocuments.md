@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 165,
-  "EmailBodyTemplateId": 73,
+  "QuoteVersionId": 221,
+  "EmailBodyTemplateId": 244,
   "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 217,
+  "QuotedProductsTemplateId": 909,
   "IncludeAttachments": false,
-  "RawMailSubject": "qui"
+  "RawMailSubject": "magni"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 39,
-  "QuotedProductsId": 134,
+  "QuoteDocumentId": 9,
+  "QuotedProductsId": 533,
   "QuoteAttachmentIds": [
-    275,
-    881
+    364,
+    338
   ],
-  "MailBody": "quia",
-  "MailSubject": "accusantium",
-  "ToEmail": "domenick.schimmel@jewess.us",
-  "ToFullName": "Miss Gianni Hansen V",
-  "ErrorMessage": "autem",
+  "MailBody": "aliquam",
+  "MailSubject": "nostrum",
+  "ToEmail": "emmy@veum.com",
+  "ToFullName": "Maria O'Hara",
+  "ErrorMessage": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldLength": 74
     }
   }
 }

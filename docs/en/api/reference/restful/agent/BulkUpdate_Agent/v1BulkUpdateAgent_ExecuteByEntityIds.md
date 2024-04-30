@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "voluptas",
-      "ValueType": "ut",
-      "Mandatory": true,
-      "EncodedDisplayName": "Predovic LLC",
-      "EncodedDisplayDescription": "Function-based 24 hour frame",
-      "IconHint": "cumque",
+      "Key": "et",
+      "ValueType": "blanditiis",
+      "Mandatory": false,
+      "EncodedDisplayName": "Padberg-Kohler",
+      "EncodedDisplayDescription": "Compatible modular challenge",
+      "IconHint": "vel",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "adipisci",
-      "EncodedDataCaptionDescription": "Reactive reciprocal intranet",
+      "EncodedDataCaption": "quis",
+      "EncodedDataCaptionDescription": "Horizontal radical hub",
       "CurrentOperationType": "officia",
       "Values": [
-        "molestias",
-        "sunt"
+        "blanditiis",
+        "eum"
       ],
       "DisplayValues": [
-        "quaerat",
-        "optio"
+        "quia",
+        "eos"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Leffler-Pagac",
-  "Context": "est",
-  "Ids": "earum"
+  "TableName": "Lebsack-Hintz",
+  "Context": "alias",
+  "Ids": "et"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-23
+663
 ```

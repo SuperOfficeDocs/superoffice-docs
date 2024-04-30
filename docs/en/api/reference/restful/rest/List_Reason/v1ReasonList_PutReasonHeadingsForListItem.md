@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Cummerata Inc and Sons",
-    "ToolTip": "Est molestiae et voluptas omnis maxime.",
+    "Id": 83,
+    "Name": "Greenfelder-Leuschke",
+    "ToolTip": "Et vero eaque et.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "nam",
-    "ColorBlock": 426,
-    "IconHint": "optio",
-    "Selected": false,
-    "LastChanged": "2008-07-19T12:19:54.8052144+02:00",
+    "Rank": 782,
+    "Type": "aliquam",
+    "ColorBlock": 847,
+    "IconHint": "ex",
+    "Selected": true,
+    "LastChanged": "1999-07-20T11:44:43.2887254+02:00",
     "ChildItems": [
       {
-        "Id": 987,
-        "Name": "Reynolds Group",
-        "ToolTip": "Ut quia voluptate repudiandae.",
+        "Id": 627,
+        "Name": "Bergnaum-Torphy",
+        "ToolTip": "Et quis alias quo.",
         "Deleted": false,
-        "Rank": 248,
-        "Type": "sapiente",
-        "ColorBlock": 805,
-        "IconHint": "magni",
+        "Rank": 198,
+        "Type": "nesciunt",
+        "ColorBlock": 358,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "1997-06-20T12:19:54.8052144+02:00",
+        "LastChanged": "2008-09-04T11:44:43.2887254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "esse",
-        "Hidden": true,
-        "FullName": "Celestino Ewald Walter III"
+        "ExtraInfo": "et",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Mr. Loraine Marlen Jones"
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "architecto",
+    "ExtraInfo": "quasi",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mr. Carolina Rosenbaum DVM"
+    "FullName": "Laury Lowe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Erdman LLC",
-    "ToolTip": "Et corporis eum cum officia natus aliquid.",
+    "Id": 238,
+    "Name": "Runolfsson, Reilly and Leffler",
+    "ToolTip": "Voluptas corrupti.",
     "Deleted": false,
-    "Rank": 713,
-    "Type": "architecto",
-    "ColorBlock": 928,
-    "IconHint": "asperiores",
+    "Rank": 752,
+    "Type": "praesentium",
+    "ColorBlock": 791,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2000-09-25T12:19:54.8052144+02:00",
+    "LastChanged": "2014-04-19T11:44:43.3043478+02:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Runolfsson LLC",
-        "ToolTip": "Sed animi.",
+        "Id": 363,
+        "Name": "Heathcote Inc and Sons",
+        "ToolTip": "Quos eos beatae voluptate qui eos suscipit.",
         "Deleted": false,
-        "Rank": 553,
-        "Type": "aperiam",
-        "ColorBlock": 949,
-        "IconHint": "at",
+        "Rank": 281,
+        "Type": "similique",
+        "ColorBlock": 556,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2022-03-05T12:19:54.8052144+01:00",
+        "LastChanged": "2010-09-15T11:44:43.3043478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "fuga",
+        "ExtraInfo": "facilis",
+        "StyleHint": "molestias",
         "Hidden": true,
-        "FullName": "Gilbert Gleichner",
+        "FullName": "Earl Kilback I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "iste",
-    "Hidden": true,
-    "FullName": "Alexis Zemlak",
+    "ExtraInfo": "enim",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Gaston Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldType": "System.String",
+        "FieldLength": 354
       }
     }
   }

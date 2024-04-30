@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 05 Sep 2001 12:19:53 G9T
+Last-Modified: Tue, 24 Apr 2012 11:44:42 G4T
 
 {
-  "ForeignAppId": 357,
-  "Name": "Lesch-Effertz",
-  "CreatedDate": "2015-02-10T12:19:53.6023745+01:00",
-  "UpdatedDate": "2001-09-05T12:19:53.6023745+02:00",
+  "ForeignAppId": 701,
+  "Name": "Koch, Breitenberg and Feest",
+  "CreatedDate": "2011-08-13T11:44:42.0077636+02:00",
+  "UpdatedDate": "2012-04-24T11:44:42.0077636+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 536,
-      "Name": "Collier, Schaden and Greenholt",
-      "CreatedDate": "2010-02-22T12:19:53.6023745+01:00",
-      "UpdatedDate": "2013-04-22T12:19:53.6023745+02:00",
-      "AssociateFullName": "Jon Nienow",
-      "CreatedBy": "vitae",
-      "UpdatedBy": "quasi",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 98,
+      "ForeignDeviceId": 879,
+      "Name": "Miller Inc and Sons",
+      "CreatedDate": "2002-06-24T11:44:42.0077636+02:00",
+      "UpdatedDate": "2009-01-22T11:44:42.0077636+01:00",
+      "AssociateFullName": "Antonio Toy",
+      "CreatedBy": "dolores",
+      "UpdatedBy": "corporis",
+      "DeviceIdentifier": "quis",
+      "ForeignAppId": 13,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 400
+          "FieldType": "System.Int32",
+          "FieldLength": 261
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Wed, 05 Sep 2001 12:19:53 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 575
     }
   }
 }

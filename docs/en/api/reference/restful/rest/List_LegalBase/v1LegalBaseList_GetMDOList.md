@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=id
+GET /api/v1/List/LegalBase/MDOItems?query=natus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Gaylord, Dickinson and Nader",
-    "ToolTip": "Ut placeat consequatur non qui.",
-    "Deleted": false,
-    "Rank": 138,
-    "Type": "amet",
+    "Id": 368,
+    "Name": "Miller LLC",
+    "ToolTip": "Qui iste perspiciatis debitis beatae.",
+    "Deleted": true,
+    "Rank": 205,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Witting-Dickinson",
-        "ToolTip": "Consequatur aliquid dolorem placeat quo pariatur qui et.",
+        "Id": 109,
+        "Name": "Kihn Inc and Sons",
+        "ToolTip": "Harum in quos voluptas atque dolorem nobis est.",
         "Deleted": false,
-        "Rank": 563,
-        "Type": "et",
+        "Rank": 483,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 411,
-        "ExtraInfo": "ut",
-        "StyleHint": "ad",
-        "FullName": "Norris Larkin",
+        "IconHint": "tempora",
+        "ColorBlock": 333,
+        "ExtraInfo": "optio",
+        "StyleHint": "necessitatibus",
+        "FullName": "Mina Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 6
+            "FieldType": "System.Int32",
+            "FieldLength": 843
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 24,
-    "ExtraInfo": "recusandae",
-    "StyleHint": "expedita",
-    "FullName": "Kamryn Keebler",
+    "IconHint": "eveniet",
+    "ColorBlock": 513,
+    "ExtraInfo": "nulla",
+    "StyleHint": "vel",
+    "FullName": "Miss Davin Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 587
       }
     }
   }

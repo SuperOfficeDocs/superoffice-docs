@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "est"
+  "MessageId": "molestiae"
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 599,
-      "ContactName": "Carroll Group",
-      "PersonId": 986,
-      "PersonName": "Carroll, Kulas and Nolan",
-      "AssociateId": 556,
-      "Address": "sint",
-      "EmailId": 301,
+      "ContactId": 132,
+      "ContactName": "Veum LLC",
+      "PersonId": 1001,
+      "PersonName": "Berge Inc and Sons",
+      "AssociateId": 755,
+      "Address": "vel",
+      "EmailId": 986,
       "DuplicatePersonIds": [
-        532,
-        245
+        701,
+        549
       ],
-      "Name": "Reinger-Okuneva",
+      "Name": "Williamson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 869
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 507,
-      "ContactName": "Nienow Group",
-      "PersonId": 882,
-      "PersonName": "Willms Inc and Sons",
-      "AssociateId": 200,
-      "Address": "incidunt",
-      "EmailId": 152,
+      "ContactId": 872,
+      "ContactName": "Tremblay-Zulauf",
+      "PersonId": 507,
+      "PersonName": "Stehr-Howe",
+      "AssociateId": 391,
+      "Address": "dolorem",
+      "EmailId": 476,
       "DuplicatePersonIds": [
-        484,
-        602
+        522,
+        189
       ],
-      "Name": "Metz Group",
+      "Name": "Bailey LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 97
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 458,
-      "ContactName": "Howell LLC",
-      "PersonId": 391,
-      "PersonName": "Hermiston, O'Reilly and Paucek",
-      "AssociateId": 466,
-      "Address": "suscipit",
-      "EmailId": 485,
+      "ContactId": 507,
+      "ContactName": "Oberbrunner-Yost",
+      "PersonId": 419,
+      "PersonName": "Olson Inc and Sons",
+      "AssociateId": 418,
+      "Address": "eos",
+      "EmailId": 838,
       "DuplicatePersonIds": [
-        612,
-        774
+        930,
+        924
       ],
-      "Name": "Green LLC",
+      "Name": "Morissette-Lesch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldLength": 389
         }
       }
     }
   ],
-  "Subject": "nobis",
-  "HTMLBody": "laborum",
+  "Subject": "esse",
+  "HTMLBody": "id",
   "From": null,
-  "Sent": "2009-03-29T12:19:45.2422708+02:00",
-  "Size": 237,
+  "Sent": "2003-08-28T11:44:33.5878385+02:00",
+  "Size": 92,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quas",
-  "PlainBody": "placeat",
+  "MessageID": "ex",
+  "PlainBody": "quae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 75,
+  "ServerId": 798,
   "Attachments": [
     {
-      "Description": "Cross-platform needs-based conglomeration",
-      "Filename": "quia",
-      "Size": 778,
-      "Type": "qui",
-      "Encoding": "commodi",
-      "Id": "quis",
-      "Disposition": "magnam",
+      "Description": "Multi-lateral empowering open architecture",
+      "Filename": "recusandae",
+      "Size": 290,
+      "Type": "reprehenderit",
+      "Encoding": "dolor",
+      "Id": "quibusdam",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldType": "System.String",
+          "FieldLength": 187
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gutmann Group",
+      "Name": "O'Hara, Keeling and Koss",
       "Values": [
-        "eveniet",
-        "voluptas"
+        "praesentium",
+        "ullam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldType": "System.String",
+          "FieldLength": 411
         }
       }
     },
     {
-      "Name": "Gutmann Group",
+      "Name": "O'Hara, Keeling and Koss",
       "Values": [
-        "eveniet",
-        "voluptas"
+        "praesentium",
+        "ullam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldType": "System.String",
+          "FieldLength": 411
         }
       }
     }
   ],
-  "FolderName": "Runte, Cassin and Jacobs",
-  "EmailItemId": 422,
-  "AccountId": 792,
-  "ReceivedAt": "2019-10-03T12:19:45.2422708+02:00",
+  "FolderName": "Jacobson Inc and Sons",
+  "EmailItemId": 614,
+  "AccountId": 609,
+  "ReceivedAt": "2001-02-19T11:44:33.5878385+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-02-06T12:19:45.2422708+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2013-12-31T11:44:33.5878385+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

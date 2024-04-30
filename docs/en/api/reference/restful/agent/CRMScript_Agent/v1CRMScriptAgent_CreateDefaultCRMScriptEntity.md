@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 605,
-  "UniqueIdentifier": "nulla",
-  "Name": "Medhurst, Bahringer and Bechtelar",
-  "Description": "Universal stable methodology",
-  "IncludeId": "ut",
-  "HierarchyId": 130,
-  "Source": "omnis",
-  "Registered": "2003-07-20T12:19:44.9923255+02:00",
-  "RegisteredAssociateId": 607,
-  "Updated": "2001-08-12T12:19:44.9923255+02:00",
-  "UpdatedAssociateId": 325,
+  "EjscriptId": 310,
+  "UniqueIdentifier": "corrupti",
+  "Name": "Kuphal-Feil",
+  "Description": "Digitized non-volatile algorithm",
+  "IncludeId": "rem",
+  "HierarchyId": 356,
+  "Source": "vitae",
+  "Registered": "2004-03-02T11:44:33.3223014+01:00",
+  "RegisteredAssociateId": 789,
+  "Updated": "2006-03-26T11:44:33.3223014+02:00",
+  "UpdatedAssociateId": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 685
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=perspiciatis
+GET /api/v1/List/ConsentSource/MDOItems?query=non
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Swaniawski LLC",
-    "ToolTip": "Et ut tempore quia et.",
+    "Id": 176,
+    "Name": "Roberts Group",
+    "ToolTip": "Et distinctio dolores quae sunt deserunt quia.",
     "Deleted": true,
-    "Rank": 798,
-    "Type": "sapiente",
+    "Rank": 833,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 538,
-        "Name": "Kemmer-Keeling",
-        "ToolTip": "Tempora facere et sequi.",
-        "Deleted": true,
-        "Rank": 123,
-        "Type": "dicta",
+        "Id": 147,
+        "Name": "Bartell, Ledner and Smitham",
+        "ToolTip": "Minima et veritatis aspernatur aliquid in.",
+        "Deleted": false,
+        "Rank": 574,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 905,
-        "ExtraInfo": "magnam",
-        "StyleHint": "culpa",
-        "FullName": "Frederic Kunze",
+        "IconHint": "quam",
+        "ColorBlock": 922,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "quae",
+        "FullName": "Ludwig Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 70
+            "FieldType": "System.Int32",
+            "FieldLength": 108
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 679,
-    "ExtraInfo": "ratione",
-    "StyleHint": "beatae",
-    "FullName": "Marvin Adams",
+    "IconHint": "velit",
+    "ColorBlock": 499,
+    "ExtraInfo": "odio",
+    "StyleHint": "ea",
+    "FullName": "Robyn Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laboriosam",
-  "ProviderName": "Bruen Group",
-  "StorageKey": "reiciendis",
-  "ExtraRestrictions": "placeat",
-  "OrderBy": "aut",
-  "DesiredColumns": "alias",
-  "PageSize": 841,
-  "PageNumber": 556
+  "StorageType": "sunt",
+  "ProviderName": "Franecki, Armstrong and Crona",
+  "StorageKey": "eius",
+  "ExtraRestrictions": "necessitatibus",
+  "OrderBy": "adipisci",
+  "DesiredColumns": "quos",
+  "PageSize": 426,
+  "PageNumber": 168
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kerluke-Wisozk",
-      "DisplayTooltip": "nemo",
-      "DisplayType": "omnis",
-      "CanOrderBy": false,
-      "Name": "Huels Inc and Sons",
+      "DisplayName": "Bogisich, Murazik and Rath",
+      "DisplayTooltip": "sint",
+      "DisplayType": "minus",
+      "CanOrderBy": true,
+      "Name": "Jewess LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "perspiciatis",
-      "RestrictionListName": "Gislason, Keeling and Pfannerstill",
+      "RestrictionType": "deleniti",
+      "RestrictionListName": "Lesch-Welch",
       "IsVisible": false,
-      "ExtraInfo": "eius",
-      "Width": "debitis",
-      "IconHint": "sed",
-      "HeadingIconHint": "veniam"
+      "ExtraInfo": "fugiat",
+      "Width": "quo",
+      "IconHint": "molestiae",
+      "HeadingIconHint": "distinctio"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Waters, Nolan and Muller",
-      "PrimaryKey": 36,
+      "EntityName": "Bosco, Haley and Yost",
+      "PrimaryKey": 610,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "illum",
-          "LinkHint": "id"
+          "DisplayValue": "perspiciatis",
+          "TooltipHint": "nihil",
+          "LinkHint": "pariatur"
         }
       },
-      "LinkHint": "voluptates",
-      "StyleHint": "sint",
+      "LinkHint": "rerum",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldLength": 933
         }
       }
     }
   ],
-  "RowCount": 278,
+  "RowCount": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 887
     }
   }
 }

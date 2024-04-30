@@ -122,7 +122,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -132,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 828,
-  "Title": "esse",
-  "CreatedAt": "2021-04-01T12:19:46.4451211+02:00",
-  "LastChanged": "2000-08-07T12:19:46.4451211+02:00",
-  "ReadByOwner": "2004-02-04T12:19:46.4451211+01:00",
-  "ReadByCustomer": "2010-07-06T12:19:46.4451211+02:00",
-  "FirstReadByOwner": "2011-11-25T12:19:46.4451211+01:00",
-  "FirstReadByUser": "2002-10-06T12:19:46.4451211+02:00",
-  "Activate": "2021-01-08T12:19:46.4451211+01:00",
-  "ClosedAt": "2017-05-04T12:19:46.4451211+02:00",
-  "RepliedAt": "2004-12-22T12:19:46.4451211+01:00",
-  "AlertTimeout": "2019-03-18T12:19:46.4451211+01:00",
-  "Deadline": "2002-01-31T12:19:46.4451211+01:00",
+  "TicketId": 306,
+  "Title": "fugit",
+  "CreatedAt": "2023-11-13T11:44:34.8063177+01:00",
+  "LastChanged": "2007-02-22T11:44:34.8063177+01:00",
+  "ReadByOwner": "2014-01-11T11:44:34.8063177+01:00",
+  "ReadByCustomer": "2004-04-05T11:44:34.8063177+02:00",
+  "FirstReadByOwner": "2010-11-20T11:44:34.8063177+01:00",
+  "FirstReadByUser": "2013-03-28T11:44:34.8063177+01:00",
+  "Activate": "2011-04-01T11:44:34.8063177+02:00",
+  "ClosedAt": "2016-08-09T11:44:34.8063177+02:00",
+  "RepliedAt": "2012-06-27T11:44:34.8063177+02:00",
+  "AlertTimeout": "2018-09-27T11:44:34.8063177+02:00",
+  "Deadline": "2003-11-13T11:44:34.8063177+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "doloribus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -157,162 +157,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "repellat",
-      "PersonId": 711,
-      "Mrmrs": "harum",
-      "Firstname": "Trevor",
-      "Lastname": "Kessler",
-      "MiddleName": "Smith-Reichert",
-      "Title": "voluptatem",
-      "Description": "Proactive scalable focus group",
-      "Email": "elbert.pollich@corwin.co.uk",
-      "FullName": "Katherine Herzog",
-      "DirectPhone": "1-436-286-7874",
-      "FormalName": "Wisoky-Marvin",
-      "CountryId": 890,
-      "ContactId": 289,
-      "ContactName": "Reilly Inc and Sons",
-      "Retired": 670,
-      "Rank": 50,
-      "ActiveInterests": 834,
+      "Position": "hic",
+      "PersonId": 873,
+      "Mrmrs": "perferendis",
+      "Firstname": "Miles",
+      "Lastname": "Koch",
+      "MiddleName": "Wolff-Paucek",
+      "Title": "autem",
+      "Description": "Grass-roots explicit orchestration",
+      "Email": "brad.carter@wisoky.ca",
+      "FullName": "Miss Luella Kessler Sr.",
+      "DirectPhone": "(219)221-9080 x75406",
+      "FormalName": "Kilback-Johns",
+      "CountryId": 791,
+      "ContactId": 857,
+      "ContactName": "McDermott-Hackett",
+      "Retired": 304,
+      "Rank": 645,
+      "ActiveInterests": 998,
       "ContactDepartment": "",
-      "ContactCountryId": 715,
-      "ContactOrgNr": "826844",
-      "FaxPhone": "828.667.8420 x91806",
-      "MobilePhone": "455.379.5520",
-      "ContactPhone": "(112)486-3883 x7470",
-      "AssociateName": "Corwin-Abshire",
-      "AssociateId": 309,
+      "ContactCountryId": 272,
+      "ContactOrgNr": "704886",
+      "FaxPhone": "433.660.3058 x08848",
+      "MobilePhone": "1-154-265-6878 x44922",
+      "ContactPhone": "387.782.6647 x9347",
+      "AssociateName": "Cole Group",
+      "AssociateId": 651,
       "UsePersonAddress": true,
-      "ContactFax": "voluptatibus",
-      "Kanafname": "exercitationem",
-      "Kanalname": "porro",
-      "Post1": "alias",
-      "Post2": "accusamus",
-      "Post3": "recusandae",
-      "EmailName": "ruby@dicki.name",
-      "ContactFullName": "Loraine Keebler",
-      "ActiveErpLinks": 938,
-      "TicketPriorityId": 328,
-      "SupportLanguageId": 112,
-      "SupportAssociateId": 871,
+      "ContactFax": "sunt",
+      "Kanafname": "rem",
+      "Kanalname": "officiis",
+      "Post1": "id",
+      "Post2": "dolorem",
+      "Post3": "blanditiis",
+      "EmailName": "baylee@quigley.uk",
+      "ContactFullName": "Dr. Imani Winnifred Roberts DVM",
+      "ActiveErpLinks": 614,
+      "TicketPriorityId": 211,
+      "SupportLanguageId": 741,
+      "SupportAssociateId": 450,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldType": "System.String",
+          "FieldLength": 124
         }
       }
     }
   ],
-  "AlertLevel": 75,
-  "ConnectId": 468,
+  "AlertLevel": 643,
+  "ConnectId": 949,
   "ReadStatus": "Green",
-  "TimeToReply": 16,
-  "RealTimeToReply": 311,
-  "TimeToClose": 328,
-  "RealTimeToClose": 693,
-  "TimeSpentInternally": 755,
-  "TimeSpentExternally": 633,
-  "TimeSpentQueue": 655,
-  "RealTimeSpentInternally": 350,
-  "RealTimeSpentExternally": 57,
-  "RealTimeSpentQueue": 179,
-  "TimeSpent": 754,
-  "HasAttachment": true,
-  "NumReplies": 650,
-  "NumMessages": 779,
-  "FromAddress": "est",
+  "TimeToReply": 305,
+  "RealTimeToReply": 659,
+  "TimeToClose": 237,
+  "RealTimeToClose": 699,
+  "TimeSpentInternally": 285,
+  "TimeSpentExternally": 986,
+  "TimeSpentQueue": 507,
+  "RealTimeSpentInternally": 586,
+  "RealTimeSpentExternally": 901,
+  "RealTimeSpentQueue": 546,
+  "TimeSpent": 288,
+  "HasAttachment": false,
+  "NumReplies": 285,
+  "NumMessages": 368,
+  "FromAddress": "aut",
   "Messages": [
     {
-      "TicketMessageId": 625,
-      "CreatedAt": "2004-05-07T12:19:46.4451211+02:00",
+      "TicketMessageId": 155,
+      "CreatedAt": "2006-03-23T11:44:34.8219427+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "autem",
-      "PersonId": 57,
-      "PersonFullName": "Mrs. Kyler Fritsch Sr.",
-      "ContactId": 808,
-      "ContactName": "Cruickshank-Denesik",
+      "Author": "voluptatem",
+      "PersonId": 989,
+      "PersonFullName": "Green Gusikowski I",
+      "ContactId": 605,
+      "ContactName": "Lynch-Lemke",
       "ContactDepartment": "",
-      "NumAttachments": 171,
-      "EmailHeader": "ismael.dooley@bayer.uk",
+      "NumAttachments": 153,
+      "EmailHeader": "dino_muller@ortiz.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "perferendis",
-      "Sentiment": 871,
-      "SentimentConfidence": 892,
-      "CreatedBy": 749,
-      "ChangedAt": "2006-05-10T12:19:46.4451211+02:00",
+      "Language": "omnis",
+      "Sentiment": 476,
+      "SentimentConfidence": 661,
+      "CreatedBy": 215,
+      "ChangedAt": "2001-06-14T11:44:34.8219427+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldType": "System.String",
+          "FieldLength": 73
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 378,
-      "Name": "Osinski LLC",
-      "ToolTip": "Aspernatur atque et quibusdam sit natus ut.",
+      "Id": 970,
+      "Name": "Kohler LLC",
+      "ToolTip": "Fuga omnis velit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldLength": 573
         }
       }
     },
     {
-      "Id": 378,
-      "Name": "Osinski LLC",
-      "ToolTip": "Aspernatur atque et quibusdam sit natus ut.",
+      "Id": 970,
+      "Name": "Kohler LLC",
+      "ToolTip": "Fuga omnis velit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldLength": 573
         }
       }
     }
   ],
-  "Language": "ducimus",
-  "Sentiment": 810,
-  "SentimentConfidence": 388,
-  "SuggestedCategoryId": 571,
+  "Language": "dolor",
+  "Sentiment": 997,
+  "SentimentConfidence": 649,
+  "SuggestedCategoryId": 754,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 911,
-  "IconHint": "sapiente",
+  "OrigHumanCategoryId": 75,
+  "IconHint": "illo",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 213,
+  "ActiveStatusMonitorId": 420,
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "quia"
+    "CustomFields1": "in",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 185
     }
   }
 }

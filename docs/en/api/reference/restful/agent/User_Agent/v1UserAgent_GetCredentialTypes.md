@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "quas",
-    "Type": "temporibus",
-    "Description": "Intuitive human-resource interface",
+    "DisplayType": "cupiditate",
+    "Type": "ut",
+    "Description": "Assimilated disintermediate adapter",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 765
       }
     }
   }

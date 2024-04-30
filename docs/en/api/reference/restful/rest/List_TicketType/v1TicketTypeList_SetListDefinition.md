@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 242,
-  "Name": "Price, Schroeder and McClure",
-  "Tooltip": "sit",
+  "Id": 386,
+  "Name": "Hegmann, Lehner and Kihn",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 330,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true
+  "Rank": 898,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 741,
-  "Name": "Thiel-Hegmann",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "Rank": 458,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "unde",
-  "InUseByUserDefinedFields": false,
+  "Id": 112,
+  "Name": "Pagac-Jaskolski",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 339,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "delectus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   }
 }

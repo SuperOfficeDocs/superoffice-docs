@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 301,
-  "Name": "Pouros Group",
-  "Tooltip": "dolore",
-  "VisibleColumns": 191,
-  "Rank": 165,
-  "AssocId": 113,
+  "DiaryViewId": 841,
+  "Name": "Will LLC",
+  "Tooltip": "maxime",
+  "VisibleColumns": 673,
+  "Rank": 120,
+  "AssocId": 539,
   "AssociateList": [
     {
-      "Id": 927,
-      "Name": "Lubowitz Inc and Sons",
-      "ToolTip": "Nisi ab id velit.",
+      "Id": 606,
+      "Name": "Feil-Bartoletti",
+      "ToolTip": "Ut et enim ea.",
       "Deleted": false,
-      "Rank": 553,
-      "Type": "consequatur",
-      "ColorBlock": 808,
-      "IconHint": "ut",
-      "Selected": false,
-      "LastChanged": "2005-11-09T12:19:44.8361197+01:00",
+      "Rank": 704,
+      "Type": "non",
+      "ColorBlock": 550,
+      "IconHint": "ad",
+      "Selected": true,
+      "LastChanged": "1998-11-07T11:44:32.9942315+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "quia",
+      "ExtraInfo": "omnis",
+      "StyleHint": "sint",
       "Hidden": false,
-      "FullName": "Fanny Sauer",
+      "FullName": "Mrs. Karli Lakin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldType": "System.String",
+          "FieldLength": 524
         }
       }
     }
   ],
-  "TzLocationId": 442,
+  "TzLocationId": 369,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 898
     }
   }
 }

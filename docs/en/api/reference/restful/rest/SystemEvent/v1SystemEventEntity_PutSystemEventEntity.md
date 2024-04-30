@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 350,
+  "SystemEventId": 660,
   "Scope": "Database",
-  "Eta": "2013-05-01T12:19:53.9460405+02:00",
-  "Eventkey": "esse",
-  "Eventmess": "voluptates",
-  "ExtraInfo": 215,
-  "Owner": 333,
-  "UpdatedCount": 77,
-  "Registered": "2014-02-17T12:19:53.9460405+01:00",
+  "Eta": "2016-09-18T11:44:42.5545135+02:00",
+  "Eventkey": "est",
+  "Eventmess": "commodi",
+  "ExtraInfo": 724,
+  "Owner": 280,
+  "UpdatedCount": 884,
+  "Registered": "2022-09-29T11:44:42.5545135+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 248,
+  "SystemEventId": 551,
   "Scope": "Database",
-  "Eta": "2001-04-28T12:19:53.9460405+02:00",
-  "Eventkey": "dignissimos",
-  "Eventmess": "voluptatum",
-  "ExtraInfo": 624,
-  "Owner": 208,
-  "UpdatedCount": 201,
-  "Registered": "2009-12-18T12:19:53.9460405+01:00",
+  "Eta": "2002-07-23T11:44:42.5545135+02:00",
+  "Eventkey": "asperiores",
+  "Eventmess": "asperiores",
+  "ExtraInfo": 428,
+  "Owner": 591,
+  "UpdatedCount": 384,
+  "Registered": "2019-07-16T11:44:42.5545135+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldLength": 884
     }
   },
   "_Links": {

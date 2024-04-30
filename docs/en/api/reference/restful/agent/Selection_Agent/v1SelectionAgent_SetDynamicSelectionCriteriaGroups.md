@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 336,
+  "SelectionId": 243,
   "Criteria": [
     {
-      "Name": "Considine Group",
-      "Description": "Exclusive well-modulated flexibility",
-      "Rank": 45,
+      "Name": "Kulas, Ondricka and Stroman",
+      "Description": "Secured client-driven forecast",
+      "Rank": 753,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Considine Group",
-      "Description": "Exclusive well-modulated flexibility",
-      "Rank": 45,
+      "Name": "Kulas, Ondricka and Stroman",
+      "Description": "Secured client-driven forecast",
+      "Rank": 753,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hettinger, Rodriguez and Little",
-    "Description": "Fundamental disintermediate application",
-    "Rank": 923,
+    "Name": "Torphy-Emmerich",
+    "Description": "Synergized static capacity",
+    "Rank": 633,
     "Restrictions": [
       {
-        "Name": "Schoen Group",
-        "Operator": "ut",
+        "Name": "Rowe LLC",
+        "Operator": "et",
         "Values": [
-          "odit",
-          "perspiciatis"
+          "esse",
+          "sint"
         ],
         "DisplayValues": [
-          "quas",
-          "consequatur"
+          "minima",
+          "maiores"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 703,
+        "InterParenthesis": 186,
         "InterOperator": "And",
-        "UniqueHash": 542
+        "UniqueHash": 713
       }
     ]
   },
   {
-    "Name": "Hettinger, Rodriguez and Little",
-    "Description": "Fundamental disintermediate application",
-    "Rank": 923,
+    "Name": "Torphy-Emmerich",
+    "Description": "Synergized static capacity",
+    "Rank": 633,
     "Restrictions": [
       {
-        "Name": "Schoen Group",
-        "Operator": "ut",
+        "Name": "Rowe LLC",
+        "Operator": "et",
         "Values": [
-          "odit",
-          "perspiciatis"
+          "esse",
+          "sint"
         ],
         "DisplayValues": [
-          "quas",
-          "consequatur"
+          "minima",
+          "maiores"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 703,
+        "InterParenthesis": 186,
         "InterOperator": "And",
-        "UniqueHash": 542
+        "UniqueHash": 713
       }
     ]
   }

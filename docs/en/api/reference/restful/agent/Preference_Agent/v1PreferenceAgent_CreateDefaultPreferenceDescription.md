@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 882,
-  "Section": "et",
-  "Key": "vitae",
-  "Name": "Gutkowski-DuBuque",
+  "PrefDescId": 636,
+  "Section": "adipisci",
+  "Key": "repellat",
+  "Name": "Hamill LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Face to face eco-centric hierarchy",
-  "IsBuiltin": true,
-  "TableName": "Deckow, Dickinson and Wuckert",
-  "UserDefinedListId": 510,
-  "Rank": 845,
-  "SubGroup": "non",
-  "MinLevel": 516,
-  "MaxValue": 74,
-  "MinValue": 838,
+  "Description": "Digitized regional service-desk",
+  "IsBuiltin": false,
+  "TableName": "Kreiger, Kub and Stamm",
+  "UserDefinedListId": 379,
+  "Rank": 60,
+  "SubGroup": "et",
+  "MinLevel": 533,
+  "MaxValue": 980,
+  "MinValue": 85,
   "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   }
 }

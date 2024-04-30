@@ -102,13 +102,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 6,
-  "StartTime": "2011-07-14T12:19:45.0860733+02:00",
-  "EndTime": "1999-05-17T12:19:45.0860733+02:00",
-  "Count": 118,
+  "ProjectId": 882,
+  "StartTime": "2022-05-15T11:44:33.431628+02:00",
+  "EndTime": "1997-09-12T11:44:33.431628+02:00",
+  "Count": 259,
   "DocumentTemplateIds": [
-    57,
-    699
+    274,
+    878
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 457,
-    "Attention": "quisquam",
-    "Header": "porro",
-    "Name": "Greenholt-Erdman",
-    "OurRef": "voluptatibus",
-    "YourRef": "dolore",
-    "Description": "Reduced dynamic open architecture",
-    "DocumentTemplate": "officia",
-    "IsPublished": false,
-    "PersonId": 335,
-    "PersonFullName": "Mr. Clement Delta Fay DVM",
-    "AssociateFullName": "Melany Ebert IV",
-    "ContactId": 127,
-    "ContactName": "Beer, Rice and Swaniawski",
-    "ProjectId": 519,
-    "ProjectName": "Steuber, Dare and O'Hara",
-    "AssociateId": 180,
-    "Snum": 43,
-    "SaleId": 79,
-    "SaleName": "Kshlerin-Erdman",
+    "DocumentId": 298,
+    "Attention": "laborum",
+    "Header": "beatae",
+    "Name": "Hermiston Inc and Sons",
+    "OurRef": "asperiores",
+    "YourRef": "ut",
+    "Description": "Synchronised encompassing Graphical User Interface",
+    "DocumentTemplate": "officiis",
+    "IsPublished": true,
+    "PersonId": 846,
+    "PersonFullName": "Prof. Jalen Sanford Wisoky",
+    "AssociateFullName": "Beryl Schuppe PhD",
+    "ContactId": 26,
+    "ContactName": "Leuschke-Rice",
+    "ProjectId": 948,
+    "ProjectName": "Jacobson Group",
+    "AssociateId": 668,
+    "Snum": 832,
+    "SaleId": 699,
+    "SaleName": "Parisian, Rutherford and Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 217
       }
     }
   }

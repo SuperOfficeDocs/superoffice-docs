@@ -1290,7 +1290,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelection?$select=person/personUdef/SuperOffice:10,contact/email/emailBounceCount,contact/contactAssociate/mrMrs,contact/contactExtra/x_contact_time,appointment/registeredByFullName
+GET /api/v1/archive/SaleDynamicSelection?$select=associateId,person/restrictionAddress/formattedAddress,contact/contactAssociate/assocTooltip,contact/contactUdef/SuperOffice:4,associate/locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

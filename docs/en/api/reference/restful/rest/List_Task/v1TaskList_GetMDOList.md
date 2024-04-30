@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=aut
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=ipsum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Eichmann-Kreiger",
-    "ToolTip": "Illum in.",
+    "Id": 141,
+    "Name": "Schultz-Wyman",
+    "ToolTip": "Omnis accusamus praesentium quibusdam rerum alias.",
     "Deleted": true,
-    "Rank": 551,
-    "Type": "reprehenderit",
+    "Rank": 763,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 644,
-        "Name": "Mayert LLC",
-        "ToolTip": "Rem enim non enim maxime eum accusantium placeat.",
+        "Id": 623,
+        "Name": "Thiel LLC",
+        "ToolTip": "Minus harum voluptas et consequuntur aperiam.",
         "Deleted": true,
-        "Rank": 382,
-        "Type": "ea",
+        "Rank": 839,
+        "Type": "odio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 71,
-        "ExtraInfo": "nisi",
-        "StyleHint": "atque",
-        "FullName": "Yvonne Koelpin",
+        "IconHint": "neque",
+        "ColorBlock": 189,
+        "ExtraInfo": "dolor",
+        "StyleHint": "debitis",
+        "FullName": "Miss Kendra Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldType": "System.String",
+            "FieldLength": 279
           }
         }
       }
     ],
-    "IconHint": "possimus",
-    "ColorBlock": 301,
-    "ExtraInfo": "officiis",
-    "StyleHint": "ducimus",
-    "FullName": "Raphaelle Littel",
+    "IconHint": "et",
+    "ColorBlock": 820,
+    "ExtraInfo": "sunt",
+    "StyleHint": "cum",
+    "FullName": "Corene Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 310
       }
     }
   }

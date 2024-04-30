@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "VonRueden-Towne",
-    "ToolTip": "Similique eaque corporis qui dignissimos.",
+    "Id": 459,
+    "Name": "Breitenberg LLC",
+    "ToolTip": "Omnis qui impedit inventore officia.",
     "Deleted": false,
-    "Rank": 73,
-    "Type": "iusto",
+    "Rank": 246,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "Simonis-Jast",
-        "ToolTip": "Assumenda quas autem in quis enim.",
+        "Id": 300,
+        "Name": "Bradtke-DuBuque",
+        "ToolTip": "Ut animi omnis rem reiciendis.",
         "Deleted": false,
-        "Rank": 392,
-        "Type": "et",
+        "Rank": 439,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officiis",
-        "ColorBlock": 357,
-        "ExtraInfo": "fuga",
-        "StyleHint": "ex",
-        "FullName": "Armando Russel",
+        "IconHint": "consectetur",
+        "ColorBlock": 724,
+        "ExtraInfo": "qui",
+        "StyleHint": "quidem",
+        "FullName": "Mrs. Coleman America Murazik DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 358
+            "FieldType": "System.Int32",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 846,
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "animi",
-    "FullName": "Emie Monahan",
+    "IconHint": "quas",
+    "ColorBlock": 573,
+    "ExtraInfo": "inventore",
+    "StyleHint": "labore",
+    "FullName": "Alvera Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldLength": 433
       }
     }
   }

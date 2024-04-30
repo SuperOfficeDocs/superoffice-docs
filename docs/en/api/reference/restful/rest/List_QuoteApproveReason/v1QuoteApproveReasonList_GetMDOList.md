@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=sunt
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=omnis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Jerde Group",
-    "ToolTip": "Molestias occaecati exercitationem corporis rerum.",
-    "Deleted": false,
-    "Rank": 752,
-    "Type": "nobis",
+    "Id": 699,
+    "Name": "Bogisich-Gottlieb",
+    "ToolTip": "Sequi magni dignissimos voluptatem.",
+    "Deleted": true,
+    "Rank": 145,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Bailey-Kunde",
-        "ToolTip": "Et beatae quo quo.",
+        "Id": 927,
+        "Name": "Bednar-Bode",
+        "ToolTip": "Cupiditate sit ipsa consequatur omnis molestiae consequatur.",
         "Deleted": false,
-        "Rank": 393,
-        "Type": "qui",
+        "Rank": 473,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 147,
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "sed",
-        "FullName": "Flossie Halvorson",
+        "IconHint": "pariatur",
+        "ColorBlock": 192,
+        "ExtraInfo": "facilis",
+        "StyleHint": "atque",
+        "FullName": "Mr. D'angelo Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 587
+            "FieldLength": 476
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 145,
-    "ExtraInfo": "modi",
-    "StyleHint": "aliquid",
-    "FullName": "Kariane Dooley",
+    "IconHint": "sed",
+    "ColorBlock": 76,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "tempore",
+    "FullName": "Sherman Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 405
       }
     }
   }

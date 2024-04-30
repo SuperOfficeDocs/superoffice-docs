@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Kris, Zieme and Gleason",
-      "Operator": "tenetur",
+      "Name": "Schuster-Kassulke",
+      "Operator": "odio",
       "Values": [
-        "fuga",
+        "incidunt",
         "consequatur"
       ],
       "DisplayValues": [
-        "odio",
-        "quibusdam"
+        "dolorem",
+        "dignissimos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 612,
+      "InterParenthesis": 647,
       "InterOperator": "And",
-      "UniqueHash": 601
+      "UniqueHash": 796
     }
   ],
-  "ProviderName": "Welch, Gleason and Batz",
-  "PageSize": 356,
-  "PageNumber": 166
+  "ProviderName": "Rempel-Strosin",
+  "PageSize": 738,
+  "PageNumber": 766
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bogisich-O'Kon",
-      "DisplayTooltip": "aspernatur",
-      "DisplayType": "cupiditate",
-      "CanOrderBy": false,
-      "Name": "Kuvalis-Nikolaus",
+      "DisplayName": "Haag Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "deleniti",
+      "CanOrderBy": true,
+      "Name": "Breitenberg-Gerlach",
       "CanRestrictBy": true,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Borer-Funk",
-      "IsVisible": false,
-      "ExtraInfo": "deserunt",
-      "Width": "quia",
-      "IconHint": "debitis",
-      "HeadingIconHint": "magni"
+      "RestrictionType": "doloremque",
+      "RestrictionListName": "Kuphal-Tillman",
+      "IsVisible": true,
+      "ExtraInfo": "adipisci",
+      "Width": "ut",
+      "IconHint": "aliquam",
+      "HeadingIconHint": "accusantium"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jacobson Group",
-      "PrimaryKey": 964,
+      "EntityName": "Bergnaum-Mayer",
+      "PrimaryKey": 953,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "sunt",
-          "LinkHint": "repudiandae"
+          "DisplayValue": "id",
+          "TooltipHint": "ut",
+          "LinkHint": "fuga"
         }
       },
-      "LinkHint": "laudantium",
-      "StyleHint": "at",
+      "LinkHint": "aliquid",
+      "StyleHint": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 274
+          "FieldLength": 254
         }
       }
     }
   ],
-  "RowCount": 800,
+  "RowCount": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 671
     }
   }
 }

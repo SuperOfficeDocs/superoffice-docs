@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pollich, Ratke and Bayer",
-  "Context": "a"
+  "TableName": "Schowalter, Gutkowski and Buckridge",
+  "Context": "molestiae"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": false,
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "eaque",
-    "ValueType": "qui",
+    "IsActive": true,
+    "Key": "quo",
+    "ValueType": "suscipit",
     "Mandatory": false,
-    "EncodedDisplayName": "Hickle-Christiansen",
-    "EncodedDisplayDescription": "Devolved full-range productivity",
-    "IconHint": "quasi",
+    "EncodedDisplayName": "Gerhold-Upton",
+    "EncodedDisplayDescription": "Sharable heuristic approach",
+    "IconHint": "rerum",
     "ControlInfos": [
       {
-        "Type": "quia",
-        "Label": "sint",
-        "Dimension": 717,
-        "ListProviderName": "Nicolas, Green and White",
-        "ListProviderExtraInfo": "dolorum",
-        "ListProviderPrimaryKeyName": "Cormier Inc and Sons",
-        "ListLeadText": "eos",
+        "Type": "laudantium",
+        "Label": "molestiae",
+        "Dimension": 761,
+        "ListProviderName": "Bailey Group",
+        "ListProviderExtraInfo": "impedit",
+        "ListProviderPrimaryKeyName": "Ebert, Lakin and Howe",
+        "ListLeadText": "nemo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 475
+            "FieldLength": 905
           }
         }
       }
     ],
-    "EncodedDataCaption": "molestiae",
-    "EncodedDataCaptionDescription": "Digitized client-driven installation",
-    "CurrentOperationType": "ratione",
+    "EncodedDataCaption": "id",
+    "EncodedDataCaptionDescription": "Fundamental human-resource contingency",
+    "CurrentOperationType": "non",
     "Values": [
-      "sit",
-      "iste"
+      "enim",
+      "odio"
     ],
     "DisplayValues": [
-      "sed",
-      "vitae"
+      "laboriosam",
+      "fugiat"
     ],
     "OperationInfos": [
       {
-        "Key": "labore",
-        "EncodedDisplayName": "Koss-Cole",
+        "Key": "iusto",
+        "EncodedDisplayName": "Reilly-Bauch",
         "EncodedLeadTexts": [
-          "consequatur",
-          "nihil"
+          "aspernatur",
+          "dolores"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldLength": 3
           }
         }
       },
       {
-        "Key": "labore",
-        "EncodedDisplayName": "Koss-Cole",
+        "Key": "iusto",
+        "EncodedDisplayName": "Reilly-Bauch",
         "EncodedLeadTexts": [
-          "consequatur",
-          "nihil"
+          "aspernatur",
+          "dolores"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldLength": 3
           }
         }
       }

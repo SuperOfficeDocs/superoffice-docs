@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ortiz-Schumm",
-    "Id": 747,
-    "Description": "Monitored dedicated time-frame",
-    "ExtraInfo": "ut",
-    "LinkId": 88,
+    "EntityName": "Roberts-Green",
+    "Id": 621,
+    "Description": "Total transitional analyzer",
+    "ExtraInfo": "impedit",
+    "LinkId": 750,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 249
       }
     }
   }

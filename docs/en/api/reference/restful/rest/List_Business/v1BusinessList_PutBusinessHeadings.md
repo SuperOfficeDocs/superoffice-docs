@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 771,
-    "Name": "Pfannerstill, Rath and Renner",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "Rank": 359,
-    "UdListDefinitionId": 485
+    "HeadingId": 28,
+    "Name": "Moen-Romaguera",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 825,
+    "UdListDefinitionId": 730
   },
   {
-    "HeadingId": 771,
-    "Name": "Pfannerstill, Rath and Renner",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "Rank": 359,
-    "UdListDefinitionId": 485
+    "HeadingId": 28,
+    "Name": "Moen-Romaguera",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 825,
+    "UdListDefinitionId": 730
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 611,
-    "Name": "McClure, Casper and Hills",
-    "Tooltip": "consectetur",
-    "Deleted": true,
-    "Rank": 184,
-    "UdListDefinitionId": 809,
+    "HeadingId": 458,
+    "Name": "Schuppe Inc and Sons",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 866,
+    "UdListDefinitionId": 287,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldLength": 933
       }
     }
   }

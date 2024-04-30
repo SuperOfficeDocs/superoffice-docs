@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 161,
-  "LanguageId": 419
+  "ReplyTemplateId": 576,
+  "LanguageId": 615
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 180,
-  "PlainParsed": "occaecati",
-  "HtmlParsed": "temporibus",
+  "ReplyTemplateId": 879,
+  "PlainParsed": "deleniti",
+  "HtmlParsed": "ea",
   "Attachments": [
     {
-      "AttachmentId": 216,
-      "Name": "Lesch-Bernier",
-      "ContentType": "qui",
-      "AttSize": 392,
+      "AttachmentId": 649,
+      "Name": "Kessler LLC",
+      "ContentType": "atque",
+      "AttSize": 537,
       "InlineImage": false,
-      "ContentId": "ullam",
-      "AuthKey": "et",
-      "IsSafeFileExtension": true,
+      "ContentId": "aliquam",
+      "AuthKey": "rem",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 783
         }
       }
     }
   ],
-  "Subject": "doloremque",
+  "Subject": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldLength": 387
     }
   }
 }

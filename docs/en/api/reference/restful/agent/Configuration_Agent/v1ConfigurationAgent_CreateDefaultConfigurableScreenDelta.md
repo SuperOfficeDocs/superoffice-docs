@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 199,
-  "Name": "Bogan Group",
-  "Description": "Configurable static functionalities",
-  "DeltaJson": "similique",
+  "ConfigurableScreenDeltaId": 821,
+  "Name": "DuBuque LLC",
+  "Description": "Robust upward-trending functionalities",
+  "DeltaJson": "aut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "neque",
-  "UpdatedDate": "2019-02-17T12:19:44.8204988+01:00",
-  "CreatedDate": "1997-03-16T12:19:44.8204988+01:00",
+  "RecipeId": "sint",
+  "UpdatedDate": "2012-12-28T11:44:32.9942315+01:00",
+  "CreatedDate": "2016-01-18T11:44:32.9942315+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    530,
-    896
+    614,
+    699
   ],
-  "AppliesToKey": "laboriosam",
+  "AppliesToKey": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

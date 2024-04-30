@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Zboncak, Heidenreich and Ferry",
-    "DisplayName": "Ernser, Yost and Sawayn",
-    "Description": "Enhanced demand-driven definition",
-    "ShortLabel": "sint",
+    "FieldName": "McCullough, Luettgen and Pfeffer",
+    "DisplayName": "Hoppe-Connelly",
+    "Description": "Expanded national moderator",
+    "ShortLabel": "veritatis",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 287,
-    "TemplateVariableName": "West Group"
+    "Rank": 325,
+    "TemplateVariableName": "O'Keefe-Wisozk"
   }
 ]
 ```

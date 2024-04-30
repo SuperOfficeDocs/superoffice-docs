@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Littel-Grady",
+      "Name": "Pacocha-Rodriguez",
       "State": false
     },
     {
-      "Name": "Littel-Grady",
+      "Name": "Pacocha-Rodriguez",
       "State": false
     }
   ]

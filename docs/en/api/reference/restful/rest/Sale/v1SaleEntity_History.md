@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/History?$select=name,department,category/id
 GET /api/v1/Sale/{id}/History?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/History?$orderBy=name asc
-GET /api/v1/Sale/{id}/History?$entities=dicta
-GET /api/v1/Sale/{id}/History?$top=595
-GET /api/v1/Sale/{id}/History?$skip=456
+GET /api/v1/Sale/{id}/History?$entities=ut
+GET /api/v1/Sale/{id}/History?$top=674
+GET /api/v1/Sale/{id}/History?$skip=657
 GET /api/v1/Sale/{id}/History?$mode=Full
 GET /api/v1/Sale/{id}/History?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/History?$context=error
+GET /api/v1/Sale/{id}/History?$context=cumque
 GET /api/v1/Sale/{id}/History?$format=JSON
 GET /api/v1/Sale/{id}/History?$jsonSafe=False
 GET /api/v1/Sale/{id}/History?$output=Display
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eum",
+  "odata.nextLink": "doloribus",
   "value": [
     {
-      "PrimaryKey": 2635,
+      "PrimaryKey": 1025,
       "EntityName": "sale",
-      "saleId": 2635,
-      "contactId": 7227,
-      "name": "Abshire-O'Reilly"
+      "saleId": 1025,
+      "contactId": 8248,
+      "name": "Schmidt, Balistreri and Schuppe"
     },
     {
-      "PrimaryKey": 1237,
+      "PrimaryKey": 7977,
       "EntityName": "sale",
-      "saleId": 1237,
-      "contactId": 1513,
-      "name": "Stokes Group"
+      "saleId": 7977,
+      "contactId": 247,
+      "name": "Spencer, Hettinger and Huels"
     }
   ]
 }

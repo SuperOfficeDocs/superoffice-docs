@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 80,
-    "Name": "Hand LLC",
-    "TZLocationCode": "consequatur",
-    "TZLocationCities": "in",
-    "IsoNumber": 59,
+    "TZLocationID": 76,
+    "Name": "Leannon-Miller",
+    "TZLocationCode": "et",
+    "TZLocationCities": "quia",
+    "IsoNumber": 314,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 500,
-        "StartMonth": 103,
-        "EndDay": 946,
-        "EndMonth": 63,
-        "TZOffset": 909,
-        "StartRulePattern": "doloremque",
-        "EndRulePattern": "quia"
+        "StartDay": 461,
+        "StartMonth": 517,
+        "EndDay": 266,
+        "EndMonth": 229,
+        "TZOffset": 664,
+        "StartRulePattern": "et",
+        "EndRulePattern": "velit"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 377,
-        "StartMonth": 315,
-        "EndDay": 259,
-        "EndMonth": 343,
-        "TZOffset": 95,
-        "StartRulePattern": "occaecati",
-        "EndRulePattern": "blanditiis"
+        "StartDay": 634,
+        "StartMonth": 23,
+        "EndDay": 216,
+        "EndMonth": 674,
+        "TZOffset": 743,
+        "StartRulePattern": "nam",
+        "EndRulePattern": "et"
       }
     }
   }

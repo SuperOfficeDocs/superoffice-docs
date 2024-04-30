@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=True
+GET /api/v1/Document/{id}?fk=False
 ```
 
 
@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 16 Apr 2020 12:19:53 G4T
+Last-Modified: Sun, 14 Sep 2014 11:44:41 G9T
 
 {
-  "DocumentId": 671,
+  "DocumentId": 598,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quidem",
-  "Header": "sint",
-  "Name": "Hayes, Hudson and Steuber",
-  "OurRef": "non",
-  "YourRef": "et",
-  "CreatedDate": "2000-01-12T12:19:53.3368073+01:00",
-  "UpdatedDate": "2020-04-16T12:19:53.3368073+02:00",
-  "Description": "Down-sized assymetric protocol",
+  "Attention": "incidunt",
+  "Header": "ut",
+  "Name": "Nolan, Hoppe and Bayer",
+  "OurRef": "tempora",
+  "YourRef": "temporibus",
+  "CreatedDate": "2014-01-18T11:44:41.9140447+01:00",
+  "UpdatedDate": "2014-09-14T11:44:41.9140447+02:00",
+  "Description": "Business-focused tangible functionalities",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-01-15T12:19:53.3368073+01:00",
-  "ExternalRef": "et",
+  "Date": "2018-12-20T11:44:41.9140447+01:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 3,
+  "ActiveLinks": 98,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Muller-Hettinger",
-      "Id": 455,
-      "Description": "Multi-layered bandwidth-monitored ability",
-      "ExtraInfo": "atque",
-      "LinkId": 909,
+      "EntityName": "O'Reilly-Rosenbaum",
+      "Id": 125,
+      "Description": "Proactive transitional instruction set",
+      "ExtraInfo": "explicabo",
+      "LinkId": 412,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 983
+          "FieldLength": 36
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 962,
-  "Snum": 844,
+  "SuggestedDocumentId": 894,
+  "Snum": 281,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Kirstin Roob"
+    "SuperOffice:1": "Dr. Tomasa Weimann",
+    "SuperOffice:2": "Julia Reynolds DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "modi",
+    "CustomFields2": "labore"
   },
-  "PublishEventDate": "2003-05-13T12:19:53.3368073+02:00",
-  "PublishTo": "2016-06-02T12:19:53.3368073+02:00",
-  "PublishFrom": "2011-10-05T12:19:53.3368073+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-03-28T11:44:41.9140447+01:00",
+  "PublishTo": "2013-09-19T11:44:41.9140447+02:00",
+  "PublishFrom": "2023-10-20T11:44:41.9140447+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 504,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     },
     {
-      "VisibleId": 504,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Thu, 16 Apr 2020 12:19:53 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 150
     }
   },
   "_Links": {

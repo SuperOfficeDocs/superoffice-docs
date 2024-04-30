@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "sint",
+  "Path": "iure",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 775,
+  "HierarchyId": 205,
   "Domain": "Dashboards",
-  "Name": "Langworth-Lindgren",
-  "Fullname": "quo",
-  "ParentId": 277,
+  "Name": "Bauch Group",
+  "Fullname": "provident",
+  "ParentId": 15,
   "Children": [
     {
-      "HierarchyId": 467,
+      "HierarchyId": 169,
       "Domain": "Dashboards",
-      "Name": "Bruen, Keeling and Sawayn",
-      "Fullname": "et",
-      "ParentId": 382,
+      "Name": "Williamson Group",
+      "Fullname": "cupiditate",
+      "ParentId": 242,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-06-18T12:19:45.5390987+02:00",
-      "RegisteredAssociateId": 452,
-      "Updated": "2004-01-17T12:19:45.5390987+01:00",
-      "UpdatedAssociateId": 13,
+      "Registered": "2023-07-16T11:44:33.9002761+02:00",
+      "RegisteredAssociateId": 746,
+      "Updated": "1998-06-01T11:44:33.9002761+02:00",
+      "UpdatedAssociateId": 390,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldLength": 368
         }
       }
     }
   ],
-  "Registered": "1997-08-06T12:19:45.5390987+02:00",
-  "RegisteredAssociateId": 322,
-  "Updated": "2000-03-04T12:19:45.5390987+01:00",
-  "UpdatedAssociateId": 778,
+  "Registered": "2003-06-12T11:44:33.9002761+02:00",
+  "RegisteredAssociateId": 346,
+  "Updated": "1999-09-08T11:44:33.9002761+02:00",
+  "UpdatedAssociateId": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 743
     }
   }
 }

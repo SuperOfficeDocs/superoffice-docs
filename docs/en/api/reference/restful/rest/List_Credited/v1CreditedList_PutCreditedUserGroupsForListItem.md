@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Goyette, Herman and Brekke",
-    "ToolTip": "Officia doloribus dolore ut.",
-    "Deleted": true,
-    "Rank": 340,
-    "Type": "et",
-    "ColorBlock": 673,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2022-05-22T12:19:54.383431+02:00",
+    "Id": 672,
+    "Name": "Bartoletti, Schowalter and Rogahn",
+    "ToolTip": "Itaque laboriosam cupiditate nesciunt aut quidem quibusdam.",
+    "Deleted": false,
+    "Rank": 1001,
+    "Type": "praesentium",
+    "ColorBlock": 732,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2016-04-01T11:44:43.0231528+02:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Walter Group",
-        "ToolTip": "Enim reprehenderit ducimus voluptatem et.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "molestiae",
-        "ColorBlock": 597,
-        "IconHint": "nam",
-        "Selected": true,
-        "LastChanged": "2010-09-01T12:19:54.383431+02:00",
+        "Id": 25,
+        "Name": "Torp-Ferry",
+        "ToolTip": "Aliquam quis modi quis id nemo ut molestiae.",
+        "Deleted": false,
+        "Rank": 192,
+        "Type": "quasi",
+        "ColorBlock": 58,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2010-04-29T11:44:43.0231528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "eos",
+        "ExtraInfo": "magni",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Ayla Gottlieb"
+        "FullName": "Foster Nienow"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Miss Kenny Chauncey Renner"
+    "ExtraInfo": "quam",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Ms. Alan Stephany Rosenbaum V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Fay LLC",
-    "ToolTip": "Ratione praesentium vero voluptatem.",
+    "Id": 99,
+    "Name": "Bosco, Kihn and Littel",
+    "ToolTip": "Voluptas natus optio voluptas nesciunt.",
     "Deleted": false,
-    "Rank": 543,
-    "Type": "quo",
-    "ColorBlock": 983,
-    "IconHint": "numquam",
+    "Rank": 309,
+    "Type": "explicabo",
+    "ColorBlock": 97,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2017-03-23T12:19:54.383431+01:00",
+    "LastChanged": "2009-08-25T11:44:43.0231528+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Rodriguez-Dibbert",
-        "ToolTip": "Quae molestiae illo et cupiditate maxime.",
-        "Deleted": true,
-        "Rank": 299,
-        "Type": "et",
-        "ColorBlock": 179,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2022-10-21T12:19:54.383431+02:00",
+        "Id": 337,
+        "Name": "Crooks-Lebsack",
+        "ToolTip": "Ipsa ut sit iusto.",
+        "Deleted": false,
+        "Rank": 459,
+        "Type": "ex",
+        "ColorBlock": 147,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2017-11-17T11:44:43.0231528+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quis",
+        "ExtraInfo": "qui",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Lola Duncan Terry Sr.",
+        "FullName": "Reyes Collier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldType": "System.String",
+            "FieldLength": 644
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ex",
+    "ExtraInfo": "ea",
+    "StyleHint": "amet",
     "Hidden": true,
-    "FullName": "Keenan Hunter Schoen V",
+    "FullName": "Dr. Don Dana Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldType": "System.String",
+        "FieldLength": 198
       }
     }
   }

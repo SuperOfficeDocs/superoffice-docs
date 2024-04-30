@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan Inc and Sons",
-    "Description": "Business-focused multi-state time-frame",
+    "Name": "Windler, Schiller and Durgan",
+    "Description": "Virtual value-added challenge",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 12,
-        "Tooltip": "quos",
+        "Total": 595,
+        "Tooltip": "laudantium",
         "CanAssign": false,
-        "Free": 547,
-        "InUse": 990,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 423,
-        "Name": "Thiel, Schaden and Koepp",
-        "Description": "Synchronised content-based hardware",
-        "PrerequisiteModuleName": "Harris-Romaguera",
-        "SortOrder": 375,
-        "ExtraFlags": 710,
+        "Free": 965,
+        "InUse": 424,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 746,
+        "Name": "Flatley, VonRueden and Sawayn",
+        "Description": "Synergized client-driven model",
+        "PrerequisiteModuleName": "Larson, Emard and Littel",
+        "SortOrder": 872,
+        "ExtraFlags": 968,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 131
+            "FieldLength": 133
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 144,
-        "Tooltip": "quaerat",
+        "Unrestricted": true,
+        "Total": 192,
+        "Tooltip": "in",
         "CanAssign": false,
-        "Free": 804,
-        "InUse": 450,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 312,
-        "Name": "Williamson-Hoeger",
-        "Description": "Synergistic homogeneous concept",
-        "PrerequisiteModuleName": "Cronin-Leannon",
-        "SortOrder": 636,
-        "ExtraFlags": 467,
+        "Free": 752,
+        "InUse": 632,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 636,
+        "Name": "Fay Inc and Sons",
+        "Description": "Synergistic reciprocal circuit",
+        "PrerequisiteModuleName": "Torp LLC",
+        "SortOrder": 412,
+        "ExtraFlags": 683,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 586
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 680
       }
     }
   },
   {
-    "Name": "Beahan Inc and Sons",
-    "Description": "Business-focused multi-state time-frame",
+    "Name": "Windler, Schiller and Durgan",
+    "Description": "Virtual value-added challenge",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 12,
-        "Tooltip": "quos",
+        "Total": 595,
+        "Tooltip": "laudantium",
         "CanAssign": false,
-        "Free": 547,
-        "InUse": 990,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 423,
-        "Name": "Thiel, Schaden and Koepp",
-        "Description": "Synchronised content-based hardware",
-        "PrerequisiteModuleName": "Harris-Romaguera",
-        "SortOrder": 375,
-        "ExtraFlags": 710,
+        "Free": 965,
+        "InUse": 424,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 746,
+        "Name": "Flatley, VonRueden and Sawayn",
+        "Description": "Synergized client-driven model",
+        "PrerequisiteModuleName": "Larson, Emard and Littel",
+        "SortOrder": 872,
+        "ExtraFlags": 968,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 131
+            "FieldLength": 133
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 144,
-        "Tooltip": "quaerat",
+        "Unrestricted": true,
+        "Total": 192,
+        "Tooltip": "in",
         "CanAssign": false,
-        "Free": 804,
-        "InUse": 450,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 312,
-        "Name": "Williamson-Hoeger",
-        "Description": "Synergistic homogeneous concept",
-        "PrerequisiteModuleName": "Cronin-Leannon",
-        "SortOrder": 636,
-        "ExtraFlags": 467,
+        "Free": 752,
+        "InUse": 632,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 636,
+        "Name": "Fay Inc and Sons",
+        "Description": "Synergistic reciprocal circuit",
+        "PrerequisiteModuleName": "Torp LLC",
+        "SortOrder": 412,
+        "ExtraFlags": 683,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 586
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 680
       }
     }
   }

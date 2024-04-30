@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 883,
+  "UdListDefinitionId": 305,
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Kuhn, Rowe and Hermiston",
-    "Tooltip": "et",
+    "Id": 986,
+    "Name": "Carter Group",
+    "Tooltip": "incidunt",
     "Deleted": true,
-    "UdListDefinitionId": 202,
-    "Rank": 170,
+    "UdListDefinitionId": 705,
+    "Rank": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldType": "System.String",
+        "FieldLength": 225
       }
     }
   }

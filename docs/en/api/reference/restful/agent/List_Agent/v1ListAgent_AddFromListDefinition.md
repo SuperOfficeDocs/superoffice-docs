@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 437,
+  "UdListDefinitionId": 318,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "O'Hara-Marks",
-  "Tooltip": "reiciendis",
+  "Id": 643,
+  "Name": "O'Connell LLC",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "UdListDefinitionId": 712,
-  "Rank": 59,
+  "UdListDefinitionId": 549,
+  "Rank": 910,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 200
     }
   }
 }

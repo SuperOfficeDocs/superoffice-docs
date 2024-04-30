@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    221,
-    873
+    59,
+    10
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Waters-Schmeler",
-    "Comment": "omnis",
-    "StakeholderRoleId": 700,
-    "CountryId": 568,
-    "PersonId": 437,
-    "EmailDescription": "hadley_hills@wunsch.com",
-    "EmailId": 389,
-    "EmailAddress": "gayle@walkerschumm.co.uk",
-    "PhoneId": 327,
-    "ContactName": "Zulauf Group",
-    "ContactId": 727,
-    "SaleId": 921,
-    "Mrmrs": "porro",
-    "Firstname": "Darion",
-    "MiddleName": "Crona, Heidenreich and Weimann",
-    "Lastname": "Bailey",
-    "SaleStakeholderId": 193,
-    "Rank": 796,
-    "Phone": "582.644.9598 x6147",
+    "StakeholderRoleName": "Deckow Group",
+    "Comment": "sed",
+    "StakeholderRoleId": 85,
+    "CountryId": 4,
+    "PersonId": 389,
+    "EmailDescription": "king_wunsch@ornschulist.ca",
+    "EmailId": 704,
+    "EmailAddress": "jennifer_hickle@hane.info",
+    "PhoneId": 121,
+    "ContactName": "Dare LLC",
+    "ContactId": 880,
+    "SaleId": 710,
+    "Mrmrs": "id",
+    "Firstname": "Antonetta",
+    "MiddleName": "Homenick-Beahan",
+    "Lastname": "Predovic",
+    "SaleStakeholderId": 226,
+    "Rank": 301,
+    "Phone": "(584)652-3073",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldLength": 340
       }
     }
   }

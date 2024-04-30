@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Kris-Kling",
-    "ToolTip": "Ipsa aspernatur aut itaque explicabo commodi.",
+    "Id": 781,
+    "Name": "Wehner-Gulgowski",
+    "ToolTip": "Ut voluptatem.",
     "Deleted": false,
-    "Rank": 627,
-    "Type": "est",
-    "ColorBlock": 923,
-    "IconHint": "animi",
+    "Rank": 587,
+    "Type": "eum",
+    "ColorBlock": 132,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2011-02-09T12:19:54.7114903+01:00",
+    "LastChanged": "2013-12-05T11:44:43.1949983+01:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Heathcote Inc and Sons",
-        "ToolTip": "Qui labore.",
+        "Id": 69,
+        "Name": "Weber LLC",
+        "ToolTip": "Sit voluptatibus veritatis aut architecto aut odio quia.",
         "Deleted": false,
-        "Rank": 145,
-        "Type": "molestiae",
-        "ColorBlock": 464,
-        "IconHint": "beatae",
+        "Rank": 605,
+        "Type": "quae",
+        "ColorBlock": 354,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2023-03-28T12:19:54.7114903+02:00",
+        "LastChanged": "2007-06-23T11:44:43.1949983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Norene Kassulke",
+        "ExtraInfo": "odio",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Teagan Schiller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 680
+            "FieldType": "System.String",
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "hic",
+    "StyleHint": "officiis",
     "Hidden": true,
-    "FullName": "Bonita Tom Weber MD",
+    "FullName": "Mr. Markus Nathanial Hickle V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldType": "System.String",
+        "FieldLength": 442
       }
     }
   }

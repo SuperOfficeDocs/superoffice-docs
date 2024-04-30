@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "illum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "illum",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "praesentium",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-03-18T12:19:53.8835558+01:00",
-  "Amount": 30352.789999999997,
-  "SaleId": 262,
-  "Earning": 15159.158,
-  "EarningPercent": 18559.548,
-  "Heading": "rerum",
-  "Number": "976200",
-  "Probability": 682,
-  "CreatedDate": "2012-12-19T12:19:53.8835558+01:00",
-  "UpdatedDate": "1997-08-08T12:19:53.8835558+02:00",
+  "Saledate": "2006-05-05T11:44:42.476412+02:00",
+  "Amount": 21988.144,
+  "SaleId": 668,
+  "Earning": 15488.228,
+  "EarningPercent": 13654.838,
+  "Heading": "non",
+  "Number": "335732",
+  "Probability": 823,
+  "CreatedDate": "2016-01-10T11:44:42.476412+01:00",
+  "UpdatedDate": "2010-07-04T11:44:42.476412+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 486,
+  "ActiveLinks": 523,
   "Links": [
     {
-      "EntityName": "Harber-Conroy",
-      "Id": 629,
-      "Description": "Advanced encompassing framework",
-      "ExtraInfo": "sint",
-      "LinkId": 88,
+      "EntityName": "Kuhn LLC",
+      "Id": 718,
+      "Description": "Operative systematic forecast",
+      "ExtraInfo": "eos",
+      "LinkId": 798,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 965
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2017-09-21T11:44:42.476412+02:00",
+  "Postit": "enim",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2013-05-14T11:44:42.476412+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Zemlak LLC",
+      "Comment": "quaerat",
+      "StakeholderRoleId": 283,
+      "CountryId": 405,
+      "PersonId": 371,
+      "EmailDescription": "emmy@doyle.us",
+      "EmailId": 519,
+      "EmailAddress": "mavis@streich.uk",
+      "PhoneId": 94,
+      "ContactName": "Feeney, Nitzsche and Welch",
+      "ContactId": 35,
+      "SaleId": 133,
+      "Mrmrs": "amet",
+      "Firstname": "Jaida",
+      "MiddleName": "Flatley LLC",
+      "Lastname": "Bahringer",
+      "SaleStakeholderId": 482,
+      "Rank": 754,
+      "Phone": "1-812-997-2481",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 995
         }
       }
     }
   ],
-  "NextDueDate": "2023-07-19T12:19:53.8835558+02:00",
-  "Postit": "eligendi",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2007-02-05T12:19:53.8835558+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Heathcote, Purdy and Stokes",
-      "Comment": "voluptas",
-      "StakeholderRoleId": 767,
-      "CountryId": 64,
-      "PersonId": 663,
-      "EmailDescription": "imani_yost@smithabernathy.com",
-      "EmailId": 59,
-      "EmailAddress": "derrick@huel.co.uk",
-      "PhoneId": 830,
-      "ContactName": "Shields LLC",
-      "ContactId": 646,
-      "SaleId": 836,
-      "Mrmrs": "dolor",
-      "Firstname": "Cristal",
-      "MiddleName": "Kassulke Inc and Sons",
-      "Lastname": "Hane",
-      "SaleStakeholderId": 120,
-      "Rank": 663,
-      "Phone": "262.102.1439 x03358",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 943
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 339,
+  "ActiveErpLinks": 654,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "365320542"
+    "SuperOffice:1": "Karina Ankunding",
+    "SuperOffice:2": "826836285"
   },
   "ExtraFields": {
-    "ExtraFields1": "alias",
+    "ExtraFields1": "quia",
     "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "error"
+    "CustomFields1": "et",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "2003-02-23T12:19:53.8835558+01:00",
-  "PublishTo": "2019-01-01T12:19:53.8835558+01:00",
-  "PublishFrom": "2017-03-31T12:19:53.8835558+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-11-06T11:44:42.4920354+01:00",
+  "PublishTo": "2006-04-01T11:44:42.4920354+02:00",
+  "PublishFrom": "1999-03-27T11:44:42.4920354+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 39,
+      "VisibleId": 852,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 619
+          "FieldType": "System.Int32",
+          "FieldLength": 307
         }
       }
     },
     {
-      "VisibleId": 39,
+      "VisibleId": 852,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 619
+          "FieldType": "System.Int32",
+          "FieldLength": 307
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 689
     }
   },
   "_Links": {

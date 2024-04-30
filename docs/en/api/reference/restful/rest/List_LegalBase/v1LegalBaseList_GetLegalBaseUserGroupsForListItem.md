@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Ziemann-Kessler",
-    "ToolTip": "Nam ut in qui tenetur.",
+    "Id": 387,
+    "Name": "Blanda-Schiller",
+    "ToolTip": "Aliquid omnis.",
     "Deleted": false,
-    "Rank": 680,
-    "Type": "sunt",
-    "ColorBlock": 857,
-    "IconHint": "laudantium",
-    "Selected": true,
-    "LastChanged": "2018-05-19T12:19:54.4615351+02:00",
+    "Rank": 603,
+    "Type": "minima",
+    "ColorBlock": 181,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2010-12-25T11:44:43.1012637+01:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Blick Group",
-        "ToolTip": "Sed eaque non expedita.",
+        "Id": 187,
+        "Name": "Lang Group",
+        "ToolTip": "Omnis omnis rem sint distinctio quasi beatae aut.",
         "Deleted": false,
-        "Rank": 209,
-        "Type": "aperiam",
-        "ColorBlock": 982,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2001-02-09T12:19:54.4615351+01:00",
+        "Rank": 333,
+        "Type": "nisi",
+        "ColorBlock": 320,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2024-03-02T11:44:43.1012637+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Jewell Corwin",
+        "ExtraInfo": "enim",
+        "StyleHint": "itaque",
+        "Hidden": true,
+        "FullName": "Fausto Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 269
+            "FieldType": "System.Int32",
+            "FieldLength": 534
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "non",
+    "ExtraInfo": "porro",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Miss Nona Delpha Lind",
+    "FullName": "Claudia Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 682
       }
     }
   }

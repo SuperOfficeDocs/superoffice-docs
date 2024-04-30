@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 150,
+  "EjMessageId": 802,
   "Ticket": null,
-  "CreatedAt": "2022-04-24T12:19:54.0553956+02:00",
+  "CreatedAt": "2018-09-30T11:44:42.6638733+02:00",
   "CreatedBy": null,
-  "Author": "dolor",
+  "Author": "fugit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sapiente",
-  "TimeSpent": 909,
-  "Body": "tempore",
-  "HtmlBody": "dolorum",
-  "EmailHeader": "rahul@kuhn.com",
-  "DebugInfo": "ut",
-  "MailSorter": "et",
+  "MessageId": "assumenda",
+  "TimeSpent": 445,
+  "Body": "accusamus",
+  "HtmlBody": "adipisci",
+  "EmailHeader": "oral.eichmann@okeefe.ca",
+  "DebugInfo": "animi",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nulla",
+  "SearchTitle": "in",
   "MessageHeaders": [
     {
-      "Id": 641,
-      "Name": "Kerluke-Gulgowski",
-      "Value": "repellendus",
+      "Id": 801,
+      "Name": "Schmidt, Cassin and Reichert",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
   ],
   "Important": false,
-  "Language": "unde",
-  "Sentiment": 889,
-  "SentimentConfidence": 392,
+  "Language": "corrupti",
+  "Sentiment": 942,
+  "SentimentConfidence": 456,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 9,
-      "Name": "Littel-Kertzmann",
-      "ContentType": "et",
-      "AttSize": 467,
-      "InlineImage": false,
-      "ContentId": "omnis",
-      "AuthKey": "omnis",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 405,
+      "Name": "Graham LLC",
+      "ContentType": "commodi",
+      "AttSize": 684,
+      "InlineImage": true,
+      "ContentId": "molestiae",
+      "AuthKey": "perferendis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldLength": 361
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "impedit"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

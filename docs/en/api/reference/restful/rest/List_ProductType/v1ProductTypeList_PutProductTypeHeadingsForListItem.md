@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 387,
-    "Name": "Aufderhar Group",
-    "ToolTip": "Omnis consectetur dolore minima.",
+    "Id": 927,
+    "Name": "Parisian-Ledner",
+    "ToolTip": "Iste culpa dolores est vel mollitia sint.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "assumenda",
-    "ColorBlock": 785,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "2012-03-01T12:19:54.7271106+01:00",
+    "Rank": 746,
+    "Type": "deleniti",
+    "ColorBlock": 201,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2022-07-13T11:44:43.2106158+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Gottlieb, Swaniawski and Ritchie",
-        "ToolTip": "Et sit.",
+        "Id": 327,
+        "Name": "Bradtke-Luettgen",
+        "ToolTip": "Beatae aut.",
         "Deleted": false,
-        "Rank": 418,
-        "Type": "voluptates",
-        "ColorBlock": 463,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "1999-01-11T12:19:54.7271106+01:00",
+        "Rank": 172,
+        "Type": "nostrum",
+        "ColorBlock": 120,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2009-01-03T11:44:43.2106158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "sint",
+        "ExtraInfo": "ut",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Emmanuelle Harvey"
+        "FullName": "Leon Cummerata"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "atque",
-    "Hidden": true,
-    "FullName": "Rafael Schmidt"
+    "ExtraInfo": "porro",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Isidro Breitenberg"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Bradtke Group",
-    "ToolTip": "Expedita tempora.",
+    "Id": 42,
+    "Name": "Kessler, Strosin and Hoppe",
+    "ToolTip": "Dolores expedita inventore velit consequatur reiciendis voluptatem aut.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "labore",
-    "ColorBlock": 895,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2009-02-19T12:19:54.7271106+01:00",
+    "Rank": 311,
+    "Type": "sit",
+    "ColorBlock": 927,
+    "IconHint": "beatae",
+    "Selected": true,
+    "LastChanged": "2011-06-25T11:44:43.2106158+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Altenwerth, Shields and Kiehn",
-        "ToolTip": "Voluptatibus id adipisci voluptas iure aut nisi voluptatum.",
-        "Deleted": true,
-        "Rank": 457,
-        "Type": "debitis",
-        "ColorBlock": 429,
+        "Id": 500,
+        "Name": "Lebsack Inc and Sons",
+        "ToolTip": "Natus laboriosam dolores laboriosam ea quaerat corporis.",
+        "Deleted": false,
+        "Rank": 563,
+        "Type": "corrupti",
+        "ColorBlock": 294,
         "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2000-12-25T12:19:54.7271106+01:00",
+        "Selected": false,
+        "LastChanged": "2011-07-19T11:44:43.2106158+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Liliane Ahmad Schmeler PhD",
+        "ExtraInfo": "iusto",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Ms. Hunter Mia Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 150
+            "FieldType": "System.Int32",
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Zackery Alexie Ziemann Sr.",
+    "ExtraInfo": "qui",
+    "StyleHint": "veniam",
+    "Hidden": true,
+    "FullName": "Gerhard Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 541
       }
     }
   }

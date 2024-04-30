@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 760,
-  "ERPProductKey": "sit"
+  "QuoteAlternativeId": 257,
+  "ERPProductKey": "molestias"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 95,
-  "ERPQuoteLineKey": "ex",
-  "QuoteAlternativeId": 285,
-  "ERPProductKey": "aperiam",
+  "QuoteLineId": 578,
+  "ERPQuoteLineKey": "deserunt",
+  "QuoteAlternativeId": 744,
+  "ERPProductKey": "cumque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 28381.504,
-  "DeliveredQuantity": 23360.836,
-  "Rank": 221,
-  "Name": "Dibbert LLC",
-  "Description": "Profit-focused heuristic local area network",
-  "Code": "et",
-  "QuantityUnit": "et",
-  "PriceUnit": "voluptatum",
-  "ItemNumber": "1085753",
+  "Quantity": 266.39,
+  "DeliveredQuantity": 3626.038,
+  "Rank": 245,
+  "Name": "Christiansen-Jerde",
+  "Description": "Grass-roots grid-enabled paradigm",
+  "Code": "quis",
+  "QuantityUnit": "ut",
+  "PriceUnit": "vel",
+  "ItemNumber": "1103546",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolore",
-  "ProductTypeKey": "aliquam",
-  "Supplier": "rerum",
-  "SupplierCode": "quasi",
-  "Thumbnail": "omnis",
-  "VATInfo": "impedit",
-  "VAT": 12896.41,
-  "UnitCost": 12028.292,
-  "UnitMinimumPrice": 30992.126,
-  "UnitListPrice": 10357.869999999999,
+  "ProductFamilyKey": "omnis",
+  "ProductTypeKey": "aperiam",
+  "Supplier": "asperiores",
+  "SupplierCode": "quod",
+  "Thumbnail": "quia",
+  "VATInfo": "illo",
+  "VAT": 28845.336,
+  "UnitCost": 22433.172,
+  "UnitMinimumPrice": 3579.028,
+  "UnitListPrice": 21502.374,
   "ExtraInfo": [
     {
-      "Name": "Walter, Jacobson and Hills",
-      "Value": "voluptate",
+      "Name": "Swaniawski Inc and Sons",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 282
         }
       }
     },
     {
-      "Name": "Walter, Jacobson and Hills",
-      "Value": "voluptate",
+      "Name": "Swaniawski Inc and Sons",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 282
         }
       }
     }
   ],
-  "RawExtraInfo": "culpa",
+  "RawExtraInfo": "ullam",
   "IsSubscription": false,
-  "SubscriptionUnit": "minima",
-  "SubscriptionQuantity": 15171.694,
-  "SubscriptionStart": "2004-12-29T12:19:46.1014395+01:00",
-  "ERPDiscountPercent": 24448.334,
-  "ERPDiscountAmount": 9079.198,
-  "DiscountPercent": 16284.264,
-  "DiscountAmount": 17591.142,
+  "SubscriptionUnit": "error",
+  "SubscriptionQuantity": 12667.627999999999,
+  "SubscriptionStart": "2023-06-22T11:44:34.3063794+02:00",
+  "ERPDiscountPercent": 12708.369999999999,
+  "ERPDiscountAmount": 7988.566,
+  "DiscountPercent": 13112.655999999999,
+  "DiscountAmount": 23599.02,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5797.9,
-  "EarningAmount": 3998.984,
-  "SubTotal": 31280.453999999998,
-  "TotalPrice": 1291.2079999999999,
-  "Rights": "sed",
-  "Rule": "eos",
-  "ExtraField1": "enim",
-  "ExtraField2": "veniam",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "ducimus",
+  "EarningPercent": 27168.646,
+  "EarningAmount": 16089.956,
+  "SubTotal": 18525.074,
+  "TotalPrice": 14510.42,
+  "Rights": "explicabo",
+  "Rule": "atque",
+  "ExtraField1": "sapiente",
+  "ExtraField2": "officia",
+  "ExtraField3": "minima",
+  "ExtraField4": "non",
+  "ExtraField5": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 993
     }
   }
 }

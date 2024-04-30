@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facilis",
+    "path": "libero",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facilis",
+    "path": "libero",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 386,
-  "Name": "Lindgren, Ullrich and Kunze",
+  "WebhookId": 59,
+  "Name": "Franecki-Beer",
   "Events": [
-    "quia",
-    "voluptates"
+    "quos",
+    "accusamus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quam",
+  "Secret": "asperiores",
   "State": "Active",
-  "Type": "nemo",
+  "Type": "soluta",
   "Headers": {
-    "Headers1": "ex",
-    "Headers2": "doloremque"
+    "Headers1": "autem",
+    "Headers2": "illum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-12-14T12:19:54.2584759+01:00",
+  "Registered": "2005-05-09T11:44:42.8825602+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-10-07T12:19:54.2584759+02:00",
+  "Updated": "2011-03-05T11:44:42.8825602+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sharon.rice@roberts.uk",
+  "ErrorsEmail": "claire@gleichner.biz",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

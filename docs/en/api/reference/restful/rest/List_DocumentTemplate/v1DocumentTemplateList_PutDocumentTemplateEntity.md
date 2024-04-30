@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 106,
-  "Name": "Weimann, Strosin and Will",
-  "Tooltip": "rerum",
-  "SaveInDb": 911,
-  "Filename": "totam",
-  "DefaultOref": "repudiandae",
+  "DocumentTemplateId": 694,
+  "Name": "Ullrich-Gottlieb",
+  "Tooltip": "sunt",
+  "SaveInDb": 756,
+  "Filename": "cupiditate",
+  "DefaultOref": "in",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 234,
-  "IntentId": 500,
+  "AutoeventId": 244,
+  "IntentId": 267,
   "IsDefaultPublished": false,
-  "Rank": 226,
-  "LoadTemplateFromPlugin": 895,
-  "MimeType": "quas",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 568,
+  "Rank": 710,
+  "LoadTemplateFromPlugin": 406,
+  "MimeType": "in",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 532,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mathilde.dickinson@hayes.us",
+  "EmailSubject": "carol@mcglynn.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "clovis_kertzmann@armstrong.ca",
+  "SenderEmailAddress": "domenica.jewess@hesselbernier.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 961,
-  "Name": "Aufderhar Inc and Sons",
-  "Tooltip": "dolorum",
-  "SaveInDb": 550,
-  "Filename": "eum",
-  "DefaultOref": "repellat",
+  "DocumentTemplateId": 226,
+  "Name": "Steuber, Boehm and Heaney",
+  "Tooltip": "eaque",
+  "SaveInDb": 755,
+  "Filename": "labore",
+  "DefaultOref": "qui",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 970,
-  "IntentId": 601,
-  "IsDefaultPublished": true,
-  "Rank": 237,
-  "LoadTemplateFromPlugin": 807,
-  "MimeType": "dolorum",
+  "AutoeventId": 355,
+  "IntentId": 494,
+  "IsDefaultPublished": false,
+  "Rank": 436,
+  "LoadTemplateFromPlugin": 997,
+  "MimeType": "aliquid",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 419,
+  "DocumentTypeKey": 976,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rachelle@grahamthiel.co.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "roscoe@legroskris.com",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kennith.gaylord@harberarmstrong.uk",
+  "SenderEmailAddress": "john@kunze.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

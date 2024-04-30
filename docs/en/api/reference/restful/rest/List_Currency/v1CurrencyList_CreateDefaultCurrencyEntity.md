@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 799,
-  "Name": "Hansen-Spencer",
-  "Tooltip": "voluptatum",
-  "Rank": 546,
-  "Rate": 21972.474,
-  "Units": 15453.753999999999,
-  "Deleted": true,
+  "CurrencyId": 338,
+  "Name": "Ryan-D'Amore",
+  "Tooltip": "aliquid",
+  "Rank": 44,
+  "Rate": 1319.414,
+  "Units": 1319.414,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 794
     }
   }
 }

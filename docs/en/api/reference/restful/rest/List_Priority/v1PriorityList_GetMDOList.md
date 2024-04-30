@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=sed
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=neque
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Hand Inc and Sons",
-    "ToolTip": "Reiciendis ratione cupiditate nulla et omnis unde tenetur.",
+    "Id": 308,
+    "Name": "Wintheiser-Botsford",
+    "ToolTip": "Minus deserunt quos rerum.",
     "Deleted": false,
-    "Rank": 997,
-    "Type": "est",
+    "Rank": 84,
+    "Type": "illum",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Dickinson, Moen and Kirlin",
-        "ToolTip": "Non vel harum nisi incidunt in.",
+        "Id": 546,
+        "Name": "Nienow Group",
+        "ToolTip": "Qui ut.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "libero",
+        "Rank": 463,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 69,
-        "ExtraInfo": "libero",
-        "StyleHint": "est",
-        "FullName": "Prof. Renee Albertha Schinner",
+        "IconHint": "consequatur",
+        "ColorBlock": 774,
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "recusandae",
+        "FullName": "Mrs. Birdie Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 211
+            "FieldType": "System.String",
+            "FieldLength": 254
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 477,
-    "ExtraInfo": "molestias",
-    "StyleHint": "quia",
-    "FullName": "Helene Dibbert",
+    "IconHint": "consequatur",
+    "ColorBlock": 951,
+    "ExtraInfo": "id",
+    "StyleHint": "et",
+    "FullName": "Callie Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldLength": 490
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 15 Apr 2005 12:19:53 G4T
+Last-Modified: Mon, 27 Mar 2017 11:44:42 G3T
 
 {
-  "BlobId": 665,
-  "BlobSize": 123,
-  "Description": "Customizable executive contingency",
-  "ExtraInfo": "omnis",
-  "IsEncrypted": true,
+  "BlobId": 491,
+  "BlobSize": 100,
+  "Description": "Profound motivating interface",
+  "ExtraInfo": "sint",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sint",
-  "OriginalSize": 389,
-  "CreatedDate": "2010-11-19T12:19:53.7742043+01:00",
-  "UpdatedDate": "2005-04-15T12:19:53.7742043+02:00",
+  "MimeType": "sunt",
+  "OriginalSize": 299,
+  "CreatedDate": "2019-11-25T11:44:42.1951793+01:00",
+  "UpdatedDate": "2017-03-27T11:44:42.1951793+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 832
     }
   }
 }

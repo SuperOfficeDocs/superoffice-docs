@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 258,
-  "Section": "assumenda",
-  "Key": "fuga",
-  "Name": "McKenzie, O'Keefe and Schmitt",
+  "PrefDescId": 689,
+  "Section": "deleniti",
+  "Key": "amet",
+  "Name": "Tremblay, Terry and Jacobs",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customizable fresh-thinking local area network",
+  "Description": "Reverse-engineered zero administration array",
   "IsBuiltin": false,
-  "TableName": "Kozey-Hane",
-  "UserDefinedListId": 324,
-  "Rank": 450,
-  "SubGroup": "inventore",
-  "MinLevel": 223,
-  "MaxValue": 129,
-  "MinValue": 463,
-  "RequiredLicense": "vitae",
+  "TableName": "Blanda-Deckow",
+  "UserDefinedListId": 963,
+  "Rank": 163,
+  "SubGroup": "qui",
+  "MinLevel": 166,
+  "MaxValue": 635,
+  "MinValue": 549,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 340
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

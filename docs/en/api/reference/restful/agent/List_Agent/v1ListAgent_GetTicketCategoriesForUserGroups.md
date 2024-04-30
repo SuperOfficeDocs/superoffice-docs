@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    592,
-    945
+    361,
+    939
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Roberts-Hoeger",
-    "ToolTip": "Consequatur quo sint cupiditate expedita voluptate temporibus nisi.",
-    "Deleted": false,
-    "Rank": 881,
-    "Type": "illum",
+    "Id": 894,
+    "Name": "Feeney, Dooley and Legros",
+    "ToolTip": "Nobis facilis velit optio ad nesciunt porro reprehenderit.",
+    "Deleted": true,
+    "Rank": 504,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Ritchie Group",
-        "ToolTip": "Et esse nostrum.",
+        "Id": 64,
+        "Name": "Bosco-Greenholt",
+        "ToolTip": "Aliquam sit est vero.",
         "Deleted": false,
-        "Rank": 974,
-        "Type": "quis",
+        "Rank": 593,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 640,
-        "ExtraInfo": "cum",
-        "StyleHint": "beatae",
-        "FullName": "Mr. Lucas Morar DVM",
+        "IconHint": "facere",
+        "ColorBlock": 523,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "odio",
+        "FullName": "Nyah Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldLength": 383
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 517,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "expedita",
-    "FullName": "Alejandra Klein",
+    "IconHint": "optio",
+    "ColorBlock": 403,
+    "ExtraInfo": "quo",
+    "StyleHint": "aut",
+    "FullName": "Markus Renee Fadel DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldLength": 687
       }
     }
   }

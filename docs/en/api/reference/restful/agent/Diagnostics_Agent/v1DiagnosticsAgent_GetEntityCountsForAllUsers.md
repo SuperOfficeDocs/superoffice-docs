@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Littel Group",
-    "Records": 90,
+    "EntityName": "Greenholt, Walter and Daugherty",
+    "Records": 346,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldLength": 452
       }
     }
   },
   {
-    "EntityName": "Littel Group",
-    "Records": 90,
+    "EntityName": "Greenholt, Walter and Daugherty",
+    "Records": 346,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldLength": 452
       }
     }
   }

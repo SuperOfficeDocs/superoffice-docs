@@ -740,7 +740,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=alternative/version/extraField3,alternative/version/quote/sale/person/personMobilePhone/description,alternative/version/quote/sale/contact/contactExtra/x_contact_datetime,alternative/version/quote/sale/project/projectPublish/isPublished,alternative/version/quote/sale/project/projectAssociate/contactDepartment
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=rank,quoteLineThumbnailLarge,alternative/version/quote/sale/competitor,alternative/version/quote/sale/person/personAddress/zip,alternative/version/quote/sale/contact/email/emailLastBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

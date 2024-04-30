@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Wolf, Prohaska and Cole",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 649,
-    "Rank": 927
+    "Id": 852,
+    "Name": "Reilly-Murray",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 245,
+    "Rank": 713
   },
   {
-    "Id": 733,
-    "Name": "Wolf, Prohaska and Cole",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 649,
-    "Rank": 927
+    "Id": 852,
+    "Name": "Reilly-Murray",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 245,
+    "Rank": 713
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Stehr-Farrell",
-    "Tooltip": "tempore",
-    "Deleted": false,
-    "UdListDefinitionId": 306,
-    "Rank": 405,
+    "Id": 299,
+    "Name": "Farrell, Gleichner and Auer",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "UdListDefinitionId": 119,
+    "Rank": 262,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 715
       }
     }
   }

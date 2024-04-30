@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable executive productivity",
-  "Postit": "quam",
+  "Description": "Self-enabling intangible support",
+  "Postit": "modi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 388,
-  "IncludePerson": 360,
-  "MemberCount": 476,
-  "Name": "Jenkins Group",
-  "PostitTextId": 660,
-  "CreatedDate": "2018-12-12T12:19:53.9147965+01:00",
-  "SelectionId": 653,
-  "SoundEx": "ipsa",
-  "Source": 753,
-  "TextId": 960,
-  "UpdatedDate": "2010-11-13T12:19:53.9147965+01:00",
-  "UpdatedCount": 28,
-  "Visibility": 600,
+  "GroupIdx": 836,
+  "IncludePerson": 503,
+  "MemberCount": 836,
+  "Name": "Klocko, Williamson and DuBuque",
+  "PostitTextId": 828,
+  "CreatedDate": "2022-06-20T11:44:42.5076534+02:00",
+  "SelectionId": 594,
+  "SoundEx": "ut",
+  "Source": 131,
+  "TextId": 333,
+  "UpdatedDate": "2018-01-10T11:44:42.5076534+01:00",
+  "UpdatedCount": 705,
+  "Visibility": 317,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 517,
-  "TargetTableName": "Stoltenberg, Langosh and Braun",
+  "CompanyUnique": true,
+  "TargetTableNumber": 990,
+  "TargetTableName": "Rohan-West",
   "Completed": false,
-  "LeftSelectionId": 596,
-  "RightSelectionId": 468,
+  "LeftSelectionId": 984,
+  "RightSelectionId": 597,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zulauf, Kihn and Hills",
-  "ShadowProviderName": "Lind-Doyle",
-  "ChartKey": "aut",
-  "LastLoaded": "2001-10-04T12:19:53.9147965+02:00",
-  "LastLoadedBy": 577,
+  "MainProviderName": "Welch Inc and Sons",
+  "ShadowProviderName": "Rosenbaum-Greenfelder",
+  "ChartKey": "natus",
+  "LastLoaded": "2012-02-10T11:44:42.5076534+01:00",
+  "LastLoadedBy": 508,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-08-20T12:19:53.9147965+02:00",
-  "LastMembershipChangeBy": 823,
+  "LastMembershipChange": "2015-06-14T11:44:42.5076534+02:00",
+  "LastMembershipChangeBy": 910,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequatur",
-  "MemberTabHeading": "quam",
-  "MailingsProviderName": "Davis LLC",
-  "DashboardTileDefinitionId": 958,
+  "MainHeading": "qui",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Boyle, Langworth and Weber",
+  "DashboardTileDefinitionId": 84,
   "VisibleFor": [
     {
-      "VisibleId": 392,
+      "VisibleId": 396,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "amet"
     },
     {
-      "VisibleId": 392,
+      "VisibleId": 396,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "amet"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Function-based clear-thinking project",
-  "Postit": "quam",
+  "Description": "Synchronised cohesive budgetary management",
+  "Postit": "provident",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 18,
-  "IncludePerson": 260,
-  "MemberCount": 810,
-  "Name": "Zboncak Group",
-  "PostitTextId": 216,
-  "CreatedDate": "2009-04-10T12:19:53.9147965+02:00",
-  "SelectionId": 787,
-  "SoundEx": "dolorem",
-  "Source": 71,
-  "TextId": 129,
-  "UpdatedDate": "2023-06-24T12:19:53.9147965+02:00",
-  "UpdatedCount": 960,
-  "Visibility": 252,
+  "GroupIdx": 938,
+  "IncludePerson": 498,
+  "MemberCount": 77,
+  "Name": "Jacobson, Cartwright and Fay",
+  "PostitTextId": 712,
+  "CreatedDate": "2014-02-01T11:44:42.5232729+01:00",
+  "SelectionId": 233,
+  "SoundEx": "error",
+  "Source": 21,
+  "TextId": 83,
+  "UpdatedDate": "2005-03-11T11:44:42.5232729+01:00",
+  "UpdatedCount": 741,
+  "Visibility": 545,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 581,
-  "TargetTableName": "Lemke, Lakin and Zieme",
-  "Completed": false,
-  "LeftSelectionId": 225,
-  "RightSelectionId": 346,
+  "CompanyUnique": false,
+  "TargetTableNumber": 714,
+  "TargetTableName": "Pagac Group",
+  "Completed": true,
+  "LeftSelectionId": 268,
+  "RightSelectionId": 920,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rath, Kub and Cummerata",
-  "ShadowProviderName": "Padberg Inc and Sons",
-  "ChartKey": "tempora",
-  "LastLoaded": "2016-06-15T12:19:53.9147965+02:00",
-  "LastLoadedBy": 205,
+  "MainProviderName": "Beier LLC",
+  "ShadowProviderName": "Bednar LLC",
+  "ChartKey": "rerum",
+  "LastLoaded": "1999-05-11T11:44:42.5232729+02:00",
+  "LastLoadedBy": 202,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-01-25T12:19:53.9147965+01:00",
-  "LastMembershipChangeBy": 329,
+  "LastMembershipChange": "2014-05-18T11:44:42.5232729+02:00",
+  "LastMembershipChangeBy": 789,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eum",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Schneider Group",
-  "DashboardTileDefinitionId": 825,
+  "MainHeading": "officia",
+  "MemberTabHeading": "ipsa",
+  "MailingsProviderName": "Jakubowski-Braun",
+  "DashboardTileDefinitionId": 974,
   "VisibleFor": [
     {
-      "VisibleId": 637,
+      "VisibleId": 477,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     },
     {
-      "VisibleId": 637,
+      "VisibleId": 477,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 46
     }
   },
   "_Links": {

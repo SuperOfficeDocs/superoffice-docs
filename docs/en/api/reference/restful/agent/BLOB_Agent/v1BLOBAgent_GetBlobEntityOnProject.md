@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 587
+  "ProjectId": 597
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 876,
-  "BlobSize": 149,
-  "Description": "Organic optimal policy",
-  "ExtraInfo": "facere",
+  "BlobId": 645,
+  "BlobSize": 381,
+  "Description": "Pre-emptive client-server open architecture",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "consectetur",
-  "OriginalSize": 103,
-  "CreatedDate": "2014-03-20T12:19:44.5238763+01:00",
-  "UpdatedDate": "2014-04-06T12:19:44.5238763+02:00",
+  "IsZipped": true,
+  "MimeType": "ut",
+  "OriginalSize": 366,
+  "CreatedDate": "2021-03-15T11:44:32.8380188+01:00",
+  "UpdatedDate": "2013-10-18T11:44:32.8380188+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "id",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 47
     }
   }
 }

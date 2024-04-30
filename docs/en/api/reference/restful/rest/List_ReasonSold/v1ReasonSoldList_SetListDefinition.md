@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 447,
-  "Name": "Bogan-Wisoky",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 982,
-  "IsCustomList": false,
+  "Id": 168,
+  "Name": "Collins LLC",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 2,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Wilkinson Group",
-  "Tooltip": "provident",
+  "Id": 350,
+  "Name": "Barton, Parisian and Quitzon",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 935,
-  "IsCustomList": true,
+  "Rank": 157,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "maiores",
+  "UseGroupsAndHeadings": false,
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 15
     }
   }
 }

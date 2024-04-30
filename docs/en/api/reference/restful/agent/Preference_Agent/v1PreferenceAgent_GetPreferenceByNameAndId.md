@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "qui",
-  "PrefKey": "adipisci",
+  "PrefSection": "recusandae",
+  "PrefKey": "ea",
   "PrefLevel": "Database",
-  "OwnerId": 925
+  "OwnerId": 918
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ut",
+  "RawValue": "placeat",
   "Specification": null,
-  "DisplayValue": "sint",
-  "DisplayTooltip": "quaerat",
+  "DisplayValue": "eligendi",
+  "DisplayTooltip": "tempora",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 529,
-  "PrefDescId": 278,
-  "TableName": "Emard, Cruickshank and Schneider",
-  "UserPreferenceId": 466,
+  "TargetId": 133,
+  "PrefDescId": 12,
+  "TableName": "Littel Inc and Sons",
+  "UserPreferenceId": 614,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

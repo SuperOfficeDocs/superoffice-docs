@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 371,
+  "HierarchyId": 448,
   "Domain": "Dashboards",
-  "Name": "Kshlerin, Goldner and Ernser",
-  "Fullname": "consequatur",
-  "ParentId": 933,
+  "Name": "Orn, Sipes and Goyette",
+  "Fullname": "ut",
+  "ParentId": 385,
   "Children": [
     {
-      "HierarchyId": 510,
+      "HierarchyId": 130,
       "Domain": "Dashboards",
-      "Name": "Gleichner-Klocko",
-      "Fullname": "et",
-      "ParentId": 814,
+      "Name": "Goldner, King and Glover",
+      "Fullname": "quasi",
+      "ParentId": 535,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-11-13T12:19:53.6023745+01:00",
-      "RegisteredAssociateId": 737,
-      "Updated": "2022-06-16T12:19:53.6023745+02:00",
-      "UpdatedAssociateId": 415,
+      "Registered": "2019-04-18T11:44:42.0077636+02:00",
+      "RegisteredAssociateId": 150,
+      "Updated": "2010-11-11T11:44:42.0077636+01:00",
+      "UpdatedAssociateId": 734,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 101
+          "FieldLength": 992
         }
       }
     }
   ],
-  "Registered": "2007-05-02T12:19:53.6023745+02:00",
-  "RegisteredAssociateId": 758,
-  "Updated": "1998-01-07T12:19:53.6023745+01:00",
-  "UpdatedAssociateId": 867,
+  "Registered": "2009-12-04T11:44:42.0077636+01:00",
+  "RegisteredAssociateId": 862,
+  "Updated": "2008-10-17T11:44:42.0077636+02:00",
+  "UpdatedAssociateId": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldType": "System.String",
+      "FieldLength": 420
     }
   },
   "_Links": {

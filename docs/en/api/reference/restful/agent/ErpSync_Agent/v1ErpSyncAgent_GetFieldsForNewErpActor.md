@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 291,
+  "ErpConnectionId": 974,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "id",
-    "Rank": 364,
-    "DisplayName": "Treutel Group",
-    "DisplayDescription": "Synchronised zero administration archive",
+    "FieldKey": "modi",
+    "Rank": 922,
+    "DisplayName": "Steuber-Heidenreich",
+    "DisplayDescription": "Triple-buffered mission-critical initiative",
     "FieldType": "Checkbox",
-    "ListName": "Schaefer LLC",
-    "DefaultValue": "enim",
-    "MaxLength": 853,
+    "ListName": "Kutch LLC",
+    "DefaultValue": "optio",
+    "MaxLength": 520,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 22
       }
     }
   }

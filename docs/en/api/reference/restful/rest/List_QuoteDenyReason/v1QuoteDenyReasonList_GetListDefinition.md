@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 109,
-  "Name": "Turner, Kuhn and Grant",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 144,
+  "Id": 408,
+  "Name": "Leannon-Casper",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "Rank": 534,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ducimus",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 260
     }
   },
   "_Links": {

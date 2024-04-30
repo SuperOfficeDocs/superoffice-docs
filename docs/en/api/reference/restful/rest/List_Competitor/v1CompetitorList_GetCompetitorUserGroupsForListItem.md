@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Miller-Mayer",
-    "ToolTip": "Aut corporis earum repudiandae odio quod.",
-    "Deleted": false,
-    "Rank": 311,
-    "Type": "aut",
-    "ColorBlock": 412,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2010-03-07T12:19:54.3209449+01:00",
+    "Id": 83,
+    "Name": "Dibbert Group",
+    "ToolTip": "Eos et cum magni non hic.",
+    "Deleted": true,
+    "Rank": 708,
+    "Type": "recusandae",
+    "ColorBlock": 314,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2010-09-16T11:44:42.9607018+02:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Osinski Inc and Sons",
-        "ToolTip": "Consequatur doloremque autem.",
+        "Id": 915,
+        "Name": "Buckridge-Breitenberg",
+        "ToolTip": "Autem impedit quo provident fuga ullam.",
         "Deleted": false,
-        "Rank": 264,
-        "Type": "et",
-        "ColorBlock": 131,
-        "IconHint": "voluptas",
+        "Rank": 786,
+        "Type": "maiores",
+        "ColorBlock": 227,
+        "IconHint": "iure",
         "Selected": true,
-        "LastChanged": "1997-10-21T12:19:54.3209449+02:00",
+        "LastChanged": "2018-11-08T11:44:42.9607018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "quas",
-        "Hidden": false,
-        "FullName": "Prof. Ethan Macy Krajcik",
+        "ExtraInfo": "odit",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Ms. Kelvin Willow Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 150
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "nulla",
+    "ExtraInfo": "provident",
+    "StyleHint": "hic",
     "Hidden": true,
-    "FullName": "Luella Bashirian II",
+    "FullName": "Markus Quincy Bergstrom MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 283
       }
     }
   }

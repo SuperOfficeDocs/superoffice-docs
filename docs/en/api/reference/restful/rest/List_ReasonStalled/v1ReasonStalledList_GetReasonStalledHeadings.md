@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 714,
-    "Name": "Brekke-Kuhlman",
-    "Tooltip": "omnis",
+    "HeadingId": 289,
+    "Name": "Rice, Hyatt and Bernier",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "Rank": 423,
-    "UdListDefinitionId": 298,
+    "Rank": 875,
+    "UdListDefinitionId": 479,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 155
       }
     }
   }

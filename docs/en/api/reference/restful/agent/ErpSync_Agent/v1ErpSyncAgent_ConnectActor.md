@@ -71,29 +71,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 243,
-  "CrmRecordId": 234,
+  "ErpConnectionId": 234,
+  "CrmRecordId": 797,
   "CrmActorType": "Contact",
-  "ErpKey": "aut",
+  "ErpKey": "autem",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "O'Kon Inc and Sons",
-      "CrmFieldKey": "fugiat",
-      "Value": "et",
-      "DisplayValue": "facere",
+      "DisplayName": "Runolfsson Group",
+      "CrmFieldKey": "illum",
+      "Value": "commodi",
+      "DisplayValue": "et",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "O'Kon Inc and Sons",
-      "CrmFieldKey": "fugiat",
-      "Value": "et",
-      "DisplayValue": "facere",
+      "DisplayName": "Runolfsson Group",
+      "CrmFieldKey": "illum",
+      "Value": "commodi",
+      "DisplayValue": "et",
       "SyncToCrm": false,
       "SyncToErp": false
     }

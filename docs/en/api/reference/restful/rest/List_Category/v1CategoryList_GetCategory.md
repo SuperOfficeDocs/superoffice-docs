@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 394,
-  "Name": "Turcotte-Ullrich",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "UdListDefinitionId": 567,
-  "Rank": 666,
+  "Name": "Gutmann Inc and Sons",
+  "Tooltip": "laborum",
+  "Deleted": false,
+  "UdListDefinitionId": 709,
+  "Rank": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 713
     }
   }
 }

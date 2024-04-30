@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 47,
-    "Section": "necessitatibus",
-    "Key": "illum",
-    "Name": "Russel-Hoppe",
+    "PrefDescId": 46,
+    "Section": "molestias",
+    "Key": "voluptas",
+    "Name": "Bosco-Vandervort",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Devolved intermediate challenge",
-    "IsBuiltin": true,
-    "TableName": "Johnson-Stehr",
-    "UserDefinedListId": 489,
-    "Rank": 843,
-    "SubGroup": "cumque",
-    "MinLevel": 216,
-    "MaxValue": 553,
-    "MinValue": 276,
-    "RequiredLicense": "ut",
+    "Description": "Cross-group object-oriented hub",
+    "IsBuiltin": false,
+    "TableName": "Kub-Collier",
+    "UserDefinedListId": 673,
+    "Rank": 63,
+    "SubGroup": "et",
+    "MinLevel": 939,
+    "MaxValue": 64,
+    "MinValue": 985,
+    "RequiredLicense": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

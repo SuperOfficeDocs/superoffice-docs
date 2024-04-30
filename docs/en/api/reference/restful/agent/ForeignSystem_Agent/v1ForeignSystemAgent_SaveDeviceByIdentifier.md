@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Renner, Robel and Ebert",
-  "DeviceName": "Krajcik-Dare",
-  "DeviceIdentifier": "minima",
+  "ApplicationName": "Hartmann-Hammes",
+  "DeviceName": "Fisher Inc and Sons",
+  "DeviceIdentifier": "omnis",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 528,
-  "Name": "Upton, Wunsch and Breitenberg",
-  "CreatedDate": "2015-06-26T12:19:45.4141069+02:00",
-  "UpdatedDate": "2019-01-17T12:19:45.4141069+01:00",
-  "AssociateFullName": "Kaleigh Dickinson",
-  "CreatedBy": "ab",
-  "UpdatedBy": "quia",
-  "DeviceIdentifier": "autem",
-  "ForeignAppId": 541,
+  "ForeignDeviceId": 822,
+  "Name": "Balistreri-Stokes",
+  "CreatedDate": "1997-10-21T11:44:33.7596833+02:00",
+  "UpdatedDate": "2004-07-06T11:44:33.7596833+02:00",
+  "AssociateFullName": "Rosella Mayert",
+  "CreatedBy": "quod",
+  "UpdatedBy": "aliquam",
+  "DeviceIdentifier": "mollitia",
+  "ForeignAppId": 100,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

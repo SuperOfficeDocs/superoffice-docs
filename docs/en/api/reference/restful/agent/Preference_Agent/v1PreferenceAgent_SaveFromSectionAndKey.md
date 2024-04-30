@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatem",
-  "Key": "quis",
+  "Section": "quia",
+  "Key": "qui",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 357,
-  "Section": "delectus",
-  "Key": "repudiandae",
-  "Name": "Smith, Stamm and Cormier",
+  "PrefDescId": 352,
+  "Section": "quisquam",
+  "Key": "et",
+  "Name": "Satterfield Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic global approach",
+  "Description": "Distributed 24 hour portal",
   "IsBuiltin": false,
-  "TableName": "Mann LLC",
-  "UserDefinedListId": 739,
-  "Rank": 512,
-  "SubGroup": "voluptatum",
-  "MinLevel": 566,
-  "MaxValue": 68,
-  "MinValue": 84,
-  "RequiredLicense": "inventore",
+  "TableName": "Koelpin Group",
+  "UserDefinedListId": 272,
+  "Rank": 730,
+  "SubGroup": "voluptates",
+  "MinLevel": 13,
+  "MaxValue": 219,
+  "MinValue": 243,
+  "RequiredLicense": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 618
     }
   }
 }

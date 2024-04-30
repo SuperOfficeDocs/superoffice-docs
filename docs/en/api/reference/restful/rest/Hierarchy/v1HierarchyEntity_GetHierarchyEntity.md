@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 431,
+  "HierarchyId": 679,
   "Domain": "Dashboards",
-  "Name": "Armstrong Inc and Sons",
-  "Fullname": "hic",
-  "ParentId": 970,
+  "Name": "Douglas-Fay",
+  "Fullname": "eveniet",
+  "ParentId": 649,
   "Children": [
     {
-      "HierarchyId": 815,
+      "HierarchyId": 533,
       "Domain": "Dashboards",
-      "Name": "Hills Inc and Sons",
-      "Fullname": "ducimus",
-      "ParentId": 817,
+      "Name": "Franecki-Wolff",
+      "Fullname": "sunt",
+      "ParentId": 312,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-12-26T12:19:53.6023745+01:00",
-      "RegisteredAssociateId": 256,
-      "Updated": "2001-11-25T12:19:53.6023745+01:00",
-      "UpdatedAssociateId": 273,
+      "Registered": "2019-06-19T11:44:42.0077636+02:00",
+      "RegisteredAssociateId": 738,
+      "Updated": "2013-12-16T11:44:42.0077636+01:00",
+      "UpdatedAssociateId": 313,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
   ],
-  "Registered": "2011-12-02T12:19:53.6023745+01:00",
-  "RegisteredAssociateId": 252,
-  "Updated": "2009-02-06T12:19:53.6023745+01:00",
-  "UpdatedAssociateId": 255,
+  "Registered": "2023-07-05T11:44:42.0077636+02:00",
+  "RegisteredAssociateId": 16,
+  "Updated": "2006-11-13T11:44:42.0077636+01:00",
+  "UpdatedAssociateId": 519,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 206
     }
   },
   "_Links": {

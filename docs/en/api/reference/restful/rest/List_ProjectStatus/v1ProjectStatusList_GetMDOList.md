@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=adipisci
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=explicabo
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Welch Group",
-    "ToolTip": "Vero delectus soluta veniam voluptatem molestiae.",
-    "Deleted": false,
-    "Rank": 700,
-    "Type": "at",
+    "Id": 134,
+    "Name": "Oberbrunner, Huels and Rosenbaum",
+    "ToolTip": "Voluptatibus modi accusantium ut quasi aut dolor.",
+    "Deleted": true,
+    "Rank": 548,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Goldner LLC",
-        "ToolTip": "Perferendis repudiandae cumque modi.",
+        "Id": 776,
+        "Name": "O'Reilly-Kemmer",
+        "ToolTip": "Et quia sunt veritatis est voluptate.",
         "Deleted": false,
-        "Rank": 553,
-        "Type": "aut",
+        "Rank": 173,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 85,
-        "ExtraInfo": "qui",
-        "StyleHint": "in",
-        "FullName": "Cecile Quigley",
+        "IconHint": "amet",
+        "ColorBlock": 439,
+        "ExtraInfo": "et",
+        "StyleHint": "tempore",
+        "FullName": "Mr. Juliet Eldon Considine DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldType": "System.Int32",
+            "FieldLength": 335
           }
         }
       }
     ],
-    "IconHint": "nesciunt",
-    "ColorBlock": 281,
-    "ExtraInfo": "iure",
-    "StyleHint": "ut",
-    "FullName": "Edward Upton",
+    "IconHint": "rerum",
+    "ColorBlock": 647,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "tenetur",
+    "FullName": "Twila Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 870
       }
     }
   }

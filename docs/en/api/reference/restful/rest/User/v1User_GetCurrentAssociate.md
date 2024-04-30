@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 762,
-  "Name": "Grant-Mante",
-  "PersonId": 665,
-  "Rank": 589,
-  "Tooltip": "nisi",
+  "AssociateId": 693,
+  "Name": "Schulist, Wisoky and Jerde",
+  "PersonId": 55,
+  "Rank": 1000,
+  "Tooltip": "aut",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 673,
-  "FullName": "Shayna Mertz",
-  "FormalName": "Rice-Howe",
+  "GroupIdx": 695,
+  "FullName": "Hallie Jamarcus Davis V",
+  "FormalName": "Lakin-Terry",
   "Deleted": false,
-  "EjUserId": 915,
-  "UserName": "Wuckert-Moen",
+  "EjUserId": 252,
+  "UserName": "Kautzer Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 928
     }
   }
 }

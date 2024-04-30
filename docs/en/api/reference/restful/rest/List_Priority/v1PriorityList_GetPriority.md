@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Name": "Crooks-Torp",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "UdListDefinitionId": 374,
-  "Rank": 126,
+  "Id": 803,
+  "Name": "Cremin LLC",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "UdListDefinitionId": 961,
+  "Rank": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 857
     }
   }
 }

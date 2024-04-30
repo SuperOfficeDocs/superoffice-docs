@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 334,
-  "QuoteAlternativeName": "Leannon-Harris",
-  "QuoteAlternativeDescription": "Universal homogeneous workforce"
+  "QuoteVersionId": 461,
+  "QuoteAlternativeName": "Jacobson-Kiehn",
+  "QuoteAlternativeDescription": "Integrated content-based extranet"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 889,
-  "ERPQuoteAlternativeKey": "et",
-  "QuoteVersionId": 389,
-  "Name": "Streich, Schimmel and Pfeffer",
-  "Description": "Integrated mission-critical algorithm",
+  "QuoteAlternativeId": 278,
+  "ERPQuoteAlternativeKey": "illum",
+  "QuoteVersionId": 800,
+  "Name": "Bruen, Wilderman and Willms",
+  "Description": "Grass-roots regional matrix",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 29393.786,
-  "ERPDiscountAmount": 24200.748,
-  "DiscountPercent": 11069.288,
-  "DiscountAmount": 6371.422,
+  "ERPDiscountPercent": 16299.934,
+  "ERPDiscountAmount": 26964.935999999998,
+  "DiscountPercent": 9843.894,
+  "DiscountAmount": 14385.06,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "laudantium",
-  "VAT": 6706.76,
-  "EarningPercent": 5819.838,
-  "EarningAmount": 4998.73,
-  "SubTotal": 10777.826,
-  "TotalPrice": 19399.46,
-  "ExtraField1": "officia",
-  "ExtraField2": "ea",
-  "ExtraField3": "provident",
-  "ExtraField4": "quo",
-  "ExtraField5": "enim",
+  "VATInfo": "qui",
+  "VAT": 24272.829999999998,
+  "EarningPercent": 14447.74,
+  "EarningAmount": 27156.11,
+  "SubTotal": 25046.928,
+  "TotalPrice": 2836.27,
+  "ExtraField1": "nihil",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "aut",
+  "ExtraField4": "dolores",
+  "ExtraField5": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 326
     }
   }
 }

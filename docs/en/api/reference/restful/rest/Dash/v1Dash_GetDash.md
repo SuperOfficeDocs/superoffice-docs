@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 662,
-  "UniqueId": "modi",
-  "Name": "Hayes, Larson and Zemlak",
-  "Description": "Compatible mission-critical archive",
-  "AssociateId": 612,
-  "Columns": 593,
+  "DashboardId": 868,
+  "UniqueId": "rem",
+  "Name": "Dickinson Group",
+  "Description": "Universal non-volatile monitoring",
+  "AssociateId": 144,
+  "Columns": 83,
   "Theme": null,
-  "VisibleForAll": 557,
+  "VisibleForAll": 558,
   "VisibleForAssociates": [
-    870,
-    167
+    217,
+    797
   ],
   "VisibleForGroups": [
-    607,
-    827
+    191,
+    195
   ],
-  "PinForAll": 215,
+  "PinForAll": 532,
   "PinForAssociates": [
-    146,
-    301
+    273,
+    808
   ],
   "PinForGroups": [
-    256,
-    178
+    594,
+    585
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 870
     }
   },
   "_Links": {

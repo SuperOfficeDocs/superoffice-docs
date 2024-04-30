@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 534,
-  "PlainMessage": "molestiae",
-  "HtmlMessage": "ut",
-  "SmsMessage": "quidem",
-  "Description": "Expanded real-time budgetary management",
-  "Subject": "et",
-  "FolderId": 432,
-  "HeaderField": "fugit",
-  "Design": "quisquam",
+  "ShipmentMessageId": 781,
+  "PlainMessage": "sit",
+  "HtmlMessage": "inventore",
+  "SmsMessage": "et",
+  "Description": "Decentralized solution-oriented workforce",
+  "Subject": "in",
+  "FolderId": 574,
+  "HeaderField": "accusamus",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Versatile stable leverage",
-  "AccessKey": "hic",
-  "DocumentMessage": 950,
-  "Registered": "2012-06-28T12:19:53.9304171+02:00",
-  "RegisteredAssociateId": 930,
-  "Updated": "1998-09-21T12:19:53.9304171+02:00",
-  "UpdatedAssociateId": 270,
-  "UpdatedCount": 378
+  "LongDescription": "Enhanced zero defect matrices",
+  "AccessKey": "illum",
+  "DocumentMessage": 186,
+  "Registered": "2011-10-02T11:44:42.5545135+02:00",
+  "RegisteredAssociateId": 840,
+  "Updated": "2008-04-09T11:44:42.5545135+02:00",
+  "UpdatedAssociateId": 563,
+  "UpdatedCount": 31
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 280,
-  "PlainMessage": "sequi",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "quam",
-  "Description": "De-engineered static functionalities",
-  "Subject": "possimus",
-  "FolderId": 577,
-  "HeaderField": "corrupti",
-  "Design": "minus",
+  "ShipmentMessageId": 886,
+  "PlainMessage": "sed",
+  "HtmlMessage": "tenetur",
+  "SmsMessage": "libero",
+  "Description": "Up-sized mobile firmware",
+  "Subject": "minus",
+  "FolderId": 496,
+  "HeaderField": "laboriosam",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Configurable clear-thinking infrastructure",
-  "AccessKey": "ut",
-  "DocumentMessage": 837,
-  "Registered": "2013-08-11T12:19:53.9460405+02:00",
-  "RegisteredAssociateId": 956,
-  "Updated": "2018-03-11T12:19:53.9460405+01:00",
-  "UpdatedAssociateId": 959,
-  "UpdatedCount": 951,
+  "LongDescription": "Balanced high-level focus group",
+  "AccessKey": "explicabo",
+  "DocumentMessage": 75,
+  "Registered": "2016-05-12T11:44:42.5545135+02:00",
+  "RegisteredAssociateId": 291,
+  "Updated": "2004-03-31T11:44:42.5545135+02:00",
+  "UpdatedAssociateId": 557,
+  "UpdatedCount": 541,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldLength": 545
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

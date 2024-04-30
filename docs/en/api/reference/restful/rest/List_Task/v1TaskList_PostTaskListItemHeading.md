@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 799,
-  "Name": "Durgan LLC",
-  "Tooltip": "nam",
+  "HeadingId": 360,
+  "Name": "Powlowski-Hegmann",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 55,
-  "UdListDefinitionId": 549
+  "Rank": 959,
+  "UdListDefinitionId": 376
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 377,
-  "Name": "O'Reilly-Gorczany",
-  "Tooltip": "iure",
+  "HeadingId": 307,
+  "Name": "Ondricka, Gutkowski and Denesik",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 811,
-  "UdListDefinitionId": 307,
+  "Rank": 20,
+  "UdListDefinitionId": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

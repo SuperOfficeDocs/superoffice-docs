@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 951,
-  "HeadingId": 233
+  "UdListDefinitionId": 116,
+  "HeadingId": 260
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Daniel Inc and Sons",
-    "ToolTip": "Illo vero voluptatibus.",
+    "Id": 706,
+    "Name": "Rodriguez, Langworth and Purdy",
+    "ToolTip": "Harum vel vitae facere.",
     "Deleted": true,
-    "Rank": 581,
-    "Type": "dolor",
-    "ColorBlock": 626,
-    "IconHint": "labore",
+    "Rank": 951,
+    "Type": "delectus",
+    "ColorBlock": 877,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2023-09-12T12:19:45.5078373+02:00",
+    "LastChanged": "2009-06-26T11:44:33.8534097+02:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Franecki-Hartmann",
-        "ToolTip": "Illum consequatur earum eaque architecto odit soluta.",
-        "Deleted": true,
-        "Rank": 890,
-        "Type": "praesentium",
-        "ColorBlock": 314,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2023-10-09T12:19:45.5078373+02:00",
+        "Id": 340,
+        "Name": "Watsica, Hintz and West",
+        "ToolTip": "Voluptas reprehenderit modi omnis rem.",
+        "Deleted": false,
+        "Rank": 987,
+        "Type": "voluptatem",
+        "ColorBlock": 292,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2006-01-17T11:44:33.8534097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "esse",
+        "ExtraInfo": "totam",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Parker Tillman",
+        "FullName": "Dr. Jennifer Clementina Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 767
+            "FieldLength": 573
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "iure",
-    "Hidden": true,
-    "FullName": "Prof. Dell Schultz",
+    "ExtraInfo": "cum",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Dr. Noel Beatty III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldType": "System.Int32",
+        "FieldLength": 836
       }
     }
   }

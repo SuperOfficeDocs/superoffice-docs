@@ -76,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 296,
-  "VersionId": "quasi",
+  "DocumentId": 913,
+  "VersionId": "fuga",
   "WriteableUrl": false
 }
 ```

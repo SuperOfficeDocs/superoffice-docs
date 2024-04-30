@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=amet
-GET /api/v1/Selection?$top=598
-GET /api/v1/Selection?$skip=906
+GET /api/v1/Selection?$entities=saepe
+GET /api/v1/Selection?$top=970
+GET /api/v1/Selection?$skip=822
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=odio
+GET /api/v1/Selection?$context=est
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nisi",
+  "odata.nextLink": "eveniet",
   "value": [
     {
-      "PrimaryKey": 1051,
+      "PrimaryKey": 1269,
       "EntityName": "sale",
-      "saleId": 1051,
-      "contactId": 2048,
-      "name": "Bogisich Inc and Sons"
+      "saleId": 1269,
+      "contactId": 6663,
+      "name": "Hudson-Hagenes"
     },
     {
-      "PrimaryKey": 9972,
+      "PrimaryKey": 4931,
       "EntityName": "sale",
-      "saleId": 9972,
-      "contactId": 638,
-      "name": "Bernhard-Kilback"
+      "saleId": 4931,
+      "contactId": 3011,
+      "name": "Herman-Ratke"
     }
   ]
 }

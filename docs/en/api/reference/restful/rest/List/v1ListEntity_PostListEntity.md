@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Volkman, Frami and Lebsack",
-  "Tooltip": "nesciunt",
+  "Id": 387,
+  "Name": "Hackett Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 733,
+  "Rank": 31,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consectetur",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 538,
-  "Name": "Mayer, Schneider and Kunde",
-  "Tooltip": "nam",
+  "Id": 688,
+  "Name": "Shields-Armstrong",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 668,
+  "Rank": 274,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "id",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 434
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

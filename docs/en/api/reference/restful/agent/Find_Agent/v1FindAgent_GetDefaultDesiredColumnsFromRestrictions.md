@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wyman, Barton and Gislason",
+  "ProviderName": "Bogisich LLC",
   "Restrictions": [
     {
-      "Name": "Bosco-Aufderhar",
-      "Operator": "repudiandae",
+      "Name": "Abernathy-Pollich",
+      "Operator": "voluptas",
       "Values": [
-        "doloribus",
-        "dolor"
+        "aliquid",
+        "tempora"
       ],
       "DisplayValues": [
-        "voluptas",
-        "expedita"
+        "in",
+        "quis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 769,
       "InterOperator": "And",
-      "UniqueHash": 392
+      "UniqueHash": 581
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Lynch-Stamm",
-    "DisplayTooltip": "earum",
-    "DisplayType": "a",
+    "DisplayName": "Quitzon-Will",
+    "DisplayTooltip": "est",
+    "DisplayType": "fugiat",
     "CanOrderBy": false,
-    "Name": "Batz Group",
+    "Name": "Marvin Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "magni",
-    "RestrictionListName": "Fay, Boyer and Breitenberg",
+    "RestrictionType": "iure",
+    "RestrictionListName": "Rippin, Bergnaum and Murphy",
     "IsVisible": false,
-    "ExtraInfo": "dolores",
-    "Width": "minima",
+    "ExtraInfo": "ea",
+    "Width": "illo",
     "IconHint": "sed",
-    "HeadingIconHint": "et"
+    "HeadingIconHint": "nostrum"
   }
 ]
 ```

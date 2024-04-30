@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "daphney@johnson.ca",
-  "Counts": 401,
-  "Code": 497,
-  "Reason": ""
+  "EmailAddress": "manuel_hermann@mills.info",
+  "Counts": 374,
+  "Code": 588,
+  "Reason": "grow intuitive models"
 }
 ```
 

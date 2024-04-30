@@ -89,17 +89,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 474,
-  "UniqueIdentifier": "id",
-  "Name": "Goyette-Will",
-  "Description": "Open-architected coherent challenge",
-  "IncludeId": "quae",
-  "HierarchyId": 956,
-  "Source": "similique",
-  "Registered": "2006-02-24T12:19:44.9923255+01:00",
-  "RegisteredAssociateId": 863,
-  "Updated": "1998-04-11T12:19:44.9923255+02:00",
-  "UpdatedAssociateId": 250
+  "EjscriptId": 760,
+  "UniqueIdentifier": "asperiores",
+  "Name": "Barton, Schiller and Nader",
+  "Description": "Compatible multimedia forecast",
+  "IncludeId": "est",
+  "HierarchyId": 609,
+  "Source": "est",
+  "Registered": "2013-01-09T11:44:33.3223014+01:00",
+  "RegisteredAssociateId": 766,
+  "Updated": "2009-02-13T11:44:33.3223014+01:00",
+  "UpdatedAssociateId": 491
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 967,
-  "UniqueIdentifier": "est",
-  "Name": "Cremin-Roberts",
-  "Description": "Persevering fault-tolerant architecture",
-  "IncludeId": "commodi",
-  "HierarchyId": 344,
-  "Source": "dicta",
-  "Registered": "2023-08-17T12:19:44.9923255+02:00",
+  "EjscriptId": 816,
+  "UniqueIdentifier": "omnis",
+  "Name": "Osinski, Stanton and Moore",
+  "Description": "Business-focused systematic help-desk",
+  "IncludeId": "quibusdam",
+  "HierarchyId": 382,
+  "Source": "enim",
+  "Registered": "2013-08-09T11:44:33.3223014+02:00",
   "RegisteredAssociateId": 841,
-  "Updated": "2023-05-09T12:19:44.9923255+02:00",
-  "UpdatedAssociateId": 231,
+  "Updated": "2016-06-26T11:44:33.3223014+02:00",
+  "UpdatedAssociateId": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

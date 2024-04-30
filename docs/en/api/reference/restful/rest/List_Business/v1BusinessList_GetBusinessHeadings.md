@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 394,
-    "Name": "Cassin Inc and Sons",
-    "Tooltip": "ea",
+    "HeadingId": 590,
+    "Name": "Lehner Group",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 102,
-    "UdListDefinitionId": 640,
+    "Rank": 138,
+    "UdListDefinitionId": 758,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 636
+        "FieldType": "System.Int32",
+        "FieldLength": 839
       }
     }
   }

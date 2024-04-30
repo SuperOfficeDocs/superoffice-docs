@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rempel-Bayer",
-  "Id": 477,
+  "TableName": "Cartwright, Turcotte and Simonis",
+  "Id": 626,
   "Values": {
-    "Values1": "aut",
-    "Values2": "voluptates"
+    "Values1": "est",
+    "Values2": "ut"
   }
 }
 ```

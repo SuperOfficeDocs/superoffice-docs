@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "Armstrong, Jacobi and Renner",
-  "Tooltip": "ut",
+  "Id": 389,
+  "Name": "Daugherty, Champlin and Toy",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 249,
-  "IsCustomList": true,
+  "Rank": 765,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 102,
-  "Name": "Quitzon LLC",
-  "Tooltip": "qui",
+  "Id": 605,
+  "Name": "Hauck Group",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 654,
-  "IsCustomList": true,
+  "Rank": 210,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "veritatis",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 614
     }
   }
 }

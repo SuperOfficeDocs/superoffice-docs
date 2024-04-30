@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 476,
-  "EMailAddress": "asperiores",
-  "AssociateId": 613,
+  "EMailAccountId": 117,
+  "EMailAddress": "similique",
+  "AssociateId": 903,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 950,
-  "ErrorCount": 629,
+  "AccountStatus": 267,
+  "ErrorCount": 32,
   "ErrorReason": "",
-  "InboxFolder": "delectus",
-  "SentFolder": "suscipit"
+  "InboxFolder": "quae",
+  "SentFolder": "cupiditate"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 212,
-  "EMailAddress": "assumenda",
-  "AssociateId": 288,
+  "EMailAccountId": 52,
+  "EMailAddress": "doloribus",
+  "AssociateId": 634,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 510,
-  "ErrorCount": 898,
-  "ErrorReason": "unleash efficient synergies",
-  "InboxFolder": "excepturi",
-  "SentFolder": "animi",
+  "AccountStatus": 563,
+  "ErrorCount": 965,
+  "ErrorReason": "",
+  "InboxFolder": "maiores",
+  "SentFolder": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 205
     }
   }
 }

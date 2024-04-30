@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 35,
-  "Name": "Doyle-Bailey",
-  "Rank": 886,
-  "Tooltip": "rerum",
+  "AssociateId": 677,
+  "Name": "Kuhlman, Ferry and Dare",
+  "Rank": 726,
+  "Tooltip": "maiores",
   "LicenseOwners": [
     {
-      "Name": "Little, Gleichner and O'Keefe",
-      "Description": "Enhanced encompassing hardware",
+      "Name": "King, Swift and Sporer",
+      "Description": "Extended high-level time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 439
         }
       }
     },
     {
-      "Name": "Little, Gleichner and O'Keefe",
-      "Description": "Enhanced encompassing hardware",
+      "Name": "King, Swift and Sporer",
+      "Description": "Extended high-level time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 439
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "totam",
-      "Tooltip": "quia",
-      "Id": 547,
-      "Rank": 234,
+      "Value": "rerum",
+      "Tooltip": "id",
+      "Id": 879,
+      "Rank": 251,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 30
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2013-02-01T12:19:46.5388507+01:00",
-  "Lastlogout": "2020-03-23T12:19:46.5388507+01:00",
-  "EjUserId": 472,
-  "RequestSignature": "illum",
+  "Deleted": false,
+  "Lastlogin": "1997-08-14T11:44:34.9312843+02:00",
+  "Lastlogout": "2005-07-07T11:44:34.9312843+02:00",
+  "EjUserId": 315,
+  "RequestSignature": "unde",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "inventore",
-      "DisplayValue": "libero",
+      "Value": "placeat",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 733
+          "FieldType": "System.Int32",
+          "FieldLength": 510
         }
       }
     },
     {
       "Type": null,
-      "Value": "inventore",
-      "DisplayValue": "libero",
+      "Value": "placeat",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 733
+          "FieldType": "System.Int32",
+          "FieldLength": 510
         }
       }
     }
   ],
-  "UserName": "Zemlak-Hegmann",
+  "UserName": "Gottlieb Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 786,
-      "Name": "Kuhlman LLC",
-      "ToolTip": "Officia dolores cum quidem voluptatibus aut facilis.",
+      "Id": 881,
+      "Name": "Mann, Baumbach and Bechtelar",
+      "ToolTip": "Quia tempora in facilis ea non.",
       "Deleted": false,
-      "Rank": 793,
-      "Type": "voluptas",
+      "Rank": 857,
+      "Type": "inventore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "similique",
-      "ColorBlock": 858,
-      "ExtraInfo": "nostrum",
-      "StyleHint": "fugit",
-      "FullName": "Melyna Anderson",
+      "IconHint": "impedit",
+      "ColorBlock": 98,
+      "ExtraInfo": "et",
+      "StyleHint": "nostrum",
+      "FullName": "Ms. Torrey Meredith Schoen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 719
+          "FieldLength": 503
         }
       }
     }
   ],
-  "NickName": "Gislason, Boyle and Veum",
-  "WaitingForApproval": false,
+  "NickName": "Wehner Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "repellat"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "nisi"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "tempora"
   },
   "PostSaveCommands": [
     {
-      "Name": "Heidenreich-Monahan",
-      "DisplayName": "Mills, Jast and Yost",
-      "Description": "Integrated methodical encryption",
-      "ToolTip": "Et expedita.",
+      "Name": "Jacobs-Howell",
+      "DisplayName": "Pfeffer, Turner and Ledner",
+      "Description": "Ameliorated fault-tolerant installation",
+      "ToolTip": "Sed officiis et omnis recusandae molestiae.",
       "Actions": "Implicit",
-      "ActionData": "illum",
+      "ActionData": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 458
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 489
     }
   }
 }

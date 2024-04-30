@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 315,
-  "ColumnId": 633,
-  "FieldDefault": "et",
-  "FieldHeight": 301,
-  "FieldLabel": "aliquam",
-  "FieldLeft": 489,
-  "FieldTop": 349,
+  "UDefFieldId": 21,
+  "ColumnId": 927,
+  "FieldDefault": "autem",
+  "FieldHeight": 507,
+  "FieldLabel": "ab",
+  "FieldLeft": 534,
+  "FieldTop": 923,
   "FieldType": "Checkbox",
-  "FieldWidth": 898,
-  "FormatMask": "magnam",
+  "FieldWidth": 908,
+  "FormatMask": "non",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 955,
-  "LabelLeft": 112,
-  "LabelTop": 560,
-  "LabelWidth": 94,
-  "LastVersionId": 380,
-  "ListTableId": 764,
-  "IsMandatory": false,
+  "LabelHeight": 920,
+  "LabelLeft": 460,
+  "LabelTop": 693,
+  "LabelWidth": 963,
+  "LastVersionId": 206,
+  "ListTableId": 282,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 507,
-  "ProgId": "id",
-  "IsReadOnly": false,
-  "ShortLabel": "cumque",
-  "TabOrder": 518,
-  "TextLength": 350,
-  "Tooltip": "autem",
-  "UdefIdentity": 567,
-  "UDListDefinitionId": 511,
+  "Page1LineNo": 813,
+  "ProgId": "sint",
+  "IsReadOnly": true,
+  "ShortLabel": "nobis",
+  "TabOrder": 806,
+  "TextLength": 137,
+  "Tooltip": "animi",
+  "UdefIdentity": 288,
+  "UDListDefinitionId": 75,
   "Justification": "Center",
-  "Version": 571,
-  "TemplateVariableName": "Nader, Muller and Rohan",
+  "Version": 755,
+  "TemplateVariableName": "Schulist-Shanahan",
   "HasBeenPublished": false,
-  "MdoListName": "Upton Group",
+  "MdoListName": "Barton, Pacocha and Predovic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 287
     }
   }
 }

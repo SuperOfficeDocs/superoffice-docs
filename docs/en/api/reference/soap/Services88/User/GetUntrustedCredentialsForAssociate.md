@@ -65,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <User:GetUntrustedCredentialsForAssociateResponse>
    <User:Response xsi:type="User:ArrayOfUntrustedCredentials">
     <User:UntrustedCredentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2024-03-20T11:19:22Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2024-03-20T11:19:22Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2024-04-02T09:44:10Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2024-04-02T09:44:10Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>

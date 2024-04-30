@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Yundt LLC",
-    "Tooltip": "voluptas",
+    "Id": 325,
+    "Name": "Heidenreich Group",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 280,
-    "Rank": 276,
+    "UdListDefinitionId": 841,
+    "Rank": 560,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 402
       }
     }
   }

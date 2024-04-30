@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=170
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=818
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 693,
-  "AssociateId": 38,
-  "Caption": "temporibus",
+  "DashboardId": 760,
+  "AssociateId": 561,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 821,
-      "Caption": "veritatis",
-      "Description": "Cross-group human-resource product",
-      "ChartName": "Thompson, Heaney and Schinner",
-      "ChartId": "sed",
-      "IsDefault": true,
-      "AssociateId": 822,
-      "GroupId": 209,
-      "SelectionId": 686,
-      "Config": "alias",
+      "DashboardTileId": 119,
+      "Caption": "totam",
+      "Description": "Switchable background website",
+      "ChartName": "McLaughlin Group",
+      "ChartId": "id",
+      "IsDefault": false,
+      "AssociateId": 311,
+      "GroupId": 309,
+      "SelectionId": 371,
+      "Config": "enim",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldType": "System.String",
+          "FieldLength": 377
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

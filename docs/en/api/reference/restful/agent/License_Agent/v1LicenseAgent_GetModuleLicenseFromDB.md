@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Weber-Jaskolski",
-  "ModuleName": "Corkery, Larson and Hegmann"
+  "OwnerName": "Sipes, Cormier and Turner",
+  "ModuleName": "Medhurst-Hammes"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Weimann, Sawayn and Morar",
-  "ModuleName": "Armstrong Inc and Sons",
-  "ModuleDescription": "Progressive bifurcated moderator",
-  "ModuleTooltip": "ipsum",
-  "ModuleVersion": "rerum",
+  "OwnerName": "Stiedemann Inc and Sons",
+  "ModuleName": "Streich, Veum and Bergnaum",
+  "ModuleDescription": "Organized holistic access",
+  "ModuleTooltip": "aut",
+  "ModuleVersion": "voluptatem",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 100,
-  "ExtraFlags": 744,
-  "ExtraInfo": "necessitatibus",
-  "SortOrder": 74,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Dibbert-Dibbert",
-  "Signature": "veritatis"
+  "NumberOfLicenses": 662,
+  "ExtraFlags": 333,
+  "ExtraInfo": "sed",
+  "SortOrder": 90,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Gleason-Herzog",
+  "Signature": "laborum"
 }
 ```

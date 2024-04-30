@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 804,
-  "Name": "Wiza, Heaney and Purdy",
-  "Tooltip": "eveniet",
+  "Id": 266,
+  "Name": "Turner Group",
+  "Tooltip": "maiores",
   "Deleted": true,
-  "Rank": 769,
+  "Rank": 865,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Cummings, Macejkovic and Batz",
-  "Tooltip": "minus",
-  "Deleted": true,
-  "Rank": 409,
+  "Id": 124,
+  "Name": "Gutmann-Greenfelder",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "Rank": 34,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 248
     }
   }
 }

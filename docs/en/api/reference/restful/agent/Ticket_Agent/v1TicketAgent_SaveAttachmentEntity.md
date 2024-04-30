@@ -81,13 +81,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 215,
-  "Name": "Larson-Kozey",
-  "ContentType": "ut",
-  "AttSize": 368,
-  "InlineImage": false,
-  "ContentId": "hic",
-  "AuthKey": "est",
+  "AttachmentId": 602,
+  "Name": "Gislason-Jewess",
+  "ContentType": "non",
+  "AttSize": 949,
+  "InlineImage": true,
+  "ContentId": "nisi",
+  "AuthKey": "nemo",
   "IsSafeFileExtension": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 329,
-  "Name": "Olson Inc and Sons",
-  "ContentType": "saepe",
-  "AttSize": 885,
-  "InlineImage": true,
-  "ContentId": "voluptatibus",
-  "AuthKey": "ullam",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 48,
+  "Name": "Watsica, Spencer and Daugherty",
+  "ContentType": "eum",
+  "AttSize": 970,
+  "InlineImage": false,
+  "ContentId": "quibusdam",
+  "AuthKey": "est",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

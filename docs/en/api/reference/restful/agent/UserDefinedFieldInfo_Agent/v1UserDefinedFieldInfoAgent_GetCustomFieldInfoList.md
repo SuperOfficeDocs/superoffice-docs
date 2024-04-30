@@ -88,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bashirian, Halvorson and Bogan",
-  "IncludeStandard": false
+  "TableName": "Conn LLC",
+  "IncludeStandard": true
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Jacobi LLC",
-    "DisplayName": "Hickle, Hermiston and Brekke",
-    "Description": "Balanced exuding ability",
-    "ShortLabel": "libero",
+    "FieldName": "O'Reilly Inc and Sons",
+    "DisplayName": "Mante-Nikolaus",
+    "Description": "Enhanced multimedia service-desk",
+    "ShortLabel": "dolor",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 154,
-    "TemplateVariableName": "Kilback-Yost"
+    "IsExternal": false,
+    "Rank": 393,
+    "TemplateVariableName": "Sporer-Mueller"
   }
 ]
 ```

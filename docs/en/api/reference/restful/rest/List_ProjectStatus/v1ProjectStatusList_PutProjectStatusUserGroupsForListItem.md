@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Senger-Labadie",
-    "ToolTip": "Eaque et.",
+    "Id": 131,
+    "Name": "Schaefer LLC",
+    "ToolTip": "Voluptatibus aliquam eius eveniet et ullam est dolorum.",
     "Deleted": false,
-    "Rank": 338,
-    "Type": "et",
-    "ColorBlock": 515,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2001-06-02T12:19:54.7271106+02:00",
+    "Rank": 533,
+    "Type": "officiis",
+    "ColorBlock": 443,
+    "IconHint": "saepe",
+    "Selected": true,
+    "LastChanged": "2024-03-30T11:44:43.226243+01:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Nikolaus, Hintz and Johnson",
-        "ToolTip": "Voluptatem voluptatem fugit animi.",
+        "Id": 117,
+        "Name": "Koelpin Group",
+        "ToolTip": "Natus quod quia aut quas.",
         "Deleted": false,
-        "Rank": 350,
-        "Type": "fugit",
-        "ColorBlock": 173,
-        "IconHint": "vel",
+        "Rank": 72,
+        "Type": "autem",
+        "ColorBlock": 107,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2013-10-13T12:19:54.7271106+02:00",
+        "LastChanged": "1998-06-12T11:44:43.226243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "nam",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Dr. Adaline Beth Padberg IV"
+        "FullName": "Prof. Jacinthe White II"
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "voluptatum",
-    "Hidden": true,
-    "FullName": "Mario Kemmer"
+    "ExtraInfo": "dolorem",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Mr. Libby Funk"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Renner, Vandervort and Fritsch",
-    "ToolTip": "Voluptatem dolorum officiis.",
+    "Id": 990,
+    "Name": "Kulas LLC",
+    "ToolTip": "Rerum dignissimos aliquam incidunt explicabo officia.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "ullam",
-    "ColorBlock": 85,
-    "IconHint": "sed",
+    "Rank": 884,
+    "Type": "est",
+    "ColorBlock": 87,
+    "IconHint": "eius",
     "Selected": true,
-    "LastChanged": "2022-11-30T12:19:54.7271106+01:00",
+    "LastChanged": "1997-08-12T11:44:43.226243+02:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Hagenes-Bechtelar",
-        "ToolTip": "Sunt sit aut rerum.",
+        "Id": 812,
+        "Name": "Brekke-Durgan",
+        "ToolTip": "Neque commodi voluptatem deserunt eum delectus est.",
         "Deleted": true,
-        "Rank": 204,
-        "Type": "est",
-        "ColorBlock": 725,
-        "IconHint": "mollitia",
+        "Rank": 868,
+        "Type": "facere",
+        "ColorBlock": 519,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2003-05-30T12:19:54.7271106+02:00",
+        "LastChanged": "2007-05-13T11:44:43.226243+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
+        "ExtraInfo": "nobis",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Joaquin Langosh",
+        "Hidden": false,
+        "FullName": "Andres Hauck PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldLength": 737
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "unde",
+    "ExtraInfo": "nemo",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Kiara Grant Sr.",
+    "FullName": "Myrtle Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 478
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   }

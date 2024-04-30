@@ -167,10 +167,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "illo",
-  "ProviderName": "Osinski, Smitham and Conn",
-  "PageSize": 91,
-  "PageNumber": 785
+  "Restrictions": "eum",
+  "ProviderName": "Gottlieb, Nikolaus and Hudson",
+  "PageSize": 295,
+  "PageNumber": 813
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Marvin LLC",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "repellat",
+      "DisplayName": "Gerlach, Rath and Von",
+      "DisplayTooltip": "ratione",
+      "DisplayType": "quaerat",
       "CanOrderBy": false,
-      "Name": "Treutel-Hudson",
+      "Name": "Schroeder, Hamill and Collins",
       "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Braun-Walker",
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Hessel, Beer and Hudson",
       "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "veniam",
-      "IconHint": "qui",
-      "HeadingIconHint": "nihil"
+      "ExtraInfo": "minus",
+      "Width": "qui",
+      "IconHint": "quidem",
+      "HeadingIconHint": "esse"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schultz-Corkery",
-      "PrimaryKey": 548,
+      "EntityName": "Dickens, Lebsack and Gleason",
+      "PrimaryKey": 131,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "magni",
-          "TooltipHint": "est",
-          "LinkHint": "sequi"
+          "DisplayValue": "et",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "eum"
         }
       },
-      "LinkHint": "minima",
-      "StyleHint": "impedit",
+      "LinkHint": "perspiciatis",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 621
+          "FieldType": "System.Int32",
+          "FieldLength": 527
         }
       }
     }
   ],
-  "RowCount": 640,
+  "RowCount": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   }
 }

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 57,
-  "BlobSize": 268,
-  "Description": "Programmable stable hierarchy",
-  "ExtraInfo": "reprehenderit",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "maxime",
-  "OriginalSize": 656,
-  "CreatedDate": "2007-05-29T12:19:54.149122+02:00",
-  "UpdatedDate": "2015-07-15T12:19:54.149122+02:00",
+  "BlobId": 867,
+  "BlobSize": 66,
+  "Description": "Vision-oriented explicit matrix",
+  "ExtraInfo": "amet",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "aperiam",
+  "OriginalSize": 105,
+  "CreatedDate": "2012-02-19T11:44:42.7732231+01:00",
+  "UpdatedDate": "1999-02-27T11:44:42.7732231+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolor"
+  "ConceptualType": "dolores"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 218,
-  "BlobSize": 472,
-  "Description": "Ergonomic incremental encoding",
-  "ExtraInfo": "aut",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "consequatur",
-  "OriginalSize": 558,
-  "CreatedDate": "2018-10-26T12:19:54.149122+02:00",
-  "UpdatedDate": "2016-11-22T12:19:54.149122+01:00",
+  "BlobId": 22,
+  "BlobSize": 477,
+  "Description": "Integrated client-driven budgetary management",
+  "ExtraInfo": "magni",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "modi",
+  "OriginalSize": 333,
+  "CreatedDate": "2011-08-31T11:44:42.7732231+02:00",
+  "UpdatedDate": "2011-01-14T11:44:42.7732231+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum",
+  "ConceptualType": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 50
     }
   }
 }

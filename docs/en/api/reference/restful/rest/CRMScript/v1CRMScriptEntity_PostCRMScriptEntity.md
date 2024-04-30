@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 730,
-  "UniqueIdentifier": "sint",
-  "Name": "Carroll LLC",
-  "Description": "Polarised 6th generation matrix",
-  "IncludeId": "delectus",
-  "HierarchyId": 20,
-  "Source": "dolor",
-  "Registered": "2002-04-18T12:19:53.3055654+02:00",
-  "RegisteredAssociateId": 235,
-  "Updated": "1997-04-17T12:19:53.3055654+02:00",
-  "UpdatedAssociateId": 761
+  "EjscriptId": 40,
+  "UniqueIdentifier": "quam",
+  "Name": "Mann-Kling",
+  "Description": "Horizontal exuding array",
+  "IncludeId": "aut",
+  "HierarchyId": 395,
+  "Source": "aut",
+  "Registered": "2006-02-07T11:44:41.8671838+01:00",
+  "RegisteredAssociateId": 332,
+  "Updated": "2011-11-08T11:44:41.8671838+01:00",
+  "UpdatedAssociateId": 619
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 186,
-  "UniqueIdentifier": "iste",
-  "Name": "Welch-Johnson",
-  "Description": "Digitized multimedia functionalities",
-  "IncludeId": "et",
-  "HierarchyId": 685,
-  "Source": "qui",
-  "Registered": "2009-07-05T12:19:53.3055654+02:00",
-  "RegisteredAssociateId": 658,
-  "Updated": "2012-04-24T12:19:53.3055654+02:00",
-  "UpdatedAssociateId": 424,
+  "EjscriptId": 602,
+  "UniqueIdentifier": "molestiae",
+  "Name": "Greenfelder, Goyette and Conn",
+  "Description": "Visionary upward-trending capacity",
+  "IncludeId": "illo",
+  "HierarchyId": 973,
+  "Source": "ipsa",
+  "Registered": "2001-10-18T11:44:41.8671838+02:00",
+  "RegisteredAssociateId": 377,
+  "Updated": "2010-03-28T11:44:41.8671838+02:00",
+  "UpdatedAssociateId": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 359
     }
   },
   "_Links": {

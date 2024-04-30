@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=et
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=vel
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Considine LLC",
-    "ToolTip": "Beatae odio.",
-    "Deleted": false,
-    "Rank": 720,
-    "Type": "blanditiis",
+    "Id": 184,
+    "Name": "Wolff-Heaney",
+    "ToolTip": "Qui impedit et sunt dolorum occaecati aspernatur.",
+    "Deleted": true,
+    "Rank": 378,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Lindgren, Heathcote and Moen",
-        "ToolTip": "Sed exercitationem.",
+        "Id": 879,
+        "Name": "Lang-Brown",
+        "ToolTip": "Corporis et nihil ut.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "earum",
+        "Rank": 282,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 422,
-        "ExtraInfo": "aut",
-        "StyleHint": "id",
-        "FullName": "Oma Hackett",
+        "IconHint": "et",
+        "ColorBlock": 350,
+        "ExtraInfo": "dolore",
+        "StyleHint": "ipsam",
+        "FullName": "Ernestina Kaley Glover PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 647
+            "FieldLength": 69
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 672,
-    "ExtraInfo": "facere",
-    "StyleHint": "culpa",
-    "FullName": "Ettie Kohler",
+    "IconHint": "porro",
+    "ColorBlock": 112,
+    "ExtraInfo": "earum",
+    "StyleHint": "excepturi",
+    "FullName": "Myrtice Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 868
+        "FieldType": "System.Int32",
+        "FieldLength": 710
       }
     }
   }

@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 688,
+  "EjMessageId": 227,
   "Ticket": null,
-  "CreatedAt": "2005-11-06T12:19:54.0397728+01:00",
+  "CreatedAt": "1999-10-18T11:44:42.6482467+02:00",
   "CreatedBy": null,
-  "Author": "tempora",
+  "Author": "vitae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 133,
-  "Body": "veniam",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "frederique.bergnaum@brekke.com",
-  "DebugInfo": "temporibus",
-  "MailSorter": "aut",
+  "MessageId": "distinctio",
+  "TimeSpent": 899,
+  "Body": "est",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "theresa_lubowitz@kohler.com",
+  "DebugInfo": "magni",
+  "MailSorter": "necessitatibus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusamus",
+  "SearchTitle": "tenetur",
   "MessageHeaders": [
     {
-      "Id": 817,
-      "Name": "Gleichner LLC",
-      "Value": "dolorem",
+      "Id": 345,
+      "Name": "Grady, Batz and Halvorson",
+      "Value": "tenetur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldLength": 364
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eos",
-  "Sentiment": 294,
-  "SentimentConfidence": 648,
+  "Language": "nisi",
+  "Sentiment": 496,
+  "SentimentConfidence": 489,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 70,
-      "Name": "Erdman, Conroy and Collins",
-      "ContentType": "quia",
-      "AttSize": 188,
+      "AttachmentId": 778,
+      "Name": "Durgan Inc and Sons",
+      "ContentType": "corrupti",
+      "AttSize": 392,
       "InlineImage": false,
-      "ContentId": "aspernatur",
-      "AuthKey": "quibusdam",
-      "IsSafeFileExtension": false,
+      "ContentId": "nemo",
+      "AuthKey": "et",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 339
+          "FieldLength": 616
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "modi"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "deserunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldType": "System.String",
+      "FieldLength": 28
     }
   }
 }

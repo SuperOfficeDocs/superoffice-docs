@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Value": "expedita",
-    "Tooltip": "labore",
+    "Id": 621,
+    "Value": "perferendis",
+    "Tooltip": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldLength": 623
       }
     }
   },
   {
-    "Id": 856,
-    "Value": "expedita",
-    "Tooltip": "labore",
+    "Id": 621,
+    "Value": "perferendis",
+    "Tooltip": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldLength": 623
       }
     }
   }

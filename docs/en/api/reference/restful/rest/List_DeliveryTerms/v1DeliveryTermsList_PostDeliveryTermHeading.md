@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 432,
-  "Name": "Pacocha, Dickens and Bartoletti",
-  "Tooltip": "dolorem",
+  "HeadingId": 255,
+  "Name": "Carroll, Mosciski and Heller",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 751,
-  "UdListDefinitionId": 203
+  "Rank": 621,
+  "UdListDefinitionId": 607
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 359,
-  "Name": "Fritsch Inc and Sons",
-  "Tooltip": "aliquid",
+  "HeadingId": 335,
+  "Name": "Labadie LLC",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 192,
-  "UdListDefinitionId": 694,
+  "Rank": 548,
+  "UdListDefinitionId": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 722
     }
   }
 }

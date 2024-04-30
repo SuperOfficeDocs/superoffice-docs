@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "D'Amore LLC",
-    "ToolTip": "Consequatur totam.",
+    "Id": 732,
+    "Name": "Sawayn, Senger and Littel",
+    "ToolTip": "Quis nobis sit sint odio.",
     "Deleted": false,
-    "Rank": 695,
-    "Type": "ad",
-    "ColorBlock": 970,
-    "IconHint": "aut",
+    "Rank": 648,
+    "Type": "quae",
+    "ColorBlock": 583,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "1998-07-22T12:19:54.3209449+02:00",
+    "LastChanged": "2016-10-09T11:44:42.9450455+02:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "McGlynn-Jakubowski",
-        "ToolTip": "Error adipisci.",
-        "Deleted": true,
-        "Rank": 286,
-        "Type": "distinctio",
-        "ColorBlock": 110,
-        "IconHint": "distinctio",
+        "Id": 251,
+        "Name": "Lindgren LLC",
+        "ToolTip": "Porro nobis sunt.",
+        "Deleted": false,
+        "Rank": 548,
+        "Type": "exercitationem",
+        "ColorBlock": 93,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2022-02-27T12:19:54.3209449+01:00",
+        "LastChanged": "1997-07-02T11:44:42.9450455+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "ut",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Mireya Walker"
+        "FullName": "Michael VonRueden"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "et",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Terrill Keeling III"
+    "FullName": "Prof. Bret Crooks I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Wintheiser Inc and Sons",
-    "ToolTip": "Id est deleniti voluptas adipisci mollitia et.",
+    "Id": 906,
+    "Name": "Bartoletti-Legros",
+    "ToolTip": "Quia fuga corporis.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "id",
-    "ColorBlock": 416,
-    "IconHint": "aperiam",
+    "Rank": 590,
+    "Type": "aut",
+    "ColorBlock": 549,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2016-05-13T12:19:54.3209449+02:00",
+    "LastChanged": "2023-11-29T11:44:42.9450455+01:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Mann, Kozey and Daugherty",
-        "ToolTip": "Commodi inventore exercitationem.",
+        "Id": 941,
+        "Name": "Walter Inc and Sons",
+        "ToolTip": "Culpa asperiores expedita quaerat ut et est fugit.",
         "Deleted": false,
-        "Rank": 594,
-        "Type": "enim",
-        "ColorBlock": 128,
-        "IconHint": "voluptate",
-        "Selected": false,
-        "LastChanged": "2019-10-15T12:19:54.3209449+02:00",
+        "Rank": 276,
+        "Type": "quia",
+        "ColorBlock": 698,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2001-11-30T11:44:42.9450455+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "nemo",
+        "ExtraInfo": "qui",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Ms. Maryam Tyrel Leffler Sr.",
+        "FullName": "Ms. Andreane Paris Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "tempore",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Nikita Feil",
+    "FullName": "Mr. Christiana Schoen PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 238
       }
     }
   }

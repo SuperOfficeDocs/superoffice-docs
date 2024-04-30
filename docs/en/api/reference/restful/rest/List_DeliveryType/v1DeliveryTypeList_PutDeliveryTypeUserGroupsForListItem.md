@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Tromp, Towne and Windler",
-    "ToolTip": "Et et quis aut odit cum.",
-    "Deleted": false,
-    "Rank": 270,
-    "Type": "et",
-    "ColorBlock": 726,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2023-07-25T12:19:54.4302944+02:00",
+    "Id": 710,
+    "Name": "Carter-Romaguera",
+    "ToolTip": "Velit veritatis id aspernatur labore asperiores.",
+    "Deleted": true,
+    "Rank": 344,
+    "Type": "aperiam",
+    "ColorBlock": 659,
+    "IconHint": "optio",
+    "Selected": false,
+    "LastChanged": "2007-03-26T11:44:43.054404+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Schaefer, Davis and Parisian",
-        "ToolTip": "Facilis necessitatibus voluptates quia harum explicabo.",
-        "Deleted": false,
-        "Rank": 744,
-        "Type": "quod",
-        "ColorBlock": 829,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2012-09-03T12:19:54.4302944+02:00",
+        "Id": 504,
+        "Name": "Lind-Kuhn",
+        "ToolTip": "Similique ut natus molestiae mollitia aspernatur.",
+        "Deleted": true,
+        "Rank": 162,
+        "Type": "tempore",
+        "ColorBlock": 695,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2023-07-05T11:44:43.054404+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "magni",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Katrine Gussie Braun DVM"
+        "FullName": "Prof. Boris Wisozk IV"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "corporis",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Werner Senger"
+    "FullName": "Mattie Welch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Marks, Bogan and White",
-    "ToolTip": "Excepturi aperiam incidunt nostrum perferendis.",
-    "Deleted": true,
-    "Rank": 78,
-    "Type": "eveniet",
-    "ColorBlock": 472,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2023-06-02T12:19:54.4302944+02:00",
+    "Id": 364,
+    "Name": "Jast, Welch and Dickinson",
+    "ToolTip": "Sunt vel.",
+    "Deleted": false,
+    "Rank": 57,
+    "Type": "rerum",
+    "ColorBlock": 117,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2007-03-31T11:44:43.0700205+02:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "Prohaska Inc and Sons",
-        "ToolTip": "Ipsa omnis laudantium iusto.",
+        "Id": 945,
+        "Name": "DuBuque-Ebert",
+        "ToolTip": "Laborum sint voluptatem laborum dolor delectus ab.",
         "Deleted": false,
-        "Rank": 190,
-        "Type": "quod",
-        "ColorBlock": 824,
-        "IconHint": "nulla",
+        "Rank": 548,
+        "Type": "et",
+        "ColorBlock": 501,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2000-08-09T12:19:54.4302944+02:00",
+        "LastChanged": "2021-01-13T11:44:43.0700205+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quia",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "nemo",
         "Hidden": true,
-        "FullName": "Armani Dooley",
+        "FullName": "Ibrahim Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "voluptatum",
-    "Hidden": true,
-    "FullName": "Prof. Geovany Emilia Rodriguez",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Ms. Edyth Angelica Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 397
       }
     }
   }

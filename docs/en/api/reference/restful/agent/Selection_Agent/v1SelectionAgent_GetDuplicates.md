@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McKenzie LLC"
+  "Name": "Jenkins-Leuschke"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Altenwerth, Boyer and Schuppe",
-    "SoPrimaryKey": 505,
-    "EntryName": "Wilkinson Inc and Sons",
-    "EntryIdentifier": "dolores",
-    "RuleDisplayName": "Lynch Group",
+    "RuleName": "Huels, Parisian and Rowe",
+    "SoPrimaryKey": 33,
+    "EntryName": "Lakin-Farrell",
+    "EntryIdentifier": "dicta",
+    "RuleDisplayName": "Wiza, Luettgen and Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldLength": 427
       }
     }
   }

@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "placeat",
-      "PersonId": 96,
-      "AssociateId": 500,
-      "ExtraId": 814,
-      "ExtraInfo": "ea",
-      "Height": 728,
-      "LeftX": 824,
+      "OwnerWindow": "consequuntur",
+      "PersonId": 391,
+      "AssociateId": 900,
+      "ExtraId": 562,
+      "ExtraInfo": "accusamus",
+      "Height": 331,
+      "LeftX": 584,
       "State": "Maximized",
-      "UpperY": 500,
-      "Width": 24,
-      "WindowPosSizeId": 169
+      "UpperY": 99,
+      "Width": 40,
+      "WindowPosSizeId": 460
     }
   ]
 }
@@ -113,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "eveniet",
-    "PersonId": 969,
-    "AssociateId": 962,
-    "ExtraId": 805,
-    "ExtraInfo": "autem",
-    "Height": 732,
-    "LeftX": 590,
+    "OwnerWindow": "rerum",
+    "PersonId": 968,
+    "AssociateId": 95,
+    "ExtraId": 637,
+    "ExtraInfo": "voluptatum",
+    "Height": 207,
+    "LeftX": 208,
     "State": "Maximized",
-    "UpperY": 630,
-    "Width": 771,
-    "WindowPosSizeId": 66,
+    "UpperY": 412,
+    "Width": 56,
+    "WindowPosSizeId": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 562
+        "FieldType": "System.Int32",
+        "FieldLength": 699
       }
     }
   }

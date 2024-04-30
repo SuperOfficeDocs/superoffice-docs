@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 417,
-  "ERPProductKey": "iusto"
+  "QuoteConnectionId": 789,
+  "ERPProductKey": "consequatur"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 839,
-  "ERPProductKey": "molestiae",
-  "ERPPriceListKey": "et",
-  "Name": "Huel, Frami and Wilderman",
-  "Description": "Secured discrete framework",
-  "Code": "est",
-  "PriceUnit": "distinctio",
-  "QuantityUnit": "quia",
+  "ProductId": 890,
+  "ERPProductKey": "facilis",
+  "ERPPriceListKey": "est",
+  "Name": "Crooks, Schultz and Abernathy",
+  "Description": "Future-proofed dedicated implementation",
+  "Code": "vel",
+  "PriceUnit": "autem",
+  "QuantityUnit": "odit",
   "IsSubscription": false,
-  "SubscriptionUnit": "distinctio",
-  "DefaultSubscriptionQuantity": 27312.809999999998,
-  "ItemNumber": "686589",
+  "SubscriptionUnit": "saepe",
+  "DefaultSubscriptionQuantity": 21627.734,
+  "ItemNumber": "1102268",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "accusamus",
-  "ProductTypeKey": "praesentium",
-  "VAT": 3760.7999999999997,
-  "VATInfo": "in",
-  "UnitCost": 5120.956,
-  "UnitMinimumPrice": 14422.668,
-  "UnitListPrice": 11636.542,
+  "ProductFamilyKey": "repellat",
+  "ProductTypeKey": "omnis",
+  "VAT": 27225.058,
+  "VATInfo": "itaque",
+  "UnitCost": 17262.072,
+  "UnitMinimumPrice": 24304.17,
+  "UnitListPrice": 29669.577999999998,
   "InAssortment": false,
-  "Supplier": "dolores",
-  "SupplierCode": "aut",
-  "Rights": "minima",
-  "Rule": "eos",
+  "Supplier": "repellat",
+  "SupplierCode": "dolorem",
+  "Rights": "distinctio",
+  "Rule": "veritatis",
   "ExtraInfo": [
     {
-      "Name": "Altenwerth-Senger",
-      "Value": "qui",
+      "Name": "Toy, McDermott and Rutherford",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldLength": 735
         }
       }
     },
     {
-      "Name": "Altenwerth-Senger",
-      "Value": "qui",
+      "Name": "Toy, McDermott and Rutherford",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldLength": 735
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "deleniti",
-  "ExtraField2": "et",
-  "ExtraField3": "inventore",
-  "ExtraField4": "ullam",
-  "ExtraField5": "et",
-  "InStock": 13930.63,
+  "RawExtraInfo": "tempore",
+  "ExtraField1": "ea",
+  "ExtraField2": "quibusdam",
+  "ExtraField3": "impedit",
+  "ExtraField4": "laborum",
+  "ExtraField5": "non",
+  "InStock": 19390.058,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldLength": 233
     }
   }
 }

@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    487,
-    664
+    339,
+    169
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 531,
-    "MessageId": "vitae",
-    "Subject": "minima",
+    "ServerId": 280,
+    "MessageId": "sit",
+    "Subject": "molestiae",
     "From": null,
     "To": [
       {
-        "ContactId": 853,
-        "ContactName": "Jones LLC",
-        "PersonId": 715,
-        "PersonName": "Farrell-Stiedemann",
-        "AssociateId": 64,
-        "Address": "autem",
-        "EmailId": 24,
+        "ContactId": 411,
+        "ContactName": "Rolfson Group",
+        "PersonId": 340,
+        "PersonName": "Shields-Friesen",
+        "AssociateId": 391,
+        "Address": "officia",
+        "EmailId": 301,
         "DuplicatePersonIds": [
-          458,
-          796
+          940,
+          657
         ],
-        "Name": "Hirthe-Conroy",
+        "Name": "Berge Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 18
+            "FieldType": "System.Int32",
+            "FieldLength": 298
           }
         }
       }
     ],
-    "Sent": "2021-03-24T12:19:45.2422708+01:00",
+    "Sent": "2002-10-26T11:44:33.5878385+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 142,
+    "Size": 229,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 735
       }
     }
   }

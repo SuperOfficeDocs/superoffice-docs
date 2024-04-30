@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 966,
+  "RecordId": 203,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,10 +98,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Aufderhar, Glover and Klein",
-    "CrmFieldKey": "ab",
-    "Value": "non",
-    "DisplayValue": "blanditiis",
+    "DisplayName": "Towne-Schuster",
+    "CrmFieldKey": "nulla",
+    "Value": "reprehenderit",
+    "DisplayValue": "voluptatem",
     "SyncToCrm": true,
     "SyncToErp": false,
     "TableRight": null,
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldLength": 154
       }
     }
   }

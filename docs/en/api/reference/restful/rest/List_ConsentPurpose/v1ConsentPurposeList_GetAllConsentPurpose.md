@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 204,
-    "Name": "Cremin-Purdy",
-    "ConsentText": "dolorem",
-    "FormText": "deserunt",
-    "Key": "ea",
-    "Tooltip": "rerum",
-    "Active": 313,
-    "UpdatedDate": "2019-10-05T12:19:54.3365677+02:00",
+    "ConsentPurposeId": 147,
+    "Name": "Gislason LLC",
+    "ConsentText": "unde",
+    "FormText": "nesciunt",
+    "Key": "nihil",
+    "Tooltip": "dignissimos",
+    "Active": 979,
+    "UpdatedDate": "2005-03-03T11:44:42.9762901+01:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 695,
-    "PrivacyStatementDesc": "omnis",
+    "Deleted": false,
+    "Rank": 601,
+    "PrivacyStatementDesc": "autem",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldType": "System.Int32",
+        "FieldLength": 334
       }
     }
   }

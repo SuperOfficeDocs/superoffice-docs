@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=385
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=149
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 677,
-  "Name": "Moen Group",
-  "Tooltip": "eius",
-  "Rank": 332,
+  "SaleTypeId": 85,
+  "Name": "Von-Bashirian",
+  "Tooltip": "non",
+  "Rank": 241,
   "DurationUnit": "Century",
-  "SaleDuration": 184,
-  "SaleTypeCatId": 170,
+  "SaleDuration": 443,
+  "SaleTypeCatId": 978,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 166,
-  "QuoteLinesTemplate": 225,
-  "ConfirmationLinesTemplate": 585,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 889,
-  "MinEarningPercent": 651,
-  "GroupQuoteLinesBy": 675,
-  "SortGroupLinesBy": 519,
+  "DefaultQuoteValidity": 469,
+  "QuoteLinesTemplate": 333,
+  "ConfirmationLinesTemplate": 850,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 414,
+  "MinEarningPercent": 58,
+  "GroupQuoteLinesBy": 13,
+  "SortGroupLinesBy": 57,
   "Stages": [
     {
-      "Id": 904,
-      "Name": "Schmeler-Abernathy",
-      "ToolTip": "Illo est accusantium eligendi esse.",
+      "Id": 22,
+      "Name": "Goldner-Beer",
+      "ToolTip": "Rerum impedit eligendi sunt nihil.",
       "Deleted": false,
-      "Rank": 734,
-      "Type": "autem",
-      "ColorBlock": 953,
-      "IconHint": "odit",
+      "Rank": 851,
+      "Type": "sed",
+      "ColorBlock": 171,
+      "IconHint": "temporibus",
       "Selected": false,
-      "LastChanged": "2009-07-24T12:19:45.4765914+02:00",
+      "LastChanged": "2000-06-04T11:44:33.8221684+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "distinctio",
-      "StyleHint": "architecto",
-      "Hidden": true,
-      "FullName": "Judah Godfrey Schmitt III",
+      "ExtraInfo": "ipsam",
+      "StyleHint": "eum",
+      "Hidden": false,
+      "FullName": "Sandra Monahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 917
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 357
+  "DashboardId": 501
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoppe-Stiedemann",
-  "Description": "Horizontal real-time flexibility",
-  "OwnedByFullName": "Ms. Parker Samanta Flatley V",
-  "Registered": "2003-01-25T12:19:45.0391966+01:00",
+  "Name": "Bruen, Stamm and Kohler",
+  "Description": "Open-source multi-state time-frame",
+  "OwnedByFullName": "Gus DuBuque",
+  "Registered": "2023-12-26T11:44:33.384768+01:00",
   "Tiles": [
     {
-      "Name": "Murazik LLC",
+      "Name": "Kozey-Pollich",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 122
         }
       }
     },
     {
-      "Name": "Murazik LLC",
+      "Name": "Kozey-Pollich",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 122
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 239
     }
   }
 }

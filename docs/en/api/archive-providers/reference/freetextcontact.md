@@ -366,7 +366,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactSupportPerson/personUdef/SuperOffice:1,contactExtra/x_contact_integer,contactAssociate/contactDepartment
+GET /api/v1/archive/FreetextContact?$select=postAddress/county,restrictionPostalAddress/wgs84longitude,contactSupportAssociate/isActive,contactSupportPerson/personExtra/x_person_category_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

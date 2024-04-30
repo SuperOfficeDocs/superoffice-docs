@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Sauer, Schaden and Hamill",
-    "Tooltip": "qui",
+    "Id": 8,
+    "Name": "Heidenreich-Denesik",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 546,
-    "Rank": 119
+    "UdListDefinitionId": 469,
+    "Rank": 314
   },
   {
-    "Id": 349,
-    "Name": "Sauer, Schaden and Hamill",
-    "Tooltip": "qui",
+    "Id": 8,
+    "Name": "Heidenreich-Denesik",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 546,
-    "Rank": 119
+    "UdListDefinitionId": 469,
+    "Rank": 314
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Kovacek-Reilly",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 939,
-    "Rank": 932,
+    "Id": 150,
+    "Name": "Harris, Swaniawski and VonRueden",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "UdListDefinitionId": 264,
+    "Rank": 335,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Rempel, Schowalter and Turcotte",
-    "Tooltip": "est",
+    "Id": 623,
+    "Name": "Ratke-Hagenes",
+    "Tooltip": "quam",
     "Deleted": false,
-    "UdListDefinitionId": 836,
-    "Rank": 456
+    "UdListDefinitionId": 927,
+    "Rank": 403
   },
   {
-    "Id": 361,
-    "Name": "Rempel, Schowalter and Turcotte",
-    "Tooltip": "est",
+    "Id": 623,
+    "Name": "Ratke-Hagenes",
+    "Tooltip": "quam",
     "Deleted": false,
-    "UdListDefinitionId": 836,
-    "Rank": 456
+    "UdListDefinitionId": 927,
+    "Rank": 403
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "DuBuque LLC",
-    "Tooltip": "et",
+    "Id": 879,
+    "Name": "Beier-O'Reilly",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "UdListDefinitionId": 732,
-    "Rank": 432,
+    "UdListDefinitionId": 352,
+    "Rank": 492,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 776
       }
     }
   }

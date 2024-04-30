@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 850
+  "CountWords": 595
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Rogahn-Cronin",
-    "ToolTip": "Officia eaque.",
-    "Deleted": true,
-    "Rank": 803,
-    "Type": "et",
+    "Id": 869,
+    "Name": "Heaney-Pollich",
+    "ToolTip": "Libero temporibus illo iusto minus sequi consectetur similique.",
+    "Deleted": false,
+    "Rank": 233,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Kuhic Inc and Sons",
-        "ToolTip": "Omnis quas libero accusamus vero velit provident.",
-        "Deleted": true,
-        "Rank": 787,
-        "Type": "voluptas",
+        "Id": 87,
+        "Name": "Bergnaum, Rogahn and Hintz",
+        "ToolTip": "Delectus laudantium sapiente laborum ipsum quaerat.",
+        "Deleted": false,
+        "Rank": 192,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 960,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "similique",
-        "FullName": "Carolyn Heller",
+        "IconHint": "non",
+        "ColorBlock": 985,
+        "ExtraInfo": "et",
+        "StyleHint": "facilis",
+        "FullName": "Daryl Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 678
+            "FieldLength": 240
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 440,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "fugiat",
-    "FullName": "Mrs. Vladimir Stehr IV",
+    "IconHint": "earum",
+    "ColorBlock": 33,
+    "ExtraInfo": "facilis",
+    "StyleHint": "esse",
+    "FullName": "Rachelle Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldLength": 203
       }
     }
   }

@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 699,
+  "PersonId": 488,
   "IncludeProjectDocuments": false,
-  "StartTime": "1999-09-24T12:19:45.0860733+02:00",
-  "EndTime": "2004-05-24T12:19:45.0860733+02:00",
-  "Count": 100,
+  "StartTime": "2023-04-07T11:44:33.431628+02:00",
+  "EndTime": "2015-10-31T11:44:33.431628+01:00",
+  "Count": 37,
   "DocumentTemplateIds": [
-    561,
-    817
+    569,
+    674
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 41,
-    "Attention": "aperiam",
-    "Header": "doloremque",
-    "Name": "Ledner LLC",
-    "OurRef": "nostrum",
-    "YourRef": "voluptate",
-    "Description": "Vision-oriented systematic product",
-    "DocumentTemplate": "eum",
-    "IsPublished": false,
-    "PersonId": 667,
-    "PersonFullName": "Roy Emard",
-    "AssociateFullName": "Ms. Adolfo Lempi Pagac DVM",
-    "ContactId": 196,
-    "ContactName": "Mosciski-Bradtke",
-    "ProjectId": 828,
-    "ProjectName": "Volkman Inc and Sons",
-    "AssociateId": 79,
-    "Snum": 213,
-    "SaleId": 1002,
-    "SaleName": "Thiel-Cruickshank",
+    "DocumentId": 702,
+    "Attention": "omnis",
+    "Header": "tempore",
+    "Name": "Crona-Gislason",
+    "OurRef": "id",
+    "YourRef": "quia",
+    "Description": "Vision-oriented dedicated monitoring",
+    "DocumentTemplate": "repellat",
+    "IsPublished": true,
+    "PersonId": 33,
+    "PersonFullName": "Miss Delores Greg Gibson Sr.",
+    "AssociateFullName": "Dr. Talia Hand",
+    "ContactId": 380,
+    "ContactName": "McLaughlin, Parisian and Kautzer",
+    "ProjectId": 296,
+    "ProjectName": "Gottlieb-Sporer",
+    "AssociateId": 918,
+    "Snum": 360,
+    "SaleId": 784,
+    "SaleName": "Jones Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 664
       }
     }
   }

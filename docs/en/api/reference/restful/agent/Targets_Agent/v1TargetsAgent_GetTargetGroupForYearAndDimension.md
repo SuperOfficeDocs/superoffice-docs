@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 39,
-  "DimensionId": 659
+  "TargetYear": 740,
+  "DimensionId": 621
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 474,
-  "Year": 743,
+  "TargetGroupId": 338,
+  "Year": 370,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 903,
+      "TargetAssignmentInfoId": 389,
       "Values": [
-        576,
-        612
+        206,
+        297
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 127,
-      "DimensionListItemDisplayName": "Rowe Inc and Sons",
+      "DimensionListItem": 687,
+      "DimensionListItemDisplayName": "Borer-Jacobs",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 901
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 667
     }
   }
 }

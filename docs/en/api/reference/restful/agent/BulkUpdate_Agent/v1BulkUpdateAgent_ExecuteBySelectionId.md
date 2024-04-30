@@ -82,26 +82,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": true,
       "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "accusantium",
-      "ValueType": "dolorem",
-      "Mandatory": true,
-      "EncodedDisplayName": "Runolfsdottir, Ward and Olson",
-      "EncodedDisplayDescription": "Exclusive methodical intranet",
-      "IconHint": "nobis",
+      "Key": "sequi",
+      "ValueType": "voluptatum",
+      "Mandatory": false,
+      "EncodedDisplayName": "Bashirian-Hamill",
+      "EncodedDisplayDescription": "Business-focused mission-critical paradigm",
+      "IconHint": "repudiandae",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "ut",
-      "EncodedDataCaptionDescription": "Optional value-added extranet",
-      "CurrentOperationType": "modi",
+      "EncodedDataCaption": "est",
+      "EncodedDataCaptionDescription": "Managed non-volatile initiative",
+      "CurrentOperationType": "occaecati",
       "Values": [
-        "deleniti",
-        "et"
+        "fugit",
+        "quisquam"
       ],
       "DisplayValues": [
-        "iste",
-        "sit"
+        "repellendus",
+        "ducimus"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Daniel-Sporer",
-  "Context": "pariatur",
-  "SelectionId": 270,
+  "TableName": "Raynor-Bayer",
+  "Context": "quia",
+  "SelectionId": 723,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-748
+403
 ```

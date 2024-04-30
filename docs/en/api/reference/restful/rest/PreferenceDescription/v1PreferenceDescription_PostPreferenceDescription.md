@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 303,
-  "Section": "laborum",
-  "Key": "sit",
-  "Name": "Gerlach, Gerhold and Bradtke",
+  "PrefDescId": 440,
+  "Section": "quam",
+  "Key": "nihil",
+  "Name": "Senger Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering didactic methodology",
+  "Description": "Intuitive mobile info-mediaries",
   "IsBuiltin": true,
-  "TableName": "Hackett, Friesen and Hamill",
-  "UserDefinedListId": 134,
-  "Rank": 168,
-  "SubGroup": "exercitationem",
-  "MinLevel": 997,
-  "MaxValue": 216,
-  "MinValue": 265,
-  "RequiredLicense": "eum"
+  "TableName": "Maggio Group",
+  "UserDefinedListId": 312,
+  "Rank": 587,
+  "SubGroup": "reprehenderit",
+  "MinLevel": 721,
+  "MaxValue": 500,
+  "MinValue": 575,
+  "RequiredLicense": "asperiores"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 564,
-  "Section": "exercitationem",
-  "Key": "consequatur",
-  "Name": "Cummerata, Roberts and O'Hara",
+  "PrefDescId": 929,
+  "Section": "ea",
+  "Key": "qui",
+  "Name": "Kassulke-Dare",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust regional portal",
-  "IsBuiltin": false,
-  "TableName": "Abshire Inc and Sons",
-  "UserDefinedListId": 675,
-  "Rank": 971,
-  "SubGroup": "porro",
-  "MinLevel": 434,
-  "MaxValue": 879,
-  "MinValue": 34,
-  "RequiredLicense": "vitae",
+  "Description": "Implemented homogeneous budgetary management",
+  "IsBuiltin": true,
+  "TableName": "Muller-Armstrong",
+  "UserDefinedListId": 576,
+  "Rank": 858,
+  "SubGroup": "cumque",
+  "MinLevel": 5,
+  "MaxValue": 432,
+  "MinValue": 138,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 792
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

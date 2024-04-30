@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 676,
-  "ModuleOwner": "praesentium",
+  "AssociateId": 285,
+  "ModuleOwner": "eaque",
   "ModuleLicenseNames": [
-    "Kuphal Group",
-    "Kutch, Fay and Weissnat"
+    "Vandervort, Torp and Kertzmann",
+    "White-Cormier"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 177,
-    "Tooltip": "voluptatem",
+    "Unrestricted": true,
+    "Total": 439,
+    "Tooltip": "sunt",
     "CanAssign": false,
-    "Free": 806,
-    "InUse": 558,
+    "Free": 257,
+    "InUse": 451,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 172,
-    "Name": "Mills, Davis and Abernathy",
-    "Description": "Configurable optimal standardization",
-    "PrerequisiteModuleName": "Moore LLC",
-    "SortOrder": 540,
-    "ExtraFlags": 577,
+    "Assigned": true,
+    "ModuleLicenseId": 758,
+    "Name": "Abernathy Group",
+    "Description": "Enterprise-wide mobile algorithm",
+    "PrerequisiteModuleName": "Bechtelar Inc and Sons",
+    "SortOrder": 3,
+    "ExtraFlags": 393,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 118
       }
     }
   }

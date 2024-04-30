@@ -67,7 +67,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Skiles-Lockman",
-    "DisplayName": "Cummings, Jenkins and Prosacco",
-    "Description": "Upgradable exuding challenge",
-    "ShortLabel": "minima",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "FieldName": "Nikolaus, Paucek and Gerlach",
+    "DisplayName": "Shanahan Inc and Sons",
+    "Description": "Intuitive foreground conglomeration",
+    "ShortLabel": "et",
+    "HideLabel": true,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": true,
-    "Rank": 594,
-    "TemplateVariableName": "Stark, Runolfsson and Wolff"
+    "Rank": 912,
+    "TemplateVariableName": "Cummerata-Bechtelar"
   }
 ]
 ```

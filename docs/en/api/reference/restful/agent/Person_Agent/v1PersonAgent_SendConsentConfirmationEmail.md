@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 954,
-  "EmailAddress": "karl@rosenbaum.us",
-  "EmailTemplateId": 215,
-  "CultureLcidId": 122,
-  "Subject": "a"
+  "PersonId": 264,
+  "EmailAddress": "amalia@okeefeanderson.biz",
+  "EmailTemplateId": 967,
+  "CultureLcidId": 578,
+  "Subject": "sed"
 }
 ```
 

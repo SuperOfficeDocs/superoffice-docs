@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 565,
-    "Name": "Weissnat Inc and Sons",
-    "Tooltip": "minima",
-    "Rank": 178,
-    "Key": "non",
+    "LegalBaseId": 683,
+    "Name": "Bednar, Ferry and Mueller",
+    "Tooltip": "odio",
+    "Rank": 386,
+    "Key": "quibusdam",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldType": "System.String",
+        "FieldLength": 254
       }
     }
   }

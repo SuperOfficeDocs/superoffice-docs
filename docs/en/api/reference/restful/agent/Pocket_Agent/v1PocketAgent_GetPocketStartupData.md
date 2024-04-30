@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quae",
-    "autem"
+    "maxime",
+    "omnis"
   ],
-  "CurrentClientTime": "2004-04-11T12:19:45.789023+02:00"
+  "CurrentClientTime": "1997-07-03T11:44:34.1345952+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "aut",
-    "optio"
+    "aliquam",
+    "doloribus"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 876,
-  "NotificationsCount": 198,
+  "OverdueSalesCount": 155,
+  "NotificationsCount": 892,
   "SystemWebPanels": [
     {
-      "WebPanelId": 889,
-      "Name": "Parker-Towne",
-      "Tooltip": "et",
+      "WebPanelId": 961,
+      "Name": "Gleichner, Hammes and Morissette",
+      "Tooltip": "vitae",
       "Deleted": true,
-      "Rank": 356,
+      "Rank": 998,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": false,
+      "OnTravel": true,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": true,
+      "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
-      "ShowInAddressBar": false,
-      "ShowInStatusBar": true,
-      "WindowName": "Romaguera Inc and Sons",
+      "ShowInToolBar": false,
+      "ShowInAddressBar": true,
+      "ShowInStatusBar": false,
+      "WindowName": "Ratke, Kunze and Lakin",
       "Url": "http://www.example.com/",
-      "ProgId": "in",
-      "Icon": 822,
+      "ProgId": "aut",
+      "Icon": 308,
       "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "eos",
+      "RawValue": "rerum",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "consectetur",
+      "DisplayValue": "quibusdam",
+      "DisplayTooltip": "qui",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 88,
-      "PrefDescId": 314,
-      "TableName": "Howe, Keebler and Trantow",
-      "UserPreferenceId": 549,
+      "TargetId": 634,
+      "PrefDescId": 718,
+      "TableName": "Carroll-Friesen",
+      "UserPreferenceId": 243,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 126
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "qui",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 739
     }
   }
 }

@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Schmitt-Nienow",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 823,
+    "Id": 89,
+    "Name": "Jaskolski-Cronin",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "Rank": 688,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "sit",
-    "InUseByUserDefinedFields": false,
+    "ListType": "ad",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldType": "System.String",
+        "FieldLength": 509
       }
     }
   }

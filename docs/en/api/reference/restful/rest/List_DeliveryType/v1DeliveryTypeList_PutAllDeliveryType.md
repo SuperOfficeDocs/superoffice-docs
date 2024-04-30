@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Becker, Wolf and Wolf",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 391,
-    "Rank": 505
+    "Id": 51,
+    "Name": "Miller LLC",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 321,
+    "Rank": 371
   },
   {
-    "Id": 869,
-    "Name": "Becker, Wolf and Wolf",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 391,
-    "Rank": 505
+    "Id": 51,
+    "Name": "Miller LLC",
+    "Tooltip": "eius",
+    "Deleted": false,
+    "UdListDefinitionId": 321,
+    "Rank": 371
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Schneider LLC",
-    "Tooltip": "dolore",
-    "Deleted": false,
-    "UdListDefinitionId": 207,
-    "Rank": 151,
+    "Id": 435,
+    "Name": "Frami, Hansen and Hettinger",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 355,
+    "Rank": 393,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 823
       }
     }
   }

@@ -28,8 +28,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Spencer-Dietrich",
-    "ToolTip": "Voluptas sed aut adipisci.",
+    "Id": 694,
+    "Name": "Bayer LLC",
+    "ToolTip": "Nisi tenetur quae quis.",
     "Deleted": false,
-    "Rank": 66,
-    "Type": "quas",
+    "Rank": 340,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Cruickshank Inc and Sons",
-        "ToolTip": "Cumque est odio.",
+        "Id": 110,
+        "Name": "Mertz Inc and Sons",
+        "ToolTip": "Qui dolorem.",
         "Deleted": false,
-        "Rank": 157,
-        "Type": "odit",
+        "Rank": 144,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 405,
-        "ExtraInfo": "debitis",
-        "StyleHint": "nulla",
-        "FullName": "Mr. Estefania Rosendo O'Conner IV",
+        "IconHint": "adipisci",
+        "ColorBlock": 908,
+        "ExtraInfo": "et",
+        "StyleHint": "aut",
+        "FullName": "Lukas Zieme IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 289
+            "FieldLength": 872
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 253,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quas",
-    "FullName": "Rupert Abernathy",
+    "IconHint": "qui",
+    "ColorBlock": 372,
+    "ExtraInfo": "rerum",
+    "StyleHint": "beatae",
+    "FullName": "Ada Ophelia Feeney V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 270
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Greenholt Group",
-    "ToolTip": "Voluptate quod aspernatur nam.",
+    "Id": 387,
+    "Name": "Nikolaus Group",
+    "ToolTip": "Consectetur qui deserunt facilis velit ducimus.",
     "Deleted": false,
-    "Rank": 549,
-    "Type": "quia",
-    "ColorBlock": 975,
+    "Rank": 886,
+    "Type": "sed",
+    "ColorBlock": 923,
     "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2005-11-04T12:19:54.3209449+01:00",
+    "Selected": true,
+    "LastChanged": "2009-06-02T11:44:42.9450455+02:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Heaney, Torphy and Gusikowski",
-        "ToolTip": "Necessitatibus totam suscipit tenetur.",
+        "Id": 748,
+        "Name": "Mueller Inc and Sons",
+        "ToolTip": "Ullam consectetur voluptas facilis fugiat rerum et necessitatibus.",
         "Deleted": false,
-        "Rank": 219,
-        "Type": "quae",
-        "ColorBlock": 189,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2012-11-12T12:19:54.3209449+01:00",
+        "Rank": 514,
+        "Type": "et",
+        "ColorBlock": 846,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2001-02-02T11:44:42.9450455+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Abigayle Brakus",
+        "ExtraInfo": "et",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Casandra McCullough DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 755
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Kelvin Leffler",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Shanna VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 809
       }
     }
   }

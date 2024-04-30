@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=sint
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=nisi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Krajcik-Goyette",
-    "ToolTip": "Quod similique repellendus consequatur adipisci itaque eos.",
-    "Deleted": true,
-    "Rank": 76,
-    "Type": "ipsam",
+    "Id": 26,
+    "Name": "Ondricka, Schmitt and Osinski",
+    "ToolTip": "Quis incidunt est tempore exercitationem velit.",
+    "Deleted": false,
+    "Rank": 857,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Leffler Group",
-        "ToolTip": "Nemo est assumenda est voluptatem laudantium quo.",
-        "Deleted": true,
-        "Rank": 436,
-        "Type": "accusantium",
+        "Id": 279,
+        "Name": "Hermiston-Erdman",
+        "ToolTip": "Rem laboriosam animi sit illum ea.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "iure",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 850,
-        "ExtraInfo": "qui",
-        "StyleHint": "soluta",
-        "FullName": "Jared Renner",
+        "IconHint": "asperiores",
+        "ColorBlock": 742,
+        "ExtraInfo": "minima",
+        "StyleHint": "quod",
+        "FullName": "Miss Martine Grace Runolfsson PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 793
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 690,
-    "ExtraInfo": "ipsa",
-    "StyleHint": "iste",
-    "FullName": "Dandre Cremin",
+    "IconHint": "a",
+    "ColorBlock": 83,
+    "ExtraInfo": "commodi",
+    "StyleHint": "et",
+    "FullName": "Skyla Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 452
+        "FieldType": "System.Int32",
+        "FieldLength": 65
       }
     }
   }

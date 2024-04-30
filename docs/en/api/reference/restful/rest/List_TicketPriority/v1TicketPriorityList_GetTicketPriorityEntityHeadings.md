@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 559,
-    "Name": "Murphy Group",
-    "Tooltip": "suscipit",
+    "HeadingId": 176,
+    "Name": "Hartmann Group",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 122,
-    "UdListDefinitionId": 931,
+    "Rank": 959,
+    "UdListDefinitionId": 611,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 901
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

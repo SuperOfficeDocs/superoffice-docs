@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 129,
+  "ContactId": 283,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Nitzsche LLC",
-    "SaleDate": "2013-06-17T12:19:46.210807+02:00",
-    "SaleId": 405,
-    "Probability": 316,
-    "Title": "explicabo",
-    "Amount": 25814.757999999998,
-    "Currency": "aut",
-    "ProjectName": "Mills-Graham",
-    "AssociateFullName": "Montana Kunde",
-    "Description": "Streamlined zero tolerance neural-net",
+    "ContactName": "Bashirian LLC",
+    "SaleDate": "2013-12-09T11:44:34.4001629+01:00",
+    "SaleId": 589,
+    "Probability": 762,
+    "Title": "officiis",
+    "Amount": 22147.978,
+    "Currency": "pariatur",
+    "ProjectName": "Schmitt LLC",
+    "AssociateFullName": "Mr. Wayne Dannie Ruecker",
+    "Description": "Synergized responsive local area network",
     "Status": "Lost",
-    "WeightedAmount": 22840.592,
-    "ProjectId": 125,
-    "EarningPercent": 28663.564,
-    "Earning": 16111.894,
-    "ContactId": 261,
-    "AssociateId": 524,
-    "PersonId": 926,
-    "SaleTypeId": 668,
-    "SaleTypeName": "Bins, Veum and Nicolas",
-    "PersonFullName": "Delfina Cronin",
+    "WeightedAmount": 25272.576,
+    "ProjectId": 823,
+    "EarningPercent": 12134.848,
+    "Earning": 27510.252,
+    "ContactId": 621,
+    "AssociateId": 664,
+    "PersonId": 683,
+    "SaleTypeId": 90,
+    "SaleTypeName": "Romaguera-Franecki",
+    "PersonFullName": "Stanford Schaefer",
     "Completed": "Completed",
-    "ActiveErpLinks": 941,
-    "NextDueDate": "2007-04-02T12:19:46.210807+02:00",
-    "Number": "1118328",
+    "ActiveErpLinks": 498,
+    "NextDueDate": "2010-03-06T11:44:34.4001629+01:00",
+    "Number": "153055",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 288
       }
     }
   }

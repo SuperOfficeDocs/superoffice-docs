@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Satterfield Inc and Sons",
-    "Tromp-Lowe"
+    "Wilderman, Adams and Effertz",
+    "Hettinger LLC"
   ],
-  "Culture": "non"
+  "Culture": "animi"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Stiedemann, Leuschke and Fritsch",
-    "ResourceValue": "a",
-    "Culture": "est",
+    "ResourceName": "Dietrich, Murray and Bradtke",
+    "ResourceValue": "est",
+    "Culture": "aperiam",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   },
   {
-    "ResourceName": "Stiedemann, Leuschke and Fritsch",
-    "ResourceValue": "a",
-    "Culture": "est",
+    "ResourceName": "Dietrich, Murray and Bradtke",
+    "ResourceValue": "est",
+    "Culture": "aperiam",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

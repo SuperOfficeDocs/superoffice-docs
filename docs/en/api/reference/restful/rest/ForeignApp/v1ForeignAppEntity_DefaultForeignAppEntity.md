@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 23 May 1997 12:19:53 G5T
+Last-Modified: Tue, 27 Apr 2021 11:44:41 G4T
 
 {
-  "ForeignAppId": 906,
-  "Name": "Prohaska Inc and Sons",
-  "CreatedDate": "2011-08-18T12:19:53.5867469+02:00",
-  "UpdatedDate": "1997-05-23T12:19:53.5867469+02:00",
+  "ForeignAppId": 56,
+  "Name": "Orn Inc and Sons",
+  "CreatedDate": "2011-01-12T11:44:41.9921474+01:00",
+  "UpdatedDate": "2021-04-27T11:44:41.9921474+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 859,
-      "Name": "Shanahan LLC",
-      "CreatedDate": "2003-07-14T12:19:53.5867469+02:00",
-      "UpdatedDate": "2021-11-17T12:19:53.5867469+01:00",
-      "AssociateFullName": "Miss Rebeka Padberg",
-      "CreatedBy": "perferendis",
-      "UpdatedBy": "velit",
-      "DeviceIdentifier": "molestias",
-      "ForeignAppId": 148,
+      "ForeignDeviceId": 532,
+      "Name": "Schowalter, Halvorson and King",
+      "CreatedDate": "2022-08-19T11:44:41.9921474+02:00",
+      "UpdatedDate": "2006-04-10T11:44:41.9921474+02:00",
+      "AssociateFullName": "Mr. Kip Bins",
+      "CreatedBy": "officiis",
+      "UpdatedBy": "quisquam",
+      "DeviceIdentifier": "soluta",
+      "ForeignAppId": 976,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 496
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Fri, 23 May 1997 12:19:53 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 688
     }
   }
 }

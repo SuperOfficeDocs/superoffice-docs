@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 897,
-    "FieldName": "Botsford Group",
-    "Label": "sit",
-    "Tooltip": "harum",
+    "QuoteLineConfigurationId": 162,
+    "FieldName": "Tremblay, Metz and Kshlerin",
+    "Label": "fuga",
+    "Tooltip": "quas",
     "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 32,
-    "RestrictEdit": true,
+    "Rank": 134,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 326
       }
     }
   }

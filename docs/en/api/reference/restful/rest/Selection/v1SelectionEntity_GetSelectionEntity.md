@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 07 Jun 2017 12:19:53 G6T
+Last-Modified: Fri, 28 Nov 2003 11:44:42 G11T
 
 {
-  "Description": "Organic tangible strategy",
-  "Postit": "quia",
+  "Description": "Advanced reciprocal paradigm",
+  "Postit": "eos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 959,
-  "IncludePerson": 225,
-  "MemberCount": 377,
-  "Name": "Franecki Group",
-  "PostitTextId": 558,
-  "CreatedDate": "2023-10-28T12:19:53.9147965+02:00",
-  "SelectionId": 522,
-  "SoundEx": "ipsam",
-  "Source": 291,
-  "TextId": 755,
-  "UpdatedDate": "2017-06-07T12:19:53.9147965+02:00",
-  "UpdatedCount": 429,
-  "Visibility": 345,
+  "GroupIdx": 217,
+  "IncludePerson": 762,
+  "MemberCount": 281,
+  "Name": "Runolfsdottir, O'Connell and Fritsch",
+  "PostitTextId": 372,
+  "CreatedDate": "2020-04-20T11:44:42.5232729+02:00",
+  "SelectionId": 600,
+  "SoundEx": "voluptatem",
+  "Source": 569,
+  "TextId": 798,
+  "UpdatedDate": "2003-11-28T11:44:42.5232729+01:00",
+  "UpdatedCount": 829,
+  "Visibility": 651,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 487,
-  "TargetTableName": "Bechtelar LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 165,
+  "TargetTableName": "Cronin, Jacobi and Mills",
   "Completed": false,
-  "LeftSelectionId": 594,
-  "RightSelectionId": 720,
+  "LeftSelectionId": 346,
+  "RightSelectionId": 319,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hoeger LLC",
-  "ShadowProviderName": "Greenholt-Vandervort",
-  "ChartKey": "rerum",
-  "LastLoaded": "2000-02-12T12:19:53.9147965+01:00",
-  "LastLoadedBy": 540,
+  "MainProviderName": "Bechtelar Inc and Sons",
+  "ShadowProviderName": "Mante-Dach",
+  "ChartKey": "sed",
+  "LastLoaded": "2023-08-15T11:44:42.5232729+02:00",
+  "LastLoadedBy": 90,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-11-09T12:19:53.9147965+01:00",
-  "LastMembershipChangeBy": 540,
+  "LastMembershipChange": "1999-04-06T11:44:42.5232729+02:00",
+  "LastMembershipChangeBy": 614,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "facere",
-  "MailingsProviderName": "Hoppe-Witting",
-  "DashboardTileDefinitionId": 900,
+  "MainHeading": "sint",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Littel Group",
+  "DashboardTileDefinitionId": 57,
   "VisibleFor": [
     {
-      "VisibleId": 523,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 655
         }
       }
     },
     {
-      "VisibleId": 523,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 655
         }
       }
     }
@@ -197,13 +197,13 @@ Last-Modified: Wed, 07 Jun 2017 12:19:53 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Document/GetPluginCapabilities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 567
+  "PluginId": 611
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nesciunt",
-  "2": "est"
+  "1": "eligendi",
+  "2": "non"
 }
 ```

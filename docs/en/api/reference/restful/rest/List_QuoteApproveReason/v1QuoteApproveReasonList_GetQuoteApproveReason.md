@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Parisian Inc and Sons",
-  "Tooltip": "libero",
-  "Deleted": false,
-  "UdListDefinitionId": 269,
-  "Rank": 295,
+  "Id": 92,
+  "Name": "Hartmann, Pollich and Kassulke",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 526,
+  "Rank": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 184
     }
   }
 }

@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Moore-Reichel",
+      "ErpListName": "Bergstrom-Crooks",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Tremblay Inc and Sons",
-      "ErpFieldId": 659,
+      "ErpActorTypeName": "Cummings Group",
+      "ErpFieldId": 25,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 982
         }
       }
     }
   ],
-  "ErpConnectionId": 210,
-  "ErpConnectionName": "Hyatt, Kris and Schiller",
+  "ErpConnectionId": 544,
+  "ErpConnectionName": "Harber-Brakus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

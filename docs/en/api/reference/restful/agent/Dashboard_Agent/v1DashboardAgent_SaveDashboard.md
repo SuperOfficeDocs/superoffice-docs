@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 904,
-  "AssociateId": 129,
-  "Caption": "sapiente",
+  "DashboardId": 175,
+  "AssociateId": 281,
+  "Caption": "ab",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 358,
-      "Caption": "animi",
-      "Description": "Reactive composite open system",
-      "ChartName": "Hamill-Keeling",
-      "ChartId": "similique",
+      "DashboardTileId": 425,
+      "Caption": "qui",
+      "Description": "Integrated mobile info-mediaries",
+      "ChartName": "Streich Inc and Sons",
+      "ChartId": "non",
       "IsDefault": false,
-      "AssociateId": 406,
-      "GroupId": 441,
-      "SelectionId": 280,
-      "Config": "minima",
+      "AssociateId": 89,
+      "GroupId": 91,
+      "SelectionId": 415,
+      "Config": "id",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 504,
-  "AssociateId": 881,
-  "Caption": "beatae",
+  "DashboardId": 243,
+  "AssociateId": 142,
+  "Caption": "vel",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 886,
-      "Caption": "optio",
-      "Description": "Vision-oriented 6th generation application",
-      "ChartName": "Dare Inc and Sons",
-      "ChartId": "suscipit",
+      "DashboardTileId": 556,
+      "Caption": "consequatur",
+      "Description": "Front-line demand-driven collaboration",
+      "ChartName": "Leuschke, Gislason and Wehner",
+      "ChartId": "aut",
       "IsDefault": true,
-      "AssociateId": 476,
-      "GroupId": 253,
-      "SelectionId": 227,
-      "Config": "corrupti",
+      "AssociateId": 848,
+      "GroupId": 40,
+      "SelectionId": 582,
+      "Config": "magnam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 524
+          "FieldLength": 177
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 913
     }
   }
 }

@@ -115,18 +115,18 @@ ShipmentMessageBlockEntity  updated.
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "quam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "quam",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 669,
-  "AssociateId": 395,
-  "Block": "quia",
-  "Registered": "2008-06-25T12:19:53.9304171+02:00",
-  "RegisteredAssociateId": 276,
-  "Updated": "2015-09-17T12:19:53.9304171+02:00",
-  "UpdatedAssociateId": 695,
-  "UpdatedCount": 783,
+  "ShipmentMessageBlockId": 185,
+  "AssociateId": 804,
+  "Block": "nihil",
+  "Registered": "1997-05-08T11:44:42.5545135+02:00",
+  "RegisteredAssociateId": 85,
+  "Updated": "1997-12-12T11:44:42.5545135+01:00",
+  "UpdatedAssociateId": 975,
+  "UpdatedCount": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 279
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   },
   "_Links": {

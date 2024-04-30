@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 424,
-  "Name": "Predovic, Funk and Sporer",
-  "Tooltip": "quidem",
-  "PassiveText": "ex",
-  "Deleted": true,
-  "Rank": 904,
+  "ReldefId": 696,
+  "Name": "Deckow LLC",
+  "Tooltip": "consequuntur",
+  "PassiveText": "omnis",
+  "Deleted": false,
+  "Rank": 942,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldLength": 223
     }
   }
 }

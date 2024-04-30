@@ -109,7 +109,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 763
+  "ChatSessionId": 92
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 37,
-  "TopicId": 972,
+  "ChatSessionId": 468,
+  "TopicId": 549,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "repudiandae",
-  "CustomerName": "Waelchi-Corkery",
-  "CustomerEmail": "adriel_king@hicklenolan.co.uk",
-  "CustomerPhone": "1-465-020-8873",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Ritchie, Thiel and Hagenes",
+  "CustomerAlias": "architecto",
+  "CustomerHost": "nam",
+  "CustomerName": "Kerluke Inc and Sons",
+  "CustomerEmail": "haleigh.bahringer@nitzschehand.ca",
+  "CustomerPhone": "181-056-6317 x3448",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bradtke Group",
   "Status": "Closed",
-  "FirstMessage": "accusamus",
-  "LastMessage": "optio",
-  "WhenRequested": "2017-12-07T12:19:44.804875+01:00",
-  "WhenStarted": "1996-12-23T12:19:44.804875+01:00",
-  "WhenEnded": "2018-08-22T12:19:44.804875+02:00",
-  "WhenIdle": "1997-03-02T12:19:44.804875+01:00",
-  "WhenFetched": "2020-07-14T12:19:44.804875+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 187,
-  "AlertLevel": 623,
-  "Rank": 535,
+  "FirstMessage": "in",
+  "LastMessage": "eum",
+  "WhenRequested": "2014-02-24T11:44:32.9629886+01:00",
+  "WhenStarted": "1998-07-05T11:44:32.9629886+02:00",
+  "WhenEnded": "2009-06-20T11:44:32.9629886+02:00",
+  "WhenIdle": "2010-11-11T11:44:32.9629886+01:00",
+  "WhenFetched": "1997-12-18T11:44:32.9629886+01:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 22,
+  "AlertLevel": 725,
+  "Rank": 115,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 638,
+  "ChatbotIsActive": true,
+  "Rating": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 645,
-  "Name": "Konopelski-Barton",
-  "CreatedDate": "2006-04-13T12:19:53.6023745+02:00",
-  "UpdatedDate": "2011-04-12T12:19:53.6023745+02:00",
-  "AssociateFullName": "Reta Marvin",
-  "CreatedBy": "asperiores",
-  "UpdatedBy": "porro",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 385
+  "ForeignDeviceId": 4,
+  "Name": "Brekke-Stiedemann",
+  "CreatedDate": "2011-02-15T11:44:42.0077636+01:00",
+  "UpdatedDate": "2000-11-17T11:44:42.0077636+01:00",
+  "AssociateFullName": "Abdul Davis",
+  "CreatedBy": "voluptatem",
+  "UpdatedBy": "officia",
+  "DeviceIdentifier": "necessitatibus",
+  "ForeignAppId": 236
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 744,
-  "Name": "Beier, Lebsack and Moen",
-  "CreatedDate": "2022-06-29T12:19:53.6023745+02:00",
-  "UpdatedDate": "2011-04-10T12:19:53.6023745+02:00",
-  "AssociateFullName": "Treva Bergnaum",
-  "CreatedBy": "et",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "deserunt",
-  "ForeignAppId": 883,
+  "ForeignDeviceId": 764,
+  "Name": "Champlin Group",
+  "CreatedDate": "2014-02-25T11:44:42.0077636+01:00",
+  "UpdatedDate": "2020-04-05T11:44:42.0077636+02:00",
+  "AssociateFullName": "Murray Bashirian",
+  "CreatedBy": "itaque",
+  "UpdatedBy": "praesentium",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldLength": 640
     }
   }
 }

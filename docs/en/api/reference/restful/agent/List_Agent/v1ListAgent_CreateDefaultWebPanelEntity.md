@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 287,
-  "Name": "Kub, Mueller and Dibbert",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 114,
+  "WebPanelId": 781,
+  "Name": "Carroll-Block",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "Rank": 966,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Gerhold-Jaskolski",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Robel, Kerluke and Kling",
   "Url": "http://www.example.com/",
-  "ProgId": "blanditiis",
-  "Icon": 901,
+  "ProgId": "quaerat",
+  "Icon": 461,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   }
 }

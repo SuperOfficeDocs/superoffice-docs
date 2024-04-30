@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeSalePrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 342,
-  "NumSentences": 553,
-  "Summary": "aspernatur",
-  "IsoLangCode": "et"
+  "SaleId": 542,
+  "NumSentences": 622,
+  "Summary": "ratione",
+  "IsoLangCode": "dolor"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2010-09-13T12:19:44.1019032+02:00",
-  "UserPrompt": "accusantium",
-  "UserDisplayText": "aut",
-  "BotResponse": "officiis",
+  "Timestamp": "2022-09-27T11:44:32.2444085+02:00",
+  "UserPrompt": "consequatur",
+  "UserDisplayText": "explicabo",
+  "BotResponse": "laboriosam",
   "BotActions": {
-    "BotActions1": "quam",
-    "BotActions2": "omnis"
+    "BotActions1": "quia",
+    "BotActions2": "dolores"
   },
   "Attachments": [
-    "exercitationem",
-    "officia"
+    "dolorum",
+    "laudantium"
   ]
 }
 ```

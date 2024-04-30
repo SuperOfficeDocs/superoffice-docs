@@ -3373,6 +3373,8 @@ items:
     href: ticketagent/getattachmentinfo.md
   - name: GetAttachmentInfoNonInline
     href: ticketagent/getattachmentinfononinline.md
+  - name: GetAttachmentPreview
+    href: ticketagent/getattachmentpreview.md
   - name: GetAttachmentStream
     href: ticketagent/getattachmentstream.md
   - name: GetDefaultMessageContent
@@ -3385,6 +3387,8 @@ items:
     href: ticketagent/getnextinqueue.md
   - name: GetPreviewAttachmentStream
     href: ticketagent/getpreviewattachmentstream.md
+  - name: GetRfcAttachmentStream
+    href: ticketagent/getrfcattachmentstream.md
   - name: GetTicket
     href: ticketagent/getticket.md
   - name: GetTicketAttachments
@@ -3423,6 +3427,8 @@ items:
     href: ticketagent/sanitizemailcontent.md
   - name: SanitizeMailContents
     href: ticketagent/sanitizemailcontents.md
+  - name: SanitizeMailContentWithOptions
+    href: ticketagent/sanitizemailcontentwithoptions.md
   - name: SaveAttachmentEntity
     href: ticketagent/saveattachmententity.md
   - name: SaveTicketEntity

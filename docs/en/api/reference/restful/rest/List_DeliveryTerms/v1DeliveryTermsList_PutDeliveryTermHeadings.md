@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 824,
-    "Name": "Koepp, Cruickshank and Thompson",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 768,
-    "UdListDefinitionId": 510
+    "HeadingId": 830,
+    "Name": "Rippin Group",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 881,
+    "UdListDefinitionId": 486
   },
   {
-    "HeadingId": 824,
-    "Name": "Koepp, Cruickshank and Thompson",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 768,
-    "UdListDefinitionId": 510
+    "HeadingId": 830,
+    "Name": "Rippin Group",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 881,
+    "UdListDefinitionId": 486
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 994,
-    "Name": "Connelly, Nader and Beier",
-    "Tooltip": "porro",
-    "Deleted": true,
-    "Rank": 350,
-    "UdListDefinitionId": 197,
+    "HeadingId": 30,
+    "Name": "Jenkins, Wiegand and Ziemann",
+    "Tooltip": "facilis",
+    "Deleted": false,
+    "Rank": 944,
+    "UdListDefinitionId": 832,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=et
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=totam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Wehner Group",
-    "ToolTip": "Alias iure omnis.",
-    "Deleted": false,
-    "Rank": 795,
-    "Type": "odio",
+    "Id": 654,
+    "Name": "Armstrong Group",
+    "ToolTip": "Voluptatem et nam et eos hic id.",
+    "Deleted": true,
+    "Rank": 61,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 851,
-        "Name": "Halvorson-Pouros",
-        "ToolTip": "Saepe dolorum.",
-        "Deleted": false,
-        "Rank": 689,
-        "Type": "mollitia",
+        "Id": 466,
+        "Name": "Maggio Inc and Sons",
+        "ToolTip": "Temporibus facere voluptatem iure.",
+        "Deleted": true,
+        "Rank": 218,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 325,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "fugit",
-        "FullName": "Ms. Sim Hirthe",
+        "IconHint": "veniam",
+        "ColorBlock": 146,
+        "ExtraInfo": "hic",
+        "StyleHint": "aliquid",
+        "FullName": "Jose Rolfson DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldType": "System.String",
+            "FieldLength": 961
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 360,
-    "ExtraInfo": "fugit",
-    "StyleHint": "et",
-    "FullName": "Stephania Mosciski",
+    "IconHint": "doloremque",
+    "ColorBlock": 363,
+    "ExtraInfo": "fuga",
+    "StyleHint": "architecto",
+    "FullName": "Jessie Hirthe PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldType": "System.String",
+        "FieldLength": 747
       }
     }
   }

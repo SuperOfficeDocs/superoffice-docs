@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=462
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=125
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 288,
-  "Section": "architecto",
-  "Key": "non",
-  "Name": "O'Hara-Boyer",
+  "PrefDescId": 186,
+  "Section": "libero",
+  "Key": "ad",
+  "Name": "Lesch LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized reciprocal moderator",
-  "IsBuiltin": true,
-  "TableName": "O'Hara Inc and Sons",
-  "UserDefinedListId": 279,
-  "Rank": 593,
-  "SubGroup": "modi",
-  "MinLevel": 182,
-  "MaxValue": 82,
-  "MinValue": 483,
-  "RequiredLicense": "cupiditate",
+  "Description": "Multi-layered attitude-oriented conglomeration",
+  "IsBuiltin": false,
+  "TableName": "Brekke-Kunde",
+  "UserDefinedListId": 276,
+  "Rank": 307,
+  "SubGroup": "qui",
+  "MinLevel": 860,
+  "MaxValue": 960,
+  "MinValue": 755,
+  "RequiredLicense": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 182
     }
   }
 }

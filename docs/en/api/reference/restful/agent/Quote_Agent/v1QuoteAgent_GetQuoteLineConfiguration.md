@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 971
+  "QuoteLineConfigurationId": 699
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 282,
-  "FieldName": "Schinner, Rau and Jacobi",
-  "Label": "commodi",
-  "Tooltip": "nihil",
-  "Editable": true,
+  "QuoteLineConfigurationId": 740,
+  "FieldName": "Block-Wisoky",
+  "Label": "eos",
+  "Tooltip": "perspiciatis",
+  "Editable": false,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 991,
+  "Mandatory": false,
+  "Rank": 168,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 830
     }
   }
 }

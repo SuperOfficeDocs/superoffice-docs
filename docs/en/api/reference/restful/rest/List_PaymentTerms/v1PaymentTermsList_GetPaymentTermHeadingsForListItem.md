@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 834,
-    "Name": "Roberts-Prosacco",
-    "ToolTip": "Aspernatur ipsum corrupti pariatur nostrum unde.",
-    "Deleted": true,
-    "Rank": 553,
-    "Type": "minima",
-    "ColorBlock": 495,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2004-08-02T12:19:54.6334859+02:00",
+    "Id": 208,
+    "Name": "Raynor, Hettinger and Frami",
+    "ToolTip": "Aut placeat ducimus perferendis ipsum quos assumenda minus.",
+    "Deleted": false,
+    "Rank": 184,
+    "Type": "commodi",
+    "ColorBlock": 435,
+    "IconHint": "dolorum",
+    "Selected": true,
+    "LastChanged": "2022-05-16T11:44:43.1325006+02:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Mraz-Anderson",
-        "ToolTip": "Eius eius veritatis aliquid aliquam fuga ut dolorem.",
+        "Id": 160,
+        "Name": "Champlin, Marks and Hudson",
+        "ToolTip": "Sunt maxime et hic.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "deserunt",
-        "ColorBlock": 777,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2010-09-26T12:19:54.6334859+02:00",
+        "Rank": 4,
+        "Type": "exercitationem",
+        "ColorBlock": 884,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2013-06-18T11:44:43.1325006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "et",
+        "ExtraInfo": "porro",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Camylle Hodkiewicz",
+        "FullName": "Matteo Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldType": "System.String",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "eum",
+    "ExtraInfo": "illo",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Mr. Vincent Tara Hermann",
+    "FullName": "Annabell Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 191
       }
     }
   }

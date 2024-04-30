@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ea",
-  "ProviderName": "Collier, Krajcik and Langosh",
-  "StorageKey": "dolorum",
+  "StorageType": "dolorem",
+  "ProviderName": "Pacocha, Rowe and Reinger",
+  "StorageKey": "ut",
   "DesiredColumnNames": [
-    "Fahey Inc and Sons",
-    "Botsford-Kshlerin"
+    "Koss, Johnston and Homenick",
+    "Rolfson-Davis"
   ],
   "StaticColumns": [
-    "ratione",
-    "accusamus"
+    "et",
+    "provident"
   ],
-  "Context": "quos"
+  "Context": "ipsam"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schowalter-Brown",
-      "Operator": "omnis",
+      "Name": "Gerlach Inc and Sons",
+      "Operator": "quia",
       "Values": [
-        "aut",
-        "aspernatur"
+        "et",
+        "consequatur"
       ],
       "DisplayValues": [
-        "vitae",
-        "veniam"
+        "aut",
+        "nobis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 878,
+      "InterParenthesis": 837,
       "InterOperator": "And",
-      "UniqueHash": 919
+      "UniqueHash": 951
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Keebler-Kutch",
-      "DisplayTooltip": "consectetur",
-      "DisplayType": "vitae",
+      "DisplayName": "Schimmel-D'Amore",
+      "DisplayTooltip": "veniam",
+      "DisplayType": "esse",
       "CanOrderBy": false,
-      "Name": "Romaguera Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "O'Connell-Kertzmann",
-      "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "animi",
-      "IconHint": "sit",
-      "HeadingIconHint": "est"
+      "Name": "Gusikowski Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "itaque",
+      "RestrictionListName": "Mosciski-Greenfelder",
+      "IsVisible": true,
+      "ExtraInfo": "non",
+      "Width": "et",
+      "IconHint": "eaque",
+      "HeadingIconHint": "nemo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Fay Inc and Sons",
-      "PrimaryKey": 972,
+      "EntityName": "Pfeffer, Schiller and Douglas",
+      "PrimaryKey": 428,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "veniam",
-          "TooltipHint": "est",
-          "LinkHint": "accusamus"
+          "DisplayValue": "debitis",
+          "TooltipHint": "quisquam",
+          "LinkHint": "impedit"
         }
       },
-      "LinkHint": "eaque",
-      "StyleHint": "omnis",
+      "LinkHint": "et",
+      "StyleHint": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldType": "System.String",
+          "FieldLength": 951
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Goldner-Price",
-      "Description": "Assimilated scalable task-force",
-      "Rank": 386,
+      "Name": "Gaylord LLC",
+      "Description": "Up-sized upward-trending toolset",
+      "Rank": 194,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Goldner-Price",
-      "Description": "Assimilated scalable task-force",
-      "Rank": 386,
+      "Name": "Gaylord LLC",
+      "Description": "Up-sized upward-trending toolset",
+      "Rank": 194,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 97
     }
   }
 }

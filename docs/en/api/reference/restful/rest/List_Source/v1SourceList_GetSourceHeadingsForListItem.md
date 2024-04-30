@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Rowe Inc and Sons",
-    "ToolTip": "Aut asperiores qui quis.",
+    "Id": 341,
+    "Name": "Hoeger, Mante and Gottlieb",
+    "ToolTip": "Corrupti fuga pariatur assumenda necessitatibus laudantium aut assumenda.",
     "Deleted": false,
-    "Rank": 298,
-    "Type": "ea",
-    "ColorBlock": 85,
-    "IconHint": "fugit",
+    "Rank": 861,
+    "Type": "laudantium",
+    "ColorBlock": 982,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2015-08-25T12:19:54.8677016+02:00",
+    "LastChanged": "2021-10-03T11:44:43.3668335+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Donnelly LLC",
-        "ToolTip": "Saepe sit dolorum quisquam adipisci est.",
+        "Id": 681,
+        "Name": "Barrows, Nitzsche and Weber",
+        "ToolTip": "Eligendi quo.",
         "Deleted": false,
-        "Rank": 814,
-        "Type": "iste",
-        "ColorBlock": 110,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "2023-10-14T12:19:54.8677016+02:00",
+        "Rank": 670,
+        "Type": "labore",
+        "ColorBlock": 632,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2020-11-23T11:44:43.3668335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "amet",
+        "ExtraInfo": "earum",
+        "StyleHint": "magnam",
         "Hidden": true,
-        "FullName": "Roel Berge",
+        "FullName": "Mr. Deonte Jackie Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 778
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "natus",
+    "ExtraInfo": "minus",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Chester Abbott",
+    "FullName": "Prof. Millie Adams I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 680
       }
     }
   }

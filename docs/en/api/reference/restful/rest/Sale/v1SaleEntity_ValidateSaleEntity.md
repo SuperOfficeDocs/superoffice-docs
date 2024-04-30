@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "est",
+  "SaleText": "officia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-08-25T12:19:53.8991767+02:00",
-  "Amount": 4556.836,
-  "SaleId": 713,
-  "Earning": 19433.934,
-  "EarningPercent": 24611.302,
-  "Heading": "quas",
-  "Number": "1166467",
-  "Probability": 186,
-  "CreatedDate": "2014-02-19T12:19:53.8991767+01:00",
-  "UpdatedDate": "2016-09-16T12:19:53.8991767+02:00",
+  "Saledate": "2011-07-23T11:44:42.4920354+02:00",
+  "Amount": 31023.466,
+  "SaleId": 659,
+  "Earning": 27804.847999999998,
+  "EarningPercent": 21282.994,
+  "Heading": "libero",
+  "Number": "1323301",
+  "Probability": 169,
+  "CreatedDate": "2001-09-26T11:44:42.4920354+02:00",
+  "UpdatedDate": "2007-09-10T11:44:42.4920354+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 98,
+  "ActiveLinks": 462,
   "Links": [
     {
-      "EntityName": "Wolff LLC",
-      "Id": 900,
-      "Description": "Up-sized radical utilisation",
-      "ExtraInfo": "expedita",
-      "LinkId": 588
+      "EntityName": "Rau Group",
+      "Id": 603,
+      "Description": "Reverse-engineered dedicated help-desk",
+      "ExtraInfo": "ullam",
+      "LinkId": 987
     },
     {
-      "EntityName": "Wolff LLC",
-      "Id": 900,
-      "Description": "Up-sized radical utilisation",
-      "ExtraInfo": "expedita",
-      "LinkId": 588
+      "EntityName": "Rau Group",
+      "Id": 603,
+      "Description": "Reverse-engineered dedicated help-desk",
+      "ExtraInfo": "ullam",
+      "LinkId": 987
     }
   ],
-  "NextDueDate": "2014-11-02T12:19:53.8991767+01:00",
-  "Postit": "optio",
+  "NextDueDate": "2007-09-20T11:44:42.4920354+02:00",
+  "Postit": "occaecati",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1996-12-17T12:19:53.8991767+01:00",
+  "ReopenDate": "2008-09-06T11:44:42.4920354+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koch Group",
-      "Comment": "et",
-      "StakeholderRoleId": 435,
-      "CountryId": 424,
-      "PersonId": 996,
-      "EmailDescription": "scotty@jerde.ca",
-      "EmailId": 109,
-      "EmailAddress": "reggie@leuschke.name",
-      "PhoneId": 91,
-      "ContactName": "Swift-Witting",
-      "ContactId": 934,
-      "SaleId": 625,
-      "Mrmrs": "fugiat",
-      "Firstname": "Aylin",
-      "MiddleName": "Paucek Inc and Sons",
-      "Lastname": "Anderson",
-      "SaleStakeholderId": 924,
-      "Rank": 229,
-      "Phone": "1-312-803-3485 x4192"
+      "StakeholderRoleName": "Emmerich LLC",
+      "Comment": "magnam",
+      "StakeholderRoleId": 466,
+      "CountryId": 951,
+      "PersonId": 661,
+      "EmailDescription": "talon.erdman@eichmannmurray.name",
+      "EmailId": 668,
+      "EmailAddress": "adell.orn@balistrerivonrueden.com",
+      "PhoneId": 869,
+      "ContactName": "Tillman LLC",
+      "ContactId": 955,
+      "SaleId": 319,
+      "Mrmrs": "architecto",
+      "Firstname": "Lempi",
+      "MiddleName": "Schmeler Inc and Sons",
+      "Lastname": "Smith",
+      "SaleStakeholderId": 199,
+      "Rank": 545,
+      "Phone": "316-233-2140 x09644"
     }
   ],
-  "ActiveErpLinks": 292,
+  "ActiveErpLinks": 18,
   "UserDefinedFields": {
-    "SuperOffice:1": "1317154550",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Josephine Fay",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "porro"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "rem"
   },
-  "PublishEventDate": "2010-10-04T12:19:53.8991767+02:00",
-  "PublishTo": "2005-04-09T12:19:53.8991767+02:00",
-  "PublishFrom": "2020-02-03T12:19:53.8991767+01:00",
+  "PublishEventDate": "1999-09-26T11:44:42.4920354+02:00",
+  "PublishTo": "2006-07-26T11:44:42.4920354+02:00",
+  "PublishFrom": "2023-09-13T11:44:42.4920354+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 520,
+      "VisibleId": 954,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 520,
+      "VisibleId": 954,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "autem",
-  "2": "id"
+  "1": "voluptas",
+  "2": "eveniet"
 }
 ```

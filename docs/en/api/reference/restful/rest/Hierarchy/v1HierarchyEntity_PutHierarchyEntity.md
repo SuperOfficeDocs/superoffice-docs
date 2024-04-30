@@ -97,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 467,
+  "HierarchyId": 329,
   "Domain": "Dashboards",
-  "Name": "Reichel Group",
-  "Fullname": "corrupti",
-  "ParentId": 123,
+  "Name": "Stokes, Mayert and Green",
+  "Fullname": "consectetur",
+  "ParentId": 586,
   "Children": [
     {
-      "HierarchyId": 851,
+      "HierarchyId": 931,
       "Domain": "Dashboards",
-      "Name": "Jast, Nitzsche and Adams",
-      "Fullname": "similique",
-      "ParentId": 960,
+      "Name": "Dicki LLC",
+      "Fullname": "autem",
+      "ParentId": 927,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-02-09T12:19:53.6023745+01:00",
-      "RegisteredAssociateId": 39,
-      "Updated": "2020-02-11T12:19:53.6023745+01:00",
-      "UpdatedAssociateId": 170
+      "Registered": "2016-06-12T11:44:42.0077636+02:00",
+      "RegisteredAssociateId": 8,
+      "Updated": "2002-10-26T11:44:42.0077636+02:00",
+      "UpdatedAssociateId": 827
     }
   ],
-  "Registered": "2001-01-13T12:19:53.6023745+01:00",
-  "RegisteredAssociateId": 710,
-  "Updated": "2010-08-12T12:19:53.6023745+02:00",
-  "UpdatedAssociateId": 785
+  "Registered": "2002-08-25T11:44:42.0077636+02:00",
+  "RegisteredAssociateId": 491,
+  "Updated": "2004-12-11T11:44:42.0077636+01:00",
+  "UpdatedAssociateId": 604
 }
 ```
 
@@ -137,51 +137,51 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 573,
+  "HierarchyId": 781,
   "Domain": "Dashboards",
-  "Name": "Prohaska Inc and Sons",
-  "Fullname": "explicabo",
-  "ParentId": 514,
+  "Name": "Hane LLC",
+  "Fullname": "expedita",
+  "ParentId": 117,
   "Children": [
     {
-      "HierarchyId": 140,
+      "HierarchyId": 131,
       "Domain": "Dashboards",
-      "Name": "Erdman-Marks",
-      "Fullname": "eligendi",
-      "ParentId": 827,
+      "Name": "Sanford-Yundt",
+      "Fullname": "excepturi",
+      "ParentId": 405,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-02-02T12:19:53.6023745+01:00",
-      "RegisteredAssociateId": 50,
-      "Updated": "1998-07-27T12:19:53.6023745+02:00",
-      "UpdatedAssociateId": 502,
+      "Registered": "1997-12-07T11:44:42.0077636+01:00",
+      "RegisteredAssociateId": 582,
+      "Updated": "2011-03-25T11:44:42.0077636+01:00",
+      "UpdatedAssociateId": 879,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldLength": 536
         }
       }
     }
   ],
-  "Registered": "2015-07-28T12:19:53.6023745+02:00",
-  "RegisteredAssociateId": 973,
-  "Updated": "2000-08-18T12:19:53.6023745+02:00",
-  "UpdatedAssociateId": 83,
+  "Registered": "2004-06-24T11:44:42.0077636+02:00",
+  "RegisteredAssociateId": 19,
+  "Updated": "2019-11-15T11:44:42.0077636+01:00",
+  "UpdatedAssociateId": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

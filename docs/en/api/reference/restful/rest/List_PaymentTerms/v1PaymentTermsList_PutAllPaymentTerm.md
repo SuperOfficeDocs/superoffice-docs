@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Luettgen-Prohaska",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "UdListDefinitionId": 247,
-    "Rank": 509
+    "Id": 916,
+    "Name": "Hermiston-Halvorson",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "UdListDefinitionId": 734,
+    "Rank": 537
   },
   {
-    "Id": 378,
-    "Name": "Luettgen-Prohaska",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "UdListDefinitionId": 247,
-    "Rank": 509
+    "Id": 916,
+    "Name": "Hermiston-Halvorson",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "UdListDefinitionId": 734,
+    "Rank": 537
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Bednar Group",
-    "Tooltip": "commodi",
+    "Id": 140,
+    "Name": "Glover-Hirthe",
+    "Tooltip": "officia",
     "Deleted": true,
-    "UdListDefinitionId": 803,
-    "Rank": 665,
+    "UdListDefinitionId": 298,
+    "Rank": 544,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 862
       }
     }
   }

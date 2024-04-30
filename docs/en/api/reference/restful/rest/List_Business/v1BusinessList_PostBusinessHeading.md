@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 126,
-  "Name": "Schinner, Vandervort and Spinka",
-  "Tooltip": "qui",
+  "HeadingId": 863,
+  "Name": "Bayer, Marquardt and Grady",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 340,
-  "UdListDefinitionId": 864
+  "Rank": 364,
+  "UdListDefinitionId": 500
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 966,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "natus",
+  "HeadingId": 115,
+  "Name": "Mayert Inc and Sons",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 677,
-  "UdListDefinitionId": 465,
+  "Rank": 42,
+  "UdListDefinitionId": 857,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

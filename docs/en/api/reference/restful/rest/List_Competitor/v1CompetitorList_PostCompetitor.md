@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Rath-Trantow",
-  "Tooltip": "velit",
+  "Id": 364,
+  "Name": "Bosco LLC",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "UdListDefinitionId": 727,
-  "Rank": 385
+  "UdListDefinitionId": 872,
+  "Rank": 594
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 141,
-  "Name": "O'Keefe, Monahan and McKenzie",
-  "Tooltip": "aliquam",
-  "Deleted": true,
-  "UdListDefinitionId": 890,
-  "Rank": 571,
+  "Id": 591,
+  "Name": "Lang LLC",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 484,
+  "Rank": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 102
     }
   }
 }

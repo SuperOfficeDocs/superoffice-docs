@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Hansen Inc and Sons",
-    "ToolTip": "Facere reprehenderit aut hic minus dolor saepe.",
-    "Deleted": false,
-    "Rank": 845,
-    "Type": "ut",
-    "ColorBlock": 227,
-    "IconHint": "voluptas",
+    "Id": 188,
+    "Name": "Walker-Kassulke",
+    "ToolTip": "Debitis vero nobis voluptatem amet.",
+    "Deleted": true,
+    "Rank": 45,
+    "Type": "placeat",
+    "ColorBlock": 453,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "1998-06-16T12:19:54.367807+02:00",
+    "LastChanged": "2003-11-30T11:44:43.0075335+01:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Ward-Yost",
-        "ToolTip": "Repellendus rerum.",
+        "Id": 402,
+        "Name": "Mohr-Frami",
+        "ToolTip": "Omnis inventore veritatis aliquam nesciunt voluptas consequatur.",
         "Deleted": false,
-        "Rank": 767,
-        "Type": "dolorum",
-        "ColorBlock": 824,
-        "IconHint": "autem",
+        "Rank": 166,
+        "Type": "illo",
+        "ColorBlock": 988,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-05-20T12:19:54.367807+02:00",
+        "LastChanged": "2024-02-10T11:44:43.0075335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "corporis",
+        "ExtraInfo": "earum",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Wallace Kuhic",
+        "FullName": "Georgiana Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 872
+            "FieldType": "System.Int32",
+            "FieldLength": 842
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Jena Rickie Schuster I",
+    "ExtraInfo": "quasi",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Mr. Aracely Darlene Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 559
       }
     }
   }

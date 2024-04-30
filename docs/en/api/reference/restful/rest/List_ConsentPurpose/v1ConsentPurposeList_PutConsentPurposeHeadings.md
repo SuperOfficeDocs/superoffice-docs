@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 224,
-    "Name": "Glover LLC",
-    "Tooltip": "eaque",
+    "HeadingId": 703,
+    "Name": "Kreiger, Block and Krajcik",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 344
+    "Rank": 174,
+    "UdListDefinitionId": 127
   },
   {
-    "HeadingId": 224,
-    "Name": "Glover LLC",
-    "Tooltip": "eaque",
+    "HeadingId": 703,
+    "Name": "Kreiger, Block and Krajcik",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 344
+    "Rank": 174,
+    "UdListDefinitionId": 127
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 21,
-    "Name": "Labadie, West and Hudson",
-    "Tooltip": "beatae",
+    "HeadingId": 646,
+    "Name": "Runolfsdottir, Rodriguez and Jaskolski",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 622,
+    "Rank": 706,
+    "UdListDefinitionId": 131,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   }

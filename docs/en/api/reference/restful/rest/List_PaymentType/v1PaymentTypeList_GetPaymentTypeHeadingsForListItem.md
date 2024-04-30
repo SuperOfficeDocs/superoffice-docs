@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Hickle Group",
-    "ToolTip": "Non consequatur dolore error enim alias est.",
+    "Id": 479,
+    "Name": "Sawayn, Ryan and Batz",
+    "ToolTip": "Ea qui eos enim id minima voluptatem.",
     "Deleted": false,
-    "Rank": 530,
-    "Type": "inventore",
-    "ColorBlock": 887,
-    "IconHint": "est",
+    "Rank": 509,
+    "Type": "et",
+    "ColorBlock": 9,
+    "IconHint": "pariatur",
     "Selected": false,
-    "LastChanged": "2015-07-01T12:19:54.6490067+02:00",
+    "LastChanged": "2017-01-06T11:44:43.1481263+01:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Rogahn-Swaniawski",
-        "ToolTip": "Voluptas voluptatem dolorem consequuntur harum iure a officia.",
-        "Deleted": true,
-        "Rank": 584,
-        "Type": "facere",
-        "ColorBlock": 678,
-        "IconHint": "labore",
+        "Id": 709,
+        "Name": "Ziemann, Franecki and Jacobson",
+        "ToolTip": "Sequi cumque ducimus fugiat explicabo alias.",
+        "Deleted": false,
+        "Rank": 939,
+        "Type": "itaque",
+        "ColorBlock": 742,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2004-02-14T12:19:54.6490067+01:00",
+        "LastChanged": "2021-12-05T11:44:43.1481263+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Bulah Scot Boyle I",
+        "ExtraInfo": "eius",
+        "StyleHint": "beatae",
+        "Hidden": false,
+        "FullName": "Alex Rutherford III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Ms. Dannie Schaden Jr.",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Dr. Stan Hirthe Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldType": "System.String",
+        "FieldLength": 928
       }
     }
   }

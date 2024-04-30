@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 267,
-    "Id": 814,
-    "HistoryName": "Padberg Group",
-    "HistoryId": 458,
-    "AssociateId": 699,
-    "Name": "Feeney, Gorczany and Wyman",
-    "ItemInfo": "rerum",
+    "Rank": 62,
+    "Id": 869,
+    "HistoryName": "Gleason, Kirlin and Denesik",
+    "HistoryId": 818,
+    "AssociateId": 349,
+    "Name": "Blick-Zemlak",
+    "ItemInfo": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=aperiam
-GET /api/v1/Ticket?$top=360
-GET /api/v1/Ticket?$skip=483
+GET /api/v1/Ticket?$entities=exercitationem
+GET /api/v1/Ticket?$top=420
+GET /api/v1/Ticket?$skip=722
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=quas
+GET /api/v1/Ticket?$context=quasi
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=True
+GET /api/v1/Ticket?$jsonSafe=False
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eos",
+  "odata.nextLink": "velit",
   "value": [
     {
-      "PrimaryKey": 9470,
+      "PrimaryKey": 8073,
       "EntityName": "sale",
-      "saleId": 9470,
-      "contactId": 2517,
-      "name": "Lockman, Kunde and Pagac"
+      "saleId": 8073,
+      "contactId": 1640,
+      "name": "Kessler Inc and Sons"
     },
     {
-      "PrimaryKey": 3214,
+      "PrimaryKey": 1477,
       "EntityName": "sale",
-      "saleId": 3214,
-      "contactId": 8838,
-      "name": "Reynolds, Kirlin and Denesik"
+      "saleId": 1477,
+      "contactId": 8978,
+      "name": "Upton, Bins and Breitenberg"
     }
   ]
 }

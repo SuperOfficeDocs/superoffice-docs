@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 961,
+  "HierarchyId": 603,
   "Domain": "Dashboards",
-  "Name": "Hirthe Group",
-  "Fullname": "eos",
-  "ParentId": 833,
+  "Name": "Schmidt, Leuschke and Wuckert",
+  "Fullname": "voluptas",
+  "ParentId": 503,
   "Children": [
     {
-      "HierarchyId": 910,
+      "HierarchyId": 38,
       "Domain": "Dashboards",
-      "Name": "Hammes, Pagac and Erdman",
-      "Fullname": "quaerat",
-      "ParentId": 560,
+      "Name": "Stamm Group",
+      "Fullname": "nobis",
+      "ParentId": 84,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-08-26T12:19:45.5547007+02:00",
-      "RegisteredAssociateId": 747,
-      "Updated": "2016-02-27T12:19:45.5547007+01:00",
-      "UpdatedAssociateId": 454
+      "Registered": "1998-10-01T11:44:33.9002761+02:00",
+      "RegisteredAssociateId": 402,
+      "Updated": "2022-03-16T11:44:33.9002761+01:00",
+      "UpdatedAssociateId": 348
     }
   ],
-  "Registered": "2021-08-20T12:19:45.5547007+02:00",
-  "RegisteredAssociateId": 267,
-  "Updated": "1997-06-22T12:19:45.5547007+02:00",
-  "UpdatedAssociateId": 953
+  "Registered": "2006-10-31T11:44:33.9002761+01:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2016-11-10T11:44:33.9002761+01:00",
+  "UpdatedAssociateId": 22
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 979,
+  "HierarchyId": 191,
   "Domain": "Dashboards",
-  "Name": "O'Reilly, Jaskolski and Larson",
-  "Fullname": "quas",
-  "ParentId": 44,
+  "Name": "Brown, Tillman and Bahringer",
+  "Fullname": "in",
+  "ParentId": 793,
   "Children": [
     {
-      "HierarchyId": 977,
+      "HierarchyId": 39,
       "Domain": "Dashboards",
-      "Name": "Hessel Inc and Sons",
-      "Fullname": "rerum",
-      "ParentId": 732,
+      "Name": "Jewess, Fisher and Conn",
+      "Fullname": "sed",
+      "ParentId": 782,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2000-03-22T12:19:45.5547007+01:00",
-      "RegisteredAssociateId": 416,
-      "Updated": "2001-03-13T12:19:45.5547007+01:00",
-      "UpdatedAssociateId": 768,
+      "Registered": "2004-10-07T11:44:33.9002761+02:00",
+      "RegisteredAssociateId": 156,
+      "Updated": "2017-11-15T11:44:33.9002761+01:00",
+      "UpdatedAssociateId": 651,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldLength": 520
         }
       }
     }
   ],
-  "Registered": "1997-10-27T12:19:45.5547007+01:00",
-  "RegisteredAssociateId": 483,
-  "Updated": "2002-06-02T12:19:45.5547007+02:00",
-  "UpdatedAssociateId": 932,
+  "Registered": "2002-05-21T11:44:33.9002761+02:00",
+  "RegisteredAssociateId": 890,
+  "Updated": "2019-01-09T11:44:33.9002761+01:00",
+  "UpdatedAssociateId": 906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldLength": 975
     }
   }
 }

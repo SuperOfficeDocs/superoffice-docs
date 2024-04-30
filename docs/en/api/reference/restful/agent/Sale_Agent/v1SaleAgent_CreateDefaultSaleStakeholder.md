@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Bauch Group",
-  "Comment": "laboriosam",
-  "StakeholderRoleId": 724,
-  "CountryId": 150,
-  "PersonId": 211,
-  "EmailDescription": "elbert.gleichner@raynor.biz",
-  "EmailId": 344,
-  "EmailAddress": "lula_abbott@torphy.uk",
-  "PhoneId": 970,
-  "ContactName": "Mann Group",
-  "ContactId": 487,
-  "SaleId": 401,
-  "Mrmrs": "omnis",
-  "Firstname": "Estefania",
-  "MiddleName": "Auer, Rohan and Runolfsdottir",
-  "Lastname": "Gorczany",
-  "SaleStakeholderId": 426,
-  "Rank": 125,
-  "Phone": "712.599.9524",
+  "StakeholderRoleName": "Waelchi, Kilback and Wisoky",
+  "Comment": "corrupti",
+  "StakeholderRoleId": 684,
+  "CountryId": 813,
+  "PersonId": 848,
+  "EmailDescription": "heidi_mante@gerlach.us",
+  "EmailId": 202,
+  "EmailAddress": "ike@bayerhilll.biz",
+  "PhoneId": 395,
+  "ContactName": "Upton Inc and Sons",
+  "ContactId": 263,
+  "SaleId": 193,
+  "Mrmrs": "aliquam",
+  "Firstname": "Keara",
+  "MiddleName": "Howell-Stoltenberg",
+  "Lastname": "Stehr",
+  "SaleStakeholderId": 360,
+  "Rank": 47,
+  "Phone": "(197)126-9971 x73987",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 893
     }
   }
 }

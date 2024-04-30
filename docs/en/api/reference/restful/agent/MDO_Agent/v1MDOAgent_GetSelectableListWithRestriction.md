@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pouros-Quitzon",
-  "AdditionalInfo": "est",
-  "SearchValue": "itaque"
+  "Name": "Turner-Ankunding",
+  "AdditionalInfo": "voluptatibus",
+  "SearchValue": "dolores"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Wuckert, Farrell and Koelpin",
-    "ToolTip": "Tenetur odio quas dolorum quisquam.",
-    "Deleted": true,
-    "Rank": 347,
-    "Type": "quaerat",
-    "ColorBlock": 703,
-    "IconHint": "delectus",
-    "Selected": false,
-    "LastChanged": "2008-06-19T12:19:45.6015646+02:00",
+    "Id": 321,
+    "Name": "Fadel Inc and Sons",
+    "ToolTip": "Eum rerum ea consequuntur veritatis blanditiis.",
+    "Deleted": false,
+    "Rank": 746,
+    "Type": "iste",
+    "ColorBlock": 222,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2008-11-15T11:44:33.9471419+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Heathcote LLC",
-        "ToolTip": "Dolorum modi totam fuga voluptatum.",
+        "Id": 991,
+        "Name": "Parker, O'Hara and Leannon",
+        "ToolTip": "Hic quas et culpa cum perferendis.",
         "Deleted": false,
-        "Rank": 17,
-        "Type": "nisi",
-        "ColorBlock": 246,
-        "IconHint": "et",
+        "Rank": 63,
+        "Type": "minus",
+        "ColorBlock": 419,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2000-04-03T12:19:45.6015646+02:00",
+        "LastChanged": "2012-01-17T11:44:33.9471419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nam",
+        "ExtraInfo": "enim",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Prof. Floyd Larkin",
+        "FullName": "Everette Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 834
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Magnus Nicolas DDS",
+    "ExtraInfo": "quis",
+    "StyleHint": "totam",
+    "Hidden": false,
+    "FullName": "Carlotta Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldLength": 9
       }
     }
   }

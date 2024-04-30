@@ -58,7 +58,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": true,
-  "Reason": "deploy efficient interfaces",
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 701
     }
   }
 }

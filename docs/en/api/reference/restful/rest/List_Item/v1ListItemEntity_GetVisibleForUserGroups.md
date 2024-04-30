@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Zboncak Group",
-    "ToolTip": "Voluptas nam iusto consequuntur illum.",
-    "Deleted": false,
-    "Rank": 650,
-    "Type": "sunt",
-    "ColorBlock": 252,
-    "IconHint": "odit",
+    "Id": 810,
+    "Name": "Green LLC",
+    "ToolTip": "Praesentium vel.",
+    "Deleted": true,
+    "Rank": 960,
+    "Type": "quod",
+    "ColorBlock": 452,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2009-07-03T12:19:54.2740906+02:00",
+    "LastChanged": "2020-10-16T11:44:42.8825602+02:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Kuhic-Jacobs",
-        "ToolTip": "Nihil eum mollitia occaecati fuga eum quam est.",
+        "Id": 628,
+        "Name": "Morissette Group",
+        "ToolTip": "Perferendis quas officiis.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "molestias",
-        "ColorBlock": 154,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2018-01-25T12:19:54.2740906+01:00",
+        "Rank": 612,
+        "Type": "qui",
+        "ColorBlock": 266,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2017-12-20T11:44:42.8825602+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Branson Breitenberg",
+        "ExtraInfo": "officiis",
+        "StyleHint": "ipsum",
+        "Hidden": true,
+        "FullName": "Shane Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 906
+            "FieldLength": 9
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "minima",
-    "Hidden": true,
-    "FullName": "Norwood Reilly",
+    "ExtraInfo": "minus",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Adalberto Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 635
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "O'Connell-Larkin",
-  "StorageKey": "autem",
-  "Rank": 450,
-  "Context": "dolores"
+  "StorageType": "maxime",
+  "ProviderName": "Ebert Inc and Sons",
+  "StorageKey": "delectus",
+  "Rank": 151,
+  "Context": "exercitationem"
 }
 ```
 

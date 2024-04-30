@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 6
+  "QuoteVersionId": 677
 }
 ```
 
@@ -93,16 +93,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "commodi",
-  "DisplayText": "dicta",
-  "TooltipText": "asperiores",
+  "ImageHint": "dolores",
+  "DisplayText": "minus",
+  "TooltipText": "cumque",
   "Enabled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Terry-Corkery",
-  "DeviceName": "Haley Inc and Sons"
+  "ApplicationName": "Bailey, Wolf and Senger",
+  "DeviceName": "Halvorson, Hane and Stroman"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nam",
-    "Value": "eligendi",
-    "RecordId": 676,
-    "CreatedDate": "2004-01-22T12:19:45.4297292+01:00",
-    "UpdatedDate": "2021-04-16T12:19:45.4297292+02:00",
-    "UpdatedBy": "aut",
-    "CreatedBy": "quasi",
-    "TableName": "Botsford Inc and Sons",
+    "Key": "id",
+    "Value": "labore",
+    "RecordId": 958,
+    "CreatedDate": "2001-07-15T11:44:33.7753083+02:00",
+    "UpdatedDate": "2020-08-22T11:44:33.7753083+02:00",
+    "UpdatedBy": "molestiae",
+    "CreatedBy": "iste",
+    "TableName": "Lehner LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 482
       }
     }
   }

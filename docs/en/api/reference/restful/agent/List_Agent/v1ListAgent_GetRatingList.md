@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 710,
-    "Value": "ipsum",
-    "Tooltip": "omnis",
+    "Id": 504,
+    "Value": "numquam",
+    "Tooltip": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 914
       }
     }
   },
   {
-    "Id": 710,
-    "Value": "ipsum",
-    "Tooltip": "omnis",
+    "Id": 504,
+    "Value": "numquam",
+    "Tooltip": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 914
       }
     }
   }

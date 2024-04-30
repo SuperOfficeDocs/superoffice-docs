@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Waelchi Group",
-    "Tooltip": "velit",
+    "Id": 949,
+    "Name": "Beer Inc and Sons",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 635,
-    "Rank": 736
+    "UdListDefinitionId": 586,
+    "Rank": 450
   },
   {
-    "Id": 211,
-    "Name": "Waelchi Group",
-    "Tooltip": "velit",
+    "Id": 949,
+    "Name": "Beer Inc and Sons",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 635,
-    "Rank": 736
+    "UdListDefinitionId": 586,
+    "Rank": 450
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Murray, Shields and Yost",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 840,
-    "Rank": 746,
+    "Id": 20,
+    "Name": "Bartell, Kohler and Gerlach",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "UdListDefinitionId": 925,
+    "Rank": 903,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldType": "System.String",
+        "FieldLength": 834
       }
     }
   }

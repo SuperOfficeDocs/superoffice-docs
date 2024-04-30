@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quidem",
-  "PluginId": 931
+  "LanguageCode": "pariatur",
+  "PluginId": 203
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 814,
-  "Name": "VonRueden-Hermiston",
-  "Tooltip": "quis",
-  "SaveInDb": 902,
-  "Filename": "officia",
-  "DefaultOref": "ipsam",
+  "DocumentTemplateId": 463,
+  "Name": "Farrell, Rowe and Bauch",
+  "Tooltip": "molestiae",
+  "SaveInDb": 129,
+  "Filename": "quis",
+  "DefaultOref": "sunt",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 320,
-  "IntentId": 62,
-  "IsDefaultPublished": false,
-  "Rank": 148,
-  "LoadTemplateFromPlugin": 718,
-  "MimeType": "quod",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 323,
+  "AutoeventId": 731,
+  "IntentId": 135,
+  "IsDefaultPublished": true,
+  "Rank": 447,
+  "LoadTemplateFromPlugin": 238,
+  "MimeType": "et",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 552,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "amira@smithamwaters.com",
+  "EmailSubject": "corbin@heathcote.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lela@toy.uk",
+  "SenderEmailAddress": "robert@baumbach.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 938
     }
   }
 }

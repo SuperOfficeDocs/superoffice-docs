@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "id",
+    "path": "fugiat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "id",
+    "path": "fugiat",
     "value": {}
   }
 ]
@@ -145,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 293,
-  "UniqueIdentifier": "laborum",
-  "Name": "Dare, Bode and Koelpin",
-  "Description": "Total hybrid database",
-  "IncludeId": "aut",
-  "HierarchyId": 337,
-  "Source": "autem",
-  "Registered": "2010-09-14T12:19:53.3055654+02:00",
-  "RegisteredAssociateId": 990,
-  "Updated": "2001-02-23T12:19:53.3055654+01:00",
-  "UpdatedAssociateId": 159,
+  "EjscriptId": 281,
+  "UniqueIdentifier": "non",
+  "Name": "Kohler, Reinger and Quigley",
+  "Description": "Profit-focused composite array",
+  "IncludeId": "hic",
+  "HierarchyId": 301,
+  "Source": "cum",
+  "Registered": "2013-09-29T11:44:41.8671838+02:00",
+  "RegisteredAssociateId": 433,
+  "Updated": "2013-03-25T11:44:41.8671838+01:00",
+  "UpdatedAssociateId": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 189
     }
   },
   "_Links": {

@@ -1110,7 +1110,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=person/personAddress/addressId,person/personUdef/SuperOffice:7,saleUdef/SuperOffice:1,saleStakeholder/person/personAssociateFullName,saleStakeholder/person/personBusiness
+GET /api/v1/archive/SaleFiltered?$select=currencyId,person/kanaLastName,person/personAssociateFullName,person/personUdef/SuperOffice:3,person/correspondingAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

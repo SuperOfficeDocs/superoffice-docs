@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    109,
-    716
+    730,
+    413
   ],
-  "TargetTableNumber": 798
+  "TargetTableNumber": 281
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cloned asynchronous standardization",
-  "Postit": "inventore",
+  "Description": "Multi-lateral national benchmark",
+  "Postit": "iure",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 30,
-  "IncludePerson": 359,
-  "MemberCount": 284,
-  "Name": "Adams-Wolff",
-  "PostitTextId": 222,
-  "CreatedDate": "1997-07-03T12:19:46.273282+02:00",
-  "SelectionId": 217,
+  "GroupIdx": 605,
+  "IncludePerson": 856,
+  "MemberCount": 558,
+  "Name": "Shields-Ankunding",
+  "PostitTextId": 565,
+  "CreatedDate": "2013-08-15T11:44:34.4782654+02:00",
+  "SelectionId": 542,
   "SoundEx": "qui",
-  "Source": 764,
-  "TextId": 201,
-  "UpdatedDate": "2015-07-26T12:19:46.273282+02:00",
-  "UpdatedCount": 867,
-  "Visibility": 429,
+  "Source": 327,
+  "TextId": 160,
+  "UpdatedDate": "2002-06-14T11:44:34.4782654+02:00",
+  "UpdatedCount": 434,
+  "Visibility": 420,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 463,
-  "TargetTableName": "Gibson-Lang",
+  "CompanyUnique": false,
+  "TargetTableNumber": 167,
+  "TargetTableName": "Klocko, Pouros and Witting",
   "Completed": false,
-  "LeftSelectionId": 284,
-  "RightSelectionId": 62,
+  "LeftSelectionId": 624,
+  "RightSelectionId": 663,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Breitenberg-Sawayn",
-  "ShadowProviderName": "Osinski, Sauer and Ratke",
-  "ChartKey": "provident",
-  "LastLoaded": "2003-11-10T12:19:46.273282+01:00",
-  "LastLoadedBy": 629,
+  "MainProviderName": "Russel LLC",
+  "ShadowProviderName": "Hand, Kozey and Gaylord",
+  "ChartKey": "aspernatur",
+  "LastLoaded": "2021-07-04T11:44:34.4782654+02:00",
+  "LastLoadedBy": 255,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-04-07T12:19:46.273282+02:00",
-  "LastMembershipChangeBy": 641,
+  "LastMembershipChange": "2004-02-27T11:44:34.4782654+01:00",
+  "LastMembershipChangeBy": 76,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "hic",
-  "MemberTabHeading": "repellendus",
-  "MailingsProviderName": "Oberbrunner-Zulauf",
-  "DashboardTileDefinitionId": 310,
+  "MainHeading": "quis",
+  "MemberTabHeading": "placeat",
+  "MailingsProviderName": "Kozey, Runolfsdottir and Deckow",
+  "DashboardTileDefinitionId": 896,
   "VisibleFor": [
     {
-      "VisibleId": 854,
+      "VisibleId": 622,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 720
         }
       }
     },
     {
-      "VisibleId": 854,
+      "VisibleId": 622,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 720
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 415
     }
   }
 }

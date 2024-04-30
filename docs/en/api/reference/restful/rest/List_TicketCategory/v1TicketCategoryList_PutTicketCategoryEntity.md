@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 996,
-  "ParentId": 720,
-  "Name": "Gulgowski-Purdy",
-  "Fullname": "eveniet",
-  "CategoryMaster": 96,
+  "TicketCategoryId": 990,
+  "ParentId": 154,
+  "Name": "Crist LLC",
+  "Fullname": "dolorum",
+  "CategoryMaster": 123,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Spencer-Huel",
+  "ExternalName": "Schaden-Kovacek",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 991,
-  "ReplyTemplate": 727,
-  "NotificationEmail": "riley@gerhold.co.uk",
+  "AssignmentLag": 223,
+  "ReplyTemplate": 568,
+  "NotificationEmail": "franco@schmelerthiel.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 426,
+  "EffectiveReplyTemplateId": 790,
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "in"
+    "CustomFields1": "quia",
+    "CustomFields2": "iusto"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 656,
-  "ParentId": 799,
-  "Name": "Beatty Group",
-  "Fullname": "labore",
-  "CategoryMaster": 929,
+  "TicketCategoryId": 980,
+  "ParentId": 139,
+  "Name": "Nicolas, Blick and Schinner",
+  "Fullname": "ut",
+  "CategoryMaster": 835,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hermann-Corkery",
+  "ExternalName": "Koss Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 840,
-  "ReplyTemplate": 140,
-  "NotificationEmail": "fernando@deckow.co.uk",
+  "AssignmentLag": 114,
+  "ReplyTemplate": 57,
+  "NotificationEmail": "hester@collins.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 334,
+  "EffectiveReplyTemplateId": 414,
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "provident"
+    "CustomFields1": "tenetur",
+    "CustomFields2": "dolorum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 421
+  "ProjectId": 12
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 794,
-    "Attention": "nisi",
-    "Header": "ut",
-    "Name": "Rutherford, Farrell and Gaylord",
-    "OurRef": "odio",
-    "YourRef": "sint",
-    "Description": "Organized logistical productivity",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": false,
-    "PersonId": 409,
-    "PersonFullName": "Mr. Marina Kuhn",
-    "AssociateFullName": "Isobel Harris",
-    "ContactId": 143,
-    "ContactName": "Schultz-Block",
-    "ProjectId": 10,
-    "ProjectName": "Durgan, Little and King",
-    "AssociateId": 217,
-    "Snum": 164,
-    "SaleId": 397,
-    "SaleName": "Jast-Flatley",
+    "DocumentId": 355,
+    "Attention": "consequuntur",
+    "Header": "quae",
+    "Name": "Cronin-Jacobs",
+    "OurRef": "nemo",
+    "YourRef": "quia",
+    "Description": "Extended analyzing complexity",
+    "DocumentTemplate": "vitae",
+    "IsPublished": true,
+    "PersonId": 436,
+    "PersonFullName": "Dr. Sienna Kristy Hansen",
+    "AssociateFullName": "Celia D'Amore DVM",
+    "ContactId": 958,
+    "ContactName": "Rice, Robel and Heidenreich",
+    "ProjectId": 890,
+    "ProjectName": "Gutmann, Blanda and Medhurst",
+    "AssociateId": 343,
+    "Snum": 43,
+    "SaleId": 673,
+    "SaleName": "Maggio-Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 436
       }
     }
   }

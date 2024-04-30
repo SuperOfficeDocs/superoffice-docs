@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=218
+POST /api/v1/Agents/Document/GetDocument?documentId=965
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 634,
-  "Attention": "eius",
-  "Header": "dolor",
-  "Name": "Kulas, Considine and Rodriguez",
-  "OurRef": "consequuntur",
-  "YourRef": "deleniti",
-  "Description": "Networked discrete concept",
-  "DocumentTemplate": "aut",
-  "IsPublished": false,
-  "PersonId": 464,
-  "PersonFullName": "Ms. Shaniya O'Kon",
-  "AssociateFullName": "Prof. Marlin Marcos Lehner",
-  "ContactId": 536,
-  "ContactName": "Senger, Schmitt and Homenick",
-  "ProjectId": 694,
-  "ProjectName": "Rath-Dach",
-  "AssociateId": 371,
-  "Snum": 723,
-  "SaleId": 331,
-  "SaleName": "Dare Group",
+  "DocumentId": 657,
+  "Attention": "eum",
+  "Header": "et",
+  "Name": "Breitenberg-Krajcik",
+  "OurRef": "eius",
+  "YourRef": "eum",
+  "Description": "Multi-layered fresh-thinking array",
+  "DocumentTemplate": "rerum",
+  "IsPublished": true,
+  "PersonId": 822,
+  "PersonFullName": "Dr. Daisy Kirlin",
+  "AssociateFullName": "Prof. Lillie Jake Upton",
+  "ContactId": 396,
+  "ContactName": "Fay-Wehner",
+  "ProjectId": 746,
+  "ProjectName": "Homenick, Bednar and Larkin",
+  "AssociateId": 721,
+  "Snum": 665,
+  "SaleId": 674,
+  "SaleName": "Oberbrunner Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

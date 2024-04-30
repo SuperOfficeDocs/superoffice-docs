@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "possimus",
+    "path": "nulla",
     "value": {}
   },
   {
     "op": "add",
-    "path": "possimus",
+    "path": "nulla",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive background customer loyalty",
-  "Postit": "optio",
+  "Description": "Devolved non-volatile time-frame",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 214,
-  "IncludePerson": 93,
-  "MemberCount": 51,
-  "Name": "Jaskolski-Collier",
-  "PostitTextId": 898,
-  "CreatedDate": "2003-09-24T12:19:53.9304171+02:00",
-  "SelectionId": 209,
-  "SoundEx": "et",
-  "Source": 894,
-  "TextId": 805,
-  "UpdatedDate": "1998-08-15T12:19:53.9304171+02:00",
-  "UpdatedCount": 887,
-  "Visibility": 772,
+  "GroupIdx": 86,
+  "IncludePerson": 514,
+  "MemberCount": 527,
+  "Name": "Kling, Nikolaus and Gusikowski",
+  "PostitTextId": 328,
+  "CreatedDate": "2013-09-02T11:44:42.5388946+02:00",
+  "SelectionId": 811,
+  "SoundEx": "deleniti",
+  "Source": 729,
+  "TextId": 325,
+  "UpdatedDate": "2001-06-27T11:44:42.5388946+02:00",
+  "UpdatedCount": 897,
+  "Visibility": 960,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 29,
-  "TargetTableName": "Smitham-Dickens",
+  "TargetTableNumber": 707,
+  "TargetTableName": "Gusikowski, Metz and Glover",
   "Completed": false,
-  "LeftSelectionId": 746,
-  "RightSelectionId": 987,
+  "LeftSelectionId": 43,
+  "RightSelectionId": 74,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Abshire-McClure",
-  "ShadowProviderName": "Bins-Beer",
-  "ChartKey": "qui",
-  "LastLoaded": "2013-04-06T12:19:53.9304171+02:00",
-  "LastLoadedBy": 199,
+  "MainProviderName": "Pagac-Rogahn",
+  "ShadowProviderName": "Zemlak, Willms and Schowalter",
+  "ChartKey": "et",
+  "LastLoaded": "2006-03-04T11:44:42.5388946+01:00",
+  "LastLoadedBy": 172,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-12-26T12:19:53.9304171+01:00",
-  "LastMembershipChangeBy": 820,
+  "LastMembershipChange": "2022-04-25T11:44:42.5388946+02:00",
+  "LastMembershipChangeBy": 71,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Blick, Kerluke and Mraz",
-  "DashboardTileDefinitionId": 769,
+  "MainHeading": "dignissimos",
+  "MemberTabHeading": "sunt",
+  "MailingsProviderName": "Maggio Inc and Sons",
+  "DashboardTileDefinitionId": 37,
   "VisibleFor": [
     {
-      "VisibleId": 397,
+      "VisibleId": 707,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldType": "System.Int32",
+          "FieldLength": 176
         }
       }
     },
     {
-      "VisibleId": 397,
+      "VisibleId": 707,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldType": "System.Int32",
+          "FieldLength": 176
         }
       }
     }
@@ -244,13 +244,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 708
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

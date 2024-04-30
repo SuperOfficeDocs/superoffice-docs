@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 123,
-  "PersonName": "Swaniawski, Stamm and Dickens",
+  "ContactId": 941,
+  "PersonName": "Dooley, Greenfelder and Leffler",
   "PhoneNumbers": [
-    "1009019",
-    "108341"
+    "1869508",
+    "867152"
   ],
   "Emails": [
-    "orin_glover@schowalter.ca",
-    "raheem@gottliebhowell.ca"
+    "monte.jakubowski@satterfield.ca",
+    "theo.smith@rueckerschinner.biz"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldType": "System.Int32",
+      "FieldLength": 934
     }
   }
 }

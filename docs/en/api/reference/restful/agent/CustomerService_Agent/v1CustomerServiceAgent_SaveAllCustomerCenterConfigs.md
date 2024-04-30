@@ -64,20 +64,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 27,
+      "CustConfigId": 384,
       "Type": "Options",
-      "Config": "velit",
-      "CustLangId": 570,
-      "Registered": "2022-11-25T12:19:45.0079506+01:00",
-      "RegisteredAssociateId": 200,
-      "Updated": "2004-01-15T12:19:45.0079506+01:00",
-      "UpdatedAssociateId": 388
+      "Config": "rerum",
+      "CustLangId": 536,
+      "Registered": "2016-04-24T11:44:33.3535225+02:00",
+      "RegisteredAssociateId": 909,
+      "Updated": "2007-06-29T11:44:33.3535225+02:00",
+      "UpdatedAssociateId": 634
     }
   ]
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Leannon, Bartell and Friesen",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "UdListDefinitionId": 835,
-    "Rank": 932
+    "Id": 393,
+    "Name": "Pfannerstill-Schowalter",
+    "Tooltip": "iure",
+    "Deleted": true,
+    "UdListDefinitionId": 822,
+    "Rank": 697
   },
   {
-    "Id": 681,
-    "Name": "Leannon, Bartell and Friesen",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "UdListDefinitionId": 835,
-    "Rank": 932
+    "Id": 393,
+    "Name": "Pfannerstill-Schowalter",
+    "Tooltip": "iure",
+    "Deleted": true,
+    "UdListDefinitionId": 822,
+    "Rank": 697
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Hettinger Inc and Sons",
-    "Tooltip": "sed",
+    "Id": 859,
+    "Name": "Hartmann Inc and Sons",
+    "Tooltip": "reiciendis",
     "Deleted": true,
-    "UdListDefinitionId": 559,
-    "Rank": 81,
+    "UdListDefinitionId": 189,
+    "Rank": 103,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

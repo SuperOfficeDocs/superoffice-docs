@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Fisher, Volkman and Kiehn",
-    "ToolTip": "Non iste exercitationem eligendi voluptas.",
-    "Deleted": false,
-    "Rank": 469,
-    "Type": "amet",
-    "ColorBlock": 385,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2021-08-03T12:19:54.3990083+02:00",
+    "Id": 816,
+    "Name": "Yost, Lowe and Deckow",
+    "ToolTip": "Ex sunt quam id.",
+    "Deleted": true,
+    "Rank": 719,
+    "Type": "asperiores",
+    "ColorBlock": 437,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "1999-04-29T11:44:43.0387817+02:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Blanda-Blanda",
-        "ToolTip": "Et vero et eveniet dolores fugit qui.",
-        "Deleted": true,
-        "Rank": 961,
-        "Type": "rerum",
-        "ColorBlock": 346,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2023-04-15T12:19:54.3990083+02:00",
+        "Id": 682,
+        "Name": "Schaden LLC",
+        "ToolTip": "Dolorem fuga explicabo tempore.",
+        "Deleted": false,
+        "Rank": 944,
+        "Type": "repellendus",
+        "ColorBlock": 261,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2016-06-23T11:44:43.0387817+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "est",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Reece Ortiz",
+        "FullName": "Jaden Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "et",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Woodrow Little",
+    "FullName": "Ms. Rachelle Rolfson DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldType": "System.String",
+        "FieldLength": 406
       }
     }
   }

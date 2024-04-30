@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=voluptatum
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=corporis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Feest LLC",
-    "ToolTip": "Qui ducimus id rerum quidem ipsum quae.",
-    "Deleted": true,
-    "Rank": 538,
-    "Type": "voluptates",
+    "Id": 172,
+    "Name": "Johns, Feil and Roberts",
+    "ToolTip": "Id rem molestiae excepturi provident neque qui ut.",
+    "Deleted": false,
+    "Rank": 355,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Nader Inc and Sons",
-        "ToolTip": "Illum nesciunt illum tempora quia.",
-        "Deleted": false,
-        "Rank": 739,
-        "Type": "enim",
+        "Id": 811,
+        "Name": "Smitham LLC",
+        "ToolTip": "Dolorem sed impedit aut consequatur fuga.",
+        "Deleted": true,
+        "Rank": 723,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 327,
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
-        "FullName": "Jude Romaguera",
+        "IconHint": "reiciendis",
+        "ColorBlock": 205,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "est",
+        "FullName": "Salvador Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 78
+            "FieldType": "System.String",
+            "FieldLength": 165
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 617,
-    "ExtraInfo": "esse",
-    "StyleHint": "iusto",
-    "FullName": "Prof. Fabian Ryan",
+    "IconHint": "et",
+    "ColorBlock": 785,
+    "ExtraInfo": "rem",
+    "StyleHint": "voluptatum",
+    "FullName": "Veda Erich Stiedemann II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 261
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 768,
-    "Name": "Fisher-Walter",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 744,
+    "HeadingId": 320,
+    "Name": "Moen LLC",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 21,
+    "UdListDefinitionId": 24,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldLength": 108
       }
     }
   }

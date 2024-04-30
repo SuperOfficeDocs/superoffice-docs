@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 342
+  "ErpConnectionId": 763
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 317,
-  "ErpConnectorId": 613,
-  "DisplayName": "Dare Inc and Sons",
-  "DisplayDescription": "Quality-focused didactic budgetary management",
+  "ErpConnectionId": 223,
+  "ErpConnectorId": 170,
+  "DisplayName": "Weissnat-Zulauf",
+  "DisplayDescription": "Reverse-engineered neutral info-mediaries",
   "Active": false,
-  "ConnectionId": "quo",
-  "MostRecentTimestamp": "cumque",
+  "ConnectionId": "quod",
+  "MostRecentTimestamp": "ut",
   "ConfigFields": {
-    "ConfigFields1": "est",
-    "ConfigFields2": "magnam"
+    "ConfigFields1": "harum",
+    "ConfigFields2": "ut"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    71,
-    496
+    616,
+    570
   ],
   "AssociateAccessIds": [
-    410,
-    446
+    918,
+    450
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

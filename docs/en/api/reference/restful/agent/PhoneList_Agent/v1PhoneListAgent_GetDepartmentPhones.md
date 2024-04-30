@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 972
+  "DepartmentId": 635
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "710.726.5080 x26782",
-    "PersonCellPhone": "(061)412-3611",
-    "PersonPrivatePhone": "(532)473-3887",
-    "PersonFaxNumber": "1273481",
-    "PersonPagerNumber": "1169739",
-    "PersonEmail": "faustino.gutkowski@herman.ca",
-    "Id": 891,
-    "Name": "Denesik-Abbott",
+    "PersonDirectPhone": "471.164.5812 x251",
+    "PersonCellPhone": "956.793.2998 x338",
+    "PersonPrivatePhone": "412.701.2719",
+    "PersonFaxNumber": "1181474",
+    "PersonPagerNumber": "859400",
+    "PersonEmail": "elton@anderson.info",
+    "Id": 908,
+    "Name": "Padberg-Erdman",
     "Tooltip": "et",
-    "UniqueId": "nesciunt",
+    "UniqueId": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 365
       }
     }
   }

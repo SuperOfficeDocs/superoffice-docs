@@ -352,7 +352,7 @@ Contact provider for general use
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=postAddress/line1,contactSupportAssociate/credentialDisplayValue,contactSupportPerson/personExtra/x_person_datetime,contactSupportPerson/personExtra/x_person_boolean,contactSupportPerson/personExtra/x_person_contact_relation
+GET /api/v1/archive/Contact?$select=restrictionPostalAddress/line1,contactAssociate/locationAddress,contactSupportPerson/personExtra/y_car/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

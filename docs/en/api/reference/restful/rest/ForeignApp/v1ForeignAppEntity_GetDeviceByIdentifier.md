@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 12 Apr 2012 12:19:53 G4T
+Last-Modified: Wed, 08 Aug 2012 11:44:42 G8T
 
 {
-  "ForeignDeviceId": 73,
-  "Name": "Padberg-Klocko",
-  "CreatedDate": "2006-03-25T12:19:53.6023745+01:00",
-  "UpdatedDate": "2012-04-12T12:19:53.6023745+02:00",
-  "AssociateFullName": "Gerda Cassin",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "natus",
-  "DeviceIdentifier": "quaerat",
-  "ForeignAppId": 662,
+  "ForeignDeviceId": 27,
+  "Name": "Schoen-Oberbrunner",
+  "CreatedDate": "2014-01-31T11:44:42.0077636+01:00",
+  "UpdatedDate": "2012-08-08T11:44:42.0077636+02:00",
+  "AssociateFullName": "Jett Hahn",
+  "CreatedBy": "voluptatem",
+  "UpdatedBy": "in",
+  "DeviceIdentifier": "voluptatum",
+  "ForeignAppId": 160,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   }
 }

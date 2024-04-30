@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    414,
-    192
+    732,
+    83
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 381,
-    "Attention": "non",
-    "Header": "suscipit",
-    "Name": "Thompson-Doyle",
-    "OurRef": "eos",
-    "YourRef": "blanditiis",
-    "Description": "Organized uniform flexibility",
-    "DocumentTemplate": "magnam",
-    "IsPublished": false,
-    "PersonId": 200,
-    "PersonFullName": "Dr. Lucile Franecki",
-    "AssociateFullName": "Mrs. Kurt Marian Hackett MD",
-    "ContactId": 587,
-    "ContactName": "Boehm-Halvorson",
-    "ProjectId": 39,
-    "ProjectName": "Kohler-McClure",
-    "AssociateId": 770,
-    "Snum": 182,
-    "SaleId": 708,
-    "SaleName": "Pagac, Sanford and Lebsack",
+    "DocumentId": 774,
+    "Attention": "qui",
+    "Header": "aliquam",
+    "Name": "Kling-Kessler",
+    "OurRef": "a",
+    "YourRef": "similique",
+    "Description": "Cloned transitional local area network",
+    "DocumentTemplate": "expedita",
+    "IsPublished": true,
+    "PersonId": 916,
+    "PersonFullName": "Lula Williamson",
+    "AssociateFullName": "Candida Swaniawski",
+    "ContactId": 337,
+    "ContactName": "D'Amore-Lynch",
+    "ProjectId": 545,
+    "ProjectName": "Corkery LLC",
+    "AssociateId": 864,
+    "Snum": 477,
+    "SaleId": 663,
+    "SaleName": "Wyman LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 714
+        "FieldLength": 974
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Kunze LLC",
-  "Tooltip": "et",
+  "Id": 663,
+  "Name": "Spencer LLC",
+  "Tooltip": "quos",
   "Deleted": false,
-  "UdListDefinitionId": 384,
-  "Rank": 143,
+  "UdListDefinitionId": 711,
+  "Rank": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 894
     }
   }
 }

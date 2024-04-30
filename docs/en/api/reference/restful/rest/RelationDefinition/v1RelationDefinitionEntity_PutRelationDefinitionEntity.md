@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 558,
-  "Name": "Osinski-Zulauf",
-  "Tooltip": "optio",
-  "PassiveText": "quae",
+  "ReldefId": 597,
+  "Name": "Schuppe-Schowalter",
+  "Tooltip": "eum",
+  "PassiveText": "aperiam",
   "Deleted": true,
-  "Rank": 830,
+  "Rank": 879,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 223,
-  "Name": "Corwin-Collier",
-  "Tooltip": "atque",
-  "PassiveText": "dolor",
+  "ReldefId": 387,
+  "Name": "Miller, Greenholt and Daugherty",
+  "Tooltip": "sint",
+  "PassiveText": "atque",
   "Deleted": false,
-  "Rank": 426,
+  "Rank": 490,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 524
     }
   },
   "_Links": {

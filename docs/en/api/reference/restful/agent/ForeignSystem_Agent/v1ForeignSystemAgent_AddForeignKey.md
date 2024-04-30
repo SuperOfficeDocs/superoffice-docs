@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Halvorson-Crona",
-  "DeviceName": "Hayes, Bartoletti and Dibbert",
-  "DeviceIdentifier": "est"
+  "ApplicationName": "Welch Group",
+  "DeviceName": "Schmeler-Schuster",
+  "DeviceIdentifier": "eum"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "deleniti",
-  "RecordId": 435,
-  "CreatedDate": "2004-02-29T12:19:45.4141069+01:00",
-  "UpdatedDate": "2017-05-08T12:19:45.4141069+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "a",
-  "TableName": "Quigley, Reilly and Abbott",
+  "Key": "culpa",
+  "Value": "modi",
+  "RecordId": 850,
+  "CreatedDate": "1997-12-07T11:44:33.7753083+01:00",
+  "UpdatedDate": "2009-11-14T11:44:33.7753083+01:00",
+  "UpdatedBy": "officia",
+  "CreatedBy": "corporis",
+  "TableName": "Prosacco-D'Amore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 882
     }
   }
 }

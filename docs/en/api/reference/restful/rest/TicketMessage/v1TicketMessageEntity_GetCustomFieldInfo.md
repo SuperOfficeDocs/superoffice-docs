@@ -71,7 +71,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Fisher LLC",
-  "DisplayName": "Hirthe LLC",
-  "Description": "Seamless upward-trending moderator",
-  "ShortLabel": "odio",
+  "FieldName": "Kuvalis-Williamson",
+  "DisplayName": "Bruen, Bauch and Lindgren",
+  "Description": "Ameliorated dedicated core",
+  "ShortLabel": "error",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 907,
-  "TemplateVariableName": "Kuhic Inc and Sons"
+  "Rank": 837,
+  "TemplateVariableName": "Purdy Inc and Sons"
 }
 ```

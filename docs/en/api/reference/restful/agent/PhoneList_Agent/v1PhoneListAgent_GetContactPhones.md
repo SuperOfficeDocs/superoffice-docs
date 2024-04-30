@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 715
+  "ContactId": 569
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "536.767.3048 x51279",
-    "PersonCellPhone": "269.067.7237",
-    "PersonPrivatePhone": "1-938-045-4925",
-    "PersonFaxNumber": "1246657",
-    "PersonPagerNumber": "439947",
-    "PersonEmail": "tiffany@leannonbashirian.info",
-    "Id": 446,
-    "Name": "Zemlak Inc and Sons",
-    "Tooltip": "laudantium",
-    "UniqueId": "et",
+    "PersonDirectPhone": "398.930.9459",
+    "PersonCellPhone": "1-153-645-0960 x2369",
+    "PersonPrivatePhone": "911.562.7566 x386",
+    "PersonFaxNumber": "1549669",
+    "PersonPagerNumber": "747772",
+    "PersonEmail": "angelo.pagac@kautzereichmann.ca",
+    "Id": 520,
+    "Name": "Mills-Walker",
+    "Tooltip": "molestiae",
+    "UniqueId": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 623
       }
     }
   }

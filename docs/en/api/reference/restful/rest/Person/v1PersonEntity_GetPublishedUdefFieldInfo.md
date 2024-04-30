@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 341,
-  "ColumnId": 148,
-  "FieldDefault": "est",
-  "FieldHeight": 635,
-  "FieldLabel": "laboriosam",
-  "FieldLeft": 607,
-  "FieldTop": 621,
+  "UDefFieldId": 3,
+  "ColumnId": 904,
+  "FieldDefault": "earum",
+  "FieldHeight": 353,
+  "FieldLabel": "rerum",
+  "FieldLeft": 434,
+  "FieldTop": 123,
   "FieldType": "Checkbox",
-  "FieldWidth": 451,
-  "FormatMask": "aut",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 89,
-  "LabelLeft": 969,
-  "LabelTop": 595,
-  "LabelWidth": 366,
-  "LastVersionId": 131,
-  "ListTableId": 440,
-  "IsMandatory": true,
+  "FieldWidth": 896,
+  "FormatMask": "officia",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 585,
+  "LabelLeft": 953,
+  "LabelTop": 936,
+  "LabelWidth": 474,
+  "LastVersionId": 64,
+  "ListTableId": 63,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 987,
-  "ProgId": "pariatur",
+  "Page1LineNo": 701,
+  "ProgId": "ut",
   "IsReadOnly": false,
-  "ShortLabel": "ducimus",
-  "TabOrder": 902,
-  "TextLength": 802,
-  "Tooltip": "quibusdam",
-  "UdefIdentity": 245,
-  "UDListDefinitionId": 644,
+  "ShortLabel": "soluta",
+  "TabOrder": 387,
+  "TextLength": 511,
+  "Tooltip": "cumque",
+  "UdefIdentity": 369,
+  "UDListDefinitionId": 434,
   "Justification": "Center",
-  "Version": 878,
-  "TemplateVariableName": "Leffler, Ritchie and Legros",
+  "Version": 100,
+  "TemplateVariableName": "Murphy-Hermann",
   "HasBeenPublished": false,
-  "MdoListName": "Smitham-Kuhic",
+  "MdoListName": "Stark, Macejkovic and Deckow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 896
     }
   }
 }

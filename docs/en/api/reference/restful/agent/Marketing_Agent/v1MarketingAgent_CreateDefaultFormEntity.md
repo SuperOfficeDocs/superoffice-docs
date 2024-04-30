@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 155,
-  "FormKey": "magnam",
-  "Name": "Mann-Steuber",
-  "Description": "User-friendly 6th generation matrices",
-  "Config": "molestiae",
-  "FolderId": 63,
-  "ScriptId": 71,
-  "ResponseShipmentId": 534,
+  "FormId": 72,
+  "FormKey": "fugit",
+  "Name": "Goyette-Hane",
+  "Description": "Face to face background encryption",
+  "Config": "dolorem",
+  "FolderId": 164,
+  "ScriptId": 810,
+  "ResponseShipmentId": 3,
   "Active": false,
-  "Expires": "2008-10-04T12:19:45.585943+02:00",
-  "MaxSubmits": 514,
+  "Expires": "2002-03-10T11:44:33.9315193+01:00",
+  "MaxSubmits": 601,
   "Type": "Normal",
-  "Recipe": "iure",
-  "GroupId": 116,
+  "Recipe": "assumenda",
+  "GroupId": 542,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2015-04-17T12:19:45.585943+02:00",
-  "RegisteredAssociateId": 851,
-  "Updated": "2014-07-20T12:19:45.585943+02:00",
-  "UpdatedAssociateId": 798,
-  "UpdatedCount": 326,
+  "Registered": "2013-06-30T11:44:33.9315193+02:00",
+  "RegisteredAssociateId": 612,
+  "Updated": "2007-06-28T11:44:33.9315193+02:00",
+  "UpdatedAssociateId": 977,
+  "UpdatedCount": 546,
   "EmailFlows": [
-    7,
-    180
+    563,
+    924
   ],
-  "FolderName": "Brown, Vandervort and Blanda",
+  "FolderName": "Brown-Predovic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 909
     }
   }
 }

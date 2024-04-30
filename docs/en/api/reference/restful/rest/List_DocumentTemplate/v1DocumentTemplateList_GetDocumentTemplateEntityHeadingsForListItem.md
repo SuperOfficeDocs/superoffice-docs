@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Bogisich-Reilly",
-    "ToolTip": "Dolores voluptate eaque nemo.",
-    "Deleted": true,
-    "Rank": 12,
-    "Type": "inventore",
-    "ColorBlock": 141,
-    "IconHint": "quam",
-    "Selected": true,
-    "LastChanged": "1998-02-08T12:19:54.4459158+01:00",
+    "Id": 788,
+    "Name": "Cronin LLC",
+    "ToolTip": "Perspiciatis ratione.",
+    "Deleted": false,
+    "Rank": 500,
+    "Type": "recusandae",
+    "ColorBlock": 504,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "1999-06-30T11:44:43.085652+02:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Senger-Runte",
-        "ToolTip": "Consequatur aut cum sunt.",
+        "Id": 584,
+        "Name": "Bergstrom, Yundt and Russel",
+        "ToolTip": "Aliquid minus dicta.",
         "Deleted": false,
-        "Rank": 149,
-        "Type": "qui",
-        "ColorBlock": 493,
-        "IconHint": "tenetur",
+        "Rank": 750,
+        "Type": "itaque",
+        "ColorBlock": 557,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2006-12-25T12:19:54.4459158+01:00",
+        "LastChanged": "2009-12-02T11:44:43.085652+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Kylie Price",
+        "FullName": "Lilly Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 399
+            "FieldType": "System.Int32",
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "eos",
+    "StyleHint": "cum",
     "Hidden": false,
-    "FullName": "Mrs. Mariana Sigrid Lueilwitz Sr.",
+    "FullName": "Ms. Cedrick Gutkowski DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 597
+        "FieldType": "System.Int32",
+        "FieldLength": 987
       }
     }
   }

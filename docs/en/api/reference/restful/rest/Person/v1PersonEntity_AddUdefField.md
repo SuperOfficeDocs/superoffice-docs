@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 219,
-  "ColumnId": 371,
-  "FieldDefault": "odit",
-  "FieldHeight": 21,
-  "FieldLabel": "asperiores",
-  "FieldLeft": 248,
-  "FieldTop": 256,
+  "UDefFieldId": 434,
+  "ColumnId": 359,
+  "FieldDefault": "quae",
+  "FieldHeight": 154,
+  "FieldLabel": "maxime",
+  "FieldLeft": 145,
+  "FieldTop": 503,
   "FieldType": "Checkbox",
-  "FieldWidth": 671,
-  "FormatMask": "debitis",
-  "HideLabel": false,
+  "FieldWidth": 338,
+  "FormatMask": "reiciendis",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 442,
-  "LabelLeft": 613,
-  "LabelTop": 352,
-  "LabelWidth": 139,
-  "LastVersionId": 871,
-  "ListTableId": 693,
-  "IsMandatory": true,
+  "LabelHeight": 603,
+  "LabelLeft": 392,
+  "LabelTop": 108,
+  "LabelWidth": 814,
+  "LastVersionId": 867,
+  "ListTableId": 871,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 58,
-  "ProgId": "ipsam",
+  "Page1LineNo": 590,
+  "ProgId": "natus",
   "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 971,
-  "TextLength": 548,
-  "Tooltip": "velit",
-  "UdefIdentity": 148,
-  "UDListDefinitionId": 75,
+  "ShortLabel": "odio",
+  "TabOrder": 183,
+  "TextLength": 730,
+  "Tooltip": "a",
+  "UdefIdentity": 475,
+  "UDListDefinitionId": 458,
   "Justification": "Center",
-  "Version": 378,
-  "TemplateVariableName": "Crona-Lebsack",
-  "HasBeenPublished": true,
-  "MdoListName": "Gutkowski-Ondricka",
+  "Version": 913,
+  "TemplateVariableName": "Homenick Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Spinka-Dietrich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

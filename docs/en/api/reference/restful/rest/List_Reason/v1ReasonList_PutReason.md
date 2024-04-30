@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 731,
-  "Name": "Daugherty Group",
-  "Tooltip": "in",
+  "Id": 568,
+  "Name": "Dibbert Group",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 392,
-  "Rank": 77
+  "UdListDefinitionId": 163,
+  "Rank": 39
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Nolan LLC",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "UdListDefinitionId": 890,
-  "Rank": 509,
+  "Id": 800,
+  "Name": "Koss, Gleichner and Johnston",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 535,
+  "Rank": 168,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 519
     }
   }
 }

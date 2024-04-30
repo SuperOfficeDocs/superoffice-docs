@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 544,
-  "Section": "quis",
-  "Key": "ea",
-  "Name": "Hackett Inc and Sons",
+  "PrefDescId": 2,
+  "Section": "provident",
+  "Key": "assumenda",
+  "Name": "Reinger Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enhanced bifurcated solution",
+  "Description": "Inverse cohesive application",
   "IsBuiltin": true,
-  "TableName": "Homenick Group",
-  "UserDefinedListId": 695,
-  "Rank": 91,
-  "SubGroup": "consequatur",
-  "MinLevel": 420,
-  "MaxValue": 696,
-  "MinValue": 847,
-  "RequiredLicense": "est"
+  "TableName": "Dicki-Konopelski",
+  "UserDefinedListId": 32,
+  "Rank": 628,
+  "SubGroup": "eum",
+  "MinLevel": 54,
+  "MaxValue": 815,
+  "MinValue": 206,
+  "RequiredLicense": "cum"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 98,
-  "Section": "suscipit",
-  "Key": "nostrum",
-  "Name": "Mayert-Johns",
+  "PrefDescId": 76,
+  "Section": "aperiam",
+  "Key": "consequatur",
+  "Name": "Kerluke LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customizable methodical complexity",
+  "Description": "Universal explicit hub",
   "IsBuiltin": false,
-  "TableName": "Effertz Group",
-  "UserDefinedListId": 52,
-  "Rank": 342,
-  "SubGroup": "et",
-  "MinLevel": 30,
-  "MaxValue": 991,
-  "MinValue": 415,
-  "RequiredLicense": "delectus",
+  "TableName": "Conroy Inc and Sons",
+  "UserDefinedListId": 78,
+  "Rank": 818,
+  "SubGroup": "dicta",
+  "MinLevel": 869,
+  "MaxValue": 837,
+  "MinValue": 253,
+  "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 741
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

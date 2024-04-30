@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 134,
-  "Caption": "occaecati",
-  "Description": "Integrated value-added moratorium",
-  "ChartName": "Bosco, Schmitt and Cole",
-  "ChartId": "eos",
+  "DashboardTileId": 739,
+  "Caption": "nisi",
+  "Description": "Stand-alone coherent Graphic Interface",
+  "ChartName": "McGlynn, Powlowski and Cole",
+  "ChartId": "aut",
   "IsDefault": false,
-  "AssociateId": 567,
-  "GroupId": 112,
-  "SelectionId": 271,
-  "Config": "ipsam",
+  "AssociateId": 808,
+  "GroupId": 941,
+  "SelectionId": 961,
+  "Config": "iusto",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Steuber LLC",
-      "Description": "Self-enabling contextually-based complexity",
+      "Name": "Wisozk LLC",
+      "Description": "Cross-group zero administration conglomeration",
       "Type": "Boolean",
-      "ListName": "Jaskolski, Bergstrom and Renner",
+      "ListName": "Nolan, Carroll and Gaylord",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aperiam",
+      "Value": "nesciunt",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 157,
+      "VisibleId": 603,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "vitae"
     },
     {
-      "VisibleId": 157,
+      "VisibleId": 603,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "vitae"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 224,
-  "Caption": "rerum",
-  "Description": "Decentralized homogeneous budgetary management",
-  "ChartName": "Hamill-Bergnaum",
-  "ChartId": "dignissimos",
-  "IsDefault": true,
-  "AssociateId": 809,
-  "GroupId": 83,
-  "SelectionId": 738,
-  "Config": "et",
+  "DashboardTileId": 983,
+  "Caption": "ad",
+  "Description": "Organized systemic help-desk",
+  "ChartName": "Parker, Konopelski and Rogahn",
+  "ChartId": "ex",
+  "IsDefault": false,
+  "AssociateId": 649,
+  "GroupId": 720,
+  "SelectionId": 531,
+  "Config": "aut",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mills-Little",
-      "Description": "Open-architected dynamic paradigm",
+      "Name": "Oberbrunner-Towne",
+      "Description": "Managed encompassing process improvement",
       "Type": "Boolean",
-      "ListName": "Gleason-Effertz",
+      "ListName": "Ebert, Friesen and Metz",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "vel",
-      "DefaultDataOption": false,
+      "Value": "aperiam",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldLength": 109
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 176,
+      "VisibleId": 508,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 245
         }
       }
     },
     {
-      "VisibleId": 176,
+      "VisibleId": 508,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 245
         }
       }
     }
@@ -207,8 +207,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 673
+      "FieldType": "System.Int32",
+      "FieldLength": 26
     }
   }
 }

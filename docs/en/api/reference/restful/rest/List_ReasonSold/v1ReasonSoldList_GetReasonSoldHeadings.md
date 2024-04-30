@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 482,
-    "Name": "Altenwerth, Hickle and Stehr",
-    "Tooltip": "fugiat",
+    "HeadingId": 834,
+    "Name": "DuBuque LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 887,
-    "UdListDefinitionId": 64,
+    "Rank": 33,
+    "UdListDefinitionId": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 286
       }
     }
   }

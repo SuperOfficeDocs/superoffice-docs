@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 614,
-  "SelectionId": 237,
-  "Restrictions": "officia"
+  "DashboardTileId": 684,
+  "SelectionId": 431,
+  "Restrictions": "quia"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Goldner-Marquardt",
-        "DisplayTooltip": "ut",
-        "DisplayType": "excepturi",
-        "CanOrderBy": true,
-        "Name": "Koepp LLC",
-        "CanRestrictBy": false,
-        "RestrictionType": "porro",
-        "RestrictionListName": "Konopelski, Lemke and Hand",
-        "IsVisible": false,
-        "ExtraInfo": "magnam",
-        "Width": "esse",
-        "IconHint": "aut",
-        "HeadingIconHint": "sit"
+        "DisplayName": "Kihn-Morissette",
+        "DisplayTooltip": "et",
+        "DisplayType": "esse",
+        "CanOrderBy": false,
+        "Name": "Hickle LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "iure",
+        "RestrictionListName": "Graham Inc and Sons",
+        "IsVisible": true,
+        "ExtraInfo": "minima",
+        "Width": "maiores",
+        "IconHint": "pariatur",
+        "HeadingIconHint": "consequuntur"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Goldner-Marquardt",
-        "DisplayTooltip": "ut",
-        "DisplayType": "excepturi",
-        "CanOrderBy": true,
-        "Name": "Koepp LLC",
-        "CanRestrictBy": false,
-        "RestrictionType": "porro",
-        "RestrictionListName": "Konopelski, Lemke and Hand",
-        "IsVisible": false,
-        "ExtraInfo": "magnam",
-        "Width": "esse",
-        "IconHint": "aut",
-        "HeadingIconHint": "sit"
+        "DisplayName": "Kihn-Morissette",
+        "DisplayTooltip": "et",
+        "DisplayType": "esse",
+        "CanOrderBy": false,
+        "Name": "Hickle LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "iure",
+        "RestrictionListName": "Graham Inc and Sons",
+        "IsVisible": true,
+        "ExtraInfo": "minima",
+        "Width": "maiores",
+        "IconHint": "pariatur",
+        "HeadingIconHint": "consequuntur"
       }
     ],
     "Result": null

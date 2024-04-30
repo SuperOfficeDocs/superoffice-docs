@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 819,
+  "ReportId": 944,
   "ReportCategory": "All",
-  "Description": "Virtual eco-centric local area network",
+  "Description": "Reverse-engineered system-worthy leverage",
   "ReportLayout": "CalendarMonth",
-  "Name": "Barrows, Gulgowski and Halvorson",
-  "AssociateId": 352,
-  "TemplateId": 326,
-  "Published": true,
+  "Name": "Kohler, Schneider and Treutel",
+  "AssociateId": 482,
+  "TemplateId": 23,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 478
     }
   }
 }

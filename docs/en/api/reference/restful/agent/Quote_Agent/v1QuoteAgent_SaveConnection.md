@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 902,
-  "ERPName": "Lindgren LLC",
-  "DisplayName": "Bode-Nolan",
-  "DisplayDescription": "Visionary cohesive flexibility",
-  "Rank": 419,
-  "ConnectorName": "Corwin, Mitchell and Hilll",
-  "ErpConnectionId": 71,
-  "ExtraData": "ut",
+  "QuoteConnectionId": 964,
+  "ERPName": "Padberg-Collins",
+  "DisplayName": "Hahn, Pfannerstill and Denesik",
+  "DisplayDescription": "Automated local application",
+  "Rank": 440,
+  "ConnectorName": "Legros-Johns",
+  "ErpConnectionId": 302,
+  "ExtraData": "quae",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 514,
-      "ERPPriceListKey": "aut",
-      "QuoteConnectionId": 953,
-      "Name": "Fisher-Ziemann",
-      "Description": "Optional content-based orchestration",
-      "Currency": "omnis",
-      "CurrencyName": "Schimmel-Rowe",
-      "ValidFrom": "1999-05-11T12:19:46.1014395+02:00",
-      "ValidTo": "2020-01-27T12:19:46.1014395+01:00",
+      "PriceListId": 345,
+      "ERPPriceListKey": "soluta",
+      "QuoteConnectionId": 66,
+      "Name": "Stiedemann LLC",
+      "Description": "Cross-group 24/7 productivity",
+      "Currency": "nesciunt",
+      "CurrencyName": "Okuneva-Lehner",
+      "ValidFrom": "2002-03-23T11:44:34.2907996+01:00",
+      "ValidTo": "2021-06-28T11:44:34.2907996+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldLength": 652
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    993,
-    849
+    384,
+    753
   ],
   "AssociateAccessIds": [
-    478,
-    475
+    152,
+    620
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   }
 }

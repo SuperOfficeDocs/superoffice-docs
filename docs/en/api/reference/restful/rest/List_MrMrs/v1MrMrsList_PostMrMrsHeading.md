@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 145,
-  "Name": "Toy Inc and Sons",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "Rank": 559,
-  "UdListDefinitionId": 154
+  "HeadingId": 710,
+  "Name": "Johns-Kerluke",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "Rank": 631,
+  "UdListDefinitionId": 349
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 80,
-  "Name": "King, Satterfield and Kohler",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 698,
-  "UdListDefinitionId": 970,
+  "HeadingId": 850,
+  "Name": "Kihn-Roberts",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "Rank": 846,
+  "UdListDefinitionId": 875,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 801
     }
   }
 }

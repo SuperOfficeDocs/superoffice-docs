@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Muller-Oberbrunner",
-  "Context": "et"
+  "ProviderName": "Smith, Breitenberg and Hagenes",
+  "Context": "ullam"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Ebert, Krajcik and Sipes",
-    "ToolTip": "Et ipsa.",
+    "Id": 44,
+    "Name": "Marvin LLC",
+    "ToolTip": "Corporis aut harum.",
     "Deleted": false,
-    "Rank": 540,
-    "Type": "eligendi",
+    "Rank": 957,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Jenkins Inc and Sons",
-        "ToolTip": "Aut distinctio.",
-        "Deleted": true,
-        "Rank": 992,
-        "Type": "dolorum",
+        "Id": 12,
+        "Name": "Pagac, Will and Schmidt",
+        "ToolTip": "Quasi nemo suscipit rerum excepturi at doloribus.",
+        "Deleted": false,
+        "Rank": 87,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 333,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "deserunt",
-        "FullName": "Miss Jean Tremblay I",
+        "IconHint": "suscipit",
+        "ColorBlock": 230,
+        "ExtraInfo": "quia",
+        "StyleHint": "velit",
+        "FullName": "Elena Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 946
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "IconHint": "magni",
-    "ColorBlock": 400,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "sunt",
-    "FullName": "Miss Lee Ferry PhD",
+    "IconHint": "nostrum",
+    "ColorBlock": 220,
+    "ExtraInfo": "quidem",
+    "StyleHint": "perferendis",
+    "FullName": "Fabian Raynor Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 792
       }
     }
   }

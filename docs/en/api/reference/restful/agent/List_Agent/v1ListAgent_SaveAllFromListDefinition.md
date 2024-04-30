@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 954,
+  "UdListDefinitionId": 280,
   "Items": [
     {
-      "Id": 951,
-      "Name": "Koepp, Hettinger and Schuppe",
-      "Tooltip": "perspiciatis",
+      "Id": 899,
+      "Name": "Johnson, Reichel and Heaney",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 253,
-      "Rank": 198
+      "UdListDefinitionId": 134,
+      "Rank": 461
     },
     {
-      "Id": 951,
-      "Name": "Koepp, Hettinger and Schuppe",
-      "Tooltip": "perspiciatis",
+      "Id": 899,
+      "Name": "Johnson, Reichel and Heaney",
+      "Tooltip": "qui",
       "Deleted": false,
-      "UdListDefinitionId": 253,
-      "Rank": 198
+      "UdListDefinitionId": 134,
+      "Rank": 461
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Pacocha-Reichel",
-    "Tooltip": "placeat",
+    "Id": 542,
+    "Name": "Hirthe-Strosin",
+    "Tooltip": "unde",
     "Deleted": false,
-    "UdListDefinitionId": 640,
-    "Rank": 554,
+    "UdListDefinitionId": 395,
+    "Rank": 246,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 755
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=aut
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=ea
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Stoltenberg, Stokes and Padberg",
-    "ToolTip": "Velit quo quisquam non.",
+    "Id": 117,
+    "Name": "Hills-Dickens",
+    "ToolTip": "Magnam debitis.",
     "Deleted": false,
-    "Rank": 491,
-    "Type": "quaerat",
+    "Rank": 752,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "O'Keefe LLC",
-        "ToolTip": "Commodi quam eos aut pariatur id rem aliquam.",
-        "Deleted": true,
-        "Rank": 2,
-        "Type": "quis",
+        "Id": 928,
+        "Name": "Thompson LLC",
+        "ToolTip": "Incidunt officia iste.",
+        "Deleted": false,
+        "Rank": 337,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 471,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "et",
-        "FullName": "Carrie Toy",
+        "IconHint": "autem",
+        "ColorBlock": 118,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "ea",
+        "FullName": "General Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 678
+            "FieldType": "System.Int32",
+            "FieldLength": 338
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 193,
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "aliquid",
-    "FullName": "Elody Lueilwitz",
+    "IconHint": "mollitia",
+    "ColorBlock": 925,
+    "ExtraInfo": "provident",
+    "StyleHint": "ipsum",
+    "FullName": "Elyssa Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 636
+        "FieldType": "System.String",
+        "FieldLength": 512
       }
     }
   }

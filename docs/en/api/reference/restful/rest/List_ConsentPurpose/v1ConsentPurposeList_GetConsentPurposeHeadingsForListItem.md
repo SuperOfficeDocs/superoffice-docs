@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Stoltenberg Inc and Sons",
-    "ToolTip": "Accusamus quis voluptas possimus modi dolorem.",
-    "Deleted": true,
-    "Rank": 218,
-    "Type": "et",
-    "ColorBlock": 166,
-    "IconHint": "consequatur",
+    "Id": 287,
+    "Name": "Corwin Inc and Sons",
+    "ToolTip": "Sed molestiae velit voluptatem dolorum.",
+    "Deleted": false,
+    "Rank": 892,
+    "Type": "rerum",
+    "ColorBlock": 685,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "1998-06-24T12:19:54.3522098+02:00",
+    "LastChanged": "2019-06-26T11:44:42.9762901+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Dietrich Inc and Sons",
-        "ToolTip": "Eligendi voluptatem quibusdam.",
+        "Id": 949,
+        "Name": "Murazik Group",
+        "ToolTip": "Nam ex aut non ad culpa.",
         "Deleted": false,
-        "Rank": 185,
-        "Type": "itaque",
-        "ColorBlock": 819,
-        "IconHint": "blanditiis",
+        "Rank": 992,
+        "Type": "nemo",
+        "ColorBlock": 403,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2022-03-24T12:19:54.3522098+01:00",
+        "LastChanged": "2008-11-24T11:44:42.9762901+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "eum",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Miss Mallory Corkery",
+        "FullName": "Shirley Heller DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldType": "System.String",
+            "FieldLength": 783
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "cum",
+    "ExtraInfo": "ad",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Cassandra Sauer",
+    "FullName": "Claude Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldType": "System.String",
+        "FieldLength": 751
       }
     }
   }

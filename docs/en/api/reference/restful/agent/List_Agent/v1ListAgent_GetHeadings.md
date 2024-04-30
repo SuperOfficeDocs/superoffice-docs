@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 954,
-  "ListItemId": 981,
-  "ShowDeleted": true
+  "UdListDefinitionId": 107,
+  "ListItemId": 939,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Howell-Nader",
-    "ToolTip": "Facilis accusantium harum.",
+    "Id": 598,
+    "Name": "Larkin, Ullrich and Cartwright",
+    "ToolTip": "Suscipit dicta dignissimos veniam.",
     "Deleted": true,
-    "Rank": 711,
-    "Type": "qui",
-    "ColorBlock": 337,
-    "IconHint": "voluptas",
+    "Rank": 135,
+    "Type": "veniam",
+    "ColorBlock": 168,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2015-09-15T12:19:45.4922171+02:00",
+    "LastChanged": "2017-04-30T11:44:33.8534097+02:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Kunde, Fritsch and Morissette",
-        "ToolTip": "Quae quo itaque totam tenetur sunt delectus porro.",
-        "Deleted": false,
-        "Rank": 934,
-        "Type": "consequatur",
-        "ColorBlock": 531,
-        "IconHint": "laborum",
+        "Id": 121,
+        "Name": "Ward-Wisozk",
+        "ToolTip": "Sit nobis.",
+        "Deleted": true,
+        "Rank": 606,
+        "Type": "iusto",
+        "ColorBlock": 979,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2004-12-23T12:19:45.4922171+01:00",
+        "LastChanged": "2010-02-28T11:44:33.8534097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "explicabo",
-        "Hidden": true,
-        "FullName": "Rahul Cronin",
+        "ExtraInfo": "vel",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Jaquan VonRueden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 560
+            "FieldType": "System.Int32",
+            "FieldLength": 874
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "quos",
+    "ExtraInfo": "omnis",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Raven Beatty",
+    "FullName": "Stephania Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 740
       }
     }
   }

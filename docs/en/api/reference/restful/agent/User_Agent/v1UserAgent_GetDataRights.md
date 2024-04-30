@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 2,
-  "TableName": "Kemmer Group"
+  "RoleId": 476,
+  "TableName": "Lind-Kuvalis"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "impedit",
-  "2": "est"
+  "1": "omnis",
+  "2": "possimus"
 }
 ```

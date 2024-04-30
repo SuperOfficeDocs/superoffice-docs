@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "laudantium",
-  "PercentBigger": 711,
-  "IsoLangCode": "est"
+  "Text": "ratione",
+  "PercentBigger": 732,
+  "IsoLangCode": "nam"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"voluptates"
 ```

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 346
+  "PrefDescId": 128
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 328,
-    "PrefDescId": 69,
-    "PrefValue": "voluptates",
-    "PrefShowValue": "impedit",
-    "Description": "Up-sized global project",
+    "PrefDescLineId": 413,
+    "PrefDescId": 530,
+    "PrefValue": "rerum",
+    "PrefShowValue": "ducimus",
+    "Description": "Upgradable actuating extranet",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 935
       }
     }
   }

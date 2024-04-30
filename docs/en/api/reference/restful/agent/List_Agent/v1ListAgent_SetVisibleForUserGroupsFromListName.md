@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bode Group",
-  "ListItemId": 36,
+  "UdListDefinitionName": "Langworth Group",
+  "ListItemId": 915,
   "UserGroups": [
     {
-      "Id": 930,
-      "Name": "Goyette-Schaden",
-      "ToolTip": "Dolores et harum autem.",
+      "Id": 24,
+      "Name": "Kunze, O'Keefe and O'Connell",
+      "ToolTip": "Et vel ea quia et magni.",
       "Deleted": true,
-      "Rank": 127,
-      "Type": "labore",
-      "ColorBlock": 244,
-      "IconHint": "quibusdam",
+      "Rank": 422,
+      "Type": "qui",
+      "ColorBlock": 338,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2012-10-16T12:19:45.4922171+02:00",
+      "LastChanged": "2005-11-07T11:44:33.8377919+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "excepturi",
-      "Hidden": false,
-      "FullName": "Addie Walker MD"
+      "ExtraInfo": "nam",
+      "StyleHint": "dicta",
+      "Hidden": true,
+      "FullName": "Natasha Pagac"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Denesik-Hills",
-    "ToolTip": "Et et.",
+    "Id": 873,
+    "Name": "Mertz-Rutherford",
+    "ToolTip": "Mollitia aut ad possimus ea perferendis magni omnis.",
     "Deleted": true,
-    "Rank": 17,
-    "Type": "iure",
-    "ColorBlock": 59,
-    "IconHint": "sint",
+    "Rank": 497,
+    "Type": "corporis",
+    "ColorBlock": 56,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2014-02-10T12:19:45.4922171+01:00",
+    "LastChanged": "2006-12-05T11:44:33.8377919+01:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Hilll-Kuhlman",
-        "ToolTip": "Occaecati recusandae explicabo et velit quo ad.",
+        "Id": 935,
+        "Name": "Stroman Group",
+        "ToolTip": "Exercitationem at quas aperiam.",
         "Deleted": false,
-        "Rank": 757,
-        "Type": "voluptas",
-        "ColorBlock": 841,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2005-05-09T12:19:45.4922171+02:00",
+        "Rank": 286,
+        "Type": "doloribus",
+        "ColorBlock": 685,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2009-10-08T11:44:33.8377919+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "earum",
+        "StyleHint": "accusamus",
         "Hidden": true,
-        "FullName": "Addison Schmidt",
+        "FullName": "Miss Demetrius Yolanda Walker I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldType": "System.String",
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "est",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Mr. Rigoberto Titus Hammes",
+    "FullName": "Landen Robin Quitzon Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldType": "System.Int32",
+        "FieldLength": 924
       }
     }
   }

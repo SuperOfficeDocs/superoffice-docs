@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Heller, McGlynn and Gleason",
-    "ToolTip": "Molestias velit inventore sunt eius vero neque.",
-    "Deleted": true,
-    "Rank": 209,
-    "Type": "quas",
-    "ColorBlock": 71,
-    "IconHint": "beatae",
+    "Id": 214,
+    "Name": "Shields LLC",
+    "ToolTip": "Officia consequatur.",
+    "Deleted": false,
+    "Rank": 734,
+    "Type": "ex",
+    "ColorBlock": 765,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2023-12-04T12:19:54.8208379+01:00",
+    "LastChanged": "2023-03-22T11:44:43.3043478+01:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "McLaughlin Group",
-        "ToolTip": "Quo est molestiae harum.",
-        "Deleted": true,
-        "Rank": 638,
-        "Type": "quaerat",
-        "ColorBlock": 542,
-        "IconHint": "distinctio",
+        "Id": 15,
+        "Name": "Smitham-Beier",
+        "ToolTip": "Mollitia ex.",
+        "Deleted": false,
+        "Rank": 1000,
+        "Type": "quo",
+        "ColorBlock": 332,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "1998-01-22T12:19:54.8208379+01:00",
+        "LastChanged": "2017-03-12T11:44:43.3043478+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Isobel Reilly",
+        "ExtraInfo": "quo",
+        "StyleHint": "ipsa",
+        "Hidden": false,
+        "FullName": "Ms. Madonna Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 687
+            "FieldType": "System.String",
+            "FieldLength": 677
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ms. Brian Thiel Jr.",
+    "FullName": "Rosina Torp II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldType": "System.String",
+        "FieldLength": 311
       }
     }
   }

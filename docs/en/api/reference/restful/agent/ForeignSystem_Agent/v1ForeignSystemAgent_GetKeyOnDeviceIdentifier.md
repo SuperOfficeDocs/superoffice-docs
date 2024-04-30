@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bailey-Flatley",
-  "DeviceName": "Quitzon-Strosin",
-  "DeviceIdentifier": "sed",
-  "KeyName": "Christiansen-Parker",
-  "TableName": "Berge-Mills",
-  "RecordId": 387
+  "ApplicationName": "Casper Group",
+  "DeviceName": "Balistreri-Kiehn",
+  "DeviceIdentifier": "alias",
+  "KeyName": "Nicolas-Mayer",
+  "TableName": "Farrell, Bernhard and Bogan",
+  "RecordId": 719
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aliquam",
-  "Value": "totam",
-  "RecordId": 498,
-  "CreatedDate": "2004-11-09T12:19:45.4141069+01:00",
-  "UpdatedDate": "2014-03-26T12:19:45.4141069+01:00",
-  "UpdatedBy": "velit",
-  "CreatedBy": "architecto",
-  "TableName": "Goyette Group",
+  "Key": "hic",
+  "Value": "blanditiis",
+  "RecordId": 6,
+  "CreatedDate": "2011-02-08T11:44:33.7596833+01:00",
+  "UpdatedDate": "2010-02-17T11:44:33.7596833+01:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "aperiam",
+  "TableName": "Hilll LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

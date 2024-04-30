@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 845,
-  "Name": "Prosacco, Kertzmann and Koch",
-  "Tooltip": "pariatur",
-  "Rank": 845,
-  "Key": "qui",
+  "LegalBaseId": 39,
+  "Name": "Moore LLC",
+  "Tooltip": "voluptate",
+  "Rank": 31,
+  "Key": "laudantium",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldLength": 838
     }
   }
 }

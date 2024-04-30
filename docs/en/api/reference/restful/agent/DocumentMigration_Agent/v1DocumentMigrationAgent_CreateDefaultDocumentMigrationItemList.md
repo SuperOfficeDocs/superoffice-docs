@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 34,
-  "NumDocumentsAlreadyMigrated": 274,
+  "NumDocumentsOmitted": 137,
+  "NumDocumentsAlreadyMigrated": 321,
   "Documents": [
     {
-      "DocumentId": 392,
-      "ContactId": 506,
-      "PersonId": 209,
-      "SaleId": 140,
-      "ProjectId": 427,
-      "DocTmplId": 156,
-      "AssociateId": 452,
-      "UserGroupId": 141,
-      "VisibleForId": 115
+      "DocumentId": 755,
+      "ContactId": 741,
+      "PersonId": 292,
+      "SaleId": 792,
+      "ProjectId": 989,
+      "DocTmplId": 785,
+      "AssociateId": 101,
+      "UserGroupId": 831,
+      "VisibleForId": 825
     }
   ],
   "Associates": [
     {
-      "AssociateId": 807,
-      "EmailAddress": "domingo@lind.us"
+      "AssociateId": 883,
+      "EmailAddress": "candelario.hahn@hermanntrantow.info"
     },
     {
-      "AssociateId": 807,
-      "EmailAddress": "domingo@lind.us"
+      "AssociateId": 883,
+      "EmailAddress": "candelario.hahn@hermanntrantow.info"
     }
   ]
 }

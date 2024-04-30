@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/FreeText/GetStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,16 +84,16 @@ Content-Type: application/json; charset=utf-8
   "FreeTextEnabled": true,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 590,
-  "Occurrences": 751,
-  "LastGenerated": "2004-05-18T12:19:45.4297292+02:00",
-  "AutoEnableTravelAreas": true,
+  "CountWords": 736,
+  "Occurrences": 54,
+  "LastGenerated": "2009-05-25T11:44:33.7753083+02:00",
+  "AutoEnableTravelAreas": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 792
     }
   }
 }

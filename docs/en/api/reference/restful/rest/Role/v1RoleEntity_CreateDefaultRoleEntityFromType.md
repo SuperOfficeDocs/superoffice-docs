@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 948,
-  "Name": "Hand, Quitzon and Lakin",
-  "Tooltip": "non",
+  "RoleId": 368,
+  "Name": "Blanda, Pfeffer and Turner",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 256,
-  "Rank": 230,
-  "Created": "2023-12-24T12:19:53.8054479+01:00",
-  "UseCategories": 806,
+  "Deleted": 705,
+  "Rank": 385,
+  "Created": "2008-06-18T11:44:42.2264732+02:00",
+  "UseCategories": 653,
   "CreatedBy": null,
-  "Updated": "2017-03-14T12:19:53.8054479+01:00",
+  "Updated": "2011-09-28T11:44:42.2264732+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 574
     }
   }
 }

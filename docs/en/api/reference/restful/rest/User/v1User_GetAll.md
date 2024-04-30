@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=voluptas
-GET /api/v1/User?$top=169
-GET /api/v1/User?$skip=182
+GET /api/v1/User?$entities=aut
+GET /api/v1/User?$top=783
+GET /api/v1/User?$skip=366
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=expedita
+GET /api/v1/User?$context=necessitatibus
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "iusto",
   "value": [
     {
-      "PrimaryKey": 812,
+      "PrimaryKey": 3482,
       "EntityName": "sale",
-      "saleId": 812,
-      "contactId": 2701,
-      "name": "Bogisich Group"
+      "saleId": 3482,
+      "contactId": 6488,
+      "name": "Purdy LLC"
     },
     {
-      "PrimaryKey": 4776,
+      "PrimaryKey": 8489,
       "EntityName": "sale",
-      "saleId": 4776,
-      "contactId": 5354,
-      "name": "Pfeffer, Quigley and Littel"
+      "saleId": 8489,
+      "contactId": 1529,
+      "name": "Hand-Jacobs"
     }
   ]
 }

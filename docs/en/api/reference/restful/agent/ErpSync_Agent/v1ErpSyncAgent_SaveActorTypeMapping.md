@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 185,
+  "ErpConnectionId": 257,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 442,
-      "CrmFieldKey": "ut",
-      "CrmDisplayName": "Cormier Group",
-      "CrmDisplayTooltip": "alias",
-      "ErpFieldKey": "optio",
+      "ErpFieldId": 905,
+      "CrmFieldKey": "commodi",
+      "CrmDisplayName": "Barton LLC",
+      "CrmDisplayTooltip": "reprehenderit",
+      "ErpFieldKey": "nobis",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Mueller-Mosciski",
-      "ErpDisplayTooltip": "sint",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Dibbert, Bode and Sawayn",
+      "ErpDisplayTooltip": "eligendi",
+      "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "illum",
+      "ListReference": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 870
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 877
     }
   }
 }

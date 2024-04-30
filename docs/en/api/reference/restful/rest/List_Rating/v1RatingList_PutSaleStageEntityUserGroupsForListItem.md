@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Reichert-Mann",
-    "ToolTip": "Possimus natus.",
+    "Id": 877,
+    "Name": "Greenfelder-Nitzsche",
+    "ToolTip": "At quibusdam eveniet quasi nihil est.",
     "Deleted": false,
-    "Rank": 708,
-    "Type": "occaecati",
-    "ColorBlock": 614,
-    "IconHint": "reiciendis",
+    "Rank": 801,
+    "Type": "nihil",
+    "ColorBlock": 638,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2007-03-04T12:19:54.789597+01:00",
+    "LastChanged": "2000-04-12T11:44:43.2731075+02:00",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Powlowski-Reichert",
-        "ToolTip": "Fugit occaecati.",
+        "Id": 878,
+        "Name": "Kirlin LLC",
+        "ToolTip": "Pariatur beatae.",
         "Deleted": false,
-        "Rank": 987,
-        "Type": "sint",
-        "ColorBlock": 15,
-        "IconHint": "qui",
+        "Rank": 243,
+        "Type": "dolores",
+        "ColorBlock": 543,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2015-12-27T12:19:54.789597+01:00",
+        "LastChanged": "2006-09-09T11:44:43.2731075+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
+        "ExtraInfo": "sed",
         "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mrs. Adolf Metz"
+        "Hidden": true,
+        "FullName": "Dr. Hailie Francisco Medhurst"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "illum",
+    "ExtraInfo": "in",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Prof. Brady Roob II"
+    "FullName": "Loyce Considine"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Hamill Inc and Sons",
-    "ToolTip": "Quod labore nulla ipsam.",
+    "Id": 562,
+    "Name": "Schaefer Group",
+    "ToolTip": "Dolorum nisi alias est expedita sapiente.",
     "Deleted": false,
-    "Rank": 290,
-    "Type": "aut",
-    "ColorBlock": 171,
-    "IconHint": "fuga",
+    "Rank": 750,
+    "Type": "soluta",
+    "ColorBlock": 982,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2014-05-21T12:19:54.789597+02:00",
+    "LastChanged": "2001-03-07T11:44:43.2731075+01:00",
     "ChildItems": [
       {
-        "Id": 395,
-        "Name": "Bayer LLC",
-        "ToolTip": "Ipsam consectetur.",
-        "Deleted": false,
-        "Rank": 168,
-        "Type": "et",
-        "ColorBlock": 627,
-        "IconHint": "veniam",
+        "Id": 1002,
+        "Name": "Shanahan LLC",
+        "ToolTip": "Illum et omnis dolore et quae voluptatem ut.",
+        "Deleted": true,
+        "Rank": 233,
+        "Type": "iste",
+        "ColorBlock": 247,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2023-11-12T12:19:54.789597+01:00",
+        "LastChanged": "2007-08-12T11:44:43.2731075+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Mrs. Dawson Katrina Beer MD",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Mafalda Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldLength": 947
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "a",
-    "Hidden": false,
-    "FullName": "Ms. Darron Jaclyn Jast Jr.",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "perferendis",
+    "Hidden": true,
+    "FullName": "Elvis Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 80
       }
     }
   }

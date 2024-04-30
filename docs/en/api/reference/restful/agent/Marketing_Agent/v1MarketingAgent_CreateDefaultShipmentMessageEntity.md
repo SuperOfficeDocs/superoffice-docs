@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 293,
-  "PlainMessage": "rerum",
-  "HtmlMessage": "aut",
-  "SmsMessage": "rem",
-  "Description": "Multi-channelled local projection",
-  "Subject": "quos",
-  "FolderId": 909,
-  "HeaderField": "sint",
-  "Design": "qui",
+  "ShipmentMessageId": 443,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "vitae",
+  "SmsMessage": "ex",
+  "Description": "De-engineered secondary implementation",
+  "Subject": "labore",
+  "FolderId": 502,
+  "HeaderField": "error",
+  "Design": "cumque",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Inverse 3rd generation budgetary management",
-  "AccessKey": "voluptatibus",
-  "DocumentMessage": 28,
-  "Registered": "1997-11-12T12:19:45.585943+01:00",
-  "RegisteredAssociateId": 515,
-  "Updated": "2017-05-24T12:19:45.585943+02:00",
-  "UpdatedAssociateId": 796,
-  "UpdatedCount": 343,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Team-oriented didactic ability",
+  "AccessKey": "atque",
+  "DocumentMessage": 114,
+  "Registered": "2002-09-19T11:44:33.9315193+02:00",
+  "RegisteredAssociateId": 416,
+  "Updated": "2021-03-06T11:44:33.9315193+01:00",
+  "UpdatedAssociateId": 582,
+  "UpdatedCount": 201,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

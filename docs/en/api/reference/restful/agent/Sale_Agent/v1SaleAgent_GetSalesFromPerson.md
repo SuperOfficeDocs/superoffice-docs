@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 463,
-  "OnlyOpenSales": true
+  "PersonId": 608,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Langworth, Morissette and Borer",
-    "SaleDate": "2015-01-10T12:19:46.210807+01:00",
-    "SaleId": 107,
-    "Probability": 313,
-    "Title": "voluptatibus",
-    "Amount": 13573.354,
-    "Currency": "magnam",
-    "ProjectName": "Harvey Inc and Sons",
-    "AssociateFullName": "Celia Gulgowski",
-    "Description": "Multi-layered client-driven open system",
+    "ContactName": "Zieme, Farrell and Effertz",
+    "SaleDate": "2006-09-24T11:44:34.4001629+02:00",
+    "SaleId": 281,
+    "Probability": 635,
+    "Title": "ea",
+    "Amount": 2334.83,
+    "Currency": "doloremque",
+    "ProjectName": "Champlin, Stokes and Deckow",
+    "AssociateFullName": "Gilbert Gerardo Stark DDS",
+    "Description": "Mandatory dynamic knowledge user",
     "Status": "Lost",
-    "WeightedAmount": 29550.486,
-    "ProjectId": 557,
-    "EarningPercent": 7772.32,
-    "Earning": 27867.528,
-    "ContactId": 696,
-    "AssociateId": 381,
-    "PersonId": 206,
-    "SaleTypeId": 487,
-    "SaleTypeName": "Hagenes-Ward",
-    "PersonFullName": "Lucious Blanda",
+    "WeightedAmount": 10592.92,
+    "ProjectId": 405,
+    "EarningPercent": 12517.196,
+    "Earning": 4791.8859999999995,
+    "ContactId": 108,
+    "AssociateId": 972,
+    "PersonId": 308,
+    "SaleTypeId": 184,
+    "SaleTypeName": "Abshire-Kihn",
+    "PersonFullName": "Yazmin Kuhlman III",
     "Completed": "Completed",
-    "ActiveErpLinks": 481,
-    "NextDueDate": "2008-04-11T12:19:46.210807+02:00",
-    "Number": "294255",
+    "ActiveErpLinks": 454,
+    "NextDueDate": "2001-08-23T11:44:34.4001629+02:00",
+    "Number": "274353",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldType": "System.String",
+        "FieldLength": 617
       }
     }
   }

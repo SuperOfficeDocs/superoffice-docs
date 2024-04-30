@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Pfannerstill-Bartell",
-  "Tooltip": "aliquam",
+  "Id": 374,
+  "Name": "Littel LLC",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 813,
-  "IsCustomList": false,
+  "Rank": 443,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false
+  "ListType": "eum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 389,
-  "Name": "Emmerich-Toy",
-  "Tooltip": "nobis",
+  "Id": 704,
+  "Name": "Block-Crooks",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 414,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 158,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 690
     }
   }
 }

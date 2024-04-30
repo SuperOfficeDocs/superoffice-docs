@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 499,
-  "StartTime": "1997-03-13T12:19:45.0860733+01:00",
-  "EndTime": "2013-12-12T12:19:45.0860733+01:00",
-  "Count": 309,
-  "TemplateHeadingId": 596
+  "ProjectId": 790,
+  "StartTime": "1997-12-31T11:44:33.431628+01:00",
+  "EndTime": "2000-09-10T11:44:33.431628+02:00",
+  "Count": 550,
+  "TemplateHeadingId": 711
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 44,
-    "Attention": "ut",
-    "Header": "rerum",
-    "Name": "Schaefer, Simonis and Roob",
-    "OurRef": "ullam",
-    "YourRef": "iusto",
-    "Description": "Managed systematic productivity",
-    "DocumentTemplate": "velit",
-    "IsPublished": false,
-    "PersonId": 316,
-    "PersonFullName": "Mackenzie Powlowski",
-    "AssociateFullName": "Eleanora Zulauf",
-    "ContactId": 45,
-    "ContactName": "Tremblay LLC",
-    "ProjectId": 545,
-    "ProjectName": "Lubowitz Group",
-    "AssociateId": 702,
-    "Snum": 956,
-    "SaleId": 697,
-    "SaleName": "Mitchell, Marquardt and Wilkinson",
+    "DocumentId": 429,
+    "Attention": "eum",
+    "Header": "deleniti",
+    "Name": "Graham-Wolff",
+    "OurRef": "suscipit",
+    "YourRef": "dolores",
+    "Description": "Centralized foreground time-frame",
+    "DocumentTemplate": "totam",
+    "IsPublished": true,
+    "PersonId": 52,
+    "PersonFullName": "Miss Judd Buckridge",
+    "AssociateFullName": "King Olson",
+    "ContactId": 66,
+    "ContactName": "Douglas, Rohan and Ankunding",
+    "ProjectId": 992,
+    "ProjectName": "Monahan, Walker and Lynch",
+    "AssociateId": 814,
+    "Snum": 175,
+    "SaleId": 946,
+    "SaleName": "Kiehn, Kessler and Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 917
       }
     }
   }

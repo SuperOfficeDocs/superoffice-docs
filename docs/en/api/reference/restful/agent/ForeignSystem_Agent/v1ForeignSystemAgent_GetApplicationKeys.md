@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gibson Group"
+  "ApplicationName": "Blanda, Wiegand and Dickinson"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "vel",
-    "Value": "exercitationem",
-    "RecordId": 6,
-    "CreatedDate": "2015-04-26T12:19:45.4297292+02:00",
-    "UpdatedDate": "2013-03-29T12:19:45.4297292+01:00",
-    "UpdatedBy": "vel",
+    "Key": "odit",
+    "Value": "nemo",
+    "RecordId": 612,
+    "CreatedDate": "2022-04-13T11:44:33.7753083+02:00",
+    "UpdatedDate": "2019-11-29T11:44:33.7753083+01:00",
+    "UpdatedBy": "ipsum",
     "CreatedBy": "quas",
-    "TableName": "Luettgen, Schroeder and Blick",
+    "TableName": "Wilderman-Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 621
+        "FieldLength": 316
       }
     }
   }

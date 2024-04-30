@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 105,
-      "DisplayName": "Bode Inc and Sons",
-      "OngoingChats": 945,
+      "UserId": 922,
+      "DisplayName": "Stracke, Fadel and Russel",
+      "OngoingChats": 254,
       "Present": true,
       "ChatTopics": [
-        520,
-        141
+        800,
+        25
       ]
     },
     {
-      "UserId": 105,
-      "DisplayName": "Bode Inc and Sons",
-      "OngoingChats": 945,
+      "UserId": 922,
+      "DisplayName": "Stracke, Fadel and Russel",
+      "OngoingChats": 254,
       "Present": true,
       "ChatTopics": [
-        520,
-        141
+        800,
+        25
       ]
     }
   ]

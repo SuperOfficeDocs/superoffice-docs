@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 312
+  "Count": 523
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hand-Grady",
-    "SaleDate": "2006-01-27T12:19:46.210807+01:00",
-    "SaleId": 292,
-    "Probability": 674,
-    "Title": "sed",
-    "Amount": 1673.556,
-    "Currency": "aut",
-    "ProjectName": "Adams LLC",
-    "AssociateFullName": "Yesenia Rippin",
-    "Description": "Compatible scalable analyzer",
+    "ContactName": "Stracke Inc and Sons",
+    "SaleDate": "2011-09-17T11:44:34.4001629+02:00",
+    "SaleId": 284,
+    "Probability": 30,
+    "Title": "deserunt",
+    "Amount": 6888.532,
+    "Currency": "reprehenderit",
+    "ProjectName": "O'Conner, O'Keefe and Brakus",
+    "AssociateFullName": "Abraham Lakin",
+    "Description": "Sharable didactic database",
     "Status": "Lost",
-    "WeightedAmount": 30055.059999999998,
-    "ProjectId": 583,
-    "EarningPercent": 14055.99,
-    "Earning": 1908.606,
-    "ContactId": 781,
-    "AssociateId": 304,
-    "PersonId": 83,
-    "SaleTypeId": 523,
-    "SaleTypeName": "Jacobs-Dickinson",
-    "PersonFullName": "Mrs. Glenda Hettie Rice III",
+    "WeightedAmount": 27939.61,
+    "ProjectId": 838,
+    "EarningPercent": 15789.091999999999,
+    "Earning": 7449.518,
+    "ContactId": 670,
+    "AssociateId": 641,
+    "PersonId": 790,
+    "SaleTypeId": 58,
+    "SaleTypeName": "Kling Inc and Sons",
+    "PersonFullName": "Tressa McCullough",
     "Completed": "Completed",
-    "ActiveErpLinks": 284,
-    "NextDueDate": "1999-09-28T12:19:46.210807+02:00",
-    "Number": "667340",
+    "ActiveErpLinks": 844,
+    "NextDueDate": "2020-03-09T11:44:34.4001629+01:00",
+    "Number": "773239",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 976
       }
     }
   }

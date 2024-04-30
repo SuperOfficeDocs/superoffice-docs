@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 491
+  "TemplateHeadingId": 357
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 56,
-    "Attention": "vitae",
-    "Header": "esse",
-    "Name": "Dibbert LLC",
-    "OurRef": "amet",
-    "YourRef": "eligendi",
-    "Description": "Open-architected directional initiative",
-    "DocumentTemplate": "cum",
+    "DocumentId": 316,
+    "Attention": "velit",
+    "Header": "odit",
+    "Name": "Schneider LLC",
+    "OurRef": "corrupti",
+    "YourRef": "laudantium",
+    "Description": "Organic leading edge approach",
+    "DocumentTemplate": "asperiores",
     "IsPublished": false,
-    "PersonId": 829,
-    "PersonFullName": "Adolph Farrell",
-    "AssociateFullName": "Dr. Gardner Mills Sr.",
-    "ContactId": 666,
-    "ContactName": "Morissette Group",
-    "ProjectId": 297,
-    "ProjectName": "Gusikowski, Grady and Tillman",
-    "AssociateId": 984,
-    "Snum": 213,
-    "SaleId": 120,
-    "SaleName": "Tillman, Aufderhar and Johnston",
+    "PersonId": 865,
+    "PersonFullName": "Mr. Emily Hagenes Jr.",
+    "AssociateFullName": "Mrs. Ellen Balistreri",
+    "ContactId": 637,
+    "ContactName": "Hahn, Leffler and Ferry",
+    "ProjectId": 955,
+    "ProjectName": "Daugherty, Schmeler and Morar",
+    "AssociateId": 590,
+    "Snum": 690,
+    "SaleId": 938,
+    "SaleName": "Steuber-Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 724
       }
     }
   }

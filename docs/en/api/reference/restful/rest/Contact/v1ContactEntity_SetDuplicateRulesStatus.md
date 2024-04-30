@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goldner, Upton and Keebler",
-    "DisplayName": "Gleichner, Harris and Blanda",
-    "DisplayTooltip": "omnis",
+    "Name": "Osinski, Kling and Streich",
+    "DisplayName": "Zulauf LLC",
+    "DisplayTooltip": "ex",
     "IsActive": true
   },
   {
-    "Name": "Goldner, Upton and Keebler",
-    "DisplayName": "Gleichner, Harris and Blanda",
-    "DisplayTooltip": "omnis",
+    "Name": "Osinski, Kling and Streich",
+    "DisplayName": "Zulauf LLC",
+    "DisplayTooltip": "ex",
     "IsActive": true
   }
 ]

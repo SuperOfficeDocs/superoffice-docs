@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=399
+GET /api/v1/Contact/{contactId}/Summary?limit=657
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 30,
-      "TicketStatus": 817,
-      "Title": "doloribus",
-      "Registered": "2011-01-13T12:19:53.2743262+01:00",
-      "IconHint": "iste"
+      "TicketId": 539,
+      "TicketStatus": 285,
+      "Title": "repellendus",
+      "Registered": "2000-08-05T11:44:41.8359334+02:00",
+      "IconHint": "et"
     },
     {
-      "TicketId": 30,
-      "TicketStatus": 817,
-      "Title": "doloribus",
-      "Registered": "2011-01-13T12:19:53.2743262+01:00",
-      "IconHint": "iste"
+      "TicketId": 539,
+      "TicketStatus": 285,
+      "Title": "repellendus",
+      "Registered": "2000-08-05T11:44:41.8359334+02:00",
+      "IconHint": "et"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 505,
-      "DocumentId": 131,
-      "Date": "2006-03-31T12:19:53.2743262+02:00",
-      "Description": "Streamlined tertiary local area network",
+      "AppointmentId": 557,
+      "DocumentId": 403,
+      "Date": "2014-09-13T11:44:41.8359334+02:00",
+      "Description": "Seamless exuding hardware",
       "Completed": "Completed",
-      "Registered": "2010-12-07T12:19:53.2743262+01:00"
+      "Registered": "2005-06-24T11:44:41.8359334+02:00"
     },
     {
-      "AppointmentId": 505,
-      "DocumentId": 131,
-      "Date": "2006-03-31T12:19:53.2743262+02:00",
-      "Description": "Streamlined tertiary local area network",
+      "AppointmentId": 557,
+      "DocumentId": 403,
+      "Date": "2014-09-13T11:44:41.8359334+02:00",
+      "Description": "Seamless exuding hardware",
       "Completed": "Completed",
-      "Registered": "2010-12-07T12:19:53.2743262+01:00"
+      "Registered": "2005-06-24T11:44:41.8359334+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 913,
-      "DocumentId": 179,
-      "Date": "2004-08-05T12:19:53.2743262+02:00",
-      "Description": "Object-based static circuit",
+      "AppointmentId": 663,
+      "DocumentId": 577,
+      "Date": "2018-01-26T11:44:41.8359334+01:00",
+      "Description": "Optimized grid-enabled artificial intelligence",
       "Completed": "Completed",
-      "Registered": "2023-12-02T12:19:53.2743262+01:00"
+      "Registered": "2007-06-15T11:44:41.8359334+02:00"
     },
     {
-      "AppointmentId": 913,
-      "DocumentId": 179,
-      "Date": "2004-08-05T12:19:53.2743262+02:00",
-      "Description": "Object-based static circuit",
+      "AppointmentId": 663,
+      "DocumentId": 577,
+      "Date": "2018-01-26T11:44:41.8359334+01:00",
+      "Description": "Optimized grid-enabled artificial intelligence",
       "Completed": "Completed",
-      "Registered": "2023-12-02T12:19:53.2743262+01:00"
+      "Registered": "2007-06-15T11:44:41.8359334+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 66,
-      "SaleDate": "2018-09-06T12:19:53.2743262+02:00",
-      "Probability": 70,
-      "Heading": "corrupti",
-      "Amount": 9555.5659999999989,
-      "Currency": "aut",
-      "AmountInBaseCurrency": 3312.638,
+      "SaleId": 917,
+      "SaleDate": "2015-06-01T11:44:41.8359334+02:00",
+      "Probability": 28,
+      "Heading": "beatae",
+      "Amount": 23602.154,
+      "Currency": "ad",
+      "AmountInBaseCurrency": 13711.25,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2004-02-03T12:19:53.2743262+01:00"
+      "Registered": "2013-05-03T11:44:41.8359334+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 320,
-      "Name": "Roberts, Zemlak and Romaguera",
-      "CompanyName": "Collins-Schuster",
-      "FirstMessage": "voluptate",
-      "LastMessage": "qui",
-      "WhenRequested": "2004-03-20T12:19:53.2743262+01:00",
-      "WhenEnded": "2001-04-09T12:19:53.2743262+02:00"
+      "ChatSessionId": 891,
+      "Name": "Lehner Inc and Sons",
+      "CompanyName": "Hermann LLC",
+      "FirstMessage": "veritatis",
+      "LastMessage": "libero",
+      "WhenRequested": "2020-05-19T11:44:41.8359334+02:00",
+      "WhenEnded": "2008-09-01T11:44:41.8359334+02:00"
     }
   ]
 }

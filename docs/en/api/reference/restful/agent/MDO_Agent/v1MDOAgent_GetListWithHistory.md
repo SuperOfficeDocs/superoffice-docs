@@ -92,14 +92,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Blanda, Pollich and Nikolaus",
-  "ForceFlatList": false,
-  "AdditionalInfo": "praesentium",
+  "Name": "Rice, Lubowitz and Wintheiser",
+  "ForceFlatList": true,
+  "AdditionalInfo": "omnis",
   "HistoryItems": [
-    550,
-    373
+    599,
+    709
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Hirthe-Hodkiewicz",
-    "ToolTip": "Dignissimos aut voluptatem optio facilis id similique.",
+    "Id": 587,
+    "Name": "Sipes, Sipes and Kuhlman",
+    "ToolTip": "Eligendi et voluptatem facere voluptate voluptatem beatae consequatur.",
     "Deleted": false,
-    "Rank": 124,
-    "Type": "impedit",
+    "Rank": 362,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Konopelski, Jaskolski and Kuhic",
-        "ToolTip": "Quis facilis eligendi officia.",
+        "Id": 528,
+        "Name": "Kreiger, Braun and Altenwerth",
+        "ToolTip": "In inventore ratione et est dolor consequatur consequuntur.",
         "Deleted": false,
-        "Rank": 626,
-        "Type": "aliquid",
+        "Rank": 702,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officiis",
-        "ColorBlock": 61,
-        "ExtraInfo": "iusto",
-        "StyleHint": "dicta",
-        "FullName": "Kaden Auer",
+        "IconHint": "exercitationem",
+        "ColorBlock": 747,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "nihil",
+        "FullName": "Blake Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 613
+            "FieldType": "System.String",
+            "FieldLength": 917
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 941,
-    "ExtraInfo": "itaque",
-    "StyleHint": "minima",
-    "FullName": "Vilma Lang",
+    "IconHint": "consectetur",
+    "ColorBlock": 829,
+    "ExtraInfo": "non",
+    "StyleHint": "ipsum",
+    "FullName": "Amelia Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldLength": 942
       }
     }
   }

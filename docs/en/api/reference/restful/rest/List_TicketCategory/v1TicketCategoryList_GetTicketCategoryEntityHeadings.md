@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 497,
-    "Name": "Gutmann-Monahan",
-    "Tooltip": "et",
+    "HeadingId": 717,
+    "Name": "VonRueden, Strosin and Ward",
+    "Tooltip": "deleniti",
     "Deleted": true,
-    "Rank": 679,
-    "UdListDefinitionId": 437,
+    "Rank": 357,
+    "UdListDefinitionId": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldLength": 440
       }
     }
   }

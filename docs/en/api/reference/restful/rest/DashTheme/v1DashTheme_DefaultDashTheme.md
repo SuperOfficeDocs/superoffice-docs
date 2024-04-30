@@ -62,7 +62,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 404,
-  "Name": "Berge-Bartoletti",
-  "Config": "minus",
-  "Rank": 653,
-  "Client": "exercitationem",
-  "Style": "praesentium",
+  "DashboardThemeId": 900,
+  "Name": "Gorczany, Jacobi and Kuphal",
+  "Config": "dolorem",
+  "Rank": 545,
+  "Client": "consequatur",
+  "Style": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 878
     }
   }
 }

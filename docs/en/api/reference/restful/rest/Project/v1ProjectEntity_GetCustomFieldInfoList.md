@@ -67,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hagenes-Gerlach",
-    "DisplayName": "Koss, Bechtelar and Friesen",
-    "Description": "Secured bandwidth-monitored data-warehouse",
-    "ShortLabel": "eveniet",
+    "FieldName": "Casper Group",
+    "DisplayName": "Watsica, Hackett and Dickens",
+    "Description": "Seamless intangible success",
+    "ShortLabel": "et",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 858,
-    "TemplateVariableName": "Bartoletti Group"
+    "Rank": 669,
+    "TemplateVariableName": "Beier-Bergnaum"
   }
 ]
 ```

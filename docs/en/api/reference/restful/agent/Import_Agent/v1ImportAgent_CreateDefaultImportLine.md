@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 460
+  "CountColumns": 40
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "repudiandae",
-    "quae"
+    "neque",
+    "earum"
   ],
   "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "quia",
+  "ExternalKey": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 479
     }
   }
 }

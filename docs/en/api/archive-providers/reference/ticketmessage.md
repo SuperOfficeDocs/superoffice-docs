@@ -817,7 +817,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/person/hasStoreConsent,ticket/sale/personId,ticket/project/projectAssociate/assocName,person/firstName,person/contactId
+GET /api/v1/archive/TicketMessage?$select=ticket/createdBy/locationAddress,ticket/contact/nameDepartment,ticket/contact/restrictionAddress/zip,ticket/contact/LastCompletedActivity,ticket/sale/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

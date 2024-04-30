@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": false
+  "Children": true
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 695,
+    "HierarchyId": 787,
     "Domain": "Dashboards",
-    "Name": "Jaskolski-Von",
-    "Fullname": "pariatur",
-    "ParentId": 884,
+    "Name": "Spinka Group",
+    "Fullname": "voluptatem",
+    "ParentId": 227,
     "Children": [
       {
-        "HierarchyId": 70,
+        "HierarchyId": 415,
         "Domain": "Dashboards",
-        "Name": "Sanford LLC",
-        "Fullname": "pariatur",
-        "ParentId": 59,
+        "Name": "Medhurst Inc and Sons",
+        "Fullname": "velit",
+        "ParentId": 67,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2007-12-23T12:19:45.5390987+01:00",
-        "RegisteredAssociateId": 448,
-        "Updated": "2011-06-03T12:19:45.5390987+02:00",
-        "UpdatedAssociateId": 770,
+        "Registered": "2004-03-03T11:44:33.8846551+01:00",
+        "RegisteredAssociateId": 63,
+        "Updated": "2001-05-12T11:44:33.8846551+02:00",
+        "UpdatedAssociateId": 419,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 87
+            "FieldType": "System.Int32",
+            "FieldLength": 516
           }
         }
       }
     ],
-    "Registered": "2023-06-02T12:19:45.5390987+02:00",
-    "RegisteredAssociateId": 589,
-    "Updated": "2006-01-18T12:19:45.5390987+01:00",
-    "UpdatedAssociateId": 419,
+    "Registered": "2023-08-06T11:44:33.8846551+02:00",
+    "RegisteredAssociateId": 319,
+    "Updated": "1999-04-08T11:44:33.8846551+02:00",
+    "UpdatedAssociateId": 147,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 56
       }
     }
   }

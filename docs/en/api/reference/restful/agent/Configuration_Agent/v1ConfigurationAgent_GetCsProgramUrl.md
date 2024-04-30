@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "fugit",
-  "ProgramName": "Zieme Inc and Sons",
-  "Action": "enim",
-  "ExtraParameters": "laudantium"
+  "Language": "et",
+  "ProgramName": "Cremin LLC",
+  "Action": "in",
+  "ExtraParameters": "veritatis"
 }
 ```
 

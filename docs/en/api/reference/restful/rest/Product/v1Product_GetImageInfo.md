@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 03 Feb 2011 12:19:54 G2T
+Last-Modified: Mon, 09 Oct 2000 11:44:42 G10T
 
 {
-  "BlobId": 864,
-  "BlobSize": 223,
-  "Description": "Open-architected 24 hour project",
-  "ExtraInfo": "earum",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "minima",
-  "OriginalSize": 283,
-  "CreatedDate": "2005-05-31T12:19:54.149122+02:00",
-  "UpdatedDate": "2011-02-03T12:19:54.149122+01:00",
+  "BlobId": 906,
+  "BlobSize": 422,
+  "Description": "Organic local leverage",
+  "ExtraInfo": "ipsum",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "occaecati",
+  "OriginalSize": 17,
+  "CreatedDate": "2019-04-10T11:44:42.7575951+02:00",
+  "UpdatedDate": "2000-10-09T11:44:42.7575951+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatibus",
+  "ConceptualType": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   }
 }

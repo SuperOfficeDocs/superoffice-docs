@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 142,
-  "PlainMessage": "necessitatibus",
-  "HtmlMessage": "ipsam",
-  "SmsMessage": "doloremque",
-  "Description": "Customizable explicit definition",
-  "Subject": "pariatur",
-  "FolderId": 924,
-  "HeaderField": "aut",
-  "Design": "est",
+  "ShipmentMessageId": 600,
+  "PlainMessage": "distinctio",
+  "HtmlMessage": "modi",
+  "SmsMessage": "quidem",
+  "Description": "Cross-group actuating challenge",
+  "Subject": "in",
+  "FolderId": 254,
+  "HeaderField": "qui",
+  "Design": "repudiandae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Optional client-server pricing structure",
-  "AccessKey": "cumque",
-  "DocumentMessage": 706,
-  "Registered": "2023-01-31T12:19:45.585943+01:00",
-  "RegisteredAssociateId": 261,
-  "Updated": "1998-06-13T12:19:45.585943+02:00",
-  "UpdatedAssociateId": 906,
-  "UpdatedCount": 625
+  "LongDescription": "Persistent neutral product",
+  "AccessKey": "quaerat",
+  "DocumentMessage": 530,
+  "Registered": "2017-12-01T11:44:33.9315193+01:00",
+  "RegisteredAssociateId": 773,
+  "Updated": "2009-09-16T11:44:33.9315193+02:00",
+  "UpdatedAssociateId": 804,
+  "UpdatedCount": 428
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 989,
-  "PlainMessage": "aliquam",
-  "HtmlMessage": "soluta",
-  "SmsMessage": "et",
-  "Description": "Reduced value-added initiative",
-  "Subject": "qui",
-  "FolderId": 878,
-  "HeaderField": "odit",
+  "ShipmentMessageId": 604,
+  "PlainMessage": "consequatur",
+  "HtmlMessage": "ut",
+  "SmsMessage": "veritatis",
+  "Description": "Public-key actuating installation",
+  "Subject": "error",
+  "FolderId": 230,
+  "HeaderField": "dicta",
   "Design": "rerum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Reverse-engineered value-added solution",
-  "AccessKey": "quis",
-  "DocumentMessage": 124,
-  "Registered": "2018-11-06T12:19:45.585943+01:00",
-  "RegisteredAssociateId": 827,
-  "Updated": "2011-12-25T12:19:45.585943+01:00",
-  "UpdatedAssociateId": 844,
-  "UpdatedCount": 76,
+  "LongDescription": "Sharable value-added groupware",
+  "AccessKey": "corporis",
+  "DocumentMessage": 89,
+  "Registered": "2011-03-22T11:44:33.9315193+01:00",
+  "RegisteredAssociateId": 249,
+  "Updated": "2004-11-23T11:44:33.9315193+01:00",
+  "UpdatedAssociateId": 825,
+  "UpdatedCount": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 293
     }
   }
 }

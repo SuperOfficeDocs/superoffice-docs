@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Powlowski-Bradtke",
-  "Tooltip": "ea",
+  "Id": 89,
+  "Name": "Wisozk, Abbott and Padberg",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 868,
-  "Rank": 300,
+  "UdListDefinitionId": 833,
+  "Rank": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

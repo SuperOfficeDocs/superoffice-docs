@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Boyle Group"
+  "TargetTableName": "Welch, Pfeffer and O'Keefe"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured modular groupware",
-  "Postit": "minima",
+  "Description": "Front-line regional encryption",
+  "Postit": "quo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 463,
-  "IncludePerson": 673,
-  "MemberCount": 363,
-  "Name": "Marquardt LLC",
-  "PostitTextId": 221,
-  "CreatedDate": "2009-10-22T12:19:46.2420414+02:00",
-  "SelectionId": 103,
-  "SoundEx": "non",
-  "Source": 856,
-  "TextId": 744,
-  "UpdatedDate": "2015-05-22T12:19:46.2420414+02:00",
-  "UpdatedCount": 397,
-  "Visibility": 436,
+  "GroupIdx": 655,
+  "IncludePerson": 143,
+  "MemberCount": 970,
+  "Name": "Corkery-Wisoky",
+  "PostitTextId": 434,
+  "CreatedDate": "2022-04-30T11:44:34.4470256+02:00",
+  "SelectionId": 569,
+  "SoundEx": "iste",
+  "Source": 840,
+  "TextId": 279,
+  "UpdatedDate": "2011-08-12T11:44:34.4470256+02:00",
+  "UpdatedCount": 285,
+  "Visibility": 668,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 73,
-  "TargetTableName": "Miller-Cremin",
+  "CompanyUnique": true,
+  "TargetTableNumber": 626,
+  "TargetTableName": "Hoppe LLC",
   "Completed": false,
-  "LeftSelectionId": 351,
-  "RightSelectionId": 699,
+  "LeftSelectionId": 380,
+  "RightSelectionId": 554,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Douglas Group",
-  "ShadowProviderName": "Langosh, Herzog and Hagenes",
-  "ChartKey": "eius",
-  "LastLoaded": "2017-03-05T12:19:46.2420414+01:00",
-  "LastLoadedBy": 868,
+  "MainProviderName": "Gottlieb LLC",
+  "ShadowProviderName": "Bradtke, Kautzer and Pollich",
+  "ChartKey": "ullam",
+  "LastLoaded": "2007-04-11T11:44:34.4470256+02:00",
+  "LastLoadedBy": 328,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-04-14T12:19:46.2420414+02:00",
-  "LastMembershipChangeBy": 233,
+  "LastMembershipChange": "2014-09-04T11:44:34.4470256+02:00",
+  "LastMembershipChangeBy": 94,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "amet",
-  "MailingsProviderName": "Hayes, Kuhn and Feil",
-  "DashboardTileDefinitionId": 262,
+  "MainHeading": "possimus",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Stracke, Hartmann and O'Hara",
+  "DashboardTileDefinitionId": 795,
   "VisibleFor": [
     {
-      "VisibleId": 526,
+      "VisibleId": 525,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 527
         }
       }
     },
     {
-      "VisibleId": 526,
+      "VisibleId": 525,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 527
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 365,
-  "Name": "Nader-Adams",
-  "Description": "Visionary dedicated system engine",
-  "WelcomeMessage": "eos",
+  "ChatTopicId": 70,
+  "Name": "Harvey, Rohan and Schimmel",
+  "Description": "Implemented full-range instruction set",
+  "WelcomeMessage": "pariatur",
   "Language": null,
-  "LastAccept": "2014-07-29T12:19:44.5705529+02:00",
-  "SecondsPrAccept": 473,
-  "AlertRecipient": "dolor",
+  "LastAccept": "2007-03-03T11:44:32.8692596+01:00",
+  "SecondsPrAccept": 980,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "qui",
+  "CollectConsent": true,
+  "BadgeHeader": "vero",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eius",
-  "WarnNewChatMinutes": 650,
-  "WarnManagerNewChatMinutes": 226,
-  "TicketEnabled": true,
+  "CustomQueueText": "adipisci",
+  "WarnNewChatMinutes": 875,
+  "WarnManagerNewChatMinutes": 767,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 413,
-  "WarnManagerChatMessageMinutes": 936,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 228,
+  "WarnManagerChatMessageMinutes": 159,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 58,
-  "OfflineFormQueueLength": 741,
+  "OfflineFormTimeLimit": 773,
+  "OfflineFormQueueLength": 883,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "WidgetRatingText": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 543
     }
   }
 }

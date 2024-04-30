@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 822,
-    "Name": "Will Group",
-    "Tooltip": "soluta",
+    "HeadingId": 529,
+    "Name": "Hegmann Group",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "Rank": 979,
-    "UdListDefinitionId": 875,
+    "Rank": 951,
+    "UdListDefinitionId": 730,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

@@ -84,18 +84,18 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Botsford Group",
-  "Tooltip": "occaecati",
+  "Id": 512,
+  "Name": "Sawayn, Strosin and Ortiz",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 579,
-  "IsCustomList": false,
+  "Rank": 987,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "UseGroupsAndHeadings": true,
   "ListType": "voluptatibus",
   "InUseByUserDefinedFields": false
 }
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Kessler, Bruen and Greenfelder",
-  "Tooltip": "saepe",
-  "Deleted": false,
-  "Rank": 373,
+  "Id": 733,
+  "Name": "Hagenes-Windler",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 494,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tenetur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 386
     }
   }
 }

@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 209,
-  "Created": "2007-12-13T12:19:46.1326875+01:00",
+  "SatelliteId": 101,
+  "Created": "2004-02-22T11:44:34.3220571+01:00",
   "CreatedBy": null,
-  "Updated": "2000-12-20T12:19:46.1326875+01:00",
+  "Updated": "2014-03-07T11:44:34.3220571+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Bayer, Leuschke and Baumbach",
-      "Description": "Reactive multi-tasking algorithm",
+      "Name": "Marks-Baumbach",
+      "Description": "Function-based systematic middleware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 616
+          "FieldType": "System.Int32",
+          "FieldLength": 849
         }
       }
     },
     {
-      "Name": "Bayer, Leuschke and Baumbach",
-      "Description": "Reactive multi-tasking algorithm",
+      "Name": "Marks-Baumbach",
+      "Description": "Function-based systematic middleware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 616
+          "FieldType": "System.Int32",
+          "FieldLength": 849
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

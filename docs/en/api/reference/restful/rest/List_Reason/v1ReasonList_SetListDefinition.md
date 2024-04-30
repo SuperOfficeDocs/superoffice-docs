@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Blanda-Reinger",
-  "Tooltip": "error",
+  "Id": 863,
+  "Name": "Halvorson Inc and Sons",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 95,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 361,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "ut",
-  "InUseByUserDefinedFields": true
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Gaylord, Corkery and Reilly",
-  "Tooltip": "dolores",
+  "Id": 611,
+  "Name": "Dare LLC",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 160,
+  "Rank": 585,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "ListType": "autem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   }
 }

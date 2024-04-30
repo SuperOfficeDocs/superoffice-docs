@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 840
+  "QuoteVersionId": 987
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 961,
-  "ERPQuoteVersionKey": "iure",
-  "QuoteId": 580,
-  "Description": "Optimized mobile focus group",
-  "Number": "1133036",
+  "QuoteVersionId": 13,
+  "ERPQuoteVersionKey": "aut",
+  "QuoteId": 813,
+  "Description": "Enterprise-wide mobile middleware",
+  "Number": "280675",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 151,
-  "SentDate": "2001-08-02T12:19:46.054573+02:00",
-  "FollowupId": 623,
-  "ExpirationDate": "2017-06-15T12:19:46.054573+02:00",
-  "DeliveryCountryId": 413,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 291,
+  "LikelyQuoteAlternativeId": 985,
+  "SentDate": "2005-11-06T11:44:34.2439386+01:00",
+  "FollowupId": 674,
+  "ExpirationDate": "2008-07-01T11:44:34.2439386+02:00",
+  "DeliveryCountryId": 652,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 974,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "quia",
-  "ERPPaymentTypeKey": "cumque",
-  "ERPDeliveryTermsKey": "veritatis",
-  "ERPDeliveryTypeKey": "ullam",
-  "Rank": 164,
-  "ApprovedBy": 918,
-  "ApprovedText": "aperiam",
-  "ApprovedRegisteredBy": 253,
-  "ApprovedRegisteredDate": "2016-01-13T12:19:46.054573+01:00",
-  "ExtraField1": "ea",
-  "ExtraField2": "beatae",
-  "ExtraField3": "facere",
-  "ExtraField4": "dolor",
-  "ExtraField5": "maxime",
-  "LastRecalculated": "2014-03-31T12:19:46.054573+02:00",
-  "Updated": "2002-04-05T12:19:46.054573+02:00",
-  "UpdatedAssociateId": 914,
-  "Registered": "2021-09-19T12:19:46.054573+02:00",
-  "RegisteredAssociateId": 22,
-  "RequestAssociateId": 569,
-  "RequestComment": "quasi",
+  "ERPPaymentTermsKey": "dolore",
+  "ERPPaymentTypeKey": "debitis",
+  "ERPDeliveryTermsKey": "neque",
+  "ERPDeliveryTypeKey": "blanditiis",
+  "Rank": 623,
+  "ApprovedBy": 58,
+  "ApprovedText": "in",
+  "ApprovedRegisteredBy": 711,
+  "ApprovedRegisteredDate": "2010-08-02T11:44:34.2439386+02:00",
+  "ExtraField1": "est",
+  "ExtraField2": "ut",
+  "ExtraField3": "excepturi",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "ipsam",
+  "LastRecalculated": "2019-02-15T11:44:34.2439386+01:00",
+  "Updated": "2007-11-19T11:44:34.2439386+01:00",
+  "UpdatedAssociateId": 421,
+  "Registered": "2021-10-20T11:44:34.2439386+02:00",
+  "RegisteredAssociateId": 532,
+  "RequestAssociateId": 107,
+  "RequestComment": "accusantium",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 992,
-      "ERPQuoteAlternativeKey": "tenetur",
-      "QuoteVersionId": 631,
-      "Name": "Kling LLC",
-      "Description": "Cloned discrete Graphical User Interface",
+      "QuoteAlternativeId": 233,
+      "ERPQuoteAlternativeKey": "eos",
+      "QuoteVersionId": 237,
+      "Name": "Hegmann-Marquardt",
+      "Description": "Profound neutral neural-net",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 17945.284,
-      "ERPDiscountAmount": 2848.806,
-      "DiscountPercent": 2917.754,
-      "DiscountAmount": 2450.788,
+      "ERPDiscountPercent": 30609.778,
+      "ERPDiscountAmount": 29371.847999999998,
+      "DiscountPercent": 14657.717999999999,
+      "DiscountAmount": 9981.7899999999991,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sit",
-      "VAT": 12780.452,
-      "EarningPercent": 19076.658,
-      "EarningAmount": 6007.878,
-      "SubTotal": 26895.987999999998,
-      "TotalPrice": 20794.09,
-      "ExtraField1": "sunt",
-      "ExtraField2": "cumque",
-      "ExtraField3": "libero",
-      "ExtraField4": "a",
-      "ExtraField5": "culpa",
+      "VATInfo": "aut",
+      "VAT": 6760.038,
+      "EarningPercent": 2265.882,
+      "EarningAmount": 5826.106,
+      "SubTotal": 15525.836,
+      "TotalPrice": 24272.829999999998,
+      "ExtraField1": "rerum",
+      "ExtraField2": "hic",
+      "ExtraField3": "necessitatibus",
+      "ExtraField4": "ea",
+      "ExtraField5": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldType": "System.String",
+          "FieldLength": 915
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

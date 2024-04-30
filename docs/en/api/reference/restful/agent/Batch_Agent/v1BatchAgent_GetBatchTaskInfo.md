@@ -98,7 +98,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961
+  "Id": 106
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Ritchie-Beer",
-  "AssociateId": 586,
-  "DetailsTable": 395,
-  "DetailsRecord": 424,
+  "Id": 246,
+  "Name": "Hills-Deckow",
+  "AssociateId": 166,
+  "DetailsTable": 350,
+  "DetailsRecord": 620,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "velit",
-    "ParameterObject2": "quae"
+    "ParameterObject1": "cupiditate",
+    "ParameterObject2": "est"
   },
-  "LastStarted": "2003-09-06T12:19:44.5080652+02:00",
-  "Created": "2004-12-14T12:19:44.5080652+01:00",
-  "StartCount": 546,
-  "DatabaseSerialNumber": "671024",
-  "Context": "nostrum",
-  "Result": "incidunt",
+  "LastStarted": "2001-05-26T11:44:32.822391+02:00",
+  "Created": "1999-01-19T11:44:32.822391+01:00",
+  "StartCount": 588,
+  "DatabaseSerialNumber": "989583",
+  "Context": "sapiente",
+  "Result": "ducimus",
   "State": "All",
-  "Description": "Devolved mobile structure",
-  "Response": "facere",
-  "Request": "sint",
-  "ProgressDescription": "Seamless motivating conglomeration",
-  "ProgressPercent": 803,
-  "FileName": "Osinski-Sanford",
+  "Description": "Monitored radical productivity",
+  "Response": "aut",
+  "Request": "placeat",
+  "ProgressDescription": "Stand-alone client-server time-frame",
+  "ProgressPercent": 973,
+  "FileName": "Rodriguez, Schinner and Muller",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 453
     }
   }
 }

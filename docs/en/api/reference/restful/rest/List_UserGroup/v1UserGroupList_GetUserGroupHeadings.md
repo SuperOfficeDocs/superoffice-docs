@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 841,
-    "Name": "Price, Boyle and Kling",
-    "Tooltip": "animi",
-    "Deleted": true,
-    "Rank": 377,
-    "UdListDefinitionId": 355,
+    "HeadingId": 901,
+    "Name": "Ernser, Bahringer and Hickle",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "Rank": 586,
+    "UdListDefinitionId": 224,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 712
       }
     }
   }

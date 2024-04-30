@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 767,
-  "Name": "Welch Inc and Sons",
-  "Tooltip": "minima",
-  "PassiveText": "perspiciatis",
+  "ReldefId": 910,
+  "Name": "Fisher Inc and Sons",
+  "Tooltip": "quaerat",
+  "PassiveText": "sed",
   "Deleted": false,
-  "Rank": 274,
+  "Rank": 44,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   },
   "_Links": {

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Johns-Gibson",
-    "ToolTip": "Et voluptas voluptas.",
+    "Id": 954,
+    "Name": "Feil Group",
+    "ToolTip": "Voluptas reprehenderit.",
     "Deleted": true,
-    "Rank": 941,
-    "Type": "eos",
-    "ColorBlock": 758,
-    "IconHint": "et",
+    "Rank": 342,
+    "Type": "quia",
+    "ColorBlock": 253,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2003-01-01T12:19:54.6177594+01:00",
+    "LastChanged": "2020-12-21T11:44:43.1168808+01:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Quigley-Bechtelar",
-        "ToolTip": "Quo ea consequatur corrupti in nulla a magnam.",
-        "Deleted": true,
-        "Rank": 366,
-        "Type": "voluptas",
-        "ColorBlock": 901,
-        "IconHint": "est",
+        "Id": 753,
+        "Name": "Schaden LLC",
+        "ToolTip": "Porro optio excepturi quis ipsam.",
+        "Deleted": false,
+        "Rank": 274,
+        "Type": "laboriosam",
+        "ColorBlock": 362,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2001-10-20T12:19:54.6177594+02:00",
+        "LastChanged": "2015-09-26T11:44:43.1168808+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "amet",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "aspernatur",
         "Hidden": true,
-        "FullName": "Erick Julian Blanda V"
+        "FullName": "Okey Bednar"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "odio",
+    "ExtraInfo": "velit",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Monroe Damion Nikolaus Jr."
+    "FullName": "Kristoffer Reinger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Bayer LLC",
-    "ToolTip": "Ullam fugit.",
-    "Deleted": true,
-    "Rank": 638,
-    "Type": "et",
-    "ColorBlock": 549,
-    "IconHint": "ipsa",
+    "Id": 314,
+    "Name": "O'Connell Inc and Sons",
+    "ToolTip": "Iste nobis.",
+    "Deleted": false,
+    "Rank": 675,
+    "Type": "soluta",
+    "ColorBlock": 422,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2016-06-20T12:19:54.6334859+02:00",
+    "LastChanged": "2010-07-06T11:44:43.1168808+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Cassin, Botsford and Leuschke",
-        "ToolTip": "Quia aliquid molestias tenetur alias adipisci rem laudantium.",
+        "Id": 254,
+        "Name": "Tillman, Okuneva and Rice",
+        "ToolTip": "Modi sit rerum id omnis earum ab.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "consectetur",
-        "ColorBlock": 496,
-        "IconHint": "nisi",
+        "Rank": 185,
+        "Type": "dignissimos",
+        "ColorBlock": 81,
+        "IconHint": "illum",
         "Selected": true,
-        "LastChanged": "2009-04-07T12:19:54.6334859+02:00",
+        "LastChanged": "2019-04-09T11:44:43.1168808+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Cydney Annamae Haley I",
+        "ExtraInfo": "aut",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Maiya Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 148
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "quis",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Stone Jenkins",
+    "FullName": "Ms. Adolphus Olen Powlowski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldLength": 545
       }
     }
   }

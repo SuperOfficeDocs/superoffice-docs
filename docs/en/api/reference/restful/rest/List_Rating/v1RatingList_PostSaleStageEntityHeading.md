@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 774,
-  "Name": "Hudson Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 95,
-  "UdListDefinitionId": 104
+  "HeadingId": 620,
+  "Name": "Marquardt-Haag",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 470,
+  "UdListDefinitionId": 74
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 259,
-  "Name": "Abernathy-Lynch",
-  "Tooltip": "ipsum",
+  "HeadingId": 519,
+  "Name": "Lakin-Daugherty",
+  "Tooltip": "quos",
   "Deleted": true,
-  "Rank": 119,
-  "UdListDefinitionId": 667,
+  "Rank": 812,
+  "UdListDefinitionId": 419,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 610
     }
   }
 }

@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "sequi",
-  "MinDate": "2002-04-19T12:19:45.789023+02:00",
-  "MaxDate": "2018-04-28T12:19:45.789023+02:00"
+  "LastHash": "accusamus",
+  "MinDate": "2019-11-13T11:44:34.1345952+01:00",
+  "MaxDate": "2014-03-07T11:44:34.1345952+01:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "doloribus",
+  "CallerIDHash": "ducimus",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 132,
-      "PersonId": 21,
-      "PersonName": "Harvey, Rau and Koepp",
-      "Mrmrs": "et",
-      "ContactId": 942,
-      "ContactName": "Ledner Group"
+      "DialInPrefix": 370,
+      "PersonId": 520,
+      "PersonName": "Leffler, Haag and Kassulke",
+      "Mrmrs": "voluptatem",
+      "ContactId": 761,
+      "ContactName": "Ward Group"
     }
   ]
 }

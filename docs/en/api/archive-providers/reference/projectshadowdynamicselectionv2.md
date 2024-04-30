@@ -783,7 +783,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=projectAssociate/isActiveText,sale/hasStakeholders,sale/associate/role,appointment/visibleInDiary,appointment/associate/mrMrs
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=projectAssociate/personId,NumberOfActivitiesInPeriod,document/isReport,projectMember/personCategory,projectMember/personUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

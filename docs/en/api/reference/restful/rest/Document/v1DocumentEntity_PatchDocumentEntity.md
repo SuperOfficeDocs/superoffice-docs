@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "praesentium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "praesentium",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 876,
+  "DocumentId": 683,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "molestiae",
-  "Header": "aut",
-  "Name": "Fay Inc and Sons",
-  "OurRef": "doloribus",
-  "YourRef": "facilis",
-  "CreatedDate": "1998-08-15T12:19:53.539885+02:00",
-  "UpdatedDate": "2012-09-23T12:19:53.539885+02:00",
-  "Description": "Team-oriented systematic structure",
+  "Attention": "rerum",
+  "Header": "reprehenderit",
+  "Name": "Haag-Rau",
+  "OurRef": "amet",
+  "YourRef": "dolorum",
+  "CreatedDate": "2018-08-06T11:44:41.9296629+02:00",
+  "UpdatedDate": "2014-11-08T11:44:41.9296629+01:00",
+  "Description": "Versatile executive leverage",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-05-15T12:19:53.539885+02:00",
-  "ExternalRef": "unde",
+  "Date": "2003-05-30T11:44:41.9296629+02:00",
+  "ExternalRef": "autem",
   "Completed": "Completed",
-  "ActiveLinks": 860,
+  "ActiveLinks": 357,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ernser, Quitzon and Hoppe",
-      "Id": 37,
-      "Description": "Synchronised secondary core",
-      "ExtraInfo": "ipsum",
-      "LinkId": 810,
+      "EntityName": "Lueilwitz LLC",
+      "Id": 518,
+      "Description": "Front-line user-facing frame",
+      "ExtraInfo": "quae",
+      "LinkId": 973,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 828
+          "FieldType": "System.Int32",
+          "FieldLength": 313
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 946,
-  "Snum": 437,
+  "SuggestedDocumentId": 714,
+  "Snum": 150,
   "UserDefinedFields": {
-    "SuperOffice:1": "Chelsea Bergstrom",
-    "SuperOffice:2": "191583169"
+    "SuperOffice:1": "1031032690",
+    "SuperOffice:2": "Miss Elyssa Kaylin McDermott Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "est"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "sit"
+    "CustomFields1": "dolore",
+    "CustomFields2": "repellendus"
   },
-  "PublishEventDate": "2017-12-14T12:19:53.539885+01:00",
-  "PublishTo": "2001-04-22T12:19:53.539885+02:00",
-  "PublishFrom": "2001-08-03T12:19:53.539885+02:00",
+  "PublishEventDate": "1997-10-13T11:44:41.9296629+02:00",
+  "PublishTo": "2018-09-28T11:44:41.9296629+02:00",
+  "PublishFrom": "2005-07-31T11:44:41.9296629+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 34,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 880
         }
       }
     },
     {
-      "VisibleId": 34,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 880
         }
       }
     }
@@ -256,12 +256,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 567
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 451,
-    "Name": "Gerlach, Weissnat and Roberts",
-    "Tooltip": "facilis",
-    "Deleted": false,
-    "Rank": 275,
-    "UdListDefinitionId": 153,
+    "HeadingId": 668,
+    "Name": "Kilback LLC",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 471,
+    "UdListDefinitionId": 646,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldType": "System.Int32",
+        "FieldLength": 361
       }
     }
   }

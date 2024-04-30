@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 462,
-  "ERPQuoteVersionKey": "tenetur",
-  "QuoteId": 590,
-  "Description": "Future-proofed contextually-based archive",
-  "Number": "636023",
+  "QuoteVersionId": 106,
+  "ERPQuoteVersionKey": "quibusdam",
+  "QuoteId": 682,
+  "Description": "Multi-layered bandwidth-monitored alliance",
+  "Number": "375140",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 375,
-  "SentDate": "2014-11-25T12:19:46.054573+01:00",
-  "FollowupId": 310,
-  "ExpirationDate": "2010-07-07T12:19:46.054573+02:00",
-  "DeliveryCountryId": 883,
+  "LikelyQuoteAlternativeId": 526,
+  "SentDate": "2023-09-16T11:44:34.2439386+02:00",
+  "FollowupId": 19,
+  "ExpirationDate": "2008-08-20T11:44:34.2439386+02:00",
+  "DeliveryCountryId": 735,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 284,
+  "InvoiceCountryId": 318,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "ea",
-  "ERPPaymentTypeKey": "minus",
-  "ERPDeliveryTermsKey": "consequatur",
-  "ERPDeliveryTypeKey": "quasi",
-  "Rank": 717,
-  "ApprovedBy": 749,
-  "ApprovedText": "similique",
-  "ApprovedRegisteredBy": 940,
-  "ApprovedRegisteredDate": "1998-07-29T12:19:46.054573+02:00",
-  "ExtraField1": "voluptatum",
-  "ExtraField2": "aut",
-  "ExtraField3": "ipsum",
-  "ExtraField4": "perspiciatis",
-  "ExtraField5": "aspernatur",
-  "LastRecalculated": "2018-04-12T12:19:46.054573+02:00",
-  "Updated": "2015-05-31T12:19:46.054573+02:00",
-  "UpdatedAssociateId": 517,
-  "Registered": "2016-03-14T12:19:46.054573+01:00",
-  "RegisteredAssociateId": 497,
-  "RequestAssociateId": 432,
-  "RequestComment": "nihil",
+  "ERPPaymentTermsKey": "velit",
+  "ERPPaymentTypeKey": "optio",
+  "ERPDeliveryTermsKey": "iusto",
+  "ERPDeliveryTypeKey": "praesentium",
+  "Rank": 176,
+  "ApprovedBy": 192,
+  "ApprovedText": "consequatur",
+  "ApprovedRegisteredBy": 797,
+  "ApprovedRegisteredDate": "2010-02-12T11:44:34.2439386+01:00",
+  "ExtraField1": "dolores",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "repellat",
+  "ExtraField4": "necessitatibus",
+  "ExtraField5": "quas",
+  "LastRecalculated": "2006-08-24T11:44:34.2439386+02:00",
+  "Updated": "2015-10-27T11:44:34.2439386+01:00",
+  "UpdatedAssociateId": 945,
+  "Registered": "2015-10-20T11:44:34.2439386+02:00",
+  "RegisteredAssociateId": 173,
+  "RequestAssociateId": 82,
+  "RequestComment": "dolore",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 940,
-      "ERPQuoteAlternativeKey": "sapiente",
-      "QuoteVersionId": 531,
-      "Name": "Windler LLC",
-      "Description": "Visionary mission-critical circuit",
+      "QuoteAlternativeId": 534,
+      "ERPQuoteAlternativeKey": "a",
+      "QuoteVersionId": 266,
+      "Name": "Pfannerstill Group",
+      "Description": "Progressive zero defect throughput",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 6709.894,
-      "ERPDiscountAmount": 20173.558,
-      "DiscountPercent": 16036.678,
-      "DiscountAmount": 13777.064,
+      "ERPDiscountPercent": 9088.6,
+      "ERPDiscountAmount": 18484.332,
+      "DiscountPercent": 2485.2619999999997,
+      "DiscountAmount": 26219.043999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "exercitationem",
-      "VAT": 19687.788,
-      "EarningPercent": 16259.192,
-      "EarningAmount": 20095.208,
-      "SubTotal": 18979.504,
-      "TotalPrice": 18760.124,
-      "ExtraField1": "velit",
-      "ExtraField2": "aspernatur",
-      "ExtraField3": "asperiores",
-      "ExtraField4": "perferendis",
-      "ExtraField5": "quo",
+      "VATInfo": "id",
+      "VAT": 27729.631999999998,
+      "EarningPercent": 21784.433999999997,
+      "EarningAmount": 12476.454,
+      "SubTotal": 17635.018,
+      "TotalPrice": 9116.806,
+      "ExtraField1": "sunt",
+      "ExtraField2": "molestiae",
+      "ExtraField3": "non",
+      "ExtraField4": "labore",
+      "ExtraField5": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 924
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 564
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Durgan-Stamm",
-    "ToolTip": "Consectetur delectus distinctio voluptatem.",
+    "Id": 345,
+    "Name": "Mraz Inc and Sons",
+    "ToolTip": "Aspernatur sed ut distinctio natus provident est exercitationem.",
     "Deleted": false,
-    "Rank": 273,
-    "Type": "et",
-    "ColorBlock": 645,
-    "IconHint": "officiis",
+    "Rank": 879,
+    "Type": "minus",
+    "ColorBlock": 961,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2004-11-03T12:19:54.6958722+01:00",
+    "LastChanged": "2013-08-15T11:44:43.1949983+02:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Rohan, Yost and Huels",
-        "ToolTip": "Voluptas quo iusto.",
-        "Deleted": false,
-        "Rank": 347,
-        "Type": "dignissimos",
-        "ColorBlock": 190,
-        "IconHint": "cumque",
+        "Id": 657,
+        "Name": "Kassulke-Zieme",
+        "ToolTip": "Deserunt rem molestiae.",
+        "Deleted": true,
+        "Rank": 44,
+        "Type": "molestias",
+        "ColorBlock": 916,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2013-01-05T12:19:54.6958722+01:00",
+        "LastChanged": "2006-06-15T11:44:43.1949983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "tempora",
+        "ExtraInfo": "est",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Esperanza Corkery DDS",
+        "FullName": "Coleman Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 655
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "soluta",
-    "Hidden": false,
-    "FullName": "Ambrose Manuela Schultz Sr.",
+    "ExtraInfo": "et",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Rodrigo Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 432
+        "FieldType": "System.Int32",
+        "FieldLength": 354
       }
     }
   }

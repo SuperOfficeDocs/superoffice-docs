@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 370,
-  "Name": "Hegmann Group",
-  "Tooltip": "incidunt",
+  "WebPanelId": 105,
+  "Name": "Zemlak-Weber",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 634,
+  "Rank": 306,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Dibbert-Howe",
+  "WindowName": "Hagenes-Gerlach",
   "Url": "http://www.example.com/",
-  "ProgId": "doloribus",
-  "Icon": 873,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "ut",
+  "Icon": 114,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -143,26 +143,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 790,
-  "Name": "Muller-Farrell",
-  "Tooltip": "qui",
+  "WebPanelId": 586,
+  "Name": "Baumbach-Dickinson",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 622,
+  "Rank": 169,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Christiansen Group",
+  "WindowName": "Schimmel-Ernser",
   "Url": "http://www.example.com/",
-  "ProgId": "aperiam",
-  "Icon": 889,
+  "ProgId": "excepturi",
+  "Icon": 964,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 157
     }
   }
 }

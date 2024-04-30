@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 616,
-    "Name": "Kilback-Schiller",
-    "Value": "in",
-    "CreatedDate": "1998-12-19T12:19:44.5080652+01:00",
-    "UpdatedDate": "2001-03-29T12:19:44.5080652+02:00",
-    "CreatedBy": "quas",
-    "UpdatedBy": "et",
+    "AudienceLayoutId": 593,
+    "Name": "Rodriguez-Dooley",
+    "Value": "cupiditate",
+    "CreatedDate": "2009-11-25T11:44:32.806727+01:00",
+    "UpdatedDate": "2022-12-20T11:44:32.806727+01:00",
+    "CreatedBy": "voluptas",
+    "UpdatedBy": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 743
       }
     }
   }

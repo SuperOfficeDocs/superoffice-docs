@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 648,
-      "ContactName": "Mohr, Lockman and Kilback",
-      "PersonId": 757,
-      "PersonName": "Franecki-O'Conner",
-      "AssociateId": 919,
-      "Address": "est",
-      "EmailId": 30,
+      "ContactId": 109,
+      "ContactName": "Ankunding, Von and Paucek",
+      "PersonId": 296,
+      "PersonName": "Toy LLC",
+      "AssociateId": 229,
+      "Address": "veritatis",
+      "EmailId": 767,
       "DuplicatePersonIds": [
-        390,
-        65
+        408,
+        541
       ],
-      "Name": "Christiansen-Terry",
+      "Name": "Runte, Larson and Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 379
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 477,
-      "ContactName": "Littel-Schultz",
-      "PersonId": 379,
-      "PersonName": "Cartwright LLC",
-      "AssociateId": 259,
-      "Address": "culpa",
-      "EmailId": 112,
+      "ContactId": 543,
+      "ContactName": "Conroy Inc and Sons",
+      "PersonId": 900,
+      "PersonName": "Cassin Inc and Sons",
+      "AssociateId": 103,
+      "Address": "ipsum",
+      "EmailId": 248,
       "DuplicatePersonIds": [
-        857,
-        284
+        447,
+        141
       ],
-      "Name": "Rodriguez, Hackett and Auer",
+      "Name": "Boyle Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 909,
-      "ContactName": "Jerde LLC",
-      "PersonId": 4,
-      "PersonName": "Carroll Group",
-      "AssociateId": 561,
-      "Address": "esse",
-      "EmailId": 754,
+      "ContactId": 468,
+      "ContactName": "Walker, Boyle and Mohr",
+      "PersonId": 105,
+      "PersonName": "Schuppe, Gottlieb and Wilkinson",
+      "AssociateId": 413,
+      "Address": "autem",
+      "EmailId": 94,
       "DuplicatePersonIds": [
-        7,
-        316
+        790,
+        200
       ],
-      "Name": "Herzog, Senger and Brakus",
+      "Name": "Hahn, Watsica and Homenick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 692
         }
       }
     }
   ],
-  "Subject": "eaque",
-  "HTMLBody": "voluptas",
+  "Subject": "illo",
+  "HTMLBody": "quaerat",
   "From": null,
-  "Sent": "2020-02-20T12:19:45.2422708+01:00",
-  "Size": 351,
+  "Sent": "2016-05-17T11:44:33.5878385+02:00",
+  "Size": 881,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "beatae",
-  "PlainBody": "minima",
-  "IsSent": true,
+  "MessageID": "doloribus",
+  "PlainBody": "neque",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 197,
+  "ServerId": 525,
   "Attachments": [
     {
-      "Description": "Realigned clear-thinking structure",
-      "Filename": "ut",
-      "Size": 867,
-      "Type": "vitae",
-      "Encoding": "non",
-      "Id": "eligendi",
-      "Disposition": "molestiae",
-      "IsSafeFileExtension": false,
+      "Description": "Innovative client-server focus group",
+      "Filename": "cupiditate",
+      "Size": 730,
+      "Type": "voluptates",
+      "Encoding": "deleniti",
+      "Id": "architecto",
+      "Disposition": "aliquam",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 55
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schoen LLC",
+      "Name": "Herman-Jacobson",
       "Values": [
-        "tenetur",
-        "molestiae"
+        "praesentium",
+        "consequuntur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 383
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     },
     {
-      "Name": "Schoen LLC",
+      "Name": "Herman-Jacobson",
       "Values": [
-        "tenetur",
-        "molestiae"
+        "praesentium",
+        "consequuntur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 383
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     }
   ],
-  "FolderName": "Dicki Inc and Sons",
-  "EmailItemId": 609,
-  "AccountId": 699,
-  "ReceivedAt": "2000-12-06T12:19:45.2422708+01:00",
+  "FolderName": "Daniel LLC",
+  "EmailItemId": 888,
+  "AccountId": 663,
+  "ReceivedAt": "2011-05-21T11:44:33.5878385+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-09-05T12:19:45.2422708+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1999-04-19T11:44:33.5878385+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 584
     }
   }
 }

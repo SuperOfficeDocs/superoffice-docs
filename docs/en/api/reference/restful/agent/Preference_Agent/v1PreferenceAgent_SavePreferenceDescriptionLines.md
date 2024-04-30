@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 423,
-      "PrefDescId": 182,
-      "PrefValue": "ad",
-      "PrefShowValue": "ducimus",
-      "Description": "Front-line methodical database",
+      "PrefDescLineId": 850,
+      "PrefDescId": 205,
+      "PrefValue": "asperiores",
+      "PrefShowValue": "tempore",
+      "Description": "Programmable empowering array",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 423,
-      "PrefDescId": 182,
-      "PrefValue": "ad",
-      "PrefShowValue": "ducimus",
-      "Description": "Front-line methodical database",
+      "PrefDescLineId": 850,
+      "PrefDescId": 205,
+      "PrefValue": "asperiores",
+      "PrefShowValue": "tempore",
+      "Description": "Programmable empowering array",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 139,
-    "PrefDescId": 812,
-    "PrefValue": "voluptatem",
-    "PrefShowValue": "vero",
-    "Description": "Cross-group stable protocol",
+    "PrefDescLineId": 864,
+    "PrefDescId": 132,
+    "PrefValue": "asperiores",
+    "PrefShowValue": "nostrum",
+    "Description": "Open-source tangible capability",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldType": "System.Int32",
+        "FieldLength": 25
       }
     }
   }

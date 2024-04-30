@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 612,
-  "Name": "Miller Inc and Sons",
-  "Tooltip": "expedita",
+  "Id": 116,
+  "Name": "Huels-Windler",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 426,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 972,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
-  "InUseByUserDefinedFields": true
+  "ListType": "laudantium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 451,
-  "Name": "Thompson-Reinger",
-  "Tooltip": "autem",
+  "Id": 825,
+  "Name": "Hills Inc and Sons",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "Rank": 907,
+  "Rank": 495,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 108
     }
   }
 }

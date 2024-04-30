@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Mueller, Haley and Dare",
-  "StorageKey": "unde",
+  "StorageType": "vero",
+  "ProviderName": "Predovic Inc and Sons",
+  "StorageKey": "tempore",
   "RestrictionGroup": null,
-  "Context": "ut"
+  "Context": "consequuntur"
 }
 ```
 

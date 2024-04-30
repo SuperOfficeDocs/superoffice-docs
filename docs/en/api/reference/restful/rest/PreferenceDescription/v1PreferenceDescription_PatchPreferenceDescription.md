@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sint",
+    "path": "nisi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sint",
+    "path": "nisi",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 810,
-  "Section": "quod",
-  "Key": "unde",
-  "Name": "Kshlerin Inc and Sons",
+  "PrefDescId": 428,
+  "Section": "dolor",
+  "Key": "error",
+  "Name": "Friesen LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Expanded cohesive workforce",
+  "Description": "Fundamental optimal knowledge user",
   "IsBuiltin": false,
-  "TableName": "Lang Inc and Sons",
-  "UserDefinedListId": 278,
-  "Rank": 413,
-  "SubGroup": "ducimus",
-  "MinLevel": 924,
-  "MaxValue": 594,
-  "MinValue": 32,
-  "RequiredLicense": "molestias",
+  "TableName": "Halvorson Inc and Sons",
+  "UserDefinedListId": 557,
+  "Rank": 341,
+  "SubGroup": "eos",
+  "MinLevel": 832,
+  "MaxValue": 830,
+  "MinValue": 41,
+  "RequiredLicense": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 969
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

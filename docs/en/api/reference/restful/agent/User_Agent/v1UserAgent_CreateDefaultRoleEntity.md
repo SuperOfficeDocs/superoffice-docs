@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 146,
-  "Name": "Rogahn, Corwin and Boyle",
-  "Tooltip": "sit",
+  "RoleId": 562,
+  "Name": "Gutmann-Harvey",
+  "Tooltip": "magnam",
   "RoleType": "Anonymous",
-  "Deleted": 617,
-  "Rank": 538,
-  "Created": "2015-10-12T12:19:46.5544699+02:00",
-  "UseCategories": 84,
+  "Deleted": 300,
+  "Rank": 960,
+  "Created": "2015-05-18T11:44:34.9469084+02:00",
+  "UseCategories": 680,
   "CreatedBy": null,
-  "Updated": "2023-04-29T12:19:46.5544699+02:00",
+  "Updated": "2017-11-14T11:44:34.9469084+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 453
     }
   }
 }

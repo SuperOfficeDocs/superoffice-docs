@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Ruecker, Hettinger and Morar",
-  "Id": 83
+  "HistoryName": "Schultz LLC",
+  "Id": 434
 }
 ```
 

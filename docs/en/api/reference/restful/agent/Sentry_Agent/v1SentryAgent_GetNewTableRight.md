@@ -72,11 +72,11 @@ OK
 POST /api/v1/Agents/Sentry/GetNewTableRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Brown, Hills and O'Keefe"
+  "TableName": "Gerlach, Donnelly and Kohler"
 }
 ```
 

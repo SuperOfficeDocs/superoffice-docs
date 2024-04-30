@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 216,
-  "ERPProductKey": "ut",
-  "ERPPriceListKey": "recusandae",
-  "Name": "Stanton-Bechtelar",
-  "Description": "Optimized high-level methodology",
-  "Code": "aspernatur",
-  "PriceUnit": "suscipit",
-  "QuantityUnit": "modi",
+  "ProductId": 951,
+  "ERPProductKey": "illo",
+  "ERPPriceListKey": "sint",
+  "Name": "Corkery-Lemke",
+  "Description": "Triple-buffered dedicated framework",
+  "Code": "unde",
+  "PriceUnit": "est",
+  "QuantityUnit": "molestias",
   "IsSubscription": false,
-  "SubscriptionUnit": "occaecati",
-  "DefaultSubscriptionQuantity": 28017.96,
-  "ItemNumber": "490813",
+  "SubscriptionUnit": "hic",
+  "DefaultSubscriptionQuantity": 11473.574,
+  "ItemNumber": "1178588",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatem",
-  "ProductTypeKey": "minus",
-  "VAT": 30252.502,
-  "VATInfo": "ut",
-  "UnitCost": 27817.384,
-  "UnitMinimumPrice": 29500.342,
-  "UnitListPrice": 18478.064,
-  "InAssortment": false,
-  "Supplier": "nobis",
-  "SupplierCode": "optio",
-  "Rights": "illum",
-  "Rule": "voluptates",
+  "ProductFamilyKey": "explicabo",
+  "ProductTypeKey": "quia",
+  "VAT": 11219.72,
+  "VATInfo": "rerum",
+  "UnitCost": 12733.442,
+  "UnitMinimumPrice": 26165.766,
+  "UnitListPrice": 24836.95,
+  "InAssortment": true,
+  "Supplier": "fuga",
+  "SupplierCode": "laboriosam",
+  "Rights": "et",
+  "Rule": "non",
   "ExtraInfo": [
     {
-      "Name": "Klocko-Hoppe",
-      "Value": "quos",
+      "Name": "Brown-Roberts",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 794
+          "FieldLength": 279
         }
       }
     },
     {
-      "Name": "Klocko-Hoppe",
-      "Value": "quos",
+      "Name": "Brown-Roberts",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 794
+          "FieldLength": 279
         }
       }
     }
   ],
-  "RawExtraInfo": "amet",
-  "ExtraField1": "magnam",
-  "ExtraField2": "qui",
-  "ExtraField3": "nobis",
-  "ExtraField4": "minima",
-  "ExtraField5": "laudantium",
-  "InStock": 22345.42,
+  "RawExtraInfo": "reprehenderit",
+  "ExtraField1": "quas",
+  "ExtraField2": "culpa",
+  "ExtraField3": "aspernatur",
+  "ExtraField4": "quia",
+  "ExtraField5": "nam",
+  "InStock": 3995.85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 515
     }
   }
 }

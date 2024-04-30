@@ -139,25 +139,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 313,
-  "Name": "Mante, Rath and Schmidt",
-  "Description": "Pre-emptive empowering methodology",
-  "WelcomeMessage": "quia",
+  "ChatTopicId": 212,
+  "Name": "Morissette-Wintheiser",
+  "Description": "Implemented national throughput",
+  "WelcomeMessage": "molestiae",
   "Language": null,
-  "LastAccept": "2017-12-12T12:19:53.1493706+01:00",
-  "SecondsPrAccept": 839,
-  "AlertRecipient": "culpa",
+  "LastAccept": "2014-09-18T11:44:41.6952942+02:00",
+  "SecondsPrAccept": 643,
+  "AlertRecipient": "quo",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "ipsa",
+  "BadgeHeader": "rerum",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "rerum",
-  "WarnNewChatMinutes": 238,
-  "WarnManagerNewChatMinutes": 501,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 806,
+  "WarnManagerNewChatMinutes": 618,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -167,13 +167,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 604,
-  "WarnManagerChatMessageMinutes": 160,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 580,
-  "OfflineFormQueueLength": 246,
+  "WarnChatMessageMinutes": 971,
+  "WarnManagerChatMessageMinutes": 314,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 850,
+  "OfflineFormQueueLength": 864,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "qui"
+  "WidgetRatingText": "ipsam"
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 323,
-  "Name": "Towne-Trantow",
-  "Description": "Optimized heuristic success",
-  "WelcomeMessage": "atque",
+  "ChatTopicId": 216,
+  "Name": "Wintheiser Inc and Sons",
+  "Description": "Open-architected zero administration knowledge base",
+  "WelcomeMessage": "quasi",
   "Language": null,
-  "LastAccept": "2021-02-11T12:19:53.1649635+01:00",
-  "SecondsPrAccept": 235,
-  "AlertRecipient": "laboriosam",
+  "LastAccept": "2015-12-06T11:44:41.7109149+01:00",
+  "SecondsPrAccept": 211,
+  "AlertRecipient": "impedit",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "corrupti",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "quas",
-  "WarnNewChatMinutes": 88,
-  "WarnManagerNewChatMinutes": 922,
-  "TicketEnabled": false,
+  "BadgeHeader": "dolores",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "sit",
+  "WarnNewChatMinutes": 604,
+  "WarnManagerNewChatMinutes": 924,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 903,
-  "WarnManagerChatMessageMinutes": 908,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 822,
+  "WarnManagerChatMessageMinutes": 444,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 633,
-  "OfflineFormQueueLength": 567,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "assumenda",
+  "OfflineFormTimeLimit": 574,
+  "OfflineFormQueueLength": 880,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

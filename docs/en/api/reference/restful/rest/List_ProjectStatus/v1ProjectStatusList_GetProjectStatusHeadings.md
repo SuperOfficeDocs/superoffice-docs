@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 918,
-    "Name": "Becker Inc and Sons",
-    "Tooltip": "aliquid",
+    "HeadingId": 839,
+    "Name": "Kshlerin-Heathcote",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 474,
-    "UdListDefinitionId": 602,
+    "Rank": 894,
+    "UdListDefinitionId": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

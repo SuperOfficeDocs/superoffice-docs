@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 626,
-  "TopicId": 277,
+  "ChatSessionId": 27,
+  "TopicId": 369,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ipsam",
-  "CustomerHost": "esse",
-  "CustomerName": "Mitchell-Schuster",
-  "CustomerEmail": "conrad@spinka.uk",
-  "CustomerPhone": "1-825-278-8130",
+  "CustomerAlias": "neque",
+  "CustomerHost": "omnis",
+  "CustomerName": "Osinski-Beahan",
+  "CustomerEmail": "pete@marquardt.com",
+  "CustomerPhone": "334.783.6547",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kling LLC",
+  "CustomerCompanyName": "Murray, Fisher and Wiegand",
   "Status": "Closed",
-  "FirstMessage": "aliquam",
-  "LastMessage": "placeat",
-  "WhenRequested": "2001-12-15T12:19:44.5549332+01:00",
-  "WhenStarted": "2001-06-20T12:19:44.5549332+02:00",
-  "WhenEnded": "2017-04-23T12:19:44.5549332+02:00",
-  "WhenIdle": "2012-09-05T12:19:44.5549332+02:00",
-  "WhenFetched": "2006-06-02T12:19:44.5549332+02:00",
-  "SessionKey": "exercitationem",
-  "InitialQueuePos": 542,
-  "AlertLevel": 787,
-  "Rank": 6,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "tempora",
+  "WhenRequested": "2014-12-26T11:44:32.8536347+01:00",
+  "WhenStarted": "2008-04-11T11:44:32.8536347+02:00",
+  "WhenEnded": "2012-11-13T11:44:32.8536347+01:00",
+  "WhenIdle": "2010-12-04T11:44:32.8536347+01:00",
+  "WhenFetched": "2006-07-20T11:44:32.8536347+02:00",
+  "SessionKey": "molestiae",
+  "InitialQueuePos": 803,
+  "AlertLevel": 54,
+  "Rank": 704,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 558,
+  "Rating": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldLength": 638
     }
   }
 }

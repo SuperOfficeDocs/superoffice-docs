@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cruickshank, Glover and Prosacco",
-  "Context": "consequatur"
+  "ProviderName": "Johnston-Kunze",
+  "Context": "voluptatibus"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Herzog Group",
-    "DisplayTooltip": "consectetur",
-    "DisplayType": "sequi",
-    "CanOrderBy": false,
-    "Name": "Ward, Corkery and Brown",
+    "DisplayName": "Schuppe-Cartwright",
+    "DisplayTooltip": "quidem",
+    "DisplayType": "aspernatur",
+    "CanOrderBy": true,
+    "Name": "Kiehn, Hessel and White",
     "CanRestrictBy": true,
-    "RestrictionType": "in",
-    "RestrictionListName": "Kassulke-Reichel",
-    "IsVisible": true,
-    "ExtraInfo": "tempora",
-    "Width": "est",
-    "IconHint": "quis",
-    "HeadingIconHint": "consequatur"
+    "RestrictionType": "recusandae",
+    "RestrictionListName": "Kovacek, Lesch and Olson",
+    "IsVisible": false,
+    "ExtraInfo": "deserunt",
+    "Width": "accusamus",
+    "IconHint": "odit",
+    "HeadingIconHint": "blanditiis"
   }
 ]
 ```

@@ -82,50 +82,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Shields, Koepp and White",
-      "Operator": "eos",
+      "Name": "Jenkins LLC",
+      "Operator": "quasi",
       "Values": [
-        "consequuntur",
-        "est"
+        "aut",
+        "fugit"
       ],
       "DisplayValues": [
-        "in",
-        "et"
+        "suscipit",
+        "quo"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 517,
+      "InterParenthesis": 644,
       "InterOperator": "And",
-      "UniqueHash": 1000
+      "UniqueHash": 99
     }
   ],
-  "ProviderName": "Nitzsche Inc and Sons",
+  "ProviderName": "Bayer Inc and Sons",
   "DesiredColumns": [
-    "sit",
-    "quod"
+    "perspiciatis",
+    "repellat"
   ],
   "OrderBy": [
     {
-      "Name": "Heller, Lowe and Schroeder",
+      "Name": "Ledner LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Heller, Lowe and Schroeder",
+      "Name": "Ledner LLC",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 590,
-  "PageNumber": 154
+  "PageSize": 594,
+  "PageNumber": 636
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Labadie-Steuber",
-      "DisplayTooltip": "voluptates",
-      "DisplayType": "laboriosam",
+      "DisplayName": "Bartoletti-Steuber",
+      "DisplayTooltip": "voluptatem",
+      "DisplayType": "quo",
       "CanOrderBy": false,
-      "Name": "Kling-Stoltenberg",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Volkman-O'Reilly",
-      "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "perspiciatis",
-      "IconHint": "suscipit",
-      "HeadingIconHint": "voluptas"
+      "Name": "Powlowski, Murazik and O'Conner",
+      "CanRestrictBy": true,
+      "RestrictionType": "sunt",
+      "RestrictionListName": "Moore, Hackett and Aufderhar",
+      "IsVisible": false,
+      "ExtraInfo": "eligendi",
+      "Width": "et",
+      "IconHint": "ipsam",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jaskolski, Durgan and Keebler",
-      "PrimaryKey": 103,
+      "EntityName": "Cremin, Schaefer and Davis",
+      "PrimaryKey": 135,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "officiis",
-          "TooltipHint": "rerum",
-          "LinkHint": "repellendus"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "eligendi",
+          "LinkHint": "iusto"
         }
       },
-      "LinkHint": "exercitationem",
-      "StyleHint": "quos",
+      "LinkHint": "autem",
+      "StyleHint": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldLength": 6
         }
       }
     }
   ],
-  "RowCount": 894,
+  "RowCount": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 281
     }
   }
 }

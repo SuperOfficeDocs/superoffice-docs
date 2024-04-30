@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=162
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=440
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 983,
-  "Name": "Halvorson Group",
-  "Description": "Optimized content-based application",
-  "DefaultHeight": 547,
-  "DefaultWidth": 4,
+  "DashboardTileDefinitionId": 228,
+  "Name": "Cruickshank Inc and Sons",
+  "Description": "Quality-focused content-based product",
+  "DefaultHeight": 906,
+  "DefaultWidth": 176,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Swaniawski LLC",
-  "SelectionId": 887,
+  "EntityName": "Schaden-Watsica",
+  "SelectionId": 610,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facere",
+  "CurrencyCode": "ex",
   "Measure": "Average",
-  "MeasureField": "provident",
-  "SortBy": "quidem",
-  "LayoutConfig": "maxime",
-  "SecondarySelectionId": 587,
-  "MeasureByField": "tempora",
+  "MeasureField": "sequi",
+  "SortBy": "quia",
+  "LayoutConfig": "delectus",
+  "SecondarySelectionId": 731,
+  "MeasureByField": "quod",
   "Usage": "Dashboard",
-  "ProviderName": "Bernhard Inc and Sons",
+  "ProviderName": "Schroeder LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 678
     }
   }
 }

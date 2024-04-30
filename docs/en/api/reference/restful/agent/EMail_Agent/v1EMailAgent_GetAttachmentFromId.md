@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 821,
-  "AttachmentId": "rerum"
+  "MailItemId": 427,
+  "AttachmentId": "non"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic 4th generation algorithm",
-  "Filename": "perferendis",
-  "Size": 827,
-  "Type": "recusandae",
-  "Encoding": "deleniti",
-  "Id": "enim",
-  "Disposition": "adipisci",
-  "IsSafeFileExtension": false,
+  "Description": "Upgradable web-enabled extranet",
+  "Filename": "incidunt",
+  "Size": 148,
+  "Type": "eum",
+  "Encoding": "porro",
+  "Id": "odio",
+  "Disposition": "dolor",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 148
     }
   }
 }

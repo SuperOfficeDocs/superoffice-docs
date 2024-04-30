@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "sint"
+  "RemoteIp": "omnis"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "excepturi",
-  "LoginId": 478,
-  "UserId": 881,
+  "Key": "occaecati",
+  "LoginId": 928,
+  "UserId": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

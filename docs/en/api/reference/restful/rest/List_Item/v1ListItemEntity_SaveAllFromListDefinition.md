@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Zulauf-Leuschke",
-    "Tooltip": "est",
+    "Id": 222,
+    "Name": "Green-Johns",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "UdListDefinitionId": 890,
-    "Rank": 803
+    "UdListDefinitionId": 682,
+    "Rank": 697
   },
   {
-    "Id": 948,
-    "Name": "Zulauf-Leuschke",
-    "Tooltip": "est",
+    "Id": 222,
+    "Name": "Green-Johns",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "UdListDefinitionId": 890,
-    "Rank": 803
+    "UdListDefinitionId": 682,
+    "Rank": 697
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Collins-Hoppe",
-    "Tooltip": "eveniet",
-    "Deleted": true,
-    "UdListDefinitionId": 438,
-    "Rank": 657,
+    "Id": 898,
+    "Name": "Predovic Group",
+    "Tooltip": "in",
+    "Deleted": false,
+    "UdListDefinitionId": 83,
+    "Rank": 192,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 123
       }
     }
   }

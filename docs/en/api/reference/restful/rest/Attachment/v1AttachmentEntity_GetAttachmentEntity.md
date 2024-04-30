@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 41,
-  "Name": "Hand Group",
-  "ContentType": "unde",
-  "AttSize": 927,
+  "AttachmentId": 389,
+  "Name": "Murray, Hilll and Terry",
+  "ContentType": "dolor",
+  "AttSize": 522,
   "InlineImage": true,
-  "ContentId": "voluptatem",
-  "AuthKey": "beatae",
+  "ContentId": "pariatur",
+  "AuthKey": "quis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   },
   "_Links": {

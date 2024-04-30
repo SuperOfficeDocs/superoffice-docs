@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 49
+  "QuoteVersionId": 130
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 878,
-    "ERPQuoteAlternativeKey": "minima",
-    "QuoteVersionId": 139,
-    "Name": "Becker-Johns",
-    "Description": "Self-enabling needs-based utilisation",
+    "QuoteAlternativeId": 472,
+    "ERPQuoteAlternativeKey": "corporis",
+    "QuoteVersionId": 240,
+    "Name": "Adams-Ernser",
+    "Description": "Streamlined coherent throughput",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 30202.358,
-    "ERPDiscountAmount": 4838.896,
-    "DiscountPercent": 9599.442,
-    "DiscountAmount": 5456.294,
+    "ERPDiscountPercent": 31205.237999999998,
+    "ERPDiscountAmount": 6493.648,
+    "DiscountPercent": 9116.806,
+    "DiscountAmount": 24673.982,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "itaque",
-    "VAT": 614.264,
-    "EarningPercent": 6079.96,
-    "EarningAmount": 26363.208,
-    "SubTotal": 2184.398,
-    "TotalPrice": 1162.714,
-    "ExtraField1": "dolores",
-    "ExtraField2": "atque",
-    "ExtraField3": "necessitatibus",
-    "ExtraField4": "blanditiis",
-    "ExtraField5": "reprehenderit",
+    "VATInfo": "temporibus",
+    "VAT": 13999.578,
+    "EarningPercent": 21699.816,
+    "EarningAmount": 4870.236,
+    "SubTotal": 10953.33,
+    "TotalPrice": 17378.03,
+    "ExtraField1": "a",
+    "ExtraField2": "et",
+    "ExtraField3": "ipsum",
+    "ExtraField4": "quasi",
+    "ExtraField5": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 541
       }
     }
   }

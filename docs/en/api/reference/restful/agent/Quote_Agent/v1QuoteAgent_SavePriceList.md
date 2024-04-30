@@ -85,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 388,
-  "ERPPriceListKey": "dolorem",
-  "QuoteConnectionId": 810,
-  "Name": "Lockman, D'Amore and Schaden",
-  "Description": "Devolved homogeneous protocol",
-  "Currency": "ut",
-  "CurrencyName": "Hirthe, Carter and Bernhard",
-  "ValidFrom": "2000-04-21T12:19:46.0701997+02:00",
-  "ValidTo": "2009-08-07T12:19:46.0701997+02:00",
-  "IsActive": false
+  "PriceListId": 199,
+  "ERPPriceListKey": "recusandae",
+  "QuoteConnectionId": 997,
+  "Name": "Wisoky-Shields",
+  "Description": "Realigned executive approach",
+  "Currency": "dicta",
+  "CurrencyName": "Dietrich, Herzog and Jast",
+  "ValidFrom": "2001-04-20T11:44:34.2595569+02:00",
+  "ValidTo": "2016-06-16T11:44:34.2595569+02:00",
+  "IsActive": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 741,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 919,
-  "Name": "Marvin-Schaden",
-  "Description": "Future-proofed human-resource concept",
-  "Currency": "voluptatum",
-  "CurrencyName": "Towne-Bergstrom",
-  "ValidFrom": "2021-08-03T12:19:46.0701997+02:00",
-  "ValidTo": "2016-10-10T12:19:46.0701997+02:00",
-  "IsActive": false,
+  "PriceListId": 582,
+  "ERPPriceListKey": "facere",
+  "QuoteConnectionId": 6,
+  "Name": "O'Hara LLC",
+  "Description": "Intuitive global moderator",
+  "Currency": "quia",
+  "CurrencyName": "Bashirian LLC",
+  "ValidFrom": "2006-07-26T11:44:34.2595569+02:00",
+  "ValidTo": "2005-03-27T11:44:34.2595569+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

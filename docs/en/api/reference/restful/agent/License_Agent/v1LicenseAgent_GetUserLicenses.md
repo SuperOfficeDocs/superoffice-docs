@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 416
+  "AssociateId": 322
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boehm-Emmerich",
-    "Description": "De-engineered 4th generation moratorium",
+    "Name": "Rath Inc and Sons",
+    "Description": "Cloned executive extranet",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 240,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 398,
-        "InUse": 228,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 219,
-        "Name": "Brakus-Balistreri",
-        "Description": "Future-proofed methodical implementation",
-        "PrerequisiteModuleName": "Bayer LLC",
-        "SortOrder": 887,
-        "ExtraFlags": 563,
+        "Total": 363,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 824,
+        "InUse": 430,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 980,
+        "Name": "Shanahan Group",
+        "Description": "Optional leading edge adapter",
+        "PrerequisiteModuleName": "Swaniawski-Leannon",
+        "SortOrder": 796,
+        "ExtraFlags": 867,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldType": "System.String",
+            "FieldLength": 508
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 8,
-        "Tooltip": "sit",
+        "Unrestricted": false,
+        "Total": 913,
+        "Tooltip": "ipsam",
         "CanAssign": false,
-        "Free": 276,
-        "InUse": 403,
+        "Free": 377,
+        "InUse": 912,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 800,
-        "Name": "Doyle LLC",
-        "Description": "De-engineered system-worthy superstructure",
-        "PrerequisiteModuleName": "Walker LLC",
-        "SortOrder": 886,
-        "ExtraFlags": 515,
+        "Assigned": true,
+        "ModuleLicenseId": 136,
+        "Name": "Pacocha LLC",
+        "Description": "Profound bi-directional circuit",
+        "PrerequisiteModuleName": "Rosenbaum Group",
+        "SortOrder": 895,
+        "ExtraFlags": 185,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 737
+            "FieldType": "System.Int32",
+            "FieldLength": 212
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldType": "System.Int32",
+        "FieldLength": 452
       }
     }
   },
   {
-    "Name": "Boehm-Emmerich",
-    "Description": "De-engineered 4th generation moratorium",
+    "Name": "Rath Inc and Sons",
+    "Description": "Cloned executive extranet",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 240,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 398,
-        "InUse": 228,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 219,
-        "Name": "Brakus-Balistreri",
-        "Description": "Future-proofed methodical implementation",
-        "PrerequisiteModuleName": "Bayer LLC",
-        "SortOrder": 887,
-        "ExtraFlags": 563,
+        "Total": 363,
+        "Tooltip": "qui",
+        "CanAssign": false,
+        "Free": 824,
+        "InUse": 430,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 980,
+        "Name": "Shanahan Group",
+        "Description": "Optional leading edge adapter",
+        "PrerequisiteModuleName": "Swaniawski-Leannon",
+        "SortOrder": 796,
+        "ExtraFlags": 867,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldType": "System.String",
+            "FieldLength": 508
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 8,
-        "Tooltip": "sit",
+        "Unrestricted": false,
+        "Total": 913,
+        "Tooltip": "ipsam",
         "CanAssign": false,
-        "Free": 276,
-        "InUse": 403,
+        "Free": 377,
+        "InUse": 912,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 800,
-        "Name": "Doyle LLC",
-        "Description": "De-engineered system-worthy superstructure",
-        "PrerequisiteModuleName": "Walker LLC",
-        "SortOrder": 886,
-        "ExtraFlags": 515,
+        "Assigned": true,
+        "ModuleLicenseId": 136,
+        "Name": "Pacocha LLC",
+        "Description": "Profound bi-directional circuit",
+        "PrerequisiteModuleName": "Rosenbaum Group",
+        "SortOrder": 895,
+        "ExtraFlags": 185,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 737
+            "FieldType": "System.Int32",
+            "FieldLength": 212
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldType": "System.Int32",
+        "FieldLength": 452
       }
     }
   }

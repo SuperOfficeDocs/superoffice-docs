@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "VonRueden-Kerluke"
+  "FileName": "Hilpert Group"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 404,
-      "ContactName": "Stehr, Gislason and VonRueden",
-      "PersonId": 140,
-      "PersonName": "Corkery-Bradtke",
-      "AssociateId": 40,
-      "Address": "veniam",
-      "EmailId": 740,
+      "ContactId": 22,
+      "ContactName": "Wisoky Group",
+      "PersonId": 169,
+      "PersonName": "Krajcik-Bahringer",
+      "AssociateId": 566,
+      "Address": "est",
+      "EmailId": 447,
       "DuplicatePersonIds": [
-        722,
-        361
+        553,
+        508
       ],
-      "Name": "Anderson, White and Nicolas",
+      "Name": "Tillman Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 868
+          "FieldType": "System.Int32",
+          "FieldLength": 669
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 131,
-      "ContactName": "Romaguera Group",
-      "PersonId": 898,
-      "PersonName": "Stoltenberg Inc and Sons",
-      "AssociateId": 814,
-      "Address": "saepe",
-      "EmailId": 204,
+      "ContactId": 987,
+      "ContactName": "Gleason-Gaylord",
+      "PersonId": 722,
+      "PersonName": "Auer, Gerhold and Paucek",
+      "AssociateId": 62,
+      "Address": "qui",
+      "EmailId": 705,
       "DuplicatePersonIds": [
-        951,
-        851
+        768,
+        972
       ],
-      "Name": "Blick, Haley and Heller",
+      "Name": "Harris, Jones and Wiza",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldLength": 153
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 220,
-      "ContactName": "Beahan, Emmerich and Bailey",
-      "PersonId": 673,
-      "PersonName": "Heller-Block",
-      "AssociateId": 820,
-      "Address": "fugit",
-      "EmailId": 139,
+      "ContactId": 985,
+      "ContactName": "Fisher-Bins",
+      "PersonId": 389,
+      "PersonName": "Tillman, Gutkowski and Collins",
+      "AssociateId": 826,
+      "Address": "qui",
+      "EmailId": 480,
       "DuplicatePersonIds": [
-        777,
-        337
+        597,
+        847
       ],
-      "Name": "Leannon Group",
+      "Name": "Stiedemann, Dickens and Goldner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 386
         }
       }
     }
   ],
-  "Subject": "quae",
-  "HTMLBody": "quia",
+  "Subject": "dolor",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2022-03-14T12:19:45.3359926+01:00",
-  "Size": 467,
+  "Sent": "2009-10-06T11:44:33.6815702+02:00",
+  "Size": 689,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "dolore",
+  "MessageID": "commodi",
+  "PlainBody": "cupiditate",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 351,
+  "ServerId": 563,
   "Attachments": [
     {
-      "Description": "Triple-buffered high-level utilisation",
-      "Filename": "dolor",
-      "Size": 970,
-      "Type": "perferendis",
-      "Encoding": "dicta",
-      "Id": "et",
-      "Disposition": "quae",
-      "IsSafeFileExtension": true,
+      "Description": "Extended modular functionalities",
+      "Filename": "tempora",
+      "Size": 274,
+      "Type": "nobis",
+      "Encoding": "ratione",
+      "Id": "veritatis",
+      "Disposition": "ipsa",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 361
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mueller, Rogahn and Satterfield",
+      "Name": "Beier-Koch",
       "Values": [
-        "neque",
-        "est"
+        "consectetur",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 479
         }
       }
     },
     {
-      "Name": "Mueller, Rogahn and Satterfield",
+      "Name": "Beier-Koch",
       "Values": [
-        "neque",
-        "est"
+        "consectetur",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 479
         }
       }
     }
   ],
-  "FolderName": "Muller Group",
-  "EmailItemId": 772,
-  "AccountId": 776,
-  "ReceivedAt": "2005-08-21T12:19:45.3359926+02:00",
+  "FolderName": "Schumm Group",
+  "EmailItemId": 466,
+  "AccountId": 454,
+  "ReceivedAt": "2020-08-30T11:44:33.6815702+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-04-25T12:19:45.3359926+02:00",
+  "RepliedAt": "2019-10-30T11:44:33.6815702+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 556
     }
   }
 }

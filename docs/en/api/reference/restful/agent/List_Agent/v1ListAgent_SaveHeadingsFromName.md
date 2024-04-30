@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Huel Inc and Sons",
+  "Name": "Ritchie LLC",
   "Entities": [
     {
-      "HeadingId": 963,
-      "Name": "Bashirian, Kutch and Breitenberg",
-      "Tooltip": "ut",
+      "HeadingId": 961,
+      "Name": "Robel-Bogan",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 591,
-      "UdListDefinitionId": 225
+      "Rank": 267,
+      "UdListDefinitionId": 807
     },
     {
-      "HeadingId": 963,
-      "Name": "Bashirian, Kutch and Breitenberg",
-      "Tooltip": "ut",
+      "HeadingId": 961,
+      "Name": "Robel-Bogan",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 591,
-      "UdListDefinitionId": 225
+      "Rank": 267,
+      "UdListDefinitionId": 807
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 833,
-    "Name": "Lebsack, Murazik and Schamberger",
-    "Tooltip": "consequuntur",
-    "Deleted": false,
-    "Rank": 843,
-    "UdListDefinitionId": 497,
+    "HeadingId": 1000,
+    "Name": "Wiza, Emard and Collins",
+    "Tooltip": "beatae",
+    "Deleted": true,
+    "Rank": 901,
+    "UdListDefinitionId": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 659
       }
     }
   }

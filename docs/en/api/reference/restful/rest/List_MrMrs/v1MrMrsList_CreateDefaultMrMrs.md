@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Cruickshank, Lowe and Hermiston",
-  "Tooltip": "ex",
+  "Id": 428,
+  "Name": "Tillman-Beier",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "UdListDefinitionId": 237,
-  "Rank": 862,
+  "UdListDefinitionId": 978,
+  "Rank": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   }
 }

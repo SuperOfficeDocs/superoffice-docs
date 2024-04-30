@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 37,
-  "GroupId": 347
+  "UdListDefinitionId": 171,
+  "GroupId": 56
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Lehner-Volkman",
-    "ToolTip": "Ducimus corrupti ut.",
+    "Id": 361,
+    "Name": "Collier-Luettgen",
+    "ToolTip": "Eos et repellendus commodi qui ipsum voluptatum.",
     "Deleted": false,
-    "Rank": 69,
-    "Type": "dolores",
-    "ColorBlock": 639,
-    "IconHint": "quas",
-    "Selected": false,
-    "LastChanged": "2009-07-26T12:19:45.4922171+02:00",
+    "Rank": 273,
+    "Type": "harum",
+    "ColorBlock": 115,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "2016-02-28T11:44:33.8534097+01:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Beer-Kautzer",
-        "ToolTip": "Molestiae consectetur.",
-        "Deleted": true,
-        "Rank": 195,
-        "Type": "ut",
-        "ColorBlock": 789,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2000-11-12T12:19:45.4922171+01:00",
+        "Id": 34,
+        "Name": "Greenholt LLC",
+        "ToolTip": "Saepe voluptatibus repellendus recusandae est nobis quibusdam aut.",
+        "Deleted": false,
+        "Rank": 311,
+        "Type": "consequatur",
+        "ColorBlock": 75,
+        "IconHint": "dignissimos",
+        "Selected": false,
+        "LastChanged": "2011-10-15T11:44:33.8534097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Ms. Dolly Gleichner I",
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Llewellyn Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 891
+            "FieldType": "System.Int32",
+            "FieldLength": 101
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Amira Konopelski",
+    "ExtraInfo": "nulla",
+    "StyleHint": "sapiente",
+    "Hidden": true,
+    "FullName": "Bryana Triston Anderson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 355
       }
     }
   }

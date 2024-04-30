@@ -65,6 +65,10 @@ The TicketTypeEntity to be saved.
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | Boolean | Is this Ticket Type marked as default |
+| ShowInNew | Boolean | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | Boolean | Do not insert user signature automatically |
+| ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 
 ## Response:
 
@@ -91,6 +95,10 @@ TicketTypeEntity updated.
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -101,28 +109,32 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 440,
-  "Name": "Champlin-Champlin",
-  "Rank": 930,
-  "Tooltip": "ipsa",
-  "Icon": "quos",
-  "DefaultTicketStatus": 406,
+  "TicketTypeId": 925,
+  "Name": "Ernser LLC",
+  "Rank": 876,
+  "Tooltip": "cupiditate",
+  "Icon": "dolores",
+  "DefaultTicketStatus": 471,
   "TicketStatuses": [
-    248,
-    480
+    794,
+    440
   ],
-  "DefaultTicketPriority": 413,
+  "DefaultTicketPriority": 765,
   "TicketPriorities": [
-    617,
-    600
+    648,
+    632
   ],
-  "ReplyTemplate": 58,
+  "ReplyTemplate": 536,
   "IsExternalVisible": true,
-  "IsDefault": false
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true
 }
 ```
 
@@ -133,35 +145,39 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 156,
-  "Name": "Farrell Group",
-  "Rank": 48,
-  "Tooltip": "voluptatem",
-  "Icon": "ullam",
-  "DefaultTicketStatus": 373,
+  "TicketTypeId": 131,
+  "Name": "Stiedemann, Block and Sporer",
+  "Rank": 138,
+  "Tooltip": "aut",
+  "Icon": "in",
+  "DefaultTicketStatus": 364,
   "TicketStatuses": [
-    670,
-    787
+    346,
+    754
   ],
-  "DefaultTicketPriority": 627,
+  "DefaultTicketPriority": 563,
   "TicketPriorities": [
-    621,
-    972
+    563,
+    350
   ],
-  "ReplyTemplate": 433,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 531,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldLength": 597
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

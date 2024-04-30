@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 712,
-  "AssociateId": 759,
-  "Caption": "alias",
+  "DashboardId": 789,
+  "AssociateId": 719,
+  "Caption": "magnam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 669,
-      "Caption": "provident",
-      "Description": "Public-key value-added capability",
-      "ChartName": "McDermott, Dach and Connelly",
-      "ChartId": "sed",
-      "IsDefault": true,
-      "AssociateId": 424,
-      "GroupId": 900,
-      "SelectionId": 934,
-      "Config": "veniam",
+      "DashboardTileId": 420,
+      "Caption": "illum",
+      "Description": "Fundamental dedicated portal",
+      "ChartName": "Hagenes, Stamm and Rohan",
+      "ChartId": "laudantium",
+      "IsDefault": false,
+      "AssociateId": 27,
+      "GroupId": 425,
+      "SelectionId": 420,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 13,
-  "AssociateId": 545,
-  "Caption": "sint",
+  "DashboardId": 35,
+  "AssociateId": 765,
+  "Caption": "itaque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 186,
-      "Caption": "laudantium",
-      "Description": "Decentralized composite emulation",
-      "ChartName": "Kuhic Group",
-      "ChartId": "adipisci",
-      "IsDefault": true,
-      "AssociateId": 247,
-      "GroupId": 32,
-      "SelectionId": 641,
-      "Config": "ea",
+      "DashboardTileId": 48,
+      "Caption": "non",
+      "Description": "Extended dynamic emulation",
+      "ChartName": "Ledner, Nikolaus and Rempel",
+      "ChartId": "nesciunt",
+      "IsDefault": false,
+      "AssociateId": 234,
+      "GroupId": 483,
+      "SelectionId": 171,
+      "Config": "numquam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 167
         }
       }
     }
@@ -167,12 +167,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 760
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

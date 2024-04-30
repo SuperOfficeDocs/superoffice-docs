@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Will Inc and Sons",
-    "AssociateId": 944,
-    "DetailsTable": 649,
-    "DetailsRecord": 876,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 128,
+    "Name": "Carter-Runolfsdottir",
+    "AssociateId": 365,
+    "DetailsTable": 943,
+    "DetailsRecord": 557,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quos",
-      "ParameterObject2": "dolor"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "quas"
     },
-    "LastStarted": "2001-01-11T12:19:54.0866374+01:00",
-    "Created": "2010-03-07T12:19:54.0866374+01:00",
-    "StartCount": 649,
-    "DatabaseSerialNumber": "1138053",
-    "Context": "vero",
-    "Result": "quaerat",
+    "LastStarted": "2019-04-15T11:44:42.7107372+02:00",
+    "Created": "2001-04-24T11:44:42.7107372+02:00",
+    "StartCount": 545,
+    "DatabaseSerialNumber": "451072",
+    "Context": "magni",
+    "Result": "omnis",
     "State": "All",
-    "Description": "Profit-focused 3rd generation definition",
-    "Response": "voluptate",
-    "Request": "corporis",
-    "ProgressDescription": "De-engineered local analyzer",
-    "ProgressPercent": 564,
-    "FileName": "Hintz Inc and Sons",
+    "Description": "Mandatory incremental extranet",
+    "Response": "deserunt",
+    "Request": "dolor",
+    "ProgressDescription": "Team-oriented transitional circuit",
+    "ProgressPercent": 207,
+    "FileName": "Lind-Kassulke",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 965
+        "FieldLength": 699
       }
     }
   }

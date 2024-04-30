@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schmidt-Wiegand"
+  "OwnerName": "Bins Group"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 727,
-      "NumberOfLicensesFree": 520,
-      "NumberOfLicensesAdded": 377,
-      "NumberOfLicensesNewTotal": 167,
-      "NumberOfLicensesNewFree": 903,
-      "NumberOfLicensesTotal": 390
+      "NumberOfLicensesInUse": 255,
+      "NumberOfLicensesFree": 872,
+      "NumberOfLicensesAdded": 791,
+      "NumberOfLicensesNewTotal": 721,
+      "NumberOfLicensesNewFree": 933,
+      "NumberOfLicensesTotal": 43
     }
   ],
-  "AccumulatedNextCheckDate": "2015-10-10T12:19:45.4297292+02:00"
+  "AccumulatedNextCheckDate": "2017-07-29T11:44:33.7909305+02:00"
 }
 ```

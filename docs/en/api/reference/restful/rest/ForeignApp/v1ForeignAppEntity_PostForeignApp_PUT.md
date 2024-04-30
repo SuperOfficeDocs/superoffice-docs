@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 281,
-  "Name": "Satterfield, Berge and Littel",
-  "CreatedDate": "1999-10-04T12:19:53.5867469+02:00",
-  "UpdatedDate": "2011-08-03T12:19:53.5867469+02:00",
+  "ForeignAppId": 52,
+  "Name": "Raynor Group",
+  "CreatedDate": "2017-02-06T11:44:41.9765217+01:00",
+  "UpdatedDate": "2019-01-24T11:44:41.9765217+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 157,
-      "Name": "Stanton-Farrell",
-      "CreatedDate": "2002-10-15T12:19:53.5867469+02:00",
-      "UpdatedDate": "1998-07-28T12:19:53.5867469+02:00",
-      "AssociateFullName": "Mr. Shayne Della Stamm II",
-      "CreatedBy": "sequi",
-      "UpdatedBy": "dolor",
-      "DeviceIdentifier": "error",
-      "ForeignAppId": 263,
+      "ForeignDeviceId": 906,
+      "Name": "Haag, Schroeder and Powlowski",
+      "CreatedDate": "2003-03-15T11:44:41.9765217+01:00",
+      "UpdatedDate": "2020-08-01T11:44:41.9765217+02:00",
+      "AssociateFullName": "Naomi Anna Emard I",
+      "CreatedBy": "eveniet",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 517,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 191
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

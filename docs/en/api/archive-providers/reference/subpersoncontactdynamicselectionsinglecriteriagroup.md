@@ -800,7 +800,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=contactDeleted,personSourceRelation/personNoMail,personTargetRelation/firstName,personTargetRelation/rank,personAssociate/contactDepartment
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=contactId,personAddress/addressId,personUdef/SuperOffice:1,personTargetRelation/personSource,restrictionAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

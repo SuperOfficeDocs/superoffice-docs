@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 881,
-    "Name": "Osinski, Hudson and Osinski",
-    "Description": "Configurable stable methodology",
-    "DeltaJson": "doloremque",
+    "ConfigurableScreenDeltaId": 135,
+    "Name": "Murazik LLC",
+    "Description": "Synchronised client-driven process improvement",
+    "DeltaJson": "aut",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "accusamus",
-    "UpdatedDate": "2008-03-22T12:19:44.8361197+01:00",
-    "CreatedDate": "2008-02-28T12:19:44.8361197+01:00",
+    "RecipeId": "et",
+    "UpdatedDate": "2011-09-16T11:44:32.9942315+02:00",
+    "CreatedDate": "1998-01-29T11:44:32.9942315+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      774,
-      229
+      115,
+      401
     ],
-    "AppliesToKey": "hic",
+    "AppliesToKey": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldLength": 321
       }
     }
   }

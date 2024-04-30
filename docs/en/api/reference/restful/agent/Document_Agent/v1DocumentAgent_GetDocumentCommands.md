@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 448,
+  "DocumentId": 758,
   "AllowedReturnTypes": [
-    "voluptate",
-    "voluptatem"
+    "voluptatem",
+    "ut"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bauch-Ryan",
-    "DisplayName": "Wisozk, Schroeder and Stanton",
-    "DisplayTooltip": "nulla",
-    "IconHint": "asperiores",
+    "Name": "Howell-Cole",
+    "DisplayName": "Keebler-Davis",
+    "DisplayTooltip": "ipsum",
+    "IconHint": "voluptates",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Bauch-Ryan",
-    "DisplayName": "Wisozk, Schroeder and Stanton",
-    "DisplayTooltip": "nulla",
-    "IconHint": "asperiores",
+    "Name": "Howell-Cole",
+    "DisplayName": "Keebler-Davis",
+    "DisplayTooltip": "ipsum",
+    "IconHint": "voluptates",
     "ReturnType": "CustomGui"
   }
 ]

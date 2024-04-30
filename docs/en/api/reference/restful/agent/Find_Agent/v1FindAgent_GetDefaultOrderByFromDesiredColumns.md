@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Roberts, Shanahan and Champlin",
+  "ProviderName": "Turner LLC",
   "DesiredColumns": [
-    "a",
-    "occaecati"
+    "quis",
+    "doloribus"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Casper Inc and Sons",
+    "Name": "Orn Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Casper Inc and Sons",
+    "Name": "Orn Group",
     "Direction": "ASC"
   }
 ]

@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 182,
-    "Section": "aut",
-    "Key": "facilis",
-    "Name": "Renner-Conroy",
+    "PrefDescId": 102,
+    "Section": "nam",
+    "Key": "iste",
+    "Name": "Kerluke, Gorczany and Spinka",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persevering optimal moratorium",
+    "Description": "Stand-alone hybrid local area network",
     "IsBuiltin": false,
-    "TableName": "Senger Group",
-    "UserDefinedListId": 356,
-    "Rank": 409,
-    "SubGroup": "illo",
-    "MinLevel": 313,
-    "MaxValue": 804,
-    "MinValue": 139,
-    "RequiredLicense": "vel",
+    "TableName": "Bartoletti, Will and Blanda",
+    "UserDefinedListId": 925,
+    "Rank": 867,
+    "SubGroup": "amet",
+    "MinLevel": 566,
+    "MaxValue": 368,
+    "MinValue": 880,
+    "RequiredLicense": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 327
       }
     }
   }

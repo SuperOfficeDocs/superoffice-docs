@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Document/ValidateDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nam",
-  "2": "quia"
+  "1": "assumenda",
+  "2": "maxime"
 }
 ```

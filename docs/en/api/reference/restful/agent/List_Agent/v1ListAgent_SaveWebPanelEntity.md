@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 885,
-  "Name": "Morar-Langosh",
-  "Tooltip": "temporibus",
+  "WebPanelId": 430,
+  "Name": "Weber LLC",
+  "Tooltip": "in",
   "Deleted": true,
-  "Rank": 239,
+  "Rank": 143,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Cummerata, Greenholt and Schmitt",
+  "WindowName": "Anderson, Reichel and Tillman",
   "Url": "http://www.example.com/",
-  "ProgId": "sit",
-  "Icon": 690,
+  "ProgId": "voluptatum",
+  "Icon": 500,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 638,
-  "Name": "Bruen-Bahringer",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 33,
+  "WebPanelId": 557,
+  "Name": "Rath-Gleichner",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 227,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Cummings, Gorczany and Douglas",
+  "WindowName": "Kuphal Group",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 715,
+  "ProgId": "at",
+  "Icon": 228,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

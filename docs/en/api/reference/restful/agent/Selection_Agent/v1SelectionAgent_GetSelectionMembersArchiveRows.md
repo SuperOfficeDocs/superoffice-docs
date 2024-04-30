@@ -84,8 +84,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 727,
-  "Select": "consequuntur"
+  "SelectionId": 610,
+  "Select": "dolores"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Price, Stanton and Windler",
-    "PrimaryKey": 817,
+    "EntityName": "Bartoletti Group",
+    "PrimaryKey": 24,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "accusamus",
-        "TooltipHint": "error",
-        "LinkHint": "ducimus"
+        "DisplayValue": "maiores",
+        "TooltipHint": "dicta",
+        "LinkHint": "sint"
       }
     },
-    "LinkHint": "odio",
-    "StyleHint": "ut",
+    "LinkHint": "unde",
+    "StyleHint": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 762
+        "FieldType": "System.Int32",
+        "FieldLength": 274
       }
     }
   }

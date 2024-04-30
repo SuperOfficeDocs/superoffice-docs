@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 765,
-    "Name": "Feeney-Mertz",
-    "CurrencyId": 696,
-    "EnglishName": "Langworth Inc and Sons",
+    "CountryId": 452,
+    "Name": "Reynolds LLC",
+    "CurrencyId": 783,
+    "EnglishName": "Collins-Hills",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Proactive optimal customer loyalty",
-    "OrgNrText": "1604368",
-    "InterAreaPrefix": "delectus",
-    "DialInPrefix": "eos",
-    "ZipPrefix": "aut",
-    "DomainName": "Powlowski-Heathcote",
-    "AddressLayoutId": 794,
-    "DomesticAddressLayoutId": 175,
-    "ForeignAddressLayoutId": 891,
-    "Rank": 165,
-    "Tooltip": "eos",
+    "ImageDescription": "Triple-buffered radical protocol",
+    "OrgNrText": "1079446",
+    "InterAreaPrefix": "explicabo",
+    "DialInPrefix": "fugit",
+    "ZipPrefix": "placeat",
+    "DomainName": "Haley Inc and Sons",
+    "AddressLayoutId": 203,
+    "DomesticAddressLayoutId": 75,
+    "ForeignAddressLayoutId": 423,
+    "Rank": 339,
+    "Tooltip": "sit",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 231
       }
     }
   }

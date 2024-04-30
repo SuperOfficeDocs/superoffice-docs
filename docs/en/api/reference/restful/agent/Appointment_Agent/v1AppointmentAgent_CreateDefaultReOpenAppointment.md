@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 171
+  "SaleId": 236
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-01-11T12:19:44.3987085+01:00",
-  "AppointmentId": 311,
-  "Description": "Focused motivating adapter",
-  "Title": "fugit",
-  "Agenda": "praesentium",
-  "InternalNotes": "quasi",
-  "StartDate": "2016-08-26T12:19:44.3987085+02:00",
-  "EndDate": "2004-08-27T12:19:44.3987085+02:00",
+  "CreatedDate": "2004-09-04T11:44:32.6818015+02:00",
+  "AppointmentId": 574,
+  "Description": "Public-key zero administration secured line",
+  "Title": "sapiente",
+  "Agenda": "doloribus",
+  "InternalNotes": "aut",
+  "StartDate": "2015-10-11T11:44:32.6818015+02:00",
+  "EndDate": "2000-03-10T11:44:32.6818015+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 996,
+  "MotherId": 4,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-01-14T12:19:44.3987085+01:00",
+  "UpdatedDate": "2006-08-11T11:44:32.6974238+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 552,
+  "ActiveLinks": 246,
   "Links": [
     {
-      "EntityName": "Jaskolski-Muller",
-      "Id": 9,
-      "Description": "Extended 6th generation intranet",
-      "ExtraInfo": "perferendis",
-      "LinkId": 180,
+      "EntityName": "Walker-Fahey",
+      "Id": 552,
+      "Description": "Future-proofed dedicated process improvement",
+      "ExtraInfo": "et",
+      "LinkId": 692,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 918
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolore",
+  "AlarmLeadTime": "hic",
   "HasAlarm": false,
-  "ColorIndex": 109,
-  "IsFree": true,
+  "ColorIndex": 576,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "sed",
-  "LeadTime": "molestias",
-  "Location": "quibusdam",
-  "RejectCounter": 950,
+  "LagTime": "perferendis",
+  "LeadTime": "et",
+  "Location": "et",
+  "RejectCounter": 358,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 238,
-      "PersonId": 806,
-      "ContactId": 177,
-      "EmailId": 875,
-      "SendEmail": true,
+      "AssociateId": 743,
+      "PersonId": 920,
+      "ContactId": 546,
+      "EmailId": 240,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "soledad.lesch@torphy.ca",
-      "Description": "Networked upward-trending moratorium"
+      "EmailAddress": "loraine_kunze@lakin.us",
+      "Description": "Fundamental multimedia interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-06-06T12:19:44.3987085+02:00",
+  "ActiveDate": "1997-09-24T11:44:32.6974238+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 251,
+  "PreferredTZLocation": 398,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 834,
+  "SuggestedAppointmentId": 90,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ut",
+  "CentralserviceVideomeetId": "sit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Marion O'Kon III",
-    "SuperOffice:2": "Amya Waters"
+    "SuperOffice:1": "Miss Jaydon Blanche Wiegand",
+    "SuperOffice:2": "Hassan Beahan"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "et",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2022-12-05T12:19:44.3987085+01:00",
-  "PublishTo": "2014-03-14T12:19:44.3987085+01:00",
-  "PublishFrom": "2011-11-25T12:19:44.3987085+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-08-03T11:44:32.6974238+02:00",
+  "PublishTo": "2003-04-19T11:44:32.6974238+02:00",
+  "PublishFrom": "2021-10-13T11:44:32.6974238+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 775,
+      "VisibleId": 175,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldType": "System.String",
+          "FieldLength": 766
         }
       }
     },
     {
-      "VisibleId": 775,
+      "VisibleId": 175,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldType": "System.String",
+          "FieldLength": 766
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 145
     }
   }
 }

@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Rau-Howe",
-      "Operator": "itaque",
+      "Name": "Daugherty Group",
+      "Operator": "tempora",
       "Values": [
-        "distinctio",
-        "vitae"
+        "laboriosam",
+        "enim"
       ],
       "DisplayValues": [
-        "quaerat",
-        "totam"
+        "blanditiis",
+        "velit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 692,
+      "InterParenthesis": 885,
       "InterOperator": "And",
-      "UniqueHash": 30
+      "UniqueHash": 658
     }
   ],
-  "ProviderName": "Bogisich-Emard",
+  "ProviderName": "Jacobs, Block and Mante",
   "DesiredColumns": [
-    "nam",
-    "exercitationem"
+    "numquam",
+    "et"
   ],
-  "PageSize": 48,
-  "PageNumber": 442
+  "PageSize": 947,
+  "PageNumber": 41
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bergnaum Group",
-      "DisplayTooltip": "quo",
-      "DisplayType": "nisi",
-      "CanOrderBy": false,
-      "Name": "Blanda, Armstrong and Corwin",
-      "CanRestrictBy": false,
-      "RestrictionType": "optio",
-      "RestrictionListName": "Denesik, Cronin and Tromp",
-      "IsVisible": false,
-      "ExtraInfo": "molestiae",
-      "Width": "dignissimos",
-      "IconHint": "sint",
-      "HeadingIconHint": "odit"
+      "DisplayName": "Effertz LLC",
+      "DisplayTooltip": "error",
+      "DisplayType": "quia",
+      "CanOrderBy": true,
+      "Name": "Larson Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "quia",
+      "RestrictionListName": "Hermiston, Graham and Thiel",
+      "IsVisible": true,
+      "ExtraInfo": "reprehenderit",
+      "Width": "ad",
+      "IconHint": "et",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Greenholt, Ortiz and Emard",
-      "PrimaryKey": 621,
+      "EntityName": "Greenholt, Cartwright and Weimann",
+      "PrimaryKey": 657,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ipsum",
-          "TooltipHint": "et",
-          "LinkHint": "voluptatum"
+          "DisplayValue": "vel",
+          "TooltipHint": "maiores",
+          "LinkHint": "animi"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "accusamus",
+      "LinkHint": "id",
+      "StyleHint": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 65
         }
       }
     }
   ],
-  "RowCount": 689,
+  "RowCount": 280,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

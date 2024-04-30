@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 100,
-  "Server": "consequatur",
-  "Port": 430,
-  "AuthType": "dolor",
-  "Username": "expedita",
-  "Password": "consequatur"
+  "ServiceAuthId": 953,
+  "Server": "a",
+  "Port": 487,
+  "AuthType": "perspiciatis",
+  "Username": "illo",
+  "Password": "vitae"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 599,
-  "Server": "illum",
-  "Port": 745,
-  "AuthType": "nobis",
-  "Username": "aut",
-  "Password": "vel",
+  "ServiceAuthId": 321,
+  "Server": "beatae",
+  "Port": 435,
+  "AuthType": "consequatur",
+  "Username": "perspiciatis",
+  "Password": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   }
 }

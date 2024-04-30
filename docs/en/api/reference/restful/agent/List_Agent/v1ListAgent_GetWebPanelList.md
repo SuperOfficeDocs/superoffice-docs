@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 588,
-    "Name": "Treutel, Effertz and Williamson",
-    "Tooltip": "eum",
-    "Deleted": true,
-    "Rank": 181,
+    "WebPanelId": 103,
+    "Name": "Altenwerth Inc and Sons",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 397,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": true,
+    "OnSatellite": false,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Harris, Reichel and Renner",
+    "WindowName": "Terry Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "illum",
-    "Icon": 123,
+    "ProgId": "beatae",
+    "Icon": 294,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

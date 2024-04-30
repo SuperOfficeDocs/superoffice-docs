@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Langosh, Rolfson and Wilkinson",
-    "Tooltip": "sit",
+    "Id": 411,
+    "Name": "Olson Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 189,
-    "Rank": 527
+    "UdListDefinitionId": 916,
+    "Rank": 133
   },
   {
-    "Id": 480,
-    "Name": "Langosh, Rolfson and Wilkinson",
-    "Tooltip": "sit",
+    "Id": 411,
+    "Name": "Olson Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 189,
-    "Rank": 527
+    "UdListDefinitionId": 916,
+    "Rank": 133
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Bode-Gaylord",
-    "Tooltip": "vitae",
+    "Id": 232,
+    "Name": "Kessler, Kohler and Sipes",
+    "Tooltip": "quos",
     "Deleted": false,
-    "UdListDefinitionId": 756,
-    "Rank": 505,
+    "UdListDefinitionId": 331,
+    "Rank": 322,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

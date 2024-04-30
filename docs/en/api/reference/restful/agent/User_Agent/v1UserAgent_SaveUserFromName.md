@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Wilderman, Emmerich and Hintz",
+  "UserName": "Kutch Group",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 130,
-  "Name": "Cruickshank-Rau",
-  "Rank": 345,
-  "Tooltip": "ut",
+  "AssociateId": 63,
+  "Name": "Oberbrunner-Fahey",
+  "Rank": 289,
+  "Tooltip": "quo",
   "LicenseOwners": [
     {
-      "Name": "Johnson-Turner",
-      "Description": "Cloned actuating support",
+      "Name": "Adams-Ryan",
+      "Description": "De-engineered exuding superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 220
+          "FieldType": "System.Int32",
+          "FieldLength": 368
         }
       }
     },
     {
-      "Name": "Johnson-Turner",
-      "Description": "Cloned actuating support",
+      "Name": "Adams-Ryan",
+      "Description": "De-engineered exuding superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 220
+          "FieldType": "System.Int32",
+          "FieldLength": 368
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "asperiores",
-      "Tooltip": "eius",
-      "Id": 415,
-      "Rank": 257,
-      "Deleted": true,
+      "Value": "eos",
+      "Tooltip": "id",
+      "Id": 659,
+      "Rank": 491,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldLength": 585
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-05-08T12:19:46.616955+02:00",
-  "Lastlogout": "2023-08-17T12:19:46.616955+02:00",
-  "EjUserId": 549,
-  "RequestSignature": "accusantium",
+  "Lastlogin": "2022-01-04T11:44:34.9937757+01:00",
+  "Lastlogout": "2001-08-29T11:44:34.9937757+02:00",
+  "EjUserId": 528,
+  "RequestSignature": "tempore",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "id",
-      "DisplayValue": "qui",
+      "Value": "optio",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 89
         }
       }
     },
     {
       "Type": null,
-      "Value": "id",
-      "DisplayValue": "qui",
+      "Value": "optio",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 89
         }
       }
     }
   ],
-  "UserName": "Leannon Inc and Sons",
+  "UserName": "Kassulke-Lehner",
   "TicketCategories": [
     {
-      "Id": 251,
-      "Name": "Abshire, Wolf and Larson",
-      "ToolTip": "Earum labore veniam omnis cupiditate et qui.",
+      "Id": 602,
+      "Name": "Jaskolski LLC",
+      "ToolTip": "Iusto occaecati optio minima nemo mollitia et.",
       "Deleted": false,
-      "Rank": 128,
-      "Type": "sed",
+      "Rank": 127,
+      "Type": "earum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ratione",
-      "ColorBlock": 810,
-      "ExtraInfo": "ratione",
+      "IconHint": "voluptatibus",
+      "ColorBlock": 664,
+      "ExtraInfo": "aliquid",
       "StyleHint": "voluptas",
-      "FullName": "Travon Pouros",
+      "FullName": "Dr. Camron Nathanial Hauck",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 377
         }
       }
     }
   ],
-  "NickName": "Wisozk, Toy and Davis",
-  "WaitingForApproval": true,
+  "NickName": "Hegmann-Lehner",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "tenetur"
+    "CustomFields1": "vitae",
+    "CustomFields2": "est"
   },
   "PostSaveCommands": [
     {
-      "Name": "Shanahan, Wintheiser and Schneider",
-      "DisplayName": "Lind Inc and Sons",
-      "Description": "Decentralized scalable open architecture",
-      "ToolTip": "Odit odit tenetur voluptatem saepe.",
+      "Name": "Lang Inc and Sons",
+      "DisplayName": "Hane LLC",
+      "Description": "Robust background monitoring",
+      "ToolTip": "Aliquid consectetur explicabo aliquam voluptatem et modi.",
       "Actions": "Implicit",
-      "ActionData": "reiciendis",
+      "ActionData": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldType": "System.Int32",
+          "FieldLength": 112
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 727
     }
   }
 }

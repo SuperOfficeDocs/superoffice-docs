@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Kessler-Windler",
-  "Tooltip": "laudantium",
+  "Id": 976,
+  "Name": "Glover, Treutel and Yundt",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 952,
+  "Rank": 51,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Walsh LLC",
-  "Tooltip": "sit",
+  "Id": 830,
+  "Name": "Sauer LLC",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 611,
+  "Rank": 161,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "asperiores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldLength": 395
     }
   }
 }

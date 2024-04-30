@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=516
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=101
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -69,6 +69,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,30 +92,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 79,
-  "Name": "Feeney, Daugherty and Ruecker",
-  "Rank": 216,
-  "Tooltip": "aperiam",
-  "Icon": "sit",
-  "DefaultTicketStatus": 633,
+  "TicketTypeId": 113,
+  "Name": "Ondricka-Crooks",
+  "Rank": 611,
+  "Tooltip": "nisi",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 215,
   "TicketStatuses": [
-    908,
-    863
+    188,
+    270
   ],
-  "DefaultTicketPriority": 736,
+  "DefaultTicketPriority": 860,
   "TicketPriorities": [
-    658,
-    673
+    583,
+    790
   ],
-  "ReplyTemplate": 633,
+  "ReplyTemplate": 394,
   "IsExternalVisible": false,
   "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

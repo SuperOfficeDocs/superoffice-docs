@@ -81,9 +81,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeInvitations": true,
-  "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 743
+  "IncludeInvitations": false,
+  "IncludeAllAppointments": false,
+  "DefaultAlarmLeadTimeInMinutes": 412
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 854,
-      "StartTime": "2020-09-13T12:19:44.1956294+02:00",
-      "EndDate": "2019-01-01T12:19:44.1956294+01:00",
-      "AlarmTime": "2004-09-11T12:19:44.1956294+02:00",
-      "PersonId": 651,
-      "PersonFullName": "Axel Thiel",
-      "ContactName": "Larson, Kuvalis and Miller",
-      "ProjectId": 123,
-      "ProjectName": "Simonis Inc and Sons",
-      "AppointmentText": "doloremque",
-      "SaleId": 363,
-      "SaleName": "Kerluke, Rath and Roob",
-      "Location": "pariatur",
+      "AppointmentId": 764,
+      "StartTime": "2015-10-20T11:44:32.4787305+02:00",
+      "EndDate": "2016-10-15T11:44:32.4787305+02:00",
+      "AlarmTime": "2013-09-16T11:44:32.4787305+02:00",
+      "PersonId": 924,
+      "PersonFullName": "Dr. Maxwell Barton",
+      "ContactName": "Simonis-Yundt",
+      "ProjectId": 155,
+      "ProjectName": "Walter Group",
+      "AppointmentText": "reprehenderit",
+      "SaleId": 544,
+      "SaleName": "Hickle-Wuckert",
+      "Location": "voluptatibus",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 370,
+      "ContactId": 998,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Bins-Batz",
-      "TaskName": "O'Hara, Konopelski and Weber",
+      "FormalName": "Johnston LLC",
+      "TaskName": "Collins, O'Hara and Green",
       "ContactDepartment": "",
-      "ContactFullName": "Ms. Leonardo Hirthe",
+      "ContactFullName": "Augusta Cassin",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldLength": 829
         }
       }
     }
   ],
-  "PollingInterval": 341,
-  "SilentAfter": 6,
+  "PollingInterval": 379,
+  "SilentAfter": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 788
     }
   }
 }

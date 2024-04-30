@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Kassulke-Williamson",
-    "ToolTip": "Molestiae qui occaecati eum.",
-    "Deleted": true,
-    "Rank": 372,
-    "Type": "quae",
-    "ColorBlock": 199,
-    "IconHint": "blanditiis",
-    "Selected": false,
-    "LastChanged": "2016-12-25T12:19:54.8364594+01:00",
+    "Id": 817,
+    "Name": "Crist LLC",
+    "ToolTip": "Animi est ut excepturi eos laboriosam minus.",
+    "Deleted": false,
+    "Rank": 67,
+    "Type": "consectetur",
+    "ColorBlock": 473,
+    "IconHint": "unde",
+    "Selected": true,
+    "LastChanged": "2000-10-17T11:44:43.3355939+02:00",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "Hickle Group",
-        "ToolTip": "Ea rerum.",
-        "Deleted": true,
-        "Rank": 397,
-        "Type": "iste",
-        "ColorBlock": 822,
-        "IconHint": "consequatur",
+        "Id": 803,
+        "Name": "Ullrich LLC",
+        "ToolTip": "Quia enim et debitis.",
+        "Deleted": false,
+        "Rank": 169,
+        "Type": "facilis",
+        "ColorBlock": 195,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2013-05-27T12:19:54.8364594+02:00",
+        "LastChanged": "2011-10-11T11:44:43.3355939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Erika Jenkins",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Ms. Laron Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 621
+            "FieldType": "System.String",
+            "FieldLength": 528
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "ab",
-    "Hidden": true,
-    "FullName": "Yvette Gutkowski",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Prof. Florian Kiana Beer DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 19
       }
     }
   }

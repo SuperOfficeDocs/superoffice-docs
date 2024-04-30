@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "McDermott-Bartoletti",
-    "ToolTip": "Aut dolore.",
-    "Deleted": false,
-    "Rank": 839,
-    "Type": "omnis",
-    "ColorBlock": 469,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2016-03-30T12:19:54.789597+02:00",
+    "Id": 533,
+    "Name": "Kuhic LLC",
+    "ToolTip": "Reiciendis quasi omnis quia sit aliquid facere.",
+    "Deleted": true,
+    "Rank": 937,
+    "Type": "expedita",
+    "ColorBlock": 432,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2023-07-30T11:44:43.2887254+02:00",
     "ChildItems": [
       {
-        "Id": 892,
-        "Name": "Jaskolski Group",
-        "ToolTip": "Accusantium voluptatem et unde qui esse quas.",
+        "Id": 725,
+        "Name": "Morissette, Haley and Waelchi",
+        "ToolTip": "Quasi eum dolorem ex ab asperiores doloribus minus.",
         "Deleted": true,
-        "Rank": 16,
-        "Type": "dolores",
-        "ColorBlock": 251,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2006-04-11T12:19:54.789597+02:00",
+        "Rank": 618,
+        "Type": "numquam",
+        "ColorBlock": 336,
+        "IconHint": "repellat",
+        "Selected": true,
+        "LastChanged": "2012-09-21T11:44:43.2887254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "quia",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Deshawn Quitzon",
+        "FullName": "Prof. Stuart Carlie Boyer Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldType": "System.String",
+            "FieldLength": 338
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "quia",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Samanta Idell Kutch DVM",
+    "FullName": "Roxane Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 943
       }
     }
   }

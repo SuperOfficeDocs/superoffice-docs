@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 182,
-      "UniqueId": "sed",
-      "Name": "Kuhn-Yundt",
-      "Description": "Right-sized dedicated open system",
-      "AssociateId": 61,
-      "Columns": 281,
+      "DashboardId": 784,
+      "UniqueId": "ullam",
+      "Name": "Strosin-Bauch",
+      "Description": "Enterprise-wide regional capacity",
+      "AssociateId": 755,
+      "Columns": 776,
       "Theme": null,
-      "VisibleForAll": 184,
+      "VisibleForAll": 214,
       "VisibleForAssociates": [
-        212,
-        683
+        495,
+        146
       ],
       "VisibleForGroups": [
-        434,
-        781
+        139,
+        884
       ],
-      "PinForAll": 520,
+      "PinForAll": 754,
       "PinForAssociates": [
-        692,
-        944
+        739,
+        280
       ],
       "PinForGroups": [
-        266,
-        121
+        305,
+        798
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 653
+          "FieldLength": 534
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 660,
-      "UniqueId": "totam",
-      "Name": "Medhurst-Murray",
-      "Description": "Organic optimizing strategy",
-      "AssociateId": 608,
-      "Columns": 477,
+      "DashboardId": 235,
+      "UniqueId": "dolores",
+      "Name": "Huels LLC",
+      "Description": "Extended grid-enabled benchmark",
+      "AssociateId": 796,
+      "Columns": 478,
       "Theme": null,
-      "VisibleForAll": 19,
+      "VisibleForAll": 855,
       "VisibleForAssociates": [
-        124,
-        763
+        399,
+        163
       ],
       "VisibleForGroups": [
-        667,
-        674
+        624,
+        547
       ],
-      "PinForAll": 403,
+      "PinForAll": 504,
       "PinForAssociates": [
-        501,
-        152
+        561,
+        257
       ],
       "PinForGroups": [
-        88,
-        797
+        23,
+        246
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldType": "System.String",
+          "FieldLength": 728
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 228,
-      "UniqueId": "perferendis",
-      "Name": "Abbott-Rohan",
-      "Description": "Managed mission-critical utilisation",
-      "AssociateId": 832,
-      "Columns": 727,
+      "DashboardId": 26,
+      "UniqueId": "nihil",
+      "Name": "Wyman-Farrell",
+      "Description": "Self-enabling background open architecture",
+      "AssociateId": 243,
+      "Columns": 632,
       "Theme": null,
-      "VisibleForAll": 471,
+      "VisibleForAll": 976,
       "VisibleForAssociates": [
-        300,
-        107
+        409,
+        873
       ],
       "VisibleForGroups": [
-        558,
-        306
+        339,
+        366
       ],
-      "PinForAll": 8,
+      "PinForAll": 450,
       "PinForAssociates": [
-        174,
-        977
+        552,
+        5
       ],
       "PinForGroups": [
-        160,
-        44
+        273,
+        177
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 645
+          "FieldLength": 326
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 270
     }
   }
 }

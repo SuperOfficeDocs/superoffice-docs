@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 8,
-    "Name": "Carter Inc and Sons",
-    "Tooltip": "recusandae",
-    "Deleted": true,
-    "Rank": 438,
-    "UdListDefinitionId": 432,
+    "HeadingId": 753,
+    "Name": "Haag Group",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "Rank": 942,
+    "UdListDefinitionId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 324
       }
     }
   }

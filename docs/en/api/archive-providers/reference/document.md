@@ -700,7 +700,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=documentPublish/publishedTo,person/personAssociate/assocName,project/projectAssociate/contactDepartment
+GET /api/v1/archive/Document?$select=person/personPager/formattedNumber,person/personExtra/x_person_request_relation,person/correspondingAssociate/assocTooltip,contact/streetAddress/line1,sale/credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

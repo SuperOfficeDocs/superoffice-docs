@@ -93,17 +93,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 229,
-  "Name": "Jast LLC",
-  "Tooltip": "ratione",
-  "Rank": 264,
+  "SuggestedAppointmentId": 956,
+  "Name": "Pagac, DuBuque and Wilderman",
+  "Tooltip": "eos",
+  "Rank": 533,
   "Deleted": false,
-  "DaysFuture": 387,
-  "Duration": "voluptatum",
-  "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "qui",
+  "DaysFuture": 126,
+  "Duration": "cum",
+  "AutoSuggest": true,
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "aut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 963,
-  "Name": "Stroman Inc and Sons",
-  "Tooltip": "sed",
-  "Rank": 511,
+  "SuggestedAppointmentId": 24,
+  "Name": "Kshlerin-Brown",
+  "Tooltip": "non",
+  "Rank": 16,
   "Deleted": false,
-  "DaysFuture": 219,
-  "Duration": "modi",
-  "AutoSuggest": false,
+  "DaysFuture": 209,
+  "Duration": "exercitationem",
+  "AutoSuggest": true,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "enim",
+  "AssignToMember": true,
+  "Text": "non",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 620
     }
   }
 }

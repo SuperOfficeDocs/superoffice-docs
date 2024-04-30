@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski, Friesen and Turcotte",
-    "Description": "Devolved executive toolset",
-    "Rank": 660,
+    "Name": "Kub, Schuppe and Mosciski",
+    "Description": "Upgradable bandwidth-monitored emulation",
+    "Rank": 698,
     "Restrictions": [
       {
-        "Name": "Kozey, Macejkovic and Graham",
-        "Operator": "eveniet",
+        "Name": "Mertz Group",
+        "Operator": "eos",
         "Values": [
-          "earum",
+          "quo",
           "et"
         ],
         "DisplayValues": [
-          "ipsam",
-          "sunt"
+          "voluptas",
+          "perspiciatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 184,
+        "InterParenthesis": 91,
         "InterOperator": "And",
-        "UniqueHash": 30
+        "UniqueHash": 718
       }
     ]
   },
   {
-    "Name": "Osinski, Friesen and Turcotte",
-    "Description": "Devolved executive toolset",
-    "Rank": 660,
+    "Name": "Kub, Schuppe and Mosciski",
+    "Description": "Upgradable bandwidth-monitored emulation",
+    "Rank": 698,
     "Restrictions": [
       {
-        "Name": "Kozey, Macejkovic and Graham",
-        "Operator": "eveniet",
+        "Name": "Mertz Group",
+        "Operator": "eos",
         "Values": [
-          "earum",
+          "quo",
           "et"
         ],
         "DisplayValues": [
-          "ipsam",
-          "sunt"
+          "voluptas",
+          "perspiciatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 184,
+        "InterParenthesis": 91,
         "InterOperator": "And",
-        "UniqueHash": 30
+        "UniqueHash": 718
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ruecker, Wunsch and Towne",
-    "Description": "Phased holistic access",
-    "Rank": 377,
+    "Name": "Rau, Hand and Schamberger",
+    "Description": "Phased mission-critical framework",
+    "Rank": 125,
     "Restrictions": [
       {
-        "Name": "Kemmer, Christiansen and Torp",
-        "Operator": "rerum",
+        "Name": "Swaniawski-Schneider",
+        "Operator": "aliquid",
         "Values": [
-          "quam",
-          "tenetur"
+          "reiciendis",
+          "non"
         ],
         "DisplayValues": [
-          "nam",
-          "harum"
+          "at",
+          "minus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 203,
+        "InterParenthesis": 1002,
         "InterOperator": "And",
-        "UniqueHash": 396
+        "UniqueHash": 462
       }
     ]
   },
   {
-    "Name": "Ruecker, Wunsch and Towne",
-    "Description": "Phased holistic access",
-    "Rank": 377,
+    "Name": "Rau, Hand and Schamberger",
+    "Description": "Phased mission-critical framework",
+    "Rank": 125,
     "Restrictions": [
       {
-        "Name": "Kemmer, Christiansen and Torp",
-        "Operator": "rerum",
+        "Name": "Swaniawski-Schneider",
+        "Operator": "aliquid",
         "Values": [
-          "quam",
-          "tenetur"
+          "reiciendis",
+          "non"
         ],
         "DisplayValues": [
-          "nam",
-          "harum"
+          "at",
+          "minus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 203,
+        "InterParenthesis": 1002,
         "InterOperator": "And",
-        "UniqueHash": 396
+        "UniqueHash": 462
       }
     ]
   }

@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 130,
-  "Name": "Renner, Renner and Cole",
+  "WebhookId": 87,
+  "Name": "Runolfsson, Wintheiser and Ruecker",
   "Events": [
-    "autem",
-    "itaque"
+    "blanditiis",
+    "perspiciatis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ab",
+  "Secret": "expedita",
   "State": "Active",
-  "Type": "sit",
+  "Type": "quia",
   "Headers": {
-    "Headers1": "possimus",
-    "Headers2": "dolor"
+    "Headers1": "omnis",
+    "Headers2": "reiciendis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-12-10T12:19:54.2584759+01:00",
+  "Registered": "2022-01-27T11:44:42.8825602+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-09-07T12:19:54.2584759+02:00",
+  "Updated": "2017-04-03T11:44:42.8825602+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "joy@ratke.uk"
+  "ErrorsEmail": "myrtice@morissettemoore.biz"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 883,
-  "Name": "Powlowski-Quitzon",
+  "WebhookId": 237,
+  "Name": "Keeling-Tremblay",
   "Events": [
-    "dignissimos",
-    "voluptatem"
+    "dolor",
+    "expedita"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "laborum",
+  "Secret": "possimus",
   "State": "Active",
-  "Type": "natus",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "non",
-    "Headers2": "voluptatum"
+    "Headers1": "provident",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2003-01-27T12:19:54.2584759+01:00",
+  "Registered": "1998-04-14T11:44:42.8825602+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-03-17T12:19:54.2584759+01:00",
+  "Updated": "2015-01-04T11:44:42.8825602+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "oral.gulgowski@simonis.biz",
+  "ErrorsEmail": "kaitlyn@corwin.name",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

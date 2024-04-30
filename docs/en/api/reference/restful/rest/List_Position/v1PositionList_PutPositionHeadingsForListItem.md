@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Little-Stoltenberg",
-    "ToolTip": "Sint consequuntur autem delectus qui.",
-    "Deleted": true,
-    "Rank": 655,
-    "Type": "error",
-    "ColorBlock": 935,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "1997-01-02T12:19:54.6646278+01:00",
+    "Id": 788,
+    "Name": "Schamberger-Welch",
+    "ToolTip": "Esse aliquid odio.",
+    "Deleted": false,
+    "Rank": 638,
+    "Type": "autem",
+    "ColorBlock": 529,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2004-12-21T11:44:43.1637513+01:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Bartoletti, Kutch and Ebert",
-        "ToolTip": "Ipsum tempore neque.",
-        "Deleted": true,
-        "Rank": 965,
-        "Type": "dignissimos",
-        "ColorBlock": 743,
-        "IconHint": "neque",
-        "Selected": false,
-        "LastChanged": "2002-03-04T12:19:54.6646278+01:00",
+        "Id": 855,
+        "Name": "Christiansen-Langosh",
+        "ToolTip": "Sit corporis quasi esse.",
+        "Deleted": false,
+        "Rank": 809,
+        "Type": "facilis",
+        "ColorBlock": 830,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2008-07-27T11:44:43.1637513+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "commodi",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Rory Feeney"
+        "FullName": "Joy Tremblay"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "hic",
+    "ExtraInfo": "officia",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Ethel Sanford"
+    "FullName": "Mr. Lauryn Jacobs DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Homenick-Predovic",
-    "ToolTip": "Suscipit iste et ex est.",
-    "Deleted": false,
-    "Rank": 186,
-    "Type": "qui",
-    "ColorBlock": 955,
-    "IconHint": "omnis",
+    "Id": 945,
+    "Name": "Altenwerth LLC",
+    "ToolTip": "Sunt sit necessitatibus.",
+    "Deleted": true,
+    "Rank": 461,
+    "Type": "quibusdam",
+    "ColorBlock": 582,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2017-02-11T12:19:54.6646278+01:00",
+    "LastChanged": "2012-06-09T11:44:43.1637513+02:00",
     "ChildItems": [
       {
-        "Id": 231,
-        "Name": "Powlowski, Schmeler and Torp",
-        "ToolTip": "Impedit sit dignissimos odit sint nulla hic quo.",
-        "Deleted": false,
-        "Rank": 181,
-        "Type": "omnis",
-        "ColorBlock": 824,
-        "IconHint": "alias",
-        "Selected": false,
-        "LastChanged": "2022-01-13T12:19:54.6646278+01:00",
+        "Id": 18,
+        "Name": "Dooley-Jacobs",
+        "ToolTip": "Odio laborum quidem.",
+        "Deleted": true,
+        "Rank": 587,
+        "Type": "tenetur",
+        "ColorBlock": 631,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2007-02-20T11:44:43.1637513+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Euna Treutel",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Liliana Lesch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 451
+            "FieldType": "System.String",
+            "FieldLength": 532
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Mrs. Blaze Ruthe Rogahn",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Ramon Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 938
       }
     }
   }

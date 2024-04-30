@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 753,
+  "SystemEventId": 342,
   "Scope": "Database",
-  "Eta": "2022-07-20T12:19:53.9460405+02:00",
-  "Eventkey": "deserunt",
-  "Eventmess": "quia",
-  "ExtraInfo": 808,
-  "Owner": 664,
-  "UpdatedCount": 34,
-  "Registered": "2003-09-20T12:19:53.9460405+02:00",
+  "Eta": "2012-01-14T11:44:42.5545135+01:00",
+  "Eventkey": "vero",
+  "Eventmess": "rem",
+  "ExtraInfo": 1002,
+  "Owner": 430,
+  "UpdatedCount": 145,
+  "Registered": "2010-12-12T11:44:42.5545135+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldLength": 157
     }
   },
   "_Links": {

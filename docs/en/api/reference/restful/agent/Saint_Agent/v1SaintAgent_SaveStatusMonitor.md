@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 1000,
-  "Rank": 836,
-  "DefaultTask": 551,
-  "DefaultTaskText": "reprehenderit",
-  "IsVisual": true,
-  "LastGenerated": "1997-10-23T12:19:46.1483123+02:00",
-  "Description": "Enterprise-wide 6th generation service-desk",
-  "Name": "Walter Inc and Sons",
-  "StatusMonitorId": 924,
-  "PictureId": 444,
+  "OwnerTable": 113,
+  "Rank": 610,
+  "DefaultTask": 876,
+  "DefaultTaskText": "ullam",
+  "IsVisual": false,
+  "LastGenerated": "2007-06-04T11:44:34.3376813+02:00",
+  "Description": "Centralized multi-state open system",
+  "Name": "Jenkins, Flatley and Weimann",
+  "StatusMonitorId": 771,
+  "PictureId": 515,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 1001,
-  "NumNeedUpdate": 680,
-  "GenerationStart": "2014-10-18T12:19:46.1483123+02:00"
+  "NumMatches": 626,
+  "NumNeedUpdate": 981,
+  "GenerationStart": "1997-08-19T11:44:34.3376813+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 770,
-  "Rank": 989,
-  "DefaultTask": 555,
-  "DefaultTaskText": "optio",
-  "IsVisual": false,
-  "LastGenerated": "1998-12-31T12:19:46.1483123+01:00",
-  "Description": "Inverse zero defect task-force",
-  "Name": "Rath Group",
-  "StatusMonitorId": 368,
-  "PictureId": 4,
+  "OwnerTable": 652,
+  "Rank": 518,
+  "DefaultTask": 993,
+  "DefaultTaskText": "quia",
+  "IsVisual": true,
+  "LastGenerated": "2005-11-24T11:44:34.3376813+01:00",
+  "Description": "Customizable content-based definition",
+  "Name": "Funk-Streich",
+  "StatusMonitorId": 71,
+  "PictureId": 711,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 441,
-  "NumNeedUpdate": 250,
-  "GenerationStart": "2022-01-18T12:19:46.1483123+01:00",
+  "Deleted": true,
+  "NumMatches": 825,
+  "NumNeedUpdate": 956,
+  "GenerationStart": "2020-07-31T11:44:34.3376813+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 855
     }
   }
 }

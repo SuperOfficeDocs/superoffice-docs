@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 400,
-  "Name": "Klein LLC",
-  "Rank": 933,
-  "Tooltip": "et",
+  "AssociateId": 521,
+  "Name": "Wehner-Lindgren",
+  "Rank": 443,
+  "Tooltip": "reprehenderit",
   "LicenseOwners": [
     {
-      "Name": "Lynch-Lesch",
-      "Description": "Vision-oriented real-time moratorium",
+      "Name": "Rogahn, Tromp and Mitchell",
+      "Description": "Stand-alone contextually-based artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Lynch-Lesch",
-      "Description": "Vision-oriented real-time moratorium",
+      "Name": "Rogahn, Tromp and Mitchell",
+      "Description": "Stand-alone contextually-based artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,87 +151,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "repudiandae",
-      "Tooltip": "provident",
-      "Id": 258,
-      "Rank": 676,
+      "Value": "voluptatem",
+      "Tooltip": "consequatur",
+      "Id": 180,
+      "Rank": 124,
       "Deleted": false
     },
     {
-      "Value": "repudiandae",
-      "Tooltip": "provident",
-      "Id": 258,
-      "Rank": 676,
+      "Value": "voluptatem",
+      "Tooltip": "consequatur",
+      "Id": 180,
+      "Rank": 124,
       "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-06-20T12:19:46.5700918+02:00",
-  "Lastlogout": "2012-03-16T12:19:46.5700918+01:00",
-  "EjUserId": 938,
-  "RequestSignature": "minima",
+  "Lastlogin": "2023-08-08T11:44:34.9625302+02:00",
+  "Lastlogout": "2006-06-04T11:44:34.9625302+02:00",
+  "EjUserId": 180,
+  "RequestSignature": "accusamus",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "assumenda"
+      "Value": "fugit",
+      "DisplayValue": "repudiandae"
     },
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "assumenda"
+      "Value": "fugit",
+      "DisplayValue": "repudiandae"
     }
   ],
-  "UserName": "Miller-Gerlach",
+  "UserName": "Hand, Rowe and Armstrong",
   "TicketCategories": [
     {
-      "Id": 157,
-      "Name": "Gerlach-Bayer",
-      "ToolTip": "Voluptas necessitatibus ut.",
-      "Deleted": true,
-      "Rank": 305,
-      "Type": "ex",
+      "Id": 145,
+      "Name": "Sauer, Yundt and Wilkinson",
+      "ToolTip": "Deserunt officia sit temporibus sed neque consequatur eos.",
+      "Deleted": false,
+      "Rank": 183,
+      "Type": "fugit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ipsum",
-      "ColorBlock": 892,
-      "ExtraInfo": "earum",
-      "StyleHint": "voluptas",
-      "FullName": "Murphy Harvey"
+      "IconHint": "praesentium",
+      "ColorBlock": 861,
+      "ExtraInfo": "omnis",
+      "StyleHint": "nihil",
+      "FullName": "Lucie Name Morissette IV"
     }
   ],
-  "NickName": "Schaden-Bernhard",
-  "WaitingForApproval": true,
+  "NickName": "Wisoky-Feest",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "commodi",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bashirian Inc and Sons",
-      "DisplayName": "Haag-Howe",
-      "Description": "Automated scalable orchestration",
-      "ToolTip": "Vero unde inventore ullam repellat quis voluptas.",
+      "Name": "Greenfelder LLC",
+      "DisplayName": "Emmerich, Williamson and Morissette",
+      "Description": "Multi-layered asynchronous standardization",
+      "ToolTip": "Eligendi culpa temporibus ullam.",
       "Actions": "Implicit",
-      "ActionData": "ut"
+      "ActionData": "laudantium"
     },
     {
-      "Name": "Bashirian Inc and Sons",
-      "DisplayName": "Haag-Howe",
-      "Description": "Automated scalable orchestration",
-      "ToolTip": "Vero unde inventore ullam repellat quis voluptas.",
+      "Name": "Greenfelder LLC",
+      "DisplayName": "Emmerich, Williamson and Morissette",
+      "Description": "Multi-layered asynchronous standardization",
+      "ToolTip": "Eligendi culpa temporibus ullam.",
       "Actions": "Implicit",
-      "ActionData": "ut"
+      "ActionData": "laudantium"
     }
   ]
 }
@@ -245,13 +245,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateId": 272,
-  "Name": "Nienow LLC",
-  "Rank": 854,
-  "Tooltip": "voluptatem",
+  "Name": "Trantow, Keebler and Bins",
+  "Rank": 18,
+  "Tooltip": "consequatur",
   "LicenseOwners": [
     {
-      "Name": "Hermann-Osinski",
-      "Description": "Phased content-based support",
+      "Name": "Macejkovic, Zieme and Goodwin",
+      "Description": "Persistent intangible application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -265,13 +265,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 371
+          "FieldLength": 306
         }
       }
     },
     {
-      "Name": "Hermann-Osinski",
-      "Description": "Phased content-based support",
+      "Name": "Macejkovic, Zieme and Goodwin",
+      "Description": "Persistent intangible application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 371
+          "FieldLength": 306
         }
       }
     }
@@ -294,110 +294,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "deserunt",
-      "Tooltip": "placeat",
-      "Id": 787,
-      "Rank": 117,
-      "Deleted": false,
+      "Value": "qui",
+      "Tooltip": "non",
+      "Id": 950,
+      "Rank": 829,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldType": "System.String",
+          "FieldLength": 991
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2014-06-12T12:19:46.5700918+02:00",
-  "Lastlogout": "2008-03-15T12:19:46.5700918+01:00",
-  "EjUserId": 866,
-  "RequestSignature": "error",
+  "Lastlogin": "2023-11-14T11:44:34.9625302+01:00",
+  "Lastlogout": "2020-07-14T11:44:34.9625302+02:00",
+  "EjUserId": 150,
+  "RequestSignature": "qui",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sunt",
+      "Value": "quam",
       "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 477
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "sunt",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 477
-        }
-      }
-    }
-  ],
-  "UserName": "Schuster, Predovic and Schinner",
-  "TicketCategories": [
-    {
-      "Id": 889,
-      "Name": "Kohler Group",
-      "ToolTip": "Qui quaerat quo assumenda aut et.",
-      "Deleted": true,
-      "Rank": 863,
-      "Type": "qui",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dolores",
-      "ColorBlock": 296,
-      "ExtraInfo": "qui",
-      "StyleHint": "in",
-      "FullName": "Joel Unique Toy I",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 478
-        }
-      }
-    }
-  ],
-  "NickName": "White Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "perferendis"
-  },
-  "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "quis"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Lindgren, Friesen and Sporer",
-      "DisplayName": "Olson-McLaughlin",
-      "Description": "Centralized fault-tolerant frame",
-      "ToolTip": "Cum sed.",
-      "Actions": "Implicit",
-      "ActionData": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 300
+          "FieldLength": 283
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "quam",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 283
+        }
+      }
+    }
+  ],
+  "UserName": "Labadie-Pagac",
+  "TicketCategories": [
+    {
+      "Id": 361,
+      "Name": "Terry, Hyatt and Huel",
+      "ToolTip": "Nulla architecto rerum veniam.",
+      "Deleted": false,
+      "Rank": 697,
+      "Type": "eaque",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "placeat",
+      "ColorBlock": 793,
+      "ExtraInfo": "excepturi",
+      "StyleHint": "vero",
+      "FullName": "Erich Breitenberg",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 117
+        }
+      }
+    }
+  ],
+  "NickName": "Block LLC",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "repellat"
+  },
+  "CustomFields": {
+    "CustomFields1": "maiores",
+    "CustomFields2": "qui"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Hagenes, Denesik and Block",
+      "DisplayName": "Heaney Inc and Sons",
+      "Description": "Business-focused methodical definition",
+      "ToolTip": "Ut libero rerum dolore nihil.",
+      "Actions": "Implicit",
+      "ActionData": "ipsum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 721
         }
       }
     }
@@ -407,7 +407,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 13
+      "FieldLength": 627
     }
   }
 }

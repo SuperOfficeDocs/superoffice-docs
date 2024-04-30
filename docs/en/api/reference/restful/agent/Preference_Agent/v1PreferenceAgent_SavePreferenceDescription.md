@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 99,
-  "Section": "molestiae",
-  "Key": "aliquid",
-  "Name": "Schuster, Kulas and Prosacco",
+  "PrefDescId": 762,
+  "Section": "eos",
+  "Key": "cum",
+  "Name": "Wehner Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total content-based adapter",
-  "IsBuiltin": true,
-  "TableName": "Bauch, Runolfsson and Jacobi",
-  "UserDefinedListId": 528,
-  "Rank": 322,
-  "SubGroup": "neque",
-  "MinLevel": 215,
-  "MaxValue": 775,
-  "MinValue": 326,
-  "RequiredLicense": "nobis"
+  "Description": "Realigned bifurcated encoding",
+  "IsBuiltin": false,
+  "TableName": "Breitenberg Group",
+  "UserDefinedListId": 711,
+  "Rank": 774,
+  "SubGroup": "consequatur",
+  "MinLevel": 415,
+  "MaxValue": 837,
+  "MinValue": 336,
+  "RequiredLicense": "vero"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 957,
-  "Section": "natus",
-  "Key": "mollitia",
-  "Name": "Kreiger, Schultz and Quigley",
+  "PrefDescId": 240,
+  "Section": "modi",
+  "Key": "non",
+  "Name": "Swaniawski-Gislason",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group executive implementation",
+  "Description": "Cloned non-volatile leverage",
   "IsBuiltin": true,
-  "TableName": "Ebert Inc and Sons",
-  "UserDefinedListId": 723,
-  "Rank": 883,
-  "SubGroup": "minima",
-  "MinLevel": 243,
-  "MaxValue": 521,
-  "MinValue": 941,
-  "RequiredLicense": "maiores",
+  "TableName": "Schumm Group",
+  "UserDefinedListId": 784,
+  "Rank": 291,
+  "SubGroup": "accusamus",
+  "MinLevel": 285,
+  "MaxValue": 836,
+  "MinValue": 91,
+  "RequiredLicense": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 758
     }
   }
 }

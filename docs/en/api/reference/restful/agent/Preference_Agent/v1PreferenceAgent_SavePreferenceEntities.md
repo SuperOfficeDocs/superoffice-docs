@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "rerum",
+      "RawValue": "soluta",
       "Specification": null,
-      "DisplayValue": "optio",
-      "DisplayTooltip": "sed",
+      "DisplayValue": "velit",
+      "DisplayTooltip": "minima",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 803,
-      "PrefDescId": 891,
-      "TableName": "Rutherford-Jerde",
-      "UserPreferenceId": 117
+      "TargetId": 560,
+      "PrefDescId": 263,
+      "TableName": "Mueller, Sporer and Ondricka",
+      "UserPreferenceId": 905
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

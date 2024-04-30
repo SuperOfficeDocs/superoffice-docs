@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Erdman Group",
-    "Tooltip": "non",
+    "Id": 378,
+    "Name": "West, Herzog and Ortiz",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "UdListDefinitionId": 386,
-    "Rank": 409
+    "UdListDefinitionId": 834,
+    "Rank": 144
   },
   {
-    "Id": 446,
-    "Name": "Erdman Group",
-    "Tooltip": "non",
+    "Id": 378,
+    "Name": "West, Herzog and Ortiz",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "UdListDefinitionId": 386,
-    "Rank": 409
+    "UdListDefinitionId": 834,
+    "Rank": 144
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Russel Group",
-    "Tooltip": "corrupti",
+    "Id": 952,
+    "Name": "Streich, Weissnat and Ortiz",
+    "Tooltip": "vero",
     "Deleted": false,
-    "UdListDefinitionId": 109,
-    "Rank": 162,
+    "UdListDefinitionId": 385,
+    "Rank": 107,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 339
       }
     }
   }

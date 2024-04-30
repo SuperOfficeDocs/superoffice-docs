@@ -83,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Denesik LLC",
+  "UdListDefinitionName": "Howe-Halvorson",
   "Items": [
     {
-      "Id": 84,
-      "Name": "Boyle Group",
-      "Tooltip": "accusantium",
+      "Id": 523,
+      "Name": "Moore, Balistreri and Walter",
+      "Tooltip": "assumenda",
       "Deleted": true,
-      "UdListDefinitionId": 750,
-      "Rank": 203
+      "UdListDefinitionId": 347,
+      "Rank": 579
     },
     {
-      "Id": 84,
-      "Name": "Boyle Group",
-      "Tooltip": "accusantium",
+      "Id": 523,
+      "Name": "Moore, Balistreri and Walter",
+      "Tooltip": "assumenda",
       "Deleted": true,
-      "UdListDefinitionId": 750,
-      "Rank": 203
+      "UdListDefinitionId": 347,
+      "Rank": 579
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Dibbert-Cartwright",
-    "Tooltip": "aut",
+    "Id": 380,
+    "Name": "Treutel, Bruen and Schiller",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 871,
-    "Rank": 712,
+    "UdListDefinitionId": 26,
+    "Rank": 962,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

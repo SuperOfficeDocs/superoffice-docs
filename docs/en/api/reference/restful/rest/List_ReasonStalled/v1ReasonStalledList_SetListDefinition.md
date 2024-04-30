@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Renner, Balistreri and Corkery",
-  "Tooltip": "natus",
+  "Id": 258,
+  "Name": "Kautzer-Pfeffer",
+  "Tooltip": "dignissimos",
   "Deleted": true,
-  "Rank": 317,
+  "Rank": 14,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "numquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 525,
-  "Name": "Crooks, Cormier and Ferry",
-  "Tooltip": "maiores",
+  "Id": 626,
+  "Name": "Gulgowski-Ward",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 978,
+  "Rank": 904,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "eligendi",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 478
     }
   }
 }

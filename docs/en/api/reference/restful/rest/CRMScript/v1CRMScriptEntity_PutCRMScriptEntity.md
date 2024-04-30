@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 327,
-  "UniqueIdentifier": "tempore",
-  "Name": "Gulgowski-Nikolaus",
-  "Description": "Re-contextualized stable forecast",
-  "IncludeId": "qui",
-  "HierarchyId": 85,
-  "Source": "cumque",
-  "Registered": "1997-12-06T12:19:53.3055654+01:00",
-  "RegisteredAssociateId": 841,
-  "Updated": "2005-09-05T12:19:53.3055654+02:00",
-  "UpdatedAssociateId": 480
+  "EjscriptId": 208,
+  "UniqueIdentifier": "officiis",
+  "Name": "Jacobson LLC",
+  "Description": "Automated regional orchestration",
+  "IncludeId": "veniam",
+  "HierarchyId": 683,
+  "Source": "et",
+  "Registered": "2017-07-13T11:44:41.8671838+02:00",
+  "RegisteredAssociateId": 979,
+  "Updated": "1997-11-27T11:44:41.8671838+01:00",
+  "UpdatedAssociateId": 411
 }
 ```
 
@@ -126,23 +126,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 401,
-  "UniqueIdentifier": "ut",
-  "Name": "Ernser LLC",
-  "Description": "Total leading edge paradigm",
-  "IncludeId": "qui",
-  "HierarchyId": 449,
-  "Source": "fugiat",
-  "Registered": "1999-02-16T12:19:53.3055654+01:00",
-  "RegisteredAssociateId": 651,
-  "Updated": "2009-08-08T12:19:53.3055654+02:00",
-  "UpdatedAssociateId": 751,
+  "EjscriptId": 213,
+  "UniqueIdentifier": "omnis",
+  "Name": "Price-Grady",
+  "Description": "Cross-platform hybrid moratorium",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 554,
+  "Source": "quia",
+  "Registered": "2006-06-20T11:44:41.8671838+02:00",
+  "RegisteredAssociateId": 421,
+  "Updated": "2014-09-01T11:44:41.8671838+02:00",
+  "UpdatedAssociateId": 414,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   },
   "_Links": {

@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 971,
-  "ColumnId": 1001,
-  "FieldDefault": "rerum",
-  "FieldHeight": 674,
-  "FieldLabel": "minima",
-  "FieldLeft": 254,
-  "FieldTop": 382,
+  "UDefFieldId": 319,
+  "ColumnId": 60,
+  "FieldDefault": "dolore",
+  "FieldHeight": 38,
+  "FieldLabel": "est",
+  "FieldLeft": 62,
+  "FieldTop": 805,
   "FieldType": "Checkbox",
-  "FieldWidth": 256,
-  "FormatMask": "aut",
-  "HideLabel": true,
+  "FieldWidth": 340,
+  "FormatMask": "nostrum",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 521,
-  "LabelLeft": 501,
-  "LabelTop": 682,
-  "LabelWidth": 873,
-  "LastVersionId": 527,
-  "ListTableId": 637,
+  "LabelHeight": 394,
+  "LabelLeft": 424,
+  "LabelTop": 3,
+  "LabelWidth": 130,
+  "LastVersionId": 68,
+  "ListTableId": 709,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 131,
-  "ProgId": "id",
-  "IsReadOnly": false,
-  "ShortLabel": "vero",
-  "TabOrder": 455,
-  "TextLength": 687,
-  "Tooltip": "harum",
-  "UdefIdentity": 14,
-  "UDListDefinitionId": 976,
+  "Page1LineNo": 801,
+  "ProgId": "sapiente",
+  "IsReadOnly": true,
+  "ShortLabel": "qui",
+  "TabOrder": 758,
+  "TextLength": 103,
+  "Tooltip": "unde",
+  "UdefIdentity": 335,
+  "UDListDefinitionId": 120,
   "Justification": "Center",
-  "Version": 432,
-  "TemplateVariableName": "Maggio Group",
+  "Version": 392,
+  "TemplateVariableName": "Schuppe, Schimmel and Schmitt",
   "HasBeenPublished": false,
-  "MdoListName": "Hansen Inc and Sons",
+  "MdoListName": "Schiller Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldType": "System.String",
+      "FieldLength": 623
     }
   }
 }

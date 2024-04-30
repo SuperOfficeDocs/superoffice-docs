@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 337,
+  "TargetYear": 404,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 382
+  "Id": 258
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 240,
+  "TargetAssignmentInfoId": 997,
   "Values": [
-    219,
-    651
+    662,
+    847
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 30,
-  "DimensionListItemDisplayName": "Grady LLC",
+  "DimensionListItem": 8,
+  "DimensionListItemDisplayName": "Cole LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldLength": 477
     }
   }
 }

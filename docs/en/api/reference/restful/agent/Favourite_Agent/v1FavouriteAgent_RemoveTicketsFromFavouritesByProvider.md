@@ -70,18 +70,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Reilly, Jewess and Terry",
+  "ProviderName": "Torphy-Harber",
   "Restrictions": [
     {
-      "Name": "Lind, Boyle and Schuppe",
-      "Operator": "est",
+      "Name": "Moen LLC",
+      "Operator": "maiores",
       "Values": [
-        "praesentium",
-        "veritatis"
+        "unde",
+        "ipsa"
       ],
       "DisplayValues": [
-        "sed",
-        "sit"
+        "minima",
+        "eum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 392,
+      "InterParenthesis": 332,
       "InterOperator": "And",
-      "UniqueHash": 596
+      "UniqueHash": 236
     }
   ],
-  "AssociateId": 812
+  "AssociateId": 878
 }
 ```
 

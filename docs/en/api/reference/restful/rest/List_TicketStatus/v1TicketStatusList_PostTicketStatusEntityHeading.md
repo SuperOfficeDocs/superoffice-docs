@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 376,
-  "Name": "Lesch-Hartmann",
-  "Tooltip": "id",
+  "HeadingId": 785,
+  "Name": "Gutmann-Corkery",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 798,
-  "UdListDefinitionId": 495
+  "Rank": 715,
+  "UdListDefinitionId": 112
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 975,
-  "Name": "Hegmann Inc and Sons",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 678,
-  "UdListDefinitionId": 308,
+  "HeadingId": 285,
+  "Name": "Torp LLC",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 305,
+  "UdListDefinitionId": 688,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 603
     }
   }
 }

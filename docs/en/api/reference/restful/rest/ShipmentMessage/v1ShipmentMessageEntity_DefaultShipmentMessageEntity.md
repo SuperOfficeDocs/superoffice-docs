@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 949,
-  "PlainMessage": "dolorem",
-  "HtmlMessage": "eaque",
-  "SmsMessage": "dignissimos",
-  "Description": "Enhanced systemic encoding",
-  "Subject": "nisi",
-  "FolderId": 373,
-  "HeaderField": "eaque",
-  "Design": "sapiente",
+  "ShipmentMessageId": 17,
+  "PlainMessage": "deserunt",
+  "HtmlMessage": "iste",
+  "SmsMessage": "voluptates",
+  "Description": "Virtual actuating website",
+  "Subject": "dolorem",
+  "FolderId": 761,
+  "HeaderField": "aliquam",
+  "Design": "distinctio",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Assimilated composite methodology",
-  "AccessKey": "accusamus",
-  "DocumentMessage": 988,
-  "Registered": "2002-08-31T12:19:53.9304171+02:00",
-  "RegisteredAssociateId": 821,
-  "Updated": "2005-07-06T12:19:53.9304171+02:00",
-  "UpdatedAssociateId": 960,
-  "UpdatedCount": 910,
+  "InlineImages": true,
+  "LongDescription": "Advanced local help-desk",
+  "AccessKey": "amet",
+  "DocumentMessage": 542,
+  "Registered": "2006-03-09T11:44:42.5545135+01:00",
+  "RegisteredAssociateId": 313,
+  "Updated": "2002-01-30T11:44:42.5545135+01:00",
+  "UpdatedAssociateId": 745,
+  "UpdatedCount": 707,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

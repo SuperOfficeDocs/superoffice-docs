@@ -34,12 +34,12 @@ Send a message to recipients by email
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=eius,doloribus
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=provident,facilis
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=sequi,alias
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=nisi
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=703
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=fuga
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=ducimus,eos
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=mollitia,dolor
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=error,iste
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=animi
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=504
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=ut
 ```
 
 
@@ -70,7 +70,7 @@ No Content
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

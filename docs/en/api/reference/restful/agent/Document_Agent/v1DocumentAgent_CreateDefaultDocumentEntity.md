@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 8,
+  "DocumentId": 97,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quisquam",
-  "Header": "accusamus",
-  "Name": "Maggio, Kunde and Lindgren",
-  "OurRef": "est",
-  "YourRef": "et",
-  "CreatedDate": "2003-08-14T12:19:45.1016783+02:00",
-  "UpdatedDate": "1997-03-06T12:19:45.1016783+01:00",
-  "Description": "Streamlined 24 hour synergy",
+  "Attention": "dicta",
+  "Header": "et",
+  "Name": "Murphy LLC",
+  "OurRef": "id",
+  "YourRef": "nihil",
+  "CreatedDate": "2011-12-02T11:44:33.4472505+01:00",
+  "UpdatedDate": "2023-01-19T11:44:33.4472505+01:00",
+  "Description": "Secured stable time-frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-04-26T12:19:45.1016783+02:00",
-  "ExternalRef": "consequatur",
+  "Date": "2001-02-02T11:44:33.4472505+01:00",
+  "ExternalRef": "quasi",
   "Completed": "Completed",
-  "ActiveLinks": 910,
+  "ActiveLinks": 275,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "McLaughlin Inc and Sons",
-      "Id": 28,
-      "Description": "Secured grid-enabled leverage",
-      "ExtraInfo": "nisi",
-      "LinkId": 598,
+      "EntityName": "Kiehn-Ward",
+      "Id": 580,
+      "Description": "Balanced bi-directional functionalities",
+      "ExtraInfo": "vel",
+      "LinkId": 723,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldType": "System.Int32",
+          "FieldLength": 989
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 180,
-  "Snum": 300,
+  "SuggestedDocumentId": 841,
+  "Snum": 828,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Lafayette Runolfsson II",
-    "SuperOffice:2": "Randy Lehner Sr."
+    "SuperOffice:1": "Miss Lucas Jayme Deckow Sr.",
+    "SuperOffice:2": "422028418"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "rem"
+    "CustomFields1": "exercitationem",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "1996-12-08T12:19:45.1016783+01:00",
-  "PublishTo": "2003-04-18T12:19:45.1016783+02:00",
-  "PublishFrom": "2017-11-28T12:19:45.1016783+01:00",
+  "PublishEventDate": "2019-04-03T11:44:33.4472505+02:00",
+  "PublishTo": "2003-08-10T11:44:33.4472505+02:00",
+  "PublishFrom": "2004-03-20T11:44:33.4472505+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 721,
+      "VisibleId": 426,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     },
     {
-      "VisibleId": 721,
+      "VisibleId": 426,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 281
     }
   }
 }

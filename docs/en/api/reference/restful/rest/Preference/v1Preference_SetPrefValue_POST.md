@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "numquam",
+  "RawValue": "voluptas",
   "Specification": null,
-  "DisplayValue": "cumque",
-  "DisplayTooltip": "mollitia",
+  "DisplayValue": "alias",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 937,
-  "PrefDescId": 435,
-  "TableName": "Price, Schmidt and Gleason",
-  "UserPreferenceId": 112
+  "TargetId": 951,
+  "PrefDescId": 633,
+  "TableName": "Tillman-Barrows",
+  "UserPreferenceId": 657
 }
 ```
 

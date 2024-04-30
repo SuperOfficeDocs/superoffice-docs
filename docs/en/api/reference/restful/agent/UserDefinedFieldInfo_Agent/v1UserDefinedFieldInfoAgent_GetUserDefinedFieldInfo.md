@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=391
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=668
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 163,
-  "ColumnId": 36,
-  "FieldDefault": "sequi",
-  "FieldHeight": 510,
-  "FieldLabel": "ratione",
-  "FieldLeft": 866,
-  "FieldTop": 937,
+  "UDefFieldId": 764,
+  "ColumnId": 4,
+  "FieldDefault": "suscipit",
+  "FieldHeight": 632,
+  "FieldLabel": "sit",
+  "FieldLeft": 829,
+  "FieldTop": 21,
   "FieldType": "Checkbox",
-  "FieldWidth": 679,
-  "FormatMask": "dolore",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 45,
-  "LabelLeft": 183,
-  "LabelTop": 361,
-  "LabelWidth": 227,
-  "LastVersionId": 431,
-  "ListTableId": 425,
+  "FieldWidth": 317,
+  "FormatMask": "in",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 115,
+  "LabelLeft": 643,
+  "LabelTop": 5,
+  "LabelWidth": 662,
+  "LastVersionId": 466,
+  "ListTableId": 297,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 728,
-  "ProgId": "ex",
+  "Page1LineNo": 682,
+  "ProgId": "labore",
   "IsReadOnly": false,
-  "ShortLabel": "laudantium",
-  "TabOrder": 183,
-  "TextLength": 247,
-  "Tooltip": "molestiae",
-  "UdefIdentity": 345,
-  "UDListDefinitionId": 77,
+  "ShortLabel": "saepe",
+  "TabOrder": 601,
+  "TextLength": 926,
+  "Tooltip": "facilis",
+  "UdefIdentity": 686,
+  "UDListDefinitionId": 419,
   "Justification": "Center",
-  "Version": 683,
-  "TemplateVariableName": "Vandervort, Wiza and Reichel",
+  "Version": 339,
+  "TemplateVariableName": "Bernier-Witting",
   "HasBeenPublished": false,
-  "MdoListName": "Casper, Kemmer and Brakus",
+  "MdoListName": "Goyette-Tromp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 316
     }
   }
 }

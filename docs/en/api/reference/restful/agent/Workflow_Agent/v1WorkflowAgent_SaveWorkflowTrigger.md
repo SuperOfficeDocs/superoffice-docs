@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 131,
-  "WorkflowId": 405,
+  "WorkflowTriggerId": 121,
+  "WorkflowId": 479,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Osinski-Koelpin",
-      "Description": "Triple-buffered interactive throughput",
-      "Rank": 166,
+      "Name": "Schultz LLC",
+      "Description": "Compatible transitional knowledge user",
+      "Rank": 480,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Osinski-Koelpin",
-      "Description": "Triple-buffered interactive throughput",
-      "Rank": 166,
+      "Name": "Schultz LLC",
+      "Description": "Compatible transitional knowledge user",
+      "Rank": 480,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 927,
-  "WorkflowId": 334,
+  "WorkflowTriggerId": 650,
+  "WorkflowId": 474,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Blanda Inc and Sons",
-      "Description": "Total solution-oriented structure",
-      "Rank": 560,
+      "Name": "Beahan Inc and Sons",
+      "Description": "Assimilated non-volatile capacity",
+      "Rank": 865,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Blanda Inc and Sons",
-      "Description": "Total solution-oriented structure",
-      "Rank": 560,
+      "Name": "Beahan Inc and Sons",
+      "Description": "Assimilated non-volatile capacity",
+      "Rank": 865,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

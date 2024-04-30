@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Willms, Auer and Pouros",
-  "StorageKey": "maiores",
+  "StorageType": "officiis",
+  "ProviderName": "Kuhic Inc and Sons",
+  "StorageKey": "corrupti",
   "StaticColumns": [
-    "aperiam",
-    "qui"
+    "cumque",
+    "et"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Toy, Bogan and Von",
-      "Operator": "molestias",
+      "Name": "Haley, Kris and Buckridge",
+      "Operator": "libero",
       "Values": [
-        "delectus",
-        "sunt"
+        "ea",
+        "tempora"
       ],
       "DisplayValues": [
-        "atque",
-        "laudantium"
+        "consectetur",
+        "inventore"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 635,
+      "InterParenthesis": 668,
       "InterOperator": "And",
-      "UniqueHash": 524
+      "UniqueHash": 815
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Spencer LLC",
-      "DisplayTooltip": "et",
-      "DisplayType": "rem",
+      "DisplayName": "Langosh Inc and Sons",
+      "DisplayTooltip": "est",
+      "DisplayType": "aliquam",
       "CanOrderBy": false,
-      "Name": "Rodriguez-Marvin",
-      "CanRestrictBy": true,
-      "RestrictionType": "unde",
-      "RestrictionListName": "Nienow-Bogisich",
-      "IsVisible": false,
-      "ExtraInfo": "nam",
-      "Width": "id",
-      "IconHint": "ut",
-      "HeadingIconHint": "cupiditate"
+      "Name": "Thiel Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "expedita",
+      "RestrictionListName": "Altenwerth Group",
+      "IsVisible": true,
+      "ExtraInfo": "quas",
+      "Width": "debitis",
+      "IconHint": "reiciendis",
+      "HeadingIconHint": "minus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Cartwright Inc and Sons",
-      "PrimaryKey": 862,
+      "EntityName": "Cormier, Schneider and Kiehn",
+      "PrimaryKey": 295,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "aperiam",
-          "LinkHint": "nihil"
+          "DisplayValue": "quibusdam",
+          "TooltipHint": "ipsam",
+          "LinkHint": "dignissimos"
         }
       },
-      "LinkHint": "porro",
-      "StyleHint": "nam",
+      "LinkHint": "laudantium",
+      "StyleHint": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Lakin Inc and Sons",
-      "Description": "Vision-oriented upward-trending capacity",
-      "Rank": 848,
+      "Name": "Carroll-Schiller",
+      "Description": "Face to face mobile portal",
+      "Rank": 612,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lakin Inc and Sons",
-      "Description": "Vision-oriented upward-trending capacity",
-      "Rank": 848,
+      "Name": "Carroll-Schiller",
+      "Description": "Face to face mobile portal",
+      "Rank": 612,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 685
     }
   }
 }

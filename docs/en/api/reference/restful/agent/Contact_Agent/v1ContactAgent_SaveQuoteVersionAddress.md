@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 551,
+  "QuoteVersionId": 857,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 104
+  "CountryId": 579
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 1319.414,
-  "Wgs84Longitude": 22314.079999999998,
+  "Wgs84Latitude": 25491.956,
+  "Wgs84Longitude": 27676.354,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kuhic LLC",
-        "Value": "tempore",
-        "Tooltip": "non",
-        "Label": "et",
-        "ValueLength": 981,
-        "AddressType": "tempore",
+        "Name": "Kling-McKenzie",
+        "Value": "illum",
+        "Tooltip": "ea",
+        "Label": "molestiae",
+        "ValueLength": 585,
+        "AddressType": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 330
+            "FieldLength": 941
           }
         }
       }
     ],
     [
       {
-        "Name": "Macejkovic-Wilderman",
-        "Value": "enim",
-        "Tooltip": "unde",
-        "Label": "non",
-        "ValueLength": 992,
-        "AddressType": "voluptatum",
+        "Name": "Kub-Parker",
+        "Value": "provident",
+        "Tooltip": "dolor",
+        "Label": "quia",
+        "ValueLength": 357,
+        "AddressType": "eos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 741
+            "FieldLength": 921
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ut",
+  "Formatted": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 748
     }
   }
 }

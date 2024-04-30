@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 307,
-  "SourcePersonId": 510,
-  "DestinationContactId": 222,
-  "DestinationPersonId": 690,
-  "RelationId": 952,
-  "Comment": "animi",
-  "RelationDefinitionId": 690,
-  "Reversed": 470,
-  "UpdatedDate": "2007-11-07T12:19:46.117062+01:00",
-  "CreatedDate": "2004-07-31T12:19:46.117062+02:00",
+  "SourceContactId": 19,
+  "SourcePersonId": 521,
+  "DestinationContactId": 338,
+  "DestinationPersonId": 866,
+  "RelationId": 121,
+  "Comment": "eveniet",
+  "RelationDefinitionId": 536,
+  "Reversed": 459,
+  "UpdatedDate": "2002-07-30T11:44:34.3063794+02:00",
+  "CreatedDate": "1998-04-11T11:44:34.3063794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Veum-Prosacco",
-  "SourcePersonName": "Jacobs-Spinka",
-  "DestinationContactName": "Lueilwitz-Kulas",
-  "DestinationPersonName": "Gleason-Walter",
-  "ActiveText": "quae",
-  "PassiveText": "ut",
+  "SourceContactName": "Rippin-Zboncak",
+  "SourcePersonName": "Koch-Willms",
+  "DestinationContactName": "Rutherford, Marks and Hahn",
+  "DestinationPersonName": "Ortiz Group",
+  "ActiveText": "repellendus",
+  "PassiveText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   }
 }

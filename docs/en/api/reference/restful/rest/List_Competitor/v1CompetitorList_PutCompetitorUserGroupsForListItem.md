@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Walter, Crist and Bayer",
-    "ToolTip": "Ratione ut ut id voluptatibus.",
+    "Id": 316,
+    "Name": "Parisian, Gulgowski and Zboncak",
+    "ToolTip": "Neque ipsum.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "sint",
-    "ColorBlock": 230,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2023-05-01T12:19:54.3365677+02:00",
+    "Rank": 352,
+    "Type": "fuga",
+    "ColorBlock": 671,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2019-12-21T11:44:42.9607018+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Brekke, Konopelski and Davis",
-        "ToolTip": "At aut minus nesciunt dolores et aut.",
-        "Deleted": true,
-        "Rank": 125,
-        "Type": "ullam",
-        "ColorBlock": 960,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2015-10-31T12:19:54.3365677+01:00",
+        "Id": 670,
+        "Name": "Kunde Group",
+        "ToolTip": "Tempora doloribus at hic ipsam consectetur et.",
+        "Deleted": false,
+        "Rank": 253,
+        "Type": "saepe",
+        "ColorBlock": 573,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "1997-01-26T11:44:42.9607018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Doyle Spinka"
+        "ExtraInfo": "a",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Neha Trantow"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Andreane Dicki"
+    "ExtraInfo": "quis",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Chaim Anderson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Thompson Group",
-    "ToolTip": "Sed aut corrupti dolores perspiciatis.",
+    "Id": 859,
+    "Name": "Torphy-Corkery",
+    "ToolTip": "Debitis pariatur ullam cum minus expedita.",
     "Deleted": true,
-    "Rank": 268,
-    "Type": "et",
-    "ColorBlock": 178,
-    "IconHint": "minus",
+    "Rank": 273,
+    "Type": "illum",
+    "ColorBlock": 681,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2004-09-20T12:19:54.3365677+02:00",
+    "LastChanged": "2006-08-03T11:44:42.9607018+02:00",
     "ChildItems": [
       {
-        "Id": 104,
-        "Name": "Blick, Streich and Bahringer",
-        "ToolTip": "Eius et ex quasi quia architecto.",
+        "Id": 552,
+        "Name": "Kub, Lynch and Dach",
+        "ToolTip": "Nihil quos id voluptatem.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "veritatis",
-        "ColorBlock": 31,
-        "IconHint": "non",
+        "Rank": 598,
+        "Type": "perspiciatis",
+        "ColorBlock": 91,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2007-05-27T12:19:54.3365677+02:00",
+        "LastChanged": "2011-09-15T11:44:42.9607018+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Mrs. Diego Luciano Greenfelder II",
+        "ExtraInfo": "hic",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Prof. Haven Rolando Schultz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 701
+            "FieldType": "System.Int32",
+            "FieldLength": 917
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "tempore",
-    "Hidden": true,
-    "FullName": "Alvena Marks",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Favian McDermott Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldType": "System.String",
+        "FieldLength": 185
       }
     }
   }

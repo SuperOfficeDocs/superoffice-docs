@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 395,
-  "Name": "O'Keefe LLC",
-  "Tooltip": "eos",
-  "SaveInDb": 640,
-  "Filename": "modi",
-  "DefaultOref": "totam",
+  "DocumentTemplateId": 292,
+  "Name": "Hayes LLC",
+  "Tooltip": "molestias",
+  "SaveInDb": 148,
+  "Filename": "facere",
+  "DefaultOref": "iste",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 573,
-  "IntentId": 224,
+  "AutoeventId": 215,
+  "IntentId": 889,
   "IsDefaultPublished": false,
-  "Rank": 843,
-  "LoadTemplateFromPlugin": 139,
-  "MimeType": "rem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 321,
+  "Rank": 778,
+  "LoadTemplateFromPlugin": 204,
+  "MimeType": "possimus",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 731,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "crawford@pagachuel.us",
+  "EmailSubject": "ivory_mckenzie@herzog.uk",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "hadley_batz@powlowski.co.uk",
+  "SenderEmailAddress": "destin@wyman.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 23
     }
   }
 }

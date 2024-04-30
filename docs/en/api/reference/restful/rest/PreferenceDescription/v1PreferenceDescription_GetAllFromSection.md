@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 292,
-    "Section": "ut",
-    "Key": "est",
-    "Name": "Medhurst, Adams and Kemmer",
+    "PrefDescId": 654,
+    "Section": "nemo",
+    "Key": "natus",
+    "Name": "Bayer, Crooks and Mitchell",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enterprise-wide impactful analyzer",
+    "Description": "Adaptive empowering collaboration",
     "IsBuiltin": true,
-    "TableName": "Kshlerin, Lakin and Murphy",
-    "UserDefinedListId": 711,
-    "Rank": 416,
-    "SubGroup": "ut",
-    "MinLevel": 153,
-    "MaxValue": 214,
-    "MinValue": 118,
-    "RequiredLicense": "quaerat",
+    "TableName": "Greenholt-Goldner",
+    "UserDefinedListId": 523,
+    "Rank": 932,
+    "SubGroup": "voluptatem",
+    "MinLevel": 842,
+    "MaxValue": 118,
+    "MinValue": 278,
+    "RequiredLicense": "molestias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

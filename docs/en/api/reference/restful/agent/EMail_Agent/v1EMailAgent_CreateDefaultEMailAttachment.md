@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed systematic moratorium",
-  "Filename": "eos",
-  "Size": 921,
-  "Type": "illo",
-  "Encoding": "aut",
-  "Id": "asperiores",
-  "Disposition": "commodi",
-  "IsSafeFileExtension": false,
+  "Description": "Organic object-oriented benchmark",
+  "Filename": "impedit",
+  "Size": 673,
+  "Type": "minus",
+  "Encoding": "exercitationem",
+  "Id": "sed",
+  "Disposition": "dolorem",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

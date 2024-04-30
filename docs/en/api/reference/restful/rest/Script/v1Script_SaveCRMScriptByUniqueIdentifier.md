@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Strosin Group",
-  "Description": "Down-sized national benchmark",
-  "IncludeId": "exercitationem",
-  "Source": "culpa",
-  "Registered": "2019-06-17T12:19:54.1803664+02:00",
-  "RegisteredBy": "aut",
-  "Updated": "2002-12-04T12:19:54.1803664+01:00",
-  "UpdatedBy": "quidem",
-  "Path": "dolores"
+  "UniqueIdentifier": "dolorum",
+  "Name": "Cole LLC",
+  "Description": "Persistent actuating data-warehouse",
+  "IncludeId": "quo",
+  "Source": "corporis",
+  "Registered": "2021-10-20T11:44:42.8044603+02:00",
+  "RegisteredBy": "consectetur",
+  "Updated": "2007-06-16T11:44:42.8044603+02:00",
+  "UpdatedBy": "alias",
+  "Path": "aut"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "Hamill, Hammes and Von",
-  "Description": "Future-proofed 3rd generation synergy",
-  "IncludeId": "cupiditate",
-  "Source": "tempora",
-  "Registered": "1997-08-10T12:19:54.1803664+02:00",
-  "RegisteredBy": "omnis",
-  "Updated": "2009-05-11T12:19:54.1803664+02:00",
-  "UpdatedBy": "excepturi",
-  "Path": "ut",
+  "UniqueIdentifier": "voluptas",
+  "Name": "Lynch, Johnston and Parker",
+  "Description": "Face to face content-based moderator",
+  "IncludeId": "aliquid",
+  "Source": "id",
+  "Registered": "2008-01-20T11:44:42.8044603+01:00",
+  "RegisteredBy": "quasi",
+  "Updated": "2013-11-30T11:44:42.8044603+01:00",
+  "UpdatedBy": "accusamus",
+  "Path": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 100
     }
   }
 }

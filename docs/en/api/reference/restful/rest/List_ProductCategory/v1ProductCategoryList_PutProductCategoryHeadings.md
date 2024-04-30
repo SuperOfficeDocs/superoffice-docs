@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 430,
-    "Name": "Hilpert Group",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 599,
-    "UdListDefinitionId": 90
+    "HeadingId": 304,
+    "Name": "Keeling-Lueilwitz",
+    "Tooltip": "distinctio",
+    "Deleted": false,
+    "Rank": 9,
+    "UdListDefinitionId": 344
   },
   {
-    "HeadingId": 430,
-    "Name": "Hilpert Group",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 599,
-    "UdListDefinitionId": 90
+    "HeadingId": 304,
+    "Name": "Keeling-Lueilwitz",
+    "Tooltip": "distinctio",
+    "Deleted": false,
+    "Rank": 9,
+    "UdListDefinitionId": 344
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 954,
-    "Name": "Klein Group",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "Rank": 817,
-    "UdListDefinitionId": 407,
+    "HeadingId": 873,
+    "Name": "Shields Inc and Sons",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 926,
+    "UdListDefinitionId": 442,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldType": "System.String",
+        "FieldLength": 772
       }
     }
   }

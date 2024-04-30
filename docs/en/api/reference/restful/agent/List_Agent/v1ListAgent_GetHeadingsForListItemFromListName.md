@@ -93,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kiehn LLC",
-  "ListItemId": 221,
+  "UdListDefinitionName": "Wiza-Runolfsdottir",
+  "ListItemId": 322,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Gutkowski, Bosco and Turner",
-    "ToolTip": "Magni aut officia perferendis nam et.",
+    "Id": 582,
+    "Name": "Eichmann, Jast and Kertzmann",
+    "ToolTip": "Veniam rerum quasi laudantium quos fugiat necessitatibus aspernatur.",
     "Deleted": false,
-    "Rank": 963,
-    "Type": "qui",
-    "ColorBlock": 215,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2014-08-26T12:19:45.5078373+02:00",
+    "Rank": 249,
+    "Type": "velit",
+    "ColorBlock": 551,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "1997-09-04T11:44:33.8534097+02:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Kozey Inc and Sons",
-        "ToolTip": "Commodi omnis qui necessitatibus officiis sed.",
+        "Id": 541,
+        "Name": "Strosin-Medhurst",
+        "ToolTip": "Sit excepturi aut autem et nostrum.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "aut",
-        "ColorBlock": 747,
-        "IconHint": "quas",
+        "Rank": 122,
+        "Type": "atque",
+        "ColorBlock": 86,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2003-08-14T12:19:45.5078373+02:00",
+        "LastChanged": "2022-05-19T11:44:33.8534097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "a",
+        "ExtraInfo": "ea",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Muriel Josh Ferry I",
+        "FullName": "Lavinia Parisian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 308
+            "FieldType": "System.String",
+            "FieldLength": 29
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "amet",
-    "Hidden": false,
-    "FullName": "Ozella Streich",
+    "ExtraInfo": "similique",
+    "StyleHint": "eveniet",
+    "Hidden": true,
+    "FullName": "Tad Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 170
       }
     }
   }

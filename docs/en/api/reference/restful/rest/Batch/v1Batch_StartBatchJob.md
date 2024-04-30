@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Waters-Wilkinson",
-  "AssociateId": 398,
-  "DetailsTable": 43,
-  "DetailsRecord": 377,
-  "IsSystemTask": false,
+  "Id": 534,
+  "Name": "Skiles, Kerluke and Gottlieb",
+  "AssociateId": 104,
+  "DetailsTable": 597,
+  "DetailsRecord": 740,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "non",
-    "ParameterObject2": "minus"
+    "ParameterObject1": "impedit",
+    "ParameterObject2": "molestiae"
   },
-  "LastStarted": "2011-01-10T12:19:54.0866374+01:00",
-  "Created": "1997-05-26T12:19:54.0866374+02:00",
-  "StartCount": 122,
-  "DatabaseSerialNumber": "72440",
-  "Context": "voluptas",
-  "Result": "exercitationem",
+  "LastStarted": "2022-09-25T11:44:42.6951171+02:00",
+  "Created": "1997-09-29T11:44:42.6951171+02:00",
+  "StartCount": 470,
+  "DatabaseSerialNumber": "253373",
+  "Context": "nostrum",
+  "Result": "ut",
   "State": "All",
-  "Description": "Adaptive radical interface",
-  "Response": "reprehenderit",
-  "Request": "et",
-  "ProgressDescription": "Ergonomic didactic methodology",
-  "ProgressPercent": 121,
-  "FileName": "Moen, Ernser and Wisozk",
+  "Description": "Virtual mobile policy",
+  "Response": "dolores",
+  "Request": "porro",
+  "ProgressDescription": "Cross-group client-driven approach",
+  "ProgressPercent": 564,
+  "FileName": "Greenholt-Walsh",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-810
+432
 ```

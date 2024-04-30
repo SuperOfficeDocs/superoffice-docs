@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Kilback, Pollich and Stamm",
-    "ToolTip": "Quia omnis architecto similique iure repellendus.",
+    "Id": 317,
+    "Name": "Ondricka-VonRueden",
+    "ToolTip": "Suscipit nulla.",
     "Deleted": true,
-    "Rank": 42,
-    "Type": "impedit",
-    "ColorBlock": 406,
-    "IconHint": "magnam",
+    "Rank": 43,
+    "Type": "harum",
+    "ColorBlock": 479,
+    "IconHint": "totam",
     "Selected": true,
-    "LastChanged": "2004-06-12T12:19:54.2740906+02:00",
+    "LastChanged": "2009-01-19T11:44:42.898184+01:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Ebert, Kovacek and Price",
-        "ToolTip": "Earum sunt qui aut alias.",
+        "Id": 850,
+        "Name": "Rolfson LLC",
+        "ToolTip": "Enim fugiat eligendi.",
         "Deleted": false,
-        "Rank": 897,
-        "Type": "quia",
-        "ColorBlock": 386,
-        "IconHint": "ipsum",
+        "Rank": 392,
+        "Type": "ad",
+        "ColorBlock": 238,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2007-09-02T12:19:54.2740906+02:00",
+        "LastChanged": "1998-06-20T11:44:42.898184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Delphine Anderson",
+        "ExtraInfo": "nulla",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Prof. Pascale Swaniawski DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 34
+            "FieldLength": 73
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "quasi",
+    "ExtraInfo": "tempore",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Miss Torrance Jakubowski DVM",
+    "FullName": "Keara Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 946
       }
     }
   }

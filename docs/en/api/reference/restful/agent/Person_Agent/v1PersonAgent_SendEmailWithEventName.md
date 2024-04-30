@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "soluta",
-  "To": "autem",
-  "Subject": "vel",
-  "PlainBody": "et",
-  "HtmlBody": "qui",
+  "From": "ut",
+  "To": "earum",
+  "Subject": "architecto",
+  "PlainBody": "aut",
+  "HtmlBody": "et",
   "AttachmentIds": [
-    548,
-    519
+    325,
+    426
   ],
-  "EventName": "Koss Group"
+  "EventName": "Cremin LLC"
 }
 ```
 

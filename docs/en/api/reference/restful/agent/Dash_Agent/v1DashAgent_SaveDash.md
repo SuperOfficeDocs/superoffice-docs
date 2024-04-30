@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 454,
-  "UniqueId": "et",
-  "Name": "Hessel-Abernathy",
-  "Description": "Phased demand-driven knowledge user",
-  "AssociateId": 11,
-  "Columns": 253,
+  "DashboardId": 968,
+  "UniqueId": "ipsum",
+  "Name": "Aufderhar, Herman and Rice",
+  "Description": "Sharable motivating matrices",
+  "AssociateId": 702,
+  "Columns": 190,
   "Theme": null,
-  "VisibleForAll": 121,
+  "VisibleForAll": 69,
   "VisibleForAssociates": [
-    973,
-    514
+    624,
+    408
   ],
   "VisibleForGroups": [
-    723,
-    587
+    225,
+    50
   ],
-  "PinForAll": 524,
+  "PinForAll": 480,
   "PinForAssociates": [
-    939,
-    734
+    696,
+    765
   ],
   "PinForGroups": [
-    747,
-    671
+    215,
+    568
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 841,
-  "UniqueId": "ullam",
-  "Name": "Lubowitz-Jewess",
-  "Description": "Cross-platform well-modulated firmware",
-  "AssociateId": 121,
-  "Columns": 873,
+  "DashboardId": 803,
+  "UniqueId": "et",
+  "Name": "Wilkinson-Schiller",
+  "Description": "Intuitive coherent paradigm",
+  "AssociateId": 56,
+  "Columns": 582,
   "Theme": null,
-  "VisibleForAll": 376,
+  "VisibleForAll": 413,
   "VisibleForAssociates": [
-    19,
-    842
+    837,
+    478
   ],
   "VisibleForGroups": [
-    834,
-    233
+    179,
+    963
   ],
-  "PinForAll": 127,
+  "PinForAll": 97,
   "PinForAssociates": [
-    979,
-    730
+    269,
+    370
   ],
   "PinForGroups": [
-    712,
-    640
+    805,
+    533
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 481
     }
   }
 }

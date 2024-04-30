@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 245,
-  "Name": "Abshire Group",
-  "Description": "Customizable responsive analyzer",
-  "DefaultHeight": 292,
-  "DefaultWidth": 692,
+  "DashboardTileDefinitionId": 743,
+  "Name": "Abbott, Zemlak and Bednar",
+  "Description": "User-centric bifurcated paradigm",
+  "DefaultHeight": 742,
+  "DefaultWidth": 983,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Doyle LLC",
-  "SelectionId": 727,
+  "EntityName": "West, Gulgowski and Weber",
+  "SelectionId": 967,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laboriosam",
+  "CurrencyCode": "dolor",
   "Measure": "Average",
-  "MeasureField": "enim",
-  "SortBy": "deserunt",
-  "LayoutConfig": "enim",
-  "SecondarySelectionId": 302,
-  "MeasureByField": "dolor",
+  "MeasureField": "fugiat",
+  "SortBy": "et",
+  "LayoutConfig": "in",
+  "SecondarySelectionId": 265,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Padberg, Schamberger and Mohr",
+  "ProviderName": "Kihn LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 642
     }
   }
 }

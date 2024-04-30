@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 117,
-  "ContactName": "Jakubowski Inc and Sons",
-  "PersonId": 326,
-  "PersonName": "Harvey-Bailey",
-  "AssociateId": 77,
-  "Address": "delectus",
-  "EmailId": 852,
+  "ContactId": 217,
+  "ContactName": "Walter, Stanton and Bernier",
+  "PersonId": 246,
+  "PersonName": "Stehr-Witting",
+  "AssociateId": 67,
+  "Address": "vitae",
+  "EmailId": 571,
   "DuplicatePersonIds": [
-    208,
-    818
+    526,
+    153
   ],
-  "Name": "Douglas Inc and Sons",
+  "Name": "Hansen-Doyle",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 90
     }
   }
 }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Mosciski Group",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "UdListDefinitionId": 776,
-    "Rank": 742,
+    "Id": 12,
+    "Name": "Luettgen-Barton",
+    "Tooltip": "nostrum",
+    "Deleted": false,
+    "UdListDefinitionId": 288,
+    "Rank": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

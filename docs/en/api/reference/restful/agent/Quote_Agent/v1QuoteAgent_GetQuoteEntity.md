@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 395
+  "QuoteId": 125
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 882,
-  "SaleId": 61,
-  "QuoteConnectionId": 801,
-  "ERPQuoteKey": "autem",
-  "ERPOrderKey": "repellendus",
-  "ActiveQuoteVersionId": 760,
-  "AcceptedQuoteAlternativeId": 842,
-  "UseValuesFromQuote": 970,
-  "DocumentId": 621,
-  "PoNumber": "424632",
-  "OrderComment": "sint",
-  "PreferredEmailCulture": "enid@okeefe.co.uk",
+  "QuoteId": 86,
+  "SaleId": 170,
+  "QuoteConnectionId": 576,
+  "ERPQuoteKey": "quas",
+  "ERPOrderKey": "consequuntur",
+  "ActiveQuoteVersionId": 251,
+  "AcceptedQuoteAlternativeId": 832,
+  "UseValuesFromQuote": 173,
+  "DocumentId": 760,
+  "PoNumber": "374338",
+  "OrderComment": "alias",
+  "PreferredEmailCulture": "danny.johns@rowehodkiewicz.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 381,
-      "ERPQuoteVersionKey": "voluptatem",
-      "QuoteId": 841,
-      "Description": "Right-sized modular neural-net",
-      "Number": "729456",
+      "QuoteVersionId": 674,
+      "ERPQuoteVersionKey": "et",
+      "QuoteId": 971,
+      "Description": "Assimilated scalable challenge",
+      "Number": "582983",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 177,
-      "SentDate": "2002-11-08T12:19:46.1014395+01:00",
-      "FollowupId": 908,
-      "ExpirationDate": "2017-08-19T12:19:46.1014395+02:00",
-      "DeliveryCountryId": 162,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 377,
+      "LikelyQuoteAlternativeId": 681,
+      "SentDate": "2024-01-18T11:44:34.2907996+01:00",
+      "FollowupId": 5,
+      "ExpirationDate": "2023-10-10T11:44:34.2907996+02:00",
+      "DeliveryCountryId": 100,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 500,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "eius",
-      "ERPPaymentTypeKey": "esse",
-      "ERPDeliveryTermsKey": "eveniet",
-      "ERPDeliveryTypeKey": "ullam",
-      "Rank": 589,
-      "ApprovedBy": 504,
-      "ApprovedText": "consequatur",
-      "ApprovedRegisteredBy": 836,
-      "ApprovedRegisteredDate": "2023-01-06T12:19:46.1014395+01:00",
-      "ExtraField1": "eum",
-      "ExtraField2": "amet",
-      "ExtraField3": "libero",
-      "ExtraField4": "harum",
-      "ExtraField5": "voluptates",
-      "LastRecalculated": "2005-05-06T12:19:46.1014395+02:00",
-      "Updated": "2003-01-04T12:19:46.1014395+01:00",
-      "UpdatedAssociateId": 655,
-      "Registered": "2012-02-12T12:19:46.1014395+01:00",
-      "RegisteredAssociateId": 239,
-      "RequestAssociateId": 215,
-      "RequestComment": "molestias",
+      "ERPPaymentTermsKey": "sequi",
+      "ERPPaymentTypeKey": "et",
+      "ERPDeliveryTermsKey": "eos",
+      "ERPDeliveryTypeKey": "dicta",
+      "Rank": 585,
+      "ApprovedBy": 888,
+      "ApprovedText": "sunt",
+      "ApprovedRegisteredBy": 454,
+      "ApprovedRegisteredDate": "2006-02-23T11:44:34.2907996+01:00",
+      "ExtraField1": "sequi",
+      "ExtraField2": "dolore",
+      "ExtraField3": "quidem",
+      "ExtraField4": "incidunt",
+      "ExtraField5": "est",
+      "LastRecalculated": "2013-12-28T11:44:34.2907996+01:00",
+      "Updated": "1997-01-10T11:44:34.2907996+01:00",
+      "UpdatedAssociateId": 739,
+      "Registered": "2012-08-26T11:44:34.2907996+02:00",
+      "RegisteredAssociateId": 493,
+      "RequestAssociateId": 348,
+      "RequestComment": "amet",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldType": "System.String",
+          "FieldLength": 415
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

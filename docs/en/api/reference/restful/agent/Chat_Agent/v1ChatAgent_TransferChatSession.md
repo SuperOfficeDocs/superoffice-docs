@@ -110,8 +110,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 44,
-  "ToAssociate": "inventore"
+  "ChatSessionId": 800,
+  "ToAssociate": "quos"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 308,
-  "TopicId": 533,
+  "ChatSessionId": 497,
+  "TopicId": 100,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "sit",
-  "CustomerName": "Windler-Lubowitz",
-  "CustomerEmail": "giovanna@bruen.us",
-  "CustomerPhone": "137-903-5656",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Towne-Zulauf",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "et",
+  "CustomerName": "O'Hara Inc and Sons",
+  "CustomerEmail": "rigoberto@mooreswaniawski.name",
+  "CustomerPhone": "051.569.5590 x00294",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Howell Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "inventore",
-  "LastMessage": "et",
-  "WhenRequested": "2009-11-25T12:19:44.6017963+01:00",
-  "WhenStarted": "1997-09-29T12:19:44.6017963+02:00",
-  "WhenEnded": "2015-10-22T12:19:44.6017963+02:00",
-  "WhenIdle": "2021-01-22T12:19:44.6017963+01:00",
-  "WhenFetched": "2022-02-09T12:19:44.6017963+01:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 313,
-  "AlertLevel": 366,
-  "Rank": 680,
+  "FirstMessage": "nesciunt",
+  "LastMessage": "quam",
+  "WhenRequested": "2002-08-06T11:44:32.9161253+02:00",
+  "WhenStarted": "2021-01-07T11:44:32.9161253+01:00",
+  "WhenEnded": "2020-10-01T11:44:32.9161253+02:00",
+  "WhenIdle": "2007-03-13T11:44:32.9161253+01:00",
+  "WhenFetched": "2017-03-19T11:44:32.9161253+01:00",
+  "SessionKey": "dolorem",
+  "InitialQueuePos": 768,
+  "AlertLevel": 170,
+  "Rank": 905,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 557,
+  "Rating": 228,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 384
     }
   }
 }

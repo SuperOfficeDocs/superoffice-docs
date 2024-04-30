@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 701,
+  "RowCount": 607,
   "Rows": [
     {
-      "EntityName": "Donnelly LLC",
-      "PrimaryKey": 810,
+      "EntityName": "Swaniawski Group",
+      "PrimaryKey": 753,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "recusandae",
-          "TooltipHint": "cum",
-          "LinkHint": "doloribus"
+          "DisplayValue": "fugiat",
+          "TooltipHint": "aliquam",
+          "LinkHint": "corrupti"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "quaerat",
+      "LinkHint": "vitae",
+      "StyleHint": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldLength": 791
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 570
     }
   }
 }

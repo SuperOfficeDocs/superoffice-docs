@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 190,
-  "StartTime": "2013-01-28T12:19:45.0704356+01:00",
-  "EndTime": "2004-04-29T12:19:45.0704356+02:00",
-  "Count": 60,
-  "TemplateHeadingId": 479
+  "ContactId": 798,
+  "StartTime": "2005-10-13T11:44:33.4160074+02:00",
+  "EndTime": "2022-10-08T11:44:33.4160074+02:00",
+  "Count": 108,
+  "TemplateHeadingId": 635
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 500,
-    "Attention": "reiciendis",
-    "Header": "corrupti",
-    "Name": "Sauer, Heller and Bode",
-    "OurRef": "maxime",
-    "YourRef": "repellat",
-    "Description": "Stand-alone fault-tolerant framework",
-    "DocumentTemplate": "omnis",
+    "DocumentId": 76,
+    "Attention": "velit",
+    "Header": "quasi",
+    "Name": "DuBuque-Runte",
+    "OurRef": "qui",
+    "YourRef": "voluptatem",
+    "Description": "Profound leading edge open system",
+    "DocumentTemplate": "accusamus",
     "IsPublished": false,
-    "PersonId": 420,
-    "PersonFullName": "Kelsie Mayer",
-    "AssociateFullName": "Ms. Dustin Cielo Grant",
-    "ContactId": 592,
-    "ContactName": "Kemmer, Romaguera and Gleichner",
-    "ProjectId": 920,
-    "ProjectName": "Kirlin-Williamson",
-    "AssociateId": 782,
-    "Snum": 640,
-    "SaleId": 1001,
-    "SaleName": "Morar-Hegmann",
+    "PersonId": 869,
+    "PersonFullName": "Frank Esteban Schiller I",
+    "AssociateFullName": "Mateo Moen V",
+    "ContactId": 33,
+    "ContactName": "Reinger-Mills",
+    "ProjectId": 975,
+    "ProjectName": "Kulas-Robel",
+    "AssociateId": 464,
+    "Snum": 491,
+    "SaleId": 918,
+    "SaleName": "Lemke-Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldType": "System.String",
+        "FieldLength": 63
       }
     }
   }

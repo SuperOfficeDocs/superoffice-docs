@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Value": "accusantium",
-    "Tooltip": "tenetur",
+    "Id": 246,
+    "Value": "magni",
+    "Tooltip": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 135
       }
     }
   },
   {
-    "Id": 549,
-    "Value": "accusantium",
-    "Tooltip": "tenetur",
+    "Id": 246,
+    "Value": "magni",
+    "Tooltip": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 135
       }
     }
   }

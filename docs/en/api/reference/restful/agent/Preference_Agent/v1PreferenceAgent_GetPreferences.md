@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "et",
-      "Key": "dolorem"
+      "Section": "repudiandae",
+      "Key": "facere"
     },
     {
-      "Section": "et",
-      "Key": "dolorem"
+      "Section": "repudiandae",
+      "Key": "facere"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "et",
+    "RawValue": "sequi",
     "Specification": null,
-    "DisplayValue": "veniam",
-    "DisplayTooltip": "molestiae",
+    "DisplayValue": "aut",
+    "DisplayTooltip": "repellat",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 420,
-    "PrefDescId": 16,
-    "TableName": "Bogisich-O'Reilly",
-    "UserPreferenceId": 195,
+    "TargetId": 505,
+    "PrefDescId": 115,
+    "TableName": "Williamson-Haag",
+    "UserPreferenceId": 488,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldLength": 422
       }
     }
   }

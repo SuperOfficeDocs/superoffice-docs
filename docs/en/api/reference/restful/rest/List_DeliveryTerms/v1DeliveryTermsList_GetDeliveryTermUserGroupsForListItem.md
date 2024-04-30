@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Krajcik Group",
-    "ToolTip": "Quos qui soluta consequatur ex.",
+    "Id": 462,
+    "Name": "Hand-Koss",
+    "ToolTip": "Perspiciatis deleniti itaque quisquam maiores.",
     "Deleted": false,
-    "Rank": 108,
-    "Type": "quo",
-    "ColorBlock": 780,
-    "IconHint": "dolor",
+    "Rank": 930,
+    "Type": "error",
+    "ColorBlock": 425,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2004-10-14T12:19:54.4146752+02:00",
+    "LastChanged": "2005-12-08T11:44:43.0387817+01:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Hauck Inc and Sons",
-        "ToolTip": "Eligendi voluptate.",
+        "Id": 974,
+        "Name": "Buckridge Inc and Sons",
+        "ToolTip": "Sequi similique minima impedit ad.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "cupiditate",
-        "ColorBlock": 760,
-        "IconHint": "qui",
+        "Rank": 681,
+        "Type": "omnis",
+        "ColorBlock": 420,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2012-06-06T12:19:54.4146752+02:00",
+        "LastChanged": "2019-06-28T11:44:43.0387817+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Gwendolyn Torphy",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Miss Clifton Vada Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 530
+            "FieldType": "System.Int32",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Delia Kling",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Ms. Jacinto Stan Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 73
       }
     }
   }

@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schiller Inc and Sons",
+  "ProviderName": "Jakubowski LLC",
   "Restrictions": [
     {
-      "Name": "Deckow, Swift and Daugherty",
-      "Operator": "sit",
+      "Name": "Buckridge Inc and Sons",
+      "Operator": "quis",
       "Values": [
-        "fugiat",
-        "magni"
+        "minus",
+        "sequi"
       ],
       "DisplayValues": [
         "voluptatum",
-        "neque"
+        "perspiciatis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 837,
+      "InterParenthesis": 851,
       "InterOperator": "And",
-      "UniqueHash": 393
+      "UniqueHash": 173
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Glover Inc and Sons",
-    "Operator": "non",
+    "Name": "Mitchell, Kerluke and Halvorson",
+    "Operator": "architecto",
     "Values": [
-      "aliquid",
-      "impedit"
+      "rerum",
+      "architecto"
     ],
     "DisplayValues": [
-      "quod",
-      "voluptates"
+      "veniam",
+      "aut"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Dietrich-Buckridge",
-        "Operator": "et",
+        "Name": "Daniel-D'Amore",
+        "Operator": "fuga",
         "Values": [
-          "consectetur",
-          "molestiae"
+          "architecto",
+          "rerum"
         ],
         "DisplayValues": [
           "ut",
-          "voluptatibus"
+          "optio"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 888,
+        "InterParenthesis": 359,
         "InterOperator": "And",
-        "UniqueHash": 633
+        "UniqueHash": 508
       }
     ],
-    "InterParenthesis": 679,
+    "InterParenthesis": 365,
     "InterOperator": "And",
-    "UniqueHash": 35
+    "UniqueHash": 107
   }
 ]
 ```

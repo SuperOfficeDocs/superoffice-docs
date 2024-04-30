@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Name": "Nienow Group",
-  "Tooltip": "illum",
+  "Id": 948,
+  "Name": "Smith, Franecki and Hermiston",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "UdListDefinitionId": 953,
-  "Rank": 513,
+  "UdListDefinitionId": 900,
+  "Rank": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldLength": 775
     }
   }
 }

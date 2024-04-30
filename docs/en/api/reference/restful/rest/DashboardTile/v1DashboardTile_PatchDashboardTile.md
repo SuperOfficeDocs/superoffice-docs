@@ -121,18 +121,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "minima",
     "value": {}
   }
 ]
@@ -145,64 +145,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 208,
-  "Caption": "officia",
-  "Description": "Fully-configurable well-modulated infrastructure",
-  "ChartName": "Schuster Inc and Sons",
-  "ChartId": "unde",
-  "IsDefault": false,
-  "AssociateId": 88,
-  "GroupId": 570,
-  "SelectionId": 695,
-  "Config": "qui",
+  "DashboardTileId": 197,
+  "Caption": "qui",
+  "Description": "Customer-focused interactive knowledge base",
+  "ChartName": "Schneider, Kub and Morar",
+  "ChartId": "quidem",
+  "IsDefault": true,
+  "AssociateId": 544,
+  "GroupId": 904,
+  "SelectionId": 430,
+  "Config": "veniam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Nader LLC",
-      "Description": "Cross-group 24 hour firmware",
+      "Name": "Schamberger-Wisoky",
+      "Description": "Open-source actuating instruction set",
       "Type": "Boolean",
-      "ListName": "Hamill, Robel and Dietrich",
+      "ListName": "Nitzsche, Muller and Jaskolski",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "veniam",
+      "Value": "quod",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldType": "System.String",
+          "FieldLength": 113
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 540,
+      "VisibleId": 572,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldLength": 850
         }
       }
     },
     {
-      "VisibleId": 540,
+      "VisibleId": 572,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldLength": 850
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 116
     }
   },
   "_Links": {

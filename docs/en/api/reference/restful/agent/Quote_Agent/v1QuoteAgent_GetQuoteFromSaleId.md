@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 103
+  "SaleId": 732
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 947,
-  "SaleId": 901,
-  "QuoteConnectionId": 651,
-  "ERPQuoteKey": "doloremque",
-  "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 785,
-  "AcceptedQuoteAlternativeId": 394,
-  "UseValuesFromQuote": 146,
-  "DocumentId": 387,
-  "PoNumber": "702451",
-  "OrderComment": "illum",
-  "PreferredEmailCulture": "noe_watsica@kreigerklein.uk",
+  "QuoteId": 297,
+  "SaleId": 302,
+  "QuoteConnectionId": 354,
+  "ERPQuoteKey": "tempore",
+  "ERPOrderKey": "velit",
+  "ActiveQuoteVersionId": 406,
+  "AcceptedQuoteAlternativeId": 269,
+  "UseValuesFromQuote": 22,
+  "DocumentId": 444,
+  "PoNumber": "1070896",
+  "OrderComment": "pariatur",
+  "PreferredEmailCulture": "david@borer.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 742
     }
   }
 }

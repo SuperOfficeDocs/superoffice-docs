@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 734,
+  "SelectionId": 361,
   "SelectionMemberIds": [
-    524,
-    156
+    955,
+    393
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse assymetric local area network",
-  "Postit": "quia",
+  "Description": "Business-focused local website",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 578,
-  "IncludePerson": 506,
-  "MemberCount": 569,
-  "Name": "Mraz-Glover",
-  "PostitTextId": 394,
-  "CreatedDate": "2011-10-29T12:19:46.273282+02:00",
-  "SelectionId": 89,
-  "SoundEx": "officiis",
-  "Source": 324,
-  "TextId": 47,
-  "UpdatedDate": "2007-06-24T12:19:46.273282+02:00",
-  "UpdatedCount": 951,
-  "Visibility": 242,
+  "GroupIdx": 180,
+  "IncludePerson": 995,
+  "MemberCount": 813,
+  "Name": "Denesik-Witting",
+  "PostitTextId": 420,
+  "CreatedDate": "2020-05-18T11:44:34.4626459+02:00",
+  "SelectionId": 987,
+  "SoundEx": "et",
+  "Source": 425,
+  "TextId": 487,
+  "UpdatedDate": "2020-09-29T11:44:34.4626459+02:00",
+  "UpdatedCount": 89,
+  "Visibility": 90,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 26,
-  "TargetTableName": "Ward-McLaughlin",
+  "CompanyUnique": false,
+  "TargetTableNumber": 53,
+  "TargetTableName": "Greenfelder-O'Keefe",
   "Completed": false,
-  "LeftSelectionId": 57,
-  "RightSelectionId": 743,
+  "LeftSelectionId": 839,
+  "RightSelectionId": 616,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mohr, Wiza and Carroll",
-  "ShadowProviderName": "Schaden-Cassin",
-  "ChartKey": "est",
-  "LastLoaded": "2010-11-05T12:19:46.273282+01:00",
-  "LastLoadedBy": 553,
+  "MainProviderName": "Murazik LLC",
+  "ShadowProviderName": "Kutch, Sporer and Nikolaus",
+  "ChartKey": "et",
+  "LastLoaded": "2004-07-11T11:44:34.4626459+02:00",
+  "LastLoadedBy": 782,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-12-22T12:19:46.273282+01:00",
-  "LastMembershipChangeBy": 98,
+  "LastMembershipChange": "2006-04-09T11:44:34.4626459+02:00",
+  "LastMembershipChangeBy": 255,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nesciunt",
-  "MemberTabHeading": "dolores",
-  "MailingsProviderName": "Thompson LLC",
-  "DashboardTileDefinitionId": 103,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Dickens-Huel",
+  "DashboardTileDefinitionId": 691,
   "VisibleFor": [
     {
-      "VisibleId": 87,
+      "VisibleId": 327,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 337
         }
       }
     },
     {
-      "VisibleId": 87,
+      "VisibleId": 327,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 337
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 871
     }
   }
 }

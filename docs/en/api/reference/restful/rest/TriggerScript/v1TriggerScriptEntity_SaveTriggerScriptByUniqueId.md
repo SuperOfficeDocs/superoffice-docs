@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 500,
-  "Name": "Koepp, Boehm and Thompson",
+  "ScreenChooserId": 628,
+  "Name": "Beatty, Bailey and Macejkovic",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "animi",
-  "Source": "beatae",
-  "Registered": "2008-09-06T12:19:54.0866374+02:00",
-  "RegisteredAssociateId": 319,
-  "Updated": "1998-05-21T12:19:54.0866374+02:00",
-  "UpdatedAssociateId": 938
+  "Enabled": false,
+  "UniqueIdentifier": "doloribus",
+  "Source": "rem",
+  "Registered": "1999-05-12T11:44:42.6951171+02:00",
+  "RegisteredAssociateId": 815,
+  "Updated": "2012-11-30T11:44:42.6951171+01:00",
+  "UpdatedAssociateId": 169
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 809,
-  "Name": "Heller Inc and Sons",
+  "ScreenChooserId": 727,
+  "Name": "Fritsch Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quam",
-  "Source": "minima",
-  "Registered": "2012-12-24T12:19:54.0866374+01:00",
-  "RegisteredAssociateId": 79,
-  "Updated": "2013-09-12T12:19:54.0866374+02:00",
-  "UpdatedAssociateId": 586,
+  "Enabled": false,
+  "UniqueIdentifier": "eius",
+  "Source": "nulla",
+  "Registered": "2007-12-24T11:44:42.6951171+01:00",
+  "RegisteredAssociateId": 238,
+  "Updated": "2020-06-20T11:44:42.6951171+02:00",
+  "UpdatedAssociateId": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 876
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 949
+  "WorkflowStepOptionId": 874
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 113,
-  "WorkflowStepId": 183,
-  "WorkflowId": 51,
-  "Name": "Ankunding Group",
-  "Rank": 265,
+  "WorkflowStepOptionId": 752,
+  "WorkflowStepId": 136,
+  "WorkflowId": 840,
+  "Name": "Haag, Boyer and Johnson",
+  "Rank": 82,
   "Steps": [
     {
-      "WorkflowStepId": 168,
-      "WorkflowId": 617,
+      "WorkflowStepId": 642,
+      "WorkflowId": 880,
       "StepType": "AddToList",
-      "Rank": 397
+      "Rank": 905
     },
     {
-      "WorkflowStepId": 168,
-      "WorkflowId": 617,
+      "WorkflowStepId": 642,
+      "WorkflowId": 880,
       "StepType": "AddToList",
-      "Rank": 397
+      "Rank": 905
     }
   ]
 }

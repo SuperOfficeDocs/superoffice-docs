@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Koepp-Waters",
-    "ToolTip": "Quo at quos nesciunt dolorem.",
-    "Deleted": false,
-    "Rank": 704,
-    "Type": "assumenda",
-    "ColorBlock": 686,
-    "IconHint": "numquam",
+    "Id": 516,
+    "Name": "Adams LLC",
+    "ToolTip": "Rerum ea officia in exercitationem odio labore.",
+    "Deleted": true,
+    "Rank": 266,
+    "Type": "possimus",
+    "ColorBlock": 117,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2022-09-03T12:19:54.8677016+02:00",
+    "LastChanged": "2013-07-25T11:44:43.3668335+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "McGlynn-Larson",
-        "ToolTip": "Fuga earum harum autem optio.",
+        "Id": 862,
+        "Name": "Russel Inc and Sons",
+        "ToolTip": "Et minus cum eveniet perspiciatis iure corporis.",
         "Deleted": false,
-        "Rank": 626,
-        "Type": "modi",
-        "ColorBlock": 611,
-        "IconHint": "iste",
+        "Rank": 685,
+        "Type": "voluptas",
+        "ColorBlock": 330,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2009-03-08T12:19:54.8677016+01:00",
+        "LastChanged": "1998-02-13T11:44:43.3668335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "odio",
+        "ExtraInfo": "ut",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Donnell Doyle",
+        "FullName": "Daphnee Herminio Buckridge DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 949
+            "FieldType": "System.String",
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "sed",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Viva Kuhn",
+    "FullName": "Prof. Zoe Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldLength": 694
       }
     }
   }

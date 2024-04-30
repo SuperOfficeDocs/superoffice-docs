@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 892,
-  "Name": "Lockman-Wolf",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 445,
-  "Rank": 906
+  "Id": 459,
+  "Name": "Kulas Group",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "UdListDefinitionId": 150,
+  "Rank": 295
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Name": "Gutmann-Lowe",
-  "Tooltip": "maiores",
+  "Id": 414,
+  "Name": "Stark-Zulauf",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 863,
-  "Rank": 128,
+  "UdListDefinitionId": 731,
+  "Rank": 599,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 454
     }
   }
 }

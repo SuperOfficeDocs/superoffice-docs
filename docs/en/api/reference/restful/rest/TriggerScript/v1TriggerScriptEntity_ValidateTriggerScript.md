@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "enim",
-  "LineNumber": 304,
+  "ErrorMessage": "sint",
+  "LineNumber": 601,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

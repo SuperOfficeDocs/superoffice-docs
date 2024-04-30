@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Prosacco, Schamberger and Lowe",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "UdListDefinitionId": 418,
-  "Rank": 453,
+  "Id": 284,
+  "Name": "Streich-Lowe",
+  "Tooltip": "at",
+  "Deleted": false,
+  "UdListDefinitionId": 671,
+  "Rank": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 585
+  "TicketMessageEntityId": 498
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 128,
-    "Name": "Boyer-Kuhn",
-    "ContentType": "ratione",
-    "AttSize": 731,
+    "AttachmentId": 57,
+    "Name": "Rogahn-Carter",
+    "ContentType": "et",
+    "AttSize": 464,
     "InlineImage": false,
-    "ContentId": "et",
-    "AuthKey": "officiis",
+    "ContentId": "distinctio",
+    "AuthKey": "tempore",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldLength": 760
       }
     }
   }

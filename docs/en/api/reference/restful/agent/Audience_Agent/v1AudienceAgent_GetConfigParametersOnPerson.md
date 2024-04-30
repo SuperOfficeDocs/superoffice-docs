@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 117
+  "PersonId": 532
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 808,
-    "Name": "Renner-Murphy",
-    "Value": "veritatis",
-    "CreatedDate": "2012-04-19T12:19:44.5080652+02:00",
-    "UpdatedDate": "2015-09-19T12:19:44.5080652+02:00",
-    "CreatedBy": "alias",
-    "UpdatedBy": "est",
+    "AudienceLayoutId": 462,
+    "Name": "Keebler-Goodwin",
+    "Value": "et",
+    "CreatedDate": "2018-09-08T11:44:32.806727+02:00",
+    "UpdatedDate": "1997-10-23T11:44:32.806727+02:00",
+    "CreatedBy": "laboriosam",
+    "UpdatedBy": "accusantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 96
       }
     }
   }

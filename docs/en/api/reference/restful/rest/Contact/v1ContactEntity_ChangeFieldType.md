@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 844,
-  "ColumnId": 593,
-  "FieldDefault": "ea",
-  "FieldHeight": 367,
-  "FieldLabel": "eum",
-  "FieldLeft": 978,
-  "FieldTop": 798,
+  "UDefFieldId": 561,
+  "ColumnId": 555,
+  "FieldDefault": "quia",
+  "FieldHeight": 5,
+  "FieldLabel": "neque",
+  "FieldLeft": 353,
+  "FieldTop": 643,
   "FieldType": "Checkbox",
-  "FieldWidth": 505,
-  "FormatMask": "consequatur",
+  "FieldWidth": 551,
+  "FormatMask": "placeat",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 599,
-  "LabelLeft": 13,
-  "LabelTop": 753,
-  "LabelWidth": 449,
-  "LastVersionId": 136,
-  "ListTableId": 452,
-  "IsMandatory": false,
+  "LabelHeight": 590,
+  "LabelLeft": 544,
+  "LabelTop": 434,
+  "LabelWidth": 975,
+  "LastVersionId": 661,
+  "ListTableId": 964,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 770,
-  "ProgId": "possimus",
-  "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 348,
-  "TextLength": 366,
-  "Tooltip": "veniam",
-  "UdefIdentity": 789,
-  "UDListDefinitionId": 615,
+  "Page1LineNo": 655,
+  "ProgId": "nihil",
+  "IsReadOnly": true,
+  "ShortLabel": "magnam",
+  "TabOrder": 840,
+  "TextLength": 54,
+  "Tooltip": "quaerat",
+  "UdefIdentity": 241,
+  "UDListDefinitionId": 139,
   "Justification": "Center",
-  "Version": 708,
-  "TemplateVariableName": "Wyman, Barrows and Gerhold",
+  "Version": 815,
+  "TemplateVariableName": "Johnson LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Muller Group",
+  "MdoListName": "Dickens, Rowe and Franecki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

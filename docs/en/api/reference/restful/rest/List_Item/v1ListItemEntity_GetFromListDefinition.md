@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Lynch Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 238,
+  "Name": "Kihn, Haley and Hegmann",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 735,
-  "Rank": 795,
+  "UdListDefinitionId": 162,
+  "Rank": 982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 137
     }
   }
 }

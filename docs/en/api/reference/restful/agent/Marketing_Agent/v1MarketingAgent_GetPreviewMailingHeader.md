@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 411
+  "ShipmentId": 691
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2008-09-23T12:19:45.585943+02:00",
+  "StartDate": "2009-12-16T11:44:33.9315193+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 947,
-  "ShipmentDescription": "Centralized composite flexibility",
-  "FromAddress": "dignissimos",
-  "Configuration": 875,
-  "PersonId": 824,
-  "PersonFullName": "Prof. Estevan Vandervort",
-  "ShipmentType": "aspernatur",
-  "MessageId": 525,
-  "MessageSubject": "qui",
-  "DocumentMessageId": 348,
-  "NumSent": 311,
-  "NumOpened": 579,
-  "NumBounced": 402,
-  "NumClicks": 73,
+  "ShipmentId": 596,
+  "ShipmentDescription": "Open-architected reciprocal project",
+  "FromAddress": "ducimus",
+  "Configuration": 248,
+  "PersonId": 380,
+  "PersonFullName": "Henderson Mosciski",
+  "ShipmentType": "deleniti",
+  "MessageId": 770,
+  "MessageSubject": "consectetur",
+  "DocumentMessageId": 451,
+  "NumSent": 477,
+  "NumOpened": 78,
+  "NumBounced": 618,
+  "NumClicks": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldLength": 908
     }
   }
 }

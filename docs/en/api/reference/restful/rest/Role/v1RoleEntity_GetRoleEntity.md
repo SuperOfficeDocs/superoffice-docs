@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 978,
-  "Name": "Beahan LLC",
-  "Tooltip": "voluptas",
+  "RoleId": 449,
+  "Name": "Balistreri LLC",
+  "Tooltip": "vitae",
   "RoleType": "Anonymous",
-  "Deleted": 679,
-  "Rank": 982,
-  "Created": "1997-09-03T12:19:53.7898269+02:00",
-  "UseCategories": 801,
+  "Deleted": 242,
+  "Rank": 660,
+  "Created": "1999-09-03T11:44:42.2107985+02:00",
+  "UseCategories": 735,
   "CreatedBy": null,
-  "Updated": "2018-05-02T12:19:53.7898269+02:00",
+  "Updated": "1999-01-18T11:44:42.2107985+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldLength": 917
     }
   },
   "_Links": {

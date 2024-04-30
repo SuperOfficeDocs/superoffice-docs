@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 438
+  "RoleId": 592
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Gulgowski LLC",
-    "ToolTip": "Quae laudantium est eveniet.",
+    "Id": 738,
+    "Name": "Lind-Hansen",
+    "ToolTip": "Impedit dolores praesentium ut voluptatem occaecati amet dolorum.",
     "Deleted": true,
-    "Rank": 939,
-    "Type": "fuga",
-    "ColorBlock": 97,
+    "Rank": 406,
+    "Type": "omnis",
+    "ColorBlock": 59,
     "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2000-11-17T12:19:46.5857106+01:00",
+    "Selected": false,
+    "LastChanged": "2019-12-31T11:44:34.9781542+01:00",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Bechtelar, Beier and Grady",
-        "ToolTip": "Sunt magni.",
+        "Id": 507,
+        "Name": "Steuber-Smitham",
+        "ToolTip": "Rerum est.",
         "Deleted": false,
-        "Rank": 761,
-        "Type": "eius",
-        "ColorBlock": 275,
-        "IconHint": "repudiandae",
+        "Rank": 219,
+        "Type": "dolorem",
+        "ColorBlock": 617,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2005-09-27T12:19:46.5857106+02:00",
+        "LastChanged": "2020-10-12T11:44:34.9781542+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "blanditiis",
-        "Hidden": false,
-        "FullName": "Edna Kirlin",
+        "ExtraInfo": "velit",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Miss Gladyce Dedrick Dare II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 408
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Mrs. Kendrick Travis Gorczany I",
+    "ExtraInfo": "nobis",
+    "StyleHint": "fugit",
+    "Hidden": true,
+    "FullName": "Laurence Tracy Goldner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldType": "System.String",
+        "FieldLength": 948
       }
     }
   }

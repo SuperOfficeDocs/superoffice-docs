@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Prosacco, Hirthe and Hickle",
-    "ToolTip": "Sint adipisci voluptatem sit recusandae explicabo architecto.",
-    "Deleted": false,
-    "Rank": 106,
-    "Type": "occaecati",
-    "ColorBlock": 240,
-    "IconHint": "quibusdam",
-    "Selected": false,
-    "LastChanged": "2007-07-12T12:19:54.6334859+02:00",
+    "Id": 749,
+    "Name": "Bosco, Koepp and Steuber",
+    "ToolTip": "Culpa repudiandae.",
+    "Deleted": true,
+    "Rank": 754,
+    "Type": "perspiciatis",
+    "ColorBlock": 794,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2011-04-11T11:44:43.1325006+02:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Hilpert, Howe and Connelly",
-        "ToolTip": "Minima iste quidem fugit sint quam quia.",
+        "Id": 576,
+        "Name": "Hansen-Roberts",
+        "ToolTip": "Doloremque nam modi et quisquam quia repudiandae veritatis.",
         "Deleted": false,
-        "Rank": 440,
-        "Type": "et",
-        "ColorBlock": 680,
-        "IconHint": "assumenda",
+        "Rank": 745,
+        "Type": "provident",
+        "ColorBlock": 446,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2005-02-28T12:19:54.6334859+01:00",
+        "LastChanged": "2002-06-22T11:44:43.1325006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "sit",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Kallie Yundt"
+        "FullName": "Malinda Kunze"
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "ea",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Zachariah Adams"
+    "FullName": "Darian Pollich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Wolff Group",
-    "ToolTip": "Qui consequatur repellendus ex est ratione tenetur.",
-    "Deleted": false,
-    "Rank": 498,
-    "Type": "aliquam",
-    "ColorBlock": 215,
-    "IconHint": "sed",
+    "Id": 141,
+    "Name": "Flatley Inc and Sons",
+    "ToolTip": "Fuga qui.",
+    "Deleted": true,
+    "Rank": 13,
+    "Type": "tempora",
+    "ColorBlock": 451,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2023-11-21T12:19:54.6334859+01:00",
+    "LastChanged": "2003-05-30T11:44:43.1325006+02:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Welch, Crooks and Grady",
-        "ToolTip": "Sit sapiente ratione.",
-        "Deleted": true,
-        "Rank": 878,
-        "Type": "debitis",
-        "ColorBlock": 155,
-        "IconHint": "esse",
+        "Id": 34,
+        "Name": "Ward-Rolfson",
+        "ToolTip": "Quibusdam quaerat ullam quas culpa cumque voluptatem.",
+        "Deleted": false,
+        "Rank": 673,
+        "Type": "aut",
+        "ColorBlock": 272,
+        "IconHint": "nemo",
         "Selected": true,
-        "LastChanged": "2017-08-18T12:19:54.6334859+02:00",
+        "LastChanged": "2002-12-16T11:44:43.1325006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Kelly Mosciski",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Wilburn Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 821
+            "FieldLength": 78
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "quis",
+    "StyleHint": "maiores",
     "Hidden": true,
-    "FullName": "Dr. Zander Breitenberg",
+    "FullName": "Kevin Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 371
       }
     }
   }

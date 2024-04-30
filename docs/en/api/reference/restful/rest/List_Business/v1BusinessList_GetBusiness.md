@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "Greenfelder-Schinner",
-  "Tooltip": "blanditiis",
+  "Id": 829,
+  "Name": "Greenholt-Kemmer",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 467,
-  "Rank": 830,
+  "UdListDefinitionId": 641,
+  "Rank": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   }
 }

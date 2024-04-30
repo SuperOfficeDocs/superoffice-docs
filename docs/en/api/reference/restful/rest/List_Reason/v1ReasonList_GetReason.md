@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Russel, Nader and Howe",
-  "Tooltip": "voluptatem",
+  "Id": 988,
+  "Name": "Schmeler Group",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "UdListDefinitionId": 481,
-  "Rank": 266,
+  "UdListDefinitionId": 48,
+  "Rank": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 162
     }
   }
 }

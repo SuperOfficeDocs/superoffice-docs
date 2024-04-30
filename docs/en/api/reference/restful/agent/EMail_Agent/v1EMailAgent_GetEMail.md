@@ -105,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
+  "Id": 535,
   "IncludeAttachments": false
 }
 ```
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 31,
-      "ContactName": "Morissette-Hagenes",
-      "PersonId": 400,
-      "PersonName": "Bernier Group",
-      "AssociateId": 781,
-      "Address": "ea",
-      "EmailId": 137,
+      "ContactId": 485,
+      "ContactName": "Quitzon, Parisian and Heathcote",
+      "PersonId": 590,
+      "PersonName": "Blanda, Crist and Daniel",
+      "AssociateId": 593,
+      "Address": "earum",
+      "EmailId": 208,
       "DuplicatePersonIds": [
-        289,
-        753
+        444,
+        163
       ],
-      "Name": "Quitzon-Collins",
+      "Name": "Maggio, Collins and Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 259
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 48,
-      "ContactName": "Strosin-Schaden",
-      "PersonId": 867,
-      "PersonName": "Nienow LLC",
-      "AssociateId": 165,
-      "Address": "maiores",
-      "EmailId": 346,
+      "ContactId": 708,
+      "ContactName": "Mills LLC",
+      "PersonId": 873,
+      "PersonName": "Abernathy, Glover and Purdy",
+      "AssociateId": 23,
+      "Address": "aut",
+      "EmailId": 362,
       "DuplicatePersonIds": [
-        829,
-        620
+        573,
+        465
       ],
-      "Name": "Hoeger, Schulist and Smitham",
+      "Name": "Huel-Grimes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldType": "System.String",
+          "FieldLength": 287
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 888,
-      "ContactName": "Breitenberg, Davis and Price",
-      "PersonId": 44,
-      "PersonName": "Kunde, Jaskolski and Russel",
-      "AssociateId": 596,
-      "Address": "ut",
-      "EmailId": 995,
+      "ContactId": 540,
+      "ContactName": "Mertz LLC",
+      "PersonId": 249,
+      "PersonName": "King, Murphy and Kuvalis",
+      "AssociateId": 495,
+      "Address": "voluptas",
+      "EmailId": 934,
       "DuplicatePersonIds": [
-        855,
-        177
+        464,
+        755
       ],
-      "Name": "Upton-Bradtke",
+      "Name": "Gottlieb, Koepp and Von",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldType": "System.Int32",
+          "FieldLength": 578
         }
       }
     }
   ],
-  "Subject": "autem",
-  "HTMLBody": "odio",
+  "Subject": "quasi",
+  "HTMLBody": "voluptatem",
   "From": null,
-  "Sent": "2021-10-03T12:19:45.3359926+02:00",
-  "Size": 934,
+  "Sent": "2004-09-16T11:44:33.6971931+02:00",
+  "Size": 843,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sit",
-  "PlainBody": "aperiam",
+  "MessageID": "aut",
+  "PlainBody": "tempora",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 584,
+  "ServerId": 647,
   "Attachments": [
     {
-      "Description": "Enterprise-wide real-time strategy",
-      "Filename": "nemo",
-      "Size": 819,
-      "Type": "a",
-      "Encoding": "et",
-      "Id": "veritatis",
-      "Disposition": "suscipit",
+      "Description": "Networked solution-oriented migration",
+      "Filename": "iure",
+      "Size": 351,
+      "Type": "libero",
+      "Encoding": "nemo",
+      "Id": "perspiciatis",
+      "Disposition": "voluptas",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldLength": 526
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Tremblay Group",
+      "Name": "Hudson-Von",
       "Values": [
-        "tenetur",
-        "deleniti"
+        "id",
+        "hic"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldType": "System.Int32",
+          "FieldLength": 440
         }
       }
     },
     {
-      "Name": "Tremblay Group",
+      "Name": "Hudson-Von",
       "Values": [
-        "tenetur",
-        "deleniti"
+        "id",
+        "hic"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldType": "System.Int32",
+          "FieldLength": 440
         }
       }
     }
   ],
-  "FolderName": "Haag, Spencer and Wunsch",
-  "EmailItemId": 134,
-  "AccountId": 59,
-  "ReceivedAt": "2019-09-07T12:19:45.3359926+02:00",
+  "FolderName": "Hoeger, McGlynn and Reichel",
+  "EmailItemId": 605,
+  "AccountId": 998,
+  "ReceivedAt": "2010-12-27T11:44:33.6971931+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-03-28T12:19:45.3359926+02:00",
+  "RepliedAt": "1999-06-28T11:44:33.6971931+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldType": "System.String",
+      "FieldLength": 610
     }
   }
 }

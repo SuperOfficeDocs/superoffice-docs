@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Abbott, Hoppe and Vandervort",
-  "ParameterName": "Emmerich-Parker"
+  "LayoutName": "Borer Inc and Sons",
+  "ParameterName": "Williamson, Hirthe and Flatley"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 532,
-  "Name": "Schroeder Inc and Sons",
-  "Value": "aut",
-  "CreatedDate": "2008-06-11T12:19:44.5080652+02:00",
-  "UpdatedDate": "2021-04-26T12:19:44.5080652+02:00",
-  "CreatedBy": "tempora",
-  "UpdatedBy": "sit",
+  "AudienceLayoutId": 887,
+  "Name": "Hirthe, Lesch and Parisian",
+  "Value": "explicabo",
+  "CreatedDate": "2010-03-12T11:44:32.806727+01:00",
+  "UpdatedDate": "2008-12-19T11:44:32.806727+01:00",
+  "CreatedBy": "quisquam",
+  "UpdatedBy": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 231
     }
   }
 }

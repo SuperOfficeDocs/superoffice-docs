@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Kuvalis, Cassin and Pouros",
-    "ToolTip": "Natus est rerum.",
-    "Deleted": false,
-    "Rank": 264,
-    "Type": "aut",
-    "ColorBlock": 200,
-    "IconHint": "natus",
+    "Id": 661,
+    "Name": "Braun LLC",
+    "ToolTip": "Libero aut voluptatem sunt.",
+    "Deleted": true,
+    "Rank": 220,
+    "Type": "nostrum",
+    "ColorBlock": 492,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2022-10-06T12:19:54.6802476+02:00",
+    "LastChanged": "2001-05-10T11:44:43.1793782+02:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Bogisich-Simonis",
-        "ToolTip": "Mollitia facere quam atque nobis architecto tempore.",
+        "Id": 58,
+        "Name": "Wisozk, Sauer and Nienow",
+        "ToolTip": "Veniam quis et.",
         "Deleted": false,
-        "Rank": 389,
-        "Type": "adipisci",
-        "ColorBlock": 851,
-        "IconHint": "quisquam",
+        "Rank": 549,
+        "Type": "iste",
+        "ColorBlock": 391,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2023-09-21T12:19:54.6802476+02:00",
+        "LastChanged": "2005-06-27T11:44:43.1793782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eos",
+        "ExtraInfo": "quia",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Dr. Nicholas Arnoldo O'Connell PhD",
+        "FullName": "Gretchen Cleta Swaniawski MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 783
+            "FieldLength": 973
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Johnathan Rippin",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "nisi",
+    "Hidden": true,
+    "FullName": "Prof. Deven Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldType": "System.Int32",
+        "FieldLength": 431
       }
     }
   }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 408,
-  "StartTime": "2001-09-17T12:19:45.0704356+02:00",
-  "EndTime": "2023-07-12T12:19:45.0704356+02:00",
-  "Count": 386,
-  "DocumentTemplateId": 603
+  "ContactId": 614,
+  "StartTime": "2000-11-08T11:44:33.4160074+01:00",
+  "EndTime": "2001-09-12T11:44:33.4160074+02:00",
+  "Count": 198,
+  "DocumentTemplateId": 887
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 739,
-    "Attention": "et",
-    "Header": "aut",
-    "Name": "Prosacco LLC",
-    "OurRef": "libero",
-    "YourRef": "culpa",
-    "Description": "Virtual grid-enabled secured line",
-    "DocumentTemplate": "nihil",
-    "IsPublished": false,
-    "PersonId": 68,
-    "PersonFullName": "Rosalyn Yolanda Borer Jr.",
-    "AssociateFullName": "Mrs. Xzavier Kody Hane II",
-    "ContactId": 116,
-    "ContactName": "Sawayn Inc and Sons",
-    "ProjectId": 517,
-    "ProjectName": "Halvorson-Hamill",
-    "AssociateId": 331,
-    "Snum": 561,
-    "SaleId": 232,
-    "SaleName": "McDermott-Funk",
+    "DocumentId": 863,
+    "Attention": "voluptatem",
+    "Header": "eius",
+    "Name": "Roob-Littel",
+    "OurRef": "qui",
+    "YourRef": "quaerat",
+    "Description": "Persistent optimizing pricing structure",
+    "DocumentTemplate": "corrupti",
+    "IsPublished": true,
+    "PersonId": 210,
+    "PersonFullName": "Mabelle Hirthe",
+    "AssociateFullName": "Bella Hermann III",
+    "ContactId": 742,
+    "ContactName": "Gorczany Group",
+    "ProjectId": 456,
+    "ProjectName": "Ferry, Kutch and Yundt",
+    "AssociateId": 772,
+    "Snum": 924,
+    "SaleId": 808,
+    "SaleName": "Zemlak Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 704
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 Mar 2017 12:19:53 G3T
+Last-Modified: Wed, 08 Apr 2020 11:44:42 G4T
 
 {
-  "BlobId": 299,
-  "BlobSize": 415,
-  "Description": "Profound disintermediate local area network",
-  "ExtraInfo": "ullam",
+  "BlobId": 159,
+  "BlobSize": 167,
+  "Description": "Adaptive high-level data-warehouse",
+  "ExtraInfo": "tempora",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "eveniet",
-  "OriginalSize": 754,
-  "CreatedDate": "2015-10-27T12:19:53.7273414+01:00",
-  "UpdatedDate": "2017-03-29T12:19:53.7273414+02:00",
+  "MimeType": "porro",
+  "OriginalSize": 61,
+  "CreatedDate": "2015-02-26T11:44:42.1326915+01:00",
+  "UpdatedDate": "2020-04-08T11:44:42.1326915+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "libero",
+  "ConceptualType": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   }
 }

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Beer Inc and Sons"
+  "FunctionalRightName": "Murray-Pfannerstill"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Hagenes, Haley and Russel",
-    "ToolTip": "Quam dolor.",
+    "Id": 413,
+    "Name": "Champlin, Pfannerstill and Wisozk",
+    "ToolTip": "Provident itaque ex dolor aliquid enim dignissimos.",
     "Deleted": false,
-    "Rank": 913,
-    "Type": "totam",
+    "Rank": 826,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 632,
-        "Name": "D'Amore, Macejkovic and Marks",
-        "ToolTip": "Nobis dolor consequatur rem est.",
-        "Deleted": false,
-        "Rank": 247,
+        "Id": 565,
+        "Name": "Adams-West",
+        "ToolTip": "Placeat tempore voluptatum ipsam ut dolorem ex aut.",
+        "Deleted": true,
+        "Rank": 740,
         "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 611,
-        "ExtraInfo": "quo",
-        "StyleHint": "assumenda",
-        "FullName": "Franco Schuster",
+        "IconHint": "veniam",
+        "ColorBlock": 365,
+        "ExtraInfo": "saepe",
+        "StyleHint": "et",
+        "FullName": "Darian Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 372
           }
         }
       }
     ],
-    "IconHint": "accusantium",
-    "ColorBlock": 491,
-    "ExtraInfo": "dolor",
-    "StyleHint": "qui",
-    "FullName": "Hildegard Johnson",
+    "IconHint": "et",
+    "ColorBlock": 63,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "quis",
+    "FullName": "Roosevelt Veum IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldLength": 777
       }
     }
   }

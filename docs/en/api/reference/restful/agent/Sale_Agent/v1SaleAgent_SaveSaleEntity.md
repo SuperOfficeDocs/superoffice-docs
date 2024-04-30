@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ipsam",
+  "SaleText": "ratione",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-10-29T12:19:46.1639363+01:00",
-  "Amount": 21204.644,
-  "SaleId": 464,
-  "Earning": 28265.546,
-  "EarningPercent": 11633.408,
-  "Heading": "sunt",
-  "Number": "1149667",
-  "Probability": 533,
-  "CreatedDate": "1997-09-26T12:19:46.1639363+02:00",
-  "UpdatedDate": "2018-02-17T12:19:46.1639363+01:00",
+  "Saledate": "1997-01-22T11:44:34.3532949+01:00",
+  "Amount": 3328.308,
+  "SaleId": 814,
+  "Earning": 30553.365999999998,
+  "EarningPercent": 29823.144,
+  "Heading": "ut",
+  "Number": "676664",
+  "Probability": 259,
+  "CreatedDate": "2011-02-23T11:44:34.3532949+01:00",
+  "UpdatedDate": "2017-10-17T11:44:34.3532949+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 728,
+  "ActiveLinks": 933,
   "Links": [
     {
-      "EntityName": "Williamson-Erdman",
-      "Id": 866,
-      "Description": "Reduced object-oriented internet solution",
-      "ExtraInfo": "qui",
-      "LinkId": 803
+      "EntityName": "Little Group",
+      "Id": 209,
+      "Description": "Function-based well-modulated methodology",
+      "ExtraInfo": "illo",
+      "LinkId": 514
     },
     {
-      "EntityName": "Williamson-Erdman",
-      "Id": 866,
-      "Description": "Reduced object-oriented internet solution",
-      "ExtraInfo": "qui",
-      "LinkId": 803
+      "EntityName": "Little Group",
+      "Id": 209,
+      "Description": "Function-based well-modulated methodology",
+      "ExtraInfo": "illo",
+      "LinkId": 514
     }
   ],
-  "NextDueDate": "2000-02-01T12:19:46.1639363+01:00",
-  "Postit": "qui",
+  "NextDueDate": "2015-10-03T11:44:34.3532949+02:00",
+  "Postit": "ea",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2013-05-30T12:19:46.1639363+02:00",
+  "ReopenDate": "2004-11-22T11:44:34.3532949+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Senger LLC",
-      "Comment": "qui",
-      "StakeholderRoleId": 966,
-      "CountryId": 671,
-      "PersonId": 643,
-      "EmailDescription": "cooper_wolf@kutch.com",
-      "EmailId": 147,
-      "EmailAddress": "kennith_adams@jakubowskikohler.ca",
-      "PhoneId": 428,
-      "ContactName": "Kemmer LLC",
-      "ContactId": 655,
-      "SaleId": 855,
-      "Mrmrs": "aut",
-      "Firstname": "Emerald",
-      "MiddleName": "Nikolaus-Schmitt",
-      "Lastname": "Dickens",
-      "SaleStakeholderId": 185,
-      "Rank": 91,
-      "Phone": "1-420-772-0279 x822"
+      "StakeholderRoleName": "Wyman, Welch and DuBuque",
+      "Comment": "laboriosam",
+      "StakeholderRoleId": 205,
+      "CountryId": 40,
+      "PersonId": 232,
+      "EmailDescription": "freeda@reichert.com",
+      "EmailId": 779,
+      "EmailAddress": "hilton@koeppmayert.name",
+      "PhoneId": 43,
+      "ContactName": "Fisher, Doyle and Conn",
+      "ContactId": 374,
+      "SaleId": 399,
+      "Mrmrs": "officiis",
+      "Firstname": "Dariana",
+      "MiddleName": "Bailey, Hansen and Corwin",
+      "Lastname": "Mayert",
+      "SaleStakeholderId": 788,
+      "Rank": 136,
+      "Phone": "(262)834-9081"
     }
   ],
-  "ActiveErpLinks": 29,
+  "ActiveErpLinks": 605,
   "UserDefinedFields": {
-    "SuperOffice:1": "1406908001",
-    "SuperOffice:2": "Mr. Elenora Kiehn PhD"
+    "SuperOffice:1": "1190002591",
+    "SuperOffice:2": "1964717033"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "id"
+    "CustomFields1": "at",
+    "CustomFields2": "deleniti"
   },
-  "PublishEventDate": "2001-02-09T12:19:46.1639363+01:00",
-  "PublishTo": "2008-11-30T12:19:46.1639363+01:00",
-  "PublishFrom": "2008-03-01T12:19:46.1639363+01:00",
+  "PublishEventDate": "2011-07-31T11:44:34.3532949+02:00",
+  "PublishTo": "2021-04-19T11:44:34.3532949+02:00",
+  "PublishFrom": "2021-06-09T11:44:34.3532949+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 257,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "unde"
     },
     {
-      "VisibleId": 257,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "unde"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nemo",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-10-15T12:19:46.1795562+02:00",
-  "Amount": 23379.64,
-  "SaleId": 748,
-  "Earning": 12448.248,
-  "EarningPercent": 16459.768,
-  "Heading": "non",
-  "Number": "1516692",
-  "Probability": 545,
-  "CreatedDate": "2010-09-15T12:19:46.1795562+02:00",
-  "UpdatedDate": "2010-08-02T12:19:46.1795562+02:00",
+  "Saledate": "2016-04-07T11:44:34.3689177+02:00",
+  "Amount": 5879.384,
+  "SaleId": 560,
+  "Earning": 30631.716,
+  "EarningPercent": 25181.69,
+  "Heading": "recusandae",
+  "Number": "885418",
+  "Probability": 470,
+  "CreatedDate": "2014-10-22T11:44:34.3689177+02:00",
+  "UpdatedDate": "2004-07-08T11:44:34.3689177+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 536,
+  "ActiveLinks": 253,
   "Links": [
     {
-      "EntityName": "Volkman-Daugherty",
-      "Id": 188,
-      "Description": "Optional holistic Graphical User Interface",
-      "ExtraInfo": "repudiandae",
-      "LinkId": 310,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 51
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2014-11-12T12:19:46.1795562+01:00",
-  "Postit": "voluptatibus",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2006-12-12T12:19:46.1795562+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "O'Keefe, Friesen and Gleason",
-      "Comment": "est",
-      "StakeholderRoleId": 766,
-      "CountryId": 133,
-      "PersonId": 298,
-      "EmailDescription": "buford.shanahan@schultz.biz",
-      "EmailId": 577,
-      "EmailAddress": "cooper_conn@wuckertflatley.com",
-      "PhoneId": 198,
-      "ContactName": "Rau Inc and Sons",
-      "ContactId": 597,
-      "SaleId": 404,
-      "Mrmrs": "dolor",
-      "Firstname": "River",
-      "MiddleName": "Robel, Hodkiewicz and Abernathy",
-      "Lastname": "West",
-      "SaleStakeholderId": 334,
-      "Rank": 654,
-      "Phone": "1-198-309-6152 x1910",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 464
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 871,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Delta Kemmer",
-    "SuperOffice:2": "1651873235"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quas"
-  },
-  "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "vel"
-  },
-  "PublishEventDate": "2016-02-19T12:19:46.1795562+01:00",
-  "PublishTo": "2014-07-19T12:19:46.1795562+02:00",
-  "PublishFrom": "2021-09-20T12:19:46.1795562+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 521,
-      "Visibility": "All",
-      "DisplayValue": "quae",
+      "EntityName": "Boyer Inc and Sons",
+      "Id": 732,
+      "Description": "Horizontal logistical info-mediaries",
+      "ExtraInfo": "tenetur",
+      "LinkId": 73,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 930
+          "FieldLength": 946
+        }
+      }
+    }
+  ],
+  "NextDueDate": "1998-06-02T11:44:34.3689177+02:00",
+  "Postit": "veniam",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2004-06-26T11:44:34.3689177+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Klein, Monahan and Carter",
+      "Comment": "et",
+      "StakeholderRoleId": 349,
+      "CountryId": 545,
+      "PersonId": 154,
+      "EmailDescription": "susana@west.ca",
+      "EmailId": 438,
+      "EmailAddress": "giovanni_marvin@schuster.ca",
+      "PhoneId": 534,
+      "ContactName": "Mills, Ratke and Witting",
+      "ContactId": 586,
+      "SaleId": 377,
+      "Mrmrs": "suscipit",
+      "Firstname": "Ron",
+      "MiddleName": "Wiza, Johns and Glover",
+      "Lastname": "Effertz",
+      "SaleStakeholderId": 870,
+      "Rank": 482,
+      "Phone": "1-264-860-7177",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 994
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 547,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Leonie Ryan DDS",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "quo",
+    "ExtraFields2": "saepe"
+  },
+  "CustomFields": {
+    "CustomFields1": "molestiae",
+    "CustomFields2": "unde"
+  },
+  "PublishEventDate": "2003-11-15T11:44:34.3689177+01:00",
+  "PublishTo": "2021-03-28T11:44:34.3689177+02:00",
+  "PublishFrom": "2001-08-13T11:44:34.3689177+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 483,
+      "Visibility": "All",
+      "DisplayValue": "possimus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 483,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 930
+          "FieldType": "System.Int32",
+          "FieldLength": 622
         }
       }
     }
@@ -395,7 +395,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 231
     }
   }
 }

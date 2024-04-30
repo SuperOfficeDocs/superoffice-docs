@@ -1207,7 +1207,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=postAddress/county,restrictionAddress/formattedMultiLineAddress,contactAssociate/contactDepartment,contactUdef/SuperOffice:11,sourceRelation/csRelation
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=hasInfoText,registeredBy,sale/associate/middleName,document/associate/credentialType,birthdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

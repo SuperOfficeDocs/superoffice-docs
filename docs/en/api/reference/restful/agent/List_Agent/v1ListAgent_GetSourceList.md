@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Value": "odit",
-    "Tooltip": "praesentium",
+    "Id": 135,
+    "Value": "voluptatem",
+    "Tooltip": "eveniet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 217
       }
     }
   },
   {
-    "Id": 745,
-    "Value": "odit",
-    "Tooltip": "praesentium",
+    "Id": 135,
+    "Value": "voluptatem",
+    "Tooltip": "eveniet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 217
       }
     }
   }

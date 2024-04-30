@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 174,
-  "Type": 51
+  "GroupId": 246,
+  "Type": 604
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 828,
-    "Name": "Durgan, Balistreri and Borer",
-    "PersonId": 357,
-    "Rank": 882,
-    "Tooltip": "dolor",
+    "AssociateId": 421,
+    "Name": "Homenick-Mueller",
+    "PersonId": 439,
+    "Rank": 303,
+    "Tooltip": "numquam",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 572,
-    "FullName": "Lavern Johnson",
-    "FormalName": "Koepp-Haag",
+    "GroupIdx": 343,
+    "FullName": "Merl Braun",
+    "FormalName": "Steuber-Brekke",
     "Deleted": false,
-    "EjUserId": 238,
-    "UserName": "Dach Group",
+    "EjUserId": 509,
+    "UserName": "Rath-Greenfelder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 951
       }
     }
   }

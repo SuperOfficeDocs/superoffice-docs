@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/Person/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 203,
-  "DestinationContactId": 764,
-  "MoveAfterDate": "2000-01-17T12:19:45.7265371+01:00"
+  "PersonId": 413,
+  "DestinationContactId": 603,
+  "MoveAfterDate": "2017-10-01T11:44:34.0721318+02:00"
 }
 ```
 

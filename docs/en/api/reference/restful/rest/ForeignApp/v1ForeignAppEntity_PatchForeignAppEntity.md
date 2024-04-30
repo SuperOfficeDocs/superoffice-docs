@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "officiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "officiis",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 468,
-  "Name": "Kassulke, Donnelly and Adams",
-  "CreatedDate": "2011-10-30T12:19:53.6023745+01:00",
-  "UpdatedDate": "2013-03-11T12:19:53.6023745+01:00",
+  "ForeignAppId": 177,
+  "Name": "Welch-Mertz",
+  "CreatedDate": "2023-12-09T11:44:41.9921474+01:00",
+  "UpdatedDate": "2021-02-13T11:44:41.9921474+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 742,
-      "Name": "Cummerata Inc and Sons",
-      "CreatedDate": "2013-05-04T12:19:53.6023745+02:00",
-      "UpdatedDate": "2000-09-20T12:19:53.6023745+02:00",
-      "AssociateFullName": "Oran Schaden",
-      "CreatedBy": "cumque",
-      "UpdatedBy": "aperiam",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 227,
+      "ForeignDeviceId": 264,
+      "Name": "Kessler Inc and Sons",
+      "CreatedDate": "2007-12-15T11:44:41.9921474+01:00",
+      "UpdatedDate": "2012-09-07T11:44:41.9921474+02:00",
+      "AssociateFullName": "Sigurd Smitham",
+      "CreatedBy": "itaque",
+      "UpdatedBy": "excepturi",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 482,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldType": "System.String",
+          "FieldLength": 60
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

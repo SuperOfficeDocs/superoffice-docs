@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "odio",
+  "RawValue": "sequi",
   "Specification": null,
-  "DisplayValue": "harum",
-  "DisplayTooltip": "repellendus",
+  "DisplayValue": "facilis",
+  "DisplayTooltip": "eaque",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 880,
-  "PrefDescId": 58,
-  "TableName": "Moen-Rogahn",
-  "UserPreferenceId": 124
+  "TargetId": 713,
+  "PrefDescId": 558,
+  "TableName": "Hintz-Brakus",
+  "UserPreferenceId": 646
 }
 ```
 

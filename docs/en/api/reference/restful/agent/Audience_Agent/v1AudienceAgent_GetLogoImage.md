@@ -72,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Brakus Group"
+  "LayoutName": "Toy, Brekke and Klein"
 }
 ```
 

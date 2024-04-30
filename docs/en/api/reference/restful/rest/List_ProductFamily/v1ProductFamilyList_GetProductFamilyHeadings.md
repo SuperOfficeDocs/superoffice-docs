@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 315,
-    "Name": "Runolfsdottir-Wisozk",
-    "Tooltip": "animi",
+    "HeadingId": 519,
+    "Name": "Swaniawski Inc and Sons",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 128,
-    "UdListDefinitionId": 16,
+    "Rank": 115,
+    "UdListDefinitionId": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldLength": 622
       }
     }
   }

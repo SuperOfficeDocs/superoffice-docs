@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "adipisci",
+  "Type": "ut",
   "ItemsIds": [
-    727,
-    963
+    560,
+    356
   ]
 }
 ```

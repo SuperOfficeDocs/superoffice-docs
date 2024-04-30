@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 469,
-    "Name": "Crooks-Lubowitz",
-    "Tooltip": "et",
+    "HeadingId": 232,
+    "Name": "Gottlieb-Cremin",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 782,
-    "UdListDefinitionId": 747,
+    "Rank": 309,
+    "UdListDefinitionId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldLength": 514
       }
     }
   }

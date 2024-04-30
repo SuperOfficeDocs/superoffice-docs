@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 208
+  "ErpSyncConnectionId": 920
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Murazik-McClure",
-  "DisplayDescription": "Triple-buffered intangible analyzer",
+  "DisplayName": "Eichmann-Cronin",
+  "DisplayDescription": "De-engineered user-facing instruction set",
   "Active": false,
   "Deleted": true,
-  "LastSync": "2009-10-18T12:19:45.3516107+02:00",
+  "LastSync": "2011-05-29T11:44:33.6971931+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "reiciendis",
-      "Mappings": "dolores",
+      "Defaults": "aliquam",
+      "Mappings": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 79
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "reiciendis",
-      "Mappings": "dolores",
+      "Defaults": "aliquam",
+      "Mappings": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 79
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 504
     }
   }
 }

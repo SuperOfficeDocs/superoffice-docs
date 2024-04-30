@@ -111,32 +111,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 672,
-  "FormKey": "et",
-  "Name": "Blick LLC",
-  "Description": "Total object-oriented conglomeration",
-  "Config": "et",
-  "FolderId": 860,
-  "ScriptId": 316,
-  "ResponseShipmentId": 409,
+  "FormId": 854,
+  "FormKey": "vel",
+  "Name": "Legros LLC",
+  "Description": "User-centric attitude-oriented projection",
+  "Config": "voluptate",
+  "FolderId": 523,
+  "ScriptId": 736,
+  "ResponseShipmentId": 622,
   "Active": false,
-  "Expires": "2021-12-12T12:19:45.585943+01:00",
-  "MaxSubmits": 420,
+  "Expires": "2016-02-09T11:44:33.9315193+01:00",
+  "MaxSubmits": 452,
   "Type": "Normal",
-  "Recipe": "aut",
-  "GroupId": 88,
+  "Recipe": "occaecati",
+  "GroupId": 931,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2015-09-30T12:19:45.585943+02:00",
-  "RegisteredAssociateId": 607,
-  "Updated": "2022-07-25T12:19:45.585943+02:00",
-  "UpdatedAssociateId": 50,
-  "UpdatedCount": 514,
+  "Registered": "2008-05-08T11:44:33.9315193+02:00",
+  "RegisteredAssociateId": 413,
+  "Updated": "2022-04-08T11:44:33.9315193+02:00",
+  "UpdatedAssociateId": 241,
+  "UpdatedCount": 950,
   "EmailFlows": [
-    829,
-    899
+    858,
+    983
   ],
-  "FolderName": "Keebler LLC"
+  "FolderName": "Ondricka, Cronin and Hermann"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 647,
-  "FormKey": "qui",
-  "Name": "Mitchell, Moore and Jacobs",
-  "Description": "Progressive web-enabled open system",
-  "Config": "maxime",
-  "FolderId": 788,
-  "ScriptId": 227,
-  "ResponseShipmentId": 383,
-  "Active": false,
-  "Expires": "2023-02-27T12:19:45.585943+01:00",
-  "MaxSubmits": 496,
+  "FormId": 26,
+  "FormKey": "mollitia",
+  "Name": "Pagac-O'Reilly",
+  "Description": "Exclusive disintermediate project",
+  "Config": "facere",
+  "FolderId": 248,
+  "ScriptId": 195,
+  "ResponseShipmentId": 148,
+  "Active": true,
+  "Expires": "2006-06-14T11:44:33.9315193+02:00",
+  "MaxSubmits": 535,
   "Type": "Normal",
-  "Recipe": "dolorum",
-  "GroupId": 448,
-  "NewTicket": false,
+  "Recipe": "et",
+  "GroupId": 612,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2020-10-19T12:19:45.585943+02:00",
-  "RegisteredAssociateId": 247,
-  "Updated": "2000-09-24T12:19:45.585943+02:00",
-  "UpdatedAssociateId": 697,
-  "UpdatedCount": 706,
+  "Registered": "2010-05-22T11:44:33.9315193+02:00",
+  "RegisteredAssociateId": 589,
+  "Updated": "2022-06-15T11:44:33.9315193+02:00",
+  "UpdatedAssociateId": 54,
+  "UpdatedCount": 153,
   "EmailFlows": [
-    738,
-    737
+    612,
+    916
   ],
-  "FolderName": "Romaguera, Shanahan and Parisian",
+  "FolderName": "Hyatt, Schultz and Abernathy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

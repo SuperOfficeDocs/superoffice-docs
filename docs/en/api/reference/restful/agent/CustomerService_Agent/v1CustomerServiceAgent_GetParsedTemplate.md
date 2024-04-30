@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 846,
-  "LanguageId": 17,
-  "PersonId": 705,
-  "TicketId": 515
+  "ReplyTemplateId": 777,
+  "LanguageId": 73,
+  "PersonId": 333,
+  "TicketId": 91
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 334,
-  "PlainParsed": "neque",
-  "HtmlParsed": "et",
+  "ReplyTemplateId": 515,
+  "PlainParsed": "quidem",
+  "HtmlParsed": "sit",
   "Attachments": [
     {
-      "AttachmentId": 610,
-      "Name": "Fisher LLC",
-      "ContentType": "et",
-      "AttSize": 941,
+      "AttachmentId": 88,
+      "Name": "Feest, Nicolas and Schmeler",
+      "ContentType": "fugit",
+      "AttSize": 616,
       "InlineImage": false,
-      "ContentId": "soluta",
-      "AuthKey": "et",
+      "ContentId": "et",
+      "AuthKey": "magni",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldType": "System.Int32",
+          "FieldLength": 635
         }
       }
     }
   ],
-  "Subject": "voluptas",
+  "Subject": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 6
     }
   }
 }

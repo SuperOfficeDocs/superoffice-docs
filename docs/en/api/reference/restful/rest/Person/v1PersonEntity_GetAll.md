@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person?$select=name,department,category/id
 GET /api/v1/Person?$filter=name begins 'S'
 GET /api/v1/Person?$orderBy=name asc
-GET /api/v1/Person?$entities=sed
-GET /api/v1/Person?$top=211
-GET /api/v1/Person?$skip=452
+GET /api/v1/Person?$entities=tempora
+GET /api/v1/Person?$top=963
+GET /api/v1/Person?$skip=434
 GET /api/v1/Person?$mode=Full
 GET /api/v1/Person?$options=GrandTotal=true
-GET /api/v1/Person?$context=expedita
+GET /api/v1/Person?$context=aliquid
 GET /api/v1/Person?$format=JSON
 GET /api/v1/Person?$jsonSafe=False
 GET /api/v1/Person?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Person
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "explicabo",
   "value": [
     {
-      "PrimaryKey": 828,
+      "PrimaryKey": 805,
       "EntityName": "sale",
-      "saleId": 828,
-      "contactId": 9366,
-      "name": "Daugherty-Sanford"
+      "saleId": 805,
+      "contactId": 6755,
+      "name": "Renner, Rodriguez and Upton"
     },
     {
-      "PrimaryKey": 7335,
+      "PrimaryKey": 2390,
       "EntityName": "sale",
-      "saleId": 7335,
-      "contactId": 3311,
-      "name": "Barrows LLC"
+      "saleId": 2390,
+      "contactId": 2389,
+      "name": "Greenholt Group"
     }
   ]
 }

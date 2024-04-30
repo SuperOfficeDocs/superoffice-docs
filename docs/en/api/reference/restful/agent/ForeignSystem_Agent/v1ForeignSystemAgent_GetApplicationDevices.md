@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rempel, Green and Wehner"
+  "ApplicationName": "Bode-Lakin"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 640,
-    "Name": "Torphy-Nicolas",
-    "CreatedDate": "2015-08-28T12:19:45.4141069+02:00",
-    "UpdatedDate": "2003-09-20T12:19:45.4141069+02:00",
-    "AssociateFullName": "Cassidy Lehner",
-    "CreatedBy": "molestiae",
-    "UpdatedBy": "enim",
-    "DeviceIdentifier": "beatae",
-    "ForeignAppId": 2,
+    "ForeignDeviceId": 729,
+    "Name": "Murazik, Medhurst and Denesik",
+    "CreatedDate": "2004-03-08T11:44:33.7596833+01:00",
+    "UpdatedDate": "2011-10-10T11:44:33.7596833+02:00",
+    "AssociateFullName": "Coby Trantow",
+    "CreatedBy": "et",
+    "UpdatedBy": "nemo",
+    "DeviceIdentifier": "tenetur",
+    "ForeignAppId": 343,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldType": "System.Int32",
+        "FieldLength": 866
       }
     }
   }

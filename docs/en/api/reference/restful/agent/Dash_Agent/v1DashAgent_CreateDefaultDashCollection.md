@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 364,
-      "UniqueId": "nam",
-      "Name": "Kub, Smitham and Kihn",
-      "Description": "Centralized needs-based matrices",
-      "AssociateId": 161,
-      "Columns": 676,
+      "DashboardId": 80,
+      "UniqueId": "ad",
+      "Name": "Lang-Luettgen",
+      "Description": "Expanded explicit parallelism",
+      "AssociateId": 665,
+      "Columns": 661,
       "Theme": null,
-      "VisibleForAll": 429,
+      "VisibleForAll": 604,
       "VisibleForAssociates": [
-        3,
-        321
+        689,
+        29
       ],
       "VisibleForGroups": [
-        646,
-        11
+        384,
+        736
       ],
-      "PinForAll": 824,
+      "PinForAll": 986,
       "PinForAssociates": [
-        217,
-        232
+        150,
+        271
       ],
       "PinForGroups": [
-        469,
-        539
+        525,
+        140
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 104
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 590,
-      "UniqueId": "impedit",
-      "Name": "Brekke Group",
-      "Description": "Synchronised secondary alliance",
-      "AssociateId": 921,
-      "Columns": 596,
+      "DashboardId": 513,
+      "UniqueId": "commodi",
+      "Name": "Donnelly, Littel and Sanford",
+      "Description": "Phased logistical instruction set",
+      "AssociateId": 791,
+      "Columns": 341,
       "Theme": null,
-      "VisibleForAll": 169,
+      "VisibleForAll": 30,
       "VisibleForAssociates": [
-        706,
-        843
+        718,
+        383
       ],
       "VisibleForGroups": [
-        455,
-        266
+        916,
+        172
       ],
-      "PinForAll": 318,
+      "PinForAll": 251,
       "PinForAssociates": [
-        494,
-        956
+        564,
+        177
       ],
       "PinForGroups": [
-        139,
-        429
+        854,
+        7
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldLength": 291
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 745,
-      "UniqueId": "culpa",
-      "Name": "Schultz Group",
-      "Description": "Horizontal zero defect functionalities",
-      "AssociateId": 259,
-      "Columns": 761,
+      "DashboardId": 171,
+      "UniqueId": "aut",
+      "Name": "Witting, Walter and Watsica",
+      "Description": "Diverse discrete task-force",
+      "AssociateId": 663,
+      "Columns": 167,
       "Theme": null,
-      "VisibleForAll": 262,
+      "VisibleForAll": 80,
       "VisibleForAssociates": [
-        594,
-        675
+        553,
+        810
       ],
       "VisibleForGroups": [
-        904,
-        800
+        555,
+        795
       ],
-      "PinForAll": 391,
+      "PinForAll": 746,
       "PinForAssociates": [
-        911,
-        421
+        7,
+        962
       ],
       "PinForGroups": [
-        557,
-        466
+        445,
+        562
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 764
+          "FieldLength": 621
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 935
     }
   }
 }

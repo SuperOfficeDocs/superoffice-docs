@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 200,
-  "TopicId": 872,
+  "ChatSessionId": 127,
+  "TopicId": 960,
   "User": null,
   "Person": null,
-  "CustomerAlias": "distinctio",
-  "CustomerHost": "ipsum",
-  "CustomerName": "Krajcik LLC",
-  "CustomerEmail": "oscar@towne.com",
-  "CustomerPhone": "042.945.7626",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Beatty LLC",
+  "CustomerAlias": "beatae",
+  "CustomerHost": "nobis",
+  "CustomerName": "Rolfson-Lemke",
+  "CustomerEmail": "mervin@leannonbergstrom.info",
+  "CustomerPhone": "(701)043-6273",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Leffler-Green",
   "Status": "Closed",
-  "FirstMessage": "modi",
-  "LastMessage": "quidem",
-  "WhenRequested": "2005-10-06T12:19:44.7892546+02:00",
-  "WhenStarted": "2023-11-18T12:19:44.7892546+01:00",
-  "WhenEnded": "2005-06-17T12:19:44.7892546+02:00",
-  "WhenIdle": "2008-07-29T12:19:44.7892546+02:00",
-  "WhenFetched": "2019-03-09T12:19:44.7892546+01:00",
-  "SessionKey": "voluptatum",
-  "InitialQueuePos": 22,
-  "AlertLevel": 488,
-  "Rank": 578,
+  "FirstMessage": "quis",
+  "LastMessage": "quaerat",
+  "WhenRequested": "2008-10-19T11:44:32.947363+02:00",
+  "WhenStarted": "2009-05-02T11:44:32.947363+02:00",
+  "WhenEnded": "2011-08-07T11:44:32.947363+02:00",
+  "WhenIdle": "2001-02-05T11:44:32.947363+01:00",
+  "WhenFetched": "2002-06-10T11:44:32.947363+02:00",
+  "SessionKey": "cum",
+  "InitialQueuePos": 527,
+  "AlertLevel": 950,
+  "Rank": 444,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 184,
+  "Rating": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 425
     }
   }
 }

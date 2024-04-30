@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 560,
-  "Name": "Dare-Crist",
-  "Tooltip": "nihil",
+  "Id": 521,
+  "Name": "Ruecker, Larkin and Ward",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 382,
-  "IsCustomList": true,
+  "Rank": 983,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Name": "Kovacek-Kshlerin",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "Rank": 525,
+  "Id": 467,
+  "Name": "Beatty, Braun and Ebert",
+  "Tooltip": "voluptatum",
+  "Deleted": true,
+  "Rank": 578,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "temporibus",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "at",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   },
   "_Links": {

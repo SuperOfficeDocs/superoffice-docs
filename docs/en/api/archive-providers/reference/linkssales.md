@@ -1120,7 +1120,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/personAssociate/simultaneousEjUser,contact/contactFax/formattedNumber,associate/associateDbId,associate/userName,saleStakeholder/person/isStakeholder
+GET /api/v1/archive/LinksSales?$select=person/hasInterests,person/personAssociate/userName,contact/updatedByFullName,contact/contactUdef/SuperOffice:3,project/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

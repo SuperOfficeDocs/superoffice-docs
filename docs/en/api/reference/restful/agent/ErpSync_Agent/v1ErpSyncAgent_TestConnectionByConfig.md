@@ -75,10 +75,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 553,
+  "ErpConnectionId": 392,
   "ConfigFields": {
-    "ConfigFields1": "odio",
-    "ConfigFields2": "aut"
+    "ConfigFields1": "esse",
+    "ConfigFields2": "magni"
   }
 }
 ```

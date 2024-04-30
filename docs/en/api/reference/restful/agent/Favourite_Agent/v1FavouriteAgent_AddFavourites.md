@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gibson, Smith and Veum",
+  "TableName": "Schulist LLC",
   "RecordIds": [
-    793,
-    307
+    151,
+    382
   ],
-  "AssociateId": 393,
-  "ExtraInfo": "vitae"
+  "AssociateId": 689,
+  "ExtraInfo": "reiciendis"
 }
 ```
 

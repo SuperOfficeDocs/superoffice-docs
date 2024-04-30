@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Homenick, Barton and Prohaska",
-    "ToolTip": "Voluptatem et voluptatem velit officia.",
-    "Deleted": false,
-    "Rank": 237,
-    "Type": "praesentium",
-    "ColorBlock": 881,
-    "IconHint": "cum",
+    "Id": 53,
+    "Name": "Volkman-Rosenbaum",
+    "ToolTip": "Delectus quasi eveniet perferendis hic sint molestiae et.",
+    "Deleted": true,
+    "Rank": 584,
+    "Type": "magnam",
+    "ColorBlock": 894,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2007-07-31T12:19:54.7739754+02:00",
+    "LastChanged": "2020-04-17T11:44:43.2731075+02:00",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Bogisich, Conn and McLaughlin",
-        "ToolTip": "Sint facilis quaerat consequatur natus exercitationem nihil.",
-        "Deleted": false,
-        "Rank": 736,
-        "Type": "voluptatibus",
-        "ColorBlock": 855,
-        "IconHint": "quibusdam",
+        "Id": 171,
+        "Name": "Block Group",
+        "ToolTip": "Minus quod consequatur architecto eaque modi.",
+        "Deleted": true,
+        "Rank": 3,
+        "Type": "deserunt",
+        "ColorBlock": 542,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2013-11-20T12:19:54.7739754+01:00",
+        "LastChanged": "2019-01-30T11:44:43.2731075+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Lonzo Turcotte",
+        "ExtraInfo": "earum",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Else Aaron Hackett V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldLength": 712
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "et",
+    "ExtraInfo": "ea",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Lilyan Kreiger DVM",
+    "FullName": "Alvah Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldType": "System.String",
+        "FieldLength": 61
       }
     }
   }

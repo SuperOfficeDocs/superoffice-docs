@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 235
+  "ContactId": 903
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "veritatis",
-    "PersonId": 939,
-    "Mrmrs": "molestiae",
-    "Firstname": "Louie",
-    "Lastname": "Jones",
-    "MiddleName": "Hammes-Streich",
-    "Title": "adipisci",
-    "Description": "User-friendly 24/7 approach",
-    "Email": "meredith@witting.name",
-    "FullName": "Ms. Merle Rudolph Keeling",
-    "DirectPhone": "1-854-460-0791 x340",
-    "FormalName": "Runolfsson Group",
-    "CountryId": 588,
-    "ContactId": 768,
-    "ContactName": "Wyman, Homenick and Schroeder",
-    "Retired": 257,
-    "Rank": 116,
-    "ActiveInterests": 9,
+    "Position": "officiis",
+    "PersonId": 656,
+    "Mrmrs": "assumenda",
+    "Firstname": "Rene",
+    "Lastname": "Littel",
+    "MiddleName": "Senger, Ratke and Hintz",
+    "Title": "dolores",
+    "Description": "Pre-emptive dynamic moratorium",
+    "Email": "mafalda@schillernienow.name",
+    "FullName": "Assunta Schuppe",
+    "DirectPhone": "(232)451-6916 x0706",
+    "FormalName": "Hudson Inc and Sons",
+    "CountryId": 277,
+    "ContactId": 850,
+    "ContactName": "Shanahan-Koelpin",
+    "Retired": 697,
+    "Rank": 186,
+    "ActiveInterests": 276,
     "ContactDepartment": "",
-    "ContactCountryId": 142,
-    "ContactOrgNr": "840119",
-    "FaxPhone": "1-032-924-6604 x9329",
-    "MobilePhone": "1-285-010-1579 x787",
-    "ContactPhone": "1-590-546-5019 x72221",
-    "AssociateName": "Barton, Thiel and Gottlieb",
-    "AssociateId": 938,
+    "ContactCountryId": 818,
+    "ContactOrgNr": "820249",
+    "FaxPhone": "1-314-745-5370 x23813",
+    "MobilePhone": "148-479-3449",
+    "ContactPhone": "799-396-1713",
+    "AssociateName": "Hilpert, Skiles and Denesik",
+    "AssociateId": 233,
     "UsePersonAddress": false,
-    "ContactFax": "nulla",
-    "Kanafname": "et",
-    "Kanalname": "minus",
-    "Post1": "quas",
-    "Post2": "ratione",
-    "Post3": "incidunt",
-    "EmailName": "bradly_oconner@hintzpacocha.info",
-    "ContactFullName": "Miss Terrance Murphy",
-    "ActiveErpLinks": 420,
-    "TicketPriorityId": 1000,
-    "SupportLanguageId": 462,
-    "SupportAssociateId": 961,
+    "ContactFax": "reiciendis",
+    "Kanafname": "enim",
+    "Kanalname": "inventore",
+    "Post1": "eius",
+    "Post2": "nam",
+    "Post3": "soluta",
+    "EmailName": "leon.gusikowski@strosin.ca",
+    "ContactFullName": "Grant Herman",
+    "ActiveErpLinks": 668,
+    "TicketPriorityId": 72,
+    "SupportLanguageId": 128,
+    "SupportAssociateId": 391,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 287
+        "FieldType": "System.Int32",
+        "FieldLength": 593
       }
     }
   }

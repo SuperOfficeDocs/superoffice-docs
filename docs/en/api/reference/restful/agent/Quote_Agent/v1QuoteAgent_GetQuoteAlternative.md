@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=267
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=976
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 30,
-  "ERPQuoteAlternativeKey": "voluptatem",
-  "QuoteVersionId": 688,
-  "Name": "Nikolaus-Kreiger",
-  "Description": "Virtual optimal capacity",
+  "QuoteAlternativeId": 916,
+  "ERPQuoteAlternativeKey": "id",
+  "QuoteVersionId": 89,
+  "Name": "Legros, Mann and Rath",
+  "Description": "Visionary analyzing concept",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14895.902,
-  "ERPDiscountAmount": 22539.728,
-  "DiscountPercent": 2431.984,
-  "DiscountAmount": 22104.102,
+  "ERPDiscountPercent": 8424.192,
+  "ERPDiscountAmount": 1510.588,
+  "DiscountPercent": 13269.356,
+  "DiscountAmount": 9123.074,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "saepe",
-  "VAT": 20377.268,
-  "EarningPercent": 3065.0519999999997,
-  "EarningAmount": 19299.172,
-  "SubTotal": 6459.174,
-  "TotalPrice": 30603.51,
-  "ExtraField1": "quisquam",
-  "ExtraField2": "quae",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "et",
-  "ExtraField5": "quia",
+  "VATInfo": "nemo",
+  "VAT": 17381.164,
+  "EarningPercent": 11160.173999999999,
+  "EarningAmount": 25109.608,
+  "SubTotal": 1695.494,
+  "TotalPrice": 16450.365999999998,
+  "ExtraField1": "sit",
+  "ExtraField2": "magnam",
+  "ExtraField3": "dolores",
+  "ExtraField4": "error",
+  "ExtraField5": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 926
     }
   }
 }

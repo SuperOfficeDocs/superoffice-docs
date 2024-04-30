@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 771,
+  "DocumentTemplateId": 667,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quaerat",
-  "PluginId": 625
+  "LanguageCode": "dolores",
+  "PluginId": 256
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wolf-Gerlach",
-  "Description": "Fundamental empowering success",
-  "ExternalReference": "deserunt",
-  "MimeType": "qui",
-  "PluginId": 32
+  "Name": "Flatley-Gleichner",
+  "Description": "De-engineered intermediate process improvement",
+  "ExternalReference": "assumenda",
+  "MimeType": "et",
+  "PluginId": 323
 }
 ```

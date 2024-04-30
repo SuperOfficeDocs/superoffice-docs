@@ -26,7 +26,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=113
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=23
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 445,
+  "SystemEventId": 21,
   "Scope": "Database",
-  "Eta": "2001-12-05T12:19:44.8517429+01:00",
-  "Eventkey": "inventore",
-  "Eventmess": "dignissimos",
-  "ExtraInfo": 455,
-  "Owner": 341,
-  "UpdatedCount": 39,
-  "Registered": "2013-01-17T12:19:44.8517429+01:00",
+  "Eta": "2014-06-17T11:44:33.0098502+02:00",
+  "Eventkey": "aperiam",
+  "Eventmess": "omnis",
+  "ExtraInfo": 5,
+  "Owner": 429,
+  "UpdatedCount": 74,
+  "Registered": "2015-04-15T11:44:33.0098502+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

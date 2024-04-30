@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "neque",
-  "ProviderName": "Bode, Strosin and Homenick",
-  "StorageKey": "officiis",
+  "StorageType": "ipsa",
+  "ProviderName": "Reynolds Inc and Sons",
+  "StorageKey": "a",
   "DesiredColumnNames": [
-    "Wilkinson Inc and Sons",
-    "Olson LLC"
+    "Jast Inc and Sons",
+    "Bechtelar-Kautzer"
   ],
   "StaticColumns": [
-    "sit",
-    "et"
+    "sed",
+    "accusantium"
   ]
 }
 ```
@@ -109,62 +109,62 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Reinger Group",
-      "Operator": "vel",
+      "Name": "Larson Group",
+      "Operator": "aut",
       "Values": [
-        "laudantium",
-        "quam"
+        "in",
+        "reiciendis"
       ],
       "DisplayValues": [
-        "iste",
-        "quasi"
+        "ea",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 695,
+      "InterParenthesis": 529,
       "InterOperator": "And",
-      "UniqueHash": 962
+      "UniqueHash": 807
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Christiansen-Kutch",
-      "DisplayTooltip": "fuga",
-      "DisplayType": "repudiandae",
-      "CanOrderBy": true,
-      "Name": "Boyle Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Kuhn LLC",
+      "DisplayName": "Daniel-Boehm",
+      "DisplayTooltip": "vero",
+      "DisplayType": "omnis",
+      "CanOrderBy": false,
+      "Name": "Botsford LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "inventore",
+      "RestrictionListName": "Cormier-Ullrich",
       "IsVisible": false,
-      "ExtraInfo": "sunt",
-      "Width": "magni",
-      "IconHint": "impedit",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "ullam",
+      "Width": "sint",
+      "IconHint": "totam",
+      "HeadingIconHint": "nam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kautzer LLC",
-      "PrimaryKey": 228,
+      "EntityName": "Jenkins-West",
+      "PrimaryKey": 544,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempora",
-          "TooltipHint": "laborum",
-          "LinkHint": "enim"
+          "DisplayValue": "nam",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "eum"
         }
       },
-      "LinkHint": "unde",
-      "StyleHint": "iusto",
+      "LinkHint": "aliquam",
+      "StyleHint": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
+          "FieldType": "System.Int32",
           "FieldLength": 223
         }
       }
@@ -172,18 +172,18 @@ Content-Type: application/json; charset=utf-8
   ],
   "RestrictionGroups": [
     {
-      "Name": "Lockman Inc and Sons",
-      "Description": "Upgradable tertiary approach",
-      "Rank": 896,
+      "Name": "Kessler-Simonis",
+      "Description": "Optimized fault-tolerant alliance",
+      "Rank": 19,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lockman Inc and Sons",
-      "Description": "Upgradable tertiary approach",
-      "Rank": 896,
+      "Name": "Kessler-Simonis",
+      "Description": "Optimized fault-tolerant alliance",
+      "Rank": 19,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 101
     }
   }
 }

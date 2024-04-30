@@ -80,7 +80,7 @@ ShipmentMessageBlockEntity found.
 GET /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,20 +90,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 464,
-  "AssociateId": 951,
-  "Block": "ratione",
-  "Registered": "2011-02-18T12:19:53.9304171+01:00",
-  "RegisteredAssociateId": 892,
-  "Updated": "2021-07-19T12:19:53.9304171+02:00",
-  "UpdatedAssociateId": 101,
-  "UpdatedCount": 855,
+  "ShipmentMessageBlockId": 625,
+  "AssociateId": 459,
+  "Block": "alias",
+  "Registered": "1998-09-14T11:44:42.5545135+02:00",
+  "RegisteredAssociateId": 179,
+  "Updated": "2004-07-22T11:44:42.5545135+02:00",
+  "UpdatedAssociateId": 855,
+  "UpdatedCount": 322,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 429
     }
   },
   "_Links": {

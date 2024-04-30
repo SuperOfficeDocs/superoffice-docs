@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "totam",
-  "Tooltip": "rerum",
-  "Id": 743,
-  "Rank": 713,
+  "Value": "ut",
+  "Tooltip": "deserunt",
+  "Id": 545,
+  "Rank": 917,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 871
     }
   }
 }

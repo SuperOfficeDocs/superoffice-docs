@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 767,
-    "Name": "Koepp LLC",
-    "MaxDataAge": 327,
-    "NumberOfUsers": 340,
-    "NumberOfLogins": 109,
+    "AreaId": 231,
+    "Name": "Hagenes-Vandervort",
+    "MaxDataAge": 941,
+    "NumberOfUsers": 885,
+    "NumberOfLogins": 100,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldLength": 165
       }
     }
   }

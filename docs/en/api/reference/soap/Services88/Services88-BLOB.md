@@ -606,6 +606,13 @@ title: Services88.BLOBAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="ExtraTableIcon">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">19</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="BlobLinkType" nillable="true" type="tns:BlobLinkType" />

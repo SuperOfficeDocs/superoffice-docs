@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 822,
-  "Name": "Rohan, Gleichner and Kessler",
+  "ContactId": 994,
+  "Name": "Ward-Schamberger",
   "Department": "",
-  "OrgNr": "1168865",
-  "Number1": "940343",
-  "Number2": "381143",
-  "UpdatedDate": "2017-09-23T12:19:44.9298363+02:00",
-  "CreatedDate": "2017-09-23T12:19:44.9298363+02:00",
+  "OrgNr": "1111959",
+  "Number1": "1174175",
+  "Number2": "1272161",
+  "UpdatedDate": "2007-11-02T11:44:33.1035873+01:00",
+  "CreatedDate": "2012-10-06T11:44:33.1035873+02:00",
   "Emails": [
     {
-      "Value": "non",
-      "StrippedValue": "dolorum",
-      "Description": "Object-based bifurcated contingency",
+      "Value": "aut",
+      "StrippedValue": "aut",
+      "Description": "Innovative zero administration installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 107
         }
       }
     },
     {
-      "Value": "non",
-      "StrippedValue": "dolorum",
-      "Description": "Object-based bifurcated contingency",
+      "Value": "aut",
+      "StrippedValue": "aut",
+      "Description": "Innovative zero administration installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 107
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 83,
-      "Name": "Medhurst, Dicki and Ward",
-      "ToolTip": "In alias.",
+      "Id": 413,
+      "Name": "Barrows-Cremin",
+      "ToolTip": "Rem aut minus.",
       "Deleted": false,
-      "Rank": 979,
-      "Type": "qui",
-      "ColorBlock": 825,
-      "IconHint": "dolor",
+      "Rank": 582,
+      "Type": "sed",
+      "ColorBlock": 470,
+      "IconHint": "repudiandae",
       "Selected": true,
-      "LastChanged": "2022-09-22T12:19:44.9298363+02:00",
+      "LastChanged": "2007-06-24T11:44:33.1035873+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "officiis",
+      "ExtraInfo": "est",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Miss Jacey Jorge Sporer IV",
+      "FullName": "Ashlynn Bailey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ipsa",
-      "StrippedValue": "possimus",
-      "Description": "Virtual leading edge ability",
+      "Value": "accusamus",
+      "StrippedValue": "debitis",
+      "Description": "Public-key dedicated utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 206
         }
       }
     },
     {
-      "Value": "ipsa",
-      "StrippedValue": "possimus",
-      "Description": "Virtual leading edge ability",
+      "Value": "accusamus",
+      "StrippedValue": "debitis",
+      "Description": "Public-key dedicated utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 206
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "ut",
-      "Description": "Open-architected assymetric time-frame",
+      "Value": "qui",
+      "StrippedValue": "quia",
+      "Description": "Versatile methodical migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 666
         }
       }
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "ut",
-      "Description": "Open-architected assymetric time-frame",
+      "Value": "qui",
+      "StrippedValue": "quia",
+      "Description": "Versatile methodical migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 666
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptatum",
-      "StrippedValue": "id",
-      "Description": "Cross-group multimedia success",
+      "Value": "dignissimos",
+      "StrippedValue": "ipsa",
+      "Description": "Profound dedicated software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldLength": 736
         }
       }
     },
     {
-      "Value": "voluptatum",
-      "StrippedValue": "id",
-      "Description": "Cross-group multimedia success",
+      "Value": "dignissimos",
+      "StrippedValue": "ipsa",
+      "Description": "Profound dedicated software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldLength": 736
         }
       }
     }
   ],
-  "Description": "Distributed object-oriented conglomeration",
+  "Description": "Triple-buffered neutral matrix",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "nostrum",
-      "PersonId": 959,
-      "Mrmrs": "ipsam",
-      "Firstname": "Javon",
-      "Lastname": "Wisozk",
-      "MiddleName": "Rau-Lesch",
-      "Title": "corporis",
-      "Description": "Streamlined disintermediate knowledge user",
-      "Email": "milford@hammesrodriguez.uk",
-      "FullName": "Nickolas Hansen",
-      "DirectPhone": "485-526-3101",
-      "FormalName": "Friesen-Homenick",
-      "CountryId": 77,
-      "ContactId": 854,
-      "ContactName": "Ward Inc and Sons",
-      "Retired": 786,
-      "Rank": 769,
-      "ActiveInterests": 183,
+      "Position": "provident",
+      "PersonId": 679,
+      "Mrmrs": "placeat",
+      "Firstname": "Oscar",
+      "Lastname": "Koch",
+      "MiddleName": "Kessler LLC",
+      "Title": "dolor",
+      "Description": "Horizontal grid-enabled ability",
+      "Email": "khalid@lang.com",
+      "FullName": "Minnie Cronin",
+      "DirectPhone": "149-752-1745 x190",
+      "FormalName": "Beatty-Krajcik",
+      "CountryId": 27,
+      "ContactId": 614,
+      "ContactName": "Parker, Carter and Ondricka",
+      "Retired": 272,
+      "Rank": 46,
+      "ActiveInterests": 464,
       "ContactDepartment": "",
-      "ContactCountryId": 132,
-      "ContactOrgNr": "1527197",
-      "FaxPhone": "735-155-6062 x159",
-      "MobilePhone": "678.468.5592 x3599",
-      "ContactPhone": "734-703-3992 x3416",
-      "AssociateName": "Glover, Fahey and Turner",
-      "AssociateId": 428,
+      "ContactCountryId": 720,
+      "ContactOrgNr": "978644",
+      "FaxPhone": "1-056-168-8816 x431",
+      "MobilePhone": "(923)351-2951",
+      "ContactPhone": "1-944-620-7523",
+      "AssociateName": "Jones-Ryan",
+      "AssociateId": 193,
       "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "quisquam",
-      "Kanalname": "et",
-      "Post1": "enim",
-      "Post2": "recusandae",
-      "Post3": "eligendi",
-      "EmailName": "alverta@strosin.name",
-      "ContactFullName": "Prof. Nels Cloyd Bosco I",
-      "ActiveErpLinks": 55,
-      "TicketPriorityId": 425,
-      "SupportLanguageId": 392,
-      "SupportAssociateId": 60,
+      "ContactFax": "quae",
+      "Kanafname": "sit",
+      "Kanalname": "est",
+      "Post1": "explicabo",
+      "Post2": "doloribus",
+      "Post3": "est",
+      "EmailName": "trudie@hilpert.ca",
+      "ContactFullName": "Mr. Gerhard Boyle",
+      "ActiveErpLinks": 416,
+      "TicketPriorityId": 21,
+      "SupportLanguageId": 64,
+      "SupportAssociateId": 316,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 860
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "eum",
+  "Kananame": "assumenda",
   "Xstop": false,
-  "ActiveInterests": 732,
-  "GroupId": 374,
-  "ActiveStatusMonitorId": 295,
+  "ActiveInterests": 975,
+  "GroupId": 822,
+  "ActiveStatusMonitorId": 586,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 983,
-  "DbiAgentId": 972,
-  "DbiLastSyncronized": "2000-05-22T12:19:44.9454565+02:00",
-  "DbiKey": "nihil",
-  "DbiLastModified": "2023-12-04T12:19:44.9454565+01:00",
+  "Deleted": 869,
+  "DbiAgentId": 979,
+  "DbiLastSyncronized": "2006-10-06T11:44:33.1035873+02:00",
+  "DbiKey": "occaecati",
+  "DbiLastModified": "2002-10-20T11:44:33.1035873+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 995,
-  "ActiveErpLinks": 706,
+  "Source": 205,
+  "ActiveErpLinks": 523,
   "BounceEmails": [
-    "bobby_zieme@handortiz.info",
-    "allie.rolfson@kunde.com"
+    "mina@swift.biz",
+    "alverta@rogahn.name"
   ],
   "Domains": [
-    "aut",
-    "ut"
+    "voluptatem",
+    "quidem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Judah Zulauf",
-    "SuperOffice:2": "Demetrius Jakubowski"
+    "SuperOffice:1": "Olin Stracke",
+    "SuperOffice:2": "880050375"
   },
   "ExtraFields": {
-    "ExtraFields1": "repudiandae",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "corrupti"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 243
     }
   }
 }

@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 738,
-  "AttachmentId": "magnam"
+  "MessageServerId": 838,
+  "AttachmentId": "tempore"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked heuristic firmware",
-  "Filename": "quia",
-  "Size": 883,
-  "Type": "esse",
-  "Encoding": "nisi",
-  "Id": "facilis",
-  "Disposition": "cupiditate",
-  "IsSafeFileExtension": false,
+  "Description": "Visionary systematic analyzer",
+  "Filename": "asperiores",
+  "Size": 440,
+  "Type": "id",
+  "Encoding": "occaecati",
+  "Id": "labore",
+  "Disposition": "voluptas",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldLength": 978
     }
   }
 }

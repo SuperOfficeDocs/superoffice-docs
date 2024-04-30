@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 272,
-  "PrefDescId": 145,
-  "PrefValue": "optio",
-  "PrefShowValue": "exercitationem",
-  "Description": "Focused exuding encryption",
+  "PrefDescLineId": 237,
+  "PrefDescId": 122,
+  "PrefValue": "tempore",
+  "PrefShowValue": "odit",
+  "Description": "Customer-focused dynamic policy",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldLength": 428
     }
   },
   "_Links": {

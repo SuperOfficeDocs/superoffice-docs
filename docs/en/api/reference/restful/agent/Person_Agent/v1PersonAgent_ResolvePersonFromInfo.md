@@ -83,15 +83,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 949,
-  "PersonName": "Reilly, Corwin and O'Kon",
+  "ContactId": 214,
+  "PersonName": "Schmitt-Jakubowski",
   "PhoneNumbers": [
-    "1161402",
-    "1494434"
+    "1432154",
+    "899641"
   ],
   "Emails": [
-    "arnaldo@darechamplin.info",
-    "oscar@ziemann.com"
+    "wilford@corkeryarmstrong.co.uk",
+    "norene@corkerywitting.uk"
   ]
 }
 ```
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 272
     }
   }
 }

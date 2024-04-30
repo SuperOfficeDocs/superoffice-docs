@@ -590,7 +590,7 @@ Shadow contact provider for the static Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/contactExtra/x_contact_time,mailingAddr/person/personExtra/y_rental/id,project/projectUdef/SuperOffice:2
+GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=text,mailingAddr/contact/NumberOfNotCompletedActivities,mailingAddr/contact/LastSale,mailingAddr/contact/NumberOfTickets,mailingAddr/person/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

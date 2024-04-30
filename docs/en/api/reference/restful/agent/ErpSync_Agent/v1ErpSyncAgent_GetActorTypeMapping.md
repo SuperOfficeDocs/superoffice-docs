@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 941,
+  "ErpConnectionId": 913,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 444,
-  "IsActive": true,
+  "ErpConnectionId": 393,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 759,
-      "CrmFieldKey": "nihil",
-      "CrmDisplayName": "O'Connell LLC",
-      "CrmDisplayTooltip": "velit",
-      "ErpFieldKey": "distinctio",
+      "ErpFieldId": 785,
+      "CrmFieldKey": "ut",
+      "CrmDisplayName": "Flatley, Hagenes and Schroeder",
+      "CrmDisplayTooltip": "optio",
+      "ErpFieldKey": "id",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Johnston Group",
-      "ErpDisplayTooltip": "aut",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Turcotte-Homenick",
+      "ErpDisplayTooltip": "praesentium",
+      "SyncToCrm": true,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "aut",
+      "ListReference": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldType": "System.String",
+          "FieldLength": 24
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 923
     }
   }
 }

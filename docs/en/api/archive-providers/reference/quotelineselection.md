@@ -747,7 +747,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelection?$select=alternative/extraField3,alternative/version/quote/sale/person/supportAssociate,alternative/version/quote/sale/person/personAddress/formattedAddress,alternative/version/quote/sale/associate/assocTooltip,alternative/version/quote/sale/project/projectAssociate/credentialType
+GET /api/v1/archive/QuoteLineSelection?$select=subscriptionUnit,alternative/version/quote/sale/personId,alternative/version/quote/sale/nextDueDate,alternative/version/quote/sale/person/hasInterests,alternative/version/quote/sale/person/personDirectPhone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

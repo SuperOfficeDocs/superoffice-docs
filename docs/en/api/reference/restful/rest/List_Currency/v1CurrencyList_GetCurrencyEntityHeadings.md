@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 695,
-    "Name": "Schinner-Lakin",
-    "Tooltip": "molestiae",
+    "HeadingId": 594,
+    "Name": "Orn-Kuphal",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "Rank": 986,
-    "UdListDefinitionId": 857,
+    "Rank": 427,
+    "UdListDefinitionId": 451,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

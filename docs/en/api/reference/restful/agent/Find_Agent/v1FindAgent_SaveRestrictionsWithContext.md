@@ -72,20 +72,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Wolff, Kertzmann and Schiller",
-  "StorageKey": "aut",
+  "StorageType": "expedita",
+  "ProviderName": "Marquardt, Boyer and McKenzie",
+  "StorageKey": "provident",
   "Restrictions": [
     {
-      "Name": "Denesik LLC",
-      "Operator": "expedita",
+      "Name": "Bradtke LLC",
+      "Operator": "modi",
       "Values": [
-        "eum",
-        "ratione"
+        "dolores",
+        "veniam"
       ],
       "DisplayValues": [
-        "corporis",
-        "dolorem"
+        "facilis",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 942,
+      "InterParenthesis": 337,
       "InterOperator": "And",
-      "UniqueHash": 647
+      "UniqueHash": 130
     }
   ],
-  "Context": "minus"
+  "Context": "rerum"
 }
 ```
 

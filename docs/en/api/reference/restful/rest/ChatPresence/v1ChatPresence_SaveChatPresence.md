@@ -63,23 +63,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 352,
-    "DisplayName": "Welch Group",
-    "OngoingChats": 657,
-    "Present": true,
+    "UserId": 377,
+    "DisplayName": "Gottlieb-Gerhold",
+    "OngoingChats": 94,
+    "Present": false,
     "ChatTopics": [
-      70,
-      20
+      430,
+      477
     ]
   },
   {
-    "UserId": 352,
-    "DisplayName": "Welch Group",
-    "OngoingChats": 657,
-    "Present": true,
+    "UserId": 377,
+    "DisplayName": "Gottlieb-Gerhold",
+    "OngoingChats": 94,
+    "Present": false,
     "ChatTopics": [
-      70,
-      20
+      430,
+      477
     ]
   }
 ]

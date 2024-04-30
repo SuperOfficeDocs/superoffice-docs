@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Brekke, Osinski and O'Kon",
-    "ToolTip": "Quia eligendi officia omnis voluptatem.",
+    "Id": 453,
+    "Name": "Hagenes, Langworth and O'Conner",
+    "ToolTip": "Et voluptatem sit.",
     "Deleted": true,
-    "Rank": 454,
-    "Type": "neque",
-    "ColorBlock": 328,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2021-10-09T12:19:54.7583539+02:00",
+    "Rank": 634,
+    "Type": "a",
+    "ColorBlock": 346,
+    "IconHint": "dolorum",
+    "Selected": true,
+    "LastChanged": "2011-08-28T11:44:43.2574879+02:00",
     "ChildItems": [
       {
-        "Id": 598,
-        "Name": "Tillman-Fay",
-        "ToolTip": "Quis eius ipsa modi velit.",
+        "Id": 62,
+        "Name": "Wilderman-McKenzie",
+        "ToolTip": "Suscipit sint voluptatem aspernatur eaque tempora nisi sint.",
         "Deleted": false,
-        "Rank": 665,
-        "Type": "officia",
-        "ColorBlock": 760,
-        "IconHint": "modi",
+        "Rank": 285,
+        "Type": "aut",
+        "ColorBlock": 50,
+        "IconHint": "adipisci",
         "Selected": true,
-        "LastChanged": "2010-04-26T12:19:54.7583539+02:00",
+        "LastChanged": "2014-01-05T11:44:43.2574879+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "architecto",
-        "Hidden": false,
-        "FullName": "Lura Kenya Hammes IV"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "vero",
+        "Hidden": true,
+        "FullName": "Mr. Nathanial Justine Wiegand"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quos",
+    "ExtraInfo": "itaque",
+    "StyleHint": "illo",
     "Hidden": true,
-    "FullName": "Stanton Goodwin"
+    "FullName": "Cole O'Kon"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Rippin, Stark and Sanford",
-    "ToolTip": "Voluptatibus id eum temporibus ipsum vel assumenda nihil.",
-    "Deleted": false,
-    "Rank": 167,
-    "Type": "qui",
-    "ColorBlock": 571,
-    "IconHint": "alias",
+    "Id": 755,
+    "Name": "Hudson, Weissnat and Okuneva",
+    "ToolTip": "Voluptate reprehenderit optio magnam.",
+    "Deleted": true,
+    "Rank": 169,
+    "Type": "amet",
+    "ColorBlock": 144,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2007-03-08T12:19:54.7583539+01:00",
+    "LastChanged": "2016-11-05T11:44:43.2574879+01:00",
     "ChildItems": [
       {
-        "Id": 360,
-        "Name": "Koelpin Inc and Sons",
-        "ToolTip": "Modi et eaque et.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "sint",
-        "ColorBlock": 179,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2016-01-29T12:19:54.7583539+01:00",
+        "Id": 956,
+        "Name": "Kunde-Buckridge",
+        "ToolTip": "Et ut voluptatem iste occaecati.",
+        "Deleted": false,
+        "Rank": 764,
+        "Type": "neque",
+        "ColorBlock": 85,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "1998-01-09T11:44:43.2574879+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "unde",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Prof. Mark Balistreri",
+        "FullName": "Dr. Celestine Olson I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 227
+            "FieldType": "System.String",
+            "FieldLength": 31
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Ms. Marta Hessel",
+    "FullName": "Prof. Verlie Domenica Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldType": "System.String",
+        "FieldLength": 535
       }
     }
   }

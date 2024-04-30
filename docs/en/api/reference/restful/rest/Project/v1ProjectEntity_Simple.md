@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 559,
-  "Name": "Gaylord, Funk and Paucek",
-  "Description": "Triple-buffered user-facing hierarchy",
+  "ProjectId": 298,
+  "Name": "Leffler-Herman",
+  "Description": "Ameliorated hybrid strategy",
   "URL": "http://www.example.com/",
-  "Type": "rem",
-  "AssociateId": 871,
-  "AssociateFullName": "Mr. Anthony Gulgowski Sr.",
-  "TypeId": 745,
-  "Updated": "2015-02-08T12:19:53.7742043+01:00",
-  "StatusId": 663,
-  "Status": "numquam",
-  "TextId": 859,
-  "PublishTo": "1997-08-20T12:19:53.7742043+02:00",
-  "PublishFrom": "2001-07-12T12:19:53.7742043+02:00",
+  "Type": "magni",
+  "AssociateId": 750,
+  "AssociateFullName": "Price Daugherty DDS",
+  "TypeId": 285,
+  "Updated": "2012-11-20T11:44:42.1951793+01:00",
+  "StatusId": 585,
+  "Status": "nihil",
+  "TextId": 237,
+  "PublishTo": "2013-03-28T11:44:42.1951793+01:00",
+  "PublishFrom": "2002-06-17T11:44:42.1951793+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "934152",
-  "ActiveErpLinks": 290,
+  "ProjectNumber": "1014736",
+  "ActiveErpLinks": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 922
     }
   }
 }

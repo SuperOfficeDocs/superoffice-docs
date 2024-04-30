@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 272,
-  "AssociateId": 286,
-  "Caption": "officiis",
+  "DashboardId": 704,
+  "AssociateId": 791,
+  "Caption": "perferendis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 42,
-      "Caption": "minus",
-      "Description": "Integrated high-level capacity",
-      "ChartName": "Swift-Braun",
-      "ChartId": "consequatur",
+      "DashboardTileId": 424,
+      "Caption": "error",
+      "Description": "Ameliorated modular application",
+      "ChartName": "Casper LLC",
+      "ChartId": "dolor",
       "IsDefault": true,
-      "AssociateId": 461,
-      "GroupId": 729,
-      "SelectionId": 705,
-      "Config": "assumenda",
+      "AssociateId": 954,
+      "GroupId": 789,
+      "SelectionId": 987,
+      "Config": "quis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 730
+          "FieldType": "System.Int32",
+          "FieldLength": 16
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

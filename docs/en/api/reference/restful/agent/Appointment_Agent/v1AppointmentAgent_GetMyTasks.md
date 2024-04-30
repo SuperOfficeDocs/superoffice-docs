@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 130
+  "Count": 382
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 187,
-    "StartDate": "2002-12-04T12:19:44.4611915+01:00",
-    "EndDate": "2014-04-26T12:19:44.4611915+02:00",
+    "AppointmentId": 959,
+    "StartDate": "2023-10-22T11:44:32.7599049+02:00",
+    "EndDate": "2023-06-28T11:44:32.7599049+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sed",
-    "AssociateFullName": "Ms. Misty Bailey PhD",
-    "ContactName": "Bogisich-Schmidt",
-    "Description": "Proactive local challenge",
-    "PersonFullName": "Dr. Ada Hilpert V",
-    "PersonId": 588,
-    "ContactId": 351,
-    "ProjectId": 124,
-    "ProjectName": "Wisozk, Braun and Shields",
+    "Task": "illum",
+    "AssociateFullName": "Kathlyn Ankunding",
+    "ContactName": "Deckow-Marquardt",
+    "Description": "Polarised client-driven Graphic Interface",
+    "PersonFullName": "Charles Berge",
+    "PersonId": 457,
+    "ContactId": 757,
+    "ProjectId": 621,
+    "ProjectName": "Hayes Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 60,
-    "ColorIndex": 107,
+    "AssociateId": 917,
+    "ColorIndex": 32,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 797,
-    "PriorityName": "Rath Inc and Sons",
+    "PriorityId": 73,
+    "PriorityName": "Ullrich LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2016-10-31T12:19:44.4611915+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2004-05-09T11:44:32.7599049+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-11-15T12:19:44.4611915+01:00",
-    "RecurringEndDate": "2016-09-20T12:19:44.4611915+02:00",
-    "MotherId": 803,
-    "AssignedBy": 926,
-    "AssignedByFullName": "Elza Lebsack PhD",
+    "RecurringStartDate": "1999-02-14T11:44:32.7599049+01:00",
+    "RecurringEndDate": "2014-09-09T11:44:32.7599049+02:00",
+    "MotherId": 157,
+    "AssignedBy": 361,
+    "AssignedByFullName": "Dr. Aiden Donnelly",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "optio",
-    "SaleId": 12,
-    "SaleName": "Macejkovic Inc and Sons",
-    "AssociateName": "Breitenberg Group",
-    "CreatedDate": "2014-09-20T12:19:44.4611915+02:00",
-    "CreatedBy": "unde",
-    "CreatedByFullName": "Dorothy Fadel",
-    "CreatedByAssociateId": 902,
+    "Location": "et",
+    "AlarmLeadTime": "aut",
+    "SaleId": 149,
+    "SaleName": "Dach-Powlowski",
+    "AssociateName": "Bartell-Price",
+    "CreatedDate": "1997-08-25T11:44:32.7599049+02:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Evans Herman",
+    "CreatedByAssociateId": 780,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 121,
-    "Title": "tempora",
-    "Agenda": "et",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 400,
+    "Title": "vel",
+    "Agenda": "tenetur",
+    "InternalNotes": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 549
       }
     }
   }

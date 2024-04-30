@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Johnston Group",
-  "Tooltip": "non",
+  "Id": 819,
+  "Name": "Will, Weimann and Miller",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 149,
-  "Rank": 30
+  "UdListDefinitionId": 356,
+  "Rank": 925
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Medhurst-Dickens",
-  "Tooltip": "consequatur",
+  "Id": 970,
+  "Name": "Blick-Moen",
+  "Tooltip": "unde",
   "Deleted": false,
-  "UdListDefinitionId": 49,
-  "Rank": 964,
+  "UdListDefinitionId": 376,
+  "Rank": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldLength": 567
     }
   }
 }

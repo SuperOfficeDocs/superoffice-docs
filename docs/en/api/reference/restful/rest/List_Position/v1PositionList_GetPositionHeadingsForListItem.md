@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Batz-Stracke",
-    "ToolTip": "Soluta magni magnam optio qui ad ab voluptatum.",
+    "Id": 321,
+    "Name": "Rowe-Prosacco",
+    "ToolTip": "Saepe blanditiis ipsam et.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "et",
-    "ColorBlock": 360,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "1999-04-06T12:19:54.6646278+02:00",
+    "Rank": 642,
+    "Type": "voluptatem",
+    "ColorBlock": 413,
+    "IconHint": "mollitia",
+    "Selected": false,
+    "LastChanged": "2011-03-09T11:44:43.1481263+01:00",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Kuphal, Keeling and Brown",
-        "ToolTip": "Iste temporibus excepturi ipsam dolores dolor.",
+        "Id": 192,
+        "Name": "Emmerich, Klein and Larkin",
+        "ToolTip": "Atque ipsa ipsa consequatur illum maxime distinctio.",
         "Deleted": true,
-        "Rank": 703,
-        "Type": "ut",
-        "ColorBlock": 696,
-        "IconHint": "molestiae",
+        "Rank": 145,
+        "Type": "eaque",
+        "ColorBlock": 107,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "1997-03-23T12:19:54.6646278+01:00",
+        "LastChanged": "2014-04-28T11:44:43.1637513+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "blanditiis",
-        "Hidden": false,
-        "FullName": "Graciela Ratke",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "rem",
+        "Hidden": true,
+        "FullName": "Stewart Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Lue Orn",
+    "ExtraInfo": "qui",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Ms. Vance Kiel Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 907
       }
     }
   }

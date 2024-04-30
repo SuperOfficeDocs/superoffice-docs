@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 854,
-    "Name": "Murphy Group",
-    "CurrencyId": 256,
-    "EnglishName": "King, Reinger and Keeling",
+    "CountryId": 995,
+    "Name": "Hahn, Gerlach and Keeling",
+    "CurrencyId": 4,
+    "EnglishName": "Crona, Lowe and Greenholt",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Quality-focused secondary focus group",
-    "OrgNrText": "1149758",
-    "InterAreaPrefix": "minima",
-    "DialInPrefix": "aut",
+    "ImageDescription": "Distributed fresh-thinking structure",
+    "OrgNrText": "1246752",
+    "InterAreaPrefix": "quis",
+    "DialInPrefix": "ea",
     "ZipPrefix": "omnis",
-    "DomainName": "Kerluke-Thompson",
-    "AddressLayoutId": 982,
-    "DomesticAddressLayoutId": 518,
-    "ForeignAddressLayoutId": 997,
-    "Rank": 517,
-    "Tooltip": "nihil",
-    "Deleted": true,
+    "DomainName": "Stehr-Tremblay",
+    "AddressLayoutId": 787,
+    "DomesticAddressLayoutId": 818,
+    "ForeignAddressLayoutId": 623,
+    "Rank": 85,
+    "Tooltip": "dolorem",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 820
       }
     }
   }

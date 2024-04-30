@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "provident",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "provident",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 274,
-  "Name": "Paucek, Lakin and Quitzon",
+  "ScreenChooserId": 219,
+  "Name": "Shields Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "deserunt",
-  "Source": "aliquid",
-  "Registered": "2014-02-28T12:19:54.0866374+01:00",
-  "RegisteredAssociateId": 280,
-  "Updated": "2011-08-14T12:19:54.0866374+02:00",
-  "UpdatedAssociateId": 575,
+  "Enabled": false,
+  "UniqueIdentifier": "qui",
+  "Source": "provident",
+  "Registered": "2022-06-14T11:44:42.6951171+02:00",
+  "RegisteredAssociateId": 562,
+  "Updated": "2003-09-13T11:44:42.6951171+02:00",
+  "UpdatedAssociateId": 730,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 934
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -26,7 +26,7 @@ Gets a EmailFlow object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=299
+POST /api/v1/Agents/Workflow/GetEmailFlow?emailFlowId=661
 POST /api/v1/Agents/Workflow/GetEmailFlow?$select=name,department,category/id
 ```
 
@@ -119,34 +119,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 566,
-  "Name": "Pacocha LLC",
-  "Description": "Realigned logistical emulation",
+  "EmailFlowId": 327,
+  "Name": "Conroy LLC",
+  "Description": "Operative transitional parallelism",
   "Status": "None",
   "JumpToFinish": false,
   "StartOnlyOnce": false,
   "OverrideConsentSubscription": true,
   "FromType": "FromOnlySpecified",
-  "FromName": "Jenkins-Bins",
-  "FromAddr": "eum",
+  "FromName": "Hagenes LLC",
+  "FromAddr": "distinctio",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "enim",
-  "ReplyToName": "Altenwerth LLC",
-  "SmsSender": "alias",
-  "UseGoogleAnalytics": false,
-  "GaSource": "enim",
-  "GaCampaign": "possimus",
+  "ReplyToAddr": "delectus",
+  "ReplyToName": "Cronin-Kub",
+  "SmsSender": "molestias",
+  "UseGoogleAnalytics": true,
+  "GaSource": "et",
+  "GaCampaign": "laboriosam",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "eos",
-  "TimeframeEnd": "aut",
-  "UseWorkflowStart": false,
-  "WorkflowStart": "iusto",
-  "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "perferendis",
+  "TimeframeStart": "quos",
+  "TimeframeEnd": "dolores",
+  "UseWorkflowStart": true,
+  "WorkflowStart": "quaerat",
+  "UseEnrollmentEnd": true,
+  "EnrollmentEnd": "ad",
   "RemoveFromFlows": [
-    666,
-    627
+    927,
+    204
   ],
   "TzLocation": null,
   "Folder": null,
@@ -154,22 +154,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 773,
-      "WorkflowId": 210,
+      "WorkflowStepId": 89,
+      "WorkflowId": 895,
       "StepType": "AddToList",
-      "Rank": 998
+      "Rank": 513
     },
     {
-      "WorkflowStepId": 773,
-      "WorkflowId": 210,
+      "WorkflowStepId": 89,
+      "WorkflowId": 895,
       "StepType": "AddToList",
-      "Rank": 998
+      "Rank": 513
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 709,
-      "WorkflowId": 600,
+      "WorkflowTriggerId": 127,
+      "WorkflowId": 204,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -180,13 +180,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 846
         }
       }
     },
     {
-      "WorkflowTriggerId": 709,
-      "WorkflowId": 600,
+      "WorkflowTriggerId": 127,
+      "WorkflowId": 204,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -197,15 +197,15 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 846
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 821,
-      "WorkflowId": 60,
+      "WorkflowGoalId": 767,
+      "WorkflowId": 527,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -216,13 +216,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 703
         }
       }
     },
     {
-      "WorkflowGoalId": 821,
-      "WorkflowId": 60,
+      "WorkflowGoalId": 767,
+      "WorkflowId": 527,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -233,74 +233,74 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 703
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    172,
-    244
+    808,
+    699
   ],
   "ContentInfo": [
     {
       "WorkflowContentType": "Form",
-      "Id": 576,
+      "Id": 819,
       "Actions": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 191
         }
       }
     },
     {
       "WorkflowContentType": "Form",
-      "Id": 576,
+      "Id": 819,
       "Actions": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 191
         }
       }
     }
   ],
-  "ExitFlowId": 203,
-  "ExitSuccessFlowId": 748,
+  "ExitFlowId": 171,
+  "ExitSuccessFlowId": 134,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-10-04T12:19:46.6950623+02:00",
-  "UpdatedDate": "2005-11-30T12:19:46.6950623+01:00",
+  "CreatedDate": "2009-06-06T11:44:35.0718828+02:00",
+  "UpdatedDate": "1998-02-06T11:44:35.0718828+01:00",
   "VisibleFor": [
     {
-      "VisibleId": 939,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 763
         }
       }
     },
     {
-      "VisibleId": 939,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 763
         }
       }
     }
@@ -309,8 +309,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 43
     }
   }
 }

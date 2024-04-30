@@ -1177,7 +1177,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=person/useAsMailingAddress,person/personAddress/line2,person/personAssociate/personEmail,person/legalBaseEmarketing,contact/updatedDate
+GET /api/v1/archive/ContactActivity?$select=person/personAssociate/userName,person/correspondingAssociate/ejStatus,sale/associate/associateDbId,sale/associate/otherGroups,appointmentUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

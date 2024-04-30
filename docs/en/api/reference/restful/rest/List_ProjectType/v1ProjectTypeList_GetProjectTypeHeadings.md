@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 916,
-    "Name": "Wilkinson-Rath",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "Rank": 474,
-    "UdListDefinitionId": 843,
+    "HeadingId": 878,
+    "Name": "Von Inc and Sons",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "Rank": 973,
+    "UdListDefinitionId": 38,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   }

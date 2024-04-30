@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "impedit"
+  "UniqueIdentifier": "non"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "facere",
-  "Name": "Bogisich, Schultz and Batz",
-  "Description": "Up-sized next generation adapter",
-  "IncludeId": "quia",
-  "Source": "et",
-  "Registered": "2023-09-07T12:19:44.9923255+02:00",
-  "RegisteredBy": "dolores",
-  "Updated": "2015-06-16T12:19:44.9923255+02:00",
-  "UpdatedBy": "atque",
-  "Path": "facere",
+  "UniqueIdentifier": "animi",
+  "Name": "Gottlieb, Stroman and Koch",
+  "Description": "Vision-oriented dedicated flexibility",
+  "IncludeId": "nesciunt",
+  "Source": "consequatur",
+  "Registered": "2006-03-08T11:44:33.3223014+01:00",
+  "RegisteredBy": "rerum",
+  "Updated": "2017-05-23T11:44:33.3223014+02:00",
+  "UpdatedBy": "odio",
+  "Path": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 383
     }
   }
 }

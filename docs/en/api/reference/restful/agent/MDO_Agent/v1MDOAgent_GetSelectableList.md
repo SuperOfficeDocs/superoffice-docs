@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rau, Ritchie and Hayes",
-  "ForceFlatList": true,
-  "AdditionalInfo": "sequi",
+  "Name": "Schulist, Hilll and Johnson",
+  "ForceFlatList": false,
+  "AdditionalInfo": "consequuntur",
   "OnlyHistory": true
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Jast, Lind and Schiller",
-    "ToolTip": "Possimus dolor ullam dicta velit dignissimos eaque.",
-    "Deleted": true,
-    "Rank": 390,
-    "Type": "incidunt",
-    "ColorBlock": 344,
-    "IconHint": "ea",
+    "Id": 535,
+    "Name": "Schaden-Klein",
+    "ToolTip": "Quia debitis.",
+    "Deleted": false,
+    "Rank": 512,
+    "Type": "deleniti",
+    "ColorBlock": 376,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1997-01-16T12:19:45.6015646+01:00",
+    "LastChanged": "2003-01-26T11:44:33.9471419+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Dach-Ortiz",
-        "ToolTip": "Iure aut.",
+        "Id": 1000,
+        "Name": "Koelpin, Feest and Blanda",
+        "ToolTip": "Necessitatibus laboriosam nam omnis esse eum sint fuga.",
         "Deleted": false,
-        "Rank": 306,
-        "Type": "nemo",
-        "ColorBlock": 463,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2003-10-18T12:19:45.6015646+02:00",
+        "Rank": 625,
+        "Type": "neque",
+        "ColorBlock": 428,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2014-02-03T11:44:33.9471419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Lonzo Enrico Kertzmann V",
+        "FullName": "Lucie Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 181
+            "FieldLength": 895
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quo",
+    "ExtraInfo": "minima",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Horacio Harber",
+    "FullName": "Kaleb Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 70
       }
     }
   }

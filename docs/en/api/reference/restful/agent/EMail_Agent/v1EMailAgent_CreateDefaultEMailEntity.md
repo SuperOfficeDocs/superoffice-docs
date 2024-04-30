@@ -97,156 +97,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 4,
-      "ContactName": "Bayer-Kemmer",
-      "PersonId": 324,
-      "PersonName": "McDermott-Kuhlman",
-      "AssociateId": 511,
-      "Address": "suscipit",
-      "EmailId": 978,
+      "ContactId": 971,
+      "ContactName": "Johnson, Oberbrunner and Champlin",
+      "PersonId": 200,
+      "PersonName": "Kautzer, Beier and Wisozk",
+      "AssociateId": 331,
+      "Address": "quidem",
+      "EmailId": 284,
       "DuplicatePersonIds": [
-        639,
-        409
+        448,
+        518
       ],
-      "Name": "Franecki Group",
+      "Name": "Nicolas, Yost and Altenwerth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 260
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 619,
-      "ContactName": "Gaylord Inc and Sons",
-      "PersonId": 805,
-      "PersonName": "Hammes Inc and Sons",
-      "AssociateId": 253,
-      "Address": "quo",
-      "EmailId": 795,
+      "ContactId": 661,
+      "ContactName": "Ryan, Runte and Crooks",
+      "PersonId": 91,
+      "PersonName": "Rodriguez LLC",
+      "AssociateId": 876,
+      "Address": "ipsam",
+      "EmailId": 642,
       "DuplicatePersonIds": [
-        587,
-        867
+        412,
+        818
       ],
-      "Name": "White-Zemlak",
+      "Name": "Erdman Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 548
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 775,
-      "ContactName": "Cole-Reynolds",
-      "PersonId": 178,
-      "PersonName": "Jewess-Dare",
-      "AssociateId": 562,
-      "Address": "rem",
-      "EmailId": 625,
+      "ContactId": 391,
+      "ContactName": "Olson-Hills",
+      "PersonId": 669,
+      "PersonName": "Botsford LLC",
+      "AssociateId": 194,
+      "Address": "qui",
+      "EmailId": 809,
       "DuplicatePersonIds": [
-        367,
-        848
+        112,
+        608
       ],
-      "Name": "Langworth, O'Keefe and Hahn",
+      "Name": "Romaguera-Tromp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldType": "System.String",
+          "FieldLength": 23
         }
       }
     }
   ],
-  "Subject": "ullam",
+  "Subject": "quibusdam",
   "HTMLBody": "et",
   "From": null,
-  "Sent": "1999-11-08T12:19:45.2735196+01:00",
-  "Size": 421,
+  "Sent": "2022-11-30T11:44:33.6190814+01:00",
+  "Size": 483,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "eveniet",
+  "PlainBody": "deserunt",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 256,
+  "ServerId": 623,
   "Attachments": [
     {
-      "Description": "Multi-layered zero tolerance strategy",
-      "Filename": "consequuntur",
-      "Size": 830,
-      "Type": "aliquam",
-      "Encoding": "earum",
-      "Id": "sint",
-      "Disposition": "necessitatibus",
+      "Description": "Extended system-worthy protocol",
+      "Filename": "cupiditate",
+      "Size": 383,
+      "Type": "voluptates",
+      "Encoding": "atque",
+      "Id": "alias",
+      "Disposition": "minus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 534
+          "FieldType": "System.Int32",
+          "FieldLength": 620
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Abshire-Yost",
+      "Name": "Blanda, Beahan and Wyman",
       "Values": [
         "sit",
-        "et"
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldLength": 37
         }
       }
     },
     {
-      "Name": "Abshire-Yost",
+      "Name": "Blanda, Beahan and Wyman",
       "Values": [
         "sit",
-        "et"
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldLength": 37
         }
       }
     }
   ],
-  "FolderName": "Hudson-Willms",
-  "EmailItemId": 60,
-  "AccountId": 46,
-  "ReceivedAt": "2020-09-11T12:19:45.2735196+02:00",
+  "FolderName": "Schoen-Kiehn",
+  "EmailItemId": 456,
+  "AccountId": 343,
+  "ReceivedAt": "1998-10-25T11:44:33.6190814+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-09-01T12:19:45.2735196+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2012-04-25T11:44:33.6190814+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   }
 }

@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 453,
-    "Name": "McCullough-Raynor",
-    "Description": "Digitized value-added structure",
-    "DeltaJson": "optio",
+    "ConfigurableScreenDeltaId": 877,
+    "Name": "Kub, Heathcote and Pfannerstill",
+    "Description": "Business-focused interactive artificial intelligence",
+    "DeltaJson": "qui",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "mollitia",
-    "UpdatedDate": "2000-05-26T12:19:44.8361197+02:00",
-    "CreatedDate": "1997-08-04T12:19:44.8361197+02:00",
+    "RecipeId": "aut",
+    "UpdatedDate": "2005-10-19T11:44:32.9942315+02:00",
+    "CreatedDate": "2015-08-04T11:44:32.9942315+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      31,
-      727
+      582,
+      266
     ],
-    "AppliesToKey": "odio",
+    "AppliesToKey": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

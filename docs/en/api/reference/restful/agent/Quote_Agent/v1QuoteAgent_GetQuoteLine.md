@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 195
+  "QuoteLineId": 587
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 561,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 772,
-  "ERPProductKey": "quia",
+  "QuoteLineId": 220,
+  "ERPQuoteLineKey": "voluptates",
+  "QuoteAlternativeId": 451,
+  "ERPProductKey": "ut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 9988.0579999999991,
-  "DeliveredQuantity": 8699.984,
-  "Rank": 736,
-  "Name": "Gleichner, Kuhic and Satterfield",
-  "Description": "Profound explicit initiative",
-  "Code": "quam",
-  "QuantityUnit": "minus",
-  "PriceUnit": "repudiandae",
-  "ItemNumber": "1771209",
+  "Quantity": 14394.462,
+  "DeliveredQuantity": 25908.778,
+  "Rank": 525,
+  "Name": "Miller-Russel",
+  "Description": "Profound 24 hour Graphic Interface",
+  "Code": "in",
+  "QuantityUnit": "est",
+  "PriceUnit": "alias",
+  "ItemNumber": "1183896",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tempora",
-  "ProductTypeKey": "libero",
-  "Supplier": "similique",
-  "SupplierCode": "iste",
-  "Thumbnail": "quo",
-  "VATInfo": "earum",
-  "VAT": 6781.976,
-  "UnitCost": 34.474,
-  "UnitMinimumPrice": 13952.568,
-  "UnitListPrice": 17039.558,
+  "ProductFamilyKey": "quod",
+  "ProductTypeKey": "perferendis",
+  "Supplier": "corrupti",
+  "SupplierCode": "doloribus",
+  "Thumbnail": "corporis",
+  "VATInfo": "ut",
+  "VAT": 1852.194,
+  "UnitCost": 11827.716,
+  "UnitMinimumPrice": 12761.648,
+  "UnitListPrice": 13551.416,
   "ExtraInfo": [
     {
-      "Name": "Luettgen, Welch and Nicolas",
-      "Value": "dolorem",
+      "Name": "Rippin Inc and Sons",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldType": "System.String",
+          "FieldLength": 476
         }
       }
     },
     {
-      "Name": "Luettgen, Welch and Nicolas",
-      "Value": "dolorem",
+      "Name": "Rippin Inc and Sons",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldType": "System.String",
+          "FieldLength": 476
         }
       }
     }
   ],
-  "RawExtraInfo": "assumenda",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptatem",
-  "SubscriptionQuantity": 7737.846,
-  "SubscriptionStart": "1999-07-25T12:19:46.117062+02:00",
-  "ERPDiscountPercent": 7684.5679999999993,
-  "ERPDiscountAmount": 22975.354,
-  "DiscountPercent": 22245.131999999998,
-  "DiscountAmount": 24880.826,
+  "RawExtraInfo": "quia",
+  "IsSubscription": false,
+  "SubscriptionUnit": "hic",
+  "SubscriptionQuantity": 19001.442,
+  "SubscriptionStart": "2013-01-02T11:44:34.3063794+01:00",
+  "ERPDiscountPercent": 28914.284,
+  "ERPDiscountAmount": 8800.271999999999,
+  "DiscountPercent": 16252.923999999999,
+  "DiscountAmount": 11197.782,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23859.142,
-  "EarningAmount": 1943.08,
-  "SubTotal": 4130.612,
-  "TotalPrice": 9737.338,
-  "Rights": "tenetur",
-  "Rule": "quas",
-  "ExtraField1": "accusantium",
-  "ExtraField2": "commodi",
-  "ExtraField3": "aliquid",
-  "ExtraField4": "impedit",
-  "ExtraField5": "qui",
+  "EarningPercent": 24708.456,
+  "EarningAmount": 23495.597999999998,
+  "SubTotal": 26353.806,
+  "TotalPrice": 27544.726,
+  "Rights": "ea",
+  "Rule": "blanditiis",
+  "ExtraField1": "in",
+  "ExtraField2": "et",
+  "ExtraField3": "cumque",
+  "ExtraField4": "totam",
+  "ExtraField5": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

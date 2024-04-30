@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummerata-Dooley"
+  "Name": "Spencer Inc and Sons"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Value": "eaque",
-    "Tooltip": "ut",
+    "Id": 341,
+    "Value": "animi",
+    "Tooltip": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 660
       }
     }
   },
   {
-    "Id": 227,
-    "Value": "eaque",
-    "Tooltip": "ut",
+    "Id": 341,
+    "Value": "animi",
+    "Tooltip": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 660
       }
     }
   }

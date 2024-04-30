@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 39,
-      "ContactId": 54
+      "PersonId": 827,
+      "ContactId": 464
     },
     {
-      "PersonId": 39,
-      "ContactId": 54
+      "PersonId": 827,
+      "ContactId": 464
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent bifurcated benchmark",
-  "Postit": "aut",
+  "Description": "Profit-focused discrete initiative",
+  "Postit": "quos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 939,
-  "IncludePerson": 343,
-  "MemberCount": 564,
-  "Name": "Wisozk Group",
-  "PostitTextId": 699,
-  "CreatedDate": "2016-01-08T12:19:46.2576612+01:00",
-  "SelectionId": 512,
-  "SoundEx": "nihil",
-  "Source": 55,
-  "TextId": 153,
-  "UpdatedDate": "2018-11-29T12:19:46.2576612+01:00",
-  "UpdatedCount": 857,
-  "Visibility": 561,
+  "GroupIdx": 332,
+  "IncludePerson": 459,
+  "MemberCount": 246,
+  "Name": "Kub-Adams",
+  "PostitTextId": 717,
+  "CreatedDate": "1999-01-15T11:44:34.4470256+01:00",
+  "SelectionId": 175,
+  "SoundEx": "maxime",
+  "Source": 166,
+  "TextId": 288,
+  "UpdatedDate": "2001-05-09T11:44:34.4470256+02:00",
+  "UpdatedCount": 609,
+  "Visibility": 490,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 393,
-  "TargetTableName": "Reinger Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 969,
-  "RightSelectionId": 440,
+  "TargetTableNumber": 262,
+  "TargetTableName": "Farrell-Smitham",
+  "Completed": false,
+  "LeftSelectionId": 905,
+  "RightSelectionId": 74,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hermiston, Robel and Marks",
-  "ShadowProviderName": "Walsh, Dooley and Klein",
-  "ChartKey": "neque",
-  "LastLoaded": "2016-03-09T12:19:46.2576612+01:00",
-  "LastLoadedBy": 194,
+  "MainProviderName": "O'Reilly-Kling",
+  "ShadowProviderName": "Terry-O'Connell",
+  "ChartKey": "dolore",
+  "LastLoaded": "2022-05-28T11:44:34.4470256+02:00",
+  "LastLoadedBy": 963,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-02-21T12:19:46.2576612+01:00",
-  "LastMembershipChangeBy": 826,
+  "LastMembershipChange": "2016-12-25T11:44:34.4470256+01:00",
+  "LastMembershipChangeBy": 943,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "veniam",
-  "MemberTabHeading": "error",
-  "MailingsProviderName": "Corwin Inc and Sons",
-  "DashboardTileDefinitionId": 749,
+  "MainHeading": "et",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Denesik-Kassulke",
+  "DashboardTileDefinitionId": 817,
   "VisibleFor": [
     {
-      "VisibleId": 96,
+      "VisibleId": 330,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 120
         }
       }
     },
     {
-      "VisibleId": 96,
+      "VisibleId": 330,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 120
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldType": "System.Int32",
+      "FieldLength": 121
     }
   }
 }

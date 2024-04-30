@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 877,
-    "Name": "Cole, Stroman and Balistreri",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 957,
-    "UdListDefinitionId": 948,
+    "HeadingId": 336,
+    "Name": "Ullrich-Berge",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 715,
+    "UdListDefinitionId": 895,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 366
       }
     }
   }

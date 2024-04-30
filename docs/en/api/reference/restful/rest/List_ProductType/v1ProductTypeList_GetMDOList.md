@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=perferendis
+GET /api/v1/List/ProductType/MDOItems?query=libero
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Larson Group",
-    "ToolTip": "Voluptatem tempore delectus ab.",
-    "Deleted": false,
-    "Rank": 920,
-    "Type": "aut",
+    "Id": 188,
+    "Name": "Sauer LLC",
+    "ToolTip": "Odio accusamus vel laborum ut.",
+    "Deleted": true,
+    "Rank": 40,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Kuphal LLC",
-        "ToolTip": "Mollitia et velit et recusandae vel similique quis.",
-        "Deleted": true,
-        "Rank": 539,
-        "Type": "saepe",
+        "Id": 202,
+        "Name": "Kunze Group",
+        "ToolTip": "Dolorum aliquid aperiam est hic cumque.",
+        "Deleted": false,
+        "Rank": 858,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 729,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "fugit",
-        "FullName": "Mrs. Keira Abagail Haley III",
+        "IconHint": "rem",
+        "ColorBlock": 25,
+        "ExtraInfo": "nihil",
+        "StyleHint": "et",
+        "FullName": "Mrs. Duncan Rogahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 617
+            "FieldLength": 162
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 672,
-    "ExtraInfo": "ut",
-    "StyleHint": "rerum",
-    "FullName": "Dereck Bayer",
+    "IconHint": "laboriosam",
+    "ColorBlock": 663,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "ut",
+    "FullName": "Jonathan Dickens Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldType": "System.String",
+        "FieldLength": 413
       }
     }
   }

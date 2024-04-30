@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bernier, Torp and Botsford",
-    "SaleDate": "2016-12-25T12:19:46.210807+01:00",
-    "SaleId": 93,
-    "Probability": 906,
-    "Title": "praesentium",
-    "Amount": 5196.172,
-    "Currency": "amet",
-    "ProjectName": "Weber, Denesik and Parker",
-    "AssociateFullName": "Prof. Ettie Cartwright III",
-    "Description": "Re-contextualized solution-oriented frame",
+    "ContactName": "Hahn-Schamberger",
+    "SaleDate": "2013-05-22T11:44:34.4001629+02:00",
+    "SaleId": 211,
+    "Probability": 3,
+    "Title": "possimus",
+    "Amount": 28162.124,
+    "Currency": "velit",
+    "ProjectName": "Zemlak LLC",
+    "AssociateFullName": "Joshuah Benny Gottlieb V",
+    "Description": "Customizable needs-based definition",
     "Status": "Lost",
-    "WeightedAmount": 2438.252,
-    "ProjectId": 125,
-    "EarningPercent": 23523.804,
-    "Earning": 7643.826,
-    "ContactId": 300,
-    "AssociateId": 849,
-    "PersonId": 854,
-    "SaleTypeId": 89,
-    "SaleTypeName": "Ferry, Yost and Orn",
-    "PersonFullName": "Ms. Oren Natasha Prohaska V",
+    "WeightedAmount": 31308.66,
+    "ProjectId": 695,
+    "EarningPercent": 9702.864,
+    "Earning": 4898.442,
+    "ContactId": 359,
+    "AssociateId": 738,
+    "PersonId": 46,
+    "SaleTypeId": 157,
+    "SaleTypeName": "Daniel-Keeling",
+    "PersonFullName": "Blanca Hand",
     "Completed": "Completed",
-    "ActiveErpLinks": 253,
-    "NextDueDate": "2019-05-30T12:19:46.210807+02:00",
-    "Number": "1560745",
+    "ActiveErpLinks": 499,
+    "NextDueDate": "2001-03-16T11:44:34.4001629+01:00",
+    "Number": "1000470",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 717
       }
     }
   }

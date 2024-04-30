@@ -89,8 +89,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 311,
-  "CurrencyId": 162
+  "QuoteConnectionId": 504,
+  "CurrencyId": 795
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 135,
-    "ERPPriceListKey": "quae",
-    "QuoteConnectionId": 342,
-    "Name": "Hills, Muller and Toy",
-    "Description": "Face to face global extranet",
-    "Currency": "magni",
-    "CurrencyName": "Johns, Erdman and Hauck",
-    "ValidFrom": "2018-03-08T12:19:46.1014395+01:00",
-    "ValidTo": "2014-02-06T12:19:46.1014395+01:00",
+    "PriceListId": 181,
+    "ERPPriceListKey": "quibusdam",
+    "QuoteConnectionId": 610,
+    "Name": "Lehner-Breitenberg",
+    "Description": "Horizontal human-resource function",
+    "Currency": "dolorem",
+    "CurrencyName": "Murray-Marks",
+    "ValidFrom": "2007-05-29T11:44:34.2907996+02:00",
+    "ValidTo": "2019-10-11T11:44:34.2907996+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   }

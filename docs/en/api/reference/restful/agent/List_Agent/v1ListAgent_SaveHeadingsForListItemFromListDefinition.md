@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 575,
-  "ListItemId": 554,
+  "UdListDefinitionId": 20,
+  "ListItemId": 845,
   "Headings": [
     {
-      "Id": 524,
-      "Name": "Sporer, Labadie and Lowe",
-      "ToolTip": "Veniam molestiae cumque quia.",
-      "Deleted": true,
-      "Rank": 756,
-      "Type": "minima",
-      "ColorBlock": 458,
-      "IconHint": "qui",
+      "Id": 974,
+      "Name": "Krajcik, Turcotte and Reynolds",
+      "ToolTip": "Tenetur consequatur ad.",
+      "Deleted": false,
+      "Rank": 450,
+      "Type": "qui",
+      "ColorBlock": 531,
+      "IconHint": "mollitia",
       "Selected": false,
-      "LastChanged": "1998-11-30T12:19:45.5078373+01:00",
+      "LastChanged": "2010-12-31T11:44:33.8534097+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reprehenderit",
-      "StyleHint": "nulla",
+      "ExtraInfo": "eum",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Jayne Stroman"
+      "FullName": "Ms. Karolann Shany Ernser MD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Friesen Inc and Sons",
-    "ToolTip": "Et autem omnis accusantium quidem quia ullam.",
-    "Deleted": false,
-    "Rank": 195,
-    "Type": "voluptatem",
-    "ColorBlock": 161,
-    "IconHint": "modi",
-    "Selected": false,
-    "LastChanged": "2001-12-07T12:19:45.5078373+01:00",
+    "Id": 919,
+    "Name": "Hane Group",
+    "ToolTip": "Voluptatum laboriosam ullam qui eos.",
+    "Deleted": true,
+    "Rank": 360,
+    "Type": "ut",
+    "ColorBlock": 5,
+    "IconHint": "architecto",
+    "Selected": true,
+    "LastChanged": "2018-11-26T11:44:33.8534097+01:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Herzog, Rempel and Boyle",
-        "ToolTip": "Voluptatibus esse voluptatem ullam culpa eum.",
+        "Id": 589,
+        "Name": "Robel-Bartoletti",
+        "ToolTip": "Quia nemo modi.",
         "Deleted": false,
-        "Rank": 764,
-        "Type": "voluptatem",
-        "ColorBlock": 812,
-        "IconHint": "consectetur",
+        "Rank": 5,
+        "Type": "nulla",
+        "ColorBlock": 396,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2000-04-21T12:19:45.5078373+02:00",
+        "LastChanged": "2024-03-16T11:44:33.8534097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "omnis",
+        "ExtraInfo": "atque",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Bailey Rutherford",
+        "FullName": "Bobby Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldType": "System.String",
+            "FieldLength": 27
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "a",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Dakota Fadel",
+    "FullName": "Maud Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 685
       }
     }
   }

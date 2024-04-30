@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 265,
-    "Name": "Jerde Group",
-    "Tooltip": "laboriosam",
-    "Rank": 200,
+    "SaleTypeId": 418,
+    "Name": "Roob, Dooley and Hoppe",
+    "Tooltip": "error",
+    "Rank": 359,
     "DurationUnit": "Century",
-    "SaleDuration": 630,
+    "SaleDuration": 762,
     "SaleTypeCatId": 768,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 111,
-    "QuoteLinesTemplate": 721,
-    "ConfirmationLinesTemplate": 395,
-    "MaxDiscountPercentSet": true,
+    "IsAutoAdvance": false,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 969,
+    "QuoteLinesTemplate": 965,
+    "ConfirmationLinesTemplate": 762,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 253,
-    "MinEarningPercent": 618,
-    "GroupQuoteLinesBy": 229,
-    "SortGroupLinesBy": 803,
+    "MaxDiscountPercent": 841,
+    "MinEarningPercent": 718,
+    "GroupQuoteLinesBy": 756,
+    "SortGroupLinesBy": 758,
     "Stages": [
       {
-        "Id": 138,
-        "Name": "Lang, Ernser and Steuber",
-        "ToolTip": "Vitae harum aut eos.",
+        "Id": 919,
+        "Name": "Purdy, Mitchell and Johnson",
+        "ToolTip": "Rem sed esse accusamus quidem sit optio consequatur.",
         "Deleted": false,
-        "Rank": 720,
-        "Type": "harum",
-        "ColorBlock": 137,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2003-02-09T12:19:45.4765914+01:00",
+        "Rank": 237,
+        "Type": "tenetur",
+        "ColorBlock": 837,
+        "IconHint": "necessitatibus",
+        "Selected": false,
+        "LastChanged": "2023-09-03T11:44:33.8221684+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Ms. Justina Mann",
+        "ExtraInfo": "iusto",
+        "StyleHint": "repellat",
+        "Hidden": false,
+        "FullName": "Hazel Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 181
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 652
       }
     }
   }

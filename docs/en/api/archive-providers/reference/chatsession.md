@@ -476,7 +476,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=person/personMobilePhone/description,contact/url/URLAddress,contact/contactAssociate/contactFullName,contact/contactAssociate/assocType,contact/contactAssociate/credentialDisplayValue
+GET /api/v1/archive/ChatSession?$select=person/correspondingAssociate/otherGroups,contact/country,contact/NumberOfActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

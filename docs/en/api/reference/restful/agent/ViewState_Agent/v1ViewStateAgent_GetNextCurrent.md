@@ -86,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Paucek, Hilll and Reichel",
-  "Id": 893
+  "HistoryName": "Luettgen Inc and Sons",
+  "Id": 164
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 419,
-  "Id": 828,
-  "HistoryName": "O'Kon, Purdy and Huel",
-  "HistoryId": 841,
-  "AssociateId": 179,
-  "Name": "Cruickshank-Larkin",
-  "ItemInfo": "architecto",
+  "Rank": 680,
+  "Id": 921,
+  "HistoryName": "Koepp Inc and Sons",
+  "HistoryId": 871,
+  "AssociateId": 839,
+  "Name": "Gerlach-Nicolas",
+  "ItemInfo": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 769
     }
   }
 }

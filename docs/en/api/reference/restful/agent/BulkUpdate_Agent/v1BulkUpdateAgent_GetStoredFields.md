@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "nihil"
+  "Tablename": "project",
+  "Context": "sunt"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "facilis",
-    "ValueType": "temporibus",
-    "Mandatory": false,
-    "EncodedDisplayName": "Streich, Bergstrom and Swaniawski",
-    "EncodedDisplayDescription": "Diverse value-added product",
-    "IconHint": "sit",
+    "Key": "placeat",
+    "ValueType": "recusandae",
+    "Mandatory": true,
+    "EncodedDisplayName": "Hauck-Bednar",
+    "EncodedDisplayDescription": "Front-line 3rd generation migration",
+    "IconHint": "sed",
     "ControlInfos": [
       {
-        "Type": "ipsam",
+        "Type": "fugit",
         "Label": "et",
-        "Dimension": 859,
-        "ListProviderName": "Windler Inc and Sons",
-        "ListProviderExtraInfo": "non",
-        "ListProviderPrimaryKeyName": "Casper-Morar",
-        "ListLeadText": "culpa",
+        "Dimension": 278,
+        "ListProviderName": "Wehner-Windler",
+        "ListProviderExtraInfo": "voluptate",
+        "ListProviderPrimaryKeyName": "Dibbert-Hickle",
+        "ListLeadText": "reiciendis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
     ],
-    "EncodedDataCaption": "voluptates",
-    "EncodedDataCaptionDescription": "Mandatory 24 hour monitoring",
-    "CurrentOperationType": "accusantium",
+    "EncodedDataCaption": "nam",
+    "EncodedDataCaptionDescription": "Future-proofed 4th generation hardware",
+    "CurrentOperationType": "deserunt",
     "Values": [
-      "quas",
-      "nulla"
+      "ipsum",
+      "ut"
     ],
     "DisplayValues": [
-      "ducimus",
-      "consectetur"
+      "cupiditate",
+      "consequatur"
     ],
     "OperationInfos": [
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Zboncak LLC",
+        "Key": "id",
+        "EncodedDisplayName": "Purdy, Hermiston and Champlin",
         "EncodedLeadTexts": [
-          "maiores",
-          "harum"
+          "consequatur",
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldType": "System.String",
+            "FieldLength": 969
           }
         }
       },
       {
-        "Key": "ut",
-        "EncodedDisplayName": "Zboncak LLC",
+        "Key": "id",
+        "EncodedDisplayName": "Purdy, Hermiston and Champlin",
         "EncodedLeadTexts": [
-          "maiores",
-          "harum"
+          "consequatur",
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldType": "System.String",
+            "FieldLength": 969
           }
         }
       }

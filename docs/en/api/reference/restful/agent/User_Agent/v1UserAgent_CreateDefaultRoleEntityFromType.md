@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 421,
-  "Name": "Stoltenberg, Kunde and Jenkins",
-  "Tooltip": "et",
+  "RoleId": 865,
+  "Name": "Jones-Heller",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 333,
-  "Rank": 112,
-  "Created": "2024-02-18T12:19:46.5857106+01:00",
-  "UseCategories": 273,
+  "Deleted": 99,
+  "Rank": 427,
+  "Created": "2009-07-23T11:44:34.9781542+02:00",
+  "UseCategories": 987,
   "CreatedBy": null,
-  "Updated": "2021-02-02T12:19:46.5857106+01:00",
+  "Updated": "1999-11-11T11:44:34.9781542+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 8
     }
   }
 }

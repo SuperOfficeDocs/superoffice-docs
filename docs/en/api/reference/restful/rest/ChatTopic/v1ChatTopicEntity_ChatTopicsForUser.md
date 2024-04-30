@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 708,
-    "Name": "Daniel, Hand and Hills",
-    "Description": "Expanded high-level portal",
-    "WelcomeMessage": "quia",
+    "ChatTopicId": 508,
+    "Name": "Goodwin LLC",
+    "Description": "Customer-focused zero tolerance success",
+    "WelcomeMessage": "reiciendis",
     "Language": null,
-    "LastAccept": "2003-06-28T12:19:53.1649635+02:00",
-    "SecondsPrAccept": 654,
-    "AlertRecipient": "nostrum",
+    "LastAccept": "2013-06-28T11:44:41.7109149+02:00",
+    "SecondsPrAccept": 221,
+    "AlertRecipient": "libero",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "voluptatibus",
+    "BadgeHeader": "deserunt",
     "CustomQueueTextEnabled": true,
-    "CustomQueueText": "quaerat",
-    "WarnNewChatMinutes": 536,
-    "WarnManagerNewChatMinutes": 667,
+    "CustomQueueText": "quo",
+    "WarnNewChatMinutes": 206,
+    "WarnManagerNewChatMinutes": 995,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 200,
-    "WarnManagerChatMessageMinutes": 647,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 740,
-    "OfflineFormQueueLength": 814,
+    "WarnChatMessageMinutes": 769,
+    "WarnManagerChatMessageMinutes": 338,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 884,
+    "OfflineFormQueueLength": 510,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "at",
+    "WidgetRatingText": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldType": "System.String",
+        "FieldLength": 411
       }
     }
   }

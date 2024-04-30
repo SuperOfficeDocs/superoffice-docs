@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 663,
-  "Name": "Rau-Yundt",
-  "Tooltip": "eveniet",
+  "HeadingId": 216,
+  "Name": "Treutel-Ritchie",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 224,
-  "UdListDefinitionId": 779
+  "Rank": 592,
+  "UdListDefinitionId": 342
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 289,
-  "Name": "Schneider-Mueller",
-  "Tooltip": "corrupti",
+  "HeadingId": 212,
+  "Name": "Skiles-Kemmer",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 328,
-  "UdListDefinitionId": 171,
+  "Rank": 40,
+  "UdListDefinitionId": 166,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldType": "System.String",
+      "FieldLength": 745
     }
   }
 }

@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 89,
+  "EjMessageId": 104,
   "Ticket": null,
-  "CreatedAt": "2008-02-15T12:19:46.5076053+01:00",
+  "CreatedAt": "2008-04-23T11:44:34.8844266+02:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "repellendus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestiae",
-  "TimeSpent": 936,
-  "Body": "voluptatum",
-  "HtmlBody": "et",
-  "EmailHeader": "daphnee.feil@stokes.info",
-  "DebugInfo": "odit",
-  "MailSorter": "magni",
+  "MessageId": "minus",
+  "TimeSpent": 806,
+  "Body": "voluptatem",
+  "HtmlBody": "itaque",
+  "EmailHeader": "jace@wehner.biz",
+  "DebugInfo": "qui",
+  "MailSorter": "consequatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "adipisci",
+  "SearchTitle": "tempora",
   "MessageHeaders": [
     {
-      "Id": 744,
-      "Name": "Abbott-Klein",
-      "Value": "sunt",
+      "Id": 447,
+      "Name": "Senger LLC",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldType": "System.String",
+          "FieldLength": 952
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "vero",
-  "Sentiment": 739,
-  "SentimentConfidence": 573,
+  "Important": true,
+  "Language": "maiores",
+  "Sentiment": 437,
+  "SentimentConfidence": 901,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 618,
-      "Name": "Steuber, Oberbrunner and McGlynn",
-      "ContentType": "labore",
-      "AttSize": 97,
+      "AttachmentId": 566,
+      "Name": "Weissnat, Torphy and Johnston",
+      "ContentType": "non",
+      "AttSize": 80,
       "InlineImage": false,
-      "ContentId": "provident",
-      "AuthKey": "pariatur",
+      "ContentId": "inventore",
+      "AuthKey": "beatae",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldType": "System.String",
+          "FieldLength": 141
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "perspiciatis"
+    "ExtraFields1": "culpa",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "et"
+    "CustomFields1": "dicta",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 250
+  "ErpFieldId": 724
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 470,
-  "DefaultValue": "nihil",
+  "ErpFieldId": 910,
+  "DefaultValue": "voluptatem",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "maiores",
-  "PromptUser": false,
+  "FirstSyncDefaultValue": "quia",
+  "PromptUser": true,
   "Mandatory": true,
-  "ErpFieldKey": "doloremque",
+  "ErpFieldKey": "eos",
   "FieldType": "Checkbox",
-  "ListName": "Ullrich LLC",
+  "ListName": "Weber LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 743
     }
   }
 }

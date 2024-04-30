@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Elmer Braun",
-    "Description": "Right-sized mission-critical flexibility",
-    "ProjectId": 237,
-    "EventName": "Schuster-Veum",
-    "AssociateId": 959,
+    "AssociateFullName": "Ms. Bertrand Otis Padberg",
+    "Description": "Synchronised modular projection",
+    "ProjectId": 575,
+    "EventName": "Hintz LLC",
+    "AssociateId": 160,
     "IsSignedOn": false,
     "SignOffConfirmationText": "sit",
-    "SignOffText": "odit",
-    "SignOnConfirmationText": "a",
-    "SignOnText": "accusamus",
-    "EventDate": "2022-08-24T12:19:46.0233436+02:00",
-    "Enabled": true,
+    "SignOffText": "voluptatem",
+    "SignOnConfirmationText": "assumenda",
+    "SignOnText": "et",
+    "EventDate": "1997-09-27T11:44:34.2126949+02:00",
+    "Enabled": false,
     "SignOff": false,
     "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": false,
-    "SignOffTaskId": 489,
-    "SignOnTaskId": 546,
+    "SignOn": true,
+    "SignOffTaskId": 469,
+    "SignOnTaskId": 90,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 105,
-    "SignOffPersonId": 863,
+    "SignOnPersonId": 999,
+    "SignOffPersonId": 888,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 64
       }
     }
   }

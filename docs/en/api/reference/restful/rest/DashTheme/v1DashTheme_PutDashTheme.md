@@ -89,16 +89,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 137,
-  "Name": "Lebsack-Huels",
-  "Config": "tempore",
-  "Rank": 843,
-  "Client": "ipsum",
-  "Style": "et"
+  "DashboardThemeId": 130,
+  "Name": "Terry, Kunze and Waters",
+  "Config": "quod",
+  "Rank": 927,
+  "Client": "rerum",
+  "Style": "molestias"
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 540,
-  "Name": "Schinner-Heidenreich",
-  "Config": "quibusdam",
-  "Rank": 333,
-  "Client": "exercitationem",
-  "Style": "aliquid",
+  "DashboardThemeId": 70,
+  "Name": "Lakin-Veum",
+  "Config": "optio",
+  "Rank": 493,
+  "Client": "inventore",
+  "Style": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldLength": 671
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

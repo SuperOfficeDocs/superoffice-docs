@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 78,
-  "Name": "Monahan-VonRueden",
-  "CurrencyId": 434,
-  "EnglishName": "Grimes LLC",
+  "CountryId": 534,
+  "Name": "Macejkovic, Gerhold and Strosin",
+  "CurrencyId": 506,
+  "EnglishName": "Jerde, Metz and Howe",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Distributed client-server emulation",
-  "OrgNrText": "1419974",
-  "InterAreaPrefix": "minus",
-  "DialInPrefix": "ab",
-  "ZipPrefix": "quis",
-  "DomainName": "Tillman-Simonis",
-  "AddressLayoutId": 458,
-  "DomesticAddressLayoutId": 416,
-  "ForeignAddressLayoutId": 176,
-  "Rank": 439,
-  "Tooltip": "quasi",
-  "Deleted": false,
+  "ImageDescription": "Optional incremental intranet",
+  "OrgNrText": "515134",
+  "InterAreaPrefix": "qui",
+  "DialInPrefix": "id",
+  "ZipPrefix": "dolore",
+  "DomainName": "Balistreri Group",
+  "AddressLayoutId": 114,
+  "DomesticAddressLayoutId": 771,
+  "ForeignAddressLayoutId": 3,
+  "Rank": 312,
+  "Tooltip": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

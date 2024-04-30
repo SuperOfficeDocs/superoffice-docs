@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "qui",
+  "ProgId": "dolore",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 221,
-  "ColumnId": 957,
-  "FieldDefault": "unde",
-  "FieldHeight": 421,
-  "FieldLabel": "optio",
-  "FieldLeft": 144,
-  "FieldTop": 241,
+  "UDefFieldId": 546,
+  "ColumnId": 564,
+  "FieldDefault": "dolorem",
+  "FieldHeight": 179,
+  "FieldLabel": "qui",
+  "FieldLeft": 648,
+  "FieldTop": 942,
   "FieldType": "Checkbox",
-  "FieldWidth": 241,
-  "FormatMask": "qui",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 248,
-  "LabelLeft": 75,
-  "LabelTop": 202,
-  "LabelWidth": 769,
-  "LastVersionId": 547,
-  "ListTableId": 561,
-  "IsMandatory": true,
+  "FieldWidth": 617,
+  "FormatMask": "doloribus",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 224,
+  "LabelLeft": 108,
+  "LabelTop": 80,
+  "LabelWidth": 951,
+  "LastVersionId": 672,
+  "ListTableId": 814,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 294,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 528,
-  "TextLength": 666,
-  "Tooltip": "similique",
-  "UdefIdentity": 982,
-  "UDListDefinitionId": 581,
+  "Page1LineNo": 666,
+  "ProgId": "quia",
+  "IsReadOnly": true,
+  "ShortLabel": "dolor",
+  "TabOrder": 256,
+  "TextLength": 487,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 754,
+  "UDListDefinitionId": 470,
   "Justification": "Center",
-  "Version": 916,
-  "TemplateVariableName": "Cormier-Heathcote",
+  "Version": 744,
+  "TemplateVariableName": "Krajcik Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Gottlieb LLC",
+  "MdoListName": "Bernhard-Herman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 176
     }
   }
 }

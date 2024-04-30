@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 80,
-    "Name": "Leannon, Boyle and Witting",
-    "Tooltip": "enim",
-    "SaveInDb": 861,
-    "Filename": "facilis",
-    "DefaultOref": "quam",
+    "DocumentTemplateId": 948,
+    "Name": "Abshire, Reilly and Boehm",
+    "Tooltip": "expedita",
+    "SaveInDb": 218,
+    "Filename": "aperiam",
+    "DefaultOref": "accusamus",
     "RecordType": "Appointment",
-    "Deleted": 605,
+    "Deleted": 595,
     "Direction": "Incoming",
-    "AutoeventId": 972,
+    "AutoeventId": 457,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 531
       }
     }
   }

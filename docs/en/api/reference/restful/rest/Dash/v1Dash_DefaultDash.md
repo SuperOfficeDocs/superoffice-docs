@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 779,
-  "UniqueId": "voluptas",
-  "Name": "Waelchi, Mueller and Auer",
-  "Description": "Streamlined regional ability",
-  "AssociateId": 471,
-  "Columns": 581,
+  "DashboardId": 553,
+  "UniqueId": "sed",
+  "Name": "White-Stamm",
+  "Description": "Compatible analyzing internet solution",
+  "AssociateId": 81,
+  "Columns": 11,
   "Theme": null,
-  "VisibleForAll": 864,
+  "VisibleForAll": 905,
   "VisibleForAssociates": [
-    338,
-    631
+    347,
+    483
   ],
   "VisibleForGroups": [
-    510,
-    871
-  ],
-  "PinForAll": 930,
-  "PinForAssociates": [
     508,
-    450
+    899
+  ],
+  "PinForAll": 238,
+  "PinForAssociates": [
+    275,
+    359
   ],
   "PinForGroups": [
-    973,
-    426
+    128,
+    895
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 364
     }
   }
 }

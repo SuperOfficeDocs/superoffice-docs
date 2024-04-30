@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Ryan, Steuber and Rau",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 767,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
-  "InUseByUserDefinedFields": false,
+  "Id": 674,
+  "Name": "Runolfsson, Toy and Wisoky",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 211,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "tempora",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 381
     }
   },
   "_Links": {

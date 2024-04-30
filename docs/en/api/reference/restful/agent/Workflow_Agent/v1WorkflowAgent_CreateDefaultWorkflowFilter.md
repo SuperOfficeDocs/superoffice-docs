@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Huel-Boyer",
-      "Description": "Upgradable contextually-based hierarchy",
-      "Rank": 171,
+      "Name": "Shields Inc and Sons",
+      "Description": "Multi-lateral dynamic product",
+      "Rank": 90,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Huel-Boyer",
-      "Description": "Upgradable contextually-based hierarchy",
-      "Rank": 171,
+      "Name": "Shields Inc and Sons",
+      "Description": "Multi-lateral dynamic product",
+      "Rank": 90,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 237
     }
   }
 }

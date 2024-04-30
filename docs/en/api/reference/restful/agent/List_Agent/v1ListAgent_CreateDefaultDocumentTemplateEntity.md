@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 316,
-  "Name": "Erdman Group",
-  "Tooltip": "libero",
-  "SaveInDb": 883,
-  "Filename": "tempore",
-  "DefaultOref": "pariatur",
+  "DocumentTemplateId": 704,
+  "Name": "Bogan Group",
+  "Tooltip": "facilis",
+  "SaveInDb": 950,
+  "Filename": "architecto",
+  "DefaultOref": "ducimus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 605,
-  "IntentId": 272,
+  "AutoeventId": 676,
+  "IntentId": 47,
   "IsDefaultPublished": false,
-  "Rank": 284,
-  "LoadTemplateFromPlugin": 885,
-  "MimeType": "ut",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 884,
+  "Rank": 39,
+  "LoadTemplateFromPlugin": 978,
+  "MimeType": "et",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 929,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "casey_miller@howebergstrom.com",
+  "EmailSubject": "arnaldo_bergstrom@borer.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kim@bailey.name",
+  "SenderEmailAddress": "amara@mitchellwalsh.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 606
     }
   }
 }

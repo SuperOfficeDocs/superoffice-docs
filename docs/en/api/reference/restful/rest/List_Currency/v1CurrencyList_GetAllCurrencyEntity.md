@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 440,
-    "Name": "Strosin-Witting",
-    "Tooltip": "et",
+    "CurrencyId": 515,
+    "Name": "Tremblay, Kub and Beahan",
+    "Tooltip": "ut",
     "Rank": 349,
-    "Rate": 4491.022,
-    "Units": 26068.611999999997,
+    "Rate": 15685.67,
+    "Units": 21746.826,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 834
       }
     }
   }

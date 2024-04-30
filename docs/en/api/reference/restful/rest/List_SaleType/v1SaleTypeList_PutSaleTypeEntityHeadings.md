@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 250,
-    "Name": "Mante, Pagac and Harris",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 252,
-    "UdListDefinitionId": 665
+    "HeadingId": 723,
+    "Name": "Halvorson-Prohaska",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "Rank": 751,
+    "UdListDefinitionId": 320
   },
   {
-    "HeadingId": 250,
-    "Name": "Mante, Pagac and Harris",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 252,
-    "UdListDefinitionId": 665
+    "HeadingId": 723,
+    "Name": "Halvorson-Prohaska",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "Rank": 751,
+    "UdListDefinitionId": 320
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 846,
-    "Name": "Goyette Inc and Sons",
-    "Tooltip": "sed",
+    "HeadingId": 933,
+    "Name": "Dickens-Hamill",
+    "Tooltip": "ab",
     "Deleted": false,
-    "Rank": 283,
-    "UdListDefinitionId": 903,
+    "Rank": 675,
+    "UdListDefinitionId": 774,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

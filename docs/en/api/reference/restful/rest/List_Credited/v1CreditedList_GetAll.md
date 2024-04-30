@@ -25,7 +25,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=True
+GET /api/v1/List/Credited/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Herzog LLC",
-    "Tooltip": "corrupti",
-    "Deleted": true,
-    "UdListDefinitionId": 566,
-    "Rank": 181,
+    "Id": 712,
+    "Name": "Howe Group",
+    "Tooltip": "placeat",
+    "Deleted": false,
+    "UdListDefinitionId": 923,
+    "Rank": 910,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 102
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Shanahan, Howell and McGlynn",
-    "DisplayName": "McLaughlin-Gibson",
-    "Description": "Automated incremental standardization",
-    "ShortLabel": "vero",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Rosenbaum, Hudson and Wyman",
+    "DisplayName": "Stracke-Dickens",
+    "Description": "Stand-alone client-driven infrastructure",
+    "ShortLabel": "voluptatem",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 407,
-    "TemplateVariableName": "Zemlak-Wolff"
+    "IsMandatory": false,
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "Rank": 985,
+    "TemplateVariableName": "Doyle-Boyer"
   }
 ]
 ```

@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized fresh-thinking paradigm",
+  "Description": "Grass-roots reciprocal orchestration",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 137,
-  "Name": "Sauer LLC",
+  "ScreenChooserId": 94,
+  "Name": "Maggio LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "rerum",
-  "Source": "ad",
-  "Registered": "2003-05-31T12:19:44.9923255+02:00",
-  "RegisteredAssociateId": 377,
-  "Updated": "2005-10-06T12:19:44.9923255+02:00",
-  "UpdatedAssociateId": 114
+  "Enabled": true,
+  "UniqueIdentifier": "facilis",
+  "Source": "vel",
+  "Registered": "2001-07-08T11:44:33.3223014+02:00",
+  "RegisteredAssociateId": 136,
+  "Updated": "1997-05-12T11:44:33.3223014+02:00",
+  "UpdatedAssociateId": 805
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 463,
-  "Name": "Hagenes LLC",
+  "ScreenChooserId": 291,
+  "Name": "Barrows-Effertz",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "vel",
-  "Source": "est",
-  "Registered": "2014-10-18T12:19:44.9923255+02:00",
-  "RegisteredAssociateId": 469,
-  "Updated": "2006-10-20T12:19:44.9923255+02:00",
-  "UpdatedAssociateId": 520,
+  "Enabled": true,
+  "UniqueIdentifier": "eum",
+  "Source": "voluptate",
+  "Registered": "2010-05-17T11:44:33.3223014+02:00",
+  "RegisteredAssociateId": 246,
+  "Updated": "2016-02-02T11:44:33.3223014+01:00",
+  "UpdatedAssociateId": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 35
     }
   }
 }

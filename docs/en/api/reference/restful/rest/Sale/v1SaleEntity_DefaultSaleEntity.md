@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 11 Aug 2007 12:19:53 G8T
+Last-Modified: Sun, 13 Oct 2019 11:44:42 G10T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Sat, 11 Aug 2007 12:19:53 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sit",
+  "SaleText": "nemo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Sat, 11 Aug 2007 12:19:53 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-10-25T12:19:53.8210702+01:00",
-  "Amount": 22198.122,
-  "SaleId": 250,
-  "Earning": 7574.878,
-  "EarningPercent": 18098.85,
-  "Heading": "rerum",
-  "Number": "1305153",
-  "Probability": 959,
-  "CreatedDate": "1996-11-05T12:19:53.8210702+01:00",
-  "UpdatedDate": "2007-08-11T12:19:53.8210702+02:00",
+  "Saledate": "2002-01-07T11:44:42.2420975+01:00",
+  "Amount": 12498.392,
+  "SaleId": 361,
+  "Earning": 1385.228,
+  "EarningPercent": 10498.9,
+  "Heading": "aliquam",
+  "Number": "1114690",
+  "Probability": 469,
+  "CreatedDate": "2020-01-27T11:44:42.2420975+01:00",
+  "UpdatedDate": "2019-10-13T11:44:42.2420975+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 429,
+  "ActiveLinks": 67,
   "Links": [
     {
-      "EntityName": "Rosenbaum-Sipes",
-      "Id": 667,
-      "Description": "Customizable client-server protocol",
-      "ExtraInfo": "excepturi",
-      "LinkId": 507,
+      "EntityName": "Lockman Inc and Sons",
+      "Id": 376,
+      "Description": "Mandatory systemic hub",
+      "ExtraInfo": "nihil",
+      "LinkId": 699,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 183
         }
       }
     }
   ],
-  "NextDueDate": "2015-02-10T12:19:53.8210702+01:00",
-  "Postit": "facere",
+  "NextDueDate": "2012-12-13T11:44:42.2420975+01:00",
+  "Postit": "recusandae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2023-10-15T12:19:53.8210702+02:00",
+  "ReopenDate": "2017-08-06T11:44:42.2420975+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schinner Inc and Sons",
-      "Comment": "sed",
-      "StakeholderRoleId": 642,
-      "CountryId": 211,
-      "PersonId": 631,
-      "EmailDescription": "flo@moen.co.uk",
-      "EmailId": 330,
-      "EmailAddress": "carrie@haag.info",
-      "PhoneId": 781,
-      "ContactName": "Haley Inc and Sons",
-      "ContactId": 507,
-      "SaleId": 458,
-      "Mrmrs": "ducimus",
-      "Firstname": "Mandy",
-      "MiddleName": "Sanford Inc and Sons",
-      "Lastname": "Pfeffer",
-      "SaleStakeholderId": 234,
-      "Rank": 431,
-      "Phone": "966.762.9644",
+      "StakeholderRoleName": "Lockman-Lindgren",
+      "Comment": "ut",
+      "StakeholderRoleId": 680,
+      "CountryId": 168,
+      "PersonId": 290,
+      "EmailDescription": "jeramy@kutchmitchell.us",
+      "EmailId": 3,
+      "EmailAddress": "reba@torp.uk",
+      "PhoneId": 77,
+      "ContactName": "Hoppe-Cummerata",
+      "ContactId": 368,
+      "SaleId": 778,
+      "Mrmrs": "qui",
+      "Firstname": "Benny",
+      "MiddleName": "Bailey, Wehner and Anderson",
+      "Lastname": "Lakin",
+      "SaleStakeholderId": 651,
+      "Rank": 262,
+      "Phone": "(912)269-2029",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 301
         }
       }
     }
   ],
-  "ActiveErpLinks": 202,
+  "ActiveErpLinks": 583,
   "UserDefinedFields": {
-    "SuperOffice:1": "Augustine Gleichner",
-    "SuperOffice:2": "Mr. Titus Roberts PhD"
+    "SuperOffice:1": "Tristin Schaden",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "velit"
+    "CustomFields1": "aut",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2010-08-06T12:19:53.8210702+02:00",
-  "PublishTo": "2001-03-14T12:19:53.8210702+01:00",
-  "PublishFrom": "2015-05-14T12:19:53.8210702+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-03-19T11:44:42.2420975+01:00",
+  "PublishTo": "1998-06-10T11:44:42.2420975+02:00",
+  "PublishFrom": "2016-11-11T11:44:42.2420975+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 80,
+      "VisibleId": 529,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldType": "System.String",
+          "FieldLength": 686
         }
       }
     },
     {
-      "VisibleId": 80,
+      "VisibleId": 529,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 356
+          "FieldType": "System.String",
+          "FieldLength": 686
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Sat, 11 Aug 2007 12:19:53 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 733
     }
   }
 }

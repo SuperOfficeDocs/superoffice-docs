@@ -25,7 +25,7 @@ Lists all email flow form content
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|formId|int|Id: Id of form| x |
+|formId|int|ID: Form ID| x |
 |formName|string|Name: Form name| x |
 |formDescription|string|Description: Form description| x |
 |formThumbnail| *None* |Thumbnail: Form thumbnail|  |
@@ -58,7 +58,7 @@ Lists all email flow form content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowFormContent?$select=emailFlow/emailFlowId,emailFlow/mediumThumbnail
+GET /api/v1/archive/EmailFlowFormContent?$select=formId,emailFlow/emailFlowId,emailFlow/mediumThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

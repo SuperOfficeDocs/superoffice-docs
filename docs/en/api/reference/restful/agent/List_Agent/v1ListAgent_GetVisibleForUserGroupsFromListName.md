@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "O'Connell-Blanda",
-  "ListItemId": 943
+  "UdListDefinitionName": "Wolff-Lebsack",
+  "ListItemId": 183
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Anderson-Schmidt",
-    "ToolTip": "Illum consequuntur molestias laboriosam magni debitis voluptatum cupiditate.",
+    "Id": 962,
+    "Name": "Jaskolski, Graham and Schmeler",
+    "ToolTip": "Assumenda debitis voluptatem hic modi sit nobis.",
     "Deleted": false,
-    "Rank": 917,
-    "Type": "beatae",
-    "ColorBlock": 429,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2015-05-15T12:19:45.4922171+02:00",
+    "Rank": 214,
+    "Type": "pariatur",
+    "ColorBlock": 256,
+    "IconHint": "quibusdam",
+    "Selected": true,
+    "LastChanged": "2007-04-29T11:44:33.8377919+02:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Howell Inc and Sons",
-        "ToolTip": "Totam enim.",
-        "Deleted": true,
-        "Rank": 135,
-        "Type": "voluptas",
-        "ColorBlock": 436,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "2004-10-17T12:19:45.4922171+02:00",
+        "Id": 463,
+        "Name": "Senger-Quitzon",
+        "ToolTip": "Est quia qui occaecati magni quia.",
+        "Deleted": false,
+        "Rank": 32,
+        "Type": "dolores",
+        "ColorBlock": 135,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "1999-07-25T11:44:33.8377919+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "animi",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Imelda Hodkiewicz",
+        "FullName": "Myles Davis I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldType": "System.String",
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "nemo",
+    "ExtraInfo": "autem",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Dr. Heath Dena Schmitt PhD",
+    "FullName": "Zora Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 633
+        "FieldLength": 313
       }
     }
   }

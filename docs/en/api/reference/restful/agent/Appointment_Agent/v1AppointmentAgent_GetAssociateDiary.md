@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 508,
-  "StartTime": "2001-11-27T12:19:44.1643873+01:00",
-  "EndTime": "2011-11-22T12:19:44.1643873+01:00",
-  "Count": 592
+  "AssociateId": 798,
+  "StartTime": "2011-02-06T11:44:32.4631128+01:00",
+  "EndTime": "2024-02-13T11:44:32.4631128+01:00",
+  "Count": 230
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 775,
-    "StartDate": "2011-02-08T12:19:44.1643873+01:00",
-    "EndDate": "1997-05-15T12:19:44.1643873+02:00",
+    "AppointmentId": 80,
+    "StartDate": "2012-09-01T11:44:32.4631128+02:00",
+    "EndDate": "2010-12-01T11:44:32.4631128+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Mrs. Fabiola Clark Raynor II",
-    "ContactName": "Brakus, Wiegand and Corkery",
-    "Description": "Multi-lateral tangible benchmark",
-    "PersonFullName": "Mr. Suzanne Geo Anderson",
-    "PersonId": 706,
-    "ContactId": 477,
-    "ProjectId": 631,
-    "ProjectName": "Swift, Reinger and Hagenes",
+    "Task": "eligendi",
+    "AssociateFullName": "Mr. Viola Stracke III",
+    "ContactName": "Baumbach, Dooley and Lubowitz",
+    "Description": "Front-line motivating synergy",
+    "PersonFullName": "Mrs. Hailey Ocie Auer Sr.",
+    "PersonId": 990,
+    "ContactId": 845,
+    "ProjectId": 286,
+    "ProjectName": "Reilly, Borer and Weimann",
     "IsPublished": false,
-    "AssociateId": 750,
-    "ColorIndex": 166,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 228,
+    "ColorIndex": 1002,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 161,
-    "PriorityName": "Skiles Group",
+    "PriorityId": 453,
+    "PriorityName": "Becker-Cronin",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-05-05T12:19:44.1800107+02:00",
+    "ActiveDate": "2008-08-14T11:44:32.4631128+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-10-05T12:19:44.1800107+02:00",
-    "RecurringEndDate": "2003-03-05T12:19:44.1800107+01:00",
-    "MotherId": 815,
-    "AssignedBy": 584,
-    "AssignedByFullName": "Raegan Philip Harvey MD",
+    "RecurringStartDate": "2017-11-23T11:44:32.4631128+01:00",
+    "RecurringEndDate": "2021-01-31T11:44:32.4631128+01:00",
+    "MotherId": 423,
+    "AssignedBy": 74,
+    "AssignedByFullName": "Ms. Bryce Labadie DVM",
     "RejectReason": "",
-    "Location": "laborum",
-    "AlarmLeadTime": "aperiam",
-    "SaleId": 433,
-    "SaleName": "Schmidt, Connelly and Schaden",
-    "AssociateName": "Morar, Pollich and Romaguera",
-    "CreatedDate": "1999-08-21T12:19:44.1800107+02:00",
-    "CreatedBy": "illum",
-    "CreatedByFullName": "Fiona Alexa Parisian PhD",
-    "CreatedByAssociateId": 468,
+    "Location": "iusto",
+    "AlarmLeadTime": "enim",
+    "SaleId": 405,
+    "SaleName": "Kovacek Inc and Sons",
+    "AssociateName": "West Inc and Sons",
+    "CreatedDate": "2019-10-21T11:44:32.4631128+02:00",
+    "CreatedBy": "nulla",
+    "CreatedByFullName": "Raven Wisoky",
+    "CreatedByAssociateId": 53,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 395,
-    "Title": "consectetur",
-    "Agenda": "molestiae",
-    "InternalNotes": "fuga",
+    "PreferredTZLocation": 554,
+    "Title": "nemo",
+    "Agenda": "unde",
+    "InternalNotes": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldType": "System.Int32",
+        "FieldLength": 385
       }
     }
   }

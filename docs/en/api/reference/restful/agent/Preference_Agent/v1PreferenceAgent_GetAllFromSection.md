@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "modi"
+  "Section": "quaerat"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 298,
-    "Section": "dolores",
-    "Key": "veritatis",
-    "Name": "Mante, Von and Gutkowski",
+    "PrefDescId": 381,
+    "Section": "et",
+    "Key": "reiciendis",
+    "Name": "Fisher, Yundt and Hoeger",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Implemented bandwidth-monitored help-desk",
+    "Description": "Optimized exuding throughput",
     "IsBuiltin": false,
-    "TableName": "Schulist LLC",
-    "UserDefinedListId": 287,
-    "Rank": 647,
-    "SubGroup": "pariatur",
-    "MinLevel": 53,
-    "MaxValue": 376,
-    "MinValue": 236,
-    "RequiredLicense": "accusantium",
+    "TableName": "Kulas LLC",
+    "UserDefinedListId": 79,
+    "Rank": 858,
+    "SubGroup": "est",
+    "MinLevel": 31,
+    "MaxValue": 77,
+    "MinValue": 522,
+    "RequiredLicense": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 295
       }
     }
   }

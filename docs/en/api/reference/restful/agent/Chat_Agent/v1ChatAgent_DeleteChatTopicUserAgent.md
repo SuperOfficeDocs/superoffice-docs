@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 647,
-  "Username": "aut"
+  "ChatTopicId": 993,
+  "Username": "qui"
 }
 ```
 

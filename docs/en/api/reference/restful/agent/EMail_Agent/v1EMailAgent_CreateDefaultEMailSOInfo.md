@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 665,
-  "AppointmentId": 328,
-  "ProjectId": 949,
-  "SaleId": 157,
+  "DocumentId": 302,
+  "AppointmentId": 872,
+  "ProjectId": 691,
+  "SaleId": 298,
   "Archived": false,
-  "ArchivedAt": "2002-08-30T12:19:45.2735196+02:00",
-  "ArchivedBy": 736,
-  "ArchivedDisplayName": "Mraz-Dare",
+  "ArchivedAt": "2000-10-01T11:44:33.6190814+02:00",
+  "ArchivedBy": 692,
+  "ArchivedDisplayName": "Luettgen, Kovacek and Considine",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 429
     }
   }
 }

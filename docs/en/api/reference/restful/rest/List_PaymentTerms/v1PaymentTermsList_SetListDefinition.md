@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Ryan, Muller and Thiel",
-  "Tooltip": "cumque",
-  "Deleted": true,
-  "Rank": 998,
+  "Id": 478,
+  "Name": "Brown-Rolfson",
+  "Tooltip": "illum",
+  "Deleted": false,
+  "Rank": 626,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
+  "ListType": "expedita",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Pouros-Schaefer",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "Rank": 702,
-  "IsCustomList": false,
+  "Id": 296,
+  "Name": "Swift Inc and Sons",
+  "Tooltip": "fugit",
+  "Deleted": true,
+  "Rank": 645,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   }
 }

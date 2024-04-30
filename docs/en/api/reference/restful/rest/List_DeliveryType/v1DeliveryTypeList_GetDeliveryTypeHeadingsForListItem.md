@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Hansen-Hirthe",
-    "ToolTip": "Magnam quisquam nemo.",
+    "Id": 747,
+    "Name": "Lesch Inc and Sons",
+    "ToolTip": "Nam quas.",
     "Deleted": false,
-    "Rank": 142,
-    "Type": "ut",
-    "ColorBlock": 8,
-    "IconHint": "tenetur",
+    "Rank": 865,
+    "Type": "nulla",
+    "ColorBlock": 919,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2007-04-07T12:19:54.4302944+02:00",
+    "LastChanged": "2000-03-06T11:44:43.0700205+01:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Hartmann-Christiansen",
-        "ToolTip": "Sint quisquam minus.",
-        "Deleted": true,
-        "Rank": 517,
-        "Type": "excepturi",
-        "ColorBlock": 197,
-        "IconHint": "cum",
+        "Id": 199,
+        "Name": "Lubowitz LLC",
+        "ToolTip": "Quos quae vitae eius nemo.",
+        "Deleted": false,
+        "Rank": 969,
+        "Type": "adipisci",
+        "ColorBlock": 34,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2013-11-29T12:19:54.4302944+01:00",
+        "LastChanged": "2013-01-22T11:44:43.0700205+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Lamont Orpha Rice PhD",
+        "ExtraInfo": "enim",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Nash Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "quod",
+    "ExtraInfo": "sunt",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Mathilde Blanda",
+    "FullName": "Ludwig Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldType": "System.String",
+        "FieldLength": 662
       }
     }
   }

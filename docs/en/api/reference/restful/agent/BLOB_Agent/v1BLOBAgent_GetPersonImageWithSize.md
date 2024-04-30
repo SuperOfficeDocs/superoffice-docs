@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 159,
-  "Width": 211,
-  "Height": 466
+  "PersonId": 756,
+  "Width": 597,
+  "Height": 827
 }
 ```
 

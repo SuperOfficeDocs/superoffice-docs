@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 669,
-  "Name": "Hodkiewicz, Frami and Berge",
-  "Tooltip": "veritatis",
-  "Rank": 342,
-  "Key": "id",
-  "Deleted": false,
+  "LegalBaseId": 507,
+  "Name": "Gutmann LLC",
+  "Tooltip": "ullam",
+  "Rank": 563,
+  "Key": "dolorem",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 246
     }
   }
 }

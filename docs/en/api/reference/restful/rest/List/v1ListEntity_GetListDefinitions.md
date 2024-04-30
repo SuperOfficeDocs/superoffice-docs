@@ -74,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Shanahan, Schmidt and Bergstrom",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 357,
-    "IsCustomList": true,
-    "IsMDOList": false,
+    "Id": 364,
+    "Name": "Little-Bergstrom",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 467,
+    "IsCustomList": false,
+    "IsMDOList": true,
     "UseGroupsAndHeadings": false,
-    "ListType": "aut",
+    "ListType": "culpa",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldLength": 497
       }
     }
   }

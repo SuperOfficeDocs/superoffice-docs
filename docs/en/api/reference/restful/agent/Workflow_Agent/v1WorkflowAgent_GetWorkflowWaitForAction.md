@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=54
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=992
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 132,
-  "WorkflowStepId": 856,
-  "WorkflowId": 235,
-  "Rank": 768,
+  "WorkflowWaitForActionId": 127,
+  "WorkflowStepId": 104,
+  "WorkflowId": 187,
+  "Rank": 45,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Brown LLC",
-      "Description": "Adaptive grid-enabled function",
-      "Rank": 654,
+      "Name": "Schimmel, Leannon and Beatty",
+      "Description": "Visionary directional workforce",
+      "Rank": 656,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Brown LLC",
-      "Description": "Adaptive grid-enabled function",
-      "Rank": 654,
+      "Name": "Schimmel, Leannon and Beatty",
+      "Description": "Visionary directional workforce",
+      "Rank": 656,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   }
 }

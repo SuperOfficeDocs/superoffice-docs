@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 273,
-  "SourcePersonId": 922,
-  "DestinationContactId": 660,
-  "DestinationPersonId": 809,
-  "RelationId": 506,
-  "Comment": "et",
-  "RelationDefinitionId": 118,
-  "Reversed": 222,
-  "UpdatedDate": "2009-12-24T12:19:46.117062+01:00",
-  "CreatedDate": "2021-06-14T12:19:46.117062+02:00",
+  "SourceContactId": 528,
+  "SourcePersonId": 618,
+  "DestinationContactId": 455,
+  "DestinationPersonId": 378,
+  "RelationId": 676,
+  "Comment": "est",
+  "RelationDefinitionId": 929,
+  "Reversed": 520,
+  "UpdatedDate": "1998-03-02T11:44:34.3063794+01:00",
+  "CreatedDate": "2011-09-26T11:44:34.3063794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Paucek, Hoeger and Wisozk",
-  "SourcePersonName": "Kris, Tillman and Wiza",
-  "DestinationContactName": "Torphy Inc and Sons",
-  "DestinationPersonName": "Gorczany-Champlin",
-  "ActiveText": "quos",
-  "PassiveText": "molestias",
+  "SourceContactName": "Moore LLC",
+  "SourcePersonName": "Reichert LLC",
+  "DestinationContactName": "Wisoky, Nolan and Hettinger",
+  "DestinationPersonName": "Gibson LLC",
+  "ActiveText": "maxime",
+  "PassiveText": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 705
     }
   }
 }

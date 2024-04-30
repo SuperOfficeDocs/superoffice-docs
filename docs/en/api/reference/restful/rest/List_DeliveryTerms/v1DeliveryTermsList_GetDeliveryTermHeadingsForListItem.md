@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Bauch-Hagenes",
-    "ToolTip": "Aut facilis natus quod qui ullam cumque incidunt.",
+    "Id": 14,
+    "Name": "Harris-Zulauf",
+    "ToolTip": "Sunt non.",
     "Deleted": false,
-    "Rank": 45,
-    "Type": "numquam",
-    "ColorBlock": 354,
-    "IconHint": "quasi",
+    "Rank": 496,
+    "Type": "quisquam",
+    "ColorBlock": 929,
+    "IconHint": "perferendis",
     "Selected": true,
-    "LastChanged": "1998-08-13T12:19:54.4146752+02:00",
+    "LastChanged": "1997-12-23T11:44:43.054404+01:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Rath, Towne and Boyer",
-        "ToolTip": "Dolorem velit aut velit dignissimos sunt saepe.",
+        "Id": 435,
+        "Name": "Schaden Group",
+        "ToolTip": "Est repellendus quia excepturi maiores.",
         "Deleted": false,
-        "Rank": 775,
-        "Type": "illum",
-        "ColorBlock": 127,
-        "IconHint": "ratione",
+        "Rank": 422,
+        "Type": "quisquam",
+        "ColorBlock": 122,
+        "IconHint": "repellendus",
         "Selected": true,
-        "LastChanged": "2018-07-09T12:19:54.4146752+02:00",
+        "LastChanged": "1998-03-02T11:44:43.054404+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "quasi",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Chris Bogisich",
+        "FullName": "Dr. Kane Schimmel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 177
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "dolores",
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Macie Trantow",
+    "FullName": "Ellis Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 727
       }
     }
   }

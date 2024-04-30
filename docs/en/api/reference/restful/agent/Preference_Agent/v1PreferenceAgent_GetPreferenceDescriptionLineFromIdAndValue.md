@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 547,
-  "PrefValue": "possimus"
+  "PrefDescId": 467,
+  "PrefValue": "tenetur"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 323,
-  "PrefDescId": 522,
-  "PrefValue": "odio",
-  "PrefShowValue": "et",
-  "Description": "Persistent heuristic framework",
-  "IsBuiltin": true,
+  "PrefDescLineId": 982,
+  "PrefDescId": 13,
+  "PrefValue": "ut",
+  "PrefShowValue": "eveniet",
+  "Description": "Innovative cohesive projection",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 803
     }
   }
 }

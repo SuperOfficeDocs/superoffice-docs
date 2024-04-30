@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=355
+POST /api/v1/Agents/Project/GetProject?projectId=242
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 700,
-  "Name": "Johns, Bashirian and Hirthe",
-  "Description": "Re-contextualized needs-based hierarchy",
+  "ProjectId": 692,
+  "Name": "Hickle, Schmidt and Bartoletti",
+  "Description": "Re-engineered next generation model",
   "URL": "http://www.example.com/",
-  "Type": "quo",
-  "AssociateId": 302,
-  "AssociateFullName": "Miss Norberto Cara Ferry",
-  "TypeId": 472,
-  "Updated": "2013-02-03T12:19:46.0077209+01:00",
-  "StatusId": 713,
-  "Status": "est",
-  "TextId": 153,
-  "PublishTo": "2000-02-28T12:19:46.0077209+01:00",
-  "PublishFrom": "2002-05-19T12:19:46.0077209+02:00",
+  "Type": "autem",
+  "AssociateId": 162,
+  "AssociateFullName": "Lucienne Mann",
+  "TypeId": 330,
+  "Updated": "2016-01-10T11:44:34.181461+01:00",
+  "StatusId": 540,
+  "Status": "consequatur",
+  "TextId": 43,
+  "PublishTo": "2006-01-26T11:44:34.181461+01:00",
+  "PublishFrom": "2000-05-22T11:44:34.181461+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1286803",
-  "ActiveErpLinks": 252,
+  "ProjectNumber": "1187262",
+  "ActiveErpLinks": 767,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldLength": 473
     }
   }
 }

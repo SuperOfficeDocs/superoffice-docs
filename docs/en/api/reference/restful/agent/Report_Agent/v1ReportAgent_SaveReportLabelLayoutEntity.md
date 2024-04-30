@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 104,
-  "Name": "Feest, Greenholt and Bergnaum",
-  "Description": "Mandatory eco-centric functionalities",
+  "ReportLabelLayoutId": 802,
+  "Name": "Zemlak LLC",
+  "Description": "Profound well-modulated collaboration",
   "Orientation": "Landscape",
-  "PaperWidth": 582,
-  "PaperHeight": 55,
-  "LeftMargin": 527,
-  "RightMargin": 40,
-  "TopMargin": 585,
-  "BottomMargin": 385,
-  "CountColumns": 535,
-  "CountRows": 563
+  "PaperWidth": 341,
+  "PaperHeight": 241,
+  "LeftMargin": 138,
+  "RightMargin": 938,
+  "TopMargin": 951,
+  "BottomMargin": 334,
+  "CountColumns": 352,
+  "CountRows": 367
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 557,
-  "Name": "Harber Group",
-  "Description": "Multi-tiered full-range standardization",
+  "ReportLabelLayoutId": 940,
+  "Name": "Kunze, Flatley and Jaskolski",
+  "Description": "Self-enabling asynchronous leverage",
   "Orientation": "Landscape",
-  "PaperWidth": 371,
-  "PaperHeight": 364,
-  "LeftMargin": 841,
-  "RightMargin": 49,
-  "TopMargin": 40,
-  "BottomMargin": 193,
-  "CountColumns": 35,
-  "CountRows": 519,
+  "PaperWidth": 211,
+  "PaperHeight": 561,
+  "LeftMargin": 181,
+  "RightMargin": 83,
+  "TopMargin": 300,
+  "BottomMargin": 87,
+  "CountColumns": 56,
+  "CountRows": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldLength": 318
     }
   }
 }

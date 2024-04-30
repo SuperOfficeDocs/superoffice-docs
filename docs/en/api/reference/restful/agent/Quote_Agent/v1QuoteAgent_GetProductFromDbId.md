@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 670
+  "ProductId": 809
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 515,
-  "ERPProductKey": "blanditiis",
-  "ERPPriceListKey": "itaque",
-  "Name": "Zemlak-Kozey",
-  "Description": "Organic global utilisation",
-  "Code": "facere",
-  "PriceUnit": "mollitia",
-  "QuantityUnit": "quidem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sequi",
-  "DefaultSubscriptionQuantity": 29725.989999999998,
-  "ItemNumber": "1654955",
+  "ProductId": 355,
+  "ERPProductKey": "consectetur",
+  "ERPPriceListKey": "incidunt",
+  "Name": "Kub-Murphy",
+  "Description": "Organic object-oriented support",
+  "Code": "et",
+  "PriceUnit": "asperiores",
+  "QuantityUnit": "occaecati",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 24363.716,
+  "ItemNumber": "876548",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "modi",
-  "ProductTypeKey": "officiis",
-  "VAT": 4061.6639999999998,
-  "VATInfo": "ad",
-  "UnitCost": 25827.293999999998,
-  "UnitMinimumPrice": 24909.032,
-  "UnitListPrice": 27767.239999999998,
+  "ProductFamilyKey": "sapiente",
+  "ProductTypeKey": "expedita",
+  "VAT": 13538.88,
+  "VATInfo": "in",
+  "UnitCost": 27253.264,
+  "UnitMinimumPrice": 28748.182,
+  "UnitListPrice": 31277.32,
   "InAssortment": false,
-  "Supplier": "rerum",
-  "SupplierCode": "non",
-  "Rights": "doloremque",
-  "Rule": "sint",
+  "Supplier": "ex",
+  "SupplierCode": "delectus",
+  "Rights": "rem",
+  "Rule": "libero",
   "ExtraInfo": [
     {
-      "Name": "Hagenes-Wiegand",
-      "Value": "hic",
+      "Name": "O'Keefe, King and Watsica",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 196
+          "FieldLength": 487
         }
       }
     },
     {
-      "Name": "Hagenes-Wiegand",
-      "Value": "hic",
+      "Name": "O'Keefe, King and Watsica",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 196
+          "FieldLength": 487
         }
       }
     }
   ],
-  "RawExtraInfo": "optio",
-  "ExtraField1": "est",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "omnis",
-  "ExtraField4": "exercitationem",
-  "ExtraField5": "esse",
-  "InStock": 7336.6939999999995,
+  "RawExtraInfo": "libero",
+  "ExtraField1": "fugit",
+  "ExtraField2": "et",
+  "ExtraField3": "dolorem",
+  "ExtraField4": "quod",
+  "ExtraField5": "ea",
+  "InStock": 10050.738,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldLength": 641
     }
   }
 }

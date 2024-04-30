@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 57,
-  "UserInput": "ut",
-  "PriceListKey": "vel"
+  "QuoteAlternativeId": 503,
+  "UserInput": "enim",
+  "PriceListKey": "doloremque"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 118,
-    "ERPProductKey": "cupiditate",
-    "ERPPriceListKey": "rerum",
-    "Name": "Crist, Hills and Bergstrom",
-    "Description": "Streamlined disintermediate frame",
-    "Code": "est",
-    "PriceUnit": "accusantium",
-    "QuantityUnit": "dicta",
+    "ProductId": 386,
+    "ERPProductKey": "aut",
+    "ERPPriceListKey": "atque",
+    "Name": "Schaden-Stroman",
+    "Description": "Sharable methodical challenge",
+    "Code": "sit",
+    "PriceUnit": "natus",
+    "QuantityUnit": "vel",
     "IsSubscription": true,
-    "SubscriptionUnit": "odio",
-    "DefaultSubscriptionQuantity": 17754.11,
-    "ItemNumber": "1468485",
+    "SubscriptionUnit": "ea",
+    "DefaultSubscriptionQuantity": 8618.5,
+    "ItemNumber": "271427",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "quasi",
-    "ProductTypeKey": "ipsum",
-    "VAT": 25604.78,
-    "VATInfo": "dolor",
-    "UnitCost": 15469.423999999999,
-    "UnitMinimumPrice": 20145.352,
-    "UnitListPrice": 30280.708,
+    "ProductFamilyKey": "soluta",
+    "ProductTypeKey": "animi",
+    "VAT": 12934.018,
+    "VATInfo": "deleniti",
+    "UnitCost": 18753.856,
+    "UnitMinimumPrice": 13325.768,
+    "UnitListPrice": 10455.024,
     "InAssortment": false,
-    "Supplier": "temporibus",
-    "SupplierCode": "blanditiis",
-    "Rights": "aperiam",
-    "Rule": "aut",
+    "Supplier": "odio",
+    "SupplierCode": "aliquam",
+    "Rights": "aut",
+    "Rule": "voluptatem",
     "ExtraInfo": [
       {
-        "Name": "Gottlieb Inc and Sons",
-        "Value": "rerum",
+        "Name": "Feil, Gaylord and Dickens",
+        "Value": "consequatur",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 527
+            "FieldType": "System.Int32",
+            "FieldLength": 107
           }
         }
       },
       {
-        "Name": "Gottlieb Inc and Sons",
-        "Value": "rerum",
+        "Name": "Feil, Gaylord and Dickens",
+        "Value": "consequatur",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 527
+            "FieldType": "System.Int32",
+            "FieldLength": 107
           }
         }
       }
     ],
-    "RawExtraInfo": "rem",
-    "ExtraField1": "quod",
-    "ExtraField2": "aut",
-    "ExtraField3": "eveniet",
-    "ExtraField4": "quos",
-    "ExtraField5": "sed",
-    "InStock": 27159.244,
+    "RawExtraInfo": "id",
+    "ExtraField1": "enim",
+    "ExtraField2": "itaque",
+    "ExtraField3": "consectetur",
+    "ExtraField4": "architecto",
+    "ExtraField5": "ex",
+    "InStock": 29177.539999999997,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldType": "System.String",
+        "FieldLength": 590
       }
     }
   }

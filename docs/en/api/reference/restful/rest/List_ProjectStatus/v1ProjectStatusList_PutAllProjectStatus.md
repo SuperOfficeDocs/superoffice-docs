@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "O'Reilly-Kessler",
-    "Tooltip": "consequatur",
+    "Id": 300,
+    "Name": "Halvorson LLC",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 471,
-    "Rank": 301
+    "UdListDefinitionId": 617,
+    "Rank": 154
   },
   {
-    "Id": 536,
-    "Name": "O'Reilly-Kessler",
-    "Tooltip": "consequatur",
+    "Id": 300,
+    "Name": "Halvorson LLC",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 471,
-    "Rank": 301
+    "UdListDefinitionId": 617,
+    "Rank": 154
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Franecki-Gislason",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 521,
-    "Rank": 385,
+    "Id": 603,
+    "Name": "Simonis-Zboncak",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "UdListDefinitionId": 64,
+    "Rank": 863,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldType": "System.String",
+        "FieldLength": 520
       }
     }
   }

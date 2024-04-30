@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=407
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=881
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 303,
-  "BlobSize": 717,
-  "Description": "Up-sized logistical utilisation",
-  "ExtraInfo": "occaecati",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "adipisci",
-  "OriginalSize": 102,
-  "CreatedDate": "2021-02-09T12:19:44.5238763+01:00",
-  "UpdatedDate": "2005-01-13T12:19:44.5238763+01:00",
+  "BlobId": 516,
+  "BlobSize": 837,
+  "Description": "Centralized context-sensitive interface",
+  "ExtraInfo": "odio",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "qui",
+  "OriginalSize": 658,
+  "CreatedDate": "2023-12-08T11:44:32.8380188+01:00",
+  "UpdatedDate": "2004-06-21T11:44:32.8380188+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dignissimos",
+  "ConceptualType": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 682
     }
   }
 }

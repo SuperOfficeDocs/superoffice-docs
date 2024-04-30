@@ -103,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 702,
-  "Name": "Swaniawski, Nitzsche and Miller",
+  "ScreenChooserId": 688,
+  "Name": "Feest-Hayes",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "architecto",
-  "Source": "optio",
-  "Registered": "2006-08-22T12:19:54.0866374+02:00",
-  "RegisteredAssociateId": 426,
-  "Updated": "2013-04-25T12:19:54.0866374+02:00",
-  "UpdatedAssociateId": 9
+  "UniqueIdentifier": "enim",
+  "Source": "deserunt",
+  "Registered": "2022-12-02T11:44:42.6951171+01:00",
+  "RegisteredAssociateId": 109,
+  "Updated": "2015-05-26T11:44:42.6951171+02:00",
+  "UpdatedAssociateId": 596
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 859,
-  "Name": "Feest, VonRueden and Nader",
+  "ScreenChooserId": 360,
+  "Name": "Zulauf, Hammes and Volkman",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sapiente",
-  "Source": "ea",
-  "Registered": "1999-01-14T12:19:54.0866374+01:00",
-  "RegisteredAssociateId": 114,
-  "Updated": "2014-03-07T12:19:54.0866374+01:00",
-  "UpdatedAssociateId": 166,
+  "Enabled": false,
+  "UniqueIdentifier": "facilis",
+  "Source": "omnis",
+  "Registered": "1999-12-29T11:44:42.6951171+01:00",
+  "RegisteredAssociateId": 990,
+  "Updated": "2020-01-14T11:44:42.6951171+01:00",
+  "UpdatedAssociateId": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 622
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

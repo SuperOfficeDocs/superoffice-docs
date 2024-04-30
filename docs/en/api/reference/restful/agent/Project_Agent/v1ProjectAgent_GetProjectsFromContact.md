@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 38
+  "ContactId": 850
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 104,
-    "Name": "Reynolds-Rippin",
-    "Description": "Face to face executive product",
+    "ProjectId": 95,
+    "Name": "Prohaska, Parisian and Yost",
+    "Description": "Networked systematic strategy",
     "URL": "http://www.example.com/",
-    "Type": "atque",
-    "AssociateId": 285,
-    "AssociateFullName": "Leann Fatima Quitzon DDS",
-    "TypeId": 247,
-    "Updated": "2007-12-21T12:19:46.038959+01:00",
-    "StatusId": 510,
-    "Status": "et",
-    "TextId": 840,
-    "PublishTo": "2014-10-17T12:19:46.038959+02:00",
-    "PublishFrom": "2011-11-20T12:19:46.038959+01:00",
+    "Type": "quasi",
+    "AssociateId": 526,
+    "AssociateFullName": "Dr. Darrin Magdalena Eichmann IV",
+    "TypeId": 595,
+    "Updated": "2016-10-10T11:44:34.2126949+02:00",
+    "StatusId": 959,
+    "Status": "sapiente",
+    "TextId": 411,
+    "PublishTo": "2010-05-08T11:44:34.2126949+02:00",
+    "PublishFrom": "1998-05-11T11:44:34.2126949+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1051740",
-    "ActiveErpLinks": 985,
+    "ProjectNumber": "939591",
+    "ActiveErpLinks": 90,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldLength": 225
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "nihil",
-      "HTMLBody": "exercitationem",
+      "Subject": "quia",
+      "HTMLBody": "eos",
       "From": null,
-      "Sent": "2014-03-17T12:19:45.2266504+01:00",
-      "Size": 759,
+      "Sent": "2004-07-25T11:44:33.5722192+02:00",
+      "Size": 644,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "dolorem",
-      "PlainBody": "suscipit",
-      "IsSent": false,
+      "MessageID": "voluptatibus",
+      "PlainBody": "ex",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 682,
+      "ServerId": 313,
       "Attachments": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Rowe-Kub",
-      "EmailItemId": 737,
-      "AccountId": 959,
-      "ReceivedAt": "2009-09-24T12:19:45.2266504+02:00",
+      "FolderName": "Champlin-Botsford",
+      "EmailItemId": 235,
+      "AccountId": 303,
+      "ReceivedAt": "2000-08-16T11:44:33.5722192+02:00",
       "InReplyTo": null,
-      "RepliedAt": "1996-11-16T12:19:45.2266504+01:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2006-08-11T11:44:33.5722192+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 252,
-        "ContactName": "Stokes, Treutel and Breitenberg",
-        "PersonId": 664,
-        "PersonName": "Krajcik-Schaden",
-        "AssociateId": 259,
-        "Address": "magni",
-        "EmailId": 906,
+        "ContactId": 614,
+        "ContactName": "Gutmann Group",
+        "PersonId": 641,
+        "PersonName": "Barton-Conn",
+        "AssociateId": 153,
+        "Address": "sequi",
+        "EmailId": 81,
         "DuplicatePersonIds": [
-          158,
-          492
+          358,
+          495
         ],
-        "Name": "Gottlieb-Conroy",
+        "Name": "DuBuque Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 161
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 275,
-        "ContactName": "Nitzsche-Shanahan",
-        "PersonId": 546,
-        "PersonName": "Kuhic, Kuhic and Bruen",
-        "AssociateId": 936,
-        "Address": "sunt",
-        "EmailId": 702,
+        "ContactId": 183,
+        "ContactName": "Schuster Inc and Sons",
+        "PersonId": 30,
+        "PersonName": "Kulas Inc and Sons",
+        "AssociateId": 774,
+        "Address": "rerum",
+        "EmailId": 959,
         "DuplicatePersonIds": [
-          360,
-          490
+          802,
+          306
         ],
-        "Name": "Kovacek Inc and Sons",
+        "Name": "Rau Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 496
+            "FieldType": "System.Int32",
+            "FieldLength": 853
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 375,
-        "ContactName": "Jacobson-Hauck",
-        "PersonId": 467,
-        "PersonName": "Breitenberg LLC",
-        "AssociateId": 169,
-        "Address": "quo",
-        "EmailId": 937,
+        "ContactId": 531,
+        "ContactName": "Kilback, D'Amore and Sawayn",
+        "PersonId": 105,
+        "PersonName": "Rutherford Inc and Sons",
+        "AssociateId": 34,
+        "Address": "animi",
+        "EmailId": 963,
         "DuplicatePersonIds": [
-          636,
-          781
+          331,
+          836
         ],
-        "Name": "Gerhold, Nicolas and Buckridge",
+        "Name": "O'Keefe-Stroman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 251
+            "FieldType": "System.String",
+            "FieldLength": 472
           }
         }
       }
     ],
-    "Subject": "alias",
-    "HTMLBody": "voluptas",
+    "Subject": "aperiam",
+    "HTMLBody": "est",
     "From": null,
-    "Sent": "2001-09-30T12:19:45.2266504+02:00",
-    "Size": 422,
+    "Sent": "2015-02-28T11:44:33.5722192+01:00",
+    "Size": 492,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "veritatis",
-    "PlainBody": "voluptatum",
-    "IsSent": false,
+    "MessageID": "rerum",
+    "PlainBody": "dolores",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 589,
+    "ServerId": 980,
     "Attachments": [
       {
-        "Description": "Customer-focused assymetric functionalities",
-        "Filename": "ipsum",
-        "Size": 714,
-        "Type": "excepturi",
-        "Encoding": "voluptate",
-        "Id": "ab",
-        "Disposition": "et",
+        "Description": "Multi-tiered exuding paradigm",
+        "Filename": "non",
+        "Size": 959,
+        "Type": "et",
+        "Encoding": "incidunt",
+        "Id": "ut",
+        "Disposition": "rerum",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,49 +260,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldLength": 784
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Wiza LLC",
+        "Name": "Boyer, Wiegand and Doyle",
         "Values": [
-          "sit",
-          "dolor"
+          "omnis",
+          "eum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 322
+            "FieldType": "System.Int32",
+            "FieldLength": 240
           }
         }
       },
       {
-        "Name": "Wiza LLC",
+        "Name": "Boyer, Wiegand and Doyle",
         "Values": [
-          "sit",
-          "dolor"
+          "omnis",
+          "eum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 322
+            "FieldType": "System.Int32",
+            "FieldLength": 240
           }
         }
       }
     ],
-    "FolderName": "Rippin, Schowalter and Wolf",
-    "EmailItemId": 829,
-    "AccountId": 954,
-    "ReceivedAt": "2007-11-22T12:19:45.2266504+01:00",
+    "FolderName": "Pacocha-Rippin",
+    "EmailItemId": 637,
+    "AccountId": 622,
+    "ReceivedAt": "2016-08-20T11:44:33.5722192+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2013-11-21T12:19:45.2266504+01:00",
+    "RepliedAt": "2003-08-24T11:44:33.5722192+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 691
       }
     }
   }

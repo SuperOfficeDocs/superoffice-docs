@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 781,
-  "BlobSize": 213,
-  "Description": "Decentralized assymetric data-warehouse",
-  "ExtraInfo": "amet",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "reiciendis",
-  "OriginalSize": 648,
-  "CreatedDate": "2006-11-13T12:19:53.7273414+01:00",
-  "UpdatedDate": "2005-06-02T12:19:53.7273414+02:00",
+  "BlobId": 311,
+  "BlobSize": 599,
+  "Description": "Realigned logistical solution",
+  "ExtraInfo": "ex",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "dolore",
+  "OriginalSize": 560,
+  "CreatedDate": "2000-05-29T11:44:42.1326915+02:00",
+  "UpdatedDate": "2008-01-31T11:44:42.1326915+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "est"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 793,
-  "BlobSize": 928,
-  "Description": "Fully-configurable mission-critical conglomeration",
-  "ExtraInfo": "commodi",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quod",
-  "OriginalSize": 769,
-  "CreatedDate": "2003-12-17T12:19:53.7273414+01:00",
-  "UpdatedDate": "2016-12-09T12:19:53.7273414+01:00",
+  "BlobId": 173,
+  "BlobSize": 243,
+  "Description": "Right-sized 3rd generation groupware",
+  "ExtraInfo": "doloribus",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "vel",
+  "OriginalSize": 587,
+  "CreatedDate": "1998-01-13T11:44:42.1326915+01:00",
+  "UpdatedDate": "1997-05-21T11:44:42.1326915+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldLength": 621
     }
   }
 }

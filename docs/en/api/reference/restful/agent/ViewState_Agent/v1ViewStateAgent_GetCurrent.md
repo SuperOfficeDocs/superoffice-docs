@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "O'Hara LLC"
+  "HistoryName": "Morar, Goldner and Pagac"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 157,
-  "Id": 628,
-  "HistoryName": "Harber, Blick and Weissnat",
-  "HistoryId": 450,
-  "AssociateId": 799,
-  "Name": "Pfannerstill-Schneider",
-  "ItemInfo": "odio",
+  "Rank": 338,
+  "Id": 316,
+  "HistoryName": "Kautzer, Mills and Schultz",
+  "HistoryId": 694,
+  "AssociateId": 876,
+  "Name": "Macejkovic-Nienow",
+  "ItemInfo": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

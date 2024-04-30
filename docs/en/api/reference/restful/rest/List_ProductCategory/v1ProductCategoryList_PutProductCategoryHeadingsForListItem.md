@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Lubowitz Group",
-    "ToolTip": "Dolorum ducimus soluta rerum nam facere.",
+    "Id": 882,
+    "Name": "Spinka, Bergnaum and Hudson",
+    "ToolTip": "Corrupti id nobis unde consequatur est.",
     "Deleted": false,
-    "Rank": 470,
-    "Type": "dolores",
-    "ColorBlock": 221,
-    "IconHint": "soluta",
+    "Rank": 435,
+    "Type": "sunt",
+    "ColorBlock": 17,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2003-09-03T12:19:54.6958722+02:00",
+    "LastChanged": "2018-02-20T11:44:43.1949983+01:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Pagac, Ziemann and Flatley",
-        "ToolTip": "Reiciendis repellendus soluta et nemo et pariatur quod.",
-        "Deleted": false,
-        "Rank": 563,
-        "Type": "corporis",
-        "ColorBlock": 394,
-        "IconHint": "unde",
+        "Id": 297,
+        "Name": "Hahn LLC",
+        "ToolTip": "Nemo voluptas.",
+        "Deleted": true,
+        "Rank": 230,
+        "Type": "quasi",
+        "ColorBlock": 427,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2009-11-07T12:19:54.6958722+01:00",
+        "LastChanged": "2001-06-19T11:44:43.1949983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "possimus",
+        "ExtraInfo": "hic",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Prof. Janick Hagenes II"
+        "FullName": "Glenna Wyman"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "quos",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Bonnie Violette Will IV"
+    "FullName": "Hillary Gerlach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Welch LLC",
-    "ToolTip": "Ut quis fuga id.",
+    "Id": 1000,
+    "Name": "Padberg Group",
+    "ToolTip": "Soluta quibusdam provident earum nihil.",
     "Deleted": false,
-    "Rank": 521,
-    "Type": "dignissimos",
-    "ColorBlock": 699,
-    "IconHint": "qui",
+    "Rank": 418,
+    "Type": "quas",
+    "ColorBlock": 328,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2005-06-18T12:19:54.6958722+02:00",
+    "LastChanged": "2021-04-18T11:44:43.1949983+02:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "McCullough-O'Hara",
-        "ToolTip": "Unde aut molestiae ut dolorem eveniet sequi.",
+        "Id": 539,
+        "Name": "Jacobs-Harris",
+        "ToolTip": "Consequatur delectus atque perspiciatis quia porro dicta debitis.",
         "Deleted": false,
-        "Rank": 873,
-        "Type": "minima",
-        "ColorBlock": 464,
-        "IconHint": "impedit",
+        "Rank": 59,
+        "Type": "ut",
+        "ColorBlock": 735,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2020-05-29T12:19:54.6958722+02:00",
+        "LastChanged": "2000-07-02T11:44:43.1949983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "laboriosam",
-        "Hidden": true,
-        "FullName": "Chelsie Bartell",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Tristin Abernathy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldLength": 461
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "sequi",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "sint",
     "Hidden": true,
-    "FullName": "Kevon Volkman III",
+    "FullName": "Darrick Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldType": "System.String",
+        "FieldLength": 169
       }
     }
   }

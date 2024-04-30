@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Gottlieb Group",
-    "ToolTip": "Et quia.",
+    "Id": 646,
+    "Name": "Walsh-Turner",
+    "ToolTip": "Itaque id aut recusandae tempore praesentium voluptates ut.",
     "Deleted": true,
-    "Rank": 836,
-    "Type": "placeat",
-    "ColorBlock": 310,
-    "IconHint": "qui",
+    "Rank": 635,
+    "Type": "provident",
+    "ColorBlock": 402,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2006-04-13T12:19:54.8052144+02:00",
+    "LastChanged": "2001-04-23T11:44:43.3043478+02:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Skiles LLC",
-        "ToolTip": "Esse porro voluptatem voluptatibus.",
+        "Id": 931,
+        "Name": "Kirlin, Kemmer and Halvorson",
+        "ToolTip": "Adipisci odit earum ipsum et incidunt numquam.",
         "Deleted": true,
-        "Rank": 822,
-        "Type": "esse",
-        "ColorBlock": 267,
-        "IconHint": "similique",
+        "Rank": 643,
+        "Type": "commodi",
+        "ColorBlock": 580,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2014-07-01T12:19:54.8052144+02:00",
+        "LastChanged": "2011-10-21T11:44:43.3043478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Crystal Schmeler",
+        "ExtraInfo": "et",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Rodolfo Waelchi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 875
+            "FieldType": "System.Int32",
+            "FieldLength": 209
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "atque",
+    "ExtraInfo": "ab",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Ms. Ellen Mohammed Kessler DDS",
+    "FullName": "Mrs. Eloise Wilma Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldType": "System.String",
+        "FieldLength": 168
       }
     }
   }

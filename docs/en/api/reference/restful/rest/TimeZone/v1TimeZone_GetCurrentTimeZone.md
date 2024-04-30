@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 693,
-  "Name": "Brekke Group",
-  "TZLocationCode": "molestiae",
-  "TZLocationCities": "rerum",
-  "IsoNumber": 425,
+  "TZLocationID": 729,
+  "Name": "Torphy, Hills and Marks",
+  "TZLocationCode": "libero",
+  "TZLocationCities": "mollitia",
+  "IsoNumber": 997,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 274,
-      "StartMonth": 121,
-      "EndDay": 972,
-      "EndMonth": 966,
-      "TZOffset": 95,
-      "StartRulePattern": "incidunt",
-      "EndRulePattern": "laudantium"
+      "StartDay": 182,
+      "StartMonth": 673,
+      "EndDay": 714,
+      "EndMonth": 211,
+      "TZOffset": 481,
+      "StartRulePattern": "soluta",
+      "EndRulePattern": "quod"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 503,
-      "StartMonth": 501,
-      "EndDay": 986,
-      "EndMonth": 539,
-      "TZOffset": 718,
-      "StartRulePattern": "sapiente",
-      "EndRulePattern": "maxime"
+      "StartDay": 526,
+      "StartMonth": 220,
+      "EndDay": 750,
+      "EndMonth": 200,
+      "TZOffset": 565,
+      "StartRulePattern": "officia",
+      "EndRulePattern": "ipsam"
     }
   }
 }

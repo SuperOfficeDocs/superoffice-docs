@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 193,
-  "UdListDefinitionId": 712,
+  "Id": 289,
+  "UdListDefinitionId": 357,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 666,
-  "Name": "Abbott Inc and Sons",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "UdListDefinitionId": 117,
-  "Rank": 914,
+  "Id": 721,
+  "Name": "Lowe Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 959,
+  "Rank": 1001,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldType": "System.String",
+      "FieldLength": 739
     }
   }
 }

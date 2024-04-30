@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    957,
-    824
+    688,
+    601
   ],
-  "TargetFolder": "in"
+  "TargetFolder": "eveniet"
 }
 ```
 

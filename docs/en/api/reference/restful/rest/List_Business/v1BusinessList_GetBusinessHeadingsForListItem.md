@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,50 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 804,
-    "Name": "Moen Group",
-    "ToolTip": "Ut aut consectetur enim voluptas.",
-    "Deleted": false,
-    "Rank": 69,
-    "Type": "pariatur",
-    "ColorBlock": 32,
-    "IconHint": "eius",
+    "Id": 73,
+    "Name": "Ward-Larkin",
+    "ToolTip": "Quis quisquam ad sed.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "et",
+    "ColorBlock": 770,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2000-08-01T12:19:54.3053212+02:00",
+    "LastChanged": "2015-04-20T11:44:42.9294253+02:00",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Willms-Schmeler",
-        "ToolTip": "In est asperiores.",
+        "Id": 721,
+        "Name": "Bernier LLC",
+        "ToolTip": "Quidem eveniet nesciunt.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "vel",
-        "ColorBlock": 13,
-        "IconHint": "inventore",
+        "Rank": 828,
+        "Type": "dolorum",
+        "ColorBlock": 240,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2022-10-25T12:19:54.3053212+02:00",
+        "LastChanged": "2015-04-13T11:44:42.9294253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "quia",
+        "ExtraInfo": "est",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Orrin Rohan",
+        "FullName": "Dr. Harold Buford Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 931
+            "FieldLength": 187
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Mrs. Maybelle Carter II",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Libby Elmore Hermann IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Boehm-Miller",
-  "Tooltip": "distinctio",
+  "Id": 861,
+  "Name": "Hammes-Lehner",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "UdListDefinitionId": 244,
-  "Rank": 542,
+  "UdListDefinitionId": 957,
+  "Rank": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 992
     }
   }
 }

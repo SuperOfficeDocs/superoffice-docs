@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 699,
-  "Name": "Shields, Kuhn and Hyatt",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 611,
-  "UdListDefinitionId": 646
+  "HeadingId": 377,
+  "Name": "Gibson LLC",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 127,
+  "UdListDefinitionId": 142
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 25,
-  "Name": "Boehm-Greenholt",
-  "Tooltip": "cupiditate",
+  "HeadingId": 48,
+  "Name": "Sauer, Smitham and Kovacek",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 330,
-  "UdListDefinitionId": 829,
+  "Rank": 255,
+  "UdListDefinitionId": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 749
     }
   }
 }

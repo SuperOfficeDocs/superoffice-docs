@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kirlin Inc and Sons"
+  "LayoutName": "Harvey-Pollich"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 990,
-    "Name": "Kihn, Klein and Ortiz",
-    "Value": "quia",
-    "CreatedDate": "2017-05-17T12:19:44.5080652+02:00",
-    "UpdatedDate": "2008-12-03T12:19:44.5080652+01:00",
-    "CreatedBy": "velit",
-    "UpdatedBy": "quidem",
+    "AudienceLayoutId": 899,
+    "Name": "Frami-Ortiz",
+    "Value": "dolorum",
+    "CreatedDate": "2022-10-14T11:44:32.806727+02:00",
+    "UpdatedDate": "2008-04-11T11:44:32.806727+02:00",
+    "CreatedBy": "ut",
+    "UpdatedBy": "natus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldType": "System.String",
+        "FieldLength": 5
       }
     }
   }

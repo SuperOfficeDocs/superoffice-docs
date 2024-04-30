@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 276,
+    "TargetDimensionId": 413,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "porro",
-    "DimensionListName": "Donnelly-Adams",
-    "DimensionListId": 814,
-    "DimensionListLabel": "eos",
+    "DimensionListField": "corrupti",
+    "DimensionListName": "Wilderman-Fritsch",
+    "DimensionListId": 261,
+    "DimensionListLabel": "saepe",
     "SelectedDimensions": [
-      94,
-      963
+      127,
+      655
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 413
       }
     }
   }

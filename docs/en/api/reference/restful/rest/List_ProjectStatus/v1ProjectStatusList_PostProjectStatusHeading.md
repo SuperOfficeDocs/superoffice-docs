@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 752,
-  "Name": "Eichmann LLC",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 663,
-  "UdListDefinitionId": 625
+  "HeadingId": 328,
+  "Name": "Wiegand-Leuschke",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 928,
+  "UdListDefinitionId": 708
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 219,
-  "Name": "Ruecker, Doyle and Pollich",
-  "Tooltip": "qui",
+  "HeadingId": 653,
+  "Name": "Kuvalis-Zulauf",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 575,
-  "UdListDefinitionId": 590,
+  "Rank": 389,
+  "UdListDefinitionId": 786,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldLength": 991
     }
   }
 }

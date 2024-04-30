@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Robel-Jakubowski",
-  "Tooltip": "aliquid",
+  "Id": 23,
+  "Name": "Witting Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 372,
-  "Rank": 67
+  "UdListDefinitionId": 688,
+  "Rank": 615
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
-  "Name": "Simonis LLC",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "UdListDefinitionId": 838,
-  "Rank": 353,
+  "Id": 122,
+  "Name": "Miller-Gutkowski",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 984,
+  "Rank": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldLength": 138
     }
   }
 }

@@ -112,32 +112,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 273,
-  "Name": "Brakus, Monahan and Cremin",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 426,
+  "WebPanelId": 80,
+  "Name": "Shanahan-Kreiger",
+  "Tooltip": "libero",
+  "Deleted": false,
+  "Rank": 196,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "West Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Williamson-Von",
   "Url": "http://www.example.com/",
-  "ProgId": "pariatur",
-  "Icon": 905,
+  "ProgId": "expedita",
+  "Icon": 758,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 334,
-  "Name": "Doyle, Rodriguez and Deckow",
-  "Tooltip": "sed",
+  "WebPanelId": 708,
+  "Name": "Mayer-Bechtelar",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 867,
+  "Rank": 402,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Abshire, Conn and Nienow",
+  "ShowInStatusBar": false,
+  "WindowName": "Gleichner, Gutmann and Yost",
   "Url": "http://www.example.com/",
-  "ProgId": "molestias",
-  "Icon": 313,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "et",
+  "Icon": 948,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   }
 }

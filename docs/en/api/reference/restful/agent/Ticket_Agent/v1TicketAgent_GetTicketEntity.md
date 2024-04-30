@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=868
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=4
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -124,7 +124,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,21 +134,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 85,
-  "Title": "unde",
-  "CreatedAt": "2001-04-18T12:19:46.39826+02:00",
-  "LastChanged": "2020-04-03T12:19:46.39826+02:00",
-  "ReadByOwner": "2012-09-03T12:19:46.39826+02:00",
-  "ReadByCustomer": "2007-08-13T12:19:46.39826+02:00",
-  "FirstReadByOwner": "2004-03-05T12:19:46.39826+01:00",
-  "FirstReadByUser": "2002-09-01T12:19:46.39826+02:00",
-  "Activate": "2011-05-18T12:19:46.39826+02:00",
-  "ClosedAt": "2006-12-27T12:19:46.39826+01:00",
-  "RepliedAt": "2013-01-16T12:19:46.39826+01:00",
-  "AlertTimeout": "2002-10-27T12:19:46.39826+01:00",
-  "Deadline": "2002-01-26T12:19:46.39826+01:00",
+  "TicketId": 895,
+  "Title": "dolorem",
+  "CreatedAt": "2022-08-28T11:44:34.7594548+02:00",
+  "LastChanged": "2011-11-11T11:44:34.7594548+01:00",
+  "ReadByOwner": "2002-06-02T11:44:34.7594548+02:00",
+  "ReadByCustomer": "2020-08-09T11:44:34.7594548+02:00",
+  "FirstReadByOwner": "1997-03-22T11:44:34.7594548+01:00",
+  "FirstReadByUser": "1999-10-21T11:44:34.7594548+02:00",
+  "Activate": "2009-12-25T11:44:34.7594548+01:00",
+  "ClosedAt": "1998-11-01T11:44:34.7594548+01:00",
+  "RepliedAt": "2004-02-18T11:44:34.7594548+01:00",
+  "AlertTimeout": "2005-10-10T11:44:34.7594548+02:00",
+  "Deadline": "1997-07-12T11:44:34.7594548+02:00",
   "CreatedBy": null,
-  "Author": "eius",
+  "Author": "eaque",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -159,162 +159,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "eos",
-      "PersonId": 920,
-      "Mrmrs": "iste",
-      "Firstname": "Adelia",
-      "Lastname": "Champlin",
-      "MiddleName": "Larson LLC",
-      "Title": "rerum",
-      "Description": "Focused next generation moderator",
-      "Email": "jan@glover.info",
-      "FullName": "Mathilde Bartell",
-      "DirectPhone": "765-590-0346 x960",
-      "FormalName": "Langworth-Weissnat",
-      "CountryId": 846,
-      "ContactId": 117,
-      "ContactName": "Kuphal Inc and Sons",
-      "Retired": 818,
-      "Rank": 626,
-      "ActiveInterests": 109,
+      "Position": "doloribus",
+      "PersonId": 382,
+      "Mrmrs": "accusantium",
+      "Firstname": "Sharon",
+      "Lastname": "Ledner",
+      "MiddleName": "Predovic, Towne and Becker",
+      "Title": "occaecati",
+      "Description": "Persevering leading edge monitoring",
+      "Email": "durward.stokes@konopelski.us",
+      "FullName": "Minerva Mills PhD",
+      "DirectPhone": "158.579.3511 x00194",
+      "FormalName": "Spencer Group",
+      "CountryId": 571,
+      "ContactId": 232,
+      "ContactName": "Spencer, Fritsch and Rath",
+      "Retired": 323,
+      "Rank": 432,
+      "ActiveInterests": 440,
       "ContactDepartment": "",
-      "ContactCountryId": 890,
-      "ContactOrgNr": "1143895",
-      "FaxPhone": "1-761-016-5642 x949",
-      "MobilePhone": "1-422-685-8642",
-      "ContactPhone": "534-020-3416",
-      "AssociateName": "Miller LLC",
-      "AssociateId": 23,
-      "UsePersonAddress": false,
-      "ContactFax": "in",
-      "Kanafname": "perferendis",
-      "Kanalname": "voluptas",
-      "Post1": "laborum",
-      "Post2": "magni",
-      "Post3": "eius",
-      "EmailName": "lorenz@stromanwunsch.name",
-      "ContactFullName": "Danial Juliana Gutkowski DDS",
-      "ActiveErpLinks": 163,
-      "TicketPriorityId": 462,
-      "SupportLanguageId": 918,
-      "SupportAssociateId": 63,
+      "ContactCountryId": 65,
+      "ContactOrgNr": "1185237",
+      "FaxPhone": "717-484-5552",
+      "MobilePhone": "(479)511-9110 x8987",
+      "ContactPhone": "(799)180-5251 x54186",
+      "AssociateName": "Schimmel Inc and Sons",
+      "AssociateId": 418,
+      "UsePersonAddress": true,
+      "ContactFax": "aut",
+      "Kanafname": "et",
+      "Kanalname": "et",
+      "Post1": "quo",
+      "Post2": "distinctio",
+      "Post3": "dolore",
+      "EmailName": "emil.russel@jakubowskihalvorson.name",
+      "ContactFullName": "Nadia Cartwright",
+      "ActiveErpLinks": 241,
+      "TicketPriorityId": 973,
+      "SupportLanguageId": 34,
+      "SupportAssociateId": 180,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 232
         }
       }
     }
   ],
-  "AlertLevel": 561,
-  "ConnectId": 755,
+  "AlertLevel": 579,
+  "ConnectId": 939,
   "ReadStatus": "Green",
-  "TimeToReply": 724,
-  "RealTimeToReply": 132,
-  "TimeToClose": 75,
-  "RealTimeToClose": 493,
-  "TimeSpentInternally": 157,
-  "TimeSpentExternally": 292,
-  "TimeSpentQueue": 786,
-  "RealTimeSpentInternally": 602,
-  "RealTimeSpentExternally": 637,
-  "RealTimeSpentQueue": 591,
-  "TimeSpent": 514,
-  "HasAttachment": false,
-  "NumReplies": 69,
-  "NumMessages": 563,
-  "FromAddress": "aspernatur",
+  "TimeToReply": 44,
+  "RealTimeToReply": 639,
+  "TimeToClose": 555,
+  "RealTimeToClose": 285,
+  "TimeSpentInternally": 679,
+  "TimeSpentExternally": 12,
+  "TimeSpentQueue": 857,
+  "RealTimeSpentInternally": 852,
+  "RealTimeSpentExternally": 289,
+  "RealTimeSpentQueue": 516,
+  "TimeSpent": 669,
+  "HasAttachment": true,
+  "NumReplies": 294,
+  "NumMessages": 714,
+  "FromAddress": "labore",
   "Messages": [
     {
-      "TicketMessageId": 246,
-      "CreatedAt": "2002-10-21T12:19:46.39826+02:00",
+      "TicketMessageId": 96,
+      "CreatedAt": "2000-04-09T11:44:34.7594548+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "adipisci",
-      "PersonId": 315,
-      "PersonFullName": "Spencer Florencio Crooks DVM",
-      "ContactId": 249,
-      "ContactName": "Hermiston-Borer",
+      "Important": false,
+      "Author": "ipsam",
+      "PersonId": 409,
+      "PersonFullName": "Noemie Greenfelder",
+      "ContactId": 98,
+      "ContactName": "Schoen Group",
       "ContactDepartment": "",
-      "NumAttachments": 208,
-      "EmailHeader": "leopold_schamberger@schaden.ca",
+      "NumAttachments": 44,
+      "EmailHeader": "hilton.rice@rempel.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "possimus",
-      "Sentiment": 914,
-      "SentimentConfidence": 63,
-      "CreatedBy": 180,
-      "ChangedAt": "2003-08-19T12:19:46.39826+02:00",
+      "Language": "non",
+      "Sentiment": 707,
+      "SentimentConfidence": 218,
+      "CreatedBy": 242,
+      "ChangedAt": "2015-07-23T11:44:34.7750774+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 356
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 803,
-      "Name": "Reynolds Inc and Sons",
-      "ToolTip": "Vitae ea.",
+      "Id": 413,
+      "Name": "Kunze-Orn",
+      "ToolTip": "Corporis sunt autem natus quod et sit illo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 714
         }
       }
     },
     {
-      "Id": 803,
-      "Name": "Reynolds Inc and Sons",
-      "ToolTip": "Vitae ea.",
+      "Id": 413,
+      "Name": "Kunze-Orn",
+      "ToolTip": "Corporis sunt autem natus quod et sit illo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 714
         }
       }
     }
   ],
-  "Language": "excepturi",
-  "Sentiment": 487,
-  "SentimentConfidence": 910,
-  "SuggestedCategoryId": 860,
+  "Language": "vitae",
+  "Sentiment": 807,
+  "SentimentConfidence": 854,
+  "SuggestedCategoryId": 112,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 884,
-  "IconHint": "vero",
+  "OrigHumanCategoryId": 147,
+  "IconHint": "excepturi",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 109,
+  "ActiveStatusMonitorId": 545,
   "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "eos"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "deserunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 916
     }
   }
 }

@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 597,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2010-05-18T12:19:45.0704356+02:00",
-  "EndTime": "2001-05-29T12:19:45.0704356+02:00",
-  "Count": 568
+  "PersonId": 810,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2000-07-17T11:44:33.4160074+02:00",
+  "EndTime": "1997-02-19T11:44:33.4160074+01:00",
+  "Count": 245
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 55,
-    "Attention": "amet",
-    "Header": "dolor",
-    "Name": "Moore-Kerluke",
-    "OurRef": "quis",
-    "YourRef": "nesciunt",
-    "Description": "Face to face full-range extranet",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 94,
-    "PersonFullName": "Milan Fred Wehner DDS",
-    "AssociateFullName": "Danika Okuneva",
-    "ContactId": 243,
-    "ContactName": "Larson Inc and Sons",
-    "ProjectId": 816,
-    "ProjectName": "Schulist-Kulas",
-    "AssociateId": 107,
-    "Snum": 354,
-    "SaleId": 13,
-    "SaleName": "Bode, Monahan and Kulas",
+    "DocumentId": 131,
+    "Attention": "facilis",
+    "Header": "ut",
+    "Name": "Kohler Group",
+    "OurRef": "sit",
+    "YourRef": "veniam",
+    "Description": "Advanced static protocol",
+    "DocumentTemplate": "in",
+    "IsPublished": true,
+    "PersonId": 296,
+    "PersonFullName": "Antonia Cordie Windler MD",
+    "AssociateFullName": "Ryder Diamond Ratke MD",
+    "ContactId": 554,
+    "ContactName": "Ratke-Kihn",
+    "ProjectId": 250,
+    "ProjectName": "Douglas Group",
+    "AssociateId": 196,
+    "Snum": 48,
+    "SaleId": 613,
+    "SaleName": "Okuneva, Lockman and Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 540
       }
     }
   }

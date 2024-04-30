@@ -84,16 +84,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 412,
-  "VersionId": "distinctio",
+  "DocumentId": 279,
+  "VersionId": "et",
   "AllowedReturnTypes": [
-    "aut",
-    "delectus"
+    "earum",
+    "aut"
   ],
-  "Command": "quia",
+  "Command": "dolorum",
   "AdditionalData": [
-    "est",
-    "quibusdam"
+    "facere",
+    "necessitatibus"
   ]
 }
 ```
@@ -105,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ad",
-  "VersionId": "harum",
+  "ExternalReference": "accusantium",
+  "VersionId": "ipsa",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "quia",
-  "AdditionalInfo": "ratione"
+  "Value": "qui",
+  "AdditionalInfo": "quia"
 }
 ```

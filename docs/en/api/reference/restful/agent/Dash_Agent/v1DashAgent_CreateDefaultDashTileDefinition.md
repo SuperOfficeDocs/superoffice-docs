@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 16,
-  "Name": "Halvorson, Moore and Kutch",
-  "Description": "Mandatory demand-driven initiative",
-  "DefaultHeight": 373,
-  "DefaultWidth": 562,
+  "DashboardTileDefinitionId": 296,
+  "Name": "Wuckert, Swift and Welch",
+  "Description": "Down-sized scalable approach",
+  "DefaultHeight": 221,
+  "DefaultWidth": 575,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kshlerin LLC",
-  "SelectionId": 394,
+  "EntityName": "Stiedemann-Stiedemann",
+  "SelectionId": 900,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sint",
+  "CurrencyCode": "perspiciatis",
   "Measure": "Average",
-  "MeasureField": "eum",
-  "SortBy": "est",
-  "LayoutConfig": "debitis",
-  "SecondarySelectionId": 953,
-  "MeasureByField": "quisquam",
+  "MeasureField": "nesciunt",
+  "SortBy": "autem",
+  "LayoutConfig": "suscipit",
+  "SecondarySelectionId": 35,
+  "MeasureByField": "ea",
   "Usage": "Dashboard",
-  "ProviderName": "Murazik-Boyle",
+  "ProviderName": "Hintz-Rodriguez",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 16
     }
   }
 }

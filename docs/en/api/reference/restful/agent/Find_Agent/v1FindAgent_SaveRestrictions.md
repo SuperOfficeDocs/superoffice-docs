@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dignissimos",
-  "ProviderName": "Wisozk, Deckow and Yundt",
-  "StorageKey": "est",
+  "StorageType": "itaque",
+  "ProviderName": "Littel, Howe and Jerde",
+  "StorageKey": "autem",
   "Restrictions": [
     {
-      "Name": "Breitenberg-Simonis",
-      "Operator": "ipsam",
+      "Name": "Harber, Abshire and Hudson",
+      "Operator": "maxime",
       "Values": [
-        "illum",
-        "accusantium"
+        "id",
+        "doloremque"
       ],
       "DisplayValues": [
-        "nihil",
-        "et"
+        "at",
+        "vel"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 46,
+      "InterParenthesis": 699,
       "InterOperator": "And",
-      "UniqueHash": 270
+      "UniqueHash": 494
     }
   ]
 }

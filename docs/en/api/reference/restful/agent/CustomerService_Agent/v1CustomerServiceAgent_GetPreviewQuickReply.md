@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 204
+  "QuickReplyId": 718
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schneider-Cummings",
-  "UpdatedByFullName": "Chesley Crooks",
-  "Updated": "2005-09-05T12:19:45.0235865+02:00",
-  "HtmlBody": "quo",
+  "Name": "McDermott LLC",
+  "UpdatedByFullName": "Myrl Cummerata",
+  "Updated": "2018-09-13T11:44:33.3535225+02:00",
+  "HtmlBody": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

@@ -74,15 +74,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 435,
-  "UserName": "Hills LLC",
-  "Password": "delectus",
+  "AssociateId": 656,
+  "UserName": "Tromp Group",
+  "Password": "aut",
   "IsActive": false,
-  "RoleId": 483,
+  "RoleId": 914,
   "ExternalUserInfoModification": "Active"
 }
 ```

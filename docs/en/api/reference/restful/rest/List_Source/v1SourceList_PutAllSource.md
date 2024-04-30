@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Brekke Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 919,
-    "Rank": 336
+    "Id": 633,
+    "Name": "Hintz, Brown and Schuster",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "UdListDefinitionId": 589,
+    "Rank": 469
   },
   {
-    "Id": 314,
-    "Name": "Brekke Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 919,
-    "Rank": 336
+    "Id": 633,
+    "Name": "Hintz, Brown and Schuster",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "UdListDefinitionId": 589,
+    "Rank": 469
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 596,
-    "Name": "Haag Inc and Sons",
-    "Tooltip": "occaecati",
+    "Id": 575,
+    "Name": "Brekke-Baumbach",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "UdListDefinitionId": 379,
-    "Rank": 429,
+    "UdListDefinitionId": 653,
+    "Rank": 385,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldLength": 263
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 512,
-  "Id": 959,
-  "HistoryName": "Bednar Inc and Sons",
-  "HistoryId": 309,
-  "AssociateId": 121,
-  "Name": "Bauch-Kuphal",
-  "ItemInfo": "necessitatibus",
+  "Rank": 102,
+  "Id": 630,
+  "HistoryName": "Gutmann, Quitzon and Gleason",
+  "HistoryId": 421,
+  "AssociateId": 88,
+  "Name": "Denesik-Denesik",
+  "ItemInfo": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldLength": 343
     }
   }
 }

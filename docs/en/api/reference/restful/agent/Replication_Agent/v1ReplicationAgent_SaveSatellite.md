@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 525,
-  "Created": "2012-07-29T12:19:46.1326875+02:00",
+  "SatelliteId": 705,
+  "Created": "2013-01-20T11:44:34.3220571+01:00",
   "CreatedBy": null,
-  "Updated": "2003-09-10T12:19:46.1326875+02:00",
+  "Updated": "2004-04-06T11:44:34.3220571+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Kessler-Legros",
-      "Description": "Switchable solution-oriented conglomeration",
+      "Name": "McGlynn-Rolfson",
+      "Description": "Ergonomic hybrid conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Kessler-Legros",
-      "Description": "Switchable solution-oriented conglomeration",
+      "Name": "McGlynn-Rolfson",
+      "Description": "Ergonomic hybrid conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 681,
-  "Created": "1998-03-08T12:19:46.1326875+01:00",
+  "SatelliteId": 730,
+  "Created": "2017-02-25T11:44:34.3220571+01:00",
   "CreatedBy": null,
-  "Updated": "1999-01-04T12:19:46.1326875+01:00",
+  "Updated": "2005-02-18T11:44:34.3220571+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Lindgren-Bradtke",
-      "Description": "Function-based value-added architecture",
+      "Name": "Senger, DuBuque and Hand",
+      "Description": "Extended background utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 131
         }
       }
     },
     {
-      "Name": "Lindgren-Bradtke",
-      "Description": "Function-based value-added architecture",
+      "Name": "Senger, DuBuque and Hand",
+      "Description": "Extended background utilisation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 131
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 759
     }
   }
 }

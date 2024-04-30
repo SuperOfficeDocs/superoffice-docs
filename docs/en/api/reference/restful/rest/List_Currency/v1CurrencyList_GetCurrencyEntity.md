@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 118,
-  "Name": "Powlowski-Dibbert",
-  "Tooltip": "voluptatibus",
-  "Rank": 958,
-  "Rate": 10078.944,
-  "Units": 7546.672,
+  "CurrencyId": 847,
+  "Name": "Satterfield Inc and Sons",
+  "Tooltip": "deserunt",
+  "Rank": 20,
+  "Rate": 11373.286,
+  "Units": 25460.615999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 42
     }
   }
 }

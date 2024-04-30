@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Quote/HasConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,9 +81,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "officiis",
-  "TechExplanation": "reprehenderit",
-  "ErrorCode": "consequuntur",
+  "UserExplanation": "voluptatem",
+  "TechExplanation": "vitae",
+  "ErrorCode": "rerum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 840
     }
   }
 }

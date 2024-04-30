@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Auer Group",
-  "AssociateId": 771,
-  "DetailsTable": 140,
-  "DetailsRecord": 337,
-  "IsSystemTask": false,
+  "Id": 273,
+  "Name": "Wyman-Ebert",
+  "AssociateId": 442,
+  "DetailsTable": 241,
+  "DetailsRecord": 403,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "iste",
-    "ParameterObject2": "vel"
+    "ParameterObject1": "ratione",
+    "ParameterObject2": "enim"
   },
-  "LastStarted": "2014-04-27T12:19:46.1483123+02:00",
-  "Created": "2007-12-01T12:19:46.1483123+01:00",
-  "StartCount": 721,
-  "DatabaseSerialNumber": "473610",
-  "Context": "commodi",
-  "Result": "sed",
+  "LastStarted": "2002-06-04T11:44:34.3376813+02:00",
+  "Created": "2023-01-16T11:44:34.3376813+01:00",
+  "StartCount": 593,
+  "DatabaseSerialNumber": "1867656",
+  "Context": "nam",
+  "Result": "non",
   "State": "All",
-  "Description": "Organized user-facing array",
-  "Response": "voluptates",
-  "Request": "nisi",
-  "ProgressDescription": "Compatible 4th generation instruction set",
-  "ProgressPercent": 69,
-  "FileName": "Mueller-Cummings",
+  "Description": "Persevering stable monitoring",
+  "Response": "adipisci",
+  "Request": "impedit",
+  "ProgressDescription": "Decentralized secondary challenge",
+  "ProgressPercent": 269,
+  "FileName": "Satterfield-Daniel",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldLength": 232
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 181,
-    "Name": "Corwin, Kertzmann and Sauer",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 123,
-    "UdListDefinitionId": 850
+    "HeadingId": 42,
+    "Name": "Pfeffer-Brekke",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "Rank": 721,
+    "UdListDefinitionId": 577
   },
   {
-    "HeadingId": 181,
-    "Name": "Corwin, Kertzmann and Sauer",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 123,
-    "UdListDefinitionId": 850
+    "HeadingId": 42,
+    "Name": "Pfeffer-Brekke",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "Rank": 721,
+    "UdListDefinitionId": 577
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 156,
-    "Name": "Tremblay-Carter",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 834,
-    "UdListDefinitionId": 855,
+    "HeadingId": 912,
+    "Name": "Witting-Hansen",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 184,
+    "UdListDefinitionId": 144,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

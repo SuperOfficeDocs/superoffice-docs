@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Littel, Bogisich and Boyle",
-  "DeviceName": "Crooks, Gleason and Predovic",
-  "DeviceIdentifier": "ipsum",
-  "KeyName": "Jacobi, Krajcik and Bailey",
-  "KeyValue": "quas",
-  "TableName": "Cummerata Group"
+  "ApplicationName": "Weissnat-Marquardt",
+  "DeviceName": "Koelpin-Effertz",
+  "DeviceIdentifier": "esse",
+  "KeyName": "Herman Group",
+  "KeyValue": "qui",
+  "TableName": "Boyle-Bednar"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "vero",
-  "Value": "ipsam",
-  "RecordId": 539,
-  "CreatedDate": "2009-04-03T12:19:45.4297292+02:00",
-  "UpdatedDate": "2006-08-23T12:19:45.4297292+02:00",
-  "UpdatedBy": "molestiae",
-  "CreatedBy": "aut",
-  "TableName": "Frami, Considine and Moen",
+  "Key": "sed",
+  "Value": "minima",
+  "RecordId": 282,
+  "CreatedDate": "2007-09-29T11:44:33.7753083+02:00",
+  "UpdatedDate": "2005-09-17T11:44:33.7753083+02:00",
+  "UpdatedBy": "minima",
+  "CreatedBy": "laboriosam",
+  "TableName": "Harber LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

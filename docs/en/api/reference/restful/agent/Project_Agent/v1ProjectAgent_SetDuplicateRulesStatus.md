@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Yundt-Abshire",
-      "DisplayName": "Ernser, Witting and Rosenbaum",
-      "DisplayTooltip": "incidunt",
+      "Name": "Veum LLC",
+      "DisplayName": "Bins LLC",
+      "DisplayTooltip": "placeat",
       "IsActive": false
     },
     {
-      "Name": "Yundt-Abshire",
-      "DisplayName": "Ernser, Witting and Rosenbaum",
-      "DisplayTooltip": "incidunt",
+      "Name": "Veum LLC",
+      "DisplayName": "Bins LLC",
+      "DisplayTooltip": "placeat",
       "IsActive": false
     }
   ]

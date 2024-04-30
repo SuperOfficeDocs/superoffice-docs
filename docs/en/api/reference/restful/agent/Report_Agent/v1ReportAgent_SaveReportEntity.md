@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 352,
+  "ReportId": 502,
   "ReportCategory": "All",
-  "Description": "Quality-focused solution-oriented architecture",
+  "Description": "Programmable real-time application",
   "ReportLayout": "CalendarMonth",
-  "Name": "Cummings-Heller",
-  "AssociateId": 268,
-  "TemplateId": 610,
+  "Name": "Schuster, Pollich and Mills",
+  "AssociateId": 362,
+  "TemplateId": 125,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 998,
+  "ReportId": 679,
   "ReportCategory": "All",
-  "Description": "Organized motivating info-mediaries",
+  "Description": "Up-sized multi-tasking structure",
   "ReportLayout": "CalendarMonth",
-  "Name": "Vandervort, Fadel and Hauck",
-  "AssociateId": 319,
-  "TemplateId": 272,
+  "Name": "Stoltenberg Inc and Sons",
+  "AssociateId": 896,
+  "TemplateId": 549,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

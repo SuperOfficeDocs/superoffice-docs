@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Wiegand, McGlynn and Durgan",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "UdListDefinitionId": 183,
-  "Rank": 900,
+  "Id": 888,
+  "Name": "Conn-Kuphal",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "UdListDefinitionId": 659,
+  "Rank": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 262
     }
   }
 }

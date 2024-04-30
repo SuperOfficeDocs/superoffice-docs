@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 747,
-  "Name": "Ortiz-Cormier",
-  "Tooltip": "non",
+  "Id": 646,
+  "Name": "Kertzmann LLC",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 734,
+  "Rank": 642,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldType": "System.Int32",
+      "FieldLength": 457
     }
   },
   "_Links": {

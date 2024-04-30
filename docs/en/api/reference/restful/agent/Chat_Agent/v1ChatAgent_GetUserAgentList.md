@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Pacocha, Ernser and Wehner",
-    "ToolTip": "Dolor rem praesentium.",
+    "Id": 231,
+    "Name": "Mraz LLC",
+    "ToolTip": "Illo praesentium laboriosam dolore sint sed sapiente aut.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "aut",
+    "Rank": 719,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Dibbert, Schimmel and Dietrich",
-        "ToolTip": "Et dignissimos consequatur reprehenderit et facere est totam.",
+        "Id": 807,
+        "Name": "Hagenes Inc and Sons",
+        "ToolTip": "At excepturi quia qui amet.",
         "Deleted": false,
-        "Rank": 707,
-        "Type": "neque",
+        "Rank": 801,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iste",
-        "ColorBlock": 793,
-        "ExtraInfo": "sequi",
-        "StyleHint": "quis",
-        "FullName": "Prof. Isom Rhianna Botsford PhD",
+        "IconHint": "voluptatibus",
+        "ColorBlock": 522,
+        "ExtraInfo": "hic",
+        "StyleHint": "ipsam",
+        "FullName": "Breanna Streich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 457
+            "FieldLength": 225
           }
         }
       }
     ],
-    "IconHint": "laborum",
-    "ColorBlock": 571,
-    "ExtraInfo": "odio",
-    "StyleHint": "molestias",
-    "FullName": "Verner Ritchie",
+    "IconHint": "tenetur",
+    "ColorBlock": 460,
+    "ExtraInfo": "quae",
+    "StyleHint": "et",
+    "FullName": "Kelsie Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 958
       }
     }
   }

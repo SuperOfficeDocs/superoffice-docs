@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 412,
-    "Name": "Grimes-Kris",
-    "Tooltip": "aliquam",
-    "Deleted": false,
-    "Rank": 651,
-    "UdListDefinitionId": 466
+    "HeadingId": 236,
+    "Name": "Cronin-Tremblay",
+    "Tooltip": "vero",
+    "Deleted": true,
+    "Rank": 1002,
+    "UdListDefinitionId": 164
   },
   {
-    "HeadingId": 412,
-    "Name": "Grimes-Kris",
-    "Tooltip": "aliquam",
-    "Deleted": false,
-    "Rank": 651,
-    "UdListDefinitionId": 466
+    "HeadingId": 236,
+    "Name": "Cronin-Tremblay",
+    "Tooltip": "vero",
+    "Deleted": true,
+    "Rank": 1002,
+    "UdListDefinitionId": 164
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 849,
-    "Name": "Wiza, Mertz and Wilkinson",
-    "Tooltip": "deserunt",
+    "HeadingId": 733,
+    "Name": "Kunze Group",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 909,
-    "UdListDefinitionId": 484,
+    "Rank": 667,
+    "UdListDefinitionId": 491,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 451
       }
     }
   }

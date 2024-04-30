@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "minima",
-    "molestiae"
+    "voluptatum",
+    "amet"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 71,
-    "ColumnId": 853,
-    "FieldDefault": "commodi",
-    "FieldHeight": 785,
-    "FieldLabel": "dolor",
-    "FieldLeft": 828,
-    "FieldTop": 87,
+    "UDefFieldId": 206,
+    "ColumnId": 273,
+    "FieldDefault": "accusantium",
+    "FieldHeight": 810,
+    "FieldLabel": "qui",
+    "FieldLeft": 207,
+    "FieldTop": 810,
     "FieldType": "Checkbox",
-    "FieldWidth": 299,
-    "FormatMask": "ut",
+    "FieldWidth": 511,
+    "FormatMask": "eius",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 524,
-    "LabelLeft": 257,
-    "LabelTop": 75,
-    "LabelWidth": 92,
-    "LastVersionId": 450,
-    "ListTableId": 535,
+    "LabelHeight": 309,
+    "LabelLeft": 188,
+    "LabelTop": 241,
+    "LabelWidth": 723,
+    "LastVersionId": 631,
+    "ListTableId": 248,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 411,
-    "ProgId": "labore",
-    "IsReadOnly": true,
-    "ShortLabel": "a",
-    "TabOrder": 13,
-    "TextLength": 339,
-    "Tooltip": "et",
-    "UdefIdentity": 449,
-    "UDListDefinitionId": 38,
+    "Page1LineNo": 787,
+    "ProgId": "sint",
+    "IsReadOnly": false,
+    "ShortLabel": "odit",
+    "TabOrder": 781,
+    "TextLength": 719,
+    "Tooltip": "qui",
+    "UdefIdentity": 935,
+    "UDListDefinitionId": 181,
     "Justification": "Center",
-    "Version": 14,
-    "TemplateVariableName": "Spinka-Macejkovic",
+    "Version": 542,
+    "TemplateVariableName": "Stark, Lehner and Koepp",
     "HasBeenPublished": true,
-    "MdoListName": "McClure, Oberbrunner and Cormier",
+    "MdoListName": "Prohaska, Pouros and Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 270
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

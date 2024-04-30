@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Johnson LLC"
+  "Name": "Hane Group"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 370,
-    "Name": "Stanton, Glover and Macejkovic",
-    "Tooltip": "aperiam",
+    "HeadingId": 167,
+    "Name": "Ferry, Heaney and Collier",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 183,
+    "Rank": 466,
+    "UdListDefinitionId": 905,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldLength": 286
       }
     }
   }

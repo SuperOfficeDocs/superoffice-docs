@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 713,
-      "FieldName": "Wiegand Inc and Sons",
-      "Label": "ut",
-      "Tooltip": "aut",
+      "QuoteLineConfigurationId": 610,
+      "FieldName": "Auer Group",
+      "Label": "dolorum",
+      "Tooltip": "omnis",
       "Editable": false,
-      "InUse": true,
+      "InUse": false,
       "Mandatory": false,
-      "Rank": 57,
-      "RestrictEdit": false
+      "Rank": 53,
+      "RestrictEdit": true
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 696,
-    "FieldName": "Schultz LLC",
-    "Label": "beatae",
-    "Tooltip": "sunt",
+    "QuoteLineConfigurationId": 304,
+    "FieldName": "Bogan, Cummerata and Koss",
+    "Label": "ea",
+    "Tooltip": "illum",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 788,
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 757,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 719
       }
     }
   }

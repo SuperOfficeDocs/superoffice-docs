@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Morissette-Satterfield",
-  "Tooltip": "nostrum",
+  "Id": 949,
+  "Name": "Gulgowski, Durgan and O'Keefe",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 494,
-  "Rank": 125
+  "UdListDefinitionId": 273,
+  "Rank": 525
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 191,
-  "Name": "Daniel, Rolfson and O'Hara",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "UdListDefinitionId": 500,
-  "Rank": 42,
+  "Id": 300,
+  "Name": "Tromp Group",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "UdListDefinitionId": 941,
+  "Rank": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 822
     }
   }
 }

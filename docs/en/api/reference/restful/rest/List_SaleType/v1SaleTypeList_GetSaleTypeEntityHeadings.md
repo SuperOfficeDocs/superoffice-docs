@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 757,
-    "Name": "Mante, Swaniawski and Dibbert",
-    "Tooltip": "placeat",
+    "HeadingId": 416,
+    "Name": "Funk, Bashirian and Swaniawski",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "Rank": 273,
-    "UdListDefinitionId": 223,
+    "Rank": 190,
+    "UdListDefinitionId": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldType": "System.Int32",
+        "FieldLength": 901
       }
     }
   }

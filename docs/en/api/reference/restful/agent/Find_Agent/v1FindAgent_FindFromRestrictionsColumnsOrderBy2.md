@@ -169,12 +169,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "iusto",
-  "ProviderName": "Lowe, Yundt and Pagac",
-  "DesiredColumns": "ex",
-  "OrderBy": "sed",
-  "PageSize": 31,
-  "PageNumber": 322
+  "Restrictions": "excepturi",
+  "ProviderName": "Volkman Group",
+  "DesiredColumns": "quis",
+  "OrderBy": "vero",
+  "PageSize": 981,
+  "PageNumber": 1000
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kuhlman-VonRueden",
-      "DisplayTooltip": "dolorum",
-      "DisplayType": "est",
+      "DisplayName": "Bechtelar Group",
+      "DisplayTooltip": "qui",
+      "DisplayType": "repudiandae",
       "CanOrderBy": true,
-      "Name": "Dietrich, Haag and Zboncak",
+      "Name": "Schiller Group",
       "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Spencer-Schoen",
+      "RestrictionType": "at",
+      "RestrictionListName": "O'Connell Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "ex",
-      "Width": "qui",
-      "IconHint": "doloribus",
-      "HeadingIconHint": "ullam"
+      "ExtraInfo": "et",
+      "Width": "aut",
+      "IconHint": "temporibus",
+      "HeadingIconHint": "cupiditate"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Erdman-Kris",
-      "PrimaryKey": 803,
+      "EntityName": "Romaguera, Predovic and Cormier",
+      "PrimaryKey": 930,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptate",
-          "TooltipHint": "in",
-          "LinkHint": "temporibus"
+          "DisplayValue": "reiciendis",
+          "TooltipHint": "quis",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "necessitatibus",
-      "StyleHint": "minima",
+      "LinkHint": "tenetur",
+      "StyleHint": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldType": "System.Int32",
+          "FieldLength": 974
         }
       }
     }
   ],
-  "RowCount": 299,
+  "RowCount": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 543
     }
   }
 }

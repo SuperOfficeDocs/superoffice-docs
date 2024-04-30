@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "eius"
+  "TemporaryKey": "odio"
 }
 ```
 
@@ -92,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 659,
-  "PersonId": 744,
-  "IsExpired": false,
+  "TargetId": 473,
+  "PersonId": 881,
+  "IsExpired": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 785
     }
   }
 }

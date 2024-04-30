@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 759,
-  "Name": "Gleichner Group",
-  "Tooltip": "unde",
-  "Rank": 488,
-  "Rate": 8182.874,
-  "Units": 16406.489999999998,
+  "CurrencyId": 692,
+  "Name": "Cummings Inc and Sons",
+  "Tooltip": "aut",
+  "Rank": 658,
+  "Rate": 5099.018,
+  "Units": 16199.645999999999,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 681
     }
   }
 }

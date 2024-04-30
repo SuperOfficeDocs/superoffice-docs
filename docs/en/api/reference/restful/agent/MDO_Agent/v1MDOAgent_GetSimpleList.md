@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummings-Kohler"
+  "Name": "Maggio, Skiles and Abernathy"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Quitzon, Lemke and Bednar",
-    "ToolTip": "Eligendi ratione dolorem quo similique.",
+    "Id": 124,
+    "Name": "Stokes, Gerlach and O'Connell",
+    "ToolTip": "Earum autem debitis officiis.",
     "Deleted": true,
-    "Rank": 839,
-    "Type": "voluptatem",
+    "Rank": 771,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 864,
-        "Name": "Daugherty Group",
-        "ToolTip": "Nemo velit illo.",
-        "Deleted": false,
-        "Rank": 757,
-        "Type": "dolore",
+        "Id": 26,
+        "Name": "Fritsch-Emmerich",
+        "ToolTip": "Nesciunt doloremque suscipit.",
+        "Deleted": true,
+        "Rank": 44,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 474,
-        "ExtraInfo": "magnam",
-        "StyleHint": "dolore",
-        "FullName": "Dock O'Reilly",
+        "IconHint": "quia",
+        "ColorBlock": 981,
+        "ExtraInfo": "aut",
+        "StyleHint": "non",
+        "FullName": "Hope Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldType": "System.String",
+            "FieldLength": 712
           }
         }
       }
     ],
-    "IconHint": "quidem",
-    "ColorBlock": 164,
-    "ExtraInfo": "et",
-    "StyleHint": "magni",
-    "FullName": "Monique Doyle",
+    "IconHint": "necessitatibus",
+    "ColorBlock": 682,
+    "ExtraInfo": "iure",
+    "StyleHint": "deserunt",
+    "FullName": "Santiago Corwin PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 323
       }
     }
   }

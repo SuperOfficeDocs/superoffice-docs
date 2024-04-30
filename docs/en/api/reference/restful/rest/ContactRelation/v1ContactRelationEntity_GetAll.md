@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=ipsum
-GET /api/v1/Relation?$top=797
-GET /api/v1/Relation?$skip=747
+GET /api/v1/Relation?$entities=nihil
+GET /api/v1/Relation?$top=401
+GET /api/v1/Relation?$skip=920
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=reiciendis
+GET /api/v1/Relation?$context=deserunt
 GET /api/v1/Relation?$format=JSON
-GET /api/v1/Relation?$jsonSafe=False
+GET /api/v1/Relation?$jsonSafe=True
 GET /api/v1/Relation?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eum",
+  "odata.nextLink": "voluptatibus",
   "value": [
     {
-      "PrimaryKey": 5888,
+      "PrimaryKey": 1047,
       "EntityName": "sale",
-      "saleId": 5888,
-      "contactId": 6770,
-      "name": "Pacocha Group"
+      "saleId": 1047,
+      "contactId": 94,
+      "name": "Kunde Inc and Sons"
     },
     {
-      "PrimaryKey": 6062,
+      "PrimaryKey": 1993,
       "EntityName": "sale",
-      "saleId": 6062,
-      "contactId": 4483,
-      "name": "Kohler Inc and Sons"
+      "saleId": 1993,
+      "contactId": 7203,
+      "name": "Miller, Mitchell and McKenzie"
     }
   ]
 }

@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Luettgen LLC",
-  "NewSerialNumber": "690570"
+  "NewCompanyName": "Ebert, Bauch and Abbott",
+  "NewSerialNumber": "1100412"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldLength": 482
     }
   }
 }

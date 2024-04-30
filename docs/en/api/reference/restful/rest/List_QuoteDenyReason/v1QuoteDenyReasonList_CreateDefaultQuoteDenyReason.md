@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Name": "Dickinson-Hyatt",
-  "Tooltip": "excepturi",
+  "Id": 289,
+  "Name": "Ernser, Davis and Lemke",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 394,
-  "Rank": 548,
+  "UdListDefinitionId": 942,
+  "Rank": 113,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldLength": 428
     }
   }
 }

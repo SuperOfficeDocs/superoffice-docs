@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 45,
+  "QuoteLineId": 967,
   "Image": "GIF89....File contents as raw bytes...",
-  "Rank": 788
+  "Rank": 289
 }
 ```
 

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 410,
-  "InstanceLayout": "libero",
-  "InstanceName": "Hoeger LLC",
-  "CreatedDate": "2000-04-03T12:19:44.492435+02:00",
-  "UpdatedDate": "2007-02-09T12:19:44.492435+01:00",
+  "AudienceLayoutId": 139,
+  "InstanceLayout": "ut",
+  "InstanceName": "Jast Inc and Sons",
+  "CreatedDate": "1999-03-12T11:44:32.806727+01:00",
+  "UpdatedDate": "2015-11-15T11:44:32.806727+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   }
 }

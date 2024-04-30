@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 110,
-  "ColumnId": 59,
-  "FieldDefault": "nihil",
-  "FieldHeight": 424,
-  "FieldLabel": "facere",
-  "FieldLeft": 397,
-  "FieldTop": 917,
+  "UDefFieldId": 526,
+  "ColumnId": 201,
+  "FieldDefault": "dolor",
+  "FieldHeight": 611,
+  "FieldLabel": "doloremque",
+  "FieldLeft": 638,
+  "FieldTop": 682,
   "FieldType": "Checkbox",
-  "FieldWidth": 218,
-  "FormatMask": "repellat",
+  "FieldWidth": 992,
+  "FormatMask": "et",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 62,
-  "LabelLeft": 868,
-  "LabelTop": 91,
-  "LabelWidth": 743,
-  "LastVersionId": 431,
-  "ListTableId": 361,
+  "LabelHeight": 192,
+  "LabelLeft": 879,
+  "LabelTop": 926,
+  "LabelWidth": 780,
+  "LastVersionId": 608,
+  "ListTableId": 279,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 181,
-  "ProgId": "aliquam",
+  "Page1LineNo": 122,
+  "ProgId": "tempore",
   "IsReadOnly": false,
-  "ShortLabel": "non",
-  "TabOrder": 491,
-  "TextLength": 750,
-  "Tooltip": "neque",
-  "UdefIdentity": 985,
-  "UDListDefinitionId": 191,
+  "ShortLabel": "deleniti",
+  "TabOrder": 339,
+  "TextLength": 494,
+  "Tooltip": "non",
+  "UdefIdentity": 507,
+  "UDListDefinitionId": 797,
   "Justification": "Center",
-  "Version": 257,
-  "TemplateVariableName": "Stoltenberg Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Jacobi, Mertz and Bergstrom",
+  "Version": 599,
+  "TemplateVariableName": "Jones-Waters",
+  "HasBeenPublished": true,
+  "MdoListName": "McClure Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

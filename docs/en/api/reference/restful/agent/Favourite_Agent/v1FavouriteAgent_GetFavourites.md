@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schaefer Inc and Sons",
-  "AssociateId": 748
+  "TableName": "Schneider LLC",
+  "AssociateId": 516
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Hettinger Group",
-    "RecordId": 156,
-    "AssociateId": 514,
-    "ExtraInfo": "necessitatibus",
-    "Rank": 911,
+    "TableName": "Schroeder LLC",
+    "RecordId": 167,
+    "AssociateId": 395,
+    "ExtraInfo": "laborum",
+    "Rank": 84,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldType": "System.Int32",
+        "FieldLength": 423
       }
     }
   }

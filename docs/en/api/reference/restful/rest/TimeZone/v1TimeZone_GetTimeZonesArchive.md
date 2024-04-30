@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=soluta
-GET /api/v1/TimeZone?$top=720
-GET /api/v1/TimeZone?$skip=150
+GET /api/v1/TimeZone?$entities=minus
+GET /api/v1/TimeZone?$top=701
+GET /api/v1/TimeZone?$skip=501
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=inventore
+GET /api/v1/TimeZone?$context=est
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 5053,
+      "PrimaryKey": 9338,
       "EntityName": "sale",
-      "saleId": 5053,
-      "contactId": 6634,
-      "name": "Kessler, Bruen and Braun"
+      "saleId": 9338,
+      "contactId": 2311,
+      "name": "Ortiz LLC"
     },
     {
-      "PrimaryKey": 2515,
+      "PrimaryKey": 3042,
       "EntityName": "sale",
-      "saleId": 2515,
-      "contactId": 1038,
-      "name": "Ankunding LLC"
+      "saleId": 3042,
+      "contactId": 4565,
+      "name": "Gislason-Cormier"
     }
   ]
 }

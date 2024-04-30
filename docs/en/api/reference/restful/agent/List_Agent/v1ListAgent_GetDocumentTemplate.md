@@ -26,7 +26,7 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=661
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=537
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 589,
-  "Name": "Mraz Group",
-  "Tooltip": "sit",
-  "SaveInDb": 377,
-  "Filename": "facilis",
-  "DefaultOref": "iure",
+  "DocumentTemplateId": 758,
+  "Name": "Ebert, Anderson and Jewess",
+  "Tooltip": "eos",
+  "SaveInDb": 283,
+  "Filename": "itaque",
+  "DefaultOref": "laudantium",
   "RecordType": "Appointment",
-  "Deleted": 305,
+  "Deleted": 578,
   "Direction": "Incoming",
-  "AutoeventId": 651,
+  "AutoeventId": 148,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldLength": 255
     }
   }
 }

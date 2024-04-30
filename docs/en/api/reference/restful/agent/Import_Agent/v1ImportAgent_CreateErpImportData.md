@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Doyle Group",
-      "Operator": "hic",
+      "Name": "Tromp Inc and Sons",
+      "Operator": "dolores",
       "Values": [
-        "eum",
-        "dolores"
+        "eligendi",
+        "molestias"
       ],
       "DisplayValues": [
-        "consequatur",
-        "ratione"
+        "ut",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 676,
+      "InterParenthesis": 771,
       "InterOperator": "And",
-      "UniqueHash": 820
+      "UniqueHash": 110
     }
   ],
   "Columns": [
-    "pariatur",
-    "ipsam"
+    "nulla",
+    "ad"
   ],
-  "ConnectionId": 103,
+  "ConnectionId": 207,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "ab",
-        "qui"
+        "unde",
+        "exercitationem"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "placeat",
+      "ExternalKey": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 139
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Nader-Adams",
-      "DisplayName": "Kunde Inc and Sons",
+      "Name": "Heathcote, Botsford and Lemke",
+      "DisplayName": "Upton, Schowalter and Hilll",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 988
+          "FieldType": "System.Int32",
+          "FieldLength": 195
         }
       }
     },
     {
-      "Name": "Nader-Adams",
-      "DisplayName": "Kunde Inc and Sons",
+      "Name": "Heathcote, Botsford and Lemke",
+      "DisplayName": "Upton, Schowalter and Hilll",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 988
+          "FieldType": "System.Int32",
+          "FieldLength": 195
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

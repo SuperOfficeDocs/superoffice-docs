@@ -57,6 +57,10 @@ The details of TicketTypeEntity to be saved.
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | Boolean | Is this Ticket Type marked as default |
+| ShowInNew | Boolean | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | Boolean | Do not insert user signature automatically |
+| ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 
 ## Response:
 
@@ -83,6 +87,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -96,24 +104,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 623,
-  "Name": "Mosciski Group",
-  "Rank": 969,
-  "Tooltip": "omnis",
-  "Icon": "ratione",
-  "DefaultTicketStatus": 510,
+  "TicketTypeId": 720,
+  "Name": "Bradtke LLC",
+  "Rank": 164,
+  "Tooltip": "delectus",
+  "Icon": "iure",
+  "DefaultTicketStatus": 224,
   "TicketStatuses": [
-    689,
-    622
+    792,
+    788
   ],
-  "DefaultTicketPriority": 358,
+  "DefaultTicketPriority": 551,
   "TicketPriorities": [
-    236,
-    799
+    408,
+    582
   ],
-  "ReplyTemplate": 670,
-  "IsExternalVisible": true,
-  "IsDefault": true
+  "ReplyTemplate": 236,
+  "IsExternalVisible": false,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false
 }
 ```
 
@@ -124,30 +136,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 868,
-  "Name": "Torp LLC",
-  "Rank": 915,
-  "Tooltip": "et",
-  "Icon": "accusamus",
-  "DefaultTicketStatus": 863,
+  "TicketTypeId": 799,
+  "Name": "Jacobson LLC",
+  "Rank": 73,
+  "Tooltip": "aliquid",
+  "Icon": "eveniet",
+  "DefaultTicketStatus": 273,
   "TicketStatuses": [
-    530,
-    404
+    663,
+    805
   ],
-  "DefaultTicketPriority": 208,
+  "DefaultTicketPriority": 255,
   "TicketPriorities": [
-    292,
-    11
+    608,
+    294
   ],
-  "ReplyTemplate": 253,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 141,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 566
     }
   }
 }

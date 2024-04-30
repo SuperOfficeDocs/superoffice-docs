@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 922,
-  "Name": "Friesen, Rutherford and Harber",
-  "Tooltip": "unde",
+  "Id": 718,
+  "Name": "Rau Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 303,
-  "Rank": 671
+  "UdListDefinitionId": 381,
+  "Rank": 801
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Roberts, Gleichner and Zulauf",
-  "Tooltip": "reprehenderit",
+  "Id": 506,
+  "Name": "Schuppe Group",
+  "Tooltip": "quod",
   "Deleted": true,
-  "UdListDefinitionId": 114,
-  "Rank": 303,
+  "UdListDefinitionId": 230,
+  "Rank": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 177
     }
   }
 }

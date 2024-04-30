@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 927,
-  "Name": "Sauer, Raynor and Hilll",
-  "CreatedDate": "2023-08-29T12:19:45.4141069+02:00",
-  "UpdatedDate": "2022-10-28T12:19:45.4141069+02:00",
+  "ForeignAppId": 418,
+  "Name": "Kerluke-Anderson",
+  "CreatedDate": "2013-04-12T11:44:33.7596833+02:00",
+  "UpdatedDate": "2022-06-14T11:44:33.7596833+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 41,
-      "Name": "Lind, Konopelski and Bednar",
-      "CreatedDate": "2021-08-11T12:19:45.4141069+02:00",
-      "UpdatedDate": "2012-04-28T12:19:45.4141069+02:00",
-      "AssociateFullName": "Jana Grady Jr.",
-      "CreatedBy": "ipsum",
-      "UpdatedBy": "accusantium",
-      "DeviceIdentifier": "impedit",
-      "ForeignAppId": 424,
+      "ForeignDeviceId": 412,
+      "Name": "Walker Group",
+      "CreatedDate": "2023-08-31T11:44:33.7596833+02:00",
+      "UpdatedDate": "2016-11-13T11:44:33.7596833+01:00",
+      "AssociateFullName": "Dr. Keanu Nellie Quigley",
+      "CreatedBy": "aut",
+      "UpdatedBy": "doloremque",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 534,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 713
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

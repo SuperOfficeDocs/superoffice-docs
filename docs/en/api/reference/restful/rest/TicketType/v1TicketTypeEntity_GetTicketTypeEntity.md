@@ -74,6 +74,10 @@ TicketTypeEntity found.
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -84,7 +88,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +98,34 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 239,
-  "Name": "O'Connell, Hackett and Pacocha",
-  "Rank": 828,
-  "Tooltip": "sint",
-  "Icon": "dicta",
-  "DefaultTicketStatus": 280,
+  "TicketTypeId": 1000,
+  "Name": "Kub, Ryan and Jast",
+  "Rank": 633,
+  "Tooltip": "deserunt",
+  "Icon": "expedita",
+  "DefaultTicketStatus": 939,
   "TicketStatuses": [
-    359,
-    276
+    562,
+    76
   ],
-  "DefaultTicketPriority": 725,
+  "DefaultTicketPriority": 130,
   "TicketPriorities": [
-    92,
-    204
+    464,
+    788
   ],
-  "ReplyTemplate": 883,
+  "ReplyTemplate": 903,
   "IsExternalVisible": false,
   "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 839
     }
   },
   "_Links": {

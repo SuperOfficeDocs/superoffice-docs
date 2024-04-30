@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=temporibus
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Heathcote, Krajcik and Stanton",
-    "ToolTip": "Molestias magni nobis voluptates possimus.",
-    "Deleted": true,
-    "Rank": 969,
-    "Type": "qui",
+    "Id": 512,
+    "Name": "Dickinson-Weber",
+    "ToolTip": "Ducimus et vel molestiae.",
+    "Deleted": false,
+    "Rank": 45,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Wilkinson-Parisian",
-        "ToolTip": "Repellendus eveniet hic.",
-        "Deleted": false,
-        "Rank": 152,
-        "Type": "debitis",
+        "Id": 620,
+        "Name": "Harvey-Davis",
+        "ToolTip": "Ratione fuga similique sit.",
+        "Deleted": true,
+        "Rank": 465,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 101,
-        "ExtraInfo": "enim",
-        "StyleHint": "ut",
-        "FullName": "Prof. Judson Grant",
+        "IconHint": "magni",
+        "ColorBlock": 393,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "expedita",
+        "FullName": "Billie Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 957
+            "FieldType": "System.String",
+            "FieldLength": 902
           }
         }
       }
     ],
-    "IconHint": "molestias",
-    "ColorBlock": 686,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "animi",
-    "FullName": "Sofia Muller",
+    "IconHint": "odio",
+    "ColorBlock": 145,
+    "ExtraInfo": "aut",
+    "StyleHint": "debitis",
+    "FullName": "Dr. Victoria Daren Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 426
       }
     }
   }

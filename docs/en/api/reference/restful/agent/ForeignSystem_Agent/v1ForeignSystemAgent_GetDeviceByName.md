@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Moen-Ebert",
-  "DeviceName": "Crist-Cormier"
+  "ApplicationName": "Langosh Inc and Sons",
+  "DeviceName": "Sipes LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 455,
-  "Name": "Sipes Group",
-  "CreatedDate": "2024-01-13T12:19:45.4141069+01:00",
-  "UpdatedDate": "2019-05-03T12:19:45.4141069+02:00",
-  "AssociateFullName": "Cyrus Schumm",
-  "CreatedBy": "ut",
-  "UpdatedBy": "ipsam",
-  "DeviceIdentifier": "nostrum",
-  "ForeignAppId": 67,
+  "ForeignDeviceId": 995,
+  "Name": "Macejkovic Group",
+  "CreatedDate": "2001-12-14T11:44:33.7596833+01:00",
+  "UpdatedDate": "2023-07-08T11:44:33.7596833+02:00",
+  "AssociateFullName": "Prof. Ibrahim Jerald McCullough",
+  "CreatedBy": "aliquam",
+  "UpdatedBy": "suscipit",
+  "DeviceIdentifier": "voluptates",
+  "ForeignAppId": 606,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

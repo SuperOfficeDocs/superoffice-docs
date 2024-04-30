@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 19 Jan 2006 12:19:53 G1T
+Last-Modified: Tue, 15 Mar 2005 11:44:42 G3T
 
 {
-  "Key": "nesciunt",
-  "Value": "ut",
-  "RecordId": 592,
-  "CreatedDate": "2018-05-20T12:19:53.6023745+02:00",
-  "UpdatedDate": "2006-01-19T12:19:53.6023745+01:00",
-  "UpdatedBy": "quaerat",
-  "CreatedBy": "amet",
-  "TableName": "Kozey Group",
+  "Key": "ullam",
+  "Value": "esse",
+  "RecordId": 793,
+  "CreatedDate": "2012-11-30T11:44:42.0077636+01:00",
+  "UpdatedDate": "2005-03-15T11:44:42.0077636+01:00",
+  "UpdatedBy": "sit",
+  "CreatedBy": "commodi",
+  "TableName": "Brown LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   }
 }

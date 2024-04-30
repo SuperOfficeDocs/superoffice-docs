@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Bogan, Reynolds and Jerde",
-  "StorageKey": "velit",
+  "StorageType": "fugit",
+  "ProviderName": "Lynch, Spencer and Kerluke",
+  "StorageKey": "dolore",
   "RestrictionGroups": [
     {
-      "Name": "Haley LLC",
-      "Description": "Implemented intermediate protocol",
-      "Rank": 718,
+      "Name": "Ondricka-Stanton",
+      "Description": "Expanded heuristic knowledge base",
+      "Rank": 432,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Haley LLC",
-      "Description": "Implemented intermediate protocol",
-      "Rank": 718,
+      "Name": "Ondricka-Stanton",
+      "Description": "Expanded heuristic knowledge base",
+      "Rank": 432,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "doloribus"
+  "Context": "corporis"
 }
 ```
 
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cruickshank, Littel and Hansen",
-    "Description": "Compatible non-volatile archive",
-    "Rank": 374,
+    "Name": "Tromp-Mitchell",
+    "Description": "Total incremental throughput",
+    "Rank": 46,
     "Restrictions": [
       {
-        "Name": "Dickens, Cummings and Maggio",
-        "Operator": "quos",
+        "Name": "Hackett-Auer",
+        "Operator": "culpa",
         "Values": [
-          "voluptatem",
-          "porro"
+          "placeat",
+          "perspiciatis"
         ],
         "DisplayValues": [
-          "perferendis",
-          "explicabo"
+          "provident",
+          "autem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 594,
+        "InterParenthesis": 364,
         "InterOperator": "And",
-        "UniqueHash": 978
+        "UniqueHash": 624
       }
     ]
   },
   {
-    "Name": "Cruickshank, Littel and Hansen",
-    "Description": "Compatible non-volatile archive",
-    "Rank": 374,
+    "Name": "Tromp-Mitchell",
+    "Description": "Total incremental throughput",
+    "Rank": 46,
     "Restrictions": [
       {
-        "Name": "Dickens, Cummings and Maggio",
-        "Operator": "quos",
+        "Name": "Hackett-Auer",
+        "Operator": "culpa",
         "Values": [
-          "voluptatem",
-          "porro"
+          "placeat",
+          "perspiciatis"
         ],
         "DisplayValues": [
-          "perferendis",
-          "explicabo"
+          "provident",
+          "autem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 594,
+        "InterParenthesis": 364,
         "InterOperator": "And",
-        "UniqueHash": 978
+        "UniqueHash": 624
       }
     ]
   }

@@ -79,11 +79,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 306,
-  "InstanceLayout": "voluptas",
-  "InstanceName": "Littel-DuBuque",
-  "CreatedDate": "2012-04-18T12:19:44.492435+02:00",
-  "UpdatedDate": "2005-07-30T12:19:44.492435+02:00",
+  "AudienceLayoutId": 62,
+  "InstanceLayout": "qui",
+  "InstanceName": "Koelpin, Shanahan and Dach",
+  "CreatedDate": "1999-07-14T11:44:32.806727+02:00",
+  "UpdatedDate": "1999-01-11T11:44:32.806727+01:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 596,
-  "InstanceLayout": "ea",
-  "InstanceName": "Murray Group",
-  "CreatedDate": "2023-11-01T12:19:44.5080652+01:00",
-  "UpdatedDate": "2018-06-01T12:19:44.5080652+02:00",
+  "AudienceLayoutId": 391,
+  "InstanceLayout": "explicabo",
+  "InstanceName": "Keebler LLC",
+  "CreatedDate": "2016-05-12T11:44:32.806727+02:00",
+  "UpdatedDate": "2012-10-18T11:44:32.806727+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 785
     }
   }
 }

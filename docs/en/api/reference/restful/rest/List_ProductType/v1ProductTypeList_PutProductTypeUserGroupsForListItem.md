@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Williamson-Waelchi",
-    "ToolTip": "Praesentium modi quisquam et.",
-    "Deleted": false,
-    "Rank": 574,
-    "Type": "asperiores",
-    "ColorBlock": 713,
-    "IconHint": "quis",
+    "Id": 751,
+    "Name": "Romaguera LLC",
+    "ToolTip": "Qui voluptatem dignissimos magnam quos dolorem.",
+    "Deleted": true,
+    "Rank": 831,
+    "Type": "quisquam",
+    "ColorBlock": 395,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2005-08-29T12:19:54.7271106+02:00",
+    "LastChanged": "2020-12-30T11:44:43.2106158+01:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Schultz, Tillman and Paucek",
-        "ToolTip": "Perspiciatis doloribus quis.",
+        "Id": 107,
+        "Name": "Feil, Beatty and Padberg",
+        "ToolTip": "Illum accusamus sit non repellendus.",
         "Deleted": true,
-        "Rank": 582,
-        "Type": "atque",
-        "ColorBlock": 543,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2010-11-12T12:19:54.7271106+01:00",
+        "Rank": 616,
+        "Type": "modi",
+        "ColorBlock": 586,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2022-01-27T11:44:43.2106158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "magni",
+        "ExtraInfo": "sequi",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Miss Electa O'Hara"
+        "FullName": "Charlie Fadel"
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Scarlett Rutherford"
+    "ExtraInfo": "illum",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Savanna Hickle"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Reilly-Cummings",
-    "ToolTip": "Ut sunt qui nemo non.",
-    "Deleted": false,
-    "Rank": 470,
-    "Type": "mollitia",
-    "ColorBlock": 640,
-    "IconHint": "hic",
+    "Id": 129,
+    "Name": "Torp-Ruecker",
+    "ToolTip": "Vel ut tempore eaque officiis et vel sequi.",
+    "Deleted": true,
+    "Rank": 503,
+    "Type": "rem",
+    "ColorBlock": 603,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2021-10-05T12:19:54.7271106+02:00",
+    "LastChanged": "2021-09-04T11:44:43.2106158+02:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Orn Inc and Sons",
-        "ToolTip": "Qui reprehenderit delectus omnis suscipit non cumque.",
+        "Id": 669,
+        "Name": "Kub LLC",
+        "ToolTip": "Maiores eius libero quod.",
         "Deleted": false,
-        "Rank": 635,
-        "Type": "porro",
-        "ColorBlock": 633,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2002-05-24T12:19:54.7271106+02:00",
+        "Rank": 226,
+        "Type": "reprehenderit",
+        "ColorBlock": 274,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2021-01-31T11:44:43.2106158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "rerum",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Mr. Olga Prosacco",
+        "FullName": "Hanna Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldLength": 596
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "dolores",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Prof. Jasmin D'Amore V",
+    "FullName": "Blanche Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldLength": 972
       }
     }
   }

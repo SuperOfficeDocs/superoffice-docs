@@ -148,51 +148,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 690,
-  "ERPProductKey": "quasi",
-  "ERPPriceListKey": "quia",
-  "Name": "Johnson-Spinka",
-  "Description": "Virtual global software",
-  "Code": "veniam",
-  "PriceUnit": "officia",
-  "QuantityUnit": "rerum",
+  "ProductId": 126,
+  "ERPProductKey": "cum",
+  "ERPPriceListKey": "culpa",
+  "Name": "Kozey-Kling",
+  "Description": "Assimilated explicit monitoring",
+  "Code": "sit",
+  "PriceUnit": "nisi",
+  "QuantityUnit": "consequatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "laudantium",
-  "DefaultSubscriptionQuantity": 18847.876,
-  "ItemNumber": "1885438",
+  "SubscriptionUnit": "similique",
+  "DefaultSubscriptionQuantity": 17578.606,
+  "ItemNumber": "1766248",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "harum",
-  "ProductTypeKey": "voluptas",
-  "VAT": 11755.634,
-  "VATInfo": "ut",
-  "UnitCost": 14256.565999999999,
-  "UnitMinimumPrice": 26143.827999999998,
-  "UnitListPrice": 22470.78,
-  "InAssortment": true,
-  "Supplier": "nisi",
-  "SupplierCode": "ut",
-  "Rights": "sunt",
-  "Rule": "dolorem",
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "accusamus",
+  "VAT": 25523.296,
+  "VATInfo": "et",
+  "UnitCost": 17067.764,
+  "UnitMinimumPrice": 18644.166,
+  "UnitListPrice": 30960.786,
+  "InAssortment": false,
+  "Supplier": "beatae",
+  "SupplierCode": "facilis",
+  "Rights": "qui",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Monahan, Runte and Dare",
-      "Value": "rerum",
+      "Name": "Jacobs, Lueilwitz and Fahey",
+      "Value": "et",
       "Type": "Image"
     },
     {
-      "Name": "Monahan, Runte and Dare",
-      "Value": "rerum",
+      "Name": "Jacobs, Lueilwitz and Fahey",
+      "Value": "et",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "mollitia",
-  "ExtraField1": "sed",
-  "ExtraField2": "sit",
-  "ExtraField3": "exercitationem",
-  "ExtraField4": "ea",
-  "ExtraField5": "adipisci",
-  "InStock": 20925.718
+  "RawExtraInfo": "nam",
+  "ExtraField1": "est",
+  "ExtraField2": "sed",
+  "ExtraField3": "quam",
+  "ExtraField4": "autem",
+  "ExtraField5": "placeat",
+  "InStock": 25886.84
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 692,
-  "ERPProductKey": "vel",
-  "ERPPriceListKey": "vel",
-  "Name": "Green LLC",
-  "Description": "Face to face interactive initiative",
-  "Code": "occaecati",
-  "PriceUnit": "itaque",
-  "QuantityUnit": "aut",
+  "ProductId": 220,
+  "ERPProductKey": "ad",
+  "ERPPriceListKey": "sint",
+  "Name": "Cronin Group",
+  "Description": "Ergonomic value-added definition",
+  "Code": "quasi",
+  "PriceUnit": "est",
+  "QuantityUnit": "architecto",
   "IsSubscription": false,
-  "SubscriptionUnit": "assumenda",
-  "DefaultSubscriptionQuantity": 22849.994,
-  "ItemNumber": "1589013",
+  "SubscriptionUnit": "quaerat",
+  "DefaultSubscriptionQuantity": 6863.46,
+  "ItemNumber": "1093565",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "eveniet",
-  "VAT": 25372.863999999998,
-  "VATInfo": "quaerat",
-  "UnitCost": 4359.394,
-  "UnitMinimumPrice": 7609.352,
-  "UnitListPrice": 1121.972,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "aut",
+  "VAT": 29133.664,
+  "VATInfo": "voluptatem",
+  "UnitCost": 14971.118,
+  "UnitMinimumPrice": 6283.67,
+  "UnitListPrice": 7621.888,
   "InAssortment": false,
-  "Supplier": "corporis",
-  "SupplierCode": "dolorem",
-  "Rights": "assumenda",
-  "Rule": "tempora",
+  "Supplier": "deserunt",
+  "SupplierCode": "accusantium",
+  "Rights": "totam",
+  "Rule": "velit",
   "ExtraInfo": [
     {
-      "Name": "Johnson-Larson",
-      "Value": "architecto",
+      "Name": "Smitham Group",
+      "Value": "vero",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldType": "System.Int32",
+          "FieldLength": 438
         }
       }
     },
     {
-      "Name": "Johnson-Larson",
-      "Value": "architecto",
+      "Name": "Smitham Group",
+      "Value": "vero",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldType": "System.Int32",
+          "FieldLength": 438
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "quis",
-  "ExtraField2": "tenetur",
-  "ExtraField3": "quisquam",
-  "ExtraField4": "eaque",
-  "ExtraField5": "suscipit",
-  "InStock": 18380.91,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "nihil",
+  "ExtraField2": "adipisci",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "cum",
+  "ExtraField5": "esse",
+  "InStock": 2538.54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldLength": 734
     }
   }
 }

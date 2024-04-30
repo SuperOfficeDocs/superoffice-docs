@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=quisquam
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=nostrum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Johnson LLC",
-    "ToolTip": "Mollitia quisquam et sunt officia.",
+    "Id": 695,
+    "Name": "Terry-Legros",
+    "ToolTip": "Atque mollitia dicta veniam.",
     "Deleted": true,
-    "Rank": 82,
-    "Type": "molestias",
+    "Rank": 552,
+    "Type": "vitae",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Bradtke, Hilll and Conn",
-        "ToolTip": "Maiores veniam explicabo debitis harum laborum explicabo.",
+        "Id": 273,
+        "Name": "Bayer-Osinski",
+        "ToolTip": "Possimus enim non omnis.",
         "Deleted": false,
-        "Rank": 748,
-        "Type": "architecto",
+        "Rank": 709,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 599,
-        "ExtraInfo": "minus",
-        "StyleHint": "magni",
-        "FullName": "Corene Laurie Larson Sr.",
+        "IconHint": "illum",
+        "ColorBlock": 496,
+        "ExtraInfo": "impedit",
+        "StyleHint": "cum",
+        "FullName": "Tyshawn Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 660
+            "FieldType": "System.Int32",
+            "FieldLength": 945
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 449,
-    "ExtraInfo": "iusto",
-    "StyleHint": "et",
-    "FullName": "Prof. Adeline Sporer V",
+    "IconHint": "minus",
+    "ColorBlock": 978,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "quos",
+    "FullName": "Mrs. Miles Francesco Koelpin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 599
+        "FieldType": "System.Int32",
+        "FieldLength": 72
       }
     }
   }

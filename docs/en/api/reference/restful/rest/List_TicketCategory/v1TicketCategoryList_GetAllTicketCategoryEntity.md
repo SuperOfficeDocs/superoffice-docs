@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 353,
-    "ParentId": 45,
-    "Name": "Abernathy-Lemke",
-    "Fullname": "et",
-    "CategoryMaster": 971,
+    "TicketCategoryId": 212,
+    "ParentId": 167,
+    "Name": "Dare-Roob",
+    "Fullname": "sit",
+    "CategoryMaster": 733,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Wehner-Maggio",
+    "ExternalName": "Reichert, Bergnaum and Schinner",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 987,
-    "ReplyTemplate": 358,
-    "NotificationEmail": "lula_haley@rutherford.co.uk",
+    "AssignmentLag": 936,
+    "ReplyTemplate": 799,
+    "NotificationEmail": "alexandra.kilback@kulas.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 240,
+    "EffectiveReplyTemplateId": 460,
     "ExtraFields": {
-      "ExtraFields1": "modi",
-      "ExtraFields2": "est"
+      "ExtraFields1": "molestias",
+      "ExtraFields2": "soluta"
     },
     "CustomFields": {
-      "CustomFields1": "omnis",
-      "CustomFields2": "earum"
+      "CustomFields1": "facilis",
+      "CustomFields2": "velit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

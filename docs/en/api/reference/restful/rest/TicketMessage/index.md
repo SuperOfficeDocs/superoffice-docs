@@ -30,6 +30,8 @@ generated: true
 
 * [GET TicketMessage/{id}/Attachment/Noninline](v1TicketMessageEntity_GetAttachmentInfoNonInline.md)
 
+* [GET TicketMessage/RfcAttachment/{id}/{position}](v1TicketMessageEntity_GetRfcAttachmentStream.md)
+
 * [POST TicketMessage/{id}/Send](v1TicketMessageEntity_SendTicketMessage.md)
 
 * [POST TicketMessage/{id}/SendSms](v1TicketMessageEntity_SendTicketMessageSms.md)

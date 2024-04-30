@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Runolfsdottir Inc and Sons",
-  "Comment": "ut",
-  "StakeholderRoleId": 425,
-  "CountryId": 736,
-  "PersonId": 515,
-  "EmailDescription": "georgianna@olson.us",
-  "EmailId": 734,
-  "EmailAddress": "madaline_anderson@gulgowski.us",
-  "PhoneId": 243,
-  "ContactName": "Champlin Group",
-  "ContactId": 365,
-  "SaleId": 852,
-  "Mrmrs": "doloribus",
-  "Firstname": "Meda",
-  "MiddleName": "Krajcik Group",
-  "Lastname": "Breitenberg",
-  "SaleStakeholderId": 887,
-  "Rank": 109,
-  "Phone": "328-209-6029"
+  "StakeholderRoleName": "Pollich Group",
+  "Comment": "itaque",
+  "StakeholderRoleId": 292,
+  "CountryId": 755,
+  "PersonId": 940,
+  "EmailDescription": "kaela@considineharvey.name",
+  "EmailId": 663,
+  "EmailAddress": "stewart@schmittbuckridge.info",
+  "PhoneId": 87,
+  "ContactName": "Torphy-Ortiz",
+  "ContactId": 54,
+  "SaleId": 396,
+  "Mrmrs": "vel",
+  "Firstname": "Eleonore",
+  "MiddleName": "Batz Inc and Sons",
+  "Lastname": "Bernhard",
+  "SaleStakeholderId": 399,
+  "Rank": 877,
+  "Phone": "(809)691-0674"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Carroll Inc and Sons",
-  "Comment": "laudantium",
-  "StakeholderRoleId": 28,
-  "CountryId": 892,
-  "PersonId": 784,
-  "EmailDescription": "devyn@wiegand.uk",
-  "EmailId": 389,
-  "EmailAddress": "eulah@wyman.name",
-  "PhoneId": 997,
-  "ContactName": "Feeney-Ankunding",
-  "ContactId": 257,
-  "SaleId": 116,
-  "Mrmrs": "et",
-  "Firstname": "Garth",
-  "MiddleName": "Strosin-Gusikowski",
-  "Lastname": "Jerde",
-  "SaleStakeholderId": 629,
-  "Rank": 958,
-  "Phone": "1-891-141-9735 x243",
+  "StakeholderRoleName": "Dietrich, Paucek and Kuhic",
+  "Comment": "qui",
+  "StakeholderRoleId": 106,
+  "CountryId": 21,
+  "PersonId": 456,
+  "EmailDescription": "tierra.maggio@bode.name",
+  "EmailId": 747,
+  "EmailAddress": "newton@kutch.biz",
+  "PhoneId": 883,
+  "ContactName": "Ernser Inc and Sons",
+  "ContactId": 180,
+  "SaleId": 275,
+  "Mrmrs": "minima",
+  "Firstname": "Gretchen",
+  "MiddleName": "Grady-Flatley",
+  "Lastname": "Pfannerstill",
+  "SaleStakeholderId": 300,
+  "Rank": 136,
+  "Phone": "162.574.0618",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 112
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

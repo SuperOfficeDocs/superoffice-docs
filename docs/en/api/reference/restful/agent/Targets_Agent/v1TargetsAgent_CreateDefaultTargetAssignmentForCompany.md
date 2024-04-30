@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 683,
+  "TargetAssignmentInfoId": 438,
   "Values": [
-    626,
-    848
+    787,
+    817
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 191,
-  "DimensionListItemDisplayName": "Rempel-Zieme",
+  "DimensionListItem": 717,
+  "DimensionListItemDisplayName": "Will, Swaniawski and Howe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 692
     }
   }
 }

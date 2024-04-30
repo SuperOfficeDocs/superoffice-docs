@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 730,
-    "Tooltip": "odit",
+    "Total": 247,
+    "Tooltip": "numquam",
     "CanAssign": false,
-    "Free": 161,
-    "InUse": 197,
+    "Free": 443,
+    "InUse": 93,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 518,
-    "Name": "Kertzmann, Trantow and Gibson",
-    "Description": "Ergonomic fault-tolerant focus group",
-    "PrerequisiteModuleName": "Moore-Will",
-    "SortOrder": 835,
-    "ExtraFlags": 865,
+    "Assigned": false,
+    "ModuleLicenseId": 717,
+    "Name": "Streich LLC",
+    "Description": "User-friendly zero administration system engine",
+    "PrerequisiteModuleName": "Kozey-Schuster",
+    "SortOrder": 378,
+    "ExtraFlags": 441,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 301
       }
     }
   }

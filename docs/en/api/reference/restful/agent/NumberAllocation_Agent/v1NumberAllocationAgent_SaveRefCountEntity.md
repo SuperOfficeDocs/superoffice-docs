@@ -87,34 +87,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 296,
-  "Field": "aut",
-  "RecordId": 1002,
+  "RefCountsId": 11,
+  "Field": "ducimus",
+  "RecordId": 476,
   "SuggestedRecords": [
     {
-      "Id": 326,
-      "Name": "Oberbrunner-Yundt",
-      "ToolTip": "Ipsum unde dicta numquam illo.",
+      "Id": 671,
+      "Name": "Shields, Feest and Langosh",
+      "ToolTip": "Necessitatibus commodi quos.",
       "Deleted": false,
-      "Rank": 31,
-      "Type": "neque",
+      "Rank": 27,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "tempore",
-      "ColorBlock": 503,
-      "ExtraInfo": "sit",
-      "StyleHint": "facilis",
-      "FullName": "Rashad Botsford"
+      "IconHint": "debitis",
+      "ColorBlock": 139,
+      "ExtraInfo": "non",
+      "StyleHint": "odit",
+      "FullName": "Casper Crona"
     }
   ],
-  "CurrentValue": 270,
-  "TravelPrefix": 704,
-  "SatPrefix": 483,
-  "Allocate": true,
+  "CurrentValue": 267,
+  "TravelPrefix": 283,
+  "SatPrefix": 224,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": true
 }
 ```
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 896,
-  "Field": "at",
-  "RecordId": 283,
+  "RefCountsId": 699,
+  "Field": "distinctio",
+  "RecordId": 940,
   "SuggestedRecords": [
     {
-      "Id": 123,
-      "Name": "Adams, Krajcik and Corwin",
-      "ToolTip": "Sequi deleniti non et laudantium vel repudiandae.",
+      "Id": 800,
+      "Name": "Smith, Pacocha and Stracke",
+      "ToolTip": "Sunt quisquam autem dignissimos.",
       "Deleted": false,
-      "Rank": 179,
-      "Type": "dolores",
+      "Rank": 854,
+      "Type": "ducimus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eaque",
-      "ColorBlock": 749,
-      "ExtraInfo": "nostrum",
-      "StyleHint": "quo",
-      "FullName": "Mortimer Carter",
+      "IconHint": "magnam",
+      "ColorBlock": 125,
+      "ExtraInfo": "at",
+      "StyleHint": "qui",
+      "FullName": "Mr. Frida Finn Buckridge DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 207
         }
       }
     }
   ],
-  "CurrentValue": 548,
-  "TravelPrefix": 132,
-  "SatPrefix": 202,
-  "Allocate": false,
-  "Unique": false,
+  "CurrentValue": 192,
+  "TravelPrefix": 325,
+  "SatPrefix": 701,
+  "Allocate": true,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 240
     }
   }
 }

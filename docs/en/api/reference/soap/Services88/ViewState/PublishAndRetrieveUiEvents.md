@@ -48,7 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <ViewState:EntityKey xsi:type="xsd:int">0</ViewState:EntityKey>
       <ViewState:AssociateId xsi:type="xsd:int">0</ViewState:AssociateId>
       <ViewState:AssociateName xsi:type="xsd:string"></ViewState:AssociateName>
-      <ViewState:EventDateTime xsi:type="xsd:dateTime">2024-03-20T11:19:27Z</ViewState:EventDateTime>
+      <ViewState:EventDateTime xsi:type="xsd:dateTime">2024-04-02T09:44:15Z</ViewState:EventDateTime>
      </ViewState:UiEvent>
     </ViewState:PublishEvents>
     <ViewState:Metrics xsi:type="ViewState:ArrayOfMetricPair">
@@ -87,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ViewState:EntityKey xsi:type="xsd:int">0</ViewState:EntityKey>
      <ViewState:AssociateId xsi:type="xsd:int">0</ViewState:AssociateId>
      <ViewState:AssociateName xsi:type="xsd:string"></ViewState:AssociateName>
-     <ViewState:EventDateTime xsi:type="xsd:dateTime">2024-03-20T11:19:27Z</ViewState:EventDateTime>
+     <ViewState:EventDateTime xsi:type="xsd:dateTime">2024-04-02T09:44:15Z</ViewState:EventDateTime>
     </ViewState:UiEvent>
    </ViewState:Response>
   </ViewState:PublishAndRetrieveUiEventsResponse>

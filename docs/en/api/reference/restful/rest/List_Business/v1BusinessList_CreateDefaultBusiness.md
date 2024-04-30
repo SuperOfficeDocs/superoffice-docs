@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 138,
-  "Name": "Ritchie, Blick and Sanford",
-  "Tooltip": "aut",
+  "Id": 848,
+  "Name": "Jaskolski-Cummings",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 59,
-  "Rank": 312,
+  "UdListDefinitionId": 490,
+  "Rank": 523,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 437
     }
   }
 }

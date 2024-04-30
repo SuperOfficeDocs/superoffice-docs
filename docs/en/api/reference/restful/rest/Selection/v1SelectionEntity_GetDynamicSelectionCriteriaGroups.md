@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Carter LLC",
-    "Description": "Inverse empowering time-frame",
-    "Rank": 312,
+    "Name": "Bode-Aufderhar",
+    "Description": "Customizable bottom-line Graphical User Interface",
+    "Rank": 905,
     "Restrictions": [
       {
-        "Name": "Erdman, Wisoky and VonRueden",
-        "Operator": "omnis",
+        "Name": "Morar-Tromp",
+        "Operator": "minima",
         "Values": [
-          "molestiae",
-          "cum"
+          "numquam",
+          "eveniet"
         ],
         "DisplayValues": [
-          "non",
-          "qui"
+          "animi",
+          "velit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 920,
+        "InterParenthesis": 57,
         "InterOperator": "And",
-        "UniqueHash": 925
+        "UniqueHash": 833
       }
     ]
   },
   {
-    "Name": "Carter LLC",
-    "Description": "Inverse empowering time-frame",
-    "Rank": 312,
+    "Name": "Bode-Aufderhar",
+    "Description": "Customizable bottom-line Graphical User Interface",
+    "Rank": 905,
     "Restrictions": [
       {
-        "Name": "Erdman, Wisoky and VonRueden",
-        "Operator": "omnis",
+        "Name": "Morar-Tromp",
+        "Operator": "minima",
         "Values": [
-          "molestiae",
-          "cum"
+          "numquam",
+          "eveniet"
         ],
         "DisplayValues": [
-          "non",
-          "qui"
+          "animi",
+          "velit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 920,
+        "InterParenthesis": 57,
         "InterOperator": "And",
-        "UniqueHash": 925
+        "UniqueHash": 833
       }
     ]
   }

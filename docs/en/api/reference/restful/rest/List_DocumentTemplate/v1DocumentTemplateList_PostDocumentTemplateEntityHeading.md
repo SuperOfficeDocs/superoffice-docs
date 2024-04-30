@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 371,
-  "Name": "Johnston LLC",
+  "HeadingId": 573,
+  "Name": "Purdy Group",
   "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 444,
-  "UdListDefinitionId": 163
+  "Deleted": true,
+  "Rank": 255,
+  "UdListDefinitionId": 486
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 867,
-  "Name": "Heathcote, Morar and Gerlach",
-  "Tooltip": "asperiores",
+  "HeadingId": 962,
+  "Name": "Steuber LLC",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 776,
-  "UdListDefinitionId": 676,
+  "Rank": 37,
+  "UdListDefinitionId": 64,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 75
     }
   }
 }

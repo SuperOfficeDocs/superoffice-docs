@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 611,
-  "LookupAddresses": false,
+  "MessageServerId": 82,
+  "LookupAddresses": true,
   "Flags": "Answered",
   "IncludeAttachments": false
 }
@@ -125,97 +125,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 298,
-      "ContactName": "Gleason-Koelpin",
-      "PersonId": 227,
-      "PersonName": "Hauck LLC",
-      "AssociateId": 495,
-      "Address": "cumque",
-      "EmailId": 643,
+      "ContactId": 350,
+      "ContactName": "DuBuque, Rau and West",
+      "PersonId": 252,
+      "PersonName": "Luettgen, Heidenreich and Spencer",
+      "AssociateId": 77,
+      "Address": "tempora",
+      "EmailId": 365,
       "DuplicatePersonIds": [
-        665,
-        268
+        648,
+        54
       ],
-      "Name": "Batz-Hauck",
+      "Name": "Lakin-Kihn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 809
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 306,
-      "ContactName": "Emmerich-Dietrich",
-      "PersonId": 603,
-      "PersonName": "Vandervort Group",
-      "AssociateId": 100,
-      "Address": "est",
-      "EmailId": 962,
+      "ContactId": 738,
+      "ContactName": "Lebsack, Mann and Streich",
+      "PersonId": 860,
+      "PersonName": "Nitzsche LLC",
+      "AssociateId": 470,
+      "Address": "minus",
+      "EmailId": 466,
       "DuplicatePersonIds": [
-        654,
-        572
+        795,
+        452
       ],
-      "Name": "Ruecker-Bashirian",
+      "Name": "Reichert-Wilderman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 979,
-      "ContactName": "Johns-Purdy",
-      "PersonId": 903,
-      "PersonName": "Leuschke-Emard",
-      "AssociateId": 25,
-      "Address": "consequuntur",
-      "EmailId": 712,
+      "ContactId": 781,
+      "ContactName": "Cruickshank Inc and Sons",
+      "PersonId": 185,
+      "PersonName": "Rodriguez, Macejkovic and Blick",
+      "AssociateId": 877,
+      "Address": "quas",
+      "EmailId": 941,
       "DuplicatePersonIds": [
-        40,
-        907
+        578,
+        208
       ],
-      "Name": "Terry, Runte and Hahn",
+      "Name": "Moen, Morar and Kertzmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 347
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "aut",
+  "Subject": "maiores",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2019-11-09T12:19:45.3047627+01:00",
-  "Size": 682,
+  "Sent": "2004-11-08T11:44:33.6503221+01:00",
+  "Size": 208,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repellat",
-  "PlainBody": "at",
-  "IsSent": false,
+  "MessageID": "pariatur",
+  "PlainBody": "voluptas",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 339,
+  "ServerId": 705,
   "Attachments": [
     {
-      "Description": "Optional tertiary moratorium",
-      "Filename": "quas",
-      "Size": 126,
-      "Type": "officia",
-      "Encoding": "laborum",
-      "Id": "dolorem",
-      "Disposition": "qui",
+      "Description": "Multi-layered impactful paradigm",
+      "Filename": "possimus",
+      "Size": 363,
+      "Type": "deleniti",
+      "Encoding": "nam",
+      "Id": "in",
+      "Disposition": "labore",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,49 +223,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 982
+          "FieldLength": 320
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Langosh LLC",
+      "Name": "Beatty Inc and Sons",
       "Values": [
-        "ad",
-        "occaecati"
+        "voluptatibus",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldLength": 638
         }
       }
     },
     {
-      "Name": "Langosh LLC",
+      "Name": "Beatty Inc and Sons",
       "Values": [
-        "ad",
-        "occaecati"
+        "voluptatibus",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldLength": 638
         }
       }
     }
   ],
-  "FolderName": "Koelpin, King and Wolff",
-  "EmailItemId": 337,
-  "AccountId": 193,
-  "ReceivedAt": "2022-05-27T12:19:45.3047627+02:00",
+  "FolderName": "Kilback Inc and Sons",
+  "EmailItemId": 340,
+  "AccountId": 709,
+  "ReceivedAt": "1997-08-27T11:44:33.6503221+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-09-30T12:19:45.3047627+02:00",
+  "RepliedAt": "2015-08-10T11:44:33.6503221+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

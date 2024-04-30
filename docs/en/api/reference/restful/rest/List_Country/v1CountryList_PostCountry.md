@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 648,
-  "Name": "Abshire-Considine",
-  "CurrencyId": 170,
-  "EnglishName": "Blanda-Klein",
+  "CountryId": 576,
+  "Name": "Dooley-Schmitt",
+  "CurrencyId": 279,
+  "EnglishName": "Yundt LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Optional multi-state methodology",
-  "OrgNrText": "345305",
-  "InterAreaPrefix": "beatae",
-  "DialInPrefix": "dicta",
-  "ZipPrefix": "perspiciatis",
-  "DomainName": "Johns, Ritchie and Kris",
-  "AddressLayoutId": 312,
-  "DomesticAddressLayoutId": 542,
-  "ForeignAddressLayoutId": 59,
-  "Rank": 177,
-  "Tooltip": "earum",
+  "ImageDescription": "Team-oriented logistical approach",
+  "OrgNrText": "1306849",
+  "InterAreaPrefix": "blanditiis",
+  "DialInPrefix": "reiciendis",
+  "ZipPrefix": "id",
+  "DomainName": "Steuber-Bahringer",
+  "AddressLayoutId": 346,
+  "DomesticAddressLayoutId": 27,
+  "ForeignAddressLayoutId": 147,
+  "Rank": 121,
+  "Tooltip": "quod",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 239,
-  "Name": "Sanford LLC",
-  "CurrencyId": 543,
-  "EnglishName": "Gaylord-Jacobs",
+  "CountryId": 361,
+  "Name": "Beier-Emard",
+  "CurrencyId": 506,
+  "EnglishName": "Bogan-Hegmann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Mandatory clear-thinking capability",
-  "OrgNrText": "1599781",
-  "InterAreaPrefix": "voluptatem",
+  "ImageDescription": "Managed high-level hierarchy",
+  "OrgNrText": "1080860",
+  "InterAreaPrefix": "eaque",
   "DialInPrefix": "est",
-  "ZipPrefix": "officia",
-  "DomainName": "Bradtke, Bruen and Wilderman",
-  "AddressLayoutId": 179,
-  "DomesticAddressLayoutId": 917,
-  "ForeignAddressLayoutId": 848,
-  "Rank": 801,
-  "Tooltip": "fugit",
-  "Deleted": true,
+  "ZipPrefix": "quibusdam",
+  "DomainName": "Schaden, Hand and Konopelski",
+  "AddressLayoutId": 32,
+  "DomesticAddressLayoutId": 337,
+  "ForeignAddressLayoutId": 549,
+  "Rank": 75,
+  "Tooltip": "sed",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 592
     }
   }
 }

@@ -95,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatibus",
-  "Key": "et"
+  "Section": "ut",
+  "Key": "minima"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 377,
-  "Section": "quia",
-  "Key": "voluptate",
-  "Name": "Ferry, Klocko and Sanford",
+  "PrefDescId": 75,
+  "Section": "non",
+  "Key": "aut",
+  "Name": "Rodriguez, Sporer and Nienow",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered uniform definition",
-  "IsBuiltin": true,
-  "TableName": "Brekke, Blanda and Waelchi",
-  "UserDefinedListId": 841,
-  "Rank": 280,
-  "SubGroup": "rerum",
-  "MinLevel": 112,
-  "MaxValue": 887,
-  "MinValue": 117,
-  "RequiredLicense": "aliquam",
+  "Description": "Reduced tertiary budgetary management",
+  "IsBuiltin": false,
+  "TableName": "Von-Abbott",
+  "UserDefinedListId": 474,
+  "Rank": 748,
+  "SubGroup": "blanditiis",
+  "MinLevel": 494,
+  "MaxValue": 880,
+  "MinValue": 917,
+  "RequiredLicense": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   }
 }

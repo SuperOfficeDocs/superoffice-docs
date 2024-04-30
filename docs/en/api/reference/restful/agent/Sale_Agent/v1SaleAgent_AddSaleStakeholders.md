@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 313,
+  "SaleId": 417,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wehner-Jast",
-      "Comment": "architecto",
-      "StakeholderRoleId": 147,
-      "CountryId": 102,
-      "PersonId": 885,
-      "EmailDescription": "clementina@kunde.com",
-      "EmailId": 419,
-      "EmailAddress": "amina@jacobson.com",
-      "PhoneId": 193,
-      "ContactName": "Rogahn, Weissnat and Schowalter",
-      "ContactId": 351,
-      "SaleId": 191,
-      "Mrmrs": "officia",
-      "Firstname": "Alf",
-      "MiddleName": "Stark-Conn",
-      "Lastname": "Willms",
-      "SaleStakeholderId": 887,
-      "Rank": 878,
-      "Phone": "1-418-694-8192"
+      "StakeholderRoleName": "Sanford, Crona and Denesik",
+      "Comment": "eum",
+      "StakeholderRoleId": 193,
+      "CountryId": 491,
+      "PersonId": 595,
+      "EmailDescription": "terrell_cronin@grant.info",
+      "EmailId": 143,
+      "EmailAddress": "nels@kling.info",
+      "PhoneId": 507,
+      "ContactName": "Kerluke-Bashirian",
+      "ContactId": 785,
+      "SaleId": 635,
+      "Mrmrs": "ea",
+      "Firstname": "Shanna",
+      "MiddleName": "Will, Hessel and Eichmann",
+      "Lastname": "Schulist",
+      "SaleStakeholderId": 614,
+      "Rank": 640,
+      "Phone": "782.601.2195 x46976"
     }
   ]
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 964,
-  "Name": "Ziemann-Kirlin",
-  "Tooltip": "sit",
+  "Id": 658,
+  "Name": "Wiegand Group",
+  "Tooltip": "expedita",
   "Deleted": true,
-  "UdListDefinitionId": 97,
-  "Rank": 928,
+  "UdListDefinitionId": 743,
+  "Rank": 541,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldLength": 936
     }
   }
 }

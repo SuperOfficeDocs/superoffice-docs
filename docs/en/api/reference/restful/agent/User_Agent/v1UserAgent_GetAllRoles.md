@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Prosacco-Pacocha",
-    "ToolTip": "Tempore quisquam quis enim aut rerum.",
+    "Id": 422,
+    "Name": "Fisher-Zemlak",
+    "ToolTip": "Consequatur corporis occaecati et qui excepturi totam facere.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "aut",
-    "ColorBlock": 812,
-    "IconHint": "excepturi",
+    "Rank": 777,
+    "Type": "maxime",
+    "ColorBlock": 691,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "1999-10-15T12:19:46.5857106+02:00",
+    "LastChanged": "2004-03-23T11:44:34.9625302+01:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Simonis LLC",
-        "ToolTip": "Debitis consequatur quo.",
+        "Id": 816,
+        "Name": "Bednar-Wiegand",
+        "ToolTip": "Eius iure veritatis quis nemo est sed.",
         "Deleted": true,
-        "Rank": 1002,
-        "Type": "labore",
-        "ColorBlock": 685,
-        "IconHint": "ipsam",
+        "Rank": 130,
+        "Type": "saepe",
+        "ColorBlock": 426,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2003-12-16T12:19:46.5857106+01:00",
+        "LastChanged": "2004-07-06T11:44:34.9625302+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Beulah Fay",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Sherwood Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 111
+            "FieldType": "System.String",
+            "FieldLength": 610
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Elwin Feeney",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Issac Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 661
       }
     }
   }

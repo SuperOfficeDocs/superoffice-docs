@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 454,
-  "NewName": "Hoppe, Marvin and Weissnat",
-  "ValidFrom": "2008-10-08T12:19:46.0701997+02:00",
-  "ValidTo": "2005-04-14T12:19:46.0701997+02:00",
-  "NewCurrencyId": 727,
+  "OriginalPriceListId": 852,
+  "NewName": "Schroeder, Satterfield and Marquardt",
+  "ValidFrom": "1998-02-02T11:44:34.2595569+01:00",
+  "ValidTo": "2016-01-04T11:44:34.2595569+01:00",
+  "NewCurrencyId": 252,
   "ConvertCurrency": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 43,
-  "ERPPriceListKey": "maxime",
-  "QuoteConnectionId": 198,
-  "Name": "Feeney, Goodwin and Towne",
-  "Description": "Multi-tiered actuating open architecture",
-  "Currency": "modi",
-  "CurrencyName": "Hyatt-Mitchell",
-  "ValidFrom": "2021-01-04T12:19:46.0701997+01:00",
-  "ValidTo": "2015-02-19T12:19:46.0701997+01:00",
+  "PriceListId": 56,
+  "ERPPriceListKey": "est",
+  "QuoteConnectionId": 604,
+  "Name": "Feil, Zieme and Hansen",
+  "Description": "User-centric web-enabled knowledge base",
+  "Currency": "voluptatem",
+  "CurrencyName": "Von LLC",
+  "ValidFrom": "2003-03-16T11:44:34.2595569+01:00",
+  "ValidTo": "2006-10-14T11:44:34.2595569+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 15
     }
   }
 }

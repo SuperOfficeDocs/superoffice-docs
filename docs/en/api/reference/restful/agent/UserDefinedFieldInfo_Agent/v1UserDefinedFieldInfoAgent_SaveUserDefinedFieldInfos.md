@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 80,
-      "ColumnId": 920,
-      "FieldDefault": "reprehenderit",
-      "FieldHeight": 857,
-      "FieldLabel": "nisi",
-      "FieldLeft": 500,
-      "FieldTop": 42,
+      "UDefFieldId": 415,
+      "ColumnId": 499,
+      "FieldDefault": "aliquid",
+      "FieldHeight": 364,
+      "FieldLabel": "fugiat",
+      "FieldLeft": 508,
+      "FieldTop": 660,
       "FieldType": "Checkbox",
-      "FieldWidth": 755,
-      "FormatMask": "voluptatem",
-      "HideLabel": true,
+      "FieldWidth": 72,
+      "FormatMask": "est",
+      "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 937,
-      "LabelLeft": 53,
-      "LabelTop": 362,
-      "LabelWidth": 458,
-      "LastVersionId": 759,
-      "ListTableId": 430,
+      "LabelHeight": 753,
+      "LabelLeft": 954,
+      "LabelTop": 952,
+      "LabelWidth": 119,
+      "LastVersionId": 483,
+      "ListTableId": 708,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 762,
-      "ProgId": "nam",
-      "IsReadOnly": false,
-      "ShortLabel": "esse",
-      "TabOrder": 20,
-      "TextLength": 228,
-      "Tooltip": "sunt",
-      "UdefIdentity": 793,
-      "UDListDefinitionId": 650,
+      "Page1LineNo": 510,
+      "ProgId": "fuga",
+      "IsReadOnly": true,
+      "ShortLabel": "repellat",
+      "TabOrder": 970,
+      "TextLength": 62,
+      "Tooltip": "dolores",
+      "UdefIdentity": 594,
+      "UDListDefinitionId": 532,
       "Justification": "Center",
-      "Version": 166,
-      "TemplateVariableName": "Mayer, Schmidt and Gutkowski",
-      "HasBeenPublished": false,
-      "MdoListName": "Bode Inc and Sons"
+      "Version": 65,
+      "TemplateVariableName": "Bechtelar Group",
+      "HasBeenPublished": true,
+      "MdoListName": "Wiza, Osinski and Ritchie"
     }
   ]
 }

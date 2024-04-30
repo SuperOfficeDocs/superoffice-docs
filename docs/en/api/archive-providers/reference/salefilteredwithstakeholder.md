@@ -1111,7 +1111,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFilteredWithStakeholder?$select=saleStatus,nextDueDate,person/personAssociate/contactFullName,person/personAssociate/userName,contact/contactId
+GET /api/v1/archive/SaleFilteredWithStakeholder?$select=salePublish/publishedFrom,person/isProjectMember,person/personAssociate/contactDepartment,person/correspondingAssociate/credentialType,contact/contactAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

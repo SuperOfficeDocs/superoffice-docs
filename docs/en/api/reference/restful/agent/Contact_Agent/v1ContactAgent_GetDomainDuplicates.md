@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "optio"
+  "Domain": "officiis"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Terry, Hermiston and Towne",
-    "SoPrimaryKey": 612,
-    "EntryName": "Koelpin LLC",
-    "EntryIdentifier": "rem",
-    "RuleDisplayName": "Franecki, Heathcote and Rohan",
+    "RuleName": "Funk Group",
+    "SoPrimaryKey": 101,
+    "EntryName": "Ritchie-Renner",
+    "EntryIdentifier": "cumque",
+    "RuleDisplayName": "Rippin, Hessel and Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldLength": 697
       }
     }
   }

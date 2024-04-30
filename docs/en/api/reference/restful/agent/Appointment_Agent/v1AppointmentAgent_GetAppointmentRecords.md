@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 121,
-  "RecurrenceRuleId": 672
+  "MotherId": 55,
+  "RecurrenceRuleId": 529
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 100,
-    "StartDate": "2015-05-24T12:19:44.1800107+02:00",
-    "EndDate": "1997-10-14T12:19:44.1800107+02:00",
+    "AppointmentId": 974,
+    "StartDate": "2001-01-30T11:44:32.4631128+01:00",
+    "EndDate": "2015-08-16T11:44:32.4631128+02:00",
     "Type": "BookingForChecklist",
-    "Task": "cupiditate",
-    "AssociateFullName": "Prof. Yolanda Katarina Ritchie PhD",
-    "ContactName": "Jakubowski, Lynch and Hilpert",
-    "Description": "Reactive optimal functionalities",
-    "PersonFullName": "Mariana Tate Runte MD",
-    "PersonId": 586,
-    "ContactId": 423,
-    "ProjectId": 380,
-    "ProjectName": "Schaefer, Skiles and Schaefer",
+    "Task": "qui",
+    "AssociateFullName": "Prof. Victoria O'Conner",
+    "ContactName": "Gutkowski, Jakubowski and Johns",
+    "Description": "Optional asynchronous hierarchy",
+    "PersonFullName": "Mrs. Kade Kunze IV",
+    "PersonId": 534,
+    "ContactId": 239,
+    "ProjectId": 401,
+    "ProjectName": "Smitham, Willms and Pfannerstill",
     "IsPublished": false,
-    "AssociateId": 641,
-    "ColorIndex": 846,
-    "IsFree": true,
+    "AssociateId": 304,
+    "ColorIndex": 413,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 907,
-    "PriorityName": "Ortiz-Hettinger",
+    "PriorityId": 75,
+    "PriorityName": "Buckridge, Hane and Kemmer",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-11-22T12:19:44.1800107+01:00",
+    "ActiveDate": "1997-11-08T11:44:32.4631128+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-03-06T12:19:44.1800107+01:00",
-    "RecurringEndDate": "2010-10-07T12:19:44.1800107+02:00",
-    "MotherId": 746,
-    "AssignedBy": 222,
-    "AssignedByFullName": "Dr. Destini Marvin",
+    "RecurringStartDate": "2021-06-03T11:44:32.4631128+02:00",
+    "RecurringEndDate": "1999-02-20T11:44:32.4631128+01:00",
+    "MotherId": 779,
+    "AssignedBy": 966,
+    "AssignedByFullName": "Alana Friesen MD",
     "RejectReason": "",
-    "Location": "facere",
-    "AlarmLeadTime": "repellendus",
-    "SaleId": 330,
-    "SaleName": "Hirthe-Kunze",
-    "AssociateName": "Cremin LLC",
-    "CreatedDate": "1997-06-18T12:19:44.1800107+02:00",
-    "CreatedBy": "error",
-    "CreatedByFullName": "Dr. Francis Collier IV",
-    "CreatedByAssociateId": 556,
+    "Location": "quibusdam",
+    "AlarmLeadTime": "molestiae",
+    "SaleId": 920,
+    "SaleName": "Carroll-Abshire",
+    "AssociateName": "Anderson, Champlin and Carroll",
+    "CreatedDate": "1999-05-14T11:44:32.4631128+02:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Evans Keebler",
+    "CreatedByAssociateId": 251,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 194,
-    "Title": "ex",
-    "Agenda": "labore",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 76,
+    "Title": "consequuntur",
+    "Agenda": "est",
+    "InternalNotes": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 297
       }
     }
   }

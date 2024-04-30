@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Beer Inc and Sons",
-    "ToolTip": "Eligendi at qui sit nobis sit.",
+    "Id": 339,
+    "Name": "Anderson-Reynolds",
+    "ToolTip": "Consectetur architecto iste adipisci.",
     "Deleted": false,
-    "Rank": 414,
-    "Type": "reprehenderit",
-    "ColorBlock": 748,
-    "IconHint": "animi",
+    "Rank": 118,
+    "Type": "eos",
+    "ColorBlock": 455,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2002-01-19T12:19:54.3522098+01:00",
+    "LastChanged": "2018-08-10T11:44:42.9762901+02:00",
     "ChildItems": [
       {
-        "Id": 421,
-        "Name": "Wehner-Fay",
-        "ToolTip": "Consectetur consectetur esse et.",
-        "Deleted": true,
-        "Rank": 401,
-        "Type": "quis",
-        "ColorBlock": 252,
-        "IconHint": "et",
+        "Id": 484,
+        "Name": "Krajcik Inc and Sons",
+        "ToolTip": "Ad earum molestiae deleniti ipsa.",
+        "Deleted": false,
+        "Rank": 468,
+        "Type": "adipisci",
+        "ColorBlock": 421,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "1999-05-04T12:19:54.3522098+02:00",
+        "LastChanged": "1999-05-08T11:44:42.9762901+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Estel Billy Goyette V",
+        "ExtraInfo": "ea",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Xzavier Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 399
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "velit",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Brenda Block IV",
+    "FullName": "Dr. Marvin Okuneva I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 766
       }
     }
   }

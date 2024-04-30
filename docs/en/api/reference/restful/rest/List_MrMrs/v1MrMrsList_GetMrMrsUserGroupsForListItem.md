@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Renner Inc and Sons",
-    "ToolTip": "Consequuntur qui voluptatem consectetur.",
+    "Id": 641,
+    "Name": "VonRueden, Rolfson and Schroeder",
+    "ToolTip": "Necessitatibus nihil unde rerum aliquid qui provident eveniet.",
     "Deleted": false,
-    "Rank": 238,
-    "Type": "voluptate",
-    "ColorBlock": 951,
-    "IconHint": "voluptatem",
+    "Rank": 139,
+    "Type": "est",
+    "ColorBlock": 610,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2013-02-24T12:19:54.6177594+01:00",
+    "LastChanged": "2010-03-10T11:44:43.1168808+01:00",
     "ChildItems": [
       {
-        "Id": 211,
-        "Name": "Koss-Block",
-        "ToolTip": "Et et.",
+        "Id": 935,
+        "Name": "Heaney-O'Kon",
+        "ToolTip": "Ut dolores adipisci fugit dignissimos.",
         "Deleted": true,
-        "Rank": 574,
-        "Type": "deserunt",
-        "ColorBlock": 556,
-        "IconHint": "libero",
-        "Selected": true,
-        "LastChanged": "2004-06-15T12:19:54.6177594+02:00",
+        "Rank": 430,
+        "Type": "dicta",
+        "ColorBlock": 764,
+        "IconHint": "quidem",
+        "Selected": false,
+        "LastChanged": "2002-12-19T11:44:43.1168808+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Armani Blanda",
+        "FullName": "Mr. Vada Mara Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 558
+            "FieldType": "System.Int32",
+            "FieldLength": 658
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "recusandae",
-    "Hidden": true,
-    "FullName": "Leon Muller",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "suscipit",
+    "Hidden": false,
+    "FullName": "Miss Gianni Alvah Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 794
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

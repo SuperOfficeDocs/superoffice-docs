@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "dolorum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "dolorum",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hickle Inc and Sons",
-  "Comment": "et",
-  "StakeholderRoleId": 611,
-  "CountryId": 568,
-  "PersonId": 233,
-  "EmailDescription": "mable.oconnell@kovacek.co.uk",
-  "EmailId": 547,
-  "EmailAddress": "dagmar_hudson@funk.biz",
-  "PhoneId": 666,
-  "ContactName": "Kassulke, Franecki and Ondricka",
-  "ContactId": 835,
-  "SaleId": 587,
-  "Mrmrs": "recusandae",
-  "Firstname": "Adonis",
-  "MiddleName": "Anderson-Donnelly",
-  "Lastname": "Turcotte",
-  "SaleStakeholderId": 559,
-  "Rank": 184,
-  "Phone": "148-346-5642 x5282",
+  "StakeholderRoleName": "Hartmann-Hartmann",
+  "Comment": "autem",
+  "StakeholderRoleId": 312,
+  "CountryId": 271,
+  "PersonId": 553,
+  "EmailDescription": "martine@bins.uk",
+  "EmailId": 562,
+  "EmailAddress": "cornell_lindgren@murphyfisher.biz",
+  "PhoneId": 252,
+  "ContactName": "Mohr, Mitchell and Weimann",
+  "ContactId": 643,
+  "SaleId": 922,
+  "Mrmrs": "adipisci",
+  "Firstname": "Osvaldo",
+  "MiddleName": "Kiehn, O'Connell and Jacobson",
+  "Lastname": "Dickinson",
+  "SaleStakeholderId": 155,
+  "Rank": 136,
+  "Phone": "918-654-8834",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   },
   "_Links": {

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 255
+  "TicketMessageEntityId": 853
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 849,
-    "Name": "Huel LLC",
-    "ContentType": "accusamus",
-    "AttSize": 198,
+    "AttachmentId": 465,
+    "Name": "Ankunding Inc and Sons",
+    "ContentType": "iste",
+    "AttSize": 801,
     "InlineImage": false,
-    "ContentId": "delectus",
-    "AuthKey": "quia",
-    "IsSafeFileExtension": true,
+    "ContentId": "et",
+    "AuthKey": "deleniti",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 961
       }
     }
   }

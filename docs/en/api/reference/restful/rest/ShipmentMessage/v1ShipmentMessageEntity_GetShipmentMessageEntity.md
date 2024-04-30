@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 988,
-  "PlainMessage": "occaecati",
-  "HtmlMessage": "architecto",
-  "SmsMessage": "et",
-  "Description": "Reduced explicit policy",
-  "Subject": "architecto",
-  "FolderId": 790,
-  "HeaderField": "voluptatem",
-  "Design": "et",
+  "ShipmentMessageId": 753,
+  "PlainMessage": "dolore",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "ipsa",
+  "Description": "Advanced zero defect internet solution",
+  "Subject": "beatae",
+  "FolderId": 947,
+  "HeaderField": "ut",
+  "Design": "architecto",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "User-centric explicit archive",
-  "AccessKey": "ea",
-  "DocumentMessage": 150,
-  "Registered": "2000-11-11T12:19:53.9304171+01:00",
-  "RegisteredAssociateId": 684,
-  "Updated": "2021-09-26T12:19:53.9304171+02:00",
-  "UpdatedAssociateId": 109,
-  "UpdatedCount": 288,
+  "LongDescription": "De-engineered attitude-oriented support",
+  "AccessKey": "et",
+  "DocumentMessage": 497,
+  "Registered": "2018-02-23T11:44:42.5545135+01:00",
+  "RegisteredAssociateId": 311,
+  "Updated": "2006-08-17T11:44:42.5545135+02:00",
+  "UpdatedAssociateId": 482,
+  "UpdatedCount": 328,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldLength": 313
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

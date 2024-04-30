@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 956,
-  "ERPProductKey": "nemo",
-  "ERPPriceListKey": "ipsam",
-  "Name": "Ratke, Ullrich and Lakin",
-  "Description": "Implemented neutral workforce",
-  "Code": "blanditiis",
-  "PriceUnit": "incidunt",
-  "QuantityUnit": "incidunt",
+  "ProductId": 457,
+  "ERPProductKey": "rerum",
+  "ERPPriceListKey": "earum",
+  "Name": "Mohr LLC",
+  "Description": "Polarised eco-centric artificial intelligence",
+  "Code": "ipsam",
+  "PriceUnit": "vel",
+  "QuantityUnit": "ducimus",
   "IsSubscription": false,
-  "SubscriptionUnit": "delectus",
-  "DefaultSubscriptionQuantity": 17556.667999999998,
-  "ItemNumber": "643113",
+  "SubscriptionUnit": "saepe",
+  "DefaultSubscriptionQuantity": 11558.192,
+  "ItemNumber": "1202267",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 3898.696,
-  "VATInfo": "quasi",
-  "UnitCost": 4879.638,
-  "UnitMinimumPrice": 21806.372,
-  "UnitListPrice": 15563.444,
+  "ProductFamilyKey": "animi",
+  "ProductTypeKey": "ut",
+  "VAT": 8148.4,
+  "VATInfo": "et",
+  "UnitCost": 13538.88,
+  "UnitMinimumPrice": 21267.324,
+  "UnitListPrice": 1419.702,
   "InAssortment": false,
-  "Supplier": "enim",
-  "SupplierCode": "voluptate",
-  "Rights": "mollitia",
-  "Rule": "fugiat",
+  "Supplier": "cum",
+  "SupplierCode": "deleniti",
+  "Rights": "autem",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Abbott-Hoppe",
-      "Value": "eum",
+      "Name": "Schmeler-Morissette",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 251
         }
       }
     },
     {
-      "Name": "Abbott-Hoppe",
-      "Value": "eum",
+      "Name": "Schmeler-Morissette",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 251
         }
       }
     }
   ],
-  "RawExtraInfo": "illum",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "et",
-  "ExtraField3": "voluptates",
-  "ExtraField4": "quas",
-  "ExtraField5": "consequatur",
-  "InStock": 29845.082,
+  "RawExtraInfo": "dignissimos",
+  "ExtraField1": "sit",
+  "ExtraField2": "temporibus",
+  "ExtraField3": "iusto",
+  "ExtraField4": "dicta",
+  "ExtraField5": "maxime",
+  "InStock": 4748.01,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 422
     }
   }
 }

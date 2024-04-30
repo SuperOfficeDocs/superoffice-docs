@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 365,
-    "ColumnId": 450,
-    "FieldDefault": "aut",
-    "FieldHeight": 423,
-    "FieldLabel": "perspiciatis",
-    "FieldLeft": 873,
-    "FieldTop": 36,
+    "UDefFieldId": 274,
+    "ColumnId": 688,
+    "FieldDefault": "repellendus",
+    "FieldHeight": 447,
+    "FieldLabel": "aut",
+    "FieldLeft": 134,
+    "FieldTop": 462,
     "FieldType": "Checkbox",
-    "FieldWidth": 473,
-    "FormatMask": "voluptas",
+    "FieldWidth": 150,
+    "FormatMask": "sed",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 642,
-    "LabelLeft": 710,
-    "LabelTop": 381,
-    "LabelWidth": 12,
-    "LastVersionId": 472,
-    "ListTableId": 304,
+    "IsIndexed": false,
+    "LabelHeight": 324,
+    "LabelLeft": 517,
+    "LabelTop": 634,
+    "LabelWidth": 59,
+    "LastVersionId": 96,
+    "ListTableId": 147,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 173,
-    "ProgId": "aut",
+    "Page1LineNo": 868,
+    "ProgId": "iusto",
     "IsReadOnly": false,
-    "ShortLabel": "esse",
-    "TabOrder": 987,
-    "TextLength": 211,
-    "Tooltip": "veniam",
-    "UdefIdentity": 955,
-    "UDListDefinitionId": 340,
+    "ShortLabel": "tenetur",
+    "TabOrder": 466,
+    "TextLength": 763,
+    "Tooltip": "tempora",
+    "UdefIdentity": 646,
+    "UDListDefinitionId": 296,
     "Justification": "Center",
-    "Version": 775,
-    "TemplateVariableName": "Friesen, Wintheiser and Harris",
-    "HasBeenPublished": true,
-    "MdoListName": "Walter-Hessel",
+    "Version": 237,
+    "TemplateVariableName": "Deckow, Blanda and Davis",
+    "HasBeenPublished": false,
+    "MdoListName": "Thiel, Emard and Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 64
       }
     }
   }

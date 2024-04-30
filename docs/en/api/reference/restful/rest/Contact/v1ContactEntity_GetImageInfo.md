@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 28 Jun 2018 12:19:53 G6T
+Last-Modified: Fri, 30 Jan 2015 11:44:41 G1T
 
 {
-  "BlobId": 518,
-  "BlobSize": 891,
-  "Description": "Persevering transitional open system",
-  "ExtraInfo": "accusantium",
+  "BlobId": 900,
+  "BlobSize": 614,
+  "Description": "Multi-channelled system-worthy firmware",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "inventore",
-  "OriginalSize": 654,
-  "CreatedDate": "2004-01-10T12:19:53.1805817+01:00",
-  "UpdatedDate": "2018-06-28T12:19:53.1805817+02:00",
+  "IsZipped": false,
+  "MimeType": "dolor",
+  "OriginalSize": 386,
+  "CreatedDate": "2021-08-12T11:44:41.7265353+02:00",
+  "UpdatedDate": "2015-01-30T11:44:41.7265353+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "mollitia",
+  "ConceptualType": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

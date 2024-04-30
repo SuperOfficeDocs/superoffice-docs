@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 373,
-  "Name": "Wuckert, Anderson and Jacobi",
-  "Tooltip": "ut",
-  "Rank": 305,
-  "Rate": 21583.858,
-  "Units": 11182.112,
+  "CurrencyId": 821,
+  "Name": "Eichmann, Kihn and Schowalter",
+  "Tooltip": "necessitatibus",
+  "Rank": 622,
+  "Rate": 13632.9,
+  "Units": 6293.072,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 55,
-  "Name": "Leannon Group",
-  "Tooltip": "omnis",
-  "Rank": 219,
-  "Rate": 23680.504,
-  "Units": 13996.444,
+  "CurrencyId": 270,
+  "Name": "Thompson-D'Amore",
+  "Tooltip": "ab",
+  "Rank": 926,
+  "Rate": 14231.493999999999,
+  "Units": 21828.309999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 198
     }
   }
 }

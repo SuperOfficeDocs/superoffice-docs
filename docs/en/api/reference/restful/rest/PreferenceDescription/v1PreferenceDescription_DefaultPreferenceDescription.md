@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 477,
-  "Section": "amet",
-  "Key": "possimus",
-  "Name": "Rowe Group",
+  "PrefDescId": 487,
+  "Section": "vel",
+  "Key": "quis",
+  "Name": "Heller LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered object-oriented core",
-  "IsBuiltin": false,
-  "TableName": "Koch-Kirlin",
-  "UserDefinedListId": 453,
-  "Rank": 603,
-  "SubGroup": "qui",
-  "MinLevel": 634,
-  "MaxValue": 977,
-  "MinValue": 225,
-  "RequiredLicense": "nam",
+  "Description": "Re-engineered 3rd generation projection",
+  "IsBuiltin": true,
+  "TableName": "Terry-Hackett",
+  "UserDefinedListId": 309,
+  "Rank": 205,
+  "SubGroup": "omnis",
+  "MinLevel": 202,
+  "MaxValue": 317,
+  "MinValue": 354,
+  "RequiredLicense": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 764
     }
   }
 }

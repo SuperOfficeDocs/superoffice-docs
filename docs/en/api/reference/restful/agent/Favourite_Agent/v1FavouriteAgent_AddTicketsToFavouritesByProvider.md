@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Streich, Gorczany and Crona",
+  "ProviderName": "VonRueden-Altenwerth",
   "Restrictions": [
     {
-      "Name": "Brekke-Brekke",
-      "Operator": "qui",
+      "Name": "Bins-Harris",
+      "Operator": "velit",
       "Values": [
-        "iste",
-        "veniam"
+        "aut",
+        "quia"
       ],
       "DisplayValues": [
-        "recusandae",
-        "cupiditate"
+        "ullam",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 252,
+      "InterParenthesis": 242,
       "InterOperator": "And",
-      "UniqueHash": 333
+      "UniqueHash": 681
     }
   ],
-  "AssociateId": 66,
-  "ExtraInfo": "deleniti"
+  "AssociateId": 350,
+  "ExtraInfo": "facilis"
 }
 ```
 

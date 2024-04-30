@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 10,
-  "Section": "est",
-  "Key": "veniam",
-  "Name": "Block Group",
+  "PrefDescId": 430,
+  "Section": "aspernatur",
+  "Key": "aliquam",
+  "Name": "Boehm-Heller",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Intuitive homogeneous focus group",
-  "IsBuiltin": false,
-  "TableName": "Glover Inc and Sons",
-  "UserDefinedListId": 41,
-  "Rank": 60,
-  "SubGroup": "quidem",
-  "MinLevel": 984,
-  "MaxValue": 448,
-  "MinValue": 43,
-  "RequiredLicense": "ullam"
+  "Description": "Re-contextualized dedicated emulation",
+  "IsBuiltin": true,
+  "TableName": "Gutkowski Inc and Sons",
+  "UserDefinedListId": 79,
+  "Rank": 328,
+  "SubGroup": "sunt",
+  "MinLevel": 923,
+  "MaxValue": 664,
+  "MinValue": 261,
+  "RequiredLicense": "commodi"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 941,
-  "Section": "in",
-  "Key": "ex",
-  "Name": "Cartwright LLC",
+  "PrefDescId": 86,
+  "Section": "id",
+  "Key": "esse",
+  "Name": "Metz-Carter",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust explicit internet solution",
+  "Description": "User-centric attitude-oriented ability",
   "IsBuiltin": false,
-  "TableName": "Hodkiewicz, Heller and Shanahan",
-  "UserDefinedListId": 467,
-  "Rank": 923,
-  "SubGroup": "ut",
-  "MinLevel": 50,
-  "MaxValue": 841,
-  "MinValue": 955,
-  "RequiredLicense": "dolorem",
+  "TableName": "Schmeler Group",
+  "UserDefinedListId": 789,
+  "Rank": 724,
+  "SubGroup": "non",
+  "MinLevel": 768,
+  "MaxValue": 265,
+  "MinValue": 637,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 861
     }
   }
 }

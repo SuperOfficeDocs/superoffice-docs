@@ -1182,7 +1182,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=LastDoByActivity,sale/registeredBy,appointment/invitedPersonId,document/date,document/visibleFor
+GET /api/v1/archive/ContactSelection?$select=orgnr,contactAssociate/lastName,NumberOfNotCompletedActivitiesInPeriod,sale/completed,sale/associate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 580,
+  "ReportId": 352,
   "ReportCategory": "All",
-  "Description": "Extended national flexibility",
+  "Description": "Face to face radical emulation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Windler, Pfannerstill and Koch",
-  "AssociateId": 17,
-  "TemplateId": 253,
-  "Published": true,
+  "Name": "Nitzsche Group",
+  "AssociateId": 691,
+  "TemplateId": 732,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 913
     }
   }
 }

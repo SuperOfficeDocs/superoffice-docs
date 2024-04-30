@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 128,
-    "Name": "Mayert Inc and Sons",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 515,
-    "UdListDefinitionId": 891
+    "HeadingId": 468,
+    "Name": "Kris LLC",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 633,
+    "UdListDefinitionId": 886
   },
   {
-    "HeadingId": 128,
-    "Name": "Mayert Inc and Sons",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 515,
-    "UdListDefinitionId": 891
+    "HeadingId": 468,
+    "Name": "Kris LLC",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 633,
+    "UdListDefinitionId": 886
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Breitenberg-Toy",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 126,
-    "UdListDefinitionId": 525,
+    "HeadingId": 280,
+    "Name": "Douglas LLC",
+    "Tooltip": "maiores",
+    "Deleted": false,
+    "Rank": 551,
+    "UdListDefinitionId": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 339
       }
     }
   }

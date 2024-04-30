@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 936,
-  "ParentId": 180,
-  "Name": "Morissette, Ondricka and Jast",
-  "Fullname": "ut",
-  "CategoryMaster": 216,
+  "TicketCategoryId": 983,
+  "ParentId": 786,
+  "Name": "Schowalter, O'Conner and Keebler",
+  "Fullname": "placeat",
+  "CategoryMaster": 309,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Beatty-Howell",
+  "ExternalName": "Douglas-Breitenberg",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 36,
-  "ReplyTemplate": 993,
-  "NotificationEmail": "candida_homenick@walker.uk",
+  "AssignmentLag": 261,
+  "ReplyTemplate": 144,
+  "NotificationEmail": "matilde@gulgowski.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 258,
+  "EffectiveReplyTemplateId": 178,
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "ut"
+    "CustomFields1": "dolor",
+    "CustomFields2": "cupiditate"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 357,
-  "ParentId": 629,
-  "Name": "Pfeffer Inc and Sons",
-  "Fullname": "necessitatibus",
-  "CategoryMaster": 421,
+  "TicketCategoryId": 498,
+  "ParentId": 667,
+  "Name": "Klocko, Lowe and Will",
+  "Fullname": "at",
+  "CategoryMaster": 157,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Medhurst Group",
+  "ExternalName": "Heathcote Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 530,
-  "ReplyTemplate": 127,
-  "NotificationEmail": "jessyca@collierblanda.ca",
+  "AssignmentLag": 974,
+  "ReplyTemplate": 200,
+  "NotificationEmail": "murphy@pacocha.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 457,
+  "EffectiveReplyTemplateId": 296,
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "et"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "magnam"
+    "CustomFields1": "maxime",
+    "CustomFields2": "consectetur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

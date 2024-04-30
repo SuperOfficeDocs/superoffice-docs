@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 259,
-    "Name": "O'Kon, Doyle and Mayert",
+    "TicketStatusId": 598,
+    "Name": "Bartell-Reinger",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 189
       }
     }
   }

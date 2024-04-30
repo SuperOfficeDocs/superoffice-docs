@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "D'Amore-Friesen",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 771,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "beatae",
+  "Id": 899,
+  "Name": "Schinner Inc and Sons",
+  "Tooltip": "alias",
+  "Deleted": false,
+  "Rank": 82,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldLength": 361
     }
   },
   "_Links": {

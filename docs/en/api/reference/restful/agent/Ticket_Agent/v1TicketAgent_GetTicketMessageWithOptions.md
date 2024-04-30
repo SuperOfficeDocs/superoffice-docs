@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 349,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 976,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 515,
+  "EjMessageId": 686,
   "Ticket": null,
-  "CreatedAt": "2003-09-16T12:19:46.5388507+02:00",
+  "CreatedAt": "2017-10-25T11:44:34.9156654+02:00",
   "CreatedBy": null,
-  "Author": "expedita",
+  "Author": "rem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 137,
-  "Body": "quam",
-  "HtmlBody": "blanditiis",
-  "EmailHeader": "estella.bayer@leuschkemckenzie.us",
-  "DebugInfo": "eveniet",
-  "MailSorter": "inventore",
+  "MessageId": "sed",
+  "TimeSpent": 666,
+  "Body": "facilis",
+  "HtmlBody": "rerum",
+  "EmailHeader": "kadin@kirlin.ca",
+  "DebugInfo": "voluptatem",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "blanditiis",
+  "SearchTitle": "accusamus",
   "MessageHeaders": [
     {
-      "Id": 613,
-      "Name": "Bode Group",
-      "Value": "tempore",
+      "Id": 173,
+      "Name": "Torphy, Quigley and Turcotte",
+      "Value": "deleniti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 931
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ut",
-  "Sentiment": 989,
-  "SentimentConfidence": 343,
+  "Important": false,
+  "Language": "excepturi",
+  "Sentiment": 846,
+  "SentimentConfidence": 86,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 291,
-      "Name": "Ankunding, Schaden and Boyer",
-      "ContentType": "dolor",
-      "AttSize": 987,
+      "AttachmentId": 388,
+      "Name": "Lind-Harvey",
+      "ContentType": "esse",
+      "AttSize": 918,
       "InlineImage": false,
-      "ContentId": "dolorem",
-      "AuthKey": "veniam",
-      "IsSafeFileExtension": false,
+      "ContentId": "in",
+      "AuthKey": "sit",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 223
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "non"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
     "CustomFields1": "et",
-    "CustomFields2": "est"
+    "CustomFields2": "quasi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 184
     }
   }
 }

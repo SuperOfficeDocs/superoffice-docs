@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 349,
+  "LatestKnownEventId": 341,
   "PublishEvents": [
     {
-      "EventId": 501,
-      "EventName": "Koss-Gleason",
-      "EntityType": "fugiat",
-      "EntityKey": 727,
-      "AssociateId": 961,
-      "AssociateName": "Abshire, Kihn and Bradtke",
-      "EventDateTime": "2002-05-01T12:19:46.6638166+02:00"
+      "EventId": 60,
+      "EventName": "Bruen-Boehm",
+      "EntityType": "non",
+      "EntityKey": 538,
+      "AssociateId": 532,
+      "AssociateName": "Lesch Inc and Sons",
+      "EventDateTime": "2006-04-24T11:44:35.0406407+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Tromp, Schamberger and Heaney",
-      "Value": 920
+      "Name": "Halvorson-Altenwerth",
+      "Value": 740
     },
     {
-      "Name": "Tromp, Schamberger and Heaney",
-      "Value": 920
+      "Name": "Halvorson-Altenwerth",
+      "Value": 740
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 722,
-    "EventName": "Hyatt, Howe and Orn",
-    "EntityType": "quas",
-    "EntityKey": 544,
-    "AssociateId": 346,
-    "AssociateName": "O'Hara-Bergstrom",
-    "EventDateTime": "2004-03-15T12:19:46.6638166+01:00",
+    "EventId": 41,
+    "EventName": "Carter LLC",
+    "EntityType": "dolores",
+    "EntityKey": 751,
+    "AssociateId": 123,
+    "AssociateName": "Leffler Group",
+    "EventDateTime": "2014-08-17T11:44:35.0406407+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 722
       }
     }
   }

@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    510,
-    154
+    641,
+    265
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Kreiger Group",
-    "AssociateId": 97,
-    "DetailsTable": 732,
-    "DetailsRecord": 997,
+    "Id": 44,
+    "Name": "Medhurst, Anderson and Stehr",
+    "AssociateId": 366,
+    "DetailsTable": 840,
+    "DetailsRecord": 912,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quos",
-      "ParameterObject2": "voluptatibus"
+      "ParameterObject1": "nemo",
+      "ParameterObject2": "sed"
     },
-    "LastStarted": "2004-07-01T12:19:44.5080652+02:00",
-    "Created": "2018-12-21T12:19:44.5080652+01:00",
-    "StartCount": 772,
-    "DatabaseSerialNumber": "1169374",
-    "Context": "maiores",
-    "Result": "et",
+    "LastStarted": "2017-10-09T11:44:32.822391+02:00",
+    "Created": "2001-06-22T11:44:32.822391+02:00",
+    "StartCount": 122,
+    "DatabaseSerialNumber": "1466652",
+    "Context": "consequatur",
+    "Result": "dolores",
     "State": "All",
-    "Description": "Organic systematic firmware",
-    "Response": "explicabo",
-    "Request": "provident",
-    "ProgressDescription": "Digitized reciprocal alliance",
-    "ProgressPercent": 204,
-    "FileName": "Mills-Herman",
+    "Description": "Progressive exuding adapter",
+    "Response": "cupiditate",
+    "Request": "laudantium",
+    "ProgressDescription": "Organized value-added utilisation",
+    "ProgressPercent": 533,
+    "FileName": "Feil Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldType": "System.Int32",
+        "FieldLength": 240
       }
     }
   }

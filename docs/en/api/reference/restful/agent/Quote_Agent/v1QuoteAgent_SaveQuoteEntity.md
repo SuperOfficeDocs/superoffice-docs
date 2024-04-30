@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 377,
-  "SaleId": 983,
-  "QuoteConnectionId": 965,
-  "ERPQuoteKey": "repellat",
-  "ERPOrderKey": "blanditiis",
-  "ActiveQuoteVersionId": 234,
-  "AcceptedQuoteAlternativeId": 75,
-  "UseValuesFromQuote": 519,
-  "DocumentId": 324,
-  "PoNumber": "1488918",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "kallie@kerlukeheathcote.us",
+  "QuoteId": 639,
+  "SaleId": 281,
+  "QuoteConnectionId": 948,
+  "ERPQuoteKey": "dignissimos",
+  "ERPOrderKey": "doloremque",
+  "ActiveQuoteVersionId": 713,
+  "AcceptedQuoteAlternativeId": 907,
+  "UseValuesFromQuote": 218,
+  "DocumentId": 965,
+  "PoNumber": "1182269",
+  "OrderComment": "sequi",
+  "PreferredEmailCulture": "terrell@leuschke.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 865,
-      "ERPQuoteVersionKey": "ducimus",
-      "QuoteId": 406,
-      "Description": "Diverse systemic ability",
-      "Number": "1802154",
+      "QuoteVersionId": 480,
+      "ERPQuoteVersionKey": "eum",
+      "QuoteId": 526,
+      "Description": "Adaptive dedicated project",
+      "Number": "1155778",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 927,
-      "SentDate": "2011-08-14T12:19:46.1014395+02:00",
-      "FollowupId": 598,
-      "ExpirationDate": "2008-05-02T12:19:46.1014395+02:00",
-      "DeliveryCountryId": 421,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 179,
+      "LikelyQuoteAlternativeId": 332,
+      "SentDate": "2002-05-12T11:44:34.2907996+02:00",
+      "FollowupId": 750,
+      "ExpirationDate": "2022-05-04T11:44:34.2907996+02:00",
+      "DeliveryCountryId": 195,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 990,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ratione",
-      "ERPPaymentTypeKey": "aliquid",
-      "ERPDeliveryTermsKey": "vel",
-      "ERPDeliveryTypeKey": "consectetur",
-      "Rank": 581,
-      "ApprovedBy": 207,
-      "ApprovedText": "est",
-      "ApprovedRegisteredBy": 878,
-      "ApprovedRegisteredDate": "2005-11-17T12:19:46.1014395+01:00",
-      "ExtraField1": "nisi",
-      "ExtraField2": "sed",
-      "ExtraField3": "accusamus",
-      "ExtraField4": "ducimus",
-      "ExtraField5": "quasi",
-      "LastRecalculated": "2009-09-23T12:19:46.1014395+02:00",
-      "Updated": "2017-01-28T12:19:46.1014395+01:00",
-      "UpdatedAssociateId": 862,
-      "Registered": "2017-04-27T12:19:46.1014395+02:00",
-      "RegisteredAssociateId": 756,
-      "RequestAssociateId": 678,
-      "RequestComment": "voluptas",
+      "ERPPaymentTermsKey": "officia",
+      "ERPPaymentTypeKey": "aperiam",
+      "ERPDeliveryTermsKey": "ducimus",
+      "ERPDeliveryTypeKey": "quisquam",
+      "Rank": 932,
+      "ApprovedBy": 219,
+      "ApprovedText": "veniam",
+      "ApprovedRegisteredBy": 224,
+      "ApprovedRegisteredDate": "2003-12-30T11:44:34.2907996+01:00",
+      "ExtraField1": "dolorem",
+      "ExtraField2": "sit",
+      "ExtraField3": "ipsum",
+      "ExtraField4": "est",
+      "ExtraField5": "maiores",
+      "LastRecalculated": "2003-08-26T11:44:34.2907996+02:00",
+      "Updated": "2020-10-01T11:44:34.2907996+02:00",
+      "UpdatedAssociateId": 491,
+      "Registered": "1998-08-30T11:44:34.2907996+02:00",
+      "RegisteredAssociateId": 847,
+      "RequestAssociateId": 447,
+      "RequestComment": "nam",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldLength": 37
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 836
     }
   }
 }

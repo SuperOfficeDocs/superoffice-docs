@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 53,
+  "DocumentId": 814,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 364,
+  "DocumentId": 175,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rem",
-  "Header": "sequi",
-  "Name": "Renner, Padberg and Crona",
-  "OurRef": "odit",
-  "YourRef": "ullam",
-  "CreatedDate": "2008-11-06T12:19:45.2110303+01:00",
-  "UpdatedDate": "2019-09-29T12:19:45.2110303+02:00",
-  "Description": "Monitored clear-thinking hub",
+  "Attention": "id",
+  "Header": "excepturi",
+  "Name": "Nienow, Brown and Stroman",
+  "OurRef": "rerum",
+  "YourRef": "sit",
+  "CreatedDate": "2000-10-06T11:44:33.5565971+02:00",
+  "UpdatedDate": "2018-04-15T11:44:33.5565971+02:00",
+  "Description": "Quality-focused foreground service-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-05-05T12:19:45.2110303+02:00",
-  "ExternalRef": "error",
+  "Date": "2017-06-10T11:44:33.5565971+02:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 516,
+  "ActiveLinks": 313,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Brekke LLC",
-      "Id": 737,
-      "Description": "Versatile well-modulated collaboration",
-      "ExtraInfo": "a",
-      "LinkId": 651,
+      "EntityName": "Monahan, Bernier and Marks",
+      "Id": 941,
+      "Description": "Profit-focused zero tolerance adapter",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 907,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 517
+          "FieldLength": 802
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 59,
-  "Snum": 821,
+  "SuggestedDocumentId": 850,
+  "Snum": 622,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Chadrick Quigley"
+    "SuperOffice:1": "Amelie Feeney DVM",
+    "SuperOffice:2": "917258665"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "ullam"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "maiores"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "quidem"
   },
-  "PublishEventDate": "2018-11-30T12:19:45.2110303+01:00",
-  "PublishTo": "2018-08-09T12:19:45.2110303+02:00",
-  "PublishFrom": "2005-11-17T12:19:45.2110303+01:00",
+  "PublishEventDate": "2012-12-23T11:44:33.5565971+01:00",
+  "PublishTo": "2015-05-11T11:44:33.5565971+02:00",
+  "PublishFrom": "2008-11-29T11:44:33.5565971+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 554,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 42
         }
       }
     },
     {
-      "VisibleId": 554,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "occaecati",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 42
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 330
     }
   }
 }

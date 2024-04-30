@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Heaney Inc and Sons",
-    "ToolTip": "Nihil ducimus sint quasi ullam occaecati architecto.",
+    "Id": 71,
+    "Name": "Crona, Bednar and Schaefer",
+    "ToolTip": "Asperiores inventore.",
     "Deleted": false,
-    "Rank": 802,
-    "Type": "vitae",
-    "ColorBlock": 897,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2013-10-30T12:19:54.3053212+01:00",
+    "Rank": 930,
+    "Type": "et",
+    "ColorBlock": 66,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "1998-10-05T11:44:42.9294253+02:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Torp LLC",
-        "ToolTip": "Commodi rem odit dolor tenetur aut quasi minima.",
+        "Id": 610,
+        "Name": "Macejkovic Inc and Sons",
+        "ToolTip": "Fuga maxime cum magni eligendi sed consectetur qui.",
         "Deleted": false,
-        "Rank": 17,
-        "Type": "ut",
-        "ColorBlock": 959,
-        "IconHint": "temporibus",
+        "Rank": 572,
+        "Type": "soluta",
+        "ColorBlock": 885,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2005-12-04T12:19:54.3053212+01:00",
+        "LastChanged": "2002-06-22T11:44:42.9294253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Adriana Sawayn"
+        "ExtraInfo": "sequi",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Karl Kemmer IV"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "sit",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Dewayne Moore"
+    "FullName": "Princess Kemmer DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Smitham, Harvey and Stoltenberg",
-    "ToolTip": "Repellendus sequi.",
+    "Id": 540,
+    "Name": "Willms LLC",
+    "ToolTip": "Sapiente enim eius et soluta.",
     "Deleted": false,
-    "Rank": 368,
-    "Type": "eligendi",
-    "ColorBlock": 77,
-    "IconHint": "voluptatem",
+    "Rank": 413,
+    "Type": "ut",
+    "ColorBlock": 103,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2008-10-01T12:19:54.3053212+02:00",
+    "LastChanged": "2008-12-09T11:44:42.9294253+01:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Shields Group",
-        "ToolTip": "Vel itaque.",
+        "Id": 224,
+        "Name": "Wintheiser, Marvin and Willms",
+        "ToolTip": "Et vero maxime quo non.",
         "Deleted": false,
-        "Rank": 995,
-        "Type": "corporis",
-        "ColorBlock": 37,
-        "IconHint": "quibusdam",
+        "Rank": 276,
+        "Type": "minima",
+        "ColorBlock": 445,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2001-09-30T12:19:54.3053212+02:00",
+        "LastChanged": "2013-03-02T11:44:42.9294253+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "culpa",
+        "ExtraInfo": "aut",
+        "StyleHint": "praesentium",
         "Hidden": true,
-        "FullName": "Friedrich Hauck",
+        "FullName": "Judson Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 99
+            "FieldLength": 72
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "rerum",
+    "ExtraInfo": "totam",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Ardella Kub",
+    "FullName": "Watson Robyn Watsica II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldLength": 645
       }
     }
   }

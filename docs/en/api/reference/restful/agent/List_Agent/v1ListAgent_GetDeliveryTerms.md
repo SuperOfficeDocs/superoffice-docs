@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Value": "laborum",
-    "Tooltip": "beatae",
+    "Id": 796,
+    "Value": "eos",
+    "Tooltip": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 776
       }
     }
   },
   {
-    "Id": 950,
-    "Value": "laborum",
-    "Tooltip": "beatae",
+    "Id": 796,
+    "Value": "eos",
+    "Tooltip": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 776
       }
     }
   }

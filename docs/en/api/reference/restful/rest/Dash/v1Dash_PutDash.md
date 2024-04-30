@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 288,
-  "UniqueId": "quos",
-  "Name": "Goldner LLC",
-  "Description": "Reverse-engineered static secured line",
-  "AssociateId": 672,
-  "Columns": 560,
+  "DashboardId": 893,
+  "UniqueId": "quidem",
+  "Name": "Heller LLC",
+  "Description": "Progressive cohesive functionalities",
+  "AssociateId": 599,
+  "Columns": 519,
   "Theme": null,
-  "VisibleForAll": 246,
+  "VisibleForAll": 164,
   "VisibleForAssociates": [
-    903,
-    926
+    843,
+    359
   ],
   "VisibleForGroups": [
-    750,
-    302
+    761,
+    634
   ],
-  "PinForAll": 385,
+  "PinForAll": 700,
   "PinForAssociates": [
-    880,
-    780
+    163,
+    258
   ],
   "PinForGroups": [
-    902,
-    381
+    93,
+    915
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 746,
-  "UniqueId": "dolorum",
-  "Name": "Gleason-Powlowski",
-  "Description": "Multi-channelled real-time focus group",
-  "AssociateId": 123,
-  "Columns": 21,
+  "DashboardId": 745,
+  "UniqueId": "delectus",
+  "Name": "Kiehn Inc and Sons",
+  "Description": "Up-sized stable product",
+  "AssociateId": 418,
+  "Columns": 22,
   "Theme": null,
-  "VisibleForAll": 435,
+  "VisibleForAll": 571,
   "VisibleForAssociates": [
-    780,
-    904
+    684,
+    435
   ],
   "VisibleForGroups": [
-    563,
-    784
+    652,
+    612
   ],
-  "PinForAll": 142,
+  "PinForAll": 727,
   "PinForAssociates": [
-    172,
-    978
+    841,
+    341
   ],
   "PinForGroups": [
-    580,
-    497
+    604,
+    613
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldType": "System.String",
+      "FieldLength": 535
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

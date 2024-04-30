@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Walker, Jakubowski and Terry",
-  "Tooltip": "rerum",
+  "Id": 250,
+  "Name": "Torp LLC",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 668,
-  "Rank": 626,
+  "UdListDefinitionId": 249,
+  "Rank": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 45,
-    "ParentId": 939,
-    "Name": "Bode-Kirlin",
-    "Fullname": "est",
-    "CategoryMaster": 485,
+    "TicketCategoryId": 662,
+    "ParentId": 814,
+    "Name": "Leffler Inc and Sons",
+    "Fullname": "ratione",
+    "CategoryMaster": 778,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Wolf-Altenwerth",
+    "ExternalName": "Kiehn-Auer",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 246,
-    "ReplyTemplate": 838,
-    "NotificationEmail": "camron@klocko.uk",
+    "AssignmentLag": 186,
+    "ReplyTemplate": 724,
+    "NotificationEmail": "reagan_wisozk@lebsackhauck.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 317,
+    "EffectiveReplyTemplateId": 60,
     "ExtraFields": {
-      "ExtraFields1": "vitae",
-      "ExtraFields2": "labore"
+      "ExtraFields1": "at",
+      "ExtraFields2": "veritatis"
     },
     "CustomFields": {
-      "CustomFields1": "nesciunt",
-      "CustomFields2": "sed"
+      "CustomFields1": "ut",
+      "CustomFields2": "ullam"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 103
       }
     }
   }

@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    338,
-    286
+    286,
+    216
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 74,
-    "ColumnId": 99,
-    "FieldDefault": "in",
-    "FieldHeight": 969,
-    "FieldLabel": "accusamus",
-    "FieldLeft": 962,
-    "FieldTop": 430,
+    "UDefFieldId": 501,
+    "ColumnId": 717,
+    "FieldDefault": "ratione",
+    "FieldHeight": 821,
+    "FieldLabel": "omnis",
+    "FieldLeft": 266,
+    "FieldTop": 109,
     "FieldType": "Checkbox",
-    "FieldWidth": 405,
-    "FormatMask": "voluptas",
+    "FieldWidth": 235,
+    "FormatMask": "ut",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 910,
-    "LabelLeft": 124,
-    "LabelTop": 720,
-    "LabelWidth": 642,
-    "LastVersionId": 603,
-    "ListTableId": 365,
+    "LabelHeight": 193,
+    "LabelLeft": 433,
+    "LabelTop": 476,
+    "LabelWidth": 162,
+    "LastVersionId": 28,
+    "ListTableId": 618,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 932,
-    "ProgId": "iusto",
+    "Page1LineNo": 871,
+    "ProgId": "maxime",
     "IsReadOnly": true,
-    "ShortLabel": "sequi",
-    "TabOrder": 162,
-    "TextLength": 540,
-    "Tooltip": "aspernatur",
-    "UdefIdentity": 315,
-    "UDListDefinitionId": 474,
+    "ShortLabel": "est",
+    "TabOrder": 521,
+    "TextLength": 18,
+    "Tooltip": "quisquam",
+    "UdefIdentity": 441,
+    "UDListDefinitionId": 517,
     "Justification": "Center",
-    "Version": 928,
-    "TemplateVariableName": "Monahan-Corkery",
+    "Version": 468,
+    "TemplateVariableName": "Jaskolski LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Goyette, Mills and Grimes",
+    "MdoListName": "Collier LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 436
       }
     }
   }

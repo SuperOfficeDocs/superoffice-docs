@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 665,
-  "GroupType": 55,
-  "StartTime": "2012-03-24T12:19:44.1800107+01:00",
-  "EndTime": "2000-01-18T12:19:44.1800107+01:00",
-  "Count": 369
+  "GroupId": 391,
+  "GroupType": 490,
+  "StartTime": "2014-02-21T11:44:32.4631128+01:00",
+  "EndTime": "2006-10-24T11:44:32.4631128+02:00",
+  "Count": 470
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 229,
-    "StartDate": "2021-05-03T12:19:44.1800107+02:00",
-    "EndDate": "2018-10-11T12:19:44.1800107+02:00",
+    "AppointmentId": 176,
+    "StartDate": "2005-09-07T11:44:32.4631128+02:00",
+    "EndDate": "2023-01-17T11:44:32.4631128+01:00",
     "Type": "BookingForChecklist",
-    "Task": "placeat",
-    "AssociateFullName": "Ella Cassin",
-    "ContactName": "Bernier-Swaniawski",
-    "Description": "Robust maximized core",
-    "PersonFullName": "Maxwell Mueller",
-    "PersonId": 814,
-    "ContactId": 995,
-    "ProjectId": 506,
-    "ProjectName": "Hodkiewicz Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 357,
-    "ColorIndex": 376,
+    "Task": "quia",
+    "AssociateFullName": "Johathan Howe",
+    "ContactName": "Labadie Inc and Sons",
+    "Description": "Grass-roots bandwidth-monitored paradigm",
+    "PersonFullName": "Ms. Ruthie Ollie Hoppe",
+    "PersonId": 280,
+    "ContactId": 683,
+    "ProjectId": 118,
+    "ProjectName": "Ferry Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 378,
+    "ColorIndex": 401,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 597,
-    "PriorityName": "Adams-Runolfsson",
+    "PriorityId": 520,
+    "PriorityName": "Schumm, Pouros and Johnson",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1999-04-22T12:19:44.1800107+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2017-06-08T11:44:32.4631128+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-05T12:19:44.1800107+02:00",
-    "RecurringEndDate": "2018-11-28T12:19:44.1800107+01:00",
-    "MotherId": 582,
-    "AssignedBy": 869,
-    "AssignedByFullName": "Ms. Beryl Sigurd Boehm",
-    "RejectReason": "architect rich ROI",
-    "Location": "est",
-    "AlarmLeadTime": "repellendus",
-    "SaleId": 725,
-    "SaleName": "Schiller, Toy and Smith",
-    "AssociateName": "Schroeder, Skiles and O'Hara",
-    "CreatedDate": "1999-07-31T12:19:44.1800107+02:00",
-    "CreatedBy": "quo",
-    "CreatedByFullName": "Mrs. Jamal Annamarie Parker",
-    "CreatedByAssociateId": 182,
+    "RecurringStartDate": "2005-10-09T11:44:32.4631128+02:00",
+    "RecurringEndDate": "2023-07-06T11:44:32.4631128+02:00",
+    "MotherId": 839,
+    "AssignedBy": 152,
+    "AssignedByFullName": "Ernestina Marcelle Terry III",
+    "RejectReason": "",
+    "Location": "dolores",
+    "AlarmLeadTime": "quisquam",
+    "SaleId": 703,
+    "SaleName": "Brakus-Larkin",
+    "AssociateName": "Rippin, Weber and Reinger",
+    "CreatedDate": "2023-10-05T11:44:32.4631128+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Natasha Ruecker",
+    "CreatedByAssociateId": 296,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 862,
-    "Title": "qui",
-    "Agenda": "et",
-    "InternalNotes": "non",
+    "PreferredTZLocation": 472,
+    "Title": "architecto",
+    "Agenda": "necessitatibus",
+    "InternalNotes": "a",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldLength": 984
       }
     }
   }

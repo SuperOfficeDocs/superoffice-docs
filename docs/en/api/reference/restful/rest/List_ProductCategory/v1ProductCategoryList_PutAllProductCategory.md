@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Cassin Group",
-    "Tooltip": "necessitatibus",
-    "Deleted": true,
-    "UdListDefinitionId": 323,
-    "Rank": 514
+    "Id": 823,
+    "Name": "Kozey, Schneider and Kohler",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 959,
+    "Rank": 317
   },
   {
-    "Id": 20,
-    "Name": "Cassin Group",
-    "Tooltip": "necessitatibus",
-    "Deleted": true,
-    "UdListDefinitionId": 323,
-    "Rank": 514
+    "Id": 823,
+    "Name": "Kozey, Schneider and Kohler",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 959,
+    "Rank": 317
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Kris Inc and Sons",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 274,
-    "Rank": 723,
+    "Id": 491,
+    "Name": "Mohr LLC",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "UdListDefinitionId": 45,
+    "Rank": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 555
       }
     }
   }

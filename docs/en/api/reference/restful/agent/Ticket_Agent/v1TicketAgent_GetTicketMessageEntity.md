@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=261
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=236
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 356,
+  "EjMessageId": 235,
   "Ticket": null,
-  "CreatedAt": "2017-03-17T12:19:46.5076053+01:00",
+  "CreatedAt": "2013-03-26T11:44:34.8844266+01:00",
   "CreatedBy": null,
-  "Author": "alias",
+  "Author": "praesentium",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sit",
-  "TimeSpent": 380,
+  "MessageId": "ab",
+  "TimeSpent": 740,
   "Body": "omnis",
-  "HtmlBody": "blanditiis",
-  "EmailHeader": "kay@conroy.biz",
-  "DebugInfo": "officiis",
-  "MailSorter": "repellat",
+  "HtmlBody": "est",
+  "EmailHeader": "cordie_collier@streich.us",
+  "DebugInfo": "qui",
+  "MailSorter": "officiis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ullam",
+  "SearchTitle": "similique",
   "MessageHeaders": [
     {
-      "Id": 115,
-      "Name": "Mayer Group",
-      "Value": "corrupti",
+      "Id": 412,
+      "Name": "Braun, Boyer and Ondricka",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,50 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 803
+          "FieldLength": 919
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "non",
-  "Sentiment": 847,
-  "SentimentConfidence": 99,
+  "Important": false,
+  "Language": "qui",
+  "Sentiment": 475,
+  "SentimentConfidence": 719,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 200,
-      "Name": "Adams, Stroman and Hudson",
-      "ContentType": "laboriosam",
-      "AttSize": 703,
-      "InlineImage": true,
-      "ContentId": "distinctio",
-      "AuthKey": "est",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 84,
+      "Name": "Herman, Batz and Schinner",
+      "ContentType": "et",
+      "AttSize": 579,
+      "InlineImage": false,
+      "ContentId": "odit",
+      "AuthKey": "magni",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 690
+          "FieldLength": 348
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "placeat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 160
     }
   }
 }

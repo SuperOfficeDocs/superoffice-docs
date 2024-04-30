@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 976,
-  "Name": "Wehner, Gulgowski and Bins",
-  "CreatedDate": "2018-07-08T12:19:53.5867469+02:00",
-  "UpdatedDate": "2016-11-27T12:19:53.5867469+01:00",
+  "ForeignAppId": 502,
+  "Name": "Rodriguez-Jewess",
+  "CreatedDate": "2015-03-09T11:44:41.9921474+01:00",
+  "UpdatedDate": "2002-11-18T11:44:41.9921474+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 303,
-      "Name": "Mraz, Wintheiser and Funk",
-      "CreatedDate": "2018-12-09T12:19:53.5867469+01:00",
-      "UpdatedDate": "1997-04-24T12:19:53.5867469+02:00",
-      "AssociateFullName": "Kariane Shields",
-      "CreatedBy": "id",
-      "UpdatedBy": "temporibus",
-      "DeviceIdentifier": "aliquid",
-      "ForeignAppId": 368
+      "ForeignDeviceId": 387,
+      "Name": "Muller, Pagac and Roob",
+      "CreatedDate": "2006-12-28T11:44:41.9921474+01:00",
+      "UpdatedDate": "2022-10-03T11:44:41.9921474+02:00",
+      "AssociateFullName": "Mr. Seth Vanessa Cronin",
+      "CreatedBy": "fugit",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 633
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 147,
-  "Name": "Senger-Johnston",
-  "CreatedDate": "1998-11-26T12:19:53.5867469+01:00",
-  "UpdatedDate": "2002-05-30T12:19:53.5867469+02:00",
+  "ForeignAppId": 653,
+  "Name": "Cartwright-Boyle",
+  "CreatedDate": "2004-09-21T11:44:41.9921474+02:00",
+  "UpdatedDate": "2007-11-17T11:44:41.9921474+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 464,
-      "Name": "Bergnaum, Muller and Wilkinson",
-      "CreatedDate": "2023-03-05T12:19:53.6023745+01:00",
-      "UpdatedDate": "2004-05-08T12:19:53.6023745+02:00",
-      "AssociateFullName": "Cleveland Rippin",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "odit",
-      "DeviceIdentifier": "voluptatibus",
-      "ForeignAppId": 751,
+      "ForeignDeviceId": 972,
+      "Name": "Stoltenberg LLC",
+      "CreatedDate": "2016-02-28T11:44:41.9921474+01:00",
+      "UpdatedDate": "2004-03-05T11:44:41.9921474+01:00",
+      "AssociateFullName": "Dr. Serenity Padberg DVM",
+      "CreatedBy": "ut",
+      "UpdatedBy": "excepturi",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 729,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldLength": 547
         }
       }
     }
@@ -156,13 +156,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 350
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,14 +68,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman, Durgan and Feil",
+  "Name": "Mayert, Tremblay and Durgan",
   "TileType": "Area",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

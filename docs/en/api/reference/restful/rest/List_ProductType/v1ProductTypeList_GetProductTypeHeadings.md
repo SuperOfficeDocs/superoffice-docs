@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 295,
-    "Name": "Botsford LLC",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "Rank": 708,
-    "UdListDefinitionId": 677,
+    "HeadingId": 162,
+    "Name": "Carroll, Volkman and Bradtke",
+    "Tooltip": "modi",
+    "Deleted": true,
+    "Rank": 447,
+    "UdListDefinitionId": 487,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 600
       }
     }
   }

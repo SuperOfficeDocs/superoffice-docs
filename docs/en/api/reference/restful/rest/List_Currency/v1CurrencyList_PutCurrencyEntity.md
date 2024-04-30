@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 913,
-  "Name": "Bailey Inc and Sons",
-  "Tooltip": "consequuntur",
-  "Rank": 873,
-  "Rate": 19368.12,
-  "Units": 2055.904,
+  "CurrencyId": 499,
+  "Name": "Jakubowski, Altenwerth and Feest",
+  "Tooltip": "aut",
+  "Rank": 814,
+  "Rate": 18067.51,
+  "Units": 13353.974,
   "Deleted": true
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 988,
-  "Name": "Gerhold Group",
-  "Tooltip": "nobis",
-  "Rank": 237,
-  "Rate": 11197.782,
-  "Units": 26770.628,
+  "CurrencyId": 608,
+  "Name": "Roberts Inc and Sons",
+  "Tooltip": "odio",
+  "Rank": 777,
+  "Rate": 294.596,
+  "Units": 21709.218,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

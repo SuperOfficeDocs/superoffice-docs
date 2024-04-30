@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 515,
-  "ParentId": 101,
-  "Name": "Powlowski-Ortiz",
-  "Fullname": "amet",
-  "CategoryMaster": 964,
+  "TicketCategoryId": 858,
+  "ParentId": 126,
+  "Name": "Prohaska-Ondricka",
+  "Fullname": "omnis",
+  "CategoryMaster": 970,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Veum-Dietrich",
+  "ExternalName": "Shanahan Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 585,
-  "ReplyTemplate": 1001,
-  "NotificationEmail": "alexane@hanesenger.co.uk",
+  "AssignmentLag": 486,
+  "ReplyTemplate": 808,
+  "NotificationEmail": "keely_collins@dooley.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 602,
+  "EffectiveReplyTemplateId": 988,
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "quas"
+    "CustomFields1": "ea",
+    "CustomFields2": "similique"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 958
     }
   }
 }

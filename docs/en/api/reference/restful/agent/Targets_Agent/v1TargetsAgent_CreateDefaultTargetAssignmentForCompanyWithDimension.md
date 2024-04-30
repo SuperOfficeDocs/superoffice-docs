@@ -85,7 +85,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 990
+  "TargetDimensionId": 400
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 442,
+    "TargetAssignmentInfoId": 591,
     "Values": [
-      467,
-      410
+      434,
+      685
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 812,
-    "DimensionListItemDisplayName": "Ziemann Group",
+    "DimensionListItem": 4,
+    "DimensionListItemDisplayName": "Hayes, Weissnat and Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 478
       }
     }
   }

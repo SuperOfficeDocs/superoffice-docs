@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rippin-Franecki",
-  "EmailAddress": "reva@dietrichemmerich.us",
-  "NumberOfContacts": 569,
-  "NumberOfPersons": 930
+  "Name": "Hirthe, Harber and Legros",
+  "EmailAddress": "dillon.rowe@yosthoppe.com",
+  "NumberOfContacts": 843,
+  "NumberOfPersons": 164
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 258,
-    "FullName": "Marta Tromp",
-    "EmailAddress": "joseph_wilkinson@fritschparker.com",
-    "ContactId": 753,
-    "ContactName": "Ledner, Jaskolski and McClure",
+    "PersonId": 479,
+    "FullName": "Mr. Floy Kohler",
+    "EmailAddress": "gerhard_kulas@hyatt.info",
+    "ContactId": 4,
+    "ContactName": "Mann, Pfeffer and Hagenes",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Lehner-Schultz",
+    "SortName": "Gutkowski LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldType": "System.String",
+        "FieldLength": 316
       }
     }
   }

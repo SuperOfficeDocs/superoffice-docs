@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "iste"
+  "Hostname": "aperiam"
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "omnis",
-  "inventore"
+  "minima",
+  "quasi"
 ]
 ```

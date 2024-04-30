@@ -67,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Towne, Beer and McLaughlin",
-    "DisplayName": "Grant Inc and Sons",
-    "Description": "Progressive coherent synergy",
-    "ShortLabel": "nihil",
+    "FieldName": "Howell LLC",
+    "DisplayName": "Breitenberg-Mann",
+    "Description": "Triple-buffered object-oriented structure",
+    "ShortLabel": "quo",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 397,
-    "TemplateVariableName": "Orn, Berge and Kub"
+    "IsExternal": true,
+    "Rank": 544,
+    "TemplateVariableName": "Bogisich, Collins and Pouros"
   }
 ]
 ```

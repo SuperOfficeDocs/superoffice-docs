@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Muller-Schoen",
-    "ToolTip": "Eveniet possimus atque possimus.",
-    "Deleted": true,
-    "Rank": 597,
-    "Type": "harum",
-    "ColorBlock": 325,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2020-08-08T12:19:54.789597+02:00",
+    "Id": 742,
+    "Name": "Bechtelar, Parisian and Bashirian",
+    "ToolTip": "Qui qui nihil itaque aliquam ut.",
+    "Deleted": false,
+    "Rank": 789,
+    "Type": "placeat",
+    "ColorBlock": 610,
+    "IconHint": "pariatur",
+    "Selected": true,
+    "LastChanged": "1999-03-04T11:44:43.2887254+01:00",
     "ChildItems": [
       {
-        "Id": 30,
-        "Name": "Aufderhar Inc and Sons",
-        "ToolTip": "Doloribus alias omnis.",
-        "Deleted": true,
-        "Rank": 91,
+        "Id": 914,
+        "Name": "Zboncak, Moen and Sipes",
+        "ToolTip": "Suscipit quisquam dolore quia et et voluptates.",
+        "Deleted": false,
+        "Rank": 984,
         "Type": "nam",
-        "ColorBlock": 100,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "1998-05-06T12:19:54.789597+02:00",
+        "ColorBlock": 283,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2018-07-25T11:44:43.2887254+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "modi",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Brennan Corwin",
+        "FullName": "Noe Turcotte I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 218
+            "FieldType": "System.Int32",
+            "FieldLength": 26
           }
         }
       }
     ],
     "ExtraInfo": "neque",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Rachael Schiller",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Darryl Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldType": "System.String",
+        "FieldLength": 878
       }
     }
   }

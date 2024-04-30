@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 643,
-    "ERPName": "Mitchell Group",
-    "DisplayName": "Daugherty-Boyle",
-    "DisplayDescription": "Polarised directional methodology",
-    "Rank": 215,
-    "ConnectorName": "Cummerata-Satterfield",
-    "ErpConnectionId": 724,
-    "ExtraData": "fuga",
-    "IsAvailable": true,
+    "QuoteConnectionId": 816,
+    "ERPName": "Tremblay, Pagac and Cartwright",
+    "DisplayName": "Gislason-Beier",
+    "DisplayDescription": "Compatible bottom-line capacity",
+    "Rank": 694,
+    "ConnectorName": "Zemlak, Wolff and Olson",
+    "ErpConnectionId": 787,
+    "ExtraData": "tempora",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 293,
-        "ERPPriceListKey": "ut",
-        "QuoteConnectionId": 934,
-        "Name": "Spencer LLC",
-        "Description": "Implemented clear-thinking knowledge base",
-        "Currency": "sed",
-        "CurrencyName": "Hudson-Yost",
-        "ValidFrom": "2015-03-09T12:19:46.0858192+01:00",
-        "ValidTo": "2019-08-15T12:19:46.0858192+02:00",
+        "PriceListId": 138,
+        "ERPPriceListKey": "deleniti",
+        "QuoteConnectionId": 572,
+        "Name": "Klocko, Gislason and Cassin",
+        "Description": "Innovative heuristic attitude",
+        "Currency": "aut",
+        "CurrencyName": "Howell-Turner",
+        "ValidFrom": "1997-07-10T11:44:34.2907996+02:00",
+        "ValidTo": "2002-09-02T11:44:34.2907996+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 716
+            "FieldLength": 325
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      676,
-      159
+      564,
+      613
     ],
     "AssociateAccessIds": [
-      690,
-      963
+      387,
+      803
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 863
       }
     }
   }

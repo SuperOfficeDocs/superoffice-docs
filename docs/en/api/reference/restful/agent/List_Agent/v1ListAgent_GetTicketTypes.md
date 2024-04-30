@@ -67,6 +67,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -76,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 805,
-    "Name": "Gottlieb-Dickinson",
-    "Rank": 9,
-    "Tooltip": "temporibus",
-    "Icon": "harum",
-    "DefaultTicketStatus": 840,
+    "TicketTypeId": 406,
+    "Name": "Ondricka-Bartell",
+    "Rank": 452,
+    "Tooltip": "accusamus",
+    "Icon": "rerum",
+    "DefaultTicketStatus": 177,
     "TicketStatuses": [
-      194,
-      527
+      527,
+      812
     ],
-    "DefaultTicketPriority": 377,
+    "DefaultTicketPriority": 134,
     "TicketPriorities": [
-      851,
-      17
+      108,
+      511
     ],
-    "ReplyTemplate": 586,
-    "IsExternalVisible": true,
+    "ReplyTemplate": 671,
+    "IsExternalVisible": false,
     "IsDefault": true,
+    "ShowInNew": true,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 844
       }
     }
   }

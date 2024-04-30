@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=reiciendis
-GET /api/v1/MDOList/{listname}?query=sapiente
+GET /api/v1/MDOList/{listname}?additional=nemo
+GET /api/v1/MDOList/{listname}?query=harum
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Ferry Inc and Sons",
-    "ToolTip": "Ullam quaerat consequuntur qui.",
-    "Deleted": false,
-    "Rank": 418,
-    "Type": "voluptatem",
+    "Id": 166,
+    "Name": "Spinka, Lueilwitz and Cronin",
+    "ToolTip": "Qui ipsum necessitatibus tempore quaerat.",
+    "Deleted": true,
+    "Rank": 698,
+    "Type": "laudantium",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Spencer Inc and Sons",
-        "ToolTip": "Sit aliquam enim officia velit vitae.",
-        "Deleted": true,
-        "Rank": 418,
-        "Type": "et",
+        "Id": 95,
+        "Name": "Moore, McGlynn and Will",
+        "ToolTip": "Et minima vel.",
+        "Deleted": false,
+        "Rank": 728,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "beatae",
-        "ColorBlock": 331,
-        "ExtraInfo": "repellat",
-        "StyleHint": "nisi",
-        "FullName": "Madalyn Kihn",
+        "IconHint": "in",
+        "ColorBlock": 709,
+        "ExtraInfo": "aut",
+        "StyleHint": "eum",
+        "FullName": "Emelia Hand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldLength": 229
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 78,
-    "ExtraInfo": "nam",
-    "StyleHint": "ut",
-    "FullName": "Mr. Lillian Cayla Stiedemann",
+    "IconHint": "sequi",
+    "ColorBlock": 917,
+    "ExtraInfo": "doloribus",
+    "StyleHint": "quo",
+    "FullName": "Susana Rath IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 686
       }
     }
   }

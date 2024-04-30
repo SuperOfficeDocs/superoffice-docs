@@ -44,7 +44,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |2|Active|||
 |3|Finished|||
-|4|Successfully completed|||
+|4|Finished with success|||
 |5|Dropout|||
 |6|Cancelled|||
 

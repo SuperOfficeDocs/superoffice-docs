@@ -3463,6 +3463,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetAttachmentInfo.md
   - name: GetAttachmentInfoNonInline
     href: Ticket_Agent/v1TicketAgent_GetAttachmentInfoNonInline.md
+  - name: GetAttachmentPreview
+    href: Ticket_Agent/v1TicketAgent_GetAttachmentPreview.md
   - name: GetAttachmentStream
     href: Ticket_Agent/v1TicketAgent_GetAttachmentStream.md
   - name: GetDefaultMessageContent
@@ -3475,6 +3477,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetNextInQueue.md
   - name: GetPreviewAttachmentStream
     href: Ticket_Agent/v1TicketAgent_GetPreviewAttachmentStream.md
+  - name: GetRfcAttachmentStream
+    href: Ticket_Agent/v1TicketAgent_GetRfcAttachmentStream.md
   - name: GetTicket
     href: Ticket_Agent/v1TicketAgent_GetTicket.md
   - name: GetTicketAttachments
@@ -3513,6 +3517,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_SanitizeMailContent.md
   - name: SanitizeMailContents
     href: Ticket_Agent/v1TicketAgent_SanitizeMailContents.md
+  - name: SanitizeMailContentWithOptions
+    href: Ticket_Agent/v1TicketAgent_SanitizeMailContentWithOptions.md
   - name: SaveAttachmentEntity
     href: Ticket_Agent/v1TicketAgent_SaveAttachmentEntity.md
   - name: SaveTicketEntity

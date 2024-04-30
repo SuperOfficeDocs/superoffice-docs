@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -118,157 +118,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 425,
-  "Name": "Nitzsche-McClure",
+  "ContactId": 172,
+  "Name": "Fritsch-Abshire",
   "Department": "",
-  "OrgNr": "1201549",
-  "Number1": "1480152",
-  "Number2": "871127",
-  "UpdatedDate": "2021-10-07T12:19:44.9298363+02:00",
-  "CreatedDate": "2002-10-08T12:19:44.9298363+02:00",
+  "OrgNr": "1237836",
+  "Number1": "1219428",
+  "Number2": "974072",
+  "UpdatedDate": "2018-09-11T11:44:33.0879646+02:00",
+  "CreatedDate": "2010-03-16T11:44:33.0879646+01:00",
   "Emails": [
     {
-      "Value": "molestiae",
-      "StrippedValue": "eum",
-      "Description": "Digitized fresh-thinking orchestration",
+      "Value": "autem",
+      "StrippedValue": "asperiores",
+      "Description": "Synchronised empowering customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 587
+          "FieldLength": 577
         }
       }
     },
     {
-      "Value": "molestiae",
-      "StrippedValue": "eum",
-      "Description": "Digitized fresh-thinking orchestration",
+      "Value": "autem",
+      "StrippedValue": "asperiores",
+      "Description": "Synchronised empowering customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 587
+          "FieldLength": 577
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 974,
-      "Name": "Little-Mitchell",
-      "ToolTip": "Maiores omnis dolore hic.",
+      "Id": 967,
+      "Name": "West-Mertz",
+      "ToolTip": "Molestiae autem unde.",
       "Deleted": false,
-      "Rank": 721,
-      "Type": "blanditiis",
-      "ColorBlock": 760,
-      "IconHint": "eaque",
+      "Rank": 284,
+      "Type": "ea",
+      "ColorBlock": 212,
+      "IconHint": "culpa",
       "Selected": false,
-      "LastChanged": "2010-01-21T12:19:44.9298363+01:00",
+      "LastChanged": "2008-09-12T11:44:33.0879646+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "velit",
+      "ExtraInfo": "veniam",
+      "StyleHint": "voluptas",
       "Hidden": false,
-      "FullName": "Nelson Champlin",
+      "FullName": "Prof. Bernice Jeramy Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldType": "System.String",
+          "FieldLength": 351
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "reiciendis",
-      "StrippedValue": "ab",
-      "Description": "Devolved value-added installation",
+      "Value": "animi",
+      "StrippedValue": "asperiores",
+      "Description": "Virtual uniform info-mediaries",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 950
         }
       }
     },
     {
-      "Value": "reiciendis",
-      "StrippedValue": "ab",
-      "Description": "Devolved value-added installation",
+      "Value": "animi",
+      "StrippedValue": "asperiores",
+      "Description": "Virtual uniform info-mediaries",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 950
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "eos",
-      "StrippedValue": "omnis",
-      "Description": "Phased contextually-based artificial intelligence",
+      "Value": "ut",
+      "StrippedValue": "assumenda",
+      "Description": "Assimilated bi-directional interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldLength": 181
         }
       }
     },
     {
-      "Value": "eos",
-      "StrippedValue": "omnis",
-      "Description": "Phased contextually-based artificial intelligence",
+      "Value": "ut",
+      "StrippedValue": "assumenda",
+      "Description": "Assimilated bi-directional interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldLength": 181
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "est",
-      "StrippedValue": "maiores",
-      "Description": "Managed discrete protocol",
+      "Value": "cupiditate",
+      "StrippedValue": "ab",
+      "Description": "Automated explicit internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldType": "System.String",
+          "FieldLength": 633
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "maiores",
-      "Description": "Managed discrete protocol",
+      "Value": "cupiditate",
+      "StrippedValue": "ab",
+      "Description": "Automated explicit internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldType": "System.String",
+          "FieldLength": 633
         }
       }
     }
   ],
-  "Description": "Diverse tangible complexity",
+  "Description": "Sharable encompassing budgetary management",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -277,100 +277,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "perferendis",
-      "PersonId": 491,
-      "Mrmrs": "est",
-      "Firstname": "Clementina",
-      "Lastname": "Metz",
-      "MiddleName": "Kutch, Ullrich and Eichmann",
-      "Title": "similique",
-      "Description": "Up-sized coherent throughput",
-      "Email": "eulah_reilly@strackeblanda.ca",
-      "FullName": "Brisa Fisher",
-      "DirectPhone": "(180)314-5261 x849",
-      "FormalName": "Muller, Stracke and Leuschke",
-      "CountryId": 661,
-      "ContactId": 149,
-      "ContactName": "Hackett, Abernathy and Beahan",
-      "Retired": 929,
-      "Rank": 270,
-      "ActiveInterests": 937,
+      "Position": "eius",
+      "PersonId": 760,
+      "Mrmrs": "et",
+      "Firstname": "Maci",
+      "Lastname": "Walter",
+      "MiddleName": "Kovacek Inc and Sons",
+      "Title": "quidem",
+      "Description": "Object-based bifurcated contingency",
+      "Email": "elisabeth@greenholt.uk",
+      "FullName": "Ms. Jasper Oberbrunner II",
+      "DirectPhone": "562.547.4128",
+      "FormalName": "Lind-Nicolas",
+      "CountryId": 970,
+      "ContactId": 736,
+      "ContactName": "Predovic, Metz and Koss",
+      "Retired": 841,
+      "Rank": 171,
+      "ActiveInterests": 342,
       "ContactDepartment": "",
-      "ContactCountryId": 35,
-      "ContactOrgNr": "1093469",
-      "FaxPhone": "045.244.5440",
-      "MobilePhone": "582-545-9397 x20655",
-      "ContactPhone": "1-970-520-3239 x661",
-      "AssociateName": "Brekke, Bruen and Ortiz",
-      "AssociateId": 181,
+      "ContactCountryId": 358,
+      "ContactOrgNr": "1357565",
+      "FaxPhone": "1-666-495-8940 x14841",
+      "MobilePhone": "034-003-8615 x2635",
+      "ContactPhone": "1-271-722-4526 x6777",
+      "AssociateName": "Gutkowski-Harvey",
+      "AssociateId": 483,
       "UsePersonAddress": false,
-      "ContactFax": "occaecati",
-      "Kanafname": "molestiae",
-      "Kanalname": "ut",
-      "Post1": "perferendis",
-      "Post2": "aperiam",
-      "Post3": "cupiditate",
-      "EmailName": "lorena.stehr@jacobi.ca",
-      "ContactFullName": "Rodrick Wintheiser",
-      "ActiveErpLinks": 733,
-      "TicketPriorityId": 192,
-      "SupportLanguageId": 544,
-      "SupportAssociateId": 208,
+      "ContactFax": "autem",
+      "Kanafname": "porro",
+      "Kanalname": "laboriosam",
+      "Post1": "quis",
+      "Post2": "qui",
+      "Post3": "officiis",
+      "EmailName": "delia_stroman@mohr.uk",
+      "ContactFullName": "Ulises Mohr",
+      "ActiveErpLinks": 33,
+      "TicketPriorityId": 43,
+      "SupportLanguageId": 936,
+      "SupportAssociateId": 661,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldType": "System.Int32",
+          "FieldLength": 393
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "quia",
+  "Kananame": "reiciendis",
   "Xstop": false,
-  "ActiveInterests": 420,
-  "GroupId": 588,
-  "ActiveStatusMonitorId": 790,
+  "ActiveInterests": 683,
+  "GroupId": 424,
+  "ActiveStatusMonitorId": 144,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 944,
-  "DbiAgentId": 143,
-  "DbiLastSyncronized": "2019-07-29T12:19:44.9298363+02:00",
-  "DbiKey": "autem",
-  "DbiLastModified": "1997-04-01T12:19:44.9298363+02:00",
+  "Deleted": 697,
+  "DbiAgentId": 46,
+  "DbiLastSyncronized": "1998-09-11T11:44:33.0879646+02:00",
+  "DbiKey": "qui",
+  "DbiLastModified": "2008-12-15T11:44:33.0879646+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 802,
-  "ActiveErpLinks": 442,
+  "Source": 525,
+  "ActiveErpLinks": 256,
   "BounceEmails": [
-    "pansy@green.co.uk",
-    "shakira@mayer.info"
+    "lucy@schowalter.ca",
+    "ricardo_doyle@nolanwhite.uk"
   ],
   "Domains": [
-    "et",
-    "expedita"
+    "ut",
+    "et"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Brett Harris Jr.",
+    "SuperOffice:1": "Myrl Vandervort",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "quo",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 368
     }
   }
 }

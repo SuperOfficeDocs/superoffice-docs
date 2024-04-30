@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bartell, Batz and Walsh",
-    "DisplayName": "Miller, Schimmel and Christiansen",
-    "Description": "Seamless attitude-oriented capability",
-    "ToolTip": "Fugiat enim ut at magnam odio velit.",
+    "Name": "Feil Inc and Sons",
+    "DisplayName": "Bartell Group",
+    "Description": "Innovative multimedia help-desk",
+    "ToolTip": "Inventore saepe aperiam quia hic corrupti.",
     "Actions": "Implicit",
-    "ActionData": "eveniet",
+    "ActionData": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldType": "System.String",
+        "FieldLength": 236
       }
     }
   }

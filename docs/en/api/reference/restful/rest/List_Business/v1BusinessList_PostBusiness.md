@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230,
-  "Name": "Bergnaum, Herman and Paucek",
-  "Tooltip": "repellendus",
+  "Id": 73,
+  "Name": "Kihn-Weissnat",
+  "Tooltip": "atque",
   "Deleted": false,
-  "UdListDefinitionId": 400,
-  "Rank": 983
+  "UdListDefinitionId": 167,
+  "Rank": 744
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Cruickshank-Littel",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 622,
-  "Rank": 553,
+  "Id": 385,
+  "Name": "Greenfelder Group",
+  "Tooltip": "repellat",
+  "Deleted": false,
+  "UdListDefinitionId": 9,
+  "Rank": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

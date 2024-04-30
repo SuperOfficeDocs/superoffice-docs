@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Skiles, Gutmann and Heller",
-    "Tooltip": "a",
-    "Deleted": false,
-    "UdListDefinitionId": 157,
-    "Rank": 992
+    "Id": 265,
+    "Name": "Ortiz-Kirlin",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "UdListDefinitionId": 943,
+    "Rank": 639
   },
   {
-    "Id": 555,
-    "Name": "Skiles, Gutmann and Heller",
-    "Tooltip": "a",
-    "Deleted": false,
-    "UdListDefinitionId": 157,
-    "Rank": 992
+    "Id": 265,
+    "Name": "Ortiz-Kirlin",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "UdListDefinitionId": 943,
+    "Rank": 639
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Armstrong LLC",
-    "Tooltip": "ab",
+    "Id": 258,
+    "Name": "O'Conner Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 1002,
-    "Rank": 21,
+    "UdListDefinitionId": 962,
+    "Rank": 944,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 371
+        "FieldLength": 426
       }
     }
   }

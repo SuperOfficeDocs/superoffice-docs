@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 259,
-  "Name": "Lind LLC",
+  "WebhookId": 101,
+  "Name": "Ritchie, Borer and Pfannerstill",
   "Events": [
-    "impedit",
-    "veritatis"
+    "ab",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "saepe",
+  "Secret": "et",
   "State": "Active",
-  "Type": "unde",
+  "Type": "et",
   "Headers": {
-    "Headers1": "rem",
-    "Headers2": "temporibus"
+    "Headers1": "qui",
+    "Headers2": "occaecati"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-04-18T12:19:54.2584759+02:00",
+  "Registered": "2020-05-15T11:44:42.8669476+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-08-25T12:19:54.2584759+02:00",
+  "Updated": "2006-05-09T11:44:42.8669476+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "hillard.treutel@cruickshank.name"
+  "ErrorsEmail": "ashlynn@kulas.info"
 }
 ```

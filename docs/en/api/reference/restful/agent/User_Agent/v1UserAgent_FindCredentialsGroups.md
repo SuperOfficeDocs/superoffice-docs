@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "aspernatur",
-  "SearchString": "tenetur"
+  "Type": "porro",
+  "SearchString": "quas"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hegmann-Frami",
-    "DisplayName": "Harvey, Bailey and Wiegand",
+    "Name": "Eichmann Inc and Sons",
+    "DisplayName": "Flatley Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldType": "System.Int32",
+        "FieldLength": 194
       }
     }
   },
   {
-    "Name": "Hegmann-Frami",
-    "DisplayName": "Harvey, Bailey and Wiegand",
+    "Name": "Eichmann Inc and Sons",
+    "DisplayName": "Flatley Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldType": "System.Int32",
+        "FieldLength": 194
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 79,
-  "Name": "Bednar LLC",
-  "Tooltip": "nostrum",
-  "Deleted": false,
-  "Rank": 111,
-  "UdListDefinitionId": 295
+  "HeadingId": 234,
+  "Name": "Romaguera Inc and Sons",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "Rank": 471,
+  "UdListDefinitionId": 818
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 154,
-  "Name": "Towne, Beer and Ortiz",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 446,
-  "UdListDefinitionId": 630,
+  "HeadingId": 910,
+  "Name": "Weimann Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 211,
+  "UdListDefinitionId": 456,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldLength": 382
     }
   }
 }

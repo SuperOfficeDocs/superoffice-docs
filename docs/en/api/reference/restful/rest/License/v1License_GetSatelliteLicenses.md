@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cassin-Greenfelder",
-    "Description": "Persevering needs-based internet solution",
+    "Name": "Heller-Rippin",
+    "Description": "Customizable methodical approach",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 408,
-        "Tooltip": "impedit",
-        "CanAssign": false,
-        "Free": 278,
-        "InUse": 997,
-        "IsHidden": true,
+        "Total": 13,
+        "Tooltip": "deserunt",
+        "CanAssign": true,
+        "Free": 750,
+        "InUse": 626,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 372,
-        "Name": "Keeling, Stanton and Simonis",
-        "Description": "Multi-lateral non-volatile policy",
-        "PrerequisiteModuleName": "Effertz Inc and Sons",
-        "SortOrder": 730,
-        "ExtraFlags": 59,
+        "ModuleLicenseId": 769,
+        "Name": "Smitham Inc and Sons",
+        "Description": "Devolved scalable frame",
+        "PrerequisiteModuleName": "Corwin, Herzog and Kassulke",
+        "SortOrder": 211,
+        "ExtraFlags": 652,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldLength": 898
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 358,
-        "Tooltip": "voluptatem",
+        "Total": 496,
+        "Tooltip": "eveniet",
         "CanAssign": false,
-        "Free": 807,
-        "InUse": 210,
+        "Free": 329,
+        "InUse": 911,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 150,
-        "Name": "Herman Inc and Sons",
-        "Description": "Visionary stable access",
-        "PrerequisiteModuleName": "Zemlak-Hettinger",
-        "SortOrder": 776,
-        "ExtraFlags": 570,
+        "ModuleLicenseId": 956,
+        "Name": "Langworth, Haag and Nicolas",
+        "Description": "Implemented web-enabled groupware",
+        "PrerequisiteModuleName": "Jacobs, Runolfsdottir and Schowalter",
+        "SortOrder": 476,
+        "ExtraFlags": 20,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 174
+            "FieldLength": 999
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 698
       }
     }
   },
   {
-    "Name": "Cassin-Greenfelder",
-    "Description": "Persevering needs-based internet solution",
+    "Name": "Heller-Rippin",
+    "Description": "Customizable methodical approach",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 408,
-        "Tooltip": "impedit",
-        "CanAssign": false,
-        "Free": 278,
-        "InUse": 997,
-        "IsHidden": true,
+        "Total": 13,
+        "Tooltip": "deserunt",
+        "CanAssign": true,
+        "Free": 750,
+        "InUse": 626,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 372,
-        "Name": "Keeling, Stanton and Simonis",
-        "Description": "Multi-lateral non-volatile policy",
-        "PrerequisiteModuleName": "Effertz Inc and Sons",
-        "SortOrder": 730,
-        "ExtraFlags": 59,
+        "ModuleLicenseId": 769,
+        "Name": "Smitham Inc and Sons",
+        "Description": "Devolved scalable frame",
+        "PrerequisiteModuleName": "Corwin, Herzog and Kassulke",
+        "SortOrder": 211,
+        "ExtraFlags": 652,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldLength": 898
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 358,
-        "Tooltip": "voluptatem",
+        "Total": 496,
+        "Tooltip": "eveniet",
         "CanAssign": false,
-        "Free": 807,
-        "InUse": 210,
+        "Free": 329,
+        "InUse": 911,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 150,
-        "Name": "Herman Inc and Sons",
-        "Description": "Visionary stable access",
-        "PrerequisiteModuleName": "Zemlak-Hettinger",
-        "SortOrder": 776,
-        "ExtraFlags": 570,
+        "ModuleLicenseId": 956,
+        "Name": "Langworth, Haag and Nicolas",
+        "Description": "Implemented web-enabled groupware",
+        "PrerequisiteModuleName": "Jacobs, Runolfsdottir and Schowalter",
+        "SortOrder": 476,
+        "ExtraFlags": 20,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 174
+            "FieldLength": 999
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 698
       }
     }
   }

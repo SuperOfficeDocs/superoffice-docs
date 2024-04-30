@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 868,
-    "ERPName": "Hills-McKenzie",
-    "DisplayName": "Herzog, Schmitt and Nitzsche",
-    "DisplayDescription": "Reactive leading edge matrix",
-    "Rank": 344,
-    "ConnectorName": "Bashirian LLC",
-    "ErpConnectionId": 682,
-    "ExtraData": "omnis",
-    "IsAvailable": true,
+    "QuoteConnectionId": 1000,
+    "ERPName": "Olson, Bayer and Mertz",
+    "DisplayName": "Larkin-Carroll",
+    "DisplayDescription": "Upgradable zero administration open system",
+    "Rank": 440,
+    "ConnectorName": "Abernathy, Schroeder and Pacocha",
+    "ErpConnectionId": 232,
+    "ExtraData": "velit",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 602,
-        "ERPPriceListKey": "et",
-        "QuoteConnectionId": 868,
-        "Name": "Zulauf Inc and Sons",
-        "Description": "Pre-emptive 3rd generation customer loyalty",
-        "Currency": "velit",
-        "CurrencyName": "Schmeler-Swaniawski",
-        "ValidFrom": "2012-02-13T12:19:46.0858192+01:00",
-        "ValidTo": "2007-02-14T12:19:46.0858192+01:00",
+        "PriceListId": 492,
+        "ERPPriceListKey": "voluptatem",
+        "QuoteConnectionId": 654,
+        "Name": "Hegmann-Stiedemann",
+        "Description": "Polarised uniform help-desk",
+        "Currency": "porro",
+        "CurrencyName": "Turner Group",
+        "ValidFrom": "2019-04-26T11:44:34.2751814+02:00",
+        "ValidTo": "2020-11-10T11:44:34.2751814+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 380
+            "FieldLength": 947
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      555,
-      767
+      710,
+      272
     ],
     "AssociateAccessIds": [
-      56,
-      517
+      910,
+      69
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 288
       }
     }
   }

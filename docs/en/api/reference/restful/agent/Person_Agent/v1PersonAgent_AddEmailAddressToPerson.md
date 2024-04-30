@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 170,
-  "EmailAddress": "rylan_kuhic@bartellconsidine.uk",
+  "PersonId": 632,
+  "EmailAddress": "raymond.cremin@koch.ca",
   "SetAsPrimaryEmail": false
 }
 ```

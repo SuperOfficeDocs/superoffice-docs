@@ -140,14 +140,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=eum
-GET /api/v1/Archive/{archiveProviderName}?$top=743
-GET /api/v1/Archive/{archiveProviderName}?$skip=525
+GET /api/v1/Archive/{archiveProviderName}?$entities=quis
+GET /api/v1/Archive/{archiveProviderName}?$top=529
+GET /api/v1/Archive/{archiveProviderName}?$skip=955
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=sequi
+GET /api/v1/Archive/{archiveProviderName}?$context=architecto
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=numquam
+GET /api/v1/Archive/{archiveProviderName}?$metadata=mollitia
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -201,21 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "autem",
   "value": [
     {
-      "PrimaryKey": 5172,
+      "PrimaryKey": 8375,
       "EntityName": "sale",
-      "saleId": 5172,
-      "contactId": 8174,
-      "name": "Roberts LLC"
+      "saleId": 8375,
+      "contactId": 9247,
+      "name": "Homenick, Hintz and Gerlach"
     },
     {
-      "PrimaryKey": 5572,
+      "PrimaryKey": 1866,
       "EntityName": "sale",
-      "saleId": 5572,
-      "contactId": 9914,
-      "name": "Prosacco LLC"
+      "saleId": 1866,
+      "contactId": 7167,
+      "name": "Howell, Terry and Powlowski"
     }
   ]
 }

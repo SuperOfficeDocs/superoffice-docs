@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 224,
-  "Name": "Graham, Hessel and Beatty",
+  "ContactId": 913,
+  "Name": "Morissette, Heathcote and Reynolds",
   "Department": "",
-  "OrgNr": "210686",
-  "Number1": "901370",
-  "Number2": "1817667",
-  "UpdatedDate": "2022-05-04T12:19:44.8517429+02:00",
-  "CreatedDate": "2016-08-14T12:19:44.8517429+02:00",
+  "OrgNr": "1038699",
+  "Number1": "1942513",
+  "Number2": "1332363",
+  "UpdatedDate": "2018-05-01T11:44:33.0254682+02:00",
+  "CreatedDate": "1997-08-07T11:44:33.0254682+02:00",
   "Emails": [
     {
-      "Value": "velit",
-      "StrippedValue": "repudiandae",
-      "Description": "Fundamental didactic core",
+      "Value": "similique",
+      "StrippedValue": "sequi",
+      "Description": "Inverse well-modulated hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 603
+          "FieldLength": 130
         }
       }
     },
     {
-      "Value": "velit",
-      "StrippedValue": "repudiandae",
-      "Description": "Fundamental didactic core",
+      "Value": "similique",
+      "StrippedValue": "sequi",
+      "Description": "Inverse well-modulated hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 603
+          "FieldLength": 130
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 997,
-      "Name": "Kozey, Weber and Veum",
-      "ToolTip": "Aut nisi aut esse ut ea.",
-      "Deleted": true,
-      "Rank": 376,
-      "Type": "harum",
-      "ColorBlock": 883,
-      "IconHint": "sed",
+      "Id": 846,
+      "Name": "Rowe-Spinka",
+      "ToolTip": "Dolores blanditiis vitae dolor possimus hic.",
+      "Deleted": false,
+      "Rank": 850,
+      "Type": "nam",
+      "ColorBlock": 679,
+      "IconHint": "ducimus",
       "Selected": false,
-      "LastChanged": "2018-01-11T12:19:44.8517429+01:00",
+      "LastChanged": "2002-06-13T11:44:33.0254682+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "expedita",
-      "StyleHint": "quia",
+      "ExtraInfo": "recusandae",
+      "StyleHint": "blanditiis",
       "Hidden": false,
-      "FullName": "Laney Schuster",
+      "FullName": "Prof. Santa Cummerata",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldLength": 119
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "est",
-      "StrippedValue": "quam",
-      "Description": "Multi-layered fault-tolerant definition",
+      "Value": "dolor",
+      "StrippedValue": "soluta",
+      "Description": "Synchronised responsive methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "quam",
-      "Description": "Multi-layered fault-tolerant definition",
+      "Value": "dolor",
+      "StrippedValue": "soluta",
+      "Description": "Synchronised responsive methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "occaecati",
-      "StrippedValue": "est",
-      "Description": "Implemented modular application",
+      "Value": "omnis",
+      "StrippedValue": "eveniet",
+      "Description": "Cloned dynamic open architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     },
     {
-      "Value": "occaecati",
-      "StrippedValue": "est",
-      "Description": "Implemented modular application",
+      "Value": "omnis",
+      "StrippedValue": "eveniet",
+      "Description": "Cloned dynamic open architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "et",
-      "StrippedValue": "sit",
-      "Description": "Public-key encompassing artificial intelligence",
+      "Value": "odit",
+      "StrippedValue": "voluptas",
+      "Description": "Exclusive reciprocal projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldLength": 461
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "sit",
-      "Description": "Public-key encompassing artificial intelligence",
+      "Value": "odit",
+      "StrippedValue": "voluptas",
+      "Description": "Exclusive reciprocal projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldLength": 461
         }
       }
     }
   ],
-  "Description": "Re-contextualized 3rd generation algorithm",
+  "Description": "Fundamental impactful migration",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "totam",
-      "PersonId": 511,
-      "Mrmrs": "unde",
-      "Firstname": "Laney",
-      "Lastname": "Bartoletti",
-      "MiddleName": "Ziemann-Carter",
-      "Title": "corporis",
-      "Description": "Total logistical core",
-      "Email": "kara.champlin@krajcik.uk",
-      "FullName": "Miss Manley Estefania Schroeder",
-      "DirectPhone": "685.610.4746 x50015",
-      "FormalName": "Kiehn, Johnson and Rath",
-      "CountryId": 503,
-      "ContactId": 934,
-      "ContactName": "Beatty-Hansen",
-      "Retired": 24,
-      "Rank": 32,
-      "ActiveInterests": 920,
+      "Position": "repellendus",
+      "PersonId": 922,
+      "Mrmrs": "laboriosam",
+      "Firstname": "Anya",
+      "Lastname": "Buckridge",
+      "MiddleName": "Rutherford, Harris and Labadie",
+      "Title": "est",
+      "Description": "Total reciprocal customer loyalty",
+      "Email": "violet@faymacejkovic.co.uk",
+      "FullName": "Jonathon Kemmer",
+      "DirectPhone": "230.880.8660 x80613",
+      "FormalName": "Heaney, Doyle and Feil",
+      "CountryId": 259,
+      "ContactId": 579,
+      "ContactName": "Sauer LLC",
+      "Retired": 513,
+      "Rank": 232,
+      "ActiveInterests": 670,
       "ContactDepartment": "",
-      "ContactCountryId": 898,
-      "ContactOrgNr": "626677",
-      "FaxPhone": "(320)369-3141 x4421",
-      "MobilePhone": "475-249-3849 x27666",
-      "ContactPhone": "1-689-654-2312",
-      "AssociateName": "Turner LLC",
-      "AssociateId": 761,
+      "ContactCountryId": 654,
+      "ContactOrgNr": "714060",
+      "FaxPhone": "(861)138-9045 x5973",
+      "MobilePhone": "1-743-748-5238 x4203",
+      "ContactPhone": "182.180.4991 x26001",
+      "AssociateName": "Von-Bednar",
+      "AssociateId": 215,
       "UsePersonAddress": false,
-      "ContactFax": "omnis",
-      "Kanafname": "a",
-      "Kanalname": "et",
-      "Post1": "dolore",
-      "Post2": "dolorem",
-      "Post3": "laudantium",
-      "EmailName": "everett_collier@maggiostrosin.com",
-      "ContactFullName": "Dr. Rosalyn Nolan",
-      "ActiveErpLinks": 54,
-      "TicketPriorityId": 862,
-      "SupportLanguageId": 156,
-      "SupportAssociateId": 929,
+      "ContactFax": "dolor",
+      "Kanafname": "maxime",
+      "Kanalname": "ullam",
+      "Post1": "ut",
+      "Post2": "eaque",
+      "Post3": "consequuntur",
+      "EmailName": "benedict@aufderharwitting.uk",
+      "ContactFullName": "Mr. Rosella Collier I",
+      "ActiveErpLinks": 377,
+      "TicketPriorityId": 193,
+      "SupportLanguageId": 831,
+      "SupportAssociateId": 688,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldType": "System.Int32",
+          "FieldLength": 208
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "fugiat",
-  "Xstop": true,
-  "ActiveInterests": 16,
-  "GroupId": 257,
-  "ActiveStatusMonitorId": 953,
+  "NoMailing": true,
+  "Kananame": "dolor",
+  "Xstop": false,
+  "ActiveInterests": 528,
+  "GroupId": 792,
+  "ActiveStatusMonitorId": 797,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 815,
-  "DbiAgentId": 807,
-  "DbiLastSyncronized": "2001-06-08T12:19:44.8673486+02:00",
-  "DbiKey": "ut",
-  "DbiLastModified": "2019-07-06T12:19:44.8673486+02:00",
+  "Deleted": 238,
+  "DbiAgentId": 267,
+  "DbiLastSyncronized": "2016-08-17T11:44:33.0254682+02:00",
+  "DbiKey": "saepe",
+  "DbiLastModified": "1997-04-02T11:44:33.0254682+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 882,
-  "ActiveErpLinks": 809,
+  "Source": 282,
+  "ActiveErpLinks": 257,
   "BounceEmails": [
-    "nia.funk@collierkoelpin.com",
-    "gerhard@turnerblanda.ca"
+    "nya@fisher.name",
+    "gianni@manteharris.biz"
   ],
   "Domains": [
-    "sequi",
-    "quam"
+    "facilis",
+    "magnam"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Marvin Davis Sr.",
-    "SuperOffice:2": "Alexander Jennie Cole DVM"
+    "SuperOffice:1": "Herbert Bartoletti",
+    "SuperOffice:2": "Rosalia Williamson"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "qui"
+    "CustomFields1": "quia",
+    "CustomFields2": "adipisci"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 797
     }
   }
 }

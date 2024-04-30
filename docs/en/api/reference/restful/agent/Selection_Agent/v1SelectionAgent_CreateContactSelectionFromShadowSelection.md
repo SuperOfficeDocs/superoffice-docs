@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 833,
-  "Name": "Satterfield-Kassulke"
+  "SelectionId": 581,
+  "Name": "Bogisich-White"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable neutral analyzer",
-  "Postit": "iusto",
+  "Description": "Front-line bandwidth-monitored moratorium",
+  "Postit": "reprehenderit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 457,
-  "IncludePerson": 355,
-  "MemberCount": 235,
-  "Name": "Hettinger LLC",
-  "PostitTextId": 835,
-  "CreatedDate": "2017-06-13T12:19:46.2889068+02:00",
-  "SelectionId": 35,
-  "SoundEx": "ut",
-  "Source": 592,
-  "TextId": 453,
-  "UpdatedDate": "2012-10-02T12:19:46.2889068+02:00",
-  "UpdatedCount": 460,
-  "Visibility": 413,
+  "GroupIdx": 622,
+  "IncludePerson": 676,
+  "MemberCount": 77,
+  "Name": "Pfannerstill-Bahringer",
+  "PostitTextId": 582,
+  "CreatedDate": "2017-08-11T11:44:34.4782654+02:00",
+  "SelectionId": 710,
+  "SoundEx": "molestias",
+  "Source": 254,
+  "TextId": 270,
+  "UpdatedDate": "2020-09-26T11:44:34.4782654+02:00",
+  "UpdatedCount": 386,
+  "Visibility": 807,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 855,
-  "TargetTableName": "Herman-Feeney",
+  "CompanyUnique": true,
+  "TargetTableNumber": 315,
+  "TargetTableName": "Wunsch, McDermott and Walter",
   "Completed": false,
-  "LeftSelectionId": 860,
-  "RightSelectionId": 58,
+  "LeftSelectionId": 964,
+  "RightSelectionId": 612,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Brekke, Denesik and Fay",
-  "ShadowProviderName": "Weber, Dickinson and Reichel",
-  "ChartKey": "id",
-  "LastLoaded": "2009-02-27T12:19:46.2889068+01:00",
-  "LastLoadedBy": 412,
+  "MainProviderName": "Ritchie-Johnston",
+  "ShadowProviderName": "Bode, Cremin and Hudson",
+  "ChartKey": "rerum",
+  "LastLoaded": "1999-07-22T11:44:34.4782654+02:00",
+  "LastLoadedBy": 727,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-10-20T12:19:46.2889068+02:00",
-  "LastMembershipChangeBy": 50,
+  "LastMembershipChange": "1998-11-13T11:44:34.4782654+01:00",
+  "LastMembershipChangeBy": 520,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "natus",
-  "MemberTabHeading": "autem",
-  "MailingsProviderName": "Runte, Boehm and Kautzer",
-  "DashboardTileDefinitionId": 869,
+  "MainHeading": "aperiam",
+  "MemberTabHeading": "dignissimos",
+  "MailingsProviderName": "Lynch, Moore and Weber",
+  "DashboardTileDefinitionId": 303,
   "VisibleFor": [
     {
-      "VisibleId": 303,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldType": "System.String",
+          "FieldLength": 139
         }
       }
     },
     {
-      "VisibleId": 303,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldType": "System.String",
+          "FieldLength": 139
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 16
     }
   }
 }

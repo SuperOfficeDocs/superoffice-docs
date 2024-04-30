@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deserunt",
-  "ProviderName": "Dach-Smith",
-  "StorageKey": "optio",
-  "Restrictions": "repellat"
+  "StorageType": "natus",
+  "ProviderName": "Waters LLC",
+  "StorageKey": "non",
+  "Restrictions": "rerum"
 }
 ```
 

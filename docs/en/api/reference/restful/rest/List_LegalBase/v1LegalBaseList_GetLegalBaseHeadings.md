@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 206,
-    "Name": "Volkman-Mueller",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 914,
+    "HeadingId": 55,
+    "Name": "Brekke Inc and Sons",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 295,
+    "UdListDefinitionId": 779,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 391
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 857,
-  "Rank": 676,
-  "DefaultTask": 389,
-  "DefaultTaskText": "voluptates",
-  "IsVisual": true,
-  "LastGenerated": "2002-08-07T12:19:46.1483123+02:00",
-  "Description": "Up-sized reciprocal hierarchy",
-  "Name": "Huel, Reichert and Predovic",
-  "StatusMonitorId": 839,
-  "PictureId": 661,
+  "OwnerTable": 627,
+  "Rank": 738,
+  "DefaultTask": 398,
+  "DefaultTaskText": "est",
+  "IsVisual": false,
+  "LastGenerated": "2001-08-26T11:44:34.3376813+02:00",
+  "Description": "Managed demand-driven functionalities",
+  "Name": "Romaguera, Cassin and Beier",
+  "StatusMonitorId": 852,
+  "PictureId": 914,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 447,
-  "NumNeedUpdate": 524,
-  "GenerationStart": "2004-01-25T12:19:46.1483123+01:00",
+  "NumMatches": 112,
+  "NumNeedUpdate": 408,
+  "GenerationStart": "2011-03-24T11:44:34.3376813+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldLength": 856
     }
   }
 }

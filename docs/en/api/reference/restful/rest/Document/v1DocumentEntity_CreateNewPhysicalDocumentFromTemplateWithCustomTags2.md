@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=419
-POST /api/v1/Document/{documentId}/Content?personId=649
-POST /api/v1/Document/{documentId}/Content?appointmentId=490
-POST /api/v1/Document/{documentId}/Content?saleId=526
-POST /api/v1/Document/{documentId}/Content?selectionId=920
-POST /api/v1/Document/{documentId}/Content?projectId=100
-POST /api/v1/Document/{documentId}/Content?uiCulture=ut
+POST /api/v1/Document/{documentId}/Content?contactId=780
+POST /api/v1/Document/{documentId}/Content?personId=503
+POST /api/v1/Document/{documentId}/Content?appointmentId=176
+POST /api/v1/Document/{documentId}/Content?saleId=522
+POST /api/v1/Document/{documentId}/Content?selectionId=896
+POST /api/v1/Document/{documentId}/Content?projectId=682
+POST /api/v1/Document/{documentId}/Content?uiCulture=qui
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 940,
+  "DocumentId": 225,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "animi",
-  "Header": "fuga",
-  "Name": "Jacobs, Mitchell and Franecki",
-  "OurRef": "id",
-  "YourRef": "ut",
-  "CreatedDate": "1999-07-18T12:19:53.5555078+02:00",
-  "UpdatedDate": "1998-03-29T12:19:53.5555078+02:00",
-  "Description": "Multi-layered multimedia strategy",
+  "Attention": "eaque",
+  "Header": "dolore",
+  "Name": "Wilkinson-Schuppe",
+  "OurRef": "ut",
+  "YourRef": "omnis",
+  "CreatedDate": "2012-05-08T11:44:41.9609028+02:00",
+  "UpdatedDate": "2002-07-13T11:44:41.9609028+02:00",
+  "Description": "Integrated bottom-line data-warehouse",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-06-13T12:19:53.5711314+02:00",
-  "ExternalRef": "eos",
+  "Date": "1999-05-19T11:44:41.9609028+02:00",
+  "ExternalRef": "voluptatum",
   "Completed": "Completed",
-  "ActiveLinks": 625,
+  "ActiveLinks": 213,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Swift-Vandervort",
-      "Id": 723,
-      "Description": "Progressive clear-thinking capability",
-      "ExtraInfo": "autem",
-      "LinkId": 935,
+      "EntityName": "Boyle-Lesch",
+      "Id": 498,
+      "Description": "Synchronised bandwidth-monitored customer loyalty",
+      "ExtraInfo": "maxime",
+      "LinkId": 335,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldType": "System.String",
+          "FieldLength": 214
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 909,
-  "Snum": 641,
+  "SuggestedDocumentId": 959,
+  "Snum": 585,
   "UserDefinedFields": {
-    "SuperOffice:1": "1114928739",
-    "SuperOffice:2": "Dr. Yasmin Fay"
+    "SuperOffice:1": "Tabitha Oberbrunner",
+    "SuperOffice:2": "1959939087"
   },
   "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "non"
+    "CustomFields1": "veniam",
+    "CustomFields2": "cumque"
   },
-  "PublishEventDate": "2003-10-16T12:19:53.5711314+02:00",
-  "PublishTo": "1998-07-31T12:19:53.5711314+02:00",
-  "PublishFrom": "2015-03-14T12:19:53.5711314+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-11-02T11:44:41.9609028+01:00",
+  "PublishTo": "2006-02-05T11:44:41.9609028+01:00",
+  "PublishFrom": "2018-08-04T11:44:41.9609028+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 926,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 215
         }
       }
     },
     {
-      "VisibleId": 926,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 215
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 767
     }
   }
 }

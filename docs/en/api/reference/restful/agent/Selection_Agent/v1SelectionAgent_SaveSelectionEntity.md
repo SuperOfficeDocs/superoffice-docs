@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergized dedicated flexibility",
-  "Postit": "ducimus",
+  "Description": "Persevering clear-thinking productivity",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 386,
-  "IncludePerson": 104,
-  "MemberCount": 868,
-  "Name": "Johns Inc and Sons",
-  "PostitTextId": 211,
-  "CreatedDate": "2019-02-05T12:19:46.2264184+01:00",
-  "SelectionId": 544,
-  "SoundEx": "libero",
-  "Source": 516,
-  "TextId": 466,
-  "UpdatedDate": "2019-11-07T12:19:46.2420414+01:00",
-  "UpdatedCount": 492,
-  "Visibility": 304,
+  "GroupIdx": 893,
+  "IncludePerson": 431,
+  "MemberCount": 126,
+  "Name": "Will, Braun and Kohler",
+  "PostitTextId": 347,
+  "CreatedDate": "1999-12-21T11:44:34.4313975+01:00",
+  "SelectionId": 210,
+  "SoundEx": "id",
+  "Source": 732,
+  "TextId": 849,
+  "UpdatedDate": "2022-06-19T11:44:34.4313975+02:00",
+  "UpdatedCount": 963,
+  "Visibility": 662,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 457,
-  "TargetTableName": "Kihn Inc and Sons",
+  "TargetTableNumber": 874,
+  "TargetTableName": "Ratke, Dach and Legros",
   "Completed": false,
-  "LeftSelectionId": 218,
-  "RightSelectionId": 352,
+  "LeftSelectionId": 307,
+  "RightSelectionId": 408,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Konopelski, Kuvalis and Windler",
-  "ShadowProviderName": "Cruickshank-Oberbrunner",
-  "ChartKey": "nam",
-  "LastLoaded": "2001-09-22T12:19:46.2420414+02:00",
-  "LastLoadedBy": 57,
+  "MainProviderName": "McCullough LLC",
+  "ShadowProviderName": "Williamson, Sanford and Stanton",
+  "ChartKey": "amet",
+  "LastLoaded": "2022-12-26T11:44:34.4313975+01:00",
+  "LastLoadedBy": 370,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-06-12T12:19:46.2420414+02:00",
-  "LastMembershipChangeBy": 68,
+  "LastMembershipChange": "2012-05-24T11:44:34.4313975+02:00",
+  "LastMembershipChangeBy": 464,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "libero",
-  "MemberTabHeading": "sapiente",
-  "MailingsProviderName": "Mills-Padberg",
-  "DashboardTileDefinitionId": 44,
+  "MainHeading": "qui",
+  "MemberTabHeading": "veniam",
+  "MailingsProviderName": "Willms LLC",
+  "DashboardTileDefinitionId": 235,
   "VisibleFor": [
     {
-      "VisibleId": 669,
+      "VisibleId": 193,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "nam"
     },
     {
-      "VisibleId": 669,
+      "VisibleId": 193,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "nam"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized user-facing time-frame",
-  "Postit": "sed",
+  "Description": "Quality-focused full-range customer loyalty",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 58,
-  "IncludePerson": 552,
-  "MemberCount": 9,
-  "Name": "Kertzmann-Bruen",
-  "PostitTextId": 903,
-  "CreatedDate": "2003-03-08T12:19:46.2420414+01:00",
-  "SelectionId": 13,
-  "SoundEx": "rem",
-  "Source": 318,
-  "TextId": 692,
-  "UpdatedDate": "2015-11-06T12:19:46.2420414+01:00",
-  "UpdatedCount": 179,
-  "Visibility": 816,
+  "GroupIdx": 987,
+  "IncludePerson": 89,
+  "MemberCount": 633,
+  "Name": "Price-Adams",
+  "PostitTextId": 958,
+  "CreatedDate": "2023-12-18T11:44:34.4313975+01:00",
+  "SelectionId": 921,
+  "SoundEx": "voluptas",
+  "Source": 412,
+  "TextId": 487,
+  "UpdatedDate": "1998-08-26T11:44:34.4313975+02:00",
+  "UpdatedCount": 178,
+  "Visibility": 77,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 930,
-  "TargetTableName": "Homenick-Haag",
+  "TargetTableNumber": 829,
+  "TargetTableName": "Johnston-O'Hara",
   "Completed": false,
-  "LeftSelectionId": 694,
-  "RightSelectionId": 499,
+  "LeftSelectionId": 297,
+  "RightSelectionId": 161,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hauck-Boyle",
-  "ShadowProviderName": "Crist, Hane and Pouros",
-  "ChartKey": "temporibus",
-  "LastLoaded": "2023-11-28T12:19:46.2420414+01:00",
-  "LastLoadedBy": 439,
+  "MainProviderName": "Lemke Group",
+  "ShadowProviderName": "Jerde LLC",
+  "ChartKey": "quia",
+  "LastLoaded": "2023-07-10T11:44:34.4313975+02:00",
+  "LastLoadedBy": 220,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-04-30T12:19:46.2420414+02:00",
-  "LastMembershipChangeBy": 512,
+  "LastMembershipChange": "2011-10-20T11:44:34.4313975+02:00",
+  "LastMembershipChangeBy": 301,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "atque",
-  "MailingsProviderName": "Huel, Jenkins and Volkman",
-  "DashboardTileDefinitionId": 61,
+  "MainHeading": "deleniti",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Daugherty Inc and Sons",
+  "DashboardTileDefinitionId": 683,
   "VisibleFor": [
     {
-      "VisibleId": 883,
+      "VisibleId": 685,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 90
         }
       }
     },
     {
-      "VisibleId": 883,
+      "VisibleId": 685,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 90
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

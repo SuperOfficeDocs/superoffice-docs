@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=doloribus
+GET /api/v1/List/ProductCategory/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 596,
-    "Name": "Graham, Kshlerin and Kessler",
-    "ToolTip": "Quaerat aut aliquam et doloribus quo distinctio dolores.",
-    "Deleted": false,
-    "Rank": 513,
-    "Type": "sequi",
+    "Id": 97,
+    "Name": "Dare-Zulauf",
+    "ToolTip": "Sint alias odit officiis ab quam.",
+    "Deleted": true,
+    "Rank": 867,
+    "Type": "minima",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Hintz Group",
-        "ToolTip": "Nobis voluptatem illum quis asperiores qui cupiditate.",
+        "Id": 364,
+        "Name": "Pfannerstill, Ullrich and Koss",
+        "ToolTip": "Quis et impedit.",
         "Deleted": true,
-        "Rank": 111,
-        "Type": "illum",
+        "Rank": 447,
+        "Type": "fugiat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 711,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "at",
-        "FullName": "Melisa Schumm I",
+        "IconHint": "et",
+        "ColorBlock": 960,
+        "ExtraInfo": "qui",
+        "StyleHint": "porro",
+        "FullName": "Lee Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 410
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 31,
-    "ExtraInfo": "atque",
-    "StyleHint": "quibusdam",
-    "FullName": "Prof. Lucienne Ewell Lesch",
+    "IconHint": "at",
+    "ColorBlock": 461,
+    "ExtraInfo": "eos",
+    "StyleHint": "possimus",
+    "FullName": "Arielle Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 439
       }
     }
   }

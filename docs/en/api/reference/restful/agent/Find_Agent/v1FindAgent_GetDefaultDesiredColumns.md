@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "Johnston Inc and Sons",
-  "StorageKey": "veniam"
+  "StorageType": "quia",
+  "ProviderName": "Moore-Quitzon",
+  "StorageKey": "magnam"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Pouros Group",
-    "DisplayTooltip": "minima",
-    "DisplayType": "molestiae",
-    "CanOrderBy": false,
-    "Name": "Marks-Rice",
-    "CanRestrictBy": true,
-    "RestrictionType": "ut",
-    "RestrictionListName": "Pollich Group",
+    "DisplayName": "Gerhold, Ritchie and Block",
+    "DisplayTooltip": "vel",
+    "DisplayType": "voluptas",
+    "CanOrderBy": true,
+    "Name": "O'Hara Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "laudantium",
+    "RestrictionListName": "Gorczany-Miller",
     "IsVisible": false,
-    "ExtraInfo": "ab",
-    "Width": "autem",
-    "IconHint": "nihil",
-    "HeadingIconHint": "fugiat"
+    "ExtraInfo": "voluptate",
+    "Width": "quod",
+    "IconHint": "qui",
+    "HeadingIconHint": "similique"
   }
 ]
 ```

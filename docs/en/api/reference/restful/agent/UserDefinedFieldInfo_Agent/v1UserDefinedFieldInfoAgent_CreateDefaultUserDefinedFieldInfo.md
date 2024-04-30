@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 727,
-  "ColumnId": 718,
-  "FieldDefault": "et",
-  "FieldHeight": 220,
-  "FieldLabel": "alias",
-  "FieldLeft": 612,
-  "FieldTop": 226,
+  "UDefFieldId": 348,
+  "ColumnId": 721,
+  "FieldDefault": "eligendi",
+  "FieldHeight": 596,
+  "FieldLabel": "vero",
+  "FieldLeft": 143,
+  "FieldTop": 64,
   "FieldType": "Checkbox",
-  "FieldWidth": 989,
-  "FormatMask": "quod",
+  "FieldWidth": 793,
+  "FormatMask": "aut",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 12,
-  "LabelLeft": 164,
-  "LabelTop": 146,
-  "LabelWidth": 313,
-  "LastVersionId": 704,
-  "ListTableId": 164,
+  "IsIndexed": false,
+  "LabelHeight": 109,
+  "LabelLeft": 391,
+  "LabelTop": 198,
+  "LabelWidth": 490,
+  "LastVersionId": 702,
+  "ListTableId": 196,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 23,
-  "ProgId": "eum",
+  "Page1LineNo": 26,
+  "ProgId": "quo",
   "IsReadOnly": true,
-  "ShortLabel": "laborum",
-  "TabOrder": 743,
-  "TextLength": 759,
-  "Tooltip": "facilis",
-  "UdefIdentity": 444,
-  "UDListDefinitionId": 172,
+  "ShortLabel": "nostrum",
+  "TabOrder": 662,
+  "TextLength": 916,
+  "Tooltip": "est",
+  "UdefIdentity": 190,
+  "UDListDefinitionId": 274,
   "Justification": "Center",
-  "Version": 418,
-  "TemplateVariableName": "Fahey, Haley and Brakus",
-  "HasBeenPublished": true,
-  "MdoListName": "Ledner, Bergstrom and Yundt",
+  "Version": 707,
+  "TemplateVariableName": "Abshire-Franecki",
+  "HasBeenPublished": false,
+  "MdoListName": "Denesik Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldLength": 944
     }
   }
 }

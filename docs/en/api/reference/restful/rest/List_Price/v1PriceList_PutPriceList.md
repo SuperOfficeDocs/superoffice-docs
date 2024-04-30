@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 39,
-  "ERPPriceListKey": "at",
-  "QuoteConnectionId": 339,
-  "Name": "Doyle LLC",
-  "Description": "Open-source explicit firmware",
-  "Currency": "laboriosam",
-  "CurrencyName": "Tillman, Larson and Willms",
-  "ValidFrom": "2021-04-05T12:19:54.6646278+02:00",
-  "ValidTo": "1999-06-13T12:19:54.6646278+02:00",
-  "IsActive": false
+  "PriceListId": 727,
+  "ERPPriceListKey": "a",
+  "QuoteConnectionId": 579,
+  "Name": "Corkery, Kling and Parisian",
+  "Description": "Ameliorated context-sensitive collaboration",
+  "Currency": "pariatur",
+  "CurrencyName": "Maggio, Rolfson and Mertz",
+  "ValidFrom": "2001-01-25T11:44:43.1637513+01:00",
+  "ValidTo": "2017-10-30T11:44:43.1637513+01:00",
+  "IsActive": true
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 864,
-  "ERPPriceListKey": "sit",
-  "QuoteConnectionId": 385,
-  "Name": "Spinka, Hermann and Wisozk",
-  "Description": "Operative executive hub",
-  "Currency": "et",
-  "CurrencyName": "Nolan, Koepp and Howe",
-  "ValidFrom": "2018-04-03T12:19:54.6646278+02:00",
-  "ValidTo": "2006-06-08T12:19:54.6646278+02:00",
-  "IsActive": true,
+  "PriceListId": 856,
+  "ERPPriceListKey": "sunt",
+  "QuoteConnectionId": 255,
+  "Name": "Wilderman-Reichel",
+  "Description": "Realigned actuating firmware",
+  "Currency": "officia",
+  "CurrencyName": "Oberbrunner-Gorczany",
+  "ValidFrom": "2020-01-08T11:44:43.1637513+01:00",
+  "ValidTo": "2014-12-27T11:44:43.1637513+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 939
     }
   },
   "_Links": {

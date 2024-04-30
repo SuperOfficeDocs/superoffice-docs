@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 938,
-  "Name": "Howe-Ebert",
+  "ScreenChooserId": 832,
+  "Name": "Stamm-Lang",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "esse",
-  "Source": "recusandae",
-  "Registered": "2011-01-06T12:19:54.0866374+01:00",
-  "RegisteredAssociateId": 911,
-  "Updated": "1998-11-09T12:19:54.0866374+01:00",
-  "UpdatedAssociateId": 567,
+  "UniqueIdentifier": "necessitatibus",
+  "Source": "maxime",
+  "Registered": "2016-07-17T11:44:42.6951171+02:00",
+  "RegisteredAssociateId": 61,
+  "Updated": "2006-08-30T11:44:42.6951171+02:00",
+  "UpdatedAssociateId": 711,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   },
   "_Links": {

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 528,
+  "TargetDimensionId": 818,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "et",
-  "DimensionListName": "Parker, Baumbach and Lindgren",
-  "DimensionListId": 522,
-  "DimensionListLabel": "et",
+  "DimensionListField": "consequatur",
+  "DimensionListName": "Bartoletti-Donnelly",
+  "DimensionListId": 160,
+  "DimensionListLabel": "labore",
   "SelectedDimensions": [
-    429,
-    494
+    811,
+    506
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 21,
+  "TargetDimensionId": 626,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "vel",
-  "DimensionListName": "Orn, Smitham and Robel",
-  "DimensionListId": 517,
-  "DimensionListLabel": "dolores",
+  "DimensionListField": "excepturi",
+  "DimensionListName": "Williamson, Rippin and Cremin",
+  "DimensionListId": 413,
+  "DimensionListLabel": "ipsa",
   "SelectedDimensions": [
-    294,
-    572
+    724,
+    338
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

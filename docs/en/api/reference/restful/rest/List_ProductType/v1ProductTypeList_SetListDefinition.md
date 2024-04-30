@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 983,
-  "Name": "Welch, Quitzon and Upton",
-  "Tooltip": "dicta",
+  "Id": 1002,
+  "Name": "Nitzsche-Leuschke",
+  "Tooltip": "soluta",
   "Deleted": true,
-  "Rank": 232,
+  "Rank": 371,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quaerat",
+  "UseGroupsAndHeadings": false,
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 678,
-  "Name": "Klocko LLC",
-  "Tooltip": "et",
+  "Id": 932,
+  "Name": "Veum, Koch and O'Connell",
+  "Tooltip": "ipsam",
   "Deleted": true,
-  "Rank": 23,
+  "Rank": 895,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "magni",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

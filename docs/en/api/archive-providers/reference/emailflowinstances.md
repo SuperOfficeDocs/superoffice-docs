@@ -35,7 +35,7 @@ Lists all email flow Instances
 |workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstanceLastCommunicationTime|datetime|Sending time: When the message was sent| x |
-|workflowInstanceLastCommunicationStatus|listAny|Response last email: Status of mailing recipient| x |
+|workflowInstanceLastCommunicationStatus|listAny|Last email status: Status of mailing recipient| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
@@ -493,7 +493,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowAssociate/otherGroups,person/personUrl/URLAddress,person/personUdef/SuperOffice:11,person/personAssociate/contactName
+GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowAssociate/isActive,person/personUrl/URLDescription,person/personAssociate/ejStatus,contact/contactNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

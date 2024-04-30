@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 651,
-  "Name": "Marvin Group",
-  "Tooltip": "et",
-  "Rank": 326,
-  "Rate": 24517.282,
-  "Units": 17403.102,
+  "CurrencyId": 716,
+  "Name": "Romaguera, Nikolaus and Buckridge",
+  "Tooltip": "saepe",
+  "Rank": 384,
+  "Rate": 25545.234,
+  "Units": 12297.815999999999,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 36,
-  "Name": "Jast, Jacobs and Heller",
-  "Tooltip": "eos",
-  "Rank": 627,
-  "Rate": 13893.021999999999,
-  "Units": 4832.628,
+  "CurrencyId": 352,
+  "Name": "Hagenes Group",
+  "Tooltip": "culpa",
+  "Rank": 623,
+  "Rate": 2181.264,
+  "Units": 12279.011999999999,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 340
     }
   }
 }

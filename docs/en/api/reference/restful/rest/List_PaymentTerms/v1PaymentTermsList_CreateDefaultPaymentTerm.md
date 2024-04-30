@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "Name": "Fritsch-Schimmel",
-  "Tooltip": "voluptatibus",
+  "Id": 567,
+  "Name": "Farrell, Upton and Borer",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 562,
-  "Rank": 43,
+  "UdListDefinitionId": 645,
+  "Rank": 191,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 701
     }
   }
 }

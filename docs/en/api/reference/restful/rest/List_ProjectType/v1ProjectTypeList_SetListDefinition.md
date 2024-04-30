@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 271,
-  "Name": "Beer Inc and Sons",
-  "Tooltip": "nihil",
+  "Id": 521,
+  "Name": "Abernathy-Ebert",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 521,
+  "Rank": 39,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 162,
-  "Name": "Stokes LLC",
-  "Tooltip": "eveniet",
+  "Id": 384,
+  "Name": "Trantow-Funk",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 756,
-  "IsCustomList": false,
+  "Rank": 814,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 323
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 187,
-  "Name": "Spencer-Marvin",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 92,
-  "Rank": 691,
+  "Id": 930,
+  "Name": "Murphy Inc and Sons",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "UdListDefinitionId": 165,
+  "Rank": 231,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 596
     }
   }
 }

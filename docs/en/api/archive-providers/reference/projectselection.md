@@ -788,7 +788,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelection?$select=sale/sale/textId,projectMember/personExtra/x_person_float,projectMember/personExtra/y_rental/x_amount,contactId
+GET /api/v1/archive/ProjectSelection?$select=nextMilestone,sale/saleUdef/SuperOffice:8,document/mailMergeDraft,document/associate/contactFullName,projectMember/hasCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

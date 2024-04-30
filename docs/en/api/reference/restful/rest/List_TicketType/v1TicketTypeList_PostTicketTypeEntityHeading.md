@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 598,
-  "Name": "Wintheiser LLC",
-  "Tooltip": "reprehenderit",
+  "HeadingId": 252,
+  "Name": "Parisian-Welch",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 496,
-  "UdListDefinitionId": 658
+  "Rank": 532,
+  "UdListDefinitionId": 949
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 926,
-  "Name": "Armstrong-Eichmann",
-  "Tooltip": "quo",
+  "HeadingId": 771,
+  "Name": "Conroy, Keeling and Glover",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 347,
-  "UdListDefinitionId": 864,
+  "Rank": 722,
+  "UdListDefinitionId": 414,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldLength": 684
     }
   }
 }

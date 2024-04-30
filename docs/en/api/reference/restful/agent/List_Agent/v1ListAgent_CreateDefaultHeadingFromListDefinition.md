@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 671
+  "UdListDefinitionId": 965
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 487,
-  "Name": "Torp-Schmidt",
-  "Tooltip": "sequi",
+  "HeadingId": 340,
+  "Name": "Nader Group",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 23,
-  "UdListDefinitionId": 173,
+  "Rank": 88,
+  "UdListDefinitionId": 528,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 964
     }
   }
 }

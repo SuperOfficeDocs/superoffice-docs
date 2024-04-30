@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 816,
-    "Name": "Nolan, Waelchi and Sauer",
-    "Tooltip": "provident",
+    "HeadingId": 938,
+    "Name": "Funk, Wunsch and O'Conner",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 551,
-    "UdListDefinitionId": 132
+    "Rank": 967,
+    "UdListDefinitionId": 401
   },
   {
-    "HeadingId": 816,
-    "Name": "Nolan, Waelchi and Sauer",
-    "Tooltip": "provident",
+    "HeadingId": 938,
+    "Name": "Funk, Wunsch and O'Conner",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 551,
-    "UdListDefinitionId": 132
+    "Rank": 967,
+    "UdListDefinitionId": 401
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 303,
-    "Name": "Marquardt-Jacobi",
-    "Tooltip": "fugiat",
-    "Deleted": true,
-    "Rank": 13,
-    "UdListDefinitionId": 850,
+    "HeadingId": 731,
+    "Name": "Fadel, Kautzer and Bosco",
+    "Tooltip": "numquam",
+    "Deleted": false,
+    "Rank": 45,
+    "UdListDefinitionId": 822,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldLength": 899
       }
     }
   }

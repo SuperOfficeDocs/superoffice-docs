@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 977,
-    "Name": "Daugherty Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 483,
+    "Name": "O'Reilly, Medhurst and Bartoletti",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 399,
+    "Rank": 3,
+    "UdListDefinitionId": 214,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 974
       }
     }
   }

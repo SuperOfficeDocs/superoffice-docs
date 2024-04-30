@@ -81,10 +81,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 324,
+  "DocumentId": 948,
   "AllowedReturnType": [
-    "a",
-    "voluptas"
+    "id",
+    "deserunt"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "non",
-  "VersionId": "alias",
+  "ExternalReference": "aperiam",
+  "VersionId": "ea",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "dolorem",
-  "AdditionalInfo": "ut"
+  "Value": "amet",
+  "AdditionalInfo": "natus"
 }
 ```

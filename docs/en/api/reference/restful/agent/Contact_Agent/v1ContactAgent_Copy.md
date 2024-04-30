@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 333,
-  "DestinationContactName": "Kutch, Windler and Gerhold",
+  "SourceContactId": 535,
+  "DestinationContactName": "Batz-Predovic",
   "DestinationContactDepartment": "",
-  "CopyPersons": false
+  "CopyPersons": true
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-48
+243
 ```

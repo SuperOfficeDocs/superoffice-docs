@@ -106,12 +106,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 73,
+  "EmailId": 276,
   "AttachmentIds": [
-    "repellat",
-    "perferendis"
+    "dicta",
+    "voluptatum"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -124,156 +124,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 837,
-      "ContactName": "Fahey Inc and Sons",
-      "PersonId": 919,
-      "PersonName": "Lind Inc and Sons",
-      "AssociateId": 622,
-      "Address": "aperiam",
-      "EmailId": 497,
+      "ContactId": 240,
+      "ContactName": "Emmerich, Walsh and Johns",
+      "PersonId": 236,
+      "PersonName": "Hand, Tremblay and Hermiston",
+      "AssociateId": 133,
+      "Address": "praesentium",
+      "EmailId": 138,
       "DuplicatePersonIds": [
-        616,
-        648
+        105,
+        78
       ],
-      "Name": "Schmidt Inc and Sons",
+      "Name": "Rath-Bahringer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 760
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 80,
-      "ContactName": "Sauer, Lowe and Cassin",
-      "PersonId": 758,
-      "PersonName": "Mante-Robel",
-      "AssociateId": 409,
-      "Address": "harum",
-      "EmailId": 758,
+      "ContactId": 905,
+      "ContactName": "Beahan, Padberg and Lebsack",
+      "PersonId": 144,
+      "PersonName": "Connelly LLC",
+      "AssociateId": 625,
+      "Address": "impedit",
+      "EmailId": 547,
       "DuplicatePersonIds": [
-        268,
-        404
+        846,
+        708
       ],
-      "Name": "Predovic, Kuhic and Jerde",
+      "Name": "Cassin-Robel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 737
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 332,
-      "ContactName": "Lakin LLC",
-      "PersonId": 409,
-      "PersonName": "Hermann-Stokes",
-      "AssociateId": 378,
-      "Address": "neque",
-      "EmailId": 214,
+      "ContactId": 128,
+      "ContactName": "Dickens LLC",
+      "PersonId": 187,
+      "PersonName": "Grant-Trantow",
+      "AssociateId": 422,
+      "Address": "illum",
+      "EmailId": 527,
       "DuplicatePersonIds": [
-        73,
-        285
+        841,
+        165
       ],
-      "Name": "Bechtelar, Berge and Streich",
+      "Name": "Bailey LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 506
         }
       }
     }
   ],
-  "Subject": "fugiat",
-  "HTMLBody": "fuga",
+  "Subject": "dolores",
+  "HTMLBody": "quibusdam",
   "From": null,
-  "Sent": "2011-05-15T12:19:45.320371+02:00",
-  "Size": 898,
+  "Sent": "2016-09-09T11:44:33.6659495+02:00",
+  "Size": 215,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "neque",
-  "PlainBody": "eius",
+  "MessageID": "eius",
+  "PlainBody": "incidunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 484,
+  "ServerId": 138,
   "Attachments": [
     {
-      "Description": "Seamless 3rd generation moratorium",
-      "Filename": "quo",
-      "Size": 823,
-      "Type": "consequatur",
-      "Encoding": "voluptatibus",
-      "Id": "excepturi",
-      "Disposition": "veniam",
+      "Description": "Expanded transitional strategy",
+      "Filename": "consequatur",
+      "Size": 326,
+      "Type": "aliquid",
+      "Encoding": "ipsam",
+      "Id": "similique",
+      "Disposition": "asperiores",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 17
+          "FieldType": "System.Int32",
+          "FieldLength": 638
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Keebler-Feeney",
+      "Name": "Jerde Group",
       "Values": [
-        "itaque",
-        "facere"
+        "qui",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldType": "System.Int32",
+          "FieldLength": 304
         }
       }
     },
     {
-      "Name": "Keebler-Feeney",
+      "Name": "Jerde Group",
       "Values": [
-        "itaque",
-        "facere"
+        "qui",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldType": "System.Int32",
+          "FieldLength": 304
         }
       }
     }
   ],
-  "FolderName": "Jerde-Kerluke",
-  "EmailItemId": 656,
-  "AccountId": 740,
-  "ReceivedAt": "2004-10-26T12:19:45.320371+02:00",
+  "FolderName": "Hand, Dare and White",
+  "EmailItemId": 615,
+  "AccountId": 453,
+  "ReceivedAt": "1998-04-04T11:44:33.6659495+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-12-01T12:19:45.320371+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2022-01-17T11:44:33.6659495+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldType": "System.String",
+      "FieldLength": 64
     }
   }
 }

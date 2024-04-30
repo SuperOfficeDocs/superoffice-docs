@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 678,
-    "FieldName": "Hermann-Ondricka",
-    "Label": "amet",
-    "Tooltip": "enim",
-    "Editable": true,
+    "QuoteLineConfigurationId": 175,
+    "FieldName": "Stamm, Friesen and Turner",
+    "Label": "ipsam",
+    "Tooltip": "dolor",
+    "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 644,
+    "Rank": 737,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldLength": 72
       }
     }
   }

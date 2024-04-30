@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 589,
+  "Id": 461,
   "Entities": [
     {
-      "HeadingId": 437,
-      "Name": "Rutherford, Rippin and White",
-      "Tooltip": "et",
+      "HeadingId": 958,
+      "Name": "Sawayn Group",
+      "Tooltip": "eos",
       "Deleted": false,
-      "Rank": 240,
-      "UdListDefinitionId": 556
+      "Rank": 46,
+      "UdListDefinitionId": 774
     },
     {
-      "HeadingId": 437,
-      "Name": "Rutherford, Rippin and White",
-      "Tooltip": "et",
+      "HeadingId": 958,
+      "Name": "Sawayn Group",
+      "Tooltip": "eos",
       "Deleted": false,
-      "Rank": 240,
-      "UdListDefinitionId": 556
+      "Rank": 46,
+      "UdListDefinitionId": 774
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Robel Group",
-    "Tooltip": "ut",
+    "HeadingId": 966,
+    "Name": "Keebler-Zemlak",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 95,
-    "UdListDefinitionId": 115,
+    "Rank": 376,
+    "UdListDefinitionId": 575,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 38
       }
     }
   }

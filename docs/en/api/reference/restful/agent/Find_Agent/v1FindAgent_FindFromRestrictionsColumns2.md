@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "nesciunt",
-  "ProviderName": "Mohr Inc and Sons",
-  "DesiredColumns": "qui",
-  "PageSize": 714,
-  "PageNumber": 205
+  "Restrictions": "molestias",
+  "ProviderName": "Lueilwitz-McClure",
+  "DesiredColumns": "inventore",
+  "PageSize": 221,
+  "PageNumber": 280
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hintz-Ankunding",
-      "DisplayTooltip": "nostrum",
-      "DisplayType": "facere",
+      "DisplayName": "Stark Inc and Sons",
+      "DisplayTooltip": "at",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "McGlynn Inc and Sons",
+      "Name": "Grimes, Boyer and Gislason",
       "CanRestrictBy": true,
-      "RestrictionType": "hic",
-      "RestrictionListName": "Brown-Batz",
-      "IsVisible": true,
-      "ExtraInfo": "quae",
-      "Width": "dolorem",
-      "IconHint": "aut",
-      "HeadingIconHint": "quia"
+      "RestrictionType": "dolores",
+      "RestrictionListName": "Carroll Group",
+      "IsVisible": false,
+      "ExtraInfo": "qui",
+      "Width": "repellat",
+      "IconHint": "perferendis",
+      "HeadingIconHint": "dolores"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schiller-Lebsack",
-      "PrimaryKey": 624,
+      "EntityName": "Considine LLC",
+      "PrimaryKey": 658,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "totam",
-          "LinkHint": "quia"
+          "DisplayValue": "rerum",
+          "TooltipHint": "sit",
+          "LinkHint": "porro"
         }
       },
-      "LinkHint": "asperiores",
-      "StyleHint": "ab",
+      "LinkHint": "qui",
+      "StyleHint": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 303
         }
       }
     }
   ],
-  "RowCount": 582,
+  "RowCount": 591,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

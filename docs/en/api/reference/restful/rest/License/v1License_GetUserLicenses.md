@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ernser-Hettinger",
-    "Description": "Reactive bandwidth-monitored knowledge base",
+    "Name": "Marquardt-Kertzmann",
+    "Description": "De-engineered responsive customer loyalty",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 878,
-        "Tooltip": "debitis",
-        "CanAssign": true,
-        "Free": 19,
-        "InUse": 482,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 456,
-        "Name": "Wisoky, Hansen and Greenfelder",
-        "Description": "Realigned zero tolerance capability",
-        "PrerequisiteModuleName": "Kris-Wolf",
-        "SortOrder": 814,
-        "ExtraFlags": 543,
+        "Total": 385,
+        "Tooltip": "numquam",
+        "CanAssign": false,
+        "Free": 190,
+        "InUse": 560,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 32,
+        "Name": "D'Amore, Goyette and Grimes",
+        "Description": "Adaptive user-facing projection",
+        "PrerequisiteModuleName": "Weimann Group",
+        "SortOrder": 261,
+        "ExtraFlags": 928,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldLength": 370
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 923,
-        "Tooltip": "error",
+        "Unrestricted": false,
+        "Total": 989,
+        "Tooltip": "deleniti",
         "CanAssign": false,
-        "Free": 997,
-        "InUse": 738,
-        "IsHidden": false,
+        "Free": 925,
+        "InUse": 571,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 722,
-        "Name": "Ritchie LLC",
-        "Description": "Operative transitional archive",
-        "PrerequisiteModuleName": "Stroman LLC",
-        "SortOrder": 125,
-        "ExtraFlags": 1000,
+        "ModuleLicenseId": 498,
+        "Name": "Kohler Group",
+        "Description": "Fully-configurable next generation algorithm",
+        "PrerequisiteModuleName": "Lindgren-Russel",
+        "SortOrder": 956,
+        "ExtraFlags": 835,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 573
+            "FieldType": "System.Int32",
+            "FieldLength": 203
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   },
   {
-    "Name": "Ernser-Hettinger",
-    "Description": "Reactive bandwidth-monitored knowledge base",
+    "Name": "Marquardt-Kertzmann",
+    "Description": "De-engineered responsive customer loyalty",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 878,
-        "Tooltip": "debitis",
-        "CanAssign": true,
-        "Free": 19,
-        "InUse": 482,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 456,
-        "Name": "Wisoky, Hansen and Greenfelder",
-        "Description": "Realigned zero tolerance capability",
-        "PrerequisiteModuleName": "Kris-Wolf",
-        "SortOrder": 814,
-        "ExtraFlags": 543,
+        "Total": 385,
+        "Tooltip": "numquam",
+        "CanAssign": false,
+        "Free": 190,
+        "InUse": 560,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 32,
+        "Name": "D'Amore, Goyette and Grimes",
+        "Description": "Adaptive user-facing projection",
+        "PrerequisiteModuleName": "Weimann Group",
+        "SortOrder": 261,
+        "ExtraFlags": 928,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldLength": 370
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 923,
-        "Tooltip": "error",
+        "Unrestricted": false,
+        "Total": 989,
+        "Tooltip": "deleniti",
         "CanAssign": false,
-        "Free": 997,
-        "InUse": 738,
-        "IsHidden": false,
+        "Free": 925,
+        "InUse": 571,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 722,
-        "Name": "Ritchie LLC",
-        "Description": "Operative transitional archive",
-        "PrerequisiteModuleName": "Stroman LLC",
-        "SortOrder": 125,
-        "ExtraFlags": 1000,
+        "ModuleLicenseId": 498,
+        "Name": "Kohler Group",
+        "Description": "Fully-configurable next generation algorithm",
+        "PrerequisiteModuleName": "Lindgren-Russel",
+        "SortOrder": 956,
+        "ExtraFlags": 835,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 573
+            "FieldType": "System.Int32",
+            "FieldLength": 203
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

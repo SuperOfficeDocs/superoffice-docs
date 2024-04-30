@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 771,
+  "SystemEventId": 534,
   "Scope": "Database",
-  "Eta": "2003-05-10T12:19:44.8361197+02:00",
-  "Eventkey": "recusandae",
-  "Eventmess": "numquam",
-  "ExtraInfo": 428,
-  "Owner": 531,
-  "UpdatedCount": 608,
-  "Registered": "2005-05-01T12:19:44.8361197+02:00",
+  "Eta": "2009-03-01T11:44:32.9942315+01:00",
+  "Eventkey": "ut",
+  "Eventmess": "eos",
+  "ExtraInfo": 376,
+  "Owner": 773,
+  "UpdatedCount": 379,
+  "Registered": "2016-03-19T11:44:32.9942315+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 138,
+  "SystemEventId": 902,
   "Scope": "Database",
-  "Eta": "2002-10-17T12:19:44.8361197+02:00",
-  "Eventkey": "eveniet",
-  "Eventmess": "nulla",
-  "ExtraInfo": 594,
-  "Owner": 314,
-  "UpdatedCount": 232,
-  "Registered": "1997-02-28T12:19:44.8361197+01:00",
+  "Eta": "2002-08-13T11:44:32.9942315+02:00",
+  "Eventkey": "a",
+  "Eventmess": "enim",
+  "ExtraInfo": 902,
+  "Owner": 630,
+  "UpdatedCount": 997,
+  "Registered": "2003-02-25T11:44:32.9942315+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

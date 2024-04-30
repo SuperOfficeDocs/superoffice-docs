@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 852,
-  "Name": "Metz-Crooks",
-  "Tooltip": "beatae",
-  "Deleted": false,
-  "UdListDefinitionId": 742,
-  "Rank": 163,
+  "Id": 420,
+  "Name": "Hudson-Lindgren",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 709,
+  "Rank": 515,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

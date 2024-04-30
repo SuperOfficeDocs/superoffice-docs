@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 839,
-  "ColumnId": 528,
-  "FieldDefault": "possimus",
-  "FieldHeight": 525,
-  "FieldLabel": "rem",
-  "FieldLeft": 739,
-  "FieldTop": 523,
+  "UDefFieldId": 910,
+  "ColumnId": 726,
+  "FieldDefault": "aut",
+  "FieldHeight": 261,
+  "FieldLabel": "praesentium",
+  "FieldLeft": 789,
+  "FieldTop": 743,
   "FieldType": "Checkbox",
-  "FieldWidth": 1002,
-  "FormatMask": "quo",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 89,
-  "LabelLeft": 741,
-  "LabelTop": 680,
-  "LabelWidth": 168,
-  "LastVersionId": 503,
-  "ListTableId": 729,
+  "FieldWidth": 382,
+  "FormatMask": "ea",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 232,
+  "LabelLeft": 144,
+  "LabelTop": 592,
+  "LabelWidth": 61,
+  "LastVersionId": 267,
+  "ListTableId": 480,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 569,
-  "ProgId": "suscipit",
+  "Page1LineNo": 743,
+  "ProgId": "minima",
   "IsReadOnly": false,
-  "ShortLabel": "reiciendis",
-  "TabOrder": 229,
-  "TextLength": 925,
-  "Tooltip": "voluptates",
-  "UdefIdentity": 957,
-  "UDListDefinitionId": 546,
+  "ShortLabel": "exercitationem",
+  "TabOrder": 710,
+  "TextLength": 705,
+  "Tooltip": "aliquam",
+  "UdefIdentity": 44,
+  "UDListDefinitionId": 160,
   "Justification": "Center",
-  "Version": 63,
-  "TemplateVariableName": "Casper, Quitzon and Turcotte",
-  "HasBeenPublished": false,
-  "MdoListName": "Rodriguez Inc and Sons",
+  "Version": 810,
+  "TemplateVariableName": "Kozey-Thiel",
+  "HasBeenPublished": true,
+  "MdoListName": "Hartmann-Shields",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

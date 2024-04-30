@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 703,
-    "Name": "Pollich, Bradtke and Senger",
-    "Tooltip": "quaerat",
-    "Deleted": true,
-    "Rank": 543,
+    "WebPanelId": 481,
+    "Name": "Casper, Littel and Witting",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 33,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnCentral": true,
+    "OnSatellite": false,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Gutmann-Douglas",
+    "WindowName": "Lehner-Champlin",
     "Url": "http://www.example.com/",
-    "ProgId": "nulla",
-    "Icon": 331,
+    "ProgId": "hic",
+    "Icon": 579,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 927
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

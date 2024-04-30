@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 29 Apr 1999 12:19:53 G4T
+Last-Modified: Sun, 11 Jan 2015 11:44:42 G1T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Thu, 29 Apr 1999 12:19:53 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eum",
+  "SaleText": "sit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Thu, 29 Apr 1999 12:19:53 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-12-24T12:19:53.8523123+01:00",
-  "Amount": 5111.554,
-  "SaleId": 972,
-  "Earning": 15425.547999999999,
-  "EarningPercent": 20239.372,
-  "Heading": "voluptatem",
-  "Number": "1238271",
-  "Probability": 25,
-  "CreatedDate": "2019-03-10T12:19:53.8523123+01:00",
-  "UpdatedDate": "1999-04-29T12:19:53.8523123+02:00",
+  "Saledate": "2014-04-04T11:44:42.4451194+02:00",
+  "Amount": 22467.646,
+  "SaleId": 232,
+  "Earning": 14707.862,
+  "EarningPercent": 15143.488,
+  "Heading": "corporis",
+  "Number": "828617",
+  "Probability": 397,
+  "CreatedDate": "2023-04-28T11:44:42.4451194+02:00",
+  "UpdatedDate": "2015-01-11T11:44:42.4451194+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 376,
+  "ActiveLinks": 232,
   "Links": [
     {
-      "EntityName": "Maggio Inc and Sons",
-      "Id": 63,
-      "Description": "Reduced foreground hub",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 772,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 964
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2023-05-23T12:19:53.8523123+02:00",
-  "Postit": "voluptatem",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2007-08-15T12:19:53.8523123+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Herman-Weissnat",
-      "Comment": "quam",
-      "StakeholderRoleId": 372,
-      "CountryId": 855,
-      "PersonId": 227,
-      "EmailDescription": "alford@oconnerrunolfsdottir.name",
-      "EmailId": 803,
-      "EmailAddress": "eino@kilback.com",
-      "PhoneId": 586,
-      "ContactName": "Heaney-Crona",
-      "ContactId": 750,
-      "SaleId": 551,
-      "Mrmrs": "quod",
-      "Firstname": "Jaleel",
-      "MiddleName": "Jacobs, Bartoletti and Jacobs",
-      "Lastname": "Ondricka",
-      "SaleStakeholderId": 126,
-      "Rank": 280,
-      "Phone": "(478)646-3081 x8093",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 36
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 215,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Zane Walter PhD",
-    "SuperOffice:2": "Jayson Littel PhD"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "hic"
-  },
-  "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "aut"
-  },
-  "PublishEventDate": "2013-05-28T12:19:53.8523123+02:00",
-  "PublishTo": "2019-09-30T12:19:53.8523123+02:00",
-  "PublishFrom": "2001-02-16T12:19:53.8523123+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 140,
-      "Visibility": "All",
-      "DisplayValue": "animi",
+      "EntityName": "Brekke-Willms",
+      "Id": 659,
+      "Description": "Implemented stable success",
+      "ExtraInfo": "ut",
+      "LinkId": 661,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldLength": 97
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2002-08-13T11:44:42.4451194+02:00",
+  "Postit": "tempore",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2014-06-20T11:44:42.4451194+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Bartoletti, Jaskolski and Rodriguez",
+      "Comment": "ab",
+      "StakeholderRoleId": 204,
+      "CountryId": 762,
+      "PersonId": 83,
+      "EmailDescription": "pablo_wisoky@boehm.info",
+      "EmailId": 430,
+      "EmailAddress": "ettie_baumbach@jacobs.biz",
+      "PhoneId": 433,
+      "ContactName": "Goodwin-Purdy",
+      "ContactId": 921,
+      "SaleId": 578,
+      "Mrmrs": "excepturi",
+      "Firstname": "Sabina",
+      "MiddleName": "Gaylord Inc and Sons",
+      "Lastname": "Ebert",
+      "SaleStakeholderId": 346,
+      "Rank": 669,
+      "Phone": "814.829.4834",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 298
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 640,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "189455029"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "eos"
+  },
+  "CustomFields": {
+    "CustomFields1": "a",
+    "CustomFields2": "cum"
+  },
+  "PublishEventDate": "2003-10-25T11:44:42.4451194+02:00",
+  "PublishTo": "2020-07-10T11:44:42.4451194+02:00",
+  "PublishFrom": "2000-05-12T11:44:42.4451194+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 782,
+      "Visibility": "All",
+      "DisplayValue": "iusto",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 513
         }
       }
     },
     {
-      "VisibleId": 140,
+      "VisibleId": 782,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldLength": 513
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Thu, 29 Apr 1999 12:19:53 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 947
     }
   },
   "_Links": {

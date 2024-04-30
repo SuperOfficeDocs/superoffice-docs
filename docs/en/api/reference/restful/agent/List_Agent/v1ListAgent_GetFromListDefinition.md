@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 229,
-  "UdListDefinitionId": 538
+  "Id": 433,
+  "UdListDefinitionId": 810
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Windler, O'Reilly and Sporer",
-  "Tooltip": "rem",
-  "Deleted": true,
-  "UdListDefinitionId": 69,
-  "Rank": 649,
+  "Id": 313,
+  "Name": "Robel-Rogahn",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 960,
+  "Rank": 296,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

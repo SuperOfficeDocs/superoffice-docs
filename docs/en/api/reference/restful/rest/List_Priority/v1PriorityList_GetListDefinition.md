@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Dare Group",
-  "Tooltip": "quae",
+  "Id": 473,
+  "Name": "Lehner, Stracke and Bechtelar",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 551,
+  "Rank": 968,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ex",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldType": "System.String",
+      "FieldLength": 642
     }
   },
   "_Links": {

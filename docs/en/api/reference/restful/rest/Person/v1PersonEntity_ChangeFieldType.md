@@ -30,7 +30,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 354,
-  "ColumnId": 51,
-  "FieldDefault": "culpa",
-  "FieldHeight": 437,
-  "FieldLabel": "culpa",
-  "FieldLeft": 170,
-  "FieldTop": 700,
+  "UDefFieldId": 16,
+  "ColumnId": 769,
+  "FieldDefault": "aut",
+  "FieldHeight": 617,
+  "FieldLabel": "ullam",
+  "FieldLeft": 558,
+  "FieldTop": 519,
   "FieldType": "Checkbox",
-  "FieldWidth": 445,
-  "FormatMask": "sed",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 19,
-  "LabelLeft": 457,
-  "LabelTop": 918,
-  "LabelWidth": 431,
-  "LastVersionId": 921,
-  "ListTableId": 606,
-  "IsMandatory": true,
+  "FieldWidth": 570,
+  "FormatMask": "sint",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 515,
+  "LabelLeft": 898,
+  "LabelTop": 995,
+  "LabelWidth": 893,
+  "LastVersionId": 612,
+  "ListTableId": 281,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 617,
-  "ProgId": "enim",
+  "Page1LineNo": 771,
+  "ProgId": "aliquam",
   "IsReadOnly": false,
-  "ShortLabel": "expedita",
-  "TabOrder": 752,
-  "TextLength": 540,
-  "Tooltip": "quae",
-  "UdefIdentity": 694,
-  "UDListDefinitionId": 454,
+  "ShortLabel": "neque",
+  "TabOrder": 782,
+  "TextLength": 171,
+  "Tooltip": "minus",
+  "UdefIdentity": 905,
+  "UDListDefinitionId": 581,
   "Justification": "Center",
-  "Version": 674,
-  "TemplateVariableName": "Langworth, Hirthe and Vandervort",
-  "HasBeenPublished": true,
-  "MdoListName": "Schulist LLC",
+  "Version": 624,
+  "TemplateVariableName": "Schowalter-McKenzie",
+  "HasBeenPublished": false,
+  "MdoListName": "Mitchell LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   }
 }

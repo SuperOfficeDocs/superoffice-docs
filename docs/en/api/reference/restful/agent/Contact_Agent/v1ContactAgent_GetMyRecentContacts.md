@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 837,
-    "Name": "Koss-Huel",
-    "OrgNr": "1466191",
+    "ContactId": 24,
+    "Name": "Hoeger Group",
+    "OrgNr": "1319448",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "eveniet",
-    "DirectPhone": "158.166.3662",
-    "AssociateId": 109,
-    "CountryId": 324,
-    "EmailAddress": "joe@effertz.com",
-    "Kananame": "velit",
-    "EmailAddressName": "myrtle.jacobson@treutel.co.uk",
+    "City": "minima",
+    "DirectPhone": "682.793.0570",
+    "AssociateId": 327,
+    "CountryId": 913,
+    "EmailAddress": "kirstin_lind@okeefe.co.uk",
+    "Kananame": "illo",
+    "EmailAddressName": "crystal.kilback@swift.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Hazel Reynolds III",
+    "AssociateFullName": "Laverna Ferry",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "est",
-    "FullName": "Bell Weissnat",
+    "FormattedAddress": "reiciendis",
+    "FullName": "Dylan Aufderhar V",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 36,
-    "Number1": "1257060",
-    "Number2": "1161641",
+    "ActiveErpLinks": 124,
+    "Number1": "873732",
+    "Number2": "1308372",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 754
       }
     }
   }

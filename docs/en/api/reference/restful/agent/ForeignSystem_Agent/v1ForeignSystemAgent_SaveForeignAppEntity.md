@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 6,
-  "Name": "Kohler Group",
-  "CreatedDate": "1998-12-08T12:19:45.4141069+01:00",
-  "UpdatedDate": "2010-10-21T12:19:45.4141069+02:00",
+  "ForeignAppId": 979,
+  "Name": "Sipes-Harber",
+  "CreatedDate": "1998-07-09T11:44:33.7596833+02:00",
+  "UpdatedDate": "2008-07-11T11:44:33.7596833+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 1000,
-      "Name": "Homenick-Cremin",
-      "CreatedDate": "2017-11-11T12:19:45.4141069+01:00",
-      "UpdatedDate": "2018-05-26T12:19:45.4141069+02:00",
-      "AssociateFullName": "Prof. Elton Kuhic",
-      "CreatedBy": "excepturi",
-      "UpdatedBy": "nesciunt",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 395
+      "ForeignDeviceId": 757,
+      "Name": "Hane, Lakin and Gutkowski",
+      "CreatedDate": "2016-09-15T11:44:33.7596833+02:00",
+      "UpdatedDate": "2015-12-16T11:44:33.7596833+01:00",
+      "AssociateFullName": "Garret Rodriguez",
+      "CreatedBy": "officiis",
+      "UpdatedBy": "praesentium",
+      "DeviceIdentifier": "officia",
+      "ForeignAppId": 743
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 880,
-  "Name": "Konopelski, Kling and Medhurst",
-  "CreatedDate": "2005-03-22T12:19:45.4141069+01:00",
-  "UpdatedDate": "2012-06-01T12:19:45.4141069+02:00",
+  "ForeignAppId": 331,
+  "Name": "Emard-Lakin",
+  "CreatedDate": "2017-06-10T11:44:33.7596833+02:00",
+  "UpdatedDate": "2009-11-16T11:44:33.7596833+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 463,
-      "Name": "Swift-Spencer",
-      "CreatedDate": "2006-08-18T12:19:45.4141069+02:00",
-      "UpdatedDate": "2021-12-13T12:19:45.4141069+01:00",
-      "AssociateFullName": "Mayra Bryana Hamill I",
-      "CreatedBy": "repudiandae",
+      "ForeignDeviceId": 575,
+      "Name": "Nitzsche-West",
+      "CreatedDate": "2015-12-23T11:44:33.7596833+01:00",
+      "UpdatedDate": "2018-06-03T11:44:33.7596833+02:00",
+      "AssociateFullName": "Simeon Harry West I",
+      "CreatedBy": "tenetur",
       "UpdatedBy": "et",
-      "DeviceIdentifier": "voluptas",
-      "ForeignAppId": 307,
+      "DeviceIdentifier": "quasi",
+      "ForeignAppId": 644,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 411
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 526
     }
   }
 }

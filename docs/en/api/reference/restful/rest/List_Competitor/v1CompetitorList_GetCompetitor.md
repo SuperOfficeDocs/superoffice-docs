@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Daniel, Kemmer and Johns",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 274,
-  "Rank": 365,
+  "Id": 562,
+  "Name": "Von, Gerhold and Langosh",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 506,
+  "Rank": 124,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 430
     }
   }
 }

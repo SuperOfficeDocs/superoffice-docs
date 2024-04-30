@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Volkman Inc and Sons",
-  "ProviderName": "Dicki Group",
-  "SortOrder": "quas",
-  "Restriction": "mollitia",
-  "Entities": "nulla",
-  "Page": 521,
-  "PageSize": 764
+  "GuiName": "Dibbert-Lang",
+  "ProviderName": "Anderson, Morar and Murray",
+  "SortOrder": "et",
+  "Restriction": "similique",
+  "Entities": "accusantium",
+  "Page": 962,
+  "PageSize": 792
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mayert, Watsica and Volkman",
-    "PrimaryKey": 730,
+    "EntityName": "Tremblay Inc and Sons",
+    "PrimaryKey": 88,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sed",
-        "TooltipHint": "omnis",
-        "LinkHint": "omnis"
+        "DisplayValue": "deserunt",
+        "TooltipHint": "a",
+        "LinkHint": "itaque"
       }
     },
-    "LinkHint": "doloremque",
-    "StyleHint": "eum",
+    "LinkHint": "quibusdam",
+    "StyleHint": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 494
       }
     }
   }

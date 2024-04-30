@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stehr-Beahan",
+  "TableName": "Kiehn Inc and Sons",
   "Columns": [
-    "quasi",
-    "autem"
+    "facere",
+    "in"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "consectetur",
-  "Inserts": 522,
-  "Updates": 189,
-  "Deletes": 196,
+  "Success": false,
+  "Message": "nam",
+  "Inserts": 14,
+  "Updates": 530,
+  "Deletes": 280,
   "RowStatus": [
     {
-      "PrimaryKey": 667,
+      "PrimaryKey": 207,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "veritatis",
-        "tenetur"
+        "repudiandae",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 676
         }
       }
     },
     {
-      "PrimaryKey": 667,
+      "PrimaryKey": 207,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "veritatis",
-        "tenetur"
+        "repudiandae",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 676
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 687
     }
   }
 }

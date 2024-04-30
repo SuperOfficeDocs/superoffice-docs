@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 196,
-  "ParentId": 337,
-  "Name": "O'Connell-Berge",
-  "Fullname": "atque",
-  "CategoryMaster": 6,
+  "TicketCategoryId": 394,
+  "ParentId": 710,
+  "Name": "Leffler LLC",
+  "Fullname": "est",
+  "CategoryMaster": 810,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gislason, Kozey and Schmidt",
+  "ExternalName": "Goodwin, Kling and Crooks",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 902,
-  "ReplyTemplate": 567,
-  "NotificationEmail": "ayden.farrell@hartmann.name",
+  "AssignmentLag": 492,
+  "ReplyTemplate": 230,
+  "NotificationEmail": "marielle.osinski@gleichner.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 309,
+  "EffectiveReplyTemplateId": 166,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "velit"
+    "CustomFields1": "eos",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 631
     }
   }
 }

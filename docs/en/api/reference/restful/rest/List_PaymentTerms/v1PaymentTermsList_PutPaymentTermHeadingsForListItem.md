@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Reichel-Bogan",
-    "ToolTip": "Fuga officiis reprehenderit id est est consequatur.",
+    "Id": 926,
+    "Name": "Kohler, Fisher and O'Hara",
+    "ToolTip": "Eligendi eligendi voluptas ut deserunt dolores libero consequuntur.",
     "Deleted": false,
-    "Rank": 196,
-    "Type": "ratione",
-    "ColorBlock": 185,
-    "IconHint": "dignissimos",
+    "Rank": 695,
+    "Type": "odio",
+    "ColorBlock": 819,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2022-07-14T12:19:54.6334859+02:00",
+    "LastChanged": "2003-12-26T11:44:43.1325006+01:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Crist-Hamill",
-        "ToolTip": "Possimus exercitationem quod qui ut similique tempore.",
-        "Deleted": false,
-        "Rank": 136,
-        "Type": "voluptatem",
-        "ColorBlock": 939,
-        "IconHint": "numquam",
+        "Id": 442,
+        "Name": "Bogisich Inc and Sons",
+        "ToolTip": "Nostrum dolorum aliquam.",
+        "Deleted": true,
+        "Rank": 724,
+        "Type": "consectetur",
+        "ColorBlock": 578,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2009-02-15T12:19:54.6334859+01:00",
+        "LastChanged": "2015-09-01T11:44:43.1325006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Michaela Kshlerin PhD"
+        "ExtraInfo": "minus",
+        "StyleHint": "nam",
+        "Hidden": true,
+        "FullName": "Miss Aiden Tiara Farrell"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "quia",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Dr. Elvie Stark"
+    "FullName": "Abner Cormier III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Berge Group",
-    "ToolTip": "Qui tempore sed magni minus velit.",
+    "Id": 357,
+    "Name": "Herman Inc and Sons",
+    "ToolTip": "Quis debitis et sed.",
     "Deleted": false,
-    "Rank": 235,
-    "Type": "assumenda",
-    "ColorBlock": 135,
-    "IconHint": "nisi",
+    "Rank": 185,
+    "Type": "qui",
+    "ColorBlock": 179,
+    "IconHint": "blanditiis",
     "Selected": true,
-    "LastChanged": "2019-05-31T12:19:54.6490067+02:00",
+    "LastChanged": "2020-03-21T11:44:43.1325006+01:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Stamm LLC",
-        "ToolTip": "Et enim quidem qui ab.",
-        "Deleted": false,
-        "Rank": 81,
-        "Type": "vel",
-        "ColorBlock": 61,
-        "IconHint": "rerum",
+        "Id": 779,
+        "Name": "Keeling-Kuhlman",
+        "ToolTip": "Rerum enim repellat est ad enim sunt.",
+        "Deleted": true,
+        "Rank": 396,
+        "Type": "eos",
+        "ColorBlock": 509,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2019-02-02T12:19:54.6490067+01:00",
+        "LastChanged": "2001-08-25T11:44:43.1325006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "rerum",
+        "ExtraInfo": "dicta",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Ms. Daniella Olson",
+        "FullName": "Raegan Tremblay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldType": "System.String",
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "possimus",
+    "ExtraInfo": "vel",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Zita Pfeffer",
+    "FullName": "Adolphus Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldType": "System.Int32",
+        "FieldLength": 456
       }
     }
   }

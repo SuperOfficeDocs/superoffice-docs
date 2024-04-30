@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 229,
-  "Name": "Volkman-Yost",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "Rank": 587,
-  "UdListDefinitionId": 418
+  "HeadingId": 586,
+  "Name": "Rippin LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 164,
+  "UdListDefinitionId": 713
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 273,
-  "Name": "Donnelly Inc and Sons",
-  "Tooltip": "placeat",
+  "HeadingId": 212,
+  "Name": "Wintheiser-Stanton",
+  "Tooltip": "totam",
   "Deleted": true,
-  "Rank": 227,
-  "UdListDefinitionId": 600,
+  "Rank": 20,
+  "UdListDefinitionId": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 39
     }
   }
 }

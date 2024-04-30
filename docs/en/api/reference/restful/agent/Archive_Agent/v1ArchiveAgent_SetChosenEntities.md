@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Collins-O'Hara",
-  "ProviderName": "Vandervort, Greenfelder and Witting",
+  "GuiName": "Hoeger Group",
+  "ProviderName": "Bode-Runte",
   "Entities": [
-    "impedit",
-    "dolores"
+    "sapiente",
+    "molestias"
   ]
 }
 ```

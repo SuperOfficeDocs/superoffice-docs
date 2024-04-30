@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 599,
-  "FieldName": "Howe, Little and Pollich",
-  "Label": "maiores",
-  "Tooltip": "aliquam",
-  "Editable": true,
-  "InUse": true,
-  "Mandatory": true,
-  "Rank": 817,
+  "QuoteLineConfigurationId": 665,
+  "FieldName": "Heller, Stamm and Bins",
+  "Label": "quis",
+  "Tooltip": "nihil",
+  "Editable": false,
+  "InUse": false,
+  "Mandatory": false,
+  "Rank": 189,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldLength": 802
     }
   }
 }

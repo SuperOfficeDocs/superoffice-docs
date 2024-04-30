@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 71,
-  "WorkflowId": 561,
+  "WorkflowGoalId": 306,
+  "WorkflowId": 453,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Wisoky-Rohan",
-      "Description": "Digitized multimedia system engine",
-      "Rank": 313,
+      "Name": "Gibson-Reinger",
+      "Description": "Exclusive modular projection",
+      "Rank": 693,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wisoky-Rohan",
-      "Description": "Digitized multimedia system engine",
-      "Rank": 313,
+      "Name": "Gibson-Reinger",
+      "Description": "Exclusive modular projection",
+      "Rank": 693,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 850
     }
   }
 }

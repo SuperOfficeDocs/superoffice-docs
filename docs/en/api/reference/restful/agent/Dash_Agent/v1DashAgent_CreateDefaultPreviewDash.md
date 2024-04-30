@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dicki, Hodkiewicz and Sawayn",
-  "Description": "Monitored human-resource access",
-  "OwnedByFullName": "Miss Gavin Baumbach",
-  "Registered": "2012-03-26T12:19:45.0391966+02:00",
+  "Name": "Bashirian Inc and Sons",
+  "Description": "Compatible bandwidth-monitored project",
+  "OwnedByFullName": "Joan Vena Skiles I",
+  "Registered": "2011-07-21T11:44:33.3691511+02:00",
   "Tiles": [
     {
-      "Name": "Dickens-Berge",
+      "Name": "Walsh LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 279
         }
       }
     },
     {
-      "Name": "Dickens-Berge",
+      "Name": "Walsh LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 279
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   }
 }

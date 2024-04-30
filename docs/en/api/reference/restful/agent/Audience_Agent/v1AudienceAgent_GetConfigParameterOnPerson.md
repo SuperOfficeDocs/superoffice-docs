@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Hayes Group",
-  "PersonId": 858
+  "ParameterName": "Bahringer LLC",
+  "PersonId": 463
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 879,
-  "Name": "Stark, Witting and Wisoky",
-  "Value": "quia",
-  "CreatedDate": "2020-03-09T12:19:44.5080652+01:00",
-  "UpdatedDate": "2013-04-04T12:19:44.5080652+02:00",
-  "CreatedBy": "dolorem",
-  "UpdatedBy": "temporibus",
+  "AudienceLayoutId": 165,
+  "Name": "Watsica LLC",
+  "Value": "iusto",
+  "CreatedDate": "2000-10-30T11:44:32.806727+01:00",
+  "UpdatedDate": "2009-10-29T11:44:32.806727+01:00",
+  "CreatedBy": "perferendis",
+  "UpdatedBy": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 537
     }
   }
 }

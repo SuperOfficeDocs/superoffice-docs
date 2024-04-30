@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 804,
-  "AttachmentId": "architecto",
-  "AttachmentType": "dicta",
-  "AttachmentFilename": "autem"
+  "MailItemId": 754,
+  "AttachmentId": "est",
+  "AttachmentType": "nobis",
+  "AttachmentFilename": "sint"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic even-keeled model",
-  "Filename": "sed",
-  "Size": 801,
-  "Type": "beatae",
-  "Encoding": "nisi",
-  "Id": "omnis",
-  "Disposition": "delectus",
-  "IsSafeFileExtension": false,
+  "Description": "Pre-emptive clear-thinking instruction set",
+  "Filename": "possimus",
+  "Size": 998,
+  "Type": "rerum",
+  "Encoding": "eos",
+  "Id": "provident",
+  "Disposition": "pariatur",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 510
+      "FieldType": "System.Int32",
+      "FieldLength": 665
     }
   }
 }

@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 133,
-  "Name": "Anderson-Frami",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 182,
-  "Filename": "eligendi",
-  "Parameters": "quo",
-  "Workdir": "deserunt",
+  "ExtAppId": 386,
+  "Name": "Kuvalis, Jones and Pollich",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "Rank": 786,
+  "Filename": "quia",
+  "Parameters": "esse",
+  "Workdir": "dolor",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "Icon": 339,
-  "WaitToFinish": true,
+  "Icon": 72,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "est"
+  "Path": "officiis"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 888,
-  "Name": "Weber, O'Hara and Harris",
-  "Tooltip": "sint",
+  "ExtAppId": 633,
+  "Name": "Bartoletti Group",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 781,
-  "Filename": "illo",
-  "Parameters": "et",
-  "Workdir": "et",
+  "Rank": 555,
+  "Filename": "suscipit",
+  "Parameters": "pariatur",
+  "Workdir": "dignissimos",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 541,
-  "WaitToFinish": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "Icon": 120,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "architecto",
+  "Path": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 980
     }
   }
 }

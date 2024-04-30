@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 190,
-  "Name": "Haag Group",
-  "Tooltip": "magnam",
+  "Id": 754,
+  "Name": "O'Reilly Group",
+  "Tooltip": "illum",
   "Deleted": false,
-  "UdListDefinitionId": 558,
-  "Rank": 939
+  "UdListDefinitionId": 571,
+  "Rank": 116
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Mills, Vandervort and Weimann",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 51,
-  "Rank": 808,
+  "Id": 232,
+  "Name": "Ledner, Powlowski and Batz",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "UdListDefinitionId": 850,
+  "Rank": 186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 461
     }
   }
 }

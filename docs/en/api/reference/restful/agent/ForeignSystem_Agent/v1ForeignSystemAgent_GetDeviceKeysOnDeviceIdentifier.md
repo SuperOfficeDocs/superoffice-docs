@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Zulauf, Lehner and Gottlieb",
-  "DeviceName": "Wilkinson, Beahan and Hodkiewicz",
-  "DeviceIdentifier": "nam"
+  "ApplicationName": "Cassin, Sipes and Trantow",
+  "DeviceName": "Davis LLC",
+  "DeviceIdentifier": "corrupti"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "natus",
-    "Value": "iure",
-    "RecordId": 947,
-    "CreatedDate": "2011-10-05T12:19:45.4297292+02:00",
-    "UpdatedDate": "2022-07-16T12:19:45.4297292+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "qui",
-    "TableName": "Rohan, Rippin and Fahey",
+    "Key": "sint",
+    "Value": "repudiandae",
+    "RecordId": 43,
+    "CreatedDate": "2013-02-09T11:44:33.7753083+01:00",
+    "UpdatedDate": "2006-07-28T11:44:33.7753083+02:00",
+    "UpdatedBy": "error",
+    "CreatedBy": "dolores",
+    "TableName": "Simonis, Bode and Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldLength": 527
       }
     }
   }

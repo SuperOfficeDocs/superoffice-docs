@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 918,
-    "ResourceId": 217,
-    "Text": "facere",
+    "LanguageId": 786,
+    "ResourceId": 52,
+    "Text": "omnis",
     "Type": "Column",
-    "LocalizedTextId": 31,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 677,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 603
       }
     }
   }

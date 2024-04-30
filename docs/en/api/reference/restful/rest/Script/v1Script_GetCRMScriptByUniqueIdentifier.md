@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "corrupti",
-  "Name": "Swaniawski-Stracke",
-  "Description": "Monitored eco-centric toolset",
-  "IncludeId": "ducimus",
-  "Source": "rerum",
-  "Registered": "2017-09-06T12:19:54.1803664+02:00",
-  "RegisteredBy": "debitis",
-  "Updated": "2012-06-20T12:19:54.1803664+02:00",
-  "UpdatedBy": "corporis",
-  "Path": "iusto",
+  "UniqueIdentifier": "dolores",
+  "Name": "Willms Group",
+  "Description": "Diverse interactive groupware",
+  "IncludeId": "asperiores",
+  "Source": "laborum",
+  "Registered": "2022-03-30T11:44:42.8044603+02:00",
+  "RegisteredBy": "alias",
+  "Updated": "2010-04-06T11:44:42.8044603+02:00",
+  "UpdatedBy": "dolor",
+  "Path": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldType": "System.Int32",
+      "FieldLength": 685
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/DashTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 610,
-  "DashboardId": 798,
-  "Height": 686,
-  "Width": 886,
-  "Rank": 175,
+  "DashboardTileId": 601,
+  "DashboardId": 582,
+  "Height": 280,
+  "Width": 814,
+  "Rank": 542,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

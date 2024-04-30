@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 356,
-  "ColumnId": 686,
-  "FieldDefault": "ex",
-  "FieldHeight": 619,
-  "FieldLabel": "dolore",
-  "FieldLeft": 177,
-  "FieldTop": 637,
+  "UDefFieldId": 304,
+  "ColumnId": 7,
+  "FieldDefault": "vel",
+  "FieldHeight": 223,
+  "FieldLabel": "quaerat",
+  "FieldLeft": 351,
+  "FieldTop": 678,
   "FieldType": "Checkbox",
-  "FieldWidth": 540,
-  "FormatMask": "dolor",
+  "FieldWidth": 978,
+  "FormatMask": "cumque",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 239,
-  "LabelLeft": 609,
-  "LabelTop": 395,
-  "LabelWidth": 680,
-  "LastVersionId": 167,
-  "ListTableId": 180,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 529,
+  "LabelLeft": 770,
+  "LabelTop": 431,
+  "LabelWidth": 659,
+  "LastVersionId": 221,
+  "ListTableId": 222,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 10,
-  "ProgId": "et",
+  "Page1LineNo": 719,
+  "ProgId": "voluptatibus",
   "IsReadOnly": false,
-  "ShortLabel": "facilis",
-  "TabOrder": 970,
-  "TextLength": 984,
-  "Tooltip": "rerum",
-  "UdefIdentity": 448,
-  "UDListDefinitionId": 1000,
+  "ShortLabel": "necessitatibus",
+  "TabOrder": 430,
+  "TextLength": 29,
+  "Tooltip": "non",
+  "UdefIdentity": 628,
+  "UDListDefinitionId": 458,
   "Justification": "Center",
-  "Version": 122,
-  "TemplateVariableName": "Bins LLC",
+  "Version": 910,
+  "TemplateVariableName": "Senger-Purdy",
   "HasBeenPublished": false,
-  "MdoListName": "Dickens-Huel",
+  "MdoListName": "Kshlerin-Schmitt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 539
     }
   }
 }

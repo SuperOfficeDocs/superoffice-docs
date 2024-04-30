@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Tillman-Feeney",
-    "ToolTip": "Molestiae voluptas.",
+    "Id": 66,
+    "Name": "Durgan, Marks and Beier",
+    "ToolTip": "Ut ex.",
     "Deleted": false,
-    "Rank": 310,
-    "Type": "et",
-    "ColorBlock": 246,
+    "Rank": 183,
+    "Type": "debitis",
+    "ColorBlock": 746,
     "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2005-12-12T12:19:54.8364594+01:00",
+    "Selected": false,
+    "LastChanged": "2021-11-22T11:44:43.3355939+01:00",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "Hermiston Inc and Sons",
-        "ToolTip": "Similique veniam laborum.",
-        "Deleted": true,
-        "Rank": 394,
-        "Type": "et",
-        "ColorBlock": 589,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2022-07-06T12:19:54.8364594+02:00",
+        "Id": 441,
+        "Name": "Schmeler, Lakin and Cronin",
+        "ToolTip": "Rem dolorem rerum voluptas ducimus ducimus ad.",
+        "Deleted": false,
+        "Rank": 704,
+        "Type": "autem",
+        "ColorBlock": 846,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "1997-06-05T11:44:43.3355939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "qui",
+        "StyleHint": "deserunt",
         "Hidden": false,
-        "FullName": "Miss Adella Luz Deckow DVM"
+        "FullName": "Mrs. Blake Keebler DVM"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "quia",
+    "ExtraInfo": "quam",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Julian Legros"
+    "FullName": "Maymie Considine"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Purdy-Gusikowski",
-    "ToolTip": "Sunt incidunt quae.",
+    "Id": 284,
+    "Name": "Wiza-Bernier",
+    "ToolTip": "Qui excepturi accusamus et beatae.",
     "Deleted": false,
-    "Rank": 763,
-    "Type": "architecto",
-    "ColorBlock": 961,
-    "IconHint": "voluptatum",
+    "Rank": 540,
+    "Type": "cupiditate",
+    "ColorBlock": 73,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2005-08-27T12:19:54.8520816+02:00",
+    "LastChanged": "2020-11-12T11:44:43.3512152+01:00",
     "ChildItems": [
       {
-        "Id": 718,
-        "Name": "Kub-Parker",
-        "ToolTip": "Non consequatur perferendis veniam.",
+        "Id": 707,
+        "Name": "Oberbrunner-Botsford",
+        "ToolTip": "Fuga rerum rerum est nostrum.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "est",
-        "ColorBlock": 460,
-        "IconHint": "quo",
+        "Rank": 380,
+        "Type": "nemo",
+        "ColorBlock": 138,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "1999-06-19T12:19:54.8520816+02:00",
+        "LastChanged": "1997-04-03T11:44:43.3512152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "rem",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Eleanora Konopelski",
+        "FullName": "Mariah Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "labore",
+    "ExtraInfo": "officiis",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Dr. Ceasar Hayes",
+    "FullName": "Baylee Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

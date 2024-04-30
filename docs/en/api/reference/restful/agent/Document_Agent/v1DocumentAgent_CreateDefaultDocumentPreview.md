@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abshire LLC",
-  "Type": "autem",
-  "Size": 97,
+  "Name": "Wehner, Okuneva and Kunde",
+  "Type": "libero",
+  "Size": 941,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 176
     }
   }
 }

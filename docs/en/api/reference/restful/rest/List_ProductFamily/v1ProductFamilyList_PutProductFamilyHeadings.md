@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 687,
-    "Name": "Sauer-Pfannerstill",
-    "Tooltip": "sed",
+    "HeadingId": 546,
+    "Name": "Nader Group",
+    "Tooltip": "deserunt",
     "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 39
+    "Rank": 13,
+    "UdListDefinitionId": 110
   },
   {
-    "HeadingId": 687,
-    "Name": "Sauer-Pfannerstill",
-    "Tooltip": "sed",
+    "HeadingId": 546,
+    "Name": "Nader Group",
+    "Tooltip": "deserunt",
     "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 39
+    "Rank": 13,
+    "UdListDefinitionId": 110
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 902,
-    "Name": "Feeney, Lynch and Schumm",
-    "Tooltip": "vel",
+    "HeadingId": 177,
+    "Name": "Stehr-Welch",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 41,
-    "UdListDefinitionId": 882,
+    "Rank": 520,
+    "UdListDefinitionId": 212,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

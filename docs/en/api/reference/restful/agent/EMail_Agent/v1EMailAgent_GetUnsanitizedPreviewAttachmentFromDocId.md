@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 972,
-  "AttachmentId": "delectus"
+  "DocId": 545,
+  "AttachmentId": "voluptas"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customer-focused intermediate strategy",
-  "Filename": "ea",
-  "Size": 911,
-  "Type": "doloribus",
-  "Encoding": "ab",
-  "Id": "ut",
-  "Disposition": "sed",
+  "Description": "Grass-roots background help-desk",
+  "Filename": "dolor",
+  "Size": 249,
+  "Type": "voluptatem",
+  "Encoding": "aspernatur",
+  "Id": "odio",
+  "Disposition": "unde",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 912
     }
   }
 }

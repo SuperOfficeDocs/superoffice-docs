@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Schaefer, Wiza and Howe",
-    "ToolTip": "Numquam et et optio in quia neque nihil.",
+    "Id": 89,
+    "Name": "Robel, Frami and Sawayn",
+    "ToolTip": "Natus beatae suscipit id.",
     "Deleted": false,
-    "Rank": 611,
-    "Type": "modi",
-    "ColorBlock": 112,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "1997-01-30T12:19:54.3522098+01:00",
+    "Rank": 421,
+    "Type": "et",
+    "ColorBlock": 241,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2009-01-02T11:44:42.9762901+01:00",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Lockman, Spencer and Haag",
-        "ToolTip": "Asperiores quo.",
-        "Deleted": true,
-        "Rank": 326,
-        "Type": "accusamus",
-        "ColorBlock": 840,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2022-05-19T12:19:54.3522098+02:00",
+        "Id": 293,
+        "Name": "Dare, Muller and Schumm",
+        "ToolTip": "Nihil quam.",
+        "Deleted": false,
+        "Rank": 947,
+        "Type": "voluptatem",
+        "ColorBlock": 74,
+        "IconHint": "veritatis",
+        "Selected": true,
+        "LastChanged": "2014-01-25T11:44:42.9762901+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Leatha Corwin DDS"
+        "ExtraInfo": "autem",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Ms. Jaylon Heller DDS"
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Carmine Ila Upton DDS"
+    "ExtraInfo": "excepturi",
+    "StyleHint": "provident",
+    "Hidden": true,
+    "FullName": "Miss Zechariah Bertram Johns DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "King-O'Keefe",
-    "ToolTip": "Eligendi incidunt laudantium quo natus commodi.",
-    "Deleted": false,
-    "Rank": 717,
-    "Type": "explicabo",
-    "ColorBlock": 699,
-    "IconHint": "sint",
+    "Id": 132,
+    "Name": "Wolff, Ebert and Parker",
+    "ToolTip": "Quod distinctio laudantium.",
+    "Deleted": true,
+    "Rank": 906,
+    "Type": "et",
+    "ColorBlock": 538,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2000-04-22T12:19:54.3522098+02:00",
+    "LastChanged": "1999-05-09T11:44:42.9762901+02:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Muller Inc and Sons",
-        "ToolTip": "Quidem maiores animi adipisci error et.",
-        "Deleted": false,
-        "Rank": 795,
-        "Type": "cumque",
-        "ColorBlock": 442,
-        "IconHint": "incidunt",
+        "Id": 94,
+        "Name": "O'Connell-Wilderman",
+        "ToolTip": "Culpa temporibus dolores qui unde ut neque.",
+        "Deleted": true,
+        "Rank": 336,
+        "Type": "velit",
+        "ColorBlock": 864,
+        "IconHint": "eligendi",
         "Selected": true,
-        "LastChanged": "2015-10-15T12:19:54.3522098+02:00",
+        "LastChanged": "2019-09-24T11:44:42.9762901+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "iste",
-        "Hidden": true,
-        "FullName": "Trevor Goyette II",
+        "ExtraInfo": "tempora",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Minnie Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 38
+            "FieldLength": 512
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "ut",
+    "ExtraInfo": "vitae",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Mr. Tre Bogan III",
+    "FullName": "Maxine Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 980,
-  "Name": "Dickinson, Robel and Bartoletti",
-  "Tooltip": "ex",
+  "HeadingId": 722,
+  "Name": "Ruecker Group",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 20,
-  "UdListDefinitionId": 907
+  "Rank": 648,
+  "UdListDefinitionId": 202
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 416,
-  "Name": "Block-Ankunding",
-  "Tooltip": "aut",
+  "HeadingId": 659,
+  "Name": "McGlynn-Oberbrunner",
+  "Tooltip": "totam",
   "Deleted": false,
-  "Rank": 247,
-  "UdListDefinitionId": 890,
+  "Rank": 379,
+  "UdListDefinitionId": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

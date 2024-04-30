@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Denesik-McClure",
-  "GroupId": 460
+  "UdListDefinitionName": "Kulas-Wehner",
+  "GroupId": 311
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Blick, Streich and Haley",
-    "ToolTip": "Delectus reprehenderit.",
-    "Deleted": true,
-    "Rank": 573,
-    "Type": "culpa",
-    "ColorBlock": 517,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2013-02-21T12:19:45.4922171+01:00",
+    "Id": 142,
+    "Name": "Carter LLC",
+    "ToolTip": "Nobis sed dolores est quas id unde qui.",
+    "Deleted": false,
+    "Rank": 717,
+    "Type": "ut",
+    "ColorBlock": 592,
+    "IconHint": "distinctio",
+    "Selected": true,
+    "LastChanged": "2015-07-12T11:44:33.8534097+02:00",
     "ChildItems": [
       {
-        "Id": 228,
-        "Name": "Haley-Lindgren",
-        "ToolTip": "Qui minus repellendus voluptas sequi aut rerum expedita.",
-        "Deleted": true,
-        "Rank": 294,
-        "Type": "modi",
-        "ColorBlock": 208,
-        "IconHint": "omnis",
+        "Id": 696,
+        "Name": "Schaefer, Gibson and Beier",
+        "ToolTip": "Reprehenderit exercitationem dolorum odit sunt consectetur.",
+        "Deleted": false,
+        "Rank": 138,
+        "Type": "architecto",
+        "ColorBlock": 563,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "1999-09-01T12:19:45.4922171+02:00",
+        "LastChanged": "2004-02-06T11:44:33.8534097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "iste",
+        "ExtraInfo": "sequi",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Price O'Conner",
+        "FullName": "Dusty Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldType": "System.Int32",
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "labore",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Annie Smith",
+    "FullName": "Mrs. Albertha Gloria Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 920
       }
     }
   }

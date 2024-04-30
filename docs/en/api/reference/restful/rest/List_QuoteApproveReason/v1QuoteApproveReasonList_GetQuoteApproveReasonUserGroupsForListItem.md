@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Bergstrom-Bauch",
-    "ToolTip": "Quam dolor ut.",
-    "Deleted": true,
-    "Rank": 777,
-    "Type": "fugit",
-    "ColorBlock": 438,
-    "IconHint": "autem",
+    "Id": 357,
+    "Name": "Davis-Dickinson",
+    "ToolTip": "Nemo animi dolor corrupti perferendis.",
+    "Deleted": false,
+    "Rank": 689,
+    "Type": "mollitia",
+    "ColorBlock": 835,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "2013-11-24T12:19:54.7583539+01:00",
+    "LastChanged": "2005-08-26T11:44:43.2574879+02:00",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Grant Group",
-        "ToolTip": "Sunt voluptatem consequatur est.",
-        "Deleted": true,
-        "Rank": 522,
-        "Type": "ipsum",
-        "ColorBlock": 427,
-        "IconHint": "quo",
+        "Id": 97,
+        "Name": "Hermiston Inc and Sons",
+        "ToolTip": "Qui quis itaque unde quam ut sapiente quae.",
+        "Deleted": false,
+        "Rank": 372,
+        "Type": "deserunt",
+        "ColorBlock": 689,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2019-07-26T12:19:54.7583539+02:00",
+        "LastChanged": "2021-12-15T11:44:43.2574879+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Prof. Deja Lula Nitzsche",
+        "ExtraInfo": "sed",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Miss Roberto Terrill Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 740
+            "FieldType": "System.String",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Mrs. Layne Klocko III",
+    "ExtraInfo": "amet",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Beatrice Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 715
       }
     }
   }

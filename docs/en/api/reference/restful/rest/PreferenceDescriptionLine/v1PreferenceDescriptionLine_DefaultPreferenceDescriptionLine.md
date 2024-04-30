@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 841,
-  "PrefDescId": 310,
-  "PrefValue": "vel",
-  "PrefShowValue": "atque",
-  "Description": "Operative local secured line",
-  "IsBuiltin": true,
+  "PrefDescLineId": 530,
+  "PrefDescId": 790,
+  "PrefValue": "ipsum",
+  "PrefShowValue": "fugiat",
+  "Description": "Automated analyzing installation",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldLength": 477
     }
   }
 }

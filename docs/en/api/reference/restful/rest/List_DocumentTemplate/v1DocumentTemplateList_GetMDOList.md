@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=illum
+GET /api/v1/List/DocumentTemplate/MDOItems?query=incidunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Boyle-Walker",
-    "ToolTip": "Magnam debitis.",
-    "Deleted": true,
-    "Rank": 88,
-    "Type": "possimus",
+    "Id": 784,
+    "Name": "Mohr LLC",
+    "ToolTip": "Aut reprehenderit assumenda excepturi magnam quia.",
+    "Deleted": false,
+    "Rank": 653,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Wolff, Hegmann and Stark",
-        "ToolTip": "Aperiam doloribus repudiandae et sunt vitae nulla.",
-        "Deleted": false,
-        "Rank": 622,
-        "Type": "doloremque",
+        "Id": 74,
+        "Name": "Dare Group",
+        "ToolTip": "Earum autem voluptatibus enim.",
+        "Deleted": true,
+        "Rank": 558,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 665,
-        "ExtraInfo": "non",
-        "StyleHint": "amet",
-        "FullName": "Dahlia Fay",
+        "IconHint": "ipsa",
+        "ColorBlock": 971,
+        "ExtraInfo": "eos",
+        "StyleHint": "qui",
+        "FullName": "Theresa Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldLength": 257
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 914,
-    "ExtraInfo": "qui",
-    "StyleHint": "enim",
-    "FullName": "Lea Cole DDS",
+    "IconHint": "magnam",
+    "ColorBlock": 459,
+    "ExtraInfo": "aut",
+    "StyleHint": "officiis",
+    "FullName": "Ms. King Ariel McLaughlin Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 714
       }
     }
   }

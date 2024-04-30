@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 342,
-  "Name": "Kuhn Inc and Sons",
+  "SelectionId": 739,
+  "Name": "Quigley Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented non-volatile emulation",
-  "Postit": "quisquam",
+  "Description": "Extended global orchestration",
+  "Postit": "dignissimos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 975,
-  "IncludePerson": 162,
-  "MemberCount": 258,
-  "Name": "Orn, Hirthe and Parker",
-  "PostitTextId": 751,
-  "CreatedDate": "2019-11-09T12:19:46.2576612+01:00",
-  "SelectionId": 121,
-  "SoundEx": "quod",
-  "Source": 164,
-  "TextId": 664,
-  "UpdatedDate": "2010-12-15T12:19:46.2576612+01:00",
-  "UpdatedCount": 403,
-  "Visibility": 946,
+  "GroupIdx": 500,
+  "IncludePerson": 910,
+  "MemberCount": 449,
+  "Name": "Veum-Gottlieb",
+  "PostitTextId": 935,
+  "CreatedDate": "2002-11-12T11:44:34.4470256+01:00",
+  "SelectionId": 821,
+  "SoundEx": "sint",
+  "Source": 27,
+  "TextId": 142,
+  "UpdatedDate": "2003-01-01T11:44:34.4470256+01:00",
+  "UpdatedCount": 969,
+  "Visibility": 313,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 177,
-  "TargetTableName": "Rice LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 799,
+  "TargetTableName": "Cartwright Group",
   "Completed": true,
-  "LeftSelectionId": 51,
-  "RightSelectionId": 434,
+  "LeftSelectionId": 507,
+  "RightSelectionId": 848,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wolff, Abernathy and Carroll",
-  "ShadowProviderName": "Larson-Kuvalis",
-  "ChartKey": "molestiae",
-  "LastLoaded": "2019-07-26T12:19:46.2576612+02:00",
-  "LastLoadedBy": 261,
+  "MainProviderName": "Vandervort-Parisian",
+  "ShadowProviderName": "Leannon-Wiegand",
+  "ChartKey": "laborum",
+  "LastLoaded": "2006-07-08T11:44:34.4470256+02:00",
+  "LastLoadedBy": 793,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-05-04T12:19:46.2576612+02:00",
-  "LastMembershipChangeBy": 539,
+  "LastMembershipChange": "2003-01-07T11:44:34.4470256+01:00",
+  "LastMembershipChangeBy": 739,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Green, Bartell and Bogisich",
-  "DashboardTileDefinitionId": 410,
+  "MainHeading": "laboriosam",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Bartoletti LLC",
+  "DashboardTileDefinitionId": 568,
   "VisibleFor": [
     {
-      "VisibleId": 825,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     },
     {
-      "VisibleId": 825,
+      "VisibleId": 519,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 507
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 291,
-    "Name": "Macejkovic, Kassulke and Raynor",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 361,
-    "UdListDefinitionId": 859,
+    "HeadingId": 47,
+    "Name": "Thiel Inc and Sons",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "Rank": 866,
+    "UdListDefinitionId": 386,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 66
       }
     }
   }

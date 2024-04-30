@@ -754,7 +754,7 @@ Shadow contact provider for the ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelection?$select=createdBy/isActive,person/personRegisteredByFullName,person/correspondingAssociate/middleName,contact/restrictionAddress/line1,contact/NumberOfNotCompletedSales
+GET /api/v1/archive/TicketShadowSelection?$select=person/personPrivate/description,person/personAssociate/mrMrs,contact/streetAddress/line3,contact/streetAddress/formattedAddress,contact/SaintStatus2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

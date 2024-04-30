@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 519,
-    "Name": "Daniel-VonRueden",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 78
+    "HeadingId": 433,
+    "Name": "Ruecker LLC",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "Rank": 308,
+    "UdListDefinitionId": 782
   },
   {
-    "HeadingId": 519,
-    "Name": "Daniel-VonRueden",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 78
+    "HeadingId": 433,
+    "Name": "Ruecker LLC",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "Rank": 308,
+    "UdListDefinitionId": 782
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Prohaska-Runolfsdottir",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "Rank": 444,
-    "UdListDefinitionId": 644,
+    "HeadingId": 754,
+    "Name": "Harris Group",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "Rank": 949,
+    "UdListDefinitionId": 182,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 469
       }
     }
   }

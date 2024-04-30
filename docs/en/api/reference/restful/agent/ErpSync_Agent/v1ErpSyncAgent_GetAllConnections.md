@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 370,
-    "ErpConnectorId": 484,
-    "DisplayName": "Ernser-Brakus",
-    "DisplayDescription": "Optional stable access",
-    "Active": false,
-    "ConnectionId": "voluptatem",
-    "MostRecentTimestamp": "odit",
+    "ErpConnectionId": 765,
+    "ErpConnectorId": 742,
+    "DisplayName": "Kutch Group",
+    "DisplayDescription": "Public-key incremental emulation",
+    "Active": true,
+    "ConnectionId": "suscipit",
+    "MostRecentTimestamp": "soluta",
     "ConfigFields": {
-      "ConfigFields1": "et",
-      "ConfigFields2": "qui"
+      "ConfigFields1": "molestiae",
+      "ConfigFields2": "animi"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      808,
-      24
+      862,
+      180
     ],
     "AssociateAccessIds": [
-      811,
-      124
+      973,
+      767
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 503
+        "FieldType": "System.Int32",
+        "FieldLength": 143
       }
     }
   }

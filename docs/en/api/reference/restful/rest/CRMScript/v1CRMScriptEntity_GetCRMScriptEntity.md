@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,23 +96,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 884,
-  "UniqueIdentifier": "aut",
-  "Name": "Mueller-Schiller",
-  "Description": "Synergistic responsive hierarchy",
-  "IncludeId": "totam",
-  "HierarchyId": 400,
-  "Source": "autem",
-  "Registered": "2019-09-09T12:19:53.3055654+02:00",
-  "RegisteredAssociateId": 770,
-  "Updated": "2003-05-16T12:19:53.3055654+02:00",
-  "UpdatedAssociateId": 202,
+  "EjscriptId": 579,
+  "UniqueIdentifier": "deserunt",
+  "Name": "Von LLC",
+  "Description": "Virtual neutral flexibility",
+  "IncludeId": "minima",
+  "HierarchyId": 834,
+  "Source": "quia",
+  "Registered": "2018-10-31T11:44:41.8671838+01:00",
+  "RegisteredAssociateId": 713,
+  "Updated": "2007-06-26T11:44:41.8671838+02:00",
+  "UpdatedAssociateId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 165
     }
   },
   "_Links": {

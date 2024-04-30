@@ -77,7 +77,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 951
+  "DocumentId": 777
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 71,
-  "Name": "Kuphal Inc and Sons"
+  "AssociateId": 588,
+  "Name": "Swaniawski-Paucek"
 }
 ```

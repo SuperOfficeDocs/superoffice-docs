@@ -88,16 +88,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Conn, Tillman and Schiller",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 665,
-  "IsCustomList": false,
+  "Id": 732,
+  "Name": "Brekke-Connelly",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "Rank": 316,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sapiente",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,21 +109,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 919,
-  "Name": "Hagenes Group",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "Rank": 159,
+  "Name": "Hansen Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 711,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
+  "ListType": "illum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 293
     }
   }
 }

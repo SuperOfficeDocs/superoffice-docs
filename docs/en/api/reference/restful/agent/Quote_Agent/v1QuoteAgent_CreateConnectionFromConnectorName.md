@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Bailey, Swaniawski and Brekke"
+  "ConnectorName": "Torphy Inc and Sons"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 102,
-  "ERPName": "Gulgowski Group",
-  "DisplayName": "Little Inc and Sons",
-  "DisplayDescription": "Realigned logistical methodology",
-  "Rank": 706,
-  "ConnectorName": "Keebler, Moen and Becker",
-  "ErpConnectionId": 249,
-  "ExtraData": "sed",
+  "QuoteConnectionId": 365,
+  "ERPName": "Breitenberg Inc and Sons",
+  "DisplayName": "Erdman LLC",
+  "DisplayDescription": "Progressive content-based project",
+  "Rank": 599,
+  "ConnectorName": "Oberbrunner, Cartwright and Batz",
+  "ErpConnectionId": 112,
+  "ExtraData": "autem",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 483,
-      "ERPPriceListKey": "soluta",
-      "QuoteConnectionId": 468,
-      "Name": "Sporer Inc and Sons",
-      "Description": "Up-sized even-keeled neural-net",
-      "Currency": "aut",
-      "CurrencyName": "Kshlerin LLC",
-      "ValidFrom": "2012-03-14T12:19:46.0858192+01:00",
-      "ValidTo": "2021-10-31T12:19:46.0858192+01:00",
+      "PriceListId": 824,
+      "ERPPriceListKey": "nihil",
+      "QuoteConnectionId": 270,
+      "Name": "Boyle LLC",
+      "Description": "Advanced methodical system engine",
+      "Currency": "placeat",
+      "CurrencyName": "Nolan-Cremin",
+      "ValidFrom": "2014-05-07T11:44:34.2907996+02:00",
+      "ValidTo": "2002-11-16T11:44:34.2907996+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldLength": 331
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    643,
-    329
+    181,
+    305
   ],
   "AssociateAccessIds": [
-    241,
-    922
+    75,
+    245
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldType": "System.String",
+      "FieldLength": 370
     }
   }
 }

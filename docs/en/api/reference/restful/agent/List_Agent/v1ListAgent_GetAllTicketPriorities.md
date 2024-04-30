@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 386,
-    "Name": "Goldner-Luettgen",
+    "TicketPriorityId": 208,
+    "Name": "Kutch LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 110,
+    "SortOrder": 253,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 952,
-    "MonStart": "2023-04-06T12:19:45.4609724+02:00",
-    "MonStop": "2007-11-19T12:19:45.4609724+01:00",
-    "TueStart": "2007-01-16T12:19:45.4609724+01:00",
-    "TueStop": "2014-01-06T12:19:45.4609724+01:00",
-    "WedStart": "2017-12-19T12:19:45.4609724+01:00",
-    "WedStop": "2010-10-19T12:19:45.4609724+02:00",
-    "ThuStart": "2003-09-20T12:19:45.4609724+02:00",
-    "ThuStop": "1999-03-31T12:19:45.4609724+02:00",
-    "FriStart": "2017-02-27T12:19:45.4609724+01:00",
-    "FriStop": "2010-05-25T12:19:45.4609724+02:00",
-    "SatStart": "2005-08-09T12:19:45.4609724+02:00",
-    "SatStop": "2008-05-15T12:19:45.4609724+02:00",
-    "SunStart": "2018-03-06T12:19:45.4609724+01:00",
-    "SunStop": "2000-04-17T12:19:45.4609724+02:00",
+    "Deadline": 559,
+    "MonStart": "2022-05-28T11:44:33.8065528+02:00",
+    "MonStop": "2001-04-19T11:44:33.8065528+02:00",
+    "TueStart": "2018-09-01T11:44:33.8065528+02:00",
+    "TueStop": "2006-04-13T11:44:33.8065528+02:00",
+    "WedStart": "2009-12-12T11:44:33.8065528+01:00",
+    "WedStop": "2013-05-10T11:44:33.8065528+02:00",
+    "ThuStart": "2007-04-21T11:44:33.8065528+02:00",
+    "ThuStop": "2010-06-16T11:44:33.8065528+02:00",
+    "FriStart": "1999-08-31T11:44:33.8065528+02:00",
+    "FriStop": "1999-10-19T11:44:33.8065528+02:00",
+    "SatStart": "2011-05-21T11:44:33.8065528+02:00",
+    "SatStop": "2004-12-19T11:44:33.8065528+01:00",
+    "SunStart": "2007-07-25T11:44:33.8065528+02:00",
+    "SunStop": "2006-09-22T11:44:33.8065528+02:00",
     "NonDates": [
-      "ea",
-      "eos"
+      "nulla",
+      "qui"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 372,
-        "AlertLevel": 489,
-        "AlertTimeout": 845,
-        "Action": 783,
-        "DelegateTo": 694,
-        "ScriptId": 532,
-        "EmailTo": "electa@fritschhickle.ca",
-        "SmsTo": "accusantium",
-        "ReplyTemplateIdCustomer": 420,
-        "ReplyTemplateIdUser": 787,
-        "ReplyTemplateIdCatmast": 80,
-        "ReplyTemplateIdEmail": 684,
-        "RtiCustomerSms": 885,
-        "ReplyTemplateIdUserSms": 347,
-        "ReplyTemplateIdCatmastSms": 808,
-        "ReplyTemplateIdSms": 89,
+        "TicketAlertId": 108,
+        "AlertLevel": 248,
+        "AlertTimeout": 89,
+        "Action": 211,
+        "DelegateTo": 576,
+        "ScriptId": 526,
+        "EmailTo": "jennings@kozey.name",
+        "SmsTo": "nulla",
+        "ReplyTemplateIdCustomer": 401,
+        "ReplyTemplateIdUser": 626,
+        "ReplyTemplateIdCatmast": 983,
+        "ReplyTemplateIdEmail": 915,
+        "RtiCustomerSms": 793,
+        "ReplyTemplateIdUserSms": 875,
+        "ReplyTemplateIdCatmastSms": 703,
+        "ReplyTemplateIdSms": 46,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 722
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldLength": 348
       }
     }
   }

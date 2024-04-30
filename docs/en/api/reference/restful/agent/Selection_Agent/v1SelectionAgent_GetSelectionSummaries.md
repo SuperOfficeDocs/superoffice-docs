@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    455,
-    731
+    345,
+    35
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 191,
-    "Name": "Kuphal LLC",
-    "TargetTable": "dolor",
-    "Registered": "2019-10-08T12:19:46.2889068+02:00",
-    "ProviderName": "Cassin, Crooks and Welch"
+    "SelectionId": 795,
+    "Name": "Weissnat LLC",
+    "TargetTable": "vel",
+    "Registered": "2009-04-20T11:44:34.4938878+02:00",
+    "ProviderName": "Grimes-Huel"
   },
   {
-    "SelectionId": 191,
-    "Name": "Kuphal LLC",
-    "TargetTable": "dolor",
-    "Registered": "2019-10-08T12:19:46.2889068+02:00",
-    "ProviderName": "Cassin, Crooks and Welch"
+    "SelectionId": 795,
+    "Name": "Weissnat LLC",
+    "TargetTable": "vel",
+    "Registered": "2009-04-20T11:44:34.4938878+02:00",
+    "ProviderName": "Grimes-Huel"
   }
 ]
 ```

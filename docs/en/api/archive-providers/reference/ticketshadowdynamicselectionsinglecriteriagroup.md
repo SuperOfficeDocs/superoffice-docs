@@ -745,7 +745,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=person/birthMonth,person/personAssociate/mrMrs,contact/hasInfoText,contact/restrictionAddress/state,contact/url/URLAddress
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=realTimeSpentInternally,createdBy/ejUserId,person/email/emailDescription,person/personAddress/city,person/personUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

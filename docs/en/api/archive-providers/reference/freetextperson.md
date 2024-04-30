@@ -1014,7 +1014,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personContact/contactAssociate/title,projectMembers/saintAmountClass,personContact/number
+GET /api/v1/archive/FreetextPerson?$select=ticketPriority,correspondingAssociate/userName,personContact/contactSupportAssociate/lastName,personContact/contactSupportAssociate/personId,projectMembers/projectAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

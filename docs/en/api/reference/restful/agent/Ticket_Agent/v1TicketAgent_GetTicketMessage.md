@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=500
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=707
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 956,
-  "CreatedAt": "2003-03-07T12:19:46.491985+01:00",
+  "TicketMessageId": 735,
+  "CreatedAt": "2014-12-21T11:44:34.8687993+01:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "praesentium",
-  "PersonId": 64,
-  "PersonFullName": "Ansel Ullrich",
-  "ContactId": 212,
-  "ContactName": "Hayes Inc and Sons",
+  "Author": "amet",
+  "PersonId": 914,
+  "PersonFullName": "Alfredo Champlin",
+  "ContactId": 712,
+  "ContactName": "Kilback, Bernier and Heller",
   "ContactDepartment": "",
-  "NumAttachments": 236,
-  "EmailHeader": "adolf@wisoky.ca",
+  "NumAttachments": 487,
+  "EmailHeader": "freida.hilpert@turcotte.us",
   "MessageHeaders": [
     {
-      "Id": 567,
-      "Name": "Shields-Sauer",
-      "Value": "ut",
+      "Id": 489,
+      "Name": "Rutherford-Schultz",
+      "Value": "molestias",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 919
         }
       }
     }
   ],
-  "Language": "qui",
-  "Sentiment": 985,
-  "SentimentConfidence": 261,
-  "CreatedBy": 568,
-  "ChangedAt": "2004-04-13T12:19:46.491985+02:00",
+  "Language": "repellendus",
+  "Sentiment": 7,
+  "SentimentConfidence": 977,
+  "CreatedBy": 867,
+  "ChangedAt": "2001-10-09T11:44:34.8687993+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 890
     }
   }
 }

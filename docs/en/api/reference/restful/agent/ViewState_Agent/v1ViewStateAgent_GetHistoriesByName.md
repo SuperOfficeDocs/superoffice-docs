@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Green Group"
+  "HistoryName": "Legros Inc and Sons"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 167,
-    "Id": 224,
-    "HistoryName": "Gorczany-Prosacco",
-    "HistoryId": 1001,
-    "AssociateId": 635,
-    "Name": "Batz LLC",
-    "ItemInfo": "quisquam",
+    "Rank": 111,
+    "Id": 281,
+    "HistoryName": "Hand Group",
+    "HistoryId": 538,
+    "AssociateId": 14,
+    "Name": "Ebert Inc and Sons",
+    "ItemInfo": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldType": "System.Int32",
+        "FieldLength": 1000
       }
     }
   }

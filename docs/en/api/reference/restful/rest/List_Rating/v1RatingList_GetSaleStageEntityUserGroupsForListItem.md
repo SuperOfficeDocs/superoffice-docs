@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "VonRueden-Bruen",
-    "ToolTip": "Vero qui eos sit placeat ratione rerum.",
-    "Deleted": true,
-    "Rank": 514,
-    "Type": "numquam",
-    "ColorBlock": 250,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1999-10-30T12:19:54.789597+02:00",
+    "Id": 254,
+    "Name": "Thiel LLC",
+    "ToolTip": "Minima eum eligendi.",
+    "Deleted": false,
+    "Rank": 721,
+    "Type": "possimus",
+    "ColorBlock": 634,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2013-06-23T11:44:43.2731075+02:00",
     "ChildItems": [
       {
-        "Id": 522,
-        "Name": "Morar-Gerlach",
-        "ToolTip": "Cum dignissimos architecto.",
-        "Deleted": true,
-        "Rank": 982,
-        "Type": "illo",
-        "ColorBlock": 643,
-        "IconHint": "placeat",
+        "Id": 243,
+        "Name": "Quitzon, Bogan and Mann",
+        "ToolTip": "Ut odio nam modi quia possimus asperiores voluptatem.",
+        "Deleted": false,
+        "Rank": 225,
+        "Type": "quo",
+        "ColorBlock": 176,
+        "IconHint": "illo",
         "Selected": true,
-        "LastChanged": "2011-04-23T12:19:54.789597+02:00",
+        "LastChanged": "2009-01-09T11:44:43.2731075+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "tempore",
+        "StyleHint": "facilis",
         "Hidden": true,
-        "FullName": "Theo Romaguera",
+        "FullName": "Vernice Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldType": "System.String",
+            "FieldLength": 761
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mrs. Lillie Elliot Padberg",
+    "ExtraInfo": "quos",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Prof. Neoma Noah Wolf V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldLength": 375
       }
     }
   }

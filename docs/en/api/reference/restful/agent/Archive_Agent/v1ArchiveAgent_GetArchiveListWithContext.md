@@ -109,48 +109,48 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bartoletti-Johns",
-  "ProviderName": "Windler Inc and Sons",
+  "GuiName": "Schuppe-Dach",
+  "ProviderName": "Bosco-Dach",
   "SortOrder": [
     {
-      "Name": "Steuber, Effertz and Herzog",
+      "Name": "Ferry-Kerluke",
       "Direction": "ASC"
     },
     {
-      "Name": "Steuber, Effertz and Herzog",
+      "Name": "Ferry-Kerluke",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Dicki Group",
-      "Operator": "velit",
+      "Name": "Ferry, Ondricka and Ullrich",
+      "Operator": "expedita",
       "Values": [
-        "voluptatum",
-        "temporibus"
+        "ducimus",
+        "totam"
       ],
       "DisplayValues": [
-        "maiores",
-        "omnis"
+        "expedita",
+        "quam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 111,
+      "InterParenthesis": 190,
       "InterOperator": "And",
-      "UniqueHash": 255
+      "UniqueHash": 780
     }
   ],
   "Entities": [
-    "ratione",
-    "eum"
+    "ad",
+    "fugiat"
   ],
-  "Page": 792,
-  "PageSize": 117,
-  "Context": "minima"
+  "Page": 860,
+  "PageSize": 605,
+  "Context": "nesciunt"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hahn Group",
-    "PrimaryKey": 895,
+    "EntityName": "Stiedemann-Kautzer",
+    "PrimaryKey": 613,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "maiores",
-        "TooltipHint": "fugiat",
-        "LinkHint": "in"
+        "DisplayValue": "ipsa",
+        "TooltipHint": "est",
+        "LinkHint": "at"
       }
     },
-    "LinkHint": "deserunt",
-    "StyleHint": "soluta",
+    "LinkHint": "illum",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 129
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

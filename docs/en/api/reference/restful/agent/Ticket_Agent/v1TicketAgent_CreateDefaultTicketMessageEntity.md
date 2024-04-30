@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 426,
+  "EjMessageId": 109,
   "Ticket": null,
-  "CreatedAt": "2012-10-26T12:19:46.3670151+02:00",
+  "CreatedAt": "2019-07-18T11:44:34.7438345+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "maxime",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 675,
-  "Body": "aspernatur",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "garfield@collins.biz",
-  "DebugInfo": "nulla",
-  "MailSorter": "quod",
+  "MessageId": "repellendus",
+  "TimeSpent": 421,
+  "Body": "ut",
+  "HtmlBody": "reprehenderit",
+  "EmailHeader": "ellie@rutherfordlabadie.biz",
+  "DebugInfo": "quae",
+  "MailSorter": "quos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "omnis",
+  "SearchTitle": "reprehenderit",
   "MessageHeaders": [
     {
-      "Id": 642,
-      "Name": "Strosin LLC",
-      "Value": "non",
+      "Id": 566,
+      "Name": "Breitenberg, Grimes and Hammes",
+      "Value": "incidunt",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldType": "System.Int32",
+          "FieldLength": 886
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eius",
-  "Sentiment": 699,
-  "SentimentConfidence": 636,
+  "Language": "ducimus",
+  "Sentiment": 305,
+  "SentimentConfidence": 334,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 719,
-      "Name": "Corwin, Reilly and Aufderhar",
-      "ContentType": "dolor",
-      "AttSize": 11,
+      "AttachmentId": 474,
+      "Name": "Reichert, Wyman and DuBuque",
+      "ContentType": "a",
+      "AttSize": 712,
       "InlineImage": false,
-      "ContentId": "rem",
-      "AuthKey": "nemo",
+      "ContentId": "maiores",
+      "AuthKey": "ipsa",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 198
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "a"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 104
     }
   }
 }

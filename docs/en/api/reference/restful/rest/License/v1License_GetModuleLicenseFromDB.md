@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Dickinson, Kuvalis and Brekke",
-  "ModuleName": "Wolf LLC",
-  "ModuleDescription": "Networked modular architecture",
-  "ModuleTooltip": "autem",
-  "ModuleVersion": "veniam",
+  "OwnerName": "Braun, King and Yundt",
+  "ModuleName": "Nienow-Goyette",
+  "ModuleDescription": "Function-based system-worthy methodology",
+  "ModuleTooltip": "quae",
+  "ModuleVersion": "voluptates",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 919,
-  "ExtraFlags": 741,
-  "ExtraInfo": "rerum",
-  "SortOrder": 724,
+  "NumberOfLicenses": 800,
+  "ExtraFlags": 54,
+  "ExtraInfo": "a",
+  "SortOrder": 907,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Dickinson-Runolfsson",
-  "Signature": "aut"
+  "PrerequisiteModuleName": "Schamberger-Kreiger",
+  "Signature": "dolor"
 }
 ```

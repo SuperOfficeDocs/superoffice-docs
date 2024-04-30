@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Value": "quo",
-    "Tooltip": "illo",
+    "Id": 903,
+    "Value": "est",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 98
       }
     }
   },
   {
-    "Id": 927,
-    "Value": "quo",
-    "Tooltip": "illo",
+    "Id": 903,
+    "Value": "est",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 98
       }
     }
   }

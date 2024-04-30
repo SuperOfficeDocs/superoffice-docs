@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Cole Group",
-    "Lemke LLC"
+    "Koch LLC",
+    "Lindgren-Jones"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  617,
-  349
+  152,
+  152
 ]
 ```

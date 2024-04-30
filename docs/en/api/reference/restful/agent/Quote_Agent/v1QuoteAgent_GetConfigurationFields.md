@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 260,
-  "ConnectorName": "Johnson Group"
+  "ConnectionId": 572,
+  "ConnectorName": "Corwin, Strosin and Nitzsche"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "sequi",
-    "Rank": 470,
-    "DisplayName": "Huels-Lubowitz",
-    "DisplayDescription": "Visionary mobile parallelism",
+    "FieldKey": "cum",
+    "Rank": 856,
+    "DisplayName": "Daniel, Walker and Ullrich",
+    "DisplayDescription": "Ergonomic national system engine",
     "FieldType": "Checkbox",
-    "ListName": "Keebler-Halvorson",
-    "DefaultValue": "rerum",
-    "MaxLength": 727,
+    "ListName": "O'Kon-Schneider",
+    "DefaultValue": "facere",
+    "MaxLength": 383,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldType": "System.Int32",
+        "FieldLength": 119
       }
     }
   }

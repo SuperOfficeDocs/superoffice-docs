@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 896,
-  "Name": "Waters, Abbott and McDermott",
-  "Tooltip": "et",
-  "Rank": 619,
+  "SaleTypeId": 450,
+  "Name": "Purdy-Reilly",
+  "Tooltip": "impedit",
+  "Rank": 415,
   "DurationUnit": "Century",
-  "SaleDuration": 826,
-  "SaleTypeCatId": 269,
-  "Deleted": false,
+  "SaleDuration": 639,
+  "SaleTypeCatId": 263,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 484,
-  "QuoteLinesTemplate": 390,
-  "ConfirmationLinesTemplate": 311,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 830,
+  "QuoteLinesTemplate": 279,
+  "ConfirmationLinesTemplate": 783,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 4,
-  "MinEarningPercent": 475,
-  "GroupQuoteLinesBy": 694,
-  "SortGroupLinesBy": 487,
+  "MaxDiscountPercent": 362,
+  "MinEarningPercent": 694,
+  "GroupQuoteLinesBy": 518,
+  "SortGroupLinesBy": 644,
   "Stages": [
     {
-      "Id": 576,
-      "Name": "Swaniawski, Pouros and Kautzer",
-      "ToolTip": "Maiores dolorem porro quis reiciendis.",
+      "Id": 885,
+      "Name": "Hills Inc and Sons",
+      "ToolTip": "Aut facilis eaque.",
       "Deleted": false,
-      "Rank": 772,
-      "Type": "aperiam",
-      "ColorBlock": 476,
-      "IconHint": "sit",
-      "Selected": false,
-      "LastChanged": "2023-09-01T12:19:54.8364594+02:00",
+      "Rank": 104,
+      "Type": "itaque",
+      "ColorBlock": 919,
+      "IconHint": "dicta",
+      "Selected": true,
+      "LastChanged": "2022-09-29T11:44:43.3355939+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "corrupti",
-      "Hidden": true,
-      "FullName": "Reginald Luettgen"
+      "ExtraInfo": "placeat",
+      "StyleHint": "molestiae",
+      "Hidden": false,
+      "FullName": "Miss Shannon Conroy"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 858,
-  "Name": "Powlowski, Konopelski and Kirlin",
-  "Tooltip": "quaerat",
-  "Rank": 253,
+  "SaleTypeId": 543,
+  "Name": "Stoltenberg Group",
+  "Tooltip": "eum",
+  "Rank": 742,
   "DurationUnit": "Century",
-  "SaleDuration": 396,
-  "SaleTypeCatId": 683,
-  "Deleted": true,
+  "SaleDuration": 346,
+  "SaleTypeCatId": 711,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 16,
-  "QuoteLinesTemplate": 497,
-  "ConfirmationLinesTemplate": 11,
+  "DefaultQuoteValidity": 726,
+  "QuoteLinesTemplate": 292,
+  "ConfirmationLinesTemplate": 627,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 599,
-  "MinEarningPercent": 57,
-  "GroupQuoteLinesBy": 74,
-  "SortGroupLinesBy": 40,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 85,
+  "MinEarningPercent": 911,
+  "GroupQuoteLinesBy": 251,
+  "SortGroupLinesBy": 809,
   "Stages": [
     {
-      "Id": 532,
-      "Name": "Beier-Beer",
-      "ToolTip": "Suscipit ab odit consequatur asperiores dolorem quia.",
-      "Deleted": true,
-      "Rank": 32,
-      "Type": "ipsa",
-      "ColorBlock": 961,
-      "IconHint": "optio",
-      "Selected": false,
-      "LastChanged": "2021-02-01T12:19:54.8364594+01:00",
+      "Id": 688,
+      "Name": "Little LLC",
+      "ToolTip": "Nihil perferendis.",
+      "Deleted": false,
+      "Rank": 82,
+      "Type": "repellendus",
+      "ColorBlock": 290,
+      "IconHint": "ab",
+      "Selected": true,
+      "LastChanged": "2017-07-10T11:44:43.3355939+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "voluptas",
-      "Hidden": false,
-      "FullName": "Rolando Lehner",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "facere",
+      "Hidden": true,
+      "FullName": "Tyree Wilderman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 282
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

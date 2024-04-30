@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 334,
-  "Name": "Sauer-Heaney",
-  "Description": "Multi-channelled directional migration",
+  "ReportLabelLayoutId": 257,
+  "Name": "Stracke, Ruecker and Emmerich",
+  "Description": "Optional incremental architecture",
   "Orientation": "Landscape",
-  "PaperWidth": 623,
-  "PaperHeight": 754,
-  "LeftMargin": 347,
-  "RightMargin": 893,
-  "TopMargin": 256,
-  "BottomMargin": 308,
-  "CountColumns": 511,
-  "CountRows": 53,
+  "PaperWidth": 76,
+  "PaperHeight": 63,
+  "LeftMargin": 234,
+  "RightMargin": 876,
+  "TopMargin": 573,
+  "BottomMargin": 367,
+  "CountColumns": 498,
+  "CountRows": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

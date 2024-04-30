@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "consequatur",
-    "aliquam"
+    "minima",
+    "omnis"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2007-02-17T12:19:44.3049893+01:00",
+    "Date": "1999-12-31T11:44:32.6037053+01:00",
     "IsConflict": false,
-    "Description": "Reduced assymetric encryption",
-    "DescriptionStyleHint": "Object-based actuating extranet",
-    "Tooltip": "at"
+    "Description": "Mandatory needs-based array",
+    "DescriptionStyleHint": "Integrated responsive local area network",
+    "Tooltip": "rem"
   },
   {
-    "Date": "2007-02-17T12:19:44.3049893+01:00",
+    "Date": "1999-12-31T11:44:32.6037053+01:00",
     "IsConflict": false,
-    "Description": "Reduced assymetric encryption",
-    "DescriptionStyleHint": "Object-based actuating extranet",
-    "Tooltip": "at"
+    "Description": "Mandatory needs-based array",
+    "DescriptionStyleHint": "Integrated responsive local area network",
+    "Tooltip": "rem"
   }
 ]
 ```

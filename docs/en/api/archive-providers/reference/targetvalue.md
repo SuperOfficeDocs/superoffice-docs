@@ -396,7 +396,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValue?$select=associate/isActive,contact/streetAddress/formattedMultiLineAddress,contact/restrictionAddress/city
+GET /api/v1/archive/TargetValue?$select=targetPeriod,contact/registeredBy,contact/searchPhone/formattedNumber,contact/contactSupportPerson/isMailingRecipient,contact/contactUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

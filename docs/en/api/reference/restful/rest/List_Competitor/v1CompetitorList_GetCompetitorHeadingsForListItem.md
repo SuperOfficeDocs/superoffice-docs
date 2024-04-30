@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Bashirian Group",
-    "ToolTip": "Est qui necessitatibus repudiandae consequatur voluptate placeat.",
+    "Id": 540,
+    "Name": "Lynch LLC",
+    "ToolTip": "Et velit quia modi dolor recusandae.",
     "Deleted": false,
-    "Rank": 872,
-    "Type": "quisquam",
-    "ColorBlock": 621,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "2003-09-05T12:19:54.3365677+02:00",
+    "Rank": 703,
+    "Type": "quos",
+    "ColorBlock": 28,
+    "IconHint": "officiis",
+    "Selected": true,
+    "LastChanged": "2001-02-02T11:44:42.9607018+01:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Aufderhar-Carroll",
-        "ToolTip": "Ipsam suscipit rerum et est alias aliquam nulla.",
+        "Id": 745,
+        "Name": "Jewess-Friesen",
+        "ToolTip": "Nihil porro et veritatis dolorem fuga.",
         "Deleted": false,
-        "Rank": 411,
-        "Type": "modi",
-        "ColorBlock": 746,
-        "IconHint": "omnis",
+        "Rank": 461,
+        "Type": "et",
+        "ColorBlock": 376,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "1997-08-08T12:19:54.3365677+02:00",
+        "LastChanged": "1998-03-26T11:44:42.9607018+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "quis",
+        "ExtraInfo": "optio",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Miss Verda Bernier",
+        "FullName": "Meta Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldType": "System.String",
+            "FieldLength": 408
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "officia",
+    "ExtraInfo": "quia",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Jerrold Blanda",
+    "FullName": "Jailyn Torp III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 351
       }
     }
   }

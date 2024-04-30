@@ -1049,6 +1049,8 @@ items:
   href: workflow-goal.md
 - name: workflow_instance
   href: workflow-instance.md
+- name: workflow-root-step-link
+  href: workflow-root-step-link.md
 - name: workflow_step
   href: workflow-step.md
 - name: workflow_step_option

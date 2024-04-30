@@ -32,6 +32,7 @@ The link type
 |FormsBackgroundImage|16|Forms background image|
 |ContactImage|17|Contact logo image|
 |DashboardHtmlTileData|18|HTML data for dashboard tiles|
+|ExtraTableIcon|19|Extra table icon|
 
 ## Usage
 

@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Brekke, Kihn and Schoen",
-  "Columns": "enim",
-  "SortOrder": "debitis",
-  "Restriction": "consectetur",
-  "Entities": "omnis",
-  "Page": 372,
-  "PageSize": 150,
-  "Context": "necessitatibus"
+  "ProviderName": "Schimmel, Harris and Morar",
+  "Columns": "saepe",
+  "SortOrder": "accusamus",
+  "Restriction": "error",
+  "Entities": "quia",
+  "Page": 987,
+  "PageSize": 280,
+  "Context": "cum"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Tremblay LLC",
-    "PrimaryKey": 100,
+    "EntityName": "Spinka, O'Kon and Ernser",
+    "PrimaryKey": 803,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nulla",
-        "TooltipHint": "alias",
-        "LinkHint": "quo"
+        "DisplayValue": "nihil",
+        "TooltipHint": "repellendus",
+        "LinkHint": "sit"
       }
     },
-    "LinkHint": "velit",
-    "StyleHint": "laudantium",
+    "LinkHint": "et",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldType": "System.String",
+        "FieldLength": 813
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=241
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=82
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 803,
-  "SourcePersonId": 211,
-  "DestinationContactId": 668,
-  "DestinationPersonId": 401,
-  "RelationId": 319,
-  "Comment": "pariatur",
-  "RelationDefinitionId": 442,
-  "Reversed": 1001,
-  "UpdatedDate": "2017-07-29T12:19:46.117062+02:00",
-  "CreatedDate": "2010-07-22T12:19:46.117062+02:00",
+  "SourceContactId": 341,
+  "SourcePersonId": 521,
+  "DestinationContactId": 11,
+  "DestinationPersonId": 932,
+  "RelationId": 873,
+  "Comment": "et",
+  "RelationDefinitionId": 573,
+  "Reversed": 25,
+  "UpdatedDate": "2013-10-13T11:44:34.3063794+02:00",
+  "CreatedDate": "2007-10-04T11:44:34.3063794+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kilback, Witting and Dicki",
-  "SourcePersonName": "Schneider-Williamson",
-  "DestinationContactName": "Nitzsche-Turner",
-  "DestinationPersonName": "Witting-Zulauf",
-  "ActiveText": "animi",
-  "PassiveText": "excepturi",
+  "SourceContactName": "Toy-Berge",
+  "SourcePersonName": "Stracke Group",
+  "DestinationContactName": "Kassulke-Feil",
+  "DestinationPersonName": "Ferry Group",
+  "ActiveText": "quo",
+  "PassiveText": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   }
 }

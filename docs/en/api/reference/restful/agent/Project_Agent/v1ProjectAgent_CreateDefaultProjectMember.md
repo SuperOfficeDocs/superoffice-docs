@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 546,
-  "ContactId": 191,
-  "ProjectId": 8,
-  "ContactName": "Carter Group",
+  "ProjectmemberId": 70,
+  "ContactId": 231,
+  "ProjectId": 962,
+  "ContactName": "Brown Group",
   "ContactDepartment": "",
-  "ProjectName": "Schultz, Lehner and Larson",
-  "EmailId": 865,
-  "EmailAddress": "dakota_jakubowski@ullrich.us",
-  "CountryId": 508,
-  "Firstname": "Laurel",
-  "MiddleName": "Terry-Fahey",
-  "Lastname": "DuBuque",
-  "PersonId": 882,
-  "Mrmrs": "officiis",
-  "ProjectMemberTypeName": "Prohaska-Simonis",
-  "Phone": "153-409-5698 x661",
-  "PhoneId": 338,
-  "ProjectMemberTypeId": 798,
-  "EmailAddressName": "erich.reynolds@oconnellnienow.info",
-  "Comment": "laboriosam",
-  "FullName": "Nicolette Balistreri",
+  "ProjectName": "Grady-Kunde",
+  "EmailId": 896,
+  "EmailAddress": "lawrence@schmeler.co.uk",
+  "CountryId": 93,
+  "Firstname": "Maybelle",
+  "MiddleName": "Hamill, Schuster and Spinka",
+  "Lastname": "Ziemann",
+  "PersonId": 921,
+  "Mrmrs": "assumenda",
+  "ProjectMemberTypeName": "Ernser-Cole",
+  "Phone": "876-197-1054",
+  "PhoneId": 12,
+  "ProjectMemberTypeId": 440,
+  "EmailAddressName": "cristian@morar.ca",
+  "Comment": "aut",
+  "FullName": "Kristopher Wolf V",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   }
 }

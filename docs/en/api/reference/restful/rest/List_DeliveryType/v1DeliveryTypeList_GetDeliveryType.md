@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 476,
-  "Name": "Bergstrom, Bernier and Witting",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 629,
-  "Rank": 902,
+  "Id": 551,
+  "Name": "Miller, O'Hara and Jacobi",
+  "Tooltip": "iure",
+  "Deleted": true,
+  "UdListDefinitionId": 339,
+  "Rank": 366,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldType": "System.Int32",
+      "FieldLength": 425
     }
   }
 }

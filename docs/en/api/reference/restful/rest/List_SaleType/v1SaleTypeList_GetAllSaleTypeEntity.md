@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 980,
-    "Name": "Schultz, Ebert and Green",
-    "Tooltip": "corporis",
-    "Rank": 395,
+    "SaleTypeId": 311,
+    "Name": "Howell, Brown and Johns",
+    "Tooltip": "quibusdam",
+    "Rank": 216,
     "DurationUnit": "Century",
-    "SaleDuration": 755,
-    "SaleTypeCatId": 13,
-    "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": false,
+    "SaleDuration": 926,
+    "SaleTypeCatId": 438,
+    "Deleted": true,
+    "HasGuide": true,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 932,
-    "QuoteLinesTemplate": 394,
-    "ConfirmationLinesTemplate": 259,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 840,
+    "QuoteLinesTemplate": 23,
+    "ConfirmationLinesTemplate": 673,
     "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 642,
-    "MinEarningPercent": 417,
-    "GroupQuoteLinesBy": 270,
-    "SortGroupLinesBy": 850,
+    "MaxDiscountPercent": 522,
+    "MinEarningPercent": 584,
+    "GroupQuoteLinesBy": 985,
+    "SortGroupLinesBy": 885,
     "Stages": [
       {
-        "Id": 357,
-        "Name": "Grant, Romaguera and Homenick",
-        "ToolTip": "Et occaecati et illum nisi.",
-        "Deleted": true,
-        "Rank": 335,
-        "Type": "impedit",
-        "ColorBlock": 46,
-        "IconHint": "ea",
+        "Id": 564,
+        "Name": "Stoltenberg LLC",
+        "ToolTip": "Itaque sed doloremque provident.",
+        "Deleted": false,
+        "Rank": 103,
+        "Type": "sit",
+        "ColorBlock": 942,
+        "IconHint": "labore",
         "Selected": true,
-        "LastChanged": "2001-07-27T12:19:54.8364594+02:00",
+        "LastChanged": "2020-04-21T11:44:43.3355939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "soluta",
+        "ExtraInfo": "et",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Dr. Waldo Volkman MD",
+        "FullName": "Dr. Adolphus Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldLength": 984
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldType": "System.Int32",
+        "FieldLength": 48
       }
     }
   }

@@ -718,7 +718,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/projectId,documentInstance/person/personPrivate/formattedNumber,documentInstance/person/personExtra/x_person_category_relation,documentInstance/project/projectAssociate/title,documentInstance/project/projectAssociate/usergroup
+GET /api/v1/archive/SaleGuideDocument?$select=stageName,documentInstance/date,documentInstance/person/middleName,documentInstance/person/isProjectMember,documentInstance/person/phone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

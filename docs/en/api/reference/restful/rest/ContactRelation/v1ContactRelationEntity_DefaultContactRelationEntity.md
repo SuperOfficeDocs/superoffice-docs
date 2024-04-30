@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 26 Apr 2006 12:19:53 G4T
+Last-Modified: Wed, 19 Dec 2001 11:44:41 G12T
 
 {
-  "SourceContactId": 569,
-  "SourcePersonId": 287,
-  "DestinationContactId": 141,
-  "DestinationPersonId": 307,
-  "RelationId": 451,
-  "Comment": "quo",
-  "RelationDefinitionId": 872,
-  "Reversed": 676,
-  "UpdatedDate": "2006-04-26T12:19:53.2899404+02:00",
-  "CreatedDate": "2009-01-22T12:19:53.2899404+01:00",
+  "SourceContactId": 147,
+  "SourcePersonId": 420,
+  "DestinationContactId": 185,
+  "DestinationPersonId": 105,
+  "RelationId": 965,
+  "Comment": "rerum",
+  "RelationDefinitionId": 692,
+  "Reversed": 979,
+  "UpdatedDate": "2001-12-19T11:44:41.8515534+01:00",
+  "CreatedDate": "2010-03-13T11:44:41.8515534+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Spinka-Sipes",
-  "SourcePersonName": "Wuckert, Abbott and Anderson",
-  "DestinationContactName": "Rippin, Daugherty and Kozey",
-  "DestinationPersonName": "Pfannerstill, Nikolaus and Lakin",
-  "ActiveText": "vitae",
-  "PassiveText": "eum",
+  "SourceContactName": "Upton LLC",
+  "SourcePersonName": "Stiedemann Group",
+  "DestinationContactName": "Rippin-Kassulke",
+  "DestinationPersonName": "West, Zulauf and Johns",
+  "ActiveText": "et",
+  "PassiveText": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

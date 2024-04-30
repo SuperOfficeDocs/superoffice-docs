@@ -59,6 +59,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -68,7 +72,7 @@ OK
 GET /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +83,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 338,
-    "Name": "Rippin, Satterfield and Zulauf",
-    "Rank": 568,
-    "Tooltip": "dolores",
-    "Icon": "reprehenderit",
-    "DefaultTicketStatus": 337,
+    "TicketTypeId": 977,
+    "Name": "Predovic, O'Hara and Bernier",
+    "Rank": 30,
+    "Tooltip": "dolorem",
+    "Icon": "similique",
+    "DefaultTicketStatus": 301,
     "TicketStatuses": [
-      593,
-      278
+      255,
+      910
     ],
-    "DefaultTicketPriority": 791,
+    "DefaultTicketPriority": 722,
     "TicketPriorities": [
-      258,
-      321
+      669,
+      552
     ],
-    "ReplyTemplate": 201,
+    "ReplyTemplate": 132,
     "IsExternalVisible": false,
-    "IsDefault": true,
+    "IsDefault": false,
+    "ShowInNew": false,
+    "ExcludeSignature": true,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldLength": 996
       }
     }
   }

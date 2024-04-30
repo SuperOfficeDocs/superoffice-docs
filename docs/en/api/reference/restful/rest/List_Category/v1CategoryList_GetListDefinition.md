@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Olson-Weissnat",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 3,
+  "Id": 651,
+  "Name": "Bahringer, VonRueden and Green",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 418,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "illo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "harum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 189
     }
   },
   "_Links": {

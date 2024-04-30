@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 363,
-  "ERPProductKey": "quisquam",
-  "ERPPriceListKey": "rem",
-  "Name": "McCullough-Abshire",
-  "Description": "Switchable bandwidth-monitored leverage",
-  "Code": "et",
-  "PriceUnit": "quasi",
-  "QuantityUnit": "mollitia",
-  "IsSubscription": false,
-  "SubscriptionUnit": "consequuntur",
-  "DefaultSubscriptionQuantity": 19427.666,
-  "ItemNumber": "723101",
+  "ProductId": 622,
+  "ERPProductKey": "quae",
+  "ERPPriceListKey": "nobis",
+  "Name": "Graham-Ernser",
+  "Description": "Function-based real-time portal",
+  "Code": "eos",
+  "PriceUnit": "accusantium",
+  "QuantityUnit": "aut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "laboriosam",
+  "DefaultSubscriptionQuantity": 16039.812,
+  "ItemNumber": "1093457",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quae",
-  "ProductTypeKey": "blanditiis",
-  "VAT": 17866.934,
-  "VATInfo": "distinctio",
-  "UnitCost": 10859.31,
-  "UnitMinimumPrice": 2272.15,
-  "UnitListPrice": 5663.138,
-  "InAssortment": true,
-  "Supplier": "exercitationem",
-  "SupplierCode": "rem",
-  "Rights": "placeat",
-  "Rule": "iure",
+  "ProductFamilyKey": "nobis",
+  "ProductTypeKey": "qui",
+  "VAT": 28271.814,
+  "VATInfo": "quae",
+  "UnitCost": 1375.826,
+  "UnitMinimumPrice": 3375.3179999999998,
+  "UnitListPrice": 28437.915999999997,
+  "InAssortment": false,
+  "Supplier": "consequuntur",
+  "SupplierCode": "similique",
+  "Rights": "aut",
+  "Rule": "ducimus",
   "ExtraInfo": [
     {
-      "Name": "Zboncak, Hilpert and Will",
-      "Value": "quia",
+      "Name": "Labadie, DuBuque and Jacobs",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 158
         }
       }
     },
     {
-      "Name": "Zboncak, Hilpert and Will",
-      "Value": "quia",
+      "Name": "Labadie, DuBuque and Jacobs",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 158
         }
       }
     }
   ],
-  "RawExtraInfo": "necessitatibus",
-  "ExtraField1": "error",
-  "ExtraField2": "rerum",
-  "ExtraField3": "et",
-  "ExtraField4": "veritatis",
-  "ExtraField5": "et",
-  "InStock": 20405.474,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "aut",
+  "ExtraField2": "dolores",
+  "ExtraField3": "non",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "modi",
+  "InStock": 13291.294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 761
     }
   }
 }

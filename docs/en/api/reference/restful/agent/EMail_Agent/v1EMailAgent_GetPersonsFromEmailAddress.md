@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "carroll@jewess.biz"
+  "EmailAddress": "brittany@rippin.biz"
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "veniam",
-    "PersonId": 449,
-    "Mrmrs": "id",
-    "Firstname": "Alfonso",
-    "Lastname": "O'Keefe",
-    "MiddleName": "Mayert-Goodwin",
-    "Title": "saepe",
-    "Description": "Optimized tertiary algorithm",
-    "Email": "gwen@champlin.name",
-    "FullName": "Nikolas Gleason",
-    "DirectPhone": "521-658-3518 x74742",
-    "FormalName": "Legros, Pouros and Kshlerin",
-    "CountryId": 411,
-    "ContactId": 542,
-    "ContactName": "Roberts LLC",
-    "Retired": 379,
-    "Rank": 23,
-    "ActiveInterests": 407,
+    "Position": "ipsum",
+    "PersonId": 35,
+    "Mrmrs": "velit",
+    "Firstname": "Emory",
+    "Lastname": "Kiehn",
+    "MiddleName": "Koch-Bergnaum",
+    "Title": "voluptas",
+    "Description": "Stand-alone cohesive portal",
+    "Email": "vergie@heidenreich.biz",
+    "FullName": "Mya Connelly",
+    "DirectPhone": "1-242-808-7238 x43957",
+    "FormalName": "Boyer-Wiegand",
+    "CountryId": 865,
+    "ContactId": 255,
+    "ContactName": "Kerluke Inc and Sons",
+    "Retired": 535,
+    "Rank": 594,
+    "ActiveInterests": 616,
     "ContactDepartment": "",
-    "ContactCountryId": 481,
-    "ContactOrgNr": "1256111",
-    "FaxPhone": "1-822-261-3690",
-    "MobilePhone": "336.976.8980 x382",
-    "ContactPhone": "166-888-4842",
-    "AssociateName": "Waelchi LLC",
-    "AssociateId": 404,
+    "ContactCountryId": 286,
+    "ContactOrgNr": "1401226",
+    "FaxPhone": "149-753-1467 x177",
+    "MobilePhone": "932-904-3551 x30153",
+    "ContactPhone": "1-704-232-7223 x440",
+    "AssociateName": "Jenkins-Okuneva",
+    "AssociateId": 542,
     "UsePersonAddress": false,
-    "ContactFax": "nam",
-    "Kanafname": "expedita",
-    "Kanalname": "ab",
-    "Post1": "velit",
-    "Post2": "enim",
-    "Post3": "voluptatum",
-    "EmailName": "emma@boyer.info",
-    "ContactFullName": "Taya Hilda Sauer III",
-    "ActiveErpLinks": 305,
-    "TicketPriorityId": 543,
-    "SupportLanguageId": 164,
-    "SupportAssociateId": 303,
+    "ContactFax": "perferendis",
+    "Kanafname": "qui",
+    "Kanalname": "voluptates",
+    "Post1": "architecto",
+    "Post2": "rerum",
+    "Post3": "blanditiis",
+    "EmailName": "renee_gleason@lehner.biz",
+    "ContactFullName": "Dr. Lempi Gibson",
+    "ActiveErpLinks": 212,
+    "TicketPriorityId": 560,
+    "SupportLanguageId": 584,
+    "SupportAssociateId": 582,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 828,
+  "TargetDimensionId": 859,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "corporis",
-  "DimensionListName": "Feil Inc and Sons",
-  "DimensionListId": 825,
-  "DimensionListLabel": "deleniti",
+  "DimensionListField": "tempore",
+  "DimensionListName": "Maggio-Bergstrom",
+  "DimensionListId": 703,
+  "DimensionListLabel": "reprehenderit",
   "SelectedDimensions": [
-    109,
-    144
+    312,
+    357
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 760
     }
   }
 }

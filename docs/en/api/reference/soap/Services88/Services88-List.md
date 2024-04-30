@@ -1225,6 +1225,10 @@ title: Services88.ListAgent WSDL
               <xs:element minOccurs="0" name="ReplyTemplate" type="xs:int" />
               <xs:element minOccurs="0" name="IsExternalVisible" type="xs:boolean" />
               <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ShowInNew" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExcludeSignature" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExcludeEmailRecipients" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExternalAsDefault" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

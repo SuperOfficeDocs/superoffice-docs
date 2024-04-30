@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 988,
-  "PrefDescId": 992,
-  "PrefValue": "delectus",
-  "PrefShowValue": "enim",
-  "Description": "Universal 3rd generation capability",
-  "IsBuiltin": false
+  "PrefDescLineId": 601,
+  "PrefDescId": 681,
+  "PrefValue": "dolores",
+  "PrefShowValue": "occaecati",
+  "Description": "Persevering composite website",
+  "IsBuiltin": true
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 506,
-  "PrefDescId": 422,
-  "PrefValue": "qui",
-  "PrefShowValue": "esse",
-  "Description": "Re-engineered human-resource intranet",
-  "IsBuiltin": true,
+  "PrefDescLineId": 301,
+  "PrefDescId": 136,
+  "PrefValue": "inventore",
+  "PrefShowValue": "quis",
+  "Description": "Multi-lateral real-time implementation",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   }
 }

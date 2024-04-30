@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Runolfsson LLC",
+  "TableName": "Hartmann, Fay and Abshire",
   "RecordIds": [
-    498,
-    320
+    887,
+    796
   ],
-  "AssociateId": 200
+  "AssociateId": 293
 }
 ```
 

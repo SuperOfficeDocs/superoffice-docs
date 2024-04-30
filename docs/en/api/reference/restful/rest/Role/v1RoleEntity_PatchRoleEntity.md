@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cumque",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cumque",
+    "path": "est",
     "value": {}
   }
 ]
@@ -146,24 +146,24 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 474,
-  "Name": "Rempel Group",
-  "Tooltip": "officiis",
+  "RoleId": 187,
+  "Name": "Farrell Group",
+  "Tooltip": "quas",
   "RoleType": "Anonymous",
-  "Deleted": 752,
-  "Rank": 418,
-  "Created": "2014-01-14T12:19:53.7898269+01:00",
-  "UseCategories": 536,
+  "Deleted": 827,
+  "Rank": 320,
+  "Created": "1997-12-21T11:44:42.2264732+01:00",
+  "UseCategories": 701,
   "CreatedBy": null,
-  "Updated": "2013-04-20T12:19:53.7898269+02:00",
+  "Updated": "1999-09-29T11:44:42.2264732+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 243
     }
   },
   "_Links": {

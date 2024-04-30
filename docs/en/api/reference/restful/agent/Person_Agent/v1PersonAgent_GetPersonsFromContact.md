@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 746
+  "ContactId": 552
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptas",
-    "PersonId": 599,
-    "Mrmrs": "id",
-    "Firstname": "Elody",
-    "Lastname": "Willms",
-    "MiddleName": "Green, Heidenreich and Walker",
-    "Title": "id",
-    "Description": "Advanced bi-directional artificial intelligence",
-    "Email": "evalyn@jerdebartell.uk",
-    "FullName": "Mrs. Kenna Rippin Jr.",
-    "DirectPhone": "(061)030-8584 x0874",
-    "FormalName": "Ryan-Ferry",
-    "CountryId": 892,
-    "ContactId": 586,
-    "ContactName": "Rau Inc and Sons",
-    "Retired": 47,
-    "Rank": 877,
-    "ActiveInterests": 413,
+    "Position": "quis",
+    "PersonId": 249,
+    "Mrmrs": "dolorum",
+    "Firstname": "Reba",
+    "Lastname": "Feil",
+    "MiddleName": "Prohaska LLC",
+    "Title": "rem",
+    "Description": "Streamlined zero tolerance implementation",
+    "Email": "raquel_koss@schusterschinner.us",
+    "FullName": "Emil Stracke",
+    "DirectPhone": "(350)466-7363 x368",
+    "FormalName": "Jast, Feil and Ryan",
+    "CountryId": 827,
+    "ContactId": 207,
+    "ContactName": "O'Conner-Beer",
+    "Retired": 298,
+    "Rank": 564,
+    "ActiveInterests": 365,
     "ContactDepartment": "",
-    "ContactCountryId": 488,
-    "ContactOrgNr": "1502360",
-    "FaxPhone": "1-479-406-6854 x20980",
-    "MobilePhone": "1-583-832-6597",
-    "ContactPhone": "(035)017-0705 x92106",
-    "AssociateName": "Langworth-Sauer",
-    "AssociateId": 383,
+    "ContactCountryId": 440,
+    "ContactOrgNr": "763574",
+    "FaxPhone": "971-762-1668",
+    "MobilePhone": "(926)136-6265",
+    "ContactPhone": "689.301.4739 x2753",
+    "AssociateName": "Collins, Raynor and Gorczany",
+    "AssociateId": 130,
     "UsePersonAddress": false,
-    "ContactFax": "voluptas",
-    "Kanafname": "nihil",
-    "Kanalname": "voluptatem",
-    "Post1": "dolorum",
+    "ContactFax": "ad",
+    "Kanafname": "saepe",
+    "Kanalname": "aliquid",
+    "Post1": "quae",
     "Post2": "quo",
-    "Post3": "minus",
-    "EmailName": "vicenta_willms@nienow.co.uk",
-    "ContactFullName": "Alf Stroman I",
-    "ActiveErpLinks": 103,
-    "TicketPriorityId": 666,
-    "SupportLanguageId": 628,
-    "SupportAssociateId": 809,
+    "Post3": "qui",
+    "EmailName": "hillary@jacobson.us",
+    "ContactFullName": "Kirk Jacobs",
+    "ActiveErpLinks": 877,
+    "TicketPriorityId": 456,
+    "SupportLanguageId": 967,
+    "SupportAssociateId": 705,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 876
       }
     }
   }

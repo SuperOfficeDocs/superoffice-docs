@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Mar 2006 12:19:53 G3T
+Last-Modified: Mon, 17 Oct 2005 11:44:41 G10T
 
 {
-  "ForeignAppId": 811,
-  "Name": "Harber, Kuvalis and Purdy",
-  "CreatedDate": "2001-05-19T12:19:53.5867469+02:00",
-  "UpdatedDate": "2006-03-19T12:19:53.5867469+01:00",
+  "ForeignAppId": 459,
+  "Name": "Balistreri, Feeney and Aufderhar",
+  "CreatedDate": "2013-06-16T11:44:41.9921474+02:00",
+  "UpdatedDate": "2005-10-17T11:44:41.9921474+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 590,
-      "Name": "Denesik-Paucek",
-      "CreatedDate": "2001-12-17T12:19:53.5867469+01:00",
-      "UpdatedDate": "2007-08-06T12:19:53.5867469+02:00",
-      "AssociateFullName": "Cali Spencer",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "atque",
-      "DeviceIdentifier": "magni",
-      "ForeignAppId": 813,
+      "ForeignDeviceId": 117,
+      "Name": "Ebert Inc and Sons",
+      "CreatedDate": "1998-09-14T11:44:41.9921474+02:00",
+      "UpdatedDate": "1997-12-22T11:44:41.9921474+01:00",
+      "AssociateFullName": "Misael Trantow",
+      "CreatedBy": "dolorum",
+      "UpdatedBy": "maiores",
+      "DeviceIdentifier": "non",
+      "ForeignAppId": 865,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 330
+          "FieldLength": 422
         }
       }
     }
@@ -123,12 +123,12 @@ Last-Modified: Sun, 19 Mar 2006 12:19:53 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldLength": 564
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "exercitationem",
-  "ProviderName": "Turner, Hessel and Jewess",
-  "StorageKey": "explicabo",
-  "Context": "molestias"
+  "StorageType": "qui",
+  "ProviderName": "Lemke Inc and Sons",
+  "StorageKey": "rerum",
+  "Context": "occaecati"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Sipes Inc and Sons",
-  "Description": "Balanced dedicated open system",
-  "Rank": 538,
+  "Name": "Leannon, Hamill and West",
+  "Description": "Team-oriented 6th generation encoding",
+  "Rank": 234,
   "Restrictions": [
     {
-      "Name": "Fisher, Krajcik and Price",
-      "Operator": "ipsam",
+      "Name": "Hintz-Koch",
+      "Operator": "voluptatem",
       "Values": [
-        "quo",
-        "adipisci"
+        "saepe",
+        "consequuntur"
       ],
       "DisplayValues": [
-        "sed",
-        "repellat"
+        "dolores",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 313,
+      "InterParenthesis": 171,
       "InterOperator": "And",
-      "UniqueHash": 799
+      "UniqueHash": 783
     }
   ]
 }

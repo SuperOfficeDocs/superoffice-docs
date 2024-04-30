@@ -26,7 +26,7 @@ Gets a ResourceEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=180
+POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=959
 POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 839,
-  "Name": "Bins, Bashirian and Kuhic",
-  "Rank": 963,
-  "Tooltip": "qui",
+  "ResourceId": 220,
+  "Name": "Waelchi-Stroman",
+  "Rank": 297,
+  "Tooltip": "facere",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "molestiae",
+  "LocationAddress": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 608
     }
   }
 }

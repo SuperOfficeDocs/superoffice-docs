@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 33,
-  "DefaultValue": "rerum",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "minus",
+  "ErpFieldId": 417,
+  "DefaultValue": "consequatur",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "est",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "qui",
+  "ErpFieldKey": "et",
   "FieldType": "Checkbox",
-  "ListName": "Hilpert Group",
+  "ListName": "Russel, Lesch and Roberts",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

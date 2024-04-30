@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 489,
-  "Currency": "provident"
+  "QuoteConnectionId": 975,
+  "Currency": "est"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 95,
-    "ERPPriceListKey": "illum",
-    "QuoteConnectionId": 930,
-    "Name": "Kozey-Tremblay",
-    "Description": "Centralized responsive workforce",
-    "Currency": "rerum",
-    "CurrencyName": "Renner, Skiles and Pollich",
-    "ValidFrom": "2012-10-30T12:19:46.1014395+01:00",
-    "ValidTo": "2012-02-16T12:19:46.1014395+01:00",
+    "PriceListId": 282,
+    "ERPPriceListKey": "reprehenderit",
+    "QuoteConnectionId": 345,
+    "Name": "Parker Group",
+    "Description": "Focused regional info-mediaries",
+    "Currency": "sed",
+    "CurrencyName": "Weissnat, Lueilwitz and Howell",
+    "ValidFrom": "2010-09-04T11:44:34.2907996+02:00",
+    "ValidTo": "2016-06-25T11:44:34.2907996+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldType": "System.String",
+        "FieldLength": 872
       }
     }
   }

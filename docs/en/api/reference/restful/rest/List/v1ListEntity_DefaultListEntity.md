@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
-  "Name": "Batz, Nolan and Schneider",
-  "Tooltip": "magni",
-  "Deleted": false,
-  "Rank": 577,
+  "Id": 617,
+  "Name": "Bogan-Legros",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "Rank": 731,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "animi",
+  "ListType": "exercitationem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldLength": 727
     }
   }
 }

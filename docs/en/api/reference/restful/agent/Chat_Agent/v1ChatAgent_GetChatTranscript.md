@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Chat/GetChatTranscript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 932,
-  "Html": true
+  "ChatSessionId": 607,
+  "Html": false
 }
 ```
 

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Terry, Hermann and Glover",
-  "DeviceName": "Harvey LLC",
-  "KeyName": "Lakin, Nicolas and Legros",
-  "KeyValue": "magnam",
-  "TableName": "Gerhold-Kuhn"
+  "ApplicationName": "Nienow, Huel and Pacocha",
+  "DeviceName": "Hermann Group",
+  "KeyName": "Fay Inc and Sons",
+  "KeyValue": "perferendis",
+  "TableName": "Hermiston, Labadie and Heaney"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "et",
-  "RecordId": 33,
-  "CreatedDate": "1998-09-24T12:19:45.4297292+02:00",
-  "UpdatedDate": "2018-12-16T12:19:45.4297292+01:00",
-  "UpdatedBy": "labore",
-  "CreatedBy": "neque",
-  "TableName": "McClure Group",
+  "Key": "blanditiis",
+  "Value": "eum",
+  "RecordId": 70,
+  "CreatedDate": "2008-03-18T11:44:33.7753083+01:00",
+  "UpdatedDate": "2018-11-30T11:44:33.7753083+01:00",
+  "UpdatedBy": "nulla",
+  "CreatedBy": "in",
+  "TableName": "Goodwin, Volkman and Torphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 318
     }
   }
 }

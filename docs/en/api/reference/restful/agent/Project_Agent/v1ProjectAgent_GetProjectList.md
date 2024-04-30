@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 250,
-    "Name": "Gutmann, Buckridge and Schowalter",
-    "Description": "Reactive 6th generation hierarchy",
+    "ProjectId": 358,
+    "Name": "Howe-Koelpin",
+    "Description": "Intuitive holistic task-force",
     "URL": "http://www.example.com/",
-    "Type": "magni",
-    "AssociateId": 887,
-    "AssociateFullName": "Viva Corkery",
-    "TypeId": 165,
-    "Updated": "2023-07-15T12:19:46.0233436+02:00",
-    "StatusId": 501,
-    "Status": "libero",
-    "TextId": 160,
-    "PublishTo": "2013-03-23T12:19:46.0233436+01:00",
-    "PublishFrom": "2017-09-26T12:19:46.0233436+02:00",
+    "Type": "assumenda",
+    "AssociateId": 66,
+    "AssociateFullName": "Mervin Gusikowski",
+    "TypeId": 759,
+    "Updated": "2005-01-18T11:44:34.2126949+01:00",
+    "StatusId": 96,
+    "Status": "provident",
+    "TextId": 791,
+    "PublishTo": "2010-03-28T11:44:34.2126949+02:00",
+    "PublishFrom": "2023-07-15T11:44:34.2126949+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1051238",
-    "ActiveErpLinks": 128,
+    "ProjectNumber": "1727254",
+    "ActiveErpLinks": 482,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldLength": 565
       }
     }
   }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 532,
-  "Name": "Greenfelder-Rodriguez",
-  "Tooltip": "id",
+  "Id": 775,
+  "Name": "Schneider, Dooley and Kassulke",
+  "Tooltip": "tempora",
   "Deleted": true,
-  "Rank": 108,
+  "Rank": 799,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Dickens Inc and Sons",
-  "Tooltip": "architecto",
+  "Id": 416,
+  "Name": "Konopelski-Rohan",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 160,
+  "Rank": 545,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 556
     }
   }
 }

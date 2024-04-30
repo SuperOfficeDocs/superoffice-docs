@@ -1293,7 +1293,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelection?$select=person/personExtra/x_person_request_relation,contact/hasInfoText,contact/contactPhone/formattedNumber,contact/contactAssociate/role,associate/middleName
+GET /api/v1/archive/SaleSelection?$select=registeredBy,person/personAssociate/contactDepartment,person/personAssociate/contactFullName,person/personAssociate/contactCategory,contact/contactNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

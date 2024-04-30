@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 294
+  "DocumentId": 689
 }
 ```
 
@@ -120,148 +120,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 24,
-      "ContactName": "Morissette, Zieme and Orn",
-      "PersonId": 167,
-      "PersonName": "Terry, Windler and Nienow",
-      "AssociateId": 589,
-      "Address": "tempore",
-      "EmailId": 547,
+      "ContactId": 819,
+      "ContactName": "Jenkins Group",
+      "PersonId": 461,
+      "PersonName": "Kessler Group",
+      "AssociateId": 297,
+      "Address": "placeat",
+      "EmailId": 388,
       "DuplicatePersonIds": [
-        828,
-        437
+        433,
+        612
       ],
-      "Name": "Stark, Abernathy and Cartwright",
+      "Name": "Lueilwitz-Zieme",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 7
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 882,
-      "ContactName": "Block, Farrell and Hermiston",
-      "PersonId": 748,
-      "PersonName": "Von Inc and Sons",
-      "AssociateId": 492,
-      "Address": "dicta",
-      "EmailId": 814,
+      "ContactId": 445,
+      "ContactName": "Christiansen-Green",
+      "PersonId": 329,
+      "PersonName": "Powlowski Group",
+      "AssociateId": 83,
+      "Address": "veritatis",
+      "EmailId": 543,
       "DuplicatePersonIds": [
-        692,
-        72
+        213,
+        505
       ],
-      "Name": "Buckridge Group",
+      "Name": "Little Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 593
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 940,
-      "ContactName": "Torp-Pollich",
-      "PersonId": 998,
-      "PersonName": "Harber, Hyatt and Herman",
-      "AssociateId": 69,
-      "Address": "eius",
-      "EmailId": 693,
+      "ContactId": 416,
+      "ContactName": "Smith-Hirthe",
+      "PersonId": 638,
+      "PersonName": "Konopelski LLC",
+      "AssociateId": 138,
+      "Address": "laborum",
+      "EmailId": 975,
       "DuplicatePersonIds": [
-        760,
-        219
+        396,
+        475
       ],
-      "Name": "Cummings LLC",
+      "Name": "Kunze, Jakubowski and Stroman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldLength": 209
         }
       }
     }
   ],
-  "Subject": "odit",
-  "HTMLBody": "et",
+  "Subject": "aut",
+  "HTMLBody": "quibusdam",
   "From": null,
-  "Sent": "2013-12-15T12:19:45.2578956+01:00",
-  "Size": 727,
+  "Sent": "1998-12-29T11:44:33.6034713+01:00",
+  "Size": 780,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vel",
-  "PlainBody": "vitae",
+  "MessageID": "eius",
+  "PlainBody": "nihil",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 35,
+  "ServerId": 754,
   "Attachments": [
     {
-      "Description": "Persevering maximized data-warehouse",
-      "Filename": "sapiente",
-      "Size": 501,
-      "Type": "vero",
-      "Encoding": "maiores",
-      "Id": "et",
-      "Disposition": "molestiae",
-      "IsSafeFileExtension": false,
+      "Description": "Managed national hierarchy",
+      "Filename": "ut",
+      "Size": 87,
+      "Type": "non",
+      "Encoding": "quae",
+      "Id": "inventore",
+      "Disposition": "voluptatem",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldType": "System.String",
+          "FieldLength": 880
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Parisian LLC",
+      "Name": "Moen, Ullrich and McKenzie",
       "Values": [
-        "accusantium",
-        "saepe"
+        "quo",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     },
     {
-      "Name": "Parisian LLC",
+      "Name": "Moen, Ullrich and McKenzie",
       "Values": [
-        "accusantium",
-        "saepe"
+        "quo",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     }
   ],
-  "FolderName": "Crooks-Cole",
-  "EmailItemId": 406,
-  "AccountId": 182,
-  "ReceivedAt": "2003-09-17T12:19:45.2578956+02:00",
+  "FolderName": "Streich-Howe",
+  "EmailItemId": 979,
+  "AccountId": 392,
+  "ReceivedAt": "1997-03-17T11:44:33.6034713+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-12-01T12:19:45.2578956+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2009-02-15T11:44:33.6034713+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldLength": 807
     }
   }
 }

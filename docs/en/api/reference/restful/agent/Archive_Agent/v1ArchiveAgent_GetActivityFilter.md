@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2004-10-25T12:19:44.4611915+02:00",
-  "ToDate": "2001-02-15T12:19:44.4611915+01:00",
+  "FromDate": "2019-07-23T11:44:32.7599049+02:00",
+  "ToDate": "2001-06-16T11:44:32.7599049+02:00",
   "AssociateList": [
     {
-      "Id": 189,
-      "Name": "Hansen, Christiansen and Maggio",
-      "ToolTip": "Dolores rem eos architecto.",
-      "Deleted": true,
-      "Rank": 751,
-      "Type": "dolores",
-      "ColorBlock": 887,
-      "IconHint": "enim",
+      "Id": 528,
+      "Name": "Medhurst-Medhurst",
+      "ToolTip": "Error perspiciatis quasi et cupiditate.",
+      "Deleted": false,
+      "Rank": 85,
+      "Type": "quam",
+      "ColorBlock": 773,
+      "IconHint": "quis",
       "Selected": true,
-      "LastChanged": "2000-04-20T12:19:44.4611915+02:00",
+      "LastChanged": "2011-12-09T11:44:32.7599049+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "similique",
-      "StyleHint": "et",
+      "ExtraInfo": "dolores",
+      "StyleHint": "officia",
       "Hidden": false,
-      "FullName": "Dennis Zieme",
+      "FullName": "Ayden Conn Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldLength": 198
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 522,
-      "Name": "Little-Howe",
-      "ToolTip": "Dolore rerum voluptatem qui velit et dignissimos pariatur.",
-      "Deleted": true,
-      "Rank": 562,
-      "Type": "ea",
-      "ColorBlock": 959,
-      "IconHint": "quam",
+      "Id": 190,
+      "Name": "Beahan Group",
+      "ToolTip": "Unde incidunt atque sit cupiditate.",
+      "Deleted": false,
+      "Rank": 685,
+      "Type": "impedit",
+      "ColorBlock": 871,
+      "IconHint": "eaque",
       "Selected": false,
-      "LastChanged": "2022-02-02T12:19:44.4611915+01:00",
+      "LastChanged": "2019-10-23T11:44:32.7599049+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "omnis",
+      "ExtraInfo": "ea",
+      "StyleHint": "iusto",
       "Hidden": true,
-      "FullName": "Keenan Mraz IV",
+      "FullName": "Eliane Rutherford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldType": "System.Int32",
+          "FieldLength": 248
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 738,
-      "Name": "Hammes LLC",
-      "ToolTip": "Autem qui aliquam reiciendis.",
+      "Id": 333,
+      "Name": "Mayert LLC",
+      "ToolTip": "Vero dolor enim non sequi magni.",
       "Deleted": false,
-      "Rank": 289,
-      "Type": "optio",
+      "Rank": 133,
+      "Type": "ab",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "molestias",
-      "ColorBlock": 288,
-      "ExtraInfo": "expedita",
-      "StyleHint": "ratione",
-      "FullName": "Vena Runte",
+      "IconHint": "iste",
+      "ColorBlock": 459,
+      "ExtraInfo": "quasi",
+      "StyleHint": "distinctio",
+      "FullName": "Ms. Izaiah Veda Ritchie III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 527
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   }
 }

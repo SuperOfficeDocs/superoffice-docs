@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 360,
+  "QuoteAlternativeId": 858,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 989,
-  "ERPQuoteLineKey": "nisi",
-  "QuoteAlternativeId": 509,
-  "ERPProductKey": "quis",
+  "QuoteLineId": 107,
+  "ERPQuoteLineKey": "quasi",
+  "QuoteAlternativeId": 285,
+  "ERPProductKey": "consequatur",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1776.9779999999998,
-  "DeliveredQuantity": 23975.1,
-  "Rank": 455,
-  "Name": "Balistreri, Ferry and Schultz",
-  "Description": "Total global Graphic Interface",
-  "Code": "fuga",
-  "QuantityUnit": "quo",
-  "PriceUnit": "porro",
-  "ItemNumber": "463277",
+  "Quantity": 19186.347999999998,
+  "DeliveredQuantity": 24376.252,
+  "Rank": 86,
+  "Name": "Ratke Inc and Sons",
+  "Description": "Multi-channelled explicit customer loyalty",
+  "Code": "debitis",
+  "QuantityUnit": "aperiam",
+  "PriceUnit": "qui",
+  "ItemNumber": "916347",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "ducimus",
-  "Supplier": "nulla",
-  "SupplierCode": "dolores",
-  "Thumbnail": "voluptate",
-  "VATInfo": "provident",
-  "VAT": 4418.94,
-  "UnitCost": 30058.194,
-  "UnitMinimumPrice": 13112.655999999999,
-  "UnitListPrice": 14942.912,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "eum",
+  "Supplier": "porro",
+  "SupplierCode": "sit",
+  "Thumbnail": "reprehenderit",
+  "VATInfo": "sit",
+  "VAT": 18167.798,
+  "UnitCost": 28726.244,
+  "UnitMinimumPrice": 10978.402,
+  "UnitListPrice": 12601.814,
   "ExtraInfo": [
     {
-      "Name": "Mohr, Stracke and Ward",
-      "Value": "similique",
+      "Name": "Shanahan, Kerluke and Rutherford",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 234
+          "FieldType": "System.Int32",
+          "FieldLength": 250
         }
       }
     },
     {
-      "Name": "Mohr, Stracke and Ward",
-      "Value": "similique",
+      "Name": "Shanahan, Kerluke and Rutherford",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 234
+          "FieldType": "System.Int32",
+          "FieldLength": 250
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "maiores",
-  "SubscriptionQuantity": 17854.398,
-  "SubscriptionStart": "1998-03-07T12:19:46.117062+01:00",
-  "ERPDiscountPercent": 2886.4139999999998,
-  "ERPDiscountAmount": 6239.794,
-  "DiscountPercent": 19769.272,
-  "DiscountAmount": 11746.232,
+  "RawExtraInfo": "omnis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "nisi",
+  "SubscriptionQuantity": 26344.404,
+  "SubscriptionStart": "2015-07-12T11:44:34.3063794+02:00",
+  "ERPDiscountPercent": 25620.45,
+  "ERPDiscountAmount": 9671.524,
+  "DiscountPercent": 22668.221999999998,
+  "DiscountAmount": 21690.414,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17616.214,
-  "EarningAmount": 3506.946,
-  "SubTotal": 6550.0599999999995,
-  "TotalPrice": 14554.296,
-  "Rights": "omnis",
-  "Rule": "mollitia",
-  "ExtraField1": "consequuntur",
-  "ExtraField2": "ullam",
-  "ExtraField3": "quia",
-  "ExtraField4": "est",
-  "ExtraField5": "et",
+  "EarningPercent": 24971.712,
+  "EarningAmount": 30004.915999999997,
+  "SubTotal": 30506.356,
+  "TotalPrice": 29563.022,
+  "Rights": "in",
+  "Rule": "quibusdam",
+  "ExtraField1": "labore",
+  "ExtraField2": "fugiat",
+  "ExtraField3": "rerum",
+  "ExtraField4": "inventore",
+  "ExtraField5": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

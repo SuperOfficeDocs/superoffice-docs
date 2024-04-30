@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 940
+  "ShipmentAddrId": 530
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2002-07-21T12:19:45.585943+02:00",
+  "SendingTime": "2016-09-27T11:44:33.9315193+02:00",
   "Status": "Blocked",
-  "ShipmentId": 402,
-  "ShipmentDescription": "Devolved dedicated hub",
-  "FromAddress": "rerum",
-  "Configuration": 365,
-  "ContactId": 620,
-  "ContactName": "Sauer, Heidenreich and Rau",
-  "PersonId": 764,
-  "PersonFullName": "Adriana Rogahn",
-  "ShipmentType": "neque",
-  "MessageId": 516,
-  "MessageSubject": "impedit",
-  "DocumentMessageId": 637,
-  "Opened": "2000-03-19T12:19:45.585943+01:00",
-  "LinkClicks": 359,
+  "ShipmentId": 628,
+  "ShipmentDescription": "Persevering foreground website",
+  "FromAddress": "necessitatibus",
+  "Configuration": 547,
+  "ContactId": 76,
+  "ContactName": "Gislason Inc and Sons",
+  "PersonId": 596,
+  "PersonFullName": "Coralie Rodriguez",
+  "ShipmentType": "magnam",
+  "MessageId": 696,
+  "MessageSubject": "esse",
+  "DocumentMessageId": 212,
+  "Opened": "2003-09-26T11:44:33.9315193+02:00",
+  "LinkClicks": 186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldLength": 499
     }
   }
 }

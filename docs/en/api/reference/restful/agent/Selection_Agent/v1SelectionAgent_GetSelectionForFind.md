@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Wiegand, Murazik and Muller",
-  "TypicalSearchId": 365
+  "EntityName": "Cummerata, Kling and Haley",
+  "TypicalSearchId": 705
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Eichmann Inc and Sons",
-  "SelectionId": 751,
+  "ProviderName": "Luettgen LLC",
+  "SelectionId": 944,
   "CanSaveAsSelection": true,
-  "MainHeading": "aut",
-  "FilterScreenHeading": "saepe",
-  "SelectionEntityHeading": "autem",
+  "MainHeading": "maiores",
+  "FilterScreenHeading": "sit",
+  "SelectionEntityHeading": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

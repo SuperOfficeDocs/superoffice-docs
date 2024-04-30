@@ -91,9 +91,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 10,
-  "ConnectionId": 385,
-  "FirstAlternativeName": "Treutel, Schmidt and Tremblay"
+  "SaleId": 226,
+  "ConnectionId": 564,
+  "FirstAlternativeName": "Buckridge Group"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 161,
-  "SaleId": 891,
-  "QuoteConnectionId": 110,
-  "ERPQuoteKey": "asperiores",
-  "ERPOrderKey": "placeat",
-  "ActiveQuoteVersionId": 616,
-  "AcceptedQuoteAlternativeId": 754,
-  "UseValuesFromQuote": 866,
-  "DocumentId": 63,
-  "PoNumber": "1796839",
-  "OrderComment": "numquam",
-  "PreferredEmailCulture": "leon.pfeffer@medhurst.uk",
+  "QuoteId": 669,
+  "SaleId": 335,
+  "QuoteConnectionId": 986,
+  "ERPQuoteKey": "earum",
+  "ERPOrderKey": "sint",
+  "ActiveQuoteVersionId": 702,
+  "AcceptedQuoteAlternativeId": 729,
+  "UseValuesFromQuote": 326,
+  "DocumentId": 132,
+  "PoNumber": "1155189",
+  "OrderComment": "est",
+  "PreferredEmailCulture": "kale.ortiz@armstrong.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 407,
-      "ERPQuoteVersionKey": "est",
-      "QuoteId": 112,
-      "Description": "Seamless local local area network",
-      "Number": "706938",
+      "QuoteVersionId": 371,
+      "ERPQuoteVersionKey": "ducimus",
+      "QuoteId": 972,
+      "Description": "Robust explicit pricing structure",
+      "Number": "1292719",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 427,
-      "SentDate": "2001-10-20T12:19:46.1014395+02:00",
-      "FollowupId": 101,
-      "ExpirationDate": "2023-02-17T12:19:46.1014395+01:00",
-      "DeliveryCountryId": 112,
+      "LikelyQuoteAlternativeId": 743,
+      "SentDate": "2010-04-11T11:44:34.2907996+02:00",
+      "FollowupId": 760,
+      "ExpirationDate": "2006-07-20T11:44:34.2907996+02:00",
+      "DeliveryCountryId": 942,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 269,
+      "InvoiceCountryId": 7,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "eveniet",
-      "ERPPaymentTypeKey": "adipisci",
-      "ERPDeliveryTermsKey": "sed",
-      "ERPDeliveryTypeKey": "soluta",
-      "Rank": 635,
-      "ApprovedBy": 773,
-      "ApprovedText": "qui",
-      "ApprovedRegisteredBy": 750,
-      "ApprovedRegisteredDate": "1999-09-06T12:19:46.1014395+02:00",
-      "ExtraField1": "nihil",
-      "ExtraField2": "sed",
-      "ExtraField3": "dolorum",
-      "ExtraField4": "commodi",
-      "ExtraField5": "qui",
-      "LastRecalculated": "2022-02-19T12:19:46.1014395+01:00",
-      "Updated": "1999-12-18T12:19:46.1014395+01:00",
-      "UpdatedAssociateId": 529,
-      "Registered": "2020-06-11T12:19:46.1014395+02:00",
-      "RegisteredAssociateId": 957,
-      "RequestAssociateId": 510,
-      "RequestComment": "eaque",
+      "ERPPaymentTermsKey": "esse",
+      "ERPPaymentTypeKey": "placeat",
+      "ERPDeliveryTermsKey": "dolores",
+      "ERPDeliveryTypeKey": "sed",
+      "Rank": 273,
+      "ApprovedBy": 990,
+      "ApprovedText": "sapiente",
+      "ApprovedRegisteredBy": 927,
+      "ApprovedRegisteredDate": "2000-10-15T11:44:34.2907996+02:00",
+      "ExtraField1": "beatae",
+      "ExtraField2": "libero",
+      "ExtraField3": "consequatur",
+      "ExtraField4": "consequatur",
+      "ExtraField5": "dolor",
+      "LastRecalculated": "2001-08-07T11:44:34.2907996+02:00",
+      "Updated": "2020-12-18T11:44:34.2907996+01:00",
+      "UpdatedAssociateId": 253,
+      "Registered": "1998-05-19T11:44:34.2907996+02:00",
+      "RegisteredAssociateId": 126,
+      "RequestAssociateId": 292,
+      "RequestComment": "sint",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldType": "System.String",
+          "FieldLength": 836
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 525
     }
   }
 }

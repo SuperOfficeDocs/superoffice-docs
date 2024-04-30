@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mante-Walter",
-    "DisplayName": "Carter LLC",
-    "DisplayTooltip": "qui",
-    "IsActive": true,
+    "Name": "Gerhold-Johnston",
+    "DisplayName": "Zieme Group",
+    "DisplayTooltip": "rerum",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   },
   {
-    "Name": "Mante-Walter",
-    "DisplayName": "Carter LLC",
-    "DisplayTooltip": "qui",
-    "IsActive": true,
+    "Name": "Gerhold-Johnston",
+    "DisplayName": "Zieme Group",
+    "DisplayTooltip": "rerum",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

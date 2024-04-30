@@ -97,19 +97,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 947,
-  "BlobSize": 410,
-  "Description": "Right-sized interactive collaboration",
-  "ExtraInfo": "ullam",
+  "BlobId": 804,
+  "BlobSize": 712,
+  "Description": "Re-engineered content-based array",
+  "ExtraInfo": "deserunt",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "perspiciatis",
-  "OriginalSize": 255,
-  "CreatedDate": "1998-07-22T12:19:53.1805817+02:00",
-  "UpdatedDate": "2000-05-02T12:19:53.1805817+02:00",
+  "IsZipped": false,
+  "MimeType": "sed",
+  "OriginalSize": 22,
+  "CreatedDate": "2021-10-22T11:44:41.7265353+02:00",
+  "UpdatedDate": "2006-07-14T11:44:41.7265353+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "distinctio"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 660,
-  "BlobSize": 48,
-  "Description": "Quality-focused 4th generation Graphic Interface",
-  "ExtraInfo": "eius",
+  "BlobId": 662,
+  "BlobSize": 160,
+  "Description": "Focused zero administration monitoring",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "assumenda",
-  "OriginalSize": 168,
-  "CreatedDate": "2003-01-21T12:19:53.1805817+01:00",
-  "UpdatedDate": "2003-07-11T12:19:53.1805817+02:00",
+  "IsZipped": false,
+  "MimeType": "id",
+  "OriginalSize": 776,
+  "CreatedDate": "1998-01-27T11:44:41.7421561+01:00",
+  "UpdatedDate": "1996-12-24T11:44:41.7421561+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ea",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 422
     }
   }
 }

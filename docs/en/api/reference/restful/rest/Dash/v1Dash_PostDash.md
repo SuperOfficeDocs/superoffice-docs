@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 426,
-  "UniqueId": "perferendis",
-  "Name": "Lindgren, Konopelski and Maggio",
-  "Description": "Cloned holistic customer loyalty",
-  "AssociateId": 276,
-  "Columns": 417,
+  "DashboardId": 879,
+  "UniqueId": "vel",
+  "Name": "Farrell-Parker",
+  "Description": "Virtual empowering projection",
+  "AssociateId": 536,
+  "Columns": 596,
   "Theme": null,
-  "VisibleForAll": 840,
+  "VisibleForAll": 335,
   "VisibleForAssociates": [
-    109,
-    631
+    178,
+    76
   ],
   "VisibleForGroups": [
-    993,
-    93
+    158,
+    925
   ],
-  "PinForAll": 321,
+  "PinForAll": 121,
   "PinForAssociates": [
-    724,
-    648
+    400,
+    362
   ],
   "PinForGroups": [
-    317,
-    82
+    728,
+    40
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 225,
-  "UniqueId": "debitis",
-  "Name": "Windler-Hamill",
-  "Description": "Total non-volatile knowledge base",
-  "AssociateId": 637,
-  "Columns": 403,
+  "DashboardId": 89,
+  "UniqueId": "esse",
+  "Name": "Stanton Group",
+  "Description": "Compatible dynamic solution",
+  "AssociateId": 632,
+  "Columns": 385,
   "Theme": null,
-  "VisibleForAll": 359,
+  "VisibleForAll": 573,
   "VisibleForAssociates": [
-    911,
-    910
+    595,
+    411
   ],
   "VisibleForGroups": [
-    330,
-    72
+    994,
+    309
   ],
-  "PinForAll": 585,
+  "PinForAll": 692,
   "PinForAssociates": [
-    616,
-    112
+    145,
+    896
   ],
   "PinForGroups": [
-    755,
-    117
+    557,
+    523
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldType": "System.String",
+      "FieldLength": 848
     }
   },
   "_Links": {

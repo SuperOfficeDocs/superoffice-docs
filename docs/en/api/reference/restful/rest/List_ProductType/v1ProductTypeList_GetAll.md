@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Willms, Conn and Ondricka",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "UdListDefinitionId": 725,
-    "Rank": 796,
+    "Id": 425,
+    "Name": "Ullrich, Terry and Metz",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 935,
+    "Rank": 38,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldType": "System.String",
+        "FieldLength": 992
       }
     }
   }

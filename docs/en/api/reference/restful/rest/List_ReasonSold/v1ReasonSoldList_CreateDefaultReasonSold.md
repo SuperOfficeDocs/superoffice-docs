@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Stamm-Shields",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "UdListDefinitionId": 906,
-  "Rank": 984,
+  "Id": 714,
+  "Name": "Bashirian Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 130,
+  "Rank": 820,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

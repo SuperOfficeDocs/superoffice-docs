@@ -15628,6 +15628,8 @@
       href: Services88/Ticket/GetAttachmentInfo.md
     - name: GetAttachmentInfoNonInline
       href: Services88/Ticket/GetAttachmentInfoNonInline.md
+    - name: GetAttachmentPreview
+      href: Services88/Ticket/GetAttachmentPreview.md
     - name: GetAttachmentStream
       href: Services88/Ticket/GetAttachmentStream.md
     - name: GetDefaultMessageContent
@@ -15640,6 +15642,8 @@
       href: Services88/Ticket/GetNextInQueue.md
     - name: GetPreviewAttachmentStream
       href: Services88/Ticket/GetPreviewAttachmentStream.md
+    - name: GetRfcAttachmentStream
+      href: Services88/Ticket/GetRfcAttachmentStream.md
     - name: GetTicket
       href: Services88/Ticket/GetTicket.md
     - name: GetTicketAttachments
@@ -15678,6 +15682,8 @@
       href: Services88/Ticket/SanitizeMailContent.md
     - name: SanitizeMailContents
       href: Services88/Ticket/SanitizeMailContents.md
+    - name: SanitizeMailContentWithOptions
+      href: Services88/Ticket/SanitizeMailContentWithOptions.md
     - name: SaveAttachmentEntity
       href: Services88/Ticket/SaveAttachmentEntity.md
     - name: SaveTicketEntity

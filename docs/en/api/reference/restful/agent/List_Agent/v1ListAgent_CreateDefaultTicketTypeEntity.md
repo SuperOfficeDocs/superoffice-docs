@@ -59,6 +59,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -68,7 +72,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,30 +82,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 329,
-  "Name": "Harris-Sipes",
-  "Rank": 972,
-  "Tooltip": "atque",
-  "Icon": "consectetur",
-  "DefaultTicketStatus": 67,
+  "TicketTypeId": 564,
+  "Name": "Rohan-Renner",
+  "Rank": 285,
+  "Tooltip": "et",
+  "Icon": "debitis",
+  "DefaultTicketStatus": 510,
   "TicketStatuses": [
-    530,
-    733
+    10,
+    513
   ],
-  "DefaultTicketPriority": 326,
+  "DefaultTicketPriority": 452,
   "TicketPriorities": [
-    350,
-    683
+    202,
+    896
   ],
-  "ReplyTemplate": 582,
+  "ReplyTemplate": 266,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldType": "System.Int32",
+      "FieldLength": 660
     }
   }
 }

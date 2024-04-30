@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 588
+  "ReplyTemplateId": 802
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gerlach-Metz",
-  "Description": "Ameliorated mobile artificial intelligence",
-  "OwnedByFullName": "Mrs. Merle West",
-  "Updated": "2001-10-07T12:19:45.0235865+02:00",
-  "Body": "et",
+  "Name": "Marquardt-Feeney",
+  "Description": "Versatile interactive monitoring",
+  "OwnedByFullName": "Anastasia Emard",
+  "Updated": "2009-09-05T11:44:33.3535225+02:00",
+  "Body": "quaerat",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldType": "System.Int32",
+      "FieldLength": 889
     }
   }
 }

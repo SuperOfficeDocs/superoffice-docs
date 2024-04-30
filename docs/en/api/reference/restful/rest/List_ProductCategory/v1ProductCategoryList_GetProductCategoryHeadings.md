@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 431,
-    "Name": "Beer Inc and Sons",
-    "Tooltip": "impedit",
+    "HeadingId": 864,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "quidem",
     "Deleted": true,
-    "Rank": 359,
-    "UdListDefinitionId": 955,
+    "Rank": 904,
+    "UdListDefinitionId": 91,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 975
       }
     }
   }

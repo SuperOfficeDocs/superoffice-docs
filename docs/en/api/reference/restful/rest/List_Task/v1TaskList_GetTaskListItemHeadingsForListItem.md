@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Botsford, Reichert and Mayer",
-    "ToolTip": "Enim esse sed asperiores totam consequuntur sint.",
-    "Deleted": false,
-    "Rank": 460,
-    "Type": "nisi",
-    "ColorBlock": 273,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2021-11-05T12:19:54.8833241+01:00",
+    "Id": 974,
+    "Name": "Schoen-Heathcote",
+    "ToolTip": "Provident ad est provident cumque aut nam est.",
+    "Deleted": true,
+    "Rank": 160,
+    "Type": "sit",
+    "ColorBlock": 997,
+    "IconHint": "error",
+    "Selected": false,
+    "LastChanged": "2019-01-06T11:44:43.3824544+01:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Beier, Renner and Erdman",
-        "ToolTip": "Quo magni officia.",
+        "Id": 270,
+        "Name": "Lindgren-Cruickshank",
+        "ToolTip": "Quaerat explicabo omnis illo dicta architecto.",
         "Deleted": false,
-        "Rank": 83,
-        "Type": "perferendis",
-        "ColorBlock": 608,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2015-09-03T12:19:54.8833241+02:00",
+        "Rank": 383,
+        "Type": "cum",
+        "ColorBlock": 777,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "1999-03-11T11:44:43.3824544+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "quasi",
+        "StyleHint": "repudiandae",
         "Hidden": false,
-        "FullName": "Ms. Tianna Marcus Kemmer MD",
+        "FullName": "Miss Kathleen Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 231
+            "FieldLength": 160
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Precious Murray",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Garnett Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldType": "System.Int32",
+        "FieldLength": 795
       }
     }
   }

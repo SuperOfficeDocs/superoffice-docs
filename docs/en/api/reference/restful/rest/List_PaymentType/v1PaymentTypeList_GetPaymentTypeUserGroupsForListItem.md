@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Hamill-McClure",
-    "ToolTip": "Voluptatum ipsa aliquam nihil tempora aut nesciunt.",
-    "Deleted": true,
-    "Rank": 295,
-    "Type": "aut",
-    "ColorBlock": 618,
-    "IconHint": "quasi",
+    "Id": 33,
+    "Name": "Collins-Schowalter",
+    "ToolTip": "Repellendus ut beatae.",
+    "Deleted": false,
+    "Rank": 466,
+    "Type": "est",
+    "ColorBlock": 758,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2021-05-29T12:19:54.6490067+02:00",
+    "LastChanged": "2010-10-19T11:44:43.1325006+02:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Homenick-Stroman",
-        "ToolTip": "Vero et consequatur deleniti sit quis minima quia.",
+        "Id": 4,
+        "Name": "Reichel, Hartmann and Sporer",
+        "ToolTip": "Enim aspernatur at corrupti cupiditate ut.",
         "Deleted": false,
-        "Rank": 704,
-        "Type": "ratione",
-        "ColorBlock": 373,
-        "IconHint": "sed",
+        "Rank": 455,
+        "Type": "dolores",
+        "ColorBlock": 611,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2020-11-08T12:19:54.6490067+01:00",
+        "LastChanged": "2007-06-01T11:44:43.1325006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Enoch O'Hara",
+        "ExtraInfo": "ut",
+        "StyleHint": "consectetur",
+        "Hidden": true,
+        "FullName": "Aileen Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 582
+            "FieldType": "System.Int32",
+            "FieldLength": 625
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Miss Mireya Pierce Bednar II",
+    "ExtraInfo": "quis",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Miss Theresia Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 431
       }
     }
   }

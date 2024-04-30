@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Homenick, Langworth and Kunze",
-    "ToolTip": "Non asperiores qui.",
-    "Deleted": false,
-    "Rank": 185,
-    "Type": "atque",
-    "ColorBlock": 467,
-    "IconHint": "iure",
-    "Selected": true,
-    "LastChanged": "2017-04-10T12:19:54.7739754+02:00",
+    "Id": 774,
+    "Name": "Hessel-Champlin",
+    "ToolTip": "Nostrum ut nihil neque impedit nemo.",
+    "Deleted": true,
+    "Rank": 300,
+    "Type": "aut",
+    "ColorBlock": 565,
+    "IconHint": "voluptatum",
+    "Selected": false,
+    "LastChanged": "2014-11-16T11:44:43.2731075+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Beer, Koelpin and Hintz",
-        "ToolTip": "Temporibus nemo reprehenderit aut odio.",
-        "Deleted": true,
-        "Rank": 385,
-        "Type": "suscipit",
-        "ColorBlock": 41,
-        "IconHint": "autem",
+        "Id": 559,
+        "Name": "Larson-Howe",
+        "ToolTip": "Est consequatur adipisci aliquid dolorum sit repellat.",
+        "Deleted": false,
+        "Rank": 9,
+        "Type": "ipsa",
+        "ColorBlock": 874,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2017-04-26T12:19:54.7739754+02:00",
+        "LastChanged": "2022-09-16T11:44:43.2731075+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "et",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Eva Dach"
+        "FullName": "Dr. Edyth Estevan Dickens"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "est",
+    "ExtraInfo": "tempora",
+    "StyleHint": "quod",
     "Hidden": true,
-    "FullName": "Eriberto Gusikowski"
+    "FullName": "Reynold Hagenes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Walsh-Rutherford",
-    "ToolTip": "Molestias ut esse fugiat repellat et perspiciatis.",
-    "Deleted": true,
-    "Rank": 420,
-    "Type": "qui",
-    "ColorBlock": 128,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2004-03-23T12:19:54.7739754+01:00",
+    "Id": 161,
+    "Name": "Pollich-Schultz",
+    "ToolTip": "Voluptatem qui.",
+    "Deleted": false,
+    "Rank": 623,
+    "Type": "quis",
+    "ColorBlock": 608,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "1999-03-01T11:44:43.2731075+01:00",
     "ChildItems": [
       {
-        "Id": 468,
-        "Name": "Mills, Wilkinson and Vandervort",
-        "ToolTip": "Consequatur quis vitae maxime veritatis.",
-        "Deleted": true,
-        "Rank": 284,
-        "Type": "commodi",
-        "ColorBlock": 539,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2019-04-30T12:19:54.7739754+02:00",
+        "Id": 783,
+        "Name": "Frami-Ebert",
+        "ToolTip": "Doloribus esse modi numquam sed est.",
+        "Deleted": false,
+        "Rank": 425,
+        "Type": "architecto",
+        "ColorBlock": 125,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1998-10-19T11:44:43.2731075+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "unde",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "earum",
         "Hidden": true,
-        "FullName": "Liliane Rolfson",
+        "FullName": "Cara Burdette Baumbach PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 96
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "est",
+    "ExtraInfo": "minima",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Verlie Skiles",
+    "FullName": "Stephanie Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldType": "System.String",
+        "FieldLength": 736
       }
     }
   }

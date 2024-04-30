@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Luettgen Inc and Sons",
-    "ToolTip": "Magni id error tenetur dignissimos quod deserunt.",
-    "Deleted": false,
-    "Rank": 950,
-    "Type": "voluptates",
-    "ColorBlock": 870,
-    "IconHint": "quia",
+    "Id": 866,
+    "Name": "Morissette LLC",
+    "ToolTip": "Soluta sed nobis delectus dolor.",
+    "Deleted": true,
+    "Rank": 649,
+    "Type": "eos",
+    "ColorBlock": 170,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2015-12-09T12:19:54.7427332+01:00",
+    "LastChanged": "2020-04-10T11:44:43.2418644+02:00",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Buckridge-Mitchell",
-        "ToolTip": "Quia similique vel odit.",
-        "Deleted": true,
-        "Rank": 732,
-        "Type": "aut",
-        "ColorBlock": 481,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "1998-08-19T12:19:54.7427332+02:00",
+        "Id": 815,
+        "Name": "Medhurst-Spencer",
+        "ToolTip": "Laboriosam aut voluptatem.",
+        "Deleted": false,
+        "Rank": 311,
+        "Type": "expedita",
+        "ColorBlock": 820,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2007-09-17T11:44:43.2418644+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "sit",
+        "ExtraInfo": "eum",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Mrs. Camden Abshire"
+        "FullName": "Prof. Burnice Okuneva II"
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "facere",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Prof. Ransom Judah Hirthe"
+    "FullName": "Zoie Grant"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Lebsack, Wisozk and Koch",
-    "ToolTip": "Eaque iste reprehenderit debitis.",
+    "Id": 307,
+    "Name": "Blick Group",
+    "ToolTip": "Neque minima doloremque.",
     "Deleted": false,
-    "Rank": 572,
-    "Type": "quaerat",
-    "ColorBlock": 105,
-    "IconHint": "porro",
+    "Rank": 761,
+    "Type": "ut",
+    "ColorBlock": 468,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2019-07-30T12:19:54.7427332+02:00",
+    "LastChanged": "2019-09-05T11:44:43.2418644+02:00",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Wisoky Inc and Sons",
-        "ToolTip": "Voluptatem quidem est in dolor est.",
+        "Id": 549,
+        "Name": "Feil Group",
+        "ToolTip": "Iusto qui.",
         "Deleted": true,
-        "Rank": 476,
-        "Type": "ut",
-        "ColorBlock": 163,
-        "IconHint": "iusto",
+        "Rank": 691,
+        "Type": "vel",
+        "ColorBlock": 110,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "2018-09-28T12:19:54.7427332+02:00",
+        "LastChanged": "2019-09-06T11:44:43.2418644+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "unde",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Judah Janie Hyatt V",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Mrs. Dayne Emil Ritchie IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldLength": 916
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "et",
+    "ExtraInfo": "unde",
+    "StyleHint": "inventore",
     "Hidden": true,
-    "FullName": "Aaliyah Gleichner",
+    "FullName": "Miss Monserrate Carmine Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 697
       }
     }
   }

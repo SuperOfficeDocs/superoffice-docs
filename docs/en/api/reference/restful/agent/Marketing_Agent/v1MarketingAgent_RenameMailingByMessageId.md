@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 653,
-  "Name": "Howell, Stanton and Mraz"
+  "MessageId": 836,
+  "Name": "Rosenbaum Group"
 }
 ```
 

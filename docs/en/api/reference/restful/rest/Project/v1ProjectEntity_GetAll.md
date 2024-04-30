@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=omnis
-GET /api/v1/Project?$top=254
-GET /api/v1/Project?$skip=119
+GET /api/v1/Project?$entities=fuga
+GET /api/v1/Project?$top=437
+GET /api/v1/Project?$skip=988
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=nesciunt
+GET /api/v1/Project?$context=voluptates
 GET /api/v1/Project?$format=JSON
-GET /api/v1/Project?$jsonSafe=False
+GET /api/v1/Project?$jsonSafe=True
 GET /api/v1/Project?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "omnis",
   "value": [
     {
-      "PrimaryKey": 8404,
+      "PrimaryKey": 6441,
       "EntityName": "sale",
-      "saleId": 8404,
-      "contactId": 1652,
-      "name": "Turcotte Group"
+      "saleId": 6441,
+      "contactId": 7024,
+      "name": "Dare-Frami"
     },
     {
-      "PrimaryKey": 5209,
+      "PrimaryKey": 3286,
       "EntityName": "sale",
-      "saleId": 5209,
-      "contactId": 769,
-      "name": "Herzog, Hayes and Fritsch"
+      "saleId": 3286,
+      "contactId": 5452,
+      "name": "Marquardt, Kessler and Gislason"
     }
   ]
 }

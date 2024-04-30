@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Mosciski, Schaefer and Oberbrunner",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 802,
-    "Rank": 85,
+    "Id": 506,
+    "Name": "Bins-Terry",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "UdListDefinitionId": 316,
+    "Rank": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 712
+        "FieldType": "System.Int32",
+        "FieldLength": 639
       }
     }
   }

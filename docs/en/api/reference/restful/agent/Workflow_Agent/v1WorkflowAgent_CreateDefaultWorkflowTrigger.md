@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 947,
-  "WorkflowId": 932,
+  "WorkflowTriggerId": 641,
+  "WorkflowId": 787,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Gulgowski Group",
-      "Description": "Total analyzing alliance",
-      "Rank": 109,
+      "Name": "Fay, VonRueden and Hegmann",
+      "Description": "Assimilated clear-thinking extranet",
+      "Rank": 850,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gulgowski Group",
-      "Description": "Total analyzing alliance",
-      "Rank": 109,
+      "Name": "Fay, VonRueden and Hegmann",
+      "Description": "Assimilated clear-thinking extranet",
+      "Rank": 850,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldLength": 550
     }
   }
 }

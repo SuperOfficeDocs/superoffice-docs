@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Krajcik-Thiel",
-  "Comment": "non",
-  "StakeholderRoleId": 719,
-  "CountryId": 901,
-  "PersonId": 26,
-  "EmailDescription": "cassandre.luettgen@vandervort.name",
-  "EmailId": 188,
-  "EmailAddress": "kristofer@zboncakjohnston.info",
-  "PhoneId": 673,
-  "ContactName": "Kerluke-Windler",
-  "ContactId": 996,
-  "SaleId": 536,
-  "Mrmrs": "velit",
-  "Firstname": "Kavon",
-  "MiddleName": "Schamberger Inc and Sons",
-  "Lastname": "Mayert",
-  "SaleStakeholderId": 231,
-  "Rank": 741,
-  "Phone": "(561)363-4475 x2697"
+  "StakeholderRoleName": "Walsh, Trantow and Howell",
+  "Comment": "odio",
+  "StakeholderRoleId": 930,
+  "CountryId": 732,
+  "PersonId": 960,
+  "EmailDescription": "stacy.keebler@mcglynn.us",
+  "EmailId": 696,
+  "EmailAddress": "edwina@gusikowski.info",
+  "PhoneId": 374,
+  "ContactName": "Lindgren, Fay and Rodriguez",
+  "ContactId": 791,
+  "SaleId": 657,
+  "Mrmrs": "sint",
+  "Firstname": "Haley",
+  "MiddleName": "Lynch LLC",
+  "Lastname": "Abernathy",
+  "SaleStakeholderId": 883,
+  "Rank": 350,
+  "Phone": "1-851-316-9144 x5186"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Smitham LLC",
-  "Comment": "cumque",
-  "StakeholderRoleId": 854,
-  "CountryId": 484,
-  "PersonId": 531,
-  "EmailDescription": "tate@champlin.ca",
-  "EmailId": 974,
-  "EmailAddress": "shanie@bosco.ca",
-  "PhoneId": 741,
-  "ContactName": "Legros Inc and Sons",
-  "ContactId": 542,
-  "SaleId": 522,
-  "Mrmrs": "nostrum",
-  "Firstname": "Ernest",
-  "MiddleName": "Klocko-Turcotte",
-  "Lastname": "Lakin",
-  "SaleStakeholderId": 72,
-  "Rank": 582,
-  "Phone": "065-492-6917 x12017",
+  "StakeholderRoleName": "Rosenbaum-Bahringer",
+  "Comment": "pariatur",
+  "StakeholderRoleId": 305,
+  "CountryId": 950,
+  "PersonId": 628,
+  "EmailDescription": "izaiah.walsh@rippin.biz",
+  "EmailId": 540,
+  "EmailAddress": "marisol_cartwright@mohr.name",
+  "PhoneId": 437,
+  "ContactName": "Goldner Group",
+  "ContactId": 665,
+  "SaleId": 777,
+  "Mrmrs": "et",
+  "Firstname": "Brice",
+  "MiddleName": "Wiza-Fay",
+  "Lastname": "Satterfield",
+  "SaleStakeholderId": 121,
+  "Rank": 397,
+  "Phone": "225.585.5742 x14178",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

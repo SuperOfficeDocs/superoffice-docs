@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bashirian LLC",
-  "HeadingId": 912,
+  "UdListDefinitionName": "Larson-Zulauf",
+  "HeadingId": 749,
   "ListItemIds": [
-    811,
-    818
+    240,
+    890
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

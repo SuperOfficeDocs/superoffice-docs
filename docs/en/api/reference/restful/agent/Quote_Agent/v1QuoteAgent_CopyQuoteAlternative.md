@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 9,
-  "QuoteAlternativeId": 680,
-  "QuoteAlternativeName": "Hamill LLC"
+  "QuoteVersionId": 884,
+  "QuoteAlternativeId": 466,
+  "QuoteAlternativeName": "Fritsch-Mitchell"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 691,
-  "ERPQuoteAlternativeKey": "aut",
-  "QuoteVersionId": 494,
-  "Name": "Stamm Group",
-  "Description": "Sharable static circuit",
+  "QuoteAlternativeId": 45,
+  "ERPQuoteAlternativeKey": "magni",
+  "QuoteVersionId": 138,
+  "Name": "Lehner-Hintz",
+  "Description": "Triple-buffered clear-thinking open system",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8659.242,
-  "ERPDiscountAmount": 24069.12,
-  "DiscountPercent": 6681.688,
-  "DiscountAmount": 1244.1979999999999,
+  "ERPDiscountPercent": 26852.111999999997,
+  "ERPDiscountAmount": 25335.255999999998,
+  "DiscountPercent": 26438.424,
+  "DiscountAmount": 6938.6759999999995,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sit",
-  "VAT": 5152.296,
-  "EarningPercent": 12767.916,
-  "EarningAmount": 18521.94,
-  "SubTotal": 26711.082,
-  "TotalPrice": 11987.55,
-  "ExtraField1": "voluptas",
-  "ExtraField2": "ducimus",
-  "ExtraField3": "dolore",
-  "ExtraField4": "aut",
-  "ExtraField5": "minima",
+  "VATInfo": "qui",
+  "VAT": 25520.162,
+  "EarningPercent": 25999.664,
+  "EarningAmount": 25739.541999999998,
+  "SubTotal": 4230.9,
+  "TotalPrice": 9286.042,
+  "ExtraField1": "vel",
+  "ExtraField2": "autem",
+  "ExtraField3": "aut",
+  "ExtraField4": "officiis",
+  "ExtraField5": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 148
     }
   }
 }

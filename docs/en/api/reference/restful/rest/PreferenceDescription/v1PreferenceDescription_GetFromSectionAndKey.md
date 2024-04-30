@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 199,
-  "Section": "dolorem",
-  "Key": "amet",
-  "Name": "Kutch Inc and Sons",
+  "PrefDescId": 680,
+  "Section": "ex",
+  "Key": "quae",
+  "Name": "Kuvalis, Murphy and Schroeder",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable maximized hardware",
+  "Description": "Integrated motivating open architecture",
   "IsBuiltin": false,
-  "TableName": "Towne-Hudson",
-  "UserDefinedListId": 678,
-  "Rank": 264,
-  "SubGroup": "exercitationem",
-  "MinLevel": 52,
-  "MaxValue": 630,
-  "MinValue": 305,
-  "RequiredLicense": "provident",
+  "TableName": "Veum, Fisher and Langworth",
+  "UserDefinedListId": 677,
+  "Rank": 109,
+  "SubGroup": "atque",
+  "MinLevel": 261,
+  "MaxValue": 259,
+  "MinValue": 660,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldLength": 50
     }
   }
 }

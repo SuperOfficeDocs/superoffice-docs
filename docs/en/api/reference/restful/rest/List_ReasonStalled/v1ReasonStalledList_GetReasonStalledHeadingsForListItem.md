@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Jewess Group",
-    "ToolTip": "Illum laborum.",
-    "Deleted": false,
-    "Rank": 210,
-    "Type": "non",
-    "ColorBlock": 532,
-    "IconHint": "error",
-    "Selected": false,
-    "LastChanged": "2006-11-12T12:19:54.8208379+01:00",
+    "Id": 949,
+    "Name": "Fay-Ankunding",
+    "ToolTip": "Sit accusantium et odit sequi quas ut.",
+    "Deleted": true,
+    "Rank": 53,
+    "Type": "illum",
+    "ColorBlock": 679,
+    "IconHint": "quaerat",
+    "Selected": true,
+    "LastChanged": "2009-05-28T11:44:43.319985+02:00",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Langworth-Wilderman",
-        "ToolTip": "Quibusdam asperiores sit quod necessitatibus recusandae rerum.",
-        "Deleted": true,
-        "Rank": 202,
-        "Type": "hic",
-        "ColorBlock": 847,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1999-04-10T12:19:54.8208379+02:00",
+        "Id": 182,
+        "Name": "Bednar, Terry and Daniel",
+        "ToolTip": "Perspiciatis recusandae.",
+        "Deleted": false,
+        "Rank": 318,
+        "Type": "aut",
+        "ColorBlock": 506,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2003-08-14T11:44:43.319985+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "officiis",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Ms. Marlon Braeden Predovic",
+        "FullName": "Jessyca Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldLength": 782
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "architecto",
-    "Hidden": false,
-    "FullName": "Eldora Von",
+    "ExtraInfo": "repellat",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Ms. Bridgette Candace Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 497
       }
     }
   }

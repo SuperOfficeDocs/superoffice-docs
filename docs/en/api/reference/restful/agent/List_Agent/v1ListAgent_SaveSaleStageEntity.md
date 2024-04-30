@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 786,
-  "Value": "libero",
-  "Tooltip": "maiores",
-  "Probability": 362,
+  "SaleStageId": 825,
+  "Value": "dolor",
+  "Tooltip": "adipisci",
+  "Probability": 216,
   "Deleted": false,
-  "Rank": 459
+  "Rank": 125
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 407,
-  "Value": "autem",
-  "Tooltip": "atque",
-  "Probability": 994,
-  "Deleted": true,
-  "Rank": 984,
+  "SaleStageId": 313,
+  "Value": "id",
+  "Tooltip": "nihil",
+  "Probability": 647,
+  "Deleted": false,
+  "Rank": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 697
     }
   }
 }

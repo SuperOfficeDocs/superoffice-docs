@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 14 Mar 2012 12:19:53 G3T
+Last-Modified: Fri, 22 Jul 2011 11:44:42 G7T
 
 {
-  "Key": "dolores",
-  "Value": "similique",
-  "RecordId": 208,
-  "CreatedDate": "2002-06-14T12:19:53.6023745+02:00",
-  "UpdatedDate": "2012-03-14T12:19:53.6023745+01:00",
-  "UpdatedBy": "ducimus",
-  "CreatedBy": "dolores",
-  "TableName": "Mosciski Inc and Sons",
+  "Key": "assumenda",
+  "Value": "non",
+  "RecordId": 588,
+  "CreatedDate": "1999-08-15T11:44:42.0077636+02:00",
+  "UpdatedDate": "2011-07-22T11:44:42.0077636+02:00",
+  "UpdatedBy": "voluptas",
+  "CreatedBy": "aspernatur",
+  "TableName": "Jakubowski, Mosciski and Murazik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 552
     }
   }
 }

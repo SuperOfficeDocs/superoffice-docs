@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 572,
+  "EjMessageId": 616,
   "Ticket": null,
-  "CreatedAt": "2012-09-09T12:19:46.3826351+02:00",
+  "CreatedAt": "2016-06-23T11:44:34.7438345+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "doloribus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "assumenda",
-  "TimeSpent": 424,
-  "Body": "voluptatem",
-  "HtmlBody": "quis",
-  "EmailHeader": "tremaine.marquardt@runolfsdottir.us",
-  "DebugInfo": "vero",
-  "MailSorter": "enim",
+  "MessageId": "sint",
+  "TimeSpent": 350,
+  "Body": "autem",
+  "HtmlBody": "iure",
+  "EmailHeader": "rachel.kihn@lemkelemke.co.uk",
+  "DebugInfo": "dolore",
+  "MailSorter": "esse",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "perferendis",
+  "SearchTitle": "delectus",
   "MessageHeaders": [
     {
-      "Id": 739,
-      "Name": "Kuhn, Lemke and Fritsch",
-      "Value": "labore",
+      "Id": 807,
+      "Name": "Hegmann, Stroman and Boyer",
+      "Value": "consequatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 739,
-      "Name": "Kuhn, Lemke and Fritsch",
-      "Value": "labore",
+      "Id": 807,
+      "Name": "Hegmann, Stroman and Boyer",
+      "Value": "consequatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "cumque",
-  "Sentiment": 512,
-  "SentimentConfidence": 738,
+  "Language": "quod",
+  "Sentiment": 232,
+  "SentimentConfidence": 759,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 552,
-      "Name": "Schuppe, McCullough and Ernser",
-      "ContentType": "et",
-      "AttSize": 652,
+      "AttachmentId": 649,
+      "Name": "Hermiston, West and Lind",
+      "ContentType": "id",
+      "AttSize": 936,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "eos",
-      "IsSafeFileExtension": true
+      "ContentId": "aut",
+      "AuthKey": "porro",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "est"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 829,
+  "EjMessageId": 895,
   "Ticket": null,
-  "CreatedAt": "1997-01-11T12:19:46.3826351+01:00",
+  "CreatedAt": "2021-06-01T11:44:34.7438345+02:00",
   "CreatedBy": null,
-  "Author": "corporis",
+  "Author": "perspiciatis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "reprehenderit",
-  "TimeSpent": 260,
-  "Body": "itaque",
-  "HtmlBody": "quidem",
-  "EmailHeader": "johathan.keeling@greenholtsimonis.info",
-  "DebugInfo": "est",
-  "MailSorter": "veniam",
+  "MessageId": "ex",
+  "TimeSpent": 354,
+  "Body": "aut",
+  "HtmlBody": "qui",
+  "EmailHeader": "reanna_balistreri@grant.us",
+  "DebugInfo": "rerum",
+  "MailSorter": "expedita",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "vel",
+  "SearchTitle": "voluptatum",
   "MessageHeaders": [
     {
-      "Id": 981,
-      "Name": "Kautzer Inc and Sons",
-      "Value": "impedit",
+      "Id": 346,
+      "Name": "Reinger, Legros and Herman",
+      "Value": "fuga",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -220,44 +220,44 @@ Content-Type: application/json; charset=utf-8
     }
   ],
   "Important": true,
-  "Language": "a",
-  "Sentiment": 624,
-  "SentimentConfidence": 52,
+  "Language": "reprehenderit",
+  "Sentiment": 632,
+  "SentimentConfidence": 926,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 154,
-      "Name": "Bernhard LLC",
-      "ContentType": "numquam",
-      "AttSize": 533,
-      "InlineImage": true,
-      "ContentId": "perspiciatis",
-      "AuthKey": "dolor",
+      "AttachmentId": 778,
+      "Name": "Christiansen Inc and Sons",
+      "ContentType": "cumque",
+      "AttSize": 557,
+      "InlineImage": false,
+      "ContentId": "autem",
+      "AuthKey": "omnis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 232
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "et"
+    "CustomFields1": "officia",
+    "CustomFields2": "eius"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   }
 }

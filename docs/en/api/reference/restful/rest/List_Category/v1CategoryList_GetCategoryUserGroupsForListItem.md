@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Gorczany Group",
-    "ToolTip": "Voluptatum sit.",
+    "Id": 59,
+    "Name": "Murray-Sipes",
+    "ToolTip": "Corporis saepe eaque deleniti nesciunt magnam rerum vitae.",
     "Deleted": true,
-    "Rank": 835,
-    "Type": "perspiciatis",
-    "ColorBlock": 691,
-    "IconHint": "temporibus",
+    "Rank": 160,
+    "Type": "molestiae",
+    "ColorBlock": 606,
+    "IconHint": "consectetur",
     "Selected": true,
-    "LastChanged": "2006-02-09T12:19:54.3209449+01:00",
+    "LastChanged": "2019-12-02T11:44:42.9450455+01:00",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "Gulgowski LLC",
-        "ToolTip": "Molestiae officiis quibusdam similique asperiores sed quia.",
+        "Id": 992,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Commodi sed occaecati dignissimos aut nihil dolor.",
         "Deleted": false,
-        "Rank": 591,
-        "Type": "earum",
-        "ColorBlock": 683,
-        "IconHint": "odit",
+        "Rank": 629,
+        "Type": "labore",
+        "ColorBlock": 483,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2006-03-03T12:19:54.3209449+01:00",
+        "LastChanged": "2001-02-25T11:44:42.9450455+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "error",
-        "Hidden": false,
-        "FullName": "Gillian Baumbach",
+        "ExtraInfo": "repellat",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Aleen Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "nihil",
+    "ExtraInfo": "ad",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Tony Tania Hodkiewicz IV",
+    "FullName": "Issac Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldLength": 258
       }
     }
   }

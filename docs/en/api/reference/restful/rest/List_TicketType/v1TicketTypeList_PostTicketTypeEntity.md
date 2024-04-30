@@ -53,6 +53,10 @@ The TicketTypeEntity to be created.
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | Boolean | Is this Ticket Type marked as default |
+| ShowInNew | Boolean | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | Boolean | Do not insert user signature automatically |
+| ExcludeEmailRecipients | Boolean | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | Boolean | Ability to set external access level for this request type |
 
 ## Response:
 
@@ -78,6 +82,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -91,24 +99,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 730,
-  "Name": "Heaney-Mayer",
-  "Rank": 145,
-  "Tooltip": "numquam",
-  "Icon": "ullam",
-  "DefaultTicketStatus": 427,
+  "TicketTypeId": 216,
+  "Name": "Halvorson LLC",
+  "Rank": 454,
+  "Tooltip": "nisi",
+  "Icon": "non",
+  "DefaultTicketStatus": 473,
   "TicketStatuses": [
-    871,
-    33
+    154,
+    848
   ],
-  "DefaultTicketPriority": 389,
+  "DefaultTicketPriority": 711,
   "TicketPriorities": [
-    300,
-    370
+    4,
+    917
   ],
-  "ReplyTemplate": 13,
+  "ReplyTemplate": 857,
   "IsExternalVisible": false,
-  "IsDefault": false
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true
 }
 ```
 
@@ -119,30 +131,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 426,
-  "Name": "Hilpert Group",
-  "Rank": 763,
-  "Tooltip": "nihil",
-  "Icon": "repellendus",
-  "DefaultTicketStatus": 533,
+  "TicketTypeId": 785,
+  "Name": "Adams, Price and Hessel",
+  "Rank": 413,
+  "Tooltip": "hic",
+  "Icon": "eos",
+  "DefaultTicketStatus": 641,
   "TicketStatuses": [
-    484,
-    940
+    983,
+    37
   ],
-  "DefaultTicketPriority": 292,
+  "DefaultTicketPriority": 274,
   "TicketPriorities": [
-    541,
-    618
+    95,
+    831
   ],
-  "ReplyTemplate": 580,
+  "ReplyTemplate": 752,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldType": "System.Int32",
+      "FieldLength": 617
     }
   }
 }

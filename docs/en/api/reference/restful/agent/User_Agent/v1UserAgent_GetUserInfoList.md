@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 192,
-    "UserName": "Jaskolski Group",
-    "PersonId": 208,
-    "Rank": 274,
-    "Tooltip": "explicabo",
-    "UserGroupId": 182,
-    "EjUserId": 570,
+    "UserInfoId": 212,
+    "UserName": "Hane, Lowe and Schamberger",
+    "PersonId": 705,
+    "Rank": 976,
+    "Tooltip": "nam",
+    "UserGroupId": 822,
+    "EjUserId": 69,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "et",
-      "quasi"
+      "odit",
+      "sed"
     ],
-    "CanLogon": true,
-    "RoleName": "Block-Krajcik",
-    "RoleTooltip": "cumque",
-    "UserGroupName": "Russel, Sawayn and Littel",
-    "UserGroupTooltip": "et",
+    "CanLogon": false,
+    "RoleName": "Hodkiewicz LLC",
+    "RoleTooltip": "aut",
+    "UserGroupName": "Thompson Group",
+    "UserGroupTooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldType": "System.String",
+        "FieldLength": 40
       }
     }
   }

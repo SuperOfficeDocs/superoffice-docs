@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Hermann Group",
-    "ToolTip": "Autem repellat quam est nihil nam vel.",
+    "Id": 469,
+    "Name": "Lesch Group",
+    "ToolTip": "Sit et quia ea non deserunt facere perferendis.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "quaerat",
-    "ColorBlock": 91,
-    "IconHint": "voluptate",
+    "Rank": 649,
+    "Type": "quo",
+    "ColorBlock": 156,
+    "IconHint": "consequuntur",
     "Selected": true,
-    "LastChanged": "2021-11-23T12:19:54.4459158+01:00",
+    "LastChanged": "2020-06-26T11:44:43.085652+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Mann, Haley and Feil",
-        "ToolTip": "Autem magnam iste itaque sed.",
-        "Deleted": true,
-        "Rank": 199,
-        "Type": "maiores",
-        "ColorBlock": 679,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "1999-05-15T12:19:54.4459158+02:00",
+        "Id": 333,
+        "Name": "Purdy-Koss",
+        "ToolTip": "Nesciunt cumque ut omnis saepe.",
+        "Deleted": false,
+        "Rank": 433,
+        "Type": "iusto",
+        "ColorBlock": 739,
+        "IconHint": "voluptate",
+        "Selected": true,
+        "LastChanged": "1999-10-09T11:44:43.085652+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ea",
+        "StyleHint": "id",
         "Hidden": true,
-        "FullName": "Trinity Considine"
+        "FullName": "Kattie Casper"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Clint Haley"
+    "ExtraInfo": "aut",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Clinton Bergstrom"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Lesch-Bogisich",
-    "ToolTip": "Ut earum quis voluptates iure labore ut.",
-    "Deleted": true,
-    "Rank": 85,
-    "Type": "id",
-    "ColorBlock": 900,
-    "IconHint": "quisquam",
+    "Id": 433,
+    "Name": "Jakubowski, Crona and Reinger",
+    "ToolTip": "Est ab quae.",
+    "Deleted": false,
+    "Rank": 600,
+    "Type": "placeat",
+    "ColorBlock": 434,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2013-01-30T12:19:54.4459158+01:00",
+    "LastChanged": "1999-03-15T11:44:43.085652+01:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Kuphal Inc and Sons",
-        "ToolTip": "Nobis accusantium.",
+        "Id": 532,
+        "Name": "Murphy Group",
+        "ToolTip": "Aliquid rerum quibusdam repellendus eligendi.",
         "Deleted": false,
-        "Rank": 26,
-        "Type": "dolorem",
-        "ColorBlock": 817,
-        "IconHint": "ratione",
+        "Rank": 327,
+        "Type": "deleniti",
+        "ColorBlock": 333,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2014-11-17T12:19:54.4459158+01:00",
+        "LastChanged": "2012-02-28T11:44:43.085652+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "eos",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Rahsaan Simonis",
+        "FullName": "Margaretta Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "porro",
+    "ExtraInfo": "maiores",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Samara Kling",
+    "FullName": "Kacey Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   }

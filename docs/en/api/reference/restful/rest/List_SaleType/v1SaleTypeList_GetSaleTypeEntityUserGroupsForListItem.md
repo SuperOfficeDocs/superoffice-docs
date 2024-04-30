@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Robel Inc and Sons",
-    "ToolTip": "Neque libero voluptas similique quas enim ea.",
-    "Deleted": true,
-    "Rank": 481,
-    "Type": "voluptates",
-    "ColorBlock": 177,
+    "Id": 605,
+    "Name": "Kerluke-Emard",
+    "ToolTip": "Provident omnis molestias.",
+    "Deleted": false,
+    "Rank": 441,
+    "Type": "voluptate",
+    "ColorBlock": 738,
     "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2010-03-18T12:19:54.8364594+01:00",
+    "LastChanged": "2011-06-11T11:44:43.3355939+02:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Turcotte, Armstrong and Durgan",
-        "ToolTip": "Alias qui veritatis.",
-        "Deleted": true,
-        "Rank": 617,
-        "Type": "tenetur",
-        "ColorBlock": 469,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2019-05-02T12:19:54.8364594+02:00",
+        "Id": 899,
+        "Name": "Connelly Inc and Sons",
+        "ToolTip": "In voluptatum.",
+        "Deleted": false,
+        "Rank": 37,
+        "Type": "velit",
+        "ColorBlock": 252,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2018-09-17T11:44:43.3355939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Rhoda Monahan",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Felton Beth Bogan DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 653
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "illum",
-    "Hidden": true,
-    "FullName": "Mr. Gwen Klein Jr.",
+    "ExtraInfo": "quas",
+    "StyleHint": "alias",
+    "Hidden": false,
+    "FullName": "Ms. Major Angelo Effertz V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 588
+        "FieldType": "System.Int32",
+        "FieldLength": 777
       }
     }
   }

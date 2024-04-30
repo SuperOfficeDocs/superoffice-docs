@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 639,
-  "Name": "Fay Inc and Sons",
-  "Tooltip": "facilis",
-  "Rank": 247,
+  "SaleTypeId": 189,
+  "Name": "Williamson, Erdman and Mayert",
+  "Tooltip": "sed",
+  "Rank": 722,
   "DurationUnit": "Century",
-  "SaleDuration": 449,
-  "SaleTypeCatId": 789,
+  "SaleDuration": 691,
+  "SaleTypeCatId": 405,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 345,
-  "QuoteLinesTemplate": 976,
-  "ConfirmationLinesTemplate": 707,
+  "DefaultQuoteValidity": 668,
+  "QuoteLinesTemplate": 72,
+  "ConfirmationLinesTemplate": 115,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 838,
-  "MinEarningPercent": 717,
-  "GroupQuoteLinesBy": 953,
-  "SortGroupLinesBy": 789,
+  "MaxDiscountPercent": 361,
+  "MinEarningPercent": 585,
+  "GroupQuoteLinesBy": 261,
+  "SortGroupLinesBy": 558,
   "Stages": [
     {
-      "Id": 816,
-      "Name": "Upton, Hilpert and Carter",
-      "ToolTip": "Facere saepe eos fugiat mollitia ut.",
-      "Deleted": true,
-      "Rank": 204,
-      "Type": "qui",
-      "ColorBlock": 872,
-      "IconHint": "cumque",
-      "Selected": true,
-      "LastChanged": "2004-10-14T12:19:54.8364594+02:00",
+      "Id": 252,
+      "Name": "Stanton, Bins and Hettinger",
+      "ToolTip": "Sit ad maiores.",
+      "Deleted": false,
+      "Rank": 953,
+      "Type": "beatae",
+      "ColorBlock": 385,
+      "IconHint": "ex",
+      "Selected": false,
+      "LastChanged": "2016-08-21T11:44:43.3355939+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "quos",
-      "Hidden": true,
-      "FullName": "Prof. Sydnee Grimes PhD"
+      "ExtraInfo": "minima",
+      "StyleHint": "nulla",
+      "Hidden": false,
+      "FullName": "Alexandra Roberts"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 833,
-  "Name": "Stiedemann, Bosco and Runolfsdottir",
-  "Tooltip": "voluptate",
-  "Rank": 929,
+  "SaleTypeId": 359,
+  "Name": "Dibbert Group",
+  "Tooltip": "eos",
+  "Rank": 785,
   "DurationUnit": "Century",
-  "SaleDuration": 288,
-  "SaleTypeCatId": 535,
+  "SaleDuration": 154,
+  "SaleTypeCatId": 53,
   "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 558,
-  "QuoteLinesTemplate": 370,
-  "ConfirmationLinesTemplate": 376,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 310,
-  "MinEarningPercent": 986,
-  "GroupQuoteLinesBy": 858,
-  "SortGroupLinesBy": 749,
+  "DefaultQuoteValidity": 583,
+  "QuoteLinesTemplate": 191,
+  "ConfirmationLinesTemplate": 467,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 560,
+  "MinEarningPercent": 122,
+  "GroupQuoteLinesBy": 866,
+  "SortGroupLinesBy": 292,
   "Stages": [
     {
-      "Id": 342,
-      "Name": "Skiles, Johns and McKenzie",
-      "ToolTip": "Quis tempore et velit odio nihil.",
+      "Id": 628,
+      "Name": "Weber, Goyette and Rath",
+      "ToolTip": "Molestias et qui est dicta recusandae.",
       "Deleted": false,
-      "Rank": 521,
-      "Type": "porro",
-      "ColorBlock": 747,
-      "IconHint": "quod",
+      "Rank": 344,
+      "Type": "quibusdam",
+      "ColorBlock": 710,
+      "IconHint": "repellendus",
       "Selected": false,
-      "LastChanged": "2023-06-25T12:19:54.8364594+02:00",
+      "LastChanged": "2018-12-03T11:44:43.3355939+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempora",
-      "StyleHint": "quia",
-      "Hidden": false,
-      "FullName": "Molly Jacobson",
+      "ExtraInfo": "sint",
+      "StyleHint": "est",
+      "Hidden": true,
+      "FullName": "Mr. Lyla Christina Jacobson IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldType": "System.String",
+      "FieldLength": 227
     }
   }
 }

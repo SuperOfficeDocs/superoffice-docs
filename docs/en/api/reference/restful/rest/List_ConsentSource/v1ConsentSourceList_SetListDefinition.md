@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 759,
-  "Name": "Fisher-Kertzmann",
-  "Tooltip": "temporibus",
+  "Id": 958,
+  "Name": "Murphy-Schroeder",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 42,
-  "IsCustomList": true,
+  "Rank": 451,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "blanditiis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Jaskolski, Rohan and Gerlach",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "Rank": 954,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 646,
+  "Name": "Corkery, Beatty and Pouros",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 154,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quos",
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 788
     }
   }
 }

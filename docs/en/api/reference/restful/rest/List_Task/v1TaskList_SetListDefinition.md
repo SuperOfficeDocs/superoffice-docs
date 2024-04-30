@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 415,
-  "Name": "Beer Inc and Sons",
-  "Tooltip": "impedit",
+  "Id": 465,
+  "Name": "Kshlerin, Bailey and Kozey",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 910,
-  "IsCustomList": false,
+  "Rank": 244,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "molestias",
+  "ListType": "id",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 602,
-  "Name": "O'Keefe-O'Connell",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 171,
+  "Id": 568,
+  "Name": "Oberbrunner, Hauck and Gulgowski",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 385,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "atque",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "esse",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldLength": 327
     }
   }
 }

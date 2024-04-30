@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Tremblay Group",
+  "HistoryName": "Grimes-Gleichner",
   "History": [
     {
-      "Rank": 40,
-      "Id": 418,
-      "HistoryName": "Gleason LLC",
-      "HistoryId": 162,
-      "AssociateId": 149,
-      "Name": "Bartoletti-Hoppe",
-      "ItemInfo": "corporis"
+      "Rank": 230,
+      "Id": 256,
+      "HistoryName": "Rutherford-Turcotte",
+      "HistoryId": 832,
+      "AssociateId": 541,
+      "Name": "Skiles, Trantow and Lind",
+      "ItemInfo": "incidunt"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 2,
-    "Id": 263,
-    "HistoryName": "Weimann Group",
-    "HistoryId": 294,
-    "AssociateId": 507,
-    "Name": "Corkery, Smitham and Watsica",
-    "ItemInfo": "tempore",
+    "Rank": 604,
+    "Id": 658,
+    "HistoryName": "VonRueden, Pagac and Rolfson",
+    "HistoryId": 111,
+    "AssociateId": 461,
+    "Name": "Hudson-Herman",
+    "ItemInfo": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 368
       }
     }
   }

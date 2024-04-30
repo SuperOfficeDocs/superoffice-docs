@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 82,
-    "Name": "Volkman, Kirlin and Waters",
-    "Tooltip": "ea",
+    "HeadingId": 888,
+    "Name": "Konopelski, Hansen and Kautzer",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "Rank": 102,
-    "UdListDefinitionId": 353,
+    "Rank": 531,
+    "UdListDefinitionId": 873,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 932
       }
     }
   }

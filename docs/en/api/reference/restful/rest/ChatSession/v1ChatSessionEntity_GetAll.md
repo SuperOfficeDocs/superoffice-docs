@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=dolores
-GET /api/v1/ChatSession?$top=929
-GET /api/v1/ChatSession?$skip=887
+GET /api/v1/ChatSession?$entities=nulla
+GET /api/v1/ChatSession?$top=493
+GET /api/v1/ChatSession?$skip=945
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=ad
+GET /api/v1/ChatSession?$context=sunt
 GET /api/v1/ChatSession?$format=JSON
-GET /api/v1/ChatSession?$jsonSafe=True
+GET /api/v1/ChatSession?$jsonSafe=False
 GET /api/v1/ChatSession?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ducimus",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 4997,
+      "PrimaryKey": 792,
       "EntityName": "sale",
-      "saleId": 4997,
-      "contactId": 2530,
-      "name": "Trantow, Ebert and Nienow"
+      "saleId": 792,
+      "contactId": 6946,
+      "name": "Lesch Inc and Sons"
     },
     {
-      "PrimaryKey": 3651,
+      "PrimaryKey": 823,
       "EntityName": "sale",
-      "saleId": 3651,
-      "contactId": 1600,
-      "name": "Sanford, Bechtelar and DuBuque"
+      "saleId": 823,
+      "contactId": 8829,
+      "name": "Rolfson, Streich and Collier"
     }
   ]
 }

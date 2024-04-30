@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 65,
-  "TableName": "Dach LLC",
+  "RoleId": 383,
+  "TableName": "Windler, Kunze and Schultz",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "dicta"
+  "DataRightValue": "sed"
 }
 ```
 

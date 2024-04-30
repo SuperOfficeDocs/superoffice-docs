@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kub LLC",
+  "ProviderName": "Pouros-Hahn",
   "Columns": [
-    "harum",
-    "neque"
+    "culpa",
+    "rerum"
   ],
   "SortOrder": [
     {
-      "Name": "Bartoletti Group",
+      "Name": "Smith LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Bartoletti Group",
+      "Name": "Smith LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Conn-Schaden",
-      "Operator": "quo",
+      "Name": "D'Amore, Olson and Kihn",
+      "Operator": "illo",
       "Values": [
-        "veritatis",
-        "sit"
+        "unde",
+        "velit"
       ],
       "DisplayValues": [
-        "modi",
-        "facere"
+        "in",
+        "harum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 293,
       "InterOperator": "And",
-      "UniqueHash": 607
+      "UniqueHash": 45
     }
   ],
   "Entities": [
-    "iure",
-    "magni"
+    "nesciunt",
+    "doloribus"
   ],
-  "Page": 473,
-  "PageSize": 20
+  "Page": 1001,
+  "PageSize": 457
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rice Group",
-    "PrimaryKey": 871,
+    "EntityName": "Quigley LLC",
+    "PrimaryKey": 107,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "maxime",
-        "TooltipHint": "libero",
-        "LinkHint": "et"
+        "DisplayValue": "qui",
+        "TooltipHint": "quo",
+        "LinkHint": "provident"
       }
     },
-    "LinkHint": "quisquam",
-    "StyleHint": "voluptatem",
+    "LinkHint": "odit",
+    "StyleHint": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldLength": 260
       }
     }
   }

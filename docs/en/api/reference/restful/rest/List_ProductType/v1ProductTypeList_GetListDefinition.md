@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Kilback-Heaney",
-  "Tooltip": "est",
+  "Id": 251,
+  "Name": "Schamberger LLC",
+  "Tooltip": "quas",
   "Deleted": true,
-  "Rank": 160,
+  "Rank": 633,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "veniam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 67
     }
   },
   "_Links": {

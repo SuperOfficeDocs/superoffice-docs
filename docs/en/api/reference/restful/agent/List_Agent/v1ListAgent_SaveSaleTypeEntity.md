@@ -109,47 +109,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 438,
-  "Name": "Hansen LLC",
-  "Tooltip": "necessitatibus",
-  "Rank": 77,
+  "SaleTypeId": 491,
+  "Name": "Kohler-Douglas",
+  "Tooltip": "omnis",
+  "Rank": 995,
   "DurationUnit": "Century",
-  "SaleDuration": 526,
-  "SaleTypeCatId": 981,
+  "SaleDuration": 26,
+  "SaleTypeCatId": 836,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 563,
-  "QuoteLinesTemplate": 16,
-  "ConfirmationLinesTemplate": 729,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 544,
-  "MinEarningPercent": 585,
-  "GroupQuoteLinesBy": 479,
-  "SortGroupLinesBy": 607,
+  "DefaultQuoteValidity": 708,
+  "QuoteLinesTemplate": 190,
+  "ConfirmationLinesTemplate": 886,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 324,
+  "MinEarningPercent": 633,
+  "GroupQuoteLinesBy": 893,
+  "SortGroupLinesBy": 714,
   "Stages": [
     {
-      "Id": 497,
-      "Name": "Tillman-Hudson",
-      "ToolTip": "Odio sint omnis itaque ullam.",
-      "Deleted": false,
-      "Rank": 730,
-      "Type": "consequatur",
-      "ColorBlock": 307,
-      "IconHint": "et",
+      "Id": 159,
+      "Name": "O'Connell, Smith and Schinner",
+      "ToolTip": "Ea laboriosam.",
+      "Deleted": true,
+      "Rank": 894,
+      "Type": "quis",
+      "ColorBlock": 218,
+      "IconHint": "laborum",
       "Selected": true,
-      "LastChanged": "2020-08-08T12:19:45.5703411+02:00",
+      "LastChanged": "2011-06-29T11:44:33.9158989+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusamus",
-      "StyleHint": "accusamus",
+      "ExtraInfo": "eos",
+      "StyleHint": "voluptatum",
       "Hidden": false,
-      "FullName": "Marisa Jacobi V"
+      "FullName": "Gabrielle Ortiz"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 795,
-  "Name": "Jacobson Group",
-  "Tooltip": "et",
-  "Rank": 846,
+  "SaleTypeId": 715,
+  "Name": "Hoeger, Stroman and Tillman",
+  "Tooltip": "officia",
+  "Rank": 765,
   "DurationUnit": "Century",
-  "SaleDuration": 837,
-  "SaleTypeCatId": 829,
+  "SaleDuration": 599,
+  "SaleTypeCatId": 820,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 288,
-  "QuoteLinesTemplate": 700,
-  "ConfirmationLinesTemplate": 763,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 464,
-  "MinEarningPercent": 575,
-  "GroupQuoteLinesBy": 551,
-  "SortGroupLinesBy": 486,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 160,
+  "QuoteLinesTemplate": 804,
+  "ConfirmationLinesTemplate": 458,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 907,
+  "MinEarningPercent": 133,
+  "GroupQuoteLinesBy": 805,
+  "SortGroupLinesBy": 373,
   "Stages": [
     {
-      "Id": 860,
-      "Name": "Dibbert-Howe",
-      "ToolTip": "Ut illum voluptatem enim architecto consequatur.",
-      "Deleted": false,
-      "Rank": 621,
-      "Type": "id",
-      "ColorBlock": 410,
-      "IconHint": "sed",
+      "Id": 492,
+      "Name": "Lemke-Nolan",
+      "ToolTip": "Voluptates at at aut repellat ut repellendus quaerat.",
+      "Deleted": true,
+      "Rank": 275,
+      "Type": "vel",
+      "ColorBlock": 440,
+      "IconHint": "voluptatum",
       "Selected": false,
-      "LastChanged": "2015-09-23T12:19:45.5703411+02:00",
+      "LastChanged": "2017-02-06T11:44:33.9158989+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "dolorem",
+      "ExtraInfo": "soluta",
+      "StyleHint": "quos",
       "Hidden": false,
-      "FullName": "Otto Glover",
+      "FullName": "Evelyn Heidenreich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldType": "System.Int32",
+          "FieldLength": 214
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 818
     }
   }
 }

@@ -45,11 +45,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |rejectReason| *None* |!!rejectReason| x |
 |isAssignment| *None* |!!isAssignment|  |
 |isFree| *None* |!!isFree: bool| x |
+|isSystemUser| *None* |!!isSystemUser: bool| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotification?$select=location,title,location
+GET /api/v1/archive/AppointmentNotification?$select=updateType,location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

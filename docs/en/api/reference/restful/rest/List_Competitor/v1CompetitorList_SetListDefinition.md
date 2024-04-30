@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 282,
-  "Name": "DuBuque Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 59,
+  "Name": "Ryan-Bins",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 949,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "molestias",
+  "Rank": 499,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempore",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 951,
-  "Name": "Kessler, Dach and Kovacek",
-  "Tooltip": "officia",
+  "Id": 206,
+  "Name": "Streich, Rath and Nicolas",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "Rank": 319,
+  "Rank": 29,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 848
     }
   }
 }

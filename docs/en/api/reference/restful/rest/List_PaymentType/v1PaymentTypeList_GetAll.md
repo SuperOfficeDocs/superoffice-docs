@@ -25,7 +25,7 @@ Gets all the PaymentType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentType/Items?includeDeleted=True
+GET /api/v1/List/PaymentType/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Name": "Bayer Inc and Sons",
-    "Tooltip": "expedita",
-    "Deleted": true,
-    "UdListDefinitionId": 732,
-    "Rank": 486,
+    "Id": 60,
+    "Name": "Schinner LLC",
+    "Tooltip": "sequi",
+    "Deleted": false,
+    "UdListDefinitionId": 60,
+    "Rank": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldLength": 820
       }
     }
   }

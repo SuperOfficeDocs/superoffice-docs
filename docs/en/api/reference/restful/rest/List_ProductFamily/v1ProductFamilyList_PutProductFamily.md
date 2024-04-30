@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Name": "Dare-Hermiston",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 444,
-  "Rank": 313
+  "Id": 458,
+  "Name": "Kshlerin, Murray and O'Kon",
+  "Tooltip": "soluta",
+  "Deleted": false,
+  "UdListDefinitionId": 383,
+  "Rank": 920
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Hodkiewicz-Mraz",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "UdListDefinitionId": 179,
-  "Rank": 530,
+  "Id": 791,
+  "Name": "Bartoletti Inc and Sons",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "UdListDefinitionId": 326,
+  "Rank": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 293
     }
   }
 }

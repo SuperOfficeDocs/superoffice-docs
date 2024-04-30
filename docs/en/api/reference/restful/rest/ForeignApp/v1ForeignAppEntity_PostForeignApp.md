@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 475,
-  "Name": "Morissette-Abbott",
-  "CreatedDate": "2021-12-29T12:19:53.5867469+01:00",
-  "UpdatedDate": "2013-04-22T12:19:53.5867469+02:00",
+  "ForeignAppId": 48,
+  "Name": "Bauch-Keeling",
+  "CreatedDate": "2003-11-18T11:44:41.9921474+01:00",
+  "UpdatedDate": "2016-04-19T11:44:41.9921474+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 726,
-      "Name": "Green LLC",
-      "CreatedDate": "2006-01-17T12:19:53.5867469+01:00",
-      "UpdatedDate": "2006-10-04T12:19:53.5867469+02:00",
-      "AssociateFullName": "Anna Walker",
-      "CreatedBy": "rerum",
-      "UpdatedBy": "vel",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 242,
+      "ForeignDeviceId": 864,
+      "Name": "O'Hara, Hartmann and Hamill",
+      "CreatedDate": "1998-10-23T11:44:41.9921474+02:00",
+      "UpdatedDate": "2018-12-26T11:44:41.9921474+01:00",
+      "AssociateFullName": "Dr. Nikko Mertz Jr.",
+      "CreatedBy": "qui",
+      "UpdatedBy": "eligendi",
+      "DeviceIdentifier": "iusto",
+      "ForeignAppId": 796,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 386
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 737
     }
   }
 }

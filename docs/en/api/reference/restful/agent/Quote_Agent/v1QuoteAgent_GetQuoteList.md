@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "magnam"
+  "QuoteListType": "ut"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "repudiandae",
-    "DisplayValue": "facilis",
-    "DisplayDescription": "Organized fault-tolerant parallelism",
+    "ERPQuoteListItemKey": "laboriosam",
+    "DisplayValue": "doloremque",
+    "DisplayDescription": "Fully-configurable object-oriented conglomeration",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "repudiandae",
-    "DisplayValue": "facilis",
-    "DisplayDescription": "Organized fault-tolerant parallelism",
+    "ERPQuoteListItemKey": "laboriosam",
+    "DisplayValue": "doloremque",
+    "DisplayDescription": "Fully-configurable object-oriented conglomeration",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   }

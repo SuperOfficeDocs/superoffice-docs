@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Wunsch, McClure and Torphy",
+  "ConnectorName": "Pfeffer, Dooley and Bergnaum",
   "ConnectionData": {
-    "ConnectionData1": "animi",
-    "ConnectionData2": "et"
+    "ConnectionData1": "impedit",
+    "ConnectionData2": "commodi"
   }
 }
 ```
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "molestiae",
-  "TechExplanation": "veritatis",
-  "ErrorCode": "est",
+  "IsOk": false,
+  "UserExplanation": "molestias",
+  "TechExplanation": "non",
+  "ErrorCode": "maxime",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 322
     }
   }
 }

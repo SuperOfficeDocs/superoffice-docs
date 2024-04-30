@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "qui",
-    "ValueType": "ducimus",
+    "IsActive": false,
+    "Key": "ea",
+    "ValueType": "asperiores",
     "Mandatory": false,
-    "EncodedDisplayName": "Kozey, Orn and Wilderman",
-    "EncodedDisplayDescription": "Focused executive superstructure",
-    "IconHint": "voluptatibus",
+    "EncodedDisplayName": "DuBuque, Daugherty and Effertz",
+    "EncodedDisplayDescription": "Networked multi-state secured line",
+    "IconHint": "est",
     "ControlInfos": [
       {
-        "Type": "aut",
-        "Label": "et",
-        "Dimension": 589,
-        "ListProviderName": "Bernhard Group",
-        "ListProviderExtraInfo": "veritatis",
-        "ListProviderPrimaryKeyName": "Waters LLC",
-        "ListLeadText": "unde",
+        "Type": "dicta",
+        "Label": "consequatur",
+        "Dimension": 724,
+        "ListProviderName": "Mann Inc and Sons",
+        "ListProviderExtraInfo": "impedit",
+        "ListProviderPrimaryKeyName": "Collins-Howell",
+        "ListLeadText": "ducimus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldType": "System.String",
+            "FieldLength": 168
           }
         }
       }
     ],
-    "EncodedDataCaption": "quisquam",
-    "EncodedDataCaptionDescription": "Diverse fault-tolerant knowledge user",
-    "CurrentOperationType": "sunt",
+    "EncodedDataCaption": "modi",
+    "EncodedDataCaptionDescription": "Optimized didactic monitoring",
+    "CurrentOperationType": "sed",
     "Values": [
-      "dolor",
-      "eos"
+      "explicabo",
+      "cumque"
     ],
     "DisplayValues": [
-      "dolores",
-      "voluptate"
+      "ad",
+      "in"
     ],
     "OperationInfos": [
       {
-        "Key": "temporibus",
-        "EncodedDisplayName": "Tremblay, Jewess and Schneider",
+        "Key": "ut",
+        "EncodedDisplayName": "Rippin, Carroll and Wisoky",
         "EncodedLeadTexts": [
-          "voluptatem",
-          "cum"
+          "earum",
+          "ullam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 337
+            "FieldLength": 473
           }
         }
       },
       {
-        "Key": "temporibus",
-        "EncodedDisplayName": "Tremblay, Jewess and Schneider",
+        "Key": "ut",
+        "EncodedDisplayName": "Rippin, Carroll and Wisoky",
         "EncodedLeadTexts": [
-          "voluptatem",
-          "cum"
+          "earum",
+          "ullam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 337
+            "FieldLength": 473
           }
         }
       }

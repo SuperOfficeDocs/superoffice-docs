@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nienow Group",
-  "Context": "quas",
+  "ProviderName": "Wisoky LLC",
+  "Context": "voluptates",
   "DesiredEntities": [
-    "quis",
-    "odit"
+    "et",
+    "et"
   ],
   "Columns": [
-    "ea",
-    "quod"
+    "autem",
+    "aut"
   ],
   "SortOrder": [
     {
-      "Name": "Schneider-O'Keefe",
+      "Name": "Monahan, Tillman and Daniel",
       "Direction": "ASC"
     },
     {
-      "Name": "Schneider-O'Keefe",
+      "Name": "Monahan, Tillman and Daniel",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Price, Mosciski and Tillman",
-      "Operator": "vitae",
+      "Name": "Gulgowski, Bartell and Schumm",
+      "Operator": "maiores",
       "Values": [
-        "dolores",
-        "enim"
+        "voluptatem",
+        "corporis"
       ],
       "DisplayValues": [
-        "labore",
-        "in"
+        "aut",
+        "quis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 243,
+      "InterParenthesis": 107,
       "InterOperator": "And",
-      "UniqueHash": 947
+      "UniqueHash": 812
     }
   ],
-  "ExportType": "laudantium",
+  "ExportType": "tempore",
   "SelectedRowIds": [
-    "sint",
-    "est"
+    "sequi",
+    "qui"
   ],
-  "EstimatedRowCount": 194
+  "EstimatedRowCount": 782
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 964,
-  "FileName": "Gleichner-Lubowitz",
-  "Message": "saepe",
+  "BatchTaskId": 962,
+  "FileName": "Kling-Williamson",
+  "Message": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   }
 }

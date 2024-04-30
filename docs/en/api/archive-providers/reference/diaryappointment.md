@@ -713,7 +713,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=recurring,contact/email/emailDescription,person/personAssociateId,associate/assocName,appointment/description
+GET /api/v1/archive/DiaryAppointment?$select=completedDate,person/personAssociate/role,project/icon,sale/reopenDate,sale/sale/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

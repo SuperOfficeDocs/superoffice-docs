@@ -10,10 +10,10 @@ generated: true
 POST /api/v1/Agents/Ticket/GetPreviewAttachmentStream
 ```
 
-Retrieve an attachment from ticket message.
+Deprecated, see GetPreviewAttachment instead.
 
 
-The returned data is intended to be used for a preview. The returned data is sanitized.
+Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.
 
 
 
@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 960
+  "AttachmentId": 834
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Olson Group",
-  "Type": "consequatur",
-  "Size": 839,
+  "Name": "Barton Group",
+  "Type": "animi",
+  "Size": 496,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 609
     }
   }
 }

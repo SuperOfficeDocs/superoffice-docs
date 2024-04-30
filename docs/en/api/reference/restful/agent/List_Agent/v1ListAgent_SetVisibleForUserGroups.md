@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 7,
-  "ListItemId": 163,
+  "UdListDefinitionId": 299,
+  "ListItemId": 816,
   "UserGroups": [
     {
-      "Id": 188,
-      "Name": "Homenick Inc and Sons",
-      "ToolTip": "Et dolor voluptatem libero qui ex sit totam.",
+      "Id": 745,
+      "Name": "Daniel Inc and Sons",
+      "ToolTip": "Maxime rerum dolorem esse.",
       "Deleted": false,
-      "Rank": 862,
-      "Type": "expedita",
-      "ColorBlock": 760,
-      "IconHint": "fugit",
+      "Rank": 669,
+      "Type": "quaerat",
+      "ColorBlock": 154,
+      "IconHint": "quo",
       "Selected": false,
-      "LastChanged": "1996-11-28T12:19:45.4922171+01:00",
+      "LastChanged": "2009-07-28T11:44:33.8377919+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "sed",
-      "Hidden": false,
-      "FullName": "Kaylie Pfeffer"
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "laborum",
+      "Hidden": true,
+      "FullName": "Miss Lew Jacinthe Pfannerstill"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Stamm, Herman and Wilderman",
-    "ToolTip": "Quam occaecati et labore nostrum vitae recusandae iure.",
+    "Id": 775,
+    "Name": "Batz Inc and Sons",
+    "ToolTip": "Corporis libero eveniet.",
     "Deleted": false,
-    "Rank": 522,
-    "Type": "rerum",
-    "ColorBlock": 351,
-    "IconHint": "esse",
+    "Rank": 233,
+    "Type": "optio",
+    "ColorBlock": 264,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "1997-05-19T12:19:45.4922171+02:00",
+    "LastChanged": "2015-06-01T11:44:33.8377919+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Willms-Parker",
-        "ToolTip": "Quia ut et iste facilis assumenda totam voluptates.",
-        "Deleted": true,
-        "Rank": 278,
-        "Type": "voluptatum",
-        "ColorBlock": 746,
-        "IconHint": "qui",
+        "Id": 694,
+        "Name": "Pagac Inc and Sons",
+        "ToolTip": "Accusantium est.",
+        "Deleted": false,
+        "Rank": 862,
+        "Type": "qui",
+        "ColorBlock": 375,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1998-10-16T12:19:45.4922171+02:00",
+        "LastChanged": "2017-02-26T11:44:33.8377919+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Nigel Sienna Schuster II",
+        "ExtraInfo": "saepe",
+        "StyleHint": "error",
+        "Hidden": true,
+        "FullName": "Alexander Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 909
+            "FieldType": "System.Int32",
+            "FieldLength": 510
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "neque",
-    "Hidden": false,
-    "FullName": "Iliana Josefina Schinner Sr.",
+    "ExtraInfo": "id",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mr. Davon Jed Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 459
       }
     }
   }

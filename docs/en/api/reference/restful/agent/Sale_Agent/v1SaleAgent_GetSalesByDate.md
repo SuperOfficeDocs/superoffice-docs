@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-10-26T12:19:46.210807+02:00",
-  "ToDate": "1997-12-06T12:19:46.210807+01:00",
-  "AmountLimit": 147,
+  "FromDate": "2021-05-13T11:44:34.4001629+02:00",
+  "ToDate": "2015-03-06T11:44:34.4001629+01:00",
+  "AmountLimit": 426,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Simonis LLC",
-    "SaleDate": "2022-04-25T12:19:46.210807+02:00",
-    "SaleId": 357,
-    "Probability": 322,
-    "Title": "aut",
-    "Amount": 17964.088,
-    "Currency": "non",
-    "ProjectName": "Reichel, Heathcote and Stehr",
-    "AssociateFullName": "Nash Candice Schmitt III",
-    "Description": "Upgradable real-time complexity",
+    "ContactName": "McDermott, Boyle and Roob",
+    "SaleDate": "2011-09-10T11:44:34.4001629+02:00",
+    "SaleId": 104,
+    "Probability": 175,
+    "Title": "quas",
+    "Amount": 25535.832,
+    "Currency": "distinctio",
+    "ProjectName": "Runolfsdottir-Bechtelar",
+    "AssociateFullName": "Payton Adams",
+    "Description": "Phased clear-thinking time-frame",
     "Status": "Lost",
-    "WeightedAmount": 13375.912,
-    "ProjectId": 90,
-    "EarningPercent": 16860.92,
-    "Earning": 23320.094,
-    "ContactId": 998,
-    "AssociateId": 128,
-    "PersonId": 828,
-    "SaleTypeId": 757,
-    "SaleTypeName": "Graham Inc and Sons",
-    "PersonFullName": "Jadyn Harvey",
+    "WeightedAmount": 31245.98,
+    "ProjectId": 321,
+    "EarningPercent": 5810.436,
+    "Earning": 1228.528,
+    "ContactId": 943,
+    "AssociateId": 632,
+    "PersonId": 916,
+    "SaleTypeId": 523,
+    "SaleTypeName": "Hartmann Inc and Sons",
+    "PersonFullName": "Haven O'Conner",
     "Completed": "Completed",
-    "ActiveErpLinks": 758,
-    "NextDueDate": "2023-10-26T12:19:46.210807+02:00",
-    "Number": "1250838",
+    "ActiveErpLinks": 349,
+    "NextDueDate": "2020-08-20T11:44:34.4001629+02:00",
+    "Number": "1350159",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldType": "System.String",
+        "FieldLength": 177
       }
     }
   }

@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "veritatis",
-  "NsPluginSender": "quod",
+  "NetServerSmsProvider": "laborum",
+  "NsPluginSender": "qui",
   "NsPluginConfig": {
-    "NsPluginConfig1": "aperiam",
-    "NsPluginConfig2": "labore"
+    "NsPluginConfig1": "recusandae",
+    "NsPluginConfig2": "ab"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

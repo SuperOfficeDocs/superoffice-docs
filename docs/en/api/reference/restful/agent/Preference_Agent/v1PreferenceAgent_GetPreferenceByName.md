@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "amet",
-  "PrefKey": "quo",
+  "PrefSection": "consequatur",
+  "PrefKey": "quis",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "harum",
+  "RawValue": "nam",
   "Specification": null,
-  "DisplayValue": "veniam",
-  "DisplayTooltip": "aspernatur",
+  "DisplayValue": "molestiae",
+  "DisplayTooltip": "expedita",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 901,
-  "PrefDescId": 468,
-  "TableName": "Hegmann, Runolfsson and Greenfelder",
-  "UserPreferenceId": 339,
+  "TargetId": 210,
+  "PrefDescId": 161,
+  "TableName": "Ryan Inc and Sons",
+  "UserPreferenceId": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 615
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=laboriosam
+GET /api/v1/List/PaymentType/MDOItems?query=maiores
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Boehm, Ledner and Thiel",
-    "ToolTip": "Aut exercitationem.",
-    "Deleted": false,
-    "Rank": 300,
-    "Type": "et",
+    "Id": 304,
+    "Name": "Konopelski-Abshire",
+    "ToolTip": "Iure perspiciatis illo non.",
+    "Deleted": true,
+    "Rank": 561,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Crooks LLC",
-        "ToolTip": "Error enim est molestias aperiam et.",
-        "Deleted": true,
-        "Rank": 361,
-        "Type": "et",
+        "Id": 50,
+        "Name": "Boyle Inc and Sons",
+        "ToolTip": "Qui culpa.",
+        "Deleted": false,
+        "Rank": 853,
+        "Type": "quam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 363,
-        "ExtraInfo": "deserunt",
-        "StyleHint": "voluptas",
-        "FullName": "Vanessa Leann Jones IV",
+        "IconHint": "consequatur",
+        "ColorBlock": 504,
+        "ExtraInfo": "distinctio",
+        "StyleHint": "expedita",
+        "FullName": "Letitia Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 573
+            "FieldType": "System.Int32",
+            "FieldLength": 34
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 756,
-    "ExtraInfo": "illum",
-    "StyleHint": "eius",
-    "FullName": "Augustine Bergstrom",
+    "IconHint": "qui",
+    "ColorBlock": 824,
+    "ExtraInfo": "ut",
+    "StyleHint": "officia",
+    "FullName": "Miss Ashton Ariel Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldLength": 593
       }
     }
   }

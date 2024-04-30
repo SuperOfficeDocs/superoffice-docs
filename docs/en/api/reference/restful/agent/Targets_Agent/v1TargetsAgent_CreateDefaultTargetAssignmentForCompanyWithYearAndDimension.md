@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 533,
-  "TargetDimensionId": 921
+  "Year": 761,
+  "TargetDimensionId": 682
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 23,
+    "TargetAssignmentInfoId": 195,
     "Values": [
-      817,
-      739
+      183,
+      981
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 27,
-    "DimensionListItemDisplayName": "Waelchi LLC",
+    "DimensionListItem": 517,
+    "DimensionListItemDisplayName": "Weissnat-Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldLength": 635
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 450,
-  "Name": "Mitchell Inc and Sons",
-  "Tooltip": "quod",
+  "Id": 508,
+  "Name": "Kohler, Stamm and Kuhlman",
+  "Tooltip": "iure",
   "Deleted": true,
-  "Rank": 935,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 281,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dicta",
+  "ListType": "labore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 152
     }
   },
   "_Links": {

@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=610
+PUT /api/v1/Project/{id}/ImageInfo?projectId=848
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 46,
-  "BlobSize": 620,
-  "Description": "Ameliorated background extranet",
-  "ExtraInfo": "dolorum",
-  "IsEncrypted": true,
+  "BlobId": 224,
+  "BlobSize": 227,
+  "Description": "Secured grid-enabled time-frame",
+  "ExtraInfo": "exercitationem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "natus",
-  "OriginalSize": 250,
-  "CreatedDate": "2007-01-15T12:19:53.7742043+01:00",
-  "UpdatedDate": "2003-05-29T12:19:53.7742043+02:00",
+  "MimeType": "temporibus",
+  "OriginalSize": 817,
+  "CreatedDate": "2006-03-02T11:44:42.2107985+01:00",
+  "UpdatedDate": "2008-08-28T11:44:42.2107985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis"
+  "ConceptualType": "deserunt"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 634,
-  "BlobSize": 653,
-  "Description": "Universal directional structure",
-  "ExtraInfo": "consequatur",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "nulla",
-  "OriginalSize": 926,
-  "CreatedDate": "2009-06-25T12:19:53.7742043+02:00",
-  "UpdatedDate": "2001-05-26T12:19:53.7742043+02:00",
+  "BlobId": 239,
+  "BlobSize": 730,
+  "Description": "Organic background hierarchy",
+  "ExtraInfo": "voluptatem",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "iusto",
+  "OriginalSize": 532,
+  "CreatedDate": "2001-03-25T11:44:42.2107985+02:00",
+  "UpdatedDate": "2017-11-11T11:44:42.2107985+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laudantium",
+  "ConceptualType": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 16
     }
   }
 }

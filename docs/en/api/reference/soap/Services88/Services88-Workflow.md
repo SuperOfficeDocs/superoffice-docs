@@ -784,6 +784,7 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="FieldValuesPerson" nillable="true" type="tns:ArrayOfFieldValueInfo" />
               <xs:element minOccurs="0" name="FieldValuesCompany" nillable="true" type="tns:ArrayOfFieldValueInfo" />
             </xs:sequence>

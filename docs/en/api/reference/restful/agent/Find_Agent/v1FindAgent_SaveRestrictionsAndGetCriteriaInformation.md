@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "beatae",
-  "ProviderName": "Swaniawski LLC",
-  "StorageKey": "officiis",
+  "StorageType": "maxime",
+  "ProviderName": "Mraz Inc and Sons",
+  "StorageKey": "itaque",
   "Restrictions": [
     {
-      "Name": "Fisher-Kub",
-      "Operator": "nesciunt",
+      "Name": "Kirlin, White and Yundt",
+      "Operator": "explicabo",
       "Values": [
-        "iusto",
-        "explicabo"
+        "illo",
+        "sed"
       ],
       "DisplayValues": [
-        "enim",
-        "ut"
+        "placeat",
+        "minima"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 789,
+      "InterParenthesis": 962,
       "InterOperator": "And",
-      "UniqueHash": 377
+      "UniqueHash": 767
     }
   ],
   "StaticColumns": [
-    "necessitatibus",
-    "optio"
+    "cum",
+    "maxime"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hagenes-McClure",
-      "Operator": "asperiores",
+      "Name": "Turcotte, Russel and Larkin",
+      "Operator": "ipsam",
       "Values": [
-        "ipsa",
-        "hic"
+        "suscipit",
+        "a"
       ],
       "DisplayValues": [
-        "officiis",
-        "enim"
+        "rerum",
+        "nesciunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 512,
+      "InterParenthesis": 908,
       "InterOperator": "And",
-      "UniqueHash": 910
+      "UniqueHash": 925
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ziemann-Reinger",
-      "DisplayTooltip": "maxime",
-      "DisplayType": "saepe",
-      "CanOrderBy": true,
-      "Name": "Weissnat Group",
+      "DisplayName": "Stark Inc and Sons",
+      "DisplayTooltip": "repudiandae",
+      "DisplayType": "esse",
+      "CanOrderBy": false,
+      "Name": "Okuneva-Bechtelar",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Huels-Steuber",
-      "IsVisible": true,
-      "ExtraInfo": "doloribus",
-      "Width": "natus",
-      "IconHint": "ipsum",
-      "HeadingIconHint": "et"
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Wintheiser-Keeling",
+      "IsVisible": false,
+      "ExtraInfo": "qui",
+      "Width": "aut",
+      "IconHint": "asperiores",
+      "HeadingIconHint": "dolores"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Gerlach-Sporer",
-      "PrimaryKey": 699,
+      "EntityName": "Hyatt Group",
+      "PrimaryKey": 423,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "facere",
-          "LinkHint": "magnam"
+          "DisplayValue": "quidem",
+          "TooltipHint": "magnam",
+          "LinkHint": "labore"
         }
       },
-      "LinkHint": "porro",
-      "StyleHint": "laboriosam",
+      "LinkHint": "voluptatem",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldLength": 586
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jacobs, Bogisich and Dach",
-      "Description": "Virtual secondary model",
-      "Rank": 5,
+      "Name": "Blanda, Smitham and Willms",
+      "Description": "Decentralized coherent implementation",
+      "Rank": 456,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jacobs, Bogisich and Dach",
-      "Description": "Virtual secondary model",
-      "Rank": 5,
+      "Name": "Blanda, Smitham and Willms",
+      "Description": "Decentralized coherent implementation",
+      "Rank": 456,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 836
     }
   }
 }

@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 355,
-  "Name": "Turcotte-Lockman",
-  "Tooltip": "ex",
+  "RoleId": 461,
+  "Name": "Ankunding Inc and Sons",
+  "Tooltip": "atque",
   "RoleType": "Anonymous",
-  "Deleted": 210,
-  "Rank": 587,
-  "Created": "2019-03-13T12:19:53.7898269+01:00",
-  "UseCategories": 362,
+  "Deleted": 136,
+  "Rank": 445,
+  "Created": "2005-12-20T11:44:42.2107985+01:00",
+  "UseCategories": 746,
   "CreatedBy": null,
-  "Updated": "2010-11-17T12:19:53.7898269+01:00",
+  "Updated": "2022-04-14T11:44:42.2107985+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 227,
-  "Name": "Armstrong, Hermiston and Waters",
-  "Tooltip": "nostrum",
+  "RoleId": 749,
+  "Name": "Pacocha Group",
+  "Tooltip": "omnis",
   "RoleType": "Anonymous",
-  "Deleted": 472,
-  "Rank": 119,
-  "Created": "2004-05-21T12:19:53.7898269+02:00",
-  "UseCategories": 741,
+  "Deleted": 933,
+  "Rank": 694,
+  "Created": "2009-02-11T11:44:42.2264732+01:00",
+  "UseCategories": 621,
   "CreatedBy": null,
-  "Updated": "1997-04-27T12:19:53.7898269+02:00",
+  "Updated": "2008-06-10T11:44:42.2264732+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 768
     }
   },
   "_Links": {

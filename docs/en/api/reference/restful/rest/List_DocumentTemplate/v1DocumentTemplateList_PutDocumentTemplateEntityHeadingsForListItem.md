@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "D'Amore, Altenwerth and Renner",
-    "ToolTip": "Exercitationem nesciunt accusantium quisquam dolorem quasi.",
-    "Deleted": true,
-    "Rank": 221,
-    "Type": "et",
-    "ColorBlock": 357,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2005-06-28T12:19:54.4459158+02:00",
+    "Id": 93,
+    "Name": "Padberg, Nader and Schinner",
+    "ToolTip": "Reprehenderit dolor voluptatum.",
+    "Deleted": false,
+    "Rank": 816,
+    "Type": "dolorum",
+    "ColorBlock": 561,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2008-03-15T11:44:43.085652+01:00",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Boyle-Lehner",
-        "ToolTip": "Sit ducimus voluptates est saepe ut nemo.",
-        "Deleted": true,
-        "Rank": 198,
-        "Type": "non",
-        "ColorBlock": 305,
-        "IconHint": "velit",
+        "Id": 952,
+        "Name": "Kreiger Inc and Sons",
+        "ToolTip": "Qui aut porro nihil iste.",
+        "Deleted": false,
+        "Rank": 586,
+        "Type": "voluptas",
+        "ColorBlock": 641,
+        "IconHint": "doloremque",
         "Selected": true,
-        "LastChanged": "2000-12-27T12:19:54.4459158+01:00",
+        "LastChanged": "2005-06-26T11:44:43.085652+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Trey Mills"
+        "ExtraInfo": "in",
+        "StyleHint": "pariatur",
+        "Hidden": false,
+        "FullName": "Kianna Witting"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Mrs. Forrest Floy Gorczany"
+    "ExtraInfo": "suscipit",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Miss Derrick Farrell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Parker-Leannon",
-    "ToolTip": "Laboriosam recusandae quia ex sed.",
-    "Deleted": true,
-    "Rank": 746,
-    "Type": "autem",
-    "ColorBlock": 725,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2013-02-03T12:19:54.4459158+01:00",
+    "Id": 412,
+    "Name": "Kutch-Stark",
+    "ToolTip": "Ut reprehenderit quis est distinctio rerum quos.",
+    "Deleted": false,
+    "Rank": 802,
+    "Type": "voluptatem",
+    "ColorBlock": 535,
+    "IconHint": "eligendi",
+    "Selected": false,
+    "LastChanged": "1998-10-21T11:44:43.085652+02:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Nader Inc and Sons",
-        "ToolTip": "Autem iure quaerat.",
+        "Id": 387,
+        "Name": "Walsh-Kilback",
+        "ToolTip": "Optio ut debitis.",
         "Deleted": false,
-        "Rank": 614,
-        "Type": "id",
-        "ColorBlock": 781,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2002-11-15T12:19:54.4459158+01:00",
+        "Rank": 227,
+        "Type": "cupiditate",
+        "ColorBlock": 246,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2021-06-04T11:44:43.085652+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "nam",
+        "ExtraInfo": "non",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Easter Kessler",
+        "FullName": "Ms. Sydnie O'Conner I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 340
+            "FieldType": "System.Int32",
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "est",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Judd Brakus",
+    "FullName": "Verna DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldType": "System.Int32",
+        "FieldLength": 313
       }
     }
   }

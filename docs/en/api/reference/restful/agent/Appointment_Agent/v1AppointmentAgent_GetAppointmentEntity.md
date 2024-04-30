@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=465
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=692
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-01-11T12:19:44.2581233+01:00",
-  "AppointmentId": 984,
-  "Description": "Integrated modular open system",
-  "Title": "asperiores",
-  "Agenda": "deserunt",
-  "InternalNotes": "numquam",
-  "StartDate": "2020-12-24T12:19:44.2581233+01:00",
-  "EndDate": "1997-05-05T12:19:44.2581233+02:00",
+  "CreatedDate": "2001-10-04T11:44:32.5568356+02:00",
+  "AppointmentId": 178,
+  "Description": "Business-focused optimizing archive",
+  "Title": "a",
+  "Agenda": "velit",
+  "InternalNotes": "porro",
+  "StartDate": "2002-02-13T11:44:32.5568356+01:00",
+  "EndDate": "2007-10-19T11:44:32.5568356+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 580,
+  "MotherId": 574,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-07-11T12:19:44.2581233+02:00",
+  "UpdatedDate": "2019-01-03T11:44:32.5568356+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 661,
+  "ActiveLinks": 886,
   "Links": [
     {
-      "EntityName": "Lesch, Reichel and Reinger",
-      "Id": 748,
-      "Description": "Advanced modular leverage",
-      "ExtraInfo": "molestias",
-      "LinkId": 435,
+      "EntityName": "Bailey Inc and Sons",
+      "Id": 741,
+      "Description": "Monitored analyzing budgetary management",
+      "ExtraInfo": "quam",
+      "LinkId": 34,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     }
   ],
-  "AlarmLeadTime": "incidunt",
-  "HasAlarm": true,
-  "ColorIndex": 27,
-  "IsFree": true,
+  "AlarmLeadTime": "nostrum",
+  "HasAlarm": false,
+  "ColorIndex": 90,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "ut",
-  "LeadTime": "ut",
-  "Location": "et",
-  "RejectCounter": 635,
+  "LagTime": "hic",
+  "LeadTime": "omnis",
+  "Location": "quidem",
+  "RejectCounter": 945,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 888,
-      "PersonId": 537,
-      "ContactId": 643,
-      "EmailId": 10,
+      "AssociateId": 256,
+      "PersonId": 121,
+      "ContactId": 890,
+      "EmailId": 866,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dexter@rolfson.info",
-      "Description": "Ergonomic local model"
+      "EmailAddress": "lonnie@beahan.info",
+      "Description": "Operative directional intranet"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-08-21T12:19:44.2581233+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2011-08-23T11:44:32.5568356+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 544,
+  "PreferredTZLocation": 33,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 210,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 883,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "debitis",
+  "CentralserviceVideomeetId": "enim",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Brenden Lindgren"
+    "SuperOffice:1": "2074912995",
+    "SuperOffice:2": "Wallace Gutkowski"
   },
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "et",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "a",
+    "CustomFields2": "animi"
   },
-  "PublishEventDate": "2004-05-29T12:19:44.2581233+02:00",
-  "PublishTo": "2014-04-29T12:19:44.2581233+02:00",
-  "PublishFrom": "2002-12-11T12:19:44.2581233+01:00",
+  "PublishEventDate": "2018-04-10T11:44:32.5568356+02:00",
+  "PublishTo": "2017-08-05T11:44:32.5568356+02:00",
+  "PublishFrom": "2020-02-13T11:44:32.5568356+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 604,
+      "VisibleId": 208,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 258
         }
       }
     },
     {
-      "VisibleId": 604,
+      "VisibleId": 208,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 258
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 489
     }
   }
 }

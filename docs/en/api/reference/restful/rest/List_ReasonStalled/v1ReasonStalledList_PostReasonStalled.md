@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 967,
-  "Name": "Pfannerstill, Leffler and Roberts",
-  "Tooltip": "debitis",
+  "Id": 702,
+  "Name": "Jaskolski Inc and Sons",
+  "Tooltip": "commodi",
   "Deleted": true,
-  "UdListDefinitionId": 676,
-  "Rank": 72
+  "UdListDefinitionId": 345,
+  "Rank": 250
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Willms LLC",
-  "Tooltip": "eligendi",
+  "Id": 768,
+  "Name": "Russel-Legros",
+  "Tooltip": "minima",
   "Deleted": false,
-  "UdListDefinitionId": 906,
-  "Rank": 375,
+  "UdListDefinitionId": 892,
+  "Rank": 174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldType": "System.String",
+      "FieldLength": 49
     }
   }
 }

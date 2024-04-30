@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 397,
-  "Name": "Welch-Sipes",
-  "Tooltip": "amet",
+  "Id": 793,
+  "Name": "Daugherty, Gutkowski and Luettgen",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 952,
-  "Rank": 869,
+  "UdListDefinitionId": 924,
+  "Rank": 160,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 240
+      "FieldLength": 358
     }
   }
 }

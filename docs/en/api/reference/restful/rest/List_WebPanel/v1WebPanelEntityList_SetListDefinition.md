@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Gleichner, Langosh and Bernhard",
-  "Tooltip": "repellendus",
+  "Id": 843,
+  "Name": "O'Hara Inc and Sons",
+  "Tooltip": "unde",
   "Deleted": true,
-  "Rank": 686,
+  "Rank": 894,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iste",
+  "ListType": "quis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 751,
-  "Name": "Hickle-Jones",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 560,
+  "Id": 779,
+  "Name": "Cruickshank, Hahn and Wehner",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "Rank": 780,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "amet",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

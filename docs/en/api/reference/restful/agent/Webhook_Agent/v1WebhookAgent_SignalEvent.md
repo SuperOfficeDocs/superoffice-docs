@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Cassin, Stamm and Schaefer",
-  "PrimaryKey": 412,
+  "EventName": "Wolff Inc and Sons",
+  "PrimaryKey": 513,
   "Data": {
     "fieldName": {}
   }

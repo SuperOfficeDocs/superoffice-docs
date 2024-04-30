@@ -479,7 +479,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/personRegisteredDate,contact/contactAssociate/fullName,person/personExtra/x_person_boolean
+GET /api/v1/archive/Mail2?$select=folderId,mailusername,person/personAddress/formattedMultiLineAddress,contact/updatedByFullName,contact/contactFax/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

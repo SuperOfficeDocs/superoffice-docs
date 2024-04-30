@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 399,
-    "Name": "Durgan Group",
+    "TicketPriorityId": 176,
+    "Name": "Langworth, Kling and Nicolas",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 670,
+    "SortOrder": 414,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 260,
-    "MonStart": "2008-05-09T12:19:54.898948+02:00",
-    "MonStop": "2001-05-24T12:19:54.898948+02:00",
-    "TueStart": "2019-03-21T12:19:54.898948+01:00",
-    "TueStop": "2018-06-26T12:19:54.898948+02:00",
-    "WedStart": "2003-11-24T12:19:54.898948+01:00",
-    "WedStop": "2010-05-19T12:19:54.898948+02:00",
-    "ThuStart": "1998-02-25T12:19:54.898948+01:00",
-    "ThuStop": "2000-02-29T12:19:54.898948+01:00",
-    "FriStart": "2021-04-14T12:19:54.898948+02:00",
-    "FriStop": "2011-07-01T12:19:54.898948+02:00",
-    "SatStart": "2008-03-29T12:19:54.898948+01:00",
-    "SatStop": "2001-03-09T12:19:54.898948+01:00",
-    "SunStart": "2021-11-18T12:19:54.898948+01:00",
-    "SunStop": "2011-12-24T12:19:54.898948+01:00",
+    "Deadline": 969,
+    "MonStart": "2010-03-01T11:44:43.398025+01:00",
+    "MonStop": "2000-03-18T11:44:43.398025+01:00",
+    "TueStart": "2001-01-10T11:44:43.398025+01:00",
+    "TueStop": "1999-02-05T11:44:43.398025+01:00",
+    "WedStart": "2000-12-20T11:44:43.398025+01:00",
+    "WedStop": "2020-07-17T11:44:43.398025+02:00",
+    "ThuStart": "2003-11-25T11:44:43.398025+01:00",
+    "ThuStop": "2005-08-27T11:44:43.398025+02:00",
+    "FriStart": "2009-11-01T11:44:43.398025+01:00",
+    "FriStop": "2017-07-15T11:44:43.398025+02:00",
+    "SatStart": "2005-05-28T11:44:43.398025+02:00",
+    "SatStop": "2005-01-28T11:44:43.398025+01:00",
+    "SunStart": "2020-07-16T11:44:43.398025+02:00",
+    "SunStop": "2004-12-01T11:44:43.398025+01:00",
     "NonDates": [
-      "est",
-      "consectetur"
+      "molestiae",
+      "quos"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 874,
-        "AlertLevel": 106,
-        "AlertTimeout": 487,
-        "Action": 900,
-        "DelegateTo": 871,
-        "ScriptId": 521,
-        "EmailTo": "brandon@leffler.uk",
-        "SmsTo": "commodi",
-        "ReplyTemplateIdCustomer": 378,
-        "ReplyTemplateIdUser": 314,
-        "ReplyTemplateIdCatmast": 488,
-        "ReplyTemplateIdEmail": 995,
-        "RtiCustomerSms": 272,
-        "ReplyTemplateIdUserSms": 259,
-        "ReplyTemplateIdCatmastSms": 259,
-        "ReplyTemplateIdSms": 281,
+        "TicketAlertId": 954,
+        "AlertLevel": 304,
+        "AlertTimeout": 298,
+        "Action": 383,
+        "DelegateTo": 148,
+        "ScriptId": 811,
+        "EmailTo": "russ.gerhold@greenzemlak.name",
+        "SmsTo": "eveniet",
+        "ReplyTemplateIdCustomer": 558,
+        "ReplyTemplateIdUser": 908,
+        "ReplyTemplateIdCatmast": 656,
+        "ReplyTemplateIdEmail": 303,
+        "RtiCustomerSms": 32,
+        "ReplyTemplateIdUserSms": 381,
+        "ReplyTemplateIdCatmastSms": 247,
+        "ReplyTemplateIdSms": 27,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 991
+            "FieldType": "System.String",
+            "FieldLength": 297
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldType": "System.String",
+        "FieldLength": 576
       }
     }
   }

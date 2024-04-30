@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 162,
-  "ListItemId": 24
+  "UdListDefinitionId": 467,
+  "ListItemId": 10
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 709,
-    "Name": "Rau, Langworth and Ruecker",
-    "ToolTip": "Sint beatae est ad ut error.",
-    "Deleted": false,
-    "Rank": 76,
-    "Type": "eius",
-    "ColorBlock": 765,
-    "IconHint": "ea",
+    "Id": 82,
+    "Name": "Jewess, Kling and Upton",
+    "ToolTip": "Non omnis ab nihil adipisci iure.",
+    "Deleted": true,
+    "Rank": 467,
+    "Type": "recusandae",
+    "ColorBlock": 379,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "1997-03-10T12:19:45.4922171+01:00",
+    "LastChanged": "2018-04-08T11:44:33.8377919+02:00",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Lueilwitz-Keebler",
-        "ToolTip": "Quia sit exercitationem tempore.",
-        "Deleted": true,
-        "Rank": 347,
-        "Type": "alias",
-        "ColorBlock": 546,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "2023-02-20T12:19:45.4922171+01:00",
+        "Id": 469,
+        "Name": "Gibson-Beahan",
+        "ToolTip": "Maxime error neque exercitationem voluptas sed quo.",
+        "Deleted": false,
+        "Rank": 576,
+        "Type": "eum",
+        "ColorBlock": 931,
+        "IconHint": "labore",
+        "Selected": true,
+        "LastChanged": "1997-10-31T11:44:33.8377919+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Lewis Schulist",
+        "ExtraInfo": "rem",
+        "StyleHint": "recusandae",
+        "Hidden": false,
+        "FullName": "Wilburn Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 316
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "et",
+    "ExtraInfo": "vero",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Dedrick Padberg PhD",
+    "FullName": "Dr. Jared Jast PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 818
+        "FieldType": "System.Int32",
+        "FieldLength": 271
       }
     }
   }

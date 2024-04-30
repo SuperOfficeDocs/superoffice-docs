@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 214,
-  "ColumnId": 776,
-  "FieldDefault": "et",
-  "FieldHeight": 434,
-  "FieldLabel": "hic",
-  "FieldLeft": 35,
-  "FieldTop": 517,
+  "UDefFieldId": 975,
+  "ColumnId": 930,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 849,
+  "FieldLabel": "est",
+  "FieldLeft": 854,
+  "FieldTop": 8,
   "FieldType": "Checkbox",
-  "FieldWidth": 905,
-  "FormatMask": "qui",
+  "FieldWidth": 620,
+  "FormatMask": "iure",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 520,
-  "LabelLeft": 500,
-  "LabelTop": 465,
-  "LabelWidth": 662,
-  "LastVersionId": 321,
-  "ListTableId": 366,
+  "IsIndexed": false,
+  "LabelHeight": 758,
+  "LabelLeft": 89,
+  "LabelTop": 997,
+  "LabelWidth": 789,
+  "LastVersionId": 632,
+  "ListTableId": 805,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 908,
-  "ProgId": "laborum",
+  "Page1LineNo": 610,
+  "ProgId": "sint",
   "IsReadOnly": true,
-  "ShortLabel": "rem",
-  "TabOrder": 278,
-  "TextLength": 245,
-  "Tooltip": "non",
-  "UdefIdentity": 375,
-  "UDListDefinitionId": 875,
+  "ShortLabel": "non",
+  "TabOrder": 293,
+  "TextLength": 956,
+  "Tooltip": "sunt",
+  "UdefIdentity": 581,
+  "UDListDefinitionId": 417,
   "Justification": "Center",
-  "Version": 20,
-  "TemplateVariableName": "O'Conner, Franecki and Kiehn",
+  "Version": 330,
+  "TemplateVariableName": "Weber, Ebert and Bruen",
   "HasBeenPublished": false,
-  "MdoListName": "Muller LLC",
+  "MdoListName": "Buckridge-Grimes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldLength": 520
     }
   }
 }

@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 45,
-  "StartTime": "2000-09-21T12:19:44.1487684+02:00",
-  "EndTime": "2020-12-03T12:19:44.1487684+01:00",
-  "Count": 407,
-  "TaskId": 99
+  "ContactId": 217,
+  "StartTime": "2000-10-24T11:44:32.2912723+02:00",
+  "EndTime": "2023-01-24T11:44:32.2912723+01:00",
+  "Count": 582,
+  "TaskId": 354
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 120,
-    "StartDate": "2013-08-20T12:19:44.1487684+02:00",
-    "EndDate": "2018-03-18T12:19:44.1487684+01:00",
+    "AppointmentId": 847,
+    "StartDate": "2004-03-10T11:44:32.2912723+01:00",
+    "EndDate": "2019-05-25T11:44:32.2912723+02:00",
     "Type": "BookingForChecklist",
-    "Task": "illo",
-    "AssociateFullName": "Loyce Hyatt DVM",
-    "ContactName": "Funk, Smitham and Dicki",
-    "Description": "Configurable context-sensitive paradigm",
-    "PersonFullName": "Erwin Ziemann",
-    "PersonId": 217,
-    "ContactId": 837,
-    "ProjectId": 981,
-    "ProjectName": "Kuvalis Inc and Sons",
+    "Task": "est",
+    "AssociateFullName": "Hector Price",
+    "ContactName": "Satterfield, Sanford and McLaughlin",
+    "Description": "Enterprise-wide exuding definition",
+    "PersonFullName": "Hosea D'Amore",
+    "PersonId": 393,
+    "ContactId": 399,
+    "ProjectId": 934,
+    "ProjectName": "Dietrich-Parker",
     "IsPublished": false,
-    "AssociateId": 473,
-    "ColorIndex": 128,
+    "AssociateId": 483,
+    "ColorIndex": 851,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 469,
-    "PriorityName": "Tillman, Raynor and Ruecker",
+    "PriorityId": 964,
+    "PriorityName": "Zieme LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2006-09-10T12:19:44.1487684+02:00",
+    "ActiveDate": "2016-08-28T11:44:32.2912723+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-12-30T12:19:44.1487684+01:00",
-    "RecurringEndDate": "2002-05-13T12:19:44.1487684+02:00",
-    "MotherId": 465,
-    "AssignedBy": 426,
-    "AssignedByFullName": "Chasity Stroman",
+    "RecurringStartDate": "1998-02-19T11:44:32.2912723+01:00",
+    "RecurringEndDate": "2022-03-14T11:44:32.2912723+01:00",
+    "MotherId": 311,
+    "AssignedBy": 119,
+    "AssignedByFullName": "Hope Quitzon",
     "RejectReason": "",
-    "Location": "modi",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 362,
-    "SaleName": "Metz LLC",
-    "AssociateName": "Ferry Group",
-    "CreatedDate": "2019-04-19T12:19:44.1487684+02:00",
-    "CreatedBy": "quod",
-    "CreatedByFullName": "Augustine Stamm",
-    "CreatedByAssociateId": 343,
+    "Location": "et",
+    "AlarmLeadTime": "officia",
+    "SaleId": 296,
+    "SaleName": "Erdman-O'Hara",
+    "AssociateName": "Leffler, Stoltenberg and Marquardt",
+    "CreatedDate": "1998-01-24T11:44:32.2912723+01:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Beau Murphy",
+    "CreatedByAssociateId": 449,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 347,
-    "Title": "ullam",
-    "Agenda": "dolorem",
-    "InternalNotes": "voluptate",
+    "PreferredTZLocation": 747,
+    "Title": "doloremque",
+    "Agenda": "magnam",
+    "InternalNotes": "culpa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

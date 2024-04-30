@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "itaque",
-  "Value": "officia",
-  "RecordId": 305,
-  "CreatedDate": "2019-07-15T12:19:53.6023745+02:00",
-  "UpdatedDate": "2018-02-17T12:19:53.6023745+01:00",
-  "UpdatedBy": "consectetur",
-  "CreatedBy": "iste",
-  "TableName": "Bednar, Russel and Wehner"
+  "Key": "dolor",
+  "Value": "ea",
+  "RecordId": 884,
+  "CreatedDate": "2014-04-29T11:44:42.0077636+02:00",
+  "UpdatedDate": "2020-11-15T11:44:42.0077636+01:00",
+  "UpdatedBy": "doloremque",
+  "CreatedBy": "odio",
+  "TableName": "Lang, McClure and Leuschke"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eveniet",
-  "Value": "molestiae",
-  "RecordId": 595,
-  "CreatedDate": "2017-04-30T12:19:53.6023745+02:00",
-  "UpdatedDate": "2003-06-16T12:19:53.6023745+02:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "nobis",
-  "TableName": "Dare, Blick and Powlowski",
+  "Key": "ipsa",
+  "Value": "et",
+  "RecordId": 575,
+  "CreatedDate": "2018-05-19T11:44:42.0077636+02:00",
+  "UpdatedDate": "2012-08-13T11:44:42.0077636+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "in",
+  "TableName": "Howe LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 291
+      "FieldType": "System.Int32",
+      "FieldLength": 648
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 702,
+  "HierarchyId": 424,
   "Domain": "Dashboards",
-  "Name": "Olson, Fay and Hegmann",
-  "Fullname": "rerum",
-  "ParentId": 994,
+  "Name": "Mosciski, Halvorson and Bode",
+  "Fullname": "est",
+  "ParentId": 254,
   "Children": [
     {
-      "HierarchyId": 263,
+      "HierarchyId": 116,
       "Domain": "Dashboards",
-      "Name": "Wolf-Von",
-      "Fullname": "laudantium",
-      "ParentId": 127,
+      "Name": "King Inc and Sons",
+      "Fullname": "aut",
+      "ParentId": 579,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-11-01T12:19:45.5547007+01:00",
-      "RegisteredAssociateId": 711,
-      "Updated": "2013-08-09T12:19:45.5547007+02:00",
-      "UpdatedAssociateId": 636,
+      "Registered": "2020-10-10T11:44:33.9002761+02:00",
+      "RegisteredAssociateId": 600,
+      "Updated": "2020-04-09T11:44:33.9002761+02:00",
+      "UpdatedAssociateId": 4,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 192
         }
       }
     }
   ],
-  "Registered": "2012-04-12T12:19:45.5547007+02:00",
-  "RegisteredAssociateId": 959,
-  "Updated": "2013-03-23T12:19:45.5547007+01:00",
-  "UpdatedAssociateId": 845,
+  "Registered": "2009-11-17T11:44:33.9002761+01:00",
+  "RegisteredAssociateId": 413,
+  "Updated": "1996-11-28T11:44:33.9002761+01:00",
+  "UpdatedAssociateId": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 865
     }
   }
 }

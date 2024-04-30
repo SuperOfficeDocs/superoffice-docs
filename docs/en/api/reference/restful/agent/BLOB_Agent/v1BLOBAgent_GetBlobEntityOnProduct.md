@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 873
+  "ProductId": 940
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 108,
-  "BlobSize": 403,
-  "Description": "Ergonomic reciprocal groupware",
-  "ExtraInfo": "dolorem",
-  "IsEncrypted": false,
+  "BlobId": 699,
+  "BlobSize": 548,
+  "Description": "Proactive value-added portal",
+  "ExtraInfo": "non",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quibusdam",
-  "OriginalSize": 725,
-  "CreatedDate": "2015-04-15T12:19:44.539312+02:00",
-  "UpdatedDate": "2005-05-21T12:19:44.539312+02:00",
+  "MimeType": "recusandae",
+  "OriginalSize": 203,
+  "CreatedDate": "1999-07-17T11:44:32.8380188+02:00",
+  "UpdatedDate": "2017-02-19T11:44:32.8380188+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldType": "System.Int32",
+      "FieldLength": 254
     }
   }
 }

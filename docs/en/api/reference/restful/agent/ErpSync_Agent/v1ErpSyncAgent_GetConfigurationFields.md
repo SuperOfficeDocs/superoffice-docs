@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 529
+  "ErpConnectorId": 667
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "incidunt",
-    "Rank": 610,
-    "DisplayName": "Herzog Inc and Sons",
-    "DisplayDescription": "Synergized fresh-thinking info-mediaries",
+    "FieldKey": "quia",
+    "Rank": 128,
+    "DisplayName": "Predovic Group",
+    "DisplayDescription": "Universal value-added architecture",
     "FieldType": "Checkbox",
-    "ListName": "Jones-Sipes",
-    "DefaultValue": "quis",
-    "MaxLength": 379,
+    "ListName": "Vandervort, Bauch and O'Conner",
+    "DefaultValue": "aut",
+    "MaxLength": 2,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldLength": 978
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Anderson, Schuppe and Goldner",
-    "ToolTip": "Quis nulla illo voluptas.",
-    "Deleted": false,
-    "Rank": 128,
-    "Type": "nemo",
-    "ColorBlock": 1002,
-    "IconHint": "illo",
+    "Id": 144,
+    "Name": "Rowe Group",
+    "ToolTip": "Voluptatem repellat qui ad non adipisci nesciunt.",
+    "Deleted": true,
+    "Rank": 20,
+    "Type": "delectus",
+    "ColorBlock": 730,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2018-04-20T12:19:46.5857106+02:00",
+    "LastChanged": "2005-07-13T11:44:34.9625302+02:00",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Kozey, Goldner and McDermott",
-        "ToolTip": "Molestias et nihil non maxime eveniet.",
-        "Deleted": true,
-        "Rank": 945,
-        "Type": "est",
-        "ColorBlock": 753,
-        "IconHint": "consequatur",
+        "Id": 616,
+        "Name": "Kunde, Romaguera and Mitchell",
+        "ToolTip": "Nesciunt qui quisquam.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "dolor",
+        "ColorBlock": 208,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2003-03-22T12:19:46.5857106+01:00",
+        "LastChanged": "2012-08-15T11:44:34.9625302+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "et",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Augusta Bogan",
+        "FullName": "Garret Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 669
+            "FieldType": "System.Int32",
+            "FieldLength": 70
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "iusto",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Magali Herman",
+    "FullName": "Sienna Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 173
       }
     }
   }

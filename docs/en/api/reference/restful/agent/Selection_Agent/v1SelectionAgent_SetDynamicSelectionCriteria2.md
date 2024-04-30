@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 173,
-  "Filter": "impedit"
+  "SelectionId": 900,
+  "Filter": "aut"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kilback Group",
-    "Operator": "labore",
+    "Name": "Terry LLC",
+    "Operator": "nihil",
     "Values": [
-      "ut",
-      "accusantium"
+      "id",
+      "tempora"
     ],
     "DisplayValues": [
-      "aut",
-      "molestias"
+      "dolor",
+      "dolore"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Daugherty, Homenick and Windler",
-        "Operator": "iusto",
+        "Name": "Kerluke, Kiehn and McKenzie",
+        "Operator": "vel",
         "Values": [
-          "similique",
-          "aspernatur"
+          "iusto",
+          "magnam"
         ],
         "DisplayValues": [
-          "incidunt",
-          "ut"
+          "consequatur",
+          "pariatur"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 174,
+        "InterParenthesis": 466,
         "InterOperator": "And",
-        "UniqueHash": 877
+        "UniqueHash": 666
       }
     ],
-    "InterParenthesis": 218,
+    "InterParenthesis": 918,
     "InterOperator": "And",
-    "UniqueHash": 842
+    "UniqueHash": 31
   }
 ]
 ```

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 217,
-  "Name": "McCullough, Raynor and Quitzon",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "UdListDefinitionId": 205,
-  "Rank": 332,
+  "Id": 459,
+  "Name": "Flatley, McDermott and Cassin",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 83,
+  "Rank": 263,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 384
     }
   }
 }

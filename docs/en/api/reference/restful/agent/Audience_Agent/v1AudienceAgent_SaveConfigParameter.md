@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Ebert, Kerluke and Koepp",
+  "LayoutName": "Hansen Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 390,
-  "Name": "Hirthe, Franecki and Hintz",
-  "Value": "aliquid",
-  "CreatedDate": "2010-07-22T12:19:44.5080652+02:00",
-  "UpdatedDate": "2011-02-09T12:19:44.5080652+01:00",
-  "CreatedBy": "aliquam",
-  "UpdatedBy": "magni",
+  "AudienceLayoutId": 551,
+  "Name": "Collins-Harber",
+  "Value": "amet",
+  "CreatedDate": "2019-04-09T11:44:32.806727+02:00",
+  "UpdatedDate": "2004-04-17T11:44:32.806727+02:00",
+  "CreatedBy": "quidem",
+  "UpdatedBy": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldLength": 145
     }
   }
 }

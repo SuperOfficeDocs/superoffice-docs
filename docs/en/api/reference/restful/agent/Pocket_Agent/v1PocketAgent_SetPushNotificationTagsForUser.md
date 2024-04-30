@@ -71,8 +71,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 555,
-  "Tags": "quam"
+  "AssociateId": 446,
+  "Tags": "eum"
 }
 ```
 

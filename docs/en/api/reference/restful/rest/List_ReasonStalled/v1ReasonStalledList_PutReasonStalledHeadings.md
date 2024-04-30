@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 92,
-    "Name": "Hodkiewicz LLC",
-    "Tooltip": "itaque",
+    "HeadingId": 357,
+    "Name": "Daniel Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 547,
-    "UdListDefinitionId": 32
+    "Rank": 301,
+    "UdListDefinitionId": 837
   },
   {
-    "HeadingId": 92,
-    "Name": "Hodkiewicz LLC",
-    "Tooltip": "itaque",
+    "HeadingId": 357,
+    "Name": "Daniel Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 547,
-    "UdListDefinitionId": 32
+    "Rank": 301,
+    "UdListDefinitionId": 837
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 94,
-    "Name": "Pollich Group",
-    "Tooltip": "totam",
+    "HeadingId": 972,
+    "Name": "Tremblay Inc and Sons",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 894,
+    "Rank": 909,
+    "UdListDefinitionId": 114,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 974
       }
     }
   }

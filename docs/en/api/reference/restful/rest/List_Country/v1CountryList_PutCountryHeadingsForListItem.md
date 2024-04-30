@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 881,
-    "Name": "Gorczany LLC",
-    "ToolTip": "Minus eius ut odio officia nulla.",
+    "Id": 864,
+    "Name": "Collins, Schroeder and Mills",
+    "ToolTip": "Consequatur et reprehenderit.",
     "Deleted": false,
-    "Rank": 877,
-    "Type": "laborum",
-    "ColorBlock": 415,
-    "IconHint": "voluptas",
+    "Rank": 59,
+    "Type": "quos",
+    "ColorBlock": 460,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2004-09-17T12:19:54.383431+02:00",
+    "LastChanged": "2000-10-22T11:44:43.0075335+02:00",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "West-Morar",
-        "ToolTip": "Itaque amet nesciunt earum laudantium debitis aut.",
-        "Deleted": true,
-        "Rank": 255,
-        "Type": "ex",
-        "ColorBlock": 865,
-        "IconHint": "dolor",
+        "Id": 62,
+        "Name": "Wiegand-O'Keefe",
+        "ToolTip": "Magnam aspernatur dignissimos qui enim eum.",
+        "Deleted": false,
+        "Rank": 311,
+        "Type": "ipsam",
+        "ColorBlock": 120,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2001-11-06T12:19:54.383431+01:00",
+        "LastChanged": "2016-09-18T11:44:43.0075335+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "ab",
-        "Hidden": false,
-        "FullName": "Stella Rowe"
+        "ExtraInfo": "esse",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Maddison Hahn"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "ipsum",
-    "Hidden": true,
-    "FullName": "Derek Kovacek V"
+    "ExtraInfo": "vel",
+    "StyleHint": "ipsa",
+    "Hidden": false,
+    "FullName": "Emile Prosacco"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Marvin, Boehm and Bailey",
-    "ToolTip": "Dolor iusto consequuntur cupiditate unde eveniet et quisquam.",
-    "Deleted": false,
-    "Rank": 166,
-    "Type": "quo",
-    "ColorBlock": 321,
-    "IconHint": "nobis",
+    "Id": 566,
+    "Name": "Becker, Hermann and Wuckert",
+    "ToolTip": "Totam quisquam asperiores velit vel quia nobis aut.",
+    "Deleted": true,
+    "Rank": 244,
+    "Type": "ipsum",
+    "ColorBlock": 40,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "1996-12-24T12:19:54.383431+01:00",
+    "LastChanged": "2011-11-16T11:44:43.0075335+01:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Carter-Satterfield",
-        "ToolTip": "Tempora cum voluptate iure aut.",
-        "Deleted": false,
-        "Rank": 355,
-        "Type": "sit",
-        "ColorBlock": 2,
-        "IconHint": "rerum",
+        "Id": 300,
+        "Name": "Williamson Group",
+        "ToolTip": "Ipsam pariatur autem modi dignissimos omnis eos.",
+        "Deleted": true,
+        "Rank": 641,
+        "Type": "hic",
+        "ColorBlock": 589,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2007-11-23T12:19:54.383431+01:00",
+        "LastChanged": "1996-12-04T11:44:43.0075335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Reyna Dach MD",
+        "ExtraInfo": "illo",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Prof. Ollie Stamm IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 331
+            "FieldLength": 831
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "quisquam",
-    "Hidden": true,
-    "FullName": "Liza Paucek Sr.",
+    "ExtraInfo": "impedit",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mrs. Kurtis Darrick Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldType": "System.Int32",
+        "FieldLength": 488
       }
     }
   }

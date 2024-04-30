@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "380-007-6467 x4158",
-    "PersonCellPhone": "074-527-2905",
-    "PersonPrivatePhone": "224-272-6919",
-    "PersonFaxNumber": "997764",
-    "PersonPagerNumber": "1412616",
-    "PersonEmail": "therese.labadie@stroman.us",
-    "Id": 661,
-    "Name": "Hauck, Runolfsson and Gorczany",
-    "Tooltip": "et",
-    "UniqueId": "quasi",
+    "PersonDirectPhone": "1-491-825-9655",
+    "PersonCellPhone": "941-000-5283",
+    "PersonPrivatePhone": "027.479.5421",
+    "PersonFaxNumber": "384256",
+    "PersonPagerNumber": "1445234",
+    "PersonEmail": "sibyl@nitzsche.us",
+    "Id": 877,
+    "Name": "Feil Group",
+    "Tooltip": "recusandae",
+    "UniqueId": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 970
       }
     }
   }

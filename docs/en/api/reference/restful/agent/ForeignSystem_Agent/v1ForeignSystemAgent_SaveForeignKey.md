@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Wuckert-Strosin",
-  "DeviceName": "West LLC",
-  "DeviceIdentifier": "aspernatur"
+  "ApplicationName": "Moore, Bartoletti and Stiedemann",
+  "DeviceName": "Ratke, Spencer and Greenholt",
+  "DeviceIdentifier": "aut"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "velit",
-  "Value": "eius",
-  "RecordId": 156,
-  "CreatedDate": "1997-01-19T12:19:45.4297292+01:00",
-  "UpdatedDate": "2009-01-30T12:19:45.4297292+01:00",
-  "UpdatedBy": "asperiores",
-  "CreatedBy": "accusantium",
-  "TableName": "Zboncak, Durgan and Ratke",
+  "Key": "voluptatum",
+  "Value": "necessitatibus",
+  "RecordId": 704,
+  "CreatedDate": "2009-05-16T11:44:33.7753083+02:00",
+  "UpdatedDate": "2012-10-20T11:44:33.7753083+02:00",
+  "UpdatedBy": "eligendi",
+  "CreatedBy": "officiis",
+  "TableName": "Mann-Bernier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 364
     }
   }
 }

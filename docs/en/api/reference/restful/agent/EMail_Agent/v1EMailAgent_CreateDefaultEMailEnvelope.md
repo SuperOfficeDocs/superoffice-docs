@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 144,
-  "MessageId": "consequuntur",
-  "Subject": "esse",
+  "ServerId": 343,
+  "MessageId": "illo",
+  "Subject": "odio",
   "From": null,
   "To": [
     {
-      "ContactId": 537,
-      "ContactName": "Orn-Wehner",
-      "PersonId": 106,
-      "PersonName": "Pagac LLC",
-      "AssociateId": 848,
-      "Address": "dolores",
-      "EmailId": 699,
+      "ContactId": 891,
+      "ContactName": "Roob-West",
+      "PersonId": 717,
+      "PersonName": "Hodkiewicz Inc and Sons",
+      "AssociateId": 984,
+      "Address": "minima",
+      "EmailId": 774,
       "DuplicatePersonIds": [
-        164,
-        327
+        963,
+        907
       ],
-      "Name": "Wyman-Lehner",
+      "Name": "Friesen, Cummings and Kertzmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 191
         }
       }
     }
   ],
-  "Sent": "2006-10-24T12:19:45.2735196+02:00",
+  "Sent": "2006-08-05T11:44:33.6190814+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 203,
+  "Size": 248,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 432
     }
   }
 }

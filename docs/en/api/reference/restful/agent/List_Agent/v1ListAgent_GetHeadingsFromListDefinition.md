@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738
+  "Id": 671
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "O'Conner, Hessel and Moen",
-    "Tooltip": "officiis",
+    "HeadingId": 874,
+    "Name": "Kilback-Cronin",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 326,
-    "UdListDefinitionId": 170,
+    "Rank": 11,
+    "UdListDefinitionId": 881,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 965
       }
     }
   }

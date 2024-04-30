@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 769,
+  "HierarchyId": 208,
   "Domain": "Dashboards",
-  "Name": "Gerhold, Ryan and Ortiz",
-  "Fullname": "dolores",
-  "ParentId": 628,
+  "Name": "Keeling, Keeling and Rodriguez",
+  "Fullname": "cumque",
+  "ParentId": 235,
   "Children": [
     {
-      "HierarchyId": 842,
+      "HierarchyId": 17,
       "Domain": "Dashboards",
-      "Name": "Bednar LLC",
-      "Fullname": "vel",
-      "ParentId": 274,
+      "Name": "Wolf-Towne",
+      "Fullname": "voluptatem",
+      "ParentId": 983,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-06-13T12:19:53.6023745+02:00",
-      "RegisteredAssociateId": 983,
-      "Updated": "2006-01-09T12:19:53.6023745+01:00",
-      "UpdatedAssociateId": 242,
+      "Registered": "2008-10-18T11:44:42.0077636+02:00",
+      "RegisteredAssociateId": 868,
+      "Updated": "1999-12-31T11:44:42.0077636+01:00",
+      "UpdatedAssociateId": 950,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 107
+          "FieldType": "System.Int32",
+          "FieldLength": 947
         }
       }
     }
   ],
-  "Registered": "2003-12-03T12:19:53.6023745+01:00",
-  "RegisteredAssociateId": 360,
-  "Updated": "2001-05-31T12:19:53.6023745+02:00",
-  "UpdatedAssociateId": 273,
+  "Registered": "2009-04-15T11:44:42.0077636+02:00",
+  "RegisteredAssociateId": 754,
+  "Updated": "2017-06-20T11:44:42.0077636+02:00",
+  "UpdatedAssociateId": 687,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 61
     }
   }
 }

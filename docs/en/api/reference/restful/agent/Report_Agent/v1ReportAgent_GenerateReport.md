@@ -77,32 +77,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 983,
-  "LabelLayoutId": 472,
-  "Filename": "temporibus",
-  "Language": "odio",
-  "FileType": "ab",
+  "ReportId": 418,
+  "LabelLayoutId": 337,
+  "Filename": "voluptas",
+  "Language": "earum",
+  "FileType": "rerum",
   "Restrictions": [
     {
-      "Name": "Schaden-Wisozk",
-      "Operator": "blanditiis",
+      "Name": "Bauch Inc and Sons",
+      "Operator": "tenetur",
       "Values": [
-        "sequi",
-        "omnis"
+        "optio",
+        "quis"
       ],
       "DisplayValues": [
-        "ut",
-        "doloribus"
+        "excepturi",
+        "blanditiis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 999,
+      "InterParenthesis": 46,
       "InterOperator": "And",
-      "UniqueHash": 832
+      "UniqueHash": 774
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"neque"
 ```

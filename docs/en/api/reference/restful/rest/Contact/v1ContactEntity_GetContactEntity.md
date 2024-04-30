@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 28 Mar 2001 12:19:53 G3T
+Last-Modified: Sat, 18 Oct 2003 11:44:41 G10T
 
 {
-  "ContactId": 565,
-  "Name": "Marks Group",
+  "ContactId": 368,
+  "Name": "Lindgren-Wiegand",
   "Department": "",
-  "OrgNr": "1467807",
-  "Number1": "1347469",
-  "Number2": "1372085",
-  "UpdatedDate": "2001-03-28T12:19:53.2274553+02:00",
-  "CreatedDate": "2005-04-23T12:19:53.2274553+02:00",
+  "OrgNr": "1495347",
+  "Number1": "1224745",
+  "Number2": "830115",
+  "UpdatedDate": "2003-10-18T11:44:41.7734006+02:00",
+  "CreatedDate": "2008-05-20T11:44:41.7734006+02:00",
   "Emails": [
     {
-      "Value": "cum",
-      "StrippedValue": "est",
-      "Description": "Horizontal stable productivity",
+      "Value": "eum",
+      "StrippedValue": "eligendi",
+      "Description": "Focused 24 hour instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 771
         }
       }
     },
     {
-      "Value": "cum",
-      "StrippedValue": "est",
-      "Description": "Horizontal stable productivity",
+      "Value": "eum",
+      "StrippedValue": "eligendi",
+      "Description": "Focused 24 hour instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 771
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 61,
-      "Name": "Kling, Fay and Brown",
-      "ToolTip": "Cupiditate cumque possimus accusantium qui similique adipisci et.",
-      "Deleted": false,
-      "Rank": 167,
-      "Type": "sed",
-      "ColorBlock": 825,
-      "IconHint": "est",
+      "Id": 97,
+      "Name": "Dickens, Lynch and Friesen",
+      "ToolTip": "Ad voluptatem.",
+      "Deleted": true,
+      "Rank": 33,
+      "Type": "aliquid",
+      "ColorBlock": 633,
+      "IconHint": "minus",
       "Selected": false,
-      "LastChanged": "2003-05-28T12:19:53.2274553+02:00",
+      "LastChanged": "2008-12-24T11:44:41.7890717+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "dignissimos",
+      "ExtraInfo": "temporibus",
+      "StyleHint": "ipsa",
       "Hidden": false,
-      "FullName": "Lamont Will",
+      "FullName": "Roxanne Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldLength": 532
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "consequatur",
-      "StrippedValue": "aut",
-      "Description": "Object-based national firmware",
+      "Value": "sint",
+      "StrippedValue": "velit",
+      "Description": "Ameliorated full-range productivity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 158
         }
       }
     },
     {
-      "Value": "consequatur",
-      "StrippedValue": "aut",
-      "Description": "Object-based national firmware",
+      "Value": "sint",
+      "StrippedValue": "velit",
+      "Description": "Ameliorated full-range productivity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 158
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "facilis",
-      "StrippedValue": "numquam",
-      "Description": "Mandatory even-keeled firmware",
+      "Value": "iure",
+      "StrippedValue": "consequatur",
+      "Description": "Diverse methodical alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 589
         }
       }
     },
     {
-      "Value": "facilis",
-      "StrippedValue": "numquam",
-      "Description": "Mandatory even-keeled firmware",
+      "Value": "iure",
+      "StrippedValue": "consequatur",
+      "Description": "Diverse methodical alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 589
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "eius",
-      "StrippedValue": "labore",
-      "Description": "Upgradable modular process improvement",
+      "Value": "voluptatibus",
+      "StrippedValue": "aut",
+      "Description": "Mandatory high-level neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 785
         }
       }
     },
     {
-      "Value": "eius",
-      "StrippedValue": "labore",
-      "Description": "Upgradable modular process improvement",
+      "Value": "voluptatibus",
+      "StrippedValue": "aut",
+      "Description": "Mandatory high-level neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 785
         }
       }
     }
   ],
-  "Description": "Adaptive zero administration application",
+  "Description": "Stand-alone tertiary orchestration",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,100 +289,100 @@ Last-Modified: Wed, 28 Mar 2001 12:19:53 G3T
   "Country": null,
   "Persons": [
     {
-      "Position": "ut",
-      "PersonId": 886,
-      "Mrmrs": "vero",
-      "Firstname": "Merl",
-      "Lastname": "VonRueden",
-      "MiddleName": "Ortiz LLC",
-      "Title": "consequatur",
-      "Description": "Automated full-range budgetary management",
-      "Email": "green@halvorson.ca",
-      "FullName": "Clark Ondricka",
-      "DirectPhone": "112.900.5046 x1075",
-      "FormalName": "Rice-Windler",
-      "CountryId": 565,
-      "ContactId": 587,
-      "ContactName": "Armstrong LLC",
-      "Retired": 797,
-      "Rank": 118,
-      "ActiveInterests": 158,
+      "Position": "in",
+      "PersonId": 259,
+      "Mrmrs": "sint",
+      "Firstname": "Price",
+      "Lastname": "Mann",
+      "MiddleName": "Conroy LLC",
+      "Title": "incidunt",
+      "Description": "Enterprise-wide modular intranet",
+      "Email": "nyah@harris.uk",
+      "FullName": "Roger Erdman",
+      "DirectPhone": "926-213-7638",
+      "FormalName": "Koss LLC",
+      "CountryId": 956,
+      "ContactId": 828,
+      "ContactName": "Harber, Kemmer and Block",
+      "Retired": 865,
+      "Rank": 902,
+      "ActiveInterests": 905,
       "ContactDepartment": "",
-      "ContactCountryId": 998,
-      "ContactOrgNr": "1118330",
-      "FaxPhone": "(096)283-3720",
-      "MobilePhone": "1-119-136-1727",
-      "ContactPhone": "(271)829-9664",
-      "AssociateName": "Oberbrunner Group",
-      "AssociateId": 283,
+      "ContactCountryId": 402,
+      "ContactOrgNr": "1020521",
+      "FaxPhone": "883-353-0070 x81673",
+      "MobilePhone": "1-707-864-7665 x35155",
+      "ContactPhone": "791.176.4861",
+      "AssociateName": "Durgan-Corkery",
+      "AssociateId": 291,
       "UsePersonAddress": true,
-      "ContactFax": "consequatur",
-      "Kanafname": "suscipit",
-      "Kanalname": "qui",
-      "Post1": "aut",
-      "Post2": "voluptate",
-      "Post3": "quo",
-      "EmailName": "gonzalo@bauch.uk",
-      "ContactFullName": "Brenda Bechtelar",
-      "ActiveErpLinks": 532,
-      "TicketPriorityId": 404,
-      "SupportLanguageId": 141,
-      "SupportAssociateId": 223,
+      "ContactFax": "molestias",
+      "Kanafname": "non",
+      "Kanalname": "facilis",
+      "Post1": "in",
+      "Post2": "et",
+      "Post3": "illo",
+      "EmailName": "bettye@crooks.us",
+      "ContactFullName": "Kaleb Schroeder",
+      "ActiveErpLinks": 534,
+      "TicketPriorityId": 359,
+      "SupportLanguageId": 683,
+      "SupportAssociateId": 544,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 706
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "dolor",
+  "NoMailing": false,
+  "Kananame": "similique",
   "Xstop": true,
-  "ActiveInterests": 103,
-  "GroupId": 307,
-  "ActiveStatusMonitorId": 306,
+  "ActiveInterests": 888,
+  "GroupId": 808,
+  "ActiveStatusMonitorId": 862,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 274,
-  "DbiAgentId": 593,
-  "DbiLastSyncronized": "2005-11-10T12:19:53.2274553+01:00",
-  "DbiKey": "voluptate",
-  "DbiLastModified": "2007-11-22T12:19:53.2274553+01:00",
+  "Deleted": 751,
+  "DbiAgentId": 123,
+  "DbiLastSyncronized": "2023-11-23T11:44:41.7890717+01:00",
+  "DbiKey": "ex",
+  "DbiLastModified": "2022-08-12T11:44:41.7890717+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 825,
-  "ActiveErpLinks": 252,
+  "Source": 472,
+  "ActiveErpLinks": 776,
   "BounceEmails": [
-    "kennedy_hoppe@bogisich.biz",
-    "devan.runolfsdottir@rohanhills.biz"
+    "montana_welch@waelchi.uk",
+    "manuela@miller.com"
   ],
   "Domains": [
-    "illum",
-    "aut"
+    "nisi",
+    "pariatur"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Conor Ruby Smith IV",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Dortha Kling",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "animi"
+    "CustomFields1": "corrupti",
+    "CustomFields2": "ratione"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 827
     }
   },
   "_Links": {

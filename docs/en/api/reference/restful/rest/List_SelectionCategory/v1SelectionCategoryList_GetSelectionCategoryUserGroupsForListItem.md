@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Yost-Bartoletti",
-    "ToolTip": "Quo a est culpa.",
+    "Id": 870,
+    "Name": "Zboncak LLC",
+    "ToolTip": "Id suscipit unde aut.",
     "Deleted": false,
-    "Rank": 190,
-    "Type": "explicabo",
-    "ColorBlock": 59,
-    "IconHint": "debitis",
+    "Rank": 144,
+    "Type": "quia",
+    "ColorBlock": 694,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2002-07-13T12:19:54.8520816+02:00",
+    "LastChanged": "2011-06-13T11:44:43.3512152+02:00",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Rohan, Wisoky and Yost",
-        "ToolTip": "Iusto recusandae voluptas voluptas eum quasi.",
+        "Id": 660,
+        "Name": "Beier, Runolfsson and Jacobi",
+        "ToolTip": "Magni nisi odit tempora.",
         "Deleted": false,
-        "Rank": 835,
-        "Type": "animi",
-        "ColorBlock": 640,
-        "IconHint": "quia",
+        "Rank": 264,
+        "Type": "qui",
+        "ColorBlock": 234,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2005-05-05T12:19:54.8520816+02:00",
+        "LastChanged": "2001-01-28T11:44:43.3512152+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Mrs. Cassandre Prohaska PhD",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Elton Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 237
+            "FieldLength": 828
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Lee Okuneva",
+    "ExtraInfo": "unde",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Dr. Clyde Osinski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 432
       }
     }
   }

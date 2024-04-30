@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Morissette Group",
-    "DisplayName": "Lowe Group",
-    "DisplayTooltip": "vel",
-    "IsActive": false,
+    "Name": "Stanton LLC",
+    "DisplayName": "Spinka, Quigley and Ward",
+    "DisplayTooltip": "aliquam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldType": "System.String",
+        "FieldLength": 231
       }
     }
   },
   {
-    "Name": "Morissette Group",
-    "DisplayName": "Lowe Group",
-    "DisplayTooltip": "vel",
-    "IsActive": false,
+    "Name": "Stanton LLC",
+    "DisplayName": "Spinka, Quigley and Ward",
+    "DisplayTooltip": "aliquam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldType": "System.String",
+        "FieldLength": 231
       }
     }
   }

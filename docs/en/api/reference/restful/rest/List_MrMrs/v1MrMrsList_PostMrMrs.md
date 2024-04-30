@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Volkman-Hintz",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "UdListDefinitionId": 879,
-  "Rank": 313
+  "Id": 324,
+  "Name": "Haley-Bashirian",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "UdListDefinitionId": 868,
+  "Rank": 464
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Terry-Schinner",
-  "Tooltip": "iure",
+  "Id": 73,
+  "Name": "Walter-Veum",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 978,
-  "Rank": 674,
+  "UdListDefinitionId": 564,
+  "Rank": 112,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 779
     }
   }
 }

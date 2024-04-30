@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 644,
-  "ColumnId": 367,
-  "FieldDefault": "dolor",
-  "FieldHeight": 496,
-  "FieldLabel": "alias",
-  "FieldLeft": 662,
-  "FieldTop": 714,
+  "UDefFieldId": 551,
+  "ColumnId": 504,
+  "FieldDefault": "voluptates",
+  "FieldHeight": 482,
+  "FieldLabel": "fuga",
+  "FieldLeft": 201,
+  "FieldTop": 843,
   "FieldType": "Checkbox",
-  "FieldWidth": 793,
-  "FormatMask": "ipsa",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 914,
-  "LabelLeft": 566,
-  "LabelTop": 132,
-  "LabelWidth": 830,
-  "LastVersionId": 450,
-  "ListTableId": 752,
-  "IsMandatory": false,
+  "FieldWidth": 497,
+  "FormatMask": "qui",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 549,
+  "LabelLeft": 363,
+  "LabelTop": 993,
+  "LabelWidth": 413,
+  "LastVersionId": 489,
+  "ListTableId": 818,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 241,
-  "ProgId": "est",
+  "Page1LineNo": 20,
+  "ProgId": "nihil",
   "IsReadOnly": true,
-  "ShortLabel": "quasi",
-  "TabOrder": 658,
-  "TextLength": 214,
-  "Tooltip": "consequuntur",
-  "UdefIdentity": 480,
-  "UDListDefinitionId": 811,
+  "ShortLabel": "in",
+  "TabOrder": 91,
+  "TextLength": 57,
+  "Tooltip": "quia",
+  "UdefIdentity": 599,
+  "UDListDefinitionId": 517,
   "Justification": "Center",
-  "Version": 577,
-  "TemplateVariableName": "Nikolaus, Crist and Friesen",
+  "Version": 280,
+  "TemplateVariableName": "Weimann, Fritsch and Hilll",
   "HasBeenPublished": false,
-  "MdoListName": "O'Reilly, Adams and Harber",
+  "MdoListName": "Kris Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 306,
-    "Name": "Koch-Wisozk",
-    "ContentType": "aut",
-    "AttSize": 426,
+    "AttachmentId": 621,
+    "Name": "Runte Group",
+    "ContentType": "aspernatur",
+    "AttSize": 254,
     "InlineImage": false,
-    "ContentId": "fugiat",
-    "AuthKey": "rerum",
-    "IsSafeFileExtension": true,
+    "ContentId": "aut",
+    "AuthKey": "enim",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldLength": 949
       }
     }
   }

@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 383,
-  "Name": "Mosciski, Carter and Barrows",
-  "AssociateId": 856,
-  "DetailsTable": 318,
-  "DetailsRecord": 271,
+  "Id": 781,
+  "Name": "Blanda, Crooks and Walsh",
+  "AssociateId": 810,
+  "DetailsTable": 315,
+  "DetailsRecord": 416,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "doloremque",
-    "ParameterObject2": "sunt"
+    "ParameterObject1": "ut",
+    "ParameterObject2": "at"
   },
-  "LastStarted": "2010-01-16T12:19:44.5238763+01:00",
-  "Created": "2004-05-31T12:19:44.5238763+02:00",
-  "StartCount": 573,
-  "DatabaseSerialNumber": "1044481",
-  "Context": "temporibus",
-  "Result": "et",
+  "LastStarted": "2022-05-03T11:44:32.822391+02:00",
+  "Created": "2006-06-22T11:44:32.822391+02:00",
+  "StartCount": 33,
+  "DatabaseSerialNumber": "883259",
+  "Context": "et",
+  "Result": "quia",
   "State": "All",
-  "Description": "Inverse value-added policy",
-  "Response": "repudiandae",
-  "Request": "nostrum",
-  "ProgressDescription": "Compatible even-keeled time-frame",
-  "ProgressPercent": 422,
-  "FileName": "Block, Moen and Dickinson",
+  "Description": "Intuitive bi-directional monitoring",
+  "Response": "laborum",
+  "Request": "non",
+  "ProgressDescription": "Integrated client-server forecast",
+  "ProgressPercent": 255,
+  "FileName": "Flatley, Smitham and West",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldType": "System.String",
+      "FieldLength": 418
     }
   }
 }

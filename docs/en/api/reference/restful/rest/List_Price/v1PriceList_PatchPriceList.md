@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "iste",
+    "path": "quaerat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iste",
+    "path": "quaerat",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 527,
-  "ERPPriceListKey": "suscipit",
-  "QuoteConnectionId": 359,
-  "Name": "Hagenes-Kuvalis",
-  "Description": "Programmable coherent encoding",
-  "Currency": "quia",
-  "CurrencyName": "Anderson-Hodkiewicz",
-  "ValidFrom": "2002-11-04T12:19:54.6646278+01:00",
-  "ValidTo": "2011-08-28T12:19:54.6646278+02:00",
+  "PriceListId": 71,
+  "ERPPriceListKey": "laboriosam",
+  "QuoteConnectionId": 809,
+  "Name": "Bednar Group",
+  "Description": "Mandatory logistical application",
+  "Currency": "et",
+  "CurrencyName": "Zemlak Group",
+  "ValidFrom": "2003-09-08T11:44:43.1637513+02:00",
+  "ValidTo": "2018-10-02T11:44:43.1637513+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 995
     }
   },
   "_Links": {

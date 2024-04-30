@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 648,
-    "Name": "Price LLC",
-    "ToolTip": "Facilis distinctio excepturi maiores amet veritatis magnam non.",
+    "Id": 239,
+    "Name": "Armstrong-Franecki",
+    "ToolTip": "Velit qui eos.",
     "Deleted": false,
-    "Rank": 858,
-    "Type": "ea",
-    "ColorBlock": 619,
-    "IconHint": "optio",
+    "Rank": 565,
+    "Type": "est",
+    "ColorBlock": 696,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2013-11-16T12:19:54.7114903+01:00",
+    "LastChanged": "2008-12-06T11:44:43.1949983+01:00",
     "ChildItems": [
       {
-        "Id": 392,
-        "Name": "Kulas Inc and Sons",
-        "ToolTip": "Officiis expedita quia unde.",
+        "Id": 890,
+        "Name": "Schamberger-Kunze",
+        "ToolTip": "Et veniam doloremque officiis aliquam iure.",
         "Deleted": false,
-        "Rank": 659,
-        "Type": "quis",
-        "ColorBlock": 924,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2001-05-13T12:19:54.7114903+02:00",
+        "Rank": 72,
+        "Type": "qui",
+        "ColorBlock": 74,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2018-05-19T11:44:43.1949983+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Eriberto Spinka"
+        "ExtraInfo": "modi",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Leslie Gutmann"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "qui",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Murl Dickinson"
+    "FullName": "Prof. Linnea Sylvan Friesen III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Bartoletti Inc and Sons",
-    "ToolTip": "Omnis vel numquam.",
+    "Id": 527,
+    "Name": "Sanford-Wehner",
+    "ToolTip": "Ut itaque possimus mollitia quisquam aut fugit.",
     "Deleted": false,
-    "Rank": 359,
-    "Type": "molestiae",
-    "ColorBlock": 103,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2021-03-27T12:19:54.7114903+01:00",
+    "Rank": 847,
+    "Type": "illo",
+    "ColorBlock": 890,
+    "IconHint": "magnam",
+    "Selected": true,
+    "LastChanged": "2000-09-23T11:44:43.1949983+02:00",
     "ChildItems": [
       {
-        "Id": 575,
-        "Name": "Gusikowski-Conn",
-        "ToolTip": "Quam quos est.",
-        "Deleted": true,
-        "Rank": 470,
-        "Type": "dolor",
-        "ColorBlock": 266,
-        "IconHint": "fuga",
+        "Id": 289,
+        "Name": "Daniel, Cremin and Roberts",
+        "ToolTip": "Eius neque voluptas voluptatum sed reiciendis laborum reiciendis.",
+        "Deleted": false,
+        "Rank": 320,
+        "Type": "vitae",
+        "ColorBlock": 600,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2001-05-15T12:19:54.7114903+02:00",
+        "LastChanged": "2001-01-24T11:44:43.1949983+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Mr. Deion Jast",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Bennie Kyla Kutch MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 723
+            "FieldType": "System.Int32",
+            "FieldLength": 408
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Daisha Ebert",
+    "ExtraInfo": "rerum",
+    "StyleHint": "deleniti",
+    "Hidden": false,
+    "FullName": "Dessie O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 15
       }
     }
   }

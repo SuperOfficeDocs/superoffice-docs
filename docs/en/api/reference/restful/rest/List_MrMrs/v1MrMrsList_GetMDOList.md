@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=saepe
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Bergnaum-Farrell",
-    "ToolTip": "Corrupti est alias perferendis sint a beatae.",
+    "Id": 447,
+    "Name": "Mertz-Carroll",
+    "ToolTip": "Et nemo natus animi quo saepe dignissimos placeat.",
     "Deleted": false,
-    "Rank": 570,
-    "Type": "distinctio",
+    "Rank": 301,
+    "Type": "iste",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Predovic-Lebsack",
-        "ToolTip": "Quia soluta ipsa deleniti animi sit laboriosam.",
+        "Id": 452,
+        "Name": "Hilpert Group",
+        "ToolTip": "Nulla repellat debitis vel.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "expedita",
+        "Rank": 669,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 735,
-        "ExtraInfo": "odio",
-        "StyleHint": "quo",
-        "FullName": "Mr. Shaina Jacques Johns",
+        "IconHint": "ut",
+        "ColorBlock": 973,
+        "ExtraInfo": "enim",
+        "StyleHint": "doloribus",
+        "FullName": "Franz Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldLength": 310
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 319,
-    "ExtraInfo": "natus",
-    "StyleHint": "consequatur",
-    "FullName": "Marlen Nader",
+    "IconHint": "et",
+    "ColorBlock": 442,
+    "ExtraInfo": "error",
+    "StyleHint": "dicta",
+    "FullName": "Ilene Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 298
       }
     }
   }

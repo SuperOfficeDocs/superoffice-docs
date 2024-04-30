@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Keeling LLC",
-    "ToolTip": "Omnis magnam aut voluptatem.",
-    "Deleted": false,
-    "Rank": 300,
-    "Type": "blanditiis",
-    "ColorBlock": 273,
-    "IconHint": "molestias",
+    "Id": 574,
+    "Name": "Emard, Jacobi and Runolfsdottir",
+    "ToolTip": "Voluptatem est libero.",
+    "Deleted": true,
+    "Rank": 648,
+    "Type": "fugit",
+    "ColorBlock": 643,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1999-09-11T12:19:54.6334859+02:00",
+    "LastChanged": "2007-06-01T11:44:43.1325006+02:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Ondricka LLC",
-        "ToolTip": "Cum consectetur vel ut amet voluptas.",
-        "Deleted": true,
-        "Rank": 978,
-        "Type": "maxime",
-        "ColorBlock": 559,
-        "IconHint": "necessitatibus",
+        "Id": 153,
+        "Name": "Anderson, Jewess and Runolfsdottir",
+        "ToolTip": "Voluptatem aut sapiente omnis nam voluptatem aut quasi.",
+        "Deleted": false,
+        "Rank": 796,
+        "Type": "minus",
+        "ColorBlock": 658,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2010-09-12T12:19:54.6334859+02:00",
+        "LastChanged": "2017-01-07T11:44:43.1325006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Prof. Jaylin Torphy",
+        "ExtraInfo": "et",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Ms. Lilliana Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldType": "System.String",
+            "FieldLength": 333
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Ashley Hudson",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "laudantium",
+    "Hidden": true,
+    "FullName": "Misael Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 773
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=635
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=218
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 388,
-  "Name": "Johns LLC",
-  "ConsentText": "error",
-  "FormText": "dolor",
-  "Key": "magni",
-  "Tooltip": "molestiae",
-  "Active": 16,
-  "UpdatedDate": "2011-01-24T12:19:45.5703411+01:00",
+  "ConsentPurposeId": 860,
+  "Name": "Ruecker, Gleichner and Braun",
+  "ConsentText": "et",
+  "FormText": "qui",
+  "Key": "quia",
+  "Tooltip": "non",
+  "Active": 789,
+  "UpdatedDate": "2022-01-28T11:44:33.9315193+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 196,
-  "PrivacyStatementDesc": "voluptatem",
+  "Rank": 860,
+  "PrivacyStatementDesc": "omnis",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

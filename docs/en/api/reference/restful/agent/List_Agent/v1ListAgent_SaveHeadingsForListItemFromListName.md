@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Mitchell Group",
-  "ListItemId": 819,
+  "UdListDefinitionName": "Hansen LLC",
+  "ListItemId": 717,
   "Headings": [
     {
-      "Id": 230,
-      "Name": "Morar, Yundt and Shields",
-      "ToolTip": "Ratione qui est dolor cumque tempora magnam.",
-      "Deleted": false,
-      "Rank": 487,
-      "Type": "fugiat",
-      "ColorBlock": 132,
-      "IconHint": "voluptate",
+      "Id": 549,
+      "Name": "Aufderhar-Feil",
+      "ToolTip": "Vitae quasi adipisci et odit eos.",
+      "Deleted": true,
+      "Rank": 289,
+      "Type": "deserunt",
+      "ColorBlock": 310,
+      "IconHint": "neque",
       "Selected": false,
-      "LastChanged": "2014-05-26T12:19:45.5078373+02:00",
+      "LastChanged": "2006-04-01T11:44:33.8534097+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestiae",
-      "StyleHint": "praesentium",
+      "ExtraInfo": "quia",
+      "StyleHint": "sunt",
       "Hidden": false,
-      "FullName": "Miss Shad Mayert Jr."
+      "FullName": "Miss Clifford Lysanne Ondricka III"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Cronin, Bins and Farrell",
-    "ToolTip": "Sed quasi a molestiae et voluptas sit corporis.",
+    "Id": 787,
+    "Name": "Barton, Johns and Wintheiser",
+    "ToolTip": "Saepe facere rerum quod nihil mollitia.",
     "Deleted": false,
-    "Rank": 837,
-    "Type": "quis",
-    "ColorBlock": 587,
-    "IconHint": "nemo",
-    "Selected": false,
-    "LastChanged": "2003-12-02T12:19:45.5078373+01:00",
+    "Rank": 864,
+    "Type": "ea",
+    "ColorBlock": 450,
+    "IconHint": "officiis",
+    "Selected": true,
+    "LastChanged": "2002-02-03T11:44:33.8534097+01:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Runte LLC",
-        "ToolTip": "In incidunt sed et quod aperiam odit.",
+        "Id": 51,
+        "Name": "Monahan Inc and Sons",
+        "ToolTip": "Velit molestiae doloribus possimus qui delectus sint.",
         "Deleted": true,
-        "Rank": 334,
-        "Type": "numquam",
-        "ColorBlock": 211,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2019-11-28T12:19:45.5078373+01:00",
+        "Rank": 97,
+        "Type": "commodi",
+        "ColorBlock": 332,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2000-05-23T11:44:33.8534097+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "est",
+        "ExtraInfo": "iure",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Green Spencer",
+        "FullName": "Providenci Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldLength": 416
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Norma Ondricka",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Lane Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldType": "System.String",
+        "FieldLength": 737
       }
     }
   }

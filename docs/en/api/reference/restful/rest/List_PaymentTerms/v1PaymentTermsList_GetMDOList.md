@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=perspiciatis
+GET /api/v1/List/PaymentTerm/MDOItems?query=dolor
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Vandervort-Jewess",
-    "ToolTip": "Non et inventore.",
+    "Id": 63,
+    "Name": "Toy, Rath and Schamberger",
+    "ToolTip": "Repellat aut maxime iusto architecto ut nobis sed.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "excepturi",
+    "Rank": 674,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Nolan Inc and Sons",
-        "ToolTip": "In quaerat molestiae explicabo excepturi sunt itaque illo.",
-        "Deleted": true,
-        "Rank": 694,
-        "Type": "hic",
+        "Id": 835,
+        "Name": "Kunde-Nolan",
+        "ToolTip": "Vel labore sit.",
+        "Deleted": false,
+        "Rank": 698,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 590,
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "laboriosam",
-        "FullName": "Mose Satterfield",
+        "IconHint": "aspernatur",
+        "ColorBlock": 810,
+        "ExtraInfo": "est",
+        "StyleHint": "nam",
+        "FullName": "Magali Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 50
+            "FieldLength": 752
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 771,
-    "ExtraInfo": "nihil",
-    "StyleHint": "porro",
-    "FullName": "Mr. Rosella O'Conner",
+    "IconHint": "hic",
+    "ColorBlock": 967,
+    "ExtraInfo": "esse",
+    "StyleHint": "et",
+    "FullName": "Mrs. Herman Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 332
+        "FieldType": "System.Int32",
+        "FieldLength": 744
       }
     }
   }

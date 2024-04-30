@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 442,
-  "Name": "Conn LLC",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "Rank": 13,
-  "UdListDefinitionId": 349
+  "HeadingId": 863,
+  "Name": "Bauch, Brown and Schneider",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 123,
+  "UdListDefinitionId": 254
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 907,
-  "Name": "Sporer-Carter",
-  "Tooltip": "aut",
+  "HeadingId": 367,
+  "Name": "Doyle LLC",
+  "Tooltip": "numquam",
   "Deleted": true,
-  "Rank": 215,
-  "UdListDefinitionId": 854,
+  "Rank": 248,
+  "UdListDefinitionId": 493,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 467
     }
   }
 }

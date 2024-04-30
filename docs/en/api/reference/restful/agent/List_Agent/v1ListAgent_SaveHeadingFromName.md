@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmidt Group",
+  "Name": "Kulas Inc and Sons",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 653,
-  "Name": "Schiller, Hills and Jacobi",
-  "Tooltip": "veniam",
+  "HeadingId": 325,
+  "Name": "Corwin, O'Connell and Fritsch",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 633,
-  "UdListDefinitionId": 582,
+  "Rank": 492,
+  "UdListDefinitionId": 266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldLength": 519
     }
   }
 }

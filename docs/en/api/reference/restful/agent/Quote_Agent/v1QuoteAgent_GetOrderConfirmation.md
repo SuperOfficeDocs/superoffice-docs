@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 422,
-  "ConfirmationTemplateId": 903
+  "QuoteVersionId": 59,
+  "ConfirmationTemplateId": 310
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequatur"
+"quis"
 ```

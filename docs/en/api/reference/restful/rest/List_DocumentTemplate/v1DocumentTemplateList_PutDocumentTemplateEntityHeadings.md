@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 884,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 826,
+    "Name": "Schmidt-Nolan",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 579,
-    "UdListDefinitionId": 160
+    "Rank": 963,
+    "UdListDefinitionId": 565
   },
   {
-    "HeadingId": 884,
-    "Name": "McKenzie Inc and Sons",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 826,
+    "Name": "Schmidt-Nolan",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 579,
-    "UdListDefinitionId": 160
+    "Rank": 963,
+    "UdListDefinitionId": 565
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 850,
-    "Name": "Weissnat LLC",
-    "Tooltip": "repellendus",
-    "Deleted": false,
-    "Rank": 139,
-    "UdListDefinitionId": 398,
+    "HeadingId": 37,
+    "Name": "Lesch-Botsford",
+    "Tooltip": "molestias",
+    "Deleted": true,
+    "Rank": 861,
+    "UdListDefinitionId": 997,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 328
       }
     }
   }

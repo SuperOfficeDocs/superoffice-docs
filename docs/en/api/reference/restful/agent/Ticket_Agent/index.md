@@ -92,6 +92,8 @@ generated: true
 
 * [POST Agents/Ticket/SanitizeMailContent](v1TicketAgent_SanitizeMailContent.md)
 
+* [POST Agents/Ticket/SanitizeMailContentWithOptions](v1TicketAgent_SanitizeMailContentWithOptions.md)
+
 * [POST Agents/Ticket/SanitizeMailContents](v1TicketAgent_SanitizeMailContents.md)
 
 * [POST Agents/Ticket/Html2Text](v1TicketAgent_Html2Text.md)
@@ -104,7 +106,11 @@ generated: true
 
 * [POST Agents/Ticket/RemoveMessageAttachments](v1TicketAgent_RemoveMessageAttachments.md)
 
+* [POST Agents/Ticket/GetAttachmentPreview](v1TicketAgent_GetAttachmentPreview.md)
+
 * [POST Agents/Ticket/GetPreviewAttachmentStream](v1TicketAgent_GetPreviewAttachmentStream.md)
+
+* [POST Agents/Ticket/GetRfcAttachmentStream](v1TicketAgent_GetRfcAttachmentStream.md)
 
 * [POST Agents/Ticket/SendTicketMessage](v1TicketAgent_SendTicketMessage.md)
 

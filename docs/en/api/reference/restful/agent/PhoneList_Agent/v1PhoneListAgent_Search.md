@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "et"
+  "SearchString": "odio"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "278-924-7924 x24314",
-    "PersonCellPhone": "733.542.7494",
-    "PersonPrivatePhone": "1-612-559-0151",
-    "PersonFaxNumber": "1303713",
-    "PersonPagerNumber": "1488340",
-    "PersonEmail": "dessie@mcglynnhammes.name",
-    "Id": 147,
-    "Name": "Schmidt-Conroy",
-    "Tooltip": "aliquam",
-    "UniqueId": "et",
+    "PersonDirectPhone": "(159)513-6800 x6323",
+    "PersonCellPhone": "(068)389-3091 x3834",
+    "PersonPrivatePhone": "178-260-3773 x2629",
+    "PersonFaxNumber": "900641",
+    "PersonPagerNumber": "724934",
+    "PersonEmail": "haylie_harris@damore.com",
+    "Id": 341,
+    "Name": "Larson, Lakin and Quigley",
+    "Tooltip": "cum",
+    "UniqueId": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 59
       }
     }
   }

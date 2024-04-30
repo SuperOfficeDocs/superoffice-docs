@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=523
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=320
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 946,
-  "FormId": 201,
-  "WhenSubmitted": "1997-07-25T12:19:45.585943+02:00",
-  "ContactId": 296,
-  "PersonId": 926,
-  "EmailAddress": "bryana@crona.us",
-  "ResponseShipmentAddrId": 70,
-  "Response": "voluptatem",
+  "FormSubmissionId": 917,
+  "FormId": 942,
+  "WhenSubmitted": "2021-12-26T11:44:33.9315193+01:00",
+  "ContactId": 960,
+  "PersonId": 934,
+  "EmailAddress": "kimberly@rogahn.ca",
+  "ResponseShipmentAddrId": 390,
+  "Response": "ullam",
   "Status": "EmailVerification",
-  "ProcessingLog": "explicabo",
+  "ProcessingLog": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 876
     }
   }
 }

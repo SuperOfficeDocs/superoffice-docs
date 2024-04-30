@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 324,
-  "ERPQuoteLineKey": "dolores",
-  "QuoteAlternativeId": 480,
-  "ERPProductKey": "quaerat",
+  "QuoteLineId": 514,
+  "ERPQuoteLineKey": "velit",
+  "QuoteAlternativeId": 74,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 7132.9839999999995,
-  "DeliveredQuantity": 3271.8959999999997,
-  "Rank": 960,
-  "Name": "Raynor-Bergnaum",
-  "Description": "Cross-platform reciprocal productivity",
-  "Code": "non",
-  "QuantityUnit": "et",
-  "PriceUnit": "ducimus",
-  "ItemNumber": "397780",
+  "Quantity": 20092.074,
+  "DeliveredQuantity": 17951.552,
+  "Rank": 959,
+  "Name": "Gulgowski Inc and Sons",
+  "Description": "De-engineered mission-critical hierarchy",
+  "Code": "laboriosam",
+  "QuantityUnit": "est",
+  "PriceUnit": "est",
+  "ItemNumber": "864936",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quam",
-  "ProductTypeKey": "quibusdam",
-  "Supplier": "quas",
-  "SupplierCode": "impedit",
-  "Thumbnail": "eos",
-  "VATInfo": "iure",
-  "VAT": 31255.381999999998,
-  "UnitCost": 9577.503999999999,
-  "UnitMinimumPrice": 6788.244,
-  "UnitListPrice": 11461.038,
+  "ProductFamilyKey": "illum",
+  "ProductTypeKey": "modi",
+  "Supplier": "excepturi",
+  "SupplierCode": "perferendis",
+  "Thumbnail": "est",
+  "VATInfo": "animi",
+  "VAT": 6822.718,
+  "UnitCost": 25413.606,
+  "UnitMinimumPrice": 849.314,
+  "UnitListPrice": 1918.008,
   "ExtraInfo": [
     {
-      "Name": "Fay LLC",
-      "Value": "ea",
+      "Name": "Hansen-Mills",
+      "Value": "nobis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 58
         }
       }
     },
     {
-      "Name": "Fay LLC",
-      "Value": "ea",
+      "Name": "Hansen-Mills",
+      "Value": "nobis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 58
         }
       }
     }
   ],
-  "RawExtraInfo": "dolor",
+  "RawExtraInfo": "et",
   "IsSubscription": true,
-  "SubscriptionUnit": "repellendus",
-  "SubscriptionQuantity": 5255.718,
-  "SubscriptionStart": "2003-05-14T12:19:46.117062+02:00",
-  "ERPDiscountPercent": 28456.719999999998,
-  "ERPDiscountAmount": 22978.487999999998,
-  "DiscountPercent": 4346.858,
-  "DiscountAmount": 5227.512,
+  "SubscriptionUnit": "officia",
+  "SubscriptionQuantity": 31126.888,
+  "SubscriptionStart": "2007-11-26T11:44:34.3063794+01:00",
+  "ERPDiscountPercent": 20869.306,
+  "ERPDiscountAmount": 808.572,
+  "DiscountPercent": 5616.128,
+  "DiscountAmount": 4754.278,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 1147.0439999999999,
-  "EarningAmount": 27974.084,
-  "SubTotal": 12648.823999999999,
-  "TotalPrice": 23188.466,
-  "Rights": "fugiat",
-  "Rule": "quia",
-  "ExtraField1": "repudiandae",
-  "ExtraField2": "minus",
-  "ExtraField3": "sit",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "ad",
+  "EarningPercent": 23523.804,
+  "EarningAmount": 22307.811999999998,
+  "SubTotal": 10357.869999999999,
+  "TotalPrice": 22699.561999999998,
+  "Rights": "eum",
+  "Rule": "qui",
+  "ExtraField1": "blanditiis",
+  "ExtraField2": "magni",
+  "ExtraField3": "atque",
+  "ExtraField4": "pariatur",
+  "ExtraField5": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 99
     }
   }
 }

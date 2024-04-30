@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 416,
+  "SelectionId": 402,
   "SelectionMembersIds": [
-    158,
-    907
+    249,
+    165
   ]
 }
 ```

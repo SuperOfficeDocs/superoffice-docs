@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 713,
+  "ErpConnectionId": 232,
   "ActorTypeErp": "Customer",
-  "ErpKey": "laudantium"
+  "ErpKey": "iste"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Thompson LLC",
-    "CrmFieldKey": "tenetur",
-    "Value": "non",
-    "DisplayValue": "tenetur",
+    "DisplayName": "Witting-Jast",
+    "CrmFieldKey": "voluptates",
+    "Value": "et",
+    "DisplayValue": "sed",
     "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldType": "System.String",
+        "FieldLength": 497
       }
     }
   }

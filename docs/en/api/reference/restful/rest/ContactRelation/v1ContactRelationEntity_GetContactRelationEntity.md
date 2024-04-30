@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 10 Apr 2014 12:19:53 G4T
+Last-Modified: Thu, 05 Feb 2015 11:44:41 G2T
 
 {
-  "SourceContactId": 316,
-  "SourcePersonId": 857,
-  "DestinationContactId": 105,
-  "DestinationPersonId": 239,
-  "RelationId": 297,
-  "Comment": "velit",
-  "RelationDefinitionId": 814,
-  "Reversed": 259,
-  "UpdatedDate": "2014-04-10T12:19:53.3055654+02:00",
-  "CreatedDate": "2000-05-15T12:19:53.3055654+02:00",
+  "SourceContactId": 124,
+  "SourcePersonId": 660,
+  "DestinationContactId": 831,
+  "DestinationPersonId": 467,
+  "RelationId": 889,
+  "Comment": "quo",
+  "RelationDefinitionId": 984,
+  "Reversed": 75,
+  "UpdatedDate": "2015-02-05T11:44:41.8515534+01:00",
+  "CreatedDate": "2009-02-20T11:44:41.8515534+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Gerhold-Stehr",
-  "SourcePersonName": "Adams, Block and Konopelski",
-  "DestinationContactName": "Morar, Bednar and Metz",
-  "DestinationPersonName": "Bauch Group",
-  "ActiveText": "alias",
-  "PassiveText": "facilis",
+  "SourceContactName": "Crona, Hand and Towne",
+  "SourcePersonName": "Balistreri-Kuhn",
+  "DestinationContactName": "Gislason Inc and Sons",
+  "DestinationPersonName": "Witting-Wilkinson",
+  "ActiveText": "ut",
+  "PassiveText": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

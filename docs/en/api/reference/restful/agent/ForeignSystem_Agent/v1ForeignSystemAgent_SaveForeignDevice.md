@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Nitzsche, Runolfsdottir and Williamson"
+  "ApplicationName": "Langosh Inc and Sons"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 72,
-  "Name": "Zulauf, Padberg and Cummings",
-  "CreatedDate": "2002-06-11T12:19:45.4297292+02:00",
-  "UpdatedDate": "1996-11-05T12:19:45.4297292+01:00",
-  "AssociateFullName": "Amya Koepp",
-  "CreatedBy": "sequi",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "aperiam",
-  "ForeignAppId": 386,
+  "ForeignDeviceId": 321,
+  "Name": "Dickinson-Fadel",
+  "CreatedDate": "2022-09-24T11:44:33.7753083+02:00",
+  "UpdatedDate": "2019-07-21T11:44:33.7753083+02:00",
+  "AssociateFullName": "Charley Greenholt",
+  "CreatedBy": "temporibus",
+  "UpdatedBy": "aliquid",
+  "DeviceIdentifier": "quo",
+  "ForeignAppId": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 45
     }
   }
 }

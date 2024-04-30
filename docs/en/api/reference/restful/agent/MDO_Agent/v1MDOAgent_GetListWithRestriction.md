@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob LLC",
-  "AdditionalInfo": "autem",
-  "SearchValue": "odio"
+  "Name": "Upton LLC",
+  "AdditionalInfo": "voluptatem",
+  "SearchValue": "et"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Haley Group",
-    "ToolTip": "Quas qui voluptatem ipsam voluptas numquam dignissimos rerum.",
-    "Deleted": false,
-    "Rank": 470,
-    "Type": "est",
+    "Id": 19,
+    "Name": "Grimes Inc and Sons",
+    "ToolTip": "Cum qui.",
+    "Deleted": true,
+    "Rank": 636,
+    "Type": "ab",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Ferry, Cummerata and Waelchi",
-        "ToolTip": "Qui assumenda.",
+        "Id": 408,
+        "Name": "Ondricka, Weber and Wintheiser",
+        "ToolTip": "Aperiam quis sequi quae est et.",
         "Deleted": false,
-        "Rank": 621,
-        "Type": "voluptas",
+        "Rank": 261,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 948,
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "nesciunt",
-        "FullName": "Murl Dibbert",
+        "IconHint": "voluptas",
+        "ColorBlock": 791,
+        "ExtraInfo": "autem",
+        "StyleHint": "ipsa",
+        "FullName": "Vergie Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 161
+            "FieldType": "System.String",
+            "FieldLength": 149
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 405,
-    "ExtraInfo": "rerum",
-    "StyleHint": "vero",
-    "FullName": "Alf Wilkinson",
+    "IconHint": "sunt",
+    "ColorBlock": 851,
+    "ExtraInfo": "velit",
+    "StyleHint": "ut",
+    "FullName": "Hazle Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 234
       }
     }
   }

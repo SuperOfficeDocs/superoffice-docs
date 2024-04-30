@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 126
+  "KbEntryId": 218
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "sit",
-  "RegisteredByFullName": "Minnie Schmidt",
-  "Updated": "2009-08-04T12:19:45.0235865+02:00",
-  "Question": "doloremque",
-  "Answer": "eum",
+  "Title": "dolores",
+  "RegisteredByFullName": "Rolando Blanda",
+  "Updated": "2019-05-27T11:44:33.3535225+02:00",
+  "Question": "aliquam",
+  "Answer": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldType": "System.String",
+      "FieldLength": 229
     }
   }
 }

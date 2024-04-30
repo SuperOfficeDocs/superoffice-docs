@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Value": "voluptatum",
-    "Tooltip": "nulla",
+    "Id": 364,
+    "Value": "amet",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   },
   {
-    "Id": 737,
-    "Value": "voluptatum",
-    "Tooltip": "nulla",
+    "Id": 364,
+    "Value": "amet",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   }

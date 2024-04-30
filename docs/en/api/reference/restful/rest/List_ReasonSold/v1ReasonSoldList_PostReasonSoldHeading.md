@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 619,
-  "Name": "Wisozk-McDermott",
-  "Tooltip": "magnam",
+  "HeadingId": 877,
+  "Name": "Schmidt, Olson and Aufderhar",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 878,
-  "UdListDefinitionId": 963
+  "Rank": 261,
+  "UdListDefinitionId": 671
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 294,
-  "Name": "Blick-Reilly",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 879,
-  "UdListDefinitionId": 485,
+  "HeadingId": 845,
+  "Name": "Nolan Group",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 211,
+  "UdListDefinitionId": 776,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 940
     }
   }
 }

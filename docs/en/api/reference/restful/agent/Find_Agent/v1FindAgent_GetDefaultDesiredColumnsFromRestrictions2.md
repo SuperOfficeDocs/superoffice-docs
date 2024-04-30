@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bode Group",
-  "Restrictions": "quia"
+  "ProviderName": "Ruecker, Wintheiser and Lemke",
+  "Restrictions": "veritatis"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Maggio LLC",
-    "DisplayTooltip": "eum",
-    "DisplayType": "vitae",
+    "DisplayName": "Kris LLC",
+    "DisplayTooltip": "similique",
+    "DisplayType": "tempora",
     "CanOrderBy": true,
-    "Name": "Cronin Group",
+    "Name": "Shanahan, Kuhic and Nolan",
     "CanRestrictBy": false,
-    "RestrictionType": "voluptas",
-    "RestrictionListName": "Little LLC",
+    "RestrictionType": "voluptatem",
+    "RestrictionListName": "Murray, Witting and Bartoletti",
     "IsVisible": true,
-    "ExtraInfo": "doloribus",
-    "Width": "velit",
-    "IconHint": "in",
-    "HeadingIconHint": "aspernatur"
+    "ExtraInfo": "explicabo",
+    "Width": "aut",
+    "IconHint": "corrupti",
+    "HeadingIconHint": "aut"
   }
 ]
 ```

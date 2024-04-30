@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Jacobs, Reinger and Bosco",
-  "EventFilter": "voluptatem",
+  "NameFilter": "Crooks Inc and Sons",
+  "EventFilter": "ipsum",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 856,
-    "Name": "Senger-O'Reilly",
+    "WebhookId": 704,
+    "Name": "Orn-Connelly",
     "Events": [
-      "officia",
-      "eveniet"
+      "numquam",
+      "occaecati"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "repellendus",
+    "Secret": "vel",
     "State": "Active",
-    "Type": "illum",
+    "Type": "ut",
     "Headers": {
-      "Headers1": "ipsam",
-      "Headers2": "voluptatum"
+      "Headers1": "tenetur",
+      "Headers2": "impedit"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2018-04-10T12:19:46.6638166+02:00",
+    "Registered": "2003-11-25T11:44:35.0562611+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2010-09-23T12:19:46.6638166+02:00",
+    "Updated": "2004-06-06T11:44:35.0562611+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "mellie@fahey.co.uk"
+    "ErrorsEmail": "gideon_jewess@weissnat.uk"
   }
 ]
 ```

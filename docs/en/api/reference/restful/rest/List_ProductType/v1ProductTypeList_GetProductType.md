@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Name": "Franecki Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 670,
-  "Rank": 923,
+  "Id": 642,
+  "Name": "Schulist-Watsica",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "UdListDefinitionId": 116,
+  "Rank": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldLength": 516
     }
   }
 }

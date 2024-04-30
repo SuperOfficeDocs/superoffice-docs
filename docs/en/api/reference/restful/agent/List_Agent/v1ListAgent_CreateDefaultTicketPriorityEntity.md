@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 427,
-  "Name": "Bergstrom, Zieme and Bogan",
+  "TicketPriorityId": 208,
+  "Name": "Lang, Bradtke and Schimmel",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 866,
+  "SortOrder": 706,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 445,
-  "MonStart": "2017-04-20T12:19:45.5703411+02:00",
-  "MonStop": "2017-08-11T12:19:45.5703411+02:00",
-  "TueStart": "1998-10-15T12:19:45.5703411+02:00",
-  "TueStop": "2018-01-25T12:19:45.5703411+01:00",
-  "WedStart": "2007-08-01T12:19:45.5703411+02:00",
-  "WedStop": "2000-05-03T12:19:45.5703411+02:00",
-  "ThuStart": "2017-04-16T12:19:45.5703411+02:00",
-  "ThuStop": "2000-12-19T12:19:45.5703411+01:00",
-  "FriStart": "2006-02-08T12:19:45.5703411+01:00",
-  "FriStop": "2008-01-11T12:19:45.5703411+01:00",
-  "SatStart": "2010-08-15T12:19:45.5703411+02:00",
-  "SatStop": "2001-01-23T12:19:45.5703411+01:00",
-  "SunStart": "2017-03-09T12:19:45.5703411+01:00",
-  "SunStop": "2002-04-16T12:19:45.5703411+02:00",
+  "Deadline": 980,
+  "MonStart": "2022-11-08T11:44:33.9158989+01:00",
+  "MonStop": "2004-02-05T11:44:33.9158989+01:00",
+  "TueStart": "1998-10-10T11:44:33.9158989+02:00",
+  "TueStop": "2022-08-24T11:44:33.9158989+02:00",
+  "WedStart": "2006-07-01T11:44:33.9158989+02:00",
+  "WedStop": "2011-09-20T11:44:33.9158989+02:00",
+  "ThuStart": "2010-04-10T11:44:33.9158989+02:00",
+  "ThuStop": "2013-01-02T11:44:33.9158989+01:00",
+  "FriStart": "2001-10-18T11:44:33.9158989+02:00",
+  "FriStop": "2013-07-24T11:44:33.9158989+02:00",
+  "SatStart": "2016-01-18T11:44:33.9158989+01:00",
+  "SatStop": "2021-01-02T11:44:33.9158989+01:00",
+  "SunStart": "2018-06-02T11:44:33.9158989+02:00",
+  "SunStop": "2012-10-29T11:44:33.9158989+01:00",
   "NonDates": [
-    "odit",
-    "fugiat"
+    "similique",
+    "dignissimos"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 202,
-      "AlertLevel": 229,
-      "AlertTimeout": 895,
-      "Action": 182,
-      "DelegateTo": 572,
-      "ScriptId": 948,
-      "EmailTo": "henderson_koelpin@smitham.name",
-      "SmsTo": "esse",
-      "ReplyTemplateIdCustomer": 350,
-      "ReplyTemplateIdUser": 396,
-      "ReplyTemplateIdCatmast": 11,
-      "ReplyTemplateIdEmail": 665,
-      "RtiCustomerSms": 179,
-      "ReplyTemplateIdUserSms": 760,
-      "ReplyTemplateIdCatmastSms": 393,
-      "ReplyTemplateIdSms": 294,
+      "TicketAlertId": 220,
+      "AlertLevel": 909,
+      "AlertTimeout": 468,
+      "Action": 674,
+      "DelegateTo": 63,
+      "ScriptId": 503,
+      "EmailTo": "samara@huel.info",
+      "SmsTo": "porro",
+      "ReplyTemplateIdCustomer": 684,
+      "ReplyTemplateIdUser": 473,
+      "ReplyTemplateIdCatmast": 590,
+      "ReplyTemplateIdEmail": 615,
+      "RtiCustomerSms": 294,
+      "ReplyTemplateIdUserSms": 538,
+      "ReplyTemplateIdCatmastSms": 269,
+      "ReplyTemplateIdSms": 225,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldLength": 98
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

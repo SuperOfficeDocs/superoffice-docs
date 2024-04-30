@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 159,
-  "Name": "Hudson, Goodwin and Rolfson",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 105,
-  "Rank": 209,
+  "Id": 380,
+  "Name": "Senger-Stanton",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 183,
+  "Rank": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 967
     }
   }
 }

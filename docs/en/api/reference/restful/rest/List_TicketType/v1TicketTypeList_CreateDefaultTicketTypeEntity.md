@@ -57,6 +57,10 @@ OK
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
 | IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
 | IsDefault | bool | Is this Ticket Type marked as default |
+| ShowInNew | bool | Enables this request type to be accessible in +New in top bar |
+| ExcludeSignature | bool | Do not insert user signature automatically |
+| ExcludeEmailRecipients | bool | Create request without initially having to send outbound e-mail |
+| ExternalAsDefault | bool | Ability to set external access level for this request type |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -66,7 +70,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,30 +80,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 633,
-  "Name": "Schuppe, Lueilwitz and Bergnaum",
-  "Rank": 23,
-  "Tooltip": "omnis",
-  "Icon": "aut",
-  "DefaultTicketStatus": 540,
+  "TicketTypeId": 78,
+  "Name": "Yost, Bergnaum and Crist",
+  "Rank": 496,
+  "Tooltip": "ut",
+  "Icon": "ut",
+  "DefaultTicketStatus": 491,
   "TicketStatuses": [
-    838,
-    48
+    892,
+    42
   ],
-  "DefaultTicketPriority": 598,
+  "DefaultTicketPriority": 970,
   "TicketPriorities": [
-    643,
-    63
+    574,
+    337
   ],
-  "ReplyTemplate": 684,
+  "ReplyTemplate": 212,
   "IsExternalVisible": false,
   "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 74
     }
   }
 }

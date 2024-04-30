@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 568
+  "DocumentId": 378
 }
 ```
 
@@ -117,96 +117,96 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 314,
-      "ContactName": "VonRueden LLC",
-      "PersonId": 618,
-      "PersonName": "Purdy, Goyette and Fahey",
-      "AssociateId": 642,
-      "Address": "porro",
-      "EmailId": 307,
+      "ContactId": 989,
+      "ContactName": "Fay Inc and Sons",
+      "PersonId": 19,
+      "PersonName": "Macejkovic-Upton",
+      "AssociateId": 37,
+      "Address": "consectetur",
+      "EmailId": 923,
       "DuplicatePersonIds": [
-        575,
-        783
+        880,
+        347
       ],
-      "Name": "Jast-Kuhlman",
+      "Name": "Watsica-Murphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 489,
-      "ContactName": "Rowe LLC",
-      "PersonId": 1002,
-      "PersonName": "Larson, Bauch and Ondricka",
-      "AssociateId": 925,
-      "Address": "sapiente",
-      "EmailId": 947,
+      "ContactId": 524,
+      "ContactName": "Roob LLC",
+      "PersonId": 52,
+      "PersonName": "Zemlak Group",
+      "AssociateId": 542,
+      "Address": "voluptatum",
+      "EmailId": 487,
       "DuplicatePersonIds": [
-        168,
-        21
+        774,
+        428
       ],
-      "Name": "Murphy, Hamill and Corwin",
+      "Name": "Homenick Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 309
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 677,
-      "ContactName": "Dibbert, Blanda and Macejkovic",
-      "PersonId": 115,
-      "PersonName": "Schultz-Bahringer",
-      "AssociateId": 149,
-      "Address": "tempore",
-      "EmailId": 316,
+      "ContactId": 501,
+      "ContactName": "Hoeger-Littel",
+      "PersonId": 111,
+      "PersonName": "Runolfsson Inc and Sons",
+      "AssociateId": 654,
+      "Address": "dolores",
+      "EmailId": 205,
       "DuplicatePersonIds": [
-        693,
-        476
+        768,
+        435
       ],
-      "Name": "Mueller-Hodkiewicz",
+      "Name": "Watsica LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 992
         }
       }
     }
   ],
-  "Subject": "quas",
-  "HTMLBody": "natus",
+  "Subject": "sed",
+  "HTMLBody": "sapiente",
   "From": null,
-  "Sent": "2003-08-10T12:19:45.2422708+02:00",
-  "Size": 892,
+  "Sent": "2012-09-12T11:44:33.5878385+02:00",
+  "Size": 835,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "alias",
-  "PlainBody": "odit",
+  "MessageID": "excepturi",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 247,
+  "ServerId": 538,
   "Attachments": [
     {
-      "Description": "Function-based optimal concept",
-      "Filename": "corporis",
-      "Size": 390,
-      "Type": "rem",
-      "Encoding": "quaerat",
-      "Id": "quasi",
+      "Description": "Reactive transitional circuit",
+      "Filename": "quae",
+      "Size": 773,
+      "Type": "est",
+      "Encoding": "dolores",
+      "Id": "impedit",
       "Disposition": "est",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
@@ -214,59 +214,59 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldType": "System.String",
+          "FieldLength": 144
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gutmann LLC",
+      "Name": "Williamson, Friesen and Collins",
       "Values": [
-        "voluptatem",
-        "quos"
+        "voluptas",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 718
         }
       }
     },
     {
-      "Name": "Gutmann LLC",
+      "Name": "Williamson, Friesen and Collins",
       "Values": [
-        "voluptatem",
-        "quos"
+        "voluptas",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 718
         }
       }
     }
   ],
-  "FolderName": "Bahringer Group",
-  "EmailItemId": 637,
-  "AccountId": 268,
-  "ReceivedAt": "2024-03-17T12:19:45.2422708+01:00",
+  "FolderName": "Rau, Kiehn and Casper",
+  "EmailItemId": 732,
+  "AccountId": 24,
+  "ReceivedAt": "2006-06-03T11:44:33.6034713+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-02T12:19:45.2422708+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2008-07-02T11:44:33.6034713+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

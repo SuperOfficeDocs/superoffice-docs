@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    834,
-    159
+    137,
+    326
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 136,
-    "MessageId": "inventore",
-    "Subject": "animi",
+    "ServerId": 982,
+    "MessageId": "tempora",
+    "Subject": "est",
     "From": null,
     "To": [
       {
-        "ContactId": 289,
-        "ContactName": "Boyle LLC",
-        "PersonId": 199,
-        "PersonName": "Pollich-Quigley",
-        "AssociateId": 772,
-        "Address": "et",
-        "EmailId": 67,
+        "ContactId": 475,
+        "ContactName": "McLaughlin-Kuhlman",
+        "PersonId": 993,
+        "PersonName": "Ankunding-Armstrong",
+        "AssociateId": 501,
+        "Address": "corrupti",
+        "EmailId": 479,
         "DuplicatePersonIds": [
-          105,
-          685
+          932,
+          474
         ],
-        "Name": "Kris, Flatley and Klein",
+        "Name": "Wolf LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldLength": 659
           }
         }
       }
     ],
-    "Sent": "2021-04-09T12:19:45.320371+02:00",
+    "Sent": "2018-01-29T11:44:33.6659495+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 372,
+    "Size": 851,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldLength": 408
       }
     }
   }

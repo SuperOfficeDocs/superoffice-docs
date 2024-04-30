@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 165,
+  "DocumentPluginId": 955,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 40,
-  "NumDocumentsAlreadyMigrated": 206,
+  "NumDocumentsOmitted": 821,
+  "NumDocumentsAlreadyMigrated": 337,
   "Documents": [
     {
-      "DocumentId": 595,
-      "ContactId": 426,
-      "PersonId": 175,
-      "SaleId": 859,
-      "ProjectId": 142,
-      "DocTmplId": 524,
-      "AssociateId": 532,
-      "UserGroupId": 528,
-      "VisibleForId": 812
+      "DocumentId": 98,
+      "ContactId": 946,
+      "PersonId": 747,
+      "SaleId": 647,
+      "ProjectId": 383,
+      "DocTmplId": 664,
+      "AssociateId": 311,
+      "UserGroupId": 822,
+      "VisibleForId": 946
     }
   ],
   "Associates": [
     {
-      "AssociateId": 528,
-      "EmailAddress": "araceli_parisian@flatleyfadel.biz"
+      "AssociateId": 408,
+      "EmailAddress": "ike@willmsmurray.co.uk"
     },
     {
-      "AssociateId": 528,
-      "EmailAddress": "araceli_parisian@flatleyfadel.biz"
+      "AssociateId": 408,
+      "EmailAddress": "ike@willmsmurray.co.uk"
     }
   ]
 }

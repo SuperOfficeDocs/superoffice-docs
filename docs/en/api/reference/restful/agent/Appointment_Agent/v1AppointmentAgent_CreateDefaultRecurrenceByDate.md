@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2021-07-06T12:19:44.351845+02:00"
+  "StartDate": "2013-09-09T11:44:32.6505612+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 745,
-  "StartDate": "2019-01-23T12:19:44.351845+01:00",
-  "EndDate": "2001-03-01T12:19:44.351845+01:00",
-  "RecurrenceCounter": 236,
+  "RecurrenceId": 640,
+  "StartDate": "2008-03-08T11:44:32.6505612+01:00",
+  "EndDate": "2010-04-29T11:44:32.6505612+02:00",
+  "RecurrenceCounter": 833,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-12-25T12:19:44.351845+01:00",
+      "Date": "2002-07-10T11:44:32.6505612+02:00",
       "IsConflict": false,
-      "Description": "Distributed exuding ability",
-      "DescriptionStyleHint": "Digitized foreground strategy",
-      "Tooltip": "quos"
+      "Description": "Persistent neutral monitoring",
+      "DescriptionStyleHint": "Networked background info-mediaries",
+      "Tooltip": "animi"
     },
     {
-      "Date": "2001-12-25T12:19:44.351845+01:00",
+      "Date": "2002-07-10T11:44:32.6505612+02:00",
       "IsConflict": false,
-      "Description": "Distributed exuding ability",
-      "DescriptionStyleHint": "Digitized foreground strategy",
-      "Tooltip": "quos"
+      "Description": "Persistent neutral monitoring",
+      "DescriptionStyleHint": "Networked background info-mediaries",
+      "Tooltip": "animi"
     }
   ],
   "IsRecurrence": true

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 402,
-    "ColumnId": 575,
-    "FieldDefault": "neque",
-    "FieldHeight": 868,
-    "FieldLabel": "minima",
-    "FieldLeft": 613,
-    "FieldTop": 496,
+    "UDefFieldId": 405,
+    "ColumnId": 1001,
+    "FieldDefault": "a",
+    "FieldHeight": 810,
+    "FieldLabel": "aut",
+    "FieldLeft": 465,
+    "FieldTop": 694,
     "FieldType": "Checkbox",
-    "FieldWidth": 785,
-    "FormatMask": "labore",
+    "FieldWidth": 219,
+    "FormatMask": "laboriosam",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 674,
-    "LabelLeft": 187,
-    "LabelTop": 123,
-    "LabelWidth": 538,
-    "LastVersionId": 575,
-    "ListTableId": 761,
+    "LabelHeight": 297,
+    "LabelLeft": 655,
+    "LabelTop": 459,
+    "LabelWidth": 298,
+    "LastVersionId": 158,
+    "ListTableId": 798,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 213,
-    "ProgId": "magni",
+    "Page1LineNo": 788,
+    "ProgId": "doloribus",
     "IsReadOnly": false,
-    "ShortLabel": "sed",
-    "TabOrder": 343,
-    "TextLength": 679,
-    "Tooltip": "iure",
-    "UdefIdentity": 731,
-    "UDListDefinitionId": 622,
+    "ShortLabel": "nesciunt",
+    "TabOrder": 296,
+    "TextLength": 186,
+    "Tooltip": "exercitationem",
+    "UdefIdentity": 783,
+    "UDListDefinitionId": 339,
     "Justification": "Center",
-    "Version": 435,
-    "TemplateVariableName": "Breitenberg LLC",
+    "Version": 154,
+    "TemplateVariableName": "Becker, Ledner and Bauch",
     "HasBeenPublished": false,
-    "MdoListName": "Reichel, Hartmann and Boyer",
+    "MdoListName": "Hansen-McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldLength": 885
       }
     }
   }
