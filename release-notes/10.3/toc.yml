@@ -33,6 +33,8 @@ items:
 - name: API
   href: api/index.md
   items:
+  - name: 10.3.5 update
+    href: api/10.3.5-update.md
   - name: 10.3.4 update
     href: api/10.3.4-update.md
   - name: 10.3.3 update

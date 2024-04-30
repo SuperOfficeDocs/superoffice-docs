@@ -17,6 +17,7 @@ so.topic: reference
 * [Version 10.3.2][2]
 * [Version 10.3.3][3]
 * [Version 10.3.4][4]
+* [Version 10.3.5][5]
 
 <!-- Referenced links-->
 
@@ -24,3 +25,4 @@ so.topic: reference
 [2]: 10.3.2-update.md
 [3]: 10.3.3-update.md
 [4]: 10.3.4-update.md
+[5]: 10.3.5-update.md
