@@ -7,7 +7,7 @@ author: SuperOffice RnD
 so.date: 02.05.2024
 so.version: 10
 so.topic: howto
-language: no
+language: nl
 so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
