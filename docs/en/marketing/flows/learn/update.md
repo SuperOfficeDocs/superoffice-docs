@@ -98,7 +98,7 @@ Once the flow is started, you can change the order of branches (except 'Everyone
 <!-- Referenced links -->
 [1]: run-pause-end.md
 [2]: create.md
-[3]: create.md#add
+[3]: create.md#add-step
 [4]: create.md#wait
 [5]: split.md
 [6]: step-settings.md
