@@ -25,13 +25,13 @@ The [Search][8] documentation contains more details about how to perform searche
 
 <!-- Referenced links -->
 [1]: ../../custom-objects/overview.md
-[2]: ./howto/custom-objects-ReadRow.md
-[3]: ./howto/custom-objects-InsertRow.md
-[4]: ./howto/custom-objects-Update.md
-[5]: ./howto/custom-objects-DeleteRow.md
+[2]: ./howto/custom-objects-read-row.md
+[3]: ./howto/custom-objects-insert-row.md
+[4]: ./howto/custom-objects-update-row.md
+[5]: ./howto/custom-objects-delete-row.md
 [6]: ../../custom-objects/learn/udef.md
 [7]: ../../custom-objects/extra-field/index.md
-[8]: ./howto/custom-objects-Search.md
+[8]: ./howto/custom-objects-search.md
 [9]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
 [10]: ../web-services/howto/custom-objects/index.md
 
