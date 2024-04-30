@@ -14,6 +14,7 @@ so.topic: howto
 
 See the [DeleteRow][1] API Reference for more details.
 
+<!-- markdownlint-disable MD051 -->
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
 Using the DatabaseTable Agent, specify the TableName and Id to delete the row.
@@ -42,6 +43,7 @@ Content-Type: application/json
 ```
 
 ***
+<!-- markdownlint-restore -->
 
 ### Response
 
