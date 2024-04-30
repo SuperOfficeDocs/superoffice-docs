@@ -1,21 +1,22 @@
 ---
-uid: custom-objects
-title: custom-objects
-description: "How to use Custom Objects to search for information"
+uid: api-custom-objects-search
+title: Custom Objects search
+description: How to use Custom Objects to search for information
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, get
+keywords: custom objects, Search
 so.topic: howto
 ---
 
 # How to use Custom Objects to search for information
 
-While the other sections shows examples on how to [Read][1], [Insert][2], [Update][3] and [Delete][4], this section will focus on how to find/search for companies with existing relations connected to them.
-Even though we use Companies as an example, the logic would be for the other default entities inside of SuperOffice.
+While the other sections shows examples on how to [Read][1], [Insert][2], [Update][3] and [Delete][4], this section will focus on how to search for companies with existing relations connected to them.
+
+This example uses Companies as an example, but same logic applies for all entities inside SuperOffice.
 
 ## Get available fields for the Contact Archive
 
-One of the first things we need to ask ourself is what relations do companies actually have inside our SuperOffice database. One way of doing this would be to use the GetAvailableColumns Archice to get all the fields that has a relation to the Contact.
+One of the first things to determine is 'What relations do companies have inside our SuperOffice database?'. The best way is to use the Archive `GetAvailableColumns` endpoint to get all the available columns, including relational columns, for the Contact.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetAvailableColumns?$select=name HTTP/1.1
@@ -29,22 +30,19 @@ Content-Type: application/json
 }
 ```
 
-In the returned result all ExtraTable relations should be shown in the format of:
-contactExtra/{tableName}/{yourfield}
+All ExtraTable relations in the result are shown as `contactExtra/{ExtraTableName}/{FieldName}`.
 
-In the case where you also have relations between ExtraTables these will be shown like this:
-contactExtra/y_rentals/x_contact_id/x_equipment/x_name
+When relations exist between ExtraTables these will be shown as `contactExtra/y_rentals/x_contact_id/x_equipment/x_name`.
 
-You can then go ahead and select the columns/information you are after, and use the GetArchiveListByColumns2 Archive to select the fields you want.
+When known, perform the search using either the `GetArchiveListByColumns` or `GetArchiveListByColumns2` Archive methods.
 
 ## Practical Example
 
-In the following example we have an ExtraTable called y_rentals, and another ExtraTable called y_equipment.
-y_equipment in this case contains different items we are renting out.
-y_rentals is the link-table between the available items and the companies, and functions as a registry of what items are rented out to which customer.
+The following example searches two ExtraTables, y_rentals and y_equipment.
 
-I would like to find what items a spesific customerId has rented.
-The query would look something like this:
+`y_equipment` in this case contains different items we are renting out. `y_rentals` is the link-table between the available items and the companies, and functions as a registry of what items are rented out to which customer.
+
+The follow query can be used to find out what items a specific customer has rented out:
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Archive/GetArchiveListByColumns2
@@ -64,9 +62,10 @@ Authorization: Bearer {{token}}
 
 ```
 
->Note
->Take not of the Restictions-parameter here! With this you can also use the contactExtra-fields and search for customers that has rented a spesific item.
->Make sure you adjust PageSize to be more suited for your usercase.
+> [!NOTE]
+> Notice the `Restictions` parameter. The `contactExtra` fields can be used as restrictions, additional citeria, to search for customers that have rented a specific item.
+>
+> Make sure to adjust PageSize to be more suited for your use-case.
 
 <!-- Referenced links -->
 [1]: ./custom-objects-ReadRow.md

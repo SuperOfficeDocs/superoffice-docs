@@ -1,7 +1,7 @@
 ---
-uid: custom-objects
-title: custom-objects
-description: "Introduction to the Custom Objects"
+uid: api-custom-objects-index
+title: Custom Objects
+description: Introduction to the Custom Objects
 author: Eivind Fasting
 so.date: 04.24.2024
 keywords: custom objects
@@ -10,20 +10,18 @@ so.topic: concept
 
 # Introduction to the Custom Objects
 
-Custom Objects gives you the possibility to extend search capabilities on relation fields. What this means is that if you add an ExtraTable and create a relation to a standard Entity (Company, Contact, Sale, Project, Ticket), the standard entitys archive is now updated to include the related information in the ExtraTable.
-This will, for instance, make it possible to create selections/search against Extra tables with fields pointing to known SuperOffice entities.
-If any visible Extra table contains field pointing to entity(Company, Contact, Sale, Project, Request, Activity) we include it as a “top” node to select from in selections.
+Custom Objects are how a customer can either create new entities or extend existing entities inside SuperOffice, and are available in most search areas inside SuperOffice, including the API. When an ExtraTable is created, and has a field relation to a standard Entity (Company, Contact, Sale, Project, Ticket), the new entity and all of its' fields are available in the standard archives as available entities and columns. This makes it possible to create search selections for data stored in both built-in entity tables and extra tables, and combine them when relational fields exist. When an extra tables is marked as `Visible in archive` and contains a field pointing to a built-in entity, it is included as a “top-level” node in selections.
 
-In the [learn][1] section you can learn more about what Custom Objects are, the concept behind it, and how you can work with Extra Tables and Extra Fields through the SuperOffice UI.
-It also contains information about the [Extra fields][7] themselves and how they are different from [User Defined fields][6], and should give you the basic building blocks for creating your own ExtraTable and ExtraFields.
-We also have an own section on how to work with and search for data based on user defined fields through the webservices [here][10]
+The [learn][1] section contains more information about Custom Objects, and how you can work with Extra Tables and Extra Fields in SuperOffice. Learn also contains information about the [Extra fields][7] and how they are different from [User Defined fields][6]. The Learn reference section also provides instructions for creating an ExtraTable and ExtraFields.
 
-This section will focus on the API-part of working with Custom Objects, and help understand how the underlying agents can be used to both [ReadRow][2], [InsertRow][3], [UpsertRow][4], [DeleteRow][5] rows in an ExtraTable.
+There also exists a section how to work with and search for data based on user defined fields in the [web services][10] documentation.
 
->Note
->Code-examples can also be found on [git][9]
+This section will focus on how to work with Custom Objects, and explain how to use the API methods [ReadRow][2], [InsertRow][3], [UpsertRow][4], [DeleteRow][5] to perform operations on an ExtraTable custom object.
 
-[Search][8] goes more in detail on how to find search for information based on these relations, and contains an example on how to do so.
+> [!NOTE]
+> Code-examples can also be found on [git][9]
+
+The [Search][8] documentation contains more details about how to perform searches based on these relations with an example.
 
 <!-- Referenced links -->
 [1]: ../../custom-objects/overview.md

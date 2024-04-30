@@ -1,10 +1,10 @@
 ---
-uid: custom-objects
-title: custom-objects
-description: "How to use the DatabaseTable Agent InsertRow"
+uid: api-custom-objects-insert-row
+title: Custom Objects InsertRow
+description: How to use the DatabaseTable Agent InsertRow
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, get
+keywords: custom objects, InsertRow
 so.topic: howto
 ---
 
@@ -12,11 +12,11 @@ so.topic: howto
 
 ## Reference
 
-The API Reference for InsertRow can be found [here][1]
+See the [InsertRow][1] API Reference for more details.
 
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-With the DatabaseTable Agent you pass in the TableName and Values in the body
+Using the DatabaseTable Agent, specify the TableName and Values as body parameters to insert a new row.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/InsertRow HTTP/1.1
@@ -35,7 +35,7 @@ Content-Type: application/json
 
 ### [RESTful REST](#tab/TableRecord)
 
-With the TableRecord you pass inn the TableName and values in the body
+Using the TableRecord endpoint, specify the TableName in the url and the values in the body to insert a new row.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment HTTP/1.1
@@ -53,7 +53,7 @@ Content-Type: application/json
 
 ### Response
 
-The reponse is the returned recordId of the new row
+The Response returns the recordId of the new row.
 
 ```http_
 HTTP/1.1 200 OK

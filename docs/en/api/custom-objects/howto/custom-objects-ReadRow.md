@@ -1,10 +1,10 @@
 ---
-uid: custom-objects
-title: custom-objects
-description: "How to use the DatabaseTable Agent ReadRow"
+uid: api-custom-objects-read-row
+title: Custom Objects ReadRow
+description: How to use the DatabaseTable Agent ReadRow
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, get
+keywords: custom objects, ReadRow
 so.topic: howto
 ---
 
@@ -12,11 +12,11 @@ so.topic: howto
 
 ## Reference
 
-The API Reference for ReadRow can be found [here][1]
+See the [ReadRow][1] API Reference for more details.
 
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-With the DatabaseTable Agent you pass in the TableName and Id of the row
+Using the DatabaseTable Agent, specify the TableName and Id as body parameters to return the row.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/ReadRow HTTP/1.1
@@ -32,7 +32,7 @@ Content-Type: application/json
 
 ### [RESTful REST](#tab/TableRecord)
 
-With the TableRecord you pass inn the TableName and Id as part of the querystring
+Using the TableRecord endpoint, specify the TableName and Id as part of the query string to return the row.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment/1 HTTP/1.1

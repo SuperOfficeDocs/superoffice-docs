@@ -1,10 +1,10 @@
 ---
-uid: custom-objects
-title: custom-objects
-description: "How to use the DatabaseTable Agent UpdateRow"
+uid: api-custom-objects-update-row
+title: Custom Objects UpdateRow
+description: How to use the DatabaseTable Agent UpdateRow
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, get
+keywords: custom objects, UpdateRow
 so.topic: howto
 ---
 
@@ -12,11 +12,11 @@ so.topic: howto
 
 ## Reference
 
-The API Reference for UpdateRow can be found [here][1]
+See the [UpdateRow][1] API Reference for more details.
 
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-With the DatabaseTable Agent you pass in the TableName, Id and Values in the body
+Using the DatabaseTable Agent, specify the TableName, Id and Values body parameters to update the row.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/UpdateRow HTTP/1.1
@@ -36,7 +36,7 @@ Content-Type: application/json
 
 ### [RESTful REST](#tab/TableRecord)
 
-With the TableRecord you pass inn the TableName and rowId in the querysttring, and the values to update in the body
+Using the TableRecord endpoint, specify the TableName and record Id as query string parameters, and the values to update in the body of the request.
 
 ```http!
 PUT https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment/2 HTTP/1.1

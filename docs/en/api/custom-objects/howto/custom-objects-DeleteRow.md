@@ -1,10 +1,10 @@
 ---
-uid: custom-objects
-title: custom-objects
-description: "How to use the DatabaseTable Agent DeleteRow"
+uid: api-custom-objects-delete-row
+title: Custom Objects DeleteRow
+description: How to use the DatabaseTable Agent DeleteRow
 author: Eivind Fasting
 so.date: 04.28.2024
-keywords: custom objects, get
+keywords: custom objects, DeleteRow
 so.topic: howto
 ---
 
@@ -12,11 +12,11 @@ so.topic: howto
 
 ## Reference
 
-The API Reference for DeleteRow can be found [here][1]
+See the [DeleteRow][1] API Reference for more details.
 
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
-With the DatabaseTable Agent you pass in the TableName and rowId
+Using the DatabaseTable Agent, specify the TableName and Id to delete the row.
 
 ```http!
 POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/DatabaseTable/DeleteRow HTTP/1.1
@@ -32,7 +32,7 @@ Content-Type: application/json
 
 ### [RESTful REST](#tab/TableRecord)
 
-With the TableRecord you pass inn the TableName and rowId in the querysttring, and the values to update in the body
+Using the TableRecord endpoint specify the TableName and rowId as query string parameters to delete the record.
 
 ```http!
 DELETE  https://{{env}}.superoffice.com/{{tenant}}/api/v1/Table/y_equipment/3 HTTP/1.1
