@@ -14,6 +14,7 @@ so.topic: howto
 
 See the [UpdateRow][1] API Reference for more details.
 
+<!-- markdownlint-disable MD051 -->
 ### [RESTful AGENT](#tab/DatabaseTableAgent)
 
 Using the DatabaseTable Agent, specify the TableName, Id and Values body parameters to update the row.
@@ -51,6 +52,7 @@ Content-Type: application/json
 ```
 
 ***
+<!-- markdownlint-restore -->
 
 ### Response
 
