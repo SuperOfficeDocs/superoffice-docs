@@ -9,7 +9,6 @@ items:
   - SuperOffice.WebApi.Data.TargetPeriodType.Month
   - SuperOffice.WebApi.Data.TargetPeriodType.None
   - SuperOffice.WebApi.Data.TargetPeriodType.Quarter
-  - SuperOffice.WebApi.Data.TargetPeriodType.value__
   - SuperOffice.WebApi.Data.TargetPeriodType.Year
   langs:
   - csharp
@@ -17,57 +16,18 @@ items:
   name: TargetPeriodType
   nameWithType: TargetPeriodType
   fullName: SuperOffice.WebApi.Data.TargetPeriodType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTarget period type\nThis Enum is used by:  target_group.period_type\n"
-  syntax:
-    content: 'public sealed class TargetPeriodType : Enum'
-    content.vb: >-
-      Public NotInheritable Class TargetPeriodType
-          Inherits
+  summary: >-
+    Target period type
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TargetPeriodType.value__
-  commentId: F:SuperOffice.WebApi.Data.TargetPeriodType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TargetPeriodType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TargetPeriodType.value__
-  fullName: SuperOffice.WebApi.Data.TargetPeriodType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  target_group.period_type
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum TargetPeriodType : short'
+    content.vb: Public Enum TargetPeriodType As Short
 - uid: SuperOffice.WebApi.Data.TargetPeriodType.None
   commentId: F:SuperOffice.WebApi.Data.TargetPeriodType.None
   id: None
@@ -79,24 +39,26 @@ items:
   nameWithType: TargetPeriodType.None
   fullName: SuperOffice.WebApi.Data.TargetPeriodType.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: None\n"
+  summary: '0: None'
+  example: []
   syntax:
-    content: public const TargetPeriodType None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.TargetPeriodType
-    content.vb: Public Const None As TargetPeriodType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetPeriodType.Year
   commentId: F:SuperOffice.WebApi.Data.TargetPeriodType.Year
   id: Year
@@ -108,24 +70,26 @@ items:
   nameWithType: TargetPeriodType.Year
   fullName: SuperOffice.WebApi.Data.TargetPeriodType.Year
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Year\n"
+  summary: '1: Year'
+  example: []
   syntax:
-    content: public const TargetPeriodType Year
+    content: >-
+      [EnumMember]
+
+      Year = 1
     return:
       type: SuperOffice.WebApi.Data.TargetPeriodType
-    content.vb: Public Const Year As TargetPeriodType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Year = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetPeriodType.HalfYear
   commentId: F:SuperOffice.WebApi.Data.TargetPeriodType.HalfYear
   id: HalfYear
@@ -137,24 +101,26 @@ items:
   nameWithType: TargetPeriodType.HalfYear
   fullName: SuperOffice.WebApi.Data.TargetPeriodType.HalfYear
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: HalfYear\n"
+  summary: '2: HalfYear'
+  example: []
   syntax:
-    content: public const TargetPeriodType HalfYear
+    content: >-
+      [EnumMember]
+
+      HalfYear = 2
     return:
       type: SuperOffice.WebApi.Data.TargetPeriodType
-    content.vb: Public Const HalfYear As TargetPeriodType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      HalfYear = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetPeriodType.Quarter
   commentId: F:SuperOffice.WebApi.Data.TargetPeriodType.Quarter
   id: Quarter
@@ -166,24 +132,26 @@ items:
   nameWithType: TargetPeriodType.Quarter
   fullName: SuperOffice.WebApi.Data.TargetPeriodType.Quarter
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Quarter\n"
+  summary: '3: Quarter'
+  example: []
   syntax:
-    content: public const TargetPeriodType Quarter
+    content: >-
+      [EnumMember]
+
+      Quarter = 3
     return:
       type: SuperOffice.WebApi.Data.TargetPeriodType
-    content.vb: Public Const Quarter As TargetPeriodType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Quarter = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TargetPeriodType.Month
   commentId: F:SuperOffice.WebApi.Data.TargetPeriodType.Month
   id: Month
@@ -195,55 +163,69 @@ items:
   nameWithType: TargetPeriodType.Month
   fullName: SuperOffice.WebApi.Data.TargetPeriodType.Month
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Month\n"
+  summary: '4: Month'
+  example: []
   syntax:
-    content: public const TargetPeriodType Month
+    content: >-
+      [EnumMember]
+
+      Month = 4
     return:
       type: SuperOffice.WebApi.Data.TargetPeriodType
-    content.vb: Public Const Month As TargetPeriodType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Month = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TargetPeriodType
   commentId: T:SuperOffice.WebApi.Data.TargetPeriodType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TargetPeriodType.html
   name: TargetPeriodType
   nameWithType: TargetPeriodType
   fullName: SuperOffice.WebApi.Data.TargetPeriodType

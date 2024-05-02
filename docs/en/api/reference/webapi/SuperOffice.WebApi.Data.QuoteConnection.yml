@@ -12,8 +12,8 @@ items:
   - SuperOffice.WebApi.Data.QuoteConnection.Deleted
   - SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription
   - SuperOffice.WebApi.Data.QuoteConnection.DisplayName
-  - SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId
   - SuperOffice.WebApi.Data.QuoteConnection.ERPName
+  - SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId
   - SuperOffice.WebApi.Data.QuoteConnection.ExtraData
   - SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse
   - SuperOffice.WebApi.Data.QuoteConnection.IsAvailable
@@ -28,18 +28,17 @@ items:
   nameWithType: QuoteConnection
   fullName: SuperOffice.WebApi.Data.QuoteConnection
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for QuoteConnection.\nInformation about a connection to the ERP system.    \n"
+  summary: >-
+    Carrier object for QuoteConnection.
+
+    Information about a connection to the ERP system.
+  example: []
   syntax:
     content: 'public class QuoteConnection : Carrier'
-    content.vb: >-
-      Public Class QuoteConnection
-          Inherits Carrier
+    content.vb: Public Class QuoteConnection Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.QuoteAgent
     commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
@@ -49,12 +48,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.QuoteConnection.#ctor
   commentId: M:SuperOffice.WebApi.Data.QuoteConnection.#ctor
   id: '#ctor'
@@ -66,21 +66,18 @@ items:
   nameWithType: QuoteConnection.QuoteConnection()
   fullName: SuperOffice.WebApi.Data.QuoteConnection.QuoteConnection()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public QuoteConnection()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.QuoteConnection.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: QuoteConnection.New()
+  fullName.vb: SuperOffice.WebApi.Data.QuoteConnection.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.QuoteConnection.QuoteConnectionId
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.QuoteConnectionId
   id: QuoteConnectionId
@@ -92,13 +89,11 @@ items:
   nameWithType: QuoteConnection.QuoteConnectionId
   fullName: SuperOffice.WebApi.Data.QuoteConnection.QuoteConnectionId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int QuoteConnectionId { get; set; }
     parameters: []
@@ -106,14 +101,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property QuoteConnectionId As Integer
   overload: SuperOffice.WebApi.Data.QuoteConnection.QuoteConnectionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ERPName
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.ERPName
   id: ERPName
@@ -125,13 +112,11 @@ items:
   nameWithType: QuoteConnection.ERPName
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ERPName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nName of the ERP system (programmatic).\n"
+  summary: Name of the ERP system (programmatic).
+  example: []
   syntax:
     content: public virtual string ERPName { get; set; }
     parameters: []
@@ -139,14 +124,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ERPName As String
   overload: SuperOffice.WebApi.Data.QuoteConnection.ERPName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.DisplayName
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.DisplayName
   id: DisplayName
@@ -158,13 +135,11 @@ items:
   nameWithType: QuoteConnection.DisplayName
   fullName: SuperOffice.WebApi.Data.QuoteConnection.DisplayName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nConnection name shown to user; multi-language support. The name of the connector to display in a list so that the users can choose between them. Typically the name of the client, with maybe the ERP system in parenthesis.\n"
+  summary: Connection name shown to user; multi-language support. The name of the connector to display in a list so that the users can choose between them. Typically the name of the client, with maybe the ERP system in parenthesis.
+  example: []
   syntax:
     content: public virtual string DisplayName { get; set; }
     parameters: []
@@ -172,14 +147,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayName As String
   overload: SuperOffice.WebApi.Data.QuoteConnection.DisplayName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription
   id: DisplayDescription
@@ -191,13 +158,11 @@ items:
   nameWithType: QuoteConnection.DisplayDescription
   fullName: SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTooltip/description shown to user; multi-language support. Any other info available that would make an uncertain user chose the right connector. Typically, used for tooltip.\n"
+  summary: Tooltip/description shown to user; multi-language support. Any other info available that would make an uncertain user chose the right connector. Typically, used for tooltip.
+  example: []
   syntax:
     content: public virtual string DisplayDescription { get; set; }
     parameters: []
@@ -205,14 +170,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayDescription As String
   overload: SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.Rank
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.Rank
   id: Rank
@@ -224,13 +181,11 @@ items:
   nameWithType: QuoteConnection.Rank
   fullName: SuperOffice.WebApi.Data.QuoteConnection.Rank
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRank order \n"
+  summary: Rank order
+  example: []
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -238,14 +193,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.QuoteConnection.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ConnectorName
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.ConnectorName
   id: ConnectorName
@@ -257,13 +204,11 @@ items:
   nameWithType: QuoteConnection.ConnectorName
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ConnectorName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nProgrammatic name of the Connector plugin that implements this kind of connection\n"
+  summary: Programmatic name of the Connector plugin that implements this kind of connection
+  example: []
   syntax:
     content: public virtual string ConnectorName { get; set; }
     parameters: []
@@ -271,14 +216,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ConnectorName As String
   overload: SuperOffice.WebApi.Data.QuoteConnection.ConnectorName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId
   id: ErpConnectionId
@@ -290,13 +227,11 @@ items:
   nameWithType: QuoteConnection.ErpConnectionId
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe ERP Connection that this Quote connection is an extension of\n"
+  summary: The ERP Connection that this Quote connection is an extension of
+  example: []
   syntax:
     content: public virtual int ErpConnectionId { get; set; }
     parameters: []
@@ -304,14 +239,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ErpConnectionId As Integer
   overload: SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ExtraData
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.ExtraData
   id: ExtraData
@@ -323,13 +250,11 @@ items:
   nameWithType: QuoteConnection.ExtraData
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ExtraData
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nOptional extra data, in XML format, for configuring the connector. Connector-specific!\n"
+  summary: Optional extra data, in XML format, for configuring the connector. Connector-specific!
+  example: []
   syntax:
     content: public virtual string ExtraData { get; set; }
     parameters: []
@@ -337,14 +262,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraData As String
   overload: SuperOffice.WebApi.Data.QuoteConnection.ExtraData*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.IsAvailable
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.IsAvailable
   id: IsAvailable
@@ -356,13 +273,11 @@ items:
   nameWithType: QuoteConnection.IsAvailable
   fullName: SuperOffice.WebApi.Data.QuoteConnection.IsAvailable
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether or not the specified connection is available. Typically, without network access the availability is false.\n"
+  summary: Whether or not the specified connection is available. Typically, without network access the availability is false.
+  example: []
   syntax:
     content: public virtual bool IsAvailable { get; set; }
     parameters: []
@@ -370,14 +285,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsAvailable As Boolean
   overload: SuperOffice.WebApi.Data.QuoteConnection.IsAvailable*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse
   id: InitializeResponse
@@ -389,13 +296,11 @@ items:
   nameWithType: QuoteConnection.InitializeResponse
   fullName: SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStatus and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet.\n"
+  summary: Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet.
+  example: []
   syntax:
     content: public virtual PluginResponse InitializeResponse { get; set; }
     parameters: []
@@ -403,14 +308,6 @@ items:
       type: SuperOffice.WebApi.Data.PluginResponse
     content.vb: Public Overridable Property InitializeResponse As PluginResponse
   overload: SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.PriceLists
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.PriceLists
   id: PriceLists
@@ -422,13 +319,11 @@ items:
   nameWithType: QuoteConnection.PriceLists
   fullName: SuperOffice.WebApi.Data.QuoteConnection.PriceLists
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe PriceLists that this connection offers.\n"
+  summary: The PriceLists that this connection offers.
+  example: []
   syntax:
     content: public virtual PriceList[] PriceLists { get; set; }
     parameters: []
@@ -436,14 +331,6 @@ items:
       type: SuperOffice.WebApi.Data.PriceList[]
     content.vb: Public Overridable Property PriceLists As PriceList()
   overload: SuperOffice.WebApi.Data.QuoteConnection.PriceLists*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.AllAccess
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.AllAccess
   id: AllAccess
@@ -455,13 +342,11 @@ items:
   nameWithType: QuoteConnection.AllAccess
   fullName: SuperOffice.WebApi.Data.QuoteConnection.AllAccess
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it.\n"
+  summary: Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it.
+  example: []
   syntax:
     content: public virtual bool AllAccess { get; set; }
     parameters: []
@@ -469,14 +354,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property AllAccess As Boolean
   overload: SuperOffice.WebApi.Data.QuoteConnection.AllAccess*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.Deleted
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.Deleted
   id: Deleted
@@ -488,13 +365,11 @@ items:
   nameWithType: QuoteConnection.Deleted
   fullName: SuperOffice.WebApi.Data.QuoteConnection.Deleted
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIf set, then this is a row that has been &apos;deleted&apos;; we do not physically delete rows to avoid disaster.\n"
+  summary: If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster.
+  example: []
   syntax:
     content: public virtual bool Deleted { get; set; }
     parameters: []
@@ -502,14 +377,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.WebApi.Data.QuoteConnection.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.UserGroupAccessIds
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.UserGroupAccessIds
   id: UserGroupAccessIds
@@ -521,13 +388,11 @@ items:
   nameWithType: QuoteConnection.UserGroupAccessIds
   fullName: SuperOffice.WebApi.Data.QuoteConnection.UserGroupAccessIds
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nArray of ids containing usergroups that will have access to this connection.\n"
+  summary: Array of ids containing usergroups that will have access to this connection.
+  example: []
   syntax:
     content: public virtual int[] UserGroupAccessIds { get; set; }
     parameters: []
@@ -535,14 +400,6 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property UserGroupAccessIds As Integer()
   overload: SuperOffice.WebApi.Data.QuoteConnection.UserGroupAccessIds*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.QuoteConnection.AssociateAccessIds
   commentId: P:SuperOffice.WebApi.Data.QuoteConnection.AssociateAccessIds
   id: AssociateAccessIds
@@ -554,13 +411,11 @@ items:
   nameWithType: QuoteConnection.AssociateAccessIds
   fullName: SuperOffice.WebApi.Data.QuoteConnection.AssociateAccessIds
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nArray of ids containing associates that will have access to this connection.\n"
+  summary: Array of ids containing associates that will have access to this connection.
+  example: []
   syntax:
     content: public virtual int[] AssociateAccessIds { get; set; }
     parameters: []
@@ -568,32 +423,67 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property AssociateAccessIds As Integer()
   overload: SuperOffice.WebApi.Data.QuoteConnection.AssociateAccessIds*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.QuoteAgent.html
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -601,6 +491,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -608,30 +499,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.QuoteAgent
-  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: QuoteAgent
-  nameWithType: QuoteAgent
-  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.QuoteConnection.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection__ctor
   name: QuoteConnection
   nameWithType: QuoteConnection.QuoteConnection
   fullName: SuperOffice.WebApi.Data.QuoteConnection.QuoteConnection
+  nameWithType.vb: QuoteConnection.New
+  fullName.vb: SuperOffice.WebApi.Data.QuoteConnection.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.QuoteConnection.QuoteConnectionId*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.QuoteConnectionId
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_QuoteConnectionId
   name: QuoteConnectionId
   nameWithType: QuoteConnection.QuoteConnectionId
   fullName: SuperOffice.WebApi.Data.QuoteConnection.QuoteConnectionId
@@ -639,12 +750,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ERPName*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.ERPName
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_ERPName
   name: ERPName
   nameWithType: QuoteConnection.ERPName
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ERPName
@@ -652,48 +768,59 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.QuoteConnection.DisplayName*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.DisplayName
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_DisplayName
   name: DisplayName
   nameWithType: QuoteConnection.DisplayName
   fullName: SuperOffice.WebApi.Data.QuoteConnection.DisplayName
 - uid: SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_DisplayDescription
   name: DisplayDescription
   nameWithType: QuoteConnection.DisplayDescription
   fullName: SuperOffice.WebApi.Data.QuoteConnection.DisplayDescription
 - uid: SuperOffice.WebApi.Data.QuoteConnection.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.Rank
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_Rank
   name: Rank
   nameWithType: QuoteConnection.Rank
   fullName: SuperOffice.WebApi.Data.QuoteConnection.Rank
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ConnectorName*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.ConnectorName
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_ConnectorName
   name: ConnectorName
   nameWithType: QuoteConnection.ConnectorName
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ConnectorName
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_ErpConnectionId
   name: ErpConnectionId
   nameWithType: QuoteConnection.ErpConnectionId
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ErpConnectionId
 - uid: SuperOffice.WebApi.Data.QuoteConnection.ExtraData*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.ExtraData
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_ExtraData
   name: ExtraData
   nameWithType: QuoteConnection.ExtraData
   fullName: SuperOffice.WebApi.Data.QuoteConnection.ExtraData
 - uid: SuperOffice.WebApi.Data.QuoteConnection.IsAvailable*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.IsAvailable
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_IsAvailable
   name: IsAvailable
   nameWithType: QuoteConnection.IsAvailable
   fullName: SuperOffice.WebApi.Data.QuoteConnection.IsAvailable
@@ -701,12 +828,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_InitializeResponse
   name: InitializeResponse
   nameWithType: QuoteConnection.InitializeResponse
   fullName: SuperOffice.WebApi.Data.QuoteConnection.InitializeResponse
@@ -714,17 +846,20 @@ references:
   commentId: T:SuperOffice.WebApi.Data.PluginResponse
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.PluginResponse.html
   name: PluginResponse
   nameWithType: PluginResponse
   fullName: SuperOffice.WebApi.Data.PluginResponse
 - uid: SuperOffice.WebApi.Data.QuoteConnection.PriceLists*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.PriceLists
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_PriceLists
   name: PriceLists
   nameWithType: QuoteConnection.PriceLists
   fullName: SuperOffice.WebApi.Data.QuoteConnection.PriceLists
 - uid: SuperOffice.WebApi.Data.PriceList[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.PriceList.html
   name: PriceList[]
   nameWithType: PriceList[]
   fullName: SuperOffice.WebApi.Data.PriceList[]
@@ -734,68 +869,65 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.PriceList
     name: PriceList
-    nameWithType: PriceList
-    fullName: SuperOffice.WebApi.Data.PriceList
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.PriceList.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.PriceList
     name: PriceList
-    nameWithType: PriceList
-    fullName: SuperOffice.WebApi.Data.PriceList
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.PriceList.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.QuoteConnection.AllAccess*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.AllAccess
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_AllAccess
   name: AllAccess
   nameWithType: QuoteConnection.AllAccess
   fullName: SuperOffice.WebApi.Data.QuoteConnection.AllAccess
 - uid: SuperOffice.WebApi.Data.QuoteConnection.Deleted*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.Deleted
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_Deleted
   name: Deleted
   nameWithType: QuoteConnection.Deleted
   fullName: SuperOffice.WebApi.Data.QuoteConnection.Deleted
 - uid: SuperOffice.WebApi.Data.QuoteConnection.UserGroupAccessIds*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.UserGroupAccessIds
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_UserGroupAccessIds
   name: UserGroupAccessIds
   nameWithType: QuoteConnection.UserGroupAccessIds
   fullName: SuperOffice.WebApi.Data.QuoteConnection.UserGroupAccessIds
 - uid: System.Int32[]
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
   spec.csharp:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.QuoteConnection.AssociateAccessIds*
   commentId: Overload:SuperOffice.WebApi.Data.QuoteConnection.AssociateAccessIds
   isExternal: true
+  href: SuperOffice.WebApi.Data.QuoteConnection.html#SuperOffice_WebApi_Data_QuoteConnection_AssociateAccessIds
   name: AssociateAccessIds
   nameWithType: QuoteConnection.AssociateAccessIds
   fullName: SuperOffice.WebApi.Data.QuoteConnection.AssociateAccessIds

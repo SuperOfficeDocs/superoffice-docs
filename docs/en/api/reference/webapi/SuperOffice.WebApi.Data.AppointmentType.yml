@@ -8,71 +8,31 @@ items:
   - SuperOffice.WebApi.Data.AppointmentType.BookingForChecklist
   - SuperOffice.WebApi.Data.AppointmentType.BookingForDiary
   - SuperOffice.WebApi.Data.AppointmentType.Document
-  - SuperOffice.WebApi.Data.AppointmentType.inChecklist
-  - SuperOffice.WebApi.Data.AppointmentType.inDiary
   - SuperOffice.WebApi.Data.AppointmentType.MergeDraft
   - SuperOffice.WebApi.Data.AppointmentType.MergeFinal
   - SuperOffice.WebApi.Data.AppointmentType.Note
   - SuperOffice.WebApi.Data.AppointmentType.SavedReport
   - SuperOffice.WebApi.Data.AppointmentType.Unknown
-  - SuperOffice.WebApi.Data.AppointmentType.value__
+  - SuperOffice.WebApi.Data.AppointmentType.inChecklist
+  - SuperOffice.WebApi.Data.AppointmentType.inDiary
   langs:
   - csharp
   - vb
   name: AppointmentType
   nameWithType: AppointmentType
   fullName: SuperOffice.WebApi.Data.AppointmentType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;type&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.type\n"
-  syntax:
-    content: 'public sealed class AppointmentType : Enum'
-    content.vb: >-
-      Public NotInheritable Class AppointmentType
-          Inherits
+  summary: >-
+    Value for field 'type' in table 'appointment'.
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.AppointmentType.value__
-  commentId: F:SuperOffice.WebApi.Data.AppointmentType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.AppointmentType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: AppointmentType.value__
-  fullName: SuperOffice.WebApi.Data.AppointmentType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  appointment.type
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum AppointmentType : short'
+    content.vb: Public Enum AppointmentType As Short
 - uid: SuperOffice.WebApi.Data.AppointmentType.Unknown
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.Unknown
   id: Unknown
@@ -84,24 +44,26 @@ items:
   nameWithType: AppointmentType.Unknown
   fullName: SuperOffice.WebApi.Data.AppointmentType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown - used when initializing \n"
+  summary: '0: Unknown - used when initializing'
+  example: []
   syntax:
-    content: public const AppointmentType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const Unknown As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.inDiary
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.inDiary
   id: inDiary
@@ -113,24 +75,26 @@ items:
   nameWithType: AppointmentType.inDiary
   fullName: SuperOffice.WebApi.Data.AppointmentType.inDiary
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Show in diary. If overdue or done today, show in checklist also\n"
+  summary: '1: Show in diary. If overdue or done today, show in checklist also'
+  example: []
   syntax:
-    content: public const AppointmentType inDiary
+    content: >-
+      [EnumMember]
+
+      inDiary = 1
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const inDiary As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      inDiary = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.inChecklist
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.inChecklist
   id: inChecklist
@@ -142,24 +106,26 @@ items:
   nameWithType: AppointmentType.inChecklist
   fullName: SuperOffice.WebApi.Data.AppointmentType.inChecklist
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Appointment is a followup with no specific starttime\n"
+  summary: '2: Appointment is a followup with no specific starttime'
+  example: []
   syntax:
-    content: public const AppointmentType inChecklist
+    content: >-
+      [EnumMember]
+
+      inChecklist = 2
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const inChecklist As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      inChecklist = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.Note
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.Note
   id: Note
@@ -171,24 +137,26 @@ items:
   nameWithType: AppointmentType.Note
   fullName: SuperOffice.WebApi.Data.AppointmentType.Note
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Paper clip on diary, expands to “post-it” note when clicked\n"
+  summary: '3: Paper clip on diary, expands to “post-it” note when clicked'
+  example: []
   syntax:
-    content: public const AppointmentType Note
+    content: >-
+      [EnumMember]
+
+      Note = 3
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const Note As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Note = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.Document
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.Document
   id: Document
@@ -200,24 +168,26 @@ items:
   nameWithType: AppointmentType.Document
   fullName: SuperOffice.WebApi.Data.AppointmentType.Document
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Document of any kind, including outgoing, incoming and email\n"
+  summary: '4: Document of any kind, including outgoing, incoming and email'
+  example: []
   syntax:
-    content: public const AppointmentType Document
+    content: >-
+      [EnumMember]
+
+      Document = 4
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const Document As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Document = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.SavedReport
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.SavedReport
   id: SavedReport
@@ -229,24 +199,26 @@ items:
   nameWithType: AppointmentType.SavedReport
   fullName: SuperOffice.WebApi.Data.AppointmentType.SavedReport
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Saved Report (i.e., not a Report Definition but the result of an actual report run)\n"
+  summary: '5: Saved Report (i.e., not a Report Definition but the result of an actual report run)'
+  example: []
   syntax:
-    content: public const AppointmentType SavedReport
+    content: >-
+      [EnumMember]
+
+      SavedReport = 5
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const SavedReport As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SavedReport = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.BookingForDiary
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.BookingForDiary
   id: BookingForDiary
@@ -258,24 +230,26 @@ items:
   nameWithType: AppointmentType.BookingForDiary
   fullName: SuperOffice.WebApi.Data.AppointmentType.BookingForDiary
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Booking, made for diary. When accepted this will change type to inDiary\n"
+  summary: '6: Booking, made for diary. When accepted this will change type to inDiary'
+  example: []
   syntax:
-    content: public const AppointmentType BookingForDiary
+    content: >-
+      [EnumMember]
+
+      BookingForDiary = 6
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const BookingForDiary As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BookingForDiary = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.BookingForChecklist
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.BookingForChecklist
   id: BookingForChecklist
@@ -287,24 +261,26 @@ items:
   nameWithType: AppointmentType.BookingForChecklist
   fullName: SuperOffice.WebApi.Data.AppointmentType.BookingForChecklist
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Booking, made for check list. When accepted this will change type to inChecklist\n"
+  summary: '7: Booking, made for check list. When accepted this will change type to inChecklist'
+  example: []
   syntax:
-    content: public const AppointmentType BookingForChecklist
+    content: >-
+      [EnumMember]
+
+      BookingForChecklist = 7
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const BookingForChecklist As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BookingForChecklist = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.MergeDraft
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.MergeDraft
   id: MergeDraft
@@ -316,24 +292,26 @@ items:
   nameWithType: AppointmentType.MergeDraft
   fullName: SuperOffice.WebApi.Data.AppointmentType.MergeDraft
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Document is a template for mailmerge operations\n"
+  summary: '8: Document is a template for mailmerge operations'
+  example: []
   syntax:
-    content: public const AppointmentType MergeDraft
+    content: >-
+      [EnumMember]
+
+      MergeDraft = 8
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const MergeDraft As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MergeDraft = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.AppointmentType.MergeFinal
   commentId: F:SuperOffice.WebApi.Data.AppointmentType.MergeFinal
   id: MergeFinal
@@ -345,55 +323,69 @@ items:
   nameWithType: AppointmentType.MergeFinal
   fullName: SuperOffice.WebApi.Data.AppointmentType.MergeFinal
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Document is a result of a mailmerge operations (there are probably many documents like this!)\n"
+  summary: '9: Document is a result of a mailmerge operations (there are probably many documents like this!)'
+  example: []
   syntax:
-    content: public const AppointmentType MergeFinal
+    content: >-
+      [EnumMember]
+
+      MergeFinal = 9
     return:
       type: SuperOffice.WebApi.Data.AppointmentType
-    content.vb: Public Const MergeFinal As AppointmentType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MergeFinal = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.AppointmentType
   commentId: T:SuperOffice.WebApi.Data.AppointmentType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentType.html
   name: AppointmentType
   nameWithType: AppointmentType
   fullName: SuperOffice.WebApi.Data.AppointmentType

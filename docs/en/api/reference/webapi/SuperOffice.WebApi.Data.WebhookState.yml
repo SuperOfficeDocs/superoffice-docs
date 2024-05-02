@@ -9,64 +9,24 @@ items:
   - SuperOffice.WebApi.Data.WebhookState.Stopped
   - SuperOffice.WebApi.Data.WebhookState.TooManyErrors
   - SuperOffice.WebApi.Data.WebhookState.Unknown
-  - SuperOffice.WebApi.Data.WebhookState.value__
   langs:
   - csharp
   - vb
   name: WebhookState
   nameWithType: WebhookState
   fullName: SuperOffice.WebApi.Data.WebhookState
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWebhook status: active, stopped, or tooManyErrors\nThis Enum is used by:  Webhook.state\n"
-  syntax:
-    content: 'public sealed class WebhookState : Enum'
-    content.vb: >-
-      Public NotInheritable Class WebhookState
-          Inherits
+  summary: >-
+    Webhook status: active, stopped, or tooManyErrors
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.WebhookState.value__
-  commentId: F:SuperOffice.WebApi.Data.WebhookState.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.WebhookState
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: WebhookState.value__
-  fullName: SuperOffice.WebApi.Data.WebhookState.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  Webhook.state
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum WebhookState : short'
+    content.vb: Public Enum WebhookState As Short
 - uid: SuperOffice.WebApi.Data.WebhookState.Unknown
   commentId: F:SuperOffice.WebApi.Data.WebhookState.Unknown
   id: Unknown
@@ -78,24 +38,26 @@ items:
   nameWithType: WebhookState.Unknown
   fullName: SuperOffice.WebApi.Data.WebhookState.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: 0: Unknown state\n"
+  summary: '0: 0: Unknown state'
+  example: []
   syntax:
-    content: public const WebhookState Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.WebhookState
-    content.vb: Public Const Unknown As WebhookState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WebhookState.Active
   commentId: F:SuperOffice.WebApi.Data.WebhookState.Active
   id: Active
@@ -107,24 +69,26 @@ items:
   nameWithType: WebhookState.Active
   fullName: SuperOffice.WebApi.Data.WebhookState.Active
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: 1: Active - webhook is posting events to receiver\n"
+  summary: '1: 1: Active - webhook is posting events to receiver'
+  example: []
   syntax:
-    content: public const WebhookState Active
+    content: >-
+      [EnumMember]
+
+      Active = 1
     return:
       type: SuperOffice.WebApi.Data.WebhookState
-    content.vb: Public Const Active As WebhookState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Active = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WebhookState.Stopped
   commentId: F:SuperOffice.WebApi.Data.WebhookState.Stopped
   id: Stopped
@@ -136,24 +100,26 @@ items:
   nameWithType: WebhookState.Stopped
   fullName: SuperOffice.WebApi.Data.WebhookState.Stopped
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: 2: Stopped - webhook has been turned off. Not posting events to receiver.\n"
+  summary: '2: 2: Stopped - webhook has been turned off. Not posting events to receiver.'
+  example: []
   syntax:
-    content: public const WebhookState Stopped
+    content: >-
+      [EnumMember]
+
+      Stopped = 2
     return:
       type: SuperOffice.WebApi.Data.WebhookState
-    content.vb: Public Const Stopped As WebhookState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Stopped = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WebhookState.TooManyErrors
   commentId: F:SuperOffice.WebApi.Data.WebhookState.TooManyErrors
   id: TooManyErrors
@@ -165,55 +131,69 @@ items:
   nameWithType: WebhookState.TooManyErrors
   fullName: SuperOffice.WebApi.Data.WebhookState.TooManyErrors
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: 3: Too many errors received - webhook has been turned off automatically.\n"
+  summary: '3: 3: Too many errors received - webhook has been turned off automatically.'
+  example: []
   syntax:
-    content: public const WebhookState TooManyErrors
+    content: >-
+      [EnumMember]
+
+      TooManyErrors = 3
     return:
       type: SuperOffice.WebApi.Data.WebhookState
-    content.vb: Public Const TooManyErrors As WebhookState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TooManyErrors = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.WebhookState
   commentId: T:SuperOffice.WebApi.Data.WebhookState
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WebhookState.html
   name: WebhookState
   nameWithType: WebhookState
   fullName: SuperOffice.WebApi.Data.WebhookState

@@ -9,7 +9,6 @@ items:
   - SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
   - SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
   - SuperOffice.WebApi.Data.ExecuteOnEvent.Never
-  - SuperOffice.WebApi.Data.ExecuteOnEvent.value__
   - SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
   langs:
   - csharp
@@ -17,57 +16,18 @@ items:
   name: ExecuteOnEvent
   nameWithType: ExecuteOnEvent
   fullName: SuperOffice.WebApi.Data.ExecuteOnEvent
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for the executeOnEvent field in table externalapplication\nThis Enum is used by:  ExtApp.executeOnEvent\n"
-  syntax:
-    content: 'public sealed class ExecuteOnEvent : Enum'
-    content.vb: >-
-      Public NotInheritable Class ExecuteOnEvent
-          Inherits
+  summary: >-
+    Value for the executeOnEvent field in table externalapplication
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ExecuteOnEvent.value__
-  commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ExecuteOnEvent
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ExecuteOnEvent.value__
-  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  ExtApp.executeOnEvent
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum ExecuteOnEvent : short'
+    content.vb: Public Enum ExecuteOnEvent As Short
 - uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Never
   commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Never
   id: Never
@@ -79,24 +39,26 @@ items:
   nameWithType: ExecuteOnEvent.Never
   fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Never
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: This application is never executed automatically\n"
+  summary: '0: This application is never executed automatically'
+  example: []
   syntax:
-    content: public const ExecuteOnEvent Never
+    content: >-
+      [EnumMember]
+
+      Never = 0
     return:
       type: SuperOffice.WebApi.Data.ExecuteOnEvent
-    content.vb: Public Const Never As ExecuteOnEvent
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Never = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
   commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
   id: Logon
@@ -108,24 +70,26 @@ items:
   nameWithType: ExecuteOnEvent.Logon
   fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Logon
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Execute this application during logon\n"
+  summary: '1: Execute this application during logon'
+  example: []
   syntax:
-    content: public const ExecuteOnEvent Logon
+    content: >-
+      [EnumMember]
+
+      Logon = 1
     return:
       type: SuperOffice.WebApi.Data.ExecuteOnEvent
-    content.vb: Public Const Logon As ExecuteOnEvent
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Logon = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
   commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
   id: Logoff
@@ -137,24 +101,26 @@ items:
   nameWithType: ExecuteOnEvent.Logoff
   fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Logoff
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Execute this application before logoff\n"
+  summary: '2: Execute this application before logoff'
+  example: []
   syntax:
-    content: public const ExecuteOnEvent Logoff
+    content: >-
+      [EnumMember]
+
+      Logoff = 2
     return:
       type: SuperOffice.WebApi.Data.ExecuteOnEvent
-    content.vb: Public Const Logoff As ExecuteOnEvent
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Logoff = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ExecuteOnEvent.LocalUpdate
   commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.LocalUpdate
   id: LocalUpdate
@@ -166,24 +132,26 @@ items:
   nameWithType: ExecuteOnEvent.LocalUpdate
   fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.LocalUpdate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Execute this application before a local update (start travelling)\n"
+  summary: '3: Execute this application before a local update (start travelling)'
+  example: []
   syntax:
-    content: public const ExecuteOnEvent LocalUpdate
+    content: >-
+      [EnumMember]
+
+      LocalUpdate = 3
     return:
       type: SuperOffice.WebApi.Data.ExecuteOnEvent
-    content.vb: Public Const LocalUpdate As ExecuteOnEvent
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      LocalUpdate = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
   commentId: F:SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
   id: Wait
@@ -195,55 +163,69 @@ items:
   nameWithType: ExecuteOnEvent.Wait
   fullName: SuperOffice.WebApi.Data.ExecuteOnEvent.Wait
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16384: When executing this application, wait for it to start\n"
+  summary: '16384: When executing this application, wait for it to start'
+  example: []
   syntax:
-    content: public const ExecuteOnEvent Wait
+    content: >-
+      [EnumMember]
+
+      Wait = 16384
     return:
       type: SuperOffice.WebApi.Data.ExecuteOnEvent
-    content.vb: Public Const Wait As ExecuteOnEvent
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Wait = 16384
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ExecuteOnEvent
   commentId: T:SuperOffice.WebApi.Data.ExecuteOnEvent
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ExecuteOnEvent.html
   name: ExecuteOnEvent
   nameWithType: ExecuteOnEvent
   fullName: SuperOffice.WebApi.Data.ExecuteOnEvent

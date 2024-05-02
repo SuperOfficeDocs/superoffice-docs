@@ -19,29 +19,30 @@ items:
   nameWithType: PreferredTimeZone
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for PreferredTimeZone.\nThis service support fetching of client interface configuration data. &lt;para/> Client configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls. &lt;para/> Separate access points also exist for fetching object mappings and filter lists.    \n"
+  summary: >-
+    Carrier object for PreferredTimeZone.
+
+    This service support fetching of client interface configuration data. &lt;para/&gt; Client configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls. &lt;para/&gt; Separate access points also exist for fetching object mappings and filter lists.
+  example: []
   syntax:
-    content: 'public class PreferredTimeZone : Object'
-    content.vb: >-
-      Public Class PreferredTimeZone
-          Inherits Object
+    content: public class PreferredTimeZone
+    content.vb: Public Class PreferredTimeZone
   seealso:
   - linkId: SuperOffice.WebApi.Agents.TimeZoneAgent
     commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.#ctor
   commentId: M:SuperOffice.WebApi.Data.PreferredTimeZone.#ctor
   id: '#ctor'
@@ -53,21 +54,18 @@ items:
   nameWithType: PreferredTimeZone.PreferredTimeZone()
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.PreferredTimeZone()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public PreferredTimeZone()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.PreferredTimeZone.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PreferredTimeZone.New()
+  fullName.vb: SuperOffice.WebApi.Data.PreferredTimeZone.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.PreferenceId
   commentId: P:SuperOffice.WebApi.Data.PreferredTimeZone.PreferenceId
   id: PreferenceId
@@ -79,13 +77,11 @@ items:
   nameWithType: PreferredTimeZone.PreferenceId
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.PreferenceId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key of userpreference row that specifies the TZLocationId, if set; 0 if the data are from a fallback (but still valid)\n"
+  summary: Primary key of userpreference row that specifies the TZLocationId, if set; 0 if the data are from a fallback (but still valid)
+  example: []
   syntax:
     content: public virtual int PreferenceId { get; set; }
     parameters: []
@@ -93,14 +89,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PreferenceId As Integer
   overload: SuperOffice.WebApi.Data.PreferredTimeZone.PreferenceId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.TZLocationId
   commentId: P:SuperOffice.WebApi.Data.PreferredTimeZone.TZLocationId
   id: TZLocationId
@@ -112,13 +100,11 @@ items:
   nameWithType: PreferredTimeZone.TZLocationId
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.TZLocationId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int TZLocationId { get; set; }
     parameters: []
@@ -126,14 +112,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TZLocationId As Integer
   overload: SuperOffice.WebApi.Data.PreferredTimeZone.TZLocationId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.LocationCode
   commentId: P:SuperOffice.WebApi.Data.PreferredTimeZone.LocationCode
   id: LocationCode
@@ -145,13 +123,11 @@ items:
   nameWithType: PreferredTimeZone.LocationCode
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.LocationCode
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCode, such as CA-NT, identifying the timezone location in the imported data. Unique, NOT equal to the culture codes of Windows\n"
+  summary: Code, such as CA-NT, identifying the timezone location in the imported data. Unique, NOT equal to the culture codes of Windows
+  example: []
   syntax:
     content: public virtual string LocationCode { get; set; }
     parameters: []
@@ -159,14 +135,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property LocationCode As String
   overload: SuperOffice.WebApi.Data.PreferredTimeZone.LocationCode*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.Description
   commentId: P:SuperOffice.WebApi.Data.PreferredTimeZone.Description
   id: Description
@@ -178,13 +146,11 @@ items:
   nameWithType: PreferredTimeZone.Description
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.Description
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDescription of the time zone\n"
+  summary: Description of the time zone
+  example: []
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -192,14 +158,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.PreferredTimeZone.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.Country
   commentId: P:SuperOffice.WebApi.Data.PreferredTimeZone.Country
   id: Country
@@ -211,13 +169,11 @@ items:
   nameWithType: PreferredTimeZone.Country
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.Country
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nName of the country of the time zone\n"
+  summary: Name of the country of the time zone
+  example: []
   syntax:
     content: public virtual string Country { get; set; }
     parameters: []
@@ -225,14 +181,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Country As String
   overload: SuperOffice.WebApi.Data.PreferredTimeZone.Country*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.Bias
   commentId: P:SuperOffice.WebApi.Data.PreferredTimeZone.Bias
   id: Bias
@@ -244,13 +192,11 @@ items:
   nameWithType: PreferredTimeZone.Bias
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.Bias
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nnumber of minutes bias relative to UTC time\n"
+  summary: number of minutes bias relative to UTC time
+  example: []
   syntax:
     content: public virtual short Bias { get; set; }
     parameters: []
@@ -258,49 +204,302 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Bias As Short
   overload: SuperOffice.WebApi.Data.PreferredTimeZone.Bias*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.TimeZoneAgent
+  commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TimeZoneAgent.html
+  name: TimeZoneAgent
+  nameWithType: TimeZoneAgent
+  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.TimeZoneAgent
-  commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: TimeZoneAgent
-  nameWithType: TimeZoneAgent
-  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.PreferredTimeZone.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.PreferredTimeZone.html#SuperOffice_WebApi_Data_PreferredTimeZone__ctor
   name: PreferredTimeZone
   nameWithType: PreferredTimeZone.PreferredTimeZone
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.PreferredTimeZone
+  nameWithType.vb: PreferredTimeZone.New
+  fullName.vb: SuperOffice.WebApi.Data.PreferredTimeZone.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.PreferenceId*
   commentId: Overload:SuperOffice.WebApi.Data.PreferredTimeZone.PreferenceId
   isExternal: true
+  href: SuperOffice.WebApi.Data.PreferredTimeZone.html#SuperOffice_WebApi_Data_PreferredTimeZone_PreferenceId
   name: PreferenceId
   nameWithType: PreferredTimeZone.PreferenceId
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.PreferenceId
@@ -308,18 +507,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.TZLocationId*
   commentId: Overload:SuperOffice.WebApi.Data.PreferredTimeZone.TZLocationId
   isExternal: true
+  href: SuperOffice.WebApi.Data.PreferredTimeZone.html#SuperOffice_WebApi_Data_PreferredTimeZone_TZLocationId
   name: TZLocationId
   nameWithType: PreferredTimeZone.TZLocationId
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.TZLocationId
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.LocationCode*
   commentId: Overload:SuperOffice.WebApi.Data.PreferredTimeZone.LocationCode
   isExternal: true
+  href: SuperOffice.WebApi.Data.PreferredTimeZone.html#SuperOffice_WebApi_Data_PreferredTimeZone_LocationCode
   name: LocationCode
   nameWithType: PreferredTimeZone.LocationCode
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.LocationCode
@@ -327,24 +532,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.Description*
   commentId: Overload:SuperOffice.WebApi.Data.PreferredTimeZone.Description
   isExternal: true
+  href: SuperOffice.WebApi.Data.PreferredTimeZone.html#SuperOffice_WebApi_Data_PreferredTimeZone_Description
   name: Description
   nameWithType: PreferredTimeZone.Description
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.Description
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.Country*
   commentId: Overload:SuperOffice.WebApi.Data.PreferredTimeZone.Country
   isExternal: true
+  href: SuperOffice.WebApi.Data.PreferredTimeZone.html#SuperOffice_WebApi_Data_PreferredTimeZone_Country
   name: Country
   nameWithType: PreferredTimeZone.Country
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.Country
 - uid: SuperOffice.WebApi.Data.PreferredTimeZone.Bias*
   commentId: Overload:SuperOffice.WebApi.Data.PreferredTimeZone.Bias
   isExternal: true
+  href: SuperOffice.WebApi.Data.PreferredTimeZone.html#SuperOffice_WebApi_Data_PreferredTimeZone_Bias
   name: Bias
   nameWithType: PreferredTimeZone.Bias
   fullName: SuperOffice.WebApi.Data.PreferredTimeZone.Bias
@@ -352,6 +564,10 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short

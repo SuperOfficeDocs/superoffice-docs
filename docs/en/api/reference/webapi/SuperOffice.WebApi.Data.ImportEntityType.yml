@@ -9,64 +9,34 @@ items:
   - SuperOffice.WebApi.Data.ImportEntityType.Person
   - SuperOffice.WebApi.Data.ImportEntityType.Product
   - SuperOffice.WebApi.Data.ImportEntityType.Unknown
-  - SuperOffice.WebApi.Data.ImportEntityType.value__
   langs:
   - csharp
   - vb
   name: ImportEntityType
   nameWithType: ImportEntityType
   fullName: SuperOffice.WebApi.Data.ImportEntityType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEntitys type for import\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class ImportEntityType : Enum'
-    content.vb: >-
-      Public NotInheritable Class ImportEntityType
-          Inherits
+  summary: >-
+    Entitys type for import
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ImportEntityType.value__
-  commentId: F:SuperOffice.WebApi.Data.ImportEntityType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ImportEntityType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ImportEntityType.value__
-  fullName: SuperOffice.WebApi.Data.ImportEntityType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum ImportEntityType
+    content.vb: >-
+      <Flags>
+
+      Public Enum ImportEntityType
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ImportEntityType.Unknown
   commentId: F:SuperOffice.WebApi.Data.ImportEntityType.Unknown
   id: Unknown
@@ -78,24 +48,15 @@ items:
   nameWithType: ImportEntityType.Unknown
   fullName: SuperOffice.WebApi.Data.ImportEntityType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown\n"
+  summary: '0: Unknown'
+  example: []
   syntax:
-    content: public const ImportEntityType Unknown
+    content: Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.ImportEntityType
-    content.vb: Public Const Unknown As ImportEntityType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.ImportEntityType.Person
   commentId: F:SuperOffice.WebApi.Data.ImportEntityType.Person
   id: Person
@@ -107,24 +68,26 @@ items:
   nameWithType: ImportEntityType.Person
   fullName: SuperOffice.WebApi.Data.ImportEntityType.Person
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Person\n"
+  summary: '1: Person'
+  example: []
   syntax:
-    content: public const ImportEntityType Person
+    content: >-
+      [EnumMember]
+
+      Person = 1
     return:
       type: SuperOffice.WebApi.Data.ImportEntityType
-    content.vb: Public Const Person As ImportEntityType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Person = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ImportEntityType.Contact
   commentId: F:SuperOffice.WebApi.Data.ImportEntityType.Contact
   id: Contact
@@ -136,24 +99,26 @@ items:
   nameWithType: ImportEntityType.Contact
   fullName: SuperOffice.WebApi.Data.ImportEntityType.Contact
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Contact\n"
+  summary: '2: Contact'
+  example: []
   syntax:
-    content: public const ImportEntityType Contact
+    content: >-
+      [EnumMember]
+
+      Contact = 2
     return:
       type: SuperOffice.WebApi.Data.ImportEntityType
-    content.vb: Public Const Contact As ImportEntityType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Contact = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ImportEntityType.Product
   commentId: F:SuperOffice.WebApi.Data.ImportEntityType.Product
   id: Product
@@ -165,55 +130,69 @@ items:
   nameWithType: ImportEntityType.Product
   fullName: SuperOffice.WebApi.Data.ImportEntityType.Product
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Product\n"
+  summary: '4: Product'
+  example: []
   syntax:
-    content: public const ImportEntityType Product
+    content: >-
+      [EnumMember]
+
+      Product = 4
     return:
       type: SuperOffice.WebApi.Data.ImportEntityType
-    content.vb: Public Const Product As ImportEntityType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Product = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ImportEntityType
   commentId: T:SuperOffice.WebApi.Data.ImportEntityType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ImportEntityType.html
   name: ImportEntityType
   nameWithType: ImportEntityType
   fullName: SuperOffice.WebApi.Data.ImportEntityType

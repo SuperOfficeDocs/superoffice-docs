@@ -10,64 +10,21 @@ items:
   - SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
   - SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
   - SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
-  - SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
   langs:
   - csharp
   - vb
   name: UpsertRowActionStatus
   nameWithType: UpsertRowActionStatus
   fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUpsert: Action status for each row\n"
+  summary: 'Upsert: Action status for each row'
+  example: []
   syntax:
-    content: 'public sealed class UpsertRowActionStatus : Enum'
-    content.vb: >-
-      Public NotInheritable Class UpsertRowActionStatus
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
-  commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.UpsertRowActionStatus
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: UpsertRowActionStatus.value__
-  fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum UpsertRowActionStatus
+    content.vb: Public Enum UpsertRowActionStatus
 - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
   commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
   id: Inserted
@@ -79,24 +36,26 @@ items:
   nameWithType: UpsertRowActionStatus.Inserted
   fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.Inserted
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Row not found in target, inserted; primary key assigned as required\n"
+  summary: '1: Row not found in target, inserted; primary key assigned as required'
+  example: []
   syntax:
-    content: public const UpsertRowActionStatus Inserted
+    content: >-
+      [EnumMember]
+
+      Inserted = 1
     return:
       type: SuperOffice.WebApi.Data.UpsertRowActionStatus
-    content.vb: Public Const Inserted As UpsertRowActionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Inserted = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
   commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
   id: Updated
@@ -108,24 +67,26 @@ items:
   nameWithType: UpsertRowActionStatus.Updated
   fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.Updated
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Row found in target, update needed\n"
+  summary: '2: Row found in target, update needed'
+  example: []
   syntax:
-    content: public const UpsertRowActionStatus Updated
+    content: >-
+      [EnumMember]
+
+      Updated = 2
     return:
       type: SuperOffice.WebApi.Data.UpsertRowActionStatus
-    content.vb: Public Const Updated As UpsertRowActionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Updated = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
   commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
   id: NoUpdateNeeded
@@ -137,24 +98,26 @@ items:
   nameWithType: UpsertRowActionStatus.NoUpdateNeeded
   fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.NoUpdateNeeded
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Row found in target, no updated needed\n"
+  summary: '3: Row found in target, no updated needed'
+  example: []
   syntax:
-    content: public const UpsertRowActionStatus NoUpdateNeeded
+    content: >-
+      [EnumMember]
+
+      NoUpdateNeeded = 3
     return:
       type: SuperOffice.WebApi.Data.UpsertRowActionStatus
-    content.vb: Public Const NoUpdateNeeded As UpsertRowActionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NoUpdateNeeded = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.Deleted
   commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.Deleted
   id: Deleted
@@ -166,24 +129,26 @@ items:
   nameWithType: UpsertRowActionStatus.Deleted
   fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.Deleted
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Row not matched in incoming keys and DELETED\n"
+  summary: '4: Row not matched in incoming keys and DELETED'
+  example: []
   syntax:
-    content: public const UpsertRowActionStatus Deleted
+    content: >-
+      [EnumMember]
+
+      Deleted = 4
     return:
       type: SuperOffice.WebApi.Data.UpsertRowActionStatus
-    content.vb: Public Const Deleted As UpsertRowActionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Deleted = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus.ColumnsZeroed
   commentId: F:SuperOffice.WebApi.Data.UpsertRowActionStatus.ColumnsZeroed
   id: ColumnsZeroed
@@ -195,55 +160,69 @@ items:
   nameWithType: UpsertRowActionStatus.ColumnsZeroed
   fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus.ColumnsZeroed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Row not matched in incoming keys and COLUMNS ZEROED\n"
+  summary: '5: Row not matched in incoming keys and COLUMNS ZEROED'
+  example: []
   syntax:
-    content: public const UpsertRowActionStatus ColumnsZeroed
+    content: >-
+      [EnumMember]
+
+      ColumnsZeroed = 5
     return:
       type: SuperOffice.WebApi.Data.UpsertRowActionStatus
-    content.vb: Public Const ColumnsZeroed As UpsertRowActionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ColumnsZeroed = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.UpsertRowActionStatus
   commentId: T:SuperOffice.WebApi.Data.UpsertRowActionStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.UpsertRowActionStatus.html
   name: UpsertRowActionStatus
   nameWithType: UpsertRowActionStatus
   fullName: SuperOffice.WebApi.Data.UpsertRowActionStatus

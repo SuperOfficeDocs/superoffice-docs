@@ -8,7 +8,6 @@ items:
   - SuperOffice.WebApi.Data.CommandAction.Implicit
   - SuperOffice.WebApi.Data.CommandAction.Ok
   - SuperOffice.WebApi.Data.CommandAction.OkCancel
-  - SuperOffice.WebApi.Data.CommandAction.value__
   - SuperOffice.WebApi.Data.CommandAction.YesNo
   langs:
   - csharp
@@ -16,57 +15,15 @@ items:
   name: CommandAction
   nameWithType: CommandAction
   fullName: SuperOffice.WebApi.Data.CommandAction
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCommand action\n"
+  summary: Command action
+  example: []
   syntax:
-    content: 'public sealed class CommandAction : Enum'
-    content.vb: >-
-      Public NotInheritable Class CommandAction
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.CommandAction.value__
-  commentId: F:SuperOffice.WebApi.Data.CommandAction.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.CommandAction
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: CommandAction.value__
-  fullName: SuperOffice.WebApi.Data.CommandAction.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum CommandAction
+    content.vb: Public Enum CommandAction
 - uid: SuperOffice.WebApi.Data.CommandAction.Implicit
   commentId: F:SuperOffice.WebApi.Data.CommandAction.Implicit
   id: Implicit
@@ -78,24 +35,26 @@ items:
   nameWithType: CommandAction.Implicit
   fullName: SuperOffice.WebApi.Data.CommandAction.Implicit
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Command should be implicitly executed.\n"
+  summary: '0: Command should be implicitly executed.'
+  example: []
   syntax:
-    content: public const CommandAction Implicit
+    content: >-
+      [EnumMember]
+
+      Implicit = 0
     return:
       type: SuperOffice.WebApi.Data.CommandAction
-    content.vb: Public Const Implicit As CommandAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Implicit = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CommandAction.YesNo
   commentId: F:SuperOffice.WebApi.Data.CommandAction.YesNo
   id: YesNo
@@ -107,24 +66,26 @@ items:
   nameWithType: CommandAction.YesNo
   fullName: SuperOffice.WebApi.Data.CommandAction.YesNo
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: The client must display a dialog with buttons Yes and No.\n"
+  summary: '1: The client must display a dialog with buttons Yes and No.'
+  example: []
   syntax:
-    content: public const CommandAction YesNo
+    content: >-
+      [EnumMember]
+
+      YesNo = 1
     return:
       type: SuperOffice.WebApi.Data.CommandAction
-    content.vb: Public Const YesNo As CommandAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      YesNo = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CommandAction.OkCancel
   commentId: F:SuperOffice.WebApi.Data.CommandAction.OkCancel
   id: OkCancel
@@ -136,24 +97,26 @@ items:
   nameWithType: CommandAction.OkCancel
   fullName: SuperOffice.WebApi.Data.CommandAction.OkCancel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: The client must display a dialog with buttons Ok and Cancel.\n"
+  summary: '2: The client must display a dialog with buttons Ok and Cancel.'
+  example: []
   syntax:
-    content: public const CommandAction OkCancel
+    content: >-
+      [EnumMember]
+
+      OkCancel = 2
     return:
       type: SuperOffice.WebApi.Data.CommandAction
-    content.vb: Public Const OkCancel As CommandAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      OkCancel = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.CommandAction.Ok
   commentId: F:SuperOffice.WebApi.Data.CommandAction.Ok
   id: Ok
@@ -165,55 +128,69 @@ items:
   nameWithType: CommandAction.Ok
   fullName: SuperOffice.WebApi.Data.CommandAction.Ok
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: The client must display a dialog with Ok-button\n"
+  summary: '3: The client must display a dialog with Ok-button'
+  example: []
   syntax:
-    content: public const CommandAction Ok
+    content: >-
+      [EnumMember]
+
+      Ok = 3
     return:
       type: SuperOffice.WebApi.Data.CommandAction
-    content.vb: Public Const Ok As CommandAction
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Ok = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.CommandAction
   commentId: T:SuperOffice.WebApi.Data.CommandAction
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.CommandAction.html
   name: CommandAction
   nameWithType: CommandAction
   fullName: SuperOffice.WebApi.Data.CommandAction

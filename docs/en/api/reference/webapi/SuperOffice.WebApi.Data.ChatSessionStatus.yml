@@ -17,64 +17,24 @@ items:
   - SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
   - SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
   - SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
-  - SuperOffice.WebApi.Data.ChatSessionStatus.value__
   langs:
   - csharp
   - vb
   name: ChatSessionStatus
   nameWithType: ChatSessionStatus
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nChat Session status\nThis Enum is used by:  chat_session.status\n"
-  syntax:
-    content: 'public sealed class ChatSessionStatus : Enum'
-    content.vb: >-
-      Public NotInheritable Class ChatSessionStatus
-          Inherits
+  summary: >-
+    Chat Session status
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ChatSessionStatus.value__
-  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ChatSessionStatus
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ChatSessionStatus.value__
-  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  chat_session.status
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum ChatSessionStatus : short'
+    content.vb: Public Enum ChatSessionStatus As Short
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.Invalid
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Invalid
   id: Invalid
@@ -86,24 +46,26 @@ items:
   nameWithType: ChatSessionStatus.Invalid
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Invalid
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown\n"
+  summary: '0: Unknown'
+  example: []
   syntax:
-    content: public const ChatSessionStatus Invalid
+    content: >-
+      [EnumMember]
+
+      Invalid = 0
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const Invalid As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Invalid = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
   id: PreChatForm
@@ -115,24 +77,26 @@ items:
   nameWithType: ChatSessionStatus.PreChatForm
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: PreChatForm\n"
+  summary: '1: PreChatForm'
+  example: []
   syntax:
-    content: public const ChatSessionStatus PreChatForm
+    content: >-
+      [EnumMember]
+
+      PreChatForm = 1
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const PreChatForm As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PreChatForm = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.Faq
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Faq
   id: Faq
@@ -144,24 +108,26 @@ items:
   nameWithType: ChatSessionStatus.Faq
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Faq
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: FAQ\n"
+  summary: '2: FAQ'
+  example: []
   syntax:
-    content: public const ChatSessionStatus Faq
+    content: >-
+      [EnumMember]
+
+      Faq = 2
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const Faq As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Faq = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.OfflineForm
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.OfflineForm
   id: OfflineForm
@@ -173,24 +139,26 @@ items:
   nameWithType: ChatSessionStatus.OfflineForm
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.OfflineForm
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: OfflineForm\n"
+  summary: '3: OfflineForm'
+  example: []
   syntax:
-    content: public const ChatSessionStatus OfflineForm
+    content: >-
+      [EnumMember]
+
+      OfflineForm = 3
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const OfflineForm As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      OfflineForm = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.InQueue
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.InQueue
   id: InQueue
@@ -202,24 +170,26 @@ items:
   nameWithType: ChatSessionStatus.InQueue
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.InQueue
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: InQueue - waiting to be picked up\n"
+  summary: '4: InQueue - waiting to be picked up'
+  example: []
   syntax:
-    content: public const ChatSessionStatus InQueue
+    content: >-
+      [EnumMember]
+
+      InQueue = 4
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const InQueue As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      InQueue = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.CustomerLast
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.CustomerLast
   id: CustomerLast
@@ -231,24 +201,26 @@ items:
   nameWithType: ChatSessionStatus.CustomerLast
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.CustomerLast
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: CustomerLast - customer wrote last message\n"
+  summary: '5: CustomerLast - customer wrote last message'
+  example: []
   syntax:
-    content: public const ChatSessionStatus CustomerLast
+    content: >-
+      [EnumMember]
+
+      CustomerLast = 5
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const CustomerLast As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CustomerLast = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
   id: UserLast
@@ -260,24 +232,26 @@ items:
   nameWithType: ChatSessionStatus.UserLast
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: UserLast - user agent wrote last message\n"
+  summary: '6: UserLast - user agent wrote last message'
+  example: []
   syntax:
-    content: public const ChatSessionStatus UserLast
+    content: >-
+      [EnumMember]
+
+      UserLast = 6
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const UserLast As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UserLast = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.Finished
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Finished
   id: Finished
@@ -289,24 +263,26 @@ items:
   nameWithType: ChatSessionStatus.Finished
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Finished
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Finished - may be deleted later\n"
+  summary: '7: Finished - may be deleted later'
+  example: []
   syntax:
-    content: public const ChatSessionStatus Finished
+    content: >-
+      [EnumMember]
+
+      Finished = 7
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const Finished As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Finished = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.Deleted
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Deleted
   id: Deleted
@@ -318,24 +294,26 @@ items:
   nameWithType: ChatSessionStatus.Deleted
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Deleted
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Deleted - ready to delete. Usually cleaned within 24 hrs\n"
+  summary: '8: Deleted - ready to delete. Usually cleaned within 24 hrs'
+  example: []
   syntax:
-    content: public const ChatSessionStatus Deleted
+    content: >-
+      [EnumMember]
+
+      Deleted = 8
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const Deleted As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Deleted = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.Closed
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Closed
   id: Closed
@@ -347,24 +325,26 @@ items:
   nameWithType: ChatSessionStatus.Closed
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Closed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Closed\n"
+  summary: '9: Closed'
+  example: []
   syntax:
-    content: public const ChatSessionStatus Closed
+    content: >-
+      [EnumMember]
+
+      Closed = 9
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const Closed As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Closed = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
   id: RequestPosted
@@ -376,24 +356,26 @@ items:
   nameWithType: ChatSessionStatus.RequestPosted
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: RequestPosted\n"
+  summary: '10: RequestPosted'
+  example: []
   syntax:
-    content: public const ChatSessionStatus RequestPosted
+    content: >-
+      [EnumMember]
+
+      RequestPosted = 10
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const RequestPosted As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RequestPosted = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus.ClosedFromQueue
   commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.ClosedFromQueue
   id: ClosedFromQueue
@@ -405,55 +387,69 @@ items:
   nameWithType: ChatSessionStatus.ClosedFromQueue
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus.ClosedFromQueue
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: ClosedFromQueue\n"
+  summary: '11: ClosedFromQueue'
+  example: []
   syntax:
-    content: public const ChatSessionStatus ClosedFromQueue
+    content: >-
+      [EnumMember]
+
+      ClosedFromQueue = 11
     return:
       type: SuperOffice.WebApi.Data.ChatSessionStatus
-    content.vb: Public Const ClosedFromQueue As ChatSessionStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ClosedFromQueue = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ChatSessionStatus
   commentId: T:SuperOffice.WebApi.Data.ChatSessionStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSessionStatus.html
   name: ChatSessionStatus
   nameWithType: ChatSessionStatus
   fullName: SuperOffice.WebApi.Data.ChatSessionStatus

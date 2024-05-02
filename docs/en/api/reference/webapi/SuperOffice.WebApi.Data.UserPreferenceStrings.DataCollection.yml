@@ -25,27 +25,24 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nData collection (usage statistics) - used for status storage and locking, not intended for user interaction\n"
+  summary: Data collection (usage statistics) - used for status storage and locking, not intended for user interaction
+  example: []
   syntax:
-    content: 'public static class DataCollection : Object'
-    content.vb: >-
-      Public Module DataCollection
-          Inherits Object
+    content: public static class UserPreferenceStrings.DataCollection
+    content.vb: Public Module UserPreferenceStrings.DataCollection
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Section
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Section
   id: Section
@@ -57,9 +54,6 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.Section
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Section
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
@@ -68,12 +62,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "DataCollection"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UsageStats
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UsageStats
   id: UsageStats
@@ -85,24 +73,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.UsageStats
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UsageStats
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWindows client usage statistics\n"
+  summary: Windows client usage statistics
+  example: []
   syntax:
     content: public const string UsageStats = "UsageStats"
     return:
       type: System.String
     content.vb: Public Const UsageStats As String = "UsageStats"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.WebAppUsage
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.WebAppUsage
   id: WebAppUsage
@@ -114,24 +94,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.WebAppUsage
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.WebAppUsage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSMweb, CS, Pocket usage statistics\n"
+  summary: SMweb, CS, Pocket usage statistics
+  example: []
   syntax:
     content: public const string WebAppUsage = "WebAppUsage"
     return:
       type: System.String
     content.vb: Public Const WebAppUsage As String = "WebAppUsage"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAdd
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAdd
   id: DataAdd
@@ -143,24 +115,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.DataAdd
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAdd
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nData additions for specific tables\n"
+  summary: Data additions for specific tables
+  example: []
   syntax:
     content: public const string DataAdd = "DataAdd"
     return:
       type: System.String
     content.vb: Public Const DataAdd As String = "DataAdd"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAddTables
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAddTables
   id: DataAddTables
@@ -172,24 +136,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.DataAddTables
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.DataAddTables
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nData additions for specific tables: semicolon-separated list of table names; initialized from code but updated from server\n"
+  summary: 'Data additions for specific tables: semicolon-separated list of table names; initialized from code but updated from server'
+  example: []
   syntax:
     content: public const string DataAddTables = "DataAddTables"
     return:
       type: System.String
     content.vb: Public Const DataAddTables As String = "DataAddTables"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.TableSize
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.TableSize
   id: TableSize
@@ -201,24 +157,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.TableSize
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.TableSize
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTotal table sizes\n"
+  summary: Total table sizes
+  example: []
   syntax:
     content: public const string TableSize = "TableSize"
     return:
       type: System.String
     content.vb: Public Const TableSize As String = "TableSize"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Configured
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Configured
   id: Configured
@@ -230,24 +178,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.Configured
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Configured
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
+  summary: Prefix for opt-in preferences, 'configured' by user
+  example: []
   syntax:
     content: public const string Configured = "Configured"
     return:
       type: System.String
     content.vb: Public Const Configured As String = "Configured"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Running
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Running
   id: Running
@@ -259,24 +199,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.Running
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Running
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
+  summary: Prefix for opt-in preferences, 'configured' by user
+  example: []
   syntax:
     content: public const string Running = "Running"
     return:
       type: System.String
     content.vb: Public Const Running As String = "Running"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Statistics
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Statistics
   id: Statistics
@@ -288,24 +220,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.Statistics
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.Statistics
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nOpt-in preference for Statistics\n"
+  summary: Opt-in preference for Statistics
+  example: []
   syntax:
     content: public const string Statistics = "Statistics"
     return:
       type: System.String
     content.vb: Public Const Statistics As String = "Statistics"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UserSync
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UserSync
   id: UserSync
@@ -317,24 +241,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.UserSync
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.UserSync
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nOpt-in preference for UserSync\n"
+  summary: Opt-in preference for UserSync
+  example: []
   syntax:
     content: public const string UserSync = "UserSync"
     return:
       type: System.String
     content.vb: Public Const UserSync As String = "UserSync"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.CollectionUrl
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.CollectionUrl
   id: CollectionUrl
@@ -346,24 +262,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.CollectionUrl
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.CollectionUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nOpt-in preference for UserSync\n"
+  summary: Opt-in preference for UserSync
+  example: []
   syntax:
     content: public const string CollectionUrl = "CollectionUrl"
     return:
       type: System.String
     content.vb: Public Const CollectionUrl As String = "CollectionUrl"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredUserSync
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredUserSync
   id: ConfiguredUserSync
@@ -375,24 +283,16 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.ConfiguredUserSync
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredUserSync
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nOpt-in preference for Configured UserSync\n"
+  summary: Opt-in preference for Configured UserSync
+  example: []
   syntax:
     content: public const string ConfiguredUserSync = "ConfiguredUserSync"
     return:
       type: System.String
     content.vb: Public Const ConfiguredUserSync As String = "ConfiguredUserSync"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredStatistics
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredStatistics
   id: ConfiguredStatistics
@@ -404,41 +304,288 @@ items:
   nameWithType: UserPreferenceStrings.DataCollection.ConfiguredStatistics
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DataCollection.ConfiguredStatistics
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nOpt-in preference for Configured Statistics\n"
+  summary: Opt-in preference for Configured Statistics
+  example: []
   syntax:
     content: public const string ConfiguredStatistics = "ConfiguredStatistics"
     return:
       type: System.String
     content.vb: Public Const ConfiguredStatistics As String = "ConfiguredStatistics"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -446,6 +593,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

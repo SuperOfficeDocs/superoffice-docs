@@ -16,25 +16,23 @@ items:
   nameWithType: CustomerService_TestSmtpServerRequest
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
-    content: 'public class CustomerService_TestSmtpServerRequest : Object'
-    content.vb: >-
-      Public Class CustomerService_TestSmtpServerRequest
-          Inherits Object
+    content: public class CustomerService_TestSmtpServerRequest
+    content.vb: Public Class CustomerService_TestSmtpServerRequest
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor
   id: '#ctor'
@@ -46,20 +44,16 @@ items:
   nameWithType: CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest()
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public CustomerService_TestSmtpServerRequest()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CustomerService_TestSmtpServerRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
   commentId: P:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
   id: SmtpUri
@@ -71,12 +65,10 @@ items:
   nameWithType: CustomerService_TestSmtpServerRequest.SmtpUri
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string SmtpUri { get; set; }
     parameters: []
@@ -84,12 +76,6 @@ items:
       type: System.String
     content.vb: Public Property SmtpUri As String
   overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
   commentId: P:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
   id: From
@@ -101,12 +87,10 @@ items:
   nameWithType: CustomerService_TestSmtpServerRequest.From
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string From { get; set; }
     parameters: []
@@ -114,12 +98,6 @@ items:
       type: System.String
     content.vb: Public Property From As String
   overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
   commentId: P:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
   id: UseStoredPassword
@@ -131,12 +109,10 @@ items:
   nameWithType: CustomerService_TestSmtpServerRequest.UseStoredPassword
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public bool UseStoredPassword { get; set; }
     parameters: []
@@ -144,41 +120,295 @@ items:
       type: System.Boolean
     content.vb: Public Property UseStoredPassword As Boolean
   overload: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.html#SuperOffice_WebApi_Data_CustomerService_TestSmtpServerRequest__ctor
   name: CustomerService_TestSmtpServerRequest
   nameWithType: CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.CustomerService_TestSmtpServerRequest
+  nameWithType.vb: CustomerService_TestSmtpServerRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri*
   commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
   isExternal: true
+  href: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.html#SuperOffice_WebApi_Data_CustomerService_TestSmtpServerRequest_SmtpUri
   name: SmtpUri
   nameWithType: CustomerService_TestSmtpServerRequest.SmtpUri
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.SmtpUri
@@ -186,18 +416,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From*
   commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
   isExternal: true
+  href: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.html#SuperOffice_WebApi_Data_CustomerService_TestSmtpServerRequest_From
   name: From
   nameWithType: CustomerService_TestSmtpServerRequest.From
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.From
 - uid: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword*
   commentId: Overload:SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
   isExternal: true
+  href: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.html#SuperOffice_WebApi_Data_CustomerService_TestSmtpServerRequest_UseStoredPassword
   name: UseStoredPassword
   nameWithType: CustomerService_TestSmtpServerRequest.UseStoredPassword
   fullName: SuperOffice.WebApi.Data.CustomerService_TestSmtpServerRequest.UseStoredPassword
@@ -205,6 +441,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

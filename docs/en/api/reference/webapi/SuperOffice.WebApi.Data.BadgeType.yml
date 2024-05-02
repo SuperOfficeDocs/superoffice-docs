@@ -11,64 +11,24 @@ items:
   - SuperOffice.WebApi.Data.BadgeType.Outgoing
   - SuperOffice.WebApi.Data.BadgeType.Reply
   - SuperOffice.WebApi.Data.BadgeType.Unknown
-  - SuperOffice.WebApi.Data.BadgeType.value__
   langs:
   - csharp
   - vb
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.WebApi.Data.BadgeType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;badge&apos; in table &apos;ej_message&apos;. Defines the initial source of a message.\nThis Enum is used by:  ej_message.badge\n"
-  syntax:
-    content: 'public sealed class BadgeType : Enum'
-    content.vb: >-
-      Public NotInheritable Class BadgeType
-          Inherits
+  summary: >-
+    Value for field 'badge' in table 'ej_message'. Defines the initial source of a message.
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.BadgeType.value__
-  commentId: F:SuperOffice.WebApi.Data.BadgeType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.BadgeType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: BadgeType.value__
-  fullName: SuperOffice.WebApi.Data.BadgeType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  ej_message.badge
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum BadgeType : short'
+    content.vb: Public Enum BadgeType As Short
 - uid: SuperOffice.WebApi.Data.BadgeType.Unknown
   commentId: F:SuperOffice.WebApi.Data.BadgeType.Unknown
   id: Unknown
@@ -80,24 +40,26 @@ items:
   nameWithType: BadgeType.Unknown
   fullName: SuperOffice.WebApi.Data.BadgeType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Initial message source is unknown\n"
+  summary: '0: Initial message source is unknown'
+  example: []
   syntax:
-    content: public const BadgeType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.BadgeType
-    content.vb: Public Const Unknown As BadgeType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BadgeType.Reply
   commentId: F:SuperOffice.WebApi.Data.BadgeType.Reply
   id: Reply
@@ -109,24 +71,26 @@ items:
   nameWithType: BadgeType.Reply
   fullName: SuperOffice.WebApi.Data.BadgeType.Reply
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Message created as a reply\n"
+  summary: '1: Message created as a reply'
+  example: []
   syntax:
-    content: public const BadgeType Reply
+    content: >-
+      [EnumMember]
+
+      Reply = 1
     return:
       type: SuperOffice.WebApi.Data.BadgeType
-    content.vb: Public Const Reply As BadgeType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Reply = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BadgeType.Forward
   commentId: F:SuperOffice.WebApi.Data.BadgeType.Forward
   id: Forward
@@ -138,24 +102,26 @@ items:
   nameWithType: BadgeType.Forward
   fullName: SuperOffice.WebApi.Data.BadgeType.Forward
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Message created as a forward\n"
+  summary: '2: Message created as a forward'
+  example: []
   syntax:
-    content: public const BadgeType Forward
+    content: >-
+      [EnumMember]
+
+      Forward = 2
     return:
       type: SuperOffice.WebApi.Data.BadgeType
-    content.vb: Public Const Forward As BadgeType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Forward = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BadgeType.Comment
   commentId: F:SuperOffice.WebApi.Data.BadgeType.Comment
   id: Comment
@@ -167,24 +133,26 @@ items:
   nameWithType: BadgeType.Comment
   fullName: SuperOffice.WebApi.Data.BadgeType.Comment
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Message created as an internal comment\n"
+  summary: '3: Message created as an internal comment'
+  example: []
   syntax:
-    content: public const BadgeType Comment
+    content: >-
+      [EnumMember]
+
+      Comment = 3
     return:
       type: SuperOffice.WebApi.Data.BadgeType
-    content.vb: Public Const Comment As BadgeType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Comment = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BadgeType.Incoming
   commentId: F:SuperOffice.WebApi.Data.BadgeType.Incoming
   id: Incoming
@@ -196,24 +164,26 @@ items:
   nameWithType: BadgeType.Incoming
   fullName: SuperOffice.WebApi.Data.BadgeType.Incoming
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Message created as a result of other events processing\n"
+  summary: '4: Message created as a result of other events processing'
+  example: []
   syntax:
-    content: public const BadgeType Incoming
+    content: >-
+      [EnumMember]
+
+      Incoming = 4
     return:
       type: SuperOffice.WebApi.Data.BadgeType
-    content.vb: Public Const Incoming As BadgeType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Incoming = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BadgeType.Outgoing
   commentId: F:SuperOffice.WebApi.Data.BadgeType.Outgoing
   id: Outgoing
@@ -225,55 +195,69 @@ items:
   nameWithType: BadgeType.Outgoing
   fullName: SuperOffice.WebApi.Data.BadgeType.Outgoing
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Message created as first outgoing message on ticket\n"
+  summary: '5: Message created as first outgoing message on ticket'
+  example: []
   syntax:
-    content: public const BadgeType Outgoing
+    content: >-
+      [EnumMember]
+
+      Outgoing = 5
     return:
       type: SuperOffice.WebApi.Data.BadgeType
-    content.vb: Public Const Outgoing As BadgeType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Outgoing = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.BadgeType
   commentId: T:SuperOffice.WebApi.Data.BadgeType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.BadgeType.html
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.WebApi.Data.BadgeType

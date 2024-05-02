@@ -7,64 +7,24 @@ items:
   children:
   - SuperOffice.WebApi.Data.WidgetTheme.Classic
   - SuperOffice.WebApi.Data.WidgetTheme.Modern
-  - SuperOffice.WebApi.Data.WidgetTheme.value__
   langs:
   - csharp
   - vb
   name: WidgetTheme
   nameWithType: WidgetTheme
   fullName: SuperOffice.WebApi.Data.WidgetTheme
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nChat Topic widget_theme: classic(0) or modern(1).\nThis Enum is used by:  chat_topic.widget_theme\n"
-  syntax:
-    content: 'public sealed class WidgetTheme : Enum'
-    content.vb: >-
-      Public NotInheritable Class WidgetTheme
-          Inherits
+  summary: >-
+    Chat Topic widget_theme: classic(0) or modern(1).
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.WidgetTheme.value__
-  commentId: F:SuperOffice.WebApi.Data.WidgetTheme.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.WidgetTheme
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: WidgetTheme.value__
-  fullName: SuperOffice.WebApi.Data.WidgetTheme.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  chat_topic.widget_theme
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum WidgetTheme : short'
+    content.vb: Public Enum WidgetTheme As Short
 - uid: SuperOffice.WebApi.Data.WidgetTheme.Classic
   commentId: F:SuperOffice.WebApi.Data.WidgetTheme.Classic
   id: Classic
@@ -76,24 +36,26 @@ items:
   nameWithType: WidgetTheme.Classic
   fullName: SuperOffice.WebApi.Data.WidgetTheme.Classic
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Set widget theme to classic\n"
+  summary: '0: Set widget theme to classic'
+  example: []
   syntax:
-    content: public const WidgetTheme Classic
+    content: >-
+      [EnumMember]
+
+      Classic = 0
     return:
       type: SuperOffice.WebApi.Data.WidgetTheme
-    content.vb: Public Const Classic As WidgetTheme
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Classic = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WidgetTheme.Modern
   commentId: F:SuperOffice.WebApi.Data.WidgetTheme.Modern
   id: Modern
@@ -105,55 +67,69 @@ items:
   nameWithType: WidgetTheme.Modern
   fullName: SuperOffice.WebApi.Data.WidgetTheme.Modern
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Set widget theme to modern\n"
+  summary: '1: Set widget theme to modern'
+  example: []
   syntax:
-    content: public const WidgetTheme Modern
+    content: >-
+      [EnumMember]
+
+      Modern = 1
     return:
       type: SuperOffice.WebApi.Data.WidgetTheme
-    content.vb: Public Const Modern As WidgetTheme
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Modern = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.WidgetTheme
   commentId: T:SuperOffice.WebApi.Data.WidgetTheme
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WidgetTheme.html
   name: WidgetTheme
   nameWithType: WidgetTheme
   fullName: SuperOffice.WebApi.Data.WidgetTheme

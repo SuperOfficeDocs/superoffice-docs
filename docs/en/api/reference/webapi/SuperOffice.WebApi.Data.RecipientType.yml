@@ -9,64 +9,21 @@ items:
   - SuperOffice.WebApi.Data.RecipientType.CC
   - SuperOffice.WebApi.Data.RecipientType.Sms
   - SuperOffice.WebApi.Data.RecipientType.To
-  - SuperOffice.WebApi.Data.RecipientType.value__
   langs:
   - csharp
   - vb
   name: RecipientType
   nameWithType: RecipientType
   fullName: SuperOffice.WebApi.Data.RecipientType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRecipient type\n"
+  summary: Recipient type
+  example: []
   syntax:
-    content: 'public sealed class RecipientType : Enum'
-    content.vb: >-
-      Public NotInheritable Class RecipientType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.RecipientType.value__
-  commentId: F:SuperOffice.WebApi.Data.RecipientType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.RecipientType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: RecipientType.value__
-  fullName: SuperOffice.WebApi.Data.RecipientType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum RecipientType
+    content.vb: Public Enum RecipientType
 - uid: SuperOffice.WebApi.Data.RecipientType.To
   commentId: F:SuperOffice.WebApi.Data.RecipientType.To
   id: To
@@ -78,24 +35,26 @@ items:
   nameWithType: RecipientType.To
   fullName: SuperOffice.WebApi.Data.RecipientType.To
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: To\n"
+  summary: '0: To'
+  example: []
   syntax:
-    content: public const RecipientType To
+    content: >-
+      [EnumMember]
+
+      To = 0
     return:
       type: SuperOffice.WebApi.Data.RecipientType
-    content.vb: Public Const To As RecipientType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      To = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.RecipientType.CC
   commentId: F:SuperOffice.WebApi.Data.RecipientType.CC
   id: CC
@@ -107,24 +66,26 @@ items:
   nameWithType: RecipientType.CC
   fullName: SuperOffice.WebApi.Data.RecipientType.CC
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: CC\n"
+  summary: '1: CC'
+  example: []
   syntax:
-    content: public const RecipientType CC
+    content: >-
+      [EnumMember]
+
+      CC = 1
     return:
       type: SuperOffice.WebApi.Data.RecipientType
-    content.vb: Public Const CC As RecipientType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      CC = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.RecipientType.BCC
   commentId: F:SuperOffice.WebApi.Data.RecipientType.BCC
   id: BCC
@@ -136,24 +97,26 @@ items:
   nameWithType: RecipientType.BCC
   fullName: SuperOffice.WebApi.Data.RecipientType.BCC
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: BCC\n"
+  summary: '3: BCC'
+  example: []
   syntax:
-    content: public const RecipientType BCC
+    content: >-
+      [EnumMember]
+
+      BCC = 3
     return:
       type: SuperOffice.WebApi.Data.RecipientType
-    content.vb: Public Const BCC As RecipientType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BCC = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.RecipientType.Sms
   commentId: F:SuperOffice.WebApi.Data.RecipientType.Sms
   id: Sms
@@ -165,55 +128,69 @@ items:
   nameWithType: RecipientType.Sms
   fullName: SuperOffice.WebApi.Data.RecipientType.Sms
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Sms\n"
+  summary: '4: Sms'
+  example: []
   syntax:
-    content: public const RecipientType Sms
+    content: >-
+      [EnumMember]
+
+      Sms = 4
     return:
       type: SuperOffice.WebApi.Data.RecipientType
-    content.vb: Public Const Sms As RecipientType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Sms = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.RecipientType
   commentId: T:SuperOffice.WebApi.Data.RecipientType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.RecipientType.html
   name: RecipientType
   nameWithType: RecipientType
   fullName: SuperOffice.WebApi.Data.RecipientType

@@ -20,18 +20,41 @@ references:
   commentId: T:SuperOffice.License.UserLicenseAttribute
   parent: SuperOffice.License
   isExternal: true
+  href: SuperOffice.License.UserLicenseAttribute.html
   name: UserLicenseAttribute
   nameWithType: UserLicenseAttribute
   fullName: SuperOffice.License.UserLicenseAttribute
 - uid: SuperOffice.License.SoLicenseNames
   commentId: T:SuperOffice.License.SoLicenseNames
   isExternal: true
+  href: SuperOffice.License.SoLicenseNames.html
   name: SoLicenseNames
   nameWithType: SoLicenseNames
   fullName: SuperOffice.License.SoLicenseNames
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.License
+    name: License
+    isExternal: true
+    href: SuperOffice.License.html

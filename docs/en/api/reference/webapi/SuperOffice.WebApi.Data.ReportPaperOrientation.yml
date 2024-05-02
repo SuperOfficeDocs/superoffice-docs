@@ -8,64 +8,21 @@ items:
   - SuperOffice.WebApi.Data.ReportPaperOrientation.Landscape
   - SuperOffice.WebApi.Data.ReportPaperOrientation.None
   - SuperOffice.WebApi.Data.ReportPaperOrientation.Portrait
-  - SuperOffice.WebApi.Data.ReportPaperOrientation.value__
   langs:
   - csharp
   - vb
   name: ReportPaperOrientation
   nameWithType: ReportPaperOrientation
   fullName: SuperOffice.WebApi.Data.ReportPaperOrientation
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDescribes the orientation of the paper when printing a report. The report layout must be &quot;Label&quot;\n"
+  summary: Describes the orientation of the paper when printing a report. The report layout must be "Label"
+  example: []
   syntax:
-    content: 'public sealed class ReportPaperOrientation : Enum'
-    content.vb: >-
-      Public NotInheritable Class ReportPaperOrientation
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ReportPaperOrientation.value__
-  commentId: F:SuperOffice.WebApi.Data.ReportPaperOrientation.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ReportPaperOrientation
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ReportPaperOrientation.value__
-  fullName: SuperOffice.WebApi.Data.ReportPaperOrientation.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum ReportPaperOrientation
+    content.vb: Public Enum ReportPaperOrientation
 - uid: SuperOffice.WebApi.Data.ReportPaperOrientation.None
   commentId: F:SuperOffice.WebApi.Data.ReportPaperOrientation.None
   id: None
@@ -77,24 +34,26 @@ items:
   nameWithType: ReportPaperOrientation.None
   fullName: SuperOffice.WebApi.Data.ReportPaperOrientation.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: \n"
+  summary: '0:'
+  example: []
   syntax:
-    content: public const ReportPaperOrientation None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.ReportPaperOrientation
-    content.vb: Public Const None As ReportPaperOrientation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ReportPaperOrientation.Portrait
   commentId: F:SuperOffice.WebApi.Data.ReportPaperOrientation.Portrait
   id: Portrait
@@ -106,24 +65,26 @@ items:
   nameWithType: ReportPaperOrientation.Portrait
   fullName: SuperOffice.WebApi.Data.ReportPaperOrientation.Portrait
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: The taller orientation\n"
+  summary: '1: The taller orientation'
+  example: []
   syntax:
-    content: public const ReportPaperOrientation Portrait
+    content: >-
+      [EnumMember]
+
+      Portrait = 1
     return:
       type: SuperOffice.WebApi.Data.ReportPaperOrientation
-    content.vb: Public Const Portrait As ReportPaperOrientation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Portrait = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ReportPaperOrientation.Landscape
   commentId: F:SuperOffice.WebApi.Data.ReportPaperOrientation.Landscape
   id: Landscape
@@ -135,55 +96,69 @@ items:
   nameWithType: ReportPaperOrientation.Landscape
   fullName: SuperOffice.WebApi.Data.ReportPaperOrientation.Landscape
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: The wider orientation\n"
+  summary: '2: The wider orientation'
+  example: []
   syntax:
-    content: public const ReportPaperOrientation Landscape
+    content: >-
+      [EnumMember]
+
+      Landscape = 2
     return:
       type: SuperOffice.WebApi.Data.ReportPaperOrientation
-    content.vb: Public Const Landscape As ReportPaperOrientation
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Landscape = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ReportPaperOrientation
   commentId: T:SuperOffice.WebApi.Data.ReportPaperOrientation
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ReportPaperOrientation.html
   name: ReportPaperOrientation
   nameWithType: ReportPaperOrientation
   fullName: SuperOffice.WebApi.Data.ReportPaperOrientation

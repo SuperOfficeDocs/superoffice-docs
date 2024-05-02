@@ -10,64 +10,21 @@ items:
   - SuperOffice.WebApi.Data.SystemEventScope.SystemWide
   - SuperOffice.WebApi.Data.SystemEventScope.Undefined
   - SuperOffice.WebApi.Data.SystemEventScope.User
-  - SuperOffice.WebApi.Data.SystemEventScope.value__
   langs:
   - csharp
   - vb
   name: SystemEventScope
   nameWithType: SystemEventScope
   fullName: SuperOffice.WebApi.Data.SystemEventScope
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nValue for field &apos;scope&apos; in table &apos;systemevent&apos;.\n"
+  summary: Value for field 'scope' in table 'systemevent'.
+  example: []
   syntax:
-    content: 'public sealed class SystemEventScope : Enum'
-    content.vb: >-
-      Public NotInheritable Class SystemEventScope
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.SystemEventScope.value__
-  commentId: F:SuperOffice.WebApi.Data.SystemEventScope.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.SystemEventScope
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: SystemEventScope.value__
-  fullName: SuperOffice.WebApi.Data.SystemEventScope.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum SystemEventScope
+    content.vb: Public Enum SystemEventScope
 - uid: SuperOffice.WebApi.Data.SystemEventScope.Undefined
   commentId: F:SuperOffice.WebApi.Data.SystemEventScope.Undefined
   id: Undefined
@@ -79,24 +36,26 @@ items:
   nameWithType: SystemEventScope.Undefined
   fullName: SuperOffice.WebApi.Data.SystemEventScope.Undefined
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Undefined value (error)\n"
+  summary: '0: Undefined value (error)'
+  example: []
   syntax:
-    content: public const SystemEventScope Undefined
+    content: >-
+      [EnumMember]
+
+      Undefined = 0
     return:
       type: SuperOffice.WebApi.Data.SystemEventScope
-    content.vb: Public Const Undefined As SystemEventScope
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Undefined = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.SystemEventScope.SystemWide
   commentId: F:SuperOffice.WebApi.Data.SystemEventScope.SystemWide
   id: SystemWide
@@ -108,24 +67,26 @@ items:
   nameWithType: SystemEventScope.SystemWide
   fullName: SuperOffice.WebApi.Data.SystemEventScope.SystemWide
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Value valid for all databases under this licence\n"
+  summary: '1: Value valid for all databases under this licence'
+  example: []
   syntax:
-    content: public const SystemEventScope SystemWide
+    content: >-
+      [EnumMember]
+
+      SystemWide = 1
     return:
       type: SuperOffice.WebApi.Data.SystemEventScope
-    content.vb: Public Const SystemWide As SystemEventScope
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SystemWide = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.SystemEventScope.Database
   commentId: F:SuperOffice.WebApi.Data.SystemEventScope.Database
   id: Database
@@ -137,24 +98,26 @@ items:
   nameWithType: SystemEventScope.Database
   fullName: SuperOffice.WebApi.Data.SystemEventScope.Database
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Value valid for this database\n"
+  summary: '2: Value valid for this database'
+  example: []
   syntax:
-    content: public const SystemEventScope Database
+    content: >-
+      [EnumMember]
+
+      Database = 2
     return:
       type: SuperOffice.WebApi.Data.SystemEventScope
-    content.vb: Public Const Database As SystemEventScope
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Database = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.SystemEventScope.Group
   commentId: F:SuperOffice.WebApi.Data.SystemEventScope.Group
   id: Group
@@ -166,24 +129,26 @@ items:
   nameWithType: SystemEventScope.Group
   fullName: SuperOffice.WebApi.Data.SystemEventScope.Group
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Value valid for this group\n"
+  summary: '3: Value valid for this group'
+  example: []
   syntax:
-    content: public const SystemEventScope Group
+    content: >-
+      [EnumMember]
+
+      Group = 3
     return:
       type: SuperOffice.WebApi.Data.SystemEventScope
-    content.vb: Public Const Group As SystemEventScope
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Group = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.SystemEventScope.User
   commentId: F:SuperOffice.WebApi.Data.SystemEventScope.User
   id: User
@@ -195,55 +160,69 @@ items:
   nameWithType: SystemEventScope.User
   fullName: SuperOffice.WebApi.Data.SystemEventScope.User
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Value valid for this user\n"
+  summary: '4: Value valid for this user'
+  example: []
   syntax:
-    content: public const SystemEventScope User
+    content: >-
+      [EnumMember]
+
+      User = 4
     return:
       type: SuperOffice.WebApi.Data.SystemEventScope
-    content.vb: Public Const User As SystemEventScope
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      User = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.SystemEventScope
   commentId: T:SuperOffice.WebApi.Data.SystemEventScope
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.SystemEventScope.html
   name: SystemEventScope
   nameWithType: SystemEventScope
   fullName: SuperOffice.WebApi.Data.SystemEventScope

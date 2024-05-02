@@ -24,18 +24,17 @@ items:
   nameWithType: CRMScriptTraceRun
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for CRMScriptTraceRun.\nObject for returning Trace run result from a CRMScript    \n"
+  summary: >-
+    Carrier object for CRMScriptTraceRun.
+
+    Object for returning Trace run result from a CRMScript
+  example: []
   syntax:
     content: 'public class CRMScriptTraceRun : Carrier'
-    content.vb: >-
-      Public Class CRMScriptTraceRun
-          Inherits Carrier
+    content.vb: Public Class CRMScriptTraceRun Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
     commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
@@ -45,12 +44,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor
   commentId: M:SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor
   id: '#ctor'
@@ -62,21 +62,18 @@ items:
   nameWithType: CRMScriptTraceRun.CRMScriptTraceRun()
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.CRMScriptTraceRun()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public CRMScriptTraceRun()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CRMScriptTraceRun.New()
+  fullName.vb: SuperOffice.WebApi.Data.CRMScriptTraceRun.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
   id: StartedAt
@@ -88,28 +85,18 @@ items:
   nameWithType: CRMScriptTraceRun.StartedAt
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen the trace was started\n"
+  summary: When the trace was started
+  example: []
   syntax:
     content: public virtual DateTime StartedAt { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartedAt As DateTime
+    content.vb: Public Overridable Property StartedAt As Date
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
   id: EndedAt
@@ -121,28 +108,18 @@ items:
   nameWithType: CRMScriptTraceRun.EndedAt
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen the trace was ended\n"
+  summary: When the trace was ended
+  example: []
   syntax:
     content: public virtual DateTime EndedAt { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EndedAt As DateTime
+    content.vb: Public Overridable Property EndedAt As Date
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
   id: ExecutionTime
@@ -154,13 +131,11 @@ items:
   nameWithType: CRMScriptTraceRun.ExecutionTime
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nReal seconds spent executing\n"
+  summary: Real seconds spent executing
+  example: []
   syntax:
     content: public virtual int ExecutionTime { get; set; }
     parameters: []
@@ -168,14 +143,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ExecutionTime As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
   id: UserExecutionTime
@@ -187,13 +154,11 @@ items:
   nameWithType: CRMScriptTraceRun.UserExecutionTime
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCPU seconds spent executing\n"
+  summary: CPU seconds spent executing
+  example: []
   syntax:
     content: public virtual int UserExecutionTime { get; set; }
     parameters: []
@@ -201,14 +166,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property UserExecutionTime As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
   id: PeakMemory
@@ -220,13 +177,11 @@ items:
   nameWithType: CRMScriptTraceRun.PeakMemory
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe maximum amount of used memory during execution (in kB)\n"
+  summary: The maximum amount of used memory during execution (in kB)
+  example: []
   syntax:
     content: public virtual int PeakMemory { get; set; }
     parameters: []
@@ -234,14 +189,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PeakMemory As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
   id: NumFrames
@@ -253,13 +200,11 @@ items:
   nameWithType: CRMScriptTraceRun.NumFrames
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe number of frames saved\n"
+  summary: The number of frames saved
+  example: []
   syntax:
     content: public virtual int NumFrames { get; set; }
     parameters: []
@@ -267,14 +212,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumFrames As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
   id: FileSize
@@ -286,13 +223,11 @@ items:
   nameWithType: CRMScriptTraceRun.FileSize
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe size of the trace file\n"
+  summary: The size of the trace file
+  example: []
   syntax:
     content: public virtual int FileSize { get; set; }
     parameters: []
@@ -300,14 +235,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property FileSize As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
   id: AssociateId
@@ -319,13 +246,11 @@ items:
   nameWithType: CRMScriptTraceRun.AssociateId
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAssociate who the script was executed as\n"
+  summary: Associate who the script was executed as
+  example: []
   syntax:
     content: public virtual int AssociateId { get; set; }
     parameters: []
@@ -333,14 +258,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
   id: Status
@@ -352,13 +269,11 @@ items:
   nameWithType: CRMScriptTraceRun.Status
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe status of the script, or exception if it fails\n"
+  summary: The status of the script, or exception if it fails
+  example: []
   syntax:
     content: public virtual string Status { get; set; }
     parameters: []
@@ -366,14 +281,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Status As String
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
   id: Frames
@@ -385,13 +292,11 @@ items:
   nameWithType: CRMScriptTraceRun.Frames
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe frames of the the trace\n"
+  summary: The frames of the the trace
+  example: []
   syntax:
     content: public virtual string Frames { get; set; }
     parameters: []
@@ -399,14 +304,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Frames As String
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
   commentId: P:SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
   id: ForceSaveTrace
@@ -418,13 +315,11 @@ items:
   nameWithType: CRMScriptTraceRun.ForceSaveTrace
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThis trace should be saved even if script_trace.exception_only is true.\n"
+  summary: This trace should be saved even if script_trace.exception_only is true.
+  example: []
   syntax:
     content: public virtual bool ForceSaveTrace { get; set; }
     parameters: []
@@ -432,32 +327,67 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ForceSaveTrace As Boolean
   overload: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CRMScriptAgent.html
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -465,6 +395,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -472,47 +403,275 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
-  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: CRMScriptAgent
-  nameWithType: CRMScriptAgent
-  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun__ctor
   name: CRMScriptTraceRun
   nameWithType: CRMScriptTraceRun.CRMScriptTraceRun
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.CRMScriptTraceRun
+  nameWithType.vb: CRMScriptTraceRun.New
+  fullName.vb: SuperOffice.WebApi.Data.CRMScriptTraceRun.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_StartedAt
   name: StartedAt
   nameWithType: CRMScriptTraceRun.StartedAt
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.StartedAt
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_EndedAt
   name: EndedAt
   nameWithType: CRMScriptTraceRun.EndedAt
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.EndedAt
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_ExecutionTime
   name: ExecutionTime
   nameWithType: CRMScriptTraceRun.ExecutionTime
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ExecutionTime
@@ -520,42 +679,52 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_UserExecutionTime
   name: UserExecutionTime
   nameWithType: CRMScriptTraceRun.UserExecutionTime
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.UserExecutionTime
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_PeakMemory
   name: PeakMemory
   nameWithType: CRMScriptTraceRun.PeakMemory
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.PeakMemory
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_NumFrames
   name: NumFrames
   nameWithType: CRMScriptTraceRun.NumFrames
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.NumFrames
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_FileSize
   name: FileSize
   nameWithType: CRMScriptTraceRun.FileSize
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.FileSize
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_AssociateId
   name: AssociateId
   nameWithType: CRMScriptTraceRun.AssociateId
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.AssociateId
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_Status
   name: Status
   nameWithType: CRMScriptTraceRun.Status
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Status
@@ -563,18 +732,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_Frames
   name: Frames
   nameWithType: CRMScriptTraceRun.Frames
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.Frames
 - uid: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
   isExternal: true
+  href: SuperOffice.WebApi.Data.CRMScriptTraceRun.html#SuperOffice_WebApi_Data_CRMScriptTraceRun_ForceSaveTrace
   name: ForceSaveTrace
   nameWithType: CRMScriptTraceRun.ForceSaveTrace
   fullName: SuperOffice.WebApi.Data.CRMScriptTraceRun.ForceSaveTrace
@@ -582,6 +757,10 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

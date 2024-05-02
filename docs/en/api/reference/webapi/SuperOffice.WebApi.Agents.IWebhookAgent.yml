@@ -20,24 +20,21 @@ items:
   nameWithType: IWebhookAgent
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nWebhook definitions - webhooks signal other systems about events inside NetServer\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Webhook definitions - webhooks signal other systems about events inside NetServer
+
+    <p></p>
+
+    <b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: 'public interface IWebhookAgent : IDisposable'
-    content.vb: >-
-      Public Interface IWebhookAgent
-          Inherits IDisposable
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+    content.vb: Public Interface IWebhookAgent Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
@@ -49,19 +46,20 @@ items:
   nameWithType: IWebhookAgent.CreateDefaultWebhookAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSet default values into a new Webhook.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  summary: >-
+    Set default values into a new Webhook.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
   syntax:
     content: Task<Webhook> CreateDefaultWebhookAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook}
       description: A blank Webhook
@@ -78,13 +76,16 @@ items:
   nameWithType: IWebhookAgent.SaveWebhookAsync(Webhook, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync(SuperOffice.WebApi.Data.Webhook, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nUpdates the existing Webhook or creates a new Webhook if the id parameter is 0. \n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Updates the existing Webhook or creates a new Webhook if the id parameter is 0. 
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<Webhook> SaveWebhookAsync(Webhook webhook, RequestOptions requestOptions = null)
     parameters:
@@ -93,7 +94,7 @@ items:
       description: The Webhook that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook}
       description: New or updated Webhook
@@ -106,17 +107,20 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteWebhookAsync(Int32, RequestOptions)
-  nameWithType: IWebhookAgent.DeleteWebhookAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: DeleteWebhookAsync(int, RequestOptions)
+  nameWithType: IWebhookAgent.DeleteWebhookAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDeletes the Webhook\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Deletes the Webhook
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task DeleteWebhookAsync(int webhookId, RequestOptions requestOptions = null)
     parameters:
@@ -125,11 +129,14 @@ items:
       description: The identity of the Webhook
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteWebhookAsync(webhookId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync*
+  nameWithType.vb: IWebhookAgent.DeleteWebhookAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteWebhookAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetWebhookAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -137,17 +144,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWebhookAsync(Int32, RequestOptions)
-  nameWithType: IWebhookAgent.GetWebhookAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetWebhookAsync(int, RequestOptions)
+  nameWithType: IWebhookAgent.GetWebhookAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGets a specific Webhook object.                        \n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Gets a specific Webhook object.                        
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<Webhook> GetWebhookAsync(int webhookId, RequestOptions requestOptions = null)
     parameters:
@@ -156,12 +166,15 @@ items:
       description: The identifier of the Webhook object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook}
       description: Webhook
     content.vb: Function GetWebhookAsync(webhookId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Webhook)
   overload: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync*
+  nameWithType.vb: IWebhookAgent.GetWebhookAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetWebhookAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
   id: GetAllWebhooksAsync(System.String,System.String,SuperOffice.WebApi.Data.WebhookState,SuperOffice.WebApi.RequestOptions)
@@ -169,17 +182,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllWebhooksAsync(String, String, WebhookState, RequestOptions)
-  nameWithType: IWebhookAgent.GetAllWebhooksAsync(String, String, WebhookState, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(System.String, System.String, SuperOffice.WebApi.Data.WebhookState, SuperOffice.WebApi.RequestOptions)
+  name: GetAllWebhooksAsync(string, string, WebhookState, RequestOptions)
+  nameWithType: IWebhookAgent.GetAllWebhooksAsync(string, string, WebhookState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(string, string, SuperOffice.WebApi.Data.WebhookState, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns all webhooks, according to filter criteria\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Returns all webhooks, according to filter criteria
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<Webhook[]> GetAllWebhooksAsync(string nameFilter, string eventFilter, WebhookState statusFilter, RequestOptions requestOptions = null)
     parameters:
@@ -194,12 +210,15 @@ items:
       description: Only return hooks with this status. Default Unknown = no filter, returns all.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook[]}
       description: Array of all webhooks, filtered according to given criteria.
     content.vb: Function GetAllWebhooksAsync(nameFilter As String, eventFilter As String, statusFilter As WebhookState, requestOptions As RequestOptions = Nothing) As Task(Of Webhook())
   overload: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync*
+  nameWithType.vb: IWebhookAgent.GetAllWebhooksAsync(String, String, WebhookState, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync(String, String, SuperOffice.WebApi.Data.WebhookState, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAllWebhooksAsync(String, String, WebhookState, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
   id: TestWebhookAsync(SuperOffice.WebApi.Data.Webhook,SuperOffice.WebApi.RequestOptions)
@@ -211,13 +230,16 @@ items:
   nameWithType: IWebhookAgent.TestWebhookAsync(Webhook, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync(SuperOffice.WebApi.Data.Webhook, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nPings a webhook with a &apos;test&apos; event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<WebhookResult> TestWebhookAsync(Webhook webhook, RequestOptions requestOptions = null)
     parameters:
@@ -226,7 +248,7 @@ items:
       description: Webhook definition to ping. Must contain a valid TargetUrl.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebhookResult}
       description: Result of calling webhook. Sucess=true/false + Error message
@@ -239,37 +261,43 @@ items:
   langs:
   - csharp
   - vb
-  name: SignalEventAsync(String, Int32, StringObjectDictionary, RequestOptions)
-  nameWithType: IWebhookAgent.SignalEventAsync(String, Int32, StringObjectDictionary, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(System.String, System.Int32, SuperOffice.WebApi.Data.StringObjectDictionary, SuperOffice.WebApi.RequestOptions)
+  name: SignalEventAsync(string, int, StringObjectDictionary, RequestOptions)
+  nameWithType: IWebhookAgent.SignalEventAsync(string, int, StringObjectDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(string, int, SuperOffice.WebApi.Data.StringObjectDictionary, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nSignal webhooks that an event has occurred. All webhooks listening for the event will be notified.\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Signal webhooks that an event has occurred. All webhooks listening for the event will be notified.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task SignalEventAsync(string eventName, int primaryKey, StringObjectDictionary data, RequestOptions requestOptions = null)
     parameters:
     - id: eventName
       type: System.String
-      description: 'Name of event to fire. &apos;entity.verb&apos; For example: &apos;window.closed&apos;, &apos;button.clicked&apos;.'
+      description: "Name of event to fire. 'entity.verb' For example: 'window.closed', 'button.clicked'."
     - id: primaryKey
       type: System.Int32
       description: (Optional) Id of entity that is firing event. Can be 0 if not used.
     - id: data
       type: SuperOffice.WebApi.Data.StringObjectDictionary
-      description: 'Event data. Not all the data values may be posted to the webhook, depending in webhook type: { &apos;windowName&apos;: &apos;foo&apos;, &apos;widgets&apos;: 123 }'
+      description: "Event data. Not all the data values may be posted to the webhook, depending in webhook type: { 'windowName': 'foo', 'widgets': 123 }"
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function SignalEventAsync(eventName As String, primaryKey As Integer, data As StringObjectDictionary, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync*
+  nameWithType.vb: IWebhookAgent.SignalEventAsync(String, Integer, StringObjectDictionary, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync(String, Integer, SuperOffice.WebApi.Data.StringObjectDictionary, SuperOffice.WebApi.RequestOptions)
+  name.vb: SignalEventAsync(String, Integer, StringObjectDictionary, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetLastErrorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -277,17 +305,20 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLastErrorAsync(Int32, RequestOptions)
-  nameWithType: IWebhookAgent.GetLastErrorAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  name: GetLastErrorAsync(int, RequestOptions)
+  nameWithType: IWebhookAgent.GetLastErrorAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(int, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturn the most recent error message received when calling this webhook.\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: >-
+    Return the most recent error message received when calling this webhook.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
   syntax:
     content: Task<string> GetLastErrorAsync(int webhookId, RequestOptions requestOptions = null)
     parameters:
@@ -296,22 +327,94 @@ items:
       description: Webhook to get error message for.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Error message, or empty string if no errors received
     content.vb: Function GetLastErrorAsync(webhookId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync*
+  nameWithType.vb: IWebhookAgent.GetLastErrorAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetLastErrorAsync(Integer, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_CreateDefaultWebhookAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultWebhookAsync
   nameWithType: IWebhookAgent.CreateDefaultWebhookAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.CreateDefaultWebhookAsync
@@ -319,12 +422,15 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Webhook>
   nameWithType: Task<Webhook>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Webhook>
@@ -334,84 +440,123 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.Webhook
     name: Webhook
-    nameWithType: Webhook
-    fullName: SuperOffice.WebApi.Data.Webhook
     isExternal: true
+    href: SuperOffice.WebApi.Data.Webhook.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.Webhook
     name: Webhook
-    nameWithType: Webhook
-    fullName: SuperOffice.WebApi.Data.Webhook
     isExternal: true
+    href: SuperOffice.WebApi.Data.Webhook.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_SaveWebhookAsync_SuperOffice_WebApi_Data_Webhook_SuperOffice_WebApi_RequestOptions_
   name: SaveWebhookAsync
   nameWithType: IWebhookAgent.SaveWebhookAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SaveWebhookAsync
@@ -419,18 +564,51 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Webhook
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html
   name: Webhook
   nameWithType: Webhook
   fullName: SuperOffice.WebApi.Data.Webhook
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_DeleteWebhookAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteWebhookAsync
   nameWithType: IWebhookAgent.DeleteWebhookAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.DeleteWebhookAsync
@@ -438,29 +616,32 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_GetWebhookAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetWebhookAsync
   nameWithType: IWebhookAgent.GetWebhookAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetWebhookAsync
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_GetAllWebhooksAsync_System_String_System_String_SuperOffice_WebApi_Data_WebhookState_SuperOffice_WebApi_RequestOptions_
   name: GetAllWebhooksAsync
   nameWithType: IWebhookAgent.GetAllWebhooksAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetAllWebhooksAsync
@@ -468,19 +649,26 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.WebhookState
   commentId: T:SuperOffice.WebApi.Data.WebhookState
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WebhookState.html
   name: WebhookState
   nameWithType: WebhookState
   fullName: SuperOffice.WebApi.Data.WebhookState
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Webhook[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Webhook[]>
   nameWithType: Task<Webhook[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Webhook[]>
@@ -490,52 +678,43 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.Webhook
     name: Webhook
-    nameWithType: Webhook
-    fullName: SuperOffice.WebApi.Data.Webhook
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.Webhook.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.Webhook
     name: Webhook
-    nameWithType: Webhook
-    fullName: SuperOffice.WebApi.Data.Webhook
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.Webhook.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_TestWebhookAsync_SuperOffice_WebApi_Data_Webhook_SuperOffice_WebApi_RequestOptions_
   name: TestWebhookAsync
   nameWithType: IWebhookAgent.TestWebhookAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.TestWebhookAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebhookResult}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebhookResult}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebhookResult}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<WebhookResult>
   nameWithType: Task<WebhookResult>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WebhookResult>
@@ -545,40 +724,31 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.WebhookResult
     name: WebhookResult
-    nameWithType: WebhookResult
-    fullName: SuperOffice.WebApi.Data.WebhookResult
     isExternal: true
+    href: SuperOffice.WebApi.Data.WebhookResult.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.WebhookResult
     name: WebhookResult
-    nameWithType: WebhookResult
-    fullName: SuperOffice.WebApi.Data.WebhookResult
     isExternal: true
+    href: SuperOffice.WebApi.Data.WebhookResult.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_SignalEventAsync_System_String_System_Int32_SuperOffice_WebApi_Data_StringObjectDictionary_SuperOffice_WebApi_RequestOptions_
   name: SignalEventAsync
   nameWithType: IWebhookAgent.SignalEventAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.SignalEventAsync
@@ -586,55 +756,49 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StringObjectDictionary
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.StringObjectDictionary.html
   name: StringObjectDictionary
   nameWithType: StringObjectDictionary
   fullName: SuperOffice.WebApi.Data.StringObjectDictionary
 - uid: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IWebhookAgent.html#SuperOffice_WebApi_Agents_IWebhookAgent_GetLastErrorAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetLastErrorAsync
   nameWithType: IWebhookAgent.GetLastErrorAsync
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent.GetLastErrorAsync
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )

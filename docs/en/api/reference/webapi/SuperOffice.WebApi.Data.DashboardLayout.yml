@@ -12,64 +12,21 @@ items:
   - SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
   - SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
   - SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
-  - SuperOffice.WebApi.Data.DashboardLayout.value__
   langs:
   - csharp
   - vb
   name: DashboardLayout
   nameWithType: DashboardLayout
   fullName: SuperOffice.WebApi.Data.DashboardLayout
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDashboard layout\n"
+  summary: Dashboard layout
+  example: []
   syntax:
-    content: 'public sealed class DashboardLayout : Enum'
-    content.vb: >-
-      Public NotInheritable Class DashboardLayout
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.DashboardLayout.value__
-  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.DashboardLayout
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: DashboardLayout.value__
-  fullName: SuperOffice.WebApi.Data.DashboardLayout.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum DashboardLayout
+    content.vb: Public Enum DashboardLayout
 - uid: SuperOffice.WebApi.Data.DashboardLayout.None
   commentId: F:SuperOffice.WebApi.Data.DashboardLayout.None
   id: None
@@ -81,24 +38,26 @@ items:
   nameWithType: DashboardLayout.None
   fullName: SuperOffice.WebApi.Data.DashboardLayout.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown layout\n"
+  summary: '0: Unknown layout'
+  example: []
   syntax:
-    content: public const DashboardLayout None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.DashboardLayout
-    content.vb: Public Const None As DashboardLayout
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardLayout.One
   commentId: F:SuperOffice.WebApi.Data.DashboardLayout.One
   id: One
@@ -110,24 +69,26 @@ items:
   nameWithType: DashboardLayout.One
   fullName: SuperOffice.WebApi.Data.DashboardLayout.One
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: One tile.\n"
+  summary: '1: One tile.'
+  example: []
   syntax:
-    content: public const DashboardLayout One
+    content: >-
+      [EnumMember]
+
+      One = 1
     return:
       type: SuperOffice.WebApi.Data.DashboardLayout
-    content.vb: Public Const One As DashboardLayout
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      One = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
   commentId: F:SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
   id: TwoVerticalSplit
@@ -139,24 +100,26 @@ items:
   nameWithType: DashboardLayout.TwoVerticalSplit
   fullName: SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Two vertical split.\n"
+  summary: '2: Two vertical split.'
+  example: []
   syntax:
-    content: public const DashboardLayout TwoVerticalSplit
+    content: >-
+      [EnumMember]
+
+      TwoVerticalSplit = 2
     return:
       type: SuperOffice.WebApi.Data.DashboardLayout
-    content.vb: Public Const TwoVerticalSplit As DashboardLayout
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TwoVerticalSplit = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardLayout.ThreeESplit
   commentId: F:SuperOffice.WebApi.Data.DashboardLayout.ThreeESplit
   id: ThreeESplit
@@ -168,24 +131,26 @@ items:
   nameWithType: DashboardLayout.ThreeESplit
   fullName: SuperOffice.WebApi.Data.DashboardLayout.ThreeESplit
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Three E split.\n"
+  summary: '3: Three E split.'
+  example: []
   syntax:
-    content: public const DashboardLayout ThreeESplit
+    content: >-
+      [EnumMember]
+
+      ThreeESplit = 3
     return:
       type: SuperOffice.WebApi.Data.DashboardLayout
-    content.vb: Public Const ThreeESplit As DashboardLayout
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ThreeESplit = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
   commentId: F:SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
   id: TwoHorizontalSplit
@@ -197,24 +162,26 @@ items:
   nameWithType: DashboardLayout.TwoHorizontalSplit
   fullName: SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Two horizontal split.\n"
+  summary: '4: Two horizontal split.'
+  example: []
   syntax:
-    content: public const DashboardLayout TwoHorizontalSplit
+    content: >-
+      [EnumMember]
+
+      TwoHorizontalSplit = 4
     return:
       type: SuperOffice.WebApi.Data.DashboardLayout
-    content.vb: Public Const TwoHorizontalSplit As DashboardLayout
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TwoHorizontalSplit = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
   commentId: F:SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
   id: ThreeTSplit
@@ -226,24 +193,26 @@ items:
   nameWithType: DashboardLayout.ThreeTSplit
   fullName: SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Three T split.\n"
+  summary: '5: Three T split.'
+  example: []
   syntax:
-    content: public const DashboardLayout ThreeTSplit
+    content: >-
+      [EnumMember]
+
+      ThreeTSplit = 5
     return:
       type: SuperOffice.WebApi.Data.DashboardLayout
-    content.vb: Public Const ThreeTSplit As DashboardLayout
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ThreeTSplit = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardLayout.Four
   commentId: F:SuperOffice.WebApi.Data.DashboardLayout.Four
   id: Four
@@ -255,55 +224,69 @@ items:
   nameWithType: DashboardLayout.Four
   fullName: SuperOffice.WebApi.Data.DashboardLayout.Four
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Four tiles.\n"
+  summary: '7: Four tiles.'
+  example: []
   syntax:
-    content: public const DashboardLayout Four
+    content: >-
+      [EnumMember]
+
+      Four = 7
     return:
       type: SuperOffice.WebApi.Data.DashboardLayout
-    content.vb: Public Const Four As DashboardLayout
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Four = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.DashboardLayout
   commentId: T:SuperOffice.WebApi.Data.DashboardLayout
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardLayout.html
   name: DashboardLayout
   nameWithType: DashboardLayout
   fullName: SuperOffice.WebApi.Data.DashboardLayout

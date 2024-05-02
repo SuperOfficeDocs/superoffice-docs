@@ -8,64 +8,36 @@ items:
   - SuperOffice.WebApi.Data.DashTileUsage.Dashboard
   - SuperOffice.WebApi.Data.DashTileUsage.None
   - SuperOffice.WebApi.Data.DashTileUsage.Selection
-  - SuperOffice.WebApi.Data.DashTileUsage.value__
   langs:
   - csharp
   - vb
   name: DashTileUsage
   nameWithType: DashTileUsage
   fullName: SuperOffice.WebApi.Data.DashTileUsage
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefines where a DashTileDefinition can be used\nThis Enum is used by:  dashboard_tile_definition.usage\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class DashTileUsage : Enum'
-    content.vb: >-
-      Public NotInheritable Class DashTileUsage
-          Inherits
+  summary: >-
+    Defines where a DashTileDefinition can be used
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.DashTileUsage.value__
-  commentId: F:SuperOffice.WebApi.Data.DashTileUsage.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.DashTileUsage
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: DashTileUsage.value__
-  fullName: SuperOffice.WebApi.Data.DashTileUsage.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  dashboard_tile_definition.usage
+
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum DashTileUsage : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum DashTileUsage As Short
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashTileUsage.None
   commentId: F:SuperOffice.WebApi.Data.DashTileUsage.None
   id: None
@@ -77,24 +49,15 @@ items:
   nameWithType: DashTileUsage.None
   fullName: SuperOffice.WebApi.Data.DashTileUsage.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Not visible anywhere\n"
+  summary: '0: Not visible anywhere'
+  example: []
   syntax:
-    content: public const DashTileUsage None
+    content: None = 0
     return:
       type: SuperOffice.WebApi.Data.DashTileUsage
-    content.vb: Public Const None As DashTileUsage
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.DashTileUsage.Dashboard
   commentId: F:SuperOffice.WebApi.Data.DashTileUsage.Dashboard
   id: Dashboard
@@ -106,24 +69,26 @@ items:
   nameWithType: DashTileUsage.Dashboard
   fullName: SuperOffice.WebApi.Data.DashTileUsage.Dashboard
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Visible in the tile library on the dashboard page\n"
+  summary: '1: Visible in the tile library on the dashboard page'
+  example: []
   syntax:
-    content: public const DashTileUsage Dashboard
+    content: >-
+      [EnumMember]
+
+      Dashboard = 1
     return:
       type: SuperOffice.WebApi.Data.DashTileUsage
-    content.vb: Public Const Dashboard As DashTileUsage
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Dashboard = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashTileUsage.Selection
   commentId: F:SuperOffice.WebApi.Data.DashTileUsage.Selection
   id: Selection
@@ -135,55 +100,69 @@ items:
   nameWithType: DashTileUsage.Selection
   fullName: SuperOffice.WebApi.Data.DashTileUsage.Selection
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Visible in the tile library on the selection page\n"
+  summary: '2: Visible in the tile library on the selection page'
+  example: []
   syntax:
-    content: public const DashTileUsage Selection
+    content: >-
+      [EnumMember]
+
+      Selection = 2
     return:
       type: SuperOffice.WebApi.Data.DashTileUsage
-    content.vb: Public Const Selection As DashTileUsage
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Selection = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.DashTileUsage
   commentId: T:SuperOffice.WebApi.Data.DashTileUsage
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.DashTileUsage.html
   name: DashTileUsage
   nameWithType: DashTileUsage
   fullName: SuperOffice.WebApi.Data.DashTileUsage

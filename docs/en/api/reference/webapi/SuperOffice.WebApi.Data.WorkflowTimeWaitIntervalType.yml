@@ -10,7 +10,6 @@ items:
   - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
   - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
   - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
-  - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
   - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
   - SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
   langs:
@@ -19,57 +18,15 @@ items:
   name: WorkflowTimeWaitIntervalType
   nameWithType: WorkflowTimeWaitIntervalType
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWorkflow waiting time interval type\n"
+  summary: Workflow waiting time interval type
+  example: []
   syntax:
-    content: 'public sealed class WorkflowTimeWaitIntervalType : Enum'
-    content.vb: >-
-      Public NotInheritable Class WorkflowTimeWaitIntervalType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
-  commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: WorkflowTimeWaitIntervalType.value__
-  fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum WorkflowTimeWaitIntervalType
+    content.vb: Public Enum WorkflowTimeWaitIntervalType
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
   commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
   id: None
@@ -81,24 +38,26 @@ items:
   nameWithType: WorkflowTimeWaitIntervalType.None
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: None\n"
+  summary: '0: None'
+  example: []
   syntax:
-    content: public const WorkflowTimeWaitIntervalType None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-    content.vb: Public Const None As WorkflowTimeWaitIntervalType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
   commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
   id: Seconds
@@ -110,24 +69,26 @@ items:
   nameWithType: WorkflowTimeWaitIntervalType.Seconds
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Seconds
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Seconds\n"
+  summary: '1: Seconds'
+  example: []
   syntax:
-    content: public const WorkflowTimeWaitIntervalType Seconds
+    content: >-
+      [EnumMember]
+
+      Seconds = 1
     return:
       type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-    content.vb: Public Const Seconds As WorkflowTimeWaitIntervalType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Seconds = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
   commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
   id: Minutes
@@ -139,24 +100,26 @@ items:
   nameWithType: WorkflowTimeWaitIntervalType.Minutes
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Minutes
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Minutes\n"
+  summary: '2: Minutes'
+  example: []
   syntax:
-    content: public const WorkflowTimeWaitIntervalType Minutes
+    content: >-
+      [EnumMember]
+
+      Minutes = 2
     return:
       type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-    content.vb: Public Const Minutes As WorkflowTimeWaitIntervalType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Minutes = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Hours
   commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Hours
   id: Hours
@@ -168,24 +131,26 @@ items:
   nameWithType: WorkflowTimeWaitIntervalType.Hours
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Hours
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Hours\n"
+  summary: '3: Hours'
+  example: []
   syntax:
-    content: public const WorkflowTimeWaitIntervalType Hours
+    content: >-
+      [EnumMember]
+
+      Hours = 3
     return:
       type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-    content.vb: Public Const Hours As WorkflowTimeWaitIntervalType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Hours = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
   commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
   id: WorkingDays
@@ -197,24 +162,26 @@ items:
   nameWithType: WorkflowTimeWaitIntervalType.WorkingDays
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.WorkingDays
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Working days\n"
+  summary: '4: Working days'
+  example: []
   syntax:
-    content: public const WorkflowTimeWaitIntervalType WorkingDays
+    content: >-
+      [EnumMember]
+
+      WorkingDays = 4
     return:
       type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-    content.vb: Public Const WorkingDays As WorkflowTimeWaitIntervalType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      WorkingDays = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Days
   commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Days
   id: Days
@@ -226,24 +193,26 @@ items:
   nameWithType: WorkflowTimeWaitIntervalType.Days
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Days
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Days\n"
+  summary: '5: Days'
+  example: []
   syntax:
-    content: public const WorkflowTimeWaitIntervalType Days
+    content: >-
+      [EnumMember]
+
+      Days = 5
     return:
       type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-    content.vb: Public Const Days As WorkflowTimeWaitIntervalType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Days = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
   commentId: F:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
   id: Weeks
@@ -255,55 +224,69 @@ items:
   nameWithType: WorkflowTimeWaitIntervalType.Weeks
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.Weeks
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Weeks\n"
+  summary: '6: Weeks'
+  example: []
   syntax:
-    content: public const WorkflowTimeWaitIntervalType Weeks
+    content: >-
+      [EnumMember]
+
+      Weeks = 6
     return:
       type: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
-    content.vb: Public Const Weeks As WorkflowTimeWaitIntervalType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Weeks = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
   commentId: T:SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType.html
   name: WorkflowTimeWaitIntervalType
   nameWithType: WorkflowTimeWaitIntervalType
   fullName: SuperOffice.WebApi.Data.WorkflowTimeWaitIntervalType

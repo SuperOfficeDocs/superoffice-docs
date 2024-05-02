@@ -20,26 +20,27 @@ items:
   nameWithType: SoExceptionInfo
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for SoExceptionInfo.\nRepresentation of a serialized exception that can be communicatyed over web services    \n"
+  summary: >-
+    Carrier object for SoExceptionInfo.
+
+    Representation of a serialized exception that can be communicatyed over web services
+  example: []
   syntax:
-    content: 'public class SoExceptionInfo : Object'
-    content.vb: >-
-      Public Class SoExceptionInfo
-          Inherits Object
+    content: public class SoExceptionInfo
+    content.vb: Public Class SoExceptionInfo
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.#ctor
   commentId: M:SuperOffice.WebApi.Data.SoExceptionInfo.#ctor
   id: '#ctor'
@@ -51,21 +52,18 @@ items:
   nameWithType: SoExceptionInfo.SoExceptionInfo()
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.SoExceptionInfo()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public SoExceptionInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: SoExceptionInfo.New()
+  fullName.vb: SuperOffice.WebApi.Data.SoExceptionInfo.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.Message
   commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.Message
   id: Message
@@ -77,13 +75,11 @@ items:
   nameWithType: SoExceptionInfo.Message
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Message
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe message that describes the error.\n"
+  summary: The message that describes the error.
+  example: []
   syntax:
     content: public virtual string Message { get; set; }
     parameters: []
@@ -91,14 +87,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Message As String
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.Message*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
   commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
   id: StackTrace
@@ -110,13 +98,11 @@ items:
   nameWithType: SoExceptionInfo.StackTrace
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nA string that describes the contents of the call stack, with the most recent method call appearing first.\n"
+  summary: A string that describes the contents of the call stack, with the most recent method call appearing first.
+  example: []
   syntax:
     content: public virtual string StackTrace { get; set; }
     parameters: []
@@ -124,14 +110,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property StackTrace As String
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
   commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
   id: FriendlyText
@@ -143,13 +121,11 @@ items:
   nameWithType: SoExceptionInfo.FriendlyText
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFriendly name.\n"
+  summary: Friendly name.
+  example: []
   syntax:
     content: public virtual string FriendlyText { get; set; }
     parameters: []
@@ -157,14 +133,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property FriendlyText As String
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
   commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
   id: ExceptionType
@@ -176,13 +144,11 @@ items:
   nameWithType: SoExceptionInfo.ExceptionType
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nType of Exception.\n"
+  summary: Type of Exception.
+  example: []
   syntax:
     content: public virtual string ExceptionType { get; set; }
     parameters: []
@@ -190,14 +156,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExceptionType As String
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.Source
   commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.Source
   id: Source
@@ -209,13 +167,11 @@ items:
   nameWithType: SoExceptionInfo.Source
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Source
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe name of the application or the object that causes the error.\n"
+  summary: The name of the application or the object that causes the error.
+  example: []
   syntax:
     content: public virtual string Source { get; set; }
     parameters: []
@@ -223,14 +179,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Source As String
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.Source*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
   commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
   id: InnerException
@@ -242,13 +190,11 @@ items:
   nameWithType: SoExceptionInfo.InnerException
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nInner Exception.\n"
+  summary: Inner Exception.
+  example: []
   syntax:
     content: public virtual SoExceptionInfo InnerException { get; set; }
     parameters: []
@@ -256,14 +202,6 @@ items:
       type: SuperOffice.WebApi.Data.SoExceptionInfo
     content.vb: Public Overridable Property InnerException As SoExceptionInfo
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
   commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
   id: Parameters
@@ -275,13 +213,11 @@ items:
   nameWithType: SoExceptionInfo.Parameters
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nAdditional parameters relevant to describe the exception.\n"
+  summary: Additional parameters relevant to describe the exception.
+  example: []
   syntax:
     content: public virtual SoExceptionInfoParameters Parameters { get; set; }
     parameters: []
@@ -289,43 +225,295 @@ items:
       type: SuperOffice.WebApi.Data.SoExceptionInfoParameters
     content.vb: Public Overridable Property Parameters As SoExceptionInfoParameters
   overload: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo__ctor
   name: SoExceptionInfo
   nameWithType: SoExceptionInfo.SoExceptionInfo
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.SoExceptionInfo
+  nameWithType.vb: SoExceptionInfo.New
+  fullName.vb: SuperOffice.WebApi.Data.SoExceptionInfo.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.Message*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.Message
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo_Message
   name: Message
   nameWithType: SoExceptionInfo.Message
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Message
@@ -333,36 +521,45 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo_StackTrace
   name: StackTrace
   nameWithType: SoExceptionInfo.StackTrace
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo_FriendlyText
   name: FriendlyText
   nameWithType: SoExceptionInfo.FriendlyText
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo_ExceptionType
   name: ExceptionType
   nameWithType: SoExceptionInfo.ExceptionType
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.Source*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.Source
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo_Source
   name: Source
   nameWithType: SoExceptionInfo.Source
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Source
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo_InnerException
   name: InnerException
   nameWithType: SoExceptionInfo.InnerException
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
@@ -370,12 +567,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.SoExceptionInfo
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html
   name: SoExceptionInfo
   nameWithType: SoExceptionInfo
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo
 - uid: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters*
   commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfo.html#SuperOffice_WebApi_Data_SoExceptionInfo_Parameters
   name: Parameters
   nameWithType: SoExceptionInfo.Parameters
   fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
@@ -383,6 +582,7 @@ references:
   commentId: T:SuperOffice.WebApi.Data.SoExceptionInfoParameters
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.SoExceptionInfoParameters.html
   name: SoExceptionInfoParameters
   nameWithType: SoExceptionInfoParameters
   fullName: SuperOffice.WebApi.Data.SoExceptionInfoParameters

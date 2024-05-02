@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowContentType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowContentType
+  id: WorkflowContentType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowContentType.Form
+  - SuperOffice.WebApi.Data.WorkflowContentType.Link
+  - SuperOffice.WebApi.Data.WorkflowContentType.Message
+  - SuperOffice.WebApi.Data.WorkflowContentType.None
+  langs:
+  - csharp
+  - vb
+  name: WorkflowContentType
+  nameWithType: WorkflowContentType
+  fullName: SuperOffice.WebApi.Data.WorkflowContentType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Workflow event type
+  example: []
+  syntax:
+    content: public enum WorkflowContentType
+    content.vb: Public Enum WorkflowContentType
+- uid: SuperOffice.WebApi.Data.WorkflowContentType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowContentType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowContentType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowContentType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowContentType.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: None'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowContentType
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowContentType.Message
+  commentId: F:SuperOffice.WebApi.Data.WorkflowContentType.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.WorkflowContentType
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: WorkflowContentType.Message
+  fullName: SuperOffice.WebApi.Data.WorkflowContentType.Message
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Message'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Message = 1
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowContentType
+    content.vb: >-
+      <EnumMember>
+
+      Message = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowContentType.Form
+  commentId: F:SuperOffice.WebApi.Data.WorkflowContentType.Form
+  id: Form
+  parent: SuperOffice.WebApi.Data.WorkflowContentType
+  langs:
+  - csharp
+  - vb
+  name: Form
+  nameWithType: WorkflowContentType.Form
+  fullName: SuperOffice.WebApi.Data.WorkflowContentType.Form
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Form'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Form = 2
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowContentType
+    content.vb: >-
+      <EnumMember>
+
+      Form = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowContentType.Link
+  commentId: F:SuperOffice.WebApi.Data.WorkflowContentType.Link
+  id: Link
+  parent: SuperOffice.WebApi.Data.WorkflowContentType
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: WorkflowContentType.Link
+  fullName: SuperOffice.WebApi.Data.WorkflowContentType.Link
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Link'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Link = 3
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowContentType
+    content.vb: >-
+      <EnumMember>
+
+      Link = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.WorkflowContentType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowContentType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowContentType.html
+  name: WorkflowContentType
+  nameWithType: WorkflowContentType
+  fullName: SuperOffice.WebApi.Data.WorkflowContentType

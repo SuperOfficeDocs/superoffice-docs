@@ -15,64 +15,21 @@ items:
   - SuperOffice.WebApi.Data.Domain.Selections
   - SuperOffice.WebApi.Data.Domain.Unknown
   - SuperOffice.WebApi.Data.Domain.UserGroups
-  - SuperOffice.WebApi.Data.Domain.value__
   langs:
   - csharp
   - vb
   name: Domain
   nameWithType: Domain
   fullName: SuperOffice.WebApi.Data.Domain
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nHierarchy domain\n"
+  summary: Hierarchy domain
+  example: []
   syntax:
-    content: 'public sealed class Domain : Enum'
-    content.vb: >-
-      Public NotInheritable Class Domain
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.Domain.value__
-  commentId: F:SuperOffice.WebApi.Data.Domain.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.Domain
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: Domain.value__
-  fullName: SuperOffice.WebApi.Data.Domain.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum Domain
+    content.vb: Public Enum Domain
 - uid: SuperOffice.WebApi.Data.Domain.Unknown
   commentId: F:SuperOffice.WebApi.Data.Domain.Unknown
   id: Unknown
@@ -84,24 +41,26 @@ items:
   nameWithType: Domain.Unknown
   fullName: SuperOffice.WebApi.Data.Domain.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown folders\n"
+  summary: '0: Unknown folders'
+  example: []
   syntax:
-    content: public const Domain Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const Unknown As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.ExtraTables
   commentId: F:SuperOffice.WebApi.Data.Domain.ExtraTables
   id: ExtraTables
@@ -113,24 +72,26 @@ items:
   nameWithType: Domain.ExtraTables
   fullName: SuperOffice.WebApi.Data.Domain.ExtraTables
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: ExtraTable folders\n"
+  summary: '1: ExtraTable folders'
+  example: []
   syntax:
-    content: public const Domain ExtraTables
+    content: >-
+      [EnumMember]
+
+      ExtraTables = 1
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const ExtraTables As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ExtraTables = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.ScreenDefinitions
   commentId: F:SuperOffice.WebApi.Data.Domain.ScreenDefinitions
   id: ScreenDefinitions
@@ -142,24 +103,26 @@ items:
   nameWithType: Domain.ScreenDefinitions
   fullName: SuperOffice.WebApi.Data.Domain.ScreenDefinitions
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: ScreenDefinition folders\n"
+  summary: '2: ScreenDefinition folders'
+  example: []
   syntax:
-    content: public const Domain ScreenDefinitions
+    content: >-
+      [EnumMember]
+
+      ScreenDefinitions = 2
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const ScreenDefinitions As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ScreenDefinitions = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.Scripts
   commentId: F:SuperOffice.WebApi.Data.Domain.Scripts
   id: Scripts
@@ -171,24 +134,26 @@ items:
   nameWithType: Domain.Scripts
   fullName: SuperOffice.WebApi.Data.Domain.Scripts
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Script folders\n"
+  summary: '3: Script folders'
+  example: []
   syntax:
-    content: public const Domain Scripts
+    content: >-
+      [EnumMember]
+
+      Scripts = 3
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const Scripts As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Scripts = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.Selections
   commentId: F:SuperOffice.WebApi.Data.Domain.Selections
   id: Selections
@@ -200,24 +165,26 @@ items:
   nameWithType: Domain.Selections
   fullName: SuperOffice.WebApi.Data.Domain.Selections
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Selection folders\n"
+  summary: '4: Selection folders'
+  example: []
   syntax:
-    content: public const Domain Selections
+    content: >-
+      [EnumMember]
+
+      Selections = 4
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const Selections As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Selections = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.ExternalDocuments
   commentId: F:SuperOffice.WebApi.Data.Domain.ExternalDocuments
   id: ExternalDocuments
@@ -229,24 +196,26 @@ items:
   nameWithType: Domain.ExternalDocuments
   fullName: SuperOffice.WebApi.Data.Domain.ExternalDocuments
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: ExternalDocument folders\n"
+  summary: '5: ExternalDocument folders'
+  example: []
   syntax:
-    content: public const Domain ExternalDocuments
+    content: >-
+      [EnumMember]
+
+      ExternalDocuments = 5
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const ExternalDocuments As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ExternalDocuments = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.UserGroups
   commentId: F:SuperOffice.WebApi.Data.Domain.UserGroups
   id: UserGroups
@@ -258,24 +227,26 @@ items:
   nameWithType: Domain.UserGroups
   fullName: SuperOffice.WebApi.Data.Domain.UserGroups
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: UserGroup folders\n"
+  summary: '6: UserGroup folders'
+  example: []
   syntax:
-    content: public const Domain UserGroups
+    content: >-
+      [EnumMember]
+
+      UserGroups = 6
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const UserGroups As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UserGroups = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
   commentId: F:SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
   id: ExternalDocumentRelatedToSpmMessage
@@ -287,24 +258,26 @@ items:
   nameWithType: Domain.ExternalDocumentRelatedToSpmMessage
   fullName: SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: ExternalDocuments related to spam messages folders\n"
+  summary: '7: ExternalDocuments related to spam messages folders'
+  example: []
   syntax:
-    content: public const Domain ExternalDocumentRelatedToSpmMessage
+    content: >-
+      [EnumMember]
+
+      ExternalDocumentRelatedToSpmMessage = 7
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const ExternalDocumentRelatedToSpmMessage As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ExternalDocumentRelatedToSpmMessage = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.Dashboards
   commentId: F:SuperOffice.WebApi.Data.Domain.Dashboards
   id: Dashboards
@@ -316,24 +289,26 @@ items:
   nameWithType: Domain.Dashboards
   fullName: SuperOffice.WebApi.Data.Domain.Dashboards
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Dashboard folders\n"
+  summary: '8: Dashboard folders'
+  example: []
   syntax:
-    content: public const Domain Dashboards
+    content: >-
+      [EnumMember]
+
+      Dashboards = 8
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const Dashboards As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Dashboards = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.Domain.EmailFlows
   commentId: F:SuperOffice.WebApi.Data.Domain.EmailFlows
   id: EmailFlows
@@ -345,55 +320,69 @@ items:
   nameWithType: Domain.EmailFlows
   fullName: SuperOffice.WebApi.Data.Domain.EmailFlows
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: EmailFlow folders\n"
+  summary: '9: EmailFlow folders'
+  example: []
   syntax:
-    content: public const Domain EmailFlows
+    content: >-
+      [EnumMember]
+
+      EmailFlows = 9
     return:
       type: SuperOffice.WebApi.Data.Domain
-    content.vb: Public Const EmailFlows As Domain
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      EmailFlows = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.Domain
   commentId: T:SuperOffice.WebApi.Data.Domain
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Domain.html
   name: Domain
   nameWithType: Domain
   fullName: SuperOffice.WebApi.Data.Domain

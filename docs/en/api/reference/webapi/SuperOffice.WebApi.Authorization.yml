@@ -25,26 +25,28 @@ references:
 - uid: SuperOffice.WebApi.Authorization.AuthorizationImplicit
   commentId: T:SuperOffice.WebApi.Authorization.AuthorizationImplicit
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationImplicit.html
   name: AuthorizationImplicit
   nameWithType: AuthorizationImplicit
   fullName: SuperOffice.WebApi.Authorization.AuthorizationImplicit
 - uid: SuperOffice.WebApi.Authorization.AuthorizationTicket
   commentId: T:SuperOffice.WebApi.Authorization.AuthorizationTicket
-  parent: SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationTicket.html
   name: AuthorizationTicket
   nameWithType: AuthorizationTicket
   fullName: SuperOffice.WebApi.Authorization.AuthorizationTicket
 - uid: SuperOffice.WebApi.Authorization.AuthorizationUsernamePassword
   commentId: T:SuperOffice.WebApi.Authorization.AuthorizationUsernamePassword
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationUsernamePassword.html
   name: AuthorizationUsernamePassword
   nameWithType: AuthorizationUsernamePassword
   fullName: SuperOffice.WebApi.Authorization.AuthorizationUsernamePassword
 - uid: SuperOffice.WebApi.Authorization.IAddHeaders
   commentId: T:SuperOffice.WebApi.Authorization.IAddHeaders
-  parent: SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.IAddHeaders.html
   name: IAddHeaders
   nameWithType: IAddHeaders
   fullName: SuperOffice.WebApi.Authorization.IAddHeaders
@@ -52,30 +54,65 @@ references:
   commentId: T:SuperOffice.WebApi.Authorization.IAuthorization
   parent: SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.IAuthorization.html
   name: IAuthorization
   nameWithType: IAuthorization
   fullName: SuperOffice.WebApi.Authorization.IAuthorization
 - uid: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
   commentId: T:SuperOffice.WebApi.Authorization.ReAuthorizationArgs
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.ReAuthorizationArgs.html
   name: ReAuthorizationArgs
   nameWithType: ReAuthorizationArgs
   fullName: SuperOffice.WebApi.Authorization.ReAuthorizationArgs
 - uid: SuperOffice.WebApi.Authorization.AuthorizationAccessToken
   commentId: T:SuperOffice.WebApi.Authorization.AuthorizationAccessToken
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationAccessToken.html
   name: AuthorizationAccessToken
   nameWithType: AuthorizationAccessToken
   fullName: SuperOffice.WebApi.Authorization.AuthorizationAccessToken
 - uid: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket
   commentId: T:SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket
   isExternal: true
+  href: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket.html
   name: AuthorizationSystemUserTicket
   nameWithType: AuthorizationSystemUserTicket
   fullName: SuperOffice.WebApi.Authorization.AuthorizationSystemUserTicket
 - uid: SuperOffice.WebApi.Authorization
   commentId: N:SuperOffice.WebApi.Authorization
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Authorization
   nameWithType: SuperOffice.WebApi.Authorization
   fullName: SuperOffice.WebApi.Authorization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html

@@ -9,64 +9,21 @@ items:
   - SuperOffice.WebApi.Data.StringSearchType.Contains
   - SuperOffice.WebApi.Data.StringSearchType.EndsWith
   - SuperOffice.WebApi.Data.StringSearchType.Exact
-  - SuperOffice.WebApi.Data.StringSearchType.value__
   langs:
   - csharp
   - vb
   name: StringSearchType
   nameWithType: StringSearchType
   fullName: SuperOffice.WebApi.Data.StringSearchType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnumeration that exposes what search types that are supported.\n"
+  summary: Enumeration that exposes what search types that are supported.
+  example: []
   syntax:
-    content: 'public sealed class StringSearchType : Enum'
-    content.vb: >-
-      Public NotInheritable Class StringSearchType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.StringSearchType.value__
-  commentId: F:SuperOffice.WebApi.Data.StringSearchType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.StringSearchType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: StringSearchType.value__
-  fullName: SuperOffice.WebApi.Data.StringSearchType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum StringSearchType
+    content.vb: Public Enum StringSearchType
 - uid: SuperOffice.WebApi.Data.StringSearchType.Exact
   commentId: F:SuperOffice.WebApi.Data.StringSearchType.Exact
   id: Exact
@@ -78,24 +35,26 @@ items:
   nameWithType: StringSearchType.Exact
   fullName: SuperOffice.WebApi.Data.StringSearchType.Exact
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: The Exact element searches for an exact string in your searchable content.\n"
+  summary: '0: The Exact element searches for an exact string in your searchable content.'
+  example: []
   syntax:
-    content: public const StringSearchType Exact
+    content: >-
+      [EnumMember]
+
+      Exact = 0
     return:
       type: SuperOffice.WebApi.Data.StringSearchType
-    content.vb: Public Const Exact As StringSearchType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Exact = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.StringSearchType.BeginsWith
   commentId: F:SuperOffice.WebApi.Data.StringSearchType.BeginsWith
   id: BeginsWith
@@ -107,24 +66,26 @@ items:
   nameWithType: StringSearchType.BeginsWith
   fullName: SuperOffice.WebApi.Data.StringSearchType.BeginsWith
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: The BeginsWith element searches for a string at the start of your searchable content.\n"
+  summary: '1: The BeginsWith element searches for a string at the start of your searchable content.'
+  example: []
   syntax:
-    content: public const StringSearchType BeginsWith
+    content: >-
+      [EnumMember]
+
+      BeginsWith = 1
     return:
       type: SuperOffice.WebApi.Data.StringSearchType
-    content.vb: Public Const BeginsWith As StringSearchType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      BeginsWith = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.StringSearchType.EndsWith
   commentId: F:SuperOffice.WebApi.Data.StringSearchType.EndsWith
   id: EndsWith
@@ -136,24 +97,26 @@ items:
   nameWithType: StringSearchType.EndsWith
   fullName: SuperOffice.WebApi.Data.StringSearchType.EndsWith
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: The EndsWith element searches for a string at the end of your searchable content.\n"
+  summary: '2: The EndsWith element searches for a string at the end of your searchable content.'
+  example: []
   syntax:
-    content: public const StringSearchType EndsWith
+    content: >-
+      [EnumMember]
+
+      EndsWith = 2
     return:
       type: SuperOffice.WebApi.Data.StringSearchType
-    content.vb: Public Const EndsWith As StringSearchType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      EndsWith = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.StringSearchType.Contains
   commentId: F:SuperOffice.WebApi.Data.StringSearchType.Contains
   id: Contains
@@ -165,55 +128,69 @@ items:
   nameWithType: StringSearchType.Contains
   fullName: SuperOffice.WebApi.Data.StringSearchType.Contains
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: The Exact element searches for a string in searchable content.\n"
+  summary: '3: The Exact element searches for a string in searchable content.'
+  example: []
   syntax:
-    content: public const StringSearchType Contains
+    content: >-
+      [EnumMember]
+
+      Contains = 3
     return:
       type: SuperOffice.WebApi.Data.StringSearchType
-    content.vb: Public Const Contains As StringSearchType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Contains = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.StringSearchType
   commentId: T:SuperOffice.WebApi.Data.StringSearchType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.StringSearchType.html
   name: StringSearchType
   nameWithType: StringSearchType
   fullName: SuperOffice.WebApi.Data.StringSearchType

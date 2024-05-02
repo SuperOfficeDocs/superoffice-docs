@@ -15,64 +15,21 @@ items:
   - SuperOffice.WebApi.Data.InvitationStatus.None
   - SuperOffice.WebApi.Data.InvitationStatus.Seen
   - SuperOffice.WebApi.Data.InvitationStatus.Unknown
-  - SuperOffice.WebApi.Data.InvitationStatus.value__
   langs:
   - csharp
   - vb
   name: InvitationStatus
   nameWithType: InvitationStatus
   fullName: SuperOffice.WebApi.Data.InvitationStatus
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStatus if this appointment represents an invitation\n"
+  summary: Status if this appointment represents an invitation
+  example: []
   syntax:
-    content: 'public sealed class InvitationStatus : Enum'
-    content.vb: >-
-      Public NotInheritable Class InvitationStatus
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.InvitationStatus.value__
-  commentId: F:SuperOffice.WebApi.Data.InvitationStatus.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.InvitationStatus
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: InvitationStatus.value__
-  fullName: SuperOffice.WebApi.Data.InvitationStatus.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum InvitationStatus
+    content.vb: Public Enum InvitationStatus
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Unknown
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Unknown
   id: Unknown
@@ -84,24 +41,26 @@ items:
   nameWithType: InvitationStatus.Unknown
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown - used when initializing\n"
+  summary: '0: Unknown - used when initializing'
+  example: []
   syntax:
-    content: public const InvitationStatus Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Unknown As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.None
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.None
   id: None
@@ -113,24 +72,26 @@ items:
   nameWithType: InvitationStatus.None
   fullName: SuperOffice.WebApi.Data.InvitationStatus.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: 1: Default value when the appointment is not a booking child\n"
+  summary: '1: 1: Default value when the appointment is not a booking child'
+  example: []
   syntax:
-    content: public const InvitationStatus None
+    content: >-
+      [EnumMember]
+
+      None = 1
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const None As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Accepted
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Accepted
   id: Accepted
@@ -142,24 +103,26 @@ items:
   nameWithType: InvitationStatus.Accepted
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Accepted
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: 2: The invitation has been accepted\n"
+  summary: '2: 2: The invitation has been accepted'
+  example: []
   syntax:
-    content: public const InvitationStatus Accepted
+    content: >-
+      [EnumMember]
+
+      Accepted = 2
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Accepted As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Accepted = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Hidden
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Hidden
   id: Hidden
@@ -171,24 +134,26 @@ items:
   nameWithType: InvitationStatus.Hidden
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Hidden
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: 4: Hidden\n"
+  summary: '4: 4: Hidden'
+  example: []
   syntax:
-    content: public const InvitationStatus Hidden
+    content: >-
+      [EnumMember]
+
+      Hidden = 4
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Hidden As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Hidden = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Invitation
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Invitation
   id: Invitation
@@ -200,24 +165,26 @@ items:
   nameWithType: InvitationStatus.Invitation
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Invitation
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: 5: An invitation to a meeting not observed by the attending party\n"
+  summary: '5: 5: An invitation to a meeting not observed by the attending party'
+  example: []
   syntax:
-    content: public const InvitationStatus Invitation
+    content: >-
+      [EnumMember]
+
+      Invitation = 5
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Invitation As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Invitation = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Moved
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Moved
   id: Moved
@@ -229,24 +196,26 @@ items:
   nameWithType: InvitationStatus.Moved
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Moved
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: 6: The meeting has been moved\n"
+  summary: '6: 6: The meeting has been moved'
+  example: []
   syntax:
-    content: public const InvitationStatus Moved
+    content: >-
+      [EnumMember]
+
+      Moved = 6
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Moved As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Moved = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Seen
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Seen
   id: Seen
@@ -258,24 +227,26 @@ items:
   nameWithType: InvitationStatus.Seen
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Seen
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: 7: An invitation to a meeting observed by the attending party. This can also be viewed upon as a tentative response to participate in the meeting.\n"
+  summary: '7: 7: An invitation to a meeting observed by the attending party. This can also be viewed upon as a tentative response to participate in the meeting.'
+  example: []
   syntax:
-    content: public const InvitationStatus Seen
+    content: >-
+      [EnumMember]
+
+      Seen = 7
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Seen As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Seen = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.MovedSeen
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.MovedSeen
   id: MovedSeen
@@ -287,24 +258,26 @@ items:
   nameWithType: InvitationStatus.MovedSeen
   fullName: SuperOffice.WebApi.Data.InvitationStatus.MovedSeen
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: 8: The meeting has been moved, and this is observed by the attending party\n"
+  summary: '8: 8: The meeting has been moved, and this is observed by the attending party'
+  example: []
   syntax:
-    content: public const InvitationStatus MovedSeen
+    content: >-
+      [EnumMember]
+
+      MovedSeen = 8
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const MovedSeen As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MovedSeen = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Declined
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Declined
   id: Declined
@@ -316,24 +289,26 @@ items:
   nameWithType: InvitationStatus.Declined
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Declined
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: 9: The invitation has been declined/rejected\n"
+  summary: '9: 9: The invitation has been declined/rejected'
+  example: []
   syntax:
-    content: public const InvitationStatus Declined
+    content: >-
+      [EnumMember]
+
+      Declined = 9
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Declined As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Declined = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.InvitationStatus.Cancelled
   commentId: F:SuperOffice.WebApi.Data.InvitationStatus.Cancelled
   id: Cancelled
@@ -345,55 +320,69 @@ items:
   nameWithType: InvitationStatus.Cancelled
   fullName: SuperOffice.WebApi.Data.InvitationStatus.Cancelled
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: 10: The meeting has been cancelled.\n"
+  summary: '10: 10: The meeting has been cancelled.'
+  example: []
   syntax:
-    content: public const InvitationStatus Cancelled
+    content: >-
+      [EnumMember]
+
+      Cancelled = 10
     return:
       type: SuperOffice.WebApi.Data.InvitationStatus
-    content.vb: Public Const Cancelled As InvitationStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Cancelled = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.InvitationStatus
   commentId: T:SuperOffice.WebApi.Data.InvitationStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.InvitationStatus.html
   name: InvitationStatus
   nameWithType: InvitationStatus
   fullName: SuperOffice.WebApi.Data.InvitationStatus

@@ -19,29 +19,30 @@ items:
   nameWithType: PersonSummary
   fullName: SuperOffice.WebApi.Data.PersonSummary
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for PersonSummary.\nSummary of person, with recent activities, chats, and requests included.    \n"
+  summary: >-
+    Carrier object for PersonSummary.
+
+    Summary of person, with recent activities, chats, and requests included.
+  example: []
   syntax:
-    content: 'public class PersonSummary : Object'
-    content.vb: >-
-      Public Class PersonSummary
-          Inherits Object
+    content: public class PersonSummary
+    content.vb: Public Class PersonSummary
   seealso:
   - linkId: SuperOffice.WebApi.Agents.PersonAgent
     commentId: T:SuperOffice.WebApi.Agents.PersonAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.PersonSummary.#ctor
   commentId: M:SuperOffice.WebApi.Data.PersonSummary.#ctor
   id: '#ctor'
@@ -53,21 +54,18 @@ items:
   nameWithType: PersonSummary.PersonSummary()
   fullName: SuperOffice.WebApi.Data.PersonSummary.PersonSummary()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public PersonSummary()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.PersonSummary.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PersonSummary.New()
+  fullName.vb: SuperOffice.WebApi.Data.PersonSummary.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.PersonSummary.Person
   commentId: P:SuperOffice.WebApi.Data.PersonSummary.Person
   id: Person
@@ -79,13 +77,11 @@ items:
   nameWithType: PersonSummary.Person
   fullName: SuperOffice.WebApi.Data.PersonSummary.Person
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSimple Person data.\n"
+  summary: Simple Person data.
+  example: []
   syntax:
     content: public virtual Person Person { get; set; }
     parameters: []
@@ -93,14 +89,6 @@ items:
       type: SuperOffice.WebApi.Data.Person
     content.vb: Public Overridable Property Person As Person
   overload: SuperOffice.WebApi.Data.PersonSummary.Person*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PersonSummary.Tickets
   commentId: P:SuperOffice.WebApi.Data.PersonSummary.Tickets
   id: Tickets
@@ -112,13 +100,11 @@ items:
   nameWithType: PersonSummary.Tickets
   fullName: SuperOffice.WebApi.Data.PersonSummary.Tickets
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRecent tickets on person\n"
+  summary: Recent tickets on person
+  example: []
   syntax:
     content: public virtual TicketSummaryItem[] Tickets { get; set; }
     parameters: []
@@ -126,14 +112,6 @@ items:
       type: SuperOffice.WebApi.Data.TicketSummaryItem[]
     content.vb: Public Overridable Property Tickets As TicketSummaryItem()
   overload: SuperOffice.WebApi.Data.PersonSummary.Tickets*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PersonSummary.Followups
   commentId: P:SuperOffice.WebApi.Data.PersonSummary.Followups
   id: Followups
@@ -145,13 +123,11 @@ items:
   nameWithType: PersonSummary.Followups
   fullName: SuperOffice.WebApi.Data.PersonSummary.Followups
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRecent follow-ups on person\n"
+  summary: Recent follow-ups on person
+  example: []
   syntax:
     content: public virtual ActivitySummaryItem[] Followups { get; set; }
     parameters: []
@@ -159,14 +135,6 @@ items:
       type: SuperOffice.WebApi.Data.ActivitySummaryItem[]
     content.vb: Public Overridable Property Followups As ActivitySummaryItem()
   overload: SuperOffice.WebApi.Data.PersonSummary.Followups*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PersonSummary.Documents
   commentId: P:SuperOffice.WebApi.Data.PersonSummary.Documents
   id: Documents
@@ -178,13 +146,11 @@ items:
   nameWithType: PersonSummary.Documents
   fullName: SuperOffice.WebApi.Data.PersonSummary.Documents
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRecent documents on person\n"
+  summary: Recent documents on person
+  example: []
   syntax:
     content: public virtual ActivitySummaryItem[] Documents { get; set; }
     parameters: []
@@ -192,14 +158,6 @@ items:
       type: SuperOffice.WebApi.Data.ActivitySummaryItem[]
     content.vb: Public Overridable Property Documents As ActivitySummaryItem()
   overload: SuperOffice.WebApi.Data.PersonSummary.Documents*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PersonSummary.Sales
   commentId: P:SuperOffice.WebApi.Data.PersonSummary.Sales
   id: Sales
@@ -211,13 +169,11 @@ items:
   nameWithType: PersonSummary.Sales
   fullName: SuperOffice.WebApi.Data.PersonSummary.Sales
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRecent sales on person\n"
+  summary: Recent sales on person
+  example: []
   syntax:
     content: public virtual SaleSummaryItem[] Sales { get; set; }
     parameters: []
@@ -225,14 +181,6 @@ items:
       type: SuperOffice.WebApi.Data.SaleSummaryItem[]
     content.vb: Public Overridable Property Sales As SaleSummaryItem()
   overload: SuperOffice.WebApi.Data.PersonSummary.Sales*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.PersonSummary.Chats
   commentId: P:SuperOffice.WebApi.Data.PersonSummary.Chats
   id: Chats
@@ -244,13 +192,11 @@ items:
   nameWithType: PersonSummary.Chats
   fullName: SuperOffice.WebApi.Data.PersonSummary.Chats
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRecent chats with person\n"
+  summary: Recent chats with person
+  example: []
   syntax:
     content: public virtual ChatSummaryItem[] Chats { get; set; }
     parameters: []
@@ -258,49 +204,302 @@ items:
       type: SuperOffice.WebApi.Data.ChatSummaryItem[]
     content.vb: Public Overridable Property Chats As ChatSummaryItem()
   overload: SuperOffice.WebApi.Data.PersonSummary.Chats*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.PersonAgent
-  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: PersonAgent
-  nameWithType: PersonAgent
-  fullName: SuperOffice.WebApi.Agents.PersonAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.PersonSummary.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.PersonSummary.html#SuperOffice_WebApi_Data_PersonSummary__ctor
   name: PersonSummary
   nameWithType: PersonSummary.PersonSummary
   fullName: SuperOffice.WebApi.Data.PersonSummary.PersonSummary
+  nameWithType.vb: PersonSummary.New
+  fullName.vb: SuperOffice.WebApi.Data.PersonSummary.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.PersonSummary.Person*
   commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Person
   isExternal: true
+  href: SuperOffice.WebApi.Data.PersonSummary.html#SuperOffice_WebApi_Data_PersonSummary_Person
   name: Person
   nameWithType: PersonSummary.Person
   fullName: SuperOffice.WebApi.Data.PersonSummary.Person
@@ -308,17 +507,20 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Person
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Person.html
   name: Person
   nameWithType: Person
   fullName: SuperOffice.WebApi.Data.Person
 - uid: SuperOffice.WebApi.Data.PersonSummary.Tickets*
   commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Tickets
   isExternal: true
+  href: SuperOffice.WebApi.Data.PersonSummary.html#SuperOffice_WebApi_Data_PersonSummary_Tickets
   name: Tickets
   nameWithType: PersonSummary.Tickets
   fullName: SuperOffice.WebApi.Data.PersonSummary.Tickets
 - uid: SuperOffice.WebApi.Data.TicketSummaryItem[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketSummaryItem.html
   name: TicketSummaryItem[]
   nameWithType: TicketSummaryItem[]
   fullName: SuperOffice.WebApi.Data.TicketSummaryItem[]
@@ -328,29 +530,27 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.TicketSummaryItem
     name: TicketSummaryItem
-    nameWithType: TicketSummaryItem
-    fullName: SuperOffice.WebApi.Data.TicketSummaryItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.TicketSummaryItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.TicketSummaryItem
     name: TicketSummaryItem
-    nameWithType: TicketSummaryItem
-    fullName: SuperOffice.WebApi.Data.TicketSummaryItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.TicketSummaryItem.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.PersonSummary.Followups*
   commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Followups
   isExternal: true
+  href: SuperOffice.WebApi.Data.PersonSummary.html#SuperOffice_WebApi_Data_PersonSummary_Followups
   name: Followups
   nameWithType: PersonSummary.Followups
   fullName: SuperOffice.WebApi.Data.PersonSummary.Followups
 - uid: SuperOffice.WebApi.Data.ActivitySummaryItem[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ActivitySummaryItem.html
   name: ActivitySummaryItem[]
   nameWithType: ActivitySummaryItem[]
   fullName: SuperOffice.WebApi.Data.ActivitySummaryItem[]
@@ -360,35 +560,34 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ActivitySummaryItem
     name: ActivitySummaryItem
-    nameWithType: ActivitySummaryItem
-    fullName: SuperOffice.WebApi.Data.ActivitySummaryItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ActivitySummaryItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ActivitySummaryItem
     name: ActivitySummaryItem
-    nameWithType: ActivitySummaryItem
-    fullName: SuperOffice.WebApi.Data.ActivitySummaryItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ActivitySummaryItem.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.PersonSummary.Documents*
   commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Documents
   isExternal: true
+  href: SuperOffice.WebApi.Data.PersonSummary.html#SuperOffice_WebApi_Data_PersonSummary_Documents
   name: Documents
   nameWithType: PersonSummary.Documents
   fullName: SuperOffice.WebApi.Data.PersonSummary.Documents
 - uid: SuperOffice.WebApi.Data.PersonSummary.Sales*
   commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Sales
   isExternal: true
+  href: SuperOffice.WebApi.Data.PersonSummary.html#SuperOffice_WebApi_Data_PersonSummary_Sales
   name: Sales
   nameWithType: PersonSummary.Sales
   fullName: SuperOffice.WebApi.Data.PersonSummary.Sales
 - uid: SuperOffice.WebApi.Data.SaleSummaryItem[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.SaleSummaryItem.html
   name: SaleSummaryItem[]
   nameWithType: SaleSummaryItem[]
   fullName: SuperOffice.WebApi.Data.SaleSummaryItem[]
@@ -398,29 +597,27 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.SaleSummaryItem
     name: SaleSummaryItem
-    nameWithType: SaleSummaryItem
-    fullName: SuperOffice.WebApi.Data.SaleSummaryItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.SaleSummaryItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.SaleSummaryItem
     name: SaleSummaryItem
-    nameWithType: SaleSummaryItem
-    fullName: SuperOffice.WebApi.Data.SaleSummaryItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.SaleSummaryItem.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.PersonSummary.Chats*
   commentId: Overload:SuperOffice.WebApi.Data.PersonSummary.Chats
   isExternal: true
+  href: SuperOffice.WebApi.Data.PersonSummary.html#SuperOffice_WebApi_Data_PersonSummary_Chats
   name: Chats
   nameWithType: PersonSummary.Chats
   fullName: SuperOffice.WebApi.Data.PersonSummary.Chats
 - uid: SuperOffice.WebApi.Data.ChatSummaryItem[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatSummaryItem.html
   name: ChatSummaryItem[]
   nameWithType: ChatSummaryItem[]
   fullName: SuperOffice.WebApi.Data.ChatSummaryItem[]
@@ -430,18 +627,14 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ChatSummaryItem
     name: ChatSummaryItem
-    nameWithType: ChatSummaryItem
-    fullName: SuperOffice.WebApi.Data.ChatSummaryItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.ChatSummaryItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ChatSummaryItem
     name: ChatSummaryItem
-    nameWithType: ChatSummaryItem
-    fullName: SuperOffice.WebApi.Data.ChatSummaryItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.ChatSummaryItem.html
+  - name: (
+  - name: )

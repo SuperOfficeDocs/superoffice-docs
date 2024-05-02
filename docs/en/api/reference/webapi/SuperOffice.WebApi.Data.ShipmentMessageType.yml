@@ -10,64 +10,36 @@ items:
   - SuperOffice.WebApi.Data.ShipmentMessageType.Plain
   - SuperOffice.WebApi.Data.ShipmentMessageType.Sms
   - SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
-  - SuperOffice.WebApi.Data.ShipmentMessageType.value__
   langs:
   - csharp
   - vb
   name: ShipmentMessageType
   nameWithType: ShipmentMessageType
   fullName: SuperOffice.WebApi.Data.ShipmentMessageType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nBitmask defining what type of shipment message this is\nThis Enum is used by:  s_message.flags\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class ShipmentMessageType : Enum'
-    content.vb: >-
-      Public NotInheritable Class ShipmentMessageType
-          Inherits
+  summary: >-
+    Bitmask defining what type of shipment message this is
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.ShipmentMessageType.value__
-  commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.ShipmentMessageType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: ShipmentMessageType.value__
-  fullName: SuperOffice.WebApi.Data.ShipmentMessageType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  s_message.flags
+
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum ShipmentMessageType : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum ShipmentMessageType As Short
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShipmentMessageType.Plain
   commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Plain
   id: Plain
@@ -79,24 +51,26 @@ items:
   nameWithType: ShipmentMessageType.Plain
   fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Plain
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Contains a plain part\n"
+  summary: '1: Contains a plain part'
+  example: []
   syntax:
-    content: public const ShipmentMessageType Plain
+    content: >-
+      [EnumMember]
+
+      Plain = 1
     return:
       type: SuperOffice.WebApi.Data.ShipmentMessageType
-    content.vb: Public Const Plain As ShipmentMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Plain = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShipmentMessageType.Html
   commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Html
   id: Html
@@ -108,24 +82,26 @@ items:
   nameWithType: ShipmentMessageType.Html
   fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Html
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Contains a HTML part\n"
+  summary: '2: Contains a HTML part'
+  example: []
   syntax:
-    content: public const ShipmentMessageType Html
+    content: >-
+      [EnumMember]
+
+      Html = 2
     return:
       type: SuperOffice.WebApi.Data.ShipmentMessageType
-    content.vb: Public Const Html As ShipmentMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Html = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
   commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
   id: SourceView
@@ -137,24 +113,26 @@ items:
   nameWithType: ShipmentMessageType.SourceView
   fullName: SuperOffice.WebApi.Data.ShipmentMessageType.SourceView
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Obsolete\n"
+  summary: '4: Obsolete'
+  example: []
   syntax:
-    content: public const ShipmentMessageType SourceView
+    content: >-
+      [EnumMember]
+
+      SourceView = 4
     return:
       type: SuperOffice.WebApi.Data.ShipmentMessageType
-    content.vb: Public Const SourceView As ShipmentMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SourceView = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShipmentMessageType.Sms
   commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Sms
   id: Sms
@@ -166,24 +144,26 @@ items:
   nameWithType: ShipmentMessageType.Sms
   fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Sms
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Contains a SMS\n"
+  summary: '8: Contains a SMS'
+  example: []
   syntax:
-    content: public const ShipmentMessageType Sms
+    content: >-
+      [EnumMember]
+
+      Sms = 8
     return:
       type: SuperOffice.WebApi.Data.ShipmentMessageType
-    content.vb: Public Const Sms As ShipmentMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Sms = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShipmentMessageType.Document
   commentId: F:SuperOffice.WebApi.Data.ShipmentMessageType.Document
   id: Document
@@ -195,55 +175,69 @@ items:
   nameWithType: ShipmentMessageType.Document
   fullName: SuperOffice.WebApi.Data.ShipmentMessageType.Document
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Contains a document. The document_message field contains the id of the actual document\n"
+  summary: '16: Contains a document. The document_message field contains the id of the actual document'
+  example: []
   syntax:
-    content: public const ShipmentMessageType Document
+    content: >-
+      [EnumMember]
+
+      Document = 16
     return:
       type: SuperOffice.WebApi.Data.ShipmentMessageType
-    content.vb: Public Const Document As ShipmentMessageType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Document = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.ShipmentMessageType
   commentId: T:SuperOffice.WebApi.Data.ShipmentMessageType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageType.html
   name: ShipmentMessageType
   nameWithType: ShipmentMessageType
   fullName: SuperOffice.WebApi.Data.ShipmentMessageType

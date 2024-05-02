@@ -25,18 +25,14 @@ items:
   nameWithType: MDOListItem
   fullName: SuperOffice.WebApi.Data.MDOListItem
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for MDOListItem.\n\n"
+  summary: Carrier object for MDOListItem.
+  example: []
   syntax:
     content: 'public class MDOListItem : Carrier'
-    content.vb: >-
-      Public Class MDOListItem
-          Inherits Carrier
+    content.vb: Public Class MDOListItem Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.MDOAgent
     commentId: T:SuperOffice.WebApi.Agents.MDOAgent
@@ -46,12 +42,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.MDOListItem.#ctor
   commentId: M:SuperOffice.WebApi.Data.MDOListItem.#ctor
   id: '#ctor'
@@ -63,21 +60,18 @@ items:
   nameWithType: MDOListItem.MDOListItem()
   fullName: SuperOffice.WebApi.Data.MDOListItem.MDOListItem()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public MDOListItem()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.MDOListItem.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: MDOListItem.New()
+  fullName.vb: SuperOffice.WebApi.Data.MDOListItem.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.MDOListItem.Id
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.Id
   id: Id
@@ -89,13 +83,11 @@ items:
   nameWithType: MDOListItem.Id
   fullName: SuperOffice.WebApi.Data.MDOListItem.Id
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe Id of the ListItem\n"
+  summary: The Id of the ListItem
+  example: []
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
@@ -103,14 +95,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
   overload: SuperOffice.WebApi.Data.MDOListItem.Id*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.Name
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.Name
   id: Name
@@ -122,13 +106,11 @@ items:
   nameWithType: MDOListItem.Name
   fullName: SuperOffice.WebApi.Data.MDOListItem.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe name of the ListItem\n"
+  summary: The name of the ListItem
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -136,14 +118,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.MDOListItem.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.ToolTip
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.ToolTip
   id: ToolTip
@@ -155,13 +129,11 @@ items:
   nameWithType: MDOListItem.ToolTip
   fullName: SuperOffice.WebApi.Data.MDOListItem.ToolTip
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe tooltip of the ListItem\n"
+  summary: The tooltip of the ListItem
+  example: []
   syntax:
     content: public virtual string ToolTip { get; set; }
     parameters: []
@@ -169,14 +141,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ToolTip As String
   overload: SuperOffice.WebApi.Data.MDOListItem.ToolTip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.Deleted
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.Deleted
   id: Deleted
@@ -188,13 +152,11 @@ items:
   nameWithType: MDOListItem.Deleted
   fullName: SuperOffice.WebApi.Data.MDOListItem.Deleted
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe deleted status of the ListItem\n"
+  summary: The deleted status of the ListItem
+  example: []
   syntax:
     content: public virtual bool Deleted { get; set; }
     parameters: []
@@ -202,14 +164,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.WebApi.Data.MDOListItem.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.Rank
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.Rank
   id: Rank
@@ -221,13 +175,11 @@ items:
   nameWithType: MDOListItem.Rank
   fullName: SuperOffice.WebApi.Data.MDOListItem.Rank
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe rank of the ListItem\n"
+  summary: The rank of the ListItem
+  example: []
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -235,14 +187,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.MDOListItem.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.Type
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.Type
   id: Type
@@ -254,13 +198,11 @@ items:
   nameWithType: MDOListItem.Type
   fullName: SuperOffice.WebApi.Data.MDOListItem.Type
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe type of the ListItem. Custom field.\n"
+  summary: The type of the ListItem. Custom field.
+  example: []
   syntax:
     content: public virtual string Type { get; set; }
     parameters: []
@@ -268,14 +210,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Type As String
   overload: SuperOffice.WebApi.Data.MDOListItem.Type*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.ChildItems
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.ChildItems
   id: ChildItems
@@ -287,13 +221,11 @@ items:
   nameWithType: MDOListItem.ChildItems
   fullName: SuperOffice.WebApi.Data.MDOListItem.ChildItems
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe child items of the MDOListItem\n"
+  summary: The child items of the MDOListItem
+  example: []
   syntax:
     content: public virtual MDOListItem[] ChildItems { get; set; }
     parameters: []
@@ -301,14 +233,6 @@ items:
       type: SuperOffice.WebApi.Data.MDOListItem[]
     content.vb: Public Overridable Property ChildItems As MDOListItem()
   overload: SuperOffice.WebApi.Data.MDOListItem.ChildItems*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.IconHint
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.IconHint
   id: IconHint
@@ -320,13 +244,11 @@ items:
   nameWithType: MDOListItem.IconHint
   fullName: SuperOffice.WebApi.Data.MDOListItem.IconHint
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe Icon hint of the ListItem. Custom field.\n"
+  summary: The Icon hint of the ListItem. Custom field.
+  example: []
   syntax:
     content: public virtual string IconHint { get; set; }
     parameters: []
@@ -334,14 +256,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property IconHint As String
   overload: SuperOffice.WebApi.Data.MDOListItem.IconHint*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.ColorBlock
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.ColorBlock
   id: ColorBlock
@@ -353,13 +267,11 @@ items:
   nameWithType: MDOListItem.ColorBlock
   fullName: SuperOffice.WebApi.Data.MDOListItem.ColorBlock
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe color indicator of the ListItem color block\n"
+  summary: The color indicator of the ListItem color block
+  example: []
   syntax:
     content: public virtual int ColorBlock { get; set; }
     parameters: []
@@ -367,14 +279,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ColorBlock As Integer
   overload: SuperOffice.WebApi.Data.MDOListItem.ColorBlock*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
   id: ExtraInfo
@@ -386,13 +290,11 @@ items:
   nameWithType: MDOListItem.ExtraInfo
   fullName: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nExtra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field.\n"
+  summary: Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field.
+  example: []
   syntax:
     content: public virtual string ExtraInfo { get; set; }
     parameters: []
@@ -400,14 +302,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraInfo As String
   overload: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.StyleHint
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.StyleHint
   id: StyleHint
@@ -419,13 +313,11 @@ items:
   nameWithType: MDOListItem.StyleHint
   fullName: SuperOffice.WebApi.Data.MDOListItem.StyleHint
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nStyle hint indicating, information such as background color etc. Custom field.\n"
+  summary: Style hint indicating, information such as background color etc. Custom field.
+  example: []
   syntax:
     content: public virtual string StyleHint { get; set; }
     parameters: []
@@ -433,14 +325,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property StyleHint As String
   overload: SuperOffice.WebApi.Data.MDOListItem.StyleHint*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MDOListItem.FullName
   commentId: P:SuperOffice.WebApi.Data.MDOListItem.FullName
   id: FullName
@@ -452,13 +336,11 @@ items:
   nameWithType: MDOListItem.FullName
   fullName: SuperOffice.WebApi.Data.MDOListItem.FullName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe name of the ListItem in its context\n"
+  summary: The name of the ListItem in its context
+  example: []
   syntax:
     content: public virtual string FullName { get; set; }
     parameters: []
@@ -466,32 +348,67 @@ items:
       type: System.String
     content.vb: Public Overridable Property FullName As String
   overload: SuperOffice.WebApi.Data.MDOListItem.FullName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.MDOAgent
+  commentId: T:SuperOffice.WebApi.Agents.MDOAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.MDOAgent.html
+  name: MDOAgent
+  nameWithType: MDOAgent
+  fullName: SuperOffice.WebApi.Agents.MDOAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -499,6 +416,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -506,30 +424,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.MDOAgent
-  commentId: T:SuperOffice.WebApi.Agents.MDOAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: MDOAgent
-  nameWithType: MDOAgent
-  fullName: SuperOffice.WebApi.Agents.MDOAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.MDOListItem.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem__ctor
   name: MDOListItem
   nameWithType: MDOListItem.MDOListItem
   fullName: SuperOffice.WebApi.Data.MDOListItem.MDOListItem
+  nameWithType.vb: MDOListItem.New
+  fullName.vb: SuperOffice.WebApi.Data.MDOListItem.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.MDOListItem.Id*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Id
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_Id
   name: Id
   nameWithType: MDOListItem.Id
   fullName: SuperOffice.WebApi.Data.MDOListItem.Id
@@ -537,12 +675,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.MDOListItem.Name*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_Name
   name: Name
   nameWithType: MDOListItem.Name
   fullName: SuperOffice.WebApi.Data.MDOListItem.Name
@@ -550,18 +693,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.MDOListItem.ToolTip*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ToolTip
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_ToolTip
   name: ToolTip
   nameWithType: MDOListItem.ToolTip
   fullName: SuperOffice.WebApi.Data.MDOListItem.ToolTip
 - uid: SuperOffice.WebApi.Data.MDOListItem.Deleted*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Deleted
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_Deleted
   name: Deleted
   nameWithType: MDOListItem.Deleted
   fullName: SuperOffice.WebApi.Data.MDOListItem.Deleted
@@ -569,29 +718,37 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.MDOListItem.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Rank
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_Rank
   name: Rank
   nameWithType: MDOListItem.Rank
   fullName: SuperOffice.WebApi.Data.MDOListItem.Rank
 - uid: SuperOffice.WebApi.Data.MDOListItem.Type*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.Type
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_Type
   name: Type
   nameWithType: MDOListItem.Type
   fullName: SuperOffice.WebApi.Data.MDOListItem.Type
 - uid: SuperOffice.WebApi.Data.MDOListItem.ChildItems*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ChildItems
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_ChildItems
   name: ChildItems
   nameWithType: MDOListItem.ChildItems
   fullName: SuperOffice.WebApi.Data.MDOListItem.ChildItems
 - uid: SuperOffice.WebApi.Data.MDOListItem[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html
   name: MDOListItem[]
   nameWithType: MDOListItem[]
   fullName: SuperOffice.WebApi.Data.MDOListItem[]
@@ -601,48 +758,49 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
-    nameWithType: MDOListItem
-    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.MDOListItem.IconHint*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.IconHint
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_IconHint
   name: IconHint
   nameWithType: MDOListItem.IconHint
   fullName: SuperOffice.WebApi.Data.MDOListItem.IconHint
 - uid: SuperOffice.WebApi.Data.MDOListItem.ColorBlock*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ColorBlock
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_ColorBlock
   name: ColorBlock
   nameWithType: MDOListItem.ColorBlock
   fullName: SuperOffice.WebApi.Data.MDOListItem.ColorBlock
 - uid: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_ExtraInfo
   name: ExtraInfo
   nameWithType: MDOListItem.ExtraInfo
   fullName: SuperOffice.WebApi.Data.MDOListItem.ExtraInfo
 - uid: SuperOffice.WebApi.Data.MDOListItem.StyleHint*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.StyleHint
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_StyleHint
   name: StyleHint
   nameWithType: MDOListItem.StyleHint
   fullName: SuperOffice.WebApi.Data.MDOListItem.StyleHint
 - uid: SuperOffice.WebApi.Data.MDOListItem.FullName*
   commentId: Overload:SuperOffice.WebApi.Data.MDOListItem.FullName
   isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html#SuperOffice_WebApi_Data_MDOListItem_FullName
   name: FullName
   nameWithType: MDOListItem.FullName
   fullName: SuperOffice.WebApi.Data.MDOListItem.FullName

@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  id: WorkflowNotifyEmailType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurContact
+  - SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurServiceContact
+  - SuperOffice.WebApi.Data.WorkflowNotifyEmailType.SpecificEmailAddress
+  langs:
+  - csharp
+  - vb
+  name: WorkflowNotifyEmailType
+  nameWithType: WorkflowNotifyEmailType
+  fullName: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Workflow notify email type
+  example: []
+  syntax:
+    content: public enum WorkflowNotifyEmailType
+    content.vb: Public Enum WorkflowNotifyEmailType
+- uid: SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurContact
+  commentId: F:SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurContact
+  id: OurContact
+  parent: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  langs:
+  - csharp
+  - vb
+  name: OurContact
+  nameWithType: WorkflowNotifyEmailType.OurContact
+  fullName: SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurContact
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: OurContact'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      OurContact = 0
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+    content.vb: >-
+      <EnumMember>
+
+      OurContact = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurServiceContact
+  commentId: F:SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurServiceContact
+  id: OurServiceContact
+  parent: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  langs:
+  - csharp
+  - vb
+  name: OurServiceContact
+  nameWithType: WorkflowNotifyEmailType.OurServiceContact
+  fullName: SuperOffice.WebApi.Data.WorkflowNotifyEmailType.OurServiceContact
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: OurServiceContact'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      OurServiceContact = 1
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+    content.vb: >-
+      <EnumMember>
+
+      OurServiceContact = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowNotifyEmailType.SpecificEmailAddress
+  commentId: F:SuperOffice.WebApi.Data.WorkflowNotifyEmailType.SpecificEmailAddress
+  id: SpecificEmailAddress
+  parent: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  langs:
+  - csharp
+  - vb
+  name: SpecificEmailAddress
+  nameWithType: WorkflowNotifyEmailType.SpecificEmailAddress
+  fullName: SuperOffice.WebApi.Data.WorkflowNotifyEmailType.SpecificEmailAddress
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: SpecificEmailAddress'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SpecificEmailAddress = 2
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+    content.vb: >-
+      <EnumMember>
+
+      SpecificEmailAddress = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowNotifyEmailType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowNotifyEmailType.html
+  name: WorkflowNotifyEmailType
+  nameWithType: WorkflowNotifyEmailType
+  fullName: SuperOffice.WebApi.Data.WorkflowNotifyEmailType

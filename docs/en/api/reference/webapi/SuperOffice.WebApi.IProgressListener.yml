@@ -14,22 +14,14 @@ items:
   nameWithType: IProgressListener
   fullName: SuperOffice.WebApi.IProgressListener
   type: Interface
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\nDefines callbacks for web-client progress notifications.\n"
+  summary: Defines callbacks for web-client progress notifications.
+  example: []
   syntax:
     content: public interface IProgressListener
     content.vb: Public Interface IProgressListener
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
 - uid: SuperOffice.WebApi.IProgressListener.OnProgress(System.String,System.Single)
   commentId: M:SuperOffice.WebApi.IProgressListener.OnProgress(System.String,System.Single)
   id: OnProgress(System.String,System.Single)
@@ -37,17 +29,15 @@ items:
   langs:
   - csharp
   - vb
-  name: OnProgress(String, Single)
-  nameWithType: IProgressListener.OnProgress(String, Single)
-  fullName: SuperOffice.WebApi.IProgressListener.OnProgress(System.String, System.Single)
+  name: OnProgress(string, float)
+  nameWithType: IProgressListener.OnProgress(string, float)
+  fullName: SuperOffice.WebApi.IProgressListener.OnProgress(string, float)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\nCalled during download, and at end to indicate completion.\n"
+  summary: Called during download, and at end to indicate completion.
+  example: []
   syntax:
     content: void OnProgress(string request, float progress)
     parameters:
@@ -59,6 +49,9 @@ items:
       description: Percent complete (0 to 1)
     content.vb: Sub OnProgress(request As String, progress As Single)
   overload: SuperOffice.WebApi.IProgressListener.OnProgress*
+  nameWithType.vb: IProgressListener.OnProgress(String, Single)
+  fullName.vb: SuperOffice.WebApi.IProgressListener.OnProgress(String, Single)
+  name.vb: OnProgress(String, Single)
 - uid: SuperOffice.WebApi.IProgressListener.OnError(System.String,System.Exception)
   commentId: M:SuperOffice.WebApi.IProgressListener.OnError(System.String,System.Exception)
   id: OnError(System.String,System.Exception)
@@ -66,17 +59,15 @@ items:
   langs:
   - csharp
   - vb
-  name: OnError(String, Exception)
-  nameWithType: IProgressListener.OnError(String, Exception)
-  fullName: SuperOffice.WebApi.IProgressListener.OnError(System.String, System.Exception)
+  name: OnError(string, Exception)
+  nameWithType: IProgressListener.OnError(string, Exception)
+  fullName: SuperOffice.WebApi.IProgressListener.OnError(string, System.Exception)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi
-  summary: "\nCalled when request fails.\n"
+  summary: Called when request fails.
+  example: []
   syntax:
     content: void OnError(string request, Exception errorMessage)
     parameters:
@@ -88,16 +79,41 @@ items:
       description: Exception that is being thrown. Probably a <xref href="SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException" data-throw-if-not-resolved="false"></xref>.
     content.vb: Sub OnError(request As String, errorMessage As Exception)
   overload: SuperOffice.WebApi.IProgressListener.OnError*
+  nameWithType.vb: IProgressListener.OnError(String, Exception)
+  fullName.vb: SuperOffice.WebApi.IProgressListener.OnError(String, System.Exception)
+  name.vb: OnError(String, Exception)
 references:
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: SuperOffice.WebApi.IProgressListener.OnProgress*
   commentId: Overload:SuperOffice.WebApi.IProgressListener.OnProgress
   isExternal: true
+  href: SuperOffice.WebApi.IProgressListener.html#SuperOffice_WebApi_IProgressListener_OnProgress_System_String_System_Single_
   name: OnProgress
   nameWithType: IProgressListener.OnProgress
   fullName: SuperOffice.WebApi.IProgressListener.OnProgress
@@ -105,30 +121,98 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Single
   commentId: T:System.Single
   parent: System
   isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  commentId: T:SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
+  parent: SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  href: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException.html
+  name: SuperOfficeWebApiException
+  nameWithType: SuperOfficeWebApiException
+  fullName: SuperOffice.WebApi.Authorization.Exceptions.SuperOfficeWebApiException
 - uid: SuperOffice.WebApi.IProgressListener.OnError*
   commentId: Overload:SuperOffice.WebApi.IProgressListener.OnError
   isExternal: true
+  href: SuperOffice.WebApi.IProgressListener.html#SuperOffice_WebApi_IProgressListener_OnError_System_String_System_Exception_
   name: OnError
   nameWithType: IProgressListener.OnError
   fullName: SuperOffice.WebApi.IProgressListener.OnError
 - uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: SuperOffice.WebApi.Authorization.Exceptions
+  commentId: N:SuperOffice.WebApi.Authorization.Exceptions
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Authorization.Exceptions
+  nameWithType: SuperOffice.WebApi.Authorization.Exceptions
+  fullName: SuperOffice.WebApi.Authorization.Exceptions
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.Exceptions.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization
+    name: Authorization
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.html
+  - name: .
+  - uid: SuperOffice.WebApi.Authorization.Exceptions
+    name: Exceptions
+    isExternal: true
+    href: SuperOffice.WebApi.Authorization.Exceptions.html

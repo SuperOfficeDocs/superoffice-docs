@@ -21,20 +21,25 @@ items:
   nameWithType: MailboxEntity
   fullName: SuperOffice.WebApi.Data.MailboxEntity
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for MailboxEntity.\nThis entity represent a mailbox used for importing emails in Service    \n"
+  summary: >-
+    Carrier object for MailboxEntity.
+
+    This entity represent a mailbox used for importing emails in Service
   example:
-  - "\nGet MailboxEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new CustomerServiceAgent(configuration);\nvar mailboxEntity = agent.GetMailboxEntity( 123 );</code></pre>\n"
+  - >-
+    Get MailboxEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new CustomerServiceAgent(configuration);
+
+    var mailboxEntity = agent.GetMailboxEntity( 123 );</code></pre>
   syntax:
     content: 'public class MailboxEntity : Carrier'
-    content.vb: >-
-      Public Class MailboxEntity
-          Inherits Carrier
+    content.vb: Public Class MailboxEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
     commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
@@ -44,12 +49,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.MailboxEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.MailboxEntity.#ctor
   id: '#ctor'
@@ -61,21 +67,18 @@ items:
   nameWithType: MailboxEntity.MailboxEntity()
   fullName: SuperOffice.WebApi.Data.MailboxEntity.MailboxEntity()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public MailboxEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.MailboxEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: MailboxEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.MailboxEntity.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.MailboxEntity.MailInFilterId
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.MailInFilterId
   id: MailInFilterId
@@ -87,13 +90,11 @@ items:
   nameWithType: MailboxEntity.MailInFilterId
   fullName: SuperOffice.WebApi.Data.MailboxEntity.MailInFilterId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe primary key (auto-incremented)\n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
     content: public virtual int MailInFilterId { get; set; }
     parameters: []
@@ -101,14 +102,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property MailInFilterId As Integer
   overload: SuperOffice.WebApi.Data.MailboxEntity.MailInFilterId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
   id: ServerType_String
@@ -120,29 +113,36 @@ items:
   nameWithType: MailboxEntity.ServerType_String
   fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnum indicating the protocol to use (POP/IMAP).\nRaw string enum value.\n"
+  summary: >-
+    Enum indicating the protocol to use (POP/IMAP).
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string ServerType_String { get; set; }
+    content: >-
+      [JsonProperty("ServerType")]
+
+      public string ServerType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property ServerType_String As String
+    content.vb: >-
+      <JsonProperty("ServerType")>
+
+      Public Property ServerType_String As String
   overload: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.MailboxEntity.ServerType
     commentId: P:SuperOffice.WebApi.Data.MailboxEntity.ServerType
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ServerType
 - uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.ServerType
   id: ServerType
@@ -154,29 +154,34 @@ items:
   nameWithType: MailboxEntity.ServerType
   fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnum indicating the protocol to use (POP/IMAP).\nNULL if unknown enum value.\n"
+  summary: >-
+    Enum indicating the protocol to use (POP/IMAP).
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<MailboxType> ServerType { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public MailboxType? ServerType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.MailboxType}
-    content.vb: Public Property ServerType As Nullable(Of MailboxType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ServerType As MailboxType?
   overload: SuperOffice.WebApi.Data.MailboxEntity.ServerType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
     commentId: P:SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Address
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.Address
   id: Address
@@ -188,13 +193,11 @@ items:
   nameWithType: MailboxEntity.Address
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Address
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe address associated with this mailbox (used as FROM: address when sending emails).\n"
+  summary: 'The address associated with this mailbox (used as FROM: address when sending emails).'
+  example: []
   syntax:
     content: public virtual string Address { get; set; }
     parameters: []
@@ -202,14 +205,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Address As String
   overload: SuperOffice.WebApi.Data.MailboxEntity.Address*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Username
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.Username
   id: Username
@@ -221,13 +216,11 @@ items:
   nameWithType: MailboxEntity.Username
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Username
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe username used to log onto the mail account\n"
+  summary: The username used to log onto the mail account
+  example: []
   syntax:
     content: public virtual string Username { get; set; }
     parameters: []
@@ -235,14 +228,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Username As String
   overload: SuperOffice.WebApi.Data.MailboxEntity.Username*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Password
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.Password
   id: Password
@@ -254,13 +239,11 @@ items:
   nameWithType: MailboxEntity.Password
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Password
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe password used to log into the mail account. This is hidden when reading\n"
+  summary: The password used to log into the mail account. This is hidden when reading
+  example: []
   syntax:
     content: public virtual string Password { get; set; }
     parameters: []
@@ -268,14 +251,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Password As String
   overload: SuperOffice.WebApi.Data.MailboxEntity.Password*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Server
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.Server
   id: Server
@@ -287,13 +262,11 @@ items:
   nameWithType: MailboxEntity.Server
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Server
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe email server to connect to\n"
+  summary: The email server to connect to
+  example: []
   syntax:
     content: public virtual string Server { get; set; }
     parameters: []
@@ -301,14 +274,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Server As String
   overload: SuperOffice.WebApi.Data.MailboxEntity.Server*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Port
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.Port
   id: Port
@@ -320,13 +285,11 @@ items:
   nameWithType: MailboxEntity.Port
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Port
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe port used to connect to the server\n"
+  summary: The port used to connect to the server
+  example: []
   syntax:
     content: public virtual int Port { get; set; }
     parameters: []
@@ -334,32 +297,67 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Port As Integer
   overload: SuperOffice.WebApi.Data.MailboxEntity.Port*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CustomerServiceAgent.html
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -367,6 +365,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -374,30 +373,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
-  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: CustomerServiceAgent
-  nameWithType: CustomerServiceAgent
-  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.MailboxEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity__ctor
   name: MailboxEntity
   nameWithType: MailboxEntity.MailboxEntity
   fullName: SuperOffice.WebApi.Data.MailboxEntity.MailboxEntity
+  nameWithType.vb: MailboxEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.MailboxEntity.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.MailboxEntity.MailInFilterId*
   commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.MailInFilterId
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_MailInFilterId
   name: MailInFilterId
   nameWithType: MailboxEntity.MailInFilterId
   fullName: SuperOffice.WebApi.Data.MailboxEntity.MailInFilterId
@@ -405,142 +624,132 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
-  isExternal: true
-  name: ServerType_String
-  nameWithType: MailboxEntity.ServerType_String
-  fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.ServerType
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_ServerType
+  name: ServerType
+  nameWithType: MailboxEntity.ServerType
+  fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType
+- uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_ServerType_String
+  name: ServerType_String
+  nameWithType: MailboxEntity.ServerType_String
+  fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType*
-  commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.ServerType
-  isExternal: true
-  name: ServerType
-  nameWithType: MailboxEntity.ServerType
-  fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
   commentId: P:SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.MailboxType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.MailboxType}'
-  definition: System.Nullable`1
-  name: Nullable<MailboxType>
-  nameWithType: Nullable<MailboxType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.MailboxType>
-  nameWithType.vb: Nullable(Of MailboxType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.MailboxType)
-  name.vb: Nullable(Of MailboxType)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.MailboxType
-    name: MailboxType
-    nameWithType: MailboxType
-    fullName: SuperOffice.WebApi.Data.MailboxType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.MailboxType
-    name: MailboxType
-    nameWithType: MailboxType
-    fullName: SuperOffice.WebApi.Data.MailboxType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_ServerType_String
+  name: ServerType_String
+  nameWithType: MailboxEntity.ServerType_String
+  fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType_String
+- uid: SuperOffice.WebApi.Data.MailboxEntity.ServerType*
+  commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.ServerType
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_ServerType
+  name: ServerType
+  nameWithType: MailboxEntity.ServerType
+  fullName: SuperOffice.WebApi.Data.MailboxEntity.ServerType
+- uid: System.Nullable{SuperOffice.WebApi.Data.MailboxType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.MailboxType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.MailboxType.html
+  name: MailboxType?
+  nameWithType: MailboxType?
+  fullName: SuperOffice.WebApi.Data.MailboxType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.MailboxType
+    name: MailboxType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.MailboxType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.MailboxType
+    name: MailboxType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.MailboxType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Address*
   commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.Address
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_Address
   name: Address
   nameWithType: MailboxEntity.Address
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Address
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Username*
   commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.Username
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_Username
   name: Username
   nameWithType: MailboxEntity.Username
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Username
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Password*
   commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.Password
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_Password
   name: Password
   nameWithType: MailboxEntity.Password
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Password
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Server*
   commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.Server
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_Server
   name: Server
   nameWithType: MailboxEntity.Server
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Server
 - uid: SuperOffice.WebApi.Data.MailboxEntity.Port*
   commentId: Overload:SuperOffice.WebApi.Data.MailboxEntity.Port
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxEntity.html#SuperOffice_WebApi_Data_MailboxEntity_Port
   name: Port
   nameWithType: MailboxEntity.Port
   fullName: SuperOffice.WebApi.Data.MailboxEntity.Port

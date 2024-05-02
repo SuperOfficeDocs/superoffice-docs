@@ -175,13 +175,13 @@ items:
   href: custom-objects/index.md
   items:
   - name: ReadRow
-    href: custom-objects/howto/custom-objects-ReadRow.md
+    href: custom-objects/howto/custom-objects-read-row.md
   - name: InsertRow
-    href: custom-objects/howto/custom-objects-InsertRow.md
+    href: custom-objects/howto/custom-objects-insert-row.md
   - name: UpdateRow
-    href: custom-objects/howto/custom-objects-UpdateRow.md
+    href: custom-objects/howto/custom-objects-update-row.md
   - name: DeleteRow
-    href: custom-objects/howto/custom-objects-DeleteRow.md
+    href: custom-objects/howto/custom-objects-delete-row.md
   - name: Search
     href: custom-objects/howto/custom-objects-search.md
 - name: Logging

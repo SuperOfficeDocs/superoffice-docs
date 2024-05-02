@@ -16,29 +16,30 @@ items:
   nameWithType: UserPresenceStatus
   fullName: SuperOffice.WebApi.Data.UserPresenceStatus
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for UserPresenceStatus.\nManage present/absent status for a Service user account (influences ticket assignments).    \n"
+  summary: >-
+    Carrier object for UserPresenceStatus.
+
+    Manage present/absent status for a Service user account (influences ticket assignments).
+  example: []
   syntax:
-    content: 'public class UserPresenceStatus : Object'
-    content.vb: >-
-      Public Class UserPresenceStatus
-          Inherits Object
+    content: public class UserPresenceStatus
+    content.vb: Public Class UserPresenceStatus
   seealso:
   - linkId: SuperOffice.WebApi.Agents.UserAgent
     commentId: T:SuperOffice.WebApi.Agents.UserAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.#ctor
   commentId: M:SuperOffice.WebApi.Data.UserPresenceStatus.#ctor
   id: '#ctor'
@@ -50,21 +51,18 @@ items:
   nameWithType: UserPresenceStatus.UserPresenceStatus()
   fullName: SuperOffice.WebApi.Data.UserPresenceStatus.UserPresenceStatus()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public UserPresenceStatus()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.UserPresenceStatus.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: UserPresenceStatus.New()
+  fullName.vb: SuperOffice.WebApi.Data.UserPresenceStatus.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
   commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
   id: Status_String
@@ -76,29 +74,36 @@ items:
   nameWithType: UserPresenceStatus.Status_String
   fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe status (enum) for this user.\nRaw string enum value.\n"
+  summary: >-
+    The status (enum) for this user.
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Status_String { get; set; }
+    content: >-
+      [JsonProperty("Status")]
+
+      public string Status_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Status_String As String
+    content.vb: >-
+      <JsonProperty("Status")>
+
+      Public Property Status_String As String
   overload: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.UserPresenceStatus.Status
     commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Status
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status
   commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status
   id: Status
@@ -110,29 +115,34 @@ items:
   nameWithType: UserPresenceStatus.Status
   fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe status (enum) for this user.\nNULL if unknown enum value.\n"
+  summary: >-
+    The status (enum) for this user.
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<EjUserStatus> Status { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public EjUserStatus? Status { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
-    content.vb: Public Property Status As Nullable(Of EjUserStatus)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Status As EjUserStatus?
   overload: SuperOffice.WebApi.Data.UserPresenceStatus.Status*
   seealso:
   - linkId: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
     commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.Message
   commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Message
   id: Message
@@ -144,13 +154,11 @@ items:
   nameWithType: UserPresenceStatus.Message
   fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Message
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nComment to add for user when status is not present.\n"
+  summary: Comment to add for user when status is not present.
+  example: []
   syntax:
     content: public virtual string Message { get; set; }
     parameters: []
@@ -158,155 +166,389 @@ items:
       type: System.String
     content.vb: Public Overridable Property Message As String
   overload: SuperOffice.WebApi.Data.UserPresenceStatus.Message*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.UserAgent.html
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.UserAgent
-  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.WebApi.Agents.UserAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.UserPresenceStatus.html#SuperOffice_WebApi_Data_UserPresenceStatus__ctor
   name: UserPresenceStatus
   nameWithType: UserPresenceStatus.UserPresenceStatus
   fullName: SuperOffice.WebApi.Data.UserPresenceStatus.UserPresenceStatus
-- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String*
-  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
-  isExternal: true
-  name: Status_String
-  nameWithType: UserPresenceStatus.Status_String
-  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  nameWithType.vb: UserPresenceStatus.New
+  fullName.vb: SuperOffice.WebApi.Data.UserPresenceStatus.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status
   commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status
   isExternal: true
+  href: SuperOffice.WebApi.Data.UserPresenceStatus.html#SuperOffice_WebApi_Data_UserPresenceStatus_Status
+  name: Status
+  nameWithType: UserPresenceStatus.Status
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.UserPresenceStatus.html#SuperOffice_WebApi_Data_UserPresenceStatus_Status_String
+  name: Status_String
+  nameWithType: UserPresenceStatus.Status_String
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status*
-  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Status
-  isExternal: true
-  name: Status
-  nameWithType: UserPresenceStatus.Status
-  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
   commentId: P:SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}'
-  definition: System.Nullable`1
-  name: Nullable<EjUserStatus>
-  nameWithType: Nullable<EjUserStatus>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.EjUserStatus>
-  nameWithType.vb: Nullable(Of EjUserStatus)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EjUserStatus)
-  name.vb: Nullable(Of EjUserStatus)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.EjUserStatus
-    name: EjUserStatus
-    nameWithType: EjUserStatus
-    fullName: SuperOffice.WebApi.Data.EjUserStatus
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.EjUserStatus
-    name: EjUserStatus
-    nameWithType: EjUserStatus
-    fullName: SuperOffice.WebApi.Data.EjUserStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.UserPresenceStatus.html#SuperOffice_WebApi_Data_UserPresenceStatus_Status_String
+  name: Status_String
+  nameWithType: UserPresenceStatus.Status_String
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status_String
+- uid: SuperOffice.WebApi.Data.UserPresenceStatus.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Status
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.UserPresenceStatus.html#SuperOffice_WebApi_Data_UserPresenceStatus_Status
+  name: Status
+  nameWithType: UserPresenceStatus.Status
+  fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Status
+- uid: System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.EjUserStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.EjUserStatus.html
+  name: EjUserStatus?
+  nameWithType: EjUserStatus?
+  fullName: SuperOffice.WebApi.Data.EjUserStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EjUserStatus
+    name: EjUserStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EjUserStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EjUserStatus
+    name: EjUserStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EjUserStatus.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.UserPresenceStatus.Message*
   commentId: Overload:SuperOffice.WebApi.Data.UserPresenceStatus.Message
   isExternal: true
+  href: SuperOffice.WebApi.Data.UserPresenceStatus.html#SuperOffice_WebApi_Data_UserPresenceStatus_Message
   name: Message
   nameWithType: UserPresenceStatus.Message
   fullName: SuperOffice.WebApi.Data.UserPresenceStatus.Message

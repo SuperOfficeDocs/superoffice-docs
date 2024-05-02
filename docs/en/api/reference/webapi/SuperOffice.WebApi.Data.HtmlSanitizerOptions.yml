@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+  commentId: T:SuperOffice.WebApi.Data.HtmlSanitizerOptions
+  id: HtmlSanitizerOptions
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
+  - SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
+  langs:
+  - csharp
+  - vb
+  name: HtmlSanitizerOptions
+  nameWithType: HtmlSanitizerOptions
+  fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    HTML sanitizer options
+
+    This Enum consists of flag values that can be combined.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum HtmlSanitizerOptions
+    content.vb: >-
+      <Flags>
+
+      Public Enum HtmlSanitizerOptions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
+  commentId: F:SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
+  id: Default
+  parent: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: HtmlSanitizerOptions.Default
+  fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions.Default
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Default - the default settings'
+  example: []
+  syntax:
+    content: Default = 0
+    return:
+      type: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+- uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
+  commentId: F:SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
+  id: RemoveComment
+  parent: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+  langs:
+  - csharp
+  - vb
+  name: RemoveComment
+  nameWithType: HtmlSanitizerOptions.RemoveComment
+  fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions.RemoveComment
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: RemoveComment - removes HTML comment tags and content between them'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      RemoveComment = 1
+    return:
+      type: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+    content.vb: >-
+      <EnumMember>
+
+      RemoveComment = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.HtmlSanitizerOptions
+  commentId: T:SuperOffice.WebApi.Data.HtmlSanitizerOptions
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.HtmlSanitizerOptions.html
+  name: HtmlSanitizerOptions
+  nameWithType: HtmlSanitizerOptions
+  fullName: SuperOffice.WebApi.Data.HtmlSanitizerOptions

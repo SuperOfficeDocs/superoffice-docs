@@ -15,64 +15,24 @@ items:
   - SuperOffice.WebApi.Data.MailboxType.Pops
   - SuperOffice.WebApi.Data.MailboxType.SmsPlugin
   - SuperOffice.WebApi.Data.MailboxType.Unknown
-  - SuperOffice.WebApi.Data.MailboxType.value__
   langs:
   - csharp
   - vb
   name: MailboxType
   nameWithType: MailboxType
   fullName: SuperOffice.WebApi.Data.MailboxType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nService mailbox type\nThis Enum is used by:  mail_in_filter.server_type\n"
-  syntax:
-    content: 'public sealed class MailboxType : Enum'
-    content.vb: >-
-      Public NotInheritable Class MailboxType
-          Inherits
+  summary: >-
+    Service mailbox type
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.MailboxType.value__
-  commentId: F:SuperOffice.WebApi.Data.MailboxType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.MailboxType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: MailboxType.value__
-  fullName: SuperOffice.WebApi.Data.MailboxType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  mail_in_filter.server_type
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: 'public enum MailboxType : short'
+    content.vb: Public Enum MailboxType As Short
 - uid: SuperOffice.WebApi.Data.MailboxType.Unknown
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Unknown
   id: Unknown
@@ -84,24 +44,26 @@ items:
   nameWithType: MailboxType.Unknown
   fullName: SuperOffice.WebApi.Data.MailboxType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown\n"
+  summary: '0: Unknown'
+  example: []
   syntax:
-    content: public const MailboxType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Unknown As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.Pop
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Pop
   id: Pop
@@ -113,24 +75,26 @@ items:
   nameWithType: MailboxType.Pop
   fullName: SuperOffice.WebApi.Data.MailboxType.Pop
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Pop\n"
+  summary: '1: Pop'
+  example: []
   syntax:
-    content: public const MailboxType Pop
+    content: >-
+      [EnumMember]
+
+      Pop = 1
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Pop As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Pop = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.Imap
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Imap
   id: Imap
@@ -142,24 +106,26 @@ items:
   nameWithType: MailboxType.Imap
   fullName: SuperOffice.WebApi.Data.MailboxType.Imap
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Imap - without OAuth support. Use ImapOAuth instead if OAuth is needed\n"
+  summary: '2: Imap - without OAuth support. Use ImapOAuth instead if OAuth is needed'
+  example: []
   syntax:
-    content: public const MailboxType Imap
+    content: >-
+      [EnumMember]
+
+      Imap = 2
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Imap As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Imap = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.Mapi
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Mapi
   id: Mapi
@@ -171,24 +137,26 @@ items:
   nameWithType: MailboxType.Mapi
   fullName: SuperOffice.WebApi.Data.MailboxType.Mapi
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Mapi - Obsolete\n"
+  summary: '3: Mapi - Obsolete'
+  example: []
   syntax:
-    content: public const MailboxType Mapi
+    content: >-
+      [EnumMember]
+
+      Mapi = 3
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Mapi As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Mapi = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.Facebook
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Facebook
   id: Facebook
@@ -200,24 +168,26 @@ items:
   nameWithType: MailboxType.Facebook
   fullName: SuperOffice.WebApi.Data.MailboxType.Facebook
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: TypeFacebook\n"
+  summary: '4: TypeFacebook'
+  example: []
   syntax:
-    content: public const MailboxType Facebook
+    content: >-
+      [EnumMember]
+
+      Facebook = 4
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Facebook As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Facebook = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.Pops
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Pops
   id: Pops
@@ -229,24 +199,26 @@ items:
   nameWithType: MailboxType.Pops
   fullName: SuperOffice.WebApi.Data.MailboxType.Pops
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Pop SSL\n"
+  summary: '5: Pop SSL'
+  example: []
   syntax:
-    content: public const MailboxType Pops
+    content: >-
+      [EnumMember]
+
+      Pops = 5
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Pops As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Pops = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.Imaps
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Imaps
   id: Imaps
@@ -258,24 +230,26 @@ items:
   nameWithType: MailboxType.Imaps
   fullName: SuperOffice.WebApi.Data.MailboxType.Imaps
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Imap SSL\n"
+  summary: '6: Imap SSL'
+  example: []
   syntax:
-    content: public const MailboxType Imaps
+    content: >-
+      [EnumMember]
+
+      Imaps = 6
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Imaps As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Imaps = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.SmsPlugin
   commentId: F:SuperOffice.WebApi.Data.MailboxType.SmsPlugin
   id: SmsPlugin
@@ -287,24 +261,26 @@ items:
   nameWithType: MailboxType.SmsPlugin
   fullName: SuperOffice.WebApi.Data.MailboxType.SmsPlugin
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Incoming SMS, using a plugin\n"
+  summary: '7: Incoming SMS, using a plugin'
+  example: []
   syntax:
-    content: public const MailboxType SmsPlugin
+    content: >-
+      [EnumMember]
+
+      SmsPlugin = 7
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const SmsPlugin As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SmsPlugin = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.Mailgun
   commentId: F:SuperOffice.WebApi.Data.MailboxType.Mailgun
   id: Mailgun
@@ -316,24 +292,26 @@ items:
   nameWithType: MailboxType.Mailgun
   fullName: SuperOffice.WebApi.Data.MailboxType.Mailgun
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Used by mailboxes set up as a Mailgun route\n"
+  summary: '8: Used by mailboxes set up as a Mailgun route'
+  example: []
   syntax:
-    content: public const MailboxType Mailgun
+    content: >-
+      [EnumMember]
+
+      Mailgun = 8
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const Mailgun As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Mailgun = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.MailboxType.ImapOAuth
   commentId: F:SuperOffice.WebApi.Data.MailboxType.ImapOAuth
   id: ImapOAuth
@@ -345,55 +323,69 @@ items:
   nameWithType: MailboxType.ImapOAuth
   fullName: SuperOffice.WebApi.Data.MailboxType.ImapOAuth
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: This is a Imap mailbox using OAuth authentication\n"
+  summary: '9: This is a Imap mailbox using OAuth authentication'
+  example: []
   syntax:
-    content: public const MailboxType ImapOAuth
+    content: >-
+      [EnumMember]
+
+      ImapOAuth = 9
     return:
       type: SuperOffice.WebApi.Data.MailboxType
-    content.vb: Public Const ImapOAuth As MailboxType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ImapOAuth = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.MailboxType
   commentId: T:SuperOffice.WebApi.Data.MailboxType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.MailboxType.html
   name: MailboxType
   nameWithType: MailboxType
   fullName: SuperOffice.WebApi.Data.MailboxType

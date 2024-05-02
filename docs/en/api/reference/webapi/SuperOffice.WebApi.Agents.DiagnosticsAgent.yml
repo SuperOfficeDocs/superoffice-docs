@@ -31,21 +31,29 @@ items:
   nameWithType: DiagnosticsAgent
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nDiagnostics, usage data collection, caches and flushing\n"
+  summary: Diagnostics, usage data collection, caches and flushing
   example:
-  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (DiagnosticsAgent agent = new DiagnosticsAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  - >-
+    <pre><code class="lang-csharp">using SuperOffice.WebApi;
+
+    using SuperOffice.WebApi.Agents;
+
+
+    var mySession = new WebApiOptions("http://example.com/super/api");
+
+    mySession.Authorization = new AuthorizationUsernamePassword("user", "pass");
+
+    using (DiagnosticsAgent agent = new DiagnosticsAgent(mySession))
+
+    {
+          // call methods on agent here...
+    }</code></pre>
   syntax:
     content: 'public class DiagnosticsAgent : AgentBase, IDiagnosticsAgent, IDisposable'
-    content.vb: >-
-      Public Class DiagnosticsAgent
-          Inherits AgentBase
-          Implements IDiagnosticsAgent, IDisposable
+    content.vb: Public Class DiagnosticsAgent Inherits AgentBase Implements IDiagnosticsAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
@@ -77,12 +85,13 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
   - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor(System.Net.Http.HttpClient)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor(System.Net.Http.HttpClient)
   id: '#ctor(System.Net.Http.HttpClient)'
@@ -94,13 +103,11 @@ items:
   nameWithType: DiagnosticsAgent.DiagnosticsAgent(HttpClient)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.DiagnosticsAgent(System.Net.Http.HttpClient)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nConstructor: Diagnostics, usage data collection, caches and flushing\n"
+  summary: 'Constructor: Diagnostics, usage data collection, caches and flushing'
+  example: []
   syntax:
     content: public DiagnosticsAgent(HttpClient httpClient)
     parameters:
@@ -109,10 +116,9 @@ items:
       description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DiagnosticsAgent.New(HttpClient)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.New(System.Net.Http.HttpClient)
+  name.vb: New(HttpClient)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
@@ -124,13 +130,11 @@ items:
   nameWithType: DiagnosticsAgent.DiagnosticsAgent(WebApiOptions, HttpClient)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.DiagnosticsAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nConstructor: Diagnostics, usage data collection, caches and flushing\n"
+  summary: 'Constructor: Diagnostics, usage data collection, caches and flushing'
+  example: []
   syntax:
     content: public DiagnosticsAgent(WebApiOptions options, HttpClient httpClient = null)
     parameters:
@@ -142,10 +146,9 @@ items:
       description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DiagnosticsAgent.New(WebApiOptions, HttpClient)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.New(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  name.vb: New(WebApiOptions, HttpClient)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
   id: FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
@@ -157,29 +160,24 @@ items:
   nameWithType: DiagnosticsAgent.FlushCachesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nFlushes all NetServer caches\n"
+  summary: Flushes all NetServer caches
+  example: []
   syntax:
     content: public Task FlushCachesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Public Function FlushCachesAsync(requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
   id: GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
@@ -191,19 +189,17 @@ items:
   nameWithType: DiagnosticsAgent.GetCacheNamesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet the name of the caches that can be flushed\n"
+  summary: Get the name of the caches that can be flushed
+  example: []
   syntax:
     content: public Task<string[]> GetCacheNamesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String[]}
       description: Name of the caches that can be flusehd
@@ -211,10 +207,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheNamesAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   id: FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
@@ -222,17 +214,15 @@ items:
   langs:
   - csharp
   - vb
-  name: FlushCachesByNameAsync(String[], RequestOptions)
-  nameWithType: DiagnosticsAgent.FlushCachesByNameAsync(String[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync(System.String[], SuperOffice.WebApi.RequestOptions)
+  name: FlushCachesByNameAsync(string[], RequestOptions)
+  nameWithType: DiagnosticsAgent.FlushCachesByNameAsync(string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync(string[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nFlushes all NetServer caches named\n"
+  summary: Flushes all NetServer caches named
+  example: []
   syntax:
     content: public Task FlushCachesByNameAsync(string[] cacheNames, RequestOptions requestOptions = null)
     parameters:
@@ -241,7 +231,7 @@ items:
       description: Name of the cachnes to flush
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -250,11 +240,7 @@ items:
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: DiagnosticsAgent.FlushCachesByNameAsync(String(), RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync(System.String(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync(String(), SuperOffice.WebApi.RequestOptions)
   name.vb: FlushCachesByNameAsync(String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
@@ -263,17 +249,15 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCacheStateAsync(String[], RequestOptions)
-  nameWithType: DiagnosticsAgent.GetCacheStateAsync(String[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(System.String[], SuperOffice.WebApi.RequestOptions)
+  name: GetCacheStateAsync(string[], RequestOptions)
+  nameWithType: DiagnosticsAgent.GetCacheStateAsync(string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(string[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet the current generation value of the named caches. State is opaque.\n"
+  summary: Get the current generation value of the named caches. State is opaque.
+  example: []
   syntax:
     content: public Task<string> GetCacheStateAsync(string[] cacheNames, RequestOptions requestOptions = null)
     parameters:
@@ -282,7 +266,7 @@ items:
       description: Names of the caches to check
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Current state of the caches named. If not the same as previous value, then it is time to flush
@@ -291,11 +275,7 @@ items:
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: DiagnosticsAgent.GetCacheStateAsync(String(), RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(System.String(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync(String(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetCacheStateAsync(String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
@@ -308,19 +288,17 @@ items:
   nameWithType: DiagnosticsAgent.GetEntityCountsForCurrentUserAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet an array of entities and number of entities created for the current associate\n"
+  summary: Get an array of entities and number of entities created for the current associate
+  example: []
   syntax:
     content: public Task<EntityCounts[]> GetEntityCountsForCurrentUserAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityCounts[]}
       description: Array of EntityCounts[] for the current associate
@@ -328,10 +306,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
   id: GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
@@ -343,19 +317,17 @@ items:
   nameWithType: DiagnosticsAgent.GetEntityCountsForAllUsersAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet an array of entities and number of entities created for all associates.\n"
+  summary: Get an array of entities and number of entities created for all associates.
+  example: []
   syntax:
     content: public Task<EntityCounts[]> GetEntityCountsForAllUsersAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityCounts[]}
       description: Array of EntityCounts[] for all the users
@@ -363,10 +335,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -374,17 +342,15 @@ items:
   langs:
   - csharp
   - vb
-  name: LogViewStateAsync(String, RequestOptions)
-  nameWithType: DiagnosticsAgent.LogViewStateAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  name: LogViewStateAsync(string, RequestOptions)
+  nameWithType: DiagnosticsAgent.LogViewStateAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nLog a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.\n"
+  summary: Log a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.
+  example: []
   syntax:
     content: public Task LogViewStateAsync(string viewState, RequestOptions requestOptions = null)
     parameters:
@@ -393,17 +359,17 @@ items:
       description: Current view state to be logged
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Public Function LogViewStateAsync(viewState As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DiagnosticsAgent.LogViewStateAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: LogViewStateAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -411,17 +377,15 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
-  nameWithType: DiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name: ChangeLogSettingsAsync(bool, bool, bool, bool, bool, bool, bool, bool, RequestOptions)
+  nameWithType: DiagnosticsAgent.ChangeLogSettingsAsync(bool, bool, bool, bool, bool, bool, bool, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync(bool, bool, bool, bool, bool, bool, bool, bool, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nChange NetServer log settings.\n"
+  summary: Change NetServer log settings.
+  example: []
   syntax:
     content: public Task ChangeLogSettingsAsync(bool logWarning, bool logInformation, bool logSuccessAudit, bool logFailureAudit, bool logToEventLog, bool logToSuperOffice, bool logToFile, bool logToTrace, RequestOptions requestOptions = null)
     parameters:
@@ -451,17 +415,17 @@ items:
       description: Log to trace
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Public Function ChangeLogSettingsAsync(logWarning As Boolean, logInformation As Boolean, logSuccessAudit As Boolean, logFailureAudit As Boolean, logToEventLog As Boolean, logToSuperOffice As Boolean, logToFile As Boolean, logToTrace As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
   id: CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
@@ -473,19 +437,17 @@ items:
   nameWithType: DiagnosticsAgent.CollectDataAdditionsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCollect and transmit usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  summary: 'Collect and transmit usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
+  example: []
   syntax:
     content: public Task CollectDataAdditionsAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -493,10 +455,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectDataAdditionsAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
   id: CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
@@ -508,19 +466,17 @@ items:
   nameWithType: DiagnosticsAgent.CollectWinUsageAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCollect and transmit usage statistics: Windows CRM Client Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  summary: 'Collect and transmit usage statistics: Windows CRM Client Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
+  example: []
   syntax:
     content: public Task CollectWinUsageAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -528,10 +484,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWinUsageAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
   id: CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
@@ -543,19 +495,17 @@ items:
   nameWithType: DiagnosticsAgent.CollectWebUsageAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCollect and transmit usage statistics: Web-based clients Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  summary: 'Collect and transmit usage statistics: Web-based clients Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
+  example: []
   syntax:
     content: public Task CollectWebUsageAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -563,10 +513,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWebUsageAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
   id: CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
@@ -578,19 +524,17 @@ items:
   nameWithType: DiagnosticsAgent.CollectTableSizesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nCollect and transmit usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  summary: 'Collect and transmit usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
+  example: []
   syntax:
     content: public Task CollectTableSizesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -598,10 +542,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectTableSizesAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
   id: ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
@@ -613,19 +553,17 @@ items:
   nameWithType: DiagnosticsAgent.ResyncUsersAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nResynchronize user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
+  summary: Resynchronize user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
+  example: []
   syntax:
     content: public Task ResyncUsersAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -633,10 +571,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   id: PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
@@ -648,19 +582,17 @@ items:
   nameWithType: DiagnosticsAgent.PerformTasksAfterUpgradeAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAfter upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.\n"
+  summary: After upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.
+  example: []
   syntax:
     content: public Task<string> PerformTasksAfterUpgradeAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: Message that can be shown to the user, summarizing what has been done, if anything.
@@ -668,10 +600,6 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
   id: AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
@@ -683,13 +611,11 @@ items:
   nameWithType: DiagnosticsAgent.AddWebAppUsageAsync(WebAppUsage[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[], SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nAdds WebApp usage to existing log\n"
+  summary: Adds WebApp usage to existing log
+  example: []
   syntax:
     content: public Task AddWebAppUsageAsync(WebAppUsage[] webAppUsages, RequestOptions requestOptions = null)
     parameters:
@@ -698,18 +624,15 @@ items:
       description: Web app usage.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: Public Function AddWebAppUsageAsync(webAppUsages As WebAppUsage(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: DiagnosticsAgent.AddWebAppUsageAsync(WebAppUsage(), RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
   fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage(), SuperOffice.WebApi.RequestOptions)
   name.vb: AddWebAppUsageAsync(WebAppUsage(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,SuperOffice.WebApi.RequestOptions)
@@ -719,17 +642,15 @@ items:
   langs:
   - csharp
   - vb
-  name: WebAppUsageExistsInPeriodAsync(Int32, String, DateTime, RequestOptions)
-  nameWithType: DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(Int32, String, DateTime, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32, System.String, System.DateTime, SuperOffice.WebApi.RequestOptions)
+  name: WebAppUsageExistsInPeriodAsync(int, string, DateTime, RequestOptions)
+  nameWithType: DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(int, string, DateTime, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(int, string, System.DateTime, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nReturns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters\n"
+  summary: Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters
+  example: []
   syntax:
     content: public Task<bool> WebAppUsageExistsInPeriodAsync(int associateId, string viewState, DateTime fromDate, RequestOptions requestOptions = null)
     parameters:
@@ -744,18 +665,17 @@ items:
       description: The datetime to restrict webapp usage on
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if viewState has been clicked at least once since FromDate
-    content.vb: Public Function WebAppUsageExistsInPeriodAsync(associateId As Integer, viewState As String, fromDate As DateTime, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+    content.vb: Public Function WebAppUsageExistsInPeriodAsync(associateId As Integer, viewState As String, fromDate As Date, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(Integer, String, Date, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync(Integer, String, Date, SuperOffice.WebApi.RequestOptions)
+  name.vb: WebAppUsageExistsInPeriodAsync(Integer, String, Date, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
@@ -763,58 +683,94 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWebAppUsagesForPeriodAsync(DateTime, DateTime, String, RequestOptions)
-  nameWithType: DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(DateTime, DateTime, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime, System.DateTime, System.String, SuperOffice.WebApi.RequestOptions)
+  name: GetWebAppUsagesForPeriodAsync(DateTime, DateTime, string, RequestOptions)
+  nameWithType: DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(DateTime, DateTime, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime, System.DateTime, string, SuperOffice.WebApi.RequestOptions)
   type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: "\nGet all WebAppUsages for a given period, that match an optional search term\n"
+  summary: Get all WebAppUsages for a given period, that match an optional search term
+  example: []
   syntax:
     content: public Task<WebAppUsage[]> GetWebAppUsagesForPeriodAsync(DateTime fromDate, DateTime toDate, string searchTerm, RequestOptions requestOptions = null)
     parameters:
     - id: fromDate
       type: System.DateTime
+      description: ''
     - id: toDate
       type: System.DateTime
+      description: ''
     - id: searchTerm
       type: System.String
-      description: ViewState search term. &apos;%&apos; is the wildcard character, for example &apos;Pocket%&apos; will match all viewstates starting with &apos;Pocket&apos;. If empty, all viewstates will be matched
+      description: ViewState search term. '%' is the wildcard character, for example 'Pocket%' will match all viewstates starting with 'Pocket'. If empty, all viewstates will be matched
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
+      description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebAppUsage[]}
-    content.vb: Public Function GetWebAppUsagesForPeriodAsync(fromDate As DateTime, toDate As DateTime, searchTerm As String, requestOptions As RequestOptions = Nothing) As Task(Of WebAppUsage())
+      description: ''
+    content.vb: Public Function GetWebAppUsagesForPeriodAsync(fromDate As Date, toDate As Date, searchTerm As String, requestOptions As RequestOptions = Nothing) As Task(Of WebAppUsage())
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(Date, Date, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(Date, Date, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetWebAppUsagesForPeriodAsync(Date, Date, String, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Agents.AgentBase
   commentId: T:SuperOffice.WebApi.Agents.AgentBase
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
@@ -822,11 +778,15 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IDiagnosticsAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html
   name: IDiagnosticsAgent
   nameWithType: IDiagnosticsAgent
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent
 - uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -834,6 +794,7 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__json
   name: _json
   nameWithType: AgentBase._json
   fullName: SuperOffice.WebApi.Agents.AgentBase._json
@@ -841,6 +802,7 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__binary
   name: _binary
   nameWithType: AgentBase._binary
   fullName: SuperOffice.WebApi.Agents.AgentBase._binary
@@ -848,6 +810,7 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__config
   name: _config
   nameWithType: AgentBase._config
   fullName: SuperOffice.WebApi.Agents.AgentBase._config
@@ -855,6 +818,7 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__client
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
@@ -862,6 +826,7 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__disposeClient
   name: _disposeClient
   nameWithType: AgentBase._disposeClient
   fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
@@ -869,790 +834,600 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
   name: Merge(RequestOptions)
   nameWithType: AgentBase.Merge(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
     name: Merge
-    nameWithType: AgentBase.Merge
-    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
     name: Merge
-    nameWithType: AgentBase.Merge
-    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
-  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: BuildRequestFromObject(HttpMethod, string, object, WebApiOptions, string)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, string, object, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, string, object, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, String, Object, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObject
-    nameWithType: AgentBase.BuildRequestFromObject
-    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObject
-    nameWithType: AgentBase.BuildRequestFromObject
-    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
-  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: BuildRequestFromStream(HttpMethod, string, Stream, WebApiOptions, string)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, string, Stream, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, string, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromStream
-    nameWithType: AgentBase.BuildRequestFromStream
-    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromStream
-    nameWithType: AgentBase.BuildRequestFromStream
-    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
-  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: BuildRequestFromObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, string, object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, String, Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObjectWithStream
-    nameWithType: AgentBase.BuildRequestFromObjectWithStream
-    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObjectWithStream
-    nameWithType: AgentBase.BuildRequestFromObjectWithStream
-    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
   name: ParseAuthorization(IAuthorization)
   nameWithType: AgentBase.ParseAuthorization(IAuthorization)
   fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
-    nameWithType: AgentBase.ParseAuthorization
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
-    nameWithType: IAuthorization
-    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
   name: CancelRequest()
   nameWithType: AgentBase.CancelRequest()
   fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     name: CancelRequest
-    nameWithType: AgentBase.CancelRequest
-    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     name: CancelRequest
-    nameWithType: AgentBase.CancelRequest
-    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
-  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: SendRequestObject(HttpMethod, string, object, WebApiOptions, string)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, string, object, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, string, object, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, String, Object, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObject
-    nameWithType: AgentBase.SendRequestObject
-    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObject
-    nameWithType: AgentBase.SendRequestObject
-    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
-  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
+  name: SendRequestObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, string, object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
+  nameWithType.vb: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, String, Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
+  name.vb: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObjectWithStream
-    nameWithType: AgentBase.SendRequestObjectWithStream
-    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObjectWithStream
-    nameWithType: AgentBase.SendRequestObjectWithStream
-    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
-    nameWithType: HttpMethod
-    fullName: System.Net.Http.HttpMethod
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.IO.Stream
     name: Stream
-    nameWithType: Stream
-    fullName: System.IO.Stream
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
-    nameWithType: WebApiOptions
-    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.WebApiOptions.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
   name: SendRequest(HttpRequestMessage, RequestOptions)
   nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
-    nameWithType: AgentBase.SendRequest
-    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
-    nameWithType: HttpRequestMessage
-    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
-    nameWithType: AgentBase.SendRequest
-    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
-    nameWithType: HttpRequestMessage
-    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseError_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
   name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
   nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
   fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
     name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseError_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
-    nameWithType: HttpRequestMessage
-    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
-    nameWithType: HttpResponseMessage
-    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
     name: ThrowOnResponseError
-    nameWithType: AgentBase.ThrowOnResponseError
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseError_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
-    nameWithType: HttpRequestMessage
-    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
+  - name: ','
+  - name: " "
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
-    nameWithType: HttpResponseMessage
-    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
   name: ParseResponse<T>(HttpResponseMessage)
   nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
   fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
@@ -1661,114 +1436,91 @@ references:
   name.vb: ParseResponse(Of T)(HttpResponseMessage)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
-    name: ParseResponse<T>
-    nameWithType: AgentBase.ParseResponse<T>
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    name: ParseResponse
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
+  - name: <
+  - name: T
+  - name: '>'
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
-    nameWithType: HttpResponseMessage
-    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
-    name: ParseResponse(Of T)
-    nameWithType: AgentBase.ParseResponse(Of T)
-    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    name: ParseResponse
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
-    nameWithType: HttpResponseMessage
-    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
   name: Finally(RequestOptions)
   nameWithType: AgentBase.Finally(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
     name: Finally
-    nameWithType: AgentBase.Finally
-    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
     name: Finally
-    nameWithType: AgentBase.Finally
-    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
   name: Dispose()
   nameWithType: AgentBase.Dispose()
   fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
     name: Dispose
-    nameWithType: AgentBase.Dispose
-    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
     name: Dispose
-    nameWithType: AgentBase.Dispose
-    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
     isExternal: true
+    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Configuration
   name: Configuration
   nameWithType: AgentBase.Configuration
   fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
@@ -1776,6 +1528,7 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Client
   name: Client
   nameWithType: AgentBase.Client
   fullName: SuperOffice.WebApi.Agents.AgentBase.Client
@@ -1783,6 +1536,7 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_HasRunningRequest
   name: HasRunningRequest
   nameWithType: AgentBase.HasRunningRequest
   fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
@@ -1790,6 +1544,7 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ClientCancellationTokenSource
   name: ClientCancellationTokenSource
   nameWithType: AgentBase.ClientCancellationTokenSource
   fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
@@ -1797,6 +1552,7 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ProgressListener
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
@@ -1804,42 +1560,330 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
+  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_UploadProgressListener
   name: UploadProgressListener
   nameWithType: AgentBase.UploadProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent__ctor_System_Net_Http_HttpClient_
   name: DiagnosticsAgent
   nameWithType: DiagnosticsAgent.DiagnosticsAgent
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.DiagnosticsAgent
+  nameWithType.vb: DiagnosticsAgent.New
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.New
+  name.vb: New
 - uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
   name: HttpClient
   nameWithType: HttpClient
   fullName: System.Net.Http.HttpClient
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
 - uid: SuperOffice.WebApi.WebApiOptions
   commentId: T:SuperOffice.WebApi.WebApiOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.WebApiOptions.html
   name: WebApiOptions
   nameWithType: WebApiOptions
   fullName: SuperOffice.WebApi.WebApiOptions
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_FlushCachesAsync_SuperOffice_WebApi_RequestOptions_
   name: FlushCachesAsync
   nameWithType: DiagnosticsAgent.FlushCachesAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesAsync
@@ -1847,58 +1891,89 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_FlushCachesAsync_SuperOffice_WebApi_RequestOptions_
   name: FlushCachesAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.FlushCachesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
     name: FlushCachesAsync
-    nameWithType: IDiagnosticsAgent.FlushCachesAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_FlushCachesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
     name: FlushCachesAsync
-    nameWithType: IDiagnosticsAgent.FlushCachesAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_FlushCachesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheNamesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheNamesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_GetCacheNamesAsync_SuperOffice_WebApi_RequestOptions_
   name: GetCacheNamesAsync
   nameWithType: DiagnosticsAgent.GetCacheNamesAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheNamesAsync
@@ -1906,133 +1981,103 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetCacheNamesAsync_SuperOffice_WebApi_RequestOptions_
   name: GetCacheNamesAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.GetCacheNamesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
     name: GetCacheNamesAsync
-    nameWithType: IDiagnosticsAgent.GetCacheNamesAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetCacheNamesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
     name: GetCacheNamesAsync
-    nameWithType: IDiagnosticsAgent.GetCacheNamesAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetCacheNamesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Threading.Tasks.Task{System.String[]}
-  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  commentId: T:System.Threading.Tasks.Task{System.String[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String[]>
-  nameWithType: Task<String[]>
-  fullName: System.Threading.Tasks.Task<System.String[]>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string[]>
+  nameWithType: Task<string[]>
+  fullName: System.Threading.Tasks.Task<string[]>
   nameWithType.vb: Task(Of String())
-  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  fullName.vb: System.Threading.Tasks.Task(Of String())
   name.vb: Task(Of String())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  name: Task<>
-  nameWithType: Task<>
-  fullName: System.Threading.Tasks.Task<>
-  nameWithType.vb: Task(Of )
-  fullName.vb: System.Threading.Tasks.Task(Of )
-  name.vb: Task(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TResult
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_FlushCachesByNameAsync_System_String___SuperOffice_WebApi_RequestOptions_
   name: FlushCachesByNameAsync
   nameWithType: DiagnosticsAgent.FlushCachesByNameAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.FlushCachesByNameAsync
@@ -2040,97 +2085,78 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
-  name: FlushCachesByNameAsync(String[], RequestOptions)
-  nameWithType: IDiagnosticsAgent.FlushCachesByNameAsync(String[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[], SuperOffice.WebApi.RequestOptions)
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_FlushCachesByNameAsync_System_String___SuperOffice_WebApi_RequestOptions_
+  name: FlushCachesByNameAsync(string[], RequestOptions)
+  nameWithType: IDiagnosticsAgent.FlushCachesByNameAsync(string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(string[], SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: IDiagnosticsAgent.FlushCachesByNameAsync(String(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(System.String(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(String(), SuperOffice.WebApi.RequestOptions)
   name.vb: FlushCachesByNameAsync(String(), RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
     name: FlushCachesByNameAsync
-    nameWithType: IDiagnosticsAgent.FlushCachesByNameAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_FlushCachesByNameAsync_System_String___SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
     name: FlushCachesByNameAsync
-    nameWithType: IDiagnosticsAgent.FlushCachesByNameAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_FlushCachesByNameAsync_System_String___SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String[]
   isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
   nameWithType.vb: String()
-  fullName.vb: System.String()
+  fullName.vb: String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_GetCacheStateAsync_System_String___SuperOffice_WebApi_RequestOptions_
   name: GetCacheStateAsync
   nameWithType: DiagnosticsAgent.GetCacheStateAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetCacheStateAsync
@@ -2138,114 +2164,90 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
-  name: GetCacheStateAsync(String[], RequestOptions)
-  nameWithType: IDiagnosticsAgent.GetCacheStateAsync(String[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String[], SuperOffice.WebApi.RequestOptions)
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetCacheStateAsync_System_String___SuperOffice_WebApi_RequestOptions_
+  name: GetCacheStateAsync(string[], RequestOptions)
+  nameWithType: IDiagnosticsAgent.GetCacheStateAsync(string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(string[], SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: IDiagnosticsAgent.GetCacheStateAsync(String(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(String(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetCacheStateAsync(String(), RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
     name: GetCacheStateAsync
-    nameWithType: IDiagnosticsAgent.GetCacheStateAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetCacheStateAsync_System_String___SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
     name: GetCacheStateAsync
-    nameWithType: IDiagnosticsAgent.GetCacheStateAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetCacheStateAsync_System_String___SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_GetEntityCountsForCurrentUserAsync_SuperOffice_WebApi_RequestOptions_
   name: GetEntityCountsForCurrentUserAsync
   nameWithType: DiagnosticsAgent.GetEntityCountsForCurrentUserAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForCurrentUserAsync
@@ -2253,46 +2255,37 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetEntityCountsForCurrentUserAsync_SuperOffice_WebApi_RequestOptions_
   name: GetEntityCountsForCurrentUserAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
     name: GetEntityCountsForCurrentUserAsync
-    nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetEntityCountsForCurrentUserAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
     name: GetEntityCountsForCurrentUserAsync
-    nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetEntityCountsForCurrentUserAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityCounts[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityCounts[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EntityCounts[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<EntityCounts[]>
   nameWithType: Task<EntityCounts[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.EntityCounts[]>
@@ -2302,46 +2295,35 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.EntityCounts
     name: EntityCounts
-    nameWithType: EntityCounts
-    fullName: SuperOffice.WebApi.Data.EntityCounts
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.EntityCounts.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.EntityCounts
     name: EntityCounts
-    nameWithType: EntityCounts
-    fullName: SuperOffice.WebApi.Data.EntityCounts
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.EntityCounts.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_GetEntityCountsForAllUsersAsync_SuperOffice_WebApi_RequestOptions_
   name: GetEntityCountsForAllUsersAsync
   nameWithType: DiagnosticsAgent.GetEntityCountsForAllUsersAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetEntityCountsForAllUsersAsync
@@ -2349,46 +2331,36 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetEntityCountsForAllUsersAsync_SuperOffice_WebApi_RequestOptions_
   name: GetEntityCountsForAllUsersAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
     name: GetEntityCountsForAllUsersAsync
-    nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsersAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetEntityCountsForAllUsersAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
     name: GetEntityCountsForAllUsersAsync
-    nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsersAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetEntityCountsForAllUsersAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_LogViewStateAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: LogViewStateAsync
   nameWithType: DiagnosticsAgent.LogViewStateAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync
@@ -2396,69 +2368,62 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
-  name: LogViewStateAsync(String, RequestOptions)
-  nameWithType: IDiagnosticsAgent.LogViewStateAsync(String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_LogViewStateAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: LogViewStateAsync(string, RequestOptions)
+  nameWithType: IDiagnosticsAgent.LogViewStateAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync(string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.LogViewStateAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: LogViewStateAsync(String, RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
     name: LogViewStateAsync
-    nameWithType: IDiagnosticsAgent.LogViewStateAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_LogViewStateAsync_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
     name: LogViewStateAsync
-    nameWithType: IDiagnosticsAgent.LogViewStateAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.LogViewStateAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_LogViewStateAsync_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_ChangeLogSettingsAsync_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: ChangeLogSettingsAsync
   nameWithType: DiagnosticsAgent.ChangeLogSettingsAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.ChangeLogSettingsAsync
@@ -2466,181 +2431,146 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
-  name: ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
-  nameWithType: IDiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_ChangeLogSettingsAsync_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: ChangeLogSettingsAsync(bool, bool, bool, bool, bool, bool, bool, bool, RequestOptions)
+  nameWithType: IDiagnosticsAgent.ChangeLogSettingsAsync(bool, bool, bool, bool, bool, bool, bool, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync(bool, bool, bool, bool, bool, bool, bool, bool, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
     name: ChangeLogSettingsAsync
-    nameWithType: IDiagnosticsAgent.ChangeLogSettingsAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_ChangeLogSettingsAsync_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
     name: ChangeLogSettingsAsync
-    nameWithType: IDiagnosticsAgent.ChangeLogSettingsAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ChangeLogSettingsAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_ChangeLogSettingsAsync_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectDataAdditionsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectDataAdditionsAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_CollectDataAdditionsAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectDataAdditionsAsync
   nameWithType: DiagnosticsAgent.CollectDataAdditionsAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectDataAdditionsAsync
@@ -2648,46 +2578,36 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectDataAdditionsAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectDataAdditionsAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.CollectDataAdditionsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectDataAdditionsAsync
-    nameWithType: IDiagnosticsAgent.CollectDataAdditionsAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectDataAdditionsAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectDataAdditionsAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectDataAdditionsAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectDataAdditionsAsync
-    nameWithType: IDiagnosticsAgent.CollectDataAdditionsAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectDataAdditionsAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectDataAdditionsAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWinUsageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWinUsageAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_CollectWinUsageAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectWinUsageAsync
   nameWithType: DiagnosticsAgent.CollectWinUsageAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWinUsageAsync
@@ -2695,46 +2615,36 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectWinUsageAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectWinUsageAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.CollectWinUsageAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectWinUsageAsync
-    nameWithType: IDiagnosticsAgent.CollectWinUsageAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectWinUsageAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectWinUsageAsync
-    nameWithType: IDiagnosticsAgent.CollectWinUsageAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectWinUsageAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWebUsageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWebUsageAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_CollectWebUsageAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectWebUsageAsync
   nameWithType: DiagnosticsAgent.CollectWebUsageAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectWebUsageAsync
@@ -2742,46 +2652,36 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectWebUsageAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectWebUsageAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.CollectWebUsageAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectWebUsageAsync
-    nameWithType: IDiagnosticsAgent.CollectWebUsageAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWebUsageAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectWebUsageAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWebUsageAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectWebUsageAsync
-    nameWithType: IDiagnosticsAgent.CollectWebUsageAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWebUsageAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectWebUsageAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectTableSizesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectTableSizesAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_CollectTableSizesAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectTableSizesAsync
   nameWithType: DiagnosticsAgent.CollectTableSizesAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.CollectTableSizesAsync
@@ -2789,46 +2689,36 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectTableSizesAsync_SuperOffice_WebApi_RequestOptions_
   name: CollectTableSizesAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.CollectTableSizesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectTableSizesAsync
-    nameWithType: IDiagnosticsAgent.CollectTableSizesAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectTableSizesAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectTableSizesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectTableSizesAsync(SuperOffice.WebApi.RequestOptions)
     name: CollectTableSizesAsync
-    nameWithType: IDiagnosticsAgent.CollectTableSizesAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectTableSizesAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_CollectTableSizesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_ResyncUsersAsync_SuperOffice_WebApi_RequestOptions_
   name: ResyncUsersAsync
   nameWithType: DiagnosticsAgent.ResyncUsersAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.ResyncUsersAsync
@@ -2836,46 +2726,36 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_ResyncUsersAsync_SuperOffice_WebApi_RequestOptions_
   name: ResyncUsersAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.ResyncUsersAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
     name: ResyncUsersAsync
-    nameWithType: IDiagnosticsAgent.ResyncUsersAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_ResyncUsersAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync(SuperOffice.WebApi.RequestOptions)
     name: ResyncUsersAsync
-    nameWithType: IDiagnosticsAgent.ResyncUsersAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.ResyncUsersAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_ResyncUsersAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_PerformTasksAfterUpgradeAsync_SuperOffice_WebApi_RequestOptions_
   name: PerformTasksAfterUpgradeAsync
   nameWithType: DiagnosticsAgent.PerformTasksAfterUpgradeAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync
@@ -2883,46 +2763,36 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_PerformTasksAfterUpgradeAsync_SuperOffice_WebApi_RequestOptions_
   name: PerformTasksAfterUpgradeAsync(RequestOptions)
   nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
     name: PerformTasksAfterUpgradeAsync
-    nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_PerformTasksAfterUpgradeAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
     name: PerformTasksAfterUpgradeAsync
-    nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_PerformTasksAfterUpgradeAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_AddWebAppUsageAsync_SuperOffice_WebApi_Data_WebAppUsage___SuperOffice_WebApi_RequestOptions_
   name: AddWebAppUsageAsync
   nameWithType: DiagnosticsAgent.AddWebAppUsageAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync
@@ -2930,6 +2800,7 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_AddWebAppUsageAsync_SuperOffice_WebApi_Data_WebAppUsage___SuperOffice_WebApi_RequestOptions_
   name: AddWebAppUsageAsync(WebAppUsage[], RequestOptions)
   nameWithType: IDiagnosticsAgent.AddWebAppUsageAsync(WebAppUsage[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[], SuperOffice.WebApi.RequestOptions)
@@ -2939,61 +2810,44 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
     name: AddWebAppUsageAsync
-    nameWithType: IDiagnosticsAgent.AddWebAppUsageAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.AddWebAppUsageAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_AddWebAppUsageAsync_SuperOffice_WebApi_Data_WebAppUsage___SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.Data.WebAppUsage
     name: WebAppUsage
-    nameWithType: WebAppUsage
-    fullName: SuperOffice.WebApi.Data.WebAppUsage
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.Data.WebAppUsage.html
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
     name: AddWebAppUsageAsync
-    nameWithType: IDiagnosticsAgent.AddWebAppUsageAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.AddWebAppUsageAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_AddWebAppUsageAsync_SuperOffice_WebApi_Data_WebAppUsage___SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.WebApi.Data.WebAppUsage
     name: WebAppUsage
-    nameWithType: WebAppUsage
-    fullName: SuperOffice.WebApi.Data.WebAppUsage
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: SuperOffice.WebApi.Data.WebAppUsage.html
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.WebAppUsage[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.WebAppUsage.html
   name: WebAppUsage[]
   nameWithType: WebAppUsage[]
   fullName: SuperOffice.WebApi.Data.WebAppUsage[]
@@ -3003,24 +2857,21 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.WebAppUsage
     name: WebAppUsage
-    nameWithType: WebAppUsage
-    fullName: SuperOffice.WebApi.Data.WebAppUsage
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.WebAppUsage.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.WebAppUsage
     name: WebAppUsage
-    nameWithType: WebAppUsage
-    fullName: SuperOffice.WebApi.Data.WebAppUsage
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.WebAppUsage.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_WebAppUsageExistsInPeriodAsync_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_RequestOptions_
   name: WebAppUsageExistsInPeriodAsync
   nameWithType: DiagnosticsAgent.WebAppUsageExistsInPeriodAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.WebAppUsageExistsInPeriodAsync
@@ -3028,149 +2879,132 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
-  name: WebAppUsageExistsInPeriodAsync(Int32, String, DateTime, RequestOptions)
-  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(Int32, String, DateTime, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32, System.String, System.DateTime, SuperOffice.WebApi.RequestOptions)
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_WebAppUsageExistsInPeriodAsync_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_RequestOptions_
+  name: WebAppUsageExistsInPeriodAsync(int, string, DateTime, RequestOptions)
+  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(int, string, DateTime, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(int, string, System.DateTime, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(Integer, String, Date, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(Integer, String, Date, SuperOffice.WebApi.RequestOptions)
+  name.vb: WebAppUsageExistsInPeriodAsync(Integer, String, Date, RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,SuperOffice.WebApi.RequestOptions)
     name: WebAppUsageExistsInPeriodAsync
-    nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_WebAppUsageExistsInPeriodAsync_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.DateTime
     name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,SuperOffice.WebApi.RequestOptions)
     name: WebAppUsageExistsInPeriodAsync
-    nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_WebAppUsageExistsInPeriodAsync_System_Int32_System_String_System_DateTime_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
+    name: Date
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync
   isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_GetWebAppUsagesForPeriodAsync_System_DateTime_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetWebAppUsagesForPeriodAsync
   nameWithType: DiagnosticsAgent.GetWebAppUsagesForPeriodAsync
   fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync
@@ -3178,94 +3012,76 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
   isExternal: true
-  name: GetWebAppUsagesForPeriodAsync(DateTime, DateTime, String, RequestOptions)
-  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(DateTime, DateTime, String, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime, System.DateTime, System.String, SuperOffice.WebApi.RequestOptions)
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetWebAppUsagesForPeriodAsync_System_DateTime_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetWebAppUsagesForPeriodAsync(DateTime, DateTime, string, RequestOptions)
+  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(DateTime, DateTime, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime, System.DateTime, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(Date, Date, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(Date, Date, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetWebAppUsagesForPeriodAsync(Date, Date, String, RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
     name: GetWebAppUsagesForPeriodAsync
-    nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetWebAppUsagesForPeriodAsync_System_DateTime_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.DateTime
     name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
   - uid: System.DateTime
     name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
     name: GetWebAppUsagesForPeriodAsync
-    nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync
-    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetWebAppUsagesForPeriodAsync
     isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_GetWebAppUsagesForPeriodAsync_System_DateTime_System_DateTime_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
+    name: Date
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
   - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
+    name: Date
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
-    nameWithType: RequestOptions
-    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebAppUsage[]}
-  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebAppUsage[]}'
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.WebAppUsage[]}
+  parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<WebAppUsage[]>
   nameWithType: Task<WebAppUsage[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.WebAppUsage[]>
@@ -3275,40 +3091,28 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.WebAppUsage
     name: WebAppUsage
-    nameWithType: WebAppUsage
-    fullName: SuperOffice.WebApi.Data.WebAppUsage
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.WebAppUsage.html
+  - name: '['
+  - name: ']'
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
-    nameWithType: Task
-    fullName: System.Threading.Tasks.Task
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: SuperOffice.WebApi.Data.WebAppUsage
     name: WebAppUsage
-    nameWithType: WebAppUsage
-    fullName: SuperOffice.WebApi.Data.WebAppUsage
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.WebAppUsage.html
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )

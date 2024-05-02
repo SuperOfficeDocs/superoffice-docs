@@ -28,18 +28,17 @@ items:
   nameWithType: StatusMonitor
   fullName: SuperOffice.WebApi.Data.StatusMonitor
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for StatusMonitor.\nDefinition of all properties for a status monitor    \n"
+  summary: >-
+    Carrier object for StatusMonitor.
+
+    Definition of all properties for a status monitor
+  example: []
   syntax:
     content: 'public class StatusMonitor : Carrier'
-    content.vb: >-
-      Public Class StatusMonitor
-          Inherits Carrier
+    content.vb: Public Class StatusMonitor Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.SaintAgent
     commentId: T:SuperOffice.WebApi.Agents.SaintAgent
@@ -49,12 +48,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.StatusMonitor.#ctor
   commentId: M:SuperOffice.WebApi.Data.StatusMonitor.#ctor
   id: '#ctor'
@@ -66,21 +66,18 @@ items:
   nameWithType: StatusMonitor.StatusMonitor()
   fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitor()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public StatusMonitor()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.StatusMonitor.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: StatusMonitor.New()
+  fullName.vb: SuperOffice.WebApi.Data.StatusMonitor.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
   id: OwnerTable
@@ -92,13 +89,11 @@ items:
   nameWithType: StatusMonitor.OwnerTable
   fullName: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nId of table that owns the status monitor\n"
+  summary: Id of table that owns the status monitor
+  example: []
   syntax:
     content: public virtual int OwnerTable { get; set; }
     parameters: []
@@ -106,14 +101,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property OwnerTable As Integer
   overload: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Rank
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Rank
   id: Rank
@@ -125,13 +112,11 @@ items:
   nameWithType: StatusMonitor.Rank
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Rank
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPriority rank, in case more than one status is signalled. Lowest wins\n"
+  summary: Priority rank, in case more than one status is signalled. Lowest wins
+  example: []
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -139,14 +124,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.StatusMonitor.Rank*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
   id: DefaultTask
@@ -158,13 +135,11 @@ items:
   nameWithType: StatusMonitor.DefaultTask
   fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n&quot;Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables&quot;\n"
+  summary: "\"Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables\""
+  example: []
   syntax:
     content: public virtual int DefaultTask { get; set; }
     parameters: []
@@ -172,14 +147,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DefaultTask As Integer
   overload: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
   id: DefaultTaskText
@@ -191,13 +158,11 @@ items:
   nameWithType: StatusMonitor.DefaultTaskText
   fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault task text for this status\n"
+  summary: Default task text for this status
+  example: []
   syntax:
     content: public virtual string DefaultTaskText { get; set; }
     parameters: []
@@ -205,14 +170,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DefaultTaskText As String
   overload: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.IsVisual
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.IsVisual
   id: IsVisual
@@ -224,13 +181,11 @@ items:
   nameWithType: StatusMonitor.IsVisual
   fullName: SuperOffice.WebApi.Data.StatusMonitor.IsVisual
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nShould the status be visualized (active) in the client\n"
+  summary: Should the status be visualized (active) in the client
+  example: []
   syntax:
     content: public virtual bool IsVisual { get; set; }
     parameters: []
@@ -238,14 +193,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsVisual As Boolean
   overload: SuperOffice.WebApi.Data.StatusMonitor.IsVisual*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
   id: LastGenerated
@@ -257,28 +204,18 @@ items:
   nameWithType: StatusMonitor.LastGenerated
   fullName: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen was this status last generated (i.e., statusValue rows created)\n"
+  summary: When was this status last generated (i.e., statusValue rows created)
+  example: []
   syntax:
     content: public virtual DateTime LastGenerated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastGenerated As DateTime
+    content.vb: Public Overridable Property LastGenerated As Date
   overload: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Description
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Description
   id: Description
@@ -290,13 +227,11 @@ items:
   nameWithType: StatusMonitor.Description
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Description
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDescription of the status monitor\n"
+  summary: Description of the status monitor
+  example: []
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -304,14 +239,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.StatusMonitor.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Name
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Name
   id: Name
@@ -323,13 +250,11 @@ items:
   nameWithType: StatusMonitor.Name
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nName of status monitor\n"
+  summary: Name of status monitor
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -337,14 +262,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.StatusMonitor.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
   id: StatusMonitorId
@@ -356,13 +273,11 @@ items:
   nameWithType: StatusMonitor.StatusMonitorId
   fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int StatusMonitorId { get; set; }
     parameters: []
@@ -370,14 +285,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property StatusMonitorId As Integer
   overload: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.PictureId
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.PictureId
   id: PictureId
@@ -389,13 +296,11 @@ items:
   nameWithType: StatusMonitor.PictureId
   fullName: SuperOffice.WebApi.Data.StatusMonitor.PictureId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nId of BinaryObject row that contains image for status monitor\n"
+  summary: Id of BinaryObject row that contains image for status monitor
+  example: []
   syntax:
     content: public virtual int PictureId { get; set; }
     parameters: []
@@ -403,14 +308,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PictureId As Integer
   overload: SuperOffice.WebApi.Data.StatusMonitor.PictureId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
   id: NeedsUpdate
@@ -422,13 +319,11 @@ items:
   nameWithType: StatusMonitor.NeedsUpdate
   fullName: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIs the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue\n"
+  summary: Is the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue
+  example: []
   syntax:
     content: public virtual bool NeedsUpdate { get; set; }
     parameters: []
@@ -436,14 +331,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property NeedsUpdate As Boolean
   overload: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Deleted
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.Deleted
   id: Deleted
@@ -455,13 +342,11 @@ items:
   nameWithType: StatusMonitor.Deleted
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Deleted
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDeleted flag, 1 if this record is deleted (never from the database)\n"
+  summary: Deleted flag, 1 if this record is deleted (never from the database)
+  example: []
   syntax:
     content: public virtual bool Deleted { get; set; }
     parameters: []
@@ -469,14 +354,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.WebApi.Data.StatusMonitor.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.NumMatches
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.NumMatches
   id: NumMatches
@@ -488,13 +365,11 @@ items:
   nameWithType: StatusMonitor.NumMatches
   fullName: SuperOffice.WebApi.Data.StatusMonitor.NumMatches
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nNumber of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1\n"
+  summary: Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1
+  example: []
   syntax:
     content: public virtual int NumMatches { get; set; }
     parameters: []
@@ -502,14 +377,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumMatches As Integer
   overload: SuperOffice.WebApi.Data.StatusMonitor.NumMatches*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
   id: NumNeedUpdate
@@ -521,13 +388,11 @@ items:
   nameWithType: StatusMonitor.NumNeedUpdate
   fullName: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nNumber of targets that had this status, but have their needsUpdate bit set due to some change\n"
+  summary: Number of targets that had this status, but have their needsUpdate bit set due to some change
+  example: []
   syntax:
     content: public virtual int NumNeedUpdate { get; set; }
     parameters: []
@@ -535,14 +400,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumNeedUpdate As Integer
   overload: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
   commentId: P:SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
   id: GenerationStart
@@ -554,46 +411,79 @@ items:
   nameWithType: StatusMonitor.GenerationStart
   fullName: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen was the last regeneration started\n"
+  summary: When was the last regeneration started
+  example: []
   syntax:
     content: public virtual DateTime GenerationStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property GenerationStart As DateTime
+    content.vb: Public Overridable Property GenerationStart As Date
   overload: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.SaintAgent
+  commentId: T:SuperOffice.WebApi.Agents.SaintAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.SaintAgent.html
+  name: SaintAgent
+  nameWithType: SaintAgent
+  fullName: SuperOffice.WebApi.Agents.SaintAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -601,6 +491,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -608,30 +499,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.SaintAgent
-  commentId: T:SuperOffice.WebApi.Agents.SaintAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: SaintAgent
-  nameWithType: SaintAgent
-  fullName: SuperOffice.WebApi.Agents.SaintAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.StatusMonitor.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor__ctor
   name: StatusMonitor
   nameWithType: StatusMonitor.StatusMonitor
   fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitor
+  nameWithType.vb: StatusMonitor.New
+  fullName.vb: SuperOffice.WebApi.Data.StatusMonitor.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_OwnerTable
   name: OwnerTable
   nameWithType: StatusMonitor.OwnerTable
   fullName: SuperOffice.WebApi.Data.StatusMonitor.OwnerTable
@@ -639,24 +750,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Rank
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_Rank
   name: Rank
   nameWithType: StatusMonitor.Rank
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Rank
 - uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_DefaultTask
   name: DefaultTask
   nameWithType: StatusMonitor.DefaultTask
   fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTask
 - uid: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_DefaultTaskText
   name: DefaultTaskText
   nameWithType: StatusMonitor.DefaultTaskText
   fullName: SuperOffice.WebApi.Data.StatusMonitor.DefaultTaskText
@@ -664,12 +782,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.StatusMonitor.IsVisual*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.IsVisual
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_IsVisual
   name: IsVisual
   nameWithType: StatusMonitor.IsVisual
   fullName: SuperOffice.WebApi.Data.StatusMonitor.IsVisual
@@ -677,71 +800,91 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_LastGenerated
   name: LastGenerated
   nameWithType: StatusMonitor.LastGenerated
   fullName: SuperOffice.WebApi.Data.StatusMonitor.LastGenerated
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Description*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Description
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_Description
   name: Description
   nameWithType: StatusMonitor.Description
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Description
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Name*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_Name
   name: Name
   nameWithType: StatusMonitor.Name
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Name
 - uid: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_StatusMonitorId
   name: StatusMonitorId
   nameWithType: StatusMonitor.StatusMonitorId
   fullName: SuperOffice.WebApi.Data.StatusMonitor.StatusMonitorId
 - uid: SuperOffice.WebApi.Data.StatusMonitor.PictureId*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.PictureId
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_PictureId
   name: PictureId
   nameWithType: StatusMonitor.PictureId
   fullName: SuperOffice.WebApi.Data.StatusMonitor.PictureId
 - uid: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_NeedsUpdate
   name: NeedsUpdate
   nameWithType: StatusMonitor.NeedsUpdate
   fullName: SuperOffice.WebApi.Data.StatusMonitor.NeedsUpdate
 - uid: SuperOffice.WebApi.Data.StatusMonitor.Deleted*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.Deleted
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_Deleted
   name: Deleted
   nameWithType: StatusMonitor.Deleted
   fullName: SuperOffice.WebApi.Data.StatusMonitor.Deleted
 - uid: SuperOffice.WebApi.Data.StatusMonitor.NumMatches*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.NumMatches
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_NumMatches
   name: NumMatches
   nameWithType: StatusMonitor.NumMatches
   fullName: SuperOffice.WebApi.Data.StatusMonitor.NumMatches
 - uid: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_NumNeedUpdate
   name: NumNeedUpdate
   nameWithType: StatusMonitor.NumNeedUpdate
   fullName: SuperOffice.WebApi.Data.StatusMonitor.NumNeedUpdate
 - uid: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart*
   commentId: Overload:SuperOffice.WebApi.Data.StatusMonitor.GenerationStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.StatusMonitor.html#SuperOffice_WebApi_Data_StatusMonitor_GenerationStart
   name: GenerationStart
   nameWithType: StatusMonitor.GenerationStart
   fullName: SuperOffice.WebApi.Data.StatusMonitor.GenerationStart

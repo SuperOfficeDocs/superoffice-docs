@@ -38,29 +38,30 @@ items:
   nameWithType: ChatOpeningHours
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ChatOpeningHours.\nChat Topic Opening Hours    \n"
+  summary: >-
+    Carrier object for ChatOpeningHours.
+
+    Chat Topic Opening Hours
+  example: []
   syntax:
-    content: 'public class ChatOpeningHours : Object'
-    content.vb: >-
-      Public Class ChatOpeningHours
-          Inherits Object
+    content: public class ChatOpeningHours
+    content.vb: Public Class ChatOpeningHours
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ChatAgent
     commentId: T:SuperOffice.WebApi.Agents.ChatAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.#ctor
   commentId: M:SuperOffice.WebApi.Data.ChatOpeningHours.#ctor
   id: '#ctor'
@@ -72,21 +73,18 @@ items:
   nameWithType: ChatOpeningHours.ChatOpeningHours()
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ChatOpeningHours()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public ChatOpeningHours()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ChatOpeningHours.New()
+  fullName.vb: SuperOffice.WebApi.Data.ChatOpeningHours.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation
   id: TzLocation
@@ -98,13 +96,11 @@ items:
   nameWithType: ChatOpeningHours.TzLocation
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTimezone used for the opening hours (start/stop times) for this topic.\n"
+  summary: Timezone used for the opening hours (start/stop times) for this topic.
+  example: []
   syntax:
     content: public virtual TimeZoneData TzLocation { get; set; }
     parameters: []
@@ -112,14 +108,6 @@ items:
       type: SuperOffice.WebApi.Data.TimeZoneData
     content.vb: Public Overridable Property TzLocation As TimeZoneData
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled
   id: MonEnabled
@@ -131,13 +119,11 @@ items:
   nameWithType: ChatOpeningHours.MonEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether open on Mondays.\n"
+  summary: Whether open on Mondays.
+  example: []
   syntax:
     content: public virtual bool MonEnabled { get; set; }
     parameters: []
@@ -145,14 +131,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property MonEnabled As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.MonStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.MonStart
   id: MonStart
@@ -164,13 +142,11 @@ items:
   nameWithType: ChatOpeningHours.MonStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.MonStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours start on Mondays. Only time-part is used.\n"
+  summary: When opening hours start on Mondays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan MonStart { get; set; }
     parameters: []
@@ -178,14 +154,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property MonStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.MonStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.MonStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.MonStop
   id: MonStop
@@ -197,13 +165,11 @@ items:
   nameWithType: ChatOpeningHours.MonStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.MonStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stop on Mondays. Only time-part is used.\n"
+  summary: When opening hours stop on Mondays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan MonStop { get; set; }
     parameters: []
@@ -211,14 +177,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property MonStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.MonStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TueEnabled
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.TueEnabled
   id: TueEnabled
@@ -230,13 +188,11 @@ items:
   nameWithType: ChatOpeningHours.TueEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TueEnabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether open on Tuesdays.\n"
+  summary: Whether open on Tuesdays.
+  example: []
   syntax:
     content: public virtual bool TueEnabled { get; set; }
     parameters: []
@@ -244,14 +200,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property TueEnabled As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.TueEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TueStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.TueStart
   id: TueStart
@@ -263,13 +211,11 @@ items:
   nameWithType: ChatOpeningHours.TueStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TueStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours start on Tuesdays. Only time-part is used.\n"
+  summary: When opening hours start on Tuesdays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan TueStart { get; set; }
     parameters: []
@@ -277,14 +223,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property TueStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.TueStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TueStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.TueStop
   id: TueStop
@@ -296,13 +234,11 @@ items:
   nameWithType: ChatOpeningHours.TueStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TueStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stop on Tuesdays. Only time-part is used.\n"
+  summary: When opening hours stop on Tuesdays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan TueStop { get; set; }
     parameters: []
@@ -310,14 +246,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property TueStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.TueStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled
   id: WedEnabled
@@ -329,13 +257,11 @@ items:
   nameWithType: ChatOpeningHours.WedEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether open on Wednesdays.\n"
+  summary: Whether open on Wednesdays.
+  example: []
   syntax:
     content: public virtual bool WedEnabled { get; set; }
     parameters: []
@@ -343,14 +269,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property WedEnabled As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.WedStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.WedStart
   id: WedStart
@@ -362,13 +280,11 @@ items:
   nameWithType: ChatOpeningHours.WedStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.WedStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours start on Wednesdays. Only time-part is used.\n"
+  summary: When opening hours start on Wednesdays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan WedStart { get; set; }
     parameters: []
@@ -376,14 +292,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property WedStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.WedStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.WedStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.WedStop
   id: WedStop
@@ -395,13 +303,11 @@ items:
   nameWithType: ChatOpeningHours.WedStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.WedStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stop on Wednesday. Only time-part is used.\n"
+  summary: When opening hours stop on Wednesday. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan WedStop { get; set; }
     parameters: []
@@ -409,14 +315,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property WedStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.WedStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.ThuEnabled
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.ThuEnabled
   id: ThuEnabled
@@ -428,13 +326,11 @@ items:
   nameWithType: ChatOpeningHours.ThuEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ThuEnabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether open on Thursdays.\n"
+  summary: Whether open on Thursdays.
+  example: []
   syntax:
     content: public virtual bool ThuEnabled { get; set; }
     parameters: []
@@ -442,14 +338,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ThuEnabled As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.ThuEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart
   id: ThuStart
@@ -461,13 +349,11 @@ items:
   nameWithType: ChatOpeningHours.ThuStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours start on Thursdays. Only time-part is used.\n"
+  summary: When opening hours start on Thursdays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan ThuStart { get; set; }
     parameters: []
@@ -475,14 +361,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property ThuStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop
   id: ThuStop
@@ -494,13 +372,11 @@ items:
   nameWithType: ChatOpeningHours.ThuStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stop on Thursdays. Only time-part is used.\n"
+  summary: When opening hours stop on Thursdays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan ThuStop { get; set; }
     parameters: []
@@ -508,14 +384,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property ThuStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled
   id: FriEnabled
@@ -527,13 +395,11 @@ items:
   nameWithType: ChatOpeningHours.FriEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether open on Fridays.\n"
+  summary: Whether open on Fridays.
+  example: []
   syntax:
     content: public virtual bool FriEnabled { get; set; }
     parameters: []
@@ -541,14 +407,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property FriEnabled As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.FriStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.FriStart
   id: FriStart
@@ -560,13 +418,11 @@ items:
   nameWithType: ChatOpeningHours.FriStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.FriStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours start on Fridays. Only time-part is used.\n"
+  summary: When opening hours start on Fridays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan FriStart { get; set; }
     parameters: []
@@ -574,14 +430,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property FriStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.FriStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.FriStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.FriStop
   id: FriStop
@@ -593,13 +441,11 @@ items:
   nameWithType: ChatOpeningHours.FriStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.FriStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stop on Fridays. Only time-part is used.\n"
+  summary: When opening hours stop on Fridays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan FriStop { get; set; }
     parameters: []
@@ -607,14 +453,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property FriStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.FriStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SatEnabled
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.SatEnabled
   id: SatEnabled
@@ -626,13 +464,11 @@ items:
   nameWithType: ChatOpeningHours.SatEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SatEnabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether open on Saturdays.\n"
+  summary: Whether open on Saturdays.
+  example: []
   syntax:
     content: public virtual bool SatEnabled { get; set; }
     parameters: []
@@ -640,14 +476,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SatEnabled As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SatEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SatStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.SatStart
   id: SatStart
@@ -659,13 +487,11 @@ items:
   nameWithType: ChatOpeningHours.SatStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SatStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours start on Saturdays. Only time-part is used.\n"
+  summary: When opening hours start on Saturdays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan SatStart { get; set; }
     parameters: []
@@ -673,14 +499,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property SatStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SatStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SatStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.SatStop
   id: SatStop
@@ -692,13 +510,11 @@ items:
   nameWithType: ChatOpeningHours.SatStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SatStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stop on Saturdays. Only time-part is used.\n"
+  summary: When opening hours stop on Saturdays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan SatStop { get; set; }
     parameters: []
@@ -706,14 +522,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property SatStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SatStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SunEnabled
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.SunEnabled
   id: SunEnabled
@@ -725,13 +533,11 @@ items:
   nameWithType: ChatOpeningHours.SunEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SunEnabled
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether open on Sundays.\n"
+  summary: Whether open on Sundays.
+  example: []
   syntax:
     content: public virtual bool SunEnabled { get; set; }
     parameters: []
@@ -739,14 +545,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property SunEnabled As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SunEnabled*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SunStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.SunStart
   id: SunStart
@@ -758,13 +556,11 @@ items:
   nameWithType: ChatOpeningHours.SunStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SunStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours start on Sundays. Only time-part is used.\n"
+  summary: When opening hours start on Sundays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan SunStart { get; set; }
     parameters: []
@@ -772,14 +568,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property SunStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SunStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SunStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.SunStop
   id: SunStop
@@ -791,13 +579,11 @@ items:
   nameWithType: ChatOpeningHours.SunStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SunStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stop on Sundays. Only time-part is used.\n"
+  summary: When opening hours stop on Sundays. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan SunStop { get; set; }
     parameters: []
@@ -805,14 +591,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property SunStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.SunStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
   id: UseLunchHours
@@ -824,13 +602,11 @@ items:
   nameWithType: ChatOpeningHours.UseLunchHours
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhether to use lunch hours or not.\n"
+  summary: Whether to use lunch hours or not.
+  example: []
   syntax:
     content: public virtual bool UseLunchHours { get; set; }
     parameters: []
@@ -838,14 +614,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property UseLunchHours As Boolean
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
   id: LunchStart
@@ -857,13 +625,11 @@ items:
   nameWithType: ChatOpeningHours.LunchStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours starts for lunch. Only time-part is used.\n"
+  summary: When opening hours starts for lunch. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan LunchStart { get; set; }
     parameters: []
@@ -871,14 +637,6 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property LunchStart As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
   commentId: P:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
   id: LunchStop
@@ -890,13 +648,11 @@ items:
   nameWithType: ChatOpeningHours.LunchStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhen opening hours stops for lunch. Only time-part is used.\n"
+  summary: When opening hours stops for lunch. Only time-part is used.
+  example: []
   syntax:
     content: public virtual TimeSpan LunchStop { get; set; }
     parameters: []
@@ -904,49 +660,302 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property LunchStop As TimeSpan
   overload: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ChatAgent.html
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.ChatAgent
-  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ChatAgent
-  nameWithType: ChatAgent
-  fullName: SuperOffice.WebApi.Agents.ChatAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours__ctor
   name: ChatOpeningHours
   nameWithType: ChatOpeningHours.ChatOpeningHours
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ChatOpeningHours
+  nameWithType.vb: ChatOpeningHours.New
+  fullName.vb: SuperOffice.WebApi.Data.ChatOpeningHours.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_TzLocation
   name: TzLocation
   nameWithType: ChatOpeningHours.TzLocation
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TzLocation
@@ -954,12 +963,14 @@ references:
   commentId: T:SuperOffice.WebApi.Data.TimeZoneData
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TimeZoneData.html
   name: TimeZoneData
   nameWithType: TimeZoneData
   fullName: SuperOffice.WebApi.Data.TimeZoneData
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_MonEnabled
   name: MonEnabled
   nameWithType: ChatOpeningHours.MonEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.MonEnabled
@@ -967,149 +978,179 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.MonStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.MonStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_MonStart
   name: MonStart
   nameWithType: ChatOpeningHours.MonStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.MonStart
 - uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.MonStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.MonStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_MonStop
   name: MonStop
   nameWithType: ChatOpeningHours.MonStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.MonStop
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TueEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.TueEnabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_TueEnabled
   name: TueEnabled
   nameWithType: ChatOpeningHours.TueEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TueEnabled
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TueStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.TueStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_TueStart
   name: TueStart
   nameWithType: ChatOpeningHours.TueStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TueStart
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.TueStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.TueStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_TueStop
   name: TueStop
   nameWithType: ChatOpeningHours.TueStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.TueStop
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_WedEnabled
   name: WedEnabled
   nameWithType: ChatOpeningHours.WedEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.WedEnabled
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.WedStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.WedStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_WedStart
   name: WedStart
   nameWithType: ChatOpeningHours.WedStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.WedStart
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.WedStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.WedStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_WedStop
   name: WedStop
   nameWithType: ChatOpeningHours.WedStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.WedStop
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.ThuEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.ThuEnabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_ThuEnabled
   name: ThuEnabled
   nameWithType: ChatOpeningHours.ThuEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ThuEnabled
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_ThuStart
   name: ThuStart
   nameWithType: ChatOpeningHours.ThuStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStart
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_ThuStop
   name: ThuStop
   nameWithType: ChatOpeningHours.ThuStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.ThuStop
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_FriEnabled
   name: FriEnabled
   nameWithType: ChatOpeningHours.FriEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.FriEnabled
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.FriStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.FriStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_FriStart
   name: FriStart
   nameWithType: ChatOpeningHours.FriStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.FriStart
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.FriStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.FriStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_FriStop
   name: FriStop
   nameWithType: ChatOpeningHours.FriStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.FriStop
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SatEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.SatEnabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_SatEnabled
   name: SatEnabled
   nameWithType: ChatOpeningHours.SatEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SatEnabled
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SatStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.SatStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_SatStart
   name: SatStart
   nameWithType: ChatOpeningHours.SatStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SatStart
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SatStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.SatStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_SatStop
   name: SatStop
   nameWithType: ChatOpeningHours.SatStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SatStop
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SunEnabled*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.SunEnabled
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_SunEnabled
   name: SunEnabled
   nameWithType: ChatOpeningHours.SunEnabled
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SunEnabled
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SunStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.SunStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_SunStart
   name: SunStart
   nameWithType: ChatOpeningHours.SunStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SunStart
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.SunStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.SunStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_SunStop
   name: SunStop
   nameWithType: ChatOpeningHours.SunStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.SunStop
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_UseLunchHours
   name: UseLunchHours
   nameWithType: ChatOpeningHours.UseLunchHours
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.UseLunchHours
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_LunchStart
   name: LunchStart
   nameWithType: ChatOpeningHours.LunchStart
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStart
 - uid: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop*
   commentId: Overload:SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop
   isExternal: true
+  href: SuperOffice.WebApi.Data.ChatOpeningHours.html#SuperOffice_WebApi_Data_ChatOpeningHours_LunchStop
   name: LunchStop
   nameWithType: ChatOpeningHours.LunchStop
   fullName: SuperOffice.WebApi.Data.ChatOpeningHours.LunchStop

@@ -17,64 +17,21 @@ items:
   - SuperOffice.WebApi.Data.NotificationEventType.TicketActivated
   - SuperOffice.WebApi.Data.NotificationEventType.TicketEscalated
   - SuperOffice.WebApi.Data.NotificationEventType.Unknown
-  - SuperOffice.WebApi.Data.NotificationEventType.value__
   langs:
   - csharp
   - vb
   name: NotificationEventType
   nameWithType: NotificationEventType
   fullName: SuperOffice.WebApi.Data.NotificationEventType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTypes of events that are sent through the Pocket Notification API, where they are paired with an entity id\n"
+  summary: Types of events that are sent through the Pocket Notification API, where they are paired with an entity id
+  example: []
   syntax:
-    content: 'public sealed class NotificationEventType : Enum'
-    content.vb: >-
-      Public NotInheritable Class NotificationEventType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.NotificationEventType.value__
-  commentId: F:SuperOffice.WebApi.Data.NotificationEventType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.NotificationEventType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: NotificationEventType.value__
-  fullName: SuperOffice.WebApi.Data.NotificationEventType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum NotificationEventType
+    content.vb: Public Enum NotificationEventType
 - uid: SuperOffice.WebApi.Data.NotificationEventType.Unknown
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.Unknown
   id: Unknown
@@ -86,24 +43,26 @@ items:
   nameWithType: NotificationEventType.Unknown
   fullName: SuperOffice.WebApi.Data.NotificationEventType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown\n"
+  summary: '0: Unknown'
+  example: []
   syntax:
-    content: public const NotificationEventType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const Unknown As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.NewTicket
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.NewTicket
   id: NewTicket
@@ -115,24 +74,26 @@ items:
   nameWithType: NotificationEventType.NewTicket
   fullName: SuperOffice.WebApi.Data.NotificationEventType.NewTicket
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: New ticket\n"
+  summary: '1: New ticket'
+  example: []
   syntax:
-    content: public const NotificationEventType NewTicket
+    content: >-
+      [EnumMember]
+
+      NewTicket = 1
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const NewTicket As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicket = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.AppointmentInvitation
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.AppointmentInvitation
   id: AppointmentInvitation
@@ -144,24 +105,26 @@ items:
   nameWithType: NotificationEventType.AppointmentInvitation
   fullName: SuperOffice.WebApi.Data.NotificationEventType.AppointmentInvitation
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Appointment invitation\n"
+  summary: '2: Appointment invitation'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentInvitation
+    content: >-
+      [EnumMember]
+
+      AppointmentInvitation = 2
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const AppointmentInvitation As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentInvitation = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.AppointmentMoved
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.AppointmentMoved
   id: AppointmentMoved
@@ -173,24 +136,26 @@ items:
   nameWithType: NotificationEventType.AppointmentMoved
   fullName: SuperOffice.WebApi.Data.NotificationEventType.AppointmentMoved
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Appointment moved or changed\n"
+  summary: '3: Appointment moved or changed'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentMoved
+    content: >-
+      [EnumMember]
+
+      AppointmentMoved = 3
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const AppointmentMoved As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentMoved = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.AppointmentCancelled
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.AppointmentCancelled
   id: AppointmentCancelled
@@ -202,24 +167,26 @@ items:
   nameWithType: NotificationEventType.AppointmentCancelled
   fullName: SuperOffice.WebApi.Data.NotificationEventType.AppointmentCancelled
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Appointment cancelled\n"
+  summary: '4: Appointment cancelled'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentCancelled
+    content: >-
+      [EnumMember]
+
+      AppointmentCancelled = 4
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const AppointmentCancelled As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentCancelled = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.NewTicketMessage
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.NewTicketMessage
   id: NewTicketMessage
@@ -231,24 +198,26 @@ items:
   nameWithType: NotificationEventType.NewTicketMessage
   fullName: SuperOffice.WebApi.Data.NotificationEventType.NewTicketMessage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: New ticket message\n"
+  summary: '5: New ticket message'
+  example: []
   syntax:
-    content: public const NotificationEventType NewTicketMessage
+    content: >-
+      [EnumMember]
+
+      NewTicketMessage = 5
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const NewTicketMessage As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewTicketMessage = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.TicketActivated
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.TicketActivated
   id: TicketActivated
@@ -260,24 +229,26 @@ items:
   nameWithType: NotificationEventType.TicketActivated
   fullName: SuperOffice.WebApi.Data.NotificationEventType.TicketActivated
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Ticket activated\n"
+  summary: '6: Ticket activated'
+  example: []
   syntax:
-    content: public const NotificationEventType TicketActivated
+    content: >-
+      [EnumMember]
+
+      TicketActivated = 6
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const TicketActivated As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketActivated = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.TicketEscalated
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.TicketEscalated
   id: TicketEscalated
@@ -289,24 +260,26 @@ items:
   nameWithType: NotificationEventType.TicketEscalated
   fullName: SuperOffice.WebApi.Data.NotificationEventType.TicketEscalated
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: Ticket escalated\n"
+  summary: '7: Ticket escalated'
+  example: []
   syntax:
-    content: public const NotificationEventType TicketEscalated
+    content: >-
+      [EnumMember]
+
+      TicketEscalated = 7
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const TicketEscalated As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      TicketEscalated = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalRequest
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalRequest
   id: QuoteApprovalRequest
@@ -318,24 +291,26 @@ items:
   nameWithType: NotificationEventType.QuoteApprovalRequest
   fullName: SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalRequest
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Quote approval requested\n"
+  summary: '8: Quote approval requested'
+  example: []
   syntax:
-    content: public const NotificationEventType QuoteApprovalRequest
+    content: >-
+      [EnumMember]
+
+      QuoteApprovalRequest = 8
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const QuoteApprovalRequest As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteApprovalRequest = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalApproved
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalApproved
   id: QuoteApprovalApproved
@@ -347,24 +322,26 @@ items:
   nameWithType: NotificationEventType.QuoteApprovalApproved
   fullName: SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalApproved
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n9: Quote approval approved\n"
+  summary: '9: Quote approval approved'
+  example: []
   syntax:
-    content: public const NotificationEventType QuoteApprovalApproved
+    content: >-
+      [EnumMember]
+
+      QuoteApprovalApproved = 9
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const QuoteApprovalApproved As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteApprovalApproved = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalDenied
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalDenied
   id: QuoteApprovalDenied
@@ -376,24 +353,26 @@ items:
   nameWithType: NotificationEventType.QuoteApprovalDenied
   fullName: SuperOffice.WebApi.Data.NotificationEventType.QuoteApprovalDenied
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n10: Quote approval denied\n"
+  summary: '10: Quote approval denied'
+  example: []
   syntax:
-    content: public const NotificationEventType QuoteApprovalDenied
+    content: >-
+      [EnumMember]
+
+      QuoteApprovalDenied = 10
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const QuoteApprovalDenied As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      QuoteApprovalDenied = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotificationEventType.AppointmentDeclined
   commentId: F:SuperOffice.WebApi.Data.NotificationEventType.AppointmentDeclined
   id: AppointmentDeclined
@@ -405,55 +384,69 @@ items:
   nameWithType: NotificationEventType.AppointmentDeclined
   fullName: SuperOffice.WebApi.Data.NotificationEventType.AppointmentDeclined
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: Invitation or assignment declined\n"
+  summary: '11: Invitation or assignment declined'
+  example: []
   syntax:
-    content: public const NotificationEventType AppointmentDeclined
+    content: >-
+      [EnumMember]
+
+      AppointmentDeclined = 11
     return:
       type: SuperOffice.WebApi.Data.NotificationEventType
-    content.vb: Public Const AppointmentDeclined As NotificationEventType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AppointmentDeclined = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.NotificationEventType
   commentId: T:SuperOffice.WebApi.Data.NotificationEventType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.NotificationEventType.html
   name: NotificationEventType
   nameWithType: NotificationEventType
   fullName: SuperOffice.WebApi.Data.NotificationEventType

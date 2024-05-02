@@ -20,9 +20,9 @@ items:
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage
+  - SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId
-  - SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage
   - SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject
@@ -36,20 +36,25 @@ items:
   nameWithType: ShipmentMessageEntity
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for ShipmentMessageEntity.\nA shipment message, that contains the actual message being sent out in a mailing    \n"
+  summary: >-
+    Carrier object for ShipmentMessageEntity.
+
+    A shipment message, that contains the actual message being sent out in a mailing
   example:
-  - "\nGet ShipmentMessageEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new MarketingAgent(configuration);\nvar shipmentMessageEntity = agent.GetShipmentMessageEntity( 123 );</code></pre>\n"
+  - >-
+    Get ShipmentMessageEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new MarketingAgent(configuration);
+
+    var shipmentMessageEntity = agent.GetShipmentMessageEntity( 123 );</code></pre>
   syntax:
     content: 'public class ShipmentMessageEntity : Carrier'
-    content.vb: >-
-      Public Class ShipmentMessageEntity
-          Inherits Carrier
+    content.vb: Public Class ShipmentMessageEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.MarketingAgent
     commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
@@ -59,12 +64,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.ShipmentMessageEntity.#ctor
   id: '#ctor'
@@ -76,21 +82,18 @@ items:
   nameWithType: ShipmentMessageEntity.ShipmentMessageEntity()
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageEntity()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public ShipmentMessageEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: ShipmentMessageEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.ShipmentMessageEntity.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId
   id: ShipmentMessageId
@@ -102,13 +105,11 @@ items:
   nameWithType: ShipmentMessageEntity.ShipmentMessageId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int ShipmentMessageId { get; set; }
     parameters: []
@@ -116,14 +117,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ShipmentMessageId As Integer
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage
   id: PlainMessage
@@ -135,13 +128,11 @@ items:
   nameWithType: ShipmentMessageEntity.PlainMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPlain message text of this message\n"
+  summary: Plain message text of this message
+  example: []
   syntax:
     content: public virtual string PlainMessage { get; set; }
     parameters: []
@@ -149,14 +140,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property PlainMessage As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.HtmlMessage
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.HtmlMessage
   id: HtmlMessage
@@ -168,13 +151,11 @@ items:
   nameWithType: ShipmentMessageEntity.HtmlMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.HtmlMessage
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nHTML formatted text of this message\n"
+  summary: HTML formatted text of this message
+  example: []
   syntax:
     content: public virtual string HtmlMessage { get; set; }
     parameters: []
@@ -182,14 +163,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property HtmlMessage As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.HtmlMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage
   id: SmsMessage
@@ -201,13 +174,11 @@ items:
   nameWithType: ShipmentMessageEntity.SmsMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSMS version of this message\n"
+  summary: SMS version of this message
+  example: []
   syntax:
     content: public virtual string SmsMessage { get; set; }
     parameters: []
@@ -215,14 +186,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property SmsMessage As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Description
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Description
   id: Description
@@ -234,13 +197,11 @@ items:
   nameWithType: ShipmentMessageEntity.Description
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Description
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDescribes this message\n"
+  summary: Describes this message
+  example: []
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -248,14 +209,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Description*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject
   id: Subject
@@ -267,13 +220,11 @@ items:
   nameWithType: ShipmentMessageEntity.Subject
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe mail subject field of the message\n"
+  summary: The mail subject field of the message
+  example: []
   syntax:
     content: public virtual string Subject { get; set; }
     parameters: []
@@ -281,14 +232,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Subject As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.FolderId
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.FolderId
   id: FolderId
@@ -300,13 +243,11 @@ items:
   nameWithType: ShipmentMessageEntity.FolderId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.FolderId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe folder which this message belongs to. -1 indicates that the message is on the root\n"
+  summary: The folder which this message belongs to. -1 indicates that the message is on the root
+  example: []
   syntax:
     content: public virtual int FolderId { get; set; }
     parameters: []
@@ -314,14 +255,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property FolderId As Integer
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.FolderId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.HeaderField
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.HeaderField
   id: HeaderField
@@ -333,13 +266,11 @@ items:
   nameWithType: ShipmentMessageEntity.HeaderField
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.HeaderField
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nExtra header fields added to mail. Must be formatted correctly\n"
+  summary: Extra header fields added to mail. Must be formatted correctly
+  example: []
   syntax:
     content: public virtual string HeaderField { get; set; }
     parameters: []
@@ -347,14 +278,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property HeaderField As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.HeaderField*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Design
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Design
   id: Design
@@ -366,13 +289,11 @@ items:
   nameWithType: ShipmentMessageEntity.Design
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Design
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWill contain the design part of a message. The format will vary based on the type of designer used to create the message\n"
+  summary: Will contain the design part of a message. The format will vary based on the type of designer used to create the message
+  example: []
   syntax:
     content: public virtual string Design { get; set; }
     parameters: []
@@ -380,14 +301,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Design As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Design*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
   id: Designtype_String
@@ -399,29 +312,36 @@ items:
   nameWithType: ShipmentMessageEntity.Designtype_String
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnum containing the type of the design\nRaw string enum value.\n"
+  summary: >-
+    Enum containing the type of the design
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Designtype_String { get; set; }
+    content: >-
+      [JsonProperty("Designtype")]
+
+      public string Designtype_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Designtype_String As String
+    content.vb: >-
+      <JsonProperty("Designtype")>
+
+      Public Property Designtype_String As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
     commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Designtype
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
   id: Designtype
@@ -433,29 +353,34 @@ items:
   nameWithType: ShipmentMessageEntity.Designtype
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nEnum containing the type of the design\nNULL if unknown enum value.\n"
+  summary: >-
+    Enum containing the type of the design
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<DesignType> Designtype { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public DesignType? Designtype { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.DesignType}
-    content.vb: Public Property Designtype As Nullable(Of DesignType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Designtype As DesignType?
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
     commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
   id: Flags_String
@@ -467,29 +392,36 @@ items:
   nameWithType: ShipmentMessageEntity.Flags_String
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIdentifies if HTML or plain message is included in message.\nRaw string enum value.\n"
+  summary: >-
+    Identifies if HTML or plain message is included in message.
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Flags_String { get; set; }
+    content: >-
+      [JsonProperty("Flags")]
+
+      public string Flags_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Flags_String As String
+    content.vb: >-
+      <JsonProperty("Flags")>
+
+      Public Property Flags_String As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
     commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Flags
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
   id: Flags
@@ -501,29 +433,34 @@ items:
   nameWithType: ShipmentMessageEntity.Flags
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIdentifies if HTML or plain message is included in message.\nNULL if unknown enum value.\n"
+  summary: >-
+    Identifies if HTML or plain message is included in message.
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<ShipmentMessageType> Flags { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public ShipmentMessageType? Flags { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ShipmentMessageType}
-    content.vb: Public Property Flags As Nullable(Of ShipmentMessageType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Flags As ShipmentMessageType?
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
     commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews
   id: RegisterViews
@@ -535,13 +472,11 @@ items:
   nameWithType: ShipmentMessageEntity.RegisterViews
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRegister message views?\n"
+  summary: Register message views?
+  example: []
   syntax:
     content: public virtual bool RegisterViews { get; set; }
     parameters: []
@@ -549,14 +484,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property RegisterViews As Boolean
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages
   id: InlineImages
@@ -568,13 +495,11 @@ items:
   nameWithType: ShipmentMessageEntity.InlineImages
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nShould images be included inline?\n"
+  summary: Should images be included inline?
+  example: []
   syntax:
     content: public virtual bool InlineImages { get; set; }
     parameters: []
@@ -582,14 +507,6 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property InlineImages As Boolean
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription
   id: LongDescription
@@ -601,13 +518,11 @@ items:
   nameWithType: ShipmentMessageEntity.LongDescription
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nA field for a long description of this template\n"
+  summary: A field for a long description of this template
+  example: []
   syntax:
     content: public virtual string LongDescription { get; set; }
     parameters: []
@@ -615,14 +530,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property LongDescription As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.AccessKey
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.AccessKey
   id: AccessKey
@@ -634,13 +541,11 @@ items:
   nameWithType: ShipmentMessageEntity.AccessKey
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.AccessKey
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nKey used for access verification\n"
+  summary: Key used for access verification
+  example: []
   syntax:
     content: public virtual string AccessKey { get; set; }
     parameters: []
@@ -648,14 +553,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property AccessKey As String
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.AccessKey*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.DocumentMessage
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.DocumentMessage
   id: DocumentMessage
@@ -667,13 +564,11 @@ items:
   nameWithType: ShipmentMessageEntity.DocumentMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.DocumentMessage
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe SM document used as template for this mailing\n"
+  summary: The SM document used as template for this mailing
+  example: []
   syntax:
     content: public virtual int DocumentMessage { get; set; }
     parameters: []
@@ -681,14 +576,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DocumentMessage As Integer
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.DocumentMessage*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered
   id: Registered
@@ -700,28 +587,18 @@ items:
   nameWithType: ShipmentMessageEntity.Registered
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRegistered when\n"
+  summary: Registered when
+  example: []
   syntax:
     content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As DateTime
+    content.vb: Public Overridable Property Registered As Date
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -733,13 +610,11 @@ items:
   nameWithType: ShipmentMessageEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRegistered by whom\n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public virtual int RegisteredAssociateId { get; set; }
     parameters: []
@@ -747,14 +622,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Updated
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Updated
   id: Updated
@@ -766,28 +633,18 @@ items:
   nameWithType: ShipmentMessageEntity.Updated
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Updated
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLast updated when\n"
+  summary: Last updated when
+  example: []
   syntax:
     content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As DateTime
+    content.vb: Public Overridable Property Updated As Date
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.Updated*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedAssociateId
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -799,13 +656,11 @@ items:
   nameWithType: ShipmentMessageEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedAssociateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLast updated by whom\n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public virtual int UpdatedAssociateId { get; set; }
     parameters: []
@@ -813,14 +668,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property UpdatedAssociateId As Integer
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedAssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedCount
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedCount
   id: UpdatedCount
@@ -832,13 +679,11 @@ items:
   nameWithType: ShipmentMessageEntity.UpdatedCount
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedCount
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nNumber of updates made to this record\n"
+  summary: Number of updates made to this record
+  example: []
   syntax:
     content: public virtual short UpdatedCount { get; set; }
     parameters: []
@@ -846,32 +691,67 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedCount*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.MarketingAgent.html
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -879,6 +759,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -886,30 +767,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.MarketingAgent
-  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: MarketingAgent
-  nameWithType: MarketingAgent
-  fullName: SuperOffice.WebApi.Agents.MarketingAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity__ctor
   name: ShipmentMessageEntity
   nameWithType: ShipmentMessageEntity.ShipmentMessageEntity
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageEntity
+  nameWithType.vb: ShipmentMessageEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.ShipmentMessageEntity.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_ShipmentMessageId
   name: ShipmentMessageId
   nameWithType: ShipmentMessageEntity.ShipmentMessageId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.ShipmentMessageId
@@ -917,12 +1018,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_PlainMessage
   name: PlainMessage
   nameWithType: ShipmentMessageEntity.PlainMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.PlainMessage
@@ -930,214 +1036,190 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.HtmlMessage*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.HtmlMessage
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_HtmlMessage
   name: HtmlMessage
   nameWithType: ShipmentMessageEntity.HtmlMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.HtmlMessage
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_SmsMessage
   name: SmsMessage
   nameWithType: ShipmentMessageEntity.SmsMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.SmsMessage
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Description*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Description
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Description
   name: Description
   nameWithType: ShipmentMessageEntity.Description
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Description
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Subject
   name: Subject
   nameWithType: ShipmentMessageEntity.Subject
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Subject
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.FolderId*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.FolderId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_FolderId
   name: FolderId
   nameWithType: ShipmentMessageEntity.FolderId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.FolderId
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.HeaderField*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.HeaderField
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_HeaderField
   name: HeaderField
   nameWithType: ShipmentMessageEntity.HeaderField
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.HeaderField
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Design*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Design
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Design
   name: Design
   nameWithType: ShipmentMessageEntity.Design
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Design
-- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String*
-  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
-  isExternal: true
-  name: Designtype_String
-  nameWithType: ShipmentMessageEntity.Designtype_String
-  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
   isExternal: true
-- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype*
-  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
-  isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Designtype
   name: Designtype
   nameWithType: ShipmentMessageEntity.Designtype
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
+- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Designtype_String
+  name: Designtype_String
+  nameWithType: ShipmentMessageEntity.Designtype_String
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Designtype_String
+  name: Designtype_String
+  nameWithType: ShipmentMessageEntity.Designtype_String
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype_String
+- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Designtype
+  name: Designtype
+  nameWithType: ShipmentMessageEntity.Designtype
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Designtype
 - uid: System.Nullable{SuperOffice.WebApi.Data.DesignType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DesignType}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.DesignType}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<DesignType>
-  nameWithType: Nullable<DesignType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.DesignType>
-  nameWithType.vb: Nullable(Of DesignType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DesignType)
-  name.vb: Nullable(Of DesignType)
+  href: SuperOffice.WebApi.Data.DesignType.html
+  name: DesignType?
+  nameWithType: DesignType?
+  fullName: SuperOffice.WebApi.Data.DesignType?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.DesignType
     name: DesignType
-    nameWithType: DesignType
-    fullName: SuperOffice.WebApi.Data.DesignType
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.DesignType.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.DesignType
     name: DesignType
-    nameWithType: DesignType
-    fullName: SuperOffice.WebApi.Data.DesignType
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.DesignType.html
+  - name: '?'
 - uid: System.Nullable`1
+  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String*
-  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
-  isExternal: true
-  name: Flags_String
-  nameWithType: ShipmentMessageEntity.Flags_String
-  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
   isExternal: true
-- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags*
-  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
-  isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Flags
   name: Flags
   nameWithType: ShipmentMessageEntity.Flags
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
+- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Flags_String
+  name: Flags_String
+  nameWithType: ShipmentMessageEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
   commentId: P:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Flags_String
+  name: Flags_String
+  nameWithType: ShipmentMessageEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags_String
+- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Flags
+  name: Flags
+  nameWithType: ShipmentMessageEntity.Flags
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Flags
 - uid: System.Nullable{SuperOffice.WebApi.Data.ShipmentMessageType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ShipmentMessageType}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ShipmentMessageType}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<ShipmentMessageType>
-  nameWithType: Nullable<ShipmentMessageType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.ShipmentMessageType>
-  nameWithType.vb: Nullable(Of ShipmentMessageType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ShipmentMessageType)
-  name.vb: Nullable(Of ShipmentMessageType)
+  href: SuperOffice.WebApi.Data.ShipmentMessageType.html
+  name: ShipmentMessageType?
+  nameWithType: ShipmentMessageType?
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageType?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.ShipmentMessageType
     name: ShipmentMessageType
-    nameWithType: ShipmentMessageType
-    fullName: SuperOffice.WebApi.Data.ShipmentMessageType
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.ShipmentMessageType.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.ShipmentMessageType
     name: ShipmentMessageType
-    nameWithType: ShipmentMessageType
-    fullName: SuperOffice.WebApi.Data.ShipmentMessageType
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.ShipmentMessageType.html
+  - name: '?'
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_RegisterViews
   name: RegisterViews
   nameWithType: ShipmentMessageEntity.RegisterViews
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisterViews
@@ -1145,65 +1227,84 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_InlineImages
   name: InlineImages
   nameWithType: ShipmentMessageEntity.InlineImages
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.InlineImages
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_LongDescription
   name: LongDescription
   nameWithType: ShipmentMessageEntity.LongDescription
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.LongDescription
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.AccessKey*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.AccessKey
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_AccessKey
   name: AccessKey
   nameWithType: ShipmentMessageEntity.AccessKey
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.AccessKey
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.DocumentMessage*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.DocumentMessage
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_DocumentMessage
   name: DocumentMessage
   nameWithType: ShipmentMessageEntity.DocumentMessage
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.DocumentMessage
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Registered
   name: Registered
   nameWithType: ShipmentMessageEntity.Registered
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Registered
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: ShipmentMessageEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.RegisteredAssociateId
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.Updated*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.Updated
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_Updated
   name: Updated
   nameWithType: ShipmentMessageEntity.Updated
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.Updated
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedAssociateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: ShipmentMessageEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedAssociateId
 - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedCount*
   commentId: Overload:SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedCount
   isExternal: true
+  href: SuperOffice.WebApi.Data.ShipmentMessageEntity.html#SuperOffice_WebApi_Data_ShipmentMessageEntity_UpdatedCount
   name: UpdatedCount
   nameWithType: ShipmentMessageEntity.UpdatedCount
   fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity.UpdatedCount
@@ -1211,6 +1312,10 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short

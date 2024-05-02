@@ -16,64 +16,36 @@ items:
   - SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
   - SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
   - SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
-  - SuperOffice.WebApi.Data.TicketCategoryFlags.value__
   langs:
   - csharp
   - vb
   name: TicketCategoryFlags
   nameWithType: TicketCategoryFlags
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nFlags for the ticket category\nThis Enum is used by:  ej_category.flags\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class TicketCategoryFlags : Enum'
-    content.vb: >-
-      Public NotInheritable Class TicketCategoryFlags
-          Inherits
+  summary: >-
+    Flags for the ticket category
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.TicketCategoryFlags.value__
-  commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.TicketCategoryFlags
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: TicketCategoryFlags.value__
-  fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  ej_category.flags
+
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum TicketCategoryFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum TicketCategoryFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
   id: Unknown
@@ -85,24 +57,15 @@ items:
   nameWithType: TicketCategoryFlags.Unknown
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: No flags set\n"
+  summary: '0: No flags set'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags Unknown
+    content: Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const Unknown As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.Internal
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.Internal
   id: Internal
@@ -114,24 +77,26 @@ items:
   nameWithType: TicketCategoryFlags.Internal
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.Internal
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: The category is set to internal and is not available in the Customer Centre\n"
+  summary: '1: The category is set to internal and is not available in the Customer Centre'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags Internal
+    content: >-
+      [EnumMember]
+
+      Internal = 1
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const Internal As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Internal = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.OnlyLoggedInUsers
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.OnlyLoggedInUsers
   id: OnlyLoggedInUsers
@@ -143,24 +108,26 @@ items:
   nameWithType: TicketCategoryFlags.OnlyLoggedInUsers
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.OnlyLoggedInUsers
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Only assign requests to logged in users\n"
+  summary: '2: Only assign requests to logged in users'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags OnlyLoggedInUsers
+    content: >-
+      [EnumMember]
+
+      OnlyLoggedInUsers = 2
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const OnlyLoggedInUsers As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      OnlyLoggedInUsers = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.DefaultToCategoryMaster
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.DefaultToCategoryMaster
   id: DefaultToCategoryMaster
@@ -172,24 +139,26 @@ items:
   nameWithType: TicketCategoryFlags.DefaultToCategoryMaster
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.DefaultToCategoryMaster
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Assign to category administrator if no one is available\n"
+  summary: '4: Assign to category administrator if no one is available'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags DefaultToCategoryMaster
+    content: >-
+      [EnumMember]
+
+      DefaultToCategoryMaster = 4
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const DefaultToCategoryMaster As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DefaultToCategoryMaster = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.ListInMain
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.ListInMain
   id: ListInMain
@@ -201,24 +170,26 @@ items:
   nameWithType: TicketCategoryFlags.ListInMain
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.ListInMain
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Show category in status view\n"
+  summary: '8: Show category in status view'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags ListInMain
+    content: >-
+      [EnumMember]
+
+      ListInMain = 8
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const ListInMain As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ListInMain = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
   id: RedelegateNewMsg
@@ -230,24 +201,26 @@ items:
   nameWithType: TicketCategoryFlags.RedelegateNewMsg
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.RedelegateNewMsg
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Reassign requests on new message if user is not present\n"
+  summary: '16: Reassign requests on new message if user is not present'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags RedelegateNewMsg
+    content: >-
+      [EnumMember]
+
+      RedelegateNewMsg = 16
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const RedelegateNewMsg As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      RedelegateNewMsg = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.DelegateToOurContact
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.DelegateToOurContact
   id: DelegateToOurContact
@@ -259,24 +232,26 @@ items:
   nameWithType: TicketCategoryFlags.DelegateToOurContact
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.DelegateToOurContact
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n32: Assign to our service contact if available\n"
+  summary: '32: Assign to our service contact if available'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags DelegateToOurContact
+    content: >-
+      [EnumMember]
+
+      DelegateToOurContact = 32
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const DelegateToOurContact As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      DelegateToOurContact = 32
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
   id: PropagateReplyTemplate
@@ -288,24 +263,26 @@ items:
   nameWithType: TicketCategoryFlags.PropagateReplyTemplate
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.PropagateReplyTemplate
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n64: Merge outbound e-mails for this category with reply template\n"
+  summary: '64: Merge outbound e-mails for this category with reply template'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags PropagateReplyTemplate
+    content: >-
+      [EnumMember]
+
+      PropagateReplyTemplate = 64
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const PropagateReplyTemplate As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PropagateReplyTemplate = 64
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.MembersOnly
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.MembersOnly
   id: MembersOnly
@@ -317,24 +294,26 @@ items:
   nameWithType: TicketCategoryFlags.MembersOnly
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.MembersOnly
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n128: Only members have access to requests in this category\n"
+  summary: '128: Only members have access to requests in this category'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags MembersOnly
+    content: >-
+      [EnumMember]
+
+      MembersOnly = 128
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const MembersOnly As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      MembersOnly = 128
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.NotifyMembers
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.NotifyMembers
   id: NotifyMembers
@@ -346,24 +325,26 @@ items:
   nameWithType: TicketCategoryFlags.NotifyMembers
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.NotifyMembers
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n256: Send notification to members about new request\n"
+  summary: '256: Send notification to members about new request'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags NotifyMembers
+    content: >-
+      [EnumMember]
+
+      NotifyMembers = 256
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const NotifyMembers As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NotifyMembers = 256
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags.AcceptWhenReplying
   commentId: F:SuperOffice.WebApi.Data.TicketCategoryFlags.AcceptWhenReplying
   id: AcceptWhenReplying
@@ -375,55 +356,69 @@ items:
   nameWithType: TicketCategoryFlags.AcceptWhenReplying
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags.AcceptWhenReplying
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n512: Take ownership by default when replying\n"
+  summary: '512: Take ownership by default when replying'
+  example: []
   syntax:
-    content: public const TicketCategoryFlags AcceptWhenReplying
+    content: >-
+      [EnumMember]
+
+      AcceptWhenReplying = 512
     return:
       type: SuperOffice.WebApi.Data.TicketCategoryFlags
-    content.vb: Public Const AcceptWhenReplying As TicketCategoryFlags
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      AcceptWhenReplying = 512
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.TicketCategoryFlags
   commentId: T:SuperOffice.WebApi.Data.TicketCategoryFlags
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.TicketCategoryFlags.html
   name: TicketCategoryFlags
   nameWithType: TicketCategoryFlags
   fullName: SuperOffice.WebApi.Data.TicketCategoryFlags

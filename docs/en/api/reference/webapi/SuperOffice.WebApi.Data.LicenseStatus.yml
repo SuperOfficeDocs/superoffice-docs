@@ -13,64 +13,21 @@ items:
   - SuperOffice.WebApi.Data.LicenseStatus.UnknownError
   - SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
   - SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
-  - SuperOffice.WebApi.Data.LicenseStatus.value__
   langs:
   - csharp
   - vb
   name: LicenseStatus
   nameWithType: LicenseStatus
   fullName: SuperOffice.WebApi.Data.LicenseStatus
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nUsed in the CheckLicenseStatusResult to describe how SOADMIN should handle\n"
+  summary: Used in the CheckLicenseStatusResult to describe how SOADMIN should handle
+  example: []
   syntax:
-    content: 'public sealed class LicenseStatus : Enum'
-    content.vb: >-
-      Public NotInheritable Class LicenseStatus
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.LicenseStatus.value__
-  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.LicenseStatus
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: LicenseStatus.value__
-  fullName: SuperOffice.WebApi.Data.LicenseStatus.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum LicenseStatus
+    content.vb: Public Enum LicenseStatus
 - uid: SuperOffice.WebApi.Data.LicenseStatus.Ok
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.Ok
   id: Ok
@@ -82,24 +39,26 @@ items:
   nameWithType: LicenseStatus.Ok
   fullName: SuperOffice.WebApi.Data.LicenseStatus.Ok
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: License is ok. No changes detected\n"
+  summary: '0: License is ok. No changes detected'
+  example: []
   syntax:
-    content: public const LicenseStatus Ok
+    content: >-
+      [EnumMember]
+
+      Ok = 0
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const Ok As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Ok = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
   id: NewLicenseAvailable
@@ -111,24 +70,26 @@ items:
   nameWithType: LicenseStatus.NewLicenseAvailable
   fullName: SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: New license information available. Get new license and activate it.\n"
+  summary: '1: New license information available. Get new license and activate it.'
+  example: []
   syntax:
-    content: public const LicenseStatus NewLicenseAvailable
+    content: >-
+      [EnumMember]
+
+      NewLicenseAvailable = 1
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const NewLicenseAvailable As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewLicenseAvailable = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
   id: NewCompanyNameAvailable
@@ -140,24 +101,26 @@ items:
   nameWithType: LicenseStatus.NewCompanyNameAvailable
   fullName: SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Name change detected. Fetch new license and activate it.\n"
+  summary: '2: Name change detected. Fetch new license and activate it.'
+  example: []
   syntax:
-    content: public const LicenseStatus NewCompanyNameAvailable
+    content: >-
+      [EnumMember]
+
+      NewCompanyNameAvailable = 2
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const NewCompanyNameAvailable As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewCompanyNameAvailable = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
   id: NewSerialAvailable
@@ -169,24 +132,26 @@ items:
   nameWithType: LicenseStatus.NewSerialAvailable
   fullName: SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: Serial number change detected. Fetch new license and activate it.\n"
+  summary: '3: Serial number change detected. Fetch new license and activate it.'
+  example: []
   syntax:
-    content: public const LicenseStatus NewSerialAvailable
+    content: >-
+      [EnumMember]
+
+      NewSerialAvailable = 3
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const NewSerialAvailable As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      NewSerialAvailable = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
   id: UseCustomMessage
@@ -198,24 +163,26 @@ items:
   nameWithType: LicenseStatus.UseCustomMessage
   fullName: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: See message for details.\n"
+  summary: '4: See message for details.'
+  example: []
   syntax:
-    content: public const LicenseStatus UseCustomMessage
+    content: >-
+      [EnumMember]
+
+      UseCustomMessage = 4
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const UseCustomMessage As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UseCustomMessage = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
   id: UseCustomMessageAndUrl
@@ -227,24 +194,26 @@ items:
   nameWithType: LicenseStatus.UseCustomMessageAndUrl
   fullName: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: See message and URL for details. Client should make URL clickable.\n"
+  summary: '5: See message and URL for details. Client should make URL clickable.'
+  example: []
   syntax:
-    content: public const LicenseStatus UseCustomMessageAndUrl
+    content: >-
+      [EnumMember]
+
+      UseCustomMessageAndUrl = 5
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const UseCustomMessageAndUrl As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UseCustomMessageAndUrl = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LicenseStatus.ProblemWithLicense
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.ProblemWithLicense
   id: ProblemWithLicense
@@ -256,24 +225,26 @@ items:
   nameWithType: LicenseStatus.ProblemWithLicense
   fullName: SuperOffice.WebApi.Data.LicenseStatus.ProblemWithLicense
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n100: Something seems to be wrong. Cannot fetch new license.\n"
+  summary: '100: Something seems to be wrong. Cannot fetch new license.'
+  example: []
   syntax:
-    content: public const LicenseStatus ProblemWithLicense
+    content: >-
+      [EnumMember]
+
+      ProblemWithLicense = 100
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const ProblemWithLicense As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ProblemWithLicense = 100
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LicenseStatus.UnknownError
   commentId: F:SuperOffice.WebApi.Data.LicenseStatus.UnknownError
   id: UnknownError
@@ -285,55 +256,69 @@ items:
   nameWithType: LicenseStatus.UnknownError
   fullName: SuperOffice.WebApi.Data.LicenseStatus.UnknownError
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5000: Bad things are happening.\n"
+  summary: '5000: Bad things are happening.'
+  example: []
   syntax:
-    content: public const LicenseStatus UnknownError
+    content: >-
+      [EnumMember]
+
+      UnknownError = 5000
     return:
       type: SuperOffice.WebApi.Data.LicenseStatus
-    content.vb: Public Const UnknownError As LicenseStatus
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UnknownError = 5000
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.LicenseStatus
   commentId: T:SuperOffice.WebApi.Data.LicenseStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.LicenseStatus.html
   name: LicenseStatus
   nameWithType: LicenseStatus
   fullName: SuperOffice.WebApi.Data.LicenseStatus

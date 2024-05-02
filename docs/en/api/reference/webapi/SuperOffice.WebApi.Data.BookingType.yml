@@ -9,64 +9,21 @@ items:
   - SuperOffice.WebApi.Data.BookingType.Owner
   - SuperOffice.WebApi.Data.BookingType.Participant
   - SuperOffice.WebApi.Data.BookingType.Unknown
-  - SuperOffice.WebApi.Data.BookingType.value__
   langs:
   - csharp
   - vb
   name: BookingType
   nameWithType: BookingType
   fullName: SuperOffice.WebApi.Data.BookingType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe type of booking the appointment represents\n"
+  summary: The type of booking the appointment represents
+  example: []
   syntax:
-    content: 'public sealed class BookingType : Enum'
-    content.vb: >-
-      Public NotInheritable Class BookingType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.BookingType.value__
-  commentId: F:SuperOffice.WebApi.Data.BookingType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.BookingType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: BookingType.value__
-  fullName: SuperOffice.WebApi.Data.BookingType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum BookingType
+    content.vb: Public Enum BookingType
 - uid: SuperOffice.WebApi.Data.BookingType.Unknown
   commentId: F:SuperOffice.WebApi.Data.BookingType.Unknown
   id: Unknown
@@ -78,24 +35,26 @@ items:
   nameWithType: BookingType.Unknown
   fullName: SuperOffice.WebApi.Data.BookingType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: 0: Unknown - used when initializing\n"
+  summary: '0: 0: Unknown - used when initializing'
+  example: []
   syntax:
-    content: public const BookingType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.BookingType
-    content.vb: Public Const Unknown As BookingType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BookingType.None
   commentId: F:SuperOffice.WebApi.Data.BookingType.None
   id: None
@@ -107,24 +66,26 @@ items:
   nameWithType: BookingType.None
   fullName: SuperOffice.WebApi.Data.BookingType.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: 1: Single appointment records\n"
+  summary: '1: 1: Single appointment records'
+  example: []
   syntax:
-    content: public const BookingType None
+    content: >-
+      [EnumMember]
+
+      None = 1
     return:
       type: SuperOffice.WebApi.Data.BookingType
-    content.vb: Public Const None As BookingType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BookingType.Owner
   commentId: F:SuperOffice.WebApi.Data.BookingType.Owner
   id: Owner
@@ -136,24 +97,26 @@ items:
   nameWithType: BookingType.Owner
   fullName: SuperOffice.WebApi.Data.BookingType.Owner
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: 2: Owner of a booking\n"
+  summary: '2: 2: Owner of a booking'
+  example: []
   syntax:
-    content: public const BookingType Owner
+    content: >-
+      [EnumMember]
+
+      Owner = 2
     return:
       type: SuperOffice.WebApi.Data.BookingType
-    content.vb: Public Const Owner As BookingType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Owner = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BookingType.Participant
   commentId: F:SuperOffice.WebApi.Data.BookingType.Participant
   id: Participant
@@ -165,55 +128,69 @@ items:
   nameWithType: BookingType.Participant
   fullName: SuperOffice.WebApi.Data.BookingType.Participant
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: 3: Participant of a booking\n"
+  summary: '3: 3: Participant of a booking'
+  example: []
   syntax:
-    content: public const BookingType Participant
+    content: >-
+      [EnumMember]
+
+      Participant = 3
     return:
       type: SuperOffice.WebApi.Data.BookingType
-    content.vb: Public Const Participant As BookingType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Participant = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.BookingType
   commentId: T:SuperOffice.WebApi.Data.BookingType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.BookingType.html
   name: BookingType
   nameWithType: BookingType
   fullName: SuperOffice.WebApi.Data.BookingType

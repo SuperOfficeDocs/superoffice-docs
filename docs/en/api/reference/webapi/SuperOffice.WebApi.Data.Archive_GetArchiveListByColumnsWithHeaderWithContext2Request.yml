@@ -22,25 +22,23 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
-    content: 'public class Archive_GetArchiveListByColumnsWithHeaderWithContext2Request : Object'
-    content.vb: >-
-      Public Class Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
-          Inherits Object
+    content: public class Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
+    content.vb: Public Class Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.#ctor
   commentId: M:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.#ctor
   id: '#ctor'
@@ -52,20 +50,16 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request()
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public Archive_GetArchiveListByColumnsWithHeaderWithContext2Request()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.New()
+  fullName.vb: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName
   id: ProviderName
@@ -77,12 +71,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string ProviderName { get; set; }
     parameters: []
@@ -90,12 +82,6 @@ items:
       type: System.String
     content.vb: Public Property ProviderName As String
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns
   id: Columns
@@ -107,12 +93,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string Columns { get; set; }
     parameters: []
@@ -120,12 +104,6 @@ items:
       type: System.String
     content.vb: Public Property Columns As String
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder
   id: SortOrder
@@ -137,12 +115,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string SortOrder { get; set; }
     parameters: []
@@ -150,12 +126,6 @@ items:
       type: System.String
     content.vb: Public Property SortOrder As String
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction
   id: Restriction
@@ -167,12 +137,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string Restriction { get; set; }
     parameters: []
@@ -180,12 +148,6 @@ items:
       type: System.String
     content.vb: Public Property Restriction As String
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities
   id: Entities
@@ -197,12 +159,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string Entities { get; set; }
     parameters: []
@@ -210,12 +170,6 @@ items:
       type: System.String
     content.vb: Public Property Entities As String
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page
   id: Page
@@ -227,12 +181,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public int Page { get; set; }
     parameters: []
@@ -240,12 +192,6 @@ items:
       type: System.Int32
     content.vb: Public Property Page As Integer
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize
   id: PageSize
@@ -257,12 +203,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public int PageSize { get; set; }
     parameters: []
@@ -270,12 +214,6 @@ items:
       type: System.Int32
     content.vb: Public Property PageSize As Integer
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options
   id: Options
@@ -287,12 +225,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string Options { get; set; }
     parameters: []
@@ -300,12 +236,6 @@ items:
       type: System.String
     content.vb: Public Property Options As String
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context
   commentId: P:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context
   id: Context
@@ -317,12 +247,10 @@ items:
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
+  example: []
   syntax:
     content: public string Context { get; set; }
     parameters: []
@@ -330,41 +258,295 @@ items:
       type: System.String
     content.vb: Public Property Context As String
   overload: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request__ctor
   name: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request
+  nameWithType.vb: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.New
+  fullName.vb: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_ProviderName
   name: ProviderName
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.ProviderName
@@ -372,36 +554,45 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_Columns
   name: Columns
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Columns
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_SortOrder
   name: SortOrder
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.SortOrder
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_Restriction
   name: Restriction
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Restriction
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_Entities
   name: Entities
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Entities
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_Page
   name: Page
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Page
@@ -409,24 +600,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_PageSize
   name: PageSize
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.PageSize
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_Options
   name: Options
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Options
 - uid: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context
   isExternal: true
+  href: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.html#SuperOffice_WebApi_Data_Archive_GetArchiveListByColumnsWithHeaderWithContext2Request_Context
   name: Context
   nameWithType: Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context
   fullName: SuperOffice.WebApi.Data.Archive_GetArchiveListByColumnsWithHeaderWithContext2Request.Context

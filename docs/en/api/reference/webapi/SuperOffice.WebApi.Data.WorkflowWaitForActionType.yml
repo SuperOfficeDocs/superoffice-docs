@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  id: WorkflowWaitForActionType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WorkflowWaitForActionType.FormSubmitted
+  - SuperOffice.WebApi.Data.WorkflowWaitForActionType.LinkClicked
+  - SuperOffice.WebApi.Data.WorkflowWaitForActionType.None
+  langs:
+  - csharp
+  - vb
+  name: WorkflowWaitForActionType
+  nameWithType: WorkflowWaitForActionType
+  fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Workflow action type
+
+    This Enum is used by:  workflow_wait_for_action.ActionType
+  example: []
+  syntax:
+    content: 'public enum WorkflowWaitForActionType : short'
+    content.vb: Public Enum WorkflowWaitForActionType As Short
+- uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType.None
+  commentId: F:SuperOffice.WebApi.Data.WorkflowWaitForActionType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowWaitForActionType.None
+  fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: None'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType.LinkClicked
+  commentId: F:SuperOffice.WebApi.Data.WorkflowWaitForActionType.LinkClicked
+  id: LinkClicked
+  parent: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  langs:
+  - csharp
+  - vb
+  name: LinkClicked
+  nameWithType: WorkflowWaitForActionType.LinkClicked
+  fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType.LinkClicked
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: LinkClicked'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      LinkClicked = 1
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+    content.vb: >-
+      <EnumMember>
+
+      LinkClicked = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType.FormSubmitted
+  commentId: F:SuperOffice.WebApi.Data.WorkflowWaitForActionType.FormSubmitted
+  id: FormSubmitted
+  parent: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  langs:
+  - csharp
+  - vb
+  name: FormSubmitted
+  nameWithType: WorkflowWaitForActionType.FormSubmitted
+  fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType.FormSubmitted
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: FormSubmitted'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      FormSubmitted = 2
+    return:
+      type: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+    content.vb: >-
+      <EnumMember>
+
+      FormSubmitted = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  commentId: T:SuperOffice.WebApi.Data.WorkflowWaitForActionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WorkflowWaitForActionType.html
+  name: WorkflowWaitForActionType
+  nameWithType: WorkflowWaitForActionType
+  fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType

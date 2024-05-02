@@ -19,29 +19,30 @@ items:
   nameWithType: CommandInfo
   fullName: SuperOffice.WebApi.Data.CommandInfo
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for CommandInfo.\nAn instance of this class describes a custom command, declared and implemented by a document plugin    \n"
+  summary: >-
+    Carrier object for CommandInfo.
+
+    An instance of this class describes a custom command, declared and implemented by a document plugin
+  example: []
   syntax:
-    content: 'public class CommandInfo : Object'
-    content.vb: >-
-      Public Class CommandInfo
-          Inherits Object
+    content: public class CommandInfo
+    content.vb: Public Class CommandInfo
   seealso:
   - linkId: SuperOffice.WebApi.Agents.DocumentAgent
     commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
   inheritance:
   - System.Object
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.CommandInfo.#ctor
   commentId: M:SuperOffice.WebApi.Data.CommandInfo.#ctor
   id: '#ctor'
@@ -53,21 +54,18 @@ items:
   nameWithType: CommandInfo.CommandInfo()
   fullName: SuperOffice.WebApi.Data.CommandInfo.CommandInfo()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public CommandInfo()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.CommandInfo.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: CommandInfo.New()
+  fullName.vb: SuperOffice.WebApi.Data.CommandInfo.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.CommandInfo.Name
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.Name
   id: Name
@@ -79,13 +77,11 @@ items:
   nameWithType: CommandInfo.Name
   fullName: SuperOffice.WebApi.Data.CommandInfo.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe programmatic name of the command, uniquely identifying this command for the document plugin.\n"
+  summary: The programmatic name of the command, uniquely identifying this command for the document plugin.
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -93,14 +89,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.CommandInfo.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CommandInfo.DisplayName
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.DisplayName
   id: DisplayName
@@ -112,13 +100,11 @@ items:
   nameWithType: CommandInfo.DisplayName
   fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayName
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDisplay name, shown in menus, command lists and similar GUI elements.\n"
+  summary: Display name, shown in menus, command lists and similar GUI elements.
+  example: []
   syntax:
     content: public virtual string DisplayName { get; set; }
     parameters: []
@@ -126,14 +112,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayName As String
   overload: SuperOffice.WebApi.Data.CommandInfo.DisplayName*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
   id: DisplayTooltip
@@ -145,13 +123,11 @@ items:
   nameWithType: CommandInfo.DisplayTooltip
   fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTooltip string associate with the command - can be a literal or a tooltip hint.\n"
+  summary: Tooltip string associate with the command - can be a literal or a tooltip hint.
+  example: []
   syntax:
     content: public virtual string DisplayTooltip { get; set; }
     parameters: []
@@ -159,14 +135,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayTooltip As String
   overload: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CommandInfo.IconHint
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.IconHint
   id: IconHint
@@ -178,13 +146,11 @@ items:
   nameWithType: CommandInfo.IconHint
   fullName: SuperOffice.WebApi.Data.CommandInfo.IconHint
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nIcon hint, which should resolve to an icon that is compatible in size with a standard menu or dropdown list font. May be blank.\n"
+  summary: Icon hint, which should resolve to an icon that is compatible in size with a standard menu or dropdown list font. May be blank.
+  example: []
   syntax:
     content: public virtual string IconHint { get; set; }
     parameters: []
@@ -192,14 +158,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property IconHint As String
   overload: SuperOffice.WebApi.Data.CommandInfo.IconHint*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
   id: ReturnType_String
@@ -211,29 +169,36 @@ items:
   nameWithType: CommandInfo.ReturnType_String
   fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDeclaration of what kind of return type the execution of this command will give.\nRaw string enum value.\n"
+  summary: >-
+    Declaration of what kind of return type the execution of this command will give.
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string ReturnType_String { get; set; }
+    content: >-
+      [JsonProperty("ReturnType")]
+
+      public string ReturnType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property ReturnType_String As String
+    content.vb: >-
+      <JsonProperty("ReturnType")>
+
+      Public Property ReturnType_String As String
   overload: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.CommandInfo.ReturnType
     commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ReturnType
 - uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType
   id: ReturnType
@@ -245,64 +210,330 @@ items:
   nameWithType: CommandInfo.ReturnType
   fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDeclaration of what kind of return type the execution of this command will give.\nNULL if unknown enum value.\n"
+  summary: >-
+    Declaration of what kind of return type the execution of this command will give.
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<ReturnType> ReturnType { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public ReturnType? ReturnType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ReturnType}
-    content.vb: Public Property ReturnType As Nullable(Of ReturnType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ReturnType As ReturnType?
   overload: SuperOffice.WebApi.Data.CommandInfo.ReturnType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
     commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DocumentAgent.html
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: SuperOffice.WebApi.Agents.DocumentAgent
-  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: DocumentAgent
-  nameWithType: DocumentAgent
-  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.CommandInfo.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo__ctor
   name: CommandInfo
   nameWithType: CommandInfo.CommandInfo
   fullName: SuperOffice.WebApi.Data.CommandInfo.CommandInfo
+  nameWithType.vb: CommandInfo.New
+  fullName.vb: SuperOffice.WebApi.Data.CommandInfo.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.CommandInfo.Name*
   commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_Name
   name: Name
   nameWithType: CommandInfo.Name
   fullName: SuperOffice.WebApi.Data.CommandInfo.Name
@@ -310,123 +541,107 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.CommandInfo.DisplayName*
   commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.DisplayName
   isExternal: true
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_DisplayName
   name: DisplayName
   nameWithType: CommandInfo.DisplayName
   fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayName
 - uid: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip*
   commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
   isExternal: true
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_DisplayTooltip
   name: DisplayTooltip
   nameWithType: CommandInfo.DisplayTooltip
   fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
 - uid: SuperOffice.WebApi.Data.CommandInfo.IconHint*
   commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.IconHint
   isExternal: true
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_IconHint
   name: IconHint
   nameWithType: CommandInfo.IconHint
   fullName: SuperOffice.WebApi.Data.CommandInfo.IconHint
-- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
-  isExternal: true
-  name: ReturnType_String
-  nameWithType: CommandInfo.ReturnType_String
-  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
 - uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType
   isExternal: true
-- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType*
-  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.ReturnType
-  isExternal: true
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_ReturnType
   name: ReturnType
   nameWithType: CommandInfo.ReturnType
   fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_ReturnType_String
+  name: ReturnType_String
+  nameWithType: CommandInfo.ReturnType_String
+  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
 - uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
   commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.ReturnType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ReturnType}'
-  definition: System.Nullable`1
-  name: Nullable<ReturnType>
-  nameWithType: Nullable<ReturnType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.ReturnType>
-  nameWithType.vb: Nullable(Of ReturnType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ReturnType)
-  name.vb: Nullable(Of ReturnType)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.ReturnType
-    name: ReturnType
-    nameWithType: ReturnType
-    fullName: SuperOffice.WebApi.Data.ReturnType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.ReturnType
-    name: ReturnType
-    nameWithType: ReturnType
-    fullName: SuperOffice.WebApi.Data.ReturnType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_ReturnType_String
+  name: ReturnType_String
+  nameWithType: CommandInfo.ReturnType_String
+  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.ReturnType
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.CommandInfo.html#SuperOffice_WebApi_Data_CommandInfo_ReturnType
+  name: ReturnType
+  nameWithType: CommandInfo.ReturnType
+  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType
+- uid: System.Nullable{SuperOffice.WebApi.Data.ReturnType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ReturnType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ReturnType.html
+  name: ReturnType?
+  nameWithType: ReturnType?
+  fullName: SuperOffice.WebApi.Data.ReturnType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ReturnType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ReturnType
+    name: ReturnType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ReturnType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )

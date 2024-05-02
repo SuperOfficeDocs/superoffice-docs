@@ -13,64 +13,21 @@ items:
   - SuperOffice.WebApi.Data.BatchTaskState.Succeeded
   - SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
   - SuperOffice.WebApi.Data.BatchTaskState.Unknown
-  - SuperOffice.WebApi.Data.BatchTaskState.value__
   langs:
   - csharp
   - vb
   name: BatchTaskState
   nameWithType: BatchTaskState
   fullName: SuperOffice.WebApi.Data.BatchTaskState
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n\n"
+  summary: ''
+  example: []
   syntax:
-    content: 'public sealed class BatchTaskState : Enum'
-    content.vb: >-
-      Public NotInheritable Class BatchTaskState
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.BatchTaskState.value__
-  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.BatchTaskState
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: BatchTaskState.value__
-  fullName: SuperOffice.WebApi.Data.BatchTaskState.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum BatchTaskState
+    content.vb: Public Enum BatchTaskState
 - uid: SuperOffice.WebApi.Data.BatchTaskState.Unknown
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Unknown
   id: Unknown
@@ -82,24 +39,26 @@ items:
   nameWithType: BatchTaskState.Unknown
   fullName: SuperOffice.WebApi.Data.BatchTaskState.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown state of the task.\n"
+  summary: '0: Unknown state of the task.'
+  example: []
   syntax:
-    content: public const BatchTaskState Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const Unknown As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BatchTaskState.New
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.New
   id: New
@@ -111,24 +70,26 @@ items:
   nameWithType: BatchTaskState.New
   fullName: SuperOffice.WebApi.Data.BatchTaskState.New
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: The task is new, but not assigned or run by any party.\n"
+  summary: '1: The task is new, but not assigned or run by any party.'
+  example: []
   syntax:
-    content: public const BatchTaskState New
+    content: >-
+      [EnumMember]
+
+      New = 1
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const New As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      New = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BatchTaskState.Aquired
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Aquired
   id: Aquired
@@ -140,24 +101,26 @@ items:
   nameWithType: BatchTaskState.Aquired
   fullName: SuperOffice.WebApi.Data.BatchTaskState.Aquired
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: The task has been aquired by an instance that wants to execute the task, but has not been started.\n"
+  summary: '2: The task has been aquired by an instance that wants to execute the task, but has not been started.'
+  example: []
   syntax:
-    content: public const BatchTaskState Aquired
+    content: >-
+      [EnumMember]
+
+      Aquired = 2
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const Aquired As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Aquired = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BatchTaskState.Started
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Started
   id: Started
@@ -169,24 +132,26 @@ items:
   nameWithType: BatchTaskState.Started
   fullName: SuperOffice.WebApi.Data.BatchTaskState.Started
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: The task is executing.\n"
+  summary: '3: The task is executing.'
+  example: []
   syntax:
-    content: public const BatchTaskState Started
+    content: >-
+      [EnumMember]
+
+      Started = 3
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const Started As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Started = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BatchTaskState.Succeeded
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Succeeded
   id: Succeeded
@@ -198,24 +163,26 @@ items:
   nameWithType: BatchTaskState.Succeeded
   fullName: SuperOffice.WebApi.Data.BatchTaskState.Succeeded
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Executing the task has completed successfully.\n"
+  summary: '4: Executing the task has completed successfully.'
+  example: []
   syntax:
-    content: public const BatchTaskState Succeeded
+    content: >-
+      [EnumMember]
+
+      Succeeded = 4
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const Succeeded As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Succeeded = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BatchTaskState.Failed
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Failed
   id: Failed
@@ -227,24 +194,26 @@ items:
   nameWithType: BatchTaskState.Failed
   fullName: SuperOffice.WebApi.Data.BatchTaskState.Failed
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: Executing the task has halted and the task failed.   \n"
+  summary: '5: Executing the task has halted and the task failed.'
+  example: []
   syntax:
-    content: public const BatchTaskState Failed
+    content: >-
+      [EnumMember]
+
+      Failed = 5
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const Failed As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Failed = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
   id: SucceededManualCleanup
@@ -256,24 +225,26 @@ items:
   nameWithType: BatchTaskState.SucceededManualCleanup
   fullName: SuperOffice.WebApi.Data.BatchTaskState.SucceededManualCleanup
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: Executing the task has completed successfully, and related data will be cleaned up by the responsible code.\n"
+  summary: '6: Executing the task has completed successfully, and related data will be cleaned up by the responsible code.'
+  example: []
   syntax:
-    content: public const BatchTaskState SucceededManualCleanup
+    content: >-
+      [EnumMember]
+
+      SucceededManualCleanup = 6
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const SucceededManualCleanup As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      SucceededManualCleanup = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.BatchTaskState.All
   commentId: F:SuperOffice.WebApi.Data.BatchTaskState.All
   id: All
@@ -285,55 +256,69 @@ items:
   nameWithType: BatchTaskState.All
   fullName: SuperOffice.WebApi.Data.BatchTaskState.All
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n99999: Special type. \n"
+  summary: '99999: Special type.'
+  example: []
   syntax:
-    content: public const BatchTaskState All
+    content: >-
+      [EnumMember]
+
+      All = 99999
     return:
       type: SuperOffice.WebApi.Data.BatchTaskState
-    content.vb: Public Const All As BatchTaskState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      All = 99999
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.BatchTaskState
   commentId: T:SuperOffice.WebApi.Data.BatchTaskState
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.BatchTaskState.html
   name: BatchTaskState
   nameWithType: BatchTaskState
   fullName: SuperOffice.WebApi.Data.BatchTaskState

@@ -23,64 +23,21 @@ items:
   - SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
   - SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
   - SuperOffice.WebApi.Data.LocalizedTextType.Unknown
-  - SuperOffice.WebApi.Data.LocalizedTextType.value__
   langs:
   - csharp
   - vb
   name: LocalizedTextType
   nameWithType: LocalizedTextType
   fullName: SuperOffice.WebApi.Data.LocalizedTextType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe type of the locale text strings\n"
+  summary: The type of the locale text strings
+  example: []
   syntax:
-    content: 'public sealed class LocalizedTextType : Enum'
-    content.vb: >-
-      Public NotInheritable Class LocalizedTextType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.LocalizedTextType.value__
-  commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.LocalizedTextType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: LocalizedTextType.value__
-  fullName: SuperOffice.WebApi.Data.LocalizedTextType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum LocalizedTextType
+    content.vb: Public Enum LocalizedTextType
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.Unknown
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Unknown
   id: Unknown
@@ -92,24 +49,26 @@ items:
   nameWithType: LocalizedTextType.Unknown
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.Unknown
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown - used when initializing\n"
+  summary: '0: Unknown - used when initializing'
+  example: []
   syntax:
-    content: public const LocalizedTextType Unknown
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const Unknown As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.Label
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Label
   id: Label
@@ -121,24 +80,26 @@ items:
   nameWithType: LocalizedTextType.Label
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.Label
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: 1 = fieldlabels \n"
+  summary: '1: 1 = fieldlabels'
+  example: []
   syntax:
-    content: public const LocalizedTextType Label
+    content: >-
+      [EnumMember]
+
+      Label = 1
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const Label As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Label = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.Table
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Table
   id: Table
@@ -150,24 +111,26 @@ items:
   nameWithType: LocalizedTextType.Table
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.Table
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: \n"
+  summary: '2:'
+  example: []
   syntax:
-    content: public const LocalizedTextType Table
+    content: >-
+      [EnumMember]
+
+      Table = 2
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const Table As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Table = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.Column
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.Column
   id: Column
@@ -179,24 +142,26 @@ items:
   nameWithType: LocalizedTextType.Column
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.Column
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: \n"
+  summary: '3:'
+  example: []
   syntax:
-    content: public const LocalizedTextType Column
+    content: >-
+      [EnumMember]
+
+      Column = 3
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const Column As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Column = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.ImportField
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.ImportField
   id: ImportField
@@ -208,24 +173,26 @@ items:
   nameWithType: LocalizedTextType.ImportField
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.ImportField
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: 4 - import system field names \n"
+  summary: '4: 4 - import system field names'
+  example: []
   syntax:
-    content: public const LocalizedTextType ImportField
+    content: >-
+      [EnumMember]
+
+      ImportField = 4
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const ImportField As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ImportField = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.ImportObject
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.ImportObject
   id: ImportObject
@@ -237,24 +204,26 @@ items:
   nameWithType: LocalizedTextType.ImportObject
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.ImportObject
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n5: 5 - import system table names\n"
+  summary: '5: 5 - import system table names'
+  example: []
   syntax:
-    content: public const LocalizedTextType ImportObject
+    content: >-
+      [EnumMember]
+
+      ImportObject = 5
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const ImportObject As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ImportObject = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.ImportGUICategory
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.ImportGUICategory
   id: ImportGUICategory
@@ -266,24 +235,26 @@ items:
   nameWithType: LocalizedTextType.ImportGUICategory
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.ImportGUICategory
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n6: 6 - import system table groups\n"
+  summary: '6: 6 - import system table groups'
+  example: []
   syntax:
-    content: public const LocalizedTextType ImportGUICategory
+    content: >-
+      [EnumMember]
+
+      ImportGUICategory = 6
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const ImportGUICategory As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      ImportGUICategory = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.StartupHints
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.StartupHints
   id: StartupHints
@@ -295,24 +266,26 @@ items:
   nameWithType: LocalizedTextType.StartupHints
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.StartupHints
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n7: 7  (languageid > 0)\n"
+  summary: '7: 7  (languageid &gt; 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType StartupHints
+    content: >-
+      [EnumMember]
+
+      StartupHints = 7
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const StartupHints As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      StartupHints = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightLabel
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightLabel
   id: FunctionRightLabel
@@ -324,24 +297,26 @@ items:
   nameWithType: LocalizedTextType.FunctionRightLabel
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightLabel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n11: 11 (languageid > 0)\n"
+  summary: '11: 11 (languageid &gt; 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType FunctionRightLabel
+    content: >-
+      [EnumMember]
+
+      FunctionRightLabel = 11
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const FunctionRightLabel As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      FunctionRightLabel = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightDesc
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightDesc
   id: FunctionRightDesc
@@ -353,24 +328,26 @@ items:
   nameWithType: LocalizedTextType.FunctionRightDesc
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.FunctionRightDesc
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n12: 12 (languageid > 0)\n"
+  summary: '12: 12 (languageid &gt; 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType FunctionRightDesc
+    content: >-
+      [EnumMember]
+
+      FunctionRightDesc = 12
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const FunctionRightDesc As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      FunctionRightDesc = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.StatusMonitorName
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.StatusMonitorName
   id: StatusMonitorName
@@ -382,24 +359,26 @@ items:
   nameWithType: LocalizedTextType.StatusMonitorName
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.StatusMonitorName
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: languageid = 0\n"
+  summary: '16: languageid = 0'
+  example: []
   syntax:
-    content: public const LocalizedTextType StatusMonitorName
+    content: >-
+      [EnumMember]
+
+      StatusMonitorName = 16
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const StatusMonitorName As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      StatusMonitorName = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefContactLabel
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefContactLabel
   id: UdefContactLabel
@@ -411,24 +390,26 @@ items:
   nameWithType: LocalizedTextType.UdefContactLabel
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefContactLabel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n19: 19  (languageid = 0)\n"
+  summary: '19: 19  (languageid = 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType UdefContactLabel
+    content: >-
+      [EnumMember]
+
+      UdefContactLabel = 19
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const UdefContactLabel As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UdefContactLabel = 19
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefPersonLabel
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefPersonLabel
   id: UdefPersonLabel
@@ -440,24 +421,26 @@ items:
   nameWithType: LocalizedTextType.UdefPersonLabel
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefPersonLabel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n20: 20  (languageid = 0)\n"
+  summary: '20: 20  (languageid = 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType UdefPersonLabel
+    content: >-
+      [EnumMember]
+
+      UdefPersonLabel = 20
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const UdefPersonLabel As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UdefPersonLabel = 20
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
   id: UdefProjectLabel
@@ -469,24 +452,26 @@ items:
   nameWithType: LocalizedTextType.UdefProjectLabel
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefProjectLabel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n21: 21  (languageid = 0)\n"
+  summary: '21: 21  (languageid = 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType UdefProjectLabel
+    content: >-
+      [EnumMember]
+
+      UdefProjectLabel = 21
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const UdefProjectLabel As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UdefProjectLabel = 21
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
   id: UdefSaleLabel
@@ -498,24 +483,26 @@ items:
   nameWithType: LocalizedTextType.UdefSaleLabel
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefSaleLabel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n22: 22 (languageid = 0) \n"
+  summary: '22: 22 (languageid = 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType UdefSaleLabel
+    content: >-
+      [EnumMember]
+
+      UdefSaleLabel = 22
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const UdefSaleLabel As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UdefSaleLabel = 22
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefAppointmentLabel
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefAppointmentLabel
   id: UdefAppointmentLabel
@@ -527,24 +514,26 @@ items:
   nameWithType: LocalizedTextType.UdefAppointmentLabel
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefAppointmentLabel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n23: 23 (languageid = 0)\n"
+  summary: '23: 23 (languageid = 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType UdefAppointmentLabel
+    content: >-
+      [EnumMember]
+
+      UdefAppointmentLabel = 23
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const UdefAppointmentLabel As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UdefAppointmentLabel = 23
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.UdefDocumentLabel
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.UdefDocumentLabel
   id: UdefDocumentLabel
@@ -556,24 +545,26 @@ items:
   nameWithType: LocalizedTextType.UdefDocumentLabel
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.UdefDocumentLabel
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n24: 24 (languageid = 0)\n"
+  summary: '24: 24 (languageid = 0)'
+  example: []
   syntax:
-    content: public const LocalizedTextType UdefDocumentLabel
+    content: >-
+      [EnumMember]
+
+      UdefDocumentLabel = 24
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const UdefDocumentLabel As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      UdefDocumentLabel = 24
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.LocalizedTextType.PushNotificationText
   commentId: F:SuperOffice.WebApi.Data.LocalizedTextType.PushNotificationText
   id: PushNotificationText
@@ -585,55 +576,69 @@ items:
   nameWithType: LocalizedTextType.PushNotificationText
   fullName: SuperOffice.WebApi.Data.LocalizedTextType.PushNotificationText
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n41: 41 - push notification tex\n"
+  summary: '41: 41 - push notification tex'
+  example: []
   syntax:
-    content: public const LocalizedTextType PushNotificationText
+    content: >-
+      [EnumMember]
+
+      PushNotificationText = 41
     return:
       type: SuperOffice.WebApi.Data.LocalizedTextType
-    content.vb: Public Const PushNotificationText As LocalizedTextType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      PushNotificationText = 41
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.LocalizedTextType
   commentId: T:SuperOffice.WebApi.Data.LocalizedTextType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.LocalizedTextType.html
   name: LocalizedTextType
   nameWithType: LocalizedTextType
   fullName: SuperOffice.WebApi.Data.LocalizedTextType

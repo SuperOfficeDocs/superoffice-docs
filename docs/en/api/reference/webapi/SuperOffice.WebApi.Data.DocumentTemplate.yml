@@ -27,20 +27,25 @@ items:
   nameWithType: DocumentTemplate
   fullName: SuperOffice.WebApi.Data.DocumentTemplate
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for DocumentTemplate.\nThe template a document is based on is stored in the SO_arc\\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.    \n"
+  summary: >-
+    Carrier object for DocumentTemplate.
+
+    The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
   example:
-  - "\nGet DocumentTemplate 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar documentTemplate = agent.GetDocumentTemplate( 123 );</code></pre>\n"
+  - >-
+    Get DocumentTemplate 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ListAgent(configuration);
+
+    var documentTemplate = agent.GetDocumentTemplate( 123 );</code></pre>
   syntax:
     content: 'public class DocumentTemplate : Carrier'
-    content.vb: >-
-      Public Class DocumentTemplate
-          Inherits Carrier
+    content.vb: Public Class DocumentTemplate Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ListAgent
     commentId: T:SuperOffice.WebApi.Agents.ListAgent
@@ -50,12 +55,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.#ctor
   commentId: M:SuperOffice.WebApi.Data.DocumentTemplate.#ctor
   id: '#ctor'
@@ -67,21 +73,18 @@ items:
   nameWithType: DocumentTemplate.DocumentTemplate()
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplate()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public DocumentTemplate()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.DocumentTemplate.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: DocumentTemplate.New()
+  fullName.vb: SuperOffice.WebApi.Data.DocumentTemplate.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplateId
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplateId
   id: DocumentTemplateId
@@ -93,13 +96,11 @@ items:
   nameWithType: DocumentTemplate.DocumentTemplateId
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nPrimary key\n"
+  summary: Primary key
+  example: []
   syntax:
     content: public virtual int DocumentTemplateId { get; set; }
     parameters: []
@@ -107,14 +108,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DocumentTemplateId As Integer
   overload: SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Name
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Name
   id: Name
@@ -126,13 +119,11 @@ items:
   nameWithType: DocumentTemplate.Name
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe list item\n"
+  summary: The list item
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -140,14 +131,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.DocumentTemplate.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Tooltip
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Tooltip
   id: Tooltip
@@ -159,13 +142,11 @@ items:
   nameWithType: DocumentTemplate.Tooltip
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Tooltip
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nTooltip or other description\n"
+  summary: Tooltip or other description
+  example: []
   syntax:
     content: public virtual string Tooltip { get; set; }
     parameters: []
@@ -173,14 +154,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.WebApi.Data.DocumentTemplate.Tooltip*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.SaveInDb
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.SaveInDb
   id: SaveInDb
@@ -192,13 +165,11 @@ items:
   nameWithType: DocumentTemplate.SaveInDb
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.SaveInDb
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1 = save document records in DB; otherwise not.\n"
+  summary: 1 = save document records in DB; otherwise not.
+  example: []
   syntax:
     content: public virtual short SaveInDb { get; set; }
     parameters: []
@@ -206,14 +177,6 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property SaveInDb As Short
   overload: SuperOffice.WebApi.Data.DocumentTemplate.SaveInDb*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Filename
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Filename
   id: Filename
@@ -225,13 +188,11 @@ items:
   nameWithType: DocumentTemplate.Filename
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Filename
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRelative to TemplatePath\n"
+  summary: Relative to TemplatePath
+  example: []
   syntax:
     content: public virtual string Filename { get; set; }
     parameters: []
@@ -239,14 +200,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Filename As String
   overload: SuperOffice.WebApi.Data.DocumentTemplate.Filename*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.DefaultOref
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.DefaultOref
   id: DefaultOref
@@ -258,13 +211,11 @@ items:
   nameWithType: DocumentTemplate.DefaultOref
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.DefaultOref
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nProcessed via tag substitution to give document reference\n"
+  summary: Processed via tag substitution to give document reference
+  example: []
   syntax:
     content: public virtual string DefaultOref { get; set; }
     parameters: []
@@ -272,14 +223,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property DefaultOref As String
   overload: SuperOffice.WebApi.Data.DocumentTemplate.DefaultOref*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
   id: RecordType_String
@@ -291,29 +234,36 @@ items:
   nameWithType: DocumentTemplate.RecordType_String
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes\nRaw string enum value.\n"
+  summary: >-
+    1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string RecordType_String { get; set; }
+    content: >-
+      [JsonProperty("RecordType")]
+
+      public string RecordType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property RecordType_String As String
+    content.vb: >-
+      <JsonProperty("RecordType")>
+
+      Public Property RecordType_String As String
   overload: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.DocumentTemplate.RecordType
     commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.RecordType
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RecordType
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.RecordType
   id: RecordType
@@ -325,29 +275,34 @@ items:
   nameWithType: DocumentTemplate.RecordType
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.RecordType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes\nNULL if unknown enum value.\n"
+  summary: >-
+    1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<DocTmplType> RecordType { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public DocTmplType? RecordType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.DocTmplType}
-    content.vb: Public Property RecordType As Nullable(Of DocTmplType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property RecordType As DocTmplType?
   overload: SuperOffice.WebApi.Data.DocumentTemplate.RecordType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
     commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Deleted
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Deleted
   id: Deleted
@@ -359,13 +314,11 @@ items:
   nameWithType: DocumentTemplate.Deleted
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Deleted
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  summary: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists
+  example: []
   syntax:
     content: public virtual short Deleted { get; set; }
     parameters: []
@@ -373,14 +326,6 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Deleted As Short
   overload: SuperOffice.WebApi.Data.DocumentTemplate.Deleted*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
   id: Direction_String
@@ -392,29 +337,36 @@ items:
   nameWithType: DocumentTemplate.Direction_String
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1 = incoming, 2 = outgoing, see EAppntDirection\nRaw string enum value.\n"
+  summary: >-
+    1 = incoming, 2 = outgoing, see EAppntDirection
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Direction_String { get; set; }
+    content: >-
+      [JsonProperty("Direction")]
+
+      public string Direction_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Direction_String As String
+    content.vb: >-
+      <JsonProperty("Direction")>
+
+      Public Property Direction_String As String
   overload: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.DocumentTemplate.Direction
     commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Direction
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Direction
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Direction
   id: Direction
@@ -426,29 +378,34 @@ items:
   nameWithType: DocumentTemplate.Direction
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Direction
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1 = incoming, 2 = outgoing, see EAppntDirection\nNULL if unknown enum value.\n"
+  summary: >-
+    1 = incoming, 2 = outgoing, see EAppntDirection
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<DocTmplDirection> Direction { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public DocTmplDirection? Direction { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.DocTmplDirection}
-    content.vb: Public Property Direction As Nullable(Of DocTmplDirection)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Direction As DocTmplDirection?
   overload: SuperOffice.WebApi.Data.DocumentTemplate.Direction*
   seealso:
   - linkId: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
     commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.AutoeventId
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.AutoeventId
   id: AutoeventId
@@ -460,13 +417,11 @@ items:
   nameWithType: DocumentTemplate.AutoeventId
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.AutoeventId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhich document plugin is responsible for the documents generated from this template\n"
+  summary: Which document plugin is responsible for the documents generated from this template
+  example: []
   syntax:
     content: public virtual int AutoeventId { get; set; }
     parameters: []
@@ -474,14 +429,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AutoeventId As Integer
   overload: SuperOffice.WebApi.Data.DocumentTemplate.AutoeventId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
   id: QuoteDocType_String
@@ -493,29 +440,36 @@ items:
   nameWithType: DocumentTemplate.QuoteDocType_String
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhat type of quote document is this.\nRaw string enum value.\n"
+  summary: >-
+    What type of quote document is this.
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string QuoteDocType_String { get; set; }
+    content: >-
+      [JsonProperty("QuoteDocType")]
+
+      public string QuoteDocType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property QuoteDocType_String As String
+    content.vb: >-
+      <JsonProperty("QuoteDocType")>
+
+      Public Property QuoteDocType_String As String
   overload: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
     commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: QuoteDocType
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
   id: QuoteDocType
@@ -527,47 +481,95 @@ items:
   nameWithType: DocumentTemplate.QuoteDocType
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nWhat type of quote document is this.\nNULL if unknown enum value.\n"
+  summary: >-
+    What type of quote document is this.
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<DocTmplQuoteType> QuoteDocType { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public DocTmplQuoteType? QuoteDocType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.DocTmplQuoteType}
-    content.vb: Public Property QuoteDocType As Nullable(Of DocTmplQuoteType)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property QuoteDocType As DocTmplQuoteType?
   overload: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
     commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -575,6 +577,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -582,30 +585,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.ListAgent
-  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.WebApi.Agents.ListAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate__ctor
   name: DocumentTemplate
   nameWithType: DocumentTemplate.DocumentTemplate
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplate
+  nameWithType.vb: DocumentTemplate.New
+  fullName.vb: SuperOffice.WebApi.Data.DocumentTemplate.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplateId*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_DocumentTemplateId
   name: DocumentTemplateId
   nameWithType: DocumentTemplate.DocumentTemplateId
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.DocumentTemplateId
@@ -613,12 +836,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Name*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Name
   name: Name
   nameWithType: DocumentTemplate.Name
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Name
@@ -626,18 +854,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Tooltip*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Tooltip
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Tooltip
   name: Tooltip
   nameWithType: DocumentTemplate.Tooltip
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Tooltip
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.SaveInDb*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.SaveInDb
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_SaveInDb
   name: SaveInDb
   nameWithType: DocumentTemplate.SaveInDb
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.SaveInDb
@@ -645,251 +879,210 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Filename*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Filename
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Filename
   name: Filename
   nameWithType: DocumentTemplate.Filename
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Filename
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.DefaultOref*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.DefaultOref
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_DefaultOref
   name: DefaultOref
   nameWithType: DocumentTemplate.DefaultOref
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.DefaultOref
-- uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
-  isExternal: true
-  name: RecordType_String
-  nameWithType: DocumentTemplate.RecordType_String
-  fullName: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.RecordType
   isExternal: true
-- uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType*
-  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.RecordType
-  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_RecordType
   name: RecordType
   nameWithType: DocumentTemplate.RecordType
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.RecordType
+- uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_RecordType_String
+  name: RecordType_String
+  nameWithType: DocumentTemplate.RecordType_String
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.DocTmplType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DocTmplType}'
-  definition: System.Nullable`1
-  name: Nullable<DocTmplType>
-  nameWithType: Nullable<DocTmplType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.DocTmplType>
-  nameWithType.vb: Nullable(Of DocTmplType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DocTmplType)
-  name.vb: Nullable(Of DocTmplType)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.DocTmplType
-    name: DocTmplType
-    nameWithType: DocTmplType
-    fullName: SuperOffice.WebApi.Data.DocTmplType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.DocTmplType
-    name: DocTmplType
-    nameWithType: DocTmplType
-    fullName: SuperOffice.WebApi.Data.DocTmplType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_RecordType_String
+  name: RecordType_String
+  nameWithType: DocumentTemplate.RecordType_String
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.RecordType_String
+- uid: SuperOffice.WebApi.Data.DocumentTemplate.RecordType*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.RecordType
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_RecordType
+  name: RecordType
+  nameWithType: DocumentTemplate.RecordType
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.RecordType
+- uid: System.Nullable{SuperOffice.WebApi.Data.DocTmplType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.DocTmplType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.DocTmplType.html
+  name: DocTmplType?
+  nameWithType: DocTmplType?
+  fullName: SuperOffice.WebApi.Data.DocTmplType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DocTmplType
+    name: DocTmplType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.DocTmplType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DocTmplType
+    name: DocTmplType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.DocTmplType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Deleted*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Deleted
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Deleted
   name: Deleted
   nameWithType: DocumentTemplate.Deleted
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Deleted
-- uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String*
-  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
-  isExternal: true
-  name: Direction_String
-  nameWithType: DocumentTemplate.Direction_String
-  fullName: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Direction
   isExternal: true
-- uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction*
-  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Direction
-  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Direction
   name: Direction
   nameWithType: DocumentTemplate.Direction
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.Direction
+- uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Direction_String
+  name: Direction_String
+  nameWithType: DocumentTemplate.Direction_String
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Direction_String
+  name: Direction_String
+  nameWithType: DocumentTemplate.Direction_String
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.Direction_String
+- uid: SuperOffice.WebApi.Data.DocumentTemplate.Direction*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.Direction
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_Direction
+  name: Direction
+  nameWithType: DocumentTemplate.Direction
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.Direction
 - uid: System.Nullable{SuperOffice.WebApi.Data.DocTmplDirection}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DocTmplDirection}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.DocTmplDirection}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<DocTmplDirection>
-  nameWithType: Nullable<DocTmplDirection>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.DocTmplDirection>
-  nameWithType.vb: Nullable(Of DocTmplDirection)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DocTmplDirection)
-  name.vb: Nullable(Of DocTmplDirection)
+  href: SuperOffice.WebApi.Data.DocTmplDirection.html
+  name: DocTmplDirection?
+  nameWithType: DocTmplDirection?
+  fullName: SuperOffice.WebApi.Data.DocTmplDirection?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.DocTmplDirection
     name: DocTmplDirection
-    nameWithType: DocTmplDirection
-    fullName: SuperOffice.WebApi.Data.DocTmplDirection
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.DocTmplDirection.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.DocTmplDirection
     name: DocTmplDirection
-    nameWithType: DocTmplDirection
-    fullName: SuperOffice.WebApi.Data.DocTmplDirection
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.DocTmplDirection.html
+  - name: '?'
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.AutoeventId*
   commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.AutoeventId
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_AutoeventId
   name: AutoeventId
   nameWithType: DocumentTemplate.AutoeventId
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.AutoeventId
-- uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
-  isExternal: true
-  name: QuoteDocType_String
-  nameWithType: DocumentTemplate.QuoteDocType_String
-  fullName: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
   isExternal: true
-- uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType*
-  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
-  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_QuoteDocType
   name: QuoteDocType
   nameWithType: DocumentTemplate.QuoteDocType
   fullName: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
+- uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_QuoteDocType_String
+  name: QuoteDocType_String
+  nameWithType: DocumentTemplate.QuoteDocType_String
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
 - uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
   commentId: P:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
   isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_QuoteDocType_String
+  name: QuoteDocType_String
+  nameWithType: DocumentTemplate.QuoteDocType_String
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType_String
+- uid: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType*
+  commentId: Overload:SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DocumentTemplate.html#SuperOffice_WebApi_Data_DocumentTemplate_QuoteDocType
+  name: QuoteDocType
+  nameWithType: DocumentTemplate.QuoteDocType
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate.QuoteDocType
 - uid: System.Nullable{SuperOffice.WebApi.Data.DocTmplQuoteType}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.DocTmplQuoteType}'
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.DocTmplQuoteType}
+  parent: System
   definition: System.Nullable`1
-  name: Nullable<DocTmplQuoteType>
-  nameWithType: Nullable<DocTmplQuoteType>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.DocTmplQuoteType>
-  nameWithType.vb: Nullable(Of DocTmplQuoteType)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.DocTmplQuoteType)
-  name.vb: Nullable(Of DocTmplQuoteType)
+  href: SuperOffice.WebApi.Data.DocTmplQuoteType.html
+  name: DocTmplQuoteType?
+  nameWithType: DocTmplQuoteType?
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType?
   spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
   - uid: SuperOffice.WebApi.Data.DocTmplQuoteType
     name: DocTmplQuoteType
-    nameWithType: DocTmplQuoteType
-    fullName: SuperOffice.WebApi.Data.DocTmplQuoteType
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+    href: SuperOffice.WebApi.Data.DocTmplQuoteType.html
+  - name: '?'
   spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.DocTmplQuoteType
     name: DocTmplQuoteType
-    nameWithType: DocTmplQuoteType
-    fullName: SuperOffice.WebApi.Data.DocTmplQuoteType
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+    href: SuperOffice.WebApi.Data.DocTmplQuoteType.html
+  - name: '?'

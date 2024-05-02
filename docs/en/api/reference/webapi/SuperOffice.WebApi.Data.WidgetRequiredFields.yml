@@ -11,64 +11,36 @@ items:
   - SuperOffice.WebApi.Data.WidgetRequiredFields.Name
   - SuperOffice.WebApi.Data.WidgetRequiredFields.None
   - SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
-  - SuperOffice.WebApi.Data.WidgetRequiredFields.value__
   langs:
   - csharp
   - vb
   name: WidgetRequiredFields
   nameWithType: WidgetRequiredFields
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nChat Topic required fields in pre-form.\nThis Enum is used by:  chat_topic.widget_offline_fields; chat_topic.widget_required_fields\nThis Enum consists of flag values that can be combined.\n"
-  syntax:
-    content: 'public sealed class WidgetRequiredFields : Enum'
-    content.vb: >-
-      Public NotInheritable Class WidgetRequiredFields
-          Inherits
+  summary: >-
+    Chat Topic required fields in pre-form.
 
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.WidgetRequiredFields.value__
-  commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.WidgetRequiredFields
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: WidgetRequiredFields.value__
-  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
+    This Enum is used by:  chat_topic.widget_offline_fields; chat_topic.widget_required_fields
+
+    This Enum consists of flag values that can be combined.
+  example: []
   syntax:
-    content: public short value__
-    return:
-      type: System.Int16
-    content.vb: Public value__ As Short
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: >-
+      [Flags]
+
+      public enum WidgetRequiredFields : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum WidgetRequiredFields As Short
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WidgetRequiredFields.None
   commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.None
   id: None
@@ -80,24 +52,15 @@ items:
   nameWithType: WidgetRequiredFields.None
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: No required fields\n"
+  summary: '0: No required fields'
+  example: []
   syntax:
-    content: public const WidgetRequiredFields None
+    content: None = 0
     return:
       type: SuperOffice.WebApi.Data.WidgetRequiredFields
-    content.vb: Public Const None As WidgetRequiredFields
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Email
   commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Email
   id: Email
@@ -109,24 +72,26 @@ items:
   nameWithType: WidgetRequiredFields.Email
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Email
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Email field is required\n"
+  summary: '1: Email field is required'
+  example: []
   syntax:
-    content: public const WidgetRequiredFields Email
+    content: >-
+      [EnumMember]
+
+      Email = 1
     return:
       type: SuperOffice.WebApi.Data.WidgetRequiredFields
-    content.vb: Public Const Email As WidgetRequiredFields
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Email = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Name
   commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Name
   id: Name
@@ -138,24 +103,26 @@ items:
   nameWithType: WidgetRequiredFields.Name
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Name
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Name field is required\n"
+  summary: '2: Name field is required'
+  example: []
   syntax:
-    content: public const WidgetRequiredFields Name
+    content: >-
+      [EnumMember]
+
+      Name = 2
     return:
       type: SuperOffice.WebApi.Data.WidgetRequiredFields
-    content.vb: Public Const Name As WidgetRequiredFields
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Name = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Company
   commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Company
   id: Company
@@ -167,24 +134,26 @@ items:
   nameWithType: WidgetRequiredFields.Company
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Company
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Company field is required\n"
+  summary: '4: Company field is required'
+  example: []
   syntax:
-    content: public const WidgetRequiredFields Company
+    content: >-
+      [EnumMember]
+
+      Company = 4
     return:
       type: SuperOffice.WebApi.Data.WidgetRequiredFields
-    content.vb: Public Const Company As WidgetRequiredFields
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Company = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
   commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
   id: Phone
@@ -196,24 +165,26 @@ items:
   nameWithType: WidgetRequiredFields.Phone
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n8: Phone field is required\n"
+  summary: '8: Phone field is required'
+  example: []
   syntax:
-    content: public const WidgetRequiredFields Phone
+    content: >-
+      [EnumMember]
+
+      Phone = 8
     return:
       type: SuperOffice.WebApi.Data.WidgetRequiredFields
-    content.vb: Public Const Phone As WidgetRequiredFields
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Phone = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Country
   commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Country
   id: Country
@@ -225,55 +196,69 @@ items:
   nameWithType: WidgetRequiredFields.Country
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Country
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n16: Country field is required\n"
+  summary: '16: Country field is required'
+  example: []
   syntax:
-    content: public const WidgetRequiredFields Country
+    content: >-
+      [EnumMember]
+
+      Country = 16
     return:
       type: SuperOffice.WebApi.Data.WidgetRequiredFields
-    content.vb: Public Const Country As WidgetRequiredFields
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Country = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.WidgetRequiredFields
   commentId: T:SuperOffice.WebApi.Data.WidgetRequiredFields
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.WidgetRequiredFields.html
   name: WidgetRequiredFields
   nameWithType: WidgetRequiredFields
   fullName: SuperOffice.WebApi.Data.WidgetRequiredFields

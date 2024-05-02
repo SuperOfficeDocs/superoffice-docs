@@ -24,20 +24,25 @@ items:
   nameWithType: HierarchyEntity
   fullName: SuperOffice.WebApi.Data.HierarchyEntity
   type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nCarrier object for HierarchyEntity.\nFolder structures    \n"
+  summary: >-
+    Carrier object for HierarchyEntity.
+
+    Folder structures
   example:
-  - "\nGet HierarchyEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar hierarchyEntity = agent.GetHierarchyEntity( 123 );</code></pre>\n"
+  - >-
+    Get HierarchyEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ListAgent(configuration);
+
+    var hierarchyEntity = agent.GetHierarchyEntity( 123 );</code></pre>
   syntax:
     content: 'public class HierarchyEntity : Carrier'
-    content.vb: >-
-      Public Class HierarchyEntity
-          Inherits Carrier
+    content.vb: Public Class HierarchyEntity Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ListAgent
     commentId: T:SuperOffice.WebApi.Agents.ListAgent
@@ -47,12 +52,13 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.HierarchyEntity.#ctor
   id: '#ctor'
@@ -64,21 +70,18 @@ items:
   nameWithType: HierarchyEntity.HierarchyEntity()
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyEntity()
   type: Constructor
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
   syntax:
     content: public HierarchyEntity()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: SuperOffice.WebApi.Data.HierarchyEntity.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: HierarchyEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.HierarchyEntity.New()
+  name.vb: New()
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
   id: HierarchyId
@@ -90,13 +93,11 @@ items:
   nameWithType: HierarchyEntity.HierarchyId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe primary key (auto-incremented)\n"
+  summary: The primary key (auto-incremented)
+  example: []
   syntax:
     content: public virtual int HierarchyId { get; set; }
     parameters: []
@@ -104,14 +105,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property HierarchyId As Integer
   overload: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
   id: Domain_String
@@ -123,29 +116,36 @@ items:
   nameWithType: HierarchyEntity.Domain_String
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDomain seperating the different hierarchy\nRaw string enum value.\n"
+  summary: >-
+    Domain seperating the different hierarchy
+
+    Raw string enum value.
+  example: []
   syntax:
-    content: public string Domain_String { get; set; }
+    content: >-
+      [JsonProperty("Domain")]
+
+      public string Domain_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Domain_String As String
+    content.vb: >-
+      <JsonProperty("Domain")>
+
+      Public Property Domain_String As String
   overload: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.HierarchyEntity.Domain
     commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Domain
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain
   id: Domain
@@ -157,29 +157,34 @@ items:
   nameWithType: HierarchyEntity.Domain
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDomain seperating the different hierarchy\nNULL if unknown enum value.\n"
+  summary: >-
+    Domain seperating the different hierarchy
+
+    NULL if unknown enum value.
+  example: []
   syntax:
-    content: public Nullable<Domain> Domain { get; set; }
+    content: >-
+      [JsonIgnore]
+
+      public Domain? Domain { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.Domain}
-    content.vb: Public Property Domain As Nullable(Of Domain)
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Domain As Domain?
   overload: SuperOffice.WebApi.Data.HierarchyEntity.Domain*
   seealso:
   - linkId: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
     commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Name
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Name
   id: Name
@@ -191,13 +196,11 @@ items:
   nameWithType: HierarchyEntity.Name
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Name
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nName of this hierarchy folder.\n"
+  summary: Name of this hierarchy folder.
+  example: []
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -205,14 +208,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.HierarchyEntity.Name*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Fullname
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Fullname
   id: Fullname
@@ -224,13 +219,11 @@ items:
   nameWithType: HierarchyEntity.Fullname
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Fullname
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nThe full name of this category, i.e. Foo/bar/test.\n"
+  summary: The full name of this category, i.e. Foo/bar/test.
+  example: []
   syntax:
     content: public virtual string Fullname { get; set; }
     parameters: []
@@ -238,14 +231,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property Fullname As String
   overload: SuperOffice.WebApi.Data.HierarchyEntity.Fullname*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.ParentId
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.ParentId
   id: ParentId
@@ -257,13 +242,11 @@ items:
   nameWithType: HierarchyEntity.ParentId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.ParentId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nParent table\n"
+  summary: Parent table
+  example: []
   syntax:
     content: public virtual int ParentId { get; set; }
     parameters: []
@@ -271,14 +254,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ParentId As Integer
   overload: SuperOffice.WebApi.Data.HierarchyEntity.ParentId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Children
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Children
   id: Children
@@ -290,13 +265,11 @@ items:
   nameWithType: HierarchyEntity.Children
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Children
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nSub-items, if any.\n"
+  summary: Sub-items, if any.
+  example: []
   syntax:
     content: public virtual HierarchyEntity[] Children { get; set; }
     parameters: []
@@ -304,14 +277,6 @@ items:
       type: SuperOffice.WebApi.Data.HierarchyEntity[]
     content.vb: Public Overridable Property Children As HierarchyEntity()
   overload: SuperOffice.WebApi.Data.HierarchyEntity.Children*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Registered
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Registered
   id: Registered
@@ -323,28 +288,18 @@ items:
   nameWithType: HierarchyEntity.Registered
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Registered
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRegistered when\n"
+  summary: Registered when
+  example: []
   syntax:
     content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As DateTime
+    content.vb: Public Overridable Property Registered As Date
   overload: SuperOffice.WebApi.Data.HierarchyEntity.Registered*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -356,13 +311,11 @@ items:
   nameWithType: HierarchyEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nRegistered by whom\n"
+  summary: Registered by whom
+  example: []
   syntax:
     content: public virtual int RegisteredAssociateId { get; set; }
     parameters: []
@@ -370,14 +323,6 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Updated
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Updated
   id: Updated
@@ -389,28 +334,18 @@ items:
   nameWithType: HierarchyEntity.Updated
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Updated
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLast updated when\n"
+  summary: Last updated when
+  example: []
   syntax:
     content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As DateTime
+    content.vb: Public Overridable Property Updated As Date
   overload: SuperOffice.WebApi.Data.HierarchyEntity.Updated*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -422,13 +357,11 @@ items:
   nameWithType: HierarchyEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
   type: Property
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nLast updated by whom\n"
+  summary: Last updated by whom
+  example: []
   syntax:
     content: public virtual int UpdatedAssociateId { get; set; }
     parameters: []
@@ -436,32 +369,67 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property UpdatedAssociateId As Integer
   overload: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 references:
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -469,6 +437,7 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -476,30 +445,250 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: SuperOffice.WebApi.Agents.ListAgent
-  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
   isExternal: true
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.WebApi.Agents.ListAgent
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.#ctor
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity__ctor
   name: HierarchyEntity
   nameWithType: HierarchyEntity.HierarchyEntity
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyEntity
+  nameWithType.vb: HierarchyEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.HierarchyEntity.New
+  name.vb: New
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_HierarchyId
   name: HierarchyId
   nameWithType: HierarchyEntity.HierarchyId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.HierarchyId
@@ -507,141 +696,131 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String*
-  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
-  isExternal: true
-  name: Domain_String
-  nameWithType: HierarchyEntity.Domain_String
-  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Domain
+  name: Domain
+  nameWithType: HierarchyEntity.Domain
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Domain_String
+  name: Domain_String
+  nameWithType: HierarchyEntity.Domain_String
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain*
-  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Domain
-  isExternal: true
-  name: Domain
-  nameWithType: HierarchyEntity.Domain
-  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
   commentId: P:SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
   isExternal: true
-- uid: System.Nullable{SuperOffice.WebApi.Data.Domain}
-  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.Domain}'
-  definition: System.Nullable`1
-  name: Nullable<Domain>
-  nameWithType: Nullable<Domain>
-  fullName: System.Nullable<SuperOffice.WebApi.Data.Domain>
-  nameWithType.vb: Nullable(Of Domain)
-  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.Domain)
-  name.vb: Nullable(Of Domain)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.WebApi.Data.Domain
-    name: Domain
-    nameWithType: Domain
-    fullName: SuperOffice.WebApi.Data.Domain
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.WebApi.Data.Domain
-    name: Domain
-    nameWithType: Domain
-    fullName: SuperOffice.WebApi.Data.Domain
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Domain_String
+  name: Domain_String
+  nameWithType: HierarchyEntity.Domain_String
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain_String
+- uid: SuperOffice.WebApi.Data.HierarchyEntity.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Domain
   isExternal: true
-  name: Nullable<>
-  nameWithType: Nullable<>
-  fullName: System.Nullable<>
-  nameWithType.vb: Nullable(Of )
-  fullName.vb: System.Nullable(Of )
-  name.vb: Nullable(Of )
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Domain
+  name: Domain
+  nameWithType: HierarchyEntity.Domain
+  fullName: SuperOffice.WebApi.Data.HierarchyEntity.Domain
+- uid: System.Nullable{SuperOffice.WebApi.Data.Domain}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.Domain}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.Domain.html
+  name: Domain?
+  nameWithType: Domain?
+  fullName: SuperOffice.WebApi.Data.Domain?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.Domain
+    name: Domain
+    isExternal: true
+    href: SuperOffice.WebApi.Data.Domain.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.Domain
+    name: Domain
+    isExternal: true
+    href: SuperOffice.WebApi.Data.Domain.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Name
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Name
   name: Name
   nameWithType: HierarchyEntity.Name
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Name
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Fullname*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Fullname
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Fullname
   name: Fullname
   nameWithType: HierarchyEntity.Fullname
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Fullname
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.ParentId*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.ParentId
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_ParentId
   name: ParentId
   nameWithType: HierarchyEntity.ParentId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.ParentId
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Children*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Children
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Children
   name: Children
   nameWithType: HierarchyEntity.Children
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Children
 - uid: SuperOffice.WebApi.Data.HierarchyEntity[]
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html
   name: HierarchyEntity[]
   nameWithType: HierarchyEntity[]
   fullName: SuperOffice.WebApi.Data.HierarchyEntity[]
@@ -651,47 +830,53 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.HierarchyEntity
     name: HierarchyEntity
-    nameWithType: HierarchyEntity
-    fullName: SuperOffice.WebApi.Data.HierarchyEntity
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+    href: SuperOffice.WebApi.Data.HierarchyEntity.html
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.HierarchyEntity
     name: HierarchyEntity
-    nameWithType: HierarchyEntity
-    fullName: SuperOffice.WebApi.Data.HierarchyEntity
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+    href: SuperOffice.WebApi.Data.HierarchyEntity.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Registered*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Registered
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Registered
   name: Registered
   nameWithType: HierarchyEntity.Registered
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Registered
 - uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: HierarchyEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.RegisteredAssociateId
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.Updated*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.Updated
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_Updated
   name: Updated
   nameWithType: HierarchyEntity.Updated
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.Updated
 - uid: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
   isExternal: true
+  href: SuperOffice.WebApi.Data.HierarchyEntity.html#SuperOffice_WebApi_Data_HierarchyEntity_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: HierarchyEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.HierarchyEntity.UpdatedAssociateId
