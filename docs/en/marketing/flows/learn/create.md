@@ -4,7 +4,7 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -94,7 +94,6 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 |---|---|
 | Contact created | When a new contact is registered, independent of source (except import). |
 | Contact update | When a contact is updated, independent of what is updated (except import and bulk update). |
-| Order placed | When an order is placed on an existing sale registered on the contact. |
 | Sale created | When a sale is registered on the contact. |
 | Sale sold | When a sale on the contact is set to sold. |
 | Sale lost | When a sale on the contact is set to lost. |
@@ -102,7 +101,6 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 | Request created | When a request is created on the contact (independent of source). |
 | Form submitted | When a form (submitted by a contact) is **processed** (a manual step could be involved before the contact ends up in the flow​​). |
 | Link clicked | When a contact clicks a tracked link. |
-| Chat ended | When a chat with the contact ends. |
 
 **Note:**
 

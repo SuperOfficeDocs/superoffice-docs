@@ -106,7 +106,6 @@ Success criteria establish the parameters for determining the success of a flow.
 * Participant added to selection or project
 * Form submitted
 * Link clicked
-* Had chat
 
 By defining success criteria, you can gauge the efficacy of the flow: Are we achieving our objectives while the contact remains engaged in the flow? The **success rate** represents the percentage of enrolled participants in the flow who complete it with the success criteria fulfilled.
 
