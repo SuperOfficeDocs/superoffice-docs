@@ -4,7 +4,7 @@ title: Flow content
 description: Flow content
 keywords: Marketing, flow, flow content, flow asset, content creation
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 03.15.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -62,7 +62,7 @@ To view the prepared content for a specific flow:
 1. Choose a template and compose the email as described above (starting on step 2).
 
 > [!NOTE]
-> You cannot click **Edit** if the flow is running. If you do not wish to pause the flow to add more content, create the email from the **Flow contents** tab.
+> You cannot click **Edit** if the flow is running. If you do not wish to pause the flow while you prepare more content, you can create and prepare a new piece of content from the **Flow contents** tab.
 
 ### Create form
 
