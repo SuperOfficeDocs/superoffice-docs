@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-so.date: 04.30.2024
+so.date: 05.13.2024
 so.version: 10.3
 so.topic: reference
 ---
