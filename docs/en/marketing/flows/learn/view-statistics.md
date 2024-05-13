@@ -4,7 +4,7 @@ title: View statistics for flow
 description: View statistics for flow
 keywords: Marketing
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -28,11 +28,11 @@ To view statistics about your flow, go to the **Flows** tab and click the flow i
 
 * **Summary**: Essential information about the flow and some key metrics
 
-  * **Trigger:**
-  * **Success criteria:** what the user want to achieve by this automation
-  * **Enrolled:** Total number of added participants, all statuses
-  * **In progress:** Total number of participants with status = active
-  * **Completed:** Total number of participants with status = Finished / Finished with success
+  * **Trigger:** The flow's starting point defining WHEN a person is suggested as a participant.
+  * **Success criteria:** What the user wants to achieve by this automation.
+  * **Enrolled:** Total number of added participants, all statuses.
+  * **In progress:** Total number of participants with status = active.
+  * **Completed:** Total number of participants with status = Finished / Finished with success.
   * **Success rate:** Percentage of all participants with status Finished with success.
 
   **Essential info:** status (Not running/Running/Pause), owner, visible for (associate/group/all), last updated, description

@@ -110,10 +110,10 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 
 ### Add contact filter (optional)
 
-**Filters** are additional rules applied to all suggested participants (automatically and manually added).​ Use the contact filter to select specific contacts for your flow. For example, set the filter to *contact category = prospect* to trigger a flow only for prospects, not existing customers, who fill out a form on your website. This allows you to tailor content to different user groups.
+**Filters** are additional rules applied to all suggested participants (automatically and manually added).​ Use the contact filter to select specific contacts for your flow. For example, set the filter to *contact category = prospect* to allow only prospects into the flow, not existing customers, who fill out a form on your website. This allows you to tailor content to different user groups.
 
 > [!NOTE]
-> Filters apply only when **identifying flow participants**. In an ongoing flow, contacts may be removed if they fulfill the success criteria.
+> Filters apply only when **identifying new flow participants**. Any modifications made to the filter afterward do not impact participants already enrolled.
 
 1. Select the contact field you want to filter on.
 1. [Select values for the criterion][13] in the various fields on the line (similar to in the Find screen).
