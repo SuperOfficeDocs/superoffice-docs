@@ -4,7 +4,7 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: concept
 language: en
@@ -121,7 +121,6 @@ It is advisable for most automated flows to set success criteria for enrolled pa
 ## <a id="req" />Requirements
 
 * Marketing Premium license (new tier)
-* SQLServer 2016 or newer - to define actions based on form submission data
 * Sales essential or premium - to create a sale
 * Service essential or premium - to create a request
 * SMS connector - to send SMS
