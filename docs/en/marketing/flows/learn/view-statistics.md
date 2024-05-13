@@ -22,7 +22,7 @@ SuperOffice gathers statistics and results for each flow you run.
 To view statistics about your flow, go to the **Flows** tab and click the flow in the list. The **View flow** screen opens.
 
 > [!TIP]
-> Click the **Refresh** button or ![icon][img9] icon to update the flow statistics.
+> Click the **Refresh** button to update the flow statistics.
 
 ## Tabs with flow statistics
 
@@ -91,4 +91,3 @@ Go to **Marketing** > **Tracked links**. See [Explore link clicks][11].
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
 [img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/refresh-icon.png
