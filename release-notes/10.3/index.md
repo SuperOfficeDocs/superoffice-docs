@@ -19,7 +19,11 @@ so.topic: reference
 
 ### SuperOffice CRM
 
-* 10.3.5 (30.04.2024):
+* 10.3.6 (21.05.2024):
+  * [Follow-up - New generation of the Follow-up dialog (10.3.6)][25] in Core CRM
+  * [Request - Add comment with e-mail recipients (10.3.6)][26] in Service
+
+* 10.3.5 (03.05.2024):
   * [Request types - Fine tuning of requests for different types (10.3.5)][24] in Service
 
 * 10.3.4 (09.04.2024):
@@ -64,7 +68,7 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
-* [SuperOffice CRM - New Follow-up][20] (available in 10.2.11 - 12.12.2023)
+* [SuperOffice CRM - New Follow-up][20] (released in 10.3.6 - 21.05.2024)
 * SuperOffice Service - Request types for New Service Requests (released in 10.3.2 - 20.02.2024)
 * SuperOffice CRM - New Notifications (released in 10.2.8 - 19.09.2023)
 * [SuperOffice Service - New Service Request][23] (available on demand in 10.2.1 - 27.01.2023)
@@ -108,5 +112,7 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [22]: https://appstore.superoffice.com/all-crm/snelstart-for-superoffice
 [23]: https://community.superoffice.com/en/product-releases/whats-new/product/the-new-superoffice-service/
 [24]: service/10.3.5-update.md
+[25]: core-crm/10.3.6-update.md
+[26]: service/10.3.6-update.md
 
 <!-- Referenced images -->
