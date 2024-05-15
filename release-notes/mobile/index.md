@@ -16,6 +16,8 @@ so.audience.tooltip: SuperOffice Mobile CRM
 
 ## Version 10.2
 
+* [Follow-up - Description split to Title, Agenda and Internal notes (10.2.19)][35]
+* [Follow-up - View of all links between different content (10.2.19)][35]
 * [Follow-up - Add email address as attendee (10.2.18)][34]
 * [Request - Request types for more efficient support (10.2.16)][33]
 * [Drill down on Dashboard (10.2.12)][32]
@@ -76,4 +78,5 @@ so.audience.tooltip: SuperOffice Mobile CRM
 [32]: 10.2.12-update.md
 [33]: 10.2.16-update.md
 [34]: 10.2.18-update.md
+[35]: 10.2.19-update.md
 [50]: ../../docs/en/mobile/overview.md
