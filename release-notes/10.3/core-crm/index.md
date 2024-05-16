@@ -13,7 +13,7 @@ so.audience.tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
-* [Follow-up - New generation of the Follow-up dialog (10.3.6)][6]
+* [Follow-up - New and improved Follow-up dialog (10.3.6)][6]
 * [Notifications - Show invitations I have declined (10.3.2)][2]
 * [Dashboard - New default Requests dashboard (10.3.2)][2]
 * [Dashboard - New standard request tiles (10.3.2)][2]
