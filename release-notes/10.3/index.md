@@ -22,7 +22,7 @@ Check out our **Product release** overview for more details in our [Community][2
 ### SuperOffice CRM
 
 * 10.3.6 (21.05.2024):
-  * [Follow-up - New generation of the Follow-up dialog (10.3.6)][25] in Core CRM
+  * [Follow-up - New and improved Follow-up dialog (10.3.6)][25] in Core CRM
   * [Request - Send comment to e-mail recipients (10.3.6)][26] in Service
 
 * 10.3.5 (03.05.2024):
