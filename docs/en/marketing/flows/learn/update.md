@@ -4,7 +4,7 @@ title: Update flow
 description: Update flow
 keywords: flow, marketing automation, edit flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -88,12 +88,21 @@ There are a few limitation when you edit a flow after it has run to protect acti
 
 ### Cannot move or remove step
 
-* You cannot move or remove a **Split** step after starting a flow (even if you pause).
-* You cannot move or remove a **Wait time** or **Wait for action** step if there are active participants in the step.
+* You cannot move or remove a **Wait time**, **Wait for action**, or **Split** step if there are active participants in the step.
+
+Go to the **Participants** tab and check the **Current step** column to find a suitable time to pause and update the flow control step.
 
 ### Cannot remove branch
 
-Once the flow is started, you can change the order of branches (except 'Everyone else'). However, because participants might be on that branch, you cannot delete the branch.
+* You cannot remove the 'Everyone else' branch.
+* You cannot remove a branch if there are active participants on it.
+
+Go to the **Flow** tab to check if there are anyone on the branch. If yes, go to the **Participants** tab for details. How to handle these participants is up to you. A few options to consider:
+
+* Add participants to a static selection to follow up later.
+* Add participants to the flow's exclusion list.
+* Remove participants from the flow using the **Task** menu.
+* Wait for the branch to "drain". You might need to update the condition of the branch to prevent new participants from entering.
 
 <!-- Referenced links -->
 [1]: run-pause-end.md

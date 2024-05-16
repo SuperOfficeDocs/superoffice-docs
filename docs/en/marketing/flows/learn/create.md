@@ -4,7 +4,7 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -94,7 +94,6 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 |---|---|
 | Contact created | When a new contact is registered, independent of source (except import). |
 | Contact update | When a contact is updated, independent of what is updated (except import and bulk update). |
-| Order placed | When an order is placed on an existing sale registered on the contact. |
 | Sale created | When a sale is registered on the contact. |
 | Sale sold | When a sale on the contact is set to sold. |
 | Sale lost | When a sale on the contact is set to lost. |
@@ -102,7 +101,6 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 | Request created | When a request is created on the contact (independent of source). |
 | Form submitted | When a form (submitted by a contact) is **processed** (a manual step could be involved before the contact ends up in the flow​​). |
 | Link clicked | When a contact clicks a tracked link. |
-| Chat ended | When a chat with the contact ends. |
 
 **Note:**
 
@@ -112,10 +110,10 @@ The **Trigger** step is automatically added as the starting point for any flow. 
 
 ### Add contact filter (optional)
 
-**Filters** are additional rules applied to all suggested participants (automatically and manually added).​ Use the contact filter to select specific contacts for your flow. For example, set the filter to *contact category = prospect* to trigger a flow only for prospects, not existing customers, who fill out a form on your website. This allows you to tailor content to different user groups.
+**Filters** are additional rules applied to all suggested participants (automatically and manually added).​ Use the contact filter to select specific contacts for your flow. For example, set the filter to *contact category = prospect* to allow only prospects into the flow, not existing customers, who fill out a form on your website. This allows you to tailor content to different user groups.
 
 > [!NOTE]
-> Filters apply only when **identifying flow participants**. In an ongoing flow, contacts may be removed if they fulfill the success criteria.
+> Filters apply only when **identifying new flow participants**. Any modifications made to the filter afterward do not impact participants already enrolled.
 
 1. Select the contact field you want to filter on.
 1. [Select values for the criterion][13] in the various fields on the line (similar to in the Find screen).

@@ -4,7 +4,7 @@ title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -112,7 +112,7 @@ This step is similar to **Add to selection and/or project**.
 
 ## <a id="create" />Create activity
 
-The flow can automatically create a follow-up, request, and/or sale on the contact according to settings. By connecting CRM activities and notifications, your organization can bridge the gap between marketing and sales. Creating activities also lets you focus on contacts who are engaged and wants it​.
+The flow can automatically create a follow-up, request, and/or sale on the contact according to settings. By connecting CRM activities and notifications, your organization can bridge the gap between marketing and sales. Creating activities also lets you focus on contacts who are engaged​.
 
 ### Create follow-up
 

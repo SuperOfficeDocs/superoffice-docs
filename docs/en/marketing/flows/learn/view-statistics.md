@@ -4,7 +4,7 @@ title: View statistics for flow
 description: View statistics for flow
 keywords: Marketing
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -22,17 +22,17 @@ SuperOffice gathers statistics and results for each flow you run.
 To view statistics about your flow, go to the **Flows** tab and click the flow in the list. The **View flow** screen opens.
 
 > [!TIP]
-> Click the **Refresh** button or ![icon][img9] icon to update the flow statistics.
+> Click the **Refresh** button to update the flow statistics.
 
 ## Tabs with flow statistics
 
 * **Summary**: Essential information about the flow and some key metrics
 
-  * **Trigger:**
-  * **Success criteria:** what the user want to achieve by this automation
-  * **Enrolled:** Total number of added participants, all statuses
-  * **In progress:** Total number of participants with status = active
-  * **Completed:** Total number of participants with status = Finished / Finished with success
+  * **Trigger:** The flow's starting point defining WHEN a person is suggested as a participant.
+  * **Success criteria:** What the user wants to achieve by this automation.
+  * **Enrolled:** Total number of added participants, all statuses.
+  * **In progress:** Total number of participants with status = active.
+  * **Completed:** Total number of participants with status = Finished / Finished with success.
   * **Success rate:** Percentage of all participants with status Finished with success.
 
   **Essential info:** status (Not running/Running/Pause), owner, visible for (associate/group/all), last updated, description
@@ -91,4 +91,3 @@ Go to **Marketing** > **Tracked links**. See [Explore link clicks][11].
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
 [img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/refresh-icon.png

@@ -4,7 +4,7 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: reference
 language: en
@@ -103,8 +103,8 @@ Participants reaching the finish step has reached the end of the flow. Participa
 | Title | A short descriptive label. |
 | Split based on | The data/behavior to differentiate on. |
 | Branch name | A descriptive name on the branch, indicating which participants are moving down which branch. |
-| Everyone else | Participants who match no criteria get status "drop out". |
-| Exit flow | Whether dropped-out participants should leave the flow. If true, you may add them to another flow or to a static selection after exit. If false, you can add more steps to this branch. |
+| Everyone else | The branch for handling participants who do not meet the conditions of any of the other branches. |
+| Exit flow | Determines if participants ending up in the everyone-else branch should drop out. If true, you may add them to another flow or to a static selection after exit. If false, you can add more steps to this branch. |
 
 The remaining fields for specifying branch settings depend on what the split is based on.
 
@@ -113,8 +113,8 @@ The remaining fields for specifying branch settings depend on what the split is 
 | Setting | Description |
 |---|---|
 | A person can only start this flow once | Whether the a contact can be re-enrolled in this flow. |
-| Filter | A set of criteria that must be met before a suggested contact starts a flow. |
-| Exclusion list | A static selection of persons that should not start the flow. |
+| Filter | A set of criteria that must be met for a suggested contact to be allowed into the flow. Only checked once. |
+| Exclusion list | A static selection of persons who will not be added to the flow, or will exit the flow if already participating. |
 
 ## Update contact
 

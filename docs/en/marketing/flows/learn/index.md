@@ -4,7 +4,7 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 04.30.2024
+so.date: 05.15.2024
 so.version: 10.3.5
 so.topic: concept
 language: en
@@ -106,7 +106,6 @@ Success criteria establish the parameters for determining the success of a flow.
 * Participant added to selection or project
 * Form submitted
 * Link clicked
-* Had chat
 
 By defining success criteria, you can gauge the efficacy of the flow: Are we achieving our objectives while the contact remains engaged in the flow? The **success rate** represents the percentage of enrolled participants in the flow who complete it with the success criteria fulfilled.
 
@@ -121,7 +120,6 @@ It is advisable for most automated flows to set success criteria for enrolled pa
 ## <a id="req" />Requirements
 
 * Marketing Premium license (new tier)
-* SQLServer 2016 or newer - to define actions based on form submission data
 * Sales essential or premium - to create a sale
 * Service essential or premium - to create a request
 * SMS connector - to send SMS
