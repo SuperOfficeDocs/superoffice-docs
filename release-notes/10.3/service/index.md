@@ -13,7 +13,7 @@ so.audience.tooltip: SuperOffice Service
 
 # New and improved Service
 
-* [Request - Add comment with e-mail recipients (10.3.6)][6]
+* [Request - Send comment to e-mail recipients (10.3.6)][6]
 * [Request types - Fine tuning of requests for different types (10.3.5)][5]
 * [Request - simplify attachment handling (10.3.3)][3]
 * [Request types - for efficient support (10.3.2)][2]
