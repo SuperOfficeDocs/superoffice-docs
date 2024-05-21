@@ -13,6 +13,8 @@ so.topic: howto
 
 Generally the NetServer Agents should not be used unless absolutely necessary. When an entity is saved the child entities ID values are the only properties looked at, and its overkill to use the agents to instantiate each child entity individually. It creates extra requests towards the API and will consume more resources to execute.
 
+This page contains a Simple Example, showing the result of instantiating entitites through the Agents, and a Full/working Example that creates a new DocumentEntity.
+
 ## Simple Example
 
 ```crmscript!
@@ -104,8 +106,8 @@ NSDocumentEntity doc = docAgent.CreateDefaultDocumentEntity();
 NSDocumentTemplate docTmpl;
 docTmpl.SetDocumentTemplateId(templateId);
 doc.SetDocumentTemplate(docTmpl);
-doc.SetName("DemoDocument2");
-doc.SetHeader("DemoDocument2");
+doc.SetName("Document Name");
+doc.SetHeader("Document Header");
 NSAssociate associate;
 associate.SetAssociateId(associateId.toInteger());
 doc.SetAssociate(associate);
