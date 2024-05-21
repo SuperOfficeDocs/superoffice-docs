@@ -1,6 +1,8 @@
 items:
 - name: Release overview
   href: index.md
+- name: 10.2.19
+  href: 10.2.19-update.md
 - name: 10.2.18
   href: 10.2.18-update.md
 - name: 10.2.16

@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-so.date: 04.30.2024
+so.date: 05.21.2024
 so.version: 10.3
 so.topic: reference
 ---
@@ -17,9 +17,15 @@ so.topic: reference
 
 ## Details of new features
 
+Check out our **Product release** overview for more details in our [Community][28].
+
 ### SuperOffice CRM
 
-* 10.3.5 (30.04.2024):
+* 10.3.6 (21.05.2024):
+  * [Follow-up - New and improved Follow-up dialog (10.3.6)][25] in Core CRM
+  * [Request - Send comment to email recipients (10.3.6)][26] in Service
+
+* 10.3.5 (03.05.2024):
   * [Request types - Fine tuning of requests for different types (10.3.5)][24] in Service
 
 * 10.3.4 (09.04.2024):
@@ -44,7 +50,7 @@ so.topic: reference
 
 ### Mobile CRM
 
-* Version 10.2.18 (24.02.2024)
+* [Version 10.2.19][27] (15.05.2024)
 
 ### Office integrations
 
@@ -53,7 +59,7 @@ Latest released versions:
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
 * SuperOffice for Outlook 4.1 (21.12.2023)
-* WebTools for Mac 12.0 (10.11.2022)
+* WebTools for Mac 13.0 (10.04.2024)
 * SharePoint Documents 3.2 (24.09.2023)
 * SuperOffice for Gmail 2.10 (11.03.2024)
 * Video Meetings 2.5 (18.09.2023)
@@ -64,7 +70,7 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
-* [SuperOffice CRM - New Follow-up][20] (available in 10.2.11 - 12.12.2023)
+* SuperOffice CRM - New Follow-up (released in 10.3.6 - 21.05.2024)
 * SuperOffice Service - Request types for New Service Requests (released in 10.3.2 - 20.02.2024)
 * SuperOffice CRM - New Notifications (released in 10.2.8 - 19.09.2023)
 * [SuperOffice Service - New Service Request][23] (available on demand in 10.2.1 - 27.01.2023)
@@ -108,5 +114,9 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [22]: https://appstore.superoffice.com/all-crm/snelstart-for-superoffice
 [23]: https://community.superoffice.com/en/product-releases/whats-new/product/the-new-superoffice-service/
 [24]: service/10.3.5-update.md
+[25]: core-crm/10.3.6-update.md
+[26]: service/10.3.6-update.md
+[27]: ../mobile/index.md
+[28]: https://community.superoffice.com/en/product-releases/release-notes/
 
 <!-- Referenced images -->

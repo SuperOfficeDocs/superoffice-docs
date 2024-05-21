@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
 keywords: Service, request
 author: SuperOffice AS – Research and Development
-so.date: 04.30.2024
+so.date: 05.21.2024
 so.version: 10.3
 so.topic: reference
 so.audience: person
@@ -13,6 +13,7 @@ so.audience.tooltip: SuperOffice Service
 
 # New and improved Service
 
+* [Request - Send comment to email recipients (10.3.6)][6]
 * [Request types - Fine tuning of requests for different types (10.3.5)][5]
 * [Request - simplify attachment handling (10.3.3)][3]
 * [Request types - for efficient support (10.3.2)][2]
@@ -26,5 +27,6 @@ so.audience.tooltip: SuperOffice Service
 [2]: 10.3.2-update.md
 [3]: 10.3.3-update.md
 [5]: 10.3.5-update.md
+[6]: 10.3.6-update.md
 [12]: ../admin/10.3.1-update.md
 [13]: ../core-crm/10.3.1-update.md
