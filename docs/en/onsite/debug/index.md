@@ -1,10 +1,10 @@
 ---
+uid: onsite-debug
 title: Onsite debugging
-uid: onsite_debug
 description: Debugging onsite
-so.date: 12.08.2021
-author: Bergfrid Dias
 keywords: config, web.config, diagnostics, log
+so.date: 05.21.2024
+author: Bergfrid Dias, Martin Pavlas
 so.topic: concept
 so.envir: onsite
 ---
@@ -23,8 +23,8 @@ The client needs write permission to the folder. Otherwise, NetServer will write
 
 > [!NOTE]
 > Remember to turn the logging off when it is not needed, as extended logging in NetServer will reduce performance.
-> [!IMPORTANT]
-> There are changes in how NetServer logging is enabled from SuperOffice 10.2. Please read the SuperOffice [Web client debugging page][2] for more information.
+>
+> **There are changes in how NetServer logging is enabled from SuperOffice 10.2.** Please read the SuperOffice [Web client debugging page][2] for more information.
 
 ### How do I find the location of the log file
 
