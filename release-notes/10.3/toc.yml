@@ -64,8 +64,5 @@ items:
     items:
     - name: Database changes 10.3.1
       href: ../database/changes-10.3.1.md
-#  items:
-#  - name: 10.3.1 update
-#    href: api/10.0.1-update.md
 #- name: Developer Products
 #  href: development-products/index.md
