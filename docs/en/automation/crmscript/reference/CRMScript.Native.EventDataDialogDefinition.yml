@@ -52,7 +52,7 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
   - CRMScript.Native.EventDataDialogDefinition.setHeight(Integer)
   - CRMScript.Native.EventDataDialogDefinition.setIcon(String)
-  - CRMScript.Native.EventDataDialogDefinition.setMarkdown()
+  - CRMScript.Native.EventDataDialogDefinition.setMarkdown(String)
   - CRMScript.Native.EventDataDialogDefinition.setPrefix(String)
   - CRMScript.Native.EventDataDialogDefinition.setText(String)
   - CRMScript.Native.EventDataDialogDefinition.setTitle(String)
@@ -1210,7 +1210,7 @@ items:
   nameWithType: EventDataDialogDefinition.getMarkdown()
   fullName: CRMScript.Native.EventDataDialogDefinition.getMarkdown()
   type: Method
-  summary: "\nReturns body text with markdown syntax.\n"
+  summary: "\nReturns body text with Markdown syntax.\n"
   remarks:
   syntax: 
     content: String getMarkdown()
@@ -1230,14 +1230,14 @@ items:
   nameWithType: EventDataDialogDefinition.setMarkdown(String)
   fullName: CRMScript.Native.EventDataDialogDefinition.setMarkdown(String)
   type: Method
-  summary: "\nSets body text using markdown syntax on dialog. If specified this will take presedence over setText()\n"
-  remarks: "\n<b>NOTE</b>\nThis is not full markdown but a \"lite\" version.\n<ul><li># - Produces a &lt;h1&gt;</li><li>Newline in current paragraph - adds a &lt;br&gt;</li><li>Blank line - starts a new paragraph. Multiple blank lines in a row will create empty paragraphs.</li><li>Leading * - replaced with &amp;bull;</li><li>Whitelisted tags are preserved (b, i, a, span, p).</li><li>Whitelisted attributes are preserved (class) so to get a section styled differently you may use a span element with a custom class name.</li></ul>"
+  summary: "\nSets body text using Markdown syntax on dialog. If specified this will take precedence over setText().\n"
+  remarks: "\n<b>NOTE:</b> This is not full Markdown but a \"lite\" version.\n<ul><li># - Produces a &lt;h1&gt;</li><li>Newline in current paragraph - adds a &lt;br&gt;</li><li>Blank line - starts a new paragraph. Multiple blank lines in a row will create empty paragraphs.</li><li>Leading * - replaced with &amp;bull;</li><li>Whitelisted tags are preserved (b, i, a, span, p).</li><li>Whitelisted attributes are preserved (class). To get a section styled differently, you may use a span element with a custom class name.</li></ul>\n"
   syntax: 
     content: Void setMarkdown(String value)
     parameters:
     - id: value
       type: CRMScript.Global.String
-      description: "Sets body text using markdown syntax on dialog."
+      description: "Sets body text using Markdown syntax on dialog."
     return:
       type: CRMScript.Global.Void
       description:
