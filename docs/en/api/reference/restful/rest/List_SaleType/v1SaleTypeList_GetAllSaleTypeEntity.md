@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 872,
-    "Name": "Berge Group",
-    "Tooltip": "corporis",
-    "Rank": 365,
+    "SaleTypeId": 186,
+    "Name": "White LLC",
+    "Tooltip": "est",
+    "Rank": 658,
     "DurationUnit": "Century",
-    "SaleDuration": 729,
-    "SaleTypeCatId": 710,
+    "SaleDuration": 327,
+    "SaleTypeCatId": 99,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 182,
-    "QuoteLinesTemplate": 926,
-    "ConfirmationLinesTemplate": 34,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 604,
-    "MinEarningPercent": 54,
-    "GroupQuoteLinesBy": 988,
-    "SortGroupLinesBy": 303,
+    "DefaultQuoteValidity": 521,
+    "QuoteLinesTemplate": 123,
+    "ConfirmationLinesTemplate": 412,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 200,
+    "MinEarningPercent": 82,
+    "GroupQuoteLinesBy": 11,
+    "SortGroupLinesBy": 784,
     "Stages": [
       {
-        "Id": 551,
-        "Name": "Kutch Inc and Sons",
-        "ToolTip": "Dolore est voluptas officiis molestiae molestias.",
-        "Deleted": true,
-        "Rank": 448,
-        "Type": "odio",
-        "ColorBlock": 911,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2023-05-26T11:16:14.7307772+02:00",
+        "Id": 329,
+        "Name": "Pollich-Crooks",
+        "ToolTip": "Dolorem aut in minima.",
+        "Deleted": false,
+        "Rank": 931,
+        "Type": "repellat",
+        "ColorBlock": 708,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2023-01-11T12:57:43.730118+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "fugit",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Mr. Dina Crooks V",
+        "FullName": "Mrs. Verda Quitzon Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 51
+            "FieldLength": 792
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldType": "System.String",
+        "FieldLength": 768
       }
     }
   }

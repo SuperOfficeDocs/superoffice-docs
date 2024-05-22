@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 890,
-  "Name": "Glover, Marquardt and Schamberger",
-  "CreatedDate": "2017-09-09T11:16:13.9175899+02:00",
-  "UpdatedDate": "2012-12-21T11:16:13.9175899+01:00",
+  "ForeignAppId": 123,
+  "Name": "Schultz LLC",
+  "CreatedDate": "2016-10-25T12:57:42.4326345+02:00",
+  "UpdatedDate": "2002-04-15T12:57:42.4326345+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 157,
-      "Name": "Nitzsche LLC",
-      "CreatedDate": "1999-07-09T11:16:13.9175899+02:00",
-      "UpdatedDate": "2004-10-27T11:16:13.9175899+02:00",
-      "AssociateFullName": "Rex Hahn",
-      "CreatedBy": "nemo",
-      "UpdatedBy": "vitae",
-      "DeviceIdentifier": "illum",
-      "ForeignAppId": 429
+      "ForeignDeviceId": 441,
+      "Name": "Hand-Lakin",
+      "CreatedDate": "1997-05-20T12:57:42.4326345+02:00",
+      "UpdatedDate": "2006-03-14T12:57:42.4326345+01:00",
+      "AssociateFullName": "Samara Homenick",
+      "CreatedBy": "qui",
+      "UpdatedBy": "cumque",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 569
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 14,
-  "Name": "Kihn LLC",
-  "CreatedDate": "2015-07-26T11:16:13.9175899+02:00",
-  "UpdatedDate": "2014-07-08T11:16:13.9175899+02:00",
+  "ForeignAppId": 516,
+  "Name": "Kuphal, Abernathy and Cruickshank",
+  "CreatedDate": "2006-12-06T12:57:42.4326345+01:00",
+  "UpdatedDate": "1998-06-20T12:57:42.4326345+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 925,
-      "Name": "Howe, Sauer and Swift",
-      "CreatedDate": "2016-10-12T11:16:13.9175899+02:00",
-      "UpdatedDate": "2019-07-15T11:16:13.9175899+02:00",
-      "AssociateFullName": "Kaleb Hand",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "debitis",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 934,
+      "ForeignDeviceId": 461,
+      "Name": "Monahan, Pfannerstill and Kohler",
+      "CreatedDate": "2019-06-05T12:57:42.4326345+02:00",
+      "UpdatedDate": "2014-02-11T12:57:42.4326345+01:00",
+      "AssociateFullName": "Miss Gayle Rory Schowalter II",
+      "CreatedBy": "quod",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "impedit",
+      "ForeignAppId": 159,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 301
+          "FieldLength": 79
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 807
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

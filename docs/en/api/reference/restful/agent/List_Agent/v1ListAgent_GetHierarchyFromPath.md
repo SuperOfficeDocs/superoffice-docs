@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ut",
+  "Path": "dolorem",
   "Children": false
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 276,
+  "HierarchyId": 380,
   "Domain": "Dashboards",
-  "Name": "Okuneva Group",
-  "Fullname": "doloribus",
-  "ParentId": 214,
+  "Name": "Stracke-Zboncak",
+  "Fullname": "aliquam",
+  "ParentId": 513,
   "Children": [
     {
-      "HierarchyId": 339,
+      "HierarchyId": 917,
       "Domain": "Dashboards",
-      "Name": "Donnelly, Tromp and Schultz",
-      "Fullname": "consectetur",
-      "ParentId": 127,
+      "Name": "Mante-Kemmer",
+      "Fullname": "quia",
+      "ParentId": 226,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-09-25T11:16:09.3659552+02:00",
-      "RegisteredAssociateId": 457,
-      "Updated": "2009-12-12T11:16:09.3659552+01:00",
-      "UpdatedAssociateId": 726,
+      "Registered": "2011-01-22T12:57:34.19609+01:00",
+      "RegisteredAssociateId": 353,
+      "Updated": "2022-07-12T12:57:34.19609+02:00",
+      "UpdatedAssociateId": 15,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldType": "System.String",
+          "FieldLength": 692
         }
       }
     }
   ],
-  "Registered": "2005-07-16T11:16:09.3659552+02:00",
-  "RegisteredAssociateId": 793,
-  "Updated": "2008-05-23T11:16:09.3659552+02:00",
-  "UpdatedAssociateId": 213,
+  "Registered": "2004-07-30T12:57:34.19609+02:00",
+  "RegisteredAssociateId": 838,
+  "Updated": "2005-10-22T12:57:34.19609+02:00",
+  "UpdatedAssociateId": 631,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

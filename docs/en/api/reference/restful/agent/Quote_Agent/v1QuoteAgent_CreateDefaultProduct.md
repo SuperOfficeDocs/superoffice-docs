@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 462,
-  "ERPProductKey": "saepe",
-  "ERPPriceListKey": "quod",
-  "Name": "Schaden LLC",
-  "Description": "Advanced high-level standardization",
-  "Code": "id",
+  "ProductId": 447,
+  "ERPProductKey": "dolores",
+  "ERPPriceListKey": "pariatur",
+  "Name": "Champlin-Maggio",
+  "Description": "Monitored optimizing emulation",
+  "Code": "modi",
   "PriceUnit": "consequatur",
-  "QuantityUnit": "laborum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 17390.566,
-  "ItemNumber": "804350",
+  "QuantityUnit": "aut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ratione",
+  "DefaultSubscriptionQuantity": 579.79,
+  "ItemNumber": "799988",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 12482.722,
-  "VATInfo": "provident",
-  "UnitCost": 12137.982,
-  "UnitMinimumPrice": 8781.4679999999989,
-  "UnitListPrice": 23103.847999999998,
-  "InAssortment": false,
-  "Supplier": "inventore",
-  "SupplierCode": "reiciendis",
-  "Rights": "repellendus",
-  "Rule": "nisi",
+  "ProductFamilyKey": "expedita",
+  "ProductTypeKey": "debitis",
+  "VAT": 28453.586,
+  "VATInfo": "ducimus",
+  "UnitCost": 10517.704,
+  "UnitMinimumPrice": 17136.712,
+  "UnitListPrice": 4096.138,
+  "InAssortment": true,
+  "Supplier": "id",
+  "SupplierCode": "ex",
+  "Rights": "sed",
+  "Rule": "mollitia",
   "ExtraInfo": [
     {
-      "Name": "Stamm-Boyer",
-      "Value": "asperiores",
+      "Name": "Schinner, Braun and Haag",
+      "Value": "nesciunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 974
+          "FieldLength": 834
         }
       }
     },
     {
-      "Name": "Stamm-Boyer",
-      "Value": "asperiores",
+      "Name": "Schinner, Braun and Haag",
+      "Value": "nesciunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 974
+          "FieldLength": 834
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
-  "ExtraField1": "minus",
-  "ExtraField2": "nam",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "et",
-  "ExtraField5": "cumque",
-  "InStock": 7863.206,
+  "RawExtraInfo": "repellat",
+  "ExtraField1": "iure",
+  "ExtraField2": "perferendis",
+  "ExtraField3": "minus",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "sint",
+  "InStock": 7192.53,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 422
     }
   }
 }

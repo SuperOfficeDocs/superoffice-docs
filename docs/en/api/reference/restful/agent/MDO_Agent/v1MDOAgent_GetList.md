@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lindgren Inc and Sons",
+  "Name": "Nader-Gerhold",
   "ForceFlatList": false,
-  "AdditionalInfo": "consectetur",
+  "AdditionalInfo": "molestias",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Schulist Inc and Sons",
-    "ToolTip": "Dolores et porro quaerat ut.",
-    "Deleted": false,
-    "Rank": 1001,
-    "Type": "aut",
+    "Id": 137,
+    "Name": "Rowe-Moen",
+    "ToolTip": "Nesciunt sed similique odio iste sit excepturi.",
+    "Deleted": true,
+    "Rank": 395,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Morissette Inc and Sons",
-        "ToolTip": "Laudantium ratione dolor labore voluptate pariatur culpa eos.",
-        "Deleted": true,
-        "Rank": 232,
-        "Type": "ad",
+        "Id": 232,
+        "Name": "Weissnat Group",
+        "ToolTip": "Enim nemo vel sit et.",
+        "Deleted": false,
+        "Rank": 33,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 271,
-        "ExtraInfo": "ut",
-        "StyleHint": "officiis",
-        "FullName": "Obie Gutkowski",
+        "IconHint": "molestiae",
+        "ColorBlock": 278,
+        "ExtraInfo": "dolores",
+        "StyleHint": "quia",
+        "FullName": "Edgar Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 564
+            "FieldLength": 717
           }
         }
       }
     ],
-    "IconHint": "pariatur",
-    "ColorBlock": 296,
-    "ExtraInfo": "numquam",
-    "StyleHint": "nostrum",
-    "FullName": "Ms. Vincenza Mireya Leuschke",
+    "IconHint": "velit",
+    "ColorBlock": 977,
+    "ExtraInfo": "sit",
+    "StyleHint": "est",
+    "FullName": "Anabel Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldLength": 686
       }
     }
   }

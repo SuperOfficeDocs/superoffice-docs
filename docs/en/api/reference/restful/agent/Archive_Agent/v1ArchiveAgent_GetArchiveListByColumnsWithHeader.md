@@ -102,55 +102,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Padberg-Rodriguez",
+  "ProviderName": "Weissnat, Hane and Collins",
   "Columns": [
-    "corporis",
-    "qui"
+    "dolores",
+    "eveniet"
   ],
   "SortOrder": [
     {
-      "Name": "Hahn-Fahey",
+      "Name": "Donnelly-Will",
       "Direction": "ASC"
     },
     {
-      "Name": "Hahn-Fahey",
+      "Name": "Donnelly-Will",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hintz Group",
-      "Operator": "deleniti",
+      "Name": "Konopelski, Wisozk and Goldner",
+      "Operator": "provident",
       "Values": [
-        "ut",
-        "consequuntur"
+        "vel",
+        "qui"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "ab"
+        "accusantium",
+        "vitae"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 34,
+      "InterParenthesis": 919,
       "InterOperator": "And",
-      "UniqueHash": 140
+      "UniqueHash": 397
     }
   ],
   "Entities": [
-    "quam",
-    "officiis"
+    "omnis",
+    "fuga"
   ],
-  "Page": 875,
-  "PageSize": 493,
-  "Options": "ut"
+  "Page": 520,
+  "PageSize": 747,
+  "Options": "minima"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 913,
+  "RowCount": 84,
   "Rows": [
     {
-      "EntityName": "Barton-Wolff",
-      "PrimaryKey": 915,
+      "EntityName": "Durgan Group",
+      "PrimaryKey": 596,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "unde",
-          "TooltipHint": "qui",
-          "LinkHint": "sed"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "sunt",
+          "LinkHint": "recusandae"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "exercitationem",
+      "LinkHint": "omnis",
+      "StyleHint": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldLength": 41
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 316
     }
   }
 }

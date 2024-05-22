@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 413,
-  "ColumnId": 498,
-  "FieldDefault": "aut",
-  "FieldHeight": 297,
-  "FieldLabel": "accusantium",
-  "FieldLeft": 392,
-  "FieldTop": 689,
+  "UDefFieldId": 805,
+  "ColumnId": 485,
+  "FieldDefault": "reprehenderit",
+  "FieldHeight": 53,
+  "FieldLabel": "praesentium",
+  "FieldLeft": 328,
+  "FieldTop": 855,
   "FieldType": "Checkbox",
-  "FieldWidth": 770,
-  "FormatMask": "beatae",
+  "FieldWidth": 109,
+  "FormatMask": "dolorem",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 77,
-  "LabelLeft": 328,
-  "LabelTop": 544,
-  "LabelWidth": 154,
-  "LastVersionId": 916,
-  "ListTableId": 119,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 149,
+  "LabelLeft": 629,
+  "LabelTop": 329,
+  "LabelWidth": 398,
+  "LastVersionId": 797,
+  "ListTableId": 860,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 44,
-  "ProgId": "architecto",
+  "Page1LineNo": 88,
+  "ProgId": "molestias",
   "IsReadOnly": false,
-  "ShortLabel": "totam",
-  "TabOrder": 189,
-  "TextLength": 168,
-  "Tooltip": "et",
-  "UdefIdentity": 590,
-  "UDListDefinitionId": 386,
+  "ShortLabel": "dolorum",
+  "TabOrder": 160,
+  "TextLength": 313,
+  "Tooltip": "ea",
+  "UdefIdentity": 355,
+  "UDListDefinitionId": 289,
   "Justification": "Center",
-  "Version": 215,
-  "TemplateVariableName": "Williamson-Cartwright",
-  "HasBeenPublished": true,
-  "MdoListName": "Barton-Dickens",
+  "Version": 916,
+  "TemplateVariableName": "Kshlerin LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Bergnaum-Hudson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

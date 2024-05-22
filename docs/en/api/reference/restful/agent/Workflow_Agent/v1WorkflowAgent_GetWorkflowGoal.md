@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=649
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=993
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 747,
-  "WorkflowId": 721,
+  "WorkflowGoalId": 294,
+  "WorkflowId": 91,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Stroman-Mante",
-      "Description": "Multi-channelled hybrid instruction set",
-      "Rank": 980,
+      "Name": "Turner Inc and Sons",
+      "Description": "Intuitive clear-thinking secured line",
+      "Rank": 402,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stroman-Mante",
-      "Description": "Multi-channelled hybrid instruction set",
-      "Rank": 980,
+      "Name": "Turner Inc and Sons",
+      "Description": "Intuitive clear-thinking secured line",
+      "Rank": 402,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 716
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 70,
-    "Name": "Rolfson-Miller",
-    "Tooltip": "sed",
+    "HeadingId": 133,
+    "Name": "Jaskolski-Douglas",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 319,
-    "UdListDefinitionId": 337,
+    "Rank": 841,
+    "UdListDefinitionId": 887,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldType": "System.Int32",
+        "FieldLength": 137
       }
     }
   }

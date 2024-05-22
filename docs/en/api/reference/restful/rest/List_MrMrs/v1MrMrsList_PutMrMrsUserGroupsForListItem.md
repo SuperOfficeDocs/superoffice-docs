@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 955,
-    "Name": "Lowe LLC",
-    "ToolTip": "Vel maiores ducimus deserunt quia quia eos.",
+    "Id": 66,
+    "Name": "Breitenberg, Zieme and Grant",
+    "ToolTip": "In qui eligendi aut ad.",
     "Deleted": false,
-    "Rank": 862,
-    "Type": "repellendus",
-    "ColorBlock": 422,
-    "IconHint": "fuga",
+    "Rank": 164,
+    "Type": "illo",
+    "ColorBlock": 785,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "1998-09-17T11:16:14.5901626+02:00",
+    "LastChanged": "2006-08-05T12:57:43.5114182+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Fisher, Crist and Schaden",
-        "ToolTip": "Voluptate sed.",
+        "Id": 550,
+        "Name": "Conn, Heidenreich and Marks",
+        "ToolTip": "Sint voluptatem nobis et autem dignissimos unde.",
         "Deleted": false,
-        "Rank": 85,
-        "Type": "et",
-        "ColorBlock": 684,
+        "Rank": 424,
+        "Type": "ad",
+        "ColorBlock": 629,
         "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "1997-07-17T11:16:14.5901626+02:00",
+        "LastChanged": "2020-03-08T12:57:43.5114182+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "eveniet",
-        "Hidden": true,
-        "FullName": "Neoma Trantow"
+        "ExtraInfo": "eum",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Prof. Gaylord Dario McLaughlin II"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "vel",
+    "ExtraInfo": "optio",
+    "StyleHint": "porro",
     "Hidden": true,
-    "FullName": "Ms. Quinn Pouros Jr."
+    "FullName": "Dorris Bernier"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Osinski LLC",
-    "ToolTip": "Aspernatur nihil vel autem nulla optio ex accusantium.",
+    "Id": 491,
+    "Name": "Prosacco-Denesik",
+    "ToolTip": "Beatae dolore quia.",
     "Deleted": false,
-    "Rank": 651,
-    "Type": "dolor",
-    "ColorBlock": 797,
-    "IconHint": "odit",
+    "Rank": 500,
+    "Type": "officia",
+    "ColorBlock": 162,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2015-09-16T11:16:14.5901626+02:00",
+    "LastChanged": "2010-02-24T12:57:43.5114182+01:00",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "Walker-O'Conner",
-        "ToolTip": "Sapiente tempore recusandae provident deserunt totam velit labore.",
+        "Id": 61,
+        "Name": "Gutkowski, Skiles and Bartell",
+        "ToolTip": "Aut et quia sit.",
         "Deleted": true,
-        "Rank": 312,
-        "Type": "numquam",
-        "ColorBlock": 976,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2018-03-26T11:16:14.5901626+02:00",
+        "Rank": 764,
+        "Type": "aut",
+        "ColorBlock": 307,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2009-01-18T12:57:43.5114182+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Liliane Nicola Senger Sr.",
+        "ExtraInfo": "eos",
+        "StyleHint": "nesciunt",
+        "Hidden": true,
+        "FullName": "Miss Doris Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 205
+            "FieldType": "System.Int32",
+            "FieldLength": 706
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Maudie Schowalter",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Fernando Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

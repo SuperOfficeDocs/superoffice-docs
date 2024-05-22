@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 713,
-  "BlobSize": 512,
-  "Description": "Multi-tiered bandwidth-monitored instruction set",
-  "ExtraInfo": "adipisci",
+  "BlobId": 201,
+  "BlobSize": 853,
+  "Description": "Extended human-resource conglomeration",
+  "ExtraInfo": "voluptates",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptatum",
-  "OriginalSize": 952,
-  "CreatedDate": "2007-01-16T11:16:08.7410229+01:00",
-  "UpdatedDate": "2006-12-04T11:16:08.7410229+01:00",
+  "MimeType": "eveniet",
+  "OriginalSize": 525,
+  "CreatedDate": "2009-04-18T12:57:33.2743944+02:00",
+  "UpdatedDate": "2002-06-29T12:57:33.2743944+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "est"
+  "ConceptualType": "aut"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 148,
-  "BlobSize": 790,
-  "Description": "Future-proofed multi-state forecast",
-  "ExtraInfo": "eaque",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "cum",
-  "OriginalSize": 541,
-  "CreatedDate": "2018-10-25T11:16:08.7410229+02:00",
-  "UpdatedDate": "2022-07-11T11:16:08.7410229+02:00",
+  "BlobId": 498,
+  "BlobSize": 202,
+  "Description": "Reduced empowering customer loyalty",
+  "ExtraInfo": "quaerat",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "sunt",
+  "OriginalSize": 801,
+  "CreatedDate": "2015-04-06T12:57:33.2743944+02:00",
+  "UpdatedDate": "2004-05-23T12:57:33.2743944+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "itaque",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 409
     }
   }
 }

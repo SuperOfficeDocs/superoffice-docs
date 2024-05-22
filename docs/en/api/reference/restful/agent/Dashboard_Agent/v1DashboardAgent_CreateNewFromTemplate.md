@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 120,
-  "Caption": "culpa",
-  "Description": "Exclusive needs-based conglomeration",
-  "SelectionId": 618,
+  "DashboardTileId": 643,
+  "Caption": "earum",
+  "Description": "Optimized intermediate groupware",
+  "SelectionId": 357,
   "VisibleFor": [
     {
-      "VisibleId": 343,
+      "VisibleId": 845,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "mollitia"
     },
     {
-      "VisibleId": 343,
+      "VisibleId": 845,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "mollitia"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 974,
-  "Caption": "soluta",
-  "Description": "Re-contextualized discrete complexity",
-  "ChartName": "Schultz LLC",
-  "ChartId": "vel",
-  "IsDefault": true,
-  "AssociateId": 212,
-  "GroupId": 15,
-  "SelectionId": 183,
-  "Config": "enim",
+  "DashboardTileId": 94,
+  "Caption": "fugit",
+  "Description": "Visionary executive forecast",
+  "ChartName": "Dach-Abshire",
+  "ChartId": "voluptatibus",
+  "IsDefault": false,
+  "AssociateId": 608,
+  "GroupId": 607,
+  "SelectionId": 502,
+  "Config": "earum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kuhlman, Volkman and Larson",
-      "Description": "Operative composite collaboration",
+      "Name": "Padberg-West",
+      "Description": "Networked neutral time-frame",
       "Type": "Boolean",
-      "ListName": "Breitenberg, Ankunding and Aufderhar",
+      "ListName": "Kub Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nam",
+      "Value": "excepturi",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 964
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 357,
+      "VisibleId": 55,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 711
+          "FieldType": "System.Int32",
+          "FieldLength": 986
         }
       }
     },
     {
-      "VisibleId": 357,
+      "VisibleId": 55,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 711
+          "FieldType": "System.Int32",
+          "FieldLength": 986
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 728
     }
   }
 }

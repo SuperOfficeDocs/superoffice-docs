@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 485,
-  "SelectionId": 563,
-  "Restrictions": "et"
+  "DashboardTileId": 593,
+  "SelectionId": 24,
+  "Restrictions": "minus"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kuphal Inc and Sons",
-        "DisplayTooltip": "facere",
-        "DisplayType": "consequatur",
-        "CanOrderBy": false,
-        "Name": "Jakubowski-Terry",
-        "CanRestrictBy": false,
-        "RestrictionType": "possimus",
-        "RestrictionListName": "Marquardt Group",
+        "DisplayName": "Lang-Volkman",
+        "DisplayTooltip": "magnam",
+        "DisplayType": "reprehenderit",
+        "CanOrderBy": true,
+        "Name": "Sauer Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "qui",
+        "RestrictionListName": "Goyette Group",
         "IsVisible": false,
-        "ExtraInfo": "ut",
-        "Width": "quos",
-        "IconHint": "dicta",
-        "HeadingIconHint": "ducimus"
+        "ExtraInfo": "consequuntur",
+        "Width": "porro",
+        "IconHint": "cumque",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Kuphal Inc and Sons",
-        "DisplayTooltip": "facere",
-        "DisplayType": "consequatur",
-        "CanOrderBy": false,
-        "Name": "Jakubowski-Terry",
-        "CanRestrictBy": false,
-        "RestrictionType": "possimus",
-        "RestrictionListName": "Marquardt Group",
+        "DisplayName": "Lang-Volkman",
+        "DisplayTooltip": "magnam",
+        "DisplayType": "reprehenderit",
+        "CanOrderBy": true,
+        "Name": "Sauer Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "qui",
+        "RestrictionListName": "Goyette Group",
         "IsVisible": false,
-        "ExtraInfo": "ut",
-        "Width": "quos",
-        "IconHint": "dicta",
-        "HeadingIconHint": "ducimus"
+        "ExtraInfo": "consequuntur",
+        "Width": "porro",
+        "IconHint": "cumque",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null

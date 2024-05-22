@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 423,
-  "Select": "dolores"
+  "SelectionId": 546,
+  "Select": "aut"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Cummerata Inc and Sons",
-    "PrimaryKey": 418,
+    "EntityName": "Ledner Group",
+    "PrimaryKey": 534,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "minima",
-        "TooltipHint": "a",
-        "LinkHint": "exercitationem"
+        "DisplayValue": "aspernatur",
+        "TooltipHint": "et",
+        "LinkHint": "sint"
       }
     },
-    "LinkHint": "sequi",
-    "StyleHint": "harum",
+    "LinkHint": "et",
+    "StyleHint": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 182
       }
     }
   }

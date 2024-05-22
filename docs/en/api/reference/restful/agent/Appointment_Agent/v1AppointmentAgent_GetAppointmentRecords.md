@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 868,
-  "RecurrenceRuleId": 149
+  "MotherId": 82,
+  "RecurrenceRuleId": 265
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 859,
-    "StartDate": "2003-07-05T11:16:08.5063888+02:00",
-    "EndDate": "2009-11-13T11:16:08.5063888+01:00",
+    "AppointmentId": 402,
+    "StartDate": "2014-10-26T12:57:32.7584322+01:00",
+    "EndDate": "1999-12-25T12:57:32.7584322+01:00",
     "Type": "BookingForChecklist",
-    "Task": "facilis",
-    "AssociateFullName": "Cornelius Jerde",
-    "ContactName": "Stracke-Wintheiser",
-    "Description": "Visionary fresh-thinking productivity",
-    "PersonFullName": "Prof. Tracy Schaefer MD",
-    "PersonId": 247,
-    "ContactId": 142,
-    "ProjectId": 931,
-    "ProjectName": "Gleichner-Schmeler",
-    "IsPublished": false,
-    "AssociateId": 73,
-    "ColorIndex": 920,
+    "Task": "est",
+    "AssociateFullName": "Mae Nienow",
+    "ContactName": "Braun Inc and Sons",
+    "Description": "Progressive homogeneous application",
+    "PersonFullName": "Araceli Barrows",
+    "PersonId": 288,
+    "ContactId": 605,
+    "ProjectId": 31,
+    "ProjectName": "Quitzon-Torphy",
+    "IsPublished": true,
+    "AssociateId": 912,
+    "ColorIndex": 349,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 25,
-    "PriorityName": "Hilll Inc and Sons",
+    "PriorityId": 796,
+    "PriorityName": "Muller Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2012-10-25T11:16:08.5220136+02:00",
+    "ActiveDate": "2008-12-14T12:57:32.7584322+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-11-25T11:16:08.5220136+01:00",
-    "RecurringEndDate": "2018-10-26T11:16:08.5220136+02:00",
-    "MotherId": 336,
-    "AssignedBy": 551,
-    "AssignedByFullName": "Prof. Ashley Eugene O'Keefe",
+    "RecurringStartDate": "2023-08-28T12:57:32.7584322+02:00",
+    "RecurringEndDate": "1997-05-12T12:57:32.7584322+02:00",
+    "MotherId": 178,
+    "AssignedBy": 607,
+    "AssignedByFullName": "Yasmin Flo Feil Sr.",
     "RejectReason": "",
-    "Location": "labore",
-    "AlarmLeadTime": "minima",
-    "SaleId": 515,
-    "SaleName": "Windler LLC",
-    "AssociateName": "Smitham, Walter and Goldner",
-    "CreatedDate": "2016-05-24T11:16:08.5220136+02:00",
-    "CreatedBy": "nobis",
-    "CreatedByFullName": "Claudie Hettinger",
-    "CreatedByAssociateId": 935,
+    "Location": "fuga",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 82,
+    "SaleName": "Mueller Group",
+    "AssociateName": "Haley, Wintheiser and Kirlin",
+    "CreatedDate": "2015-10-18T12:57:32.7584322+02:00",
+    "CreatedBy": "cupiditate",
+    "CreatedByFullName": "Maximus Ortiz",
+    "CreatedByAssociateId": 956,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 29,
-    "Title": "quo",
-    "Agenda": "optio",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 427,
+    "Title": "consectetur",
+    "Agenda": "velit",
+    "InternalNotes": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 979
       }
     }
   }

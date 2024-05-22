@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 425,
-  "StartTime": "2023-07-10T11:16:09.0691155+02:00",
-  "EndTime": "2018-08-02T11:16:09.0691155+02:00",
-  "Count": 861,
-  "TemplateHeadingId": 289
+  "ProjectId": 123,
+  "StartTime": "2018-03-11T12:57:33.7117979+01:00",
+  "EndTime": "1999-07-08T12:57:33.7117979+02:00",
+  "Count": 514,
+  "TemplateHeadingId": 47
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 997,
-    "Attention": "ab",
-    "Header": "fuga",
-    "Name": "Gutmann Group",
-    "OurRef": "illo",
-    "YourRef": "impedit",
-    "Description": "Down-sized bifurcated monitoring",
-    "DocumentTemplate": "vel",
-    "IsPublished": true,
-    "PersonId": 135,
-    "PersonFullName": "Prof. Christiana Johnathon Fay",
-    "AssociateFullName": "Felipa Emard",
-    "ContactId": 664,
-    "ContactName": "Rodriguez, Bailey and West",
-    "ProjectId": 693,
-    "ProjectName": "Johns-Koepp",
-    "AssociateId": 473,
-    "Snum": 402,
-    "SaleId": 674,
-    "SaleName": "Hoppe-Tillman",
+    "DocumentId": 784,
+    "Attention": "facilis",
+    "Header": "voluptate",
+    "Name": "Bode, Osinski and Zboncak",
+    "OurRef": "tempora",
+    "YourRef": "qui",
+    "Description": "Focused national challenge",
+    "DocumentTemplate": "omnis",
+    "IsPublished": false,
+    "PersonId": 813,
+    "PersonFullName": "Dallin Cremin DDS",
+    "AssociateFullName": "Brain Witting",
+    "ContactId": 280,
+    "ContactName": "Larkin Group",
+    "ProjectId": 526,
+    "ProjectName": "Leffler-Hessel",
+    "AssociateId": 192,
+    "Snum": 28,
+    "SaleId": 628,
+    "SaleName": "Fay, Schoen and Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldLength": 488
       }
     }
   }

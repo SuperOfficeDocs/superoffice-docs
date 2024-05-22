@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Glover Inc and Sons",
-  "Tooltip": "eos",
+  "Id": 83,
+  "Name": "Becker, Schuppe and Hauck",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 845,
-  "Rank": 993
+  "UdListDefinitionId": 572,
+  "Rank": 383
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207,
-  "Name": "Runte-McDermott",
-  "Tooltip": "reiciendis",
+  "Id": 761,
+  "Name": "Jakubowski Group",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "UdListDefinitionId": 26,
-  "Rank": 914,
+  "UdListDefinitionId": 546,
+  "Rank": 501,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

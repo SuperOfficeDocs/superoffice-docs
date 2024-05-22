@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stokes LLC",
-    "DisplayName": "Schimmel Inc and Sons",
-    "DisplayTooltip": "molestias",
+    "Name": "Spinka-Legros",
+    "DisplayName": "Mante-Hyatt",
+    "DisplayTooltip": "totam",
     "IsActive": false
   },
   {
-    "Name": "Stokes LLC",
-    "DisplayName": "Schimmel Inc and Sons",
-    "DisplayTooltip": "molestias",
+    "Name": "Spinka-Legros",
+    "DisplayName": "Mante-Hyatt",
+    "DisplayTooltip": "totam",
     "IsActive": false
   }
 ]

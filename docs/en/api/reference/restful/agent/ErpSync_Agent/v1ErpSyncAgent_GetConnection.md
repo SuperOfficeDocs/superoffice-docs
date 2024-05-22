@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 479
+  "ErpConnectionId": 821
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 266,
-  "ErpConnectorId": 976,
-  "DisplayName": "Kirlin Inc and Sons",
-  "DisplayDescription": "Cross-platform zero defect database",
-  "Active": false,
-  "ConnectionId": "enim",
-  "MostRecentTimestamp": "architecto",
+  "ErpConnectionId": 18,
+  "ErpConnectorId": 953,
+  "DisplayName": "Legros, Mitchell and Hoppe",
+  "DisplayDescription": "Enterprise-wide grid-enabled product",
+  "Active": true,
+  "ConnectionId": "nihil",
+  "MostRecentTimestamp": "quam",
   "ConfigFields": {
-    "ConfigFields1": "magnam",
-    "ConfigFields2": "commodi"
+    "ConfigFields1": "doloremque",
+    "ConfigFields2": "est"
   },
   "Deleted": true,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    263,
-    545
+    900,
+    214
   ],
   "AssociateAccessIds": [
-    17,
-    973
+    179,
+    971
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 723
     }
   }
 }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schmeler, Luettgen and Kautzer",
-  "DeviceName": "Weissnat-Rau",
-  "DeviceIdentifier": "odit"
+  "ApplicationName": "Schuppe Group",
+  "DeviceName": "Turcotte Group",
+  "DeviceIdentifier": "perspiciatis"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 399,
-  "Name": "Stehr-Schumm",
-  "CreatedDate": "2017-04-27T11:16:09.2878404+02:00",
-  "UpdatedDate": "2005-06-29T11:16:09.2878404+02:00",
-  "AssociateFullName": "Thomas O'Hara",
-  "CreatedBy": "quo",
-  "UpdatedBy": "enim",
-  "DeviceIdentifier": "laudantium",
-  "ForeignAppId": 8,
+  "ForeignDeviceId": 443,
+  "Name": "Kreiger-Effertz",
+  "CreatedDate": "2015-02-09T12:57:34.0554972+01:00",
+  "UpdatedDate": "1997-12-31T12:57:34.0554972+01:00",
+  "AssociateFullName": "Ms. Alejandrin Metz III",
+  "CreatedBy": "asperiores",
+  "UpdatedBy": "omnis",
+  "DeviceIdentifier": "ipsa",
+  "ForeignAppId": 61,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 50
     }
   }
 }

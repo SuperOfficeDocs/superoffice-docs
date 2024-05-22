@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 717,
-  "Name": "Satterfield Group",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 816,
-  "UdListDefinitionId": 559
+  "HeadingId": 826,
+  "Name": "Koelpin, Haag and Lemke",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 43,
+  "UdListDefinitionId": 733
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 516,
-  "Name": "Schuppe Group",
-  "Tooltip": "deserunt",
+  "HeadingId": 493,
+  "Name": "Hudson, Pfannerstill and Reinger",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 651,
-  "UdListDefinitionId": 29,
+  "Rank": 125,
+  "UdListDefinitionId": 493,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

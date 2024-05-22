@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 311
+  "ChatSessionId": 480
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 293,
-  "TopicId": 784,
+  "ChatSessionId": 795,
+  "TopicId": 74,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eos",
-  "CustomerHost": "eum",
-  "CustomerName": "Mante-Carter",
-  "CustomerEmail": "beatrice@ritchiedaniel.uk",
-  "CustomerPhone": "376.834.0067 x23514",
+  "CustomerAlias": "earum",
+  "CustomerHost": "nam",
+  "CustomerName": "Kessler-Reichert",
+  "CustomerEmail": "brandon.mccullough@kertzmanngrant.biz",
+  "CustomerPhone": "1-646-521-1279",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Erdman Group",
+  "CustomerCompanyName": "Streich, Morar and Hyatt",
   "Status": "Closed",
-  "FirstMessage": "fugit",
-  "LastMessage": "aliquid",
-  "WhenRequested": "2012-08-10T11:16:08.8035112+02:00",
-  "WhenStarted": "1998-01-03T11:16:08.8035112+01:00",
-  "WhenEnded": "2021-02-21T11:16:08.8035112+01:00",
-  "WhenIdle": "2016-02-22T11:16:08.8035112+01:00",
-  "WhenFetched": "1997-07-10T11:16:08.8035112+02:00",
-  "SessionKey": "libero",
-  "InitialQueuePos": 804,
-  "AlertLevel": 229,
-  "Rank": 574,
+  "FirstMessage": "est",
+  "LastMessage": "dolorem",
+  "WhenRequested": "2000-02-22T12:57:33.3837477+01:00",
+  "WhenStarted": "2017-11-01T12:57:33.3837477+01:00",
+  "WhenEnded": "2021-09-02T12:57:33.3837477+02:00",
+  "WhenIdle": "2015-05-19T12:57:33.3837477+02:00",
+  "WhenFetched": "2018-02-13T12:57:33.3837477+01:00",
+  "SessionKey": "pariatur",
+  "InitialQueuePos": 954,
+  "AlertLevel": 78,
+  "Rank": 455,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 795,
+  "ChatbotIsActive": true,
+  "Rating": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 723
     }
   }
 }

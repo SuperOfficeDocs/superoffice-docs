@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Hauck Inc and Sons",
-  "Tooltip": "pariatur",
+  "Id": 566,
+  "Name": "Jaskolski, Herzog and Lesch",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 721,
-  "Rank": 335,
+  "UdListDefinitionId": 463,
+  "Rank": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 347
     }
   }
 }

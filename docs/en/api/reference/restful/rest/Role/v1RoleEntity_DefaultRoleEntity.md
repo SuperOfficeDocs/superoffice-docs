@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 95,
-  "Name": "Kessler-Toy",
-  "Tooltip": "perferendis",
+  "RoleId": 406,
+  "Name": "Smith-Fadel",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 479,
-  "Rank": 127,
-  "Created": "1999-06-22T11:16:14.1363143+02:00",
-  "UseCategories": 454,
+  "Deleted": 714,
+  "Rank": 8,
+  "Created": "2005-01-05T12:57:42.6513343+01:00",
+  "UseCategories": 262,
   "CreatedBy": null,
-  "Updated": "1997-09-05T11:16:14.1363143+02:00",
+  "Updated": "2005-01-12T12:57:42.6513343+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldLength": 692
     }
   }
 }

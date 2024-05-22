@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 676,
-  "Name": "Corwin-Dach",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "UdListDefinitionId": 655,
-  "Rank": 908,
+  "Id": 326,
+  "Name": "Bernier LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 72,
+  "Rank": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 708
     }
   }
 }

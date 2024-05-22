@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 819,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 422,
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Weimann Inc and Sons",
-    "Tooltip": "dolore",
+    "Id": 432,
+    "Name": "Stracke, VonRueden and Kuhlman",
+    "Tooltip": "facere",
     "Deleted": false,
-    "UdListDefinitionId": 913,
-    "Rank": 645,
+    "UdListDefinitionId": 162,
+    "Rank": 646,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

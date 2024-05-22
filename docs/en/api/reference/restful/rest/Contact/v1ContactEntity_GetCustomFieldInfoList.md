@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hickle, Johnston and Emmerich",
-    "DisplayName": "Gottlieb-Labadie",
-    "Description": "Fundamental motivating approach",
-    "ShortLabel": "doloribus",
+    "FieldName": "Reichert-Balistreri",
+    "DisplayName": "Glover Group",
+    "Description": "Triple-buffered fault-tolerant interface",
+    "ShortLabel": "sed",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 599,
-    "TemplateVariableName": "Gusikowski-Boyer"
+    "Rank": 530,
+    "TemplateVariableName": "Howell Group"
   }
 ]
 ```

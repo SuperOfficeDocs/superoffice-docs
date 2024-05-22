@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 867,
+    "TargetDimensionId": 783,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "debitis",
-    "DimensionListName": "Jacobi-Zieme",
-    "DimensionListId": 739,
-    "DimensionListLabel": "id",
+    "DimensionListField": "et",
+    "DimensionListName": "Cronin, Crist and Littel",
+    "DimensionListId": 479,
+    "DimensionListLabel": "occaecati",
     "SelectedDimensions": [
-      127,
-      28
+      599,
+      108
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldLength": 671
       }
     }
   }

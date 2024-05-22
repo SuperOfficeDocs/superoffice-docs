@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 964,
-    "Name": "Wunsch Group",
-    "CurrencyId": 26,
-    "EnglishName": "Pacocha, Kiehn and Effertz",
+    "CountryId": 771,
+    "Name": "Lemke LLC",
+    "CurrencyId": 739,
+    "EnglishName": "Herzog, Lubowitz and Olson",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Virtual didactic parallelism",
-    "OrgNrText": "401150",
-    "InterAreaPrefix": "tenetur",
-    "DialInPrefix": "saepe",
-    "ZipPrefix": "accusantium",
-    "DomainName": "Fay Inc and Sons",
-    "AddressLayoutId": 13,
-    "DomesticAddressLayoutId": 236,
-    "ForeignAddressLayoutId": 378,
-    "Rank": 427,
-    "Tooltip": "eius",
-    "Deleted": true,
+    "ImageDescription": "Synergized systemic emulation",
+    "OrgNrText": "87254",
+    "InterAreaPrefix": "est",
+    "DialInPrefix": "doloribus",
+    "ZipPrefix": "sint",
+    "DomainName": "Swaniawski-Wilderman",
+    "AddressLayoutId": 866,
+    "DomesticAddressLayoutId": 298,
+    "ForeignAddressLayoutId": 405,
+    "Rank": 654,
+    "Tooltip": "commodi",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldType": "System.String",
+        "FieldLength": 958
       }
     }
   }

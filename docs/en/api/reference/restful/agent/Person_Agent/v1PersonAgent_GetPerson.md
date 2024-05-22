@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=186
+POST /api/v1/Agents/Person/GetPerson?personId=32
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "consectetur",
-  "PersonId": 849,
-  "Mrmrs": "fugiat",
-  "Firstname": "Abbigail",
-  "Lastname": "Durgan",
-  "MiddleName": "Littel Inc and Sons",
-  "Title": "officiis",
-  "Description": "Business-focused assymetric collaboration",
-  "Email": "samara.olson@russel.com",
-  "FullName": "Arturo Christiansen",
-  "DirectPhone": "(036)710-2314 x72108",
-  "FormalName": "Renner Inc and Sons",
-  "CountryId": 266,
-  "ContactId": 303,
-  "ContactName": "Buckridge Inc and Sons",
-  "Retired": 607,
-  "Rank": 224,
-  "ActiveInterests": 360,
-  "ContactDepartment": "optimize B2B web-readiness",
-  "ContactCountryId": 967,
-  "ContactOrgNr": "1352571",
-  "FaxPhone": "(751)677-6754 x1579",
-  "MobilePhone": "(476)436-4044 x6412",
-  "ContactPhone": "536.020.0875 x04772",
-  "AssociateName": "Medhurst-Dooley",
-  "AssociateId": 973,
+  "Position": "ut",
+  "PersonId": 104,
+  "Mrmrs": "quia",
+  "Firstname": "Delphia",
+  "Lastname": "Mitchell",
+  "MiddleName": "West-O'Keefe",
+  "Title": "dolorum",
+  "Description": "Organic multi-state project",
+  "Email": "kayla@stehroconnell.co.uk",
+  "FullName": "Hanna Gislason",
+  "DirectPhone": "699-759-2529",
+  "FormalName": "Cruickshank, Glover and Ward",
+  "CountryId": 926,
+  "ContactId": 810,
+  "ContactName": "Fay, Casper and Medhurst",
+  "Retired": 441,
+  "Rank": 522,
+  "ActiveInterests": 343,
+  "ContactDepartment": "",
+  "ContactCountryId": 184,
+  "ContactOrgNr": "823569",
+  "FaxPhone": "(108)688-4132 x73437",
+  "MobilePhone": "(944)474-3648 x68056",
+  "ContactPhone": "345.489.4698",
+  "AssociateName": "Collier Group",
+  "AssociateId": 349,
   "UsePersonAddress": false,
-  "ContactFax": "et",
-  "Kanafname": "voluptas",
-  "Kanalname": "officiis",
-  "Post1": "quibusdam",
-  "Post2": "omnis",
-  "Post3": "veritatis",
-  "EmailName": "ted@stokes.us",
-  "ContactFullName": "Tristian Larkin",
-  "ActiveErpLinks": 491,
-  "TicketPriorityId": 888,
-  "SupportLanguageId": 859,
-  "SupportAssociateId": 420,
+  "ContactFax": "repudiandae",
+  "Kanafname": "maiores",
+  "Kanalname": "voluptas",
+  "Post1": "suscipit",
+  "Post2": "et",
+  "Post3": "sint",
+  "EmailName": "rhea@daniel.biz",
+  "ContactFullName": "Perry Dooley",
+  "ActiveErpLinks": 142,
+  "TicketPriorityId": 108,
+  "SupportLanguageId": 597,
+  "SupportAssociateId": 243,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 798
     }
   }
 }

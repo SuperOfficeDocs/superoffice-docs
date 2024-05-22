@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 239,
-  "WorkflowId": 405,
+  "WorkflowGoalId": 238,
+  "WorkflowId": 646,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Emmerich-Quitzon",
-      "Description": "Inverse heuristic knowledge base",
-      "Rank": 894,
+      "Name": "Yundt Inc and Sons",
+      "Description": "Virtual explicit utilisation",
+      "Rank": 375,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Emmerich-Quitzon",
-      "Description": "Inverse heuristic knowledge base",
-      "Rank": 894,
+      "Name": "Yundt Inc and Sons",
+      "Description": "Virtual explicit utilisation",
+      "Rank": 375,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 872,
-  "WorkflowId": 185,
+  "WorkflowGoalId": 57,
+  "WorkflowId": 875,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "McGlynn-DuBuque",
-      "Description": "Visionary homogeneous project",
-      "Rank": 466,
+      "Name": "Parker-Rau",
+      "Description": "Multi-layered uniform product",
+      "Rank": 451,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McGlynn-DuBuque",
-      "Description": "Visionary homogeneous project",
-      "Rank": 466,
+      "Name": "Parker-Rau",
+      "Description": "Multi-layered uniform product",
+      "Rank": 451,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

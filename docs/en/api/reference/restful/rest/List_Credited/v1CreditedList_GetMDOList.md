@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=et
+GET /api/v1/List/Credited/MDOItems?query=sapiente
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Bins-Swift",
-    "ToolTip": "Fugiat quos quia mollitia et quo odit.",
+    "Id": 68,
+    "Name": "Carroll Inc and Sons",
+    "ToolTip": "In et quis vel praesentium aut qui.",
     "Deleted": true,
-    "Rank": 446,
-    "Type": "cum",
+    "Rank": 242,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "O'Conner-Collier",
-        "ToolTip": "Excepturi dolor quis eos autem assumenda dolore.",
+        "Id": 657,
+        "Name": "Koss Group",
+        "ToolTip": "Iure ad vitae nesciunt libero voluptas quisquam.",
         "Deleted": false,
-        "Rank": 713,
+        "Rank": 310,
         "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 343,
-        "ExtraInfo": "sed",
-        "StyleHint": "natus",
-        "FullName": "Orrin Will",
+        "IconHint": "itaque",
+        "ColorBlock": 228,
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "aliquid",
+        "FullName": "Filiberto Michelle Greenfelder Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 30
+            "FieldType": "System.String",
+            "FieldLength": 177
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 785,
-    "ExtraInfo": "nulla",
-    "StyleHint": "sunt",
-    "FullName": "Arden Mosciski",
+    "IconHint": "nobis",
+    "ColorBlock": 687,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "voluptatem",
+    "FullName": "Mr. Rylan Adella Hammes DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 186
       }
     }
   }

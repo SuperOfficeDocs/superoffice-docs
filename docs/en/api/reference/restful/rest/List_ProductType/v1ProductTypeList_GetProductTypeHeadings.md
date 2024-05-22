@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 365,
-    "Name": "Ortiz, Welch and Kunde",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 244,
+    "HeadingId": 228,
+    "Name": "Windler, Crist and Swift",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 466,
+    "UdListDefinitionId": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 293
       }
     }
   }

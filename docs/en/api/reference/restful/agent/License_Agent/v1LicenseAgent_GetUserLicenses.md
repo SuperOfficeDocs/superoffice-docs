@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 662
+  "AssociateId": 414
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen-Pagac",
-    "Description": "Customizable human-resource installation",
+    "Name": "Haley-Homenick",
+    "Description": "Innovative secondary benchmark",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 895,
-        "Tooltip": "perspiciatis",
-        "CanAssign": false,
-        "Free": 292,
-        "InUse": 386,
+        "Unrestricted": false,
+        "Total": 387,
+        "Tooltip": "ratione",
+        "CanAssign": true,
+        "Free": 314,
+        "InUse": 968,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 721,
-        "Name": "Rutherford LLC",
-        "Description": "Multi-tiered attitude-oriented challenge",
-        "PrerequisiteModuleName": "Price, Schneider and Koelpin",
-        "SortOrder": 960,
-        "ExtraFlags": 457,
+        "ModuleLicenseId": 143,
+        "Name": "Graham Inc and Sons",
+        "Description": "De-engineered assymetric process improvement",
+        "PrerequisiteModuleName": "Trantow, Volkman and Davis",
+        "SortOrder": 108,
+        "ExtraFlags": 403,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 421
+            "FieldLength": 127
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 223,
-        "Tooltip": "nam",
-        "CanAssign": false,
-        "Free": 860,
-        "InUse": 134,
+        "Total": 280,
+        "Tooltip": "aut",
+        "CanAssign": true,
+        "Free": 152,
+        "InUse": 207,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 782,
-        "Name": "Stamm LLC",
-        "Description": "Diverse client-server budgetary management",
-        "PrerequisiteModuleName": "Friesen LLC",
-        "SortOrder": 233,
-        "ExtraFlags": 147,
+        "Assigned": false,
+        "ModuleLicenseId": 756,
+        "Name": "Zieme-Jewess",
+        "Description": "Robust multimedia time-frame",
+        "PrerequisiteModuleName": "Dickens Group",
+        "SortOrder": 50,
+        "ExtraFlags": 278,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 559
+            "FieldLength": 627
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 279
       }
     }
   },
   {
-    "Name": "Luettgen-Pagac",
-    "Description": "Customizable human-resource installation",
+    "Name": "Haley-Homenick",
+    "Description": "Innovative secondary benchmark",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 895,
-        "Tooltip": "perspiciatis",
-        "CanAssign": false,
-        "Free": 292,
-        "InUse": 386,
+        "Unrestricted": false,
+        "Total": 387,
+        "Tooltip": "ratione",
+        "CanAssign": true,
+        "Free": 314,
+        "InUse": 968,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 721,
-        "Name": "Rutherford LLC",
-        "Description": "Multi-tiered attitude-oriented challenge",
-        "PrerequisiteModuleName": "Price, Schneider and Koelpin",
-        "SortOrder": 960,
-        "ExtraFlags": 457,
+        "ModuleLicenseId": 143,
+        "Name": "Graham Inc and Sons",
+        "Description": "De-engineered assymetric process improvement",
+        "PrerequisiteModuleName": "Trantow, Volkman and Davis",
+        "SortOrder": 108,
+        "ExtraFlags": 403,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 421
+            "FieldLength": 127
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 223,
-        "Tooltip": "nam",
-        "CanAssign": false,
-        "Free": 860,
-        "InUse": 134,
+        "Total": 280,
+        "Tooltip": "aut",
+        "CanAssign": true,
+        "Free": 152,
+        "InUse": 207,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 782,
-        "Name": "Stamm LLC",
-        "Description": "Diverse client-server budgetary management",
-        "PrerequisiteModuleName": "Friesen LLC",
-        "SortOrder": 233,
-        "ExtraFlags": 147,
+        "Assigned": false,
+        "ModuleLicenseId": 756,
+        "Name": "Zieme-Jewess",
+        "Description": "Robust multimedia time-frame",
+        "PrerequisiteModuleName": "Dickens Group",
+        "SortOrder": 50,
+        "ExtraFlags": 278,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 559
+            "FieldLength": 627
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 279
       }
     }
   }

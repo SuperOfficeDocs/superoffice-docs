@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 47,
+  "SystemEventId": 462,
   "Scope": "Database",
-  "Eta": "2012-03-04T11:16:14.2304645+01:00",
-  "Eventkey": "tenetur",
-  "Eventmess": "tenetur",
-  "ExtraInfo": 32,
-  "Owner": 624,
-  "UpdatedCount": 919,
-  "Registered": "1999-09-03T11:16:14.2304645+02:00",
+  "Eta": "2000-02-08T12:57:42.8231706+01:00",
+  "Eventkey": "praesentium",
+  "Eventmess": "vel",
+  "ExtraInfo": 31,
+  "Owner": 71,
+  "UpdatedCount": 537,
+  "Registered": "2017-10-16T12:57:42.8231706+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 972
     }
   },
   "_Links": {

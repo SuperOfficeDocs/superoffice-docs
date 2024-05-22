@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Pfannerstill-Friesen",
-  "Tooltip": "ab",
+  "Id": 118,
+  "Name": "Bergnaum-Bechtelar",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 87,
-  "Rank": 928,
+  "UdListDefinitionId": 298,
+  "Rank": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

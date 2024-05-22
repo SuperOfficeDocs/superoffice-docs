@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    247,
-    17
+    237,
+    885
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 173,
-    "Name": "Dickens-Lebsack",
-    "Description": "Grass-roots even-keeled application",
+    "ProjectId": 396,
+    "Name": "Streich-Rolfson",
+    "Description": "Extended executive frame",
     "URL": "http://www.example.com/",
-    "Type": "culpa",
-    "AssociateId": 481,
-    "AssociateFullName": "Karolann Herta Medhurst Sr.",
-    "TypeId": 858,
-    "Updated": "2000-10-30T11:16:09.569228+01:00",
-    "StatusId": 112,
-    "Status": "impedit",
-    "TextId": 170,
-    "PublishTo": "2020-10-28T11:16:09.569228+01:00",
-    "PublishFrom": "1998-12-05T11:16:09.569228+01:00",
+    "Type": "ex",
+    "AssociateId": 519,
+    "AssociateFullName": "Keshawn Pfeffer",
+    "TypeId": 902,
+    "Updated": "1997-02-23T12:57:34.664705+01:00",
+    "StatusId": 922,
+    "Status": "omnis",
+    "TextId": 98,
+    "PublishTo": "2017-03-06T12:57:34.664705+01:00",
+    "PublishFrom": "2007-11-11T12:57:34.664705+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "875841",
-    "ActiveErpLinks": 43,
+    "ProjectNumber": "1658567",
+    "ActiveErpLinks": 209,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 184
+        "FieldLength": 54
       }
     }
   }

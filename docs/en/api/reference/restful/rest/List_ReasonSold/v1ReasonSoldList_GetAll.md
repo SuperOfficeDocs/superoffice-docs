@@ -25,7 +25,7 @@ Gets all the ReasonSold items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonSold/Items?includeDeleted=True
+GET /api/v1/List/ReasonSold/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Luettgen-Wolff",
-    "Tooltip": "ut",
+    "Id": 876,
+    "Name": "Johnson LLC",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 538,
+    "UdListDefinitionId": 463,
+    "Rank": 302,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldType": "System.String",
+        "FieldLength": 184
       }
     }
   }

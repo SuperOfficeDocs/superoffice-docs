@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Bechtelar Inc and Sons",
-    "ToolTip": "Ut architecto eveniet.",
+    "Id": 656,
+    "Name": "Hessel-Wisoky",
+    "ToolTip": "Modi facere neque tempora iusto.",
     "Deleted": false,
-    "Rank": 37,
-    "Type": "ex",
-    "ColorBlock": 609,
-    "IconHint": "aut",
+    "Rank": 179,
+    "Type": "aut",
+    "ColorBlock": 223,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2008-08-04T11:16:14.6526601+02:00",
+    "LastChanged": "1999-08-07T12:57:43.6207681+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Mayer, Sporer and Weimann",
-        "ToolTip": "Aut velit eum eius quas repellat incidunt sunt.",
-        "Deleted": false,
-        "Rank": 968,
-        "Type": "tenetur",
-        "ColorBlock": 153,
-        "IconHint": "in",
+        "Id": 758,
+        "Name": "Mann-Gusikowski",
+        "ToolTip": "Dolor nisi sit reiciendis enim.",
+        "Deleted": true,
+        "Rank": 769,
+        "Type": "cumque",
+        "ColorBlock": 785,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2020-11-17T11:16:14.6526601+01:00",
+        "LastChanged": "2018-04-06T12:57:43.6207681+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "modi",
-        "Hidden": false,
-        "FullName": "Abagail Keebler"
+        "ExtraInfo": "mollitia",
+        "StyleHint": "ipsa",
+        "Hidden": true,
+        "FullName": "Prof. Naomi Wallace Gislason IV"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "id",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Floyd Daugherty"
+    "FullName": "Dr. Joel Stone Towne"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Stiedemann LLC",
-    "ToolTip": "Pariatur sed illum unde ratione ullam ut.",
-    "Deleted": true,
-    "Rank": 642,
-    "Type": "porro",
-    "ColorBlock": 36,
-    "IconHint": "quis",
+    "Id": 477,
+    "Name": "Gottlieb, Okuneva and Greenfelder",
+    "ToolTip": "Animi ea numquam.",
+    "Deleted": false,
+    "Rank": 618,
+    "Type": "voluptas",
+    "ColorBlock": 963,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "1999-06-24T11:16:14.6526601+02:00",
+    "LastChanged": "1999-08-03T12:57:43.6207681+02:00",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Schumm-Schuster",
-        "ToolTip": "Quaerat debitis et quaerat labore rerum eos.",
+        "Id": 605,
+        "Name": "Maggio-Mante",
+        "ToolTip": "Aut quo esse voluptas.",
         "Deleted": false,
-        "Rank": 941,
-        "Type": "omnis",
-        "ColorBlock": 932,
-        "IconHint": "in",
+        "Rank": 569,
+        "Type": "nostrum",
+        "ColorBlock": 733,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2001-06-04T11:16:14.6526601+02:00",
+        "LastChanged": "2005-10-20T12:57:43.6207681+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Lorenzo Roberts",
+        "ExtraInfo": "dolore",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Miss Otto Jarred Kozey DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 258
+            "FieldType": "System.Int32",
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Miss D'angelo Sheridan Franecki II",
+    "ExtraInfo": "aut",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Prof. Fatima Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldType": "System.Int32",
+        "FieldLength": 412
       }
     }
   }

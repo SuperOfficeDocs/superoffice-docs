@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 261,
-  "ColumnId": 581,
-  "FieldDefault": "labore",
-  "FieldHeight": 700,
-  "FieldLabel": "maxime",
-  "FieldLeft": 991,
-  "FieldTop": 91,
+  "UDefFieldId": 340,
+  "ColumnId": 497,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 262,
+  "FieldLabel": "et",
+  "FieldLeft": 828,
+  "FieldTop": 777,
   "FieldType": "Checkbox",
-  "FieldWidth": 384,
-  "FormatMask": "et",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 386,
-  "LabelLeft": 480,
-  "LabelTop": 756,
-  "LabelWidth": 174,
-  "LastVersionId": 402,
-  "ListTableId": 126,
-  "IsMandatory": false,
+  "FieldWidth": 841,
+  "FormatMask": "fuga",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 969,
+  "LabelLeft": 674,
+  "LabelTop": 110,
+  "LabelWidth": 575,
+  "LastVersionId": 229,
+  "ListTableId": 857,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 288,
-  "ProgId": "non",
-  "IsReadOnly": false,
-  "ShortLabel": "inventore",
-  "TabOrder": 346,
-  "TextLength": 288,
-  "Tooltip": "ut",
-  "UdefIdentity": 116,
-  "UDListDefinitionId": 449,
+  "Page1LineNo": 998,
+  "ProgId": "facere",
+  "IsReadOnly": true,
+  "ShortLabel": "ut",
+  "TabOrder": 243,
+  "TextLength": 39,
+  "Tooltip": "mollitia",
+  "UdefIdentity": 625,
+  "UDListDefinitionId": 347,
   "Justification": "Center",
-  "Version": 222,
-  "TemplateVariableName": "Bahringer-Cummings",
-  "HasBeenPublished": true,
-  "MdoListName": "Barton-VonRueden",
+  "Version": 542,
+  "TemplateVariableName": "Cole, Graham and Kassulke",
+  "HasBeenPublished": false,
+  "MdoListName": "Kling, Kunze and Watsica",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 798
     }
   }
 }

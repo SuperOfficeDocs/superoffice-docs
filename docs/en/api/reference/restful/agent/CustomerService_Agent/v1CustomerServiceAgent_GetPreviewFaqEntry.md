@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 270
+  "KbEntryId": 836
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "amet",
-  "RegisteredByFullName": "Rachael Roberts",
-  "Updated": "2004-08-28T11:16:08.9597121+02:00",
-  "Question": "autem",
-  "Answer": "aperiam",
+  "Title": "dolorum",
+  "RegisteredByFullName": "Brenden Baumbach Sr.",
+  "Updated": "2014-03-24T12:57:33.6336908+01:00",
+  "Question": "ut",
+  "Answer": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 822
     }
   }
 }

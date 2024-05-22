@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 728,
-    "Name": "Hilll-Raynor",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 192,
-    "UdListDefinitionId": 141
+    "HeadingId": 627,
+    "Name": "Considine LLC",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 358,
+    "UdListDefinitionId": 952
   },
   {
-    "HeadingId": 728,
-    "Name": "Hilll-Raynor",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "Rank": 192,
-    "UdListDefinitionId": 141
+    "HeadingId": 627,
+    "Name": "Considine LLC",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 358,
+    "UdListDefinitionId": 952
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 684,
-    "Name": "Kiehn-Cartwright",
-    "Tooltip": "ratione",
-    "Deleted": true,
-    "Rank": 210,
-    "UdListDefinitionId": 473,
+    "HeadingId": 377,
+    "Name": "Steuber Group",
+    "Tooltip": "perferendis",
+    "Deleted": false,
+    "Rank": 895,
+    "UdListDefinitionId": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 741
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

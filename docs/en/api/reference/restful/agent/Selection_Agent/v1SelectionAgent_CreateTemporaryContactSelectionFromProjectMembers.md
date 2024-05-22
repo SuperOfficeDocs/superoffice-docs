@@ -71,7 +71,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 730
+  "ProjectId": 402
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Devolved discrete matrix",
-  "Postit": "unde",
+  "Description": "Customizable directional protocol",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 529,
-  "IncludePerson": 139,
-  "MemberCount": 315,
-  "Name": "Connelly Inc and Sons",
-  "PostitTextId": 434,
-  "CreatedDate": "2014-08-25T11:16:09.7103639+02:00",
-  "SelectionId": 672,
-  "SoundEx": "deserunt",
-  "Source": 550,
-  "TextId": 67,
-  "UpdatedDate": "2022-03-23T11:16:09.7103639+01:00",
-  "UpdatedCount": 943,
-  "Visibility": 961,
+  "GroupIdx": 358,
+  "IncludePerson": 975,
+  "MemberCount": 99.99,
+  "Name": "Reichert Inc and Sons",
+  "PostitTextId": 983,
+  "CreatedDate": "2006-03-23T12:57:34.9302081+01:00",
+  "SelectionId": 109,
+  "SoundEx": "illo",
+  "Source": 421,
+  "TextId": 444,
+  "UpdatedDate": "2011-03-06T12:57:34.9302081+01:00",
+  "UpdatedCount": 51,
+  "Visibility": 502,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 632,
-  "TargetTableName": "Klocko LLC",
-  "Completed": true,
-  "LeftSelectionId": 510,
-  "RightSelectionId": 678,
+  "TargetTableNumber": 799,
+  "TargetTableName": "Maggio, Skiles and Cummerata",
+  "Completed": false,
+  "LeftSelectionId": 466,
+  "RightSelectionId": 216,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnson LLC",
-  "ShadowProviderName": "Mosciski, Okuneva and Rippin",
-  "ChartKey": "corporis",
-  "LastLoaded": "2021-06-18T11:16:09.7103639+02:00",
-  "LastLoadedBy": 52,
+  "MainProviderName": "Pagac-Kassulke",
+  "ShadowProviderName": "Waters-Konopelski",
+  "ChartKey": "et",
+  "LastLoaded": "2017-11-15T12:57:34.9302081+01:00",
+  "LastLoadedBy": 3,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-06-15T11:16:09.7103639+02:00",
-  "LastMembershipChangeBy": 821,
+  "LastMembershipChange": "2020-05-31T12:57:34.9302081+02:00",
+  "LastMembershipChangeBy": 35,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "repudiandae",
-  "MailingsProviderName": "Satterfield-Lang",
-  "DashboardTileDefinitionId": 138,
+  "MainHeading": "qui",
+  "MemberTabHeading": "corrupti",
+  "MailingsProviderName": "Jones-McLaughlin",
+  "DashboardTileDefinitionId": 326,
   "VisibleFor": [
     {
-      "VisibleId": 215,
+      "VisibleId": 994,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 428
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     },
     {
-      "VisibleId": 215,
+      "VisibleId": 994,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 428
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "CanSupportMultiUse": true,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "enim",
-    "ValueType": "maiores",
-    "Mandatory": false,
-    "EncodedDisplayName": "Keeling, O'Reilly and Ryan",
-    "EncodedDisplayDescription": "Front-line intangible success",
-    "IconHint": "labore",
+    "Key": "doloribus",
+    "ValueType": "sit",
+    "Mandatory": true,
+    "EncodedDisplayName": "Balistreri-Koepp",
+    "EncodedDisplayDescription": "Monitored 24 hour circuit",
+    "IconHint": "id",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "repellendus",
-        "Dimension": 754,
-        "ListProviderName": "Murray-Walsh",
-        "ListProviderExtraInfo": "culpa",
-        "ListProviderPrimaryKeyName": "Prosacco-Hickle",
-        "ListLeadText": "et",
+        "Type": "illo",
+        "Label": "placeat",
+        "Dimension": 33,
+        "ListProviderName": "Kling Inc and Sons",
+        "ListProviderExtraInfo": "itaque",
+        "ListProviderPrimaryKeyName": "Trantow-Strosin",
+        "ListLeadText": "eius",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 140
+            "FieldType": "System.Int32",
+            "FieldLength": 727
           }
         }
       }
     ],
-    "EncodedDataCaption": "ex",
-    "EncodedDataCaptionDescription": "Re-engineered intermediate approach",
-    "CurrentOperationType": "officiis",
+    "EncodedDataCaption": "nihil",
+    "EncodedDataCaptionDescription": "Multi-channelled hybrid interface",
+    "CurrentOperationType": "libero",
     "Values": [
-      "deleniti",
-      "earum"
+      "voluptates",
+      "tenetur"
     ],
     "DisplayValues": [
-      "et",
-      "eius"
+      "sed",
+      "accusantium"
     ],
     "OperationInfos": [
       {
-        "Key": "ratione",
-        "EncodedDisplayName": "Walter-Swift",
+        "Key": "libero",
+        "EncodedDisplayName": "Considine LLC",
         "EncodedLeadTexts": [
-          "porro",
-          "iure"
+          "consequuntur",
+          "in"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 184
+            "FieldType": "System.Int32",
+            "FieldLength": 494
           }
         }
       },
       {
-        "Key": "ratione",
-        "EncodedDisplayName": "Walter-Swift",
+        "Key": "libero",
+        "EncodedDisplayName": "Considine LLC",
         "EncodedLeadTexts": [
-          "porro",
-          "iure"
+          "consequuntur",
+          "in"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 184
+            "FieldType": "System.Int32",
+            "FieldLength": 494
           }
         }
       }

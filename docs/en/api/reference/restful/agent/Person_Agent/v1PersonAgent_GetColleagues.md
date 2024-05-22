@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "alias",
-    "PersonId": 778,
-    "Mrmrs": "fuga",
-    "Firstname": "Joel",
-    "Lastname": "Larson",
-    "MiddleName": "Wehner Group",
-    "Title": "hic",
-    "Description": "Seamless heuristic frame",
-    "Email": "keven@gradydickinson.co.uk",
-    "FullName": "Richmond Satterfield",
-    "DirectPhone": "1-211-662-0148 x9603",
-    "FormalName": "West LLC",
-    "CountryId": 554,
-    "ContactId": 329,
-    "ContactName": "Dibbert LLC",
-    "Retired": 351,
-    "Rank": 679,
-    "ActiveInterests": 676,
-    "ContactDepartment": "synergize intuitive applications",
-    "ContactCountryId": 334,
-    "ContactOrgNr": "456074",
-    "FaxPhone": "1-999-942-3931 x75318",
-    "MobilePhone": "131-643-2520 x02248",
-    "ContactPhone": "1-586-279-7968 x519",
-    "AssociateName": "Mayer Inc and Sons",
-    "AssociateId": 806,
-    "UsePersonAddress": true,
-    "ContactFax": "aut",
+    "Position": "rem",
+    "PersonId": 627,
+    "Mrmrs": "perferendis",
+    "Firstname": "Santiago",
+    "Lastname": "Hettinger",
+    "MiddleName": "Schmeler Inc and Sons",
+    "Title": "iusto",
+    "Description": "Versatile content-based application",
+    "Email": "norbert_heller@kohler.biz",
+    "FullName": "Mrs. Rashawn Kozey",
+    "DirectPhone": "1-944-641-8537",
+    "FormalName": "Cummings Inc and Sons",
+    "CountryId": 507,
+    "ContactId": 185,
+    "ContactName": "Reichel Group",
+    "Retired": 78,
+    "Rank": 453,
+    "ActiveInterests": 847,
+    "ContactDepartment": "",
+    "ContactCountryId": 210,
+    "ContactOrgNr": "905904",
+    "FaxPhone": "995-709-8481 x9621",
+    "MobilePhone": "(074)564-2472",
+    "ContactPhone": "(010)327-5365 x84112",
+    "AssociateName": "Wolf-Johns",
+    "AssociateId": 682,
+    "UsePersonAddress": false,
+    "ContactFax": "facilis",
     "Kanafname": "qui",
-    "Kanalname": "cupiditate",
-    "Post1": "velit",
-    "Post2": "amet",
-    "Post3": "velit",
-    "EmailName": "ashleigh.herman@larson.ca",
-    "ContactFullName": "Clementina Pfeffer",
-    "ActiveErpLinks": 854,
-    "TicketPriorityId": 575,
-    "SupportLanguageId": 139,
-    "SupportAssociateId": 186,
+    "Kanalname": "omnis",
+    "Post1": "temporibus",
+    "Post2": "eaque",
+    "Post3": "ipsam",
+    "EmailName": "michale@mills.name",
+    "ContactFullName": "Helga Medhurst",
+    "ActiveErpLinks": 856,
+    "TicketPriorityId": 254,
+    "SupportLanguageId": 537,
+    "SupportAssociateId": 899,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 930
       }
     }
   }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mitchell LLC",
-  "Context": "nam"
+  "ProviderName": "Koelpin Inc and Sons",
+  "Context": "soluta"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Spinka Group",
-    "DisplayTooltip": "perspiciatis",
+    "DisplayName": "Hirthe LLC",
+    "DisplayTooltip": "molestiae",
     "DisplayType": "voluptas",
     "CanOrderBy": false,
-    "Name": "Prohaska, Konopelski and Cassin",
+    "Name": "Fadel Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "sapiente",
-    "RestrictionListName": "Bahringer-Schuster",
-    "IsVisible": false,
-    "ExtraInfo": "ut",
-    "Width": "repellat",
-    "IconHint": "voluptatem",
-    "HeadingIconHint": "ut"
+    "RestrictionType": "quo",
+    "RestrictionListName": "Rowe Group",
+    "IsVisible": true,
+    "ExtraInfo": "molestias",
+    "Width": "omnis",
+    "IconHint": "veniam",
+    "HeadingIconHint": "nisi"
   }
 ]
 ```

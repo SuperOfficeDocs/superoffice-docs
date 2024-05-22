@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 87,
-  "Name": "Block-Schmeler",
+  "TicketPriorityId": 948,
+  "Name": "Wilderman LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 136,
+  "SortOrder": 217,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 306,
-  "MonStart": "2021-01-30T11:16:09.3815779+01:00",
-  "MonStop": "2006-09-20T11:16:09.3815779+02:00",
-  "TueStart": "2014-11-11T11:16:09.3815779+01:00",
-  "TueStop": "2014-11-27T11:16:09.3815779+01:00",
-  "WedStart": "2004-05-05T11:16:09.3815779+02:00",
-  "WedStop": "2018-03-29T11:16:09.3815779+02:00",
-  "ThuStart": "2020-12-08T11:16:09.3815779+01:00",
-  "ThuStop": "2019-08-30T11:16:09.3815779+02:00",
-  "FriStart": "2011-12-11T11:16:09.3815779+01:00",
-  "FriStop": "2019-02-09T11:16:09.3815779+01:00",
-  "SatStart": "1996-12-27T11:16:09.3815779+01:00",
-  "SatStop": "1998-02-03T11:16:09.3815779+01:00",
-  "SunStart": "2002-10-28T11:16:09.3815779+01:00",
-  "SunStop": "2016-10-27T11:16:09.3815779+02:00",
+  "Deadline": 681,
+  "MonStart": "2002-01-16T12:57:34.2273331+01:00",
+  "MonStop": "2015-04-05T12:57:34.2273331+02:00",
+  "TueStart": "2021-10-23T12:57:34.2273331+02:00",
+  "TueStop": "2001-09-30T12:57:34.2273331+02:00",
+  "WedStart": "2004-03-30T12:57:34.2273331+02:00",
+  "WedStop": "1998-01-18T12:57:34.2273331+01:00",
+  "ThuStart": "2023-11-29T12:57:34.2273331+01:00",
+  "ThuStop": "2015-02-02T12:57:34.2273331+01:00",
+  "FriStart": "2002-08-30T12:57:34.2273331+02:00",
+  "FriStop": "2020-11-18T12:57:34.2273331+01:00",
+  "SatStart": "2009-01-25T12:57:34.2273331+01:00",
+  "SatStop": "2010-08-25T12:57:34.2273331+02:00",
+  "SunStart": "2012-01-24T12:57:34.2273331+01:00",
+  "SunStop": "2004-02-29T12:57:34.2273331+01:00",
   "NonDates": [
-    "ratione",
-    "modi"
+    "totam",
+    "hic"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 1000,
-      "AlertLevel": 696,
-      "AlertTimeout": 317,
-      "Action": 598,
-      "DelegateTo": 961,
-      "ScriptId": 323,
-      "EmailTo": "chesley_rogahn@jacobs.info",
-      "SmsTo": "culpa",
-      "ReplyTemplateIdCustomer": 828,
-      "ReplyTemplateIdUser": 635,
-      "ReplyTemplateIdCatmast": 651,
-      "ReplyTemplateIdEmail": 800,
-      "RtiCustomerSms": 318,
-      "ReplyTemplateIdUserSms": 905,
-      "ReplyTemplateIdCatmastSms": 382,
-      "ReplyTemplateIdSms": 959,
+      "TicketAlertId": 889,
+      "AlertLevel": 172,
+      "AlertTimeout": 455,
+      "Action": 138,
+      "DelegateTo": 831,
+      "ScriptId": 991,
+      "EmailTo": "maybell@koch.co.uk",
+      "SmsTo": "tempora",
+      "ReplyTemplateIdCustomer": 501,
+      "ReplyTemplateIdUser": 516,
+      "ReplyTemplateIdCatmast": 831,
+      "ReplyTemplateIdEmail": 286,
+      "RtiCustomerSms": 292,
+      "ReplyTemplateIdUserSms": 123,
+      "ReplyTemplateIdCatmastSms": 330,
+      "ReplyTemplateIdSms": 408,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

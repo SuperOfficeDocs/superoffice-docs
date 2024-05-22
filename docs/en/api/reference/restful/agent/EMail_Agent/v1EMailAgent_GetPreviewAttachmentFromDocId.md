@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 295,
-  "AttachmentId": "quisquam"
+  "DocId": 726,
+  "AttachmentId": "quis"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable disintermediate matrices",
-  "Filename": "et",
-  "Size": 353,
-  "Type": "praesentium",
-  "Encoding": "amet",
-  "Id": "et",
-  "Disposition": "itaque",
+  "Description": "Expanded tertiary help-desk",
+  "Filename": "quidem",
+  "Size": 606,
+  "Type": "iure",
+  "Encoding": "corrupti",
+  "Id": "est",
+  "Disposition": "minus",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 181
     }
   }
 }

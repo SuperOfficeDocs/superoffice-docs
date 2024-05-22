@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 858,
-  "ColumnId": 547,
-  "FieldDefault": "amet",
-  "FieldHeight": 159,
-  "FieldLabel": "et",
-  "FieldLeft": 202,
-  "FieldTop": 2,
+  "UDefFieldId": 560,
+  "ColumnId": 157,
+  "FieldDefault": "ut",
+  "FieldHeight": 529,
+  "FieldLabel": "consectetur",
+  "FieldLeft": 668,
+  "FieldTop": 818,
   "FieldType": "Checkbox",
-  "FieldWidth": 496,
-  "FormatMask": "maiores",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 944,
-  "LabelLeft": 882,
-  "LabelTop": 730,
-  "LabelWidth": 974,
-  "LastVersionId": 591,
-  "ListTableId": 650,
-  "IsMandatory": false,
+  "FieldWidth": 838,
+  "FormatMask": "inventore",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 785,
+  "LabelLeft": 898,
+  "LabelTop": 692,
+  "LabelWidth": 624,
+  "LastVersionId": 157,
+  "ListTableId": 899,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 298,
-  "ProgId": "deserunt",
+  "Page1LineNo": 98,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "expedita",
-  "TabOrder": 729,
-  "TextLength": 419,
-  "Tooltip": "dicta",
-  "UdefIdentity": 750,
-  "UDListDefinitionId": 292,
+  "ShortLabel": "accusantium",
+  "TabOrder": 499,
+  "TextLength": 529,
+  "Tooltip": "rerum",
+  "UdefIdentity": 638,
+  "UDListDefinitionId": 19,
   "Justification": "Center",
-  "Version": 170,
-  "TemplateVariableName": "Huels Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Kessler, Quitzon and Bergstrom",
+  "Version": 689,
+  "TemplateVariableName": "O'Kon LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Jast-Larson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 274
     }
   }
 }

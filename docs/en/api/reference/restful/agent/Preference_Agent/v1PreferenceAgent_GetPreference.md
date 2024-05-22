@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 992
+  "Id": 147
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quibusdam",
+  "RawValue": "in",
   "Specification": null,
-  "DisplayValue": "sequi",
-  "DisplayTooltip": "facilis",
+  "DisplayValue": "ea",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 946,
-  "PrefDescId": 371,
-  "TableName": "Fadel LLC",
-  "UserPreferenceId": 967,
+  "TargetId": 410,
+  "PrefDescId": 461,
+  "TableName": "Hackett LLC",
+  "UserPreferenceId": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

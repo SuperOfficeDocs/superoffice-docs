@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 820,
-  "Name": "Batz Group",
-  "Tooltip": "praesentium",
-  "PassiveText": "eum",
+  "ReldefId": 633,
+  "Name": "Conn-Jerde",
+  "Tooltip": "quia",
+  "PassiveText": "qui",
   "Deleted": true,
-  "Rank": 877,
+  "Rank": 230,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 524
     }
   }
 }

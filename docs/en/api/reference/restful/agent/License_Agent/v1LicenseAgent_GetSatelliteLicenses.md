@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 996
+  "SatelliteId": 771
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Turcotte Group",
-    "Description": "Intuitive systematic approach",
+    "Name": "Wuckert Inc and Sons",
+    "Description": "Networked client-driven contingency",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 605,
-        "Tooltip": "sit",
+        "Total": 464,
+        "Tooltip": "corporis",
         "CanAssign": true,
-        "Free": 95,
-        "InUse": 197,
-        "IsHidden": false,
+        "Free": 337,
+        "InUse": 457,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 577,
-        "Name": "Littel-Ullrich",
-        "Description": "Ameliorated user-facing ability",
-        "PrerequisiteModuleName": "Jacobs-Kunze",
-        "SortOrder": 862,
-        "ExtraFlags": 337,
+        "ModuleLicenseId": 349,
+        "Name": "Hamill-Crona",
+        "Description": "Future-proofed leading edge interface",
+        "PrerequisiteModuleName": "Buckridge LLC",
+        "SortOrder": 10,
+        "ExtraFlags": 455,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 627
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 202,
-        "Tooltip": "eos",
-        "CanAssign": true,
-        "Free": 646,
-        "InUse": 250,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 186,
-        "Name": "McLaughlin, Collins and Keeling",
-        "Description": "Persevering value-added instruction set",
-        "PrerequisiteModuleName": "Kuhn-Eichmann",
-        "SortOrder": 683,
-        "ExtraFlags": 819,
+        "Total": 180,
+        "Tooltip": "hic",
+        "CanAssign": false,
+        "Free": 123,
+        "InUse": 266,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 564,
+        "Name": "Jacobi, Quitzon and Ryan",
+        "Description": "Advanced full-range info-mediaries",
+        "PrerequisiteModuleName": "Trantow Inc and Sons",
+        "SortOrder": 56,
+        "ExtraFlags": 187,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 236
+            "FieldType": "System.Int32",
+            "FieldLength": 816
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldType": "System.Int32",
+        "FieldLength": 566
       }
     }
   },
   {
-    "Name": "Turcotte Group",
-    "Description": "Intuitive systematic approach",
+    "Name": "Wuckert Inc and Sons",
+    "Description": "Networked client-driven contingency",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 605,
-        "Tooltip": "sit",
+        "Total": 464,
+        "Tooltip": "corporis",
         "CanAssign": true,
-        "Free": 95,
-        "InUse": 197,
-        "IsHidden": false,
+        "Free": 337,
+        "InUse": 457,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 577,
-        "Name": "Littel-Ullrich",
-        "Description": "Ameliorated user-facing ability",
-        "PrerequisiteModuleName": "Jacobs-Kunze",
-        "SortOrder": 862,
-        "ExtraFlags": 337,
+        "ModuleLicenseId": 349,
+        "Name": "Hamill-Crona",
+        "Description": "Future-proofed leading edge interface",
+        "PrerequisiteModuleName": "Buckridge LLC",
+        "SortOrder": 10,
+        "ExtraFlags": 455,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 627
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 202,
-        "Tooltip": "eos",
-        "CanAssign": true,
-        "Free": 646,
-        "InUse": 250,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 186,
-        "Name": "McLaughlin, Collins and Keeling",
-        "Description": "Persevering value-added instruction set",
-        "PrerequisiteModuleName": "Kuhn-Eichmann",
-        "SortOrder": 683,
-        "ExtraFlags": 819,
+        "Total": 180,
+        "Tooltip": "hic",
+        "CanAssign": false,
+        "Free": 123,
+        "InUse": 266,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 564,
+        "Name": "Jacobi, Quitzon and Ryan",
+        "Description": "Advanced full-range info-mediaries",
+        "PrerequisiteModuleName": "Trantow Inc and Sons",
+        "SortOrder": 56,
+        "ExtraFlags": 187,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 236
+            "FieldType": "System.Int32",
+            "FieldLength": 816
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldType": "System.Int32",
+        "FieldLength": 566
       }
     }
   }

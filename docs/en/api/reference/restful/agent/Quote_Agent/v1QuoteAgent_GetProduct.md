@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 506,
-  "ERPProductKey": "dicta"
+  "QuoteConnectionId": 42,
+  "ERPProductKey": "et"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 776,
-  "ERPProductKey": "ut",
-  "ERPPriceListKey": "reiciendis",
-  "Name": "Gerhold Inc and Sons",
-  "Description": "Quality-focused bifurcated synergy",
-  "Code": "adipisci",
-  "PriceUnit": "explicabo",
-  "QuantityUnit": "nostrum",
+  "ProductId": 568,
+  "ERPProductKey": "est",
+  "ERPPriceListKey": "aut",
+  "Name": "Gutmann LLC",
+  "Description": "Customer-focused interactive installation",
+  "Code": "excepturi",
+  "PriceUnit": "laudantium",
+  "QuantityUnit": "nesciunt",
   "IsSubscription": true,
-  "SubscriptionUnit": "consequatur",
-  "DefaultSubscriptionQuantity": 24003.306,
-  "ItemNumber": "716473",
+  "SubscriptionUnit": "praesentium",
+  "DefaultSubscriptionQuantity": 8558.954,
+  "ItemNumber": "1875718",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vitae",
-  "ProductTypeKey": "quos",
-  "VAT": 15394.207999999999,
-  "VATInfo": "blanditiis",
-  "UnitCost": 29174.406,
-  "UnitMinimumPrice": 27413.097999999998,
-  "UnitListPrice": 7910.2159999999994,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "quia",
+  "VAT": 19794.344,
+  "VATInfo": "et",
+  "UnitCost": 24630.106,
+  "UnitMinimumPrice": 27967.816,
+  "UnitListPrice": 4644.588,
   "InAssortment": false,
-  "Supplier": "dolorem",
-  "SupplierCode": "rerum",
-  "Rights": "qui",
-  "Rule": "unde",
+  "Supplier": "quam",
+  "SupplierCode": "dolorem",
+  "Rights": "corrupti",
+  "Rule": "voluptate",
   "ExtraInfo": [
     {
-      "Name": "Swift, Gislason and Flatley",
-      "Value": "et",
+      "Name": "Kuhic-Klocko",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 52
+          "FieldLength": 104
         }
       }
     },
     {
-      "Name": "Swift, Gislason and Flatley",
-      "Value": "et",
+      "Name": "Kuhic-Klocko",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 52
+          "FieldLength": 104
         }
       }
     }
   ],
-  "RawExtraInfo": "itaque",
-  "ExtraField1": "aut",
-  "ExtraField2": "possimus",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "aut",
-  "ExtraField5": "ea",
-  "InStock": 24642.642,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "et",
+  "ExtraField2": "et",
+  "ExtraField3": "adipisci",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "enim",
+  "InStock": 31.34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 266
     }
   }
 }

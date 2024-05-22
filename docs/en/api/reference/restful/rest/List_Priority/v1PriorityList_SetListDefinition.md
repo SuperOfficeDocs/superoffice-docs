@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 287,
-  "Name": "Sauer, Hyatt and McGlynn",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "Rank": 730,
+  "Id": 892,
+  "Name": "Ondricka-Simonis",
+  "Tooltip": "labore",
+  "Deleted": false,
+  "Rank": 350,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "ListType": "delectus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 690,
-  "Name": "Bradtke LLC",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "Rank": 551,
+  "Id": 507,
+  "Name": "Cole, Herman and Spinka",
+  "Tooltip": "rem",
+  "Deleted": true,
+  "Rank": 692,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "placeat",
-  "InUseByUserDefinedFields": false,
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

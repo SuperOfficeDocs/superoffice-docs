@@ -76,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 242,
-  "TableName": "Connelly-Emard",
+  "RoleId": 387,
+  "TableName": "Bogan-Dicki",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "unde"
+  "DataRightValue": "error"
 }
 ```
 

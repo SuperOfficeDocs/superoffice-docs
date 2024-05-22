@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Maggio, Gibson and Bergnaum",
-  "StorageKey": "consequatur",
+  "StorageType": "cupiditate",
+  "ProviderName": "Green, Wiza and Little",
+  "StorageKey": "vel",
   "DesiredColumnNames": [
-    "Effertz-Casper",
-    "Reichel LLC"
+    "McDermott, Terry and Kshlerin",
+    "Brown Inc and Sons"
   ],
   "StaticColumns": [
-    "natus",
-    "et"
+    "libero",
+    "corrupti"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ward Inc and Sons",
-      "Operator": "et",
+      "Name": "Monahan, Bogisich and Schamberger",
+      "Operator": "unde",
       "Values": [
-        "omnis",
-        "aliquid"
+        "ea",
+        "ducimus"
       ],
       "DisplayValues": [
-        "facilis",
-        "velit"
+        "rerum",
+        "magni"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 25,
+      "InterParenthesis": 310,
       "InterOperator": "And",
-      "UniqueHash": 991
+      "UniqueHash": 850
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hand Inc and Sons",
-      "DisplayTooltip": "distinctio",
-      "DisplayType": "libero",
+      "DisplayName": "Leffler, Hammes and Hyatt",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "assumenda",
       "CanOrderBy": false,
-      "Name": "Davis Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "numquam",
-      "RestrictionListName": "Friesen-Greenholt",
+      "Name": "Baumbach-Klein",
+      "CanRestrictBy": true,
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Cummerata Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
+      "ExtraInfo": "quis",
       "Width": "non",
-      "IconHint": "rerum",
-      "HeadingIconHint": "ea"
+      "IconHint": "odit",
+      "HeadingIconHint": "debitis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "McDermott, Franecki and Collins",
-      "PrimaryKey": 529,
+      "EntityName": "Bogan Group",
+      "PrimaryKey": 110,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "debitis",
-          "TooltipHint": "velit",
-          "LinkHint": "pariatur"
+          "DisplayValue": "doloremque",
+          "TooltipHint": "laborum",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "veritatis",
-      "StyleHint": "at",
+      "LinkHint": "labore",
+      "StyleHint": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 738
+          "FieldLength": 117
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bauch-Anderson",
-      "Description": "Stand-alone logistical Graphical User Interface",
-      "Rank": 44,
+      "Name": "Thompson, Beier and Stracke",
+      "Description": "Inverse even-keeled process improvement",
+      "Rank": 72,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bauch-Anderson",
-      "Description": "Stand-alone logistical Graphical User Interface",
-      "Rank": 44,
+      "Name": "Thompson, Beier and Stracke",
+      "Description": "Inverse even-keeled process improvement",
+      "Rank": 72,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 274
     }
   }
 }

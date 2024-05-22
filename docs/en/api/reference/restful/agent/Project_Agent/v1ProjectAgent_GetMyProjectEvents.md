@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Claudia Dickens Sr.",
-    "Description": "Self-enabling executive benchmark",
-    "ProjectId": 264,
-    "EventName": "Hayes LLC",
-    "AssociateId": 902,
+    "AssociateFullName": "Mr. Cordia Brittany Beer I",
+    "Description": "Customizable maximized initiative",
+    "ProjectId": 69,
+    "EventName": "Nicolas, Wolff and Larkin",
+    "AssociateId": 780,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "facilis",
-    "SignOffText": "culpa",
-    "SignOnConfirmationText": "blanditiis",
-    "SignOnText": "ut",
-    "EventDate": "2022-11-06T11:16:09.5536909+01:00",
+    "SignOffConfirmationText": "voluptatem",
+    "SignOffText": "rem",
+    "SignOnConfirmationText": "tempore",
+    "SignOnText": "sit",
+    "EventDate": "2015-03-09T12:57:34.664705+01:00",
     "Enabled": false,
-    "SignOff": false,
+    "SignOff": true,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
+    "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 801,
-    "SignOnTaskId": 387,
-    "SignOffTriggersAssign": false,
+    "SignOffTaskId": 133,
+    "SignOnTaskId": 351,
+    "SignOffTriggersAssign": true,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 144,
-    "SignOffPersonId": 838,
+    "SignOnPersonId": 558,
+    "SignOffPersonId": 627,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldLength": 673
       }
     }
   }

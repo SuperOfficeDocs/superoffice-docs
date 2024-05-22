@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    321,
-    833
+    741,
+    588
   ],
-  "MoveToFolder": "voluptates"
+  "MoveToFolder": "aut"
 }
 ```
 

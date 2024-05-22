@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 971,
-  "UserInput": "provident",
-  "PriceListKey": "quo"
+  "QuoteAlternativeId": 463,
+  "UserInput": "labore",
+  "PriceListKey": "excepturi"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 538,
-    "ERPProductKey": "ut",
-    "ERPPriceListKey": "enim",
-    "Name": "Runolfsson Inc and Sons",
-    "Description": "User-centric needs-based strategy",
-    "Code": "cum",
-    "PriceUnit": "porro",
-    "QuantityUnit": "neque",
+    "ProductId": 595,
+    "ERPProductKey": "dolor",
+    "ERPPriceListKey": "non",
+    "Name": "Schimmel, Medhurst and Collins",
+    "Description": "Implemented incremental benchmark",
+    "Code": "non",
+    "PriceUnit": "quia",
+    "QuantityUnit": "rerum",
     "IsSubscription": false,
-    "SubscriptionUnit": "eveniet",
-    "DefaultSubscriptionQuantity": 28566.41,
-    "ItemNumber": "1065941",
+    "SubscriptionUnit": "ipsum",
+    "DefaultSubscriptionQuantity": 26084.282,
+    "ItemNumber": "1161787",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ratione",
-    "ProductTypeKey": "odit",
-    "VAT": 9141.8779999999988,
-    "VATInfo": "exercitationem",
-    "UnitCost": 20696.935999999998,
-    "UnitMinimumPrice": 1081.23,
-    "UnitListPrice": 6126.9699999999993,
+    "ProductFamilyKey": "cumque",
+    "ProductTypeKey": "rem",
+    "VAT": 18891.752,
+    "VATInfo": "nisi",
+    "UnitCost": 7734.7119999999995,
+    "UnitMinimumPrice": 18866.68,
+    "UnitListPrice": 6380.824,
     "InAssortment": false,
-    "Supplier": "debitis",
-    "SupplierCode": "error",
-    "Rights": "quae",
-    "Rule": "nesciunt",
+    "Supplier": "id",
+    "SupplierCode": "ex",
+    "Rights": "odit",
+    "Rule": "itaque",
     "ExtraInfo": [
       {
-        "Name": "Stokes-Rolfson",
-        "Value": "dolor",
+        "Name": "Koepp LLC",
+        "Value": "odit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 679
+            "FieldType": "System.Int32",
+            "FieldLength": 686
           }
         }
       },
       {
-        "Name": "Stokes-Rolfson",
-        "Value": "dolor",
+        "Name": "Koepp LLC",
+        "Value": "odit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 679
+            "FieldType": "System.Int32",
+            "FieldLength": 686
           }
         }
       }
     ],
-    "RawExtraInfo": "delectus",
-    "ExtraField1": "et",
-    "ExtraField2": "suscipit",
-    "ExtraField3": "veritatis",
-    "ExtraField4": "ad",
-    "ExtraField5": "dolorem",
-    "InStock": 2482.1279999999997,
+    "RawExtraInfo": "vero",
+    "ExtraField1": "ducimus",
+    "ExtraField2": "rerum",
+    "ExtraField3": "quo",
+    "ExtraField4": "sint",
+    "ExtraField5": "natus",
+    "InStock": 20555.906,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldLength": 677
       }
     }
   }

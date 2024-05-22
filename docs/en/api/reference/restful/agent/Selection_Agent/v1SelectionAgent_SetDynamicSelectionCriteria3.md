@@ -88,18 +88,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 345,
+  "SelectionId": 805,
   "Criteria": [
     {
-      "Name": "Purdy-Greenfelder",
-      "Operator": "dolore",
+      "Name": "Jacobi-Haley",
+      "Operator": "amet",
       "Values": [
-        "ut",
-        "porro"
+        "autem",
+        "in"
       ],
       "DisplayValues": [
-        "quibusdam",
-        "quisquam"
+        "consequatur",
+        "voluptas"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 132,
+      "InterParenthesis": 738,
       "InterOperator": "And",
-      "UniqueHash": 503
+      "UniqueHash": 602
     }
   ],
-  "Filter": "distinctio"
+  "Filter": "ut"
 }
 ```
 
@@ -124,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Feeney-Koepp",
-    "Operator": "quaerat",
+    "Name": "Hodkiewicz, Bode and Abernathy",
+    "Operator": "sint",
     "Values": [
-      "hic",
-      "tenetur"
+      "blanditiis",
+      "perferendis"
     ],
     "DisplayValues": [
-      "quibusdam",
-      "nisi"
+      "et",
+      "maxime"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Breitenberg-Tillman",
-        "Operator": "eos",
+        "Name": "Ernser-McCullough",
+        "Operator": "et",
         "Values": [
-          "et",
-          "neque"
+          "sunt",
+          "mollitia"
         ],
         "DisplayValues": [
-          "voluptate",
-          "repellendus"
+          "iste",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 346,
+        "InterParenthesis": 520,
         "InterOperator": "And",
-        "UniqueHash": 238
+        "UniqueHash": 875
       }
     ],
-    "InterParenthesis": 334,
+    "InterParenthesis": 622,
     "InterOperator": "And",
-    "UniqueHash": 661
+    "UniqueHash": 497
   }
 ]
 ```

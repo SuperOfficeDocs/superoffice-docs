@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 478,
-  "ContactName": "Bednar Inc and Sons",
-  "PersonId": 477,
-  "PersonName": "Leuschke Group",
-  "AssociateId": 906,
+  "ContactId": 907,
+  "ContactName": "Walter-Ritchie",
+  "PersonId": 618,
+  "PersonName": "O'Hara Group",
+  "AssociateId": 534,
   "Address": "et",
-  "EmailId": 293,
+  "EmailId": 243,
   "DuplicatePersonIds": [
-    185,
-    606
+    922,
+    369
   ],
-  "Name": "Nolan Group",
+  "Name": "Keebler, Huel and Koss",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 662
     }
   }
 }

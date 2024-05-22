@@ -79,13 +79,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 367,
-  "Name": "O'Hara, Erdman and Kuhlman",
-  "Rank": 306,
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "aut"
+  "ResourceId": 58,
+  "Name": "Johns-Harvey",
+  "Rank": 356,
+  "Tooltip": "enim",
+  "Deleted": false,
+  "IsLocation": false,
+  "LocationAddress": "at"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 994,
-  "Name": "Cronin Group",
-  "Rank": 766,
-  "Tooltip": "enim",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "illum",
+  "ResourceId": 6,
+  "Name": "Wehner, Kessler and Green",
+  "Rank": 652,
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 245
     }
   }
 }

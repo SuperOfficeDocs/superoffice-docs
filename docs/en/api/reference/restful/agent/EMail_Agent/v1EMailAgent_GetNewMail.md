@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    406,
-    424
+    828,
+    237
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 155,
-    "MessageId": "nisi",
-    "Subject": "vitae",
+    "ServerId": 815,
+    "MessageId": "nostrum",
+    "Subject": "reiciendis",
     "From": null,
     "To": [
       {
-        "ContactId": 633,
-        "ContactName": "Sawayn-Torphy",
-        "PersonId": 328,
-        "PersonName": "Schmidt Group",
-        "AssociateId": 405,
-        "Address": "aliquam",
-        "EmailId": 838,
+        "ContactId": 823,
+        "ContactName": "Tromp-Conn",
+        "PersonId": 558,
+        "PersonName": "Denesik LLC",
+        "AssociateId": 770,
+        "Address": "ratione",
+        "EmailId": 343,
         "DuplicatePersonIds": [
-          378,
-          769
+          267,
+          448
         ],
-        "Name": "Greenholt Inc and Sons",
+        "Name": "Daugherty-Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 778
+            "FieldLength": 202
           }
         }
       }
     ],
-    "Sent": "2018-12-21T11:16:09.1784746+01:00",
+    "Sent": "1998-12-08T12:57:33.8680399+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 241,
+    "Size": 531,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

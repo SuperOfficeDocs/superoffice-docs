@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 121,
-  "LeadDescription": "Total analyzing time-frame",
-  "Relation": "eos",
-  "RelationId": 245,
-  "LeadContact": "nihil",
-  "LeadPersonFirstname": "Lela",
-  "LeadPersonLastname": "Bashirian",
-  "LeadPersonEmail": "brooklyn_mueller@heaney.com",
-  "LeadPhoneNumber": "1314878",
-  "CreatorsContact": "voluptatem",
-  "CreatorsFirstname": "Stephany",
-  "CreatorsLastname": "Cassin"
+  "AssociateIdForNewContact": 951,
+  "LeadDescription": "Implemented coherent Graphical User Interface",
+  "Relation": "omnis",
+  "RelationId": 956,
+  "LeadContact": "optio",
+  "LeadPersonFirstname": "Camylle",
+  "LeadPersonLastname": "Ankunding",
+  "LeadPersonEmail": "eve@lebsack.info",
+  "LeadPhoneNumber": "1230326",
+  "CreatorsContact": "ullam",
+  "CreatorsFirstname": "Angelica",
+  "CreatorsLastname": "Donnelly"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 575,
-      "Name": "Schimmel LLC",
-      "OrgNr": "1141260",
+      "ContactId": 237,
+      "Name": "Konopelski-Gorczany",
+      "OrgNr": "598294",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "consequatur",
-      "DirectPhone": "189.134.3491",
-      "AssociateId": 527,
-      "CountryId": 158,
-      "EmailAddress": "maude@kovacek.co.uk",
-      "Kananame": "aut",
-      "EmailAddressName": "jonathon@mantedamore.info",
+      "City": "adipisci",
+      "DirectPhone": "028-125-5487",
+      "AssociateId": 646,
+      "CountryId": 633,
+      "EmailAddress": "brooke@feilsawayn.com",
+      "Kananame": "illum",
+      "EmailAddressName": "liliane@quigley.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Emanuel Mills I",
+      "AssociateFullName": "Prof. Rebeca Howe",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "ad",
-      "FullName": "Alvina Jeremy Moen III",
+      "FormattedAddress": "doloremque",
+      "FullName": "Mr. Amara Lindgren",
       "IsOwnerContact": true,
-      "ActiveErpLinks": 155,
-      "Number1": "658638",
-      "Number2": "1194226",
+      "ActiveErpLinks": 743,
+      "Number1": "1082042",
+      "Number2": "1422237",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldLength": 80
     }
   }
 }

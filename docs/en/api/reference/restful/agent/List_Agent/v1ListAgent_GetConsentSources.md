@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 913,
-    "Name": "Ryan, Crona and Lowe",
-    "Tooltip": "sed",
-    "Rank": 679,
-    "Key": "aut",
-    "MailTemplateId": 36,
+    "ConsentSourceId": 186,
+    "Name": "Gutkowski Inc and Sons",
+    "Tooltip": "repellat",
+    "Rank": 309,
+    "Key": "numquam",
+    "MailTemplateId": 569,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 951
+        "FieldLength": 116
       }
     }
   }

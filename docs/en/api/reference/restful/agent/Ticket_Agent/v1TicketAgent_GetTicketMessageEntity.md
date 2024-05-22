@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=447
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=110
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 830,
+  "EjMessageId": 42,
   "Ticket": null,
-  "CreatedAt": "2005-08-14T11:16:09.9761636+02:00",
+  "CreatedAt": "2009-04-02T12:57:35.2113938+02:00",
   "CreatedBy": null,
-  "Author": "officia",
+  "Author": "iste",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "tenetur",
-  "TimeSpent": 576,
-  "Body": "commodi",
-  "HtmlBody": "dicta",
-  "EmailHeader": "morgan@casper.info",
-  "DebugInfo": "ullam",
-  "MailSorter": "libero",
+  "MessageId": "sit",
+  "TimeSpent": 778,
+  "Body": "et",
+  "HtmlBody": "consequuntur",
+  "EmailHeader": "torrance@schummdaugherty.com",
+  "DebugInfo": "excepturi",
+  "MailSorter": "commodi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "tempore",
   "MessageHeaders": [
     {
-      "Id": 208,
-      "Name": "Konopelski-Heaney",
-      "Value": "quidem",
+      "Id": 726,
+      "Name": "Harber, Schmidt and Hintz",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,24 +131,24 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 430
+          "FieldLength": 778
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "debitis",
-  "Sentiment": 884,
-  "SentimentConfidence": 36,
+  "Important": true,
+  "Language": "velit",
+  "Sentiment": 278,
+  "SentimentConfidence": 981,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 475,
-      "Name": "Leannon-Thiel",
-      "ContentType": "tempora",
-      "AttSize": 430,
-      "InlineImage": false,
-      "ContentId": "nesciunt",
+      "AttachmentId": 495,
+      "Name": "Stanton Group",
+      "ContentType": "saepe",
+      "AttSize": 824,
+      "InlineImage": true,
+      "ContentId": "doloremque",
       "AuthKey": "cum",
       "IsSafeFileExtension": false,
       "TableRight": null,
@@ -156,25 +156,25 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 51
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "a"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "et"
+    "CustomFields1": "delectus",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldLength": 957
     }
   }
 }

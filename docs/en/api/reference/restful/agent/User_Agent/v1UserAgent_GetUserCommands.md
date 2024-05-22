@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Crona, Parisian and Crooks",
-    "DisplayName": "Kris, Lind and Boehm",
-    "Description": "Reactive mission-critical structure",
-    "ToolTip": "Assumenda vitae est aperiam.",
+    "Name": "Mitchell LLC",
+    "DisplayName": "Hauck Inc and Sons",
+    "Description": "Up-sized tertiary challenge",
+    "ToolTip": "Exercitationem voluptas accusamus eum veritatis aut maxime dolorem.",
     "Actions": "Implicit",
-    "ActionData": "eveniet",
+    "ActionData": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldType": "System.Int32",
+        "FieldLength": 603
       }
     }
   }

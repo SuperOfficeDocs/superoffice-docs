@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 831
+  "DepartmentId": 672
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "odit",
-    "PersonId": 309,
-    "Mrmrs": "fugit",
-    "Firstname": "Okey",
-    "Lastname": "McGlynn",
-    "MiddleName": "Torp, Senger and Von",
-    "Title": "aut",
-    "Description": "Ergonomic radical neural-net",
-    "Email": "jerad_thiel@dickinson.us",
-    "FullName": "Tyrique Shields",
-    "DirectPhone": "1-563-199-2714",
-    "FormalName": "Kshlerin LLC",
-    "CountryId": 195,
-    "ContactId": 705,
-    "ContactName": "Kulas-Anderson",
-    "Retired": 257,
-    "Rank": 105,
-    "ActiveInterests": 829,
+    "Position": "optio",
+    "PersonId": 121,
+    "Mrmrs": "voluptates",
+    "Firstname": "Luigi",
+    "Lastname": "Kuphal",
+    "MiddleName": "Stark-Keeling",
+    "Title": "fugit",
+    "Description": "Reactive exuding orchestration",
+    "Email": "colby@oconnell.us",
+    "FullName": "Prof. Asha O'Hara II",
+    "DirectPhone": "(633)016-9289 x161",
+    "FormalName": "Vandervort, Stokes and Veum",
+    "CountryId": 349,
+    "ContactId": 752,
+    "ContactName": "Towne-Anderson",
+    "Retired": 734,
+    "Rank": 140,
+    "ActiveInterests": 289,
     "ContactDepartment": "",
-    "ContactCountryId": 485,
-    "ContactOrgNr": "1308330",
-    "FaxPhone": "(593)192-3121 x4059",
-    "MobilePhone": "413-770-5106",
-    "ContactPhone": "828-744-9392 x349",
-    "AssociateName": "Lebsack Group",
-    "AssociateId": 210,
+    "ContactCountryId": 323,
+    "ContactOrgNr": "613851",
+    "FaxPhone": "551-536-7129 x1113",
+    "MobilePhone": "(433)736-9572",
+    "ContactPhone": "807-582-9285 x37273",
+    "AssociateName": "Rice-Ritchie",
+    "AssociateId": 342,
     "UsePersonAddress": false,
-    "ContactFax": "odio",
-    "Kanafname": "iusto",
-    "Kanalname": "repellat",
-    "Post1": "omnis",
-    "Post2": "porro",
-    "Post3": "incidunt",
-    "EmailName": "willie@orn.biz",
-    "ContactFullName": "Miss Keeley Kaylee Jacobs MD",
-    "ActiveErpLinks": 733,
-    "TicketPriorityId": 483,
-    "SupportLanguageId": 664,
-    "SupportAssociateId": 229,
+    "ContactFax": "quia",
+    "Kanafname": "nobis",
+    "Kanalname": "aut",
+    "Post1": "molestias",
+    "Post2": "sed",
+    "Post3": "est",
+    "EmailName": "douglas_schaefer@cormier.us",
+    "ContactFullName": "Annabel Quigley",
+    "ActiveErpLinks": 756,
+    "TicketPriorityId": 674,
+    "SupportLanguageId": 947,
+    "SupportAssociateId": 781,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 448
       }
     }
   }

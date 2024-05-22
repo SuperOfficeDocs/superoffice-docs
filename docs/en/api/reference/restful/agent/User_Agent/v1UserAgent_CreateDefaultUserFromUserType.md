@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 323,
-  "Name": "O'Connell Inc and Sons",
-  "Rank": 345,
-  "Tooltip": "ut",
+  "AssociateId": 545,
+  "Name": "Welch Inc and Sons",
+  "Rank": 98,
+  "Tooltip": "repudiandae",
   "LicenseOwners": [
     {
-      "Name": "Conroy LLC",
-      "Description": "Monitored heuristic internet solution",
+      "Name": "Lubowitz, Kuhlman and Hamill",
+      "Description": "Progressive context-sensitive pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 367
         }
       }
     },
     {
-      "Name": "Conroy LLC",
-      "Description": "Monitored heuristic internet solution",
+      "Name": "Lubowitz, Kuhlman and Hamill",
+      "Description": "Progressive context-sensitive pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 367
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "velit",
-      "Tooltip": "in",
-      "Id": 850,
-      "Rank": 187,
+      "Value": "et",
+      "Tooltip": "deleniti",
+      "Id": 685,
+      "Rank": 733,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldType": "System.String",
+          "FieldLength": 10
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2017-05-02T11:16:10.0547234+02:00",
-  "Lastlogout": "2012-03-09T11:16:10.0547234+01:00",
-  "EjUserId": 678,
-  "RequestSignature": "architecto",
+  "Lastlogin": "2021-11-22T12:57:35.5086716+01:00",
+  "Lastlogout": "2009-07-08T12:57:35.5086716+02:00",
+  "EjUserId": 102,
+  "RequestSignature": "distinctio",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quod",
+      "Value": "vero",
       "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldType": "System.Int32",
+          "FieldLength": 154
         }
       }
     },
     {
       "Type": null,
-      "Value": "quod",
+      "Value": "vero",
       "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldType": "System.Int32",
+          "FieldLength": 154
         }
       }
     }
   ],
-  "UserName": "Reichel Inc and Sons",
+  "UserName": "Prohaska, Quigley and Willms",
   "TicketCategories": [
     {
-      "Id": 152,
-      "Name": "McLaughlin LLC",
-      "ToolTip": "Eum sunt.",
+      "Id": 138,
+      "Name": "Hintz LLC",
+      "ToolTip": "Placeat maiores quia itaque.",
       "Deleted": false,
-      "Rank": 690,
-      "Type": "eaque",
+      "Rank": 724,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "accusamus",
-      "ColorBlock": 382,
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "inventore",
-      "FullName": "Russ Abigayle Heidenreich V",
+      "IconHint": "eveniet",
+      "ColorBlock": 470,
+      "ExtraInfo": "vel",
+      "StyleHint": "dolor",
+      "FullName": "Kameron Stehr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldLength": 183
         }
       }
     }
   ],
-  "NickName": "Bahringer LLC",
+  "NickName": "Berge, Pacocha and Weissnat",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "non",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "non"
+    "CustomFields1": "officia",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Haley, Hills and Reilly",
-      "DisplayName": "VonRueden-Hills",
-      "Description": "Decentralized intermediate structure",
-      "ToolTip": "Ipsam aut qui perspiciatis.",
+      "Name": "Hilpert-Ebert",
+      "DisplayName": "Satterfield, Emmerich and Glover",
+      "Description": "Open-source interactive attitude",
+      "ToolTip": "Laboriosam optio fugit ut numquam dolore.",
       "Actions": "Implicit",
-      "ActionData": "exercitationem",
+      "ActionData": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldType": "System.Int32",
+          "FieldLength": 216
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 116
     }
   }
 }

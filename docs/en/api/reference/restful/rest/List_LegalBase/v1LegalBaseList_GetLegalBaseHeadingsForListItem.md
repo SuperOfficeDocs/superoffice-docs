@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Pfeffer-Champlin",
-    "ToolTip": "Eum quia voluptas ratione.",
-    "Deleted": false,
-    "Rank": 137,
-    "Type": "voluptates",
-    "ColorBlock": 931,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2015-08-24T11:16:14.5901626+02:00",
+    "Id": 927,
+    "Name": "Weimann LLC",
+    "ToolTip": "Fugit quia consectetur possimus quibusdam qui porro commodi.",
+    "Deleted": true,
+    "Rank": 622,
+    "Type": "debitis",
+    "ColorBlock": 427,
+    "IconHint": "facilis",
+    "Selected": true,
+    "LastChanged": "2020-04-11T12:57:43.4957969+02:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Turner-Larson",
-        "ToolTip": "Perferendis impedit at ipsam.",
+        "Id": 299,
+        "Name": "Kris-Walsh",
+        "ToolTip": "Atque perspiciatis vitae cupiditate.",
         "Deleted": false,
-        "Rank": 489,
-        "Type": "harum",
-        "ColorBlock": 933,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2021-02-01T11:16:14.5901626+01:00",
+        "Rank": 97,
+        "Type": "id",
+        "ColorBlock": 688,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "2019-03-01T12:57:43.4957969+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "hic",
-        "Hidden": false,
-        "FullName": "Trinity Koch",
+        "ExtraInfo": "aut",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Dr. Darius Jessika Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 905
+            "FieldLength": 598
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "laborum",
+    "StyleHint": "dolor",
     "Hidden": true,
-    "FullName": "Letha Bernadine Hoppe II",
+    "FullName": "Mr. Kailee Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 697
+        "FieldLength": 43
       }
     }
   }

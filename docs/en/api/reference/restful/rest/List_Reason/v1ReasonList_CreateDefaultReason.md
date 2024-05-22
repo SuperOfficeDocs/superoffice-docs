@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 637,
-  "Name": "Zboncak, Muller and Heidenreich",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "UdListDefinitionId": 393,
-  "Rank": 562,
+  "Id": 896,
+  "Name": "Stoltenberg-Ratke",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "UdListDefinitionId": 698,
+  "Rank": 58,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 597
     }
   }
 }

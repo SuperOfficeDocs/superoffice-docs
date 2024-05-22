@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "amet",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "amet",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wolff LLC",
-  "Comment": "aut",
-  "StakeholderRoleId": 356,
-  "CountryId": 710,
-  "PersonId": 739,
-  "EmailDescription": "helen_ohara@bailey.co.uk",
-  "EmailId": 193,
-  "EmailAddress": "julia_watsica@kuhlman.us",
-  "PhoneId": 677,
-  "ContactName": "Roberts-Mills",
-  "ContactId": 689,
-  "SaleId": 434,
-  "Mrmrs": "praesentium",
-  "Firstname": "Rosella",
-  "MiddleName": "Mueller-Davis",
-  "Lastname": "Ortiz",
-  "SaleStakeholderId": 840,
-  "Rank": 941,
-  "Phone": "688.610.7268",
+  "StakeholderRoleName": "Strosin-Koelpin",
+  "Comment": "molestias",
+  "StakeholderRoleId": 849,
+  "CountryId": 572,
+  "PersonId": 770,
+  "EmailDescription": "bart_tillman@buckridge.name",
+  "EmailId": 715,
+  "EmailAddress": "gracie.lind@balistreri.name",
+  "PhoneId": 433,
+  "ContactName": "Purdy Group",
+  "ContactId": 349,
+  "SaleId": 256,
+  "Mrmrs": "ducimus",
+  "Firstname": "Nellie",
+  "MiddleName": "Brekke Inc and Sons",
+  "Lastname": "Towne",
+  "SaleStakeholderId": 560,
+  "Rank": 602,
+  "Phone": "(088)609-2374",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   },
   "_Links": {

@@ -83,38 +83,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 736,
-  "Name": "Considine-Stehr",
-  "Rank": 456,
-  "Tooltip": "ut",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 285,
+  "TicketTypeId": 624,
+  "Name": "Rogahn Inc and Sons",
+  "Rank": 413,
+  "Tooltip": "ullam",
+  "Icon": "fugit",
+  "DefaultTicketStatus": 120,
   "TicketStatuses": [
-    782,
-    933
+    629,
+    885
   ],
-  "DefaultTicketPriority": 983,
+  "DefaultTicketPriority": 742,
   "TicketPriorities": [
-    305,
-    747
+    530,
+    378
   ],
-  "ReplyTemplate": 277,
+  "ReplyTemplate": 972,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    284,
-    61
+    175,
+    596
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

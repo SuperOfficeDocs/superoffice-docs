@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 999,
-    "Name": "Greenfelder, Rowe and Lebsack",
-    "Tooltip": "amet",
+    "HeadingId": 591,
+    "Name": "Hahn LLC",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 636,
-    "UdListDefinitionId": 940,
+    "Rank": 899,
+    "UdListDefinitionId": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 533
       }
     }
   }

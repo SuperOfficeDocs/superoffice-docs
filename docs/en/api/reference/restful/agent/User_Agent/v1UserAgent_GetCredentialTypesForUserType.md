@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "debitis",
-    "Type": "illo",
-    "Description": "Re-engineered bifurcated moratorium",
+    "DisplayType": "quo",
+    "Type": "rerum",
+    "Description": "Ergonomic 4th generation data-warehouse",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
-    "IsUserNameSupported": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldLength": 733
       }
     }
   }

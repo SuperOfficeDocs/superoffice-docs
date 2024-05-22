@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 868
+  "TicketMessageEntityId": 223
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 712,
-    "Name": "Rempel, Ratke and Durgan",
-    "ContentType": "ab",
-    "AttSize": 822,
-    "InlineImage": false,
-    "ContentId": "natus",
-    "AuthKey": "velit",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 465,
+    "Name": "Lakin-Thiel",
+    "ContentType": "sunt",
+    "AttSize": 586,
+    "InlineImage": true,
+    "ContentId": "est",
+    "AuthKey": "dolorem",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 991
       }
     }
   }

@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 268,
-  "Name": "Metz LLC",
-  "Description": "Multi-layered user-facing methodology",
-  "DeltaJson": "occaecati",
+  "ConfigurableScreenDeltaId": 680,
+  "Name": "Windler Inc and Sons",
+  "Description": "Future-proofed mission-critical superstructure",
+  "DeltaJson": "temporibus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "autem",
-  "UpdatedDate": "2012-04-09T11:16:08.8347248+02:00",
-  "CreatedDate": "2010-04-16T11:16:08.8347248+02:00",
+  "RecipeId": "voluptas",
+  "UpdatedDate": "2019-11-12T12:57:33.430612+01:00",
+  "CreatedDate": "1998-10-04T12:57:33.430612+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    318,
-    396
+    578,
+    114
   ],
-  "AppliesToKey": "veniam"
+  "AppliesToKey": "ad"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 308,
-  "Name": "Ullrich-Altenwerth",
-  "Description": "Total holistic infrastructure",
-  "DeltaJson": "quibusdam",
+  "ConfigurableScreenDeltaId": 810,
+  "Name": "Herman-Wiza",
+  "Description": "Vision-oriented executive paradigm",
+  "DeltaJson": "molestiae",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sint",
-  "UpdatedDate": "2023-05-04T11:16:08.8347248+02:00",
-  "CreatedDate": "2024-04-19T11:16:08.8347248+02:00",
+  "RecipeId": "animi",
+  "UpdatedDate": "2023-02-12T12:57:33.430612+01:00",
+  "CreatedDate": "2019-11-23T12:57:33.430612+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    510,
-    106
+    365,
+    822
   ],
-  "AppliesToKey": "dolor",
+  "AppliesToKey": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

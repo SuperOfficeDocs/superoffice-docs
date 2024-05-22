@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 35,
-  "Name": "Kilback-Kuhic",
-  "Tooltip": "dolor",
+  "Id": 191,
+  "Name": "Bogisich Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 957,
+  "Rank": 212,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cupiditate",
+  "UseGroupsAndHeadings": false,
+  "ListType": "amet",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Name": "Oberbrunner Group",
-  "Tooltip": "molestiae",
+  "Id": 563,
+  "Name": "Fay Inc and Sons",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 779,
+  "Rank": 668,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "incidunt",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 324
     }
   }
 }

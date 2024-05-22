@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-10-12T11:16:08.6002301+02:00",
-  "AppointmentId": 633,
-  "Description": "Versatile intangible secured line",
-  "Title": "quia",
-  "Agenda": "sint",
-  "InternalNotes": "in",
-  "StartDate": "2004-06-05T11:16:08.6002301+02:00",
-  "EndDate": "2023-09-25T11:16:08.6002301+02:00",
+  "CreatedDate": "2005-02-27T12:57:32.8834034+01:00",
+  "AppointmentId": 769,
+  "Description": "Distributed secondary Graphic Interface",
+  "Title": "aliquid",
+  "Agenda": "asperiores",
+  "InternalNotes": "corrupti",
+  "StartDate": "2003-04-14T12:57:32.8990255+02:00",
+  "EndDate": "2013-04-02T12:57:32.8990255+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 426,
+  "MotherId": 782,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-07-12T11:16:08.6002301+02:00",
+  "UpdatedDate": "2015-06-11T12:57:32.8990255+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 748,
+  "ActiveLinks": 268,
   "Links": [
     {
-      "EntityName": "Swaniawski Inc and Sons",
-      "Id": 266,
-      "Description": "Advanced optimal attitude",
-      "ExtraInfo": "qui",
-      "LinkId": 344,
+      "EntityName": "Powlowski-Berge",
+      "Id": 102,
+      "Description": "Centralized demand-driven productivity",
+      "ExtraInfo": "nulla",
+      "LinkId": 740,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 512
         }
       }
     }
   ],
-  "AlarmLeadTime": "ipsum",
-  "HasAlarm": false,
-  "ColorIndex": 794,
-  "IsFree": true,
+  "AlarmLeadTime": "sed",
+  "HasAlarm": true,
+  "ColorIndex": 477,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ad",
-  "LeadTime": "sint",
-  "Location": "et",
-  "RejectCounter": 239,
-  "RejectReason": "",
+  "LagTime": "non",
+  "LeadTime": "ex",
+  "Location": "ab",
+  "RejectCounter": 274,
+  "RejectReason": "disintermediate virtual architectures",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 250,
-      "PersonId": 594,
-      "ContactId": 845,
-      "EmailId": 766,
+      "AssociateId": 281,
+      "PersonId": 693,
+      "ContactId": 95,
+      "EmailId": 987,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "marisa@doyle.co.uk",
-      "Description": "Virtual 6th generation synergy"
+      "EmailAddress": "felipe@bernhard.us",
+      "Description": "Cross-platform motivating ability"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-01-14T11:16:08.6002301+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2014-09-13T12:57:32.8990255+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 6,
+  "PreferredTZLocation": 595,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 370,
+  "SuggestedAppointmentId": 169,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "perferendis",
+  "CentralserviceVideomeetId": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "German Ledner",
-    "SuperOffice:2": "Roma Ratke MD"
+    "SuperOffice:1": "Josiah O'Hara",
+    "SuperOffice:2": "1282520163"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "non"
+    "ExtraFields1": "similique",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "quidem"
+    "CustomFields1": "id",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2010-03-09T11:16:08.6002301+01:00",
-  "PublishTo": "2009-01-16T11:16:08.6002301+01:00",
-  "PublishFrom": "2020-11-07T11:16:08.6002301+01:00",
+  "PublishEventDate": "2023-04-08T12:57:32.8990255+02:00",
+  "PublishTo": "2018-01-29T12:57:32.8990255+01:00",
+  "PublishFrom": "2000-08-03T12:57:32.8990255+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 582,
+      "VisibleId": 841,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 443
         }
       }
     },
     {
-      "VisibleId": 582,
+      "VisibleId": 841,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 443
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 647
     }
   }
 }

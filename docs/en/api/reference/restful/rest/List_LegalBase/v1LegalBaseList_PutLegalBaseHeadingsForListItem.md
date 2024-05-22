@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Little-Schuppe",
-    "ToolTip": "Quibusdam sed.",
+    "Id": 841,
+    "Name": "Wintheiser-Rogahn",
+    "ToolTip": "Animi et repudiandae temporibus ea magni voluptatibus at.",
     "Deleted": false,
-    "Rank": 857,
-    "Type": "magni",
-    "ColorBlock": 163,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "2006-07-13T11:16:14.5901626+02:00",
+    "Rank": 905,
+    "Type": "qui",
+    "ColorBlock": 928,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2009-03-23T12:57:43.4957969+01:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Hermann Inc and Sons",
-        "ToolTip": "Eius dicta.",
-        "Deleted": false,
-        "Rank": 908,
-        "Type": "eligendi",
-        "ColorBlock": 92,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "1999-07-31T11:16:14.5901626+02:00",
+        "Id": 865,
+        "Name": "Hills Inc and Sons",
+        "ToolTip": "Nihil repellendus aut rerum reprehenderit.",
+        "Deleted": true,
+        "Rank": 974,
+        "Type": "necessitatibus",
+        "ColorBlock": 208,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2014-03-27T12:57:43.4957969+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "eius",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Thad Kohler"
+        "FullName": "Ms. Jaydon Deron Swift"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "iure",
+    "ExtraInfo": "quidem",
+    "StyleHint": "aliquam",
     "Hidden": true,
-    "FullName": "Prof. Icie Williamson"
+    "FullName": "Chanel Abshire"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Kub Inc and Sons",
-    "ToolTip": "Amet ut explicabo est cupiditate.",
+    "Id": 153,
+    "Name": "Feil-Nikolaus",
+    "ToolTip": "Aliquam at quasi maxime non labore omnis.",
     "Deleted": true,
-    "Rank": 595,
-    "Type": "aut",
-    "ColorBlock": 718,
-    "IconHint": "est",
+    "Rank": 262,
+    "Type": "in",
+    "ColorBlock": 435,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2012-06-17T11:16:14.5901626+02:00",
+    "LastChanged": "2007-06-01T12:57:43.4957969+02:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Schmeler-Christiansen",
-        "ToolTip": "Ipsa saepe.",
-        "Deleted": false,
-        "Rank": 960,
-        "Type": "maxime",
-        "ColorBlock": 475,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2005-03-09T11:16:14.5901626+01:00",
+        "Id": 710,
+        "Name": "Monahan Group",
+        "ToolTip": "Temporibus iure velit.",
+        "Deleted": true,
+        "Rank": 61,
+        "Type": "quo",
+        "ColorBlock": 270,
+        "IconHint": "alias",
+        "Selected": true,
+        "LastChanged": "1997-05-29T12:57:43.4957969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "alias",
+        "ExtraInfo": "velit",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Tierra Ratke",
+        "FullName": "Haylee Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 387
+            "FieldLength": 539
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quam",
+    "ExtraInfo": "eum",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Kenton Major Bernier PhD",
+    "FullName": "Mrs. Ariel Champlin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 889
+        "FieldLength": 197
       }
     }
   }

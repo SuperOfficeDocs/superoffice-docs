@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "aut",
-      "ValueType": "dolore",
-      "Mandatory": false,
-      "EncodedDisplayName": "Smith, Halvorson and Fritsch",
-      "EncodedDisplayDescription": "Compatible systemic functionalities",
-      "IconHint": "quaerat",
+      "CanSupportMultiUse": true,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
+      "IsActive": false,
+      "Key": "laboriosam",
+      "ValueType": "nam",
+      "Mandatory": true,
+      "EncodedDisplayName": "Bednar Group",
+      "EncodedDisplayDescription": "Customer-focused exuding Graphic Interface",
+      "IconHint": "blanditiis",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sunt",
-      "EncodedDataCaptionDescription": "Triple-buffered interactive access",
-      "CurrentOperationType": "nam",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "Adaptive web-enabled adapter",
+      "CurrentOperationType": "libero",
       "Values": [
-        "odit",
-        "molestias"
+        "libero",
+        "fugiat"
       ],
       "DisplayValues": [
-        "alias",
-        "suscipit"
+        "rerum",
+        "fugit"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Leuschke Group",
-  "Context": "enim",
-  "Ids": "dolores"
+  "TableName": "Torphy LLC",
+  "Context": "fuga",
+  "Ids": "consequatur"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-756
+141
 ```

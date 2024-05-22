@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 248,
-  "Caption": "ducimus",
-  "Description": "Persistent optimal support",
-  "ChartName": "Langosh, Leuschke and O'Keefe",
-  "ChartId": "rerum",
-  "IsDefault": false,
-  "AssociateId": 858,
-  "GroupId": 358,
-  "SelectionId": 72,
-  "Config": "excepturi",
+  "DashboardTileId": 487,
+  "Caption": "aut",
+  "Description": "Configurable 6th generation challenge",
+  "ChartName": "Weissnat-Stark",
+  "ChartId": "consectetur",
+  "IsDefault": true,
+  "AssociateId": 88,
+  "GroupId": 820,
+  "SelectionId": 88,
+  "Config": "voluptatem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Gerhold-Breitenberg",
-      "Description": "Stand-alone analyzing synergy",
+      "Name": "Dare, Kuhic and O'Kon",
+      "Description": "Front-line exuding hub",
       "Type": "Boolean",
-      "ListName": "Bartoletti-Franecki",
+      "ListName": "Grant, Osinski and Marquardt",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
+      "Value": "id",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 352
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 80,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 505
         }
       }
     },
     {
-      "VisibleId": 80,
+      "VisibleId": 820,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 505
         }
       }
     }
@@ -162,13 +162,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

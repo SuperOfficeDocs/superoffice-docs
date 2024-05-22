@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 385,
-  "PlainMessage": "nihil",
-  "HtmlMessage": "voluptates",
-  "SmsMessage": "et",
-  "Description": "Switchable background leverage",
-  "Subject": "nemo",
-  "FolderId": 72,
-  "HeaderField": "optio",
-  "Design": "at",
+  "ShipmentMessageId": 875,
+  "PlainMessage": "consequatur",
+  "HtmlMessage": "quia",
+  "SmsMessage": "eius",
+  "Description": "Centralized optimal concept",
+  "Subject": "culpa",
+  "FolderId": 531,
+  "HeaderField": "et",
+  "Design": "quis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Operative bottom-line instruction set",
-  "AccessKey": "officia",
-  "DocumentMessage": 205,
-  "Registered": "2000-10-22T11:16:14.2304645+02:00",
-  "RegisteredAssociateId": 425,
-  "Updated": "2009-11-10T11:16:14.2304645+01:00",
-  "UpdatedAssociateId": 526,
-  "UpdatedCount": 273,
+  "LongDescription": "Stand-alone mission-critical task-force",
+  "AccessKey": "consectetur",
+  "DocumentMessage": 252,
+  "Registered": "2011-10-19T12:57:42.807549+02:00",
+  "RegisteredAssociateId": 456,
+  "Updated": "2002-06-25T12:57:42.807549+02:00",
+  "UpdatedAssociateId": 621,
+  "UpdatedCount": 518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldLength": 455
     }
   }
 }

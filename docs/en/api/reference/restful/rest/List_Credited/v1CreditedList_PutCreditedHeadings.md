@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 410,
-    "Name": "Dicki, Robel and Hoppe",
-    "Tooltip": "saepe",
-    "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 156
+    "HeadingId": 933,
+    "Name": "Stehr-Wintheiser",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 37,
+    "UdListDefinitionId": 843
   },
   {
-    "HeadingId": 410,
-    "Name": "Dicki, Robel and Hoppe",
-    "Tooltip": "saepe",
-    "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 156
+    "HeadingId": 933,
+    "Name": "Stehr-Wintheiser",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 37,
+    "UdListDefinitionId": 843
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 466,
-    "Name": "Bahringer Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 678,
-    "UdListDefinitionId": 248,
+    "HeadingId": 49,
+    "Name": "Rice-Moen",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 322,
+    "UdListDefinitionId": 101,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 990
+        "FieldType": "System.Int32",
+        "FieldLength": 941
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Bechtelar Inc and Sons",
-    "Tooltip": "labore",
+    "HeadingId": 415,
+    "Name": "Hickle-Dibbert",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 710
+    "Rank": 627,
+    "UdListDefinitionId": 172
   },
   {
-    "HeadingId": 579,
-    "Name": "Bechtelar Inc and Sons",
-    "Tooltip": "labore",
+    "HeadingId": 415,
+    "Name": "Hickle-Dibbert",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 710
+    "Rank": 627,
+    "UdListDefinitionId": 172
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 809,
-    "Name": "Hilpert-Gutkowski",
-    "Tooltip": "sunt",
+    "HeadingId": 36,
+    "Name": "Pfeffer, Waters and McDermott",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 612,
-    "UdListDefinitionId": 547,
+    "Rank": 162,
+    "UdListDefinitionId": 39,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldLength": 390
       }
     }
   }

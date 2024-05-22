@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 145,
-    "Name": "Adams-Feeney",
-    "Tooltip": "ducimus",
+    "HeadingId": 37,
+    "Name": "Moore-Parker",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 514,
-    "UdListDefinitionId": 530,
+    "Rank": 61,
+    "UdListDefinitionId": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldLength": 973
       }
     }
   }

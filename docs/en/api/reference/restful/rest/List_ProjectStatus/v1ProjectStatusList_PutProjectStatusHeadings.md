@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 217,
-    "Name": "Streich-Gorczany",
-    "Tooltip": "sunt",
+    "HeadingId": 623,
+    "Name": "Gorczany LLC",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 4,
-    "UdListDefinitionId": 212
+    "Rank": 175,
+    "UdListDefinitionId": 39
   },
   {
-    "HeadingId": 217,
-    "Name": "Streich-Gorczany",
-    "Tooltip": "sunt",
+    "HeadingId": 623,
+    "Name": "Gorczany LLC",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 4,
-    "UdListDefinitionId": 212
+    "Rank": 175,
+    "UdListDefinitionId": 39
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 616,
-    "Name": "Bahringer, Cronin and Spinka",
-    "Tooltip": "deserunt",
+    "HeadingId": 88,
+    "Name": "Gorczany, O'Reilly and Hayes",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 454,
-    "UdListDefinitionId": 677,
+    "Rank": 558,
+    "UdListDefinitionId": 382,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 338
       }
     }
   }

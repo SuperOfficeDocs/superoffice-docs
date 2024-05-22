@@ -122,7 +122,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -132,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 491,
-  "Title": "nesciunt",
-  "CreatedAt": "2013-01-27T11:16:09.913618+01:00",
-  "LastChanged": "2014-05-05T11:16:09.913618+02:00",
-  "ReadByOwner": "2002-07-17T11:16:09.913618+02:00",
-  "ReadByCustomer": "2017-06-16T11:16:09.913618+02:00",
-  "FirstReadByOwner": "2021-07-25T11:16:09.913618+02:00",
-  "FirstReadByUser": "2006-06-20T11:16:09.913618+02:00",
-  "Activate": "2002-08-01T11:16:09.913618+02:00",
-  "ClosedAt": "2022-06-25T11:16:09.913618+02:00",
-  "RepliedAt": "2011-08-29T11:16:09.913618+02:00",
-  "AlertTimeout": "2011-01-24T11:16:09.913618+01:00",
-  "Deadline": "2002-02-05T11:16:09.913618+01:00",
+  "TicketId": 219,
+  "Title": "nisi",
+  "CreatedAt": "2017-04-06T12:57:35.1332866+02:00",
+  "LastChanged": "2008-02-11T12:57:35.1332866+01:00",
+  "ReadByOwner": "2014-12-28T12:57:35.1332866+01:00",
+  "ReadByCustomer": "2014-10-25T12:57:35.1332866+02:00",
+  "FirstReadByOwner": "2015-12-22T12:57:35.1332866+01:00",
+  "FirstReadByUser": "2001-06-18T12:57:35.1332866+02:00",
+  "Activate": "2018-10-10T12:57:35.1332866+02:00",
+  "ClosedAt": "1998-04-17T12:57:35.1332866+02:00",
+  "RepliedAt": "2008-06-24T12:57:35.1332866+02:00",
+  "AlertTimeout": "2018-02-04T12:57:35.1332866+01:00",
+  "Deadline": "1997-12-13T12:57:35.1332866+01:00",
   "CreatedBy": null,
-  "Author": "incidunt",
+  "Author": "ut",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -157,162 +157,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "at",
-      "PersonId": 283,
-      "Mrmrs": "sit",
-      "Firstname": "Jimmy",
-      "Lastname": "Barton",
-      "MiddleName": "Harber Group",
-      "Title": "quia",
-      "Description": "Robust explicit parallelism",
-      "Email": "jordon_murray@sipesnicolas.uk",
-      "FullName": "Jadyn Emmerich",
-      "DirectPhone": "068-554-1535 x10008",
-      "FormalName": "Funk LLC",
-      "CountryId": 900,
-      "ContactId": 932,
-      "ContactName": "Orn Group",
-      "Retired": 514,
-      "Rank": 164,
-      "ActiveInterests": 716,
+      "Position": "et",
+      "PersonId": 813,
+      "Mrmrs": "distinctio",
+      "Firstname": "Brionna",
+      "Lastname": "Murazik",
+      "MiddleName": "McKenzie Inc and Sons",
+      "Title": "voluptatum",
+      "Description": "Customer-focused empowering throughput",
+      "Email": "esta@beatty.biz",
+      "FullName": "Lane Stiedemann",
+      "DirectPhone": "388.996.1898",
+      "FormalName": "Greenfelder-Quigley",
+      "CountryId": 996,
+      "ContactId": 820,
+      "ContactName": "Murray Inc and Sons",
+      "Retired": 793,
+      "Rank": 780,
+      "ActiveInterests": 340,
       "ContactDepartment": "",
-      "ContactCountryId": 286,
-      "ContactOrgNr": "1062953",
-      "FaxPhone": "357-931-4265 x9918",
-      "MobilePhone": "1-244-515-6835 x191",
-      "ContactPhone": "630.464.0249 x715",
-      "AssociateName": "McLaughlin-Thompson",
-      "AssociateId": 784,
+      "ContactCountryId": 998,
+      "ContactOrgNr": "1256447",
+      "FaxPhone": "260.987.8555 x3821",
+      "MobilePhone": "958.045.7557",
+      "ContactPhone": "677.638.8373 x511",
+      "AssociateName": "Klocko-Gulgowski",
+      "AssociateId": 30,
       "UsePersonAddress": false,
-      "ContactFax": "id",
-      "Kanafname": "aliquid",
-      "Kanalname": "enim",
-      "Post1": "aut",
-      "Post2": "sapiente",
-      "Post3": "sint",
-      "EmailName": "elliot.kiehn@price.ca",
-      "ContactFullName": "Dr. Lesley Enrico Kuvalis",
-      "ActiveErpLinks": 269,
-      "TicketPriorityId": 259,
-      "SupportLanguageId": 141,
-      "SupportAssociateId": 721,
+      "ContactFax": "eveniet",
+      "Kanafname": "id",
+      "Kanalname": "repellat",
+      "Post1": "dolorem",
+      "Post2": "quas",
+      "Post3": "eligendi",
+      "EmailName": "allie_rohan@robel.uk",
+      "ContactFullName": "Desiree Roberts",
+      "ActiveErpLinks": 223,
+      "TicketPriorityId": 488,
+      "SupportLanguageId": 600,
+      "SupportAssociateId": 9,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 487
         }
       }
     }
   ],
-  "AlertLevel": 727,
-  "ConnectId": 940,
+  "AlertLevel": 686,
+  "ConnectId": 37,
   "ReadStatus": "Green",
-  "TimeToReply": 469,
-  "RealTimeToReply": 194,
-  "TimeToClose": 398,
-  "RealTimeToClose": 679,
-  "TimeSpentInternally": 169,
-  "TimeSpentExternally": 136,
-  "TimeSpentQueue": 11,
-  "RealTimeSpentInternally": 982,
-  "RealTimeSpentExternally": 920,
-  "RealTimeSpentQueue": 706,
-  "TimeSpent": 618,
-  "HasAttachment": false,
-  "NumReplies": 300,
-  "NumMessages": 290,
-  "FromAddress": "hic",
+  "TimeToReply": 89,
+  "RealTimeToReply": 487,
+  "TimeToClose": 818,
+  "RealTimeToClose": 898,
+  "TimeSpentInternally": 257,
+  "TimeSpentExternally": 322,
+  "TimeSpentQueue": 69,
+  "RealTimeSpentInternally": 26,
+  "RealTimeSpentExternally": 762,
+  "RealTimeSpentQueue": 440,
+  "TimeSpent": 810,
+  "HasAttachment": true,
+  "NumReplies": 544,
+  "NumMessages": 780,
+  "FromAddress": "nihil",
   "Messages": [
     {
-      "TicketMessageId": 908,
-      "CreatedAt": "2009-10-13T11:16:09.9292814+02:00",
+      "TicketMessageId": 477,
+      "CreatedAt": "2005-01-01T12:57:35.1332866+01:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "aliquid",
-      "PersonId": 240,
-      "PersonFullName": "Mrs. Jaylen Koepp III",
-      "ContactId": 51,
-      "ContactName": "Mueller Inc and Sons",
+      "Author": "ad",
+      "PersonId": 480,
+      "PersonFullName": "Pascale Cummings",
+      "ContactId": 195,
+      "ContactName": "Wilkinson, Kiehn and Champlin",
       "ContactDepartment": "",
-      "NumAttachments": 268,
-      "EmailHeader": "esther_rodriguez@torphytorp.com",
+      "NumAttachments": 104,
+      "EmailHeader": "jaron_stroman@auerbernier.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "sunt",
-      "Sentiment": 339,
-      "SentimentConfidence": 564,
-      "CreatedBy": 990,
-      "ChangedAt": "2018-06-06T11:16:09.9292814+02:00",
+      "Language": "et",
+      "Sentiment": 191,
+      "SentimentConfidence": 252,
+      "CreatedBy": 54,
+      "ChangedAt": "2021-05-08T12:57:35.1332866+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldLength": 675
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 404,
-      "Name": "Pfannerstill LLC",
-      "ToolTip": "Adipisci eveniet.",
+      "Id": 921,
+      "Name": "Blanda Group",
+      "ToolTip": "Suscipit aut sunt impedit ut ut iure ut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 355
         }
       }
     },
     {
-      "Id": 404,
-      "Name": "Pfannerstill LLC",
-      "ToolTip": "Adipisci eveniet.",
+      "Id": 921,
+      "Name": "Blanda Group",
+      "ToolTip": "Suscipit aut sunt impedit ut ut iure ut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 355
         }
       }
     }
   ],
-  "Language": "aut",
-  "Sentiment": 868,
-  "SentimentConfidence": 328,
-  "SuggestedCategoryId": 812,
+  "Language": "itaque",
+  "Sentiment": 180,
+  "SentimentConfidence": 310,
+  "SuggestedCategoryId": 304,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 432,
-  "IconHint": "facere",
+  "OrigHumanCategoryId": 501,
+  "IconHint": "porro",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 544,
+  "ActiveStatusMonitorId": 218,
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
     "CustomFields1": "voluptatem",
-    "CustomFields2": "repudiandae"
+    "CustomFields2": "voluptate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 316
     }
   }
 }

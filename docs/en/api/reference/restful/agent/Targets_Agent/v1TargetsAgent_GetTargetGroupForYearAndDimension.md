@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 943,
-  "DimensionId": 834
+  "TargetYear": 29,
+  "DimensionId": 381
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 23,
-  "Year": 746,
+  "TargetGroupId": 509,
+  "Year": 247,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 542,
+      "TargetAssignmentInfoId": 110,
       "Values": [
-        705,
-        769
+        78,
+        886
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 984,
-      "DimensionListItemDisplayName": "Daugherty, Terry and Greenholt",
+      "DimensionListItem": 84,
+      "DimensionListItemDisplayName": "Schumm-Jewess",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 307
+          "FieldLength": 872
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 922
     }
   }
 }

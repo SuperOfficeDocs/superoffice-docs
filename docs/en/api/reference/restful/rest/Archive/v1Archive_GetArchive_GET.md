@@ -140,14 +140,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=eos
-GET /api/v1/Archive/{archiveProviderName}?$top=362
-GET /api/v1/Archive/{archiveProviderName}?$skip=29
+GET /api/v1/Archive/{archiveProviderName}?$entities=beatae
+GET /api/v1/Archive/{archiveProviderName}?$top=55
+GET /api/v1/Archive/{archiveProviderName}?$skip=425
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=qui
+GET /api/v1/Archive/{archiveProviderName}?$context=ut
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=nam
+GET /api/v1/Archive/{archiveProviderName}?$metadata=enim
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -201,19 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "porro",
+  "odata.nextLink": "quis",
   "value": [
     {
-      "PrimaryKey": 3288,
-      "EntityName": "person",
-      "personId": 3288,
-      "fullName": "Tianna Brenna Donnelly IV"
+      "PrimaryKey": 5363,
+      "EntityName": "sale",
+      "saleId": 5363,
+      "contactId": 263,
+      "name": "Bruen, Marquardt and Sporer"
     },
     {
-      "PrimaryKey": 8501,
-      "EntityName": "person",
-      "personId": 8501,
-      "fullName": "Griffin Bechtelar MD"
+      "PrimaryKey": 4278,
+      "EntityName": "sale",
+      "saleId": 4278,
+      "contactId": 3574,
+      "name": "Little-Lowe"
     }
   ]
 }

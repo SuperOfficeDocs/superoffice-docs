@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 176,
-    "Name": "Hamill, Parker and Schoen",
-    "Tooltip": "incidunt",
+    "HeadingId": 15,
+    "Name": "Kris Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 827,
-    "UdListDefinitionId": 932
+    "Rank": 605,
+    "UdListDefinitionId": 19
   },
   {
-    "HeadingId": 176,
-    "Name": "Hamill, Parker and Schoen",
-    "Tooltip": "incidunt",
+    "HeadingId": 15,
+    "Name": "Kris Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 827,
-    "UdListDefinitionId": 932
+    "Rank": 605,
+    "UdListDefinitionId": 19
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 443,
-    "Name": "Mertz-Heller",
-    "Tooltip": "nobis",
-    "Deleted": false,
-    "Rank": 343,
-    "UdListDefinitionId": 502,
+    "HeadingId": 960,
+    "Name": "Rippin, Goodwin and Fadel",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 624,
+    "UdListDefinitionId": 289,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 450
       }
     }
   }

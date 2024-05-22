@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisozk, Ryan and Effertz"
+  "Name": "Jacobs LLC"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "O'Reilly-Jones",
-    "ToolTip": "Doloribus qui culpa sunt aspernatur amet distinctio quis.",
-    "Deleted": false,
-    "Rank": 391,
-    "Type": "molestias",
-    "ColorBlock": 918,
-    "IconHint": "velit",
+    "Id": 784,
+    "Name": "Dickens-Haag",
+    "ToolTip": "Magni sunt quas non non amet.",
+    "Deleted": true,
+    "Rank": 671,
+    "Type": "maxime",
+    "ColorBlock": 56,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2004-06-02T11:16:09.3972026+02:00",
+    "LastChanged": "2012-04-29T12:57:34.3835501+02:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Wisozk, Carroll and Hermiston",
-        "ToolTip": "Reprehenderit reprehenderit ratione itaque enim.",
-        "Deleted": false,
-        "Rank": 846,
-        "Type": "perspiciatis",
-        "ColorBlock": 618,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2003-10-04T11:16:09.3972026+02:00",
+        "Id": 966,
+        "Name": "Jakubowski LLC",
+        "ToolTip": "Autem exercitationem harum consequatur accusantium aliquam beatae minus.",
+        "Deleted": true,
+        "Rank": 42,
+        "Type": "possimus",
+        "ColorBlock": 29,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "1997-11-15T12:57:34.3835501+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Claudie Schaefer",
+        "ExtraInfo": "quidem",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Kathlyn Kautzer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldLength": 436
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "error",
     "Hidden": true,
-    "FullName": "Imelda Jewess",
+    "FullName": "Jay Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 983
       }
     }
   }

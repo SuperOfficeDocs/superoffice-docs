@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 781
+  "ErpSyncConnectionId": 825
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Macejkovic Inc and Sons",
-  "DisplayDescription": "Robust next generation migration",
+  "DisplayName": "Feest LLC",
+  "DisplayDescription": "Quality-focused exuding productivity",
   "Active": false,
-  "Deleted": false,
-  "LastSync": "2011-08-16T11:16:09.2409738+02:00",
+  "Deleted": true,
+  "LastSync": "2002-09-01T12:57:33.9930117+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "sed",
-      "Mappings": "sed",
+      "Defaults": "id",
+      "Mappings": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 646
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "sed",
-      "Mappings": "sed",
+      "Defaults": "id",
+      "Mappings": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 646
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 587
     }
   }
 }

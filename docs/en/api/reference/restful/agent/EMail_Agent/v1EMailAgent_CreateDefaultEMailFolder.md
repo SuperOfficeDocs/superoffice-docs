@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Robel-Lockman",
-  "Delimiter": "consequatur",
-  "Flags": "neque",
-  "TotalItems": 606,
-  "UnreadItems": 629,
+  "Name": "Flatley Group",
+  "Delimiter": "dolore",
+  "Flags": "assumenda",
+  "TotalItems": 616,
+  "UnreadItems": 794,
   "Subscribed": false,
-  "EmailFolderId": 50,
+  "EmailFolderId": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 133
     }
   }
 }

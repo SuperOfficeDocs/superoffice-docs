@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 545,
-  "NumSentences": 151,
-  "IsoLangCode": "deleniti"
+  "SaleId": 356,
+  "NumSentences": 563,
+  "IsoLangCode": "aut"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ea"
+"aperiam"
 ```

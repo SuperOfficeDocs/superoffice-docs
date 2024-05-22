@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "mollitia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "mollitia",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 310,
+  "DocumentId": 896,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "qui",
-  "Name": "Stracke-Schaden",
-  "OurRef": "et",
-  "YourRef": "vitae",
-  "CreatedDate": "2012-08-03T11:16:13.8863407+02:00",
-  "UpdatedDate": "2012-09-02T11:16:13.8863407+02:00",
-  "Description": "Optimized optimal archive",
+  "Attention": "et",
+  "Header": "mollitia",
+  "Name": "Trantow, Hickle and Huels",
+  "OurRef": "laboriosam",
+  "YourRef": "architecto",
+  "CreatedDate": "2019-01-15T12:57:42.3857703+01:00",
+  "UpdatedDate": "2014-06-18T12:57:42.3857703+02:00",
+  "Description": "Exclusive content-based access",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-10-25T11:16:13.8863407+02:00",
-  "ExternalRef": "sit",
+  "Date": "2002-11-30T12:57:42.3857703+01:00",
+  "ExternalRef": "nihil",
   "Completed": "Completed",
-  "ActiveLinks": 897,
+  "ActiveLinks": 503,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Murphy LLC",
-      "Id": 135,
-      "Description": "Reactive multi-tasking adapter",
-      "ExtraInfo": "quia",
-      "LinkId": 272,
+      "EntityName": "Gleichner-Kassulke",
+      "Id": 903,
+      "Description": "Progressive cohesive software",
+      "ExtraInfo": "nulla",
+      "LinkId": 424,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldLength": 58
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 260,
-  "Snum": 618,
+  "SuggestedDocumentId": 407,
+  "Snum": 325,
   "UserDefinedFields": {
-    "SuperOffice:1": "Johanna Bradley Yundt II",
-    "SuperOffice:2": "Reid Schamberger"
+    "SuperOffice:1": "Flossie Wiza",
+    "SuperOffice:2": "2099381272"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "itaque"
+    "CustomFields1": "quis",
+    "CustomFields2": "explicabo"
   },
-  "PublishEventDate": "1999-07-22T11:16:13.8863407+02:00",
-  "PublishTo": "2011-05-22T11:16:13.8863407+02:00",
-  "PublishFrom": "2023-11-15T11:16:13.8863407+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-07-17T12:57:42.3857703+02:00",
+  "PublishTo": "2005-05-19T12:57:42.3857703+02:00",
+  "PublishFrom": "2006-05-15T12:57:42.3857703+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 200,
+      "VisibleId": 743,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 760
+          "FieldType": "System.Int32",
+          "FieldLength": 938
         }
       }
     },
     {
-      "VisibleId": 200,
+      "VisibleId": 743,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 760
+          "FieldType": "System.Int32",
+          "FieldLength": 938
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   },
   "_Links": {

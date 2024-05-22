@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 369,
-  "ListItemId": 458,
+  "UdListDefinitionId": 732,
+  "ListItemId": 825,
   "Headings": [
     {
-      "Id": 972,
-      "Name": "Nikolaus-Cartwright",
-      "ToolTip": "Ab ab repudiandae nulla sed quis non quis.",
-      "Deleted": true,
-      "Rank": 828,
-      "Type": "dolores",
-      "ColorBlock": 953,
-      "IconHint": "delectus",
-      "Selected": true,
-      "LastChanged": "2023-10-12T11:16:09.3347069+02:00",
+      "Id": 256,
+      "Name": "McKenzie, Gottlieb and Rau",
+      "ToolTip": "Dolorem optio eaque et porro sequi adipisci cum.",
+      "Deleted": false,
+      "Rank": 459,
+      "Type": "eum",
+      "ColorBlock": 360,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "1998-01-30T12:57:34.1492269+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quidem",
-      "StyleHint": "quibusdam",
-      "Hidden": true,
-      "FullName": "Ellie Bogan"
+      "ExtraInfo": "itaque",
+      "StyleHint": "harum",
+      "Hidden": false,
+      "FullName": "Miss Maverick Joanny Johnson IV"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Russel, Schulist and Vandervort",
-    "ToolTip": "Corrupti sapiente incidunt.",
+    "Id": 89,
+    "Name": "Walter-Rowe",
+    "ToolTip": "Minima eos ut nihil consequatur optio aut.",
     "Deleted": false,
-    "Rank": 573,
-    "Type": "nisi",
-    "ColorBlock": 951,
-    "IconHint": "dolorem",
+    "Rank": 720,
+    "Type": "voluptatibus",
+    "ColorBlock": 63,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2016-03-24T11:16:09.3347069+01:00",
+    "LastChanged": "2010-04-14T12:57:34.1492269+02:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "VonRueden-Olson",
-        "ToolTip": "Sunt iusto.",
+        "Id": 259,
+        "Name": "Will-Reichel",
+        "ToolTip": "Aut corrupti dolores nisi eum delectus dolore.",
         "Deleted": false,
-        "Rank": 942,
-        "Type": "deserunt",
-        "ColorBlock": 81,
-        "IconHint": "blanditiis",
-        "Selected": false,
-        "LastChanged": "2002-01-28T11:16:09.3347069+01:00",
+        "Rank": 138,
+        "Type": "est",
+        "ColorBlock": 612,
+        "IconHint": "deserunt",
+        "Selected": true,
+        "LastChanged": "1998-01-04T12:57:34.1492269+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "officiis",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Karli Fritsch",
+        "FullName": "Itzel Christiansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 851
+            "FieldType": "System.Int32",
+            "FieldLength": 133
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Rylan Kunze",
+    "ExtraInfo": "quia",
+    "StyleHint": "soluta",
+    "Hidden": false,
+    "FullName": "Agustin Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldType": "System.Int32",
+        "FieldLength": 865
       }
     }
   }

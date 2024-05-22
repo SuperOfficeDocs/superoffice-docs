@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 933,
-  "Name": "Lesch, Moen and Volkman",
-  "ConsentText": "aut",
-  "FormText": "omnis",
-  "Key": "repellat",
-  "Tooltip": "molestiae",
-  "Active": 972,
-  "UpdatedDate": "2000-06-01T11:16:09.3815779+02:00",
+  "ConsentPurposeId": 234,
+  "Name": "Fadel-Dietrich",
+  "ConsentText": "ullam",
+  "FormText": "quis",
+  "Key": "quam",
+  "Tooltip": "neque",
+  "Active": 748,
+  "UpdatedDate": "2017-10-09T12:57:34.2273331+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 712,
-  "PrivacyStatementDesc": "sequi",
+  "Rank": 628,
+  "PrivacyStatementDesc": "cumque",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 424
     }
   }
 }

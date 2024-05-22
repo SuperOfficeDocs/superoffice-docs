@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 737,
-    "ColumnId": 64,
-    "FieldDefault": "sunt",
-    "FieldHeight": 862,
-    "FieldLabel": "impedit",
-    "FieldLeft": 336,
-    "FieldTop": 88,
+    "UDefFieldId": 138,
+    "ColumnId": 384,
+    "FieldDefault": "id",
+    "FieldHeight": 812,
+    "FieldLabel": "sed",
+    "FieldLeft": 590,
+    "FieldTop": 779,
     "FieldType": "Checkbox",
-    "FieldWidth": 828,
-    "FormatMask": "quia",
-    "HideLabel": false,
+    "FieldWidth": 186,
+    "FormatMask": "velit",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 375,
-    "LabelLeft": 247,
-    "LabelTop": 708,
-    "LabelWidth": 368,
-    "LastVersionId": 587,
-    "ListTableId": 128,
+    "LabelHeight": 217,
+    "LabelLeft": 472,
+    "LabelTop": 249,
+    "LabelWidth": 345,
+    "LastVersionId": 996,
+    "ListTableId": 341,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 733,
-    "ProgId": "voluptas",
+    "Page1LineNo": 471,
+    "ProgId": "qui",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 487,
-    "TextLength": 27,
-    "Tooltip": "aliquid",
-    "UdefIdentity": 904,
-    "UDListDefinitionId": 78,
+    "ShortLabel": "esse",
+    "TabOrder": 92,
+    "TextLength": 548,
+    "Tooltip": "id",
+    "UdefIdentity": 985,
+    "UDListDefinitionId": 337,
     "Justification": "Center",
-    "Version": 183,
-    "TemplateVariableName": "McClure Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Dietrich-Emmerich",
+    "Version": 515,
+    "TemplateVariableName": "Daniel-Blick",
+    "HasBeenPublished": false,
+    "MdoListName": "Kertzmann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   }

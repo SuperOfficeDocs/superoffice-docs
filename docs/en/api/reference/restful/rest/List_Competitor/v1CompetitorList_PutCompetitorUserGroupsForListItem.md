@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "Bashirian, Mertz and Schiller",
-    "ToolTip": "Voluptatem commodi quam.",
-    "Deleted": true,
-    "Rank": 888,
-    "Type": "ducimus",
-    "ColorBlock": 424,
-    "IconHint": "error",
+    "Id": 980,
+    "Name": "Prosacco, Prohaska and Mertz",
+    "ToolTip": "Iste pariatur eligendi.",
+    "Deleted": false,
+    "Rank": 183,
+    "Type": "enim",
+    "ColorBlock": 641,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2008-10-27T11:16:14.4964233+01:00",
+    "LastChanged": "2019-08-05T12:57:43.3552036+02:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Klocko-Pouros",
-        "ToolTip": "Et odio tempora vitae illum atque quas.",
-        "Deleted": false,
-        "Rank": 829,
-        "Type": "praesentium",
-        "ColorBlock": 11,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2001-02-09T11:16:14.4964233+01:00",
+        "Id": 882,
+        "Name": "Schowalter, Berge and Bogan",
+        "ToolTip": "Sint voluptas quo autem.",
+        "Deleted": true,
+        "Rank": 506,
+        "Type": "numquam",
+        "ColorBlock": 448,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2020-12-07T12:57:43.3552036+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Derek Kling"
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Gillian Rutherford"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Lindsay Rollin Cronin DDS"
+    "ExtraInfo": "minus",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Marcia Kovacek"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Borer-Howell",
-    "ToolTip": "Quo quia.",
+    "Id": 514,
+    "Name": "Franecki-Kshlerin",
+    "ToolTip": "Ut minus quibusdam et eum cum.",
     "Deleted": false,
-    "Rank": 541,
-    "Type": "suscipit",
-    "ColorBlock": 784,
-    "IconHint": "distinctio",
+    "Rank": 733,
+    "Type": "accusantium",
+    "ColorBlock": 652,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2019-05-16T11:16:14.4964233+02:00",
+    "LastChanged": "2020-03-01T12:57:43.3552036+01:00",
     "ChildItems": [
       {
-        "Id": 520,
-        "Name": "Prohaska-Lemke",
-        "ToolTip": "Ipsa accusamus veritatis dolorem quis.",
+        "Id": 644,
+        "Name": "Shanahan LLC",
+        "ToolTip": "Voluptates eum laboriosam enim accusamus totam.",
         "Deleted": true,
-        "Rank": 798,
-        "Type": "occaecati",
-        "ColorBlock": 864,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2013-07-10T11:16:14.4964233+02:00",
+        "Rank": 521,
+        "Type": "fugit",
+        "ColorBlock": 203,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2021-08-24T12:57:43.3552036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "atque",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Chance Wisoky",
+        "FullName": "Domingo Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 269
+            "FieldLength": 267
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "vitae",
+    "ExtraInfo": "velit",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Kirstin Douglas",
+    "FullName": "Andreanne Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 204
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

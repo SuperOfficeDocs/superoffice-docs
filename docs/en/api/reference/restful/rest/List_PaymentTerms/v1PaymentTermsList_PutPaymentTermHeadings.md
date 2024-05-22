@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 154,
-    "Name": "Kreiger, Stehr and Wyman",
-    "Tooltip": "enim",
+    "HeadingId": 448,
+    "Name": "Kerluke-Aufderhar",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 608,
-    "UdListDefinitionId": 329
+    "Rank": 996,
+    "UdListDefinitionId": 166
   },
   {
-    "HeadingId": 154,
-    "Name": "Kreiger, Stehr and Wyman",
-    "Tooltip": "enim",
+    "HeadingId": 448,
+    "Name": "Kerluke-Aufderhar",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 608,
-    "UdListDefinitionId": 329
+    "Rank": 996,
+    "UdListDefinitionId": 166
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 403,
-    "Name": "Considine, Schroeder and Rodriguez",
-    "Tooltip": "tempore",
+    "HeadingId": 496,
+    "Name": "Emard, Pouros and Mertz",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 466,
-    "UdListDefinitionId": 562,
+    "Rank": 413,
+    "UdListDefinitionId": 800,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 589
       }
     }
   }

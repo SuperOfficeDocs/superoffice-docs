@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 352,
-  "Name": "Bergnaum, Pacocha and Walker",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "Rank": 6,
-  "Filename": "et",
+  "ExtAppId": 340,
+  "Name": "Carter LLC",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "Rank": 451,
+  "Filename": "culpa",
   "Parameters": "aut",
-  "Workdir": "illum",
+  "Workdir": "nostrum",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 697,
+  "Icon": 992,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "quo",
+  "Path": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 208
     }
   }
 }

@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Beatty-Bayer",
-  "StorageKey": "in",
+  "StorageType": "in",
+  "ProviderName": "Reynolds-Goodwin",
+  "StorageKey": "molestiae",
   "Restrictions": [
     {
-      "Name": "Kshlerin-Denesik",
-      "Operator": "exercitationem",
+      "Name": "Okuneva, Bechtelar and Schuster",
+      "Operator": "molestiae",
       "Values": [
-        "dolores",
-        "ducimus"
+        "et",
+        "molestias"
       ],
       "DisplayValues": [
-        "incidunt",
-        "minus"
+        "placeat",
+        "consectetur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 348,
+      "InterParenthesis": 113,
       "InterOperator": "And",
-      "UniqueHash": 871
+      "UniqueHash": 700
     }
   ],
-  "Context": "non"
+  "Context": "assumenda"
 }
 ```
 

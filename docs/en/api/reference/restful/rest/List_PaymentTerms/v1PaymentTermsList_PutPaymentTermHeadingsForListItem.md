@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Schmidt LLC",
-    "ToolTip": "Qui unde assumenda praesentium reiciendis modi voluptatem necessitatibus.",
+    "Id": 967,
+    "Name": "Pollich Inc and Sons",
+    "ToolTip": "Sit asperiores necessitatibus modi unde exercitationem.",
     "Deleted": false,
-    "Rank": 736,
-    "Type": "consequatur",
-    "ColorBlock": 165,
-    "IconHint": "ex",
+    "Rank": 242,
+    "Type": "possimus",
+    "ColorBlock": 907,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2011-08-09T11:16:14.6057886+02:00",
+    "LastChanged": "2001-03-21T12:57:43.5270395+01:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Towne-Tromp",
-        "ToolTip": "Quisquam alias ipsum maxime velit dolore et.",
-        "Deleted": false,
-        "Rank": 148,
-        "Type": "sed",
-        "ColorBlock": 793,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "2019-11-04T11:16:14.6057886+01:00",
+        "Id": 900,
+        "Name": "Nienow, Kirlin and Bernier",
+        "ToolTip": "Rerum aut.",
+        "Deleted": true,
+        "Rank": 53,
+        "Type": "culpa",
+        "ColorBlock": 187,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2006-04-19T12:57:43.5270395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Hester Powlowski DVM"
+        "ExtraInfo": "excepturi",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Miss Lucie Fay PhD"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "doloribus",
-    "Hidden": false,
-    "FullName": "Jean Christiansen"
+    "ExtraInfo": "rerum",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Otis Mills"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Stokes, Abshire and Monahan",
-    "ToolTip": "Amet doloribus optio natus esse.",
-    "Deleted": true,
-    "Rank": 691,
-    "Type": "enim",
-    "ColorBlock": 436,
-    "IconHint": "tempora",
+    "Id": 959,
+    "Name": "Borer, Gutkowski and Sanford",
+    "ToolTip": "Quae voluptatibus incidunt aut provident sit.",
+    "Deleted": false,
+    "Rank": 905,
+    "Type": "eaque",
+    "ColorBlock": 799,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2010-06-25T11:16:14.6057886+02:00",
+    "LastChanged": "2015-04-11T12:57:43.5270395+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Strosin Group",
-        "ToolTip": "Magni sed deleniti error.",
-        "Deleted": false,
-        "Rank": 967,
-        "Type": "aut",
-        "ColorBlock": 840,
-        "IconHint": "assumenda",
-        "Selected": true,
-        "LastChanged": "2004-02-21T11:16:14.6057886+01:00",
+        "Id": 641,
+        "Name": "Little Group",
+        "ToolTip": "Est magnam quis.",
+        "Deleted": true,
+        "Rank": 71,
+        "Type": "harum",
+        "ColorBlock": 185,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2023-12-09T12:57:43.5270395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "nam",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Norbert Stark",
+        "FullName": "Santa Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "aliquam",
-    "Hidden": false,
-    "FullName": "Norberto O'Connell",
+    "ExtraInfo": "placeat",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Dr. Lela Aniyah Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 274
       }
     }
   }

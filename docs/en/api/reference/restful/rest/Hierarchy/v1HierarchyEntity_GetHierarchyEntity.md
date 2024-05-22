@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 820,
+  "HierarchyId": 675,
   "Domain": "Dashboards",
-  "Name": "Dickens-Spinka",
-  "Fullname": "facere",
-  "ParentId": 611,
+  "Name": "Schmitt-Bahringer",
+  "Fullname": "perferendis",
+  "ParentId": 671,
   "Children": [
     {
-      "HierarchyId": 546,
+      "HierarchyId": 655,
       "Domain": "Dashboards",
-      "Name": "Kuhlman-Purdy",
-      "Fullname": "qui",
-      "ParentId": 584,
+      "Name": "Aufderhar Inc and Sons",
+      "Fullname": "quis",
+      "ParentId": 909,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-05-08T11:16:13.93321+02:00",
-      "RegisteredAssociateId": 972,
-      "Updated": "2012-03-22T11:16:13.93321+01:00",
-      "UpdatedAssociateId": 349,
+      "Registered": "2021-12-18T12:57:42.4638774+01:00",
+      "RegisteredAssociateId": 131,
+      "Updated": "2019-09-29T12:57:42.4638774+02:00",
+      "UpdatedAssociateId": 109,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     }
   ],
-  "Registered": "2002-09-11T11:16:13.93321+02:00",
-  "RegisteredAssociateId": 758,
-  "Updated": "2006-07-20T11:16:13.93321+02:00",
-  "UpdatedAssociateId": 80,
+  "Registered": "2003-07-16T12:57:42.4638774+02:00",
+  "RegisteredAssociateId": 552,
+  "Updated": "2002-09-21T12:57:42.4638774+02:00",
+  "UpdatedAssociateId": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   },
   "_Links": {

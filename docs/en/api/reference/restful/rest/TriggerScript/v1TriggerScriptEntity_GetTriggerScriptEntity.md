@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 327,
-  "Name": "Mann-Pfeffer",
+  "ScreenChooserId": 486,
+  "Name": "Hartmann, Hettinger and Paucek",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sunt",
-  "Source": "ut",
-  "Registered": "1998-10-27T11:16:14.3242001+01:00",
-  "RegisteredAssociateId": 661,
-  "Updated": "2016-09-23T11:16:14.3242001+02:00",
-  "UpdatedAssociateId": 213,
+  "UniqueIdentifier": "quod",
+  "Source": "consequatur",
+  "Registered": "2013-06-30T12:57:43.0892086+02:00",
+  "RegisteredAssociateId": 181,
+  "Updated": "2005-11-12T12:57:43.0892086+01:00",
+  "UpdatedAssociateId": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 568
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

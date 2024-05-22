@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Raynor-Botsford",
+  "ProviderName": "Kirlin-Stroman",
   "Columns": [
-    "totam",
-    "odit"
+    "incidunt",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "Turner, Sanford and Hauck",
+      "Name": "Collier, Pfannerstill and Satterfield",
       "Direction": "ASC"
     },
     {
-      "Name": "Turner, Sanford and Hauck",
+      "Name": "Collier, Pfannerstill and Satterfield",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Anderson Group",
-      "Operator": "error",
+      "Name": "Grimes, Gerlach and Daugherty",
+      "Operator": "cupiditate",
       "Values": [
-        "dolor",
-        "nihil"
+        "illum",
+        "ipsum"
       ],
       "DisplayValues": [
-        "facilis",
-        "facere"
+        "vitae",
+        "neque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,19 +140,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 332,
+      "InterParenthesis": 435,
       "InterOperator": "And",
-      "UniqueHash": 731
+      "UniqueHash": 195
     }
   ],
   "Entities": [
-    "voluptas",
-    "et"
+    "in",
+    "pariatur"
   ],
-  "Page": 998,
-  "PageSize": 955,
-  "Options": "et",
-  "Context": "et"
+  "Page": 425,
+  "PageSize": 395,
+  "Options": "eum",
+  "Context": "beatae"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 101,
+  "RowCount": 100,
   "Rows": [
     {
-      "EntityName": "Rosenbaum Group",
-      "PrimaryKey": 421,
+      "EntityName": "McLaughlin LLC",
+      "PrimaryKey": 239,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "velit",
-          "LinkHint": "occaecati"
+          "DisplayValue": "id",
+          "TooltipHint": "est",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "illo",
-      "StyleHint": "sit",
+      "LinkHint": "ipsam",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldType": "System.String",
+          "FieldLength": 14
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 596
     }
   }
 }

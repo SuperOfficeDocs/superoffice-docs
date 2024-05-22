@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 41
+  "QuoteVersionId": 745
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 918,
-  "ERPQuoteVersionKey": "voluptatem",
-  "QuoteId": 99,
-  "Description": "Public-key zero administration Graphic Interface",
-  "Number": "1107403",
+  "QuoteVersionId": 928,
+  "ERPQuoteVersionKey": "qui",
+  "QuoteId": 974,
+  "Description": "Up-sized 5th generation adapter",
+  "Number": "1291601",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 380,
-  "SentDate": "2003-07-30T11:16:09.5848946+02:00",
-  "FollowupId": 938,
-  "ExpirationDate": "2021-04-27T11:16:09.5848946+02:00",
-  "DeliveryCountryId": 78,
+  "LikelyQuoteAlternativeId": 781,
+  "SentDate": "2006-07-14T12:57:34.6959481+02:00",
+  "FollowupId": 160,
+  "ExpirationDate": "2009-03-17T12:57:34.6959481+01:00",
+  "DeliveryCountryId": 162,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 503,
+  "InvoiceCountryId": 994,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "sint",
-  "ERPPaymentTypeKey": "eligendi",
-  "ERPDeliveryTermsKey": "tempore",
-  "ERPDeliveryTypeKey": "neque",
-  "Rank": 97,
-  "ApprovedBy": 785,
-  "ApprovedText": "placeat",
-  "ApprovedRegisteredBy": 790,
-  "ApprovedRegisteredDate": "1999-04-16T11:16:09.5848946+02:00",
-  "ExtraField1": "quisquam",
-  "ExtraField2": "ut",
-  "ExtraField3": "aut",
-  "ExtraField4": "aut",
-  "ExtraField5": "amet",
-  "LastRecalculated": "1998-03-17T11:16:09.5848946+01:00",
-  "Updated": "2004-08-10T11:16:09.5848946+02:00",
-  "UpdatedAssociateId": 454,
-  "Registered": "2017-03-21T11:16:09.5848946+01:00",
-  "RegisteredAssociateId": 945,
-  "RequestAssociateId": 652,
-  "RequestComment": "neque",
+  "ERPPaymentTermsKey": "reprehenderit",
+  "ERPPaymentTypeKey": "esse",
+  "ERPDeliveryTermsKey": "consequatur",
+  "ERPDeliveryTypeKey": "quas",
+  "Rank": 629,
+  "ApprovedBy": 175,
+  "ApprovedText": "itaque",
+  "ApprovedRegisteredBy": 71,
+  "ApprovedRegisteredDate": "2010-04-18T12:57:34.6959481+02:00",
+  "ExtraField1": "eos",
+  "ExtraField2": "eius",
+  "ExtraField3": "repellat",
+  "ExtraField4": "unde",
+  "ExtraField5": "quod",
+  "LastRecalculated": "2001-04-30T12:57:34.6959481+02:00",
+  "Updated": "2003-10-02T12:57:34.6959481+02:00",
+  "UpdatedAssociateId": 330,
+  "Registered": "2020-12-19T12:57:34.6959481+01:00",
+  "RegisteredAssociateId": 221,
+  "RequestAssociateId": 88,
+  "RequestComment": "quas",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 61,
-      "ERPQuoteAlternativeKey": "autem",
-      "QuoteVersionId": 463,
-      "Name": "Anderson LLC",
-      "Description": "Decentralized tangible data-warehouse",
+      "QuoteAlternativeId": 20,
+      "ERPQuoteAlternativeKey": "perferendis",
+      "QuoteVersionId": 103,
+      "Name": "Weimann Inc and Sons",
+      "Description": "Reactive context-sensitive adapter",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 16055.482,
-      "ERPDiscountAmount": 21580.724,
-      "DiscountPercent": 25093.938,
-      "DiscountAmount": 26347.538,
+      "ERPDiscountPercent": 244.452,
+      "ERPDiscountAmount": 4371.93,
+      "DiscountPercent": 949.602,
+      "DiscountAmount": 12583.01,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "deserunt",
-      "VAT": 15181.096,
-      "EarningPercent": 23965.698,
-      "EarningAmount": 6465.442,
-      "SubTotal": 28152.721999999998,
-      "TotalPrice": 5822.972,
-      "ExtraField1": "id",
-      "ExtraField2": "veniam",
-      "ExtraField3": "debitis",
-      "ExtraField4": "molestias",
-      "ExtraField5": "suscipit",
+      "VATInfo": "et",
+      "VAT": 7302.2199999999993,
+      "EarningPercent": 5992.208,
+      "EarningAmount": 22210.658,
+      "SubTotal": 17644.42,
+      "TotalPrice": 30424.872,
+      "ExtraField1": "quia",
+      "ExtraField2": "dolor",
+      "ExtraField3": "facere",
+      "ExtraField4": "quis",
+      "ExtraField5": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldLength": 241
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   }
 }

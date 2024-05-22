@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Schroeder-Hayes",
-    "ToolTip": "Fuga laboriosam dolor dolor eius rerum.",
+    "Id": 330,
+    "Name": "Zieme, Emard and Buckridge",
+    "ToolTip": "Enim maxime atque.",
     "Deleted": true,
-    "Rank": 503,
-    "Type": "possimus",
-    "ColorBlock": 360,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2007-05-01T11:16:14.6839019+02:00",
+    "Rank": 84,
+    "Type": "omnis",
+    "ColorBlock": 418,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2003-11-11T12:57:43.6676321+01:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Lubowitz-Howe",
-        "ToolTip": "Ea qui est illum illum.",
-        "Deleted": false,
-        "Rank": 613,
-        "Type": "quo",
-        "ColorBlock": 172,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2017-11-07T11:16:14.6839019+01:00",
+        "Id": 246,
+        "Name": "Funk Inc and Sons",
+        "ToolTip": "Eum quibusdam nostrum.",
+        "Deleted": true,
+        "Rank": 897,
+        "Type": "dolores",
+        "ColorBlock": 834,
+        "IconHint": "dolore",
+        "Selected": true,
+        "LastChanged": "2011-02-12T12:57:43.6676321+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "neque",
+        "ExtraInfo": "in",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Hayden Aurelia Leannon Jr.",
+        "FullName": "Miss Hillard Nyasia Kertzmann DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 582
+            "FieldType": "System.String",
+            "FieldLength": 103
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "porro",
+    "ExtraInfo": "esse",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Prof. Athena Hoeger",
+    "FullName": "Prof. Rebeka Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldLength": 816
       }
     }
   }

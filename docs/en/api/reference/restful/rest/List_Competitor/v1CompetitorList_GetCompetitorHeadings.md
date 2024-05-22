@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 716,
-    "Name": "Nolan Inc and Sons",
-    "Tooltip": "totam",
-    "Deleted": false,
-    "Rank": 674,
-    "UdListDefinitionId": 352,
+    "HeadingId": 535,
+    "Name": "Harvey Inc and Sons",
+    "Tooltip": "occaecati",
+    "Deleted": true,
+    "Rank": 806,
+    "UdListDefinitionId": 148,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 369
       }
     }
   }

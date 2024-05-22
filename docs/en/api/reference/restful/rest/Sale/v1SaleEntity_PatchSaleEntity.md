@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tenetur",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tenetur",
+    "path": "et",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "perspiciatis",
+  "SaleText": "quos",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-04-28T11:16:14.1989525+02:00",
-  "Amount": 3187.278,
-  "SaleId": 520,
-  "Earning": 11178.978,
-  "EarningPercent": 24426.396,
-  "Heading": "distinctio",
-  "Number": "996034",
-  "Probability": 532,
-  "CreatedDate": "2001-11-13T11:16:14.1989525+01:00",
-  "UpdatedDate": "2012-06-07T11:16:14.1989525+02:00",
+  "Saledate": "2015-07-14T12:57:42.745063+02:00",
+  "Amount": 2798.662,
+  "SaleId": 66,
+  "Earning": 31242.845999999998,
+  "EarningPercent": 18158.396,
+  "Heading": "nesciunt",
+  "Number": "1292068",
+  "Probability": 641,
+  "CreatedDate": "1998-12-09T12:57:42.745063+01:00",
+  "UpdatedDate": "1999-12-06T12:57:42.745063+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 155,
+  "ActiveLinks": 640,
   "Links": [
     {
-      "EntityName": "Daugherty-Orn",
-      "Id": 650,
-      "Description": "Progressive explicit contingency",
-      "ExtraInfo": "dolores",
-      "LinkId": 310,
+      "EntityName": "Walsh, Stark and Ritchie",
+      "Id": 632,
+      "Description": "Integrated didactic migration",
+      "ExtraInfo": "enim",
+      "LinkId": 293,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldType": "System.String",
+          "FieldLength": 563
         }
       }
     }
   ],
-  "NextDueDate": "2000-12-11T11:16:14.1989525+01:00",
-  "Postit": "sed",
+  "NextDueDate": "2022-12-18T12:57:42.745063+01:00",
+  "Postit": "ducimus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-03-13T11:16:14.1989525+01:00",
+  "ReopenDate": "2020-06-01T12:57:42.7606849+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Harber-Bartoletti",
-      "Comment": "omnis",
-      "StakeholderRoleId": 374,
-      "CountryId": 886,
-      "PersonId": 866,
-      "EmailDescription": "noelia@boyerjacobi.ca",
-      "EmailId": 713,
-      "EmailAddress": "blanca@ledner.name",
-      "PhoneId": 945,
-      "ContactName": "Treutel Group",
-      "ContactId": 880,
-      "SaleId": 864,
-      "Mrmrs": "nihil",
-      "Firstname": "Retta",
-      "MiddleName": "Nienow-Krajcik",
-      "Lastname": "Beahan",
-      "SaleStakeholderId": 92,
-      "Rank": 722,
-      "Phone": "742.617.7638 x97141",
+      "StakeholderRoleName": "Block Group",
+      "Comment": "odio",
+      "StakeholderRoleId": 710,
+      "CountryId": 772,
+      "PersonId": 142,
+      "EmailDescription": "nestor@maggio.com",
+      "EmailId": 928,
+      "EmailAddress": "jaydon@hilpertbauch.biz",
+      "PhoneId": 496,
+      "ContactName": "King LLC",
+      "ContactId": 621,
+      "SaleId": 955,
+      "Mrmrs": "debitis",
+      "Firstname": "Zackery",
+      "MiddleName": "Moore, Heidenreich and Lubowitz",
+      "Lastname": "Kling",
+      "SaleStakeholderId": 288,
+      "Rank": 388,
+      "Phone": "1-076-127-1675 x986",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldLength": 873
         }
       }
     }
   ],
-  "ActiveErpLinks": 540,
+  "ActiveErpLinks": 32,
   "UserDefinedFields": {
-    "SuperOffice:1": "1384580592",
-    "SuperOffice:2": "Tessie Tyree Mann MD"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1140972709"
   },
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "et",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "et",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "1997-09-16T11:16:14.1989525+02:00",
-  "PublishTo": "2019-05-18T11:16:14.1989525+02:00",
-  "PublishFrom": "1998-04-25T11:16:14.1989525+02:00",
+  "PublishEventDate": "2008-09-09T12:57:42.7606849+02:00",
+  "PublishTo": "2004-01-28T12:57:42.7606849+01:00",
+  "PublishFrom": "2011-08-24T12:57:42.7606849+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 804,
+      "VisibleId": 796,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 756
         }
       }
     },
     {
-      "VisibleId": 804,
+      "VisibleId": 796,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 756
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldLength": 968
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

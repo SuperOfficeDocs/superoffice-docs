@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 25 Feb 2014 11:16:13 G2T
+Last-Modified: Tue, 28 Dec 2021 12:57:42 G12T
 
 [
   {
-    "ForeignDeviceId": 214,
-    "Name": "Heller-Streich",
-    "CreatedDate": "2004-04-22T11:16:13.93321+02:00",
-    "UpdatedDate": "2014-02-25T11:16:13.93321+01:00",
-    "AssociateFullName": "Mrs. Cornelius Dicki II",
-    "CreatedBy": "commodi",
-    "UpdatedBy": "ut",
-    "DeviceIdentifier": "aut",
-    "ForeignAppId": 3,
+    "ForeignDeviceId": 670,
+    "Name": "Veum, Bayer and Eichmann",
+    "CreatedDate": "2000-08-13T12:57:42.448256+02:00",
+    "UpdatedDate": "2021-12-28T12:57:42.448256+01:00",
+    "AssociateFullName": "Ms. Vern Kari Osinski",
+    "CreatedBy": "et",
+    "UpdatedBy": "eos",
+    "DeviceIdentifier": "molestias",
+    "ForeignAppId": 19,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldType": "System.String",
+        "FieldLength": 306
       }
     }
   }

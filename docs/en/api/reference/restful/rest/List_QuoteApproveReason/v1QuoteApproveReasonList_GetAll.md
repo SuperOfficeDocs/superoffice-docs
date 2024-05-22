@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Crist-McLaughlin",
-    "Tooltip": "recusandae",
+    "Id": 247,
+    "Name": "Hoeger-Sporer",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "UdListDefinitionId": 263,
-    "Rank": 783,
+    "UdListDefinitionId": 742,
+    "Rank": 386,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 356
       }
     }
   }

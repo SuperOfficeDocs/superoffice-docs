@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 478
+  "QuoteVersionId": 440
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 486,
-    "ERPQuoteAlternativeKey": "sed",
-    "QuoteVersionId": 692,
-    "Name": "Keeling Inc and Sons",
-    "Description": "Inverse well-modulated product",
+    "QuoteAlternativeId": 431,
+    "ERPQuoteAlternativeKey": "eos",
+    "QuoteVersionId": 518,
+    "Name": "Strosin Inc and Sons",
+    "Description": "Public-key demand-driven array",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 17233.865999999998,
-    "ERPDiscountAmount": 6885.398,
-    "DiscountPercent": 22430.038,
-    "DiscountAmount": 26889.719999999998,
+    "ERPDiscountPercent": 26601.392,
+    "ERPDiscountAmount": 28788.924,
+    "DiscountPercent": 17265.206,
+    "DiscountAmount": 6280.536,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "voluptatem",
-    "VAT": 4801.288,
-    "EarningPercent": 27278.336,
-    "EarningAmount": 12119.178,
-    "SubTotal": 16907.93,
-    "TotalPrice": 7064.036,
-    "ExtraField1": "dolor",
-    "ExtraField2": "dolor",
-    "ExtraField3": "fugit",
-    "ExtraField4": "ut",
-    "ExtraField5": "enim",
+    "VATInfo": "nobis",
+    "VAT": 14372.524,
+    "EarningPercent": 5522.108,
+    "EarningAmount": 29760.464,
+    "SubTotal": 23965.698,
+    "TotalPrice": 11799.51,
+    "ExtraField1": "et",
+    "ExtraField2": "praesentium",
+    "ExtraField3": "nihil",
+    "ExtraField4": "ea",
+    "ExtraField5": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lindgren-Hilll"
+  "ApplicationName": "Kunde LLC"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 953,
-    "Name": "Kuhn LLC",
-    "CreatedDate": "2020-09-26T11:16:09.2878404+02:00",
-    "UpdatedDate": "1997-04-08T11:16:09.2878404+02:00",
-    "AssociateFullName": "Madison Hermiston",
-    "CreatedBy": "et",
-    "UpdatedBy": "adipisci",
-    "DeviceIdentifier": "in",
-    "ForeignAppId": 227,
+    "ForeignDeviceId": 482,
+    "Name": "Waters LLC",
+    "CreatedDate": "2023-10-21T12:57:34.0554972+02:00",
+    "UpdatedDate": "2012-11-16T12:57:34.0554972+01:00",
+    "AssociateFullName": "Mrs. Leonel Rodger O'Kon",
+    "CreatedBy": "veniam",
+    "UpdatedBy": "id",
+    "DeviceIdentifier": "odio",
+    "ForeignAppId": 164,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldLength": 456
       }
     }
   }

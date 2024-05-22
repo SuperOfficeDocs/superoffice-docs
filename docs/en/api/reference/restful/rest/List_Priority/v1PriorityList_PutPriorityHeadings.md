@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 179,
-    "Name": "Reilly Inc and Sons",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 49,
-    "UdListDefinitionId": 526
+    "HeadingId": 986,
+    "Name": "Green LLC",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "Rank": 496,
+    "UdListDefinitionId": 980
   },
   {
-    "HeadingId": 179,
-    "Name": "Reilly Inc and Sons",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 49,
-    "UdListDefinitionId": 526
+    "HeadingId": 986,
+    "Name": "Green LLC",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "Rank": 496,
+    "UdListDefinitionId": 980
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 17,
-    "Name": "Nitzsche-Dibbert",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 375,
-    "UdListDefinitionId": 554,
+    "HeadingId": 816,
+    "Name": "Leuschke-Hyatt",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 57,
+    "UdListDefinitionId": 78,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 863
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 371,
-    "Name": "Hettinger Inc and Sons",
-    "Tooltip": "rerum",
-    "SaveInDb": 157,
-    "Filename": "necessitatibus",
-    "DefaultOref": "quisquam",
+    "DocumentTemplateId": 290,
+    "Name": "Hartmann, Johnson and Bergstrom",
+    "Tooltip": "aut",
+    "SaveInDb": 398,
+    "Filename": "et",
+    "DefaultOref": "sint",
     "RecordType": "Appointment",
-    "Deleted": 542,
+    "Deleted": 529,
     "Direction": "Incoming",
-    "AutoeventId": 396,
+    "AutoeventId": 693,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

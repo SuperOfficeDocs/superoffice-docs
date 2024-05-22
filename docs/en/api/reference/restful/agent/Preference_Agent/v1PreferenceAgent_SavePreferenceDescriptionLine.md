@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 229,
-  "PrefDescId": 596,
-  "PrefValue": "mollitia",
-  "PrefShowValue": "assumenda",
-  "Description": "User-friendly dynamic challenge",
+  "PrefDescLineId": 352,
+  "PrefDescId": 672,
+  "PrefValue": "odit",
+  "PrefShowValue": "quam",
+  "Description": "Diverse intermediate analyzer",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 959,
-  "PrefDescId": 385,
-  "PrefValue": "autem",
-  "PrefShowValue": "alias",
-  "Description": "Managed systematic encoding",
+  "PrefDescLineId": 323,
+  "PrefDescId": 911,
+  "PrefValue": "enim",
+  "PrefShowValue": "distinctio",
+  "Description": "Stand-alone even-keeled strategy",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 998
     }
   }
 }

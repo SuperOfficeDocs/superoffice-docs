@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 517,
-    "ColumnId": 166,
-    "FieldDefault": "dolores",
-    "FieldHeight": 993,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 726,
-    "FieldTop": 894,
+    "UDefFieldId": 633,
+    "ColumnId": 643,
+    "FieldDefault": "libero",
+    "FieldHeight": 329,
+    "FieldLabel": "nulla",
+    "FieldLeft": 873,
+    "FieldTop": 931,
     "FieldType": "Checkbox",
-    "FieldWidth": 764,
-    "FormatMask": "pariatur",
+    "FieldWidth": 885,
+    "FormatMask": "qui",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 511,
-    "LabelLeft": 975,
-    "LabelTop": 851,
-    "LabelWidth": 352,
-    "LastVersionId": 558,
-    "ListTableId": 529,
+    "LabelHeight": 764,
+    "LabelLeft": 744,
+    "LabelTop": 642,
+    "LabelWidth": 356,
+    "LastVersionId": 493,
+    "ListTableId": 275,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 474,
-    "ProgId": "vitae",
-    "IsReadOnly": false,
-    "ShortLabel": "doloribus",
-    "TabOrder": 216,
-    "TextLength": 797,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 436,
-    "UDListDefinitionId": 588,
+    "Page1LineNo": 441,
+    "ProgId": "consequatur",
+    "IsReadOnly": true,
+    "ShortLabel": "animi",
+    "TabOrder": 906,
+    "TextLength": 782,
+    "Tooltip": "nesciunt",
+    "UdefIdentity": 55,
+    "UDListDefinitionId": 22,
     "Justification": "Center",
-    "Version": 713,
-    "TemplateVariableName": "Mills-Toy",
-    "HasBeenPublished": true,
-    "MdoListName": "Adams-Feil",
+    "Version": 769,
+    "TemplateVariableName": "Dibbert, Rowe and Mayert",
+    "HasBeenPublished": false,
+    "MdoListName": "Hayes, Gerlach and Zboncak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 35
       }
     }
   }

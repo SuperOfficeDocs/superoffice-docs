@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 495,
-  "EmailBodyTemplateId": 157,
+  "QuoteVersionId": 939,
+  "EmailBodyTemplateId": 698,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 445,
-  "IncludeAttachments": true,
-  "RawMailSubject": "ut"
+  "QuotedProductsTemplateId": 669,
+  "IncludeAttachments": false,
+  "RawMailSubject": "recusandae"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 472,
-  "QuotedProductsId": 10,
+  "QuoteDocumentId": 330,
+  "QuotedProductsId": 222,
   "QuoteAttachmentIds": [
-    225,
-    879
+    537,
+    435
   ],
-  "MailBody": "placeat",
-  "MailSubject": "temporibus",
-  "ToEmail": "lucile@bednar.ca",
-  "ToFullName": "Clair Dach",
-  "ErrorMessage": "ipsum",
+  "MailBody": "optio",
+  "MailSubject": "aut",
+  "ToEmail": "tanya@miller.ca",
+  "ToFullName": "Mrs. Ethyl Willms I",
+  "ErrorMessage": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   }
 }

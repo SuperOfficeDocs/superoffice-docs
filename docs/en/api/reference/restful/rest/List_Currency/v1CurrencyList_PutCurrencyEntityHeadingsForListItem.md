@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "VonRueden-Weber",
-    "ToolTip": "Qui et qui.",
-    "Deleted": true,
-    "Rank": 582,
-    "Type": "nostrum",
-    "ColorBlock": 44,
-    "IconHint": "qui",
+    "Id": 499,
+    "Name": "Orn, Schmidt and Steuber",
+    "ToolTip": "Aut eaque maxime et voluptas dignissimos voluptatum ex.",
+    "Deleted": false,
+    "Rank": 859,
+    "Type": "nam",
+    "ColorBlock": 894,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2010-07-17T11:16:14.5432954+02:00",
+    "LastChanged": "2018-10-09T12:57:43.4333137+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Bednar, Leffler and Bergnaum",
-        "ToolTip": "Rem ut fugiat eos qui.",
+        "Id": 58,
+        "Name": "Kuhlman Group",
+        "ToolTip": "Nobis dolorem.",
         "Deleted": false,
-        "Rank": 118,
-        "Type": "autem",
-        "ColorBlock": 508,
-        "IconHint": "cum",
+        "Rank": 227,
+        "Type": "quae",
+        "ColorBlock": 254,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "1999-03-30T11:16:14.5432954+02:00",
+        "LastChanged": "2001-03-22T12:57:43.4333137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "soluta",
-        "Hidden": false,
-        "FullName": "Dr. Kaylin Heidenreich"
+        "ExtraInfo": "voluptate",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Heloise Alfredo Hoeger PhD"
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "maxime",
+    "ExtraInfo": "ullam",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Alanna Lubowitz"
+    "FullName": "Maddison Bahringer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Smith-Schoen",
-    "ToolTip": "Eos et quae beatae excepturi.",
-    "Deleted": true,
-    "Rank": 303,
-    "Type": "at",
-    "ColorBlock": 903,
-    "IconHint": "quo",
+    "Id": 586,
+    "Name": "Welch LLC",
+    "ToolTip": "Alias qui aut.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "illum",
+    "ColorBlock": 423,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2017-05-24T11:16:14.5432954+02:00",
+    "LastChanged": "2007-10-06T12:57:43.4333137+02:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Hodkiewicz, Weissnat and Rau",
-        "ToolTip": "Aut et qui.",
+        "Id": 113,
+        "Name": "Sporer, Buckridge and Zemlak",
+        "ToolTip": "Quia similique voluptas aut.",
         "Deleted": false,
-        "Rank": 805,
-        "Type": "voluptate",
-        "ColorBlock": 419,
-        "IconHint": "sapiente",
+        "Rank": 825,
+        "Type": "qui",
+        "ColorBlock": 601,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2016-11-11T11:16:14.5432954+01:00",
+        "LastChanged": "1997-09-09T12:57:43.4333137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "libero",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Noemie Sawayn",
+        "FullName": "Meghan O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 506
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "vitae",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Filiberto Langosh",
+    "FullName": "Mrs. Leonor Senger PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldLength": 462
       }
     }
   }

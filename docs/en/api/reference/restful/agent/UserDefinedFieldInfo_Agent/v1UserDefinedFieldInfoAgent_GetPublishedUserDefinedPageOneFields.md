@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 392
+  "UserGroupId": 579
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 628,
-    "ColumnId": 987,
-    "FieldDefault": "architecto",
-    "FieldHeight": 476,
-    "FieldLabel": "ut",
-    "FieldLeft": 191,
-    "FieldTop": 27,
+    "UDefFieldId": 981,
+    "ColumnId": 211,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 700,
+    "FieldLabel": "quaerat",
+    "FieldLeft": 148,
+    "FieldTop": 836,
     "FieldType": "Checkbox",
-    "FieldWidth": 463,
-    "FormatMask": "est",
+    "FieldWidth": 988,
+    "FormatMask": "aperiam",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 574,
-    "LabelLeft": 460,
-    "LabelTop": 142,
-    "LabelWidth": 780,
-    "LastVersionId": 205,
-    "ListTableId": 58,
-    "IsMandatory": false,
+    "LabelHeight": 160,
+    "LabelLeft": 452,
+    "LabelTop": 288,
+    "LabelWidth": 591,
+    "LastVersionId": 395,
+    "ListTableId": 320,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 87,
-    "ProgId": "ipsam",
+    "Page1LineNo": 919,
+    "ProgId": "doloremque",
     "IsReadOnly": false,
-    "ShortLabel": "hic",
-    "TabOrder": 579,
-    "TextLength": 595,
-    "Tooltip": "voluptatum",
-    "UdefIdentity": 851,
-    "UDListDefinitionId": 90,
+    "ShortLabel": "dolorem",
+    "TabOrder": 327,
+    "TextLength": 785,
+    "Tooltip": "dolores",
+    "UdefIdentity": 6,
+    "UDListDefinitionId": 829,
     "Justification": "Center",
-    "Version": 850,
-    "TemplateVariableName": "Lynch Group",
+    "Version": 246,
+    "TemplateVariableName": "Botsford Group",
     "HasBeenPublished": false,
-    "MdoListName": "Reilly-Hartmann",
+    "MdoListName": "Hauck, Hammes and Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 213
+        "FieldType": "System.Int32",
+        "FieldLength": 182
       }
     }
   }

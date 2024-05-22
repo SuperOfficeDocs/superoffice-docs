@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Corkery LLC",
-    "ToolTip": "Delectus nisi aut soluta omnis ipsam distinctio rerum.",
-    "Deleted": true,
-    "Rank": 273,
-    "Type": "reiciendis",
-    "ColorBlock": 164,
-    "IconHint": "laboriosam",
-    "Selected": true,
-    "LastChanged": "2023-03-09T11:16:14.8401403+01:00",
+    "Id": 907,
+    "Name": "Franecki-Vandervort",
+    "ToolTip": "Quis sit.",
+    "Deleted": false,
+    "Rank": 843,
+    "Type": "sit",
+    "ColorBlock": 444,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2000-10-01T12:57:43.7769823+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Kutch, Harber and Donnelly",
-        "ToolTip": "Et cum nostrum expedita sint.",
-        "Deleted": true,
-        "Rank": 393,
-        "Type": "rerum",
-        "ColorBlock": 100,
-        "IconHint": "autem",
+        "Id": 169,
+        "Name": "Weissnat, Watsica and Kihn",
+        "ToolTip": "Saepe voluptates.",
+        "Deleted": false,
+        "Rank": 130,
+        "Type": "ipsum",
+        "ColorBlock": 637,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2009-12-08T11:16:14.8401403+01:00",
+        "LastChanged": "2000-09-01T12:57:43.7769823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Cathryn Cole"
+        "ExtraInfo": "in",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Geovany Keebler"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "dolores",
+    "ExtraInfo": "id",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Bernita Green"
+    "FullName": "Miss Keyshawn Esperanza Daugherty"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Grant Group",
-    "ToolTip": "Ut quas voluptatem velit.",
+    "Id": 69,
+    "Name": "Crist Inc and Sons",
+    "ToolTip": "Provident aliquid blanditiis architecto eum consequatur harum.",
     "Deleted": true,
-    "Rank": 241,
-    "Type": "quae",
-    "ColorBlock": 76,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2022-01-08T11:16:14.8401403+01:00",
+    "Rank": 348,
+    "Type": "qui",
+    "ColorBlock": 184,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2011-03-04T12:57:43.7769823+01:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Corkery Group",
-        "ToolTip": "Accusantium consectetur.",
-        "Deleted": false,
-        "Rank": 112,
-        "Type": "et",
-        "ColorBlock": 609,
-        "IconHint": "praesentium",
-        "Selected": false,
-        "LastChanged": "2004-12-03T11:16:14.8401403+01:00",
+        "Id": 917,
+        "Name": "Koepp, Kemmer and Schmitt",
+        "ToolTip": "Esse nisi ipsa sed illum tenetur.",
+        "Deleted": true,
+        "Rank": 449,
+        "Type": "animi",
+        "ColorBlock": 469,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2023-05-03T12:57:43.7769823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Wilhelm Kozey",
+        "ExtraInfo": "est",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Lewis Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 670
+            "FieldType": "System.Int32",
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "eos",
+    "ExtraInfo": "et",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Lamont Raynor",
+    "FullName": "Melody Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

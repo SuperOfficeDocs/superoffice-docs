@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sint",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 6418,
-      "EntityName": "person",
-      "personId": 6418,
-      "fullName": "Joel Prosacco MD"
+      "PrimaryKey": 5445,
+      "EntityName": "sale",
+      "saleId": 5445,
+      "contactId": 3500,
+      "name": "Gutkowski-Hoppe"
     },
     {
-      "PrimaryKey": 507,
-      "EntityName": "person",
-      "personId": 507,
-      "fullName": "Dr. Flo Kris V"
+      "PrimaryKey": 3483,
+      "EntityName": "sale",
+      "saleId": 3483,
+      "contactId": 4977,
+      "name": "Cassin Inc and Sons"
     }
   ]
 }

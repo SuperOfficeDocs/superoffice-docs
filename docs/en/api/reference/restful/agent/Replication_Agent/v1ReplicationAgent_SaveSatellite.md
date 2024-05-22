@@ -83,17 +83,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 374,
-  "Created": "2021-08-04T11:16:09.6317604+02:00",
+  "SatelliteId": 376,
+  "Created": "2019-07-10T12:57:34.7740549+02:00",
   "CreatedBy": null,
-  "Updated": "2011-10-12T11:16:09.6317604+02:00",
+  "Updated": "2001-06-05T12:57:34.7740549+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Stokes-Quitzon",
-      "Description": "Programmable next generation framework",
+      "Name": "Cruickshank Group",
+      "Description": "Upgradable client-server parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Stokes-Quitzon",
-      "Description": "Programmable next generation framework",
+      "Name": "Cruickshank Group",
+      "Description": "Upgradable client-server parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 782,
-  "Created": "1999-02-12T11:16:09.6317604+01:00",
+  "SatelliteId": 798,
+  "Created": "2009-05-02T12:57:34.7740549+02:00",
   "CreatedBy": null,
-  "Updated": "2009-09-16T11:16:09.6317604+02:00",
+  "Updated": "2006-03-27T12:57:34.7740549+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Hilpert Inc and Sons",
-      "Description": "Self-enabling bottom-line analyzer",
+      "Name": "Lakin, Rutherford and Renner",
+      "Description": "Monitored needs-based array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     },
     {
-      "Name": "Hilpert Inc and Sons",
-      "Description": "Self-enabling bottom-line analyzer",
+      "Name": "Lakin, Rutherford and Renner",
+      "Description": "Monitored needs-based array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldLength": 72
     }
   }
 }

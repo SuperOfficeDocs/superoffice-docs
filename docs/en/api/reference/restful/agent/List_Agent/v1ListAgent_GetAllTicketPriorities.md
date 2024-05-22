@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 293,
-    "Name": "Schoen-Jacobi",
+    "TicketPriorityId": 95,
+    "Name": "Jacobson-Waters",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 707,
+    "SortOrder": 466,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 937,
-    "MonStart": "2002-10-22T11:16:09.3034579+02:00",
-    "MonStop": "2001-12-10T11:16:09.3034579+01:00",
-    "TueStart": "2012-11-03T11:16:09.3034579+01:00",
-    "TueStop": "2002-11-24T11:16:09.3034579+01:00",
-    "WedStart": "2002-05-27T11:16:09.3034579+02:00",
-    "WedStop": "2005-03-27T11:16:09.3034579+02:00",
-    "ThuStart": "2000-01-05T11:16:09.3034579+01:00",
-    "ThuStop": "2007-06-29T11:16:09.3034579+02:00",
-    "FriStart": "2012-10-22T11:16:09.3034579+02:00",
-    "FriStop": "2017-01-07T11:16:09.3034579+01:00",
-    "SatStart": "2022-01-19T11:16:09.3034579+01:00",
-    "SatStop": "2022-10-21T11:16:09.3034579+02:00",
-    "SunStart": "2007-10-15T11:16:09.3034579+02:00",
-    "SunStop": "2016-02-15T11:16:09.3034579+01:00",
+    "Deadline": 489,
+    "MonStart": "2013-05-11T12:57:34.1023616+02:00",
+    "MonStop": "2008-09-30T12:57:34.1023616+02:00",
+    "TueStart": "2016-02-09T12:57:34.1023616+01:00",
+    "TueStop": "2007-08-23T12:57:34.1023616+02:00",
+    "WedStart": "2004-11-03T12:57:34.1023616+01:00",
+    "WedStop": "2023-07-27T12:57:34.1023616+02:00",
+    "ThuStart": "2003-04-03T12:57:34.1023616+02:00",
+    "ThuStop": "1998-04-11T12:57:34.1023616+02:00",
+    "FriStart": "2018-03-13T12:57:34.1023616+01:00",
+    "FriStop": "2006-03-30T12:57:34.1023616+02:00",
+    "SatStart": "1998-11-25T12:57:34.1023616+01:00",
+    "SatStop": "2008-05-27T12:57:34.1023616+02:00",
+    "SunStart": "2007-12-10T12:57:34.1023616+01:00",
+    "SunStop": "2013-02-13T12:57:34.1023616+01:00",
     "NonDates": [
-      "corporis",
-      "consequuntur"
+      "officiis",
+      "est"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 773,
-        "AlertLevel": 494,
-        "AlertTimeout": 157,
-        "Action": 434,
-        "DelegateTo": 794,
-        "ScriptId": 112,
-        "EmailTo": "andy_mraz@koelpin.us",
-        "SmsTo": "doloribus",
-        "ReplyTemplateIdCustomer": 859,
-        "ReplyTemplateIdUser": 212,
-        "ReplyTemplateIdCatmast": 740,
-        "ReplyTemplateIdEmail": 765,
-        "RtiCustomerSms": 355,
-        "ReplyTemplateIdUserSms": 591,
-        "ReplyTemplateIdCatmastSms": 981,
-        "ReplyTemplateIdSms": 197,
+        "TicketAlertId": 419,
+        "AlertLevel": 58,
+        "AlertTimeout": 900,
+        "Action": 335,
+        "DelegateTo": 961,
+        "ScriptId": 206,
+        "EmailTo": "holly_metz@feeneygislason.co.uk",
+        "SmsTo": "ducimus",
+        "ReplyTemplateIdCustomer": 425,
+        "ReplyTemplateIdUser": 348,
+        "ReplyTemplateIdCatmast": 515,
+        "ReplyTemplateIdEmail": 835,
+        "RtiCustomerSms": 378,
+        "ReplyTemplateIdUserSms": 583,
+        "ReplyTemplateIdCatmastSms": 227,
+        "ReplyTemplateIdSms": 871,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 514
+            "FieldLength": 93
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldLength": 996
       }
     }
   }

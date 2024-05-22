@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Howe-Swift",
-  "Type": "sunt",
-  "Size": 334,
+  "Name": "Pouros-Weissnat",
+  "Type": "molestiae",
+  "Size": 443,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   }
 }

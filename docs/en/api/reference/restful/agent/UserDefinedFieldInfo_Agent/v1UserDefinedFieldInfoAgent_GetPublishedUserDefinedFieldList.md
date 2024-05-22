@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 671,
-    "ColumnId": 884,
-    "FieldDefault": "totam",
-    "FieldHeight": 983,
-    "FieldLabel": "quibusdam",
-    "FieldLeft": 216,
-    "FieldTop": 149,
+    "UDefFieldId": 827,
+    "ColumnId": 388,
+    "FieldDefault": "et",
+    "FieldHeight": 902,
+    "FieldLabel": "modi",
+    "FieldLeft": 287,
+    "FieldTop": 10,
     "FieldType": "Checkbox",
-    "FieldWidth": 608,
-    "FormatMask": "alias",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 724,
-    "LabelLeft": 438,
-    "LabelTop": 734,
-    "LabelWidth": 598,
-    "LastVersionId": 169,
-    "ListTableId": 164,
+    "FieldWidth": 570,
+    "FormatMask": "dolores",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 197,
+    "LabelLeft": 748,
+    "LabelTop": 896,
+    "LabelWidth": 636,
+    "LastVersionId": 573,
+    "ListTableId": 222,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 873,
-    "ProgId": "molestias",
-    "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 417,
-    "TextLength": 376,
-    "Tooltip": "at",
-    "UdefIdentity": 229,
-    "UDListDefinitionId": 730,
+    "Page1LineNo": 480,
+    "ProgId": "consequatur",
+    "IsReadOnly": true,
+    "ShortLabel": "ea",
+    "TabOrder": 818,
+    "TextLength": 63,
+    "Tooltip": "et",
+    "UdefIdentity": 278,
+    "UDListDefinitionId": 851,
     "Justification": "Center",
-    "Version": 946,
-    "TemplateVariableName": "Kovacek-Walsh",
-    "HasBeenPublished": true,
-    "MdoListName": "Crist Inc and Sons",
+    "Version": 273,
+    "TemplateVariableName": "Stroman, Glover and Bergnaum",
+    "HasBeenPublished": false,
+    "MdoListName": "Hirthe-Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

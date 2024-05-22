@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kemmer Inc and Sons",
-  "ProviderName": "Koepp LLC",
-  "Context": "architecto"
+  "GuiName": "Ryan, Mohr and Gutkowski",
+  "ProviderName": "Howell-Hermiston",
+  "Context": "voluptatibus"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "McCullough-Ryan",
-      "DisplayTooltip": "qui",
-      "DisplayType": "soluta",
-      "CanOrderBy": false,
-      "Name": "Hartmann Inc and Sons",
+      "DisplayName": "Schuster, Rau and Sawayn",
+      "DisplayTooltip": "quia",
+      "DisplayType": "necessitatibus",
+      "CanOrderBy": true,
+      "Name": "Hickle Group",
       "CanRestrictBy": true,
-      "RestrictionType": "optio",
-      "RestrictionListName": "Beer, Hintz and Gutmann",
+      "RestrictionType": "repellendus",
+      "RestrictionListName": "Towne, Mante and McGlynn",
       "IsVisible": false,
-      "ExtraInfo": "quia",
-      "Width": "labore",
-      "IconHint": "quasi",
-      "HeadingIconHint": "quam"
+      "ExtraInfo": "magnam",
+      "Width": "atque",
+      "IconHint": "blanditiis",
+      "HeadingIconHint": "est"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 377,
-      "Name": "Rogahn, Ruecker and Brekke",
-      "ToolTip": "Repellendus aut eum sunt quis.",
-      "Deleted": true,
-      "Rank": 777,
-      "Type": "dicta",
-      "ColorBlock": 34,
-      "IconHint": "perspiciatis",
+      "Id": 471,
+      "Name": "Schuppe Inc and Sons",
+      "ToolTip": "Totam illo reprehenderit repellat laudantium quo aut ut.",
+      "Deleted": false,
+      "Rank": 317,
+      "Type": "porro",
+      "ColorBlock": 849,
+      "IconHint": "debitis",
       "Selected": false,
-      "LastChanged": "1997-09-01T11:16:08.7097813+02:00",
+      "LastChanged": "2013-11-21T12:57:33.2116147+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "ratione",
       "Hidden": true,
-      "FullName": "Dr. Linwood Stiedemann PhD",
+      "FullName": "Prof. Montana Mraz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldLength": 278
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Skiles, Wuckert and Torp",
+      "Name": "Metz-Maggio",
       "Direction": "ASC"
     },
     {
-      "Name": "Skiles, Wuckert and Torp",
+      "Name": "Metz-Maggio",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "repudiandae",
+  "OwnerKeys": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldLength": 814
     }
   }
 }

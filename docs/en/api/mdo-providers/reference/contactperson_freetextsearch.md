@@ -27,6 +27,13 @@ Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactPersonListFreetextSearchProvider">ContactPersonListFreetextSearchProvider</see> class.
 The name of the MDO list is 'contactperson_freetextsearch'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Skip retired employees| skipRetired|False|
+
+
 
 
 

@@ -102,35 +102,35 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 219,
-  "Name": "Hamill-Abbott",
-  "Rank": 899,
-  "Tooltip": "ea",
-  "Icon": "vero",
-  "DefaultTicketStatus": 730,
+  "TicketTypeId": 136,
+  "Name": "Dare, Wunsch and Hickle",
+  "Rank": 908,
+  "Tooltip": "velit",
+  "Icon": "voluptatum",
+  "DefaultTicketStatus": 644,
   "TicketStatuses": [
-    420,
-    735
+    597,
+    618
   ],
-  "DefaultTicketPriority": 653,
+  "DefaultTicketPriority": 308,
   "TicketPriorities": [
-    728,
-    223
+    535,
+    154
   ],
-  "ReplyTemplate": 232,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 759,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    137,
-    408
+    978,
+    310
   ]
 }
 ```
@@ -142,38 +142,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 940,
-  "Name": "Hills Group",
-  "Rank": 128,
-  "Tooltip": "odit",
-  "Icon": "enim",
-  "DefaultTicketStatus": 131,
+  "TicketTypeId": 941,
+  "Name": "Deckow-Kuhic",
+  "Rank": 840,
+  "Tooltip": "nulla",
+  "Icon": "molestias",
+  "DefaultTicketStatus": 618,
   "TicketStatuses": [
-    661,
-    117
+    116,
+    427
   ],
-  "DefaultTicketPriority": 791,
+  "DefaultTicketPriority": 700,
   "TicketPriorities": [
-    970,
-    700
+    883,
+    368
   ],
-  "ReplyTemplate": 478,
+  "ReplyTemplate": 924,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    488,
-    763
+    198,
+    626
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

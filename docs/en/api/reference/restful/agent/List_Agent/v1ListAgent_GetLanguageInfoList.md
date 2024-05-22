@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 323,
-    "LCID": 574,
-    "EnglishName": "Kuhn-Kris",
-    "NativeName": "Lehner-Leuschke",
-    "ThreeLetterISOLanguageName": "Turcotte-Robel",
-    "TwoLetterISOLanguageName": "Keeling, Greenfelder and Abernathy",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 560,
+    "LCID": 251,
+    "EnglishName": "Turner-Kozey",
+    "NativeName": "Dooley Inc and Sons",
+    "ThreeLetterISOLanguageName": "Daugherty-Koch",
+    "TwoLetterISOLanguageName": "Rau, Fisher and Armstrong",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 60
       }
     }
   }

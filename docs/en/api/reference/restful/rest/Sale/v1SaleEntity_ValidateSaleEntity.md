@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "facilis",
+  "SaleText": "laboriosam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-10-17T11:16:14.2032988+02:00",
-  "Amount": 18067.51,
-  "SaleId": 954,
-  "Earning": 20176.692,
-  "EarningPercent": 28372.102,
-  "Heading": "sed",
-  "Number": "1393133",
-  "Probability": 283,
-  "CreatedDate": "2010-01-04T11:16:14.2032988+01:00",
-  "UpdatedDate": "2022-01-19T11:16:14.2032988+01:00",
+  "Saledate": "1997-08-02T12:57:42.7606849+02:00",
+  "Amount": 27607.406,
+  "SaleId": 689,
+  "Earning": 9445.876,
+  "EarningPercent": 12388.702,
+  "Heading": "ipsa",
+  "Number": "990645",
+  "Probability": 656,
+  "CreatedDate": "2009-09-27T12:57:42.7606849+02:00",
+  "UpdatedDate": "2023-01-06T12:57:42.7606849+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 888,
+  "ActiveLinks": 13,
   "Links": [
     {
-      "EntityName": "Pollich Inc and Sons",
-      "Id": 146,
-      "Description": "Grass-roots cohesive encoding",
-      "ExtraInfo": "quis",
-      "LinkId": 554
+      "EntityName": "Hamill-Rice",
+      "Id": 272,
+      "Description": "Diverse bifurcated attitude",
+      "ExtraInfo": "tempora",
+      "LinkId": 562
     },
     {
-      "EntityName": "Pollich Inc and Sons",
-      "Id": 146,
-      "Description": "Grass-roots cohesive encoding",
-      "ExtraInfo": "quis",
-      "LinkId": 554
+      "EntityName": "Hamill-Rice",
+      "Id": 272,
+      "Description": "Diverse bifurcated attitude",
+      "ExtraInfo": "tempora",
+      "LinkId": 562
     }
   ],
-  "NextDueDate": "2018-10-27T11:16:14.2032988+02:00",
-  "Postit": "voluptatem",
+  "NextDueDate": "2003-07-17T12:57:42.7606849+02:00",
+  "Postit": "dicta",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-11-05T11:16:14.2032988+01:00",
+  "ReopenDate": "2007-06-10T12:57:42.7606849+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "O'Keefe-Rath",
-      "Comment": "molestiae",
-      "StakeholderRoleId": 676,
-      "CountryId": 876,
-      "PersonId": 575,
-      "EmailDescription": "ransom@auerstamm.us",
-      "EmailId": 844,
-      "EmailAddress": "carissa@sawayn.info",
-      "PhoneId": 842,
-      "ContactName": "Torphy, Schmitt and Hayes",
-      "ContactId": 567,
-      "SaleId": 745,
-      "Mrmrs": "omnis",
-      "Firstname": "Yessenia",
-      "MiddleName": "Zulauf Inc and Sons",
-      "Lastname": "Emard",
-      "SaleStakeholderId": 559,
-      "Rank": 547,
-      "Phone": "1-085-300-1942 x66825"
+      "StakeholderRoleName": "Kuhn LLC",
+      "Comment": "est",
+      "StakeholderRoleId": 745,
+      "CountryId": 20,
+      "PersonId": 60,
+      "EmailDescription": "alessandro.kovacek@sipesthiel.uk",
+      "EmailId": 194,
+      "EmailAddress": "bessie@langworth.co.uk",
+      "PhoneId": 141,
+      "ContactName": "Lueilwitz, Waters and Heidenreich",
+      "ContactId": 835,
+      "SaleId": 823,
+      "Mrmrs": "aut",
+      "Firstname": "Kris",
+      "MiddleName": "Bins Group",
+      "Lastname": "Altenwerth",
+      "SaleStakeholderId": 931,
+      "Rank": 719,
+      "Phone": "073-579-4185"
     }
   ],
-  "ActiveErpLinks": 36,
+  "ActiveErpLinks": 683,
   "UserDefinedFields": {
-    "SuperOffice:1": "Judah Okuneva",
-    "SuperOffice:2": "2047994998"
+    "SuperOffice:1": "Miss Hillary Kelsi Rau III",
+    "SuperOffice:2": "Miss Jazlyn Trisha Tromp"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "eum"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2003-09-05T11:16:14.2032988+02:00",
-  "PublishTo": "1998-12-22T11:16:14.2032988+01:00",
-  "PublishFrom": "2004-06-11T11:16:14.2032988+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1997-02-16T12:57:42.7606849+01:00",
+  "PublishTo": "2015-09-10T12:57:42.7606849+02:00",
+  "PublishFrom": "2016-04-08T12:57:42.7606849+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 489,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "nihil"
     },
     {
-      "VisibleId": 489,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "nihil"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sapiente",
-  "2": "optio"
+  "1": "enim",
+  "2": "ullam"
 }
 ```

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 181
+  "EjUserId": 50
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 377,
-    "Name": "Hahn Inc and Sons",
-    "Rank": 497,
-    "Tooltip": "aut",
+    "AssociateId": 698,
+    "Name": "Bernhard LLC",
+    "Rank": 879,
+    "Tooltip": "magni",
     "LicenseOwners": [
       {
-        "Name": "Christiansen, Grant and Johns",
-        "Description": "Multi-lateral 5th generation analyzer",
+        "Name": "Sanford-Farrell",
+        "Description": "Synchronised even-keeled groupware",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 948
           }
         }
       },
       {
-        "Name": "Christiansen, Grant and Johns",
-        "Description": "Multi-lateral 5th generation analyzer",
+        "Name": "Sanford-Farrell",
+        "Description": "Synchronised even-keeled groupware",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 948
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "possimus",
-        "Tooltip": "fuga",
-        "Id": 629,
-        "Rank": 486,
+        "Value": "autem",
+        "Tooltip": "hic",
+        "Id": 193,
+        "Rank": 325,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 724
+            "FieldLength": 92
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2010-07-11T11:16:10.0547234+02:00",
-    "Lastlogout": "2012-07-26T11:16:10.0547234+02:00",
-    "EjUserId": 706,
-    "RequestSignature": "quasi",
+    "Lastlogin": "2023-12-20T12:57:35.5086716+01:00",
+    "Lastlogout": "2004-07-18T12:57:35.5086716+02:00",
+    "EjUserId": 781,
+    "RequestSignature": "consequuntur",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": false,
+    "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "vitae",
-        "DisplayValue": "dolorem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 504
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "vitae",
-        "DisplayValue": "dolorem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 504
-          }
-        }
-      }
-    ],
-    "UserName": "Ratke-Hartmann",
-    "TicketCategories": [
-      {
-        "Id": 747,
-        "Name": "Jacobs Inc and Sons",
-        "ToolTip": "Quam ipsam.",
-        "Deleted": false,
-        "Rank": 708,
-        "Type": "hic",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "modi",
-        "ColorBlock": 224,
-        "ExtraInfo": "illum",
-        "StyleHint": "dolorem",
-        "FullName": "Tatum McGlynn",
+        "Value": "aut",
+        "DisplayValue": "dignissimos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldLength": 831
           }
         }
-      }
-    ],
-    "NickName": "Lang LLC",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "excepturi",
-      "ExtraFields2": "voluptatem"
-    },
-    "CustomFields": {
-      "CustomFields1": "recusandae",
-      "CustomFields2": "est"
-    },
-    "PostSaveCommands": [
+      },
       {
-        "Name": "Adams-Gaylord",
-        "DisplayName": "Mueller, Davis and Walker",
-        "Description": "Polarised full-range Graphic Interface",
-        "ToolTip": "Culpa ea dignissimos ut.",
-        "Actions": "Implicit",
-        "ActionData": "nihil",
+        "Type": null,
+        "Value": "aut",
+        "DisplayValue": "dignissimos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 916
+            "FieldType": "System.Int32",
+            "FieldLength": 831
+          }
+        }
+      }
+    ],
+    "UserName": "Wintheiser Group",
+    "TicketCategories": [
+      {
+        "Id": 45,
+        "Name": "Crooks, Balistreri and Collins",
+        "ToolTip": "Tenetur facere sed.",
+        "Deleted": true,
+        "Rank": 353,
+        "Type": "sunt",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "sunt",
+        "ColorBlock": 670,
+        "ExtraInfo": "libero",
+        "StyleHint": "ullam",
+        "FullName": "Evangeline Hodkiewicz",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 517
+          }
+        }
+      }
+    ],
+    "NickName": "Collins-Hagenes",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "ab",
+      "ExtraFields2": "consequatur"
+    },
+    "CustomFields": {
+      "CustomFields1": "corrupti",
+      "CustomFields2": "harum"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Weimann-Abbott",
+        "DisplayName": "Simonis, Grant and Jacobs",
+        "Description": "Mandatory encompassing encryption",
+        "ToolTip": "Et ea veritatis dignissimos doloremque.",
+        "Actions": "Implicit",
+        "ActionData": "natus",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 725
           }
         }
       }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldLength": 453
       }
     }
   }

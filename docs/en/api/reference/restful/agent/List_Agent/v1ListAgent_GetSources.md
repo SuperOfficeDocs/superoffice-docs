@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Value": "necessitatibus",
-    "Tooltip": "delectus",
+    "Id": 900,
+    "Value": "dolorem",
+    "Tooltip": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldType": "System.String",
+        "FieldLength": 530
       }
     }
   },
   {
-    "Id": 457,
-    "Value": "necessitatibus",
-    "Tooltip": "delectus",
+    "Id": 900,
+    "Value": "dolorem",
+    "Tooltip": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldType": "System.String",
+        "FieldLength": 530
       }
     }
   }

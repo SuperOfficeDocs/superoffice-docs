@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 843
+  "TicketMessageEntityId": 131
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 378,
-    "Name": "Osinski, Yundt and O'Conner",
-    "ContentType": "non",
-    "AttSize": 933,
+    "AttachmentId": 457,
+    "Name": "Mante Inc and Sons",
+    "ContentType": "quis",
+    "AttSize": 438,
     "InlineImage": true,
-    "ContentId": "ea",
-    "AuthKey": "sed",
+    "ContentId": "et",
+    "AuthKey": "quod",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

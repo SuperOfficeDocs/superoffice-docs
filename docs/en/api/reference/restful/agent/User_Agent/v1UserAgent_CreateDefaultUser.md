@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 344,
-  "Name": "Tremblay Inc and Sons",
-  "Rank": 50,
-  "Tooltip": "distinctio",
+  "AssociateId": 627,
+  "Name": "Walker, Lang and Cruickshank",
+  "Rank": 476,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Carroll Inc and Sons",
-      "Description": "Configurable modular concept",
+      "Name": "Langosh Group",
+      "Description": "Ameliorated coherent instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 995
         }
       }
     },
     {
-      "Name": "Carroll Inc and Sons",
-      "Description": "Configurable modular concept",
+      "Name": "Langosh Group",
+      "Description": "Ameliorated coherent instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 995
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "id",
-      "Tooltip": "natus",
-      "Id": 634,
-      "Rank": 840,
+      "Value": "recusandae",
+      "Tooltip": "enim",
+      "Id": 595,
+      "Rank": 214,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 661
+          "FieldLength": 315
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1997-11-10T11:16:10.0073992+01:00",
-  "Lastlogout": "2005-05-21T11:16:10.0073992+02:00",
-  "EjUserId": 708,
-  "RequestSignature": "autem",
+  "Deleted": true,
+  "Lastlogin": "2001-03-16T12:57:35.2743471+01:00",
+  "Lastlogout": "1998-08-25T12:57:35.2743471+02:00",
+  "EjUserId": 902,
+  "RequestSignature": "incidunt",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ipsam",
-      "DisplayValue": "est",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 150
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "ipsam",
-      "DisplayValue": "est",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 150
-        }
-      }
-    }
-  ],
-  "UserName": "O'Keefe-Reilly",
-  "TicketCategories": [
-    {
-      "Id": 869,
-      "Name": "Doyle-Considine",
-      "ToolTip": "Cupiditate laborum.",
-      "Deleted": false,
-      "Rank": 682,
-      "Type": "voluptatem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "id",
-      "ColorBlock": 49,
-      "ExtraInfo": "cum",
-      "StyleHint": "molestiae",
-      "FullName": "Phyllis McDermott",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 284
-        }
-      }
-    }
-  ],
-  "NickName": "Huels, Kutch and Zemlak",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "vero"
-  },
-  "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "qui"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Klocko Group",
-      "DisplayName": "Langosh Inc and Sons",
-      "Description": "Stand-alone intermediate frame",
-      "ToolTip": "Nobis natus unde eum explicabo voluptatem voluptatem voluptas.",
-      "Actions": "Implicit",
-      "ActionData": "cupiditate",
+      "Value": "et",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldLength": 372
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "et",
+      "DisplayValue": "quas",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 372
+        }
+      }
+    }
+  ],
+  "UserName": "Hansen Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 547,
+      "Name": "Swaniawski-Gleichner",
+      "ToolTip": "Nemo expedita et quas non nemo consectetur impedit.",
+      "Deleted": false,
+      "Rank": 148,
+      "Type": "saepe",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "sint",
+      "ColorBlock": 555,
+      "ExtraInfo": "dicta",
+      "StyleHint": "sit",
+      "FullName": "Gloria Lang",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 274
+        }
+      }
+    }
+  ],
+  "NickName": "Glover-Zemlak",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "autem"
+  },
+  "CustomFields": {
+    "CustomFields1": "labore",
+    "CustomFields2": "officia"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Wisozk LLC",
+      "DisplayName": "Prosacco-Herzog",
+      "Description": "Focused clear-thinking capability",
+      "ToolTip": "Quod iusto minima sed quasi.",
+      "Actions": "Implicit",
+      "ActionData": "nesciunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 252
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

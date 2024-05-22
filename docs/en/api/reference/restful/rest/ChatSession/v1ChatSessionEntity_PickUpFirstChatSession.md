@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 278,
-  "TopicId": 764,
+  "ChatSessionId": 128,
+  "TopicId": 618,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "autem",
-  "CustomerName": "Zieme Inc and Sons",
-  "CustomerEmail": "josefa@gutkowski.ca",
-  "CustomerPhone": "821-883-7060",
+  "CustomerAlias": "et",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Satterfield Group",
+  "CustomerEmail": "amiya_hirthe@stokeslarson.com",
+  "CustomerPhone": "(834)437-5162 x725",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schuster LLC",
+  "CustomerCompanyName": "Glover-Lindgren",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "dolor",
-  "WhenRequested": "2018-03-24T11:16:13.7299968+01:00",
-  "WhenStarted": "2023-05-06T11:16:13.7299968+02:00",
-  "WhenEnded": "2018-08-22T11:16:13.7299968+02:00",
-  "WhenIdle": "2016-10-12T11:16:13.7299968+02:00",
-  "WhenFetched": "2000-06-17T11:16:13.7299968+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 837,
-  "AlertLevel": 529,
-  "Rank": 521,
+  "FirstMessage": "quae",
+  "LastMessage": "quam",
+  "WhenRequested": "2001-02-12T12:57:42.1514494+01:00",
+  "WhenStarted": "2004-04-06T12:57:42.1514494+02:00",
+  "WhenEnded": "1999-12-23T12:57:42.1514494+01:00",
+  "WhenIdle": "2013-04-13T12:57:42.1514494+02:00",
+  "WhenFetched": "2005-09-07T12:57:42.1514494+02:00",
+  "SessionKey": "laudantium",
+  "InitialQueuePos": 675,
+  "AlertLevel": 558,
+  "Rank": 793,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 158,
+  "ChatbotIsActive": true,
+  "Rating": 91,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

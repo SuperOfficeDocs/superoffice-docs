@@ -88,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 805,
-    "ColumnId": 310,
-    "FieldDefault": "nemo",
-    "FieldHeight": 967,
-    "FieldLabel": "minus",
-    "FieldLeft": 821,
-    "FieldTop": 680,
+    "UDefFieldId": 783,
+    "ColumnId": 688,
+    "FieldDefault": "quidem",
+    "FieldHeight": 771,
+    "FieldLabel": "omnis",
+    "FieldLeft": 799,
+    "FieldTop": 705,
     "FieldType": "Checkbox",
-    "FieldWidth": 194,
-    "FormatMask": "id",
+    "FieldWidth": 933,
+    "FormatMask": "ut",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 544,
-    "LabelLeft": 978,
-    "LabelTop": 900,
-    "LabelWidth": 941,
-    "LastVersionId": 398,
-    "ListTableId": 796,
-    "IsMandatory": true,
+    "LabelHeight": 705,
+    "LabelLeft": 498,
+    "LabelTop": 467,
+    "LabelWidth": 343,
+    "LastVersionId": 787,
+    "ListTableId": 105,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 350,
-    "ProgId": "tenetur",
-    "IsReadOnly": false,
-    "ShortLabel": "quibusdam",
-    "TabOrder": 723,
-    "TextLength": 115,
-    "Tooltip": "accusantium",
-    "UdefIdentity": 106,
-    "UDListDefinitionId": 345,
+    "Page1LineNo": 445,
+    "ProgId": "nobis",
+    "IsReadOnly": true,
+    "ShortLabel": "sint",
+    "TabOrder": 188,
+    "TextLength": 829,
+    "Tooltip": "fuga",
+    "UdefIdentity": 848,
+    "UDListDefinitionId": 214,
     "Justification": "Center",
-    "Version": 454,
-    "TemplateVariableName": "Gleichner Inc and Sons",
+    "Version": 628,
+    "TemplateVariableName": "Kovacek Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Swift-Ward",
+    "MdoListName": "Cassin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 559
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

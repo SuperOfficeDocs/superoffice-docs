@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 690
+  "ContactId": 280
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kessler, Yost and Kreiger",
-    "SaleDate": "2002-05-01T11:16:09.6846608+02:00",
-    "SaleId": 469,
-    "Probability": 486,
-    "Title": "nesciunt",
-    "Amount": 30641.118,
-    "Currency": "est",
-    "ProjectName": "Davis-Altenwerth",
-    "AssociateFullName": "Marley Harris",
-    "Description": "Centralized zero defect access",
+    "ContactName": "Kuphal, Hagenes and Waters",
+    "SaleDate": "2015-10-15T12:57:34.8688339+02:00",
+    "SaleId": 561,
+    "Probability": 774,
+    "Title": "fugiat",
+    "Amount": 12272.743999999999,
+    "Currency": "libero",
+    "ProjectName": "Lesch Inc and Sons",
+    "AssociateFullName": "Mr. Flossie Lillian Roberts V",
+    "Description": "Re-contextualized non-volatile archive",
     "Status": "Lost",
-    "WeightedAmount": 21436.559999999998,
-    "ProjectId": 960,
-    "EarningPercent": 30766.478,
-    "Earning": 26529.309999999998,
-    "ContactId": 421,
-    "AssociateId": 182,
-    "PersonId": 754,
-    "SaleTypeId": 916,
-    "SaleTypeName": "Hartmann, Koss and O'Kon",
-    "PersonFullName": "Brayan Borer",
+    "WeightedAmount": 2808.064,
+    "ProjectId": 439,
+    "EarningPercent": 13316.366,
+    "Earning": 12203.796,
+    "ContactId": 8,
+    "AssociateId": 907,
+    "PersonId": 274,
+    "SaleTypeId": 950,
+    "SaleTypeName": "Hansen-Ritchie",
+    "PersonFullName": "Nadia Muller DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 732,
-    "NextDueDate": "2018-12-24T11:16:09.6846608+01:00",
-    "Number": "1366325",
+    "ActiveErpLinks": 954,
+    "NextDueDate": "2022-10-12T12:57:34.8688339+02:00",
+    "Number": "793099",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

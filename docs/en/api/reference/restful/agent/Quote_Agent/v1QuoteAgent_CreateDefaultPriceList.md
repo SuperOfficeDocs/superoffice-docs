@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 358,
-  "ERPPriceListKey": "voluptatem",
-  "QuoteConnectionId": 164,
-  "Name": "Bednar Group",
-  "Description": "Fully-configurable system-worthy matrices",
-  "Currency": "quibusdam",
-  "CurrencyName": "Murphy Inc and Sons",
-  "ValidFrom": "1999-12-28T11:16:09.5848946+01:00",
-  "ValidTo": "2005-11-07T11:16:09.5848946+01:00",
+  "PriceListId": 777,
+  "ERPPriceListKey": "doloremque",
+  "QuoteConnectionId": 449,
+  "Name": "Mohr LLC",
+  "Description": "Right-sized web-enabled orchestration",
+  "Currency": "aut",
+  "CurrencyName": "Lubowitz, Nader and Vandervort",
+  "ValidFrom": "2024-04-29T12:57:34.7115695+02:00",
+  "ValidTo": "2000-10-03T12:57:34.7115695+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

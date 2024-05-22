@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=764
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=757
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 985,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 1001,
-  "Name": "Armstrong Group",
-  "Description": "Down-sized client-driven budgetary management",
-  "Currency": "amet",
-  "CurrencyName": "Konopelski Group",
-  "ValidFrom": "2000-12-07T11:16:09.6005114+01:00",
-  "ValidTo": "2017-08-14T11:16:09.6005114+02:00",
-  "IsActive": false,
+  "PriceListId": 856,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 50,
+  "Name": "Hoppe Inc and Sons",
+  "Description": "Distributed scalable help-desk",
+  "Currency": "qui",
+  "CurrencyName": "Boyer-Hoppe",
+  "ValidFrom": "2009-07-19T12:57:34.7115695+02:00",
+  "ValidTo": "2019-08-13T12:57:34.7115695+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   }
 }

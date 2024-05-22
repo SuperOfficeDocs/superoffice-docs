@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 649
+  "DefaultAlarmLeadTimeInMinutes": 833
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 491,
-      "StartTime": "2020-10-06T11:16:08.5220136+02:00",
-      "EndDate": "2005-09-14T11:16:08.5220136+02:00",
-      "AlarmTime": "1998-11-24T11:16:08.5220136+01:00",
-      "PersonId": 673,
-      "PersonFullName": "Colleen Deondre Harber III",
-      "ContactName": "Quigley, Franecki and Bosco",
-      "ProjectId": 613,
-      "ProjectName": "Durgan-Wisozk",
-      "AppointmentText": "non",
-      "SaleId": 606,
-      "SaleName": "Haley, McGlynn and Witting",
-      "Location": "doloremque",
+      "AppointmentId": 622,
+      "StartTime": "2010-06-08T12:57:32.7740533+02:00",
+      "EndDate": "1997-02-05T12:57:32.7740533+01:00",
+      "AlarmTime": "1997-06-15T12:57:32.7740533+02:00",
+      "PersonId": 576,
+      "PersonFullName": "Miss Alvah Veum",
+      "ContactName": "Keebler, Murray and Kuvalis",
+      "ProjectId": 818,
+      "ProjectName": "Bins-Walter",
+      "AppointmentText": "animi",
+      "SaleId": 314,
+      "SaleName": "Pfeffer, Feil and O'Kon",
+      "Location": "repellat",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 923,
+      "ContactId": 794,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Kessler, Schinner and McLaughlin",
-      "TaskName": "Buckridge-Klein",
+      "FormalName": "Nader-Hane",
+      "TaskName": "Daugherty-Rempel",
       "ContactDepartment": "",
-      "ContactFullName": "Edwina Mertz",
+      "ContactFullName": "Melisa Camron Padberg V",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 598
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     }
   ],
-  "PollingInterval": 804,
-  "SilentAfter": 79,
+  "PollingInterval": 250,
+  "SilentAfter": 714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

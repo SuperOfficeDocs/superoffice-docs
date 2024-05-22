@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bins-Yost",
-  "AdditionalInfo": "reiciendis",
-  "SearchValue": "est"
+  "Name": "Bins Group",
+  "AdditionalInfo": "excepturi",
+  "SearchValue": "expedita"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Pacocha, Ryan and Kulas",
-    "ToolTip": "Necessitatibus illum dolor.",
-    "Deleted": true,
-    "Rank": 945,
-    "Type": "eum",
+    "Id": 885,
+    "Name": "Harvey-Lynch",
+    "ToolTip": "Placeat et atque aspernatur quod error.",
+    "Deleted": false,
+    "Rank": 213,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 414,
-        "Name": "Murphy, Corkery and Harvey",
-        "ToolTip": "Totam perferendis aut aut.",
-        "Deleted": false,
-        "Rank": 621,
-        "Type": "quia",
+        "Id": 957,
+        "Name": "Hahn-Ebert",
+        "ToolTip": "Cum illo quia minus quo recusandae modi sit.",
+        "Deleted": true,
+        "Rank": 84,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laudantium",
-        "ColorBlock": 249,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "in",
-        "FullName": "Nichole Schiller II",
+        "IconHint": "numquam",
+        "ColorBlock": 2,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "delectus",
+        "FullName": "Randal Arne Wisozk IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 589
+            "FieldType": "System.Int32",
+            "FieldLength": 189
           }
         }
       }
     ],
-    "IconHint": "consectetur",
-    "ColorBlock": 812,
-    "ExtraInfo": "vel",
-    "StyleHint": "consectetur",
-    "FullName": "Emmie Gorczany",
+    "IconHint": "exercitationem",
+    "ColorBlock": 851,
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
+    "FullName": "Prof. Theresia Lavinia Kovacek II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldType": "System.Int32",
+        "FieldLength": 602
       }
     }
   }

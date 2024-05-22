@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gaylord Group",
-  "DeviceName": "Berge-Roob",
-  "DeviceIdentifier": "perferendis",
-  "KeyName": "Grady-Gleichner",
-  "TableName": "Schmeler-McGlynn",
-  "RecordId": 12
+  "ApplicationName": "Rolfson, Walter and Dicki",
+  "DeviceName": "Wyman, Marvin and Sanford",
+  "DeviceIdentifier": "minus",
+  "KeyName": "Crist Inc and Sons",
+  "TableName": "Smitham, Glover and Dicki",
+  "RecordId": 860
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "ducimus",
-  "RecordId": 43,
-  "CreatedDate": "2000-07-27T11:16:09.2878404+02:00",
-  "UpdatedDate": "2013-01-24T11:16:09.2878404+01:00",
-  "UpdatedBy": "cupiditate",
-  "CreatedBy": "quisquam",
-  "TableName": "Beahan Group",
+  "Key": "ipsum",
+  "Value": "veniam",
+  "RecordId": 479,
+  "CreatedDate": "2024-02-04T12:57:34.0554972+01:00",
+  "UpdatedDate": "2022-04-06T12:57:34.0554972+02:00",
+  "UpdatedBy": "hic",
+  "CreatedBy": "est",
+  "TableName": "Pacocha Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 506
     }
   }
 }

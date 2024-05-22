@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Conroy LLC",
-    "Tooltip": "iste",
+    "Id": 300,
+    "Name": "Herman-Becker",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 554
+    "UdListDefinitionId": 302,
+    "Rank": 790
   },
   {
-    "Id": 617,
-    "Name": "Conroy LLC",
-    "Tooltip": "iste",
+    "Id": 300,
+    "Name": "Herman-Becker",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 554
+    "UdListDefinitionId": 302,
+    "Rank": 790
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Paucek Group",
+    "Id": 529,
+    "Name": "Heathcote, Swift and Huels",
     "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 308,
-    "Rank": 761,
+    "UdListDefinitionId": 272,
+    "Rank": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldType": "System.String",
+        "FieldLength": 703
       }
     }
   }

@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 416,
-  "ColumnId": 941,
-  "FieldDefault": "at",
-  "FieldHeight": 120,
-  "FieldLabel": "quia",
-  "FieldLeft": 524,
-  "FieldTop": 156,
+  "UDefFieldId": 235,
+  "ColumnId": 282,
+  "FieldDefault": "quo",
+  "FieldHeight": 86,
+  "FieldLabel": "dolores",
+  "FieldLeft": 905,
+  "FieldTop": 602,
   "FieldType": "Checkbox",
-  "FieldWidth": 452,
-  "FormatMask": "et",
-  "HideLabel": true,
+  "FieldWidth": 751,
+  "FormatMask": "voluptate",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 1002,
-  "LabelLeft": 699,
-  "LabelTop": 385,
-  "LabelWidth": 207,
-  "LastVersionId": 513,
-  "ListTableId": 6,
-  "IsMandatory": false,
+  "LabelHeight": 541,
+  "LabelLeft": 367,
+  "LabelTop": 762,
+  "LabelWidth": 878,
+  "LastVersionId": 179,
+  "ListTableId": 65,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 535,
-  "ProgId": "ipsa",
-  "IsReadOnly": true,
-  "ShortLabel": "consectetur",
-  "TabOrder": 725,
-  "TextLength": 227,
-  "Tooltip": "recusandae",
-  "UdefIdentity": 247,
-  "UDListDefinitionId": 554,
+  "Page1LineNo": 734,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "nemo",
+  "TabOrder": 606,
+  "TextLength": 492,
+  "Tooltip": "beatae",
+  "UdefIdentity": 445,
+  "UDListDefinitionId": 511,
   "Justification": "Center",
-  "Version": 70,
-  "TemplateVariableName": "Moore, Welch and Jacobi",
-  "HasBeenPublished": true,
-  "MdoListName": "Breitenberg LLC",
+  "Version": 787,
+  "TemplateVariableName": "Krajcik Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Bergstrom-Paucek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

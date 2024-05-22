@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "Romaguera, Kunze and Gleason",
-    "Tooltip": "ratione",
+    "HeadingId": 883,
+    "Name": "Boehm-Beer",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 182,
-    "UdListDefinitionId": 668,
+    "Rank": 62,
+    "UdListDefinitionId": 153,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldLength": 678
       }
     }
   }

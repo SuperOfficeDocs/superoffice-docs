@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 195,
-  "Name": "Spencer, Jakubowski and Murray",
-  "Tooltip": "quia",
+  "RoleId": 423,
+  "Name": "Sanford-Williamson",
+  "Tooltip": "similique",
   "RoleType": "Anonymous",
-  "Deleted": 494,
-  "Rank": 379,
-  "Created": "2017-04-26T11:16:14.1363143+02:00",
-  "UseCategories": 127,
+  "Deleted": 995,
+  "Rank": 560,
+  "Created": "2002-05-20T12:57:42.6513343+02:00",
+  "UseCategories": 723,
   "CreatedBy": null,
-  "Updated": "2004-11-09T11:16:14.1363143+01:00",
+  "Updated": "1997-02-11T12:57:42.6513343+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldLength": 131
     }
   },
   "_Links": {

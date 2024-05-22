@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Luettgen LLC",
-    "ToolTip": "Expedita necessitatibus quia laudantium molestiae delectus.",
-    "Deleted": true,
-    "Rank": 449,
-    "Type": "dolor",
-    "ColorBlock": 60,
-    "IconHint": "magnam",
+    "Id": 525,
+    "Name": "O'Kon LLC",
+    "ToolTip": "Et velit amet ex repellendus ab.",
+    "Deleted": false,
+    "Rank": 27,
+    "Type": "minus",
+    "ColorBlock": 337,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2002-07-27T11:16:14.465178+02:00",
+    "LastChanged": "2003-07-17T12:57:43.2927185+02:00",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Tremblay, Zulauf and McLaughlin",
-        "ToolTip": "Repellat excepturi numquam facilis.",
-        "Deleted": true,
-        "Rank": 158,
-        "Type": "qui",
-        "ColorBlock": 931,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2010-04-07T11:16:14.465178+02:00",
+        "Id": 789,
+        "Name": "Kerluke, Goyette and Hayes",
+        "ToolTip": "Iure iste beatae ipsa sunt.",
+        "Deleted": false,
+        "Rank": 490,
+        "Type": "explicabo",
+        "ColorBlock": 23,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2008-11-24T12:57:43.2927185+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Joaquin Funk",
+        "ExtraInfo": "sunt",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Miguel Kerluke MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 698
+            "FieldType": "System.Int32",
+            "FieldLength": 168
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "quas",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Glennie Clotilde Hagenes II",
+    "FullName": "Ellsworth Valentina Hermann Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 184
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

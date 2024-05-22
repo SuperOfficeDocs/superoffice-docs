@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Name": "Strosin LLC",
-    "ToolTip": "Magnam aut est quis quis rerum in et.",
-    "Deleted": false,
-    "Rank": 484,
-    "Type": "asperiores",
-    "ColorBlock": 698,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2000-06-07T11:16:14.1363143+02:00",
+    "Id": 159,
+    "Name": "Kunze-Purdy",
+    "ToolTip": "Eveniet aspernatur molestias.",
+    "Deleted": true,
+    "Rank": 440,
+    "Type": "aspernatur",
+    "ColorBlock": 219,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2011-02-28T12:57:42.6669559+01:00",
     "ChildItems": [
       {
-        "Id": 878,
-        "Name": "Grimes-Volkman",
-        "ToolTip": "Libero atque dolore voluptate consequatur excepturi.",
-        "Deleted": false,
-        "Rank": 971,
-        "Type": "dolorem",
-        "ColorBlock": 848,
-        "IconHint": "assumenda",
+        "Id": 382,
+        "Name": "Dach-Gleichner",
+        "ToolTip": "Est et praesentium velit.",
+        "Deleted": true,
+        "Rank": 687,
+        "Type": "asperiores",
+        "ColorBlock": 662,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2019-10-11T11:16:14.1363143+02:00",
+        "LastChanged": "1998-01-08T12:57:42.6669559+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
+        "ExtraInfo": "sapiente",
         "StyleHint": "quis",
         "Hidden": true,
-        "FullName": "Melvin Graham",
+        "FullName": "Karen Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldLength": 107
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Dr. Sadye Janis Rippin III",
+    "ExtraInfo": "quo",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Cassandra Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 359
       }
     }
   }

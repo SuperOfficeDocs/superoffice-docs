@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Moen-Fisher",
-    "ToolTip": "Error corrupti porro et et vel placeat velit.",
+    "Id": 952,
+    "Name": "Ruecker-Schmidt",
+    "ToolTip": "Maxime aliquid mollitia itaque suscipit.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "aliquam",
-    "ColorBlock": 183,
-    "IconHint": "dolores",
+    "Rank": 744,
+    "Type": "fuga",
+    "ColorBlock": 600,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2009-06-16T11:16:14.7307772+02:00",
+    "LastChanged": "2009-04-18T12:57:43.7457393+02:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Lynch-Volkman",
-        "ToolTip": "Et rerum et.",
+        "Id": 786,
+        "Name": "Torphy Group",
+        "ToolTip": "Enim non itaque qui.",
         "Deleted": true,
-        "Rank": 558,
-        "Type": "voluptates",
-        "ColorBlock": 972,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "2017-02-26T11:16:14.7307772+01:00",
+        "Rank": 504,
+        "Type": "sit",
+        "ColorBlock": 708,
+        "IconHint": "praesentium",
+        "Selected": false,
+        "LastChanged": "1999-03-04T12:57:43.7457393+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "dolor",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "expedita",
         "Hidden": true,
-        "FullName": "Cristian Lindgren",
+        "FullName": "Ms. Rhiannon O'Reilly PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "non",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Dr. Breana Theo Altenwerth PhD",
+    "FullName": "Prof. Viola Emely Kilback Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

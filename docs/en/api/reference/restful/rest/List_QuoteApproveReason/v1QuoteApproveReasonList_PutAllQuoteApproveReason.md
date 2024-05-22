@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Monahan Inc and Sons",
-    "Tooltip": "laborum",
+    "Id": 800,
+    "Name": "Crona-Hauck",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "UdListDefinitionId": 113,
-    "Rank": 578
+    "UdListDefinitionId": 329,
+    "Rank": 906
   },
   {
-    "Id": 487,
-    "Name": "Monahan Inc and Sons",
-    "Tooltip": "laborum",
+    "Id": 800,
+    "Name": "Crona-Hauck",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "UdListDefinitionId": 113,
-    "Rank": 578
+    "UdListDefinitionId": 329,
+    "Rank": 906
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Towne, Cassin and Kihn",
-    "Tooltip": "qui",
+    "Id": 152,
+    "Name": "Yost-Wisozk",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 649,
-    "Rank": 713,
+    "UdListDefinitionId": 723,
+    "Rank": 941,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 370
       }
     }
   }

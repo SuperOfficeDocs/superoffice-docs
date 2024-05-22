@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 357
+  "UserGroupId": 683
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 849,
-    "ColumnId": 184,
-    "FieldDefault": "optio",
-    "FieldHeight": 761,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 705,
-    "FieldTop": 218,
+    "UDefFieldId": 975,
+    "ColumnId": 290,
+    "FieldDefault": "alias",
+    "FieldHeight": 585,
+    "FieldLabel": "similique",
+    "FieldLeft": 56,
+    "FieldTop": 536,
     "FieldType": "Checkbox",
-    "FieldWidth": 732,
-    "FormatMask": "esse",
+    "FieldWidth": 16,
+    "FormatMask": "praesentium",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 817,
-    "LabelLeft": 783,
-    "LabelTop": 585,
-    "LabelWidth": 46,
-    "LastVersionId": 41,
-    "ListTableId": 511,
-    "IsMandatory": true,
+    "LabelHeight": 469,
+    "LabelLeft": 371,
+    "LabelTop": 313,
+    "LabelWidth": 36,
+    "LastVersionId": 283,
+    "ListTableId": 604,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 60,
-    "ProgId": "eveniet",
+    "Page1LineNo": 859,
+    "ProgId": "labore",
     "IsReadOnly": false,
-    "ShortLabel": "atque",
-    "TabOrder": 463,
-    "TextLength": 970,
-    "Tooltip": "velit",
-    "UdefIdentity": 128,
-    "UDListDefinitionId": 464,
+    "ShortLabel": "commodi",
+    "TabOrder": 936,
+    "TextLength": 116,
+    "Tooltip": "ullam",
+    "UdefIdentity": 315,
+    "UDListDefinitionId": 902,
     "Justification": "Center",
-    "Version": 570,
-    "TemplateVariableName": "Maggio-Trantow",
-    "HasBeenPublished": false,
-    "MdoListName": "Bergstrom, Kautzer and Casper",
+    "Version": 803,
+    "TemplateVariableName": "Hegmann, Gusikowski and Lubowitz",
+    "HasBeenPublished": true,
+    "MdoListName": "Aufderhar LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldType": "System.String",
+        "FieldLength": 613
       }
     }
   }

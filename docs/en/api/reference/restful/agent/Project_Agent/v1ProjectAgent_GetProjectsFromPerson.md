@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 880
+  "PersonId": 738
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 547,
-    "Name": "Mayert, Marvin and Rohan",
-    "Description": "Progressive object-oriented matrix",
+    "ProjectId": 690,
+    "Name": "Goyette, Sporer and Hahn",
+    "Description": "Open-source foreground success",
     "URL": "http://www.example.com/",
-    "Type": "fugit",
-    "AssociateId": 681,
-    "AssociateFullName": "Jeanette Swift II",
-    "TypeId": 497,
-    "Updated": "2018-09-07T11:16:09.569228+02:00",
-    "StatusId": 46,
-    "Status": "velit",
-    "TextId": 352,
-    "PublishTo": "2011-04-23T11:16:09.569228+02:00",
-    "PublishFrom": "2006-07-31T11:16:09.569228+02:00",
-    "IsPublished": false,
+    "Type": "aut",
+    "AssociateId": 25,
+    "AssociateFullName": "Mrs. Otha Deckow III",
+    "TypeId": 447,
+    "Updated": "2018-10-23T12:57:34.664705+02:00",
+    "StatusId": 974,
+    "Status": "sed",
+    "TextId": 655,
+    "PublishTo": "2019-09-14T12:57:34.664705+02:00",
+    "PublishFrom": "2010-03-17T12:57:34.664705+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1735880",
-    "ActiveErpLinks": 611,
+    "ProjectNumber": "650762",
+    "ActiveErpLinks": 368,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldLength": 304
       }
     }
   }

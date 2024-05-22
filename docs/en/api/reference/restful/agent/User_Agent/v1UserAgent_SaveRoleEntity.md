@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 393,
-  "Name": "Terry LLC",
-  "Tooltip": "accusamus",
+  "RoleId": 936,
+  "Name": "Ryan LLC",
+  "Tooltip": "soluta",
   "RoleType": "Anonymous",
-  "Deleted": 248,
-  "Rank": 971,
-  "Created": "1997-07-26T11:16:10.0073992+02:00",
-  "UseCategories": 450,
+  "Deleted": 252,
+  "Rank": 903,
+  "Created": "2001-07-12T12:57:35.2743471+02:00",
+  "UseCategories": 168,
   "CreatedBy": null,
-  "Updated": "2010-04-16T11:16:10.0073992+02:00",
+  "Updated": "2022-08-07T12:57:35.2743471+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 900,
-  "Name": "Legros Group",
-  "Tooltip": "quia",
+  "RoleId": 686,
+  "Name": "Quigley-Frami",
+  "Tooltip": "iure",
   "RoleType": "Anonymous",
-  "Deleted": 560,
-  "Rank": 932,
-  "Created": "2014-01-06T11:16:10.0073992+01:00",
-  "UseCategories": 17,
+  "Deleted": 218,
+  "Rank": 828,
+  "Created": "2009-04-08T12:57:35.2743471+02:00",
+  "UseCategories": 142,
   "CreatedBy": null,
-  "Updated": "2015-08-27T11:16:10.0073992+02:00",
+  "Updated": "2002-06-05T12:57:35.2743471+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 674
     }
   }
 }

@@ -91,11 +91,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 77,
-  "NewName": "Deckow LLC",
-  "ValidFrom": "2022-05-31T11:16:09.6005114+02:00",
-  "ValidTo": "2004-06-19T11:16:09.6005114+02:00",
-  "NewCurrencyId": 294,
+  "OriginalPriceListId": 47,
+  "NewName": "Lockman, Marquardt and Bruen",
+  "ValidFrom": "2021-02-18T12:57:34.7115695+01:00",
+  "ValidTo": "2001-08-19T12:57:34.7115695+02:00",
+  "NewCurrencyId": 175,
   "ConvertCurrency": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 590,
-  "ERPPriceListKey": "aperiam",
-  "QuoteConnectionId": 890,
-  "Name": "Altenwerth-Lind",
-  "Description": "Fundamental transitional frame",
-  "Currency": "soluta",
-  "CurrencyName": "Littel-Mertz",
-  "ValidFrom": "2006-12-27T11:16:09.6005114+01:00",
-  "ValidTo": "2019-02-11T11:16:09.6005114+01:00",
+  "PriceListId": 909,
+  "ERPPriceListKey": "illum",
+  "QuoteConnectionId": 444,
+  "Name": "Wilderman, Lindgren and Gerlach",
+  "Description": "Face to face systematic standardization",
+  "Currency": "sit",
+  "CurrencyName": "Glover, McDermott and Marvin",
+  "ValidFrom": "2012-12-08T12:57:34.7115695+01:00",
+  "ValidTo": "2019-09-06T12:57:34.7115695+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

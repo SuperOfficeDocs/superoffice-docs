@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Heaney LLC",
-    "ToolTip": "Animi reprehenderit necessitatibus sed provident beatae dolores.",
-    "Deleted": false,
-    "Rank": 916,
-    "Type": "quae",
-    "ColorBlock": 29,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2012-01-17T11:16:14.5432954+01:00",
+    "Id": 992,
+    "Name": "Simonis, Ledner and O'Keefe",
+    "ToolTip": "Sint consequatur sunt dolor optio rerum consequatur.",
+    "Deleted": true,
+    "Rank": 493,
+    "Type": "eos",
+    "ColorBlock": 957,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2002-07-25T12:57:43.4333137+02:00",
     "ChildItems": [
       {
-        "Id": 214,
-        "Name": "Deckow, Block and Wyman",
-        "ToolTip": "Placeat eveniet aut.",
-        "Deleted": true,
-        "Rank": 822,
-        "Type": "nihil",
-        "ColorBlock": 259,
-        "IconHint": "architecto",
+        "Id": 412,
+        "Name": "Anderson, Koepp and Parker",
+        "ToolTip": "Sit neque totam.",
+        "Deleted": false,
+        "Rank": 177,
+        "Type": "error",
+        "ColorBlock": 484,
+        "IconHint": "facere",
         "Selected": true,
-        "LastChanged": "2001-08-15T11:16:14.5432954+02:00",
+        "LastChanged": "2003-10-05T12:57:43.4333137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "unde",
-        "Hidden": true,
-        "FullName": "Delilah Ally Marks MD",
+        "ExtraInfo": "dolore",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Brionna Davis II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 707
+            "FieldType": "System.String",
+            "FieldLength": 451
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "expedita",
+    "ExtraInfo": "minus",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Nedra Davis",
+    "FullName": "Tressie Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 444
       }
     }
   }

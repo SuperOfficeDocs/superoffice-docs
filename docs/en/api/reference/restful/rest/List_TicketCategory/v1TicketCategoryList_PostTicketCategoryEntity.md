@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 1001,
-  "ParentId": 30,
-  "Name": "Kiehn LLC",
-  "Fullname": "consequatur",
-  "CategoryMaster": 104,
+  "TicketCategoryId": 483,
+  "ParentId": 387,
+  "Name": "Huel-Mitchell",
+  "Fullname": "quis",
+  "CategoryMaster": 664,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Shields Group",
+  "ExternalName": "McLaughlin-Kuphal",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 774,
-  "ReplyTemplate": 63,
-  "NotificationEmail": "eldora_ohara@oreillyfeeney.ca",
+  "AssignmentLag": 142,
+  "ReplyTemplate": 383,
+  "NotificationEmail": "alene@champlin.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 782,
+  "EffectiveReplyTemplateId": 228,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "a"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "enim",
+    "CustomFields2": "vitae"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 869,
-  "ParentId": 930,
-  "Name": "Frami, Berge and Sawayn",
-  "Fullname": "nobis",
-  "CategoryMaster": 664,
+  "TicketCategoryId": 852,
+  "ParentId": 234,
+  "Name": "Hirthe, Tillman and Dicki",
+  "Fullname": "consequuntur",
+  "CategoryMaster": 184,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hand Inc and Sons",
+  "ExternalName": "Funk-Osinski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 305,
-  "ReplyTemplate": 103,
-  "NotificationEmail": "chase.kuhlman@murazikfranecki.info",
+  "AssignmentLag": 441,
+  "ReplyTemplate": 607,
+  "NotificationEmail": "santos@koepp.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 665,
+  "EffectiveReplyTemplateId": 309,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "id"
+    "CustomFields1": "delectus",
+    "CustomFields2": "veniam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 530
     }
   }
 }

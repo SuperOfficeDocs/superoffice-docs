@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Koepp-Hessel",
-  "Tooltip": "nemo",
-  "Deleted": false,
-  "Rank": 30,
+  "Id": 331,
+  "Name": "McClure LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 322,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
+  "ListType": "repellendus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 437
     }
   },
   "_Links": {

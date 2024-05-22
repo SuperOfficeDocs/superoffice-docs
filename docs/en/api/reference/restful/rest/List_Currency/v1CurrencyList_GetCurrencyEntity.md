@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 313,
-  "Name": "West, Gleason and Rodriguez",
-  "Tooltip": "fuga",
-  "Rank": 325,
-  "Rate": 231.916,
-  "Units": 3086.99,
-  "Deleted": false,
+  "CurrencyId": 397,
+  "Name": "Hagenes Group",
+  "Tooltip": "autem",
+  "Rank": 416,
+  "Rate": 4083.602,
+  "Units": 3970.778,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 81
     }
   }
 }

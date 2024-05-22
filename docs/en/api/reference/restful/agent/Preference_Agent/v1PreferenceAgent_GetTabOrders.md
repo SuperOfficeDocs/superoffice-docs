@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 619,
-    "TabName": "Bogisich-Pollich",
-    "Order": "ab",
-    "AssociateId": 548,
+    "TabOrderId": 103,
+    "TabName": "Flatley LLC",
+    "Order": "nihil",
+    "AssociateId": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldType": "System.Int32",
+        "FieldLength": 42
       }
     }
   },
   {
-    "TabOrderId": 619,
-    "TabName": "Bogisich-Pollich",
-    "Order": "ab",
-    "AssociateId": 548,
+    "TabOrderId": 103,
+    "TabName": "Flatley LLC",
+    "Order": "nihil",
+    "AssociateId": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldType": "System.Int32",
+        "FieldLength": 42
       }
     }
   }

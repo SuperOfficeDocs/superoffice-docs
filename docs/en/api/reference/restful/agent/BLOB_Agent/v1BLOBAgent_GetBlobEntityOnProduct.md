@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 717
+  "ProductId": 211
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 971,
-  "BlobSize": 39,
-  "Description": "Universal 3rd generation product",
-  "ExtraInfo": "expedita",
-  "IsEncrypted": false,
+  "BlobId": 1000,
+  "BlobSize": 916,
+  "Description": "Synchronised value-added standardization",
+  "ExtraInfo": "minima",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "nulla",
-  "OriginalSize": 787,
-  "CreatedDate": "2016-07-09T11:16:08.7566429+02:00",
-  "UpdatedDate": "2004-07-13T11:16:08.7566429+02:00",
+  "MimeType": "voluptatem",
+  "OriginalSize": 847,
+  "CreatedDate": "1997-08-16T12:57:33.2900193+02:00",
+  "UpdatedDate": "2015-05-05T12:57:33.2900193+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 903
     }
   }
 }

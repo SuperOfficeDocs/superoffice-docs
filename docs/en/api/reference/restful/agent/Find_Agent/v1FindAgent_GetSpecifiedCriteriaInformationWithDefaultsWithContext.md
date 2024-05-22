@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Gerlach Group",
-  "StorageKey": "cumque",
+  "StorageType": "beatae",
+  "ProviderName": "Becker, Franecki and Jenkins",
+  "StorageKey": "in",
   "DesiredColumnNames": [
-    "Morar, Funk and Bartell",
-    "Nicolas, White and Oberbrunner"
+    "Lang Group",
+    "Wyman, Medhurst and O'Reilly"
   ],
   "StaticColumns": [
-    "nobis",
-    "ab"
+    "culpa",
+    "et"
   ],
-  "Context": "libero"
+  "Context": "sint"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dicki-Raynor",
-      "Operator": "perferendis",
+      "Name": "Jaskolski-Veum",
+      "Operator": "ab",
       "Values": [
-        "consequuntur",
-        "sit"
+        "vero",
+        "architecto"
       ],
       "DisplayValues": [
-        "nam",
-        "sit"
+        "at",
+        "voluptatum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 566,
+      "InterParenthesis": 330,
       "InterOperator": "And",
-      "UniqueHash": 52
+      "UniqueHash": 236
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stamm LLC",
-      "DisplayTooltip": "non",
-      "DisplayType": "neque",
+      "DisplayName": "O'Connell, Bogisich and Lakin",
+      "DisplayTooltip": "exercitationem",
+      "DisplayType": "autem",
       "CanOrderBy": false,
-      "Name": "Stoltenberg, Hahn and Mohr",
+      "Name": "Dicki Group",
       "CanRestrictBy": false,
-      "RestrictionType": "architecto",
-      "RestrictionListName": "Pfeffer, Gibson and Kuhic",
-      "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "quibusdam",
-      "IconHint": "sequi",
-      "HeadingIconHint": "inventore"
+      "RestrictionType": "qui",
+      "RestrictionListName": "Moen Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "qui",
+      "Width": "illo",
+      "IconHint": "ut",
+      "HeadingIconHint": "expedita"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Schneider-Kilback",
-      "PrimaryKey": 153,
+      "EntityName": "Bode, Ebert and Waelchi",
+      "PrimaryKey": 910,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "optio",
-          "TooltipHint": "iste",
-          "LinkHint": "voluptas"
+          "DisplayValue": "dicta",
+          "TooltipHint": "accusamus",
+          "LinkHint": "dolorem"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "nobis",
+      "LinkHint": "autem",
+      "StyleHint": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 375
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Walter, Smith and Wolf",
-      "Description": "Realigned even-keeled attitude",
-      "Rank": 635,
+      "Name": "Beahan, Schultz and Hilll",
+      "Description": "Customizable local software",
+      "Rank": 557,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walter, Smith and Wolf",
-      "Description": "Realigned even-keeled attitude",
-      "Rank": 635,
+      "Name": "Beahan, Schultz and Hilll",
+      "Description": "Customizable local software",
+      "Rank": 557,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldLength": 971
     }
   }
 }

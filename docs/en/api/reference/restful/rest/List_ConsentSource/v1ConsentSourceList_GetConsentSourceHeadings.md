@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 45,
-    "Name": "Gibson-Gleason",
-    "Tooltip": "sequi",
+    "HeadingId": 553,
+    "Name": "Runolfsdottir-Marquardt",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 586,
-    "UdListDefinitionId": 729,
+    "Rank": 914,
+    "UdListDefinitionId": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 73
       }
     }
   }

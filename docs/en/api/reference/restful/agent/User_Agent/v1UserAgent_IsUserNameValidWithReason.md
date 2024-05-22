@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 140,
+  "AssociateId": 878,
   "Type": "AnonymousAssociate",
-  "PersonId": 208,
-  "UserName": "Cronin-Harvey"
+  "PersonId": 106,
+  "UserName": "Feeney, Mueller and Koch"
 }
 ```
 
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 167
     }
   }
 }

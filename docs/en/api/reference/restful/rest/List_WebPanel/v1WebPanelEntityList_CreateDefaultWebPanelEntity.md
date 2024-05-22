@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 559,
-  "Name": "Kozey-Crooks",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "Rank": 294,
+  "WebPanelId": 984,
+  "Name": "Larkin LLC",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "Rank": 693,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Bashirian, Olson and Von",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Sipes-Huels",
   "Url": "http://www.example.com/",
-  "ProgId": "aut",
-  "Icon": 156,
+  "ProgId": "explicabo",
+  "Icon": 502,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

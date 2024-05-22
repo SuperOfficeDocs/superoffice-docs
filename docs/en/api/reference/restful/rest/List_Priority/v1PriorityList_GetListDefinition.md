@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 273,
-  "Name": "Hane, Kling and Schimmel",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "Rank": 420,
+  "Id": 940,
+  "Name": "Torp, Nolan and Hagenes",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "Rank": 11,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldLength": 646
     }
   },
   "_Links": {

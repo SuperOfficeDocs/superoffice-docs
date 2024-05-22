@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 708,
-  "Name": "Wilderman Group",
-  "Tooltip": "modi",
+  "ExtAppId": 391,
+  "Name": "Schneider, Nikolaus and Rolfson",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 46,
-  "Filename": "placeat",
-  "Parameters": "modi",
-  "Workdir": "et",
+  "Rank": 906,
+  "Filename": "quod",
+  "Parameters": "excepturi",
+  "Workdir": "qui",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 5,
-  "WaitToFinish": false,
+  "Icon": 476,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "culpa"
+  "Path": "qui"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 662,
-  "Name": "Koss-Runolfsdottir",
-  "Tooltip": "laboriosam",
+  "ExtAppId": 328,
+  "Name": "Adams-McKenzie",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 103,
-  "Filename": "aut",
-  "Parameters": "dolores",
-  "Workdir": "quis",
+  "Rank": 254,
+  "Filename": "maiores",
+  "Parameters": "aut",
+  "Workdir": "deleniti",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 313,
+  "ShowInStatusBar": true,
+  "Icon": 552,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut",
+  "Path": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 474
     }
   }
 }

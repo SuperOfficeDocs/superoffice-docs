@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=tempore
+GET /api/v1/List/ProductFamily/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Lehner LLC",
-    "ToolTip": "Et adipisci doloremque consequatur.",
-    "Deleted": true,
-    "Rank": 342,
-    "Type": "libero",
+    "Id": 829,
+    "Name": "Davis-Bartoletti",
+    "ToolTip": "Voluptates enim doloremque rerum.",
+    "Deleted": false,
+    "Rank": 607,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Gerhold Group",
-        "ToolTip": "Sint alias sed alias nisi.",
+        "Id": 905,
+        "Name": "Runolfsdottir Inc and Sons",
+        "ToolTip": "Porro asperiores et totam alias.",
         "Deleted": false,
-        "Rank": 269,
-        "Type": "animi",
+        "Rank": 461,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 18,
-        "ExtraInfo": "qui",
-        "StyleHint": "omnis",
-        "FullName": "Bud Mann",
+        "IconHint": "adipisci",
+        "ColorBlock": 945,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "illum",
+        "FullName": "Lelah Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 592
+            "FieldType": "System.Int32",
+            "FieldLength": 910
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 920,
-    "ExtraInfo": "eum",
-    "StyleHint": "nam",
-    "FullName": "Lilly Koch",
+    "IconHint": "assumenda",
+    "ColorBlock": 194,
+    "ExtraInfo": "repellat",
+    "StyleHint": "quasi",
+    "FullName": "Kellen Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 789
+        "FieldType": "System.Int32",
+        "FieldLength": 875
       }
     }
   }

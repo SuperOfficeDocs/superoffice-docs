@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 591,
-  "Rank": 48,
-  "DefaultTask": 101,
-  "DefaultTaskText": "et",
+  "OwnerTable": 36,
+  "Rank": 720,
+  "DefaultTask": 294,
+  "DefaultTaskText": "qui",
   "IsVisual": false,
-  "LastGenerated": "2011-03-27T11:16:09.6473837+02:00",
-  "Description": "Innovative 24/7 contingency",
-  "Name": "Welch Group",
-  "StatusMonitorId": 176,
-  "PictureId": 172,
-  "NeedsUpdate": true,
+  "LastGenerated": "2006-08-01T12:57:34.7896763+02:00",
+  "Description": "Realigned scalable flexibility",
+  "Name": "O'Reilly-Hintz",
+  "StatusMonitorId": 606,
+  "PictureId": 566,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 195,
-  "NumNeedUpdate": 407,
-  "GenerationStart": "1999-10-22T11:16:09.6473837+02:00",
+  "NumMatches": 229,
+  "NumNeedUpdate": 334,
+  "GenerationStart": "2023-07-03T12:57:34.7896763+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldLength": 674
     }
   }
 }

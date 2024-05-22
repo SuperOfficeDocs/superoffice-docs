@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "autem"
+  "Section": "velit"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 28,
-    "Section": "dolor",
-    "Key": "dolore",
-    "Name": "Legros Group",
+    "PrefDescId": 118,
+    "Section": "id",
+    "Key": "occaecati",
+    "Name": "Blanda-Dach",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Proactive user-facing firmware",
-    "IsBuiltin": false,
-    "TableName": "Blick, Weissnat and Hodkiewicz",
-    "UserDefinedListId": 786,
-    "Rank": 350,
-    "SubGroup": "blanditiis",
-    "MinLevel": 439,
-    "MaxValue": 90,
-    "MinValue": 192,
-    "RequiredLicense": "molestiae",
+    "Description": "Cross-platform interactive function",
+    "IsBuiltin": true,
+    "TableName": "Ryan-Jewess",
+    "UserDefinedListId": 220,
+    "Rank": 432,
+    "SubGroup": "distinctio",
+    "MinLevel": 291,
+    "MaxValue": 807,
+    "MinValue": 238,
+    "RequiredLicense": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 45
       }
     }
   }

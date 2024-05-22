@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 729,
-    "Name": "Wunsch LLC",
-    "OrgNr": "1588677",
+    "ContactId": 981,
+    "Name": "Olson, Rau and Pfannerstill",
+    "OrgNr": "1656430",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "accusamus",
-    "DirectPhone": "1-187-360-7979",
-    "AssociateId": 438,
-    "CountryId": 132,
-    "EmailAddress": "rita_renner@kertzmann.biz",
-    "Kananame": "laboriosam",
-    "EmailAddressName": "rachel.hilll@glover.name",
+    "City": "rerum",
+    "DirectPhone": "683-447-4632 x0629",
+    "AssociateId": 995,
+    "CountryId": 493,
+    "EmailAddress": "delores_emmerich@pfannerstillgutkowski.co.uk",
+    "Kananame": "voluptas",
+    "EmailAddressName": "rubie@hackett.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Meaghan Bogan I",
+    "AssociateFullName": "Ms. Hayley Sheila Renner",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "esse",
-    "FullName": "Kasey Walsh",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 780,
-    "Number1": "1739682",
-    "Number2": "511499",
+    "FormattedAddress": "in",
+    "FullName": "Braxton Davis",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 68,
+    "Number1": "1235596",
+    "Number2": "103841",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 365
       }
     }
   }

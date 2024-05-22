@@ -96,6 +96,7 @@ Sale histories. Contains all changes to the sale records over time.
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
+|associate/isLocation|bool|Is a location: Is a location| x |
 |person/personId|int|DB ID: Displays the database ID of a contact| x |
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
@@ -120,11 +121,11 @@ Sale histories. Contains all changes to the sale records over time.
 |person/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
 |person/birthYear|int|Birth year: Displays contact's birth year| x |
 |person/birthMonth|int|Birth month: Displays contact's birth month| x |
-|person/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
@@ -147,6 +148,9 @@ Sale histories. Contains all changes to the sale records over time.
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/createdByForm|listAny|Created by form: Created by form| x |
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
@@ -203,7 +207,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=lossReason,associate/ejUserId,associate/role
+GET /api/v1/archive/SaleHistory?$select=updatedBy,associate/simultaneousEjUser,project/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

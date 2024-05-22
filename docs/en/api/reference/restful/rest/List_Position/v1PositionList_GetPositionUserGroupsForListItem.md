@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Hermiston, Quitzon and Simonis",
-    "ToolTip": "Non exercitationem animi dolorem eos id dolor.",
+    "Id": 136,
+    "Name": "Nicolas, Bernhard and Stanton",
+    "ToolTip": "Dolorum fugiat debitis velit sit.",
     "Deleted": false,
-    "Rank": 893,
-    "Type": "cum",
-    "ColorBlock": 538,
-    "IconHint": "vel",
+    "Rank": 578,
+    "Type": "alias",
+    "ColorBlock": 793,
+    "IconHint": "quibusdam",
     "Selected": true,
-    "LastChanged": "2007-02-22T11:16:14.6214085+01:00",
+    "LastChanged": "2016-11-09T12:57:43.5426609+01:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "White, Crona and Kerluke",
-        "ToolTip": "Magnam autem molestiae enim qui aliquid.",
-        "Deleted": true,
-        "Rank": 639,
-        "Type": "ipsa",
-        "ColorBlock": 265,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "1999-05-21T11:16:14.6214085+02:00",
+        "Id": 718,
+        "Name": "Lockman LLC",
+        "ToolTip": "Aliquam totam.",
+        "Deleted": false,
+        "Rank": 836,
+        "Type": "velit",
+        "ColorBlock": 437,
+        "IconHint": "blanditiis",
+        "Selected": false,
+        "LastChanged": "2017-06-29T12:57:43.5426609+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
+        "ExtraInfo": "quam",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Prof. Brandy Erdman",
+        "FullName": "Javonte Edmond Bartell IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 796
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "qui",
+    "ExtraInfo": "atque",
+    "StyleHint": "aperiam",
     "Hidden": false,
-    "FullName": "Alexandrea Windler Jr.",
+    "FullName": "Prof. Lydia Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 974
       }
     }
   }

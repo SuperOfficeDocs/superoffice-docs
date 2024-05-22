@@ -80,22 +80,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    864,
-    704
+    279,
+    1002
   ],
   "To": [
-    "et",
-    "occaecati"
+    "inventore",
+    "dolore"
   ],
   "Cc": [
-    "aut",
-    "et"
+    "quaerat",
+    "at"
   ],
   "Bcc": [
-    "sit",
-    "fugit"
+    "molestiae",
+    "nihil"
   ],
-  "Comment": "suscipit",
+  "Comment": "earum",
   "CloseTicket": false
 }
 ```
@@ -106,5 +106,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-554
+859
 ```

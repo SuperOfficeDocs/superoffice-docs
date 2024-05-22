@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultForTicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 754
+  "TicketTypeId": 666
 }
 ```
 
@@ -145,21 +145,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 842,
-  "Title": "id",
-  "CreatedAt": "2016-04-24T11:16:09.9605285+02:00",
-  "LastChanged": "1997-01-20T11:16:09.9605285+01:00",
-  "ReadByOwner": "2016-03-31T11:16:09.9605285+02:00",
-  "ReadByCustomer": "2022-04-07T11:16:09.9605285+02:00",
-  "FirstReadByOwner": "2022-03-30T11:16:09.9605285+02:00",
-  "FirstReadByUser": "2004-02-22T11:16:09.9605285+01:00",
-  "Activate": "2001-05-17T11:16:09.9605285+02:00",
-  "ClosedAt": "2018-01-25T11:16:09.9605285+01:00",
-  "RepliedAt": "2014-09-25T11:16:09.9605285+02:00",
-  "AlertTimeout": "2011-09-18T11:16:09.9605285+02:00",
-  "Deadline": "2006-09-24T11:16:09.9605285+02:00",
+  "TicketId": 340,
+  "Title": "molestiae",
+  "CreatedAt": "2018-04-07T12:57:35.1957723+02:00",
+  "LastChanged": "2003-07-02T12:57:35.1957723+02:00",
+  "ReadByOwner": "2015-09-27T12:57:35.1957723+02:00",
+  "ReadByCustomer": "2014-02-28T12:57:35.1957723+01:00",
+  "FirstReadByOwner": "2018-03-23T12:57:35.1957723+01:00",
+  "FirstReadByUser": "2017-05-25T12:57:35.1957723+02:00",
+  "Activate": "1999-01-25T12:57:35.1957723+01:00",
+  "ClosedAt": "2014-01-05T12:57:35.1957723+01:00",
+  "RepliedAt": "2009-08-19T12:57:35.1957723+02:00",
+  "AlertTimeout": "2006-08-16T12:57:35.1957723+02:00",
+  "Deadline": "2011-04-16T12:57:35.1957723+02:00",
   "CreatedBy": null,
-  "Author": "alias",
+  "Author": "porro",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -170,162 +170,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "beatae",
-      "PersonId": 316,
-      "Mrmrs": "tenetur",
-      "Firstname": "Alexandre",
-      "Lastname": "Barton",
-      "MiddleName": "Kovacek, Pollich and Kunze",
-      "Title": "perferendis",
-      "Description": "Virtual dynamic migration",
-      "Email": "bernice@ruecker.co.uk",
-      "FullName": "Justina Quitzon DDS",
-      "DirectPhone": "1-917-295-2976 x98282",
-      "FormalName": "Metz-Bosco",
-      "CountryId": 77,
-      "ContactId": 715,
-      "ContactName": "Schimmel LLC",
-      "Retired": 835,
-      "Rank": 617,
-      "ActiveInterests": 632,
+      "Position": "numquam",
+      "PersonId": 112,
+      "Mrmrs": "debitis",
+      "Firstname": "Moriah",
+      "Lastname": "Renner",
+      "MiddleName": "Witting, O'Keefe and Turcotte",
+      "Title": "et",
+      "Description": "Configurable modular moratorium",
+      "Email": "grant.boehm@gislason.info",
+      "FullName": "Prof. Laverna Elva Nitzsche",
+      "DirectPhone": "1-622-704-1794 x271",
+      "FormalName": "Lindgren LLC",
+      "CountryId": 797,
+      "ContactId": 101,
+      "ContactName": "Johns LLC",
+      "Retired": 842,
+      "Rank": 350,
+      "ActiveInterests": 750,
       "ContactDepartment": "",
-      "ContactCountryId": 254,
-      "ContactOrgNr": "1247563",
-      "FaxPhone": "1-726-077-2103",
-      "MobilePhone": "124-447-2678",
-      "ContactPhone": "1-329-194-2855",
-      "AssociateName": "Baumbach, Smith and Mayert",
-      "AssociateId": 501,
-      "UsePersonAddress": false,
-      "ContactFax": "necessitatibus",
-      "Kanafname": "dolorem",
-      "Kanalname": "praesentium",
-      "Post1": "pariatur",
-      "Post2": "non",
-      "Post3": "qui",
-      "EmailName": "rodger@schulist.uk",
-      "ContactFullName": "Augustine Klocko",
-      "ActiveErpLinks": 526,
-      "TicketPriorityId": 657,
-      "SupportLanguageId": 108,
-      "SupportAssociateId": 419,
+      "ContactCountryId": 495,
+      "ContactOrgNr": "1203585",
+      "FaxPhone": "923-171-5098",
+      "MobilePhone": "(702)370-4077",
+      "ContactPhone": "051-439-4137",
+      "AssociateName": "Pouros, McClure and Braun",
+      "AssociateId": 416,
+      "UsePersonAddress": true,
+      "ContactFax": "porro",
+      "Kanafname": "in",
+      "Kanalname": "rem",
+      "Post1": "aliquid",
+      "Post2": "cum",
+      "Post3": "vitae",
+      "EmailName": "elise@kilback.biz",
+      "ContactFullName": "Madonna Gorczany",
+      "ActiveErpLinks": 561,
+      "TicketPriorityId": 830,
+      "SupportLanguageId": 37,
+      "SupportAssociateId": 633,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 121
         }
       }
     }
   ],
-  "AlertLevel": 268,
-  "ConnectId": 863,
+  "AlertLevel": 759,
+  "ConnectId": 516,
   "ReadStatus": "Green",
-  "TimeToReply": 931,
-  "RealTimeToReply": 40,
-  "TimeToClose": 730,
-  "RealTimeToClose": 592,
-  "TimeSpentInternally": 353,
-  "TimeSpentExternally": 127,
-  "TimeSpentQueue": 255,
-  "RealTimeSpentInternally": 986,
-  "RealTimeSpentExternally": 74,
-  "RealTimeSpentQueue": 348,
-  "TimeSpent": 950,
-  "HasAttachment": true,
-  "NumReplies": 742,
-  "NumMessages": 443,
-  "FromAddress": "perspiciatis",
+  "TimeToReply": 605,
+  "RealTimeToReply": 749,
+  "TimeToClose": 441,
+  "RealTimeToClose": 938,
+  "TimeSpentInternally": 884,
+  "TimeSpentExternally": 129,
+  "TimeSpentQueue": 262,
+  "RealTimeSpentInternally": 145,
+  "RealTimeSpentExternally": 503,
+  "RealTimeSpentQueue": 530,
+  "TimeSpent": 49,
+  "HasAttachment": false,
+  "NumReplies": 447,
+  "NumMessages": 244,
+  "FromAddress": "voluptas",
   "Messages": [
     {
-      "TicketMessageId": 485,
-      "CreatedAt": "2021-11-27T11:16:09.9761636+01:00",
+      "TicketMessageId": 213,
+      "CreatedAt": "1997-07-31T12:57:35.2113938+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "sapiente",
-      "PersonId": 790,
-      "PersonFullName": "Mr. Colin Macejkovic DVM",
-      "ContactId": 138,
-      "ContactName": "Ziemann-Hoppe",
+      "Important": true,
+      "Author": "quia",
+      "PersonId": 393,
+      "PersonFullName": "Ward Hoppe MD",
+      "ContactId": 522,
+      "ContactName": "Schultz Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 997,
-      "EmailHeader": "mireille.kautzer@becker.co.uk",
+      "NumAttachments": 867,
+      "EmailHeader": "jamal@cummingsmills.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "nostrum",
-      "Sentiment": 83,
-      "SentimentConfidence": 997,
-      "CreatedBy": 239,
-      "ChangedAt": "2014-11-27T11:16:09.9761636+01:00",
+      "Language": "ducimus",
+      "Sentiment": 644,
+      "SentimentConfidence": 879,
+      "CreatedBy": 559,
+      "ChangedAt": "2015-11-22T12:57:35.2113938+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 200,
-      "Name": "Kuhlman-Hane",
-      "ToolTip": "Debitis sit dolorum commodi corrupti assumenda quaerat ut.",
+      "Id": 38,
+      "Name": "Bayer Group",
+      "ToolTip": "Quas necessitatibus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 337
+          "FieldLength": 352
         }
       }
     },
     {
-      "Id": 200,
-      "Name": "Kuhlman-Hane",
-      "ToolTip": "Debitis sit dolorum commodi corrupti assumenda quaerat ut.",
+      "Id": 38,
+      "Name": "Bayer Group",
+      "ToolTip": "Quas necessitatibus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 337
+          "FieldLength": 352
         }
       }
     }
   ],
-  "Language": "necessitatibus",
-  "Sentiment": 183,
-  "SentimentConfidence": 400,
-  "SuggestedCategoryId": 483,
+  "Language": "quia",
+  "Sentiment": 311,
+  "SentimentConfidence": 926,
+  "SuggestedCategoryId": 552,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 372,
-  "IconHint": "id",
+  "OrigHumanCategoryId": 236,
+  "IconHint": "eligendi",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 302,
+  "ActiveStatusMonitorId": 164,
   "ExtraFields": {
-    "ExtraFields1": "quisquam",
-    "ExtraFields2": "id"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "quo",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   }
 }

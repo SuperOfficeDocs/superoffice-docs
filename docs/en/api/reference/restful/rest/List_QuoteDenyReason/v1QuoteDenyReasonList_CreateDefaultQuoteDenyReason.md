@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 4,
-  "Name": "Heathcote Group",
-  "Tooltip": "explicabo",
+  "Id": 92,
+  "Name": "Huel Group",
+  "Tooltip": "aut",
   "Deleted": true,
-  "UdListDefinitionId": 308,
-  "Rank": 129,
+  "UdListDefinitionId": 210,
+  "Rank": 176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   }
 }

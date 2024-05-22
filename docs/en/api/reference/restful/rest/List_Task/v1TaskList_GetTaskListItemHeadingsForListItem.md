@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Schaden LLC",
-    "ToolTip": "Aliquam neque molestiae.",
-    "Deleted": true,
-    "Rank": 268,
-    "Type": "et",
-    "ColorBlock": 364,
-    "IconHint": "saepe",
+    "Id": 16,
+    "Name": "Boehm-Kutch",
+    "ToolTip": "Quae ut et explicabo vel deserunt eligendi.",
+    "Deleted": false,
+    "Rank": 515,
+    "Type": "ea",
+    "ColorBlock": 32,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2021-05-22T11:16:14.8401403+02:00",
+    "LastChanged": "2001-01-17T12:57:43.7926038+01:00",
     "ChildItems": [
       {
-        "Id": 618,
-        "Name": "Ullrich LLC",
-        "ToolTip": "Sed ut laboriosam aliquid.",
+        "Id": 333,
+        "Name": "Berge-Treutel",
+        "ToolTip": "Fuga suscipit nemo et id.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "reprehenderit",
-        "ColorBlock": 779,
-        "IconHint": "et",
+        "Rank": 522,
+        "Type": "quia",
+        "ColorBlock": 5,
+        "IconHint": "eum",
         "Selected": true,
-        "LastChanged": "2007-02-07T11:16:14.8401403+01:00",
+        "LastChanged": "2012-04-23T12:57:43.7926038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "illum",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Peter Price",
+        "FullName": "Dawson Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 601
+            "FieldType": "System.Int32",
+            "FieldLength": 712
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Erich Nitzsche",
+    "ExtraInfo": "est",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Dr. Carolyne Pfeffer IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldType": "System.Int32",
+        "FieldLength": 386
       }
     }
   }

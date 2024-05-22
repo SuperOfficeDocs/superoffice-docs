@@ -58,11 +58,12 @@ Lists new CategoryMembers added through restriction.
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
 |locationAddress|string|Location: Location| x |
+|isLocation|bool|Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/NewCategoryMembers?$select=title,contactCategory
+GET /api/v1/archive/NewCategoryMembers?$select=associateDbId,role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

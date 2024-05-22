@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 335,
-  "StartTime": "2011-06-19T11:16:09.0691155+02:00",
-  "EndTime": "2003-07-07T11:16:09.0691155+02:00",
-  "Count": 637,
-  "DocumentTemplateId": 193
+  "ProjectId": 865,
+  "StartTime": "2013-05-28T12:57:33.7117979+02:00",
+  "EndTime": "2002-10-02T12:57:33.7117979+02:00",
+  "Count": 842,
+  "DocumentTemplateId": 503
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 686,
-    "Attention": "aut",
-    "Header": "omnis",
-    "Name": "Lebsack-Flatley",
-    "OurRef": "amet",
-    "YourRef": "facilis",
-    "Description": "Compatible discrete paradigm",
-    "DocumentTemplate": "voluptas",
-    "IsPublished": true,
-    "PersonId": 539,
-    "PersonFullName": "Enrique Gislason",
-    "AssociateFullName": "Manley Littel",
-    "ContactId": 108,
-    "ContactName": "Homenick LLC",
-    "ProjectId": 91,
-    "ProjectName": "Bernier-Dicki",
-    "AssociateId": 293,
-    "Snum": 48,
-    "SaleId": 689,
-    "SaleName": "Koch-Sawayn",
+    "DocumentId": 781,
+    "Attention": "corporis",
+    "Header": "porro",
+    "Name": "Jakubowski-Macejkovic",
+    "OurRef": "ab",
+    "YourRef": "illo",
+    "Description": "Multi-tiered needs-based migration",
+    "DocumentTemplate": "facere",
+    "IsPublished": false,
+    "PersonId": 98,
+    "PersonFullName": "Crawford Durgan",
+    "AssociateFullName": "Ruby Little",
+    "ContactId": 675,
+    "ContactName": "McKenzie-Hoeger",
+    "ProjectId": 713,
+    "ProjectName": "Beahan LLC",
+    "AssociateId": 923,
+    "Snum": 819,
+    "SaleId": 522,
+    "SaleName": "Cronin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 819
       }
     }
   }

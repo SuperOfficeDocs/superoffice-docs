@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Yundt-Reichel",
-    "Swaniawski LLC"
+    "Walsh, Little and Boyle",
+    "Kuhn Inc and Sons"
   ],
-  "Culture": "ducimus",
+  "Culture": "fugiat",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Sauer Inc and Sons",
-    "ResourceValue": "molestiae",
-    "Culture": "adipisci",
+    "ResourceName": "Gusikowski LLC",
+    "ResourceValue": "vitae",
+    "Culture": "et",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 364
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   },
   {
-    "ResourceName": "Sauer Inc and Sons",
-    "ResourceValue": "molestiae",
-    "Culture": "adipisci",
+    "ResourceName": "Gusikowski LLC",
+    "ResourceValue": "vitae",
+    "Culture": "et",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 364
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

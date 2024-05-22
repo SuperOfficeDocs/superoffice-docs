@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 586,
-  "Count": 721
+  "WeightedAmountLimit": 771,
+  "Count": 235
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Wyman, Russel and Gutmann",
-    "SaleDate": "2011-03-24T11:16:09.6846608+01:00",
-    "SaleId": 198,
-    "Probability": 457,
-    "Title": "doloribus",
-    "Amount": 20530.834,
-    "Currency": "rem",
-    "ProjectName": "O'Reilly-Okuneva",
-    "AssociateFullName": "Estella Klocko",
-    "Description": "Universal homogeneous knowledge base",
+    "ContactName": "Harris, Runolfsson and McCullough",
+    "SaleDate": "2014-01-30T12:57:34.8688339+01:00",
+    "SaleId": 394,
+    "Probability": 130,
+    "Title": "enim",
+    "Amount": 8082.5859999999993,
+    "Currency": "ipsam",
+    "ProjectName": "Koch, Welch and Koepp",
+    "AssociateFullName": "Jonathon Hane DVM",
+    "Description": "Profound composite algorithm",
     "Status": "Lost",
-    "WeightedAmount": 4773.0819999999994,
-    "ProjectId": 52,
-    "EarningPercent": 921.396,
-    "Earning": 19791.21,
-    "ContactId": 605,
-    "AssociateId": 646,
-    "PersonId": 973,
-    "SaleTypeId": 662,
-    "SaleTypeName": "Luettgen-Reinger",
-    "PersonFullName": "Dr. Leora Kaley Gleason II",
+    "WeightedAmount": 30186.688,
+    "ProjectId": 771,
+    "EarningPercent": 3253.092,
+    "Earning": 13720.652,
+    "ContactId": 750,
+    "AssociateId": 694,
+    "PersonId": 239,
+    "SaleTypeId": 559,
+    "SaleTypeName": "Murphy, Funk and Sanford",
+    "PersonFullName": "Rowan Maggio",
     "Completed": "Completed",
-    "ActiveErpLinks": 986,
-    "NextDueDate": "1997-07-08T11:16:09.6846608+02:00",
-    "Number": "511229",
+    "ActiveErpLinks": 455,
+    "NextDueDate": "2009-11-11T12:57:34.8688339+01:00",
+    "Number": "983392",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 10
       }
     }
   }

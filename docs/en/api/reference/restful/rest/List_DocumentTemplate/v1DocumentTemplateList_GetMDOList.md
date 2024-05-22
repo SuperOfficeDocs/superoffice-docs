@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=velit
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=iste
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Brekke, Mueller and Harvey",
-    "ToolTip": "Et officiis aliquam.",
-    "Deleted": false,
-    "Rank": 303,
-    "Type": "in",
+    "Id": 735,
+    "Name": "McDermott-Marks",
+    "ToolTip": "Illum et.",
+    "Deleted": true,
+    "Rank": 638,
+    "Type": "asperiores",
     "ChildItems": [
       {
-        "Id": 714,
-        "Name": "Kohler-Walsh",
-        "ToolTip": "Dolorem officiis iste illum iure sunt tempore placeat.",
+        "Id": 856,
+        "Name": "Lynch, Welch and Blick",
+        "ToolTip": "Similique sint omnis veritatis numquam qui sunt.",
         "Deleted": false,
-        "Rank": 408,
-        "Type": "laudantium",
+        "Rank": 335,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 180,
-        "ExtraInfo": "excepturi",
-        "StyleHint": "voluptatem",
-        "FullName": "Cheyanne Monahan",
+        "IconHint": "unde",
+        "ColorBlock": 122,
+        "ExtraInfo": "aut",
+        "StyleHint": "quisquam",
+        "FullName": "Christopher Johnston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 448
+            "FieldLength": 364
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 191,
-    "ExtraInfo": "aut",
-    "StyleHint": "et",
-    "FullName": "Lily Bailey",
+    "IconHint": "laborum",
+    "ColorBlock": 879,
+    "ExtraInfo": "quidem",
+    "StyleHint": "unde",
+    "FullName": "Kamron Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 442
       }
     }
   }

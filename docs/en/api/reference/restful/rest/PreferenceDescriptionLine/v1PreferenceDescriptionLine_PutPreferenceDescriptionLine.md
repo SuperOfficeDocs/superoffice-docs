@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 727,
-  "PrefDescId": 884,
-  "PrefValue": "asperiores",
-  "PrefShowValue": "quas",
-  "Description": "Cross-platform leading edge matrix",
+  "PrefDescLineId": 122,
+  "PrefDescId": 134,
+  "PrefValue": "voluptates",
+  "PrefShowValue": "iusto",
+  "Description": "Organized stable forecast",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 440,
-  "PrefDescId": 725,
-  "PrefValue": "quo",
-  "PrefShowValue": "ut",
-  "Description": "Re-contextualized encompassing ability",
+  "PrefDescLineId": 425,
+  "PrefDescId": 824,
+  "PrefValue": "reprehenderit",
+  "PrefShowValue": "ipsam",
+  "Description": "Organized tertiary definition",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 1002
     }
   },
   "_Links": {

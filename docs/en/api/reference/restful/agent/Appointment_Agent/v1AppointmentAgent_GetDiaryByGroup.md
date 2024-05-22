@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 746,
-  "GroupType": 540,
-  "StartTime": "2016-03-09T11:16:08.5063888+01:00",
-  "EndTime": "2013-09-25T11:16:08.5063888+02:00",
-  "Count": 782
+  "GroupId": 316,
+  "GroupType": 107,
+  "StartTime": "2024-01-15T12:57:32.7584322+01:00",
+  "EndTime": "2024-02-07T12:57:32.7584322+01:00",
+  "Count": 307
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 102,
-    "StartDate": "2020-06-06T11:16:08.5063888+02:00",
-    "EndDate": "2001-01-24T11:16:08.5063888+01:00",
+    "AppointmentId": 204,
+    "StartDate": "1997-11-22T12:57:32.7584322+01:00",
+    "EndDate": "1998-12-03T12:57:32.7584322+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Mitchel Dion Hickle Sr.",
-    "ContactName": "Tremblay LLC",
-    "Description": "Distributed web-enabled installation",
-    "PersonFullName": "Bennie Neal Stehr I",
-    "PersonId": 965,
-    "ContactId": 731,
-    "ProjectId": 341,
-    "ProjectName": "Block, Dietrich and Lubowitz",
-    "IsPublished": true,
-    "AssociateId": 730,
-    "ColorIndex": 217,
+    "Task": "beatae",
+    "AssociateFullName": "Mr. Doug Anne Sipes",
+    "ContactName": "Lindgren, Murphy and Graham",
+    "Description": "Realigned national workforce",
+    "PersonFullName": "Mrs. Barrett Jenkins",
+    "PersonId": 726,
+    "ContactId": 922,
+    "ProjectId": 57,
+    "ProjectName": "Aufderhar, Collins and Wiza",
+    "IsPublished": false,
+    "AssociateId": 613,
+    "ColorIndex": 427,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 914,
-    "PriorityName": "Spinka-Greenfelder",
+    "PriorityId": 1001,
+    "PriorityName": "Kozey-Murazik",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2021-02-28T11:16:08.5063888+01:00",
+    "ActiveDate": "2002-08-24T12:57:32.7584322+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-06-13T11:16:08.5063888+02:00",
-    "RecurringEndDate": "2024-01-24T11:16:08.5063888+01:00",
-    "MotherId": 772,
-    "AssignedBy": 591,
-    "AssignedByFullName": "Prof. Ellen Swift IV",
-    "RejectReason": "",
-    "Location": "ab",
-    "AlarmLeadTime": "minus",
-    "SaleId": 896,
-    "SaleName": "Stokes-Treutel",
-    "AssociateName": "Kuphal LLC",
-    "CreatedDate": "2010-07-26T11:16:08.5063888+02:00",
-    "CreatedBy": "quia",
-    "CreatedByFullName": "Mr. Alvena O'Kon",
-    "CreatedByAssociateId": 748,
+    "RecurringStartDate": "1998-03-28T12:57:32.7584322+01:00",
+    "RecurringEndDate": "2000-07-18T12:57:32.7584322+02:00",
+    "MotherId": 165,
+    "AssignedBy": 755,
+    "AssignedByFullName": "Ms. Agustin Rodrigo Wintheiser",
+    "RejectReason": "envisioneer user-centric experiences",
+    "Location": "aut",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 441,
+    "SaleName": "Smitham-Kunze",
+    "AssociateName": "Leuschke Group",
+    "CreatedDate": "2001-07-10T12:57:32.7584322+02:00",
+    "CreatedBy": "totam",
+    "CreatedByFullName": "Rozella Gibson",
+    "CreatedByAssociateId": 309,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 572,
-    "Title": "delectus",
-    "Agenda": "odit",
-    "InternalNotes": "quisquam",
+    "PreferredTZLocation": 616,
+    "Title": "doloremque",
+    "Agenda": "quaerat",
+    "InternalNotes": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 463
       }
     }
   }

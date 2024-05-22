@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Schoen, Gibson and Schuster",
-    "Tooltip": "aut",
+    "Id": 434,
+    "Name": "Smitham, Fadel and Franecki",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 952,
-    "Rank": 497
+    "UdListDefinitionId": 359,
+    "Rank": 365
   },
   {
-    "Id": 487,
-    "Name": "Schoen, Gibson and Schuster",
-    "Tooltip": "aut",
+    "Id": 434,
+    "Name": "Smitham, Fadel and Franecki",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 952,
-    "Rank": 497
+    "UdListDefinitionId": 359,
+    "Rank": 365
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Schmeler Inc and Sons",
-    "Tooltip": "rerum",
+    "Id": 4,
+    "Name": "Kreiger-Zulauf",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "UdListDefinitionId": 516,
-    "Rank": 450,
+    "UdListDefinitionId": 4,
+    "Rank": 11,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 828
+        "FieldType": "System.Int32",
+        "FieldLength": 841
       }
     }
   }

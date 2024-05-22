@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 742,
-    "Name": "Mayer Inc and Sons",
-    "Description": "Digitized intermediate groupware",
-    "DeltaJson": "eaque",
+    "ConfigurableScreenDeltaId": 966,
+    "Name": "Rodriguez-Quitzon",
+    "Description": "Customizable motivating paradigm",
+    "DeltaJson": "nesciunt",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "atque",
-    "UpdatedDate": "2014-04-02T11:16:08.8503482+02:00",
-    "CreatedDate": "1998-04-07T11:16:08.8503482+02:00",
+    "RecipeId": "natus",
+    "UpdatedDate": "2020-03-31T12:57:33.4462335+02:00",
+    "CreatedDate": "1999-03-17T12:57:33.4462335+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      310,
-      540
+      916,
+      180
     ],
-    "AppliesToKey": "autem",
+    "AppliesToKey": "debitis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldType": "System.Int32",
+        "FieldLength": 614
       }
     }
   }

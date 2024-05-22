@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 673
+  "PersonId": 127
 }
 ```
 
@@ -92,27 +92,27 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Value": "et",
-    "StrippedValue": "a",
-    "Description": "Reactive multi-tasking focus group",
+    "StrippedValue": "autem",
+    "Description": "Object-based reciprocal paradigm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 387
       }
     }
   },
   {
     "Value": "et",
-    "StrippedValue": "a",
-    "Description": "Reactive multi-tasking focus group",
+    "StrippedValue": "autem",
+    "Description": "Object-based reciprocal paradigm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldType": "System.Int32",
+        "FieldLength": 387
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,156 +97,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 292,
-      "ContactName": "Renner Group",
-      "PersonId": 414,
-      "PersonName": "Lang, Dietrich and Hilpert",
-      "AssociateId": 156,
-      "Address": "deleniti",
-      "EmailId": 575,
+      "ContactId": 255,
+      "ContactName": "Williamson-Huel",
+      "PersonId": 216,
+      "PersonName": "Marks-Klein",
+      "AssociateId": 545,
+      "Address": "quae",
+      "EmailId": 953,
       "DuplicatePersonIds": [
-        690,
-        842
+        592,
+        326
       ],
-      "Name": "Johnston, Abernathy and Parisian",
+      "Name": "Beer, Jacobson and White",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldLength": 320
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 150,
-      "ContactName": "Morar, Casper and Davis",
-      "PersonId": 484,
-      "PersonName": "Aufderhar-Boyle",
-      "AssociateId": 19,
-      "Address": "ut",
-      "EmailId": 746,
+      "ContactId": 103,
+      "ContactName": "Wolff-Senger",
+      "PersonId": 664,
+      "PersonName": "Shields-Rogahn",
+      "AssociateId": 585,
+      "Address": "dolorum",
+      "EmailId": 84,
       "DuplicatePersonIds": [
-        440,
-        669
+        952,
+        703
       ],
-      "Name": "Zboncak Inc and Sons",
+      "Name": "Kuhn, Monahan and Deckow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 9
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 146,
-      "ContactName": "Schuppe, Harber and Schulist",
-      "PersonId": 936,
-      "PersonName": "Padberg-Fadel",
-      "AssociateId": 821,
-      "Address": "tenetur",
-      "EmailId": 55,
+      "ContactId": 340,
+      "ContactName": "Hammes, Mohr and Yundt",
+      "PersonId": 845,
+      "PersonName": "Legros LLC",
+      "AssociateId": 929,
+      "Address": "ullam",
+      "EmailId": 508,
       "DuplicatePersonIds": [
-        698,
-        42
+        488,
+        764
       ],
-      "Name": "Leannon, Murphy and Abbott",
+      "Name": "Sipes-West",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 704
         }
       }
     }
   ],
-  "Subject": "natus",
-  "HTMLBody": "accusamus",
+  "Subject": "dignissimos",
+  "HTMLBody": "voluptate",
   "From": null,
-  "Sent": "2008-03-17T11:16:09.1941046+01:00",
-  "Size": 33,
+  "Sent": "2003-09-15T12:57:33.899292+02:00",
+  "Size": 648,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nihil",
-  "PlainBody": "fugiat",
-  "IsSent": false,
+  "MessageID": "aut",
+  "PlainBody": "doloribus",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 628,
+  "ServerId": 391,
   "Attachments": [
     {
-      "Description": "Configurable didactic product",
-      "Filename": "rerum",
-      "Size": 56,
-      "Type": "ut",
-      "Encoding": "ea",
-      "Id": "amet",
-      "Disposition": "reprehenderit",
-      "IsSafeFileExtension": true,
+      "Description": "Multi-channelled user-facing orchestration",
+      "Filename": "veniam",
+      "Size": 916,
+      "Type": "facere",
+      "Encoding": "deleniti",
+      "Id": "corrupti",
+      "Disposition": "sed",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 138
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Koch-Wuckert",
+      "Name": "Klein LLC",
       "Values": [
-        "dolorem",
-        "est"
+        "a",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     },
     {
-      "Name": "Koch-Wuckert",
+      "Name": "Klein LLC",
       "Values": [
-        "dolorem",
-        "est"
+        "a",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldType": "System.String",
+          "FieldLength": 947
         }
       }
     }
   ],
-  "FolderName": "Cremin-Hettinger",
-  "EmailItemId": 753,
-  "AccountId": 95,
-  "ReceivedAt": "2004-03-20T11:16:09.1941046+01:00",
+  "FolderName": "Steuber-Romaguera",
+  "EmailItemId": 852,
+  "AccountId": 415,
+  "ReceivedAt": "2004-11-30T12:57:33.899292+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-15T11:16:09.1941046+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-06-26T12:57:33.899292+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   }
 }

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "nostrum",
+  "FieldLabel": "qui",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 703,
-  "ColumnId": 237,
-  "FieldDefault": "sint",
-  "FieldHeight": 135,
-  "FieldLabel": "perferendis",
-  "FieldLeft": 182,
-  "FieldTop": 356,
+  "UDefFieldId": 149,
+  "ColumnId": 898,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 88,
+  "FieldLabel": "sunt",
+  "FieldLeft": 594,
+  "FieldTop": 46,
   "FieldType": "Checkbox",
-  "FieldWidth": 172,
-  "FormatMask": "aut",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 819,
-  "LabelLeft": 341,
-  "LabelTop": 68,
-  "LabelWidth": 681,
-  "LastVersionId": 678,
-  "ListTableId": 826,
+  "FieldWidth": 724,
+  "FormatMask": "sed",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 557,
+  "LabelLeft": 404,
+  "LabelTop": 790,
+  "LabelWidth": 659,
+  "LastVersionId": 579,
+  "ListTableId": 831,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 135,
-  "ProgId": "et",
+  "Page1LineNo": 255,
+  "ProgId": "inventore",
   "IsReadOnly": true,
-  "ShortLabel": "eius",
-  "TabOrder": 941,
-  "TextLength": 302,
-  "Tooltip": "ullam",
-  "UdefIdentity": 616,
-  "UDListDefinitionId": 350,
+  "ShortLabel": "quod",
+  "TabOrder": 475,
+  "TextLength": 829,
+  "Tooltip": "iure",
+  "UdefIdentity": 603,
+  "UDListDefinitionId": 484,
   "Justification": "Center",
-  "Version": 705,
-  "TemplateVariableName": "Mante, Bayer and Howell",
-  "HasBeenPublished": false,
-  "MdoListName": "Roob-Beahan",
+  "Version": 774,
+  "TemplateVariableName": "Boyle-Reinger",
+  "HasBeenPublished": true,
+  "MdoListName": "Stoltenberg Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 169
     }
   }
 }

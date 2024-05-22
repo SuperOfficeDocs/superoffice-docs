@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Hyatt, Johnson and Windler",
-  "StorageKey": "expedita",
-  "Rank": 544,
+  "StorageType": "facilis",
+  "ProviderName": "Doyle Inc and Sons",
+  "StorageKey": "provident",
+  "Rank": 929,
   "Context": "recusandae"
 }
 ```

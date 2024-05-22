@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 743,
+  "HierarchyId": 257,
   "Domain": "Dashboards",
-  "Name": "Baumbach, Bergnaum and Legros",
-  "Fullname": "hic",
-  "ParentId": 937,
+  "Name": "Murphy-Mosciski",
+  "Fullname": "rem",
+  "ParentId": 341,
   "Children": [
     {
-      "HierarchyId": 650,
+      "HierarchyId": 261,
       "Domain": "Dashboards",
-      "Name": "Howe Inc and Sons",
-      "Fullname": "similique",
-      "ParentId": 854,
+      "Name": "Kovacek-Glover",
+      "Fullname": "voluptatem",
+      "ParentId": 392,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-10-04T11:16:13.93321+02:00",
-      "RegisteredAssociateId": 709,
-      "Updated": "1997-07-09T11:16:13.93321+02:00",
-      "UpdatedAssociateId": 601,
+      "Registered": "2012-09-20T12:57:42.4638774+02:00",
+      "RegisteredAssociateId": 903,
+      "Updated": "2005-07-18T12:57:42.4638774+02:00",
+      "UpdatedAssociateId": 918,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 464
         }
       }
     }
   ],
-  "Registered": "2002-01-14T11:16:13.93321+01:00",
-  "RegisteredAssociateId": 339,
-  "Updated": "2015-11-12T11:16:13.93321+01:00",
-  "UpdatedAssociateId": 137,
+  "Registered": "2022-11-07T12:57:42.4638774+01:00",
+  "RegisteredAssociateId": 867,
+  "Updated": "2009-01-02T12:57:42.4638774+01:00",
+  "UpdatedAssociateId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 291
     }
   }
 }

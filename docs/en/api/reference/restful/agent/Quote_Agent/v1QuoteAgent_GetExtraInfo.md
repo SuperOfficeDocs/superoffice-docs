@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "voluptatem"
+  "QuoteLineExtraData": "libero"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogan, Hilpert and Ferry",
-    "Value": "voluptatem",
+    "Name": "White, Daniel and Carroll",
+    "Value": "placeat",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 432
+        "FieldLength": 572
       }
     }
   },
   {
-    "Name": "Bogan, Hilpert and Ferry",
-    "Value": "voluptatem",
+    "Name": "White, Daniel and Carroll",
+    "Value": "placeat",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 432
+        "FieldLength": 572
       }
     }
   }

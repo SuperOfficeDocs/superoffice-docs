@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "nihil",
-    "InputValues2": "corrupti"
+    "InputValues1": "ab",
+    "InputValues2": "ad"
   },
   "BlockExecution": false,
-  "NavigateTo": "ratione",
-  "Message": "dolore",
-  "ShowDialog": "odio",
+  "NavigateTo": "dolor",
+  "Message": "enim",
+  "ShowDialog": "quis",
   "OutputValues": {
-    "OutputValues1": "architecto",
-    "OutputValues2": "non"
+    "OutputValues1": "minima",
+    "OutputValues2": "fugit"
   },
   "StateValues": {
-    "StateValues1": "omnis",
-    "StateValues2": "ducimus"
+    "StateValues1": "occaecati",
+    "StateValues2": "quam"
   },
-  "Exception": "sed",
+  "Exception": "animi",
   "ParserValues": {
-    "ParserValues1": "sapiente",
-    "ParserValues2": "excepturi"
+    "ParserValues1": "mollitia",
+    "ParserValues2": "dolore"
   },
   "CgiVariables": {
-    "CgiVariables1": "eos",
-    "CgiVariables2": "et"
+    "CgiVariables1": "ex",
+    "CgiVariables2": "maxime"
   },
-  "CgiContent": "officia",
+  "CgiContent": "laudantium",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "ipsam"
+    "Headers1": "modi",
+    "Headers2": "quasi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   }
 }

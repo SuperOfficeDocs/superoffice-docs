@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    564,
-    630
+    82,
+    255
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 612,
-    "Caption": "nisi",
-    "Description": "Focused 4th generation hierarchy",
-    "ChartName": "Ledner, Botsford and Cormier",
-    "ChartId": "maiores",
-    "IsDefault": false,
-    "AssociateId": 84,
-    "GroupId": 318,
-    "SelectionId": 145,
-    "Config": "quia",
+    "DashboardTileId": 369,
+    "Caption": "sint",
+    "Description": "Organized 6th generation infrastructure",
+    "ChartName": "Rosenbaum, Bernhard and Tremblay",
+    "ChartId": "itaque",
+    "IsDefault": true,
+    "AssociateId": 438,
+    "GroupId": 677,
+    "SelectionId": 363,
+    "Config": "totam",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Walker Inc and Sons",
-        "Description": "Total solution-oriented contingency",
+        "Name": "Von-Zieme",
+        "Description": "User-centric 5th generation firmware",
         "Type": "Boolean",
-        "ListName": "Murazik, Leffler and Stoltenberg",
+        "ListName": "Kassulke, Moen and Waelchi",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "libero",
+        "Value": "enim",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 674
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 201,
+        "VisibleId": 807,
         "Visibility": "All",
-        "DisplayValue": "voluptatibus",
+        "DisplayValue": "ullam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 751
+            "FieldType": "System.Int32",
+            "FieldLength": 8
           }
         }
       },
       {
-        "VisibleId": 201,
+        "VisibleId": 807,
         "Visibility": "All",
-        "DisplayValue": "voluptatibus",
+        "DisplayValue": "ullam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 751
+            "FieldType": "System.Int32",
+            "FieldLength": 8
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 401
       }
     }
   }

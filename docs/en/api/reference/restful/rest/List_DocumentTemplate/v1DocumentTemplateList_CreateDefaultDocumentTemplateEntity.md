@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 477,
-  "Name": "Swaniawski-Littel",
-  "Tooltip": "blanditiis",
-  "SaveInDb": 945,
-  "Filename": "consequatur",
-  "DefaultOref": "sed",
+  "DocumentTemplateId": 533,
+  "Name": "Vandervort-Daniel",
+  "Tooltip": "delectus",
+  "SaveInDb": 516,
+  "Filename": "ullam",
+  "DefaultOref": "nisi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 610,
-  "IntentId": 623,
+  "AutoeventId": 996,
+  "IntentId": 121,
   "IsDefaultPublished": false,
-  "Rank": 984,
-  "LoadTemplateFromPlugin": 881,
-  "MimeType": "exercitationem",
+  "Rank": 60,
+  "LoadTemplateFromPlugin": 611,
+  "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 860,
+  "DocumentTypeKey": 912,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "michelle.funk@predovic.ca",
+  "EmailSubject": "lucile@jacobsonbailey.com",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "juliana.dicki@schamberger.co.uk",
+  "SenderEmailAddress": "jennings@bashirian.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 272
     }
   }
 }

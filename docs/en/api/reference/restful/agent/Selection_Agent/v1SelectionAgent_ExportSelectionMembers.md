@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 846,
-  "TemplateName": "Schmitt Inc and Sons",
-  "UseContacts": false
+  "SelectionId": 517,
+  "TemplateName": "Ankunding, Fahey and Gottlieb",
+  "UseContacts": true
 }
 ```
 

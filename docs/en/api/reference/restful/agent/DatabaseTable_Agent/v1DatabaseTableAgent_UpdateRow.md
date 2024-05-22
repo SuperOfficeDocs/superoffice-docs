@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Swaniawski-Lynch",
-  "Id": 687,
+  "TableName": "Murazik, Bashirian and Gerlach",
+  "Id": 1001,
   "Values": {
-    "Values1": "natus",
-    "Values2": "cupiditate"
+    "Values1": "distinctio",
+    "Values2": "quibusdam"
   }
 }
 ```

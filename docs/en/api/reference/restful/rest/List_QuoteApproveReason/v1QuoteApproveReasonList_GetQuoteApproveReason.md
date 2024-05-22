@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Ziemann-Heller",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "UdListDefinitionId": 38,
-  "Rank": 322,
+  "Id": 224,
+  "Name": "Towne Inc and Sons",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "UdListDefinitionId": 280,
+  "Rank": 114,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 975
     }
   }
 }

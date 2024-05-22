@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=fuga
-GET /api/v1/User?$top=882
-GET /api/v1/User?$skip=631
+GET /api/v1/User?$entities=illo
+GET /api/v1/User?$top=191
+GET /api/v1/User?$skip=443
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=laborum
+GET /api/v1/User?$context=et
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "tempora",
+  "odata.nextLink": "dolorum",
   "value": [
     {
-      "PrimaryKey": 5242,
-      "EntityName": "person",
-      "personId": 5242,
-      "fullName": "Dr. Ted Lafayette Bergstrom Sr."
+      "PrimaryKey": 3687,
+      "EntityName": "sale",
+      "saleId": 3687,
+      "contactId": 5102,
+      "name": "Gutmann Group"
     },
     {
-      "PrimaryKey": 7729,
-      "EntityName": "person",
-      "personId": 7729,
-      "fullName": "Ulices Gusikowski V"
+      "PrimaryKey": 2446,
+      "EntityName": "sale",
+      "saleId": 2446,
+      "contactId": 3262,
+      "name": "Gislason, Davis and Stroman"
     }
   ]
 }

@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,31 +97,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 332,
-  "Name": "Waters-Legros",
+  "WebhookId": 406,
+  "Name": "McDermott Inc and Sons",
   "Events": [
-    "aut",
-    "voluptatem"
+    "dolorem",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "rem",
+  "Secret": "et",
   "State": "Active",
-  "Type": "assumenda",
+  "Type": "rerum",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "labore"
+    "Headers1": "sapiente",
+    "Headers2": "amet"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-12-01T11:16:14.4495535+01:00",
+  "Registered": "2012-09-05T12:57:43.2770971+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2008-04-14T11:16:14.4495535+02:00",
+  "Updated": "1999-10-01T12:57:43.2770971+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "cathrine@quigley.us",
+  "ErrorsEmail": "josefina@kohler.ca",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

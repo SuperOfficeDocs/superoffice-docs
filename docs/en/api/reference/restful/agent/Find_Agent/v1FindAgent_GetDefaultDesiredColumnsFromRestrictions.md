@@ -90,28 +90,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wunsch, Hintz and Donnelly",
+  "ProviderName": "Berge Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Pouros, Jewess and Hintz",
-      "Operator": "maxime",
+      "Name": "Torp-Bashirian",
+      "Operator": "sapiente",
       "Values": [
-        "quia",
-        "omnis"
+        "vitae",
+        "harum"
       ],
       "DisplayValues": [
-        "ut",
-        "et"
+        "deleniti",
+        "aspernatur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 488,
+      "InterParenthesis": 420,
       "InterOperator": "And",
-      "UniqueHash": 384
+      "UniqueHash": 843
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gleason, Mosciski and Blick",
-    "DisplayTooltip": "et",
-    "DisplayType": "culpa",
+    "DisplayName": "Hyatt-Bergstrom",
+    "DisplayTooltip": "magni",
+    "DisplayType": "recusandae",
     "CanOrderBy": false,
-    "Name": "Hackett Inc and Sons",
+    "Name": "Wisozk, Hilpert and Nienow",
     "CanRestrictBy": false,
-    "RestrictionType": "in",
-    "RestrictionListName": "McClure Inc and Sons",
-    "IsVisible": false,
-    "ExtraInfo": "est",
-    "Width": "dolore",
-    "IconHint": "cupiditate",
-    "HeadingIconHint": "facere"
+    "RestrictionType": "distinctio",
+    "RestrictionListName": "Ullrich, Ziemann and Beier",
+    "IsVisible": true,
+    "ExtraInfo": "quas",
+    "Width": "eum",
+    "IconHint": "quis",
+    "HeadingIconHint": "sapiente"
   }
 ]
 ```

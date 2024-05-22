@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 201,
-  "PrefDescId": 761,
-  "PrefValue": "aut",
-  "PrefShowValue": "sunt",
-  "Description": "Horizontal actuating open architecture",
-  "IsBuiltin": false,
+  "PrefDescLineId": 68,
+  "PrefDescId": 377,
+  "PrefValue": "nobis",
+  "PrefShowValue": "eum",
+  "Description": "Virtual user-facing forecast",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   }
 }

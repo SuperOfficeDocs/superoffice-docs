@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "sed",
-    "et"
+    "maiores",
+    "velit"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "1997-06-29T11:16:08.6002301+02:00",
-    "IsConflict": false,
-    "Description": "Decentralized dynamic hierarchy",
-    "DescriptionStyleHint": "Seamless intermediate Graphical User Interface",
-    "Tooltip": "officiis"
+    "Date": "2005-01-05T12:57:32.8990255+01:00",
+    "IsConflict": true,
+    "Description": "Customizable analyzing portal",
+    "DescriptionStyleHint": "Self-enabling context-sensitive database",
+    "Tooltip": "excepturi"
   },
   {
-    "Date": "1997-06-29T11:16:08.6002301+02:00",
-    "IsConflict": false,
-    "Description": "Decentralized dynamic hierarchy",
-    "DescriptionStyleHint": "Seamless intermediate Graphical User Interface",
-    "Tooltip": "officiis"
+    "Date": "2005-01-05T12:57:32.8990255+01:00",
+    "IsConflict": true,
+    "Description": "Customizable analyzing portal",
+    "DescriptionStyleHint": "Self-enabling context-sensitive database",
+    "Tooltip": "excepturi"
   }
 ]
 ```

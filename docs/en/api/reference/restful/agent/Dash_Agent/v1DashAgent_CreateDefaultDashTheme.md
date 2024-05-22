@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 663,
-  "Name": "Crist, Gottlieb and Williamson",
-  "Config": "quis",
-  "Rank": 558,
-  "Client": "laudantium",
-  "Style": "ipsa",
+  "DashboardThemeId": 592,
+  "Name": "Maggio-Langosh",
+  "Config": "quisquam",
+  "Rank": 928,
+  "Client": "deleniti",
+  "Style": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 661
     }
   }
 }

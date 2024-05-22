@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=vero
-GET /api/v1/Document?$top=588
-GET /api/v1/Document?$skip=76
+GET /api/v1/Document?$entities=occaecati
+GET /api/v1/Document?$top=899
+GET /api/v1/Document?$skip=442
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=architecto
+GET /api/v1/Document?$context=sunt
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "facilis",
+  "odata.nextLink": "suscipit",
   "value": [
     {
-      "PrimaryKey": 6697,
-      "EntityName": "person",
-      "personId": 6697,
-      "fullName": "Margie Hyatt"
+      "PrimaryKey": 4769,
+      "EntityName": "sale",
+      "saleId": 4769,
+      "contactId": 2215,
+      "name": "Moore-Kunze"
     },
     {
-      "PrimaryKey": 4020,
-      "EntityName": "person",
-      "personId": 4020,
-      "fullName": "Raphaelle Russel"
+      "PrimaryKey": 3106,
+      "EntityName": "sale",
+      "saleId": 3106,
+      "contactId": 6766,
+      "name": "Emmerich Group"
     }
   ]
 }

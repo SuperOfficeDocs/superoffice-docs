@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "minima",
-  "Name": "Lebsack, Waters and Emmerich"
+  "Path": "iste",
+  "Name": "Cummerata Group"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 698,
+  "HierarchyId": 219,
   "Domain": "Dashboards",
-  "Name": "Schimmel LLC",
-  "Fullname": "omnis",
-  "ParentId": 155,
+  "Name": "Kessler, Steuber and Ruecker",
+  "Fullname": "in",
+  "ParentId": 632,
   "Children": [
     {
-      "HierarchyId": 334,
+      "HierarchyId": 602,
       "Domain": "Dashboards",
-      "Name": "Schimmel-Welch",
-      "Fullname": "voluptatem",
-      "ParentId": 496,
+      "Name": "Parker Inc and Sons",
+      "Fullname": "consequatur",
+      "ParentId": 454,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-10-08T11:16:09.3659552+02:00",
-      "RegisteredAssociateId": 372,
-      "Updated": "2022-01-16T11:16:09.3659552+01:00",
-      "UpdatedAssociateId": 800,
+      "Registered": "2023-03-02T12:57:34.19609+01:00",
+      "RegisteredAssociateId": 504,
+      "Updated": "2018-06-30T12:57:34.19609+02:00",
+      "UpdatedAssociateId": 723,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 247
         }
       }
     }
   ],
-  "Registered": "2005-08-05T11:16:09.3659552+02:00",
-  "RegisteredAssociateId": 251,
-  "Updated": "2003-02-10T11:16:09.3659552+01:00",
-  "UpdatedAssociateId": 269,
+  "Registered": "2012-02-20T12:57:34.19609+01:00",
+  "RegisteredAssociateId": 291,
+  "Updated": "2006-11-11T12:57:34.19609+01:00",
+  "UpdatedAssociateId": 918,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

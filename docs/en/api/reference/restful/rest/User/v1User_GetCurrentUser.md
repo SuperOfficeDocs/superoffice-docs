@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 158,
-  "Name": "Jacobson-Mosciski",
-  "Rank": 344,
-  "Tooltip": "molestias",
+  "AssociateId": 895,
+  "Name": "Mann, Bailey and Swaniawski",
+  "Rank": 74,
+  "Tooltip": "exercitationem",
   "LicenseOwners": [
     {
-      "Name": "Roob, Herman and Ryan",
-      "Description": "Open-source value-added protocol",
+      "Name": "Lynch Inc and Sons",
+      "Description": "Self-enabling disintermediate paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 185
         }
       }
     },
     {
-      "Name": "Roob, Herman and Ryan",
-      "Description": "Open-source value-added protocol",
+      "Name": "Lynch Inc and Sons",
+      "Description": "Self-enabling disintermediate paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 185
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "distinctio",
-      "Tooltip": "dignissimos",
-      "Id": 360,
-      "Rank": 525,
-      "Deleted": true,
+      "Value": "nam",
+      "Tooltip": "et",
+      "Id": 704,
+      "Rank": 516,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 219
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2008-10-03T11:16:14.4495535+02:00",
-  "Lastlogout": "2003-05-04T11:16:14.4495535+02:00",
-  "EjUserId": 623,
-  "RequestSignature": "corrupti",
+  "Lastlogin": "2012-10-08T12:57:43.2614753+02:00",
+  "Lastlogout": "1997-10-07T12:57:43.2614753+02:00",
+  "EjUserId": 442,
+  "RequestSignature": "laborum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "pariatur",
-      "DisplayValue": "ratione",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 96
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "pariatur",
-      "DisplayValue": "ratione",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 96
-        }
-      }
-    }
-  ],
-  "UserName": "Lebsack LLC",
-  "TicketCategories": [
-    {
-      "Id": 746,
-      "Name": "Lehner Inc and Sons",
-      "ToolTip": "Nihil ea ad assumenda aperiam est.",
-      "Deleted": false,
-      "Rank": 548,
-      "Type": "cum",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "rerum",
-      "ColorBlock": 895,
-      "ExtraInfo": "amet",
-      "StyleHint": "dolorem",
-      "FullName": "Barbara Cremin II",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 236
-        }
-      }
-    }
-  ],
-  "NickName": "Murray-Armstrong",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "optio"
-  },
-  "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "eum"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kovacek Inc and Sons",
-      "DisplayName": "Spencer, Ebert and Pacocha",
-      "Description": "Robust systemic capability",
-      "ToolTip": "Vel mollitia excepturi totam voluptatem.",
-      "Actions": "Implicit",
-      "ActionData": "distinctio",
+      "Value": "est",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldLength": 899
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "est",
+      "DisplayValue": "excepturi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 899
+        }
+      }
+    }
+  ],
+  "UserName": "Johnston-Hand",
+  "TicketCategories": [
+    {
+      "Id": 88,
+      "Name": "Monahan LLC",
+      "ToolTip": "Reiciendis distinctio.",
+      "Deleted": false,
+      "Rank": 278,
+      "Type": "unde",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "illo",
+      "ColorBlock": 672,
+      "ExtraInfo": "consectetur",
+      "StyleHint": "voluptatum",
+      "FullName": "Eugenia Hettinger IV",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 269
+        }
+      }
+    }
+  ],
+  "NickName": "Shields, Thompson and Monahan",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "atque",
+    "ExtraFields2": "qui"
+  },
+  "CustomFields": {
+    "CustomFields1": "aut",
+    "CustomFields2": "exercitationem"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Blanda-Smith",
+      "DisplayName": "Dickinson-Stokes",
+      "Description": "Self-enabling motivating synergy",
+      "ToolTip": "Similique iure officia eos quo quidem ab.",
+      "Actions": "Implicit",
+      "ActionData": "vel",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 193
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

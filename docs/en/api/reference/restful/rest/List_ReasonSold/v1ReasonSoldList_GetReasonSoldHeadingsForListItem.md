@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Rempel LLC",
-    "ToolTip": "Sit non ut sit harum repellat repudiandae.",
+    "Id": 60,
+    "Name": "Medhurst LLC",
+    "ToolTip": "Quae aut.",
     "Deleted": false,
-    "Rank": 623,
-    "Type": "dolorem",
-    "ColorBlock": 991,
-    "IconHint": "harum",
+    "Rank": 284,
+    "Type": "sunt",
+    "ColorBlock": 2,
+    "IconHint": "sequi",
     "Selected": true,
-    "LastChanged": "2020-08-03T11:16:14.7151586+02:00",
+    "LastChanged": "1999-10-11T12:57:43.7144965+02:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Bernhard LLC",
-        "ToolTip": "Voluptatem molestiae atque est.",
-        "Deleted": false,
-        "Rank": 706,
-        "Type": "doloremque",
-        "ColorBlock": 682,
-        "IconHint": "amet",
+        "Id": 404,
+        "Name": "Funk-Brown",
+        "ToolTip": "Deserunt maiores.",
+        "Deleted": true,
+        "Rank": 778,
+        "Type": "enim",
+        "ColorBlock": 396,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2015-06-17T11:16:14.7151586+02:00",
+        "LastChanged": "2022-06-06T12:57:43.7144965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Miss Linwood Altenwerth",
+        "ExtraInfo": "minima",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "David Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 136
+            "FieldType": "System.Int32",
+            "FieldLength": 480
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "at",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Kane Kihn",
+    "FullName": "Hannah Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 456
+        "FieldLength": 323
       }
     }
   }

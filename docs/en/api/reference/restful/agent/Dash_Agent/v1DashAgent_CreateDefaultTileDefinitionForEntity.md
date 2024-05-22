@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Simonis-Langosh"
+  "EntityName": "Kuphal Inc and Sons"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 959,
-  "Name": "Brown Group",
-  "Description": "Synchronised tangible project",
-  "DefaultHeight": 551,
-  "DefaultWidth": 9,
+  "DashboardTileDefinitionId": 124,
+  "Name": "Quigley-Schulist",
+  "Description": "Diverse mobile projection",
+  "DefaultHeight": 899,
+  "DefaultWidth": 496,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Walker, Senger and Rolfson",
-  "SelectionId": 884,
+  "EntityName": "Kuhn Group",
+  "SelectionId": 960,
   "CurrencyMode": "Base",
-  "CurrencyCode": "hic",
+  "CurrencyCode": "esse",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "temporibus",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 412,
-  "MeasureByField": "odit",
+  "MeasureField": "alias",
+  "SortBy": "tenetur",
+  "LayoutConfig": "libero",
+  "SecondarySelectionId": 364,
+  "MeasureByField": "id",
   "Usage": "Dashboard",
-  "ProviderName": "Herzog, Hahn and Haag",
+  "ProviderName": "Streich Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 442
     }
   }
 }

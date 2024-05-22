@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 528,
-  "PlainMessage": "amet",
-  "HtmlMessage": "ea",
-  "SmsMessage": "eius",
-  "Description": "Profound secondary paradigm",
-  "Subject": "deleniti",
-  "FolderId": 386,
-  "HeaderField": "perspiciatis",
-  "Design": "fugit",
+  "ShipmentMessageId": 653,
+  "PlainMessage": "quibusdam",
+  "HtmlMessage": "temporibus",
+  "SmsMessage": "id",
+  "Description": "Universal composite moderator",
+  "Subject": "laudantium",
+  "FolderId": 337,
+  "HeaderField": "quo",
+  "Design": "officia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Decentralized coherent Graphic Interface",
-  "AccessKey": "consequatur",
-  "DocumentMessage": 773,
-  "Registered": "2018-10-25T11:16:09.3815779+02:00",
-  "RegisteredAssociateId": 226,
-  "Updated": "2016-01-24T11:16:09.3815779+01:00",
-  "UpdatedAssociateId": 659,
-  "UpdatedCount": 365,
+  "InlineImages": false,
+  "LongDescription": "Function-based 6th generation concept",
+  "AccessKey": "et",
+  "DocumentMessage": 631,
+  "Registered": "2002-06-29T12:57:34.2429559+02:00",
+  "RegisteredAssociateId": 336,
+  "Updated": "2022-11-16T12:57:34.2429559+01:00",
+  "UpdatedAssociateId": 187,
+  "UpdatedCount": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

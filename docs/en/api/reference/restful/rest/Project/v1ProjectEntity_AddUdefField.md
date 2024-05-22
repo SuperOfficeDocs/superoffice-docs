@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 94,
-  "ColumnId": 117,
-  "FieldDefault": "recusandae",
-  "FieldHeight": 619,
-  "FieldLabel": "enim",
-  "FieldLeft": 940,
-  "FieldTop": 830,
+  "UDefFieldId": 394,
+  "ColumnId": 976,
+  "FieldDefault": "quidem",
+  "FieldHeight": 473,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 679,
+  "FieldTop": 586,
   "FieldType": "Checkbox",
-  "FieldWidth": 770,
-  "FormatMask": "inventore",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 20,
-  "LabelLeft": 790,
-  "LabelTop": 797,
-  "LabelWidth": 455,
-  "LastVersionId": 325,
-  "ListTableId": 726,
-  "IsMandatory": true,
+  "FieldWidth": 45,
+  "FormatMask": "ea",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 480,
+  "LabelLeft": 873,
+  "LabelTop": 815,
+  "LabelWidth": 771,
+  "LastVersionId": 676,
+  "ListTableId": 583,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 795,
-  "ProgId": "tempora",
-  "IsReadOnly": true,
-  "ShortLabel": "veniam",
-  "TabOrder": 986,
-  "TextLength": 744,
-  "Tooltip": "numquam",
-  "UdefIdentity": 145,
-  "UDListDefinitionId": 850,
+  "Page1LineNo": 251,
+  "ProgId": "qui",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 447,
+  "TextLength": 367,
+  "Tooltip": "quos",
+  "UdefIdentity": 698,
+  "UDListDefinitionId": 744,
   "Justification": "Center",
-  "Version": 925,
-  "TemplateVariableName": "Sawayn Group",
+  "Version": 692,
+  "TemplateVariableName": "Zboncak Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Shields-Bayer",
+  "MdoListName": "Christiansen LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 688
     }
   }
 }

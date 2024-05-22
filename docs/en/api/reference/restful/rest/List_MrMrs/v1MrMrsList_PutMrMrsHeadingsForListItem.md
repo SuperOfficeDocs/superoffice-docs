@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Ullrich Group",
-    "ToolTip": "Incidunt nemo consequatur est quo ut.",
+    "Id": 713,
+    "Name": "Wuckert Inc and Sons",
+    "ToolTip": "Porro aut quidem harum.",
     "Deleted": false,
-    "Rank": 524,
-    "Type": "laborum",
-    "ColorBlock": 831,
-    "IconHint": "accusamus",
+    "Rank": 218,
+    "Type": "optio",
+    "ColorBlock": 253,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2009-10-22T11:16:14.5901626+02:00",
+    "LastChanged": "2018-01-27T12:57:43.5114182+01:00",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Dietrich LLC",
-        "ToolTip": "Exercitationem dolores est ducimus expedita eos ipsam ut.",
+        "Id": 125,
+        "Name": "Walter, Schoen and Hermann",
+        "ToolTip": "Sed perferendis enim aperiam ut magni.",
         "Deleted": false,
-        "Rank": 203,
-        "Type": "odio",
-        "ColorBlock": 785,
-        "IconHint": "quibusdam",
+        "Rank": 890,
+        "Type": "sed",
+        "ColorBlock": 819,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2014-02-06T11:16:14.5901626+01:00",
+        "LastChanged": "1999-03-24T12:57:43.5114182+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "quo",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Charlie Keebler"
+        "FullName": "Alvah Huels"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Arvel Tillman"
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "cumque",
+    "Hidden": false,
+    "FullName": "Euna Ankunding"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Bartoletti-Bergstrom",
-    "ToolTip": "Inventore veritatis et velit magnam magni cupiditate quidem.",
-    "Deleted": true,
-    "Rank": 131,
-    "Type": "et",
-    "ColorBlock": 489,
-    "IconHint": "in",
+    "Id": 397,
+    "Name": "Schuppe Inc and Sons",
+    "ToolTip": "Ducimus possimus tenetur illo.",
+    "Deleted": false,
+    "Rank": 274,
+    "Type": "rem",
+    "ColorBlock": 972,
+    "IconHint": "pariatur",
     "Selected": false,
-    "LastChanged": "2004-03-30T11:16:14.5901626+02:00",
+    "LastChanged": "2023-05-16T12:57:43.5114182+02:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Tillman-Rippin",
-        "ToolTip": "Omnis nostrum quia et delectus impedit minus sint.",
-        "Deleted": true,
-        "Rank": 30,
-        "Type": "dolore",
-        "ColorBlock": 787,
-        "IconHint": "et",
+        "Id": 114,
+        "Name": "Russel, Berge and Mueller",
+        "ToolTip": "Itaque aut ut et ducimus modi.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "perspiciatis",
+        "ColorBlock": 609,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2014-03-23T11:16:14.5901626+01:00",
+        "LastChanged": "2000-06-14T12:57:43.5114182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Ruthie Ondricka",
+        "ExtraInfo": "dolore",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Mr. Valentin Dangelo Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 987
+            "FieldLength": 838
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "quia",
+    "ExtraInfo": "ea",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Eloise Thea Stroman Sr.",
+    "FullName": "Tito Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldLength": 509
       }
     }
   }

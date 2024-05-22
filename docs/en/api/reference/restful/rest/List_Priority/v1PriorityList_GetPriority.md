@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Klocko, Bode and Fritsch",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 730,
-  "Rank": 999,
+  "Id": 316,
+  "Name": "Huels LLC",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "UdListDefinitionId": 382,
+  "Rank": 286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 99
     }
   }
 }

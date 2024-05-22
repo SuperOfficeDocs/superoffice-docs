@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 404,
-  "Section": "culpa",
-  "Key": "rerum",
-  "Name": "Romaguera Inc and Sons",
+  "PrefDescId": 236,
+  "Section": "tenetur",
+  "Key": "suscipit",
+  "Name": "Douglas, Abshire and Pagac",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Universal 4th generation migration",
-  "IsBuiltin": false,
-  "TableName": "Farrell Inc and Sons",
-  "UserDefinedListId": 158,
-  "Rank": 435,
-  "SubGroup": "voluptatem",
-  "MinLevel": 649,
-  "MaxValue": 63,
-  "MinValue": 92,
-  "RequiredLicense": "et",
+  "Description": "Customer-focused systematic product",
+  "IsBuiltin": true,
+  "TableName": "Hahn-Olson",
+  "UserDefinedListId": 24,
+  "Rank": 407,
+  "SubGroup": "tempora",
+  "MinLevel": 221,
+  "MaxValue": 827,
+  "MinValue": 956,
+  "RequiredLicense": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldType": "System.Int32",
+      "FieldLength": 617
     }
   }
 }

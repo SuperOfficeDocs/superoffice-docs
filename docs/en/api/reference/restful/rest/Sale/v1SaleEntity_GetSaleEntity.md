@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 07 May 2000 11:16:14 G5T
+Last-Modified: Fri, 11 Aug 2017 12:57:42 G8T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Sun, 07 May 2000 11:16:14 G5T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "optio",
+  "SaleText": "eligendi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Sun, 07 May 2000 11:16:14 G5T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-07-17T11:16:14.1675606+02:00",
-  "Amount": 8750.128,
-  "SaleId": 761,
-  "Earning": 22922.076,
-  "EarningPercent": 12379.3,
-  "Heading": "molestiae",
-  "Number": "1639742",
-  "Probability": 530,
-  "CreatedDate": "2015-02-07T11:16:14.1675606+01:00",
-  "UpdatedDate": "2000-05-07T11:16:14.1675606+02:00",
+  "Saledate": "2012-06-27T12:57:42.7138204+02:00",
+  "Amount": 24977.98,
+  "SaleId": 37,
+  "Earning": 18506.27,
+  "EarningPercent": 22229.462,
+  "Heading": "dolor",
+  "Number": "1242858",
+  "Probability": 420,
+  "CreatedDate": "2005-02-18T12:57:42.7138204+01:00",
+  "UpdatedDate": "2017-08-11T12:57:42.7138204+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 917,
+  "ActiveLinks": 638,
   "Links": [
     {
-      "EntityName": "Lind Group",
-      "Id": 923,
-      "Description": "Multi-layered hybrid process improvement",
-      "ExtraInfo": "aliquam",
-      "LinkId": 655,
+      "EntityName": "Beahan-Graham",
+      "Id": 775,
+      "Description": "Reduced 24/7 software",
+      "ExtraInfo": "deleniti",
+      "LinkId": 371,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldLength": 845
         }
       }
     }
   ],
-  "NextDueDate": "2013-10-03T11:16:14.1675606+02:00",
-  "Postit": "placeat",
+  "NextDueDate": "2005-06-18T12:57:42.7138204+02:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-02-07T11:16:14.1675606+01:00",
+  "ReopenDate": "2017-01-03T12:57:42.7138204+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Barrows-Trantow",
-      "Comment": "magni",
-      "StakeholderRoleId": 129,
-      "CountryId": 926,
-      "PersonId": 53,
-      "EmailDescription": "cynthia@morissette.info",
-      "EmailId": 422,
-      "EmailAddress": "seamus.graham@bednardamore.us",
-      "PhoneId": 737,
-      "ContactName": "Hackett Group",
-      "ContactId": 559,
-      "SaleId": 800,
-      "Mrmrs": "repudiandae",
-      "Firstname": "Armani",
-      "MiddleName": "Collier LLC",
-      "Lastname": "Murphy",
-      "SaleStakeholderId": 759,
-      "Rank": 211,
-      "Phone": "1-180-911-8654 x09676",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 703,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1147475157",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "at"
-  },
-  "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "accusantium"
-  },
-  "PublishEventDate": "2006-12-09T11:16:14.1675606+01:00",
-  "PublishTo": "2006-02-28T11:16:14.1675606+01:00",
-  "PublishFrom": "2011-06-18T11:16:14.1675606+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 941,
-      "Visibility": "All",
-      "DisplayValue": "similique",
+      "StakeholderRoleName": "Kiehn-Reichel",
+      "Comment": "natus",
+      "StakeholderRoleId": 132,
+      "CountryId": 543,
+      "PersonId": 368,
+      "EmailDescription": "corbin_nader@rath.biz",
+      "EmailId": 403,
+      "EmailAddress": "garrett@ondricka.us",
+      "PhoneId": 591,
+      "ContactName": "Boyle Group",
+      "ContactId": 63,
+      "SaleId": 876,
+      "Mrmrs": "voluptates",
+      "Firstname": "Rickey",
+      "MiddleName": "Kshlerin LLC",
+      "Lastname": "Paucek",
+      "SaleStakeholderId": 478,
+      "Rank": 216,
+      "Phone": "174-196-0973 x36440",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 565
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 55,
+  "UserDefinedFields": {
+    "SuperOffice:1": "624795852",
+    "SuperOffice:2": "Morris Batz"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "velit",
+    "ExtraFields2": "accusamus"
+  },
+  "CustomFields": {
+    "CustomFields1": "inventore",
+    "CustomFields2": "debitis"
+  },
+  "PublishEventDate": "2014-12-28T12:57:42.7138204+01:00",
+  "PublishTo": "2020-10-03T12:57:42.7138204+02:00",
+  "PublishFrom": "2012-11-22T12:57:42.7138204+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 698,
+      "Visibility": "All",
+      "DisplayValue": "praesentium",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 113
         }
       }
     },
     {
-      "VisibleId": 941,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 113
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Sun, 07 May 2000 11:16:14 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 116
     }
   },
   "_Links": {

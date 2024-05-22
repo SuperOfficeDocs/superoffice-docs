@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Morar-Friesen",
-  "ListItemId": 153,
+  "UdListDefinitionName": "Kohler-Zboncak",
+  "ListItemId": 476,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Smith-Pfeffer",
-    "ToolTip": "Iste pariatur temporibus voluptas officiis necessitatibus et.",
-    "Deleted": false,
-    "Rank": 964,
-    "Type": "sed",
-    "ColorBlock": 396,
-    "IconHint": "omnis",
+    "Id": 57,
+    "Name": "Beatty, Hoppe and Kuhlman",
+    "ToolTip": "Ut et quo repudiandae perferendis cumque.",
+    "Deleted": true,
+    "Rank": 433,
+    "Type": "necessitatibus",
+    "ColorBlock": 718,
+    "IconHint": "aspernatur",
     "Selected": true,
-    "LastChanged": "2001-11-12T11:16:09.3347069+01:00",
+    "LastChanged": "2001-05-08T12:57:34.1492269+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Leffler-Bashirian",
-        "ToolTip": "Corrupti vitae eaque.",
+        "Id": 373,
+        "Name": "Jacobi Group",
+        "ToolTip": "Ipsam recusandae rerum voluptatem consequatur.",
         "Deleted": true,
-        "Rank": 81,
-        "Type": "modi",
-        "ColorBlock": 983,
-        "IconHint": "dolores",
+        "Rank": 916,
+        "Type": "quasi",
+        "ColorBlock": 95,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2007-04-22T11:16:09.3347069+02:00",
+        "LastChanged": "2021-07-13T12:57:34.1492269+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Roel Goyette",
+        "ExtraInfo": "et",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Rickie Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldType": "System.String",
+            "FieldLength": 81
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "magnam",
+    "ExtraInfo": "similique",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Orval Skiles",
+    "FullName": "Ms. Mabel Greenholt DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 691
       }
     }
   }

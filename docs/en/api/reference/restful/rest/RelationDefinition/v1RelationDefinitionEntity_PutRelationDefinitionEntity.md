@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 640,
-  "Name": "Stokes, Beier and Hammes",
-  "Tooltip": "eum",
-  "PassiveText": "aut",
-  "Deleted": false,
-  "Rank": 900,
+  "ReldefId": 954,
+  "Name": "Harber Inc and Sons",
+  "Tooltip": "et",
+  "PassiveText": "placeat",
+  "Deleted": true,
+  "Rank": 578,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,25 +115,25 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 70,
-  "Name": "Marquardt-D'Amore",
-  "Tooltip": "animi",
-  "PassiveText": "culpa",
+  "ReldefId": 402,
+  "Name": "Breitenberg, McDermott and Stokes",
+  "Tooltip": "unde",
+  "PassiveText": "maiores",
   "Deleted": false,
-  "Rank": 340,
+  "Rank": 161,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 972
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

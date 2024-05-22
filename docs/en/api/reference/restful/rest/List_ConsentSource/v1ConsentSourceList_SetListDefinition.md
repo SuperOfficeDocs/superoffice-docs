@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 322,
-  "Name": "Kerluke Inc and Sons",
-  "Tooltip": "laboriosam",
+  "Id": 733,
+  "Name": "Sporer Inc and Sons",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 528,
+  "Rank": 278,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "praesentium",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ea",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 346,
-  "Name": "Howell, Wunsch and Sporer",
-  "Tooltip": "ut",
+  "Id": 895,
+  "Name": "Gutmann LLC",
+  "Tooltip": "vero",
   "Deleted": true,
-  "Rank": 69,
+  "Rank": 388,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldType": "System.String",
+      "FieldLength": 428
     }
   }
 }

@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 789,
-  "Name": "Heller, Gottlieb and Monahan",
-  "ContentType": "ad",
-  "AttSize": 421,
+  "AttachmentId": 804,
+  "Name": "Larkin, Batz and Shields",
+  "ContentType": "quaerat",
+  "AttSize": 597,
   "InlineImage": true,
   "ContentId": "ducimus",
-  "AuthKey": "non",
-  "IsSafeFileExtension": false,
+  "AuthKey": "nihil",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldType": "System.String",
+      "FieldLength": 19
     }
   }
 }

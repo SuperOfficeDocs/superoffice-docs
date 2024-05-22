@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rosenbaum-Carroll",
+  "TableName": "Harber, Herman and Lindgren",
   "Columns": [
-    "repellat",
-    "et"
+    "dolores",
+    "temporibus"
   ],
   "Keys": [
-    "reiciendis",
-    "laboriosam"
+    "aperiam",
+    "voluptas"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": true
+  "ReturnRowStatus": false
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "eaque",
-  "Inserts": 432,
-  "Updates": 818,
-  "Deletes": 881,
+  "Message": "illo",
+  "Inserts": 940,
+  "Updates": 209,
+  "Deletes": 993,
   "RowStatus": [
     {
-      "PrimaryKey": 380,
+      "PrimaryKey": 323,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "itaque",
-        "vero"
+        "quia",
+        "voluptates"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 517
+          "FieldLength": 168
         }
       }
     },
     {
-      "PrimaryKey": 380,
+      "PrimaryKey": 323,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "itaque",
-        "vero"
+        "quia",
+        "voluptates"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 517
+          "FieldLength": 168
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   }
 }

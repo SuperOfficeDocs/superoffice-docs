@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 799,
+  "TargetYear": 657,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 100,
-  "DimensionId": 977
+  "Id": 384,
+  "DimensionId": 381
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 567,
+  "TargetAssignmentInfoId": 344,
   "Values": [
-    902,
-    901
+    352,
+    791
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 3,
-  "DimensionListItemDisplayName": "Spencer-Bode",
+  "DimensionListItem": 502,
+  "DimensionListItemDisplayName": "Bashirian-Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 419
     }
   }
 }

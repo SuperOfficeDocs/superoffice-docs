@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 551,
-  "Name": "Kub, Braun and Jerde",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 410,
-  "UdListDefinitionId": 411
+  "HeadingId": 533,
+  "Name": "Hammes Inc and Sons",
+  "Tooltip": "beatae",
+  "Deleted": true,
+  "Rank": 726,
+  "UdListDefinitionId": 594
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 951,
-  "Name": "Wilkinson-Corwin",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 672,
-  "UdListDefinitionId": 927,
+  "HeadingId": 364,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "Rank": 964,
+  "UdListDefinitionId": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 995
     }
   }
 }

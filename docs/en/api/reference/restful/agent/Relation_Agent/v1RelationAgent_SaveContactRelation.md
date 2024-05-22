@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 590,
-  "SourcePersonId": 451,
-  "DestinationContactId": 161,
-  "DestinationPersonId": 57,
-  "RelationId": 695,
-  "Comment": "eos",
-  "RelationDefinitionId": 812,
-  "Reversed": 397,
-  "UpdatedDate": "2010-03-26T11:16:09.6317604+01:00",
-  "CreatedDate": "2018-12-24T11:16:09.6317604+01:00",
+  "SourceContactId": 264,
+  "SourcePersonId": 758,
+  "DestinationContactId": 908,
+  "DestinationPersonId": 969,
+  "RelationId": 104,
+  "Comment": "expedita",
+  "RelationDefinitionId": 614,
+  "Reversed": 952,
+  "UpdatedDate": "2003-01-12T12:57:34.7740549+01:00",
+  "CreatedDate": "2011-04-21T12:57:34.7740549+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kub Inc and Sons",
-  "SourcePersonName": "Ratke, Hane and Gottlieb",
-  "DestinationContactName": "Mohr, Ryan and Lowe",
-  "DestinationPersonName": "Heller, Kub and Graham",
-  "ActiveText": "dolorem",
-  "PassiveText": "repellat",
+  "SourceContactName": "Jenkins-Kerluke",
+  "SourcePersonName": "Lebsack, Schoen and Keeling",
+  "DestinationContactName": "Fisher-Cronin",
+  "DestinationPersonName": "Erdman, Gorczany and Zulauf",
+  "ActiveText": "quidem",
+  "PassiveText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 23 Nov 2005 11:16:13 G11T
+Last-Modified: Tue, 25 Nov 2003 12:57:42 G11T
 
 {
-  "Key": "sequi",
-  "Value": "ex",
-  "RecordId": 378,
-  "CreatedDate": "1998-03-21T11:16:13.93321+01:00",
-  "UpdatedDate": "2005-11-23T11:16:13.93321+01:00",
-  "UpdatedBy": "placeat",
-  "CreatedBy": "officia",
-  "TableName": "Ledner LLC",
+  "Key": "dolorum",
+  "Value": "distinctio",
+  "RecordId": 40,
+  "CreatedDate": "2019-06-12T12:57:42.448256+02:00",
+  "UpdatedDate": "2003-11-25T12:57:42.448256+01:00",
+  "UpdatedBy": "accusamus",
+  "CreatedBy": "qui",
+  "TableName": "Koelpin, Goodwin and Langworth",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 621
     }
   }
 }

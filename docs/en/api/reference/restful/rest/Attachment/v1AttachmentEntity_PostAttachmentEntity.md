@@ -90,17 +90,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 884,
-  "Name": "Kemmer, Schowalter and Sporer",
-  "ContentType": "velit",
-  "AttSize": 322,
+  "AttachmentId": 51,
+  "Name": "Dicki, West and Larson",
+  "ContentType": "consequatur",
+  "AttSize": 624,
   "InlineImage": false,
-  "ContentId": "voluptatibus",
-  "AuthKey": "animi",
+  "ContentId": "rem",
+  "AuthKey": "quibusdam",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 226,
-  "Name": "Harber, Kassulke and Davis",
-  "ContentType": "reprehenderit",
-  "AttSize": 328,
+  "AttachmentId": 930,
+  "Name": "Monahan-Dooley",
+  "ContentType": "et",
+  "AttSize": 666,
   "InlineImage": false,
-  "ContentId": "voluptates",
-  "AuthKey": "et",
-  "IsSafeFileExtension": false,
+  "ContentId": "et",
+  "AuthKey": "esse",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 125
     }
   },
   "_Links": {

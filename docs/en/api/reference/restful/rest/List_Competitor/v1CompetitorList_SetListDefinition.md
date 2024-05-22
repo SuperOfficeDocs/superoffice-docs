@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Hahn Group",
-  "Tooltip": "accusamus",
+  "Id": 873,
+  "Name": "Becker LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 288,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 319,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
+  "ListType": "libero",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Ondricka Group",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 66,
+  "Id": 594,
+  "Name": "Shanahan Group",
+  "Tooltip": "quasi",
+  "Deleted": true,
+  "Rank": 566,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldLength": 539
     }
   }
 }

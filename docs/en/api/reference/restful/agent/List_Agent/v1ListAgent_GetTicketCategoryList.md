@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 110,
-    "ParentId": 34,
-    "Name": "Schmidt, Schamberger and Witting",
-    "Fullname": "dolores",
-    "CategoryMaster": 416,
+    "TicketCategoryId": 35,
+    "ParentId": 760,
+    "Name": "Braun-Strosin",
+    "Fullname": "exercitationem",
+    "CategoryMaster": 159,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Schoen, Pacocha and McCullough",
+    "ExternalName": "Koelpin Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 328,
-    "ReplyTemplate": 565,
-    "NotificationEmail": "deion_vonrueden@lubowitz.com",
+    "AssignmentLag": 560,
+    "ReplyTemplate": 360,
+    "NotificationEmail": "noel.zemlak@reichert.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 818,
+    "EffectiveReplyTemplateId": 486,
     "ExtraFields": {
-      "ExtraFields1": "at",
-      "ExtraFields2": "cum"
+      "ExtraFields1": "itaque",
+      "ExtraFields2": "et"
     },
     "CustomFields": {
-      "CustomFields1": "mollitia",
-      "CustomFields2": "eveniet"
+      "CustomFields1": "autem",
+      "CustomFields2": "reprehenderit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 23
+        "FieldLength": 766
       }
     }
   }

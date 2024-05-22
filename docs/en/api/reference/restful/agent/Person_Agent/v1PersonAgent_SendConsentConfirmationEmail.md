@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 1001,
-  "EmailAddress": "leta@heathcote.us",
-  "EmailTemplateId": 859,
-  "CultureLcidId": 476,
-  "Subject": "praesentium"
+  "PersonId": 489,
+  "EmailAddress": "zola_littel@langoshcassin.info",
+  "EmailTemplateId": 189,
+  "CultureLcidId": 832,
+  "Subject": "asperiores"
 }
 ```
 

@@ -88,38 +88,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 489,
-  "Name": "Barrows LLC",
-  "Rank": 848,
-  "Tooltip": "nemo",
-  "Icon": "aut",
-  "DefaultTicketStatus": 231,
+  "TicketTypeId": 103,
+  "Name": "Spencer-Gaylord",
+  "Rank": 958,
+  "Tooltip": "adipisci",
+  "Icon": "illum",
+  "DefaultTicketStatus": 131,
   "TicketStatuses": [
-    340,
-    661
+    570,
+    908
   ],
-  "DefaultTicketPriority": 913,
+  "DefaultTicketPriority": 286,
   "TicketPriorities": [
-    957,
-    440
+    394,
+    518
   ],
-  "ReplyTemplate": 824,
+  "ReplyTemplate": 2,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    772,
-    491
+    438,
+    754
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 843
     }
   }
 }

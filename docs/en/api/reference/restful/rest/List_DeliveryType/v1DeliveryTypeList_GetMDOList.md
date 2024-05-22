@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=est
+GET /api/v1/List/DeliveryType/MDOItems?query=magnam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Reinger, Russel and Leuschke",
-    "ToolTip": "Rerum deserunt vitae cupiditate aliquam.",
+    "Id": 551,
+    "Name": "Ebert-Waelchi",
+    "ToolTip": "Blanditiis deleniti deserunt laboriosam aut.",
     "Deleted": false,
-    "Rank": 652,
-    "Type": "eum",
+    "Rank": 371,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Schultz, Kris and Reichert",
-        "ToolTip": "Voluptatem quod.",
-        "Deleted": true,
-        "Rank": 425,
-        "Type": "vero",
+        "Id": 999,
+        "Name": "Rosenbaum-Johnson",
+        "ToolTip": "Consequatur ut at rerum nobis hic.",
+        "Deleted": false,
+        "Rank": 289,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eius",
-        "ColorBlock": 134,
-        "ExtraInfo": "ut",
-        "StyleHint": "non",
-        "FullName": "Adrianna Legros",
+        "IconHint": "veniam",
+        "ColorBlock": 649,
+        "ExtraInfo": "amet",
+        "StyleHint": "ipsa",
+        "FullName": "Miss Jovanny Cortez Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 814
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 638,
-    "ExtraInfo": "vel",
-    "StyleHint": "neque",
-    "FullName": "Maida Crooks",
+    "IconHint": "quia",
+    "ColorBlock": 732,
+    "ExtraInfo": "aliquid",
+    "StyleHint": "quia",
+    "FullName": "Jeromy Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 375
       }
     }
   }

@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rosenbaum-Stark",
+  "Name": "Farrell, Pagac and Friesen",
   "ForceFlatList": false,
-  "AdditionalInfo": "sunt",
+  "AdditionalInfo": "eligendi",
   "HistoryItems": [
-    712,
-    259
+    854,
+    892
   ],
   "OnlyHistory": true
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Watsica LLC",
-    "ToolTip": "Voluptatem placeat.",
+    "Id": 907,
+    "Name": "Turcotte, Kiehn and Donnelly",
+    "ToolTip": "Alias sed rem molestias.",
     "Deleted": true,
-    "Rank": 457,
-    "Type": "odit",
+    "Rank": 919,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Schumm LLC",
-        "ToolTip": "Voluptatibus ab et adipisci et voluptates.",
-        "Deleted": false,
-        "Rank": 427,
-        "Type": "voluptate",
+        "Id": 956,
+        "Name": "O'Hara-Schimmel",
+        "ToolTip": "Quibusdam et sunt enim qui laboriosam.",
+        "Deleted": true,
+        "Rank": 706,
+        "Type": "officia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 231,
-        "ExtraInfo": "rerum",
-        "StyleHint": "atque",
-        "FullName": "Estevan O'Reilly",
+        "IconHint": "repellat",
+        "ColorBlock": 38,
+        "ExtraInfo": "aut",
+        "StyleHint": "tempore",
+        "FullName": "Juana David Yost IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 737
+            "FieldLength": 858
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 82,
-    "ExtraInfo": "nihil",
-    "StyleHint": "voluptatem",
-    "FullName": "Mr. Norma Leffler II",
+    "IconHint": "omnis",
+    "ColorBlock": 942,
+    "ExtraInfo": "ratione",
+    "StyleHint": "perferendis",
+    "FullName": "Sophia Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 347
       }
     }
   }

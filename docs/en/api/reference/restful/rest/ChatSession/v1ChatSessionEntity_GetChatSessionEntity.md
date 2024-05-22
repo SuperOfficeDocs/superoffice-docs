@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 385,
-  "TopicId": 668,
+  "ChatSessionId": 577,
+  "TopicId": 255,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ex",
-  "CustomerHost": "ut",
-  "CustomerName": "Larkin LLC",
-  "CustomerEmail": "cierra@ziemann.us",
-  "CustomerPhone": "1-539-401-9751 x6220",
+  "CustomerAlias": "magnam",
+  "CustomerHost": "doloremque",
+  "CustomerName": "Kilback LLC",
+  "CustomerEmail": "wilhelm_mccullough@hegmannlockman.info",
+  "CustomerPhone": "200.895.6897 x691",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Collier LLC",
+  "CustomerCompanyName": "Dicki-Davis",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "eius",
-  "WhenRequested": "2002-06-20T11:16:13.6674984+02:00",
-  "WhenStarted": "2011-01-02T11:16:13.6674984+01:00",
-  "WhenEnded": "2006-10-23T11:16:13.6674984+02:00",
-  "WhenIdle": "2011-12-14T11:16:13.6674984+01:00",
-  "WhenFetched": "2006-08-01T11:16:13.6674984+02:00",
-  "SessionKey": "quo",
-  "InitialQueuePos": 915,
-  "AlertLevel": 974,
-  "Rank": 472,
+  "FirstMessage": "consequatur",
+  "LastMessage": "autem",
+  "WhenRequested": "2003-02-11T12:57:41.9171273+01:00",
+  "WhenStarted": "2000-01-16T12:57:41.9171273+01:00",
+  "WhenEnded": "2015-02-19T12:57:41.9171273+01:00",
+  "WhenIdle": "1997-07-22T12:57:41.9171273+02:00",
+  "WhenFetched": "2000-05-05T12:57:41.9171273+02:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 64,
+  "AlertLevel": 357,
+  "Rank": 816,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 456,
+  "ChatbotIsActive": false,
+  "Rating": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 595
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

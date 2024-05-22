@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 52,
-    "Section": "ad",
-    "Key": "aliquid",
-    "Name": "Parisian Group",
+    "PrefDescId": 837,
+    "Section": "nesciunt",
+    "Key": "dignissimos",
+    "Name": "Schulist-Boyle",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Optional user-facing alliance",
+    "Description": "Streamlined empowering info-mediaries",
     "IsBuiltin": true,
-    "TableName": "Gutmann-Larkin",
-    "UserDefinedListId": 374,
-    "Rank": 153,
-    "SubGroup": "voluptate",
-    "MinLevel": 251,
-    "MaxValue": 240,
-    "MinValue": 864,
-    "RequiredLicense": "ratione",
+    "TableName": "Blick Group",
+    "UserDefinedListId": 827,
+    "Rank": 391,
+    "SubGroup": "perspiciatis",
+    "MinLevel": 137,
+    "MaxValue": 238,
+    "MinValue": 514,
+    "RequiredLicense": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 399
       }
     }
   }

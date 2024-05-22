@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Volkman Group",
-    "ToolTip": "Et suscipit nulla ut vitae quia sit ut.",
+    "Id": 965,
+    "Name": "Windler, Douglas and Okuneva",
+    "ToolTip": "Magni ut et consequuntur temporibus quia architecto omnis.",
     "Deleted": false,
-    "Rank": 835,
-    "Type": "adipisci",
-    "ColorBlock": 881,
-    "IconHint": "ratione",
+    "Rank": 139,
+    "Type": "ea",
+    "ColorBlock": 582,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2015-03-16T11:16:14.512052+01:00",
+    "LastChanged": "2020-03-09T12:57:43.3708249+01:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Boyle-Fadel",
-        "ToolTip": "Quo tenetur ut et odit.",
+        "Id": 139,
+        "Name": "Feeney Group",
+        "ToolTip": "Quis at qui quo eos rerum.",
         "Deleted": true,
-        "Rank": 130,
-        "Type": "ut",
-        "ColorBlock": 809,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2019-11-23T11:16:14.512052+01:00",
+        "Rank": 165,
+        "Type": "dolor",
+        "ColorBlock": 35,
+        "IconHint": "quae",
+        "Selected": false,
+        "LastChanged": "2005-07-27T12:57:43.3708249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "maiores",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "dignissimos",
         "Hidden": true,
-        "FullName": "Brendon Braun"
+        "FullName": "Miss Alvah Wisozk IV"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Alaina Kirlin"
+    "ExtraInfo": "magnam",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Rosalinda Reilly I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Kutch, Willms and Grady",
-    "ToolTip": "Qui laboriosam temporibus quae dolores adipisci.",
-    "Deleted": true,
-    "Rank": 159,
-    "Type": "dolores",
-    "ColorBlock": 203,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2020-01-01T11:16:14.512052+01:00",
+    "Id": 871,
+    "Name": "Schoen-Bins",
+    "ToolTip": "Impedit error reprehenderit.",
+    "Deleted": false,
+    "Rank": 797,
+    "Type": "officiis",
+    "ColorBlock": 180,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2014-06-25T12:57:43.3708249+02:00",
     "ChildItems": [
       {
-        "Id": 651,
-        "Name": "Mayert Group",
-        "ToolTip": "A qui et et rerum placeat.",
+        "Id": 411,
+        "Name": "Schmitt-Hyatt",
+        "ToolTip": "Mollitia aspernatur aut eum ducimus.",
         "Deleted": true,
-        "Rank": 614,
-        "Type": "ab",
-        "ColorBlock": 1000,
-        "IconHint": "labore",
+        "Rank": 423,
+        "Type": "et",
+        "ColorBlock": 674,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2022-12-25T11:16:14.512052+01:00",
+        "LastChanged": "2010-08-19T12:57:43.3708249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "laudantium",
-        "Hidden": true,
-        "FullName": "Mr. Otto Grant II",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Mackenzie Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldLength": 440
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mr. Carmine Tromp",
+    "ExtraInfo": "alias",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Anastasia Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

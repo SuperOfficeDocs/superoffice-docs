@@ -106,9 +106,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2022-06-03T11:16:09.6846608+02:00",
-  "ToDate": "2017-02-16T11:16:09.6846608+01:00",
-  "AmountLimit": 952,
+  "FromDate": "2011-10-04T12:57:34.8688339+02:00",
+  "ToDate": "1997-04-06T12:57:34.8688339+02:00",
+  "AmountLimit": 482,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Flatley, Prohaska and O'Reilly",
-    "SaleDate": "2014-03-15T11:16:09.6846608+01:00",
-    "SaleId": 148,
-    "Probability": 714,
-    "Title": "expedita",
-    "Amount": 10730.815999999999,
-    "Currency": "ducimus",
-    "ProjectName": "Dach, Sauer and Bergstrom",
-    "AssociateFullName": "Newton Jones",
-    "Description": "Integrated bifurcated product",
+    "ContactName": "Bogisich Inc and Sons",
+    "SaleDate": "2022-09-01T12:57:34.8688339+02:00",
+    "SaleId": 816,
+    "Probability": 774,
+    "Title": "voluptatum",
+    "Amount": 26908.523999999998,
+    "Currency": "aliquam",
+    "ProjectName": "Corwin Inc and Sons",
+    "AssociateFullName": "Ms. Margarete Kiel Windler V",
+    "Description": "Focused attitude-oriented info-mediaries",
     "Status": "Lost",
-    "WeightedAmount": 15322.126,
-    "ProjectId": 596,
-    "EarningPercent": 15309.59,
-    "Earning": 15952.06,
-    "ContactId": 88,
-    "AssociateId": 906,
-    "PersonId": 972,
-    "SaleTypeId": 654,
-    "SaleTypeName": "Kub LLC",
-    "PersonFullName": "Dr. Lance Nyasia Raynor",
+    "WeightedAmount": 4140.014,
+    "ProjectId": 889,
+    "EarningPercent": 15538.372,
+    "Earning": 7321.0239999999994,
+    "ContactId": 180,
+    "AssociateId": 64,
+    "PersonId": 934,
+    "SaleTypeId": 377,
+    "SaleTypeName": "Ruecker-Gleason",
+    "PersonFullName": "Noemi Lorenza Hudson DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 613,
-    "NextDueDate": "2014-04-27T11:16:09.6846608+02:00",
-    "Number": "1035689",
+    "ActiveErpLinks": 873,
+    "NextDueDate": "2018-04-28T12:57:34.8688339+02:00",
+    "Number": "677464",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldType": "System.String",
+        "FieldLength": 756
       }
     }
   }

@@ -91,11 +91,12 @@ as well as before any ORDER BY, are applied.
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
 |selectionAssociate/locationAddress|string|Location: Location| x |
+|selectionAssociate/isLocation|bool|Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=lastLoadedBy,selectionAssociate/fullName
+GET /api/v1/archive/FreetextSelection?$select=type,registeredBy,lastLoadedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

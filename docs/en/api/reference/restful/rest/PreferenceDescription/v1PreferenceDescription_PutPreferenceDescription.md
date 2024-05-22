@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 539,
-  "Section": "culpa",
-  "Key": "aspernatur",
-  "Name": "Leannon-Gerhold",
+  "PrefDescId": 599,
+  "Section": "qui",
+  "Key": "ab",
+  "Name": "Balistreri Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected demand-driven pricing structure",
+  "Description": "Innovative leading edge capability",
   "IsBuiltin": false,
-  "TableName": "Volkman, Johnston and Harber",
-  "UserDefinedListId": 995,
-  "Rank": 883,
-  "SubGroup": "nihil",
-  "MinLevel": 833,
-  "MaxValue": 807,
-  "MinValue": 671,
-  "RequiredLicense": "maxime"
+  "TableName": "Denesik Group",
+  "UserDefinedListId": 846,
+  "Rank": 448,
+  "SubGroup": "quidem",
+  "MinLevel": 198,
+  "MaxValue": 769,
+  "MinValue": 826,
+  "RequiredLicense": "consequatur"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 48,
-  "Section": "hic",
-  "Key": "harum",
-  "Name": "Ankunding, Marvin and Little",
+  "PrefDescId": 574,
+  "Section": "ad",
+  "Key": "et",
+  "Name": "Larson Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated 24 hour benchmark",
+  "Description": "Operative client-driven adapter",
   "IsBuiltin": true,
-  "TableName": "Bayer, Hilpert and Metz",
-  "UserDefinedListId": 38,
-  "Rank": 917,
-  "SubGroup": "inventore",
-  "MinLevel": 636,
-  "MaxValue": 399,
-  "MinValue": 924,
-  "RequiredLicense": "consequatur",
+  "TableName": "Johnson-Kihn",
+  "UserDefinedListId": 440,
+  "Rank": 363,
+  "SubGroup": "nam",
+  "MinLevel": 471,
+  "MaxValue": 656,
+  "MinValue": 421,
+  "RequiredLicense": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 783
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

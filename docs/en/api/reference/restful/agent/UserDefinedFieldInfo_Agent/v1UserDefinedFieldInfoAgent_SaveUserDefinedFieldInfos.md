@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 301,
-      "ColumnId": 692,
-      "FieldDefault": "ea",
-      "FieldHeight": 325,
-      "FieldLabel": "facilis",
-      "FieldLeft": 390,
-      "FieldTop": 492,
+      "UDefFieldId": 736,
+      "ColumnId": 38,
+      "FieldDefault": "perferendis",
+      "FieldHeight": 449,
+      "FieldLabel": "temporibus",
+      "FieldLeft": 11,
+      "FieldTop": 319,
       "FieldType": "Checkbox",
-      "FieldWidth": 619,
-      "FormatMask": "voluptatibus",
-      "HideLabel": true,
+      "FieldWidth": 779,
+      "FormatMask": "esse",
+      "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 871,
-      "LabelLeft": 263,
-      "LabelTop": 769,
-      "LabelWidth": 565,
-      "LastVersionId": 187,
-      "ListTableId": 883,
-      "IsMandatory": true,
+      "LabelHeight": 270,
+      "LabelLeft": 634,
+      "LabelTop": 898,
+      "LabelWidth": 861,
+      "LastVersionId": 416,
+      "ListTableId": 427,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 756,
-      "ProgId": "voluptatem",
+      "Page1LineNo": 887,
+      "ProgId": "velit",
       "IsReadOnly": false,
-      "ShortLabel": "qui",
-      "TabOrder": 386,
-      "TextLength": 297,
-      "Tooltip": "ut",
-      "UdefIdentity": 325,
-      "UDListDefinitionId": 995,
+      "ShortLabel": "nostrum",
+      "TabOrder": 726,
+      "TextLength": 295,
+      "Tooltip": "sequi",
+      "UdefIdentity": 2,
+      "UDListDefinitionId": 481,
       "Justification": "Center",
-      "Version": 918,
-      "TemplateVariableName": "Upton LLC",
+      "Version": 291,
+      "TemplateVariableName": "Leuschke Inc and Sons",
       "HasBeenPublished": false,
-      "MdoListName": "Crooks, Wolf and Kris"
+      "MdoListName": "Morar-Krajcik"
     }
   ]
 }

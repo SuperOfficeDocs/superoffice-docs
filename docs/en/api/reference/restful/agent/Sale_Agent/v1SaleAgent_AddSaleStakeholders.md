@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 618,
+  "SaleId": 383,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hackett, Davis and Thiel",
-      "Comment": "natus",
-      "StakeholderRoleId": 638,
-      "CountryId": 613,
-      "PersonId": 576,
-      "EmailDescription": "zena.dietrich@murray.info",
-      "EmailId": 780,
-      "EmailAddress": "leila@bins.com",
-      "PhoneId": 404,
-      "ContactName": "Stark, Jacobs and Altenwerth",
-      "ContactId": 986,
-      "SaleId": 605,
-      "Mrmrs": "asperiores",
-      "Firstname": "Pattie",
-      "MiddleName": "Gleichner LLC",
-      "Lastname": "McDermott",
-      "SaleStakeholderId": 85,
-      "Rank": 697,
-      "Phone": "573.831.0921 x875"
+      "StakeholderRoleName": "Bergnaum Inc and Sons",
+      "Comment": "qui",
+      "StakeholderRoleId": 600,
+      "CountryId": 141,
+      "PersonId": 299,
+      "EmailDescription": "bennie@mann.biz",
+      "EmailId": 473,
+      "EmailAddress": "brandon@cronin.co.uk",
+      "PhoneId": 816,
+      "ContactName": "Bergnaum LLC",
+      "ContactId": 380,
+      "SaleId": 86,
+      "Mrmrs": "perspiciatis",
+      "Firstname": "Era",
+      "MiddleName": "Breitenberg Group",
+      "Lastname": "Padberg",
+      "SaleStakeholderId": 926,
+      "Rank": 74,
+      "Phone": "543-824-4104 x4174"
     }
   ]
 }

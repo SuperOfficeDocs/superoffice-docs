@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 913
+  "AttachmentId": 654
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Moen LLC",
-  "MimeType": "eos",
-  "Size": 341,
+  "Name": "Tromp-Rice",
+  "MimeType": "ratione",
+  "Size": 311,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "kyra_reichert@macejkovic.name",
-  "EmailFrom": "brock_steuber@hessel.name",
-  "EmailTo": "malvina@koelpin.com",
-  "EmailCc": "stefanie.huels@bergnaumhuels.com",
-  "EmailDate": "2018-03-04T11:16:09.9761636+01:00",
+  "EmailSubject": "belle.wilkinson@rath.ca",
+  "EmailFrom": "antonette@legros.ca",
+  "EmailTo": "concepcion@veumryan.us",
+  "EmailCc": "raymundo@windler.us",
+  "EmailDate": "2010-08-09T12:57:35.2113938+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 508,
-      "Name": "O'Conner-Monahan",
-      "ContentType": "non",
-      "AttSize": 562,
+      "AttachmentId": 969,
+      "Name": "Schimmel-Herzog",
+      "ContentType": "porro",
+      "AttSize": 232,
       "InlineImage": false,
-      "ContentId": "maxime",
-      "AuthKey": "quod",
+      "ContentId": "iusto",
+      "AuthKey": "tempora",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldType": "System.String",
+          "FieldLength": 882
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

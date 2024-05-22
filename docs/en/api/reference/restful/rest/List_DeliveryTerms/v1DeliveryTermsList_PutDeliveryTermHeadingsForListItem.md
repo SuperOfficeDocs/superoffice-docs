@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Name": "Von-Beatty",
-    "ToolTip": "Quasi ut blanditiis porro ut ipsa sed est.",
+    "Id": 865,
+    "Name": "Weber-Berge",
+    "ToolTip": "Et sapiente.",
     "Deleted": true,
-    "Rank": 414,
-    "Type": "qui",
-    "ColorBlock": 525,
-    "IconHint": "tempora",
-    "Selected": false,
-    "LastChanged": "2017-09-15T11:16:14.5589219+02:00",
+    "Rank": 350,
+    "Type": "odit",
+    "ColorBlock": 901,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2007-01-14T12:57:43.4489324+01:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Miller Inc and Sons",
-        "ToolTip": "Cumque quibusdam consectetur distinctio esse.",
+        "Id": 240,
+        "Name": "Lang, O'Hara and Orn",
+        "ToolTip": "Occaecati quo quia amet consequatur voluptas non.",
         "Deleted": false,
-        "Rank": 692,
-        "Type": "magni",
-        "ColorBlock": 554,
-        "IconHint": "vel",
+        "Rank": 623,
+        "Type": "voluptatem",
+        "ColorBlock": 990,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2017-11-02T11:16:14.5589219+01:00",
+        "LastChanged": "2015-05-27T12:57:43.4489324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "et",
+        "ExtraInfo": "velit",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Kylee Beahan III"
+        "FullName": "Dr. Kirsten Kaycee Maggio Sr."
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Florida Cremin"
+    "FullName": "Gardner Upton"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Boyle LLC",
-    "ToolTip": "Ea facilis enim accusamus aliquid accusamus error vitae.",
+    "Id": 305,
+    "Name": "Reichel LLC",
+    "ToolTip": "Aut voluptas commodi.",
     "Deleted": false,
-    "Rank": 152,
-    "Type": "laboriosam",
-    "ColorBlock": 142,
-    "IconHint": "aut",
+    "Rank": 468,
+    "Type": "exercitationem",
+    "ColorBlock": 82,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2024-02-20T11:16:14.5589219+01:00",
+    "LastChanged": "2008-09-06T12:57:43.4489324+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Jast Inc and Sons",
-        "ToolTip": "Quis soluta dolorum.",
-        "Deleted": false,
-        "Rank": 286,
-        "Type": "nulla",
-        "ColorBlock": 618,
-        "IconHint": "eveniet",
+        "Id": 16,
+        "Name": "Rohan-Hansen",
+        "ToolTip": "Ut officia eum autem sunt enim odit sed.",
+        "Deleted": true,
+        "Rank": 178,
+        "Type": "est",
+        "ColorBlock": 501,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2013-02-26T11:16:14.5589219+01:00",
+        "LastChanged": "2018-07-18T12:57:43.4489324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Samson Mosciski",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Romaine Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 199
+            "FieldLength": 364
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "sint",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Raleigh Keebler",
+    "FullName": "Miss Grace Eileen Keeling PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 671
       }
     }
   }

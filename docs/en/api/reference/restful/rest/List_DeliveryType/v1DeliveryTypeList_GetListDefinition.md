@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 163,
-  "Name": "Stehr, Mills and Klocko",
-  "Tooltip": "nobis",
+  "Id": 935,
+  "Name": "McLaughlin-Roob",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 942,
-  "IsCustomList": false,
+  "Rank": 814,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 608
+      "FieldLength": 49
     }
   },
   "_Links": {

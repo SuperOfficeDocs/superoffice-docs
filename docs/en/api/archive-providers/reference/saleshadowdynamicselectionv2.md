@@ -74,6 +74,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -120,11 +121,11 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
-|person/personAssociateId|associate|Our contact: Displays our contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
@@ -132,6 +133,9 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |person/personDirectPhone/description|string|Direct - Description: Phone number description| x |
@@ -194,7 +198,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -222,13 +225,13 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
@@ -252,6 +255,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
 |person/personAssociate/locationAddress|string|Location: Location| x |
+|person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -283,6 +287,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |person/correspondingAssociate/userName|string|User name: User name| x |
 |person/correspondingAssociate/personEmail|string|E-mail| x |
 |person/correspondingAssociate/locationAddress|string|Location: Location| x |
+|person/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -324,15 +329,15 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |contact/email/emailAddress|string|E-mail| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/email/emailDescription|string|Description| x |
 |contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
@@ -408,6 +413,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |contact/contactAssociate/userName|string|User name: User name| x |
 |contact/contactAssociate/personEmail|string|E-mail| x |
 |contact/contactAssociate/locationAddress|string|Location: Location| x |
+|contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -423,20 +429,19 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
@@ -504,6 +509,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
+|associate/isLocation|bool|Is a location: Is a location| x |
 |saleUdef/SuperOffice:1|string|saleshorttext| x |
 |saleUdef/SuperOffice:2|string|salelongtext| x |
 |saleUdef/SuperOffice:3|int|salenumber| x |
@@ -531,16 +537,16 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |appointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |appointment/registeredBy|associate|Registered by: The user who registered the data| x |
 |appointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |appointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |appointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
 |appointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |appointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |appointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
 |appointment/location|string|Location: Display the location where the follow-up will take place.| x |
@@ -557,6 +563,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/duration|timeSpan|Duration: The duration of the chat session|  |
+|appointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -601,6 +608,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |appointment/associate/userName|string|User name: User name| x |
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
+|appointment/associate/isLocation|bool|Is a location: Is a location| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -633,6 +641,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |document/yourref|string|Your ref.| x |
 |document/attention|string|Salutation| x |
 |document/subject|string|Subject| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/name|string|File name | x |
 |document/mailMergeDraft|bool|Mail merge draft : Indicates whether the document is a mail merge template| x |
 |document/snum|int|Document number: Serial number of document. It can be generated by the number allocation system for a dedicated document template.| x |
@@ -641,10 +653,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |document/isMail|bool|E-mail|  |
 |document/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
 |document/visibleFor|listAny|Visible for|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |document/documentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |document/documentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |document/documentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -680,6 +688,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |document/associate/userName|string|User name: User name| x |
 |document/associate/personEmail|string|E-mail| x |
 |document/associate/locationAddress|string|Location: Location| x |
+|document/associate/isLocation|bool|Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -736,6 +745,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
 |project/projectAssociate/assocName|associate|User ID : User ID| x |
@@ -745,10 +758,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
@@ -758,6 +767,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectAssociate/locationAddress|string|Location: Location| x |
+|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -839,20 +849,23 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company| x |
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
 |saleStakeholder/person/isStakeholder|bool|Stakeholder - Is stakeholder: This person is a sale stakeholder| x |
+|saleStakeholder/person/updatedByWorkflow|listAny|Stakeholder - Updated by flow: Updated by flow| x |
+|saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - Updated by flow: Updated by flow| x |
+|saleStakeholder/person/createdByForm|listAny|Stakeholder - Created by form: Created by form| x |
 |saleStakeholder/person/phone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
 |saleStakeholder/person/personDirectPhone/formattedNumber|string|Stakeholder - Direct - Phone: Displays phone number|  |
 |saleStakeholder/person/personDirectPhone/description|string|Stakeholder - Direct - Description: Phone number description| x |
 |saleStakeholder/person/personMobilePhone/formattedNumber|string|Stakeholder - Mobile - Phone: Displays phone number|  |
 |saleStakeholder/person/personMobilePhone/description|string|Stakeholder - Mobile - Description: Phone number description| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personPrivate/formattedNumber|string|Stakeholder - Private - Phone: Displays phone number|  |
 |saleStakeholder/person/personPrivate/description|string|Stakeholder - Private - Description: Phone number description| x |
 |saleStakeholder/person/personPager/formattedNumber|string|Stakeholder - Other - Phone: Displays phone number|  |
@@ -910,7 +923,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personUdef/SuperOffice:10|string|Stakeholder - page1marketingonly| x |
 |saleStakeholder/person/personUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
 |saleStakeholder/person/personExtra/x\_person\_integer|int|Stakeholder - Extra Integer: Custom person integer| x |
-|saleStakeholder/person/personExtra/x\_person\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field that is hidden| x |
 |saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
 |saleStakeholder/person/personExtra/x\_person\_longtext|string|Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |saleStakeholder/person/personExtra/x\_person\_date|date|Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -941,6 +953,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
 |saleStakeholder/person/personAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/person/personAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personAssociate/associateDbId|associate|Stakeholder - ID| x |
 |saleStakeholder/person/personAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to| x |
 |saleStakeholder/person/personAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
@@ -953,10 +969,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/person/personAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/person/personAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
 |saleStakeholder/person/personAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/personAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
@@ -968,6 +980,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/personAssociate/userName|string|Stakeholder - User name: User name| x |
 |saleStakeholder/person/personAssociate/personEmail|string|Stakeholder - E-mail| x |
 |saleStakeholder/person/personAssociate/locationAddress|string|Stakeholder - Location: Location| x |
+|saleStakeholder/person/personAssociate/isLocation|bool|Stakeholder - Is a location: Is a location| x |
 |saleStakeholder/person/correspondingAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
 |saleStakeholder/person/correspondingAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
 |saleStakeholder/person/correspondingAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
@@ -999,6 +1012,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/person/correspondingAssociate/userName|string|Stakeholder - User name: User name| x |
 |saleStakeholder/person/correspondingAssociate/personEmail|string|Stakeholder - E-mail| x |
 |saleStakeholder/person/correspondingAssociate/locationAddress|string|Stakeholder - Location: Location| x |
+|saleStakeholder/person/correspondingAssociate/isLocation|bool|Stakeholder - Is a location: Is a location| x |
 |saleStakeholder/person/isMailingRecipient|bool|Stakeholder - Is mailing recipient: isMailingRecipient| x |
 |saleStakeholder/person/hasStoreConsent|bool|Stakeholder - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |saleStakeholder/person/withdrawnStoreConsent|bool|Stakeholder - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -1043,6 +1057,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactFax/description|string|Stakeholder - Fax - Description: Phone number description| x |
 |saleStakeholder/contact/searchPhone/formattedNumber|string|Stakeholder - Searchphone - Phone: Displays phone number|  |
 |saleStakeholder/contact/searchPhone/description|string|Stakeholder - Searchphone - Description: Phone number description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/email/emailProtocol|string|Stakeholder - Protocol: E-mail protocol, such as SMTP| x |
 |saleStakeholder/contact/email/emailAddress|string|Stakeholder - E-mail| x |
 |saleStakeholder/contact/email/emailDescription|string|Stakeholder - Description| x |
@@ -1057,10 +1075,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/postAddress/line3|string|Stakeholder - Postal address - Address 3: Third line of the address| x |
 |saleStakeholder/contact/postAddress/county|string|Stakeholder - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |saleStakeholder/contact/postAddress/city|string|Stakeholder - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/postAddress/zip|string|Stakeholder - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |saleStakeholder/contact/postAddress/state|string|Stakeholder - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |saleStakeholder/contact/postAddress/wgs84latitude|decimal|Stakeholder - Postal address - Latitude: Latitude| x |
@@ -1124,6 +1138,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactAssociate/userName|string|Stakeholder - User name: User name| x |
 |saleStakeholder/contact/contactAssociate/personEmail|string|Stakeholder - E-mail| x |
 |saleStakeholder/contact/contactAssociate/locationAddress|string|Stakeholder - Location: Location| x |
+|saleStakeholder/contact/contactAssociate/isLocation|bool|Stakeholder - Is a location: Is a location| x |
 |saleStakeholder/contact/contactInterestIds|listInterest|Stakeholder - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |saleStakeholder/contact/contactUdef/SuperOffice:1|string|Stakeholder - companyshorttext: tooltipshorttext| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:2|string|Stakeholder - companylongtext: tooltiplongtext| x |
@@ -1139,7 +1154,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactUdef/SuperOffice:12|listAny|Stakeholder - Udlist one: Static tooltip for udlist one| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:13|listAny|Stakeholder - Udlist two: Static tooltip for udlist two| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_integer|int|Stakeholder - Extra Integer: Custom integer field| x |
-|saleStakeholder/contact/contactExtra/x\_contact\_hidden\_integer|int|Stakeholder - Extra hidden integer: Custom integer field - hidden| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_default\_integer|int|Stakeholder - Extra Default Integer: Custom integer field with default value 123.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_float|decimal|Stakeholder - Extra Float: Custom float field with 3 decimals| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_longtext|string|Stakeholder - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -1147,6 +1161,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/contactExtra/x\_contact\_date|date|Stakeholder - Extra date: Custom date field. User current as default.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_datetime|datetime|Stakeholder - Extra DateTime: Custom Date Time field. No default value. External| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_time| *None* |Stakeholder - Extra time: Custom time field.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactExtra/x\_contact\_boolean|bool|Stakeholder - Extra boolean: Custom boolean field.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_timespan|timeSpan|Stakeholder - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_shorttext|string|Stakeholder - Extra short text: Custom short text field. Keep HTML tags.| x |
@@ -1161,10 +1179,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |saleStakeholder/contact/NumberOfNotCompletedActivitiesInPeriod|int|Stakeholder - Number of non-completed activities in last 90 days|  |
 |saleStakeholder/contact/LastActivity|date|Stakeholder - Date of last activity|  |
 |saleStakeholder/contact/LastCompletedActivity|date|Stakeholder - Date of last completed activity|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/LastDoByActivity|date|Stakeholder - Date of last non-completed activity|  |
 |saleStakeholder/contact/NumberOfSales|int|Stakeholder - Number of sales|  |
 |saleStakeholder/contact/NumberOfSalesInPeriod|int|Stakeholder - Number of sales in last 90 days|  |
@@ -1251,6 +1265,10 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |quote/version/alternative/quoteline/priceUnit|string|Price unit: What is the price unit defined in| x |
 |quote/version/alternative/quoteline/url|string|Web address: The web address of the product info.| x |
 |quote/version/alternative/quoteline/subscriptionUnit|string|Subscription unit: Unit the subscription is sold/renewed in, such as year/quarter/month| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteline/subscriptionQuantity|decimal|Subscription quantity: Number of subscription units offered| x |
 |quote/version/alternative/quoteline/UnitListPriceSubscriptionQuantity| *None* |Subscription list price: Unit price * subscription quantity|  |
 |quote/version/alternative/quoteline/PriceUnitSubscriptionUnit| *None* |P/S Unit: Price unit/subscription unit|  |
@@ -1265,10 +1283,6 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |quote/version/alternative/quoteline/quoteLineThumbnail| *None* |Thumbnail: A miniature version of the product picture|  |
 |quote/version/alternative/quoteline/quoteLineThumbnailLarge| *None* |Thumbnail: A miniature version of the product picture|  |
 |quote/version/alternative/quoteline/discountAmount|decimal|Discount: Discount amount given by salesperson| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteline/discountPercent|decimal|Discount (%: Discount percent given by salesperson| x |
 |quote/version/alternative/quoteline/earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |quote/version/alternative/quoteline/earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
@@ -1290,7 +1304,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=person/restrictionAddress/line1,contact/contactAssociate/contactDepartment,appointment/endTime,appointment/associate/fullName,project/associateId
+GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=person/portraitThumbnail,person/email/emailProtocol,person/personAssociate/fullName,person/personAssociate/credentialDisplayValue,person/isMailingRecipient
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

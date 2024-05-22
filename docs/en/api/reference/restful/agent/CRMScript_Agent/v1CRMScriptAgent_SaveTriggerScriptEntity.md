@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 783,
-  "Name": "Johns, Carter and Veum",
+  "ScreenChooserId": 204,
+  "Name": "Powlowski-Kunde",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "eum",
-  "Source": "nihil",
-  "Registered": "2017-10-24T11:16:08.9440885+02:00",
-  "RegisteredAssociateId": 414,
-  "Updated": "2018-05-29T11:16:08.9440885+02:00",
-  "UpdatedAssociateId": 144
+  "Enabled": true,
+  "UniqueIdentifier": "explicabo",
+  "Source": "doloremque",
+  "Registered": "2011-03-13T12:57:33.6180694+01:00",
+  "RegisteredAssociateId": 585,
+  "Updated": "2023-10-09T12:57:33.6180694+02:00",
+  "UpdatedAssociateId": 124
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 644,
-  "Name": "Schultz, Green and Stracke",
+  "ScreenChooserId": 766,
+  "Name": "Hyatt Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolore",
-  "Source": "ut",
-  "Registered": "2019-06-19T11:16:08.9440885+02:00",
-  "RegisteredAssociateId": 927,
-  "Updated": "2020-05-23T11:16:08.9440885+02:00",
-  "UpdatedAssociateId": 986,
+  "UniqueIdentifier": "corporis",
+  "Source": "non",
+  "Registered": "2021-12-22T12:57:33.6180694+01:00",
+  "RegisteredAssociateId": 13,
+  "Updated": "2006-08-16T12:57:33.6180694+02:00",
+  "UpdatedAssociateId": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 318
     }
   }
 }

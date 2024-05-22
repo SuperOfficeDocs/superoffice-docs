@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=corrupti
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=nisi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Quitzon, Olson and Durgan",
-    "ToolTip": "Qui quas quo.",
-    "Deleted": false,
-    "Rank": 677,
-    "Type": "est",
+    "Id": 598,
+    "Name": "Erdman LLC",
+    "ToolTip": "Harum earum sequi omnis.",
+    "Deleted": true,
+    "Rank": 203,
+    "Type": "saepe",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Rosenbaum-Schulist",
-        "ToolTip": "Consequuntur quia quae recusandae aut quisquam.",
+        "Id": 886,
+        "Name": "Kassulke-Crooks",
+        "ToolTip": "Ut qui aut error.",
         "Deleted": false,
-        "Rank": 498,
-        "Type": "qui",
+        "Rank": 938,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 862,
-        "ExtraInfo": "iusto",
-        "StyleHint": "ut",
-        "FullName": "Melody Little",
+        "IconHint": "quaerat",
+        "ColorBlock": 976,
+        "ExtraInfo": "numquam",
+        "StyleHint": "deleniti",
+        "FullName": "Cayla Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 501
+            "FieldType": "System.Int32",
+            "FieldLength": 975
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 739,
-    "ExtraInfo": "optio",
-    "StyleHint": "voluptate",
-    "FullName": "Torey Hessel",
+    "IconHint": "sit",
+    "ColorBlock": 381,
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
+    "FullName": "Giovanny Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 322
       }
     }
   }

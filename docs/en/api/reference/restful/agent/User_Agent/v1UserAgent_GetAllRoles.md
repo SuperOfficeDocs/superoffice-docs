@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Harvey Inc and Sons",
-    "ToolTip": "Numquam minima eos.",
+    "Id": 803,
+    "Name": "Brakus-Mitchell",
+    "ToolTip": "In rerum sit non inventore quis sunt aut.",
     "Deleted": true,
-    "Rank": 946,
-    "Type": "est",
-    "ColorBlock": 554,
-    "IconHint": "voluptas",
+    "Rank": 456,
+    "Type": "et",
+    "ColorBlock": 731,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2023-12-03T11:16:10.0275967+01:00",
+    "LastChanged": "2017-08-16T12:57:35.2899717+02:00",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "Feil-DuBuque",
-        "ToolTip": "Et aperiam nihil qui voluptas tenetur est.",
+        "Id": 279,
+        "Name": "Turcotte Inc and Sons",
+        "ToolTip": "Illo dolorum et quia laborum.",
         "Deleted": false,
-        "Rank": 218,
-        "Type": "maxime",
-        "ColorBlock": 391,
-        "IconHint": "quasi",
+        "Rank": 473,
+        "Type": "aliquid",
+        "ColorBlock": 884,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "2011-03-12T11:16:10.0275967+01:00",
+        "LastChanged": "2021-08-14T12:57:35.2899717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Ewald Hartmann",
+        "ExtraInfo": "quo",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Shyann Marvin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 501
+            "FieldType": "System.String",
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Mr. Aisha Patrick Ullrich IV",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Carmella Mayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldType": "System.Int32",
+        "FieldLength": 909
       }
     }
   }

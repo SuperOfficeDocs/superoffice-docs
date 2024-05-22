@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quae",
-  "ProviderName": "Cartwright-Nikolaus",
-  "StorageKey": "cum",
-  "Context": "alias"
+  "StorageType": "et",
+  "ProviderName": "Schoen, Upton and Dicki",
+  "StorageKey": "harum",
+  "Context": "unde"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zieme Inc and Sons",
-  "Description": "Advanced foreground utilisation",
-  "Rank": 911,
+  "Name": "Buckridge-Koss",
+  "Description": "Advanced 4th generation ability",
+  "Rank": 690,
   "Restrictions": [
     {
-      "Name": "Hegmann, Bahringer and Pfannerstill",
-      "Operator": "commodi",
+      "Name": "Lesch, Von and Senger",
+      "Operator": "inventore",
       "Values": [
-        "earum",
-        "itaque"
+        "quis",
+        "tenetur"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "atque"
+        "corporis",
+        "quam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 685,
+      "InterParenthesis": 571,
       "InterOperator": "And",
-      "UniqueHash": 458
+      "UniqueHash": 440
     }
   ]
 }

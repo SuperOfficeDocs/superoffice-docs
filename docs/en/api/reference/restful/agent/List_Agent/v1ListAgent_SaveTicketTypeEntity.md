@@ -99,31 +99,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 316,
-  "Name": "Douglas, Okuneva and Jacobson",
-  "Rank": 549,
-  "Tooltip": "dolor",
-  "Icon": "incidunt",
-  "DefaultTicketStatus": 927,
+  "TicketTypeId": 17,
+  "Name": "Berge-Romaguera",
+  "Rank": 324,
+  "Tooltip": "cupiditate",
+  "Icon": "repellendus",
+  "DefaultTicketStatus": 767,
   "TicketStatuses": [
-    762,
-    710
+    218,
+    485
   ],
-  "DefaultTicketPriority": 645,
+  "DefaultTicketPriority": 459,
   "TicketPriorities": [
-    24,
-    239
+    100,
+    64
   ],
-  "ReplyTemplate": 756,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 505,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    618,
-    199
+    238,
+    651
   ]
 }
 ```
@@ -135,38 +135,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 643,
-  "Name": "Friesen-Schamberger",
-  "Rank": 803,
-  "Tooltip": "aut",
-  "Icon": "optio",
-  "DefaultTicketStatus": 828,
+  "TicketTypeId": 22,
+  "Name": "Bogan Group",
+  "Rank": 799,
+  "Tooltip": "placeat",
+  "Icon": "qui",
+  "DefaultTicketStatus": 881,
   "TicketStatuses": [
-    626,
-    767
+    772,
+    617
   ],
-  "DefaultTicketPriority": 460,
+  "DefaultTicketPriority": 236,
   "TicketPriorities": [
-    445,
-    248
+    879,
+    537
   ],
-  "ReplyTemplate": 322,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 257,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    679,
-    939
+    649,
+    165
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

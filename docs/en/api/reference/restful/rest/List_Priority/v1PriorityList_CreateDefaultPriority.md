@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Feil Group",
-  "Tooltip": "sapiente",
+  "Id": 222,
+  "Name": "Rosenbaum LLC",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 722,
-  "Rank": 283,
+  "UdListDefinitionId": 867,
+  "Rank": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

@@ -63,23 +63,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 609,
-    "DisplayName": "Rempel Group",
-    "OngoingChats": 994,
+    "UserId": 328,
+    "DisplayName": "Schneider Group",
+    "OngoingChats": 798,
     "Present": false,
     "ChatTopics": [
-      148,
-      36
+      226,
+      741
     ]
   },
   {
-    "UserId": 609,
-    "DisplayName": "Rempel Group",
-    "OngoingChats": 994,
+    "UserId": 328,
+    "DisplayName": "Schneider Group",
+    "OngoingChats": 798,
     "Present": false,
     "ChatTopics": [
-      148,
-      36
+      226,
+      741
     ]
   }
 ]

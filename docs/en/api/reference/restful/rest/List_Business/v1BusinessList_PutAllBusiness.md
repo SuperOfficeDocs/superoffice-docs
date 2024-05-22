@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Lind, Metz and Davis",
-    "Tooltip": "veniam",
+    "Id": 657,
+    "Name": "Marquardt-Hoppe",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "UdListDefinitionId": 212,
-    "Rank": 891
+    "UdListDefinitionId": 816,
+    "Rank": 378
   },
   {
-    "Id": 351,
-    "Name": "Lind, Metz and Davis",
-    "Tooltip": "veniam",
+    "Id": 657,
+    "Name": "Marquardt-Hoppe",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "UdListDefinitionId": 212,
-    "Rank": 891
+    "UdListDefinitionId": 816,
+    "Rank": 378
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Bailey, Erdman and Fritsch",
-    "Tooltip": "laudantium",
+    "Id": 246,
+    "Name": "McCullough, Mann and Bayer",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 667,
-    "Rank": 179,
+    "UdListDefinitionId": 624,
+    "Rank": 613,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldType": "System.Int32",
+        "FieldLength": 845
       }
     }
   }

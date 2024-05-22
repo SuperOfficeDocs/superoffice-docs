@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 784,
-    "Name": "Hackett-O'Reilly",
-    "Tooltip": "distinctio",
-    "Deleted": true,
-    "Rank": 94,
+    "WebPanelId": 18,
+    "Name": "Heller-Heathcote",
+    "Tooltip": "error",
+    "Deleted": false,
+    "Rank": 939,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Braun, Ullrich and Labadie",
+    "ShowInStatusBar": true,
+    "WindowName": "Donnelly, Olson and Brekke",
     "Url": "http://www.example.com/",
-    "ProgId": "voluptatum",
-    "Icon": 266,
+    "ProgId": "dolore",
+    "Icon": 957,
     "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 24
       }
     }
   }

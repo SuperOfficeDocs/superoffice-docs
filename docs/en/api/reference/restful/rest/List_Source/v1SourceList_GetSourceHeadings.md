@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 453,
-    "Name": "Goldner, Jast and Wisozk",
-    "Tooltip": "quam",
+    "HeadingId": 579,
+    "Name": "Hudson, Erdman and Gutmann",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 286,
-    "UdListDefinitionId": 904,
+    "Rank": 280,
+    "UdListDefinitionId": 544,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 936
       }
     }
   }

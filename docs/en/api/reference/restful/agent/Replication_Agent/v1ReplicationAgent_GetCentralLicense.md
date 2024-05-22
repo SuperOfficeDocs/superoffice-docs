@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Aufderhar, Barton and Davis",
-    "Description": "Devolved object-oriented monitoring",
+    "Name": "Breitenberg, Altenwerth and Breitenberg",
+    "Description": "De-engineered client-server parallelism",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 264,
-        "Tooltip": "voluptas",
+        "Total": 952,
+        "Tooltip": "expedita",
         "CanAssign": false,
-        "Free": 288,
-        "InUse": 950,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 791,
-        "Name": "Shields-McDermott",
-        "Description": "Customizable 6th generation capability",
-        "PrerequisiteModuleName": "Runolfsdottir Inc and Sons",
-        "SortOrder": 978,
-        "ExtraFlags": 114,
+        "Free": 192,
+        "InUse": 272,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 357,
+        "Name": "Marks-Kunde",
+        "Description": "Seamless discrete concept",
+        "PrerequisiteModuleName": "Skiles LLC",
+        "SortOrder": 365,
+        "ExtraFlags": 64,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 714
+            "FieldType": "System.Int32",
+            "FieldLength": 797
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 1002,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 400,
-        "InUse": 924,
+        "Total": 265,
+        "Tooltip": "exercitationem",
+        "CanAssign": true,
+        "Free": 464,
+        "InUse": 536,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 292,
-        "Name": "Schaefer Group",
-        "Description": "Organic secondary groupware",
-        "PrerequisiteModuleName": "Kerluke-Rosenbaum",
-        "SortOrder": 551,
-        "ExtraFlags": 619,
+        "ModuleLicenseId": 75,
+        "Name": "Gleichner, Feest and Dare",
+        "Description": "Re-engineered contextually-based pricing structure",
+        "PrerequisiteModuleName": "Gottlieb LLC",
+        "SortOrder": 372,
+        "ExtraFlags": 303,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 156
+            "FieldLength": 205
           }
         }
       }
@@ -139,36 +139,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   },
   {
-    "Name": "Aufderhar, Barton and Davis",
-    "Description": "Devolved object-oriented monitoring",
+    "Name": "Breitenberg, Altenwerth and Breitenberg",
+    "Description": "De-engineered client-server parallelism",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 264,
-        "Tooltip": "voluptas",
+        "Total": 952,
+        "Tooltip": "expedita",
         "CanAssign": false,
-        "Free": 288,
-        "InUse": 950,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 791,
-        "Name": "Shields-McDermott",
-        "Description": "Customizable 6th generation capability",
-        "PrerequisiteModuleName": "Runolfsdottir Inc and Sons",
-        "SortOrder": 978,
-        "ExtraFlags": 114,
+        "Free": 192,
+        "InUse": 272,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 357,
+        "Name": "Marks-Kunde",
+        "Description": "Seamless discrete concept",
+        "PrerequisiteModuleName": "Skiles LLC",
+        "SortOrder": 365,
+        "ExtraFlags": 64,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 714
+            "FieldType": "System.Int32",
+            "FieldLength": 797
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 1002,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 400,
-        "InUse": 924,
+        "Total": 265,
+        "Tooltip": "exercitationem",
+        "CanAssign": true,
+        "Free": 464,
+        "InUse": 536,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 292,
-        "Name": "Schaefer Group",
-        "Description": "Organic secondary groupware",
-        "PrerequisiteModuleName": "Kerluke-Rosenbaum",
-        "SortOrder": 551,
-        "ExtraFlags": 619,
+        "ModuleLicenseId": 75,
+        "Name": "Gleichner, Feest and Dare",
+        "Description": "Re-engineered contextually-based pricing structure",
+        "PrerequisiteModuleName": "Gottlieb LLC",
+        "SortOrder": 372,
+        "ExtraFlags": 303,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 156
+            "FieldLength": 205
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=564
+POST /api/v1/Agents/Contact/GetContact?contactId=79
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 614,
-  "Name": "Barton Inc and Sons",
-  "OrgNr": "734653",
+  "ContactId": 51,
+  "Name": "Ankunding, Rolfson and Frami",
+  "OrgNr": "1579035",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "optio",
-  "DirectPhone": "1-208-920-0157 x8103",
-  "AssociateId": 81,
-  "CountryId": 472,
-  "EmailAddress": "christa@beatty.name",
-  "Kananame": "corrupti",
-  "EmailAddressName": "virginia.hyatt@wehner.co.uk",
+  "City": "officiis",
+  "DirectPhone": "(849)397-5484 x08922",
+  "AssociateId": 884,
+  "CountryId": 379,
+  "EmailAddress": "bernie.hintz@jacobsonberge.biz",
+  "Kananame": "aut",
+  "EmailAddressName": "amya.cronin@collier.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Blaise Swaniawski",
+  "AssociateFullName": "Jayme Hegmann",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "est",
-  "FullName": "Ms. Demetris Stephen Lebsack",
+  "FormattedAddress": "modi",
+  "FullName": "Bell Rodriguez",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 268,
-  "Number1": "798511",
-  "Number2": "421379",
+  "ActiveErpLinks": 390,
+  "Number1": "1319041",
+  "Number2": "1899207",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldLength": 90
     }
   }
 }

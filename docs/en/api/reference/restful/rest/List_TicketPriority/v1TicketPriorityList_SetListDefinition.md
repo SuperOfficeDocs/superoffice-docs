@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 589,
-  "Name": "Stracke-Eichmann",
-  "Tooltip": "qui",
+  "Id": 393,
+  "Name": "McDermott Group",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 860,
+  "Rank": 190,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
+  "ListType": "recusandae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Tremblay, Dach and Quigley",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 731,
+  "Id": 813,
+  "Name": "Lubowitz-Keebler",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 348,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

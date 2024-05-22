@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,55 +97,55 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 884,
-    "Name": "Moore-Hettinger",
-    "ToolTip": "Omnis qui.",
+    "Name": "Smitham-Mohr",
+    "ToolTip": "Sit atque impedit aliquid ipsam vitae ad.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "sequi",
-    "ColorBlock": 703,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2012-01-28T11:16:14.512052+01:00",
+    "Rank": 152,
+    "Type": "dolores",
+    "ColorBlock": 575,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2019-02-03T12:57:43.3552036+01:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Renner LLC",
-        "ToolTip": "Voluptatem quia vel veritatis magnam molestiae ducimus.",
+        "Id": 537,
+        "Name": "O'Conner-Gislason",
+        "ToolTip": "Consequatur voluptatibus dolores.",
         "Deleted": true,
-        "Rank": 712,
-        "Type": "voluptas",
-        "ColorBlock": 142,
-        "IconHint": "quia",
+        "Rank": 557,
+        "Type": "voluptate",
+        "ColorBlock": 767,
+        "IconHint": "soluta",
         "Selected": true,
-        "LastChanged": "2019-08-30T11:16:14.512052+02:00",
+        "LastChanged": "2019-07-21T12:57:43.3552036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Mauricio Sam Fadel Jr.",
+        "ExtraInfo": "possimus",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Earline Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldLength": 54
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "error",
-    "Hidden": true,
-    "FullName": "Thea Zulauf",
+    "ExtraInfo": "eos",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Odessa Pfannerstill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldType": "System.String",
+        "FieldLength": 724
       }
     }
   }

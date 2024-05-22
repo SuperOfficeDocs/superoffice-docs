@@ -72,7 +72,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -118,10 +118,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 608,
+  "SelectionId": 184,
   "SelectionMemberIds": [
-    653,
-    703
+    35,
+    832
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face encompassing hub",
-  "Postit": "cumque",
+  "Description": "Innovative dynamic capability",
+  "Postit": "laborum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 876,
-  "IncludePerson": 912,
-  "MemberCount": 349,
-  "Name": "Marks Inc and Sons",
-  "PostitTextId": 496,
-  "CreatedDate": "1999-09-16T11:16:09.7259925+02:00",
-  "SelectionId": 99,
-  "SoundEx": "dolorem",
-  "Source": 148,
-  "TextId": 704,
-  "UpdatedDate": "2017-06-16T11:16:09.7259925+02:00",
-  "UpdatedCount": 394,
-  "Visibility": 423,
+  "GroupIdx": 561,
+  "IncludePerson": 559,
+  "MemberCount": 99.99,
+  "Name": "Legros LLC",
+  "PostitTextId": 54,
+  "CreatedDate": "2008-03-14T12:57:34.9302081+01:00",
+  "SelectionId": 796,
+  "SoundEx": "neque",
+  "Source": 826,
+  "TextId": 34,
+  "UpdatedDate": "2009-09-01T12:57:34.9302081+02:00",
+  "UpdatedCount": 520,
+  "Visibility": 842,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 250,
-  "TargetTableName": "Mraz LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 647,
+  "TargetTableName": "Lockman, Zboncak and Bogan",
   "Completed": true,
-  "LeftSelectionId": 53,
-  "RightSelectionId": 372,
+  "LeftSelectionId": 139,
+  "RightSelectionId": 664,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Abbott Inc and Sons",
-  "ShadowProviderName": "Nikolaus, Bruen and Morissette",
-  "ChartKey": "natus",
-  "LastLoaded": "2001-07-27T11:16:09.7259925+02:00",
-  "LastLoadedBy": 798,
+  "MainProviderName": "Beahan Group",
+  "ShadowProviderName": "Denesik-Terry",
+  "ChartKey": "quo",
+  "LastLoaded": "2002-11-15T12:57:34.9302081+01:00",
+  "LastLoadedBy": 489,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-04-03T11:16:09.7259925+02:00",
-  "LastMembershipChangeBy": 536,
+  "LastMembershipChange": "2019-10-29T12:57:34.9302081+01:00",
+  "LastMembershipChangeBy": 675,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Wisoky, Lockman and Tremblay",
-  "DashboardTileDefinitionId": 368,
+  "MainHeading": "illo",
+  "MemberTabHeading": "rem",
+  "MailingsProviderName": "Lindgren-Kertzmann",
+  "DashboardTileDefinitionId": 706,
   "VisibleFor": [
     {
-      "VisibleId": 739,
+      "VisibleId": 747,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldLength": 27
         }
       }
     },
     {
-      "VisibleId": 739,
+      "VisibleId": 747,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 934
+          "FieldLength": 27
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 379
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=813
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=367
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -65,7 +65,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly 5th generation firmware",
-  "Postit": "et",
+  "Description": "Streamlined value-added alliance",
+  "Postit": "totam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 819,
-  "IncludePerson": 859,
-  "MemberCount": 784,
-  "Name": "Weimann-Witting",
-  "PostitTextId": 983,
-  "CreatedDate": "2022-09-12T11:16:09.7103639+02:00",
-  "SelectionId": 426,
-  "SoundEx": "ut",
-  "Source": 410,
-  "TextId": 849,
-  "UpdatedDate": "2010-08-13T11:16:09.7103639+02:00",
-  "UpdatedCount": 905,
-  "Visibility": 791,
+  "GroupIdx": 376,
+  "IncludePerson": 834,
+  "MemberCount": 99.99,
+  "Name": "Larkin, Mann and Grady",
+  "PostitTextId": 854,
+  "CreatedDate": "2017-03-15T12:57:34.9145867+01:00",
+  "SelectionId": 549,
+  "SoundEx": "et",
+  "Source": 711,
+  "TextId": 254,
+  "UpdatedDate": "2024-03-31T12:57:34.9145867+02:00",
+  "UpdatedCount": 300,
+  "Visibility": 283,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 39,
-  "TargetTableName": "Bauch Group",
+  "TargetTableNumber": 905,
+  "TargetTableName": "Hyatt-Hilpert",
   "Completed": false,
-  "LeftSelectionId": 223,
-  "RightSelectionId": 660,
+  "LeftSelectionId": 406,
+  "RightSelectionId": 37,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Homenick-Hauck",
-  "ShadowProviderName": "Russel, Okuneva and Franecki",
-  "ChartKey": "provident",
-  "LastLoaded": "2018-01-06T11:16:09.7103639+01:00",
-  "LastLoadedBy": 275,
+  "MainProviderName": "Williamson Inc and Sons",
+  "ShadowProviderName": "Jenkins, Wisoky and Corkery",
+  "ChartKey": "est",
+  "LastLoaded": "2019-10-19T12:57:34.9145867+02:00",
+  "LastLoadedBy": 254,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-01-11T11:16:09.7103639+01:00",
-  "LastMembershipChangeBy": 931,
+  "LastMembershipChange": "2014-07-27T12:57:34.9145867+02:00",
+  "LastMembershipChangeBy": 640,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "dignissimos",
-  "MailingsProviderName": "Abshire, Fritsch and Kuhic",
-  "DashboardTileDefinitionId": 547,
+  "MainHeading": "minima",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Cartwright, Smitham and Hintz",
+  "DashboardTileDefinitionId": 471,
   "VisibleFor": [
     {
-      "VisibleId": 861,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 209
         }
       }
     },
     {
-      "VisibleId": 861,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 209
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 177
     }
   }
 }

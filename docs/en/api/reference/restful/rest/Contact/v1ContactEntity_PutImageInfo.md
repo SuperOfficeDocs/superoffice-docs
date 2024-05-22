@@ -97,19 +97,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 847,
-  "BlobSize": 650,
-  "Description": "Exclusive multimedia internet solution",
-  "ExtraInfo": "est",
-  "IsEncrypted": true,
+  "BlobId": 910,
+  "BlobSize": 190,
+  "Description": "Decentralized didactic groupware",
+  "ExtraInfo": "eos",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 238,
-  "CreatedDate": "2014-03-02T11:16:13.7612392+01:00",
-  "UpdatedDate": "2020-11-17T11:16:13.7612392+01:00",
+  "MimeType": "expedita",
+  "OriginalSize": 843,
+  "CreatedDate": "2022-10-05T12:57:42.1983139+02:00",
+  "UpdatedDate": "2022-05-25T12:57:42.1983139+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptas"
+  "ConceptualType": "aliquam"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 424,
-  "BlobSize": 325,
-  "Description": "Managed mobile superstructure",
-  "ExtraInfo": "et",
-  "IsEncrypted": false,
+  "BlobId": 23,
+  "BlobSize": 105,
+  "Description": "Persevering even-keeled open system",
+  "ExtraInfo": "maxime",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "amet",
-  "OriginalSize": 254,
-  "CreatedDate": "2003-05-29T11:16:13.7612392+02:00",
-  "UpdatedDate": "2002-08-08T11:16:13.7612392+02:00",
+  "MimeType": "sed",
+  "OriginalSize": 513,
+  "CreatedDate": "2006-04-13T12:57:42.1983139+02:00",
+  "UpdatedDate": "2014-06-05T12:57:42.1983139+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldLength": 408
     }
   }
 }

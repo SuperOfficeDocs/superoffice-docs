@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 164,
-    "Name": "Fadel-Hauck",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 965,
+    "HeadingId": 658,
+    "Name": "Metz Inc and Sons",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 279,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldType": "System.String",
+        "FieldLength": 201
       }
     }
   }

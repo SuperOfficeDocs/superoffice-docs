@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 933,
-  "StartTime": "2005-07-28T11:16:09.0691155+02:00",
-  "EndTime": "2024-02-23T11:16:09.0691155+01:00",
-  "Count": 841,
-  "TemplateHeadingId": 168
+  "ContactId": 937,
+  "StartTime": "2016-11-12T12:57:33.6961763+01:00",
+  "EndTime": "2003-10-19T12:57:33.6961763+02:00",
+  "Count": 30,
+  "TemplateHeadingId": 948
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 414,
-    "Attention": "sequi",
-    "Header": "vitae",
-    "Name": "Stracke LLC",
-    "OurRef": "sit",
-    "YourRef": "fugiat",
-    "Description": "Stand-alone well-modulated hardware",
-    "DocumentTemplate": "aut",
+    "DocumentId": 816,
+    "Attention": "delectus",
+    "Header": "qui",
+    "Name": "Stehr, Leannon and Hudson",
+    "OurRef": "nihil",
+    "YourRef": "excepturi",
+    "Description": "Mandatory mobile policy",
+    "DocumentTemplate": "dolorem",
     "IsPublished": true,
-    "PersonId": 905,
-    "PersonFullName": "Miss Lydia Lindgren",
-    "AssociateFullName": "Mr. Luna Chandler Cassin PhD",
-    "ContactId": 457,
-    "ContactName": "Gislason, Kub and Schinner",
-    "ProjectId": 113,
-    "ProjectName": "Runte, Herzog and Bayer",
-    "AssociateId": 548,
-    "Snum": 426,
-    "SaleId": 304,
-    "SaleName": "Satterfield Inc and Sons",
+    "PersonId": 52,
+    "PersonFullName": "Mike Sporer",
+    "AssociateFullName": "Jeramy Ankunding",
+    "ContactId": 932,
+    "ContactName": "Altenwerth Inc and Sons",
+    "ProjectId": 369,
+    "ProjectName": "King-Cruickshank",
+    "AssociateId": 398,
+    "Snum": 825,
+    "SaleId": 188,
+    "SaleName": "Rowe LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   }

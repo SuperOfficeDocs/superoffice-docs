@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    843,
-    276
+    423,
+    179
   ],
   "UpdateRepliedAt": true
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 743,
+  "EjMessageId": 88,
   "Ticket": null,
-  "CreatedAt": "2008-07-14T11:16:09.9917738+02:00",
+  "CreatedAt": "2000-01-25T12:57:35.2270152+01:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "recusandae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 905,
-  "Body": "ipsum",
-  "HtmlBody": "doloribus",
-  "EmailHeader": "davon@durgan.info",
-  "DebugInfo": "dolores",
-  "MailSorter": "et",
+  "MessageId": "perferendis",
+  "TimeSpent": 74,
+  "Body": "qui",
+  "HtmlBody": "soluta",
+  "EmailHeader": "jayce_larson@tremblaywolf.us",
+  "DebugInfo": "inventore",
+  "MailSorter": "vel",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "repellendus",
+  "SearchTitle": "enim",
   "MessageHeaders": [
     {
-      "Id": 704,
-      "Name": "Kunze-Kassulke",
-      "Value": "nostrum",
+      "Id": 283,
+      "Name": "Mueller Group",
+      "Value": "consequatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 646
         }
       }
     }
   ],
   "Important": true,
-  "Language": "incidunt",
-  "Sentiment": 281,
-  "SentimentConfidence": 926,
+  "Language": "nihil",
+  "Sentiment": 217,
+  "SentimentConfidence": 115,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 479,
-      "Name": "Grimes LLC",
-      "ContentType": "placeat",
-      "AttSize": 752,
+      "AttachmentId": 245,
+      "Name": "Heller LLC",
+      "ContentType": "voluptatum",
+      "AttSize": 748,
       "InlineImage": true,
-      "ContentId": "magnam",
-      "AuthKey": "eaque",
+      "ContentId": "alias",
+      "AuthKey": "corporis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 908
+          "FieldLength": 871
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "rerum"
+    "CustomFields1": "at",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 168
     }
   }
 }

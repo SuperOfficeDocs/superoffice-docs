@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 22 Mar 2024 11:16:13 G3T
+Last-Modified: Fri, 08 Sep 2006 12:57:42 G9T
 
 {
-  "BlobId": 838,
-  "BlobSize": 32,
-  "Description": "Visionary secondary adapter",
-  "ExtraInfo": "dolorem",
+  "BlobId": 502,
+  "BlobSize": 163,
+  "Description": "Reactive bifurcated contingency",
+  "ExtraInfo": "debitis",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "cum",
-  "OriginalSize": 987,
-  "CreatedDate": "2003-10-26T11:16:13.7612392+01:00",
-  "UpdatedDate": "2024-03-22T11:16:13.7612392+01:00",
+  "MimeType": "vel",
+  "OriginalSize": 47,
+  "CreatedDate": "2023-07-30T12:57:42.1983139+02:00",
+  "UpdatedDate": "2006-09-08T12:57:42.1983139+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "maxime",
+  "ConceptualType": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 609
     }
   }
 }

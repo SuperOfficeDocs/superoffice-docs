@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 03 Jun 2010 11:16:13 G6T
+Last-Modified: Sun, 10 Dec 2000 12:57:42 G12T
 
 {
-  "SourceContactId": 854,
-  "SourcePersonId": 980,
-  "DestinationContactId": 36,
-  "DestinationPersonId": 419,
-  "RelationId": 96,
-  "Comment": "dolores",
-  "RelationDefinitionId": 897,
-  "Reversed": 883,
-  "UpdatedDate": "2010-06-03T11:16:13.83947+02:00",
-  "CreatedDate": "2010-01-01T11:16:13.83947+01:00",
+  "SourceContactId": 863,
+  "SourcePersonId": 49,
+  "DestinationContactId": 99,
+  "DestinationPersonId": 854,
+  "RelationId": 736,
+  "Comment": "amet",
+  "RelationDefinitionId": 762,
+  "Reversed": 913,
+  "UpdatedDate": "2000-12-10T12:57:42.3076631+01:00",
+  "CreatedDate": "2020-05-06T12:57:42.3076631+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Gutmann-Durgan",
-  "SourcePersonName": "Heathcote LLC",
-  "DestinationContactName": "Beer, Altenwerth and Bailey",
-  "DestinationPersonName": "Weissnat Inc and Sons",
-  "ActiveText": "sint",
-  "PassiveText": "nulla",
+  "SourceContactName": "Donnelly, Yost and Stehr",
+  "SourcePersonName": "Wunsch-Carroll",
+  "DestinationContactName": "Hegmann-Turcotte",
+  "DestinationPersonName": "Harber Inc and Sons",
+  "ActiveText": "rerum",
+  "PassiveText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldLength": 674
     }
   }
 }

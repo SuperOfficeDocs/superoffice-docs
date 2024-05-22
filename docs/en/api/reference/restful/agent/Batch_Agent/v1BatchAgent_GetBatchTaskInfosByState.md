@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Koch, Cummerata and Bednar",
-    "AssociateId": 168,
-    "DetailsTable": 795,
-    "DetailsRecord": 248,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 519,
+    "Name": "Douglas-Okuneva",
+    "AssociateId": 282,
+    "DetailsTable": 57,
+    "DetailsRecord": 819,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quaerat",
-      "ParameterObject2": "sed"
+      "ParameterObject1": "sequi",
+      "ParameterObject2": "nesciunt"
     },
-    "LastStarted": "2007-01-13T11:16:08.7410229+01:00",
-    "Created": "2003-01-29T11:16:08.7410229+01:00",
-    "StartCount": 843,
-    "DatabaseSerialNumber": "1383774",
-    "Context": "nam",
-    "Result": "est",
+    "LastStarted": "2003-02-02T12:57:33.2658907+01:00",
+    "Created": "2010-01-14T12:57:33.2658907+01:00",
+    "StartCount": 231,
+    "DatabaseSerialNumber": "1459484",
+    "Context": "neque",
+    "Result": "quis",
     "State": "All",
-    "Description": "Robust multi-tasking infrastructure",
-    "Response": "nihil",
-    "Request": "accusantium",
-    "ProgressDescription": "Integrated hybrid approach",
-    "ProgressPercent": 835,
-    "FileName": "Skiles-Gutkowski",
+    "Description": "Customizable 5th generation utilisation",
+    "Response": "sed",
+    "Request": "non",
+    "ProgressDescription": "Public-key high-level toolset",
+    "ProgressPercent": 274,
+    "FileName": "Schimmel-Wyman",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 150
       }
     }
   }

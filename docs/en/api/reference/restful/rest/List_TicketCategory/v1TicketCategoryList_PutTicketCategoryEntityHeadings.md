@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 843,
-    "Name": "Gleason-VonRueden",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "Rank": 234,
-    "UdListDefinitionId": 364
+    "HeadingId": 328,
+    "Name": "Shanahan, Boyer and Franecki",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 207,
+    "UdListDefinitionId": 699
   },
   {
-    "HeadingId": 843,
-    "Name": "Gleason-VonRueden",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "Rank": 234,
-    "UdListDefinitionId": 364
+    "HeadingId": 328,
+    "Name": "Shanahan, Boyer and Franecki",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 207,
+    "UdListDefinitionId": 699
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 34,
-    "Name": "Zieme, Kertzmann and Kuhlman",
-    "Tooltip": "molestiae",
+    "HeadingId": 69,
+    "Name": "Doyle-White",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 626,
-    "UdListDefinitionId": 411,
+    "Rank": 449,
+    "UdListDefinitionId": 694,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

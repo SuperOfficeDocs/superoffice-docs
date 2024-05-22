@@ -68,11 +68,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/userName|string|Associate - User name: User name| x |
 |associate/personEmail|string|Associate - E-mail| x |
 |associate/locationAddress|string|Associate - Location: Location| x |
+|associate/isLocation|bool|Associate - Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SuperListColumnSize?$select=associate/mrMrs,configurationName,associate/title
+GET /api/v1/archive/SuperListColumnSize?$select=listOwner,configurationName,associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

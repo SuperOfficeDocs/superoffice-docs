@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 870
+  "MailItemId": 77
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 117,
-  "StartDate": "1997-06-06T11:16:09.1784746+02:00",
-  "EndDate": "1997-05-10T11:16:09.1784746+02:00",
-  "RecurrenceCounter": 763,
+  "RecurrenceId": 317,
+  "StartDate": "2003-06-20T12:57:33.8836618+02:00",
+  "EndDate": "2023-02-24T12:57:33.8836618+01:00",
+  "RecurrenceCounter": 536,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2009-08-04T11:16:09.1784746+02:00",
-      "IsConflict": true,
-      "Description": "Customer-focused bandwidth-monitored hub",
-      "DescriptionStyleHint": "Sharable asynchronous challenge",
-      "Tooltip": "harum"
+      "Date": "2009-09-14T12:57:33.8836618+02:00",
+      "IsConflict": false,
+      "Description": "Enhanced optimal data-warehouse",
+      "DescriptionStyleHint": "Universal reciprocal neural-net",
+      "Tooltip": "et"
     },
     {
-      "Date": "2009-08-04T11:16:09.1784746+02:00",
-      "IsConflict": true,
-      "Description": "Customer-focused bandwidth-monitored hub",
-      "DescriptionStyleHint": "Sharable asynchronous challenge",
-      "Tooltip": "harum"
+      "Date": "2009-09-14T12:57:33.8836618+02:00",
+      "IsConflict": false,
+      "Description": "Enhanced optimal data-warehouse",
+      "DescriptionStyleHint": "Universal reciprocal neural-net",
+      "Tooltip": "et"
     }
   ],
   "IsRecurrence": false

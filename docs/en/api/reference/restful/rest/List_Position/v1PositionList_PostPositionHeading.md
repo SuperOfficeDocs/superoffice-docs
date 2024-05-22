@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 286,
-  "Name": "Medhurst, Deckow and Schaefer",
-  "Tooltip": "atque",
+  "HeadingId": 254,
+  "Name": "Upton, Smith and Yost",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 377,
-  "UdListDefinitionId": 454
+  "Rank": 841,
+  "UdListDefinitionId": 850
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 666,
-  "Name": "Ankunding LLC",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 71,
-  "UdListDefinitionId": 944,
+  "HeadingId": 311,
+  "Name": "Johnson-Kerluke",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "Rank": 898,
+  "UdListDefinitionId": 641,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

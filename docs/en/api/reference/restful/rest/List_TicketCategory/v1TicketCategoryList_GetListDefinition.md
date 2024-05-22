@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Donnelly Group",
-  "Tooltip": "cum",
+  "Id": 757,
+  "Name": "Rolfson Inc and Sons",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 41,
-  "IsCustomList": true,
+  "Rank": 102,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptates",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 908
     }
   },
   "_Links": {

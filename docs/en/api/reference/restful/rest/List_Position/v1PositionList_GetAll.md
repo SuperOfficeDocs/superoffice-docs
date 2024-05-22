@@ -25,7 +25,7 @@ Gets all the Position items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Position/Items?includeDeleted=True
+GET /api/v1/List/Position/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Wiza, Schultz and Cummerata",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "UdListDefinitionId": 493,
-    "Rank": 443,
+    "Id": 338,
+    "Name": "Russel-Bergnaum",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "UdListDefinitionId": 213,
+    "Rank": 685,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldLength": 657
       }
     }
   }

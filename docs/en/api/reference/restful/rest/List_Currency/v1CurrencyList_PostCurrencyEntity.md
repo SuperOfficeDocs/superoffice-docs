@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 887,
-  "Name": "Goodwin-D'Amore",
-  "Tooltip": "est",
-  "Rank": 667,
-  "Rate": 19227.09,
-  "Units": 10990.938,
+  "CurrencyId": 616,
+  "Name": "Rempel, Harris and Collins",
+  "Tooltip": "nihil",
+  "Rank": 34,
+  "Rate": 14939.778,
+  "Units": 21571.322,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 940,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "incidunt",
-  "Rank": 673,
-  "Rate": 24445.2,
-  "Units": 2322.294,
-  "Deleted": false,
+  "CurrencyId": 280,
+  "Name": "Predovic, Hills and Grady",
+  "Tooltip": "earum",
+  "Rank": 92,
+  "Rate": 14071.66,
+  "Units": 21367.612,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 473
+      "FieldLength": 147
     }
   }
 }

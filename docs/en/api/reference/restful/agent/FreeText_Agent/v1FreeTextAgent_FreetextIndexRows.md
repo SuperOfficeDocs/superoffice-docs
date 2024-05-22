@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/FreeText/FreetextIndexRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hand-Macejkovic",
+  "TableName": "Nader-Wolff",
   "IDs": [
-    372,
-    217
+    88,
+    63
   ]
 }
 ```

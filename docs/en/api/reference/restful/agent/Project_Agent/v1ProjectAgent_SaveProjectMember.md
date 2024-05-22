@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 353,
-  "ContactId": 496,
-  "ProjectId": 434,
-  "ContactName": "Schmeler Group",
+  "ProjectmemberId": 333,
+  "ContactId": 204,
+  "ProjectId": 157,
+  "ContactName": "Kiehn Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Armstrong-Denesik",
-  "EmailId": 500,
-  "EmailAddress": "brigitte.gulgowski@raynor.uk",
-  "CountryId": 824,
-  "Firstname": "Jerry",
-  "MiddleName": "Runolfsdottir-Dickinson",
-  "Lastname": "Kohler",
-  "PersonId": 981,
-  "Mrmrs": "repellat",
-  "ProjectMemberTypeName": "Pouros-Dietrich",
-  "Phone": "(770)580-0959 x761",
-  "PhoneId": 229,
-  "ProjectMemberTypeId": 565,
-  "EmailAddressName": "reuben@jaskolski.us",
-  "Comment": "sint",
-  "FullName": "Grayce Denesik"
+  "ProjectName": "Mayert, Douglas and O'Conner",
+  "EmailId": 641,
+  "EmailAddress": "kirk_block@schulist.biz",
+  "CountryId": 390,
+  "Firstname": "Candace",
+  "MiddleName": "Langosh, Jakubowski and Wolf",
+  "Lastname": "Senger",
+  "PersonId": 19,
+  "Mrmrs": "cum",
+  "ProjectMemberTypeName": "Ortiz-Keeling",
+  "Phone": "978-926-7313",
+  "PhoneId": 946,
+  "ProjectMemberTypeId": 514,
+  "EmailAddressName": "emie.hammes@breitenberg.com",
+  "Comment": "rerum",
+  "FullName": "Norberto Wehner"
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 338,
-  "ContactId": 24,
-  "ProjectId": 501,
-  "ContactName": "Monahan, Lehner and Windler",
+  "ProjectmemberId": 844,
+  "ContactId": 708,
+  "ProjectId": 255,
+  "ContactName": "Fritsch-Jenkins",
   "ContactDepartment": "",
-  "ProjectName": "Reichel-Herman",
-  "EmailId": 215,
-  "EmailAddress": "constantin_casper@murazik.biz",
-  "CountryId": 129,
-  "Firstname": "Oscar",
-  "MiddleName": "Schiller, Dare and Stamm",
-  "Lastname": "Jewess",
-  "PersonId": 839,
-  "Mrmrs": "consequuntur",
-  "ProjectMemberTypeName": "Veum-Leffler",
-  "Phone": "297-936-9581",
-  "PhoneId": 148,
-  "ProjectMemberTypeId": 883,
-  "EmailAddressName": "markus@legros.info",
-  "Comment": "optio",
-  "FullName": "Prof. Elsie Sporer DVM",
+  "ProjectName": "Goyette Group",
+  "EmailId": 701,
+  "EmailAddress": "aylin@schneiderkertzmann.biz",
+  "CountryId": 859,
+  "Firstname": "Lorna",
+  "MiddleName": "Hackett Inc and Sons",
+  "Lastname": "Rohan",
+  "PersonId": 548,
+  "Mrmrs": "ipsam",
+  "ProjectMemberTypeName": "Nicolas-Osinski",
+  "Phone": "727.719.3640",
+  "PhoneId": 271,
+  "ProjectMemberTypeId": 720,
+  "EmailAddressName": "garfield@pouros.uk",
+  "Comment": "cumque",
+  "FullName": "Drew Rau",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

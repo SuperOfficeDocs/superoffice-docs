@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 466,
-  "Name": "Dach Group",
-  "ContentType": "aliquid",
-  "AttSize": 302,
-  "InlineImage": false,
-  "ContentId": "qui",
-  "AuthKey": "rem",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 695,
+  "Name": "Collier Group",
+  "ContentType": "sed",
+  "AttSize": 36,
+  "InlineImage": true,
+  "ContentId": "voluptas",
+  "AuthKey": "fuga",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 961
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

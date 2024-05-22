@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=et
-GET /api/v1/BatchTask?$top=884
-GET /api/v1/BatchTask?$skip=792
+GET /api/v1/BatchTask?$entities=qui
+GET /api/v1/BatchTask?$top=381
+GET /api/v1/BatchTask?$skip=277
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=occaecati
+GET /api/v1/BatchTask?$context=architecto
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quo",
+  "odata.nextLink": "ut",
   "value": [
     {
-      "PrimaryKey": 9673,
-      "EntityName": "person",
-      "personId": 9673,
-      "fullName": "Mrs. Rosetta Garrison Douglas"
+      "PrimaryKey": 7321,
+      "EntityName": "sale",
+      "saleId": 7321,
+      "contactId": 275,
+      "name": "Toy-Gorczany"
     },
     {
-      "PrimaryKey": 285,
-      "EntityName": "person",
-      "personId": 285,
-      "fullName": "Ms. Emil Glenna Kovacek MD"
+      "PrimaryKey": 6464,
+      "EntityName": "sale",
+      "saleId": 6464,
+      "contactId": 521,
+      "name": "Mueller-Gerhold"
     }
   ]
 }

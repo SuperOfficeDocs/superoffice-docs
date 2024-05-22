@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Wiza, Maggio and Huels",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "UdListDefinitionId": 876,
-  "Rank": 306,
+  "Id": 12,
+  "Name": "Glover-Parker",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "UdListDefinitionId": 903,
+  "Rank": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldType": "System.String",
+      "FieldLength": 623
     }
   }
 }

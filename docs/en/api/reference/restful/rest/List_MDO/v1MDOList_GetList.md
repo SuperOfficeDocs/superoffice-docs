@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=molestias
-GET /api/v1/MDOList/{listname}?query=sit
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=ab
+GET /api/v1/MDOList/{listname}?query=nihil
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Name": "Graham, Goodwin and O'Connell",
-    "ToolTip": "Voluptatibus laudantium.",
+    "Id": 261,
+    "Name": "Beier Group",
+    "ToolTip": "Ab eius reiciendis nostrum et voluptatem qui iure.",
     "Deleted": false,
-    "Rank": 142,
-    "Type": "nobis",
+    "Rank": 174,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Runolfsdottir-Shanahan",
-        "ToolTip": "Adipisci sed molestiae.",
+        "Id": 587,
+        "Name": "Heidenreich-Renner",
+        "ToolTip": "Consectetur sint voluptatibus vitae aut rerum similique illo.",
         "Deleted": false,
-        "Rank": 869,
-        "Type": "molestiae",
+        "Rank": 739,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 691,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "sunt",
-        "FullName": "Sibyl Kutch PhD",
+        "IconHint": "est",
+        "ColorBlock": 269,
+        "ExtraInfo": "eum",
+        "StyleHint": "ex",
+        "FullName": "Elena Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 142
+            "FieldType": "System.Int32",
+            "FieldLength": 338
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 849,
-    "ExtraInfo": "corrupti",
-    "StyleHint": "velit",
-    "FullName": "Serena Ankunding",
+    "IconHint": "et",
+    "ColorBlock": 113,
+    "ExtraInfo": "autem",
+    "StyleHint": "vero",
+    "FullName": "Gudrun Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 143
       }
     }
   }

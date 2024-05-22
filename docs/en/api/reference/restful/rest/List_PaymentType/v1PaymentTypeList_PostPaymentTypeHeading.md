@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 720,
-  "Name": "Rippin-Breitenberg",
-  "Tooltip": "accusamus",
+  "HeadingId": 366,
+  "Name": "Mayer, Hegmann and Fadel",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 609,
-  "UdListDefinitionId": 254
+  "Rank": 658,
+  "UdListDefinitionId": 207
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 558,
-  "Name": "Kohler Group",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 233,
-  "UdListDefinitionId": 531,
+  "HeadingId": 817,
+  "Name": "Runolfsdottir Group",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 898,
+  "UdListDefinitionId": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 959
     }
   }
 }

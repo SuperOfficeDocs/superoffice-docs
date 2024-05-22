@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "eius",
+      "RawValue": "tempore",
       "Specification": null,
-      "DisplayValue": "eos",
-      "DisplayTooltip": "suscipit",
+      "DisplayValue": "illum",
+      "DisplayTooltip": "maxime",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 216,
-      "PrefDescId": 262,
-      "TableName": "Zboncak, Jacobson and Jenkins",
-      "UserPreferenceId": 798
+      "TargetId": 429,
+      "PrefDescId": 636,
+      "TableName": "Gulgowski-Emmerich",
+      "UserPreferenceId": 672
     }
   ],
   "RemoveLowerLevels": false

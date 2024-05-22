@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Blick, Stark and Prohaska",
-    "ToolTip": "Aliquid unde cumque aut saepe.",
-    "Deleted": false,
-    "Rank": 944,
-    "Type": "dolorem",
-    "ColorBlock": 271,
-    "IconHint": "eligendi",
+    "Id": 117,
+    "Name": "Koss-Morar",
+    "ToolTip": "Nemo enim non veritatis ut doloremque.",
+    "Deleted": true,
+    "Rank": 300,
+    "Type": "possimus",
+    "ColorBlock": 974,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2015-08-12T11:16:14.512052+02:00",
+    "LastChanged": "2005-10-17T12:57:43.3552036+02:00",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Ortiz LLC",
-        "ToolTip": "Corporis debitis iste at quaerat esse officiis.",
+        "Id": 788,
+        "Name": "Walter-Wyman",
+        "ToolTip": "Exercitationem ipsum ut.",
         "Deleted": true,
-        "Rank": 359,
-        "Type": "quibusdam",
-        "ColorBlock": 540,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2021-02-21T11:16:14.512052+01:00",
+        "Rank": 368,
+        "Type": "dolore",
+        "ColorBlock": 565,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2014-02-04T12:57:43.3552036+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quod",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Gordon Champlin"
+        "FullName": "Mrs. Melisa Floyd Robel"
       }
     ],
     "ExtraInfo": "ut",
-    "StyleHint": "corporis",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Elmore Davis PhD"
+    "FullName": "Ernestine Mayert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Bruen, Schneider and Gusikowski",
-    "ToolTip": "Temporibus saepe et exercitationem.",
-    "Deleted": true,
-    "Rank": 710,
-    "Type": "asperiores",
-    "ColorBlock": 529,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2007-12-24T11:16:14.512052+01:00",
+    "Id": 457,
+    "Name": "Volkman, Mante and Willms",
+    "ToolTip": "Error ea expedita est mollitia.",
+    "Deleted": false,
+    "Rank": 960,
+    "Type": "facere",
+    "ColorBlock": 504,
+    "IconHint": "at",
+    "Selected": true,
+    "LastChanged": "2009-10-24T12:57:43.3552036+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Marquardt Inc and Sons",
-        "ToolTip": "Ut est temporibus.",
-        "Deleted": true,
-        "Rank": 548,
-        "Type": "eum",
-        "ColorBlock": 352,
-        "IconHint": "illo",
-        "Selected": false,
-        "LastChanged": "2012-03-01T11:16:14.512052+01:00",
+        "Id": 312,
+        "Name": "Klocko Group",
+        "ToolTip": "Omnis aperiam harum inventore sit quo distinctio.",
+        "Deleted": false,
+        "Rank": 293,
+        "Type": "debitis",
+        "ColorBlock": 778,
+        "IconHint": "animi",
+        "Selected": true,
+        "LastChanged": "2002-07-22T12:57:43.3552036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quia",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Anya Schimmel",
+        "FullName": "Asha Richie Smitham V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 857
+            "FieldType": "System.Int32",
+            "FieldLength": 879
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "sint",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Bud Bartoletti",
+    "FullName": "Darion Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldLength": 690
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Collier LLC",
-  "Tooltip": "commodi",
-  "Deleted": false,
-  "Rank": 982,
+  "Id": 312,
+  "Name": "Leannon-Armstrong",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "Rank": 387,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tenetur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quod",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 28
     }
   },
   "_Links": {

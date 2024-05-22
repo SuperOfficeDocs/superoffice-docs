@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 120
+  "AssociateId": 152
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 924,
-    "AssociateId": 39,
-    "Caption": "aut",
+    "DashboardId": 711,
+    "AssociateId": 985,
+    "Caption": "corrupti",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 491,
-        "Caption": "aut",
-        "Description": "Face to face real-time support",
-        "ChartName": "Abshire Group",
-        "ChartId": "minima",
-        "IsDefault": false,
-        "AssociateId": 273,
-        "GroupId": 11,
-        "SelectionId": 777,
-        "Config": "temporibus",
+        "DashboardTileId": 397,
+        "Caption": "veniam",
+        "Description": "Future-proofed next generation installation",
+        "ChartName": "Jast, Murray and Lemke",
+        "ChartId": "aperiam",
+        "IsDefault": true,
+        "AssociateId": 972,
+        "GroupId": 869,
+        "SelectionId": 806,
+        "Config": "et",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 511
+            "FieldType": "System.Int32",
+            "FieldLength": 192
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldLength": 19
       }
     }
   }

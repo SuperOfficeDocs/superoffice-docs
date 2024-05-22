@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 11,
-    "Name": "Lemke, Aufderhar and Schowalter",
-    "Tooltip": "libero",
+    "HeadingId": 170,
+    "Name": "Walter-Wunsch",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 530,
-    "UdListDefinitionId": 820
+    "Rank": 735,
+    "UdListDefinitionId": 491
   },
   {
-    "HeadingId": 11,
-    "Name": "Lemke, Aufderhar and Schowalter",
-    "Tooltip": "libero",
+    "HeadingId": 170,
+    "Name": "Walter-Wunsch",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 530,
-    "UdListDefinitionId": 820
+    "Rank": 735,
+    "UdListDefinitionId": 491
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 979,
-    "Name": "Rowe Inc and Sons",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 579,
-    "UdListDefinitionId": 196,
+    "HeadingId": 578,
+    "Name": "Kozey Inc and Sons",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 506,
+    "UdListDefinitionId": 441,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 33
+        "FieldLength": 274
       }
     }
   }

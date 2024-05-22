@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mueller Group",
+  "ProviderName": "West, Walker and Volkman",
   "Columns": [
-    "ratione",
-    "sed"
+    "quae",
+    "asperiores"
   ],
   "SortOrder": [
     {
-      "Name": "Beier-Bode",
+      "Name": "Moen Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Beier-Bode",
+      "Name": "Moen Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Homenick, Collier and Weimann",
-      "Operator": "provident",
+      "Name": "Hagenes-Connelly",
+      "Operator": "consequatur",
       "Values": [
-        "dolores",
-        "aut"
+        "occaecati",
+        "qui"
       ],
       "DisplayValues": [
-        "facere",
-        "architecto"
+        "aut",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 435,
+      "InterParenthesis": 774,
       "InterOperator": "And",
-      "UniqueHash": 347
+      "UniqueHash": 480
     }
   ],
   "Entities": [
-    "molestiae",
-    "corrupti"
+    "sed",
+    "quos"
   ],
-  "Page": 429,
-  "PageSize": 968
+  "Page": 149,
+  "PageSize": 975
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rempel-O'Kon",
-    "PrimaryKey": 400,
+    "EntityName": "D'Amore LLC",
+    "PrimaryKey": 169,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sed",
-        "TooltipHint": "dolorem",
-        "LinkHint": "dolor"
+        "DisplayValue": "incidunt",
+        "TooltipHint": "soluta",
+        "LinkHint": "fuga"
       }
     },
-    "LinkHint": "quia",
-    "StyleHint": "ratione",
+    "LinkHint": "dolor",
+    "StyleHint": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldType": "System.String",
+        "FieldLength": 897
       }
     }
   }

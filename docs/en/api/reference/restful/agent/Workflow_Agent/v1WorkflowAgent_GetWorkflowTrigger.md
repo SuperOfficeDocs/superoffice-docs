@@ -26,7 +26,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=868
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=892
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 337,
-  "WorkflowId": 114,
+  "WorkflowTriggerId": 766,
+  "WorkflowId": 452,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Torp, Dickinson and Hane",
-      "Description": "Optimized attitude-oriented secured line",
-      "Rank": 536,
+      "Name": "Rempel Inc and Sons",
+      "Description": "Adaptive multimedia architecture",
+      "Rank": 348,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Torp, Dickinson and Hane",
-      "Description": "Optimized attitude-oriented secured line",
-      "Rank": 536,
+      "Name": "Rempel Inc and Sons",
+      "Description": "Adaptive multimedia architecture",
+      "Rank": 348,
       "Restrictions": [
         {},
         {}
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   }
 }

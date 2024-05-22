@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 88,
-  "Currency": "et"
+  "QuoteConnectionId": 360,
+  "Currency": "animi"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 765,
-    "ERPPriceListKey": "dolores",
-    "QuoteConnectionId": 491,
-    "Name": "Schuppe-Beier",
-    "Description": "Realigned demand-driven approach",
-    "Currency": "ea",
-    "CurrencyName": "Gorczany Group",
-    "ValidFrom": "2000-04-13T11:16:09.6161411+02:00",
-    "ValidTo": "2013-12-06T11:16:09.6161411+01:00",
+    "PriceListId": 90,
+    "ERPPriceListKey": "nihil",
+    "QuoteConnectionId": 245,
+    "Name": "Eichmann Group",
+    "Description": "Re-engineered background complexity",
+    "Currency": "non",
+    "CurrencyName": "Langosh-Schneider",
+    "ValidFrom": "2006-09-10T12:57:34.7428121+02:00",
+    "ValidTo": "1997-07-19T12:57:34.7428121+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 611
       }
     }
   }

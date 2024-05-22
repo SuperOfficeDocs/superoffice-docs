@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Stoltenberg-Collier",
-    "ToolTip": "Velit iusto.",
-    "Deleted": true,
-    "Rank": 164,
-    "Type": "repellendus",
-    "ColorBlock": 980,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "2011-06-04T11:16:14.4808001+02:00",
+    "Id": 253,
+    "Name": "Lindgren-Kuhn",
+    "ToolTip": "Recusandae cumque quia nihil expedita qui cumque nam.",
+    "Deleted": false,
+    "Rank": 71,
+    "Type": "non",
+    "ColorBlock": 293,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "2010-11-22T12:57:43.3239611+01:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Marks, Smitham and Gleichner",
-        "ToolTip": "Inventore magnam quos.",
+        "Id": 562,
+        "Name": "Jerde-Halvorson",
+        "ToolTip": "Distinctio debitis.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "voluptates",
-        "ColorBlock": 90,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2007-05-20T11:16:14.4808001+02:00",
+        "Rank": 205,
+        "Type": "est",
+        "ColorBlock": 623,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "1999-11-27T12:57:43.3239611+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Dr. Jaclyn Macejkovic"
+        "ExtraInfo": "in",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Bulah Effertz"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "et",
+    "ExtraInfo": "nam",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Malinda Cormier"
+    "FullName": "Sylvester McKenzie"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Wehner, Lowe and Howe",
-    "ToolTip": "Est consectetur.",
+    "Id": 231,
+    "Name": "Armstrong-Swaniawski",
+    "ToolTip": "Ut dolorum facere rerum saepe quos minima.",
     "Deleted": false,
-    "Rank": 926,
-    "Type": "optio",
-    "ColorBlock": 493,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "1999-04-26T11:16:14.4964233+02:00",
+    "Rank": 518,
+    "Type": "qui",
+    "ColorBlock": 284,
+    "IconHint": "voluptatum",
+    "Selected": false,
+    "LastChanged": "2010-01-01T12:57:43.3395828+01:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Oberbrunner-Weissnat",
-        "ToolTip": "Id qui.",
+        "Id": 544,
+        "Name": "Hackett, Lehner and Boehm",
+        "ToolTip": "Et dolorem beatae voluptatem omnis qui.",
         "Deleted": false,
-        "Rank": 4,
-        "Type": "consectetur",
-        "ColorBlock": 922,
-        "IconHint": "eveniet",
+        "Rank": 429,
+        "Type": "sint",
+        "ColorBlock": 145,
+        "IconHint": "harum",
         "Selected": true,
-        "LastChanged": "2002-12-25T11:16:14.4964233+01:00",
+        "LastChanged": "2003-08-28T12:57:43.3395828+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Stanley Streich",
+        "ExtraInfo": "sit",
+        "StyleHint": "magni",
+        "Hidden": false,
+        "FullName": "Marisa Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldType": "System.String",
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "error",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Pink Cole",
+    "FullName": "Miss Shad Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldType": "System.Int32",
+        "FieldLength": 137
       }
     }
   }

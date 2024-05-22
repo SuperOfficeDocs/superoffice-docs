@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 77,
-  "ERPProductKey": "sed",
-  "ERPPriceListKey": "dicta",
-  "Name": "Wehner-Cronin",
-  "Description": "User-centric stable internet solution",
-  "Code": "ut",
-  "PriceUnit": "modi",
-  "QuantityUnit": "aliquam",
+  "ProductId": 820,
+  "ERPProductKey": "perferendis",
+  "ERPPriceListKey": "dolor",
+  "Name": "Brekke-Parisian",
+  "Description": "Mandatory encompassing adapter",
+  "Code": "culpa",
+  "PriceUnit": "soluta",
+  "QuantityUnit": "occaecati",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptate",
-  "DefaultSubscriptionQuantity": 19531.088,
-  "ItemNumber": "1332230",
+  "SubscriptionUnit": "optio",
+  "DefaultSubscriptionQuantity": 22636.881999999998,
+  "ItemNumber": "560695",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ipsum",
-  "ProductTypeKey": "sunt",
-  "VAT": 15961.462,
-  "VATInfo": "impedit",
-  "UnitCost": 6750.6359999999995,
-  "UnitMinimumPrice": 26629.597999999998,
-  "UnitListPrice": 24382.52,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "unde",
+  "VAT": 15594.784,
+  "VATInfo": "enim",
+  "UnitCost": 6249.196,
+  "UnitMinimumPrice": 1927.4099999999999,
+  "UnitListPrice": 13930.63,
   "InAssortment": true,
-  "Supplier": "aut",
-  "SupplierCode": "porro",
-  "Rights": "aliquam",
-  "Rule": "ab",
+  "Supplier": "laborum",
+  "SupplierCode": "sunt",
+  "Rights": "magni",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "Stoltenberg, Tromp and Kertzmann",
-      "Value": "doloribus",
+      "Name": "Walker Inc and Sons",
+      "Value": "molestiae",
       "Type": "Image"
     },
     {
-      "Name": "Stoltenberg, Tromp and Kertzmann",
-      "Value": "doloribus",
+      "Name": "Walker Inc and Sons",
+      "Value": "molestiae",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "natus",
-  "ExtraField1": "iste",
-  "ExtraField2": "eum",
-  "ExtraField3": "numquam",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "enim",
-  "InStock": 2052.77
+  "RawExtraInfo": "fugit",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "similique",
+  "ExtraField3": "quia",
+  "ExtraField4": "illo",
+  "ExtraField5": "minima",
+  "InStock": 16704.22
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 378,
-  "ERPProductKey": "accusamus",
-  "ERPPriceListKey": "sed",
-  "Name": "Gibson, Pacocha and Hodkiewicz",
-  "Description": "Team-oriented local architecture",
-  "Code": "voluptatem",
-  "PriceUnit": "quo",
-  "QuantityUnit": "sint",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "DefaultSubscriptionQuantity": 19963.579999999998,
-  "ItemNumber": "1606319",
+  "ProductId": 606,
+  "ERPProductKey": "voluptas",
+  "ERPPriceListKey": "ut",
+  "Name": "Hoppe, Boehm and Collier",
+  "Description": "Ameliorated uniform open architecture",
+  "Code": "nisi",
+  "PriceUnit": "quis",
+  "QuantityUnit": "quod",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 27184.316,
+  "ItemNumber": "1611300",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "et",
-  "VAT": 5424.954,
-  "VATInfo": "adipisci",
-  "UnitCost": 23523.804,
-  "UnitMinimumPrice": 5155.4299999999994,
-  "UnitListPrice": 20302.052,
+  "ProductFamilyKey": "voluptas",
+  "ProductTypeKey": "sint",
+  "VAT": 23019.23,
+  "VATInfo": "ab",
+  "UnitCost": 1491.7839999999999,
+  "UnitMinimumPrice": 28447.318,
+  "UnitListPrice": 13730.054,
   "InAssortment": false,
-  "Supplier": "officiis",
-  "SupplierCode": "aut",
-  "Rights": "ut",
-  "Rule": "corrupti",
+  "Supplier": "culpa",
+  "SupplierCode": "nam",
+  "Rights": "placeat",
+  "Rule": "non",
   "ExtraInfo": [
     {
-      "Name": "Buckridge Inc and Sons",
-      "Value": "est",
+      "Name": "Corwin LLC",
+      "Value": "repudiandae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 630
         }
       }
     },
     {
-      "Name": "Buckridge Inc and Sons",
-      "Value": "est",
+      "Name": "Corwin LLC",
+      "Value": "repudiandae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 630
         }
       }
     }
   ],
-  "RawExtraInfo": "dolores",
-  "ExtraField1": "officia",
-  "ExtraField2": "quo",
-  "ExtraField3": "consequuntur",
-  "ExtraField4": "qui",
-  "ExtraField5": "est",
-  "InStock": 25479.42,
+  "RawExtraInfo": "distinctio",
+  "ExtraField1": "sint",
+  "ExtraField2": "omnis",
+  "ExtraField3": "non",
+  "ExtraField4": "quae",
+  "ExtraField5": "excepturi",
+  "InStock": 16707.354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 247
     }
   }
 }

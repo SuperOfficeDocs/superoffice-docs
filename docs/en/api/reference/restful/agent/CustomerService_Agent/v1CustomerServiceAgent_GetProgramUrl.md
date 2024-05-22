@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Medhurst-Gusikowski",
+  "ProgramName": "Morissette, Waters and Runolfsson",
   "External": false
 }
 ```

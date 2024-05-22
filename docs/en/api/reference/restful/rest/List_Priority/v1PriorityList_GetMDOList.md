@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=qui
+GET /api/v1/List/Priority/MDOItems?query=expedita
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Ebert, Marks and Boyle",
-    "ToolTip": "Omnis possimus atque.",
+    "Id": 472,
+    "Name": "Rippin-Jacobson",
+    "ToolTip": "Quia harum corrupti pariatur odit quibusdam blanditiis facere.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "corrupti",
+    "Rank": 244,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Beatty Group",
-        "ToolTip": "Odit et ea aperiam.",
+        "Id": 980,
+        "Name": "Kessler LLC",
+        "ToolTip": "Voluptatum ut voluptatem natus magni sed rerum.",
         "Deleted": true,
-        "Rank": 607,
-        "Type": "sunt",
+        "Rank": 266,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corrupti",
-        "ColorBlock": 202,
-        "ExtraInfo": "officiis",
-        "StyleHint": "consectetur",
-        "FullName": "Mona Will V",
+        "IconHint": "tempore",
+        "ColorBlock": 792,
+        "ExtraInfo": "dolorum",
+        "StyleHint": "commodi",
+        "FullName": "Uriah Armstrong DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 913
+            "FieldType": "System.Int32",
+            "FieldLength": 23
           }
         }
       }
     ],
-    "IconHint": "nemo",
-    "ColorBlock": 858,
-    "ExtraInfo": "vitae",
-    "StyleHint": "aut",
-    "FullName": "Nona Mayert III",
+    "IconHint": "sit",
+    "ColorBlock": 476,
+    "ExtraInfo": "asperiores",
+    "StyleHint": "delectus",
+    "FullName": "Ms. Shaylee Adolf Koss Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

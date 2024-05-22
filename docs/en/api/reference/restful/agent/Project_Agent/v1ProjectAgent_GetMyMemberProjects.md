@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 850,
-    "Name": "Jacobi-Harber",
-    "Description": "Customer-focused object-oriented internet solution",
+    "ProjectId": 544,
+    "Name": "Runolfsson-Harber",
+    "Description": "Fully-configurable user-facing encryption",
     "URL": "http://www.example.com/",
-    "Type": "quasi",
-    "AssociateId": 392,
-    "AssociateFullName": "Ms. Porter Parisian",
-    "TypeId": 410,
-    "Updated": "2011-07-19T11:16:09.569228+02:00",
-    "StatusId": 497,
-    "Status": "qui",
-    "TextId": 155,
-    "PublishTo": "1997-07-10T11:16:09.569228+02:00",
-    "PublishFrom": "2021-08-06T11:16:09.569228+02:00",
-    "IsPublished": false,
+    "Type": "eaque",
+    "AssociateId": 910,
+    "AssociateFullName": "Constantin Jake O'Connell DVM",
+    "TypeId": 757,
+    "Updated": "1998-05-01T12:57:34.664705+02:00",
+    "StatusId": 158,
+    "Status": "repellat",
+    "TextId": 988,
+    "PublishTo": "2009-10-14T12:57:34.664705+02:00",
+    "PublishFrom": "2019-02-15T12:57:34.664705+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "615863",
-    "ActiveErpLinks": 796,
+    "ProjectNumber": "903337",
+    "ActiveErpLinks": 324,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 414
       }
     }
   }

@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "iusto",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iusto",
+    "path": "et",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 926,
-  "Name": "Denesik-Boyle",
-  "ContentType": "ducimus",
-  "AttSize": 945,
+  "AttachmentId": 237,
+  "Name": "Kessler Group",
+  "ContentType": "unde",
+  "AttSize": 911,
   "InlineImage": false,
-  "ContentId": "molestias",
-  "AuthKey": "soluta",
+  "ContentId": "eum",
+  "AuthKey": "ut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 319
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

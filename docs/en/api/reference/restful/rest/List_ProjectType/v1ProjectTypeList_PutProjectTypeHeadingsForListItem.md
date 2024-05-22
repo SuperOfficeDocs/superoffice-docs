@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Harvey, Schimmel and Bogisich",
-    "ToolTip": "Voluptates sit.",
-    "Deleted": false,
-    "Rank": 966,
-    "Type": "nostrum",
-    "ColorBlock": 921,
-    "IconHint": "corrupti",
+    "Id": 510,
+    "Name": "Johnson, Nitzsche and Kohler",
+    "ToolTip": "Et porro qui.",
+    "Deleted": true,
+    "Rank": 963,
+    "Type": "sint",
+    "ColorBlock": 860,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2015-08-03T11:16:14.668281+02:00",
+    "LastChanged": "2013-11-14T12:57:43.6520109+01:00",
     "ChildItems": [
       {
-        "Id": 176,
-        "Name": "Batz Inc and Sons",
-        "ToolTip": "Consequatur provident enim sed praesentium.",
-        "Deleted": false,
-        "Rank": 310,
-        "Type": "perferendis",
-        "ColorBlock": 769,
-        "IconHint": "quisquam",
+        "Id": 467,
+        "Name": "Emmerich, Harris and Hackett",
+        "ToolTip": "Facilis at ullam.",
+        "Deleted": true,
+        "Rank": 111,
+        "Type": "recusandae",
+        "ColorBlock": 200,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2005-02-21T11:16:14.668281+01:00",
+        "LastChanged": "2011-05-27T12:57:43.6520109+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Miss Estel Bosco"
+        "ExtraInfo": "autem",
+        "StyleHint": "eveniet",
+        "Hidden": true,
+        "FullName": "Mrs. Flossie Hansen MD"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "magnam",
+    "ExtraInfo": "quidem",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Gaylord Beahan"
+    "FullName": "Jo Kailee Murphy I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Wiza, Gulgowski and Steuber",
-    "ToolTip": "Sed magni et explicabo quo voluptate error et.",
+    "Id": 87,
+    "Name": "Cremin-Ferry",
+    "ToolTip": "Quod deleniti.",
     "Deleted": false,
-    "Rank": 527,
-    "Type": "laudantium",
-    "ColorBlock": 502,
-    "IconHint": "sed",
+    "Rank": 299,
+    "Type": "est",
+    "ColorBlock": 588,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2014-06-25T11:16:14.668281+02:00",
+    "LastChanged": "2020-01-24T12:57:43.6520109+01:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "O'Keefe, Crooks and Predovic",
-        "ToolTip": "Non recusandae temporibus animi repudiandae nihil.",
-        "Deleted": false,
-        "Rank": 713,
-        "Type": "quibusdam",
-        "ColorBlock": 459,
-        "IconHint": "pariatur",
-        "Selected": false,
-        "LastChanged": "2015-08-18T11:16:14.668281+02:00",
+        "Id": 156,
+        "Name": "Christiansen Group",
+        "ToolTip": "Itaque ut in velit vel maiores.",
+        "Deleted": true,
+        "Rank": 532,
+        "Type": "nobis",
+        "ColorBlock": 360,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2015-07-05T12:57:43.6520109+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "qui",
+        "ExtraInfo": "eos",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Brendan Daugherty",
+        "FullName": "Caleb Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 996
+            "FieldLength": 533
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "quis",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Randy Donnelly",
+    "FullName": "Vincenza Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 857
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Jones, Quigley and Kerluke",
-    "ToolTip": "Et aliquam.",
+    "Id": 343,
+    "Name": "Tremblay Inc and Sons",
+    "ToolTip": "Consequuntur aut consequatur.",
     "Deleted": true,
-    "Rank": 30,
-    "Type": "eos",
-    "ColorBlock": 649,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "1998-02-16T11:16:14.5589219+01:00",
+    "Rank": 755,
+    "Type": "reprehenderit",
+    "ColorBlock": 646,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2012-09-05T12:57:43.4489324+02:00",
     "ChildItems": [
       {
-        "Id": 121,
-        "Name": "Blanda Inc and Sons",
-        "ToolTip": "Illum quae velit quis et ratione.",
+        "Id": 521,
+        "Name": "Block, Ferry and Watsica",
+        "ToolTip": "Atque et placeat ipsum autem libero id et.",
         "Deleted": false,
-        "Rank": 391,
-        "Type": "molestiae",
-        "ColorBlock": 32,
-        "IconHint": "ea",
+        "Rank": 281,
+        "Type": "nihil",
+        "ColorBlock": 348,
+        "IconHint": "assumenda",
         "Selected": true,
-        "LastChanged": "2023-05-10T11:16:14.5589219+02:00",
+        "LastChanged": "2009-10-05T12:57:43.4489324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "et",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Jovany Hansen IV",
+        "FullName": "Mrs. Destany Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 374
+            "FieldType": "System.String",
+            "FieldLength": 153
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Riley Bechtelar",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Marielle Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldLength": 197
       }
     }
   }

@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 447,
-    "Name": "Mills Inc and Sons",
-    "Description": "Enterprise-wide didactic task-force",
+    "ProjectId": 749,
+    "Name": "Dickinson Inc and Sons",
+    "Description": "Switchable multi-tasking framework",
     "URL": "http://www.example.com/",
-    "Type": "doloribus",
-    "AssociateId": 523,
-    "AssociateFullName": "Maida Ward",
-    "TypeId": 934,
-    "Updated": "2021-02-05T11:16:09.569228+01:00",
-    "StatusId": 800,
-    "Status": "consequatur",
-    "TextId": 631,
-    "PublishTo": "2015-08-24T11:16:09.569228+02:00",
-    "PublishFrom": "2015-08-31T11:16:09.569228+02:00",
-    "IsPublished": false,
+    "Type": "facilis",
+    "AssociateId": 293,
+    "AssociateFullName": "Alta Schmidt",
+    "TypeId": 502,
+    "Updated": "2003-06-06T12:57:34.664705+02:00",
+    "StatusId": 257,
+    "Status": "qui",
+    "TextId": 295,
+    "PublishTo": "2006-12-31T12:57:34.664705+01:00",
+    "PublishFrom": "2023-07-16T12:57:34.664705+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1101393",
-    "ActiveErpLinks": 629,
+    "ProjectNumber": "1503868",
+    "ActiveErpLinks": 798,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

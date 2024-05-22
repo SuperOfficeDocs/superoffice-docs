@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 556,
-  "BlobId": 302
+  "ContactId": 872,
+  "BlobId": 818
 }
 ```
 

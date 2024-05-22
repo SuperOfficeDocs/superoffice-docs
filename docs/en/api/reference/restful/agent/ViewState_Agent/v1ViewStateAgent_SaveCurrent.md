@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 507,
-  "Id": 544,
-  "HistoryName": "Deckow Group",
-  "HistoryId": 4,
-  "AssociateId": 80,
-  "Name": "Bode Group",
-  "ItemInfo": "fugit",
+  "Rank": 748,
+  "Id": 558,
+  "HistoryName": "Veum-Connelly",
+  "HistoryId": 711,
+  "AssociateId": 1001,
+  "Name": "Krajcik LLC",
+  "ItemInfo": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

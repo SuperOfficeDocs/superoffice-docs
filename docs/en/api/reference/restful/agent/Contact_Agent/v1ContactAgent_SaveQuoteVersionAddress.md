@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 283,
+  "QuoteVersionId": 324,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 888
+  "CountryId": 276
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22818.654,
-  "Wgs84Longitude": 15187.364,
+  "Wgs84Latitude": 1241.0639999999999,
+  "Wgs84Longitude": 12341.692,
   "LocalizedAddress": [
     [
       {
-        "Name": "Larson, Jaskolski and Weimann",
-        "Value": "iusto",
-        "Tooltip": "voluptatem",
-        "Label": "ut",
-        "ValueLength": 606,
-        "AddressType": "magnam",
+        "Name": "Koch Inc and Sons",
+        "Value": "suscipit",
+        "Tooltip": "architecto",
+        "Label": "magni",
+        "ValueLength": 588,
+        "AddressType": "voluptatem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldType": "System.String",
+            "FieldLength": 820
           }
         }
       }
     ],
     [
       {
-        "Name": "Abernathy Group",
-        "Value": "maiores",
-        "Tooltip": "voluptatum",
-        "Label": "doloribus",
-        "ValueLength": 520,
-        "AddressType": "quasi",
+        "Name": "Kassulke-Wisoky",
+        "Value": "veniam",
+        "Tooltip": "et",
+        "Label": "qui",
+        "ValueLength": 806,
+        "AddressType": "porro",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 875
+            "FieldLength": 222
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ipsa",
+  "Formatted": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   }
 }

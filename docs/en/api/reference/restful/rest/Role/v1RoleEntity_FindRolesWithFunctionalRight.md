@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Marks-Emard",
-    "ToolTip": "Non accusamus nostrum nobis ducimus.",
+    "Id": 293,
+    "Name": "Douglas, Gutkowski and Funk",
+    "ToolTip": "Deserunt facere.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "ut",
+    "Rank": 315,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Spencer Inc and Sons",
-        "ToolTip": "Doloribus rerum esse tenetur fuga non at.",
-        "Deleted": true,
-        "Rank": 204,
-        "Type": "et",
+        "Id": 733,
+        "Name": "Zemlak-Satterfield",
+        "ToolTip": "Nam optio cupiditate perspiciatis et nam deserunt.",
+        "Deleted": false,
+        "Rank": 388,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "excepturi",
-        "ColorBlock": 336,
-        "ExtraInfo": "in",
-        "StyleHint": "aliquid",
-        "FullName": "Lilla Tromp PhD",
+        "IconHint": "cupiditate",
+        "ColorBlock": 189,
+        "ExtraInfo": "ut",
+        "StyleHint": "eaque",
+        "FullName": "Herta Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 285
+            "FieldLength": 865
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 70,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "est",
-    "FullName": "Nella Rutherford",
+    "IconHint": "delectus",
+    "ColorBlock": 827,
+    "ExtraInfo": "in",
+    "StyleHint": "ipsa",
+    "FullName": "Furman Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldLength": 630
       }
     }
   }

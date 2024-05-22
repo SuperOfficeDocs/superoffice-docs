@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Heidenreich, O'Connell and Bergnaum"
+  "OwnerName": "Lakin Inc and Sons"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 535,
-      "NumberOfLicensesFree": 306,
-      "NumberOfLicensesAdded": 363,
-      "NumberOfLicensesNewTotal": 176,
-      "NumberOfLicensesNewFree": 835,
-      "NumberOfLicensesTotal": 350
+      "NumberOfLicensesInUse": 173,
+      "NumberOfLicensesFree": 963,
+      "NumberOfLicensesAdded": 732,
+      "NumberOfLicensesNewTotal": 615,
+      "NumberOfLicensesNewFree": 24,
+      "NumberOfLicensesTotal": 983
     }
   ],
-  "AccumulatedNextCheckDate": "2005-09-06T11:16:09.3034579+02:00"
+  "AccumulatedNextCheckDate": "1999-07-05T12:57:34.0867473+02:00"
 }
 ```

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 768,
-  "Name": "Stoltenberg, Dach and Ziemann",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "Rank": 484,
-  "UdListDefinitionId": 197
+  "HeadingId": 769,
+  "Name": "Kreiger-Lubowitz",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 781,
+  "UdListDefinitionId": 890
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 70,
-  "Name": "Fritsch Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 861,
+  "Name": "Terry, Armstrong and Watsica",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 561,
-  "UdListDefinitionId": 485,
+  "Rank": 933,
+  "UdListDefinitionId": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   }
 }

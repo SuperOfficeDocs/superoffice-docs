@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 83,
-  "CurrencyId": 952
+  "QuoteConnectionId": 994,
+  "CurrencyId": 329
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 429,
-    "ERPPriceListKey": "officia",
-    "QuoteConnectionId": 94,
-    "Name": "Schimmel LLC",
-    "Description": "Seamless transitional protocol",
-    "Currency": "animi",
-    "CurrencyName": "Buckridge, Abbott and Gottlieb",
-    "ValidFrom": "2009-12-29T11:16:09.6161411+01:00",
-    "ValidTo": "2013-07-18T11:16:09.6161411+02:00",
-    "IsActive": true,
+    "PriceListId": 98,
+    "ERPPriceListKey": "qui",
+    "QuoteConnectionId": 757,
+    "Name": "Sawayn Group",
+    "Description": "Networked holistic groupware",
+    "Currency": "velit",
+    "CurrencyName": "Lebsack-Lang",
+    "ValidFrom": "2017-05-24T12:57:34.7428121+02:00",
+    "ValidTo": "2013-09-08T12:57:34.7428121+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 918
       }
     }
   }

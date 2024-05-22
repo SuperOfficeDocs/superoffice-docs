@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wyman-Stark",
-  "ListItemId": 218
+  "UdListDefinitionName": "Herzog, Daugherty and Corwin",
+  "ListItemId": 208
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Koelpin LLC",
-    "ToolTip": "At et.",
-    "Deleted": false,
-    "Rank": 129,
-    "Type": "labore",
-    "ColorBlock": 995,
-    "IconHint": "perferendis",
+    "Id": 107,
+    "Name": "Mann, Russel and Senger",
+    "ToolTip": "Repellat fugiat consequatur harum nulla facere.",
+    "Deleted": true,
+    "Rank": 849,
+    "Type": "dolor",
+    "ColorBlock": 567,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2017-04-21T11:16:09.3347069+02:00",
+    "LastChanged": "2002-07-13T12:57:34.1336045+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Schoen, Rau and Brakus",
-        "ToolTip": "Eius quia dolorem aut.",
-        "Deleted": true,
-        "Rank": 973,
-        "Type": "et",
-        "ColorBlock": 987,
-        "IconHint": "est",
+        "Id": 583,
+        "Name": "Satterfield, Fisher and Cremin",
+        "ToolTip": "Provident iste.",
+        "Deleted": false,
+        "Rank": 294,
+        "Type": "voluptate",
+        "ColorBlock": 205,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "1996-12-25T11:16:09.3347069+01:00",
+        "LastChanged": "1998-02-22T12:57:34.1336045+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Dr. Jazmyne Adams MD",
+        "ExtraInfo": "quam",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Melvin Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 242
+            "FieldType": "System.String",
+            "FieldLength": 876
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "quo",
+    "ExtraInfo": "in",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Therese Zboncak",
+    "FullName": "Miss Winfield Nayeli Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 424
       }
     }
   }

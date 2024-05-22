@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=a
-GET /api/v1/Relation?$top=584
-GET /api/v1/Relation?$skip=811
+GET /api/v1/Relation?$entities=sint
+GET /api/v1/Relation?$top=782
+GET /api/v1/Relation?$skip=243
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=excepturi
+GET /api/v1/Relation?$context=a
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "saepe",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 2657,
-      "EntityName": "person",
-      "personId": 2657,
-      "fullName": "Davion Buster Kemmer DDS"
+      "PrimaryKey": 9637,
+      "EntityName": "sale",
+      "saleId": 9637,
+      "contactId": 4585,
+      "name": "Considine, McKenzie and Corkery"
     },
     {
-      "PrimaryKey": 674,
-      "EntityName": "person",
-      "personId": 674,
-      "fullName": "Sunny Wyman"
+      "PrimaryKey": 3164,
+      "EntityName": "sale",
+      "saleId": 3164,
+      "contactId": 8814,
+      "name": "Heathcote LLC"
     }
   ]
 }

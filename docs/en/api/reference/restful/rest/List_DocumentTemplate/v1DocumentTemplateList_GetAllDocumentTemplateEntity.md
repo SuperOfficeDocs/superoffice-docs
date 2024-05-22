@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 538,
-    "Name": "Yundt Inc and Sons",
-    "Tooltip": "dignissimos",
-    "SaveInDb": 481,
-    "Filename": "et",
-    "DefaultOref": "voluptatem",
+    "DocumentTemplateId": 84,
+    "Name": "Ruecker, Kiehn and O'Connell",
+    "Tooltip": "vel",
+    "SaveInDb": 439,
+    "Filename": "est",
+    "DefaultOref": "aut",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 344,
-    "IntentId": 383,
+    "AutoeventId": 242,
+    "IntentId": 519,
     "IsDefaultPublished": false,
-    "Rank": 217,
-    "LoadTemplateFromPlugin": 725,
-    "MimeType": "quo",
+    "Rank": 441,
+    "LoadTemplateFromPlugin": 736,
+    "MimeType": "quidem",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 716,
+    "DocumentTypeKey": 637,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "marquis@johnston.us",
+    "EmailSubject": "donnell_koelpin@little.name",
     "IncludeSignature": true,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jerry@yundt.name",
+    "SenderEmailAddress": "yazmin.bradtke@mclaughlin.co.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Mills, Denesik and Stehr",
-  "Tooltip": "eos",
+  "Id": 951,
+  "Name": "Effertz, Mertz and Treutel",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 380,
+  "Rank": 859,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "neque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 718
     }
   },
   "_Links": {

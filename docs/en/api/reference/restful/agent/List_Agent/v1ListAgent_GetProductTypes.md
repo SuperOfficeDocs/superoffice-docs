@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Value": "corporis",
-    "Tooltip": "autem",
+    "Id": 534,
+    "Value": "perferendis",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 349
       }
     }
   },
   {
-    "Id": 40,
-    "Value": "corporis",
-    "Tooltip": "autem",
+    "Id": 534,
+    "Value": "perferendis",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 349
       }
     }
   }

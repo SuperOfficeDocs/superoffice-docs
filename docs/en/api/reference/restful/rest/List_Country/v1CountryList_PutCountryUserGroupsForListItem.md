@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Bergnaum, Dare and Powlowski",
-    "ToolTip": "Odio facere voluptate.",
+    "Id": 619,
+    "Name": "Krajcik Group",
+    "ToolTip": "Qui delectus sunt accusantium molestias delectus dolor.",
     "Deleted": false,
-    "Rank": 143,
-    "Type": "voluptatem",
-    "ColorBlock": 555,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2023-03-13T11:16:14.5276742+01:00",
+    "Rank": 424,
+    "Type": "aliquam",
+    "ColorBlock": 500,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "1998-01-19T12:57:43.402068+01:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Gleichner Inc and Sons",
-        "ToolTip": "Aut id qui.",
-        "Deleted": false,
-        "Rank": 44,
-        "Type": "non",
-        "ColorBlock": 303,
-        "IconHint": "libero",
+        "Id": 218,
+        "Name": "Parker-Hoppe",
+        "ToolTip": "Ipsa odit.",
+        "Deleted": true,
+        "Rank": 557,
+        "Type": "aut",
+        "ColorBlock": 947,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2002-08-15T11:16:14.5276742+02:00",
+        "LastChanged": "2012-12-16T12:57:43.402068+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "nihil",
+        "ExtraInfo": "quia",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Prof. Quentin Garnet Nikolaus MD"
+        "FullName": "Clay Kautzer"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "illo",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Marcella Welch"
+    "FullName": "Mrs. Ted Rutherford"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Towne, Durgan and Zulauf",
-    "ToolTip": "Sed eius doloremque atque.",
+    "Id": 767,
+    "Name": "Williamson, Kovacek and Rempel",
+    "ToolTip": "Rerum nemo ipsa accusamus nisi.",
     "Deleted": false,
-    "Rank": 482,
-    "Type": "eum",
-    "ColorBlock": 176,
-    "IconHint": "ex",
+    "Rank": 788,
+    "Type": "nihil",
+    "ColorBlock": 446,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2016-04-02T11:16:14.5276742+02:00",
+    "LastChanged": "2003-04-11T12:57:43.402068+02:00",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Cummerata-Kris",
-        "ToolTip": "Dignissimos recusandae eos perferendis ducimus nesciunt numquam.",
+        "Id": 240,
+        "Name": "Rau-Hahn",
+        "ToolTip": "Nulla perspiciatis unde nemo suscipit laboriosam dolorem.",
         "Deleted": false,
-        "Rank": 751,
-        "Type": "in",
-        "ColorBlock": 409,
-        "IconHint": "aut",
+        "Rank": 883,
+        "Type": "et",
+        "ColorBlock": 248,
+        "IconHint": "minus",
         "Selected": true,
-        "LastChanged": "2007-08-14T11:16:14.5276742+02:00",
+        "LastChanged": "2011-07-08T12:57:43.402068+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "libero",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Kamryn Brown Homenick III",
+        "FullName": "Prof. Krystina Lang Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldLength": 139
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "vel",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Favian Littel",
+    "FullName": "Mr. Jordyn Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldType": "System.Int32",
+        "FieldLength": 577
       }
     }
   }

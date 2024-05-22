@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 814,
-  "Name": "Barrows-Herman",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 730,
-  "UdListDefinitionId": 831
+  "HeadingId": 267,
+  "Name": "Schumm-Reilly",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 391,
+  "UdListDefinitionId": 656
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 181,
-  "Name": "Marvin LLC",
-  "Tooltip": "non",
+  "HeadingId": 819,
+  "Name": "Maggio-Ebert",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 761,
-  "UdListDefinitionId": 494,
+  "Rank": 875,
+  "UdListDefinitionId": 795,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

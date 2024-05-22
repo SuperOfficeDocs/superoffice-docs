@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 May 2001 11:16:13 G5T
+Last-Modified: Tue, 03 Aug 2004 12:57:42 G8T
 
 {
-  "Key": "neque",
-  "Value": "enim",
-  "RecordId": 406,
-  "CreatedDate": "2018-08-04T11:16:13.93321+02:00",
-  "UpdatedDate": "2001-05-08T11:16:13.93321+02:00",
-  "UpdatedBy": "nostrum",
-  "CreatedBy": "tempora",
-  "TableName": "Hilpert LLC",
+  "Key": "vel",
+  "Value": "doloremque",
+  "RecordId": 629,
+  "CreatedDate": "2017-02-24T12:57:42.4638774+01:00",
+  "UpdatedDate": "2004-08-03T12:57:42.4638774+02:00",
+  "UpdatedBy": "possimus",
+  "CreatedBy": "debitis",
+  "TableName": "Kerluke, Morissette and Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 829
     }
   }
 }

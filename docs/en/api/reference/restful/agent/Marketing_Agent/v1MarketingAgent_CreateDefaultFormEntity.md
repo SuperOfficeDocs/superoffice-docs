@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 550,
-  "FormKey": "sint",
-  "Name": "Smitham-Zemlak",
-  "Description": "Open-architected 5th generation analyzer",
-  "Config": "accusantium",
-  "FolderId": 686,
-  "ScriptId": 102,
-  "ResponseShipmentId": 103,
+  "FormId": 419,
+  "FormKey": "eos",
+  "Name": "Funk-Franecki",
+  "Description": "Grass-roots homogeneous adapter",
+  "Config": "earum",
+  "FolderId": 473,
+  "ScriptId": 335,
+  "ResponseShipmentId": 357,
   "Active": false,
-  "Expires": "2005-09-03T11:16:09.3815779+02:00",
-  "MaxSubmits": 89,
+  "Expires": "2014-05-16T12:57:34.2429559+02:00",
+  "MaxSubmits": 342,
   "Type": "Normal",
-  "Recipe": "eaque",
-  "GroupId": 469,
+  "Recipe": "aut",
+  "GroupId": 488,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-04-22T11:16:09.3815779+02:00",
-  "RegisteredAssociateId": 755,
-  "Updated": "2004-06-22T11:16:09.3815779+02:00",
-  "UpdatedAssociateId": 22,
-  "UpdatedCount": 707,
+  "Registered": "2014-12-25T12:57:34.2429559+01:00",
+  "RegisteredAssociateId": 383,
+  "Updated": "2010-08-25T12:57:34.2429559+02:00",
+  "UpdatedAssociateId": 1001,
+  "UpdatedCount": 951,
   "EmailFlows": [
-    387,
-    670
+    193,
+    147
   ],
-  "FolderName": "Schroeder, Grimes and Will",
+  "FolderName": "Schamberger-Kilback",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 673
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

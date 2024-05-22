@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=110
-POST /api/v1/Document/{documentId}/Content?personId=498
-POST /api/v1/Document/{documentId}/Content?appointmentId=51
-POST /api/v1/Document/{documentId}/Content?saleId=240
-POST /api/v1/Document/{documentId}/Content?selectionId=226
-POST /api/v1/Document/{documentId}/Content?projectId=883
-POST /api/v1/Document/{documentId}/Content?uiCulture=eius
+POST /api/v1/Document/{documentId}/Content?contactId=979
+POST /api/v1/Document/{documentId}/Content?personId=477
+POST /api/v1/Document/{documentId}/Content?appointmentId=99
+POST /api/v1/Document/{documentId}/Content?saleId=910
+POST /api/v1/Document/{documentId}/Content?selectionId=331
+POST /api/v1/Document/{documentId}/Content?projectId=637
+POST /api/v1/Document/{documentId}/Content?uiCulture=est
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 530,
+  "DocumentId": 959,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "exercitationem",
-  "Header": "vero",
-  "Name": "Streich Group",
-  "OurRef": "laborum",
-  "YourRef": "quos",
-  "CreatedDate": "2022-01-03T11:16:13.901969+01:00",
-  "UpdatedDate": "2000-04-07T11:16:13.901969+02:00",
-  "Description": "Switchable even-keeled access",
+  "Attention": "enim",
+  "Header": "explicabo",
+  "Name": "Connelly, Schroeder and Emard",
+  "OurRef": "doloribus",
+  "YourRef": "laboriosam",
+  "CreatedDate": "2019-07-10T12:57:42.401392+02:00",
+  "UpdatedDate": "2001-10-07T12:57:42.401392+02:00",
+  "Description": "Future-proofed neutral capability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-12-24T11:16:13.901969+01:00",
-  "ExternalRef": "architecto",
+  "Date": "2001-11-09T12:57:42.4170133+01:00",
+  "ExternalRef": "enim",
   "Completed": "Completed",
-  "ActiveLinks": 724,
+  "ActiveLinks": 223,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Armstrong-Bode",
-      "Id": 927,
-      "Description": "Vision-oriented web-enabled alliance",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 13,
+      "EntityName": "Little-Jaskolski",
+      "Id": 22,
+      "Description": "Pre-emptive 6th generation neural-net",
+      "ExtraInfo": "dicta",
+      "LinkId": 476,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldLength": 555
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 883,
-  "Snum": 640,
+  "SuggestedDocumentId": 10,
+  "Snum": 992,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "ullam"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "quam"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "quos"
   },
-  "PublishEventDate": "2018-10-07T11:16:13.901969+02:00",
-  "PublishTo": "2019-12-15T11:16:13.901969+01:00",
-  "PublishFrom": "2023-12-23T11:16:13.901969+01:00",
+  "PublishEventDate": "2024-05-06T12:57:42.4170133+02:00",
+  "PublishTo": "2006-12-09T12:57:42.4170133+01:00",
+  "PublishFrom": "1998-05-13T12:57:42.4170133+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 187,
+      "VisibleId": 518,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 736
         }
       }
     },
     {
-      "VisibleId": 187,
+      "VisibleId": 518,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 736
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   }
 }

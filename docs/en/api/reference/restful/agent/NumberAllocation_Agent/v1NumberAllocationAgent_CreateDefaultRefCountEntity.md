@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 3,
-  "Field": "tempora",
-  "RecordId": 683,
+  "RefCountsId": 617,
+  "Field": "rerum",
+  "RecordId": 973,
   "SuggestedRecords": [
     {
-      "Id": 85,
-      "Name": "Hayes, Hessel and West",
-      "ToolTip": "Veritatis dolor atque minus.",
+      "Id": 659,
+      "Name": "Kihn-Witting",
+      "ToolTip": "Excepturi aut praesentium aut temporibus.",
       "Deleted": false,
-      "Rank": 715,
-      "Type": "ut",
+      "Rank": 83,
+      "Type": "rerum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sed",
-      "ColorBlock": 356,
-      "ExtraInfo": "iure",
-      "StyleHint": "perferendis",
-      "FullName": "Tatyana Torp",
+      "IconHint": "earum",
+      "ColorBlock": 570,
+      "ExtraInfo": "recusandae",
+      "StyleHint": "eaque",
+      "FullName": "Miss Anjali Waelchi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 842
         }
       }
     }
   ],
-  "CurrentValue": 111,
-  "TravelPrefix": 77,
-  "SatPrefix": 469,
+  "CurrentValue": 16,
+  "TravelPrefix": 303,
+  "SatPrefix": 350,
   "Allocate": false,
   "Unique": true,
-  "ReadOnly": true,
-  "AllowBlank": true,
+  "ReadOnly": false,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 841
     }
   }
 }

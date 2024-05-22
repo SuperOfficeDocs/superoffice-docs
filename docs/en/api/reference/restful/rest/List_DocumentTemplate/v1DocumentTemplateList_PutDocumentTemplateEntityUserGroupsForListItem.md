@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Jewess-Davis",
-    "ToolTip": "Reprehenderit deleniti sint rerum corporis.",
+    "Id": 674,
+    "Name": "Hilll, Satterfield and Durgan",
+    "ToolTip": "Ut tempore dignissimos ut reiciendis quisquam deleniti.",
     "Deleted": false,
-    "Rank": 463,
-    "Type": "tempore",
-    "ColorBlock": 459,
-    "IconHint": "est",
+    "Rank": 116,
+    "Type": "vitae",
+    "ColorBlock": 351,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2001-08-17T11:16:14.5745384+02:00",
+    "LastChanged": "2010-12-02T12:57:43.4801753+01:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Jast-Reynolds",
-        "ToolTip": "Qui perferendis.",
+        "Id": 477,
+        "Name": "Labadie, Sipes and Connelly",
+        "ToolTip": "Repellendus laborum eum rerum aspernatur dicta quis ad.",
         "Deleted": false,
-        "Rank": 247,
-        "Type": "voluptatem",
-        "ColorBlock": 50,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2010-03-09T11:16:14.5745384+01:00",
+        "Rank": 492,
+        "Type": "itaque",
+        "ColorBlock": 220,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2001-11-30T12:57:43.4801753+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "qui",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Abelardo Keeling Sr."
+        "FullName": "Alta Kunde"
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Edd Kiehn"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "cumque",
+    "Hidden": true,
+    "FullName": "Keaton Toy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "Sporer Inc and Sons",
-    "ToolTip": "Ut nostrum sit.",
-    "Deleted": false,
-    "Rank": 854,
-    "Type": "aperiam",
-    "ColorBlock": 132,
-    "IconHint": "in",
+    "Id": 945,
+    "Name": "Bins, Larkin and Ferry",
+    "ToolTip": "Sed quasi.",
+    "Deleted": true,
+    "Rank": 981,
+    "Type": "et",
+    "ColorBlock": 19,
+    "IconHint": "saepe",
     "Selected": true,
-    "LastChanged": "2008-05-15T11:16:14.5745384+02:00",
+    "LastChanged": "1999-10-06T12:57:43.4801753+02:00",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Mante Group",
-        "ToolTip": "Molestiae rerum expedita.",
-        "Deleted": false,
-        "Rank": 520,
-        "Type": "a",
-        "ColorBlock": 757,
-        "IconHint": "soluta",
+        "Id": 225,
+        "Name": "Swift-Haag",
+        "ToolTip": "Hic et facere.",
+        "Deleted": true,
+        "Rank": 960,
+        "Type": "aut",
+        "ColorBlock": 631,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2006-10-11T11:16:14.5745384+02:00",
+        "LastChanged": "2021-02-07T12:57:43.4801753+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "nisi",
+        "ExtraInfo": "porro",
+        "StyleHint": "hic",
         "Hidden": true,
-        "FullName": "Luther West",
+        "FullName": "Hollie Schimmel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldType": "System.String",
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Millie Kerluke",
+    "ExtraInfo": "beatae",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Phyllis Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 556
       }
     }
   }

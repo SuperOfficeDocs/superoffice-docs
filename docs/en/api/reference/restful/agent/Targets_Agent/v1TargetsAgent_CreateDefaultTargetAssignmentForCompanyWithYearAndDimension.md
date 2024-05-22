@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 998,
-  "TargetDimensionId": 628
+  "Year": 766,
+  "TargetDimensionId": 16
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 805,
+    "TargetAssignmentInfoId": 653,
     "Values": [
-      36,
-      674
+      524,
+      689
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 559,
-    "DimensionListItemDisplayName": "Schoen Group",
+    "DimensionListItem": 542,
+    "DimensionListItemDisplayName": "Tremblay, Bednar and Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 721
       }
     }
   }

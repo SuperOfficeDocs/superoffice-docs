@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "sed",
+  "Path": "sit",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 587,
+  "HierarchyId": 880,
   "Domain": "Dashboards",
-  "Name": "Trantow Inc and Sons",
-  "Fullname": "recusandae",
-  "ParentId": 363,
+  "Name": "Murray, Runolfsson and Daugherty",
+  "Fullname": "odit",
+  "ParentId": 624,
   "Children": [
     {
-      "HierarchyId": 934,
+      "HierarchyId": 132,
       "Domain": "Dashboards",
-      "Name": "Jacobi-Klein",
+      "Name": "Farrell, Hamill and Lehner",
       "Fullname": "tenetur",
-      "ParentId": 804,
+      "ParentId": 419,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-12-14T11:16:09.3659552+01:00",
-      "RegisteredAssociateId": 754,
-      "Updated": "2000-10-27T11:16:09.3659552+02:00",
-      "UpdatedAssociateId": 661,
+      "Registered": "2011-03-24T12:57:34.19609+01:00",
+      "RegisteredAssociateId": 752,
+      "Updated": "2022-11-30T12:57:34.19609+01:00",
+      "UpdatedAssociateId": 404,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 917
         }
       }
     }
   ],
-  "Registered": "2012-09-24T11:16:09.3659552+02:00",
-  "RegisteredAssociateId": 843,
-  "Updated": "2017-10-27T11:16:09.3659552+02:00",
-  "UpdatedAssociateId": 673,
+  "Registered": "2022-05-14T12:57:34.19609+02:00",
+  "RegisteredAssociateId": 172,
+  "Updated": "2022-03-13T12:57:34.19609+01:00",
+  "UpdatedAssociateId": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 598
+      "FieldType": "System.Int32",
+      "FieldLength": 844
     }
   }
 }

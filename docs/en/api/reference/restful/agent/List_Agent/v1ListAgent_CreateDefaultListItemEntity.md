@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 137,
-  "Name": "Harvey Group",
-  "Tooltip": "a",
+  "Id": 296,
+  "Name": "Rogahn-Funk",
+  "Tooltip": "at",
   "Deleted": false,
-  "UdListDefinitionId": 170,
-  "Rank": 231,
+  "UdListDefinitionId": 848,
+  "Rank": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldType": "System.String",
+      "FieldLength": 860
     }
   }
 }

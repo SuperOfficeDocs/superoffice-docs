@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=odio
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Hermiston-Hyatt",
-    "ToolTip": "Molestiae commodi tempora mollitia repudiandae impedit ut.",
-    "Deleted": false,
-    "Rank": 348,
-    "Type": "eaque",
+    "Id": 357,
+    "Name": "Lemke-Hartmann",
+    "ToolTip": "Quia nihil illo.",
+    "Deleted": true,
+    "Rank": 512,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Durgan, Steuber and Tromp",
-        "ToolTip": "Doloribus ut minus officia nulla.",
+        "Id": 141,
+        "Name": "Torp, Graham and Kihn",
+        "ToolTip": "Ut repudiandae minus eos quaerat aut voluptate consequatur.",
         "Deleted": false,
-        "Rank": 742,
-        "Type": "rem",
+        "Rank": 40,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 146,
-        "ExtraInfo": "amet",
-        "StyleHint": "dolores",
-        "FullName": "Adrian Prosacco PhD",
+        "IconHint": "magni",
+        "ColorBlock": 15,
+        "ExtraInfo": "fugit",
+        "StyleHint": "fugit",
+        "FullName": "Wilber Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 181
+            "FieldLength": 911
           }
         }
       }
     ],
-    "IconHint": "veniam",
-    "ColorBlock": 563,
-    "ExtraInfo": "sit",
-    "StyleHint": "asperiores",
-    "FullName": "Keon Nitzsche",
+    "IconHint": "et",
+    "ColorBlock": 263,
+    "ExtraInfo": "aut",
+    "StyleHint": "reiciendis",
+    "FullName": "Margarett Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldLength": 892
       }
     }
   }

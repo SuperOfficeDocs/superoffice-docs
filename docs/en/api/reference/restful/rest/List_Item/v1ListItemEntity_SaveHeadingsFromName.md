@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 734,
-    "Name": "Gulgowski LLC",
-    "Tooltip": "numquam",
+    "HeadingId": 691,
+    "Name": "Schneider, Wiza and Hettinger",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 415,
-    "UdListDefinitionId": 536
+    "Rank": 331,
+    "UdListDefinitionId": 327
   },
   {
-    "HeadingId": 734,
-    "Name": "Gulgowski LLC",
-    "Tooltip": "numquam",
+    "HeadingId": 691,
+    "Name": "Schneider, Wiza and Hettinger",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 415,
-    "UdListDefinitionId": 536
+    "Rank": 331,
+    "UdListDefinitionId": 327
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 987,
-    "Name": "Kuphal-Steuber",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 998,
-    "UdListDefinitionId": 346,
+    "HeadingId": 512,
+    "Name": "Lehner, Stiedemann and Bayer",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 686,
+    "UdListDefinitionId": 430,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldLength": 150
       }
     }
   }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "eos"
+  "Tablename": "project",
+  "Context": "excepturi"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "deserunt",
-    "ValueType": "in",
+    "Key": "consequatur",
+    "ValueType": "ex",
     "Mandatory": false,
-    "EncodedDisplayName": "Ebert-Gleason",
-    "EncodedDisplayDescription": "Focused stable leverage",
-    "IconHint": "iste",
+    "EncodedDisplayName": "Jacobs-Jacobson",
+    "EncodedDisplayDescription": "Synchronised multimedia system engine",
+    "IconHint": "repellendus",
     "ControlInfos": [
       {
-        "Type": "non",
-        "Label": "delectus",
-        "Dimension": 773,
-        "ListProviderName": "White Group",
-        "ListProviderExtraInfo": "et",
-        "ListProviderPrimaryKeyName": "Gaylord-Wintheiser",
+        "Type": "veritatis",
+        "Label": "cum",
+        "Dimension": 345,
+        "ListProviderName": "Senger, Braun and Kassulke",
+        "ListProviderExtraInfo": "voluptatem",
+        "ListProviderPrimaryKeyName": "Beahan-Skiles",
         "ListLeadText": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldLength": 994
           }
         }
       }
     ],
-    "EncodedDataCaption": "nostrum",
-    "EncodedDataCaptionDescription": "Managed asynchronous access",
-    "CurrentOperationType": "fugit",
+    "EncodedDataCaption": "maxime",
+    "EncodedDataCaptionDescription": "Customizable full-range algorithm",
+    "CurrentOperationType": "nostrum",
     "Values": [
-      "maiores",
-      "quibusdam"
+      "nostrum",
+      "excepturi"
     ],
     "DisplayValues": [
-      "quam",
-      "reprehenderit"
+      "doloribus",
+      "fugit"
     ],
     "OperationInfos": [
       {
-        "Key": "ullam",
-        "EncodedDisplayName": "Ernser Group",
+        "Key": "amet",
+        "EncodedDisplayName": "Watsica-Mills",
         "EncodedLeadTexts": [
-          "modi",
-          "voluptatum"
+          "nulla",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldLength": 569
           }
         }
       },
       {
-        "Key": "ullam",
-        "EncodedDisplayName": "Ernser Group",
+        "Key": "amet",
+        "EncodedDisplayName": "Watsica-Mills",
         "EncodedLeadTexts": [
-          "modi",
-          "voluptatum"
+          "nulla",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldLength": 569
           }
         }
       }

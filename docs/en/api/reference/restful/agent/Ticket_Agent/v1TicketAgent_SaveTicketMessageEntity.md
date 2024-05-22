@@ -117,63 +117,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 188,
+  "EjMessageId": 916,
   "Ticket": null,
-  "CreatedAt": "1998-10-14T11:16:09.8822214+02:00",
+  "CreatedAt": "2004-01-05T12:57:35.0551794+01:00",
   "CreatedBy": null,
-  "Author": "tempora",
+  "Author": "dolores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eum",
-  "TimeSpent": 657,
-  "Body": "dicta",
-  "HtmlBody": "hic",
-  "EmailHeader": "dennis.blanda@keeblerbernier.name",
-  "DebugInfo": "dolorem",
-  "MailSorter": "unde",
+  "MessageId": "iusto",
+  "TimeSpent": 949,
+  "Body": "culpa",
+  "HtmlBody": "expedita",
+  "EmailHeader": "orlo@nitzsche.biz",
+  "DebugInfo": "sapiente",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "odit",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 285,
-      "Name": "Gutmann-Boyer",
-      "Value": "totam",
+      "Id": 755,
+      "Name": "Renner Inc and Sons",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 285,
-      "Name": "Gutmann-Boyer",
-      "Value": "totam",
+      "Id": 755,
+      "Name": "Renner Inc and Sons",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
+  "Important": true,
   "Language": "deserunt",
-  "Sentiment": 412,
-  "SentimentConfidence": 137,
+  "Sentiment": 17,
+  "SentimentConfidence": 423,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 660,
-      "Name": "Donnelly LLC",
-      "ContentType": "quae",
-      "AttSize": 257,
-      "InlineImage": false,
-      "ContentId": "perspiciatis",
-      "AuthKey": "iure",
-      "IsSafeFileExtension": true
+      "AttachmentId": 156,
+      "Name": "Schneider LLC",
+      "ContentType": "nihil",
+      "AttSize": 454,
+      "InlineImage": true,
+      "ContentId": "rerum",
+      "AuthKey": "itaque",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "fugit"
+    "CustomFields1": "error",
+    "CustomFields2": "suscipit"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 850,
+  "EjMessageId": 842,
   "Ticket": null,
-  "CreatedAt": "2013-05-27T11:16:09.8822214+02:00",
+  "CreatedAt": "2013-10-07T12:57:35.0708009+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "itaque",
-  "TimeSpent": 845,
-  "Body": "nulla",
-  "HtmlBody": "pariatur",
-  "EmailHeader": "nicklaus@greenfelder.com",
-  "DebugInfo": "atque",
-  "MailSorter": "maiores",
+  "MessageId": "rerum",
+  "TimeSpent": 154,
+  "Body": "et",
+  "HtmlBody": "quibusdam",
+  "EmailHeader": "jessica_schuster@rau.com",
+  "DebugInfo": "ut",
+  "MailSorter": "maxime",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "tempore",
   "MessageHeaders": [
     {
-      "Id": 878,
-      "Name": "Gerlach, Kassulke and Koch",
-      "Value": "pariatur",
+      "Id": 468,
+      "Name": "Brakus, Yundt and Corkery",
+      "Value": "optio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 287
+          "FieldType": "System.Int32",
+          "FieldLength": 211
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ut",
-  "Sentiment": 635,
-  "SentimentConfidence": 894,
+  "Important": false,
+  "Language": "et",
+  "Sentiment": 21,
+  "SentimentConfidence": 194,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 741,
-      "Name": "Ritchie, Shanahan and Bailey",
-      "ContentType": "nam",
-      "AttSize": 791,
-      "InlineImage": false,
-      "ContentId": "quaerat",
-      "AuthKey": "ut",
+      "AttachmentId": 520,
+      "Name": "Kreiger-Fahey",
+      "ContentType": "quis",
+      "AttSize": 333,
+      "InlineImage": true,
+      "ContentId": "culpa",
+      "AuthKey": "provident",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 875
+          "FieldType": "System.String",
+          "FieldLength": 28
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "quia"
+    "CustomFields1": "sit",
+    "CustomFields2": "suscipit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 80
     }
   }
 }

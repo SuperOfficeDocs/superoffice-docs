@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 564
+  "SaleId": 120
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Blanda, Treutel and Robel",
-    "Comment": "modi",
-    "StakeholderRoleId": 310,
-    "CountryId": 808,
-    "PersonId": 972,
-    "EmailDescription": "darby@batz.info",
-    "EmailId": 793,
-    "EmailAddress": "dominic@maggio.com",
-    "PhoneId": 300,
-    "ContactName": "Stracke Group",
-    "ContactId": 168,
-    "SaleId": 860,
-    "Mrmrs": "architecto",
-    "Firstname": "Kaylin",
-    "MiddleName": "Stracke-Doyle",
-    "Lastname": "Bradtke",
-    "SaleStakeholderId": 125,
-    "Rank": 255,
-    "Phone": "(354)109-1390 x7942",
+    "StakeholderRoleName": "Schuster-McClure",
+    "Comment": "ut",
+    "StakeholderRoleId": 494,
+    "CountryId": 969,
+    "PersonId": 313,
+    "EmailDescription": "hillard@reichel.ca",
+    "EmailId": 28,
+    "EmailAddress": "cassandra.powlowski@cummeratajacobs.uk",
+    "PhoneId": 44,
+    "ContactName": "Heathcote LLC",
+    "ContactId": 155,
+    "SaleId": 57,
+    "Mrmrs": "laboriosam",
+    "Firstname": "Eddie",
+    "MiddleName": "Volkman, Goodwin and Ziemann",
+    "Lastname": "Hyatt",
+    "SaleStakeholderId": 993,
+    "Rank": 598,
+    "Phone": "180-024-0918 x728",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldLength": 123
       }
     }
   }

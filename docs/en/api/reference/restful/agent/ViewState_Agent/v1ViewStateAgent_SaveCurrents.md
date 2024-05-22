@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 188,
-      "Id": 696,
-      "HistoryName": "Graham, Marvin and Wehner",
-      "HistoryId": 141,
-      "AssociateId": 130,
-      "Name": "Stamm Inc and Sons",
-      "ItemInfo": "vel"
+      "Rank": 517,
+      "Id": 948,
+      "HistoryName": "Reynolds-McClure",
+      "HistoryId": 917,
+      "AssociateId": 876,
+      "Name": "Schamberger, Fadel and Hansen",
+      "ItemInfo": "itaque"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 25,
-    "Id": 84,
-    "HistoryName": "Thiel Inc and Sons",
-    "HistoryId": 916,
-    "AssociateId": 37,
-    "Name": "Halvorson-McGlynn",
-    "ItemInfo": "consequatur",
+    "Rank": 461,
+    "Id": 484,
+    "HistoryName": "Hills-Orn",
+    "HistoryId": 990,
+    "AssociateId": 553,
+    "Name": "King, Walker and Mueller",
+    "ItemInfo": "dolore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldLength": 415
       }
     }
   }

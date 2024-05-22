@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bosco-Ruecker",
+  "ProviderName": "Kub, Haley and Miller",
   "Restrictions": [
     {
-      "Name": "Steuber-Cartwright",
-      "Operator": "reprehenderit",
+      "Name": "McClure Group",
+      "Operator": "suscipit",
       "Values": [
-        "iusto",
-        "porro"
+        "aut",
+        "aliquid"
       ],
       "DisplayValues": [
-        "itaque",
-        "quae"
+        "ut",
+        "optio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 863,
+      "InterParenthesis": 252,
       "InterOperator": "And",
-      "UniqueHash": 366
+      "UniqueHash": 293
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grimes Group",
-    "Operator": "sapiente",
+    "Name": "Wuckert LLC",
+    "Operator": "explicabo",
     "Values": [
-      "quisquam",
-      "ea"
+      "rerum",
+      "maxime"
     ],
     "DisplayValues": [
-      "culpa",
-      "at"
+      "molestias",
+      "velit"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Reichert-Leannon",
-        "Operator": "est",
+        "Name": "Gaylord LLC",
+        "Operator": "provident",
         "Values": [
-          "dolor",
-          "maxime"
+          "ducimus",
+          "consequuntur"
         ],
         "DisplayValues": [
           "voluptas",
-          "sunt"
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 10,
+        "InterParenthesis": 405,
         "InterOperator": "And",
-        "UniqueHash": 589
+        "UniqueHash": 474
       }
     ],
-    "InterParenthesis": 820,
+    "InterParenthesis": 387,
     "InterOperator": "And",
-    "UniqueHash": 170
+    "UniqueHash": 907
   }
 ]
 ```

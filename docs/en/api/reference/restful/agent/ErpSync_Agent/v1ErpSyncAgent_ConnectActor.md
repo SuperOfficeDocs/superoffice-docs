@@ -71,31 +71,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 227,
-  "CrmRecordId": 383,
+  "ErpConnectionId": 872,
+  "CrmRecordId": 858,
   "CrmActorType": "Contact",
-  "ErpKey": "corrupti",
+  "ErpKey": "et",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Simonis, Wolff and Bradtke",
-      "CrmFieldKey": "ut",
-      "Value": "laudantium",
-      "DisplayValue": "suscipit",
+      "DisplayName": "Labadie-Skiles",
+      "CrmFieldKey": "veritatis",
+      "Value": "rem",
+      "DisplayValue": "asperiores",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Simonis, Wolff and Bradtke",
-      "CrmFieldKey": "ut",
-      "Value": "laudantium",
-      "DisplayValue": "suscipit",
+      "DisplayName": "Labadie-Skiles",
+      "CrmFieldKey": "veritatis",
+      "Value": "rem",
+      "DisplayValue": "asperiores",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }

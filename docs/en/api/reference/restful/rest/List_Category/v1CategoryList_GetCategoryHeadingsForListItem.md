@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Breitenberg, West and Ryan",
-    "ToolTip": "Velit adipisci rerum ullam.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "ea",
-    "ColorBlock": 649,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2007-10-10T11:16:14.4964233+02:00",
+    "Id": 274,
+    "Name": "Shanahan-Schimmel",
+    "ToolTip": "Consequatur reprehenderit.",
+    "Deleted": false,
+    "Rank": 862,
+    "Type": "sit",
+    "ColorBlock": 180,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "2022-08-12T12:57:43.3395828+02:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Wilderman, Mayer and Krajcik",
-        "ToolTip": "Sit fugit ea sed quasi fugit quidem.",
+        "Id": 418,
+        "Name": "Wiza-Deckow",
+        "ToolTip": "Repellendus labore vel qui corporis.",
         "Deleted": false,
-        "Rank": 150,
-        "Type": "in",
-        "ColorBlock": 477,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "1999-04-11T11:16:14.4964233+02:00",
+        "Rank": 494,
+        "Type": "ipsum",
+        "ColorBlock": 820,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "1999-09-13T12:57:43.3395828+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Ms. Maureen Lisa King Sr.",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "neque",
+        "Hidden": true,
+        "FullName": "Mrs. Gavin Beatty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 175
+            "FieldType": "System.String",
+            "FieldLength": 746
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Walker Marquardt",
+    "ExtraInfo": "ad",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Erica Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 444
       }
     }
   }

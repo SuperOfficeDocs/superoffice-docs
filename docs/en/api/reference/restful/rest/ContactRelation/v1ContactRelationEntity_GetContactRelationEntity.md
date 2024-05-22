@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 10 Apr 2014 11:16:13 G4T
+Last-Modified: Fri, 30 Jul 2004 12:57:42 G7T
 
 {
-  "SourceContactId": 689,
-  "SourcePersonId": 622,
-  "DestinationContactId": 825,
-  "DestinationPersonId": 402,
-  "RelationId": 434,
-  "Comment": "molestias",
-  "RelationDefinitionId": 203,
-  "Reversed": 634,
-  "UpdatedDate": "2014-04-10T11:16:13.83947+02:00",
-  "CreatedDate": "2002-10-06T11:16:13.83947+02:00",
+  "SourceContactId": 25,
+  "SourcePersonId": 765,
+  "DestinationContactId": 181,
+  "DestinationPersonId": 63,
+  "RelationId": 723,
+  "Comment": "nisi",
+  "RelationDefinitionId": 602,
+  "Reversed": 365,
+  "UpdatedDate": "2004-07-30T12:57:42.3076631+02:00",
+  "CreatedDate": "2018-06-28T12:57:42.3076631+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kunde, Watsica and Wolf",
-  "SourcePersonName": "Friesen, Oberbrunner and Ebert",
-  "DestinationContactName": "Ortiz-Connelly",
-  "DestinationPersonName": "Baumbach Inc and Sons",
-  "ActiveText": "sint",
-  "PassiveText": "quibusdam",
+  "SourceContactName": "Veum, Hickle and Ortiz",
+  "SourcePersonName": "Krajcik-Murphy",
+  "DestinationContactName": "Blanda Group",
+  "DestinationPersonName": "Crist, Davis and Christiansen",
+  "ActiveText": "ducimus",
+  "PassiveText": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 14
     }
   },
   "_Links": {

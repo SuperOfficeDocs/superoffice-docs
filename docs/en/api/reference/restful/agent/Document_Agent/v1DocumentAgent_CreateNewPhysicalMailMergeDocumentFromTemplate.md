@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 504,
-  "UiCulture": "architecto"
+  "DocumentId": 558,
+  "UiCulture": "iusto"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 679,
+  "DocumentId": 514,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "repellendus",
-  "Header": "est",
-  "Name": "O'Kon-Weimann",
-  "OurRef": "odit",
-  "YourRef": "eum",
-  "CreatedDate": "2013-09-19T11:16:09.1159862+02:00",
-  "UpdatedDate": "2003-08-19T11:16:09.1159862+02:00",
-  "Description": "Profit-focused discrete superstructure",
+  "Attention": "vel",
+  "Header": "architecto",
+  "Name": "Hyatt, Towne and Stark",
+  "OurRef": "itaque",
+  "YourRef": "aliquam",
+  "CreatedDate": "2019-03-30T12:57:33.7742835+01:00",
+  "UpdatedDate": "2006-12-22T12:57:33.7742835+01:00",
+  "Description": "Customer-focused motivating matrix",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-10-19T11:16:09.1159862+02:00",
-  "ExternalRef": "aut",
+  "Date": "2006-07-22T12:57:33.7742835+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 359,
+  "ActiveLinks": 57,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Volkman Inc and Sons",
-      "Id": 450,
-      "Description": "Secured local alliance",
-      "ExtraInfo": "iste",
-      "LinkId": 972,
+      "EntityName": "Emard Inc and Sons",
+      "Id": 857,
+      "Description": "De-engineered object-oriented artificial intelligence",
+      "ExtraInfo": "et",
+      "LinkId": 999,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 89
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 70,
-  "Snum": 954,
+  "SuggestedDocumentId": 807,
+  "Snum": 281,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Donny Schuster"
+    "SuperOffice:1": "Dr. Kariane Emerson Franecki",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "quidem"
+    "CustomFields1": "nam",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "2006-08-21T11:16:09.1159862+02:00",
-  "PublishTo": "2011-02-21T11:16:09.1159862+01:00",
-  "PublishFrom": "2016-05-17T11:16:09.1159862+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-06-20T12:57:33.7742835+02:00",
+  "PublishTo": "2011-12-30T12:57:33.7742835+01:00",
+  "PublishFrom": "2016-09-29T12:57:33.7742835+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 923,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 296
     }
   }
 }

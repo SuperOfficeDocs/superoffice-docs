@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 72,
-    "Name": "Wisozk-Crooks",
-    "MaxDataAge": 604,
-    "NumberOfUsers": 876,
-    "NumberOfLogins": 784,
-    "FreetextEnabeled": false,
+    "AreaId": 69,
+    "Name": "Johns Inc and Sons",
+    "MaxDataAge": 241,
+    "NumberOfUsers": 192,
+    "NumberOfLogins": 670,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Stroman, McCullough and DuBuque",
-    "ToolTip": "Dolorem accusantium.",
+    "Id": 983,
+    "Name": "Gerhold, Herman and Renner",
+    "ToolTip": "Labore enim architecto suscipit consequatur totam vel.",
     "Deleted": false,
-    "Rank": 306,
-    "Type": "dolorum",
-    "ColorBlock": 831,
-    "IconHint": "soluta",
-    "Selected": true,
-    "LastChanged": "2000-02-10T11:16:14.6526601+01:00",
+    "Rank": 591,
+    "Type": "autem",
+    "ColorBlock": 117,
+    "IconHint": "laboriosam",
+    "Selected": false,
+    "LastChanged": "2020-03-27T12:57:43.6051463+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Durgan LLC",
-        "ToolTip": "Eaque sequi expedita esse earum molestiae porro.",
+        "Id": 909,
+        "Name": "Willms, Bode and Walsh",
+        "ToolTip": "Nostrum voluptas.",
         "Deleted": false,
-        "Rank": 376,
-        "Type": "modi",
-        "ColorBlock": 543,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2008-01-09T11:16:14.6526601+01:00",
+        "Rank": 885,
+        "Type": "labore",
+        "ColorBlock": 572,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2006-03-13T12:57:43.6051463+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "non",
+        "ExtraInfo": "ab",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Mrs. Assunta Schinner",
+        "FullName": "Foster Ivory Kassulke PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldLength": 526
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "eum",
+    "ExtraInfo": "eaque",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Cameron Fadel",
+    "FullName": "Kiarra Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 702
       }
     }
   }

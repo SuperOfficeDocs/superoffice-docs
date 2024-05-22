@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 334,
+  "SystemEventId": 941,
   "Scope": "Database",
-  "Eta": "2013-10-29T11:16:08.8503482+01:00",
-  "Eventkey": "quia",
-  "Eventmess": "culpa",
-  "ExtraInfo": 61,
-  "Owner": 194,
-  "UpdatedCount": 806,
-  "Registered": "2003-04-08T11:16:08.8503482+02:00",
+  "Eta": "2018-04-13T12:57:33.430612+02:00",
+  "Eventkey": "et",
+  "Eventmess": "temporibus",
+  "ExtraInfo": 719,
+  "Owner": 388,
+  "UpdatedCount": 813,
+  "Registered": "2005-09-30T12:57:33.430612+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 251,
+  "SystemEventId": 404,
   "Scope": "Database",
-  "Eta": "2008-07-12T11:16:08.8503482+02:00",
-  "Eventkey": "accusamus",
-  "Eventmess": "vitae",
-  "ExtraInfo": 861,
-  "Owner": 688,
-  "UpdatedCount": 58,
-  "Registered": "2006-09-07T11:16:08.8503482+02:00",
+  "Eta": "2013-11-09T12:57:33.4462335+01:00",
+  "Eventkey": "repudiandae",
+  "Eventmess": "rerum",
+  "ExtraInfo": 937,
+  "Owner": 290,
+  "UpdatedCount": 434,
+  "Registered": "2007-10-28T12:57:33.4462335+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 590
     }
   }
 }

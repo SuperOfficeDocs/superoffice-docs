@@ -105,7 +105,7 @@ SelectionEntity  updated.
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "odio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "odio",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated composite superstructure",
-  "Postit": "cupiditate",
+  "Description": "Versatile dynamic task-force",
+  "Postit": "harum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 1000,
-  "IncludePerson": 116,
-  "MemberCount": 133,
-  "Name": "DuBuque LLC",
-  "PostitTextId": 708,
-  "CreatedDate": "1997-10-14T11:16:14.2304645+02:00",
-  "SelectionId": 159,
-  "SoundEx": "et",
-  "Source": 191,
-  "TextId": 512,
-  "UpdatedDate": "2011-06-21T11:16:14.2304645+02:00",
-  "UpdatedCount": 759,
-  "Visibility": 590,
+  "GroupIdx": 315,
+  "IncludePerson": 514,
+  "MemberCount": 99.99,
+  "Name": "Aufderhar Group",
+  "PostitTextId": 156,
+  "CreatedDate": "2022-11-08T12:57:42.807549+01:00",
+  "SelectionId": 261,
+  "SoundEx": "dolore",
+  "Source": 157,
+  "TextId": 483,
+  "UpdatedDate": "2020-11-14T12:57:42.807549+01:00",
+  "UpdatedCount": 435,
+  "Visibility": 930,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 103,
-  "TargetTableName": "Ruecker-Feeney",
-  "Completed": false,
-  "LeftSelectionId": 483,
-  "RightSelectionId": 232,
+  "TargetTableNumber": 865,
+  "TargetTableName": "Bashirian, Ortiz and Kerluke",
+  "Completed": true,
+  "LeftSelectionId": 685,
+  "RightSelectionId": 180,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Abshire LLC",
-  "ShadowProviderName": "Rippin Inc and Sons",
-  "ChartKey": "aliquid",
-  "LastLoaded": "2010-02-03T11:16:14.2304645+01:00",
-  "LastLoadedBy": 378,
+  "MainProviderName": "Langosh Inc and Sons",
+  "ShadowProviderName": "Corkery-Hettinger",
+  "ChartKey": "sed",
+  "LastLoaded": "2006-11-06T12:57:42.807549+01:00",
+  "LastLoadedBy": 886,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-08-15T11:16:14.2304645+02:00",
-  "LastMembershipChangeBy": 954,
+  "LastMembershipChange": "2005-11-07T12:57:42.807549+01:00",
+  "LastMembershipChangeBy": 367,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Runolfsson-Paucek",
-  "DashboardTileDefinitionId": 675,
+  "MainHeading": "sit",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Harber Inc and Sons",
+  "DashboardTileDefinitionId": 773,
   "VisibleFor": [
     {
-      "VisibleId": 484,
+      "VisibleId": 707,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldLength": 470
         }
       }
     },
     {
-      "VisibleId": 484,
+      "VisibleId": 707,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldLength": 470
         }
       }
     }
@@ -244,13 +244,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldType": "System.Int32",
+      "FieldLength": 787
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -111,35 +111,35 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 183,
-  "Name": "Koepp Inc and Sons",
-  "Rank": 934,
-  "Tooltip": "quia",
-  "Icon": "esse",
-  "DefaultTicketStatus": 920,
+  "TicketTypeId": 292,
+  "Name": "Corwin-Spinka",
+  "Rank": 381,
+  "Tooltip": "deserunt",
+  "Icon": "soluta",
+  "DefaultTicketStatus": 825,
   "TicketStatuses": [
-    504,
-    327
+    958,
+    834
   ],
-  "DefaultTicketPriority": 473,
+  "DefaultTicketPriority": 427,
   "TicketPriorities": [
-    449,
-    918
+    743,
+    865
   ],
-  "ReplyTemplate": 334,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 218,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    657,
-    733
+    156,
+    337
   ]
 }
 ```
@@ -151,38 +151,38 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 288,
-  "Name": "Kohler LLC",
-  "Rank": 858,
-  "Tooltip": "id",
-  "Icon": "odit",
-  "DefaultTicketStatus": 317,
+  "TicketTypeId": 291,
+  "Name": "Koepp LLC",
+  "Rank": 185,
+  "Tooltip": "quod",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 958,
   "TicketStatuses": [
-    612,
-    365
+    236,
+    722
   ],
-  "DefaultTicketPriority": 137,
+  "DefaultTicketPriority": 98,
   "TicketPriorities": [
-    654,
-    692
+    220,
+    158
   ],
-  "ReplyTemplate": 443,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 117,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    656,
-    180
+    47,
+    640
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldType": "System.String",
+      "FieldLength": 648
     }
   },
   "_Links": {

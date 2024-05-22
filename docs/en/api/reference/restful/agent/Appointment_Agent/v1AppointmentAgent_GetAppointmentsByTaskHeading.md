@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 662
+  "TaskHeadingId": 899
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 768,
-    "StartDate": "2019-09-04T11:16:08.5063888+02:00",
-    "EndDate": "2012-12-23T11:16:08.5063888+01:00",
+    "AppointmentId": 14,
+    "StartDate": "1999-05-06T12:57:32.7584322+02:00",
+    "EndDate": "2023-04-23T12:57:32.7584322+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Dr. Tristin Quigley V",
-    "ContactName": "Sanford Group",
-    "Description": "Automated static database",
-    "PersonFullName": "Mr. David Jerde Sr.",
-    "PersonId": 438,
-    "ContactId": 963,
-    "ProjectId": 47,
-    "ProjectName": "Champlin, Reynolds and Bartoletti",
+    "Task": "neque",
+    "AssociateFullName": "Tressie Dooley",
+    "ContactName": "Kozey, Reinger and Ankunding",
+    "Description": "Synergistic asynchronous monitoring",
+    "PersonFullName": "Zora Smitham",
+    "PersonId": 184,
+    "ContactId": 605,
+    "ProjectId": 100,
+    "ProjectName": "Emmerich, Hickle and Shields",
     "IsPublished": true,
-    "AssociateId": 526,
-    "ColorIndex": 115,
-    "IsFree": false,
+    "AssociateId": 227,
+    "ColorIndex": 167,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 442,
-    "PriorityName": "Ward, Lind and Kerluke",
+    "PriorityId": 47,
+    "PriorityName": "Abshire, Leuschke and Reichel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-02-13T11:16:08.5063888+01:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2020-05-02T12:57:32.7584322+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-11-20T11:16:08.5063888+01:00",
-    "RecurringEndDate": "1998-02-01T11:16:08.5063888+01:00",
-    "MotherId": 25,
-    "AssignedBy": 636,
-    "AssignedByFullName": "Giovanny Emard I",
+    "RecurringStartDate": "2015-04-13T12:57:32.7584322+02:00",
+    "RecurringEndDate": "2013-11-18T12:57:32.7584322+01:00",
+    "MotherId": 384,
+    "AssignedBy": 139,
+    "AssignedByFullName": "Glenna Lucienne Lakin Sr.",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "necessitatibus",
-    "SaleId": 657,
-    "SaleName": "Heathcote, Lindgren and Rath",
-    "AssociateName": "Schmitt LLC",
-    "CreatedDate": "2012-04-17T11:16:08.5063888+02:00",
-    "CreatedBy": "iste",
-    "CreatedByFullName": "Antonietta Hilpert",
-    "CreatedByAssociateId": 694,
+    "Location": "et",
+    "AlarmLeadTime": "maxime",
+    "SaleId": 255,
+    "SaleName": "Mante LLC",
+    "AssociateName": "Boyer Group",
+    "CreatedDate": "2011-11-15T12:57:32.7584322+01:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Lorenza Will",
+    "CreatedByAssociateId": 619,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 742,
-    "Title": "eius",
-    "Agenda": "unde",
-    "InternalNotes": "repellat",
+    "PreferredTZLocation": 924,
+    "Title": "et",
+    "Agenda": "iste",
+    "InternalNotes": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   }

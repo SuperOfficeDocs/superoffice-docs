@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mueller Inc and Sons"
+  "Name": "Roberts-Waters"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Moen Group",
-    "SoPrimaryKey": 161,
-    "EntryName": "Wunsch, Dietrich and Bogan",
-    "EntryIdentifier": "iste",
-    "RuleDisplayName": "Lueilwitz Group",
+    "RuleName": "Borer-Schmeler",
+    "SoPrimaryKey": 720,
+    "EntryName": "Considine, Bednar and Metz",
+    "EntryIdentifier": "autem",
+    "RuleDisplayName": "Fisher, Kerluke and Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 873
       }
     }
   }

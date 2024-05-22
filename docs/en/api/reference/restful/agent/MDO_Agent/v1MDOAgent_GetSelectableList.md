@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Purdy-Cassin",
+  "Name": "Dooley-Jewess",
   "ForceFlatList": false,
-  "AdditionalInfo": "totam",
-  "OnlyHistory": true
+  "AdditionalInfo": "explicabo",
+  "OnlyHistory": false
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Quigley Inc and Sons",
-    "ToolTip": "Ut non consequuntur soluta.",
+    "Id": 556,
+    "Name": "Yost, Shields and Gislason",
+    "ToolTip": "Repellendus magni voluptatem voluptatum aperiam explicabo provident.",
     "Deleted": false,
-    "Rank": 585,
-    "Type": "est",
-    "ColorBlock": 374,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2000-03-19T11:16:09.3972026+01:00",
+    "Rank": 498,
+    "Type": "ratione",
+    "ColorBlock": 262,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "2013-09-18T12:57:34.3835501+02:00",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Schiller-Walter",
-        "ToolTip": "Officiis ipsa error occaecati.",
-        "Deleted": false,
-        "Rank": 796,
-        "Type": "saepe",
-        "ColorBlock": 573,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2022-06-07T11:16:09.3972026+02:00",
+        "Id": 401,
+        "Name": "Nicolas-Monahan",
+        "ToolTip": "Reprehenderit ex vel unde dicta odio incidunt.",
+        "Deleted": true,
+        "Rank": 682,
+        "Type": "et",
+        "ColorBlock": 97,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2008-08-15T12:57:34.3835501+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "commodi",
+        "ExtraInfo": "natus",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Mrs. Ike Dolores Haley IV",
+        "FullName": "Dorris Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 400
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Elmer Maggio",
+    "ExtraInfo": "modi",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Dayna Murphy DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 562
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 105,
-  "StartTime": "2013-03-23T11:16:09.0691155+01:00",
-  "EndTime": "2015-07-08T11:16:09.0691155+02:00",
-  "Count": 584
+  "ContactId": 902,
+  "StartTime": "2015-03-02T12:57:33.6961763+01:00",
+  "EndTime": "2015-10-25T12:57:33.6961763+01:00",
+  "Count": 514
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 761,
-    "Attention": "consequatur",
-    "Header": "quisquam",
-    "Name": "Cole-Greenholt",
-    "OurRef": "itaque",
-    "YourRef": "et",
-    "Description": "Secured modular methodology",
-    "DocumentTemplate": "odio",
+    "DocumentId": 714,
+    "Attention": "laboriosam",
+    "Header": "quis",
+    "Name": "Miller Inc and Sons",
+    "OurRef": "cum",
+    "YourRef": "sit",
+    "Description": "Ergonomic bandwidth-monitored hub",
+    "DocumentTemplate": "ut",
     "IsPublished": false,
-    "PersonId": 281,
-    "PersonFullName": "Sienna Marvin",
-    "AssociateFullName": "Gwendolyn Wilkinson",
-    "ContactId": 963,
-    "ContactName": "Leannon, Walker and Hayes",
-    "ProjectId": 964,
-    "ProjectName": "Blanda-Schinner",
-    "AssociateId": 90,
-    "Snum": 493,
-    "SaleId": 501,
-    "SaleName": "Herzog Group",
+    "PersonId": 631,
+    "PersonFullName": "Tina Keebler",
+    "AssociateFullName": "Janet Hagenes",
+    "ContactId": 493,
+    "ContactName": "Gottlieb, West and Gutkowski",
+    "ProjectId": 609,
+    "ProjectName": "Monahan, Schmitt and Medhurst",
+    "AssociateId": 889,
+    "Snum": 629,
+    "SaleId": 413,
+    "SaleName": "Hauck, Quigley and Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldType": "System.String",
+        "FieldLength": 206
       }
     }
   }

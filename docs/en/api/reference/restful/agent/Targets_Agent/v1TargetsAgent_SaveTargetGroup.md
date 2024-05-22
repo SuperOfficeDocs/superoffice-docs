@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 103,
-  "Year": 840,
+  "TargetGroupId": 99,
+  "Year": 67,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 808,
+      "TargetAssignmentInfoId": 595,
       "Values": [
-        753,
-        148
+        468,
+        493
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 911,
-      "DimensionListItemDisplayName": "Murray LLC"
+      "DimensionListItem": 627,
+      "DimensionListItemDisplayName": "Trantow, Sawayn and Stark"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 18,
-  "Year": 603,
+  "TargetGroupId": 152,
+  "Year": 311,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 105,
+      "TargetAssignmentInfoId": 671,
       "Values": [
-        522,
-        83
+        684,
+        503
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 745,
-      "DimensionListItemDisplayName": "Johns-Swift",
+      "DimensionListItem": 292,
+      "DimensionListItemDisplayName": "Hackett, Mitchell and Metz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 940
+          "FieldType": "System.Int32",
+          "FieldLength": 324
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

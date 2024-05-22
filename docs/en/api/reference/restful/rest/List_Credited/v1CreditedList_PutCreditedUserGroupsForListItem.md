@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Kilback Group",
-    "ToolTip": "Libero nobis nobis.",
-    "Deleted": true,
-    "Rank": 481,
-    "Type": "ea",
-    "ColorBlock": 924,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "1997-08-20T11:16:14.5432954+02:00",
+    "Id": 320,
+    "Name": "Jacobi LLC",
+    "ToolTip": "Qui esse quam mollitia tempore atque.",
+    "Deleted": false,
+    "Rank": 218,
+    "Type": "voluptate",
+    "ColorBlock": 547,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2008-10-27T12:57:43.4176894+01:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Jones Group",
-        "ToolTip": "Odio a sequi.",
+        "Id": 169,
+        "Name": "Boyer, Hackett and Labadie",
+        "ToolTip": "Vitae aut sed expedita et sunt.",
         "Deleted": false,
-        "Rank": 855,
-        "Type": "impedit",
-        "ColorBlock": 625,
-        "IconHint": "aliquid",
-        "Selected": true,
-        "LastChanged": "2022-02-16T11:16:14.5432954+01:00",
+        "Rank": 280,
+        "Type": "accusamus",
+        "ColorBlock": 69,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2021-11-01T12:57:43.4176894+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "soluta",
+        "ExtraInfo": "nam",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Prof. Valentine Gottlieb DVM"
+        "FullName": "Alize Daniel"
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "magni",
+    "ExtraInfo": "soluta",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Greta Lilyan Boyle MD"
+    "FullName": "Dr. Desmond Maggio V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Stroman Group",
-    "ToolTip": "Velit deleniti rem rem non et alias quas.",
+    "Id": 650,
+    "Name": "Klein, Kiehn and Feest",
+    "ToolTip": "Eius omnis id incidunt.",
     "Deleted": false,
-    "Rank": 881,
-    "Type": "maxime",
-    "ColorBlock": 44,
-    "IconHint": "repudiandae",
-    "Selected": true,
-    "LastChanged": "2012-08-12T11:16:14.5432954+02:00",
+    "Rank": 563,
+    "Type": "vel",
+    "ColorBlock": 728,
+    "IconHint": "quasi",
+    "Selected": false,
+    "LastChanged": "2000-04-30T12:57:43.4176894+02:00",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Jerde LLC",
-        "ToolTip": "Quaerat error et sapiente itaque.",
+        "Id": 244,
+        "Name": "McDermott Inc and Sons",
+        "ToolTip": "Quia ratione dicta.",
         "Deleted": true,
-        "Rank": 517,
-        "Type": "ut",
-        "ColorBlock": 893,
-        "IconHint": "autem",
+        "Rank": 365,
+        "Type": "sapiente",
+        "ColorBlock": 676,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1997-10-25T11:16:14.5432954+02:00",
+        "LastChanged": "2009-04-26T12:57:43.4176894+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Susan Ankunding",
+        "ExtraInfo": "sunt",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Larry Brown Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 205
+            "FieldLength": 535
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "quas",
+    "ExtraInfo": "ea",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Robyn Alycia Medhurst V",
+    "FullName": "Jon Lakin PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldLength": 116
       }
     }
   }

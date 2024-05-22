@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Mann LLC",
-    "ToolTip": "Est sed mollitia quod deleniti est.",
+    "Id": 577,
+    "Name": "Fisher, Dooley and Hirthe",
+    "ToolTip": "Alias recusandae.",
     "Deleted": true,
-    "Rank": 782,
-    "Type": "aperiam",
-    "ColorBlock": 717,
-    "IconHint": "cupiditate",
+    "Rank": 913,
+    "Type": "porro",
+    "ColorBlock": 257,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "1997-10-21T11:16:14.6057886+02:00",
+    "LastChanged": "2011-08-04T12:57:43.5270395+02:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Paucek Inc and Sons",
-        "ToolTip": "Neque enim quis.",
+        "Id": 147,
+        "Name": "O'Hara, Breitenberg and Schroeder",
+        "ToolTip": "Aperiam repellendus dolore quo necessitatibus excepturi officiis.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "qui",
-        "ColorBlock": 379,
-        "IconHint": "nam",
+        "Rank": 957,
+        "Type": "odit",
+        "ColorBlock": 56,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2019-10-01T11:16:14.6057886+02:00",
+        "LastChanged": "2004-11-24T12:57:43.5270395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "est",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Clotilde Eichmann"
+        "FullName": "Elna Blick"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Tyrese Leanna Borer Sr."
+    "FullName": "Elmo Pagac"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Bernier Group",
-    "ToolTip": "Eos illum non temporibus temporibus id.",
+    "Id": 886,
+    "Name": "Considine-Wilderman",
+    "ToolTip": "Sit est consequatur.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "eum",
-    "ColorBlock": 712,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "1997-07-20T11:16:14.6057886+02:00",
+    "Rank": 137,
+    "Type": "recusandae",
+    "ColorBlock": 180,
+    "IconHint": "nulla",
+    "Selected": false,
+    "LastChanged": "2008-06-12T12:57:43.5270395+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Blanda Inc and Sons",
-        "ToolTip": "Qui asperiores nemo molestiae recusandae iste sequi ipsa.",
-        "Deleted": false,
-        "Rank": 244,
-        "Type": "maiores",
-        "ColorBlock": 928,
-        "IconHint": "eveniet",
+        "Id": 710,
+        "Name": "Schmidt LLC",
+        "ToolTip": "Qui illum totam ipsa modi.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "fuga",
+        "ColorBlock": 761,
+        "IconHint": "in",
         "Selected": true,
-        "LastChanged": "2018-10-21T11:16:14.6057886+02:00",
+        "LastChanged": "2011-06-14T12:57:43.5270395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "sit",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Prof. Rod Altenwerth III",
+        "FullName": "Greyson Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 540
+            "FieldType": "System.Int32",
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "ab",
+    "ExtraInfo": "ad",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Louie Bashirian",
+    "FullName": "Deon Leopoldo Lakin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 558
       }
     }
   }

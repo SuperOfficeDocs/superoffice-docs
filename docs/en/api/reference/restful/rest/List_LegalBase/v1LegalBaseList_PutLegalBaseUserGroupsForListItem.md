@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "White-Glover",
-    "ToolTip": "Nobis incidunt qui adipisci iure corrupti id.",
+    "Id": 626,
+    "Name": "Kuhic-Mraz",
+    "ToolTip": "Qui id quisquam voluptatem porro aspernatur sunt necessitatibus.",
     "Deleted": false,
-    "Rank": 254,
-    "Type": "magni",
-    "ColorBlock": 814,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2012-04-17T11:16:14.5745384+02:00",
+    "Rank": 791,
+    "Type": "architecto",
+    "ColorBlock": 979,
+    "IconHint": "voluptates",
+    "Selected": false,
+    "LastChanged": "2018-08-05T12:57:43.4957969+02:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Boyle Inc and Sons",
-        "ToolTip": "Veritatis possimus quos molestiae.",
+        "Id": 546,
+        "Name": "Murphy-Carter",
+        "ToolTip": "Eius adipisci accusamus.",
         "Deleted": false,
-        "Rank": 116,
-        "Type": "minus",
-        "ColorBlock": 798,
-        "IconHint": "voluptate",
+        "Rank": 857,
+        "Type": "sint",
+        "ColorBlock": 861,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2024-01-25T11:16:14.5745384+01:00",
+        "LastChanged": "2008-10-07T12:57:43.4957969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "quidem",
+        "ExtraInfo": "iusto",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Prof. Carlie Toy"
+        "FullName": "Mara Fisher"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "minus",
+    "ExtraInfo": "ut",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Irma Altenwerth"
+    "FullName": "Tyson Marcos Greenholt V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Towne, Ebert and McDermott",
-    "ToolTip": "Perspiciatis repudiandae.",
+    "Id": 541,
+    "Name": "Dach-Durgan",
+    "ToolTip": "Ipsum sapiente laboriosam repellendus repellendus.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "nulla",
-    "ColorBlock": 151,
-    "IconHint": "necessitatibus",
+    "Rank": 142,
+    "Type": "quia",
+    "ColorBlock": 61,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2005-05-19T11:16:14.5901626+02:00",
+    "LastChanged": "2006-09-13T12:57:43.4957969+02:00",
     "ChildItems": [
       {
-        "Id": 412,
-        "Name": "Schamberger Inc and Sons",
-        "ToolTip": "Temporibus deserunt nam.",
+        "Id": 262,
+        "Name": "Goodwin LLC",
+        "ToolTip": "Sit nisi qui.",
         "Deleted": false,
-        "Rank": 38,
-        "Type": "sapiente",
-        "ColorBlock": 17,
-        "IconHint": "quasi",
+        "Rank": 313,
+        "Type": "et",
+        "ColorBlock": 121,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2002-10-17T11:16:14.5901626+02:00",
+        "LastChanged": "2000-11-20T12:57:43.4957969+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "enim",
+        "ExtraInfo": "harum",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Mr. Brionna Claude Dooley",
+        "FullName": "Mrs. Ignatius Ryleigh Daniel IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldType": "System.String",
+            "FieldLength": 374
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Neal Metz",
+    "ExtraInfo": "porro",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Jeramie Gutkowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 400
       }
     }
   }

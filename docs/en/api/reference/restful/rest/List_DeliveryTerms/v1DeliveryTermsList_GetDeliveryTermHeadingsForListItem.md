@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Sauer, Schulist and Hermann",
-    "ToolTip": "Iure nulla maiores.",
+    "Id": 731,
+    "Name": "Marquardt-Dickens",
+    "ToolTip": "Autem voluptas sed dolor ducimus.",
     "Deleted": false,
-    "Rank": 774,
-    "Type": "voluptas",
-    "ColorBlock": 862,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2009-11-16T11:16:14.5589219+01:00",
+    "Rank": 38,
+    "Type": "doloribus",
+    "ColorBlock": 846,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2021-12-30T12:57:43.4489324+01:00",
     "ChildItems": [
       {
-        "Id": 349,
-        "Name": "Fay Group",
-        "ToolTip": "Repudiandae aliquid.",
+        "Id": 932,
+        "Name": "Schimmel, Funk and Gusikowski",
+        "ToolTip": "Doloribus quis.",
         "Deleted": false,
-        "Rank": 978,
-        "Type": "et",
-        "ColorBlock": 352,
-        "IconHint": "iusto",
-        "Selected": true,
-        "LastChanged": "2013-02-23T11:16:14.5589219+01:00",
+        "Rank": 124,
+        "Type": "soluta",
+        "ColorBlock": 149,
+        "IconHint": "cum",
+        "Selected": false,
+        "LastChanged": "1999-05-22T12:57:43.4489324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Breanne Mosciski",
+        "ExtraInfo": "illo",
+        "StyleHint": "cumque",
+        "Hidden": false,
+        "FullName": "Adela Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 255
+            "FieldType": "System.Int32",
+            "FieldLength": 959
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quasi",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Rosendo Glover",
+    "FullName": "Ettie Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 876
       }
     }
   }

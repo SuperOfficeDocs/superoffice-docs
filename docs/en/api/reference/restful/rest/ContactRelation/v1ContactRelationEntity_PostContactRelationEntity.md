@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 172,
-  "SourcePersonId": 652,
-  "DestinationContactId": 804,
-  "DestinationPersonId": 4,
-  "RelationId": 347,
-  "Comment": "qui",
-  "RelationDefinitionId": 5,
-  "Reversed": 615,
-  "UpdatedDate": "2011-09-05T11:16:13.83947+02:00",
-  "CreatedDate": "2016-05-01T11:16:13.83947+02:00",
+  "SourceContactId": 736,
+  "SourcePersonId": 501,
+  "DestinationContactId": 39,
+  "DestinationPersonId": 193,
+  "RelationId": 863,
+  "Comment": "cum",
+  "RelationDefinitionId": 578,
+  "Reversed": 444,
+  "UpdatedDate": "2017-08-26T12:57:42.3076631+02:00",
+  "CreatedDate": "1999-10-03T12:57:42.3076631+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Quigley, Kirlin and Raynor",
-  "SourcePersonName": "Mosciski-Lynch",
-  "DestinationContactName": "Beier Inc and Sons",
-  "DestinationPersonName": "Weber-Mayer",
-  "ActiveText": "fugiat",
-  "PassiveText": "magnam"
+  "SourceContactName": "Johns-Rippin",
+  "SourcePersonName": "Wolff, Price and Terry",
+  "DestinationContactName": "Larkin, Labadie and Turcotte",
+  "DestinationPersonName": "Olson, Ratke and Hamill",
+  "ActiveText": "soluta",
+  "PassiveText": "animi"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 754,
-  "SourcePersonId": 246,
-  "DestinationContactId": 676,
-  "DestinationPersonId": 774,
-  "RelationId": 809,
-  "Comment": "in",
-  "RelationDefinitionId": 263,
-  "Reversed": 667,
-  "UpdatedDate": "2004-05-11T11:16:13.83947+02:00",
-  "CreatedDate": "2017-06-18T11:16:13.83947+02:00",
+  "SourceContactId": 842,
+  "SourcePersonId": 54,
+  "DestinationContactId": 175,
+  "DestinationPersonId": 897,
+  "RelationId": 57,
+  "Comment": "quibusdam",
+  "RelationDefinitionId": 511,
+  "Reversed": 41,
+  "UpdatedDate": "2004-07-04T12:57:42.3076631+02:00",
+  "CreatedDate": "2001-02-03T12:57:42.3076631+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Quitzon-Nicolas",
-  "SourcePersonName": "Cremin LLC",
-  "DestinationContactName": "Schultz Inc and Sons",
-  "DestinationPersonName": "Emard-Harris",
-  "ActiveText": "rerum",
-  "PassiveText": "voluptatibus",
+  "SourceContactName": "Harber-Koepp",
+  "SourcePersonName": "Kris-Tillman",
+  "DestinationContactName": "Padberg, Price and Cronin",
+  "DestinationPersonName": "Hand, Kuphal and Schmidt",
+  "ActiveText": "aut",
+  "PassiveText": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

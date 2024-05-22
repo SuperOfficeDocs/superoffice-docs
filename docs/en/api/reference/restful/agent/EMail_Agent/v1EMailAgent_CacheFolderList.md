@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Brakus-Harvey",
-    "Delimiter": "est",
-    "Flags": "soluta",
-    "TotalItems": 18,
-    "UnreadItems": 263,
+    "Name": "Abshire LLC",
+    "Delimiter": "labore",
+    "Flags": "nulla",
+    "TotalItems": 197,
+    "UnreadItems": 51,
     "Subscribed": true,
-    "EmailFolderId": 277,
+    "EmailFolderId": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 557
       }
     }
   }

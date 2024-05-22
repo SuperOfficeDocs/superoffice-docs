@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 28,
-  "Name": "Halvorson Inc and Sons",
-  "TZLocationCode": "quis",
-  "TZLocationCities": "commodi",
-  "IsoNumber": 254,
+  "TZLocationID": 977,
+  "Name": "Marks, Marvin and Effertz",
+  "TZLocationCode": "et",
+  "TZLocationCities": "consequatur",
+  "IsoNumber": 54,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 612,
-      "StartMonth": 37,
-      "EndDay": 455,
-      "EndMonth": 53,
-      "TZOffset": 998,
-      "StartRulePattern": "fugit",
-      "EndRulePattern": "enim"
+      "StartDay": 232,
+      "StartMonth": 966,
+      "EndDay": 471,
+      "EndMonth": 593,
+      "TZOffset": 326,
+      "StartRulePattern": "nobis",
+      "EndRulePattern": "quia"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 808,
-      "StartMonth": 690,
-      "EndDay": 91,
-      "EndMonth": 23,
-      "TZOffset": 161,
-      "StartRulePattern": "aspernatur",
-      "EndRulePattern": "est"
+      "StartDay": 943,
+      "StartMonth": 2,
+      "EndDay": 480,
+      "EndMonth": 85,
+      "TZOffset": 601,
+      "StartRulePattern": "molestiae",
+      "EndRulePattern": "sed"
     }
   }
 }

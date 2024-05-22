@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 522,
-  "UniqueId": "est",
-  "Name": "Reynolds Group",
-  "Description": "Robust human-resource extranet",
-  "AssociateId": 950,
-  "Columns": 46,
+  "DashboardId": 719,
+  "UniqueId": "facilis",
+  "Name": "Bogan-Zulauf",
+  "Description": "Adaptive zero defect system engine",
+  "AssociateId": 440,
+  "Columns": 94,
   "Theme": null,
-  "VisibleForAll": 734,
+  "VisibleForAll": 247,
   "VisibleForAssociates": [
-    670,
-    749
+    638,
+    413
   ],
   "VisibleForGroups": [
-    629,
-    184
+    827,
+    817
   ],
-  "PinForAll": 98,
+  "PinForAll": 254,
   "PinForAssociates": [
-    903,
-    575
+    754,
+    536
   ],
   "PinForGroups": [
-    505,
-    363
+    618,
+    616
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

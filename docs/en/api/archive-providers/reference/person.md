@@ -75,6 +75,9 @@ table data; this will also pull in contact udef and related fields.
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|createdByForm|listAny|Created by form: Created by form| x |
 |phone/formattedNumber|string|Phone : Displays phone number|  |
 |personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |personDirectPhone/description|string|Direct - Description: Phone number description| x |
@@ -121,13 +124,13 @@ table data; this will also pull in contact udef and related fields.
 |restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
-|restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
-|restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
+|restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
+|restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
 |personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
 |personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
@@ -141,7 +144,6 @@ table data; this will also pull in contact udef and related fields.
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -211,6 +213,9 @@ table data; this will also pull in contact udef and related fields.
 |personSourceRelation/hasCompany|bool|Source - Has company: The contact is associated with a company| x |
 |personSourceRelation/isProjectMember|bool|Source - Is project member: This person is a project member| x |
 |personSourceRelation/isStakeholder|bool|Source - Is stakeholder: This person is a sale stakeholder| x |
+|personSourceRelation/updatedByWorkflow|listAny|Source - Updated by flow: Updated by flow| x |
+|personSourceRelation/whenUpdatedByWorkflow|datetime|Source - Updated by flow: Updated by flow| x |
+|personSourceRelation/createdByForm|listAny|Source - Created by form: Created by form| x |
 |personSourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
@@ -223,15 +228,15 @@ table data; this will also pull in contact udef and related fields.
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personTargetRelation/personHasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/mrMrs|string|Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personTargetRelation/position|listAny|Target - Position| x |
 |personTargetRelation/personNumber|string|Target - Number: Displays the contact's number| x |
 |personTargetRelation/title|string|Target - Title: Displays the contact's job title| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personTargetRelation/personCountry|listAny|Target - Country: Country| x |
 |personTargetRelation/personCountryId|int|Target - Country ID: Country ID| x |
 |personTargetRelation/personNoMail|bool|Target - No Mailings: Displays the contact's No Mailings checkbox| x |
@@ -266,6 +271,9 @@ table data; this will also pull in contact udef and related fields.
 |personTargetRelation/hasCompany|bool|Target - Has company: The contact is associated with a company| x |
 |personTargetRelation/isProjectMember|bool|Target - Is project member: This person is a project member| x |
 |personTargetRelation/isStakeholder|bool|Target - Is stakeholder: This person is a sale stakeholder| x |
+|personTargetRelation/updatedByWorkflow|listAny|Target - Updated by flow: Updated by flow| x |
+|personTargetRelation/whenUpdatedByWorkflow|datetime|Target - Updated by flow: Updated by flow| x |
+|personTargetRelation/createdByForm|listAny|Target - Created by form: Created by form| x |
 |personTargetRelation/restrictionContactId|int|Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/restrictionPersonId|int|Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/who| *None* |Target - Full name: Full name of company/contact| x |
@@ -303,6 +311,7 @@ table data; this will also pull in contact udef and related fields.
 |personAssociate/userName|string|User name: User name| x |
 |personAssociate/personEmail|string|E-mail| x |
 |personAssociate/locationAddress|string|Location: Location| x |
+|personAssociate/isLocation|bool|Is a location: Is a location| x |
 |correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -323,6 +332,10 @@ table data; this will also pull in contact udef and related fields.
 |correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -332,12 +345,9 @@ table data; this will also pull in contact udef and related fields.
 |correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |correspondingAssociate/userName|string|User name: User name| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |correspondingAssociate/personEmail|string|E-mail| x |
 |correspondingAssociate/locationAddress|string|Location: Location| x |
+|correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |personContact/contactId|int|Company ID: Database ID of company| x |
 |personContact/name|stringorPK|Company name| x |
 |personContact/department|string|Department| x |
@@ -426,6 +436,10 @@ table data; this will also pull in contact udef and related fields.
 |personContact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |personContact/contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personContact/contactAssociate/contactCategory|listAny|Category: Category| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/contactAssociate/role|listAny|Role : Role| x |
 |personContact/contactAssociate/assocName|associate|User ID : User ID| x |
 |personContact/contactAssociate/assocTooltip|string|Description : Description|  |
@@ -436,10 +450,6 @@ table data; this will also pull in contact udef and related fields.
 |personContact/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personContact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personContact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |personContact/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |personContact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -447,6 +457,7 @@ table data; this will also pull in contact udef and related fields.
 |personContact/contactAssociate/userName|string|User name: User name| x |
 |personContact/contactAssociate/personEmail|string|E-mail| x |
 |personContact/contactAssociate/locationAddress|string|Location: Location| x |
+|personContact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -504,6 +515,7 @@ table data; this will also pull in contact udef and related fields.
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
+|request/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -528,6 +540,10 @@ table data; this will also pull in contact udef and related fields.
 |request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
 |request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
 |request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
@@ -535,15 +551,12 @@ table data; this will also pull in contact udef and related fields.
 |request/createdBy/userName|string|Created by - User name: User name| x |
 |request/createdBy/personEmail|string|Created by - E-mail| x |
 |request/createdBy/locationAddress|string|Created by - Location: Location| x |
+|request/createdBy/isLocation|bool|Created by - Is a location: Is a location| x |
 |request/ownedBy/firstName|string|Owner - First name: Displays the contact's first name| x |
 |request/ownedBy/lastName|string|Owner - Last name: Displays the contact's last name| x |
 |request/ownedBy/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
 |request/ownedBy/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |request/ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
 |request/ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |request/ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -570,6 +583,7 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/userName|string|Owner - User name: User name| x |
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
 |request/ownedBy/locationAddress|string|Owner - Location: Location| x |
+|request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -580,7 +594,6 @@ table data; this will also pull in contact udef and related fields.
 |request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
-|request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
@@ -631,6 +644,10 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectAssociate/associateDbId|associate|ID| x |
 |projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
@@ -644,10 +661,6 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMembers/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -655,6 +668,7 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectAssociate/userName|string|User name: User name| x |
 |projectMembers/projectAssociate/personEmail|string|E-mail| x |
 |projectMembers/projectAssociate/locationAddress|string|Location: Location| x |
+|projectMembers/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMembers/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectMembers/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectMembers/projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -730,9 +744,14 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
+|personAppointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |personAppointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
@@ -748,10 +767,6 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |personAppointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |personAppointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |personAppointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -778,6 +793,7 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/userName|string|User name: User name| x |
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
+|personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -788,7 +804,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=firstName,personExtra/y_rental/x_amount,personTargetRelation/personAssociateFullName,request/ownedBy/assocTooltip,projectMembers/projectUdef/SuperOffice:10
+GET /api/v1/archive/Person?$select=personExtra/x_person_date,personExtra/x_person_boolean,personContact/postAddress/addressId,projectMembers/projectEvent/isExternalEvent,projectMembers/projectAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

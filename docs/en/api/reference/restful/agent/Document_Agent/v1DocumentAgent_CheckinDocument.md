@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 851,
+  "DocumentId": 334,
   "AllowedReturnTypes": [
-    "id",
-    "id"
+    "repellat",
+    "voluptatum"
   ],
-  "VersionDescription": "User-centric zero tolerance capacity",
+  "VersionDescription": "Streamlined coherent product",
   "VersionExtraFields": [
-    "consequatur",
-    "necessitatibus"
+    "et",
+    "possimus"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "molestiae",
-  "VersionId": "provident",
-  "Success": true,
+  "ExternalReference": "non",
+  "VersionId": "et",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "id",
-  "AdditionalInfo": "autem"
+  "Value": "atque",
+  "AdditionalInfo": "nulla"
 }
 ```

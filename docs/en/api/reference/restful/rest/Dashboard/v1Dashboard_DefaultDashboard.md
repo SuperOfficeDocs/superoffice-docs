@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 450,
-  "AssociateId": 21,
-  "Caption": "accusamus",
+  "DashboardId": 213,
+  "AssociateId": 483,
+  "Caption": "omnis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 798,
-      "Caption": "laboriosam",
-      "Description": "Fully-configurable systematic collaboration",
-      "ChartName": "Marks-Kunde",
-      "ChartId": "nulla",
+      "DashboardTileId": 843,
+      "Caption": "natus",
+      "Description": "Grass-roots 3rd generation collaboration",
+      "ChartName": "Ferry, Wintheiser and Abernathy",
+      "ChartId": "odio",
       "IsDefault": false,
-      "AssociateId": 973,
-      "GroupId": 1002,
-      "SelectionId": 523,
-      "Config": "nihil",
+      "AssociateId": 21,
+      "GroupId": 938,
+      "SelectionId": 413,
+      "Config": "ipsa",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 304
+          "FieldType": "System.Int32",
+          "FieldLength": 835
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldLength": 409
     }
   }
 }

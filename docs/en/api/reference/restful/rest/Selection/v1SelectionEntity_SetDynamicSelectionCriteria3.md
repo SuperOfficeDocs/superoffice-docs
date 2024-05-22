@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Armstrong-Bernhard",
-    "Operator": "quia",
+    "Name": "Kutch-Schaden",
+    "Operator": "possimus",
     "Values": [
-      "laudantium",
-      "doloremque"
+      "id",
+      "quia"
     ],
     "DisplayValues": [
-      "ut",
-      "laborum"
+      "ducimus",
+      "explicabo"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Pollich, McCullough and Howe",
-        "Operator": "officia",
+        "Name": "Hegmann Inc and Sons",
+        "Operator": "aut",
         "Values": [
-          "maiores",
-          "maiores"
+          "est",
+          "quod"
         ],
         "DisplayValues": [
-          "fugiat",
-          "autem"
+          "quo",
+          "quam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 757,
+        "InterParenthesis": 811,
         "InterOperator": "And",
-        "UniqueHash": 909
+        "UniqueHash": 593
       }
     ],
-    "InterParenthesis": 724,
+    "InterParenthesis": 258,
     "InterOperator": "And",
-    "UniqueHash": 580
+    "UniqueHash": 824
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Terry-Franecki",
-    "Operator": "possimus",
+    "Name": "Littel, Bradtke and Wolf",
+    "Operator": "et",
     "Values": [
-      "pariatur",
-      "et"
+      "quis",
+      "neque"
     ],
     "DisplayValues": [
-      "voluptas",
-      "consequuntur"
+      "odit",
+      "dignissimos"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Mayer, Pouros and Herman",
-        "Operator": "atque",
+        "Name": "Volkman-Lynch",
+        "Operator": "aut",
         "Values": [
-          "fugiat",
-          "natus"
+          "sit",
+          "harum"
         ],
         "DisplayValues": [
-          "repudiandae",
-          "vero"
+          "consequatur",
+          "id"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 729,
+        "InterParenthesis": 934,
         "InterOperator": "And",
-        "UniqueHash": 452
+        "UniqueHash": 203
       }
     ],
-    "InterParenthesis": 383,
+    "InterParenthesis": 697,
     "InterOperator": "And",
-    "UniqueHash": 891
+    "UniqueHash": 824
   }
 ]
 ```

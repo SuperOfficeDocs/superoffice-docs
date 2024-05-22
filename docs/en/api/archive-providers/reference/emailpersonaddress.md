@@ -88,6 +88,9 @@ the email_id.
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|createdByForm|listAny|Created by form: Created by form| x |
 |phone/formattedNumber|string|Phone : Displays phone number|  |
 |who| *None* |Full name: Displays the contact's full name.| x |
 |personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -125,13 +128,13 @@ the email_id.
 |personContact/countryId|int|Country ID: Country ID| x |
 |personContact/number|string|Number| x |
 |personContact/code|string|Code| x |
-|personContact/orgnr|string|VAT No.| x |
-|personContact/stop|bool|Stop| x |
-|personContact/contactNoMail|bool|No mailings (company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/orgnr|string|VAT No.| x |
+|personContact/stop|bool|Stop| x |
+|personContact/contactNoMail|bool|No mailings (company| x |
 |personContact/updatedBy|associate|Updated by: The user who last updated the data| x |
 |personContact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personContact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -186,7 +189,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=rank,supportAssociate,personAddress/line3
+GET /api/v1/archive/emailpersonaddress?$select=emailProtocol,personId,personContact/restrictionAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

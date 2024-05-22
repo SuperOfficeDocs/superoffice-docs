@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "veniam",
-  "OptionalSecretKey": "in"
+  "Token": "cumque",
+  "OptionalSecretKey": "voluptate"
 }
 ```
 

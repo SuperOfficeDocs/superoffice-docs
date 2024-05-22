@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Stark-Homenick",
-    "ToolTip": "Id corporis repellendus fuga accusantium dignissimos.",
+    "Id": 516,
+    "Name": "Barton, Bahringer and Runte",
+    "ToolTip": "Molestiae quidem laudantium.",
     "Deleted": true,
-    "Rank": 289,
-    "Type": "distinctio",
-    "ColorBlock": 255,
-    "IconHint": "quia",
+    "Rank": 509,
+    "Type": "tempora",
+    "ColorBlock": 346,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2023-10-05T11:16:14.6214085+02:00",
+    "LastChanged": "2015-11-14T12:57:43.5582822+01:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Cruickshank, McLaughlin and Lowe",
-        "ToolTip": "Doloremque voluptas officiis veritatis rem.",
-        "Deleted": true,
-        "Rank": 326,
-        "Type": "ullam",
-        "ColorBlock": 491,
-        "IconHint": "debitis",
+        "Id": 256,
+        "Name": "Kuvalis Group",
+        "ToolTip": "Rerum optio in numquam fugit ducimus.",
+        "Deleted": false,
+        "Rank": 859,
+        "Type": "similique",
+        "ColorBlock": 517,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2019-03-08T11:16:14.6214085+01:00",
+        "LastChanged": "2019-12-14T12:57:43.5582822+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "expedita",
-        "Hidden": false,
-        "FullName": "Alfreda Altenwerth"
+        "ExtraInfo": "quis",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Jensen VonRueden"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "voluptatibus",
-    "Hidden": true,
-    "FullName": "Nasir Maggio"
+    "ExtraInfo": "quae",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Mrs. Kaley Goodwin V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Labadie-Kerluke",
-    "ToolTip": "Velit dicta sit nemo.",
-    "Deleted": false,
-    "Rank": 39,
-    "Type": "quo",
-    "ColorBlock": 531,
-    "IconHint": "laborum",
+    "Id": 836,
+    "Name": "Zboncak LLC",
+    "ToolTip": "At nobis.",
+    "Deleted": true,
+    "Rank": 606,
+    "Type": "quis",
+    "ColorBlock": 930,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "1998-06-04T11:16:14.6214085+02:00",
+    "LastChanged": "2000-07-03T12:57:43.5582822+02:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Satterfield-Kiehn",
-        "ToolTip": "Rerum maxime doloribus et eaque et quis.",
-        "Deleted": false,
-        "Rank": 154,
-        "Type": "esse",
-        "ColorBlock": 901,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2014-11-01T11:16:14.6214085+01:00",
+        "Id": 82,
+        "Name": "Olson-Witting",
+        "ToolTip": "Quos voluptates adipisci quis atque odit odit minima.",
+        "Deleted": true,
+        "Rank": 546,
+        "Type": "incidunt",
+        "ColorBlock": 3,
+        "IconHint": "dolorum",
+        "Selected": false,
+        "LastChanged": "1999-10-27T12:57:43.5582822+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "sint",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Mariana Kaitlyn Sauer Sr.",
+        "FullName": "Miss Cheyenne Lamont Ullrich DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 851
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "eaque",
-    "Hidden": true,
-    "FullName": "Madelynn Haag",
+    "ExtraInfo": "nisi",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Josh Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldType": "System.Int32",
+        "FieldLength": 520
       }
     }
   }

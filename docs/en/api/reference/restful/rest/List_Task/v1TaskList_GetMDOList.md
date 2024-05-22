@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=perspiciatis
+GET /api/v1/List/Task/MDOItems?query=quasi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "Strosin-Bruen",
-    "ToolTip": "Deleniti asperiores nihil magni omnis necessitatibus est omnis.",
-    "Deleted": true,
-    "Rank": 343,
-    "Type": "a",
+    "Id": 365,
+    "Name": "Keebler Group",
+    "ToolTip": "Optio mollitia et ut doloribus perferendis.",
+    "Deleted": false,
+    "Rank": 923,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Kuhic Inc and Sons",
-        "ToolTip": "Aut rerum est ea assumenda.",
-        "Deleted": false,
-        "Rank": 978,
-        "Type": "dolores",
+        "Id": 29,
+        "Name": "Kerluke-Zemlak",
+        "ToolTip": "Vitae architecto eligendi ad et nemo.",
+        "Deleted": true,
+        "Rank": 180,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 99,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "optio",
-        "FullName": "Dr. Trystan Berta O'Connell MD",
+        "IconHint": "placeat",
+        "ColorBlock": 268,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "ut",
+        "FullName": "Ashlynn Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 964
+            "FieldType": "System.String",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 129,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "voluptate",
-    "FullName": "Mrs. Cristina Kuhn",
+    "IconHint": "et",
+    "ColorBlock": 513,
+    "ExtraInfo": "sed",
+    "StyleHint": "illum",
+    "FullName": "Hayley Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 175
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

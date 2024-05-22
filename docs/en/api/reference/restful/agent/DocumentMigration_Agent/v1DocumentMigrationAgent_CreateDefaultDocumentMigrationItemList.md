@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 309,
-  "NumDocumentsAlreadyMigrated": 950,
+  "NumDocumentsOmitted": 846,
+  "NumDocumentsAlreadyMigrated": 740,
   "Documents": [
     {
-      "DocumentId": 29,
-      "ContactId": 899,
-      "PersonId": 987,
-      "SaleId": 958,
-      "ProjectId": 581,
-      "DocTmplId": 376,
-      "AssociateId": 505,
-      "UserGroupId": 457,
-      "VisibleForId": 101
+      "DocumentId": 352,
+      "ContactId": 283,
+      "PersonId": 555,
+      "SaleId": 185,
+      "ProjectId": 379,
+      "DocTmplId": 979,
+      "AssociateId": 773,
+      "UserGroupId": 616,
+      "VisibleForId": 874
     }
   ],
   "Associates": [
     {
-      "AssociateId": 574,
-      "EmailAddress": "clovis@hauckweber.uk"
+      "AssociateId": 870,
+      "EmailAddress": "jed@mccullough.ca"
     },
     {
-      "AssociateId": 574,
-      "EmailAddress": "clovis@hauckweber.uk"
+      "AssociateId": 870,
+      "EmailAddress": "jed@mccullough.ca"
     }
   ]
 }

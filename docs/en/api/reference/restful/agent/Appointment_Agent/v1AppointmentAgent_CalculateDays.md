@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 305,
-  "StartDate": "2004-07-16T11:16:08.6002301+02:00",
-  "EndDate": "2017-03-09T11:16:08.6002301+01:00",
-  "RecurrenceCounter": 482,
+  "RecurrenceId": 1000,
+  "StartDate": "2024-04-27T12:57:32.8990255+02:00",
+  "EndDate": "2017-01-06T12:57:32.8990255+01:00",
+  "RecurrenceCounter": 238,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-12-31T11:16:08.6002301+01:00",
-      "IsConflict": true,
-      "Description": "Exclusive zero tolerance ability",
-      "DescriptionStyleHint": "Configurable composite encryption",
-      "Tooltip": "voluptatem"
+      "Date": "2021-09-19T12:57:32.8990255+02:00",
+      "IsConflict": false,
+      "Description": "Object-based systematic local area network",
+      "DescriptionStyleHint": "Optimized content-based matrix",
+      "Tooltip": "soluta"
     },
     {
-      "Date": "2000-12-31T11:16:08.6002301+01:00",
-      "IsConflict": true,
-      "Description": "Exclusive zero tolerance ability",
-      "DescriptionStyleHint": "Configurable composite encryption",
-      "Tooltip": "voluptatem"
+      "Date": "2021-09-19T12:57:32.8990255+02:00",
+      "IsConflict": false,
+      "Description": "Object-based systematic local area network",
+      "DescriptionStyleHint": "Optimized content-based matrix",
+      "Tooltip": "soluta"
     }
   ],
   "IsRecurrence": true

@@ -97,35 +97,35 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 514,
-  "Name": "Turcotte, Orn and Weber",
-  "Rank": 431,
-  "Tooltip": "minus",
-  "Icon": "quia",
-  "DefaultTicketStatus": 865,
+  "TicketTypeId": 783,
+  "Name": "Kessler LLC",
+  "Rank": 229,
+  "Tooltip": "tenetur",
+  "Icon": "magnam",
+  "DefaultTicketStatus": 960,
   "TicketStatuses": [
-    252,
-    572
+    599,
+    54
   ],
-  "DefaultTicketPriority": 390,
+  "DefaultTicketPriority": 275,
   "TicketPriorities": [
-    391,
-    274
+    37,
+    711
   ],
-  "ReplyTemplate": 354,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 925,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    212,
-    508
+    982,
+    856
   ]
 }
 ```
@@ -137,38 +137,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 428,
-  "Name": "Lueilwitz-Deckow",
-  "Rank": 217,
-  "Tooltip": "error",
-  "Icon": "assumenda",
-  "DefaultTicketStatus": 562,
+  "TicketTypeId": 792,
+  "Name": "Feest, Waelchi and Kuvalis",
+  "Rank": 588,
+  "Tooltip": "ea",
+  "Icon": "ea",
+  "DefaultTicketStatus": 483,
   "TicketStatuses": [
-    251,
-    346
+    871,
+    404
   ],
-  "DefaultTicketPriority": 346,
+  "DefaultTicketPriority": 229,
   "TicketPriorities": [
-    902,
-    429
+    497,
+    868
   ],
-  "ReplyTemplate": 558,
+  "ReplyTemplate": 214,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    771,
-    6
+    585,
+    168
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 232
     }
   }
 }

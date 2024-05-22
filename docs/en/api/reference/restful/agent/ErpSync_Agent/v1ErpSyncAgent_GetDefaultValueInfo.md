@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 418
+  "ErpFieldId": 145
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 518,
-  "DefaultValue": "qui",
+  "ErpFieldId": 289,
+  "DefaultValue": "iusto",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "repudiandae",
-  "PromptUser": true,
-  "Mandatory": true,
-  "ErpFieldKey": "nobis",
+  "FirstSyncDefaultValue": "at",
+  "PromptUser": false,
+  "Mandatory": false,
+  "ErpFieldKey": "quia",
   "FieldType": "Checkbox",
-  "ListName": "Larkin-Roob",
+  "ListName": "Kessler LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

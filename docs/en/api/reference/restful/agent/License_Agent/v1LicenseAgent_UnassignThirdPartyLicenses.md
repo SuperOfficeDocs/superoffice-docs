@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 240,
-  "ModuleOwner": "quod",
+  "AssociateId": 727,
+  "ModuleOwner": "similique",
   "ModuleLicenseNames": [
-    "Wuckert, Larkin and Howell",
-    "Hane, Witting and Dicki"
+    "Kub, Johnson and Gutkowski",
+    "Borer Inc and Sons"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 860,
-    "Tooltip": "vel",
-    "CanAssign": false,
-    "Free": 427,
+    "Unrestricted": false,
+    "Total": 86,
+    "Tooltip": "fugiat",
+    "CanAssign": true,
+    "Free": 376,
     "InUse": 406,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 249,
-    "Name": "Morissette, Wolf and Adams",
-    "Description": "Multi-layered reciprocal frame",
-    "PrerequisiteModuleName": "Romaguera-Bechtelar",
-    "SortOrder": 724,
-    "ExtraFlags": 687,
+    "ModuleLicenseId": 701,
+    "Name": "Bogan-Schmitt",
+    "Description": "Stand-alone directional attitude",
+    "PrerequisiteModuleName": "Schowalter, Erdman and Botsford",
+    "SortOrder": 478,
+    "ExtraFlags": 48,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 343
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 928
+  "PersonId": 115
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 167,
-    "Name": "Bahringer LLC",
-    "Value": "tenetur",
-    "CreatedDate": "2017-02-14T11:16:08.7410229+01:00",
-    "UpdatedDate": "2017-03-23T11:16:08.7410229+01:00",
-    "CreatedBy": "porro",
-    "UpdatedBy": "amet",
+    "AudienceLayoutId": 85,
+    "Name": "Hegmann-Murphy",
+    "Value": "id",
+    "CreatedDate": "2015-02-20T12:57:33.2428569+01:00",
+    "UpdatedDate": "2007-08-04T12:57:33.2428569+02:00",
+    "CreatedBy": "quo",
+    "UpdatedBy": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldLength": 117
       }
     }
   }

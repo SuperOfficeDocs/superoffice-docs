@@ -62,7 +62,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 504,
-  "Name": "Becker-Cole",
+  "DashboardThemeId": 286,
+  "Name": "Kozey-Tillman",
   "Config": "facere",
-  "Rank": 674,
-  "Client": "aut",
-  "Style": "molestiae",
+  "Rank": 653,
+  "Client": "autem",
+  "Style": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 859
     }
   }
 }

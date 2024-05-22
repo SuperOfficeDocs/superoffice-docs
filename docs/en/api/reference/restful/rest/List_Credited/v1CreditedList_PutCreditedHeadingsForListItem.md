@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Dooley, Jaskolski and Nolan",
-    "ToolTip": "Mollitia ut numquam.",
+    "Id": 181,
+    "Name": "Smith Inc and Sons",
+    "ToolTip": "Tempore quidem repellat quo itaque dicta repellendus nobis.",
     "Deleted": true,
-    "Rank": 759,
-    "Type": "voluptates",
-    "ColorBlock": 783,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2009-07-20T11:16:14.5432954+02:00",
+    "Rank": 372,
+    "Type": "adipisci",
+    "ColorBlock": 110,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "1997-04-01T12:57:43.4176894+02:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Jast, Bauch and Smith",
-        "ToolTip": "Earum aliquid voluptatem laborum ut.",
-        "Deleted": true,
-        "Rank": 911,
-        "Type": "culpa",
-        "ColorBlock": 154,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "1999-07-11T11:16:14.5432954+02:00",
+        "Id": 288,
+        "Name": "Gutkowski-Lockman",
+        "ToolTip": "Minima quisquam iste.",
+        "Deleted": false,
+        "Rank": 703,
+        "Type": "laboriosam",
+        "ColorBlock": 370,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2009-01-30T12:57:43.4176894+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dicta",
-        "Hidden": false,
-        "FullName": "Prof. Marianne Craig Robel"
+        "ExtraInfo": "magnam",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Prof. Jaylon Kiehn DVM"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Dr. Noah Hermann III"
+    "ExtraInfo": "laborum",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Kailee Von"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Steuber, Bergnaum and Kilback",
-    "ToolTip": "Qui similique quasi molestiae.",
+    "Id": 857,
+    "Name": "Kuhic Group",
+    "ToolTip": "Atque alias.",
     "Deleted": true,
-    "Rank": 731,
-    "Type": "modi",
-    "ColorBlock": 248,
-    "IconHint": "quis",
+    "Rank": 204,
+    "Type": "voluptatem",
+    "ColorBlock": 371,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2015-12-29T11:16:14.5432954+01:00",
+    "LastChanged": "2013-04-23T12:57:43.4176894+02:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Wisozk LLC",
-        "ToolTip": "Non eveniet perferendis.",
+        "Id": 2,
+        "Name": "Lowe-Pacocha",
+        "ToolTip": "Fugiat nostrum eos dolorem numquam magni.",
         "Deleted": false,
-        "Rank": 103,
-        "Type": "consectetur",
-        "ColorBlock": 682,
-        "IconHint": "doloribus",
+        "Rank": 213,
+        "Type": "id",
+        "ColorBlock": 829,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2003-02-08T11:16:14.5432954+01:00",
+        "LastChanged": "2001-01-20T12:57:43.4176894+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Elva Kassulke",
+        "ExtraInfo": "maiores",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Cydney Turner Larson PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldType": "System.String",
+            "FieldLength": 905
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Miss Cristopher Feeney",
+    "FullName": "Milford McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

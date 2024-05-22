@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Bernhard-Lehner",
-    "ToolTip": "Ut commodi consequatur aperiam aperiam reiciendis ut.",
+    "Id": 397,
+    "Name": "Torphy Inc and Sons",
+    "ToolTip": "Mollitia commodi officiis nostrum aliquid.",
     "Deleted": false,
-    "Rank": 188,
-    "Type": "consequatur",
-    "ColorBlock": 263,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "1999-03-23T11:16:14.465178+01:00",
+    "Rank": 247,
+    "Type": "non",
+    "ColorBlock": 165,
+    "IconHint": "odio",
+    "Selected": false,
+    "LastChanged": "2008-05-05T12:57:43.2927185+02:00",
     "ChildItems": [
       {
-        "Id": 128,
-        "Name": "Robel, Bode and Reichel",
-        "ToolTip": "Sunt quam.",
-        "Deleted": true,
-        "Rank": 197,
-        "Type": "dolores",
-        "ColorBlock": 600,
-        "IconHint": "reprehenderit",
+        "Id": 884,
+        "Name": "Rath, McClure and Feest",
+        "ToolTip": "Facere beatae est neque quod labore.",
+        "Deleted": false,
+        "Rank": 892,
+        "Type": "quas",
+        "ColorBlock": 888,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2022-05-30T11:16:14.465178+02:00",
+        "LastChanged": "2022-04-13T12:57:43.2927185+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Porter Zboncak"
+        "ExtraInfo": "soluta",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Forest Jaskolski DDS"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Osborne Streich"
+    "ExtraInfo": "omnis",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Marielle Runte"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Gleichner-Rutherford",
-    "ToolTip": "Voluptatem cumque.",
+    "Id": 621,
+    "Name": "Moore-Beier",
+    "ToolTip": "Sit optio ab deserunt in omnis.",
     "Deleted": false,
-    "Rank": 334,
-    "Type": "ut",
-    "ColorBlock": 555,
-    "IconHint": "fugiat",
+    "Rank": 965,
+    "Type": "consequuntur",
+    "ColorBlock": 525,
+    "IconHint": "doloremque",
     "Selected": true,
-    "LastChanged": "1998-10-27T11:16:14.465178+01:00",
+    "LastChanged": "1997-10-17T12:57:43.2927185+02:00",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "Blick-Rutherford",
-        "ToolTip": "Ratione omnis delectus sint et.",
+        "Id": 669,
+        "Name": "Brekke, Bednar and Grady",
+        "ToolTip": "Dolor velit tempora exercitationem iure sit delectus corporis.",
         "Deleted": false,
-        "Rank": 143,
-        "Type": "deserunt",
-        "ColorBlock": 878,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2005-07-31T11:16:14.465178+02:00",
+        "Rank": 779,
+        "Type": "sed",
+        "ColorBlock": 768,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2009-11-05T12:57:43.2927185+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "sequi",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Dr. Izaiah Demond Feest",
+        "FullName": "Adolfo Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Adriana Thiel",
+    "ExtraInfo": "est",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Mr. Schuyler German Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 730
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

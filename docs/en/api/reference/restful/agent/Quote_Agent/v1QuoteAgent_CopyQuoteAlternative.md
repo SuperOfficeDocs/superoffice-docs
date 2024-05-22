@@ -101,9 +101,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 68,
-  "QuoteAlternativeId": 896,
-  "QuoteAlternativeName": "Hand Inc and Sons"
+  "QuoteVersionId": 121,
+  "QuoteAlternativeId": 199,
+  "QuoteAlternativeName": "Berge, Rowe and Huel"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 178,
-  "ERPQuoteAlternativeKey": "id",
-  "QuoteVersionId": 416,
-  "Name": "Walker-Hartmann",
-  "Description": "Quality-focused motivating throughput",
+  "QuoteAlternativeId": 409,
+  "ERPQuoteAlternativeKey": "dolorem",
+  "QuoteVersionId": 990,
+  "Name": "Maggio LLC",
+  "Description": "Networked foreground core",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 20624.854,
-  "ERPDiscountAmount": 4199.5599999999995,
-  "DiscountPercent": 9831.358,
-  "DiscountAmount": 14663.985999999999,
+  "ERPDiscountPercent": 2977.2999999999997,
+  "ERPDiscountAmount": 269.524,
+  "DiscountPercent": 15199.9,
+  "DiscountAmount": 27206.254,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ducimus",
-  "VAT": 26024.736,
-  "EarningPercent": 23260.548,
-  "EarningAmount": 28776.388,
-  "SubTotal": 9583.771999999999,
-  "TotalPrice": 22589.872,
-  "ExtraField1": "excepturi",
-  "ExtraField2": "repudiandae",
-  "ExtraField3": "enim",
-  "ExtraField4": "et",
-  "ExtraField5": "beatae",
+  "VATInfo": "minima",
+  "VAT": 24460.87,
+  "EarningPercent": 25808.489999999998,
+  "EarningAmount": 5591.056,
+  "SubTotal": 23304.424,
+  "TotalPrice": 27265.8,
+  "ExtraField1": "deleniti",
+  "ExtraField2": "rerum",
+  "ExtraField3": "accusamus",
+  "ExtraField4": "totam",
+  "ExtraField5": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 583
     }
   }
 }

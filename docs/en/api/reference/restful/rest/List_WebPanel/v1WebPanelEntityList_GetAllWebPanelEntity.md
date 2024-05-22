@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 851,
-    "Name": "Torphy, Stiedemann and Kassulke",
-    "Tooltip": "cumque",
+    "WebPanelId": 351,
+    "Name": "Legros-Cole",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 156,
+    "Rank": 37,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Wyman, Kunze and Thiel",
+    "WindowName": "Doyle-Gislason",
     "Url": "http://www.example.com/",
-    "ProgId": "quisquam",
-    "Icon": 254,
+    "ProgId": "voluptatem",
+    "Icon": 916,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldLength": 836
       }
     }
   }

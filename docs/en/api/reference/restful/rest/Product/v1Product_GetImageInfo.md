@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 28 Mar 2024 11:16:14 G3T
+Last-Modified: Sun, 17 Nov 2013 12:57:43 G11T
 
 {
-  "BlobId": 945,
-  "BlobSize": 780,
-  "Description": "Cloned impactful functionalities",
-  "ExtraInfo": "sequi",
+  "BlobId": 550,
+  "BlobSize": 206,
+  "Description": "Managed system-worthy emulation",
+  "ExtraInfo": "tempore",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "culpa",
-  "OriginalSize": 605,
-  "CreatedDate": "2023-12-11T11:16:14.3710713+01:00",
-  "UpdatedDate": "2024-03-28T11:16:14.3710713+01:00",
+  "MimeType": "id",
+  "OriginalSize": 507,
+  "CreatedDate": "2008-06-24T12:57:43.1677464+02:00",
+  "UpdatedDate": "2013-11-17T12:57:43.1677464+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "doloremque",
+  "ConceptualType": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 604
     }
   }
 }

@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "placeat",
-    "ipsum"
+    "consequuntur",
+    "eum"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "West-Jacobson",
-    "Delimiter": "quisquam",
-    "Flags": "rerum",
-    "TotalItems": 144,
-    "UnreadItems": 774,
+    "Name": "Cassin LLC",
+    "Delimiter": "unde",
+    "Flags": "dolorem",
+    "TotalItems": 663,
+    "UnreadItems": 805,
     "Subscribed": false,
-    "EmailFolderId": 558,
+    "EmailFolderId": 910,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldType": "System.String",
+        "FieldLength": 718
       }
     }
   }

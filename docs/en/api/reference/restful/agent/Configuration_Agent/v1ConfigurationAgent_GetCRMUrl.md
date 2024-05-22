@@ -74,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "dicta",
-  "Currents": "adipisci",
+  "SoProtocol": "labore",
+  "Currents": "ut",
   "Frameless": true
 }
 ```

@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 327,
-  "Name": "Thiel Group",
+  "ScreenChooserId": 156,
+  "Name": "Osinski, Steuber and Robel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "nemo",
-  "Source": "ipsa",
-  "Registered": "2003-09-25T11:16:14.3398362+02:00",
-  "RegisteredAssociateId": 760,
-  "Updated": "2015-10-10T11:16:14.3398362+02:00",
-  "UpdatedAssociateId": 468,
+  "UniqueIdentifier": "sapiente",
+  "Source": "vero",
+  "Registered": "2016-03-28T12:57:43.0892086+02:00",
+  "RegisteredAssociateId": 46,
+  "Updated": "2020-07-06T12:57:43.0892086+02:00",
+  "UpdatedAssociateId": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

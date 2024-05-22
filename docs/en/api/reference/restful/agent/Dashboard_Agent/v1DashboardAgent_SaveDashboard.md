@@ -75,22 +75,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 890,
-  "AssociateId": 186,
-  "Caption": "molestiae",
+  "DashboardId": 938,
+  "AssociateId": 630,
+  "Caption": "assumenda",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 482,
-      "Caption": "quam",
-      "Description": "Vision-oriented zero administration ability",
-      "ChartName": "Boehm-Daugherty",
-      "ChartId": "saepe",
+      "DashboardTileId": 475,
+      "Caption": "qui",
+      "Description": "Centralized bottom-line system engine",
+      "ChartName": "Howe-Feil",
+      "ChartId": "non",
       "IsDefault": false,
-      "AssociateId": 435,
-      "GroupId": 129,
-      "SelectionId": 585,
-      "Config": "sed",
+      "AssociateId": 622,
+      "GroupId": 766,
+      "SelectionId": 828,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 606,
-  "AssociateId": 515,
-  "Caption": "nam",
+  "DashboardId": 470,
+  "AssociateId": 558,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 973,
-      "Caption": "cumque",
-      "Description": "Adaptive scalable firmware",
-      "ChartName": "Weissnat Group",
-      "ChartId": "laudantium",
-      "IsDefault": false,
-      "AssociateId": 54,
-      "GroupId": 801,
-      "SelectionId": 366,
-      "Config": "quis",
+      "DashboardTileId": 99,
+      "Caption": "quaerat",
+      "Description": "Ameliorated multimedia monitoring",
+      "ChartName": "Jewess LLC",
+      "ChartId": "voluptate",
+      "IsDefault": true,
+      "AssociateId": 624,
+      "GroupId": 980,
+      "SelectionId": 598,
+      "Config": "saepe",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldType": "System.Int32",
+          "FieldLength": 473
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 574
     }
   }
 }

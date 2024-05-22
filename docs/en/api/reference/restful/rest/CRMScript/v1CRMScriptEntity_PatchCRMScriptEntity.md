@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "praesentium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "praesentium",
     "value": {}
   }
 ]
@@ -145,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 226,
-  "UniqueIdentifier": "ipsam",
-  "Name": "Mills, Stoltenberg and Effertz",
-  "Description": "Phased bi-directional attitude",
-  "IncludeId": "aspernatur",
-  "HierarchyId": 932,
-  "Source": "quia",
-  "Registered": "2001-05-07T11:16:13.8550957+02:00",
-  "RegisteredAssociateId": 565,
-  "Updated": "2015-08-15T11:16:13.8550957+02:00",
-  "UpdatedAssociateId": 376,
+  "EjscriptId": 55,
+  "UniqueIdentifier": "labore",
+  "Name": "Bechtelar-Kassulke",
+  "Description": "Centralized bifurcated help-desk",
+  "IncludeId": "nemo",
+  "HierarchyId": 78,
+  "Source": "ipsum",
+  "Registered": "2005-08-15T12:57:42.3232848+02:00",
+  "RegisteredAssociateId": 778,
+  "Updated": "2014-08-10T12:57:42.3232848+02:00",
+  "UpdatedAssociateId": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   },
   "_Links": {

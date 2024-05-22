@@ -58,7 +58,7 @@ Lists all email flow form content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowFormContent?$select=emailFlow/workflowInProgressCount,emailFlow/emailFlowId,emailFlow/mediumThumbnail
+GET /api/v1/archive/EmailFlowFormContent?$select=emailFlow/emailFlowId,emailFlow/mediumThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Jul 2020 11:16:14 G7T
+Last-Modified: Thu, 24 May 2001 12:57:42 G5T
 
 {
-  "BlobId": 629,
-  "BlobSize": 978,
-  "Description": "Vision-oriented encompassing functionalities",
-  "ExtraInfo": "incidunt",
-  "IsEncrypted": false,
+  "BlobId": 284,
+  "BlobSize": 286,
+  "Description": "Face to face high-level workforce",
+  "ExtraInfo": "id",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptatem",
-  "OriginalSize": 130,
-  "CreatedDate": "2017-12-06T11:16:14.1206908+01:00",
-  "UpdatedDate": "2020-07-19T11:16:14.1206908+02:00",
+  "MimeType": "et",
+  "OriginalSize": 273,
+  "CreatedDate": "2014-02-19T12:57:42.6513343+01:00",
+  "UpdatedDate": "2001-05-24T12:57:42.6513343+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldType": "System.Int32",
+      "FieldLength": 207
     }
   }
 }

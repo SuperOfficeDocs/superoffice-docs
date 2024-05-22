@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quisquam"
+  "ProgId": "enim"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 294,
-  "Name": "Wunsch, Harber and Senger",
-  "Tooltip": "enim",
+  "WebPanelId": 407,
+  "Name": "Tillman, West and Jones",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 653,
+  "Rank": 90,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Padberg-Leannon",
+  "WindowName": "Collins Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "cum",
-  "Icon": 429,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "porro",
+  "Icon": 664,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

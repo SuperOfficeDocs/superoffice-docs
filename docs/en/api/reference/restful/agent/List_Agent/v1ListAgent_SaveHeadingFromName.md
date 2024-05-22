@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schumm-Schoen",
+  "Name": "Heaney Group",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 822,
-  "Name": "DuBuque, Gerlach and Pfannerstill",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "Rank": 10,
-  "UdListDefinitionId": 880,
+  "HeadingId": 658,
+  "Name": "Olson, Bogisich and Schinner",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "Rank": 128,
+  "UdListDefinitionId": 95,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 845
     }
   }
 }

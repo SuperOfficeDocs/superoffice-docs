@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Brekke-Wolff",
-    "ToolTip": "Sed et illo sint eum consequatur fuga.",
+    "Id": 906,
+    "Name": "O'Hara, Hilll and Roberts",
+    "ToolTip": "Fugiat maiores.",
     "Deleted": false,
-    "Rank": 709,
-    "Type": "voluptates",
-    "ColorBlock": 806,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2020-01-20T11:16:14.1363143+01:00",
+    "Rank": 526,
+    "Type": "aut",
+    "ColorBlock": 322,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2017-03-27T12:57:42.6669559+02:00",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Douglas, Weber and Bernier",
-        "ToolTip": "Ut doloribus.",
-        "Deleted": true,
-        "Rank": 94,
-        "Type": "dolorem",
-        "ColorBlock": 762,
-        "IconHint": "temporibus",
+        "Id": 631,
+        "Name": "Lakin Group",
+        "ToolTip": "Similique hic.",
+        "Deleted": false,
+        "Rank": 448,
+        "Type": "voluptate",
+        "ColorBlock": 736,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2020-08-05T11:16:14.1363143+02:00",
+        "LastChanged": "2001-01-29T12:57:42.6669559+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "tempore",
-        "Hidden": false,
-        "FullName": "Aiyana Heaney",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Immanuel Goldner IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldType": "System.String",
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Dr. Christina Cleora Kunde",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Domingo Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldLength": 839
       }
     }
   }

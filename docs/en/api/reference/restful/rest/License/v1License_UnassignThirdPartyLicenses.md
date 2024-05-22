@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 983,
-    "Tooltip": "reprehenderit",
+    "Total": 603,
+    "Tooltip": "aut",
     "CanAssign": true,
-    "Free": 441,
-    "InUse": 394,
+    "Free": 818,
+    "InUse": 417,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 37,
-    "Name": "Walter-Cole",
-    "Description": "Compatible heuristic architecture",
-    "PrerequisiteModuleName": "Barrows-Lindgren",
-    "SortOrder": 375,
-    "ExtraFlags": 494,
+    "Assigned": false,
+    "ModuleLicenseId": 648,
+    "Name": "Cronin LLC",
+    "Description": "Configurable systematic parallelism",
+    "PrerequisiteModuleName": "Dietrich-Stoltenberg",
+    "SortOrder": 994,
+    "ExtraFlags": 676,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

@@ -77,12 +77,13 @@ This is the archive Provider for the Selection selection archive.
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
 |selectionAssociate/locationAddress|string|Location: Location| x |
+|selectionAssociate/isLocation|bool|Is a location: Is a location| x |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionV2?$select=lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/SelectionSelectionV2?$select=selectionAssociate/ejUserId,lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

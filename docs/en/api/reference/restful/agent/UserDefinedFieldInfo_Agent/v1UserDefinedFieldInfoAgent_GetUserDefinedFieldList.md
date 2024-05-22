@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 496,
-    "ColumnId": 416,
-    "FieldDefault": "nihil",
-    "FieldHeight": 152,
-    "FieldLabel": "minima",
-    "FieldLeft": 713,
-    "FieldTop": 230,
+    "UDefFieldId": 147,
+    "ColumnId": 85,
+    "FieldDefault": "deleniti",
+    "FieldHeight": 352,
+    "FieldLabel": "repellat",
+    "FieldLeft": 138,
+    "FieldTop": 662,
     "FieldType": "Checkbox",
-    "FieldWidth": 856,
-    "FormatMask": "voluptates",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 769,
-    "LabelLeft": 469,
-    "LabelTop": 373,
-    "LabelWidth": 1002,
-    "LastVersionId": 33,
-    "ListTableId": 105,
-    "IsMandatory": false,
+    "FieldWidth": 281,
+    "FormatMask": "rerum",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 195,
+    "LabelLeft": 865,
+    "LabelTop": 898,
+    "LabelWidth": 327,
+    "LastVersionId": 666,
+    "ListTableId": 87,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 532,
-    "ProgId": "aut",
+    "Page1LineNo": 12,
+    "ProgId": "optio",
     "IsReadOnly": false,
-    "ShortLabel": "esse",
-    "TabOrder": 263,
-    "TextLength": 985,
-    "Tooltip": "facere",
-    "UdefIdentity": 557,
-    "UDListDefinitionId": 128,
+    "ShortLabel": "optio",
+    "TabOrder": 972,
+    "TextLength": 420,
+    "Tooltip": "aut",
+    "UdefIdentity": 686,
+    "UDListDefinitionId": 287,
     "Justification": "Center",
-    "Version": 127,
-    "TemplateVariableName": "Rippin-Dickens",
+    "Version": 511,
+    "TemplateVariableName": "Smitham-Gottlieb",
     "HasBeenPublished": false,
-    "MdoListName": "Farrell, Altenwerth and Cole",
+    "MdoListName": "Reichel-Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldType": "System.Int32",
+        "FieldLength": 913
       }
     }
   }

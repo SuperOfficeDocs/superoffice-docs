@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 597,
-  "UniqueId": "placeat",
-  "Name": "Lakin-Bayer",
-  "Description": "Grass-roots maximized standardization",
-  "AssociateId": 48,
-  "Columns": 269,
+  "DashboardId": 894,
+  "UniqueId": "qui",
+  "Name": "Beer Inc and Sons",
+  "Description": "Horizontal background leverage",
+  "AssociateId": 395,
+  "Columns": 499,
   "Theme": null,
-  "VisibleForAll": 374,
+  "VisibleForAll": 455,
   "VisibleForAssociates": [
-    971,
-    786
+    945,
+    289
   ],
   "VisibleForGroups": [
-    266,
-    328
+    550,
+    758
   ],
-  "PinForAll": 886,
+  "PinForAll": 112,
   "PinForAssociates": [
-    106,
-    772
+    835,
+    730
   ],
   "PinForGroups": [
-    538,
-    842
+    21,
+    789
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 104
+      "FieldType": "System.Int32",
+      "FieldLength": 883
     }
   }
 }

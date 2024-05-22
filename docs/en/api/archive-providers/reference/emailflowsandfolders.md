@@ -78,6 +78,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 |workflowAssociate/userName| *None* |Owner - User name: User name|  |
 |workflowAssociate/personEmail| *None* |Owner - E-mail|  |
 |workflowAssociate/locationAddress| *None* |Owner - Location: Location|  |
+|workflowAssociate/isLocation| *None* |Owner - Is a location: Is a location|  |
 |hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
@@ -87,7 +88,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedBy,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlowsAndFolders?$select=name,updatedDate,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 431,
-  "Name": "Daugherty-Lindgren",
-  "Tooltip": "illo",
-  "Rank": 569,
+  "SaleTypeId": 523,
+  "Name": "Bruen, Boyer and Conn",
+  "Tooltip": "ut",
+  "Rank": 20,
   "DurationUnit": "Century",
-  "SaleDuration": 894,
-  "SaleTypeCatId": 92,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 663,
+  "SaleTypeCatId": 584,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 389,
-  "QuoteLinesTemplate": 263,
-  "ConfirmationLinesTemplate": 157,
+  "DefaultQuoteValidity": 370,
+  "QuoteLinesTemplate": 512,
+  "ConfirmationLinesTemplate": 716,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 585,
-  "MinEarningPercent": 250,
-  "GroupQuoteLinesBy": 283,
-  "SortGroupLinesBy": 226,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 380,
+  "MinEarningPercent": 288,
+  "GroupQuoteLinesBy": 135,
+  "SortGroupLinesBy": 992,
   "Stages": [
     {
-      "Id": 183,
-      "Name": "Feest-Blanda",
-      "ToolTip": "Totam ut alias alias.",
-      "Deleted": false,
-      "Rank": 767,
-      "Type": "perferendis",
-      "ColorBlock": 698,
-      "IconHint": "ut",
-      "Selected": true,
-      "LastChanged": "2001-07-06T11:16:14.7307772+02:00",
+      "Id": 270,
+      "Name": "Torp-Muller",
+      "ToolTip": "Quam eius velit.",
+      "Deleted": true,
+      "Rank": 394,
+      "Type": "deleniti",
+      "ColorBlock": 598,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2010-06-01T12:57:43.7457393+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "at",
-      "StyleHint": "maiores",
+      "ExtraInfo": "qui",
+      "StyleHint": "nam",
       "Hidden": false,
-      "FullName": "Cristina Romaguera"
+      "FullName": "Miles Shanahan"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 420,
-  "Name": "Stokes Group",
-  "Tooltip": "consectetur",
-  "Rank": 809,
+  "SaleTypeId": 564,
+  "Name": "Price, Larson and Koepp",
+  "Tooltip": "quibusdam",
+  "Rank": 354,
   "DurationUnit": "Century",
-  "SaleDuration": 5,
-  "SaleTypeCatId": 384,
-  "Deleted": false,
+  "SaleDuration": 216,
+  "SaleTypeCatId": 398,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 893,
-  "QuoteLinesTemplate": 700,
-  "ConfirmationLinesTemplate": 283,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 879,
+  "QuoteLinesTemplate": 691,
+  "ConfirmationLinesTemplate": 99,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 255,
-  "MinEarningPercent": 224,
-  "GroupQuoteLinesBy": 171,
-  "SortGroupLinesBy": 581,
+  "MaxDiscountPercent": 241,
+  "MinEarningPercent": 819,
+  "GroupQuoteLinesBy": 669,
+  "SortGroupLinesBy": 16,
   "Stages": [
     {
-      "Id": 659,
-      "Name": "Fay-Erdman",
-      "ToolTip": "Quis veritatis.",
+      "Id": 350,
+      "Name": "Champlin LLC",
+      "ToolTip": "Nesciunt laborum facilis a totam distinctio.",
       "Deleted": true,
-      "Rank": 123,
-      "Type": "et",
-      "ColorBlock": 173,
-      "IconHint": "quod",
+      "Rank": 950,
+      "Type": "sunt",
+      "ColorBlock": 371,
+      "IconHint": "omnis",
       "Selected": false,
-      "LastChanged": "2005-03-15T11:16:14.7307772+01:00",
+      "LastChanged": "2018-04-25T12:57:43.7457393+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "nostrum",
-      "Hidden": true,
-      "FullName": "Kimberly Jacobs",
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "repudiandae",
+      "Hidden": false,
+      "FullName": "Christelle Rusty Lebsack MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 506
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 721
     }
   }
 }

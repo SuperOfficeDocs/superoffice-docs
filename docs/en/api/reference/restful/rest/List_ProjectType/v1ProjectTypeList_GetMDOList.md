@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=quo
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Mraz LLC",
-    "ToolTip": "Laboriosam quisquam.",
+    "Id": 439,
+    "Name": "Kiehn-Pagac",
+    "ToolTip": "Qui consectetur vel.",
     "Deleted": true,
-    "Rank": 503,
-    "Type": "quis",
+    "Rank": 798,
+    "Type": "maiores",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Pfannerstill, Willms and Runolfsdottir",
-        "ToolTip": "Dolore voluptas.",
-        "Deleted": true,
-        "Rank": 235,
-        "Type": "qui",
+        "Id": 410,
+        "Name": "Stark, Hansen and Larkin",
+        "ToolTip": "Pariatur quaerat est voluptas.",
+        "Deleted": false,
+        "Rank": 546,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 677,
-        "ExtraInfo": "ab",
-        "StyleHint": "nihil",
-        "FullName": "Prof. Boyd Toy V",
+        "IconHint": "sunt",
+        "ColorBlock": 555,
+        "ExtraInfo": "omnis",
+        "StyleHint": "et",
+        "FullName": "Alysson Padberg III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 501
+            "FieldType": "System.String",
+            "FieldLength": 78
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 981,
-    "ExtraInfo": "totam",
-    "StyleHint": "aut",
-    "FullName": "Chance Kobe Rippin II",
+    "IconHint": "modi",
+    "ColorBlock": 503,
+    "ExtraInfo": "minima",
+    "StyleHint": "et",
+    "FullName": "Miss Mitchell Stanton MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

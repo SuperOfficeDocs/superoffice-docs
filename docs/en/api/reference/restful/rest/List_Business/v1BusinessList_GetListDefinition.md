@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 596,
-  "Name": "Feeney-Ondricka",
-  "Tooltip": "dicta",
+  "Id": 754,
+  "Name": "Feeney LLC",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 119,
+  "Rank": 879,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "itaque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldType": "System.String",
+      "FieldLength": 807
     }
   },
   "_Links": {

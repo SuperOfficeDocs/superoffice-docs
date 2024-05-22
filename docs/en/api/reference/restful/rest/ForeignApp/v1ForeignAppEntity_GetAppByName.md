@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 08 Apr 2024 11:16:13 G4T
+Last-Modified: Sat, 25 Jun 2022 12:57:42 G6T
 
 {
-  "ForeignAppId": 637,
-  "Name": "Kiehn, Walter and West",
-  "CreatedDate": "2015-02-11T11:16:13.93321+01:00",
-  "UpdatedDate": "2024-04-08T11:16:13.93321+02:00",
+  "ForeignAppId": 880,
+  "Name": "Lueilwitz-Bernier",
+  "CreatedDate": "2009-06-03T12:57:42.448256+02:00",
+  "UpdatedDate": "2022-06-25T12:57:42.448256+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 980,
-      "Name": "Frami-Grimes",
-      "CreatedDate": "1998-01-08T11:16:13.93321+01:00",
-      "UpdatedDate": "2019-05-27T11:16:13.93321+02:00",
-      "AssociateFullName": "Breanna Kuphal",
-      "CreatedBy": "excepturi",
-      "UpdatedBy": "quae",
-      "DeviceIdentifier": "nihil",
-      "ForeignAppId": 455,
+      "ForeignDeviceId": 641,
+      "Name": "Wisoky, Koch and Nader",
+      "CreatedDate": "2010-08-02T12:57:42.448256+02:00",
+      "UpdatedDate": "2005-04-10T12:57:42.448256+02:00",
+      "AssociateFullName": "Jewel Deonte Aufderhar V",
+      "CreatedBy": "autem",
+      "UpdatedBy": "vel",
+      "DeviceIdentifier": "aliquam",
+      "ForeignAppId": 4,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 54
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Mon, 08 Apr 2024 11:16:13 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

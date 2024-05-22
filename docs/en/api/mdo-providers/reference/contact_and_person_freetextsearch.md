@@ -36,6 +36,8 @@ The name of the MDO list is 'contact_and_person_freetextsearch'.
 |Person, PersonContact, ContactPerson| Name|PersonContact|
 |Add Contact items for person matches| AddContact|True|
 |Add all persons for a contact match| ExpandContact|True|
+|Skip retired employees| skipRetired|False|
+|Boost scores on this contact to top| contactId|123|
 
 
 

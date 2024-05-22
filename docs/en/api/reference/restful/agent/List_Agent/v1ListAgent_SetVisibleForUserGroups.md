@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 653,
-  "ListItemId": 15,
+  "UdListDefinitionId": 383,
+  "ListItemId": 94,
   "UserGroups": [
     {
-      "Id": 455,
-      "Name": "Pollich-Thiel",
-      "ToolTip": "Iste sequi molestiae sit culpa aperiam aut mollitia.",
-      "Deleted": false,
-      "Rank": 850,
-      "Type": "numquam",
-      "ColorBlock": 914,
-      "IconHint": "tempore",
-      "Selected": true,
-      "LastChanged": "2007-11-06T11:16:09.3347069+01:00",
+      "Id": 824,
+      "Name": "Volkman-Stiedemann",
+      "ToolTip": "Quia magnam consequuntur provident aspernatur quaerat.",
+      "Deleted": true,
+      "Rank": 219,
+      "Type": "placeat",
+      "ColorBlock": 762,
+      "IconHint": "culpa",
+      "Selected": false,
+      "LastChanged": "2015-10-08T12:57:34.1336045+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "iusto",
-      "Hidden": true,
-      "FullName": "Dallin Swaniawski"
+      "ExtraInfo": "rerum",
+      "StyleHint": "officia",
+      "Hidden": false,
+      "FullName": "Loma Greenfelder"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Name": "Kutch-Bogisich",
-    "ToolTip": "Illo ut molestias optio culpa enim veniam nihil.",
+    "Id": 695,
+    "Name": "Kovacek Inc and Sons",
+    "ToolTip": "Enim quaerat ducimus unde.",
     "Deleted": false,
-    "Rank": 547,
-    "Type": "nisi",
-    "ColorBlock": 674,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "1999-11-01T11:16:09.3347069+01:00",
+    "Rank": 564,
+    "Type": "corporis",
+    "ColorBlock": 978,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2014-09-28T12:57:34.1492269+02:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Buckridge Group",
-        "ToolTip": "Eius molestiae facilis eum quod voluptas fuga.",
-        "Deleted": true,
-        "Rank": 884,
-        "Type": "dolorem",
-        "ColorBlock": 561,
-        "IconHint": "qui",
+        "Id": 425,
+        "Name": "Grady, Walsh and O'Hara",
+        "ToolTip": "Fugiat et.",
+        "Deleted": false,
+        "Rank": 925,
+        "Type": "et",
+        "ColorBlock": 378,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2003-11-02T11:16:09.3347069+01:00",
+        "LastChanged": "2022-06-12T12:57:34.1492269+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Samara Russel",
+        "ExtraInfo": "animi",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Miss Leopold Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldLength": 589
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "vel",
+    "ExtraInfo": "atque",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Lyla Thelma McCullough Sr.",
+    "FullName": "Miss Javon Bernhard Cassin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 332
       }
     }
   }

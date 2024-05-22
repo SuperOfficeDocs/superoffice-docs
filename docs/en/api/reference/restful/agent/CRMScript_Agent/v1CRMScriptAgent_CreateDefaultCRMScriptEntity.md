@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 56,
-  "UniqueIdentifier": "eum",
-  "Name": "Senger, Graham and Becker",
-  "Description": "Object-based stable database",
-  "IncludeId": "quod",
-  "HierarchyId": 901,
-  "Source": "eum",
-  "Registered": "2016-02-22T11:16:08.9440885+01:00",
-  "RegisteredAssociateId": 781,
-  "Updated": "2014-11-04T11:16:08.9440885+01:00",
-  "UpdatedAssociateId": 464,
+  "EjscriptId": 337,
+  "UniqueIdentifier": "voluptates",
+  "Name": "Little Inc and Sons",
+  "Description": "Quality-focused assymetric portal",
+  "IncludeId": "quo",
+  "HierarchyId": 786,
+  "Source": "temporibus",
+  "Registered": "2018-12-25T12:57:33.6180694+01:00",
+  "RegisteredAssociateId": 490,
+  "Updated": "1999-07-21T12:57:33.6180694+02:00",
+  "UpdatedAssociateId": 614,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldLength": 407
     }
   }
 }

@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    523,
-    580
+    729,
+    370
   ],
-  "TargetFolder": "accusantium"
+  "TargetFolder": "voluptatem"
 }
 ```
 

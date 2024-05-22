@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laudantium",
-  "ProviderName": "Walker-Sporer",
-  "StorageKey": "rerum",
+  "StorageType": "deleniti",
+  "ProviderName": "Hahn, Altenwerth and Stiedemann",
+  "StorageKey": "recusandae",
   "Restrictions": [
     {
-      "Name": "Ratke-Upton",
-      "Operator": "repellat",
+      "Name": "Veum, Langworth and Rolfson",
+      "Operator": "minus",
       "Values": [
-        "cumque",
-        "itaque"
+        "ut",
+        "illum"
       ],
       "DisplayValues": [
-        "maxime",
-        "iure"
+        "ut",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 682,
+      "InterParenthesis": 522,
       "InterOperator": "And",
-      "UniqueHash": 362
+      "UniqueHash": 694
     }
   ]
 }

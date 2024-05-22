@@ -75,10 +75,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Langosh, Mills and Price",
-  "RecordId": 388,
-  "AssociateId": 363,
-  "ExtraInfo": "corrupti"
+  "TableName": "Daugherty, Baumbach and Kovacek",
+  "RecordId": 308,
+  "AssociateId": 710,
+  "ExtraInfo": "iusto"
 }
 ```
 

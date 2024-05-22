@@ -71,6 +71,7 @@ Implementation of the provider for the combined selection
 |messageLanguage|listAny|Language: Recognized language in messages|  |
 |sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |suggestedCategory|listAny|Suggested category: Suggested service category|  |
+|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -102,6 +103,7 @@ Implementation of the provider for the combined selection
 |createdBy/userName|string|Created by - User name: User name| x |
 |createdBy/personEmail|string|Created by - E-mail| x |
 |createdBy/locationAddress|string|Created by - Location: Location| x |
+|createdBy/isLocation|bool|Created by - Is a location: Is a location| x |
 |ownedBy/firstName|string|Owner - First name: Displays the contact's first name| x |
 |ownedBy/lastName|string|Owner - Last name: Displays the contact's last name| x |
 |ownedBy/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
@@ -119,12 +121,12 @@ Implementation of the provider for the combined selection
 |ownedBy/role|listAny|Owner - Role: Role| x |
 |ownedBy/assocName|associate|Owner - User ID: User ID| x |
 |ownedBy/assocTooltip|string|Owner - Description: Description|  |
-|ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
+|ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |ownedBy/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
 |ownedBy/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -137,6 +139,7 @@ Implementation of the provider for the combined selection
 |ownedBy/userName|string|Owner - User name: User name| x |
 |ownedBy/personEmail|string|Owner - E-mail| x |
 |ownedBy/locationAddress|string|Owner - Location: Location| x |
+|ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |person/personId|int|DB ID: Displays the database ID of a contact| x |
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
@@ -184,6 +187,9 @@ Implementation of the provider for the combined selection
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |person/personDirectPhone/description|string|Direct - Description: Phone number description| x |
@@ -219,16 +225,16 @@ Implementation of the provider for the combined selection
 |person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
 |person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |person/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
 |person/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |person/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |person/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -250,7 +256,6 @@ Implementation of the provider for the combined selection
 |person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -304,6 +309,7 @@ Implementation of the provider for the combined selection
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
 |person/personAssociate/locationAddress|string|Location: Location| x |
+|person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -323,22 +329,23 @@ Implementation of the provider for the combined selection
 |person/correspondingAssociate/assocTooltip|string|Description : Description|  |
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |person/correspondingAssociate/userName|string|User name: User name| x |
 |person/correspondingAssociate/personEmail|string|E-mail| x |
 |person/correspondingAssociate/locationAddress|string|Location: Location| x |
+|person/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -426,6 +433,10 @@ Implementation of the provider for the combined selection
 |contact/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
 |contact/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |contact/url/URLAddress|string|URL| x |
 |contact/url/URLDescription|string|Description| x |
@@ -433,10 +444,6 @@ Implementation of the provider for the combined selection
 |contact/contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contact/contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |contact/contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |contact/contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |contact/contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -464,6 +471,7 @@ Implementation of the provider for the combined selection
 |contact/contactAssociate/userName|string|User name: User name| x |
 |contact/contactAssociate/personEmail|string|E-mail| x |
 |contact/contactAssociate/locationAddress|string|Location: Location| x |
+|contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -479,7 +487,6 @@ Implementation of the provider for the combined selection
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -530,17 +537,16 @@ Implementation of the provider for the combined selection
 |extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
 |extra/x\_ticket\_date|date|Extra date: Custom date field on Request. No default value| x |
 |extra/x\_ticket\_datetime|datetime|Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
 |extra/x\_ticket\_boolean|bool|Extra boolean: Custom boolean on Ticket.| x |
 |extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
-|extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -593,6 +599,7 @@ Implementation of the provider for the combined selection
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -631,8 +638,13 @@ Implementation of the provider for the combined selection
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
 |sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
@@ -641,10 +653,6 @@ Implementation of the provider for the combined selection
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|DB ID: Displays the database ID for a project row| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
 |project/number|string|Number: Displays the project's number| x |
 |project/type|listAny|Project type: Displays the project's type| x |
@@ -707,6 +715,7 @@ Implementation of the provider for the combined selection
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectAssociate/locationAddress|string|Location: Location| x |
+|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -736,6 +745,10 @@ Implementation of the provider for the combined selection
 |project/saintAmountClass|listAny|Amount class|  |
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
@@ -745,16 +758,12 @@ Implementation of the provider for the combined selection
 |selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |targetTableNumber|int|TargetTableNumber: TargetTableNumber| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |targetRecordId|int|TargetRecordId: TargetRecordId| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombined?$select=contact/streetAddress/county,contact/restrictionAddress/addressId,extra/x_ticket_longtext,extra/x_ticket_category_relation
+GET /api/v1/archive/TicketSelectionCombined?$select=status,realTimeSpentInternally,person/personAddress/formattedMultiLineAddress,person/personUdef/SuperOffice:4,person/correspondingAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

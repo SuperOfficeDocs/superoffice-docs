@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "Jacobson Inc and Sons",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 847,
-    "UdListDefinitionId": 196,
+    "HeadingId": 683,
+    "Name": "Nicolas-Schoen",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 142,
+    "UdListDefinitionId": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldType": "System.String",
+        "FieldLength": 299
       }
     }
   }

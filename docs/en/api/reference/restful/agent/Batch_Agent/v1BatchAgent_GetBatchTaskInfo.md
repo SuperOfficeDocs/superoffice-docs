@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270
+  "Id": 230
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Name": "Marvin-Tremblay",
-  "AssociateId": 278,
-  "DetailsTable": 299,
-  "DetailsRecord": 909,
+  "Id": 472,
+  "Name": "Morar LLC",
+  "AssociateId": 181,
+  "DetailsTable": 538,
+  "DetailsRecord": 311,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "odit",
-    "ParameterObject2": "et"
+    "ParameterObject1": "ea",
+    "ParameterObject2": "occaecati"
   },
-  "LastStarted": "2018-03-20T11:16:08.7410229+01:00",
-  "Created": "2022-01-24T11:16:08.7410229+01:00",
-  "StartCount": 680,
-  "DatabaseSerialNumber": "612100",
-  "Context": "rerum",
-  "Result": "debitis",
+  "LastStarted": "2023-07-31T12:57:33.2658907+02:00",
+  "Created": "2010-10-06T12:57:33.2658907+02:00",
+  "StartCount": 404,
+  "DatabaseSerialNumber": "631264",
+  "Context": "et",
+  "Result": "et",
   "State": "All",
-  "Description": "Persistent intermediate groupware",
-  "Response": "ad",
-  "Request": "nesciunt",
-  "ProgressDescription": "Fully-configurable maximized workforce",
-  "ProgressPercent": 926,
-  "FileName": "Stroman, Renner and Fahey",
+  "Description": "Proactive secondary website",
+  "Response": "voluptatem",
+  "Request": "amet",
+  "ProgressDescription": "Cloned optimizing flexibility",
+  "ProgressPercent": 136,
+  "FileName": "Smith-Roberts",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

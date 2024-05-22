@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Steuber Group",
-  "Tooltip": "illum",
+  "Id": 371,
+  "Name": "Reichert, Tremblay and Koch",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "Rank": 403,
+  "Rank": 78,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 479,
-  "Name": "Bechtelar-Bruen",
-  "Tooltip": "vitae",
+  "Id": 834,
+  "Name": "Kiehn Group",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 761,
+  "Rank": 434,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nemo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 118
     }
   }
 }

@@ -2,14 +2,16 @@
 uid: allpersonwithassociatesearch
 title: allpersonwithassociatesearch
 keywords: mdoprovider mdo provider allpersonwithassociatesearch
-description: Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider" />, but additionally adds the associateId of the person to the extrainfo and changes the iconhint if the person is an associate.
+description: Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider" />, but additionally adds the associateId of the person to the extrainfo and changes the iconhint if the person is an associate. Uses freetext to perform a speedy search on the contact and person tables. Does not include sub-tables, like userdefined fields, text records etc.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
 ---
 
 # "allpersonwithassociatesearch" MDO List
-Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider" />, but additionally adds the associateId of the person to the extrainfo and changes the iconhint if the person is an associate.
+Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider" />, but additionally adds the associateId of the person to the extrainfo
+and changes the iconhint if the person is an associate.
+Uses freetext to perform a speedy search on the contact and person tables. Does not include sub-tables, like userdefined fields, text records etc.
 
 
 
@@ -20,7 +22,10 @@ The name of the MDO list is 'allpersonwithassociatesearch'.
 
 | Description | Name | Example Value |
 |-----|-----|------|
-|Include has_email in extrainfo| includeHasEmail|False|
+|Skip retired employees| skipRetired|False|
+|Boost scores on this contact| contactId|123|
+|Include has_email=true/false in extrainfo| includeHasEmail|False|
+|Boost associates score| boostAssociates|False|
 
 
 

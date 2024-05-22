@@ -108,47 +108,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ortiz Group",
-  "ProviderName": "Hane, Zieme and Stroman",
+  "GuiName": "Breitenberg, Miller and Runolfsson",
+  "ProviderName": "Roberts Inc and Sons",
   "SortOrder": [
     {
-      "Name": "Yost LLC",
+      "Name": "O'Keefe Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Yost LLC",
+      "Name": "O'Keefe Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Runte Group",
-      "Operator": "optio",
+      "Name": "Klein, Anderson and Rolfson",
+      "Operator": "facere",
       "Values": [
-        "esse",
-        "ipsam"
+        "maxime",
+        "dolore"
       ],
       "DisplayValues": [
-        "ullam",
-        "explicabo"
+        "fuga",
+        "adipisci"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 44,
+      "InterParenthesis": 819,
       "InterOperator": "And",
-      "UniqueHash": 178
+      "UniqueHash": 422
     }
   ],
   "Entities": [
-    "excepturi",
-    "illo"
+    "assumenda",
+    "soluta"
   ],
-  "Page": 647,
-  "PageSize": 388
+  "Page": 275,
+  "PageSize": 972
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ratke-Heller",
-    "PrimaryKey": 489,
+    "EntityName": "Spinka-Sipes",
+    "PrimaryKey": 178,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ea",
-        "TooltipHint": "nobis",
-        "LinkHint": "voluptatum"
+        "DisplayValue": "nisi",
+        "TooltipHint": "quos",
+        "LinkHint": "repellat"
       }
     },
-    "LinkHint": "eaque",
-    "StyleHint": "libero",
+    "LinkHint": "omnis",
+    "StyleHint": "dolore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 296
+        "FieldLength": 152
       }
     }
   }

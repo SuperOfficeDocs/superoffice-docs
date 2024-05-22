@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 757,
-  "Name": "Langosh Group",
-  "Tooltip": "id",
+  "HeadingId": 915,
+  "Name": "Sipes-Kunde",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 130,
-  "UdListDefinitionId": 68
+  "Rank": 45,
+  "UdListDefinitionId": 643
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 513,
-  "Name": "Wolff-Heaney",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 613,
-  "UdListDefinitionId": 23,
+  "HeadingId": 372,
+  "Name": "Kozey, Johnson and Kertzmann",
+  "Tooltip": "ipsum",
+  "Deleted": false,
+  "Rank": 451,
+  "UdListDefinitionId": 833,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 947
     }
   }
 }

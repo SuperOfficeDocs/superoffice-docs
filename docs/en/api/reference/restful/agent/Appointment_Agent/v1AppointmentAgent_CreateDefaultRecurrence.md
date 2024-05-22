@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 74,
-  "StartDate": "1997-04-30T11:16:08.6002301+02:00",
-  "EndDate": "2023-03-21T11:16:08.6002301+01:00",
-  "RecurrenceCounter": 869,
+  "RecurrenceId": 34,
+  "StartDate": "2013-02-07T12:57:32.8990255+01:00",
+  "EndDate": "2014-03-07T12:57:32.8990255+01:00",
+  "RecurrenceCounter": 244,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-10-23T11:16:08.6002301+02:00",
+      "Date": "1998-11-04T12:57:32.8990255+01:00",
       "IsConflict": true,
-      "Description": "Inverse multi-tasking adapter",
-      "DescriptionStyleHint": "Profound next generation forecast",
-      "Tooltip": "vero"
+      "Description": "Cross-group scalable standardization",
+      "DescriptionStyleHint": "Adaptive object-oriented database",
+      "Tooltip": "maxime"
     },
     {
-      "Date": "2010-10-23T11:16:08.6002301+02:00",
+      "Date": "1998-11-04T12:57:32.8990255+01:00",
       "IsConflict": true,
-      "Description": "Inverse multi-tasking adapter",
-      "DescriptionStyleHint": "Profound next generation forecast",
-      "Tooltip": "vero"
+      "Description": "Cross-group scalable standardization",
+      "DescriptionStyleHint": "Adaptive object-oriented database",
+      "Tooltip": "maxime"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

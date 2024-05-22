@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Miller-Effertz",
-    "ToolTip": "Aut quod.",
+    "Id": 833,
+    "Name": "Wolff-Wilderman",
+    "ToolTip": "Sint pariatur.",
     "Deleted": false,
-    "Rank": 273,
-    "Type": "praesentium",
-    "ColorBlock": 544,
-    "IconHint": "sapiente",
+    "Rank": 385,
+    "Type": "sint",
+    "ColorBlock": 41,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2023-12-28T11:16:14.8246461+01:00",
+    "LastChanged": "1998-05-02T12:57:43.7769823+02:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Mertz-Bogisich",
-        "ToolTip": "Labore pariatur velit dolorem non possimus beatae.",
-        "Deleted": true,
-        "Rank": 118,
-        "Type": "fugiat",
-        "ColorBlock": 614,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "1998-02-11T11:16:14.8246461+01:00",
+        "Id": 256,
+        "Name": "Marks-Jenkins",
+        "ToolTip": "Cum ad ipsum placeat commodi.",
+        "Deleted": false,
+        "Rank": 242,
+        "Type": "sed",
+        "ColorBlock": 55,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2008-10-14T12:57:43.7769823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "rerum",
+        "ExtraInfo": "ut",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Markus Doyle",
+        "FullName": "Tressa Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 959
+            "FieldType": "System.Int32",
+            "FieldLength": 955
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Caden Botsford",
+    "ExtraInfo": "facilis",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Scarlett Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 32
       }
     }
   }

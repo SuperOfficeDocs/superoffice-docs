@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 963,
-  "ERPProductKey": "ipsum",
-  "ERPPriceListKey": "est",
-  "Name": "Heller-Hahn",
-  "Description": "Synergistic intangible pricing structure",
-  "Code": "quibusdam",
-  "PriceUnit": "illum",
-  "QuantityUnit": "ad",
+  "ProductId": 51,
+  "ERPProductKey": "quia",
+  "ERPPriceListKey": "voluptatem",
+  "Name": "Price-Maggio",
+  "Description": "Expanded holistic frame",
+  "Code": "ab",
+  "PriceUnit": "quisquam",
+  "QuantityUnit": "accusantium",
   "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 14670.253999999999,
-  "ItemNumber": "274485",
+  "SubscriptionUnit": "quo",
+  "DefaultSubscriptionQuantity": 4879.638,
+  "ItemNumber": "1142861",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "neque",
-  "VAT": 19343.048,
-  "VATInfo": "in",
-  "UnitCost": 539.048,
-  "UnitMinimumPrice": 1720.566,
-  "UnitListPrice": 21543.115999999998,
+  "ProductFamilyKey": "cum",
+  "ProductTypeKey": "sit",
+  "VAT": 27290.872,
+  "VATInfo": "velit",
+  "UnitCost": 23984.502,
+  "UnitMinimumPrice": 9568.101999999999,
+  "UnitListPrice": 20258.176,
   "InAssortment": false,
-  "Supplier": "quia",
-  "SupplierCode": "hic",
-  "Rights": "sed",
-  "Rule": "debitis",
+  "Supplier": "qui",
+  "SupplierCode": "sunt",
+  "Rights": "nemo",
+  "Rule": "dolor",
   "ExtraInfo": [
     {
-      "Name": "Hermiston, Barrows and Quitzon",
-      "Value": "quaerat",
+      "Name": "Jast, Feest and Thompson",
+      "Value": "assumenda",
       "Type": "Image"
     },
     {
-      "Name": "Hermiston, Barrows and Quitzon",
-      "Value": "quaerat",
+      "Name": "Jast, Feest and Thompson",
+      "Value": "assumenda",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "excepturi",
-  "ExtraField1": "esse",
-  "ExtraField2": "accusantium",
-  "ExtraField3": "illum",
-  "ExtraField4": "dolores",
-  "ExtraField5": "modi",
-  "InStock": 19741.066
+  "RawExtraInfo": "quod",
+  "ExtraField1": "odit",
+  "ExtraField2": "et",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "placeat",
+  "ExtraField5": "consectetur",
+  "InStock": 15093.344
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 658,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "deserunt",
-  "Name": "Klocko, Hansen and Torp",
-  "Description": "Extended explicit product",
-  "Code": "pariatur",
-  "PriceUnit": "autem",
-  "QuantityUnit": "tempora",
-  "IsSubscription": true,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 8383.4499999999989,
-  "ItemNumber": "1169024",
+  "ProductId": 603,
+  "ERPProductKey": "voluptatum",
+  "ERPPriceListKey": "est",
+  "Name": "Upton Inc and Sons",
+  "Description": "Profit-focused regional strategy",
+  "Code": "nam",
+  "PriceUnit": "ab",
+  "QuantityUnit": "cum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ex",
+  "DefaultSubscriptionQuantity": 18945.03,
+  "ItemNumber": "293475",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "reprehenderit",
-  "ProductTypeKey": "perferendis",
-  "VAT": 28632.224,
-  "VATInfo": "beatae",
-  "UnitCost": 8276.894,
-  "UnitMinimumPrice": 10320.261999999999,
-  "UnitListPrice": 2500.932,
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "praesentium",
+  "VAT": 25310.183999999997,
+  "VATInfo": "omnis",
+  "UnitCost": 18073.778,
+  "UnitMinimumPrice": 5346.604,
+  "UnitListPrice": 11298.07,
   "InAssortment": false,
-  "Supplier": "sint",
-  "SupplierCode": "harum",
-  "Rights": "qui",
-  "Rule": "nihil",
+  "Supplier": "voluptates",
+  "SupplierCode": "enim",
+  "Rights": "et",
+  "Rule": "in",
   "ExtraInfo": [
     {
-      "Name": "Berge Inc and Sons",
-      "Value": "laboriosam",
+      "Name": "Schultz, Grimes and Quigley",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldType": "System.String",
+          "FieldLength": 772
         }
       }
     },
     {
-      "Name": "Berge Inc and Sons",
-      "Value": "laboriosam",
+      "Name": "Schultz, Grimes and Quigley",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldType": "System.String",
+          "FieldLength": 772
         }
       }
     }
   ],
-  "RawExtraInfo": "quod",
-  "ExtraField1": "enim",
-  "ExtraField2": "dolores",
-  "ExtraField3": "magni",
-  "ExtraField4": "aspernatur",
-  "ExtraField5": "quae",
-  "InStock": 9398.866,
+  "RawExtraInfo": "in",
+  "ExtraField1": "doloremque",
+  "ExtraField2": "sapiente",
+  "ExtraField3": "quis",
+  "ExtraField4": "eligendi",
+  "ExtraField5": "error",
+  "InStock": 31083.012,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

@@ -88,6 +88,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
 |projectAssociate/locationAddress|string|Location: Location| x |
+|projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saintActivityType|listAny|SAINT type|  |
 |saintDirection|listAny|Direction|  |
 |saintIntention|listAny|Intention|  |
-|saintTicketStatus|listAny|Status|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
@@ -130,7 +131,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/projectfavourites?$select=projectEvent/hasSignOff,projectAssociate/role
+GET /api/v1/archive/projectfavourites?$select=projectAssociate/fullName,projectEvent/hasSignOff,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

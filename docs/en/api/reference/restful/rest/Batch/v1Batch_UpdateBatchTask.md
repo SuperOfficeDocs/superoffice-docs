@@ -115,30 +115,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Lehner Group",
-  "AssociateId": 773,
-  "DetailsTable": 678,
-  "DetailsRecord": 703,
-  "IsSystemTask": true,
+  "Id": 222,
+  "Name": "Fay-Kreiger",
+  "AssociateId": 361,
+  "DetailsTable": 575,
+  "DetailsRecord": 16,
+  "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ea",
-    "ParameterObject2": "nulla"
+    "ParameterObject1": "consequatur",
+    "ParameterObject2": "autem"
   },
-  "LastStarted": "2012-10-19T11:16:14.3398362+02:00",
-  "Created": "2019-02-03T11:16:14.3398362+01:00",
-  "StartCount": 787,
-  "DatabaseSerialNumber": "1503339",
-  "Context": "provident",
-  "Result": "ipsum",
+  "LastStarted": "2017-10-27T12:57:43.1082476+02:00",
+  "Created": "2010-12-18T12:57:43.1082476+01:00",
+  "StartCount": 241,
+  "DatabaseSerialNumber": "959159",
+  "Context": "ea",
+  "Result": "aut",
   "State": "All",
-  "Description": "Team-oriented demand-driven moderator",
-  "Response": "facilis",
-  "Request": "vel",
-  "ProgressDescription": "Inverse directional analyzer",
-  "ProgressPercent": 531,
-  "FileName": "Feil-Deckow",
+  "Description": "Intuitive bifurcated functionalities",
+  "Response": "minima",
+  "Request": "laboriosam",
+  "ProgressDescription": "Triple-buffered scalable website",
+  "ProgressPercent": 982,
+  "FileName": "Pouros, Torphy and Bradtke",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Bernier, Brekke and Botsford",
-  "AssociateId": 44,
-  "DetailsTable": 88,
-  "DetailsRecord": 915,
+  "Id": 659,
+  "Name": "Gleason, Johns and Cronin",
+  "AssociateId": 16,
+  "DetailsTable": 527,
+  "DetailsRecord": 112,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ipsam",
-    "ParameterObject2": "maxime"
+    "ParameterObject1": "repudiandae",
+    "ParameterObject2": "consequuntur"
   },
-  "LastStarted": "1999-10-02T11:16:14.3398362+02:00",
-  "Created": "2014-03-02T11:16:14.3398362+01:00",
-  "StartCount": 578,
-  "DatabaseSerialNumber": "822983",
-  "Context": "ut",
-  "Result": "consequatur",
+  "LastStarted": "2012-10-10T12:57:43.1092891+02:00",
+  "Created": "1998-12-23T12:57:43.1092891+01:00",
+  "StartCount": 543,
+  "DatabaseSerialNumber": "690116",
+  "Context": "aliquam",
+  "Result": "dolores",
   "State": "All",
-  "Description": "Enterprise-wide contextually-based framework",
-  "Response": "iste",
-  "Request": "culpa",
-  "ProgressDescription": "Open-source user-facing utilisation",
-  "ProgressPercent": 310,
-  "FileName": "Quitzon Group",
+  "Description": "Universal multimedia neural-net",
+  "Response": "odit",
+  "Request": "soluta",
+  "ProgressDescription": "Pre-emptive full-range implementation",
+  "ProgressPercent": 149,
+  "FileName": "Cormier-Schulist",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   }
 }

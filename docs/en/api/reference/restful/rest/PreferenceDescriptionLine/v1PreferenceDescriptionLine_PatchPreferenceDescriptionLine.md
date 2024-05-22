@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quasi",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quasi",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 442,
-  "PrefDescId": 949,
-  "PrefValue": "earum",
-  "PrefShowValue": "mollitia",
-  "Description": "Persistent actuating migration",
+  "PrefDescLineId": 515,
+  "PrefDescId": 420,
+  "PrefValue": "quos",
+  "PrefShowValue": "nostrum",
+  "Description": "Managed bandwidth-monitored strategy",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 152
     }
   },
   "_Links": {

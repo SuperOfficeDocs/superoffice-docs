@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=similique
+GET /api/v1/List/SaleType/MDOItems?query=sapiente
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Gleason, Schimmel and Feil",
-    "ToolTip": "Consequatur minus excepturi veniam molestias facere pariatur occaecati.",
+    "Id": 913,
+    "Name": "Ledner, Beer and Hyatt",
+    "ToolTip": "Cum et quibusdam minima sit.",
     "Deleted": true,
-    "Rank": 377,
-    "Type": "alias",
+    "Rank": 629,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Weimann Inc and Sons",
-        "ToolTip": "Occaecati ducimus possimus ea dolorum dignissimos saepe.",
-        "Deleted": true,
-        "Rank": 660,
-        "Type": "blanditiis",
+        "Id": 20,
+        "Name": "Schamberger-Schimmel",
+        "ToolTip": "Provident tempore numquam inventore impedit.",
+        "Deleted": false,
+        "Rank": 664,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 175,
-        "ExtraInfo": "eligendi",
-        "StyleHint": "sit",
-        "FullName": "Mr. Catalina Gerlach",
+        "IconHint": "molestias",
+        "ColorBlock": 27,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "voluptas",
+        "FullName": "Mr. Shane Corkery Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 176
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 401,
-    "ExtraInfo": "saepe",
-    "StyleHint": "exercitationem",
-    "FullName": "Gust McKenzie",
+    "IconHint": "totam",
+    "ColorBlock": 171,
+    "ExtraInfo": "quas",
+    "StyleHint": "est",
+    "FullName": "Agustin Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   }

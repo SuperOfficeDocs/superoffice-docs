@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Boyle, Effertz and Emard",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "UdListDefinitionId": 995,
-  "Rank": 89
+  "Id": 727,
+  "Name": "Corkery Group",
+  "Tooltip": "possimus",
+  "Deleted": false,
+  "UdListDefinitionId": 89,
+  "Rank": 109
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Robel Inc and Sons",
-  "Tooltip": "pariatur",
+  "Id": 291,
+  "Name": "Frami, Murphy and Gottlieb",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 941,
-  "Rank": 103,
+  "UdListDefinitionId": 930,
+  "Rank": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 772
     }
   }
 }

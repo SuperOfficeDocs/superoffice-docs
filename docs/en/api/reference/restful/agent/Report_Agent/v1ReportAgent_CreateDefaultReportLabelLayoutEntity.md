@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 496,
-  "Name": "Littel, Cruickshank and Hettinger",
-  "Description": "De-engineered assymetric benchmark",
+  "ReportLabelLayoutId": 84,
+  "Name": "Bradtke-Boyle",
+  "Description": "Implemented next generation neural-net",
   "Orientation": "Landscape",
-  "PaperWidth": 325,
-  "PaperHeight": 116,
-  "LeftMargin": 478,
-  "RightMargin": 211,
-  "TopMargin": 18,
-  "BottomMargin": 287,
-  "CountColumns": 651,
-  "CountRows": 973,
+  "PaperWidth": 1002,
+  "PaperHeight": 75,
+  "LeftMargin": 829,
+  "RightMargin": 951,
+  "TopMargin": 173,
+  "BottomMargin": 73,
+  "CountColumns": 172,
+  "CountRows": 250,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 47
     }
   }
 }

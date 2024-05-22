@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 883,
-  "Name": "Kihn, Runte and Hamill",
-  "Tooltip": "alias",
+  "HeadingId": 221,
+  "Name": "Tremblay-Schiller",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 408,
-  "UdListDefinitionId": 441
+  "Rank": 256,
+  "UdListDefinitionId": 116
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 937,
-  "Name": "Huels-Jewess",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 369,
-  "UdListDefinitionId": 505,
+  "HeadingId": 286,
+  "Name": "Beier Group",
+  "Tooltip": "totam",
+  "Deleted": false,
+  "Rank": 305,
+  "UdListDefinitionId": 789,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 962
     }
   }
 }

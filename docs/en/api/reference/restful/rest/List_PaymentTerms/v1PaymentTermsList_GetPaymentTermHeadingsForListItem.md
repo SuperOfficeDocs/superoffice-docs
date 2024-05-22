@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Klocko-Zieme",
-    "ToolTip": "Et fuga numquam iure.",
-    "Deleted": true,
-    "Rank": 723,
-    "Type": "quia",
-    "ColorBlock": 835,
-    "IconHint": "nam",
+    "Id": 615,
+    "Name": "Wolf-Ondricka",
+    "ToolTip": "Veritatis quasi eos quaerat dicta eligendi aperiam.",
+    "Deleted": false,
+    "Rank": 113,
+    "Type": "veniam",
+    "ColorBlock": 936,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2012-03-11T11:16:14.6057886+01:00",
+    "LastChanged": "2017-07-21T12:57:43.5270395+02:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "McCullough, Donnelly and Hodkiewicz",
-        "ToolTip": "Doloribus est sunt.",
-        "Deleted": false,
-        "Rank": 768,
-        "Type": "ex",
-        "ColorBlock": 375,
-        "IconHint": "voluptatem",
+        "Id": 813,
+        "Name": "Hackett Inc and Sons",
+        "ToolTip": "Impedit aut labore distinctio porro.",
+        "Deleted": true,
+        "Rank": 634,
+        "Type": "voluptas",
+        "ColorBlock": 183,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2004-11-07T11:16:14.6057886+01:00",
+        "LastChanged": "2007-07-23T12:57:43.5270395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "vitae",
-        "Hidden": false,
-        "FullName": "Dr. Josiah Kuphal",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Jerald Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 303
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "sequi",
+    "ExtraInfo": "impedit",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Mya McClure",
+    "FullName": "Wilma Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 466
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

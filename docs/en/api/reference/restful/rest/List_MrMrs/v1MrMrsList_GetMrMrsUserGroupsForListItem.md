@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Deckow Group",
-    "ToolTip": "Ducimus nulla ut dicta molestiae animi et placeat.",
-    "Deleted": true,
-    "Rank": 542,
-    "Type": "sed",
-    "ColorBlock": 794,
-    "IconHint": "dolores",
+    "Id": 332,
+    "Name": "Bailey-McGlynn",
+    "ToolTip": "Nisi qui.",
+    "Deleted": false,
+    "Rank": 742,
+    "Type": "molestiae",
+    "ColorBlock": 620,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "1997-07-08T11:16:14.5901626+02:00",
+    "LastChanged": "2002-07-17T12:57:43.5114182+02:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Ebert Inc and Sons",
-        "ToolTip": "Ut aut fugit eveniet.",
-        "Deleted": false,
-        "Rank": 106,
-        "Type": "laudantium",
-        "ColorBlock": 529,
-        "IconHint": "facilis",
+        "Id": 908,
+        "Name": "Kris, Kshlerin and Gorczany",
+        "ToolTip": "Temporibus dolorum laudantium accusantium voluptas repellat.",
+        "Deleted": true,
+        "Rank": 125,
+        "Type": "eos",
+        "ColorBlock": 202,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2020-05-26T11:16:14.5901626+02:00",
+        "LastChanged": "2011-05-12T12:57:43.5114182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "minus",
+        "ExtraInfo": "facilis",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Rowland Winifred Trantow IV",
+        "FullName": "Shea Hettinger I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 985
+            "FieldLength": 291
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mrs. Willy Kendra Jacobs",
+    "ExtraInfo": "ut",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Kenneth Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldType": "System.String",
+        "FieldLength": 916
       }
     }
   }

@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=non
-GET /api/v1/Project?$top=904
-GET /api/v1/Project?$skip=607
+GET /api/v1/Project?$entities=pariatur
+GET /api/v1/Project?$top=466
+GET /api/v1/Project?$skip=837
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=temporibus
+GET /api/v1/Project?$context=dolor
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=True
 GET /api/v1/Project?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "itaque",
+  "odata.nextLink": "dolorem",
   "value": [
     {
-      "PrimaryKey": 7668,
-      "EntityName": "person",
-      "personId": 7668,
-      "fullName": "Ismael Barbara Hilll II"
+      "PrimaryKey": 6786,
+      "EntityName": "sale",
+      "saleId": 6786,
+      "contactId": 997,
+      "name": "Bauch LLC"
     },
     {
-      "PrimaryKey": 6942,
-      "EntityName": "person",
-      "personId": 6942,
-      "fullName": "Julius Bednar"
+      "PrimaryKey": 9584,
+      "EntityName": "sale",
+      "saleId": 9584,
+      "contactId": 4189,
+      "name": "Langworth-O'Reilly"
     }
   ]
 }

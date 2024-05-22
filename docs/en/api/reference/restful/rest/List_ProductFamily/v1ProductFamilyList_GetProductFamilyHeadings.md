@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 749,
-    "Name": "Harber-Feeney",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 949,
-    "UdListDefinitionId": 926,
+    "HeadingId": 133,
+    "Name": "Auer LLC",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 399,
+    "UdListDefinitionId": 425,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 675
       }
     }
   }

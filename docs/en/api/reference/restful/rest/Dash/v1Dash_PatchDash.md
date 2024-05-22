@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "dolorem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "dolorem",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 505,
-  "UniqueId": "necessitatibus",
-  "Name": "Stanton Inc and Sons",
-  "Description": "Pre-emptive zero tolerance system engine",
-  "AssociateId": 885,
-  "Columns": 242,
+  "DashboardId": 233,
+  "UniqueId": "hic",
+  "Name": "Mraz LLC",
+  "Description": "Diverse even-keeled alliance",
+  "AssociateId": 109,
+  "Columns": 554,
   "Theme": null,
-  "VisibleForAll": 560,
+  "VisibleForAll": 688,
   "VisibleForAssociates": [
-    303,
-    941
+    972,
+    655
   ],
   "VisibleForGroups": [
-    528,
-    891
+    190,
+    491
   ],
-  "PinForAll": 48,
+  "PinForAll": 490,
   "PinForAssociates": [
-    591,
-    786
+    803,
+    190
   ],
   "PinForGroups": [
-    161,
-    601
+    574,
+    76
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 923
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

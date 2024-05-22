@@ -91,8 +91,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 466,
-  "AttachmentId": "quis"
+  "DocId": 66,
+  "AttachmentId": "magni"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Configurable web-enabled firmware",
-  "Filename": "dolorem",
-  "Size": 924,
-  "Type": "et",
-  "Encoding": "eaque",
-  "Id": "dolorem",
-  "Disposition": "porro",
+  "Description": "Organic well-modulated intranet",
+  "Filename": "exercitationem",
+  "Size": 648,
+  "Type": "adipisci",
+  "Encoding": "est",
+  "Id": "et",
+  "Disposition": "est",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldLength": 766
     }
   }
 }

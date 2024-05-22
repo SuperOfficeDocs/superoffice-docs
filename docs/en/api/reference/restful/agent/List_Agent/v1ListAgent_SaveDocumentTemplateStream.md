@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 624,
+  "DocumentTemplateId": 157,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "adipisci",
-  "PluginId": 304
+  "LanguageCode": "numquam",
+  "PluginId": 944
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "D'Amore, Mills and Block",
-  "Description": "Programmable 24/7 local area network",
-  "ExternalReference": "nihil",
-  "MimeType": "nesciunt",
-  "PluginId": 669
+  "Name": "Corkery, O'Hara and Stoltenberg",
+  "Description": "Grass-roots intangible definition",
+  "ExternalReference": "et",
+  "MimeType": "soluta",
+  "PluginId": 776
 }
 ```

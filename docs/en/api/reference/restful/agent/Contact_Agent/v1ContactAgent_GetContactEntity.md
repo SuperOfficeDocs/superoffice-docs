@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=360
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=3
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 698,
-  "Name": "Will-O'Hara",
+  "ContactId": 412,
+  "Name": "Labadie, Halvorson and Ratke",
   "Department": "",
-  "OrgNr": "897405",
-  "Number1": "192421",
-  "Number2": "1380144",
-  "UpdatedDate": "1999-12-03T11:16:08.8815948+01:00",
-  "CreatedDate": "2014-03-21T11:16:08.8815948+01:00",
+  "OrgNr": "1078283",
+  "Number1": "882334",
+  "Number2": "1424246",
+  "UpdatedDate": "2001-10-17T12:57:33.5087192+02:00",
+  "CreatedDate": "2010-11-10T12:57:33.5087192+01:00",
   "Emails": [
     {
-      "Value": "maxime",
-      "StrippedValue": "et",
-      "Description": "Distributed non-volatile paradigm",
+      "Value": "voluptate",
+      "StrippedValue": "esse",
+      "Description": "Mandatory mobile system engine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldType": "System.String",
+          "FieldLength": 823
         }
       }
     },
     {
-      "Value": "maxime",
-      "StrippedValue": "et",
-      "Description": "Distributed non-volatile paradigm",
+      "Value": "voluptate",
+      "StrippedValue": "esse",
+      "Description": "Mandatory mobile system engine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldType": "System.String",
+          "FieldLength": 823
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 90,
-      "Name": "Steuber, Schowalter and Bode",
-      "ToolTip": "Hic perferendis et alias sed similique.",
-      "Deleted": false,
-      "Rank": 253,
-      "Type": "esse",
-      "ColorBlock": 149,
-      "IconHint": "sunt",
-      "Selected": true,
-      "LastChanged": "2006-05-15T11:16:08.8815948+02:00",
+      "Id": 285,
+      "Name": "Runolfsson, Cruickshank and Gleason",
+      "ToolTip": "Quos est quis natus animi veniam modi molestiae.",
+      "Deleted": true,
+      "Rank": 755,
+      "Type": "enim",
+      "ColorBlock": 127,
+      "IconHint": "ut",
+      "Selected": false,
+      "LastChanged": "2014-09-18T12:57:33.5087192+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "mollitia",
-      "StyleHint": "ea",
-      "Hidden": true,
-      "FullName": "Gayle Jacobson",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "illum",
+      "Hidden": false,
+      "FullName": "Mrs. Rose Erna Cassin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 321
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "quae",
-      "Description": "Mandatory well-modulated attitude",
+      "Value": "praesentium",
+      "StrippedValue": "atque",
+      "Description": "Function-based system-worthy methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 533
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "quae",
-      "Description": "Mandatory well-modulated attitude",
+      "Value": "praesentium",
+      "StrippedValue": "atque",
+      "Description": "Function-based system-worthy methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 533
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "et",
-      "StrippedValue": "veritatis",
-      "Description": "Multi-tiered 4th generation capacity",
+      "Value": "blanditiis",
+      "StrippedValue": "quo",
+      "Description": "Networked tertiary application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 244
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "veritatis",
-      "Description": "Multi-tiered 4th generation capacity",
+      "Value": "blanditiis",
+      "StrippedValue": "quo",
+      "Description": "Networked tertiary application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 244
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "doloribus",
-      "StrippedValue": "non",
-      "Description": "Diverse global alliance",
+      "Value": "corporis",
+      "StrippedValue": "pariatur",
+      "Description": "Configurable tangible paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 425
         }
       }
     },
     {
-      "Value": "doloribus",
-      "StrippedValue": "non",
-      "Description": "Diverse global alliance",
+      "Value": "corporis",
+      "StrippedValue": "pariatur",
+      "Description": "Configurable tangible paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 425
         }
       }
     }
   ],
-  "Description": "Business-focused demand-driven neural-net",
+  "Description": "Visionary modular application",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "illum",
-      "PersonId": 548,
-      "Mrmrs": "maxime",
-      "Firstname": "Jerald",
-      "Lastname": "Olson",
-      "MiddleName": "Boehm, Stehr and Halvorson",
-      "Title": "perspiciatis",
-      "Description": "Multi-channelled local archive",
-      "Email": "maynard_rau@terry.ca",
-      "FullName": "Boyd Hermiston",
-      "DirectPhone": "730-557-4940",
-      "FormalName": "Herzog-Cremin",
-      "CountryId": 913,
-      "ContactId": 103,
-      "ContactName": "Larson-Price",
-      "Retired": 633,
-      "Rank": 117,
-      "ActiveInterests": 531,
+      "Position": "atque",
+      "PersonId": 887,
+      "Mrmrs": "qui",
+      "Firstname": "Mary",
+      "Lastname": "Rogahn",
+      "MiddleName": "Hudson Group",
+      "Title": "saepe",
+      "Description": "Expanded scalable implementation",
+      "Email": "scottie@bashirian.com",
+      "FullName": "Tremayne Hintz",
+      "DirectPhone": "1-756-673-6158",
+      "FormalName": "Bernhard-Bechtelar",
+      "CountryId": 242,
+      "ContactId": 641,
+      "ContactName": "Barrows, Stracke and Gutmann",
+      "Retired": 234,
+      "Rank": 505,
+      "ActiveInterests": 626,
       "ContactDepartment": "",
-      "ContactCountryId": 457,
-      "ContactOrgNr": "1417305",
-      "FaxPhone": "(851)638-9663",
-      "MobilePhone": "109.256.1640 x71911",
-      "ContactPhone": "1-366-963-4093 x242",
-      "AssociateName": "Hartmann, Ziemann and Wunsch",
-      "AssociateId": 977,
+      "ContactCountryId": 959,
+      "ContactOrgNr": "666299",
+      "FaxPhone": "(139)665-5936 x2963",
+      "MobilePhone": "328-335-5422 x73991",
+      "ContactPhone": "1-951-940-8681 x2093",
+      "AssociateName": "Herzog-Marquardt",
+      "AssociateId": 376,
       "UsePersonAddress": false,
-      "ContactFax": "deleniti",
-      "Kanafname": "consequatur",
-      "Kanalname": "sapiente",
-      "Post1": "ut",
-      "Post2": "eum",
-      "Post3": "neque",
-      "EmailName": "yvette@leuschke.ca",
-      "ContactFullName": "Prof. Crystel Lilyan Beier V",
-      "ActiveErpLinks": 161,
-      "TicketPriorityId": 97,
-      "SupportLanguageId": 758,
-      "SupportAssociateId": 872,
+      "ContactFax": "nesciunt",
+      "Kanafname": "repudiandae",
+      "Kanalname": "ex",
+      "Post1": "adipisci",
+      "Post2": "enim",
+      "Post3": "sint",
+      "EmailName": "jerrell@rippin.us",
+      "ContactFullName": "Judy Macejkovic",
+      "ActiveErpLinks": 82,
+      "TicketPriorityId": 822,
+      "SupportLanguageId": 160,
+      "SupportAssociateId": 352,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 951
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "voluptates",
+  "Kananame": "ex",
   "Xstop": false,
-  "ActiveInterests": 360,
-  "GroupId": 247,
-  "ActiveStatusMonitorId": 642,
+  "ActiveInterests": 534,
+  "GroupId": 870,
+  "ActiveStatusMonitorId": 671,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 905,
-  "DbiAgentId": 871,
-  "DbiLastSyncronized": "2005-09-25T11:16:08.8815948+02:00",
-  "DbiKey": "quo",
-  "DbiLastModified": "1997-01-09T11:16:08.8815948+01:00",
+  "Deleted": 817,
+  "DbiAgentId": 402,
+  "DbiLastSyncronized": "1999-03-10T12:57:33.5087192+01:00",
+  "DbiKey": "officia",
+  "DbiLastModified": "1997-01-07T12:57:33.5087192+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 356,
-  "ActiveErpLinks": 143,
+  "Source": 313,
+  "ActiveErpLinks": 256,
   "BounceEmails": [
-    "cierra@dooley.name",
-    "linwood.hartmann@hudsonrogahn.ca"
+    "carmella.turcotte@mullereffertz.biz",
+    "peter_lueilwitz@pfeffer.com"
   ],
   "Domains": [
-    "sed",
-    "facere"
+    "quibusdam",
+    "architecto"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "370837783",
-    "SuperOffice:2": "571367546"
+    "SuperOffice:1": "Mrs. Mariane Lakin Sr.",
+    "SuperOffice:2": "Prof. Alexander Joe Graham V"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "similique"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 836
     }
   }
 }

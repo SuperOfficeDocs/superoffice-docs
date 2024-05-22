@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Rogahn Group",
-  "Tooltip": "dolores",
+  "Id": 696,
+  "Name": "O'Keefe, Swift and Goodwin",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 525,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 985,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "reprehenderit",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 155,
-  "Name": "Berge-Welch",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 721,
+  "Id": 177,
+  "Name": "Kuvalis, Walsh and Legros",
+  "Tooltip": "ipsa",
+  "Deleted": false,
+  "Rank": 243,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "accusamus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 72
     }
   }
 }

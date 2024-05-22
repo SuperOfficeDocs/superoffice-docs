@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 968,
-  "NumSentences": 175,
-  "IsoLangCode": "omnis"
+  "TicketId": 482,
+  "NumSentences": 794,
+  "IsoLangCode": "dolor"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ipsum"
+"consequuntur"
 ```

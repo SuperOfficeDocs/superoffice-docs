@@ -81,12 +81,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 712,
-  "Name": "Bogan-Langosh",
-  "Tooltip": "omnis",
-  "PassiveText": "ut",
+  "ReldefId": 615,
+  "Name": "Stokes-Koch",
+  "Tooltip": "labore",
+  "PassiveText": "odio",
   "Deleted": false,
-  "Rank": 26,
+  "Rank": 930,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 820,
-  "Name": "Tromp-Glover",
-  "Tooltip": "odio",
-  "PassiveText": "labore",
+  "ReldefId": 763,
+  "Name": "Skiles-Lakin",
+  "Tooltip": "numquam",
+  "PassiveText": "laboriosam",
   "Deleted": false,
-  "Rank": 687,
+  "Rank": 305,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldType": "System.String",
+      "FieldLength": 465
     }
   }
 }

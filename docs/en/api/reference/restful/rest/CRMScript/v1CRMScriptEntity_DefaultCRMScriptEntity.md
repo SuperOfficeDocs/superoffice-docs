@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 331,
-  "UniqueIdentifier": "commodi",
-  "Name": "Williamson Group",
-  "Description": "Customizable client-server help-desk",
-  "IncludeId": "est",
-  "HierarchyId": 852,
-  "Source": "ab",
-  "Registered": "2006-12-16T11:16:13.83947+01:00",
-  "RegisteredAssociateId": 224,
-  "Updated": "2007-04-23T11:16:13.83947+02:00",
-  "UpdatedAssociateId": 320,
+  "EjscriptId": 96,
+  "UniqueIdentifier": "cumque",
+  "Name": "Doyle, Hills and Shanahan",
+  "Description": "Digitized bandwidth-monitored moderator",
+  "IncludeId": "eveniet",
+  "HierarchyId": 942,
+  "Source": "rerum",
+  "Registered": "2021-06-15T12:57:42.3232848+02:00",
+  "RegisteredAssociateId": 451,
+  "Updated": "2013-12-17T12:57:42.3232848+01:00",
+  "UpdatedAssociateId": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 104
     }
   }
 }

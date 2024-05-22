@@ -44,11 +44,12 @@ the actual functionality of the provider.
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
 |locationAddress|string|Location: Location| x |
+|isLocation|bool|Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/OtherUsers?$select=role,assocType
+GET /api/v1/archive/OtherUsers?$select=role,credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

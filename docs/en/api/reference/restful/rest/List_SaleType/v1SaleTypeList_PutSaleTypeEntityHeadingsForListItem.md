@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Gulgowski-Hirthe",
-    "ToolTip": "Enim officiis.",
-    "Deleted": true,
-    "Rank": 165,
-    "Type": "rerum",
-    "ColorBlock": 400,
-    "IconHint": "aliquid",
+    "Id": 862,
+    "Name": "Shields-Schiller",
+    "ToolTip": "Qui alias qui veritatis expedita.",
+    "Deleted": false,
+    "Rank": 94,
+    "Type": "magni",
+    "ColorBlock": 30,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2015-05-14T11:16:14.7307772+02:00",
+    "LastChanged": "1997-10-18T12:57:43.7457393+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Larson, Hyatt and Metz",
-        "ToolTip": "Voluptas vero quasi et hic.",
-        "Deleted": false,
-        "Rank": 71,
-        "Type": "laboriosam",
-        "ColorBlock": 857,
-        "IconHint": "delectus",
-        "Selected": true,
-        "LastChanged": "2021-12-19T11:16:14.7307772+01:00",
+        "Id": 811,
+        "Name": "Schumm-Schulist",
+        "ToolTip": "Debitis rerum dolore temporibus ut.",
+        "Deleted": true,
+        "Rank": 949,
+        "Type": "repudiandae",
+        "ColorBlock": 985,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2023-06-06T12:57:43.7457393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "non",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Hester Douglas"
+        "FullName": "Dr. Abigale Magdalena Smitham DDS"
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Leanna Robel"
+    "ExtraInfo": "commodi",
+    "StyleHint": "expedita",
+    "Hidden": false,
+    "FullName": "Crystal Rice"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Schimmel, Raynor and Pfeffer",
-    "ToolTip": "Non corporis qui odio sint.",
-    "Deleted": false,
-    "Rank": 819,
-    "Type": "autem",
-    "ColorBlock": 95,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2013-01-12T11:16:14.7620242+01:00",
+    "Id": 897,
+    "Name": "Bosco, Sanford and Champlin",
+    "ToolTip": "Nam doloribus repudiandae aliquid ipsam dolor.",
+    "Deleted": true,
+    "Rank": 556,
+    "Type": "occaecati",
+    "ColorBlock": 981,
+    "IconHint": "pariatur",
+    "Selected": false,
+    "LastChanged": "2009-01-14T12:57:43.7457393+01:00",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Klocko-Lind",
-        "ToolTip": "Rerum aut atque.",
-        "Deleted": false,
-        "Rank": 678,
-        "Type": "aut",
-        "ColorBlock": 124,
-        "IconHint": "veniam",
+        "Id": 253,
+        "Name": "Walker LLC",
+        "ToolTip": "Vel sapiente in recusandae expedita nihil dolores.",
+        "Deleted": true,
+        "Rank": 243,
+        "Type": "a",
+        "ColorBlock": 657,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2017-05-15T11:16:14.7620242+02:00",
+        "LastChanged": "1999-08-26T12:57:43.7457393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "earum",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Emerald Huels",
+        "FullName": "Jameson Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "quia",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Mozelle Jones",
+    "FullName": "Fernando Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldLength": 82
       }
     }
   }

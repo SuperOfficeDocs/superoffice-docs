@@ -68,7 +68,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Bahringer, Maggio and Hills",
-    "DisplayName": "Muller Inc and Sons",
-    "Description": "Switchable next generation artificial intelligence",
-    "ShortLabel": "est",
+    "FieldName": "Herman-Corwin",
+    "DisplayName": "Murphy LLC",
+    "Description": "Ergonomic leading edge artificial intelligence",
+    "ShortLabel": "rerum",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 136,
-    "TemplateVariableName": "Moen, Lesch and Ratke"
+    "Rank": 866,
+    "TemplateVariableName": "Altenwerth LLC"
   }
 ]
 ```

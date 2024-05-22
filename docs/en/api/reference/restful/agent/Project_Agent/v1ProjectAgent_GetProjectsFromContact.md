@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 320
+  "ContactId": 146
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 411,
-    "Name": "Balistreri LLC",
-    "Description": "Enterprise-wide disintermediate throughput",
+    "ProjectId": 21,
+    "Name": "Dibbert, Grady and Paucek",
+    "Description": "Customer-focused leading edge throughput",
     "URL": "http://www.example.com/",
-    "Type": "omnis",
-    "AssociateId": 88,
-    "AssociateFullName": "Mrs. Patience Lubowitz",
-    "TypeId": 551,
-    "Updated": "2001-03-16T11:16:09.569228+01:00",
-    "StatusId": 20,
-    "Status": "ea",
-    "TextId": 575,
-    "PublishTo": "2005-03-01T11:16:09.569228+01:00",
-    "PublishFrom": "2009-02-20T11:16:09.569228+01:00",
-    "IsPublished": true,
+    "Type": "neque",
+    "AssociateId": 312,
+    "AssociateFullName": "Nola Schuppe",
+    "TypeId": 330,
+    "Updated": "2014-05-02T12:57:34.664705+02:00",
+    "StatusId": 758,
+    "Status": "aliquid",
+    "TextId": 878,
+    "PublishTo": "2001-10-31T12:57:34.664705+01:00",
+    "PublishFrom": "2019-09-27T12:57:34.664705+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "754076",
-    "ActiveErpLinks": 63,
+    "ProjectNumber": "1287650",
+    "ActiveErpLinks": 512,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 646
       }
     }
   }

@@ -77,6 +77,7 @@ Lists all email flows
 |workflowAssociate/userName|string|Owner - User name: User name| x |
 |workflowAssociate/personEmail|string|Owner - E-mail| x |
 |workflowAssociate/locationAddress|string|Owner - Location: Location| x |
+|workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
 |hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
@@ -86,7 +87,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=updatedBy,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlows?$select=workflowAssociate/otherGroups,updatedDate,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 847,
-  "FieldName": "Nicolas, Runte and O'Keefe",
-  "Label": "sed",
-  "Tooltip": "et",
+  "QuoteLineConfigurationId": 629,
+  "FieldName": "Cassin Group",
+  "Label": "iure",
+  "Tooltip": "fugit",
   "Editable": true,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 924,
+  "Mandatory": false,
+  "Rank": 120,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 569
     }
   }
 }

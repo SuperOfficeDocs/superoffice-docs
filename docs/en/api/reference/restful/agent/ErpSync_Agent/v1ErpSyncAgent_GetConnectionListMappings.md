@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 396
+  "ErpConnectionId": 349
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Vandervort, O'Hara and Legros",
+      "ErpListName": "Dickinson Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Kshlerin-VonRueden",
-      "ErpFieldId": 888,
+      "ErpActorTypeName": "Strosin Inc and Sons",
+      "ErpFieldId": 221,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 880
         }
       }
     }
   ],
-  "ErpConnectionId": 960,
-  "ErpConnectionName": "Torp-Gerlach",
+  "ErpConnectionId": 161,
+  "ErpConnectionName": "Wisozk-Gottlieb",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 349
     }
   }
 }

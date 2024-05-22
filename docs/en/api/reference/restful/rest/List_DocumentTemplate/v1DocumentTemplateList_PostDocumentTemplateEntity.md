@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 822,
-  "Name": "Auer Group",
-  "Tooltip": "dignissimos",
-  "SaveInDb": 688,
-  "Filename": "debitis",
-  "DefaultOref": "in",
+  "DocumentTemplateId": 379,
+  "Name": "Champlin, Jewess and Doyle",
+  "Tooltip": "laborum",
+  "SaveInDb": 252,
+  "Filename": "quam",
+  "DefaultOref": "nam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 288,
-  "IntentId": 53,
+  "AutoeventId": 152,
+  "IntentId": 137,
   "IsDefaultPublished": false,
-  "Rank": 230,
-  "LoadTemplateFromPlugin": 338,
-  "MimeType": "exercitationem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 91,
+  "Rank": 946,
+  "LoadTemplateFromPlugin": 722,
+  "MimeType": "ipsam",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 425,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "luisa@kulas.co.uk",
+  "EmailSubject": "lillian@goldner.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "caleb@zulauf.uk",
+  "SenderEmailAddress": "ova.stracke@little.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 221,
-  "Name": "King Group",
-  "Tooltip": "sit",
-  "SaveInDb": 863,
-  "Filename": "eos",
-  "DefaultOref": "quae",
+  "DocumentTemplateId": 837,
+  "Name": "Breitenberg Inc and Sons",
+  "Tooltip": "possimus",
+  "SaveInDb": 767,
+  "Filename": "optio",
+  "DefaultOref": "ipsam",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 147,
-  "IntentId": 115,
+  "AutoeventId": 598,
+  "IntentId": 896,
   "IsDefaultPublished": false,
-  "Rank": 914,
-  "LoadTemplateFromPlugin": 930,
-  "MimeType": "laborum",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 326,
+  "Rank": 842,
+  "LoadTemplateFromPlugin": 452,
+  "MimeType": "delectus",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 273,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "shaina.wolff@haley.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "alanna_langworth@blanda.ca",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dina@koepp.uk",
+  "SenderEmailAddress": "anna.weissnat@schamberger.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldType": "System.Int32",
+      "FieldLength": 950
     }
   }
 }

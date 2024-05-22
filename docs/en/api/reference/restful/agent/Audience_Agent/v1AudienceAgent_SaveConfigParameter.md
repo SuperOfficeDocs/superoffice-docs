@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hills Group",
+  "LayoutName": "Jast-Deckow",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 816,
-  "Name": "Volkman, Wisoky and Schaefer",
-  "Value": "omnis",
-  "CreatedDate": "2007-02-06T11:16:08.7253957+01:00",
-  "UpdatedDate": "2021-04-21T11:16:08.7253957+02:00",
-  "CreatedBy": "eum",
-  "UpdatedBy": "repellendus",
+  "AudienceLayoutId": 239,
+  "Name": "Ritchie Inc and Sons",
+  "Value": "sit",
+  "CreatedDate": "2022-11-24T12:57:33.2428569+01:00",
+  "UpdatedDate": "2001-06-29T12:57:33.2428569+02:00",
+  "CreatedBy": "magni",
+  "UpdatedBy": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 872
     }
   }
 }

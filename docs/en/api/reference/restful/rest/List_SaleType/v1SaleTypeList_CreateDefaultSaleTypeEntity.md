@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 777,
-  "Name": "Mante Group",
-  "Tooltip": "magni",
-  "Rank": 971,
+  "SaleTypeId": 547,
+  "Name": "Graham-Bauch",
+  "Tooltip": "molestias",
+  "Rank": 523,
   "DurationUnit": "Century",
-  "SaleDuration": 871,
-  "SaleTypeCatId": 493,
-  "Deleted": true,
+  "SaleDuration": 663,
+  "SaleTypeCatId": 773,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 77,
-  "QuoteLinesTemplate": 968,
-  "ConfirmationLinesTemplate": 42,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 150,
+  "QuoteLinesTemplate": 386,
+  "ConfirmationLinesTemplate": 586,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 341,
-  "MinEarningPercent": 903,
-  "GroupQuoteLinesBy": 588,
-  "SortGroupLinesBy": 461,
+  "MaxDiscountPercent": 826,
+  "MinEarningPercent": 382,
+  "GroupQuoteLinesBy": 681,
+  "SortGroupLinesBy": 759,
   "Stages": [
     {
-      "Id": 372,
-      "Name": "Cremin-Renner",
-      "ToolTip": "Quis sint rerum modi molestiae velit exercitationem.",
+      "Id": 825,
+      "Name": "Skiles-Sipes",
+      "ToolTip": "Optio nulla ad nemo molestias voluptas.",
       "Deleted": false,
-      "Rank": 795,
-      "Type": "rerum",
-      "ColorBlock": 22,
-      "IconHint": "modi",
+      "Rank": 970,
+      "Type": "tenetur",
+      "ColorBlock": 254,
+      "IconHint": "dolorem",
       "Selected": false,
-      "LastChanged": "1997-09-21T11:16:14.7307772+02:00",
+      "LastChanged": "2020-06-10T12:57:43.730118+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "ea",
-      "Hidden": true,
-      "FullName": "Aliya Hickle Sr.",
+      "ExtraInfo": "illum",
+      "StyleHint": "ut",
+      "Hidden": false,
+      "FullName": "Miss Karolann Predovic I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 274
+          "FieldLength": 959
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 947
     }
   }
 }

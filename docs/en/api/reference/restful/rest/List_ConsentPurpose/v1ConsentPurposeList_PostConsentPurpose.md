@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 134,
-  "Name": "Kiehn-Quitzon",
-  "ConsentText": "earum",
-  "FormText": "magni",
-  "Key": "omnis",
-  "Tooltip": "voluptatem",
-  "Active": 616,
-  "UpdatedDate": "2002-03-10T11:16:14.512052+01:00",
+  "ConsentPurposeId": 776,
+  "Name": "Bergnaum LLC",
+  "ConsentText": "corporis",
+  "FormText": "eaque",
+  "Key": "tempore",
+  "Tooltip": "qui",
+  "Active": 712,
+  "UpdatedDate": "2005-12-15T12:57:43.3708249+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 477,
-  "PrivacyStatementDesc": "illum",
+  "Rank": 290,
+  "PrivacyStatementDesc": "qui",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 722,
-  "Name": "Hilpert, Hartmann and Barton",
-  "ConsentText": "sint",
-  "FormText": "sunt",
-  "Key": "ut",
-  "Tooltip": "cum",
-  "Active": 450,
-  "UpdatedDate": "1997-12-21T11:16:14.512052+01:00",
+  "ConsentPurposeId": 961,
+  "Name": "Predovic, Schneider and Dietrich",
+  "ConsentText": "nobis",
+  "FormText": "dicta",
+  "Key": "ea",
+  "Tooltip": "iusto",
+  "Active": 660,
+  "UpdatedDate": "2005-04-09T12:57:43.3708249+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 28,
-  "PrivacyStatementDesc": "quisquam",
+  "Rank": 820,
+  "PrivacyStatementDesc": "rerum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldType": "System.String",
+      "FieldLength": 738
     }
   }
 }

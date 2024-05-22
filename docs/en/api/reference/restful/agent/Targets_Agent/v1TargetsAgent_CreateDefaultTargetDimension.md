@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 643,
+  "TargetDimensionId": 926,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ea",
-  "DimensionListName": "Rogahn Inc and Sons",
-  "DimensionListId": 478,
-  "DimensionListLabel": "distinctio",
+  "DimensionListField": "reiciendis",
+  "DimensionListName": "Heaney-O'Conner",
+  "DimensionListId": 5,
+  "DimensionListLabel": "laudantium",
   "SelectedDimensions": [
-    726,
-    538
+    358,
+    536
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 786
     }
   }
 }

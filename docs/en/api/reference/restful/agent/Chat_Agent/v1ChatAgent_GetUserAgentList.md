@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Hettinger Group",
-    "ToolTip": "Quas non voluptatem labore.",
+    "Id": 718,
+    "Name": "Wunsch-Bruen",
+    "ToolTip": "Voluptas cupiditate a nihil eaque itaque.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "recusandae",
+    "Rank": 583,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 675,
-        "Name": "West LLC",
-        "ToolTip": "Qui hic.",
-        "Deleted": true,
-        "Rank": 150,
-        "Type": "cumque",
+        "Id": 722,
+        "Name": "Stehr Inc and Sons",
+        "ToolTip": "Blanditiis eos et culpa placeat officia blanditiis.",
+        "Deleted": false,
+        "Rank": 772,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quae",
-        "ColorBlock": 349,
-        "ExtraInfo": "nulla",
-        "StyleHint": "beatae",
-        "FullName": "Annie Willms Sr.",
+        "IconHint": "veniam",
+        "ColorBlock": 144,
+        "ExtraInfo": "explicabo",
+        "StyleHint": "quibusdam",
+        "FullName": "Delpha Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 561
           }
         }
       }
     ],
-    "IconHint": "quos",
-    "ColorBlock": 554,
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "numquam",
-    "FullName": "Mrs. Mathias Walter",
+    "IconHint": "consequatur",
+    "ColorBlock": 345,
+    "ExtraInfo": "nihil",
+    "StyleHint": "aut",
+    "FullName": "Hyman Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

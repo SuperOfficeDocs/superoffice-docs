@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 179,
-    "Name": "Bauch Group",
-    "ToolTip": "Reprehenderit et aut quos similique sapiente et architecto.",
+    "Id": 789,
+    "Name": "Kerluke, Gerlach and Casper",
+    "ToolTip": "Inventore culpa debitis.",
     "Deleted": false,
-    "Rank": 343,
-    "Type": "consectetur",
-    "ColorBlock": 190,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2003-06-19T11:16:14.512052+02:00",
+    "Rank": 677,
+    "Type": "aut",
+    "ColorBlock": 980,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "1997-10-02T12:57:43.3708249+02:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Nicolas Inc and Sons",
-        "ToolTip": "Consequatur repellendus ipsum.",
+        "Id": 799,
+        "Name": "Larson Group",
+        "ToolTip": "Magnam porro exercitationem eos.",
         "Deleted": false,
-        "Rank": 200,
-        "Type": "est",
-        "ColorBlock": 517,
-        "IconHint": "a",
+        "Rank": 981,
+        "Type": "omnis",
+        "ColorBlock": 698,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2023-06-24T11:16:14.512052+02:00",
+        "LastChanged": "2001-01-10T12:57:43.3708249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "earum",
+        "ExtraInfo": "est",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Jermey Roberts V"
+        "FullName": "Nathan Bode"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "iure",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Urban Giovanna Denesik MD"
+    "FullName": "Emiliano McCullough"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Breitenberg, Wisoky and Mertz",
-    "ToolTip": "Ut odio similique.",
-    "Deleted": true,
-    "Rank": 908,
-    "Type": "recusandae",
-    "ColorBlock": 12,
-    "IconHint": "dignissimos",
+    "Id": 505,
+    "Name": "Kreiger Inc and Sons",
+    "ToolTip": "Quidem harum modi suscipit possimus omnis nesciunt mollitia.",
+    "Deleted": false,
+    "Rank": 414,
+    "Type": "facilis",
+    "ColorBlock": 844,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2000-06-11T11:16:14.512052+02:00",
+    "LastChanged": "2004-04-09T12:57:43.3708249+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Glover, Ziemann and Bruen",
-        "ToolTip": "Maiores eaque.",
+        "Id": 664,
+        "Name": "West-White",
+        "ToolTip": "Impedit doloribus tenetur consequatur molestiae.",
         "Deleted": false,
-        "Rank": 80,
-        "Type": "aliquid",
-        "ColorBlock": 921,
-        "IconHint": "maiores",
+        "Rank": 981,
+        "Type": "fugit",
+        "ColorBlock": 77,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2009-09-03T11:16:14.512052+02:00",
+        "LastChanged": "1997-07-18T12:57:43.3708249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quia",
+        "ExtraInfo": "expedita",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Noemy Fahey",
+        "FullName": "Lula Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 707
+            "FieldType": "System.String",
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "delectus",
+    "ExtraInfo": "ut",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Ozella Gerlach",
+    "FullName": "Jarrod Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

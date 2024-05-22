@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dolor",
+  "RawValue": "sed",
   "Specification": null,
-  "DisplayValue": "voluptatem",
-  "DisplayTooltip": "pariatur",
+  "DisplayValue": "sit",
+  "DisplayTooltip": "voluptas",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 129,
-  "PrefDescId": 829,
-  "TableName": "Block Group",
-  "UserPreferenceId": 687,
+  "TargetId": 924,
+  "PrefDescId": 245,
+  "TableName": "Strosin, Von and Kovacek",
+  "UserPreferenceId": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldType": "System.String",
+      "FieldLength": 14
     }
   }
 }

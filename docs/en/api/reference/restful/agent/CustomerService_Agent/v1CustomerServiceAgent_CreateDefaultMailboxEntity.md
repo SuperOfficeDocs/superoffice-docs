@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 667,
+  "MailInFilterId": 161,
   "ServerType": "Facebook",
-  "Address": "qui",
-  "Username": "ut",
-  "Password": "impedit",
-  "Server": "dolorum",
-  "Port": 836,
+  "Address": "similique",
+  "Username": "facilis",
+  "Password": "dignissimos",
+  "Server": "perspiciatis",
+  "Port": 807,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

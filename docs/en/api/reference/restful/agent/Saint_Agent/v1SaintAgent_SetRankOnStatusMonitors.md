@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et",
+  "Type": "voluptatem",
   "ItemsIds": [
-    938,
-    912
+    77,
+    895
   ]
 }
 ```

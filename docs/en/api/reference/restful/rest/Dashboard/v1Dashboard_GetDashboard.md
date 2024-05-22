@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 225,
-  "AssociateId": 304,
-  "Caption": "voluptatem",
+  "DashboardId": 200,
+  "AssociateId": 929,
+  "Caption": "provident",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 825,
-      "Caption": "tempore",
-      "Description": "Distributed well-modulated secured line",
-      "ChartName": "Crona, D'Amore and Vandervort",
-      "ChartId": "est",
-      "IsDefault": true,
-      "AssociateId": 174,
-      "GroupId": 117,
-      "SelectionId": 999,
-      "Config": "ut",
+      "DashboardTileId": 595,
+      "Caption": "sit",
+      "Description": "De-engineered intermediate service-desk",
+      "ChartName": "Kessler-Turner",
+      "ChartId": "deserunt",
+      "IsDefault": false,
+      "AssociateId": 461,
+      "GroupId": 915,
+      "SelectionId": 813,
+      "Config": "consequatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 490
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 334
     }
   },
   "_Links": {

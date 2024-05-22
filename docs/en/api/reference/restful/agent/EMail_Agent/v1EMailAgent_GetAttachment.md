@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 488,
-  "AttachmentId": "blanditiis"
+  "MessageServerId": 664,
+  "AttachmentId": "consequuntur"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased full-range help-desk",
-  "Filename": "nemo",
-  "Size": 145,
-  "Type": "quia",
-  "Encoding": "quis",
-  "Id": "ea",
-  "Disposition": "nesciunt",
+  "Description": "Advanced object-oriented synergy",
+  "Filename": "mollitia",
+  "Size": 321,
+  "Type": "nam",
+  "Encoding": "quas",
+  "Id": "voluptatibus",
+  "Disposition": "fugiat",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   }
 }

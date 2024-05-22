@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Marvin Group"
+  "FieldName": "Strosin, McGlynn and Effertz"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 399,
-  "FieldName": "Rogahn, Kling and Stanton",
-  "Label": "natus",
-  "Tooltip": "ea",
+  "QuoteLineConfigurationId": 815,
+  "FieldName": "Jerde, Gleichner and Nicolas",
+  "Label": "fugit",
+  "Tooltip": "dolor",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 764,
+  "Rank": 159,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 663
     }
   }
 }

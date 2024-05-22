@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "McClure, Casper and Murray",
-    "ToolTip": "Assumenda saepe qui commodi facere.",
+    "Id": 661,
+    "Name": "Corkery, Schuppe and Ondricka",
+    "ToolTip": "Deleniti deleniti sint ut qui nulla dolor.",
     "Deleted": false,
-    "Rank": 216,
-    "Type": "veniam",
-    "ColorBlock": 199,
-    "IconHint": "aut",
+    "Rank": 654,
+    "Type": "delectus",
+    "ColorBlock": 563,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2022-04-01T11:16:14.699531+02:00",
+    "LastChanged": "2016-04-04T12:57:43.6988788+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Heller-Schuppe",
-        "ToolTip": "Ut illo nihil quis eligendi.",
+        "Id": 186,
+        "Name": "Weissnat LLC",
+        "ToolTip": "Earum tempora deserunt.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "sit",
-        "ColorBlock": 615,
-        "IconHint": "quo",
+        "Rank": 425,
+        "Type": "doloribus",
+        "ColorBlock": 985,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2022-01-08T11:16:14.699531+01:00",
+        "LastChanged": "2007-05-07T12:57:43.6988788+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "vero",
-        "Hidden": true,
-        "FullName": "Carolyne Kilback",
+        "ExtraInfo": "itaque",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Daryl Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldType": "System.String",
+            "FieldLength": 725
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "saepe",
+    "ExtraInfo": "neque",
+    "StyleHint": "dolorem",
     "Hidden": true,
-    "FullName": "Jayden Gaylord",
+    "FullName": "Alf Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   }

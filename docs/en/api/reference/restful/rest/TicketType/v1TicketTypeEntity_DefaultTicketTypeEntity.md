@@ -83,38 +83,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 289,
-  "Name": "Greenholt, Heaney and Collins",
-  "Rank": 804,
-  "Tooltip": "eveniet",
-  "Icon": "ut",
-  "DefaultTicketStatus": 140,
+  "TicketTypeId": 929,
+  "Name": "Hoeger, Collins and Russel",
+  "Rank": 854,
+  "Tooltip": "qui",
+  "Icon": "soluta",
+  "DefaultTicketStatus": 374,
   "TicketStatuses": [
-    91,
-    148
+    159,
+    851
   ],
-  "DefaultTicketPriority": 794,
+  "DefaultTicketPriority": 519,
   "TicketPriorities": [
-    366,
-    388
+    866,
+    833
   ],
-  "ReplyTemplate": 941,
+  "ReplyTemplate": 971,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    183,
-    682
+    84,
+    756
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Ebert LLC",
-    "ToolTip": "Sequi placeat eveniet quod.",
+    "Id": 265,
+    "Name": "Cummings, Bailey and Dare",
+    "ToolTip": "Quia unde dignissimos aut est.",
     "Deleted": false,
-    "Rank": 498,
-    "Type": "quo",
-    "ColorBlock": 550,
-    "IconHint": "earum",
+    "Rank": 759,
+    "Type": "quidem",
+    "ColorBlock": 949,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2013-08-02T11:16:09.3034579+02:00",
+    "LastChanged": "2002-04-30T12:57:34.0867473+02:00",
     "ChildItems": [
       {
-        "Id": 45,
-        "Name": "Kris, Gulgowski and Hyatt",
-        "ToolTip": "Magni fugiat.",
+        "Id": 672,
+        "Name": "Dickinson-Waelchi",
+        "ToolTip": "Eveniet quo enim provident.",
         "Deleted": false,
-        "Rank": 338,
-        "Type": "eos",
-        "ColorBlock": 172,
-        "IconHint": "omnis",
+        "Rank": 423,
+        "Type": "consequuntur",
+        "ColorBlock": 67,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2016-04-11T11:16:09.3034579+02:00",
+        "LastChanged": "2007-08-29T12:57:34.0867473+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "laborum",
-        "Hidden": false,
-        "FullName": "Mr. Leland Tommie Schmitt II",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "fuga",
+        "Hidden": true,
+        "FullName": "Prof. King Gordon Schaefer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 732
+            "FieldLength": 943
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "impedit",
-    "Hidden": true,
-    "FullName": "Vincenza Goyette",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "reprehenderit",
+    "Hidden": false,
+    "FullName": "Miss Granville Shawn Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 10
       }
     }
   }

@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "autem",
-    "repudiandae"
+    "vel",
+    "voluptas"
   ],
-  "CurrentClientTime": "2009-11-09T11:16:09.5221998+01:00"
+  "CurrentClientTime": "1997-03-09T12:57:34.586598+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "tempore",
-    "molestias"
+    "et",
+    "doloremque"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 809,
-  "NotificationsCount": 449,
+  "OverdueSalesCount": 19,
+  "NotificationsCount": 836,
   "SystemWebPanels": [
     {
-      "WebPanelId": 687,
-      "Name": "Hegmann, Romaguera and Ankunding",
-      "Tooltip": "omnis",
-      "Deleted": true,
-      "Rank": 807,
+      "WebPanelId": 349,
+      "Name": "Stamm, Christiansen and Hauck",
+      "Tooltip": "deleniti",
+      "Deleted": false,
+      "Rank": 901,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
-      "OnSatellite": true,
+      "OnCentral": false,
+      "OnSatellite": false,
       "OnTravel": true,
       "OnSalesMarketingWeb": true,
-      "OnSalesMarketingPocket": false,
+      "OnSalesMarketingPocket": true,
       "ShowInMenuBar": false,
-      "ShowInToolBar": false,
+      "ShowInToolBar": true,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": true,
-      "WindowName": "Moore-Carter",
+      "ShowInStatusBar": false,
+      "WindowName": "Lynch-Konopelski",
       "Url": "http://www.example.com/",
-      "ProgId": "et",
-      "Icon": 287,
-      "AlwaysReloadOnShow": true,
-      "NeverReloadOnCurrentChange": false,
+      "ProgId": "corrupti",
+      "Icon": 844,
+      "AlwaysReloadOnShow": false,
+      "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 939
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "ducimus",
+      "RawValue": "sed",
       "Specification": null,
-      "DisplayValue": "et",
-      "DisplayTooltip": "provident",
+      "DisplayValue": "aut",
+      "DisplayTooltip": "rem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 692,
-      "PrefDescId": 610,
-      "TableName": "Greenholt Inc and Sons",
-      "UserPreferenceId": 871,
+      "TargetId": 440,
+      "PrefDescId": 270,
+      "TableName": "Bosco LLC",
+      "UserPreferenceId": 493,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 375
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "beatae",
+  "CustomData": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 67
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

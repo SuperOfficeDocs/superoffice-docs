@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 73,
-    "Name": "Maggio-Douglas",
-    "Tooltip": "pariatur",
+    "HeadingId": 924,
+    "Name": "Thompson Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 296,
-    "UdListDefinitionId": 220
+    "Rank": 697,
+    "UdListDefinitionId": 212
   },
   {
-    "HeadingId": 73,
-    "Name": "Maggio-Douglas",
-    "Tooltip": "pariatur",
+    "HeadingId": 924,
+    "Name": "Thompson Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 296,
-    "UdListDefinitionId": 220
+    "Rank": 697,
+    "UdListDefinitionId": 212
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 119,
-    "Name": "Altenwerth-Romaguera",
-    "Tooltip": "repellat",
+    "HeadingId": 409,
+    "Name": "Bednar-Casper",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 229,
-    "UdListDefinitionId": 90,
+    "Rank": 30,
+    "UdListDefinitionId": 619,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldLength": 38
       }
     }
   }

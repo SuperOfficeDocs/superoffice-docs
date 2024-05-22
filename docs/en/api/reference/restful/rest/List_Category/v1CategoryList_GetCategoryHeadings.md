@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 458,
-    "Name": "O'Connell LLC",
-    "Tooltip": "voluptate",
+    "HeadingId": 401,
+    "Name": "O'Hara Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 556,
-    "UdListDefinitionId": 772,
+    "Rank": 746,
+    "UdListDefinitionId": 917,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldType": "System.String",
+        "FieldLength": 85
       }
     }
   }

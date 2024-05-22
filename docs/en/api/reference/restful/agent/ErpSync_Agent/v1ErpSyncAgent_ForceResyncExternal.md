@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/ErpSync/ForceResyncExternal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 581,
+  "ErpConnectionId": 863,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "error",
-    "unde"
+    "rem",
+    "voluptatum"
   ]
 }
 ```
@@ -103,17 +103,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "et",
-  "TechExplanation": "praesentium",
-  "ErrorCode": "qui",
+  "UserExplanation": "doloremque",
+  "TechExplanation": "aut",
+  "ErrorCode": "omnis",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 829
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Blanda, Hoeger and Runte",
-  "Tooltip": "quo",
+  "Id": 979,
+  "Name": "Kreiger, Feeney and Mohr",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 999,
+  "Rank": 985,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   },
   "_Links": {

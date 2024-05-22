@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=maxime
+GET /api/v1/List/Competitor/MDOItems?query=ea
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Kuvalis, Gleason and Larson",
-    "ToolTip": "Quis iure facere numquam.",
+    "Id": 251,
+    "Name": "Zieme, Predovic and Nader",
+    "ToolTip": "Nihil corporis.",
     "Deleted": false,
-    "Rank": 756,
-    "Type": "tempora",
+    "Rank": 413,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "Goldner Group",
-        "ToolTip": "Voluptatem corrupti qui velit repellat rerum laudantium.",
+        "Id": 924,
+        "Name": "Schroeder-Schmitt",
+        "ToolTip": "Voluptatem laboriosam.",
         "Deleted": false,
-        "Rank": 316,
-        "Type": "deserunt",
+        "Rank": 477,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 505,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "cum",
-        "FullName": "Kiara Crist Jr.",
+        "IconHint": "dolorem",
+        "ColorBlock": 744,
+        "ExtraInfo": "soluta",
+        "StyleHint": "consequatur",
+        "FullName": "Madisen Lesch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldLength": 266
           }
         }
       }
     ],
-    "IconHint": "ullam",
-    "ColorBlock": 64,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "harum",
-    "FullName": "Joy Johnston",
+    "IconHint": "atque",
+    "ColorBlock": 781,
+    "ExtraInfo": "rerum",
+    "StyleHint": "vel",
+    "FullName": "Breanne Stephania Murray Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldType": "System.String",
+        "FieldLength": 88
       }
     }
   }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 766
+  "UserGroupId": 220
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 752,
+    "TargetAssignmentInfoId": 703,
     "Values": [
-      659,
-      768
+      167,
+      900
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 413,
-    "DimensionListItemDisplayName": "Wunsch LLC",
+    "DimensionListItem": 300,
+    "DimensionListItemDisplayName": "Okuneva-Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldType": "System.String",
+        "FieldLength": 942
       }
     }
   }

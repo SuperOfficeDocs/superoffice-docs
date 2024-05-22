@@ -138,10 +138,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 818,
-  "SaleId": 125,
+  "SuggestedAppointmentId": 394,
+  "SaleId": 942,
   "CreateNow": false,
-  "OwnerId": 368
+  "OwnerId": 493
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-09-07T11:16:08.6471415+02:00",
-  "AppointmentId": 771,
-  "Description": "Reverse-engineered systematic benchmark",
-  "Title": "corporis",
-  "Agenda": "nostrum",
-  "InternalNotes": "minima",
-  "StartDate": "1998-07-06T11:16:08.6471415+02:00",
-  "EndDate": "2013-03-19T11:16:08.6471415+01:00",
+  "CreatedDate": "2008-02-07T12:57:32.9772902+01:00",
+  "AppointmentId": 140,
+  "Description": "Customer-focused modular projection",
+  "Title": "laudantium",
+  "Agenda": "vel",
+  "InternalNotes": "id",
+  "StartDate": "2006-09-14T12:57:32.9772902+02:00",
+  "EndDate": "2019-01-17T12:57:32.9772902+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 200,
+  "MotherId": 679,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-09-15T11:16:08.6471415+02:00",
+  "UpdatedDate": "2002-10-16T12:57:32.9772902+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 118,
+  "ActiveLinks": 248,
   "Links": [
     {
-      "EntityName": "Johnston-Lindgren",
-      "Id": 212,
-      "Description": "Monitored context-sensitive algorithm",
-      "ExtraInfo": "deleniti",
-      "LinkId": 493,
+      "EntityName": "McDermott, Rodriguez and Howell",
+      "Id": 751,
+      "Description": "Quality-focused explicit capability",
+      "ExtraInfo": "similique",
+      "LinkId": 632,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 430
         }
       }
     }
   ],
-  "AlarmLeadTime": "facilis",
+  "AlarmLeadTime": "qui",
   "HasAlarm": false,
-  "ColorIndex": 321,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "tempore",
-  "LeadTime": "autem",
-  "Location": "incidunt",
-  "RejectCounter": 685,
+  "ColorIndex": 925,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "error",
+  "LeadTime": "vero",
+  "Location": "atque",
+  "RejectCounter": 733,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 823,
-      "PersonId": 768,
-      "ContactId": 669,
-      "EmailId": 532,
-      "SendEmail": false,
+      "AssociateId": 344,
+      "PersonId": 210,
+      "ContactId": 249,
+      "EmailId": 733,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "sterling_schroeder@mohr.biz",
-      "Description": "Quality-focused grid-enabled emulation"
+      "EmailAddress": "graham_emmerich@armstrongkirlin.co.uk",
+      "Description": "Enterprise-wide human-resource paradigm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-04-21T11:16:08.6471415+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2017-09-07T12:57:32.9772902+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 943,
+  "PreferredTZLocation": 647,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 835,
+  "SuggestedAppointmentId": 480,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sapiente",
+  "CentralserviceVideomeetId": "ullam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Sabina Rice",
-    "SuperOffice:2": "875417900"
+    "SuperOffice:1": "Miss Hailey Graham PhD",
+    "SuperOffice:2": "Miss Ransom Beer"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "perspiciatis"
+    "CustomFields1": "quo",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "1997-05-11T11:16:08.6471415+02:00",
-  "PublishTo": "2005-02-26T11:16:08.6471415+01:00",
-  "PublishFrom": "1997-11-21T11:16:08.6471415+01:00",
+  "PublishEventDate": "2003-05-17T12:57:32.9929142+02:00",
+  "PublishTo": "2012-12-13T12:57:32.9929142+01:00",
+  "PublishFrom": "2001-08-18T12:57:32.9929142+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 962,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 259
         }
       }
     },
     {
-      "VisibleId": 962,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 259
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldType": "System.String",
+      "FieldLength": 676
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 286
+  "AssociateId": 328
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 878,
-    "ERPName": "Barrows, Jenkins and Brakus",
-    "DisplayName": "Bahringer-Reilly",
-    "DisplayDescription": "Automated real-time neural-net",
-    "Rank": 203,
-    "ConnectorName": "Ratke, Little and Terry",
-    "ErpConnectionId": 349,
-    "ExtraData": "quibusdam",
+    "QuoteConnectionId": 977,
+    "ERPName": "Stiedemann, Schinner and O'Reilly",
+    "DisplayName": "Hirthe-Hansen",
+    "DisplayDescription": "Total motivating process improvement",
+    "Rank": 821,
+    "ConnectorName": "Mayert Inc and Sons",
+    "ErpConnectionId": 17,
+    "ExtraData": "quam",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 306,
-        "ERPPriceListKey": "animi",
-        "QuoteConnectionId": 276,
-        "Name": "Pouros, Lind and Larson",
-        "Description": "Persistent optimal productivity",
-        "Currency": "magnam",
-        "CurrencyName": "Wisozk, Feeney and Weissnat",
-        "ValidFrom": "2008-05-19T11:16:09.6161411+02:00",
-        "ValidTo": "2010-05-30T11:16:09.6161411+02:00",
-        "IsActive": false,
+        "PriceListId": 629,
+        "ERPPriceListKey": "ipsam",
+        "QuoteConnectionId": 110,
+        "Name": "Reichel-Batz",
+        "Description": "Triple-buffered dynamic capability",
+        "Currency": "dicta",
+        "CurrencyName": "Senger-Bartell",
+        "ValidFrom": "2005-07-30T12:57:34.7428121+02:00",
+        "ValidTo": "2010-10-28T12:57:34.7428121+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldType": "System.String",
+            "FieldLength": 143
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": false,
+    "AllAccess": true,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      639,
-      674
+      635,
+      545
     ],
     "AssociateAccessIds": [
-      714,
-      290
+      11,
+      811
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 61
       }
     }
   }

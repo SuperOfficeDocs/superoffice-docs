@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=85
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=935
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 737,
-  "UniqueIdentifier": "est",
-  "Name": "Ankunding-Price",
-  "Description": "Customer-focused clear-thinking concept",
-  "IncludeId": "quia",
-  "HierarchyId": 668,
-  "Source": "dicta",
-  "Registered": "2010-05-25T11:16:08.9597121+02:00",
-  "RegisteredAssociateId": 513,
-  "Updated": "1999-11-14T11:16:08.9597121+01:00",
-  "UpdatedAssociateId": 423,
+  "EjscriptId": 628,
+  "UniqueIdentifier": "fuga",
+  "Name": "Pacocha Inc and Sons",
+  "Description": "Configurable even-keeled help-desk",
+  "IncludeId": "ut",
+  "HierarchyId": 815,
+  "Source": "libero",
+  "Registered": "2007-12-07T12:57:33.6180694+01:00",
+  "RegisteredAssociateId": 985,
+  "Updated": "1998-01-02T12:57:33.6180694+01:00",
+  "UpdatedAssociateId": 826,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

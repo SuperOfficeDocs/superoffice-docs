@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=174
+POST /api/v1/Agents/List/GetCountry?countryId=874
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 181,
-  "Name": "Kuphal Inc and Sons",
-  "CurrencyId": 943,
-  "EnglishName": "Keebler-Cummerata",
+  "CountryId": 972,
+  "Name": "Aufderhar LLC",
+  "CurrencyId": 254,
+  "EnglishName": "Ratke Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Extended real-time definition",
-  "OrgNrText": "724379",
-  "InterAreaPrefix": "eum",
-  "DialInPrefix": "sed",
-  "ZipPrefix": "assumenda",
-  "DomainName": "Wilderman, Kirlin and Kuphal",
-  "AddressLayoutId": 231,
-  "DomesticAddressLayoutId": 644,
-  "ForeignAddressLayoutId": 787,
-  "Rank": 953,
-  "Tooltip": "est",
-  "Deleted": false,
+  "ImageDescription": "Secured methodical infrastructure",
+  "OrgNrText": "760659",
+  "InterAreaPrefix": "sed",
+  "DialInPrefix": "dolor",
+  "ZipPrefix": "enim",
+  "DomainName": "Pfannerstill, Lesch and Wilkinson",
+  "AddressLayoutId": 682,
+  "DomesticAddressLayoutId": 754,
+  "ForeignAddressLayoutId": 10,
+  "Rank": 549,
+  "Tooltip": "voluptatem",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 284
     }
   }
 }

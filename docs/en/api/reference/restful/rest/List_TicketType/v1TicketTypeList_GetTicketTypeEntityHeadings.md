@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 234,
-    "Name": "Marquardt, Murazik and Schaefer",
-    "Tooltip": "dolor",
+    "HeadingId": 254,
+    "Name": "Hirthe Inc and Sons",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 663,
-    "UdListDefinitionId": 300,
+    "Rank": 379,
+    "UdListDefinitionId": 396,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 44
       }
     }
   }

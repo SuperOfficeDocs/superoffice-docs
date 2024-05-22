@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Gleason LLC",
-    "ToolTip": "Quos eos molestias nam ea tempora dolor.",
+    "Id": 680,
+    "Name": "Boyle, Konopelski and Marks",
+    "ToolTip": "Quibusdam sunt cumque.",
     "Deleted": false,
-    "Rank": 987,
-    "Type": "culpa",
-    "ColorBlock": 911,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2008-07-20T11:16:14.3710713+02:00",
+    "Rank": 932,
+    "Type": "vel",
+    "ColorBlock": 929,
+    "IconHint": "accusantium",
+    "Selected": true,
+    "LastChanged": "1999-12-12T12:57:43.1365038+01:00",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Boyle, Stokes and Yundt",
-        "ToolTip": "Voluptatem aut nulla iste et consequatur blanditiis.",
-        "Deleted": false,
-        "Rank": 910,
-        "Type": "vel",
-        "ColorBlock": 471,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2011-09-26T11:16:14.3710713+02:00",
+        "Id": 249,
+        "Name": "Kuphal-Wintheiser",
+        "ToolTip": "Sed quasi.",
+        "Deleted": true,
+        "Rank": 218,
+        "Type": "aspernatur",
+        "ColorBlock": 572,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2000-11-30T12:57:43.1365038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "officiis",
+        "ExtraInfo": "minus",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Rae Legros",
+        "FullName": "Alysha Weissnat III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 324
+            "FieldLength": 629
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "ut",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Tony Ullrich",
+    "FullName": "Mrs. Scottie Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 342
       }
     }
   }

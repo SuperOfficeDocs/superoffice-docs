@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhlman, Schamberger and Pfeffer",
-  "RecordId": 567,
-  "AssociateId": 424,
-  "ExtraInfo": "minima"
+  "TableName": "Cummings, Abernathy and Lang",
+  "RecordId": 751,
+  "AssociateId": 306,
+  "ExtraInfo": "quia"
 }
 ```
 

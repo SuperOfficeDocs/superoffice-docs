@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Braun Inc and Sons",
-  "AssociateId": 677,
-  "DetailsTable": 989,
-  "DetailsRecord": 624,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 630,
+  "Name": "Reichel-Schiller",
+  "AssociateId": 491,
+  "DetailsTable": 887,
+  "DetailsRecord": 227,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eveniet",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "corrupti",
+    "ParameterObject2": "quasi"
   },
-  "LastStarted": "2019-08-03T11:16:09.2878404+02:00",
-  "Created": "2024-04-17T11:16:09.2878404+02:00",
-  "StartCount": 735,
-  "DatabaseSerialNumber": "165974",
-  "Context": "architecto",
-  "Result": "vel",
+  "LastStarted": "2010-12-12T12:57:34.0711192+01:00",
+  "Created": "2013-01-06T12:57:34.0711192+01:00",
+  "StartCount": 146,
+  "DatabaseSerialNumber": "1627681",
+  "Context": "velit",
+  "Result": "unde",
   "State": "All",
-  "Description": "Optional exuding approach",
-  "Response": "ut",
-  "Request": "delectus",
-  "ProgressDescription": "Stand-alone client-driven solution",
-  "ProgressPercent": 222,
-  "FileName": "Block-Williamson",
+  "Description": "Streamlined fresh-thinking forecast",
+  "Response": "eius",
+  "Request": "adipisci",
+  "ProgressDescription": "Enterprise-wide scalable utilisation",
+  "ProgressPercent": 642,
+  "FileName": "Roberts, Toy and Kirlin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

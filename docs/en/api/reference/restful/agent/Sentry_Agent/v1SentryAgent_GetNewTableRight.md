@@ -72,11 +72,11 @@ OK
 POST /api/v1/Agents/Sentry/GetNewTableRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gutkowski, Gleason and Schuster"
+  "TableName": "Breitenberg, Dickinson and Grimes"
 }
 ```
 
@@ -88,6 +88,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": "orchestrate real-time e-markets"
+  "Reason": ""
 }
 ```

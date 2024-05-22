@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "repellendus",
+  "FieldLabel": "cum",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 704,
-  "ColumnId": 581,
-  "FieldDefault": "quibusdam",
-  "FieldHeight": 622,
-  "FieldLabel": "modi",
-  "FieldLeft": 212,
-  "FieldTop": 174,
+  "UDefFieldId": 956,
+  "ColumnId": 335,
+  "FieldDefault": "et",
+  "FieldHeight": 836,
+  "FieldLabel": "inventore",
+  "FieldLeft": 366,
+  "FieldTop": 71,
   "FieldType": "Checkbox",
-  "FieldWidth": 837,
-  "FormatMask": "neque",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 730,
-  "LabelLeft": 474,
-  "LabelTop": 537,
-  "LabelWidth": 157,
-  "LastVersionId": 931,
-  "ListTableId": 893,
+  "FieldWidth": 503,
+  "FormatMask": "quia",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 996,
+  "LabelLeft": 92,
+  "LabelTop": 39,
+  "LabelWidth": 535,
+  "LastVersionId": 424,
+  "ListTableId": 962,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 640,
-  "ProgId": "reprehenderit",
-  "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 203,
-  "TextLength": 739,
-  "Tooltip": "quis",
-  "UdefIdentity": 139,
-  "UDListDefinitionId": 437,
+  "Page1LineNo": 712,
+  "ProgId": "numquam",
+  "IsReadOnly": true,
+  "ShortLabel": "et",
+  "TabOrder": 959,
+  "TextLength": 777,
+  "Tooltip": "omnis",
+  "UdefIdentity": 715,
+  "UDListDefinitionId": 30,
   "Justification": "Center",
-  "Version": 950,
-  "TemplateVariableName": "Spinka Inc and Sons",
+  "Version": 155,
+  "TemplateVariableName": "Pouros-Grant",
   "HasBeenPublished": true,
-  "MdoListName": "Buckridge Inc and Sons",
+  "MdoListName": "Conn Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 254
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Gutkowski-Gaylord",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 135,
-  "Rank": 543,
+  "Id": 857,
+  "Name": "Runolfsdottir Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 668,
+  "Rank": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldType": "System.String",
+      "FieldLength": 956
     }
   }
 }

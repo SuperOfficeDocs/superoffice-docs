@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    94,
-    456
+    191,
+    539
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 74,
-    "StartDate": "2008-01-15T11:16:08.4278552+01:00",
-    "EndDate": "2012-06-19T11:16:08.4278552+02:00",
+    "AppointmentId": 624,
+    "StartDate": "2006-07-26T12:57:32.7428108+02:00",
+    "EndDate": "2009-02-22T12:57:32.7428108+01:00",
     "Type": "BookingForChecklist",
-    "Task": "explicabo",
-    "AssociateFullName": "Ford McDermott",
-    "ContactName": "Willms Inc and Sons",
-    "Description": "Virtual high-level concept",
-    "PersonFullName": "Eudora Kertzmann",
-    "PersonId": 268,
-    "ContactId": 30,
-    "ProjectId": 654,
-    "ProjectName": "Price Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 547,
-    "ColorIndex": 122,
+    "Task": "sit",
+    "AssociateFullName": "Esmeralda Quitzon",
+    "ContactName": "Rau, Goodwin and O'Connell",
+    "Description": "Inverse explicit emulation",
+    "PersonFullName": "Presley Grady",
+    "PersonId": 29,
+    "ContactId": 510,
+    "ProjectId": 497,
+    "ProjectName": "Beier-Rogahn",
+    "IsPublished": true,
+    "AssociateId": 880,
+    "ColorIndex": 220,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 546,
-    "PriorityName": "Mante Group",
+    "PriorityId": 257,
+    "PriorityName": "Jaskolski, Schmitt and Torphy",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2020-06-08T11:16:08.4278552+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2019-12-09T12:57:32.7428108+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-08-03T11:16:08.4278552+02:00",
-    "RecurringEndDate": "2019-04-05T11:16:08.4278552+02:00",
-    "MotherId": 198,
-    "AssignedBy": 392,
-    "AssignedByFullName": "Izaiah Pagac",
-    "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "est",
-    "SaleId": 925,
-    "SaleName": "Halvorson-Roob",
-    "AssociateName": "Ernser Inc and Sons",
-    "CreatedDate": "1999-01-17T11:16:08.4278552+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Ms. Bud Lueilwitz",
-    "CreatedByAssociateId": 773,
+    "RecurringStartDate": "2022-04-23T12:57:32.7428108+02:00",
+    "RecurringEndDate": "2016-04-07T12:57:32.7428108+02:00",
+    "MotherId": 701,
+    "AssignedBy": 685,
+    "AssignedByFullName": "Ms. Althea Stiedemann",
+    "RejectReason": "strategize visionary content",
+    "Location": "consequuntur",
+    "AlarmLeadTime": "a",
+    "SaleId": 38,
+    "SaleName": "Miller-Schmeler",
+    "AssociateName": "Raynor-Blanda",
+    "CreatedDate": "2008-03-12T12:57:32.7428108+01:00",
+    "CreatedBy": "consequatur",
+    "CreatedByFullName": "Ms. Emmitt Fredrick Hoppe",
+    "CreatedByAssociateId": 653,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 148,
-    "Title": "omnis",
-    "Agenda": "repellendus",
-    "InternalNotes": "quis",
+    "PreferredTZLocation": 266,
+    "Title": "voluptatibus",
+    "Agenda": "ducimus",
+    "InternalNotes": "natus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 221
       }
     }
   }

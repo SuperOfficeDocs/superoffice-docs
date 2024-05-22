@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 661,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "ab",
-  "PassiveText": "ea",
+  "ReldefId": 723,
+  "Name": "Corkery, Satterfield and Haley",
+  "Tooltip": "neque",
+  "PassiveText": "itaque",
   "Deleted": false,
-  "Rank": 959,
+  "Rank": 271,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 516
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

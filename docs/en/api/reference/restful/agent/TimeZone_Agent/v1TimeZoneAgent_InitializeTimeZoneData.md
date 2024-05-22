@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 761,
-    "Name": "Corkery, Bogan and Gutmann",
-    "TZLocationCode": "impedit",
-    "TZLocationCities": "beatae",
-    "IsoNumber": 14,
+    "TZLocationID": 355,
+    "Name": "Brakus Group",
+    "TZLocationCode": "ipsa",
+    "TZLocationCities": "eos",
+    "IsoNumber": 993,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 979,
-        "StartMonth": 636,
-        "EndDay": 407,
-        "EndMonth": 207,
-        "TZOffset": 570,
-        "StartRulePattern": "ab",
-        "EndRulePattern": "soluta"
+        "StartDay": 973,
+        "StartMonth": 717,
+        "EndDay": 397,
+        "EndMonth": 946,
+        "TZOffset": 543,
+        "StartRulePattern": "fugiat",
+        "EndRulePattern": "pariatur"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 561,
-        "StartMonth": 619,
-        "EndDay": 21,
-        "EndMonth": 53,
-        "TZOffset": 513,
-        "StartRulePattern": "ex",
-        "EndRulePattern": "voluptatem"
+        "StartDay": 932,
+        "StartMonth": 917,
+        "EndDay": 358,
+        "EndMonth": 664,
+        "TZOffset": 284,
+        "StartRulePattern": "et",
+        "EndRulePattern": "quo"
       }
     }
   }

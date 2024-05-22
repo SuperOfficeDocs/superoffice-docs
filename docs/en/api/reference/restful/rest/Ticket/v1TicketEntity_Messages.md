@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket/{id}/Messages?$select=name,department,category/id
 GET /api/v1/Ticket/{id}/Messages?$filter=name begins 'S'
 GET /api/v1/Ticket/{id}/Messages?$orderBy=name asc
-GET /api/v1/Ticket/{id}/Messages?$entities=a
-GET /api/v1/Ticket/{id}/Messages?$top=261
-GET /api/v1/Ticket/{id}/Messages?$skip=639
+GET /api/v1/Ticket/{id}/Messages?$entities=quia
+GET /api/v1/Ticket/{id}/Messages?$top=30
+GET /api/v1/Ticket/{id}/Messages?$skip=337
 GET /api/v1/Ticket/{id}/Messages?$mode=Full
 GET /api/v1/Ticket/{id}/Messages?$options=GrandTotal=true
-GET /api/v1/Ticket/{id}/Messages?$context=adipisci
+GET /api/v1/Ticket/{id}/Messages?$context=necessitatibus
 GET /api/v1/Ticket/{id}/Messages?$format=JSON
 GET /api/v1/Ticket/{id}/Messages?$jsonSafe=False
 GET /api/v1/Ticket/{id}/Messages?$output=Display
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "libero",
   "value": [
     {
-      "PrimaryKey": 282,
-      "EntityName": "person",
-      "personId": 282,
-      "fullName": "Miss Geraldine Edgar Kuphal"
+      "PrimaryKey": 8068,
+      "EntityName": "sale",
+      "saleId": 8068,
+      "contactId": 5521,
+      "name": "Stark Inc and Sons"
     },
     {
-      "PrimaryKey": 4580,
-      "EntityName": "person",
-      "personId": 4580,
-      "fullName": "Aric Parisian"
+      "PrimaryKey": 9437,
+      "EntityName": "sale",
+      "saleId": 9437,
+      "contactId": 228,
+      "name": "Gibson-Batz"
     }
   ]
 }

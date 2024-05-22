@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Connelly-Lowe",
-    "ToolTip": "Accusamus mollitia atque vel ad voluptas.",
+    "Id": 210,
+    "Name": "Legros-Carroll",
+    "ToolTip": "Saepe non qui dolorem dolor ratione.",
     "Deleted": true,
-    "Rank": 782,
-    "Type": "consequatur",
-    "ColorBlock": 583,
-    "IconHint": "ut",
+    "Rank": 580,
+    "Type": "maiores",
+    "ColorBlock": 291,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2012-04-05T11:16:14.5589219+02:00",
+    "LastChanged": "2004-06-22T12:57:43.4489324+02:00",
     "ChildItems": [
       {
-        "Id": 970,
-        "Name": "Predovic-Rath",
-        "ToolTip": "Ut animi eveniet non magnam.",
+        "Id": 73,
+        "Name": "Dickinson, Volkman and Mertz",
+        "ToolTip": "Aspernatur aspernatur earum et expedita quis saepe rerum.",
         "Deleted": false,
-        "Rank": 588,
-        "Type": "culpa",
-        "ColorBlock": 407,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2023-11-08T11:16:14.5589219+01:00",
+        "Rank": 476,
+        "Type": "quaerat",
+        "ColorBlock": 319,
+        "IconHint": "exercitationem",
+        "Selected": true,
+        "LastChanged": "1998-05-15T12:57:43.4489324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "animi",
-        "Hidden": false,
-        "FullName": "Miss Annie Zechariah Dickinson"
+        "ExtraInfo": "et",
+        "StyleHint": "libero",
+        "Hidden": true,
+        "FullName": "Prof. Michel Reilly"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "quod",
-    "Hidden": true,
-    "FullName": "Prof. Shaniya Ortiz"
+    "ExtraInfo": "nobis",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Princess Windler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Cassin, Schmeler and Aufderhar",
-    "ToolTip": "Dignissimos id dolorem numquam sequi voluptatibus dolores.",
-    "Deleted": true,
-    "Rank": 7,
-    "Type": "voluptate",
-    "ColorBlock": 38,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2009-05-19T11:16:14.5589219+02:00",
+    "Id": 569,
+    "Name": "Renner, Jerde and Langosh",
+    "ToolTip": "Cupiditate aliquam omnis et sint omnis sit ipsa.",
+    "Deleted": false,
+    "Rank": 79,
+    "Type": "voluptas",
+    "ColorBlock": 467,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2005-09-06T12:57:43.4489324+02:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Rowe-Schmidt",
-        "ToolTip": "Voluptates voluptas quia aut.",
-        "Deleted": false,
-        "Rank": 385,
-        "Type": "quos",
-        "ColorBlock": 726,
-        "IconHint": "asperiores",
+        "Id": 227,
+        "Name": "Roob-Padberg",
+        "ToolTip": "Sequi ipsa quis incidunt.",
+        "Deleted": true,
+        "Rank": 738,
+        "Type": "sapiente",
+        "ColorBlock": 138,
+        "IconHint": "minus",
         "Selected": true,
-        "LastChanged": "2020-10-07T11:16:14.5589219+02:00",
+        "LastChanged": "2000-04-05T12:57:43.4489324+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "corporis",
+        "ExtraInfo": "omnis",
+        "StyleHint": "illo",
         "Hidden": true,
-        "FullName": "Mr. Elfrieda Abernathy III",
+        "FullName": "Christelle Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 772
+            "FieldType": "System.Int32",
+            "FieldLength": 684
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "repellendus",
-    "Hidden": false,
-    "FullName": "Allan Moen DDS",
+    "ExtraInfo": "vel",
+    "StyleHint": "tempore",
+    "Hidden": true,
+    "FullName": "Mr. Justina Rogers Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 637
       }
     }
   }

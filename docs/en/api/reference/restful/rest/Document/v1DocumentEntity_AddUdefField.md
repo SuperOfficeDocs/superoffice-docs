@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 604,
-  "ColumnId": 154,
-  "FieldDefault": "accusamus",
-  "FieldHeight": 147,
-  "FieldLabel": "illum",
-  "FieldLeft": 43,
-  "FieldTop": 947,
+  "UDefFieldId": 26,
+  "ColumnId": 376,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 61,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 337,
+  "FieldTop": 737,
   "FieldType": "Checkbox",
-  "FieldWidth": 537,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 260,
+  "FormatMask": "eligendi",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 798,
-  "LabelLeft": 643,
-  "LabelTop": 10,
-  "LabelWidth": 751,
-  "LastVersionId": 541,
-  "ListTableId": 82,
-  "IsMandatory": true,
+  "LabelHeight": 400,
+  "LabelLeft": 893,
+  "LabelTop": 509,
+  "LabelWidth": 475,
+  "LastVersionId": 792,
+  "ListTableId": 225,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 292,
-  "ProgId": "nihil",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatum",
-  "TabOrder": 303,
-  "TextLength": 233,
-  "Tooltip": "necessitatibus",
-  "UdefIdentity": 282,
-  "UDListDefinitionId": 591,
+  "Page1LineNo": 778,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "non",
+  "TabOrder": 100,
+  "TextLength": 836,
+  "Tooltip": "cum",
+  "UdefIdentity": 388,
+  "UDListDefinitionId": 575,
   "Justification": "Center",
-  "Version": 490,
-  "TemplateVariableName": "O'Hara LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Considine Group",
+  "Version": 632,
+  "TemplateVariableName": "Altenwerth-Botsford",
+  "HasBeenPublished": false,
+  "MdoListName": "Berge-Thompson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

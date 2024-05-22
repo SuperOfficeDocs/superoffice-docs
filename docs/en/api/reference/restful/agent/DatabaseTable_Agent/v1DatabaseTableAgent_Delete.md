@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Effertz LLC",
+  "TableName": "Brekke Inc and Sons",
   "IDs": [
-    897,
-    643
+    103,
+    447
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "fugit",
-  "Inserts": 500,
-  "Updates": 384,
-  "Deletes": 679,
+  "Message": "sint",
+  "Inserts": 230,
+  "Updates": 712,
+  "Deletes": 991,
   "RowStatus": [
     {
-      "PrimaryKey": 572,
+      "PrimaryKey": 563,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "earum"
+        "iste",
+        "laborum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 471
         }
       }
     },
     {
-      "PrimaryKey": 572,
+      "PrimaryKey": 563,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "earum"
+        "iste",
+        "laborum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 471
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 191
     }
   }
 }

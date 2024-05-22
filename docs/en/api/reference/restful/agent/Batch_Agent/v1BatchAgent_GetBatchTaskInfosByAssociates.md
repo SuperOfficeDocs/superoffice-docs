@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    79,
-    440
+    459,
+    195
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Trantow-Kulas",
-    "AssociateId": 708,
-    "DetailsTable": 388,
-    "DetailsRecord": 526,
-    "IsSystemTask": false,
+    "Id": 271,
+    "Name": "Torphy, Leuschke and Kuhn",
+    "AssociateId": 350,
+    "DetailsTable": 756,
+    "DetailsRecord": 765,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "doloribus",
-      "ParameterObject2": "esse"
+      "ParameterObject1": "architecto",
+      "ParameterObject2": "voluptatum"
     },
-    "LastStarted": "2010-07-20T11:16:08.7410229+02:00",
-    "Created": "2014-08-12T11:16:08.7410229+02:00",
-    "StartCount": 68,
-    "DatabaseSerialNumber": "1177902",
-    "Context": "in",
-    "Result": "laboriosam",
+    "LastStarted": "2023-11-16T12:57:33.2658907+01:00",
+    "Created": "2003-10-16T12:57:33.2658907+02:00",
+    "StartCount": 821,
+    "DatabaseSerialNumber": "297222",
+    "Context": "dolorem",
+    "Result": "alias",
     "State": "All",
-    "Description": "Programmable zero defect adapter",
-    "Response": "ducimus",
-    "Request": "ipsam",
-    "ProgressDescription": "Operative dedicated analyzer",
-    "ProgressPercent": 694,
-    "FileName": "Bailey, Trantow and Heller",
+    "Description": "Compatible client-driven utilisation",
+    "Response": "sunt",
+    "Request": "soluta",
+    "ProgressDescription": "Reactive heuristic policy",
+    "ProgressPercent": 61,
+    "FileName": "Langosh, McLaughlin and Parisian",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 994
       }
     }
   }

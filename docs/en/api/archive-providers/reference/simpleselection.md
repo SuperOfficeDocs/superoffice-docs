@@ -75,13 +75,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
 |selectionAssociate/locationAddress|string|Location: Location| x |
+|selectionAssociate/isLocation|bool|Is a location: Is a location| x |
 |selection/textId|int|Text ID| x |
 |selection/infoText|positiveString|Description : Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSelection?$select=updatedDate,lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/SimpleSelection?$select=lastMembershipChange,selectionAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

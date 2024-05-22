@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 862,
-  "Name": "Kutch, Schowalter and Zulauf",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "Rank": 271,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 499,
+  "Name": "Rolfson LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 136,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true
+  "ListType": "adipisci",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 336,
-  "Name": "Romaguera, Stracke and Legros",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "Rank": 474,
-  "IsCustomList": false,
+  "Id": 708,
+  "Name": "Hoppe LLC",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 281,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vel",
+  "UseGroupsAndHeadings": false,
+  "ListType": "pariatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 723
     }
   }
 }

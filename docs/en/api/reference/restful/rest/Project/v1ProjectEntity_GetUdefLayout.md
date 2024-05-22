@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 797,
-    "ColumnId": 476,
-    "FieldDefault": "qui",
-    "FieldHeight": 978,
-    "FieldLabel": "pariatur",
-    "FieldLeft": 929,
-    "FieldTop": 230,
+    "UDefFieldId": 545,
+    "ColumnId": 117,
+    "FieldDefault": "similique",
+    "FieldHeight": 342,
+    "FieldLabel": "labore",
+    "FieldLeft": 66,
+    "FieldTop": 944,
     "FieldType": "Checkbox",
-    "FieldWidth": 888,
-    "FormatMask": "blanditiis",
-    "HideLabel": false,
+    "FieldWidth": 924,
+    "FormatMask": "asperiores",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 277,
-    "LabelLeft": 382,
-    "LabelTop": 712,
-    "LabelWidth": 857,
-    "LastVersionId": 902,
-    "ListTableId": 693,
-    "IsMandatory": true,
+    "LabelHeight": 406,
+    "LabelLeft": 662,
+    "LabelTop": 108,
+    "LabelWidth": 177,
+    "LastVersionId": 809,
+    "ListTableId": 541,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 195,
-    "ProgId": "sequi",
+    "Page1LineNo": 437,
+    "ProgId": "tempore",
     "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 25,
-    "TextLength": 197,
-    "Tooltip": "ducimus",
-    "UdefIdentity": 955,
-    "UDListDefinitionId": 967,
+    "ShortLabel": "porro",
+    "TabOrder": 758,
+    "TextLength": 294,
+    "Tooltip": "eligendi",
+    "UdefIdentity": 168,
+    "UDListDefinitionId": 82,
     "Justification": "Center",
-    "Version": 844,
-    "TemplateVariableName": "Walker-Crist",
+    "Version": 1000,
+    "TemplateVariableName": "Hegmann Group",
     "HasBeenPublished": false,
-    "MdoListName": "Schmidt, Kuphal and O'Kon",
+    "MdoListName": "Steuber-Maggio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 269
       }
     }
   }

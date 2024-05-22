@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 989,
-  "HeadingId": 166
+  "UdListDefinitionId": 874,
+  "HeadingId": 24
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "White, Kuphal and Nicolas",
-    "ToolTip": "Quo dolores sed in rerum autem.",
-    "Deleted": false,
-    "Rank": 43,
-    "Type": "ea",
-    "ColorBlock": 42,
-    "IconHint": "ad",
+    "Id": 759,
+    "Name": "Stroman Group",
+    "ToolTip": "Qui expedita magni et.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "voluptatibus",
+    "ColorBlock": 977,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2011-12-10T11:16:09.3347069+01:00",
+    "LastChanged": "2001-06-10T12:57:34.1648498+02:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Fritsch, Corkery and Bins",
-        "ToolTip": "Dolorem cum ad qui.",
-        "Deleted": true,
-        "Rank": 265,
-        "Type": "qui",
-        "ColorBlock": 671,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2016-01-29T11:16:09.3347069+01:00",
+        "Id": 433,
+        "Name": "Heaney, Braun and Wyman",
+        "ToolTip": "Illum qui in suscipit error.",
+        "Deleted": false,
+        "Rank": 221,
+        "Type": "odio",
+        "ColorBlock": 529,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2015-08-26T12:57:34.1648498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Miss Bridget Georgianna Kub",
+        "FullName": "Bianka Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 885
+            "FieldType": "System.Int32",
+            "FieldLength": 108
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Beau Altenwerth",
+    "ExtraInfo": "harum",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Jarrett Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 889
       }
     }
   }

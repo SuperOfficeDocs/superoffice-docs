@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 101,
-  "LanguageCode": "sed"
+  "DocumentTemplateId": 381,
+  "LanguageCode": "et"
 }
 ```
 

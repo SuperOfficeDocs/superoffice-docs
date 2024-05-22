@@ -117,7 +117,7 @@ SelectionEntity updated.
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -164,56 +164,56 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Total methodical solution",
-  "Postit": "aliquam",
+  "Description": "Intuitive encompassing website",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 197,
-  "IncludePerson": 904,
-  "MemberCount": 185,
-  "Name": "Windler Group",
-  "PostitTextId": 246,
-  "CreatedDate": "2017-01-01T11:16:14.2148007+01:00",
-  "SelectionId": 602,
-  "SoundEx": "saepe",
-  "Source": 524,
-  "TextId": 618,
-  "UpdatedDate": "2006-07-09T11:16:14.2148007+02:00",
-  "UpdatedCount": 286,
-  "Visibility": 625,
+  "GroupIdx": 972,
+  "IncludePerson": 769,
+  "MemberCount": 99.99,
+  "Name": "Olson, Kreiger and Trantow",
+  "PostitTextId": 115,
+  "CreatedDate": "2022-07-29T12:57:42.7919274+02:00",
+  "SelectionId": 144,
+  "SoundEx": "sit",
+  "Source": 180,
+  "TextId": 377,
+  "UpdatedDate": "2006-09-21T12:57:42.7919274+02:00",
+  "UpdatedCount": 783,
+  "Visibility": 145,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 47,
-  "TargetTableName": "Bergnaum-Blick",
+  "TargetTableNumber": 563,
+  "TargetTableName": "Barton-Renner",
   "Completed": false,
-  "LeftSelectionId": 38,
-  "RightSelectionId": 900,
+  "LeftSelectionId": 146,
+  "RightSelectionId": 976,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Russel-Heller",
-  "ShadowProviderName": "Rau, Ratke and Corwin",
-  "ChartKey": "dignissimos",
-  "LastLoaded": "2003-01-30T11:16:14.2148007+01:00",
-  "LastLoadedBy": 427,
+  "MainProviderName": "Berge-Kshlerin",
+  "ShadowProviderName": "Flatley Inc and Sons",
+  "ChartKey": "natus",
+  "LastLoaded": "2021-07-08T12:57:42.7919274+02:00",
+  "LastLoadedBy": 344,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-09-19T11:16:14.2148007+02:00",
-  "LastMembershipChangeBy": 697,
+  "LastMembershipChange": "1997-12-05T12:57:42.7919274+01:00",
+  "LastMembershipChangeBy": 734,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nemo",
-  "MemberTabHeading": "dolorum",
-  "MailingsProviderName": "Cruickshank-Hintz",
-  "DashboardTileDefinitionId": 255,
+  "MainHeading": "cum",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Schroeder-Ruecker",
+  "DashboardTileDefinitionId": 571,
   "VisibleFor": [
     {
-      "VisibleId": 648,
+      "VisibleId": 806,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "veniam"
     },
     {
-      "VisibleId": 648,
+      "VisibleId": 806,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "veniam"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive multi-tasking intranet",
-  "Postit": "a",
+  "Description": "Optimized cohesive data-warehouse",
+  "Postit": "aperiam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 872,
-  "IncludePerson": 367,
-  "MemberCount": 976,
-  "Name": "Stracke-Zboncak",
-  "PostitTextId": 121,
-  "CreatedDate": "2017-06-26T11:16:14.2148007+02:00",
-  "SelectionId": 572,
-  "SoundEx": "eum",
-  "Source": 20,
-  "TextId": 538,
-  "UpdatedDate": "2011-12-28T11:16:14.2148007+01:00",
-  "UpdatedCount": 153,
-  "Visibility": 964,
+  "GroupIdx": 530,
+  "IncludePerson": 350,
+  "MemberCount": 99.99,
+  "Name": "Renner, Prosacco and Cruickshank",
+  "PostitTextId": 599,
+  "CreatedDate": "2006-12-05T12:57:42.7919274+01:00",
+  "SelectionId": 910,
+  "SoundEx": "ex",
+  "Source": 360,
+  "TextId": 902,
+  "UpdatedDate": "2015-02-18T12:57:42.7919274+01:00",
+  "UpdatedCount": 760,
+  "Visibility": 994,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 449,
-  "TargetTableName": "Hand-Pfeffer",
+  "CompanyUnique": true,
+  "TargetTableNumber": 926,
+  "TargetTableName": "Rosenbaum LLC",
   "Completed": false,
-  "LeftSelectionId": 48,
-  "RightSelectionId": 228,
+  "LeftSelectionId": 501,
+  "RightSelectionId": 261,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Morissette-O'Hara",
-  "ShadowProviderName": "Wintheiser, O'Keefe and Renner",
-  "ChartKey": "rerum",
-  "LastLoaded": "2000-03-09T11:16:14.2148007+01:00",
-  "LastLoadedBy": 609,
+  "MainProviderName": "Gleason, Green and Treutel",
+  "ShadowProviderName": "Bernhard LLC",
+  "ChartKey": "et",
+  "LastLoaded": "2002-02-02T12:57:42.7919274+01:00",
+  "LastLoadedBy": 774,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-08-22T11:16:14.2148007+02:00",
-  "LastMembershipChangeBy": 28,
+  "LastMembershipChange": "2006-12-03T12:57:42.7919274+01:00",
+  "LastMembershipChangeBy": 534,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "reiciendis",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Rice LLC",
-  "DashboardTileDefinitionId": 545,
+  "MainHeading": "quis",
+  "MemberTabHeading": "incidunt",
+  "MailingsProviderName": "Gorczany, Sanford and Rippin",
+  "DashboardTileDefinitionId": 216,
   "VisibleFor": [
     {
-      "VisibleId": 649,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldType": "System.String",
+          "FieldLength": 191
         }
       }
     },
     {
-      "VisibleId": 649,
+      "VisibleId": 74,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldType": "System.String",
+          "FieldLength": 191
         }
       }
     }
@@ -299,12 +299,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldLength": 100
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

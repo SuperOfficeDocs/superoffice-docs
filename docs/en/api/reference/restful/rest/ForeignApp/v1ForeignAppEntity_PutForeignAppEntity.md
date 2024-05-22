@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 422,
-  "Name": "Osinski Inc and Sons",
-  "CreatedDate": "2007-06-04T11:16:13.9175899+02:00",
-  "UpdatedDate": "2020-04-06T11:16:13.9175899+02:00",
+  "ForeignAppId": 358,
+  "Name": "Predovic, West and Erdman",
+  "CreatedDate": "2020-03-20T12:57:42.448256+01:00",
+  "UpdatedDate": "2020-10-09T12:57:42.448256+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 582,
-      "Name": "Dooley Group",
-      "CreatedDate": "2014-04-27T11:16:13.9175899+02:00",
-      "UpdatedDate": "2021-04-05T11:16:13.9175899+02:00",
-      "AssociateFullName": "Cecile Wiegand",
-      "CreatedBy": "eligendi",
-      "UpdatedBy": "libero",
-      "DeviceIdentifier": "corporis",
-      "ForeignAppId": 166
+      "ForeignDeviceId": 71,
+      "Name": "McLaughlin-Corwin",
+      "CreatedDate": "1997-02-25T12:57:42.448256+01:00",
+      "UpdatedDate": "1997-10-28T12:57:42.448256+01:00",
+      "AssociateFullName": "Hal McClure",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "pariatur",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 745
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 419,
-  "Name": "Walker LLC",
-  "CreatedDate": "2005-03-29T11:16:13.9175899+02:00",
-  "UpdatedDate": "2015-08-11T11:16:13.9175899+02:00",
+  "ForeignAppId": 209,
+  "Name": "Lebsack-Ledner",
+  "CreatedDate": "2011-11-01T12:57:42.448256+01:00",
+  "UpdatedDate": "2023-08-26T12:57:42.448256+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 818,
-      "Name": "Stracke-Bernhard",
-      "CreatedDate": "1996-12-18T11:16:13.93321+01:00",
-      "UpdatedDate": "1998-04-23T11:16:13.93321+02:00",
-      "AssociateFullName": "Jeffrey Flatley",
-      "CreatedBy": "laboriosam",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "harum",
-      "ForeignAppId": 719,
+      "ForeignDeviceId": 515,
+      "Name": "Lindgren LLC",
+      "CreatedDate": "2020-07-13T12:57:42.448256+02:00",
+      "UpdatedDate": "2015-09-08T12:57:42.448256+02:00",
+      "AssociateFullName": "Alvah Raphaelle Schmitt DVM",
+      "CreatedBy": "ut",
+      "UpdatedBy": "itaque",
+      "DeviceIdentifier": "necessitatibus",
+      "ForeignAppId": 283,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 475
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 963
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

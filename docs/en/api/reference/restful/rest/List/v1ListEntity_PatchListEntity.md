@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Lockman, Gutmann and Nolan",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "Rank": 404,
+  "Id": 818,
+  "Name": "Conn-Braun",
+  "Tooltip": "voluptatum",
+  "Deleted": false,
+  "Rank": 62,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 733
     }
   },
   "_Links": {

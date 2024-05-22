@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Harvey LLC",
-    "Tooltip": "dolorem",
+    "Id": 572,
+    "Name": "Cronin Inc and Sons",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 892,
+    "Rank": 871,
     "IsCustomList": false,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "ipsam",
+    "IsMDOList": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "voluptas",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldType": "System.String",
+        "FieldLength": 828
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=42
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=485
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 719,
-  "CreatedAt": "2002-07-07T11:16:09.9761636+02:00",
+  "TicketMessageId": 652,
+  "CreatedAt": "2016-10-14T12:57:35.2113938+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "non",
-  "PersonId": 391,
-  "PersonFullName": "Yvette Hackett",
-  "ContactId": 534,
-  "ContactName": "Wilkinson-Heathcote",
-  "ContactDepartment": "",
-  "NumAttachments": 875,
-  "EmailHeader": "brennan@tillman.us",
+  "Author": "incidunt",
+  "PersonId": 358,
+  "PersonFullName": "Dr. Destany Collins",
+  "ContactId": 484,
+  "ContactName": "Schmidt Inc and Sons",
+  "ContactDepartment": "embrace sticky infrastructures",
+  "NumAttachments": 664,
+  "EmailHeader": "myra@parisianrice.biz",
   "MessageHeaders": [
     {
-      "Id": 496,
-      "Name": "Hodkiewicz LLC",
-      "Value": "sit",
+      "Id": 485,
+      "Name": "Johnson LLC",
+      "Value": "rerum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldLength": 861
         }
       }
     }
   ],
-  "Language": "eos",
-  "Sentiment": 136,
-  "SentimentConfidence": 221,
-  "CreatedBy": 879,
-  "ChangedAt": "2003-09-09T11:16:09.9761636+02:00",
+  "Language": "maxime",
+  "Sentiment": 765,
+  "SentimentConfidence": 718,
+  "CreatedBy": 308,
+  "ChangedAt": "2005-08-03T12:57:35.2113938+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 313
     }
   }
 }

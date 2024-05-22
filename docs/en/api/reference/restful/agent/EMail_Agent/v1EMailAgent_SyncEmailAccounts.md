@@ -72,14 +72,14 @@ Content-Type: application/json; charset=utf-8
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 167,
-      "AssociateName": "Bailey LLC",
-      "AssociateId": 351
+      "AccountId": 882,
+      "AssociateName": "Kessler, Armstrong and Torphy",
+      "AssociateId": 850
     },
     {
-      "AccountId": 167,
-      "AssociateName": "Bailey LLC",
-      "AssociateId": 351
+      "AccountId": 882,
+      "AssociateName": "Kessler, Armstrong and Torphy",
+      "AssociateId": 850
     }
   ]
 }

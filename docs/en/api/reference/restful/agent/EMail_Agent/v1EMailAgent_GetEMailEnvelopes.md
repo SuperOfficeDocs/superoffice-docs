@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    716,
-    996
+    566,
+    72
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 978,
-    "MessageId": "et",
-    "Subject": "consequatur",
+    "ServerId": 873,
+    "MessageId": "quos",
+    "Subject": "modi",
     "From": null,
     "To": [
       {
-        "ContactId": 59,
-        "ContactName": "Roob, Huels and Homenick",
-        "PersonId": 766,
-        "PersonName": "McDermott, Osinski and Cole",
-        "AssociateId": 147,
-        "Address": "iusto",
-        "EmailId": 948,
+        "ContactId": 785,
+        "ContactName": "Goyette-Homenick",
+        "PersonId": 999,
+        "PersonName": "Abshire LLC",
+        "AssociateId": 702,
+        "Address": "omnis",
+        "EmailId": 530,
         "DuplicatePersonIds": [
-          737,
-          350
+          568,
+          882
         ],
-        "Name": "Rosenbaum, Ernser and Lynch",
+        "Name": "Marquardt, Abbott and Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldLength": 724
           }
         }
       }
     ],
-    "Sent": "2016-01-15T11:16:09.2253497+01:00",
+    "Sent": "2014-07-16T12:57:33.9617687+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 50,
+    "Size": 849,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 760
       }
     }
   }

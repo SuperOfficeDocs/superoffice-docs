@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "dolorem",
-  "PrefKey": "saepe",
+  "PrefSection": "omnis",
+  "PrefKey": "ut",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "a",
+  "RawValue": "debitis",
   "Specification": null,
-  "DisplayValue": "impedit",
-  "DisplayTooltip": "id",
+  "DisplayValue": "in",
+  "DisplayTooltip": "non",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 487,
-  "PrefDescId": 840,
-  "TableName": "Lynch, Grant and Kessler",
-  "UserPreferenceId": 41,
+  "TargetId": 353,
+  "PrefDescId": 949,
+  "TableName": "Thompson, McDermott and Spencer",
+  "UserPreferenceId": 982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

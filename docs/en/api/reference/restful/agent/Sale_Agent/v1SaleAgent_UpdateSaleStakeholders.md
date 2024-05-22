@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Gorczany Inc and Sons",
-      "Comment": "voluptas",
-      "StakeholderRoleId": 305,
-      "CountryId": 100,
-      "PersonId": 922,
-      "EmailDescription": "elva@kuhickunze.co.uk",
-      "EmailId": 33,
-      "EmailAddress": "dusty_wunsch@padberghudson.us",
-      "PhoneId": 962,
-      "ContactName": "Hagenes-Ward",
-      "ContactId": 952,
-      "SaleId": 441,
-      "Mrmrs": "et",
-      "Firstname": "Preston",
-      "MiddleName": "Kertzmann-Kunze",
-      "Lastname": "Hessel",
-      "SaleStakeholderId": 836,
-      "Rank": 990,
-      "Phone": "(637)578-8046"
+      "StakeholderRoleName": "Lubowitz, Rowe and Purdy",
+      "Comment": "eos",
+      "StakeholderRoleId": 306,
+      "CountryId": 39,
+      "PersonId": 108,
+      "EmailDescription": "electa@heaneybruen.uk",
+      "EmailId": 673,
+      "EmailAddress": "imelda_gleason@herzoggreen.biz",
+      "PhoneId": 308,
+      "ContactName": "Lueilwitz LLC",
+      "ContactId": 135,
+      "SaleId": 123,
+      "Mrmrs": "architecto",
+      "Firstname": "Sydnee",
+      "MiddleName": "Kub, Bartoletti and Mayer",
+      "Lastname": "Kertzmann",
+      "SaleStakeholderId": 99,
+      "Rank": 82,
+      "Phone": "1-117-646-8662"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Adams LLC",
-    "Comment": "est",
-    "StakeholderRoleId": 934,
-    "CountryId": 352,
-    "PersonId": 410,
-    "EmailDescription": "willie@abbott.uk",
-    "EmailId": 237,
-    "EmailAddress": "kenyon@bailey.uk",
-    "PhoneId": 309,
-    "ContactName": "Will, Fahey and Hyatt",
-    "ContactId": 245,
-    "SaleId": 538,
-    "Mrmrs": "perferendis",
-    "Firstname": "Burley",
-    "MiddleName": "Cormier, Hoeger and Ernser",
-    "Lastname": "McGlynn",
-    "SaleStakeholderId": 502,
-    "Rank": 687,
-    "Phone": "(172)567-0712 x0345",
+    "StakeholderRoleName": "Macejkovic Inc and Sons",
+    "Comment": "nobis",
+    "StakeholderRoleId": 801,
+    "CountryId": 161,
+    "PersonId": 218,
+    "EmailDescription": "jessie@romaguera.info",
+    "EmailId": 426,
+    "EmailAddress": "leora.schiller@tillman.name",
+    "PhoneId": 173,
+    "ContactName": "Larkin-Koelpin",
+    "ContactId": 803,
+    "SaleId": 449,
+    "Mrmrs": "dolorem",
+    "Firstname": "Odessa",
+    "MiddleName": "Monahan-Rodriguez",
+    "Lastname": "Dooley",
+    "SaleStakeholderId": 969,
+    "Rank": 91,
+    "Phone": "863-410-6227 x95918",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 971
+        "FieldType": "System.Int32",
+        "FieldLength": 133
       }
     }
   }

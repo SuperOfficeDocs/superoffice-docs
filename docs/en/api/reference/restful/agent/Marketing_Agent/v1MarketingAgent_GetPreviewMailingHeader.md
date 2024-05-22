@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 33
+  "ShipmentId": 495
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2017-10-02T11:16:09.3815779+02:00",
+  "StartDate": "1998-06-12T12:57:34.2429559+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 572,
-  "ShipmentDescription": "Grass-roots global data-warehouse",
-  "FromAddress": "occaecati",
-  "Configuration": 265,
-  "PersonId": 661,
-  "PersonFullName": "Miss Jany Brakus V",
-  "ShipmentType": "omnis",
-  "MessageId": 44,
-  "MessageSubject": "ipsam",
-  "DocumentMessageId": 653,
-  "NumSent": 420,
-  "NumOpened": 877,
-  "NumBounced": 691,
-  "NumClicks": 696,
+  "ShipmentId": 658,
+  "ShipmentDescription": "Mandatory 24 hour software",
+  "FromAddress": "molestias",
+  "Configuration": 680,
+  "PersonId": 558,
+  "PersonFullName": "Ms. Riley Laverna Kling",
+  "ShipmentType": "ipsam",
+  "MessageId": 528,
+  "MessageSubject": "aut",
+  "DocumentMessageId": 835,
+  "NumSent": 405,
+  "NumOpened": 269,
+  "NumBounced": 751,
+  "NumClicks": 620,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

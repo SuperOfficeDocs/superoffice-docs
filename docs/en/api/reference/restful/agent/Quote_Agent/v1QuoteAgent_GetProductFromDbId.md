@@ -110,7 +110,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 373
+  "ProductId": 194
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 304,
-  "ERPProductKey": "velit",
-  "ERPPriceListKey": "alias",
-  "Name": "Lehner-Williamson",
-  "Description": "Implemented demand-driven extranet",
-  "Code": "eos",
-  "PriceUnit": "reprehenderit",
-  "QuantityUnit": "cupiditate",
-  "IsSubscription": false,
-  "SubscriptionUnit": "a",
-  "DefaultSubscriptionQuantity": 13444.859999999999,
-  "ItemNumber": "1318911",
+  "ProductId": 879,
+  "ERPProductKey": "hic",
+  "ERPPriceListKey": "explicabo",
+  "Name": "Zulauf, Halvorson and Hirthe",
+  "Description": "De-engineered hybrid framework",
+  "Code": "rerum",
+  "PriceUnit": "amet",
+  "QuantityUnit": "dolores",
+  "IsSubscription": true,
+  "SubscriptionUnit": "doloribus",
+  "DefaultSubscriptionQuantity": 3497.544,
+  "ItemNumber": "1535156",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "possimus",
-  "VAT": 20314.588,
-  "VATInfo": "enim",
-  "UnitCost": 18951.298,
-  "UnitMinimumPrice": 11736.83,
-  "UnitListPrice": 18396.579999999998,
+  "ProductFamilyKey": "voluptatem",
+  "ProductTypeKey": "non",
+  "VAT": 16017.874,
+  "VATInfo": "cupiditate",
+  "UnitCost": 322.80199999999996,
+  "UnitMinimumPrice": 27563.53,
+  "UnitListPrice": 8126.4619999999995,
   "InAssortment": false,
-  "Supplier": "nam",
-  "SupplierCode": "nemo",
-  "Rights": "non",
-  "Rule": "dolor",
+  "Supplier": "ut",
+  "SupplierCode": "et",
+  "Rights": "similique",
+  "Rule": "omnis",
   "ExtraInfo": [
     {
-      "Name": "Berge-Turner",
-      "Value": "ut",
+      "Name": "Stiedemann-Zemlak",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldType": "System.String",
+          "FieldLength": 424
         }
       }
     },
     {
-      "Name": "Berge-Turner",
-      "Value": "ut",
+      "Name": "Stiedemann-Zemlak",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldType": "System.String",
+          "FieldLength": 424
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
-  "ExtraField1": "nulla",
-  "ExtraField2": "qui",
-  "ExtraField3": "omnis",
-  "ExtraField4": "incidunt",
-  "ExtraField5": "non",
-  "InStock": 3704.388,
+  "RawExtraInfo": "recusandae",
+  "ExtraField1": "eligendi",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "assumenda",
+  "ExtraField4": "iusto",
+  "ExtraField5": "quasi",
+  "InStock": 6390.226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 562
     }
   }
 }

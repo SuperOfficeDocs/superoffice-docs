@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 85,
-  "Name": "Mohr, Miller and O'Conner",
-  "Tooltip": "dolore",
-  "Rank": 846,
+  "SaleTypeId": 792,
+  "Name": "Bruen Inc and Sons",
+  "Tooltip": "ipsa",
+  "Rank": 644,
   "DurationUnit": "Century",
-  "SaleDuration": 98,
-  "SaleTypeCatId": 389,
+  "SaleDuration": 768,
+  "SaleTypeCatId": 886,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 516,
-  "QuoteLinesTemplate": 228,
-  "ConfirmationLinesTemplate": 800,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 930,
-  "MinEarningPercent": 667,
-  "GroupQuoteLinesBy": 383,
-  "SortGroupLinesBy": 294,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 329,
+  "QuoteLinesTemplate": 571,
+  "ConfirmationLinesTemplate": 369,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 546,
+  "MinEarningPercent": 544,
+  "GroupQuoteLinesBy": 500,
+  "SortGroupLinesBy": 663,
   "Stages": [
     {
-      "Id": 918,
-      "Name": "Lehner Group",
-      "ToolTip": "In harum ipsum ratione iusto.",
+      "Id": 896,
+      "Name": "Simonis-Dach",
+      "ToolTip": "Quia et porro error ex.",
       "Deleted": false,
-      "Rank": 565,
-      "Type": "consequatur",
-      "ColorBlock": 577,
-      "IconHint": "enim",
-      "Selected": true,
-      "LastChanged": "2014-11-16T11:16:09.3815779+01:00",
+      "Rank": 126,
+      "Type": "modi",
+      "ColorBlock": 43,
+      "IconHint": "eum",
+      "Selected": false,
+      "LastChanged": "1999-10-23T12:57:34.2117122+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "exercitationem",
+      "ExtraInfo": "dignissimos",
+      "StyleHint": "occaecati",
       "Hidden": false,
-      "FullName": "Meaghan Boyle"
+      "FullName": "Bartholome Marks"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 964,
-  "Name": "Abshire LLC",
-  "Tooltip": "nostrum",
-  "Rank": 261,
+  "SaleTypeId": 712,
+  "Name": "Rutherford, Vandervort and Kulas",
+  "Tooltip": "aliquam",
+  "Rank": 89,
   "DurationUnit": "Century",
-  "SaleDuration": 769,
-  "SaleTypeCatId": 262,
+  "SaleDuration": 880,
+  "SaleTypeCatId": 888,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 991,
-  "QuoteLinesTemplate": 982,
-  "ConfirmationLinesTemplate": 467,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 827,
-  "MinEarningPercent": 720,
-  "GroupQuoteLinesBy": 985,
-  "SortGroupLinesBy": 4,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 14,
+  "QuoteLinesTemplate": 487,
+  "ConfirmationLinesTemplate": 34,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 558,
+  "MinEarningPercent": 495,
+  "GroupQuoteLinesBy": 411,
+  "SortGroupLinesBy": 370,
   "Stages": [
     {
-      "Id": 691,
-      "Name": "Parker Group",
-      "ToolTip": "Eveniet dolor voluptatem sunt qui in sed sed.",
+      "Id": 721,
+      "Name": "Zulauf, Gaylord and Schimmel",
+      "ToolTip": "Occaecati aut.",
       "Deleted": true,
-      "Rank": 341,
-      "Type": "aut",
-      "ColorBlock": 32,
-      "IconHint": "optio",
-      "Selected": true,
-      "LastChanged": "2020-06-20T11:16:09.3815779+02:00",
+      "Rank": 184,
+      "Type": "sed",
+      "ColorBlock": 844,
+      "IconHint": "odit",
+      "Selected": false,
+      "LastChanged": "2015-12-24T12:57:34.2117122+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "debitis",
+      "ExtraInfo": "in",
+      "StyleHint": "assumenda",
       "Hidden": false,
-      "FullName": "Giuseppe Denesik",
+      "FullName": "Vance Hudson Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldType": "System.String",
+          "FieldLength": 277
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

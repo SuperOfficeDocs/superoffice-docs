@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 631,
-    "Name": "Deckow LLC",
-    "Tooltip": "sapiente",
+    "HeadingId": 14,
+    "Name": "Gusikowski Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 70,
-    "UdListDefinitionId": 656
+    "Rank": 756,
+    "UdListDefinitionId": 679
   },
   {
-    "HeadingId": 631,
-    "Name": "Deckow LLC",
-    "Tooltip": "sapiente",
+    "HeadingId": 14,
+    "Name": "Gusikowski Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 70,
-    "UdListDefinitionId": 656
+    "Rank": 756,
+    "UdListDefinitionId": 679
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 389,
-    "Name": "Kuphal, Collins and Kunde",
-    "Tooltip": "nulla",
+    "HeadingId": 349,
+    "Name": "Kassulke, Howe and Nader",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 996,
-    "UdListDefinitionId": 57,
+    "Rank": 172,
+    "UdListDefinitionId": 137,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

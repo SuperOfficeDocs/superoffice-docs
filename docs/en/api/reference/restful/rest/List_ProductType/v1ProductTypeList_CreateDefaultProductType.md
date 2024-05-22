@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Baumbach, Heidenreich and Padberg",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 960,
-  "Rank": 381,
+  "Id": 755,
+  "Name": "Romaguera, Greenfelder and Price",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 742,
+  "Rank": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 98
     }
   }
 }

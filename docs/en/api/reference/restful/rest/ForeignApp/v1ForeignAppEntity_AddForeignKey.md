@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptates",
-  "Value": "reiciendis",
-  "RecordId": 760,
-  "CreatedDate": "2016-07-25T11:16:13.93321+02:00",
-  "UpdatedDate": "2012-08-03T11:16:13.93321+02:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "nobis",
-  "TableName": "Langworth, Wisoky and Bashirian"
+  "Key": "delectus",
+  "Value": "quasi",
+  "RecordId": 539,
+  "CreatedDate": "1997-03-14T12:57:42.4638774+01:00",
+  "UpdatedDate": "2006-07-13T12:57:42.4638774+02:00",
+  "UpdatedBy": "velit",
+  "CreatedBy": "officia",
+  "TableName": "Kassulke LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "aperiam",
-  "RecordId": 936,
-  "CreatedDate": "2000-08-02T11:16:13.93321+02:00",
-  "UpdatedDate": "1997-12-04T11:16:13.93321+01:00",
-  "UpdatedBy": "incidunt",
-  "CreatedBy": "et",
-  "TableName": "Lehner-O'Conner",
+  "Key": "ipsam",
+  "Value": "ducimus",
+  "RecordId": 767,
+  "CreatedDate": "2012-08-26T12:57:42.4638774+02:00",
+  "UpdatedDate": "2009-10-12T12:57:42.4638774+02:00",
+  "UpdatedBy": "dolores",
+  "CreatedBy": "voluptas",
+  "TableName": "Turcotte Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 196
     }
   }
 }

@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Total 4th generation utilisation
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=rerum,vel
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Grass-roots human-resource toolset
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=nesciunt,adipisci
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "odio",
-  "VersionId": "cupiditate",
-  "Success": true,
+  "ExternalReference": "animi",
+  "VersionId": "est",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "deleniti",
-  "AdditionalInfo": "deserunt"
+  "Value": "quasi",
+  "AdditionalInfo": "qui"
 }
 ```

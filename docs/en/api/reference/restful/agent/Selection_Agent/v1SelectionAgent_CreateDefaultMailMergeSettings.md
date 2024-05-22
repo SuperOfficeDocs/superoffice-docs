@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 120,
-  "DocumentId": 51,
+  "SelectionId": 585,
+  "DocumentId": 781,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "quia",
-  "AlwaysUseCustomAttention": false,
-  "SaveDocument": false,
-  "CustomMailBody": "ea",
+  "CustomAttention": "ut",
+  "AlwaysUseCustomAttention": true,
+  "SaveDocument": true,
+  "CustomMailBody": "magni",
   "TaskEntity": null,
-  "AddCompanyInterest": 951,
-  "AddPersonInterest": 275,
-  "RemoveCompanyInterest": 695,
-  "RemovePersonInterest": 107,
+  "AddCompanyInterest": 382,
+  "AddPersonInterest": 791,
+  "RemoveCompanyInterest": 620,
+  "RemovePersonInterest": 465,
   "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 937,
-  "IncludeRetiredRecipients": false,
+  "ProjectId": 565,
+  "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "nemo",
-  "ExtraInfo": "est",
+  "CustomMailSubject": "et",
+  "ExtraInfo": "odio",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   }
 }

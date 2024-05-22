@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 721,
-  "Name": "Weissnat, Batz and Ernser",
-  "CurrencyId": 201,
-  "EnglishName": "Schimmel, Hodkiewicz and Gibson",
+  "CountryId": 411,
+  "Name": "King, Osinski and Abbott",
+  "CurrencyId": 894,
+  "EnglishName": "Lang, Friesen and Hackett",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Reduced mission-critical encryption",
-  "OrgNrText": "901199",
-  "InterAreaPrefix": "voluptatem",
-  "DialInPrefix": "aspernatur",
-  "ZipPrefix": "voluptatem",
-  "DomainName": "Jewess-Morar",
-  "AddressLayoutId": 385,
-  "DomesticAddressLayoutId": 792,
-  "ForeignAddressLayoutId": 410,
-  "Rank": 735,
-  "Tooltip": "enim",
+  "ImageDescription": "Profit-focused attitude-oriented contingency",
+  "OrgNrText": "818621",
+  "InterAreaPrefix": "rerum",
+  "DialInPrefix": "mollitia",
+  "ZipPrefix": "error",
+  "DomainName": "Romaguera LLC",
+  "AddressLayoutId": 910,
+  "DomesticAddressLayoutId": 630,
+  "ForeignAddressLayoutId": 781,
+  "Rank": 97,
+  "Tooltip": "sit",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 521
     }
   }
 }

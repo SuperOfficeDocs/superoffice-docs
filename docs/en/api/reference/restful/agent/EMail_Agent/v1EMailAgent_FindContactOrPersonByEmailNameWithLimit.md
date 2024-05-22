@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel Group",
-  "EmailAddress": "carlo.marquardt@robertsboehm.biz",
-  "NumberOfContacts": 245,
-  "NumberOfPersons": 80
+  "Name": "Sauer, Schoen and Hyatt",
+  "EmailAddress": "pierre@legros.biz",
+  "NumberOfContacts": 300,
+  "NumberOfPersons": 726
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 130,
-    "FullName": "Camilla Reilly",
-    "EmailAddress": "veronica@zemlakwaters.ca",
-    "ContactId": 2,
-    "ContactName": "Hilll LLC",
+    "PersonId": 575,
+    "FullName": "Mohammed Schiller II",
+    "EmailAddress": "emmanuel@breitenbergsmitham.ca",
+    "ContactId": 533,
+    "ContactName": "Medhurst Inc and Sons",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Hackett, Orn and Koepp",
+    "SortName": "Ward, Kohler and Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 740
       }
     }
   }

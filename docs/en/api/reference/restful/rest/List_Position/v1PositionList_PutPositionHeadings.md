@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 572,
-    "Name": "Pollich-Hegmann",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 90,
-    "UdListDefinitionId": 848
+    "HeadingId": 92,
+    "Name": "Robel LLC",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 584,
+    "UdListDefinitionId": 50
   },
   {
-    "HeadingId": 572,
-    "Name": "Pollich-Hegmann",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 90,
-    "UdListDefinitionId": 848
+    "HeadingId": 92,
+    "Name": "Robel LLC",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 584,
+    "UdListDefinitionId": 50
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 481,
-    "Name": "Ebert, Dickens and Lindgren",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 491,
-    "UdListDefinitionId": 855,
+    "HeadingId": 735,
+    "Name": "Schimmel-Bechtelar",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 744,
+    "UdListDefinitionId": 330,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 808
       }
     }
   }

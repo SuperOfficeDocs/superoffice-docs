@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Rippin LLC",
-    "ToolTip": "Numquam illo totam.",
+    "Id": 294,
+    "Name": "Stehr, Jacobson and Beer",
+    "ToolTip": "Reiciendis minus sit magni et accusamus.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "architecto",
-    "ColorBlock": 607,
-    "IconHint": "consequatur",
+    "Rank": 800,
+    "Type": "repudiandae",
+    "ColorBlock": 351,
+    "IconHint": "consequuntur",
     "Selected": true,
-    "LastChanged": "2022-09-22T11:16:14.6057886+02:00",
+    "LastChanged": "2000-03-28T12:57:43.5426609+02:00",
     "ChildItems": [
       {
-        "Id": 47,
-        "Name": "Cronin Group",
-        "ToolTip": "Quam porro et hic incidunt vitae.",
+        "Id": 973,
+        "Name": "Dicki LLC",
+        "ToolTip": "Perferendis voluptates eaque.",
         "Deleted": true,
-        "Rank": 47,
-        "Type": "tempore",
-        "ColorBlock": 41,
-        "IconHint": "porro",
-        "Selected": true,
-        "LastChanged": "2022-01-08T11:16:14.6057886+01:00",
+        "Rank": 378,
+        "Type": "voluptatem",
+        "ColorBlock": 95,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2022-03-14T12:57:43.5426609+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "optio",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Mrs. Erna Madelyn Waelchi"
+        "FullName": "Arturo Vandervort"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "facilis",
+    "ExtraInfo": "vel",
+    "StyleHint": "exercitationem",
     "Hidden": true,
-    "FullName": "Jessie Beier I"
+    "FullName": "Prof. Brain Yundt II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Yundt Group",
-    "ToolTip": "Eum perferendis eaque.",
+    "Id": 833,
+    "Name": "Mayert Group",
+    "ToolTip": "Molestias culpa ullam voluptatem praesentium fuga.",
     "Deleted": false,
-    "Rank": 400,
-    "Type": "praesentium",
-    "ColorBlock": 840,
-    "IconHint": "esse",
+    "Rank": 11,
+    "Type": "et",
+    "ColorBlock": 531,
+    "IconHint": "sapiente",
     "Selected": true,
-    "LastChanged": "2004-08-16T11:16:14.6057886+02:00",
+    "LastChanged": "2010-06-21T12:57:43.5426609+02:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Schamberger, Vandervort and Thompson",
-        "ToolTip": "Et rerum qui eum et qui aperiam.",
-        "Deleted": true,
-        "Rank": 19,
-        "Type": "vitae",
-        "ColorBlock": 766,
-        "IconHint": "voluptas",
+        "Id": 79,
+        "Name": "Roob-Keebler",
+        "ToolTip": "Sed non ratione quis fuga harum eaque velit.",
+        "Deleted": false,
+        "Rank": 387,
+        "Type": "praesentium",
+        "ColorBlock": 450,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "2015-06-12T11:16:14.6057886+02:00",
+        "LastChanged": "2017-11-03T12:57:43.5426609+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Viola Runte",
+        "ExtraInfo": "ratione",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Jarred Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldType": "System.String",
+            "FieldLength": 811
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Ms. Erna Jolie Daugherty MD",
+    "ExtraInfo": "ut",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Adalberto Hoppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldLength": 398
       }
     }
   }

@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 908,
-  "UniqueIdentifier": "ea",
-  "Name": "Feest Inc and Sons",
-  "Description": "User-friendly multimedia utilisation",
-  "IncludeId": "nostrum",
-  "HierarchyId": 16,
-  "Source": "voluptatem",
-  "Registered": "2001-09-24T11:16:08.9440885+02:00",
-  "RegisteredAssociateId": 924,
-  "Updated": "1998-02-23T11:16:08.9440885+01:00",
-  "UpdatedAssociateId": 837
+  "EjscriptId": 273,
+  "UniqueIdentifier": "tenetur",
+  "Name": "Brakus Inc and Sons",
+  "Description": "User-centric explicit neural-net",
+  "IncludeId": "nihil",
+  "HierarchyId": 266,
+  "Source": "occaecati",
+  "Registered": "2020-07-03T12:57:33.6180694+02:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2018-01-30T12:57:33.6180694+01:00",
+  "UpdatedAssociateId": 292
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 856,
-  "UniqueIdentifier": "provident",
-  "Name": "Block-Brown",
-  "Description": "Profound static focus group",
-  "IncludeId": "possimus",
-  "HierarchyId": 124,
-  "Source": "est",
-  "Registered": "2016-06-27T11:16:08.9440885+02:00",
-  "RegisteredAssociateId": 19,
-  "Updated": "1999-09-05T11:16:08.9440885+02:00",
-  "UpdatedAssociateId": 976,
+  "EjscriptId": 593,
+  "UniqueIdentifier": "itaque",
+  "Name": "Stanton, Witting and Schuppe",
+  "Description": "Realigned encompassing policy",
+  "IncludeId": "sed",
+  "HierarchyId": 436,
+  "Source": "exercitationem",
+  "Registered": "2007-05-04T12:57:33.6180694+02:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2003-07-09T12:57:33.6180694+02:00",
+  "UpdatedAssociateId": 595,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

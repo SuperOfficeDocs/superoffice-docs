@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Corwin LLC",
-    "ToolTip": "Iste magni odit et eligendi dolor accusantium.",
+    "Id": 603,
+    "Name": "Klocko LLC",
+    "ToolTip": "Deleniti corporis qui omnis quisquam incidunt.",
     "Deleted": true,
-    "Rank": 519,
-    "Type": "natus",
-    "ColorBlock": 528,
-    "IconHint": "nobis",
+    "Rank": 996,
+    "Type": "cumque",
+    "ColorBlock": 506,
+    "IconHint": "architecto",
     "Selected": true,
-    "LastChanged": "2014-04-25T11:16:14.668281+02:00",
+    "LastChanged": "2007-11-28T12:57:43.6363894+01:00",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "Satterfield LLC",
-        "ToolTip": "Ut tempora ut maxime quaerat impedit repudiandae suscipit.",
-        "Deleted": true,
-        "Rank": 811,
-        "Type": "dolores",
-        "ColorBlock": 458,
-        "IconHint": "cum",
+        "Id": 994,
+        "Name": "DuBuque Group",
+        "ToolTip": "Magnam sint et ducimus deleniti quia.",
+        "Deleted": false,
+        "Rank": 848,
+        "Type": "autem",
+        "ColorBlock": 505,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2024-04-10T11:16:14.668281+02:00",
+        "LastChanged": "2016-10-30T12:57:43.6363894+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "libero",
+        "ExtraInfo": "soluta",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Coty Melvin Rogahn II"
+        "FullName": "Felicita Jakubowski"
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "maxime",
-    "Hidden": false,
-    "FullName": "Darrion Koss DVM"
+    "ExtraInfo": "sit",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Edwin Cruickshank"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "Mraz, Kshlerin and Stracke",
-    "ToolTip": "Dignissimos nam rerum repudiandae.",
-    "Deleted": true,
-    "Rank": 419,
-    "Type": "velit",
-    "ColorBlock": 312,
-    "IconHint": "non",
+    "Id": 472,
+    "Name": "Moen, Weimann and Eichmann",
+    "ToolTip": "Consequatur accusamus doloremque id quod neque dolorum dolores.",
+    "Deleted": false,
+    "Rank": 438,
+    "Type": "amet",
+    "ColorBlock": 481,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2010-07-25T11:16:14.668281+02:00",
+    "LastChanged": "2009-12-12T12:57:43.6363894+01:00",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Turcotte Group",
-        "ToolTip": "Est cum est nihil.",
-        "Deleted": true,
-        "Rank": 645,
-        "Type": "officiis",
-        "ColorBlock": 45,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2015-04-21T11:16:14.668281+02:00",
+        "Id": 541,
+        "Name": "Lebsack-Koelpin",
+        "ToolTip": "Aut earum accusamus at pariatur.",
+        "Deleted": false,
+        "Rank": 383,
+        "Type": "consequatur",
+        "ColorBlock": 503,
+        "IconHint": "fugit",
+        "Selected": true,
+        "LastChanged": "2022-08-07T12:57:43.6363894+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Mr. Antwan Hyman Kshlerin",
+        "ExtraInfo": "omnis",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Anastacio Nitzsche",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 478
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Maggie Gulgowski",
+    "FullName": "Lisette Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

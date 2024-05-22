@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Shanahan-Considine",
-      "Operator": "iste",
+      "Name": "Pollich, Gottlieb and Gulgowski",
+      "Operator": "voluptatum",
       "Values": [
-        "maiores",
-        "magni"
+        "blanditiis",
+        "non"
       ],
       "DisplayValues": [
-        "doloribus",
-        "vero"
+        "sed",
+        "minima"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 782,
+      "InterParenthesis": 23,
       "InterOperator": "And",
-      "UniqueHash": 960
+      "UniqueHash": 38
     }
   ],
   "Columns": [
-    "quia",
-    "voluptatibus"
+    "et",
+    "reiciendis"
   ],
-  "ConnectionId": 404,
+  "ConnectionId": 865,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "quidem",
-        "quas"
+        "distinctio",
+        "atque"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "officiis",
+      "ExternalKey": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 14
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Schiller, Bosco and Strosin",
-      "DisplayName": "Turcotte LLC",
+      "Name": "Schneider-Jenkins",
+      "DisplayName": "Ebert-Rippin",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldType": "System.String",
+          "FieldLength": 50
         }
       }
     },
     {
-      "Name": "Schiller, Bosco and Strosin",
-      "DisplayName": "Turcotte LLC",
+      "Name": "Schneider-Jenkins",
+      "DisplayName": "Ebert-Rippin",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldType": "System.String",
+          "FieldLength": 50
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldType": "System.Int32",
+      "FieldLength": 891
     }
   }
 }

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/ErpSync/SaveErpConnectionSyncPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ErpConnectionIds": [
-    794,
-    237
+    931,
+    632
   ]
 }
 ```

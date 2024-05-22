@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Harber-Harber",
-  "Comment": "sed",
-  "StakeholderRoleId": 412,
-  "CountryId": 404,
-  "PersonId": 613,
-  "EmailDescription": "deanna@mcclurerempel.ca",
-  "EmailId": 763,
-  "EmailAddress": "antwon@feeneyberge.info",
-  "PhoneId": 424,
-  "ContactName": "Lindgren, Bogan and Nitzsche",
-  "ContactId": 302,
-  "SaleId": 374,
-  "Mrmrs": "exercitationem",
-  "Firstname": "Piper",
-  "MiddleName": "Williamson, Stanton and Lakin",
-  "Lastname": "Kshlerin",
-  "SaleStakeholderId": 666,
-  "Rank": 433,
-  "Phone": "916-453-0227 x020"
+  "StakeholderRoleName": "Upton LLC",
+  "Comment": "deleniti",
+  "StakeholderRoleId": 917,
+  "CountryId": 68,
+  "PersonId": 412,
+  "EmailDescription": "jazmyn.daniel@harris.biz",
+  "EmailId": 758,
+  "EmailAddress": "clark_rempel@rice.info",
+  "PhoneId": 565,
+  "ContactName": "Blanda LLC",
+  "ContactId": 227,
+  "SaleId": 717,
+  "Mrmrs": "praesentium",
+  "Firstname": "Einar",
+  "MiddleName": "Glover, Koss and Waters",
+  "Lastname": "Rau",
+  "SaleStakeholderId": 939,
+  "Rank": 770,
+  "Phone": "302-680-1648 x9948"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Grimes-Hettinger",
-  "Comment": "deleniti",
-  "StakeholderRoleId": 145,
-  "CountryId": 443,
-  "PersonId": 349,
-  "EmailDescription": "dulce@dibbertmcdermott.biz",
-  "EmailId": 131,
-  "EmailAddress": "dariana@mckenzie.ca",
-  "PhoneId": 944,
-  "ContactName": "Schuster, Rogahn and Bradtke",
-  "ContactId": 948,
-  "SaleId": 413,
-  "Mrmrs": "voluptate",
-  "Firstname": "Polly",
-  "MiddleName": "Farrell, Hyatt and Conn",
-  "Lastname": "Littel",
-  "SaleStakeholderId": 560,
-  "Rank": 844,
-  "Phone": "691-203-5967 x63565",
+  "StakeholderRoleName": "Becker, Gerlach and Bahringer",
+  "Comment": "non",
+  "StakeholderRoleId": 16,
+  "CountryId": 234,
+  "PersonId": 722,
+  "EmailDescription": "delbert@gibson.biz",
+  "EmailId": 457,
+  "EmailAddress": "bridgette@schulist.us",
+  "PhoneId": 722,
+  "ContactName": "Roberts Inc and Sons",
+  "ContactId": 106,
+  "SaleId": 612,
+  "Mrmrs": "cupiditate",
+  "Firstname": "Monique",
+  "MiddleName": "Lubowitz-Friesen",
+  "Lastname": "Goodwin",
+  "SaleStakeholderId": 901,
+  "Rank": 484,
+  "Phone": "(097)273-2680",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldType": "System.String",
+      "FieldLength": 909
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

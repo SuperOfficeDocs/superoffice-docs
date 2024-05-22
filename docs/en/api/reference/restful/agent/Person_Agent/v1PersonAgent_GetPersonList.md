@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 521,
-    "Mrmrs": "sequi",
-    "Firstname": "Lionel",
-    "Lastname": "Bogisich",
-    "MiddleName": "Kuhlman, Hermann and D'Amore",
-    "Title": "reprehenderit",
-    "Description": "Open-source contextually-based conglomeration",
-    "Email": "herbert@cruickshankwaters.biz",
-    "FullName": "Myron Rosamond Luettgen PhD",
-    "DirectPhone": "225-823-3206 x7240",
-    "FormalName": "Schinner Group",
-    "CountryId": 564,
-    "ContactId": 766,
-    "ContactName": "Effertz Inc and Sons",
-    "Retired": 549,
-    "Rank": 315,
-    "ActiveInterests": 638,
+    "Position": "perferendis",
+    "PersonId": 293,
+    "Mrmrs": "quia",
+    "Firstname": "Georgiana",
+    "Lastname": "Parisian",
+    "MiddleName": "Rau Group",
+    "Title": "facere",
+    "Description": "Distributed next generation intranet",
+    "Email": "madaline@kreiger.com",
+    "FullName": "Mellie Little",
+    "DirectPhone": "246-734-6744 x60790",
+    "FormalName": "Koelpin-Hahn",
+    "CountryId": 173,
+    "ContactId": 840,
+    "ContactName": "Von, Smitham and Swaniawski",
+    "Retired": 227,
+    "Rank": 525,
+    "ActiveInterests": 211,
     "ContactDepartment": "",
-    "ContactCountryId": 542,
-    "ContactOrgNr": "1544214",
-    "FaxPhone": "933-407-0710 x664",
-    "MobilePhone": "1-969-780-9900",
-    "ContactPhone": "1-063-591-4071",
-    "AssociateName": "Barton-Nicolas",
-    "AssociateId": 79,
+    "ContactCountryId": 153,
+    "ContactOrgNr": "848354",
+    "FaxPhone": "1-661-428-0090",
+    "MobilePhone": "1-392-760-1303 x50119",
+    "ContactPhone": "392-592-6311",
+    "AssociateName": "Rippin-Marks",
+    "AssociateId": 640,
     "UsePersonAddress": false,
-    "ContactFax": "in",
-    "Kanafname": "nobis",
-    "Kanalname": "minima",
-    "Post1": "porro",
-    "Post2": "officiis",
-    "Post3": "voluptatem",
-    "EmailName": "janae.powlowski@stiedemannmosciski.us",
-    "ContactFullName": "Deven Lang",
-    "ActiveErpLinks": 403,
-    "TicketPriorityId": 328,
-    "SupportLanguageId": 575,
-    "SupportAssociateId": 586,
+    "ContactFax": "et",
+    "Kanafname": "facilis",
+    "Kanalname": "aut",
+    "Post1": "est",
+    "Post2": "explicabo",
+    "Post3": "corporis",
+    "EmailName": "sandrine_weissnat@barrows.ca",
+    "ContactFullName": "Celestine Bins",
+    "ActiveErpLinks": 505,
+    "TicketPriorityId": 55,
+    "SupportLanguageId": 801,
+    "SupportAssociateId": 695,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 487
       }
     }
   }

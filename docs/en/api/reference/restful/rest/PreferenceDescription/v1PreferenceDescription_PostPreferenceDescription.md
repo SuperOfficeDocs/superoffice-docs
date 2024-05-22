@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 891,
-  "Section": "voluptatem",
-  "Key": "hic",
-  "Name": "Mann-Walker",
+  "PrefDescId": 710,
+  "Section": "ut",
+  "Key": "eius",
+  "Name": "Pollich, Blanda and Raynor",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized human-resource attitude",
-  "IsBuiltin": false,
-  "TableName": "Sanford-Zemlak",
-  "UserDefinedListId": 626,
-  "Rank": 893,
-  "SubGroup": "qui",
-  "MinLevel": 553,
-  "MaxValue": 521,
-  "MinValue": 563,
-  "RequiredLicense": "expedita"
+  "Description": "Function-based secondary data-warehouse",
+  "IsBuiltin": true,
+  "TableName": "Hane, Bashirian and Schmitt",
+  "UserDefinedListId": 715,
+  "Rank": 831,
+  "SubGroup": "et",
+  "MinLevel": 977,
+  "MaxValue": 759,
+  "MinValue": 594,
+  "RequiredLicense": "adipisci"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 114,
-  "Section": "blanditiis",
-  "Key": "autem",
-  "Name": "Watsica, Pacocha and Huels",
+  "PrefDescId": 286,
+  "Section": "non",
+  "Key": "rerum",
+  "Name": "Powlowski LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated executive process improvement",
-  "IsBuiltin": true,
-  "TableName": "Schuppe, Price and Littel",
-  "UserDefinedListId": 113,
-  "Rank": 251,
-  "SubGroup": "sed",
-  "MinLevel": 728,
-  "MaxValue": 686,
-  "MinValue": 774,
-  "RequiredLicense": "tempore",
+  "Description": "Automated global function",
+  "IsBuiltin": false,
+  "TableName": "Eichmann LLC",
+  "UserDefinedListId": 534,
+  "Rank": 237,
+  "SubGroup": "ut",
+  "MinLevel": 959,
+  "MaxValue": 978,
+  "MinValue": 543,
+  "RequiredLicense": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 126
     }
   },
   "_Links": {

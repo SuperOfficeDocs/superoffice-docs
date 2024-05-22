@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Hermiston, Powlowski and Herzog",
-    "Comment": "temporibus",
-    "StakeholderRoleId": 735,
-    "CountryId": 518,
-    "PersonId": 249,
-    "EmailDescription": "al@lakin.info",
-    "EmailId": 433,
-    "EmailAddress": "ephraim_adams@kemmer.biz",
-    "PhoneId": 554,
-    "ContactName": "Renner Inc and Sons",
-    "ContactId": 635,
-    "SaleId": 659,
-    "Mrmrs": "inventore",
-    "Firstname": "Dane",
-    "MiddleName": "Schultz-Erdman",
-    "Lastname": "Schmidt",
-    "SaleStakeholderId": 744,
-    "Rank": 287,
-    "Phone": "1-101-820-8572",
+    "StakeholderRoleName": "Morar, Ziemann and Renner",
+    "Comment": "omnis",
+    "StakeholderRoleId": 550,
+    "CountryId": 148,
+    "PersonId": 653,
+    "EmailDescription": "oleta.cronin@pacocha.uk",
+    "EmailId": 887,
+    "EmailAddress": "mario_labadie@rempel.com",
+    "PhoneId": 419,
+    "ContactName": "Emard-Crooks",
+    "ContactId": 46,
+    "SaleId": 625,
+    "Mrmrs": "soluta",
+    "Firstname": "Rowan",
+    "MiddleName": "Strosin Inc and Sons",
+    "Lastname": "Krajcik",
+    "SaleStakeholderId": 902,
+    "Rank": 47,
+    "Phone": "(649)278-4759 x057",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 563
+        "FieldLength": 659
       }
     }
   }

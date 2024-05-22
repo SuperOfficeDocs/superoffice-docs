@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 674,
-  "ColumnId": 82,
-  "FieldDefault": "at",
-  "FieldHeight": 552,
-  "FieldLabel": "ut",
-  "FieldLeft": 762,
-  "FieldTop": 864,
+  "UDefFieldId": 753,
+  "ColumnId": 763,
+  "FieldDefault": "exercitationem",
+  "FieldHeight": 477,
+  "FieldLabel": "et",
+  "FieldLeft": 678,
+  "FieldTop": 743,
   "FieldType": "Checkbox",
-  "FieldWidth": 142,
-  "FormatMask": "quia",
+  "FieldWidth": 554,
+  "FormatMask": "dolorem",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 889,
-  "LabelLeft": 347,
-  "LabelTop": 16,
-  "LabelWidth": 747,
-  "LastVersionId": 675,
-  "ListTableId": 446,
+  "LabelHeight": 152,
+  "LabelLeft": 999,
+  "LabelTop": 286,
+  "LabelWidth": 4,
+  "LastVersionId": 673,
+  "ListTableId": 914,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 503,
-  "ProgId": "illum",
+  "Page1LineNo": 250,
+  "ProgId": "pariatur",
   "IsReadOnly": false,
-  "ShortLabel": "maiores",
-  "TabOrder": 196,
-  "TextLength": 662,
-  "Tooltip": "incidunt",
-  "UdefIdentity": 915,
-  "UDListDefinitionId": 188,
+  "ShortLabel": "et",
+  "TabOrder": 259,
+  "TextLength": 708,
+  "Tooltip": "esse",
+  "UdefIdentity": 925,
+  "UDListDefinitionId": 536,
   "Justification": "Center",
-  "Version": 293,
-  "TemplateVariableName": "Crist, Walsh and Collins",
-  "HasBeenPublished": false,
-  "MdoListName": "Smitham, Stroman and Beatty",
+  "Version": 393,
+  "TemplateVariableName": "Rath LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "D'Amore Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

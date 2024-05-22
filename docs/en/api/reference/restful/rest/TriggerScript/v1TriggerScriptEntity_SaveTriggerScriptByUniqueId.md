@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 28,
-  "Name": "Romaguera Inc and Sons",
+  "ScreenChooserId": 526,
+  "Name": "Walter, Hilll and Kovacek",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "reprehenderit",
-  "Source": "rerum",
-  "Registered": "2019-12-13T11:16:14.3398362+01:00",
-  "RegisteredAssociateId": 557,
-  "Updated": "1999-12-09T11:16:14.3398362+01:00",
-  "UpdatedAssociateId": 179
+  "Enabled": true,
+  "UniqueIdentifier": "recusandae",
+  "Source": "qui",
+  "Registered": "2017-08-19T12:57:43.0892086+02:00",
+  "RegisteredAssociateId": 714,
+  "Updated": "2004-03-13T12:57:43.0892086+01:00",
+  "UpdatedAssociateId": 71
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 58,
-  "Name": "Jast-Reynolds",
+  "ScreenChooserId": 317,
+  "Name": "Bailey, Corwin and Renner",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eligendi",
-  "Source": "enim",
-  "Registered": "2002-09-19T11:16:14.3398362+02:00",
-  "RegisteredAssociateId": 921,
-  "Updated": "2019-09-07T11:16:14.3398362+02:00",
-  "UpdatedAssociateId": 517,
+  "UniqueIdentifier": "tempore",
+  "Source": "qui",
+  "Registered": "2002-03-10T12:57:43.0892086+01:00",
+  "RegisteredAssociateId": 829,
+  "Updated": "2000-06-22T12:57:43.0892086+02:00",
+  "UpdatedAssociateId": 761,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldType": "System.String",
+      "FieldLength": 128
     }
   }
 }

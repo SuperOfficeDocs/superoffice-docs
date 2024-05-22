@@ -55,7 +55,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -105,73 +105,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 Jul 2002 11:16:14 G7T
+Last-Modified: Fri, 26 Mar 2021 12:57:42 G3T
 
 {
-  "Description": "Re-contextualized transitional conglomeration",
-  "Postit": "dolor",
+  "Description": "Distributed transitional open architecture",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 726,
-  "IncludePerson": 425,
-  "MemberCount": 233,
-  "Name": "Becker-Abernathy",
-  "PostitTextId": 313,
-  "CreatedDate": "2009-12-09T11:16:14.2148007+01:00",
-  "SelectionId": 226,
-  "SoundEx": "ipsum",
-  "Source": 164,
-  "TextId": 365,
-  "UpdatedDate": "2002-07-13T11:16:14.2148007+02:00",
-  "UpdatedCount": 205,
-  "Visibility": 379,
+  "GroupIdx": 596,
+  "IncludePerson": 762,
+  "MemberCount": 99.99,
+  "Name": "Batz LLC",
+  "PostitTextId": 271,
+  "CreatedDate": "2004-02-19T12:57:42.7763061+01:00",
+  "SelectionId": 250,
+  "SoundEx": "accusamus",
+  "Source": 580,
+  "TextId": 589,
+  "UpdatedDate": "2021-03-26T12:57:42.7763061+01:00",
+  "UpdatedCount": 192,
+  "Visibility": 542,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 460,
-  "TargetTableName": "Volkman Group",
-  "Completed": false,
-  "LeftSelectionId": 816,
-  "RightSelectionId": 974,
+  "TargetTableNumber": 636,
+  "TargetTableName": "Grimes Group",
+  "Completed": true,
+  "LeftSelectionId": 622,
+  "RightSelectionId": 902,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hane Inc and Sons",
-  "ShadowProviderName": "Mitchell Group",
-  "ChartKey": "tempore",
-  "LastLoaded": "2012-01-16T11:16:14.2148007+01:00",
-  "LastLoadedBy": 326,
+  "MainProviderName": "Breitenberg-Stiedemann",
+  "ShadowProviderName": "Tillman, Kilback and Steuber",
+  "ChartKey": "aut",
+  "LastLoaded": "2004-12-09T12:57:42.7763061+01:00",
+  "LastLoadedBy": 1001,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-09-30T11:16:14.2148007+02:00",
-  "LastMembershipChangeBy": 946,
+  "LastMembershipChange": "2003-09-30T12:57:42.7763061+02:00",
+  "LastMembershipChangeBy": 244,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Kilback, Gottlieb and Ward",
-  "DashboardTileDefinitionId": 61,
+  "MainHeading": "eum",
+  "MemberTabHeading": "quibusdam",
+  "MailingsProviderName": "Carter-Becker",
+  "DashboardTileDefinitionId": 877,
   "VisibleFor": [
     {
-      "VisibleId": 923,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldType": "System.String",
+          "FieldLength": 466
         }
       }
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldType": "System.String",
+          "FieldLength": 466
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Sat, 13 Jul 2002 11:16:14 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 440
+  "SuggestedDocumentId": 830
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 834,
+  "DocumentId": 133,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "repudiandae",
-  "Header": "ut",
-  "Name": "Becker-Erdman",
-  "OurRef": "omnis",
-  "YourRef": "eum",
-  "CreatedDate": "2009-06-29T11:16:09.1472278+02:00",
-  "UpdatedDate": "2023-08-02T11:16:09.1472278+02:00",
-  "Description": "Visionary transitional support",
+  "Attention": "ipsam",
+  "Header": "neque",
+  "Name": "Turcotte-O'Hara",
+  "OurRef": "nihil",
+  "YourRef": "accusantium",
+  "CreatedDate": "2013-03-18T12:57:33.8211479+01:00",
+  "UpdatedDate": "2018-10-12T12:57:33.8211479+02:00",
+  "Description": "De-engineered solution-oriented matrices",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-01-15T11:16:09.1472278+01:00",
-  "ExternalRef": "dignissimos",
+  "Date": "2013-05-12T12:57:33.8211479+02:00",
+  "ExternalRef": "accusamus",
   "Completed": "Completed",
-  "ActiveLinks": 243,
+  "ActiveLinks": 436,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wisoky-Collins",
-      "Id": 465,
-      "Description": "Compatible actuating core",
-      "ExtraInfo": "repudiandae",
-      "LinkId": 333,
+      "EntityName": "Sporer, Reichert and Huel",
+      "Id": 851,
+      "Description": "Business-focused motivating Graphical User Interface",
+      "ExtraInfo": "autem",
+      "LinkId": 271,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldLength": 634
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 15,
-  "Snum": 218,
+  "SuggestedDocumentId": 337,
+  "Snum": 770,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Robb Flatley"
+    "SuperOffice:1": "Miss Michael Francisca Leannon",
+    "SuperOffice:2": "Phyllis Ryan"
   },
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "illo"
+    "CustomFields1": "fuga",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "2003-05-04T11:16:09.1472278+02:00",
-  "PublishTo": "1998-09-11T11:16:09.1472278+02:00",
-  "PublishFrom": "2019-04-22T11:16:09.1472278+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2001-12-04T12:57:33.8211479+01:00",
+  "PublishTo": "2013-04-27T12:57:33.8211479+02:00",
+  "PublishFrom": "2011-01-14T12:57:33.8211479+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 654,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 816
         }
       }
     },
     {
-      "VisibleId": 654,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 483
+          "FieldType": "System.String",
+          "FieldLength": 816
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldLength": 436
     }
   }
 }

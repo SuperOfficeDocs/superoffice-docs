@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 768,
-  "Name": "Terry, Ernser and Zemlak",
-  "Description": "Up-sized non-volatile internet solution",
+  "ReportLabelLayoutId": 849,
+  "Name": "Pouros-Haag",
+  "Description": "Stand-alone attitude-oriented solution",
   "Orientation": "Landscape",
-  "PaperWidth": 537,
-  "PaperHeight": 281,
-  "LeftMargin": 438,
-  "RightMargin": 153,
-  "TopMargin": 469,
-  "BottomMargin": 535,
-  "CountColumns": 830,
-  "CountRows": 617
+  "PaperWidth": 34,
+  "PaperHeight": 217,
+  "LeftMargin": 435,
+  "RightMargin": 923,
+  "TopMargin": 689,
+  "BottomMargin": 229,
+  "CountColumns": 709,
+  "CountRows": 590
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 528,
-  "Name": "Wolff, Hammes and Kreiger",
-  "Description": "Profound solution-oriented project",
+  "ReportLabelLayoutId": 825,
+  "Name": "Watsica, Jacobson and Zboncak",
+  "Description": "Open-source stable framework",
   "Orientation": "Landscape",
-  "PaperWidth": 16,
-  "PaperHeight": 815,
-  "LeftMargin": 513,
-  "RightMargin": 835,
-  "TopMargin": 224,
-  "BottomMargin": 679,
-  "CountColumns": 730,
-  "CountRows": 135,
+  "PaperWidth": 683,
+  "PaperHeight": 339,
+  "LeftMargin": 596,
+  "RightMargin": 774,
+  "TopMargin": 151,
+  "BottomMargin": 939,
+  "CountColumns": 414,
+  "CountRows": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 238
     }
   }
 }

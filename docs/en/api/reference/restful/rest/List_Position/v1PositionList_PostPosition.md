@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 565,
-  "Name": "Nicolas, Turcotte and Ratke",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "UdListDefinitionId": 554,
-  "Rank": 767
+  "Id": 502,
+  "Name": "Abbott-Casper",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 193,
+  "Rank": 985
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Funk-Hyatt",
-  "Tooltip": "asperiores",
+  "Id": 476,
+  "Name": "Abbott LLC",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 704,
-  "Rank": 979,
+  "UdListDefinitionId": 24,
+  "Rank": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

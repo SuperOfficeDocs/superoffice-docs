@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 441
+  "ProjectId": 544
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 406,
-    "Attention": "mollitia",
-    "Header": "voluptate",
-    "Name": "Cronin, Brakus and Lebsack",
-    "OurRef": "deserunt",
-    "YourRef": "reiciendis",
-    "Description": "Re-contextualized optimizing initiative",
-    "DocumentTemplate": "laboriosam",
-    "IsPublished": false,
-    "PersonId": 986,
-    "PersonFullName": "Annabel Arno Hilpert DVM",
-    "AssociateFullName": "Leonie Schmidt",
-    "ContactId": 476,
-    "ContactName": "Hand-Carroll",
-    "ProjectId": 1001,
-    "ProjectName": "Thompson, Pollich and DuBuque",
-    "AssociateId": 170,
-    "Snum": 264,
-    "SaleId": 645,
-    "SaleName": "Ferry-Swift",
+    "DocumentId": 604,
+    "Attention": "quo",
+    "Header": "hic",
+    "Name": "Metz-Dare",
+    "OurRef": "sed",
+    "YourRef": "quis",
+    "Description": "Programmable transitional policy",
+    "DocumentTemplate": "hic",
+    "IsPublished": true,
+    "PersonId": 938,
+    "PersonFullName": "Deanna Mayert II",
+    "AssociateFullName": "Major Legros",
+    "ContactId": 886,
+    "ContactName": "Thompson LLC",
+    "ProjectId": 736,
+    "ProjectName": "Schinner LLC",
+    "AssociateId": 468,
+    "Snum": 116,
+    "SaleId": 905,
+    "SaleName": "Johns, Wiegand and Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 701
       }
     }
   }

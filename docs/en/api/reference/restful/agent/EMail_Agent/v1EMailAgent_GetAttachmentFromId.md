@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 531,
-  "AttachmentId": "repellendus"
+  "MailItemId": 733,
+  "AttachmentId": "vel"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergized national product",
-  "Filename": "dicta",
-  "Size": 975,
-  "Type": "laborum",
-  "Encoding": "et",
-  "Id": "sed",
-  "Disposition": "reiciendis",
+  "Description": "Future-proofed optimizing concept",
+  "Filename": "animi",
+  "Size": 605,
+  "Type": "non",
+  "Encoding": "incidunt",
+  "Id": "numquam",
+  "Disposition": "ut",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 47
     }
   }
 }

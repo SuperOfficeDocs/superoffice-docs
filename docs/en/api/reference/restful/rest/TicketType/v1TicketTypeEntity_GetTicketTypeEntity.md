@@ -99,43 +99,43 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 143,
-  "Name": "Carter, Bergnaum and Hirthe",
-  "Rank": 218,
-  "Tooltip": "unde",
-  "Icon": "cum",
-  "DefaultTicketStatus": 661,
+  "TicketTypeId": 206,
+  "Name": "Rogahn, Halvorson and Fisher",
+  "Rank": 967,
+  "Tooltip": "ratione",
+  "Icon": "dolorum",
+  "DefaultTicketStatus": 609,
   "TicketStatuses": [
-    670,
-    518
+    763,
+    335
   ],
-  "DefaultTicketPriority": 720,
+  "DefaultTicketPriority": 387,
   "TicketPriorities": [
-    862,
-    367
+    459,
+    458
   ],
-  "ReplyTemplate": 732,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 760,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    33,
-    378
+    516,
+    399
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 621
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

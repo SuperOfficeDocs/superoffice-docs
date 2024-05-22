@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Wisozk-Bernhard",
-    "ToolTip": "Excepturi ab quis odit iure est doloremque.",
+    "Id": 431,
+    "Name": "Sipes-Ward",
+    "ToolTip": "Laudantium perspiciatis ea ut eum molestiae.",
     "Deleted": true,
-    "Rank": 843,
-    "Type": "aut",
-    "ColorBlock": 380,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2001-10-07T11:16:14.699531+02:00",
+    "Rank": 449,
+    "Type": "a",
+    "ColorBlock": 163,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2004-08-13T12:57:43.6832538+02:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Satterfield, McKenzie and Rodriguez",
-        "ToolTip": "Et non in est ab.",
-        "Deleted": false,
-        "Rank": 820,
-        "Type": "incidunt",
-        "ColorBlock": 936,
-        "IconHint": "aut",
+        "Id": 868,
+        "Name": "Quitzon Inc and Sons",
+        "ToolTip": "Quidem dolores hic quia et iusto.",
+        "Deleted": true,
+        "Rank": 63,
+        "Type": "fugit",
+        "ColorBlock": 480,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "1999-04-25T11:16:14.699531+02:00",
+        "LastChanged": "2007-06-28T12:57:43.6832538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "minima",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "dignissimos",
         "Hidden": true,
-        "FullName": "Albina Shanahan"
+        "FullName": "Quentin Skiles"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "qui",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Mr. Alexzander Beahan Jr."
+    "FullName": "Clair Orn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Yost, Schuppe and Stehr",
-    "ToolTip": "Occaecati est deleniti ut cupiditate.",
+    "Id": 800,
+    "Name": "Denesik LLC",
+    "ToolTip": "Ut id repellat consequuntur voluptate et.",
     "Deleted": false,
-    "Rank": 818,
-    "Type": "sed",
-    "ColorBlock": 464,
-    "IconHint": "minus",
-    "Selected": false,
-    "LastChanged": "2020-05-22T11:16:14.699531+02:00",
+    "Rank": 171,
+    "Type": "et",
+    "ColorBlock": 533,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2000-06-23T12:57:43.6832538+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Hand, Cruickshank and Runte",
-        "ToolTip": "Velit dolor corrupti ullam eius qui.",
-        "Deleted": true,
-        "Rank": 59,
-        "Type": "voluptas",
-        "ColorBlock": 25,
-        "IconHint": "voluptas",
+        "Id": 289,
+        "Name": "Farrell LLC",
+        "ToolTip": "Ut molestias voluptatum unde vero culpa.",
+        "Deleted": false,
+        "Rank": 991,
+        "Type": "aperiam",
+        "ColorBlock": 339,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2022-01-06T11:16:14.699531+01:00",
+        "LastChanged": "1998-03-29T12:57:43.6832538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "minima",
-        "Hidden": false,
-        "FullName": "Gilbert Hammes",
+        "ExtraInfo": "eos",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Chloe Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 247
+            "FieldLength": 332
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "facilis",
+    "ExtraInfo": "totam",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Reanna Keebler",
+    "FullName": "Vance Stokes DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 175
       }
     }
   }

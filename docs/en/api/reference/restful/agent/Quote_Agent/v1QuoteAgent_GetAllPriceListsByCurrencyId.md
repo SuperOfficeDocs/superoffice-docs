@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 235,
-  "CurrencyId": 12
+  "QuoteConnectionId": 250,
+  "CurrencyId": 163
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 108,
-    "ERPPriceListKey": "velit",
-    "QuoteConnectionId": 581,
-    "Name": "Kemmer, Toy and Medhurst",
-    "Description": "Phased reciprocal focus group",
-    "Currency": "quos",
-    "CurrencyName": "Green-Swift",
-    "ValidFrom": "2016-07-29T11:16:09.6161411+02:00",
-    "ValidTo": "2007-07-24T11:16:09.6161411+02:00",
+    "PriceListId": 152,
+    "ERPPriceListKey": "non",
+    "QuoteConnectionId": 666,
+    "Name": "Rohan Inc and Sons",
+    "Description": "Focused responsive hub",
+    "Currency": "voluptatum",
+    "CurrencyName": "Feeney-Treutel",
+    "ValidFrom": "2005-12-31T12:57:34.7428121+01:00",
+    "ValidTo": "1998-07-25T12:57:34.7428121+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 559
       }
     }
   }

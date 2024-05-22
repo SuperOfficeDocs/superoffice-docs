@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 697,
-  "Name": "Von-McGlynn",
-  "Tooltip": "ratione",
-  "SaveInDb": 71,
-  "Filename": "at",
-  "DefaultOref": "est",
+  "DocumentTemplateId": 992,
+  "Name": "Kautzer, Langworth and Schmeler",
+  "Tooltip": "dolorem",
+  "SaveInDb": 477,
+  "Filename": "qui",
+  "DefaultOref": "fugit",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 661,
-  "IntentId": 678,
+  "AutoeventId": 78,
+  "IntentId": 579,
   "IsDefaultPublished": true,
-  "Rank": 401,
-  "LoadTemplateFromPlugin": 280,
-  "MimeType": "animi",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 329,
+  "Rank": 139,
+  "LoadTemplateFromPlugin": 838,
+  "MimeType": "quia",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 446,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alice_frami@zieme.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "sarai.bergnaum@dare.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "harmony@hoeger.name",
+  "SenderEmailAddress": "jacynthe_schamberger@jewessmohr.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 183,
-  "Name": "Bayer, Reynolds and Schiller",
-  "Tooltip": "rerum",
-  "SaveInDb": 642,
-  "Filename": "sit",
-  "DefaultOref": "earum",
+  "DocumentTemplateId": 209,
+  "Name": "Cremin, Von and Dicki",
+  "Tooltip": "accusantium",
+  "SaveInDb": 939,
+  "Filename": "ipsa",
+  "DefaultOref": "incidunt",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 522,
-  "IntentId": 396,
+  "AutoeventId": 780,
+  "IntentId": 398,
   "IsDefaultPublished": false,
-  "Rank": 315,
-  "LoadTemplateFromPlugin": 406,
-  "MimeType": "ut",
+  "Rank": 368,
+  "LoadTemplateFromPlugin": 915,
+  "MimeType": "id",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 671,
+  "DocumentTypeKey": 124,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "oren@christiansencrona.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "ambrose.anderson@crona.us",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "colten@dubuquekemmer.info",
+  "SenderEmailAddress": "adela.wiegand@dooley.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 468
     }
   }
 }

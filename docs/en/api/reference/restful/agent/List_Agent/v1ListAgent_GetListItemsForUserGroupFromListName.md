@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Fay-Raynor",
-  "GroupId": 440
+  "UdListDefinitionName": "Rutherford-Medhurst",
+  "GroupId": 105
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Nienow Inc and Sons",
-    "ToolTip": "In nobis.",
+    "Id": 907,
+    "Name": "Doyle LLC",
+    "ToolTip": "Blanditiis voluptatem nemo quis.",
     "Deleted": true,
-    "Rank": 843,
-    "Type": "ad",
-    "ColorBlock": 83,
-    "IconHint": "consequatur",
+    "Rank": 430,
+    "Type": "harum",
+    "ColorBlock": 538,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2009-11-30T11:16:09.3347069+01:00",
+    "LastChanged": "2001-01-13T12:57:34.1492269+01:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Boehm LLC",
-        "ToolTip": "Officia et.",
-        "Deleted": false,
-        "Rank": 612,
-        "Type": "exercitationem",
-        "ColorBlock": 742,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2017-03-23T11:16:09.3347069+01:00",
+        "Id": 408,
+        "Name": "Barrows, Powlowski and Koch",
+        "ToolTip": "Sed rerum ullam.",
+        "Deleted": true,
+        "Rank": 214,
+        "Type": "voluptas",
+        "ColorBlock": 73,
+        "IconHint": "temporibus",
+        "Selected": true,
+        "LastChanged": "2013-10-09T12:57:34.1492269+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "modi",
+        "ExtraInfo": "expedita",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Hilda Goyette",
+        "FullName": "Precious Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 123
+            "FieldType": "System.Int32",
+            "FieldLength": 325
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Mrs. Rhoda Roberto Hartmann",
+    "ExtraInfo": "animi",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Mr. Ward Austin Ritchie DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 180
       }
     }
   }

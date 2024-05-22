@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Strosin, Reilly and Schmitt",
-    "DisplayName": "Kuhic-Sauer",
-    "Description": "Digitized interactive firmware",
-    "ShortLabel": "laudantium",
+    "FieldName": "Koch Group",
+    "DisplayName": "Morar Inc and Sons",
+    "Description": "Exclusive attitude-oriented initiative",
+    "ShortLabel": "fugiat",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 921,
-    "TemplateVariableName": "Zboncak, Feil and Hauck"
+    "IsDisplayField": true,
+    "Rank": 918,
+    "TemplateVariableName": "Lehner Inc and Sons"
   }
 ]
 ```

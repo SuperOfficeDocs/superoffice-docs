@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 688,
+  "HierarchyId": 291,
   "Domain": "Dashboards",
-  "Name": "Bruen-Hagenes",
-  "Fullname": "omnis",
-  "ParentId": 947,
+  "Name": "Oberbrunner-Koch",
+  "Fullname": "iusto",
+  "ParentId": 104,
   "Children": [
     {
-      "HierarchyId": 406,
+      "HierarchyId": 799,
       "Domain": "Dashboards",
-      "Name": "Hilpert Group",
-      "Fullname": "quas",
-      "ParentId": 153,
+      "Name": "O'Connell Group",
+      "Fullname": "nihil",
+      "ParentId": 944,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-12-16T11:16:09.3659552+01:00",
-      "RegisteredAssociateId": 399,
-      "Updated": "2006-09-26T11:16:09.3659552+02:00",
-      "UpdatedAssociateId": 412,
+      "Registered": "2006-10-10T12:57:34.2117122+02:00",
+      "RegisteredAssociateId": 522,
+      "Updated": "2022-06-27T12:57:34.2117122+02:00",
+      "UpdatedAssociateId": 592,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldType": "System.String",
+          "FieldLength": 143
         }
       }
     }
   ],
-  "Registered": "2011-10-08T11:16:09.3659552+02:00",
-  "RegisteredAssociateId": 975,
-  "Updated": "2003-09-01T11:16:09.3659552+02:00",
-  "UpdatedAssociateId": 697,
+  "Registered": "2005-12-23T12:57:34.2117122+01:00",
+  "RegisteredAssociateId": 164,
+  "Updated": "2018-02-14T12:57:34.2117122+01:00",
+  "UpdatedAssociateId": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldLength": 801
     }
   }
 }

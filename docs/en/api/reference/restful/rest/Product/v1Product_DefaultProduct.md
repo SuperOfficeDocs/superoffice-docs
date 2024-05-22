@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 549,
-  "ERPProductKey": "ullam",
-  "ERPPriceListKey": "et",
-  "Name": "Pollich Inc and Sons",
-  "Description": "Right-sized mobile internet solution",
-  "Code": "accusantium",
-  "PriceUnit": "vero",
-  "QuantityUnit": "deserunt",
+  "ProductId": 888,
+  "ERPProductKey": "aut",
+  "ERPPriceListKey": "provident",
+  "Name": "Bernier-Kutch",
+  "Description": "Devolved 4th generation matrices",
+  "Code": "facilis",
+  "PriceUnit": "vel",
+  "QuantityUnit": "est",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 3315.772,
-  "ItemNumber": "1069017",
+  "SubscriptionUnit": "corrupti",
+  "DefaultSubscriptionQuantity": 12379.3,
+  "ItemNumber": "1222177",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "ex",
-  "VAT": 22019.484,
-  "VATInfo": "asperiores",
-  "UnitCost": 17001.95,
-  "UnitMinimumPrice": 6471.71,
-  "UnitListPrice": 20170.424,
-  "InAssortment": true,
-  "Supplier": "quasi",
-  "SupplierCode": "incidunt",
-  "Rights": "tenetur",
-  "Rule": "id",
+  "ProductFamilyKey": "rem",
+  "ProductTypeKey": "voluptatibus",
+  "VAT": 16215.315999999999,
+  "VATInfo": "odit",
+  "UnitCost": 29863.886,
+  "UnitMinimumPrice": 13983.908,
+  "UnitListPrice": 8831.612,
+  "InAssortment": false,
+  "Supplier": "omnis",
+  "SupplierCode": "quae",
+  "Rights": "minus",
+  "Rule": "facilis",
   "ExtraInfo": [
     {
-      "Name": "Ortiz, Baumbach and Greenholt",
-      "Value": "natus",
+      "Name": "Kertzmann, Heidenreich and Barton",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 930
         }
       }
     },
     {
-      "Name": "Ortiz, Baumbach and Greenholt",
-      "Value": "natus",
+      "Name": "Kertzmann, Heidenreich and Barton",
+      "Value": "dignissimos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 930
         }
       }
     }
   ],
-  "RawExtraInfo": "nesciunt",
+  "RawExtraInfo": "fuga",
   "ExtraField1": "quia",
-  "ExtraField2": "ullam",
-  "ExtraField3": "reprehenderit",
-  "ExtraField4": "sequi",
-  "ExtraField5": "quis",
-  "InStock": 24905.897999999997,
+  "ExtraField2": "iste",
+  "ExtraField3": "exercitationem",
+  "ExtraField4": "autem",
+  "ExtraField5": "iure",
+  "InStock": 26244.115999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

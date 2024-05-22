@@ -81,19 +81,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 602,
-  "ChatSessionId": 1002,
+  "ChatMessageId": 358,
+  "ChatSessionId": 525,
   "Type": "Invalid",
-  "Message": "voluptatem",
-  "Author": "voluptatem",
-  "ReadByCustomer": 68,
+  "Message": "eligendi",
+  "Author": "vel",
+  "ReadByCustomer": 307,
   "SpecialType": "Block",
-  "SpecialParam": "molestias",
-  "WhenPosted": "2016-08-25T11:16:13.7456138+02:00"
+  "SpecialParam": "quo",
+  "WhenPosted": "2007-01-02T12:57:42.1514494+01:00"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 719,
-  "ChatSessionId": 955,
+  "ChatMessageId": 587,
+  "ChatSessionId": 644,
   "Type": "Invalid",
-  "Message": "ut",
-  "Author": "maxime",
-  "ReadByCustomer": 972,
+  "Message": "harum",
+  "Author": "exercitationem",
+  "ReadByCustomer": 392,
   "SpecialType": "Block",
-  "SpecialParam": "voluptatem",
-  "WhenPosted": "2005-02-12T11:16:13.7456138+01:00"
+  "SpecialParam": "tenetur",
+  "WhenPosted": "2007-11-11T12:57:42.1514494+01:00"
 }
 ```

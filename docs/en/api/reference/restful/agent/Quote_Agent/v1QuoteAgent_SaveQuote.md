@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 148,
-  "SaleId": 650,
-  "QuoteConnectionId": 17,
-  "ERPQuoteKey": "aut",
-  "ERPOrderKey": "veritatis",
-  "ActiveQuoteVersionId": 853,
-  "AcceptedQuoteAlternativeId": 485,
-  "UseValuesFromQuote": 545,
-  "DocumentId": 97,
-  "PoNumber": "1021033",
-  "OrderComment": "minus",
-  "PreferredEmailCulture": "adriel@baumbach.name",
+  "QuoteId": 896,
+  "SaleId": 984,
+  "QuoteConnectionId": 42,
+  "ERPQuoteKey": "iste",
+  "ERPOrderKey": "eaque",
+  "ActiveQuoteVersionId": 226,
+  "AcceptedQuoteAlternativeId": 515,
+  "UseValuesFromQuote": 31,
+  "DocumentId": 185,
+  "PoNumber": "1650363",
+  "OrderComment": "rerum",
+  "PreferredEmailCulture": "lisandro@breitenberg.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 403
     }
   }
 }

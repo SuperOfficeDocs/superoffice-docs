@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 397,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2010-05-23T11:16:09.0534899+02:00",
-  "EndTime": "2011-10-12T11:16:09.0534899+02:00",
-  "Count": 572
+  "PersonId": 764,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2011-12-16T12:57:33.6805549+01:00",
+  "EndTime": "2012-06-03T12:57:33.6805549+02:00",
+  "Count": 800
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 311,
-    "Attention": "vitae",
-    "Header": "optio",
-    "Name": "Howe, Schuster and Tremblay",
-    "OurRef": "sunt",
-    "YourRef": "laudantium",
-    "Description": "Total secondary synergy",
-    "DocumentTemplate": "aspernatur",
+    "DocumentId": 427,
+    "Attention": "illum",
+    "Header": "debitis",
+    "Name": "Leuschke LLC",
+    "OurRef": "corrupti",
+    "YourRef": "dignissimos",
+    "Description": "Monitored high-level model",
+    "DocumentTemplate": "at",
     "IsPublished": false,
-    "PersonId": 919,
-    "PersonFullName": "Rashawn Rice",
-    "AssociateFullName": "Carmella Ryder Harber Sr.",
-    "ContactId": 706,
-    "ContactName": "Yost Inc and Sons",
-    "ProjectId": 605,
-    "ProjectName": "Brekke Group",
-    "AssociateId": 278,
-    "Snum": 486,
-    "SaleId": 525,
-    "SaleName": "Schultz LLC",
+    "PersonId": 587,
+    "PersonFullName": "Luna Feest",
+    "AssociateFullName": "Garnett Sanford",
+    "ContactId": 958,
+    "ContactName": "Schmitt Inc and Sons",
+    "ProjectId": 246,
+    "ProjectName": "Hilpert-Borer",
+    "AssociateId": 352,
+    "Snum": 71,
+    "SaleId": 617,
+    "SaleName": "Ortiz, Emmerich and Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 932
       }
     }
   }

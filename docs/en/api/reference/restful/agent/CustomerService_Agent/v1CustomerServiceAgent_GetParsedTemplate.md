@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 770,
-  "LanguageId": 718,
-  "PersonId": 511,
-  "TicketId": 634
+  "ReplyTemplateId": 802,
+  "LanguageId": 670,
+  "PersonId": 726,
+  "TicketId": 625
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 446,
-  "PlainParsed": "quisquam",
-  "HtmlParsed": "dolores",
+  "ReplyTemplateId": 813,
+  "PlainParsed": "aspernatur",
+  "HtmlParsed": "voluptas",
   "Attachments": [
     {
-      "AttachmentId": 394,
-      "Name": "Stanton, Bednar and Mayer",
-      "ContentType": "omnis",
-      "AttSize": 36,
+      "AttachmentId": 864,
+      "Name": "Blick-Bartoletti",
+      "ContentType": "animi",
+      "AttSize": 101,
       "InlineImage": false,
-      "ContentId": "atque",
-      "AuthKey": "et",
-      "IsSafeFileExtension": false,
+      "ContentId": "aliquam",
+      "AuthKey": "id",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 199
         }
       }
     }
   ],
-  "Subject": "beatae",
+  "Subject": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

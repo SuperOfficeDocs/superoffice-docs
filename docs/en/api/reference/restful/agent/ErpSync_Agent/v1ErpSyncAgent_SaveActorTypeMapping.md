@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 76,
+  "ErpConnectionId": 149,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 784,
-      "CrmFieldKey": "quibusdam",
-      "CrmDisplayName": "Okuneva Inc and Sons",
-      "CrmDisplayTooltip": "explicabo",
-      "ErpFieldKey": "iusto",
+      "ErpFieldId": 1000,
+      "CrmFieldKey": "eligendi",
+      "CrmDisplayName": "Hegmann, Stiedemann and Jakubowski",
+      "CrmDisplayTooltip": "ipsum",
+      "ErpFieldKey": "quia",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Hoeger-Lehner",
-      "ErpDisplayTooltip": "optio",
+      "ErpDisplayName": "Abernathy-Koelpin",
+      "ErpDisplayTooltip": "magni",
       "SyncToCrm": true,
       "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
-      "MissingInERP": true,
-      "MissingInCRM": true,
+      "AlreadyMapped": false,
+      "MissingInERP": false,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "molestiae",
+      "ListReference": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 118
+          "FieldType": "System.Int32",
+          "FieldLength": 520
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 736
     }
   }
 }

@@ -87,37 +87,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "voluptatem",
-  "IsoLangCode": "consequatur",
-  "UserPrompt": "non",
-  "DisplayValue": "maxime",
+  "ChatId": "corrupti",
+  "IsoLangCode": "quos",
+  "UserPrompt": "sunt",
+  "DisplayValue": "tenetur",
   "PreviousTurns": [
     {
-      "Timestamp": "2020-01-16T11:16:08.3809879+01:00",
-      "UserPrompt": "sed",
-      "UserDisplayText": "fugit",
-      "BotResponse": "est",
+      "Timestamp": "2010-07-21T12:57:32.6803248+02:00",
+      "UserPrompt": "eligendi",
+      "UserDisplayText": "repellat",
+      "BotResponse": "dicta",
       "BotActions": {
-        "BotActions1": "labore",
-        "BotActions2": "quae"
+        "BotActions1": "ex",
+        "BotActions2": "similique"
       },
       "Attachments": [
-        "tempore",
-        "ipsam"
+        "perspiciatis",
+        "et"
       ]
     },
     {
-      "Timestamp": "2020-01-16T11:16:08.3809879+01:00",
-      "UserPrompt": "sed",
-      "UserDisplayText": "fugit",
-      "BotResponse": "est",
+      "Timestamp": "2010-07-21T12:57:32.6803248+02:00",
+      "UserPrompt": "eligendi",
+      "UserDisplayText": "repellat",
+      "BotResponse": "dicta",
       "BotActions": {
-        "BotActions1": "labore",
-        "BotActions2": "quae"
+        "BotActions1": "ex",
+        "BotActions2": "similique"
       },
       "Attachments": [
-        "tempore",
-        "ipsam"
+        "perspiciatis",
+        "et"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1999-03-11T11:16:08.3966087+01:00",
-  "UserPrompt": "unde",
-  "UserDisplayText": "minima",
-  "BotResponse": "fuga",
+  "Timestamp": "2000-03-21T12:57:32.6803248+01:00",
+  "UserPrompt": "architecto",
+  "UserDisplayText": "ut",
+  "BotResponse": "tempora",
   "BotActions": {
-    "BotActions1": "corporis",
-    "BotActions2": "dolorum"
+    "BotActions1": "impedit",
+    "BotActions2": "sit"
   },
   "Attachments": [
-    "eos",
-    "quo"
+    "nostrum",
+    "et"
   ]
 }
 ```

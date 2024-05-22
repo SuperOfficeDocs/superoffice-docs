@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=197
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=250
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 943,
-  "AssociateId": 977,
-  "Caption": "vel",
+  "DashboardId": 779,
+  "AssociateId": 768,
+  "Caption": "enim",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 66,
-      "Caption": "expedita",
-      "Description": "Organic zero tolerance instruction set",
-      "ChartName": "Kutch-Dickinson",
-      "ChartId": "eius",
+      "DashboardTileId": 353,
+      "Caption": "consectetur",
+      "Description": "Front-line fresh-thinking flexibility",
+      "ChartName": "Hintz Inc and Sons",
+      "ChartId": "occaecati",
       "IsDefault": false,
-      "AssociateId": 925,
-      "GroupId": 41,
-      "SelectionId": 904,
-      "Config": "aliquid",
+      "AssociateId": 923,
+      "GroupId": 684,
+      "SelectionId": 730,
+      "Config": "consequatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldLength": 736
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 801
     }
   }
 }

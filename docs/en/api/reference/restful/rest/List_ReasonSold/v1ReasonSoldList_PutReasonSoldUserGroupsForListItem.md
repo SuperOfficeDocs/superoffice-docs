@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Leuschke Inc and Sons",
-    "ToolTip": "Sint rerum eaque et.",
+    "Id": 555,
+    "Name": "Lind, Conroy and Dibbert",
+    "ToolTip": "Ut assumenda sunt nobis animi nisi velit.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "non",
-    "ColorBlock": 283,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2001-08-27T11:16:14.7151586+02:00",
+    "Rank": 794,
+    "Type": "nobis",
+    "ColorBlock": 479,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2005-06-09T12:57:43.7144965+02:00",
     "ChildItems": [
       {
-        "Id": 813,
-        "Name": "Conroy, Kris and Flatley",
-        "ToolTip": "Sed optio qui eum nemo.",
+        "Id": 617,
+        "Name": "Klein, Senger and Schowalter",
+        "ToolTip": "Non adipisci est sed praesentium.",
         "Deleted": false,
-        "Rank": 422,
-        "Type": "odio",
-        "ColorBlock": 1000,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1997-12-04T11:16:14.7151586+01:00",
+        "Rank": 57,
+        "Type": "laudantium",
+        "ColorBlock": 80,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2022-09-14T12:57:43.7144965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "officia",
+        "ExtraInfo": "sed",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Judson Kuvalis MD"
+        "FullName": "Dameon Waters"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Athena Kilback"
+    "ExtraInfo": "pariatur",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Jazlyn Larkin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Grady Inc and Sons",
-    "ToolTip": "Consectetur tempora esse voluptates blanditiis maiores minima.",
+    "Id": 122,
+    "Name": "Smitham, Torphy and Rau",
+    "ToolTip": "Fugiat voluptates.",
     "Deleted": false,
-    "Rank": 67,
-    "Type": "praesentium",
-    "ColorBlock": 235,
-    "IconHint": "quae",
+    "Rank": 345,
+    "Type": "laboriosam",
+    "ColorBlock": 132,
+    "IconHint": "consectetur",
     "Selected": false,
-    "LastChanged": "2005-02-08T11:16:14.7151586+01:00",
+    "LastChanged": "1997-03-28T12:57:43.7144965+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Collier-Kilback",
-        "ToolTip": "Illo harum repudiandae et doloremque sint vel ad.",
-        "Deleted": false,
-        "Rank": 182,
-        "Type": "voluptas",
-        "ColorBlock": 617,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2018-06-17T11:16:14.7151586+02:00",
+        "Id": 549,
+        "Name": "Durgan-Jacobi",
+        "ToolTip": "Eveniet et.",
+        "Deleted": true,
+        "Rank": 475,
+        "Type": "accusamus",
+        "ColorBlock": 178,
+        "IconHint": "exercitationem",
+        "Selected": false,
+        "LastChanged": "2014-03-11T12:57:43.7144965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Makenna Hermann",
+        "ExtraInfo": "quae",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Hillard Effertz I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldType": "System.String",
+            "FieldLength": 987
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "vero",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Dr. Luz Herzog V",
+    "FullName": "Lucie Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldType": "System.String",
+        "FieldLength": 849
       }
     }
   }

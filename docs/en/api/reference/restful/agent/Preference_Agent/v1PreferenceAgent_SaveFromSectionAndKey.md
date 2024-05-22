@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "distinctio",
-  "Key": "iusto",
+  "Section": "consequuntur",
+  "Key": "omnis",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 151,
-  "Section": "quas",
-  "Key": "sed",
-  "Name": "Hodkiewicz LLC",
+  "PrefDescId": 385,
+  "Section": "atque",
+  "Key": "voluptates",
+  "Name": "Fahey-Schiller",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergized local leverage",
+  "Description": "Team-oriented 4th generation structure",
   "IsBuiltin": false,
-  "TableName": "Ebert-Murray",
-  "UserDefinedListId": 634,
-  "Rank": 424,
-  "SubGroup": "rerum",
-  "MinLevel": 155,
-  "MaxValue": 465,
-  "MinValue": 235,
-  "RequiredLicense": "quia",
+  "TableName": "Abshire-Schneider",
+  "UserDefinedListId": 469,
+  "Rank": 722,
+  "SubGroup": "mollitia",
+  "MinLevel": 679,
+  "MaxValue": 8,
+  "MinValue": 961,
+  "RequiredLicense": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

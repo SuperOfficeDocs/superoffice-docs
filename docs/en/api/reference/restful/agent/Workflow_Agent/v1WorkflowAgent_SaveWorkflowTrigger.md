@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 891,
-  "WorkflowId": 577,
+  "WorkflowTriggerId": 998,
+  "WorkflowId": 870,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Mayert-Prohaska",
-      "Description": "Pre-emptive tangible approach",
-      "Rank": 515,
+      "Name": "Kuhlman, Halvorson and Cummerata",
+      "Description": "Robust hybrid moratorium",
+      "Rank": 466,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mayert-Prohaska",
-      "Description": "Pre-emptive tangible approach",
-      "Rank": 515,
+      "Name": "Kuhlman, Halvorson and Cummerata",
+      "Description": "Robust hybrid moratorium",
+      "Rank": 466,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 1002,
-  "WorkflowId": 446,
+  "WorkflowTriggerId": 116,
+  "WorkflowId": 127,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Hoeger, Wisoky and Kulas",
-      "Description": "Multi-layered dedicated internet solution",
-      "Rank": 364,
+      "Name": "Erdman-Littel",
+      "Description": "Mandatory bandwidth-monitored benchmark",
+      "Rank": 221,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hoeger, Wisoky and Kulas",
-      "Description": "Multi-layered dedicated internet solution",
-      "Rank": 364,
+      "Name": "Erdman-Littel",
+      "Description": "Mandatory bandwidth-monitored benchmark",
+      "Rank": 221,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 702
     }
   }
 }

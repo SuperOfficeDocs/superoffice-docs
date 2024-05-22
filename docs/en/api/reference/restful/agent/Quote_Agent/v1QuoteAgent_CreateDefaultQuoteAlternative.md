@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 211,
-  "ERPQuoteAlternativeKey": "unde",
-  "QuoteVersionId": 740,
-  "Name": "Hegmann, Nolan and Lubowitz",
-  "Description": "User-friendly needs-based strategy",
+  "QuoteAlternativeId": 205,
+  "ERPQuoteAlternativeKey": "illo",
+  "QuoteVersionId": 201,
+  "Name": "Keeling, Herman and Paucek",
+  "Description": "Enterprise-wide national service-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10085.212,
-  "ERPDiscountAmount": 25137.814,
-  "DiscountPercent": 2106.048,
-  "DiscountAmount": 25664.326,
+  "ERPDiscountPercent": 18728.784,
+  "ERPDiscountAmount": 3262.4939999999997,
+  "DiscountPercent": 1391.4959999999999,
+  "DiscountAmount": 8737.592,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 18180.334,
-  "EarningPercent": 29976.71,
-  "EarningAmount": 27996.022,
-  "SubTotal": 18584.62,
-  "TotalPrice": 23702.442,
-  "ExtraField1": "in",
-  "ExtraField2": "quo",
-  "ExtraField3": "nostrum",
-  "ExtraField4": "et",
-  "ExtraField5": "eaque",
+  "VATInfo": "voluptatibus",
+  "VAT": 6603.338,
+  "EarningPercent": 20236.237999999998,
+  "EarningAmount": 26375.744,
+  "SubTotal": 21552.518,
+  "TotalPrice": 17876.336,
+  "ExtraField1": "est",
+  "ExtraField2": "eum",
+  "ExtraField3": "eaque",
+  "ExtraField4": "eum",
+  "ExtraField5": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 768
     }
   }
 }

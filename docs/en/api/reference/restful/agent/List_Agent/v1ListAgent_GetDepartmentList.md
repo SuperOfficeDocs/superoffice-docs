@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Value": "officia",
-    "Tooltip": "cupiditate",
+    "Id": 115,
+    "Value": "temporibus",
+    "Tooltip": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   },
   {
-    "Id": 993,
-    "Value": "officia",
-    "Tooltip": "cupiditate",
+    "Id": 115,
+    "Value": "temporibus",
+    "Tooltip": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

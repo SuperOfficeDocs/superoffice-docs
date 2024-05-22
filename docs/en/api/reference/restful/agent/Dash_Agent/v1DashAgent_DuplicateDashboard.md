@@ -90,8 +90,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 448,
-  "Name": "Mills-Auer"
+  "DashboardId": 356,
+  "Name": "Lesch LLC"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 519,
-  "UniqueId": "quasi",
-  "Name": "McKenzie, Jacobs and Muller",
-  "Description": "Automated zero administration synergy",
-  "AssociateId": 333,
-  "Columns": 453,
+  "DashboardId": 244,
+  "UniqueId": "ducimus",
+  "Name": "Smith, Heathcote and Padberg",
+  "Description": "Sharable eco-centric artificial intelligence",
+  "AssociateId": 436,
+  "Columns": 188,
   "Theme": null,
-  "VisibleForAll": 558,
+  "VisibleForAll": 375,
   "VisibleForAssociates": [
-    905,
-    699
+    865,
+    98
   ],
   "VisibleForGroups": [
-    193,
-    669
+    419,
+    883
   ],
-  "PinForAll": 56,
+  "PinForAll": 66,
   "PinForAssociates": [
-    353,
-    726
+    32,
+    105
   ],
   "PinForGroups": [
-    712,
-    384
+    32,
+    276
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 172
     }
   }
 }

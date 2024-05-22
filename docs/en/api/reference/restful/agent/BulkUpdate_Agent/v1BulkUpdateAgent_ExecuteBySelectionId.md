@@ -81,27 +81,27 @@ Content-Type: application/json; charset=utf-8
       "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "tenetur",
-      "ValueType": "eum",
-      "Mandatory": true,
-      "EncodedDisplayName": "Abshire, Halvorson and Thiel",
-      "EncodedDisplayDescription": "Diverse composite moderator",
-      "IconHint": "earum",
+      "IsActive": false,
+      "Key": "eos",
+      "ValueType": "nisi",
+      "Mandatory": false,
+      "EncodedDisplayName": "Kuhn, Krajcik and Langosh",
+      "EncodedDisplayDescription": "Enterprise-wide executive circuit",
+      "IconHint": "in",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "et",
-      "EncodedDataCaptionDescription": "User-centric radical project",
-      "CurrentOperationType": "consectetur",
+      "EncodedDataCaption": "numquam",
+      "EncodedDataCaptionDescription": "Open-source solution-oriented toolset",
+      "CurrentOperationType": "ab",
       "Values": [
-        "sequi",
-        "vitae"
+        "error",
+        "sit"
       ],
       "DisplayValues": [
-        "inventore",
-        "iste"
+        "et",
+        "laborum"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "West, Sauer and Fadel",
-  "Context": "maiores",
-  "SelectionId": 389,
+  "TableName": "Romaguera-Kling",
+  "Context": "reprehenderit",
+  "SelectionId": 567,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-475
+613
 ```

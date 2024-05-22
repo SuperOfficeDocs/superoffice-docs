@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Streich LLC",
-    "DisplayName": "Rogahn-Kiehn",
-    "Description": "Triple-buffered impactful flexibility",
-    "ShortLabel": "illo",
+    "FieldName": "Koch LLC",
+    "DisplayName": "Gorczany, Brown and Predovic",
+    "Description": "Mandatory optimal support",
+    "ShortLabel": "est",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 964,
-    "TemplateVariableName": "Cormier LLC"
+    "Rank": 254,
+    "TemplateVariableName": "Mante, Wolff and Schimmel"
   }
 ]
 ```

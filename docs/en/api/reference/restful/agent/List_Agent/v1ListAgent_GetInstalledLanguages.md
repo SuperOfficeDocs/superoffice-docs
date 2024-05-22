@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 905,
-    "LCID": 833,
-    "EnglishName": "Stiedemann, Schultz and Gutmann",
-    "NativeName": "Sanford LLC",
-    "ThreeLetterISOLanguageName": "Schowalter-Roberts",
-    "TwoLetterISOLanguageName": "Hackett Group",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 637,
+    "LCID": 977,
+    "EnglishName": "Weimann, Pagac and Stanton",
+    "NativeName": "Reilly-Kutch",
+    "ThreeLetterISOLanguageName": "Stroman Inc and Sons",
+    "TwoLetterISOLanguageName": "Franecki-McGlynn",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

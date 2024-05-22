@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Hansen Group",
-    "Tooltip": "quis",
+    "Id": 630,
+    "Name": "Jewess-Schuppe",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 182,
-    "Rank": 6
+    "UdListDefinitionId": 956,
+    "Rank": 90
   },
   {
-    "Id": 62,
-    "Name": "Hansen Group",
-    "Tooltip": "quis",
+    "Id": 630,
+    "Name": "Jewess-Schuppe",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 182,
-    "Rank": 6
+    "UdListDefinitionId": 956,
+    "Rank": 90
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "Bosco, Larkin and Watsica",
-    "Tooltip": "nulla",
+    "Id": 501,
+    "Name": "Sanford, West and Huel",
+    "Tooltip": "qui",
     "Deleted": true,
-    "UdListDefinitionId": 519,
-    "Rank": 513,
+    "UdListDefinitionId": 311,
+    "Rank": 839,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

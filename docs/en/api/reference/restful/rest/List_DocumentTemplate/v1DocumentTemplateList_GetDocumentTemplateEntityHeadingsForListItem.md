@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Beahan LLC",
-    "ToolTip": "Laudantium hic inventore est et consequuntur nemo accusantium.",
-    "Deleted": false,
-    "Rank": 105,
-    "Type": "odio",
-    "ColorBlock": 372,
-    "IconHint": "nostrum",
-    "Selected": true,
-    "LastChanged": "2002-04-24T11:16:14.5745384+02:00",
+    "Id": 750,
+    "Name": "Nader, Friesen and Herman",
+    "ToolTip": "Inventore sed repellendus ut qui eaque velit.",
+    "Deleted": true,
+    "Rank": 4,
+    "Type": "aut",
+    "ColorBlock": 168,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2021-04-07T12:57:43.4801753+02:00",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "Schinner-Funk",
-        "ToolTip": "Et fugit blanditiis inventore rerum nisi cum.",
+        "Id": 680,
+        "Name": "Rath-Bashirian",
+        "ToolTip": "In eveniet qui veniam.",
         "Deleted": false,
-        "Rank": 665,
-        "Type": "incidunt",
-        "ColorBlock": 527,
-        "IconHint": "error",
+        "Rank": 36,
+        "Type": "officia",
+        "ColorBlock": 887,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2012-02-06T11:16:14.5745384+01:00",
+        "LastChanged": "2018-07-19T12:57:43.4801753+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "eos",
         "Hidden": true,
-        "FullName": "Ariane Mabelle Schaden I",
+        "FullName": "Alec Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 554
+            "FieldLength": 189
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "ut",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Russell Lowe",
+    "FullName": "Holden Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldType": "System.Int32",
+        "FieldLength": 530
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Cormier, Ebert and Hermiston",
-    "ToolTip": "Id ratione nemo non nemo velit hic inventore.",
-    "Deleted": true,
-    "Rank": 374,
-    "Type": "consequatur",
-    "ColorBlock": 25,
-    "IconHint": "sed",
+    "Id": 479,
+    "Name": "Brakus-Schumm",
+    "ToolTip": "Reprehenderit ratione.",
+    "Deleted": false,
+    "Rank": 412,
+    "Type": "officia",
+    "ColorBlock": 477,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2020-05-03T11:16:14.7151586+02:00",
+    "LastChanged": "2021-01-19T12:57:43.730118+01:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Gibson, Lind and Bins",
-        "ToolTip": "Placeat vitae qui aut assumenda non possimus impedit.",
+        "Id": 131,
+        "Name": "Becker, Farrell and Jerde",
+        "ToolTip": "Fugiat laborum cupiditate harum eaque enim.",
         "Deleted": false,
-        "Rank": 661,
-        "Type": "aliquid",
-        "ColorBlock": 297,
-        "IconHint": "velit",
+        "Rank": 390,
+        "Type": "id",
+        "ColorBlock": 933,
+        "IconHint": "dicta",
         "Selected": true,
-        "LastChanged": "2017-11-18T11:16:14.7151586+01:00",
+        "LastChanged": "2016-12-01T12:57:43.730118+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
+        "ExtraInfo": "quia",
+        "StyleHint": "reiciendis",
         "Hidden": true,
-        "FullName": "Margarette Bogisich II",
+        "FullName": "Gage Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 680
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Felicity Terry",
+    "ExtraInfo": "rerum",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Damion Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 354
       }
     }
   }

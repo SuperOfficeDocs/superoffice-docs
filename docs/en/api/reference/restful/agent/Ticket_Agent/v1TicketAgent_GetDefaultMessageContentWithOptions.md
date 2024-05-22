@@ -80,11 +80,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 655,
+  "TicketId": 693,
   "MessageActionType": "Forward",
-  "TicketMessageId": 261,
-  "TicketTypeId": 888,
-  "ExcludeSignature": true
+  "TicketMessageId": 309,
+  "TicketTypeId": 24,
+  "ExcludeSignature": false
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "sed",
+  "Body": "amet",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 931,
-      "Name": "Rau Group",
-      "ContentType": "repudiandae",
-      "AttSize": 56,
+      "AttachmentId": 617,
+      "Name": "Schuster, Raynor and Carroll",
+      "ContentType": "commodi",
+      "AttSize": 843,
       "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "ipsum",
+      "ContentId": "in",
+      "AuthKey": "ex",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldLength": 221
         }
       }
     }

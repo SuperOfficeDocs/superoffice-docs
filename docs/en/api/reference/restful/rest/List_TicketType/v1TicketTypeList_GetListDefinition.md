@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 217,
-  "Name": "Adams, Predovic and Hodkiewicz",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 129,
+  "Id": 887,
+  "Name": "Metz LLC",
+  "Tooltip": "eius",
+  "Deleted": false,
+  "Rank": 677,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 743
     }
   },
   "_Links": {

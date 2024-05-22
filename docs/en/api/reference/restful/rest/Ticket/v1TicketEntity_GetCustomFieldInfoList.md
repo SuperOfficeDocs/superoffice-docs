@@ -68,7 +68,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Walsh, Schowalter and Hane",
-    "DisplayName": "Lesch Inc and Sons",
-    "Description": "Stand-alone maximized access",
-    "ShortLabel": "reprehenderit",
-    "HideLabel": true,
+    "FieldName": "Walter Group",
+    "DisplayName": "Pfannerstill, Crona and Kautzer",
+    "Description": "Progressive context-sensitive time-frame",
+    "ShortLabel": "eligendi",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 511,
-    "TemplateVariableName": "Miller-Padberg"
+    "IsDisplayField": false,
+    "Rank": 641,
+    "TemplateVariableName": "Haley-White"
   }
 ]
 ```

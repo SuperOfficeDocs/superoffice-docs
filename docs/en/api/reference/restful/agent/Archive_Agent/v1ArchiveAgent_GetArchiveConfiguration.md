@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ruecker-Koss",
-  "ProviderName": "Stoltenberg, Kirlin and Hermiston"
+  "GuiName": "Moore, Stoltenberg and Hermiston",
+  "ProviderName": "Marks-Adams"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Buckridge, Jewess and Reynolds",
-      "DisplayTooltip": "est",
-      "DisplayType": "tempore",
-      "CanOrderBy": true,
-      "Name": "Murray, Schuster and Bradtke",
-      "CanRestrictBy": true,
-      "RestrictionType": "eos",
-      "RestrictionListName": "Strosin-Beatty",
+      "DisplayName": "Ondricka, Cremin and Cruickshank",
+      "DisplayTooltip": "provident",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Christiansen-Hammes",
+      "CanRestrictBy": false,
+      "RestrictionType": "quo",
+      "RestrictionListName": "Ondricka, Quitzon and Bradtke",
       "IsVisible": false,
-      "ExtraInfo": "consequatur",
-      "Width": "sed",
-      "IconHint": "itaque",
-      "HeadingIconHint": "id"
+      "ExtraInfo": "similique",
+      "Width": "dolor",
+      "IconHint": "nobis",
+      "HeadingIconHint": "deleniti"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 149,
-      "Name": "Turner Inc and Sons",
-      "ToolTip": "Eveniet perspiciatis occaecati laudantium est ullam ratione.",
-      "Deleted": true,
-      "Rank": 981,
-      "Type": "totam",
-      "ColorBlock": 743,
-      "IconHint": "occaecati",
-      "Selected": false,
-      "LastChanged": "2024-03-05T11:16:08.7097813+01:00",
+      "Id": 276,
+      "Name": "Fahey, Conroy and Wisozk",
+      "ToolTip": "Enim autem voluptas veritatis repellendus et.",
+      "Deleted": false,
+      "Rank": 27,
+      "Type": "est",
+      "ColorBlock": 565,
+      "IconHint": "accusamus",
+      "Selected": true,
+      "LastChanged": "2006-02-28T12:57:33.2116147+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "excepturi",
+      "ExtraInfo": "soluta",
+      "StyleHint": "saepe",
       "Hidden": true,
-      "FullName": "Adaline Schulist",
+      "FullName": "Dr. Gerardo Vincenza Altenwerth Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldType": "System.String",
+          "FieldLength": 957
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Schmidt Inc and Sons",
+      "Name": "Mohr Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Schmidt Inc and Sons",
+      "Name": "Mohr Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "et",
+  "OwnerKeys": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldLength": 537
     }
   }
 }

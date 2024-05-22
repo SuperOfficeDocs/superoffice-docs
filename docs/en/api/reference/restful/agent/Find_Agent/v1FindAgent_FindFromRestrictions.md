@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Goldner-Dooley",
-      "Operator": "ut",
+      "Name": "Wehner, Wilkinson and Krajcik",
+      "Operator": "totam",
       "Values": [
-        "optio",
-        "quo"
+        "ipsa",
+        "dolor"
       ],
       "DisplayValues": [
-        "temporibus",
+        "sed",
         "quam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 702,
+      "InterParenthesis": 376,
       "InterOperator": "And",
-      "UniqueHash": 650
+      "UniqueHash": 413
     }
   ],
-  "ProviderName": "Labadie Group",
-  "PageSize": 365,
-  "PageNumber": 756
+  "ProviderName": "Purdy, Block and Towne",
+  "PageSize": 820,
+  "PageNumber": 798
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Thiel, Stracke and Schaden",
-      "DisplayTooltip": "quod",
-      "DisplayType": "eum",
+      "DisplayName": "Sipes, Kutch and Dickinson",
+      "DisplayTooltip": "ut",
+      "DisplayType": "tempora",
       "CanOrderBy": false,
-      "Name": "Cremin Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "aperiam",
-      "RestrictionListName": "Kohler, Turcotte and Zieme",
+      "Name": "O'Hara, Schimmel and Feil",
+      "CanRestrictBy": false,
+      "RestrictionType": "amet",
+      "RestrictionListName": "Brakus, Williamson and Christiansen",
       "IsVisible": false,
-      "ExtraInfo": "mollitia",
-      "Width": "nobis",
-      "IconHint": "praesentium",
-      "HeadingIconHint": "magnam"
+      "ExtraInfo": "qui",
+      "Width": "commodi",
+      "IconHint": "aut",
+      "HeadingIconHint": "velit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hagenes, Carroll and Waters",
-      "PrimaryKey": 799,
+      "EntityName": "Goodwin LLC",
+      "PrimaryKey": 804,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "officia",
-          "TooltipHint": "reprehenderit",
-          "LinkHint": "ab"
+          "DisplayValue": "autem",
+          "TooltipHint": "et",
+          "LinkHint": "sapiente"
         }
       },
-      "LinkHint": "in",
-      "StyleHint": "quae",
+      "LinkHint": "fugit",
+      "StyleHint": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 539
         }
       }
     }
   ],
-  "RowCount": 634,
+  "RowCount": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   }
 }

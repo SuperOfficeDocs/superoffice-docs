@@ -102,6 +102,7 @@ as well as before any ORDER BY, are applied.
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
 |projectAssociate/locationAddress|string|Location: Location| x |
+|projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -133,18 +134,18 @@ as well as before any ORDER BY, are applied.
 |saintDirection|listAny|Direction|  |
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
-|saintTicketCategory|listAny|Category|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=projectUdef/SuperOffice:7,projectEvent/hasSignOff,projectAssociate/role
+GET /api/v1/archive/FreetextProject?$select=projectUrl/URLAddress,projectAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

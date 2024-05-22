@@ -155,6 +155,7 @@ Lists all email flow message content
 |shipment/project/projectAssociate/userName|string|User name: User name| x |
 |shipment/project/projectAssociate/personEmail|string|E-mail| x |
 |shipment/project/projectAssociate/locationAddress|string|Location: Location| x |
+|shipment/project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |shipment/project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |shipment/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |shipment/project/projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -193,7 +194,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/projectAssociate/associateDbId,shipment/text,shipment/project/registeredDate
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/text,shipment/project/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

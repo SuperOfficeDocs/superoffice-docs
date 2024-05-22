@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 406,
+  "ReportId": 556,
   "ReportCategory": "All",
-  "Description": "Cloned scalable model",
+  "Description": "User-friendly composite interface",
   "ReportLayout": "CalendarMonth",
-  "Name": "Stroman LLC",
-  "AssociateId": 829,
-  "TemplateId": 269,
+  "Name": "King Inc and Sons",
+  "AssociateId": 989,
+  "TemplateId": 385,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 76,
+  "EjMessageId": 411,
   "Ticket": null,
-  "CreatedAt": "2006-12-28T11:16:14.3085768+01:00",
+  "CreatedAt": "2019-04-19T12:57:43.0579981+02:00",
   "CreatedBy": null,
-  "Author": "animi",
+  "Author": "ad",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quod",
-  "TimeSpent": 828,
-  "Body": "reiciendis",
-  "HtmlBody": "sed",
-  "EmailHeader": "rhiannon.mitchell@dickinson.co.uk",
-  "DebugInfo": "ut",
-  "MailSorter": "quo",
+  "MessageId": "temporibus",
+  "TimeSpent": 237,
+  "Body": "illo",
+  "HtmlBody": "aliquid",
+  "EmailHeader": "deion.hagenes@thiel.info",
+  "DebugInfo": "est",
+  "MailSorter": "dignissimos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "expedita",
   "MessageHeaders": [
     {
-      "Id": 295,
-      "Name": "Hamill Inc and Sons",
-      "Value": "cupiditate",
+      "Id": 122,
+      "Name": "Beatty-Bosco",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 536
         }
       }
     }
   ],
   "Important": false,
-  "Language": "optio",
-  "Sentiment": 663,
-  "SentimentConfidence": 707,
+  "Language": "harum",
+  "Sentiment": 217,
+  "SentimentConfidence": 788,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 907,
-      "Name": "Braun LLC",
+      "AttachmentId": 386,
+      "Name": "Huels Inc and Sons",
       "ContentType": "sunt",
-      "AttSize": 387,
+      "AttSize": 849,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "dolore",
+      "ContentId": "quidem",
+      "AuthKey": "ut",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldType": "System.String",
+          "FieldLength": 950
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "eaque"
+    "CustomFields1": "quia",
+    "CustomFields2": "voluptates"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 267
     }
   }
 }

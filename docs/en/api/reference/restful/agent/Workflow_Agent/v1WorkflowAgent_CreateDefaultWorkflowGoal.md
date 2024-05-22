@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 187,
-  "WorkflowId": 613,
+  "WorkflowGoalId": 730,
+  "WorkflowId": 400,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Dickinson, Lueilwitz and Treutel",
-      "Description": "Implemented object-oriented middleware",
-      "Rank": 903,
+      "Name": "Goyette Group",
+      "Description": "Balanced homogeneous leverage",
+      "Rank": 277,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dickinson, Lueilwitz and Treutel",
-      "Description": "Implemented object-oriented middleware",
-      "Rank": 903,
+      "Name": "Goyette Group",
+      "Description": "Balanced homogeneous leverage",
+      "Rank": 277,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 13
     }
   }
 }

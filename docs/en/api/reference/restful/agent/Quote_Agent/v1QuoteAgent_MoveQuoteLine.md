@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 58,
-  "Direction": false
+  "QuoteLineId": 803,
+  "Direction": true
 }
 ```
 

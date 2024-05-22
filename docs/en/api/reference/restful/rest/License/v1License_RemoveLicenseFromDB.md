@@ -58,7 +58,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": true,
-  "Reason": "",
+  "Reason": "reintermediate next-generation networks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

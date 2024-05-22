@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Hettinger Inc and Sons",
+  "HistoryName": "Hamill Group",
   "History": [
     {
-      "Rank": 989,
-      "Id": 635,
-      "HistoryName": "McDermott Inc and Sons",
-      "HistoryId": 695,
-      "AssociateId": 636,
-      "Name": "Heathcote-Hegmann",
-      "ItemInfo": "voluptatem"
+      "Rank": 444,
+      "Id": 861,
+      "HistoryName": "Block, Wehner and Spinka",
+      "HistoryId": 200,
+      "AssociateId": 201,
+      "Name": "Rempel-Kohler",
+      "ItemInfo": "iste"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 373,
-    "Id": 403,
-    "HistoryName": "Heidenreich-Strosin",
-    "HistoryId": 622,
-    "AssociateId": 496,
-    "Name": "Hills-Lubowitz",
-    "ItemInfo": "eaque",
+    "Rank": 697,
+    "Id": 63,
+    "HistoryName": "Harvey LLC",
+    "HistoryId": 580,
+    "AssociateId": 761,
+    "Name": "Douglas Inc and Sons",
+    "ItemInfo": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldType": "System.Int32",
+        "FieldLength": 824
       }
     }
   }

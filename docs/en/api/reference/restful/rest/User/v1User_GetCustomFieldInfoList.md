@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Sipes-Bernhard",
-    "DisplayName": "Pouros, Willms and Kunze",
-    "Description": "Automated homogeneous matrix",
-    "ShortLabel": "distinctio",
+    "FieldName": "Sporer, McKenzie and Flatley",
+    "DisplayName": "Mayert Inc and Sons",
+    "Description": "Customer-focused non-volatile help-desk",
+    "ShortLabel": "qui",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 925,
-    "TemplateVariableName": "Beer, Reinger and Towne"
+    "Rank": 1001,
+    "TemplateVariableName": "Morar, Gleason and Hermiston"
   }
 ]
 ```

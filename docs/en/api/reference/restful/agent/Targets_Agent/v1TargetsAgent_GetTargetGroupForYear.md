@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 449,
+  "TargetYear": 433,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 325,
-  "Year": 333,
+  "TargetGroupId": 97,
+  "Year": 353,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 730,
+      "TargetAssignmentInfoId": 701,
       "Values": [
-        852,
-        93
+        711,
+        545
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 428,
-      "DimensionListItemDisplayName": "Smith, Schowalter and Klein",
+      "DimensionListItem": 524,
+      "DimensionListItemDisplayName": "Emard-Pouros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldType": "System.Int32",
+          "FieldLength": 871
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 386
     }
   }
 }

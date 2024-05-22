@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wiza Inc and Sons"
+  "ApplicationName": "Rodriguez, Grant and Simonis"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 408,
-  "Name": "Kuvalis Group",
-  "CreatedDate": "2003-01-16T11:16:09.2878404+01:00",
-  "UpdatedDate": "2019-06-29T11:16:09.2878404+02:00",
+  "ForeignAppId": 725,
+  "Name": "Adams-Schultz",
+  "CreatedDate": "1998-06-07T12:57:34.0554972+02:00",
+  "UpdatedDate": "2019-08-21T12:57:34.0554972+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 191,
-      "Name": "Jacobs-Rice",
-      "CreatedDate": "2007-12-06T11:16:09.2878404+01:00",
-      "UpdatedDate": "1998-11-26T11:16:09.2878404+01:00",
-      "AssociateFullName": "Dr. Kristin Bashirian V",
+      "ForeignDeviceId": 623,
+      "Name": "Turcotte-Denesik",
+      "CreatedDate": "2019-12-04T12:57:34.0554972+01:00",
+      "UpdatedDate": "2001-01-02T12:57:34.0554972+01:00",
+      "AssociateFullName": "Malvina Rutherford",
       "CreatedBy": "ut",
-      "UpdatedBy": "magnam",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 133,
+      "UpdatedBy": "ipsum",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 41,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 205
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldLength": 179
     }
   }
 }

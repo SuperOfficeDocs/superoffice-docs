@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 53,
-  "Section": "libero",
-  "Key": "quaerat",
-  "Name": "Dietrich-Cartwright",
+  "PrefDescId": 346,
+  "Section": "et",
+  "Key": "ipsam",
+  "Name": "Dach, Streich and Mante",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked discrete installation",
+  "Description": "Pre-emptive optimal projection",
   "IsBuiltin": false,
-  "TableName": "Harvey LLC",
-  "UserDefinedListId": 104,
-  "Rank": 941,
-  "SubGroup": "ex",
-  "MinLevel": 19,
-  "MaxValue": 4,
-  "MinValue": 321,
-  "RequiredLicense": "quaerat",
+  "TableName": "Beahan-Pollich",
+  "UserDefinedListId": 953,
+  "Rank": 686,
+  "SubGroup": "fuga",
+  "MinLevel": 569,
+  "MaxValue": 253,
+  "MinValue": 371,
+  "RequiredLicense": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 883
     }
   },
   "_Links": {

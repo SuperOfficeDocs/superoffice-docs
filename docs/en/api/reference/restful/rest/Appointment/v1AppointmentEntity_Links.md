@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Appointment/{id}/Links?$select=name,department,category/id
 GET /api/v1/Appointment/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Appointment/{id}/Links?$orderBy=name asc
-GET /api/v1/Appointment/{id}/Links?$entities=nihil
-GET /api/v1/Appointment/{id}/Links?$top=861
-GET /api/v1/Appointment/{id}/Links?$skip=58
+GET /api/v1/Appointment/{id}/Links?$entities=et
+GET /api/v1/Appointment/{id}/Links?$top=467
+GET /api/v1/Appointment/{id}/Links?$skip=344
 GET /api/v1/Appointment/{id}/Links?$mode=Full
 GET /api/v1/Appointment/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Appointment/{id}/Links?$context=sequi
+GET /api/v1/Appointment/{id}/Links?$context=fuga
 GET /api/v1/Appointment/{id}/Links?$format=JSON
 GET /api/v1/Appointment/{id}/Links?$jsonSafe=False
 GET /api/v1/Appointment/{id}/Links?$output=Display
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "rem",
   "value": [
     {
-      "PrimaryKey": 6903,
-      "EntityName": "person",
-      "personId": 6903,
-      "fullName": "Prof. Arne Corkery"
+      "PrimaryKey": 9178,
+      "EntityName": "sale",
+      "saleId": 9178,
+      "contactId": 3431,
+      "name": "Smitham Group"
     },
     {
-      "PrimaryKey": 4013,
-      "EntityName": "person",
-      "personId": 4013,
-      "fullName": "Odell Leuschke"
+      "PrimaryKey": 2824,
+      "EntityName": "sale",
+      "saleId": 2824,
+      "contactId": 184,
+      "name": "Gusikowski, Lemke and Satterfield"
     }
   ]
 }

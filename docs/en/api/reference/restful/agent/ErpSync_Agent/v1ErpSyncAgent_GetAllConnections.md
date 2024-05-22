@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 404,
-    "ErpConnectorId": 205,
-    "DisplayName": "Bergstrom Group",
-    "DisplayDescription": "Quality-focused client-driven monitoring",
-    "Active": false,
-    "ConnectionId": "eum",
-    "MostRecentTimestamp": "optio",
+    "ErpConnectionId": 218,
+    "ErpConnectorId": 384,
+    "DisplayName": "Kautzer Group",
+    "DisplayDescription": "Triple-buffered fresh-thinking instruction set",
+    "Active": true,
+    "ConnectionId": "eveniet",
+    "MostRecentTimestamp": "adipisci",
     "ConfigFields": {
-      "ConfigFields1": "ipsam",
-      "ConfigFields2": "neque"
+      "ConfigFields1": "at",
+      "ConfigFields2": "et"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      876,
-      658
+      344,
+      351
     ],
     "AssociateAccessIds": [
-      857,
-      973
+      837,
+      159
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 135
       }
     }
   }

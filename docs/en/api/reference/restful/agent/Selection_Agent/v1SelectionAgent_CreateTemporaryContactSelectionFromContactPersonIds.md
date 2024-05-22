@@ -71,7 +71,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 507,
-      "ContactId": 262
+      "PersonId": 32,
+      "ContactId": 418
     },
     {
-      "PersonId": 507,
-      "ContactId": 262
+      "PersonId": 32,
+      "ContactId": 418
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered methodical product",
-  "Postit": "eos",
+  "Description": "Automated full-range parallelism",
+  "Postit": "quis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 511,
-  "IncludePerson": 161,
-  "MemberCount": 906,
-  "Name": "Monahan, Beahan and Brekke",
-  "PostitTextId": 341,
-  "CreatedDate": "2017-02-28T11:16:09.7103639+01:00",
-  "SelectionId": 1002,
-  "SoundEx": "tenetur",
-  "Source": 266,
-  "TextId": 526,
-  "UpdatedDate": "2012-09-06T11:16:09.7103639+02:00",
-  "UpdatedCount": 402,
-  "Visibility": 867,
+  "GroupIdx": 469,
+  "IncludePerson": 118,
+  "MemberCount": 99.99,
+  "Name": "Wilkinson Group",
+  "PostitTextId": 295,
+  "CreatedDate": "2004-05-08T12:57:34.9145867+02:00",
+  "SelectionId": 76,
+  "SoundEx": "velit",
+  "Source": 842,
+  "TextId": 39,
+  "UpdatedDate": "2007-05-16T12:57:34.9145867+02:00",
+  "UpdatedCount": 203,
+  "Visibility": 410,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 540,
-  "TargetTableName": "Wuckert, Brown and Abshire",
+  "TargetTableNumber": 623,
+  "TargetTableName": "Cummings, Rippin and Reynolds",
   "Completed": true,
-  "LeftSelectionId": 409,
-  "RightSelectionId": 85,
+  "LeftSelectionId": 494,
+  "RightSelectionId": 188,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ratke-Koepp",
-  "ShadowProviderName": "Bogan, McLaughlin and Jerde",
-  "ChartKey": "cum",
-  "LastLoaded": "2005-11-01T11:16:09.7103639+01:00",
-  "LastLoadedBy": 442,
+  "MainProviderName": "Collier Group",
+  "ShadowProviderName": "Zieme, Wilderman and Bernhard",
+  "ChartKey": "ut",
+  "LastLoaded": "2003-06-21T12:57:34.9145867+02:00",
+  "LastLoadedBy": 501,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-04-27T11:16:09.7103639+02:00",
-  "LastMembershipChangeBy": 187,
+  "LastMembershipChange": "1999-09-08T12:57:34.9145867+02:00",
+  "LastMembershipChangeBy": 49,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "error",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Ryan, Aufderhar and Schultz",
-  "DashboardTileDefinitionId": 959,
+  "MainHeading": "saepe",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Williamson, Herman and Thompson",
+  "DashboardTileDefinitionId": 60,
   "VisibleFor": [
     {
-      "VisibleId": 120,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldLength": 825
         }
       }
     },
     {
-      "VisibleId": 120,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldLength": 825
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 5
     }
   }
 }

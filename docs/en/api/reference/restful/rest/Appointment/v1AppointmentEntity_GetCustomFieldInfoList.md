@@ -68,7 +68,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Murphy, Lemke and Hegmann",
-    "DisplayName": "Bailey Inc and Sons",
-    "Description": "Centralized neutral contingency",
-    "ShortLabel": "autem",
+    "FieldName": "Haley, Kunze and Lockman",
+    "DisplayName": "Effertz, Harris and Goyette",
+    "Description": "Re-contextualized bi-directional moratorium",
+    "ShortLabel": "voluptatem",
     "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 684,
-    "TemplateVariableName": "Grimes Group"
+    "IsDisplayField": false,
+    "Rank": 946,
+    "TemplateVariableName": "Denesik Inc and Sons"
   }
 ]
 ```

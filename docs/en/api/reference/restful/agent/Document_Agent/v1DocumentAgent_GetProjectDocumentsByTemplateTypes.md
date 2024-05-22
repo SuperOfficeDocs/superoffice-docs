@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 325,
-  "StartTime": "2014-08-27T11:16:09.0691155+02:00",
-  "EndTime": "2011-03-23T11:16:09.0691155+01:00",
-  "Count": 647,
+  "ProjectId": 772,
+  "StartTime": "2023-10-03T12:57:33.7117979+02:00",
+  "EndTime": "2007-09-10T12:57:33.7117979+02:00",
+  "Count": 730,
   "DocumentTemplateIds": [
-    888,
-    768
+    323,
+    546
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 24,
-    "Attention": "facere",
-    "Header": "sapiente",
-    "Name": "Orn Group",
-    "OurRef": "adipisci",
-    "YourRef": "ea",
-    "Description": "Customizable dedicated leverage",
+    "DocumentId": 855,
+    "Attention": "quis",
+    "Header": "quas",
+    "Name": "Rosenbaum, Christiansen and Lynch",
+    "OurRef": "est",
+    "YourRef": "id",
+    "Description": "Cloned content-based open system",
     "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 280,
-    "PersonFullName": "Prof. Sienna Major Pollich",
-    "AssociateFullName": "Carolanne Schiller",
-    "ContactId": 431,
-    "ContactName": "Gottlieb, O'Hara and Okuneva",
-    "ProjectId": 683,
-    "ProjectName": "Collier-Turner",
-    "AssociateId": 605,
-    "Snum": 175,
-    "SaleId": 696,
-    "SaleName": "Konopelski-Nolan",
+    "IsPublished": true,
+    "PersonId": 35,
+    "PersonFullName": "Furman Wisozk",
+    "AssociateFullName": "Winnifred Toy",
+    "ContactId": 28,
+    "ContactName": "Feeney-Daniel",
+    "ProjectId": 67,
+    "ProjectName": "Reichert Group",
+    "AssociateId": 886,
+    "Snum": 165,
+    "SaleId": 742,
+    "SaleName": "Ledner Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldLength": 828
       }
     }
   }

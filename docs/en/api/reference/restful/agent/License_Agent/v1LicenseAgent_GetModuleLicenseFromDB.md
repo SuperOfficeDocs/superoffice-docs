@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Olson-Weissnat",
-  "ModuleName": "Breitenberg, Hyatt and Gerlach"
+  "OwnerName": "Kautzer, Osinski and Effertz",
+  "ModuleName": "Rogahn, Bergstrom and Hodkiewicz"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ortiz, Cronin and Treutel",
-  "ModuleName": "Cartwright, Erdman and Marquardt",
-  "ModuleDescription": "Cross-platform 4th generation challenge",
-  "ModuleTooltip": "ut",
-  "ModuleVersion": "inventore",
+  "OwnerName": "O'Hara-Kovacek",
+  "ModuleName": "Schultz, Reinger and Wintheiser",
+  "ModuleDescription": "Expanded intangible benchmark",
+  "ModuleTooltip": "voluptas",
+  "ModuleVersion": "dolores",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 776,
-  "ExtraFlags": 318,
-  "ExtraInfo": "quam",
-  "SortOrder": 169,
+  "NumberOfLicenses": 368,
+  "ExtraFlags": 471,
+  "ExtraInfo": "quos",
+  "SortOrder": 558,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Schuster-Gutmann",
-  "Signature": "asperiores"
+  "PrerequisiteModuleName": "Barrows-Parker",
+  "Signature": "non"
 }
 ```

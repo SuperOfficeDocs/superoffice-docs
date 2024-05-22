@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 875
+  "QuoteConnectionId": 889
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 189,
-  "ERPName": "Braun-Hintz",
-  "DisplayName": "Kirlin Inc and Sons",
-  "DisplayDescription": "Multi-tiered multi-state contingency",
-  "Rank": 651,
-  "ConnectorName": "Heathcote LLC",
-  "ErpConnectionId": 252,
-  "ExtraData": "amet",
-  "IsAvailable": false,
+  "QuoteConnectionId": 121,
+  "ERPName": "Harris Inc and Sons",
+  "DisplayName": "Jast LLC",
+  "DisplayDescription": "Organized holistic forecast",
+  "Rank": 926,
+  "ConnectorName": "Rath Group",
+  "ErpConnectionId": 402,
+  "ExtraData": "et",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 944,
-      "ERPPriceListKey": "fuga",
-      "QuoteConnectionId": 119,
-      "Name": "Strosin Inc and Sons",
-      "Description": "Versatile global open architecture",
-      "Currency": "et",
-      "CurrencyName": "Towne, Doyle and Mills",
-      "ValidFrom": "2020-07-16T11:16:09.6005114+02:00",
-      "ValidTo": "2011-06-19T11:16:09.6005114+02:00",
+      "PriceListId": 568,
+      "ERPPriceListKey": "earum",
+      "QuoteConnectionId": 399,
+      "Name": "Konopelski Group",
+      "Description": "Synergized object-oriented solution",
+      "Currency": "mollitia",
+      "CurrencyName": "Sporer, Williamson and Herzog",
+      "ValidFrom": "1998-07-30T12:57:34.7428121+02:00",
+      "ValidTo": "2008-08-19T12:57:34.7428121+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 313
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    588,
-    968
+    880,
+    84
   ],
   "AssociateAccessIds": [
-    802,
-    300
+    803,
+    741
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 520
     }
   }
 }

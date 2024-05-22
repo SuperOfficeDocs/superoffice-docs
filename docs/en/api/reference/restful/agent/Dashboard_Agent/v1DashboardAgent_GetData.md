@@ -77,8 +77,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 637,
-  "Restrictions": "molestiae"
+  "DashboardTileId": 891,
+  "Restrictions": "et"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Yost-Wilderman",
-        "DisplayTooltip": "enim",
-        "DisplayType": "ut",
+        "DisplayName": "Hilpert, McCullough and Ledner",
+        "DisplayTooltip": "illo",
+        "DisplayType": "aspernatur",
         "CanOrderBy": false,
-        "Name": "Waelchi, Barton and Bartell",
-        "CanRestrictBy": false,
-        "RestrictionType": "voluptates",
-        "RestrictionListName": "Lemke-Russel",
+        "Name": "Dietrich Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "quo",
+        "RestrictionListName": "Huel-Schowalter",
         "IsVisible": true,
-        "ExtraInfo": "provident",
-        "Width": "exercitationem",
-        "IconHint": "error",
-        "HeadingIconHint": "animi"
+        "ExtraInfo": "similique",
+        "Width": "sit",
+        "IconHint": "est",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Yost-Wilderman",
-        "DisplayTooltip": "enim",
-        "DisplayType": "ut",
+        "DisplayName": "Hilpert, McCullough and Ledner",
+        "DisplayTooltip": "illo",
+        "DisplayType": "aspernatur",
         "CanOrderBy": false,
-        "Name": "Waelchi, Barton and Bartell",
-        "CanRestrictBy": false,
-        "RestrictionType": "voluptates",
-        "RestrictionListName": "Lemke-Russel",
+        "Name": "Dietrich Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "quo",
+        "RestrictionListName": "Huel-Schowalter",
         "IsVisible": true,
-        "ExtraInfo": "provident",
-        "Width": "exercitationem",
-        "IconHint": "error",
-        "HeadingIconHint": "animi"
+        "ExtraInfo": "similique",
+        "Width": "sit",
+        "IconHint": "est",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null

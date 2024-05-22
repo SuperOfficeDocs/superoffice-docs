@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "O'Connell, Emard and Hoeger",
-      "DisplayName": "Wunsch Inc and Sons",
-      "DisplayTooltip": "at",
+      "Name": "Stiedemann Inc and Sons",
+      "DisplayName": "Daugherty-Marquardt",
+      "DisplayTooltip": "tempora",
       "IsActive": false
     },
     {
-      "Name": "O'Connell, Emard and Hoeger",
-      "DisplayName": "Wunsch Inc and Sons",
-      "DisplayTooltip": "at",
+      "Name": "Stiedemann Inc and Sons",
+      "DisplayName": "Daugherty-Marquardt",
+      "DisplayTooltip": "tempora",
       "IsActive": false
     }
   ]

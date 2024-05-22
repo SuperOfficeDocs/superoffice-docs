@@ -133,6 +133,9 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |documentInstance/person/isProjectMember|bool|Is project member: This person is a project member| x |
 |documentInstance/person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|documentInstance/person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|documentInstance/person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|documentInstance/person/createdByForm|listAny|Created by form: Created by form| x |
 |documentInstance/person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |documentInstance/person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |documentInstance/person/personDirectPhone/description|string|Direct - Description: Phone number description| x |
@@ -195,7 +198,6 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |documentInstance/person/personUdef/SuperOffice:11|string|page1adminonly| x |
 |documentInstance/person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|documentInstance/person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |documentInstance/person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |documentInstance/person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |documentInstance/person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -228,12 +230,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |documentInstance/person/personAssociate/associateDbId|associate|ID| x |
 |documentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|documentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|documentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|documentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |documentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |documentInstance/person/personAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/person/personAssociate/role|listAny|Role : Role| x |
@@ -253,6 +255,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/userName|string|User name: User name| x |
 |documentInstance/person/personAssociate/personEmail|string|E-mail| x |
 |documentInstance/person/personAssociate/locationAddress|string|Location: Location| x |
+|documentInstance/person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |documentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |documentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |documentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -284,6 +287,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/correspondingAssociate/userName|string|User name: User name| x |
 |documentInstance/person/correspondingAssociate/personEmail|string|E-mail| x |
 |documentInstance/person/correspondingAssociate/locationAddress|string|Location: Location| x |
+|documentInstance/person/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |documentInstance/person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |documentInstance/person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -330,14 +334,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |documentInstance/contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |documentInstance/contact/email/emailAddress|string|E-mail| x |
-|documentInstance/contact/email/emailDescription|string|Description| x |
-|documentInstance/contact/email/emailId|int|ID| x |
-|documentInstance/contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|documentInstance/contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/email/emailDescription|string|Description| x |
+|documentInstance/contact/email/emailId|int|ID| x |
+|documentInstance/contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+|documentInstance/contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |documentInstance/contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |documentInstance/contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |documentInstance/contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
@@ -409,6 +413,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactAssociate/userName|string|User name: User name| x |
 |documentInstance/contact/contactAssociate/personEmail|string|E-mail| x |
 |documentInstance/contact/contactAssociate/locationAddress|string|Location: Location| x |
+|documentInstance/contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |documentInstance/contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |documentInstance/contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |documentInstance/contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -424,7 +429,6 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |documentInstance/contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |documentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |documentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |documentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |documentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -434,14 +438,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |documentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |documentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-|documentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
-|documentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
-|documentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
-|documentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|documentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|documentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|documentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |documentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |documentInstance/contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |documentInstance/contact/NumberOfActivities|int|Number of activities|  |
@@ -538,14 +542,15 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectAssociate/userName|string|User name: User name| x |
 |documentInstance/project/projectAssociate/personEmail|string|E-mail| x |
 |documentInstance/project/projectAssociate/locationAddress|string|Location: Location| x |
-|documentInstance/project/projectUdef/SuperOffice:1|string|projectshorttext| x |
-|documentInstance/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
-|documentInstance/project/projectUdef/SuperOffice:3|int|projectnumber| x |
-|documentInstance/project/projectUdef/SuperOffice:4|date|projectdate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
+|documentInstance/project/projectUdef/SuperOffice:1|string|projectshorttext| x |
+|documentInstance/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
+|documentInstance/project/projectUdef/SuperOffice:3|int|projectnumber| x |
+|documentInstance/project/projectUdef/SuperOffice:4|date|projectdate| x |
 |documentInstance/project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |documentInstance/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |documentInstance/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
@@ -607,6 +612,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/associate/userName|string|User name: User name| x |
 |documentInstance/associate/personEmail|string|E-mail| x |
 |documentInstance/associate/locationAddress|string|Location: Location| x |
+|documentInstance/associate/isLocation|bool|Is a location: Is a location| x |
 |documentInstance/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |documentInstance/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |documentInstance/documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -640,16 +646,16 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/credited|listAny|Credited: The user to be credited with the sale| x |
 |documentInstance/sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
 |documentInstance/sale/source|listAny|Source: The source (lead) of the sale| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |documentInstance/sale/competitor|listAny|Competitor: The competitor who won the sale| x |
 |documentInstance/sale/heading|stringorPK|Sale: The name of the sale| x |
 |documentInstance/sale/amount|decimal|Amount: The gross sales total| x |
 |documentInstance/sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |documentInstance/sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |documentInstance/sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |documentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
 |documentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
@@ -667,6 +673,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |documentInstance/sale/description|string|Description: The long description field on Sale|  |
 |documentInstance/sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|documentInstance/sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -705,6 +712,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/associate/userName|string|User name: User name| x |
 |documentInstance/sale/associate/personEmail|string|E-mail| x |
 |documentInstance/sale/associate/locationAddress|string|Location: Location| x |
+|documentInstance/sale/associate/isLocation|bool|Is a location: Is a location| x |
 |documentInstance/sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |documentInstance/sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |documentInstance/sale/saleUdef/SuperOffice:3|int|salenumber| x |
@@ -719,7 +727,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/personUdef/SuperOffice:10,documentInstance/person/correspondingAssociate/ejStatus,documentInstance/person/isMailingRecipient,documentInstance/contact/postAddress/wgs84latitude,documentInstance/contact/contactAssociate/assocType
+GET /api/v1/archive/ProjectGuideDocument?$select=stageName,documentInstance/registeredByFullName,documentInstance/person/restrictionAddress/addressId,documentInstance/person/personAssociate/assocType,documentInstance/person/personAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

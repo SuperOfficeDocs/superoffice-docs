@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koepp, Wisozk and Bartoletti",
-    "DisplayName": "Harber Inc and Sons",
-    "DisplayTooltip": "ab",
-    "IsActive": false
+    "Name": "Herzog, Rogahn and Ryan",
+    "DisplayName": "Gutmann, Glover and Senger",
+    "DisplayTooltip": "dolor",
+    "IsActive": true
   },
   {
-    "Name": "Koepp, Wisozk and Bartoletti",
-    "DisplayName": "Harber Inc and Sons",
-    "DisplayTooltip": "ab",
-    "IsActive": false
+    "Name": "Herzog, Rogahn and Ryan",
+    "DisplayName": "Gutmann, Glover and Senger",
+    "DisplayTooltip": "dolor",
+    "IsActive": true
   }
 ]
 ```

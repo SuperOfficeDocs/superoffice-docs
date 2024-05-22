@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Blanda LLC",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "Rank": 730,
+  "Id": 614,
+  "Name": "Glover-Kohler",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 204,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true
+  "ListType": "est",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "O'Keefe Inc and Sons",
-  "Tooltip": "atque",
+  "Id": 475,
+  "Name": "Hamill Group",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 878,
-  "IsCustomList": true,
+  "Rank": 913,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "commodi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 404
     }
   }
 }

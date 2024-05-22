@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Moen LLC",
-  "Context": "repudiandae",
+  "ProviderName": "Simonis, Quitzon and Streich",
+  "Context": "et",
   "DesiredEntities": [
-    "rerum",
-    "et"
+    "architecto",
+    "sit"
   ],
   "Columns": [
-    "fugit",
-    "ut"
+    "dolor",
+    "vel"
   ],
   "SortOrder": [
     {
-      "Name": "Vandervort LLC",
+      "Name": "Christiansen-Koelpin",
       "Direction": "ASC"
     },
     {
-      "Name": "Vandervort LLC",
+      "Name": "Christiansen-Koelpin",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Braun, O'Conner and Mills",
-      "Operator": "quibusdam",
+      "Name": "Collins, Hilpert and Altenwerth",
+      "Operator": "consequuntur",
       "Values": [
-        "quia",
-        "nam"
+        "doloremque",
+        "adipisci"
       ],
       "DisplayValues": [
-        "voluptates",
-        "eveniet"
+        "exercitationem",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 640,
+      "InterParenthesis": 257,
       "InterOperator": "And",
-      "UniqueHash": 287
+      "UniqueHash": 814
     }
   ],
-  "ExportType": "alias",
+  "ExportType": "beatae",
   "SelectedRowIds": [
-    "id",
-    "cum"
+    "fugiat",
+    "sit"
   ],
-  "EstimatedRowCount": 649
+  "EstimatedRowCount": 767
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 893,
-  "FileName": "Yundt-Blick",
-  "Message": "et",
+  "BatchTaskId": 423,
+  "FileName": "Murazik, Hoeger and Swaniawski",
+  "Message": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

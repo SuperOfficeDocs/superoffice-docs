@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 851,
-    "ERPName": "Cremin Group",
-    "DisplayName": "O'Conner Inc and Sons",
-    "DisplayDescription": "Digitized object-oriented algorithm",
-    "Rank": 374,
-    "ConnectorName": "Stoltenberg, Bechtelar and Schulist",
-    "ErpConnectionId": 27,
-    "ExtraData": "vel",
+    "QuoteConnectionId": 69,
+    "ERPName": "Douglas-Ernser",
+    "DisplayName": "Jacobson, Hilll and Schuppe",
+    "DisplayDescription": "Versatile dynamic project",
+    "Rank": 296,
+    "ConnectorName": "Von LLC",
+    "ErpConnectionId": 892,
+    "ExtraData": "commodi",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 393,
-        "ERPPriceListKey": "facilis",
-        "QuoteConnectionId": 760,
-        "Name": "Maggio, Herman and Dare",
-        "Description": "Future-proofed optimal matrix",
-        "Currency": "qui",
-        "CurrencyName": "Durgan Group",
-        "ValidFrom": "1999-02-05T11:16:09.6005114+01:00",
-        "ValidTo": "2016-09-14T11:16:09.6005114+02:00",
+        "PriceListId": 759,
+        "ERPPriceListKey": "et",
+        "QuoteConnectionId": 935,
+        "Name": "Hills Group",
+        "Description": "Business-focused cohesive projection",
+        "Currency": "fugiat",
+        "CurrencyName": "Barrows Group",
+        "ValidFrom": "2012-04-22T12:57:34.7428121+02:00",
+        "ValidTo": "2019-10-16T12:57:34.7428121+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldType": "System.String",
+            "FieldLength": 586
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      296,
-      291
+      4,
+      287
     ],
     "AssociateAccessIds": [
-      44,
-      842
+      175,
+      530
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldType": "System.String",
+        "FieldLength": 725
       }
     }
   }

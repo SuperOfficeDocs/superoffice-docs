@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Kilback, Bradtke and Waters",
-    "ToolTip": "Assumenda amet voluptatem deserunt ad eum in.",
+    "Id": 348,
+    "Name": "Sanford, Schmidt and Weber",
+    "ToolTip": "Et ut aut facilis nisi voluptas.",
     "Deleted": false,
-    "Rank": 252,
-    "Type": "voluptas",
-    "ColorBlock": 34,
-    "IconHint": "aspernatur",
+    "Rank": 104,
+    "Type": "iure",
+    "ColorBlock": 151,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2017-10-14T11:16:14.6057886+02:00",
+    "LastChanged": "2000-10-07T12:57:43.5426609+02:00",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Connelly-O'Reilly",
-        "ToolTip": "In debitis aliquid eius suscipit error.",
-        "Deleted": false,
-        "Rank": 526,
-        "Type": "vitae",
-        "ColorBlock": 600,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2023-08-24T11:16:14.6057886+02:00",
+        "Id": 354,
+        "Name": "Fahey-Sanford",
+        "ToolTip": "Est voluptatem amet non quia est.",
+        "Deleted": true,
+        "Rank": 888,
+        "Type": "quaerat",
+        "ColorBlock": 370,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2004-06-25T12:57:43.5426609+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "vel",
+        "ExtraInfo": "quos",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Carmel Satterfield",
+        "FullName": "Jeff Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 963
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "quis",
+    "ExtraInfo": "est",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Connie Pagac",
+    "FullName": "Mrs. Ari Dane Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 362
       }
     }
   }

@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "omnis",
-  "ProviderName": "Gutmann-McClure",
-  "PageSize": 548,
-  "PageNumber": 862
+  "Restrictions": "magni",
+  "ProviderName": "Blick Group",
+  "PageSize": 611,
+  "PageNumber": 663
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Franecki, Daniel and Ratke",
-      "DisplayTooltip": "corporis",
-      "DisplayType": "ipsum",
-      "CanOrderBy": true,
-      "Name": "Koepp, Treutel and Halvorson",
-      "CanRestrictBy": true,
-      "RestrictionType": "neque",
-      "RestrictionListName": "Gulgowski, Prohaska and Schinner",
+      "DisplayName": "Koelpin-Grant",
+      "DisplayTooltip": "qui",
+      "DisplayType": "inventore",
+      "CanOrderBy": false,
+      "Name": "Torp-Kunde",
+      "CanRestrictBy": false,
+      "RestrictionType": "sint",
+      "RestrictionListName": "Lindgren-Langosh",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "et",
-      "IconHint": "ut",
-      "HeadingIconHint": "iusto"
+      "ExtraInfo": "voluptates",
+      "Width": "minima",
+      "IconHint": "animi",
+      "HeadingIconHint": "aliquam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Tremblay Group",
-      "PrimaryKey": 950,
+      "EntityName": "Murazik-Cruickshank",
+      "PrimaryKey": 187,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "nihil",
-          "LinkHint": "dicta"
+          "DisplayValue": "maiores",
+          "TooltipHint": "corrupti",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "eveniet",
-      "StyleHint": "quo",
+      "LinkHint": "ut",
+      "StyleHint": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 754
         }
       }
     }
   ],
-  "RowCount": 245,
+  "RowCount": 803,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   }
 }

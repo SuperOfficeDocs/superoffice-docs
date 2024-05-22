@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Rau Group",
-    "ToolTip": "Quis suscipit.",
-    "Deleted": true,
-    "Rank": 954,
-    "Type": "et",
-    "ColorBlock": 300,
-    "IconHint": "odit",
+    "Id": 473,
+    "Name": "Howe-Lind",
+    "ToolTip": "Repellat saepe error modi molestias in.",
+    "Deleted": false,
+    "Rank": 268,
+    "Type": "illum",
+    "ColorBlock": 943,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2016-05-06T11:16:14.7307772+02:00",
+    "LastChanged": "2000-01-18T12:57:43.7457393+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Roob, Goodwin and Davis",
-        "ToolTip": "Consequatur dolore facilis cum sit.",
-        "Deleted": false,
-        "Rank": 86,
-        "Type": "harum",
-        "ColorBlock": 745,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2002-10-08T11:16:14.7307772+02:00",
+        "Id": 448,
+        "Name": "Mueller-Rath",
+        "ToolTip": "Qui dolores mollitia aperiam et culpa minus est.",
+        "Deleted": true,
+        "Rank": 836,
+        "Type": "nulla",
+        "ColorBlock": 273,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2019-11-05T12:57:43.7457393+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "nam",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Judah Lubowitz"
+        "FullName": "Wava Schroeder"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Lesley Prosacco"
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "incidunt",
+    "Hidden": false,
+    "FullName": "Ted Leanna King V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Collier, Nienow and Dooley",
-    "ToolTip": "Ab et et modi ut ducimus animi dolor.",
-    "Deleted": true,
-    "Rank": 865,
-    "Type": "eos",
-    "ColorBlock": 667,
-    "IconHint": "eaque",
+    "Id": 132,
+    "Name": "Welch, Romaguera and Simonis",
+    "ToolTip": "Quae qui sed eos magni repellendus facere minima.",
+    "Deleted": false,
+    "Rank": 831,
+    "Type": "laudantium",
+    "ColorBlock": 947,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2016-11-15T11:16:14.7307772+01:00",
+    "LastChanged": "2008-05-16T12:57:43.7457393+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Ankunding, Ledner and Baumbach",
-        "ToolTip": "Omnis quia tenetur accusamus nemo voluptatem blanditiis.",
-        "Deleted": true,
-        "Rank": 962,
-        "Type": "voluptatum",
-        "ColorBlock": 48,
-        "IconHint": "magni",
-        "Selected": false,
-        "LastChanged": "2008-11-01T11:16:14.7307772+01:00",
+        "Id": 699,
+        "Name": "Dibbert, Borer and Thompson",
+        "ToolTip": "Voluptas cumque sit dolorum consequatur et debitis.",
+        "Deleted": false,
+        "Rank": 716,
+        "Type": "aut",
+        "ColorBlock": 342,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2014-09-11T12:57:43.7457393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Hanna Will Hamill Sr.",
+        "FullName": "Ms. Jorge Waelchi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldType": "System.String",
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "ea",
+    "ExtraInfo": "nam",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Sibyl Kohler",
+    "FullName": "Miss Jakob Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 474
+        "FieldType": "System.Int32",
+        "FieldLength": 402
       }
     }
   }

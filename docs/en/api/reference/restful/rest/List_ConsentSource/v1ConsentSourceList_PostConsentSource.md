@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 729,
-  "Name": "Lueilwitz-Hirthe",
-  "Tooltip": "minus",
-  "Rank": 729,
-  "Key": "beatae",
-  "MailTemplateId": 369,
-  "Deleted": true
+  "ConsentSourceId": 898,
+  "Name": "Mills Inc and Sons",
+  "Tooltip": "beatae",
+  "Rank": 501,
+  "Key": "magni",
+  "MailTemplateId": 662,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 142,
-  "Name": "Purdy Inc and Sons",
-  "Tooltip": "nam",
-  "Rank": 755,
-  "Key": "voluptatem",
-  "MailTemplateId": 796,
+  "ConsentSourceId": 920,
+  "Name": "Hansen Inc and Sons",
+  "Tooltip": "assumenda",
+  "Rank": 519,
+  "Key": "voluptates",
+  "MailTemplateId": 887,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 837
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 889,
-    "Name": "Windler, Schoen and Bogisich",
-    "Tooltip": "velit",
+    "HeadingId": 808,
+    "Name": "Hills-Weimann",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "Rank": 188,
-    "UdListDefinitionId": 550,
+    "Rank": 933,
+    "UdListDefinitionId": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 644
       }
     }
   }

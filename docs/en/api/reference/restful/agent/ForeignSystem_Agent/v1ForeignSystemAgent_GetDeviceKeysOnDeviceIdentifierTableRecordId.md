@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Satterfield, Greenfelder and Jones",
-  "DeviceName": "Baumbach-Jaskolski",
-  "DeviceIdentifier": "delectus",
-  "TableName": "Fadel Inc and Sons",
-  "RecordId": 275
+  "ApplicationName": "Jacobi-Murphy",
+  "DeviceName": "Brekke-Nader",
+  "DeviceIdentifier": "ea",
+  "TableName": "Smitham Inc and Sons",
+  "RecordId": 239
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quo",
-    "Value": "reiciendis",
-    "RecordId": 762,
-    "CreatedDate": "2003-09-26T11:16:09.2878404+02:00",
-    "UpdatedDate": "2005-05-31T11:16:09.2878404+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "id",
-    "TableName": "Beahan, Russel and Becker",
+    "Key": "id",
+    "Value": "qui",
+    "RecordId": 831,
+    "CreatedDate": "2007-04-14T12:57:34.0711192+02:00",
+    "UpdatedDate": "2008-10-11T12:57:34.0711192+02:00",
+    "UpdatedBy": "voluptates",
+    "CreatedBy": "sunt",
+    "TableName": "Dach Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 571
       }
     }
   }

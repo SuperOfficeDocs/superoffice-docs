@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 527,
-  "NumSentences": 641,
-  "Summary": "consequatur",
-  "IsoLangCode": "laboriosam"
+  "TicketId": 835,
+  "NumSentences": 454,
+  "Summary": "pariatur",
+  "IsoLangCode": "consectetur"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "1997-08-04T11:16:08.3966087+02:00",
-  "UserPrompt": "vel",
-  "UserDisplayText": "fugit",
-  "BotResponse": "impedit",
+  "Timestamp": "2014-01-05T12:57:32.6803248+01:00",
+  "UserPrompt": "expedita",
+  "UserDisplayText": "in",
+  "BotResponse": "fuga",
   "BotActions": {
-    "BotActions1": "qui",
-    "BotActions2": "voluptatem"
+    "BotActions1": "facilis",
+    "BotActions2": "nobis"
   },
   "Attachments": [
-    "vero",
-    "atque"
+    "dolorem",
+    "est"
   ]
 }
 ```

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 1000
+  "ReplyTemplateId": 956
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobi, Stoltenberg and Jenkins",
-  "Description": "Virtual eco-centric capability",
-  "OwnedByFullName": "Angela Schoen",
-  "Updated": "1999-05-19T11:16:08.9597121+02:00",
-  "Body": "veritatis",
+  "Name": "Pfannerstill Group",
+  "Description": "Switchable local service-desk",
+  "OwnedByFullName": "Burnice Friesen",
+  "Updated": "2003-10-04T12:57:33.6336908+02:00",
+  "Body": "pariatur",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 394
     }
   }
 }

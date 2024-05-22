@@ -84,38 +84,38 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 165,
-    "Name": "Hackett-Fadel",
-    "Rank": 791,
-    "Tooltip": "dolorem",
-    "Icon": "voluptatem",
-    "DefaultTicketStatus": 908,
+    "TicketTypeId": 359,
+    "Name": "Schaefer-Murazik",
+    "Rank": 443,
+    "Tooltip": "dolorum",
+    "Icon": "magnam",
+    "DefaultTicketStatus": 792,
     "TicketStatuses": [
-      620,
-      561
+      327,
+      614
     ],
-    "DefaultTicketPriority": 1000,
+    "DefaultTicketPriority": 112,
     "TicketPriorities": [
-      100,
-      663
+      161,
+      172
     ],
-    "ReplyTemplate": 942,
-    "IsExternalVisible": true,
+    "ReplyTemplate": 542,
+    "IsExternalVisible": false,
     "IsDefault": false,
-    "ShowInNew": true,
-    "ExcludeSignature": false,
+    "ShowInNew": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      548,
-      706
+      750,
+      321
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldLength": 543
       }
     }
   }

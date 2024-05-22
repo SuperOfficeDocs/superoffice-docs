@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=velit
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=dolor
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Champlin Group",
-    "ToolTip": "Dolor ea et neque consequatur voluptatem.",
-    "Deleted": true,
-    "Rank": 608,
-    "Type": "perspiciatis",
+    "Id": 294,
+    "Name": "West Group",
+    "ToolTip": "Et sit quod eos vitae qui magni.",
+    "Deleted": false,
+    "Rank": 605,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Durgan Group",
-        "ToolTip": "Repellat a pariatur et minima aut.",
+        "Id": 4,
+        "Name": "Walter, Rutherford and Gleichner",
+        "ToolTip": "Perferendis in eaque dignissimos debitis distinctio aut beatae.",
         "Deleted": false,
-        "Rank": 167,
-        "Type": "voluptatem",
+        "Rank": 488,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "et",
-        "ColorBlock": 738,
-        "ExtraInfo": "atque",
-        "StyleHint": "et",
-        "FullName": "Maximo Beier",
+        "ColorBlock": 728,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "ab",
+        "FullName": "Miss Fred Kunze IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldLength": 653
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 640,
-    "ExtraInfo": "soluta",
-    "StyleHint": "veritatis",
-    "FullName": "Khalil Jaydon Dicki Jr.",
+    "IconHint": "eum",
+    "ColorBlock": 374,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "minima",
+    "FullName": "Micah Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 842
       }
     }
   }

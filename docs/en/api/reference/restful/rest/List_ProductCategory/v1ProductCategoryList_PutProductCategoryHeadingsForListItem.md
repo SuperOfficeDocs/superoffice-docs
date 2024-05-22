@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Kirlin-White",
-    "ToolTip": "Nemo consequuntur beatae incidunt blanditiis explicabo enim.",
+    "Id": 978,
+    "Name": "Gleason-Gorczany",
+    "ToolTip": "Dicta aut ab iusto.",
     "Deleted": false,
-    "Rank": 141,
-    "Type": "deserunt",
-    "ColorBlock": 753,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2004-09-21T11:16:14.6370359+02:00",
+    "Rank": 511,
+    "Type": "eos",
+    "ColorBlock": 282,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "1997-04-19T12:57:43.5895249+02:00",
     "ChildItems": [
       {
-        "Id": 467,
-        "Name": "Mayert-Haag",
-        "ToolTip": "Odio est.",
-        "Deleted": false,
-        "Rank": 622,
-        "Type": "voluptatem",
-        "ColorBlock": 859,
-        "IconHint": "impedit",
+        "Id": 714,
+        "Name": "Keebler-Lesch",
+        "ToolTip": "Consequatur et porro harum eius sunt sit neque.",
+        "Deleted": true,
+        "Rank": 507,
+        "Type": "aut",
+        "ColorBlock": 461,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2011-07-08T11:16:14.6370359+02:00",
+        "LastChanged": "2022-01-12T12:57:43.5895249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "vitae",
+        "ExtraInfo": "autem",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Fanny Gleichner"
+        "FullName": "Tianna Arjun Cartwright MD"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "unde",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Prof. Nicklaus Schoen Jr."
+    "FullName": "Lance Luettgen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Jerde, Schulist and Schaden",
-    "ToolTip": "Molestiae ullam officiis.",
+    "Id": 496,
+    "Name": "Simonis LLC",
+    "ToolTip": "Non molestiae magnam dolor sed in.",
     "Deleted": false,
-    "Rank": 499,
-    "Type": "et",
-    "ColorBlock": 794,
-    "IconHint": "est",
+    "Rank": 144,
+    "Type": "velit",
+    "ColorBlock": 594,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2007-05-29T11:16:14.6370359+02:00",
+    "LastChanged": "2022-04-27T12:57:43.5895249+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Hermann, Smith and Dickens",
-        "ToolTip": "Debitis facere.",
+        "Id": 585,
+        "Name": "Weissnat Inc and Sons",
+        "ToolTip": "Et et non.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "eos",
-        "ColorBlock": 973,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "2021-08-28T11:16:14.6370359+02:00",
+        "Rank": 736,
+        "Type": "deserunt",
+        "ColorBlock": 15,
+        "IconHint": "odit",
+        "Selected": false,
+        "LastChanged": "2006-06-10T12:57:43.5895249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Delilah Bechtelar",
+        "ExtraInfo": "tempore",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Geovanni Crooks MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldType": "System.String",
+            "FieldLength": 69
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Riley Beer",
+    "ExtraInfo": "autem",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Jay Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 722
       }
     }
   }

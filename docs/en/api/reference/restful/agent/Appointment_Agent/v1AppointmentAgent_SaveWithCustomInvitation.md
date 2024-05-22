@@ -90,9 +90,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "kenyatta_ullrich@torplehner.biz",
-  "Subject": "debitis",
-  "TemplateLanguage": "aut"
+  "EmailBody": "verlie.dooley@lynch.biz",
+  "Subject": "ducimus",
+  "TemplateLanguage": "fugit"
 }
 ```
 
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   }
 }

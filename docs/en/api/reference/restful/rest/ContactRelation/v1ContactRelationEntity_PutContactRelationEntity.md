@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 873,
-  "SourcePersonId": 649,
-  "DestinationContactId": 579,
-  "DestinationPersonId": 394,
-  "RelationId": 84,
-  "Comment": "sequi",
-  "RelationDefinitionId": 882,
-  "Reversed": 791,
-  "UpdatedDate": "2022-04-14T11:16:13.83947+02:00",
-  "CreatedDate": "2016-05-30T11:16:13.83947+02:00",
+  "SourceContactId": 885,
+  "SourcePersonId": 939,
+  "DestinationContactId": 124,
+  "DestinationPersonId": 712,
+  "RelationId": 57,
+  "Comment": "voluptas",
+  "RelationDefinitionId": 346,
+  "Reversed": 523,
+  "UpdatedDate": "1997-08-12T12:57:42.3076631+02:00",
+  "CreatedDate": "2004-06-05T12:57:42.3076631+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Robel, Christiansen and Gutkowski",
-  "SourcePersonName": "Ziemann LLC",
-  "DestinationContactName": "Fisher Group",
-  "DestinationPersonName": "Ward Inc and Sons",
-  "ActiveText": "ab",
-  "PassiveText": "dolor"
+  "SourceContactName": "Collier Group",
+  "SourcePersonName": "Heathcote-Kassulke",
+  "DestinationContactName": "Ward, Kemmer and Legros",
+  "DestinationPersonName": "Harvey LLC",
+  "ActiveText": "voluptatum",
+  "PassiveText": "non"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 213,
-  "SourcePersonId": 54,
-  "DestinationContactId": 255,
-  "DestinationPersonId": 861,
-  "RelationId": 776,
-  "Comment": "voluptatibus",
-  "RelationDefinitionId": 255,
-  "Reversed": 337,
-  "UpdatedDate": "2015-07-01T11:16:13.83947+02:00",
-  "CreatedDate": "2011-02-06T11:16:13.83947+01:00",
+  "SourceContactId": 924,
+  "SourcePersonId": 343,
+  "DestinationContactId": 810,
+  "DestinationPersonId": 5,
+  "RelationId": 880,
+  "Comment": "nemo",
+  "RelationDefinitionId": 590,
+  "Reversed": 144,
+  "UpdatedDate": "2000-03-28T12:57:42.3232848+02:00",
+  "CreatedDate": "2020-07-07T12:57:42.3232848+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stanton-Ebert",
-  "SourcePersonName": "Bartoletti, Champlin and Miller",
-  "DestinationContactName": "Leffler, Jakubowski and Davis",
-  "DestinationPersonName": "Bode LLC",
-  "ActiveText": "est",
-  "PassiveText": "et",
+  "SourceContactName": "Skiles Group",
+  "SourcePersonName": "Heathcote Group",
+  "DestinationContactName": "Strosin LLC",
+  "DestinationPersonName": "Gislason LLC",
+  "ActiveText": "alias",
+  "PassiveText": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 817
     }
   },
   "_Links": {

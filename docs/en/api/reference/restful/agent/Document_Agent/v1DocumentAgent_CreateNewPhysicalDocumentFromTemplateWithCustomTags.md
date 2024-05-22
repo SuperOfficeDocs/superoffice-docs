@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 260,
-  "PersonId": 498,
-  "AppointmentId": 479,
-  "DocumentId": 824,
-  "SaleId": 200,
-  "SelectionId": 406,
-  "ProjectId": 952,
+  "ContactId": 342,
+  "PersonId": 300,
+  "AppointmentId": 928,
+  "DocumentId": 443,
+  "SaleId": 425,
+  "SelectionId": 354,
+  "ProjectId": 338,
   "CustomTags": [
-    "mollitia",
-    "quo"
+    "est",
+    "aut"
   ],
   "CustomValues": [
-    "quis",
-    "ex"
+    "quisquam",
+    "facilis"
   ],
-  "UiCulture": "cupiditate"
+  "UiCulture": "voluptatem"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 210,
+  "DocumentId": 607,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quam",
-  "Header": "natus",
-  "Name": "Mraz, Renner and Denesik",
-  "OurRef": "quia",
-  "YourRef": "nesciunt",
-  "CreatedDate": "2008-04-03T11:16:09.1159862+02:00",
-  "UpdatedDate": "2005-06-27T11:16:09.1159862+02:00",
-  "Description": "Persevering coherent success",
+  "Attention": "nemo",
+  "Header": "rerum",
+  "Name": "Gerlach, Lindgren and Parker",
+  "OurRef": "provident",
+  "YourRef": "enim",
+  "CreatedDate": "2012-03-11T12:57:33.7899048+01:00",
+  "UpdatedDate": "2019-02-20T12:57:33.7899048+01:00",
+  "Description": "Balanced upward-trending local area network",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-08-14T11:16:09.1159862+02:00",
-  "ExternalRef": "quaerat",
+  "Date": "1998-01-19T12:57:33.7899048+01:00",
+  "ExternalRef": "vitae",
   "Completed": "Completed",
-  "ActiveLinks": 730,
+  "ActiveLinks": 93,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lemke, Larkin and Anderson",
-      "Id": 749,
-      "Description": "Team-oriented bifurcated attitude",
-      "ExtraInfo": "ipsa",
-      "LinkId": 853,
+      "EntityName": "Durgan, Corkery and Blanda",
+      "Id": 480,
+      "Description": "Reactive tertiary info-mediaries",
+      "ExtraInfo": "magni",
+      "LinkId": 524,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 407
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 30,
-  "Snum": 203,
+  "SuggestedDocumentId": 378,
+  "Snum": 70,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Javonte Simonis",
-    "SuperOffice:2": "Milan Konopelski DDS"
+    "SuperOffice:1": "Dr. Magnus Collins MD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "et"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "repellat"
+    "CustomFields1": "nihil",
+    "CustomFields2": "quam"
   },
-  "PublishEventDate": "2007-10-14T11:16:09.1316065+02:00",
-  "PublishTo": "2018-11-27T11:16:09.1316065+01:00",
-  "PublishFrom": "2013-03-10T11:16:09.1316065+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-04-11T12:57:33.7899048+02:00",
+  "PublishTo": "2020-11-08T12:57:33.7899048+01:00",
+  "PublishFrom": "2023-07-03T12:57:33.7899048+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 144,
+      "VisibleId": 914,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     },
     {
-      "VisibleId": 144,
+      "VisibleId": 914,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

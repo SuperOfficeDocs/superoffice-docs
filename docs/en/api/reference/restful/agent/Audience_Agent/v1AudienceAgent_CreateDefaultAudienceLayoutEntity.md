@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 399,
-  "InstanceLayout": "dolorem",
-  "InstanceName": "Towne, White and Dooley",
-  "CreatedDate": "1997-10-15T11:16:08.7253957+02:00",
-  "UpdatedDate": "2021-01-14T11:16:08.7253957+01:00",
+  "AudienceLayoutId": 894,
+  "InstanceLayout": "dolorum",
+  "InstanceName": "Berge-Hintz",
+  "CreatedDate": "2012-11-14T12:57:33.2428569+01:00",
+  "UpdatedDate": "2011-08-16T12:57:33.2428569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

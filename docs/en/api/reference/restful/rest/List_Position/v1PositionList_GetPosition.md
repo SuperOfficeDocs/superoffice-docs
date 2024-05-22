@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 554,
-  "Name": "Waters-Schmidt",
-  "Tooltip": "incidunt",
+  "Id": 209,
+  "Name": "Trantow LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 80,
-  "Rank": 209,
+  "UdListDefinitionId": 331,
+  "Rank": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 471
     }
   }
 }

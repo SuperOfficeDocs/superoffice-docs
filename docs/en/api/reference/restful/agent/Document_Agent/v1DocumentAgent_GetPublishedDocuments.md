@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    258,
-    710
+    999,
+    255
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 954,
-    "Attention": "officia",
-    "Header": "saepe",
-    "Name": "Mraz Group",
-    "OurRef": "a",
-    "YourRef": "est",
-    "Description": "Extended high-level throughput",
-    "DocumentTemplate": "doloribus",
-    "IsPublished": false,
-    "PersonId": 705,
-    "PersonFullName": "Drake Kuhic",
-    "AssociateFullName": "Howell Emmy Littel III",
-    "ContactId": 385,
-    "ContactName": "Botsford-Kshlerin",
-    "ProjectId": 954,
-    "ProjectName": "Fadel, Stiedemann and D'Amore",
-    "AssociateId": 260,
-    "Snum": 19,
-    "SaleId": 728,
-    "SaleName": "Reichel Group",
+    "DocumentId": 696,
+    "Attention": "repudiandae",
+    "Header": "natus",
+    "Name": "Pfeffer-Hane",
+    "OurRef": "tenetur",
+    "YourRef": "dicta",
+    "Description": "Triple-buffered intermediate system engine",
+    "DocumentTemplate": "vel",
+    "IsPublished": true,
+    "PersonId": 314,
+    "PersonFullName": "Genesis Quigley",
+    "AssociateFullName": "Prof. Gerson Enoch Zulauf DVM",
+    "ContactId": 331,
+    "ContactName": "Feeney, Mayert and Effertz",
+    "ProjectId": 707,
+    "ProjectName": "Gleason, Robel and Ferry",
+    "AssociateId": 773,
+    "Snum": 198,
+    "SaleId": 968,
+    "SaleName": "Farrell Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldType": "System.Int32",
+        "FieldLength": 837
       }
     }
   }

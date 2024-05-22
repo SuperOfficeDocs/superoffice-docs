@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 948,
-  "ColumnId": 185,
-  "FieldDefault": "autem",
-  "FieldHeight": 206,
-  "FieldLabel": "asperiores",
-  "FieldLeft": 268,
-  "FieldTop": 376,
+  "UDefFieldId": 382,
+  "ColumnId": 736,
+  "FieldDefault": "quia",
+  "FieldHeight": 757,
+  "FieldLabel": "inventore",
+  "FieldLeft": 14,
+  "FieldTop": 151,
   "FieldType": "Checkbox",
-  "FieldWidth": 215,
-  "FormatMask": "tempore",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 608,
-  "LabelLeft": 64,
-  "LabelTop": 496,
-  "LabelWidth": 23,
-  "LastVersionId": 135,
-  "ListTableId": 274,
-  "IsMandatory": true,
+  "FieldWidth": 48,
+  "FormatMask": "est",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 235,
+  "LabelLeft": 584,
+  "LabelTop": 144,
+  "LabelWidth": 895,
+  "LastVersionId": 162,
+  "ListTableId": 810,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 776,
-  "ProgId": "quis",
+  "Page1LineNo": 437,
+  "ProgId": "recusandae",
   "IsReadOnly": false,
-  "ShortLabel": "tenetur",
-  "TabOrder": 9,
-  "TextLength": 105,
-  "Tooltip": "iste",
-  "UdefIdentity": 203,
-  "UDListDefinitionId": 401,
+  "ShortLabel": "quos",
+  "TabOrder": 87,
+  "TextLength": 624,
+  "Tooltip": "quia",
+  "UdefIdentity": 708,
+  "UDListDefinitionId": 428,
   "Justification": "Center",
-  "Version": 653,
-  "TemplateVariableName": "Mueller, Wehner and Deckow",
+  "Version": 724,
+  "TemplateVariableName": "Medhurst-Sanford",
   "HasBeenPublished": false,
-  "MdoListName": "Kemmer-Powlowski",
+  "MdoListName": "Schneider, Mante and Ernser",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldLength": 516
     }
   }
 }

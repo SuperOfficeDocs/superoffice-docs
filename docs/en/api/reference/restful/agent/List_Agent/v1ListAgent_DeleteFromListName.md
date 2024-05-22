@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 820,
-  "UdListDefinitionName": "Welch, Pfeffer and Auer"
+  "Id": 496,
+  "UdListDefinitionName": "Feeney-Hartmann"
 }
 ```
 

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ratke-Spencer",
-    "Description": "Focused optimizing customer loyalty",
+    "Name": "Gusikowski-Walsh",
+    "Description": "Managed discrete forecast",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 423,
-        "Tooltip": "doloribus",
+        "Total": 405,
+        "Tooltip": "rerum",
         "CanAssign": true,
-        "Free": 414,
-        "InUse": 969,
-        "IsHidden": true,
+        "Free": 364,
+        "InUse": 481,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 11,
-        "Name": "Ziemann, Bashirian and Hoeger",
-        "Description": "Decentralized secondary concept",
-        "PrerequisiteModuleName": "Cormier Inc and Sons",
-        "SortOrder": 245,
-        "ExtraFlags": 688,
+        "ModuleLicenseId": 617,
+        "Name": "Grady, Walter and Orn",
+        "Description": "Sharable non-volatile attitude",
+        "PrerequisiteModuleName": "Heaney Inc and Sons",
+        "SortOrder": 383,
+        "ExtraFlags": 648,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldLength": 833
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 294,
-        "Tooltip": "dignissimos",
+        "Total": 624,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 215,
-        "InUse": 277,
-        "IsHidden": false,
+        "Free": 140,
+        "InUse": 870,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 900,
-        "Name": "Sanford, Bartoletti and Pfeffer",
-        "Description": "User-friendly demand-driven project",
-        "PrerequisiteModuleName": "Yost, Gutmann and Hills",
-        "SortOrder": 774,
-        "ExtraFlags": 187,
+        "ModuleLicenseId": 288,
+        "Name": "Berge LLC",
+        "Description": "Phased actuating neural-net",
+        "PrerequisiteModuleName": "Barrows Group",
+        "SortOrder": 554,
+        "ExtraFlags": 44,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldType": "System.String",
+            "FieldLength": 316
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 502
       }
     }
   },
   {
-    "Name": "Ratke-Spencer",
-    "Description": "Focused optimizing customer loyalty",
+    "Name": "Gusikowski-Walsh",
+    "Description": "Managed discrete forecast",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 423,
-        "Tooltip": "doloribus",
+        "Total": 405,
+        "Tooltip": "rerum",
         "CanAssign": true,
-        "Free": 414,
-        "InUse": 969,
-        "IsHidden": true,
+        "Free": 364,
+        "InUse": 481,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 11,
-        "Name": "Ziemann, Bashirian and Hoeger",
-        "Description": "Decentralized secondary concept",
-        "PrerequisiteModuleName": "Cormier Inc and Sons",
-        "SortOrder": 245,
-        "ExtraFlags": 688,
+        "ModuleLicenseId": 617,
+        "Name": "Grady, Walter and Orn",
+        "Description": "Sharable non-volatile attitude",
+        "PrerequisiteModuleName": "Heaney Inc and Sons",
+        "SortOrder": 383,
+        "ExtraFlags": 648,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldLength": 833
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 294,
-        "Tooltip": "dignissimos",
+        "Total": 624,
+        "Tooltip": "et",
         "CanAssign": true,
-        "Free": 215,
-        "InUse": 277,
-        "IsHidden": false,
+        "Free": 140,
+        "InUse": 870,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 900,
-        "Name": "Sanford, Bartoletti and Pfeffer",
-        "Description": "User-friendly demand-driven project",
-        "PrerequisiteModuleName": "Yost, Gutmann and Hills",
-        "SortOrder": 774,
-        "ExtraFlags": 187,
+        "ModuleLicenseId": 288,
+        "Name": "Berge LLC",
+        "Description": "Phased actuating neural-net",
+        "PrerequisiteModuleName": "Barrows Group",
+        "SortOrder": 554,
+        "ExtraFlags": 44,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldType": "System.String",
+            "FieldLength": 316
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 502
       }
     }
   }

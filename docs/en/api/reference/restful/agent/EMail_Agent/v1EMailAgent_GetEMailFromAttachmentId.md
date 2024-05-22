@@ -106,12 +106,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 784,
+  "EmailId": 542,
   "AttachmentIds": [
-    "autem",
-    "culpa"
+    "mollitia",
+    "possimus"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 578,
-      "ContactName": "Corkery-Rutherford",
-      "PersonId": 857,
-      "PersonName": "Frami Group",
-      "AssociateId": 41,
-      "Address": "nesciunt",
-      "EmailId": 262,
+      "ContactId": 552,
+      "ContactName": "Satterfield Group",
+      "PersonId": 946,
+      "PersonName": "Huels-Wintheiser",
+      "AssociateId": 307,
+      "Address": "eveniet",
+      "EmailId": 390,
       "DuplicatePersonIds": [
-        588,
-        907
+        339,
+        622
       ],
-      "Name": "Ruecker LLC",
+      "Name": "Rowe, Huel and Hansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 205
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 368,
-      "ContactName": "Terry-Beer",
-      "PersonId": 404,
-      "PersonName": "McKenzie-Kassulke",
-      "AssociateId": 68,
-      "Address": "ipsa",
-      "EmailId": 679,
+      "ContactId": 832,
+      "ContactName": "Hamill-Zulauf",
+      "PersonId": 794,
+      "PersonName": "Gottlieb, Fadel and Ferry",
+      "AssociateId": 654,
+      "Address": "vero",
+      "EmailId": 241,
       "DuplicatePersonIds": [
-        247,
-        1002
+        743,
+        877
       ],
-      "Name": "Labadie Group",
+      "Name": "Ryan-Osinski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 662
+          "FieldLength": 337
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 155,
-      "ContactName": "Tromp-Runolfsdottir",
-      "PersonId": 324,
-      "PersonName": "Nitzsche Inc and Sons",
-      "AssociateId": 474,
-      "Address": "asperiores",
-      "EmailId": 662,
+      "ContactId": 795,
+      "ContactName": "Schultz, Adams and Tillman",
+      "PersonId": 686,
+      "PersonName": "DuBuque LLC",
+      "AssociateId": 171,
+      "Address": "neque",
+      "EmailId": 379,
       "DuplicatePersonIds": [
-        567,
-        606
+        322,
+        139
       ],
-      "Name": "VonRueden, Satterfield and VonRueden",
+      "Name": "Lindgren, Daugherty and Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 250
+          "FieldType": "System.Int32",
+          "FieldLength": 668
         }
       }
     }
   ],
-  "Subject": "aspernatur",
-  "HTMLBody": "qui",
+  "Subject": "eos",
+  "HTMLBody": "nulla",
   "From": null,
-  "Sent": "2012-01-23T11:16:09.2253497+01:00",
-  "Size": 644,
+  "Sent": "2018-05-10T12:57:33.9461474+02:00",
+  "Size": 922,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "quia",
+  "MessageID": "deleniti",
+  "PlainBody": "asperiores",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 988,
+  "ServerId": 873,
   "Attachments": [
     {
-      "Description": "Right-sized assymetric collaboration",
-      "Filename": "quis",
-      "Size": 98,
-      "Type": "est",
-      "Encoding": "at",
-      "Id": "placeat",
-      "Disposition": "praesentium",
+      "Description": "Universal static conglomeration",
+      "Filename": "reiciendis",
+      "Size": 406,
+      "Type": "sit",
+      "Encoding": "iste",
+      "Id": "libero",
+      "Disposition": "repudiandae",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,58 +222,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 285
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Dibbert-Muller",
+      "Name": "Wunsch-Bechtelar",
       "Values": [
-        "velit",
-        "quam"
+        "earum",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldType": "System.String",
+          "FieldLength": 99
         }
       }
     },
     {
-      "Name": "Dibbert-Muller",
+      "Name": "Wunsch-Bechtelar",
       "Values": [
-        "velit",
-        "quam"
+        "earum",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldType": "System.String",
+          "FieldLength": 99
         }
       }
     }
   ],
-  "FolderName": "Fay Inc and Sons",
-  "EmailItemId": 688,
-  "AccountId": 438,
-  "ReceivedAt": "2016-04-19T11:16:09.2253497+02:00",
+  "FolderName": "Ziemann LLC",
+  "EmailItemId": 16,
+  "AccountId": 870,
+  "ReceivedAt": "2005-09-26T12:57:33.9461474+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-06-14T11:16:09.2253497+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2011-08-06T12:57:33.9461474+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

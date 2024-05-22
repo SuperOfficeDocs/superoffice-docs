@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Keebler-Spencer",
-    "Hills, Baumbach and Hodkiewicz"
+    "Hoeger-Jacobs",
+    "Macejkovic-Grimes"
   ]
 }
 ```

@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 416,
-  "PlainMessage": "voluptas",
-  "HtmlMessage": "aut",
-  "SmsMessage": "aut",
-  "Description": "Ergonomic impactful infrastructure",
-  "Subject": "et",
-  "FolderId": 29,
-  "HeaderField": "iste",
-  "Design": "beatae",
+  "ShipmentMessageId": 637,
+  "PlainMessage": "qui",
+  "HtmlMessage": "culpa",
+  "SmsMessage": "voluptas",
+  "Description": "Compatible client-driven moratorium",
+  "Subject": "est",
+  "FolderId": 965,
+  "HeaderField": "assumenda",
+  "Design": "facere",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Synchronised 3rd generation task-force",
-  "AccessKey": "omnis",
-  "DocumentMessage": 6,
-  "Registered": "2005-01-17T11:16:09.3815779+01:00",
-  "RegisteredAssociateId": 905,
-  "Updated": "1999-09-21T11:16:09.3815779+02:00",
-  "UpdatedAssociateId": 158,
-  "UpdatedCount": 894
+  "LongDescription": "Re-engineered leading edge function",
+  "AccessKey": "debitis",
+  "DocumentMessage": 230,
+  "Registered": "2004-05-10T12:57:34.2429559+02:00",
+  "RegisteredAssociateId": 172,
+  "Updated": "2005-11-13T12:57:34.2429559+01:00",
+  "UpdatedAssociateId": 852,
+  "UpdatedCount": 855
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 335,
-  "PlainMessage": "voluptatum",
-  "HtmlMessage": "vitae",
-  "SmsMessage": "perspiciatis",
-  "Description": "Profound secondary encoding",
-  "Subject": "hic",
-  "FolderId": 367,
-  "HeaderField": "aperiam",
-  "Design": "consectetur",
+  "ShipmentMessageId": 994,
+  "PlainMessage": "sit",
+  "HtmlMessage": "nulla",
+  "SmsMessage": "labore",
+  "Description": "Compatible coherent knowledge user",
+  "Subject": "omnis",
+  "FolderId": 999,
+  "HeaderField": "sed",
+  "Design": "odit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "User-centric composite function",
-  "AccessKey": "non",
-  "DocumentMessage": 943,
-  "Registered": "2022-04-30T11:16:09.3815779+02:00",
-  "RegisteredAssociateId": 675,
-  "Updated": "2002-01-24T11:16:09.3815779+01:00",
-  "UpdatedAssociateId": 80,
-  "UpdatedCount": 18,
+  "InlineImages": true,
+  "LongDescription": "Enterprise-wide multi-state adapter",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 530,
+  "Registered": "2006-03-24T12:57:34.2429559+01:00",
+  "RegisteredAssociateId": 777,
+  "Updated": "1997-11-23T12:57:34.2429559+01:00",
+  "UpdatedAssociateId": 961,
+  "UpdatedCount": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

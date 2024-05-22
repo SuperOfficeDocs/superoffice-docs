@@ -104,28 +104,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 263,
-  "Name": "Bernier, Legros and Shields",
-  "CurrencyId": 540,
-  "EnglishName": "Kiehn-Bailey",
+  "CountryId": 279,
+  "Name": "Waelchi Group",
+  "CurrencyId": 606,
+  "EnglishName": "Greenholt, Swift and Aufderhar",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Seamless intermediate emulation",
-  "OrgNrText": "760633",
-  "InterAreaPrefix": "deserunt",
-  "DialInPrefix": "facere",
-  "ZipPrefix": "sequi",
-  "DomainName": "Heller LLC",
-  "AddressLayoutId": 225,
-  "DomesticAddressLayoutId": 129,
-  "ForeignAddressLayoutId": 525,
-  "Rank": 732,
-  "Tooltip": "vel",
-  "Deleted": false
+  "ImageDescription": "Enterprise-wide composite benchmark",
+  "OrgNrText": "1758870",
+  "InterAreaPrefix": "quod",
+  "DialInPrefix": "libero",
+  "ZipPrefix": "error",
+  "DomainName": "Stanton, Krajcik and Roberts",
+  "AddressLayoutId": 101,
+  "DomesticAddressLayoutId": 400,
+  "ForeignAddressLayoutId": 586,
+  "Rank": 175,
+  "Tooltip": "accusamus",
+  "Deleted": true
 }
 ```
 
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 794,
-  "Name": "Bode LLC",
-  "CurrencyId": 108,
-  "EnglishName": "Senger Inc and Sons",
+  "CountryId": 26,
+  "Name": "King, Pfannerstill and Upton",
+  "CurrencyId": 186,
+  "EnglishName": "Stamm-Feil",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Pre-emptive user-facing neural-net",
-  "OrgNrText": "165366",
-  "InterAreaPrefix": "amet",
-  "DialInPrefix": "quo",
-  "ZipPrefix": "quia",
-  "DomainName": "Becker-Ritchie",
-  "AddressLayoutId": 85,
-  "DomesticAddressLayoutId": 193,
-  "ForeignAddressLayoutId": 489,
-  "Rank": 472,
-  "Tooltip": "accusantium",
-  "Deleted": false,
+  "ImageDescription": "Business-focused bottom-line concept",
+  "OrgNrText": "1078048",
+  "InterAreaPrefix": "ex",
+  "DialInPrefix": "quaerat",
+  "ZipPrefix": "ex",
+  "DomainName": "Macejkovic Group",
+  "AddressLayoutId": 457,
+  "DomesticAddressLayoutId": 325,
+  "ForeignAddressLayoutId": 524,
+  "Rank": 209,
+  "Tooltip": "natus",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldLength": 249
     }
   }
 }

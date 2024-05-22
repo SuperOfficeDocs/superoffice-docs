@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 856,
-  "ColumnId": 297,
-  "FieldDefault": "qui",
-  "FieldHeight": 408,
-  "FieldLabel": "alias",
-  "FieldLeft": 224,
-  "FieldTop": 680,
+  "UDefFieldId": 492,
+  "ColumnId": 18,
+  "FieldDefault": "eligendi",
+  "FieldHeight": 385,
+  "FieldLabel": "est",
+  "FieldLeft": 577,
+  "FieldTop": 576,
   "FieldType": "Checkbox",
-  "FieldWidth": 467,
-  "FormatMask": "ipsa",
-  "HideLabel": true,
+  "FieldWidth": 771,
+  "FormatMask": "recusandae",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 402,
-  "LabelLeft": 212,
-  "LabelTop": 252,
-  "LabelWidth": 709,
-  "LastVersionId": 539,
-  "ListTableId": 275,
-  "IsMandatory": false,
+  "LabelHeight": 31,
+  "LabelLeft": 440,
+  "LabelTop": 736,
+  "LabelWidth": 455,
+  "LastVersionId": 242,
+  "ListTableId": 103,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 474,
-  "ProgId": "adipisci",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptate",
-  "TabOrder": 435,
-  "TextLength": 915,
-  "Tooltip": "repellat",
-  "UdefIdentity": 103,
-  "UDListDefinitionId": 397,
+  "Page1LineNo": 417,
+  "ProgId": "eius",
+  "IsReadOnly": false,
+  "ShortLabel": "aliquam",
+  "TabOrder": 601,
+  "TextLength": 674,
+  "Tooltip": "totam",
+  "UdefIdentity": 260,
+  "UDListDefinitionId": 597,
   "Justification": "Center",
-  "Version": 963,
-  "TemplateVariableName": "Zulauf LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Gulgowski Inc and Sons",
+  "Version": 138,
+  "TemplateVariableName": "Lebsack, Will and Barton",
+  "HasBeenPublished": true,
+  "MdoListName": "Herman Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 846
     }
   }
 }

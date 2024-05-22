@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "deserunt"
+  "UniqueIdentifier": "magnam"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "repudiandae",
-  "Name": "Zulauf LLC",
-  "Description": "Cross-group high-level extranet",
-  "IncludeId": "omnis",
-  "Source": "quis",
-  "Registered": "2003-10-01T11:16:08.9440885+02:00",
-  "RegisteredBy": "vel",
-  "Updated": "2007-06-29T11:16:08.9440885+02:00",
-  "UpdatedBy": "inventore",
-  "Path": "dolorem",
+  "UniqueIdentifier": "dignissimos",
+  "Name": "Yost Group",
+  "Description": "Object-based incremental strategy",
+  "IncludeId": "eligendi",
+  "Source": "minus",
+  "Registered": "2001-08-26T12:57:33.6180694+02:00",
+  "RegisteredBy": "nam",
+  "Updated": "2020-03-13T12:57:33.6180694+01:00",
+  "UpdatedBy": "et",
+  "Path": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 562
     }
   }
 }

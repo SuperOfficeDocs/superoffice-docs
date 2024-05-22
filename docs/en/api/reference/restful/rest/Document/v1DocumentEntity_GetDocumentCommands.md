@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stehr-Treutel",
-    "DisplayName": "Goldner LLC",
-    "DisplayTooltip": "saepe",
-    "IconHint": "reprehenderit",
+    "Name": "Von Group",
+    "DisplayName": "Kreiger-Windler",
+    "DisplayTooltip": "ullam",
+    "IconHint": "minima",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Stehr-Treutel",
-    "DisplayName": "Goldner LLC",
-    "DisplayTooltip": "saepe",
-    "IconHint": "reprehenderit",
+    "Name": "Von Group",
+    "DisplayName": "Kreiger-Windler",
+    "DisplayTooltip": "ullam",
+    "IconHint": "minima",
     "ReturnType": "CustomGui"
   }
 ]

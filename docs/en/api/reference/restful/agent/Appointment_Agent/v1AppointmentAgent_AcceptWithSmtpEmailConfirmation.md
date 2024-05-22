@@ -70,7 +70,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 729,
+  "AppointmentId": 620,
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null
 }

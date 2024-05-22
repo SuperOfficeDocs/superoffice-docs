@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "culpa",
-  "Name": "Bogan LLC",
-  "Description": "User-friendly multi-state alliance",
-  "IncludeId": "quidem",
-  "Source": "molestias",
-  "Registered": "2005-01-17T11:16:14.4030702+01:00",
-  "RegisteredBy": "aut",
-  "Updated": "2013-11-30T11:16:14.4030702+01:00",
-  "UpdatedBy": "voluptatem",
-  "Path": "quam"
+  "UniqueIdentifier": "unde",
+  "Name": "Fahey LLC",
+  "Description": "Multi-tiered demand-driven encryption",
+  "IncludeId": "similique",
+  "Source": "harum",
+  "Registered": "2019-12-05T12:57:43.1989898+01:00",
+  "RegisteredBy": "pariatur",
+  "Updated": "2013-09-28T12:57:43.1989898+02:00",
+  "UpdatedBy": "totam",
+  "Path": "aut"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quis",
-  "Name": "Nicolas, Schaden and Gutmann",
-  "Description": "Persevering clear-thinking service-desk",
-  "IncludeId": "atque",
+  "UniqueIdentifier": "dignissimos",
+  "Name": "Hilpert Group",
+  "Description": "Quality-focused 24 hour software",
+  "IncludeId": "beatae",
   "Source": "minima",
-  "Registered": "1998-08-16T11:16:14.4030702+02:00",
-  "RegisteredBy": "magni",
-  "Updated": "2016-08-04T11:16:14.4030702+02:00",
-  "UpdatedBy": "sit",
-  "Path": "dolorem",
+  "Registered": "2008-09-11T12:57:43.1989898+02:00",
+  "RegisteredBy": "ea",
+  "Updated": "2021-06-28T12:57:43.1989898+02:00",
+  "UpdatedBy": "modi",
+  "Path": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

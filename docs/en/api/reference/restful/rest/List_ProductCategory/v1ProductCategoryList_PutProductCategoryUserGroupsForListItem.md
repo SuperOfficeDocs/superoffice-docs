@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Wyman-Fay",
-    "ToolTip": "Est quisquam.",
-    "Deleted": false,
-    "Rank": 246,
-    "Type": "veniam",
-    "ColorBlock": 388,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2015-01-28T11:16:14.6370359+01:00",
+    "Id": 923,
+    "Name": "Langosh-Green",
+    "ToolTip": "Corrupti tempore.",
+    "Deleted": true,
+    "Rank": 204,
+    "Type": "veritatis",
+    "ColorBlock": 401,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2000-04-13T12:57:43.5895249+02:00",
     "ChildItems": [
       {
-        "Id": 419,
-        "Name": "Wintheiser LLC",
-        "ToolTip": "Alias cupiditate praesentium id reprehenderit.",
+        "Id": 647,
+        "Name": "Pfannerstill-Gottlieb",
+        "ToolTip": "Et enim cumque doloribus ut eum numquam laudantium.",
         "Deleted": false,
-        "Rank": 966,
-        "Type": "nihil",
-        "ColorBlock": 859,
-        "IconHint": "quas",
-        "Selected": false,
-        "LastChanged": "2006-12-22T11:16:14.6370359+01:00",
+        "Rank": 453,
+        "Type": "nulla",
+        "ColorBlock": 871,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2015-04-20T12:57:43.5895249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Mckenna Lind"
+        "ExtraInfo": "quia",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Timmothy Nader"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Lonny Blanda Sr."
+    "ExtraInfo": "iure",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Adolf Reichert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Bartell LLC",
-    "ToolTip": "Corporis voluptatem dolores.",
-    "Deleted": true,
-    "Rank": 89,
-    "Type": "provident",
-    "ColorBlock": 533,
-    "IconHint": "rem",
+    "Id": 901,
+    "Name": "Hartmann, Kirlin and Dooley",
+    "ToolTip": "Sit quia libero facere explicabo quo voluptatem.",
+    "Deleted": false,
+    "Rank": 529,
+    "Type": "architecto",
+    "ColorBlock": 375,
+    "IconHint": "dolorem",
     "Selected": true,
-    "LastChanged": "2015-03-22T11:16:14.6370359+01:00",
+    "LastChanged": "2014-02-26T12:57:43.5895249+01:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Bashirian-Cassin",
-        "ToolTip": "Molestiae nihil soluta rem sed officiis.",
-        "Deleted": true,
-        "Rank": 211,
-        "Type": "suscipit",
-        "ColorBlock": 102,
-        "IconHint": "dicta",
+        "Id": 933,
+        "Name": "Green, Pouros and Deckow",
+        "ToolTip": "Quia eum doloremque explicabo ducimus nisi.",
+        "Deleted": false,
+        "Rank": 11,
+        "Type": "minima",
+        "ColorBlock": 212,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2014-04-06T11:16:14.6370359+02:00",
+        "LastChanged": "2008-07-24T12:57:43.5895249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Keely Hodkiewicz",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Dr. Nestor Gaylord V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 180
+            "FieldType": "System.Int32",
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Reilly Christian Schuster DDS",
+    "ExtraInfo": "et",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Adell Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldType": "System.Int32",
+        "FieldLength": 31
       }
     }
   }

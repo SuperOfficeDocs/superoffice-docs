@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 435,
-  "SourcePersonId": 257,
-  "DestinationContactId": 586,
-  "DestinationPersonId": 205,
-  "RelationId": 279,
-  "Comment": "dolorem",
-  "RelationDefinitionId": 69,
-  "Reversed": 221,
-  "UpdatedDate": "2018-01-13T11:16:09.6161411+01:00",
-  "CreatedDate": "2001-03-28T11:16:09.6161411+02:00",
+  "SourceContactId": 307,
+  "SourcePersonId": 807,
+  "DestinationContactId": 671,
+  "DestinationPersonId": 786,
+  "RelationId": 453,
+  "Comment": "consequatur",
+  "RelationDefinitionId": 10,
+  "Reversed": 676,
+  "UpdatedDate": "2017-07-20T12:57:34.7584337+02:00",
+  "CreatedDate": "2003-10-05T12:57:34.7584337+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schowalter Inc and Sons",
-  "SourcePersonName": "Herman LLC",
-  "DestinationContactName": "Hammes-Cronin",
-  "DestinationPersonName": "Kihn-Hoeger",
-  "ActiveText": "voluptate",
-  "PassiveText": "repellat",
+  "SourceContactName": "Goldner, Schumm and Kulas",
+  "SourcePersonName": "Jakubowski, Bosco and Gulgowski",
+  "DestinationContactName": "Goyette, Zulauf and Stoltenberg",
+  "DestinationPersonName": "Smitham-Walker",
+  "ActiveText": "aliquid",
+  "PassiveText": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 19
     }
   }
 }

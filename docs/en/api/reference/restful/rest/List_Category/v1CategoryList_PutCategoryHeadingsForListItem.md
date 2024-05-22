@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Waters Group",
-    "ToolTip": "Dolorum dolorum magnam quia architecto.",
+    "Id": 999,
+    "Name": "Russel, Koss and D'Amore",
+    "ToolTip": "Et unde vel.",
     "Deleted": true,
-    "Rank": 415,
-    "Type": "sunt",
-    "ColorBlock": 444,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2017-12-24T11:16:14.4964233+01:00",
+    "Rank": 12,
+    "Type": "exercitationem",
+    "ColorBlock": 637,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2008-06-25T12:57:43.3395828+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Marvin, Johns and Simonis",
-        "ToolTip": "Recusandae eos voluptatem.",
+        "Id": 507,
+        "Name": "Volkman Inc and Sons",
+        "ToolTip": "Aut ratione tenetur explicabo error illum.",
         "Deleted": false,
-        "Rank": 166,
-        "Type": "quae",
-        "ColorBlock": 20,
-        "IconHint": "aut",
+        "Rank": 392,
+        "Type": "quia",
+        "ColorBlock": 302,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "1999-06-12T11:16:14.4964233+02:00",
+        "LastChanged": "2023-08-28T12:57:43.3395828+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "minima",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Shea Botsford"
+        "FullName": "Billy Veum"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Abraham Block"
+    "ExtraInfo": "qui",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Ms. Johnny Dooley I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Ebert Group",
-    "ToolTip": "Eum velit consequatur repellat et unde incidunt sed.",
-    "Deleted": false,
-    "Rank": 139,
-    "Type": "ab",
-    "ColorBlock": 663,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2008-02-26T11:16:14.4964233+01:00",
+    "Id": 81,
+    "Name": "Grady, Price and Hermann",
+    "ToolTip": "Magnam ut sed natus.",
+    "Deleted": true,
+    "Rank": 36,
+    "Type": "voluptatem",
+    "ColorBlock": 504,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "2018-03-03T12:57:43.3395828+01:00",
     "ChildItems": [
       {
-        "Id": 837,
-        "Name": "McGlynn Inc and Sons",
-        "ToolTip": "Id quis ratione ut odio odio sapiente.",
-        "Deleted": true,
-        "Rank": 787,
-        "Type": "aut",
-        "ColorBlock": 354,
-        "IconHint": "voluptatibus",
-        "Selected": false,
-        "LastChanged": "2020-06-10T11:16:14.4964233+02:00",
+        "Id": 869,
+        "Name": "Donnelly-Pollich",
+        "ToolTip": "Minus et culpa.",
+        "Deleted": false,
+        "Rank": 946,
+        "Type": "et",
+        "ColorBlock": 19,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "1999-07-21T12:57:43.3395828+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "tempore",
+        "ExtraInfo": "porro",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Ilene West",
+        "FullName": "Dr. Renee Kohler V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 42
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "sit",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "veritatis",
     "Hidden": true,
-    "FullName": "Grant Corkery",
+    "FullName": "Miss Sabina Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 347
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   }

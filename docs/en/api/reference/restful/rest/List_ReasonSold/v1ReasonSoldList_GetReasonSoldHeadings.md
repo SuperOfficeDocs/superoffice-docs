@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 152,
-    "Name": "Stokes, Jacobson and Kozey",
-    "Tooltip": "excepturi",
+    "HeadingId": 182,
+    "Name": "Lockman, Kerluke and Ledner",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 819,
-    "UdListDefinitionId": 728,
+    "Rank": 424,
+    "UdListDefinitionId": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 18
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 747,
-  "Name": "Lebsack Inc and Sons",
-  "Tooltip": "ullam",
+  "Id": 616,
+  "Name": "Gorczany-Dibbert",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "UdListDefinitionId": 377,
-  "Rank": 755
+  "UdListDefinitionId": 569,
+  "Rank": 602
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 11,
-  "Name": "Dickinson Group",
-  "Tooltip": "ipsam",
+  "Id": 629,
+  "Name": "Adams, Ward and Fisher",
+  "Tooltip": "aspernatur",
   "Deleted": true,
-  "UdListDefinitionId": 225,
-  "Rank": 860,
+  "UdListDefinitionId": 387,
+  "Rank": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 50
     }
   }
 }

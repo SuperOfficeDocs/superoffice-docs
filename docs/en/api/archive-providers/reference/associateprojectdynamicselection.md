@@ -78,13 +78,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
 |projectAssociate/locationAddress|string|Location: Location| x |
+|projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |project/textId|int|Text ID| x |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectDynamicSelection?$select=name,type,endDate,projectAssociate/ejDisplayName
+GET /api/v1/archive/AssociateProjectDynamicSelection?$select=projectAssociate/portraitThumbnail,registeredByFullName,projectAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

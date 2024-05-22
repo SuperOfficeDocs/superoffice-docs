@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stehr-Ward",
-  "BinaryObjectId": 627
+  "TableName": "Feeney Group",
+  "BinaryObjectId": 889
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laudantium"
+"consequuntur"
 ```

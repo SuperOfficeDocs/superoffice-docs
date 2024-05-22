@@ -101,24 +101,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 996,
-  "Section": "quam",
-  "Key": "magnam",
-  "Name": "Schultz, Schultz and Ernser",
+  "PrefDescId": 904,
+  "Section": "qui",
+  "Key": "asperiores",
+  "Name": "Franecki-Cronin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered multi-state service-desk",
+  "Description": "Seamless 24 hour circuit",
   "IsBuiltin": false,
-  "TableName": "Abbott-Toy",
-  "UserDefinedListId": 135,
-  "Rank": 506,
-  "SubGroup": "facere",
-  "MinLevel": 435,
-  "MaxValue": 721,
-  "MinValue": 404,
-  "RequiredLicense": "et"
+  "TableName": "Bogisich, Schaden and Halvorson",
+  "UserDefinedListId": 655,
+  "Rank": 714,
+  "SubGroup": "tenetur",
+  "MinLevel": 559,
+  "MaxValue": 623,
+  "MinValue": 387,
+  "RequiredLicense": "aliquam"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 766,
-  "Section": "voluptate",
-  "Key": "vel",
-  "Name": "Kulas LLC",
+  "PrefDescId": 968,
+  "Section": "alias",
+  "Key": "at",
+  "Name": "Willms Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced 6th generation process improvement",
+  "Description": "Grass-roots intermediate framework",
   "IsBuiltin": false,
-  "TableName": "Sanford-Gislason",
-  "UserDefinedListId": 295,
-  "Rank": 249,
-  "SubGroup": "facere",
-  "MinLevel": 861,
-  "MaxValue": 978,
-  "MinValue": 385,
-  "RequiredLicense": "voluptatum",
+  "TableName": "Stark, Graham and Hartmann",
+  "UserDefinedListId": 84,
+  "Rank": 393,
+  "SubGroup": "molestias",
+  "MinLevel": 631,
+  "MaxValue": 168,
+  "MinValue": 189,
+  "RequiredLicense": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 558
     }
   }
 }

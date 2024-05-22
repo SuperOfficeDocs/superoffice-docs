@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 279,
-  "Name": "Balistreri, Bahringer and Lebsack",
-  "ContentType": "quisquam",
-  "AttSize": 285,
-  "InlineImage": false,
-  "ContentId": "culpa",
-  "AuthKey": "libero",
+  "AttachmentId": 143,
+  "Name": "Hartmann LLC",
+  "ContentType": "et",
+  "AttSize": 332,
+  "InlineImage": true,
+  "ContentId": "ut",
+  "AuthKey": "aut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 683
     }
   }
 }

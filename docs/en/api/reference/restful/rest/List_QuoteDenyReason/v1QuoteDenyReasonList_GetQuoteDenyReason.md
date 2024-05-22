@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Schmidt LLC",
-  "Tooltip": "velit",
+  "Id": 833,
+  "Name": "Lynch Inc and Sons",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 459,
-  "Rank": 319,
+  "UdListDefinitionId": 611,
+  "Rank": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

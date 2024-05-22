@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 681,
+  "HierarchyId": 57,
   "Domain": "Dashboards",
-  "Name": "Pfeffer Inc and Sons",
-  "Fullname": "voluptatem",
-  "ParentId": 1000,
+  "Name": "Hilpert-Kunze",
+  "Fullname": "autem",
+  "ParentId": 211,
   "Children": [
     {
-      "HierarchyId": 675,
+      "HierarchyId": 772,
       "Domain": "Dashboards",
-      "Name": "Schuster Inc and Sons",
-      "Fullname": "veniam",
-      "ParentId": 993,
+      "Name": "Jacobs Inc and Sons",
+      "Fullname": "libero",
+      "ParentId": 242,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-11-06T11:16:13.93321+01:00",
-      "RegisteredAssociateId": 912,
-      "Updated": "2002-10-19T11:16:13.93321+02:00",
-      "UpdatedAssociateId": 317,
+      "Registered": "2011-01-10T12:57:42.4638774+01:00",
+      "RegisteredAssociateId": 689,
+      "Updated": "2014-09-08T12:57:42.4638774+02:00",
+      "UpdatedAssociateId": 463,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldType": "System.String",
+          "FieldLength": 45
         }
       }
     }
   ],
-  "Registered": "2015-11-21T11:16:13.93321+01:00",
-  "RegisteredAssociateId": 820,
-  "Updated": "2011-07-21T11:16:13.93321+02:00",
-  "UpdatedAssociateId": 105,
+  "Registered": "2018-07-05T12:57:42.4638774+02:00",
+  "RegisteredAssociateId": 876,
+  "Updated": "1999-06-16T12:57:42.4638774+02:00",
+  "UpdatedAssociateId": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldLength": 277
     }
   }
 }

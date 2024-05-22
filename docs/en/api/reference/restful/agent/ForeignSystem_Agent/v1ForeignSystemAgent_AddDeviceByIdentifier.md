@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koelpin-Leannon",
-  "DeviceName": "Lindgren Inc and Sons",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Borer-Kovacek",
+  "DeviceName": "Berge-Ankunding",
+  "DeviceIdentifier": "sit"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 28,
-  "Name": "Labadie Group",
-  "CreatedDate": "2000-06-04T11:16:09.2878404+02:00",
-  "UpdatedDate": "2020-01-02T11:16:09.2878404+01:00",
-  "AssociateFullName": "Alexa Cummerata",
-  "CreatedBy": "fugit",
-  "UpdatedBy": "similique",
-  "DeviceIdentifier": "cupiditate",
-  "ForeignAppId": 848,
+  "ForeignDeviceId": 785,
+  "Name": "Christiansen, Maggio and Skiles",
+  "CreatedDate": "2021-06-29T12:57:34.0554972+02:00",
+  "UpdatedDate": "2006-07-25T12:57:34.0554972+02:00",
+  "AssociateFullName": "Theresia Hoeger",
+  "CreatedBy": "aut",
+  "UpdatedBy": "pariatur",
+  "DeviceIdentifier": "reprehenderit",
+  "ForeignAppId": 122,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldLength": 85
     }
   }
 }

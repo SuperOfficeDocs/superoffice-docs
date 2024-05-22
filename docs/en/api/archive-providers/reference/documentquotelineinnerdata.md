@@ -167,6 +167,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
+|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by workflow: Created by workflow| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -201,6 +202,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/associate/userName|string|Sale - User name: User name| x |
 |alternative/version/quote/sale/associate/personEmail|string|Sale - E-mail| x |
 |alternative/version/quote/sale/associate/locationAddress|string|Sale - Location: Location| x |
+|alternative/version/quote/sale/associate/isLocation|bool|Sale - Is a location: Is a location| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:1|string|Sale - saleshorttext| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:2|string|Sale - salelongtext| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:3|int|Sale - salenumber| x |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
-|alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
-|alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
+|alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/active|bool|ERP connection - ERP connections - Active: Is the ERP connection currently active?|  |
 |alternative/version/quote/connection/erpConnection/erpId|string|ERP connection - ERP connections - ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
@@ -248,7 +250,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=UnitListPriceSubscriptionQuantity,alternative/version/sent,alternative/version/quote/sale/who
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/erpDiscountPercent,alternative/version/sent,alternative/version/quote/sale/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

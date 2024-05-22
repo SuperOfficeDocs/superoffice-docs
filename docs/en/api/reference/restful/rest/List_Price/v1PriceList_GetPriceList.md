@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 168,
-  "ERPPriceListKey": "quis",
-  "QuoteConnectionId": 520,
-  "Name": "Schroeder Group",
-  "Description": "Pre-emptive 5th generation Graphic Interface",
-  "Currency": "totam",
-  "CurrencyName": "Gottlieb LLC",
-  "ValidFrom": "2023-01-10T11:16:14.6214085+01:00",
-  "ValidTo": "2003-02-17T11:16:14.6214085+01:00",
-  "IsActive": false,
+  "PriceListId": 628,
+  "ERPPriceListKey": "tenetur",
+  "QuoteConnectionId": 185,
+  "Name": "Kunze-Kuhic",
+  "Description": "Re-engineered uniform migration",
+  "Currency": "harum",
+  "CurrencyName": "Dickens, Ruecker and Nader",
+  "ValidFrom": "2006-03-20T12:57:43.5582822+01:00",
+  "ValidTo": "2019-11-15T12:57:43.5582822+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 499
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

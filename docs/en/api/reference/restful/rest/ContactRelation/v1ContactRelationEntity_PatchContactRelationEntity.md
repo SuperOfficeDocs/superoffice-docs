@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 81,
-  "SourcePersonId": 910,
-  "DestinationContactId": 407,
-  "DestinationPersonId": 304,
-  "RelationId": 812,
-  "Comment": "reiciendis",
-  "RelationDefinitionId": 576,
-  "Reversed": 879,
-  "UpdatedDate": "2005-10-20T11:16:13.83947+02:00",
-  "CreatedDate": "2016-04-16T11:16:13.83947+02:00",
+  "SourceContactId": 191,
+  "SourcePersonId": 947,
+  "DestinationContactId": 30,
+  "DestinationPersonId": 161,
+  "RelationId": 23,
+  "Comment": "magnam",
+  "RelationDefinitionId": 330,
+  "Reversed": 308,
+  "UpdatedDate": "2015-02-03T12:57:42.3232848+01:00",
+  "CreatedDate": "1999-11-06T12:57:42.3232848+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Vandervort-Rippin",
-  "SourcePersonName": "Skiles-Toy",
-  "DestinationContactName": "Hammes, Keebler and Little",
-  "DestinationPersonName": "Reichert Group",
-  "ActiveText": "est",
-  "PassiveText": "dolorum",
+  "SourceContactName": "Rutherford, Stokes and Spinka",
+  "SourcePersonName": "Pagac, Ratke and Buckridge",
+  "DestinationContactName": "Auer, Littel and Schuster",
+  "DestinationPersonName": "Bernhard Inc and Sons",
+  "ActiveText": "tempore",
+  "PassiveText": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 183
     }
   },
   "_Links": {

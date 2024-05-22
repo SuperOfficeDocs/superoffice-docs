@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    409,
-    408
+    17,
+    358
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 215,
-    "Name": "Wilkinson-Kassulke",
-    "TargetTable": "fugiat",
-    "Registered": "2001-05-31T11:16:09.7416149+02:00",
-    "ProviderName": "Schuster-Gutkowski"
+    "SelectionId": 670,
+    "Name": "Paucek Inc and Sons",
+    "TargetTable": "itaque",
+    "Registered": "2023-02-17T12:57:34.961451+01:00",
+    "ProviderName": "Koch-Corkery"
   },
   {
-    "SelectionId": 215,
-    "Name": "Wilkinson-Kassulke",
-    "TargetTable": "fugiat",
-    "Registered": "2001-05-31T11:16:09.7416149+02:00",
-    "ProviderName": "Schuster-Gutkowski"
+    "SelectionId": 670,
+    "Name": "Paucek Inc and Sons",
+    "TargetTable": "itaque",
+    "Registered": "2023-02-17T12:57:34.961451+01:00",
+    "ProviderName": "Koch-Corkery"
   }
 ]
 ```

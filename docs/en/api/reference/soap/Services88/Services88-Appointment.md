@@ -570,6 +570,8 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="ColorIndex" type="q49:ColorIndex" />
+              <xs:element minOccurs="0" name="TaskName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Agenda" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsAllDay" type="xs:boolean" />

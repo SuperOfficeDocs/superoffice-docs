@@ -63,6 +63,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
 |locationAddress|string|Location: Location| x |
+|isLocation|bool|Is a location: Is a location| x |
 |addedRows| *None* ||  |
 
 ## Sample

@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 6,
-  "PrefDescId": 397,
-  "PrefValue": "consequuntur",
-  "PrefShowValue": "voluptas",
-  "Description": "Networked mission-critical info-mediaries",
+  "PrefDescLineId": 920,
+  "PrefDescId": 770,
+  "PrefValue": "aut",
+  "PrefShowValue": "non",
+  "Description": "Monitored neutral access",
   "IsBuiltin": false
 }
 ```
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 380,
-  "PrefDescId": 366,
-  "PrefValue": "aut",
-  "PrefShowValue": "exercitationem",
-  "Description": "Function-based analyzing protocol",
-  "IsBuiltin": false,
+  "PrefDescLineId": 386,
+  "PrefDescId": 300,
+  "PrefValue": "beatae",
+  "PrefShowValue": "earum",
+  "Description": "Phased radical monitoring",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   },
   "_Links": {

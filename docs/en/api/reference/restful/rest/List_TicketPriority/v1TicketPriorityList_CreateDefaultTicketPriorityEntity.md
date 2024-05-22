@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 581,
-  "Name": "Barton Inc and Sons",
+  "TicketPriorityId": 452,
+  "Name": "Metz-Pfannerstill",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 254,
+  "SortOrder": 973,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 49,
-  "MonStart": "2019-10-03T11:16:14.8557576+02:00",
-  "MonStop": "2020-12-14T11:16:14.8557576+01:00",
-  "TueStart": "1998-11-06T11:16:14.8557576+01:00",
-  "TueStop": "2012-08-26T11:16:14.8557576+02:00",
-  "WedStart": "1997-05-24T11:16:14.8557576+02:00",
-  "WedStop": "2001-03-26T11:16:14.8557576+02:00",
-  "ThuStart": "2011-10-08T11:16:14.8557576+02:00",
-  "ThuStop": "1997-12-06T11:16:14.8557576+01:00",
-  "FriStart": "2012-09-18T11:16:14.8557576+02:00",
-  "FriStop": "2015-03-18T11:16:14.8557576+01:00",
-  "SatStart": "2005-02-15T11:16:14.8557576+01:00",
-  "SatStop": "2005-01-21T11:16:14.8557576+01:00",
-  "SunStart": "2009-04-06T11:16:14.8557576+02:00",
-  "SunStop": "2019-09-03T11:16:14.8557576+02:00",
+  "Deadline": 84,
+  "MonStart": "2000-10-30T12:57:43.8082251+01:00",
+  "MonStop": "1999-05-15T12:57:43.8082251+02:00",
+  "TueStart": "2010-10-14T12:57:43.8082251+02:00",
+  "TueStop": "2016-06-19T12:57:43.8082251+02:00",
+  "WedStart": "2008-07-18T12:57:43.8082251+02:00",
+  "WedStop": "2002-10-02T12:57:43.8082251+02:00",
+  "ThuStart": "1999-10-07T12:57:43.8082251+02:00",
+  "ThuStop": "2001-01-15T12:57:43.8082251+01:00",
+  "FriStart": "2022-11-01T12:57:43.8082251+01:00",
+  "FriStop": "1997-12-20T12:57:43.8082251+01:00",
+  "SatStart": "2007-04-24T12:57:43.8082251+02:00",
+  "SatStop": "2000-09-20T12:57:43.8082251+02:00",
+  "SunStart": "2013-05-18T12:57:43.8082251+02:00",
+  "SunStop": "2020-12-24T12:57:43.8082251+01:00",
   "NonDates": [
-    "repudiandae",
-    "quos"
+    "explicabo",
+    "reiciendis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 572,
-      "AlertLevel": 743,
-      "AlertTimeout": 847,
-      "Action": 675,
-      "DelegateTo": 472,
-      "ScriptId": 896,
-      "EmailTo": "harry.collins@lowe.name",
-      "SmsTo": "minima",
-      "ReplyTemplateIdCustomer": 933,
-      "ReplyTemplateIdUser": 884,
-      "ReplyTemplateIdCatmast": 597,
-      "ReplyTemplateIdEmail": 2,
-      "RtiCustomerSms": 673,
-      "ReplyTemplateIdUserSms": 239,
-      "ReplyTemplateIdCatmastSms": 657,
-      "ReplyTemplateIdSms": 197,
+      "TicketAlertId": 314,
+      "AlertLevel": 844,
+      "AlertTimeout": 926,
+      "Action": 432,
+      "DelegateTo": 572,
+      "ScriptId": 143,
+      "EmailTo": "hershel@damore.us",
+      "SmsTo": "placeat",
+      "ReplyTemplateIdCustomer": 247,
+      "ReplyTemplateIdUser": 608,
+      "ReplyTemplateIdCatmast": 869,
+      "ReplyTemplateIdEmail": 79,
+      "RtiCustomerSms": 995,
+      "ReplyTemplateIdUserSms": 309,
+      "ReplyTemplateIdCatmastSms": 673,
+      "ReplyTemplateIdSms": 234,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 152
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 12
     }
   }
 }

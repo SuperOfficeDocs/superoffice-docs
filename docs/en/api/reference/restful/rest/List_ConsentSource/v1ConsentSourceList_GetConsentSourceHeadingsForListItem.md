@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 627,
-    "Name": "Flatley Group",
-    "ToolTip": "Vero placeat debitis consectetur.",
-    "Deleted": false,
-    "Rank": 546,
-    "Type": "incidunt",
-    "ColorBlock": 571,
-    "IconHint": "dolorem",
+    "Id": 938,
+    "Name": "Reichert-Orn",
+    "ToolTip": "Ad sed cum necessitatibus.",
+    "Deleted": true,
+    "Rank": 567,
+    "Type": "ut",
+    "ColorBlock": 632,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2022-05-07T11:16:14.5276742+02:00",
+    "LastChanged": "2004-06-22T12:57:43.3864466+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Kunze, Hessel and Sanford",
-        "ToolTip": "Provident saepe dolores amet ex itaque est.",
+        "Id": 817,
+        "Name": "Hoeger Group",
+        "ToolTip": "Laudantium eos eum saepe vitae sed accusamus.",
         "Deleted": false,
-        "Rank": 655,
-        "Type": "inventore",
-        "ColorBlock": 419,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2019-01-29T11:16:14.5276742+01:00",
+        "Rank": 592,
+        "Type": "rerum",
+        "ColorBlock": 393,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2009-09-15T12:57:43.3864466+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Nathanial Russel",
+        "ExtraInfo": "eos",
+        "StyleHint": "hic",
+        "Hidden": false,
+        "FullName": "Mr. Bonita Beau Christiansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 232
+            "FieldType": "System.Int32",
+            "FieldLength": 481
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "eum",
+    "StyleHint": "iure",
     "Hidden": true,
-    "FullName": "Marcelino Cleora Yundt Jr.",
+    "FullName": "Dorian Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 21
       }
     }
   }

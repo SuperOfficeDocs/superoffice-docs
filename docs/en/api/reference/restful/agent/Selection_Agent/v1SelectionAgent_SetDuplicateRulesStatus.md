@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Lowe Inc and Sons",
-      "DisplayName": "Harvey LLC",
-      "DisplayTooltip": "eos",
-      "IsActive": false
+      "Name": "Green LLC",
+      "DisplayName": "Brakus Inc and Sons",
+      "DisplayTooltip": "totam",
+      "IsActive": true
     },
     {
-      "Name": "Lowe Inc and Sons",
-      "DisplayName": "Harvey LLC",
-      "DisplayTooltip": "eos",
-      "IsActive": false
+      "Name": "Green LLC",
+      "DisplayName": "Brakus Inc and Sons",
+      "DisplayTooltip": "totam",
+      "IsActive": true
     }
   ]
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "quo"
+  "ChatId": "quod"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2022-03-27T11:16:08.3966087+02:00",
-    "UserPrompt": "reiciendis",
-    "UserDisplayText": "culpa",
-    "BotResponse": "est",
+    "Timestamp": "2020-08-16T12:57:32.6803248+02:00",
+    "UserPrompt": "quia",
+    "UserDisplayText": "cumque",
+    "BotResponse": "ea",
     "BotActions": {
-      "BotActions1": "quae",
-      "BotActions2": "adipisci"
+      "BotActions1": "enim",
+      "BotActions2": "ea"
     },
     "Attachments": [
-      "aut",
-      "asperiores"
+      "praesentium",
+      "et"
     ]
   },
   {
-    "Timestamp": "2022-03-27T11:16:08.3966087+02:00",
-    "UserPrompt": "reiciendis",
-    "UserDisplayText": "culpa",
-    "BotResponse": "est",
+    "Timestamp": "2020-08-16T12:57:32.6803248+02:00",
+    "UserPrompt": "quia",
+    "UserDisplayText": "cumque",
+    "BotResponse": "ea",
     "BotActions": {
-      "BotActions1": "quae",
-      "BotActions2": "adipisci"
+      "BotActions1": "enim",
+      "BotActions2": "ea"
     },
     "Attachments": [
-      "aut",
-      "asperiores"
+      "praesentium",
+      "et"
     ]
   }
 ]

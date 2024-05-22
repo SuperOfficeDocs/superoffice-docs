@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Balistreri, Wiza and Gorczany",
-  "Tooltip": "nobis",
+  "Id": 545,
+  "Name": "Nitzsche Inc and Sons",
+  "Tooltip": "eius",
   "Deleted": true,
-  "Rank": 536,
+  "Rank": 657,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "ListType": "est",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "McGlynn-O'Keefe",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 781,
-  "IsCustomList": false,
+  "Id": 805,
+  "Name": "Torp-Koss",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 958,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
+  "UseGroupsAndHeadings": false,
   "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 741
     }
   }
 }

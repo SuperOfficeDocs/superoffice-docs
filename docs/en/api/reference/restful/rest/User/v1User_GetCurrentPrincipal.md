@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "reprehenderit",
-  "AssociateId": 857,
+  "Associate": "nisi",
+  "AssociateId": 753,
   "IsPerson": false,
-  "PersonId": 35,
-  "CountryId": 875,
-  "HomeCountryId": 821,
-  "ContactId": 410,
-  "GroupId": 206,
-  "BusinessId": 981,
-  "CategoryId": 809,
-  "ContactOwner": 851,
-  "RoleId": 29,
-  "RoleName": "Jacobson-Jast",
-  "RoleDescription": "Down-sized static synergy",
+  "PersonId": 238,
+  "CountryId": 1002,
+  "HomeCountryId": 317,
+  "ContactId": 112,
+  "GroupId": 596,
+  "BusinessId": 517,
+  "CategoryId": 306,
+  "ContactOwner": 51,
+  "RoleId": 201,
+  "RoleName": "Walsh, Quitzon and Bradtke",
+  "RoleDescription": "Automated composite software",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 331,
-      "OwnerName": "Collier Inc and Sons",
-      "OwnerDescription": "Pre-emptive cohesive synergy",
-      "ModuleId": 72,
-      "Name": "Brekke-Rolfson",
-      "Description": "Configurable composite complexity",
-      "Version": "debitis",
+      "OwnerId": 754,
+      "OwnerName": "Prosacco-Hodkiewicz",
+      "OwnerDescription": "Enterprise-wide object-oriented monitoring",
+      "ModuleId": 426,
+      "Name": "Parisian, Conroy and Kerluke",
+      "Description": "Business-focused systematic solution",
+      "Version": "eum",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 2,
-      "ExtraInfo": "sed",
-      "SortOrder": 672,
-      "LicenseNumber": 298,
+      "ExtraFlags": 849,
+      "ExtraInfo": "aliquam",
+      "SortOrder": 126,
+      "LicenseNumber": 33,
       "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2015-11-20T11:16:14.4495535+01:00",
+      "ExpiryDate": "2010-06-15T12:57:43.2614753+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 784
         }
       }
     }
   ],
-  "FullName": "Mr. Sigmund Grady II",
-  "EMailAddress": "in",
+  "FullName": "Eldora Jason Windler PhD",
+  "EMailAddress": "enim",
   "FunctionRights": [
-    "earum",
-    "quaerat"
+    "voluptatibus",
+    "laboriosam"
   ],
-  "EjUserId": 951,
-  "EjAccessLevel": 390,
+  "EjUserId": 467,
+  "EjAccessLevel": 318,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "aperiam",
-      "SearchName": "Kuvalis, Douglas and Hudson",
-      "DisplayName": "Schiller, Leannon and Morissette",
-      "CredentialId": 683
+      "Type": "tenetur",
+      "SearchName": "DuBuque-Stanton",
+      "DisplayName": "Koss Group",
+      "CredentialId": 502
     },
     {
-      "Type": "aperiam",
-      "SearchName": "Kuvalis, Douglas and Hudson",
-      "DisplayName": "Schiller, Leannon and Morissette",
-      "CredentialId": 683
+      "Type": "tenetur",
+      "SearchName": "DuBuque-Stanton",
+      "DisplayName": "Koss Group",
+      "CredentialId": 502
     }
   ],
   "SecondaryGroups": [
-    255,
-    40
+    552,
+    520
   ],
-  "DatabaseContextIdentifier": "facere",
-  "UserName": "Waters, Quigley and Gutmann"
+  "DatabaseContextIdentifier": "non",
+  "UserName": "Fisher-Rath"
 }
 ```

@@ -96,6 +96,7 @@ This is the archive Provider for quote version attachments.
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
+|associate/isLocation|bool|Is a location: Is a location| x |
 |documentUdef/SuperOffice:1|string|documentshorttext| x |
 |documentUdef/SuperOffice:2|string|documentlongtext| x |
 |documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -110,7 +111,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=isReport,associate/contactCategory,name
+GET /api/v1/archive/QuoteVersionAttachment?$select=name,documentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

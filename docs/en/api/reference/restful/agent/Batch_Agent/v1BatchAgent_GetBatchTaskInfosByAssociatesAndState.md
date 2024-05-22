@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    213,
-    948
+    204,
+    673
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Mueller Inc and Sons",
-    "AssociateId": 171,
-    "DetailsTable": 361,
-    "DetailsRecord": 162,
-    "IsSystemTask": true,
+    "Id": 817,
+    "Name": "Satterfield LLC",
+    "AssociateId": 10,
+    "DetailsTable": 204,
+    "DetailsRecord": 481,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quo",
-      "ParameterObject2": "aperiam"
+      "ParameterObject1": "eum",
+      "ParameterObject2": "in"
     },
-    "LastStarted": "2013-01-22T11:16:08.7410229+01:00",
-    "Created": "2000-05-19T11:16:08.7410229+02:00",
-    "StartCount": 441,
-    "DatabaseSerialNumber": "1072915",
-    "Context": "dolore",
-    "Result": "illo",
+    "LastStarted": "2011-11-01T12:57:33.2658907+01:00",
+    "Created": "2000-02-05T12:57:33.2658907+01:00",
+    "StartCount": 29,
+    "DatabaseSerialNumber": "724315",
+    "Context": "aut",
+    "Result": "sequi",
     "State": "All",
-    "Description": "Enterprise-wide dedicated attitude",
-    "Response": "ut",
-    "Request": "dolores",
-    "ProgressDescription": "Face to face real-time moratorium",
-    "ProgressPercent": 624,
-    "FileName": "Wintheiser, Upton and Parisian",
+    "Description": "Re-engineered cohesive matrix",
+    "Response": "numquam",
+    "Request": "dicta",
+    "ProgressDescription": "Switchable optimal time-frame",
+    "ProgressPercent": 806,
+    "FileName": "Rohan, Yost and Rau",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

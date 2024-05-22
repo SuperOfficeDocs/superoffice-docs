@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    770,
-    1002
+    633,
+    443
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 687,
-    "ContactName": "Emmerich-Greenholt",
-    "PersonId": 299,
-    "PersonName": "King Group",
-    "AssociateId": 68,
-    "Address": "aut",
-    "EmailId": 939,
+    "ContactId": 185,
+    "ContactName": "Hilpert Group",
+    "PersonId": 739,
+    "PersonName": "Dickinson, Mayer and Renner",
+    "AssociateId": 937,
+    "Address": "voluptatem",
+    "EmailId": 626,
     "DuplicatePersonIds": [
-      141,
-      205
+      615,
+      860
     ],
-    "Name": "Lockman Group",
+    "Name": "Toy LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 996
       }
     }
   }

@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 256,
-    "Name": "Kutch, Bradtke and Corkery",
-    "Tooltip": "tempore",
-    "SaveInDb": 369,
-    "Filename": "et",
-    "DefaultOref": "inventore",
+    "DocumentTemplateId": 845,
+    "Name": "Abernathy, Leuschke and Wisozk",
+    "Tooltip": "dolorum",
+    "SaveInDb": 462,
+    "Filename": "nam",
+    "DefaultOref": "velit",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 8,
-    "IntentId": 543,
-    "IsDefaultPublished": false,
-    "Rank": 91,
-    "LoadTemplateFromPlugin": 57,
-    "MimeType": "et",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 502,
+    "AutoeventId": 793,
+    "IntentId": 536,
+    "IsDefaultPublished": true,
+    "Rank": 975,
+    "LoadTemplateFromPlugin": 53,
+    "MimeType": "fugit",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 374,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "marco@turner.name",
+    "EmailSubject": "josefa@mccullough.ca",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "dameon@wyman.co.uk",
+    "SenderEmailAddress": "eda@brown.biz",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 340
+        "FieldType": "System.Int32",
+        "FieldLength": 339
       }
     }
   }

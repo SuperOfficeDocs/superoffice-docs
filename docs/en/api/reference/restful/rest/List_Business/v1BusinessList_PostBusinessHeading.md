@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 21,
-  "Name": "Balistreri Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 741,
-  "UdListDefinitionId": 70
+  "HeadingId": 111,
+  "Name": "Pacocha Group",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 464,
+  "UdListDefinitionId": 552
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 569,
-  "Name": "Nienow, Gleichner and Raynor",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 949,
-  "UdListDefinitionId": 212,
+  "HeadingId": 325,
+  "Name": "Gislason-Koelpin",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 893,
+  "UdListDefinitionId": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldLength": 51
     }
   }
 }

@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 281
+  "AssociateId": 511
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-01-22T11:16:08.631516+01:00",
-  "AppointmentId": 452,
-  "Description": "Devolved local structure",
-  "Title": "eum",
-  "Agenda": "earum",
-  "InternalNotes": "labore",
-  "StartDate": "2022-05-03T11:16:08.631516+02:00",
-  "EndDate": "2018-08-14T11:16:08.631516+02:00",
+  "CreatedDate": "1999-02-24T12:57:32.9615394+01:00",
+  "AppointmentId": 54,
+  "Description": "Multi-layered scalable forecast",
+  "Title": "pariatur",
+  "Agenda": "deleniti",
+  "InternalNotes": "sed",
+  "StartDate": "2000-12-30T12:57:32.9615394+01:00",
+  "EndDate": "1997-06-29T12:57:32.9615394+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 250,
+  "MotherId": 491,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-07-22T11:16:08.631516+02:00",
+  "UpdatedDate": "2005-03-23T12:57:32.9615394+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 669,
+  "ActiveLinks": 705,
   "Links": [
     {
-      "EntityName": "Ankunding-Bergstrom",
-      "Id": 187,
-      "Description": "Polarised dynamic architecture",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 524,
+      "EntityName": "Casper-Veum",
+      "Id": 496,
+      "Description": "Profound fresh-thinking internet solution",
+      "ExtraInfo": "sequi",
+      "LinkId": 772,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldType": "System.Int32",
+          "FieldLength": 751
         }
       }
     }
   ],
-  "AlarmLeadTime": "sed",
+  "AlarmLeadTime": "veritatis",
   "HasAlarm": false,
-  "ColorIndex": 877,
+  "ColorIndex": 46,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "eum",
-  "LeadTime": "vero",
-  "Location": "sed",
-  "RejectCounter": 774,
+  "IsAlldayEvent": true,
+  "LagTime": "distinctio",
+  "LeadTime": "maxime",
+  "Location": "asperiores",
+  "RejectCounter": 192,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 975,
-      "PersonId": 706,
-      "ContactId": 891,
-      "EmailId": 457,
-      "SendEmail": true,
+      "AssociateId": 757,
+      "PersonId": 912,
+      "ContactId": 931,
+      "EmailId": 217,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lisette@kreigerdaniel.ca",
-      "Description": "Universal systemic time-frame"
+      "EmailAddress": "stevie@boyerconroy.info",
+      "Description": "Persevering static protocol"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-10-07T11:16:08.631516+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2002-08-27T12:57:32.9615394+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 24,
+  "PreferredTZLocation": 95,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 631,
+  "SuggestedAppointmentId": 474,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
+  "CentralserviceVideomeetId": "voluptates",
   "UserDefinedFields": {
-    "SuperOffice:1": "Torrey Blanche Shanahan Sr.",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "487199729"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "ex",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "et",
+    "CustomFields2": "quam"
   },
-  "PublishEventDate": "2017-09-16T11:16:08.6471415+02:00",
-  "PublishTo": "2004-09-21T11:16:08.6471415+02:00",
-  "PublishFrom": "1997-04-24T11:16:08.6471415+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2023-01-10T12:57:32.9615394+01:00",
+  "PublishTo": "2021-01-16T12:57:32.9615394+01:00",
+  "PublishFrom": "2024-02-09T12:57:32.9615394+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 559,
+      "VisibleId": 907,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     },
     {
-      "VisibleId": 559,
+      "VisibleId": 907,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

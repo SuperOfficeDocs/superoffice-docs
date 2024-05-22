@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "voluptates",
-  "GroupName": "Bradtke Group"
+  "Type": "porro",
+  "GroupName": "Weber-Gulgowski"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "dolorem",
-    "quis"
+    "hic",
+    "sequi"
   ],
   "Users": [
     {
-      "Value": "suscipit",
-      "DisplayValue": "hic",
+      "Value": "earum",
+      "DisplayValue": "beatae",
       "Columns": [
-        "nihil",
-        "ut"
+        "dolores",
+        "aperiam"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldType": "System.Int32",
+          "FieldLength": 159
         }
       }
     },
     {
-      "Value": "suscipit",
-      "DisplayValue": "hic",
+      "Value": "earum",
+      "DisplayValue": "beatae",
       "Columns": [
-        "nihil",
-        "ut"
+        "dolores",
+        "aperiam"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldType": "System.Int32",
+          "FieldLength": 159
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 730
     }
   }
 }

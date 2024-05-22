@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Considine, Hartmann and Barton",
-  "Restrictions": "exercitationem"
+  "ProviderName": "Grant-Farrell",
+  "Restrictions": "aliquam"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Towne, VonRueden and Keebler",
-    "DisplayTooltip": "incidunt",
-    "DisplayType": "dolor",
+    "DisplayName": "Feil Inc and Sons",
+    "DisplayTooltip": "aut",
+    "DisplayType": "fuga",
     "CanOrderBy": false,
-    "Name": "Barton, Bogan and Aufderhar",
-    "CanRestrictBy": true,
-    "RestrictionType": "est",
-    "RestrictionListName": "Skiles-Torp",
+    "Name": "Schimmel Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "sed",
+    "RestrictionListName": "Greenholt-Brakus",
     "IsVisible": true,
-    "ExtraInfo": "quaerat",
-    "Width": "fugiat",
-    "IconHint": "aperiam",
-    "HeadingIconHint": "animi"
+    "ExtraInfo": "ipsum",
+    "Width": "tempore",
+    "IconHint": "temporibus",
+    "HeadingIconHint": "quis"
   }
 ]
 ```

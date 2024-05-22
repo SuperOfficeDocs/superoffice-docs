@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 247
+  "Id": 805
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 630,
-    "Name": "Lind Group",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "Rank": 860,
-    "UdListDefinitionId": 690,
+    "HeadingId": 219,
+    "Name": "Zboncak-Bailey",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "Rank": 897,
+    "UdListDefinitionId": 863,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldType": "System.String",
+        "FieldLength": 709
       }
     }
   }

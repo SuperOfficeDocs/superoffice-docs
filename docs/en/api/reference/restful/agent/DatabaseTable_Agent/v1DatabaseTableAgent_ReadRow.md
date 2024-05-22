@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lockman, Trantow and Rau",
-  "Id": 827
+  "TableName": "Hahn, Waters and Ryan",
+  "Id": 659
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "earum",
-    "Values2": "itaque"
+    "Values1": "voluptas",
+    "Values2": "mollitia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 756
     }
   }
 }

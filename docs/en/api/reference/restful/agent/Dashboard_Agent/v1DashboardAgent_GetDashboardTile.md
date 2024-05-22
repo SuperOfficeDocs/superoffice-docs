@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=37
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=961
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 502,
-  "Caption": "ut",
-  "Description": "Seamless high-level methodology",
-  "ChartName": "Kassulke LLC",
-  "ChartId": "in",
-  "IsDefault": true,
-  "AssociateId": 141,
-  "GroupId": 731,
-  "SelectionId": 727,
-  "Config": "autem",
+  "DashboardTileId": 753,
+  "Caption": "iusto",
+  "Description": "Synergized attitude-oriented emulation",
+  "ChartName": "Hand-Cruickshank",
+  "ChartId": "quo",
+  "IsDefault": false,
+  "AssociateId": 540,
+  "GroupId": 424,
+  "SelectionId": 862,
+  "Config": "qui",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jones LLC",
-      "Description": "Integrated stable protocol",
+      "Name": "Fisher, Blick and Emard",
+      "Description": "Operative 4th generation approach",
       "Type": "Boolean",
-      "ListName": "Mertz, Metz and Reichert",
+      "ListName": "Schroeder, Lemke and Upton",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "vero",
+      "Value": "eligendi",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldType": "System.Int32",
+          "FieldLength": 944
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 713,
+      "VisibleId": 536,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     },
     {
-      "VisibleId": 713,
+      "VisibleId": 536,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 876
     }
   }
 }

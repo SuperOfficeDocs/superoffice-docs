@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 212,
-  "Name": "Gaylord, Bechtelar and Ritchie",
-  "Tooltip": "deleniti",
+  "HeadingId": 944,
+  "Name": "Turcotte Group",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 858,
-  "UdListDefinitionId": 972
+  "Rank": 180,
+  "UdListDefinitionId": 992
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 315,
-  "Name": "Luettgen Group",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 416,
-  "UdListDefinitionId": 406,
+  "HeadingId": 187,
+  "Name": "Cummings-Leffler",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "Rank": 940,
+  "UdListDefinitionId": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

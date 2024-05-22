@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kerluke-Gislason",
+  "TableName": "Wuckert, Cummerata and Kemmer",
   "RecordIds": [
-    81,
-    799
+    328,
+    832
   ],
-  "AssociateId": 597,
-  "ExtraInfo": "a"
+  "AssociateId": 949,
+  "ExtraInfo": "excepturi"
 }
 ```
 

@@ -101,7 +101,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse value-added productivity",
-  "Postit": "ipsam",
+  "Description": "Organic didactic application",
+  "Postit": "quas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 955,
-  "IncludePerson": 154,
-  "MemberCount": 489,
-  "Name": "Stokes Inc and Sons",
-  "PostitTextId": 707,
-  "CreatedDate": "2008-02-23T11:16:09.6947013+01:00",
-  "SelectionId": 972,
-  "SoundEx": "ut",
-  "Source": 534,
-  "TextId": 252,
-  "UpdatedDate": "2021-01-18T11:16:09.6947013+01:00",
-  "UpdatedCount": 401,
-  "Visibility": 497,
+  "GroupIdx": 990,
+  "IncludePerson": 552,
+  "MemberCount": 99.99,
+  "Name": "Batz Inc and Sons",
+  "PostitTextId": 534,
+  "CreatedDate": "2011-03-12T12:57:34.8989653+01:00",
+  "SelectionId": 588,
+  "SoundEx": "occaecati",
+  "Source": 515,
+  "TextId": 581,
+  "UpdatedDate": "2021-12-15T12:57:34.8989653+01:00",
+  "UpdatedCount": 966,
+  "Visibility": 15,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 233,
-  "TargetTableName": "Goyette, Padberg and Schaden",
+  "CompanyUnique": false,
+  "TargetTableNumber": 522,
+  "TargetTableName": "Franecki, Botsford and Rogahn",
   "Completed": true,
-  "LeftSelectionId": 410,
-  "RightSelectionId": 926,
+  "LeftSelectionId": 376,
+  "RightSelectionId": 538,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Satterfield LLC",
-  "ShadowProviderName": "Kuhn Group",
-  "ChartKey": "quo",
-  "LastLoaded": "2011-07-13T11:16:09.6947013+02:00",
-  "LastLoadedBy": 849,
+  "MainProviderName": "Gislason LLC",
+  "ShadowProviderName": "Powlowski Inc and Sons",
+  "ChartKey": "culpa",
+  "LastLoaded": "2019-07-03T12:57:34.8989653+02:00",
+  "LastLoadedBy": 666,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-01-31T11:16:09.6947013+01:00",
-  "LastMembershipChangeBy": 856,
+  "LastMembershipChange": "2000-11-15T12:57:34.8989653+01:00",
+  "LastMembershipChangeBy": 925,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequatur",
-  "MemberTabHeading": "in",
-  "MailingsProviderName": "Greenfelder, Watsica and Ritchie",
-  "DashboardTileDefinitionId": 889,
+  "MainHeading": "sit",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Morar LLC",
+  "DashboardTileDefinitionId": 880,
   "VisibleFor": [
     {
-      "VisibleId": 68,
+      "VisibleId": 42,
       "Visibility": "All",
-      "DisplayValue": "dolor"
+      "DisplayValue": "fuga"
     },
     {
-      "VisibleId": 68,
+      "VisibleId": 42,
       "Visibility": "All",
-      "DisplayValue": "dolor"
+      "DisplayValue": "fuga"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organized non-volatile methodology",
-  "Postit": "alias",
+  "Description": "Ameliorated clear-thinking knowledge base",
+  "Postit": "atque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 550,
-  "IncludePerson": 709,
-  "MemberCount": 735,
-  "Name": "Wilderman LLC",
-  "PostitTextId": 945,
-  "CreatedDate": "2012-12-03T11:16:09.7103639+01:00",
-  "SelectionId": 693,
-  "SoundEx": "quis",
-  "Source": 59,
-  "TextId": 153,
-  "UpdatedDate": "2017-01-16T11:16:09.7103639+01:00",
-  "UpdatedCount": 403,
-  "Visibility": 893,
+  "GroupIdx": 278,
+  "IncludePerson": 956,
+  "MemberCount": 99.99,
+  "Name": "Lehner-Kilback",
+  "PostitTextId": 15,
+  "CreatedDate": "2013-12-06T12:57:34.8989653+01:00",
+  "SelectionId": 207,
+  "SoundEx": "repudiandae",
+  "Source": 907,
+  "TextId": 290,
+  "UpdatedDate": "2010-04-19T12:57:34.8989653+02:00",
+  "UpdatedCount": 250,
+  "Visibility": 932,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 63,
-  "TargetTableName": "Dickens-Luettgen",
+  "CompanyUnique": false,
+  "TargetTableNumber": 897,
+  "TargetTableName": "Carter, Reichel and Klocko",
   "Completed": false,
-  "LeftSelectionId": 502,
-  "RightSelectionId": 281,
+  "LeftSelectionId": 165,
+  "RightSelectionId": 144,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nader-Runolfsdottir",
-  "ShadowProviderName": "Hegmann, Beahan and Morissette",
-  "ChartKey": "autem",
-  "LastLoaded": "2024-04-18T11:16:09.7103639+02:00",
-  "LastLoadedBy": 358,
+  "MainProviderName": "Schuppe Group",
+  "ShadowProviderName": "Jaskolski Group",
+  "ChartKey": "nulla",
+  "LastLoaded": "1997-11-14T12:57:34.8989653+01:00",
+  "LastLoadedBy": 18,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-03-04T11:16:09.7103639+01:00",
-  "LastMembershipChangeBy": 138,
+  "LastMembershipChange": "2015-03-30T12:57:34.8989653+02:00",
+  "LastMembershipChangeBy": 506,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "quidem",
-  "MailingsProviderName": "Turner, Hirthe and Beahan",
-  "DashboardTileDefinitionId": 34,
+  "MainHeading": "fugiat",
+  "MemberTabHeading": "dolores",
+  "MailingsProviderName": "Ledner-Kovacek",
+  "DashboardTileDefinitionId": 92,
   "VisibleFor": [
     {
-      "VisibleId": 722,
+      "VisibleId": 31,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 925
         }
       }
     },
     {
-      "VisibleId": 722,
+      "VisibleId": 31,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 925
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 854
     }
   }
 }

@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "non",
+  "Provider": "reiciendis",
   "Restrictions": [
     {
-      "Name": "Ortiz, Turcotte and Dach",
-      "Operator": "architecto",
+      "Name": "Kohler-Stamm",
+      "Operator": "quia",
       "Values": [
-        "labore",
-        "molestias"
+        "ab",
+        "qui"
       ],
       "DisplayValues": [
-        "distinctio",
-        "in"
+        "perspiciatis",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 458,
+      "InterParenthesis": 483,
       "InterOperator": "And",
-      "UniqueHash": 573
+      "UniqueHash": 977
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  103,
-  250
+  967,
+  267
 ]
 ```

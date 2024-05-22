@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Bauch-Schaden",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 977,
+  "Id": 27,
+  "Name": "Huel Group",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "Rank": 889,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sapiente",
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "O'Kon LLC",
-  "Tooltip": "quia",
+  "Id": 388,
+  "Name": "Robel-Smith",
+  "Tooltip": "quam",
   "Deleted": false,
-  "Rank": 399,
+  "Rank": 567,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aliquam",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 690
     }
   }
 }

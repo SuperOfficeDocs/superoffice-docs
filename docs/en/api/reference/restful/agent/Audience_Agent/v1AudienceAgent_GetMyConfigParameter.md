@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Larson, Abshire and Donnelly"
+  "ParameterName": "Jacobs, Carroll and Upton"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 183,
-  "Name": "Schiller LLC",
-  "Value": "accusantium",
-  "CreatedDate": "2001-11-16T11:16:08.7253957+01:00",
-  "UpdatedDate": "2013-03-20T11:16:08.7253957+01:00",
-  "CreatedBy": "exercitationem",
-  "UpdatedBy": "qui",
+  "AudienceLayoutId": 232,
+  "Name": "DuBuque-Fritsch",
+  "Value": "sed",
+  "CreatedDate": "2004-04-06T12:57:33.2428569+02:00",
+  "UpdatedDate": "1997-01-29T12:57:33.2428569+01:00",
+  "CreatedBy": "id",
+  "UpdatedBy": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 522
     }
   }
 }

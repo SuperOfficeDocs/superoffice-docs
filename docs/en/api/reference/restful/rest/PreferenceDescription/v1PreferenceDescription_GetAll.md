@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 769,
-    "Section": "odit",
-    "Key": "ea",
-    "Name": "Bashirian-Murazik",
+    "PrefDescId": 400,
+    "Section": "ut",
+    "Key": "et",
+    "Name": "Macejkovic, Kub and Cole",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Universal needs-based knowledge user",
-    "IsBuiltin": false,
-    "TableName": "Parker LLC",
-    "UserDefinedListId": 202,
-    "Rank": 406,
-    "SubGroup": "et",
-    "MinLevel": 870,
-    "MaxValue": 498,
-    "MinValue": 327,
-    "RequiredLicense": "expedita",
+    "Description": "Optimized even-keeled budgetary management",
+    "IsBuiltin": true,
+    "TableName": "Hermiston-Rowe",
+    "UserDefinedListId": 921,
+    "Rank": 437,
+    "SubGroup": "quo",
+    "MinLevel": 541,
+    "MaxValue": 995,
+    "MinValue": 313,
+    "RequiredLicense": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 821
       }
     }
   }

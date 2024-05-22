@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 815,
-  "ModuleOwner": "reprehenderit"
+  "AssociateId": 281,
+  "ModuleOwner": "est"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 173,
-    "Tooltip": "ea",
+    "Unrestricted": true,
+    "Total": 462,
+    "Tooltip": "vero",
     "CanAssign": false,
-    "Free": 750,
-    "InUse": 716,
+    "Free": 814,
+    "InUse": 485,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 46,
-    "Name": "Schneider Inc and Sons",
-    "Description": "Open-architected exuding application",
-    "PrerequisiteModuleName": "Buckridge LLC",
-    "SortOrder": 125,
-    "ExtraFlags": 841,
+    "Assigned": true,
+    "ModuleLicenseId": 349,
+    "Name": "Gusikowski, Roob and Beer",
+    "Description": "Re-contextualized empowering hardware",
+    "PrerequisiteModuleName": "Emard Inc and Sons",
+    "SortOrder": 25,
+    "ExtraFlags": 396,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 957
       }
     }
   }

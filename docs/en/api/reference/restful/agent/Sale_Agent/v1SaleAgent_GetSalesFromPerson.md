@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 172,
+  "PersonId": 661,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Grimes-Cormier",
-    "SaleDate": "1997-07-04T11:16:09.6846608+02:00",
-    "SaleId": 392,
-    "Probability": 526,
-    "Title": "et",
-    "Amount": 10122.82,
-    "Currency": "sed",
-    "ProjectName": "Mueller, Cormier and Marks",
-    "AssociateFullName": "Prof. Lulu Grady Haag",
-    "Description": "Organic multimedia knowledge base",
+    "ContactName": "Crist-Reichert",
+    "SaleDate": "2015-08-24T12:57:34.8833406+02:00",
+    "SaleId": 557,
+    "Probability": 363,
+    "Title": "provident",
+    "Amount": 2526.004,
+    "Currency": "repellendus",
+    "ProjectName": "Murazik, Stoltenberg and Frami",
+    "AssociateFullName": "Miss Ned Euna Powlowski V",
+    "Description": "Up-sized discrete neural-net",
     "Status": "Lost",
-    "WeightedAmount": 11652.212,
-    "ProjectId": 33,
-    "EarningPercent": 19339.914,
-    "Earning": 17008.218,
-    "ContactId": 659,
-    "AssociateId": 179,
-    "PersonId": 170,
-    "SaleTypeId": 589,
-    "SaleTypeName": "Spinka-Blick",
-    "PersonFullName": "Aaron Strosin",
+    "WeightedAmount": 11727.428,
+    "ProjectId": 912,
+    "EarningPercent": 8060.648,
+    "Earning": 18832.206,
+    "ContactId": 185,
+    "AssociateId": 969,
+    "PersonId": 494,
+    "SaleTypeId": 393,
+    "SaleTypeName": "Treutel Inc and Sons",
+    "PersonFullName": "Eldridge Johns",
     "Completed": "Completed",
-    "ActiveErpLinks": 461,
-    "NextDueDate": "2009-07-11T11:16:09.6846608+02:00",
-    "Number": "692788",
+    "ActiveErpLinks": 896,
+    "NextDueDate": "2012-02-06T12:57:34.8833406+01:00",
+    "Number": "1124272",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 40
+        "FieldLength": 256
       }
     }
   }

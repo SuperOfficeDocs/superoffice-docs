@@ -61,6 +61,13 @@ Type = "Email" or "Phone"
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EmailPhoneProvider">EmailPhoneProvider</see> class.
 The name of the MDO list is 'emailphone'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Only sms loaded| phoneOnly|False|
+
+
 
 
 
@@ -87,27 +94,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|147|Hiroshito Yokahama +8189898988|Person|+8189898988|
-|194|Hiroshito Yokahama <qa0@superoffice.com>||qa0@superoffice.com|
-|151|Steve Fishmann +447817913882|Person|+447817913882|
-|198|Steve Fishmann <Fish.company.steve@mailinator.com>||Fish.company.steve@mailinator.com|
-|154|Carol Fishmann +447817913882|Person|+447817913882|
-|199|Carol Fishmann <carol.fish.company@mailinator.com>||carol.fish.company@mailinator.com|
-|158|Mike Crab +447817913882|Person|+447817913882|
-|200|Mike Crab <mike.fish.company@mailinator.com>||mike.fish.company@mailinator.com|
-|161|Gary Dope +447817913882|Person|+447817913882|
-|201|Gary Dope <gary.dope@mailinator.com>||gary.dope@mailinator.com|
-|163|Bil Macher +447817913882|Person|+447817913882|
-|202|Bil Macher <Bil.Macher@mailinator.com>||Bil.Macher@mailinator.com|
-|169|Barbara Manyemails +447817913882|Person|+447817913882|
-|205|Barbara Manyemails <Barabara.Fish@mailinator.com>||Barabara.Fish@mailinator.com|
-|206|Barbara Manyemails <BarbaraAlt.Fish@mailinator.com>||BarbaraAlt.Fish@mailinator.com|
-|207|Barbara Manyemails <BarbaraThir@mailinator.com>||BarbaraThir@mailinator.com|
-|208|Barbara Manyemails <ContactBarbara@mailinator.com>||ContactBarbara@mailinator.com|
-|209|Barbara Manyemails <Coffe.Fish@mailinator.com>||Coffe.Fish@mailinator.com|
-|175|Great Cat +49367388608|Person|+49367388608|
-|214|Great Cat <miau.miau.leader@mailinator.com>||miau.miau.leader@mailinator.com|
-|215|Great Cat <miau.miau.me@gmail.com>||miau.miau.me@gmail.com|
+|11|Brede Bredesen <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|12|Cato Carlsson <qa.testbruker@superoffice.com>|nomail|qa.testbruker@superoffice.com|
+|13|Donald Duck <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|14|Erik Eide <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|15|Frode Freestad <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|16|Geir Grønbeck <qa.testbruker@superoffice.com>|nomail|qa.testbruker@superoffice.com|
+|17|Hans Hansen <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|18|Ingrid Istad <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|19|Arne Arnesen <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|20|Admin Adminson <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|23|Arne Arnesen <qa0@superoffice.com>||qa0@superoffice.com|
+|24|Arnt Arntsen <qa5@superoffice.com>|nomail|qa5@superoffice.com|
+|25|Arnhild Arvestad <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|26|Arjan Abelsen <qa.testbruker@superoffice.com>||qa.testbruker@superoffice.com|
+|91|Britt Bærum <qa5@superoffice.com>||qa5@superoffice.com|
+|92|Bente Båstad <qa5@superoffice.com>|nomail|qa5@superoffice.com|
+|93|Bjørn Bjørnsen <qa5@superoffice.com>||qa5@superoffice.com|
+|94|Bjørge Bastesen <qa5@superoffice.com>||qa5@superoffice.com|
+|95|Carl-Oskar Cederström <qa5@superoffice.com>||qa5@superoffice.com|
+|96|Cidrik Culien <qa5@superoffice.com>|nomail|qa5@superoffice.com|
+|97|Cecilie Carlsen <qa5@superoffice.com>||qa5@superoffice.com|
 
 
 ## Related MDO Lists

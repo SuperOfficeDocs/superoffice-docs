@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 417,
+  "ReportId": 186,
   "ReportCategory": "All",
-  "Description": "Distributed attitude-oriented moratorium",
+  "Description": "Focused even-keeled moderator",
   "ReportLayout": "CalendarMonth",
-  "Name": "Wyman-Douglas",
-  "AssociateId": 509,
-  "TemplateId": 492,
+  "Name": "Schimmel, Beier and Hahn",
+  "AssociateId": 422,
+  "TemplateId": 70,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

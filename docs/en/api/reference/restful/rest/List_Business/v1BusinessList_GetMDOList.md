@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=corporis
+GET /api/v1/List/Business/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Christiansen-Turner",
-    "ToolTip": "Quasi doloribus quaerat laboriosam eius.",
+    "Id": 455,
+    "Name": "Fahey, Hilpert and Mante",
+    "ToolTip": "Veritatis quis delectus.",
     "Deleted": true,
-    "Rank": 185,
-    "Type": "ducimus",
+    "Rank": 666,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 846,
-        "Name": "Smith-Langworth",
-        "ToolTip": "Facilis placeat velit numquam et.",
-        "Deleted": true,
-        "Rank": 591,
-        "Type": "ut",
+        "Id": 930,
+        "Name": "Luettgen-Windler",
+        "ToolTip": "Eligendi a placeat atque consequuntur vel cupiditate.",
+        "Deleted": false,
+        "Rank": 806,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maxime",
-        "ColorBlock": 908,
-        "ExtraInfo": "iste",
-        "StyleHint": "alias",
-        "FullName": "Marquis Haag",
+        "IconHint": "aspernatur",
+        "ColorBlock": 998,
+        "ExtraInfo": "modi",
+        "StyleHint": "molestias",
+        "FullName": "Mrs. Oda Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 520
+            "FieldLength": 621
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 951,
-    "ExtraInfo": "modi",
-    "StyleHint": "tenetur",
-    "FullName": "Lazaro Stokes",
+    "IconHint": "sit",
+    "ColorBlock": 930,
+    "ExtraInfo": "sed",
+    "StyleHint": "ipsam",
+    "FullName": "Camryn Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldLength": 796
       }
     }
   }

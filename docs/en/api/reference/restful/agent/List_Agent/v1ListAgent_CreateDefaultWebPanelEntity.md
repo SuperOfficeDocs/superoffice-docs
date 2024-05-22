@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 79,
-  "Name": "Haley-Trantow",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 638,
+  "WebPanelId": 563,
+  "Name": "Murray Group",
+  "Tooltip": "occaecati",
+  "Deleted": false,
+  "Rank": 851,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Ruecker LLC",
+  "WindowName": "Graham Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "quibusdam",
-  "Icon": 950,
+  "ProgId": "autem",
+  "Icon": 973,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 918
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

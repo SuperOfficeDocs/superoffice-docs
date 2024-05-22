@@ -85,11 +85,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Mante-Lubowitz",
-  "StorageKey": "nemo",
-  "PageSize": 602,
-  "PageNumber": 146
+  "StorageType": "voluptatem",
+  "ProviderName": "Mayert-Abbott",
+  "StorageKey": "molestiae",
+  "PageSize": 496,
+  "PageNumber": 503
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Franecki-Sawayn",
-      "DisplayTooltip": "molestias",
-      "DisplayType": "voluptate",
-      "CanOrderBy": true,
-      "Name": "Crist Group",
+      "DisplayName": "Macejkovic-Corwin",
+      "DisplayTooltip": "eum",
+      "DisplayType": "ipsam",
+      "CanOrderBy": false,
+      "Name": "Rodriguez, Wintheiser and Auer",
       "CanRestrictBy": false,
-      "RestrictionType": "non",
-      "RestrictionListName": "Kihn-Grant",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "nihil",
-      "IconHint": "nulla",
-      "HeadingIconHint": "unde"
+      "RestrictionType": "ex",
+      "RestrictionListName": "Schumm-Sipes",
+      "IsVisible": false,
+      "ExtraInfo": "ex",
+      "Width": "repudiandae",
+      "IconHint": "libero",
+      "HeadingIconHint": "magnam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Volkman, Kub and Kunze",
-      "PrimaryKey": 10,
+      "EntityName": "Eichmann, Klein and Wunsch",
+      "PrimaryKey": 58,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "amet",
-          "TooltipHint": "modi",
-          "LinkHint": "optio"
+          "DisplayValue": "quia",
+          "TooltipHint": "laborum",
+          "LinkHint": "culpa"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "iure",
+      "LinkHint": "omnis",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 437
+          "FieldLength": 67
         }
       }
     }
   ],
-  "RowCount": 432,
+  "RowCount": 874,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   }
 }

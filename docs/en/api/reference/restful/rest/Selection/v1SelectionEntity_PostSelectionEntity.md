@@ -113,7 +113,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered optimizing core",
-  "Postit": "et",
+  "Description": "Up-sized bandwidth-monitored matrices",
+  "Postit": "eligendi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 219,
-  "IncludePerson": 618,
-  "MemberCount": 764,
-  "Name": "Weber-Willms",
-  "PostitTextId": 269,
-  "CreatedDate": "2014-09-20T11:16:14.2148007+02:00",
-  "SelectionId": 289,
-  "SoundEx": "sed",
-  "Source": 289,
-  "TextId": 770,
-  "UpdatedDate": "2017-02-05T11:16:14.2148007+01:00",
-  "UpdatedCount": 867,
-  "Visibility": 740,
+  "GroupIdx": 844,
+  "IncludePerson": 989,
+  "MemberCount": 99.99,
+  "Name": "Raynor, Eichmann and McLaughlin",
+  "PostitTextId": 952,
+  "CreatedDate": "2014-10-26T12:57:42.7763061+01:00",
+  "SelectionId": 901,
+  "SoundEx": "est",
+  "Source": 283,
+  "TextId": 305,
+  "UpdatedDate": "2002-08-01T12:57:42.7763061+02:00",
+  "UpdatedCount": 70,
+  "Visibility": 923,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 170,
-  "TargetTableName": "Little Inc and Sons",
+  "TargetTableNumber": 825,
+  "TargetTableName": "Marks, Cummerata and Cassin",
   "Completed": true,
-  "LeftSelectionId": 708,
-  "RightSelectionId": 884,
+  "LeftSelectionId": 177,
+  "RightSelectionId": 867,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zulauf-Gaylord",
-  "ShadowProviderName": "Turner-Kerluke",
-  "ChartKey": "recusandae",
-  "LastLoaded": "2011-01-07T11:16:14.2148007+01:00",
-  "LastLoadedBy": 101,
+  "MainProviderName": "Dickinson, Herman and Renner",
+  "ShadowProviderName": "Carter Group",
+  "ChartKey": "quaerat",
+  "LastLoaded": "2002-05-05T12:57:42.7763061+02:00",
+  "LastLoadedBy": 115,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-05-14T11:16:14.2148007+02:00",
-  "LastMembershipChangeBy": 780,
+  "LastMembershipChange": "2003-05-20T12:57:42.7763061+02:00",
+  "LastMembershipChangeBy": 61,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "ipsum",
-  "MailingsProviderName": "Gislason, Batz and Wuckert",
-  "DashboardTileDefinitionId": 450,
+  "MainHeading": "dolorem",
+  "MemberTabHeading": "eaque",
+  "MailingsProviderName": "Turcotte Inc and Sons",
+  "DashboardTileDefinitionId": 226,
   "VisibleFor": [
     {
-      "VisibleId": 39,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "quas"
+      "DisplayValue": "similique"
     },
     {
-      "VisibleId": 39,
+      "VisibleId": 124,
       "Visibility": "All",
-      "DisplayValue": "quas"
+      "DisplayValue": "similique"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative static superstructure",
-  "Postit": "voluptatem",
+  "Description": "Multi-tiered directional utilisation",
+  "Postit": "reprehenderit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 572,
-  "IncludePerson": 800,
-  "MemberCount": 271,
-  "Name": "Greenfelder LLC",
-  "PostitTextId": 501,
-  "CreatedDate": "2022-09-21T11:16:14.2148007+02:00",
-  "SelectionId": 639,
-  "SoundEx": "est",
-  "Source": 962,
-  "TextId": 337,
-  "UpdatedDate": "2012-01-19T11:16:14.2148007+01:00",
-  "UpdatedCount": 522,
-  "Visibility": 759,
+  "GroupIdx": 347,
+  "IncludePerson": 440,
+  "MemberCount": 99.99,
+  "Name": "Heathcote Inc and Sons",
+  "PostitTextId": 43,
+  "CreatedDate": "2016-09-26T12:57:42.7919274+02:00",
+  "SelectionId": 915,
+  "SoundEx": "aspernatur",
+  "Source": 324,
+  "TextId": 902,
+  "UpdatedDate": "2016-01-07T12:57:42.7919274+01:00",
+  "UpdatedCount": 667,
+  "Visibility": 426,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 524,
-  "TargetTableName": "Feil-Blick",
-  "Completed": false,
-  "LeftSelectionId": 707,
-  "RightSelectionId": 224,
+  "TargetTableNumber": 96,
+  "TargetTableName": "Harvey-Grimes",
+  "Completed": true,
+  "LeftSelectionId": 851,
+  "RightSelectionId": 681,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Donnelly, Ratke and Metz",
-  "ShadowProviderName": "Stanton-Walsh",
-  "ChartKey": "eos",
-  "LastLoaded": "2002-10-31T11:16:14.2148007+01:00",
-  "LastLoadedBy": 533,
+  "MainProviderName": "Kihn, O'Keefe and Keebler",
+  "ShadowProviderName": "Batz-Mayert",
+  "ChartKey": "soluta",
+  "LastLoaded": "2012-12-26T12:57:42.7919274+01:00",
+  "LastLoadedBy": 869,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-13T11:16:14.2148007+02:00",
-  "LastMembershipChangeBy": 155,
+  "LastMembershipChange": "2017-12-31T12:57:42.7919274+01:00",
+  "LastMembershipChangeBy": 301,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eius",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Bartell-Smith",
-  "DashboardTileDefinitionId": 34,
+  "MainHeading": "totam",
+  "MemberTabHeading": "architecto",
+  "MailingsProviderName": "Adams-Bogan",
+  "DashboardTileDefinitionId": 992,
   "VisibleFor": [
     {
-      "VisibleId": 21,
+      "VisibleId": 785,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 460
         }
       }
     },
     {
-      "VisibleId": 21,
+      "VisibleId": 785,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 460
         }
       }
     }
@@ -295,12 +295,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldLength": 767
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

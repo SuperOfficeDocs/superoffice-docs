@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 486,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 758,
+  "WebPanelId": 669,
+  "Name": "Feest-Pacocha",
+  "Tooltip": "culpa",
+  "Deleted": true,
+  "Rank": 926,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Cruickshank-Kemmer",
+  "WindowName": "Walter-Hodkiewicz",
   "Url": "http://www.example.com/",
-  "ProgId": "hic",
-  "Icon": 973,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "facilis",
+  "Icon": 694,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 743
     }
   }
 }

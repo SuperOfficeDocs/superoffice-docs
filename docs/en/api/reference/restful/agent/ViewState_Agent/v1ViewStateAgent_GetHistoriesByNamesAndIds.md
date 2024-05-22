@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "Runolfsdottir LLC",
-      "EntityOrParentId": 673,
-      "RequestForNewRecord": true
+      "EntityName": "Torphy-Jaskolski",
+      "EntityOrParentId": 317,
+      "RequestForNewRecord": false
     },
     {
-      "EntityName": "Runolfsdottir LLC",
-      "EntityOrParentId": 673,
-      "RequestForNewRecord": true
+      "EntityName": "Torphy-Jaskolski",
+      "EntityOrParentId": 317,
+      "RequestForNewRecord": false
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 454,
-    "Id": 509,
-    "HistoryName": "Little Inc and Sons",
-    "HistoryId": 53,
-    "AssociateId": 172,
-    "Name": "Gutmann Inc and Sons",
-    "ItemInfo": "officiis",
+    "Rank": 849,
+    "Id": 382,
+    "HistoryName": "Veum, Zboncak and Parisian",
+    "HistoryId": 470,
+    "AssociateId": 575,
+    "Name": "Morissette-Block",
+    "ItemInfo": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 968
+        "FieldType": "System.Int32",
+        "FieldLength": 613
       }
     }
   }

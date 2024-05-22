@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,38 +81,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 426,
-  "Name": "Kerluke LLC",
-  "Rank": 148,
-  "Tooltip": "ut",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 845,
+  "TicketTypeId": 577,
+  "Name": "Sipes, Brown and Little",
+  "Rank": 404,
+  "Tooltip": "iure",
+  "Icon": "ducimus",
+  "DefaultTicketStatus": 596,
   "TicketStatuses": [
-    65,
-    739
+    756,
+    775
   ],
-  "DefaultTicketPriority": 511,
+  "DefaultTicketPriority": 117,
   "TicketPriorities": [
-    417,
-    318
+    595,
+    888
   ],
-  "ReplyTemplate": 862,
+  "ReplyTemplate": 618,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    624,
-    383
+    760,
+    251
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

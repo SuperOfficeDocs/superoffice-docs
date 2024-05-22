@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Haag-VonRueden",
-  "Comment": "aut",
-  "StakeholderRoleId": 758,
-  "CountryId": 774,
-  "PersonId": 887,
-  "EmailDescription": "robb_huels@buckridge.us",
-  "EmailId": 451,
-  "EmailAddress": "julius@mitchell.name",
-  "PhoneId": 797,
-  "ContactName": "Skiles, Cronin and Nitzsche",
-  "ContactId": 258,
-  "SaleId": 101,
-  "Mrmrs": "excepturi",
-  "Firstname": "Rylee",
-  "MiddleName": "Ziemann, Tillman and Lebsack",
-  "Lastname": "Hessel",
-  "SaleStakeholderId": 620,
-  "Rank": 773,
-  "Phone": "422.868.0950",
+  "StakeholderRoleName": "Morissette-Kuvalis",
+  "Comment": "quis",
+  "StakeholderRoleId": 874,
+  "CountryId": 164,
+  "PersonId": 503,
+  "EmailDescription": "eden@bashirian.uk",
+  "EmailId": 323,
+  "EmailAddress": "francesco_bernhard@moenschimmel.ca",
+  "PhoneId": 160,
+  "ContactName": "Padberg, Waelchi and Terry",
+  "ContactId": 325,
+  "SaleId": 530,
+  "Mrmrs": "ut",
+  "Firstname": "Kiera",
+  "MiddleName": "Koepp Group",
+  "Lastname": "Bode",
+  "SaleStakeholderId": 156,
+  "Rank": 163,
+  "Phone": "702-436-3542 x3908",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 784
     }
   }
 }

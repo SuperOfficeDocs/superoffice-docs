@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 780,
-    "Name": "Wehner-Green",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 816,
-    "UdListDefinitionId": 57,
+    "HeadingId": 314,
+    "Name": "Muller Group",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "Rank": 972,
+    "UdListDefinitionId": 555,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldType": "System.String",
+        "FieldLength": 546
       }
     }
   }

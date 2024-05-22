@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 297,
-  "Name": "Abbott-Mayer",
-  "Tooltip": "dicta",
-  "SaveInDb": 171,
-  "Filename": "non",
-  "DefaultOref": "quisquam",
+  "DocumentTemplateId": 218,
+  "Name": "Bailey, Monahan and Cremin",
+  "Tooltip": "est",
+  "SaveInDb": 232,
+  "Filename": "ea",
+  "DefaultOref": "mollitia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 700,
-  "IntentId": 820,
+  "AutoeventId": 244,
+  "IntentId": 109,
   "IsDefaultPublished": false,
-  "Rank": 299,
-  "LoadTemplateFromPlugin": 8,
-  "MimeType": "animi",
+  "Rank": 771,
+  "LoadTemplateFromPlugin": 317,
+  "MimeType": "non",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 704,
+  "DocumentTypeKey": 435,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "hailee.lebsack@schmidtrobel.name",
+  "EmailSubject": "jewell_mertz@gorczany.info",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ruby_bahringer@harris.name",
+  "SenderEmailAddress": "merl_dare@kub.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 179,
-  "Name": "Greenholt, Romaguera and Grant",
-  "Tooltip": "omnis",
-  "SaveInDb": 789,
-  "Filename": "ad",
-  "DefaultOref": "dolorem",
+  "DocumentTemplateId": 506,
+  "Name": "Balistreri Group",
+  "Tooltip": "sed",
+  "SaveInDb": 442,
+  "Filename": "sed",
+  "DefaultOref": "reprehenderit",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 133,
-  "IntentId": 464,
-  "IsDefaultPublished": true,
-  "Rank": 875,
-  "LoadTemplateFromPlugin": 99,
-  "MimeType": "nihil",
+  "AutoeventId": 418,
+  "IntentId": 221,
+  "IsDefaultPublished": false,
+  "Rank": 678,
+  "LoadTemplateFromPlugin": 798,
+  "MimeType": "magni",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 307,
+  "DocumentTypeKey": 958,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ambrose@goldnerdenesik.uk",
+  "EmailSubject": "matteo_mann@johnson.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cornelius_romaguera@lindgrenharvey.info",
+  "SenderEmailAddress": "daija.auer@white.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schinner Group",
-    "Records": 718,
+    "EntityName": "Moen Group",
+    "Records": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   },
   {
-    "EntityName": "Schinner Group",
-    "Records": 718,
+    "EntityName": "Moen Group",
+    "Records": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

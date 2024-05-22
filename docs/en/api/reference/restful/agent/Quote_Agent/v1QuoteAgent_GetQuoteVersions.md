@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 277
+  "QuoteId": 210
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 747,
-    "ERPQuoteVersionKey": "vero",
-    "QuoteId": 630,
-    "Description": "Re-engineered optimal pricing structure",
-    "Number": "1326412",
+    "QuoteVersionId": 811,
+    "ERPQuoteVersionKey": "alias",
+    "QuoteId": 368,
+    "Description": "Cross-platform grid-enabled firmware",
+    "Number": "942464",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 746,
-    "SentDate": "2003-05-01T11:16:09.5848946+02:00",
-    "FollowupId": 676,
-    "ExpirationDate": "2009-05-25T11:16:09.5848946+02:00",
-    "DeliveryCountryId": 428,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 241,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "omnis",
-    "ERPPaymentTypeKey": "aut",
-    "ERPDeliveryTermsKey": "sit",
-    "ERPDeliveryTypeKey": "maiores",
-    "Rank": 489,
-    "ApprovedBy": 568,
-    "ApprovedText": "voluptate",
-    "ApprovedRegisteredBy": 46,
-    "ApprovedRegisteredDate": "2018-05-25T11:16:09.5848946+02:00",
-    "ExtraField1": "similique",
-    "ExtraField2": "ea",
-    "ExtraField3": "commodi",
-    "ExtraField4": "voluptates",
-    "ExtraField5": "rerum",
-    "LastRecalculated": "2006-09-12T11:16:09.5848946+02:00",
-    "Updated": "2007-04-18T11:16:09.5848946+02:00",
-    "UpdatedAssociateId": 906,
-    "Registered": "2004-04-24T11:16:09.5848946+02:00",
-    "RegisteredAssociateId": 874,
-    "RequestAssociateId": 610,
-    "RequestComment": "sit",
+    "LikelyQuoteAlternativeId": 903,
+    "SentDate": "1999-08-20T12:57:34.6959481+02:00",
+    "FollowupId": 661,
+    "ExpirationDate": "2019-06-04T12:57:34.6959481+02:00",
+    "DeliveryCountryId": 695,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 92,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "odit",
+    "ERPPaymentTypeKey": "consequatur",
+    "ERPDeliveryTermsKey": "quae",
+    "ERPDeliveryTypeKey": "aliquam",
+    "Rank": 945,
+    "ApprovedBy": 348,
+    "ApprovedText": "blanditiis",
+    "ApprovedRegisteredBy": 99,
+    "ApprovedRegisteredDate": "2002-06-17T12:57:34.6959481+02:00",
+    "ExtraField1": "magnam",
+    "ExtraField2": "in",
+    "ExtraField3": "voluptates",
+    "ExtraField4": "ea",
+    "ExtraField5": "soluta",
+    "LastRecalculated": "2015-08-31T12:57:34.6959481+02:00",
+    "Updated": "2007-08-30T12:57:34.6959481+02:00",
+    "UpdatedAssociateId": 972,
+    "Registered": "2009-05-06T12:57:34.6959481+02:00",
+    "RegisteredAssociateId": 25,
+    "RequestAssociateId": 779,
+    "RequestComment": "maxime",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 888,
-        "ERPQuoteAlternativeKey": "eos",
-        "QuoteVersionId": 390,
-        "Name": "Gottlieb-Pfeffer",
-        "Description": "Automated bandwidth-monitored attitude",
+        "QuoteAlternativeId": 87,
+        "ERPQuoteAlternativeKey": "quam",
+        "QuoteVersionId": 844,
+        "Name": "Reilly Group",
+        "Description": "Adaptive scalable archive",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 3864.2219999999998,
-        "ERPDiscountAmount": 9182.619999999999,
-        "DiscountPercent": 12297.815999999999,
-        "DiscountAmount": 5202.44,
+        "ERPDiscountPercent": 30174.152,
+        "ERPDiscountAmount": 20935.12,
+        "DiscountPercent": 19916.57,
+        "DiscountAmount": 2598.086,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "placeat",
-        "VAT": 4854.566,
-        "EarningPercent": 1203.456,
-        "EarningAmount": 14209.555999999999,
-        "SubTotal": 15456.887999999999,
-        "TotalPrice": 14278.503999999999,
-        "ExtraField1": "beatae",
-        "ExtraField2": "odit",
-        "ExtraField3": "non",
-        "ExtraField4": "officia",
-        "ExtraField5": "dolor",
+        "VATInfo": "vitae",
+        "VAT": 11786.974,
+        "EarningPercent": 1178.384,
+        "EarningAmount": 28074.372,
+        "SubTotal": 12708.369999999999,
+        "TotalPrice": 15858.039999999999,
+        "ExtraField1": "ut",
+        "ExtraField2": "eius",
+        "ExtraField3": "quo",
+        "ExtraField4": "et",
+        "ExtraField5": "reprehenderit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 220
+            "FieldType": "System.String",
+            "FieldLength": 233
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 670
       }
     }
   }

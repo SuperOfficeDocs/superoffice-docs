@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=170
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=565
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,49 +87,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 328,
-  "Field": "et",
-  "RecordId": 343,
+  "RefCountsId": 953,
+  "Field": "laborum",
+  "RecordId": 237,
   "SuggestedRecords": [
     {
-      "Id": 253,
-      "Name": "Hauck LLC",
-      "ToolTip": "Et est.",
+      "Id": 960,
+      "Name": "Beer, Auer and Roob",
+      "ToolTip": "Facilis quo et.",
       "Deleted": true,
-      "Rank": 445,
-      "Type": "necessitatibus",
+      "Rank": 940,
+      "Type": "eos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 217,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "eligendi",
-      "FullName": "Archibald Cruickshank",
+      "IconHint": "consequatur",
+      "ColorBlock": 469,
+      "ExtraInfo": "id",
+      "StyleHint": "eum",
+      "FullName": "Felton Cartwright",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     }
   ],
-  "CurrentValue": 983,
-  "TravelPrefix": 573,
-  "SatPrefix": 540,
+  "CurrentValue": 400,
+  "TravelPrefix": 954,
+  "SatPrefix": 326,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldLength": 473
     }
   }
 }

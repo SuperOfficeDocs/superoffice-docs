@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 594,
-  "Name": "Keeling, Roberts and Altenwerth",
-  "Tooltip": "possimus",
+  "Id": 249,
+  "Name": "Will Inc and Sons",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 952,
-  "IsCustomList": true,
+  "Rank": 432,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 833
+      "FieldLength": 134
     }
   },
   "_Links": {

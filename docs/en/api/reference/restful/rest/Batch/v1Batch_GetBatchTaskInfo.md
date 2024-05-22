@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 744,
-  "Name": "Cummings Inc and Sons",
-  "AssociateId": 489,
-  "DetailsTable": 808,
-  "DetailsRecord": 283,
+  "Id": 878,
+  "Name": "Jacobson, Langworth and Reichert",
+  "AssociateId": 215,
+  "DetailsTable": 690,
+  "DetailsRecord": 840,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "magnam",
-    "ParameterObject2": "quasi"
+    "ParameterObject1": "corrupti",
+    "ParameterObject2": "sunt"
   },
-  "LastStarted": "2022-05-09T11:16:14.3398362+02:00",
-  "Created": "2006-08-11T11:16:14.3398362+02:00",
-  "StartCount": 3,
-  "DatabaseSerialNumber": "1853617",
-  "Context": "consectetur",
-  "Result": "esse",
+  "LastStarted": "2022-05-20T12:57:43.1061613+02:00",
+  "Created": "2015-06-10T12:57:43.1061613+02:00",
+  "StartCount": 87,
+  "DatabaseSerialNumber": "973469",
+  "Context": "sit",
+  "Result": "voluptates",
   "State": "All",
-  "Description": "Synergized user-facing software",
-  "Response": "officiis",
-  "Request": "temporibus",
-  "ProgressDescription": "Seamless optimal software",
-  "ProgressPercent": 868,
-  "FileName": "Willms-Hackett",
+  "Description": "Phased context-sensitive alliance",
+  "Response": "assumenda",
+  "Request": "numquam",
+  "ProgressDescription": "Ameliorated bi-directional budgetary management",
+  "ProgressPercent": 40,
+  "FileName": "Bauch-Crona",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldType": "System.String",
+      "FieldLength": 34
     }
   }
 }

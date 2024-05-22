@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 609,
-    "Name": "Rosenbaum, Dicki and Stamm",
-    "Tooltip": "incidunt",
+    "HeadingId": 819,
+    "Name": "Lemke-Dare",
+    "Tooltip": "ex",
     "Deleted": true,
-    "Rank": 227,
-    "UdListDefinitionId": 274,
+    "Rank": 74,
+    "UdListDefinitionId": 388,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 421
       }
     }
   }

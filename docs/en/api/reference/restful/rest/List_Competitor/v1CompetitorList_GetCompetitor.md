@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Marvin Inc and Sons",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "UdListDefinitionId": 691,
-  "Rank": 316,
+  "Id": 459,
+  "Name": "Simonis-Wolf",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "UdListDefinitionId": 909,
+  "Rank": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 770
     }
   }
 }

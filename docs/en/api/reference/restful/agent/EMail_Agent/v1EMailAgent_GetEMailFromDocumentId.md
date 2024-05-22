@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 432
+  "DocumentId": 264
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 52,
-      "ContactName": "Graham-Waelchi",
-      "PersonId": 83,
-      "PersonName": "Gorczany Group",
-      "AssociateId": 518,
-      "Address": "ipsa",
-      "EmailId": 32,
+      "ContactId": 458,
+      "ContactName": "McDermott LLC",
+      "PersonId": 544,
+      "PersonName": "Stamm Inc and Sons",
+      "AssociateId": 642,
+      "Address": "beatae",
+      "EmailId": 347,
       "DuplicatePersonIds": [
-        236,
-        282
+        662,
+        587
       ],
-      "Name": "Romaguera LLC",
+      "Name": "Simonis, Klocko and Nicolas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldType": "System.String",
+          "FieldLength": 144
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 90,
-      "ContactName": "Leuschke LLC",
-      "PersonId": 832,
-      "PersonName": "Hudson Group",
-      "AssociateId": 705,
-      "Address": "dolor",
-      "EmailId": 898,
+      "ContactId": 506,
+      "ContactName": "Beahan-Sauer",
+      "PersonId": 299,
+      "PersonName": "Kertzmann Inc and Sons",
+      "AssociateId": 47,
+      "Address": "dolorem",
+      "EmailId": 437,
       "DuplicatePersonIds": [
-        231,
-        328
+        927,
+        458
       ],
-      "Name": "Johnston-Hoeger",
+      "Name": "Miller, Daugherty and Langosh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 247
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 801,
-      "ContactName": "Kautzer Inc and Sons",
-      "PersonId": 363,
-      "PersonName": "Berge, Smith and Turcotte",
-      "AssociateId": 935,
-      "Address": "voluptate",
-      "EmailId": 402,
+      "ContactId": 915,
+      "ContactName": "Steuber Group",
+      "PersonId": 73,
+      "PersonName": "Corkery, Bartell and Gleichner",
+      "AssociateId": 474,
+      "Address": "et",
+      "EmailId": 322,
       "DuplicatePersonIds": [
-        932,
-        465
+        777,
+        631
       ],
-      "Name": "Klein, Altenwerth and Hayes",
+      "Name": "Blick, Carter and Raynor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 821
         }
       }
     }
   ],
-  "Subject": "ea",
-  "HTMLBody": "recusandae",
+  "Subject": "libero",
+  "HTMLBody": "tempore",
   "From": null,
-  "Sent": "2006-12-18T11:16:09.2253497+01:00",
-  "Size": 628,
+  "Sent": "2018-11-15T12:57:33.9461474+01:00",
+  "Size": 992,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ea",
-  "PlainBody": "molestiae",
-  "IsSent": true,
+  "MessageID": "est",
+  "PlainBody": "id",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 514,
+  "ServerId": 936,
   "Attachments": [
     {
-      "Description": "Expanded optimal neural-net",
-      "Filename": "architecto",
-      "Size": 904,
-      "Type": "veniam",
-      "Encoding": "iusto",
-      "Id": "et",
-      "Disposition": "consequatur",
+      "Description": "Universal reciprocal Graphic Interface",
+      "Filename": "veniam",
+      "Size": 896,
+      "Type": "architecto",
+      "Encoding": "at",
+      "Id": "harum",
+      "Disposition": "molestiae",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schmitt, Emard and Emmerich",
+      "Name": "Block-Maggio",
       "Values": [
-        "aut",
-        "sed"
+        "velit",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     },
     {
-      "Name": "Schmitt, Emard and Emmerich",
+      "Name": "Block-Maggio",
       "Values": [
-        "aut",
-        "sed"
+        "velit",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     }
   ],
-  "FolderName": "Beer, Breitenberg and Hintz",
-  "EmailItemId": 200,
-  "AccountId": 722,
-  "ReceivedAt": "2007-02-20T11:16:09.2253497+01:00",
+  "FolderName": "Dach Group",
+  "EmailItemId": 232,
+  "AccountId": 815,
+  "ReceivedAt": "2006-08-28T12:57:33.9461474+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-04-16T11:16:09.2253497+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2008-02-07T12:57:33.9461474+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 950
     }
   }
 }

@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 854,
-  "Name": "Altenwerth, Waters and Reilly",
-  "Tooltip": "alias",
-  "Rank": 944,
-  "Rate": 23357.701999999997,
-  "Units": 8665.51,
+  "CurrencyId": 654,
+  "Name": "Friesen LLC",
+  "Tooltip": "asperiores",
+  "Rank": 648,
+  "Rate": 28882.944,
+  "Units": 17475.184,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 344
     }
   }
 }

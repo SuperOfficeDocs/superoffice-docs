@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 499,
-  "Name": "Rogahn-Smith",
-  "Tooltip": "fuga",
+  "Id": 260,
+  "Name": "Jenkins, Lockman and Bashirian",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "UdListDefinitionId": 317,
-  "Rank": 985,
+  "UdListDefinitionId": 779,
+  "Rank": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   }
 }

@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dooley Group",
-  "Comment": "ducimus",
-  "StakeholderRoleId": 319,
-  "CountryId": 859,
-  "PersonId": 752,
-  "EmailDescription": "alessandro@vonruedennitzsche.ca",
-  "EmailId": 84,
-  "EmailAddress": "oleta.hagenes@osinski.name",
-  "PhoneId": 760,
-  "ContactName": "Schiller Inc and Sons",
-  "ContactId": 878,
-  "SaleId": 679,
-  "Mrmrs": "temporibus",
-  "Firstname": "Stephon",
-  "MiddleName": "Pouros-Hirthe",
-  "Lastname": "Hauck",
-  "SaleStakeholderId": 872,
-  "Rank": 54,
-  "Phone": "622-180-1354"
+  "StakeholderRoleName": "Monahan-King",
+  "Comment": "tempore",
+  "StakeholderRoleId": 842,
+  "CountryId": 877,
+  "PersonId": 557,
+  "EmailDescription": "shana.abshire@jacobikertzmann.us",
+  "EmailId": 706,
+  "EmailAddress": "myah@mcclure.com",
+  "PhoneId": 923,
+  "ContactName": "Upton, Collins and Kunze",
+  "ContactId": 247,
+  "SaleId": 74,
+  "Mrmrs": "porro",
+  "Firstname": "Wilfredo",
+  "MiddleName": "Bartell, Rath and Reilly",
+  "Lastname": "Witting",
+  "SaleStakeholderId": 860,
+  "Rank": 340,
+  "Phone": "(770)969-9512 x4129"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Grimes LLC",
-  "Comment": "maxime",
-  "StakeholderRoleId": 166,
-  "CountryId": 761,
-  "PersonId": 13,
-  "EmailDescription": "jett.baumbach@cristaltenwerth.co.uk",
-  "EmailId": 954,
-  "EmailAddress": "nash@streichsanford.us",
-  "PhoneId": 832,
-  "ContactName": "Stamm Inc and Sons",
-  "ContactId": 559,
-  "SaleId": 330,
-  "Mrmrs": "nostrum",
-  "Firstname": "Greta",
-  "MiddleName": "Rowe, Armstrong and Wuckert",
-  "Lastname": "Runte",
-  "SaleStakeholderId": 432,
-  "Rank": 907,
-  "Phone": "215.961.0194 x170",
+  "StakeholderRoleName": "Terry LLC",
+  "Comment": "ea",
+  "StakeholderRoleId": 209,
+  "CountryId": 753,
+  "PersonId": 588,
+  "EmailDescription": "makenzie_keeling@schuppefritsch.name",
+  "EmailId": 151,
+  "EmailAddress": "kacie_barton@collier.uk",
+  "PhoneId": 697,
+  "ContactName": "Kozey-Monahan",
+  "ContactId": 387,
+  "SaleId": 427,
+  "Mrmrs": "sequi",
+  "Firstname": "Tess",
+  "MiddleName": "Schmidt LLC",
+  "Lastname": "Treutel",
+  "SaleStakeholderId": 974,
+  "Rank": 77,
+  "Phone": "(611)747-0640 x0878",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 533
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

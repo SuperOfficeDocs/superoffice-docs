@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "UdListDefinitionId": 681
+  "Id": 334,
+  "UdListDefinitionId": 322
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 569,
-  "Name": "Stracke-Eichmann",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 123,
-  "Rank": 800,
+  "Id": 894,
+  "Name": "Lakin, Swift and McClure",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "UdListDefinitionId": 949,
+  "Rank": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 160
     }
   }
 }

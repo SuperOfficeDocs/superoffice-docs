@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Braun, Swift and Lehner",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 276,
+  "Id": 284,
+  "Name": "Nienow-Hartmann",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 113,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "error",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 670,
-  "Name": "Bogan, Cartwright and Jones",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 301,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 472,
+  "Name": "Davis, McDermott and Bechtelar",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 343,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "molestias",
+  "ListType": "culpa",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

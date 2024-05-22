@@ -76,11 +76,12 @@ Implementation of the provider for the combined selection
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
 |selectionAssociate/locationAddress|string|Location: Location| x |
+|selectionAssociate/isLocation|bool|Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionCombinedV2?$select=selectionAssociate/contactFullName,lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionSelectionCombinedV2?$select=lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 277,
-  "Name": "Abshire Inc and Sons",
-  "Tooltip": "eius",
-  "Rank": 466,
-  "Rate": 15156.024,
-  "Units": 26632.732,
-  "Deleted": true,
+  "CurrencyId": 252,
+  "Name": "Greenfelder LLC",
+  "Tooltip": "rerum",
+  "Rank": 588,
+  "Rate": 17036.424,
+  "Units": 1203.456,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 328
     }
   }
 }

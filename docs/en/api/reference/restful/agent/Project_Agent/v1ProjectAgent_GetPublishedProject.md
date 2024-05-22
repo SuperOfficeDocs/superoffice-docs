@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 941
+  "ProjectId": 794
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 255,
-  "Name": "Gleichner, Douglas and Schuster",
-  "Description": "Persistent asynchronous secured line",
+  "ProjectId": 577,
+  "Name": "Little Inc and Sons",
+  "Description": "Enhanced hybrid projection",
   "URL": "http://www.example.com/",
-  "Type": "est",
-  "AssociateId": 709,
-  "AssociateFullName": "Mr. Deja Jacobson MD",
-  "TypeId": 948,
-  "Updated": "2021-10-05T11:16:09.569228+02:00",
-  "StatusId": 316,
-  "Status": "nihil",
-  "TextId": 261,
-  "PublishTo": "1998-09-09T11:16:09.569228+02:00",
-  "PublishFrom": "2008-10-27T11:16:09.569228+01:00",
-  "IsPublished": false,
+  "Type": "et",
+  "AssociateId": 161,
+  "AssociateFullName": "Ewell Koss",
+  "TypeId": 597,
+  "Updated": "2020-06-22T12:57:34.664705+02:00",
+  "StatusId": 603,
+  "Status": "ea",
+  "TextId": 759,
+  "PublishTo": "2006-02-09T12:57:34.664705+01:00",
+  "PublishFrom": "2006-09-12T12:57:34.664705+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "708658",
-  "ActiveErpLinks": 825,
+  "ProjectNumber": "766561",
+  "ActiveErpLinks": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 331
     }
   }
 }

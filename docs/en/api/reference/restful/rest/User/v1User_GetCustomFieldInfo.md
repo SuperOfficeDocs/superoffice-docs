@@ -72,7 +72,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Metz-Berge",
-  "DisplayName": "Howe Inc and Sons",
-  "Description": "Stand-alone grid-enabled instruction set",
-  "ShortLabel": "rem",
+  "FieldName": "Lemke, Hessel and Senger",
+  "DisplayName": "Bradtke-Toy",
+  "Description": "Customizable impactful benchmark",
+  "ShortLabel": "quibusdam",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 211,
-  "TemplateVariableName": "Franecki, Franecki and Emard"
+  "Rank": 470,
+  "TemplateVariableName": "Mertz Group"
 }
 ```

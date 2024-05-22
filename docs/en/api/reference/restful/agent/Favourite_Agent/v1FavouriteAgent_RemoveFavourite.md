@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Marvin, Mraz and Heathcote",
-  "RecordId": 697,
-  "AssociateId": 155
+  "TableName": "Buckridge Group",
+  "RecordId": 476,
+  "AssociateId": 613
 }
 ```
 

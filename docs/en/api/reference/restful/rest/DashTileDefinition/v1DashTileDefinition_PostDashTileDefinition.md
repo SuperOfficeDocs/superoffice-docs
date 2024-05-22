@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 785,
-  "Name": "Rowe, Kessler and Wisoky",
-  "Description": "Progressive composite knowledge user",
-  "DefaultHeight": 449,
-  "DefaultWidth": 282,
+  "DashboardTileDefinitionId": 750,
+  "Name": "Daniel-Witting",
+  "Description": "Future-proofed content-based Graphic Interface",
+  "DefaultHeight": 512,
+  "DefaultWidth": 73,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Paucek Inc and Sons",
-  "SelectionId": 346,
+  "EntityName": "Orn Inc and Sons",
+  "SelectionId": 771,
   "CurrencyMode": "Base",
-  "CurrencyCode": "rerum",
+  "CurrencyCode": "facilis",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "quo",
-  "LayoutConfig": "ex",
-  "SecondarySelectionId": 86,
-  "MeasureByField": "in",
+  "MeasureField": "impedit",
+  "SortBy": "ut",
+  "LayoutConfig": "corporis",
+  "SecondarySelectionId": 908,
+  "MeasureByField": "esse",
   "Usage": "Dashboard",
-  "ProviderName": "Bogisich-Hansen"
+  "ProviderName": "Quigley, Stroman and Kuvalis"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 779,
-  "Name": "Bogan, Schmidt and Beier",
-  "Description": "Cross-platform static complexity",
-  "DefaultHeight": 661,
-  "DefaultWidth": 31,
+  "DashboardTileDefinitionId": 123,
+  "Name": "Schroeder Inc and Sons",
+  "Description": "Open-architected logistical hardware",
+  "DefaultHeight": 328,
+  "DefaultWidth": 486,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dietrich Inc and Sons",
-  "SelectionId": 620,
+  "EntityName": "Graham LLC",
+  "SelectionId": 362,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quos",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "omnis",
-  "SortBy": "itaque",
-  "LayoutConfig": "quidem",
-  "SecondarySelectionId": 239,
-  "MeasureByField": "autem",
+  "MeasureField": "eligendi",
+  "SortBy": "rerum",
+  "LayoutConfig": "reiciendis",
+  "SecondarySelectionId": 49,
+  "MeasureByField": "beatae",
   "Usage": "Dashboard",
-  "ProviderName": "Collier-Ratke",
+  "ProviderName": "Torphy Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 506
     }
   },
   "_Links": {

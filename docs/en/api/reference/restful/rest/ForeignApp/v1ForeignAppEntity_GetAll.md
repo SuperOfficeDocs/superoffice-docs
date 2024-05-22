@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=voluptatum
-GET /api/v1/ForeignApp?$top=540
-GET /api/v1/ForeignApp?$skip=70
+GET /api/v1/ForeignApp?$entities=dolorem
+GET /api/v1/ForeignApp?$top=911
+GET /api/v1/ForeignApp?$skip=279
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=eligendi
+GET /api/v1/ForeignApp?$context=nihil
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ea",
+  "odata.nextLink": "velit",
   "value": [
     {
-      "PrimaryKey": 8197,
-      "EntityName": "person",
-      "personId": 8197,
-      "fullName": "Hassan Kessler"
+      "PrimaryKey": 4071,
+      "EntityName": "sale",
+      "saleId": 4071,
+      "contactId": 9945,
+      "name": "Wilkinson, Dooley and Dietrich"
     },
     {
-      "PrimaryKey": 6467,
-      "EntityName": "person",
-      "personId": 6467,
-      "fullName": "Richmond Kilback I"
+      "PrimaryKey": 3192,
+      "EntityName": "sale",
+      "saleId": 3192,
+      "contactId": 4855,
+      "name": "Kulas-Cummerata"
     }
   ]
 }

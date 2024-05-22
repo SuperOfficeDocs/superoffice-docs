@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 436,
-    "Section": "ullam",
-    "Key": "omnis",
-    "Name": "Heller-Haley",
+    "PrefDescId": 655,
+    "Section": "ut",
+    "Key": "amet",
+    "Name": "Wisoky, Gutmann and Johnson",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Self-enabling mission-critical architecture",
+    "Description": "Multi-tiered needs-based open architecture",
     "IsBuiltin": true,
-    "TableName": "Williamson-Wolff",
-    "UserDefinedListId": 380,
-    "Rank": 827,
-    "SubGroup": "quae",
-    "MinLevel": 402,
-    "MaxValue": 168,
-    "MinValue": 315,
-    "RequiredLicense": "et",
+    "TableName": "Pollich, Williamson and McClure",
+    "UserDefinedListId": 531,
+    "Rank": 623,
+    "SubGroup": "et",
+    "MinLevel": 86,
+    "MaxValue": 861,
+    "MinValue": 620,
+    "RequiredLicense": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

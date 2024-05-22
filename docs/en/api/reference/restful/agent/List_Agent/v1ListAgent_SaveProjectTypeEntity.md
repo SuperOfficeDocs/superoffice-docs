@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 526,
-  "Name": "Quitzon, McCullough and Kuhn",
-  "Tooltip": "dolorem",
-  "Rank": 987,
+  "ProjTypeId": 296,
+  "Name": "Mraz Inc and Sons",
+  "Tooltip": "non",
+  "Rank": 774,
   "DurationUnit": "Century",
-  "ProjectDuration": 74,
+  "ProjectDuration": 880,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 293,
-      "Name": "Ernser, Marquardt and Miller",
-      "ToolTip": "Molestiae dolor eaque magnam.",
+      "Id": 771,
+      "Name": "Little Inc and Sons",
+      "ToolTip": "Possimus et debitis non corporis vel.",
       "Deleted": false,
-      "Rank": 788,
-      "Type": "sed",
-      "ColorBlock": 152,
-      "IconHint": "sunt",
+      "Rank": 952,
+      "Type": "odit",
+      "ColorBlock": 398,
+      "IconHint": "fugit",
       "Selected": true,
-      "LastChanged": "2012-04-08T11:16:09.3659552+02:00",
+      "LastChanged": "2003-10-19T12:57:34.2117122+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "numquam",
-      "Hidden": true,
-      "FullName": "Yasmine Goyette"
+      "ExtraInfo": "commodi",
+      "StyleHint": "soluta",
+      "Hidden": false,
+      "FullName": "Dr. Jovanny Bernier"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 480,
-  "Name": "Lueilwitz, Gleason and Ebert",
-  "Tooltip": "eligendi",
-  "Rank": 281,
+  "ProjTypeId": 321,
+  "Name": "Gottlieb Inc and Sons",
+  "Tooltip": "perferendis",
+  "Rank": 376,
   "DurationUnit": "Century",
-  "ProjectDuration": 674,
+  "ProjectDuration": 245,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 26,
-      "Name": "Dibbert LLC",
-      "ToolTip": "Voluptatum eveniet sapiente voluptas eligendi est voluptatibus molestiae.",
+      "Id": 425,
+      "Name": "Bosco, Hirthe and Emmerich",
+      "ToolTip": "Eius harum quas et inventore.",
       "Deleted": false,
-      "Rank": 705,
-      "Type": "aperiam",
-      "ColorBlock": 407,
-      "IconHint": "soluta",
-      "Selected": true,
-      "LastChanged": "2019-05-23T11:16:09.3659552+02:00",
+      "Rank": 44,
+      "Type": "itaque",
+      "ColorBlock": 991,
+      "IconHint": "architecto",
+      "Selected": false,
+      "LastChanged": "2017-02-25T12:57:34.2117122+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "debitis",
+      "StyleHint": "vero",
       "Hidden": false,
-      "FullName": "Yessenia Flatley",
+      "FullName": "Tracey Hane",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldLength": 277
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldLength": 632
     }
   }
 }

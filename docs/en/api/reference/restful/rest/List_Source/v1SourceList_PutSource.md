@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996,
-  "Name": "Homenick Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 975,
+  "Name": "Walter-Schumm",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 1002,
-  "Rank": 706
+  "UdListDefinitionId": 725,
+  "Rank": 100
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 618,
-  "Name": "Walter, Ankunding and Ortiz",
-  "Tooltip": "nam",
+  "Id": 415,
+  "Name": "Ullrich-Schroeder",
+  "Tooltip": "vero",
   "Deleted": false,
-  "UdListDefinitionId": 50,
-  "Rank": 765,
+  "UdListDefinitionId": 252,
+  "Rank": 936,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

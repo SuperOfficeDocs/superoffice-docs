@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 944,
+  "DocumentId": 931,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sit",
-  "Header": "eveniet",
-  "Name": "Veum, Hegmann and Smitham",
-  "OurRef": "ut",
-  "YourRef": "sit",
-  "CreatedDate": "2001-03-06T11:16:09.1159862+01:00",
-  "UpdatedDate": "2016-06-09T11:16:09.1159862+02:00",
-  "Description": "Ergonomic secondary groupware",
+  "Attention": "provident",
+  "Header": "quo",
+  "Name": "Wolf LLC",
+  "OurRef": "consequatur",
+  "YourRef": "quisquam",
+  "CreatedDate": "2008-03-28T12:57:33.7586621+01:00",
+  "UpdatedDate": "2018-03-18T12:57:33.7586621+01:00",
+  "Description": "Re-engineered bandwidth-monitored hierarchy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-09-02T11:16:09.1159862+02:00",
-  "ExternalRef": "ratione",
+  "Date": "2012-10-19T12:57:33.7742835+02:00",
+  "ExternalRef": "minus",
   "Completed": "Completed",
-  "ActiveLinks": 826,
+  "ActiveLinks": 783,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jaskolski, Daniel and Abshire",
-      "Id": 673,
-      "Description": "Future-proofed clear-thinking Graphical User Interface",
-      "ExtraInfo": "rem",
-      "LinkId": 981,
+      "EntityName": "Ziemann-Goodwin",
+      "Id": 913,
+      "Description": "Stand-alone solution-oriented analyzer",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 104,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldType": "System.Int32",
+          "FieldLength": 48
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 702,
-  "Snum": 988,
+  "SuggestedDocumentId": 447,
+  "Snum": 987,
   "UserDefinedFields": {
-    "SuperOffice:1": "Emmitt Adams",
-    "SuperOffice:2": "Rahsaan Goodwin"
+    "SuperOffice:1": "1233980762",
+    "SuperOffice:2": "912360223"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "sit"
+    "CustomFields1": "illum",
+    "CustomFields2": "consequuntur"
   },
-  "PublishEventDate": "2019-12-21T11:16:09.1159862+01:00",
-  "PublishTo": "2016-06-23T11:16:09.1159862+02:00",
-  "PublishFrom": "2007-09-20T11:16:09.1159862+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-08-19T12:57:33.7742835+02:00",
+  "PublishTo": "2019-07-26T12:57:33.7742835+02:00",
+  "PublishFrom": "2008-08-22T12:57:33.7742835+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 204,
+      "VisibleId": 167,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 707
+          "FieldType": "System.Int32",
+          "FieldLength": 953
         }
       }
     },
     {
-      "VisibleId": 204,
+      "VisibleId": 167,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 707
+          "FieldType": "System.Int32",
+          "FieldLength": 953
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 381
     }
   }
 }

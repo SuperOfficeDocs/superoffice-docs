@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 313,
-  "ListItemId": 546
+  "UdListDefinitionId": 615,
+  "ListItemId": 34
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Pagac, Abernathy and Orn",
-    "ToolTip": "Eum quia harum.",
+    "Id": 287,
+    "Name": "Herzog-Kilback",
+    "ToolTip": "Odio dolore nam perferendis earum.",
     "Deleted": false,
-    "Rank": 59,
-    "Type": "nobis",
-    "ColorBlock": 479,
-    "IconHint": "quod",
+    "Rank": 195,
+    "Type": "enim",
+    "ColorBlock": 651,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "1997-05-12T11:16:09.3347069+02:00",
+    "LastChanged": "2022-01-31T12:57:34.1336045+01:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Mann-Zulauf",
-        "ToolTip": "Reiciendis qui quas ad.",
+        "Id": 913,
+        "Name": "Corkery, Heaney and Daugherty",
+        "ToolTip": "Sed ratione blanditiis perferendis.",
         "Deleted": true,
-        "Rank": 921,
-        "Type": "ea",
-        "ColorBlock": 336,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1997-04-01T11:16:09.3347069+02:00",
+        "Rank": 197,
+        "Type": "saepe",
+        "ColorBlock": 163,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2023-11-27T12:57:34.1336045+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Mrs. Amely Stokes",
+        "ExtraInfo": "culpa",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Anderson Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 696
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "qui",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Mrs. Ezequiel Stanton DDS",
+    "FullName": "Rudolph Graham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 847
       }
     }
   }

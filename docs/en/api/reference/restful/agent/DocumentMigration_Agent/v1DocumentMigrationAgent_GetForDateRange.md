@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 604,
-  "MinDate": "1997-10-05T11:16:09.1628538+02:00",
-  "MaxDate": "2019-07-16T11:16:09.1628538+02:00",
+  "DocumentPluginId": 127,
+  "MinDate": "2000-08-24T12:57:33.8523907+02:00",
+  "MaxDate": "2009-08-17T12:57:33.8523907+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 574,
-  "NumDocumentsAlreadyMigrated": 284,
+  "NumDocumentsOmitted": 797,
+  "NumDocumentsAlreadyMigrated": 381,
   "Documents": [
     {
-      "DocumentId": 880,
-      "ContactId": 978,
-      "PersonId": 540,
-      "SaleId": 887,
-      "ProjectId": 73,
-      "DocTmplId": 778,
-      "AssociateId": 572,
-      "UserGroupId": 435,
-      "VisibleForId": 12
+      "DocumentId": 985,
+      "ContactId": 860,
+      "PersonId": 534,
+      "SaleId": 432,
+      "ProjectId": 256,
+      "DocTmplId": 64,
+      "AssociateId": 734,
+      "UserGroupId": 324,
+      "VisibleForId": 267
     }
   ],
   "Associates": [
     {
-      "AssociateId": 942,
-      "EmailAddress": "jaylan@mcdermott.us"
+      "AssociateId": 378,
+      "EmailAddress": "llewellyn@swaniawskiheller.us"
     },
     {
-      "AssociateId": 942,
-      "EmailAddress": "jaylan@mcdermott.us"
+      "AssociateId": 378,
+      "EmailAddress": "llewellyn@swaniawskiheller.us"
     }
   ]
 }

@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,23 +96,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 203,
-  "UniqueIdentifier": "sit",
-  "Name": "McClure-Quigley",
-  "Description": "Advanced exuding complexity",
-  "IncludeId": "qui",
-  "HierarchyId": 335,
-  "Source": "minus",
-  "Registered": "2001-04-30T11:16:13.8550957+02:00",
-  "RegisteredAssociateId": 147,
-  "Updated": "2009-06-03T11:16:13.8550957+02:00",
-  "UpdatedAssociateId": 859,
+  "EjscriptId": 458,
+  "UniqueIdentifier": "necessitatibus",
+  "Name": "Pfannerstill, Dibbert and McKenzie",
+  "Description": "Profit-focused responsive internet solution",
+  "IncludeId": "cupiditate",
+  "HierarchyId": 2,
+  "Source": "eaque",
+  "Registered": "2013-11-30T12:57:42.3232848+01:00",
+  "RegisteredAssociateId": 433,
+  "Updated": "2004-05-27T12:57:42.3232848+02:00",
+  "UpdatedAssociateId": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   },
   "_Links": {

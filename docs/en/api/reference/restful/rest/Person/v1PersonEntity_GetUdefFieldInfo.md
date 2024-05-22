@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 660,
-  "ColumnId": 556,
-  "FieldDefault": "eum",
-  "FieldHeight": 94,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 475,
-  "FieldTop": 319,
+  "UDefFieldId": 25,
+  "ColumnId": 77,
+  "FieldDefault": "minima",
+  "FieldHeight": 514,
+  "FieldLabel": "enim",
+  "FieldLeft": 441,
+  "FieldTop": 887,
   "FieldType": "Checkbox",
-  "FieldWidth": 467,
-  "FormatMask": "impedit",
+  "FieldWidth": 227,
+  "FormatMask": "temporibus",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 33,
-  "LabelLeft": 213,
-  "LabelTop": 808,
-  "LabelWidth": 729,
-  "LastVersionId": 391,
-  "ListTableId": 847,
+  "IsIndexed": false,
+  "LabelHeight": 296,
+  "LabelLeft": 362,
+  "LabelTop": 723,
+  "LabelWidth": 922,
+  "LastVersionId": 647,
+  "ListTableId": 556,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 230,
-  "ProgId": "nam",
+  "Page1LineNo": 338,
+  "ProgId": "ut",
   "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 686,
-  "TextLength": 991,
-  "Tooltip": "omnis",
-  "UdefIdentity": 89,
-  "UDListDefinitionId": 92,
+  "ShortLabel": "laboriosam",
+  "TabOrder": 204,
+  "TextLength": 921,
+  "Tooltip": "consequuntur",
+  "UdefIdentity": 42,
+  "UDListDefinitionId": 795,
   "Justification": "Center",
-  "Version": 435,
-  "TemplateVariableName": "Spinka, Huel and Kutch",
+  "Version": 464,
+  "TemplateVariableName": "Altenwerth-Blick",
   "HasBeenPublished": false,
-  "MdoListName": "Kemmer-Christiansen",
+  "MdoListName": "Muller, Mante and Mann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldType": "System.String",
+      "FieldLength": 282
     }
   }
 }

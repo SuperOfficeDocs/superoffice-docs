@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 430,
-    "Name": "Bartoletti, Willms and Wolff",
-    "ToolTip": "Voluptates sint excepturi.",
-    "Deleted": true,
-    "Rank": 558,
-    "Type": "et",
-    "ColorBlock": 137,
-    "IconHint": "debitis",
+    "Id": 861,
+    "Name": "Bergstrom LLC",
+    "ToolTip": "Quis est placeat rerum pariatur magnam quo.",
+    "Deleted": false,
+    "Rank": 323,
+    "Type": "quia",
+    "ColorBlock": 725,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "1997-01-11T11:16:14.6214085+01:00",
+    "LastChanged": "2021-03-10T12:57:43.5582822+01:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Jaskolski-Friesen",
-        "ToolTip": "Aut eum eaque tenetur at temporibus.",
+        "Id": 701,
+        "Name": "Stracke-Schulist",
+        "ToolTip": "Tempore quasi modi eligendi eum.",
         "Deleted": true,
-        "Rank": 845,
-        "Type": "qui",
-        "ColorBlock": 233,
-        "IconHint": "ex",
-        "Selected": true,
-        "LastChanged": "2012-11-25T11:16:14.6214085+01:00",
+        "Rank": 397,
+        "Type": "voluptatum",
+        "ColorBlock": 354,
+        "IconHint": "nesciunt",
+        "Selected": false,
+        "LastChanged": "2021-04-26T12:57:43.5582822+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "omnis",
+        "ExtraInfo": "quo",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Miss Kristoffer Kelton Harris V"
+        "FullName": "Stacey Hilll"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "odit",
+    "ExtraInfo": "vel",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Emerald Cremin DVM"
+    "FullName": "Georgette Corrine Bins III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Lind Inc and Sons",
-    "ToolTip": "Rem impedit et exercitationem quae error.",
+    "Id": 725,
+    "Name": "Will, Cassin and Buckridge",
+    "ToolTip": "Aut dicta.",
     "Deleted": false,
-    "Rank": 604,
-    "Type": "in",
-    "ColorBlock": 465,
-    "IconHint": "eius",
+    "Rank": 485,
+    "Type": "consectetur",
+    "ColorBlock": 343,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "1998-10-03T11:16:14.6214085+02:00",
+    "LastChanged": "2014-07-01T12:57:43.5582822+02:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Bartoletti LLC",
-        "ToolTip": "Reprehenderit quos et.",
+        "Id": 907,
+        "Name": "Dickens, Harris and Sauer",
+        "ToolTip": "Et similique ea aut quia adipisci vel.",
         "Deleted": false,
-        "Rank": 55,
-        "Type": "sed",
-        "ColorBlock": 74,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2015-07-27T11:16:14.6214085+02:00",
+        "Rank": 51,
+        "Type": "dolorum",
+        "ColorBlock": 512,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2006-06-22T12:57:43.5582822+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "et",
+        "ExtraInfo": "quia",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Miss Trystan Samanta Ortiz",
+        "FullName": "Mallie Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 821
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Aurelio Rath",
+    "FullName": "Willy Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 392
       }
     }
   }

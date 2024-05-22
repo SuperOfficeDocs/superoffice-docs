@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 10 Jan 2019 11:16:13 G1T
+Last-Modified: Mon, 14 Dec 1998 12:57:42 G12T
 
 {
-  "ForeignAppId": 348,
-  "Name": "Auer LLC",
-  "CreatedDate": "2013-06-18T11:16:13.9175899+02:00",
-  "UpdatedDate": "2019-01-10T11:16:13.9175899+01:00",
+  "ForeignAppId": 135,
+  "Name": "Oberbrunner-Kuhic",
+  "CreatedDate": "2022-12-24T12:57:42.448256+01:00",
+  "UpdatedDate": "1998-12-14T12:57:42.448256+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 134,
-      "Name": "Beahan-Jenkins",
-      "CreatedDate": "2013-07-24T11:16:13.9175899+02:00",
-      "UpdatedDate": "2014-07-31T11:16:13.9175899+02:00",
-      "AssociateFullName": "Mireille Herzog",
-      "CreatedBy": "quisquam",
-      "UpdatedBy": "repellendus",
-      "DeviceIdentifier": "ipsum",
-      "ForeignAppId": 571,
+      "ForeignDeviceId": 241,
+      "Name": "Strosin, Hegmann and Reichert",
+      "CreatedDate": "2016-11-10T12:57:42.448256+01:00",
+      "UpdatedDate": "2002-09-21T12:57:42.448256+02:00",
+      "AssociateFullName": "Miss Cole Hackett IV",
+      "CreatedBy": "tempora",
+      "UpdatedBy": "illum",
+      "DeviceIdentifier": "perferendis",
+      "ForeignAppId": 381,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldType": "System.Int32",
+          "FieldLength": 423
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Thu, 10 Jan 2019 11:16:13 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 836
     }
   },
   "_Links": {

@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=591
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=786
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 9,
-  "ColumnId": 114,
-  "FieldDefault": "debitis",
-  "FieldHeight": 156,
-  "FieldLabel": "harum",
-  "FieldLeft": 662,
-  "FieldTop": 638,
+  "UDefFieldId": 592,
+  "ColumnId": 15,
+  "FieldDefault": "voluptates",
+  "FieldHeight": 81,
+  "FieldLabel": "quam",
+  "FieldLeft": 230,
+  "FieldTop": 302,
   "FieldType": "Checkbox",
-  "FieldWidth": 150,
-  "FormatMask": "ut",
+  "FieldWidth": 542,
+  "FormatMask": "corrupti",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 39,
-  "LabelLeft": 380,
-  "LabelTop": 907,
-  "LabelWidth": 153,
-  "LastVersionId": 50,
-  "ListTableId": 216,
+  "IsIndexed": true,
+  "LabelHeight": 822,
+  "LabelLeft": 655,
+  "LabelTop": 764,
+  "LabelWidth": 509,
+  "LastVersionId": 517,
+  "ListTableId": 597,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 4,
-  "ProgId": "nostrum",
-  "IsReadOnly": false,
-  "ShortLabel": "tempora",
-  "TabOrder": 182,
-  "TextLength": 734,
-  "Tooltip": "omnis",
-  "UdefIdentity": 736,
-  "UDListDefinitionId": 8,
+  "Page1LineNo": 861,
+  "ProgId": "iusto",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 972,
+  "TextLength": 35,
+  "Tooltip": "numquam",
+  "UdefIdentity": 284,
+  "UDListDefinitionId": 861,
   "Justification": "Center",
-  "Version": 435,
-  "TemplateVariableName": "Cummings, Crooks and Jacobson",
-  "HasBeenPublished": false,
-  "MdoListName": "Fritsch, Turner and Anderson",
+  "Version": 989,
+  "TemplateVariableName": "Daniel, O'Connell and Grant",
+  "HasBeenPublished": true,
+  "MdoListName": "Feil LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 672
     }
   }
 }

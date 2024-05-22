@@ -112,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nisi",
+    "path": "impedit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nisi",
+    "path": "impedit",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 656,
-  "AssociateId": 811,
-  "Caption": "et",
+  "DashboardId": 920,
+  "AssociateId": 368,
+  "Caption": "sequi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 761,
-      "Caption": "aspernatur",
-      "Description": "Grass-roots asynchronous functionalities",
-      "ChartName": "Johnson Group",
-      "ChartId": "nihil",
+      "DashboardTileId": 822,
+      "Caption": "fugiat",
+      "Description": "Innovative user-facing product",
+      "ChartName": "Jacobi Group",
+      "ChartId": "tempore",
       "IsDefault": true,
-      "AssociateId": 471,
-      "GroupId": 322,
-      "SelectionId": 855,
-      "Config": "accusamus",
+      "AssociateId": 849,
+      "GroupId": 364,
+      "SelectionId": 225,
+      "Config": "illo",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     }
@@ -176,13 +176,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

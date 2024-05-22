@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 198,
-    "Name": "Gottlieb-Konopelski",
-    "Tooltip": "ut",
+    "WebPanelId": 264,
+    "Name": "Borer, Schmitt and Donnelly",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 519,
+    "Rank": 393,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Mohr-Balistreri",
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": true,
+    "WindowName": "Rolfson Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "quis",
-    "Icon": 423,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "molestiae",
+    "Icon": 552,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldLength": 737
       }
     }
   }

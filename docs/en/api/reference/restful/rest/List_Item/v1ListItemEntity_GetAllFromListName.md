@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Monahan, Franecki and Jast",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 408,
-    "Rank": 282,
+    "Id": 251,
+    "Name": "Willms LLC",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "UdListDefinitionId": 811,
+    "Rank": 59,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldType": "System.Int32",
+        "FieldLength": 524
       }
     }
   }

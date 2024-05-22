@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 158,
+  "EjMessageId": 323,
   "Ticket": null,
-  "CreatedAt": "1997-09-23T11:16:14.3085768+02:00",
+  "CreatedAt": "2018-06-14T12:57:43.0579981+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "voluptate",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "enim",
-  "TimeSpent": 590,
-  "Body": "eius",
-  "HtmlBody": "id",
-  "EmailHeader": "elwyn@marks.uk",
-  "DebugInfo": "quia",
-  "MailSorter": "consectetur",
+  "MessageId": "et",
+  "TimeSpent": 628,
+  "Body": "nemo",
+  "HtmlBody": "error",
+  "EmailHeader": "katarina@schuppe.co.uk",
+  "DebugInfo": "minus",
+  "MailSorter": "minus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "minima",
+  "SearchTitle": "sit",
   "MessageHeaders": [
     {
-      "Id": 346,
-      "Name": "Zulauf, Steuber and Fadel",
-      "Value": "quibusdam",
+      "Id": 103,
+      "Name": "Jacobs Inc and Sons",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 346,
-      "Name": "Zulauf, Steuber and Fadel",
-      "Value": "quibusdam",
+      "Id": 103,
+      "Name": "Jacobs Inc and Sons",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "sit",
-  "Sentiment": 714,
-  "SentimentConfidence": 330,
+  "Important": false,
+  "Language": "sunt",
+  "Sentiment": 128,
+  "SentimentConfidence": 99,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 361,
-      "Name": "Wilkinson Group",
-      "ContentType": "et",
-      "AttSize": 34,
-      "InlineImage": true,
-      "ContentId": "culpa",
-      "AuthKey": "quisquam",
+      "AttachmentId": 647,
+      "Name": "Pollich LLC",
+      "ContentType": "odio",
+      "AttSize": 525,
+      "InlineImage": false,
+      "ContentId": "molestiae",
+      "AuthKey": "aut",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
     "CustomFields1": "et",
-    "CustomFields2": "quam"
+    "CustomFields2": "architecto"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 513,
+  "EjMessageId": 952,
   "Ticket": null,
-  "CreatedAt": "2011-06-14T11:16:14.3242001+02:00",
+  "CreatedAt": "2003-10-01T12:57:43.073587+02:00",
   "CreatedBy": null,
-  "Author": "corrupti",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "architecto",
-  "TimeSpent": 83,
-  "Body": "qui",
-  "HtmlBody": "accusamus",
-  "EmailHeader": "dion_green@predovicflatley.us",
-  "DebugInfo": "debitis",
-  "MailSorter": "corporis",
+  "MessageId": "dolorem",
+  "TimeSpent": 162,
+  "Body": "corrupti",
+  "HtmlBody": "dolorem",
+  "EmailHeader": "nils_legros@stiedemann.ca",
+  "DebugInfo": "autem",
+  "MailSorter": "ipsum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "fugiat",
   "MessageHeaders": [
     {
-      "Id": 300,
-      "Name": "Luettgen, Moore and Davis",
-      "Value": "perferendis",
+      "Id": 760,
+      "Name": "Fahey, Green and Sipes",
+      "Value": "repudiandae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldType": "System.String",
+          "FieldLength": 266
         }
       }
     }
   ],
   "Important": true,
-  "Language": "explicabo",
-  "Sentiment": 843,
-  "SentimentConfidence": 817,
+  "Language": "voluptatem",
+  "Sentiment": 703,
+  "SentimentConfidence": 719,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 490,
-      "Name": "Pagac, Little and Wisozk",
-      "ContentType": "maiores",
-      "AttSize": 784,
+      "AttachmentId": 153,
+      "Name": "Leannon-McCullough",
+      "ContentType": "voluptas",
+      "AttSize": 320,
       "InlineImage": false,
-      "ContentId": "fuga",
-      "AuthKey": "dolorem",
+      "ContentId": "aut",
+      "AuthKey": "quos",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldType": "System.Int32",
+          "FieldLength": 172
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "maiores",
+    "ExtraFields1": "harum",
     "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "dolores"
+    "CustomFields1": "quam",
+    "CustomFields2": "suscipit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 448
     }
   }
 }

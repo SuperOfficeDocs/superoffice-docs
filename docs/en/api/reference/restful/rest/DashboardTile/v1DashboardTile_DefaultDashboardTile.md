@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 366,
-  "Caption": "maiores",
-  "Description": "Grass-roots bifurcated architecture",
-  "ChartName": "Gutmann LLC",
-  "ChartId": "est",
+  "DashboardTileId": 764,
+  "Caption": "architecto",
+  "Description": "Integrated full-range utilisation",
+  "ChartName": "Weissnat, Herman and Lockman",
+  "ChartId": "et",
   "IsDefault": false,
-  "AssociateId": 539,
-  "GroupId": 48,
-  "SelectionId": 94,
-  "Config": "molestias",
+  "AssociateId": 416,
+  "GroupId": 937,
+  "SelectionId": 908,
+  "Config": "harum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Ratke, Spencer and Armstrong",
-      "Description": "Stand-alone homogeneous architecture",
+      "Name": "Veum Group",
+      "Description": "Sharable local strategy",
       "Type": "Boolean",
-      "ListName": "Reichert-Sawayn",
+      "ListName": "Miller, Ratke and Nolan",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sed",
+      "Value": "rerum",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 155,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     },
     {
-      "VisibleId": 155,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldLength": 646
     }
   }
 }

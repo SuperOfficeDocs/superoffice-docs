@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Miller LLC",
-  "PrimaryKey": 916,
+  "EventName": "Dare-Beier",
+  "PrimaryKey": 724,
   "Data": {
     "fieldName": {}
   }

@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral object-oriented leverage",
-  "Filename": "laboriosam",
-  "Size": 427,
-  "Type": "sint",
-  "Encoding": "quia",
-  "Id": "voluptatum",
-  "Disposition": "autem",
-  "IsSafeFileExtension": false,
+  "Description": "Seamless fresh-thinking neural-net",
+  "Filename": "reprehenderit",
+  "Size": 369,
+  "Type": "esse",
+  "Encoding": "blanditiis",
+  "Id": "in",
+  "Disposition": "deleniti",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   }
 }

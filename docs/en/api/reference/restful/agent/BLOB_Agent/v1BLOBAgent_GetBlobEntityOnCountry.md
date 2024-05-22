@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 781
+  "CountryId": 305
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 777,
-  "BlobSize": 710,
-  "Description": "Persistent holistic benchmark",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 350,
+  "BlobSize": 179,
+  "Description": "Business-focused static algorithm",
+  "ExtraInfo": "blanditiis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "expedita",
-  "OriginalSize": 713,
-  "CreatedDate": "2002-08-18T11:16:08.7566429+02:00",
-  "UpdatedDate": "2017-11-21T11:16:08.7566429+01:00",
+  "IsZipped": true,
+  "MimeType": "dolore",
+  "OriginalSize": 541,
+  "CreatedDate": "2015-04-01T12:57:33.2743944+02:00",
+  "UpdatedDate": "2011-08-22T12:57:33.2743944+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "praesentium",
+  "ConceptualType": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 969
     }
   }
 }

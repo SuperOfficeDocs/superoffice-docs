@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 356,
-  "Name": "Mosciski, Zieme and Reilly",
-  "Tooltip": "eos",
-  "VisibleColumns": 604,
-  "Rank": 477,
-  "AssocId": 969,
+  "DiaryViewId": 376,
+  "Name": "McDermott, Stokes and Sporer",
+  "Tooltip": "dolore",
+  "VisibleColumns": 340,
+  "Rank": 891,
+  "AssocId": 278,
   "AssociateList": [
     {
-      "Id": 80,
-      "Name": "Ondricka-O'Hara",
-      "ToolTip": "Ad perferendis iusto rem non.",
-      "Deleted": true,
-      "Rank": 310,
-      "Type": "corrupti",
-      "ColorBlock": 311,
-      "IconHint": "numquam",
+      "Id": 435,
+      "Name": "Bernhard, Hodkiewicz and Farrell",
+      "ToolTip": "Consectetur enim eius nam velit maiores sed quo.",
+      "Deleted": false,
+      "Rank": 993,
+      "Type": "mollitia",
+      "ColorBlock": 563,
+      "IconHint": "soluta",
       "Selected": false,
-      "LastChanged": "1998-02-16T11:16:08.8347248+01:00",
+      "LastChanged": "2019-02-17T12:57:33.430612+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "voluptatibus",
+      "ExtraInfo": "sit",
+      "StyleHint": "veritatis",
       "Hidden": true,
-      "FullName": "Mrs. Sydnee Anika Corkery Jr.",
+      "FullName": "Lyda Fisher DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldType": "System.Int32",
+          "FieldLength": 39
         }
       }
     }
   ],
-  "TzLocationId": 496,
+  "TzLocationId": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 553
     }
   }
 }

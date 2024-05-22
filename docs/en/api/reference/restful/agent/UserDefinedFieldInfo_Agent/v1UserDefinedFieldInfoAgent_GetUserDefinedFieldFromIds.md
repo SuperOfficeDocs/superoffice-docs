@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    914,
-    162
+    608,
+    990
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 582,
-    "ColumnId": 454,
-    "FieldDefault": "dolorem",
-    "FieldHeight": 463,
-    "FieldLabel": "rerum",
-    "FieldLeft": 97,
-    "FieldTop": 577,
+    "UDefFieldId": 666,
+    "ColumnId": 741,
+    "FieldDefault": "perferendis",
+    "FieldHeight": 202,
+    "FieldLabel": "suscipit",
+    "FieldLeft": 612,
+    "FieldTop": 854,
     "FieldType": "Checkbox",
-    "FieldWidth": 942,
-    "FormatMask": "perspiciatis",
+    "FieldWidth": 159,
+    "FormatMask": "sint",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 68,
-    "LabelLeft": 906,
-    "LabelTop": 85,
-    "LabelWidth": 32,
-    "LastVersionId": 276,
-    "ListTableId": 931,
-    "IsMandatory": true,
+    "LabelHeight": 524,
+    "LabelLeft": 228,
+    "LabelTop": 547,
+    "LabelWidth": 696,
+    "LastVersionId": 245,
+    "ListTableId": 956,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 172,
-    "ProgId": "odit",
+    "Page1LineNo": 421,
+    "ProgId": "maiores",
     "IsReadOnly": false,
-    "ShortLabel": "dolore",
-    "TabOrder": 340,
-    "TextLength": 928,
-    "Tooltip": "non",
-    "UdefIdentity": 146,
-    "UDListDefinitionId": 708,
+    "ShortLabel": "est",
+    "TabOrder": 839,
+    "TextLength": 588,
+    "Tooltip": "doloremque",
+    "UdefIdentity": 404,
+    "UDListDefinitionId": 101,
     "Justification": "Center",
-    "Version": 496,
-    "TemplateVariableName": "Pagac Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Zemlak LLC",
+    "Version": 278,
+    "TemplateVariableName": "Dietrich, Deckow and Hoppe",
+    "HasBeenPublished": false,
+    "MdoListName": "Blanda LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 524
       }
     }
   }

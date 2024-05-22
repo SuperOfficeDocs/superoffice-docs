@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Conner, Luettgen and Reichel",
+  "Name": "Dickens-Labadie",
   "Entities": [
     {
-      "HeadingId": 943,
-      "Name": "Rempel Group",
-      "Tooltip": "aperiam",
+      "HeadingId": 801,
+      "Name": "Baumbach-McLaughlin",
+      "Tooltip": "assumenda",
       "Deleted": false,
-      "Rank": 436,
-      "UdListDefinitionId": 26
+      "Rank": 917,
+      "UdListDefinitionId": 772
     },
     {
-      "HeadingId": 943,
-      "Name": "Rempel Group",
-      "Tooltip": "aperiam",
+      "HeadingId": 801,
+      "Name": "Baumbach-McLaughlin",
+      "Tooltip": "assumenda",
       "Deleted": false,
-      "Rank": 436,
-      "UdListDefinitionId": 26
+      "Rank": 917,
+      "UdListDefinitionId": 772
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 850,
-    "Name": "Mueller-Hills",
-    "Tooltip": "illum",
-    "Deleted": false,
-    "Rank": 449,
-    "UdListDefinitionId": 231,
+    "HeadingId": 883,
+    "Name": "Pollich Inc and Sons",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 269,
+    "UdListDefinitionId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 547
       }
     }
   }

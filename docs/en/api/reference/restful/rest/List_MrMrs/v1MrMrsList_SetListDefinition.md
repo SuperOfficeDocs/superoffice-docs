@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Murazik, Beer and Armstrong",
-  "Tooltip": "deleniti",
+  "Id": 57,
+  "Name": "Brakus, Rosenbaum and Zieme",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 521,
+  "Rank": 900,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Koelpin, Green and Gutkowski",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 319,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "Id": 375,
+  "Name": "Goldner, Kihn and Ritchie",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "Rank": 332,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 110
     }
   }
 }

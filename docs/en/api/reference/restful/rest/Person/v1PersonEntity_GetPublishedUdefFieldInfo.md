@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 920,
-  "ColumnId": 862,
-  "FieldDefault": "nisi",
-  "FieldHeight": 739,
-  "FieldLabel": "voluptatibus",
-  "FieldLeft": 547,
-  "FieldTop": 379,
+  "UDefFieldId": 750,
+  "ColumnId": 444,
+  "FieldDefault": "non",
+  "FieldHeight": 615,
+  "FieldLabel": "quod",
+  "FieldLeft": 823,
+  "FieldTop": 599,
   "FieldType": "Checkbox",
-  "FieldWidth": 764,
-  "FormatMask": "eveniet",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 125,
-  "LabelLeft": 650,
-  "LabelTop": 8,
-  "LabelWidth": 870,
-  "LastVersionId": 681,
-  "ListTableId": 718,
+  "FieldWidth": 632,
+  "FormatMask": "incidunt",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 112,
+  "LabelLeft": 952,
+  "LabelTop": 146,
+  "LabelWidth": 756,
+  "LastVersionId": 227,
+  "ListTableId": 872,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 664,
-  "ProgId": "facilis",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 697,
-  "TextLength": 497,
-  "Tooltip": "ab",
-  "UdefIdentity": 83,
-  "UDListDefinitionId": 217,
+  "Page1LineNo": 956,
+  "ProgId": "dolores",
+  "IsReadOnly": false,
+  "ShortLabel": "dolorem",
+  "TabOrder": 702,
+  "TextLength": 520,
+  "Tooltip": "soluta",
+  "UdefIdentity": 930,
+  "UDListDefinitionId": 491,
   "Justification": "Center",
-  "Version": 207,
-  "TemplateVariableName": "Welch LLC",
+  "Version": 396,
+  "TemplateVariableName": "Braun Group",
   "HasBeenPublished": false,
-  "MdoListName": "Treutel, Wunsch and Crist",
+  "MdoListName": "Kilback-Thiel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldLength": 369
     }
   }
 }

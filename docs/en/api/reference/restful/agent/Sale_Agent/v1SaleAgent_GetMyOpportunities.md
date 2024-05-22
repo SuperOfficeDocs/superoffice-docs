@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 407
+  "Count": 191
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hyatt-Treutel",
-    "SaleDate": "2021-07-08T11:16:09.6846608+02:00",
-    "SaleId": 875,
-    "Probability": 497,
-    "Title": "animi",
-    "Amount": 18183.468,
-    "Currency": "aut",
-    "ProjectName": "Towne Inc and Sons",
-    "AssociateFullName": "Fern Nitzsche",
-    "Description": "Progressive content-based solution",
+    "ContactName": "Carter, Senger and Reinger",
+    "SaleDate": "1999-07-14T12:57:34.8688339+02:00",
+    "SaleId": 32,
+    "Probability": 463,
+    "Title": "earum",
+    "Amount": 5390.48,
+    "Currency": "quam",
+    "ProjectName": "Schultz, Schumm and Kling",
+    "AssociateFullName": "Macy Padberg",
+    "Description": "Optimized full-range approach",
     "Status": "Lost",
-    "WeightedAmount": 24288.5,
-    "ProjectId": 562,
-    "EarningPercent": 13059.377999999999,
-    "Earning": 24150.604,
-    "ContactId": 884,
-    "AssociateId": 358,
-    "PersonId": 233,
-    "SaleTypeId": 856,
-    "SaleTypeName": "Leffler, Hoeger and Runolfsson",
-    "PersonFullName": "Guy Kessler I",
+    "WeightedAmount": 16509.912,
+    "ProjectId": 309,
+    "EarningPercent": 26952.399999999998,
+    "Earning": 6672.286,
+    "ContactId": 18,
+    "AssociateId": 631,
+    "PersonId": 171,
+    "SaleTypeId": 696,
+    "SaleTypeName": "Quitzon, Walter and Hills",
+    "PersonFullName": "Alicia Pollich",
     "Completed": "Completed",
-    "ActiveErpLinks": 958,
-    "NextDueDate": "2022-07-31T11:16:09.6846608+02:00",
-    "Number": "1073516",
+    "ActiveErpLinks": 883,
+    "NextDueDate": "2014-07-09T12:57:34.8688339+02:00",
+    "Number": "546164",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldLength": 531
       }
     }
   }

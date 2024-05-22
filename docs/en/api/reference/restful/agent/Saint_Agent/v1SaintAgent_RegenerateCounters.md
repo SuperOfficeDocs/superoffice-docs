@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Stracke, Gusikowski and Paucek",
-  "AssociateId": 172,
-  "DetailsTable": 963,
-  "DetailsRecord": 146,
+  "Id": 47,
+  "Name": "Christiansen-Terry",
+  "AssociateId": 268,
+  "DetailsTable": 615,
+  "DetailsRecord": 889,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "quae"
+    "ParameterObject1": "ut",
+    "ParameterObject2": "quis"
   },
-  "LastStarted": "2017-12-04T11:16:09.6473837+01:00",
-  "Created": "2013-08-02T11:16:09.6473837+02:00",
-  "StartCount": 270,
-  "DatabaseSerialNumber": "1506262",
-  "Context": "ea",
-  "Result": "quia",
+  "LastStarted": "2003-03-29T12:57:34.805298+01:00",
+  "Created": "1998-07-18T12:57:34.805298+02:00",
+  "StartCount": 814,
+  "DatabaseSerialNumber": "1042725",
+  "Context": "saepe",
+  "Result": "eius",
   "State": "All",
-  "Description": "Expanded analyzing conglomeration",
-  "Response": "aut",
-  "Request": "reprehenderit",
-  "ProgressDescription": "Compatible uniform software",
-  "ProgressPercent": 860,
-  "FileName": "Runolfsson-Kirlin",
+  "Description": "Centralized content-based framework",
+  "Response": "quam",
+  "Request": "est",
+  "ProgressDescription": "Vision-oriented optimizing hub",
+  "ProgressPercent": 166,
+  "FileName": "Nicolas-Emard",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldLength": 592
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=esse
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=inventore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Kessler, Moore and Pfeffer",
-    "ToolTip": "Eum cum similique ab quasi vel blanditiis voluptatem.",
-    "Deleted": true,
-    "Rank": 746,
-    "Type": "rem",
+    "Id": 77,
+    "Name": "Romaguera-McGlynn",
+    "ToolTip": "Quia maiores architecto cupiditate libero.",
+    "Deleted": false,
+    "Rank": 922,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Fritsch, Crooks and Hammes",
-        "ToolTip": "Praesentium voluptas.",
-        "Deleted": false,
-        "Rank": 982,
-        "Type": "veritatis",
+        "Id": 560,
+        "Name": "Ernser, Nikolaus and Lemke",
+        "ToolTip": "Consectetur et at ut magnam voluptatibus quia.",
+        "Deleted": true,
+        "Rank": 959,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 92,
-        "ExtraInfo": "vero",
-        "StyleHint": "qui",
-        "FullName": "Ms. Ethel Douglas III",
+        "IconHint": "modi",
+        "ColorBlock": 244,
+        "ExtraInfo": "modi",
+        "StyleHint": "cum",
+        "FullName": "Bailey Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 128
+            "FieldType": "System.Int32",
+            "FieldLength": 558
           }
         }
       }
     ],
-    "IconHint": "iure",
-    "ColorBlock": 726,
-    "ExtraInfo": "corporis",
-    "StyleHint": "porro",
-    "FullName": "Asia Stracke",
+    "IconHint": "quae",
+    "ColorBlock": 761,
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "FullName": "Clifford Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

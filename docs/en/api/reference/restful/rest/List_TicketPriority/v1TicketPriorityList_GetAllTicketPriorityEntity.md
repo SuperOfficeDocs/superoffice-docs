@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 272,
-    "Name": "Mante LLC",
+    "TicketPriorityId": 299,
+    "Name": "Swift Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 957,
+    "SortOrder": 459,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 100,
-    "MonStart": "1999-01-31T11:16:14.8557576+01:00",
-    "MonStop": "2015-04-04T11:16:14.8557576+02:00",
-    "TueStart": "1997-04-26T11:16:14.8557576+02:00",
-    "TueStop": "2014-01-05T11:16:14.8557576+01:00",
-    "WedStart": "2022-08-17T11:16:14.8557576+02:00",
-    "WedStop": "1999-10-15T11:16:14.8557576+02:00",
-    "ThuStart": "2021-12-09T11:16:14.8557576+01:00",
-    "ThuStop": "2009-09-28T11:16:14.8557576+02:00",
-    "FriStart": "2002-12-09T11:16:14.8557576+01:00",
-    "FriStop": "2020-09-21T11:16:14.8557576+02:00",
-    "SatStart": "2009-12-19T11:16:14.8557576+01:00",
-    "SatStop": "1998-10-02T11:16:14.8557576+02:00",
-    "SunStart": "2010-03-25T11:16:14.8557576+01:00",
-    "SunStop": "2001-12-22T11:16:14.8557576+01:00",
+    "Deadline": 395,
+    "MonStart": "2008-07-24T12:57:43.8082251+02:00",
+    "MonStop": "2008-03-29T12:57:43.8082251+01:00",
+    "TueStart": "2015-08-10T12:57:43.8082251+02:00",
+    "TueStop": "2021-04-21T12:57:43.8082251+02:00",
+    "WedStart": "2006-04-26T12:57:43.8082251+02:00",
+    "WedStop": "2011-08-09T12:57:43.8082251+02:00",
+    "ThuStart": "2009-07-01T12:57:43.8082251+02:00",
+    "ThuStop": "2016-05-01T12:57:43.8082251+02:00",
+    "FriStart": "2001-07-07T12:57:43.8082251+02:00",
+    "FriStop": "2014-10-01T12:57:43.8082251+02:00",
+    "SatStart": "2021-07-15T12:57:43.8082251+02:00",
+    "SatStop": "1999-09-22T12:57:43.8082251+02:00",
+    "SunStart": "2022-08-03T12:57:43.8082251+02:00",
+    "SunStop": "2016-04-08T12:57:43.8082251+02:00",
     "NonDates": [
-      "reprehenderit",
-      "dignissimos"
+      "neque",
+      "ipsa"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 538,
-        "AlertLevel": 937,
-        "AlertTimeout": 228,
-        "Action": 447,
-        "DelegateTo": 807,
-        "ScriptId": 859,
-        "EmailTo": "arden@stracke.name",
-        "SmsTo": "impedit",
-        "ReplyTemplateIdCustomer": 347,
-        "ReplyTemplateIdUser": 442,
-        "ReplyTemplateIdCatmast": 246,
-        "ReplyTemplateIdEmail": 218,
-        "RtiCustomerSms": 445,
-        "ReplyTemplateIdUserSms": 218,
-        "ReplyTemplateIdCatmastSms": 691,
-        "ReplyTemplateIdSms": 801,
+        "TicketAlertId": 155,
+        "AlertLevel": 992,
+        "AlertTimeout": 384,
+        "Action": 874,
+        "DelegateTo": 741,
+        "ScriptId": 546,
+        "EmailTo": "ellen@wildermandenesik.name",
+        "SmsTo": "placeat",
+        "ReplyTemplateIdCustomer": 764,
+        "ReplyTemplateIdUser": 684,
+        "ReplyTemplateIdCatmast": 873,
+        "ReplyTemplateIdEmail": 972,
+        "RtiCustomerSms": 74,
+        "ReplyTemplateIdUserSms": 203,
+        "ReplyTemplateIdCatmastSms": 646,
+        "ReplyTemplateIdSms": 967,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 151
+            "FieldType": "System.Int32",
+            "FieldLength": 757
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 283
       }
     }
   }

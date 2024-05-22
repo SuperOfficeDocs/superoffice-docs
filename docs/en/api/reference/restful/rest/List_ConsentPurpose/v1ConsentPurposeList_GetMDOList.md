@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=natus
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=totam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Conn-Bailey",
-    "ToolTip": "Amet at fugiat sapiente quidem.",
+    "Id": 321,
+    "Name": "Rice, Wunsch and Rosenbaum",
+    "ToolTip": "Tempore quasi veniam.",
     "Deleted": true,
-    "Rank": 708,
-    "Type": "quia",
+    "Rank": 261,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Bernhard-Stanton",
-        "ToolTip": "Et nostrum ut ea repellat repellendus iure.",
+        "Id": 54,
+        "Name": "Ebert Group",
+        "ToolTip": "Sit accusantium praesentium est.",
         "Deleted": false,
-        "Rank": 892,
-        "Type": "tempore",
+        "Rank": 423,
+        "Type": "explicabo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 112,
-        "ExtraInfo": "ut",
-        "StyleHint": "ullam",
-        "FullName": "Arvel Mitchell",
+        "IconHint": "ut",
+        "ColorBlock": 406,
+        "ExtraInfo": "eum",
+        "StyleHint": "voluptatem",
+        "FullName": "Prof. Philip Gerson Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 192
+            "FieldLength": 953
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 341,
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "iure",
-    "FullName": "Eugene Reynolds",
+    "IconHint": "nam",
+    "ColorBlock": 700,
+    "ExtraInfo": "sapiente",
+    "StyleHint": "accusantium",
+    "FullName": "Prof. Rosalee Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldLength": 714
       }
     }
   }

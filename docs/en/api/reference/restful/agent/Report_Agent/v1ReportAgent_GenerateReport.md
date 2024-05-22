@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 962,
-  "LabelLayoutId": 889,
-  "Filename": "molestiae",
-  "Language": "soluta",
-  "FileType": "voluptatem",
+  "ReportId": 266,
+  "LabelLayoutId": 813,
+  "Filename": "sit",
+  "Language": "quidem",
+  "FileType": "quia",
   "Restrictions": [
     {
-      "Name": "Lemke LLC",
-      "Operator": "aperiam",
+      "Name": "Block, Herman and Ritchie",
+      "Operator": "facilis",
       "Values": [
-        "corrupti",
-        "fuga"
+        "fuga",
+        "suscipit"
       ],
       "DisplayValues": [
-        "veniam",
-        "est"
+        "atque",
+        "voluptatibus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 213,
+      "InterParenthesis": 264,
       "InterOperator": "And",
-      "UniqueHash": 36
+      "UniqueHash": 867
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dicta"
+"soluta"
 ```

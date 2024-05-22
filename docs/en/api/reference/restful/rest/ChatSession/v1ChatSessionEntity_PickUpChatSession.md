@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 280,
-  "TopicId": 342,
+  "ChatSessionId": 850,
+  "TopicId": 49,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "similique",
-  "CustomerName": "Quigley-Medhurst",
-  "CustomerEmail": "elmer.roob@purdyconsidine.info",
-  "CustomerPhone": "(371)542-9062",
+  "CustomerAlias": "odit",
+  "CustomerHost": "porro",
+  "CustomerName": "Koelpin-Stamm",
+  "CustomerEmail": "yesenia.franecki@watershoppe.us",
+  "CustomerPhone": "643.436.1028 x70468",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lubowitz Inc and Sons",
+  "CustomerCompanyName": "White-Grimes",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "fugit",
-  "WhenRequested": "2007-05-23T11:16:13.7299968+02:00",
-  "WhenStarted": "2023-02-04T11:16:13.7299968+01:00",
-  "WhenEnded": "2005-08-22T11:16:13.7299968+02:00",
-  "WhenIdle": "2018-06-04T11:16:13.7299968+02:00",
-  "WhenFetched": "2015-01-29T11:16:13.7299968+01:00",
-  "SessionKey": "deserunt",
-  "InitialQueuePos": 263,
-  "AlertLevel": 912,
-  "Rank": 188,
+  "FirstMessage": "totam",
+  "LastMessage": "ex",
+  "WhenRequested": "2004-11-19T12:57:42.1358278+01:00",
+  "WhenStarted": "2015-11-02T12:57:42.1358278+01:00",
+  "WhenEnded": "2020-04-18T12:57:42.1358278+02:00",
+  "WhenIdle": "2011-08-04T12:57:42.1358278+02:00",
+  "WhenFetched": "2022-02-09T12:57:42.1358278+01:00",
+  "SessionKey": "tenetur",
+  "InitialQueuePos": 102,
+  "AlertLevel": 127,
+  "Rank": 796,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 912,
+  "ChatbotIsActive": false,
+  "Rating": 315,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   }
 }

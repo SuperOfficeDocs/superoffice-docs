@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 419,
-  "Name": "Monahan Inc and Sons",
-  "Tooltip": "omnis",
-  "Rank": 680,
-  "Key": "quo",
+  "LegalBaseId": 200,
+  "Name": "Kub-Pouros",
+  "Tooltip": "reiciendis",
+  "Rank": 770,
+  "Key": "ad",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldLength": 171
     }
   }
 }

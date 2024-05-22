@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "McKenzie Group",
-    "ToolTip": "Perspiciatis amet dolorem vel voluptatem nisi.",
-    "Deleted": false,
-    "Rank": 79,
-    "Type": "ex",
-    "ColorBlock": 786,
-    "IconHint": "cumque",
-    "Selected": false,
-    "LastChanged": "2007-10-26T11:16:14.699531+02:00",
+    "Id": 305,
+    "Name": "Reynolds, Borer and Koss",
+    "ToolTip": "Quis beatae dolores molestiae porro incidunt veritatis dicta.",
+    "Deleted": true,
+    "Rank": 335,
+    "Type": "eius",
+    "ColorBlock": 383,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "1997-11-07T12:57:43.6832538+01:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Jakubowski LLC",
-        "ToolTip": "Suscipit asperiores odit.",
-        "Deleted": false,
-        "Rank": 42,
-        "Type": "enim",
-        "ColorBlock": 744,
-        "IconHint": "molestiae",
+        "Id": 313,
+        "Name": "Monahan, Goyette and Haag",
+        "ToolTip": "Ad vel.",
+        "Deleted": true,
+        "Rank": 685,
+        "Type": "ut",
+        "ColorBlock": 36,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2009-10-28T11:16:14.699531+01:00",
+        "LastChanged": "2020-01-07T12:57:43.6832538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "numquam",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Murl Robel",
+        "FullName": "Dr. Elena Demario Collier II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 146
+            "FieldLength": 259
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "sunt",
+    "ExtraInfo": "sed",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Edmond Reynolds",
+    "FullName": "Hettie Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 665
       }
     }
   }

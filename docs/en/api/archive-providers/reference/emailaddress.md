@@ -91,6 +91,9 @@ the email_id.
 |hasCompany| *None* |Has company: The contact is associated with a company|  |
 |isProjectMember| *None* |Is project member: This person is a project member|  |
 |isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
+|updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
+|whenUpdatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
+|createdByForm| *None* |Created by form: Created by form|  |
 |phone/formattedNumber|string|Phone : Displays phone number|  |
 |who| *None* |Full name: Displays the contact's full name.| x |
 |personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
@@ -128,13 +131,13 @@ the email_id.
 |personContact/countryId| *None* |Country ID: Country ID|  |
 |personContact/number| *None* |Number|  |
 |personContact/code| *None* |Code|  |
-|personContact/orgnr| *None* |VAT No.|  |
-|personContact/stop| *None* |Stop|  |
-|personContact/contactNoMail| *None* |No mailings (company|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/orgnr| *None* |VAT No.|  |
+|personContact/stop| *None* |Stop|  |
+|personContact/contactNoMail| *None* |No mailings (company|  |
 |personContact/updatedBy| *None* |Updated by: The user who last updated the data|  |
 |personContact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |personContact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
@@ -232,13 +235,13 @@ the email_id.
 |postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 |postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 |postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
-|postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
-|postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
+|postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
+|postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |restrictionPostalAddress/addressId| *None* |Postal address - Address ID: Database ID for the address record|  |
 |restrictionPostalAddress/line1| *None* |Postal address - Address 1: First line of the address|  |
 |restrictionPostalAddress/line2| *None* |Postal address - Address 2: Second line of the address|  |
@@ -308,6 +311,7 @@ the email_id.
 |contactAssociate/userName| *None* |User name: User name|  |
 |contactAssociate/personEmail| *None* |E-mail|  |
 |contactAssociate/locationAddress| *None* |Location: Location|  |
+|contactAssociate/isLocation| *None* |Is a location: Is a location|  |
 |contactSupportAssociate/firstName| *None* |Our service contact - First name: Displays the contact's first name|  |
 |contactSupportAssociate/lastName| *None* |Our service contact - Last name: Displays the contact's last name|  |
 |contactSupportAssociate/middleName| *None* |Our service contact - Middle Name: Displays the contact's middle name.|  |
@@ -335,14 +339,15 @@ the email_id.
 |contactSupportAssociate/isActive| *None* |Our service contact - Active: Is this user active, and should be able to log in?|  |
 |contactSupportAssociate/isActiveText| *None* |Our service contact - Active status: Is this user active, and should be able to log in?|  |
 |contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
-|contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
-|contactSupportAssociate/userName| *None* |Our service contact - User name: User name|  |
-|contactSupportAssociate/personEmail| *None* |Our service contact - E-mail|  |
-|contactSupportAssociate/locationAddress| *None* |Our service contact - Location: Location|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
+|contactSupportAssociate/userName| *None* |Our service contact - User name: User name|  |
+|contactSupportAssociate/personEmail| *None* |Our service contact - E-mail|  |
+|contactSupportAssociate/locationAddress| *None* |Our service contact - Location: Location|  |
+|contactSupportAssociate/isLocation| *None* |Our service contact - Is a location: Is a location|  |
 |contactSupportPerson/personId| *None* |User support contact - DB ID: Displays the database ID of a contact|  |
 |contactSupportPerson/firstName| *None* |User support contact - First name: Displays the contact's first name|  |
 |contactSupportPerson/lastName| *None* |User support contact - Last name: Displays the contact's last name|  |
@@ -390,6 +395,9 @@ the email_id.
 |contactSupportPerson/hasCompany| *None* |User support contact - Has company: The contact is associated with a company|  |
 |contactSupportPerson/isProjectMember| *None* |User support contact - Is project member: This person is a project member|  |
 |contactSupportPerson/isStakeholder| *None* |User support contact - Is stakeholder: This person is a sale stakeholder|  |
+|contactSupportPerson/updatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
+|contactSupportPerson/whenUpdatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
+|contactSupportPerson/createdByForm| *None* |User support contact - Created by form: Created by form|  |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.|  |
 |contactSupportPerson/personInfo/textId| *None* |User support contact - Text ID|  |
 |contactSupportPerson/personInfo/infoText| *None* |User support contact - Information: Displays the text entered in the description field|  |
@@ -405,7 +413,6 @@ the email_id.
 |contactSupportPerson/personUdef/SuperOffice:10| *None* |User support contact - page1marketingonly|  |
 |contactSupportPerson/personUdef/SuperOffice:11| *None* |User support contact - page1adminonly|  |
 |contactSupportPerson/personExtra/x\_person\_integer| *None* |User support contact - Extra Integer: Custom person integer|  |
-|contactSupportPerson/personExtra/x\_person\_hidden\_integer| *None* |User support contact - Extra hidden integer: Custom integer field that is hidden|  |
 |contactSupportPerson/personExtra/x\_person\_float| *None* |User support contact - Extra float: Custom float field|  |
 |contactSupportPerson/personExtra/x\_person\_longtext| *None* |User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
 |contactSupportPerson/personExtra/x\_person\_date| *None* |User support contact - Extra date: Custom date field on person. Default value = 28.03.2019|  |
@@ -436,6 +443,10 @@ the email_id.
 |contactSupportPerson/subscription| *None* |User support contact - Subscription: Subscription for marketing|  |
 |contactSupportPerson/legalBaseStore| *None* |User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportPerson/consentSourceStore| *None* |User support contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/consentSourceEmarketing| *None* |User support contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
@@ -443,10 +454,6 @@ the email_id.
 |contactUdef/SuperOffice:2| *None* |companylongtext: tooltiplongtext|  |
 |contactUdef/SuperOffice:3| *None* |companynumber|  |
 |contactUdef/SuperOffice:4| *None* |companydate|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contactUdef/SuperOffice:5| *None* |companyunlimiteddate: tooltipunlimiteddate|  |
 |contactUdef/SuperOffice:6| *None* |companycheckbox|  |
 |contactUdef/SuperOffice:7| *None* |companydropdownlistbox|  |
@@ -457,7 +464,6 @@ the email_id.
 |contactUdef/SuperOffice:12| *None* |Udlist one: Static tooltip for udlist one|  |
 |contactUdef/SuperOffice:13| *None* |Udlist two: Static tooltip for udlist two|  |
 |contactExtra/x\_contact\_integer| *None* |Extra Integer: Custom integer field|  |
-|contactExtra/x\_contact\_hidden\_integer| *None* |Extra hidden integer: Custom integer field - hidden|  |
 |contactExtra/x\_contact\_default\_integer| *None* |Extra Default Integer: Custom integer field with default value 123.|  |
 |contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
 |contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
@@ -509,7 +515,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=emailAddress,personContact/updatedDate,contactAssociate/userName,contactSupportAssociate/otherGroups,contactSupportPerson/personNoMail
+GET /api/v1/archive/EmailAddress?$select=personMobilePhone/description,personContact/nameDepartment,category,email/emailProtocol,contactSupportPerson/birthMonth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

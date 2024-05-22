@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "id",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "id",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 168,
-  "TopicId": 890,
+  "ChatSessionId": 161,
+  "TopicId": 340,
   "User": null,
   "Person": null,
-  "CustomerAlias": "pariatur",
-  "CustomerHost": "eum",
-  "CustomerName": "Wilderman, Hilll and Gerlach",
-  "CustomerEmail": "marta.dicki@gislason.co.uk",
-  "CustomerPhone": "1-364-338-9833",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Lynch LLC",
+  "CustomerAlias": "et",
+  "CustomerHost": "laborum",
+  "CustomerName": "Kulas Inc and Sons",
+  "CustomerEmail": "alberto.douglas@nicolasframi.us",
+  "CustomerPhone": "1-420-476-2548 x2828",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Bins-Hirthe",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "debitis",
-  "WhenRequested": "2004-03-24T11:16:13.6987434+01:00",
-  "WhenStarted": "2007-03-08T11:16:13.6987434+01:00",
-  "WhenEnded": "2022-07-08T11:16:13.6987434+02:00",
-  "WhenIdle": "2015-12-17T11:16:13.6987434+01:00",
-  "WhenFetched": "2000-08-25T11:16:13.6987434+02:00",
-  "SessionKey": "culpa",
-  "InitialQueuePos": 413,
-  "AlertLevel": 114,
-  "Rank": 5,
+  "FirstMessage": "eligendi",
+  "LastMessage": "totam",
+  "WhenRequested": "2017-06-19T12:57:41.9327493+02:00",
+  "WhenStarted": "2014-01-30T12:57:41.9327493+01:00",
+  "WhenEnded": "1999-05-05T12:57:41.9327493+02:00",
+  "WhenIdle": "2021-11-25T12:57:41.9327493+01:00",
+  "WhenFetched": "2004-01-08T12:57:41.9327493+01:00",
+  "SessionKey": "excepturi",
+  "InitialQueuePos": 819,
+  "AlertLevel": 931,
+  "Rank": 566,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 364,
+  "ChatbotIsActive": true,
+  "Rating": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 60
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

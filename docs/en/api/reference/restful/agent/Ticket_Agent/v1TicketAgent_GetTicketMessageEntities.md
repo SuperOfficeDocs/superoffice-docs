@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 627,
+  "TicketId": 838,
   "MessageIds": [
-    305,
-    233
+    486,
+    44
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 692,
+    "EjMessageId": 5,
     "Ticket": null,
-    "CreatedAt": "2016-01-02T11:16:09.9605285+01:00",
+    "CreatedAt": "1998-03-16T12:57:35.1957723+01:00",
     "CreatedBy": null,
-    "Author": "vel",
+    "Author": "recusandae",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "molestiae",
-    "TimeSpent": 177,
-    "Body": "esse",
-    "HtmlBody": "tempore",
-    "EmailHeader": "cecelia@wolf.info",
-    "DebugInfo": "id",
-    "MailSorter": "et",
+    "MessageId": "animi",
+    "TimeSpent": 883,
+    "Body": "suscipit",
+    "HtmlBody": "quasi",
+    "EmailHeader": "herman@stark.biz",
+    "DebugInfo": "minima",
+    "MailSorter": "vel",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "ducimus",
+    "SearchTitle": "quasi",
     "MessageHeaders": [
       {
-        "Id": 162,
-        "Name": "Schinner Inc and Sons",
-        "Value": "ipsum",
+        "Id": 371,
+        "Name": "Robel, Jacobs and Kilback",
+        "Value": "tempore",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 925
+            "FieldLength": 886
           }
         }
       }
     ],
     "Important": false,
-    "Language": "neque",
-    "Sentiment": 321,
-    "SentimentConfidence": 170,
+    "Language": "aut",
+    "Sentiment": 192,
+    "SentimentConfidence": 148,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 646,
-        "Name": "Schaden-Beer",
-        "ContentType": "iste",
-        "AttSize": 641,
+        "AttachmentId": 242,
+        "Name": "Rowe-Fritsch",
+        "ContentType": "est",
+        "AttSize": 92,
         "InlineImage": true,
-        "ContentId": "accusantium",
-        "AuthKey": "minima",
-        "IsSafeFileExtension": true,
+        "ContentId": "illum",
+        "AuthKey": "veritatis",
+        "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 954
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "nobis",
+      "ExtraFields1": "sint",
       "ExtraFields2": "quia"
     },
     "CustomFields": {
-      "CustomFields1": "molestiae",
-      "CustomFields2": "eos"
+      "CustomFields1": "quia",
+      "CustomFields2": "fugit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldType": "System.Int32",
+        "FieldLength": 606
       }
     }
   }

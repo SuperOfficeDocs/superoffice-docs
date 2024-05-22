@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veniam",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veniam",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 861,
-  "Section": "blanditiis",
-  "Key": "aut",
-  "Name": "Bailey, Trantow and Schowalter",
+  "PrefDescId": 751,
+  "Section": "reprehenderit",
+  "Key": "a",
+  "Name": "Heller, Keebler and Parisian",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated 6th generation challenge",
+  "Description": "Triple-buffered value-added encryption",
   "IsBuiltin": true,
-  "TableName": "Keeling Inc and Sons",
-  "UserDefinedListId": 624,
-  "Rank": 138,
-  "SubGroup": "possimus",
-  "MinLevel": 999,
-  "MaxValue": 852,
-  "MinValue": 899,
-  "RequiredLicense": "dolore",
+  "TableName": "Vandervort-Hirthe",
+  "UserDefinedListId": 836,
+  "Rank": 572,
+  "SubGroup": "aut",
+  "MinLevel": 204,
+  "MaxValue": 45,
+  "MinValue": 480,
+  "RequiredLicense": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 255
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

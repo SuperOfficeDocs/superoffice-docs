@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 690,
-  "MessageId": "ut",
-  "Subject": "quidem",
+  "ServerId": 481,
+  "MessageId": "totam",
+  "Subject": "facere",
   "From": null,
   "To": [
     {
-      "ContactId": 720,
-      "ContactName": "Rogahn, Mayert and Stracke",
-      "PersonId": 34,
-      "PersonName": "O'Hara-Kuvalis",
-      "AssociateId": 94,
-      "Address": "explicabo",
-      "EmailId": 745,
+      "ContactId": 853,
+      "ContactName": "Jacobson LLC",
+      "PersonId": 941,
+      "PersonName": "Vandervort Group",
+      "AssociateId": 299,
+      "Address": "nihil",
+      "EmailId": 148,
       "DuplicatePersonIds": [
-        832,
-        511
+        189,
+        569
       ],
-      "Name": "Cummings, Ullrich and Glover",
+      "Name": "Gerlach-Roob",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldType": "System.Int32",
+          "FieldLength": 257
         }
       }
     }
   ],
-  "Sent": "2015-07-11T11:16:09.1941046+02:00",
+  "Sent": "1999-06-01T12:57:33.899292+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 721,
+  "Size": 376,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 769
     }
   }
 }

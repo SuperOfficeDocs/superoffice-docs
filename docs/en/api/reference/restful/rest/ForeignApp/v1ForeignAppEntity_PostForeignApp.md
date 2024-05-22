@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 973,
-  "Name": "Hagenes LLC",
-  "CreatedDate": "2018-04-16T11:16:13.9175899+02:00",
-  "UpdatedDate": "2004-12-08T11:16:13.9175899+01:00",
+  "ForeignAppId": 790,
+  "Name": "Dibbert Group",
+  "CreatedDate": "2021-04-21T12:57:42.4326345+02:00",
+  "UpdatedDate": "1997-08-04T12:57:42.4326345+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 803,
-      "Name": "Dare-Kohler",
-      "CreatedDate": "2015-09-19T11:16:13.9175899+02:00",
-      "UpdatedDate": "2014-12-28T11:16:13.9175899+01:00",
-      "AssociateFullName": "Mrs. Mark Williamson Sr.",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "optio",
-      "DeviceIdentifier": "at",
-      "ForeignAppId": 106,
+      "ForeignDeviceId": 627,
+      "Name": "Green Inc and Sons",
+      "CreatedDate": "2010-04-20T12:57:42.4326345+02:00",
+      "UpdatedDate": "2018-08-21T12:57:42.4326345+02:00",
+      "AssociateFullName": "Evans Reinger",
+      "CreatedBy": "quia",
+      "UpdatedBy": "doloremque",
+      "DeviceIdentifier": "rem",
+      "ForeignAppId": 754,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldType": "System.String",
+          "FieldLength": 182
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 734
     }
   }
 }

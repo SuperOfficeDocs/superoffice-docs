@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Value": "expedita",
-    "Tooltip": "eaque",
+    "Id": 73,
+    "Value": "optio",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 818
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   },
   {
-    "Id": 76,
-    "Value": "expedita",
-    "Tooltip": "eaque",
+    "Id": 73,
+    "Value": "optio",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 818
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   }

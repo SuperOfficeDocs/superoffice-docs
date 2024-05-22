@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=371
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=10
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 892,
-  "Name": "Lehner-Schinner",
-  "Description": "Vision-oriented needs-based implementation",
-  "DefaultHeight": 516,
-  "DefaultWidth": 721,
+  "DashboardTileDefinitionId": 781,
+  "Name": "Rempel LLC",
+  "Description": "Networked optimal functionalities",
+  "DefaultHeight": 45,
+  "DefaultWidth": 224,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dare-Wilkinson",
-  "SelectionId": 20,
+  "EntityName": "Gaylord, Kerluke and Mueller",
+  "SelectionId": 766,
   "CurrencyMode": "Base",
-  "CurrencyCode": "qui",
+  "CurrencyCode": "mollitia",
   "Measure": "Average",
-  "MeasureField": "libero",
-  "SortBy": "est",
-  "LayoutConfig": "voluptas",
-  "SecondarySelectionId": 591,
-  "MeasureByField": "a",
+  "MeasureField": "dolor",
+  "SortBy": "nisi",
+  "LayoutConfig": "temporibus",
+  "SecondarySelectionId": 619,
+  "MeasureByField": "consequuntur",
   "Usage": "Dashboard",
-  "ProviderName": "Fadel Group",
+  "ProviderName": "Herzog, Farrell and Dietrich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

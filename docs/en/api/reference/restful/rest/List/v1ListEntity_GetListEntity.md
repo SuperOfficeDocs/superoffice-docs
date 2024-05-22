@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Crist, Stark and Emmerich",
-  "Tooltip": "voluptatem",
+  "Id": 334,
+  "Name": "Huel Inc and Sons",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 380,
+  "Rank": 339,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldLength": 341
     }
   },
   "_Links": {

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 145,
-  "Name": "Schaden Inc and Sons",
-  "Tooltip": "est",
+  "Id": 683,
+  "Name": "Kub Group",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 957,
-  "IsCustomList": false,
+  "Rank": 391,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "pariatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldLength": 75
     }
   },
   "_Links": {

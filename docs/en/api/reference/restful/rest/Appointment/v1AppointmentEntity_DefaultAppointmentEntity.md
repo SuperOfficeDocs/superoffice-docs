@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 16 Nov 2002 11:16:13 G11T
+Last-Modified: Wed, 29 Dec 2010 12:57:41 G12T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-02-17T11:16:13.5737173+01:00",
-  "AppointmentId": 572,
-  "Description": "Phased multi-tasking collaboration",
-  "Title": "quia",
-  "Agenda": "ex",
-  "InternalNotes": "et",
-  "StartDate": "2012-11-15T11:16:13.5737173+01:00",
-  "EndDate": "2002-05-08T11:16:13.5737173+02:00",
+  "CreatedDate": "2007-01-05T12:57:41.7604752+01:00",
+  "AppointmentId": 194,
+  "Description": "User-centric real-time interface",
+  "Title": "occaecati",
+  "Agenda": "eius",
+  "InternalNotes": "consequuntur",
+  "StartDate": "2023-09-05T12:57:41.7604752+02:00",
+  "EndDate": "2022-07-29T12:57:41.7604752+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 384,
+  "MotherId": 463,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-11-16T11:16:13.5737173+01:00",
+  "UpdatedDate": "2010-12-29T12:57:41.7604752+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 884,
+  "ActiveLinks": 356,
   "Links": [
     {
-      "EntityName": "Wyman Group",
-      "Id": 513,
-      "Description": "Extended executive software",
-      "ExtraInfo": "quia",
-      "LinkId": 430,
+      "EntityName": "Christiansen Inc and Sons",
+      "Id": 279,
+      "Description": "Fully-configurable tangible monitoring",
+      "ExtraInfo": "ut",
+      "LinkId": 591,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldType": "System.String",
+          "FieldLength": 118
         }
       }
     }
   ],
-  "AlarmLeadTime": "facilis",
+  "AlarmLeadTime": "quidem",
   "HasAlarm": false,
-  "ColorIndex": 721,
-  "IsFree": true,
+  "ColorIndex": 70,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "quos",
-  "LeadTime": "qui",
-  "Location": "est",
-  "RejectCounter": 413,
+  "LagTime": "deleniti",
+  "LeadTime": "quibusdam",
+  "Location": "corporis",
+  "RejectCounter": 985,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 383,
-      "PersonId": 799,
-      "ContactId": 887,
-      "EmailId": 728,
+      "AssociateId": 258,
+      "PersonId": 477,
+      "ContactId": 6,
+      "EmailId": 360,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "montana_crist@runolfssonharber.info",
-      "Description": "Compatible optimizing encryption"
+      "EmailAddress": "yasmeen@bayerbahringer.biz",
+      "Description": "Reduced disintermediate methodology"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-01-21T11:16:13.5737173+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2016-11-05T12:57:41.7604752+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 245,
+  "PreferredTZLocation": 638,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 479,
+  "SuggestedAppointmentId": 408,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "omnis",
+  "CentralserviceVideomeetId": "ab",
   "UserDefinedFields": {
-    "SuperOffice:1": "100979428",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Kenyatta Waelchi V",
+    "SuperOffice:2": "1618249687"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "ut"
+    "CustomFields1": "sint",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2007-07-07T11:16:13.5737173+02:00",
-  "PublishTo": "2006-05-07T11:16:13.5737173+02:00",
-  "PublishFrom": "2000-08-07T11:16:13.5737173+02:00",
+  "PublishEventDate": "2014-08-14T12:57:41.7604752+02:00",
+  "PublishTo": "1998-03-04T12:57:41.7604752+01:00",
+  "PublishFrom": "2005-11-30T12:57:41.7604752+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 601,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 251
         }
       }
     },
     {
-      "VisibleId": 601,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 251
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Sat, 16 Nov 2002 11:16:13 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

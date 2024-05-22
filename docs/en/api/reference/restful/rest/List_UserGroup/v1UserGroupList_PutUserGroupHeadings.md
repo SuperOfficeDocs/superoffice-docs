@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 325,
-    "Name": "Wolf, Stanton and Rogahn",
-    "Tooltip": "explicabo",
+    "HeadingId": 790,
+    "Name": "Grady Inc and Sons",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 4,
-    "UdListDefinitionId": 537
+    "Rank": 447,
+    "UdListDefinitionId": 238
   },
   {
-    "HeadingId": 325,
-    "Name": "Wolf, Stanton and Rogahn",
-    "Tooltip": "explicabo",
+    "HeadingId": 790,
+    "Name": "Grady Inc and Sons",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 4,
-    "UdListDefinitionId": 537
+    "Rank": 447,
+    "UdListDefinitionId": 238
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 441,
-    "Name": "Dach Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 793,
-    "UdListDefinitionId": 526,
+    "HeadingId": 507,
+    "Name": "Kreiger-Bergnaum",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "Rank": 189,
+    "UdListDefinitionId": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldType": "System.String",
+        "FieldLength": 409
       }
     }
   }

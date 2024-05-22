@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Johnston-Mosciski",
-    "ToolTip": "Aut quia perferendis voluptatum tempore aut natus aut.",
-    "Deleted": false,
-    "Rank": 14,
-    "Type": "perferendis",
-    "ColorBlock": 70,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2009-04-03T11:16:14.8401403+02:00",
+    "Id": 289,
+    "Name": "Crona-Littel",
+    "ToolTip": "Quia pariatur.",
+    "Deleted": true,
+    "Rank": 231,
+    "Type": "sunt",
+    "ColorBlock": 962,
+    "IconHint": "architecto",
+    "Selected": true,
+    "LastChanged": "2001-11-23T12:57:43.7926038+01:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Dicki Inc and Sons",
-        "ToolTip": "Consequatur nesciunt.",
-        "Deleted": false,
-        "Rank": 804,
-        "Type": "numquam",
-        "ColorBlock": 731,
-        "IconHint": "neque",
-        "Selected": true,
-        "LastChanged": "2021-08-15T11:16:14.8401403+02:00",
+        "Id": 846,
+        "Name": "Herzog-Cronin",
+        "ToolTip": "Pariatur non.",
+        "Deleted": true,
+        "Rank": 935,
+        "Type": "autem",
+        "ColorBlock": 416,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2021-01-09T12:57:43.7926038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Prof. Cleta Miller DVM"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Cecilia Boyle"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "unde",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Zita Fae Adams IV"
+    "FullName": "Mrs. Janis Wuckert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Kemmer, Bauch and Mraz",
-    "ToolTip": "Voluptates dolor est iste omnis sit ipsa.",
+    "Id": 86,
+    "Name": "Kulas, Goodwin and Fisher",
+    "ToolTip": "Autem beatae quos.",
     "Deleted": false,
-    "Rank": 352,
-    "Type": "eum",
-    "ColorBlock": 356,
-    "IconHint": "vero",
-    "Selected": false,
-    "LastChanged": "1997-07-15T11:16:14.8401403+02:00",
+    "Rank": 502,
+    "Type": "rerum",
+    "ColorBlock": 189,
+    "IconHint": "ex",
+    "Selected": true,
+    "LastChanged": "1997-09-13T12:57:43.7926038+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Leffler LLC",
-        "ToolTip": "Sapiente non blanditiis sequi officia.",
-        "Deleted": true,
-        "Rank": 641,
-        "Type": "voluptatibus",
-        "ColorBlock": 511,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2011-02-02T11:16:14.8401403+01:00",
+        "Id": 68,
+        "Name": "Auer Group",
+        "ToolTip": "Architecto dicta ea dolorem illo.",
+        "Deleted": false,
+        "Rank": 328,
+        "Type": "minima",
+        "ColorBlock": 274,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2007-08-07T12:57:43.7926038+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "ratione",
-        "Hidden": true,
-        "FullName": "Dr. Austen Graham",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Prof. Ephraim King Doyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldLength": 802
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "qui",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Nichole Spencer",
+    "FullName": "Jordan Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldType": "System.String",
+        "FieldLength": 530
       }
     }
   }

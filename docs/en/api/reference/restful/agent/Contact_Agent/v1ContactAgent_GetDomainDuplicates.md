@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "dolorem"
+  "Domain": "in"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mitchell, Nolan and Welch",
-    "SoPrimaryKey": 697,
-    "EntryName": "Hyatt Group",
-    "EntryIdentifier": "doloribus",
-    "RuleDisplayName": "Marks-Quigley",
+    "RuleName": "Pacocha LLC",
+    "SoPrimaryKey": 358,
+    "EntryName": "Stracke, Goldner and Jerde",
+    "EntryIdentifier": "magni",
+    "RuleDisplayName": "Prohaska Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldLength": 794
       }
     }
   }

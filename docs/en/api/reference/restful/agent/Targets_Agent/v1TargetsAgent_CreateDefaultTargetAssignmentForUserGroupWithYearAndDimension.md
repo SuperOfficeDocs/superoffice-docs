@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 672,
-  "Year": 2,
-  "TargetDimensionId": 642
+  "UserGroupId": 615,
+  "Year": 762,
+  "TargetDimensionId": 175
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 478,
+    "TargetAssignmentInfoId": 612,
     "Values": [
-      498,
-      677
+      421,
+      97
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 277,
-    "DimensionListItemDisplayName": "Beatty-Stracke",
+    "DimensionListItem": 423,
+    "DimensionListItemDisplayName": "Schowalter-Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldLength": 859
       }
     }
   }

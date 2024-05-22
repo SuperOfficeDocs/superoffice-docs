@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 123,
-    "Name": "Bode, Prohaska and Schuster",
-    "Tooltip": "corporis",
+    "HeadingId": 780,
+    "Name": "Wyman, Oberbrunner and Ullrich",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "Rank": 605,
-    "UdListDefinitionId": 425,
+    "Rank": 967,
+    "UdListDefinitionId": 811,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 148
       }
     }
   }

@@ -76,6 +76,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
 |projectAssociate/locationAddress|string|Location: Location| x |
+|projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |project/textId|int|Text ID| x |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |selectionId|int|Selection ID: The database ID of the selection|  |
@@ -89,7 +90,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectStaticSelectionV2?$select=projectAssociate/ejStatus,nextMilestone,projectAssociate/title
+GET /api/v1/archive/AssociateProjectStaticSelectionV2?$select=endDate,projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

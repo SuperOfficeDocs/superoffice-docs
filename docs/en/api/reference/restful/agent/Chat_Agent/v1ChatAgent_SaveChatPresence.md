@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 261,
-      "DisplayName": "Schmitt, Jewess and Jacobi",
-      "OngoingChats": 54,
+      "UserId": 80,
+      "DisplayName": "Schinner Group",
+      "OngoingChats": 477,
       "Present": false,
       "ChatTopics": [
-        960,
-        876
+        425,
+        496
       ]
     },
     {
-      "UserId": 261,
-      "DisplayName": "Schmitt, Jewess and Jacobi",
-      "OngoingChats": 54,
+      "UserId": 80,
+      "DisplayName": "Schinner Group",
+      "OngoingChats": 477,
       "Present": false,
       "ChatTopics": [
-        960,
-        876
+        425,
+        496
       ]
     }
   ]

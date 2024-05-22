@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 422
+  "QuoteVersionId": 559
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 578,
-  "ERPQuoteVersionKey": "enim",
-  "QuoteId": 714,
-  "Description": "Integrated multi-state attitude",
-  "Number": "381895",
+  "QuoteVersionId": 901,
+  "ERPQuoteVersionKey": "culpa",
+  "QuoteId": 935,
+  "Description": "Automated well-modulated website",
+  "Number": "443260",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 187,
-  "SentDate": "2002-08-19T11:16:09.5848946+02:00",
-  "FollowupId": 812,
-  "ExpirationDate": "2016-09-01T11:16:09.5848946+02:00",
-  "DeliveryCountryId": 371,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 359,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "veritatis",
-  "ERPPaymentTypeKey": "quod",
-  "ERPDeliveryTermsKey": "deserunt",
-  "ERPDeliveryTypeKey": "distinctio",
-  "Rank": 986,
-  "ApprovedBy": 139,
-  "ApprovedText": "est",
-  "ApprovedRegisteredBy": 650,
-  "ApprovedRegisteredDate": "2008-10-10T11:16:09.5848946+02:00",
-  "ExtraField1": "veniam",
-  "ExtraField2": "earum",
-  "ExtraField3": "quia",
-  "ExtraField4": "quas",
-  "ExtraField5": "corrupti",
-  "LastRecalculated": "2005-10-23T11:16:09.5848946+02:00",
-  "Updated": "2007-03-28T11:16:09.5848946+02:00",
-  "UpdatedAssociateId": 620,
-  "Registered": "2005-02-21T11:16:09.5848946+01:00",
-  "RegisteredAssociateId": 466,
-  "RequestAssociateId": 801,
-  "RequestComment": "ut",
+  "LikelyQuoteAlternativeId": 52,
+  "SentDate": "1998-05-23T12:57:34.6959481+02:00",
+  "FollowupId": 603,
+  "ExpirationDate": "2013-02-18T12:57:34.6959481+01:00",
+  "DeliveryCountryId": 905,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 794,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "perspiciatis",
+  "ERPPaymentTypeKey": "at",
+  "ERPDeliveryTermsKey": "consectetur",
+  "ERPDeliveryTypeKey": "ut",
+  "Rank": 655,
+  "ApprovedBy": 443,
+  "ApprovedText": "repudiandae",
+  "ApprovedRegisteredBy": 770,
+  "ApprovedRegisteredDate": "2016-09-05T12:57:34.6959481+02:00",
+  "ExtraField1": "itaque",
+  "ExtraField2": "ut",
+  "ExtraField3": "consequuntur",
+  "ExtraField4": "voluptas",
+  "ExtraField5": "vero",
+  "LastRecalculated": "2015-05-01T12:57:34.6959481+02:00",
+  "Updated": "2011-11-27T12:57:34.6959481+01:00",
+  "UpdatedAssociateId": 413,
+  "Registered": "2004-01-17T12:57:34.6959481+01:00",
+  "RegisteredAssociateId": 12,
+  "RequestAssociateId": 733,
+  "RequestComment": "inventore",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 256,
-      "ERPQuoteAlternativeKey": "voluptatem",
-      "QuoteVersionId": 855,
-      "Name": "Koss, Corwin and Jenkins",
-      "Description": "Optimized analyzing application",
+      "QuoteAlternativeId": 228,
+      "ERPQuoteAlternativeKey": "consequatur",
+      "QuoteVersionId": 964,
+      "Name": "Lynch Group",
+      "Description": "Polarised attitude-oriented concept",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20615.452,
-      "ERPDiscountAmount": 7377.436,
-      "DiscountPercent": 11529.985999999999,
-      "DiscountAmount": 2284.686,
+      "ERPDiscountPercent": 7991.7,
+      "ERPDiscountAmount": 2673.302,
+      "DiscountPercent": 20787.822,
+      "DiscountAmount": 4939.184,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quos",
-      "VAT": 23733.782,
-      "EarningPercent": 4713.536,
-      "EarningAmount": 15199.9,
-      "SubTotal": 21367.612,
-      "TotalPrice": 4581.9079999999994,
-      "ExtraField1": "aut",
-      "ExtraField2": "ea",
-      "ExtraField3": "sit",
-      "ExtraField4": "enim",
-      "ExtraField5": "dolore",
+      "VATInfo": "qui",
+      "VAT": 5540.912,
+      "EarningPercent": 25031.257999999998,
+      "EarningAmount": 10846.774,
+      "SubTotal": 15052.601999999999,
+      "TotalPrice": 8386.5839999999989,
+      "ExtraField1": "omnis",
+      "ExtraField2": "amet",
+      "ExtraField3": "est",
+      "ExtraField4": "reiciendis",
+      "ExtraField5": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 61
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 860
     }
   }
 }

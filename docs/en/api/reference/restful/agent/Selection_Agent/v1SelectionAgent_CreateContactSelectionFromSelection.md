@@ -74,7 +74,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 613,
-  "Name": "Cremin Inc and Sons",
+  "SelectionId": 256,
+  "Name": "Wehner-Bayer",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected non-volatile success",
-  "Postit": "eligendi",
+  "Description": "Open-source user-facing protocol",
+  "Postit": "saepe",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 756,
-  "IncludePerson": 61,
-  "MemberCount": 129,
-  "Name": "Jewess, Buckridge and Murphy",
-  "PostitTextId": 314,
-  "CreatedDate": "2013-03-21T11:16:09.7103639+01:00",
-  "SelectionId": 567,
-  "SoundEx": "assumenda",
-  "Source": 728,
-  "TextId": 614,
-  "UpdatedDate": "2003-05-23T11:16:09.7103639+02:00",
-  "UpdatedCount": 176,
-  "Visibility": 290,
+  "GroupIdx": 624,
+  "IncludePerson": 201,
+  "MemberCount": 99.99,
+  "Name": "Schuster, Armstrong and Batz",
+  "PostitTextId": 255,
+  "CreatedDate": "1999-08-05T12:57:34.9145867+02:00",
+  "SelectionId": 924,
+  "SoundEx": "et",
+  "Source": 347,
+  "TextId": 105,
+  "UpdatedDate": "2022-12-28T12:57:34.9145867+01:00",
+  "UpdatedCount": 369,
+  "Visibility": 309,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 767,
-  "TargetTableName": "Jewess-Boyer",
+  "TargetTableNumber": 484,
+  "TargetTableName": "Cormier, Heller and Barrows",
   "Completed": false,
-  "LeftSelectionId": 417,
-  "RightSelectionId": 71,
+  "LeftSelectionId": 80,
+  "RightSelectionId": 456,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Tromp Group",
-  "ShadowProviderName": "Wilderman-Wisozk",
-  "ChartKey": "autem",
-  "LastLoaded": "2006-12-30T11:16:09.7103639+01:00",
-  "LastLoadedBy": 174,
+  "MainProviderName": "Lindgren Group",
+  "ShadowProviderName": "Kihn-Wintheiser",
+  "ChartKey": "cum",
+  "LastLoaded": "2019-01-09T12:57:34.9145867+01:00",
+  "LastLoadedBy": 404,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-04-05T11:16:09.7103639+02:00",
-  "LastMembershipChangeBy": 779,
+  "LastMembershipChange": "2017-03-27T12:57:34.9145867+02:00",
+  "LastMembershipChangeBy": 541,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolorem",
-  "MemberTabHeading": "quasi",
-  "MailingsProviderName": "Gutkowski, Torphy and Aufderhar",
-  "DashboardTileDefinitionId": 86,
+  "MainHeading": "odit",
+  "MemberTabHeading": "nesciunt",
+  "MailingsProviderName": "Mitchell Group",
+  "DashboardTileDefinitionId": 240,
   "VisibleFor": [
     {
-      "VisibleId": 168,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 33
         }
       }
     },
     {
-      "VisibleId": 168,
+      "VisibleId": 784,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 33
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 353
     }
   }
 }

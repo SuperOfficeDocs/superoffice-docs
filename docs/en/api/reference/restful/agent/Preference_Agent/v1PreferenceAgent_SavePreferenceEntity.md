@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dignissimos",
+  "RawValue": "eos",
   "Specification": null,
-  "DisplayValue": "quae",
-  "DisplayTooltip": "et",
+  "DisplayValue": "deleniti",
+  "DisplayTooltip": "ut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 620,
-  "PrefDescId": 377,
-  "TableName": "Mayer-Grant",
-  "UserPreferenceId": 665,
+  "TargetId": 157,
+  "PrefDescId": 238,
+  "TableName": "Kautzer, Stoltenberg and Heidenreich",
+  "UserPreferenceId": 703,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldLength": 408
     }
   }
 }

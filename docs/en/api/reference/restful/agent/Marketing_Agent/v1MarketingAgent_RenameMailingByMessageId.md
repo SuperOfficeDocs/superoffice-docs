@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 446,
-  "Name": "Zulauf-Greenholt"
+  "MessageId": 597,
+  "Name": "Nikolaus, Sporer and Lehner"
 }
 ```
 

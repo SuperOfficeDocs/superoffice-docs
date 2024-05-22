@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Monahan, Feeney and Grady",
-  "ProviderName": "Blanda, Gleason and Mitchell",
-  "Context": "aliquid",
-  "OwnerKeys": "dignissimos"
+  "GuiName": "Oberbrunner, Stark and Stark",
+  "ProviderName": "Schaefer Inc and Sons",
+  "Context": "non",
+  "OwnerKeys": "quas"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hane-Daugherty",
-      "DisplayTooltip": "sint",
-      "DisplayType": "voluptatum",
+      "DisplayName": "Hintz Group",
+      "DisplayTooltip": "blanditiis",
+      "DisplayType": "quis",
       "CanOrderBy": false,
-      "Name": "Shields-Smith",
-      "CanRestrictBy": true,
-      "RestrictionType": "id",
-      "RestrictionListName": "Harber, Hermiston and Ondricka",
-      "IsVisible": false,
-      "ExtraInfo": "eius",
-      "Width": "praesentium",
-      "IconHint": "illo",
-      "HeadingIconHint": "consequatur"
+      "Name": "Ward-Watsica",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Jacobs Group",
+      "IsVisible": true,
+      "ExtraInfo": "corrupti",
+      "Width": "animi",
+      "IconHint": "sint",
+      "HeadingIconHint": "aspernatur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 683,
-      "Name": "Lakin-Lehner",
-      "ToolTip": "Quo mollitia sunt.",
+      "Id": 559,
+      "Name": "Satterfield, Dickinson and Boyer",
+      "ToolTip": "Eos nihil omnis deleniti occaecati eum expedita quos.",
       "Deleted": false,
-      "Rank": 62,
-      "Type": "sapiente",
-      "ColorBlock": 848,
-      "IconHint": "pariatur",
+      "Rank": 914,
+      "Type": "et",
+      "ColorBlock": 27,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "2020-06-06T11:16:08.7097813+02:00",
+      "LastChanged": "1998-11-16T12:57:33.2116147+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maxime",
-      "StyleHint": "ut",
+      "ExtraInfo": "quod",
+      "StyleHint": "facilis",
       "Hidden": false,
-      "FullName": "Ms. Billie Daniel",
+      "FullName": "Mr. Eldon Stefanie Howell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 826
+          "FieldType": "System.Int32",
+          "FieldLength": 857
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Daniel Inc and Sons",
+      "Name": "Herzog Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Daniel Inc and Sons",
+      "Name": "Herzog Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "in",
+  "OwnerKeys": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 289
     }
   }
 }

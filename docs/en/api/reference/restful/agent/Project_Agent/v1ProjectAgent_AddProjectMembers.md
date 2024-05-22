@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 329,
+  "ProjectEntityId": 870,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 797,
-      "ContactId": 658,
-      "ProjectId": 32,
-      "ContactName": "Blanda-Dicki",
+      "ProjectmemberId": 450,
+      "ContactId": 547,
+      "ProjectId": 656,
+      "ContactName": "Ortiz Inc and Sons",
       "ContactDepartment": "",
-      "ProjectName": "Ondricka Inc and Sons",
-      "EmailId": 853,
-      "EmailAddress": "bridgette_fisher@wolf.name",
-      "CountryId": 695,
-      "Firstname": "Eda",
-      "MiddleName": "Parisian Inc and Sons",
-      "Lastname": "Marvin",
-      "PersonId": 643,
-      "Mrmrs": "ipsam",
-      "ProjectMemberTypeName": "Bailey Inc and Sons",
-      "Phone": "1-099-974-8554 x110",
-      "PhoneId": 821,
-      "ProjectMemberTypeId": 753,
-      "EmailAddressName": "drew.reilly@batz.com",
-      "Comment": "quis",
-      "FullName": "Lori Huels"
+      "ProjectName": "White, Gusikowski and Emard",
+      "EmailId": 923,
+      "EmailAddress": "demetris.moore@predovic.biz",
+      "CountryId": 748,
+      "Firstname": "Barrett",
+      "MiddleName": "Kovacek, Von and Pfannerstill",
+      "Lastname": "Hammes",
+      "PersonId": 494,
+      "Mrmrs": "assumenda",
+      "ProjectMemberTypeName": "Cormier-Schamberger",
+      "Phone": "950-591-0282 x785",
+      "PhoneId": 748,
+      "ProjectMemberTypeId": 516,
+      "EmailAddressName": "maximillian_ward@mclaughlinkirlin.us",
+      "Comment": "sunt",
+      "FullName": "Ms. Noe Bradtke II"
     }
   ]
 }

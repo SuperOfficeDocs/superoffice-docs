@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 351,
+  "DocumentPluginId": 256,
   "IncludeEmails": true
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 884,
-  "NumDocumentsAlreadyMigrated": 346,
+  "NumDocumentsOmitted": 334,
+  "NumDocumentsAlreadyMigrated": 358,
   "Documents": [
     {
-      "DocumentId": 291,
-      "ContactId": 234,
-      "PersonId": 700,
-      "SaleId": 293,
-      "ProjectId": 264,
-      "DocTmplId": 374,
-      "AssociateId": 736,
-      "UserGroupId": 247,
-      "VisibleForId": 768
+      "DocumentId": 191,
+      "ContactId": 514,
+      "PersonId": 837,
+      "SaleId": 360,
+      "ProjectId": 779,
+      "DocTmplId": 510,
+      "AssociateId": 92,
+      "UserGroupId": 472,
+      "VisibleForId": 908
     }
   ],
   "Associates": [
     {
-      "AssociateId": 308,
-      "EmailAddress": "elsa_jenkins@schmelernikolaus.uk"
+      "AssociateId": 788,
+      "EmailAddress": "myrtie@dicki.us"
     },
     {
-      "AssociateId": 308,
-      "EmailAddress": "elsa_jenkins@schmelernikolaus.uk"
+      "AssociateId": 788,
+      "EmailAddress": "myrtie@dicki.us"
     }
   ]
 }

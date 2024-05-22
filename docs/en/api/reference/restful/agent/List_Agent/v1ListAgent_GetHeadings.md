@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 272,
-  "ListItemId": 743,
+  "UdListDefinitionId": 655,
+  "ListItemId": 676,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Gerhold, Fadel and Mayer",
-    "ToolTip": "Enim cupiditate.",
-    "Deleted": false,
-    "Rank": 679,
-    "Type": "vel",
-    "ColorBlock": 148,
-    "IconHint": "nisi",
+    "Id": 247,
+    "Name": "Dach, Jaskolski and Bernier",
+    "ToolTip": "Et delectus sunt ipsum quae.",
+    "Deleted": true,
+    "Rank": 148,
+    "Type": "deserunt",
+    "ColorBlock": 663,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2016-07-12T11:16:09.3347069+02:00",
+    "LastChanged": "1997-12-20T12:57:34.1492269+01:00",
     "ChildItems": [
       {
-        "Id": 529,
-        "Name": "Kris-DuBuque",
-        "ToolTip": "Harum perferendis quisquam dolor quisquam quisquam esse maxime.",
+        "Id": 7,
+        "Name": "Pagac LLC",
+        "ToolTip": "Animi quae.",
         "Deleted": false,
-        "Rank": 39,
-        "Type": "architecto",
-        "ColorBlock": 472,
-        "IconHint": "doloremque",
+        "Rank": 112,
+        "Type": "exercitationem",
+        "ColorBlock": 11,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2021-03-15T11:16:09.3347069+01:00",
+        "LastChanged": "2010-10-05T12:57:34.1492269+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Ms. Brady Wiza Sr.",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Prof. Gertrude Corine Hodkiewicz V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 568
+            "FieldType": "System.Int32",
+            "FieldLength": 972
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "facere",
+    "ExtraInfo": "quia",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Mrs. Nadia Doyle PhD",
+    "FullName": "Abdullah Fisher PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 84
       }
     }
   }

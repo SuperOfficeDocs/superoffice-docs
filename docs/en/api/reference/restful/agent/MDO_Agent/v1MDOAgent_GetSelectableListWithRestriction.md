@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tillman, McGlynn and Marquardt",
-  "AdditionalInfo": "voluptas",
-  "SearchValue": "dolor"
+  "Name": "Stark Group",
+  "AdditionalInfo": "consequatur",
+  "SearchValue": "alias"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Hammes, Marquardt and Bauch",
-    "ToolTip": "Qui voluptate et vel aut quaerat quis.",
-    "Deleted": false,
-    "Rank": 465,
-    "Type": "velit",
-    "ColorBlock": 521,
-    "IconHint": "quia",
+    "Id": 317,
+    "Name": "Brown LLC",
+    "ToolTip": "Ipsam occaecati.",
+    "Deleted": true,
+    "Rank": 70,
+    "Type": "cupiditate",
+    "ColorBlock": 768,
+    "IconHint": "mollitia",
     "Selected": true,
-    "LastChanged": "1998-04-04T11:16:09.3972026+02:00",
+    "LastChanged": "1998-07-13T12:57:34.3835501+02:00",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Jaskolski, Bruen and Kub",
-        "ToolTip": "Dolorum rem laborum est error quas.",
+        "Id": 838,
+        "Name": "Adams Inc and Sons",
+        "ToolTip": "Qui eum sequi excepturi et exercitationem.",
         "Deleted": false,
-        "Rank": 467,
-        "Type": "exercitationem",
-        "ColorBlock": 739,
-        "IconHint": "repudiandae",
+        "Rank": 338,
+        "Type": "dolorem",
+        "ColorBlock": 373,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "1999-12-14T11:16:09.3972026+01:00",
+        "LastChanged": "2002-08-02T12:57:34.3835501+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "suscipit",
-        "Hidden": true,
-        "FullName": "Erica Stracke",
+        "ExtraInfo": "vero",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Alyson Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 97
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Mohamed Pacocha",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Ms. Dillan Orn Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 9
       }
     }
   }

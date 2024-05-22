@@ -70,18 +70,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Runolfsson LLC",
+  "ProviderName": "Wolf LLC",
   "Restrictions": [
     {
-      "Name": "Bradtke, Hagenes and Ruecker",
-      "Operator": "ut",
+      "Name": "Streich Inc and Sons",
+      "Operator": "sunt",
       "Values": [
-        "est",
-        "molestiae"
+        "neque",
+        "ratione"
       ],
       "DisplayValues": [
-        "nam",
-        "est"
+        "quod",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 698,
+      "InterParenthesis": 713,
       "InterOperator": "And",
-      "UniqueHash": 863
+      "UniqueHash": 403
     }
   ],
-  "AssociateId": 995
+  "AssociateId": 49
 }
 ```
 

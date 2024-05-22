@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 542,
-  "Name": "Gorczany Inc and Sons",
-  "Rank": 735,
-  "Tooltip": "atque",
+  "AssociateId": 551,
+  "Name": "Orn LLC",
+  "Rank": 514,
+  "Tooltip": "nisi",
   "LicenseOwners": [
     {
-      "Name": "Price-Haley",
-      "Description": "Public-key explicit methodology",
+      "Name": "Kuhlman Group",
+      "Description": "Multi-tiered impactful strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 632
         }
       }
     },
     {
-      "Name": "Price-Haley",
-      "Description": "Public-key explicit methodology",
+      "Name": "Kuhlman Group",
+      "Description": "Multi-tiered impactful strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 632
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sit",
-      "Tooltip": "enim",
-      "Id": 194,
-      "Rank": 52,
-      "Deleted": true,
+      "Value": "qui",
+      "Tooltip": "aut",
+      "Id": 856,
+      "Rank": 865,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldType": "System.Int32",
+          "FieldLength": 547
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2013-05-20T11:16:14.4188485+02:00",
-  "Lastlogout": "1999-03-21T11:16:14.4188485+01:00",
-  "EjUserId": 447,
-  "RequestSignature": "illo",
+  "Lastlogin": "1997-04-29T12:57:43.2146111+02:00",
+  "Lastlogout": "2013-01-13T12:57:43.2146111+01:00",
+  "EjUserId": 451,
+  "RequestSignature": "in",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "accusantium",
-      "DisplayValue": "nihil",
+      "Value": "nam",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 645
+          "FieldLength": 269
         }
       }
     },
     {
       "Type": null,
-      "Value": "accusantium",
-      "DisplayValue": "nihil",
+      "Value": "nam",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 645
+          "FieldLength": 269
         }
       }
     }
   ],
-  "UserName": "O'Conner Inc and Sons",
+  "UserName": "Herzog Group",
   "TicketCategories": [
     {
-      "Id": 694,
-      "Name": "Heathcote-Daugherty",
-      "ToolTip": "Aperiam ratione.",
+      "Id": 528,
+      "Name": "Abshire, Mayert and Bartoletti",
+      "ToolTip": "Officiis iste rem earum et iste.",
       "Deleted": false,
-      "Rank": 2,
-      "Type": "aspernatur",
+      "Rank": 411,
+      "Type": "animi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 147,
-      "ExtraInfo": "qui",
-      "StyleHint": "sequi",
-      "FullName": "Jalon Blick",
+      "IconHint": "at",
+      "ColorBlock": 872,
+      "ExtraInfo": "illo",
+      "StyleHint": "voluptatem",
+      "FullName": "Andreane Skiles",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldType": "System.String",
+          "FieldLength": 961
         }
       }
     }
   ],
-  "NickName": "Rodriguez-Hoppe",
-  "WaitingForApproval": true,
+  "NickName": "Mante-Tremblay",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "asperiores"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
     "CustomFields1": "eos",
-    "CustomFields2": "esse"
+    "CustomFields2": "qui"
   },
   "PostSaveCommands": [
     {
-      "Name": "Deckow, Conroy and Anderson",
-      "DisplayName": "Kuvalis LLC",
-      "Description": "Right-sized discrete adapter",
-      "ToolTip": "Voluptas expedita ea dolorem.",
+      "Name": "Ryan-Hills",
+      "DisplayName": "Koelpin LLC",
+      "Description": "De-engineered bandwidth-monitored protocol",
+      "ToolTip": "Saepe iusto cumque nihil molestiae quo est recusandae.",
       "Actions": "Implicit",
-      "ActionData": "magni",
+      "ActionData": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 744
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   },
   "_Links": {

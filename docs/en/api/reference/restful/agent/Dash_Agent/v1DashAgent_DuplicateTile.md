@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 209,
-  "Name": "Schinner Group"
+  "DashTileId": 93,
+  "Name": "Auer-Leannon"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 439,
-  "DashboardId": 104,
-  "Height": 976,
-  "Width": 793,
-  "Rank": 880,
+  "DashboardTileId": 188,
+  "DashboardId": 262,
+  "Height": 24,
+  "Width": 923,
+  "Rank": 175,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 125
     }
   }
 }

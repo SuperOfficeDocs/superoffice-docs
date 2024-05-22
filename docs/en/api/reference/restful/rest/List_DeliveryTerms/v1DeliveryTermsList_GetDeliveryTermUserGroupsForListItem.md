@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Strosin LLC",
-    "ToolTip": "Temporibus culpa delectus.",
+    "Id": 845,
+    "Name": "Strosin Inc and Sons",
+    "ToolTip": "Ipsa quasi molestiae assumenda.",
     "Deleted": false,
-    "Rank": 243,
-    "Type": "eius",
-    "ColorBlock": 161,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2001-08-30T11:16:14.5589219+02:00",
+    "Rank": 706,
+    "Type": "aliquam",
+    "ColorBlock": 280,
+    "IconHint": "nemo",
+    "Selected": true,
+    "LastChanged": "2006-03-05T12:57:43.4333137+01:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Braun-Bartell",
-        "ToolTip": "Quas enim quo et aut architecto cumque.",
+        "Id": 596,
+        "Name": "Schuster-Hartmann",
+        "ToolTip": "Quam consequuntur maiores debitis.",
         "Deleted": false,
-        "Rank": 598,
-        "Type": "excepturi",
-        "ColorBlock": 570,
-        "IconHint": "fugit",
+        "Rank": 77,
+        "Type": "in",
+        "ColorBlock": 163,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2001-01-02T11:16:14.5589219+01:00",
+        "LastChanged": "1998-03-26T12:57:43.4333137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "animi",
+        "ExtraInfo": "qui",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Haylie Willms",
+        "FullName": "Mr. Blair Ruecker MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 298
+            "FieldType": "System.Int32",
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "aut",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Avery Eichmann",
+    "FullName": "Duane Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 169
       }
     }
   }

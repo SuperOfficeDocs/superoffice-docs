@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 179,
-  "Filter": "quo"
+  "SelectionId": 465,
+  "Filter": "recusandae"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ernser Group",
-    "Operator": "sit",
+    "Name": "Hahn, Bechtelar and Stehr",
+    "Operator": "voluptas",
     "Values": [
-      "dolores",
-      "minus"
+      "labore",
+      "illo"
     ],
     "DisplayValues": [
-      "nemo",
-      "optio"
+      "dolorem",
+      "enim"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Sanford-Kemmer",
-        "Operator": "commodi",
+        "Name": "Wilkinson LLC",
+        "Operator": "nobis",
         "Values": [
-          "suscipit",
-          "et"
+          "quia",
+          "excepturi"
         ],
         "DisplayValues": [
-          "amet",
-          "amet"
+          "et",
+          "error"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 856,
+        "InterParenthesis": 406,
         "InterOperator": "And",
-        "UniqueHash": 255
+        "UniqueHash": 165
       }
     ],
-    "InterParenthesis": 507,
+    "InterParenthesis": 775,
     "InterOperator": "And",
-    "UniqueHash": 85
+    "UniqueHash": 226
   }
 ]
 ```

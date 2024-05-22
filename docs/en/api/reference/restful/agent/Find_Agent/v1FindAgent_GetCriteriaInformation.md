@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corrupti",
-  "ProviderName": "Lang Inc and Sons",
-  "StorageKey": "rem",
+  "StorageType": "eaque",
+  "ProviderName": "Renner-Fahey",
+  "StorageKey": "quibusdam",
   "StaticColumns": [
-    "non",
-    "quasi"
+    "provident",
+    "repudiandae"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hartmann-Lindgren",
-      "Operator": "eaque",
+      "Name": "Mayer, Conroy and Shields",
+      "Operator": "perferendis",
       "Values": [
-        "occaecati",
-        "pariatur"
+        "minima",
+        "quisquam"
       ],
       "DisplayValues": [
-        "non",
-        "quo"
+        "optio",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 121,
+      "InterParenthesis": 359,
       "InterOperator": "And",
-      "UniqueHash": 815
+      "UniqueHash": 204
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Tillman-Emmerich",
-      "DisplayTooltip": "nisi",
-      "DisplayType": "sint",
-      "CanOrderBy": false,
-      "Name": "McCullough-Bins",
-      "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Hermiston Inc and Sons",
+      "DisplayName": "Block-Breitenberg",
+      "DisplayTooltip": "dolor",
+      "DisplayType": "explicabo",
+      "CanOrderBy": true,
+      "Name": "Bradtke, Rogahn and Barrows",
+      "CanRestrictBy": true,
+      "RestrictionType": "dolorum",
+      "RestrictionListName": "Mills Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "ea",
-      "Width": "nemo",
-      "IconHint": "non",
-      "HeadingIconHint": "blanditiis"
+      "ExtraInfo": "consequuntur",
+      "Width": "fuga",
+      "IconHint": "quia",
+      "HeadingIconHint": "deserunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Gislason Group",
-      "PrimaryKey": 85,
+      "EntityName": "Leannon, Crona and Ortiz",
+      "PrimaryKey": 95,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "quo",
-          "LinkHint": "vitae"
+          "DisplayValue": "illo",
+          "TooltipHint": "molestiae",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "cum",
+      "LinkHint": "tempore",
+      "StyleHint": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 612
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rosenbaum LLC",
-      "Description": "User-friendly mobile framework",
-      "Rank": 974,
+      "Name": "Christiansen Group",
+      "Description": "Visionary explicit structure",
+      "Rank": 44,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rosenbaum LLC",
-      "Description": "User-friendly mobile framework",
-      "Rank": 974,
+      "Name": "Christiansen Group",
+      "Description": "Visionary explicit structure",
+      "Rank": 44,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

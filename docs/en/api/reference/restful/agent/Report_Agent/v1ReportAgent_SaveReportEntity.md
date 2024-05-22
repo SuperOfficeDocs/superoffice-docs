@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 537,
+  "ReportId": 894,
   "ReportCategory": "All",
-  "Description": "Customizable non-volatile encryption",
+  "Description": "Future-proofed local forecast",
   "ReportLayout": "CalendarMonth",
-  "Name": "Rosenbaum-Dibbert",
-  "AssociateId": 948,
-  "TemplateId": 330,
-  "Published": false
+  "Name": "Daniel, Effertz and Lind",
+  "AssociateId": 675,
+  "TemplateId": 271,
+  "Published": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 360,
+  "ReportId": 673,
   "ReportCategory": "All",
-  "Description": "Cross-platform optimizing knowledge base",
+  "Description": "Vision-oriented mission-critical Graphic Interface",
   "ReportLayout": "CalendarMonth",
-  "Name": "Cremin, Runolfsson and Feeney",
-  "AssociateId": 469,
-  "TemplateId": 904,
+  "Name": "McGlynn-Morar",
+  "AssociateId": 370,
+  "TemplateId": 218,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldLength": 989
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lubowitz, Corkery and Farrell",
-  "ListItemId": 992,
+  "UdListDefinitionName": "Kuhlman Inc and Sons",
+  "ListItemId": 46,
   "UserGroups": [
     {
-      "Id": 258,
-      "Name": "Hane, Feeney and Emmerich",
-      "ToolTip": "Doloremque pariatur.",
-      "Deleted": false,
-      "Rank": 949,
-      "Type": "enim",
-      "ColorBlock": 690,
-      "IconHint": "tenetur",
-      "Selected": true,
-      "LastChanged": "2003-03-28T11:16:09.3347069+01:00",
+      "Id": 820,
+      "Name": "Bosco Inc and Sons",
+      "ToolTip": "Laboriosam fuga rem quo nemo harum voluptates.",
+      "Deleted": true,
+      "Rank": 298,
+      "Type": "quod",
+      "ColorBlock": 277,
+      "IconHint": "occaecati",
+      "Selected": false,
+      "LastChanged": "2008-12-02T12:57:34.1492269+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "velit",
-      "Hidden": false,
-      "FullName": "Neoma Block"
+      "ExtraInfo": "beatae",
+      "StyleHint": "fugiat",
+      "Hidden": true,
+      "FullName": "Vernon Roberts"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Ferry, Kertzmann and McGlynn",
-    "ToolTip": "Fugit qui enim molestiae unde rerum.",
+    "Id": 861,
+    "Name": "Daugherty-Wyman",
+    "ToolTip": "Qui quasi quo similique.",
     "Deleted": false,
-    "Rank": 287,
-    "Type": "nemo",
-    "ColorBlock": 9,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "2019-06-29T11:16:09.3347069+02:00",
+    "Rank": 35,
+    "Type": "sunt",
+    "ColorBlock": 886,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2020-07-17T12:57:34.1492269+02:00",
     "ChildItems": [
       {
-        "Id": 381,
-        "Name": "Sanford Inc and Sons",
-        "ToolTip": "Ut similique consectetur quis deserunt similique.",
+        "Id": 89,
+        "Name": "Stroman LLC",
+        "ToolTip": "Et nostrum quo.",
         "Deleted": false,
-        "Rank": 460,
-        "Type": "quia",
-        "ColorBlock": 504,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2022-03-30T11:16:09.3347069+02:00",
+        "Rank": 325,
+        "Type": "id",
+        "ColorBlock": 887,
+        "IconHint": "ducimus",
+        "Selected": true,
+        "LastChanged": "2003-02-11T12:57:34.1492269+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cum",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "tempore",
         "Hidden": true,
-        "FullName": "Carol Schmeler",
+        "FullName": "Ms. Delbert Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldLength": 13
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "ad",
+    "ExtraInfo": "omnis",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Prof. Adela Dulce Pfeffer",
+    "FullName": "Ole Macejkovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 767
       }
     }
   }

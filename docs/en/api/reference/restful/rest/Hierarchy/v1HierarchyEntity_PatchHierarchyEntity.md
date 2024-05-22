@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "explicabo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "explicabo",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 366,
+  "HierarchyId": 531,
   "Domain": "Dashboards",
-  "Name": "Schultz, Keeling and Kessler",
-  "Fullname": "est",
-  "ParentId": 185,
+  "Name": "Wiza LLC",
+  "Fullname": "hic",
+  "ParentId": 998,
   "Children": [
     {
-      "HierarchyId": 168,
+      "HierarchyId": 400,
       "Domain": "Dashboards",
-      "Name": "Strosin-Berge",
-      "Fullname": "exercitationem",
-      "ParentId": 582,
+      "Name": "Hodkiewicz, Ebert and Romaguera",
+      "Fullname": "sed",
+      "ParentId": 649,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-12-07T11:16:13.93321+01:00",
-      "RegisteredAssociateId": 488,
-      "Updated": "2021-09-19T11:16:13.93321+02:00",
-      "UpdatedAssociateId": 711,
+      "Registered": "1998-06-29T12:57:42.4638774+02:00",
+      "RegisteredAssociateId": 161,
+      "Updated": "2024-04-10T12:57:42.4638774+02:00",
+      "UpdatedAssociateId": 684,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldType": "System.String",
+          "FieldLength": 260
         }
       }
     }
   ],
-  "Registered": "2002-02-16T11:16:13.93321+01:00",
-  "RegisteredAssociateId": 519,
-  "Updated": "2023-05-13T11:16:13.93321+02:00",
-  "UpdatedAssociateId": 793,
+  "Registered": "1999-04-01T12:57:42.4638774+02:00",
+  "RegisteredAssociateId": 151,
+  "Updated": "2022-11-25T12:57:42.4638774+01:00",
+  "UpdatedAssociateId": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 258
     }
   },
   "_Links": {

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Kihn, Schuster and Haley",
-    "Tooltip": "eius",
+    "Id": 207,
+    "Name": "Jones-Schowalter",
+    "Tooltip": "officia",
     "Deleted": false,
-    "UdListDefinitionId": 746,
-    "Rank": 815,
+    "UdListDefinitionId": 264,
+    "Rank": 452,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 916
       }
     }
   }

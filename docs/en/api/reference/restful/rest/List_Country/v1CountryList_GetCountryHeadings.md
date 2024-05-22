@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 939,
-    "Name": "McDermott Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 474,
+    "Name": "O'Keefe Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 886,
-    "UdListDefinitionId": 925,
+    "Rank": 13,
+    "UdListDefinitionId": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldLength": 529
       }
     }
   }

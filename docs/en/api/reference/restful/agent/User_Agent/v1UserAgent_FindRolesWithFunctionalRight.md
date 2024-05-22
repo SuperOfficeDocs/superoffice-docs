@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Mitchell-Dietrich"
+  "FunctionalRightName": "Corwin-Schaefer"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Keebler Group",
-    "ToolTip": "Illo dicta ea.",
+    "Id": 484,
+    "Name": "Willms Group",
+    "ToolTip": "Voluptatem veniam tempore.",
     "Deleted": false,
-    "Rank": 649,
-    "Type": "sequi",
+    "Rank": 887,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Emmerich, Schoen and Olson",
-        "ToolTip": "Inventore dolor id veniam cumque.",
+        "Id": 388,
+        "Name": "Jakubowski-Kemmer",
+        "ToolTip": "Tempore qui.",
         "Deleted": false,
-        "Rank": 875,
+        "Rank": 440,
         "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illum",
-        "ColorBlock": 467,
-        "ExtraInfo": "similique",
-        "StyleHint": "modi",
-        "FullName": "Prof. Constantin Howe",
+        "IconHint": "harum",
+        "ColorBlock": 663,
+        "ExtraInfo": "dolores",
+        "StyleHint": "dolorem",
+        "FullName": "Prof. Rubye Ashleigh Hayes PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 356
+            "FieldType": "System.Int32",
+            "FieldLength": 763
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 563,
-    "ExtraInfo": "quod",
-    "StyleHint": "hic",
-    "FullName": "Leon Ziemann",
+    "IconHint": "non",
+    "ColorBlock": 557,
+    "ExtraInfo": "eos",
+    "StyleHint": "temporibus",
+    "FullName": "Lilliana Green Batz II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 70
       }
     }
   }

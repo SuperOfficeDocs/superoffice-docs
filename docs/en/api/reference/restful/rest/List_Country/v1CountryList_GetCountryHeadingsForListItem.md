@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Anderson-Beier",
-    "ToolTip": "Alias illo.",
-    "Deleted": true,
-    "Rank": 864,
-    "Type": "alias",
-    "ColorBlock": 522,
-    "IconHint": "quasi",
-    "Selected": false,
-    "LastChanged": "2006-08-07T11:16:14.5276742+02:00",
+    "Id": 176,
+    "Name": "Klocko, Mohr and Heathcote",
+    "ToolTip": "Nihil eos.",
+    "Deleted": false,
+    "Rank": 731,
+    "Type": "molestiae",
+    "ColorBlock": 440,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "1997-11-30T12:57:43.402068+01:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Schiller-Batz",
-        "ToolTip": "Quia aperiam debitis est perferendis.",
+        "Id": 294,
+        "Name": "Mann Inc and Sons",
+        "ToolTip": "Quos repellendus molestiae rerum cumque ipsum.",
         "Deleted": false,
-        "Rank": 758,
-        "Type": "laborum",
-        "ColorBlock": 679,
-        "IconHint": "quia",
+        "Rank": 46,
+        "Type": "recusandae",
+        "ColorBlock": 428,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "2003-04-02T11:16:14.5276742+02:00",
+        "LastChanged": "2012-11-24T12:57:43.402068+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "impedit",
-        "Hidden": true,
-        "FullName": "Ms. Cheyenne Weissnat",
+        "ExtraInfo": "eos",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Jennings Kuhlman IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Ayla Bria Bode PhD",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "dicta",
+    "Hidden": false,
+    "FullName": "Bethany Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 640
+        "FieldType": "System.Int32",
+        "FieldLength": 859
       }
     }
   }

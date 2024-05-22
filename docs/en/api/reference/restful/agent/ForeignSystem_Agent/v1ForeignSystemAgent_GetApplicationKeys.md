@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hoppe LLC"
+  "ApplicationName": "Wilkinson Inc and Sons"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "provident",
-    "Value": "quia",
-    "RecordId": 873,
-    "CreatedDate": "2000-01-06T11:16:09.2878404+01:00",
-    "UpdatedDate": "2017-11-22T11:16:09.2878404+01:00",
-    "UpdatedBy": "quas",
-    "CreatedBy": "qui",
-    "TableName": "O'Hara-Jakubowski",
+    "Key": "repudiandae",
+    "Value": "molestiae",
+    "RecordId": 709,
+    "CreatedDate": "2000-08-31T12:57:34.0711192+02:00",
+    "UpdatedDate": "1997-04-21T12:57:34.0711192+02:00",
+    "UpdatedBy": "a",
+    "CreatedBy": "incidunt",
+    "TableName": "Kertzmann, Bartoletti and Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 931
       }
     }
   }

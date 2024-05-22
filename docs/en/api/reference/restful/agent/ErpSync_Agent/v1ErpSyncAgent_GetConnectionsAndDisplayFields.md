@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 38
+  "EntityId": 264
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 10,
-    "ConnectionName": "Cassin, Pfannerstill and Labadie",
+    "ErpConnectionId": 364,
+    "ConnectionName": "Okuneva-Nikolaus",
     "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "quaerat",
-        "Rank": 72,
-        "DisplayName": "Bergstrom-Flatley",
-        "DisplayDescription": "Fully-configurable uniform process improvement",
+        "FieldKey": "numquam",
+        "Rank": 201,
+        "DisplayName": "Reynolds-Heathcote",
+        "DisplayDescription": "Organized bifurcated algorithm",
         "FieldType": "Checkbox",
-        "ListName": "Gerlach LLC",
-        "DefaultValue": "occaecati",
-        "MaxLength": 635,
+        "ListName": "Von-Leannon",
+        "DefaultValue": "voluptates",
+        "MaxLength": 844,
         "Access": "Mandatory",
         "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 374
+            "FieldType": "System.Int32",
+            "FieldLength": 261
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "ea",
-      "facilis"
+      "vel",
+      "sed"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "totam",
+  "SaleText": "cum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-07-26T11:16:14.1847014+02:00",
-  "Amount": 30578.438,
-  "SaleId": 775,
-  "Earning": 332.204,
-  "EarningPercent": 17230.732,
-  "Heading": "veniam",
-  "Number": "1598118",
-  "Probability": 816,
-  "CreatedDate": "2022-10-04T11:16:14.1847014+02:00",
-  "UpdatedDate": "2010-03-12T11:16:14.1847014+01:00",
+  "Saledate": "2004-08-05T12:57:42.7294417+02:00",
+  "Amount": 3958.2419999999997,
+  "SaleId": 943,
+  "Earning": 5299.594,
+  "EarningPercent": 18070.644,
+  "Heading": "est",
+  "Number": "1551155",
+  "Probability": 244,
+  "CreatedDate": "2009-01-28T12:57:42.7294417+01:00",
+  "UpdatedDate": "2008-03-04T12:57:42.7294417+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 698,
+  "ActiveLinks": 264,
   "Links": [
     {
-      "EntityName": "Dooley LLC",
-      "Id": 767,
-      "Description": "Customer-focused zero defect workforce",
-      "ExtraInfo": "distinctio",
-      "LinkId": 493
+      "EntityName": "Kohler-Renner",
+      "Id": 9,
+      "Description": "Customizable methodical task-force",
+      "ExtraInfo": "voluptas",
+      "LinkId": 116
     },
     {
-      "EntityName": "Dooley LLC",
-      "Id": 767,
-      "Description": "Customer-focused zero defect workforce",
-      "ExtraInfo": "distinctio",
-      "LinkId": 493
+      "EntityName": "Kohler-Renner",
+      "Id": 9,
+      "Description": "Customizable methodical task-force",
+      "ExtraInfo": "voluptas",
+      "LinkId": 116
     }
   ],
-  "NextDueDate": "2010-12-29T11:16:14.1847014+01:00",
-  "Postit": "quia",
+  "NextDueDate": "2010-02-09T12:57:42.7294417+01:00",
+  "Postit": "sit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-05-06T11:16:14.1847014+02:00",
+  "ReopenDate": "2023-09-04T12:57:42.7294417+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Buckridge, Schinner and O'Connell",
-      "Comment": "dicta",
-      "StakeholderRoleId": 907,
-      "CountryId": 591,
-      "PersonId": 764,
-      "EmailDescription": "jose@bayernienow.biz",
-      "EmailId": 259,
-      "EmailAddress": "johnathan.stracke@dicki.co.uk",
-      "PhoneId": 569,
-      "ContactName": "Hagenes Inc and Sons",
-      "ContactId": 697,
-      "SaleId": 867,
-      "Mrmrs": "non",
-      "Firstname": "Reyes",
-      "MiddleName": "Roberts Inc and Sons",
-      "Lastname": "Marks",
-      "SaleStakeholderId": 536,
-      "Rank": 869,
-      "Phone": "699.544.1227 x5274"
+      "StakeholderRoleName": "Balistreri-Wehner",
+      "Comment": "aut",
+      "StakeholderRoleId": 874,
+      "CountryId": 683,
+      "PersonId": 228,
+      "EmailDescription": "marshall@casperprice.biz",
+      "EmailId": 682,
+      "EmailAddress": "kennedy@koeppvolkman.us",
+      "PhoneId": 493,
+      "ContactName": "Murazik, Lind and Leffler",
+      "ContactId": 745,
+      "SaleId": 692,
+      "Mrmrs": "quia",
+      "Firstname": "Kyra",
+      "MiddleName": "Abbott, Fadel and Abshire",
+      "Lastname": "Yundt",
+      "SaleStakeholderId": 60,
+      "Rank": 448,
+      "Phone": "936.898.4081"
     }
   ],
-  "ActiveErpLinks": 635,
+  "ActiveErpLinks": 950,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Gideon Wiegand III",
-    "SuperOffice:2": "Mrs. Golda Cummerata"
+    "SuperOffice:1": "Jan Hirthe",
+    "SuperOffice:2": "Mr. Tamara Gleason"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
+    "ExtraFields1": "sed",
     "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "cum"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "pariatur"
   },
-  "PublishEventDate": "2000-11-13T11:16:14.1853181+01:00",
-  "PublishTo": "2002-08-30T11:16:14.1853181+02:00",
-  "PublishFrom": "2007-07-15T11:16:14.1853181+02:00",
+  "PublishEventDate": "2023-12-29T12:57:42.7294417+01:00",
+  "PublishTo": "2023-12-13T12:57:42.7294417+01:00",
+  "PublishFrom": "2022-07-09T12:57:42.7294417+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 830,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "aliquam"
     },
     {
-      "VisibleId": 830,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "aliquam"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quia",
+  "SaleText": "quod",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-07-16T11:16:14.1879507+02:00",
-  "Amount": 27450.706,
-  "SaleId": 227,
-  "Earning": 26454.093999999997,
-  "EarningPercent": 4914.112,
-  "Heading": "et",
-  "Number": "1611912",
-  "Probability": 377,
-  "CreatedDate": "1997-02-06T11:16:14.1879507+01:00",
-  "UpdatedDate": "2018-12-13T11:16:14.1879507+01:00",
+  "Saledate": "2010-09-07T12:57:42.745063+02:00",
+  "Amount": 28086.908,
+  "SaleId": 138,
+  "Earning": 12836.864,
+  "EarningPercent": 7910.2159999999994,
+  "Heading": "quod",
+  "Number": "886566",
+  "Probability": 742,
+  "CreatedDate": "2019-01-06T12:57:42.745063+01:00",
+  "UpdatedDate": "2010-04-05T12:57:42.745063+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 819,
+  "ActiveLinks": 954,
   "Links": [
     {
-      "EntityName": "Corkery-Roob",
-      "Id": 396,
-      "Description": "Expanded heuristic productivity",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 858,
+      "EntityName": "Welch, Hagenes and Stanton",
+      "Id": 424,
+      "Description": "Operative interactive focus group",
+      "ExtraInfo": "quia",
+      "LinkId": 427,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldLength": 832
         }
       }
     }
   ],
-  "NextDueDate": "2007-02-16T11:16:14.1879507+01:00",
-  "Postit": "facilis",
+  "NextDueDate": "2006-06-03T12:57:42.745063+02:00",
+  "Postit": "cupiditate",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-11-14T11:16:14.1879507+01:00",
+  "ReopenDate": "2010-12-30T12:57:42.745063+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kautzer Group",
-      "Comment": "voluptates",
-      "StakeholderRoleId": 328,
-      "CountryId": 988,
-      "PersonId": 655,
-      "EmailDescription": "nola@weimannrowe.us",
-      "EmailId": 89,
-      "EmailAddress": "cynthia@murazik.co.uk",
-      "PhoneId": 280,
-      "ContactName": "Hessel, Krajcik and Block",
-      "ContactId": 152,
-      "SaleId": 867,
-      "Mrmrs": "quo",
-      "Firstname": "Raleigh",
-      "MiddleName": "Beahan, Ward and Ebert",
-      "Lastname": "Jacobs",
-      "SaleStakeholderId": 987,
-      "Rank": 679,
-      "Phone": "1-850-486-9728",
+      "StakeholderRoleName": "Hammes-Murphy",
+      "Comment": "id",
+      "StakeholderRoleId": 446,
+      "CountryId": 209,
+      "PersonId": 619,
+      "EmailDescription": "arielle_luettgen@farrell.co.uk",
+      "EmailId": 201,
+      "EmailAddress": "janice@jenkins.biz",
+      "PhoneId": 196,
+      "ContactName": "Green Inc and Sons",
+      "ContactId": 541,
+      "SaleId": 518,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Velda",
+      "MiddleName": "Murphy, Murray and O'Kon",
+      "Lastname": "Botsford",
+      "SaleStakeholderId": 719,
+      "Rank": 532,
+      "Phone": "(683)571-0324",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 234
+          "FieldLength": 55
         }
       }
     }
   ],
-  "ActiveErpLinks": 984,
+  "ActiveErpLinks": 325,
   "UserDefinedFields": {
-    "SuperOffice:1": "524979371",
-    "SuperOffice:2": "Danny Kaela Runolfsson DVM"
+    "SuperOffice:1": "Alba Shirley Boehm III",
+    "SuperOffice:2": "Barney Cummerata"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "est"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2017-10-06T11:16:14.1879507+02:00",
-  "PublishTo": "2002-08-14T11:16:14.1879507+02:00",
-  "PublishFrom": "2011-11-05T11:16:14.1879507+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-02-23T12:57:42.745063+01:00",
+  "PublishTo": "2017-05-08T12:57:42.745063+02:00",
+  "PublishFrom": "2010-07-19T12:57:42.745063+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 289,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 817
         }
       }
     },
     {
-      "VisibleId": 289,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 817
         }
       }
     }
@@ -412,7 +412,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldLength": 199
     }
   },
   "_Links": {

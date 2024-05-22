@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Kassulke Inc and Sons",
+  "TemplateName": "Schultz LLC",
   "AllowPersonal": false,
-  "UiCulture": "explicabo"
+  "UiCulture": "perspiciatis"
 }
 ```
 

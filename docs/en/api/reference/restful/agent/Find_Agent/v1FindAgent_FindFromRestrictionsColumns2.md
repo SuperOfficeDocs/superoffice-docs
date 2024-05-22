@@ -168,11 +168,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "minus",
-  "ProviderName": "Kilback-Turcotte",
-  "DesiredColumns": "dolor",
-  "PageSize": 667,
-  "PageNumber": 800
+  "Restrictions": "ut",
+  "ProviderName": "Cremin Group",
+  "DesiredColumns": "voluptas",
+  "PageSize": 130,
+  "PageNumber": 331
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Haley-Breitenberg",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "soluta",
-      "CanOrderBy": false,
-      "Name": "Bruen-Robel",
-      "CanRestrictBy": true,
-      "RestrictionType": "dolorum",
-      "RestrictionListName": "Tremblay, Satterfield and Waelchi",
-      "IsVisible": true,
-      "ExtraInfo": "debitis",
-      "Width": "ut",
-      "IconHint": "adipisci",
-      "HeadingIconHint": "tempore"
+      "DisplayName": "Moen LLC",
+      "DisplayTooltip": "commodi",
+      "DisplayType": "aut",
+      "CanOrderBy": true,
+      "Name": "Bosco Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "vero",
+      "RestrictionListName": "Kemmer, Quitzon and Dare",
+      "IsVisible": false,
+      "ExtraInfo": "maxime",
+      "Width": "iste",
+      "IconHint": "neque",
+      "HeadingIconHint": "dolores"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schulist Group",
-      "PrimaryKey": 610,
+      "EntityName": "Deckow-Paucek",
+      "PrimaryKey": 73,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ea",
-          "TooltipHint": "et",
-          "LinkHint": "in"
+          "DisplayValue": "et",
+          "TooltipHint": "aut",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "suscipit",
-      "StyleHint": "aliquid",
+      "LinkHint": "eaque",
+      "StyleHint": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 116
         }
       }
     }
   ],
-  "RowCount": 821,
+  "RowCount": 77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 701
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=723
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=938
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 88,
-  "ERPQuoteAlternativeKey": "dolor",
-  "QuoteVersionId": 62,
-  "Name": "Thompson Group",
-  "Description": "Ameliorated solution-oriented synergy",
+  "QuoteAlternativeId": 122,
+  "ERPQuoteAlternativeKey": "accusantium",
+  "QuoteVersionId": 238,
+  "Name": "Pfeffer-Sanford",
+  "Description": "Enterprise-wide mission-critical collaboration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 29362.446,
-  "ERPDiscountAmount": 24301.036,
-  "DiscountPercent": 14873.964,
-  "DiscountAmount": 28478.658,
+  "ERPDiscountPercent": 28719.976,
+  "ERPDiscountAmount": 30428.005999999998,
+  "DiscountPercent": 3121.464,
+  "DiscountAmount": 11830.85,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "vitae",
-  "VAT": 9705.998,
-  "EarningPercent": 12727.173999999999,
-  "EarningAmount": 29168.138,
-  "SubTotal": 20107.744,
-  "TotalPrice": 5183.6359999999995,
-  "ExtraField1": "deleniti",
-  "ExtraField2": "atque",
-  "ExtraField3": "dolores",
-  "ExtraField4": "eos",
-  "ExtraField5": "eius",
+  "VATInfo": "a",
+  "VAT": 3720.058,
+  "EarningPercent": 24774.27,
+  "EarningAmount": 30073.863999999998,
+  "SubTotal": 112.824,
+  "TotalPrice": 2457.056,
+  "ExtraField1": "asperiores",
+  "ExtraField2": "laborum",
+  "ExtraField3": "aut",
+  "ExtraField4": "ex",
+  "ExtraField5": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   }
 }

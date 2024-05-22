@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=453
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=353
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 237,
-  "Name": "Friesen Inc and Sons",
-  "ConsentText": "sint",
-  "FormText": "ducimus",
-  "Key": "animi",
-  "Tooltip": "quae",
-  "Active": 881,
-  "UpdatedDate": "2012-03-24T11:16:09.3815779+01:00",
+  "ConsentPurposeId": 92,
+  "Name": "Jewess-Koss",
+  "ConsentText": "ullam",
+  "FormText": "id",
+  "Key": "dolorem",
+  "Tooltip": "sunt",
+  "Active": 431,
+  "UpdatedDate": "2002-04-11T12:57:34.2273331+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 963,
-  "PrivacyStatementDesc": "pariatur",
+  "Deleted": false,
+  "Rank": 741,
+  "PrivacyStatementDesc": "impedit",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 129
     }
   }
 }

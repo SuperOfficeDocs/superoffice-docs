@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=occaecati
+GET /api/v1/List/PaymentTerm/MDOItems?query=totam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Jacobson Group",
-    "ToolTip": "Error fugiat quasi ducimus quibusdam aut.",
+    "Id": 757,
+    "Name": "Hoeger-Homenick",
+    "ToolTip": "Earum ipsam consectetur sed.",
     "Deleted": false,
-    "Rank": 257,
-    "Type": "nulla",
+    "Rank": 221,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Beier LLC",
-        "ToolTip": "Et quam tempora nemo inventore molestiae.",
+        "Id": 833,
+        "Name": "Brekke Group",
+        "ToolTip": "Saepe non esse mollitia.",
         "Deleted": false,
-        "Rank": 41,
-        "Type": "veritatis",
+        "Rank": 318,
+        "Type": "inventore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nostrum",
-        "ColorBlock": 847,
-        "ExtraInfo": "vel",
-        "StyleHint": "repudiandae",
-        "FullName": "Ms. Bettye Harvey Sr.",
+        "IconHint": "nisi",
+        "ColorBlock": 325,
+        "ExtraInfo": "sed",
+        "StyleHint": "ea",
+        "FullName": "Dr. Zetta Mayert III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldLength": 907
           }
         }
       }
     ],
-    "IconHint": "eaque",
-    "ColorBlock": 614,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "vel",
-    "FullName": "Carissa Dicki",
+    "IconHint": "voluptatem",
+    "ColorBlock": 144,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "perferendis",
+    "FullName": "Prof. Maximus Eli Ratke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 535
       }
     }
   }

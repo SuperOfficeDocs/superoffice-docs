@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    474,
-    801
+    375,
+    969
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Hodkiewicz LLC",
-    "Comment": "est",
-    "StakeholderRoleId": 544,
-    "CountryId": 617,
-    "PersonId": 654,
-    "EmailDescription": "reggie_bernhard@jewess.uk",
-    "EmailId": 182,
-    "EmailAddress": "oscar_nicolas@kuhnhintz.name",
-    "PhoneId": 796,
-    "ContactName": "Hilpert Group",
-    "ContactId": 588,
-    "SaleId": 621,
-    "Mrmrs": "et",
-    "Firstname": "Juliana",
-    "MiddleName": "Heidenreich Inc and Sons",
-    "Lastname": "Ritchie",
-    "SaleStakeholderId": 856,
-    "Rank": 468,
-    "Phone": "(776)671-9336",
+    "StakeholderRoleName": "Hickle LLC",
+    "Comment": "doloribus",
+    "StakeholderRoleId": 962,
+    "CountryId": 944,
+    "PersonId": 788,
+    "EmailDescription": "oral@olson.uk",
+    "EmailId": 227,
+    "EmailAddress": "kenny_gerlach@swift.com",
+    "PhoneId": 738,
+    "ContactName": "Grady Inc and Sons",
+    "ContactId": 159,
+    "SaleId": 692,
+    "Mrmrs": "dolore",
+    "Firstname": "Jesus",
+    "MiddleName": "Legros, Russel and Schroeder",
+    "Lastname": "Harris",
+    "SaleStakeholderId": 556,
+    "Rank": 262,
+    "Phone": "108-832-6207 x9913",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 166
       }
     }
   }

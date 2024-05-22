@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "doloremque",
+  "TriggerScriptUniqueId": "odit",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 474,
-  "Name": "Kessler, Hegmann and Fahey",
+  "ScreenChooserId": 413,
+  "Name": "Reichert-Skiles",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sequi",
-  "Source": "nobis",
-  "Registered": "2016-03-18T11:16:08.9597121+01:00",
-  "RegisteredAssociateId": 521,
-  "Updated": "1997-11-19T11:16:08.9597121+01:00",
-  "UpdatedAssociateId": 939,
+  "UniqueIdentifier": "quos",
+  "Source": "nihil",
+  "Registered": "2003-05-09T12:57:33.6336908+02:00",
+  "RegisteredAssociateId": 683,
+  "Updated": "2010-07-03T12:57:33.6336908+02:00",
+  "UpdatedAssociateId": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

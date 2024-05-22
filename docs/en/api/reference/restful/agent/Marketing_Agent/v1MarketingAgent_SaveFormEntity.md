@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 364,
-  "FormKey": "id",
-  "Name": "Lind Group",
-  "Description": "Robust background time-frame",
-  "Config": "omnis",
-  "FolderId": 852,
-  "ScriptId": 295,
-  "ResponseShipmentId": 879,
+  "FormId": 589,
+  "FormKey": "ad",
+  "Name": "Donnelly, Ortiz and Feest",
+  "Description": "Versatile executive help-desk",
+  "Config": "animi",
+  "FolderId": 141,
+  "ScriptId": 25,
+  "ResponseShipmentId": 390,
   "Active": false,
-  "Expires": "2002-06-29T11:16:09.3815779+02:00",
-  "MaxSubmits": 63,
+  "Expires": "1998-03-22T12:57:34.2429559+01:00",
+  "MaxSubmits": 579,
   "Type": "Normal",
-  "Recipe": "non",
-  "GroupId": 912,
+  "Recipe": "consequuntur",
+  "GroupId": 802,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2012-02-06T11:16:09.3815779+01:00",
-  "RegisteredAssociateId": 927,
-  "Updated": "2014-04-26T11:16:09.3815779+02:00",
-  "UpdatedAssociateId": 391,
-  "UpdatedCount": 760,
+  "Registered": "2006-03-01T12:57:34.2429559+01:00",
+  "RegisteredAssociateId": 960,
+  "Updated": "2012-08-20T12:57:34.2429559+02:00",
+  "UpdatedAssociateId": 572,
+  "UpdatedCount": 650,
   "EmailFlows": [
-    937,
-    743
+    349,
+    842
   ],
-  "FolderName": "Hoppe LLC"
+  "FolderName": "Ledner Group"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 85,
-  "FormKey": "officiis",
-  "Name": "Dibbert LLC",
-  "Description": "Organic bottom-line neural-net",
-  "Config": "qui",
-  "FolderId": 509,
-  "ScriptId": 159,
-  "ResponseShipmentId": 195,
+  "FormId": 769,
+  "FormKey": "ipsum",
+  "Name": "Nader, Prosacco and Padberg",
+  "Description": "Visionary impactful adapter",
+  "Config": "vel",
+  "FolderId": 258,
+  "ScriptId": 398,
+  "ResponseShipmentId": 863,
   "Active": false,
-  "Expires": "2011-07-10T11:16:09.3815779+02:00",
-  "MaxSubmits": 759,
+  "Expires": "2018-03-02T12:57:34.2429559+01:00",
+  "MaxSubmits": 670,
   "Type": "Normal",
-  "Recipe": "magni",
-  "GroupId": 916,
+  "Recipe": "odio",
+  "GroupId": 776,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2014-08-26T11:16:09.3815779+02:00",
-  "RegisteredAssociateId": 664,
-  "Updated": "2001-11-25T11:16:09.3815779+01:00",
-  "UpdatedAssociateId": 718,
-  "UpdatedCount": 781,
+  "Registered": "1997-08-31T12:57:34.2429559+02:00",
+  "RegisteredAssociateId": 72,
+  "Updated": "2004-04-23T12:57:34.2429559+02:00",
+  "UpdatedAssociateId": 517,
+  "UpdatedCount": 143,
   "EmailFlows": [
-    532,
-    454
+    167,
+    375
   ],
-  "FolderName": "Murray-Krajcik",
+  "FolderName": "Pacocha LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 122
     }
   }
 }

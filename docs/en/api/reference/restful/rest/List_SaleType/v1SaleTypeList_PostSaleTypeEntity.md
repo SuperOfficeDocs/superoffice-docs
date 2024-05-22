@@ -111,47 +111,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 272,
-  "Name": "Douglas Group",
-  "Tooltip": "eaque",
-  "Rank": 390,
+  "SaleTypeId": 440,
+  "Name": "Hauck Group",
+  "Tooltip": "quia",
+  "Rank": 246,
   "DurationUnit": "Century",
-  "SaleDuration": 993,
-  "SaleTypeCatId": 291,
-  "Deleted": true,
+  "SaleDuration": 839,
+  "SaleTypeCatId": 25,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 650,
-  "QuoteLinesTemplate": 299,
-  "ConfirmationLinesTemplate": 262,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 739,
+  "QuoteLinesTemplate": 957,
+  "ConfirmationLinesTemplate": 280,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 512,
-  "MinEarningPercent": 710,
-  "GroupQuoteLinesBy": 884,
-  "SortGroupLinesBy": 834,
+  "MaxDiscountPercent": 94,
+  "MinEarningPercent": 323,
+  "GroupQuoteLinesBy": 489,
+  "SortGroupLinesBy": 890,
   "Stages": [
     {
-      "Id": 940,
-      "Name": "Ward-Kihn",
-      "ToolTip": "Quia officiis perspiciatis reprehenderit.",
-      "Deleted": true,
-      "Rank": 70,
-      "Type": "iusto",
-      "ColorBlock": 957,
-      "IconHint": "voluptatibus",
-      "Selected": true,
-      "LastChanged": "2010-01-02T11:16:14.7307772+01:00",
+      "Id": 756,
+      "Name": "Hickle, Farrell and Harber",
+      "ToolTip": "Voluptas cupiditate eum inventore rem.",
+      "Deleted": false,
+      "Rank": 853,
+      "Type": "voluptas",
+      "ColorBlock": 452,
+      "IconHint": "eum",
+      "Selected": false,
+      "LastChanged": "1999-08-30T12:57:43.730118+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "dolores",
+      "ExtraInfo": "libero",
+      "StyleHint": "iste",
       "Hidden": false,
-      "FullName": "Prof. Ed Simonis IV"
+      "FullName": "Mrs. Tyler Ryan Sr."
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 36,
-  "Name": "Predovic, Fadel and Bosco",
-  "Tooltip": "voluptas",
-  "Rank": 77,
+  "SaleTypeId": 450,
+  "Name": "Schmidt, Hyatt and Johns",
+  "Tooltip": "temporibus",
+  "Rank": 963,
   "DurationUnit": "Century",
-  "SaleDuration": 368,
-  "SaleTypeCatId": 536,
-  "Deleted": true,
+  "SaleDuration": 982,
+  "SaleTypeCatId": 721,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 503,
-  "QuoteLinesTemplate": 927,
-  "ConfirmationLinesTemplate": 933,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 900,
-  "MinEarningPercent": 49,
-  "GroupQuoteLinesBy": 63,
-  "SortGroupLinesBy": 514,
+  "DefaultQuoteValidity": 196,
+  "QuoteLinesTemplate": 453,
+  "ConfirmationLinesTemplate": 430,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 338,
+  "MinEarningPercent": 455,
+  "GroupQuoteLinesBy": 131,
+  "SortGroupLinesBy": 118,
   "Stages": [
     {
-      "Id": 2,
-      "Name": "Shanahan-Cruickshank",
-      "ToolTip": "Voluptatum quas.",
+      "Id": 196,
+      "Name": "Lemke-Streich",
+      "ToolTip": "Harum sit.",
       "Deleted": false,
-      "Rank": 675,
-      "Type": "quidem",
-      "ColorBlock": 744,
-      "IconHint": "ut",
+      "Rank": 957,
+      "Type": "ea",
+      "ColorBlock": 123,
+      "IconHint": "consequuntur",
       "Selected": false,
-      "LastChanged": "2001-03-12T11:16:14.7307772+01:00",
+      "LastChanged": "2014-10-07T12:57:43.730118+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "cumque",
+      "ExtraInfo": "odit",
+      "StyleHint": "veniam",
       "Hidden": false,
-      "FullName": "Donato Welch",
+      "FullName": "Tracy Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldType": "System.String",
+          "FieldLength": 821
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 394
     }
   }
 }

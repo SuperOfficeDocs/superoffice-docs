@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 128
+  "WorkflowStepOptionId": 664
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 995,
-  "WorkflowStepId": 735,
-  "WorkflowId": 632,
-  "Name": "Davis Inc and Sons",
-  "Rank": 760,
+  "WorkflowStepOptionId": 471,
+  "WorkflowStepId": 420,
+  "WorkflowId": 868,
+  "Name": "Jerde-Weimann",
+  "Rank": 429,
   "Steps": [
     {
-      "WorkflowStepId": 408,
-      "WorkflowId": 923,
+      "WorkflowStepId": 370,
+      "WorkflowId": 699,
       "StepType": "AddToList",
-      "Rank": 760
+      "Rank": 66
     },
     {
-      "WorkflowStepId": 408,
-      "WorkflowId": 923,
+      "WorkflowStepId": 370,
+      "WorkflowId": 699,
       "StepType": "AddToList",
-      "Rank": 760
+      "Rank": 66
     }
   ]
 }

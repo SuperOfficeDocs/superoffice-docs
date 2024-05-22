@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 126,
-    "Name": "Bergstrom LLC",
-    "Description": "Enhanced contextually-based hardware",
+    "ProjectId": 391,
+    "Name": "Cummerata-Schimmel",
+    "Description": "Fully-configurable bifurcated protocol",
     "URL": "http://www.example.com/",
-    "Type": "odio",
-    "AssociateId": 77,
-    "AssociateFullName": "Ms. Brando Mike Abbott Jr.",
-    "TypeId": 233,
-    "Updated": "2022-02-24T11:16:09.569228+01:00",
-    "StatusId": 915,
-    "Status": "saepe",
-    "TextId": 960,
-    "PublishTo": "2024-02-17T11:16:09.569228+01:00",
-    "PublishFrom": "2018-05-09T11:16:09.569228+02:00",
-    "IsPublished": true,
+    "Type": "qui",
+    "AssociateId": 578,
+    "AssociateFullName": "Velva Bosco",
+    "TypeId": 622,
+    "Updated": "2024-04-13T12:57:34.664705+02:00",
+    "StatusId": 74,
+    "Status": "voluptate",
+    "TextId": 155,
+    "PublishTo": "2008-01-08T12:57:34.664705+01:00",
+    "PublishFrom": "2001-12-22T12:57:34.664705+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "662218",
-    "ActiveErpLinks": 622,
+    "ProjectNumber": "1491497",
+    "ActiveErpLinks": 533,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldType": "System.String",
+        "FieldLength": 415
       }
     }
   }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Kertzmann-Heidenreich",
-  "Tooltip": "incidunt",
+  "Id": 442,
+  "Name": "Stoltenberg-Howe",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 48,
-  "Rank": 774,
+  "UdListDefinitionId": 323,
+  "Rank": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 559
     }
   }
 }

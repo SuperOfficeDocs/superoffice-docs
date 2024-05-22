@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quis",
-  "PluginId": 376
+  "LanguageCode": "qui",
+  "PluginId": 486
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 110,
-  "Name": "Halvorson, Beier and O'Keefe",
-  "Tooltip": "architecto",
-  "SaveInDb": 614,
-  "Filename": "nisi",
-  "DefaultOref": "rerum",
+  "DocumentTemplateId": 605,
+  "Name": "Kshlerin, Dach and Howe",
+  "Tooltip": "velit",
+  "SaveInDb": 539,
+  "Filename": "et",
+  "DefaultOref": "qui",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 848,
-  "IntentId": 399,
-  "IsDefaultPublished": false,
-  "Rank": 8,
-  "LoadTemplateFromPlugin": 786,
-  "MimeType": "doloribus",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 857,
+  "AutoeventId": 711,
+  "IntentId": 441,
+  "IsDefaultPublished": true,
+  "Rank": 214,
+  "LoadTemplateFromPlugin": 701,
+  "MimeType": "culpa",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 642,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "emmitt_raynor@ziemann.name",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "hadley@lockmansmitham.ca",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "hollie_rath@johnsonhowell.biz",
+  "SenderEmailAddress": "jenifer@gislason.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 421
     }
   }
 }

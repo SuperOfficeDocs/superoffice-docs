@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quos",
-  "Key": "velit"
+  "Section": "et",
+  "Key": "dolores"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 929,
-  "Section": "voluptate",
-  "Key": "omnis",
-  "Name": "Purdy-Purdy",
+  "PrefDescId": 787,
+  "Section": "nam",
+  "Key": "non",
+  "Name": "Ortiz-Mills",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persistent actuating array",
-  "IsBuiltin": true,
-  "TableName": "Kreiger LLC",
-  "UserDefinedListId": 99,
-  "Rank": 342,
-  "SubGroup": "excepturi",
-  "MinLevel": 561,
-  "MaxValue": 69,
-  "MinValue": 332,
-  "RequiredLicense": "sit",
+  "Description": "Fundamental empowering productivity",
+  "IsBuiltin": false,
+  "TableName": "Gleason LLC",
+  "UserDefinedListId": 679,
+  "Rank": 845,
+  "SubGroup": "perspiciatis",
+  "MinLevel": 646,
+  "MaxValue": 492,
+  "MinValue": 946,
+  "RequiredLicense": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 562
     }
   }
 }

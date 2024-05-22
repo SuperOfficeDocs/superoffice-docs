@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Haag-Terry",
-    "ToolTip": "Possimus dolores et sed nihil.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "ea",
-    "ColorBlock": 675,
-    "IconHint": "et",
+    "Id": 810,
+    "Name": "Christiansen-Jerde",
+    "ToolTip": "Quibusdam perferendis optio id excepturi.",
+    "Deleted": true,
+    "Rank": 971,
+    "Type": "aut",
+    "ColorBlock": 376,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2017-06-25T11:16:14.512052+02:00",
+    "LastChanged": "2006-01-08T12:57:43.3708249+01:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Gulgowski LLC",
-        "ToolTip": "Vel voluptatibus rerum ratione dolor architecto eos dignissimos.",
-        "Deleted": false,
-        "Rank": 845,
-        "Type": "voluptatem",
-        "ColorBlock": 398,
-        "IconHint": "dolor",
+        "Id": 827,
+        "Name": "Powlowski Inc and Sons",
+        "ToolTip": "Dolor maxime excepturi modi non ut.",
+        "Deleted": true,
+        "Rank": 73,
+        "Type": "mollitia",
+        "ColorBlock": 778,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "1997-10-08T11:16:14.512052+02:00",
+        "LastChanged": "2022-03-19T12:57:43.3708249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "incidunt",
         "Hidden": true,
-        "FullName": "Mr. Brandon Quitzon Sr.",
+        "FullName": "Miss Mara Florine Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Camilla Adaline Treutel II",
+    "ExtraInfo": "qui",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Jacquelyn Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   }

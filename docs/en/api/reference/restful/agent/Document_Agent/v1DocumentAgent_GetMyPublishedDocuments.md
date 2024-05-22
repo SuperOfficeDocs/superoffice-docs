@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 355,
-    "Attention": "nihil",
-    "Header": "modi",
-    "Name": "Von-Murphy",
-    "OurRef": "explicabo",
-    "YourRef": "facilis",
-    "Description": "Optimized zero defect service-desk",
-    "DocumentTemplate": "rerum",
-    "IsPublished": true,
-    "PersonId": 834,
-    "PersonFullName": "Sherwood McCullough",
-    "AssociateFullName": "Miss Melyna Marshall Corkery IV",
-    "ContactId": 623,
-    "ContactName": "Hyatt-Aufderhar",
-    "ProjectId": 256,
-    "ProjectName": "Will-Eichmann",
-    "AssociateId": 690,
-    "Snum": 534,
-    "SaleId": 554,
-    "SaleName": "Reynolds Inc and Sons",
+    "DocumentId": 475,
+    "Attention": "fugiat",
+    "Header": "accusantium",
+    "Name": "Ziemann, Kassulke and Beatty",
+    "OurRef": "doloremque",
+    "YourRef": "ut",
+    "Description": "Progressive optimizing support",
+    "DocumentTemplate": "libero",
+    "IsPublished": false,
+    "PersonId": 347,
+    "PersonFullName": "Miss Boris Kshlerin",
+    "AssociateFullName": "Miss Charlene Torp",
+    "ContactId": 423,
+    "ContactName": "Quigley LLC",
+    "ProjectId": 433,
+    "ProjectName": "Koepp Group",
+    "AssociateId": 779,
+    "Snum": 103,
+    "SaleId": 68,
+    "SaleName": "Deckow, Okuneva and Ortiz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

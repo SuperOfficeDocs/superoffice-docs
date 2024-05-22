@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 205
+  "ChatSessionId": 633
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 883,
-  "TopicId": 92,
+  "ChatSessionId": 326,
+  "TopicId": 679,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "sit",
-  "CustomerName": "Quitzon, Ortiz and Stamm",
-  "CustomerEmail": "alejandra.pollich@mclaughlinleffler.biz",
-  "CustomerPhone": "(684)865-4607 x6185",
+  "CustomerAlias": "aut",
+  "CustomerHost": "omnis",
+  "CustomerName": "Smitham LLC",
+  "CustomerEmail": "hector_ernser@hickle.us",
+  "CustomerPhone": "(511)039-9372 x229",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Hodkiewicz LLC",
+  "CustomerCompanyName": "Medhurst Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "delectus",
-  "LastMessage": "minus",
-  "WhenRequested": "2023-09-10T11:16:08.8191018+02:00",
-  "WhenStarted": "2018-06-14T11:16:08.8191018+02:00",
-  "WhenEnded": "2004-08-15T11:16:08.8191018+02:00",
-  "WhenIdle": "1998-09-18T11:16:08.8191018+02:00",
-  "WhenFetched": "2000-10-20T11:16:08.8191018+02:00",
-  "SessionKey": "unde",
-  "InitialQueuePos": 861,
-  "AlertLevel": 6,
-  "Rank": 734,
+  "FirstMessage": "iusto",
+  "LastMessage": "perspiciatis",
+  "WhenRequested": "2023-03-29T12:57:33.3837477+02:00",
+  "WhenStarted": "2012-04-22T12:57:33.3837477+02:00",
+  "WhenEnded": "2017-07-09T12:57:33.3837477+02:00",
+  "WhenIdle": "2015-04-15T12:57:33.3837477+02:00",
+  "WhenFetched": "2002-03-03T12:57:33.3837477+01:00",
+  "SessionKey": "animi",
+  "InitialQueuePos": 986,
+  "AlertLevel": 508,
+  "Rank": 847,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 198,
+  "ChatbotIsActive": false,
+  "Rating": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 945
     }
   }
 }

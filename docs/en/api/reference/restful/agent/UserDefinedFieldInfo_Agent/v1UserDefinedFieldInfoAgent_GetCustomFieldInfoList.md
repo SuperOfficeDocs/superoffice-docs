@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jast-Trantow",
-  "IncludeStandard": true
+  "TableName": "Boyle-Dietrich",
+  "IncludeStandard": false
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Jacobs Inc and Sons",
-    "DisplayName": "Stehr LLC",
-    "Description": "Expanded 4th generation framework",
-    "ShortLabel": "voluptatem",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Schoen-Hackett",
+    "DisplayName": "Aufderhar-Tillman",
+    "Description": "Customizable 5th generation project",
+    "ShortLabel": "quia",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 955,
-    "TemplateVariableName": "Erdman, Stokes and Bashirian"
+    "Rank": 201,
+    "TemplateVariableName": "Huels LLC"
   }
 ]
 ```

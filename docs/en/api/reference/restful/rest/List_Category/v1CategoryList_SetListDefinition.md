@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Wiza, Keeling and Mills",
-  "Tooltip": "saepe",
+  "Id": 702,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 254,
+  "Rank": 92,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "neque",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "Marks Inc and Sons",
-  "Tooltip": "quis",
+  "Id": 61,
+  "Name": "Wunsch-Daugherty",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 986,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "Rank": 583,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 552
     }
   }
 }

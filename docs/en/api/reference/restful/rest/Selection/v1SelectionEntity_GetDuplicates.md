@@ -63,7 +63,7 @@ OK
 GET /api/v1/Selection/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hilll-Schaefer",
-    "SoPrimaryKey": 542,
-    "EntryName": "Cremin-Davis",
-    "EntryIdentifier": "accusamus",
-    "RuleDisplayName": "Erdman, Hansen and Yost",
+    "RuleName": "Funk, Quitzon and Schumm",
+    "SoPrimaryKey": 855,
+    "EntryName": "Zemlak Inc and Sons",
+    "EntryIdentifier": "eum",
+    "RuleDisplayName": "Hoppe-Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 278
       }
     }
   }

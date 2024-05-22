@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Wuckert, Mueller and DuBuque",
+  "TaskName": "Fisher, Collier and West",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Wiegand LLC",
-    "AssociateId": 236,
-    "DetailsTable": 798,
-    "DetailsRecord": 950,
+    "Id": 34,
+    "Name": "Flatley, Schaden and Lehner",
+    "AssociateId": 560,
+    "DetailsTable": 961,
+    "DetailsRecord": 468,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "ipsum",
-      "ParameterObject2": "ex"
+      "ParameterObject1": "facere",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2008-11-25T11:16:08.7410229+01:00",
-    "Created": "2022-02-08T11:16:08.7410229+01:00",
-    "StartCount": 683,
-    "DatabaseSerialNumber": "1324858",
-    "Context": "molestias",
-    "Result": "dolores",
+    "LastStarted": "2008-05-31T12:57:33.2743944+02:00",
+    "Created": "1998-04-28T12:57:33.2743944+02:00",
+    "StartCount": 26,
+    "DatabaseSerialNumber": "1289425",
+    "Context": "atque",
+    "Result": "est",
     "State": "All",
-    "Description": "Implemented holistic access",
-    "Response": "voluptatem",
-    "Request": "et",
-    "ProgressDescription": "Profit-focused explicit leverage",
-    "ProgressPercent": 505,
-    "FileName": "Greenholt-Runolfsson",
+    "Description": "Persistent transitional support",
+    "Response": "ut",
+    "Request": "laudantium",
+    "ProgressDescription": "Networked coherent algorithm",
+    "ProgressPercent": 908,
+    "FileName": "Barton, Kozey and Murphy",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldType": "System.String",
+        "FieldLength": 244
       }
     }
   }

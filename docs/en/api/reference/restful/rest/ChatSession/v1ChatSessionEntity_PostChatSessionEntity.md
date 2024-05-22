@@ -136,33 +136,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 366,
-  "TopicId": 566,
+  "ChatSessionId": 52,
+  "TopicId": 330,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorum",
-  "CustomerHost": "nemo",
-  "CustomerName": "West Inc and Sons",
-  "CustomerEmail": "kenneth@stehr.us",
-  "CustomerPhone": "1-190-849-5323",
+  "CustomerAlias": "aliquid",
+  "CustomerHost": "omnis",
+  "CustomerName": "Gibson, Thiel and Stamm",
+  "CustomerEmail": "javier@greenholtkunze.uk",
+  "CustomerPhone": "705-138-1824",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Klocko, Schmeler and VonRueden",
+  "CustomerCompanyName": "Wilkinson Group",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "accusamus",
-  "WhenRequested": "2000-07-07T11:16:13.6674984+02:00",
-  "WhenStarted": "2008-12-13T11:16:13.6674984+01:00",
-  "WhenEnded": "2021-03-19T11:16:13.6674984+01:00",
-  "WhenIdle": "2023-01-02T11:16:13.6674984+01:00",
-  "WhenFetched": "2011-08-07T11:16:13.6674984+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 609,
-  "AlertLevel": 839,
-  "Rank": 650,
+  "FirstMessage": "laudantium",
+  "LastMessage": "beatae",
+  "WhenRequested": "2005-01-18T12:57:41.8858847+01:00",
+  "WhenStarted": "2022-04-20T12:57:41.8858847+02:00",
+  "WhenEnded": "2018-06-06T12:57:41.8858847+02:00",
+  "WhenIdle": "2023-02-10T12:57:41.8858847+01:00",
+  "WhenFetched": "2020-11-14T12:57:41.8858847+01:00",
+  "SessionKey": "voluptates",
+  "InitialQueuePos": 460,
+  "AlertLevel": 977,
+  "Rank": 446,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 776
+  "Rating": 403
 }
 ```
 
@@ -181,43 +181,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 981,
-  "TopicId": 833,
+  "ChatSessionId": 28,
+  "TopicId": 485,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolores",
-  "CustomerHost": "eum",
-  "CustomerName": "Okuneva Group",
-  "CustomerEmail": "koby@beahan.us",
-  "CustomerPhone": "514-460-3554 x776",
+  "CustomerAlias": "autem",
+  "CustomerHost": "sapiente",
+  "CustomerName": "Grady Inc and Sons",
+  "CustomerEmail": "angelina_fay@mclaughlin.biz",
+  "CustomerPhone": "1-860-438-8148",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Flatley Group",
+  "CustomerCompanyName": "Gaylord, Skiles and Rodriguez",
   "Status": "Closed",
-  "FirstMessage": "non",
-  "LastMessage": "veniam",
-  "WhenRequested": "2008-01-20T11:16:13.6674984+01:00",
-  "WhenStarted": "2008-02-14T11:16:13.6674984+01:00",
-  "WhenEnded": "2000-03-09T11:16:13.6674984+01:00",
-  "WhenIdle": "2013-04-07T11:16:13.6674984+02:00",
-  "WhenFetched": "2013-11-23T11:16:13.6674984+01:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 320,
-  "AlertLevel": 535,
-  "Rank": 389,
+  "FirstMessage": "enim",
+  "LastMessage": "nisi",
+  "WhenRequested": "2016-06-05T12:57:41.9015059+02:00",
+  "WhenStarted": "2001-04-17T12:57:41.9015059+02:00",
+  "WhenEnded": "2008-02-06T12:57:41.9015059+01:00",
+  "WhenIdle": "2007-12-05T12:57:41.9015059+01:00",
+  "WhenFetched": "1998-02-06T12:57:41.9015059+01:00",
+  "SessionKey": "sint",
+  "InitialQueuePos": 924,
+  "AlertLevel": 202,
+  "Rank": 245,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 949,
+  "ChatbotIsActive": false,
+  "Rating": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldLength": 434
     }
   },
   "_Links": {

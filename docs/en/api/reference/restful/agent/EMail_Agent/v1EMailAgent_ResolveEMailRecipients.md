@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "fermin@fahey.name"
+  "EmailAddress": "marlene_schmeler@grimes.uk"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 236,
-    "ContactName": "Boehm-Cummings",
-    "PersonId": 346,
-    "PersonName": "Carroll-West",
-    "AssociateId": 55,
-    "Address": "et",
-    "EmailId": 56,
+    "ContactId": 383,
+    "ContactName": "Cole, Bode and Nitzsche",
+    "PersonId": 402,
+    "PersonName": "Collins-Pfannerstill",
+    "AssociateId": 891,
+    "Address": "porro",
+    "EmailId": 314,
     "DuplicatePersonIds": [
-      121,
-      410
+      598,
+      51
     ],
-    "Name": "Zemlak Group",
+    "Name": "Heidenreich-Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 83
       }
     }
   }

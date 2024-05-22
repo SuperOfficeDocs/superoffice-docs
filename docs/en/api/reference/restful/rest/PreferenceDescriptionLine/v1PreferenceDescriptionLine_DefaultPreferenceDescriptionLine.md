@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 717,
-  "PrefDescId": 231,
-  "PrefValue": "ipsa",
-  "PrefShowValue": "voluptatem",
-  "Description": "Universal user-facing moderator",
-  "IsBuiltin": false,
+  "PrefDescLineId": 777,
+  "PrefDescId": 994,
+  "PrefValue": "aliquam",
+  "PrefShowValue": "cupiditate",
+  "Description": "Sharable real-time middleware",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

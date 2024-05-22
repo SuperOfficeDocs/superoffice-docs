@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 772,
-    "Name": "McClure, Kohler and Kessler",
-    "Description": "Right-sized asynchronous Graphical User Interface",
-    "DeltaJson": "fugit",
+    "ConfigurableScreenDeltaId": 317,
+    "Name": "Johns, Daugherty and Huels",
+    "Description": "Expanded contextually-based alliance",
+    "DeltaJson": "non",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "est",
-    "UpdatedDate": "2017-12-22T11:16:08.8503482+01:00",
-    "CreatedDate": "2022-12-20T11:16:08.8503482+01:00",
+    "RecipeId": "exercitationem",
+    "UpdatedDate": "2006-08-24T12:57:33.4462335+02:00",
+    "CreatedDate": "2007-08-13T12:57:33.4462335+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      644,
-      389
+      553,
+      426
     ],
-    "AppliesToKey": "vitae",
+    "AppliesToKey": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 716
       }
     }
   }

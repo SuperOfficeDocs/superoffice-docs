@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 416,
+  "ErpConnectionId": 230,
   "CrmActorType": "Contact",
-  "EntityId": 484,
+  "EntityId": 477,
   "FieldKeys": [
-    "sunt",
-    "odio"
+    "et",
+    "dolorem"
   ]
 }
 ```
@@ -94,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aut",
-  "numquam"
+  "at",
+  "eum"
 ]
 ```

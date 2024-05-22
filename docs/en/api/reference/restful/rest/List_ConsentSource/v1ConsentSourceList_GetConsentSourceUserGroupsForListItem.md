@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Stanton, Greenholt and Fritsch",
-    "ToolTip": "Molestiae molestiae odio consequatur voluptas voluptas.",
-    "Deleted": false,
-    "Rank": 288,
-    "Type": "omnis",
-    "ColorBlock": 863,
-    "IconHint": "illo",
+    "Id": 926,
+    "Name": "McKenzie Group",
+    "ToolTip": "Totam qui similique nostrum asperiores sunt ea.",
+    "Deleted": true,
+    "Rank": 106,
+    "Type": "nobis",
+    "ColorBlock": 922,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2014-05-05T11:16:14.5276742+02:00",
+    "LastChanged": "2013-01-14T12:57:43.3864466+01:00",
     "ChildItems": [
       {
-        "Id": 571,
-        "Name": "Flatley-Batz",
-        "ToolTip": "Ducimus consequatur.",
+        "Id": 177,
+        "Name": "Hand, Murray and Terry",
+        "ToolTip": "Et optio ut.",
         "Deleted": false,
-        "Rank": 36,
-        "Type": "modi",
-        "ColorBlock": 402,
-        "IconHint": "saepe",
+        "Rank": 1002,
+        "Type": "consequatur",
+        "ColorBlock": 929,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "2017-11-04T11:16:14.5276742+01:00",
+        "LastChanged": "2020-05-08T12:57:43.3864466+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "cum",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Jameson Gutkowski",
+        "FullName": "Mrs. Nicklaus Mossie Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "vero",
-    "Hidden": false,
-    "FullName": "Dayana Lockman",
+    "ExtraInfo": "omnis",
+    "StyleHint": "repudiandae",
+    "Hidden": true,
+    "FullName": "Nikita Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 504
       }
     }
   }

@@ -105,16 +105,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 707,
+  "EmailId": 433,
   "AttachmentIds": [
-    "animi",
-    "delectus"
+    "ipsum",
+    "provident"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 907,
-      "ContactName": "Grant, Adams and Legros",
-      "PersonId": 834,
-      "PersonName": "Tremblay Inc and Sons",
-      "AssociateId": 896,
-      "Address": "eius",
-      "EmailId": 861,
+      "ContactId": 266,
+      "ContactName": "Roberts LLC",
+      "PersonId": 414,
+      "PersonName": "Skiles Group",
+      "AssociateId": 563,
+      "Address": "facere",
+      "EmailId": 780,
       "DuplicatePersonIds": [
-        972,
-        966
+        387,
+        597
       ],
-      "Name": "Ruecker, Marks and Wehner",
+      "Name": "Hane LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldLength": 696
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 842,
-      "ContactName": "Crooks, Reichert and Green",
-      "PersonId": 718,
-      "PersonName": "Larkin-Johnston",
-      "AssociateId": 522,
-      "Address": "quasi",
-      "EmailId": 31,
+      "ContactId": 615,
+      "ContactName": "Wiza-Collins",
+      "PersonId": 117,
+      "PersonName": "D'Amore-Hodkiewicz",
+      "AssociateId": 19,
+      "Address": "perferendis",
+      "EmailId": 586,
       "DuplicatePersonIds": [
-        118,
-        241
+        990,
+        909
       ],
-      "Name": "Conn, Fahey and Walter",
+      "Name": "Gerlach Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 709
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 563,
-      "ContactName": "Hansen-Gutkowski",
-      "PersonId": 879,
-      "PersonName": "Mueller, Miller and Howell",
-      "AssociateId": 308,
-      "Address": "vero",
-      "EmailId": 385,
+      "ContactId": 774,
+      "ContactName": "Smitham, Waters and Swift",
+      "PersonId": 417,
+      "PersonName": "Labadie, Rodriguez and Bruen",
+      "AssociateId": 601,
+      "Address": "ea",
+      "EmailId": 42,
       "DuplicatePersonIds": [
-        53,
-        631
+        993,
+        917
       ],
-      "Name": "Grimes-Hills",
+      "Name": "Bailey-Balistreri",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 360
+          "FieldType": "System.Int32",
+          "FieldLength": 818
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "fugiat",
+  "Subject": "voluptas",
+  "HTMLBody": "eum",
   "From": null,
-  "Sent": "2006-07-13T11:16:09.2253497+02:00",
-  "Size": 464,
+  "Sent": "2011-09-20T12:57:33.9461474+02:00",
+  "Size": 5,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "atque",
-  "PlainBody": "autem",
+  "MessageID": "quia",
+  "PlainBody": "dicta",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 724,
+  "ServerId": 898,
   "Attachments": [
     {
-      "Description": "Focused grid-enabled intranet",
-      "Filename": "fuga",
-      "Size": 186,
-      "Type": "autem",
-      "Encoding": "quas",
-      "Id": "quod",
-      "Disposition": "sint",
-      "IsSafeFileExtension": true,
+      "Description": "Multi-tiered content-based archive",
+      "Filename": "ullam",
+      "Size": 893,
+      "Type": "facilis",
+      "Encoding": "et",
+      "Id": "hic",
+      "Disposition": "vitae",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 262
+          "FieldLength": 869
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Harvey-Bashirian",
+      "Name": "Stracke-Vandervort",
       "Values": [
-        "et",
-        "natus"
+        "voluptates",
+        "odio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldType": "System.String",
+          "FieldLength": 59
         }
       }
     },
     {
-      "Name": "Harvey-Bashirian",
+      "Name": "Stracke-Vandervort",
       "Values": [
-        "et",
-        "natus"
+        "voluptates",
+        "odio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldType": "System.String",
+          "FieldLength": 59
         }
       }
     }
   ],
-  "FolderName": "Brakus, Bruen and Hahn",
-  "EmailItemId": 750,
-  "AccountId": 498,
-  "ReceivedAt": "2015-03-12T11:16:09.2253497+01:00",
+  "FolderName": "Gusikowski Group",
+  "EmailItemId": 658,
+  "AccountId": 830,
+  "ReceivedAt": "2004-09-09T12:57:33.9461474+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-03-05T11:16:09.2253497+01:00",
+  "RepliedAt": "2003-02-27T12:57:33.9461474+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   }
 }

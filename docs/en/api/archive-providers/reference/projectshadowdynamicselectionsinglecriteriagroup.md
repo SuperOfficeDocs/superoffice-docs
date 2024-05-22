@@ -88,6 +88,7 @@ Shadow contact provider for the dynamic Project provider.
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
 |projectAssociate/locationAddress|string|Location: Location| x |
+|projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -120,11 +121,11 @@ Shadow contact provider for the dynamic Project provider.
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
-|sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
@@ -172,6 +173,7 @@ Shadow contact provider for the dynamic Project provider.
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -210,6 +212,7 @@ Shadow contact provider for the dynamic Project provider.
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
@@ -222,13 +225,13 @@ Shadow contact provider for the dynamic Project provider.
 |appointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointment/time| *None* |Time: Time|  |
-|appointment/type|listAny|Type: Displays the type of an activity| x |
-|appointment/recordType|string|Record type : Shows the record type| x |
-|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/type|listAny|Type: Displays the type of an activity| x |
+|appointment/recordType|string|Record type : Shows the record type| x |
+|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |appointment/contactId|listAny|Company ID: Database ID of company| x |
 |appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
@@ -263,6 +266,7 @@ Shadow contact provider for the dynamic Project provider.
 |appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/duration|timeSpan|Duration: The duration of the chat session|  |
+|appointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -307,6 +311,7 @@ Shadow contact provider for the dynamic Project provider.
 |appointment/associate/userName|string|User name: User name| x |
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
+|appointment/associate/isLocation|bool|Is a location: Is a location| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -324,15 +329,15 @@ Shadow contact provider for the dynamic Project provider.
 |document/contactId|listAny|Company ID: Database ID of company| x |
 |document/personId|listAny|Contact ID: Database ID of the contact row| x |
 |document/projectId|listAny|Project ID: Database ID of project record| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/saleId|int|Sale ID: The database ID of the sale record| x |
 |document/userGroup|userGroup|User group : The user group that owns the record| x |
 |document/who| *None* |Who: Contact and/or company|  |
 |document/updatedBy|associate|Updated by: The user who last updated the data| x |
 |document/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |document/registeredBy|associate|Registered by: The user who registered the data| x |
 |document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
@@ -386,6 +391,7 @@ Shadow contact provider for the dynamic Project provider.
 |document/associate/userName|string|User name: User name| x |
 |document/associate/personEmail|string|E-mail| x |
 |document/associate/locationAddress|string|Location: Location| x |
+|document/associate/isLocation|bool|Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -427,16 +433,16 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/birthMonth|int|Birth month: Displays contact's birth month| x |
 |projectMember/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |projectMember/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |projectMember/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMember/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMember/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/personRegisteredBy|associate|Registered by: The user who registered the data| x |
 |projectMember/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMember/portraitThumbnail| *None* |Person image: Person image|  |
 |projectMember/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
@@ -452,6 +458,9 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/hasCompany|bool|Has company: The contact is associated with a company| x |
 |projectMember/isProjectMember|bool|Is project member: This person is a project member| x |
 |projectMember/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|projectMember/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|projectMember/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|projectMember/createdByForm|listAny|Created by form: Created by form| x |
 |projectMember/phone/formattedNumber|string|Phone : Displays phone number|  |
 |projectMember/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |projectMember/personDirectPhone/description|string|Direct - Description: Phone number description| x |
@@ -514,7 +523,6 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
 |projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|projectMember/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |projectMember/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |projectMember/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -529,6 +537,10 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 |projectMember/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |projectMember/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |projectMember/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |projectMember/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
@@ -537,10 +549,6 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |projectMember/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |projectMember/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -572,6 +580,7 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/personAssociate/userName|string|User name: User name| x |
 |projectMember/personAssociate/personEmail|string|E-mail| x |
 |projectMember/personAssociate/locationAddress|string|Location: Location| x |
+|projectMember/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMember/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -603,6 +612,7 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/correspondingAssociate/userName|string|User name: User name| x |
 |projectMember/correspondingAssociate/personEmail|string|E-mail| x |
 |projectMember/correspondingAssociate/locationAddress|string|Location: Location| x |
+|projectMember/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -631,6 +641,10 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/registeredBy|associate|Registered by: The user who registered the data| x |
 |projectMember/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMember/contactSource|listAny|Source: Source (Company)| x |
 |projectMember/contactDeleted|bool|Deleted: Deleted| x |
@@ -641,10 +655,6 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |projectMember/contactFax/description|string|Fax - Description: Phone number description| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/contactEmail/emailProtocol|string|Company - Protocol: E-mail protocol, such as SMTP| x |
 |projectMember/contactEmail/emailAddress|string|Company - E-mail| x |
 |projectMember/contactEmail/emailDescription|string|Company - Description| x |
@@ -710,6 +720,7 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/contactAssociate/userName|string|User name: User name| x |
 |projectMember/contactAssociate/personEmail|string|E-mail| x |
 |projectMember/contactAssociate/locationAddress|string|Location: Location| x |
+|projectMember/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMember/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -725,7 +736,6 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|projectMember/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |projectMember/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |projectMember/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |projectMember/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -735,6 +745,10 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |projectMember/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |projectMember/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |projectMember/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
@@ -745,10 +759,6 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |projectMember/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/LastActivity|date|Date of last activity|  |
 |projectMember/LastCompletedActivity|date|Date of last completed activity|  |
 |projectMember/LastDoByActivity|date|Date of last non-completed activity|  |
@@ -781,7 +791,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectMember/birthMonth,projectMember/supportLanguage,projectMember/personUdef/SuperOffice:3,projectMember/personExtra/y_rental/x_end,projectMember/personAssociate/contactId
+GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=sale/saleStatus,projectMember/kanaFirstName,projectMember/personAssociate/contactName,projectMember/correspondingAssociate/usergroup,projectMember/contactAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Lynch, D'Amore and Cremin",
-    "Tooltip": "atque",
+    "Id": 332,
+    "Name": "Jacobs-Schumm",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 882,
+    "Rank": 466,
     "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "voluptatibus",
+    "UseGroupsAndHeadings": true,
+    "ListType": "illum",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 944
       }
     }
   }

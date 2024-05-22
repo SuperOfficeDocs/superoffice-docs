@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Frami, Rohan and Bartoletti",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "UdListDefinitionId": 400,
-  "Rank": 680,
+  "Id": 333,
+  "Name": "Gleichner-Lang",
+  "Tooltip": "necessitatibus",
+  "Deleted": false,
+  "UdListDefinitionId": 31,
+  "Rank": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldType": "System.String",
+      "FieldLength": 331
     }
   }
 }

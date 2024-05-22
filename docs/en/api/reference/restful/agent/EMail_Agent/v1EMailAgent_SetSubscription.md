@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Grady, Harris and Baumbach",
-      "Delimiter": "similique",
-      "Flags": "iusto",
-      "TotalItems": 105,
-      "UnreadItems": 113,
+      "Name": "Bauch Inc and Sons",
+      "Delimiter": "nam",
+      "Flags": "suscipit",
+      "TotalItems": 484,
+      "UnreadItems": 47,
       "Subscribed": false,
-      "EmailFolderId": 818
+      "EmailFolderId": 261
     }
   ]
 }

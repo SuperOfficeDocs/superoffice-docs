@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 637,
-  "ContactId": 257,
-  "ProjectId": 188,
-  "ContactName": "Jewess LLC",
+  "ProjectmemberId": 765,
+  "ContactId": 356,
+  "ProjectId": 277,
+  "ContactName": "Lehner LLC",
   "ContactDepartment": "",
-  "ProjectName": "Jacobs-Kuhic",
-  "EmailId": 395,
-  "EmailAddress": "gino@hermistonkessler.biz",
-  "CountryId": 731,
-  "Firstname": "Lambert",
-  "MiddleName": "Cole-Barrows",
-  "Lastname": "Goldner",
-  "PersonId": 989,
-  "Mrmrs": "sit",
-  "ProjectMemberTypeName": "Gutkowski LLC",
-  "Phone": "1-537-257-1854",
-  "PhoneId": 456,
-  "ProjectMemberTypeId": 767,
-  "EmailAddressName": "gerard.okeefe@beahandenesik.co.uk",
-  "Comment": "aut",
-  "FullName": "Kirsten Schiller II",
+  "ProjectName": "Breitenberg-Price",
+  "EmailId": 669,
+  "EmailAddress": "cale_kuhlman@gulgowski.ca",
+  "CountryId": 570,
+  "Firstname": "Clinton",
+  "MiddleName": "D'Amore, Prohaska and Reichel",
+  "Lastname": "Kovacek",
+  "PersonId": 128,
+  "Mrmrs": "voluptate",
+  "ProjectMemberTypeName": "McGlynn, Heaney and Rosenbaum",
+  "Phone": "(738)771-5665 x60682",
+  "PhoneId": 454,
+  "ProjectMemberTypeId": 661,
+  "EmailAddressName": "dejuan@kovacek.com",
+  "Comment": "laboriosam",
+  "FullName": "Dr. Emmett Montana Rempel I",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

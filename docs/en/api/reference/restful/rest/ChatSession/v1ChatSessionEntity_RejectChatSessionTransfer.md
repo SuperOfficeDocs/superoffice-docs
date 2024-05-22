@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 607,
-  "TopicId": 542,
+  "ChatSessionId": 523,
+  "TopicId": 958,
   "User": null,
   "Person": null,
-  "CustomerAlias": "laudantium",
-  "CustomerHost": "et",
-  "CustomerName": "Pacocha Group",
-  "CustomerEmail": "boris.koelpin@schroeder.co.uk",
-  "CustomerPhone": "012.366.7765",
+  "CustomerAlias": "aut",
+  "CustomerHost": "ut",
+  "CustomerName": "Schoen Inc and Sons",
+  "CustomerEmail": "lois.halvorson@gorczanyherzog.info",
+  "CustomerPhone": "765-313-7837 x58095",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lockman, Blick and Funk",
+  "CustomerCompanyName": "Ryan-Bosco",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "qui",
-  "WhenRequested": "2010-06-19T11:16:13.7143691+02:00",
-  "WhenStarted": "2021-08-30T11:16:13.7143691+02:00",
-  "WhenEnded": "2006-12-19T11:16:13.7143691+01:00",
-  "WhenIdle": "2014-03-15T11:16:13.7143691+01:00",
-  "WhenFetched": "2022-05-22T11:16:13.7143691+02:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 891,
-  "AlertLevel": 274,
-  "Rank": 644,
+  "FirstMessage": "suscipit",
+  "LastMessage": "esse",
+  "WhenRequested": "2013-04-11T12:57:42.1202066+02:00",
+  "WhenStarted": "2012-07-26T12:57:42.1202066+02:00",
+  "WhenEnded": "2012-08-25T12:57:42.1202066+02:00",
+  "WhenIdle": "2004-08-05T12:57:42.1202066+02:00",
+  "WhenFetched": "2023-11-08T12:57:42.1202066+01:00",
+  "SessionKey": "quo",
+  "InitialQueuePos": 842,
+  "AlertLevel": 138,
+  "Rank": 684,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 41,
+  "Rating": 200,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 67
     }
   }
 }

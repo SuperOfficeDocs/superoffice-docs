@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=212
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=528
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 555,
-  "Name": "Hayes, Aufderhar and Jast",
-  "Description": "Public-key cohesive circuit",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 671,
+  "Name": "Spinka Inc and Sons",
+  "Description": "Quality-focused holistic initiative",
+  "WelcomeMessage": "sed",
   "Language": null,
-  "LastAccept": "2001-04-05T11:16:08.8191018+02:00",
-  "SecondsPrAccept": 242,
-  "AlertRecipient": "consequatur",
+  "LastAccept": "2002-04-07T12:57:33.4149905+02:00",
+  "SecondsPrAccept": 837,
+  "AlertRecipient": "dolorum",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "sunt",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "alias",
-  "WarnNewChatMinutes": 516,
-  "WarnManagerNewChatMinutes": 292,
+  "CollectConsent": false,
+  "BadgeHeader": "eveniet",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "quasi",
+  "WarnNewChatMinutes": 287,
+  "WarnManagerNewChatMinutes": 640,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 147,
-  "WarnManagerChatMessageMinutes": 806,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 5,
-  "OfflineFormQueueLength": 353,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 411,
+  "WarnManagerChatMessageMinutes": 196,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 185,
+  "OfflineFormQueueLength": 70,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldType": "System.String",
+      "FieldLength": 712
     }
   }
 }

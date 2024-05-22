@@ -62,11 +62,12 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
 |locationAddress|string|Location: Location| x |
+|isLocation|bool|Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=assocTooltip,personId,usergroup
+GET /api/v1/archive/ExistingCategoryMembers?$select=personId,contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

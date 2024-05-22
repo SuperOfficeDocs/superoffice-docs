@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "gretchen@morarwyman.com",
-  "Counts": 668,
-  "Code": 430,
+  "EmailAddress": "lydia.mayer@trantow.com",
+  "Counts": 509,
+  "Code": 931,
   "Reason": ""
 }
 ```

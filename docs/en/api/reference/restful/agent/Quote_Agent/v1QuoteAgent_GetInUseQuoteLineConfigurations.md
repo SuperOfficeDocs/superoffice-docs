@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 166,
-    "FieldName": "Huel Inc and Sons",
-    "Label": "sit",
-    "Tooltip": "inventore",
+    "QuoteLineConfigurationId": 995,
+    "FieldName": "Schaefer-Berge",
+    "Label": "ab",
+    "Tooltip": "vel",
     "Editable": false,
-    "InUse": true,
-    "Mandatory": true,
-    "Rank": 294,
+    "InUse": false,
+    "Mandatory": false,
+    "Rank": 716,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldLength": 677
       }
     }
   }

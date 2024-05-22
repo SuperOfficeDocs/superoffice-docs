@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Herzog, Lehner and Swaniawski",
+  "Name": "Swaniawski, Brakus and Schumm",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Blanda, Pagac and Beatty",
-    "AssociateId": 134,
-    "DetailsTable": 857,
-    "DetailsRecord": 774,
+    "Id": 143,
+    "Name": "Fay Inc and Sons",
+    "AssociateId": 76,
+    "DetailsTable": 255,
+    "DetailsRecord": 683,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "excepturi",
-      "ParameterObject2": "expedita"
+      "ParameterObject1": "cum",
+      "ParameterObject2": "alias"
     },
-    "LastStarted": "2014-08-05T11:16:08.7410229+02:00",
-    "Created": "2006-11-05T11:16:08.7410229+01:00",
-    "StartCount": 474,
-    "DatabaseSerialNumber": "1070182",
-    "Context": "voluptates",
-    "Result": "et",
+    "LastStarted": "2013-01-23T12:57:33.2658907+01:00",
+    "Created": "2009-09-23T12:57:33.2658907+02:00",
+    "StartCount": 979,
+    "DatabaseSerialNumber": "1114370",
+    "Context": "blanditiis",
+    "Result": "placeat",
     "State": "All",
-    "Description": "Polarised tangible policy",
-    "Response": "perspiciatis",
-    "Request": "autem",
-    "ProgressDescription": "Optimized motivating synergy",
-    "ProgressPercent": 703,
-    "FileName": "Littel-Zemlak",
+    "Description": "Persevering actuating migration",
+    "Response": "quia",
+    "Request": "nam",
+    "ProgressDescription": "Reactive analyzing concept",
+    "ProgressPercent": 835,
+    "FileName": "Sanford LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 921
       }
     }
   }

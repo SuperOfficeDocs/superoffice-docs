@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,55 +96,55 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Kshlerin, Waters and Quigley",
-    "ToolTip": "Harum id officiis voluptates doloremque.",
-    "Deleted": true,
-    "Rank": 296,
-    "Type": "sit",
-    "ColorBlock": 318,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2005-04-19T11:16:14.8401403+02:00",
+    "Id": 761,
+    "Name": "Lynch-Barrows",
+    "ToolTip": "Quo aut vero et distinctio sit ut.",
+    "Deleted": false,
+    "Rank": 405,
+    "Type": "quas",
+    "ColorBlock": 959,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2017-09-08T12:57:43.7769823+02:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Waters Group",
-        "ToolTip": "Eligendi doloremque.",
-        "Deleted": true,
-        "Rank": 103,
-        "Type": "magni",
-        "ColorBlock": 597,
-        "IconHint": "explicabo",
-        "Selected": false,
-        "LastChanged": "2000-04-13T11:16:14.8401403+02:00",
+        "Id": 698,
+        "Name": "Carter-Klein",
+        "ToolTip": "Ut at fugiat voluptas eos neque.",
+        "Deleted": false,
+        "Rank": 618,
+        "Type": "facilis",
+        "ColorBlock": 433,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2021-10-07T12:57:43.7769823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "perferendis",
-        "Hidden": false,
-        "FullName": "Cedrick Tromp",
+        "ExtraInfo": "rem",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Mya Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 997
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "recusandae",
-    "Hidden": false,
-    "FullName": "Alta Medhurst",
+    "ExtraInfo": "quo",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Emelia Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
+        "FieldType": "System.String",
         "FieldLength": 463
       }
     }

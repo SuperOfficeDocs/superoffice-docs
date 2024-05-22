@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Torphy-Kulas",
-    "Description": "Proactive heuristic installation",
-    "Rank": 311,
+    "Name": "Kling, Rowe and Maggio",
+    "Description": "Networked tertiary process improvement",
+    "Rank": 211,
     "Restrictions": [
       {
-        "Name": "Green LLC",
-        "Operator": "dolores",
+        "Name": "Runolfsdottir-Miller",
+        "Operator": "culpa",
         "Values": [
-          "nemo",
-          "voluptatem"
+          "aut",
+          "nobis"
         ],
         "DisplayValues": [
-          "est",
-          "qui"
+          "inventore",
+          "libero"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 107,
+        "InterParenthesis": 409,
         "InterOperator": "And",
-        "UniqueHash": 256
+        "UniqueHash": 172
       }
     ]
   },
   {
-    "Name": "Torphy-Kulas",
-    "Description": "Proactive heuristic installation",
-    "Rank": 311,
+    "Name": "Kling, Rowe and Maggio",
+    "Description": "Networked tertiary process improvement",
+    "Rank": 211,
     "Restrictions": [
       {
-        "Name": "Green LLC",
-        "Operator": "dolores",
+        "Name": "Runolfsdottir-Miller",
+        "Operator": "culpa",
         "Values": [
-          "nemo",
-          "voluptatem"
+          "aut",
+          "nobis"
         ],
         "DisplayValues": [
-          "est",
-          "qui"
+          "inventore",
+          "libero"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 107,
+        "InterParenthesis": 409,
         "InterOperator": "And",
-        "UniqueHash": 256
+        "UniqueHash": 172
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Toy-Schmidt",
-    "Description": "Multi-lateral real-time standardization",
-    "Rank": 374,
+    "Name": "Rowe Inc and Sons",
+    "Description": "Open-source discrete framework",
+    "Rank": 995,
     "Restrictions": [
       {
-        "Name": "Labadie-Witting",
-        "Operator": "illo",
+        "Name": "Kerluke, Dickinson and O'Keefe",
+        "Operator": "vero",
         "Values": [
-          "quas",
-          "unde"
+          "saepe",
+          "voluptas"
         ],
         "DisplayValues": [
-          "tenetur",
-          "nobis"
+          "minus",
+          "culpa"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 962,
+        "InterParenthesis": 324,
         "InterOperator": "And",
-        "UniqueHash": 243
+        "UniqueHash": 71
       }
     ]
   },
   {
-    "Name": "Toy-Schmidt",
-    "Description": "Multi-lateral real-time standardization",
-    "Rank": 374,
+    "Name": "Rowe Inc and Sons",
+    "Description": "Open-source discrete framework",
+    "Rank": 995,
     "Restrictions": [
       {
-        "Name": "Labadie-Witting",
-        "Operator": "illo",
+        "Name": "Kerluke, Dickinson and O'Keefe",
+        "Operator": "vero",
         "Values": [
-          "quas",
-          "unde"
+          "saepe",
+          "voluptas"
         ],
         "DisplayValues": [
-          "tenetur",
-          "nobis"
+          "minus",
+          "culpa"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 962,
+        "InterParenthesis": 324,
         "InterOperator": "And",
-        "UniqueHash": 243
+        "UniqueHash": 71
       }
     ]
   }

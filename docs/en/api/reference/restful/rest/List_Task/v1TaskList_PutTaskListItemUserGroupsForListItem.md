@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Schowalter Inc and Sons",
-    "ToolTip": "Sed eum rerum alias id.",
+    "Id": 953,
+    "Name": "Ebert, Kemmer and Johnston",
+    "ToolTip": "Et aliquid iure adipisci nostrum hic.",
     "Deleted": false,
-    "Rank": 953,
-    "Type": "voluptas",
-    "ColorBlock": 763,
-    "IconHint": "ut",
+    "Rank": 262,
+    "Type": "accusamus",
+    "ColorBlock": 177,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2024-04-21T11:16:14.8401403+02:00",
+    "LastChanged": "2021-08-08T12:57:43.7926038+02:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Gusikowski, Keebler and Murazik",
-        "ToolTip": "Eaque ipsam vel ut officia at.",
-        "Deleted": true,
-        "Rank": 786,
-        "Type": "asperiores",
-        "ColorBlock": 689,
-        "IconHint": "natus",
+        "Id": 872,
+        "Name": "Halvorson LLC",
+        "ToolTip": "Sed est ea sit vero in corporis architecto.",
+        "Deleted": false,
+        "Rank": 566,
+        "Type": "dolor",
+        "ColorBlock": 808,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "1997-10-19T11:16:14.8401403+02:00",
+        "LastChanged": "2022-11-04T12:57:43.7926038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "ut",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Terry Crooks DDS"
+        "FullName": "Prof. Tyrique Hudson"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "animi",
+    "ExtraInfo": "magni",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Ms. Evie Wisoky"
+    "FullName": "Birdie Bogisich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Marquardt Group",
-    "ToolTip": "Non cumque.",
-    "Deleted": true,
-    "Rank": 610,
-    "Type": "rerum",
-    "ColorBlock": 868,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2002-03-19T11:16:14.8401403+01:00",
+    "Id": 669,
+    "Name": "Cormier Group",
+    "ToolTip": "Eligendi est fugiat.",
+    "Deleted": false,
+    "Rank": 843,
+    "Type": "eveniet",
+    "ColorBlock": 466,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "2022-02-09T12:57:43.7926038+01:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "Haag Group",
-        "ToolTip": "Aut dolores voluptate enim optio consequuntur laboriosam omnis.",
-        "Deleted": false,
-        "Rank": 276,
-        "Type": "ut",
-        "ColorBlock": 506,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2017-05-01T11:16:14.8401403+02:00",
+        "Id": 801,
+        "Name": "Herman-Robel",
+        "ToolTip": "Quae iure tempora delectus.",
+        "Deleted": true,
+        "Rank": 954,
+        "Type": "sint",
+        "ColorBlock": 940,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "2023-03-23T12:57:43.7926038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "corporis",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "fuga",
         "Hidden": true,
-        "FullName": "Miss Sterling Prosacco IV",
+        "FullName": "Milan Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldLength": 260
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "cumque",
+    "ExtraInfo": "numquam",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Prof. Kailyn Luettgen",
+    "FullName": "Bernie Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 445
       }
     }
   }

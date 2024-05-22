@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Koelpin-Murray",
-    "Tooltip": "tempore",
+    "Id": 759,
+    "Name": "Robel-Effertz",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 962,
-    "Rank": 974,
+    "UdListDefinitionId": 217,
+    "Rank": 818,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldType": "System.String",
+        "FieldLength": 470
       }
     }
   }

@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 314,
+    "CustConfigId": 56,
     "Type": "Options",
-    "Config": "explicabo",
-    "CustLangId": 615,
-    "Registered": "2018-03-12T11:16:08.9597121+01:00",
-    "RegisteredAssociateId": 147,
-    "Updated": "2012-10-26T11:16:08.9597121+02:00",
-    "UpdatedAssociateId": 853,
+    "Config": "enim",
+    "CustLangId": 281,
+    "Registered": "2014-01-31T12:57:33.6336908+01:00",
+    "RegisteredAssociateId": 519,
+    "Updated": "2006-03-27T12:57:33.6336908+02:00",
+    "UpdatedAssociateId": 235,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldLength": 54
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 48,
-  "Name": "O'Reilly LLC",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "UdListDefinitionId": 981,
-  "Rank": 594,
+  "Id": 129,
+  "Name": "Lehner Group",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 450,
+  "Rank": 492,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 97
     }
   }
 }

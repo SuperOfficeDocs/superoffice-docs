@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "sit",
-      "Key": "voluptate"
+      "Section": "blanditiis",
+      "Key": "minus"
     },
     {
-      "Section": "sit",
-      "Key": "voluptate"
+      "Section": "blanditiis",
+      "Key": "minus"
     }
   ]
 }
@@ -109,16 +109,16 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "id",
+    "RawValue": "ullam",
     "Specification": null,
-    "DisplayValue": "vitae",
-    "DisplayTooltip": "voluptatem",
+    "DisplayValue": "et",
+    "DisplayTooltip": "nobis",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 279,
-    "PrefDescId": 772,
-    "TableName": "Gottlieb Inc and Sons",
-    "UserPreferenceId": 734,
+    "TargetId": 337,
+    "PrefDescId": 806,
+    "TableName": "Hansen, Feeney and Botsford",
+    "UserPreferenceId": 946,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

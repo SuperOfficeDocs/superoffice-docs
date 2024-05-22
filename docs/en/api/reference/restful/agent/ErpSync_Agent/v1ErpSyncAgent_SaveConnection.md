@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 191,
-  "ErpConnectorId": 440,
-  "DisplayName": "Homenick Inc and Sons",
-  "DisplayDescription": "Organized exuding open architecture",
+  "ErpConnectionId": 748,
+  "ErpConnectorId": 591,
+  "DisplayName": "Jacobs LLC",
+  "DisplayDescription": "Profound multimedia approach",
   "Active": false,
-  "ConnectionId": "atque",
-  "MostRecentTimestamp": "fuga",
+  "ConnectionId": "cupiditate",
+  "MostRecentTimestamp": "reprehenderit",
   "ConfigFields": {
-    "ConfigFields1": "mollitia",
-    "ConfigFields2": "sunt"
+    "ConfigFields1": "corporis",
+    "ConfigFields2": "soluta"
   },
   "Deleted": true,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    177,
-    220
+    611,
+    654
   ],
   "AssociateAccessIds": [
-    88,
-    383
+    680,
+    318
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 944
     }
   }
 }

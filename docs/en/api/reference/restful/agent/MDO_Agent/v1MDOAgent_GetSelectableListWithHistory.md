@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rosenbaum-Schoen",
+  "Name": "Hoppe, Thompson and Graham",
   "ForceFlatList": false,
-  "AdditionalInfo": "et",
+  "AdditionalInfo": "enim",
   "HistoryItems": [
-    71,
-    813
+    288,
+    97
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Keeling, Fay and Pagac",
-    "ToolTip": "Perspiciatis reiciendis et nulla rerum nemo aut.",
+    "Id": 595,
+    "Name": "Lynch, Mante and Beatty",
+    "ToolTip": "Odit quibusdam ipsam eligendi.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "aliquam",
-    "ColorBlock": 219,
-    "IconHint": "autem",
+    "Rank": 113,
+    "Type": "autem",
+    "ColorBlock": 386,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2008-05-02T11:16:09.3972026+02:00",
+    "LastChanged": "2024-01-20T12:57:34.3835501+01:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Dicki LLC",
-        "ToolTip": "Ea dolorem qui quisquam et commodi repellendus.",
-        "Deleted": true,
-        "Rank": 496,
-        "Type": "deleniti",
-        "ColorBlock": 396,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2019-08-28T11:16:09.3972026+02:00",
+        "Id": 461,
+        "Name": "Abshire LLC",
+        "ToolTip": "Ut consectetur incidunt architecto nam qui impedit.",
+        "Deleted": false,
+        "Rank": 219,
+        "Type": "vitae",
+        "ColorBlock": 253,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2017-07-05T12:57:34.3835501+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quo",
+        "ExtraInfo": "delectus",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Justice Hauck",
+        "FullName": "Davon Ebert DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "neque",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Prof. Eunice Mabel Willms MD",
+    "FullName": "Cathryn Willard Gaylord V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 561
+        "FieldLength": 143
       }
     }
   }

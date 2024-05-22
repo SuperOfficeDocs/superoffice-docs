@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 563,
-  "Name": "Larkin LLC",
-  "Tooltip": "qui",
-  "Rank": 798,
-  "Rate": 15811.029999999999,
-  "Units": 9828.224,
+  "CurrencyId": 820,
+  "Name": "Fahey-Lang",
+  "Tooltip": "magni",
+  "Rank": 754,
+  "Rate": 16795.106,
+  "Units": 5218.11,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 956,
-  "Name": "Mertz-Greenholt",
-  "Tooltip": "incidunt",
-  "Rank": 415,
-  "Rate": 19017.112,
-  "Units": 12943.42,
-  "Deleted": true,
+  "CurrencyId": 641,
+  "Name": "Stehr-Wolff",
+  "Tooltip": "rerum",
+  "Rank": 837,
+  "Rate": 17970.356,
+  "Units": 15958.328,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 827
     }
   }
 }

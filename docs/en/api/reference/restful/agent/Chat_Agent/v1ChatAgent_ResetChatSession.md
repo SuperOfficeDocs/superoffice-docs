@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 774
+  "ChatSessionId": 303
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 229,
-  "TopicId": 842,
+  "ChatSessionId": 858,
+  "TopicId": 265,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nihil",
-  "CustomerHost": "magnam",
-  "CustomerName": "Huel-Carroll",
-  "CustomerEmail": "rhea_lang@corwinprohaska.biz",
-  "CustomerPhone": "1-333-744-0972 x451",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Senger-Kessler",
+  "CustomerAlias": "aut",
+  "CustomerHost": "a",
+  "CustomerName": "Boehm LLC",
+  "CustomerEmail": "fermin@keeling.ca",
+  "CustomerPhone": "566-014-6610 x56741",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Kozey, Watsica and Walter",
   "Status": "Closed",
-  "FirstMessage": "blanditiis",
-  "LastMessage": "officiis",
-  "WhenRequested": "2013-08-01T11:16:08.8191018+02:00",
-  "WhenStarted": "2000-12-21T11:16:08.8191018+01:00",
-  "WhenEnded": "2015-04-22T11:16:08.8191018+02:00",
-  "WhenIdle": "2008-06-18T11:16:08.8191018+02:00",
-  "WhenFetched": "2010-02-11T11:16:08.8191018+01:00",
-  "SessionKey": "enim",
-  "InitialQueuePos": 121,
-  "AlertLevel": 189,
-  "Rank": 546,
+  "FirstMessage": "sint",
+  "LastMessage": "ut",
+  "WhenRequested": "2002-10-07T12:57:33.3993692+02:00",
+  "WhenStarted": "2021-12-22T12:57:33.3993692+01:00",
+  "WhenEnded": "2015-04-28T12:57:33.3993692+02:00",
+  "WhenIdle": "2023-01-02T12:57:33.3993692+01:00",
+  "WhenFetched": "2004-08-28T12:57:33.3993692+02:00",
+  "SessionKey": "quis",
+  "InitialQueuePos": 347,
+  "AlertLevel": 900,
+  "Rank": 716,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 899,
+  "Rating": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldLength": 789
     }
   }
 }

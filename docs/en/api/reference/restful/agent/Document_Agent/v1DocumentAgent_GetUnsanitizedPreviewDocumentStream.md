@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 654
+  "DocumentId": 260
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Daniel-Hilpert",
-  "Type": "distinctio",
-  "Size": 71,
+  "Name": "King, White and Gislason",
+  "Type": "maxime",
+  "Size": 484,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldLength": 648
     }
   }
 }

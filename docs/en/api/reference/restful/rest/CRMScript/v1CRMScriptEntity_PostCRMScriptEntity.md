@@ -103,17 +103,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 32,
-  "UniqueIdentifier": "vero",
-  "Name": "Zulauf, Gaylord and Towne",
-  "Description": "Phased regional conglomeration",
-  "IncludeId": "quis",
-  "HierarchyId": 730,
-  "Source": "dolor",
-  "Registered": "2005-10-02T11:16:13.8550957+02:00",
-  "RegisteredAssociateId": 89,
-  "Updated": "1997-12-28T11:16:13.8550957+01:00",
-  "UpdatedAssociateId": 798
+  "EjscriptId": 77,
+  "UniqueIdentifier": "aut",
+  "Name": "Keebler Inc and Sons",
+  "Description": "Customizable heuristic productivity",
+  "IncludeId": "quia",
+  "HierarchyId": 739,
+  "Source": "error",
+  "Registered": "1997-02-10T12:57:42.3232848+01:00",
+  "RegisteredAssociateId": 299,
+  "Updated": "2015-05-12T12:57:42.3232848+02:00",
+  "UpdatedAssociateId": 688
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 341,
-  "UniqueIdentifier": "eligendi",
-  "Name": "Von, Ritchie and Miller",
-  "Description": "Balanced local synergy",
-  "IncludeId": "et",
-  "HierarchyId": 489,
-  "Source": "amet",
-  "Registered": "1999-03-23T11:16:13.8550957+01:00",
-  "RegisteredAssociateId": 609,
-  "Updated": "2001-07-19T11:16:13.8550957+02:00",
-  "UpdatedAssociateId": 567,
+  "EjscriptId": 380,
+  "UniqueIdentifier": "consectetur",
+  "Name": "Kling-Watsica",
+  "Description": "Fundamental 3rd generation algorithm",
+  "IncludeId": "officiis",
+  "HierarchyId": 325,
+  "Source": "cum",
+  "Registered": "2008-09-02T12:57:42.3232848+02:00",
+  "RegisteredAssociateId": 637,
+  "Updated": "2012-07-04T12:57:42.3232848+02:00",
+  "UpdatedAssociateId": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 323
     }
   },
   "_Links": {

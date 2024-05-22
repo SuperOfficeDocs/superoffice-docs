@@ -140,37 +140,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 871,
-  "Name": "Weber-Keebler",
-  "Description": "Persevering fault-tolerant analyzer",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 675,
+  "Name": "Hodkiewicz, Wilderman and Schulist",
+  "Description": "User-friendly user-facing algorithm",
+  "WelcomeMessage": "libero",
   "Language": null,
-  "LastAccept": "1998-11-04T11:16:13.7456138+01:00",
-  "SecondsPrAccept": 930,
-  "AlertRecipient": "ipsum",
+  "LastAccept": "2010-01-17T12:57:42.1670705+01:00",
+  "SecondsPrAccept": 555,
+  "AlertRecipient": "ea",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "quo",
+  "CollectConsent": true,
+  "BadgeHeader": "veritatis",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "molestiae",
-  "WarnNewChatMinutes": 312,
-  "WarnManagerNewChatMinutes": 581,
+  "CustomQueueText": "dicta",
+  "WarnNewChatMinutes": 546,
+  "WarnManagerNewChatMinutes": 273,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 298,
-  "WarnManagerChatMessageMinutes": 906,
+  "WarnChatMessageMinutes": 454,
+  "WarnManagerChatMessageMinutes": 495,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 702,
-  "OfflineFormQueueLength": 744,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "exercitationem"
+  "OfflineFormTimeLimit": 361,
+  "OfflineFormQueueLength": 572,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "quia"
 }
 ```
 
@@ -181,21 +181,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 649,
-  "Name": "Willms Inc and Sons",
-  "Description": "Up-sized 5th generation approach",
-  "WelcomeMessage": "incidunt",
+  "ChatTopicId": 218,
+  "Name": "Okuneva, Baumbach and Wilderman",
+  "Description": "Programmable client-driven moratorium",
+  "WelcomeMessage": "vel",
   "Language": null,
-  "LastAccept": "2007-07-02T11:16:13.7456138+02:00",
-  "SecondsPrAccept": 593,
-  "AlertRecipient": "ut",
+  "LastAccept": "2008-01-31T12:57:42.1670705+01:00",
+  "SecondsPrAccept": 487,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "nostrum",
+  "BadgeHeader": "ipsum",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "accusantium",
-  "WarnNewChatMinutes": 845,
-  "WarnManagerNewChatMinutes": 750,
+  "CustomQueueText": "corrupti",
+  "WarnNewChatMinutes": 569,
+  "WarnManagerNewChatMinutes": 795,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -204,25 +204,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 457,
-  "WarnManagerChatMessageMinutes": 33,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 607,
-  "OfflineFormQueueLength": 711,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 999,
+  "WarnManagerChatMessageMinutes": 292,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 596,
+  "OfflineFormQueueLength": 180,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "cumque",
+  "WidgetRatingText": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

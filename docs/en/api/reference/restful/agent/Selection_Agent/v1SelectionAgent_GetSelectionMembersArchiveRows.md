@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 496,
-  "Select": "sed"
+  "SelectionId": 274,
+  "Select": "totam"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Sipes, Torphy and Cassin",
-    "PrimaryKey": 944,
+    "EntityName": "Greenfelder-Schaefer",
+    "PrimaryKey": 342,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "velit",
-        "TooltipHint": "nam",
-        "LinkHint": "numquam"
+        "DisplayValue": "sed",
+        "TooltipHint": "ut",
+        "LinkHint": "voluptatem"
       }
     },
-    "LinkHint": "incidunt",
-    "StyleHint": "rerum",
+    "LinkHint": "dolores",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldType": "System.String",
+        "FieldLength": 919
       }
     }
   }

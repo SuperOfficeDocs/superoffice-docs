@@ -577,11 +577,23 @@ title: Services88.WorkflowAgent WSDL
       <xs:complexType name="WorkflowStepNotifyBySMS">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="To" type="tns:WorkflowNotifySMSType" />
+              <xs:element minOccurs="0" name="SpecificPhoneNumbers" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepNotifyBySMS" nillable="true" type="tns:WorkflowStepNotifyBySMS" />
+      <xs:simpleType name="WorkflowNotifySMSType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="OurContact" />
+          <xs:enumeration value="OurServiceContact" />
+          <xs:enumeration value="SpecificPhoneNumbers" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowNotifySMSType" nillable="true" type="tns:WorkflowNotifySMSType" />
       <xs:complexType name="WorkflowStepRemoveFromList">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -596,7 +608,9 @@ title: Services88.WorkflowAgent WSDL
       <xs:complexType name="WorkflowStepRunScript">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ScriptId" type="xs:int" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
@@ -606,7 +620,7 @@ title: Services88.WorkflowAgent WSDL
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
               <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Attachments" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Attachments" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
@@ -707,8 +721,8 @@ title: Services88.WorkflowAgent WSDL
         <xs:sequence>
           <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Values" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
           <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
           <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
@@ -828,8 +842,8 @@ title: Services88.WorkflowAgent WSDL
           <xs:element minOccurs="0" name="EncodedDataCaption" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="EncodedDataCaptionDescription" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="CurrentOperationType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Values" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q9:ArrayOfstring" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           <xs:element minOccurs="0" name="OperationInfos" nillable="true" type="tns:ArrayOfOperationInfo" />
         </xs:sequence>
       </xs:complexType>
@@ -868,7 +882,7 @@ title: Services88.WorkflowAgent WSDL
             <xs:sequence>
               <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="EncodedDisplayName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="EncodedLeadTexts" nillable="true" type="q9:ArrayOfstring" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="EncodedLeadTexts" nillable="true" type="q10:ArrayOfstring" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1457,14 +1471,14 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="TryAddPersonsToEmailFlowResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q11:ArrayOfboolean" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q12:ArrayOfboolean" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1472,7 +1486,7 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q13:ArrayOfint" xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 188,
-    "Name": "Ullrich Inc and Sons",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 527,
-    "UdListDefinitionId": 782
+    "HeadingId": 25,
+    "Name": "Stark-Huels",
+    "Tooltip": "dolore",
+    "Deleted": false,
+    "Rank": 687,
+    "UdListDefinitionId": 72
   },
   {
-    "HeadingId": 188,
-    "Name": "Ullrich Inc and Sons",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 527,
-    "UdListDefinitionId": 782
+    "HeadingId": 25,
+    "Name": "Stark-Huels",
+    "Tooltip": "dolore",
+    "Deleted": false,
+    "Rank": 687,
+    "UdListDefinitionId": 72
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 209,
-    "Name": "Reichert Inc and Sons",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "Rank": 549,
-    "UdListDefinitionId": 357,
+    "HeadingId": 100,
+    "Name": "Reinger-Pfeffer",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "Rank": 693,
+    "UdListDefinitionId": 335,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 827
       }
     }
   }

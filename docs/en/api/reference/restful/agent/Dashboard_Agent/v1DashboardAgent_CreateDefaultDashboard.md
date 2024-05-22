@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 725,
-  "AssociateId": 1002,
-  "Caption": "id",
+  "DashboardId": 54,
+  "AssociateId": 325,
+  "Caption": "aut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 520,
-      "Caption": "est",
-      "Description": "Enterprise-wide systemic database",
-      "ChartName": "Morar-Connelly",
-      "ChartId": "commodi",
+      "DashboardTileId": 892,
+      "Caption": "numquam",
+      "Description": "Cross-platform 5th generation emulation",
+      "ChartName": "Moore-Kohler",
+      "ChartId": "aut",
       "IsDefault": false,
-      "AssociateId": 418,
-      "GroupId": 812,
-      "SelectionId": 81,
-      "Config": "dolorem",
+      "AssociateId": 399,
+      "GroupId": 267,
+      "SelectionId": 861,
+      "Config": "omnis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 66
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 807
     }
   }
 }

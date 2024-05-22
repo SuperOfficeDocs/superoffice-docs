@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=14
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=757
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 848,
-  "FormKey": "recusandae",
-  "Name": "Bogisich-Okuneva",
-  "Description": "Exclusive dynamic monitoring",
-  "Config": "voluptatem",
-  "FolderId": 281,
-  "ScriptId": 566,
-  "ResponseShipmentId": 612,
-  "Active": false,
-  "Expires": "2016-06-30T11:16:09.3815779+02:00",
-  "MaxSubmits": 673,
+  "FormId": 6,
+  "FormKey": "sapiente",
+  "Name": "Graham-Waelchi",
+  "Description": "Digitized reciprocal interface",
+  "Config": "veniam",
+  "FolderId": 779,
+  "ScriptId": 544,
+  "ResponseShipmentId": 269,
+  "Active": true,
+  "Expires": "2007-09-16T12:57:34.2429559+02:00",
+  "MaxSubmits": 841,
   "Type": "Normal",
-  "Recipe": "repellendus",
-  "GroupId": 534,
+  "Recipe": "velit",
+  "GroupId": 307,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2023-03-23T11:16:09.3815779+01:00",
-  "RegisteredAssociateId": 44,
-  "Updated": "2010-08-15T11:16:09.3815779+02:00",
-  "UpdatedAssociateId": 761,
-  "UpdatedCount": 630,
+  "Registered": "2016-10-05T12:57:34.2429559+02:00",
+  "RegisteredAssociateId": 366,
+  "Updated": "2007-09-29T12:57:34.2429559+02:00",
+  "UpdatedAssociateId": 559,
+  "UpdatedCount": 860,
   "EmailFlows": [
-    879,
-    880
+    199,
+    95
   ],
-  "FolderName": "Lubowitz Group",
+  "FolderName": "Cruickshank-Greenholt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 541
     }
   }
 }

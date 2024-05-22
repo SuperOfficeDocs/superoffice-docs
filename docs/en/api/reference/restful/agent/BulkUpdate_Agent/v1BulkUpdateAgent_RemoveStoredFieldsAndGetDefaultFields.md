@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Conn, Homenick and Kuphal",
-  "Context": "sapiente"
+  "TableName": "Cole, Maggio and McGlynn",
+  "Context": "quia"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "aliquid",
-    "ValueType": "facilis",
-    "Mandatory": false,
-    "EncodedDisplayName": "Lehner, Halvorson and Blick",
-    "EncodedDisplayDescription": "Inverse coherent array",
-    "IconHint": "inventore",
+    "Key": "reiciendis",
+    "ValueType": "tempore",
+    "Mandatory": true,
+    "EncodedDisplayName": "Tremblay-Champlin",
+    "EncodedDisplayDescription": "Digitized modular success",
+    "IconHint": "quibusdam",
     "ControlInfos": [
       {
-        "Type": "excepturi",
-        "Label": "vitae",
-        "Dimension": 719,
-        "ListProviderName": "Schmidt LLC",
-        "ListProviderExtraInfo": "quis",
-        "ListProviderPrimaryKeyName": "Kirlin-Breitenberg",
-        "ListLeadText": "autem",
+        "Type": "debitis",
+        "Label": "qui",
+        "Dimension": 273,
+        "ListProviderName": "Mante, Blick and Funk",
+        "ListProviderExtraInfo": "quo",
+        "ListProviderPrimaryKeyName": "Gottlieb-Farrell",
+        "ListLeadText": "odio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 91
           }
         }
       }
     ],
-    "EncodedDataCaption": "expedita",
-    "EncodedDataCaptionDescription": "Proactive impactful website",
-    "CurrentOperationType": "reprehenderit",
+    "EncodedDataCaption": "quos",
+    "EncodedDataCaptionDescription": "Managed stable time-frame",
+    "CurrentOperationType": "at",
     "Values": [
-      "sunt",
-      "voluptates"
+      "itaque",
+      "nisi"
     ],
     "DisplayValues": [
-      "qui",
-      "quae"
+      "odio",
+      "numquam"
     ],
     "OperationInfos": [
       {
         "Key": "fugit",
-        "EncodedDisplayName": "Stracke Group",
+        "EncodedDisplayName": "Kovacek, Hauck and Gorczany",
         "EncodedLeadTexts": [
-          "similique",
-          "quis"
+          "sint",
+          "quas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldLength": 825
           }
         }
       },
       {
         "Key": "fugit",
-        "EncodedDisplayName": "Stracke Group",
+        "EncodedDisplayName": "Kovacek, Hauck and Gorczany",
         "EncodedLeadTexts": [
-          "similique",
-          "quis"
+          "sint",
+          "quas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldLength": 825
           }
         }
       }

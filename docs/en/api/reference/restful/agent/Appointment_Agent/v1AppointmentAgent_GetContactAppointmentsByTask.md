@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 40,
-  "StartTime": "2009-04-02T11:16:08.4278552+02:00",
-  "EndTime": "2003-02-20T11:16:08.4278552+01:00",
-  "Count": 989,
-  "TaskId": 391
+  "ContactId": 786,
+  "StartTime": "2013-02-27T12:57:32.7271897+01:00",
+  "EndTime": "2000-01-10T12:57:32.7271897+01:00",
+  "Count": 128,
+  "TaskId": 385
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 730,
-    "StartDate": "2023-11-20T11:16:08.4278552+01:00",
-    "EndDate": "2005-04-08T11:16:08.4278552+02:00",
+    "AppointmentId": 145,
+    "StartDate": "2002-01-07T12:57:32.7271897+01:00",
+    "EndDate": "1997-12-09T12:57:32.7271897+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Miss Rhiannon Ashley Towne MD",
-    "ContactName": "Lowe, Hickle and Reinger",
-    "Description": "Intuitive national forecast",
-    "PersonFullName": "Elva Lehner I",
-    "PersonId": 162,
-    "ContactId": 106,
-    "ProjectId": 715,
-    "ProjectName": "Skiles Group",
+    "Task": "quasi",
+    "AssociateFullName": "Dr. Lea Toni Fay",
+    "ContactName": "Swaniawski LLC",
+    "Description": "User-centric client-driven framework",
+    "PersonFullName": "Tyson Botsford III",
+    "PersonId": 726,
+    "ContactId": 921,
+    "ProjectId": 639,
+    "ProjectName": "Auer LLC",
     "IsPublished": false,
-    "AssociateId": 784,
-    "ColorIndex": 224,
+    "AssociateId": 390,
+    "ColorIndex": 739,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 142,
-    "PriorityName": "Stoltenberg LLC",
+    "PriorityId": 375,
+    "PriorityName": "Ortiz-Swaniawski",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2005-11-03T11:16:08.4278552+01:00",
+    "ActiveDate": "2020-10-14T12:57:32.7428108+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-10-15T11:16:08.4278552+02:00",
-    "RecurringEndDate": "2022-10-04T11:16:08.4278552+02:00",
-    "MotherId": 379,
-    "AssignedBy": 504,
-    "AssignedByFullName": "Dr. Lottie Johnson",
+    "RecurringStartDate": "1999-11-12T12:57:32.7428108+01:00",
+    "RecurringEndDate": "2002-02-24T12:57:32.7428108+01:00",
+    "MotherId": 423,
+    "AssignedBy": 834,
+    "AssignedByFullName": "Prof. Kim Lee Haag DDS",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "deserunt",
-    "SaleId": 90,
-    "SaleName": "Rolfson LLC",
-    "AssociateName": "Okuneva, Aufderhar and Ledner",
-    "CreatedDate": "2003-04-07T11:16:08.4278552+02:00",
-    "CreatedBy": "repellat",
-    "CreatedByFullName": "Mandy Krajcik",
-    "CreatedByAssociateId": 420,
+    "Location": "tempore",
+    "AlarmLeadTime": "officiis",
+    "SaleId": 30,
+    "SaleName": "Koelpin-Lang",
+    "AssociateName": "Boyle-Hartmann",
+    "CreatedDate": "2003-11-15T12:57:32.7428108+01:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Anthony Walsh",
+    "CreatedByAssociateId": 649,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 450,
-    "Title": "consectetur",
-    "Agenda": "ea",
-    "InternalNotes": "laudantium",
+    "PreferredTZLocation": 440,
+    "Title": "facere",
+    "Agenda": "deserunt",
+    "InternalNotes": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 496
       }
     }
   }

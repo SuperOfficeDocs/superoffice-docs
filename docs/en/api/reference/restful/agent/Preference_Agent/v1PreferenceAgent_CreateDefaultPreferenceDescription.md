@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 1001,
-  "Section": "quaerat",
-  "Key": "tempora",
-  "Name": "Lockman Group",
+  "PrefDescId": 936,
+  "Section": "omnis",
+  "Key": "voluptatum",
+  "Name": "Trantow, Gaylord and Romaguera",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customizable even-keeled complexity",
-  "IsBuiltin": true,
-  "TableName": "Mills, Prohaska and Rodriguez",
-  "UserDefinedListId": 329,
-  "Rank": 372,
-  "SubGroup": "et",
-  "MinLevel": 516,
-  "MaxValue": 142,
-  "MinValue": 371,
-  "RequiredLicense": "provident",
+  "Description": "Robust upward-trending projection",
+  "IsBuiltin": false,
+  "TableName": "Altenwerth, Parisian and Botsford",
+  "UserDefinedListId": 933,
+  "Rank": 603,
+  "SubGroup": "voluptatum",
+  "MinLevel": 512,
+  "MaxValue": 311,
+  "MinValue": 83,
+  "RequiredLicense": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

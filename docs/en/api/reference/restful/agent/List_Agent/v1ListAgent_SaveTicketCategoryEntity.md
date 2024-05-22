@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 154,
-  "ParentId": 234,
-  "Name": "Kulas, Kiehn and Farrell",
-  "Fullname": "aut",
-  "CategoryMaster": 346,
+  "TicketCategoryId": 604,
+  "ParentId": 942,
+  "Name": "Lubowitz Group",
+  "Fullname": "iusto",
+  "CategoryMaster": 201,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Sporer Inc and Sons",
+  "ExternalName": "Kautzer-Schuppe",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 207,
-  "ReplyTemplate": 501,
-  "NotificationEmail": "stone@baileyoberbrunner.info",
+  "AssignmentLag": 571,
+  "ReplyTemplate": 822,
+  "NotificationEmail": "erling@boyle.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 803,
+  "EffectiveReplyTemplateId": 302,
   "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "et"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "provident"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 557,
-  "ParentId": 672,
-  "Name": "O'Conner-Jaskolski",
-  "Fullname": "porro",
-  "CategoryMaster": 599,
+  "TicketCategoryId": 273,
+  "ParentId": 648,
+  "Name": "Koss-Cummings",
+  "Fullname": "in",
+  "CategoryMaster": 242,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fisher-Jacobs",
+  "ExternalName": "Rogahn Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 959,
-  "ReplyTemplate": 686,
-  "NotificationEmail": "charlene.skiles@lednerhaag.biz",
+  "AssignmentLag": 739,
+  "ReplyTemplate": 278,
+  "NotificationEmail": "dortha@bogan.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 99,
+  "EffectiveReplyTemplateId": 446,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "velit"
+    "CustomFields1": "est",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldLength": 205
     }
   }
 }

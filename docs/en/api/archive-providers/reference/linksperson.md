@@ -78,6 +78,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|createdByForm|listAny|Created by form: Created by form| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |text|string|Text: Displays a descriptive text for the item| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -116,7 +119,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksPerson?$select=useAsMailingAddress,ticketPriority
+GET /api/v1/archive/LinksPerson?$select=retired,associateId,personSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

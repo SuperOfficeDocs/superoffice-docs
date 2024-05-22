@@ -72,7 +72,7 @@ OK
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "West-Witting",
-  "DisplayName": "Grimes Group",
-  "Description": "Implemented systemic info-mediaries",
-  "ShortLabel": "placeat",
+  "FieldName": "Jenkins-Towne",
+  "DisplayName": "Osinski-Botsford",
+  "Description": "Fundamental bi-directional utilisation",
+  "ShortLabel": "assumenda",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 986,
-  "TemplateVariableName": "Marvin-Schumm"
+  "IsDisplayField": false,
+  "Rank": 754,
+  "TemplateVariableName": "Windler, Beier and Schamberger"
 }
 ```

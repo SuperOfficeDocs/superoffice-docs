@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 807,
-  "ERPPriceListKey": "unde",
-  "QuoteConnectionId": 720,
-  "Name": "Greenholt-Leffler",
-  "Description": "Down-sized zero defect interface",
-  "Currency": "aut",
-  "CurrencyName": "McDermott-Wehner",
-  "ValidFrom": "1998-06-05T11:16:14.6214085+02:00",
-  "ValidTo": "1999-06-16T11:16:14.6214085+02:00",
-  "IsActive": true,
+  "PriceListId": 248,
+  "ERPPriceListKey": "itaque",
+  "QuoteConnectionId": 394,
+  "Name": "Terry-Zemlak",
+  "Description": "Re-contextualized modular architecture",
+  "Currency": "in",
+  "CurrencyName": "Lesch Group",
+  "ValidFrom": "2019-12-24T12:57:43.5582822+01:00",
+  "ValidTo": "2011-08-22T12:57:43.5582822+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 343
     }
   },
   "_Links": {

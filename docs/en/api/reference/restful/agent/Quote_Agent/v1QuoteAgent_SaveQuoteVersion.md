@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 269,
-  "ERPQuoteVersionKey": "hic",
-  "QuoteId": 316,
-  "Description": "Cross-group solution-oriented toolset",
-  "Number": "1550098",
+  "QuoteVersionId": 616,
+  "ERPQuoteVersionKey": "et",
+  "QuoteId": 711,
+  "Description": "Configurable 5th generation system engine",
+  "Number": "1078258",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 376,
-  "SentDate": "2015-01-05T11:16:09.5848946+01:00",
-  "FollowupId": 365,
-  "ExpirationDate": "2008-10-01T11:16:09.5848946+02:00",
-  "DeliveryCountryId": 581,
+  "LikelyQuoteAlternativeId": 490,
+  "SentDate": "2013-04-28T12:57:34.6959481+02:00",
+  "FollowupId": 509,
+  "ExpirationDate": "2016-03-01T12:57:34.6959481+01:00",
+  "DeliveryCountryId": 895,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 626,
+  "InvoiceCountryId": 143,
   "HasOwnInvoiceAddress": false,
   "ERPPaymentTermsKey": "ipsa",
-  "ERPPaymentTypeKey": "quis",
-  "ERPDeliveryTermsKey": "est",
-  "ERPDeliveryTypeKey": "at",
-  "Rank": 814,
-  "ApprovedBy": 100,
-  "ApprovedText": "suscipit",
-  "ApprovedRegisteredBy": 902,
-  "ApprovedRegisteredDate": "2015-06-19T11:16:09.5848946+02:00",
-  "ExtraField1": "voluptates",
-  "ExtraField2": "nulla",
-  "ExtraField3": "sit",
-  "ExtraField4": "ut",
-  "ExtraField5": "eos",
-  "LastRecalculated": "2018-10-07T11:16:09.5848946+02:00",
-  "Updated": "2017-06-01T11:16:09.5848946+02:00",
-  "UpdatedAssociateId": 663,
-  "Registered": "2017-12-07T11:16:09.5848946+01:00",
-  "RegisteredAssociateId": 392,
-  "RequestAssociateId": 210,
-  "RequestComment": "ut",
+  "ERPPaymentTypeKey": "voluptate",
+  "ERPDeliveryTermsKey": "nesciunt",
+  "ERPDeliveryTypeKey": "est",
+  "Rank": 24,
+  "ApprovedBy": 750,
+  "ApprovedText": "et",
+  "ApprovedRegisteredBy": 126,
+  "ApprovedRegisteredDate": "1998-06-24T12:57:34.6959481+02:00",
+  "ExtraField1": "commodi",
+  "ExtraField2": "dolorum",
+  "ExtraField3": "nulla",
+  "ExtraField4": "consequuntur",
+  "ExtraField5": "fuga",
+  "LastRecalculated": "2016-02-24T12:57:34.6959481+01:00",
+  "Updated": "2016-01-14T12:57:34.6959481+01:00",
+  "UpdatedAssociateId": 222,
+  "Registered": "2012-06-15T12:57:34.6959481+02:00",
+  "RegisteredAssociateId": 81,
+  "RequestAssociateId": 395,
+  "RequestComment": "qui",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 843,
-      "ERPQuoteAlternativeKey": "inventore",
-      "QuoteVersionId": 51,
-      "Name": "Pacocha-Brown",
-      "Description": "Cross-group composite knowledge user",
+      "QuoteAlternativeId": 729,
+      "ERPQuoteAlternativeKey": "tenetur",
+      "QuoteVersionId": 790,
+      "Name": "Rempel, Hauck and Gerhold",
+      "Description": "Future-proofed 5th generation circuit",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 3014.908,
-      "ERPDiscountAmount": 13360.242,
-      "DiscountPercent": 22097.834,
-      "DiscountAmount": 23110.115999999998,
+      "ERPDiscountPercent": 4851.432,
+      "ERPDiscountAmount": 2670.168,
+      "DiscountPercent": 7408.776,
+      "DiscountAmount": 6534.3899999999994,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 19020.246,
-      "EarningPercent": 13607.828,
-      "EarningAmount": 14732.934,
-      "SubTotal": 10643.064,
-      "TotalPrice": 20850.502,
-      "ExtraField1": "fuga",
-      "ExtraField2": "maiores",
-      "ExtraField3": "natus",
-      "ExtraField4": "quo",
-      "ExtraField5": "commodi",
+      "VATInfo": "sint",
+      "VAT": 6108.166,
+      "EarningPercent": 159.834,
+      "EarningAmount": 28782.656,
+      "SubTotal": 18528.208,
+      "TotalPrice": 8549.552,
+      "ExtraField1": "veritatis",
+      "ExtraField2": "alias",
+      "ExtraField3": "quis",
+      "ExtraField4": "est",
+      "ExtraField5": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldLength": 964
     }
   }
 }

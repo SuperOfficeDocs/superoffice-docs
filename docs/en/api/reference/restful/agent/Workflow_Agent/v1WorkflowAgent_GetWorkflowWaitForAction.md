@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=557
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=319
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 122,
-  "WorkflowStepId": 738,
-  "WorkflowId": 783,
-  "Rank": 525,
+  "WorkflowWaitForActionId": 146,
+  "WorkflowStepId": 695,
+  "WorkflowId": 972,
+  "Rank": 838,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Gorczany Inc and Sons",
-      "Description": "Re-contextualized intangible matrices",
-      "Rank": 923,
+      "Name": "Towne, Hilpert and Quigley",
+      "Description": "Stand-alone coherent interface",
+      "Rank": 841,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gorczany Inc and Sons",
-      "Description": "Re-contextualized intangible matrices",
-      "Rank": 923,
+      "Name": "Towne, Hilpert and Quigley",
+      "Description": "Stand-alone coherent interface",
+      "Rank": 841,
       "Restrictions": [
         {},
         {}
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 267
+      "FieldLength": 432
     }
   }
 }

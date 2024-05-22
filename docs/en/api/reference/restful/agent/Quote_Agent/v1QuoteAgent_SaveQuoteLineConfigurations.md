@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 940,
-      "FieldName": "Corwin Group",
-      "Label": "sint",
-      "Tooltip": "dolor",
+      "QuoteLineConfigurationId": 733,
+      "FieldName": "Zboncak, Schimmel and Frami",
+      "Label": "quam",
+      "Tooltip": "soluta",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 727,
+      "Rank": 444,
       "RestrictEdit": true
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 490,
-    "FieldName": "DuBuque, Hintz and Deckow",
-    "Label": "est",
-    "Tooltip": "et",
+    "QuoteLineConfigurationId": 978,
+    "FieldName": "Fahey LLC",
+    "Label": "id",
+    "Tooltip": "quis",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": true,
-    "Rank": 946,
-    "RestrictEdit": true,
+    "InUse": true,
+    "Mandatory": false,
+    "Rank": 548,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldLength": 107
       }
     }
   }

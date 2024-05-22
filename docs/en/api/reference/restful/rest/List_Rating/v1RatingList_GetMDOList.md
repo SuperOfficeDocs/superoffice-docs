@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=quam
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=incidunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Lakin-Windler",
-    "ToolTip": "Et ea deleniti ut fugiat accusamus.",
+    "Id": 986,
+    "Name": "Welch, Howe and Bogan",
+    "ToolTip": "Voluptates animi expedita.",
     "Deleted": false,
-    "Rank": 843,
-    "Type": "rem",
+    "Rank": 976,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Goldner LLC",
-        "ToolTip": "Tempore sint aliquam autem minus repellendus dolores.",
+        "Id": 897,
+        "Name": "Abbott Inc and Sons",
+        "ToolTip": "Modi et magni id esse porro asperiores amet.",
         "Deleted": false,
-        "Rank": 543,
-        "Type": "a",
+        "Rank": 745,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 164,
-        "ExtraInfo": "tempora",
-        "StyleHint": "earum",
-        "FullName": "Carroll Daren Wyman DVM",
+        "IconHint": "sapiente",
+        "ColorBlock": 393,
+        "ExtraInfo": "non",
+        "StyleHint": "consectetur",
+        "FullName": "Cecilia Luettgen DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldLength": 868
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 209,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
-    "FullName": "Emmie Miller",
+    "IconHint": "ipsum",
+    "ColorBlock": 810,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "molestias",
+    "FullName": "Dr. Ibrahim Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 899
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

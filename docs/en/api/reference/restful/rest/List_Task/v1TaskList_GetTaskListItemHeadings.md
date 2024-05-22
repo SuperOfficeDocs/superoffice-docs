@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 199,
-    "Name": "Labadie, Cassin and Orn",
-    "Tooltip": "odit",
-    "Deleted": false,
-    "Rank": 688,
-    "UdListDefinitionId": 247,
+    "HeadingId": 778,
+    "Name": "Heller LLC",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 759,
+    "UdListDefinitionId": 904,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 752
       }
     }
   }

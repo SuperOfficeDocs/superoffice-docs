@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 654,
-  "Count": 118
+  "AmountLimit": 441,
+  "Count": 905
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lakin-Auer",
-    "SaleDate": "2011-09-26T11:16:09.6846608+02:00",
-    "SaleId": 287,
-    "Probability": 468,
-    "Title": "suscipit",
-    "Amount": 6619.008,
-    "Currency": "id",
-    "ProjectName": "Bernhard-Bednar",
-    "AssociateFullName": "Kaitlyn Schamberger",
-    "Description": "Seamless multimedia frame",
+    "ContactName": "Senger, Breitenberg and Yost",
+    "SaleDate": "2004-04-15T12:57:34.8688339+02:00",
+    "SaleId": 324,
+    "Probability": 540,
+    "Title": "ratione",
+    "Amount": 15826.699999999999,
+    "Currency": "quo",
+    "ProjectName": "Collins Group",
+    "AssociateFullName": "Casandra Deckow",
+    "Description": "Multi-channelled maximized attitude",
     "Status": "Lost",
-    "WeightedAmount": 5418.686,
-    "ProjectId": 848,
-    "EarningPercent": 7239.54,
-    "Earning": 21157.634,
-    "ContactId": 728,
-    "AssociateId": 195,
-    "PersonId": 384,
-    "SaleTypeId": 492,
-    "SaleTypeName": "Olson, Windler and Huel",
-    "PersonFullName": "Sid Tromp",
+    "WeightedAmount": 4804.422,
+    "ProjectId": 325,
+    "EarningPercent": 10699.475999999999,
+    "Earning": 20599.782,
+    "ContactId": 556,
+    "AssociateId": 504,
+    "PersonId": 397,
+    "SaleTypeId": 600,
+    "SaleTypeName": "D'Amore, Blick and Kozey",
+    "PersonFullName": "Conrad Mariano Dare Jr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 665,
-    "NextDueDate": "2001-01-30T11:16:09.6846608+01:00",
-    "Number": "760658",
+    "ActiveErpLinks": 746,
+    "NextDueDate": "2004-09-14T12:57:34.8688339+02:00",
+    "Number": "1872967",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 902
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

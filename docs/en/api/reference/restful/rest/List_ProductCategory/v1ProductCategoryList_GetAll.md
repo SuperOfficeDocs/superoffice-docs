@@ -25,7 +25,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=True
+GET /api/v1/List/ProductCategory/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Tillman, Heidenreich and Stiedemann",
-    "Tooltip": "ipsa",
+    "Id": 615,
+    "Name": "Frami LLC",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 614,
-    "Rank": 467,
+    "UdListDefinitionId": 12,
+    "Rank": 770,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldType": "System.Int32",
+        "FieldLength": 654
       }
     }
   }

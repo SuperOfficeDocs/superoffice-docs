@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quia",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-06-25T11:16:14.1519474+02:00",
-  "Amount": 6324.4119999999994,
-  "SaleId": 450,
-  "Earning": 21887.856,
-  "EarningPercent": 27936.476,
-  "Heading": "minus",
-  "Number": "170350",
-  "Probability": 667,
-  "CreatedDate": "2012-08-03T11:16:14.1519474+02:00",
-  "UpdatedDate": "2004-05-29T11:16:14.1519474+02:00",
+  "Saledate": "1998-01-19T12:57:42.6981992+01:00",
+  "Amount": 7201.932,
+  "SaleId": 946,
+  "Earning": 4418.94,
+  "EarningPercent": 4284.178,
+  "Heading": "iste",
+  "Number": "470994",
+  "Probability": 77,
+  "CreatedDate": "2000-02-09T12:57:42.6981992+01:00",
+  "UpdatedDate": "2016-12-31T12:57:42.6981992+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 972,
+  "ActiveLinks": 718,
   "Links": [
     {
-      "EntityName": "Aufderhar, Greenholt and Lebsack",
-      "Id": 727,
-      "Description": "Managed disintermediate budgetary management",
-      "ExtraInfo": "veniam",
-      "LinkId": 55
+      "EntityName": "Runolfsdottir Group",
+      "Id": 156,
+      "Description": "Adaptive web-enabled paradigm",
+      "ExtraInfo": "eum",
+      "LinkId": 744
     },
     {
-      "EntityName": "Aufderhar, Greenholt and Lebsack",
-      "Id": 727,
-      "Description": "Managed disintermediate budgetary management",
-      "ExtraInfo": "veniam",
-      "LinkId": 55
+      "EntityName": "Runolfsdottir Group",
+      "Id": 156,
+      "Description": "Adaptive web-enabled paradigm",
+      "ExtraInfo": "eum",
+      "LinkId": 744
     }
   ],
-  "NextDueDate": "2019-12-21T11:16:14.1519474+01:00",
-  "Postit": "cum",
+  "NextDueDate": "2010-10-13T12:57:42.6981992+02:00",
+  "Postit": "est",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-02-06T11:16:14.1519474+01:00",
+  "ReopenDate": "2006-01-12T12:57:42.6981992+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kuvalis Group",
-      "Comment": "excepturi",
-      "StakeholderRoleId": 21,
-      "CountryId": 180,
-      "PersonId": 891,
-      "EmailDescription": "helena@wehner.us",
-      "EmailId": 39,
-      "EmailAddress": "marcellus_gottlieb@schmelerlockman.info",
-      "PhoneId": 445,
-      "ContactName": "Wunsch, Strosin and Denesik",
-      "ContactId": 55,
-      "SaleId": 141,
-      "Mrmrs": "eaque",
-      "Firstname": "Emerson",
-      "MiddleName": "Ondricka Group",
-      "Lastname": "Harris",
-      "SaleStakeholderId": 505,
-      "Rank": 406,
-      "Phone": "1-142-606-6196 x28858"
+      "StakeholderRoleName": "Lynch, Hamill and Simonis",
+      "Comment": "aut",
+      "StakeholderRoleId": 756,
+      "CountryId": 5,
+      "PersonId": 527,
+      "EmailDescription": "eugenia@bergnaum.info",
+      "EmailId": 167,
+      "EmailAddress": "kaleigh@cassin.co.uk",
+      "PhoneId": 456,
+      "ContactName": "Littel, Emmerich and Wiegand",
+      "ContactId": 942,
+      "SaleId": 791,
+      "Mrmrs": "dolore",
+      "Firstname": "Hobart",
+      "MiddleName": "Ziemann-Rempel",
+      "Lastname": "Gusikowski",
+      "SaleStakeholderId": 591,
+      "Rank": 934,
+      "Phone": "767.927.7609 x03973"
     }
   ],
-  "ActiveErpLinks": 463,
+  "ActiveErpLinks": 636,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Myah Lehner"
+    "SuperOffice:1": "1488168135",
+    "SuperOffice:2": "Jerel Balistreri"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "dolore",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2008-08-05T11:16:14.1519474+02:00",
-  "PublishTo": "2023-02-14T11:16:14.1519474+01:00",
-  "PublishFrom": "2022-08-18T11:16:14.1519474+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-11-25T12:57:42.6981992+01:00",
+  "PublishTo": "1999-12-25T12:57:42.6981992+01:00",
+  "PublishFrom": "2015-11-22T12:57:42.6981992+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 285,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "labore"
+      "DisplayValue": "id"
     },
     {
-      "VisibleId": 285,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "labore"
+      "DisplayValue": "id"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "unde",
+  "SaleText": "aut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-07-15T11:16:14.1675606+02:00",
-  "Amount": 11639.676,
-  "SaleId": 28,
-  "Earning": 21530.579999999998,
-  "EarningPercent": 1037.354,
-  "Heading": "similique",
-  "Number": "725975",
-  "Probability": 560,
-  "CreatedDate": "2000-05-19T11:16:14.1675606+02:00",
-  "UpdatedDate": "2006-11-10T11:16:14.1675606+01:00",
+  "Saledate": "2006-07-25T12:57:42.7138204+02:00",
+  "Amount": 144.164,
+  "SaleId": 645,
+  "Earning": 6051.754,
+  "EarningPercent": 25915.046,
+  "Heading": "ea",
+  "Number": "1632063",
+  "Probability": 439,
+  "CreatedDate": "2000-01-03T12:57:42.7138204+01:00",
+  "UpdatedDate": "2006-01-04T12:57:42.7138204+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 334,
+  "ActiveLinks": 175,
   "Links": [
     {
-      "EntityName": "Cartwright, Doyle and McGlynn",
-      "Id": 391,
-      "Description": "Self-enabling tangible frame",
-      "ExtraInfo": "consequatur",
-      "LinkId": 521,
+      "EntityName": "Paucek, Gibson and Stroman",
+      "Id": 223,
+      "Description": "Triple-buffered leading edge moratorium",
+      "ExtraInfo": "suscipit",
+      "LinkId": 779,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 7
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2022-04-27T12:57:42.7138204+02:00",
+  "Postit": "minus",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2012-06-06T12:57:42.7138204+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Towne-Abbott",
+      "Comment": "tempora",
+      "StakeholderRoleId": 573,
+      "CountryId": 915,
+      "PersonId": 557,
+      "EmailDescription": "letitia.okon@renner.com",
+      "EmailId": 857,
+      "EmailAddress": "laisha@cassin.ca",
+      "PhoneId": 154,
+      "ContactName": "Turcotte-Pfannerstill",
+      "ContactId": 438,
+      "SaleId": 209,
+      "Mrmrs": "ullam",
+      "Firstname": "Efrain",
+      "MiddleName": "Heaney, Hauck and Nolan",
+      "Lastname": "Powlowski",
+      "SaleStakeholderId": 767,
+      "Rank": 425,
+      "Phone": "1-869-551-5646",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 55
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 716,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1696434694"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "quia",
+    "ExtraFields2": "pariatur"
+  },
+  "CustomFields": {
+    "CustomFields1": "qui",
+    "CustomFields2": "eos"
+  },
+  "PublishEventDate": "2004-04-13T12:57:42.7138204+02:00",
+  "PublishTo": "1998-10-19T12:57:42.7138204+02:00",
+  "PublishFrom": "2006-07-02T12:57:42.7138204+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 518,
+      "Visibility": "All",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 739
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2011-03-09T11:16:14.1675606+01:00",
-  "Postit": "aut",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2017-06-02T11:16:14.1675606+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Marvin-Harris",
-      "Comment": "optio",
-      "StakeholderRoleId": 168,
-      "CountryId": 120,
-      "PersonId": 345,
-      "EmailDescription": "vincenzo.rempel@langosh.uk",
-      "EmailId": 514,
-      "EmailAddress": "hilda@halvorsonemard.us",
-      "PhoneId": 280,
-      "ContactName": "Conn, Reilly and Schumm",
-      "ContactId": 130,
-      "SaleId": 766,
-      "Mrmrs": "et",
-      "Firstname": "Loren",
-      "MiddleName": "Mann, Kunze and Hahn",
-      "Lastname": "Corwin",
-      "SaleStakeholderId": 214,
-      "Rank": 661,
-      "Phone": "1-301-698-9819",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 410,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Adell Davis",
-    "SuperOffice:2": "Maeve Rogahn"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "ut"
-  },
-  "PublishEventDate": "2019-09-30T11:16:14.1675606+02:00",
-  "PublishTo": "2019-03-18T11:16:14.1675606+01:00",
-  "PublishFrom": "2004-07-30T11:16:14.1675606+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 498,
-      "Visibility": "All",
-      "DisplayValue": "aut",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 969
         }
       }
     },
     {
-      "VisibleId": 498,
+      "VisibleId": 518,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     }
@@ -408,12 +408,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 416
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

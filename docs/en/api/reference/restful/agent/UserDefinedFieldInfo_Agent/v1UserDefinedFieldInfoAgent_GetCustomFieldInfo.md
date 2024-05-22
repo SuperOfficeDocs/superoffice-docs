@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nolan-Lemke",
-  "FieldName": "Hand-Kreiger"
+  "TableName": "Weimann, Schumm and McGlynn",
+  "FieldName": "Wilderman, Vandervort and Weber"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bechtelar, Hoeger and Grant",
-  "DisplayName": "Wuckert Inc and Sons",
-  "Description": "Managed interactive secured line",
-  "ShortLabel": "modi",
+  "FieldName": "Stiedemann, Aufderhar and Labadie",
+  "DisplayName": "Schuppe-Larkin",
+  "Description": "Multi-channelled non-volatile policy",
+  "ShortLabel": "ducimus",
   "HideLabel": true,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 718,
-  "TemplateVariableName": "Von, Lesch and Doyle"
+  "IsExternal": false,
+  "IsDisplayField": false,
+  "Rank": 271,
+  "TemplateVariableName": "McCullough Group"
 }
 ```

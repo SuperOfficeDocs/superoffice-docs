@@ -148,51 +148,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 593,
-  "ERPProductKey": "nobis",
-  "ERPPriceListKey": "quaerat",
-  "Name": "Ortiz LLC",
-  "Description": "Devolved modular orchestration",
-  "Code": "at",
-  "PriceUnit": "quia",
-  "QuantityUnit": "placeat",
-  "IsSubscription": false,
-  "SubscriptionUnit": "maiores",
-  "DefaultSubscriptionQuantity": 6850.924,
-  "ItemNumber": "874077",
+  "ProductId": 444,
+  "ERPProductKey": "quaerat",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Kling LLC",
+  "Description": "Ameliorated holistic framework",
+  "Code": "nulla",
+  "PriceUnit": "quos",
+  "QuantityUnit": "eveniet",
+  "IsSubscription": true,
+  "SubscriptionUnit": "expedita",
+  "DefaultSubscriptionQuantity": 12460.784,
+  "ItemNumber": "346482",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "voluptate",
-  "VAT": 27945.878,
-  "VATInfo": "ipsum",
-  "UnitCost": 18164.664,
-  "UnitMinimumPrice": 22191.854,
-  "UnitListPrice": 15717.01,
-  "InAssortment": true,
-  "Supplier": "aperiam",
-  "SupplierCode": "accusamus",
-  "Rights": "delectus",
-  "Rule": "est",
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "illo",
+  "VAT": 16158.903999999999,
+  "VATInfo": "esse",
+  "UnitCost": 10574.116,
+  "UnitMinimumPrice": 4359.394,
+  "UnitListPrice": 10414.282,
+  "InAssortment": false,
+  "Supplier": "omnis",
+  "SupplierCode": "quod",
+  "Rights": "qui",
+  "Rule": "laudantium",
   "ExtraInfo": [
     {
-      "Name": "Bogan Group",
-      "Value": "hic",
+      "Name": "Reichel, Brekke and Sawayn",
+      "Value": "vel",
       "Type": "Image"
     },
     {
-      "Name": "Bogan Group",
-      "Value": "hic",
+      "Name": "Reichel, Brekke and Sawayn",
+      "Value": "vel",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "unde",
-  "ExtraField3": "tempora",
-  "ExtraField4": "vitae",
-  "ExtraField5": "porro",
-  "InStock": 6092.496
+  "RawExtraInfo": "dolorem",
+  "ExtraField1": "velit",
+  "ExtraField2": "nulla",
+  "ExtraField3": "earum",
+  "ExtraField4": "ratione",
+  "ExtraField5": "vel",
+  "InStock": 20593.514
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 294,
-  "ERPProductKey": "eligendi",
-  "ERPPriceListKey": "ullam",
-  "Name": "Runolfsson, Schaden and Larson",
-  "Description": "Realigned intangible function",
-  "Code": "rerum",
-  "PriceUnit": "cumque",
-  "QuantityUnit": "eum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ad",
-  "DefaultSubscriptionQuantity": 11075.556,
-  "ItemNumber": "905255",
+  "ProductId": 48,
+  "ERPProductKey": "tenetur",
+  "ERPPriceListKey": "blanditiis",
+  "Name": "Kozey-Stiedemann",
+  "Description": "Exclusive 6th generation capability",
+  "Code": "totam",
+  "PriceUnit": "omnis",
+  "QuantityUnit": "velit",
+  "IsSubscription": false,
+  "SubscriptionUnit": "rem",
+  "DefaultSubscriptionQuantity": 23201.002,
+  "ItemNumber": "1109769",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "ea",
-  "VAT": 17108.506,
-  "VATInfo": "ut",
-  "UnitCost": 19628.242,
-  "UnitMinimumPrice": 29992.379999999997,
-  "UnitListPrice": 14400.73,
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "et",
+  "VAT": 16384.552,
+  "VATInfo": "numquam",
+  "UnitCost": 3340.844,
+  "UnitMinimumPrice": 17572.338,
+  "UnitListPrice": 18960.7,
   "InAssortment": false,
-  "Supplier": "inventore",
-  "SupplierCode": "nulla",
-  "Rights": "illo",
-  "Rule": "voluptate",
+  "Supplier": "repudiandae",
+  "SupplierCode": "odio",
+  "Rights": "qui",
+  "Rule": "ea",
   "ExtraInfo": [
     {
-      "Name": "Johnson, Rohan and Schinner",
-      "Value": "pariatur",
+      "Name": "Hintz LLC",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldType": "System.String",
+          "FieldLength": 923
         }
       }
     },
     {
-      "Name": "Johnson, Rohan and Schinner",
-      "Value": "pariatur",
+      "Name": "Hintz LLC",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldType": "System.String",
+          "FieldLength": 923
         }
       }
     }
   ],
-  "RawExtraInfo": "quasi",
-  "ExtraField1": "in",
-  "ExtraField2": "saepe",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "aut",
-  "ExtraField5": "fugit",
-  "InStock": 28030.496,
+  "RawExtraInfo": "sunt",
+  "ExtraField1": "iusto",
+  "ExtraField2": "doloremque",
+  "ExtraField3": "assumenda",
+  "ExtraField4": "est",
+  "ExtraField5": "quod",
+  "InStock": 335.33799999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 821
     }
   }
 }

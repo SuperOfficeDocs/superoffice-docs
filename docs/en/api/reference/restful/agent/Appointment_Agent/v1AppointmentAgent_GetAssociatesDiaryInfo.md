@@ -71,6 +71,8 @@ OK
 | StartDate | date-time | The start of the appointment |
 | EndDate | date-time | The end of the appointment |
 | ColorIndex | string | The color index of the appointment (task) |
+| TaskName | string | The name of the appointment task type |
+| ContactName | string | The name of the appointment contact. |
 | Title | string | The appointment title (first line of appointment description) |
 | Agenda | string | The appointment agenda (the rest of appointment description) |
 | IsAllDay | bool | True if the appointment is an all day appointment |
@@ -86,16 +88,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    733,
-    481
+    258,
+    74
   ],
-  "StartTime": "2023-11-25T11:16:08.5063888+01:00",
-  "EndTime": "2011-12-04T11:16:08.5063888+01:00"
+  "StartTime": "1998-07-03T12:57:32.7584322+02:00",
+  "EndTime": "1997-03-31T12:57:32.7584322+02:00"
 }
 ```
 
@@ -107,24 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 801,
-    "AssociateId": 342,
-    "MotherId": 899,
-    "StartDate": "2022-05-23T11:16:08.5063888+02:00",
-    "EndDate": "2017-04-09T11:16:08.5063888+02:00",
+    "AppointmentId": 104,
+    "AssociateId": 8,
+    "MotherId": 907,
+    "StartDate": "2012-08-28T12:57:32.7584322+02:00",
+    "EndDate": "2018-05-02T12:57:32.7584322+02:00",
     "ColorIndex": "BlueAlt1",
-    "Title": "voluptatem",
-    "Agenda": "nemo",
-    "IsAllDay": false,
-    "IsBusy": false,
+    "TaskName": "Grimes Group",
+    "ContactName": "Oberbrunner-Brekke",
+    "Title": "quos",
+    "Agenda": "quia",
+    "IsAllDay": true,
+    "IsBusy": true,
     "IsRecurring": false,
-    "IsVideoMeeting": true,
+    "IsVideoMeeting": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 126
       }
     }
   }

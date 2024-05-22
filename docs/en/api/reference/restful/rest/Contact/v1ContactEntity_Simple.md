@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 254,
-  "Name": "Schoen, Kilback and Kihn",
-  "OrgNr": "1426216",
+  "ContactId": 398,
+  "Name": "Swift, Jewess and Kreiger",
+  "OrgNr": "992216",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "voluptatum",
-  "DirectPhone": "1-762-132-2643 x6521",
-  "AssociateId": 342,
-  "CountryId": 159,
-  "EmailAddress": "andrew@cartwright.info",
-  "Kananame": "fugit",
-  "EmailAddressName": "elizabeth@brown.ca",
+  "City": "recusandae",
+  "DirectPhone": "475-310-1844",
+  "AssociateId": 354,
+  "CountryId": 33,
+  "EmailAddress": "melba.toy@schumm.uk",
+  "Kananame": "sit",
+  "EmailAddressName": "lorenzo_okuneva@johns.ca",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Mrs. Triston Makenzie DuBuque",
+  "AssociateFullName": "River Wehner",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "perferendis",
-  "FullName": "Mr. Octavia Lexie Emard",
+  "FormattedAddress": "sed",
+  "FullName": "Era Terry",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 733,
-  "Number1": "396891",
-  "Number2": "1121316",
+  "ActiveErpLinks": 705,
+  "Number1": "1379738",
+  "Number2": "995402",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   }
 }

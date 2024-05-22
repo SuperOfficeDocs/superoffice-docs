@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 660,
-  "Name": "Ankunding-Hilpert",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 764,
-  "UdListDefinitionId": 53
+  "HeadingId": 87,
+  "Name": "Collins, Rosenbaum and Muller",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 727,
+  "UdListDefinitionId": 131
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 601,
-  "Name": "Ruecker LLC",
-  "Tooltip": "et",
+  "HeadingId": 833,
+  "Name": "Kassulke-Zemlak",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 853,
-  "UdListDefinitionId": 142,
+  "Rank": 466,
+  "UdListDefinitionId": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldLength": 13
     }
   }
 }

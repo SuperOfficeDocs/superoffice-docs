@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "O'Kon-Bartoletti",
-  "DeviceName": "McLaughlin Group",
-  "DeviceIdentifier": "suscipit"
+  "ApplicationName": "Witting-Rolfson",
+  "DeviceName": "Hahn-Marquardt",
+  "DeviceIdentifier": "praesentium"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eum",
-  "Value": "dicta",
-  "RecordId": 870,
-  "CreatedDate": "2001-06-30T11:16:09.2878404+02:00",
-  "UpdatedDate": "1997-06-12T11:16:09.2878404+02:00",
-  "UpdatedBy": "iusto",
-  "CreatedBy": "eum",
-  "TableName": "Little-Haag",
+  "Key": "quos",
+  "Value": "velit",
+  "RecordId": 118,
+  "CreatedDate": "2001-08-04T12:57:34.0711192+02:00",
+  "UpdatedDate": "2021-10-14T12:57:34.0711192+02:00",
+  "UpdatedBy": "minus",
+  "CreatedBy": "nihil",
+  "TableName": "Harber-Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldType": "System.String",
+      "FieldLength": 271
     }
   }
 }

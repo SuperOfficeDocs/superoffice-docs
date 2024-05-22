@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 737,
-  "Name": "Dooley-Legros",
-  "CreatedDate": "2021-07-29T11:16:09.2722138+02:00",
-  "UpdatedDate": "2007-08-21T11:16:09.2722138+02:00",
+  "ForeignAppId": 477,
+  "Name": "Fay Group",
+  "CreatedDate": "2023-02-06T12:57:34.0554972+01:00",
+  "UpdatedDate": "2011-06-24T12:57:34.0554972+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 352,
-      "Name": "Armstrong LLC",
-      "CreatedDate": "2023-06-01T11:16:09.2722138+02:00",
-      "UpdatedDate": "2002-11-02T11:16:09.2722138+01:00",
-      "AssociateFullName": "Ms. Petra Cronin Jr.",
-      "CreatedBy": "nisi",
-      "UpdatedBy": "voluptatibus",
-      "DeviceIdentifier": "quibusdam",
-      "ForeignAppId": 611
+      "ForeignDeviceId": 792,
+      "Name": "Quigley-Klocko",
+      "CreatedDate": "2013-06-28T12:57:34.0554972+02:00",
+      "UpdatedDate": "2022-09-25T12:57:34.0554972+02:00",
+      "AssociateFullName": "Mrs. Judd Cleve Macejkovic V",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "assumenda",
+      "ForeignAppId": 882
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 146,
-  "Name": "Schiller Group",
-  "CreatedDate": "2015-09-16T11:16:09.2722138+02:00",
-  "UpdatedDate": "2004-01-08T11:16:09.2722138+01:00",
+  "ForeignAppId": 168,
+  "Name": "Schultz, Raynor and Lindgren",
+  "CreatedDate": "2014-04-03T12:57:34.0554972+02:00",
+  "UpdatedDate": "2023-04-07T12:57:34.0554972+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 323,
-      "Name": "Effertz-Gerhold",
-      "CreatedDate": "2000-03-14T11:16:09.2722138+01:00",
-      "UpdatedDate": "2011-02-25T11:16:09.2722138+01:00",
-      "AssociateFullName": "Elenora Bernhard",
-      "CreatedBy": "ut",
-      "UpdatedBy": "maiores",
-      "DeviceIdentifier": "dolorum",
-      "ForeignAppId": 68,
+      "ForeignDeviceId": 257,
+      "Name": "Mitchell, Mohr and Cremin",
+      "CreatedDate": "2020-10-21T12:57:34.0554972+02:00",
+      "UpdatedDate": "2013-06-22T12:57:34.0554972+02:00",
+      "AssociateFullName": "Fanny Lindgren Sr.",
+      "CreatedBy": "placeat",
+      "UpdatedBy": "labore",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 775,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 2
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldLength": 781
     }
   }
 }

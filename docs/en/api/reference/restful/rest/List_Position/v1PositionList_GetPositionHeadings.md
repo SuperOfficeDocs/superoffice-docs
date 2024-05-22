@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 756,
-    "Name": "Dooley Inc and Sons",
-    "Tooltip": "officia",
+    "HeadingId": 927,
+    "Name": "Stracke, Ziemann and Feest",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 378,
+    "Rank": 792,
+    "UdListDefinitionId": 7,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldType": "System.String",
+        "FieldLength": 57
       }
     }
   }

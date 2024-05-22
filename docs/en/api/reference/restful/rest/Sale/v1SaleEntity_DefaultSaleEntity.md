@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 27 Jun 2022 11:16:14 G6T
+Last-Modified: Thu, 11 Nov 1999 12:57:42 G11T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Mon, 27 Jun 2022 11:16:14 G6T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "alias",
+  "SaleText": "pariatur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Mon, 27 Jun 2022 11:16:14 G6T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-06-01T11:16:14.1519474+02:00",
-  "Amount": 25410.471999999998,
-  "SaleId": 906,
-  "Earning": 18619.094,
-  "EarningPercent": 4697.866,
-  "Heading": "rerum",
-  "Number": "750826",
-  "Probability": 49,
-  "CreatedDate": "2024-02-24T11:16:14.1519474+01:00",
-  "UpdatedDate": "2022-06-27T11:16:14.1519474+02:00",
+  "Saledate": "2012-06-04T12:57:42.6825773+02:00",
+  "Amount": 25758.345999999998,
+  "SaleId": 769,
+  "Earning": 3942.5719999999997,
+  "EarningPercent": 7863.206,
+  "Heading": "ad",
+  "Number": "191522",
+  "Probability": 673,
+  "CreatedDate": "2010-01-13T12:57:42.6825773+01:00",
+  "UpdatedDate": "1999-11-11T12:57:42.6825773+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 617,
+  "ActiveLinks": 226,
   "Links": [
     {
-      "EntityName": "Nader, Breitenberg and Wehner",
-      "Id": 714,
-      "Description": "De-engineered regional benchmark",
-      "ExtraInfo": "iusto",
-      "LinkId": 897,
+      "EntityName": "Kreiger Inc and Sons",
+      "Id": 651,
+      "Description": "Future-proofed disintermediate installation",
+      "ExtraInfo": "velit",
+      "LinkId": 795,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 298
         }
       }
     }
   ],
-  "NextDueDate": "2009-02-03T11:16:14.1519474+01:00",
-  "Postit": "sint",
+  "NextDueDate": "1997-08-22T12:57:42.6825773+02:00",
+  "Postit": "sed",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-04-17T11:16:14.1519474+02:00",
+  "ReopenDate": "2011-11-20T12:57:42.6825773+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schuster-Ruecker",
-      "Comment": "quasi",
-      "StakeholderRoleId": 647,
-      "CountryId": 784,
-      "PersonId": 58,
-      "EmailDescription": "gerry_klein@boyer.biz",
-      "EmailId": 127,
-      "EmailAddress": "jimmy_kshlerin@townestokes.name",
-      "PhoneId": 96,
-      "ContactName": "Johnson, Hoppe and Mills",
-      "ContactId": 920,
-      "SaleId": 281,
-      "Mrmrs": "est",
-      "Firstname": "Elisabeth",
-      "MiddleName": "Runte-Shields",
-      "Lastname": "Bernhard",
-      "SaleStakeholderId": 971,
-      "Rank": 752,
-      "Phone": "(289)019-4130 x42584",
+      "StakeholderRoleName": "Kovacek Group",
+      "Comment": "laborum",
+      "StakeholderRoleId": 950,
+      "CountryId": 946,
+      "PersonId": 661,
+      "EmailDescription": "jerry@kilback.name",
+      "EmailId": 171,
+      "EmailAddress": "elisa@lueilwitz.info",
+      "PhoneId": 560,
+      "ContactName": "Turner-Klocko",
+      "ContactId": 66,
+      "SaleId": 686,
+      "Mrmrs": "eos",
+      "Firstname": "Elijah",
+      "MiddleName": "Rohan-Wisoky",
+      "Lastname": "Shields",
+      "SaleStakeholderId": 40,
+      "Rank": 330,
+      "Phone": "496-924-3198",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 654
+          "FieldLength": 7
         }
       }
     }
   ],
-  "ActiveErpLinks": 621,
+  "ActiveErpLinks": 560,
   "UserDefinedFields": {
-    "SuperOffice:1": "Stanley Dakota Gutmann Sr.",
-    "SuperOffice:2": "Alisha Watsica"
+    "SuperOffice:1": "Mr. Erick Cesar Nader",
+    "SuperOffice:2": "Green McLaughlin"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "dolor",
+    "CustomFields2": "consectetur"
   },
-  "PublishEventDate": "2010-04-09T11:16:14.1519474+02:00",
-  "PublishTo": "2017-02-21T11:16:14.1519474+01:00",
-  "PublishFrom": "2009-01-16T11:16:14.1519474+01:00",
+  "PublishEventDate": "2022-08-20T12:57:42.6825773+02:00",
+  "PublishTo": "2011-12-31T12:57:42.6825773+01:00",
+  "PublishFrom": "2002-04-20T12:57:42.6825773+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 356,
+      "VisibleId": 575,
       "Visibility": "All",
-      "DisplayValue": "veniam",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 126
         }
       }
     },
     {
-      "VisibleId": 356,
+      "VisibleId": 575,
       "Visibility": "All",
-      "DisplayValue": "veniam",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 126
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Mon, 27 Jun 2022 11:16:14 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 258
     }
   }
 }

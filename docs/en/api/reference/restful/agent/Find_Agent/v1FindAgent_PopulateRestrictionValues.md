@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Runolfsdottir-Lowe",
-      "Operator": "voluptatem",
+      "Name": "Steuber, Brekke and Welch",
+      "Operator": "nobis",
       "Values": [
-        "quidem",
-        "aut"
+        "reprehenderit",
+        "quam"
       ],
       "DisplayValues": [
-        "aut",
-        "rerum"
+        "autem",
+        "veniam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 935,
+      "InterParenthesis": 195,
       "InterOperator": "And",
-      "UniqueHash": 853
+      "UniqueHash": 869
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leannon, Boyer and Carroll",
-    "Operator": "nihil",
+    "Name": "Raynor-Cole",
+    "Operator": "adipisci",
     "Values": [
-      "aliquid",
-      "incidunt"
+      "a",
+      "dicta"
     ],
     "DisplayValues": [
-      "dolor",
-      "laboriosam"
+      "eveniet",
+      "corporis"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Howe Inc and Sons",
-        "Operator": "harum",
+        "Name": "Kuhic, Bartoletti and Hoeger",
+        "Operator": "aut",
         "Values": [
-          "eveniet",
-          "sequi"
+          "eos",
+          "dolores"
         ],
         "DisplayValues": [
-          "ea",
-          "dolorem"
+          "et",
+          "magni"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 854,
+        "InterParenthesis": 983,
         "InterOperator": "And",
-        "UniqueHash": 280
+        "UniqueHash": 394
       }
     ],
-    "InterParenthesis": 501,
+    "InterParenthesis": 655,
     "InterOperator": "And",
-    "UniqueHash": 45
+    "UniqueHash": 664
   }
 ]
 ```

@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 224,
-  "Name": "Abshire Group",
-  "Tooltip": "occaecati",
+  "HeadingId": 968,
+  "Name": "Wunsch, Koch and Heidenreich",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 866,
-  "UdListDefinitionId": 696
+  "Rank": 439,
+  "UdListDefinitionId": 289
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 98,
-  "Name": "Renner-Miller",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "Rank": 81,
-  "UdListDefinitionId": 949,
+  "HeadingId": 695,
+  "Name": "Senger, Larson and Hagenes",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "Rank": 108,
+  "UdListDefinitionId": 633,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 994
     }
   }
 }

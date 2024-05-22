@@ -67,8 +67,8 @@ so.envir: onsite, online
 | ---------- | ----------- |
 | [activitystatus](activitystatus.md) |MDO provider for the ActivityStatus enum: NotStarted, Started, Completed|
 | [addressformat](addressformat.md) |MDO list provider for AddressFormats Id returned is the layout_id, not the addressformat_id.|
-| [allpersonsearch](allpersonsearch.md) |Provider for selecting a Person, including search on contacts that match as well as persons. this provider wil|
-| [allpersonwithassociatesearch](allpersonwithassociatesearch.md) |Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider" />, but additionally adds the associateId of the person to the extrainfo and changes the iconhint if the person is an associate.|
+| [allpersonsearch](allpersonsearch.md) |Provider for selecting a Person, including search on contacts that match as well as persons. This provider wil|
+| [allpersonwithassociatesearch](allpersonwithassociatesearch.md) |Provides the same baseline functionality as <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider" />, but additionally adds the associateId of the person to the extrainf|
 | [allpreferencekeys](allpreferencekeys.md) |MDO Provider that retrieves all preference keys|
 | [amountclass](amountclass.md) |GenericMDOProvider reads MDO lists with default settings|
 | [appointment](appointment.md) ||
@@ -112,6 +112,7 @@ so.envir: onsite, online
 | [contact_freetextsearch](contact_freetextsearch.md) |Provider for selecting a Contact - without person search|
 | [contact_new](contact_new.md) |Provider for selecting a Contact - without person search|
 | [contint](contint.md) |GenericMDOProvider reads MDO lists with default settings|
+| [country2](country2.md) |Same as CountryProvider, but with icon hints based on the countrys name.|
 | [createdocumenttemplateplugin](createdocumenttemplateplugin.md) |List of document plugins that can create document templates.|
 | [credentialgroup](credentialgroup.md) |List of user groups supported by a named creditial plugin, sorted by group name.|
 | [credited](credited.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -155,7 +156,6 @@ so.envir: onsite, online
 | [emailfolder](emailfolder.md) |EmailFolderProvider gives you the folder hierarchy of a given mail account|
 | [emailfromtype](emailfromtype.md) |MDO provider for the EmailFromType enum|
 | [emailphone](emailphone.md) |List of e-mail addresses and phone numbers matching the search valu|
-| [emailrecipient](emailrecipient.md) |List of most recent e-mail recipients cached for the current user.|
 | [emailreplytotype](emailreplytotype.md) |MDO provider for the EmailReplyToType enum|
 | [erpactortype](erpactortype.md) ||
 | [erpconnections](erpconnections.md) |Retrieve the list of all defined Erp Connections (not Connectors, that's another list)|

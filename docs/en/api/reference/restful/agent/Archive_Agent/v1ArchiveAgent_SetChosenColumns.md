@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schuster, Graham and Jones",
-  "ProviderName": "Wintheiser, O'Kon and Morar",
+  "GuiName": "Rippin, Marks and Bednar",
+  "ProviderName": "Kautzer, Lubowitz and Leannon",
   "ChosenColumns": [
-    "fugiat",
-    "aut"
+    "iure",
+    "nam"
   ]
 }
 ```

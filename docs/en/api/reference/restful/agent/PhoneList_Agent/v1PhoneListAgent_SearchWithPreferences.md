@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "veritatis",
+  "SearchString": "molestias",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "534-485-8910 x897",
-    "PersonCellPhone": "1-451-187-2696",
-    "PersonPrivatePhone": "1-075-172-3080 x5783",
-    "PersonFaxNumber": "1920134",
-    "PersonPagerNumber": "833640",
-    "PersonEmail": "eleanora_reinger@donnellyhaag.name",
-    "Id": 925,
-    "Name": "Crona Group",
-    "Tooltip": "qui",
-    "UniqueId": "eum",
+    "PersonDirectPhone": "(778)832-6607 x38569",
+    "PersonCellPhone": "585.952.0084",
+    "PersonPrivatePhone": "834.269.6623 x16197",
+    "PersonFaxNumber": "1072759",
+    "PersonPagerNumber": "1138342",
+    "PersonEmail": "helena@boscoyundt.co.uk",
+    "Id": 697,
+    "Name": "Wiza Inc and Sons",
+    "Tooltip": "enim",
+    "UniqueId": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldType": "System.String",
+        "FieldLength": 820
       }
     }
   }

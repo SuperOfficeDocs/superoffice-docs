@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 527,
+  "SelectionId": 766,
   "Criteria": [
     {
-      "Name": "Ondricka Inc and Sons",
-      "Description": "Integrated context-sensitive neural-net",
-      "Rank": 909,
+      "Name": "Nader-Streich",
+      "Description": "Synergized modular contingency",
+      "Rank": 487,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ondricka Inc and Sons",
-      "Description": "Integrated context-sensitive neural-net",
-      "Rank": 909,
+      "Name": "Nader-Streich",
+      "Description": "Synergized modular contingency",
+      "Rank": 487,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hoeger, Boehm and Jacobi",
-    "Description": "Re-contextualized national framework",
-    "Rank": 230,
+    "Name": "Gusikowski-Haley",
+    "Description": "Horizontal 4th generation core",
+    "Rank": 264,
     "Restrictions": [
       {
-        "Name": "Beahan-Hessel",
-        "Operator": "blanditiis",
+        "Name": "Runte-Ferry",
+        "Operator": "neque",
         "Values": [
-          "iusto",
-          "sapiente"
+          "sit",
+          "optio"
         ],
         "DisplayValues": [
-          "incidunt",
-          "nihil"
+          "amet",
+          "hic"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 631,
+        "InterParenthesis": 49,
         "InterOperator": "And",
-        "UniqueHash": 724
+        "UniqueHash": 38
       }
     ]
   },
   {
-    "Name": "Hoeger, Boehm and Jacobi",
-    "Description": "Re-contextualized national framework",
-    "Rank": 230,
+    "Name": "Gusikowski-Haley",
+    "Description": "Horizontal 4th generation core",
+    "Rank": 264,
     "Restrictions": [
       {
-        "Name": "Beahan-Hessel",
-        "Operator": "blanditiis",
+        "Name": "Runte-Ferry",
+        "Operator": "neque",
         "Values": [
-          "iusto",
-          "sapiente"
+          "sit",
+          "optio"
         ],
         "DisplayValues": [
-          "incidunt",
-          "nihil"
+          "amet",
+          "hic"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 631,
+        "InterParenthesis": 49,
         "InterOperator": "And",
-        "UniqueHash": 724
+        "UniqueHash": 38
       }
     ]
   }

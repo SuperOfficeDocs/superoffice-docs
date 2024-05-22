@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Feil LLC",
-    "ToolTip": "Inventore et.",
+    "Id": 765,
+    "Name": "Legros, Ortiz and Green",
+    "ToolTip": "Quaerat ipsam suscipit ut adipisci nemo dolore.",
     "Deleted": false,
-    "Rank": 938,
-    "Type": "sint",
-    "ColorBlock": 454,
-    "IconHint": "ut",
+    "Rank": 179,
+    "Type": "ut",
+    "ColorBlock": 987,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2018-09-06T11:16:14.4808001+02:00",
+    "LastChanged": "2019-09-30T12:57:43.3239611+02:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Sawayn-Jones",
-        "ToolTip": "Delectus pariatur et.",
-        "Deleted": true,
-        "Rank": 149,
-        "Type": "nesciunt",
-        "ColorBlock": 795,
-        "IconHint": "ullam",
+        "Id": 592,
+        "Name": "Stokes Inc and Sons",
+        "ToolTip": "Veritatis ratione repellat in qui velit iste.",
+        "Deleted": false,
+        "Rank": 36,
+        "Type": "et",
+        "ColorBlock": 779,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2003-02-03T11:16:14.4808001+01:00",
+        "LastChanged": "2019-11-22T12:57:43.3239611+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "rem",
-        "Hidden": true,
-        "FullName": "Ms. Elva Turner MD",
+        "ExtraInfo": "cumque",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Amara Sauer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 665
+            "FieldType": "System.Int32",
+            "FieldLength": 472
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Dr. Luella Art Jakubowski",
+    "ExtraInfo": "aut",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Julie Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldLength": 19
       }
     }
   }

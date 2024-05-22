@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 574,
-  "Name": "Bruen LLC",
-  "CurrencyId": 334,
-  "EnglishName": "Gibson Group",
+  "CountryId": 901,
+  "Name": "Wisoky-Herman",
+  "CurrencyId": 99,
+  "EnglishName": "Beahan, O'Keefe and Hermann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Proactive contextually-based archive",
-  "OrgNrText": "1140549",
-  "InterAreaPrefix": "error",
-  "DialInPrefix": "quod",
-  "ZipPrefix": "accusamus",
-  "DomainName": "Braun-Cummings",
-  "AddressLayoutId": 114,
-  "DomesticAddressLayoutId": 1000,
-  "ForeignAddressLayoutId": 77,
-  "Rank": 775,
-  "Tooltip": "eum",
+  "ImageDescription": "Synergized web-enabled time-frame",
+  "OrgNrText": "925859",
+  "InterAreaPrefix": "consequatur",
+  "DialInPrefix": "a",
+  "ZipPrefix": "reiciendis",
+  "DomainName": "Lynch, Mitchell and Jones",
+  "AddressLayoutId": 80,
+  "DomesticAddressLayoutId": 626,
+  "ForeignAddressLayoutId": 723,
+  "Rank": 305,
+  "Tooltip": "repellat",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 264,
-  "Name": "Wintheiser-Mante",
-  "CurrencyId": 847,
-  "EnglishName": "Auer-Harber",
+  "CountryId": 823,
+  "Name": "McClure Group",
+  "CurrencyId": 522,
+  "EnglishName": "Volkman, Block and Langworth",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused attitude-oriented throughput",
-  "OrgNrText": "1590799",
-  "InterAreaPrefix": "nihil",
-  "DialInPrefix": "ullam",
-  "ZipPrefix": "deleniti",
-  "DomainName": "McClure Inc and Sons",
-  "AddressLayoutId": 299,
-  "DomesticAddressLayoutId": 583,
-  "ForeignAddressLayoutId": 116,
-  "Rank": 776,
-  "Tooltip": "ut",
+  "ImageDescription": "Streamlined 3rd generation neural-net",
+  "OrgNrText": "704996",
+  "InterAreaPrefix": "nemo",
+  "DialInPrefix": "deserunt",
+  "ZipPrefix": "temporibus",
+  "DomainName": "Hartmann, Satterfield and Johns",
+  "AddressLayoutId": 516,
+  "DomesticAddressLayoutId": 558,
+  "ForeignAddressLayoutId": 131,
+  "Rank": 325,
+  "Tooltip": "aut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 747
     }
   }
 }

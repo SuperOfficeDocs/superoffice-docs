@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 783,
-  "Name": "Treutel, Schiller and Weber",
-  "Tooltip": "excepturi",
+  "HeadingId": 889,
+  "Name": "Macejkovic, Gutmann and Thompson",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 455,
-  "UdListDefinitionId": 140
+  "Rank": 216,
+  "UdListDefinitionId": 257
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 39,
-  "Name": "Bartell-Denesik",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 747,
-  "UdListDefinitionId": 167,
+  "HeadingId": 290,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 663,
+  "UdListDefinitionId": 849,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 762
     }
   }
 }

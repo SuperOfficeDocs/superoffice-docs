@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 302,
-  "Name": "Huel Group",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "UdListDefinitionId": 734,
-  "Rank": 526,
+  "Id": 446,
+  "Name": "Rice LLC",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "UdListDefinitionId": 374,
+  "Rank": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 902
     }
   }
 }

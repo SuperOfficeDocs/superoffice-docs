@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 352,
-  "Data": "omnis"
+  "MailboxId": 83,
+  "Data": "beatae"
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 184,
-  "Title": "velit",
-  "OwnerName": "Shanahan Inc and Sons",
+  "TicketId": 604,
+  "Title": "et",
+  "OwnerName": "Cremin Group",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Kuhn Group",
+  "PriorityName": "Friesen-Pouros",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Schuster-Turner",
-  "ContactName": "Rohan Inc and Sons",
+  "PersonName": "Steuber, Price and Hane",
+  "ContactName": "Collins, Blanda and Sanford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 815
     }
   }
 }

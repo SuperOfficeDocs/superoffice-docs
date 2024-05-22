@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 884,
-  "UniqueId": "perspiciatis",
-  "Name": "Casper-Gleichner",
-  "Description": "User-friendly 6th generation neural-net",
-  "AssociateId": 241,
-  "Columns": 459,
+  "DashboardId": 183,
+  "UniqueId": "non",
+  "Name": "Ferry-Bartell",
+  "Description": "Enhanced directional intranet",
+  "AssociateId": 841,
+  "Columns": 948,
   "Theme": null,
-  "VisibleForAll": 574,
+  "VisibleForAll": 228,
   "VisibleForAssociates": [
-    581,
-    207
+    115,
+    796
   ],
   "VisibleForGroups": [
-    867,
-    30
+    856,
+    750
   ],
-  "PinForAll": 130,
+  "PinForAll": 703,
   "PinForAssociates": [
-    61,
-    476
+    18,
+    642
   ],
   "PinForGroups": [
-    170,
-    811
+    766,
+    415
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 383,
-  "UniqueId": "harum",
-  "Name": "Abbott Group",
-  "Description": "Open-source intermediate approach",
-  "AssociateId": 182,
-  "Columns": 530,
+  "DashboardId": 570,
+  "UniqueId": "tempora",
+  "Name": "Mueller-Marvin",
+  "Description": "Fundamental systematic support",
+  "AssociateId": 473,
+  "Columns": 646,
   "Theme": null,
-  "VisibleForAll": 269,
+  "VisibleForAll": 112,
   "VisibleForAssociates": [
-    542,
-    86
+    143,
+    860
   ],
   "VisibleForGroups": [
-    854,
-    627
+    249,
+    843
   ],
-  "PinForAll": 279,
+  "PinForAll": 190,
   "PinForAssociates": [
-    566,
-    270
+    266,
+    9
   ],
   "PinForGroups": [
-    51,
-    104
+    651,
+    933
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldType": "System.Int32",
+      "FieldLength": 640
     }
   }
 }

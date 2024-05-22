@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hansen, Koelpin and Sauer",
-  "DeviceName": "Armstrong Group",
-  "DeviceIdentifier": "sed",
-  "TableName": "Cormier, Brekke and Lind"
+  "ApplicationName": "Bradtke-White",
+  "DeviceName": "Turner, Goodwin and Ortiz",
+  "DeviceIdentifier": "quisquam",
+  "TableName": "Bashirian-McLaughlin"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "magnam",
-    "Value": "quia",
-    "RecordId": 328,
-    "CreatedDate": "2013-09-15T11:16:09.2878404+02:00",
-    "UpdatedDate": "2005-12-29T11:16:09.2878404+01:00",
-    "UpdatedBy": "sit",
-    "CreatedBy": "alias",
-    "TableName": "Terry, Barrows and Friesen",
+    "Key": "eveniet",
+    "Value": "est",
+    "RecordId": 916,
+    "CreatedDate": "2006-08-22T12:57:34.0711192+02:00",
+    "UpdatedDate": "1997-07-25T12:57:34.0711192+02:00",
+    "UpdatedBy": "illum",
+    "CreatedBy": "aut",
+    "TableName": "Metz, Connelly and Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldType": "System.String",
+        "FieldLength": 199
       }
     }
   }

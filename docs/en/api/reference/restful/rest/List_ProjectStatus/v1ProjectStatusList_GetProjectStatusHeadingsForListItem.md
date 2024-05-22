@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Russel-Powlowski",
-    "ToolTip": "Veniam quidem ad aut dignissimos in enim.",
-    "Deleted": true,
-    "Rank": 229,
-    "Type": "laboriosam",
-    "ColorBlock": 288,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2023-07-29T11:16:14.668281+02:00",
+    "Id": 830,
+    "Name": "Hudson-Macejkovic",
+    "ToolTip": "Repudiandae voluptas culpa dignissimos quis.",
+    "Deleted": false,
+    "Rank": 444,
+    "Type": "et",
+    "ColorBlock": 543,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2023-07-19T12:57:43.6363894+02:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Schinner, Witting and Wintheiser",
-        "ToolTip": "Recusandae officiis necessitatibus.",
+        "Id": 407,
+        "Name": "Weimann LLC",
+        "ToolTip": "Dolore mollitia sint ad fugit laboriosam molestias fugiat.",
         "Deleted": false,
-        "Rank": 463,
-        "Type": "quia",
-        "ColorBlock": 41,
-        "IconHint": "iusto",
+        "Rank": 593,
+        "Type": "iste",
+        "ColorBlock": 521,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "1998-07-12T11:16:14.668281+02:00",
+        "LastChanged": "2006-11-21T12:57:43.6363894+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "tempore",
+        "ExtraInfo": "velit",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Dalton Miguel Bailey IV",
+        "FullName": "Clementina Iva Murphy Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldLength": 357
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Emanuel Batz",
+    "ExtraInfo": "qui",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Prof. Reid Delbert Sanford I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 158
       }
     }
   }

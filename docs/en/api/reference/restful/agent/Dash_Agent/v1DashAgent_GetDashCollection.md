@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 160,
-      "UniqueId": "non",
-      "Name": "Ondricka, Stanton and Swaniawski",
-      "Description": "Streamlined intermediate installation",
-      "AssociateId": 442,
-      "Columns": 537,
+      "DashboardId": 870,
+      "UniqueId": "rem",
+      "Name": "Kohler-Terry",
+      "Description": "Optimized 6th generation website",
+      "AssociateId": 966,
+      "Columns": 79,
       "Theme": null,
-      "VisibleForAll": 794,
+      "VisibleForAll": 516,
       "VisibleForAssociates": [
-        967,
-        276
+        68,
+        327
       ],
       "VisibleForGroups": [
-        373,
-        228
+        807,
+        550
       ],
-      "PinForAll": 498,
+      "PinForAll": 657,
       "PinForAssociates": [
-        532,
-        525
+        982,
+        497
       ],
       "PinForGroups": [
-        806,
-        568
+        916,
+        511
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 848
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 926,
-      "UniqueId": "consequatur",
-      "Name": "Morissette, Bauch and Davis",
-      "Description": "Cross-group contextually-based parallelism",
-      "AssociateId": 437,
-      "Columns": 853,
+      "DashboardId": 19,
+      "UniqueId": "non",
+      "Name": "Swift, Osinski and Considine",
+      "Description": "Integrated discrete encryption",
+      "AssociateId": 436,
+      "Columns": 936,
       "Theme": null,
-      "VisibleForAll": 257,
+      "VisibleForAll": 152,
       "VisibleForAssociates": [
-        871,
-        862
+        177,
+        769
       ],
       "VisibleForGroups": [
-        35,
-        626
+        679,
+        705
       ],
-      "PinForAll": 181,
+      "PinForAll": 649,
       "PinForAssociates": [
-        640,
-        778
+        766,
+        617
       ],
       "PinForGroups": [
-        627,
-        409
+        532,
+        894
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 525
+          "FieldLength": 859
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 203,
-      "UniqueId": "et",
-      "Name": "Schuster-Russel",
-      "Description": "Self-enabling radical architecture",
-      "AssociateId": 951,
-      "Columns": 623,
+      "DashboardId": 601,
+      "UniqueId": "hic",
+      "Name": "Prohaska LLC",
+      "Description": "Self-enabling interactive success",
+      "AssociateId": 249,
+      "Columns": 71,
       "Theme": null,
-      "VisibleForAll": 748,
+      "VisibleForAll": 664,
       "VisibleForAssociates": [
-        105,
-        967
+        18,
+        519
       ],
       "VisibleForGroups": [
-        891,
-        980
+        845,
+        588
       ],
-      "PinForAll": 105,
+      "PinForAll": 257,
       "PinForAssociates": [
-        181,
-        727
+        49,
+        310
       ],
       "PinForGroups": [
-        635,
-        265
+        610,
+        620
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 402
+          "FieldLength": 344
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldType": "System.String",
+      "FieldLength": 700
     }
   }
 }

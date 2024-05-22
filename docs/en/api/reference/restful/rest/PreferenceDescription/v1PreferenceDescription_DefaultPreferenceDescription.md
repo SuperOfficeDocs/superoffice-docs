@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 786,
-  "Section": "dolorum",
-  "Key": "id",
-  "Name": "Kutch-Weissnat",
+  "PrefDescId": 482,
+  "Section": "consectetur",
+  "Key": "consequuntur",
+  "Name": "Davis, Gerhold and Barton",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust reciprocal Graphic Interface",
+  "Description": "Virtual multimedia implementation",
   "IsBuiltin": false,
-  "TableName": "Thiel-Brown",
-  "UserDefinedListId": 952,
-  "Rank": 291,
-  "SubGroup": "corporis",
-  "MinLevel": 828,
-  "MaxValue": 827,
-  "MinValue": 763,
-  "RequiredLicense": "eligendi",
+  "TableName": "Cummings Inc and Sons",
+  "UserDefinedListId": 599,
+  "Rank": 274,
+  "SubGroup": "quasi",
+  "MinLevel": 376,
+  "MaxValue": 944,
+  "MinValue": 750,
+  "RequiredLicense": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldLength": 405
     }
   }
 }

@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 700,
-  "Type": "veritatis",
-  "PublicValue": "alias"
+  "AssociateId": 869,
+  "Type": "perferendis",
+  "PublicValue": "laborum"
 }
 ```
 

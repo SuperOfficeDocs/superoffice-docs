@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Schroeder Group",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "UdListDefinitionId": 756,
-  "Rank": 312,
+  "Id": 986,
+  "Name": "Hansen-Huels",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "UdListDefinitionId": 355,
+  "Rank": 296,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldType": "System.String",
+      "FieldLength": 401
     }
   }
 }

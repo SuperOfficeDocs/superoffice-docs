@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 906,
-  "BlobSize": 416,
-  "Description": "Future-proofed bottom-line model",
-  "ExtraInfo": "qui",
+  "BlobId": 136,
+  "BlobSize": 19,
+  "Description": "Phased web-enabled policy",
+  "ExtraInfo": "officiis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "deserunt",
-  "OriginalSize": 994,
-  "CreatedDate": "2024-03-26T11:16:08.7410229+01:00",
-  "UpdatedDate": "2012-05-13T11:16:08.7410229+02:00",
+  "IsZipped": true,
+  "MimeType": "qui",
+  "OriginalSize": 413,
+  "CreatedDate": "2023-03-12T12:57:33.2743944+01:00",
+  "UpdatedDate": "2017-03-05T12:57:33.2743944+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sit",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

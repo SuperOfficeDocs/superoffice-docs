@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Simonis, Larson and Kuvalis",
-  "DeviceName": "McGlynn Inc and Sons",
-  "KeyName": "Zemlak-Hoppe",
-  "TableName": "Lang-Macejkovic",
-  "RecordId": 733
+  "ApplicationName": "Stroman-Ratke",
+  "DeviceName": "Ledner, Hodkiewicz and Larkin",
+  "KeyName": "Vandervort LLC",
+  "TableName": "Stiedemann-Crist",
+  "RecordId": 108
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "rerum",
-  "RecordId": 497,
-  "CreatedDate": "2008-07-16T11:16:09.2878404+02:00",
-  "UpdatedDate": "2012-01-23T11:16:09.2878404+01:00",
-  "UpdatedBy": "commodi",
-  "CreatedBy": "voluptas",
-  "TableName": "McDermott-Kuphal",
+  "Key": "nulla",
+  "Value": "non",
+  "RecordId": 255,
+  "CreatedDate": "1997-11-25T12:57:34.0554972+01:00",
+  "UpdatedDate": "1997-10-03T12:57:34.0554972+02:00",
+  "UpdatedBy": "officiis",
+  "CreatedBy": "deserunt",
+  "TableName": "Leuschke-Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 898
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Cruickshank Group",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 604,
-    "Rank": 541
+    "Id": 649,
+    "Name": "Ziemann Group",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 725,
+    "Rank": 875
   },
   {
-    "Id": 952,
-    "Name": "Cruickshank Group",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 604,
-    "Rank": 541
+    "Id": 649,
+    "Name": "Ziemann Group",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 725,
+    "Rank": 875
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Schumm-Huels",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 753,
-    "Rank": 174,
+    "Id": 725,
+    "Name": "Torphy-Marquardt",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "UdListDefinitionId": 730,
+    "Rank": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 865
       }
     }
   }

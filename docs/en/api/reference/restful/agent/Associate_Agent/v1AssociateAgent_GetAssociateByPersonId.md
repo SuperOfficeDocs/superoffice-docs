@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 845
+  "PersonId": 162
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 698,
-  "Name": "Wilkinson Inc and Sons",
-  "PersonId": 236,
-  "Rank": 67,
-  "Tooltip": "officia",
+  "AssociateId": 743,
+  "Name": "Waters, Osinski and Brekke",
+  "PersonId": 394,
+  "Rank": 620,
+  "Tooltip": "pariatur",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 858,
-  "FullName": "Miss August Nakia Russel",
-  "FormalName": "Schiller Group",
+  "GroupIdx": 482,
+  "FullName": "Edwardo Bogan",
+  "FormalName": "McDermott, Borer and Schneider",
   "Deleted": true,
-  "EjUserId": 531,
-  "UserName": "Gusikowski, Anderson and Kunze",
+  "EjUserId": 134,
+  "UserName": "Ziemann Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 960
     }
   }
 }

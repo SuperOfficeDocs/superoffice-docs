@@ -97,38 +97,38 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 222,
-    "Name": "Lang, Schimmel and Daugherty",
-    "Rank": 936,
-    "Tooltip": "nobis",
-    "Icon": "dolorem",
-    "DefaultTicketStatus": 872,
+    "TicketTypeId": 497,
+    "Name": "Schuppe-Medhurst",
+    "Rank": 369,
+    "Tooltip": "sapiente",
+    "Icon": "deleniti",
+    "DefaultTicketStatus": 87,
     "TicketStatuses": [
-      868,
-      71
+      785,
+      317
     ],
-    "DefaultTicketPriority": 923,
+    "DefaultTicketPriority": 841,
     "TicketPriorities": [
-      975,
-      781
+      854,
+      75
     ],
-    "ReplyTemplate": 176,
-    "IsExternalVisible": true,
+    "ReplyTemplate": 203,
+    "IsExternalVisible": false,
     "IsDefault": true,
-    "ShowInNew": true,
-    "ExcludeSignature": false,
-    "ExcludeEmailRecipients": false,
+    "ShowInNew": false,
+    "ExcludeSignature": true,
+    "ExcludeEmailRecipients": true,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      41,
-      495
+      59,
+      172
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 19
+        "FieldLength": 710
       }
     }
   }

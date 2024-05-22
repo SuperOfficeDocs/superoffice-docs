@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Mohr, Moore and Glover",
-    "ToolTip": "Porro voluptatibus quibusdam et velit dignissimos doloribus tenetur.",
-    "Deleted": true,
-    "Rank": 400,
-    "Type": "illum",
-    "ColorBlock": 560,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "1999-02-11T11:16:14.6839019+01:00",
+    "Id": 155,
+    "Name": "Bartell LLC",
+    "ToolTip": "Consequatur impedit rerum nulla ratione qui dolorem.",
+    "Deleted": false,
+    "Rank": 54,
+    "Type": "dolor",
+    "ColorBlock": 562,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2001-04-12T12:57:43.6676321+02:00",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Moen-Schinner",
-        "ToolTip": "Exercitationem est exercitationem.",
+        "Id": 522,
+        "Name": "Runte, Luettgen and Champlin",
+        "ToolTip": "Magnam minus ducimus iure est consectetur eaque voluptatem.",
         "Deleted": false,
-        "Rank": 183,
-        "Type": "molestiae",
-        "ColorBlock": 938,
-        "IconHint": "nesciunt",
+        "Rank": 248,
+        "Type": "quaerat",
+        "ColorBlock": 777,
+        "IconHint": "aperiam",
         "Selected": true,
-        "LastChanged": "2006-08-09T11:16:14.6839019+02:00",
+        "LastChanged": "2023-06-22T12:57:43.6676321+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Destiney Gulgowski"
+        "ExtraInfo": "distinctio",
+        "StyleHint": "ratione",
+        "Hidden": false,
+        "FullName": "Ms. Bailey Davis"
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Elizabeth Zakary McCullough II"
+    "ExtraInfo": "sunt",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Savannah Chris Kunde DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Gutmann, Kshlerin and Paucek",
-    "ToolTip": "Consequuntur tempore doloribus asperiores.",
+    "Id": 554,
+    "Name": "Bailey, Gleason and Jerde",
+    "ToolTip": "Voluptates iste doloribus nihil quod dolores qui.",
     "Deleted": false,
-    "Rank": 376,
-    "Type": "sed",
-    "ColorBlock": 475,
-    "IconHint": "numquam",
+    "Rank": 638,
+    "Type": "corrupti",
+    "ColorBlock": 221,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1999-10-18T11:16:14.6839019+02:00",
+    "LastChanged": "2019-03-29T12:57:43.6676321+01:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Goyette, Satterfield and Rice",
-        "ToolTip": "Facilis aut et est.",
-        "Deleted": false,
-        "Rank": 954,
-        "Type": "asperiores",
-        "ColorBlock": 123,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2016-02-18T11:16:14.6839019+01:00",
+        "Id": 926,
+        "Name": "Treutel LLC",
+        "ToolTip": "Ea reprehenderit.",
+        "Deleted": true,
+        "Rank": 961,
+        "Type": "ut",
+        "ColorBlock": 648,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2007-11-14T12:57:43.6676321+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Gaylord Boehm",
+        "ExtraInfo": "minima",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Otis Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Kris Balistreri",
+    "ExtraInfo": "velit",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mrs. Odie Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 446
       }
     }
   }

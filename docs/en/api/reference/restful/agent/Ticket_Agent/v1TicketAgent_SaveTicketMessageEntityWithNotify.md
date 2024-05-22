@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 797,
+  "EjMessageId": 883,
   "Ticket": null,
-  "CreatedAt": "2022-03-31T11:16:09.9761636+02:00",
+  "CreatedAt": "2009-11-01T12:57:35.2270152+01:00",
   "CreatedBy": null,
-  "Author": "iusto",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quasi",
-  "TimeSpent": 264,
-  "Body": "accusantium",
-  "HtmlBody": "voluptate",
-  "EmailHeader": "tony_schumm@erdman.info",
-  "DebugInfo": "ipsa",
-  "MailSorter": "dolores",
+  "MessageId": "necessitatibus",
+  "TimeSpent": 304,
+  "Body": "blanditiis",
+  "HtmlBody": "ea",
+  "EmailHeader": "jerrell@gaylordabshire.info",
+  "DebugInfo": "et",
+  "MailSorter": "reiciendis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "libero",
+  "SearchTitle": "enim",
   "MessageHeaders": [
     {
-      "Id": 631,
-      "Name": "Miller LLC",
-      "Value": "vitae",
+      "Id": 975,
+      "Name": "Gulgowski, Emmerich and Armstrong",
+      "Value": "dicta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 521
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "quos",
-  "Sentiment": 181,
-  "SentimentConfidence": 288,
+  "Important": true,
+  "Language": "ipsam",
+  "Sentiment": 64,
+  "SentimentConfidence": 462,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 998,
-      "Name": "Rutherford-Yost",
-      "ContentType": "quo",
-      "AttSize": 699,
-      "InlineImage": false,
-      "ContentId": "molestiae",
-      "AuthKey": "voluptas",
+      "AttachmentId": 460,
+      "Name": "Rosenbaum-Senger",
+      "ContentType": "ut",
+      "AttSize": 31,
+      "InlineImage": true,
+      "ContentId": "vitae",
+      "AuthKey": "ducimus",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldType": "System.String",
+          "FieldLength": 901
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "et"
+    "ExtraFields1": "et",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "cumque"
+    "CustomFields1": "error",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 259
     }
   }
 }

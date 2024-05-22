@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 100,
-  "BlobSize": 624,
-  "Description": "Horizontal interactive installation",
-  "ExtraInfo": "vitae",
+  "BlobId": 336,
+  "BlobSize": 836,
+  "Description": "Visionary high-level Graphic Interface",
+  "ExtraInfo": "consequatur",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 698,
-  "CreatedDate": "2005-04-13T11:16:14.011336+02:00",
-  "UpdatedDate": "2012-05-17T11:16:14.011336+02:00",
+  "IsZipped": false,
+  "MimeType": "assumenda",
+  "OriginalSize": 689,
+  "CreatedDate": "1999-12-12T12:57:42.588849+01:00",
+  "UpdatedDate": "2014-04-26T12:57:42.588849+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "enim"
+  "ConceptualType": "neque"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 801,
-  "BlobSize": 622,
-  "Description": "Reactive next generation conglomeration",
-  "ExtraInfo": "inventore",
-  "IsEncrypted": false,
+  "BlobId": 773,
+  "BlobSize": 588,
+  "Description": "User-centric zero defect moderator",
+  "ExtraInfo": "perspiciatis",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptatem",
-  "OriginalSize": 203,
-  "CreatedDate": "2008-07-30T11:16:14.011336+02:00",
-  "UpdatedDate": "2012-09-28T11:16:14.011336+02:00",
+  "MimeType": "quis",
+  "OriginalSize": 688,
+  "CreatedDate": "2019-03-14T12:57:42.588849+01:00",
+  "UpdatedDate": "1999-08-13T12:57:42.588849+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "error",
+  "ConceptualType": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 577
     }
   }
 }

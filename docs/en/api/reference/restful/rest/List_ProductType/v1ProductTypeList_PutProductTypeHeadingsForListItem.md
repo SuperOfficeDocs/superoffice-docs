@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Kling-Reichel",
-    "ToolTip": "Explicabo omnis fuga vel consequuntur nostrum eum.",
-    "Deleted": false,
-    "Rank": 500,
-    "Type": "voluptatem",
-    "ColorBlock": 162,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2006-02-01T11:16:14.6526601+01:00",
+    "Id": 670,
+    "Name": "Gislason-Marvin",
+    "ToolTip": "Rerum accusamus doloremque velit maiores facere.",
+    "Deleted": true,
+    "Rank": 1002,
+    "Type": "velit",
+    "ColorBlock": 469,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2022-05-29T12:57:43.6207681+02:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Luettgen, Monahan and Kuhlman",
-        "ToolTip": "Eos at sed consequatur enim.",
+        "Id": 503,
+        "Name": "Nikolaus LLC",
+        "ToolTip": "Veniam omnis omnis.",
         "Deleted": false,
-        "Rank": 625,
-        "Type": "provident",
-        "ColorBlock": 186,
-        "IconHint": "voluptates",
+        "Rank": 276,
+        "Type": "voluptate",
+        "ColorBlock": 719,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2000-02-10T11:16:14.6526601+01:00",
+        "LastChanged": "1998-11-10T12:57:43.6207681+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "ut",
+        "ExtraInfo": "ullam",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Miss Karen Bernard Lemke"
+        "FullName": "Tyrique Buckridge"
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Flavio Lind"
+    "ExtraInfo": "explicabo",
+    "StyleHint": "voluptates",
+    "Hidden": false,
+    "FullName": "Miss Verlie Rozella McCullough"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Roberts-Rolfson",
-    "ToolTip": "Nobis illo est fugiat sed.",
-    "Deleted": false,
-    "Rank": 881,
-    "Type": "accusantium",
-    "ColorBlock": 741,
-    "IconHint": "tenetur",
+    "Id": 688,
+    "Name": "Dare-Hintz",
+    "ToolTip": "Quibusdam doloribus sint et ut.",
+    "Deleted": true,
+    "Rank": 147,
+    "Type": "aut",
+    "ColorBlock": 323,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2014-02-19T11:16:14.6526601+01:00",
+    "LastChanged": "2011-12-26T12:57:43.6207681+01:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Torphy Group",
-        "ToolTip": "Velit quasi pariatur sapiente repellendus ex tempore.",
+        "Id": 289,
+        "Name": "Osinski-Kautzer",
+        "ToolTip": "Quibusdam ut quidem possimus quos natus non.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "ea",
-        "ColorBlock": 35,
-        "IconHint": "dolor",
+        "Rank": 569,
+        "Type": "nesciunt",
+        "ColorBlock": 185,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2024-03-04T11:16:14.6526601+01:00",
+        "LastChanged": "2002-09-03T12:57:43.6207681+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "non",
+        "ExtraInfo": "vitae",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Dixie Raphaelle Hammes MD",
+        "FullName": "Ms. Jaleel Cordie Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 530
+            "FieldLength": 587
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "dolores",
+    "ExtraInfo": "quia",
+    "StyleHint": "dolorum",
     "Hidden": true,
-    "FullName": "Ms. Shawna Shanahan",
+    "FullName": "Josiah Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldLength": 995
       }
     }
   }

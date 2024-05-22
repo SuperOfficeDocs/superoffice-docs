@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=676
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=532
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "quam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,92 +135,92 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-10-12T11:16:09.678746+02:00",
-  "Amount": 3626.038,
-  "SaleId": 217,
-  "Earning": 27018.214,
-  "EarningPercent": 27654.415999999997,
-  "Heading": "eius",
-  "Number": "1466319",
-  "Probability": 823,
-  "CreatedDate": "2017-07-28T11:16:09.678746+02:00",
-  "UpdatedDate": "2001-09-26T11:16:09.678746+02:00",
+  "Saledate": "2013-05-07T12:57:34.8521621+02:00",
+  "Amount": 5622.396,
+  "SaleId": 405,
+  "Earning": 7217.602,
+  "EarningPercent": 9176.351999999999,
+  "Heading": "sed",
+  "Number": "1140513",
+  "Probability": 938,
+  "CreatedDate": "2024-04-20T12:57:34.8521621+02:00",
+  "UpdatedDate": "2003-09-24T12:57:34.8521621+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 586,
+  "ActiveLinks": 559,
   "Links": [
     {
-      "EntityName": "Osinski Group",
-      "Id": 601,
-      "Description": "Multi-tiered web-enabled data-warehouse",
-      "ExtraInfo": "ipsam",
-      "LinkId": 398,
+      "EntityName": "Feeney Inc and Sons",
+      "Id": 16,
+      "Description": "Distributed responsive flexibility",
+      "ExtraInfo": "ipsa",
+      "LinkId": 284,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 267
+          "FieldLength": 696
         }
       }
     }
   ],
-  "NextDueDate": "1997-11-28T11:16:09.678746+01:00",
-  "Postit": "quos",
+  "NextDueDate": "2002-08-09T12:57:34.8521621+02:00",
+  "Postit": "qui",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-09-15T11:16:09.678746+02:00",
+  "ReopenDate": "2019-06-03T12:57:34.8521621+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Olson, Hilll and Cummerata",
-      "Comment": "commodi",
-      "StakeholderRoleId": 270,
-      "CountryId": 193,
-      "PersonId": 103,
-      "EmailDescription": "sammy@gerhold.ca",
-      "EmailId": 378,
-      "EmailAddress": "jason_roberts@keebler.co.uk",
-      "PhoneId": 410,
-      "ContactName": "Kessler-Doyle",
-      "ContactId": 592,
-      "SaleId": 748,
-      "Mrmrs": "nam",
-      "Firstname": "Murphy",
-      "MiddleName": "McLaughlin, Anderson and Kozey",
-      "Lastname": "Russel",
-      "SaleStakeholderId": 471,
-      "Rank": 972,
-      "Phone": "1-812-654-8235 x7879",
+      "StakeholderRoleName": "Cassin-Grant",
+      "Comment": "alias",
+      "StakeholderRoleId": 925,
+      "CountryId": 634,
+      "PersonId": 379,
+      "EmailDescription": "dulce_emmerich@flatley.name",
+      "EmailId": 295,
+      "EmailAddress": "janis.herman@greenholtkiehn.us",
+      "PhoneId": 364,
+      "ContactName": "Lebsack-Willms",
+      "ContactId": 688,
+      "SaleId": 665,
+      "Mrmrs": "expedita",
+      "Firstname": "Cristal",
+      "MiddleName": "Anderson-Walter",
+      "Lastname": "Towne",
+      "SaleStakeholderId": 324,
+      "Rank": 634,
+      "Phone": "(707)368-4275 x14910",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldType": "System.Int32",
+          "FieldLength": 133
         }
       }
     }
   ],
-  "ActiveErpLinks": 287,
+  "ActiveErpLinks": 982,
   "UserDefinedFields": {
-    "SuperOffice:1": "2026687647",
-    "SuperOffice:2": "187425985"
+    "SuperOffice:1": "Ericka Pacocha",
+    "SuperOffice:2": "2104777632"
   },
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "et"
+    "CustomFields1": "atque",
+    "CustomFields2": "magni"
   },
-  "PublishEventDate": "2010-05-02T11:16:09.678746+02:00",
-  "PublishTo": "2014-01-22T11:16:09.678746+01:00",
-  "PublishFrom": "2022-01-21T11:16:09.678746+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-06-16T12:57:34.8521621+02:00",
+  "PublishTo": "2009-03-08T12:57:34.8521621+01:00",
+  "PublishFrom": "2010-08-04T12:57:34.8521621+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 857,
+      "VisibleId": 799,
       "Visibility": "All",
       "DisplayValue": "aut",
       "TableRight": null,
@@ -228,12 +228,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 952
         }
       }
     },
     {
-      "VisibleId": 857,
+      "VisibleId": 799,
       "Visibility": "All",
       "DisplayValue": "aut",
       "TableRight": null,
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 952
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldType": "System.String",
+      "FieldLength": 197
     }
   }
 }

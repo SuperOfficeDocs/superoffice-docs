@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 375,
-  "TemplateName": "Trantow, Abbott and Toy",
-  "UseContacts": true,
-  "OrderBy": "consequatur"
+  "SelectionId": 140,
+  "TemplateName": "Reynolds Group",
+  "UseContacts": false,
+  "OrderBy": "iusto"
 }
 ```
 

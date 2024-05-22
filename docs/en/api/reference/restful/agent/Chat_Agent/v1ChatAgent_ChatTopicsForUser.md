@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 749,
-    "Name": "Bergnaum Group",
-    "Description": "Cross-platform 4th generation leverage",
-    "WelcomeMessage": "ut",
+    "ChatTopicId": 319,
+    "Name": "Jacobs-Goodwin",
+    "Description": "Re-contextualized heuristic knowledge base",
+    "WelcomeMessage": "sed",
     "Language": null,
-    "LastAccept": "2003-06-22T11:16:08.8347248+02:00",
-    "SecondsPrAccept": 120,
-    "AlertRecipient": "iure",
+    "LastAccept": "2003-10-29T12:57:33.4149905+01:00",
+    "SecondsPrAccept": 814,
+    "AlertRecipient": "nemo",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "quae",
+    "CollectConsent": true,
+    "BadgeHeader": "eaque",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "sint",
-    "WarnNewChatMinutes": 269,
-    "WarnManagerNewChatMinutes": 730,
-    "TicketEnabled": true,
+    "CustomQueueText": "reprehenderit",
+    "WarnNewChatMinutes": 416,
+    "WarnManagerNewChatMinutes": 561,
+    "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 280,
-    "WarnManagerChatMessageMinutes": 711,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 3,
-    "OfflineFormQueueLength": 174,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 721,
+    "WarnManagerChatMessageMinutes": 739,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 67,
+    "OfflineFormQueueLength": 186,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "recusandae",
+    "WidgetRatingText": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldLength": 290
       }
     }
   }

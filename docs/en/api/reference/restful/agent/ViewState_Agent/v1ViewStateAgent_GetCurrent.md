@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "McGlynn-Roberts"
+  "HistoryName": "Bayer Inc and Sons"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 584,
-  "Id": 1002,
-  "HistoryName": "Champlin Inc and Sons",
-  "HistoryId": 194,
-  "AssociateId": 985,
-  "Name": "Predovic-Bauch",
-  "ItemInfo": "fugit",
+  "Rank": 861,
+  "Id": 4,
+  "HistoryName": "Stroman-O'Connell",
+  "HistoryId": 759,
+  "AssociateId": 24,
+  "Name": "Pacocha, Tromp and Dibbert",
+  "ItemInfo": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 498
     }
   }
 }

@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 403,
-    "Name": "Goyette, Reichert and Lang",
-    "Tooltip": "vero",
-    "SaveInDb": 747,
-    "Filename": "maxime",
-    "DefaultOref": "non",
+    "DocumentTemplateId": 803,
+    "Name": "Stracke-Goyette",
+    "Tooltip": "eligendi",
+    "SaveInDb": 913,
+    "Filename": "non",
+    "DefaultOref": "accusamus",
     "RecordType": "Appointment",
-    "Deleted": 407,
+    "Deleted": 738,
     "Direction": "Incoming",
-    "AutoeventId": 35,
+    "AutoeventId": 822,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldType": "System.String",
+        "FieldLength": 332
       }
     }
   }

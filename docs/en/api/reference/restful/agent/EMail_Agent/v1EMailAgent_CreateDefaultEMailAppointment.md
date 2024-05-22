@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "illo",
-    "quia"
+    "porro",
+    "maxime"
   ],
   "Comment": "et",
-  "Sequence": 28,
-  "DtStart": "2002-12-27T11:16:09.1941046+01:00",
-  "DtEnd": "2008-10-17T11:16:09.1941046+02:00",
+  "Sequence": 960,
+  "DtStart": "2012-06-21T12:57:33.899292+02:00",
+  "DtEnd": "2015-12-29T12:57:33.899292+01:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 96
     }
   }
 }

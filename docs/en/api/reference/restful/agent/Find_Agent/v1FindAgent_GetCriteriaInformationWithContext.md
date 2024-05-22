@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Torphy Inc and Sons",
-  "StorageKey": "rerum",
+  "StorageType": "sequi",
+  "ProviderName": "Lehner, Jacobs and Zemlak",
+  "StorageKey": "beatae",
   "StaticColumns": [
-    "totam",
-    "facilis"
+    "facilis",
+    "nam"
   ],
-  "Context": "at"
+  "Context": "quia"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dietrich LLC",
-      "Operator": "veniam",
+      "Name": "Harvey Group",
+      "Operator": "cupiditate",
       "Values": [
-        "dicta",
-        "vitae"
+        "sint",
+        "velit"
       ],
       "DisplayValues": [
-        "doloribus",
-        "deleniti"
+        "commodi",
+        "suscipit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 388,
+      "InterParenthesis": 27,
       "InterOperator": "And",
-      "UniqueHash": 176
+      "UniqueHash": 32
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Marquardt, VonRueden and Gaylord",
-      "DisplayTooltip": "earum",
-      "DisplayType": "autem",
-      "CanOrderBy": true,
-      "Name": "Lockman LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Wisoky, Sporer and Dare",
+      "DisplayName": "Gusikowski, Thiel and Stiedemann",
+      "DisplayTooltip": "est",
+      "DisplayType": "sed",
+      "CanOrderBy": false,
+      "Name": "Keebler, Moen and Walter",
+      "CanRestrictBy": true,
+      "RestrictionType": "nemo",
+      "RestrictionListName": "Koepp-Murazik",
       "IsVisible": false,
-      "ExtraInfo": "nemo",
-      "Width": "et",
-      "IconHint": "nobis",
-      "HeadingIconHint": "sit"
+      "ExtraInfo": "veritatis",
+      "Width": "impedit",
+      "IconHint": "minus",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Senger-Bechtelar",
-      "PrimaryKey": 648,
+      "EntityName": "Crist LLC",
+      "PrimaryKey": 520,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "hic",
-          "TooltipHint": "in",
-          "LinkHint": "ex"
+          "DisplayValue": "voluptas",
+          "TooltipHint": "saepe",
+          "LinkHint": "repellendus"
         }
       },
-      "LinkHint": "nihil",
-      "StyleHint": "exercitationem",
+      "LinkHint": "veniam",
+      "StyleHint": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldType": "System.String",
+          "FieldLength": 964
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schmitt Group",
-      "Description": "Inverse leading edge matrices",
-      "Rank": 973,
+      "Name": "Turcotte Group",
+      "Description": "Front-line human-resource productivity",
+      "Rank": 281,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmitt Group",
-      "Description": "Inverse leading edge matrices",
-      "Rank": 973,
+      "Name": "Turcotte Group",
+      "Description": "Front-line human-resource productivity",
+      "Rank": 281,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldLength": 360
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 697,
-    "Name": "Kihn-Schaefer",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 508,
-    "UdListDefinitionId": 435
+    "HeadingId": 663,
+    "Name": "Corkery, Altenwerth and Jaskolski",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 461,
+    "UdListDefinitionId": 632
   },
   {
-    "HeadingId": 697,
-    "Name": "Kihn-Schaefer",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 508,
-    "UdListDefinitionId": 435
+    "HeadingId": 663,
+    "Name": "Corkery, Altenwerth and Jaskolski",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 461,
+    "UdListDefinitionId": 632
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 473,
-    "Name": "Yost Group",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "Rank": 544,
-    "UdListDefinitionId": 450,
+    "HeadingId": 738,
+    "Name": "Harber-Nikolaus",
+    "Tooltip": "suscipit",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 733,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 434
       }
     }
   }

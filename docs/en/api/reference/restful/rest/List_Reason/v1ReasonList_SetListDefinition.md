@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 824,
-  "Name": "Kihn Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 127,
-  "IsCustomList": false,
+  "Id": 47,
+  "Name": "Witting Group",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 8,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Marquardt Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 675,
+  "Name": "Jacobi, Wiza and Monahan",
+  "Tooltip": "quisquam",
   "Deleted": true,
-  "Rank": 982,
-  "IsCustomList": true,
+  "Rank": 913,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

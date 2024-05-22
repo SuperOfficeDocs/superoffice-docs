@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 158,
-    "Name": "Bayer, Ferry and Adams",
-    "Description": "Cross-platform zero defect functionalities",
+    "ProjectId": 461,
+    "Name": "Metz-Predovic",
+    "Description": "Sharable coherent toolset",
     "URL": "http://www.example.com/",
-    "Type": "unde",
-    "AssociateId": 846,
-    "AssociateFullName": "Zakary Klocko",
-    "TypeId": 65,
-    "Updated": "2020-11-16T11:16:09.569228+01:00",
-    "StatusId": 645,
-    "Status": "minus",
-    "TextId": 20,
-    "PublishTo": "2021-08-10T11:16:09.569228+02:00",
-    "PublishFrom": "2006-11-25T11:16:09.569228+01:00",
+    "Type": "aut",
+    "AssociateId": 449,
+    "AssociateFullName": "Nicolas Huels",
+    "TypeId": 288,
+    "Updated": "1997-09-14T12:57:34.664705+02:00",
+    "StatusId": 266,
+    "Status": "unde",
+    "TextId": 958,
+    "PublishTo": "2004-06-26T12:57:34.664705+02:00",
+    "PublishFrom": "2014-03-14T12:57:34.664705+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "638504",
-    "ActiveErpLinks": 159,
+    "ProjectNumber": "1234997",
+    "ActiveErpLinks": 395,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 460
       }
     }
   }

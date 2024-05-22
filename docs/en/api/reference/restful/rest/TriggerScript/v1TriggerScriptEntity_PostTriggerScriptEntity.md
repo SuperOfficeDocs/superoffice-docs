@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 986,
-  "Name": "Runolfsson Inc and Sons",
+  "ScreenChooserId": 441,
+  "Name": "Walter, Schultz and Pagac",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "molestiae",
-  "Registered": "1998-10-22T11:16:14.3242001+02:00",
-  "RegisteredAssociateId": 706,
-  "Updated": "2020-08-30T11:16:14.3242001+02:00",
-  "UpdatedAssociateId": 495
+  "UniqueIdentifier": "temporibus",
+  "Source": "quia",
+  "Registered": "2023-08-09T12:57:43.0892086+02:00",
+  "RegisteredAssociateId": 116,
+  "Updated": "2007-11-22T12:57:43.0892086+01:00",
+  "UpdatedAssociateId": 962
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 99,
-  "Name": "McLaughlin-Kautzer",
+  "ScreenChooserId": 21,
+  "Name": "Heidenreich, Brown and Thompson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "quo",
-  "Source": "molestiae",
-  "Registered": "2011-03-31T11:16:14.3242001+02:00",
-  "RegisteredAssociateId": 993,
-  "Updated": "2012-08-08T11:16:14.3242001+02:00",
-  "UpdatedAssociateId": 208,
+  "UniqueIdentifier": "neque",
+  "Source": "dolorem",
+  "Registered": "2001-03-30T12:57:43.0892086+02:00",
+  "RegisteredAssociateId": 776,
+  "Updated": "2010-11-27T12:57:43.0892086+01:00",
+  "UpdatedAssociateId": 192,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldType": "System.Int32",
+      "FieldLength": 944
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

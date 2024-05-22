@@ -63,7 +63,7 @@ OK
 GET /api/v1/Contact/DuplicateDomains/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Fadel LLC",
-    "SoPrimaryKey": 566,
-    "EntryName": "Shields, Schiller and Torp",
-    "EntryIdentifier": "unde",
-    "RuleDisplayName": "Prohaska Group",
+    "RuleName": "Moen-Harris",
+    "SoPrimaryKey": 561,
+    "EntryName": "Collins-Glover",
+    "EntryIdentifier": "magni",
+    "RuleDisplayName": "Rath-Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 338
       }
     }
   }

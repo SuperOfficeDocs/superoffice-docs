@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 401,
-    "Name": "Schulist Inc and Sons",
-    "Tooltip": "quod",
+    "Id": 637,
+    "Name": "Swift Group",
+    "Tooltip": "minima",
     "Deleted": false,
-    "UdListDefinitionId": 539,
-    "Rank": 751
+    "UdListDefinitionId": 922,
+    "Rank": 502
   },
   {
-    "Id": 401,
-    "Name": "Schulist Inc and Sons",
-    "Tooltip": "quod",
+    "Id": 637,
+    "Name": "Swift Group",
+    "Tooltip": "minima",
     "Deleted": false,
-    "UdListDefinitionId": 539,
-    "Rank": 751
+    "UdListDefinitionId": 922,
+    "Rank": 502
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Renner-Yost",
-    "Tooltip": "ipsa",
+    "Id": 829,
+    "Name": "Beier, Nienow and Marks",
+    "Tooltip": "excepturi",
     "Deleted": true,
-    "UdListDefinitionId": 199,
-    "Rank": 902,
+    "UdListDefinitionId": 753,
+    "Rank": 662,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 748
       }
     }
   }

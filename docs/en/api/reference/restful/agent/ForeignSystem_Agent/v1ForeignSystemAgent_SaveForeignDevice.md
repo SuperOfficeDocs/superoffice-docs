@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Beier LLC"
+  "ApplicationName": "Kilback-Pagac"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 105,
-  "Name": "Haley LLC",
-  "CreatedDate": "2022-02-27T11:16:09.2878404+01:00",
-  "UpdatedDate": "1997-06-06T11:16:09.2878404+02:00",
-  "AssociateFullName": "Harley Wilderman",
-  "CreatedBy": "et",
-  "UpdatedBy": "fuga",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 691,
+  "ForeignDeviceId": 498,
+  "Name": "Lakin LLC",
+  "CreatedDate": "2004-05-21T12:57:34.0711192+02:00",
+  "UpdatedDate": "1997-07-12T12:57:34.0711192+02:00",
+  "AssociateFullName": "Mr. Kevon Laurence Walter V",
+  "CreatedBy": "sapiente",
+  "UpdatedBy": "inventore",
+  "DeviceIdentifier": "quos",
+  "ForeignAppId": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldLength": 891
     }
   }
 }

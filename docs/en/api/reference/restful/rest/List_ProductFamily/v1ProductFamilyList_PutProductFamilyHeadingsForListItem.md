@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Corkery, McGlynn and Wisozk",
-    "ToolTip": "Eaque perferendis modi ea quos.",
-    "Deleted": false,
-    "Rank": 498,
-    "Type": "delectus",
-    "ColorBlock": 919,
-    "IconHint": "impedit",
+    "Id": 26,
+    "Name": "Schowalter Inc and Sons",
+    "ToolTip": "Quia repudiandae.",
+    "Deleted": true,
+    "Rank": 256,
+    "Type": "amet",
+    "ColorBlock": 58,
+    "IconHint": "optio",
     "Selected": true,
-    "LastChanged": "2007-07-26T11:16:14.6526601+02:00",
+    "LastChanged": "2019-10-20T12:57:43.6051463+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Graham-Predovic",
-        "ToolTip": "Exercitationem maiores et eaque repellat quos aliquam asperiores.",
+        "Id": 828,
+        "Name": "Towne, Abernathy and Schuster",
+        "ToolTip": "Ut magnam.",
         "Deleted": false,
-        "Rank": 670,
-        "Type": "est",
-        "ColorBlock": 391,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2015-04-19T11:16:14.6526601+02:00",
+        "Rank": 104,
+        "Type": "consequatur",
+        "ColorBlock": 428,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "2016-11-01T12:57:43.6051463+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Geraldine Rowe"
+        "ExtraInfo": "omnis",
+        "StyleHint": "optio",
+        "Hidden": false,
+        "FullName": "Keyshawn Ratke"
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Keegan Nikolaus"
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Mr. Tad Dibbert II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Prohaska, Streich and Kertzmann",
-    "ToolTip": "Sequi magnam enim quaerat.",
-    "Deleted": true,
-    "Rank": 696,
-    "Type": "consequatur",
-    "ColorBlock": 655,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2022-11-13T11:16:14.6526601+01:00",
+    "Id": 953,
+    "Name": "Glover, Zemlak and Heaney",
+    "ToolTip": "Aut aspernatur aperiam rem ut eveniet fuga illum.",
+    "Deleted": false,
+    "Rank": 958,
+    "Type": "nemo",
+    "ColorBlock": 183,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2007-04-23T12:57:43.6051463+02:00",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "McGlynn, Zulauf and Daugherty",
-        "ToolTip": "Quis corporis perferendis.",
+        "Id": 35,
+        "Name": "Olson-Lind",
+        "ToolTip": "Sed et.",
         "Deleted": false,
-        "Rank": 119,
-        "Type": "dolores",
-        "ColorBlock": 205,
-        "IconHint": "rerum",
+        "Rank": 588,
+        "Type": "nobis",
+        "ColorBlock": 345,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2021-08-23T11:16:14.6526601+02:00",
+        "LastChanged": "2010-07-23T12:57:43.6051463+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Brenden Jewess",
+        "ExtraInfo": "illum",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Mrs. Enrique Hartmann II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 469
+            "FieldType": "System.String",
+            "FieldLength": 129
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "est",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Dorcas Corkery",
+    "FullName": "Maryjane Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   }

@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eius",
+    "path": "suscipit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eius",
+    "path": "suscipit",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 957,
-  "PlainMessage": "vel",
-  "HtmlMessage": "earum",
-  "SmsMessage": "vitae",
-  "Description": "Polarised uniform task-force",
-  "Subject": "voluptatem",
-  "FolderId": 90,
-  "HeaderField": "ut",
-  "Design": "natus",
+  "ShipmentMessageId": 783,
+  "PlainMessage": "incidunt",
+  "HtmlMessage": "similique",
+  "SmsMessage": "temporibus",
+  "Description": "Distributed cohesive productivity",
+  "Subject": "voluptas",
+  "FolderId": 302,
+  "HeaderField": "voluptatibus",
+  "Design": "dicta",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Versatile global flexibility",
-  "AccessKey": "voluptates",
-  "DocumentMessage": 327,
-  "Registered": "2010-12-21T11:16:14.2304645+01:00",
-  "RegisteredAssociateId": 355,
-  "Updated": "2015-09-19T11:16:14.2304645+02:00",
-  "UpdatedAssociateId": 946,
-  "UpdatedCount": 729,
+  "LongDescription": "Object-based logistical analyzer",
+  "AccessKey": "eum",
+  "DocumentMessage": 473,
+  "Registered": "2000-02-01T12:57:42.8231706+01:00",
+  "RegisteredAssociateId": 430,
+  "Updated": "2010-08-12T12:57:42.8231706+02:00",
+  "UpdatedAssociateId": 696,
+  "UpdatedCount": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 42
     }
   },
   "_Links": {

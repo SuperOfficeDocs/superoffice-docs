@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Kling-Yundt",
-  "Tooltip": "minus",
+  "Id": 90,
+  "Name": "Flatley Group",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "UdListDefinitionId": 493,
-  "Rank": 209,
+  "UdListDefinitionId": 670,
+  "Rank": 632,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 999
     }
   }
 }

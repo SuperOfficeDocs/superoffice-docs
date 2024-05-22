@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 798,
-  "Name": "Jacobi-Yost",
-  "Description": "Expanded local utilisation",
-  "WelcomeMessage": "quas",
+  "ChatTopicId": 850,
+  "Name": "Fahey-Schaefer",
+  "Description": "Monitored intermediate moratorium",
+  "WelcomeMessage": "sint",
   "Language": null,
-  "LastAccept": "2022-07-03T11:16:13.7456138+02:00",
-  "SecondsPrAccept": 379,
-  "AlertRecipient": "et",
+  "LastAccept": "2001-03-28T12:57:42.1514494+02:00",
+  "SecondsPrAccept": 983,
+  "AlertRecipient": "voluptates",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "eveniet",
+  "CollectConsent": false,
+  "BadgeHeader": "iste",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "suscipit",
-  "WarnNewChatMinutes": 999,
-  "WarnManagerNewChatMinutes": 541,
+  "CustomQueueText": "non",
+  "WarnNewChatMinutes": 996,
+  "WarnManagerNewChatMinutes": 709,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 413,
-  "WarnManagerChatMessageMinutes": 32,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 742,
+  "WarnManagerChatMessageMinutes": 647,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 635,
-  "OfflineFormQueueLength": 330,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "laborum",
+  "OfflineFormTimeLimit": 899,
+  "OfflineFormQueueLength": 671,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 155
     }
   }
 }

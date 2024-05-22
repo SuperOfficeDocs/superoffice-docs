@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 79,
-    "Name": "Medhurst-Heller",
-    "Value": "eaque",
-    "CreatedDate": "1999-08-07T11:16:08.7410229+02:00",
-    "UpdatedDate": "2003-06-06T11:16:08.7410229+02:00",
-    "CreatedBy": "eum",
-    "UpdatedBy": "rerum",
+    "AudienceLayoutId": 741,
+    "Name": "Corkery-Osinski",
+    "Value": "quisquam",
+    "CreatedDate": "2007-11-26T12:57:33.2428569+01:00",
+    "UpdatedDate": "2004-02-16T12:57:33.2428569+01:00",
+    "CreatedBy": "quod",
+    "UpdatedBy": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldLength": 91
       }
     }
   }

@@ -108,29 +108,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 827,
-  "ParentId": 425,
-  "Name": "Torp Group",
-  "Fullname": "et",
-  "CategoryMaster": 249,
+  "TicketCategoryId": 564,
+  "ParentId": 93,
+  "Name": "Cartwright-Gleichner",
+  "Fullname": "eveniet",
+  "CategoryMaster": 31,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Leannon-Casper",
+  "ExternalName": "Keeling, Koelpin and Little",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 793,
-  "ReplyTemplate": 510,
-  "NotificationEmail": "malcolm@becker.ca",
+  "AssignmentLag": 274,
+  "ReplyTemplate": 411,
+  "NotificationEmail": "jessyca@baumbach.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 616,
+  "EffectiveReplyTemplateId": 644,
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "eum"
+    "CustomFields1": "quae",
+    "CustomFields2": "omnis"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 838,
-  "ParentId": 788,
-  "Name": "Klein, Gutkowski and Cole",
-  "Fullname": "ex",
-  "CategoryMaster": 467,
+  "TicketCategoryId": 627,
+  "ParentId": 5,
+  "Name": "Murazik, Hirthe and Haag",
+  "Fullname": "est",
+  "CategoryMaster": 788,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Berge Group",
+  "ExternalName": "Heidenreich, Dietrich and Bernier",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 10,
-  "ReplyTemplate": 531,
-  "NotificationEmail": "myron@bruenmertz.us",
+  "AssignmentLag": 369,
+  "ReplyTemplate": 530,
+  "NotificationEmail": "helmer@blockrice.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 196,
+  "EffectiveReplyTemplateId": 813,
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "non",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "quam"
+    "CustomFields1": "aut",
+    "CustomFields2": "distinctio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 843
     }
   }
 }

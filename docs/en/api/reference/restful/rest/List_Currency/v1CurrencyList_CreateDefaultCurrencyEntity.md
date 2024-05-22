@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 889,
-  "Name": "Tremblay LLC",
-  "Tooltip": "dignissimos",
-  "Rank": 576,
-  "Rate": 30481.284,
-  "Units": 7258.344,
-  "Deleted": false,
+  "CurrencyId": 549,
+  "Name": "Parker Group",
+  "Tooltip": "veniam",
+  "Rank": 289,
+  "Rate": 23053.703999999998,
+  "Units": 26494.836,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldLength": 599
     }
   }
 }

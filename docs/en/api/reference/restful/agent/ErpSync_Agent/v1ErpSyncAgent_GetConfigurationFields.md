@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 838
+  "ErpConnectorId": 427
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "et",
-    "Rank": 831,
-    "DisplayName": "Bashirian Inc and Sons",
-    "DisplayDescription": "Streamlined didactic moderator",
+    "FieldKey": "atque",
+    "Rank": 437,
+    "DisplayName": "Herman Group",
+    "DisplayDescription": "Multi-tiered global throughput",
     "FieldType": "Checkbox",
-    "ListName": "Fritsch, Wisozk and Berge",
-    "DefaultValue": "quasi",
-    "MaxLength": 776,
+    "ListName": "Schuppe, Glover and Wintheiser",
+    "DefaultValue": "veritatis",
+    "MaxLength": 680,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldLength": 381
       }
     }
   }

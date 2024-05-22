@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Konopelski LLC",
-    "ToolTip": "Ratione vel molestias beatae distinctio hic inventore.",
-    "Deleted": false,
-    "Rank": 218,
-    "Type": "rerum",
-    "ColorBlock": 415,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2004-05-27T11:16:14.6214085+02:00",
+    "Id": 632,
+    "Name": "Greenfelder Inc and Sons",
+    "ToolTip": "Quis possimus deleniti.",
+    "Deleted": true,
+    "Rank": 976,
+    "Type": "non",
+    "ColorBlock": 289,
+    "IconHint": "quibusdam",
+    "Selected": false,
+    "LastChanged": "1998-02-11T12:57:43.5739037+01:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Osinski Inc and Sons",
-        "ToolTip": "Facilis facere blanditiis.",
+        "Id": 130,
+        "Name": "Lynch-Labadie",
+        "ToolTip": "Laborum eius error dolore fugiat.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "officia",
-        "ColorBlock": 232,
-        "IconHint": "consequatur",
+        "Rank": 31,
+        "Type": "corporis",
+        "ColorBlock": 819,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "2024-02-03T11:16:14.6214085+01:00",
+        "LastChanged": "2002-01-16T12:57:43.5739037+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "id",
+        "ExtraInfo": "eos",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Jillian Jerde",
+        "FullName": "Miss April Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldType": "System.String",
+            "FieldLength": 262
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "illum",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Heather Heaney",
+    "FullName": "Abagail Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 644
       }
     }
   }

@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Nader Inc and Sons",
-  "ProviderName": "Nienow-Schamberger",
-  "Context": "architecto",
-  "OwnerKeys": "veritatis",
+  "GuiName": "Breitenberg Inc and Sons",
+  "ProviderName": "Denesik, Kilback and Cole",
+  "Context": "ad",
+  "OwnerKeys": "et",
   "Entities": [
-    "quia",
-    "dolores"
+    "eos",
+    "ut"
   ]
 }
 ```

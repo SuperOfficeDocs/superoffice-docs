@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Cummerata Inc and Sons",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "UdListDefinitionId": 93,
-  "Rank": 863,
+  "Id": 418,
+  "Name": "Mayert-Wilkinson",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 639,
+  "Rank": 53,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldType": "System.Int32",
+      "FieldLength": 578
     }
   }
 }

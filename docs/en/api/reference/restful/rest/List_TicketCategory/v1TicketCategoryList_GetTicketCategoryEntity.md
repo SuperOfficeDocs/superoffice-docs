@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 324,
-  "ParentId": 224,
-  "Name": "Reynolds-Toy",
-  "Fullname": "qui",
-  "CategoryMaster": 390,
+  "TicketCategoryId": 983,
+  "ParentId": 902,
+  "Name": "Legros, Wilderman and Schmidt",
+  "Fullname": "cupiditate",
+  "CategoryMaster": 223,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hessel-Frami",
+  "ExternalName": "Greenfelder, Huels and Robel",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 674,
-  "ReplyTemplate": 481,
-  "NotificationEmail": "tina@labadie.com",
+  "AssignmentLag": 281,
+  "ReplyTemplate": 371,
+  "NotificationEmail": "lamar_block@hilpert.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 925,
+  "EffectiveReplyTemplateId": 843,
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "et"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "quis"
+    "CustomFields1": "explicabo",
+    "CustomFields2": "totam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 821
     }
   }
 }

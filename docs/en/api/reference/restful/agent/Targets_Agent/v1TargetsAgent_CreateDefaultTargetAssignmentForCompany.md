@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 816,
+  "TargetAssignmentInfoId": 805,
   "Values": [
-    502,
-    318
+    484,
+    413
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 74,
-  "DimensionListItemDisplayName": "Prosacco-Pagac",
+  "DimensionListItem": 628,
+  "DimensionListItemDisplayName": "Veum LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 203
+      "FieldLength": 319
     }
   }
 }

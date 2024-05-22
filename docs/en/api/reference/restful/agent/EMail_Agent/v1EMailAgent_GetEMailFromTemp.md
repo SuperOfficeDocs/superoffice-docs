@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Kuhn, Ledner and Funk"
+  "FileName": "Schumm LLC"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 590,
-      "ContactName": "Stehr, Balistreri and Hermann",
-      "PersonId": 112,
-      "PersonName": "Rosenbaum, West and Kuphal",
-      "AssociateId": 672,
-      "Address": "laboriosam",
-      "EmailId": 698,
+      "ContactId": 896,
+      "ContactName": "Veum-Kreiger",
+      "PersonId": 615,
+      "PersonName": "Cormier-Larkin",
+      "AssociateId": 473,
+      "Address": "aut",
+      "EmailId": 195,
       "DuplicatePersonIds": [
-        326,
-        194
+        159,
+        456
       ],
-      "Name": "Zieme-Hodkiewicz",
+      "Name": "Walter Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 532
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 78,
-      "ContactName": "Rogahn LLC",
-      "PersonId": 202,
-      "PersonName": "Veum, VonRueden and Nienow",
-      "AssociateId": 501,
-      "Address": "rerum",
-      "EmailId": 705,
+      "ContactId": 754,
+      "ContactName": "Bergstrom, Spinka and Daugherty",
+      "PersonId": 240,
+      "PersonName": "Senger, Hoppe and Hessel",
+      "AssociateId": 70,
+      "Address": "eos",
+      "EmailId": 866,
       "DuplicatePersonIds": [
-        34,
-        248
+        153,
+        593
       ],
-      "Name": "O'Keefe Group",
+      "Name": "Fadel-Rosenbaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 774
+          "FieldType": "System.String",
+          "FieldLength": 171
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 128,
-      "ContactName": "Hintz, Hoppe and Pagac",
-      "PersonId": 50,
-      "PersonName": "Wyman Group",
-      "AssociateId": 437,
-      "Address": "magni",
-      "EmailId": 525,
+      "ContactId": 859,
+      "ContactName": "Marvin-Yundt",
+      "PersonId": 429,
+      "PersonName": "Hickle-Durgan",
+      "AssociateId": 168,
+      "Address": "fugit",
+      "EmailId": 956,
       "DuplicatePersonIds": [
-        839,
-        941
+        627,
+        660
       ],
-      "Name": "Gusikowski, Yost and Roberts",
+      "Name": "Ernser-Barrows",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 659
         }
       }
     }
   ],
-  "Subject": "necessitatibus",
-  "HTMLBody": "similique",
+  "Subject": "ad",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2001-01-29T11:16:09.2409738+01:00",
-  "Size": 464,
+  "Sent": "1998-03-04T12:57:33.9773902+01:00",
+  "Size": 70,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "reiciendis",
-  "PlainBody": "nisi",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "beatae",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 876,
+  "ServerId": 479,
   "Attachments": [
     {
-      "Description": "Business-focused fresh-thinking forecast",
-      "Filename": "laudantium",
-      "Size": 534,
-      "Type": "sint",
-      "Encoding": "corrupti",
-      "Id": "maiores",
-      "Disposition": "est",
-      "IsSafeFileExtension": true,
+      "Description": "Innovative coherent architecture",
+      "Filename": "dolor",
+      "Size": 822,
+      "Type": "labore",
+      "Encoding": "nihil",
+      "Id": "ut",
+      "Disposition": "optio",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 207
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Carter, Stroman and Ondricka",
+      "Name": "Batz-Turcotte",
       "Values": [
-        "ad",
-        "sit"
+        "iste",
+        "nisi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 980
         }
       }
     },
     {
-      "Name": "Carter, Stroman and Ondricka",
+      "Name": "Batz-Turcotte",
       "Values": [
-        "ad",
-        "sit"
+        "iste",
+        "nisi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldLength": 980
         }
       }
     }
   ],
-  "FolderName": "Mraz LLC",
-  "EmailItemId": 419,
-  "AccountId": 17,
-  "ReceivedAt": "2009-02-16T11:16:09.2409738+01:00",
+  "FolderName": "Schmidt Inc and Sons",
+  "EmailItemId": 444,
+  "AccountId": 208,
+  "ReceivedAt": "2022-10-05T12:57:33.9773902+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-04-04T11:16:09.2409738+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2000-05-17T12:57:33.9773902+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 17
     }
   }
 }

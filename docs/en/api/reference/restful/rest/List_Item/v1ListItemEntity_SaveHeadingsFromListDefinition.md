@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 386,
-    "Name": "Cartwright-McCullough",
-    "Tooltip": "est",
+    "HeadingId": 817,
+    "Name": "Breitenberg Group",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 758,
-    "UdListDefinitionId": 342
+    "Rank": 120,
+    "UdListDefinitionId": 781
   },
   {
-    "HeadingId": 386,
-    "Name": "Cartwright-McCullough",
-    "Tooltip": "est",
+    "HeadingId": 817,
+    "Name": "Breitenberg Group",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 758,
-    "UdListDefinitionId": 342
+    "Rank": 120,
+    "UdListDefinitionId": 781
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 519,
-    "Name": "Toy LLC",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "Rank": 824,
-    "UdListDefinitionId": 199,
+    "HeadingId": 334,
+    "Name": "Gutmann, Ritchie and Denesik",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "Rank": 222,
+    "UdListDefinitionId": 914,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldLength": 534
       }
     }
   }

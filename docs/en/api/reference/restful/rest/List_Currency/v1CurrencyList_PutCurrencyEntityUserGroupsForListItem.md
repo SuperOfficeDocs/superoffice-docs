@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Bahringer-Cronin",
-    "ToolTip": "Dolorem distinctio.",
-    "Deleted": true,
-    "Rank": 910,
-    "Type": "omnis",
-    "ColorBlock": 936,
-    "IconHint": "labore",
+    "Id": 288,
+    "Name": "Marquardt Inc and Sons",
+    "ToolTip": "Nulla magnam praesentium consectetur.",
+    "Deleted": false,
+    "Rank": 860,
+    "Type": "dolor",
+    "ColorBlock": 723,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2011-08-27T11:16:14.5432954+02:00",
+    "LastChanged": "2009-10-22T12:57:43.4333137+02:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Kulas-VonRueden",
-        "ToolTip": "Consequuntur debitis tempora eos possimus at sed.",
+        "Id": 122,
+        "Name": "Lubowitz LLC",
+        "ToolTip": "Aut illum.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "qui",
-        "ColorBlock": 640,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2005-12-22T11:16:14.5432954+01:00",
+        "Rank": 493,
+        "Type": "esse",
+        "ColorBlock": 946,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2017-06-02T12:57:43.4333137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "culpa",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Denis Lind"
+        "FullName": "Jonas Hermiston"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "aut",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mrs. Jaida Buckridge PhD"
+    "FullName": "Ms. Aurelia Theodora Grant"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Prosacco, McClure and Boyer",
-    "ToolTip": "Rerum dolorum quia exercitationem expedita.",
+    "Id": 43,
+    "Name": "Bergstrom-Bosco",
+    "ToolTip": "Ipsam consequatur.",
     "Deleted": false,
-    "Rank": 711,
-    "Type": "quidem",
-    "ColorBlock": 334,
-    "IconHint": "nostrum",
+    "Rank": 968,
+    "Type": "commodi",
+    "ColorBlock": 951,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2008-02-15T11:16:14.5432954+01:00",
+    "LastChanged": "2008-06-16T12:57:43.4333137+02:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Torphy-Cummerata",
-        "ToolTip": "Maxime facere non minus iste sed.",
+        "Id": 196,
+        "Name": "Yost-Waters",
+        "ToolTip": "Explicabo sed ipsam est et recusandae ad quia.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "illum",
-        "ColorBlock": 327,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "1998-10-21T11:16:14.5432954+02:00",
+        "Rank": 481,
+        "Type": "quam",
+        "ColorBlock": 106,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2014-11-18T12:57:43.4333137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "placeat",
-        "Hidden": false,
-        "FullName": "Kaylah Jerde",
+        "ExtraInfo": "sunt",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Moses Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 33
+            "FieldLength": 395
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Mozell Kiehn",
+    "ExtraInfo": "neque",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Henriette Thurman O'Conner MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 691
       }
     }
   }

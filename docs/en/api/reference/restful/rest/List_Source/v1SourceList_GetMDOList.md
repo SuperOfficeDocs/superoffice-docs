@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=qui
+GET /api/v1/List/Source/MDOItems?query=perferendis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Reinger Inc and Sons",
-    "ToolTip": "Officia molestiae porro cumque omnis magnam facilis.",
-    "Deleted": true,
-    "Rank": 687,
-    "Type": "in",
+    "Id": 412,
+    "Name": "Dach Group",
+    "ToolTip": "Consequatur magnam eligendi ut rem minima vel.",
+    "Deleted": false,
+    "Rank": 382,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 629,
-        "Name": "Kerluke-Becker",
-        "ToolTip": "Soluta molestiae dolorem nihil ut tempora fugit.",
+        "Id": 752,
+        "Name": "Donnelly-Labadie",
+        "ToolTip": "Et et quas.",
         "Deleted": false,
-        "Rank": 274,
-        "Type": "dolores",
+        "Rank": 43,
+        "Type": "pariatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 761,
-        "ExtraInfo": "vel",
-        "StyleHint": "pariatur",
-        "FullName": "Ms. Heidi Keebler",
+        "IconHint": "id",
+        "ColorBlock": 879,
+        "ExtraInfo": "et",
+        "StyleHint": "facere",
+        "FullName": "Damien Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 883
+            "FieldLength": 226
           }
         }
       }
     ],
-    "IconHint": "modi",
-    "ColorBlock": 958,
-    "ExtraInfo": "et",
-    "StyleHint": "nemo",
-    "FullName": "Ricardo Wehner Sr.",
+    "IconHint": "totam",
+    "ColorBlock": 517,
+    "ExtraInfo": "earum",
+    "StyleHint": "itaque",
+    "FullName": "Prof. Isadore Ratke V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

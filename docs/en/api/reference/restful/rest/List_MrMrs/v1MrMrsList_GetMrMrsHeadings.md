@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 589,
-    "Name": "Kovacek, Hudson and Hills",
-    "Tooltip": "et",
+    "HeadingId": 138,
+    "Name": "Vandervort-Ortiz",
+    "Tooltip": "libero",
     "Deleted": true,
-    "Rank": 161,
-    "UdListDefinitionId": 751,
+    "Rank": 384,
+    "UdListDefinitionId": 197,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 610
       }
     }
   }

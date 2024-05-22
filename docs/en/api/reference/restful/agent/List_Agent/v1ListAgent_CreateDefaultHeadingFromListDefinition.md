@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 548
+  "UdListDefinitionId": 229
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 612,
-  "Name": "Dickens-Morar",
-  "Tooltip": "cum",
+  "HeadingId": 484,
+  "Name": "Mraz, Hermann and Steuber",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 900,
-  "UdListDefinitionId": 121,
+  "Rank": 11,
+  "UdListDefinitionId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

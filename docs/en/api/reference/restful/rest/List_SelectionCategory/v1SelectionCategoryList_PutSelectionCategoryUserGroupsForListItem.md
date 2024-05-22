@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Schamberger Group",
-    "ToolTip": "Ut similique.",
+    "Id": 281,
+    "Name": "Tromp Group",
+    "ToolTip": "Sunt sit mollitia nihil labore aut et dolores.",
     "Deleted": false,
-    "Rank": 427,
-    "Type": "aperiam",
-    "ColorBlock": 827,
-    "IconHint": "placeat",
+    "Rank": 110,
+    "Type": "ut",
+    "ColorBlock": 88,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2014-05-22T11:16:14.8246461+02:00",
+    "LastChanged": "2010-01-22T12:57:43.7613612+01:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Predovic LLC",
-        "ToolTip": "Modi dolorem reprehenderit aliquid optio.",
+        "Id": 957,
+        "Name": "Watsica, Rutherford and Torphy",
+        "ToolTip": "Ullam perferendis amet.",
         "Deleted": false,
-        "Rank": 684,
-        "Type": "aut",
-        "ColorBlock": 816,
-        "IconHint": "et",
+        "Rank": 757,
+        "Type": "necessitatibus",
+        "ColorBlock": 731,
+        "IconHint": "deserunt",
         "Selected": true,
-        "LastChanged": "2004-04-22T11:16:14.8246461+02:00",
+        "LastChanged": "2008-09-04T12:57:43.7613612+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "natus",
-        "Hidden": true,
-        "FullName": "Alexandria Dibbert PhD"
+        "ExtraInfo": "odit",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Audie Erdman"
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "sint",
+    "ExtraInfo": "nisi",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Betty Schroeder"
+    "FullName": "Estelle Ward"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Konopelski-Blanda",
-    "ToolTip": "Itaque qui.",
-    "Deleted": true,
-    "Rank": 194,
-    "Type": "officia",
-    "ColorBlock": 911,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2024-02-22T11:16:14.8246461+01:00",
+    "Id": 699,
+    "Name": "Herman Group",
+    "ToolTip": "Quod libero nulla placeat quas.",
+    "Deleted": false,
+    "Rank": 23,
+    "Type": "voluptas",
+    "ColorBlock": 25,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2018-06-25T12:57:43.7613612+02:00",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Russel-Wiegand",
-        "ToolTip": "Ipsam nobis repellat amet exercitationem sed nobis.",
+        "Id": 563,
+        "Name": "Kshlerin, Christiansen and Gutmann",
+        "ToolTip": "Voluptatem veniam sed atque.",
         "Deleted": false,
-        "Rank": 220,
-        "Type": "minus",
-        "ColorBlock": 325,
-        "IconHint": "beatae",
+        "Rank": 280,
+        "Type": "repudiandae",
+        "ColorBlock": 32,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1999-04-11T11:16:14.8246461+02:00",
+        "LastChanged": "1998-02-12T12:57:43.7613612+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Wiley Nicolas",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Ms. Oma Lilian Vandervort DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 634
+            "FieldType": "System.Int32",
+            "FieldLength": 302
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "non",
+    "ExtraInfo": "et",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Ms. Guy Robel Jr.",
+    "FullName": "Emmy Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 89
       }
     }
   }

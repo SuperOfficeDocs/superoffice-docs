@@ -63,7 +63,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible actuating archive",
-  "Postit": "magni",
+  "Description": "Cloned radical parallelism",
+  "Postit": "voluptas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 701,
-  "IncludePerson": 376,
-  "MemberCount": 741,
-  "Name": "Auer Group",
-  "PostitTextId": 698,
-  "CreatedDate": "1998-02-20T11:16:09.7259925+01:00",
-  "SelectionId": 239,
-  "SoundEx": "voluptatem",
-  "Source": 5,
-  "TextId": 562,
-  "UpdatedDate": "2022-05-10T11:16:09.7259925+02:00",
-  "UpdatedCount": 786,
-  "Visibility": 602,
+  "GroupIdx": 284,
+  "IncludePerson": 605,
+  "MemberCount": 99.99,
+  "Name": "Feeney Group",
+  "PostitTextId": 811,
+  "CreatedDate": "2001-09-11T12:57:34.9302081+02:00",
+  "SelectionId": 469,
+  "SoundEx": "et",
+  "Source": 619,
+  "TextId": 2,
+  "UpdatedDate": "2023-07-03T12:57:34.9302081+02:00",
+  "UpdatedCount": 92,
+  "Visibility": 822,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 501,
-  "TargetTableName": "Heller, Reilly and Rogahn",
-  "Completed": false,
-  "LeftSelectionId": 335,
-  "RightSelectionId": 231,
+  "CompanyUnique": true,
+  "TargetTableNumber": 973,
+  "TargetTableName": "West, O'Hara and Schuppe",
+  "Completed": true,
+  "LeftSelectionId": 366,
+  "RightSelectionId": 244,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Roberts-Zboncak",
-  "ShadowProviderName": "Rolfson, Pacocha and Sawayn",
-  "ChartKey": "culpa",
-  "LastLoaded": "2018-04-09T11:16:09.7259925+02:00",
-  "LastLoadedBy": 214,
+  "MainProviderName": "Glover Inc and Sons",
+  "ShadowProviderName": "Graham LLC",
+  "ChartKey": "aut",
+  "LastLoaded": "2000-01-11T12:57:34.9302081+01:00",
+  "LastLoadedBy": 792,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-12-06T11:16:09.7259925+01:00",
-  "LastMembershipChangeBy": 15,
+  "LastMembershipChange": "2013-05-03T12:57:34.9302081+02:00",
+  "LastMembershipChangeBy": 185,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "pariatur",
-  "MemberTabHeading": "veritatis",
-  "MailingsProviderName": "Leuschke Group",
-  "DashboardTileDefinitionId": 395,
+  "MainHeading": "rerum",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Langosh, Lockman and Senger",
+  "DashboardTileDefinitionId": 773,
   "VisibleFor": [
     {
-      "VisibleId": 39,
+      "VisibleId": 64,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 383
+          "FieldType": "System.String",
+          "FieldLength": 973
         }
       }
     },
     {
-      "VisibleId": 39,
+      "VisibleId": 64,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 383
+          "FieldType": "System.String",
+          "FieldLength": 973
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 277
     }
   }
 }

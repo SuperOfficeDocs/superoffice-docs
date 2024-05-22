@@ -87,35 +87,35 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 446,
-  "Field": "aliquam",
-  "RecordId": 567,
+  "RefCountsId": 443,
+  "Field": "reiciendis",
+  "RecordId": 942,
   "SuggestedRecords": [
     {
-      "Id": 7,
-      "Name": "Hudson, Hilll and Hackett",
-      "ToolTip": "Blanditiis voluptates nobis omnis et.",
+      "Id": 366,
+      "Name": "Smitham LLC",
+      "ToolTip": "Dolorum aut voluptatem qui quisquam.",
       "Deleted": true,
-      "Rank": 982,
-      "Type": "est",
+      "Rank": 858,
+      "Type": "eligendi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iusto",
-      "ColorBlock": 44,
-      "ExtraInfo": "omnis",
-      "StyleHint": "nihil",
-      "FullName": "Ms. Loren Barrows"
+      "IconHint": "voluptate",
+      "ColorBlock": 434,
+      "ExtraInfo": "quo",
+      "StyleHint": "error",
+      "FullName": "Dalton O'Conner"
     }
   ],
-  "CurrentValue": 149,
-  "TravelPrefix": 493,
-  "SatPrefix": 919,
-  "Allocate": true,
+  "CurrentValue": 633,
+  "TravelPrefix": 996,
+  "SatPrefix": 243,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": true
+  "ReadOnly": false,
+  "AllowBlank": false
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 275,
-  "Field": "qui",
-  "RecordId": 860,
+  "RefCountsId": 699,
+  "Field": "sit",
+  "RecordId": 154,
   "SuggestedRecords": [
     {
-      "Id": 810,
-      "Name": "Ortiz-Wisozk",
-      "ToolTip": "Velit illum delectus deserunt tenetur.",
+      "Id": 901,
+      "Name": "Champlin-Toy",
+      "ToolTip": "Debitis ut numquam.",
       "Deleted": false,
-      "Rank": 934,
-      "Type": "molestias",
+      "Rank": 336,
+      "Type": "commodi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "neque",
-      "ColorBlock": 107,
-      "ExtraInfo": "et",
-      "StyleHint": "tempora",
-      "FullName": "Dashawn Jaskolski I",
+      "IconHint": "sunt",
+      "ColorBlock": 639,
+      "ExtraInfo": "tempora",
+      "StyleHint": "tempore",
+      "FullName": "Damian Johns",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 363
         }
       }
     }
   ],
-  "CurrentValue": 295,
-  "TravelPrefix": 143,
-  "SatPrefix": 813,
-  "Allocate": false,
+  "CurrentValue": 198,
+  "TravelPrefix": 713,
+  "SatPrefix": 566,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": true,
+  "ReadOnly": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 52
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 420,
-    "Name": "Mitchell, Berge and Beatty",
-    "Tooltip": "asperiores",
+    "HeadingId": 969,
+    "Name": "Pollich-Kozey",
+    "Tooltip": "quo",
     "Deleted": true,
-    "Rank": 40,
-    "UdListDefinitionId": 185,
+    "Rank": 521,
+    "UdListDefinitionId": 231,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 793
       }
     }
   }

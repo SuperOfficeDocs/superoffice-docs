@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 358,
-  "Name": "Boehm Group",
-  "CreatedDate": "2024-01-19T11:16:13.9175899+01:00",
-  "UpdatedDate": "2006-06-11T11:16:13.9175899+02:00",
+  "ForeignAppId": 424,
+  "Name": "Zieme, Rippin and Wiza",
+  "CreatedDate": "2003-12-31T12:57:42.4326345+01:00",
+  "UpdatedDate": "1997-10-13T12:57:42.4326345+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 365,
-      "Name": "Stehr-Becker",
-      "CreatedDate": "2020-06-17T11:16:13.9175899+02:00",
-      "UpdatedDate": "2000-08-10T11:16:13.9175899+02:00",
-      "AssociateFullName": "Larissa DuBuque",
-      "CreatedBy": "delectus",
-      "UpdatedBy": "nihil",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 872,
+      "ForeignDeviceId": 963,
+      "Name": "VonRueden, Hegmann and Moore",
+      "CreatedDate": "2006-03-03T12:57:42.4326345+01:00",
+      "UpdatedDate": "1998-12-22T12:57:42.4326345+01:00",
+      "AssociateFullName": "Johnathan Sammy Greenholt III",
+      "CreatedBy": "laboriosam",
+      "UpdatedBy": "dolorem",
+      "DeviceIdentifier": "distinctio",
+      "ForeignAppId": 266,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 517
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   }
 }

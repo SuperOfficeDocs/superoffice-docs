@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 919,
-  "Name": "Gerlach Inc and Sons",
-  "Tooltip": "nemo",
+  "HeadingId": 139,
+  "Name": "Schoen, Gislason and Pagac",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 371,
-  "UdListDefinitionId": 692
+  "Rank": 501,
+  "UdListDefinitionId": 523
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 20,
-  "Name": "Klein, Funk and Denesik",
-  "Tooltip": "sapiente",
+  "HeadingId": 463,
+  "Name": "Heller LLC",
+  "Tooltip": "impedit",
   "Deleted": true,
-  "Rank": 49,
-  "UdListDefinitionId": 24,
+  "Rank": 262,
+  "UdListDefinitionId": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

@@ -168,6 +168,7 @@ the email_id.
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
+|contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
 |contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
 |contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
@@ -199,6 +200,7 @@ the email_id.
 |contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
 |contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
 |contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
+|contactSupportAssociate/isLocation|bool|Our service contact - Is a location: Is a location| x |
 |contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -230,12 +232,12 @@ the email_id.
 |contactSupportPerson/personUpdatedByFullName|associate|User support contact - Updated by - Full name: The user who last updated the data| x |
 |contactSupportPerson/personUpdatedDate|date|User support contact - Updated: The date/time the data was last updated in UTC.| x |
 |contactSupportPerson/personRegisteredBy|associate|User support contact - Registered by: The user who registered the data| x |
-|contactSupportPerson/personRegisteredByFullName|associate|User support contact - Registered by - Full name: The user who registered the data| x |
-|contactSupportPerson/personRegisteredDate|date|User support contact - Registered date: The date/time the data was registered in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personRegisteredByFullName|associate|User support contact - Registered by - Full name: The user who registered the data| x |
+|contactSupportPerson/personRegisteredDate|date|User support contact - Registered date: The date/time the data was registered in UTC.| x |
 |contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
 |contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
@@ -250,6 +252,9 @@ the email_id.
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
+|contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
+|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - Updated by flow: Updated by flow| x |
+|contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
 |contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
 |contactSupportPerson/personInfo/infoText|positiveString|User support contact - Information: Displays the text entered in the description field| x |
@@ -265,7 +270,6 @@ the email_id.
 |contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
 |contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
 |contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
-|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
 |contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
 |contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -313,7 +317,6 @@ the email_id.
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -333,13 +336,13 @@ the email_id.
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|LastActivity|date|Date of last activity|  |
-|LastCompletedActivity|date|Date of last completed activity|  |
-|LastDoByActivity|date|Date of last non-completed activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|LastActivity|date|Date of last activity|  |
+|LastCompletedActivity|date|Date of last completed activity|  |
+|LastDoByActivity|date|Date of last non-completed activity|  |
 |NumberOfSales|int|Number of sales|  |
 |NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |NumberOfNotCompletedSales|int|Number of non-completed sales|  |
@@ -369,7 +372,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=who,restrictionPostalAddress/wgs84latitude,streetAddress/line3,contactSupportAssociate/isActive
+GET /api/v1/archive/emailcontactaddress?$select=contactAssociate/personId,contactSupportAssociate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

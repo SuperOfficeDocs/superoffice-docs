@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Labadie LLC",
-    "ToolTip": "Enim distinctio.",
+    "Id": 973,
+    "Name": "Feest-Kerluke",
+    "ToolTip": "At minima accusamus.",
     "Deleted": false,
-    "Rank": 361,
-    "Type": "nihil",
-    "ColorBlock": 408,
-    "IconHint": "commodi",
+    "Rank": 897,
+    "Type": "iure",
+    "ColorBlock": 412,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2006-04-13T11:16:14.4808001+02:00",
+    "LastChanged": "2017-08-01T12:57:43.3239611+02:00",
     "ChildItems": [
       {
-        "Id": 316,
-        "Name": "Robel-Corwin",
-        "ToolTip": "Similique accusantium et adipisci perspiciatis distinctio perferendis.",
+        "Id": 517,
+        "Name": "Adams-Ebert",
+        "ToolTip": "Enim non.",
         "Deleted": false,
-        "Rank": 753,
-        "Type": "iste",
-        "ColorBlock": 911,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "2023-04-09T11:16:14.4808001+02:00",
+        "Rank": 861,
+        "Type": "eaque",
+        "ColorBlock": 872,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2010-08-14T12:57:43.3239611+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "inventore",
+        "ExtraInfo": "nihil",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "William Kling"
+        "FullName": "Prof. Erich Kelton Gleason"
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Ms. Alexie Juliet Crooks MD"
+    "ExtraInfo": "facilis",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Else Stamm"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Hintz-Reynolds",
-    "ToolTip": "Doloremque sed eligendi recusandae voluptatibus est nemo vel.",
+    "Id": 382,
+    "Name": "Strosin-Langosh",
+    "ToolTip": "Similique nobis quis.",
     "Deleted": true,
-    "Rank": 658,
-    "Type": "voluptatem",
-    "ColorBlock": 487,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2024-04-08T11:16:14.4808001+02:00",
+    "Rank": 22,
+    "Type": "praesentium",
+    "ColorBlock": 285,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2018-09-28T12:57:43.3239611+02:00",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Jenkins LLC",
-        "ToolTip": "Dolores quo esse doloribus.",
-        "Deleted": false,
-        "Rank": 288,
-        "Type": "rerum",
-        "ColorBlock": 78,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2008-09-13T11:16:14.4808001+02:00",
+        "Id": 844,
+        "Name": "Kirlin Inc and Sons",
+        "ToolTip": "Qui ullam.",
+        "Deleted": true,
+        "Rank": 730,
+        "Type": "natus",
+        "ColorBlock": 420,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2005-10-10T12:57:43.3239611+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "placeat",
-        "Hidden": false,
-        "FullName": "Priscilla VonRueden DDS",
+        "ExtraInfo": "quis",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Erin Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 343
+            "FieldLength": 988
           }
         }
       }
     ],
     "ExtraInfo": "ut",
-    "StyleHint": "eligendi",
+    "StyleHint": "tempora",
     "Hidden": false,
-    "FullName": "Marianna Wiza Jr.",
+    "FullName": "Sadie Coleman Streich III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 914
       }
     }
   }

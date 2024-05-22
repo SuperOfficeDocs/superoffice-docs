@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=voluptas
+GET /api/v1/List/ConsentSource/MDOItems?query=corrupti
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Greenfelder-Littel",
-    "ToolTip": "Ut saepe in tempora nisi atque ea voluptas.",
+    "Id": 140,
+    "Name": "Bartoletti Inc and Sons",
+    "ToolTip": "Saepe consequatur id quo commodi.",
     "Deleted": false,
-    "Rank": 635,
-    "Type": "aut",
+    "Rank": 482,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Cartwright, Bernier and Sanford",
-        "ToolTip": "Aut aliquam magnam quasi accusantium.",
+        "Id": 64,
+        "Name": "Pouros, Aufderhar and Stracke",
+        "ToolTip": "Ea rerum dicta.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "doloribus",
+        "Rank": 473,
+        "Type": "corporis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 450,
-        "ExtraInfo": "dolore",
-        "StyleHint": "aspernatur",
-        "FullName": "Annalise O'Keefe",
+        "IconHint": "nihil",
+        "ColorBlock": 368,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "illo",
+        "FullName": "Mrs. Rollin Janessa Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldLength": 607
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 416,
-    "ExtraInfo": "est",
-    "StyleHint": "quasi",
-    "FullName": "Mr. Rafael Crystal Cole Jr.",
+    "IconHint": "quia",
+    "ColorBlock": 402,
+    "ExtraInfo": "tempora",
+    "StyleHint": "inventore",
+    "FullName": "Mr. Vivien Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 783
       }
     }
   }

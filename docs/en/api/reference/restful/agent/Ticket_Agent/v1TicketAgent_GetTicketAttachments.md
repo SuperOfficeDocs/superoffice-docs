@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 328
+  "TicketEntityId": 403
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 191,
-    "Name": "Friesen, Lakin and Boehm",
-    "ContentType": "esse",
-    "AttSize": 29,
-    "InlineImage": true,
-    "ContentId": "dolor",
-    "AuthKey": "sint",
+    "AttachmentId": 521,
+    "Name": "Homenick-Pfannerstill",
+    "ContentType": "provident",
+    "AttSize": 103,
+    "InlineImage": false,
+    "ContentId": "voluptatem",
+    "AuthKey": "qui",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 949
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   }

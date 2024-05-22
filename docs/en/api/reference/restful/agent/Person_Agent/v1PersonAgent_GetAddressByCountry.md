@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 743,
-  "CountryId": 295
+  "PersonId": 803,
+  "CountryId": 714
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24843.218,
-  "Wgs84Longitude": 4403.2699999999995,
+  "Wgs84Latitude": 27309.676,
+  "Wgs84Longitude": 10969.0,
   "LocalizedAddress": [
     [
       {
-        "Name": "Gerlach-Skiles",
-        "Value": "qui",
-        "Tooltip": "nobis",
-        "Label": "quam",
-        "ValueLength": 503,
-        "AddressType": "quis",
+        "Name": "Zieme-Labadie",
+        "Value": "impedit",
+        "Tooltip": "eius",
+        "Label": "occaecati",
+        "ValueLength": 578,
+        "AddressType": "ratione",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 998
+            "FieldLength": 893
           }
         }
       }
     ],
     [
       {
-        "Name": "Kub LLC",
-        "Value": "esse",
-        "Tooltip": "perspiciatis",
-        "Label": "consequatur",
-        "ValueLength": 125,
-        "AddressType": "ut",
+        "Name": "Kessler Inc and Sons",
+        "Value": "dolores",
+        "Tooltip": "sunt",
+        "Label": "commodi",
+        "ValueLength": 709,
+        "AddressType": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 594
+            "FieldLength": 52
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "repellat",
+  "Formatted": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

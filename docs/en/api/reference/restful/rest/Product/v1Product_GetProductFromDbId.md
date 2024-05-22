@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 533,
-  "ERPProductKey": "inventore",
-  "ERPPriceListKey": "iure",
-  "Name": "Block-Blanda",
-  "Description": "Right-sized demand-driven structure",
-  "Code": "voluptatem",
-  "PriceUnit": "debitis",
-  "QuantityUnit": "sequi",
-  "IsSubscription": false,
-  "SubscriptionUnit": "laboriosam",
-  "DefaultSubscriptionQuantity": 21561.92,
-  "ItemNumber": "750701",
+  "ProductId": 277,
+  "ERPProductKey": "quia",
+  "ERPPriceListKey": "autem",
+  "Name": "DuBuque-Kassulke",
+  "Description": "Operative empowering product",
+  "Code": "laboriosam",
+  "PriceUnit": "consequatur",
+  "QuantityUnit": "a",
+  "IsSubscription": true,
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 2080.976,
+  "ItemNumber": "845862",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "praesentium",
-  "VAT": 19180.079999999998,
-  "VATInfo": "blanditiis",
-  "UnitCost": 1466.712,
-  "UnitMinimumPrice": 22527.192,
-  "UnitListPrice": 16218.449999999999,
-  "InAssortment": true,
-  "Supplier": "praesentium",
-  "SupplierCode": "asperiores",
-  "Rights": "enim",
-  "Rule": "ut",
+  "ProductFamilyKey": "fugiat",
+  "ProductTypeKey": "et",
+  "VAT": 17506.523999999998,
+  "VATInfo": "neque",
+  "UnitCost": 21906.66,
+  "UnitMinimumPrice": 14046.588,
+  "UnitListPrice": 13560.818,
+  "InAssortment": false,
+  "Supplier": "exercitationem",
+  "SupplierCode": "qui",
+  "Rights": "provident",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Rowe Group",
-      "Value": "quos",
+      "Name": "Legros, Padberg and Reynolds",
+      "Value": "atque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 988
         }
       }
     },
     {
-      "Name": "Rowe Group",
-      "Value": "quos",
+      "Name": "Legros, Padberg and Reynolds",
+      "Value": "atque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 988
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "nam",
-  "ExtraField2": "eaque",
-  "ExtraField3": "quia",
-  "ExtraField4": "id",
-  "ExtraField5": "praesentium",
-  "InStock": 6286.804,
+  "RawExtraInfo": "quia",
+  "ExtraField1": "iusto",
+  "ExtraField2": "saepe",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "sapiente",
+  "ExtraField5": "libero",
+  "InStock": 144.164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

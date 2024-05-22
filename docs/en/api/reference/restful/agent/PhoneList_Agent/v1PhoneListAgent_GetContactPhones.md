@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 402
+  "ContactId": 372
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(934)695-7827 x729",
-    "PersonCellPhone": "578.331.4336 x78964",
-    "PersonPrivatePhone": "044-616-4901 x738",
-    "PersonFaxNumber": "219906",
-    "PersonPagerNumber": "663359",
-    "PersonEmail": "holly@kunde.info",
-    "Id": 107,
-    "Name": "Ryan-Mueller",
-    "Tooltip": "culpa",
-    "UniqueId": "suscipit",
+    "PersonDirectPhone": "1-502-425-7394",
+    "PersonCellPhone": "374.916.0113 x89668",
+    "PersonPrivatePhone": "688.230.8305",
+    "PersonFaxNumber": "954567",
+    "PersonPagerNumber": "487660",
+    "PersonEmail": "cora_bins@franecki.uk",
+    "Id": 659,
+    "Name": "Rowe, Blick and Weber",
+    "Tooltip": "nemo",
+    "UniqueId": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldLength": 217
       }
     }
   }

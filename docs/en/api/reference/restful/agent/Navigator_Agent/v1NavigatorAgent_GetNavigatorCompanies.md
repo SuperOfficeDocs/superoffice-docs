@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Yost-Gaylord"
+  "Name": "Roob, Rolfson and Franecki"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Value": "in",
-    "Tooltip": "optio",
+    "Id": 957,
+    "Value": "velit",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 340
+        "FieldLength": 750
       }
     }
   },
   {
-    "Id": 290,
-    "Value": "in",
-    "Tooltip": "optio",
+    "Id": 957,
+    "Value": "velit",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 340
+        "FieldLength": 750
       }
     }
   }

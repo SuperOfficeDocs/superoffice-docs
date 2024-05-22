@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 940,
-    "Name": "Kautzer Group",
-    "Description": "Cloned user-facing superstructure",
-    "WelcomeMessage": "id",
+    "ChatTopicId": 744,
+    "Name": "Schaden, Langworth and White",
+    "Description": "Grass-roots impactful info-mediaries",
+    "WelcomeMessage": "animi",
     "Language": null,
-    "LastAccept": "2001-09-18T11:16:13.7456138+02:00",
-    "SecondsPrAccept": 631,
-    "AlertRecipient": "voluptas",
+    "LastAccept": "2018-05-24T12:57:42.1826916+02:00",
+    "SecondsPrAccept": 187,
+    "AlertRecipient": "praesentium",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "iste",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "rerum",
-    "WarnNewChatMinutes": 796,
-    "WarnManagerNewChatMinutes": 699,
-    "TicketEnabled": false,
+    "BadgeHeader": "voluptas",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "quis",
+    "WarnNewChatMinutes": 511,
+    "WarnManagerNewChatMinutes": 624,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
@@ -121,20 +121,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 535,
-    "WarnManagerChatMessageMinutes": 232,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 409,
-    "OfflineFormQueueLength": 924,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 180,
+    "WarnManagerChatMessageMinutes": 213,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 524,
+    "OfflineFormQueueLength": 189,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "odit",
+    "WidgetRatingText": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 88
       }
     }
   }

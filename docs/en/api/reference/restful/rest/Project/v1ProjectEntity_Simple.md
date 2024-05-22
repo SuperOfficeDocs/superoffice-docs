@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 77,
-  "Name": "Stamm, Franecki and Heidenreich",
-  "Description": "Reverse-engineered grid-enabled matrix",
+  "ProjectId": 719,
+  "Name": "Runte Inc and Sons",
+  "Description": "Robust clear-thinking structure",
   "URL": "http://www.example.com/",
-  "Type": "omnis",
-  "AssociateId": 163,
-  "AssociateFullName": "Lottie Johnson",
-  "TypeId": 264,
-  "Updated": "2020-03-29T11:16:14.1206908+02:00",
-  "StatusId": 864,
-  "Status": "deserunt",
-  "TextId": 731,
-  "PublishTo": "2018-10-04T11:16:14.1206908+02:00",
-  "PublishFrom": "2015-11-07T11:16:14.1206908+01:00",
-  "IsPublished": true,
+  "Type": "voluptate",
+  "AssociateId": 174,
+  "AssociateFullName": "Joel Hoppe",
+  "TypeId": 591,
+  "Updated": "2011-06-21T12:57:42.6357132+02:00",
+  "StatusId": 360,
+  "Status": "eaque",
+  "TextId": 29,
+  "PublishTo": "2020-05-09T12:57:42.6357132+02:00",
+  "PublishFrom": "2009-11-03T12:57:42.6357132+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1944109",
-  "ActiveErpLinks": 7,
+  "ProjectNumber": "1396366",
+  "ActiveErpLinks": 448,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 410
     }
   }
 }

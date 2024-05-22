@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laborum",
-  "Value": "rerum",
-  "RecordId": 404,
-  "CreatedDate": "2005-04-12T11:16:13.93321+02:00",
-  "UpdatedDate": "2000-09-28T11:16:13.93321+02:00",
-  "UpdatedBy": "sapiente",
-  "CreatedBy": "quisquam",
-  "TableName": "Boehm, Hermiston and Reinger"
+  "Key": "omnis",
+  "Value": "quam",
+  "RecordId": 271,
+  "CreatedDate": "1999-12-20T12:57:42.4638774+01:00",
+  "UpdatedDate": "1997-06-25T12:57:42.4638774+02:00",
+  "UpdatedBy": "possimus",
+  "CreatedBy": "ut",
+  "TableName": "Champlin-Klocko"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsam",
-  "Value": "aperiam",
-  "RecordId": 918,
-  "CreatedDate": "2007-09-02T11:16:13.93321+02:00",
-  "UpdatedDate": "2021-06-02T11:16:13.93321+02:00",
-  "UpdatedBy": "excepturi",
-  "CreatedBy": "ipsum",
-  "TableName": "Kassulke-Schamberger",
+  "Key": "fuga",
+  "Value": "laborum",
+  "RecordId": 927,
+  "CreatedDate": "2010-05-01T12:57:42.4638774+02:00",
+  "UpdatedDate": "2008-01-01T12:57:42.4638774+01:00",
+  "UpdatedBy": "facere",
+  "CreatedBy": "totam",
+  "TableName": "Leannon LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 238
     }
   }
 }

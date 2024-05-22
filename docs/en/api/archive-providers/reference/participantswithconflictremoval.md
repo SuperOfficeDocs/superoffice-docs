@@ -83,6 +83,7 @@ inner participants provider, so that the conflict checking is performed.
 |userName|string|User name: User name|  |
 |personEmail|string|E-mail|  |
 |locationAddress|string|Location: Location|  |
+|isLocation|bool|Is a location: Is a location|  |
 |personEmailsInformation|int|E-mail ID: IDs of contacts that should receive invitation e-mails for a booking - column is only used as a restriction|  |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name|  |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact|  |
@@ -123,20 +124,23 @@ inner participants provider, so that the conflict checking is performed.
 |hasCompany|bool|Has company: The contact is associated with a company|  |
 |isProjectMember|bool|Is project member: This person is a project member|  |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder|  |
+|updatedByWorkflow|listAny|Updated by flow: Updated by flow|  |
+|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow|  |
+|createdByForm|listAny|Created by form: Created by form|  |
 |email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
 |email/emailAddress|string|E-mail|  |
 |email/emailDescription|string|Description|  |
 |email/emailId|int|ID|  |
 |email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address|  |
 |email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
-|email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address|  |
-|email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
-|personUrl/URLAddress|string|URL|  |
-|personUrl/URLDescription|string|Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address|  |
+|email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
+|personUrl/URLAddress|string|URL|  |
+|personUrl/URLDescription|string|Description|  |
 |personContact/contactId| *None* |Company ID: Database ID of company|  |
 |personContact/name| *None* |Company name|  |
 |personContact/department| *None* |Department|  |
@@ -188,7 +192,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=ejUserId,locationAddress,personRegisteredBy
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personContact/email/emailLastSent,personEmailsInformation,personRegisteredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

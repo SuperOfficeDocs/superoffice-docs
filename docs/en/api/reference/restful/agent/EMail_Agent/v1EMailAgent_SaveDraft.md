@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 949,
-      "ContactName": "Nader Inc and Sons",
-      "PersonId": 454,
-      "PersonName": "DuBuque-Lubowitz",
-      "AssociateId": 728,
-      "Address": "reiciendis",
-      "EmailId": 980,
+      "ContactId": 803,
+      "ContactName": "Reichel Group",
+      "PersonId": 65,
+      "PersonName": "Walsh, Marvin and Marks",
+      "AssociateId": 542,
+      "Address": "incidunt",
+      "EmailId": 528,
       "DuplicatePersonIds": [
-        787,
-        539
+        421,
+        158
       ],
-      "Name": "Rippin LLC",
+      "Name": "Hammes-Brakus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 867
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 105,
-      "ContactName": "Hermiston-Smith",
-      "PersonId": 911,
-      "PersonName": "Hermann Group",
-      "AssociateId": 11,
-      "Address": "et",
-      "EmailId": 918,
+      "ContactId": 789,
+      "ContactName": "Price, Schmitt and Lynch",
+      "PersonId": 536,
+      "PersonName": "Kub, Ullrich and Gorczany",
+      "AssociateId": 174,
+      "Address": "tenetur",
+      "EmailId": 439,
       "DuplicatePersonIds": [
-        807,
-        827
+        996,
+        424
       ],
-      "Name": "Hahn-Smitham",
+      "Name": "Lehner, Bogan and Bailey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 665
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 952,
-      "ContactName": "Gulgowski-Ryan",
-      "PersonId": 160,
-      "PersonName": "Murphy-Sawayn",
-      "AssociateId": 442,
-      "Address": "rem",
-      "EmailId": 741,
+      "ContactId": 353,
+      "ContactName": "Heller LLC",
+      "PersonId": 225,
+      "PersonName": "Boehm-Reynolds",
+      "AssociateId": 476,
+      "Address": "repellat",
+      "EmailId": 923,
       "DuplicatePersonIds": [
-        87,
-        191
+        329,
+        643
       ],
-      "Name": "Lueilwitz LLC",
+      "Name": "Huel Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 64
         }
       }
     }
   ],
-  "Subject": "nobis",
-  "HTMLBody": "velit",
+  "Subject": "distinctio",
+  "HTMLBody": "incidunt",
   "From": null,
-  "Sent": "1999-08-08T11:16:09.1784746+02:00",
-  "Size": 336,
+  "Sent": "2012-03-05T12:57:33.8836618+01:00",
+  "Size": 903,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "exercitationem",
-  "IsSent": false,
+  "MessageID": "tenetur",
+  "PlainBody": "iste",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 101,
+  "ServerId": 347,
   "Attachments": [
     {
-      "Description": "Implemented 4th generation matrices",
-      "Filename": "nihil",
-      "Size": 608,
-      "Type": "sit",
-      "Encoding": "recusandae",
-      "Id": "illo",
-      "Disposition": "non",
+      "Description": "Networked encompassing flexibility",
+      "Filename": "laudantium",
+      "Size": 810,
+      "Type": "aut",
+      "Encoding": "aliquam",
+      "Id": "sint",
+      "Disposition": "quo",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 944
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Steuber-Dach",
+      "Name": "Satterfield-Donnelly",
       "Values": [
-        "voluptates",
-        "velit"
+        "doloribus",
+        "hic"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 718
         }
       }
     },
     {
-      "Name": "Steuber-Dach",
+      "Name": "Satterfield-Donnelly",
       "Values": [
-        "voluptates",
-        "velit"
+        "doloribus",
+        "hic"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 718
         }
       }
     }
   ],
-  "FolderName": "Jones Group",
-  "EmailItemId": 56,
-  "AccountId": 911,
-  "ReceivedAt": "2000-05-31T11:16:09.1784746+02:00",
+  "FolderName": "Hane-Bernier",
+  "EmailItemId": 231,
+  "AccountId": 240,
+  "ReceivedAt": "2007-11-29T12:57:33.8836618+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-04-12T11:16:09.1784746+02:00",
+  "RepliedAt": "1997-12-31T12:57:33.8836618+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 786
     }
   }
 }

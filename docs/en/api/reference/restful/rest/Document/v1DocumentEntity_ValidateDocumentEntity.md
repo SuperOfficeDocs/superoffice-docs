@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 803,
+  "DocumentId": 15,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "officia",
-  "Header": "ea",
-  "Name": "Jerde-Keebler",
-  "OurRef": "earum",
-  "YourRef": "autem",
-  "CreatedDate": "2010-05-23T11:16:13.901969+02:00",
-  "UpdatedDate": "2014-09-30T11:16:13.901969+02:00",
-  "Description": "Monitored encompassing intranet",
+  "Attention": "beatae",
+  "Header": "dolores",
+  "Name": "Walker, Hagenes and O'Reilly",
+  "OurRef": "natus",
+  "YourRef": "ullam",
+  "CreatedDate": "1999-10-27T12:57:42.4170133+02:00",
+  "UpdatedDate": "2023-06-01T12:57:42.4170133+02:00",
+  "Description": "Exclusive cohesive superstructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-04-14T11:16:13.9175899+02:00",
-  "ExternalRef": "sapiente",
+  "Date": "2019-07-16T12:57:42.4170133+02:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 693,
+  "ActiveLinks": 17,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schowalter, Prosacco and Tillman",
-      "Id": 203,
-      "Description": "Business-focused disintermediate algorithm",
-      "ExtraInfo": "nesciunt",
-      "LinkId": 895
+      "EntityName": "Bahringer-Boehm",
+      "Id": 358,
+      "Description": "Balanced radical infrastructure",
+      "ExtraInfo": "pariatur",
+      "LinkId": 663
     },
     {
-      "EntityName": "Schowalter, Prosacco and Tillman",
-      "Id": 203,
-      "Description": "Business-focused disintermediate algorithm",
-      "ExtraInfo": "nesciunt",
-      "LinkId": 895
+      "EntityName": "Bahringer-Boehm",
+      "Id": 358,
+      "Description": "Balanced radical infrastructure",
+      "ExtraInfo": "pariatur",
+      "LinkId": 663
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 185,
-  "Snum": 799,
+  "SuggestedDocumentId": 487,
+  "Snum": 938,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Hipolito Sasha Welch V",
-    "SuperOffice:2": "286621776"
+    "SuperOffice:1": "1756123168",
+    "SuperOffice:2": "42260690"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "omnis"
+    "CustomFields1": "sit",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2017-04-19T11:16:13.9175899+02:00",
-  "PublishTo": "2005-12-24T11:16:13.9175899+01:00",
-  "PublishFrom": "2008-12-18T11:16:13.9175899+01:00",
+  "PublishEventDate": "2006-01-06T12:57:42.4170133+01:00",
+  "PublishTo": "2005-10-18T12:57:42.4170133+02:00",
+  "PublishFrom": "2011-12-15T12:57:42.4170133+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 269,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "sapiente"
+      "DisplayValue": "velit"
     },
     {
-      "VisibleId": 269,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "sapiente"
+      "DisplayValue": "velit"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sit",
+  "1": "doloribus",
   "2": "qui"
 }
 ```

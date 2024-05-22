@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Cole LLC",
-      "DisplayName": "Legros LLC",
-      "DisplayTooltip": "ad",
-      "IsActive": true
+      "Name": "Kreiger Group",
+      "DisplayName": "Cremin, Sipes and Streich",
+      "DisplayTooltip": "deleniti",
+      "IsActive": false
     },
     {
-      "Name": "Cole LLC",
-      "DisplayName": "Legros LLC",
-      "DisplayTooltip": "ad",
-      "IsActive": true
+      "Name": "Kreiger Group",
+      "DisplayName": "Cremin, Sipes and Streich",
+      "DisplayTooltip": "deleniti",
+      "IsActive": false
     }
   ]
 }

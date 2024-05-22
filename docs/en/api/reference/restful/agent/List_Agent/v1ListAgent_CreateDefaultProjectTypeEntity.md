@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 554,
-  "Name": "Schroeder, Oberbrunner and Marquardt",
-  "Tooltip": "debitis",
-  "Rank": 318,
+  "ProjTypeId": 518,
+  "Name": "Berge-Ledner",
+  "Tooltip": "quisquam",
+  "Rank": 687,
   "DurationUnit": "Century",
-  "ProjectDuration": 411,
+  "ProjectDuration": 644,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 290,
-      "Name": "Hodkiewicz LLC",
-      "ToolTip": "Minima porro nemo omnis quos temporibus aut voluptas.",
-      "Deleted": true,
-      "Rank": 789,
-      "Type": "sed",
-      "ColorBlock": 1002,
-      "IconHint": "eius",
-      "Selected": false,
-      "LastChanged": "2018-09-30T11:16:09.3659552+02:00",
+      "Id": 408,
+      "Name": "Lehner-Krajcik",
+      "ToolTip": "Sint dolor laudantium assumenda earum assumenda consequatur.",
+      "Deleted": false,
+      "Rank": 782,
+      "Type": "molestiae",
+      "ColorBlock": 429,
+      "IconHint": "omnis",
+      "Selected": true,
+      "LastChanged": "2012-02-28T12:57:34.2117122+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "dolores",
+      "ExtraInfo": "amet",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Ashton Schaefer",
+      "FullName": "Ms. Modesta Fritz Rohan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldType": "System.Int32",
+          "FieldLength": 715
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

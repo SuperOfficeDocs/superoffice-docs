@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 760,
-  "Name": "Denesik, Ziemann and Schamberger",
-  "Description": "Right-sized stable extranet"
+  "SourceId": 937,
+  "Name": "Johnston Inc and Sons",
+  "Description": "Diverse contextually-based internet solution"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 42,
+  "ReportId": 721,
   "ReportCategory": "All",
-  "Description": "Progressive composite architecture",
+  "Description": "Optimized uniform frame",
   "ReportLayout": "CalendarMonth",
-  "Name": "Bartell-Stehr",
-  "AssociateId": 414,
-  "TemplateId": 298,
-  "Published": false,
+  "Name": "Jacobs, Yost and Daugherty",
+  "AssociateId": 116,
+  "TemplateId": 740,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 735
     }
   }
 }

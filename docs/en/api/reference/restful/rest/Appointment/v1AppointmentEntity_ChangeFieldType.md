@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 139,
-  "ColumnId": 689,
-  "FieldDefault": "est",
-  "FieldHeight": 362,
-  "FieldLabel": "ipsa",
-  "FieldLeft": 320,
-  "FieldTop": 350,
+  "UDefFieldId": 280,
+  "ColumnId": 173,
+  "FieldDefault": "ea",
+  "FieldHeight": 989,
+  "FieldLabel": "aut",
+  "FieldLeft": 812,
+  "FieldTop": 111,
   "FieldType": "Checkbox",
-  "FieldWidth": 473,
-  "FormatMask": "rerum",
-  "HideLabel": false,
+  "FieldWidth": 684,
+  "FormatMask": "ea",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 660,
-  "LabelLeft": 352,
-  "LabelTop": 687,
-  "LabelWidth": 481,
-  "LastVersionId": 601,
-  "ListTableId": 868,
+  "LabelHeight": 442,
+  "LabelLeft": 434,
+  "LabelTop": 848,
+  "LabelWidth": 621,
+  "LastVersionId": 963,
+  "ListTableId": 444,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 448,
-  "ProgId": "aut",
+  "Page1LineNo": 756,
+  "ProgId": "ipsam",
   "IsReadOnly": true,
-  "ShortLabel": "omnis",
-  "TabOrder": 448,
-  "TextLength": 472,
-  "Tooltip": "rem",
-  "UdefIdentity": 889,
-  "UDListDefinitionId": 700,
+  "ShortLabel": "totam",
+  "TabOrder": 763,
+  "TextLength": 942,
+  "Tooltip": "porro",
+  "UdefIdentity": 135,
+  "UDListDefinitionId": 418,
   "Justification": "Center",
-  "Version": 732,
-  "TemplateVariableName": "Yost LLC",
+  "Version": 734,
+  "TemplateVariableName": "Gerhold LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Schoen Inc and Sons",
+  "MdoListName": "Gaylord, Rutherford and Bayer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 261
     }
   }
 }

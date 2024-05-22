@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ea",
-  "ProviderName": "Wyman-Mosciski",
-  "StorageKey": "molestiae",
+  "StorageType": "nam",
+  "ProviderName": "Schiller Group",
+  "StorageKey": "illo",
   "RestrictionGroups": [
     {
-      "Name": "Orn, Jacobson and Weber",
-      "Description": "Automated tertiary policy",
-      "Rank": 551,
+      "Name": "Emmerich-Prohaska",
+      "Description": "Upgradable neutral capacity",
+      "Rank": 715,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Orn, Jacobson and Weber",
-      "Description": "Automated tertiary policy",
-      "Rank": 551,
+      "Name": "Emmerich-Prohaska",
+      "Description": "Upgradable neutral capacity",
+      "Rank": 715,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "vero"
+  "Context": "dolores"
 }
 ```
 
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stark Group",
-    "Description": "Organized systemic moderator",
-    "Rank": 523,
+    "Name": "Quitzon Inc and Sons",
+    "Description": "Virtual assymetric application",
+    "Rank": 970,
     "Restrictions": [
       {
-        "Name": "Rolfson-Rice",
-        "Operator": "quod",
+        "Name": "D'Amore-Larkin",
+        "Operator": "libero",
         "Values": [
-          "consequatur",
-          "et"
+          "ea",
+          "non"
         ],
         "DisplayValues": [
-          "numquam",
-          "quia"
+          "fugiat",
+          "dolor"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 231,
+        "InterParenthesis": 118,
         "InterOperator": "And",
-        "UniqueHash": 482
+        "UniqueHash": 215
       }
     ]
   },
   {
-    "Name": "Stark Group",
-    "Description": "Organized systemic moderator",
-    "Rank": 523,
+    "Name": "Quitzon Inc and Sons",
+    "Description": "Virtual assymetric application",
+    "Rank": 970,
     "Restrictions": [
       {
-        "Name": "Rolfson-Rice",
-        "Operator": "quod",
+        "Name": "D'Amore-Larkin",
+        "Operator": "libero",
         "Values": [
-          "consequatur",
-          "et"
+          "ea",
+          "non"
         ],
         "DisplayValues": [
-          "numquam",
-          "quia"
+          "fugiat",
+          "dolor"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 231,
+        "InterParenthesis": 118,
         "InterOperator": "And",
-        "UniqueHash": 482
+        "UniqueHash": 215
       }
     ]
   }

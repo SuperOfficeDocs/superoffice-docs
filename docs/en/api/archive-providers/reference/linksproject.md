@@ -95,6 +95,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
 |projectAssociate/locationAddress|string|Location: Location| x |
+|projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |LastSale|date|Date of last sale|  |
 |LastCompletedSale|date|Date of last completed sale|  |
-|LastDoBySale|date|Date of last non-completed sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|LastDoBySale|date|Date of last non-completed sale|  |
 |SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
@@ -138,7 +139,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksProject?$select=registeredBy,projectEvent/hasSignOn,projectPublish/publishedTo
+GET /api/v1/archive/LinksProject?$select=projectEvent/eventDate,projectAssociate/title,NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

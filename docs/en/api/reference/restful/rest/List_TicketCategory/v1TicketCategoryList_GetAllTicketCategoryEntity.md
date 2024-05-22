@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 584,
-    "ParentId": 451,
-    "Name": "Kozey-Rolfson",
-    "Fullname": "ullam",
-    "CategoryMaster": 573,
+    "TicketCategoryId": 698,
+    "ParentId": 18,
+    "Name": "Bruen Inc and Sons",
+    "Fullname": "cum",
+    "CategoryMaster": 378,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bailey, Bergnaum and Effertz",
+    "ExternalName": "Watsica Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 391,
-    "ReplyTemplate": 540,
-    "NotificationEmail": "markus.lueilwitz@hermiston.uk",
+    "AssignmentLag": 337,
+    "ReplyTemplate": 380,
+    "NotificationEmail": "brittany@kertzmannmuller.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 445,
+    "EffectiveReplyTemplateId": 662,
     "ExtraFields": {
-      "ExtraFields1": "est",
-      "ExtraFields2": "occaecati"
+      "ExtraFields1": "provident",
+      "ExtraFields2": "ut"
     },
     "CustomFields": {
-      "CustomFields1": "molestiae",
-      "CustomFields2": "iusto"
+      "CustomFields1": "itaque",
+      "CustomFields2": "reprehenderit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 787
+        "FieldType": "System.Int32",
+        "FieldLength": 825
       }
     }
   }

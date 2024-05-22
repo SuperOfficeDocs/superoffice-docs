@@ -78,11 +78,12 @@ blah....
 |registered\_associate\_id/userName|string|Activated by - User name: User name| x |
 |registered\_associate\_id/personEmail|string|Activated by - E-mail| x |
 |registered\_associate\_id/locationAddress|string|Activated by - Location: Location| x |
+|registered\_associate\_id/isLocation|bool|Activated by - Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=registered_associate_id/lastName,registered_associate_id/associateDbId
+GET /api/v1/archive/SystemEvents?$select=registered_associate_id/lastName,registered_associate_id/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

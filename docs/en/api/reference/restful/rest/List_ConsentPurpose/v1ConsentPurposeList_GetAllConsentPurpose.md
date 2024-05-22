@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 650,
-    "Name": "Morissette LLC",
-    "ConsentText": "voluptatem",
-    "FormText": "et",
-    "Key": "magnam",
-    "Tooltip": "est",
-    "Active": 466,
-    "UpdatedDate": "2012-03-30T11:16:14.512052+02:00",
+    "ConsentPurposeId": 849,
+    "Name": "Pfeffer, Mertz and Thiel",
+    "ConsentText": "deleniti",
+    "FormText": "illo",
+    "Key": "ex",
+    "Tooltip": "voluptates",
+    "Active": 926,
+    "UpdatedDate": "2020-07-01T12:57:43.3552036+02:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 104,
-    "PrivacyStatementDesc": "aliquid",
+    "Deleted": false,
+    "Rank": 933,
+    "PrivacyStatementDesc": "occaecati",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

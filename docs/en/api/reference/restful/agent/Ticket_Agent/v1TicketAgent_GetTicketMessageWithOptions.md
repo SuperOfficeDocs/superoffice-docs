@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 147,
+  "TicketMessageEntityId": 167,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 94,
+  "EjMessageId": 442,
   "Ticket": null,
-  "CreatedAt": "2015-09-30T11:16:09.8509763+02:00",
+  "CreatedAt": "2003-05-26T12:57:35.0083152+02:00",
   "CreatedBy": null,
-  "Author": "facere",
+  "Author": "maiores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 198,
-  "Body": "ab",
-  "HtmlBody": "aliquid",
-  "EmailHeader": "ivory_barton@abbottgibson.uk",
-  "DebugInfo": "dolorum",
-  "MailSorter": "consectetur",
+  "MessageId": "nihil",
+  "TimeSpent": 236,
+  "Body": "doloribus",
+  "HtmlBody": "exercitationem",
+  "EmailHeader": "eino.tillman@kessler.uk",
+  "DebugInfo": "qui",
+  "MailSorter": "neque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 479,
-      "Name": "Hudson Group",
-      "Value": "error",
+      "Id": 79,
+      "Name": "Pouros Group",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 864
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "maiores",
-  "Sentiment": 463,
-  "SentimentConfidence": 674,
+  "Important": false,
+  "Language": "error",
+  "Sentiment": 94,
+  "SentimentConfidence": 811,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 532,
-      "Name": "Hansen, Lynch and D'Amore",
-      "ContentType": "ut",
-      "AttSize": 422,
+      "AttachmentId": 487,
+      "Name": "Bauch Group",
+      "ContentType": "ipsum",
+      "AttSize": 234,
       "InlineImage": true,
-      "ContentId": "unde",
-      "AuthKey": "facere",
-      "IsSafeFileExtension": true,
+      "ContentId": "consequatur",
+      "AuthKey": "suscipit",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 623
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "et"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "et"
+    "CustomFields1": "rem",
+    "CustomFields2": "temporibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 104
     }
   }
 }

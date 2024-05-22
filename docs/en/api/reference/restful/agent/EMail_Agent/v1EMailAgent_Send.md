@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "doloribus",
-      "HTMLBody": "reprehenderit",
+      "Subject": "inventore",
+      "HTMLBody": "quo",
       "From": null,
-      "Sent": "2019-12-27T11:16:09.1628538+01:00",
-      "Size": 317,
+      "Sent": "2001-10-23T12:57:33.8523907+02:00",
+      "Size": 694,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "repellendus",
-      "PlainBody": "molestias",
-      "IsSent": false,
+      "MessageID": "reprehenderit",
+      "PlainBody": "accusantium",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 214,
+      "ServerId": 339,
       "Attachments": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Koepp-Mueller",
-      "EmailItemId": 776,
-      "AccountId": 266,
-      "ReceivedAt": "2010-11-23T11:16:09.1628538+01:00",
+      "FolderName": "Jakubowski Inc and Sons",
+      "EmailItemId": 522,
+      "AccountId": 717,
+      "ReceivedAt": "2015-02-16T12:57:33.8523907+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2011-07-20T11:16:09.1628538+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2001-10-19T12:57:33.8523907+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -162,147 +162,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 617,
-        "ContactName": "Hirthe, Tromp and Schaefer",
-        "PersonId": 404,
-        "PersonName": "Farrell-O'Connell",
-        "AssociateId": 74,
-        "Address": "dolores",
-        "EmailId": 336,
+        "ContactId": 733,
+        "ContactName": "Toy, Schumm and D'Amore",
+        "PersonId": 273,
+        "PersonName": "Halvorson, Mohr and Moore",
+        "AssociateId": 266,
+        "Address": "cum",
+        "EmailId": 299,
         "DuplicatePersonIds": [
-          51,
-          217
+          834,
+          210
         ],
-        "Name": "Mitchell-Paucek",
+        "Name": "Green, Stokes and Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 835
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 86,
-        "ContactName": "Larkin-Beahan",
-        "PersonId": 801,
-        "PersonName": "Corkery Inc and Sons",
-        "AssociateId": 271,
-        "Address": "pariatur",
-        "EmailId": 832,
+        "ContactId": 724,
+        "ContactName": "Murray-Wyman",
+        "PersonId": 124,
+        "PersonName": "Russel-Waters",
+        "AssociateId": 579,
+        "Address": "eveniet",
+        "EmailId": 820,
         "DuplicatePersonIds": [
-          28,
-          27
+          124,
+          875
         ],
-        "Name": "Harris-Botsford",
+        "Name": "Jewess-Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 692
+            "FieldType": "System.Int32",
+            "FieldLength": 567
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 985,
-        "ContactName": "Hermann-Luettgen",
-        "PersonId": 139,
-        "PersonName": "Koelpin-Dickens",
-        "AssociateId": 467,
-        "Address": "harum",
-        "EmailId": 35,
+        "ContactId": 283,
+        "ContactName": "Schultz LLC",
+        "PersonId": 822,
+        "PersonName": "Flatley-Crooks",
+        "AssociateId": 198,
+        "Address": "dignissimos",
+        "EmailId": 747,
         "DuplicatePersonIds": [
-          870,
-          793
+          781,
+          117
         ],
-        "Name": "Rempel Inc and Sons",
+        "Name": "Durgan, Deckow and Jones",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldType": "System.String",
+            "FieldLength": 4
           }
         }
       }
     ],
-    "Subject": "doloribus",
-    "HTMLBody": "voluptate",
+    "Subject": "praesentium",
+    "HTMLBody": "dignissimos",
     "From": null,
-    "Sent": "2001-06-27T11:16:09.1628538+02:00",
-    "Size": 625,
+    "Sent": "2004-08-23T12:57:33.8523907+02:00",
+    "Size": 653,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "ut",
-    "PlainBody": "eveniet",
+    "MessageID": "odio",
+    "PlainBody": "nostrum",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 830,
+    "ServerId": 598,
     "Attachments": [
       {
-        "Description": "Quality-focused modular internet solution",
-        "Filename": "libero",
-        "Size": 109,
-        "Type": "enim",
-        "Encoding": "voluptate",
-        "Id": "facilis",
-        "Disposition": "illum",
+        "Description": "Decentralized web-enabled task-force",
+        "Filename": "ipsam",
+        "Size": 312,
+        "Type": "aut",
+        "Encoding": "laborum",
+        "Id": "consequatur",
+        "Disposition": "nesciunt",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 532
+            "FieldType": "System.String",
+            "FieldLength": 755
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Emmerich LLC",
+        "Name": "Collins Group",
         "Values": [
-          "id",
-          "voluptatem"
+          "qui",
+          "a"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 371
           }
         }
       },
       {
-        "Name": "Emmerich LLC",
+        "Name": "Collins Group",
         "Values": [
-          "id",
-          "voluptatem"
+          "qui",
+          "a"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 371
           }
         }
       }
     ],
-    "FolderName": "Gibson, Kreiger and Anderson",
-    "EmailItemId": 204,
-    "AccountId": 924,
-    "ReceivedAt": "2020-08-24T11:16:09.1628538+02:00",
+    "FolderName": "Gorczany LLC",
+    "EmailItemId": 99,
+    "AccountId": 724,
+    "ReceivedAt": "2019-12-23T12:57:33.8523907+01:00",
     "InReplyTo": null,
-    "RepliedAt": "1997-07-20T11:16:09.1628538+02:00",
+    "RepliedAt": "2005-08-21T12:57:33.8523907+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 324
       }
     }
   }

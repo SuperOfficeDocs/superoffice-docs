@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 317,
-  "Name": "Trantow Group",
-  "Tooltip": "natus",
-  "Deleted": true,
-  "Rank": 220,
-  "UdListDefinitionId": 914
+  "HeadingId": 601,
+  "Name": "Jakubowski-Davis",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 34,
+  "UdListDefinitionId": 790
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 1002,
-  "Name": "Mohr-Maggio",
-  "Tooltip": "temporibus",
+  "HeadingId": 510,
+  "Name": "Stoltenberg-Wiza",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 101,
-  "UdListDefinitionId": 70,
+  "Rank": 662,
+  "UdListDefinitionId": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 745
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

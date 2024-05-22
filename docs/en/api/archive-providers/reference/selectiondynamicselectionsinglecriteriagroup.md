@@ -77,11 +77,12 @@ Selection selection archive using the selectionId as criterionmapping.
 |selectionAssociate/userName|string|User name: User name| x |
 |selectionAssociate/personEmail|string|E-mail| x |
 |selectionAssociate/locationAddress|string|Location: Location| x |
+|selectionAssociate/isLocation|bool|Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=getNoRows,lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

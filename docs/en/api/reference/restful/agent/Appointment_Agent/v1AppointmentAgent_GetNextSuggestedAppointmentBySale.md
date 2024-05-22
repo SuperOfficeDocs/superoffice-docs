@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 220,
-  "CurrentAppointmentId": 48,
-  "SkipCompleteCheck": true
+  "SaleId": 743,
+  "CurrentAppointmentId": 743,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 932,
-  "Deleted": 354,
-  "DaysFuture": 27,
-  "Tooltip": "quam",
-  "Text": "modi",
-  "TaskId": 17,
-  "SuggestedAppointmentId": 907,
-  "SaleTypeStageLinkId": 825,
-  "RegisteredAssociateId": 148,
-  "Rank": 161,
-  "ProjectTypeStatusLinkId": 967,
-  "Name": "Kunde-Bradtke",
-  "Duration": 953,
+  "AutoSuggest": 420,
+  "Deleted": 76,
+  "DaysFuture": 814,
+  "Tooltip": "aut",
+  "Text": "pariatur",
+  "TaskId": 146,
+  "SuggestedAppointmentId": 308,
+  "SaleTypeStageLinkId": 7,
+  "RegisteredAssociateId": 824,
+  "Rank": 197,
+  "ProjectTypeStatusLinkId": 532,
+  "Name": "Lehner, Simonis and Farrell",
+  "Duration": 62,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 561
     }
   }
 }

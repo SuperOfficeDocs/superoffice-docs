@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Simonis-Steuber",
-  "DisplayName": "Kautzer-Oberbrunner",
-  "Description": "Extended transitional project",
-  "ShortLabel": "explicabo",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
+  "FieldName": "Hagenes LLC",
+  "DisplayName": "Langworth, Douglas and Von",
+  "Description": "Devolved explicit project",
+  "ShortLabel": "vitae",
+  "HideLabel": true,
+  "HideField": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": true,
+  "IsReadOnly": false,
+  "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 517,
-  "TemplateVariableName": "McClure Group"
+  "Rank": 326,
+  "TemplateVariableName": "Halvorson LLC"
 }
 ```

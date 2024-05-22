@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lakin, Maggio and Yundt",
-    "SaleDate": "2004-09-24T11:16:09.6846608+02:00",
-    "SaleId": 284,
-    "Probability": 346,
-    "Title": "voluptas",
-    "Amount": 3936.304,
-    "Currency": "minima",
-    "ProjectName": "Marvin, Bins and Leffler",
-    "AssociateFullName": "Brionna Gottlieb IV",
-    "Description": "Public-key methodical database",
+    "ContactName": "Predovic Group",
+    "SaleDate": "2020-03-28T12:57:34.8688339+01:00",
+    "SaleId": 982,
+    "Probability": 898,
+    "Title": "iusto",
+    "Amount": 27469.51,
+    "Currency": "placeat",
+    "ProjectName": "Feil-Schimmel",
+    "AssociateFullName": "Viviane O'Hara",
+    "Description": "Profit-focused actuating archive",
     "Status": "Lost",
-    "WeightedAmount": 20565.308,
-    "ProjectId": 459,
-    "EarningPercent": 16638.406,
-    "Earning": 12887.008,
-    "ContactId": 611,
-    "AssociateId": 473,
-    "PersonId": 896,
-    "SaleTypeId": 329,
-    "SaleTypeName": "Rath-Wilkinson",
-    "PersonFullName": "Dr. Arthur Schumm",
+    "WeightedAmount": 28660.43,
+    "ProjectId": 108,
+    "EarningPercent": 68.948,
+    "Earning": 11877.859999999999,
+    "ContactId": 330,
+    "AssociateId": 864,
+    "PersonId": 276,
+    "SaleTypeId": 826,
+    "SaleTypeName": "Roob, Hegmann and Rempel",
+    "PersonFullName": "Miss Katelynn Aufderhar",
     "Completed": "Completed",
-    "ActiveErpLinks": 16,
-    "NextDueDate": "1997-09-30T11:16:09.6846608+02:00",
-    "Number": "1112626",
+    "ActiveErpLinks": 609,
+    "NextDueDate": "1998-01-08T12:57:34.8688339+01:00",
+    "Number": "1155275",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldType": "System.Int32",
+        "FieldLength": 964
       }
     }
   }

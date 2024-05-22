@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kassulke, Nolan and Runte",
-    "Id": 391,
-    "Description": "Reverse-engineered system-worthy attitude",
-    "ExtraInfo": "beatae",
-    "LinkId": 887,
+    "EntityName": "Ankunding Group",
+    "Id": 710,
+    "Description": "Realigned 24 hour software",
+    "ExtraInfo": "ipsa",
+    "LinkId": 986,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 453
       }
     }
   }

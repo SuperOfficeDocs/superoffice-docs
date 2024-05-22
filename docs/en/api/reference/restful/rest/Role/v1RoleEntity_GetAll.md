@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=non
-GET /api/v1/Role?$top=290
-GET /api/v1/Role?$skip=835
+GET /api/v1/Role?$entities=adipisci
+GET /api/v1/Role?$top=928
+GET /api/v1/Role?$skip=360
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=aut
+GET /api/v1/Role?$context=ut
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequatur",
+  "odata.nextLink": "eaque",
   "value": [
     {
-      "PrimaryKey": 3554,
-      "EntityName": "person",
-      "personId": 3554,
-      "fullName": "Randal Reynolds"
+      "PrimaryKey": 4466,
+      "EntityName": "sale",
+      "saleId": 4466,
+      "contactId": 5708,
+      "name": "Wiegand, Brekke and Balistreri"
     },
     {
-      "PrimaryKey": 286,
-      "EntityName": "person",
-      "personId": 286,
-      "fullName": "Sigurd Lowe Jr."
+      "PrimaryKey": 9129,
+      "EntityName": "sale",
+      "saleId": 9129,
+      "contactId": 6079,
+      "name": "Hansen-Gusikowski"
     }
   ]
 }

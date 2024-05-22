@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Auer-Pfeffer",
-  "Tooltip": "at",
+  "Id": 101,
+  "Name": "Bailey Inc and Sons",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 131,
-  "Rank": 840,
+  "UdListDefinitionId": 308,
+  "Rank": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 353
     }
   }
 }

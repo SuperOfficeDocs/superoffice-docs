@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 418
+  "PersonId": 66
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 987,
-    "Name": "Weissnat Group",
-    "Description": "Advanced secondary hub",
+    "ProjectId": 791,
+    "Name": "Blanda-Tremblay",
+    "Description": "Upgradable demand-driven complexity",
     "URL": "http://www.example.com/",
-    "Type": "nihil",
-    "AssociateId": 865,
-    "AssociateFullName": "Marina Victoria Ferry DVM",
-    "TypeId": 732,
-    "Updated": "2016-06-10T11:16:09.569228+02:00",
-    "StatusId": 853,
-    "Status": "maiores",
-    "TextId": 894,
-    "PublishTo": "2014-12-23T11:16:09.569228+01:00",
-    "PublishFrom": "2005-01-17T11:16:09.569228+01:00",
-    "IsPublished": false,
+    "Type": "deserunt",
+    "AssociateId": 271,
+    "AssociateFullName": "Claudia Hermann Lang II",
+    "TypeId": 703,
+    "Updated": "2021-05-18T12:57:34.664705+02:00",
+    "StatusId": 325,
+    "Status": "expedita",
+    "TextId": 434,
+    "PublishTo": "2018-08-30T12:57:34.664705+02:00",
+    "PublishFrom": "2009-01-11T12:57:34.664705+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1146392",
-    "ActiveErpLinks": 137,
+    "ProjectNumber": "757802",
+    "ActiveErpLinks": 746,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

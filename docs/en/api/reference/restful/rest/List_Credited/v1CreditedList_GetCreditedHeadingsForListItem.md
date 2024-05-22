@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 834,
-    "Name": "Schultz Group",
-    "ToolTip": "Facilis porro cum culpa inventore.",
+    "Id": 236,
+    "Name": "Gislason-Abbott",
+    "ToolTip": "Est ratione occaecati similique esse quia ipsum dolore.",
     "Deleted": false,
-    "Rank": 853,
-    "Type": "ducimus",
-    "ColorBlock": 130,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2016-12-19T11:16:14.5432954+01:00",
+    "Rank": 207,
+    "Type": "qui",
+    "ColorBlock": 853,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "1997-03-28T12:57:43.4176894+01:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Conn, Hartmann and Haag",
-        "ToolTip": "Mollitia cumque vel ea eos itaque.",
-        "Deleted": false,
-        "Rank": 283,
-        "Type": "temporibus",
-        "ColorBlock": 159,
-        "IconHint": "corporis",
-        "Selected": false,
-        "LastChanged": "2000-11-13T11:16:14.5432954+01:00",
+        "Id": 419,
+        "Name": "Marvin LLC",
+        "ToolTip": "Recusandae excepturi tenetur aut voluptatem.",
+        "Deleted": true,
+        "Rank": 907,
+        "Type": "consectetur",
+        "ColorBlock": 901,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2007-11-27T12:57:43.4176894+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "non",
+        "ExtraInfo": "qui",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Quinton Domenic Dicki V",
+        "FullName": "Colleen O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 378
+            "FieldLength": 893
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "qui",
+    "StyleHint": "atque",
     "Hidden": true,
-    "FullName": "Benny Christiansen",
+    "FullName": "Sidney Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 990
+        "FieldLength": 494
       }
     }
   }

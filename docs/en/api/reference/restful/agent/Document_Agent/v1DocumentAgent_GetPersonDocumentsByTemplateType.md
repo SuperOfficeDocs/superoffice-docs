@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 879,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2002-05-11T11:16:09.0691155+02:00",
-  "EndTime": "1997-12-20T11:16:09.0691155+01:00",
-  "Count": 464,
-  "DocumentTemplateId": 378
+  "PersonId": 159,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2005-10-29T12:57:33.7117979+02:00",
+  "EndTime": "2023-10-20T12:57:33.7117979+02:00",
+  "Count": 783,
+  "DocumentTemplateId": 202
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 575,
-    "Attention": "architecto",
-    "Header": "iste",
-    "Name": "Kessler, Bauch and Prohaska",
-    "OurRef": "impedit",
-    "YourRef": "aut",
-    "Description": "Persevering executive access",
-    "DocumentTemplate": "sequi",
-    "IsPublished": false,
-    "PersonId": 223,
-    "PersonFullName": "Dr. Alia Schuppe PhD",
-    "AssociateFullName": "Andrew Schultz",
-    "ContactId": 379,
-    "ContactName": "Howe, Blick and Miller",
-    "ProjectId": 856,
-    "ProjectName": "Lebsack-Harvey",
-    "AssociateId": 623,
-    "Snum": 137,
-    "SaleId": 259,
-    "SaleName": "Cartwright-Heller",
+    "DocumentId": 963,
+    "Attention": "dolorum",
+    "Header": "nesciunt",
+    "Name": "Feest, Braun and Conroy",
+    "OurRef": "ullam",
+    "YourRef": "dolores",
+    "Description": "Progressive local Graphic Interface",
+    "DocumentTemplate": "occaecati",
+    "IsPublished": true,
+    "PersonId": 351,
+    "PersonFullName": "Mrs. Ken Corkery",
+    "AssociateFullName": "Shanie Labadie",
+    "ContactId": 739,
+    "ContactName": "Ratke-Hirthe",
+    "ProjectId": 701,
+    "ProjectName": "Ratke Group",
+    "AssociateId": 657,
+    "Snum": 283,
+    "SaleId": 509,
+    "SaleName": "Botsford-Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldLength": 877
       }
     }
   }

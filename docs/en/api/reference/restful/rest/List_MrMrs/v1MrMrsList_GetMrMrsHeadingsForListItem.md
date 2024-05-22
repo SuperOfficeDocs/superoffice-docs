@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Haley-Bayer",
-    "ToolTip": "Cumque et.",
+    "Id": 822,
+    "Name": "Murphy-Denesik",
+    "ToolTip": "Autem et libero.",
     "Deleted": false,
-    "Rank": 984,
-    "Type": "suscipit",
-    "ColorBlock": 675,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2011-10-28T11:16:14.5901626+02:00",
+    "Rank": 439,
+    "Type": "ea",
+    "ColorBlock": 768,
+    "IconHint": "tenetur",
+    "Selected": true,
+    "LastChanged": "2008-12-22T12:57:43.5114182+01:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Schmitt-Parker",
-        "ToolTip": "Aut corrupti provident hic vitae porro.",
+        "Id": 763,
+        "Name": "Jacobi, Bergnaum and Kris",
+        "ToolTip": "Qui nam.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "nisi",
-        "ColorBlock": 611,
-        "IconHint": "rem",
+        "Rank": 37,
+        "Type": "distinctio",
+        "ColorBlock": 806,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2007-08-23T11:16:14.5901626+02:00",
+        "LastChanged": "2001-10-21T12:57:43.5114182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "vitae",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Minerva Schamberger",
+        "FullName": "Selmer O'Connell IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 161
+            "FieldLength": 452
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "sequi",
+    "ExtraInfo": "fugit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Jayne Robel",
+    "FullName": "Vernie Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldLength": 542
       }
     }
   }

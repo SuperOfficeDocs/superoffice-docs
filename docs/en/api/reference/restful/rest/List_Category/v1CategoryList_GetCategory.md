@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 92,
-  "Name": "Grady-Legros",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 89,
-  "Rank": 977,
+  "Id": 817,
+  "Name": "Mills-Blick",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "UdListDefinitionId": 649,
+  "Rank": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   }
 }

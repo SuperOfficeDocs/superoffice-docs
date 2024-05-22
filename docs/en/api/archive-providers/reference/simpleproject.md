@@ -86,6 +86,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectAssociate/userName|string|User name: User name| x |
 |projectAssociate/personEmail|string|E-mail| x |
 |projectAssociate/locationAddress|string|Location: Location| x |
+|projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectUdef/SuperOffice:3|int|projectnumber| x |
@@ -118,17 +119,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
-|project/textId|int|Text ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/textId|int|Text ID| x |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleProject?$select=projectAssociate/associateDbId,projectAssociate/isActive,projectUrl/URLAddress
+GET /api/v1/archive/SimpleProject?$select=projectAssociate/firstName,projectUrl/URLAddress,projectAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

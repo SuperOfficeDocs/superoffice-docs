@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "Kling, Pfannerstill and O'Kon",
-    "ToolTip": "Dolorum voluptatibus voluptate ut nesciunt sequi quam quam.",
+    "Id": 609,
+    "Name": "Ratke Inc and Sons",
+    "ToolTip": "Et sint cum est doloribus repellat.",
     "Deleted": false,
-    "Rank": 177,
-    "Type": "quo",
-    "ColorBlock": 762,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2003-03-25T11:16:14.699531+01:00",
+    "Rank": 405,
+    "Type": "aut",
+    "ColorBlock": 9,
+    "IconHint": "fuga",
+    "Selected": false,
+    "LastChanged": "2007-09-14T12:57:43.6988788+02:00",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Considine-Effertz",
-        "ToolTip": "Odit aut aut non natus in.",
-        "Deleted": false,
-        "Rank": 718,
-        "Type": "amet",
-        "ColorBlock": 724,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2012-10-13T11:16:14.699531+02:00",
+        "Id": 697,
+        "Name": "Glover Group",
+        "ToolTip": "Nemo pariatur ipsam id rem.",
+        "Deleted": true,
+        "Rank": 399,
+        "Type": "eum",
+        "ColorBlock": 883,
+        "IconHint": "harum",
+        "Selected": true,
+        "LastChanged": "1997-09-23T12:57:43.6988788+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "fuga",
+        "ExtraInfo": "nam",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Nick Ortiz DDS"
+        "FullName": "Viva Ruecker"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Nash Anderson"
+    "ExtraInfo": "id",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Brandyn Johnston"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "McClure Group",
-    "ToolTip": "Accusantium cum possimus et.",
-    "Deleted": false,
-    "Rank": 696,
-    "Type": "adipisci",
-    "ColorBlock": 197,
-    "IconHint": "quam",
+    "Id": 782,
+    "Name": "Hansen, O'Kon and Russel",
+    "ToolTip": "Laboriosam et qui.",
+    "Deleted": true,
+    "Rank": 848,
+    "Type": "occaecati",
+    "ColorBlock": 778,
+    "IconHint": "nihil",
     "Selected": true,
-    "LastChanged": "2018-07-24T11:16:14.699531+02:00",
+    "LastChanged": "2003-01-04T12:57:43.6988788+01:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Gutkowski, Crona and Beer",
-        "ToolTip": "Voluptates illum omnis quis accusamus.",
-        "Deleted": false,
-        "Rank": 8,
-        "Type": "minima",
-        "ColorBlock": 778,
-        "IconHint": "voluptatibus",
+        "Id": 116,
+        "Name": "Jakubowski-Hickle",
+        "ToolTip": "Rerum corporis.",
+        "Deleted": true,
+        "Rank": 156,
+        "Type": "molestias",
+        "ColorBlock": 892,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "2001-07-28T11:16:14.699531+02:00",
+        "LastChanged": "2023-10-21T12:57:43.6988788+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "esse",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Mr. Misael Jensen Pacocha Sr.",
+        "FullName": "Khalil Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 606
+            "FieldType": "System.Int32",
+            "FieldLength": 443
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Robert Addison Herman II",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Colten Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 413
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Kemmer Inc and Sons",
-    "ToolTip": "Voluptatem amet voluptate.",
-    "Deleted": true,
-    "Rank": 768,
-    "Type": "aspernatur",
-    "ColorBlock": 473,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2001-09-20T11:16:14.6214085+02:00",
+    "Id": 675,
+    "Name": "Lakin LLC",
+    "ToolTip": "Nobis eum voluptates.",
+    "Deleted": false,
+    "Rank": 973,
+    "Type": "inventore",
+    "ColorBlock": 730,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2009-08-21T12:57:43.5582822+02:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "King, Bernhard and Feest",
-        "ToolTip": "In eos.",
+        "Id": 747,
+        "Name": "Gleichner, Herman and O'Hara",
+        "ToolTip": "Quam tempore.",
         "Deleted": false,
-        "Rank": 279,
-        "Type": "dolor",
-        "ColorBlock": 998,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2001-05-24T11:16:14.6214085+02:00",
+        "Rank": 131,
+        "Type": "maxime",
+        "ColorBlock": 410,
+        "IconHint": "soluta",
+        "Selected": false,
+        "LastChanged": "2006-03-23T12:57:43.5582822+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "labore",
-        "Hidden": true,
-        "FullName": "Arlo Botsford",
+        "ExtraInfo": "qui",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Ferne Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 411
+            "FieldLength": 781
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Berry Claud Turcotte IV",
+    "ExtraInfo": "optio",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Hugh Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 660
       }
     }
   }

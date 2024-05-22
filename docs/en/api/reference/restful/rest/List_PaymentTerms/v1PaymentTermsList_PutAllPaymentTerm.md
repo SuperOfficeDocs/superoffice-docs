@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Schamberger-Homenick",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "UdListDefinitionId": 742,
-    "Rank": 525
+    "Id": 39,
+    "Name": "Hessel LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 550,
+    "Rank": 767
   },
   {
-    "Id": 574,
-    "Name": "Schamberger-Homenick",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "UdListDefinitionId": 742,
-    "Rank": 525
+    "Id": 39,
+    "Name": "Hessel LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 550,
+    "Rank": 767
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Rempel Group",
-    "Tooltip": "dignissimos",
+    "Id": 113,
+    "Name": "West-Fadel",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "UdListDefinitionId": 121,
-    "Rank": 550,
+    "UdListDefinitionId": 728,
+    "Rank": 438,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 994
       }
     }
   }

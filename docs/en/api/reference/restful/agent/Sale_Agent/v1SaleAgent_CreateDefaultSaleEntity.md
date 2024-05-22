@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "exercitationem",
+  "SaleText": "ducimus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-01-28T11:16:09.6473837+01:00",
-  "Amount": 19390.058,
-  "SaleId": 279,
-  "Earning": 24570.559999999998,
-  "EarningPercent": 18509.404,
-  "Heading": "quaerat",
-  "Number": "1163189",
-  "Probability": 476,
-  "CreatedDate": "2014-08-06T11:16:09.6473837+02:00",
-  "UpdatedDate": "2005-03-05T11:16:09.6473837+01:00",
+  "Saledate": "2022-05-25T12:57:34.805298+02:00",
+  "Amount": 16071.152,
+  "SaleId": 40,
+  "Earning": 10498.9,
+  "EarningPercent": 28340.762,
+  "Heading": "maxime",
+  "Number": "1426122",
+  "Probability": 819,
+  "CreatedDate": "2009-06-04T12:57:34.805298+02:00",
+  "UpdatedDate": "2022-07-01T12:57:34.805298+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 647,
+  "ActiveLinks": 721,
   "Links": [
     {
-      "EntityName": "Schimmel LLC",
-      "Id": 721,
-      "Description": "Monitored zero tolerance forecast",
-      "ExtraInfo": "totam",
-      "LinkId": 952,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 159
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2003-02-19T11:16:09.6473837+01:00",
-  "Postit": "sint",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2012-02-24T11:16:09.6473837+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Murazik, Ankunding and Strosin",
-      "Comment": "facere",
-      "StakeholderRoleId": 410,
-      "CountryId": 786,
-      "PersonId": 973,
-      "EmailDescription": "felipa_schultz@larkincruickshank.com",
-      "EmailId": 435,
-      "EmailAddress": "eusebio_parisian@parker.biz",
-      "PhoneId": 50,
-      "ContactName": "Stracke, Kling and Konopelski",
-      "ContactId": 180,
-      "SaleId": 560,
-      "Mrmrs": "beatae",
-      "Firstname": "Vidal",
-      "MiddleName": "Casper, Feil and Robel",
-      "Lastname": "McDermott",
-      "SaleStakeholderId": 965,
-      "Rank": 628,
-      "Phone": "897-210-1711 x9070",
+      "EntityName": "Lehner-Hoeger",
+      "Id": 658,
+      "Description": "Profound coherent system engine",
+      "ExtraInfo": "vel",
+      "LinkId": 954,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 56
+          "FieldLength": 746
         }
       }
     }
   ],
-  "ActiveErpLinks": 691,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "150720673"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "impedit"
-  },
-  "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "ratione"
-  },
-  "PublishEventDate": "2022-06-17T11:16:09.6473837+02:00",
-  "PublishTo": "2010-06-22T11:16:09.6473837+02:00",
-  "PublishFrom": "2007-08-19T11:16:09.6473837+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2001-04-15T12:57:34.805298+02:00",
+  "Postit": "ipsam",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2004-07-28T12:57:34.805298+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 84,
-      "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "StakeholderRoleName": "Barrows, Pouros and Hagenes",
+      "Comment": "quo",
+      "StakeholderRoleId": 634,
+      "CountryId": 51,
+      "PersonId": 508,
+      "EmailDescription": "coy@krajcikkohler.ca",
+      "EmailId": 915,
+      "EmailAddress": "alanis@medhurstmurazik.biz",
+      "PhoneId": 530,
+      "ContactName": "Ferry, Little and Medhurst",
+      "ContactId": 933,
+      "SaleId": 866,
+      "Mrmrs": "placeat",
+      "Firstname": "Brando",
+      "MiddleName": "Marvin, Dare and Bernhard",
+      "Lastname": "Kunze",
+      "SaleStakeholderId": 373,
+      "Rank": 923,
+      "Phone": "1-023-553-7053 x994",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 540
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 395,
+  "UserDefinedFields": {
+    "SuperOffice:1": "768958872",
+    "SuperOffice:2": "Ms. Enrico Cummerata"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "recusandae"
+  },
+  "CustomFields": {
+    "CustomFields1": "eligendi",
+    "CustomFields2": "iure"
+  },
+  "PublishEventDate": "2008-02-25T12:57:34.805298+01:00",
+  "PublishTo": "2011-07-24T12:57:34.805298+02:00",
+  "PublishFrom": "2011-09-09T12:57:34.805298+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 52,
+      "Visibility": "All",
+      "DisplayValue": "consequatur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 682
         }
       }
     },
     {
-      "VisibleId": 84,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 682
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 833
     }
   }
 }

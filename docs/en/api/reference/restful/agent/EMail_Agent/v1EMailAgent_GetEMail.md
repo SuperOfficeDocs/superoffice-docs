@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
+  "Id": 321,
   "IncludeAttachments": false
 }
 ```
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 135,
-      "ContactName": "Smitham-Collins",
-      "PersonId": 38,
-      "PersonName": "Harvey Group",
-      "AssociateId": 801,
-      "Address": "minima",
-      "EmailId": 465,
+      "ContactId": 335,
+      "ContactName": "Brekke LLC",
+      "PersonId": 102,
+      "PersonName": "Bogisich-Hoeger",
+      "AssociateId": 812,
+      "Address": "autem",
+      "EmailId": 672,
       "DuplicatePersonIds": [
-        531,
-        783
+        652,
+        540
       ],
-      "Name": "Dibbert Group",
+      "Name": "Carter-Harris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldLength": 936
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 668,
-      "ContactName": "Hegmann, Ullrich and Kutch",
-      "PersonId": 373,
-      "PersonName": "Zulauf-Glover",
-      "AssociateId": 766,
-      "Address": "ut",
-      "EmailId": 216,
+      "ContactId": 828,
+      "ContactName": "Raynor, Kiehn and Feest",
+      "PersonId": 739,
+      "PersonName": "Ullrich, Pacocha and Hand",
+      "AssociateId": 671,
+      "Address": "nam",
+      "EmailId": 281,
       "DuplicatePersonIds": [
-        999,
-        792
+        47,
+        588
       ],
-      "Name": "Dach-Stoltenberg",
+      "Name": "Hills Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldLength": 829
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 1001,
-      "ContactName": "Murazik, Braun and Rice",
-      "PersonId": 915,
-      "PersonName": "Hayes, Hartmann and Zieme",
-      "AssociateId": 808,
-      "Address": "qui",
-      "EmailId": 27,
+      "ContactId": 827,
+      "ContactName": "Langworth Group",
+      "PersonId": 794,
+      "PersonName": "Lubowitz-Abernathy",
+      "AssociateId": 651,
+      "Address": "ipsa",
+      "EmailId": 218,
       "DuplicatePersonIds": [
-        26,
-        140
+        266,
+        558
       ],
-      "Name": "Fadel, Wiegand and Nitzsche",
+      "Name": "Beer-Schamberger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 609
         }
       }
     }
   ],
-  "Subject": "in",
-  "HTMLBody": "est",
+  "Subject": "eos",
+  "HTMLBody": "reprehenderit",
   "From": null,
-  "Sent": "2000-06-16T11:16:09.2409738+02:00",
-  "Size": 840,
+  "Sent": "2016-11-13T12:57:33.9773902+01:00",
+  "Size": 488,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quibusdam",
-  "PlainBody": "est",
+  "MessageID": "repellat",
+  "PlainBody": "aliquam",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 25,
+  "ServerId": 717,
   "Attachments": [
     {
-      "Description": "Reduced mobile project",
-      "Filename": "rerum",
-      "Size": 877,
-      "Type": "qui",
-      "Encoding": "a",
-      "Id": "cupiditate",
-      "Disposition": "quam",
+      "Description": "Profit-focused zero defect leverage",
+      "Filename": "reprehenderit",
+      "Size": 435,
+      "Type": "enim",
+      "Encoding": "qui",
+      "Id": "sequi",
+      "Disposition": "beatae",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldType": "System.String",
+          "FieldLength": 918
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Buckridge, Ryan and Ruecker",
+      "Name": "Collins Inc and Sons",
       "Values": [
-        "odit",
-        "sapiente"
+        "est",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 817
         }
       }
     },
     {
-      "Name": "Buckridge, Ryan and Ruecker",
+      "Name": "Collins Inc and Sons",
       "Values": [
-        "odit",
-        "sapiente"
+        "est",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 817
         }
       }
     }
   ],
-  "FolderName": "Lebsack-Nikolaus",
-  "EmailItemId": 143,
-  "AccountId": 671,
-  "ReceivedAt": "2010-01-09T11:16:09.2409738+01:00",
+  "FolderName": "Nicolas, Barrows and Thiel",
+  "EmailItemId": 240,
+  "AccountId": 453,
+  "ReceivedAt": "1997-10-06T12:57:33.9773902+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-12-29T11:16:09.2409738+01:00",
+  "RepliedAt": "2008-12-16T12:57:33.9773902+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 805
     }
   }
 }

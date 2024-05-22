@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 73,
-  "Name": "Blick-Eichmann",
-  "Tooltip": "expedita",
-  "Rank": 860,
-  "Key": "praesentium",
-  "MailTemplateId": 701,
+  "ConsentSourceId": 316,
+  "Name": "Pfannerstill-Becker",
+  "Tooltip": "nesciunt",
+  "Rank": 952,
+  "Key": "id",
+  "MailTemplateId": 350,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldType": "System.String",
+      "FieldLength": 162
     }
   }
 }

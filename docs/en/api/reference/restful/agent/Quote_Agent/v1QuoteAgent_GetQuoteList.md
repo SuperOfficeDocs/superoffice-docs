@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "qui"
+  "QuoteListType": "et"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "deserunt",
-    "DisplayValue": "sed",
-    "DisplayDescription": "Advanced holistic attitude",
+    "ERPQuoteListItemKey": "nemo",
+    "DisplayValue": "et",
+    "DisplayDescription": "Horizontal methodical product",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 324
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "deserunt",
-    "DisplayValue": "sed",
-    "DisplayDescription": "Advanced holistic attitude",
+    "ERPQuoteListItemKey": "nemo",
+    "DisplayValue": "et",
+    "DisplayDescription": "Horizontal methodical product",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 324
       }
     }
   }

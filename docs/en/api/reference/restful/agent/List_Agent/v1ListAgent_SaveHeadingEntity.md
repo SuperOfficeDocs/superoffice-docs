@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 208,
-  "Name": "Weimann LLC",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 895,
-  "UdListDefinitionId": 417
+  "HeadingId": 318,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 186,
+  "UdListDefinitionId": 140
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 699,
-  "Name": "Hahn Inc and Sons",
-  "Tooltip": "perspiciatis",
+  "HeadingId": 727,
+  "Name": "Konopelski Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 670,
-  "UdListDefinitionId": 911,
+  "Rank": 161,
+  "UdListDefinitionId": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 685
     }
   }
 }

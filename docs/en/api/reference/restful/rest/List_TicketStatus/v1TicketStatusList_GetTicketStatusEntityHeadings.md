@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 478,
-    "Name": "Kuhn LLC",
+    "HeadingId": 538,
+    "Name": "Nader, Jewess and Rowe",
     "Tooltip": "praesentium",
     "Deleted": true,
-    "Rank": 128,
-    "UdListDefinitionId": 678,
+    "Rank": 598,
+    "UdListDefinitionId": 818,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldType": "System.Int32",
+        "FieldLength": 88
       }
     }
   }

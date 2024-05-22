@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aut",
+  "RawValue": "animi",
   "Specification": null,
-  "DisplayValue": "sit",
-  "DisplayTooltip": "reiciendis",
+  "DisplayValue": "minima",
+  "DisplayTooltip": "dolor",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 627,
-  "PrefDescId": 395,
-  "TableName": "Johnston-Kutch",
-  "UserPreferenceId": 68
+  "TargetId": 581,
+  "PrefDescId": 527,
+  "TableName": "Goldner-Haley",
+  "UserPreferenceId": 720
 }
 ```
 

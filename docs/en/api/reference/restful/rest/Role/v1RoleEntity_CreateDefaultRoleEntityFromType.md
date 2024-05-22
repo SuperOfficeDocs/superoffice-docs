@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 530,
-  "Name": "Wilderman, Tromp and Zemlak",
-  "Tooltip": "corporis",
+  "RoleId": 976,
+  "Name": "Kassulke-Larkin",
+  "Tooltip": "facilis",
   "RoleType": "Anonymous",
-  "Deleted": 967,
-  "Rank": 719,
-  "Created": "2023-07-24T11:16:14.1363143+02:00",
-  "UseCategories": 557,
+  "Deleted": 1001,
+  "Rank": 740,
+  "Created": "2018-11-22T12:57:42.6669559+01:00",
+  "UseCategories": 749,
   "CreatedBy": null,
-  "Updated": "2002-01-14T11:16:14.1363143+01:00",
+  "Updated": "2015-01-11T12:57:42.6669559+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldType": "System.Int32",
+      "FieldLength": 114
     }
   }
 }

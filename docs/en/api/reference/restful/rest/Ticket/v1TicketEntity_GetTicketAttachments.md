@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 109,
-    "Name": "Turner-Treutel",
-    "ContentType": "aspernatur",
-    "AttSize": 8,
-    "InlineImage": false,
-    "ContentId": "nisi",
-    "AuthKey": "quasi",
+    "AttachmentId": 709,
+    "Name": "Emmerich, Lindgren and Will",
+    "ContentType": "praesentium",
+    "AttSize": 489,
+    "InlineImage": true,
+    "ContentId": "est",
+    "AuthKey": "et",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldType": "System.Int32",
+        "FieldLength": 452
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 66
+  "ContactId": 291
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 26156.363999999998,
-  "Wgs84Longitude": 29584.96,
+  "Wgs84Latitude": 24015.842,
+  "Wgs84Longitude": 17575.471999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bode Inc and Sons",
-        "Value": "ratione",
-        "Tooltip": "et",
-        "Label": "ad",
-        "ValueLength": 983,
-        "AddressType": "quam",
+        "Name": "Abbott Group",
+        "Value": "nisi",
+        "Tooltip": "illo",
+        "Label": "soluta",
+        "ValueLength": 916,
+        "AddressType": "unde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 847
           }
         }
       }
     ],
     [
       {
-        "Name": "Heaney LLC",
-        "Value": "magnam",
-        "Tooltip": "ab",
-        "Label": "qui",
-        "ValueLength": 527,
-        "AddressType": "ut",
+        "Name": "Lehner-Fritsch",
+        "Value": "aperiam",
+        "Tooltip": "porro",
+        "Label": "numquam",
+        "ValueLength": 142,
+        "AddressType": "unde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 280
+            "FieldType": "System.String",
+            "FieldLength": 946
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "beatae",
+  "Formatted": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 374
     }
   }
 }

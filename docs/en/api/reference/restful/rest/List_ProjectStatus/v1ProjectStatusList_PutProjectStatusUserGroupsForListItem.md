@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Hamill, Schiller and Auer",
-    "ToolTip": "Quo sed recusandae inventore.",
-    "Deleted": true,
-    "Rank": 55,
-    "Type": "culpa",
-    "ColorBlock": 599,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "2023-06-18T11:16:14.6526601+02:00",
+    "Id": 288,
+    "Name": "Brekke-O'Keefe",
+    "ToolTip": "Ipsa consectetur quia facilis veritatis.",
+    "Deleted": false,
+    "Rank": 554,
+    "Type": "id",
+    "ColorBlock": 944,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2004-12-03T12:57:43.6207681+01:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Davis-Jenkins",
-        "ToolTip": "Quis ut ea ex.",
-        "Deleted": false,
-        "Rank": 897,
-        "Type": "rerum",
-        "ColorBlock": 736,
-        "IconHint": "dicta",
-        "Selected": true,
-        "LastChanged": "2004-10-03T11:16:14.6526601+02:00",
+        "Id": 645,
+        "Name": "Gutkowski LLC",
+        "ToolTip": "Accusamus culpa aut nihil neque labore.",
+        "Deleted": true,
+        "Rank": 745,
+        "Type": "illum",
+        "ColorBlock": 731,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2000-01-26T12:57:43.6207681+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "assumenda",
-        "Hidden": false,
-        "FullName": "Edwina Kovacek"
+        "ExtraInfo": "dolores",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Ms. Reba Litzy Doyle Jr."
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Sadye Wilkinson"
+    "ExtraInfo": "est",
+    "StyleHint": "reprehenderit",
+    "Hidden": true,
+    "FullName": "Liam Weissnat"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Sanford, Nicolas and Bergstrom",
-    "ToolTip": "Fugit nostrum modi quas porro.",
+    "Id": 584,
+    "Name": "Nolan Group",
+    "ToolTip": "Accusamus accusantium.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "molestiae",
-    "ColorBlock": 781,
-    "IconHint": "eius",
+    "Rank": 955,
+    "Type": "quasi",
+    "ColorBlock": 411,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2010-11-23T11:16:14.668281+01:00",
+    "LastChanged": "2013-03-26T12:57:43.6207681+01:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Yundt, Rau and Torp",
-        "ToolTip": "Ea eos est voluptatibus voluptatibus quia molestias.",
+        "Id": 27,
+        "Name": "Dickens-Wunsch",
+        "ToolTip": "Dolore optio est incidunt maxime rerum eligendi.",
         "Deleted": false,
-        "Rank": 188,
-        "Type": "et",
-        "ColorBlock": 14,
-        "IconHint": "perspiciatis",
+        "Rank": 306,
+        "Type": "quis",
+        "ColorBlock": 45,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2008-04-20T11:16:14.668281+02:00",
+        "LastChanged": "2023-05-09T12:57:43.6207681+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "qui",
+        "StyleHint": "odio",
         "Hidden": true,
-        "FullName": "Miss Jessy Hermiston",
+        "FullName": "Ms. Amber Parker V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "dolor",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Henriette Mayer",
+    "FullName": "Dr. Kaelyn Damaris O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

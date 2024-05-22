@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 879,
-    "Name": "Farrell, Ruecker and Bradtke",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "Rank": 913,
-    "UdListDefinitionId": 594
+    "HeadingId": 705,
+    "Name": "Lehner, Pouros and Stanton",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 843,
+    "UdListDefinitionId": 633
   },
   {
-    "HeadingId": 879,
-    "Name": "Farrell, Ruecker and Bradtke",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "Rank": 913,
-    "UdListDefinitionId": 594
+    "HeadingId": 705,
+    "Name": "Lehner, Pouros and Stanton",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 843,
+    "UdListDefinitionId": 633
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 307,
-    "Name": "Goldner, Pfeffer and Kuphal",
-    "Tooltip": "dignissimos",
-    "Deleted": true,
-    "Rank": 448,
-    "UdListDefinitionId": 785,
+    "HeadingId": 549,
+    "Name": "Windler, Upton and Bruen",
+    "Tooltip": "reiciendis",
+    "Deleted": false,
+    "Rank": 241,
+    "UdListDefinitionId": 5,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 338
       }
     }
   }

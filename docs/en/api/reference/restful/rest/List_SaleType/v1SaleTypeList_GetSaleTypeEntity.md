@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 112,
-  "Name": "Kilback Group",
-  "Tooltip": "aperiam",
-  "Rank": 927,
+  "SaleTypeId": 976,
+  "Name": "Metz-Bernhard",
+  "Tooltip": "est",
+  "Rank": 720,
   "DurationUnit": "Century",
-  "SaleDuration": 468,
-  "SaleTypeCatId": 951,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "SaleDuration": 703,
+  "SaleTypeCatId": 721,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 976,
-  "QuoteLinesTemplate": 483,
-  "ConfirmationLinesTemplate": 636,
+  "DefaultQuoteValidity": 955,
+  "QuoteLinesTemplate": 216,
+  "ConfirmationLinesTemplate": 557,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 17,
-  "MinEarningPercent": 368,
-  "GroupQuoteLinesBy": 338,
-  "SortGroupLinesBy": 452,
+  "MaxDiscountPercent": 521,
+  "MinEarningPercent": 340,
+  "GroupQuoteLinesBy": 604,
+  "SortGroupLinesBy": 583,
   "Stages": [
     {
-      "Id": 384,
-      "Name": "Leuschke-Champlin",
-      "ToolTip": "Et omnis aperiam recusandae perspiciatis nesciunt quas non.",
-      "Deleted": false,
-      "Rank": 330,
-      "Type": "aut",
-      "ColorBlock": 826,
-      "IconHint": "excepturi",
-      "Selected": true,
-      "LastChanged": "2008-03-25T11:16:14.7307772+01:00",
+      "Id": 343,
+      "Name": "Rowe-Stark",
+      "ToolTip": "Aperiam soluta quia sint.",
+      "Deleted": true,
+      "Rank": 260,
+      "Type": "tempora",
+      "ColorBlock": 653,
+      "IconHint": "porro",
+      "Selected": false,
+      "LastChanged": "2022-04-03T12:57:43.7457393+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "occaecati",
+      "ExtraInfo": "est",
+      "StyleHint": "quam",
       "Hidden": false,
-      "FullName": "Jedidiah Christiansen DVM",
+      "FullName": "Maximilian Vandervort",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 138
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 60
     }
   }
 }

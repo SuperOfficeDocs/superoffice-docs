@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=omnis
-GET /api/v1/Pricelist?$top=195
-GET /api/v1/Pricelist?$skip=815
+GET /api/v1/Pricelist?$entities=sit
+GET /api/v1/Pricelist?$top=878
+GET /api/v1/Pricelist?$skip=35
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=rerum
+GET /api/v1/Pricelist?$context=nihil
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "veniam",
+  "odata.nextLink": "autem",
   "value": [
     {
-      "PrimaryKey": 9619,
-      "EntityName": "person",
-      "personId": 9619,
-      "fullName": "Mrs. Gladys Tabitha Schmidt V"
+      "PrimaryKey": 8865,
+      "EntityName": "sale",
+      "saleId": 8865,
+      "contactId": 506,
+      "name": "Wiza-Kulas"
     },
     {
-      "PrimaryKey": 3706,
-      "EntityName": "person",
-      "personId": 3706,
-      "fullName": "Mrs. Maximo Rowe"
+      "PrimaryKey": 1356,
+      "EntityName": "sale",
+      "saleId": 1356,
+      "contactId": 4301,
+      "name": "Hartmann, McLaughlin and Kautzer"
     }
   ]
 }

@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifier": [
-    "animi",
-    "autem"
+    "sint",
+    "aut"
   ]
 }
 ```

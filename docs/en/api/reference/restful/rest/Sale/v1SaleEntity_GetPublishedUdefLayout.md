@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 62,
-    "ColumnId": 647,
-    "FieldDefault": "quia",
-    "FieldHeight": 251,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 859,
-    "FieldTop": 135,
+    "UDefFieldId": 533,
+    "ColumnId": 577,
+    "FieldDefault": "sapiente",
+    "FieldHeight": 260,
+    "FieldLabel": "dicta",
+    "FieldLeft": 886,
+    "FieldTop": 651,
     "FieldType": "Checkbox",
-    "FieldWidth": 522,
-    "FormatMask": "tempora",
+    "FieldWidth": 131,
+    "FormatMask": "qui",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 794,
-    "LabelLeft": 419,
-    "LabelTop": 718,
-    "LabelWidth": 278,
-    "LastVersionId": 419,
-    "ListTableId": 564,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 733,
+    "LabelLeft": 418,
+    "LabelTop": 943,
+    "LabelWidth": 42,
+    "LastVersionId": 125,
+    "ListTableId": 577,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 708,
-    "ProgId": "ipsam",
+    "Page1LineNo": 786,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 65,
-    "TextLength": 547,
-    "Tooltip": "numquam",
-    "UdefIdentity": 122,
-    "UDListDefinitionId": 5,
+    "ShortLabel": "iure",
+    "TabOrder": 372,
+    "TextLength": 783,
+    "Tooltip": "pariatur",
+    "UdefIdentity": 25,
+    "UDListDefinitionId": 738,
     "Justification": "Center",
-    "Version": 431,
-    "TemplateVariableName": "Emard, Reynolds and Stracke",
+    "Version": 649,
+    "TemplateVariableName": "McGlynn, D'Amore and Osinski",
     "HasBeenPublished": false,
-    "MdoListName": "Turcotte Inc and Sons",
+    "MdoListName": "Thiel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldType": "System.String",
+        "FieldLength": 242
       }
     }
   }

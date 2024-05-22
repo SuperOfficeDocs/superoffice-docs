@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 100,
-    "Name": "Abernathy Inc and Sons",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "Rank": 240,
-    "UdListDefinitionId": 167,
+    "HeadingId": 814,
+    "Name": "Mills, Casper and Adams",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 932,
+    "UdListDefinitionId": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 19
       }
     }
   }

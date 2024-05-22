@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 215,
+  "UdListDefinitionId": 92,
   "Items": [
     {
-      "Id": 738,
-      "Name": "Wisozk LLC",
-      "Tooltip": "sint",
+      "Id": 302,
+      "Name": "Lemke Group",
+      "Tooltip": "animi",
       "Deleted": false,
-      "UdListDefinitionId": 643,
-      "Rank": 967
+      "UdListDefinitionId": 860,
+      "Rank": 308
     },
     {
-      "Id": 738,
-      "Name": "Wisozk LLC",
-      "Tooltip": "sint",
+      "Id": 302,
+      "Name": "Lemke Group",
+      "Tooltip": "animi",
       "Deleted": false,
-      "UdListDefinitionId": 643,
-      "Rank": 967
+      "UdListDefinitionId": 860,
+      "Rank": 308
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 655,
-    "Name": "Volkman LLC",
-    "Tooltip": "quidem",
-    "Deleted": true,
-    "UdListDefinitionId": 336,
-    "Rank": 856,
+    "Id": 338,
+    "Name": "Kunze-Skiles",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 755,
+    "Rank": 27,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldType": "System.String",
+        "FieldLength": 379
       }
     }
   }

@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 708,
-  "ColumnId": 850,
-  "FieldDefault": "maiores",
-  "FieldHeight": 474,
-  "FieldLabel": "quae",
-  "FieldLeft": 513,
-  "FieldTop": 271,
+  "UDefFieldId": 824,
+  "ColumnId": 897,
+  "FieldDefault": "quo",
+  "FieldHeight": 919,
+  "FieldLabel": "ut",
+  "FieldLeft": 75,
+  "FieldTop": 988,
   "FieldType": "Checkbox",
-  "FieldWidth": 541,
-  "FormatMask": "nihil",
+  "FieldWidth": 833,
+  "FormatMask": "officiis",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 399,
-  "LabelLeft": 280,
-  "LabelTop": 252,
-  "LabelWidth": 836,
-  "LastVersionId": 783,
-  "ListTableId": 62,
-  "IsMandatory": false,
+  "LabelHeight": 34,
+  "LabelLeft": 806,
+  "LabelTop": 708,
+  "LabelWidth": 937,
+  "LastVersionId": 604,
+  "ListTableId": 119,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 684,
-  "ProgId": "enim",
-  "IsReadOnly": true,
-  "ShortLabel": "quam",
-  "TabOrder": 367,
-  "TextLength": 504,
-  "Tooltip": "et",
-  "UdefIdentity": 157,
-  "UDListDefinitionId": 948,
+  "Page1LineNo": 112,
+  "ProgId": "voluptatem",
+  "IsReadOnly": false,
+  "ShortLabel": "dignissimos",
+  "TabOrder": 922,
+  "TextLength": 770,
+  "Tooltip": "aut",
+  "UdefIdentity": 874,
+  "UDListDefinitionId": 92,
   "Justification": "Center",
-  "Version": 260,
-  "TemplateVariableName": "Spinka, Connelly and Mraz",
+  "Version": 490,
+  "TemplateVariableName": "Balistreri-Padberg",
   "HasBeenPublished": true,
-  "MdoListName": "Graham, Reinger and Gleichner",
+  "MdoListName": "Mitchell-Bartell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 138
     }
   }
 }

@@ -93,18 +93,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 348,
-  "Name": "Wuckert Inc and Sons",
-  "ContentType": "sint",
-  "AttSize": 206,
+  "AttachmentId": 922,
+  "Name": "Kovacek-Nolan",
+  "ContentType": "totam",
+  "AttSize": 930,
   "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "culpa",
-  "IsSafeFileExtension": true
+  "ContentId": "omnis",
+  "AuthKey": "provident",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 433,
-  "Name": "Satterfield, Rosenbaum and Ziemann",
-  "ContentType": "nobis",
-  "AttSize": 429,
+  "AttachmentId": 96,
+  "Name": "Windler Group",
+  "ContentType": "animi",
+  "AttSize": 144,
   "InlineImage": false,
-  "ContentId": "perferendis",
-  "AuthKey": "sequi",
-  "IsSafeFileExtension": false,
+  "ContentId": "optio",
+  "AuthKey": "sunt",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 171
     }
   },
   "_Links": {

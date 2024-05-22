@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 4,
-  "Name": "Kihn-Kautzer",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "UdListDefinitionId": 140,
-  "Rank": 369
+  "Id": 432,
+  "Name": "Cartwright-Waters",
+  "Tooltip": "ipsum",
+  "Deleted": false,
+  "UdListDefinitionId": 218,
+  "Rank": 56
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Weber Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 43,
+  "Name": "Lebsack LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 509,
-  "Rank": 32,
+  "UdListDefinitionId": 606,
+  "Rank": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

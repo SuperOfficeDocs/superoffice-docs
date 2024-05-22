@@ -73,10 +73,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 357,
+  "DocumentTemplateId": 852,
   "RequestedProperties": [
-    "nulla",
-    "qui"
+    "cupiditate",
+    "soluta"
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolor",
-  "2": "voluptas"
+  "1": "dolorem",
+  "2": "excepturi"
 }
 ```

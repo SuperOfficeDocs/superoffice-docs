@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Name": "Stanton LLC",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 508,
-  "Rank": 827,
+  "Id": 31,
+  "Name": "O'Reilly, Schmidt and Toy",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "UdListDefinitionId": 957,
+  "Rank": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 119
     }
   }
 }

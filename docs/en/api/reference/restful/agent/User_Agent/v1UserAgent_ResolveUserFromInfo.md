@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 437,
-  "PersonName": "Macejkovic-Satterfield",
+  "ContactId": 354,
+  "PersonName": "Reilly LLC",
   "PhoneNumbers": [
-    "743493",
-    "1396243"
+    "138002",
+    "451245"
   ],
   "Emails": [
-    "casimir_franecki@hilpertspinka.co.uk",
-    "jillian@klocko.biz"
+    "bernita@kautzer.uk",
+    "edwardo@bechtelar.biz"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 708
     }
   }
 }

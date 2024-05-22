@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 806,
-  "WorkflowId": 315,
+  "WorkflowTriggerId": 180,
+  "WorkflowId": 166,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "D'Amore Inc and Sons",
-      "Description": "Balanced client-server customer loyalty",
-      "Rank": 526,
+      "Name": "Bernier Group",
+      "Description": "Visionary scalable leverage",
+      "Rank": 632,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "D'Amore Inc and Sons",
-      "Description": "Balanced client-server customer loyalty",
-      "Rank": 526,
+      "Name": "Bernier Group",
+      "Description": "Visionary scalable leverage",
+      "Rank": 632,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

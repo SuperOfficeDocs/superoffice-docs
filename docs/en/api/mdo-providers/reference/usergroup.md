@@ -26,6 +26,7 @@ The name of the MDO list is 'usergroup'.
 |Exclude the given comma-separated user-group id| exclude_ids|12,34,69|
 |Add a blank item| addblankstring|True|
 |Add a root target item| addRootTarget|False|
+|Use a search that works with multilanguage strings| useMultilanguageSearch|False|
 
 
 

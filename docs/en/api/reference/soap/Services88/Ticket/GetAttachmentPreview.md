@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:EmailFrom xsi:type="xsd:string"></Ticket:EmailFrom>
     <Ticket:EmailTo xsi:type="xsd:string"></Ticket:EmailTo>
     <Ticket:EmailCc xsi:type="xsd:string"></Ticket:EmailCc>
-    <Ticket:EmailDate xsi:type="xsd:dateTime">2024-04-29T09:15:48Z</Ticket:EmailDate>
+    <Ticket:EmailDate xsi:type="xsd:dateTime">2024-05-21T10:57:10Z</Ticket:EmailDate>
     <Ticket:EmailAttachmentsInfo xsi:type="Ticket:ArrayOfAttachmentEntity">
      <Ticket:AttachmentEntity xsi:type="Ticket:AttachmentEntity">
       <Ticket:AttachmentId xsi:type="xsd:int">0</Ticket:AttachmentId>

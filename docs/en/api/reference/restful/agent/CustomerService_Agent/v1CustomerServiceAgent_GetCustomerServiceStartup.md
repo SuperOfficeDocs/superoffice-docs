@@ -78,14 +78,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 95,
-  "RecaptchaSiteKey": "dolorem",
+  "TZOffset": 399,
+  "RecaptchaSiteKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 296
     }
   }
 }

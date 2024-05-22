@@ -69,8 +69,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "sunt",
-  "Tags": "facilis"
+  "DeviceIdentifier": "impedit",
+  "Tags": "quis"
 }
 ```
 

@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 172,
-      "PrefDescId": 244,
-      "PrefValue": "inventore",
-      "PrefShowValue": "distinctio",
-      "Description": "Inverse well-modulated migration",
+      "PrefDescLineId": 997,
+      "PrefDescId": 704,
+      "PrefValue": "sit",
+      "PrefShowValue": "assumenda",
+      "Description": "Adaptive optimizing matrix",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 172,
-      "PrefDescId": 244,
-      "PrefValue": "inventore",
-      "PrefShowValue": "distinctio",
-      "Description": "Inverse well-modulated migration",
+      "PrefDescLineId": 997,
+      "PrefDescId": 704,
+      "PrefValue": "sit",
+      "PrefShowValue": "assumenda",
+      "Description": "Adaptive optimizing matrix",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 478,
-    "PrefDescId": 124,
-    "PrefValue": "molestiae",
-    "PrefShowValue": "possimus",
-    "Description": "Secured needs-based product",
-    "IsBuiltin": true,
+    "PrefDescLineId": 304,
+    "PrefDescId": 922,
+    "PrefValue": "sunt",
+    "PrefShowValue": "eum",
+    "Description": "Pre-emptive scalable emulation",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldType": "System.Int32",
+        "FieldLength": 389
       }
     }
   }

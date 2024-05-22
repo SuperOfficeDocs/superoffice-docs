@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 169,
-  "Name": "Hammes, Stamm and Jones",
-  "Tooltip": "quia",
+  "Id": 61,
+  "Name": "Reynolds-Tromp",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "UdListDefinitionId": 120,
-  "Rank": 874,
+  "UdListDefinitionId": 992,
+  "Rank": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

@@ -83,9 +83,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "ut",
-    "Type": "unde",
-    "Description": "Implemented zero administration time-frame",
+    "DisplayType": "inventore",
+    "Type": "reprehenderit",
+    "Description": "Optional web-enabled moratorium",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -93,8 +93,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

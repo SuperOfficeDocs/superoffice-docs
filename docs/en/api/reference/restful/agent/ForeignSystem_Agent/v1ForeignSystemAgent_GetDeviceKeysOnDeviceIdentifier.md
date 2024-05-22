@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koss, Hickle and Howe",
-  "DeviceName": "Smitham-Wehner",
-  "DeviceIdentifier": "delectus"
+  "ApplicationName": "Harber Inc and Sons",
+  "DeviceName": "Beier Inc and Sons",
+  "DeviceIdentifier": "impedit"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "occaecati",
-    "Value": "vitae",
-    "RecordId": 790,
-    "CreatedDate": "2016-12-28T11:16:09.2878404+01:00",
-    "UpdatedDate": "1999-09-13T11:16:09.2878404+02:00",
-    "UpdatedBy": "voluptatem",
-    "CreatedBy": "quos",
-    "TableName": "Wisoky, Williamson and Ernser",
+    "Key": "reprehenderit",
+    "Value": "est",
+    "RecordId": 849,
+    "CreatedDate": "2002-02-19T12:57:34.0711192+01:00",
+    "UpdatedDate": "2011-01-26T12:57:34.0711192+01:00",
+    "UpdatedBy": "ratione",
+    "CreatedBy": "modi",
+    "TableName": "Senger LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 597
       }
     }
   }

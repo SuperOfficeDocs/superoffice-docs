@@ -171,14 +171,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "asperiores",
-  "ProviderName": "Terry-Kessler",
-  "StorageKey": "porro",
-  "ExtraRestrictions": "adipisci",
-  "OrderBy": "et",
-  "DesiredColumns": "nemo",
-  "PageSize": 268,
-  "PageNumber": 257
+  "StorageType": "voluptatibus",
+  "ProviderName": "Luettgen, Lakin and Kreiger",
+  "StorageKey": "ex",
+  "ExtraRestrictions": "est",
+  "OrderBy": "aperiam",
+  "DesiredColumns": "laudantium",
+  "PageSize": 610,
+  "PageNumber": 899
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lang-Stark",
-      "DisplayTooltip": "molestias",
-      "DisplayType": "ab",
+      "DisplayName": "Kohler, O'Keefe and Balistreri",
+      "DisplayTooltip": "et",
+      "DisplayType": "eos",
       "CanOrderBy": false,
-      "Name": "Murphy, Wolf and Hills",
-      "CanRestrictBy": false,
-      "RestrictionType": "explicabo",
-      "RestrictionListName": "Gleichner-Crooks",
+      "Name": "O'Keefe, Grimes and Hilll",
+      "CanRestrictBy": true,
+      "RestrictionType": "autem",
+      "RestrictionListName": "Herman Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "fugit",
-      "Width": "reprehenderit",
-      "IconHint": "et",
-      "HeadingIconHint": "optio"
+      "ExtraInfo": "velit",
+      "Width": "laudantium",
+      "IconHint": "aut",
+      "HeadingIconHint": "minima"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Beer, Fritsch and Stark",
-      "PrimaryKey": 186,
+      "EntityName": "Kertzmann Group",
+      "PrimaryKey": 855,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "reprehenderit",
-          "TooltipHint": "culpa",
-          "LinkHint": "blanditiis"
+          "DisplayValue": "aut",
+          "TooltipHint": "et",
+          "LinkHint": "necessitatibus"
         }
       },
-      "LinkHint": "recusandae",
-      "StyleHint": "ipsa",
+      "LinkHint": "est",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 226
+          "FieldType": "System.Int32",
+          "FieldLength": 541
         }
       }
     }
   ],
-  "RowCount": 980,
+  "RowCount": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 665
     }
   }
 }

@@ -97,19 +97,19 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 519,
-  "Name": "Heidenreich, Kub and Kilback",
-  "Tooltip": "voluptatum",
+  "Id": 497,
+  "Name": "Willms-Medhurst",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 631,
-  "IsCustomList": true,
+  "Rank": 269,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "et",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85,
-  "Name": "Rempel Inc and Sons",
-  "Tooltip": "nostrum",
+  "Id": 682,
+  "Name": "Stracke-Eichmann",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "Rank": 789,
+  "Rank": 782,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldLength": 188
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

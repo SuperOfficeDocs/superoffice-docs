@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 130,
-  "Name": "Will, Reinger and Halvorson",
-  "CreatedDate": "2018-07-15T11:16:09.2722138+02:00",
-  "UpdatedDate": "2006-01-21T11:16:09.2722138+01:00",
+  "ForeignAppId": 36,
+  "Name": "Bahringer, Legros and Littel",
+  "CreatedDate": "2018-02-14T12:57:34.0554972+01:00",
+  "UpdatedDate": "2016-12-13T12:57:34.0554972+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 33,
-      "Name": "Romaguera-Moen",
-      "CreatedDate": "2023-10-15T11:16:09.2722138+02:00",
-      "UpdatedDate": "1998-10-05T11:16:09.2722138+02:00",
-      "AssociateFullName": "Rosendo Gutkowski PhD",
-      "CreatedBy": "sequi",
-      "UpdatedBy": "iure",
-      "DeviceIdentifier": "aperiam",
-      "ForeignAppId": 115,
+      "ForeignDeviceId": 660,
+      "Name": "Emard-Hodkiewicz",
+      "CreatedDate": "1997-09-09T12:57:34.0554972+02:00",
+      "UpdatedDate": "2014-09-09T12:57:34.0554972+02:00",
+      "AssociateFullName": "Emilio D'Amore",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "consequatur",
+      "DeviceIdentifier": "consectetur",
+      "ForeignAppId": 998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldLength": 896
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 279
     }
   }
 }

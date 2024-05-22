@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 132,
-  "Name": "Cartwright-Padberg",
+  "ScreenChooserId": 852,
+  "Name": "Crona, Mertz and Waters",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "qui",
-  "Source": "adipisci",
-  "Registered": "2000-09-26T11:16:08.9440885+02:00",
-  "RegisteredAssociateId": 59,
-  "Updated": "2000-01-18T11:16:08.9440885+01:00",
-  "UpdatedAssociateId": 919,
+  "Enabled": false,
+  "UniqueIdentifier": "laudantium",
+  "Source": "quam",
+  "Registered": "2010-04-18T12:57:33.6180694+02:00",
+  "RegisteredAssociateId": 303,
+  "Updated": "2018-02-11T12:57:33.6180694+01:00",
+  "UpdatedAssociateId": 94,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

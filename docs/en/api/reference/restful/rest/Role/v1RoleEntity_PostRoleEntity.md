@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 558,
-  "Name": "Herman-Batz",
-  "Tooltip": "aspernatur",
+  "RoleId": 827,
+  "Name": "Durgan Group",
+  "Tooltip": "hic",
   "RoleType": "Anonymous",
-  "Deleted": 796,
-  "Rank": 674,
-  "Created": "2010-09-20T11:16:14.1363143+02:00",
-  "UseCategories": 314,
+  "Deleted": 195,
+  "Rank": 584,
+  "Created": "2004-12-22T12:57:42.6513343+01:00",
+  "UseCategories": 394,
   "CreatedBy": null,
-  "Updated": "2021-08-31T11:16:14.1363143+02:00",
+  "Updated": "2000-11-02T12:57:42.6513343+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,29 +127,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 371,
-  "Name": "Stroman LLC",
-  "Tooltip": "accusantium",
+  "RoleId": 259,
+  "Name": "Bode LLC",
+  "Tooltip": "necessitatibus",
   "RoleType": "Anonymous",
-  "Deleted": 534,
-  "Rank": 881,
-  "Created": "2022-02-14T11:16:14.1363143+01:00",
-  "UseCategories": 340,
+  "Deleted": 956,
+  "Rank": 167,
+  "Created": "2021-08-12T12:57:42.6513343+02:00",
+  "UseCategories": 549,
   "CreatedBy": null,
-  "Updated": "2018-12-14T11:16:14.1363143+01:00",
+  "Updated": "2012-12-22T12:57:42.6513343+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 962
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

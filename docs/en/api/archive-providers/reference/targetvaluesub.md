@@ -70,6 +70,7 @@ Archive of TargetValue - used by .
 |associate/userName|string|User name: User name| x |
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
+|associate/isLocation|bool|Is a location: Is a location| x |
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
@@ -120,11 +121,11 @@ Archive of TargetValue - used by .
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -197,6 +198,7 @@ Archive of TargetValue - used by .
 |contact/contactAssociate/userName|string|User name: User name| x |
 |contact/contactAssociate/personEmail|string|E-mail| x |
 |contact/contactAssociate/locationAddress|string|Location: Location| x |
+|contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contact/contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
 |contact/contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
 |contact/contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
@@ -223,15 +225,16 @@ Archive of TargetValue - used by .
 |contact/contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |contact/contactSupportAssociate/isActive|bool|Our service contact - Active: Is this user active, and should be able to log in?| x |
 |contact/contactSupportAssociate/isActiveText|bool|Our service contact - Active status: Is this user active, and should be able to log in?| x |
-|contact/contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
-|contact/contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
+|contact/contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
 |contact/contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
 |contact/contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
 |contact/contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
+|contact/contactSupportAssociate/isLocation|bool|Our service contact - Is a location: Is a location| x |
 |contact/contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contact/contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contact/contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -279,6 +282,9 @@ Archive of TargetValue - used by .
 |contact/contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contact/contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contact/contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
+|contact/contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
+|contact/contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - Updated by flow: Updated by flow| x |
+|contact/contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
 |contact/contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
 |contact/contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
 |contact/contactSupportPerson/personInfo/infoText|positiveString|User support contact - Information: Displays the text entered in the description field| x |
@@ -294,7 +300,6 @@ Archive of TargetValue - used by .
 |contact/contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
 |contact/contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
 |contact/contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
-|contact/contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
 |contact/contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
 |contact/contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |contact/contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -324,15 +329,15 @@ Archive of TargetValue - used by .
 |contact/contactSupportPerson/withdrawnEmarketingConsent|bool|User support contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contact/contactSupportPerson/subscription|listAny|User support contact - Subscription: Subscription for marketing| x |
 |contact/contactSupportPerson/legalBaseStore|listAny|User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactSupportPerson/legalBaseEmarketing|listAny|User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |contact/contactSupportPerson/consentSourceStore|listAny|User support contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |contact/contactSupportPerson/consentSourceEmarketing|listAny|User support contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contact/contactUdef/SuperOffice:3|int|companynumber| x |
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
@@ -346,7 +351,6 @@ Archive of TargetValue - used by .
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -398,7 +402,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=contact/restrictionAddress/wgs84longitude,contact/contactSupportAssociate/credentialType,contact/streetAddress/zip
+GET /api/v1/archive/TargetValueSub?$select=associate/simultaneousEjUser,contact/restrictionPostalAddress/city,contact/contactSupportPerson/isStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

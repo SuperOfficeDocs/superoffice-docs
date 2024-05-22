@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 523,
-  "Name": "Feest, Senger and Cruickshank",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 470,
-  "UdListDefinitionId": 402
+  "HeadingId": 392,
+  "Name": "Waters-Fritsch",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 221,
+  "UdListDefinitionId": 984
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 51,
-  "Name": "Larkin, Brakus and Hills",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "Rank": 987,
-  "UdListDefinitionId": 501,
+  "HeadingId": 430,
+  "Name": "Moore-Hackett",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "Rank": 97,
+  "UdListDefinitionId": 297,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Bergstrom, Harris and Murphy",
-  "Tooltip": "excepturi",
+  "Id": 813,
+  "Name": "Hermann Group",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 956,
-  "IsCustomList": true,
+  "Rank": 529,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "delectus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   },
   "_Links": {

@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 965,
+  "QuoteAlternativeId": 375,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 532,
-  "ERPQuoteLineKey": "quis",
-  "QuoteAlternativeId": 638,
-  "ERPProductKey": "explicabo",
+  "QuoteLineId": 601,
+  "ERPQuoteLineKey": "nulla",
+  "QuoteAlternativeId": 434,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 4848.298,
-  "DeliveredQuantity": 26573.185999999998,
-  "Rank": 378,
-  "Name": "Homenick LLC",
-  "Description": "Reverse-engineered fault-tolerant paradigm",
-  "Code": "aut",
-  "QuantityUnit": "a",
-  "PriceUnit": "dolore",
-  "ItemNumber": "1095365",
+  "Quantity": 30196.09,
+  "DeliveredQuantity": 5321.532,
+  "Rank": 341,
+  "Name": "VonRueden, Volkman and Lang",
+  "Description": "Sharable 5th generation secured line",
+  "Code": "quia",
+  "QuantityUnit": "nemo",
+  "PriceUnit": "aut",
+  "ItemNumber": "928295",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "autem",
-  "Supplier": "cupiditate",
-  "SupplierCode": "harum",
-  "Thumbnail": "neque",
-  "VATInfo": "alias",
-  "VAT": 23295.022,
-  "UnitCost": 13808.404,
-  "UnitMinimumPrice": 16183.975999999999,
-  "UnitListPrice": 4158.818,
+  "ProductFamilyKey": "deserunt",
+  "ProductTypeKey": "ducimus",
+  "Supplier": "vel",
+  "SupplierCode": "deserunt",
+  "Thumbnail": "qui",
+  "VATInfo": "unde",
+  "VAT": 23642.896,
+  "UnitCost": 9420.804,
+  "UnitMinimumPrice": 15948.926,
+  "UnitListPrice": 22972.219999999998,
   "ExtraInfo": [
     {
-      "Name": "Dickinson-Dooley",
-      "Value": "mollitia",
+      "Name": "Harris-Runte",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldLength": 695
         }
       }
     },
     {
-      "Name": "Dickinson-Dooley",
-      "Value": "mollitia",
+      "Name": "Harris-Runte",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldLength": 695
         }
       }
     }
   ],
-  "RawExtraInfo": "quam",
+  "RawExtraInfo": "sunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "inventore",
-  "SubscriptionQuantity": 30039.39,
-  "SubscriptionStart": "2000-11-11T11:16:09.6161411+01:00",
-  "ERPDiscountPercent": 7687.7019999999993,
-  "ERPDiscountAmount": 24536.086,
-  "DiscountPercent": 22752.84,
-  "DiscountAmount": 16183.975999999999,
+  "SubscriptionUnit": "reiciendis",
+  "SubscriptionQuantity": 23890.482,
+  "SubscriptionStart": "2006-02-10T12:57:34.7584337+01:00",
+  "ERPDiscountPercent": 23774.523999999998,
+  "ERPDiscountAmount": 24282.232,
+  "DiscountPercent": 5409.284,
+  "DiscountAmount": 1476.114,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 19916.57,
-  "EarningAmount": 8941.302,
-  "SubTotal": 7866.34,
-  "TotalPrice": 31111.218,
-  "Rights": "consequuntur",
-  "Rule": "occaecati",
-  "ExtraField1": "exercitationem",
-  "ExtraField2": "sit",
-  "ExtraField3": "nostrum",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "veniam",
+  "EarningPercent": 22379.894,
+  "EarningAmount": 4240.302,
+  "SubTotal": 5882.518,
+  "TotalPrice": 9505.422,
+  "Rights": "quisquam",
+  "Rule": "in",
+  "ExtraField1": "sequi",
+  "ExtraField2": "laudantium",
+  "ExtraField3": "velit",
+  "ExtraField4": "et",
+  "ExtraField5": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

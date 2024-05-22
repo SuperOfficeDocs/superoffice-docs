@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kub Inc and Sons",
+  "ProviderName": "Runolfsson, Stanton and Hagenes",
   "Columns": [
-    "quis",
-    "soluta"
+    "quia",
+    "eum"
   ],
   "SortOrder": [
     {
-      "Name": "McLaughlin, Bradtke and Douglas",
+      "Name": "Deckow, Strosin and Stracke",
       "Direction": "ASC"
     },
     {
-      "Name": "McLaughlin, Bradtke and Douglas",
+      "Name": "Deckow, Strosin and Stracke",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Nicolas, Rutherford and Thompson",
-      "Operator": "eum",
+      "Name": "Moen, Wisoky and Prosacco",
+      "Operator": "id",
       "Values": [
-        "voluptas",
-        "quaerat"
+        "animi",
+        "praesentium"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "aut"
+        "earum",
+        "quasi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 534,
+      "InterParenthesis": 568,
       "InterOperator": "And",
-      "UniqueHash": 71
+      "UniqueHash": 244
     }
   ],
   "Entities": [
-    "explicabo",
-    "ratione"
+    "animi",
+    "fuga"
   ],
-  "Page": 846,
-  "PageSize": 624,
-  "Context": "ullam"
+  "Page": 133,
+  "PageSize": 489,
+  "Context": "aut"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rohan-Crona",
-    "PrimaryKey": 344,
+    "EntityName": "Kuhlman Inc and Sons",
+    "PrimaryKey": 160,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "autem",
-        "TooltipHint": "nesciunt",
-        "LinkHint": "expedita"
+        "DisplayValue": "quia",
+        "TooltipHint": "cum",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "ea",
-    "StyleHint": "consequuntur",
+    "LinkHint": "blanditiis",
+    "StyleHint": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   }

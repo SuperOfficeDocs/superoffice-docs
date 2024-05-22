@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ad",
+    "path": "totam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ad",
+    "path": "totam",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 681,
-  "Name": "Howe, Barton and Connelly",
+  "WebhookId": 83,
+  "Name": "Ryan, Bayer and Toy",
   "Events": [
-    "nisi",
-    "autem"
+    "porro",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "qui",
+  "Secret": "commodi",
   "State": "Active",
-  "Type": "delectus",
+  "Type": "reprehenderit",
   "Headers": {
-    "Headers1": "numquam",
-    "Headers2": "qui"
+    "Headers1": "et",
+    "Headers2": "cupiditate"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-09-07T11:16:14.465178+02:00",
+  "Registered": "2015-05-02T12:57:43.2770971+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-08-13T11:16:14.465178+02:00",
+  "Updated": "2010-08-14T12:57:43.2770971+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "camden.swaniawski@gutmanngutkowski.biz",
+  "ErrorsEmail": "jennie_nikolaus@buckridgeschimmel.ca",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 670,
-  "Name": "Cruickshank, Klocko and Abshire",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "Rank": 902,
-  "IsCustomList": true,
+  "Id": 719,
+  "Name": "Russel, Orn and Wunsch",
+  "Tooltip": "exercitationem",
+  "Deleted": false,
+  "Rank": 479,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "alias",
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Hilpert-Brown",
-  "Tooltip": "delectus",
+  "Id": 441,
+  "Name": "Ryan, Harber and Hagenes",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 48,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 153,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quam",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldType": "System.Int32",
+      "FieldLength": 309
     }
   }
 }

@@ -87,13 +87,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 347,
-  "Name": "Bergstrom, Braun and Durgan",
-  "Tooltip": "dicta",
-  "Rank": 120,
-  "DoctmplId": 644,
-  "Header": "quia",
-  "OurRef": "corrupti",
+  "SuggestedDocumentId": 802,
+  "Name": "Schumm-Morar",
+  "Tooltip": "et",
+  "Rank": 437,
+  "DoctmplId": 249,
+  "Header": "quam",
+  "OurRef": "quas",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 333,
-  "Name": "Terry Inc and Sons",
-  "Tooltip": "quidem",
-  "Rank": 489,
-  "DoctmplId": 762,
-  "Header": "exercitationem",
-  "OurRef": "quis",
+  "SuggestedDocumentId": 355,
+  "Name": "Corwin-Douglas",
+  "Tooltip": "officiis",
+  "Rank": 731,
+  "DoctmplId": 114,
+  "Header": "nihil",
+  "OurRef": "non",
   "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 12
     }
   }
 }

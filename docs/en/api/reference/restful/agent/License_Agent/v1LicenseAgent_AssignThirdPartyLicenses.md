@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 216,
-  "ModuleOwner": "distinctio",
+  "AssociateId": 307,
+  "ModuleOwner": "fugit",
   "ModuleLicenseNames": [
-    "Simonis Group",
-    "West, Herzog and Gleason"
+    "Crona, VonRueden and Willms",
+    "Sanford Group"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 633,
-    "Tooltip": "placeat",
+    "Total": 482,
+    "Tooltip": "quis",
     "CanAssign": true,
-    "Free": 784,
-    "InUse": 391,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 953,
-    "Name": "Reilly-Schuster",
-    "Description": "Compatible scalable matrices",
-    "PrerequisiteModuleName": "Klocko, Brekke and Daniel",
-    "SortOrder": 953,
-    "ExtraFlags": 456,
+    "Free": 957,
+    "InUse": 832,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 940,
+    "Name": "Brown LLC",
+    "Description": "Seamless cohesive customer loyalty",
+    "PrerequisiteModuleName": "Dickinson-Ratke",
+    "SortOrder": 677,
+    "ExtraFlags": 587,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldType": "System.Int32",
+        "FieldLength": 279
       }
     }
   }

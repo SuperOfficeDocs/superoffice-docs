@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 61,
-  "Rank": 66,
-  "DefaultTask": 683,
-  "DefaultTaskText": "quia",
-  "IsVisual": true,
-  "LastGenerated": "2006-02-05T11:16:09.6473837+01:00",
-  "Description": "Diverse multimedia support",
-  "Name": "Jacobs, Howell and Larkin",
-  "StatusMonitorId": 448,
-  "PictureId": 550,
-  "NeedsUpdate": true,
+  "OwnerTable": 544,
+  "Rank": 262,
+  "DefaultTask": 994,
+  "DefaultTaskText": "temporibus",
+  "IsVisual": false,
+  "LastGenerated": "2024-02-11T12:57:34.7896763+01:00",
+  "Description": "Configurable optimal capability",
+  "Name": "Moen Group",
+  "StatusMonitorId": 990,
+  "PictureId": 993,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 992,
-  "NumNeedUpdate": 661,
-  "GenerationStart": "2016-07-06T11:16:09.6473837+02:00"
+  "NumMatches": 522,
+  "NumNeedUpdate": 285,
+  "GenerationStart": "2003-03-29T12:57:34.7896763+01:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 209,
-  "Rank": 778,
-  "DefaultTask": 923,
-  "DefaultTaskText": "odit",
-  "IsVisual": true,
-  "LastGenerated": "2003-02-03T11:16:09.6473837+01:00",
-  "Description": "Front-line optimal extranet",
-  "Name": "Daniel Group",
-  "StatusMonitorId": 454,
-  "PictureId": 637,
+  "OwnerTable": 512,
+  "Rank": 580,
+  "DefaultTask": 80,
+  "DefaultTaskText": "quasi",
+  "IsVisual": false,
+  "LastGenerated": "2006-08-21T12:57:34.7896763+02:00",
+  "Description": "Optional homogeneous contingency",
+  "Name": "Lang LLC",
+  "StatusMonitorId": 144,
+  "PictureId": 876,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 294,
-  "NumNeedUpdate": 645,
-  "GenerationStart": "2005-01-21T11:16:09.6473837+01:00",
+  "NumMatches": 127,
+  "NumNeedUpdate": 661,
+  "GenerationStart": "2007-10-09T12:57:34.7896763+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldLength": 321
     }
   }
 }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 938,
-    "Name": "Reynolds, Wuckert and Breitenberg",
-    "Tooltip": "in",
-    "Rank": 401,
+    "SaleTypeId": 216,
+    "Name": "Kuvalis LLC",
+    "Tooltip": "itaque",
+    "Rank": 88,
     "DurationUnit": "Century",
-    "SaleDuration": 208,
-    "SaleTypeCatId": 661,
+    "SaleDuration": 614,
+    "SaleTypeCatId": 549,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": true,
+    "HasGuide": true,
+    "HasStakeholders": false,
     "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 59,
-    "QuoteLinesTemplate": 571,
-    "ConfirmationLinesTemplate": 553,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 710,
+    "QuoteLinesTemplate": 863,
+    "ConfirmationLinesTemplate": 730,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 236,
-    "MinEarningPercent": 231,
-    "GroupQuoteLinesBy": 841,
-    "SortGroupLinesBy": 324,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 79,
+    "MinEarningPercent": 520,
+    "GroupQuoteLinesBy": 211,
+    "SortGroupLinesBy": 37,
     "Stages": [
       {
-        "Id": 399,
-        "Name": "Schmitt-Toy",
-        "ToolTip": "Officia id ut ut quibusdam debitis.",
+        "Id": 145,
+        "Name": "Kulas-Kling",
+        "ToolTip": "Ipsa voluptatem quia.",
         "Deleted": false,
-        "Rank": 710,
-        "Type": "omnis",
-        "ColorBlock": 950,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2000-09-20T11:16:09.3190898+02:00",
+        "Rank": 742,
+        "Type": "quidem",
+        "ColorBlock": 967,
+        "IconHint": "explicabo",
+        "Selected": false,
+        "LastChanged": "2003-02-22T12:57:34.1336045+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "omnis",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Aaron Sporer",
+        "FullName": "Alexandria Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldType": "System.String",
+            "FieldLength": 55
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 328
       }
     }
   }

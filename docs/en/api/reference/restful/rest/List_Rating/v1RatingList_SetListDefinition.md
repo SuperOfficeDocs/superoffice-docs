@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Name": "Reilly Inc and Sons",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 769,
+  "Id": 892,
+  "Name": "O'Keefe-Wiza",
+  "Tooltip": "illum",
+  "Deleted": false,
+  "Rank": 685,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true
+  "ListType": "ipsa",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Luettgen, Osinski and Torphy",
-  "Tooltip": "voluptas",
+  "Id": 294,
+  "Name": "Ferry, Sanford and Corkery",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 885,
+  "Rank": 226,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 997
     }
   }
 }

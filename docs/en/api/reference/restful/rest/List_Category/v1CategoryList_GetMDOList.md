@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=consequatur
+GET /api/v1/List/Category/MDOItems?query=dignissimos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Olson Group",
-    "ToolTip": "Eum ea ratione est.",
-    "Deleted": true,
-    "Rank": 697,
-    "Type": "quo",
+    "Id": 826,
+    "Name": "Corwin-Mann",
+    "ToolTip": "Eligendi hic adipisci.",
+    "Deleted": false,
+    "Rank": 981,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Satterfield-Botsford",
-        "ToolTip": "Dolorem aut.",
-        "Deleted": true,
-        "Rank": 993,
-        "Type": "cum",
+        "Id": 370,
+        "Name": "Lakin-Kessler",
+        "ToolTip": "Qui et.",
+        "Deleted": false,
+        "Rank": 609,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 630,
-        "ExtraInfo": "iusto",
-        "StyleHint": "ut",
-        "FullName": "Jonas Altenwerth DDS",
+        "IconHint": "ipsa",
+        "ColorBlock": 716,
+        "ExtraInfo": "possimus",
+        "StyleHint": "voluptatem",
+        "FullName": "Ursula Alyson Kihn PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 324
+            "FieldType": "System.Int32",
+            "FieldLength": 98
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 92,
-    "ExtraInfo": "quia",
-    "StyleHint": "ducimus",
-    "FullName": "Claud Macejkovic",
+    "IconHint": "accusamus",
+    "ColorBlock": 389,
+    "ExtraInfo": "possimus",
+    "StyleHint": "nulla",
+    "FullName": "Laisha Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 868
       }
     }
   }

@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
 
 
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 26 May 2009 11:16:13 G5T
+Last-Modified: Wed, 13 Jan 2016 12:57:42 G1T
 
 {
-  "DocumentId": 239,
+  "DocumentId": 940,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "ipsum",
-  "Name": "Steuber-Mayert",
-  "OurRef": "voluptate",
-  "YourRef": "hic",
-  "CreatedDate": "1999-01-14T11:16:13.8707177+01:00",
-  "UpdatedDate": "2009-05-26T11:16:13.8707177+02:00",
-  "Description": "Balanced zero tolerance contingency",
+  "Attention": "consequatur",
+  "Header": "fugiat",
+  "Name": "Braun LLC",
+  "OurRef": "quaerat",
+  "YourRef": "dolorem",
+  "CreatedDate": "2015-08-03T12:57:42.3545273+02:00",
+  "UpdatedDate": "2016-01-13T12:57:42.3545273+01:00",
+  "Description": "Centralized composite support",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-01-07T11:16:13.8707177+01:00",
-  "ExternalRef": "deserunt",
+  "Date": "2004-05-31T12:57:42.3701486+02:00",
+  "ExternalRef": "magnam",
   "Completed": "Completed",
-  "ActiveLinks": 217,
+  "ActiveLinks": 544,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "West LLC",
-      "Id": 484,
-      "Description": "Multi-lateral uniform Graphic Interface",
-      "ExtraInfo": "sed",
-      "LinkId": 668,
+      "EntityName": "Jewess-Ankunding",
+      "Id": 574,
+      "Description": "Balanced non-volatile help-desk",
+      "ExtraInfo": "recusandae",
+      "LinkId": 477,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 600
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 163,
-  "Snum": 315,
+  "SuggestedDocumentId": 725,
+  "Snum": 503,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bradley Connelly",
-    "SuperOffice:2": "Eric Rolfson"
+    "SuperOffice:1": "Prof. Cleora Kuhlman DDS",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "iste"
+    "CustomFields1": "hic",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "2002-06-07T11:16:13.8707177+02:00",
-  "PublishTo": "1998-09-08T11:16:13.8707177+02:00",
-  "PublishFrom": "2009-11-08T11:16:13.8707177+01:00",
+  "PublishEventDate": "2012-02-07T12:57:42.3701486+01:00",
+  "PublishTo": "2004-01-18T12:57:42.3701486+01:00",
+  "PublishFrom": "2007-05-06T12:57:42.3701486+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 696,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldLength": 781
         }
       }
     },
     {
-      "VisibleId": 696,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldLength": 781
         }
       }
     }
@@ -211,12 +211,12 @@ Last-Modified: Tue, 26 May 2009 11:16:13 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 978
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

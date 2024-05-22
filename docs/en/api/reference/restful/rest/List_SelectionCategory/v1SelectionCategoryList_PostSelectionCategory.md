@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 514,
-  "Name": "Block-Volkman",
-  "Tooltip": "voluptatem",
+  "Id": 801,
+  "Name": "Padberg-Jones",
+  "Tooltip": "consectetur",
   "Deleted": false,
-  "UdListDefinitionId": 729,
-  "Rank": 919
+  "UdListDefinitionId": 599,
+  "Rank": 613
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 956,
-  "Name": "Bashirian-Konopelski",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "UdListDefinitionId": 574,
-  "Rank": 244,
+  "Id": 224,
+  "Name": "Runolfsdottir Group",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 172,
+  "Rank": 204,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 428
     }
   }
 }

@@ -146,6 +146,7 @@ This is the archive Provider for the Selection contact/person archive.
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
+|contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
@@ -161,7 +162,6 @@ This is the archive Provider for the Selection contact/person archive.
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -321,6 +321,7 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide| x |
 |sale/description| *None* |Description: The long description field on Sale|  |
 |sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?| x |
+|sale/createdByWorkflow| *None* |Created by workflow: Created by workflow| x |
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID| x |
 |sale/sale/description| *None* |Text: Displays the text entered in the description field| x |
@@ -331,11 +332,11 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/associate/firstName| *None* |First name: Displays the contact's first name| x |
 |sale/associate/lastName| *None* |Last name: Displays the contact's last name| x |
 |sale/associate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
-|sale/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -363,6 +364,7 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/associate/userName| *None* |User name: User name| x |
 |sale/associate/personEmail| *None* |E-mail| x |
 |sale/associate/locationAddress| *None* |Location: Location| x |
+|sale/associate/isLocation| *None* |Is a location: Is a location| x |
 |sale/saleUdef/SuperOffice:1| *None* |saleshorttext| x |
 |sale/saleUdef/SuperOffice:2| *None* |salelongtext| x |
 |sale/saleUdef/SuperOffice:3| *None* |salenumber| x |
@@ -412,6 +414,7 @@ This is the archive Provider for the Selection contact/person archive.
 |appointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/duration| *None* |Duration: The duration of the chat session|  |
+|appointment/createdByWorkflow| *None* |Created by workflow: Created by workflow| x |
 |appointment/visibleFor| *None* |Visible for|  |
 |appointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -433,13 +436,13 @@ This is the archive Provider for the Selection contact/person archive.
 |appointment/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |appointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
-|appointment/associate/associateDbId| *None* |ID| x |
-|appointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to| x |
-|appointment/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/associateDbId| *None* |ID| x |
+|appointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to| x |
+|appointment/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup| *None* |Primary group: The user's primary user group| x |
 |appointment/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to| x |
 |appointment/associate/contactCategory| *None* |Category: Category| x |
@@ -460,6 +463,7 @@ This is the archive Provider for the Selection contact/person archive.
 |appointment/associate/userName| *None* |User name: User name| x |
 |appointment/associate/personEmail| *None* |E-mail| x |
 |appointment/associate/locationAddress| *None* |Location: Location| x |
+|appointment/associate/isLocation| *None* |Is a location: Is a location| x |
 |appointment/appointment/description| *None* |Text: Displays the text entered in the description field| x |
 |appointment/appointment/title| *None* |Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -535,15 +539,16 @@ This is the archive Provider for the Selection contact/person archive.
 |document/associate/userName| *None* |User name: User name| x |
 |document/associate/personEmail| *None* |E-mail| x |
 |document/associate/locationAddress| *None* |Location: Location| x |
+|document/associate/isLocation| *None* |Is a location: Is a location| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |document/documentUdef/SuperOffice:1| *None* |documentshorttext| x |
 |document/documentUdef/SuperOffice:2| *None* |documentlongtext| x |
 |document/documentUdef/SuperOffice:3| *None* |documentnumber| x |
 |document/documentUdef/SuperOffice:4| *None* |documentdate| x |
 |document/documentUdef/SuperOffice:5| *None* |documentunlimiteddate| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |document/documentUdef/SuperOffice:6| *None* |documentcheckbox| x |
 |document/documentUdef/SuperOffice:7| *None* |documentdropdownlistbox| x |
 |document/documentUdef/SuperOffice:8| *None* |documentdecimal| x |
@@ -593,6 +598,9 @@ This is the archive Provider for the Selection contact/person archive.
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+|updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|createdByForm|listAny|Created by form: Created by form| x |
 |personInfo/textId|int|Text ID| x |
 |personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
@@ -607,7 +615,6 @@ This is the archive Provider for the Selection contact/person archive.
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
 |personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -637,6 +644,10 @@ This is the archive Provider for the Selection contact/person archive.
 |withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |subscription|listAny|Subscription: Subscription for marketing| x |
 |legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -644,10 +655,6 @@ This is the archive Provider for the Selection contact/person archive.
 |personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
 |personDirectPhone/description| *None* |Direct - Description: Phone number description| x |
 |personMobilePhone/formattedNumber| *None* |Mobile - Phone: Displays phone number|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personMobilePhone/description| *None* |Mobile - Description: Phone number description| x |
 |personPrivate/formattedNumber| *None* |Private - Phone: Displays phone number|  |
 |personPrivate/description| *None* |Private - Description: Phone number description| x |
@@ -725,6 +732,9 @@ This is the archive Provider for the Selection contact/person archive.
 |personSourceRelation/hasCompany| *None* |Source - Has company: The contact is associated with a company| x |
 |personSourceRelation/isProjectMember| *None* |Source - Is project member: This person is a project member| x |
 |personSourceRelation/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder| x |
+|personSourceRelation/updatedByWorkflow| *None* |Source - Updated by flow: Updated by flow| x |
+|personSourceRelation/whenUpdatedByWorkflow| *None* |Source - Updated by flow: Updated by flow| x |
+|personSourceRelation/createdByForm| *None* |Source - Created by form: Created by form| x |
 |personSourceRelation/restrictionContactId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
@@ -738,6 +748,10 @@ This is the archive Provider for the Selection contact/person archive.
 |personTargetRelation/hasInfoText| *None* |Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/personHasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personTargetRelation/mrMrs| *None* |Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personTargetRelation/position| *None* |Target - Position| x |
 |personTargetRelation/personNumber| *None* |Target - Number: Displays the contact's number| x |
@@ -748,10 +762,6 @@ This is the archive Provider for the Selection contact/person archive.
 |personTargetRelation/rank| *None* |Target - Rank: Displays a contact's current rank| x |
 |personTargetRelation/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
 |personTargetRelation/associateType| *None* |Target - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personTargetRelation/useAsMailingAddress| *None* |Target - Use as postal address: Use as postal address| x |
 |personTargetRelation/personSource| *None* |Target - Source: Source (Contact)| x |
 |personTargetRelation/retired| *None* |Target - Former employee: Indicates whether the contact has retired/left the company| x |
@@ -780,6 +790,9 @@ This is the archive Provider for the Selection contact/person archive.
 |personTargetRelation/hasCompany| *None* |Target - Has company: The contact is associated with a company| x |
 |personTargetRelation/isProjectMember| *None* |Target - Is project member: This person is a project member| x |
 |personTargetRelation/isStakeholder| *None* |Target - Is stakeholder: This person is a sale stakeholder| x |
+|personTargetRelation/updatedByWorkflow| *None* |Target - Updated by flow: Updated by flow| x |
+|personTargetRelation/whenUpdatedByWorkflow| *None* |Target - Updated by flow: Updated by flow| x |
+|personTargetRelation/createdByForm| *None* |Target - Created by form: Created by form| x |
 |personTargetRelation/restrictionContactId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/restrictionPersonId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/who| *None* |Target - Full name: Full name of company/contact| x |
@@ -817,6 +830,7 @@ This is the archive Provider for the Selection contact/person archive.
 |personAssociate/userName| *None* |User name: User name| x |
 |personAssociate/personEmail| *None* |E-mail| x |
 |personAssociate/locationAddress| *None* |Location: Location| x |
+|personAssociate/isLocation| *None* |Is a location: Is a location| x |
 |correspondingAssociate/firstName| *None* |First name: Displays the contact's first name| x |
 |correspondingAssociate/lastName| *None* |Last name: Displays the contact's last name| x |
 |correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
@@ -838,6 +852,10 @@ This is the archive Provider for the Selection contact/person archive.
 |correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -848,14 +866,11 @@ This is the archive Provider for the Selection contact/person archive.
 |correspondingAssociate/userName| *None* |User name: User name| x |
 |correspondingAssociate/personEmail| *None* |E-mail| x |
 |correspondingAssociate/locationAddress| *None* |Location: Location| x |
+|correspondingAssociate/isLocation| *None* |Is a location: Is a location| x |
 |request/contactId| *None* |Company ID: Database ID of company| x |
 |request/personId| *None* |Contact ID: Database ID of the contact row| x |
 |request/saleId| *None* |Sale ID: The database ID of the sale record| x |
 |request/projectId| *None* |Project ID: Database ID of project record| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/ticketTypeName| *None* |Request type: Request type| x |
 |request/ticketStatusName| *None* |Status: Request status| x |
 |request/categoryFullName| *None* |Category: Request category| x |
@@ -899,6 +914,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
+|request/createdByWorkflow| *None* |Created by workflow: Created by workflow| x |
 |request/createdBy/firstName| *None* |Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName| *None* |Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName| *None* |Created by - Middle Name: Displays the contact's middle name.| x |
@@ -930,6 +946,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/createdBy/userName| *None* |Created by - User name: User name| x |
 |request/createdBy/personEmail| *None* |Created by - E-mail| x |
 |request/createdBy/locationAddress| *None* |Created by - Location: Location| x |
+|request/createdBy/isLocation| *None* |Created by - Is a location: Is a location| x |
 |request/ownedBy/firstName| *None* |Owner - First name: Displays the contact's first name| x |
 |request/ownedBy/lastName| *None* |Owner - Last name: Displays the contact's last name| x |
 |request/ownedBy/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.| x |
@@ -939,6 +956,10 @@ This is the archive Provider for the Selection contact/person archive.
 |request/ownedBy/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |request/ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |request/ownedBy/associateDbId| *None* |Owner - ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group| x |
@@ -956,15 +977,12 @@ This is the archive Provider for the Selection contact/person archive.
 |request/ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/ownedBy/isActive| *None* |Owner - Active: Is this user active, and should be able to log in?| x |
 |request/ownedBy/isActiveText| *None* |Owner - Active status: Is this user active, and should be able to log in?| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/ownedBy/portraitThumbnail| *None* |Owner - Person image: Person image|  |
 |request/ownedBy/otherGroups| *None* |Owner - Other groups: Other groups|  |
 |request/ownedBy/userName| *None* |Owner - User name: User name| x |
 |request/ownedBy/personEmail| *None* |Owner - E-mail| x |
 |request/ownedBy/locationAddress| *None* |Owner - Location: Location| x |
+|request/ownedBy/isLocation| *None* |Owner - Is a location: Is a location| x |
 |request/extra/x\_ticket\_integer| *None* |Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float| *None* |Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext| *None* |Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -975,7 +993,6 @@ This is the archive Provider for the Selection contact/person archive.
 |request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
-|request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request| x |
@@ -1043,9 +1060,14 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |projectMembers/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/userName| *None* |User name: User name| x |
 |projectMembers/projectAssociate/personEmail| *None* |E-mail| x |
 |projectMembers/projectAssociate/locationAddress| *None* |Location: Location| x |
+|projectMembers/projectAssociate/isLocation| *None* |Is a location: Is a location| x |
 |projectMembers/projectUdef/SuperOffice:1| *None* |projectshorttext| x |
 |projectMembers/projectUdef/SuperOffice:2| *None* |projectlongtext| x |
 |projectMembers/projectUdef/SuperOffice:3| *None* |projectnumber| x |
@@ -1060,10 +1082,6 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |projectMembers/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
 |projectMembers/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/LastActivity| *None* |Date of last activity|  |
 |projectMembers/LastCompletedActivity| *None* |Date of last completed activity|  |
 |projectMembers/LastDoByActivity| *None* |Date of last non-completed activity|  |
@@ -1125,6 +1143,7 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |personAppointment/duration| *None* |Duration: The duration of the chat session|  |
+|personAppointment/createdByWorkflow| *None* |Created by workflow: Created by workflow| x |
 |personAppointment/visibleFor| *None* |Visible for|  |
 |personAppointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1145,6 +1164,10 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |personAppointment/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personAppointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/associateDbId| *None* |ID| x |
 |personAppointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to| x |
@@ -1164,15 +1187,12 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |personAppointment/associate/isActive| *None* |Active: Is this user active, and should be able to log in?| x |
 |personAppointment/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |personAppointment/associate/otherGroups| *None* |Other groups: Other groups|  |
 |personAppointment/associate/userName| *None* |User name: User name| x |
 |personAppointment/associate/personEmail| *None* |E-mail| x |
 |personAppointment/associate/locationAddress| *None* |Location: Location| x |
+|personAppointment/associate/isLocation| *None* |Is a location: Is a location| x |
 |personAppointment/appointment/description| *None* |Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title| *None* |Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -1185,7 +1205,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=stop,contactExtra/x_contact_float,targetRelation/countryId,appointment/associate/personId,document/isReport
+GET /api/v1/archive/ContactPersonSelectionV2?$select=business,email/emailLastBounce,restrictionAddress/zip,contactAssociate/isActive,sourceRelation/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

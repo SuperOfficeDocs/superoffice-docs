@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 48,
-    "Name": "Dietrich Group",
-    "OrgNr": "919621",
-    "Department": "",
+    "ContactId": 160,
+    "Name": "Nitzsche, Emard and Kulas",
+    "OrgNr": "1170676",
+    "Department": "synthesize revolutionary communities",
     "URL": "http://www.example.com/",
-    "City": "aut",
-    "DirectPhone": "342-070-0122",
-    "AssociateId": 560,
-    "CountryId": 968,
-    "EmailAddress": "hildegard.reichel@hauckorn.com",
-    "Kananame": "sit",
-    "EmailAddressName": "raul@doylebeer.uk",
+    "City": "quia",
+    "DirectPhone": "1-278-874-9938 x741",
+    "AssociateId": 835,
+    "CountryId": 630,
+    "EmailAddress": "rashawn_altenwerth@blick.info",
+    "Kananame": "dolore",
+    "EmailAddressName": "christy@zemlak.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Layne Hoppe",
+    "AssociateFullName": "Carlo Tremblay",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "soluta",
-    "FullName": "Cristian Prohaska",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 180,
-    "Number1": "1204849",
-    "Number2": "633546",
+    "FormattedAddress": "accusamus",
+    "FullName": "Dr. Caleigh Stiedemann Jr.",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 14,
+    "Number1": "720727",
+    "Number2": "614798",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldType": "System.String",
+        "FieldLength": 912
       }
     }
   }

@@ -108,35 +108,35 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 859,
-  "Name": "Abbott-Wolff",
-  "Rank": 68,
-  "Tooltip": "at",
-  "Icon": "harum",
-  "DefaultTicketStatus": 200,
+  "TicketTypeId": 819,
+  "Name": "Heaney-Davis",
+  "Rank": 681,
+  "Tooltip": "quidem",
+  "Icon": "praesentium",
+  "DefaultTicketStatus": 589,
   "TicketStatuses": [
-    428,
-    698
+    992,
+    116
   ],
-  "DefaultTicketPriority": 660,
+  "DefaultTicketPriority": 121,
   "TicketPriorities": [
-    278,
-    646
+    977,
+    384
   ],
-  "ReplyTemplate": 576,
+  "ReplyTemplate": 62,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    501,
-    646
+    40,
+    899
   ]
 }
 ```
@@ -148,38 +148,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 979,
-  "Name": "Romaguera-Ebert",
-  "Rank": 580,
-  "Tooltip": "reprehenderit",
-  "Icon": "exercitationem",
-  "DefaultTicketStatus": 789,
+  "TicketTypeId": 289,
+  "Name": "Sauer-Ortiz",
+  "Rank": 98,
+  "Tooltip": "nostrum",
+  "Icon": "officia",
+  "DefaultTicketStatus": 160,
   "TicketStatuses": [
-    764,
-    464
+    714,
+    787
   ],
-  "DefaultTicketPriority": 580,
+  "DefaultTicketPriority": 573,
   "TicketPriorities": [
-    675,
-    736
+    815,
+    904
   ],
-  "ReplyTemplate": 417,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 982,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    456,
-    271
+    198,
+    410
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   },
   "_Links": {

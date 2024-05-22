@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    661,
-    453
+    777,
+    712
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 136,
-    "ContactId": 324,
-    "ProjectId": 11,
-    "ContactName": "Huels-Marquardt",
+    "ProjectmemberId": 43,
+    "ContactId": 53,
+    "ProjectId": 126,
+    "ContactName": "Altenwerth-Schowalter",
     "ContactDepartment": "",
-    "ProjectName": "Miller Group",
-    "EmailId": 281,
-    "EmailAddress": "keshawn_grimes@millswest.com",
-    "CountryId": 53,
-    "Firstname": "Allan",
-    "MiddleName": "Kutch, Bashirian and Smith",
-    "Lastname": "Robel",
-    "PersonId": 71,
-    "Mrmrs": "consequuntur",
-    "ProjectMemberTypeName": "Barton-Ritchie",
-    "Phone": "1-264-263-0183 x3032",
-    "PhoneId": 538,
-    "ProjectMemberTypeId": 749,
-    "EmailAddressName": "fiona@walker.info",
-    "Comment": "est",
-    "FullName": "Ms. Tyrese Collier Jr.",
+    "ProjectName": "Lowe Inc and Sons",
+    "EmailId": 431,
+    "EmailAddress": "royal@turner.biz",
+    "CountryId": 947,
+    "Firstname": "Angel",
+    "MiddleName": "Tromp Group",
+    "Lastname": "Abshire",
+    "PersonId": 262,
+    "Mrmrs": "a",
+    "ProjectMemberTypeName": "McCullough Inc and Sons",
+    "Phone": "706-286-7196 x338",
+    "PhoneId": 846,
+    "ProjectMemberTypeId": 431,
+    "EmailAddressName": "tad@leuschke.info",
+    "Comment": "ut",
+    "FullName": "Elna Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 448
       }
     }
   }

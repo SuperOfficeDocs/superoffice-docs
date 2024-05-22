@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=assumenda
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=nisi
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 16 Mar 2008 11:16:13 G3T
+Last-Modified: Mon, 11 Mar 2024 12:57:42 G3T
 
 {
-  "Key": "enim",
-  "Value": "delectus",
-  "RecordId": 328,
-  "CreatedDate": "1999-04-02T11:16:13.93321+02:00",
-  "UpdatedDate": "2008-03-16T11:16:13.93321+01:00",
-  "UpdatedBy": "commodi",
-  "CreatedBy": "earum",
-  "TableName": "Robel LLC",
+  "Key": "et",
+  "Value": "illum",
+  "RecordId": 808,
+  "CreatedDate": "2015-07-03T12:57:42.4638774+02:00",
+  "UpdatedDate": "2024-03-11T12:57:42.4638774+01:00",
+  "UpdatedBy": "natus",
+  "CreatedBy": "quisquam",
+  "TableName": "Collier Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 293
     }
   }
 }

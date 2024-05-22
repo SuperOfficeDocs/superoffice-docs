@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 698,
-  "Name": "Wehner, Rempel and Lowe",
-  "Description": "Balanced responsive frame",
-  "WelcomeMessage": "odio",
+  "ChatTopicId": 93,
+  "Name": "Barrows LLC",
+  "Description": "Self-enabling multi-state interface",
+  "WelcomeMessage": "soluta",
   "Language": null,
-  "LastAccept": "2015-06-28T11:16:13.7456138+02:00",
-  "SecondsPrAccept": 202,
-  "AlertRecipient": "nesciunt",
+  "LastAccept": "2007-06-11T12:57:42.1670705+02:00",
+  "SecondsPrAccept": 541,
+  "AlertRecipient": "exercitationem",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "vitae",
+  "CollectConsent": false,
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ratione",
-  "WarnNewChatMinutes": 631,
-  "WarnManagerNewChatMinutes": 8,
+  "CustomQueueText": "iste",
+  "WarnNewChatMinutes": 676,
+  "WarnManagerNewChatMinutes": 540,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 727,
-  "WarnManagerChatMessageMinutes": 426,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 726,
+  "WarnManagerChatMessageMinutes": 506,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 26,
-  "OfflineFormQueueLength": 46,
+  "OfflineFormTimeLimit": 690,
+  "OfflineFormQueueLength": 789,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "magni",
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldType": "System.Int32",
+      "FieldLength": 535
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

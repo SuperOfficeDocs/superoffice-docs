@@ -112,15 +112,15 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 45,
-  "Name": "Erdman-Denesik",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 793,
+  "WebPanelId": 74,
+  "Name": "Dooley, Dach and Kihn",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 255,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -128,14 +128,14 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Kulas LLC",
+  "WindowName": "Feeney-Willms",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsam",
-  "Icon": 575,
+  "ProgId": "architecto",
+  "Icon": 171,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -148,26 +148,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 760,
-  "Name": "Ernser-McClure",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 717,
+  "WebPanelId": 130,
+  "Name": "Kilback, Greenholt and Buckridge",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "Rank": 758,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Hermiston LLC",
+  "WindowName": "Hamill, Schowalter and Schiller",
   "Url": "http://www.example.com/",
-  "ProgId": "error",
-  "Icon": 628,
+  "ProgId": "unde",
+  "Icon": 893,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldLength": 494
     }
   }
 }

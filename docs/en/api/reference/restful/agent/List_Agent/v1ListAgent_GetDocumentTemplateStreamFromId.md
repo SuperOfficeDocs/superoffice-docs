@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 908,
-  "LanguageCode": "dolorum"
+  "DocumentTemplateId": 582,
+  "LanguageCode": "sit"
 }
 ```
 

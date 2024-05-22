@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Cole LLC",
-    "ToolTip": "Veritatis optio quia aut.",
-    "Deleted": false,
-    "Rank": 558,
-    "Type": "nemo",
-    "ColorBlock": 818,
-    "IconHint": "saepe",
-    "Selected": false,
-    "LastChanged": "2014-02-27T11:16:14.6526601+01:00",
+    "Id": 827,
+    "Name": "Lueilwitz LLC",
+    "ToolTip": "Nam pariatur.",
+    "Deleted": true,
+    "Rank": 110,
+    "Type": "et",
+    "ColorBlock": 871,
+    "IconHint": "necessitatibus",
+    "Selected": true,
+    "LastChanged": "2017-01-21T12:57:43.6051463+01:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Muller, Klocko and Kutch",
-        "ToolTip": "Minima laudantium nulla.",
+        "Id": 166,
+        "Name": "Satterfield-Goodwin",
+        "ToolTip": "Non nam et magni et vitae ut.",
         "Deleted": false,
-        "Rank": 284,
-        "Type": "soluta",
-        "ColorBlock": 255,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2002-11-24T11:16:14.6526601+01:00",
+        "Rank": 202,
+        "Type": "officia",
+        "ColorBlock": 177,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2004-12-16T12:57:43.6051463+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "sunt",
+        "ExtraInfo": "et",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Nina Cartwright",
+        "FullName": "Miss Luigi Clement Kihn DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldLength": 294
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "sed",
+    "ExtraInfo": "non",
+    "StyleHint": "cumque",
     "Hidden": true,
-    "FullName": "Lambert Glover",
+    "FullName": "Estella Ewell Wolf Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 959
       }
     }
   }

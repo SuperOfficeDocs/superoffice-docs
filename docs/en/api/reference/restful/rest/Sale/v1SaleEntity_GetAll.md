@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=aut
-GET /api/v1/Sale?$top=21
-GET /api/v1/Sale?$skip=425
+GET /api/v1/Sale?$entities=porro
+GET /api/v1/Sale?$top=443
+GET /api/v1/Sale?$skip=990
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=quia
+GET /api/v1/Sale?$context=ipsum
 GET /api/v1/Sale?$format=JSON
-GET /api/v1/Sale?$jsonSafe=False
+GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatum",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 7280,
-      "EntityName": "person",
-      "personId": 7280,
-      "fullName": "Ms. Annabell Laney Christiansen"
+      "PrimaryKey": 6599,
+      "EntityName": "sale",
+      "saleId": 6599,
+      "contactId": 2855,
+      "name": "Zulauf LLC"
     },
     {
-      "PrimaryKey": 3904,
-      "EntityName": "person",
-      "personId": 3904,
-      "fullName": "Ms. Bella Williamson II"
+      "PrimaryKey": 8138,
+      "EntityName": "sale",
+      "saleId": 8138,
+      "contactId": 6419,
+      "name": "Towne-McDermott"
     }
   ]
 }

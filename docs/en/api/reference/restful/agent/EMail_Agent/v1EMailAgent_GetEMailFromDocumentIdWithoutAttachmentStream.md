@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 929
+  "DocumentId": 490
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 361,
-      "ContactName": "Keeling-Wolf",
-      "PersonId": 636,
-      "PersonName": "Raynor, Kassulke and Smitham",
-      "AssociateId": 326,
-      "Address": "non",
-      "EmailId": 592,
+      "ContactId": 209,
+      "ContactName": "Bosco Inc and Sons",
+      "PersonId": 146,
+      "PersonName": "Berge-Berge",
+      "AssociateId": 719,
+      "Address": "laborum",
+      "EmailId": 838,
       "DuplicatePersonIds": [
-        40,
-        685
+        130,
+        398
       ],
-      "Name": "Mertz, Little and Klocko",
+      "Name": "Altenwerth Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldType": "System.String",
+          "FieldLength": 487
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 804,
-      "ContactName": "Sanford, Lesch and Cruickshank",
-      "PersonId": 460,
-      "PersonName": "Fisher, Jacobson and Ondricka",
-      "AssociateId": 691,
-      "Address": "asperiores",
-      "EmailId": 539,
+      "ContactId": 743,
+      "ContactName": "Glover-Dicki",
+      "PersonId": 997,
+      "PersonName": "Hartmann, Auer and Brakus",
+      "AssociateId": 516,
+      "Address": "sed",
+      "EmailId": 139,
       "DuplicatePersonIds": [
-        685,
-        723
+        389,
+        433
       ],
-      "Name": "Cormier Inc and Sons",
+      "Name": "Swaniawski-Murray",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 361
+          "FieldType": "System.Int32",
+          "FieldLength": 875
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 222,
-      "ContactName": "Stracke Inc and Sons",
-      "PersonId": 522,
-      "PersonName": "Brown, Jacobi and Schultz",
-      "AssociateId": 110,
-      "Address": "minima",
-      "EmailId": 379,
+      "ContactId": 397,
+      "ContactName": "Lakin, Collins and Rohan",
+      "PersonId": 41,
+      "PersonName": "Muller, Goodwin and Halvorson",
+      "AssociateId": 160,
+      "Address": "optio",
+      "EmailId": 502,
       "DuplicatePersonIds": [
-        380,
-        979
+        257,
+        883
       ],
-      "Name": "Bechtelar-Heathcote",
+      "Name": "Predovic Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldLength": 534
         }
       }
     }
   ],
-  "Subject": "fugiat",
-  "HTMLBody": "eaque",
+  "Subject": "adipisci",
+  "HTMLBody": "reiciendis",
   "From": null,
-  "Sent": "2004-04-23T11:16:09.1784746+02:00",
+  "Sent": "2021-02-04T12:57:33.8836618+01:00",
   "Size": 255,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vel",
-  "PlainBody": "ab",
-  "IsSent": false,
+  "MessageID": "temporibus",
+  "PlainBody": "totam",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 12,
+  "ServerId": 814,
   "Attachments": [
     {
-      "Description": "Distributed demand-driven architecture",
-      "Filename": "voluptas",
-      "Size": 614,
-      "Type": "unde",
-      "Encoding": "et",
-      "Id": "enim",
-      "Disposition": "soluta",
-      "IsSafeFileExtension": false,
+      "Description": "Pre-emptive maximized encryption",
+      "Filename": "amet",
+      "Size": 947,
+      "Type": "deleniti",
+      "Encoding": "ipsam",
+      "Id": "illo",
+      "Disposition": "libero",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldLength": 950
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rutherford, Bergnaum and Langosh",
+      "Name": "Daniel Inc and Sons",
       "Values": [
-        "vel",
-        "dolorem"
+        "cumque",
+        "totam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldType": "System.String",
+          "FieldLength": 763
         }
       }
     },
     {
-      "Name": "Rutherford, Bergnaum and Langosh",
+      "Name": "Daniel Inc and Sons",
       "Values": [
-        "vel",
-        "dolorem"
+        "cumque",
+        "totam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldType": "System.String",
+          "FieldLength": 763
         }
       }
     }
   ],
-  "FolderName": "Douglas, Schuppe and Pagac",
-  "EmailItemId": 424,
-  "AccountId": 789,
-  "ReceivedAt": "1997-10-24T11:16:09.1784746+02:00",
+  "FolderName": "Prohaska-Erdman",
+  "EmailItemId": 615,
+  "AccountId": 351,
+  "ReceivedAt": "2015-12-03T12:57:33.8836618+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-03-22T11:16:09.1784746+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2012-08-20T12:57:33.8836618+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

@@ -88,9 +88,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jast Inc and Sons",
-  "DeviceName": "Ward-Lemke",
-  "DeviceIdentifier": "consectetur",
+  "ApplicationName": "Toy Inc and Sons",
+  "DeviceName": "Bradtke LLC",
+  "DeviceIdentifier": "deserunt",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 926,
-  "Name": "Flatley, Kozey and Dooley",
-  "CreatedDate": "2011-05-18T11:16:09.2878404+02:00",
-  "UpdatedDate": "2016-12-14T11:16:09.2878404+01:00",
-  "AssociateFullName": "Carolina Towne",
-  "CreatedBy": "perferendis",
-  "UpdatedBy": "aspernatur",
-  "DeviceIdentifier": "aperiam",
-  "ForeignAppId": 329,
+  "ForeignDeviceId": 477,
+  "Name": "Graham, Windler and Terry",
+  "CreatedDate": "2014-07-11T12:57:34.0554972+02:00",
+  "UpdatedDate": "2021-08-27T12:57:34.0554972+02:00",
+  "AssociateFullName": "Moses Bergnaum",
+  "CreatedBy": "dolorum",
+  "UpdatedBy": "molestiae",
+  "DeviceIdentifier": "doloremque",
+  "ForeignAppId": 404,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 544
     }
   }
 }

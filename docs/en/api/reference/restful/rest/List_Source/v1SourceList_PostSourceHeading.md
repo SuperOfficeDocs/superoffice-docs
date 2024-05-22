@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 378,
-  "Name": "Conn-Conn",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 484,
-  "UdListDefinitionId": 377
+  "HeadingId": 535,
+  "Name": "Crist, Lindgren and Orn",
+  "Tooltip": "magni",
+  "Deleted": false,
+  "Rank": 858,
+  "UdListDefinitionId": 268
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 209,
-  "Name": "Effertz, Stoltenberg and Price",
-  "Tooltip": "incidunt",
+  "HeadingId": 839,
+  "Name": "Becker-Beer",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 425,
-  "UdListDefinitionId": 450,
+  "Rank": 677,
+  "UdListDefinitionId": 167,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 677
     }
   }
 }

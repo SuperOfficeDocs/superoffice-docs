@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Crooks-Pacocha",
-    "ToolTip": "Dicta iure et ut esse.",
-    "Deleted": false,
-    "Rank": 500,
-    "Type": "eos",
-    "ColorBlock": 737,
-    "IconHint": "tempore",
+    "Id": 675,
+    "Name": "Ondricka-Tremblay",
+    "ToolTip": "Dicta fugiat voluptas.",
+    "Deleted": true,
+    "Rank": 312,
+    "Type": "maxime",
+    "ColorBlock": 17,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2012-04-09T11:16:14.5589219+02:00",
+    "LastChanged": "2001-06-01T12:57:43.4645538+02:00",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Jacobson LLC",
-        "ToolTip": "Et id unde facere id error sapiente voluptas.",
-        "Deleted": true,
-        "Rank": 976,
-        "Type": "voluptates",
-        "ColorBlock": 988,
-        "IconHint": "possimus",
-        "Selected": false,
-        "LastChanged": "2011-07-07T11:16:14.5589219+02:00",
+        "Id": 105,
+        "Name": "Dietrich, Weber and Stokes",
+        "ToolTip": "Vero animi.",
+        "Deleted": false,
+        "Rank": 283,
+        "Type": "rerum",
+        "ColorBlock": 739,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2022-08-05T12:57:43.4645538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "atque",
-        "Hidden": false,
-        "FullName": "Prof. Frankie Cullen Pouros",
+        "ExtraInfo": "quasi",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Efrain Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 174
+            "FieldType": "System.Int32",
+            "FieldLength": 167
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "alias",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Erling Lynch Jr.",
+    "FullName": "Friedrich Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 100
       }
     }
   }

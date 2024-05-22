@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 726,
-  "ColumnId": 677,
-  "FieldDefault": "sunt",
-  "FieldHeight": 34,
-  "FieldLabel": "ex",
-  "FieldLeft": 266,
-  "FieldTop": 513,
+  "UDefFieldId": 169,
+  "ColumnId": 352,
+  "FieldDefault": "quo",
+  "FieldHeight": 631,
+  "FieldLabel": "fuga",
+  "FieldLeft": 321,
+  "FieldTop": 872,
   "FieldType": "Checkbox",
-  "FieldWidth": 899,
-  "FormatMask": "iusto",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 928,
-  "LabelLeft": 69,
-  "LabelTop": 191,
-  "LabelWidth": 357,
-  "LastVersionId": 986,
-  "ListTableId": 687,
-  "IsMandatory": true,
+  "FieldWidth": 892,
+  "FormatMask": "corrupti",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 917,
+  "LabelLeft": 640,
+  "LabelTop": 11,
+  "LabelWidth": 768,
+  "LastVersionId": 917,
+  "ListTableId": 263,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 749,
-  "ProgId": "totam",
+  "Page1LineNo": 576,
+  "ProgId": "voluptas",
   "IsReadOnly": false,
-  "ShortLabel": "vitae",
-  "TabOrder": 947,
-  "TextLength": 813,
-  "Tooltip": "qui",
-  "UdefIdentity": 203,
-  "UDListDefinitionId": 680,
+  "ShortLabel": "consequuntur",
+  "TabOrder": 439,
+  "TextLength": 258,
+  "Tooltip": "molestias",
+  "UdefIdentity": 146,
+  "UDListDefinitionId": 844,
   "Justification": "Center",
-  "Version": 466,
-  "TemplateVariableName": "Stamm, Yost and Tillman",
+  "Version": 629,
+  "TemplateVariableName": "Moen Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Howe-Schimmel",
+  "MdoListName": "Schamberger, Bogan and Ward",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 264
     }
   }
 }

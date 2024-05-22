@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 29,
-  "TopicId": 804,
+  "ChatSessionId": 33,
+  "TopicId": 941,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestias",
-  "CustomerHost": "voluptate",
-  "CustomerName": "Klein Group",
-  "CustomerEmail": "winston.little@ritchiekris.com",
-  "CustomerPhone": "453-364-1491 x37685",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "dicta",
+  "CustomerName": "Mitchell, Lueilwitz and Rice",
+  "CustomerEmail": "precious_hand@gerhold.com",
+  "CustomerPhone": "1-012-505-5307 x640",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Stehr-Watsica",
+  "CustomerCompanyName": "Pollich Group",
   "Status": "Closed",
-  "FirstMessage": "enim",
-  "LastMessage": "quia",
-  "WhenRequested": "2018-06-17T11:16:08.7566429+02:00",
-  "WhenStarted": "2013-01-26T11:16:08.7566429+01:00",
-  "WhenEnded": "2006-10-21T11:16:08.7566429+02:00",
-  "WhenIdle": "2011-10-31T11:16:08.7566429+01:00",
-  "WhenFetched": "2023-06-29T11:16:08.7566429+02:00",
-  "SessionKey": "dignissimos",
-  "InitialQueuePos": 311,
-  "AlertLevel": 219,
-  "Rank": 839,
+  "FirstMessage": "sit",
+  "LastMessage": "voluptas",
+  "WhenRequested": "2002-04-13T12:57:33.305641+02:00",
+  "WhenStarted": "2019-06-04T12:57:33.305641+02:00",
+  "WhenEnded": "2009-05-07T12:57:33.305641+02:00",
+  "WhenIdle": "2003-04-03T12:57:33.305641+02:00",
+  "WhenFetched": "2013-01-06T12:57:33.305641+01:00",
+  "SessionKey": "tempora",
+  "InitialQueuePos": 257,
+  "AlertLevel": 198,
+  "Rank": 957,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 352,
+  "ChatbotIsActive": false,
+  "Rating": 484,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 107
     }
   }
 }

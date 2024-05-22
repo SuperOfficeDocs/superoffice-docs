@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Jones, Hayes and Batz",
-      "Operator": "id",
+      "Name": "Hauck Group",
+      "Operator": "laboriosam",
       "Values": [
-        "inventore",
-        "expedita"
+        "perspiciatis",
+        "a"
       ],
       "DisplayValues": [
-        "porro",
-        "voluptates"
+        "autem",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 634,
+      "InterParenthesis": 235,
       "InterOperator": "And",
-      "UniqueHash": 953
+      "UniqueHash": 677
     }
   ],
-  "ProviderName": "Wintheiser LLC",
+  "ProviderName": "Stoltenberg, Flatley and Ritchie",
   "DesiredColumns": [
-    "temporibus",
-    "neque"
+    "quasi",
+    "quasi"
   ],
-  "PageSize": 634,
-  "PageNumber": 393
+  "PageSize": 581,
+  "PageNumber": 62
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Huel, Zemlak and Reilly",
-      "DisplayTooltip": "velit",
-      "DisplayType": "quis",
+      "DisplayName": "Sanford LLC",
+      "DisplayTooltip": "sit",
+      "DisplayType": "numquam",
       "CanOrderBy": false,
-      "Name": "Hyatt-McGlynn",
-      "CanRestrictBy": true,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Brown, Donnelly and Hammes",
+      "Name": "Watsica-Brekke",
+      "CanRestrictBy": false,
+      "RestrictionType": "modi",
+      "RestrictionListName": "Ryan LLC",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "at",
-      "IconHint": "nisi",
-      "HeadingIconHint": "ipsum"
+      "ExtraInfo": "ab",
+      "Width": "quas",
+      "IconHint": "ullam",
+      "HeadingIconHint": "adipisci"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyer LLC",
-      "PrimaryKey": 678,
+      "EntityName": "Reynolds, Bauch and Murphy",
+      "PrimaryKey": 339,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "commodi",
-          "TooltipHint": "fuga",
-          "LinkHint": "quisquam"
+          "DisplayValue": "eligendi",
+          "TooltipHint": "enim",
+          "LinkHint": "eligendi"
         }
       },
-      "LinkHint": "molestiae",
-      "StyleHint": "quasi",
+      "LinkHint": "voluptate",
+      "StyleHint": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldLength": 308
         }
       }
     }
   ],
-  "RowCount": 735,
+  "RowCount": 999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldLength": 195
     }
   }
 }

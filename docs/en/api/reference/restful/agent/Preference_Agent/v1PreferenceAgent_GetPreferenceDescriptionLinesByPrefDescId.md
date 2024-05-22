@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 649
+  "PrefDescId": 448
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 243,
-    "PrefDescId": 505,
-    "PrefValue": "at",
-    "PrefShowValue": "amet",
-    "Description": "Cross-group dedicated success",
+    "PrefDescLineId": 149,
+    "PrefDescId": 272,
+    "PrefValue": "qui",
+    "PrefShowValue": "aspernatur",
+    "Description": "Operative coherent model",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 203
       }
     }
   }

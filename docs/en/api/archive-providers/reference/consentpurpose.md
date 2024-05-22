@@ -92,6 +92,9 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |consentPerson/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |consentPerson/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
+|consentPerson/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
+|consentPerson/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|consentPerson/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |consentPerson/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |consentPerson/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
 |consentPerson/person/personDirectPhone/description|string|Contact - Direct - Description: Phone number description| x |
@@ -120,13 +123,13 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personAddress/line2|string|Contact - Contact address - Address 2: Second line of the address| x |
 |consentPerson/person/personAddress/line3|string|Contact - Contact address - Address 3: Third line of the address| x |
 |consentPerson/person/personAddress/county|string|Contact - Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|consentPerson/person/personAddress/city|string|Contact - Contact address - City: This criterion corresponds to the City field on the Company card.| x |
-|consentPerson/person/personAddress/zip|string|Contact - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|consentPerson/person/personAddress/state|string|Contact - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|consentPerson/person/personAddress/city|string|Contact - Contact address - City: This criterion corresponds to the City field on the Company card.| x |
+|consentPerson/person/personAddress/zip|string|Contact - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+|consentPerson/person/personAddress/state|string|Contact - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |consentPerson/person/personAddress/wgs84latitude|decimal|Contact - Contact address - Latitude: Latitude| x |
 |consentPerson/person/personAddress/wgs84longitude|decimal|Contact - Contact address - Longitude: Longitude| x |
 |consentPerson/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -143,7 +146,6 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personUdef/SuperOffice:10|string|Contact - page1marketingonly| x |
 |consentPerson/person/personUdef/SuperOffice:11|string|Contact - page1adminonly| x |
 |consentPerson/person/personExtra/x\_person\_integer|int|Contact - Extra Integer: Custom person integer| x |
-|consentPerson/person/personExtra/x\_person\_hidden\_integer|int|Contact - Extra hidden integer: Custom integer field that is hidden| x |
 |consentPerson/person/personExtra/x\_person\_float|decimal|Contact - Extra float: Custom float field| x |
 |consentPerson/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |consentPerson/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -180,7 +182,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personExtra/x_person_category_relation,consentPerson/person/personUpdatedByFullName,consentPerson/person/personPrivate/description
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personCountry,consentPerson/person/retired,consentPerson/person/personUpdatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

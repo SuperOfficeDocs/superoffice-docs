@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Willms-Stracke",
-  "NewSerialNumber": "575214"
+  "NewCompanyName": "Considine-Bosco",
+  "NewSerialNumber": "580543"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 337
     }
   }
 }

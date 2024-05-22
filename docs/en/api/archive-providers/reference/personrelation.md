@@ -83,6 +83,9 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/hasCompany| *None* |Source - Has company: The contact is associated with a company|  |
 |source/isProjectMember| *None* |Source - Is project member: This person is a project member|  |
 |source/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder|  |
+|source/updatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
+|source/whenUpdatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
+|source/createdByForm| *None* |Source - Created by form: Created by form|  |
 |source/phone/formattedNumber|string|Source - Phone: Displays phone number|  |
 |source/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |source/restrictionPersonId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
@@ -121,13 +124,13 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
 |source/deletedDate|datetime|Source - Deleted date: Deleted date|  |
 |source/mainContact| *None* |Source - Main contact: Main contact for this company| x |
-|source/contactPhone/formattedNumber|string|Source - Telephone - Phone: Displays phone number|  |
-|source/contactPhone/description|string|Source - Telephone - Description: Phone number description| x |
-|target/contactId|int|Target - Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|source/contactPhone/formattedNumber|string|Source - Telephone - Phone: Displays phone number|  |
+|source/contactPhone/description|string|Source - Telephone - Description: Phone number description| x |
+|target/contactId|int|Target - Company ID: Database ID of company| x |
 |target/name|stringorPK|Target - Company name| x |
 |target/department|string|Target - Department| x |
 |target/nameDepartment| *None* |Target - Company: Displays the company an activity is linked to| x |
@@ -225,13 +228,13 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |target/contactAssociate/contactCategory| *None* |Target - Category: Category|  |
 |target/contactAssociate/role| *None* |Target - Role: Role|  |
 |target/contactAssociate/assocName| *None* |Target - User ID: User ID|  |
-|target/contactAssociate/assocTooltip| *None* |Target - Description: Description|  |
-|target/contactAssociate/assocType| *None* |Target - Type: Type of user: associate, external user, system user, anonymous account|  |
-|target/contactAssociate/ejUserId| *None* |Target - Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|target/contactAssociate/assocTooltip| *None* |Target - Description: Description|  |
+|target/contactAssociate/assocType| *None* |Target - Type: Type of user: associate, external user, system user, anonymous account|  |
+|target/contactAssociate/ejUserId| *None* |Target - Service user ID: The database ID of a Service user|  |
 |target/contactAssociate/simultaneousEjUser| *None* |Target - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |target/contactAssociate/ejDisplayName| *None* |Target - Nick name: User's nick name in Service|  |
 |target/contactAssociate/ejStatus| *None* |Target - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -244,6 +247,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |target/contactAssociate/userName| *None* |Target - User name: User name|  |
 |target/contactAssociate/personEmail| *None* |Target - E-mail|  |
 |target/contactAssociate/locationAddress| *None* |Target - Location: Location|  |
+|target/contactAssociate/isLocation| *None* |Target - Is a location: Is a location|  |
 |target/contactInterestIds| *None* |Target - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |target/contactUdef/SuperOffice:1| *None* |Target - companyshorttext: tooltipshorttext|  |
 |target/contactUdef/SuperOffice:2| *None* |Target - companylongtext: tooltiplongtext|  |
@@ -259,7 +263,6 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |target/contactUdef/SuperOffice:12| *None* |Target - Udlist one: Static tooltip for udlist one|  |
 |target/contactUdef/SuperOffice:13| *None* |Target - Udlist two: Static tooltip for udlist two|  |
 |target/contactExtra/x\_contact\_integer| *None* |Target - Extra Integer: Custom integer field|  |
-|target/contactExtra/x\_contact\_hidden\_integer| *None* |Target - Extra hidden integer: Custom integer field - hidden|  |
 |target/contactExtra/x\_contact\_default\_integer| *None* |Target - Extra Default Integer: Custom integer field with default value 123.|  |
 |target/contactExtra/x\_contact\_float| *None* |Target - Extra Float: Custom float field with 3 decimals|  |
 |target/contactExtra/x\_contact\_longtext| *None* |Target - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
@@ -329,17 +332,18 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|portraitThumbnail| *None* |Person image: Person image|  |
 |otherGroups|userGroup|Other groups: Other groups|  |
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
 |locationAddress|string|Location: Location| x |
+|isLocation|bool|Is a location: Is a location| x |
 |target/personId| *None* |Target - DB ID: Displays the database ID of a contact|  |
 |target/firstName| *None* |Target - First name: Displays the contact's first name|  |
 |target/lastName| *None* |Target - Last name: Displays the contact's last name|  |
@@ -385,6 +389,9 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |target/hasCompany| *None* |Target - Has company: The contact is associated with a company|  |
 |target/isProjectMember| *None* |Target - Is project member: This person is a project member|  |
 |target/isStakeholder| *None* |Target - Is stakeholder: This person is a sale stakeholder|  |
+|target/updatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
+|target/whenUpdatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
+|target/createdByForm| *None* |Target - Created by form: Created by form|  |
 |target/restrictionPersonId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
 |target/personDirectPhone/formattedNumber| *None* |Target - Direct - Phone: Displays phone number|  |
 |target/personDirectPhone/description| *None* |Target - Direct - Description: Phone number description|  |
@@ -429,6 +436,10 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/streetAddress/zip| *None* |Source - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 |source/streetAddress/state| *None* |Source - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 |source/streetAddress/wgs84latitude| *None* |Source - Street address - Latitude: Latitude|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |source/streetAddress/wgs84longitude| *None* |Source - Street address - Longitude: Longitude|  |
 |source/streetAddress/formattedAddress| *None* |Source - Street address - {formattedAddress}: {formattedAddress}|  |
 |source/streetAddress/formattedMultiLineAddress| *None* |Source - Street address - {formattedAddress}: {formattedAddress}|  |
@@ -436,10 +447,6 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/restrictionAddress/line1| *None* |Source - Search address - Address 1: First line of the address|  |
 |source/restrictionAddress/line2| *None* |Source - Search address - Address 2: Second line of the address|  |
 |source/restrictionAddress/line3| *None* |Source - Search address - Address 3: Third line of the address|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |source/restrictionAddress/county| *None* |Source - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |source/restrictionAddress/city| *None* |Source - Search address - City: This criterion corresponds to the City field on the Company card.|  |
 |source/restrictionAddress/zip| *None* |Source - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
@@ -481,6 +488,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/contactAssociate/userName| *None* |Source - User name: User name|  |
 |source/contactAssociate/personEmail| *None* |Source - E-mail|  |
 |source/contactAssociate/locationAddress| *None* |Source - Location: Location|  |
+|source/contactAssociate/isLocation| *None* |Source - Is a location: Is a location|  |
 |source/contactInterestIds| *None* |Source - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |source/contactUdef/SuperOffice:1| *None* |Source - companyshorttext: tooltipshorttext|  |
 |source/contactUdef/SuperOffice:2| *None* |Source - companylongtext: tooltiplongtext|  |
@@ -496,7 +504,6 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/contactUdef/SuperOffice:12| *None* |Source - Udlist one: Static tooltip for udlist one|  |
 |source/contactUdef/SuperOffice:13| *None* |Source - Udlist two: Static tooltip for udlist two|  |
 |source/contactExtra/x\_contact\_integer| *None* |Source - Extra Integer: Custom integer field|  |
-|source/contactExtra/x\_contact\_hidden\_integer| *None* |Source - Extra hidden integer: Custom integer field - hidden|  |
 |source/contactExtra/x\_contact\_default\_integer| *None* |Source - Extra Default Integer: Custom integer field with default value 123.|  |
 |source/contactExtra/x\_contact\_float| *None* |Source - Extra Float: Custom float field with 3 decimals|  |
 |source/contactExtra/x\_contact\_longtext| *None* |Source - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
@@ -533,6 +540,10 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/LastTicket| *None* |Source - Date of last request|  |
 |source/LastCompletedTicket| *None* |Source - Date of last completed request|  |
 |source/LastDoByTicket| *None* |Source - Date of last non-completed request|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |source/SaintStatus1| *None* |Source - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |source/SaintStatus2| *None* |Source - C-company: Kundens navn starter med bokstaven C|  |
 |source/saintSaleStatus| *None* |Source - With status|  |
@@ -540,17 +551,13 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/saintActivityType| *None* |Source - SAINT type|  |
 |source/saintDirection| *None* |Source - Direction|  |
 |source/saintIntention| *None* |Source - Intention|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |source/saintTicketStatus| *None* |Source - Status|  |
 |source/saintTicketCategory| *None* |Source - Category|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=target/email/emailLastBounce,target/postAddress/line2,target/contactAssociate/fullName
+GET /api/v1/archive/PersonRelation?$select=processedName,source/restrictionPersonId,target/contactExtra/x_contact_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

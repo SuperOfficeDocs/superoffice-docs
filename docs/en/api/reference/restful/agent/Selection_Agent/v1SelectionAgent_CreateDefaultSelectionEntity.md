@@ -55,7 +55,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face motivating pricing structure",
-  "Postit": "est",
+  "Description": "Re-contextualized tangible system engine",
+  "Postit": "quo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 364,
-  "IncludePerson": 692,
-  "MemberCount": 340,
-  "Name": "Gaylord-Corwin",
-  "PostitTextId": 187,
-  "CreatedDate": "2002-08-14T11:16:09.6947013+02:00",
-  "SelectionId": 556,
-  "SoundEx": "aut",
-  "Source": 11,
-  "TextId": 943,
-  "UpdatedDate": "2009-02-25T11:16:09.6947013+01:00",
-  "UpdatedCount": 607,
-  "Visibility": 33,
+  "GroupIdx": 160,
+  "IncludePerson": 247,
+  "MemberCount": 99.99,
+  "Name": "Franecki Group",
+  "PostitTextId": 644,
+  "CreatedDate": "2023-05-03T12:57:34.8989653+02:00",
+  "SelectionId": 206,
+  "SoundEx": "quas",
+  "Source": 735,
+  "TextId": 970,
+  "UpdatedDate": "2018-01-06T12:57:34.8989653+01:00",
+  "UpdatedCount": 804,
+  "Visibility": 900,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 215,
-  "TargetTableName": "Schaefer Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 946,
-  "RightSelectionId": 353,
+  "CompanyUnique": true,
+  "TargetTableNumber": 719,
+  "TargetTableName": "Fisher, Haley and Kirlin",
+  "Completed": false,
+  "LeftSelectionId": 347,
+  "RightSelectionId": 764,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Considine, Douglas and Anderson",
-  "ShadowProviderName": "Kozey, Mraz and Zemlak",
-  "ChartKey": "laborum",
-  "LastLoaded": "2002-11-25T11:16:09.6947013+01:00",
-  "LastLoadedBy": 425,
+  "MainProviderName": "Skiles-Nolan",
+  "ShadowProviderName": "Berge LLC",
+  "ChartKey": "nesciunt",
+  "LastLoaded": "2023-06-07T12:57:34.8989653+02:00",
+  "LastLoadedBy": 718,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-07-07T11:16:09.6947013+02:00",
-  "LastMembershipChangeBy": 366,
+  "LastMembershipChange": "2023-07-12T12:57:34.8989653+02:00",
+  "LastMembershipChangeBy": 73,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "laborum",
-  "MailingsProviderName": "Jones, Herzog and Lynch",
-  "DashboardTileDefinitionId": 887,
+  "MainHeading": "non",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Balistreri, Bergstrom and Schaefer",
+  "DashboardTileDefinitionId": 907,
   "VisibleFor": [
     {
-      "VisibleId": 466,
+      "VisibleId": 609,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 584
+          "FieldLength": 67
         }
       }
     },
     {
-      "VisibleId": 466,
+      "VisibleId": 609,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 584
+          "FieldLength": 67
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldLength": 767
     }
   }
 }

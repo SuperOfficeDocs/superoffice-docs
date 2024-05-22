@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 214,
-  "Name": "Bogan-Sipes",
-  "Tooltip": "at",
+  "HeadingId": 908,
+  "Name": "Kautzer Group",
+  "Tooltip": "aliquid",
   "Deleted": true,
-  "Rank": 665,
-  "UdListDefinitionId": 176
+  "Rank": 318,
+  "UdListDefinitionId": 145
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 278,
-  "Name": "Cronin Group",
-  "Tooltip": "sed",
+  "HeadingId": 288,
+  "Name": "Keebler-Spinka",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 817,
-  "UdListDefinitionId": 325,
+  "Rank": 221,
+  "UdListDefinitionId": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   }
 }

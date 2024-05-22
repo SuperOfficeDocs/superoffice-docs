@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Armstrong Inc and Sons",
-  "DeviceName": "Ortiz, Heathcote and Brekke"
+  "ApplicationName": "Kuhn LLC",
+  "DeviceName": "Hilll Group"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "enim",
-    "Value": "eum",
-    "RecordId": 579,
-    "CreatedDate": "2012-04-25T11:16:09.2878404+02:00",
-    "UpdatedDate": "2011-10-18T11:16:09.2878404+02:00",
-    "UpdatedBy": "autem",
-    "CreatedBy": "voluptates",
-    "TableName": "Padberg-Tremblay",
+    "Key": "iure",
+    "Value": "est",
+    "RecordId": 742,
+    "CreatedDate": "2019-07-02T12:57:34.0711192+02:00",
+    "UpdatedDate": "2012-06-04T12:57:34.0711192+02:00",
+    "UpdatedBy": "adipisci",
+    "CreatedBy": "ipsum",
+    "TableName": "Nitzsche-Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

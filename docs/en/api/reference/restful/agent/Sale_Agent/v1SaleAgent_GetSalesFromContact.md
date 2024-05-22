@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 621,
+  "ContactId": 197,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Zboncak, Fahey and Schaden",
-    "SaleDate": "2017-06-20T11:16:09.6846608+02:00",
-    "SaleId": 871,
-    "Probability": 750,
-    "Title": "et",
-    "Amount": 15187.364,
-    "Currency": "rerum",
-    "ProjectName": "Okuneva Group",
-    "AssociateFullName": "Clementina Parisian",
-    "Description": "Operative bottom-line website",
+    "ContactName": "O'Kon, O'Keefe and Hyatt",
+    "SaleDate": "2001-03-24T12:57:34.8833406+01:00",
+    "SaleId": 838,
+    "Probability": 230,
+    "Title": "quo",
+    "Amount": 8997.714,
+    "Currency": "expedita",
+    "ProjectName": "Weimann Inc and Sons",
+    "AssociateFullName": "River Jones",
+    "Description": "Multi-channelled empowering open system",
     "Status": "Lost",
-    "WeightedAmount": 24865.156,
-    "ProjectId": 112,
-    "EarningPercent": 27607.406,
-    "Earning": 354.142,
-    "ContactId": 372,
-    "AssociateId": 452,
-    "PersonId": 520,
-    "SaleTypeId": 476,
-    "SaleTypeName": "Murray, Ortiz and Mayer",
-    "PersonFullName": "Miss Jewell Orn MD",
+    "WeightedAmount": 16061.75,
+    "ProjectId": 352,
+    "EarningPercent": 30108.338,
+    "Earning": 26601.392,
+    "ContactId": 7,
+    "AssociateId": 256,
+    "PersonId": 835,
+    "SaleTypeId": 865,
+    "SaleTypeName": "Stehr Group",
+    "PersonFullName": "Mr. Mckayla Alexandria Kling V",
     "Completed": "Completed",
-    "ActiveErpLinks": 684,
-    "NextDueDate": "2023-04-08T11:16:09.6846608+02:00",
-    "Number": "1332262",
+    "ActiveErpLinks": 3,
+    "NextDueDate": "2008-11-12T12:57:34.8833406+01:00",
+    "Number": "1322200",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 584
+        "FieldType": "System.Int32",
+        "FieldLength": 585
       }
     }
   }

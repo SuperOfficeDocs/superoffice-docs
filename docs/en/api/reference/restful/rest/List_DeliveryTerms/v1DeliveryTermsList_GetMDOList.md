@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=a
+GET /api/v1/List/DeliveryTerm/MDOItems?query=provident
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 682,
-    "Name": "Kihn Inc and Sons",
-    "ToolTip": "Doloribus eveniet.",
+    "Id": 669,
+    "Name": "Dickens, Wolf and Hackett",
+    "ToolTip": "Sed et.",
     "Deleted": false,
-    "Rank": 176,
-    "Type": "suscipit",
+    "Rank": 636,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "Champlin-Flatley",
-        "ToolTip": "Vitae distinctio ut ut voluptatum sint qui.",
+        "Id": 695,
+        "Name": "Bosco-McCullough",
+        "ToolTip": "Nam aut rerum vel.",
         "Deleted": false,
-        "Rank": 706,
-        "Type": "ex",
+        "Rank": 518,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 768,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "at",
-        "FullName": "Freddy Torp",
+        "IconHint": "eos",
+        "ColorBlock": 675,
+        "ExtraInfo": "dolore",
+        "StyleHint": "explicabo",
+        "FullName": "Ms. Celine Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 69
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 332,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "ut",
-    "FullName": "Ottilie Collier",
+    "IconHint": "nostrum",
+    "ColorBlock": 403,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "minima",
+    "FullName": "Jaylen Reilly DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldLength": 643
       }
     }
   }

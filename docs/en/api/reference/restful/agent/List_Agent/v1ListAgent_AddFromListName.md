@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kuvalis-Fisher",
+  "UdListDefinitionName": "Fay Inc and Sons",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "Name": "Little Inc and Sons",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "UdListDefinitionId": 732,
-  "Rank": 437,
+  "Id": 574,
+  "Name": "Kessler LLC",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 508,
+  "Rank": 256,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldLength": 524
     }
   }
 }

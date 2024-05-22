@@ -26,7 +26,7 @@ Gets a ConsentSource object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentSource?consentSourceId=648
+POST /api/v1/Agents/List/GetConsentSource?consentSourceId=36
 POST /api/v1/Agents/List/GetConsentSource?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 597,
-  "Name": "Gaylord, Sporer and Nienow",
-  "Tooltip": "recusandae",
-  "Rank": 819,
-  "Key": "aut",
-  "MailTemplateId": 550,
+  "ConsentSourceId": 860,
+  "Name": "Conroy LLC",
+  "Tooltip": "necessitatibus",
+  "Rank": 375,
+  "Key": "quia",
+  "MailTemplateId": 175,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 43
     }
   }
 }

@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 524,
-  "TopicId": 357,
+  "ChatSessionId": 17,
+  "TopicId": 198,
   "User": null,
   "Person": null,
-  "CustomerAlias": "unde",
-  "CustomerHost": "et",
-  "CustomerName": "Boyer Inc and Sons",
-  "CustomerEmail": "jedediah@luettgenondricka.us",
-  "CustomerPhone": "503.676.9392",
+  "CustomerAlias": "voluptas",
+  "CustomerHost": "delectus",
+  "CustomerName": "Beier Inc and Sons",
+  "CustomerEmail": "jeffry_feil@gleason.us",
+  "CustomerPhone": "(179)415-2883",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kohler, Ward and Hartmann",
+  "CustomerCompanyName": "Hessel, Mertz and Ritchie",
   "Status": "Closed",
-  "FirstMessage": "reiciendis",
-  "LastMessage": "assumenda",
-  "WhenRequested": "2007-03-20T11:16:13.7456138+01:00",
-  "WhenStarted": "2021-10-02T11:16:13.7456138+02:00",
-  "WhenEnded": "2004-01-11T11:16:13.7456138+01:00",
-  "WhenIdle": "2000-07-12T11:16:13.7456138+02:00",
-  "WhenFetched": "1997-12-15T11:16:13.7456138+01:00",
-  "SessionKey": "perspiciatis",
-  "InitialQueuePos": 791,
-  "AlertLevel": 858,
-  "Rank": 859,
+  "FirstMessage": "et",
+  "LastMessage": "aliquam",
+  "WhenRequested": "2019-07-16T12:57:42.1514494+02:00",
+  "WhenStarted": "2004-07-07T12:57:42.1514494+02:00",
+  "WhenEnded": "1997-02-23T12:57:42.1514494+01:00",
+  "WhenIdle": "2020-09-24T12:57:42.1514494+02:00",
+  "WhenFetched": "2021-02-04T12:57:42.1514494+01:00",
+  "SessionKey": "itaque",
+  "InitialQueuePos": 356,
+  "AlertLevel": 553,
+  "Rank": 721,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 267,
+  "Rating": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

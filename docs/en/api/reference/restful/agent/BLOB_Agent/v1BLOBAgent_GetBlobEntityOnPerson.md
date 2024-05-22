@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 987
+  "PersonId": 977
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 505,
-  "BlobSize": 823,
-  "Description": "Customer-focused clear-thinking application",
-  "ExtraInfo": "sit",
+  "BlobId": 169,
+  "BlobSize": 717,
+  "Description": "Fully-configurable fresh-thinking success",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 173,
-  "CreatedDate": "2021-07-27T11:16:08.7566429+02:00",
-  "UpdatedDate": "2003-08-13T11:16:08.7566429+02:00",
+  "MimeType": "velit",
+  "OriginalSize": 215,
+  "CreatedDate": "2014-10-09T12:57:33.2743944+02:00",
+  "UpdatedDate": "2019-12-06T12:57:33.2743944+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsa",
+  "ConceptualType": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 874
     }
   }
 }

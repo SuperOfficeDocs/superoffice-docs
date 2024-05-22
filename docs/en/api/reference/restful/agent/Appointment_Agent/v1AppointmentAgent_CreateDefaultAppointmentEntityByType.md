@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-07-02T11:16:08.5851854+02:00",
-  "AppointmentId": 564,
-  "Description": "Multi-lateral object-oriented installation",
-  "Title": "tempora",
-  "Agenda": "reiciendis",
-  "InternalNotes": "temporibus",
-  "StartDate": "2008-10-08T11:16:08.5851854+02:00",
-  "EndDate": "2009-03-10T11:16:08.5851854+01:00",
+  "CreatedDate": "2011-11-20T12:57:32.8677824+01:00",
+  "AppointmentId": 631,
+  "Description": "Cross-group intangible collaboration",
+  "Title": "aut",
+  "Agenda": "voluptas",
+  "InternalNotes": "maiores",
+  "StartDate": "2009-09-02T12:57:32.8677824+02:00",
+  "EndDate": "2006-07-05T12:57:32.8677824+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 934,
+  "MotherId": 143,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-09-04T11:16:08.5851854+02:00",
+  "UpdatedDate": "2014-06-08T12:57:32.8677824+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 591,
+  "ActiveLinks": 249,
   "Links": [
     {
-      "EntityName": "Nitzsche Inc and Sons",
-      "Id": 635,
-      "Description": "Adaptive leading edge info-mediaries",
-      "ExtraInfo": "sint",
-      "LinkId": 631,
+      "EntityName": "Keebler-Mayert",
+      "Id": 666,
+      "Description": "Implemented impactful frame",
+      "ExtraInfo": "iusto",
+      "LinkId": 895,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 835
         }
       }
     }
   ],
-  "AlarmLeadTime": "maiores",
+  "AlarmLeadTime": "nam",
   "HasAlarm": false,
-  "ColorIndex": 632,
+  "ColorIndex": 834,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "quidem",
-  "LeadTime": "sit",
-  "Location": "magni",
-  "RejectCounter": 911,
+  "LagTime": "blanditiis",
+  "LeadTime": "voluptatem",
+  "Location": "rerum",
+  "RejectCounter": 93,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 893,
-      "PersonId": 656,
-      "ContactId": 695,
-      "EmailId": 724,
+      "AssociateId": 491,
+      "PersonId": 303,
+      "ContactId": 291,
+      "EmailId": 632,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "helmer.smitham@jewess.us",
-      "Description": "Ameliorated coherent artificial intelligence"
+      "EmailAddress": "margarette_glover@bauch.co.uk",
+      "Description": "Exclusive multi-tasking definition"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-10-16T11:16:08.5851854+02:00",
+  "ActiveDate": "2023-08-09T12:57:32.8677824+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 645,
+  "PreferredTZLocation": 499,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 228,
+  "SuggestedAppointmentId": 670,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "similique",
+  "CentralserviceVideomeetId": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Miss Lionel Kassulke"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Tanya Kiehn"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "quo"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "1997-09-28T11:16:08.5851854+02:00",
-  "PublishTo": "2008-04-19T11:16:08.5851854+02:00",
-  "PublishFrom": "1999-01-08T11:16:08.5851854+01:00",
+  "PublishEventDate": "2010-12-14T12:57:32.8677824+01:00",
+  "PublishTo": "2013-02-19T12:57:32.8677824+01:00",
+  "PublishFrom": "2001-08-25T12:57:32.8677824+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 768,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 964
         }
       }
     },
     {
-      "VisibleId": 768,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 964
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 656
     }
   }
 }

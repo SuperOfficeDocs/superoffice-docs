@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 580,
-  "Name": "Weissnat LLC",
-  "Tooltip": "eligendi",
+  "Id": 831,
+  "Name": "McClure LLC",
+  "Tooltip": "at",
   "Deleted": false,
-  "UdListDefinitionId": 248,
-  "Rank": 471,
+  "UdListDefinitionId": 589,
+  "Rank": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

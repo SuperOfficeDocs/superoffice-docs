@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Greenholt LLC",
-  "HeadingId": 564
+  "UdListDefinitionName": "Johnston, Towne and Wisozk",
+  "HeadingId": 926
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "O'Keefe, Armstrong and Ruecker",
-    "ToolTip": "Soluta quis nobis sit ipsam ad voluptas dolorem.",
+    "Id": 130,
+    "Name": "Cummings Group",
+    "ToolTip": "Incidunt ut et in aut eligendi.",
     "Deleted": false,
-    "Rank": 851,
-    "Type": "nihil",
-    "ColorBlock": 400,
-    "IconHint": "ipsam",
+    "Rank": 378,
+    "Type": "ut",
+    "ColorBlock": 659,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2023-05-17T11:16:09.3347069+02:00",
+    "LastChanged": "2009-09-13T12:57:34.1648498+02:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Dibbert-Heidenreich",
-        "ToolTip": "Harum aut quia et.",
+        "Id": 176,
+        "Name": "Kunze-Rempel",
+        "ToolTip": "Et possimus.",
         "Deleted": true,
-        "Rank": 274,
-        "Type": "autem",
-        "ColorBlock": 246,
-        "IconHint": "voluptatem",
+        "Rank": 564,
+        "Type": "velit",
+        "ColorBlock": 25,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2011-10-06T11:16:09.3347069+02:00",
+        "LastChanged": "2001-08-29T12:57:34.1648498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "animi",
-        "Hidden": false,
-        "FullName": "May Willms",
+        "ExtraInfo": "est",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Anabel Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldType": "System.Int32",
+            "FieldLength": 980
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "est",
+    "ExtraInfo": "ab",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Ivah Yost",
+    "FullName": "Prof. Joe Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Keebler, Rempel and Lueilwitz",
-    "ToolTip": "Repellat dolores quo est illum commodi eligendi.",
+    "Id": 855,
+    "Name": "Mosciski, Ullrich and Ward",
+    "ToolTip": "Incidunt eligendi voluptatem eos aspernatur deleniti quia sequi.",
     "Deleted": false,
-    "Rank": 19,
-    "Type": "placeat",
-    "ColorBlock": 438,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2014-07-03T11:16:14.5432954+02:00",
+    "Rank": 981,
+    "Type": "debitis",
+    "ColorBlock": 72,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "1997-03-12T12:57:43.4176894+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "O'Conner-Pouros",
-        "ToolTip": "Beatae aspernatur molestias a enim fugit cum molestiae.",
+        "Id": 129,
+        "Name": "Roob, Denesik and DuBuque",
+        "ToolTip": "Voluptatibus impedit minima in.",
         "Deleted": true,
-        "Rank": 428,
-        "Type": "et",
-        "ColorBlock": 628,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2013-09-21T11:16:14.5432954+02:00",
+        "Rank": 426,
+        "Type": "animi",
+        "ColorBlock": 79,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2011-05-21T12:57:43.4176894+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Ms. Rhea Odessa Steuber",
+        "ExtraInfo": "numquam",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Laurie McClure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldType": "System.String",
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Dr. Izaiah Columbus Torphy",
+    "ExtraInfo": "officiis",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Jane Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 300
       }
     }
   }

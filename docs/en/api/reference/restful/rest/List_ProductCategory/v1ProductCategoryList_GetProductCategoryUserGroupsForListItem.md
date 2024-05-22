@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Green-Dickinson",
-    "ToolTip": "Vel ea.",
-    "Deleted": true,
-    "Rank": 818,
-    "Type": "laboriosam",
-    "ColorBlock": 178,
-    "IconHint": "velit",
+    "Id": 741,
+    "Name": "Beier Group",
+    "ToolTip": "Magni eos voluptatem debitis voluptatem.",
+    "Deleted": false,
+    "Rank": 430,
+    "Type": "vel",
+    "ColorBlock": 98,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2005-12-04T11:16:14.6370359+01:00",
+    "LastChanged": "2013-12-10T12:57:43.5895249+01:00",
     "ChildItems": [
       {
-        "Id": 404,
-        "Name": "Greenholt, Braun and Dickens",
-        "ToolTip": "Perferendis quaerat mollitia voluptas.",
-        "Deleted": true,
-        "Rank": 874,
-        "Type": "sit",
-        "ColorBlock": 942,
-        "IconHint": "qui",
+        "Id": 331,
+        "Name": "Donnelly LLC",
+        "ToolTip": "Fuga mollitia esse alias velit blanditiis et.",
+        "Deleted": false,
+        "Rank": 75,
+        "Type": "beatae",
+        "ColorBlock": 447,
+        "IconHint": "soluta",
         "Selected": true,
-        "LastChanged": "2005-12-30T11:16:14.6370359+01:00",
+        "LastChanged": "2011-11-10T12:57:43.5895249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quisquam",
-        "Hidden": true,
-        "FullName": "Prof. Andre Everardo Kessler V",
+        "ExtraInfo": "omnis",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Leo Cornell Dare I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldLength": 664
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "aut",
+    "StyleHint": "harum",
     "Hidden": true,
-    "FullName": "Madelyn Connelly",
+    "FullName": "Michael Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldLength": 636
       }
     }
   }

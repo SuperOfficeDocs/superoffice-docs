@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dare, Stoltenberg and Mosciski",
-  "AssociateId": 681
+  "TableName": "Simonis, Smitham and Walsh",
+  "AssociateId": 13
 }
 ```
 

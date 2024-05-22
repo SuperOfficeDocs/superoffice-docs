@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hessel, Halvorson and Quitzon",
-  "Columns": "reiciendis",
-  "SortOrder": "enim",
-  "Restriction": "tenetur",
-  "Entities": "iure",
-  "Page": 762,
-  "PageSize": 934,
-  "Options": "sint"
+  "ProviderName": "Nienow Group",
+  "Columns": "unde",
+  "SortOrder": "impedit",
+  "Restriction": "et",
+  "Entities": "necessitatibus",
+  "Page": 409,
+  "PageSize": 798,
+  "Options": "consequatur"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 238,
+  "RowCount": 284,
   "Rows": [
     {
-      "EntityName": "Heller-Conn",
-      "PrimaryKey": 88,
+      "EntityName": "Breitenberg, Effertz and DuBuque",
+      "PrimaryKey": 349,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laudantium",
-          "TooltipHint": "laboriosam",
-          "LinkHint": "molestias"
+          "DisplayValue": "minus",
+          "TooltipHint": "error",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "rem",
+      "LinkHint": "omnis",
+      "StyleHint": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 98
+          "FieldType": "System.String",
+          "FieldLength": 201
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldLength": 670
     }
   }
 }

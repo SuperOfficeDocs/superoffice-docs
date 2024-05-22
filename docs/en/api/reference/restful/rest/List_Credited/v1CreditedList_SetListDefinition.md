@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 992,
-  "Name": "Stiedemann-Braun",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 825,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 935,
+  "Name": "King Inc and Sons",
+  "Tooltip": "doloribus",
+  "Deleted": false,
+  "Rank": 280,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 275,
-  "Name": "Schiller Group",
-  "Tooltip": "inventore",
+  "Id": 580,
+  "Name": "Nikolaus, Steuber and Gleason",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 272,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 552,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 14
     }
   }
 }

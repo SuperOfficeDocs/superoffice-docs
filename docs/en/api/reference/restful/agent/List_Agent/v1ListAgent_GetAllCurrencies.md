@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 782,
-    "Name": "Botsford, Fay and Beier",
-    "Tooltip": "aut",
-    "Rank": 857,
-    "Rate": 13068.779999999999,
-    "Units": 4045.9939999999997,
+    "CurrencyId": 840,
+    "Name": "Greenholt Group",
+    "Tooltip": "sit",
+    "Rank": 213,
+    "Rate": 8681.18,
+    "Units": 4970.5239999999994,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 745
       }
     }
   }

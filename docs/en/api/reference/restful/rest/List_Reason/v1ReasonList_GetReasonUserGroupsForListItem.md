@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Spinka, Prosacco and Hahn",
-    "ToolTip": "Assumenda voluptas nostrum aliquid voluptas eveniet eos soluta.",
-    "Deleted": true,
-    "Rank": 593,
-    "Type": "est",
-    "ColorBlock": 923,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2013-02-05T11:16:14.699531+01:00",
+    "Id": 135,
+    "Name": "Gleason, Becker and Franecki",
+    "ToolTip": "Cumque minus ut perferendis.",
+    "Deleted": false,
+    "Rank": 612,
+    "Type": "et",
+    "ColorBlock": 382,
+    "IconHint": "eaque",
+    "Selected": true,
+    "LastChanged": "2004-04-04T12:57:43.6988788+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Bergnaum Group",
-        "ToolTip": "Cum ad vero deleniti incidunt officia et.",
+        "Id": 288,
+        "Name": "Feest, Zieme and Hartmann",
+        "ToolTip": "Ad est.",
         "Deleted": false,
-        "Rank": 156,
-        "Type": "dignissimos",
-        "ColorBlock": 272,
+        "Rank": 130,
+        "Type": "quisquam",
+        "ColorBlock": 711,
         "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2023-01-06T11:16:14.699531+01:00",
+        "Selected": true,
+        "LastChanged": "2001-06-05T12:57:43.6988788+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "at",
-        "Hidden": false,
-        "FullName": "Micah Veum",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Miss Felton Imogene Pfeffer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 418
+            "FieldLength": 194
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Forest Gleichner",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "sequi",
+    "Hidden": true,
+    "FullName": "Laury Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   }

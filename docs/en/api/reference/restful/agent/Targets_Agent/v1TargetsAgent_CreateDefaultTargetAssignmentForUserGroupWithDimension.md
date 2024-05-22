@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 895,
-  "TargetDimensionId": 981
+  "UserGroupId": 23,
+  "TargetDimensionId": 275
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 509,
+    "TargetAssignmentInfoId": 243,
     "Values": [
-      695,
-      367
+      939,
+      729
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 962,
-    "DimensionListItemDisplayName": "Nicolas LLC",
+    "DimensionListItem": 562,
+    "DimensionListItemDisplayName": "Moen-Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldType": "System.String",
+        "FieldLength": 450
       }
     }
   }

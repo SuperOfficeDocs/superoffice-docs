@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Lebsack LLC",
-    "ToolTip": "Ea et repudiandae commodi voluptatem accusantium.",
+    "Id": 537,
+    "Name": "Dare-Hammes",
+    "ToolTip": "Odio non amet.",
     "Deleted": false,
-    "Rank": 570,
-    "Type": "assumenda",
-    "ColorBlock": 834,
-    "IconHint": "beatae",
+    "Rank": 468,
+    "Type": "eveniet",
+    "ColorBlock": 68,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2000-11-22T11:16:14.6057886+01:00",
+    "LastChanged": "2007-03-29T12:57:43.5270395+02:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Effertz-Lockman",
-        "ToolTip": "Illum quos nihil quisquam ut.",
+        "Id": 273,
+        "Name": "Murphy, Jones and Nikolaus",
+        "ToolTip": "Consectetur consectetur vero quo aut.",
         "Deleted": true,
-        "Rank": 732,
-        "Type": "minus",
-        "ColorBlock": 391,
-        "IconHint": "ab",
+        "Rank": 653,
+        "Type": "ut",
+        "ColorBlock": 973,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2000-11-13T11:16:14.6057886+01:00",
+        "LastChanged": "2007-12-27T12:57:43.5270395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "expedita",
+        "ExtraInfo": "dolore",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Dr. Edmund Alysa Shields",
+        "FullName": "Ms. Jayne Hanna Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 789
+            "FieldType": "System.String",
+            "FieldLength": 345
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "sit",
+    "ExtraInfo": "alias",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Maeve Kautzer",
+    "FullName": "Flo Shields",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 424
+        "FieldLength": 454
       }
     }
   }

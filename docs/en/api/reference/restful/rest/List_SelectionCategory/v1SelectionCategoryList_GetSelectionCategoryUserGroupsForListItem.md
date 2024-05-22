@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Carroll, Kshlerin and Dicki",
-    "ToolTip": "Et consequatur ipsa consequatur dolore tempore.",
-    "Deleted": true,
-    "Rank": 937,
-    "Type": "vero",
-    "ColorBlock": 243,
-    "IconHint": "quam",
+    "Id": 28,
+    "Name": "Runte-Abernathy",
+    "ToolTip": "Quaerat est labore ex porro voluptatem ut facere.",
+    "Deleted": false,
+    "Rank": 887,
+    "Type": "aliquam",
+    "ColorBlock": 973,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2013-11-17T11:16:14.8246461+01:00",
+    "LastChanged": "2008-01-31T12:57:43.7613612+01:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Morissette, Spinka and Yost",
-        "ToolTip": "Sunt rerum.",
-        "Deleted": true,
-        "Rank": 434,
-        "Type": "aut",
-        "ColorBlock": 201,
-        "IconHint": "iure",
+        "Id": 836,
+        "Name": "Walker, Stark and Schinner",
+        "ToolTip": "Velit a et.",
+        "Deleted": false,
+        "Rank": 729,
+        "Type": "accusantium",
+        "ColorBlock": 627,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "1999-05-17T11:16:14.8246461+02:00",
+        "LastChanged": "2003-10-10T12:57:43.7613612+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "deserunt",
-        "Hidden": false,
-        "FullName": "Immanuel Marks",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Dr. Diana Krajcik Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldType": "System.Int32",
+            "FieldLength": 625
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "qui",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Marcelo Macejkovic",
+    "FullName": "Giuseppe Schmeler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 328
       }
     }
   }

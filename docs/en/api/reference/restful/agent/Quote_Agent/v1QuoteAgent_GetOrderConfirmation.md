@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 786,
-  "ConfirmationTemplateId": 445
+  "QuoteVersionId": 806,
+  "ConfirmationTemplateId": 760
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequuntur"
+"quia"
 ```

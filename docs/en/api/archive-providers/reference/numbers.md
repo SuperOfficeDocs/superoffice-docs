@@ -82,11 +82,12 @@ blah....
 |updated\_associate/userName|string|By - User name: User name| x |
 |updated\_associate/personEmail|string|By - E-mail| x |
 |updated\_associate/locationAddress|string|By - Location: Location| x |
+|updated\_associate/isLocation|bool|By - Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=updated_associate/ejStatus,nextnum,updated_associate/mrMrs
+GET /api/v1/archive/Numbers?$select=fieldId,nextnum,updated_associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

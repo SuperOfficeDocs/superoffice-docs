@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 667,
-    "Name": "Robel LLC",
-    "ContentType": "qui",
-    "AttSize": 430,
-    "InlineImage": false,
-    "ContentId": "vero",
-    "AuthKey": "ut",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 95,
+    "Name": "Prosacco, Bartell and Kohler",
+    "ContentType": "consequatur",
+    "AttSize": 492,
+    "InlineImage": true,
+    "ContentId": "dolorum",
+    "AuthKey": "et",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 29
       }
     }
   }

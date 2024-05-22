@@ -74,7 +74,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 494,
-  "Name": "Legros-Weissnat",
+  "SelectionId": 460,
+  "Name": "Dickens, Schmidt and D'Amore",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots discrete firmware",
-  "Postit": "pariatur",
+  "Description": "Focused 6th generation core",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 430,
-  "IncludePerson": 509,
-  "MemberCount": 310,
-  "Name": "Balistreri, Gutkowski and Walker",
-  "PostitTextId": 468,
-  "CreatedDate": "2000-06-19T11:16:09.7259925+02:00",
-  "SelectionId": 447,
-  "SoundEx": "similique",
-  "Source": 579,
-  "TextId": 722,
-  "UpdatedDate": "2022-01-18T11:16:09.7259925+01:00",
-  "UpdatedCount": 189,
-  "Visibility": 588,
+  "GroupIdx": 101,
+  "IncludePerson": 327,
+  "MemberCount": 99.99,
+  "Name": "Friesen LLC",
+  "PostitTextId": 386,
+  "CreatedDate": "1999-02-15T12:57:34.9458302+01:00",
+  "SelectionId": 290,
+  "SoundEx": "expedita",
+  "Source": 522,
+  "TextId": 571,
+  "UpdatedDate": "1997-07-10T12:57:34.9458302+02:00",
+  "UpdatedCount": 167,
+  "Visibility": 371,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 198,
-  "TargetTableName": "Blanda Group",
+  "TargetTableNumber": 598,
+  "TargetTableName": "Luettgen, Lueilwitz and Koch",
   "Completed": true,
-  "LeftSelectionId": 223,
-  "RightSelectionId": 304,
+  "LeftSelectionId": 867,
+  "RightSelectionId": 36,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Legros Inc and Sons",
-  "ShadowProviderName": "Sawayn-Bosco",
-  "ChartKey": "nam",
-  "LastLoaded": "2021-08-14T11:16:09.7259925+02:00",
-  "LastLoadedBy": 621,
+  "MainProviderName": "Daugherty, Schuppe and Block",
+  "ShadowProviderName": "Lebsack, Jerde and Johnson",
+  "ChartKey": "earum",
+  "LastLoaded": "2005-05-04T12:57:34.9458302+02:00",
+  "LastLoadedBy": 946,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-01-11T11:16:09.7259925+01:00",
-  "LastMembershipChangeBy": 575,
+  "LastMembershipChange": "2000-11-07T12:57:34.9458302+01:00",
+  "LastMembershipChangeBy": 988,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nostrum",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Hoppe-Gottlieb",
-  "DashboardTileDefinitionId": 46,
+  "MainHeading": "qui",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Parker-Christiansen",
+  "DashboardTileDefinitionId": 825,
   "VisibleFor": [
     {
-      "VisibleId": 604,
+      "VisibleId": 662,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldType": "System.String",
+          "FieldLength": 315
         }
       }
     },
     {
-      "VisibleId": 604,
+      "VisibleId": 662,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldType": "System.String",
+          "FieldLength": 315
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 156
     }
   }
 }

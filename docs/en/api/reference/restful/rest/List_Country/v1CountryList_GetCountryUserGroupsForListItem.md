@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Towne Group",
-    "ToolTip": "Pariatur ut nam modi sit laudantium ut necessitatibus.",
-    "Deleted": false,
-    "Rank": 283,
-    "Type": "omnis",
-    "ColorBlock": 562,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2008-01-13T11:16:14.5276742+01:00",
+    "Id": 918,
+    "Name": "Kris, Hartmann and Boyer",
+    "ToolTip": "Magnam incidunt deleniti soluta inventore.",
+    "Deleted": true,
+    "Rank": 410,
+    "Type": "nemo",
+    "ColorBlock": 16,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2020-03-13T12:57:43.402068+01:00",
     "ChildItems": [
       {
-        "Id": 632,
-        "Name": "Zemlak-Kemmer",
-        "ToolTip": "Ratione ipsum eos necessitatibus perferendis numquam et beatae.",
+        "Id": 684,
+        "Name": "Kuhlman-Mann",
+        "ToolTip": "Expedita sit ab alias ut.",
         "Deleted": true,
-        "Rank": 50,
-        "Type": "sit",
-        "ColorBlock": 270,
-        "IconHint": "consequatur",
+        "Rank": 806,
+        "Type": "voluptatem",
+        "ColorBlock": 305,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2020-05-12T11:16:14.5276742+02:00",
+        "LastChanged": "2002-11-15T12:57:43.402068+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Mrs. Gillian Hamill IV",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Arely Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 334
+            "FieldType": "System.Int32",
+            "FieldLength": 941
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Robyn Towne",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "suscipit",
+    "Hidden": false,
+    "FullName": "Wallace Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 501
       }
     }
   }

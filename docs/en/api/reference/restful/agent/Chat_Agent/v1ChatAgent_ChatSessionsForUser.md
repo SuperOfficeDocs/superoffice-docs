@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,29 +108,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 74,
-    "TopicId": 378,
+    "ChatSessionId": 343,
+    "TopicId": 953,
     "User": null,
     "Person": null,
-    "CustomerAlias": "molestiae",
-    "CustomerHost": "et",
-    "CustomerName": "Koelpin-Hilll",
-    "CustomerEmail": "letha_lockman@purdyzemlak.us",
-    "CustomerPhone": "(586)756-6331 x4626",
+    "CustomerAlias": "voluptas",
+    "CustomerHost": "nobis",
+    "CustomerName": "Douglas Group",
+    "CustomerEmail": "gunner_harvey@swift.biz",
+    "CustomerPhone": "496.820.4110 x90440",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Kunze, Daniel and Ferry",
+    "CustomerCompanyName": "Murphy, Walker and Turner",
     "Status": "Closed",
-    "FirstMessage": "et",
-    "LastMessage": "fugiat",
-    "WhenRequested": "2022-09-18T11:16:08.7878955+02:00",
-    "WhenStarted": "1998-04-18T11:16:08.7878955+02:00",
-    "WhenEnded": "1999-11-07T11:16:08.7878955+01:00",
-    "WhenIdle": "2017-03-06T11:16:08.7878955+01:00",
-    "WhenFetched": "2020-03-04T11:16:08.7878955+01:00",
-    "SessionKey": "ut",
-    "InitialQueuePos": 304,
-    "AlertLevel": 382,
-    "Rank": 447,
+    "FirstMessage": "eos",
+    "LastMessage": "numquam",
+    "WhenRequested": "2003-11-29T12:57:33.3525051+01:00",
+    "WhenStarted": "2002-10-01T12:57:33.3525051+02:00",
+    "WhenEnded": "2019-04-14T12:57:33.3525051+02:00",
+    "WhenIdle": "2003-09-28T12:57:33.3525051+02:00",
+    "WhenFetched": "2020-04-02T12:57:33.3525051+02:00",
+    "SessionKey": "eius",
+    "InitialQueuePos": 686,
+    "AlertLevel": 155,
+    "Rank": 644,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 446,
+    "Rating": 817,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

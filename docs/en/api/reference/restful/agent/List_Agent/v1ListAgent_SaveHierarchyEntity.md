@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 119,
+  "HierarchyId": 598,
   "Domain": "Dashboards",
-  "Name": "Herzog LLC",
-  "Fullname": "amet",
-  "ParentId": 401,
+  "Name": "Zulauf-Langosh",
+  "Fullname": "ut",
+  "ParentId": 476,
   "Children": [
     {
-      "HierarchyId": 336,
+      "HierarchyId": 119,
       "Domain": "Dashboards",
-      "Name": "Heathcote LLC",
-      "Fullname": "dolorum",
-      "ParentId": 985,
+      "Name": "Waters-Pfannerstill",
+      "Fullname": "fugit",
+      "ParentId": 877,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-07-29T11:16:09.3659552+02:00",
-      "RegisteredAssociateId": 481,
-      "Updated": "2000-02-12T11:16:09.3659552+01:00",
-      "UpdatedAssociateId": 466
+      "Registered": "2007-08-02T12:57:34.2117122+02:00",
+      "RegisteredAssociateId": 120,
+      "Updated": "2010-09-17T12:57:34.2117122+02:00",
+      "UpdatedAssociateId": 933
     }
   ],
-  "Registered": "2010-11-22T11:16:09.3659552+01:00",
-  "RegisteredAssociateId": 784,
-  "Updated": "2000-02-06T11:16:09.3659552+01:00",
-  "UpdatedAssociateId": 551
+  "Registered": "2006-12-14T12:57:34.2117122+01:00",
+  "RegisteredAssociateId": 164,
+  "Updated": "2015-02-14T12:57:34.2117122+01:00",
+  "UpdatedAssociateId": 406
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 84,
+  "HierarchyId": 760,
   "Domain": "Dashboards",
-  "Name": "Grady-Stehr",
-  "Fullname": "ipsum",
-  "ParentId": 759,
+  "Name": "Orn, Aufderhar and Bernier",
+  "Fullname": "aperiam",
+  "ParentId": 941,
   "Children": [
     {
-      "HierarchyId": 20,
+      "HierarchyId": 128,
       "Domain": "Dashboards",
-      "Name": "Muller, Bogan and Volkman",
-      "Fullname": "nemo",
-      "ParentId": 411,
+      "Name": "Smitham-Deckow",
+      "Fullname": "dolorum",
+      "ParentId": 683,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2024-04-16T11:16:09.3659552+02:00",
-      "RegisteredAssociateId": 944,
-      "Updated": "2004-01-14T11:16:09.3659552+01:00",
-      "UpdatedAssociateId": 990,
+      "Registered": "2024-01-23T12:57:34.2117122+01:00",
+      "RegisteredAssociateId": 606,
+      "Updated": "2008-07-24T12:57:34.2117122+02:00",
+      "UpdatedAssociateId": 547,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     }
   ],
-  "Registered": "2008-03-22T11:16:09.3659552+01:00",
-  "RegisteredAssociateId": 902,
-  "Updated": "2014-06-17T11:16:09.3659552+02:00",
-  "UpdatedAssociateId": 897,
+  "Registered": "2005-09-18T12:57:34.2117122+02:00",
+  "RegisteredAssociateId": 304,
+  "Updated": "2004-12-17T12:57:34.2117122+01:00",
+  "UpdatedAssociateId": 201,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldType": "System.String",
+      "FieldLength": 870
     }
   }
 }

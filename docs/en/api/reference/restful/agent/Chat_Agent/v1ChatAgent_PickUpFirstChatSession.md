@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 409,
-  "TopicId": 913,
+  "ChatSessionId": 743,
+  "TopicId": 399,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "at",
-  "CustomerName": "Kassulke-Klein",
-  "CustomerEmail": "jasmin@kuvalis.co.uk",
-  "CustomerPhone": "345-765-1962 x9681",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Stanton, Ondricka and Kemmer",
+  "CustomerAlias": "necessitatibus",
+  "CustomerHost": "maxime",
+  "CustomerName": "Goldner-Brakus",
+  "CustomerEmail": "adell@lindgren.biz",
+  "CustomerPhone": "809-205-1881 x312",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Blanda-Roberts",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "unde",
-  "WhenRequested": "2007-04-05T11:16:08.8191018+02:00",
-  "WhenStarted": "2001-06-19T11:16:08.8191018+02:00",
-  "WhenEnded": "2004-08-16T11:16:08.8191018+02:00",
-  "WhenIdle": "2018-01-12T11:16:08.8191018+01:00",
-  "WhenFetched": "2017-09-22T11:16:08.8191018+02:00",
-  "SessionKey": "magnam",
-  "InitialQueuePos": 429,
-  "AlertLevel": 910,
-  "Rank": 212,
+  "FirstMessage": "magni",
+  "LastMessage": "eaque",
+  "WhenRequested": "2012-01-01T12:57:33.3993692+01:00",
+  "WhenStarted": "2011-01-16T12:57:33.3993692+01:00",
+  "WhenEnded": "1997-05-23T12:57:33.3993692+02:00",
+  "WhenIdle": "2012-03-20T12:57:33.3993692+01:00",
+  "WhenFetched": "2022-10-31T12:57:33.3993692+01:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 581,
+  "AlertLevel": 307,
+  "Rank": 641,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 529,
+  "ChatbotIsActive": false,
+  "Rating": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   }
 }

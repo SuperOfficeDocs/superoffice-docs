@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "quia"
+  "TriggerScriptUniqueId": "fugit"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 344,
-  "Name": "Okuneva, Schulist and Parisian",
+  "ScreenChooserId": 142,
+  "Name": "Huel Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "non",
-  "Source": "ipsum",
-  "Registered": "2021-11-17T11:16:08.9597121+01:00",
-  "RegisteredAssociateId": 937,
-  "Updated": "2012-12-03T11:16:08.9597121+01:00",
-  "UpdatedAssociateId": 802,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptate",
+  "Source": "ipsa",
+  "Registered": "2019-02-25T12:57:33.6180694+01:00",
+  "RegisteredAssociateId": 708,
+  "Updated": "2008-03-27T12:57:33.6180694+01:00",
+  "UpdatedAssociateId": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eum",
-  "Name": "Wisozk Group",
-  "Description": "Total maximized knowledge base",
-  "IncludeId": "fugit",
-  "Source": "enim",
-  "Registered": "2009-04-25T11:16:14.4030702+02:00",
-  "RegisteredBy": "laudantium",
-  "Updated": "2017-11-27T11:16:14.4030702+01:00",
-  "UpdatedBy": "officia",
-  "Path": "esse",
+  "UniqueIdentifier": "neque",
+  "Name": "Greenfelder, Feest and Ebert",
+  "Description": "Seamless zero administration encoding",
+  "IncludeId": "quis",
+  "Source": "nisi",
+  "Registered": "2000-08-23T12:57:43.1989898+02:00",
+  "RegisteredBy": "iste",
+  "Updated": "2012-04-18T12:57:43.1989898+02:00",
+  "UpdatedBy": "ut",
+  "Path": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 726
     }
   }
 }

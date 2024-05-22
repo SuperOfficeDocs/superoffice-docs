@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Shanahan LLC",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "Rank": 570,
+  "Id": 507,
+  "Name": "Barton, Wiza and Cummings",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 613,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "culpa",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Kerluke Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 287,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 476,
+  "Name": "Champlin, Cummings and Quigley",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 26,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 409
     }
   }
 }

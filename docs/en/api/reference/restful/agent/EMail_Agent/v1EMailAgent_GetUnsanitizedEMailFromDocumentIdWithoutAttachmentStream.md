@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 487
+  "DocumentId": 690
 }
 ```
 
@@ -120,148 +120,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 585,
-      "ContactName": "Waters, Romaguera and Hoeger",
-      "PersonId": 340,
-      "PersonName": "Bins, Rowe and Kihn",
-      "AssociateId": 806,
-      "Address": "eligendi",
-      "EmailId": 644,
+      "ContactId": 805,
+      "ContactName": "Kuphal Group",
+      "PersonId": 841,
+      "PersonName": "Brekke, Ebert and Bosco",
+      "AssociateId": 792,
+      "Address": "occaecati",
+      "EmailId": 260,
       "DuplicatePersonIds": [
-        515,
-        176
+        762,
+        622
       ],
-      "Name": "Brakus LLC",
+      "Name": "Grant, Hayes and Farrell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 998
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 756,
-      "ContactName": "Predovic Inc and Sons",
-      "PersonId": 768,
-      "PersonName": "Emmerich-Feil",
-      "AssociateId": 460,
-      "Address": "sit",
-      "EmailId": 974,
+      "ContactId": 799,
+      "ContactName": "Douglas-Larson",
+      "PersonId": 699,
+      "PersonName": "Cronin-Davis",
+      "AssociateId": 962,
+      "Address": "ex",
+      "EmailId": 19,
       "DuplicatePersonIds": [
-        56,
-        748
+        728,
+        948
       ],
-      "Name": "Balistreri Inc and Sons",
+      "Name": "Mayer-Lindgren",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldType": "System.Int32",
+          "FieldLength": 411
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 576,
-      "ContactName": "Yundt, Lang and Rolfson",
-      "PersonId": 649,
-      "PersonName": "Price LLC",
-      "AssociateId": 231,
-      "Address": "non",
-      "EmailId": 489,
+      "ContactId": 50,
+      "ContactName": "Sanford Inc and Sons",
+      "PersonId": 372,
+      "PersonName": "Nikolaus Inc and Sons",
+      "AssociateId": 24,
+      "Address": "rem",
+      "EmailId": 15,
       "DuplicatePersonIds": [
-        653,
-        701
+        346,
+        300
       ],
-      "Name": "Stokes LLC",
+      "Name": "Marks, Swift and Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
   ],
-  "Subject": "dicta",
-  "HTMLBody": "et",
+  "Subject": "magnam",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2019-06-20T11:16:09.1784746+02:00",
-  "Size": 43,
+  "Sent": "2011-10-27T12:57:33.8836618+02:00",
+  "Size": 289,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "deserunt",
-  "PlainBody": "non",
+  "MessageID": "mollitia",
+  "PlainBody": "ea",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 321,
+  "ServerId": 997,
   "Attachments": [
     {
-      "Description": "Integrated leading edge archive",
-      "Filename": "minima",
-      "Size": 287,
-      "Type": "eos",
-      "Encoding": "amet",
-      "Id": "blanditiis",
-      "Disposition": "corrupti",
-      "IsSafeFileExtension": true,
+      "Description": "Triple-buffered hybrid superstructure",
+      "Filename": "et",
+      "Size": 174,
+      "Type": "rerum",
+      "Encoding": "et",
+      "Id": "explicabo",
+      "Disposition": "explicabo",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldType": "System.Int32",
+          "FieldLength": 776
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bahringer, Ledner and Kub",
+      "Name": "Feest, Dickinson and Durgan",
       "Values": [
-        "facilis",
-        "id"
+        "sit",
+        "aspernatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "Bahringer, Ledner and Kub",
+      "Name": "Feest, Dickinson and Durgan",
       "Values": [
-        "facilis",
-        "id"
+        "sit",
+        "aspernatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
   ],
-  "FolderName": "Ortiz, Schneider and Balistreri",
-  "EmailItemId": 623,
-  "AccountId": 774,
-  "ReceivedAt": "2010-09-23T11:16:09.1784746+02:00",
+  "FolderName": "Wolff, Hahn and Lubowitz",
+  "EmailItemId": 363,
+  "AccountId": 670,
+  "ReceivedAt": "2017-05-25T12:57:33.8836618+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-11-07T11:16:09.1784746+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2002-12-31T12:57:33.8836618+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 195
     }
   }
 }

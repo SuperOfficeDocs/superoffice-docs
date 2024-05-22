@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Lockman Group",
-  "DeviceName": "Pfannerstill-Reilly",
-  "DeviceIdentifier": "quo"
+  "ApplicationName": "Swaniawski-Feeney",
+  "DeviceName": "Ryan-VonRueden",
+  "DeviceIdentifier": "sit"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "architecto",
-  "RecordId": 299,
-  "CreatedDate": "2014-08-15T11:16:09.2878404+02:00",
-  "UpdatedDate": "2012-01-10T11:16:09.2878404+01:00",
-  "UpdatedBy": "delectus",
-  "CreatedBy": "corporis",
-  "TableName": "Keeling-Prohaska",
+  "Key": "magni",
+  "Value": "tenetur",
+  "RecordId": 406,
+  "CreatedDate": "2021-01-14T12:57:34.0711192+01:00",
+  "UpdatedDate": "1999-05-22T12:57:34.0711192+02:00",
+  "UpdatedBy": "atque",
+  "CreatedBy": "distinctio",
+  "TableName": "Haley-Lynch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 420
     }
   }
 }

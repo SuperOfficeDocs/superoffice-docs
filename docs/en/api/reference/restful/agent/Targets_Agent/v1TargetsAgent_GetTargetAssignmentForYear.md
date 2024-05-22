@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 946,
+  "TargetYear": 637,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 311
+  "Id": 250
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 132,
+  "TargetAssignmentInfoId": 386,
   "Values": [
-    171,
-    574
+    529,
+    798
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 356,
-  "DimensionListItemDisplayName": "Orn Group",
+  "DimensionListItem": 763,
+  "DimensionListItemDisplayName": "Jerde LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

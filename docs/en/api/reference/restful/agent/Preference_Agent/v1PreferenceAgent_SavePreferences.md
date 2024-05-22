@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "excepturi",
       "Specification": null,
-      "DisplayValue": "ipsam",
-      "DisplayTooltip": "voluptatibus",
+      "DisplayValue": "modi",
+      "DisplayTooltip": "beatae",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 707,
-      "PrefDescId": 582,
-      "TableName": "Langworth-Krajcik",
-      "UserPreferenceId": 916
+      "TargetId": 400,
+      "PrefDescId": 453,
+      "TableName": "Gaylord Group",
+      "UserPreferenceId": 882
     }
   ]
 }

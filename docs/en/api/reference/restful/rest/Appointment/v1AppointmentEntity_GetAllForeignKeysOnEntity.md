@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "similique",
-  "2": "reiciendis"
+  "1": "ab",
+  "2": "nesciunt"
 }
 ```

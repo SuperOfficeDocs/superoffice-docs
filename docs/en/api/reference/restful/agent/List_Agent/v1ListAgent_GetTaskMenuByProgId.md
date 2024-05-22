@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "recusandae"
+  "ProgId": "natus"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 454,
-  "Name": "Langosh-Herman",
-  "Tooltip": "sed",
-  "TableName": "Larkin, Pagac and Schumm",
-  "Area": "voluptatem",
+  "TaskMenuId": 161,
+  "Name": "Stokes Group",
+  "Tooltip": "perferendis",
+  "TableName": "Boyle-Hermiston",
+  "Area": "sint",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 598,
+  "CrmScriptId": 650,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 190,
+  "Rank": 698,
   "Encoding": "ANSI",
-  "ProgId": "rerum",
-  "Deleted": false,
+  "ProgId": "sapiente",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 779
     }
   }
 }

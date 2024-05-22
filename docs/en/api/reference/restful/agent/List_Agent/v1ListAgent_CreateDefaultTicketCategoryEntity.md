@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 452,
-  "ParentId": 552,
-  "Name": "Williamson-Lowe",
-  "Fullname": "velit",
-  "CategoryMaster": 737,
+  "TicketCategoryId": 27,
+  "ParentId": 471,
+  "Name": "Gottlieb-Mohr",
+  "Fullname": "similique",
+  "CategoryMaster": 546,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Herman Inc and Sons",
+  "ExternalName": "Cartwright-Hudson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 640,
-  "ReplyTemplate": 293,
-  "NotificationEmail": "deven@ward.co.uk",
+  "AssignmentLag": 976,
+  "ReplyTemplate": 495,
+  "NotificationEmail": "alexandrine.lowe@rohan.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 892,
+  "EffectiveReplyTemplateId": 280,
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "est",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "quis"
+    "CustomFields1": "ut",
+    "CustomFields2": "fugit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 596
     }
   }
 }

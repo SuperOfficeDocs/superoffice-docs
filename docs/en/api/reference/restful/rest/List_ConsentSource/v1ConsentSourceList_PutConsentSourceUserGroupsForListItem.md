@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Toy-Zulauf",
-    "ToolTip": "Architecto delectus sit adipisci magni neque qui.",
+    "Id": 552,
+    "Name": "Lemke-Cronin",
+    "ToolTip": "Voluptatem tenetur odit.",
     "Deleted": true,
-    "Rank": 506,
-    "Type": "veniam",
-    "ColorBlock": 858,
-    "IconHint": "consequatur",
+    "Rank": 539,
+    "Type": "nisi",
+    "ColorBlock": 84,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2002-02-17T11:16:14.5276742+01:00",
+    "LastChanged": "2009-11-19T12:57:43.3864466+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Aufderhar-Smitham",
-        "ToolTip": "Ut dolorem quo nobis rerum nisi.",
+        "Id": 982,
+        "Name": "Marvin, Keeling and Becker",
+        "ToolTip": "Quia ullam.",
         "Deleted": false,
-        "Rank": 102,
-        "Type": "ad",
-        "ColorBlock": 861,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2013-09-09T11:16:14.5276742+02:00",
+        "Rank": 950,
+        "Type": "voluptatum",
+        "ColorBlock": 591,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2021-07-03T12:57:43.3864466+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Jordane Littel"
+        "ExtraInfo": "eum",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Mr. Violette Jasmin Cummerata"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "id",
+    "ExtraInfo": "ut",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Prof. Alvena Leora Ebert II"
+    "FullName": "Johnpaul Welch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Lang LLC",
-    "ToolTip": "Dolor possimus et minima ipsum.",
+    "Id": 350,
+    "Name": "Balistreri, Bergstrom and Swift",
+    "ToolTip": "Laudantium enim.",
     "Deleted": false,
-    "Rank": 438,
-    "Type": "vero",
-    "ColorBlock": 876,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2020-10-06T11:16:14.5276742+02:00",
+    "Rank": 727,
+    "Type": "corporis",
+    "ColorBlock": 828,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2019-02-19T12:57:43.3864466+01:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Rau Group",
-        "ToolTip": "Magnam nobis autem et libero sed.",
+        "Id": 452,
+        "Name": "Collins LLC",
+        "ToolTip": "Autem suscipit possimus omnis magni.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "enim",
-        "ColorBlock": 989,
-        "IconHint": "qui",
+        "Rank": 547,
+        "Type": "et",
+        "ColorBlock": 333,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2022-04-11T11:16:14.5276742+02:00",
+        "LastChanged": "2011-07-24T12:57:43.3864466+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Frieda Nikolaus",
+        "ExtraInfo": "dolores",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Prof. Abel Bashirian DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 728
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "rerum",
+    "ExtraInfo": "id",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Alicia Konopelski",
+    "FullName": "Prof. Collin Brandt Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

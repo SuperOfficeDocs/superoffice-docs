@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 121,
-  "LanguageId": 836
+  "ReplyTemplateId": 179,
+  "LanguageId": 196
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 258,
-  "PlainParsed": "aspernatur",
-  "HtmlParsed": "mollitia",
+  "ReplyTemplateId": 925,
+  "PlainParsed": "qui",
+  "HtmlParsed": "quia",
   "Attachments": [
     {
-      "AttachmentId": 945,
-      "Name": "Collins-Roberts",
-      "ContentType": "deserunt",
-      "AttSize": 280,
-      "InlineImage": true,
-      "ContentId": "accusamus",
-      "AuthKey": "quia",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 818,
+      "Name": "Bailey Inc and Sons",
+      "ContentType": "quia",
+      "AttSize": 501,
+      "InlineImage": false,
+      "ContentId": "et",
+      "AuthKey": "natus",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 386
+          "FieldType": "System.Int32",
+          "FieldLength": 980
         }
       }
     }
   ],
-  "Subject": "labore",
+  "Subject": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

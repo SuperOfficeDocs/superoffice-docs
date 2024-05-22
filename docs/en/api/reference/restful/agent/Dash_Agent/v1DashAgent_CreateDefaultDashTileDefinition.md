@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 1001,
-  "Name": "Schaden, Hane and Walsh",
-  "Description": "Switchable bandwidth-monitored core",
-  "DefaultHeight": 393,
-  "DefaultWidth": 607,
+  "DashboardTileDefinitionId": 793,
+  "Name": "Bartell Group",
+  "Description": "Operative stable ability",
+  "DefaultHeight": 693,
+  "DefaultWidth": 180,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mraz, Haag and Greenfelder",
-  "SelectionId": 263,
+  "EntityName": "Kreiger-Lueilwitz",
+  "SelectionId": 912,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolorum",
+  "CurrencyCode": "id",
   "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "facilis",
-  "LayoutConfig": "quia",
-  "SecondarySelectionId": 369,
-  "MeasureByField": "voluptatibus",
+  "MeasureField": "architecto",
+  "SortBy": "ut",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 119,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Towne-Kozey",
+  "ProviderName": "Ledner-D'Amore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldLength": 817
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Christiansen Inc and Sons",
-    "Tooltip": "facere",
+    "Id": 483,
+    "Name": "Paucek Inc and Sons",
+    "Tooltip": "unde",
     "Deleted": false,
-    "UdListDefinitionId": 337,
-    "Rank": 507,
+    "UdListDefinitionId": 214,
+    "Rank": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 529
       }
     }
   }

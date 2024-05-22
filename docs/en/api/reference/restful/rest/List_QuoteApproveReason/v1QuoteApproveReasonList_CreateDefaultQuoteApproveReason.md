@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 394,
-  "Name": "Lesch Inc and Sons",
-  "Tooltip": "ipsam",
+  "Id": 103,
+  "Name": "Wehner, Hartmann and Carroll",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "UdListDefinitionId": 84,
-  "Rank": 135,
+  "UdListDefinitionId": 811,
+  "Rank": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 623
     }
   }
 }

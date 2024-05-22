@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 818,
-  "StartTime": "2020-12-06T11:16:09.0691155+01:00",
-  "EndTime": "2002-12-19T11:16:09.0691155+01:00",
-  "Count": 740,
-  "DocumentTemplateId": 529
+  "ContactId": 513,
+  "StartTime": "1997-10-15T12:57:33.6805549+02:00",
+  "EndTime": "2011-06-28T12:57:33.6805549+02:00",
+  "Count": 912,
+  "DocumentTemplateId": 137
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 952,
-    "Attention": "eum",
-    "Header": "et",
-    "Name": "Runolfsson-Runte",
-    "OurRef": "id",
-    "YourRef": "in",
-    "Description": "Programmable zero administration standardization",
-    "DocumentTemplate": "voluptas",
+    "DocumentId": 218,
+    "Attention": "est",
+    "Header": "ut",
+    "Name": "Witting, Lubowitz and Kuhic",
+    "OurRef": "fugiat",
+    "YourRef": "hic",
+    "Description": "Universal human-resource project",
+    "DocumentTemplate": "aut",
     "IsPublished": false,
-    "PersonId": 765,
-    "PersonFullName": "Shyann Beer",
-    "AssociateFullName": "Tiara Collier",
-    "ContactId": 950,
-    "ContactName": "Hackett LLC",
-    "ProjectId": 721,
-    "ProjectName": "Franecki-Kshlerin",
-    "AssociateId": 850,
-    "Snum": 563,
-    "SaleId": 493,
-    "SaleName": "Runolfsdottir LLC",
+    "PersonId": 174,
+    "PersonFullName": "Prof. Sigrid Vandervort",
+    "AssociateFullName": "Mrs. Marie Jackie White",
+    "ContactId": 237,
+    "ContactName": "Bernier, Kertzmann and Reinger",
+    "ProjectId": 929,
+    "ProjectName": "Walker-Stanton",
+    "AssociateId": 354,
+    "Snum": 307,
+    "SaleId": 812,
+    "SaleName": "Donnelly Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 746
       }
     }
   }

@@ -86,11 +86,12 @@ the actual functionality of the provider.
 |userName|string|User name: User name| x |
 |personEmail|string|E-mail| x |
 |locationAddress|string|Location: Location| x |
+|isLocation|bool|Is a location: Is a location| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=superoffice_outlook-synchronizer,title
+GET /api/v1/archive/InternalUsers?$select=firstName,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

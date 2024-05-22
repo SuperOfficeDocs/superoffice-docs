@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 881,
-  "WorkflowStepId": 502,
-  "WorkflowId": 754,
-  "Rank": 872,
+  "WorkflowWaitForActionId": 389,
+  "WorkflowStepId": 548,
+  "WorkflowId": 57,
+  "Rank": 440,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Hoeger-Schumm",
-      "Description": "Phased composite product",
-      "Rank": 986,
+      "Name": "Goodwin, Wilkinson and Greenfelder",
+      "Description": "Sharable analyzing firmware",
+      "Rank": 513,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hoeger-Schumm",
-      "Description": "Phased composite product",
-      "Rank": 986,
+      "Name": "Goodwin, Wilkinson and Greenfelder",
+      "Description": "Sharable analyzing firmware",
+      "Rank": 513,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 349,
-  "WorkflowStepId": 734,
-  "WorkflowId": 900,
-  "Rank": 715,
+  "WorkflowWaitForActionId": 737,
+  "WorkflowStepId": 16,
+  "WorkflowId": 288,
+  "Rank": 371,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Fay, Ferry and Dicki",
-      "Description": "Function-based modular conglomeration",
-      "Rank": 377,
+      "Name": "Nikolaus Inc and Sons",
+      "Description": "Implemented coherent approach",
+      "Rank": 302,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Fay, Ferry and Dicki",
-      "Description": "Function-based modular conglomeration",
-      "Rank": 377,
+      "Name": "Nikolaus Inc and Sons",
+      "Description": "Implemented coherent approach",
+      "Rank": 302,
       "Restrictions": [
         {},
         {}
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 999
     }
   }
 }

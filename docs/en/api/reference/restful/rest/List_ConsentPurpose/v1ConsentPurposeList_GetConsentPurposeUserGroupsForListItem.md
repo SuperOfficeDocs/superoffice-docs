@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Runte Group",
-    "ToolTip": "Consequatur nisi alias inventore aut quia quod.",
+    "Id": 596,
+    "Name": "Nicolas-Hammes",
+    "ToolTip": "Quos qui.",
     "Deleted": false,
-    "Rank": 450,
-    "Type": "rem",
-    "ColorBlock": 271,
-    "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "2000-09-30T11:16:14.512052+02:00",
+    "Rank": 724,
+    "Type": "quo",
+    "ColorBlock": 594,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2018-09-16T12:57:43.3708249+02:00",
     "ChildItems": [
       {
-        "Id": 128,
-        "Name": "Stroman-Torphy",
-        "ToolTip": "Vel molestiae velit.",
-        "Deleted": true,
-        "Rank": 778,
-        "Type": "et",
-        "ColorBlock": 745,
+        "Id": 817,
+        "Name": "Goldner Inc and Sons",
+        "ToolTip": "Optio dolorem quod.",
+        "Deleted": false,
+        "Rank": 511,
+        "Type": "soluta",
+        "ColorBlock": 938,
         "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2009-12-13T11:16:14.512052+01:00",
+        "Selected": false,
+        "LastChanged": "2012-03-06T12:57:43.3708249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Ms. Vincenza Johnston DDS",
+        "ExtraInfo": "et",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Brielle Padberg I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 928
+            "FieldLength": 437
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Kacie Lowe",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Miss Carson Kautzer IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldType": "System.String",
+        "FieldLength": 956
       }
     }
   }

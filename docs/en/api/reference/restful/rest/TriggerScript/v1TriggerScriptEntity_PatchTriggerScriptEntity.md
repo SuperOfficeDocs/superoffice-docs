@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laboriosam",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laboriosam",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 72,
-  "Name": "Gerhold, Kassulke and Hackett",
+  "ScreenChooserId": 20,
+  "Name": "Vandervort-Hilpert",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "ut",
-  "Source": "saepe",
-  "Registered": "2019-10-07T11:16:14.3398362+02:00",
-  "RegisteredAssociateId": 222,
-  "Updated": "1997-07-17T11:16:14.3398362+02:00",
-  "UpdatedAssociateId": 782,
+  "UniqueIdentifier": "nihil",
+  "Source": "reprehenderit",
+  "Registered": "1997-02-18T12:57:43.0892086+01:00",
+  "RegisteredAssociateId": 698,
+  "Updated": "2011-03-25T12:57:43.0892086+01:00",
+  "UpdatedAssociateId": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 717
     }
   },
   "_Links": {

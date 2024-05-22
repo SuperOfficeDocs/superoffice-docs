@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=quod
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=eos
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Murazik, Bogan and Lynch",
-    "ToolTip": "Et consectetur.",
-    "Deleted": true,
-    "Rank": 707,
-    "Type": "nihil",
-    "ColorBlock": 756,
-    "IconHint": "consequatur",
+    "Id": 33,
+    "Name": "Metz-Rosenbaum",
+    "ToolTip": "Mollitia quibusdam ut beatae ad eum sed occaecati.",
+    "Deleted": false,
+    "Rank": 705,
+    "Type": "ex",
+    "ColorBlock": 966,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2011-01-16T11:16:14.5901626+01:00",
+    "LastChanged": "2023-06-21T12:57:43.4957969+02:00",
     "ChildItems": [
       {
-        "Id": 680,
-        "Name": "Barrows LLC",
-        "ToolTip": "Molestiae quisquam dolorum.",
+        "Id": 523,
+        "Name": "Hintz, Daniel and Feeney",
+        "ToolTip": "Nostrum sapiente ipsum.",
         "Deleted": true,
-        "Rank": 622,
-        "Type": "necessitatibus",
-        "ColorBlock": 925,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2010-04-15T11:16:14.5901626+02:00",
+        "Rank": 229,
+        "Type": "repellat",
+        "ColorBlock": 254,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2010-05-04T12:57:43.4957969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Nickolas Metz",
+        "ExtraInfo": "eum",
+        "StyleHint": "a",
+        "Hidden": true,
+        "FullName": "Ms. Mario Shea Effertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 919
+            "FieldLength": 235
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Preston Terry Sr.",
+    "ExtraInfo": "commodi",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Lew Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 624
       }
     }
   }

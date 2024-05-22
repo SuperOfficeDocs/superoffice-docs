@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 06 Nov 2017 11:16:13 G11T
+Last-Modified: Thu, 28 Feb 2019 12:57:42 G2T
 
 {
-  "ForeignAppId": 762,
-  "Name": "Reichert, Conn and Larkin",
-  "CreatedDate": "2020-05-29T11:16:13.9175899+02:00",
-  "UpdatedDate": "2017-11-06T11:16:13.9175899+01:00",
+  "ForeignAppId": 638,
+  "Name": "Jenkins Inc and Sons",
+  "CreatedDate": "2003-01-12T12:57:42.4326345+01:00",
+  "UpdatedDate": "2019-02-28T12:57:42.4326345+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 209,
-      "Name": "Connelly, Watsica and Lehner",
-      "CreatedDate": "2016-12-13T11:16:13.9175899+01:00",
-      "UpdatedDate": "2002-03-15T11:16:13.9175899+01:00",
-      "AssociateFullName": "Lora Gottlieb",
-      "CreatedBy": "ut",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "libero",
-      "ForeignAppId": 897,
+      "ForeignDeviceId": 958,
+      "Name": "Feil, Keeling and Rau",
+      "CreatedDate": "2021-03-18T12:57:42.4326345+01:00",
+      "UpdatedDate": "2000-12-16T12:57:42.4326345+01:00",
+      "AssociateFullName": "Alexie Mertz",
+      "CreatedBy": "delectus",
+      "UpdatedBy": "eaque",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 36,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldType": "System.String",
+          "FieldLength": 574
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Mon, 06 Nov 2017 11:16:13 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 295
     }
   }
 }

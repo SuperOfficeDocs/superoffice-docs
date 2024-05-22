@@ -86,35 +86,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Beahan, Reilly and Cassin",
-  "StorageKey": "in",
+  "StorageType": "porro",
+  "ProviderName": "Romaguera-Braun",
+  "StorageKey": "velit",
   "Restrictions": [
     {
-      "Name": "Streich-Kris",
-      "Operator": "quia",
+      "Name": "Kiehn, Rodriguez and Waters",
+      "Operator": "aut",
       "Values": [
-        "illo",
-        "et"
+        "dolores",
+        "aut"
       ],
       "DisplayValues": [
-        "esse",
-        "maxime"
+        "id",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 455,
+      "InterParenthesis": 634,
       "InterOperator": "And",
-      "UniqueHash": 866
+      "UniqueHash": 788
     }
   ],
   "StaticColumns": [
-    "ut",
-    "tempora"
+    "corporis",
+    "consequatur"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Anderson-Flatley",
-      "Operator": "et",
+      "Name": "Lindgren-Runte",
+      "Operator": "laborum",
       "Values": [
-        "et",
-        "qui"
+        "non",
+        "aperiam"
       ],
       "DisplayValues": [
-        "saepe",
-        "dicta"
+        "suscipit",
+        "saepe"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 399,
+      "InterParenthesis": 743,
       "InterOperator": "And",
-      "UniqueHash": 728
+      "UniqueHash": 301
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ebert-Reynolds",
-      "DisplayTooltip": "porro",
-      "DisplayType": "fuga",
-      "CanOrderBy": true,
-      "Name": "Goodwin, Lebsack and Little",
-      "CanRestrictBy": true,
-      "RestrictionType": "odit",
-      "RestrictionListName": "Ernser-Lakin",
+      "DisplayName": "Gorczany-Ward",
+      "DisplayTooltip": "eum",
+      "DisplayType": "deleniti",
+      "CanOrderBy": false,
+      "Name": "Rice-Cummerata",
+      "CanRestrictBy": false,
+      "RestrictionType": "est",
+      "RestrictionListName": "Fahey Group",
       "IsVisible": false,
-      "ExtraInfo": "non",
-      "Width": "beatae",
-      "IconHint": "dolorum",
-      "HeadingIconHint": "doloremque"
+      "ExtraInfo": "natus",
+      "Width": "vero",
+      "IconHint": "harum",
+      "HeadingIconHint": "quo"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Wolf, Murazik and Lowe",
-      "PrimaryKey": 807,
+      "EntityName": "Blanda, Leuschke and Harber",
+      "PrimaryKey": 823,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "atque",
-          "TooltipHint": "excepturi",
-          "LinkHint": "nam"
+          "DisplayValue": "deleniti",
+          "TooltipHint": "vero",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "aperiam",
-      "StyleHint": "veniam",
+      "LinkHint": "rerum",
+      "StyleHint": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 971
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Swift, Ziemann and Johnston",
-      "Description": "Up-sized value-added local area network",
-      "Rank": 992,
+      "Name": "Carroll-Mann",
+      "Description": "Programmable zero tolerance website",
+      "Rank": 366,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Swift, Ziemann and Johnston",
-      "Description": "Up-sized value-added local area network",
-      "Rank": 992,
+      "Name": "Carroll-Mann",
+      "Description": "Programmable zero tolerance website",
+      "Rank": 366,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 709
     }
   }
 }

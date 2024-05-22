@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 580,
-    "Tooltip": "at",
-    "CanAssign": true,
-    "Free": 348,
-    "InUse": 363,
-    "IsHidden": true,
+    "Total": 267,
+    "Tooltip": "labore",
+    "CanAssign": false,
+    "Free": 724,
+    "InUse": 863,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 87,
-    "Name": "Kassulke LLC",
-    "Description": "Front-line bi-directional software",
-    "PrerequisiteModuleName": "Padberg, Stokes and Prosacco",
-    "SortOrder": 370,
-    "ExtraFlags": 978,
+    "ModuleLicenseId": 645,
+    "Name": "Jones-Bashirian",
+    "Description": "Seamless full-range knowledge user",
+    "PrerequisiteModuleName": "Kessler-Reichert",
+    "SortOrder": 628,
+    "ExtraFlags": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 68
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 292,
-  "Name": "Stark-Senger",
-  "Tooltip": "ipsam",
+  "RoleId": 34,
+  "Name": "Wintheiser-Haag",
+  "Tooltip": "voluptatem",
   "RoleType": "Anonymous",
-  "Deleted": 629,
-  "Rank": 987,
-  "Created": "2005-03-24T11:16:10.0275967+01:00",
-  "UseCategories": 354,
+  "Deleted": 133,
+  "Rank": 600,
+  "Created": "2000-10-14T12:57:35.4618366+02:00",
+  "UseCategories": 814,
   "CreatedBy": null,
-  "Updated": "2020-03-17T11:16:10.0275967+01:00",
+  "Updated": "2013-04-06T12:57:35.4618366+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 415
     }
   }
 }

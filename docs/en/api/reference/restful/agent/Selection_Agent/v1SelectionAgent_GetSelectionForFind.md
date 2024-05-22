@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Hermann LLC",
-  "TypicalSearchId": 888
+  "EntityName": "Wolff, Breitenberg and Ward",
+  "TypicalSearchId": 6
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Windler-Okuneva",
-  "SelectionId": 956,
-  "CanSaveAsSelection": true,
-  "MainHeading": "dolores",
-  "FilterScreenHeading": "voluptate",
-  "SelectionEntityHeading": "temporibus",
+  "ProviderName": "Bechtelar Inc and Sons",
+  "SelectionId": 369,
+  "CanSaveAsSelection": false,
+  "MainHeading": "qui",
+  "FilterScreenHeading": "laudantium",
+  "SelectionEntityHeading": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 768
     }
   }
 }

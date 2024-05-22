@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 156
+  "ShipmentAddrId": 857
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2002-09-25T11:16:09.3815779+02:00",
+  "SendingTime": "2006-02-17T12:57:34.2429559+01:00",
   "Status": "Blocked",
-  "ShipmentId": 355,
-  "ShipmentDescription": "Decentralized needs-based access",
-  "FromAddress": "et",
-  "Configuration": 450,
-  "ContactId": 23,
-  "ContactName": "Dare-Vandervort",
-  "PersonId": 836,
-  "PersonFullName": "Ms. Brittany Maximillian Heaney Sr.",
-  "ShipmentType": "fugit",
-  "MessageId": 38,
-  "MessageSubject": "repellendus",
-  "DocumentMessageId": 840,
-  "Opened": "2022-06-25T11:16:09.3815779+02:00",
-  "LinkClicks": 870,
+  "ShipmentId": 321,
+  "ShipmentDescription": "Open-source static help-desk",
+  "FromAddress": "perspiciatis",
+  "Configuration": 258,
+  "ContactId": 457,
+  "ContactName": "Herzog, Hauck and Hartmann",
+  "PersonId": 670,
+  "PersonFullName": "Nola Hermiston",
+  "ShipmentType": "corrupti",
+  "MessageId": 141,
+  "MessageSubject": "quam",
+  "DocumentMessageId": 1000,
+  "Opened": "2006-08-20T12:57:34.2429559+02:00",
+  "LinkClicks": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldLength": 710
     }
   }
 }

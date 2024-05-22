@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 583,
-  "CountryId": 333
+  "ContactId": 181,
+  "CountryId": 438
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 8549.552,
-  "Wgs84Longitude": 16729.291999999998,
+  "Wgs84Latitude": 16810.775999999998,
+  "Wgs84Longitude": 13153.398,
   "LocalizedAddress": [
     [
       {
-        "Name": "Anderson-Schaden",
-        "Value": "omnis",
-        "Tooltip": "voluptatibus",
-        "Label": "consectetur",
-        "ValueLength": 993,
-        "AddressType": "aspernatur",
+        "Name": "Haag Inc and Sons",
+        "Value": "sed",
+        "Tooltip": "repellendus",
+        "Label": "porro",
+        "ValueLength": 412,
+        "AddressType": "reiciendis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 536
+            "FieldLength": 308
           }
         }
       }
     ],
     [
       {
-        "Name": "Huels LLC",
-        "Value": "aperiam",
-        "Tooltip": "dicta",
-        "Label": "qui",
-        "ValueLength": 27,
-        "AddressType": "officia",
+        "Name": "Feil-Wisozk",
+        "Value": "magnam",
+        "Tooltip": "porro",
+        "Label": "reprehenderit",
+        "ValueLength": 58,
+        "AddressType": "nihil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldType": "System.String",
+            "FieldLength": 219
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "voluptatem",
+  "Formatted": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 845
     }
   }
 }

@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "nihil",
-  "NsPluginSender": "inventore",
+  "NetServerSmsProvider": "ut",
+  "NsPluginSender": "accusamus",
   "NsPluginConfig": {
-    "NsPluginConfig1": "saepe",
-    "NsPluginConfig2": "omnis"
+    "NsPluginConfig1": "quaerat",
+    "NsPluginConfig2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 254
     }
   }
 }

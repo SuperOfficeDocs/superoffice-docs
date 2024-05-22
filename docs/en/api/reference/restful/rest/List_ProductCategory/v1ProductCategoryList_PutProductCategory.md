@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Kemmer LLC",
-  "Tooltip": "cupiditate",
+  "Id": 490,
+  "Name": "Fritsch-Senger",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "UdListDefinitionId": 950,
-  "Rank": 345
+  "UdListDefinitionId": 644,
+  "Rank": 273
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Barrows Group",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 498,
-  "Rank": 494,
+  "Id": 450,
+  "Name": "Rice Group",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 823,
+  "Rank": 936,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 74
     }
   }
 }

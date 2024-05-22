@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "rerum",
-    "magnam"
+    "laudantium",
+    "excepturi"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 456,
-    "ColumnId": 67,
-    "FieldDefault": "a",
-    "FieldHeight": 768,
-    "FieldLabel": "ea",
-    "FieldLeft": 158,
-    "FieldTop": 775,
+    "UDefFieldId": 592,
+    "ColumnId": 423,
+    "FieldDefault": "eum",
+    "FieldHeight": 28,
+    "FieldLabel": "laudantium",
+    "FieldLeft": 613,
+    "FieldTop": 420,
     "FieldType": "Checkbox",
-    "FieldWidth": 12,
-    "FormatMask": "veniam",
-    "HideLabel": true,
+    "FieldWidth": 997,
+    "FormatMask": "dolor",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 606,
-    "LabelLeft": 279,
-    "LabelTop": 626,
-    "LabelWidth": 169,
-    "LastVersionId": 881,
-    "ListTableId": 477,
+    "LabelHeight": 634,
+    "LabelLeft": 423,
+    "LabelTop": 586,
+    "LabelWidth": 988,
+    "LastVersionId": 713,
+    "ListTableId": 679,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 186,
-    "ProgId": "dicta",
+    "Page1LineNo": 927,
+    "ProgId": "nam",
     "IsReadOnly": false,
-    "ShortLabel": "consectetur",
-    "TabOrder": 42,
-    "TextLength": 893,
-    "Tooltip": "quas",
-    "UdefIdentity": 364,
-    "UDListDefinitionId": 315,
+    "ShortLabel": "quo",
+    "TabOrder": 681,
+    "TextLength": 993,
+    "Tooltip": "dolor",
+    "UdefIdentity": 321,
+    "UDListDefinitionId": 130,
     "Justification": "Center",
-    "Version": 628,
-    "TemplateVariableName": "Kilback, Kessler and Nader",
-    "HasBeenPublished": true,
-    "MdoListName": "Upton-Bogisich",
+    "Version": 177,
+    "TemplateVariableName": "Mitchell, Greenfelder and Glover",
+    "HasBeenPublished": false,
+    "MdoListName": "Schamberger-Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 829
       }
     }
   }

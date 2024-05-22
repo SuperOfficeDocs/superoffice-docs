@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 565
+  "QuoteAlternativeId": 557
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 281,
-    "ERPQuoteLineKey": "cupiditate",
-    "QuoteAlternativeId": 878,
-    "ERPProductKey": "dolorem",
+    "QuoteLineId": 811,
+    "ERPQuoteLineKey": "sint",
+    "QuoteAlternativeId": 991,
+    "ERPProductKey": "molestiae",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 29657.041999999998,
-    "DeliveredQuantity": 7462.054,
-    "Rank": 290,
-    "Name": "Bergstrom, Towne and Rippin",
-    "Description": "Mandatory non-volatile circuit",
-    "Code": "ducimus",
+    "Quantity": 9116.806,
+    "DeliveredQuantity": 25846.097999999998,
+    "Rank": 218,
+    "Name": "Orn-Ortiz",
+    "Description": "Business-focused well-modulated data-warehouse",
+    "Code": "officia",
     "QuantityUnit": "aut",
-    "PriceUnit": "blanditiis",
-    "ItemNumber": "553972",
+    "PriceUnit": "tempora",
+    "ItemNumber": "329600",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "provident",
-    "ProductTypeKey": "eum",
-    "Supplier": "consequatur",
-    "SupplierCode": "quasi",
-    "Thumbnail": "nulla",
-    "VATInfo": "qui",
-    "VAT": 13567.086,
-    "UnitCost": 28597.75,
-    "UnitMinimumPrice": 27491.448,
-    "UnitListPrice": 6236.66,
+    "ProductFamilyKey": "assumenda",
+    "ProductTypeKey": "nisi",
+    "Supplier": "architecto",
+    "SupplierCode": "sit",
+    "Thumbnail": "aperiam",
+    "VATInfo": "officiis",
+    "VAT": 10245.046,
+    "UnitCost": 10389.21,
+    "UnitMinimumPrice": 15284.518,
+    "UnitListPrice": 2453.922,
     "ExtraInfo": [
       {
-        "Name": "Lockman-Jenkins",
-        "Value": "vel",
+        "Name": "Turner Inc and Sons",
+        "Value": "reiciendis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 65
+            "FieldLength": 482
           }
         }
       },
       {
-        "Name": "Lockman-Jenkins",
-        "Value": "vel",
+        "Name": "Turner Inc and Sons",
+        "Value": "reiciendis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 65
+            "FieldLength": 482
           }
         }
       }
     ],
-    "RawExtraInfo": "iusto",
-    "IsSubscription": false,
-    "SubscriptionUnit": "ea",
-    "SubscriptionQuantity": 1523.124,
-    "SubscriptionStart": "2011-06-08T11:16:09.6161411+02:00",
-    "ERPDiscountPercent": 22448.842,
-    "ERPDiscountAmount": 7756.65,
-    "DiscountPercent": 18478.064,
-    "DiscountAmount": 30456.212,
+    "RawExtraInfo": "labore",
+    "IsSubscription": true,
+    "SubscriptionUnit": "sint",
+    "SubscriptionQuantity": 4215.23,
+    "SubscriptionStart": "2011-06-23T12:57:34.7584337+02:00",
+    "ERPDiscountPercent": 27497.716,
+    "ERPDiscountAmount": 9527.36,
+    "DiscountPercent": 15930.122,
+    "DiscountAmount": 20226.836,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 25645.522,
-    "EarningAmount": 14454.008,
-    "SubTotal": 7267.746,
-    "TotalPrice": 28177.793999999998,
-    "Rights": "laborum",
-    "Rule": "ipsum",
-    "ExtraField1": "sed",
-    "ExtraField2": "animi",
-    "ExtraField3": "unde",
-    "ExtraField4": "vel",
-    "ExtraField5": "fugit",
+    "EarningPercent": 25131.546,
+    "EarningAmount": 2839.404,
+    "SubTotal": 20549.638,
+    "TotalPrice": 22220.059999999998,
+    "Rights": "est",
+    "Rule": "esse",
+    "ExtraField1": "alias",
+    "ExtraField2": "ea",
+    "ExtraField3": "deleniti",
+    "ExtraField4": "quod",
+    "ExtraField5": "temporibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

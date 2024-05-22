@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 622,
+  "PriceListId": 589,
   "ERPPriceListKey": "et",
-  "QuoteConnectionId": 388,
-  "Name": "Schiller, Aufderhar and Smitham",
-  "Description": "Open-architected static hierarchy",
-  "Currency": "sint",
-  "CurrencyName": "Keebler-Funk",
-  "ValidFrom": "1998-03-19T11:16:09.5848946+01:00",
-  "ValidTo": "2020-02-10T11:16:09.5848946+01:00",
+  "QuoteConnectionId": 6,
+  "Name": "Hoeger-Williamson",
+  "Description": "Open-architected modular open system",
+  "Currency": "consequatur",
+  "CurrencyName": "Mitchell LLC",
+  "ValidFrom": "2011-02-09T12:57:34.7115695+01:00",
+  "ValidTo": "2021-06-01T12:57:34.7115695+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 698,
-  "ERPPriceListKey": "asperiores",
-  "QuoteConnectionId": 250,
-  "Name": "Brown-McCullough",
-  "Description": "Profound fresh-thinking process improvement",
-  "Currency": "optio",
-  "CurrencyName": "Rolfson-Sipes",
-  "ValidFrom": "1997-12-12T11:16:09.5848946+01:00",
-  "ValidTo": "2022-03-13T11:16:09.5848946+01:00",
+  "PriceListId": 695,
+  "ERPPriceListKey": "vel",
+  "QuoteConnectionId": 432,
+  "Name": "Wisoky Inc and Sons",
+  "Description": "Inverse tangible success",
+  "Currency": "accusantium",
+  "CurrencyName": "Powlowski-Powlowski",
+  "ValidFrom": "2020-06-29T12:57:34.7115695+02:00",
+  "ValidTo": "2010-06-21T12:57:34.7115695+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 333
     }
   }
 }

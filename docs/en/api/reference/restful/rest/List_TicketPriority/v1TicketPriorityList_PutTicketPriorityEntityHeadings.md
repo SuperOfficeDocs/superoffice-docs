@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 723,
-    "Name": "Dickinson, Braun and Littel",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 141,
-    "UdListDefinitionId": 730
+    "HeadingId": 759,
+    "Name": "Dibbert-Okuneva",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 28,
+    "UdListDefinitionId": 328
   },
   {
-    "HeadingId": 723,
-    "Name": "Dickinson, Braun and Littel",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 141,
-    "UdListDefinitionId": 730
+    "HeadingId": 759,
+    "Name": "Dibbert-Okuneva",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 28,
+    "UdListDefinitionId": 328
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 548,
-    "Name": "Watsica Group",
-    "Tooltip": "porro",
-    "Deleted": true,
-    "Rank": 711,
-    "UdListDefinitionId": 632,
+    "HeadingId": 931,
+    "Name": "Turner Group",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "Rank": 234,
+    "UdListDefinitionId": 465,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 38
       }
     }
   }

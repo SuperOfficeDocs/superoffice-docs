@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 746,
-  "Name": "Ratke, Leuschke and Hammes",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "UdListDefinitionId": 988,
-  "Rank": 255,
+  "Id": 486,
+  "Name": "Larkin-Stamm",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 381,
+  "Rank": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldLength": 10
     }
   }
 }

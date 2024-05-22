@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1999-11-13T11:16:08.7097813+01:00",
-  "ToDate": "2000-10-11T11:16:08.7097813+02:00",
+  "FromDate": "2007-01-02T12:57:33.2116147+01:00",
+  "ToDate": "2011-11-15T12:57:33.2116147+01:00",
   "AssociateList": [
     {
-      "Id": 796,
-      "Name": "Heller-Kub",
-      "ToolTip": "Ex voluptates aut quas velit amet cupiditate rerum.",
+      "Id": 755,
+      "Name": "Skiles, Ward and Hermiston",
+      "ToolTip": "Temporibus qui nobis eligendi voluptatibus ducimus.",
       "Deleted": true,
-      "Rank": 355,
-      "Type": "est",
-      "ColorBlock": 696,
-      "IconHint": "occaecati",
+      "Rank": 963,
+      "Type": "porro",
+      "ColorBlock": 663,
+      "IconHint": "unde",
       "Selected": true,
-      "LastChanged": "2015-03-03T11:16:08.7097813+01:00",
+      "LastChanged": "1998-06-12T12:57:33.2116147+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsum",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "perferendis",
       "Hidden": false,
-      "FullName": "Mary Anderson",
+      "FullName": "Lorenzo Elisa Veum III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 778
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 256,
-      "Name": "Ledner-Williamson",
-      "ToolTip": "Quam quia quia in.",
-      "Deleted": false,
-      "Rank": 615,
-      "Type": "ea",
-      "ColorBlock": 870,
-      "IconHint": "sed",
+      "Id": 102,
+      "Name": "Robel, Donnelly and Ratke",
+      "ToolTip": "Ut minima consequatur.",
+      "Deleted": true,
+      "Rank": 501,
+      "Type": "earum",
+      "ColorBlock": 294,
+      "IconHint": "ipsam",
       "Selected": false,
-      "LastChanged": "2013-03-24T11:16:08.7097813+01:00",
+      "LastChanged": "2020-03-14T12:57:33.2116147+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "provident",
-      "StyleHint": "sit",
-      "Hidden": false,
-      "FullName": "Ms. Vincenzo Ewald Stamm",
+      "ExtraInfo": "eos",
+      "StyleHint": "exercitationem",
+      "Hidden": true,
+      "FullName": "Alex Ron Donnelly PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldType": "System.Int32",
+          "FieldLength": 360
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 171,
-      "Name": "Krajcik Group",
-      "ToolTip": "Et at numquam mollitia ea rerum dolore magnam.",
-      "Deleted": true,
-      "Rank": 93,
-      "Type": "non",
+      "Id": 99,
+      "Name": "Ziemann-Muller",
+      "ToolTip": "Cumque ut.",
+      "Deleted": false,
+      "Rank": 632,
+      "Type": "consectetur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "adipisci",
-      "ColorBlock": 768,
-      "ExtraInfo": "quia",
-      "StyleHint": "perspiciatis",
-      "FullName": "Abel D'Amore",
+      "IconHint": "atque",
+      "ColorBlock": 600,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "ab",
+      "FullName": "Ms. Kenya Desmond Lind",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldType": "System.String",
+          "FieldLength": 550
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

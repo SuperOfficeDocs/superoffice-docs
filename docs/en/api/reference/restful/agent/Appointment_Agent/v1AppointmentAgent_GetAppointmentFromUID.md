@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "inventore"
+  "UID": "dignissimos"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-05-22T11:16:08.6790663+02:00",
-  "AppointmentId": 807,
-  "Description": "Extended 6th generation secured line",
-  "Title": "omnis",
-  "Agenda": "ea",
-  "InternalNotes": "sequi",
-  "StartDate": "2004-03-26T11:16:08.6790663+01:00",
-  "EndDate": "2021-05-19T11:16:08.6790663+02:00",
+  "CreatedDate": "2010-06-03T12:57:33.1803718+02:00",
+  "AppointmentId": 85,
+  "Description": "Fully-configurable reciprocal knowledge base",
+  "Title": "saepe",
+  "Agenda": "est",
+  "InternalNotes": "et",
+  "StartDate": "2001-02-25T12:57:33.1803718+01:00",
+  "EndDate": "2019-12-16T12:57:33.1803718+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 490,
+  "MotherId": 212,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2016-10-18T11:16:08.6941113+02:00",
+  "UpdatedDate": "2014-05-12T12:57:33.1803718+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 96,
+  "ActiveLinks": 713,
   "Links": [
     {
-      "EntityName": "Adams-Morar",
-      "Id": 543,
-      "Description": "Diverse even-keeled emulation",
-      "ExtraInfo": "temporibus",
-      "LinkId": 569,
+      "EntityName": "Cummings LLC",
+      "Id": 6,
+      "Description": "Function-based mobile process improvement",
+      "ExtraInfo": "possimus",
+      "LinkId": 638,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldType": "System.Int32",
+          "FieldLength": 784
         }
       }
     }
   ],
-  "AlarmLeadTime": "nobis",
+  "AlarmLeadTime": "rerum",
   "HasAlarm": false,
-  "ColorIndex": 868,
+  "ColorIndex": 96,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "modi",
-  "LeadTime": "aut",
-  "Location": "non",
-  "RejectCounter": 400,
-  "RejectReason": "",
+  "LagTime": "aperiam",
+  "LeadTime": "facilis",
+  "Location": "eum",
+  "RejectCounter": 958,
+  "RejectReason": "transition B2B e-commerce",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 38,
-      "PersonId": 758,
-      "ContactId": 972,
-      "EmailId": 111,
-      "SendEmail": false,
+      "AssociateId": 760,
+      "PersonId": 713,
+      "ContactId": 984,
+      "EmailId": 220,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lexi.buckridge@pollichmedhurst.com",
-      "Description": "Open-source discrete task-force"
+      "EmailAddress": "tanner@bradtkegrant.biz",
+      "Description": "Reduced holistic forecast"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-07-21T11:16:08.6941113+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2005-11-03T12:57:33.1803718+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 175,
+  "PreferredTZLocation": 284,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 753,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 210,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "rerum",
+  "CentralserviceVideomeetId": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Krystal Fritsch",
-    "SuperOffice:2": "Torrey Schinner"
+    "SuperOffice:1": "Marjory Abernathy",
+    "SuperOffice:2": "1081675266"
   },
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "cum"
+    "CustomFields1": "animi",
+    "CustomFields2": "eaque"
   },
-  "PublishEventDate": "2004-06-12T11:16:08.6941113+02:00",
-  "PublishTo": "2024-03-22T11:16:08.6941113+01:00",
-  "PublishFrom": "2024-03-10T11:16:08.6941113+01:00",
+  "PublishEventDate": "2021-07-28T12:57:33.1803718+02:00",
+  "PublishTo": "2002-10-11T12:57:33.1803718+02:00",
+  "PublishFrom": "2017-07-07T12:57:33.1803718+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 25,
+      "VisibleId": 164,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 309
+          "FieldType": "System.Int32",
+          "FieldLength": 981
         }
       }
     },
     {
-      "VisibleId": 25,
+      "VisibleId": 164,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 309
+          "FieldType": "System.Int32",
+          "FieldLength": 981
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

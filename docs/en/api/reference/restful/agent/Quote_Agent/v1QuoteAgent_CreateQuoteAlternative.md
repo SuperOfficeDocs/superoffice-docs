@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 764,
-  "QuoteAlternativeName": "Blanda Inc and Sons",
-  "QuoteAlternativeDescription": "Seamless web-enabled analyzer"
+  "QuoteVersionId": 473,
+  "QuoteAlternativeName": "Padberg, Grant and Dare",
+  "QuoteAlternativeDescription": "Distributed coherent knowledge user"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 969,
-  "ERPQuoteAlternativeKey": "tenetur",
-  "QuoteVersionId": 429,
-  "Name": "Stehr-Dickinson",
-  "Description": "Integrated executive capacity",
+  "QuoteAlternativeId": 424,
+  "ERPQuoteAlternativeKey": "quas",
+  "QuoteVersionId": 493,
+  "Name": "Kessler, Ondricka and Legros",
+  "Description": "Cloned bi-directional customer loyalty",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 1429.104,
-  "ERPDiscountAmount": 30236.832,
-  "DiscountPercent": 21054.212,
-  "DiscountAmount": 29215.147999999997,
+  "ERPDiscountPercent": 29898.36,
+  "ERPDiscountAmount": 15259.446,
+  "DiscountPercent": 7631.29,
+  "DiscountAmount": 11906.065999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quas",
-  "VAT": 25877.438,
-  "EarningPercent": 12968.492,
-  "EarningAmount": 1927.4099999999999,
-  "SubTotal": 15460.021999999999,
-  "TotalPrice": 9727.936,
-  "ExtraField1": "repellendus",
-  "ExtraField2": "perspiciatis",
-  "ExtraField3": "sapiente",
-  "ExtraField4": "non",
-  "ExtraField5": "quo",
+  "VATInfo": "soluta",
+  "VAT": 27848.724,
+  "EarningPercent": 7728.4439999999995,
+  "EarningAmount": 28149.588,
+  "SubTotal": 3710.656,
+  "TotalPrice": 29512.878,
+  "ExtraField1": "ea",
+  "ExtraField2": "omnis",
+  "ExtraField3": "omnis",
+  "ExtraField4": "aut",
+  "ExtraField5": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldLength": 848
     }
   }
 }

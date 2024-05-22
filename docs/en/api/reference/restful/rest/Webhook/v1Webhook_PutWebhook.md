@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 342,
-  "Name": "Larson Inc and Sons",
+  "WebhookId": 668,
+  "Name": "Kertzmann Inc and Sons",
   "Events": [
-    "voluptates",
-    "dolorem"
+    "aut",
+    "eveniet"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolor",
+  "Secret": "sed",
   "State": "Active",
-  "Type": "quidem",
+  "Type": "natus",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "magnam"
+    "Headers1": "aliquam",
+    "Headers2": "dignissimos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-10-10T11:16:14.4495535+02:00",
+  "Registered": "2002-03-05T12:57:43.2770971+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-02-10T11:16:14.4495535+01:00",
+  "Updated": "2011-10-05T12:57:43.2770971+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "orland@waters.info"
+  "ErrorsEmail": "isobel@bernhard.us"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 473,
-  "Name": "Breitenberg Group",
+  "WebhookId": 247,
+  "Name": "Reynolds-Tremblay",
   "Events": [
-    "totam",
-    "quo"
+    "vitae",
+    "laboriosam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "quasi",
   "State": "Active",
-  "Type": "nemo",
+  "Type": "aliquam",
   "Headers": {
-    "Headers1": "quasi",
-    "Headers2": "qui"
+    "Headers1": "debitis",
+    "Headers2": "quasi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1997-03-09T11:16:14.465178+01:00",
+  "Registered": "2015-03-02T12:57:43.2770971+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-03-08T11:16:14.465178+01:00",
+  "Updated": "2003-12-23T12:57:43.2770971+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "brice_schulist@brownbechtelar.ca",
+  "ErrorsEmail": "makenzie@luettgenhermiston.info",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

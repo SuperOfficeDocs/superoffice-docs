@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=766
+PUT /api/v1/Project/{id}/ImageInfo?projectId=627
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 901,
-  "BlobSize": 601,
-  "Description": "Open-architected zero defect utilisation",
-  "ExtraInfo": "et",
+  "BlobId": 532,
+  "BlobSize": 219,
+  "Description": "Re-contextualized solution-oriented attitude",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "nesciunt",
-  "OriginalSize": 363,
-  "CreatedDate": "2003-04-24T11:16:14.1206908+02:00",
-  "UpdatedDate": "1997-03-02T11:16:14.1206908+01:00",
+  "MimeType": "possimus",
+  "OriginalSize": 43,
+  "CreatedDate": "2021-05-22T12:57:42.6513343+02:00",
+  "UpdatedDate": "2022-08-13T12:57:42.6513343+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nisi"
+  "ConceptualType": "eaque"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 525,
-  "BlobSize": 617,
-  "Description": "Customer-focused intermediate policy",
-  "ExtraInfo": "voluptate",
-  "IsEncrypted": false,
+  "BlobId": 731,
+  "BlobSize": 830,
+  "Description": "Open-architected tertiary service-desk",
+  "ExtraInfo": "expedita",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "autem",
-  "OriginalSize": 651,
-  "CreatedDate": "2001-07-05T11:16:14.1206908+02:00",
-  "UpdatedDate": "2000-02-09T11:16:14.1206908+01:00",
+  "MimeType": "dolores",
+  "OriginalSize": 489,
+  "CreatedDate": "2020-04-08T12:57:42.6513343+02:00",
+  "UpdatedDate": "2004-07-09T12:57:42.6513343+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "porro",
+  "ConceptualType": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   }
 }

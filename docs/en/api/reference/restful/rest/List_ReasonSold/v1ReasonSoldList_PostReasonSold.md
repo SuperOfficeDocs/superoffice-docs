@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 269,
-  "Name": "Gislason Group",
-  "Tooltip": "ut",
+  "Id": 142,
+  "Name": "Beahan-Berge",
+  "Tooltip": "occaecati",
   "Deleted": true,
-  "UdListDefinitionId": 376,
-  "Rank": 745
+  "UdListDefinitionId": 465,
+  "Rank": 430
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 142,
-  "Name": "Shields-Walter",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 514,
-  "Rank": 265,
+  "Id": 132,
+  "Name": "Schmeler, Kerluke and Connelly",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 934,
+  "Rank": 635,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldType": "System.String",
+      "FieldLength": 556
     }
   }
 }

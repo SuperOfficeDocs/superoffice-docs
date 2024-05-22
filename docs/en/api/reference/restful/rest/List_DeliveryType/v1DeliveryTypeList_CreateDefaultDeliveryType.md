@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Tremblay, Jast and Mann",
-  "Tooltip": "rerum",
+  "Id": 2,
+  "Name": "Hagenes-Considine",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 624,
-  "Rank": 559,
+  "UdListDefinitionId": 313,
+  "Rank": 198,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 953
     }
   }
 }

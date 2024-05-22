@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "possimus",
-  "ProviderName": "Thiel-Gislason",
-  "StorageKey": "dolorum",
-  "Rank": 510,
-  "Context": "animi"
+  "StorageType": "veniam",
+  "ProviderName": "Mraz, Kreiger and Dietrich",
+  "StorageKey": "laudantium",
+  "Rank": 499,
+  "Context": "qui"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Koepp-Halvorson",
-  "Description": "Programmable encompassing moderator",
-  "Rank": 355,
+  "Name": "Schroeder Inc and Sons",
+  "Description": "Secured leading edge functionalities",
+  "Rank": 917,
   "Restrictions": [
     {
-      "Name": "Schuppe-Schaden",
-      "Operator": "a",
+      "Name": "Bogan LLC",
+      "Operator": "consectetur",
       "Values": [
-        "natus",
-        "veniam"
+        "a",
+        "voluptate"
       ],
       "DisplayValues": [
-        "asperiores",
-        "debitis"
+        "similique",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 553,
+      "InterParenthesis": 418,
       "InterOperator": "And",
-      "UniqueHash": 890
+      "UniqueHash": 395
     }
   ]
 }

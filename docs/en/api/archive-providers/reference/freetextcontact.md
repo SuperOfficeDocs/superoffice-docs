@@ -165,6 +165,7 @@ as well as before any ORDER BY, are applied.
 |contactAssociate/userName|string|User name: User name| x |
 |contactAssociate/personEmail|string|E-mail| x |
 |contactAssociate/locationAddress|string|Location: Location| x |
+|contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
 |contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
 |contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
@@ -196,6 +197,7 @@ as well as before any ORDER BY, are applied.
 |contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
 |contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
 |contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
+|contactSupportAssociate/isLocation|bool|Our service contact - Is a location: Is a location| x |
 |contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
 |contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
@@ -236,17 +238,20 @@ as well as before any ORDER BY, are applied.
 |contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
 |contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
-|contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
-|contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
+|contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
+|contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
+|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - Updated by flow: Updated by flow| x |
+|contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
 |contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
 |contactSupportPerson/personInfo/infoText|positiveString|User support contact - Information: Displays the text entered in the description field| x |
@@ -262,7 +267,6 @@ as well as before any ORDER BY, are applied.
 |contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
 |contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
 |contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
-|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
 |contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
 |contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -310,7 +314,6 @@ as well as before any ORDER BY, are applied.
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -339,13 +342,13 @@ as well as before any ORDER BY, are applied.
 |NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |LastSale|date|Date of last sale|  |
 |LastCompletedSale|date|Date of last completed sale|  |
-|LastDoBySale|date|Date of last non-completed sale|  |
-|NumberOfTickets|int|Number of requests|  |
-|NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|LastDoBySale|date|Date of last non-completed sale|  |
+|NumberOfTickets|int|Number of requests|  |
+|NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
 |NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
 |LastTicket|date|Date of last request|  |
@@ -366,7 +369,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactSupportPerson/personUdef/SuperOffice:9,contactAssociate/contactDepartment,contactSupportPerson/personId
+GET /api/v1/archive/FreetextContact?$select=streetAddress/addressId,contactAssociate/simultaneousEjUser,contactSupportPerson/hasInfoText,contactExtra/x_contact_date,LastDoByActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

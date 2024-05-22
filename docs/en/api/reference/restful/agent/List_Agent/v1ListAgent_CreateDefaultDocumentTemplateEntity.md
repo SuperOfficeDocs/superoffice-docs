@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 984,
-  "Name": "Morissette-Crooks",
-  "Tooltip": "cum",
-  "SaveInDb": 815,
-  "Filename": "voluptas",
-  "DefaultOref": "quisquam",
+  "DocumentTemplateId": 370,
+  "Name": "Hamill Inc and Sons",
+  "Tooltip": "officiis",
+  "SaveInDb": 986,
+  "Filename": "suscipit",
+  "DefaultOref": "illo",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 139,
-  "IntentId": 214,
+  "AutoeventId": 232,
+  "IntentId": 936,
   "IsDefaultPublished": false,
-  "Rank": 547,
-  "LoadTemplateFromPlugin": 335,
-  "MimeType": "quia",
+  "Rank": 199,
+  "LoadTemplateFromPlugin": 98,
+  "MimeType": "illo",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 991,
+  "DocumentTypeKey": 746,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "zachariah@littel.name",
+  "EmailSubject": "benjamin@roob.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "connor@wiegand.biz",
+  "SenderEmailAddress": "emmanuelle_abernathy@bashirian.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 899
     }
   }
 }

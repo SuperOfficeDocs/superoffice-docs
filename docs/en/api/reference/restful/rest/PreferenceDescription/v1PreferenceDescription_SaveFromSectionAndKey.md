@@ -106,24 +106,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 762,
-  "Section": "quo",
-  "Key": "rem",
-  "Name": "Thiel-Koch",
+  "PrefDescId": 742,
+  "Section": "velit",
+  "Key": "fugit",
+  "Name": "Kling, Conn and Heaney",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative scalable pricing structure",
-  "IsBuiltin": true,
-  "TableName": "Heller Group",
-  "UserDefinedListId": 487,
-  "Rank": 4,
-  "SubGroup": "rerum",
-  "MinLevel": 378,
-  "MaxValue": 344,
-  "MinValue": 1000,
-  "RequiredLicense": "cupiditate"
+  "Description": "Managed dynamic implementation",
+  "IsBuiltin": false,
+  "TableName": "Koepp Inc and Sons",
+  "UserDefinedListId": 897,
+  "Rank": 469,
+  "SubGroup": "quis",
+  "MinLevel": 1000,
+  "MaxValue": 961,
+  "MinValue": 111,
+  "RequiredLicense": "vel"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 533,
-  "Section": "sed",
-  "Key": "qui",
-  "Name": "Jenkins Inc and Sons",
+  "PrefDescId": 695,
+  "Section": "quia",
+  "Key": "eos",
+  "Name": "McGlynn LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated human-resource infrastructure",
-  "IsBuiltin": true,
-  "TableName": "Cremin-Ernser",
-  "UserDefinedListId": 632,
-  "Rank": 913,
-  "SubGroup": "aut",
-  "MinLevel": 749,
-  "MaxValue": 434,
-  "MinValue": 661,
-  "RequiredLicense": "recusandae",
+  "Description": "Profit-focused bottom-line parallelism",
+  "IsBuiltin": false,
+  "TableName": "Kub Inc and Sons",
+  "UserDefinedListId": 804,
+  "Rank": 239,
+  "SubGroup": "animi",
+  "MinLevel": 933,
+  "MaxValue": 982,
+  "MinValue": 353,
+  "RequiredLicense": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldLength": 205
     }
   }
 }

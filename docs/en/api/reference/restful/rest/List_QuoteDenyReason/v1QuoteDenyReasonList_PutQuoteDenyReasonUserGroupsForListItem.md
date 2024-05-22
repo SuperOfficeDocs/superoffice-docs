@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Kessler Group",
-    "ToolTip": "Sunt rerum natus est qui.",
-    "Deleted": false,
-    "Rank": 470,
-    "Type": "et",
-    "ColorBlock": 555,
-    "IconHint": "blanditiis",
-    "Selected": false,
-    "LastChanged": "2005-08-11T11:16:14.6839019+02:00",
+    "Id": 622,
+    "Name": "Daniel-Johns",
+    "ToolTip": "Rerum nisi.",
+    "Deleted": true,
+    "Rank": 498,
+    "Type": "consequuntur",
+    "ColorBlock": 579,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2001-04-15T12:57:43.6676321+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Wisoky Group",
-        "ToolTip": "Asperiores dolorem animi ipsam aut deleniti mollitia perferendis.",
-        "Deleted": false,
-        "Rank": 460,
-        "Type": "nostrum",
-        "ColorBlock": 349,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2024-04-15T11:16:14.6839019+02:00",
+        "Id": 505,
+        "Name": "Oberbrunner, Mills and Rohan",
+        "ToolTip": "Placeat sed enim iusto.",
+        "Deleted": true,
+        "Rank": 78,
+        "Type": "voluptate",
+        "ColorBlock": 622,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2022-09-29T12:57:43.6676321+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "officiis",
+        "ExtraInfo": "quia",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Julius Goldner"
+        "FullName": "Monroe Casper"
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Skye Okuneva"
+    "ExtraInfo": "aut",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Dr. Afton Hagenes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Bogisich, Roob and Marquardt",
-    "ToolTip": "Quia molestias voluptatem error ea.",
-    "Deleted": false,
-    "Rank": 320,
-    "Type": "assumenda",
-    "ColorBlock": 223,
-    "IconHint": "fugiat",
-    "Selected": true,
-    "LastChanged": "2000-10-30T11:16:14.6839019+01:00",
+    "Id": 500,
+    "Name": "Bernier-Kerluke",
+    "ToolTip": "Autem et suscipit earum voluptatibus repellendus sit iste.",
+    "Deleted": true,
+    "Rank": 592,
+    "Type": "dolor",
+    "ColorBlock": 348,
+    "IconHint": "doloribus",
+    "Selected": false,
+    "LastChanged": "1999-12-12T12:57:43.6676321+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Wehner Group",
-        "ToolTip": "Vitae atque adipisci praesentium.",
-        "Deleted": false,
-        "Rank": 265,
-        "Type": "vitae",
-        "ColorBlock": 457,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2024-01-20T11:16:14.6839019+01:00",
+        "Id": 49,
+        "Name": "Corkery-Baumbach",
+        "ToolTip": "Voluptatibus architecto earum corporis aut.",
+        "Deleted": true,
+        "Rank": 557,
+        "Type": "esse",
+        "ColorBlock": 144,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2018-05-09T12:57:43.6676321+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Ms. Baby Christiansen Jr.",
+        "ExtraInfo": "optio",
+        "StyleHint": "excepturi",
+        "Hidden": true,
+        "FullName": "Deja Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 199
+            "FieldType": "System.String",
+            "FieldLength": 751
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Sydnie Jailyn Wiza Jr.",
+    "ExtraInfo": "quis",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Mrs. Perry Cydney Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   }

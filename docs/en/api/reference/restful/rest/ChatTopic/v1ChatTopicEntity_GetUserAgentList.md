@@ -28,8 +28,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Roberts LLC",
-    "ToolTip": "Sit quam sit ratione enim.",
+    "Id": 333,
+    "Name": "Cole Group",
+    "ToolTip": "Soluta quas consequatur officia ut.",
     "Deleted": false,
-    "Rank": 834,
-    "Type": "sit",
+    "Rank": 942,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Schmitt-Nienow",
-        "ToolTip": "Accusamus facere dolor et aut.",
+        "Id": 832,
+        "Name": "Oberbrunner Inc and Sons",
+        "ToolTip": "Ipsum facilis tempore iusto ea impedit nesciunt.",
         "Deleted": false,
-        "Rank": 640,
-        "Type": "illum",
+        "Rank": 321,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 705,
-        "ExtraInfo": "alias",
-        "StyleHint": "quibusdam",
-        "FullName": "Josiah Senger",
+        "IconHint": "quo",
+        "ColorBlock": 476,
+        "ExtraInfo": "culpa",
+        "StyleHint": "explicabo",
+        "FullName": "Reese Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldLength": 646
           }
         }
       }
     ],
-    "IconHint": "nisi",
-    "ColorBlock": 843,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "iusto",
-    "FullName": "Prof. Magnus Wisozk",
+    "IconHint": "eum",
+    "ColorBlock": 446,
+    "ExtraInfo": "ullam",
+    "StyleHint": "nihil",
+    "FullName": "Christy Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldLength": 854
       }
     }
   }

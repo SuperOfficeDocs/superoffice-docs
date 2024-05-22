@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Crona, Bins and Armstrong",
-  "Tooltip": "earum",
+  "Id": 57,
+  "Name": "Jakubowski, Murray and Ledner",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 746,
+  "Rank": 925,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "expedita",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 447,
-  "Name": "Wuckert, Gutkowski and Brown",
-  "Tooltip": "qui",
+  "Id": 214,
+  "Name": "Kuphal, Zieme and Mosciski",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 436,
+  "Rank": 408,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

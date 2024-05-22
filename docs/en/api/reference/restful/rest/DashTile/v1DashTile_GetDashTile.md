@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 872,
-  "DashboardId": 248,
-  "Height": 84,
-  "Width": 709,
-  "Rank": 278,
+  "DashboardTileId": 928,
+  "DashboardId": 893,
+  "Height": 197,
+  "Width": 831,
+  "Rank": 575,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldType": "System.Int32",
+      "FieldLength": 241
     }
   },
   "_Links": {

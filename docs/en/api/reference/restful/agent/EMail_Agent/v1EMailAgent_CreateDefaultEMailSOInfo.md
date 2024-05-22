@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 732,
-  "AppointmentId": 587,
-  "ProjectId": 744,
-  "SaleId": 49,
+  "DocumentId": 527,
+  "AppointmentId": 705,
+  "ProjectId": 382,
+  "SaleId": 898,
   "Archived": true,
-  "ArchivedAt": "2017-12-27T11:16:09.1941046+01:00",
-  "ArchivedBy": 320,
-  "ArchivedDisplayName": "Marvin Group",
+  "ArchivedAt": "2022-07-30T12:57:33.899292+02:00",
+  "ArchivedBy": 824,
+  "ArchivedDisplayName": "Hermann-Hegmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

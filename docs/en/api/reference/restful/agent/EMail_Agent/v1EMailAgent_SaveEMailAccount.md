@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 272,
-  "EMailAddress": "est",
-  "AssociateId": 455,
+  "EMailAccountId": 347,
+  "EMailAddress": "magni",
+  "AssociateId": 602,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 648,
-  "ErrorCount": 49,
+  "AccountStatus": 951,
+  "ErrorCount": 438,
   "ErrorReason": "",
-  "InboxFolder": "et",
-  "SentFolder": "suscipit"
+  "InboxFolder": "praesentium",
+  "SentFolder": "aliquid"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 688,
-  "EMailAddress": "enim",
-  "AssociateId": 667,
+  "EMailAccountId": 250,
+  "EMailAddress": "vel",
+  "AssociateId": 540,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 40,
-  "ErrorCount": 421,
-  "ErrorReason": "",
-  "InboxFolder": "illo",
-  "SentFolder": "qui",
+  "AccountStatus": 820,
+  "ErrorCount": 374,
+  "ErrorReason": "redefine B2C communities",
+  "InboxFolder": "quia",
+  "SentFolder": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldLength": 73
     }
   }
 }

@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "corrupti",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "corrupti",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 666,
-  "Name": "Skiles, Feest and Wintheiser",
-  "Config": "sed",
-  "Rank": 263,
-  "Client": "numquam",
-  "Style": "optio",
+  "DashboardThemeId": 5,
+  "Name": "Mertz LLC",
+  "Config": "ut",
+  "Rank": 295,
+  "Client": "quibusdam",
+  "Style": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

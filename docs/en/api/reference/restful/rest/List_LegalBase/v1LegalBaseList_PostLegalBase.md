@@ -79,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 423,
-  "Name": "Hauck, Kessler and Stamm",
-  "Tooltip": "quia",
-  "Rank": 206,
-  "Key": "illo",
+  "LegalBaseId": 328,
+  "Name": "Upton-Beahan",
+  "Tooltip": "sed",
+  "Rank": 716,
+  "Key": "est",
   "Deleted": false
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 512,
-  "Name": "Daugherty LLC",
-  "Tooltip": "ratione",
-  "Rank": 481,
-  "Key": "porro",
+  "LegalBaseId": 656,
+  "Name": "Nader, Parisian and Kertzmann",
+  "Tooltip": "dolorem",
+  "Rank": 838,
+  "Key": "temporibus",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 321
     }
   }
 }

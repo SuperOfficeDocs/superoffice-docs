@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 436,
-  "Name": "Thiel Group",
-  "Tooltip": "aliquam",
+  "HeadingId": 509,
+  "Name": "Ruecker, Abernathy and Corkery",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 271,
-  "UdListDefinitionId": 197
+  "Rank": 848,
+  "UdListDefinitionId": 884
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 10,
-  "Name": "Rowe-Brakus",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "Rank": 374,
-  "UdListDefinitionId": 949,
+  "HeadingId": 842,
+  "Name": "Bosco-Dickens",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 793,
+  "UdListDefinitionId": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 344
     }
   }
 }

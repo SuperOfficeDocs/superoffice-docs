@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Ortiz LLC",
-  "Tooltip": "illo",
+  "Id": 15,
+  "Name": "Gutmann-Hoppe",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 564,
+  "Rank": 965,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": false
+  "ListType": "fuga",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 24,
-  "Name": "Langworth, King and Harris",
-  "Tooltip": "et",
+  "Id": 593,
+  "Name": "Schultz, Hoeger and Treutel",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 194,
+  "Rank": 445,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": true,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldLength": 574
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 568,
+  "EjMessageId": 573,
   "Ticket": null,
-  "CreatedAt": "2010-03-22T11:16:09.8665963+01:00",
+  "CreatedAt": "2009-08-07T12:57:35.0551794+02:00",
   "CreatedBy": null,
-  "Author": "consectetur",
+  "Author": "ad",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 854,
-  "Body": "quo",
-  "HtmlBody": "distinctio",
-  "EmailHeader": "dawn@jewess.ca",
-  "DebugInfo": "pariatur",
-  "MailSorter": "dolorem",
+  "MessageId": "maiores",
+  "TimeSpent": 570,
+  "Body": "molestias",
+  "HtmlBody": "nostrum",
+  "EmailHeader": "pearline@cartwright.name",
+  "DebugInfo": "commodi",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "officiis",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 112,
-      "Name": "Huel, Mraz and Wiegand",
-      "Value": "ea",
+      "Id": 343,
+      "Name": "Franecki, Treutel and Schulist",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 909
         }
       }
     }
   ],
   "Important": false,
-  "Language": "vel",
-  "Sentiment": 402,
-  "SentimentConfidence": 714,
+  "Language": "delectus",
+  "Sentiment": 737,
+  "SentimentConfidence": 864,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 804,
-      "Name": "Johns-Schowalter",
-      "ContentType": "voluptas",
-      "AttSize": 494,
+      "AttachmentId": 802,
+      "Name": "Von, Schinner and Miller",
+      "ContentType": "dignissimos",
+      "AttSize": 369,
       "InlineImage": false,
-      "ContentId": "deleniti",
-      "AuthKey": "placeat",
+      "ContentId": "est",
+      "AuthKey": "magnam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldType": "System.Int32",
+          "FieldLength": 933
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "non",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "vero"
+    "CustomFields1": "ex",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldLength": 17
     }
   }
 }

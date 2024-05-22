@@ -71,7 +71,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Keeling, Reichert and Leannon"
+  "TargetTableName": "Durgan, Rolfson and Zboncak"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory tertiary benchmark",
-  "Postit": "aliquam",
+  "Description": "Open-source client-driven moderator",
+  "Postit": "magnam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 988,
-  "IncludePerson": 190,
-  "MemberCount": 864,
-  "Name": "Lehner Group",
-  "PostitTextId": 88,
-  "CreatedDate": "2004-07-17T11:16:09.7103639+02:00",
-  "SelectionId": 675,
-  "SoundEx": "autem",
-  "Source": 383,
-  "TextId": 533,
-  "UpdatedDate": "2023-11-17T11:16:09.7103639+01:00",
-  "UpdatedCount": 689,
-  "Visibility": 895,
+  "GroupIdx": 279,
+  "IncludePerson": 926,
+  "MemberCount": 99.99,
+  "Name": "Stokes Inc and Sons",
+  "PostitTextId": 661,
+  "CreatedDate": "2006-01-19T12:57:34.9145867+01:00",
+  "SelectionId": 220,
+  "SoundEx": "temporibus",
+  "Source": 717,
+  "TextId": 2,
+  "UpdatedDate": "2016-06-21T12:57:34.9145867+02:00",
+  "UpdatedCount": 257,
+  "Visibility": 679,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 258,
-  "TargetTableName": "Schowalter Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 887,
-  "RightSelectionId": 123,
+  "TargetTableNumber": 367,
+  "TargetTableName": "Wolf, Streich and Armstrong",
+  "Completed": false,
+  "LeftSelectionId": 213,
+  "RightSelectionId": 776,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ward LLC",
-  "ShadowProviderName": "Veum, Bernhard and Herzog",
-  "ChartKey": "enim",
-  "LastLoaded": "2005-10-21T11:16:09.7103639+02:00",
-  "LastLoadedBy": 606,
+  "MainProviderName": "Littel LLC",
+  "ShadowProviderName": "Lehner, Strosin and McCullough",
+  "ChartKey": "libero",
+  "LastLoaded": "2008-11-16T12:57:34.9145867+01:00",
+  "LastLoadedBy": 793,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-03-29T11:16:09.7103639+02:00",
-  "LastMembershipChangeBy": 286,
+  "LastMembershipChange": "2002-06-06T12:57:34.9145867+02:00",
+  "LastMembershipChangeBy": 733,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deserunt",
-  "MemberTabHeading": "officiis",
-  "MailingsProviderName": "Kris-Renner",
-  "DashboardTileDefinitionId": 461,
+  "MainHeading": "ipsum",
+  "MemberTabHeading": "saepe",
+  "MailingsProviderName": "Trantow LLC",
+  "DashboardTileDefinitionId": 796,
   "VisibleFor": [
     {
-      "VisibleId": 467,
+      "VisibleId": 388,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     },
     {
-      "VisibleId": 467,
+      "VisibleId": 388,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 943
     }
   }
 }

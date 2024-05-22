@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 646,
-  "Name": "Mills, Bechtelar and Hermiston",
-  "Tooltip": "neque",
+  "WebPanelId": 749,
+  "Name": "McCullough-Beier",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 470,
+  "Rank": 645,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Durgan LLC",
+  "WindowName": "Wisoky-Bailey",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 579,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "quo",
+  "Icon": 65,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 619,
-  "Name": "Kautzer LLC",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 586,
+  "WebPanelId": 344,
+  "Name": "VonRueden-Hudson",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "Rank": 937,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Wolff LLC",
+  "ShowInStatusBar": false,
+  "WindowName": "Kuhn LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 514,
+  "ProgId": "omnis",
+  "Icon": 598,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 365
     }
   }
 }

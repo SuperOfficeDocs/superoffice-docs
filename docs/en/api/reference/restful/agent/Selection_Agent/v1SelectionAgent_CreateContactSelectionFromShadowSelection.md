@@ -74,7 +74,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 533,
-  "Name": "Olson, Runte and Beer"
+  "SelectionId": 994,
+  "Name": "Kuhn, Orn and Koss"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered next generation core",
-  "Postit": "et",
+  "Description": "Operative system-worthy approach",
+  "Postit": "nobis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 943,
-  "IncludePerson": 79,
-  "MemberCount": 278,
-  "Name": "Macejkovic, Strosin and Terry",
-  "PostitTextId": 782,
-  "CreatedDate": "2019-08-03T11:16:09.7259925+02:00",
-  "SelectionId": 423,
-  "SoundEx": "consectetur",
-  "Source": 946,
-  "TextId": 153,
-  "UpdatedDate": "2010-03-08T11:16:09.7259925+01:00",
-  "UpdatedCount": 668,
-  "Visibility": 288,
+  "GroupIdx": 645,
+  "IncludePerson": 810,
+  "MemberCount": 99.99,
+  "Name": "Kirlin-Heaney",
+  "PostitTextId": 177,
+  "CreatedDate": "2002-02-13T12:57:34.961451+01:00",
+  "SelectionId": 748,
+  "SoundEx": "dolore",
+  "Source": 753,
+  "TextId": 492,
+  "UpdatedDate": "2011-03-15T12:57:34.961451+01:00",
+  "UpdatedCount": 288,
+  "Visibility": 517,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 449,
-  "TargetTableName": "Durgan Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 371,
-  "RightSelectionId": 68,
+  "TargetTableNumber": 210,
+  "TargetTableName": "Nikolaus, Bruen and Kautzer",
+  "Completed": false,
+  "LeftSelectionId": 105,
+  "RightSelectionId": 250,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kirlin Group",
-  "ShadowProviderName": "Beatty-Auer",
-  "ChartKey": "maiores",
-  "LastLoaded": "2022-03-01T11:16:09.7259925+01:00",
-  "LastLoadedBy": 982,
+  "MainProviderName": "Turner-Miller",
+  "ShadowProviderName": "Gislason, Schinner and Purdy",
+  "ChartKey": "blanditiis",
+  "LastLoaded": "2015-12-19T12:57:34.961451+01:00",
+  "LastLoadedBy": 670,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-02-15T11:16:09.7259925+01:00",
-  "LastMembershipChangeBy": 172,
+  "LastMembershipChange": "2015-04-15T12:57:34.961451+02:00",
+  "LastMembershipChangeBy": 280,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tempora",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Runolfsson Inc and Sons",
-  "DashboardTileDefinitionId": 423,
+  "MainHeading": "neque",
+  "MemberTabHeading": "officiis",
+  "MailingsProviderName": "Koepp Inc and Sons",
+  "DashboardTileDefinitionId": 551,
   "VisibleFor": [
     {
-      "VisibleId": 184,
+      "VisibleId": 743,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 841
         }
       }
     },
     {
-      "VisibleId": 184,
+      "VisibleId": 743,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 841
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldLength": 247
     }
   }
 }

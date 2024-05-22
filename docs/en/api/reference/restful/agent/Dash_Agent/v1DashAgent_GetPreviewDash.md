@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 481
+  "DashboardId": 659
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 816,
-  "Name": "Pfeffer, Johns and Wolf",
-  "Description": "Adaptive motivating software",
-  "OwnedByFullName": "Camren Welch",
-  "Registered": "2014-01-28T11:16:08.9753349+01:00",
+  "DashboardId": 278,
+  "Name": "DuBuque, Turner and Boehm",
+  "Description": "Quality-focused bi-directional local area network",
+  "OwnedByFullName": "Willy Dameon Heidenreich I",
+  "Registered": "2021-01-03T12:57:33.6649334+01:00",
   "Tiles": [
     {
-      "Name": "Goodwin Group",
+      "Name": "Legros, Konopelski and Botsford",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 936
+          "FieldLength": 115
         }
       }
     },
     {
-      "Name": "Goodwin Group",
+      "Name": "Legros, Konopelski and Botsford",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 936
+          "FieldLength": 115
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 416
     }
   }
 }

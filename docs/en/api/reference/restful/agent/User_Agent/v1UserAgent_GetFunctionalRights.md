@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 647
+  "RoleId": 316
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Dietrich, Mills and Kreiger",
-    "ToolTip": "Inventore repellat dignissimos est totam.",
+    "Id": 93,
+    "Name": "Stamm Group",
+    "ToolTip": "Unde adipisci sapiente.",
     "Deleted": true,
-    "Rank": 192,
-    "Type": "consectetur",
-    "ColorBlock": 218,
-    "IconHint": "est",
+    "Rank": 973,
+    "Type": "perferendis",
+    "ColorBlock": 153,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2011-08-19T11:16:10.0275967+02:00",
+    "LastChanged": "2004-10-19T12:57:35.4618366+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Mohr, Hauck and Bartell",
-        "ToolTip": "Hic deleniti tempora.",
+        "Id": 827,
+        "Name": "Swaniawski, Zieme and VonRueden",
+        "ToolTip": "Fuga voluptas ut similique ea sunt cum accusamus.",
         "Deleted": true,
-        "Rank": 925,
-        "Type": "aut",
-        "ColorBlock": 642,
-        "IconHint": "similique",
-        "Selected": true,
-        "LastChanged": "2012-11-12T11:16:10.0275967+01:00",
+        "Rank": 862,
+        "Type": "sunt",
+        "ColorBlock": 45,
+        "IconHint": "animi",
+        "Selected": false,
+        "LastChanged": "2006-12-04T12:57:35.4618366+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Roel Koepp",
+        "ExtraInfo": "dicta",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Grover Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 665
+            "FieldLength": 557
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "beatae",
-    "Hidden": true,
-    "FullName": "Bert Flatley DVM",
+    "ExtraInfo": "nihil",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Miss Tierra Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 593
       }
     }
   }

@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "West-Bergstrom",
-    "Description": "Profound methodical project",
+    "Name": "Grant Inc and Sons",
+    "Description": "Triple-buffered bi-directional functionalities",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 750,
-        "Tooltip": "maiores",
-        "CanAssign": false,
-        "Free": 457,
-        "InUse": 97,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 703,
-        "Name": "Reichert-Mills",
-        "Description": "Multi-tiered multi-tasking protocol",
-        "PrerequisiteModuleName": "Eichmann LLC",
-        "SortOrder": 650,
-        "ExtraFlags": 402,
+        "Total": 565,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 463,
+        "InUse": 624,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 223,
+        "Name": "Cole Inc and Sons",
+        "Description": "Ameliorated 24/7 Graphical User Interface",
+        "PrerequisiteModuleName": "Larson, Lesch and Adams",
+        "SortOrder": 576,
+        "ExtraFlags": 501,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 110
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 844,
-        "Tooltip": "laudantium",
+        "Total": 194,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 737,
-        "InUse": 695,
+        "Free": 874,
+        "InUse": 50,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 183,
-        "Name": "McCullough, Waelchi and Jacobson",
-        "Description": "Realigned zero defect conglomeration",
-        "PrerequisiteModuleName": "Bosco Group",
-        "SortOrder": 302,
-        "ExtraFlags": 120,
+        "Assigned": false,
+        "ModuleLicenseId": 288,
+        "Name": "Champlin, Schuster and Williamson",
+        "Description": "Face to face zero defect budgetary management",
+        "PrerequisiteModuleName": "Rowe, McClure and Rolfson",
+        "SortOrder": 702,
+        "ExtraFlags": 901,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 442
+            "FieldLength": 165
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 944
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   },
   {
-    "Name": "West-Bergstrom",
-    "Description": "Profound methodical project",
+    "Name": "Grant Inc and Sons",
+    "Description": "Triple-buffered bi-directional functionalities",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 750,
-        "Tooltip": "maiores",
-        "CanAssign": false,
-        "Free": 457,
-        "InUse": 97,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 703,
-        "Name": "Reichert-Mills",
-        "Description": "Multi-tiered multi-tasking protocol",
-        "PrerequisiteModuleName": "Eichmann LLC",
-        "SortOrder": 650,
-        "ExtraFlags": 402,
+        "Total": 565,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 463,
+        "InUse": 624,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 223,
+        "Name": "Cole Inc and Sons",
+        "Description": "Ameliorated 24/7 Graphical User Interface",
+        "PrerequisiteModuleName": "Larson, Lesch and Adams",
+        "SortOrder": 576,
+        "ExtraFlags": 501,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 110
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 844,
-        "Tooltip": "laudantium",
+        "Total": 194,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 737,
-        "InUse": 695,
+        "Free": 874,
+        "InUse": 50,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 183,
-        "Name": "McCullough, Waelchi and Jacobson",
-        "Description": "Realigned zero defect conglomeration",
-        "PrerequisiteModuleName": "Bosco Group",
-        "SortOrder": 302,
-        "ExtraFlags": 120,
+        "Assigned": false,
+        "ModuleLicenseId": 288,
+        "Name": "Champlin, Schuster and Williamson",
+        "Description": "Face to face zero defect budgetary management",
+        "PrerequisiteModuleName": "Rowe, McClure and Rolfson",
+        "SortOrder": 702,
+        "ExtraFlags": 901,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 442
+            "FieldLength": 165
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 944
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   }

@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 576,
-  "Name": "Block-Luettgen",
-  "ConsentText": "explicabo",
-  "FormText": "deserunt",
-  "Key": "laboriosam",
-  "Tooltip": "ut",
-  "Active": 879,
-  "UpdatedDate": "2002-02-10T11:16:14.512052+01:00",
+  "ConsentPurposeId": 647,
+  "Name": "Auer, Dibbert and Leannon",
+  "ConsentText": "eum",
+  "FormText": "voluptatem",
+  "Key": "in",
+  "Tooltip": "velit",
+  "Active": 802,
+  "UpdatedDate": "2016-04-30T12:57:43.3708249+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 726,
-  "PrivacyStatementDesc": "veritatis",
+  "Deleted": true,
+  "Rank": 279,
+  "PrivacyStatementDesc": "sed",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 750,
-  "Name": "Hirthe LLC",
-  "ConsentText": "sed",
-  "FormText": "culpa",
-  "Key": "repudiandae",
-  "Tooltip": "qui",
-  "Active": 80,
-  "UpdatedDate": "2016-03-21T11:16:14.512052+01:00",
+  "ConsentPurposeId": 559,
+  "Name": "Becker, Muller and Macejkovic",
+  "ConsentText": "quae",
+  "FormText": "exercitationem",
+  "Key": "voluptatem",
+  "Tooltip": "blanditiis",
+  "Active": 973,
+  "UpdatedDate": "2002-03-03T12:57:43.3708249+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 384,
-  "PrivacyStatementDesc": "ratione",
+  "Deleted": false,
+  "Rank": 954,
+  "PrivacyStatementDesc": "est",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 117
     }
   }
 }

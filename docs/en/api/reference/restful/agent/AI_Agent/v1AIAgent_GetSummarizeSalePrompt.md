@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 892,
-  "NumSentences": 909,
-  "Summary": "ipsum",
-  "IsoLangCode": "sint"
+  "SaleId": 797,
+  "NumSentences": 864,
+  "Summary": "illum",
+  "IsoLangCode": "est"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2003-02-24T11:16:08.3966087+01:00",
-  "UserPrompt": "aut",
-  "UserDisplayText": "ratione",
-  "BotResponse": "id",
+  "Timestamp": "2005-02-24T12:57:32.6803248+01:00",
+  "UserPrompt": "dolor",
+  "UserDisplayText": "vero",
+  "BotResponse": "perspiciatis",
   "BotActions": {
-    "BotActions1": "deserunt",
-    "BotActions2": "voluptate"
+    "BotActions1": "veritatis",
+    "BotActions2": "perspiciatis"
   },
   "Attachments": [
-    "aliquid",
-    "quod"
+    "qui",
+    "fuga"
   ]
 }
 ```

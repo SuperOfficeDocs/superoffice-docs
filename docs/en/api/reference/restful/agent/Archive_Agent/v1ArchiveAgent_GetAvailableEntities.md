@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rutherford LLC",
-  "Context": "sunt"
+  "ProviderName": "Fahey Inc and Sons",
+  "Context": "dicta"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Welch-Herman",
-    "ToolTip": "Iusto et qui omnis quae quam.",
+    "Id": 421,
+    "Name": "Herman Inc and Sons",
+    "ToolTip": "Aut illum soluta illum ducimus.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "quia",
+    "Rank": 8,
+    "Type": "quae",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Pfeffer Group",
-        "ToolTip": "Ut consequatur sunt.",
-        "Deleted": true,
-        "Rank": 295,
-        "Type": "qui",
+        "Id": 83,
+        "Name": "Stokes-Hauck",
+        "ToolTip": "Praesentium omnis quam eum.",
+        "Deleted": false,
+        "Rank": 292,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minus",
-        "ColorBlock": 233,
-        "ExtraInfo": "ut",
-        "StyleHint": "maxime",
-        "FullName": "Gwendolyn Reichert",
+        "IconHint": "quisquam",
+        "ColorBlock": 874,
+        "ExtraInfo": "et",
+        "StyleHint": "numquam",
+        "FullName": "Mr. Jakob Carlotta Wolff V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldLength": 295
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 313,
-    "ExtraInfo": "et",
-    "StyleHint": "doloribus",
-    "FullName": "Dakota Cartwright",
+    "IconHint": "sunt",
+    "ColorBlock": 460,
+    "ExtraInfo": "in",
+    "StyleHint": "ducimus",
+    "FullName": "Grace Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 898
       }
     }
   }

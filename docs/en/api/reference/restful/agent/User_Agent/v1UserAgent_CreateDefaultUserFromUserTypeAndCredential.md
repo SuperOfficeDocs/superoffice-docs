@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 927,
-  "CredentialType": "et",
-  "CredentialValue": "omnis",
-  "CredentialDisplayValue": "labore"
+  "ContactId": 172,
+  "CredentialType": "enim",
+  "CredentialValue": "sapiente",
+  "CredentialDisplayValue": "eaque"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 580,
-  "Name": "Cormier Inc and Sons",
-  "Rank": 152,
-  "Tooltip": "aliquid",
+  "AssociateId": 719,
+  "Name": "Spinka-Kling",
+  "Rank": 627,
+  "Tooltip": "velit",
   "LicenseOwners": [
     {
-      "Name": "Gorczany Group",
-      "Description": "Programmable clear-thinking moderator",
+      "Name": "Hudson-Wisoky",
+      "Description": "Vision-oriented tertiary complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 757
         }
       }
     },
     {
-      "Name": "Gorczany Group",
-      "Description": "Programmable clear-thinking moderator",
+      "Name": "Hudson-Wisoky",
+      "Description": "Vision-oriented tertiary complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 757
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "veritatis",
-      "Tooltip": "neque",
-      "Id": 146,
-      "Rank": 915,
-      "Deleted": true,
+      "Value": "esse",
+      "Tooltip": "commodi",
+      "Id": 50,
+      "Rank": 399,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldType": "System.Int32",
+          "FieldLength": 402
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2005-10-06T11:16:10.0073992+02:00",
-  "Lastlogout": "2016-12-31T11:16:10.0073992+01:00",
-  "EjUserId": 785,
-  "RequestSignature": "in",
+  "Deleted": true,
+  "Lastlogin": "2020-08-21T12:57:35.2658433+02:00",
+  "Lastlogout": "2010-10-29T12:57:35.2658433+02:00",
+  "EjUserId": 642,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "nisi",
+      "Value": "facilis",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 506
+          "FieldLength": 829
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "nisi",
+      "Value": "facilis",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 506
+          "FieldLength": 829
         }
       }
     }
   ],
-  "UserName": "Nicolas-Paucek",
+  "UserName": "McCullough LLC",
   "TicketCategories": [
     {
-      "Id": 133,
-      "Name": "Kuhlman-Herzog",
-      "ToolTip": "Cupiditate qui.",
-      "Deleted": false,
-      "Rank": 76,
-      "Type": "harum",
+      "Id": 323,
+      "Name": "Nader, Lindgren and Dickens",
+      "ToolTip": "Nisi molestiae repellat aliquam harum.",
+      "Deleted": true,
+      "Rank": 419,
+      "Type": "quae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "optio",
-      "ColorBlock": 172,
-      "ExtraInfo": "inventore",
-      "StyleHint": "aliquam",
-      "FullName": "Lydia Bechtelar",
+      "IconHint": "modi",
+      "ColorBlock": 796,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "eum",
+      "FullName": "Brandy Gleason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldType": "System.String",
+          "FieldLength": 421
         }
       }
     }
   ],
-  "NickName": "Ebert-Thiel",
+  "NickName": "Barrows-Schuster",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "magni",
+    "CustomFields2": "ipsam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kuvalis-Bins",
-      "DisplayName": "Kris-Cummings",
-      "Description": "Multi-tiered heuristic knowledge base",
-      "ToolTip": "Nobis iure magni.",
+      "Name": "Ziemann, Wintheiser and Zemlak",
+      "DisplayName": "Bechtelar, Ruecker and Weimann",
+      "Description": "Re-engineered tangible encoding",
+      "ToolTip": "Aliquam sit illo dignissimos omnis consequatur.",
       "Actions": "Implicit",
-      "ActionData": "tempore",
+      "ActionData": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 989
         }
       }
     }
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 753
     }
   }
 }

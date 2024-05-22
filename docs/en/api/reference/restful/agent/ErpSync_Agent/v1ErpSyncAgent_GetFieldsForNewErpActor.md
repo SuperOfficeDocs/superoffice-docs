@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 332,
+  "ErpConnectionId": 845,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "voluptas",
-    "Rank": 629,
-    "DisplayName": "Kozey-Schuppe",
-    "DisplayDescription": "Synergized next generation parallelism",
+    "FieldKey": "ad",
+    "Rank": 665,
+    "DisplayName": "Kirlin, Schumm and McLaughlin",
+    "DisplayDescription": "Reactive exuding system engine",
     "FieldType": "Checkbox",
-    "ListName": "Hills-Eichmann",
-    "DefaultValue": "ea",
-    "MaxLength": 163,
+    "ListName": "Zieme Inc and Sons",
+    "DefaultValue": "placeat",
+    "MaxLength": 341,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldType": "System.String",
+        "FieldLength": 840
       }
     }
   }

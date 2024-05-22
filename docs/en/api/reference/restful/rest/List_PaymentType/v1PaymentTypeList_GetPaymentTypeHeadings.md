@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 876,
-    "Name": "Funk-Douglas",
-    "Tooltip": "nobis",
+    "HeadingId": 384,
+    "Name": "Kshlerin, Rolfson and Trantow",
+    "Tooltip": "minima",
     "Deleted": false,
-    "Rank": 397,
-    "UdListDefinitionId": 182,
+    "Rank": 154,
+    "UdListDefinitionId": 489,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldLength": 560
       }
     }
   }

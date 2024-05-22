@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=64
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=799
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 573,
-  "Name": "Effertz Group",
-  "Tooltip": "provident",
-  "Rank": 428,
+  "SaleTypeId": 363,
+  "Name": "Hermann Group",
+  "Tooltip": "error",
+  "Rank": 110,
   "DurationUnit": "Century",
-  "SaleDuration": 812,
-  "SaleTypeCatId": 947,
+  "SaleDuration": 806,
+  "SaleTypeCatId": 555,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 422,
-  "QuoteLinesTemplate": 54,
-  "ConfirmationLinesTemplate": 843,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 664,
+  "QuoteLinesTemplate": 855,
+  "ConfirmationLinesTemplate": 745,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 847,
-  "MinEarningPercent": 944,
-  "GroupQuoteLinesBy": 728,
-  "SortGroupLinesBy": 840,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 112,
+  "MinEarningPercent": 870,
+  "GroupQuoteLinesBy": 302,
+  "SortGroupLinesBy": 952,
   "Stages": [
     {
-      "Id": 211,
-      "Name": "Emmerich-Schneider",
-      "ToolTip": "Doloribus perspiciatis ratione.",
-      "Deleted": true,
-      "Rank": 692,
-      "Type": "rerum",
-      "ColorBlock": 140,
-      "IconHint": "ipsam",
+      "Id": 431,
+      "Name": "Bednar-Kertzmann",
+      "ToolTip": "Voluptates consequatur ut velit unde officia.",
+      "Deleted": false,
+      "Rank": 952,
+      "Type": "ex",
+      "ColorBlock": 753,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2023-03-26T11:16:09.3190898+02:00",
+      "LastChanged": "2004-02-10T12:57:34.1336045+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "occaecati",
+      "ExtraInfo": "aut",
+      "StyleHint": "accusantium",
       "Hidden": false,
-      "FullName": "Jeramy Williamson",
+      "FullName": "Miss Elsie Von",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 991
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 10
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Ankunding-Hessel",
-  "Id": 738
+  "ListName": "Shields LLC",
+  "Id": 400
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Wyman, Gulgowski and Hyatt",
-  "ToolTip": "Et voluptatem perferendis expedita ex autem dolorem.",
+  "Id": 767,
+  "Name": "Will LLC",
+  "ToolTip": "Sunt natus sit corporis.",
   "Deleted": false,
-  "Rank": 255,
-  "Type": "illum",
+  "Rank": 670,
+  "Type": "error",
   "ChildItems": [
     {
-      "Id": 174,
-      "Name": "Batz LLC",
-      "ToolTip": "Occaecati beatae qui.",
+      "Id": 795,
+      "Name": "Gorczany-Zemlak",
+      "ToolTip": "Doloremque consequatur.",
       "Deleted": false,
-      "Rank": 732,
-      "Type": "assumenda",
+      "Rank": 704,
+      "Type": "adipisci",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "necessitatibus",
-      "ColorBlock": 634,
-      "ExtraInfo": "et",
-      "StyleHint": "quae",
-      "FullName": "Tom Ruecker",
+      "IconHint": "sit",
+      "ColorBlock": 28,
+      "ExtraInfo": "quo",
+      "StyleHint": "corrupti",
+      "FullName": "Reinhold Bartoletti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 111
         }
       }
     }
   ],
-  "IconHint": "harum",
-  "ColorBlock": 683,
-  "ExtraInfo": "sint",
-  "StyleHint": "est",
-  "FullName": "Eva Dicki I",
+  "IconHint": "voluptatem",
+  "ColorBlock": 692,
+  "ExtraInfo": "excepturi",
+  "StyleHint": "similique",
+  "FullName": "Rashad Brekke III",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 501
     }
   }
 }

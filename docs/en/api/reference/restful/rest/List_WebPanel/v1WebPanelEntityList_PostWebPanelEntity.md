@@ -111,27 +111,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 825,
-  "Name": "Bosco, Halvorson and Stroman",
-  "Tooltip": "vitae",
+  "WebPanelId": 663,
+  "Name": "Grimes-Beer",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 721,
+  "Rank": 136,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Connelly LLC",
+  "WindowName": "Boehm, Deckow and Goyette",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsam",
-  "Icon": 905,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "accusamus",
+  "Icon": 359,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 944,
-  "Name": "Lehner, Bartoletti and Reinger",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 582,
+  "WebPanelId": 580,
+  "Name": "Kessler Group",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 638,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Lang Group",
+  "WindowName": "Gaylord-Roob",
   "Url": "http://www.example.com/",
-  "ProgId": "delectus",
-  "Icon": 748,
+  "ProgId": "rerum",
+  "Icon": 11,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 212
     }
   }
 }

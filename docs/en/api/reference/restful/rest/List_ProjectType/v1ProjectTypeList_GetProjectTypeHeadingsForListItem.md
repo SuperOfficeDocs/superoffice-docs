@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Lind-Kunze",
-    "ToolTip": "Ut voluptatem distinctio ex aut blanditiis non qui.",
-    "Deleted": false,
-    "Rank": 897,
-    "Type": "quia",
-    "ColorBlock": 571,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2000-10-02T11:16:14.668281+02:00",
+    "Id": 609,
+    "Name": "Sawayn-Hickle",
+    "ToolTip": "Explicabo eos voluptas eos molestiae.",
+    "Deleted": true,
+    "Rank": 474,
+    "Type": "omnis",
+    "ColorBlock": 829,
+    "IconHint": "ullam",
+    "Selected": true,
+    "LastChanged": "2014-08-23T12:57:43.6363894+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Walsh, Friesen and Nolan",
-        "ToolTip": "Repudiandae natus quasi ipsum reprehenderit maxime commodi autem.",
+        "Id": 708,
+        "Name": "Sauer-Gleichner",
+        "ToolTip": "Eaque beatae sapiente.",
         "Deleted": true,
-        "Rank": 18,
-        "Type": "tempora",
-        "ColorBlock": 406,
-        "IconHint": "mollitia",
+        "Rank": 336,
+        "Type": "non",
+        "ColorBlock": 853,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2023-02-02T11:16:14.668281+01:00",
+        "LastChanged": "1997-05-19T12:57:43.6363894+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Wellington Stark",
+        "FullName": "Mabel Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 656
+            "FieldType": "System.String",
+            "FieldLength": 215
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Darwin Will",
+    "FullName": "Mrs. Jacklyn Bradtke Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldLength": 586
       }
     }
   }

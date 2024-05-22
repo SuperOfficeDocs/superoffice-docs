@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 635,
-  "Name": "Considine-Waelchi",
-  "Tooltip": "hic",
-  "Rank": 83,
+  "SaleTypeId": 389,
+  "Name": "Grant-Satterfield",
+  "Tooltip": "asperiores",
+  "Rank": 504,
   "DurationUnit": "Century",
-  "SaleDuration": 469,
-  "SaleTypeCatId": 199,
+  "SaleDuration": 193,
+  "SaleTypeCatId": 430,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 726,
-  "QuoteLinesTemplate": 644,
-  "ConfirmationLinesTemplate": 622,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 798,
+  "QuoteLinesTemplate": 832,
+  "ConfirmationLinesTemplate": 720,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 120,
-  "MinEarningPercent": 857,
-  "GroupQuoteLinesBy": 963,
-  "SortGroupLinesBy": 454,
+  "MaxDiscountPercent": 460,
+  "MinEarningPercent": 491,
+  "GroupQuoteLinesBy": 40,
+  "SortGroupLinesBy": 38,
   "Stages": [
     {
-      "Id": 628,
-      "Name": "Wunsch, Connelly and Cartwright",
-      "ToolTip": "Voluptatum vero velit ut recusandae molestiae.",
-      "Deleted": false,
-      "Rank": 406,
-      "Type": "mollitia",
-      "ColorBlock": 170,
-      "IconHint": "laboriosam",
+      "Id": 179,
+      "Name": "Homenick Inc and Sons",
+      "ToolTip": "Aliquid modi quo ipsam nobis.",
+      "Deleted": true,
+      "Rank": 562,
+      "Type": "dolorum",
+      "ColorBlock": 832,
+      "IconHint": "maiores",
       "Selected": true,
-      "LastChanged": "2005-10-26T11:16:09.3815779+02:00",
+      "LastChanged": "2024-01-25T12:57:34.2117122+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "qui",
-      "Hidden": true,
-      "FullName": "Landen Hayes",
+      "ExtraInfo": "explicabo",
+      "StyleHint": "perspiciatis",
+      "Hidden": false,
+      "FullName": "Madonna Harvey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 653
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

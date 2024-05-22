@@ -89,23 +89,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 615,
-  "Name": "Hodkiewicz, Kerluke and Huels",
-  "Tooltip": "quo",
-  "TableName": "Harris, Dickens and Heaney",
-  "Area": "officia",
+  "TaskMenuId": 424,
+  "Name": "Kautzer, Collins and Osinski",
+  "Tooltip": "maxime",
+  "TableName": "Koss-Terry",
+  "Area": "quis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 155,
+  "CrmScriptId": 616,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 564,
+  "Rank": 863,
   "Encoding": "ANSI",
-  "ProgId": "molestias",
+  "ProgId": "beatae",
   "Deleted": true
 }
 ```
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 493,
-  "Name": "Bergstrom, Stamm and Wiegand",
-  "Tooltip": "quod",
-  "TableName": "Schulist-Ondricka",
-  "Area": "magnam",
+  "TaskMenuId": 520,
+  "Name": "Cruickshank-Koss",
+  "Tooltip": "asperiores",
+  "TableName": "Baumbach, Johns and Kirlin",
+  "Area": "enim",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 1002,
+  "CrmScriptId": 688,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 421,
+  "Rank": 394,
   "Encoding": "ANSI",
-  "ProgId": "architecto",
-  "Deleted": false,
+  "ProgId": "voluptas",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

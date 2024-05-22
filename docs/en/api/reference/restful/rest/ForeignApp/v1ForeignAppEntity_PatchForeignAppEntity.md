@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "provident",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "provident",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 719,
-  "Name": "Howe LLC",
-  "CreatedDate": "2010-11-03T11:16:13.93321+01:00",
-  "UpdatedDate": "2017-01-22T11:16:13.93321+01:00",
+  "ForeignAppId": 822,
+  "Name": "Williamson-Glover",
+  "CreatedDate": "1999-06-27T12:57:42.448256+02:00",
+  "UpdatedDate": "2022-03-28T12:57:42.448256+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 125,
-      "Name": "Abbott-Zemlak",
-      "CreatedDate": "2005-09-03T11:16:13.93321+02:00",
-      "UpdatedDate": "2019-01-16T11:16:13.93321+01:00",
-      "AssociateFullName": "Sebastian Ernser",
-      "CreatedBy": "quia",
-      "UpdatedBy": "dolorem",
-      "DeviceIdentifier": "doloremque",
-      "ForeignAppId": 681,
+      "ForeignDeviceId": 764,
+      "Name": "Runte Inc and Sons",
+      "CreatedDate": "2011-05-22T12:57:42.448256+02:00",
+      "UpdatedDate": "2019-02-21T12:57:42.448256+01:00",
+      "AssociateFullName": "Nova Feil",
+      "CreatedBy": "nisi",
+      "UpdatedBy": "iste",
+      "DeviceIdentifier": "odit",
+      "ForeignAppId": 980,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldLength": 9
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 902
     }
   },
   "_Links": {

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Nov 2005 11:16:13 G11T
+Last-Modified: Sun, 07 Jul 2002 12:57:42 G7T
 
 {
-  "DocumentId": 126,
+  "DocumentId": 335,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "ullam",
-  "Name": "Reilly-Farrell",
-  "OurRef": "amet",
-  "YourRef": "accusamus",
-  "CreatedDate": "2016-01-23T11:16:13.8550957+01:00",
-  "UpdatedDate": "2005-11-11T11:16:13.8550957+01:00",
-  "Description": "Automated leading edge success",
+  "Attention": "itaque",
+  "Header": "architecto",
+  "Name": "Schmitt-Beatty",
+  "OurRef": "aut",
+  "YourRef": "cupiditate",
+  "CreatedDate": "2023-09-05T12:57:42.3389062+02:00",
+  "UpdatedDate": "2002-07-07T12:57:42.3389062+02:00",
+  "Description": "Optional systematic local area network",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-02-24T11:16:13.8550957+01:00",
-  "ExternalRef": "commodi",
+  "Date": "2013-04-29T12:57:42.3389062+02:00",
+  "ExternalRef": "natus",
   "Completed": "Completed",
-  "ActiveLinks": 595,
+  "ActiveLinks": 880,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schroeder-Stehr",
-      "Id": 634,
-      "Description": "Programmable optimal monitoring",
-      "ExtraInfo": "optio",
-      "LinkId": 484,
+      "EntityName": "Simonis Inc and Sons",
+      "Id": 994,
+      "Description": "Self-enabling intangible website",
+      "ExtraInfo": "assumenda",
+      "LinkId": 547,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldLength": 808
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 12,
-  "Snum": 448,
+  "SuggestedDocumentId": 630,
+  "Snum": 816,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kaylie Nikko Beatty I",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "301858082",
+    "SuperOffice:2": "1193298687"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "in",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "quam",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2011-05-21T11:16:13.8550957+02:00",
-  "PublishTo": "1998-10-01T11:16:13.8550957+02:00",
-  "PublishFrom": "2006-12-13T11:16:13.8550957+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-11-12T12:57:42.3389062+01:00",
+  "PublishTo": "2013-12-08T12:57:42.3389062+01:00",
+  "PublishFrom": "2012-05-16T12:57:42.3389062+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 410,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 916
+          "FieldLength": 672
         }
       }
     },
     {
-      "VisibleId": 410,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 916
+          "FieldLength": 672
         }
       }
     }
@@ -191,8 +191,8 @@ Last-Modified: Fri, 11 Nov 2005 11:16:13 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldType": "System.Int32",
+      "FieldLength": 584
     }
   }
 }

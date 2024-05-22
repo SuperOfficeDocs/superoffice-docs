@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Mitchell, O'Reilly and Wunsch",
-    "Tooltip": "repellat",
-    "Deleted": true,
-    "UdListDefinitionId": 552,
-    "Rank": 411,
+    "Id": 952,
+    "Name": "Ratke Group",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "UdListDefinitionId": 703,
+    "Rank": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 179
       }
     }
   }

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 26,
-  "BlobSize": 760,
-  "Description": "Future-proofed clear-thinking neural-net",
-  "ExtraInfo": "magnam",
-  "IsEncrypted": false,
+  "BlobId": 273,
+  "BlobSize": 622,
+  "Description": "Face to face methodical collaboration",
+  "ExtraInfo": "incidunt",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "id",
-  "OriginalSize": 803,
-  "CreatedDate": "2019-11-28T11:16:14.3866967+01:00",
-  "UpdatedDate": "2008-10-16T11:16:14.3866967+02:00",
+  "MimeType": "aut",
+  "OriginalSize": 366,
+  "CreatedDate": "2010-07-07T12:57:43.1677464+02:00",
+  "UpdatedDate": "2003-08-04T12:57:43.1677464+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel"
+  "ConceptualType": "nam"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 223,
-  "BlobSize": 800,
-  "Description": "Sharable web-enabled groupware",
-  "ExtraInfo": "officiis",
-  "IsEncrypted": false,
+  "BlobId": 885,
+  "BlobSize": 918,
+  "Description": "Upgradable well-modulated workforce",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptas",
-  "OriginalSize": 38,
-  "CreatedDate": "2005-01-04T11:16:14.3866967+01:00",
-  "UpdatedDate": "2016-07-30T11:16:14.3866967+02:00",
+  "MimeType": "id",
+  "OriginalSize": 862,
+  "CreatedDate": "2021-10-11T12:57:43.1677464+02:00",
+  "UpdatedDate": "2018-05-29T12:57:43.1677464+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 446
     }
   }
 }

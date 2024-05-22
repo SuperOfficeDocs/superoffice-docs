@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 459,
-    "DisplayName": "Schuster, Howell and Waters",
-    "OngoingChats": 34,
+    "UserId": 568,
+    "DisplayName": "Littel, Wintheiser and Terry",
+    "OngoingChats": 93,
     "Present": false,
     "ChatTopics": [
-      871,
-      755
+      209,
+      324
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldType": "System.Int32",
+        "FieldLength": 700
       }
     }
   }

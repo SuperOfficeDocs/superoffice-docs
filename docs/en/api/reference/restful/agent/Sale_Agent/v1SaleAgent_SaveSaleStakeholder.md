@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kutch, Glover and Mante",
-  "Comment": "soluta",
-  "StakeholderRoleId": 149,
-  "CountryId": 974,
-  "PersonId": 437,
-  "EmailDescription": "gina_adams@kertzmann.us",
-  "EmailId": 823,
-  "EmailAddress": "megane@hermiston.com",
-  "PhoneId": 762,
-  "ContactName": "Bradtke LLC",
-  "ContactId": 374,
-  "SaleId": 249,
-  "Mrmrs": "deserunt",
-  "Firstname": "Alanna",
-  "MiddleName": "Orn, Ledner and Gleichner",
-  "Lastname": "Pfannerstill",
-  "SaleStakeholderId": 810,
-  "Rank": 555,
-  "Phone": "(317)435-8366 x450"
+  "StakeholderRoleName": "Carroll, Schimmel and Marks",
+  "Comment": "vel",
+  "StakeholderRoleId": 118,
+  "CountryId": 535,
+  "PersonId": 893,
+  "EmailDescription": "domenico.rau@franecki.uk",
+  "EmailId": 147,
+  "EmailAddress": "jackeline.moen@adams.us",
+  "PhoneId": 253,
+  "ContactName": "Veum-Farrell",
+  "ContactId": 506,
+  "SaleId": 152,
+  "Mrmrs": "reiciendis",
+  "Firstname": "Assunta",
+  "MiddleName": "Schuster, Schaefer and Hane",
+  "Lastname": "Davis",
+  "SaleStakeholderId": 732,
+  "Rank": 267,
+  "Phone": "331-951-3540 x4987"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dietrich Inc and Sons",
-  "Comment": "autem",
-  "StakeholderRoleId": 547,
-  "CountryId": 781,
-  "PersonId": 633,
-  "EmailDescription": "ebba.schaefer@moen.biz",
-  "EmailId": 390,
-  "EmailAddress": "keven@steuber.us",
-  "PhoneId": 503,
-  "ContactName": "Graham-Gutkowski",
-  "ContactId": 510,
-  "SaleId": 23,
-  "Mrmrs": "modi",
-  "Firstname": "Elaina",
-  "MiddleName": "Konopelski Inc and Sons",
-  "Lastname": "Gleichner",
-  "SaleStakeholderId": 774,
-  "Rank": 784,
-  "Phone": "(034)136-7917",
+  "StakeholderRoleName": "Gerhold, Hettinger and Keebler",
+  "Comment": "dolore",
+  "StakeholderRoleId": 142,
+  "CountryId": 513,
+  "PersonId": 78,
+  "EmailDescription": "kadin@hageneswhite.uk",
+  "EmailId": 733,
+  "EmailAddress": "delpha_wolff@mitchell.co.uk",
+  "PhoneId": 58,
+  "ContactName": "Kutch, Rau and Johns",
+  "ContactId": 675,
+  "SaleId": 769,
+  "Mrmrs": "perferendis",
+  "Firstname": "Noelia",
+  "MiddleName": "Lynch LLC",
+  "Lastname": "Prosacco",
+  "SaleStakeholderId": 818,
+  "Rank": 357,
+  "Phone": "204-954-5964",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 39
     }
   }
 }

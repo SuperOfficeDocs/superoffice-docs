@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12
+  "Id": 33
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 632,
-  "Rank": 408,
-  "DefaultTask": 205,
-  "DefaultTaskText": "est",
+  "OwnerTable": 345,
+  "Rank": 877,
+  "DefaultTask": 425,
+  "DefaultTaskText": "magnam",
   "IsVisual": false,
-  "LastGenerated": "1998-11-14T11:16:09.6473837+01:00",
-  "Description": "Function-based bi-directional budgetary management",
-  "Name": "Kris-Larson",
-  "StatusMonitorId": 761,
-  "PictureId": 417,
+  "LastGenerated": "2009-10-25T12:57:34.7896763+01:00",
+  "Description": "Versatile local leverage",
+  "Name": "Mohr-Orn",
+  "StatusMonitorId": 542,
+  "PictureId": 445,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 271,
-  "NumNeedUpdate": 466,
-  "GenerationStart": "1999-10-13T11:16:09.6473837+02:00",
+  "Deleted": true,
+  "NumMatches": 766,
+  "NumNeedUpdate": 492,
+  "GenerationStart": "2016-03-16T12:57:34.7896763+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 922
     }
   }
 }

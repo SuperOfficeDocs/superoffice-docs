@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "UdListDefinitionName": "Frami Inc and Sons"
+  "Id": 668,
+  "UdListDefinitionName": "Borer Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 610,
-  "Name": "D'Amore-Mitchell",
-  "Tooltip": "voluptas",
+  "Id": 69,
+  "Name": "D'Amore, Runolfsson and McLaughlin",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 14,
-  "Rank": 770,
+  "UdListDefinitionId": 756,
+  "Rank": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   }
 }

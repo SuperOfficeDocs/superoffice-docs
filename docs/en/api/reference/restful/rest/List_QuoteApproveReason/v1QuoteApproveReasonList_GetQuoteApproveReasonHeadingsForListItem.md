@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Runte LLC",
-    "ToolTip": "A saepe laboriosam.",
+    "Id": 234,
+    "Name": "Ankunding, Feil and Parker",
+    "ToolTip": "Voluptatem deleniti tenetur eligendi repellendus maxime.",
     "Deleted": false,
-    "Rank": 191,
-    "Type": "voluptas",
-    "ColorBlock": 741,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "1997-03-04T11:16:14.6839019+01:00",
+    "Rank": 398,
+    "Type": "recusandae",
+    "ColorBlock": 613,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2006-08-12T12:57:43.6520109+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Lehner, Howe and DuBuque",
-        "ToolTip": "Necessitatibus ipsa et rerum.",
-        "Deleted": true,
-        "Rank": 883,
-        "Type": "eos",
-        "ColorBlock": 806,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2001-02-16T11:16:14.6839019+01:00",
+        "Id": 768,
+        "Name": "Littel-Gibson",
+        "ToolTip": "Nisi minima eum ea.",
+        "Deleted": false,
+        "Rank": 518,
+        "Type": "quisquam",
+        "ColorBlock": 605,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2017-08-19T12:57:43.6520109+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Francesca Funk",
+        "ExtraInfo": "qui",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Prof. Stanton Hildegard O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 7
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "veniam",
+    "ExtraInfo": "et",
+    "StyleHint": "pariatur",
     "Hidden": false,
-    "FullName": "Aliyah Durgan",
+    "FullName": "Teagan Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 976
       }
     }
   }

@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 548
+  "QuoteLineId": 963
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 723,
-  "ERPQuoteLineKey": "sit",
-  "QuoteAlternativeId": 219,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 820,
+  "ERPQuoteLineKey": "sed",
+  "QuoteAlternativeId": 25,
+  "ERPProductKey": "a",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 14817.552,
-  "DeliveredQuantity": 2102.9139999999998,
-  "Rank": 590,
-  "Name": "Cronin, Spencer and Leannon",
-  "Description": "Self-enabling solution-oriented orchestration",
-  "Code": "excepturi",
-  "QuantityUnit": "est",
-  "PriceUnit": "quia",
-  "ItemNumber": "346597",
+  "Quantity": 8543.284,
+  "DeliveredQuantity": 14497.884,
+  "Rank": 119,
+  "Name": "O'Connell, Spinka and Blick",
+  "Description": "Advanced object-oriented open architecture",
+  "Code": "dolorum",
+  "QuantityUnit": "adipisci",
+  "PriceUnit": "suscipit",
+  "ItemNumber": "989820",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "quia",
-  "Supplier": "qui",
-  "SupplierCode": "adipisci",
-  "Thumbnail": "maxime",
-  "VATInfo": "inventore",
-  "VAT": 16419.025999999998,
-  "UnitCost": 59.546,
-  "UnitMinimumPrice": 12999.832,
-  "UnitListPrice": 3535.152,
+  "ProductFamilyKey": "dolorem",
+  "ProductTypeKey": "aspernatur",
+  "Supplier": "fuga",
+  "SupplierCode": "et",
+  "Thumbnail": "earum",
+  "VATInfo": "esse",
+  "VAT": 20740.811999999998,
+  "UnitCost": 15356.6,
+  "UnitMinimumPrice": 18919.958,
+  "UnitListPrice": 17105.372,
   "ExtraInfo": [
     {
-      "Name": "Kulas-Roob",
-      "Value": "dicta",
+      "Name": "Vandervort Inc and Sons",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     },
     {
-      "Name": "Kulas-Roob",
-      "Value": "dicta",
+      "Name": "Vandervort Inc and Sons",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     }
   ],
-  "RawExtraInfo": "officiis",
+  "RawExtraInfo": "mollitia",
   "IsSubscription": true,
-  "SubscriptionUnit": "reiciendis",
-  "SubscriptionQuantity": 21402.086,
-  "SubscriptionStart": "2011-01-26T11:16:09.6161411+01:00",
-  "ERPDiscountPercent": 19647.046,
-  "ERPDiscountAmount": 31167.629999999997,
-  "DiscountPercent": 14855.16,
-  "DiscountAmount": 2115.45,
+  "SubscriptionUnit": "voluptatum",
+  "SubscriptionQuantity": 16171.439999999999,
+  "SubscriptionStart": "2006-05-13T12:57:34.7584337+02:00",
+  "ERPDiscountPercent": 15491.362,
+  "ERPDiscountAmount": 18305.694,
+  "DiscountPercent": 21887.856,
+  "DiscountAmount": 20195.496,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10138.49,
-  "EarningAmount": 11200.916,
-  "SubTotal": 22420.636,
-  "TotalPrice": 8446.13,
-  "Rights": "aut",
-  "Rule": "quia",
-  "ExtraField1": "magni",
-  "ExtraField2": "repellendus",
-  "ExtraField3": "cum",
-  "ExtraField4": "sequi",
-  "ExtraField5": "excepturi",
+  "EarningPercent": 2789.2599999999998,
+  "EarningAmount": 10370.405999999999,
+  "SubTotal": 786.634,
+  "TotalPrice": 4992.4619999999995,
+  "Rights": "dolor",
+  "Rule": "beatae",
+  "ExtraField1": "placeat",
+  "ExtraField2": "amet",
+  "ExtraField3": "natus",
+  "ExtraField4": "inventore",
+  "ExtraField5": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 789
     }
   }
 }

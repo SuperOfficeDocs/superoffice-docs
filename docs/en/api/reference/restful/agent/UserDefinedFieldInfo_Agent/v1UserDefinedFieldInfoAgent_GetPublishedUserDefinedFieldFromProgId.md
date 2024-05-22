@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "soluta",
+  "ProgId": "sint",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 510,
-  "ColumnId": 142,
-  "FieldDefault": "sint",
-  "FieldHeight": 454,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 11,
-  "FieldTop": 646,
+  "UDefFieldId": 72,
+  "ColumnId": 541,
+  "FieldDefault": "nihil",
+  "FieldHeight": 244,
+  "FieldLabel": "est",
+  "FieldLeft": 299,
+  "FieldTop": 492,
   "FieldType": "Checkbox",
-  "FieldWidth": 704,
+  "FieldWidth": 835,
   "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 184,
-  "LabelLeft": 471,
-  "LabelTop": 828,
-  "LabelWidth": 907,
-  "LastVersionId": 568,
-  "ListTableId": 337,
+  "LabelHeight": 564,
+  "LabelLeft": 606,
+  "LabelTop": 493,
+  "LabelWidth": 178,
+  "LastVersionId": 487,
+  "ListTableId": 911,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 605,
-  "ProgId": "maiores",
-  "IsReadOnly": true,
-  "ShortLabel": "dolore",
-  "TabOrder": 126,
-  "TextLength": 376,
-  "Tooltip": "esse",
-  "UdefIdentity": 169,
-  "UDListDefinitionId": 434,
+  "Page1LineNo": 127,
+  "ProgId": "omnis",
+  "IsReadOnly": false,
+  "ShortLabel": "dolor",
+  "TabOrder": 813,
+  "TextLength": 210,
+  "Tooltip": "deserunt",
+  "UdefIdentity": 908,
+  "UDListDefinitionId": 246,
   "Justification": "Center",
-  "Version": 337,
-  "TemplateVariableName": "Barrows LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Nader Group",
+  "Version": 96,
+  "TemplateVariableName": "Nitzsche Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Dickens-Kuhn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

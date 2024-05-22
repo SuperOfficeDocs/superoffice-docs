@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Jakubowski, Littel and Fritsch",
-    "Tooltip": "voluptatem",
+    "Id": 359,
+    "Name": "Murazik Inc and Sons",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 238,
-    "Rank": 907,
+    "UdListDefinitionId": 373,
+    "Rank": 332,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldLength": 916
       }
     }
   }

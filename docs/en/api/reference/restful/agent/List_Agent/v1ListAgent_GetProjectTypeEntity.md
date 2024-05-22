@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=966
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=816
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 210,
-  "Name": "Jewess Inc and Sons",
-  "Tooltip": "nostrum",
-  "Rank": 978,
+  "ProjTypeId": 84,
+  "Name": "Stamm-Fadel",
+  "Tooltip": "non",
+  "Rank": 212,
   "DurationUnit": "Century",
-  "ProjectDuration": 530,
+  "ProjectDuration": 418,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 282,
-      "Name": "Weissnat, Tromp and Johnston",
-      "ToolTip": "Ratione ipsum voluptate illo accusamus ea illum.",
-      "Deleted": true,
-      "Rank": 937,
-      "Type": "quaerat",
-      "ColorBlock": 92,
-      "IconHint": "ea",
-      "Selected": false,
-      "LastChanged": "2024-02-09T11:16:09.3190898+01:00",
+      "Id": 390,
+      "Name": "Osinski-Lebsack",
+      "ToolTip": "Neque esse eligendi dolor dolores.",
+      "Deleted": false,
+      "Rank": 545,
+      "Type": "eaque",
+      "ColorBlock": 826,
+      "IconHint": "rerum",
+      "Selected": true,
+      "LastChanged": "2004-04-18T12:57:34.117983+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "mollitia",
+      "ExtraInfo": "aut",
+      "StyleHint": "rem",
       "Hidden": false,
-      "FullName": "Hillary Brakus",
+      "FullName": "Derrick Grady",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 118
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldLength": 583
     }
   }
 }

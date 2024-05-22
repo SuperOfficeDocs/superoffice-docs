@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 280,
-  "Created": "2020-03-22T11:16:09.6317604+01:00",
+  "SatelliteId": 562,
+  "Created": "1998-08-27T12:57:34.7740549+02:00",
   "CreatedBy": null,
-  "Updated": "2006-06-22T11:16:09.6317604+02:00",
+  "Updated": "2021-03-14T12:57:34.7740549+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Thiel Inc and Sons",
-      "Description": "Cross-platform 4th generation methodology",
+      "Name": "Yost-Funk",
+      "Description": "Future-proofed 24/7 protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 862
         }
       }
     },
     {
-      "Name": "Thiel Inc and Sons",
-      "Description": "Cross-platform 4th generation methodology",
+      "Name": "Yost-Funk",
+      "Description": "Future-proofed 24/7 protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 862
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 347
     }
   }
 }

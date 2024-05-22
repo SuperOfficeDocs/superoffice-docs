@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gusikowski-Tillman",
-  "Columns": "animi",
-  "SortOrder": "harum",
-  "Restriction": "molestiae",
-  "Entities": "molestiae",
-  "Page": 239,
-  "PageSize": 195,
-  "Context": "asperiores"
+  "ProviderName": "Funk-Franecki",
+  "Columns": "error",
+  "SortOrder": "sint",
+  "Restriction": "fuga",
+  "Entities": "necessitatibus",
+  "Page": 769,
+  "PageSize": 703,
+  "Context": "nihil"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Larkin Group",
-    "PrimaryKey": 795,
+    "EntityName": "Beahan Inc and Sons",
+    "PrimaryKey": 779,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "qui",
-        "TooltipHint": "aut",
-        "LinkHint": "et"
+        "DisplayValue": "quo",
+        "TooltipHint": "voluptatem",
+        "LinkHint": "incidunt"
       }
     },
-    "LinkHint": "ex",
-    "StyleHint": "maxime",
+    "LinkHint": "perspiciatis",
+    "StyleHint": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 986,
-  "Name": "Predovic Group",
-  "Tooltip": "veritatis",
-  "Rank": 74,
-  "AmountFrom": 24974.845999999998,
-  "AmountTo": 30158.482,
+  "AmountClassId": 308,
+  "Name": "Effertz-Pollich",
+  "Tooltip": "ratione",
+  "Rank": 199,
+  "AmountFrom": 6509.318,
+  "AmountTo": 11016.01,
   "Deleted": false,
-  "CurrencyId": 295
+  "CurrencyId": 293
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 211,
-  "Name": "Donnelly Group",
-  "Tooltip": "aliquid",
-  "Rank": 754,
-  "AmountFrom": 4384.4659999999994,
-  "AmountTo": 11291.802,
-  "Deleted": true,
-  "CurrencyId": 516,
+  "AmountClassId": 749,
+  "Name": "Wilderman LLC",
+  "Tooltip": "officia",
+  "Rank": 546,
+  "AmountFrom": 26936.73,
+  "AmountTo": 30540.829999999998,
+  "Deleted": false,
+  "CurrencyId": 966,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 72
     }
   }
 }

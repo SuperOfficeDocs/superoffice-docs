@@ -120,27 +120,27 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 554,
-  "PlainMessage": "veniam",
-  "HtmlMessage": "illo",
-  "SmsMessage": "tempore",
-  "Description": "Front-line motivating artificial intelligence",
-  "Subject": "quaerat",
-  "FolderId": 985,
-  "HeaderField": "quo",
-  "Design": "molestiae",
+  "ShipmentMessageId": 381,
+  "PlainMessage": "et",
+  "HtmlMessage": "autem",
+  "SmsMessage": "consequuntur",
+  "Description": "Fully-configurable directional middleware",
+  "Subject": "laudantium",
+  "FolderId": 448,
+  "HeaderField": "eligendi",
+  "Design": "sunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Persevering assymetric conglomeration",
-  "AccessKey": "non",
-  "DocumentMessage": 801,
-  "Registered": "2013-04-02T11:16:14.2304645+02:00",
-  "RegisteredAssociateId": 580,
-  "Updated": "2021-07-19T11:16:14.2304645+02:00",
-  "UpdatedAssociateId": 911,
-  "UpdatedCount": 206
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Business-focused analyzing array",
+  "AccessKey": "soluta",
+  "DocumentMessage": 823,
+  "Registered": "2017-08-25T12:57:42.807549+02:00",
+  "RegisteredAssociateId": 792,
+  "Updated": "2015-02-23T12:57:42.807549+01:00",
+  "UpdatedAssociateId": 661,
+  "UpdatedCount": 837
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 584,
-  "PlainMessage": "fuga",
-  "HtmlMessage": "qui",
-  "SmsMessage": "unde",
-  "Description": "User-centric intangible workforce",
-  "Subject": "dolor",
-  "FolderId": 126,
-  "HeaderField": "cum",
-  "Design": "architecto",
+  "ShipmentMessageId": 219,
+  "PlainMessage": "nam",
+  "HtmlMessage": "sapiente",
+  "SmsMessage": "voluptas",
+  "Description": "Expanded background product",
+  "Subject": "sapiente",
+  "FolderId": 101,
+  "HeaderField": "quibusdam",
+  "Design": "consequatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Progressive composite approach",
-  "AccessKey": "quo",
-  "DocumentMessage": 193,
-  "Registered": "2009-06-24T11:16:14.2304645+02:00",
-  "RegisteredAssociateId": 620,
-  "Updated": "2000-08-26T11:16:14.2304645+02:00",
-  "UpdatedAssociateId": 948,
-  "UpdatedCount": 744,
+  "LongDescription": "Diverse value-added benchmark",
+  "AccessKey": "consequatur",
+  "DocumentMessage": 543,
+  "Registered": "2012-06-04T12:57:42.807549+02:00",
+  "RegisteredAssociateId": 758,
+  "Updated": "2022-05-03T12:57:42.807549+02:00",
+  "UpdatedAssociateId": 736,
+  "UpdatedCount": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 128
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

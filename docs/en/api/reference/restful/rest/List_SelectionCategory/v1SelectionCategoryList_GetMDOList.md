@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=harum
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=quaerat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Hettinger, Schneider and Reinger",
-    "ToolTip": "Nemo vero.",
+    "Id": 579,
+    "Name": "Wiza-Ullrich",
+    "ToolTip": "Ut distinctio quidem ut commodi eligendi.",
     "Deleted": false,
-    "Rank": 709,
-    "Type": "veniam",
+    "Rank": 147,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Hickle, Okuneva and Robel",
-        "ToolTip": "Quos quis officia assumenda qui.",
+        "Id": 584,
+        "Name": "Bogan LLC",
+        "ToolTip": "Neque magnam minima.",
         "Deleted": true,
-        "Rank": 661,
-        "Type": "ea",
+        "Rank": 706,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 745,
-        "ExtraInfo": "enim",
-        "StyleHint": "ratione",
-        "FullName": "Janessa Rowe",
+        "IconHint": "dolores",
+        "ColorBlock": 472,
+        "ExtraInfo": "modi",
+        "StyleHint": "aliquam",
+        "FullName": "Dr. Thalia Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 591
+            "FieldLength": 907
           }
         }
       }
     ],
-    "IconHint": "magni",
-    "ColorBlock": 101,
-    "ExtraInfo": "illum",
-    "StyleHint": "illum",
-    "FullName": "Donato Wolff",
+    "IconHint": "facilis",
+    "ColorBlock": 843,
+    "ExtraInfo": "non",
+    "StyleHint": "voluptatum",
+    "FullName": "Ivory Wolf PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

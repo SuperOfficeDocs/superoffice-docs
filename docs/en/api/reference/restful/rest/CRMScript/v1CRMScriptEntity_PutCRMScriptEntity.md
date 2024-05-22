@@ -105,17 +105,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 452,
+  "EjscriptId": 773,
   "UniqueIdentifier": "aut",
-  "Name": "Macejkovic Inc and Sons",
-  "Description": "Reverse-engineered attitude-oriented analyzer",
-  "IncludeId": "enim",
-  "HierarchyId": 714,
-  "Source": "consequatur",
-  "Registered": "2012-10-24T11:16:13.8550957+02:00",
-  "RegisteredAssociateId": 837,
-  "Updated": "2016-04-11T11:16:13.8550957+02:00",
-  "UpdatedAssociateId": 469
+  "Name": "Schimmel-Hamill",
+  "Description": "Up-sized zero tolerance project",
+  "IncludeId": "a",
+  "HierarchyId": 321,
+  "Source": "quas",
+  "Registered": "2010-03-16T12:57:42.3232848+01:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "2014-10-11T12:57:42.3232848+02:00",
+  "UpdatedAssociateId": 857
 }
 ```
 
@@ -126,28 +126,28 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 128,
-  "UniqueIdentifier": "eius",
-  "Name": "Harris, Lemke and Rolfson",
-  "Description": "Assimilated eco-centric project",
-  "IncludeId": "sed",
-  "HierarchyId": 383,
-  "Source": "placeat",
-  "Registered": "2012-11-27T11:16:13.8550957+01:00",
-  "RegisteredAssociateId": 218,
-  "Updated": "1999-01-24T11:16:13.8550957+01:00",
-  "UpdatedAssociateId": 136,
+  "EjscriptId": 771,
+  "UniqueIdentifier": "architecto",
+  "Name": "Schamberger Group",
+  "Description": "Devolved transitional analyzer",
+  "IncludeId": "et",
+  "HierarchyId": 894,
+  "Source": "praesentium",
+  "Registered": "2001-02-04T12:57:42.3232848+01:00",
+  "RegisteredAssociateId": 849,
+  "Updated": "2014-07-19T12:57:42.3232848+02:00",
+  "UpdatedAssociateId": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

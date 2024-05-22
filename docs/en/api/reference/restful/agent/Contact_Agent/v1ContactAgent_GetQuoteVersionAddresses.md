@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 728
+  "QuoteVersionId": 481
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 23332.63,
-    "Wgs84Longitude": 19133.07,
+    "Wgs84Latitude": 2917.754,
+    "Wgs84Longitude": 27341.016,
     "LocalizedAddress": [
       [
         {
-          "Name": "McGlynn-Lueilwitz",
-          "Value": "cupiditate",
-          "Tooltip": "necessitatibus",
-          "Label": "accusamus",
-          "ValueLength": 580,
-          "AddressType": "in",
+          "Name": "Sawayn, Altenwerth and Fadel",
+          "Value": "nobis",
+          "Tooltip": "deserunt",
+          "Label": "sit",
+          "ValueLength": 861,
+          "AddressType": "qui",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 747
+              "FieldLength": 460
             }
           }
         }
       ],
       [
         {
-          "Name": "Greenholt Inc and Sons",
-          "Value": "placeat",
-          "Tooltip": "expedita",
-          "Label": "dolor",
-          "ValueLength": 877,
-          "AddressType": "vel",
+          "Name": "Treutel-Howell",
+          "Value": "ducimus",
+          "Tooltip": "quo",
+          "Label": "qui",
+          "ValueLength": 568,
+          "AddressType": "aut",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 663
+              "FieldLength": 926
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "est",
+    "Formatted": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 517
       }
     }
   }

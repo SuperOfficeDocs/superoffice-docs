@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=74
+POST /api/v1/Agents/Document/GetDocument?documentId=915
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 152,
-  "Attention": "accusantium",
-  "Header": "nesciunt",
-  "Name": "Kautzer LLC",
-  "OurRef": "distinctio",
-  "YourRef": "facere",
-  "Description": "Universal 6th generation installation",
-  "DocumentTemplate": "accusantium",
+  "DocumentId": 769,
+  "Attention": "occaecati",
+  "Header": "similique",
+  "Name": "Gerhold-Johns",
+  "OurRef": "quis",
+  "YourRef": "dolorum",
+  "Description": "Visionary holistic matrices",
+  "DocumentTemplate": "eos",
   "IsPublished": false,
-  "PersonId": 956,
-  "PersonFullName": "Prof. Forest Jerald Adams I",
-  "AssociateFullName": "Etha Stanton",
-  "ContactId": 897,
-  "ContactName": "D'Amore, Kulas and Stroman",
-  "ProjectId": 137,
-  "ProjectName": "Lynch-Grady",
-  "AssociateId": 421,
-  "Snum": 113,
-  "SaleId": 143,
-  "SaleName": "Runolfsson Group",
+  "PersonId": 90,
+  "PersonFullName": "Kyra Smith II",
+  "AssociateFullName": "Fritz Ondricka",
+  "ContactId": 405,
+  "ContactName": "Senger-Rath",
+  "ProjectId": 394,
+  "ProjectName": "Labadie Inc and Sons",
+  "AssociateId": 813,
+  "Snum": 703,
+  "SaleId": 806,
+  "SaleName": "Howe-Braun",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   }
 }

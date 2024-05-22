@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 972,
-  "ColumnId": 974,
-  "FieldDefault": "omnis",
-  "FieldHeight": 807,
-  "FieldLabel": "eum",
-  "FieldLeft": 965,
-  "FieldTop": 906,
+  "UDefFieldId": 439,
+  "ColumnId": 945,
+  "FieldDefault": "quod",
+  "FieldHeight": 913,
+  "FieldLabel": "officiis",
+  "FieldLeft": 591,
+  "FieldTop": 337,
   "FieldType": "Checkbox",
-  "FieldWidth": 886,
-  "FormatMask": "laborum",
-  "HideLabel": true,
+  "FieldWidth": 62,
+  "FormatMask": "suscipit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 737,
-  "LabelLeft": 89,
-  "LabelTop": 894,
-  "LabelWidth": 976,
-  "LastVersionId": 107,
-  "ListTableId": 426,
+  "LabelHeight": 832,
+  "LabelLeft": 939,
+  "LabelTop": 859,
+  "LabelWidth": 701,
+  "LastVersionId": 319,
+  "ListTableId": 576,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 247,
-  "ProgId": "vitae",
-  "IsReadOnly": false,
-  "ShortLabel": "dolorem",
-  "TabOrder": 719,
-  "TextLength": 630,
-  "Tooltip": "illum",
-  "UdefIdentity": 402,
-  "UDListDefinitionId": 96,
+  "Page1LineNo": 597,
+  "ProgId": "ducimus",
+  "IsReadOnly": true,
+  "ShortLabel": "sit",
+  "TabOrder": 923,
+  "TextLength": 765,
+  "Tooltip": "optio",
+  "UdefIdentity": 476,
+  "UDListDefinitionId": 97,
   "Justification": "Center",
-  "Version": 356,
-  "TemplateVariableName": "Bartoletti Group",
+  "Version": 719,
+  "TemplateVariableName": "Stokes, Hermann and Rau",
   "HasBeenPublished": true,
-  "MdoListName": "Kling LLC",
+  "MdoListName": "Kuvalis, Robel and Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 822
     }
   }
 }

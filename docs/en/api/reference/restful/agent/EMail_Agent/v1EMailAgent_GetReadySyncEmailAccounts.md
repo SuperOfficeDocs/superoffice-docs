@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 789,
-    "AssociateName": "Howell, Volkman and Jacobi",
-    "AssociateId": 696,
+    "AccountId": 276,
+    "AssociateName": "Volkman Group",
+    "AssociateId": 463,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 262
       }
     }
   },
   {
-    "AccountId": 789,
-    "AssociateName": "Howell, Volkman and Jacobi",
-    "AssociateId": 696,
+    "AccountId": 276,
+    "AssociateName": "Volkman Group",
+    "AssociateId": 463,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 262
       }
     }
   }

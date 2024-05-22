@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 190,
-  "Name": "West Group",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "UdListDefinitionId": 569,
-  "Rank": 5,
+  "Id": 723,
+  "Name": "Robel Group",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 502,
+  "Rank": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

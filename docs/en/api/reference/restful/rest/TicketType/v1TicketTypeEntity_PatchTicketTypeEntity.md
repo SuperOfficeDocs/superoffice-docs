@@ -124,18 +124,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatum",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatum",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -148,38 +148,38 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 738,
-  "Name": "Lockman, Greenfelder and O'Keefe",
-  "Rank": 725,
-  "Tooltip": "dolorum",
-  "Icon": "ratione",
-  "DefaultTicketStatus": 565,
+  "TicketTypeId": 103,
+  "Name": "Friesen Group",
+  "Rank": 485,
+  "Tooltip": "ex",
+  "Icon": "rerum",
+  "DefaultTicketStatus": 988,
   "TicketStatuses": [
-    232,
-    833
+    575,
+    268
   ],
-  "DefaultTicketPriority": 816,
+  "DefaultTicketPriority": 425,
   "TicketPriorities": [
-    507,
-    135
+    470,
+    841
   ],
-  "ReplyTemplate": 597,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 818,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    110,
-    548
+    295,
+    500
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 193
     }
   },
   "_Links": {

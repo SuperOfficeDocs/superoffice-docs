@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 717,
-  "Name": "Simonis-Toy",
-  "Description": "Face to face didactic capacity",
-  "DeltaJson": "itaque",
+  "ConfigurableScreenDeltaId": 2,
+  "Name": "Keeling, Shields and Bergstrom",
+  "Description": "Upgradable value-added hardware",
+  "DeltaJson": "doloribus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "excepturi",
-  "UpdatedDate": "2020-04-17T11:16:08.8347248+02:00",
-  "CreatedDate": "2023-07-29T11:16:08.8347248+02:00",
+  "RecipeId": "neque",
+  "UpdatedDate": "2016-10-27T12:57:33.430612+02:00",
+  "CreatedDate": "1997-01-10T12:57:33.430612+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    147,
-    471
+    6,
+    785
   ],
-  "AppliesToKey": "rerum",
+  "AppliesToKey": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 707
     }
   }
 }

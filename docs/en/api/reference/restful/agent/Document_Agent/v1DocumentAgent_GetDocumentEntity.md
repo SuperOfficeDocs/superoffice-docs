@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=221
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=223
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 126,
+  "DocumentId": 872,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "accusantium",
-  "Header": "voluptates",
-  "Name": "Kreiger, Fahey and Schumm",
-  "OurRef": "expedita",
-  "YourRef": "rerum",
-  "CreatedDate": "2018-10-10T11:16:09.1003594+02:00",
-  "UpdatedDate": "2012-11-11T11:16:09.1003594+01:00",
-  "Description": "Synchronised interactive extranet",
+  "Attention": "voluptatem",
+  "Header": "quia",
+  "Name": "Rempel Group",
+  "OurRef": "quia",
+  "YourRef": "accusantium",
+  "CreatedDate": "1998-04-08T12:57:33.7586621+02:00",
+  "UpdatedDate": "1998-05-01T12:57:33.7586621+02:00",
+  "Description": "Multi-channelled local encoding",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-04-05T11:16:09.1003594+02:00",
-  "ExternalRef": "vel",
+  "Date": "1998-03-10T12:57:33.7586621+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 774,
+  "ActiveLinks": 954,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cummerata LLC",
-      "Id": 995,
-      "Description": "Operative next generation interface",
-      "ExtraInfo": "quam",
-      "LinkId": 557,
+      "EntityName": "Grant-Krajcik",
+      "Id": 16,
+      "Description": "Programmable modular secured line",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 726,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldLength": 961
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 129,
-  "Snum": 419,
+  "SuggestedDocumentId": 614,
+  "Snum": 552,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Sheila Santos Cummings III"
+    "SuperOffice:1": "Ms. Valentine Gabriella Franecki",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "officia"
+    "CustomFields1": "est",
+    "CustomFields2": "natus"
   },
-  "PublishEventDate": "2015-03-13T11:16:09.1003594+01:00",
-  "PublishTo": "2012-07-21T11:16:09.1003594+02:00",
-  "PublishFrom": "1997-11-13T11:16:09.1003594+01:00",
+  "PublishEventDate": "1997-05-06T12:57:33.7586621+02:00",
+  "PublishTo": "2002-04-08T12:57:33.7586621+02:00",
+  "PublishFrom": "2009-04-29T12:57:33.7586621+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 824,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 817
         }
       }
     },
     {
-      "VisibleId": 824,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 817
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 648
     }
   }
 }

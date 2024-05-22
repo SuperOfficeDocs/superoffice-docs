@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bergstrom-Dooley",
+  "TableName": "Eichmann-Conroy",
   "Columns": [
-    "harum",
-    "qui"
+    "beatae",
+    "dolore"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "et",
-  "Inserts": 975,
-  "Updates": 238,
-  "Deletes": 153,
+  "Message": "id",
+  "Inserts": 308,
+  "Updates": 168,
+  "Deletes": 873,
   "RowStatus": [
     {
-      "PrimaryKey": 785,
+      "PrimaryKey": 211,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "laudantium",
-        "quia"
+        "eveniet",
+        "a"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldLength": 185
         }
       }
     },
     {
-      "PrimaryKey": 785,
+      "PrimaryKey": 211,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "laudantium",
-        "quia"
+        "eveniet",
+        "a"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldLength": 185
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Jacobs LLC",
-    "ToolTip": "Eum est molestias autem.",
+    "Id": 599,
+    "Name": "Moen LLC",
+    "ToolTip": "Omnis et omnis enim possimus voluptatem.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "quia",
-    "ColorBlock": 163,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2020-10-13T11:16:14.8246461+02:00",
+    "Rank": 790,
+    "Type": "nobis",
+    "ColorBlock": 447,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2015-09-10T12:57:43.7769823+02:00",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Farrell, Shanahan and Prosacco",
-        "ToolTip": "Quisquam commodi aut rem quos blanditiis deleniti.",
+        "Id": 492,
+        "Name": "Bruen, Hauck and Corwin",
+        "ToolTip": "Occaecati amet et perferendis.",
         "Deleted": false,
-        "Rank": 601,
-        "Type": "cupiditate",
-        "ColorBlock": 871,
-        "IconHint": "et",
+        "Rank": 61,
+        "Type": "nihil",
+        "ColorBlock": 970,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2017-11-29T11:16:14.8246461+01:00",
+        "LastChanged": "2001-01-07T12:57:43.7769823+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "sit",
+        "ExtraInfo": "veniam",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Dorcas Larson"
+        "FullName": "Miss Tomas Hirthe DDS"
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "aut",
+    "ExtraInfo": "rerum",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Vincenzo Batz"
+    "FullName": "Lourdes Pacocha"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Osinski, Bechtelar and Wuckert",
-    "ToolTip": "Sequi et et inventore unde vitae.",
-    "Deleted": false,
-    "Rank": 396,
-    "Type": "qui",
-    "ColorBlock": 189,
-    "IconHint": "accusantium",
-    "Selected": true,
-    "LastChanged": "2015-09-25T11:16:14.8401403+02:00",
+    "Id": 963,
+    "Name": "Davis, Wilderman and Fisher",
+    "ToolTip": "Et rerum corporis repellat iste temporibus.",
+    "Deleted": true,
+    "Rank": 171,
+    "Type": "esse",
+    "ColorBlock": 207,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2020-08-30T12:57:43.7769823+02:00",
     "ChildItems": [
       {
-        "Id": 698,
-        "Name": "Roberts-Moore",
-        "ToolTip": "Nesciunt accusantium impedit vel.",
-        "Deleted": false,
-        "Rank": 919,
-        "Type": "vitae",
-        "ColorBlock": 529,
-        "IconHint": "earum",
+        "Id": 361,
+        "Name": "Hansen LLC",
+        "ToolTip": "Vitae ad qui distinctio labore minus.",
+        "Deleted": true,
+        "Rank": 697,
+        "Type": "accusantium",
+        "ColorBlock": 282,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2022-03-20T11:16:14.8401403+01:00",
+        "LastChanged": "2022-10-27T12:57:43.7769823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Kraig Leannon",
+        "ExtraInfo": "qui",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Jonatan Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldLength": 357
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "numquam",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Pete Hauck",
+    "FullName": "Giovani Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 769
+        "FieldType": "System.Int32",
+        "FieldLength": 383
       }
     }
   }

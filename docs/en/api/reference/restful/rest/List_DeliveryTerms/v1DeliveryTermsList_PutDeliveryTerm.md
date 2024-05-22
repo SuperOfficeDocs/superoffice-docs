@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 652,
-  "Name": "O'Keefe Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 175,
-  "Rank": 180
+  "Id": 615,
+  "Name": "Bogisich, Parker and Bradtke",
+  "Tooltip": "repellendus",
+  "Deleted": false,
+  "UdListDefinitionId": 441,
+  "Rank": 445
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 670,
-  "Name": "Heller Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 53,
+  "Name": "Champlin LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 225,
-  "Rank": 522,
+  "UdListDefinitionId": 209,
+  "Rank": 791,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 495
     }
   }
 }

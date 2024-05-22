@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 604,
+  "DocumentId": 998,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quidem",
-  "Header": "vel",
-  "Name": "Reynolds, Thiel and Beahan",
-  "OurRef": "soluta",
-  "YourRef": "dicta",
-  "CreatedDate": "2013-11-24T11:16:13.901969+01:00",
-  "UpdatedDate": "2003-03-28T11:16:13.901969+01:00",
-  "Description": "Monitored global benchmark",
+  "Attention": "velit",
+  "Header": "et",
+  "Name": "Bode, Friesen and Jerde",
+  "OurRef": "repudiandae",
+  "YourRef": "voluptas",
+  "CreatedDate": "1997-05-02T12:57:42.401392+02:00",
+  "UpdatedDate": "2022-06-26T12:57:42.401392+02:00",
+  "Description": "Up-sized content-based framework",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-08-05T11:16:13.901969+02:00",
-  "ExternalRef": "perspiciatis",
+  "Date": "2021-05-11T12:57:42.401392+02:00",
+  "ExternalRef": "quaerat",
   "Completed": "Completed",
-  "ActiveLinks": 500,
+  "ActiveLinks": 336,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Haley, Toy and Turcotte",
-      "Id": 903,
-      "Description": "Pre-emptive assymetric system engine",
-      "ExtraInfo": "facilis",
-      "LinkId": 857,
+      "EntityName": "Lockman LLC",
+      "Id": 377,
+      "Description": "Fully-configurable stable neural-net",
+      "ExtraInfo": "itaque",
+      "LinkId": 938,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldLength": 294
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 37,
-  "Snum": 457,
+  "SuggestedDocumentId": 19,
+  "Snum": 827,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jayda Reinger",
-    "SuperOffice:2": "2127999907"
+    "SuperOffice:1": "Elvera Nakia Weimann MD",
+    "SuperOffice:2": "Caden Botsford"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "assumenda",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "2020-07-24T11:16:13.901969+02:00",
-  "PublishTo": "2018-12-30T11:16:13.901969+01:00",
-  "PublishFrom": "2011-06-25T11:16:13.901969+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-01-09T12:57:42.401392+01:00",
+  "PublishTo": "2007-05-24T12:57:42.401392+02:00",
+  "PublishFrom": "2016-04-15T12:57:42.401392+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 210,
+      "VisibleId": 189,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldLength": 254
         }
       }
     },
     {
-      "VisibleId": 210,
+      "VisibleId": 189,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldLength": 254
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 377
     }
   }
 }

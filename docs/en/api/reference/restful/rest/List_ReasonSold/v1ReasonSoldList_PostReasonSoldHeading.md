@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 349,
-  "Name": "Emmerich, Gerhold and Koepp",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 249,
-  "UdListDefinitionId": 811
+  "HeadingId": 777,
+  "Name": "Jewess Group",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 317,
+  "UdListDefinitionId": 880
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 262,
-  "Name": "McClure Group",
-  "Tooltip": "mollitia",
+  "HeadingId": 48,
+  "Name": "Ratke-Mills",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 751,
-  "UdListDefinitionId": 347,
+  "Rank": 389,
+  "UdListDefinitionId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 63
     }
   }
 }

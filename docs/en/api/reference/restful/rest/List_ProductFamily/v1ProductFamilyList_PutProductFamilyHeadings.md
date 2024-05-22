@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 17,
-    "Name": "Gislason LLC",
-    "Tooltip": "laborum",
+    "HeadingId": 511,
+    "Name": "Parker Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 768,
-    "UdListDefinitionId": 218
+    "Rank": 764,
+    "UdListDefinitionId": 172
   },
   {
-    "HeadingId": 17,
-    "Name": "Gislason LLC",
-    "Tooltip": "laborum",
+    "HeadingId": 511,
+    "Name": "Parker Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 768,
-    "UdListDefinitionId": 218
+    "Rank": 764,
+    "UdListDefinitionId": 172
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 852,
-    "Name": "Reinger Group",
-    "Tooltip": "deserunt",
+    "HeadingId": 961,
+    "Name": "Christiansen LLC",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "Rank": 869,
-    "UdListDefinitionId": 21,
+    "Rank": 165,
+    "UdListDefinitionId": 379,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 324
       }
     }
   }

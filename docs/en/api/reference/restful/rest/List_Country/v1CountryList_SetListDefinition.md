@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Pfannerstill-Parker",
-  "Tooltip": "sapiente",
+  "Id": 961,
+  "Name": "Wehner-Beatty",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 34,
+  "Rank": 565,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "ad",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 184,
-  "Name": "Hilpert Group",
-  "Tooltip": "quo",
+  "Id": 340,
+  "Name": "Lakin Inc and Sons",
+  "Tooltip": "aliquam",
   "Deleted": true,
-  "Rank": 113,
+  "Rank": 581,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldLength": 26
     }
   }
 }

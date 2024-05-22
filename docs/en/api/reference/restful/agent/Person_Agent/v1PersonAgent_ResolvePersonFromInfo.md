@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 159,
-  "PersonName": "Haag-Kuhic",
+  "ContactId": 971,
+  "PersonName": "Balistreri Group",
   "PhoneNumbers": [
-    "1775994",
-    "1730263"
+    "1162658",
+    "1448873"
   ],
   "Emails": [
-    "carlo.roob@vandervort.biz",
-    "cedrick_spinka@pagac.name"
+    "antone.homenick@fay.com",
+    "adelle_larkin@pollichorn.name"
   ]
 }
 ```
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 170
     }
   }
 }

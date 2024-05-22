@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 985,
-  "Name": "Lueilwitz, Gulgowski and Wyman",
-  "CurrencyId": 75,
-  "EnglishName": "Grady, Stoltenberg and Bednar",
+  "CountryId": 980,
+  "Name": "Olson, Spinka and Schaden",
+  "CurrencyId": 667,
+  "EnglishName": "Stokes-Ondricka",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-tiered maximized system engine",
-  "OrgNrText": "404345",
-  "InterAreaPrefix": "consectetur",
-  "DialInPrefix": "officia",
-  "ZipPrefix": "et",
-  "DomainName": "Mayer Group",
-  "AddressLayoutId": 342,
-  "DomesticAddressLayoutId": 868,
-  "ForeignAddressLayoutId": 163,
-  "Rank": 203,
-  "Tooltip": "dolorem",
-  "Deleted": false,
+  "ImageDescription": "Customer-focused mission-critical focus group",
+  "OrgNrText": "1047433",
+  "InterAreaPrefix": "sed",
+  "DialInPrefix": "omnis",
+  "ZipPrefix": "dolorem",
+  "DomainName": "Herzog LLC",
+  "AddressLayoutId": 191,
+  "DomesticAddressLayoutId": 841,
+  "ForeignAddressLayoutId": 494,
+  "Rank": 476,
+  "Tooltip": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 31
     }
   }
 }

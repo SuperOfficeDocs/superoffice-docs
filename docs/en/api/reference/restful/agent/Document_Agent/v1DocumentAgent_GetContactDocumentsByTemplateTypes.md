@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 920,
-  "StartTime": "2023-11-02T11:16:09.0691155+01:00",
-  "EndTime": "2019-09-16T11:16:09.0691155+02:00",
-  "Count": 141,
+  "ContactId": 491,
+  "StartTime": "2020-09-12T12:57:33.6805549+02:00",
+  "EndTime": "1999-04-04T12:57:33.6805549+02:00",
+  "Count": 122,
   "DocumentTemplateIds": [
-    425,
-    871
+    567,
+    259
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 750,
-    "Attention": "ipsam",
-    "Header": "corporis",
-    "Name": "Spencer, Effertz and Kohler",
-    "OurRef": "nobis",
-    "YourRef": "in",
-    "Description": "Business-focused content-based protocol",
-    "DocumentTemplate": "neque",
-    "IsPublished": false,
-    "PersonId": 728,
-    "PersonFullName": "Trace Miller",
-    "AssociateFullName": "Maida Schoen MD",
-    "ContactId": 271,
-    "ContactName": "Stracke Inc and Sons",
-    "ProjectId": 361,
-    "ProjectName": "Powlowski, Quigley and Harris",
-    "AssociateId": 866,
-    "Snum": 527,
-    "SaleId": 151,
-    "SaleName": "Hintz Inc and Sons",
+    "DocumentId": 917,
+    "Attention": "animi",
+    "Header": "quo",
+    "Name": "VonRueden-Douglas",
+    "OurRef": "aut",
+    "YourRef": "ipsum",
+    "Description": "Integrated value-added task-force",
+    "DocumentTemplate": "suscipit",
+    "IsPublished": true,
+    "PersonId": 105,
+    "PersonFullName": "Chris Emard DVM",
+    "AssociateFullName": "Declan Jaime Cummings PhD",
+    "ContactId": 108,
+    "ContactName": "Terry-Heaney",
+    "ProjectId": 470,
+    "ProjectName": "Heller LLC",
+    "AssociateId": 784,
+    "Snum": 123,
+    "SaleId": 263,
+    "SaleName": "Predovic-Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 225
       }
     }
   }

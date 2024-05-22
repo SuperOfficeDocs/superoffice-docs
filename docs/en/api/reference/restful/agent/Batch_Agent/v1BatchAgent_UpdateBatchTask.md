@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Romaguera, Effertz and Heathcote",
-  "AssociateId": 695,
-  "DetailsTable": 165,
-  "DetailsRecord": 387,
+  "Id": 949,
+  "Name": "Braun Inc and Sons",
+  "AssociateId": 754,
+  "DetailsTable": 441,
+  "DetailsRecord": 748,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ut",
-    "ParameterObject2": "nihil"
+    "ParameterObject1": "adipisci",
+    "ParameterObject2": "eligendi"
   },
-  "LastStarted": "2011-11-25T11:16:08.7410229+01:00",
-  "Created": "2022-05-30T11:16:08.7410229+02:00",
-  "StartCount": 751,
-  "DatabaseSerialNumber": "723351",
-  "Context": "et",
-  "Result": "impedit",
+  "LastStarted": "2004-10-12T12:57:33.2658907+02:00",
+  "Created": "2002-08-18T12:57:33.2658907+02:00",
+  "StartCount": 436,
+  "DatabaseSerialNumber": "1617631",
+  "Context": "quos",
+  "Result": "ipsa",
   "State": "All",
-  "Description": "Reduced even-keeled info-mediaries",
-  "Response": "qui",
-  "Request": "aut",
-  "ProgressDescription": "Grass-roots uniform monitoring",
-  "ProgressPercent": 957,
-  "FileName": "Bauch, Marquardt and Greenholt",
+  "Description": "Future-proofed upward-trending moratorium",
+  "Response": "aut",
+  "Request": "aspernatur",
+  "ProgressDescription": "Right-sized explicit superstructure",
+  "ProgressPercent": 16,
+  "FileName": "Mann LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 206
     }
   }
 }

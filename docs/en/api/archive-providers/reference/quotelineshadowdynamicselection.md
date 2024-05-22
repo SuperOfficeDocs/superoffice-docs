@@ -171,6 +171,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
+|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by workflow: Created by workflow| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -221,14 +222,17 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
-|alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
-|alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
-|alternative/version/quote/sale/person/personDirectPhone/description|string|Sale - Direct - Description: Phone number description| x |
-|alternative/version/quote/sale/person/personMobilePhone/formattedNumber|string|Sale - Mobile - Phone: Displays phone number|  |
+|alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
+|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - Updated by flow: Updated by flow| x |
+|alternative/version/quote/sale/person/createdByForm|listAny|Sale - Created by form: Created by form| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
+|alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
+|alternative/version/quote/sale/person/personDirectPhone/description|string|Sale - Direct - Description: Phone number description| x |
+|alternative/version/quote/sale/person/personMobilePhone/formattedNumber|string|Sale - Mobile - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personMobilePhone/description|string|Sale - Mobile - Description: Phone number description| x |
 |alternative/version/quote/sale/person/personPrivate/formattedNumber|string|Sale - Private - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personPrivate/description|string|Sale - Private - Description: Phone number description| x |
@@ -287,7 +291,6 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/person/personUdef/SuperOffice:10|string|Sale - page1marketingonly| x |
 |alternative/version/quote/sale/person/personUdef/SuperOffice:11|string|Sale - page1adminonly| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_integer|int|Sale - Extra Integer: Custom person integer| x |
-|alternative/version/quote/sale/person/personExtra/x\_person\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field that is hidden| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_float|decimal|Sale - Extra float: Custom float field| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_longtext|string|Sale - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_date|date|Sale - Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -326,13 +329,13 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
 |alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
 |alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
-|alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
-|alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
-|alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
+|alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
+|alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
 |alternative/version/quote/sale/person/personAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -345,6 +348,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/person/personAssociate/userName|string|Sale - User name: User name| x |
 |alternative/version/quote/sale/person/personAssociate/personEmail|string|Sale - E-mail| x |
 |alternative/version/quote/sale/person/personAssociate/locationAddress|string|Sale - Location: Location| x |
+|alternative/version/quote/sale/person/personAssociate/isLocation|bool|Sale - Is a location: Is a location| x |
 |alternative/version/quote/sale/person/correspondingAssociate/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/correspondingAssociate/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/correspondingAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
@@ -376,6 +380,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/person/correspondingAssociate/userName|string|Sale - User name: User name| x |
 |alternative/version/quote/sale/person/correspondingAssociate/personEmail|string|Sale - E-mail| x |
 |alternative/version/quote/sale/person/correspondingAssociate/locationAddress|string|Sale - Location: Location| x |
+|alternative/version/quote/sale/person/correspondingAssociate/isLocation|bool|Sale - Is a location: Is a location| x |
 |alternative/version/quote/sale/person/isMailingRecipient|bool|Sale - Is mailing recipient: isMailingRecipient| x |
 |alternative/version/quote/sale/person/hasStoreConsent|bool|Sale - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |alternative/version/quote/sale/person/withdrawnStoreConsent|bool|Sale - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -428,15 +433,15 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/contact/email/emailBounceCount|int|Sale - Bounce count: Bounce count for this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailLastBounce|datetime|Sale - Last bounce: Date and time for last bounce to this e-mail address| x |
 |alternative/version/quote/sale/contact/email/emailHasBounced|bool|Sale - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/postAddress/addressId|int|Sale - Postal address - Address ID: Database ID for the address record| x |
 |alternative/version/quote/sale/contact/postAddress/line1|string|Sale - Postal address - Address 1: First line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line2|string|Sale - Postal address - Address 2: Second line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/line3|string|Sale - Postal address - Address 3: Third line of the address| x |
 |alternative/version/quote/sale/contact/postAddress/county|string|Sale - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/postAddress/city|string|Sale - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |alternative/version/quote/sale/contact/postAddress/zip|string|Sale - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |alternative/version/quote/sale/contact/postAddress/state|string|Sale - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -501,6 +506,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/contact/contactAssociate/userName|string|Sale - User name: User name| x |
 |alternative/version/quote/sale/contact/contactAssociate/personEmail|string|Sale - E-mail| x |
 |alternative/version/quote/sale/contact/contactAssociate/locationAddress|string|Sale - Location: Location| x |
+|alternative/version/quote/sale/contact/contactAssociate/isLocation|bool|Sale - Is a location: Is a location| x |
 |alternative/version/quote/sale/contact/contactInterestIds|listInterest|Sale - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:1|string|Sale - companyshorttext: tooltipshorttext| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:2|string|Sale - companylongtext: tooltiplongtext| x |
@@ -516,7 +522,6 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:12|listAny|Sale - Udlist one: Static tooltip for udlist one| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
-|alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_default\_integer|int|Sale - Extra Default Integer: Custom integer field with default value 123.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_float|decimal|Sale - Extra Float: Custom float field with 3 decimals| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_longtext|string|Sale - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -532,15 +537,15 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
 |alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivitiesInPeriod|int|Sale - Number of non-completed activities in last 90 days|  |
 |alternative/version/quote/sale/contact/LastActivity|date|Sale - Date of last activity|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/LastCompletedActivity|date|Sale - Date of last completed activity|  |
 |alternative/version/quote/sale/contact/LastDoByActivity|date|Sale - Date of last non-completed activity|  |
 |alternative/version/quote/sale/contact/NumberOfSales|int|Sale - Number of sales|  |
@@ -597,6 +602,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/associate/userName|string|Sale - User name: User name| x |
 |alternative/version/quote/sale/associate/personEmail|string|Sale - E-mail| x |
 |alternative/version/quote/sale/associate/locationAddress|string|Sale - Location: Location| x |
+|alternative/version/quote/sale/associate/isLocation|bool|Sale - Is a location: Is a location| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:1|string|Sale - saleshorttext| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:2|string|Sale - salelongtext| x |
 |alternative/version/quote/sale/saleUdef/SuperOffice:3|int|Sale - salenumber| x |
@@ -635,16 +641,16 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/project/projectEvent/isExternalEvent|bool|Sale - Project - Event: Is this an external event| x |
 |alternative/version/quote/sale/project/projectEvent/eventDate|date|Sale - Project - Event date: Event date| x |
 |alternative/version/quote/sale/project/projectEvent/hasSignOn|bool|Sale - Project - Sign On: Does this event have the Sign On function enabled| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/projectEvent/hasSignOff|bool|Sale - Project - Sign Off: Does this event have the Sign Off function enabled| x |
 |alternative/version/quote/sale/project/projectUrl/URLAddress|string|Sale - Project - URL| x |
 |alternative/version/quote/sale/project/projectUrl/URLDescription|string|Sale - Project - Description| x |
 |alternative/version/quote/sale/project/projectAssociate/firstName|string|Sale - Project - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/project/projectAssociate/lastName|string|Sale - Project - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/project/projectAssociate/middleName|string|Sale - Project - Middle Name: Displays the contact's middle name.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/projectAssociate/fullName|string|Sale - Project - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |alternative/version/quote/sale/project/projectAssociate/contactId|int|Sale - Project - Company ID: Database ID of the company the user belongs to|  |
 |alternative/version/quote/sale/project/projectAssociate/personId|int|Sale - Project - Contact ID: Database ID of the contact row|  |
@@ -673,6 +679,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/project/projectAssociate/userName|string|Sale - Project - User name: User name| x |
 |alternative/version/quote/sale/project/projectAssociate/personEmail|string|Sale - Project - E-mail| x |
 |alternative/version/quote/sale/project/projectAssociate/locationAddress|string|Sale - Project - Location: Location| x |
+|alternative/version/quote/sale/project/projectAssociate/isLocation|bool|Sale - Project - Is a location: Is a location| x |
 |alternative/version/quote/sale/project/projectUdef/SuperOffice:1|string|Sale - Project - projectshorttext| x |
 |alternative/version/quote/sale/project/projectUdef/SuperOffice:2|string|Sale - Project - projectlongtext| x |
 |alternative/version/quote/sale/project/projectUdef/SuperOffice:3|int|Sale - Project - projectnumber| x |
@@ -742,7 +749,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/version/extraField1,alternative/version/quote/sale/person/personUrl/URLDescription,alternative/version/quote/sale/contact/streetAddress/zip,alternative/version/quote/connection/erpConnection/connector/registeredDate
+GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/version/quote/sale/person/restrictionAddress/city,alternative/version/quote/sale/person/personExtra/x_person_float,alternative/version/quote/sale/person/personExtra/x_person_datetime,alternative/version/quote/sale/associate/isActive,alternative/version/quote/sale/project/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

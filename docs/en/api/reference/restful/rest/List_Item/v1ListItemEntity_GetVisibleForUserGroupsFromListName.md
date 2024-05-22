@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Kuvalis, Nicolas and Larkin",
-    "ToolTip": "Ut ipsum eligendi voluptas nulla consectetur.",
+    "Id": 977,
+    "Name": "Zulauf Inc and Sons",
+    "ToolTip": "Non voluptatem id.",
     "Deleted": false,
-    "Rank": 956,
-    "Type": "est",
-    "ColorBlock": 919,
-    "IconHint": "alias",
+    "Rank": 787,
+    "Type": "dolore",
+    "ColorBlock": 833,
+    "IconHint": "cupiditate",
     "Selected": false,
-    "LastChanged": "2004-03-24T11:16:14.465178+01:00",
+    "LastChanged": "2022-12-23T12:57:43.2927185+01:00",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Kautzer-Block",
-        "ToolTip": "Sapiente aperiam iure.",
+        "Id": 406,
+        "Name": "Mohr, Larkin and Thiel",
+        "ToolTip": "Voluptatem qui qui suscipit in doloremque ut.",
         "Deleted": false,
-        "Rank": 956,
-        "Type": "eos",
-        "ColorBlock": 874,
-        "IconHint": "consequuntur",
+        "Rank": 25,
+        "Type": "fugit",
+        "ColorBlock": 675,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2012-11-21T11:16:14.465178+01:00",
+        "LastChanged": "2009-07-19T12:57:43.2927185+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "quam",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Edwardo Roberts MD",
+        "FullName": "Dr. Macie Lemke II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldLength": 927
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "libero",
-    "Hidden": false,
-    "FullName": "Miss Caesar Dessie Welch DVM",
+    "ExtraInfo": "a",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Ken Keshawn Labadie DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   }

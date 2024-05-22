@@ -97,19 +97,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 30,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 349,
-  "Name": "Donnelly, Dooley and Lehner",
-  "Description": "Intuitive national service-desk",
-  "Currency": "tempora",
-  "CurrencyName": "Cummings Group",
-  "ValidFrom": "2024-03-07T11:16:14.6214085+01:00",
-  "ValidTo": "2005-09-19T11:16:14.6214085+02:00",
+  "PriceListId": 846,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 764,
+  "Name": "Nader Inc and Sons",
+  "Description": "Grass-roots system-worthy core",
+  "Currency": "esse",
+  "CurrencyName": "Hagenes-Altenwerth",
+  "ValidFrom": "2009-03-28T12:57:43.5582822+01:00",
+  "ValidTo": "1997-07-03T12:57:43.5582822+02:00",
   "IsActive": false
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 692,
-  "ERPPriceListKey": "ab",
-  "QuoteConnectionId": 294,
-  "Name": "Kris Group",
-  "Description": "Cross-group dedicated toolset",
-  "Currency": "in",
-  "CurrencyName": "Crist-Thiel",
-  "ValidFrom": "2005-09-15T11:16:14.6214085+02:00",
-  "ValidTo": "2017-04-06T11:16:14.6214085+02:00",
+  "PriceListId": 756,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 680,
+  "Name": "Schaefer-Kovacek",
+  "Description": "Multi-layered systemic standardization",
+  "Currency": "repellat",
+  "CurrencyName": "Toy-Hartmann",
+  "ValidFrom": "1998-04-19T12:57:43.5582822+02:00",
+  "ValidTo": "2001-07-19T12:57:43.5582822+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 765
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

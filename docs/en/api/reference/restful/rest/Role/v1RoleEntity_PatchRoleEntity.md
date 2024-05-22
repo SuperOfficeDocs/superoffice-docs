@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 704,
-  "Name": "Daniel-Mills",
-  "Tooltip": "officia",
+  "RoleId": 337,
+  "Name": "Gibson, Little and Ledner",
+  "Tooltip": "assumenda",
   "RoleType": "Anonymous",
-  "Deleted": 870,
-  "Rank": 773,
-  "Created": "2000-08-08T11:16:14.1363143+02:00",
-  "UseCategories": 663,
+  "Deleted": 208,
+  "Rank": 485,
+  "Created": "2024-04-02T12:57:42.6669559+02:00",
+  "UseCategories": 946,
   "CreatedBy": null,
-  "Updated": "1997-01-03T11:16:14.1363143+01:00",
+  "Updated": "1999-08-01T12:57:42.6669559+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 832
     }
   },
   "_Links": {

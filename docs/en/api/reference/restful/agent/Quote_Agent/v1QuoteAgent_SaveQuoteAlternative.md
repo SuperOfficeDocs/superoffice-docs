@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 294,
-  "ERPQuoteAlternativeKey": "eum",
-  "QuoteVersionId": 660,
-  "Name": "VonRueden Inc and Sons",
-  "Description": "Cross-group tertiary utilisation",
+  "QuoteAlternativeId": 964,
+  "ERPQuoteAlternativeKey": "voluptatibus",
+  "QuoteVersionId": 595,
+  "Name": "Flatley Inc and Sons",
+  "Description": "Automated 24 hour service-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 12946.554,
-  "ERPDiscountAmount": 6164.5779999999995,
-  "DiscountPercent": 25300.782,
-  "DiscountAmount": 4365.662,
+  "ERPDiscountPercent": 22918.942,
+  "ERPDiscountAmount": 2591.8179999999998,
+  "DiscountPercent": 11238.524,
+  "DiscountAmount": 18898.02,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "optio",
-  "VAT": 14673.387999999999,
-  "EarningPercent": 13943.166,
-  "EarningAmount": 8345.842,
-  "SubTotal": 28682.368,
-  "TotalPrice": 11301.204,
-  "ExtraField1": "nihil",
-  "ExtraField2": "similique",
-  "ExtraField3": "sit",
-  "ExtraField4": "cupiditate",
-  "ExtraField5": "facilis"
+  "VATInfo": "sed",
+  "VAT": 3745.1299999999997,
+  "EarningPercent": 3290.7,
+  "EarningAmount": 22878.2,
+  "SubTotal": 6399.628,
+  "TotalPrice": 6246.062,
+  "ExtraField1": "ipsa",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "iusto",
+  "ExtraField4": "sunt",
+  "ExtraField5": "inventore"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 648,
-  "ERPQuoteAlternativeKey": "perferendis",
-  "QuoteVersionId": 751,
-  "Name": "Blick Inc and Sons",
-  "Description": "Seamless homogeneous capability",
+  "QuoteAlternativeId": 551,
+  "ERPQuoteAlternativeKey": "atque",
+  "QuoteVersionId": 57,
+  "Name": "Sauer-Nader",
+  "Description": "Digitized encompassing artificial intelligence",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 15961.462,
-  "ERPDiscountAmount": 25582.842,
-  "DiscountPercent": 3936.304,
-  "DiscountAmount": 1469.846,
+  "ERPDiscountPercent": 7201.932,
+  "ERPDiscountAmount": 3196.68,
+  "DiscountPercent": 18553.28,
+  "DiscountAmount": 25419.874,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "eaque",
-  "VAT": 14877.098,
-  "EarningPercent": 19057.854,
-  "EarningAmount": 10633.662,
-  "SubTotal": 29421.992,
-  "TotalPrice": 23326.362,
-  "ExtraField1": "in",
-  "ExtraField2": "vero",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "temporibus",
-  "ExtraField5": "possimus",
+  "VATInfo": "aut",
+  "VAT": 27109.1,
+  "EarningPercent": 7189.396,
+  "EarningAmount": 19133.07,
+  "SubTotal": 13899.289999999999,
+  "TotalPrice": 17409.37,
+  "ExtraField1": "blanditiis",
+  "ExtraField2": "veniam",
+  "ExtraField3": "voluptates",
+  "ExtraField4": "sit",
+  "ExtraField5": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   }
 }

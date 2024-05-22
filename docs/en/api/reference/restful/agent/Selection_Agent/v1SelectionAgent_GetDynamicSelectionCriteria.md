@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 85
+  "SelectionId": 635
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hills Group",
-    "Operator": "incidunt",
+    "Name": "Dibbert-Windler",
+    "Operator": "dolorem",
     "Values": [
-      "nesciunt",
-      "consequuntur"
+      "est",
+      "quasi"
     ],
     "DisplayValues": [
-      "tenetur",
-      "rerum"
+      "explicabo",
+      "voluptatem"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Hane, Graham and Reichel",
-        "Operator": "explicabo",
+        "Name": "Mills, Smith and Daugherty",
+        "Operator": "dicta",
         "Values": [
-          "et",
-          "occaecati"
+          "saepe",
+          "dolore"
         ],
         "DisplayValues": [
-          "velit",
-          "quo"
+          "quia",
+          "aliquam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 934,
+        "InterParenthesis": 915,
         "InterOperator": "And",
-        "UniqueHash": 102
+        "UniqueHash": 895
       }
     ],
-    "InterParenthesis": 414,
+    "InterParenthesis": 63,
     "InterOperator": "And",
-    "UniqueHash": 84
+    "UniqueHash": 441
   }
 ]
 ```

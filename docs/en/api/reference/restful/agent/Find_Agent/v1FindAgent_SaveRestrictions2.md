@@ -71,10 +71,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "architecto",
-  "ProviderName": "Dibbert-Hessel",
-  "StorageKey": "ratione",
-  "Restrictions": "laboriosam"
+  "StorageType": "nesciunt",
+  "ProviderName": "Feeney-Balistreri",
+  "StorageKey": "harum",
+  "Restrictions": "quae"
 }
 ```
 

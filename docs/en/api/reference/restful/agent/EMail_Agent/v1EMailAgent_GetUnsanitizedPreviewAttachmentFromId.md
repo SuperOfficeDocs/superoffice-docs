@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 880,
-  "AttachmentId": "reiciendis",
-  "AttachmentType": "molestias",
-  "AttachmentFilename": "eos"
+  "MailItemId": 1001,
+  "AttachmentId": "similique",
+  "AttachmentType": "a",
+  "AttachmentFilename": "omnis"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone eco-centric workforce",
-  "Filename": "dolorum",
-  "Size": 66,
-  "Type": "voluptates",
-  "Encoding": "qui",
-  "Id": "doloremque",
-  "Disposition": "quasi",
-  "IsSafeFileExtension": true,
+  "Description": "Profit-focused value-added definition",
+  "Filename": "nobis",
+  "Size": 418,
+  "Type": "enim",
+  "Encoding": "earum",
+  "Id": "deleniti",
+  "Disposition": "magni",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 712
+      "FieldType": "System.Int32",
+      "FieldLength": 911
     }
   }
 }

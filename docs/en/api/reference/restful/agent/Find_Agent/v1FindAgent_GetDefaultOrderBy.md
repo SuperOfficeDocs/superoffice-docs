@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sunt",
-  "ProviderName": "Jacobson, Kerluke and Gislason",
-  "StorageKey": "id"
+  "StorageType": "et",
+  "ProviderName": "Ferry Inc and Sons",
+  "StorageKey": "sit"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Christiansen LLC",
+    "Name": "Kreiger Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Christiansen LLC",
+    "Name": "Kreiger Group",
     "Direction": "ASC"
   }
 ]

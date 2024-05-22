@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 193
+  "SelectionId": 860
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fadel-Altenwerth",
-    "Description": "Integrated national benchmark",
-    "Rank": 708,
+    "Name": "Bruen, Leffler and Doyle",
+    "Description": "Devolved background concept",
+    "Rank": 534,
     "Restrictions": [
       {
-        "Name": "Breitenberg Group",
-        "Operator": "vel",
+        "Name": "Dach-D'Amore",
+        "Operator": "quibusdam",
         "Values": [
-          "quis",
-          "aut"
+          "consectetur",
+          "eos"
         ],
         "DisplayValues": [
-          "id",
-          "veritatis"
+          "itaque",
+          "earum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 365,
+        "InterParenthesis": 147,
         "InterOperator": "And",
-        "UniqueHash": 286
+        "UniqueHash": 760
       }
     ]
   },
   {
-    "Name": "Fadel-Altenwerth",
-    "Description": "Integrated national benchmark",
-    "Rank": 708,
+    "Name": "Bruen, Leffler and Doyle",
+    "Description": "Devolved background concept",
+    "Rank": 534,
     "Restrictions": [
       {
-        "Name": "Breitenberg Group",
-        "Operator": "vel",
+        "Name": "Dach-D'Amore",
+        "Operator": "quibusdam",
         "Values": [
-          "quis",
-          "aut"
+          "consectetur",
+          "eos"
         ],
         "DisplayValues": [
-          "id",
-          "veritatis"
+          "itaque",
+          "earum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 365,
+        "InterParenthesis": 147,
         "InterOperator": "And",
-        "UniqueHash": 286
+        "UniqueHash": 760
       }
     ]
   }

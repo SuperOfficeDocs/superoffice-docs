@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 865,
+    "HierarchyId": 872,
     "Domain": "Dashboards",
-    "Name": "Kessler-Gleason",
-    "Fullname": "beatae",
-    "ParentId": 811,
+    "Name": "Windler Group",
+    "Fullname": "facere",
+    "ParentId": 792,
     "Children": [
       {
-        "HierarchyId": 54,
+        "HierarchyId": 891,
         "Domain": "Dashboards",
-        "Name": "Konopelski, Feeney and Upton",
-        "Fullname": "quo",
-        "ParentId": 494,
+        "Name": "Treutel, Stokes and Franecki",
+        "Fullname": "ut",
+        "ParentId": 247,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2004-04-09T11:16:13.93321+02:00",
-        "RegisteredAssociateId": 175,
-        "Updated": "1997-04-16T11:16:13.93321+02:00",
-        "UpdatedAssociateId": 814,
+        "Registered": "2009-05-17T12:57:42.4638774+02:00",
+        "RegisteredAssociateId": 84,
+        "Updated": "2023-03-29T12:57:42.4638774+02:00",
+        "UpdatedAssociateId": 940,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 379
+            "FieldType": "System.Int32",
+            "FieldLength": 404
           }
         }
       }
     ],
-    "Registered": "2000-12-05T11:16:13.93321+01:00",
-    "RegisteredAssociateId": 602,
-    "Updated": "2002-08-16T11:16:13.93321+02:00",
-    "UpdatedAssociateId": 222,
+    "Registered": "2014-01-01T12:57:42.4638774+01:00",
+    "RegisteredAssociateId": 794,
+    "Updated": "2003-01-01T12:57:42.4638774+01:00",
+    "UpdatedAssociateId": 849,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 745
       }
     }
   }

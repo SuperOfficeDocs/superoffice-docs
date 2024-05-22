@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laudantium",
-  "ProviderName": "Haag Inc and Sons",
-  "StorageKey": "facere",
-  "Restrictions": "voluptatem",
-  "StaticColumns": "necessitatibus"
+  "StorageType": "molestias",
+  "ProviderName": "Howe-Kassulke",
+  "StorageKey": "eaque",
+  "Restrictions": "nemo",
+  "StaticColumns": "deserunt"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Mueller Group",
-      "Operator": "deserunt",
+      "Name": "Conroy LLC",
+      "Operator": "inventore",
       "Values": [
-        "quisquam",
-        "laboriosam"
+        "et",
+        "aut"
       ],
       "DisplayValues": [
-        "itaque",
-        "corrupti"
+        "labore",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 372,
+      "InterParenthesis": 439,
       "InterOperator": "And",
-      "UniqueHash": 709
+      "UniqueHash": 882
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Cummerata-Wiegand",
-      "DisplayTooltip": "fugit",
-      "DisplayType": "libero",
+      "DisplayName": "Shanahan Inc and Sons",
+      "DisplayTooltip": "pariatur",
+      "DisplayType": "eligendi",
       "CanOrderBy": false,
-      "Name": "Crooks, Goyette and Corkery",
+      "Name": "Bechtelar, Hoeger and Anderson",
       "CanRestrictBy": false,
-      "RestrictionType": "sapiente",
-      "RestrictionListName": "Emard, Prohaska and Heathcote",
+      "RestrictionType": "voluptates",
+      "RestrictionListName": "Ferry-Barrows",
       "IsVisible": false,
-      "ExtraInfo": "quasi",
-      "Width": "corporis",
-      "IconHint": "beatae",
-      "HeadingIconHint": "rem"
+      "ExtraInfo": "cupiditate",
+      "Width": "consectetur",
+      "IconHint": "et",
+      "HeadingIconHint": "ipsa"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Maggio-Labadie",
-      "PrimaryKey": 151,
+      "EntityName": "Morar LLC",
+      "PrimaryKey": 463,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "ipsum",
-          "LinkHint": "omnis"
+          "DisplayValue": "ratione",
+          "TooltipHint": "maiores",
+          "LinkHint": "ipsam"
         }
       },
-      "LinkHint": "occaecati",
-      "StyleHint": "unde",
+      "LinkHint": "quibusdam",
+      "StyleHint": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldType": "System.String",
+          "FieldLength": 2
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Yost, Berge and Cremin",
-      "Description": "Reactive client-driven circuit",
-      "Rank": 465,
+      "Name": "Kunde, Hammes and Schuppe",
+      "Description": "Vision-oriented real-time orchestration",
+      "Rank": 262,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Yost, Berge and Cremin",
-      "Description": "Reactive client-driven circuit",
-      "Rank": 465,
+      "Name": "Kunde, Hammes and Schuppe",
+      "Description": "Vision-oriented real-time orchestration",
+      "Rank": 262,
       "Restrictions": [
         {},
         {}

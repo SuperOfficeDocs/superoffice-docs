@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 255,
-    "Name": "Bode, Collier and Breitenberg",
-    "OrgNr": "1562297",
+    "ContactId": 951,
+    "Name": "Kunze Group",
+    "OrgNr": "175500",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "aperiam",
-    "DirectPhone": "1-524-652-1818 x373",
-    "AssociateId": 54,
-    "CountryId": 695,
-    "EmailAddress": "theodore_willms@cummerata.co.uk",
-    "Kananame": "in",
-    "EmailAddressName": "keegan_wehner@hayes.biz",
+    "City": "qui",
+    "DirectPhone": "(227)863-1987",
+    "AssociateId": 39,
+    "CountryId": 957,
+    "EmailAddress": "jennings_zieme@pfannerstilllueilwitz.name",
+    "Kananame": "non",
+    "EmailAddressName": "elyssa_mayer@ernserberge.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Lyric Kiehn",
+    "AssociateFullName": "Jovany Parisian DVM",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "libero",
-    "FullName": "Ms. Elbert Reynold Doyle V",
+    "FormattedAddress": "quas",
+    "FullName": "Gloria Welch",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 730,
-    "Number1": "460145",
-    "Number2": "1115255",
+    "ActiveErpLinks": 65,
+    "Number1": "950505",
+    "Number2": "1639323",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 755,
-  "PlainMessage": "architecto",
-  "HtmlMessage": "quia",
-  "SmsMessage": "nemo",
-  "Description": "Operative eco-centric moratorium",
-  "Subject": "nisi",
-  "FolderId": 319,
-  "HeaderField": "error",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 234,
+  "PlainMessage": "laborum",
+  "HtmlMessage": "consequatur",
+  "SmsMessage": "optio",
+  "Description": "Digitized 6th generation hierarchy",
+  "Subject": "eum",
+  "FolderId": 668,
+  "HeaderField": "qui",
+  "Design": "ipsa",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Automated context-sensitive middleware",
-  "AccessKey": "ex",
-  "DocumentMessage": 274,
-  "Registered": "1998-02-17T11:16:14.2304645+01:00",
-  "RegisteredAssociateId": 867,
-  "Updated": "2023-01-05T11:16:14.2304645+01:00",
-  "UpdatedAssociateId": 41,
-  "UpdatedCount": 513
+  "InlineImages": true,
+  "LongDescription": "Persevering grid-enabled process improvement",
+  "AccessKey": "nihil",
+  "DocumentMessage": 554,
+  "Registered": "2010-01-28T12:57:42.8231706+01:00",
+  "RegisteredAssociateId": 196,
+  "Updated": "2020-05-17T12:57:42.8231706+02:00",
+  "UpdatedAssociateId": 944,
+  "UpdatedCount": 390
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 713,
-  "PlainMessage": "deserunt",
-  "HtmlMessage": "autem",
-  "SmsMessage": "eum",
-  "Description": "Grass-roots 5th generation definition",
-  "Subject": "libero",
-  "FolderId": 724,
-  "HeaderField": "ut",
-  "Design": "voluptatibus",
+  "ShipmentMessageId": 826,
+  "PlainMessage": "ipsum",
+  "HtmlMessage": "temporibus",
+  "SmsMessage": "quibusdam",
+  "Description": "Seamless high-level adapter",
+  "Subject": "ut",
+  "FolderId": 352,
+  "HeaderField": "aliquam",
+  "Design": "enim",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Multi-tiered solution-oriented conglomeration",
-  "AccessKey": "quia",
-  "DocumentMessage": 552,
-  "Registered": "2008-09-10T11:16:14.2304645+02:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2003-03-04T11:16:14.2304645+01:00",
-  "UpdatedAssociateId": 530,
-  "UpdatedCount": 446,
+  "InlineImages": true,
+  "LongDescription": "Assimilated fault-tolerant parallelism",
+  "AccessKey": "modi",
+  "DocumentMessage": 421,
+  "Registered": "2009-10-11T12:57:42.8231706+02:00",
+  "RegisteredAssociateId": 966,
+  "Updated": "1998-02-13T12:57:42.8231706+01:00",
+  "UpdatedAssociateId": 578,
+  "UpdatedCount": 679,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 455
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

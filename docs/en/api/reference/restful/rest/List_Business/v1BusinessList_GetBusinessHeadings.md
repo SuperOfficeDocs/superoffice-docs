@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Schuppe-Anderson",
-    "Tooltip": "repudiandae",
-    "Deleted": true,
-    "Rank": 110,
-    "UdListDefinitionId": 706,
+    "HeadingId": 750,
+    "Name": "Borer-Koelpin",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "Rank": 568,
+    "UdListDefinitionId": 400,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 185
       }
     }
   }

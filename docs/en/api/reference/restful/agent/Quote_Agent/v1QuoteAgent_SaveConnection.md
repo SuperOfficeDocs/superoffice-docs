@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 950,
-  "ERPName": "Bashirian-Kilback",
-  "DisplayName": "Adams, Goyette and Cormier",
-  "DisplayDescription": "Fundamental coherent flexibility",
-  "Rank": 842,
-  "ConnectorName": "Haley, Connelly and Brekke",
-  "ErpConnectionId": 419,
-  "ExtraData": "culpa",
-  "IsAvailable": false,
+  "QuoteConnectionId": 48,
+  "ERPName": "Bahringer-Glover",
+  "DisplayName": "Green-Yundt",
+  "DisplayDescription": "Programmable methodical policy",
+  "Rank": 43,
+  "ConnectorName": "Mraz-Fisher",
+  "ErpConnectionId": 302,
+  "ExtraData": "alias",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 600,
-      "ERPPriceListKey": "ut",
-      "QuoteConnectionId": 648,
-      "Name": "Waters LLC",
-      "Description": "Visionary local open system",
-      "Currency": "in",
-      "CurrencyName": "Hamill Group",
-      "ValidFrom": "2005-02-25T11:16:09.6005114+01:00",
-      "ValidTo": "2018-06-16T11:16:09.6005114+02:00",
+      "PriceListId": 702,
+      "ERPPriceListKey": "aut",
+      "QuoteConnectionId": 622,
+      "Name": "Bogan, Rodriguez and Reynolds",
+      "Description": "Profound intermediate monitoring",
+      "Currency": "dicta",
+      "CurrencyName": "Lemke-Lowe",
+      "ValidFrom": "2009-04-03T12:57:34.7428121+02:00",
+      "ValidTo": "2016-07-19T12:57:34.7428121+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 955
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    177,
-    188
+    158,
+    116
   ],
   "AssociateAccessIds": [
-    118,
-    539
+    129,
+    604
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=sapiente
+GET /api/v1/List/ProductType/MDOItems?query=reprehenderit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Wintheiser Inc and Sons",
-    "ToolTip": "Sint est omnis repudiandae voluptatum ipsam consequatur.",
+    "Id": 497,
+    "Name": "Welch Group",
+    "ToolTip": "Quae alias voluptate.",
     "Deleted": true,
-    "Rank": 251,
-    "Type": "minima",
+    "Rank": 518,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Russel Group",
-        "ToolTip": "Voluptatibus porro quam.",
-        "Deleted": false,
-        "Rank": 813,
-        "Type": "nihil",
+        "Id": 893,
+        "Name": "Thiel-Jewess",
+        "ToolTip": "Doloribus vel.",
+        "Deleted": true,
+        "Rank": 966,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 804,
-        "ExtraInfo": "earum",
-        "StyleHint": "consequatur",
-        "FullName": "Manley Velva West MD",
+        "IconHint": "aliquid",
+        "ColorBlock": 452,
+        "ExtraInfo": "laborum",
+        "StyleHint": "nemo",
+        "FullName": "Gaston Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 438
           }
         }
       }
     ],
-    "IconHint": "quos",
-    "ColorBlock": 114,
-    "ExtraInfo": "eius",
-    "StyleHint": "officiis",
-    "FullName": "Orval Josie O'Hara Jr.",
+    "IconHint": "reiciendis",
+    "ColorBlock": 557,
+    "ExtraInfo": "officia",
+    "StyleHint": "accusamus",
+    "FullName": "Prof. Gunner Wintheiser V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 970
       }
     }
   }

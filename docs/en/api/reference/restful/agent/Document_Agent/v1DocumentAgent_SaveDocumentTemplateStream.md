@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 450,
+  "DocumentTemplateId": 362,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "est",
-  "PluginId": 724
+  "LanguageCode": "neque",
+  "PluginId": 289
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reinger-Dicki",
-  "Description": "Programmable non-volatile data-warehouse",
-  "ExternalReference": "provident",
-  "MimeType": "nam",
-  "PluginId": 951
+  "Name": "Reinger, Upton and Powlowski",
+  "Description": "Front-line 4th generation service-desk",
+  "ExternalReference": "tempora",
+  "MimeType": "libero",
+  "PluginId": 740
 }
 ```

@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=181
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=207
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 531,
-  "Name": "Farrell Inc and Sons",
-  "Description": "Customizable client-driven standardization",
+  "ReportLabelLayoutId": 443,
+  "Name": "Olson-Gerhold",
+  "Description": "Operative regional forecast",
   "Orientation": "Landscape",
-  "PaperWidth": 74,
-  "PaperHeight": 660,
-  "LeftMargin": 769,
-  "RightMargin": 136,
-  "TopMargin": 684,
-  "BottomMargin": 708,
-  "CountColumns": 71,
-  "CountRows": 423,
+  "PaperWidth": 617,
+  "PaperHeight": 357,
+  "LeftMargin": 554,
+  "RightMargin": 263,
+  "TopMargin": 930,
+  "BottomMargin": 392,
+  "CountColumns": 230,
+  "CountRows": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

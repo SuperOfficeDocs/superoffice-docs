@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Weimann Group",
-  "Tooltip": "sit",
+  "Id": 462,
+  "Name": "Cummerata, Breitenberg and Towne",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 338,
+  "Rank": 186,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Hintz-Donnelly",
-  "Tooltip": "error",
-  "Deleted": false,
-  "Rank": 122,
-  "IsCustomList": true,
+  "Id": 568,
+  "Name": "Stoltenberg LLC",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 171,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldLength": 624
     }
   }
 }

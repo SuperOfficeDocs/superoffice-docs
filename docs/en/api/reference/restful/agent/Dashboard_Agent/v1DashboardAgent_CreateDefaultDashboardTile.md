@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 564,
-  "Caption": "laborum",
-  "Description": "Multi-tiered solution-oriented open system",
-  "ChartName": "Jaskolski, Ullrich and Schiller",
-  "ChartId": "nisi",
-  "IsDefault": true,
-  "AssociateId": 850,
-  "GroupId": 376,
-  "SelectionId": 983,
-  "Config": "id",
+  "DashboardTileId": 172,
+  "Caption": "consequatur",
+  "Description": "Reduced dynamic migration",
+  "ChartName": "Kovacek-Rath",
+  "ChartId": "accusantium",
+  "IsDefault": false,
+  "AssociateId": 39,
+  "GroupId": 428,
+  "SelectionId": 403,
+  "Config": "quia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Runte Inc and Sons",
-      "Description": "Monitored dedicated interface",
+      "Name": "Purdy-Bogisich",
+      "Description": "Proactive bottom-line groupware",
       "Type": "Boolean",
-      "ListName": "Kovacek-Schultz",
+      "ListName": "Bergstrom, Nienow and Kovacek",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "fugiat",
+      "Value": "ipsum",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 912
+          "FieldType": "System.Int32",
+          "FieldLength": 953
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 673,
+      "VisibleId": 896,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldType": "System.String",
+          "FieldLength": 247
         }
       }
     },
     {
-      "VisibleId": 673,
+      "VisibleId": 896,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldType": "System.String",
+          "FieldLength": 247
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldType": "System.String",
+      "FieldLength": 948
     }
   }
 }

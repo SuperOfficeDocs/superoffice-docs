@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "culpa",
-  "PrefKey": "quo",
+  "PrefSection": "suscipit",
+  "PrefKey": "omnis",
   "PrefLevel": "Database",
-  "OwnerId": 712
+  "OwnerId": 754
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nostrum",
+  "RawValue": "ipsum",
   "Specification": null,
-  "DisplayValue": "voluptates",
-  "DisplayTooltip": "eligendi",
+  "DisplayValue": "praesentium",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 180,
-  "PrefDescId": 863,
-  "TableName": "Schoen, Konopelski and Dicki",
-  "UserPreferenceId": 252,
+  "TargetId": 598,
+  "PrefDescId": 289,
+  "TableName": "Barton, Spinka and Feest",
+  "UserPreferenceId": 710,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 193
     }
   }
 }

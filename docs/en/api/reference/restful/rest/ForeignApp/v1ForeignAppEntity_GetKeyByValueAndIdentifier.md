@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=facere
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=consectetur
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 06 May 2001 11:16:13 G5T
+Last-Modified: Sun, 28 Feb 2021 12:57:42 G2T
 
 {
-  "Key": "voluptas",
-  "Value": "qui",
-  "RecordId": 333,
-  "CreatedDate": "2017-12-09T11:16:13.93321+01:00",
-  "UpdatedDate": "2001-05-06T11:16:13.93321+02:00",
-  "UpdatedBy": "molestias",
-  "CreatedBy": "voluptas",
-  "TableName": "Aufderhar LLC",
+  "Key": "voluptates",
+  "Value": "id",
+  "RecordId": 51,
+  "CreatedDate": "1999-11-10T12:57:42.4638774+01:00",
+  "UpdatedDate": "2021-02-28T12:57:42.4638774+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "laboriosam",
+  "TableName": "Bednar-Macejkovic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   }
 }

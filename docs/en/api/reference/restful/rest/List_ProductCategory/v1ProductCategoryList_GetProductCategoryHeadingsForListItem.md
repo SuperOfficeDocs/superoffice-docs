@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Upton, Kuphal and Wiza",
-    "ToolTip": "Cupiditate optio tenetur ullam et ipsum velit delectus.",
+    "Id": 308,
+    "Name": "Bruen LLC",
+    "ToolTip": "Possimus neque voluptatem qui cupiditate ut corrupti vero.",
     "Deleted": false,
-    "Rank": 557,
-    "Type": "rem",
-    "ColorBlock": 989,
-    "IconHint": "eum",
+    "Rank": 804,
+    "Type": "et",
+    "ColorBlock": 257,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2002-07-10T11:16:14.6370359+02:00",
+    "LastChanged": "2003-04-14T12:57:43.5895249+02:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Christiansen-Kling",
-        "ToolTip": "Corporis ut cum repellat facilis quibusdam quasi velit.",
-        "Deleted": false,
-        "Rank": 974,
-        "Type": "sed",
-        "ColorBlock": 124,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2012-12-13T11:16:14.6370359+01:00",
+        "Id": 227,
+        "Name": "Heathcote-Hayes",
+        "ToolTip": "Praesentium corporis dolor incidunt excepturi esse maxime.",
+        "Deleted": true,
+        "Rank": 650,
+        "Type": "sint",
+        "ColorBlock": 376,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2004-11-12T12:57:43.5895249+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Mrs. Juliana Jordi Sipes Sr.",
+        "ExtraInfo": "sint",
+        "StyleHint": "rem",
+        "Hidden": true,
+        "FullName": "Jay Kris IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 833
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "eius",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Ms. Kaden Johnson",
+    "FullName": "Ansel Schulist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 1001
       }
     }
   }

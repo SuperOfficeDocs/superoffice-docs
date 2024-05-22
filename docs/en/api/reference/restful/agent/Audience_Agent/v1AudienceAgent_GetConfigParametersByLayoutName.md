@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Legros-Nitzsche"
+  "LayoutName": "Marks-Hettinger"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 169,
-    "Name": "Kautzer Inc and Sons",
-    "Value": "cumque",
-    "CreatedDate": "2018-05-18T11:16:08.7410229+02:00",
-    "UpdatedDate": "2020-12-01T11:16:08.7410229+01:00",
-    "CreatedBy": "inventore",
-    "UpdatedBy": "odit",
+    "AudienceLayoutId": 422,
+    "Name": "Kuphal, McLaughlin and Kassulke",
+    "Value": "sunt",
+    "CreatedDate": "2011-06-12T12:57:33.2428569+02:00",
+    "UpdatedDate": "2013-03-29T12:57:33.2428569+01:00",
+    "CreatedBy": "facere",
+    "UpdatedBy": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldType": "System.Int32",
+        "FieldLength": 147
       }
     }
   }

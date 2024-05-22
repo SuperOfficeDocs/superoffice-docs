@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 638,
-    "Name": "Yundt, Mann and O'Kon",
-    "CurrencyId": 59,
-    "EnglishName": "Parisian, Crooks and Bernhard",
+    "CountryId": 369,
+    "Name": "Baumbach LLC",
+    "CurrencyId": 473,
+    "EnglishName": "Renner, Reichert and Leannon",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Ameliorated dedicated analyzer",
-    "OrgNrText": "1206997",
-    "InterAreaPrefix": "repellendus",
-    "DialInPrefix": "repudiandae",
-    "ZipPrefix": "ut",
-    "DomainName": "Weber, Grady and Fadel",
-    "AddressLayoutId": 278,
-    "DomesticAddressLayoutId": 644,
-    "ForeignAddressLayoutId": 349,
-    "Rank": 945,
-    "Tooltip": "et",
-    "Deleted": true,
+    "ImageDescription": "Multi-lateral logistical circuit",
+    "OrgNrText": "126872",
+    "InterAreaPrefix": "perspiciatis",
+    "DialInPrefix": "repellat",
+    "ZipPrefix": "nostrum",
+    "DomainName": "Rosenbaum, Cummings and Klocko",
+    "AddressLayoutId": 740,
+    "DomesticAddressLayoutId": 958,
+    "ForeignAddressLayoutId": 235,
+    "Rank": 560,
+    "Tooltip": "rerum",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 162
       }
     }
   }

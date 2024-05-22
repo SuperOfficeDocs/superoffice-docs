@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 441,
-  "PlainMessage": "aliquam",
-  "HtmlMessage": "ipsam",
-  "SmsMessage": "delectus",
-  "Description": "Universal bi-directional capacity",
-  "Subject": "porro",
-  "FolderId": 369,
-  "HeaderField": "magnam",
-  "Design": "fuga",
+  "ShipmentMessageId": 954,
+  "PlainMessage": "repudiandae",
+  "HtmlMessage": "hic",
+  "SmsMessage": "nostrum",
+  "Description": "Stand-alone tangible benchmark",
+  "Subject": "molestiae",
+  "FolderId": 416,
+  "HeaderField": "quidem",
+  "Design": "veniam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "User-centric global algorithm",
-  "AccessKey": "nihil",
-  "DocumentMessage": 645,
-  "Registered": "2004-05-29T11:16:14.2304645+02:00",
-  "RegisteredAssociateId": 908,
-  "Updated": "2007-07-28T11:16:14.2304645+02:00",
-  "UpdatedAssociateId": 98,
-  "UpdatedCount": 27,
+  "LongDescription": "Compatible system-worthy workforce",
+  "AccessKey": "perspiciatis",
+  "DocumentMessage": 349,
+  "Registered": "2004-12-19T12:57:42.8231706+01:00",
+  "RegisteredAssociateId": 759,
+  "Updated": "2017-04-23T12:57:42.8231706+02:00",
+  "UpdatedAssociateId": 430,
+  "UpdatedCount": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   },
   "_Links": {

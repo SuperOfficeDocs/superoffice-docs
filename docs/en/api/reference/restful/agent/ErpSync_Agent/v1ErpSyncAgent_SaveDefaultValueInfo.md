@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 429,
-  "DefaultValue": "omnis",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "corporis",
-  "PromptUser": false,
-  "Mandatory": true,
-  "ErpFieldKey": "in",
+  "ErpFieldId": 105,
+  "DefaultValue": "molestias",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "quas",
+  "PromptUser": true,
+  "Mandatory": false,
+  "ErpFieldKey": "omnis",
   "FieldType": "Checkbox",
-  "ListName": "Hoeger-McDermott",
+  "ListName": "Botsford, Waelchi and Dickens",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 895
     }
   }
 }

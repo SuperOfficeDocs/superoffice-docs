@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 180,
-    "Tooltip": "quia",
-    "CanAssign": true,
-    "Free": 784,
-    "InUse": 138,
+    "Total": 142,
+    "Tooltip": "qui",
+    "CanAssign": false,
+    "Free": 180,
+    "InUse": 372,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 260,
-    "Name": "Corwin, Halvorson and Corwin",
-    "Description": "Versatile intangible array",
-    "PrerequisiteModuleName": "Oberbrunner, Effertz and Beier",
-    "SortOrder": 897,
-    "ExtraFlags": 807,
+    "Assigned": false,
+    "ModuleLicenseId": 78,
+    "Name": "Metz, Haag and Renner",
+    "Description": "Synergistic stable orchestration",
+    "PrerequisiteModuleName": "Kuhic, Corwin and Aufderhar",
+    "SortOrder": 986,
+    "ExtraFlags": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 67
       }
     }
   }

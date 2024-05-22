@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 359
+  "DepartmentId": 593
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "312-327-3973 x793",
-    "PersonCellPhone": "894.407.4571",
-    "PersonPrivatePhone": "201.431.5738",
-    "PersonFaxNumber": "1027913",
-    "PersonPagerNumber": "950441",
-    "PersonEmail": "giovanny@johnstonstroman.ca",
-    "Id": 313,
-    "Name": "O'Hara LLC",
-    "Tooltip": "qui",
-    "UniqueId": "tenetur",
+    "PersonDirectPhone": "106.029.7160 x02796",
+    "PersonCellPhone": "(847)444-6741",
+    "PersonPrivatePhone": "354.094.9181 x92591",
+    "PersonFaxNumber": "1209617",
+    "PersonPagerNumber": "626094",
+    "PersonEmail": "serenity.fay@prohaska.ca",
+    "Id": 514,
+    "Name": "Bogisich Group",
+    "Tooltip": "sed",
+    "UniqueId": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

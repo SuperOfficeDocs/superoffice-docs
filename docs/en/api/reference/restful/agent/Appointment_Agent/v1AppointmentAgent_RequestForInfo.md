@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 386,
-  "Channel": "autem",
-  "Regarding": "itaque",
-  "ContactName": "Price Inc and Sons",
-  "PersonFirstname": "Shanna",
-  "PersonLastname": "Walker",
-  "EmailAddress": "jonas.schuster@kutch.uk",
-  "PhoneNumber": "1142274"
+  "AssociateIdForNewContact": 558,
+  "Channel": "aut",
+  "Regarding": "labore",
+  "ContactName": "Senger, Marks and Thiel",
+  "PersonFirstname": "Octavia",
+  "PersonLastname": "Beatty",
+  "EmailAddress": "jaleel.pagac@leannon.name",
+  "PhoneNumber": "1123967"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 270,
-      "Name": "Berge, Bosco and Reichel",
-      "OrgNr": "483356",
-      "Department": "utilize world-class e-business",
+      "ContactId": 448,
+      "Name": "Lynch-Veum",
+      "OrgNr": "938864",
+      "Department": "",
       "URL": "http://www.example.com/",
-      "City": "aut",
-      "DirectPhone": "895.496.0340 x517",
-      "AssociateId": 782,
-      "CountryId": 633,
-      "EmailAddress": "marisol@lubowitzprice.biz",
-      "Kananame": "dolorem",
-      "EmailAddressName": "myron@funk.ca",
+      "City": "necessitatibus",
+      "DirectPhone": "(852)428-8598 x050",
+      "AssociateId": 573,
+      "CountryId": 483,
+      "EmailAddress": "tressie.emmerich@schaden.co.uk",
+      "Kananame": "similique",
+      "EmailAddressName": "matteo@koelpin.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "May Breitenberg",
+      "AssociateFullName": "Jacky Hermiston DDS",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "vero",
-      "FullName": "Willy Kris",
+      "FormattedAddress": "non",
+      "FullName": "Elian Lind",
       "IsOwnerContact": true,
-      "ActiveErpLinks": 754,
-      "Number1": "991855",
-      "Number2": "1326173",
+      "ActiveErpLinks": 179,
+      "Number1": "890958",
+      "Number2": "1038622",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldLength": 974
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 204
     }
   }
 }

@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 106,
-  "Type": "sequi"
+  "AssociateId": 202,
+  "Type": "autem"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1997-12-27T11:16:10.0390983+01:00",
-    "ValidTo": "1998-12-06T11:16:10.0390983+01:00",
-    "Comment": "deleniti",
-    "SecretValue": "debitis",
-    "PublicValue": "nulla",
-    "IsActive": true,
+    "ValidFrom": "2008-03-15T12:57:35.4930502+01:00",
+    "ValidTo": "2019-08-05T12:57:35.4930502+02:00",
+    "Comment": "est",
+    "SecretValue": "itaque",
+    "PublicValue": "recusandae",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 876
       }
     }
   }

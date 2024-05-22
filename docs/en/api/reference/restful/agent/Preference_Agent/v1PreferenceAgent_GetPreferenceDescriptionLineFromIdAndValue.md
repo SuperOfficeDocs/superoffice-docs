@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 654,
-  "PrefValue": "voluptatem"
+  "PrefDescId": 768,
+  "PrefValue": "est"
 }
 ```
 
@@ -95,12 +95,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 764,
-  "PrefDescId": 671,
-  "PrefValue": "qui",
-  "PrefShowValue": "tempora",
-  "Description": "Progressive systematic data-warehouse",
-  "IsBuiltin": true,
+  "PrefDescLineId": 103,
+  "PrefDescId": 386,
+  "PrefValue": "quia",
+  "PrefShowValue": "et",
+  "Description": "Ergonomic leading edge neural-net",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

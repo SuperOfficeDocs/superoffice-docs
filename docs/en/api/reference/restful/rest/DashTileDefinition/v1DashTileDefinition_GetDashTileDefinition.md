@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 193,
-  "Name": "Stanton Group",
-  "Description": "Intuitive regional Graphic Interface",
-  "DefaultHeight": 499,
-  "DefaultWidth": 943,
+  "DashboardTileDefinitionId": 36,
+  "Name": "Kohler, Legros and Swaniawski",
+  "Description": "Open-source high-level groupware",
+  "DefaultHeight": 655,
+  "DefaultWidth": 819,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Douglas-Lakin",
-  "SelectionId": 708,
+  "EntityName": "Friesen, Runte and Parker",
+  "SelectionId": 789,
   "CurrencyMode": "Base",
-  "CurrencyCode": "alias",
+  "CurrencyCode": "iusto",
   "Measure": "Average",
-  "MeasureField": "quam",
-  "SortBy": "eveniet",
-  "LayoutConfig": "deleniti",
-  "SecondarySelectionId": 204,
-  "MeasureByField": "laudantium",
+  "MeasureField": "veniam",
+  "SortBy": "autem",
+  "LayoutConfig": "nostrum",
+  "SecondarySelectionId": 965,
+  "MeasureByField": "nihil",
   "Usage": "Dashboard",
-  "ProviderName": "Heidenreich-Purdy",
+  "ProviderName": "Witting-Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

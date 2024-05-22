@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 604,
-  "Currency": "ad"
+  "QuoteConnectionId": 307,
+  "Currency": "at"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 167,
-    "ERPPriceListKey": "accusamus",
-    "QuoteConnectionId": 264,
-    "Name": "Vandervort-Kovacek",
-    "Description": "Multi-tiered disintermediate artificial intelligence",
-    "Currency": "saepe",
-    "CurrencyName": "Parker-Hirthe",
-    "ValidFrom": "2021-05-10T11:16:09.6161411+02:00",
-    "ValidTo": "2001-07-30T11:16:09.6161411+02:00",
-    "IsActive": true,
+    "PriceListId": 335,
+    "ERPPriceListKey": "accusantium",
+    "QuoteConnectionId": 618,
+    "Name": "Bergnaum Group",
+    "Description": "Synergized clear-thinking emulation",
+    "Currency": "facere",
+    "CurrencyName": "Berge LLC",
+    "ValidFrom": "2015-01-03T12:57:34.7428121+01:00",
+    "ValidTo": "2010-11-09T12:57:34.7428121+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

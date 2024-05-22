@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reichel-Bruen",
-  "DeviceName": "Lesch-Ratke",
-  "KeyName": "Schoen, Upton and Schumm",
-  "KeyValue": "quo",
-  "TableName": "Ondricka Group"
+  "ApplicationName": "Bartell, Bauch and Muller",
+  "DeviceName": "Hodkiewicz, Kozey and Quigley",
+  "KeyName": "Lockman-Emard",
+  "KeyValue": "in",
+  "TableName": "Deckow, Stroman and Terry"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "illum",
-  "Value": "veniam",
-  "RecordId": 659,
-  "CreatedDate": "2009-12-20T11:16:09.2878404+01:00",
-  "UpdatedDate": "2013-06-30T11:16:09.2878404+02:00",
-  "UpdatedBy": "a",
-  "CreatedBy": "laudantium",
-  "TableName": "Lakin-Hettinger",
+  "Key": "vel",
+  "Value": "non",
+  "RecordId": 729,
+  "CreatedDate": "2021-02-02T12:57:34.0711192+01:00",
+  "UpdatedDate": "2023-02-07T12:57:34.0711192+01:00",
+  "UpdatedBy": "in",
+  "CreatedBy": "tempora",
+  "TableName": "Kassulke-Cole",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

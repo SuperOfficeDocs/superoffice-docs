@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Lynch Group",
+  "TaskName": "Frami-Deckow",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Blanda LLC",
-    "AssociateId": 704,
-    "DetailsTable": 785,
-    "DetailsRecord": 236,
+    "Id": 345,
+    "Name": "Treutel LLC",
+    "AssociateId": 458,
+    "DetailsTable": 729,
+    "DetailsRecord": 65,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "placeat",
-      "ParameterObject2": "porro"
+      "ParameterObject1": "deleniti",
+      "ParameterObject2": "id"
     },
-    "LastStarted": "2016-01-24T11:16:08.7410229+01:00",
-    "Created": "2015-12-28T11:16:08.7410229+01:00",
-    "StartCount": 857,
-    "DatabaseSerialNumber": "1416072",
-    "Context": "et",
-    "Result": "distinctio",
+    "LastStarted": "2004-03-18T12:57:33.2743944+01:00",
+    "Created": "2010-11-20T12:57:33.2743944+01:00",
+    "StartCount": 580,
+    "DatabaseSerialNumber": "1600547",
+    "Context": "architecto",
+    "Result": "et",
     "State": "All",
-    "Description": "Operative scalable service-desk",
-    "Response": "qui",
-    "Request": "vel",
-    "ProgressDescription": "Upgradable static throughput",
-    "ProgressPercent": 470,
-    "FileName": "Cummings Group",
+    "Description": "Exclusive impactful framework",
+    "Response": "occaecati",
+    "Request": "soluta",
+    "ProgressDescription": "Grass-roots mission-critical superstructure",
+    "ProgressPercent": 688,
+    "FileName": "Strosin-Gaylord",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

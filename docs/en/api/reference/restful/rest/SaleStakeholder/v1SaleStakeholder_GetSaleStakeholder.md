@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Mayer Inc and Sons",
-  "Comment": "amet",
-  "StakeholderRoleId": 486,
-  "CountryId": 674,
-  "PersonId": 704,
-  "EmailDescription": "aniyah.west@wintheiser.info",
-  "EmailId": 857,
-  "EmailAddress": "addie.brakus@rolfson.biz",
-  "PhoneId": 847,
-  "ContactName": "Leannon, Towne and Gibson",
-  "ContactId": 133,
-  "SaleId": 238,
-  "Mrmrs": "nulla",
-  "Firstname": "Tavares",
-  "MiddleName": "Willms LLC",
-  "Lastname": "Tillman",
-  "SaleStakeholderId": 128,
-  "Rank": 162,
-  "Phone": "(796)385-9961",
+  "StakeholderRoleName": "Tromp-Auer",
+  "Comment": "optio",
+  "StakeholderRoleId": 410,
+  "CountryId": 951,
+  "PersonId": 892,
+  "EmailDescription": "skyla.crist@green.biz",
+  "EmailId": 476,
+  "EmailAddress": "bianka@gorczany.com",
+  "PhoneId": 886,
+  "ContactName": "Buckridge-Macejkovic",
+  "ContactId": 408,
+  "SaleId": 232,
+  "Mrmrs": "blanditiis",
+  "Firstname": "Deborah",
+  "MiddleName": "Veum-Feest",
+  "Lastname": "Bayer",
+  "SaleStakeholderId": 350,
+  "Rank": 209,
+  "Phone": "436-092-8113 x1751",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 625
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

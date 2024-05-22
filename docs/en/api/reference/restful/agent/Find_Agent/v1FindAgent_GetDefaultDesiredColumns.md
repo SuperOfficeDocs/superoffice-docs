@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aperiam",
-  "ProviderName": "Corwin, Price and Braun",
-  "StorageKey": "id"
+  "StorageType": "ut",
+  "ProviderName": "Koelpin Group",
+  "StorageKey": "temporibus"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Jast, Zulauf and Halvorson",
-    "DisplayTooltip": "est",
-    "DisplayType": "ab",
+    "DisplayName": "Emmerich Inc and Sons",
+    "DisplayTooltip": "nesciunt",
+    "DisplayType": "tempore",
     "CanOrderBy": false,
-    "Name": "Donnelly Inc and Sons",
-    "CanRestrictBy": true,
-    "RestrictionType": "beatae",
-    "RestrictionListName": "Streich, Stehr and Halvorson",
-    "IsVisible": false,
-    "ExtraInfo": "consequatur",
-    "Width": "repudiandae",
-    "IconHint": "iste",
-    "HeadingIconHint": "non"
+    "Name": "Luettgen-Gleason",
+    "CanRestrictBy": false,
+    "RestrictionType": "reprehenderit",
+    "RestrictionListName": "Gorczany, Thompson and Schneider",
+    "IsVisible": true,
+    "ExtraInfo": "sapiente",
+    "Width": "et",
+    "IconHint": "similique",
+    "HeadingIconHint": "omnis"
   }
 ]
 ```

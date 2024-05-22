@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 961,
-  "AssociateId": 642,
-  "Caption": "atque",
+  "DashboardId": 579,
+  "AssociateId": 287,
+  "Caption": "autem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 713,
-      "Caption": "cum",
-      "Description": "Enterprise-wide content-based internet solution",
-      "ChartName": "Marquardt LLC",
-      "ChartId": "quaerat",
+      "DashboardTileId": 629,
+      "Caption": "provident",
+      "Description": "Networked scalable monitoring",
+      "ChartName": "Roberts, Lang and Dickinson",
+      "ChartId": "tenetur",
       "IsDefault": false,
-      "AssociateId": 458,
-      "GroupId": 768,
-      "SelectionId": 26,
-      "Config": "praesentium",
+      "AssociateId": 641,
+      "GroupId": 736,
+      "SelectionId": 736,
+      "Config": "accusantium",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 571,
-  "AssociateId": 789,
-  "Caption": "rerum",
+  "DashboardId": 984,
+  "AssociateId": 918,
+  "Caption": "optio",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 271,
-      "Caption": "similique",
-      "Description": "Devolved content-based collaboration",
-      "ChartName": "Ernser Inc and Sons",
-      "ChartId": "vel",
+      "DashboardTileId": 540,
+      "Caption": "maxime",
+      "Description": "Visionary 5th generation analyzer",
+      "ChartName": "Terry Group",
+      "ChartId": "perspiciatis",
       "IsDefault": true,
-      "AssociateId": 129,
-      "GroupId": 80,
-      "SelectionId": 904,
-      "Config": "nam",
+      "AssociateId": 170,
+      "GroupId": 9,
+      "SelectionId": 499,
+      "Config": "ea",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 442
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     }
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldType": "System.String",
+      "FieldLength": 150
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

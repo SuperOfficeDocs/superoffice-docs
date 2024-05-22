@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=638
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=866
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 330,
-  "BlobSize": 902,
-  "Description": "Exclusive secondary analyzer",
-  "ExtraInfo": "possimus",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "mollitia",
-  "OriginalSize": 912,
-  "CreatedDate": "2006-01-01T11:16:08.7410229+01:00",
-  "UpdatedDate": "2009-07-21T11:16:08.7410229+02:00",
+  "BlobId": 272,
+  "BlobSize": 966,
+  "Description": "User-friendly dedicated circuit",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "deserunt",
+  "OriginalSize": 699,
+  "CreatedDate": "2013-07-22T12:57:33.2743944+02:00",
+  "UpdatedDate": "2013-03-31T12:57:33.2743944+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cupiditate",
+  "ConceptualType": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 2
     }
   }
 }

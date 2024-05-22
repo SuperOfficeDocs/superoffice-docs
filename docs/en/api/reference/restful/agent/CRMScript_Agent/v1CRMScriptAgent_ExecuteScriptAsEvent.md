@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 343,
+  "CRMScriptId": 877,
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quia",
-    "InputValues2": "sunt"
+    "InputValues1": "quod",
+    "InputValues2": "laborum"
   },
   "BlockExecution": false,
-  "NavigateTo": "repellat",
-  "Message": "molestiae",
-  "ShowDialog": "similique",
+  "NavigateTo": "qui",
+  "Message": "cumque",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "odio",
-    "OutputValues2": "voluptatibus"
+    "OutputValues1": "quas",
+    "OutputValues2": "maiores"
   },
   "StateValues": {
-    "StateValues1": "dolor",
-    "StateValues2": "pariatur"
+    "StateValues1": "et",
+    "StateValues2": "velit"
   },
-  "Exception": "non",
+  "Exception": "voluptate",
   "ParserValues": {
-    "ParserValues1": "incidunt",
-    "ParserValues2": "aut"
+    "ParserValues1": "neque",
+    "ParserValues2": "quisquam"
   },
   "CgiVariables": {
-    "CgiVariables1": "dignissimos",
-    "CgiVariables2": "occaecati"
+    "CgiVariables1": "enim",
+    "CgiVariables2": "ullam"
   },
-  "CgiContent": "doloribus",
+  "CgiContent": "consequatur",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "perspiciatis"
+    "Headers1": "nemo",
+    "Headers2": "perferendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 677
     }
   }
 }

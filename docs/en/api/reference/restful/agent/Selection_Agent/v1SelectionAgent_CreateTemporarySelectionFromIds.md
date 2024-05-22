@@ -72,7 +72,7 @@ OK
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    811,
-    573
+    384,
+    263
   ],
-  "TargetTableNumber": 640
+  "TargetTableNumber": 526
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group leading edge standardization",
-  "Postit": "consequatur",
+  "Description": "Optimized non-volatile capacity",
+  "Postit": "placeat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 640,
-  "IncludePerson": 407,
-  "MemberCount": 87,
-  "Name": "Cummerata, Wiza and Kuphal",
-  "PostitTextId": 33,
-  "CreatedDate": "2004-01-19T11:16:09.7259925+01:00",
-  "SelectionId": 949,
-  "SoundEx": "est",
-  "Source": 44,
-  "TextId": 396,
-  "UpdatedDate": "2008-07-20T11:16:09.7259925+02:00",
-  "UpdatedCount": 816,
-  "Visibility": 217,
+  "GroupIdx": 434,
+  "IncludePerson": 592,
+  "MemberCount": 99.99,
+  "Name": "Frami, Ankunding and Howe",
+  "PostitTextId": 673,
+  "CreatedDate": "2023-01-08T12:57:34.9458302+01:00",
+  "SelectionId": 261,
+  "SoundEx": "harum",
+  "Source": 512,
+  "TextId": 521,
+  "UpdatedDate": "2018-07-08T12:57:34.9458302+02:00",
+  "UpdatedCount": 104,
+  "Visibility": 938,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 329,
-  "TargetTableName": "Little-Zulauf",
+  "CompanyUnique": true,
+  "TargetTableNumber": 368,
+  "TargetTableName": "Gorczany Group",
   "Completed": true,
-  "LeftSelectionId": 686,
-  "RightSelectionId": 529,
+  "LeftSelectionId": 603,
+  "RightSelectionId": 983,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ritchie LLC",
-  "ShadowProviderName": "Stoltenberg, Mitchell and Weimann",
-  "ChartKey": "quia",
-  "LastLoaded": "2020-05-04T11:16:09.7259925+02:00",
-  "LastLoadedBy": 218,
+  "MainProviderName": "Bogisich-Bradtke",
+  "ShadowProviderName": "Dicki, Ortiz and Brekke",
+  "ChartKey": "voluptate",
+  "LastLoaded": "1997-04-16T12:57:34.9458302+02:00",
+  "LastLoadedBy": 745,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-08-02T11:16:09.7259925+02:00",
-  "LastMembershipChangeBy": 868,
+  "LastMembershipChange": "2005-09-20T12:57:34.9458302+02:00",
+  "LastMembershipChangeBy": 971,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eligendi",
-  "MemberTabHeading": "ipsum",
-  "MailingsProviderName": "Koch Inc and Sons",
-  "DashboardTileDefinitionId": 353,
+  "MainHeading": "dolor",
+  "MemberTabHeading": "ratione",
+  "MailingsProviderName": "Kulas Inc and Sons",
+  "DashboardTileDefinitionId": 329,
   "VisibleFor": [
     {
-      "VisibleId": 160,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 967
         }
       }
     },
     {
-      "VisibleId": 160,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 967
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldLength": 804
     }
   }
 }

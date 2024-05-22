@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 647,
-    "Name": "Beahan Inc and Sons",
-    "Tooltip": "tempore",
+    "HeadingId": 74,
+    "Name": "Flatley Inc and Sons",
+    "Tooltip": "distinctio",
     "Deleted": true,
-    "Rank": 312,
-    "UdListDefinitionId": 771,
+    "Rank": 670,
+    "UdListDefinitionId": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

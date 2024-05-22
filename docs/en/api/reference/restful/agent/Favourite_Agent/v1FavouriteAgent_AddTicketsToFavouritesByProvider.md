@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Terry, Koss and Weber",
+  "ProviderName": "Tillman, Gerhold and Borer",
   "Restrictions": [
     {
-      "Name": "Armstrong Inc and Sons",
-      "Operator": "quia",
+      "Name": "Waters Group",
+      "Operator": "voluptates",
       "Values": [
-        "sed",
-        "modi"
+        "saepe",
+        "minima"
       ],
       "DisplayValues": [
-        "unde",
-        "optio"
+        "at",
+        "voluptas"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 181,
+      "InterParenthesis": 858,
       "InterOperator": "And",
-      "UniqueHash": 528
+      "UniqueHash": 697
     }
   ],
-  "AssociateId": 154,
-  "ExtraInfo": "et"
+  "AssociateId": 832,
+  "ExtraInfo": "sed"
 }
 ```
 

@@ -75,17 +75,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Von Group",
+  "ProviderName": "Prohaska Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Hermann-Schamberger",
-      "Operator": "et",
+      "Name": "Dooley, Johnston and Kiehn",
+      "Operator": "recusandae",
       "Values": [
-        "commodi",
-        "fugit"
+        "cum",
+        "est"
       ],
       "DisplayValues": [
-        "voluptatem",
+        "ex",
         "et"
       ],
       "ColumnInfo": null,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 935,
+      "InterParenthesis": 453,
       "InterOperator": "And",
-      "UniqueHash": 155
+      "UniqueHash": 223
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  843,
-  634
+  976,
+  527
 ]
 ```

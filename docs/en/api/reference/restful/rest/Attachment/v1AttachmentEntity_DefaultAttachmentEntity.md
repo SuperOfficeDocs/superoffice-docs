@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 417,
-  "Name": "McClure-Wunsch",
-  "ContentType": "mollitia",
-  "AttSize": 516,
-  "InlineImage": false,
-  "ContentId": "voluptas",
-  "AuthKey": "ut",
+  "AttachmentId": 50,
+  "Name": "Leffler-Hartmann",
+  "ContentType": "quaerat",
+  "AttSize": 431,
+  "InlineImage": true,
+  "ContentId": "modi",
+  "AuthKey": "quas",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 46
     }
   }
 }

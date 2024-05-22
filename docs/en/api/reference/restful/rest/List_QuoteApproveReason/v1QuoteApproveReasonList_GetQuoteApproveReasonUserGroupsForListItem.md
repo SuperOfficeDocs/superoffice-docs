@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Franecki Group",
-    "ToolTip": "Adipisci nihil quia rerum aut ullam tempora.",
+    "Id": 815,
+    "Name": "Schmitt-Larson",
+    "ToolTip": "Qui dignissimos et sunt ipsa et.",
     "Deleted": false,
-    "Rank": 843,
-    "Type": "dolores",
-    "ColorBlock": 372,
-    "IconHint": "voluptatem",
+    "Rank": 292,
+    "Type": "sapiente",
+    "ColorBlock": 957,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2012-10-18T11:16:14.6839019+02:00",
+    "LastChanged": "2004-10-02T12:57:43.6520109+02:00",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Macejkovic, Schumm and Borer",
-        "ToolTip": "At eum doloremque alias quaerat amet esse repellat.",
-        "Deleted": true,
-        "Rank": 108,
-        "Type": "alias",
-        "ColorBlock": 692,
-        "IconHint": "illum",
-        "Selected": false,
-        "LastChanged": "2009-03-21T11:16:14.6839019+01:00",
+        "Id": 174,
+        "Name": "Turcotte-Bednar",
+        "ToolTip": "Cupiditate blanditiis libero nostrum illum.",
+        "Deleted": false,
+        "Rank": 764,
+        "Type": "similique",
+        "ColorBlock": 932,
+        "IconHint": "deserunt",
+        "Selected": true,
+        "LastChanged": "2021-08-08T12:57:43.6520109+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "distinctio",
-        "Hidden": true,
-        "FullName": "Agustina Sauer",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "at",
+        "Hidden": false,
+        "FullName": "Christiana McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldType": "System.String",
+            "FieldLength": 62
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "et",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Hugh Hartmann",
+    "FullName": "Wilhelmine Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 468
       }
     }
   }

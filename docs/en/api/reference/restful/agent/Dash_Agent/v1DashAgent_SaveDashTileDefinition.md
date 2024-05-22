@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 56,
-  "Name": "Schmidt, Schowalter and Cruickshank",
-  "Description": "Fully-configurable dynamic middleware",
-  "DefaultHeight": 859,
-  "DefaultWidth": 174,
+  "DashboardTileDefinitionId": 864,
+  "Name": "Emmerich-Reinger",
+  "Description": "Innovative dynamic alliance",
+  "DefaultHeight": 186,
+  "DefaultWidth": 887,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wolf-Yost",
-  "SelectionId": 823,
+  "EntityName": "Lynch LLC",
+  "SelectionId": 656,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolores",
+  "CurrencyCode": "reiciendis",
   "Measure": "Average",
-  "MeasureField": "ut",
-  "SortBy": "nam",
-  "LayoutConfig": "omnis",
-  "SecondarySelectionId": 518,
-  "MeasureByField": "saepe",
+  "MeasureField": "et",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "cumque",
+  "SecondarySelectionId": 472,
+  "MeasureByField": "voluptas",
   "Usage": "Dashboard",
-  "ProviderName": "Lueilwitz, Herman and Pfannerstill"
+  "ProviderName": "Kihn-Hane"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 713,
-  "Name": "Tremblay Group",
-  "Description": "Multi-layered zero defect firmware",
-  "DefaultHeight": 105,
-  "DefaultWidth": 859,
+  "DashboardTileDefinitionId": 338,
+  "Name": "Robel Inc and Sons",
+  "Description": "Extended homogeneous policy",
+  "DefaultHeight": 833,
+  "DefaultWidth": 661,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dare, Gerhold and Toy",
-  "SelectionId": 318,
+  "EntityName": "Hilpert, Kuhn and Bergnaum",
+  "SelectionId": 287,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sapiente",
+  "CurrencyCode": "aliquam",
   "Measure": "Average",
-  "MeasureField": "enim",
-  "SortBy": "molestiae",
-  "LayoutConfig": "quia",
-  "SecondarySelectionId": 825,
-  "MeasureByField": "quo",
+  "MeasureField": "harum",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "eligendi",
+  "SecondarySelectionId": 633,
+  "MeasureByField": "ratione",
   "Usage": "Dashboard",
-  "ProviderName": "Anderson Inc and Sons",
+  "ProviderName": "Olson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   }
 }

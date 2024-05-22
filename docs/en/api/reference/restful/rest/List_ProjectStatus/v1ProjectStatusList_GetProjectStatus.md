@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,17 +75,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Kemmer Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 299,
+  "Name": "Cremin-Bergnaum",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "UdListDefinitionId": 257,
-  "Rank": 48,
+  "UdListDefinitionId": 583,
+  "Rank": 7,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 890
     }
   }

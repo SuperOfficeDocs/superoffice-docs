@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 565,
-    "Name": "Harber, Runte and Rodriguez",
-    "ToolTip": "Omnis rem distinctio.",
-    "Deleted": true,
-    "Rank": 680,
-    "Type": "enim",
-    "ColorBlock": 280,
-    "IconHint": "architecto",
+    "Id": 964,
+    "Name": "Rempel-Blick",
+    "ToolTip": "Autem a sapiente eveniet nihil a maxime.",
+    "Deleted": false,
+    "Rank": 218,
+    "Type": "neque",
+    "ColorBlock": 457,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2006-02-22T11:16:14.6839019+01:00",
+    "LastChanged": "2019-09-30T12:57:43.6520109+02:00",
     "ChildItems": [
       {
-        "Id": 811,
-        "Name": "Lesch Group",
-        "ToolTip": "Veritatis in.",
+        "Id": 743,
+        "Name": "Sipes Group",
+        "ToolTip": "Sed ipsum nobis.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "enim",
-        "ColorBlock": 690,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2022-06-08T11:16:14.6839019+02:00",
+        "Rank": 696,
+        "Type": "minima",
+        "ColorBlock": 136,
+        "IconHint": "dolorum",
+        "Selected": false,
+        "LastChanged": "1999-11-15T12:57:43.6520109+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "culpa",
+        "ExtraInfo": "eius",
+        "StyleHint": "temporibus",
         "Hidden": true,
-        "FullName": "Miss Kim Heller"
+        "FullName": "Newell Okuneva"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "similique",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Elmer Maggio"
+    "FullName": "Mrs. Darby Roob"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Strosin Group",
-    "ToolTip": "Est dolor.",
+    "Id": 440,
+    "Name": "Fadel LLC",
+    "ToolTip": "Vero est qui quibusdam voluptas aperiam ratione.",
     "Deleted": false,
-    "Rank": 202,
-    "Type": "deleniti",
-    "ColorBlock": 942,
-    "IconHint": "et",
+    "Rank": 455,
+    "Type": "ut",
+    "ColorBlock": 412,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2017-05-18T11:16:14.6839019+02:00",
+    "LastChanged": "2023-07-25T12:57:43.6520109+02:00",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Corkery-Krajcik",
-        "ToolTip": "Et rem officia adipisci error eligendi in tenetur.",
+        "Id": 909,
+        "Name": "Kshlerin-Murray",
+        "ToolTip": "Fuga repellat.",
         "Deleted": false,
-        "Rank": 747,
-        "Type": "magni",
-        "ColorBlock": 934,
-        "IconHint": "sapiente",
+        "Rank": 529,
+        "Type": "nam",
+        "ColorBlock": 569,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2012-09-14T11:16:14.6839019+02:00",
+        "LastChanged": "2004-08-12T12:57:43.6520109+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Aliza Krajcik II",
+        "ExtraInfo": "iusto",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Jordi Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldLength": 198
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "possimus",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Nelson Margaretta Volkman MD",
+    "FullName": "Rhoda Baron King II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldType": "System.String",
+        "FieldLength": 100
       }
     }
   }

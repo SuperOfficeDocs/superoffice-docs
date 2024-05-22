@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 975,
-    "Name": "Jacobson Group",
-    "Tooltip": "vero",
-    "Rank": 40,
-    "Key": "labore",
-    "Deleted": true,
+    "LegalBaseId": 553,
+    "Name": "Renner-Emmerich",
+    "Tooltip": "quae",
+    "Rank": 532,
+    "Key": "omnis",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

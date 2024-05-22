@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 63,
-      "ContactName": "Stroman LLC",
-      "PersonId": 725,
-      "PersonName": "Pagac Group",
-      "AssociateId": 865,
-      "Address": "harum",
-      "EmailId": 465,
+      "ContactId": 654,
+      "ContactName": "Kuhn-Moen",
+      "PersonId": 45,
+      "PersonName": "O'Connell-Schiller",
+      "AssociateId": 953,
+      "Address": "sed",
+      "EmailId": 367,
       "DuplicatePersonIds": [
-        191,
-        615
+        500,
+        306
       ],
-      "Name": "Ruecker-Vandervort",
+      "Name": "Runolfsson-Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 619
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 793,
-      "ContactName": "Hettinger-Stanton",
-      "PersonId": 878,
-      "PersonName": "Blick LLC",
-      "AssociateId": 583,
-      "Address": "aperiam",
-      "EmailId": 646,
+      "ContactId": 426,
+      "ContactName": "Fritsch-O'Kon",
+      "PersonId": 392,
+      "PersonName": "Sporer, Nader and Hirthe",
+      "AssociateId": 794,
+      "Address": "sequi",
+      "EmailId": 816,
       "DuplicatePersonIds": [
-        14,
-        713
+        179,
+        967
       ],
-      "Name": "Halvorson, Wehner and Heaney",
+      "Name": "Purdy Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 320
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 192,
-      "ContactName": "Littel, Roberts and Mohr",
-      "PersonId": 433,
-      "PersonName": "Gleichner Inc and Sons",
-      "AssociateId": 137,
-      "Address": "sit",
-      "EmailId": 923,
+      "ContactId": 615,
+      "ContactName": "Deckow Group",
+      "PersonId": 935,
+      "PersonName": "Goyette Inc and Sons",
+      "AssociateId": 386,
+      "Address": "asperiores",
+      "EmailId": 500,
       "DuplicatePersonIds": [
-        179,
-        611
+        406,
+        320
       ],
-      "Name": "Boyer Inc and Sons",
+      "Name": "Lakin-Cummings",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 390
         }
       }
     }
   ],
-  "Subject": "eligendi",
-  "HTMLBody": "ut",
+  "Subject": "minus",
+  "HTMLBody": "repellendus",
   "From": null,
-  "Sent": "2022-04-28T11:16:09.1628538+02:00",
-  "Size": 633,
+  "Sent": "2004-06-04T12:57:33.8523907+02:00",
+  "Size": 42,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "non",
-  "PlainBody": "eos",
-  "IsSent": true,
+  "MessageID": "voluptatum",
+  "PlainBody": "accusamus",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 803,
+  "ServerId": 598,
   "Attachments": [
     {
-      "Description": "Vision-oriented bandwidth-monitored focus group",
-      "Filename": "sit",
-      "Size": 976,
-      "Type": "illum",
-      "Encoding": "omnis",
-      "Id": "omnis",
-      "Disposition": "tenetur",
+      "Description": "Programmable human-resource function",
+      "Filename": "facere",
+      "Size": 597,
+      "Type": "assumenda",
+      "Encoding": "voluptatibus",
+      "Id": "sed",
+      "Disposition": "qui",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 495
+          "FieldType": "System.String",
+          "FieldLength": 631
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Feeney, Baumbach and Marvin",
+      "Name": "Price-Leannon",
       "Values": [
-        "velit",
-        "aperiam"
+        "doloremque",
+        "iure"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 780
         }
       }
     },
     {
-      "Name": "Feeney, Baumbach and Marvin",
+      "Name": "Price-Leannon",
       "Values": [
-        "velit",
-        "aperiam"
+        "doloremque",
+        "iure"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 780
         }
       }
     }
   ],
-  "FolderName": "Beer LLC",
-  "EmailItemId": 256,
-  "AccountId": 487,
-  "ReceivedAt": "2009-06-07T11:16:09.1628538+02:00",
+  "FolderName": "Champlin-Glover",
+  "EmailItemId": 818,
+  "AccountId": 738,
+  "ReceivedAt": "2016-06-01T12:57:33.8523907+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-08-27T11:16:09.1628538+02:00",
+  "RepliedAt": "1998-03-22T12:57:33.8523907+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   }
 }

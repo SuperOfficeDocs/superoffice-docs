@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "nobis",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "mollitia",
+  "DisplayValue": "et",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 751,
-  "PrefDescId": 280,
-  "TableName": "Kemmer Inc and Sons",
-  "UserPreferenceId": 499
+  "TargetId": 723,
+  "PrefDescId": 492,
+  "TableName": "Schmidt, Leuschke and Mante",
+  "UserPreferenceId": 746
 }
 ```
 

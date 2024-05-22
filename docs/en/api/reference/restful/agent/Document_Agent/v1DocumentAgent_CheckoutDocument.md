@@ -81,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 903,
+  "DocumentId": 152,
   "AllowedReturnTypes": [
-    "magnam",
-    "officia"
+    "quia",
+    "ducimus"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ipsum",
-  "VersionId": "blanditiis",
+  "ExternalReference": "sint",
+  "VersionId": "sit",
   "Success": true,
   "Type": "CustomGui",
   "Value": "sed",
-  "AdditionalInfo": "vel"
+  "AdditionalInfo": "natus"
 }
 ```

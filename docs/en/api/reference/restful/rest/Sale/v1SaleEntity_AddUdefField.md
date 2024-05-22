@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 878,
-  "ColumnId": 164,
-  "FieldDefault": "possimus",
-  "FieldHeight": 29,
-  "FieldLabel": "voluptatum",
-  "FieldLeft": 513,
-  "FieldTop": 753,
+  "UDefFieldId": 944,
+  "ColumnId": 39,
+  "FieldDefault": "dolor",
+  "FieldHeight": 429,
+  "FieldLabel": "fugit",
+  "FieldLeft": 466,
+  "FieldTop": 606,
   "FieldType": "Checkbox",
-  "FieldWidth": 319,
-  "FormatMask": "corporis",
-  "HideLabel": true,
+  "FieldWidth": 271,
+  "FormatMask": "ut",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 890,
-  "LabelLeft": 53,
-  "LabelTop": 602,
-  "LabelWidth": 889,
-  "LastVersionId": 25,
-  "ListTableId": 757,
+  "LabelHeight": 130,
+  "LabelLeft": 943,
+  "LabelTop": 24,
+  "LabelWidth": 786,
+  "LastVersionId": 791,
+  "ListTableId": 43,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 649,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "molestiae",
-  "TabOrder": 832,
-  "TextLength": 379,
-  "Tooltip": "suscipit",
-  "UdefIdentity": 160,
-  "UDListDefinitionId": 763,
+  "Page1LineNo": 178,
+  "ProgId": "quia",
+  "IsReadOnly": false,
+  "ShortLabel": "ducimus",
+  "TabOrder": 801,
+  "TextLength": 597,
+  "Tooltip": "aut",
+  "UdefIdentity": 911,
+  "UDListDefinitionId": 135,
   "Justification": "Center",
-  "Version": 372,
-  "TemplateVariableName": "Hills-Kohler",
+  "Version": 146,
+  "TemplateVariableName": "Von Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Kessler-Goyette",
+  "MdoListName": "Sauer LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

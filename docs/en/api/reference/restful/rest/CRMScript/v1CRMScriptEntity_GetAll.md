@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=praesentium
-GET /api/v1/CRMScript?$top=388
-GET /api/v1/CRMScript?$skip=346
+GET /api/v1/CRMScript?$entities=nihil
+GET /api/v1/CRMScript?$top=594
+GET /api/v1/CRMScript?$skip=304
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=necessitatibus
+GET /api/v1/CRMScript?$context=autem
 GET /api/v1/CRMScript?$format=JSON
 GET /api/v1/CRMScript?$jsonSafe=False
 GET /api/v1/CRMScript?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eveniet",
+  "odata.nextLink": "corporis",
   "value": [
     {
-      "PrimaryKey": 4393,
-      "EntityName": "person",
-      "personId": 4393,
-      "fullName": "Leone West V"
+      "PrimaryKey": 8550,
+      "EntityName": "sale",
+      "saleId": 8550,
+      "contactId": 164,
+      "name": "Ruecker Inc and Sons"
     },
     {
-      "PrimaryKey": 4717,
-      "EntityName": "person",
-      "personId": 4717,
-      "fullName": "Josianne Bartell I"
+      "PrimaryKey": 3102,
+      "EntityName": "sale",
+      "saleId": 3102,
+      "contactId": 864,
+      "name": "Nienow-Gislason"
     }
   ]
 }

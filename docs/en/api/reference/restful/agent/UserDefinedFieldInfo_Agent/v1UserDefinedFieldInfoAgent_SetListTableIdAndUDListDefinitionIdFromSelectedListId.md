@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 171
+  "SelectedListId": 344
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 404,
-  "ColumnId": 767,
-  "FieldDefault": "provident",
-  "FieldHeight": 756,
-  "FieldLabel": "illum",
-  "FieldLeft": 256,
-  "FieldTop": 283,
+  "UDefFieldId": 683,
+  "ColumnId": 922,
+  "FieldDefault": "quia",
+  "FieldHeight": 749,
+  "FieldLabel": "et",
+  "FieldLeft": 120,
+  "FieldTop": 514,
   "FieldType": "Checkbox",
-  "FieldWidth": 452,
-  "FormatMask": "dolor",
+  "FieldWidth": 567,
+  "FormatMask": "amet",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 557,
-  "LabelLeft": 907,
-  "LabelTop": 558,
-  "LabelWidth": 318,
-  "LastVersionId": 885,
-  "ListTableId": 954,
-  "IsMandatory": false,
+  "LabelHeight": 545,
+  "LabelLeft": 993,
+  "LabelTop": 919,
+  "LabelWidth": 436,
+  "LastVersionId": 451,
+  "ListTableId": 57,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 83,
-  "ProgId": "ea",
-  "IsReadOnly": false,
-  "ShortLabel": "labore",
-  "TabOrder": 250,
-  "TextLength": 575,
-  "Tooltip": "laborum",
-  "UdefIdentity": 636,
-  "UDListDefinitionId": 307,
+  "Page1LineNo": 858,
+  "ProgId": "doloremque",
+  "IsReadOnly": true,
+  "ShortLabel": "quos",
+  "TabOrder": 596,
+  "TextLength": 626,
+  "Tooltip": "velit",
+  "UdefIdentity": 167,
+  "UDListDefinitionId": 393,
   "Justification": "Center",
-  "Version": 85,
-  "TemplateVariableName": "Schoen-Schimmel",
+  "Version": 299,
+  "TemplateVariableName": "Moen, Ferry and Johnston",
   "HasBeenPublished": false,
-  "MdoListName": "Fahey, Smitham and Schroeder",
+  "MdoListName": "Hyatt-Paucek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 860
     }
   }
 }

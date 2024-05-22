@@ -82,50 +82,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Marks LLC",
-      "Operator": "est",
+      "Name": "O'Hara-Senger",
+      "Operator": "nemo",
       "Values": [
-        "alias",
-        "aspernatur"
+        "fugiat",
+        "totam"
       ],
       "DisplayValues": [
-        "repellat",
-        "quia"
+        "voluptatibus",
+        "omnis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 960,
+      "InterParenthesis": 227,
       "InterOperator": "And",
-      "UniqueHash": 865
+      "UniqueHash": 121
     }
   ],
-  "ProviderName": "Gleichner, Treutel and Kihn",
+  "ProviderName": "Stanton LLC",
   "DesiredColumns": [
-    "quas",
-    "et"
+    "qui",
+    "illum"
   ],
   "OrderBy": [
     {
-      "Name": "McGlynn Inc and Sons",
+      "Name": "Fritsch-Auer",
       "Direction": "ASC"
     },
     {
-      "Name": "McGlynn Inc and Sons",
+      "Name": "Fritsch-Auer",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 926,
-  "PageNumber": 769
+  "PageSize": 773,
+  "PageNumber": 810
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Spencer-Hudson",
-      "DisplayTooltip": "ab",
-      "DisplayType": "expedita",
-      "CanOrderBy": true,
-      "Name": "McClure LLC",
+      "DisplayName": "Feest LLC",
+      "DisplayTooltip": "eos",
+      "DisplayType": "quo",
+      "CanOrderBy": false,
+      "Name": "Rau Group",
       "CanRestrictBy": true,
-      "RestrictionType": "explicabo",
-      "RestrictionListName": "Dickinson, Tromp and Langosh",
+      "RestrictionType": "impedit",
+      "RestrictionListName": "Price-Walker",
       "IsVisible": false,
-      "ExtraInfo": "corporis",
+      "ExtraInfo": "consequatur",
       "Width": "et",
-      "IconHint": "delectus",
-      "HeadingIconHint": "quo"
+      "IconHint": "dolores",
+      "HeadingIconHint": "eligendi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "D'Amore Inc and Sons",
-      "PrimaryKey": 834,
+      "EntityName": "Predovic Inc and Sons",
+      "PrimaryKey": 165,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "expedita",
-          "TooltipHint": "blanditiis",
-          "LinkHint": "qui"
+          "DisplayValue": "sunt",
+          "TooltipHint": "reprehenderit",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "quisquam",
-      "StyleHint": "atque",
+      "LinkHint": "cupiditate",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 955
+          "FieldLength": 97
         }
       }
     }
   ],
-  "RowCount": 619,
+  "RowCount": 949,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

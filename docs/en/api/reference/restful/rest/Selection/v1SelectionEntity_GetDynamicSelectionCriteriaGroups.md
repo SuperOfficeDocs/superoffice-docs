@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolf Group",
-    "Description": "Re-contextualized high-level hardware",
-    "Rank": 172,
+    "Name": "Cole Group",
+    "Description": "Reactive mission-critical neural-net",
+    "Rank": 890,
     "Restrictions": [
       {
-        "Name": "Crona, Zemlak and Haley",
-        "Operator": "natus",
+        "Name": "Will, Collins and Kling",
+        "Operator": "quisquam",
         "Values": [
-          "repellat",
-          "eos"
+          "dolorum",
+          "labore"
         ],
         "DisplayValues": [
-          "debitis",
-          "qui"
+          "eos",
+          "architecto"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 328,
+        "InterParenthesis": 947,
         "InterOperator": "And",
-        "UniqueHash": 165
+        "UniqueHash": 564
       }
     ]
   },
   {
-    "Name": "Wolf Group",
-    "Description": "Re-contextualized high-level hardware",
-    "Rank": 172,
+    "Name": "Cole Group",
+    "Description": "Reactive mission-critical neural-net",
+    "Rank": 890,
     "Restrictions": [
       {
-        "Name": "Crona, Zemlak and Haley",
-        "Operator": "natus",
+        "Name": "Will, Collins and Kling",
+        "Operator": "quisquam",
         "Values": [
-          "repellat",
-          "eos"
+          "dolorum",
+          "labore"
         ],
         "DisplayValues": [
-          "debitis",
-          "qui"
+          "eos",
+          "architecto"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 328,
+        "InterParenthesis": 947,
         "InterOperator": "And",
-        "UniqueHash": 165
+        "UniqueHash": 564
       }
     ]
   }

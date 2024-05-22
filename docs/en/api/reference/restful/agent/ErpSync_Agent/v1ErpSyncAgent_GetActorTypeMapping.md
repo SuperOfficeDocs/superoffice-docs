@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 83,
+  "ErpConnectionId": 820,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 249,
+  "ErpConnectionId": 51,
   "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 545,
-      "CrmFieldKey": "amet",
-      "CrmDisplayName": "Terry Inc and Sons",
-      "CrmDisplayTooltip": "est",
-      "ErpFieldKey": "nisi",
+      "ErpFieldId": 578,
+      "CrmFieldKey": "optio",
+      "CrmDisplayName": "Lueilwitz Inc and Sons",
+      "CrmDisplayTooltip": "vitae",
+      "ErpFieldKey": "ut",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Mills-Grimes",
-      "ErpDisplayTooltip": "ut",
-      "SyncToCrm": false,
-      "SyncToErp": false,
+      "ErpDisplayName": "Veum Inc and Sons",
+      "ErpDisplayTooltip": "nihil",
+      "SyncToCrm": true,
+      "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "dolorum",
+      "ListReference": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 75
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 523
     }
   }
 }

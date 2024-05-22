@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kulas, Kuhic and Hickle",
+  "UdListDefinitionName": "Klein, Jacobson and Goldner",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Dietrich Inc and Sons",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 543,
-    "Rank": 768,
+    "Id": 747,
+    "Name": "Gislason, Ledner and Stamm",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 985,
+    "Rank": 811,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 505
       }
     }
   }

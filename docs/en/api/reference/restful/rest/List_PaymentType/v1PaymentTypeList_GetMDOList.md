@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=molestias
+GET /api/v1/List/PaymentType/MDOItems?query=quod
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Kulas, Runolfsdottir and Ward",
-    "ToolTip": "Id rerum rerum non.",
-    "Deleted": true,
-    "Rank": 754,
-    "Type": "aut",
+    "Id": 774,
+    "Name": "Brown-Sipes",
+    "ToolTip": "Eaque maxime quae fuga.",
+    "Deleted": false,
+    "Rank": 68,
+    "Type": "ipsa",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Turner, Dietrich and Schroeder",
-        "ToolTip": "Perferendis soluta omnis unde dolor reiciendis illum molestiae.",
+        "Id": 815,
+        "Name": "Ebert-Pfeffer",
+        "ToolTip": "Non consequuntur fugit est neque omnis non.",
         "Deleted": false,
-        "Rank": 14,
-        "Type": "eligendi",
+        "Rank": 391,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 17,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "ducimus",
-        "FullName": "Jennyfer Rippin",
+        "IconHint": "ullam",
+        "ColorBlock": 187,
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
+        "FullName": "Magdalena Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 171
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 337,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "accusamus",
-    "FullName": "Asa Weimann",
+    "IconHint": "repellat",
+    "ColorBlock": 436,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "aut",
+    "FullName": "Shanon Hammes I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 809
       }
     }
   }

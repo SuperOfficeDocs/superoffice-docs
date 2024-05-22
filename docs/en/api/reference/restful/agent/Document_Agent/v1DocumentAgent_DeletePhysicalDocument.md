@@ -81,10 +81,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 458,
+  "DocumentId": 556,
   "AllowedReturnType": [
-    "est",
-    "velit"
+    "ut",
+    "eos"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "autem",
-  "VersionId": "et",
-  "Success": true,
+  "ExternalReference": "nobis",
+  "VersionId": "quia",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "laborum",
-  "AdditionalInfo": "eligendi"
+  "Value": "harum",
+  "AdditionalInfo": "aspernatur"
 }
 ```

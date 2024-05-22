@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Conner, Tillman and Kulas",
-  "Columns": "quis",
-  "SortOrder": "explicabo",
-  "Restrictions": "sed",
-  "Entities": "minima",
-  "Page": 270,
-  "PageSize": 5
+  "ProviderName": "Lubowitz LLC",
+  "Columns": "aut",
+  "SortOrder": "dignissimos",
+  "Restrictions": "magnam",
+  "Entities": "iusto",
+  "Page": 982,
+  "PageSize": 918
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Murray Group",
-    "PrimaryKey": 927,
+    "EntityName": "Cummerata, Lesch and Kling",
+    "PrimaryKey": 833,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "beatae",
-        "TooltipHint": "non",
-        "LinkHint": "numquam"
+        "DisplayValue": "autem",
+        "TooltipHint": "distinctio",
+        "LinkHint": "molestiae"
       }
     },
-    "LinkHint": "error",
-    "StyleHint": "similique",
+    "LinkHint": "sapiente",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

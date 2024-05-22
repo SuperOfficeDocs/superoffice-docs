@@ -71,7 +71,7 @@ SelectionEntity found.
 | SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
-| MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
+| MemberCount | int64 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
 | Name | string | Name of selection, freetext indexed |
 | PostitTextId | int32 | Postit text record id. |
 | CreatedDate | date-time | Registered when  in UTC. |
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 12 Jun 2021 11:16:14 G6T
+Last-Modified: Sat, 08 Dec 2007 12:57:42 G12T
 
 {
-  "Description": "Cross-platform executive approach",
-  "Postit": "aut",
+  "Description": "Sharable fault-tolerant adapter",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 705,
-  "IncludePerson": 688,
-  "MemberCount": 681,
-  "Name": "Gleichner LLC",
-  "PostitTextId": 123,
-  "CreatedDate": "2013-09-02T11:16:14.2148007+02:00",
-  "SelectionId": 196,
-  "SoundEx": "excepturi",
-  "Source": 941,
-  "TextId": 549,
-  "UpdatedDate": "2021-06-12T11:16:14.2148007+02:00",
-  "UpdatedCount": 816,
-  "Visibility": 577,
+  "GroupIdx": 211,
+  "IncludePerson": 325,
+  "MemberCount": 99.99,
+  "Name": "Leannon-O'Kon",
+  "PostitTextId": 179,
+  "CreatedDate": "2016-11-08T12:57:42.7919274+01:00",
+  "SelectionId": 980,
+  "SoundEx": "qui",
+  "Source": 406,
+  "TextId": 72,
+  "UpdatedDate": "2007-12-08T12:57:42.7919274+01:00",
+  "UpdatedCount": 345,
+  "Visibility": 652,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 687,
-  "TargetTableName": "Schoen Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 478,
+  "TargetTableName": "Dickinson Group",
   "Completed": false,
-  "LeftSelectionId": 790,
-  "RightSelectionId": 362,
+  "LeftSelectionId": 671,
+  "RightSelectionId": 277,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kemmer Group",
-  "ShadowProviderName": "Wiza-Grady",
-  "ChartKey": "ex",
-  "LastLoaded": "2003-09-08T11:16:14.2148007+02:00",
-  "LastLoadedBy": 626,
+  "MainProviderName": "McGlynn-Larkin",
+  "ShadowProviderName": "Yundt, Waters and Kunze",
+  "ChartKey": "atque",
+  "LastLoaded": "2012-11-10T12:57:42.7919274+01:00",
+  "LastLoadedBy": 294,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-11-05T11:16:14.2148007+01:00",
-  "LastMembershipChangeBy": 340,
+  "LastMembershipChange": "2014-06-11T12:57:42.7919274+02:00",
+  "LastMembershipChangeBy": 715,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "corrupti",
-  "MemberTabHeading": "sunt",
-  "MailingsProviderName": "Terry Inc and Sons",
-  "DashboardTileDefinitionId": 260,
+  "MainHeading": "est",
+  "MemberTabHeading": "nihil",
+  "MailingsProviderName": "Koss, Tromp and Hackett",
+  "DashboardTileDefinitionId": 381,
   "VisibleFor": [
     {
-      "VisibleId": 309,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldType": "System.String",
+          "FieldLength": 818
         }
       }
     },
     {
-      "VisibleId": 309,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldType": "System.String",
+          "FieldLength": 818
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Sat, 12 Jun 2021 11:16:14 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 153
     }
   },
   "_Links": {

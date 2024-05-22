@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schmitt, Hauck and Roob",
-  "ListItemId": 895,
+  "UdListDefinitionName": "Botsford-Jones",
+  "ListItemId": 73,
   "Headings": [
     {
-      "Id": 335,
-      "Name": "Lubowitz, Carroll and Heller",
-      "ToolTip": "Eveniet dolorum facere voluptas.",
+      "Id": 346,
+      "Name": "Heaney-Hyatt",
+      "ToolTip": "Nam reiciendis inventore quo nesciunt dicta omnis.",
       "Deleted": false,
-      "Rank": 424,
-      "Type": "eum",
-      "ColorBlock": 317,
-      "IconHint": "error",
-      "Selected": true,
-      "LastChanged": "2001-09-22T11:16:09.3347069+02:00",
+      "Rank": 158,
+      "Type": "et",
+      "ColorBlock": 203,
+      "IconHint": "repellendus",
+      "Selected": false,
+      "LastChanged": "2005-08-22T12:57:34.1492269+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "sapiente",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Manuel Kohler"
+      "FullName": "Celestino Rath"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Funk LLC",
-    "ToolTip": "Odio nobis est esse ea a aut eius.",
+    "Id": 923,
+    "Name": "Hyatt LLC",
+    "ToolTip": "Nihil voluptates.",
     "Deleted": false,
-    "Rank": 752,
-    "Type": "reiciendis",
-    "ColorBlock": 516,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2003-09-12T11:16:09.3347069+02:00",
+    "Rank": 744,
+    "Type": "asperiores",
+    "ColorBlock": 580,
+    "IconHint": "asperiores",
+    "Selected": true,
+    "LastChanged": "2013-11-01T12:57:34.1648498+01:00",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Monahan, Roberts and Howe",
-        "ToolTip": "Id quo sit cupiditate.",
+        "Id": 338,
+        "Name": "Pouros, Lemke and Keebler",
+        "ToolTip": "Sapiente eum quaerat dolorem quia est.",
         "Deleted": false,
-        "Rank": 442,
-        "Type": "laborum",
-        "ColorBlock": 774,
-        "IconHint": "unde",
+        "Rank": 512,
+        "Type": "est",
+        "ColorBlock": 462,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2000-08-01T11:16:09.3347069+02:00",
+        "LastChanged": "2018-06-14T12:57:34.1648498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Dena Wolf",
+        "ExtraInfo": "sit",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Eldora Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 882
+            "FieldType": "System.String",
+            "FieldLength": 291
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Mr. Adriel Julien Breitenberg",
+    "ExtraInfo": "autem",
+    "StyleHint": "quas",
+    "Hidden": false,
+    "FullName": "Kyler Runte III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 659
       }
     }
   }

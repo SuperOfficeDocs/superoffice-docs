@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 474
+  "PersonId": 245
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 993,
-  "PlainParsed": "facere",
-  "HtmlParsed": "numquam",
+  "ReplyTemplateId": 981,
+  "PlainParsed": "illum",
+  "HtmlParsed": "iusto",
   "Attachments": [
     {
-      "AttachmentId": 5,
-      "Name": "Schamberger Inc and Sons",
-      "ContentType": "aut",
-      "AttSize": 678,
-      "InlineImage": false,
-      "ContentId": "laudantium",
-      "AuthKey": "aut",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 696,
+      "Name": "Hahn Group",
+      "ContentType": "modi",
+      "AttSize": 454,
+      "InlineImage": true,
+      "ContentId": "qui",
+      "AuthKey": "culpa",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldType": "System.String",
+          "FieldLength": 905
         }
       }
     }
   ],
-  "Subject": "suscipit",
+  "Subject": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldLength": 523
     }
   }
 }

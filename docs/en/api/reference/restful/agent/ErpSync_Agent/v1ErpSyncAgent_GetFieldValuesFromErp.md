@@ -86,9 +86,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 506,
+  "ErpConnectionId": 452,
   "ActorTypeErp": "Customer",
-  "ErpKey": "sunt"
+  "ErpKey": "magnam"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bechtelar-Turner",
-    "CrmFieldKey": "laborum",
-    "Value": "sit",
-    "DisplayValue": "aut",
+    "DisplayName": "Hagenes-Russel",
+    "CrmFieldKey": "sit",
+    "Value": "et",
+    "DisplayValue": "enim",
     "SyncToCrm": false,
-    "SyncToErp": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

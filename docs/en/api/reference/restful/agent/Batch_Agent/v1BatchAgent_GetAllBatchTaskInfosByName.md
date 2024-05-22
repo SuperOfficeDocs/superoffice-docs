@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Grant-Dickinson"
+  "TaskName": "Schaefer Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Eichmann, Bechtelar and Bernier",
-    "AssociateId": 845,
-    "DetailsTable": 991,
-    "DetailsRecord": 163,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 376,
+    "Name": "Emmerich Inc and Sons",
+    "AssociateId": 582,
+    "DetailsTable": 508,
+    "DetailsRecord": 986,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "nobis",
-      "ParameterObject2": "id"
+      "ParameterObject1": "reprehenderit",
+      "ParameterObject2": "optio"
     },
-    "LastStarted": "2015-12-05T11:16:08.7410229+01:00",
-    "Created": "2000-05-10T11:16:08.7410229+02:00",
-    "StartCount": 946,
-    "DatabaseSerialNumber": "753266",
-    "Context": "sed",
-    "Result": "adipisci",
+    "LastStarted": "2000-12-12T12:57:33.2658907+01:00",
+    "Created": "2001-09-07T12:57:33.2658907+02:00",
+    "StartCount": 319,
+    "DatabaseSerialNumber": "519181",
+    "Context": "aspernatur",
+    "Result": "necessitatibus",
     "State": "All",
-    "Description": "Automated background protocol",
-    "Response": "sapiente",
-    "Request": "debitis",
-    "ProgressDescription": "Progressive human-resource support",
-    "ProgressPercent": 522,
-    "FileName": "Pfannerstill Group",
+    "Description": "Persistent optimal support",
+    "Response": "aut",
+    "Request": "amet",
+    "ProgressDescription": "Mandatory transitional knowledge base",
+    "ProgressPercent": 283,
+    "FileName": "Steuber, McGlynn and Borer",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldType": "System.String",
+        "FieldLength": 973
       }
     }
   }

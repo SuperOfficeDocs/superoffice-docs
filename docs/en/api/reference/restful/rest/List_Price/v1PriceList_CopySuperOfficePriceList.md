@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/02/2023 11:16:15
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/04/2023 11:16:15
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=322
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=09/01/1997 12:57:46
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=08/01/2005 12:57:46
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=93
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 457,
-  "ERPPriceListKey": "deserunt",
-  "QuoteConnectionId": 263,
-  "Name": "Gislason-Carroll",
-  "Description": "Object-based fresh-thinking utilisation",
-  "Currency": "perspiciatis",
-  "CurrencyName": "Koelpin-Waters",
-  "ValidFrom": "2002-05-29T11:16:14.6214085+02:00",
-  "ValidTo": "2014-01-01T11:16:14.6214085+01:00",
+  "PriceListId": 96,
+  "ERPPriceListKey": "enim",
+  "QuoteConnectionId": 68,
+  "Name": "Sipes LLC",
+  "Description": "Synchronised local monitoring",
+  "Currency": "sapiente",
+  "CurrencyName": "Hoeger LLC",
+  "ValidFrom": "2020-06-14T12:57:43.5582822+02:00",
+  "ValidTo": "2009-05-23T12:57:43.5582822+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldLength": 860
     }
   }
 }

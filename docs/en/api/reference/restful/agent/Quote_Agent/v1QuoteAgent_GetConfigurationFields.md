@@ -89,8 +89,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 971,
-  "ConnectorName": "Kassulke Group"
+  "ConnectionId": 325,
+  "ConnectorName": "Carroll, Cassin and Stark"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "illo",
-    "Rank": 178,
-    "DisplayName": "Dibbert, Muller and Mills",
-    "DisplayDescription": "Robust secondary parallelism",
+    "FieldKey": "ut",
+    "Rank": 446,
+    "DisplayName": "Wolff-Bartell",
+    "DisplayDescription": "Self-enabling regional algorithm",
     "FieldType": "Checkbox",
-    "ListName": "Kohler, Thiel and Braun",
-    "DefaultValue": "quo",
-    "MaxLength": 355,
+    "ListName": "Hamill-Quitzon",
+    "DefaultValue": "odio",
+    "MaxLength": 402,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

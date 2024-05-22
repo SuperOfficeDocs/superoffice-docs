@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 105,
-    "FieldName": "Quigley, Heller and Ortiz",
-    "Label": "voluptatum",
-    "Tooltip": "consequatur",
-    "Editable": true,
-    "InUse": true,
+    "QuoteLineConfigurationId": 239,
+    "FieldName": "Schowalter-Ullrich",
+    "Label": "qui",
+    "Tooltip": "ullam",
+    "Editable": false,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 329,
-    "RestrictEdit": true,
+    "Rank": 173,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldType": "System.Int32",
+        "FieldLength": 679
       }
     }
   }

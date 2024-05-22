@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=146
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=212
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 543,
-  "StartDate": "2006-02-07T11:16:08.5532593+01:00",
-  "EndDate": "2019-08-15T11:16:08.5532593+02:00",
+  "AppointmentId": 368,
+  "StartDate": "2024-04-02T12:57:32.836539+02:00",
+  "EndDate": "2021-07-10T12:57:32.836539+02:00",
   "Type": "BookingForChecklist",
-  "Task": "repudiandae",
-  "AssociateFullName": "Efrain Sauer",
-  "ContactName": "Schiller Inc and Sons",
-  "Description": "Team-oriented logistical toolset",
-  "PersonFullName": "Monique Gottlieb",
-  "PersonId": 720,
-  "ContactId": 390,
-  "ProjectId": 128,
-  "ProjectName": "Torphy, Considine and Schulist",
+  "Task": "error",
+  "AssociateFullName": "Mrs. Romaine Yost III",
+  "ContactName": "Funk, Bartoletti and Boehm",
+  "Description": "Open-architected object-oriented budgetary management",
+  "PersonFullName": "Athena Hirthe",
+  "PersonId": 137,
+  "ContactId": 707,
+  "ProjectId": 220,
+  "ProjectName": "Marvin Inc and Sons",
   "IsPublished": false,
-  "AssociateId": 822,
-  "ColorIndex": 463,
-  "IsFree": true,
-  "HasAlarm": true,
+  "AssociateId": 479,
+  "ColorIndex": 534,
+  "IsFree": false,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 812,
-  "PriorityName": "Bradtke LLC",
+  "PriorityId": 711,
+  "PriorityName": "O'Conner, Marvin and Beier",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsBookingMain": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2003-04-18T11:16:08.5532593+02:00",
+  "ActiveDate": "2020-10-07T12:57:32.836539+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-03-20T11:16:08.5532593+01:00",
-  "RecurringEndDate": "2003-03-23T11:16:08.5532593+01:00",
-  "MotherId": 781,
-  "AssignedBy": 257,
-  "AssignedByFullName": "Ernest Goodwin",
+  "RecurringStartDate": "2019-10-10T12:57:32.836539+02:00",
+  "RecurringEndDate": "2021-06-02T12:57:32.836539+02:00",
+  "MotherId": 691,
+  "AssignedBy": 6,
+  "AssignedByFullName": "Dr. Claudie Lueilwitz III",
   "RejectReason": "",
-  "Location": "amet",
-  "AlarmLeadTime": "inventore",
-  "SaleId": 291,
-  "SaleName": "Robel Group",
-  "AssociateName": "Beier-Hegmann",
-  "CreatedDate": "2015-06-17T11:16:08.5532593+02:00",
-  "CreatedBy": "ut",
-  "CreatedByFullName": "Mrs. Marion Thompson",
-  "CreatedByAssociateId": 603,
+  "Location": "eaque",
+  "AlarmLeadTime": "totam",
+  "SaleId": 306,
+  "SaleName": "Trantow-Bauch",
+  "AssociateName": "Blick Inc and Sons",
+  "CreatedDate": "2007-07-04T12:57:32.836539+02:00",
+  "CreatedBy": "nihil",
+  "CreatedByFullName": "Quinton Carter PhD",
+  "CreatedByAssociateId": 17,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 763,
-  "Title": "in",
-  "Agenda": "quibusdam",
-  "InternalNotes": "quia",
+  "PreferredTZLocation": 370,
+  "Title": "omnis",
+  "Agenda": "saepe",
+  "InternalNotes": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldLength": 312
     }
   }
 }

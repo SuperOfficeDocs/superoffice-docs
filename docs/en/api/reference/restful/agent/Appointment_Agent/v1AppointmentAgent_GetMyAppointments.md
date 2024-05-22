@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2000-09-09T11:16:08.6941113+02:00",
-  "EndTime": "2001-01-16T11:16:08.6941113+01:00",
-  "Count": 522
+  "StartTime": "2002-10-31T12:57:33.1959933+01:00",
+  "EndTime": "2002-10-12T12:57:33.1959933+02:00",
+  "Count": 358
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 545,
-    "StartDate": "2016-11-21T11:16:08.6941113+01:00",
-    "EndDate": "2018-12-21T11:16:08.6941113+01:00",
+    "AppointmentId": 72,
+    "StartDate": "2014-04-24T12:57:33.1959933+02:00",
+    "EndDate": "1998-06-08T12:57:33.1959933+02:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Salvatore Deckow",
-    "ContactName": "Jewess LLC",
-    "Description": "Persevering grid-enabled capacity",
-    "PersonFullName": "Mr. Hermina Selena Skiles",
-    "PersonId": 863,
-    "ContactId": 885,
-    "ProjectId": 259,
-    "ProjectName": "Moen LLC",
+    "Task": "eos",
+    "AssociateFullName": "Dr. Esta Erwin Ziemann",
+    "ContactName": "Treutel Inc and Sons",
+    "Description": "De-engineered zero tolerance array",
+    "PersonFullName": "Renee Hand",
+    "PersonId": 900,
+    "ContactId": 899,
+    "ProjectId": 976,
+    "ProjectName": "Feest-Ryan",
     "IsPublished": false,
-    "AssociateId": 44,
-    "ColorIndex": 158,
-    "IsFree": true,
+    "AssociateId": 471,
+    "ColorIndex": 778,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 994,
-    "PriorityName": "Auer LLC",
+    "PriorityId": 805,
+    "PriorityName": "Schneider Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-03-18T11:16:08.6941113+01:00",
+    "ActiveDate": "2004-08-25T12:57:33.1959933+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-09-07T11:16:08.6941113+02:00",
-    "RecurringEndDate": "2024-02-14T11:16:08.6941113+01:00",
-    "MotherId": 516,
-    "AssignedBy": 49,
-    "AssignedByFullName": "Sabryna Farrell",
+    "RecurringStartDate": "2017-04-03T12:57:33.1959933+02:00",
+    "RecurringEndDate": "2018-04-10T12:57:33.1959933+02:00",
+    "MotherId": 744,
+    "AssignedBy": 107,
+    "AssignedByFullName": "Mrs. Raleigh Flatley",
     "RejectReason": "",
-    "Location": "sint",
-    "AlarmLeadTime": "illum",
-    "SaleId": 595,
-    "SaleName": "Yost-Hilll",
-    "AssociateName": "Schulist-Kautzer",
-    "CreatedDate": "2018-06-26T11:16:08.6941113+02:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Dr. Ransom Runolfsdottir",
-    "CreatedByAssociateId": 667,
+    "Location": "numquam",
+    "AlarmLeadTime": "reprehenderit",
+    "SaleId": 299,
+    "SaleName": "Harvey-Daniel",
+    "AssociateName": "Stroman LLC",
+    "CreatedDate": "2016-08-02T12:57:33.1959933+02:00",
+    "CreatedBy": "ullam",
+    "CreatedByFullName": "Miss Taya Keara Stiedemann Sr.",
+    "CreatedByAssociateId": 173,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 641,
-    "Title": "voluptatum",
-    "Agenda": "et",
-    "InternalNotes": "consectetur",
+    "PreferredTZLocation": 215,
+    "Title": "nihil",
+    "Agenda": "excepturi",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldLength": 207
       }
     }
   }

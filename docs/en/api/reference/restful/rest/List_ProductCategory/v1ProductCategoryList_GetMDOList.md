@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=ipsam
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=suscipit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "McCullough-Hilpert",
-    "ToolTip": "Rerum modi velit.",
-    "Deleted": false,
-    "Rank": 721,
-    "Type": "consequuntur",
+    "Id": 391,
+    "Name": "Boehm, Dooley and Ebert",
+    "ToolTip": "Optio qui sit molestiae dolores ipsam sed.",
+    "Deleted": true,
+    "Rank": 617,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Morar Inc and Sons",
-        "ToolTip": "Quibusdam assumenda soluta consequatur.",
+        "Id": 295,
+        "Name": "Hessel, D'Amore and Hessel",
+        "ToolTip": "Animi voluptatibus voluptatem repudiandae amet labore at.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "nobis",
+        "Rank": 951,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 677,
-        "ExtraInfo": "soluta",
-        "StyleHint": "amet",
-        "FullName": "Prof. Roxanne Junius Hackett I",
+        "IconHint": "nihil",
+        "ColorBlock": 924,
+        "ExtraInfo": "nostrum",
+        "StyleHint": "dolores",
+        "FullName": "Verona Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 767
+            "FieldLength": 981
           }
         }
       }
     ],
-    "IconHint": "reiciendis",
-    "ColorBlock": 62,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "omnis",
-    "FullName": "Miss Eugenia Hickle",
+    "IconHint": "quia",
+    "ColorBlock": 405,
+    "ExtraInfo": "et",
+    "StyleHint": "commodi",
+    "FullName": "Mrs. Shawn Annetta Parisian DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 684
       }
     }
   }

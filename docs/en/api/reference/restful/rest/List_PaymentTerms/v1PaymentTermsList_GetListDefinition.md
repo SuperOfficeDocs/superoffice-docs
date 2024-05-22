@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 397,
-  "Name": "Ebert, Stokes and Koch",
-  "Tooltip": "sunt",
+  "Id": 66,
+  "Name": "Mertz Group",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 659,
-  "IsCustomList": true,
+  "Rank": 651,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "ListType": "error",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 956
     }
   },
   "_Links": {
