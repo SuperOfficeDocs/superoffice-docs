@@ -78,4 +78,4 @@ If the script is intended to run as a [scheduled task][1]:
 
 <!-- Referenced links -->
 [1]: ../learn/schedule-task.md
-[2]: ../howto/NSClasses.md
+[2]: ../netserver//NSClasses.md

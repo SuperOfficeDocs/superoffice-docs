@@ -28,7 +28,7 @@ doc.SetPerson(persAgent.GetPerson(personId.toInteger()));
 
 This will create 2 separate requests towards our API: DocumentAgent.CreateDefaultDocumentEntity() and PersonAgent.GetPerson().
 
-[createDefaultDocumentEntity-wrong][1]
+[Incorrect][1]
 
 This is not necessary, and the correct approach would be using the NSPerson instead:
 
@@ -43,7 +43,7 @@ doc.SetPerson(person);
 
 This will only do one request towards our API: DocumentAgent.CreateDefaultDocumentEntity().
 
-[createDefaultDocumentEntity-correct][2]
+[Correct][2]
 
 > [!NOTE]
 > The execution-time of each request will fluctuate in the example
@@ -135,5 +135,5 @@ docAgent.SaveDocumentEntity(doc);
 ```
 
 <!-- Image links -->
-[1]: ./includes/createDefaultDocumentEntity-wrong.png
-[2]: ./includes/createDefaultDocumentEntity-correct.png
+[1]: ./media/create-default-documententity-wrong.png
+[2]: ./media/create-default-documententity-correct.png
