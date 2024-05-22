@@ -58,7 +58,7 @@ Don't use **USEC** variable as login_secret or preview_secret in web panels. Thi
 
 * Don't try to create an app with CRMScript. Scripts are great for small tweaks and customizations.
 
-* Don't use the **[NetServer agents][2]** in a CRMScript unless absolutely necessary. Using SearchEngine or the classes that don't start with NS... will use fewer resources and be faster.
+* Don't use the **[NetServer agents][2]** in a CRMScript unless absolutely necessary. Using SearchEngine or the classes that don't start with NS will use fewer resources and be faster.
 
 ## Scheduled tasks
 
@@ -78,4 +78,4 @@ If the script is intended to run as a [scheduled task][1]:
 
 <!-- Referenced links -->
 [1]: ../learn/schedule-task.md
-[2]: ../netserver//NSClasses.md
+[2]: ../netserver/ns-classes.md

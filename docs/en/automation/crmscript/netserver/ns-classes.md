@@ -1,21 +1,22 @@
 ---
-uid: crmscript-nsclasses
-title: NSClasses
-description: Working with NSClasses in CRMScript
-keywords: NSClasses, NSAgents, NSEntitites
+uid: crmscript-ns-classes
+title: Working with NS classes in CRMScript
+description: Example of how to work with NetServer classes in CRMScript.
+keywords: CRMScript, NetServer, NSAgent, NSEntity, CreateDefaultDocumentEntity(), best practices
 author: Eivind Fasting,
 so.date: 05.20.2024
-so.version: 1
 so.topic: howto
 ---
 
-# Working with NSClasses in CRMScript
+# Working with NS classes in CRMScript
 
-Generally the NetServer Agents should not be used unless absolutely necessary. When an entity is saved the child entities ID values are the only properties looked at, and its overkill to use the agents to instantiate each child entity individually. It creates extra requests towards the API and will consume more resources to execute.
+Generally, the NetServer agents should only be when absolutely necessary. When an entity is saved, the child entities' ID values are the only properties looked at, and it is overkill to use the agents to instantiate each child entity individually. This creates extra requests towards the API and will consume more resources to execute.
 
-This page contains a Simple Example, showing the result of instantiating entitites through the Agents, and a Full/working Example that creates a new DocumentEntity.
+This page illustrates the result of instantiating entities through the agents, and provides sample code that creates a new document entity.
 
-## Simple Example
+## Simplified example
+
+The following code creates 2 separate requests towards our API: `DocumentAgent.CreateDefaultDocumentEntity()` and `PersonAgent.GetPerson()`.
 
 ```crmscript!
 String personId = 4;
@@ -26,11 +27,9 @@ NSPersonAgent persAgent;
 doc.SetPerson(persAgent.GetPerson(personId.toInteger()));
 ```
 
-This will create 2 separate requests towards our API: DocumentAgent.CreateDefaultDocumentEntity() and PersonAgent.GetPerson().
+![Incorrect use of CreateDefaultDocumentEntity() in CRMScript][img1]
 
-[Incorrect][1]
-
-This is not necessary, and the correct approach would be using the NSPerson instead:
+**This is unnecessary!** The correct approach is to use the `NSPerson` instead:
 
 ```crmscript!
 String personId = "4";
@@ -41,16 +40,16 @@ person.SetPersonId(personId.toInteger());
 doc.SetPerson(person);
 ```
 
-This will only do one request towards our API: DocumentAgent.CreateDefaultDocumentEntity().
+The above code does only one request towards our API: `DocumentAgent.CreateDefaultDocumentEntity()`.
 
-[Correct][2]
+![Correct use of CreateDefaultDocumentEntity() in CRMScript][img2]
 
 > [!NOTE]
-> The execution-time of each request will fluctuate in the example
+> The execution-time of each request will fluctuate in the example.
 
-## Full Example
+## Complete sample code
 
-The following is a complete sample for creating a documentEntity by instantiating the agent for each child entity:
+The following is a complete sample for creating a document entity by instantiating the agent for each child entity:
 
 ```crmscript!
 String personId = "1";
@@ -117,7 +116,7 @@ if (personId != "") {
 NSPerson person;
 person.SetPersonId(personId.toInteger());
 doc.SetPerson(person);
-} 
+}
 
 if (contactId != "") {
 NSContact contact;
@@ -134,6 +133,6 @@ doc.SetSale(sale);
 docAgent.SaveDocumentEntity(doc);
 ```
 
-<!-- Image links -->
-[1]: ./media/create-default-documententity-wrong.png
-[2]: ./media/create-default-documententity-correct.png
+<!-- Referenced images -->
+[img1]: ./media/create-default-documententity-wrong.png
+[img2]: ./media/create-default-documententity-correct.png
