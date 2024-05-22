@@ -1231,7 +1231,7 @@ items:
   fullName: CRMScript.Native.EventDataDialogDefinition.setMarkdown(String)
   type: Method
   summary: "\nSets body text using markdown syntax on dialog. If specified this will take presedence over setText()\n"
-  remarks: "\n> [!NOTE] >This is not full markdown but a \"lite\" version.\n<ul><li># - Produces a &lt;h1&gt;</li><li>Newline in current paragraph - adds a &lt;br&gt;</li><li>Blank line - starts a new paragraph. Multiple blank lines in a row will create empty paragraphs.</li><li>Leading * - replaced with &amp;bull;</li><li>Whitelisted tags are preserved (b, i, a, span, p).</li><li>Whitelisted attributes are preserved (class) so to get a section styled differently you may use a span element with a custom class name.</li></ul>"
+  remarks: "\n<b>NOTE</b>\nThis is not full markdown but a \"lite\" version.\n<ul><li># - Produces a &lt;h1&gt;</li><li>Newline in current paragraph - adds a &lt;br&gt;</li><li>Blank line - starts a new paragraph. Multiple blank lines in a row will create empty paragraphs.</li><li>Leading * - replaced with &amp;bull;</li><li>Whitelisted tags are preserved (b, i, a, span, p).</li><li>Whitelisted attributes are preserved (class) so to get a section styled differently you may use a span element with a custom class name.</li></ul>"
   syntax: 
     content: Void setMarkdown(String value)
     parameters:
