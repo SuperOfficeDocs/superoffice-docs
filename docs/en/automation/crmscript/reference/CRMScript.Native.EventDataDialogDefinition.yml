@@ -1242,7 +1242,7 @@ items:
       type: CRMScript.Global.Void
       description:
   example: 
-  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setMarkdown(&quot;Testing testing\n# Title \n* <i>item 1</i>\n* item 2\n* item 3\n* [UrlDispatcher Link](Key)&quot;);\n</code></pre>\n"
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setMarkdown(&quot;[Google it](https://www.google.com)&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getPrefix()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getPrefix()
   id: 'getPrefix()'
