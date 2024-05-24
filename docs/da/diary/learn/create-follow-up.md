@@ -43,7 +43,7 @@ Hvis din SuperOffice har [tidszoner][9] slået til, kan du vælge, hvilken tidsz
 
 Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til perioden angivet som [standard arbejdsdag][8] (indstillingen for **Starttidspunkt for hele dagen** og **Sluttidspunkt for hele dagen**).
 
-![Opfølgingsdialog - screenshot][img7]
+![Opfølgingsdialog -screenshot][img7]
 
 1. Indtast en titel.
 
@@ -55,7 +55,7 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
     * Valgfrit, tilføj møderom, lokaler, eller steder.
     * Valgfrit, tilføj sted eller adresse.
 
-    ![Udvidet opfølgingsdialog - screenshot][img8]
+    ![Udvidet opfølgingsdialog -screenshot][img8]
 
 1. Specificér tid og dato. Klik på **Vis mere** for at indstille [gentagelse][4], "hele dagen", "optaget/fri" og tidszone. Klik på klokkeikonet i overskriften for at [sætte alarm][3].
 

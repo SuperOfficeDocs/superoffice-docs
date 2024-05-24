@@ -69,7 +69,7 @@ Planleggingsassistenten er en del av den nye **Oppfølgings**-dialogen. Den deta
 
 Når du klikker på **Lagre og send**, vises en forhåndsvisning av e-posten basert på tittelen og agendaen. Eventuelle interne notater som er lagt til i oppfølgingen, ekskluderes.
 
-![Oppfølgingsdialog, forhåndsvisning av e-postinvitasjon - screenshot][img13]
+![Oppfølgingsdialog, forhåndsvisning av e-postinvitasjon -screenshot][img13]
 
 1. Oppdater emne og brødtekst i e-posten etter behov. Bruk verktøylinjen for rik tekst i bunnen for å style invitasjonen din.
 

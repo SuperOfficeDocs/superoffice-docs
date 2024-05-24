@@ -30,7 +30,7 @@ Um Details zu einem verknüpften Dokument, einer Folgeaufgabe, einem Verkauf ode
 
 Um einen Link zu entfernen, klicken Sie auf das rote X in dieser Zeile.
 
-![Registerkarte für Links einer Folgeaufgabe - screenshot][img1]
+![Registerkarte für Links einer Folgeaufgabe -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

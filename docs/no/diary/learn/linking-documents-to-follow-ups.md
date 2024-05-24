@@ -30,7 +30,7 @@ For å se detaljer for et lenket dokument, oppfølging, salg eller prosjekt, dob
 
 For å fjerne en kobling, klikk på det røde X-et på den raden.
 
-![Fanen for lenker i en oppfølging - screenshot][img1]
+![Fanen for lenker i en oppfølging -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

@@ -30,7 +30,7 @@ For at se detaljer for et linket dokument, opfølgning, salg eller projekt, dobb
 
 For at fjerne en link, klik på det røde X på den række.
 
-![Fanen for links i en opfølgning - screenshot][img1]
+![Fanen for links i en opfølgning -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

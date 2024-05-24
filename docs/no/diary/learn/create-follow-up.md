@@ -43,7 +43,7 @@ Hvis din SuperOffice har [tidssoner][9] aktivert, kan du velge hvilken tidssone 
 
 Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden som er spesifisert som [standard arbeidsdag][8] (**Starttid for hele dagen** og **Sluttid for hele dagen**-innstillingen).
 
-![Oppfølgingsdialog - screenshot][img7]
+![Oppfølgingsdialog -screenshot][img7]
 
 1. Skriv inn en tittel.
 
@@ -55,7 +55,7 @@ Hvis du markerer **Hele dagen**, blir tiden for oppfølgingen satt til perioden 
     * Valgfritt, legg til møterom, lokasjoner, eller steder.
     * Valgfritt, legg til sted eller adresse.
 
-    ![Utvidet oppfølgingsdialog - screenshot][img8]
+    ![Utvidet oppfølgingsdialog -screenshot][img8]
 
 1. Spesifiser tid og dato. Klikk på **Vis mer** for å angi [gjentakelse][4], "hele dagen", "opptatt/fri" og tidssone. Klikk på klokkeikonet i overskriften for å [sette alarm][3].
 
