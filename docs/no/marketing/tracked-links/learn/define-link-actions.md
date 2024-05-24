@@ -4,8 +4,8 @@ title: Definere automatiske koblingshandlinger
 description: I denne veiledningen lærer du hvordan du bruker koblinger i utsendelser til å automatisere handlinger.
 keywords: Markedsføring
 author: Bergfrid Dias
-so.date: 02.23.2024
-so.version: 10
+so.date: 05.24.2024
+so.version: 10.3.5
 so.topic: howto
 language: no
 so.audience: person
@@ -33,7 +33,7 @@ Du kan utnytte den innsamlede informasjonen på flere måter:
 
 ## Tilgjengelige handlinger
 
-Basert på målet og oppfordringen til handling i e-posten din, kan du oppdatere databasen din. Denne informasjonen kan forbedre segmenteringen eller hjelpe til med oppfølging av interesserte individer.
+Basert på målet og oppfordringen til handling i e-posten din, kan du oppdatere databasen din. Denne informasjonen kan forbedre segmenteringen eller hjelpe til med oppfølging av interesserte individer. Du kan velge mer enn en handling for en sporet kobling.
 
 | Fane | Handling |
 |---|---|
@@ -45,8 +45,8 @@ Basert på målet og oppfordringen til handling i e-posten din, kan du oppdatere
 | [Sak](#request) | Opprett ny sak. |
 | [Skript](#script) | Kjør et skript. |
 
-> [!TIP]
-> Du kan velge mer enn en handling for en sporet kobling
+> [!NOTE]
+> Når du oppdaterer en sporingslenke, må du huske at den kan brukes av flere utsendelser og/eller automatiserte flyter (en pilotfunksjon). Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
 
 ## <a id="response" />Respons
 

@@ -2,19 +2,17 @@
 uid: help-no-licenses
 title: CRM og lisenser
 description: CRM og lisenser
+keywords: lisens, brukerplan, Windows
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: lisens
+so.date: 05.24.2024
+so.version: 10.3.5
 so.topic: concept
 language: no
 ---
 
 # SuperOffice og lisenser
 
-For å logge på SuperOffice CRM fra en webklient trenger du følgende lisenser:
-
-* Påloggingsrettigheter til SuperOffice CRM
-* En systemlisens for Standard CRM
+For å logge på SuperOffice CRM fra en webklient trenger du påloggingsrettigheter til SuperOffice CRM og en Essential eller en Premium brukerplan
 
 ## Vise lisensinformasjon
 
@@ -31,9 +29,8 @@ For å logge på SuperOffice CRM fra en webklient trenger du følgende lisenser:
 | System | Angir hvilke systemer du har tilgang til. |
 | SuperOffice Server | Kreves for å bruke SuperOffice CRM. |
 | Online Web Services | Kreves for å få tilgang til SuperOffice CRM fra en webklient. |
-| Area Management | Tillater definisjon av områder i Innstillinger og vedlikehold. |
 | Sales Intelligence | Tillater [SAINT-statusovervåking][2]. |
-| Exchange Synchronizer | Tillater bruk av SuperOffice Synchronizer.
+| Exchange Synchronizer | Tillater bruk av SuperOffice Synchronizer. |
 | SuperOffice Expander Services | Tillater funksjonalitet for anonyme og eksterne brukere via blant annet SuperOffice Audience eller tredjepartsapplikasjoner. |
 | Kundesenter | Tillater bruk av Kundesenter. |
 | Sales Quote Management | Tillater bruk av tilbud. |
@@ -48,27 +45,26 @@ Det finnes også såkalte sitelisenser. En *site* i SuperOffice-termer tilsvarer
 | Reporter Studio | Maksimalt antall siter som kan bruke SuperOffice Reporter Studio. |
 | Audience | Maksimalt antall siter som kan bruke SuperOffice Audience. |
 
-## Brukerlisenser (Windows – eldre)
+## Brukerplaner
 
-I tillegg finnes det brukerlisenser for SuperOffice CRM for Windows, som kjøpes for et bestemt antall brukere. Det gjelder blant annet følgende produkter:
+Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antall brukere. Dette gjelder blant annet følgende produkter:
 
-| Lisens | Beskrivelse |
-|---|---|
-| Standard CRM-bruker | Tilgang til standard CRM. |
-| Markedsføringsbruker | Tilgang til Markedsføring-modulen (SuperOffice Marketing), i tillegg til Standard CRM. |
-| Salgsbruker | Tilgang til Salg-modulen, i tillegg til Standard CRM. |
-| Servicebruker | Tilgang til SuperOffice Service i tillegg til standard CRM. |
-| Fullstendig CRM-bruker | Tilgang til standard CRM, Salg og SuperOffice Service. |
-| Windows-app | Tilgang til Windows-klienten for SuperOffice CRM. |
-| Remote Travel | Tilgang til Remote Travel, som tillater synkronisering mellom den lokale databasen og den sentrale SuperOffice-databasen når brukeren er på reise. |
-| Pocket CRM | Tilgang til Pocket CRM-appen for SuperOffice CRM. |
-| Outlook Synchronizer | Tilgang til synkronisering med Outlook. |
-| Sale Quote Access | Tilgang til Tilbud-modulen, i tillegg til standard CRM. |
+* Sales-Essentials
+* Sales-Premium
+* Service-Essentials
+* Service-Premium
+* Marketing-Essentials
+* Marketing-Premium
 
-> [!NOTE]
-> Du tilordner brukerlisenser (CAL / Client Access License) til brukere fra **Medarbeidere**-fanen på Brukere-bildet.
+Les mer om [SuperOffice-brukerplaner og abonnement][6].
 
-## Aktuelle emner
+## Sitelisenser og brukerlisenser (Windows – EOL)
+
+Lisenser for SuperOffice CRM for Windows (siste release [SuperOffice G8 8.5 R17][5]) kjøpes for et bestemt antall brukere.
+
+Les mer om lisenser i [tidligere versjoner av SuperOffice][7].
+
+## Relatert innhold
 
 * [Kjøpe og aktivere lisenser][1]
 * [Om Lisenser-bildet][4]
@@ -79,5 +75,8 @@ I tillegg finnes det brukerlisenser for SuperOffice CRM for Windows, som kjøpes
 [2]: ../../../sale/saint/learn/index.md
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
+[5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
+[6]: ../../../../en/admin/license/user-plans.md
+[7]: https://help.superoffice.com/Documentation/Help/NO/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 
 <!-- Referenced images -->

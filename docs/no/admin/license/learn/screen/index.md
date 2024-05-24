@@ -66,7 +66,7 @@ Du finner følgende kolonner under **Systemmeldinger**:
 | Melding | Viser beskrivelse for operasjonen. |
 | Aktivert | Viser når operasjonen ble satt i gang. |
 | Aktivert av | Viser hvem som satt i gang operasjonen (bruker-ID og miniatyrbilde). |
-| Avsluttes | Viser når operasjonen antas å være ferdig.
+| Avsluttes | Viser når operasjonen antas å være ferdig. |
 | Type | Viser om hendelsen gjelder for hele systemet. |
 
 ## Aktuelle emner

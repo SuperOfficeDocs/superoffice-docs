@@ -4,8 +4,8 @@ title: SuperOffice Marketing
 description: "Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet."
 keywords: Markedsføring
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
+so.date: 05.24.2024
+so.version: 10.3.5
 so.topic: concept
 language: no
 so.audience: person
@@ -22,6 +22,7 @@ Ved hjelp av SuperOffice Marketing kan du opprette følgende:
 
 * **Utsendelser** (e-post, SMS, dokumenter og skjemasvar). [Kom i gang med den første utsendelsen][5].
 * **Skjemaer**. [Kom i gang med det første skjemaet][1].
+* **Flyter**. (bare pilot)
 
 Se denne produktomvisningen på video og få en introduksjon til funksjonene i SuperOffice Marketing (videolengde – 2:31):
 
@@ -76,6 +77,23 @@ Det er tre hovedområder der GDPR påvirker arbeidet til markedsførere:
 
 For å kunne dra nytte av markedsføringsfunksjonene i SuperOffice trenger du en grunnleggende forståelse av hvordan du registrerer grunnleggende CRM-data. Det kan for eksempel være kategorier for firma og personer, interesser og abonnementstyper for personer (les mer om GDPR og personvern), og hvordan du bruker utvalg. Disse trinnene for å registrere data hjelper deg med å segmentere kundebasen og lage en effektiv målliste. Hvis du vil vite hvordan du konfigurerer funksjoner knyttet til markedsføring, kan du se seksjonen Administrere lister i Innstillinger og vedlikehold.
 
+## Forskjeller mellom Marketing Essentials og Marketing Premium
+
+* **Essentials:** Verktøyene du trenger for å bedre målrette og kommunisere med prospekter og kunder.
+
+* **Premium:** Låser opp kraften i CRM-data for ​personlig tilpassede og automatiserte kundereiser.​
+
+| Funksjon | Essentials | Premium |
+|---|:-:|:-:|
+| Fange salgsmuligheter​ | x | x |
+| Generere og bearbeide salgsmulighetene ​| | x|
+| Kundekommunikasjon | x | x |
+| Segmenterte e-postkampanjer | x | x |
+| Onboarding og adopsjon​ | | x |
+| Kundereiseautomatisering​ | | x |
+| Kryss-salg og opp-salg​ | | x |
+| Markedsføring/salg samarbeid​ | x | x |
+
 ## Forskjeller mellom installasjoner på stedet og på nettet
 
 SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lokalt program (installert hos kunden). Det finnes mindre forskjeller mellom de to. Spesifikke funksjonsforskjeller er markert med ikonene i selve fremgangsmåtene eller i emnetitler.
@@ -92,6 +110,7 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 | Skjemaer | Inneholder alle skjemaer og oppretter nye. | [Opprette et nytt skjema][1] |
 | Skjemamaler | Inneholder alle skjemamaler. | [Arbeide med skjemamaler][18] |
 | Skjemainnsendinger | Inneholder innsendte skjemaer. | [Skjemainnsendinger][19] |
+| Flyter | Inneholder alle flyter og oppretter nye. | [Opprette ny flyt][20] |
 
 ## Hva vil du gjøre nå?
 
@@ -117,6 +136,7 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
+[20]: ../flows/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

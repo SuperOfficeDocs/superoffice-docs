@@ -4,8 +4,8 @@ title: Beste praksis
 description: Beste praksis
 keywords: Markedsføring
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 02.23.2024
-so.version: 10
+so.date: 05.24.2024
+so.version: 10.3.5
 so.topic: howto
 language: no
 so.audience: person
@@ -76,6 +76,16 @@ Men hvis du legger til en ikke-validerbar eller feilstavet e-postadresse, kan de
 Administratorer kan [legge til validerbart domene][6] i Innstillinger og vedlikehold for å forsikre seg om at brukerne velger riktig og autentisert domene.
 
 Forfattere vil se en melding hvis de bruker en ikke-validerbar e-postadresse i Fra-feltet, som en påminnelse om å bruke autentiserte domener. Dette vil også bidra til å unngå skrivefeil i domenet for e-postutsending.
+
+## Automatisering (bare pilot)
+
+* Spesifiser en maksimal ventetid for å unngå at deltakere forblir aktive i en flyt for alltid.​
+
+* Oppdater deltakere med ny informasjon under flyten​. For eksempel, sett en ny interesse eller en ny kategori mens kontakten utvikler seg; legg til og fjern dem fra lister​.
+
+* For å unngå dupliserte eller motstridende handlinger: Inkluder alle handlinger ett sted, enten i skjemaet eller i flyten.
+
+* Du kan oppnå den samme opplevelsen ved å dele én flyt eller arrangere kommunikasjonen i to forskjellige flyter.​ Om du skal dele eller definere flere flyter avhenger av scenarioet og hvilket resultat du vil spore. ​Jo mer to kommunikasjonsspor har til felles, jo mer effektivt er det for brukeren å arrangere det innenfor samme flyt.​
 
 ## <a id="mobile" />Tilpass meldingen for visning på mobile enheter
 
