@@ -3,8 +3,8 @@ uid: help-nl-follow-up-create
 title: "Vervolgactiviteiten toevoegen"
 description: "Vervolgactiviteiten toevoegen of kopiëren"
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: agenda, vervolgactiviteit, bellen, telefoon, vergadering, tak
 so.topic: howto
 language: nl
@@ -43,36 +43,6 @@ Als uw SuperOffice [tijdzones][9] heeft ingeschakeld, kunt u de tijdzone selecte
 
 Als u **Hele dag** aanvinkt, wordt de tijd van de opvolging ingesteld op de periode die is gespecificeerd als de [standaard werkdag][8] (voorkeur voor **Hele dag starttijd** en **Hele dag eindtijd**).
 
-<!-- markdownlint-disable MD051 -->
-#### [Klassiek](#tab/fields-old)
-
-![Afspraak dialoogvenster -screenshot][img6]
-
-1. Selecteer het type vervolg.
-
-1. Optioneel, selecteer een bedrijf en/of contact waarop de vervolgactiviteit betrekking heeft.
-
-1. Optioneel, selecteer een project en/of verkoop om het te koppelen aan de vervolg. U kunt elk project/verkoop kiezen, ongeacht welk bedrijf u eerder heeft gekozen.
-
-1. Specificeer tijd en datum. Het veld **Duur** wordt automatisch aangepast.
-
-    Als de nieuwe vervolgactiviteit overlapt met een bestaande vervolg, wordt een uitroepteken ![pictogram][img2] getoond naast de start- en stopvelden als herinnering (u kunt de vervolgactiviteit nog steeds toevoegen). Een suggestie voor het eerste beschikbare tijdsinterval wordt getoond. Klik op het voorgestelde tijdstip rechts van **Eerst beschikbaar** om dit tijdstip in plaats daarvan te selecteren.
-
-    Wanneer u een nieuwe taak maakt, wordt er geen tijd weergegeven in de velden **Start** en **Vervaldatum**. De datum van vandaag wordt automatisch ingevoegd, maar u kunt deze wijzigen naar de vereiste datum. De datum geeft de deadline aan voor de taak.
-
-1. Optioneel, selecteer of voer het adres in waar de vervolgactiviteit zal plaatsvinden.
-
-1. Selecteer het tabblad **Beschrijving** om een beschrijving van de vervolgactiviteit toe te voegen (maximaal 2048 tekens).
-1. Selecteer het tabblad **Details** om [herhaling][4], prioriteit, [alarm][3], eigenaar en "weergeven als" in te stellen.
-1. Selecteer het tabblad **Deelnemers** om [deelnemers toe te voegen][5].
-
-> [!TIP]
-> Klik op ![icoon][img5] om een [videomeeting][2] in te stellen.
-
-Sommige informatie wordt automatisch ingevoegd op basis van de context, bijvoorbeeld de datum van vandaag.
-
-#### [Nieuw (vanaf versie 10.2.11 pilot)](#tab/fields-new)
-
 ![Follow-up dialoogvenster -screenshot][img7]
 
 1. Voer een titel in.
@@ -95,9 +65,6 @@ Sommige informatie wordt automatisch ingevoegd op basis van de context, bijvoorb
 
     > [!TIP]
     > Als u de toegang wilt beperken tot alleen medewerkers, plaats dan die inhoud in het tabblad **Interne notities**. Wat hier wordt toegevoegd, wordt niet naar externe deelnemers verzonden. Klik op het klokicoon om een tijdstempel toe te voegen. Een stip op het tabblad geeft aan dat iemand een notitie heeft toegevoegd.
-
-***
-<!-- markdownlint-restore -->
 
 ## Vervolgactiviteiten maken van sectietabblad Activiteiten
 
@@ -172,9 +139,6 @@ U kunt ook een nieuwe follow-up maken door een bestaande follow-up naar een ande
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/warning-red.png
 [img4]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/videocall-off.png
-[img6]: ../../../media/loc/en/diary/appointment-new.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

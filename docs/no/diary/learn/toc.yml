@@ -1,8 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Dialog for oppfølging
-  href: screen/dialog-for-followups.md
 - name: Avtale, telefonsamtale, oppgave
   href: follow-ups.md
 - name: Kalendervisninger

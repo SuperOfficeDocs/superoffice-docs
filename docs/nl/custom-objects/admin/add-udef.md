@@ -55,7 +55,7 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 * [Het tabblad Meer (Bedrijf)][16]
 * [Het tabblad Meer (Contactpersoon)][17]
 * [Het tabblad Meer (Project)][13]
-* [Het tabblad Meer (Vervolgactiviteit)][14]
+* Het tabblad Meer (Vervolgactiviteit)
 * [Het tabblad Meer (Document)][15]
 * [Het tabblad Meer (Verkoop)][19]
 
@@ -84,7 +84,6 @@ Vier van elk type veld (korte tekst, lange tekst, getal, decimaal) zijn doorzoek
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/learn/template-variables.md
 [13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/screen/dialog-for-followups.md
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab

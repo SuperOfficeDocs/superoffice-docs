@@ -55,7 +55,7 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 * [Fliken Mer (företag)][16]
 * [Fliken Mer (kontakt)][17]
 * [Fliken Mer (projekt)][13]
-* [Fliken Mer (händelser)][14]
+* Fliken Mer (händelser)
 * [Fliken Mer (dokument)][15]
 * [Fliken Mer (sälj)][19]
 
@@ -84,7 +84,6 @@ Fyra fält av varje typ (Kort text, Lång text, Nummer och Decimal) är sökbara
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/learn/template-variables.md
 [13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/screen/dialog-for-followups.md
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab

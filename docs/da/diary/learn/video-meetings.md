@@ -27,10 +27,7 @@ SuperOffice-videomøder giver dig mulighed for at planlægge og oprette videomø
 
 ## Opret et videomøde
 
-Du kan nemt oprette et videomøde, når du opretter en opfølgning. Se denne video for at lære, hvordan du opretter et videomøde eller følg nedenstående trin (videolængde - 1:09):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/WuTqnDPx17Q]
+Du kan nemt oprette et videomøde, når du opretter en opfølgning.
 
 ### Trin
 
@@ -98,4 +95,4 @@ Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappe
 [img2]: ../../../../common/icons/videocall.png
 [img3]: ../../../../common/icons/diary-videocall.png
 [img4]: ../../../../common/icons/diary-copy.png
-[img5]: ../../../media/loc/en/diary/appointment-videomeeting-icon.png
+[img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

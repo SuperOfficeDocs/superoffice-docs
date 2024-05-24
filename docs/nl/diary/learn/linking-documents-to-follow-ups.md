@@ -3,7 +3,8 @@ uid: help-nl-activity-add-link
 title: Documenten koppelen aan vervolgactiviteiten
 description: Documenten koppelen aan vervolgactiviteiten
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: CRM
 so.topic: howto
 language: nl
@@ -27,19 +28,9 @@ Om details van een gekoppeld document, vervolgactiviteit, verkoop of project te 
 
 ## Gekoppelde activiteiten verwijderen
 
-<!-- markdownlint-disable MD051 -->
-### [Klassiek](#tab/remove-link-old)
-
-Om de koppeling naar een document, vervolgactiviteit, verkoop of project te verwijderen, selecteer de betreffende rij en klik op **Verwijderen**.
-
-### [Nieuw (vanaf versie 10.2.11 pilot)](#tab/remove-link-new)
-
 Om een koppeling te verwijderen, klik op het rode X op die rij.
 
 ![Tabblad Links van een vervolgactiviteit - schermafbeelding][img1]
-
-***
-<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

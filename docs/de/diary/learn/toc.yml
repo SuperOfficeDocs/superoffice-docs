@@ -1,8 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: Dialogfeld für Folgeaufgabe
-  href: screen/dialog-for-followups.md
 - name: Termin, Telefonanruf, Aufgabe
   href: follow-ups.md
 - name: Kalender-Ansichten

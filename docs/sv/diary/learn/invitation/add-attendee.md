@@ -3,8 +3,7 @@ uid: help-sv-invitation-add-attendee
 title: Lägga till deltagare i händelser
 description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning."
 author: Bergfrid Dias
-so.date: 01.15.2024
-so.version: 10.2.11
+redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: kalender, händelse, förfrågan, deltagare
 so.topic: howto
 language: sv
@@ -14,46 +13,10 @@ language: sv
 
 När du skapar en händelse som omfattar flera kontakter kan du koppla personerna till händelsen som deltagare. Du kan också boka företagets mötesrum och utrustning. Vilka som är tillgängliga som deltagare definieras under Inställningar och underhåll.
 
-Titta på filmen om att [Lägga till deltagare i en bokning][15].
-
 ## Steg
 
 > [!NOTE]
 > Endast ägaren av uppföljningen kan lägga till (och ta bort) deltagare.
-
-<!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/participants)
-
-1. [Öppna eller skapa en uppföljning][3].
-
-    > [!NOTE]
-    > Om du har översikten över andra användare eller resurser öppen läggs de automatiskt till som deltagare i fliken **Deltagare**. Välj dem annars manuellt som beskrivet nedan.
-2. Öppna fliken **Deltagare** och klicka på **Lägg till** i botten.
-
-3. Välj varifrån du vill hämta deltagarna i dialogrutan **Förfrågan**. Välj mellan **Medarbetare**, **Företag/kontakt**, **Projekt**, **Urval** och **Resurs**.
-
-4. I listrutan under fältet **Välj från** väljer du användargruppen, företaget, kontakten, projektet, urvalet eller resursen som du ska hämta deltagare från. Innehållet i listrutan varierar beroende på vad du väljer i steget ovan.
-    * Om du har valt **Medarbetare** eller **Resurser** i steg 3 kan du välja **Alla** i listrutan, så visas kontakter eller resurser från alla grupperna.
-    * Om du har valt **Företag/kontakt**, **Projekt** eller **Urval** i steg 3 kan du söka efter företag, kontakt, projekt eller urval i det här fältet.
-
-5. När du har valt källa visas en lista över alla poster som finns tillgängliga för källan. Markera de användare eller resurser som ska inkluderas i händelsen och klicka på pilknappen till höger om listan ![ikon][img2]. De visas då i fönstrets högra del. Du kan lägga till användare och resurser en i taget genom att dubbelklicka på dem.
-
-    > [!NOTE]
-    > Om någon eller några av personerna är upptagen vid den angivna tidpunkten visas deras namn med rött, så att du enkelt ser om du bör hitta en annan tidpunkt för händelsen. Du kan också bjuda in dem till den nya bokningen och deras sökträff visas då med rött och ordet "KONFLIKT" i dialogrutan för händelser.
-
-6. Klicka på knappen **E-postförfrågan** för att aktivera e-postförfrågningar för alla deltagare på listan (utom dig själv). Ikonen ![ikon][img1] till vänster om deltagarens namn betyder att en e-postförfrågan för händelsen kommer att skickas till deltagaren. Klicka på ![ikon][img1] ikonen bredvid en deltagares namn för att inaktivera e-postförfrågan för denna deltagare. Ikonen ![ikon][img1] ändras till inaktiv ![ikon][img3] och deltagaren får ingen förfrågan via e-post.
-
-    E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din inbjudan kommer statusen automatiskt att uppdateras i SuperOffice. Händelsen visas på detaljkortet **Aktiviteter** under det aktuella företaget.
-
-7. Stäng dialogrutan **Förfrågan** genom att klicka på **OK**. Du ser nu de valda deltagarna och resurserna på fliken **Deltagare**. Du kan klicka på knappen **E-postförfrågan** och ![ikon][img1]-ikonen för att aktivera/inaktivera e-postförfrågningar på samma sätt som i föregående steg.
-    Om någon eller några av kontakterna du har valt inte har en giltig e-postadress registrerad i SuperOffice CRM ändras ![ikon][img1]-ikonen till inaktiv ![ikon][img3] på fliken **Deltagare**.
-
-    > [!NOTE]
-    > Om du har valt användare eller resurser av misstag markerar du dem i listan längst till höger och klickar på **Ta bort** för att ta bort dem.
-
-8. När du har valt deltagare och resurser klickar du på **Spara** för att spara dina val, eller på **Avbryt** för att stänga dialogrutan utan att spara.
-
-### [Ny (från version 10.2.11 pilot)](#tab/attendees)
 
 1. [Öppna eller skapa en händelse][3].
 
@@ -85,10 +48,7 @@ Titta på filmen om att [Lägga till deltagare i en bokning][15].
 
 1. Klicka på **Spara** för att spara alla ändringar.
 
-***
-<!-- markdownlint-restore -->
-
-### <a id="availability" />Schemarådgivare (endast tillgänglig i pilot)
+### <a id="availability" />Schemarådgivare
 
 Schemarådgivaren är en del av den nya **Händelse**-dialogen. Den detaljerade kalendern visar tillgängligheten för varje intern deltagare (kollega). Den översta raden visar den ackumulerade tillgängligheten. Tillgängligheten för externa deltagare och e-postdeltagare är okänd.
 
@@ -105,7 +65,7 @@ Schemarådgivaren är en del av den nya **Händelse**-dialogen. Den detaljerade 
 1. Klicka **OK** när du är klar.
 1. Klicka **Spara** för att spara alla ändringar.
 
-### <a id="preview" />Förhandsgranska och uppdatera inbjudnings-e-post (endast pilot)
+### <a id="preview" />Förhandsgranska och uppdatera inbjudnings-e-post
 
 När du klickar på **Spara och skicka**, visas en förhandsgranskning av e-posten baserat på titeln och dagordningen. Eventuella interna anteckningar som läggs till i händelsen utesluts.
 
@@ -152,12 +112,8 @@ Använda inkorgen i SuperOffice: Om du inte har angett de obligatoriska uppgifte
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: accept-decline.md
-[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/pref-email.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.png
 [img4]: ../../../../../common/icons/history-icon.png
 [img5]: ../../../../../common/icons/favourite-icon.png
 [img6]: ../../../../../common/icons/personblack.png

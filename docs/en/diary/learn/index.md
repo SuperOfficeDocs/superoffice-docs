@@ -18,7 +18,6 @@ The SuperOffice diary consists of a calendar and a todo list and is used similar
 * **Todo list**: shows stuff that you have not yet completed, mostly calls and to-dos without time or date.
 
 ![Keep track of all your meetings and to-dos by registering them in your diary -screenshot][img3]
-<!-- TODO: Retake with new-look side panel for GA -->
 
 The diary is a useful tool when you want to plan and perform different types of activities. From the diary, you can view, edit and delete [activities][16]. You also get a [list of sales][13] to work on, using the **Sales** section tab in the Diary screen.
 

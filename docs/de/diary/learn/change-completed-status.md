@@ -3,8 +3,8 @@ uid: help-de-activity-completed
 title: Status Abgeschlossen für eine Aktivität ändern
 description: Status Abgeschlossen für eine Aktivität ändern
 author: SuperOffice RnD
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: Kalender, Folgeaufgabe
 so.topic: howto
 language: de
@@ -18,29 +18,15 @@ Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren
 
 ## Schritte
 
-Führen Sie eine der folgenden Aktionen aus:
+1. Führen Sie eine der folgenden Aktionen aus:
 
-* Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
+    * Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
+    * Klicken Sie auf das Kontrollkästchen in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde.
+    * Öffnen Sie die Aktivität und wählen Sie **Erledigt**.
 
-* Klicken Sie auf das Kontrollkästchen in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde.
+1. Aktivieren/Deaktivieren Sie das Kontrollkästchen im Fußbereich des Dialogs.
 
-* Öffnen Sie die Aktivität und wählen Sie **Erledigt**.
-
-<!-- markdownlint-disable MD051 -->
-### [Klassisch](#tab/complete-old)
-
-Klicken Sie auf das Häkchen-Symbol oben rechts im Dialogfeld.
-
-![Ändern Sie den abgeschlossenen Status einer Aktivität -Screenshot][img3]
-
-### [Neu (ab Version 10.2.11 Pilot)](#tab/complete-new)
-
-Aktivieren/Deaktivieren Sie das Kontrollkästchen im Fußbereich des Dialogs.
-
-![Ändern Sie den abgeschlossenen Status einer Volgeaufgabe -Screenshot][img4]
-
-***
-<!-- markdownlint-restore -->
+![Ändern Sie den abgeschlossenen Status einer Volgeaufgabe -screenshot][img4]
 
 > [!NOTE]
 > Um eine abgeschlossene Aktivität zu bearbeiten, müssen Sie zunächst den Status **Abgeschlossen** deaktivieren.
@@ -49,5 +35,4 @@ Aktivieren/Deaktivieren Sie das Kontrollkästchen im Fußbereich des Dialogs.
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/sale-sold-details.png
-[img3]: ../../../media/loc/en/diary/completed-activity.png
 [img4]: ../../../media/loc/en/diary/completed.png

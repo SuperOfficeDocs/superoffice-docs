@@ -3,7 +3,8 @@ uid: help-de-activity-add-link
 title: Dokumente mit Folgeaufgaben verknüpfen
 description: Dokumente mit Folgeaufgaben verknüpfen
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: CRM
 so.topic: howto
 language: de
@@ -27,19 +28,9 @@ Um Details zu einem verknüpften Dokument, einer Folgeaufgabe, einem Verkauf ode
 
 ## Verknüpfte Aktivitäten entfernen
 
-<!-- markdownlint-disable MD051 -->
-### [Klassisch](#tab/remove-link-old)
-
-Um Details zu einem verknüpften Dokument, einer Folgeaufgabe, einem Verkauf oder einem Projekt anzuzeigen, doppelklicken Sie darauf.
-
-### [Neu (ab Version 10.2.11 Pilot)](#tab/remove-link-new)
-
 Um einen Link zu entfernen, klicken Sie auf das rote X in dieser Zeile.
 
 ![Registerkarte für Links einer Folgeaufgabe - screenshot][img1]
-
-***
-<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

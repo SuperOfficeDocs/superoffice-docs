@@ -136,7 +136,7 @@ In Instellingen en onderhoud kunt u ook uw eigen weergaven voor het zijpaneel de
 [2]: ../../../contact/learn/create.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
-[6]: ../../../diary/learn/screen/dialog-for-followups.md
+[6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
 [9]: ../../basics/notes.md

@@ -3,7 +3,8 @@ uid: help-no-recurrence-stop
 title: Stoppe repeterende oppfølging
 description: Stoppe repeterende oppfølging
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: dagbok, oppfølging, gjenta, gjenta
 so.topic: howto
 language: no
@@ -15,28 +16,10 @@ Når du stopper repeteringen, slettes alle forekomster av oppfølgingen *etter* 
 
 ## Stopp gjentakelse (behold denne instansen)
 
-<!-- markdownlint-disable MD051 -->
-### [Classic](#tab/fields-old)
-
-1. Velg ønsket oppfølging i dagboken eller på detaljkortet **Aktiviteter** i Firma-, Person-, Dagbok-, Salg- eller Prosjekt-bildet. Dialogboksen **Avtale**, **Oppgave** eller **Samtale** vises.
-
-2. Velg fanen **Detaljer**.
-
-3. Klikk på koblingen til høyre for teksten **Gjentas**.
-
-4. I dialogboksen **Repeterende oppfølginger** klikker du på **Stopp repetering** nederst til venstre. Dialogboksen **Repeterende oppfølginger** lukkes.
-
-5. Klikk på **Lagre** for å lagre endringene, eller klikk på **Avbryt** for å lukke dialogboksen uten å lagre endringene.
-
-### [Ny (fra versjon 10.2.11 pilot)](#tab/fields-new)
-
 1. Åpne oppfølgingen fra Dagboken eller på fanen **Aktiviteter**.
 1. Klikk gjentakelsesikonet ![ikon][img1].
 1. Klikk på **Stopp gjentakelse**.
 1. Klikk på **Lagre** i **Oppfølging**-dialogen for å lagre alle endringer.
-
-***
-<!-- markdownlint-restore -->
 
 ## Slett denne og alle fremtidige instanser
 

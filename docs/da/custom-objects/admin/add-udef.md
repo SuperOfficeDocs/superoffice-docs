@@ -55,7 +55,7 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 * [Fanen Mere (Firma)][16]
 * [Fanen Mere (Person)][17]
 * [Fanen Mere (projekt)][13]
-* [Fanen Mere (opfølgninger)][14]
+* Fanen Mere (opfølgninger)
 * [Fanen Mere (Dokument)][15]
 * [Fanen Detaljer på skærmbilledet Salg][19]
 
@@ -84,7 +84,6 @@ Fire af hver felttype (kort tekst, lang tekst, tal, decimal) er søgbare. Hvis d
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/learn/template-variables.md
 [13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/screen/dialog-for-followups.md
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab

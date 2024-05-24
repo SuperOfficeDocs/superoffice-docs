@@ -55,7 +55,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 * [The More tab (Company)][16]
 * [The More tab (Contact)][17]
 * [The More tab (Project)][13]
-* [The More tab (follow-ups)][14]
+* The More tab (follow-ups)
 * [The More tab (Document)][15]
 * [The More tab (Sale)][19]
 
@@ -84,7 +84,6 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/learn/template-variables.md
 [13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/screen/dialog-for-followups.md
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab

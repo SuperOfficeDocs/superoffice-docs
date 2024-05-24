@@ -3,8 +3,8 @@ uid: help-en-activity-add-link
 title: Add link from Follow-up or Document dialog
 description: Add link from Follow-up or Document dialog
 author: Bergfrid
-so.date: 11.20.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: activity, link, follow-up, document
 so.topic: howto
 language: en
@@ -28,19 +28,9 @@ To view details of a linked document, follow-up, sale, or project, double-click 
 
 ## Remove linked activities
 
-<!-- markdownlint-disable MD051 -->
-### [Classic](#tab/remove-link-old)
-
-To remove the link to a document, follow-up, sale, or project, select the row in question and click **Delete**.
-
-### [New (from version 10.2.11 pilot)](#tab/remove-link-new)
-
 To remove a link, click the red X on that row.
 
 ![Links tab of a follow-up -screenshot][img1]
-
-***
-<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

@@ -3,8 +3,8 @@ uid: help-de-follow-up-create
 title: "Folgeaufgaben hinzufügen"
 description: "Folgeaufgaben hinzufügen oder kopieren"
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Anruf, Telefon, Besprechung
 so.topic: howto
 language: de
@@ -43,34 +43,6 @@ Wenn Ihre SuperOffice [Zeitzonen][9] aktiviert hat, können Sie auswählen, in w
 
 Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [Standard-Arbeitstag][8] festgelegten Zeitraum eingestellt (Voreinstellung für **Startzeit ganztägig** und **Endzeit ganztägig**).
 
-<!-- markdownlint-disable MD051 -->
-#### [Klassisch](#tab/fields-old)
-
-![Termin-Dialogfeld -screenshot][img6]
-
-1. Wählen Sie den Typ der Folgeaufgabe aus.
-
-1. Optional können Sie ein Unternehmen und/oder einen Kontakt auswählen, auf den sich die Folgeaufgabe bezieht.
-
-1. Optional können Sie ein Projekt und/oder einen Verkauf auswählen, um es mit der Folgeaufgabe zu verknüpfen. Sie können jedes Projekt/Verkauf auswählen, unabhängig davon, welches Unternehmen Sie zuvor ausgewählt haben.
-
-1. Geben Sie Zeit und Datum an. Das Feld **Dauer** wird automatisch angepasst.
-
-    Wenn die neue Folgeaufgabe mit einer bestehenden Folgeaufgabe überlappt, wird ein Ausrufezeichen ![Symbol][img2] neben den Start- und Stoppfeldern als Erinnerung angezeigt (Sie können die Folgeaufgabe dennoch hinzufügen). Ein Vorschlag für den ersten verfügbaren Zeitpunkt wird angezeigt. Klicken Sie auf die vorgeschlagene Zeit rechts von **Zuerst verfügbar**, um stattdessen diese Zeit auszuwählen.
-
-    Wenn Sie eine neue Aufgabe erstellen, wird keine Zeit in den Feldern **Start** und **Fällig** angezeigt. Das heutige Datum wird automatisch eingefügt, Sie können es jedoch auf das erforderliche Datum ändern. Das Datum gibt den Termin für die Aufgabe an.
-
-1. Optional können Sie die Adresse auswählen oder eingeben, an der die Folgeaufgabe stattfinden wird.
-
-1. Wählen Sie den Tab **Beschreibung**, um eine Beschreibung der Folgeaufgabe hinzuzufügen (maximal 2048 Zeichen).
-1. Wählen Sie den Tab **Details**, um [Wiederholung][4], Priorität, [Alarm][3], Eigentümer und "als anzeigen" festzulegen.
-1. Wählen Sie den Tab **Teilnehmer**, um [Teilnehmer hinzuzufügen][5].
-
-> [!TIP]
-> Klicken Sie auf ![Symbol][img5], um ein [Videotreffen][2] einzurichten.
-
-#### [Neu (ab Version 10.2.11 Pilot)](#tab/fields-new)
-
 ![Folgeaufgabesdialog -screenshot][img7]
 
 1. Geben Sie einen Titel ein.
@@ -93,9 +65,6 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 
     > [!TIP]
     > Wenn Sie den Zugriff auf Mitarbeiter beschränken möchten, platzieren Sie diesen Inhalt im Tab **Interne Notizen**. Alles, was hier hinzugefügt wird, wird nicht an externe Teilnehmer gesendet. Klicken Sie auf das Uhrsymbol, um einen Zeitstempel hinzuzufügen. Ein Punkt auf dem Tab zeigt an, dass jemand eine Notiz hinzugefügt hat.
-
-***
-<!-- markdownlint-restore -->
 
 ## Folgeaufgaben in der Bereichsregisterkarte Aktivitäten erstellen
 
@@ -170,9 +139,6 @@ Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Fol
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/warning-red.png
 [img4]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/videocall-off.png
-[img6]: ../../../media/loc/en/diary/appointment-new.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png
