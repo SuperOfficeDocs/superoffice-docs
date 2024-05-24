@@ -185,8 +185,6 @@ items:
   href: reference/emailfromtype.md
 - name: EmailPhone
   href: reference/emailphone.md
-- name: Emailrecipient
-  href: reference/emailrecipient.md
 - name: EmailReplyToType
   href: reference/emailreplytotype.md
 - name: Erpactortype

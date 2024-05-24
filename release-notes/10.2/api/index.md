@@ -122,8 +122,8 @@ so.topic: reference
 |IListAgent        | DeleteAppTaskMenus                     |10.2.1   | [REST Link][12] | [SOAP Link][30] |
 |IListAgent        | DeleteTaskMenu                         |10.2.1   | [REST Link][13] | [SOAP Link][31] |
 |IListAgent        | DeleteTicketTypeEntity                 |10.2.8   | [REST Link][151]| [SOAP Link][152]|
-|IListAgent        | GetAllTicketTypeEntities               |10.2.8   | [REST Link][177]| [SOAP Link][178]|
-|IListAgent        | GetTicketType                          |10.2.8   | [REST Link][153]| [SOAP Link][154]|
+|IListAgent        | GetAllTicketTypeEntities               |10.2.8   | removed         | removed         |
+|IListAgent        | GetTicketType                          |10.2.8   | removed         | removed         |
 |IListAgent        | GetTicketTypeEntity                    |10.2.8   | [REST Link][155]| [SOAP Link][156]|
 |IListAgent        | GetTicketTypeList                      |10.2.8   | [REST Link][157]| [SOAP Link][158]|
 |IListAgent        | GetTicketTypes                         |10.2.8   | [REST Link][159]| [SOAP Link][160]|
