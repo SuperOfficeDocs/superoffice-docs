@@ -114,6 +114,8 @@ items:
     items:
     - name: NetServer agents and carriers
       href: netserver/ns-agents-and-carriers.md
+    - name: NS classes
+      href: netserver/ns-classes.md
     - name: CRMScript ArchiveAgent
       href: netserver/crmscript-archiveagent.md
   - name: Parser
