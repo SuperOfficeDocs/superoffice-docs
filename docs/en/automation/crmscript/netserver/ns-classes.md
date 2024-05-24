@@ -10,13 +10,22 @@ so.topic: howto
 
 # Working with NS classes in CRMScript
 
-Generally, the NetServer agents should only be when absolutely necessary. When an entity is saved, the child entities' ID values are the only properties looked at, and it is overkill to use the agents to instantiate each child entity individually. This creates extra requests towards the API and will consume more resources to execute.
+NetServer agents should only be when there isn't an intrinsic CRMScript datatype available. For example, when creating a new company, you should use the `Company` class instead of the `NSContactAgent` class. The `Company` class is a CRMScript datatype, and it is more efficient to use it directly. The same goes for the `Customer`, `Ticket` and `Message` classes.
 
-This page illustrates the result of instantiating entities through the agents, and provides sample code that creates a new document entity.
+| Real World Entity | NetServer Entity   | CRMScript Entity |
+|-------------------|--------------------|------------------|
+| Company           | NSContact          | Company          |
+| Contact           | NSPerson           | Customer         |
+| Ticket Request    | NSTicket           | Ticket           |
+| Ticket Message    | NSTicketMessage    | Message          |
+
+When an entity is saved, only the child entity ID value is used. Therefore, instead of using an agent to instantiate a child entity by ID, simply set the ID value and assign the child entity. This is more efficient and reduces the number of requests to the server.
+
+This following section illustrates the result of instantiating entities through the agents, and provides sample code that creates a new document entity.
 
 ## Simplified example
 
-The following code creates 2 separate requests towards our API: `DocumentAgent.CreateDefaultDocumentEntity()` and `PersonAgent.GetPerson()`.
+The following code invokes two agent methods, sending two distinct requests to the application server, `DocumentAgent.CreateDefaultDocumentEntity()` and `PersonAgent.GetPerson()`.
 
 ```crmscript!
 String personId = 4;
@@ -27,9 +36,11 @@ NSPersonAgent persAgent;
 doc.SetPerson(persAgent.GetPerson(personId.toInteger()));
 ```
 
+The call trace for the above code is as follows:
+
 ![Incorrect use of CreateDefaultDocumentEntity() in CRMScript][img1]
 
-**This is unnecessary!** The correct approach is to use the `NSPerson` instead:
+**This is unnecessary!** The correct approach is to use the `NSPerson` instead, as shown below:
 
 ```crmscript!
 String personId = "4";
@@ -40,16 +51,15 @@ person.SetPersonId(personId.toInteger());
 doc.SetPerson(person);
 ```
 
-The above code does only one request towards our API: `DocumentAgent.CreateDefaultDocumentEntity()`.
+This only sends one request to the application server, `DocumentAgent.CreateDefaultDocumentEntity()`.
+
+The call trace for the above code is as follows:
 
 ![Correct use of CreateDefaultDocumentEntity() in CRMScript][img2]
 
-> [!NOTE]
-> The execution-time of each request will fluctuate in the example.
+## How to write optimized CRMScript code
 
-## Complete sample code
-
-The following is a complete sample for creating a document entity by instantiating the agent for each child entity:
+The following is a bad example, and demonstrates how **not** to creates a document entity:
 
 ```crmscript!
 String personId = "1";
@@ -90,7 +100,7 @@ if (saleId != "") {
 docAgent.SaveDocumentEntity(doc);
 ```
 
-This is should be refactored into:
+A better approach is to avoid the additional agent method requests, and use the ID values directly to set a new instance of each child entity, as shown below:
 
 ```crmscript!
 String personId = "1";
@@ -132,6 +142,12 @@ doc.SetSale(sale);
 
 docAgent.SaveDocumentEntity(doc);
 ```
+
+## Conclusion
+
+When working with NetServer classes in CRMScript, it is important to use the CRMScript entities directly when possible.
+
+Also, when creating a new entity, set the ID value directly on each child entity instead of using an agent fetch a new entity instance. This reduces the number of requests to the application server, and makes your code more efficient.
 
 <!-- Referenced images -->
 [img1]: ./media/create-default-documententity-wrong.png
