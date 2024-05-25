@@ -10,7 +10,7 @@ so.topic: howto
 
 # Working with NS classes in CRMScript
 
-Use a CRMScript entity datatype when available; only use NetServer agents when a suitable CRMScript entity datatype does not exist. For example, when creating a new company, you should use the `Company` class instead of the `NSContactAgent` class. The `Company` class is a CRMScript datatype, and it is more efficient to use it directly. The same goes for the `Customer`, `Ticket` and `Message` classes.
+Use a CRMScript entity datatype when available; only use NetServer agents when a suitable CRMScript entity datatype does not exist. For example, when creating a new company, you should use the `Company` class instead of the `NSContactAgent` class. The `Company` class is a CRMScript datatype, and it is more efficient than NetServer when used directly. The same goes for the `Customer`, `Ticket` and `Message` classes.
 
 | Real World Object | CRMScript Entity | NetServer Entity   |
 |-------------------|------------------|--------------------|
@@ -19,9 +19,25 @@ Use a CRMScript entity datatype when available; only use NetServer agents when a
 | Ticket Request    | Ticket           | NSTicket           |
 | Ticket Message    | Message          | NSTicketMessage    |
 
-When an entity is saved, only the child entity ID value is used. Therefore, instead of using an agent to instantiate a child entity by ID, simply set the ID value and assign the child entity. This is more efficient and reduces the number of requests to the server.
+Using a NetServer entity is more expensive than using a CRMScript entity. When you use a NetServer entity, the system must send a request to the application server through proxy classes to fetch the entity. This does not happen when using a CRMScript entity.
 
-This following section illustrates the result of instantiating entities through the agents, and provides sample code that creates a new document entity.
+When there is no other option, and you must use a NetServer agent, there is one key point to know when saving an entity: for each child entity only the child entity ID value is required.
+
+```crmscript!
+// Document entity
+NSDocumentEntity doc;
+
+// Document child entities
+NSAssociate associate = doc.GetAssociate();
+NSContact contact     = doc.GetContact();
+NSPerson person       = doc.GetPerson();
+NSProject project     = doc.GetProject();
+NSSale sale           = doc.GetSale();
+```
+
+You should not fetch each child entity using an agent. Instead, simply set the ID value and assign the child entity. This is more efficient and reduces the number of requests to the server.
+
+This following section illustrates the point by creating a new document entity and fetching child entities using agents.
 
 ## Simplified example
 
@@ -40,7 +56,13 @@ The call trace for the above code is as follows:
 
 ![Incorrect use of CreateDefaultDocumentEntity() in CRMScript][img1]
 
-**This is unnecessary!** The correct approach is to use the `NSPerson` instead, as shown below:
+**That is inefficient code.** The correct approach is to:
+
+1. create the `NSPerson`
+2. set the person ID value
+3. assign the person to the document entity
+
+The following code demonstrates the correct approach:
 
 ```crmscript!
 String personId = "4";
