@@ -10,14 +10,14 @@ so.topic: howto
 
 # Working with NS classes in CRMScript
 
-NetServer agents should only be when there isn't an intrinsic CRMScript datatype available. For example, when creating a new company, you should use the `Company` class instead of the `NSContactAgent` class. The `Company` class is a CRMScript datatype, and it is more efficient to use it directly. The same goes for the `Customer`, `Ticket` and `Message` classes.
+Use a CRMScript entity datatype when available; only use NetServer agents when a suitable CRMScript entity datatype does not exist. For example, when creating a new company, you should use the `Company` class instead of the `NSContactAgent` class. The `Company` class is a CRMScript datatype, and it is more efficient to use it directly. The same goes for the `Customer`, `Ticket` and `Message` classes.
 
-| Real World Entity | NetServer Entity   | CRMScript Entity |
-|-------------------|--------------------|------------------|
-| Company           | NSContact          | Company          |
-| Contact           | NSPerson           | Customer         |
-| Ticket Request    | NSTicket           | Ticket           |
-| Ticket Message    | NSTicketMessage    | Message          |
+| Real World Object | CRMScript Entity | NetServer Entity   |
+|-------------------|------------------|--------------------|
+| Company           | Company          | NSContact          |
+| Contact           | Customer         | NSPerson           |
+| Ticket Request    | Ticket           | NSTicket           |
+| Ticket Message    | Message          | NSTicketMessage    |
 
 When an entity is saved, only the child entity ID value is used. Therefore, instead of using an agent to instantiate a child entity by ID, simply set the ID value and assign the child entity. This is more efficient and reduces the number of requests to the server.
 
