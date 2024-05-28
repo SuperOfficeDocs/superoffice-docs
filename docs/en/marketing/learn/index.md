@@ -86,7 +86,7 @@ To benefit from SuperOffice marketing features, you need a basic understanding o
 | Feature | Essentials | Premium |
 |---|:-:|:-:|
 | Lead capture​ | x | x |
-| Lead generation and lead nurturing ​ | | x|
+| Lead generation and lead nurturing ​| | x|
 | Customer communications | x | x |
 | Segmented email campaigns | x | x |
 | Onboarding and adoption​ | | x |

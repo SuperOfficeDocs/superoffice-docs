@@ -2,30 +2,38 @@
 uid: help-no-marketing-create-folder
 title: Slik oppretter du en mappe i Markedsføring
 description: Slik oppretter du en mappe i Markedsføring
-author: SuperOffice RnD
-so.date: 09.07.2022
-keywords: Markedsføring
-so.topic: help
+keywords: Markedsføring, mappe
+author: Bergfrid Dias
+so.date: 05.24.2024
+so.version: 10.3.5
+so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Hvordan opprette en mappe
 
-Det er alltid en god idé å definere en godt organisert mappestruktur for å få bedre oversikt over utsendelser, skjemaer, maler, koblinger og bilder i SuperOffice Markedsføring.
+Det er alltid en god idé å definere en godt organisert mappestruktur for å få bedre oversikt over dine utsendelser, skjemaer, flyter, maler, koblinger og bilder i SuperOffice Marketing.
 
-Du kan opprette undermapper i alle mapper, og i hver av disse mappene kan du legge de utsendelsene, skjemaene, malene, koblingene og bildene som hører hjemme der.
+## Trinn
 
-**Trinn:**
+1. Velg en av hovedfanene i SuperOffice Marketing.
 
-1. Velg en av hovedfanene i SuperOffice Markedsføring.
+2. Klikk på knappen **Legg til mappe**.
 
-2. Valgfritt: Åpne en eksisterende mappe for å opprette en undermappe. Det kan hende du må klikke på knappen **Alle ...** først.
+3. Angi et beskrivende mappenavn i feltet **Navn**.
 
-3. Klikk på knappen **Legg til mappe** ![icon][img1]. Dialogboksen **Egenskaper for mappe** vises.
+4. Klikk på **OK**. Hvis den nye mappen ikke vises i listen, velg enten **Mine ...** eller **Alle ...**-fanen.
 
-4. Angi et beskrivende navn på mappen i feltet **Navn**.
+## Undermapper
 
-5. Klikk på **OK**. Hvis mappen ikke vises i listen, klikker du på knappen **Mine ...** eller **Alle ...**.
+Du kan opprette undermapper i alle mapper, og du kan plassere passende markedsføringsmateriale i hver av disse mappene.
+
+Gjør ett av følgende:
+
+* Åpne en eksisterende mappe før du klikker på **Legg til mappe**. Du må kanskje først velge **Alle ...**-fanen.
+
+* Klikk først på **Legg til mappe** og velg deretter en overordnet mappe fra **Opprett som undermappe i**-listen.
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/folder.png

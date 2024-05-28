@@ -26,7 +26,7 @@ To view statistics about your flow, go to the **Flows** tab and click the flow i
 
 ## Tabs with flow statistics
 
-* **Summary**: Essential information about the flow and some key metrics
+* **Summary:** Essential information about the flow and some key metrics
 
   * **Trigger:** The flow's starting point defining WHEN a person is suggested as a participant.
   * **Success criteria:** What the user wants to achieve by this automation.
@@ -37,7 +37,7 @@ To view statistics about your flow, go to the **Flows** tab and click the flow i
 
   **Essential info:** status (Not running/Running/Pause), owner, visible for (associate/group/all), last updated, description
 
-* **Reports**: Displays charts with statistics for the flow, used to monitor its performance. A read-only dashboard with predefined tiles. The dataset is restricted to the current flow - no filtering.
+* **Reports:** Displays charts with statistics for the flow, used to monitor its performance. A read-only dashboard with predefined tiles. The dataset is restricted to the current flow - no filtering.
 
 * **Participants:** Presents a [list of all participants][1] within the flow.
 

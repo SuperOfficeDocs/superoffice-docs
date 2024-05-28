@@ -54,7 +54,7 @@ Everyone else exit:
 ![Marketing automation: split flow based on contact data -screenshot][img2]
 
 > [!NOTE]
-> You cannot delete the "everyone else" branch
+> You cannot delete the "everyone else" branch.
 
 ### Split based on contact data
 

@@ -35,10 +35,10 @@ The drag-and-drop flow designer is your tool for building these dynamic flows.
 
 ## <a id="ex" />Use cases
 
-* **Welcome new customers**: Send personalized emails, discounts, and share your brand story. Support the onboarding of new products.
-* **Engagement campaigns**: Keep active customers engaged and informed with relevant content, product updates, and exclusive offers.
-* **Up/cross sell campaigns**: Recommend related items based on purchase history or behaviors to drive revenue.
-* **Event sign-up processes**: Including reaching out via SMS, webinar reminders, and follow-up.
+* **Welcome new customers:** Send personalized emails, discounts, and share your brand story. Support the onboarding of new products.
+* **Engagement campaigns:** Keep active customers engaged and informed with relevant content, product updates, and exclusive offers.
+* **Up/cross sell campaigns:** Recommend related items based on purchase history or behaviors to drive revenue.
+* **Event sign-up processes:** Including reaching out via SMS, webinar reminders, and follow-up.
 
 ## What is a flow
 
@@ -84,7 +84,7 @@ At the top, you can see the flow's name and its location within the folder struc
 
 |Option | Description |
 |---|---|
-| Running | Toggle this slider button to start or pause the form. |
+| Running | Toggle this slider button to start or pause the flow. |
 | Edit | Opens the flow in edit mode. |
 
 The **View flow** screen consists of the following tabs:

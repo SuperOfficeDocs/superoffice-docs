@@ -4,8 +4,8 @@ title: Definer skjemahandlinger
 description: Definer skjemahandlinger
 keywords: skjema, automatisering, skjemahandlinger, skjemainnsending
 author: SuperOffice RnD
-so.date: 03.07.2024
-so.version: 10
+so.date: 05.24.2024
+so.version: 10.3.5
 so.topic: howto
 language: no
 so.audience: person
@@ -59,6 +59,9 @@ Her kan du velge handlinger som skal utføres når et skjema behandles (automati
 * **Standard kategori** / **Standard bransje**: Velg en standard kategori og bransje for alle personer eller firmaer som legges til SuperOffice basert på innsendte skjemaer. Med dette alternativet kan du gruppere skjemainnleveringer og nye personer/firma til en bestemt kategori og/eller bransje.
 
     Hvis du for eksempel har et skjema for potensielle kunder, velger du potensielle kunder som kategori. Deretter kan du enkelt opprette utvalg basert på denne kategorien og/eller bransje.
+
+> [!NOTE]
+> Når du oppdaterer et skjema, må du huske at det kan brukes i flere utsendelser og/eller automatiserte flyter (en pilotfunksjon). Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
 
 ## Hva vil du gjøre nå?
 

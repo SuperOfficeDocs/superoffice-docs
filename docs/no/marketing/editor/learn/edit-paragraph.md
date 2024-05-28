@@ -30,7 +30,7 @@ so.audience.tooltip: SuperOffice Marketing
 
 3. Rediger teksten ved å bruke knappene på verktøylinjen.
 
-4. Klikk på**Flettefelt** (samme som malvariabler) for å [sette inn flettekoder i meldingen][2].
+4. Klikk på **Flettefelt** (samme som malvariabler) for å [sette inn flettekoder i meldingen][2].
 
 5. [Legg til sporede koblinger i meldingen][8]. Du kan for eksempel legge til en kobling på en informasjonsside for et produkt. Du kan opprette en ny kobling eller legge til en eksisterende kobling.
 
