@@ -147,8 +147,7 @@ Some key properties are described more in detail, as they are relevant to unders
 1. WorkflowTriggerId - This is the unique identification of the Trigger. This is set by the system upon saving the Flow, and should not be set manually.
 2. WorkflowId - Unique Id for the EmailFlow. This will automatically be set to the id of the Flow, if the Trigger is a part of the object passed inn when saving the Flow.
 3. TriggerType - Name of the [type of trigger][6] that is being created. Note that its the name of the TriggerType and not the enumValue that should be inserted!
-4. RestrictionGroups - This are the actual restriction/selection for what the Trigger should execute on.
-//TODO: Explain what this actually means. How can we fetch a list of available restrictionColumns based on TriggerType? Or else developers will have to test them one-by-one and that it not very efficient.
+4. RestrictionGroups - This are the actual restriction/selection for what the Trigger should execute on. RestrictionGroups look similar to how ArchiveRestrictionGroup work for [Find][11].
 
 Example of edited Trigger object
 
@@ -410,3 +409,4 @@ It is also possible to get an existing Flow through the [GetEmailFlow_Agent][10]
 [8]: ../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md
 [9]: ../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
 [10]: ../reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetEmailFlow.md
+[11]: ../../api/search/find-selection/index.md

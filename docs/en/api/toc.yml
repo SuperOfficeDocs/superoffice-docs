@@ -184,6 +184,8 @@ items:
     href: custom-objects/howto/custom-objects-delete-row.md
   - name: Search
     href: custom-objects/howto/custom-objects-search.md
+- name: Flows
+  href: flows/index.md
 - name: Logging
   href: logging/index.md
   items:
