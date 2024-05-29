@@ -124,7 +124,7 @@ The [CreateDefaultWorkflowTrigger][5] endpoint in the REST API will return a pre
 Request
 
 ```curl
-POST {{api_url}}{{AgentEndpoint}}CreateDefaultWorkflowTrigger
+POST {{api_url}}/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Bearer {{access_token}}
 Accept: application/json
 ```
@@ -291,12 +291,18 @@ If no Rank is defined in the Step object, the system will automatically decide R
 
 ### Putting it together
 
-With the edits explained above, the Email Flow object should look like the following:
+The final POST, with the final json/body, should look like this:
 
-```json
+```http
+POST {{api_url}}/v1/Agents/Workflow/SaveEmailFlow
+Authorization: Bearer {{access_token}}
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
 {
   "EmailFlowId": 0,
-  "Name": "My first flow",
+  "Name": "Rad",
   "Description": "",
   "Status": "Stopped",
   "JumpToFinish": false,
