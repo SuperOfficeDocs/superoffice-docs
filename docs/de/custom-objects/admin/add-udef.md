@@ -55,7 +55,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefin
 * [Registerkarte Mehr (Firma)][16]
 * [Registerkarte Mehr (Person)][17]
 * [Registerkarte Mehr (Projekt)][13]
-* Registerkarte Mehr (Folgeaufgaben)
+* [Registerkarte Mehr (Folgeaufgaben)][14]
 * [Registerkarte Mehr (Dokument)][15]
 * [Registerkarte Mehr (Verkauf)][19]
 
@@ -84,6 +84,7 @@ Vier von jedem Feldtyp (Kurzer Text, Langer Text, Nummer, Dezimalzahl) sind such
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/learn/template-variables.md
 [13]: ../../project/learn/index.md#more-tab
+[14]: ../../diary/learn/follow-ups.md#more-tab
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab

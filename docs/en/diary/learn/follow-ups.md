@@ -3,8 +3,8 @@ uid: help-en-follow-ups
 title: Follow-ups
 description: Follow-ups - meeting, to-do, call
 author: Bergfrid Dias
-so.date: 11.20.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, attendee, participant
 so.topic: concept
 language: en
@@ -92,6 +92,10 @@ The default duration is 1 hour for a meeting and 15 minutes for a call. To chang
 1. Enter a value for one or both of these values and click **Save**.
     * **Duration for new appointment**
     * **Duration of a new phone call**
+
+## <a id="more-tab" />The More tab
+
+The **More** tab displays user-defined fields for the follow-up. If your organization needs more fields than the default fields for follow-ups, you can specify in Settings and maintenance that these fields will be inserted here.
 
 ## Related content
 

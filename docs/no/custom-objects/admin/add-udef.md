@@ -55,7 +55,7 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 * [Mer-fanen (Firma)][16]
 * [Mer-fanen (Kontaktperson)][17]
 * [Mer-fanen (Prosjekt)][13]
-* Mer-fanen (Oppfølginger)
+* [Mer-fanen (Oppfølginger)][14]
 * [Mer-fanen (Dokument)][15]
 * [Mer-fanen (Salg)][19]
 
@@ -84,6 +84,7 @@ Fire av hver felttype (Kort tekst, Lang tekst, Nummer, Desimaltall) er søkbare.
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/learn/template-variables.md
 [13]: ../../project/learn/index.md#more-tab
+[14]: ../../diary/learn/follow-ups.md#more-tab
 [15]: ../../document/learn/screen/index.md
 [16]: ../../company/learn/create.md#more-tab
 [17]: ../../contact/learn/create.md#more-tab

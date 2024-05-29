@@ -1,10 +1,10 @@
 ---
-uid: help-nl-vervolgactiviteits
+uid: help-nl-follow-ups
 title: Vervolgactiviteit
 description: Vervolgactiviteit - Vergadering, taak, gesprekken
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen, taak, gesprekken
 so.topic: concept
 language: nl
@@ -84,7 +84,7 @@ Een *gesprek* vertegenwoordigt een zeer specifieke handeling - het telefoongespr
   * Het begintijdstip wordt de huidige tijd en de datum van vandaag.
   * De standaardduur is 15 minuten.
 
-### Standaard duur
+## Standaard duur
 
 De standaardduur van een vergadering is één uur en 15 minuten van een gesprek. U kunt standaardwaarden aanpassen.
 
@@ -93,6 +93,10 @@ De standaardduur van een vergadering is één uur en 15 minuten van een gesprek.
 1. Voer een waarde in voor één of beide van deze waarden en klik op **Opslaan**.
     * **Duur van nieuwe afspraak**
     * **Duur van nieuw gesprek**
+
+## <a id="more-tab" />Het tabblad Meer
+
+Het tabblad **Meer** bevat door gebruikers gedefinieerde velden voor de vervolgactiviteit. Wanneer voor de organisatie meer velden nodig zijn dan de standaardvelden voor vervolgactiviteiten, kan in Instellingen en onderhoud worden ingesteld dat hier extra velden worden weergegeven.
 
 ## Gerelateerde inhoud
 
