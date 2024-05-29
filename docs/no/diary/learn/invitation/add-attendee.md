@@ -3,8 +3,7 @@ uid: help-no-invitation-add-attendee
 title: Legge til deltakere i oppfølginger
 description: "Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale."
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 keywords: dagbok, oppfølging, invitasjon, deltaker
 so.topic: howto
 language: no
@@ -14,47 +13,10 @@ language: no
 
 Når du oppretter en oppfølging som omfatter flere enn deg selv, kan du knytte personene til oppfølgingen som deltakere. Du kan også reservere møterom og utstyr i organisasjonen. Hvem som er tilgjengelige som deltakere, defineres i Innstillinger og vedlikehold.
 
-Se videoen [Legge til deltakere i en avtale][15].
-
 ## Trinn
 
 > [!NOTE]
 > Bare eieren av oppfølgingen kan legge til (og fjerne) deltakere.
-
-<!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/participants)
-
-1. [Åpne eller opprett en oppfølging][3].
-
-    > [!NOTE]
-    > Hvis du har oversikten over andre brukere eller ressurser åpen, blir de automatisk lagt til som deltakere i fanen **Deltakere**. Ellers velger du dem manuelt som beskrevet nedenfor.
-
-2. Åpne fanen **Deltakere** og klikk på **Legg til** i bunnen.
-
-3. I dialogboksen **Invitasjon** velger du hvor du vil hente deltakerne fra. Velg mellom **Medarbeidere**, **Firma/person**, **Prosjekt**, **Utvalg** og **Ressurs**.
-
-4. I listeboksen like under feltet **Velg fra** velger du brukergruppen, firmaet, personen, prosjektet, utvalget eller ressursen du vil hente deltakerne fra. Innholdet i denne listeboksen varierer etter hva du valgte i trinnet over.
-    * Hvis du valgte **Medarbeidere** eller **Ressurs** i trinn 3, kan du velge **Alle** i listeboksen for å vise personene eller ressursene i alle gruppene.
-    * Hvis du valgte **Firma/person**, **Prosjekt** eller **Utvalg** i trinn 3, kan du søke etter ønsket firma, person, prosjekt eller utvalg fra dette feltet.
-
-5. Når du har valgt ønsket kilde, vises en liste over alle oppføringer som er tilgjengelige for denne kilden. Merk brukerne eller ressursene oppfølgingen skal omfatte, og klikk deretter på pilknappen til høyre for listen ![ikon][img2]. De vises da på høyre side av vinduet. Du kan også legge til brukere og ressurser enkeltvis ved å dobbeltklikke på dem.
-
-    > [!NOTE]
-    > Hvis noen av personene er opptatt på det tidspunktet du har angitt, vises navnet deres med rødt, slik at du enkelt ser om du bør finne et annet tidspunkt for oppfølgingen. Du kan likevel invitere dem til den nye avtalen, og oppføringen deres vises da med rødt og ordet "KONFLIKT" i dialogboksen for oppfølginger.
-
-6. Klikk på knappen **E-postinvitasjon** for å aktivere e-postinvitasjoner for alle deltakerne i listen (unntatt deg selv). Ikonet ![ikon][img1] til venstre for deltakernavnet angir at den aktuelle deltakeren vil motta invitasjon til oppfølgingen via e-post. Klikk på ![ikon][img1] ikonet ved siden av navnet på en deltaker for å deaktivere e-postinvitasjon for denne deltakeren. Ikonet ![ikon][img1] endres til inaktivt ![ikon][img3], og deltakeren vil ikke motta invitasjon via e-post.
-
-    E-postinvitasjoner som sendes til eksterne personer, inneholder en iCal-fil (.ics) sammen med invitasjonsdataene. Når de svarer på invitasjonen din, oppdateres statusen automatisk i SuperOffice. Oppfølgingen vises på detaljkortet **Aktiviteter** for det aktuelle firmaet.
-
-7. Klikk på **OK** for å lukke dialogboksen **Invitasjon**. Du ser nå de valgte deltakerne og ressursene i fanen **Deltakere**. Du kan klikke på knappen **E-postinvitasjon** og ![ikon][img1] ikonet for å aktivere/deaktivere e-postinvitasjoner, på samme måte som i forrige trinn.
-    Hvis noen av personene du valgte, ikke har en gyldig e-postadresse registrert i SuperOffice CRM, endres ![ikon][img1] ikonet til inaktivt ![ikon][img3] i fanen **Deltakere** .
-
-    > [!NOTE]
-    > Hvis du har valgt brukere eller ressurser ved en feiltakelse, merker du dem i listen lengst til høyre, og deretter klikker du på **Slett** for å fjerne dem.
-
-8. Når du har valgt deltakere og ressurser, klikker du på **Lagre** for å lagre det du har valgt, eller på **Avbryt** for å gå ut av dialogboksen uten å lagre.
-
-### [Ny (fra versjon 10.2.11 pilot)](#tab/attendees)
 
 1. [Åpne eller opprett en oppfølging][3].
 
@@ -86,14 +48,11 @@ Se videoen [Legge til deltakere i en avtale][15].
 
 1. Klikk på **Lagre** for å lagre alle endringer.
 
-***
-<!-- markdownlint-restore -->
-
-### <a id="availability" />Planleggingsassistent (kun tilgjengelig i pilot)
+### <a id="availability" />Planleggingsassistent
 
 Planleggingsassistenten er en del av den nye **Oppfølgings**-dialogen. Den detaljerte kalenderen viser tilgjengeligheten til hver intern deltaker (kollega). Den øverste raden viser den akkumulerte tilgjengeligheten. Tilgjengeligheten til eksterne deltakere og e-postdeltakere er ukjent.
 
-![Oppfølgingsdialog, planleggingsassistent - skjermbilde][img18]
+![Oppfølgingsdialog, planleggingsassistent -screenshot][img18]
 
 1. I **Oppfølgings**-dialogen, klikk på **Sjekk tilgjengelighet.**
 
@@ -106,11 +65,11 @@ Planleggingsassistenten er en del av den nye **Oppfølgings**-dialogen. Den deta
 1. Klikk **OK** når du er ferdig.
 1. Klikk **Lagre** for å lagre alle endringer.
 
-### <a id="preview" />Forhåndsvisning og oppdater invitasjons-e-post (kun pilot)
+### <a id="preview" />Forhåndsvisning og oppdater invitasjons-e-post
 
 Når du klikker på **Lagre og send**, vises en forhåndsvisning av e-posten basert på tittelen og agendaen. Eventuelle interne notater som er lagt til i oppfølgingen, ekskluderes.
 
-![Oppfølgingsdialog, forhåndsvisning av e-postinvitasjon - skjermbilde][img13]
+![Oppfølgingsdialog, forhåndsvisning av e-postinvitasjon -screenshot][img13]
 
 1. Oppdater emne og brødtekst i e-posten etter behov. Bruk verktøylinjen for rik tekst i bunnen for å style invitasjonen din.
 
@@ -153,12 +112,8 @@ Bruke innboksen i SuperOffice: Hvis du ikke har angitt nødvendig informasjon i 
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: accept-decline.md
-[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/pref-email.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.png
 [img4]: ../../../../../common/icons/history-icon.png
 [img5]: ../../../../../common/icons/favourite-icon.png
 [img6]: ../../../../../common/icons/personblack.png

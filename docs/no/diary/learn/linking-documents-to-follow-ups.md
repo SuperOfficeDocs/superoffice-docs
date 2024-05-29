@@ -3,7 +3,8 @@ uid: help-no-activity-add-link
 title: Knytte dokumenter til oppfølginger
 description: Knytte dokumenter til oppfølginger
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: CRM
 so.topic: howto
 language: no
@@ -27,19 +28,9 @@ For å se detaljer for et lenket dokument, oppfølging, salg eller prosjekt, dob
 
 ## Fjerne tilknyttede aktiviteter
 
-<!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/remove-link-old)
-
-For å fjerne koblingen til et dokument, oppfølging, salg eller prosjekt, velg raden det gjelder, og klikk **Slett**.
-
-### [Ny (fra versjon 10.2.11 pilot)](#tab/remove-link-new)
-
 For å fjerne en kobling, klikk på det røde X-et på den raden.
 
-![Fanen for lenker i en oppfølging - skjermbilde][img1]
-
-***
-<!-- markdownlint-restore -->
+![Fanen for lenker i en oppfølging -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

@@ -14,47 +14,10 @@ language: da
 
 Når du opretter en opfølgning, som omfatter flere personer end dig selv, kan du knytte personerne til opfølgningen som deltagere. Du kan også reservere mødelokaler og udstyr i organisationen. De personer, der er tilgængelige som deltagere, defineres i Indstillinger og vedligeholdelse.
 
-Se videoen for [Føj deltagere til en aftale][15].
-
 ## Trin
 
 > [!NOTE]
 > Kun ejeren af opfølgningen kan tilføje (og fjerne) deltagere.
-
-<!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/participants)
-
-1. [Åbn eller opret en opfølgning][3].
-
-    > [!NOTE]
-    > Hvis du har oversigten over andre brugere eller ressourcer åben, bliver de automatisk indtastet som deltagere i fanen **Deltagere**. Ellers vælg dem manuelt som beskrevet nedenfor.
-
-2. Åbn fanen **Deltagere** og klik på **Tilføj** i bunden.
-
-3. I dialogboksen **Invitation** kan du vælge, hvor du vil hente deltagerne fra. Vælg mellem **Medarbejdere**, **Firma/person**, **Projekt**, **Udvalg** og **Ressource**.
-
-4. I rullemenuen lige under feltet **Vælg fra** kan du vælge brugergruppen, firmaet, projektet, udvalget eller ressourcen, du vil hente deltagerne fra. Indholdet i denne rullemenu varierer, alt efter hvad du har valgt i forrige trin.
-    * Hvis du har valgt **Medarbejdere** eller **Ressourcer** i trin 3, kan du vælge **Alle** i rullemenuen for at vise personerne eller ressourcerne i alle grupperne.
-    * Hvis du har valgt **Firma/person**, **Projekt** eller **Udvalg** i trin 3, kan du søge efter ønsket firma, person, projekt eller udvalg i dette felt.
-
-5. Når du har valgt den ønskede kilde, vises en liste over alle de poster, som er tilgængelige for denne kilde. Marker brugerne eller ressourcerne, som opfølgningen skal omfatte, og klik på pileknappen til højre for listen ![ikon][img2]. De vises nu til højre i vinduet. Du kan også tilføje brugere og ressourcer enkeltvist ved at dobbeltklikke på dem.
-
-    > [!NOTE]
-    > Hvis nogen af personerne er optaget på det tidspunkt, du har angivet, vises deres navn med rødt, så du nemt kan se, om du skal finde et andet tidspunkt for opfølgningen. Du kan dog altid invitere dem til den nye aftale, hvorefter deres post vises med rødt og ordet "KONFLIKT" i dialogboksen for opfølgninger.
-
-6. Klik på knappen **E-mailinvitation** for at aktivere e-mailinvitationer for alle deltagere på listen (undtagen dig selv). Ikonet ![ikon][img1] til venstre for deltagerens navn betyder, at der er sent en e-mailinvitation til opfølgningen vil blive sendt til denne deltager. Klik på ikonet ![ikon][img1] ud for en deltagers navn for at deaktivere e-mailinvitationen for denne deltager. Ikonet ![icon][img1] ændres til inaktivt ![ikon][img3], og deltageren modtager ikke en invitation via e-mail.
-
-    E-mails med invitationer, der sendes til eksterne kontaktpersoner, indeholder et iCal-arkiv (.ics) med invitationsdataene. Når de svarer på din invitation, opdateres status automatisk i SuperOffice. Opfølgningen vises på detaljekortet **Aktiviteter** for det aktuelle firma.
-
-7. Klik på **OK** for at lukke dialogboksen **Invitation**. Du kan nu se de valgte deltagere og ressourcer på fanen **Deltagere**. Du kan klikke på knappen **E-mail-invitation** og ikonet ![ikon][img1] for at aktivere / deaktivere e-mail-invitationer, svarende til det foregående trin.
-    Hvis nogen af de personer, du har valgt, ikke har en gyldig e-mailadresse registreret i SuperOffice CRM, ændres ikonet ![ikon][img1] til inaktivt ![ikon][img3] på fanen **Deltagere**.
-
-    > [!NOTE]
-    > Hvis du ved en fejl har valgt brugere eller ressourcer, skal du markere dem på listen yderst til højre og klikke på **Slet** for at fjerne dem.
-
-8. Når du er færdig med at vælge deltagere og ressourcer, skal du klikke på **Gem** for at gemme det, du har valgt, eller på **Afbryd** for at afslutte dialogboksen uden at gemme.
-
-### [Ny (fra version 10.2.11 pilot)](#tab/attendees)
 
 1. [Åbn eller opret en opfølgning][3].
 
@@ -86,10 +49,7 @@ Se videoen for [Føj deltagere til en aftale][15].
 
 1. Klik på **Gem** for at gemme alle ændringer.
 
-***
-<!-- markdownlint-restore -->
-
-### <a id="availability" />Planlægningsassistent (kun tilgængelig i pilot)
+### <a id="availability" />Planlægningsassistent
 
 Planlægningsassistenten er en del af den nye **Opfølgning**-dialog. Den detaljerede kalender viser tilgængeligheden for hver intern deltager (kollega). Den øverste række viser den akkumulerede tilgængelighed. Tilgængeligheden for eksterne deltagere og e-mail deltagere er ukendt.
 
@@ -106,7 +66,7 @@ Planlægningsassistenten er en del af den nye **Opfølgning**-dialog. Den detalj
 1. Klik på **OK**, når du er færdig.
 1. Klik på **Gem** for at gemme alle ændringer.
 
-### <a id="preview" />Forhåndsvisning og opdater invitationsemail (kun i pilot)
+### <a id="preview" />Forhåndsvisning og opdater invitationsemail
 
 Når du klikker på **Gem og send**, vises en forhåndsvisning af e-mailen baseret på titlen og dagsordenen. Eventuelle interne noter, der er tilføjet opfølgningen, ekskluderes.
 
@@ -153,12 +113,8 @@ Hvis den valgte person ikke har en gyldig e-mailadresse registreret i SuperOffic
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: accept-decline.md
-[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/pref-email.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.png
 [img4]: ../../../../../common/icons/history-icon.png
 [img5]: ../../../../../common/icons/favourite-icon.png
 [img6]: ../../../../../common/icons/personblack.png

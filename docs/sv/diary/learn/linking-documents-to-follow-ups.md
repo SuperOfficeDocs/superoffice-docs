@@ -3,7 +3,8 @@ uid: help-sv-activity-add-link
 title: Länka dokument till uppföljningar
 description: Länka dokument till uppföljningar
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: CRM
 so.topic: howto
 language: sv
@@ -27,19 +28,9 @@ För att visa detaljer för ett länkat dokument, uppföljning, försäljning el
 
 ## Ta bort länkade aktiviteter
 
-<!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/remove-link-old)
-
-För att ta bort länken till ett dokument, händelse, försäljning eller projekt, välj raden i fråga och klicka på **Ta bort**.
-
-### [Ny (från version 10.2.11 pilot)](#tab/remove-link-new)
-
 För att ta bort en länk, klicka på det röda X:et på den raden.
 
 ![Fliken för länkar i en uppföljning - skärmbild][img1]
-
-***
-<!-- markdownlint-restore -->
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

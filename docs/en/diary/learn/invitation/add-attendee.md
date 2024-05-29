@@ -3,8 +3,8 @@ uid: help-en-invitation-add-attendee
 title: Add attendees to follow-ups
 description: This how-to guide will show how you to add attendees to a follow-up.
 author: Bergfrid Dias
-so.date: 01.15.2024
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: diary, follow-up, meeting, invitation, participant, attendee
 so.topic: howto
 language: en
@@ -14,47 +14,10 @@ language: en
 
 When you create a follow-up that concerns other people, you can add them as attendees to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as attendees are defined in Settings and maintenance.
 
-Watch the video for [Add attendees to a meeting][15].
-
 ## Steps
 
 > [!NOTE]
 > Only the owner of the follow-up can add (and remove) attendees.
-
-<!-- markdownlint-disable MD051 -->
-### [Classic](#tab/participants)
-
-1. [Open or create a follow-up][3].
-
-    > [!NOTE]
-    > If you have the overview of other users or resources open, they are automatically entered as attendees in the **Participants** tab. Otherwise select them manually as described below.
-
-2. Open the **Participants** tab and click **Add** in the footer.
-
-3. In the **Invitation** dialog, select where you want to get the attendees from. Choose between **Associates**, **Company/contact**, **Project**, **Selection**, and **Resource**.
-
-4. In the list box immediately below the **Select from** field, select the user group, company, contact, project, selection or resource you want to get the attendees from. The contents of this list box will vary depending on what you selected above.
-    * If you selected **Associates** or **Resource** in step 3, you can choose **All** in the list box to display the associates or resources in all groups.
-    * If you selected **Company/contact**, **Project**, or **Selection** in step 3, you can search for the required company, contact, project, or selection from this field.
-
-5. After you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ![icon][img2]. They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
-
-    > [!NOTE]
-    > If any of the people are busy at the time you specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new meeting, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
-
-6. Click the **Email Invitation** button to activate email invitations for all attendees in the list (except yourself). The ![icon][img1] icon to the left of the attendee's name means that an email invitation to the follow-up will be sent to this attendee. Click the ![icon][img1] icon next to an attendee's name to disable email invitation for this attendee. The ![icon][img1] icon changes to inactive ![icon][img3] and the attendee will then not receive an invitation by email.
-
-    Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice. The follow-up is shown on the **Activities** section tab for the company.
-
-7. Click **OK** to close the **Invitation** dialog. The selected attendees and resources will now be visible in the **Participants** tab. You can click the**Email Invitation** button and the ![icon][img1] icon to activate/deactivate email invitations, similar to the previous step.
-    If any of the contacts you selected do not have a valid email address recorded in SuperOffice CRM, the ![icon][img1] icon changes to inactive ![icon][img3] in the **Participants** tab.
-
-    > [!NOTE]
-    > If you selected users or resources by mistake, select them in the rightmost list and click **Delete** to remove them.
-
-8. After choosing attendees and resources, click **Save** to save your selections or **Cancel** to exit the dialog without saving.
-
-### [New (from version 10.2.11 pilot)](#tab/attendees)
 
 1. [Open or create a follow-up][3].
 
@@ -86,10 +49,7 @@ Watch the video for [Add attendees to a meeting][15].
 
 1. Click **Save** to save all changes.
 
-***
-<!-- markdownlint-restore -->
-
-### <a id="availability" />Scheduling assistant (available only in pilot)
+### <a id="availability" />Scheduling assistant
 
 The scheduling assistant is part of the new **Follow-up** dialog. The detailed calendar shows the availability of each internal attendant (associate). The top-most row shows the accumulated availability. The availability of external attendees and email attendees is unknown.
 
@@ -106,7 +66,7 @@ The scheduling assistant is part of the new **Follow-up** dialog. The detailed c
 1. Click **OK** when you are done.
 1. Click **Save** to save all changes.
 
-### <a id="preview" />Preview and update invitation email (available only in pilot)
+### <a id="preview" />Preview and update invitation email
 
 When you click **Save and send**, a preview of the email is shown based on the title and agenda. Any internal notes added to the follow-up are excluded.
 
@@ -153,12 +113,8 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: accept-decline.md
-[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/pref-email.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.png
 [img4]: ../../../../../common/icons/history-icon.png
 [img5]: ../../../../../common/icons/favourite-icon.png
 [img6]: ../../../../../common/icons/personblack.png

@@ -3,8 +3,8 @@ uid: help-no-follow-ups
 title: Oppfølging
 description: Oppfølging - Møte, oppgave, telefonsamtale
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: dagbok, oppfølging, avtale, møte, oppgave, telefon, samtale
 so.topic: concept
 language: no
@@ -92,6 +92,10 @@ Standard varighet for et møte er én time og 15 minutter for en samtale. For å
 1. Skriv inn en verdi for én eller begge av disse verdiene og klikk **Lagre**.
     * **Varighet på ny avtale**
     * **Varighet på ny samtale**
+
+## <a id="more-tab" />Mer-fanen
+
+I fanen **Mer** finner du brukerdefinerte felt for oppfølgingen. Hvis din organisasjon har behov for å ha flere felt enn de som er standard for oppfølginger, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
 
 ## Aktuelt innhold
 

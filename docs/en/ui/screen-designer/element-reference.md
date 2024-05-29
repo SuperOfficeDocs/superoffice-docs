@@ -3,8 +3,8 @@ uid: screen-element-reference
 title: Working with fields
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 02.22.2024
-so.version: 10.3.2
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: ui, screen, customization
 so.topic: reference
 so.audience: settings
@@ -120,7 +120,7 @@ For details about the value of each field, see the [Person database table][3].
 | Credited | Dropdown | |
 | Description | Text box | Select number of rows. Has no label |
 | Last modified | Date | |
-| Links | Links | | Has no options |
+| Links | Links | Has no options |
 | Number | Text | |
 | Owner | Drop-down | |
 | Probability | Text | Right-aligned percent |
@@ -239,7 +239,7 @@ For details about the value of each field, see the [Ticket database table][12].
 * Details
 * Change log
 
-## Follow-up (only in pilot)
+## Follow-up
 
 **Standard fields:**
 

@@ -3,7 +3,8 @@ uid: help-de-recurrence-stop
 title: Regelmäßige Folgeaufgabe stoppen
 description: Regelmäßige Folgeaufgabe stoppen
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Wiederholen, Wiederkehren
 so.topic: howto
 language: de
@@ -15,28 +16,10 @@ Wenn Sie eine regelmäßige Folgeaufgabe stoppen, werden alle Instanzen der Folg
 
 ## Wiederholung stoppen (diese Instanz behalten)
 
-<!-- markdownlint-disable MD051 -->
-### [Classic](#tab/fields-old)
-
-1. Wählen Sie die gewünschte Folgeaufgabe in der Ansicht Firma, Person, Kalender, Verkauf oder Projekt auf der Bereichsregisterkarte **Aktivitäten** aus. Das Dialogfeld **Termin**, **Aufgabe** oder **Anruf** wird geöffnet.
-
-2. Wählen Sie die Registerkarte **Details**.
-
-3. Klicken Sie auf die Verknüpfung rechts vom Feld **Wiederholung**.
-
-4. Klicken Sie im Dialogfeld **Regelmäßige Folgeaufgaben** weiter unten links im Dialogfeld auf **Wiederholung stoppen**. Das Dialogfeld **Regelmäßige Folgeaufgaben** wird geschlossen.
-
-5. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder klicken Sie auf **Abbrechen**, um das Dialogfeld zu schließen, ohne die Änderungen zu speichern.
-
-### [Neu (ab Version 10.2.11 Pilot)](#tab/fields-new)
-
 1. Öffnen Sie die Nachverfolgung aus dem Tagebuch oder im Tab **Aktivitäten**.
 1. Klicken Sie auf das Wiederholungssymbol ![Symbol][img1].
 1. Klicken Sie auf **Wiederholung stoppen**.
 1. Klicken Sie auf **Speichern** im Dialogfeld **Nachverfolgung**, um alle Änderungen zu speichern.
-
-***
-<!-- markdownlint-restore -->
 
 ## Lösche diese und alle zukünftigen Instanzen
 

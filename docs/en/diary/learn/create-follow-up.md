@@ -3,8 +3,8 @@ uid: help-en-follow-up-create
 title: Add follow-up
 description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
 so.topic: howto
 language: en
@@ -43,34 +43,6 @@ If your SuperOffice has [time zones][9] turned on, you can select which time zon
 
 If you check **All day**, the time of the follow-up is set to the period specified as the [default working day][8] (**All-day start time** and **All-day end time** preference).
 
-<!-- markdownlint-disable MD051 -->
-#### [Classic](#tab/fields-old)
-
-![Appointment dialog -screenshot][img6]
-
-1. Select follow-up type.
-
-1. Optionally, select a company and/or contact the follow-up pertains to.
-
-1. Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
-
-1. Specify time and date. The **Duration** field is automatically adjusted.
-
-    If the new follow-up overlaps with an existing follow-up, an exclamation mark ![icon][img2] is shown next to the start and stop fields as a reminder (you can still add the follow-up). A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
-
-    When you create a new to-do, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the to-do.
-
-1. Optionally, select or enter the address where the follow-up will take place.
-
-1. Select the **Description** tab to add a description of the follow-up (max 2048 characters).
-1. Select the **Details** tab to set [recurrence][4], priority, [alarm][3], owner, and "show as".
-1. Select the **Participants** tab to [add attendees][5].
-
-> [!TIP]
-> Click ![icon][img5] to set up a [video meeting][2].
-
-#### [New (from version 10.2.11 pilot)](#tab/fields-new)
-
 ![Follow-up dialog -screenshot][img7]
 
 1. Enter a title.
@@ -93,9 +65,6 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 
     > [!TIP]
     > If you want to restrict access to employees-only, place that content in the **Internal notes** tab. Whatever is added here is not sent to external attendees. Click the clock icon to add a timestamp. A dot on the tab indicates that someone has added a note.
-
-***
-<!-- markdownlint-restore -->
 
 ## Create follow-up from Activities section tab
 
@@ -170,9 +139,6 @@ You can also create a new follow-up by copying an existing follow-up to another 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/warning-red.png
 [img4]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/videocall-off.png
-[img6]: ../../../media/loc/en/diary/appointment-new.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

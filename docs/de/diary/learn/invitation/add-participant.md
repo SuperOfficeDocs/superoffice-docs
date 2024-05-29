@@ -1,13 +1,5 @@
 ---
 uid: help-de-invitation-add-participant-redirect
 title: Teilnehmer zu Folgeaufgaben hinzufügen
-description: "Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen."
-author: Bergfrid Dias
-so.date: 01.15.2024
-so.version: 10.2.11
-keywords: 
-so.topic: howto
-language: de
+redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 ---
-
-# Teilnehmer und Ressourcen zu Folgeaufgaben hinzufügen

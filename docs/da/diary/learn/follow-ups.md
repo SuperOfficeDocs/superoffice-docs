@@ -3,8 +3,8 @@ uid: help-da-follow-ups
 title: Opfølgninger
 description: Opfølgninger - møde, skal udføres, samtale
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: dagbog, opfølgning, aftale, møde, telefon, ring til, opgave
 so.topic: concept
 language: da
@@ -92,6 +92,10 @@ Standardvarigheden er 1 timefor et møde og 15 minutter for en samtale. For at �
 1. Indtast en værdi for én eller begge af disse værdier og klik **Gem**.
     * **Varighed for ny aftale**
     * **Varighed for ny samtale**
+
+## <a id="more-tab" />Fanen Mere
+
+Fanen **Mere** viser brugerdefinerede felter for opfølgningen. Hvis din organisation har brug for flere felter end standardfelterne, kan du under Indstillinger og vedligeholdelse angive, at disse felter skal indsættes her.
 
 ## Relateret indhold
 

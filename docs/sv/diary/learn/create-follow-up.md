@@ -3,8 +3,8 @@ uid: help-sv-follow-up-create
 title: "Lägga till händelser"
 description: "Lägga till eller kopiera möter, uppgifter och samtal i SuperOffice"
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: kalender, händelse, ringa upp, telefon, möte
 so.topic: howto
 language: sv
@@ -43,33 +43,6 @@ Om din SuperOffice har [tidszoner][9] aktiverat, kan du välja vilken tidszon h�
 
 Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som anges som [standard arbetsdag][8] (**Starttid för hela dagen** och **Sluttid för hela dagen** preferens).
 
-<!-- markdownlint-disable MD051 -->
-#### [Klassisk](#tab/fields-old)
-
-![Mötesdialogruta -screenshot][img6]
-
-1. Välj händelsestyp.
-
-1. Valfritt, välj ett företag och/eller en kontakt som händelsen gäller.
-
-1. Valfritt, välj ett projekt och/eller en försäljning för att länka det till händelsen. Du kan välja vilket projekt/försäljning som helst oavsett vilket företag du valde tidigare.
-
-1. Ange tid och datum. **Varaktighet**-fältet justeras automatiskt.
-händelsen överlappar med en befintlig händelse, visas ett utropstecken ![ikon][img2] bredvid start- och stoppfälten som en påminnelse (du kan fortfarande lägga till händelsen). Ett förslag på första lediga tidpunkt visas. Klicka på den föreslagna tiden till höger om **Första lediga** för att välja den här tiden istället.
-
-    När du skapar en ny to-do visas ingen tid i fälten **Start** och **Slut**. Dagens datum sätts automatiskt in, men du kan ändra det till det önskade datumet. Datumet indikerar deadline för to-do:n.
-
-1. Valfritt, välj eller ange adressen där händelsen kommer att äga rum.
-
-1. Välj fliken **Beskrivning** för att lägga till en beskrivning av händelsen (max 2048 tecken).
-1. Välj fliken **Detaljer** för att ställa in [återkommande][4], prioritet, [larm][3], ägare och "visa som".
-1. Välj fliken **Deltagare** för att [lägga till deltagare][5].
-
-> [!TIP]
-> Klicka på ![ikon][img5] för att ställa in en [videomöte][2].
-
-#### [Ny (från version 10.2.11 pilot)](#tab/fields-new)
-
 ![Uppföljningsdialogruta -screenshot][img7]
 
 1. Ange en titel.
@@ -92,9 +65,6 @@ händelsen överlappar med en befintlig händelse, visas ett utropstecken ![ikon
 
     > [!TIP]
     > Om du vill begränsa åtkomsten endast till anställda, placera den informationen i fliken **Intern anteckningar**. Det som läggs till här skickas inte till externa deltagare. Klicka på klockikonen för att lägga till en tidsstämpel. En prick på fliken indikerar att någon har lagt till en anteckning.
-
-***
-<!-- markdownlint-restore -->
 
 ## Skapa händelser från detaljkortet Aktiviteter
 
@@ -169,9 +139,6 @@ Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljni
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/warning-red.png
 [img4]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/videocall-off.png
-[img6]: ../../../media/loc/en/diary/appointment-new.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

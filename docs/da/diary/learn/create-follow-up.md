@@ -3,8 +3,8 @@ uid: help-da-follow-up-create
 title: "Tilføjelse af opfølgning"
 description: "Tilføje eller kopiere møde, opgave, samtale i SuperOffice"
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: dagbog, opfølgning, ring til, telefon, møde
 so.topic: howto
 language: da
@@ -43,35 +43,7 @@ Hvis din SuperOffice har [tidszoner][9] slået til, kan du vælge, hvilken tidsz
 
 Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til perioden angivet som [standard arbejdsdag][8] (indstillingen for **Starttidspunkt for hele dagen** og **Sluttidspunkt for hele dagen**).
 
-<!-- markdownlint-disable MD051 -->
-#### [Klassisk](#tab/fields-old)
-
-![Aftaledialog - skærmbillede][img6]
-
-1. Vælg opfølgningstype.
-
-1. Valgfrit, vælg et firma og/eller en kontakt, som opfølgningen vedrører.
-
-1. Valgfrit, vælg et projekt og/eller salg for at linke det til opfølgningen. Du kan vælge ethvert projekt/salg, uanset hvilket firma du tidligere har valgt.
-
-1. Specificér tid og dato. **Varighed**-feltet justeres automatisk.
-
-    Hvis den nye opfølgning overlapper med en eksisterende opfølgning, vises et udråbstegn ![ikon][img2] ved siden af start- og stopfelterne som en påmindelse (du kan stadig tilføje opfølgningen). Et forslag til den første ledige tidsperiode vises. Klik på det foreslåede tidspunkt til højre for **Først tilgængelig** for at vælge dette tidspunkt i stedet.
-
-    Når du opretter en ny to-do, vises ingen tid i felterne **Start** og **Slut**. Dagens dato indsættes automatisk, men du kan ændre den til den ønskede dato. Datoen angiver deadline for to-do'en.
-
-1. Valgfrit, vælg eller indtast adressen, hvor opfølgningen skal finde sted.
-
-1. Vælg fanen **Beskrivelse** for at tilføje en beskrivelse af opfølgningen (maksimalt 2048 tegn).
-1. Vælg fanen **Detaljer** for at indstille [gentagelse][4], prioritet, [alarm][3], ejer og "vis som".
-1. Vælg fanen **Deltagere** for at [tilføje deltagere][5].
-
-> [!TIP]
-> Klik på ![ikon][img5] for at oprette et [videomøde][2].
-
-#### [Ny (fra version 10.2.11 pilot)](#tab/fields-new)
-
-![Opfølgingsdialog - skærmbillede][img7]
+![Opfølgingsdialog -screenshot][img7]
 
 1. Indtast en titel.
 
@@ -83,7 +55,7 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
     * Valgfrit, tilføj møderom, lokaler, eller steder.
     * Valgfrit, tilføj sted eller adresse.
 
-    ![Udvidet opfølgingsdialog - skærmbillede][img8]
+    ![Udvidet opfølgingsdialog -screenshot][img8]
 
 1. Specificér tid og dato. Klik på **Vis mere** for at indstille [gentagelse][4], "hele dagen", "optaget/fri" og tidszone. Klik på klokkeikonet i overskriften for at [sætte alarm][3].
 
@@ -93,9 +65,6 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 
     > [!TIP]
     > Hvis du vil begrænse adgangen til kun medarbejdere, skal du placere den information i fanen **Interne noter**. Det, der tilføjes her, sendes ikke til eksterne deltagere. Klik på uret-ikonet for at tilføje en tidsstempel. En prik på fanen indikerer, at nogen har tilføjet en note.
-
-***
-<!-- markdownlint-restore -->
 
 ## Oprette opfølging fra detaljkortet Aktiviteter
 
@@ -170,9 +139,6 @@ Du kan også oprette en ny opfølgning ved at kopiere en eksisterende opfølgnin
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/warning-red.png
 [img4]: ../../../../common/icons/dropdown-icon.png
-[img5]: ../../../../common/icons/videocall-off.png
-[img6]: ../../../media/loc/en/diary/appointment-new.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

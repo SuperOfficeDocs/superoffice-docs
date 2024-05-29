@@ -3,7 +3,8 @@ uid: help-nl-recurrence-stop
 title: Herhalende vervolgactiviteit stoppen
 description: Herhalende vervolgactiviteit stoppen
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: agenda, vervolgactiviteit, herhalen, terugkeren
 so.topic: howto
 language: nl
@@ -15,28 +16,10 @@ Als u de herhalende vervolgactiviteit stopt, worden alle herhalingen van de verv
 
 ## Stop met herhalen (behoud deze instantie)
 
-<!-- markdownlint-disable MD051 -->
-### [Classic](#tab/fields-old)
-
-1. Selecteer de gewenste vervolgactiviteit in de agenda of op het sectietabblad **Activiteiten** in het scherm Bedrijf, Persoon, Agenda, Verkoop of Project. Het dialoogvenster **Afspraak**, **Taak** of **Gesprek** wordt weergegeven.
-
-2. Selecteer het tabblad **Details**.
-
-3. Klik op de koppeling rechts van de tekst **Herhalen**.
-
-4. Klik in het dialoogvenster **Herhalende vervolgactiviteiten** op **Herhalen stoppen** linksonder in het dialoogvenster. Het dialoogvenster **Herhalende vervolgactiviteiten** wordt gesloten.
-
-5. Klik op **Opslaan** om de wijzigingen op te slaan, of klik op **Annuleren** om het dialoogvenster te sluiten zonder de wijzigingen op te slaan.
-
-### [Nieuw (vanaf versie 10.2.11 pilot)](#tab/fields-new)
-
 1. Open de vervolgactiviteit vanuit de Agenda of op het tabblad **Activiteiten**.
 1. Klik op het herhaalsymbool ![symbool][img1].
 1. Klik op **Stop met herhalen**.
 1. Klik op **Opslaan** in het **Vervolgactiviteit**-venster om alle wijzigingen op te slaan.
-
-***
-<!-- markdownlint-restore -->
 
 ## Verwijder dit en alle toekomstige instanties
 

@@ -3,8 +3,8 @@ uid: help-sv-follow-ups
 title: Händelser
 description: Händelser - Möte, att göra, samtal
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: kalender, uppgift, händelse, bokning, möte, telefon, ringa upp, att göra
 so.topic: concept
 language: sv
@@ -94,6 +94,10 @@ Standardlängden för ett möte är 1 timme och 15 minuter for et samtal, men du
 1. Ange ett värde för en eller båda av dessa värden och klicka **Spara**.
     * **Längd för ny bokning**
     * **Längd för nytt samtal**
+
+## <a id="more-tab" />Fliken Mer
+
+På fliken **Mer** visas användardefinierade fält för händelsen. Om din organisation behöver fler fält än standardfälten för händelser, kan du i Inställningar och underhåll ange att dessa fält ska infogas här.
 
 ## Relaterat innehåll
 

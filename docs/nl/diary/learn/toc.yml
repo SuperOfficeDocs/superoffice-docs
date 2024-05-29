@@ -1,8 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Dialoogvenster voor vervolgactiviteit
-  href: screen/dialog-for-followups.md
 - name: Afspraak, telefoongesprek, taken
   href: follow-ups.md
 - name: Kalenderweergaven

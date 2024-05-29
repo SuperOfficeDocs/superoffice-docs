@@ -71,7 +71,7 @@ This tab contains fields that focus, in particular, on the financial details of 
 | Field | Description | Defined in Settings and maintenance |
 |---|---|---|
 |Number | The ID number for the sale, where the next free sale number is entered automatically. | x |
-| Source | Displays the source of the sale, as specified in the **Sale** tab. You can also edit the source here. |
+| Source | Displays the source of the sale, as specified in the **Sale** tab. You can also edit the source here. | |
 | Competitor | Contains a predefined list of competitors. Here you can enter any competitor for the sale. You can choose only one competitor. | x |
 | Total cost | Enter here the cost connected with the sale. It is displayed in the same currency as the amount. The default value is 0. When you enter an amount in this field, the profit percentage and amount are automatically calculated in the field below. | |
 | Profit | Enter the profit connected with the sale here. It is displayed in the same currency as the amount. | |

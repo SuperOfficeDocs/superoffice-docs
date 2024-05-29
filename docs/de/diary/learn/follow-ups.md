@@ -3,8 +3,8 @@ uid: help-de-follow-ups
 title: Folgeaufgaben
 description: Folgeaufgaben - Besprechung, Aufgabe, Anruf
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Termin, Besprechung, Telefon, Anruf, Aufgabe, Zu erledigen
 so.topic: concept
 language: de
@@ -92,6 +92,10 @@ Die Standarddauer für einen Besprechung beträgt 1 Stunde und 15 Minuten für e
 1. Geben Sie einen Wert für einen oder beide dieser Werte ein und klicken Sie auf **Speichern**.
     * **Dauer bei neuem Termin**
     * **Dauer bei neuem Anruf**
+
+## <a id="more-tab" />Die Registerkarte Mehr
+
+Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für die Folgeaufgabe. Wenn Ihre Firma mehr Felder als von den Standardeinstellungen für Folgeaufgaben vorgesehen benötigt, können Sie diese Felder in Einstellungen und Verwaltung eingeben.
 
 ## Zugehörige Inhalte
 

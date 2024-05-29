@@ -98,4 +98,4 @@ Om deel te nemen aan de videovergadering via het voorbeeldscherm, klikt u gewoon
 [img2]: ../../../../common/icons/videocall.png
 [img3]: ../../../../common/icons/diary-videocall.png
 [img4]: ../../../../common/icons/diary-copy.png
-[img5]: ../../../media/loc/en/diary/appointment-videomeeting-icon.png
+[img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

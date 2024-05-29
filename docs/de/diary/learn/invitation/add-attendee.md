@@ -3,59 +3,21 @@ uid: help-de-invitation-add-attendee
 title: Teilnehmer zu Folgeaufgaben hinzufügen
 description: "Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen."
 author: Bergfrid Dias
-so.date: 01.15.2024
-so.version: 10.2.11
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: Kalender, Folgeaufgabe, Einladung, Teilnehmer
 so.topic: howto
 language: de
-redirect_url: https://docs.superoffice.com/de/diary/learn/invitation/add-attendee.html
 ---
 
 # Teilnehmer und Ressourcen zu Folgeaufgaben hinzufügen
 
 Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie diese Personen als Teilnehmer an der Folgeaufgabe hinzufügen. Sie können auch ein Konferenzzimmer und Ausrüstungen des Unternehmens reservieren. Personen, die als Teilnehmer verfügbar sind, werden in Einstellungen und Verwaltung definiert.
 
-Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][15] an.
-
 ## Schritte
 
 > [!NOTE]
 > Nur der Besitzer der Foleaufgabe kann Teilnehmer hinzufügen (und entfernen).
-
-<!-- markdownlint-disable MD051 -->
-### [Klassisch](#tab/participants)
-
-1. [Öffnen oder erstellen Sie eine Foleaufgabe][3].
-
-    > [!NOTE]
-    > Wenn Sie die Übersicht über andere Benutzer oder Ressourcen geöffnet haben, werden sie automatisch als Teilnehmer im Tab **Teilnehmer** eingetragen. Andernfalls wählen Sie sie manuell wie unten beschrieben aus.
-
-2. Öffnen Sie den Tab **Teilnehmer** und klicken Sie auf **Hinzufügen** unten.
-
-3. Wählen Sie im Dialogfeld **Einladung**, aus welchem Bereich Sie die Teilnehmer einladen möchten. Zur Auswahl stehen **Mitarbeiter**, **Firma/Person**, **Projekt**, **Selektion** und **Ressource**.
-
-4. Wählen Sie im Listenfeld direkt unter dem Feld **Auswählen aus** die Benutzergruppe, Firma, Person, Selektion, Ressource oder das Projekt, dessen Teilnehmer Sie einladen möchten. Der Inhalt dieses Listenfelds ändert sich je nach der Auswahl oben.
-    * Wenn Sie in Schritt 3 **Mitarbeiter** oder **Ressource** gewählt haben, können Sie im Listenfeld **Alle** wählen, um die Mitarbeiter oder Ressourcen in allen Gruppen anzuzeigen.
-    * Wenn Sie in Schritt 3 **Firma/Person**, **Projekt** oder **Selektion** ausgewählt haben, können Sie in diesem Feld nach der gewünschten Firma, der Person, dem Projekt oder der Selektion suchen.
-
-5. Nachdem Sie die gewünschte Quelle ausgewählt haben, wird eine Liste aller für diese Quelle verfügbaren Einträge angezeigt. Wählen Sie die Benutzer oder Ressourcen aus, die in die Folgeaufgabe einbezogen werden sollen, und klicken Sie rechts von der Liste auf die Pfeilschaltfläche ![Symbol][img2]. Die Benutzer oder Ressourcen werden daraufhin im Fenster auf der rechten Seite angezeigt. Sie können Benutzer und Ressourcen auch einzeln auswählen, indem Sie darauf doppelklicken.
-
-    > [!NOTE]
-    > Wenn eine Person zum von Ihnen angegebenen Zeitpunkt belegt ist, wird deren Name rot markiert, sodass Sie leicht erkennen können, ob Sie für die Folgeaufgabe eventuell einen anderen Zeitpunkt wählen sollten. Sie können diese Person zu diesem neuen Termin einladen. Daraufhin wird deren Eintrag im Dialogfeld für Folgeaufgaben rot markiert und mit KONFLIKT gekennzeichnet.
-
-6. Klicken Sie auf die Schaltfläche **E-Mail-Einladung**, um E-Mail-Einladungen für alle Teilnehmer in der Liste (außer Ihnen selbst) zu aktivieren. Das ![Symbol][img1] links vom Namen des Teilnehmers gibt an, dass eine E-Mail-Einladung für die Folgeaufgabe an diesen Teilnehmer gesendet wird. Klicken Sie auf das ![Symbol][img1] neben dem Namen eines Teilnehmers, um die E-Mail-Einladung für diesen Teilnehmer zu deaktivieren. Das ![Symbol][img1] wechselt zu inaktiv ![Symbol][img3] und der Teilnehmer wird nicht per E-Mail eingeladen.
-
-    Einladungs-E-Mails, die an externe Kontakte gesendet werden, enthalten eine iCal-Datei (.ics) mit den Einladungsdaten. Wenn sie auf eine Einladung reagieren, wird der Status in SuperOffice automatisch aktualisiert. Die Folgeaufgabe wird auf der Bereichsregisterkarte **Aktivitäten** der betreffenden Firma angezeigt.
-
-7. Klicken Sie auf **OK**, um das Dialogfeld **Einladung** zu schließen. Die ausgewählten Teilnehmer und Ressourcen werden nun in der Registerkarte **Teilnehmer** angezeigt. Sie können auf die Schaltfläche **E-Mail-Einladung** und das ![Symbol][img1] klicken, um E-Mail-Einladungen ähnlich wie im vorherigen Schritt zu aktivieren/deaktivieren.
-    Wenn für eine der von Ihnen ausgewählten Personen in SuperOffice CRM keine gültige E-Mail-Adresse gespeichert ist, wechselt das ![Symbol][img1] auf der Registerkarte **Teilnehmer** zu inaktiv ![Symbol][img3].
-
-    > [!NOTE]
-    > Wenn Sie Benutzer oder Ressourcen versehentlich ausgewählt haben, wählen Sie sie in der Liste ganz rechts aus und klicken Sie auf **Löschen**, um sie zu entfernen.
-
-8. Klicken Sie nach der Auswahl von Teilnehmern und Ressourcen auf **Speichern**, um Ihre Selektionen zu speichern, oder betätigen Sie die Schaltfläche **Abbrechen**, um das Dialogfeld ohne Speichern zu beenden.
-
-### [Neu (ab Version 10.2.11 Pilot)](#tab/attendees)
 
 1. [Öffnen oder erstellen Sie eine Folgeafugabe][3].
 
@@ -87,10 +49,7 @@ Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][15] an.
 
 1. Klicken Sie auf **Speichern**, um alle Änderungen zu speichern.
 
-***
-<!-- markdownlint-restore -->
-
-### <a id="availability" />Terminassistent (nur in der Pilotversion verfügbar)
+### <a id="availability" />Terminassistent
 
 Der Terminassistent ist Teil den neue **Folgeaufgabe**-Dialog. Der detaillierte Kalender zeigt die Verfügbarkeit jedes internen Teilnehmers (Mitarbeiter). Die oberste Reihe zeigt die akkumulierte Verfügbarkeit. Die Verfügbarkeit von externen Teilnehmern und E-Mail-Teilnehmern ist unbekannt.
 
@@ -107,7 +66,7 @@ Der Terminassistent ist Teil den neue **Folgeaufgabe**-Dialog. Der detaillierte 
 1. Klicken Sie auf **OK**, wenn Sie fertig sind.
 1. Klicken Sie auf **Speichern**, um alle Änderungen zu speichern.
 
-### <a id="preview" />Vorschau und Aktualisierung der Einladungs-E-Mail (nur in Pilotversion)
+### <a id="preview" />Vorschau und Aktualisierung der Einladungs-E-Mail
 
 Wenn Sie auf **Speichern und senden** klicken, wird eine Vorschau der E-Mail basierend auf dem Titel und der Agenda angezeigt. Alle internen Notizen, die der Folgeaufgabe hinzugefügt wurden, sind ausgeschlossen.
 
@@ -153,12 +112,8 @@ Verwendung der SuperOffice-E-Mail: Wenn Sie die erforderlichen Informationen nic
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: accept-decline.md
-[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/pref-email.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.png
 [img4]: ../../../../../common/icons/history-icon.png
 [img5]: ../../../../../common/icons/favourite-icon.png
 [img6]: ../../../../../common/icons/personblack.png

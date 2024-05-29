@@ -3,7 +3,8 @@ uid: help-da-activity-add-link
 title: Sammenkædning af dokumenter med opfølgninger
 description: Sammenkædning af dokumenter med opfølgninger
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: CRM
 so.topic: howto
 language: da
@@ -27,19 +28,9 @@ For at se detaljer for et linket dokument, opfølgning, salg eller projekt, dobb
 
 ## Fjern tilknyttede aktiviteter
 
-<!-- markdownlint-disable MD051 -->
-### [Klassisk](#tab/remove-link-old)
-
-For at fjerne linket til et dokument, opfølgning, salg eller projekt, vælg den pågældende række og klik på **Slet**.
-
-### [Ny (fra version 10.2.11 pilot)](#tab/remove-link-new)
-
 For at fjerne en link, klik på det røde X på den række.
 
-![Fanen for links i en opfølgning - skærmbillede][img1]
-
-***
-<!-- markdownlint-restore -->
+![Fanen for links i en opfølgning -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

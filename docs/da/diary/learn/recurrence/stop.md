@@ -3,7 +3,8 @@ uid: help-da-recurrence-stop
 title: Stop gentagen opfølgning
 description: Stop gentagen opfølgning
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.21.2024
+so.version: 10.3.6
 keywords: dagbog, opfølgning, gentag, gentages
 so.topic: howto
 language: da
@@ -15,28 +16,10 @@ Når du stopper den gentagne opfølgning, slettes alle forekomster af opfølgnin
 
 ## Stop gentagelse (behold denne instans)
 
-<!-- markdownlint-disable MD051 -->
-### [Classic](#tab/fields-old)
-
-1. Vælg den ønskede opfølgning i Dagbogen eller på detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Dagbog, Salg eller Projekt. Dialogboksen **Aftale**, **Opgave** eller **Telefonopkald** vises.
-
-2. Vælg fanen **Detaljer**.
-
-3. Klik på linket til højre for teksten **Gentagen**.
-
-4. I dialogboksen **Gentagne opfølgninger** skal du klikke på **Stop gentagelse** nederst til venstre i dialogen. Dialogboksen **Gentager opfølgninger** lukkes.
-
-5. Klik på **Gem** for at gemme ændringerne eller klik på **Afbryd** for at lukke dialogboksen uden at gemme.
-
-### [Ny (fra version 10.2.11 pilot)](#tab/fields-new)
-
 1. Åbn opfølgningen fra Dagbogen eller på fanen **Aktiviteter**.
 1. Klik på gentagelsesikonet ![ikon][img1].
 1. Klik på **Stop gentagelse**.
 1. Klik på **Gem** i **Opfølgning**-dialogen for at gemme alle ændringer.
-
-***
-<!-- markdownlint-restore -->
 
 ## Slet denne og alle fremtidige instanser
 
