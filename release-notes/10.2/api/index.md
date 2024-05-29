@@ -231,10 +231,11 @@ services.AddNetServerCore<SuperOffice.Web.Security.HttpContextProvider>(options 
 }
 ```
 
-The session mode is an implementation of ISoContextProvider
+The session mode is an implementation of ISoContextProvider.
 
 ```csharp
-public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, Action<NetServerCoreOptionsBuilder> optionsAction = null) where TSessionMode : class, ISoContextProvider
+public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, 
+  Action<NetServerCoreOptionsBuilder> optionsAction = null) where TSessionMode : class, ISoContextProvider
 {
   //... set options
 }
@@ -437,66 +438,42 @@ services.AddLogging(a =>
 [141]: ../../../docs/en/api/mdo-providers/reference/contact_and_person_freetextsearch.md
 [142]: ../../../docs/en/api/mdo-providers/reference/contact_and_person_freetextsearch_hierarchical.md
 [143]: ../../../docs/en/api/reference/soap/Services88/CRMScript/ExecuteScriptByString.md
-
 [144]: ../../../docs/en/api/reference/restful/agent/CRMScript_Agent/v1CRMScriptAgent_ValidateScriptByString.md
 [145]: ../../../docs/en/api/reference/soap/Services88/CRMScript/ValidateScriptByString.md
-
 [146]: ../../../docs/en/api/reference/restful/agent/Document_Agent/v1DocumentAgent_CopyDocumentToCsAttachment.md
 [147]: ../../../docs/en/api/reference/soap/Services88/Document/CopyDocumentToCsAttachment.md
-
 [148]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_CreateDefaultTicketTypeEntity.md
 [149]: ../../../docs/en/api/reference/soap/Services88/List/CreateDefaultTicketTypeEntity.md
-
 [151]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_DeleteTicketTypeEntity.md
 [152]: ../../../docs/en/api/reference/soap/Services88/List/DeleteTicketTypeEntity.md
-
-[153]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_GetTicketType.md
-[154]: ../../../docs/en/api/reference/soap/Services88/List/GetTicketType.md
-
 [155]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_GetTicketTypeEntity.md
 [156]: ../../../docs/en/api/reference/soap/Services88/List/GetTicketTypeEntity.md
-
 [157]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_GetTicketTypeList.md
 [158]: ../../../docs/en/api/reference/soap/Services88/List/GetTicketTypeList.md
-
 [159]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_GetTicketTypes.md
 [160]: ../../../docs/en/api/reference/soap/Services88/List/GetTicketTypes.md
-
 [161]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_SaveTicketTypeEntity.md
 [162]: ../../../docs/en/api/reference/soap/Services88/List/SaveTicketTypeEntity.md
-
 [163]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_SplitTicket.md
 [164]: ../../../docs/en/api/reference/soap/Services88/Ticket/SplitTicket.md
-
 [165]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CopyEmailFlowContent.md
 [166]: ../../../docs/en/api/reference/soap/Services88/Workflow/CopyEmailFlowContent.md
-
 [167]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowEvent.md
 [168]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowEvent.md
-
 [169]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowEventResult.md
 [170]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowEventResult.md
-
 [171]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_RemoveParticipantsFromEmailFlow.md
 [172]: ../../../docs/en/api/reference/soap/Services88/Workflow/RemoveParticipantsFromEmailFlow.md
-
 [173]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_Run.md
 [174]: ../../../docs/en/api/reference/soap/Services88/Workflow/Run.md
-
 [175]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SendEvent.md
 [176]: ../../../docs/en/api/reference/soap/Services88/Workflow/SendEvent.md
-
-[177]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_GetAllTicketTypeEntities.md
-[178]: ../../../docs/en/api/reference/soap/Services88/List/GetAllTicketTypeEntities.md
-
 [179]: ../../../docs/en/api/mdo-providers/reference/tickettype.md
-
 [180]: ../../../docs/en/api/mdo-providers/reference/shipmentlinks.md
 [181]: ../../../docs/en/api/mdo-providers/reference/specifiedmailings.md
 [182]: ../../../docs/en/api/mdo-providers/reference/timezoneiana.md
 [183]: ../../../docs/en/api/mdo-providers/reference/workflowtimewaitalgorithm.md
 [184]: ../../../docs/en/api/mdo-providers/reference/workflowtimewaitintervaltype.md
-
 [185]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_ExpandText.md
 [186]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_GetChatbotPromptSuggestions.md
 [187]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_GetChatbotResponse.md
@@ -522,33 +499,23 @@ services.AddLogging(a =>
 [207]: ../../../docs/en/api/reference/soap/Services88/AI/SummarizeTicket.md
 [208]: ../../../docs/en/api/reference/soap/Services88/Ticket/GetTicketMessageEntities.md
 [209]: 10.2.9-update.md
-
 [210]: ../../../docs/en/api/mdo-providers/reference/emailphone.md
 [211]: ../../../docs/en/api/mdo-providers/reference/workflowsplitoptiontype.md
-
 [212]: ../../../docs/en/api/reference/soap/Services88/Appointment/GetNextAvailableTime.md
 [213]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_GetNextAvailableTime.md
-
 [214]: ../../../docs/en/api/reference/restful/agent/Contact_Agent/v1ContactAgent_GetDomainDuplicates.md
 [215]: ../../../docs/en/api/reference/soap/Services88/Contact/GetDomainDuplicates.md
-
 [216]: ../../../docs/en/api/reference/restful/agent/List_Agent/v1ListAgent_GlobalChangeTicketType.md
 [217]: ../../../docs/en/api/reference/soap/Services88/List/GlobalChangeTicketType.md
-
 [218]: ../../../docs/en/api/reference/restful/agent/Person_Agent/v1PersonAgent_SendEmailWithEventName.md
 [219]: ../../../docs/en/api/reference/soap/Services88/Person/SendEmailWithEventName.md
-
 [220]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_GetDefaultMessageContentFull.md
 [221]: ../../../docs/en/api/reference/soap/Services88/Ticket/GetDefaultMessageContentFull.md
-
 [222]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType.md
 [223]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowStepOptionFromType.md
-
 [224]: 10.2.10-update.md
 [225]: 10.2.11-update.md
-
 [226]: ../../../docs/en/api/mdo-providers/reference/invitationtemplatelanguage.md
-
 [227]: ../../../docs/en/api/reference/soap/Services88/Appointment/getappointmentemailinvitation.md
 [228]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_GetAppointmentEmailInvitation.md
 [229]: ../../../docs/en/api/reference/soap/Services88/Appointment/getassociatesdiaryinfo.md
