@@ -66,7 +66,7 @@ Unter **Systembenachrichtigungen** finden Sie folgende Spalten:
 | Nachricht | Zeigt die Beschreibung des Ereignisses an. |
 | Aktiviert | Zeigt an, wann das Ereignis gestartet wurde. |
 | Aktiviert von | Zeigt an, wer das Ereignis initiierte (Benutzer-ID und Porträt). |
-| Fertig gestellt | Zeigt an, wann das Ereignis voraussichtlich beendet ist.
+| Fertig gestellt | Zeigt an, wann das Ereignis voraussichtlich beendet ist. |
 | Typ | Zeigt an, ob das Ereignis für das gesamte System gilt. |
 
 ## Verwandte Themen

@@ -1,20 +1,18 @@
 ---
 uid: help-de-licenses
-title: CRM und Lizenzen
+title: SuperOffice und Lizenzen
 description: CRM und Lizenzen
+keywords: Lizenz, Benutzerplan
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Lizenzen
+so.date: 05.31.2024
+so.version: 10.3.5
 so.topic: concept
 language: de
 ---
 
 # SuperOffice und Lizenzen
 
-Zum Einloggen bei SuperOffice CRM von einem Web-Client benötigen Sie die folgenden Lizenzen:
-
-* Login-Rechte für SuperOffice CRM
-* Eine Systemlizenz für Standard-CRM
+Zum Einloggen bei SuperOffice CRM von einem Web-Client benötigen Sie Login-Rechte für SuperOffice CRM und einen Essential- oder Premium-Benutzerplan.
 
 ## Lizenzinformationen anzeigen
 
@@ -31,9 +29,8 @@ Zum Einloggen bei SuperOffice CRM von einem Web-Client benötigen Sie die folgen
 | System | Sie legt fest, auf welche Systeme Sie zugreifen können. |
 | SuperOffice Server | Erforderlich für die Anwendung von SuperOffice CRM. |
 | Online Web Services | Erforderlich für den Zugriff auf SuperOffice CRM von einem Web-Client. |
-| Area Management | Ermöglicht die Definition von Areas in Einstellungen und Verwaltung. |
 | Sales Intelligence | Ermöglicht [SAINT-Statuskontrollen][2]. |
-| Exchange Synchronizer | Ermöglicht die Verwendung von SuperOffice Synchronizer.
+| Exchange Synchronizer | Ermöglicht die Verwendung von SuperOffice Synchronizer. |
 | SuperOffice Expander Dienstleistung | Diese Lizenz ermöglicht u. a. anonymen und externen Benutzern die Nutzung von Funktionen über SuperOffice Audience oder über Anwendungen von Drittanbietern. |
 | Kundenzentrum | Ermöglicht die Anwendung des Kundenzentrums. |
 | Angebotsverwaltung des Vertriebs | Ermöglicht die Verwendung von Angeboten. |
@@ -48,25 +45,24 @@ Es gibt auch so genannte Standortlizenzen. Ein *Standort* in SuperOffice entspri
 | Reporter Studio | Die maximale Anzahl von Standorten, an denen SuperOffice Reporter Studio verwendet werden kann. |
 | Audience | Die maximale Anzahl an Standorten, an denen SuperOffice Audience verwendet werden kann. |
 
-## Benutzerlizenzen (Windows - Legacy)
+## Benutzerpläne
 
-Schließlich gibt es noch Benutzerlizenzen für SuperOffice CRM for Windows, die für eine bestimmte Anzahl von Benutzern erworben werden. Dies betrifft u. a. folgende Produkte:
+Schließlich gibt es noch Benutzerpläne für SuperOffice CRM, die für eine bestimmte Anzahl von Benutzern erworben werden. Dies betrifft u. a. folgende Produkte:
 
-| Lizenz | Beschreibung |
-|---|---|
-| Standard-CRM-Benutzer | Zugriff auf Standard-CRM. |
-| Marketing-Benutzer | Zugriff auf das Marketingmodul (SuperOffice Marketing) als Ergänzung zu Standard CRM. |
-| Vertriebs-Benutzer | Zugriff auf das Verkaufsmodul als Ergänzung zu Standard CRM. |
-| Servicebenutzer | Zugriff auf den SuperOffice Service als Ergänzung zu Standard CRM. |
-| Kompletter CMR-Benutzer | Zugriff auf Standard CRM, Verkauf und SuperOffice Service. |
-| Windows App | Zugriff auf Windows-Client für SuperOffice CRM. |
-| Remote Travel | Zugriff auf Remote Travel zur Synchronisierung zwischen der lokalen Datenbank und der zentralen SuperOffice-Datenbank, wenn der Benutzer auf Dienstreise ist. |
-| Pocket CRM | Zugriff auf die App Pocket CRM für SuperOffice CRM. |
-| Outlook Synchronizer | Zugriff auf die Synchronisierung mit Outlook. |
-| Zugriff auf Verkaufsangebot | Zugriff auf das Angebotsmodul als Ergänzung zu Standard CRM. |
+* Sales-Essentials
+* Sales-Premium
+* Service-Essentials
+* Service-Premium
+* Marketing-Essentials
+* Marketing-Premium
 
-> [!NOTE]
-> Sie können Benutzern Benutzerlizenzen (CAL: Client Access Licence) von der Registerkarte **Mitarbeiter** in der Ansicht Benutzer zuweisen.
+Lesen Sie mehr über [SuperOffice-Benutzerpläne und Abonnements][6].
+
+## Standortlizenzen und Benutzerlizenzen (Windows - Legacy)
+
+Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R17][5]) werden für eine bestimmte Anzahl von Benutzern erworben.
+
+Lesen Sie mehr über Lizenzen in [früheren Versionen von SuperOffice][7].
 
 ## Verwandte Themen
 
@@ -79,5 +75,8 @@ Schließlich gibt es noch Benutzerlizenzen für SuperOffice CRM for Windows, die
 [2]: ../../../sale/saint/learn/index.md
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
+[5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
+[6]: ../../../../en/admin/license/user-plans.md
+[7]: https://help.superoffice.com/Documentation/Help/DE/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 
 <!-- Referenced images -->
