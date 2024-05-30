@@ -4,8 +4,8 @@ title: SuperOffice Marketing
 description: "Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken."
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
+so.date: 05.31.2024
+so.version: 10.3.5
 so.topic: concept
 language: de
 so.audience: person
@@ -22,6 +22,7 @@ Mit SuperOffice Marketing können Sie Folgendes erstellen:
 
 * **Kampagnen** (E-Mails, SMS, Dokumente und Formularantworten). [Erste Schritte mit Ihrer ersten Kampagne][5].
 * **Formulare**. [Erste Schritt mit Ihrem ersten Formular][1].
+* **Flows** (ab Version 10.3.5 Pilot).
 
 Sehen Sie sich dieses Produkttour-Video an, um eine Einführung in die SuperOffice Marketing-Funktionen zu erhalten (Videolänge - 2:31):
 
@@ -72,11 +73,26 @@ Es gibt drei Schlüsselbereiche, in denen sich die DSGVO auf die Arbeit von Mark
 > [!NOTE]
 > Überwachte Links und Berichtsfunktionen erfordern die Marketing-Benutzerlizenz. Funktionelle Rechte benötigen Sie auch zum Bearbeiten und Versenden von Kampagnen.
 
-SMS-Kampagnen sind nicht verfügbar, wenn Sie CRM Online verwenden.
-
 ## Erforderliche Fähigkeiten
 
 Um von den Marketingfunktionen von SuperOffice profitieren zu können, benötigen Sie Grundkenntnisse über die Erfassung von grundlegenden CRM-Daten, wie zum Beispiel Kategorien für Firmen und Personen, Interessen und Abonnementtypen für Personen (siehe DSGVO und Datenschutz) und wie Sie Selektionen verwenden. Diese Schritte für die Erfassung von Daten helfen Ihnen, Ihren Kundenstamm zu segmentieren und eine effektive Zielliste zu erstellen. Für mehr Informationen über die Konfiguration von marketingbezogenen Funktionen wird auf den Bereich für das Verwalten von Listen in Einstellungen und Verwaltung verwiesen.
+
+## Unterschiede zwischen Marketing Essentials und Marketing Premium
+
+* **Essentials:** Die Werkzeuge, die Sie benötigen, um Prospects und Kunden besser zu erreichen und mit ihnen zu kommunizieren.
+
+* **Premium:** Entfesselt die Kraft von CRM-Daten für personalisierte und automatisierte Kundenreisen.​
+
+| Funktion | Essentials | Premium |
+|---|:-:|:-:|
+| Lead-Erfassung | x | x |
+| Lead-Generierung und -Pflege | | x |
+| Kundenkommunikation | x | x |
+| Segmentierte E-Mail-Kampagnen | x | x |
+| Onboarding und Adoption | | x |
+| Automatisierung der Kundenreise | | x |
+| Cross-Selling und Up-Selling | | x |
+| Marketing/Sales-Alignment | x | x |
 
 ## Unterschiede zwischen Vor-Ort- und Online-Installationen
 
@@ -94,6 +110,7 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 | Formulare | Enthält alle Formulare und erstellt neue. | [Ein neues Formular erstellen][1] |
 | Formularvorlagen | Enthält alle Formularvorlagen. | [Mit den Formularvorlagen arbeiten][18] |
 | Formularübermittlungen | Enthält übermittelte Formulare. | [Formularübermittlungen][19] |
+| Flows | Enthält alle Flows und erstellt neue. | [Ein neues Flow erstellen][20] |
 
 ## Was möchten Sie jetzt tun?
 
@@ -119,6 +136,7 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
+[20]: ../flows/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

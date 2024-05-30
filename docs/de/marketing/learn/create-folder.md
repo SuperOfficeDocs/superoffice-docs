@@ -2,30 +2,38 @@
 uid: help-de-marketing-create-folder
 title: Wie man einen Ordner in Marketing erstellt
 description: Wie man einen Ordner in Marketing erstellt
-author: SuperOffice RnD
-so.date: 09.07.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, Ordner, Unterordner, Ordner hinzufügen
+author: Bergfrid Dias
+so.date: 05.31.2024
+so.version: 10.3.5
+so.topic: howto
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Wie man einen Ordner erstellt
 
 Eine gut organisierte Ordnerhierarchie ist empfehlenswert, um Kampagnen, Formulare, Vorlagen, Links und Bilder in SuperOffice Marketing übersichtlich zu halten.
 
-Sie können in allen Ordnern Unterordner erstellen und die entsprechenden Kampagnen, Formulare, Vorlagen, Links und Bilder in jedem beliebigen Ordner ablegen.
-
-**Schritte:**
+## Schritte
 
 1. Wählen Sie eine der Hauptregisterkarten in SuperOffice Marketing.
 
-2. Optional: Öffnen Sie einen bestehenden Ordner, um einen Unterordner zu erstellen. Unter Umständen müssen Sie zuerst auf die Schaltfläche **Alle ...** klicken.
+2. Klicken Sie auf die Schaltfläche **Ordner hinzufügen**.
 
-3. Klicken Sie auf die Schaltfläche **Ordner hinzufügen** ![Symbol][img1]. Das Dialogfeld **Eigenschaften des Ordners** wird angezeigt.
+3. Geben Sie einen aussagekräftigen Namen für den Ordner im Feld **Name** ein.
 
-4. Geben Sie einen aussagekräftigen Namen für den Ordner in das Feld **Name** ein.
+4. Klicken Sie auf **OK**. Wenn der Ordner nicht in der Liste erscheint, klicken Sie auf die Schaltfläche **Meine ...** oder **Alle ...**.
 
-5. Klicken Sie auf **OK**. Wenn der Ordner nicht in der Liste angezeigt wird, klicken Sie auf die Schaltfläche **Meine ...** oder **Alle ...**.
+## Unterordner
+
+Sie können Unterordner in allen Ordnern erstellen und das entsprechende Marketingmaterial in jedem dieser Ordner ablegen.
+
+Führen Sie eine der folgenden Aktionen aus:
+
+* Öffnen Sie einen bestehenden Ordner, bevor Sie auf **Ordner hinzufügen** klicken. Möglicherweise müssen Sie zuerst auf die Schaltfläche **Alle ...** klicken.
+
+* Klicken Sie zuerst auf **Ordner hinzufügen** und wählen Sie dann einen übergeordneten Ordner aus der Liste **Erstellen als Unterordner von**.
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/folder.png

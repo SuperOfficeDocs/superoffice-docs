@@ -4,8 +4,8 @@ title: Formularaktionen definieren
 description: Formularaktionen definieren
 keywords: Formular, Automatisierung, Formularaktionen, übermittelte Formulare
 author: SuperOffice RnD
-so.date: 03.18.2024
-so.version: 10
+so.date: 05.31.2024
+so.version: 10.3.5
 so.topic: howto
 language: de
 so.audience: person
@@ -59,6 +59,9 @@ Hier können Sie Aktionen auswählen, die bei der automatischen oder manuellen V
 * **Standardkategorie**/**Standardbranche**: Wählen Sie eine Standardkategorie und eine Standardbranche für alle Personen oder Firmen aus, die aus übermittelten Formularen zu SuperOffice hinzugefügt werden. Mit dieser Option können Sie die Formularübermittlungen und neue Personen/Firmen unter einer bestimmten Kategorie und/oder Branche gruppieren.
 
     Wenn Sie z. B. ein Formular für Interessenten haben, wählen Sie Interessenten als Kategorie aus. Sie können dann ganz einfach Selektionen auf Basis dieser Kategorie und/oder dieser Branche erstellen.
+
+> [!NOTE]
+> Wenn Sie einen Formular aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows (einer Pilotfunktion) verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
 ## Was möchten Sie jetzt tun?
 

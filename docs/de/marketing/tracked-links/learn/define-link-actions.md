@@ -4,8 +4,8 @@ title: Automatisierte Linkaktionen definieren
 description: In dieser Anleitung lernen Sie, wie Sie Links in Kampagnen verwenden, um Aktionen zu automatisieren.
 keywords: Marketing, Kampagne, Aussendung, Überwachte Links, Linkaktion, automatisieren
 author: Bergfrid Dias
-so.date: 02.27.2024
-so.version: 10
+so.date: 05.31.2024
+so.version: 10.3.5
 so.topic: howto
 language: de
 so.audience: person
@@ -33,7 +33,7 @@ Sie können die gesammelten Informationen auf verschiedene Arten nutzen:
 
 ## Verfügbare Aktionen
 
-Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank aktualisieren. Diese Informationen können die Segmentierung verbessern oder helfen, mit interessierten Personen in Kontakt zu bleiben.
+Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank aktualisieren. Diese Informationen können die Segmentierung verbessern oder helfen, mit interessierten Personen in Kontakt zu bleiben. Du kannst mehr als eine Aktion für einen verfolgten Link auswählen.
 
 | Registerkarte | Aktion |
 |---|---|
@@ -46,7 +46,7 @@ Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank
 | [Skript](#script) | Ein Skript ausführen. |
 
 > [!TIP]
-> Du kannst mehr als eine Aktion für einen verfolgten Link auswählen.
+> Wenn Sie einen überwachte Link aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows (einer Pilotfunktion) verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
 ## <a id="response" />Antwort
 

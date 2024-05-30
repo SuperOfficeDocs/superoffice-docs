@@ -82,7 +82,7 @@ Choose between list or tile **view mode** in the lower-right corner.
 
 At the top, you can see the flow's name and its location within the folder structure. You have the following options:
 
-|Option | Description |
+| Option | Description |
 |---|---|
 | Running | Toggle this slider button to start or pause the flow. |
 | Edit | Opens the flow in edit mode. |
