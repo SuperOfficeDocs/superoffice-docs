@@ -74,8 +74,7 @@ Sie erfassen ein neues Projekt und wählen den Projekttyp **Konferenz**, der mit
 |---|---|---|
 | Geplant | Recherche (Meeting (intern)) | Konferenzprogramm (Memo) |
 | In Bearbeitung | Liste mit Projektmitgliedern erstellen (Folgeaufgabe) | Konferenz (Meeting (extern)) |
-| Wird beendet | Auswertungsmeeting (Meeting (intern)) |
-| Auswertungsbericht (Memo) |
+| Wird beendet | Auswertungsmeeting (Meeting (intern)) | Auswertungsbericht (Memo) |
 
 ### Status Geplant
 

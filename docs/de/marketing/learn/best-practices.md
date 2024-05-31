@@ -4,8 +4,8 @@ title: Beste Praktiken
 description: Beste Praktiken
 keywords: Marketing, E-Mail-Marketing, Nachricht, Publikum
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 02.27.2024
-so.version: 10
+so.date: 05.31.2024
+so.version: 10.3.5
 so.topic: howto
 language: de
 so.audience: person
@@ -76,6 +76,16 @@ Aber wenn Sie eine nicht validierte oder falsch geschriebene E-Mail-Adresse hinz
 Administratoren können eine [validierte Domäne hinzufügen][6] in den Einstellungen und der Wartung, um sicherzustellen, dass Benutzer die richtige und authentifizierte Domäne auswählen.
 
 Autoren sehen eine Nachricht, wenn sie eine nicht validierte E-Mail-Adresse im Feld Von verwenden, als Erinnerung daran, authentifizierte Domänen zu verwenden. Dies hilft auch dabei, Rechtschreibfehler in der Domäne für den Versand von E-Mails zu vermeiden.
+
+## Automatisierung (ab Version 10.3.5 Pilot)
+
+* Geben Sie eine maximale Wartezeit an, um zu verhindern, dass Teilnehmer für immer in einem Flow aktiv bleiben.
+
+* Aktualisieren Sie Teilnehmer mit neuen Informationen während des Flows. Zum Beispiel, setzen Sie ein neues Interesse oder eine neue Kategorie, wenn sich der Kontakt entwickelt; fügen Sie sie zu Listen hinzu oder entfernen Sie sie daraus.
+
+* Um doppelte oder widersprüchliche Aktionen zu vermeiden: Fügen Sie alle Aktionen an einer Stelle ein, entweder im Formular oder im Flow.
+
+* Sie können dasselbe erreichen, indem Sie einen Split in einem Flow verwenden oder die Kommunikation in zwei verschiedenen Flows arrangieren. Ob Sie einen Split verwenden oder mehrere Flows definieren, hängt vom Szenario und dem gewünschten Ergebnis ab. Je mehr die beiden Kommunikationspfade gemeinsam haben, desto effektiver ist es für den Benutzer, sie innerhalb desselben Flows zu arrangieren.
 
 ## <a id="mobile" />Die Nachricht für die Anzeige auf mobilen Geräten anpassen
 

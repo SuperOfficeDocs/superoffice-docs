@@ -100,7 +100,7 @@ Jetzt befindet sich hinter allen Spalten in Ihrem Archiv ein Trichtersymbol.
 
 1. Gehen Sie erneut wie im ersten Schritt erläutert vor, wenn Sie anhand einer zweiten Spalte filtern möchten.
 
-    ![Siehe das Archiv mit weniger Entitäten.-Screenshot][img14]
+    ![Siehe das Archiv mit weniger Entitäten.-screenshot][img14]
 
 ## Filter entfernen
 
