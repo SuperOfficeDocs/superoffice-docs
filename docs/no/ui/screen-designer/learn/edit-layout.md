@@ -2,11 +2,14 @@
 uid: help-no-screen-designer-edit-layout
 title: Redigere hovedkortlayout
 description: I denne veiledningen lærer du hvordan du redigerer en layout.
+keywords: Skjermdesigner, format, felt, faneoppsett
 author: Bergfrid Dias
-so.date: 03.29.2023
-keywords: Skjermdesigner, format, felt
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: no
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Redigere layout – Hovedkort
@@ -53,7 +56,7 @@ Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere 
 
     * Rediger feltformatering (for eksempel skriftformat) og andre innstillinger ved å klikke på feltet. **Innstillinger** -området åpnes i venstre del av vinduet. Se [Innstillinger](#settings).
 
-3. [Endre antall kolonner i en fane](#columns) fra **Kolonner**-delen.
+3. [Endre antall kolonner i en fane](#columns) fra **Faneoppsett**-delen.
 
 4. Lagre endringene som beskrevet ovenfor.
 
@@ -71,7 +74,7 @@ Se denne videoen og finn ut hvordan du bruker skjermdesigner til å konfigurere 
 
     * **Innstillinger**: Klikk på et felt eller element i layouten for å redigere innstillingene. De tilgjengelige innstillingene kan variere avhengig av det valgte objektet. Se [Innstillinger](#settings).
 
-    * **Kolonner**: [Velg hvor mange kolonner du vil vise i en fane](#columns).
+    * **Faneoppsett**: [Velg hvor mange kolonner du vil vise i en fane](#columns).
 
 3. Når du har tilpasset skjermlayouten, klikker du en av følgende knapper:
 
@@ -110,7 +113,7 @@ Gjør felt mer synlige ved å endre til fet og stor skrift. Gjør plass til fler
 
 Klikk på et felt eller element i oppsettet for å redigere innstillingene. Den tilgjengelige innstillingen vil variere avhengig av typen felt eller element.
 
-## <a id="columns"/>Kolonner
+## <a id="columns"/>Faneoppsett
 
 En kategori har to kolonner som standard, men du kan bruke alt fra 1–4 kolonner etter behov. Brukere med brede skjermer foretrekker kanskje flere kolonner for å vise og sortere mer data.
 
@@ -132,13 +135,13 @@ Legg til flere faner for flere felt, eller fjern irrelevante faner.
 
 **Slik legger du til en ny fane:**
 
-1. Klikk på ![ikon][img5] **Legg til**. **Kolonner**-delen åpnes til venstre.
+1. Klikk på ![ikon][img5] **Legg til**. **Faneoppsett**-delen åpnes til venstre.
 2. Under **Fanenavn**, erstatter du teksten **Ny fane** med det nye fanenavnet.
 3. Du kan også [legge til fanenavnet på andre språk][2] ved å klikke på ![ikon][img1].
 4. Velg antall kolonner du vil bruke i den nye fanen.
 
 > [!TIP]
-> Hvis du vil gi nytt navn til fanen senere, velger du fanen og deretter **Kolonner**.
+> Hvis du vil gi nytt navn til fanen senere, velger du fanen og deretter **Faneoppsett**.
 
 **Begrensninger:**
 

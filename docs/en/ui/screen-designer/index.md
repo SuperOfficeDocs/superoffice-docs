@@ -2,11 +2,11 @@
 uid: screen-designer
 title: Screen designer
 description: Introduction to the Screen Designer in Settings and maintenance.
-author: Bergfrid Dias
-so.date: 05.05.2023
 keywords: ui, screen, customization
+author: Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: concept
-so.version: 10
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 ---
@@ -25,7 +25,7 @@ The **Layouts** list displays any existing screen layouts (usually the default l
 
 * Settings: Lists options to customize the appearance and or settings of the selected field.
 
-* Columns: Lists column layout options to contain fields and elements.
+* Tab layout: Lists options to arrange fields and elements in columns.
 
 * Tabs: Can be added, rearranged, and deleted.
 
