@@ -152,7 +152,7 @@ items:
   - crmscript
   parent: CRMScript.Native.Map
   name: get(String)
-  nameWithType: 
+  nameWithType: Map.get(String)
   fullName: CRMScript.Native.Map.get(String)
   type: Method
   summary: "\nReturns the value for the given key.\n"
@@ -175,7 +175,7 @@ items:
   - crmscript
   parent: CRMScript.Native.Map
   name: getKey()
-  nameWithType: 
+  nameWithType: Map.getKey()
   fullName: CRMScript.Native.Map.getKey()
   type: Method
   summary: "\nReturns the key pointed to by the map iterator.\n"
@@ -195,7 +195,7 @@ items:
   - crmscript
   parent: CRMScript.Native.Map
   name: getVal()
-  nameWithType: 
+  nameWithType: Map.getVal()
   fullName: CRMScript.Native.Map.getVal()
   type: Method
   summary: "\nReturns the value pointed to by the map iterator.\n"
