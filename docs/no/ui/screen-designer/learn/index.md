@@ -14,12 +14,12 @@ so.audience.tooltip: Settings and maintenance
 
 # Skjermdesigner
 
- ![ikon][img1]
+![ikon][img1]
 
 Med funksjonen Skjermdesigner kan du konfigurere hovedskjermbildene dine i SuperOffice Sales CRM. Du kan opprette forskjellige skjermlayouter for ulike brukergrupper, avhengig av deres informasjonsbehov og arbeidsflyter. Dette vil hjelpe organisasjonen din med å bli mer effektiv og fokusere på det som betyr mest.
 
 > [!NOTE]
-> Skjermdesigner (konfigurerbare skjermbilder) krever lisens for utviklerverktøy.
+> Skjermdesigner (konfigurerbare skjermbilder) krever lisens for utviklerverktøy. Bruk av denne funksjonen krever funksjonsretten "Feltadministrator".
 
 Person- og firmakort/-skjermbildene i SuperOffice CRM leveres med et standardlayout, men du kan redigere dem eller lage din egen layout. Siden ulike brukergrupper ofte bruker person- og firmakortene på ulike måter, kan det være lurt å opprette forskjellige layouter for hver brukergruppe.
 

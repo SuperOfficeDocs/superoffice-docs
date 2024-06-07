@@ -14,12 +14,12 @@ so.audience.tooltip: Settings and maintenance
 
 # Skärmdesigner
 
- ![ikon][img1]
+![ikon][img1]
 
 Med skärmdesignerfunktionen kan du konfigurera dina huvudskärmar i SuperOffice CRM. Du kan skapa olika skärmlayouter för olika användargrupper, beroende på deras informationsbehov och arbetsflöden. Detta hjälper din organisation att bli mer effektiv och fokusera på det som är viktigast.
 
 > [!NOTE]
-> Skärmdesigner (konfigurerbara skärmar) kräver en licens för utvecklingsverktyg.
+> Skärmdesigner (konfigurerbara skärmar) kräver en licens för utvecklingsverktyg. Användning av denna funktion kräver funktionsrätten "Fältadministratör".
 
 Kontakt- och företagskorten/-skärmarna i SuperOffice CRM har en standardlayout, men du kan redigera dem eller skapa egna layouter. Eftersom olika användargrupper ofta använder kontakt- och företagskorten på olika sätt, kan det vara en bra idé att skapa olika layouter för varje användargrupp.
 

@@ -14,12 +14,12 @@ so.audience.tooltip: Settings and maintenance
 
 # Schermontwerper
 
- ![pictogram][img1]
+![pictogram][img1]
 
 Met de functie Schermontwerper kunt u uw hoofdschermen configureren in SuperOffice CRM. U kunt verschillende schermindelingen maken voor verschillende gebruikersgroepen, afhankelijk van hun informatiebehoeften en workflows. Dit zal uw organisatie helpen om effectiever te kunnen werken en zich op de belangrijkste zaken te concentreren.
 
 > [!NOTE]
-> Voor Schermontwerper (configureerbare schermen) is de licentie Developer Tools vereist.
+> Voor Schermontwerper (configureerbare schermen) is de licentie Developer Tools vereist. Het gebruik van deze functie vereist de functierechten "Veldbeheerder".
 
 De Persoon en bedrijfskaarten/schermen in SuperOffice CRM worden geleverd met een standaardopmaak, maar u kunt ze bewerken of uw eigen opmaak maken. Omdat verschillende gebruikersgroepen de persoon en bedrijfskaarten vaak anders gebruiken, kan het een goed idee zijn om voor elke gebruikersgroep een andere opmaak te maken.
 
