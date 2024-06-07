@@ -22,8 +22,8 @@ items:
     href: delete.md
   - name: Sjabloonvariabelen voorbeelden
     href: template-variables.md
-#- name: SharePoint document library integration
-#  href: ../cloud/sharepoint-documents/learn/index.md
-#  items:
-#  - name: Set up folders
-#    href: ../cloud/sharepoint-documents/learn/set-up-folders.md
+  - name: Integratie SharePoint-documentbibliotheek
+    href: ../cloud/sharepoint-documents/learn/index.md
+    items:
+    - name: De SharePoint-mappen instellen
+      href: ../cloud/sharepoint-documents/learn/set-up-folders.md

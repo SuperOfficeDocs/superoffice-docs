@@ -22,8 +22,8 @@ items:
     href: delete.md
   - name: Eksempler på malvariabler
     href: template-variables.md
-#- name: SharePoint document library integration
-#  href: ../cloud/sharepoint-documents/learn/index.md
-#  items:
-#  - name: Set up folders
-#    href: ../cloud/sharepoint-documents/learn/set-up-folders.md
+  - name: Integrering av SharePoint-dokumentbibliotek
+    href: ../cloud/sharepoint-documents/learn/index.md
+    items:
+    - name: Konfigurere SharePoint-mappene
+      href: ../cloud/sharepoint-documents/learn/set-up-folders.md

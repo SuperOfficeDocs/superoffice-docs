@@ -22,8 +22,8 @@ items:
     href: delete.md
   - name: Template variables examples
     href: template-variables.md
-#- name: SharePoint document library integration
-#  href: ../cloud/sharepoint-documents/learn/index.md
-#  items:
-#  - name: Set up folders
-#    href: ../cloud/sharepoint-documents/learn/set-up-folders.md
+  - name: SharePoint document library integration
+    href: ../cloud/sharepoint-documents/learn/index.md
+    items:
+    - name: Set up folders
+      href: ../cloud/sharepoint-documents/learn/set-up-folders.md
