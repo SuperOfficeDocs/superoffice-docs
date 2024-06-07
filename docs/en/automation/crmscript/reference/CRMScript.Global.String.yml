@@ -764,7 +764,7 @@ items:
   - crmscript
   parent: CRMScript.Global.String
   name: after(String)
-  nameWithType: 
+  nameWithType: String.after(String)
   fullName: CRMScript.Global.String.after(String)
   type: Method
   summary: "\nAnother option is to start copying after you encounter the pattern and continue extracting until you reach the end of the original string.<p></p>\nIf the pattern is not found in this, an empty string is returned.\n"
@@ -789,7 +789,7 @@ items:
   - crmscript
   parent: CRMScript.Global.String
   name: afterLast(String)
-  nameWithType: 
+  nameWithType: String.afterLast(String)
   fullName: CRMScript.Global.String.afterLast(String)
   type: Method
   summary: "\nSimilar to after(), but will not start copying until after the last occurrence of the pattern rather than starting after the 1st.\n"
