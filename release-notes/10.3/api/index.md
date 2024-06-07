@@ -29,4 +29,4 @@ so.topic: reference
 [4]: 10.3.4-update.md
 [5]: 10.3.5-update.md
 [6]: 10.3.6-update.md
-[6]: 10.3.7-update.md
+[7]: 10.3.7-update.md
