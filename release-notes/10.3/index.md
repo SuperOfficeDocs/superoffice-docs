@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-so.date: 05.21.2024
+so.date: 06.11.2024
 so.version: 10.3
 so.topic: reference
 ---
@@ -20,6 +20,9 @@ so.topic: reference
 Check out our **Product release** overview for more details in our [Community][28].
 
 ### SuperOffice CRM
+
+* 10.3.7 (11.06.2024):
+  * [CRMScript - Trigger dialog with formatted text (10.3.7)][29] in Settings and maintenance
 
 * 10.3.6 (21.05.2024):
   * [Follow-up - New and improved Follow-up dialog (10.3.6)][25] in Core CRM
@@ -68,9 +71,10 @@ Latest released versions:
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][21].
 
+* [SuperOffice Marketing Premium][20] (available by invitation  only in 10.3.5 - 21.05.2024)
 * [SuperOffice Service - Custom objects][20] (available in 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][20] (available in 10.3.2 - 20.02.2024)
-* SuperOffice CRM - New Follow-up (released in 10.3.6 - 21.05.2024)
+* [SuperOffice CRM - New Follow-up][35] (released in 10.3.6 - 21.05.2024)
 * SuperOffice Service - Request types for New Service Requests (released in 10.3.2 - 20.02.2024)
 * SuperOffice CRM - New Notifications (released in 10.2.8 - 19.09.2023)
 * [SuperOffice Service - New Service Request][23] (available on demand in 10.2.1 - 27.01.2023)
@@ -78,6 +82,12 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 ### Other highlights
 
 * **SuperOffice App store** - [New or updated apps][5]
+
+  * [DataBridge for SuperOffice (03.06.2024)][34]
+  * [Amesto Phone Integration (31.05.2024)][30]
+  * [Microsoft Dynamics 365 Business Central (29.05.2024)][31]
+  * [Wix (10.05.2024)][33]
+  * [PowerOffice Go (02.05.2024)][32]
   * [SnelStart for SuperOffice (02.04.2024)][22]
   * [Amesto PowerBI for SuperOffice (08.02.2024)][19]
   * [Exact for SuperOffice (02.02.2024)][16]
@@ -94,7 +104,7 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [1]: admin/10.3.1-update.md
 [2]: core-crm/10.3.1-update.md
 [3]: service/10.3.1-update.md
-[5]: https://appstore.superoffice.com/Category/new-or-updated1
+[5]: https://appstore.superoffice.com/Category/new-and-updated
 [6]: https://appstore.superoffice.com/all-crm/accountview-for-superoffice
 [7]: https://appstore.superoffice.com/keyforce-as/visma-business-nxt-quote
 [8]: https://appstore.superoffice.com/goava/goava-enrich
@@ -118,5 +128,12 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [26]: service/10.3.6-update.md
 [27]: ../mobile/index.md
 [28]: https://community.superoffice.com/en/product-releases/release-notes/
+[29]: admin/10.3.7-update.md
+[30]: https://appstore.superoffice.com/amesto-solutions-a-s/amesto-phone-integration
+[31]: https://appstore.superoffice.com/sesam-io/microsoft-dynamics-365-business-central
+[32]: https://appstore.superoffice.com/sesam-io/poweroffice-go
+[33]: https://appstore.superoffice.com/sesam-io/wix
+[34]: https://appstore.superoffice.com/infobridge-software-b-v-/databridge-for-superoffice
+[35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/
 
 <!-- Referenced images -->
