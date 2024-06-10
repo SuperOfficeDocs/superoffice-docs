@@ -4,8 +4,8 @@ title: Trinninnstillinger
 description: Oversikt over innstillinger for de ulike flyttrinnene.
 keywords: flyt, markedsføring, automatisering, trinn, trinninnstilling, trinnfelt
 author: Bergfrid Dias
-so.date: 05.24.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: reference
 language: no
 so.audience: person
@@ -68,7 +68,7 @@ Flytkontrolltrinnene **Del** og **Vent på hendelse** (og også Send SMS) har et
 | Innstilling | Beskrivelse |
 |---|---|
 | Legg til en deltaker i en annen flyt etter at du har avsluttet | Personen blir **foreslått** som deltaker for den angitte flyten. Filtre bestemmer om de starter den flyten eller ikke. |
-| Legg til en deltaker i et statisk utvalg etter at du har avsluttet | Personen blir medlem av det angitte utvalget. |
+| Legg til en deltaker i et statisk utvalg etter at du har avsluttet | Personen blir medlem av det angitte utvalget. Du kan opprette et nytt utvalg fra trinninnstillingene. |
 
 ## Avsluttet
 

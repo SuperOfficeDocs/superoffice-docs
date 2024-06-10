@@ -96,10 +96,9 @@ This works similar to [bulk update][11].
 
 Keep an overview of those who signed up, or was engaged, or to keep track and follow-up on later​. The contact is added as member to the specified selection and/or project.
 
-Before you begin, create a selection and/or project if necessary. Alternatively, update the step settings later.
-
 1. Drag the **Add to selection and/or project** box from the step menu and drop it into an available slot in the flowchart.
-1. Add contact to static selection: choose a static contact selection from the list.
+1. Add contact to static selection: choose a static contact selection from the list or click **New** to create a new one.
+
 1. Add contact as project member: choose a project from the list.
 
 > [!TIP]

@@ -96,10 +96,8 @@ Dette fungerer på samme måte som [masseoppdatering][11].
 
 Hold oversikt over de som meldte seg på, var engasjert, eller for å følge opp senere. Personen legges til som medlem i det angitte utvalget og/eller prosjektet.
 
-Før du begynner, opprett et utvalg og/eller prosjekt hvis nødvendig. Alternativt kan du oppdatere trinninstillingene senere.
-
 1. Dra **Legg til i utvalg/prosjekt**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
-1. Legg til person i statisk utvalg: velg et statisk personutvalg fra listen.
+1. Legg til person i statisk utvalg: velg et statisk personutvalg fra listen, eller klikk på **Ny** for å opprette et nytt.
 1. Legg til person som prosjektmedlem: velg et prosjekt fra listen.
 
 > [!TIP]

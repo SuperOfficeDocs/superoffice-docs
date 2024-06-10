@@ -4,8 +4,8 @@ title: Step settings
 description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 05.15.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: reference
 language: en
 so.audience: person
@@ -68,7 +68,7 @@ The flow-control steps **split** and **wait for action** (and also Send SMS) hav
 | Setting | Description |
 |---|---|
 | Add participant to another flow after exit | The dropped-out contact is **suggested** as participant for the specified flow. Filters determine if they start that flow or not. |
-| Add participant to static selection after exit | The dropped-out contact becomes member of the specified selection. |
+| Add participant to static selection after exit | The dropped-out contact becomes member of the specified selection. You can create a new selection from the step settings. |
 
 ## Finish
 

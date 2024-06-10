@@ -96,10 +96,8 @@ Dies funktioniert ähnlich wie das [Massenabgleich][11].
 
 Behalten Sie den Überblick über diejenigen, die sich angemeldet oder engagiert haben, oder verfolgen und folgen Sie später nach. Der Person wird als Mitglied der angegebenen Selektion und/oder des Projekts hinzugefügt.
 
-Bevor Sie beginnen, erstellen Sie eine Selektion und/oder ein Projekt, falls erforderlich. Alternativ können Sie die Schritteinstellungen später aktualisieren.
-
 1. Ziehen Sie das **Zur Selektion und/oder zum Projekt hinzufügen**-Feld aus dem Schrittmenü und lassen Sie es in einem verfügbaren Slot im Diagrammm fallen.
-1. Fügen Sie den Person zur statischen Selektion hinzu: Wählen Sie eine statische Person-Selektion aus der Liste.
+1. Fügen Sie den Person zur statischen Selektion hinzu: Wählen Sie eine statische Person-Selektion aus der Liste oder klicken Sie auf **Neu**, um eine neue zu erstellen.
 1. Fügen Sie den Person als Projektmitglied hinzu: Wählen Sie ein Projekt aus der Liste.
 
 > [!TIP]
