@@ -2,10 +2,10 @@
 uid: help-en-flow-actions
 title: Define flow actions
 description: Define flow actions
-keywords: flow, automation, flow action
+keywords: flow, automation, flow action, run script
 author: Bergfrid Dias, Trude Lien SmedbrÃ¥ten
-so.date: 05.15.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: en
 so.audience: person
@@ -20,6 +20,7 @@ so.pilot: yes
 * [Send message](#send)
 * [Update participant](#update)
 * [Create activity](#create)
+* [Internal actions](#internal)
 
 > [!NOTE]
 > When adding or updating flow actions, keep in mind that forms and tracked links have actions too. You should make sure there are no duplicate or conflicting actions. We recommend that you include all actions one place, either in the form or in the flow.
@@ -125,7 +126,7 @@ Example: Set up a free consultation on the first available time in Our contactâ€
 1. Assign to: choose who should follow up the participant: "our contact" or "our service contact", or a specific named associate.
 1. Optionally, enter other information. For details, see the [list of step settings][1] and [how to create a follow-up][12].
 
-## Create request
+### Create request
 
 1. Drag the **Create request** box from the step menu and drop it into an available slot in the flowchart.
 1. Enter a descriptive **title**.
@@ -139,7 +140,7 @@ Example: Set up a free consultation on the first available time in Our contactâ€
 
 For details, see the [list of step settings][1] and [how to create a request][13].
 
-## Create sale
+### Create sale
 
 When contact arrives this step, the contact is mature, and has shown indications of being a sales opportunity.â€‹
 
@@ -153,6 +154,18 @@ When contact arrives this step, the contact is mature, and has shown indications
     > Add a follow-up too, to notify the sale's owner about this new opportunityâ€‹.
 
 For details, see the [list of step settings][1] and [how to create a sale][18].
+
+## <a id="internal" />Internal actions
+
+### Run script
+
+Run custom business logic by triggering a CRM script as part of the flow.
+
+1. Drag the **Run script** box from the step menu and drop it into an available slot in the flowchart.
+1. Choose a [CRMScript][20] from the list.
+
+> [!NOTE]
+> The participant will proceed to the next step immediately after the script is triggered, without waiting for the result.
 
 ## Flow action vs. form action
 
@@ -189,6 +202,7 @@ A [link action][7] might:
 [17]: ../../../request/learn/priority/index.md
 [18]: ../../../sale/learn/create.md
 [19]: ../../../custom-objects/learn/extra-field.md
+[20]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-send-email-new.png

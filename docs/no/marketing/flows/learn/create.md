@@ -4,8 +4,8 @@ title: Opprette en ny flyt
 description: Hvordan opprette ny flyt og definere flytinnstillinger i SuperOffice Marketing
 keywords: flyt, markedsføringsautomatisering, ny flyt, flytinnstilling
 author: Bergfrid Dias
-so.date: 05.24.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: no
 so.audience: person
@@ -138,6 +138,7 @@ Ekskluderingslisten **forhindrer utvalgte personer fra å bli lagt til i flyten*
     * Flytkontroll
     * [Oppdater deltaker][4]
     * [Opprett aktivitet][5]
+    * [Interne handlinger][10]
 
 Klikk X i trinninnstillingsheaderen for å gå tilbake til trinnmenyen.
 
@@ -217,6 +218,7 @@ Etter å ha designet en flyt og lagret den, lukkes **Dialogvindu for å redigere
 [3]: define-flow-actions.md
 [4]: define-flow-actions.md#update
 [5]: define-flow-actions.md#create
+[10]: define-flow-actions.md#internal
 [6]: run-pause-end.md
 [7]: index.md#success
 [9]: step-settings.md

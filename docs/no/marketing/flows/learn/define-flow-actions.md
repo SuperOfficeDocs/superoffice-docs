@@ -2,10 +2,10 @@
 uid: help-no-flow-actions
 title: Definer flythandlinger
 description: Definer flythandlinger
-keywords: flyt, markedsføring, flythandling
+keywords: flyt, markedsføring, flythandling, kjør skript
 author: Bergfrid Dias
-so.date: 05.24.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: no
 so.audience: person
@@ -20,6 +20,7 @@ so.pilot: yes
 * [Send melding](#send)
 * [Oppdater deltaker](#update)
 * [Opprett aktivitet](#create)
+* [Interne handlinger](#internal)
 
 > [!NOTE]
 > Når du legger til eller oppdaterer flythandlinger, husk at skjemaer og sporingslenker også har handlinger. Du bør sørge for at det ikke finnes dupliserte eller motstridende handlinger. Vi anbefaler at du inkluderer alle handlinger på ett sted, enten i skjemaet eller i flyten.
@@ -125,7 +126,7 @@ Eksempel: Sett opp en gratis konsultasjon på første tilgjengelige tid i vår k
 1. Overfør til: velg hvem som skal følge opp deltakeren: "vår kontakt" eller "vår servicekontakt", eller en spesifikk navngitt medarbeider.
 1. Eventuelt, angi annen informasjon. For detaljer, se [listen over trinninstillinger][1] og [hvordan opprette en oppfølging][12].
 
-## Opprett sak
+### Opprett sak
 
 1. Dra **Opprett sak**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
 1. Angi en beskrivende **tittel**.
@@ -139,7 +140,7 @@ Eksempel: Sett opp en gratis konsultasjon på første tilgjengelige tid i vår k
 
 For detaljer, se [listen over trinninstillinger][1] og [hvordan opprette en sak][13].
 
-## Opprett salg
+### Opprett salg
 
 Når deltakeren når dette trinnet, er personen moden og har vist tegn på å være en salgsmulighet.
 
@@ -153,6 +154,18 @@ Når deltakeren når dette trinnet, er personen moden og har vist tegn på å v�
     > Legg til en oppfølging også, for å varsle salgseieren om denne nye muligheten​.
 
 For detaljer, se [listen over trinninnstillinger][1] og [hvordan du oppretter et salg][18].
+
+## <a id="internal" />Interne handlinger
+
+### Kjør skript
+
+Kjør egendefinert forretningslogikk ved å utløse et CRMScript som en del av flyten.
+
+1. Dra **Kjør skript**-boksen fra trinnmenyen og slipp den i en tilgjengelig plass i flytskjemaet.
+1. Velg et [CRMScript][20] fra listen.
+
+> [!NOTE]
+> Deltakeren vil fortsette til neste trinn umiddelbart etter at skriptet er utløst, uten å vente på resultatet.
 
 ## Flythandling vs. skjemahandling
 
@@ -189,6 +202,7 @@ En [koblingshandling][7] kan inkludere:
 [17]: ../../../request/learn/priority/index.md
 [18]: ../../../sale/learn/create.md
 [19]: ../../../custom-objects/learn/extra-field.md
+[20]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-send-email-new.png
