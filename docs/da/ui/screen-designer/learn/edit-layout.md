@@ -2,11 +2,14 @@
 uid: help-da-screen-designer-edit-layout
 title: Rediger hovedkortets layout
 description: "I denne vejledning lærer du, hvordan du redigerer et layout."
+keywords: skærmdesigner, udseende, felt, fanelayout
 author: Bergfrid Dias
-so.date: 03.29.2023
-keywords: skærmdesigner, udseende, felt
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: da
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Rediger layout – Hovedkort
@@ -52,7 +55,7 @@ Se denne video og find ud af, hvordan du bruger skærmdesigneren til at konfigur
 
     * Rediger feltformatering (f.eks. skrifttypeformat) og andre indstillinger ved at klikke på feltet. Sektionen **Indstillinger** åbnes i venstre del af vinduet. Se [Indstillinger](#settings).
 
-3. [Rediger antallet af kolonner under en fane](#columns) fra sektionen **Kolonner**.
+3. [Rediger antallet af kolonner under en fane](#columns) fra sektionen **Fanelayout**.
 
 4. Gem ændringerne som beskrevet ovenfor.
 
@@ -70,7 +73,7 @@ Se denne video og find ud af, hvordan du bruger skærmdesigneren til at konfigur
 
     * **Indstillinger**: Klik på et felt eller element i layoutet for at redigere de relevante indstillinger. De tilgængelige indstillinger kan variere afhængigt af det valgte objekt. Se [Indstillinger](#settings).
 
-    * **Kolonner**: [Vælg, hvor mange kolonner der skal vises under en fane](#columns).
+    * **Fanelayout**: [Vælg, hvor mange kolonner der skal vises under en fane](#columns).
 
 3. Når du har tilpasset skærmlayoutet, skal du klikke på en af følgende knapper:
 
@@ -109,7 +112,7 @@ Gør felter mere synlige ved at ændre skrifttypen til fed og stor tekst. Gør p
 
 Klik på et felt eller element i layoutet for at redigere indstillingerne. Den tilgængelige indstilling varierer afhængigt af felttypen eller elementet.
 
-## <a id="columns"/>Kolonner
+## <a id="columns"/>Fanelayout
 
 Som standard har en fane 2 kolonner, men du kan bruge alt fra 1-4 kolonner afhængigt af dine behov. Brugere med brede skærme foretrækker muligvis flere kolonner for at kunne se og sortere flere data.
 
@@ -131,13 +134,13 @@ Føj flere faner til yderligere felter, eller fjern irrelevante faner.
 
 **Sådan tilføjes en ny fane:**
 
-1. Klik på ![ikonet][img5] **Tilføj**. Sektionen **Kolonner** åbnes til venstre.
+1. Klik på ![ikonet][img5] **Tilføj**. Sektionen **Fanelayout** åbnes til venstre.
 2. Erstat teksten **Ny fane** under **Fanetitel** med det nye fanenavn.
 3. Du kan også [tilføje fanenavnet på andre sprog][2] ved at klikke på ![ikon][img1].
 4. Vælg det antal kolonner, du vil bruge under den nye fane.
 
 > [!TIP]
-> Hvis du senere vil omdøbe fanen, skal du markere den og vælge **Kolonner**.
+> Hvis du senere vil omdøbe fanen, skal du markere den og vælge **Fanelayout**.
 
 **Begrænsninger:**
 

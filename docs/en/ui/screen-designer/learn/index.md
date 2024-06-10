@@ -14,12 +14,12 @@ so.audience.tooltip: Settings and maintenance
 
 # Screen designer
 
- ![icon][img1]
+![icon][img1]
 
 The Screen designer feature allows you to configure your main screens in SuperOffice CRM. You can create different screen layouts for different user groups, depending on their information needs and workflows. This will help your organization to be more effective and focus on what matters most.
 
 > [!NOTE]
-> Screen designer (configurable screens) requires the Developer Tools licence.
+> Screen designer (configurable screens) requires the Developer Tools licence. Using this function requires functional right "Field administrator".
 
 The Contact and Company cards/screens in SuperOffice CRM come with a default layout, but you can edit them or create your own layouts. Because different user groups often use the Contact and Company cards differently, it could be a good idea to create different layouts for each user group.
 

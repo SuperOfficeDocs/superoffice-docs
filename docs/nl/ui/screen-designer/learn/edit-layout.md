@@ -2,11 +2,14 @@
 uid: help-nl-screen-designer-edit-layout
 title: Opmaak hoofdkaarten bewerken
 description: In deze handleiding staat u hoe u een opmaak bewerkt.
+keywords: schermontwerper, opmaak, veld, tabbladindeling
 author: Bergfrid Dias
-so.date: 03.29.2023
-keywords: schermontwerper, opmaak, veld
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: nl
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Opmaak bewerken - Hoofdkaarten
@@ -52,7 +55,7 @@ Bekijk deze video en ontdek hoe u de schermontwerper kunt gebruiken om uw scherm
 
     * Bewerk de opmaak van velden (zoals lettertype-indeling) en andere instellingen door op het veld te klikken. De sectie **Instellingen** wordt links in het venster geopend. Zie [Instellingen](#settings).
 
-3. [Wijzig het aantal kolommen op een tabblad](#columns), vanuit de sectie **Kolommen**.
+3. [Wijzig het aantal kolommen op een tabblad](#columns), vanuit de sectie **Tabbladindeling**.
 
 4. Sla de wijzigingen op zoals hierboven beschreven.
 
@@ -70,7 +73,7 @@ Bekijk deze video en ontdek hoe u de schermontwerper kunt gebruiken om uw scherm
 
     * **Instellingen**: klik op een veld of element in de opmaak om de relevante instellingen te bewerken. De beschikbare instellingen kunnen variëren afhankelijk van het geselecteerde object. Zie [Instellingen](#settings).
 
-    * **Kolommen**: [selecteer hoeveel kolommen u op een tabblad wilt weergeven.](#columns)
+    * **Tabbladindeling**: [selecteer hoeveel kolommen u op een tabblad wilt weergeven.](#columns)
 
 3. Na aanpassen van de schermopmaak, klikt u op een van de volgende knoppen:
 
@@ -109,7 +112,7 @@ Maak velden beter zichtbaar door het lettertype te veranderen in vet gedrukte en
 
 Klik op een veld of element in de opmaak om de instellingen ervan te bewerken. De beschikbare instelling is afhankelijk van het type veld of element.
 
-## <a id="columns"/>Kolommen
+## <a id="columns"/>Tabbladindeling
 
 Standaard heeft een tabblad 2 kolommen, maar u kunt 1-4 kolommen gebruiken, afhankelijk van wat u nodig hebt. Gebruikers met breedbeeldschermen geven misschien de voorkeur aan meer kolommen om meer gegevens te kunnen bekijken en sorteren.
 
@@ -131,13 +134,13 @@ Voeg meer tabbladen toe voor extra velden of verwijder irrelevante tabbladen.
 
 **U voegt als volgt een nieuw tabblad toe:**
 
-1. Klik op ![pictogram][img5] **Toevoegen**. De sectie **Kolommen** wordt naar de linkerkant geopend.
+1. Klik op ![pictogram][img5] **Toevoegen**. De sectie **Tabbladindeling** wordt naar de linkerkant geopend.
 2. Vervang onder **Titel tabblad** de tekst **Nieuw tabblad** door de nieuwe naam voor het tabblad.
 3. U kunt de naam van het tabblad ook in [andere talen][2] toevoegen door op ![pictogram][img1] te klikken.
 4. Selecteer het aantal kolommen dat u in het nieuwe tabblad wilt gebruiken.
 
 > [!TIP]
-> Als u later de naam van het tabblad wilt wijzigen, selecteert u het tabblad en selecteert u **Kolommen**.
+> Als u later de naam van het tabblad wilt wijzigen, selecteert u het tabblad en selecteert u **Tabbladindeling**.
 
 **Beperkingen:**
 

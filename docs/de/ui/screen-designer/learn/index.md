@@ -14,12 +14,12 @@ so.audience.tooltip: Settings and maintenance
 
 # Ansichtsdesigner
 
- ![Symbol][img1]
+![Symbol][img1]
 
 Mit der Ansichtsdesigner-Funktion können Sie Ihre Hauptanzeigen in SuperOffice CRM konfigurieren. Sie können je nach den Informationsbedürfnissen und Arbeitsabläufen unterschiedliche Anzeigenlayouts für verschiedene Benutzergruppen erstellen. Dies hilft Ihrer Organisation, effektiver zu sein und sich auf das Wesentliche zu konzentrieren.
 
 > [!NOTE]
-> Für den Ansichtsdesigner (konfigurierbare Ansichten) ist die Lizenz für Developer Tools erforderlich.
+> Für den Ansichtsdesigner (konfigurierbare Ansichten) ist die Lizenz für Developer Tools erforderlich. Für die Nutzung dieser Funktion ist das Funktionsrecht "Feldadministrator" erforderlich.
 
 Die Personen- und Firmenkarten/Ansichten in SuperOffice CRM verfügen über ein Standardlayout. Sie können sie aber auch bearbeiten oder Ihr eigenes Layout erstellen. Da verschiedene Benutzergruppen die Personen- und Firmenkarten oft unterschiedlich verwenden, ist es ratsam, für jede Benutzergruppe unterschiedliche Layouts zu erstellen.
 

@@ -2,11 +2,14 @@
 uid: help-de-screen-designer-edit-layout
 title: Hauptkartenlayout bearbeiten
 description: "In dieser Anleitung lernen Sie, wie Sie ein Layout bearbeiten können."
+keywords: Ansichtsdesigner, Layout, Feld, Registerkarten-Layout
 author: Bergfrid Dias
-so.date: 03.29.2023
-keywords: Ansichtsdesigner, Layout, Feld
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: de
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Layout bearbeiten – Hauptkarten
@@ -52,7 +55,7 @@ Sehen Sie sich dieses Video an, um herauszufinden, wie Sie mit dem Ansichtsdesig
 
     * Die Feldformatierung (z. B. das Schriftformat) und andere Einstellungen bearbeiten Sie, indem Sie auf das Feld klicken. Im linken Teil des Fensters öffnet sich der Bereich **Einstellungen**. Siehe [Einstellungen](#settings).
 
-3. Vom Bereich **Spalten** die [Spaltenanzahl in einer Registerkarte ändern](#columns).
+3. Vom Bereich **Registerkarten-Layout** die [Spaltenanzahl in einer Registerkarte ändern](#columns).
 
 4. Speichern Sie die Änderungen wie oben erläutert.
 
@@ -70,7 +73,7 @@ Sehen Sie sich dieses Video an, um herauszufinden, wie Sie mit dem Ansichtsdesig
 
     * **Einstellungen**: Klicken Sie im Layout auf ein Feld oder Element, um die betreffenden Einstellungen zu bearbeiten. Welche Einstellungen verfügbar sind, hängt vom ausgewähltem Objekt ab. Siehe [Einstellungen](#settings).
 
-    * **Spalten**: [Wählen Sie die Anzahl der Spalten aus, die in einer Registerkarte angezeigt werden sollen](#columns).
+    * **Registerkarten-Layout**: [Wählen Sie die Anzahl der Spalten aus, die in einer Registerkarte angezeigt werden sollen](#columns).
 
 3. Klicken Sie nach der Anpassung der Ansicht Layout auf eine der folgenden Schaltflächen:
 
@@ -109,7 +112,7 @@ Sie können Felder hervorheben, indem Sie die Schrift in Fettdruck ändern und d
 
 Klicken Sie im Layout auf ein Feld oder Element, wenn Sie dessen Einstellungen bearbeiten wollen. Welche Einstellungen verfügbar sind, hängt vom Typ des Feldes bzw. Elements ab.
 
-<a id="columns"/>## Spalten
+## <a id="columns"/>Registerkarten-Layout
 
 Standardmäßig ist eine Registerkarte in 2 Spalten unterteilt, aber Sie können ganz nach Bedarf 1-4 Spalten verwenden. Benutzer mit breiten Anzeigen bevorzugen möglicherweise mehr Spalten, um mehr Daten anzeigen und sortieren zu können.
 
@@ -131,13 +134,13 @@ Sie können weitere Registerkarten für zusätzliche Felder hinzufügen oder nic
 
 **So fügen Sie eine neue Registerkarte hinzu:**
 
-1. Klicken Sie auf das ![Symbol][img5] **Hinzufügen**. Der Bereich **Spalten** wird auf der linken Seite geöffnet.
+1. Klicken Sie auf das ![Symbol][img5] **Hinzufügen**. Der Bereich **Registerkarten-Layout** wird auf der linken Seite geöffnet.
 2. Ersetzen Sie in **Registerkartentitel** den Text **Neue Registerkarte** durch den neuen Namen für die Registerkarte.
 3. Sie können auch auf das ![Symbol][img1] klicken, damit Sie die [Registerkarte Name in anderen Sprachen hinzufügen][2] können.
 4. Wählen Sie die Spaltenanzahl für die neue Registerkarte aus.
 
 > [!TIP]
-> Wählen Sie die Registerkarte und dann **Spalten** aus, wenn Sie die Registerkarte später umbenennen möchten.
+> Wählen Sie die Registerkarte und dann **Registerkarten-Layout** aus, wenn Sie die Registerkarte später umbenennen möchten.
 
 **Einschränkungen:**
 

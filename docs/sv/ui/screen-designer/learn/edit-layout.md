@@ -2,11 +2,14 @@
 uid: help-sv-screen-designer-edit-layout
 title: Redigera layout på huvudkort
 description: I den här guiden förklarar vi hur du redigerar en layout.
+keywords: skärmdesigner, layout, fält, fliklayout
 author: Bergfrid Dias
-so.date: 03.29.2023
-keywords: skärmdesigner, layout, fält
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: sv
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Redigera layout - Huvudkort
@@ -52,7 +55,7 @@ Titta på den här videon och ta reda på hur du använder skärmdesignern för 
 
     * Redigera fältformatering (till exempel teckensnittsformat) och andra inställningar genom att klicka på fältet. Ikonen **Konfiguration** öppnas i den vänstra delen av fönstret. Se [Konfiguration](#settings).
 
-3. [Ändra antalet kolumner i en flik](#columns) från avsnittet **Kolumner**.
+3. [Ändra antalet kolumner i en flik](#columns) från avsnittet **Fliklayout**.
 
 4. Spara beskrivningarna enligt beskrivningen ovan.
 
@@ -70,7 +73,7 @@ Titta på den här videon och ta reda på hur du använder skärmdesignern för 
 
     * **Konfiguration**: Klicka på ett fält eller ett objekt i layouten för att redigera relevanta inställningar. Vilka inställningar som är tillgängliga kan variera beroende på vilket objekt som har markerats. Se [Konfiguration](#settings).
 
-    * **Kolumner**: [Välj hur många kolumner som du vill visa i en flik](#columns).
+    * **Fliklayout**: [Välj hur många kolumner som du vill visa i en flik](#columns).
 
 3. Efter du har anpassat skärmlayouten, klickar du på någon av följande knappar:
 
@@ -109,7 +112,7 @@ Gör fälten mer synliga genom att ändra fonten till fetstil och stor text. Gö
 
 Klicka på ett fält eller ett objekt i layouten för att redigera dess inställningar. Den tillgängliga inställningen kommer att variera beroende på typ av fält eller objekt.
 
-## <a id="columns"/>Kolumner
+## <a id="columns"/>Fliklayout
 
 Som standard har en flik 2 kolumner, men du kan använda allt från 1-4 kolumner beroende på dina behov. Användare med breda skärmar kan föredra fler kolumner för att visa och sortera mer data.
 
@@ -131,13 +134,13 @@ Lägg till fler flika för ytterligare fält, eller ta bort irrelevanta flikar.
 
 **Så här lägger du till en ny flik:**
 
-1. Klicka på ![ikon][img5] **Lägg till**. Avsnittet **Kolumner** öppnas till vänster.
+1. Klicka på ![ikon][img5] **Lägg till**. Avsnittet **Fliklayout** öppnas till vänster.
 2. Under **Flikrubrik** byter du ut texten **Ny flik** mot det nya namnet på fliken.
 3. Du kan också [lägga till fliknamnet på andra språk][2] genom att klicka på ![ikon][img1].
 4. Välj antal kolumner som du vill använda i den nya fliken.
 
 > [!TIP]
-> Om du senare skulle vilja byta namn på fliken, markerar du fliken och väljer **Kolumner**.
+> Om du senare skulle vilja byta namn på fliken, markerar du fliken och väljer **Fliklayout**.
 
 **Begränsningar:**
 

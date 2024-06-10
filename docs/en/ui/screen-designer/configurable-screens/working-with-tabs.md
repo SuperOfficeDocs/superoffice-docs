@@ -2,13 +2,13 @@
 uid: screen-tabs
 title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
-author: Bergfrid Dias
-so.date: 05.05.20213
 keywords: ui, screen, customization
+author: Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
-so.version: 10
-so.envir:
-so.client:
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Working with tabs
@@ -23,7 +23,7 @@ You can add custom tabs, for example, for fields related to a specific area.
 
 To add a new tab:
 
-1. Click **Add**. The **Columns** section opens to the left.
+1. Click **Add**. The **Tab layout** section opens to the left.
 
 2. Under Tab title, replace the text "New tab" with the new tab name.
 
@@ -33,7 +33,7 @@ To add a new tab:
 3. Select the number of columns you want to use in the new tab.
 
 > [!TIP]
-> To rename the tab, select the tab and select **Columns**. You can't rename any of the default tabs.
+> To rename the tab, select the tab and select **Tab layout**. You can't rename any of the default tabs.
 
 ## Remove a tab
 
@@ -77,7 +77,7 @@ By default, tabs have two columns. You can customize each tab individually and c
 > Tabs with specific functions, such as **ERP** and **Note**, don't have a column setup. Go to **Settings and maintenance** > **ERP** to configure the contents of the ERP tab.
 
 1. Select the tab you want to adjust columns for.
-1. Select the **Columns** section.
+1. Select the **Tab layout** section.
 1. Choose one of the four layout options.
 
 If you reduce the number of columns, the fields are moved to the new last column. For example, when reducing the number of columns from three to two, all fields in the third column move to the bottom of column 2. When reduced to one column, all fields move to the first column.

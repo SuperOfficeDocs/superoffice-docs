@@ -2,11 +2,14 @@
 uid: help-en-screen-designer-edit-layout
 title: Edit main cards layout
 description: In this how-to guide, you will learn how to edit a layout.
-author: Bergfrid Dias
-so.date: 03.29.2023
 keywords: screen designer, layout, field
+author: Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: en
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Edit layout - Main cards
@@ -52,7 +55,7 @@ Watch this video and find out how to use the screen designer to configure your s
 
     * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](#settings).
 
-3. [Change the number of columns in a tab](#columns) from the **Columns** section.
+3. [Change the number of columns in a tab](#columns) from the **Tab layout** section.
 
 4. Save the changes as described above.
 
@@ -70,7 +73,7 @@ Watch this video and find out how to use the screen designer to configure your s
 
     * **Settings**: Click a field or element in the layout to edit the relevant settings. The available settings may vary according to the selected object. See [Settings](#settings).
 
-    * **Columns**: [Select how many columns you want to display in a tab](#columns).
+    * **Tab layout**: [Select how many columns you want to display in a tab](#columns).
 
 3. After customizing the screen layout, click one of the following buttons:
 
@@ -84,7 +87,7 @@ Boxes with stapled lines in the layout, indicate where you can place a field:
 
 Below you can find more detailed descriptions of the various sections and functions.
 
-## Fields
+## <a id="fields" />Fields
 
 In the **Fields** section you can find all available data fields for the selected screen layout. Use the filter function to find specific fields.
 
@@ -103,13 +106,13 @@ In the **Fields** section you can find all available data fields for the selecte
 
 In the **Elements** section you can add various non-data elements such as labels, dividers, links and buttons.
 
-## Settings
+## <a id="settings" />Settings
 
 Make fields more visible by changing the font to bold and large text. Make room for more fields by using a smaller font. Save screen space by hiding labels.
 
 Click a field or element in the layout to edit its settings. The available setting will vary according to the type of field or element.
 
-## Columns
+## <a id="columns" />Tab layout
 
 By default a tab has 2 columns, but you can use anything from 1-4 columns depending on you needs. Users with wide screens may prefer more columns, to view and sort more data.
 
@@ -120,7 +123,7 @@ By default a tab has 2 columns, but you can use anything from 1-4 columns depend
 * Some tabs, such as **ERP** and **Note**, do not have a column setup, because they have specific functions.
 * If a user does not have the screen size to fit all columns, they are stacked on top of each other.
 
-## Tabs
+## <a id="tabs" />Tabs
 
 Add more tabs for additional fields, or remove irrelevant tabs.
 
@@ -131,13 +134,13 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 
 **To add a new tab:**
 
-1. Click ![icon][img5] **Add**. The **Columns** section opens to the left.
+1. Click ![icon][img5] **Add**. The **Tab layout** section opens to the left.
 2. Under **Tab title**, replace the text **New tab** with the new tab name.
 3. You can also [add the tab name in other languages][2] by clicking ![icon][img1].
 4. Select the number of columns you want to use in the new tab.
 
 > [!TIP]
-> If you later want to rename the tab, select the tab and select **Columns**.
+> If you later want to rename the tab, select the tab and select **Tab layout**.
 
 **Limitations:**
 
