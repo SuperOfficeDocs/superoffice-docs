@@ -4,8 +4,8 @@ title: Flytkontroll - oppdeling
 description: Flytkontroll - oppdeling
 keywords: flyt, automatisering, gren, oppdeling, splitt, del opp
 author: Bergfrid Dias
-so.date: 05.24.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: no
 so.audience: person
