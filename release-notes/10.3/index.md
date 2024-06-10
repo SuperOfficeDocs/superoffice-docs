@@ -4,7 +4,7 @@ title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 keywords: web panel, system design, dashboard, request, SAINT, invitation
 author: SuperOffice AS – Research and Development
-so.date: 06.07.2024
+so.date: 06.11.2024
 so.version: 10.3
 so.topic: reference
 ---
@@ -134,6 +134,6 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 [32]: https://appstore.superoffice.com/sesam-io/poweroffice-go
 [33]: https://appstore.superoffice.com/sesam-io/wix
 [34]: https://appstore.superoffice.com/infobridge-software-b-v-/databridge-for-superoffice
-[35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/?utm_medium=in-app&utm_source=announcement&utm_campaign=follow-up&utm_content=new
+[35]: https://community.superoffice.com/en/product-releases/whats-new/product/new-and-improved-follow-up/
 
 <!-- Referenced images -->

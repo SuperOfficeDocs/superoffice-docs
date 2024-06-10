@@ -2,9 +2,9 @@
 uid: news-admin-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes. What's new in SuperOffice 10.3
-keywords: Settings and maintenance, system design, web panel, screen designer, request type
+keywords: Settings and maintenance, system design, web panel, screen designer, request type, Trigger dialog
 author: SuperOffice AS – Research and Development
-so.date: 06.07.2024
+so.date: 06.11.2024
 so.version: 10.3
 so.topic: reference
 so.audience: settings
