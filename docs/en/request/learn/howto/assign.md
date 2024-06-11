@@ -2,13 +2,14 @@
 uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
-author: Hanne Gunnarsson
-so.date: 02.14.2023
 keywords: request
+author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10
+language: en
 so.topic: concept
 so.audience: person
 so.audience.tooltip: SuperOffice Service
-language: en
 ---
 
 # Automatic assignment methods for requests
@@ -24,9 +25,53 @@ language: en
 | To user with fewest open requests | Assigns new requests to the category members who has the fewest active requests. |
 | Do not assign | Does not assign requests to specific request handlers, but puts all requests in a queue as **Unassigned**. |
 
+Let us illustrate these assignment methods with three users and three incoming requests.
+
+![Request assignment methods -screenshot][img1]
+
+### Even
+
+Assigns requests evenly among category members in a round-robin fashion.
+
+![Request assignment methods, even -screenshot][img2]
+
+### Weighted
+
+Assigns requests based on specified weightings for each category member. For example, if member A has a weight of 1, member B has 2, and member C has 5, over 8 requests, they will be assigned proportionally.
+
+Requests are assigned probabilistically based on their weights.
+
+![Request assignment methods, weighted][img3]
+
+| Request | Random value | Assigned to |
+|---|:-:|---|
+| First request | 7 | Member C |
+| Second request| 2 | Member B |
+| Third request | 5 | Member C |
+
+![Request assignment methods, weighted -screenshot][img4]
+
+### User with fewest open requests
+
+Assigns new requests to the member with the fewest active requests.
+
+| Request | Condition | Assigned to |
+|---|---|---|
+| First request | Members B and C have the fewest requests | Member C |
+| Second request| Member B has the fewest requests | Member B |
+| Third request | All members have the same number of requests | Member B |
+
+![Request assignment methods, user with fewest open requests -screenshot][img5]
+
+### Do not assign
+
+Does not assign requests to specific members. All requests are placed in a queue by default.
+
+![Request assignment methods, do not assign -screenshot][img6]
+
 [!include[Get next request in queue](includes/howto-get-next-request.md)]
 
-### Specify assignment method for category
+## Specify assignment method for category
 
 A request handler with category administration rights can specify the assignment method for categories:
 
@@ -57,3 +102,9 @@ Imagine that your company has created a category for each department in the comp
 [5]: transfer.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/request/assign-requests.png
+[img2]: ../../../../media/loc/en/request/assign-requests-even.png
+[img3]: ../../../../media/loc/en/request/assign-requests-weighted-diagram.png
+[img4]: ../../../../media/loc/en/request/assign-requests-weighted.png
+[img5]: ../../../../media/loc/en/request/assign-requests-fewest.png
+[img6]: ../../../../media/loc/en/request/assign-requests-not.png

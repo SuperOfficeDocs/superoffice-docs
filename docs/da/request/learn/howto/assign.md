@@ -2,13 +2,14 @@
 uid: help-da-request-assign
 title: Fordelingsmetoder
 description: Tildelingsmetoder for sager
-author: Hanne Gunnarsson
-so.date: 02.14.2023
 keywords: sag
+author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10
+language: da
 so.topic: concept
 so.audience: person
 so.audience.tooltip: SuperOffice Service
-language: da
 ---
 
 # Automatiske tildelingsmetoder for sager
@@ -24,9 +25,53 @@ Hvis en sag skal være dit ansvar, skal dit navn fremgå i sagens **Ejer**-felt.
 | Til sagsbehandleren med færrest aktive sager | Fordeler nye sager til det kategorimedlem, der har færrest aktive sager. |
 | Fordel ikke | Fordeler ikke sager til bestemte sagsbehandlere, men sætter alle sager i kø som **Ufordelt**. |
 
+Lad os illustrere disse tildelingsmetoder med tre brugere og tre indkommende sager.
+
+![Request assignment methods -screenshot][img1]
+
+### Jævn
+
+Tildeler sager jævnt blandt kategorimedlemmerne i en rundkørselsmåde.
+
+![Request assignment methods, even -screenshot][img2]
+
+### Vægtet
+
+Tildeler sager baseret på specifikke vægtninger for hvert medlem af kategorien. For eksempel, hvis medlem A har en vægt på 1, medlem B har 2, og medlem C har 5, vil de over 8 sager blive tildelt proportionalt.
+
+sager tildeles probabilistisk baseret på deres vægtninger.
+
+![Request assignment methods, weighted][img3]
+
+| Forespørgsel | Tilfældig værdi | Tildelt til |
+|---|:-:|---|
+| Første forespørgsel | 7 | Medlem C |
+| Anden forespørgsel | 2 | Medlem B |
+| Tredje forespørgsel | 5 | Medlem C |
+
+![Request assignment methods, weighted -screenshot][img4]
+
+### Til sagsbehandleren med færrest aktive sager
+
+Tildeler nye sager til medlemmet med færrest aktive sager.
+
+| Forespørgsel | Betingelse | Tildelt til |
+|---|---|---|
+| Første forespørgsel | Medlemmerne B og C har færrest sager | Medlem C |
+| Anden forespørgsel | Medlem B har færrest sager | Medlem B |
+| Tredje forespørgsel | Alle medlemmer har samme antal sager | Medlem B |
+
+![Request assignment methods, user with fewest open requests -screenshot][img5]
+
+### Tildel ikke
+
+Tildeler ikke sager til specifikke medlemmer. Alle sager placeres som standard i en kø.
+
+![Request assignment methods, do not assign -screenshot][img6]
+
 [!include[Get next request in queue](includes/howto-get-next-request.md)]
 
-### Angiv tildelingsmetode for kategori
+## Angiv tildelingsmetode for kategori
 
 En sagsbehander med kategoriadministrationsrettigheder kan angive fordelingsmetode for kategorier:
 
@@ -39,7 +84,8 @@ En sagsbehander med kategoriadministrationsrettigheder kan angive fordelingsmeto
 
 ## Eksempel
 
-Lad os sige, at din virksomhed har oprettet én kategori for hver afdeling i virksomheden: Brugersupport, Salg, Konti osv. Du har desuden angivet, at alle e-mails, der sendes til <support@company.com>, automatisk skal havne i kategorien "Brugersupport". Alle de ansatte i brugersupportafdelingen er medlemmer af denne kategori. De har for denne kategori valgt tildelingsreglen **Jævn fordeling**. Dette indebærer, at alle medlemmerne af kategorien får lige mange sager, og at hvert medlem løbende får nye sager ind i skærmbilledet **Egne aktive sager**. Hvis de i stedet havde valgt fordelingsreglen **Fordel ikke**, skulle medlemmerne selv være gået i skærmbilledet **Ikke fordelte sager** for at [overtage ansvaret for sager][4].
+<!-- markdownlint-disable-next-line MD034 -->
+Lad os sige, at din virksomhed har oprettet én kategori for hver afdeling i virksomheden: Brugersupport, Salg, Konti osv. Du har desuden angivet, at alle e-mails, der sendes til support@company.com, automatisk skal havne i kategorien "Brugersupport". Alle de ansatte i brugersupportafdelingen er medlemmer af denne kategori. De har for denne kategori valgt tildelingsreglen **Jævn fordeling**. Dette indebærer, at alle medlemmerne af kategorien får lige mange sager, og at hvert medlem løbende får nye sager ind i skærmbilledet **Egne aktive sager**. Hvis de i stedet havde valgt fordelingsreglen **Fordel ikke**, skulle medlemmerne selv være gået i skærmbilledet **Ikke fordelte sager** for at [overtage ansvaret for sager][4].
 
 ## Hvad vil du foretage dig nu?
 
@@ -56,3 +102,9 @@ Lad os sige, at din virksomhed har oprettet én kategori for hver afdeling i vir
 [5]: transfer.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/request/assign-requests.png
+[img2]: ../../../../media/loc/en/request/assign-requests-even.png
+[img3]: ../../../../media/loc/en/request/assign-requests-weighted-diagram.png
+[img4]: ../../../../media/loc/en/request/assign-requests-weighted.png
+[img5]: ../../../../media/loc/en/request/assign-requests-fewest.png
+[img6]: ../../../../media/loc/en/request/assign-requests-not.png
