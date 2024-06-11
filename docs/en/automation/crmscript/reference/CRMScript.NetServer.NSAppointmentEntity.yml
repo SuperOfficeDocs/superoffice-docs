@@ -320,7 +320,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
   id: 'GetAgenda()'
   so.intellisense: NSAppointmentEntity.GetAgenda
-  so.version: 10.3.6
+  so.version: 10.2.6
   langs:
   - crmscript
   name: 'GetAgenda()'
@@ -653,7 +653,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
   id: 'GetInternalNotes()'
   so.intellisense: NSAppointmentEntity.GetInternalNotes
-  so.version: 10.3.6
+  so.version: 10.2.6
   langs:
   - crmscript
   name: 'GetInternalNotes()'
@@ -1257,7 +1257,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetTitle()
   id: 'GetTitle()'
   so.intellisense: NSAppointmentEntity.GetTitle
-  so.version: 10.3.6
+  so.version: 10.2.6
   langs:
   - crmscript
   name: 'GetTitle()'
@@ -1564,7 +1564,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
   id: 'SetAgenda(String)'
   so.intellisense: NSAppointmentEntity.SetAgenda
-  so.version: 10.3.6
+  so.version: 10.2.6
   langs:
   - crmscript
   name: 'SetAgenda(String)'
@@ -1952,7 +1952,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
   id: 'SetInternalNotes(String)'
   so.intellisense: NSAppointmentEntity.SetInternalNotes
-  so.version: 10.3.6
+  so.version: 10.2.6
   langs:
   - crmscript
   name: 'SetInternalNotes(String)'
@@ -2612,7 +2612,7 @@ items:
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
   id: 'SetTitle(String)'
   so.intellisense: NSAppointmentEntity.SetTitle
-  so.version: 10.3.6
+  so.version: 10.2.6
   langs:
   - crmscript
   name: 'SetTitle(String)'
