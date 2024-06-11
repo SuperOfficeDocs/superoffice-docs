@@ -10,6 +10,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.#ctor
   - CRMScript.NetServer.NSAppointmentEntity.GetActiveDate()
   - CRMScript.NetServer.NSAppointmentEntity.GetActiveLinks()
+  - CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
   - CRMScript.NetServer.NSAppointmentEntity.GetAlarmLeadTime()
   - CRMScript.NetServer.NSAppointmentEntity.GetAlldayEvent()
   - CRMScript.NetServer.NSAppointmentEntity.GetAppointmentId()
@@ -31,6 +32,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.GetFreeBusy()
   - CRMScript.NetServer.NSAppointmentEntity.GetHasAlarm()
   - CRMScript.NetServer.NSAppointmentEntity.GetHasConflict()
+  - CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
   - CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   - CRMScript.NetServer.NSAppointmentEntity.GetInvitedPerson()
   - CRMScript.NetServer.NSAppointmentEntity.GetIsAlldayEvent()
@@ -60,6 +62,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.GetStartDate()
   - CRMScript.NetServer.NSAppointmentEntity.GetSuggestedAppointmentId()
   - CRMScript.NetServer.NSAppointmentEntity.GetTask()
+  - CRMScript.NetServer.NSAppointmentEntity.GetTitle()
   - CRMScript.NetServer.NSAppointmentEntity.GetType()
   - CRMScript.NetServer.NSAppointmentEntity.GetUpdatedBy()
   - CRMScript.NetServer.NSAppointmentEntity.GetUpdatedDate()
@@ -67,6 +70,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.GetVisibleFor()
   - CRMScript.NetServer.NSAppointmentEntity.SetActiveDate(DateTime)
   - CRMScript.NetServer.NSAppointmentEntity.SetActiveLinks(Integer)
+  - CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
   - CRMScript.NetServer.NSAppointmentEntity.SetAlarmLeadTime(TimeSpan)
   - CRMScript.NetServer.NSAppointmentEntity.SetAlldayEvent(Bool)
   - CRMScript.NetServer.NSAppointmentEntity.SetAppointmentId(Integer)
@@ -88,6 +92,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.SetFreeBusy(Bool)
   - CRMScript.NetServer.NSAppointmentEntity.SetHasAlarm(Bool)
   - CRMScript.NetServer.NSAppointmentEntity.SetHasConflict(Bool)
+  - CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
   - CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetInvitedPerson(NSPerson)
   - CRMScript.NetServer.NSAppointmentEntity.SetIsAlldayEvent(Bool)
@@ -117,6 +122,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.SetStartDate(DateTime)
   - CRMScript.NetServer.NSAppointmentEntity.SetSuggestedAppointmentId(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
+  - CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
   - CRMScript.NetServer.NSAppointmentEntity.SetType(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetUpdatedBy(NSAssociate)
   - CRMScript.NetServer.NSAppointmentEntity.SetUpdatedDate(DateTime)
@@ -154,7 +160,7 @@ items:
   nameWithType: NSAppointmentEntity.GetActiveDate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetActiveDate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetActiveDate()
@@ -175,7 +181,7 @@ items:
   nameWithType: NSAppointmentEntity.GetActiveLinks()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetActiveLinks()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetActiveLinks()
@@ -196,7 +202,7 @@ items:
   nameWithType: NSAppointmentEntity.GetAlarmLeadTime()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetAlarmLeadTime()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: TimeSpan GetAlarmLeadTime()
@@ -217,7 +223,7 @@ items:
   nameWithType: NSAppointmentEntity.GetAlldayEvent()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetAlldayEvent()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetAlldayEvent()
@@ -237,7 +243,7 @@ items:
   nameWithType: NSAppointmentEntity.GetAppointmentId()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetAppointmentId()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetAppointmentId()
@@ -258,7 +264,7 @@ items:
   nameWithType: NSAppointmentEntity.GetAssignedBy()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetAssignedBy()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSAssociate GetAssignedBy()
@@ -279,7 +285,7 @@ items:
   nameWithType: NSAppointmentEntity.GetAssignmentStatus()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetAssignmentStatus()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetAssignmentStatus()
@@ -300,7 +306,7 @@ items:
   nameWithType: NSAppointmentEntity.GetAssociate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetAssociate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSAssociate GetAssociate()
@@ -310,6 +316,27 @@ items:
       description: "The owner of the appointment - the associate whose diary/checklist the appointment is in."
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nNSAssociate associate = thing.GetAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
+  id: 'GetAgenda()'
+  so.intellisense: NSAppointmentEntity.GetAgenda
+  so.version: 10.2.6
+  langs:
+  - crmscript
+  name: 'GetAgenda()'
+  nameWithType: NSAppointmentEntity.GetAgenda()
+  fullName: CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
+  type: Method
+  summary: ""
+  remarks: 
+  syntax: 
+    content: String GetAgenda()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Agenda for the appointment."
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString agenda = thing.GetAgenda();</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetBookingType()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetBookingType()
   id: 'GetBookingType()'
@@ -321,7 +348,7 @@ items:
   nameWithType: NSAppointmentEntity.GetBookingType()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetBookingType()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetBookingType()
@@ -341,7 +368,7 @@ items:
   nameWithType: NSAppointmentEntity.GetCautionWarning()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetCautionWarning()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetCautionWarning()
@@ -361,7 +388,7 @@ items:
   nameWithType: NSAppointmentEntity.GetCentralserviceVideomeetId()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetCentralserviceVideomeetId()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nThis is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.\n"
   syntax: 
     content: String GetCentralserviceVideomeetId()
@@ -382,7 +409,7 @@ items:
   nameWithType: NSAppointmentEntity.GetColorIndex()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetColorIndex()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetColorIndex()
@@ -403,7 +430,7 @@ items:
   nameWithType: NSAppointmentEntity.GetCompleted()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetCompleted()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nThis property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set.\n"
   syntax: 
     content: Integer GetCompleted()
@@ -424,7 +451,7 @@ items:
   nameWithType: NSAppointmentEntity.GetContact()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetContact()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSContact GetContact()
@@ -445,7 +472,7 @@ items:
   nameWithType: NSAppointmentEntity.GetCreatedBy()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetCreatedBy()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nThe property is read-only.\n"
   syntax: 
     content: NSAssociate GetCreatedBy()
@@ -466,7 +493,7 @@ items:
   nameWithType: NSAppointmentEntity.GetCreatedDate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetCreatedDate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetCreatedDate()
@@ -508,7 +535,7 @@ items:
   nameWithType: NSAppointmentEntity.GetDescription()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetDescription()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: String GetDescription()
@@ -529,7 +556,7 @@ items:
   nameWithType: NSAppointmentEntity.GetEndDate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetEndDate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetEndDate()
@@ -571,7 +598,7 @@ items:
   nameWithType: NSAppointmentEntity.GetFreeBusy()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetFreeBusy()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetFreeBusy()
@@ -591,7 +618,7 @@ items:
   nameWithType: NSAppointmentEntity.GetHasAlarm()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetHasAlarm()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetHasAlarm()
@@ -612,7 +639,7 @@ items:
   nameWithType: NSAppointmentEntity.GetHasConflict()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetHasConflict()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetHasConflict()
@@ -622,6 +649,27 @@ items:
       description: Does the appointment overlap with another appointment in the user's diary?
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nBool hasConflict = thing.GetHasConflict();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
+  id: 'GetInternalNotes()'
+  so.intellisense: NSAppointmentEntity.GetInternalNotes
+  so.version: 10.2.6
+  langs:
+  - crmscript
+  name: 'GetInternalNotes()'
+  nameWithType: NSAppointmentEntity.GetInternalNotes()
+  fullName: CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
+  type: Method
+  summary: ""
+  remarks: 
+  syntax: 
+    content: String GetInternalNotes()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Internal notes for the appointment."
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString notes = thing.GetInternalNotes();</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   id: 'GetInvitationStatus()'
@@ -633,7 +681,7 @@ items:
   nameWithType: NSAppointmentEntity.GetInvitationStatus()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetInvitationStatus()
@@ -654,7 +702,7 @@ items:
   nameWithType: NSAppointmentEntity.GetInvitedPerson()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetInvitedPerson()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSPerson GetInvitedPerson()
@@ -675,7 +723,7 @@ items:
   nameWithType: NSAppointmentEntity.GetIsAlldayEvent()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetIsAlldayEvent()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetIsAlldayEvent()
@@ -696,7 +744,7 @@ items:
   nameWithType: NSAppointmentEntity.GetIsFree()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetIsFree()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetIsFree()
@@ -717,7 +765,7 @@ items:
   nameWithType: NSAppointmentEntity.GetIsMileStone()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetIsMileStone()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetIsMileStone()
@@ -738,7 +786,7 @@ items:
   nameWithType: NSAppointmentEntity.GetIsPublished()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetIsPublished()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Bool GetIsPublished()
@@ -757,7 +805,7 @@ items:
   nameWithType: NSAppointmentEntity.GetJoinVideomeetUrl()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetJoinVideomeetUrl()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: String GetJoinVideomeetUrl()
@@ -778,7 +826,7 @@ items:
   nameWithType: NSAppointmentEntity.GetLagTime()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetLagTime()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: TimeSpan GetLagTime()
@@ -799,7 +847,7 @@ items:
   nameWithType: NSAppointmentEntity.GetLeadTime()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetLeadTime()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: TimeSpan GetLeadTime()
@@ -820,7 +868,7 @@ items:
   nameWithType: NSAppointmentEntity.GetLinks()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetLinks()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSLink[] GetLinks()
@@ -841,7 +889,7 @@ items:
   nameWithType: NSAppointmentEntity.GetLocation()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetLocation()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: String GetLocation()
@@ -862,7 +910,7 @@ items:
   nameWithType: NSAppointmentEntity.GetMotherAssociate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetMotherAssociate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nThe mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate.\n"
   syntax: 
     content: NSAssociate GetMotherAssociate()
@@ -883,7 +931,7 @@ items:
   nameWithType: NSAppointmentEntity.GetMotherId()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetMotherId()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetMotherId()
@@ -904,7 +952,7 @@ items:
   nameWithType: NSAppointmentEntity.GetParticipants()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetParticipants()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSParticipantInfo[] GetParticipants()
@@ -925,7 +973,7 @@ items:
   nameWithType: NSAppointmentEntity.GetPerson()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetPerson()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSPerson GetPerson()
@@ -946,7 +994,7 @@ items:
   nameWithType: NSAppointmentEntity.GetPreferredTZLocation()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetPreferredTZLocation()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetPreferredTZLocation()
@@ -988,7 +1036,7 @@ items:
   nameWithType: NSAppointmentEntity.GetPrivate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetPrivate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetPrivate()
@@ -1009,7 +1057,7 @@ items:
   nameWithType: NSAppointmentEntity.GetProject()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetProject()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSProject GetProject()
@@ -1030,7 +1078,7 @@ items:
   nameWithType: NSAppointmentEntity.GetPublishEventDate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetPublishEventDate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetPublishEventDate()
@@ -1050,7 +1098,7 @@ items:
   nameWithType: NSAppointmentEntity.GetPublishFrom()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetPublishFrom()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetPublishFrom()
@@ -1070,7 +1118,7 @@ items:
   nameWithType: NSAppointmentEntity.GetPublishTo()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetPublishTo()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetPublishTo()
@@ -1090,7 +1138,7 @@ items:
   nameWithType: NSAppointmentEntity.GetRecurrence()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetRecurrence()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSRecurrenceInfo GetRecurrence()
@@ -1111,7 +1159,7 @@ items:
   nameWithType: NSAppointmentEntity.GetRejectCounter()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetRejectCounter()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetRejectCounter()
@@ -1132,7 +1180,7 @@ items:
   nameWithType: NSAppointmentEntity.GetRejectReason()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetRejectReason()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: String GetRejectReason()
@@ -1153,7 +1201,7 @@ items:
   nameWithType: NSAppointmentEntity.GetSale()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetSale()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSSale GetSale()
@@ -1174,7 +1222,7 @@ items:
   nameWithType: NSAppointmentEntity.GetStartDate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetStartDate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetStartDate()
@@ -1195,7 +1243,7 @@ items:
   nameWithType: NSAppointmentEntity.GetSuggestedAppointmentId()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetSuggestedAppointmentId()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nNOT VALID for document-type appointments, they have their own link\n"
   syntax: 
     content: Integer GetSuggestedAppointmentId()
@@ -1205,6 +1253,27 @@ items:
       description: Suggested guide item that this appointment is an instance of 
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nInteger suggestedAppointmentId = thing.GetSuggestedAppointmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.GetTitle()
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetTitle()
+  id: 'GetTitle()'
+  so.intellisense: NSAppointmentEntity.GetTitle
+  so.version: 10.2.6
+  langs:
+  - crmscript
+  name: 'GetTitle()'
+  nameWithType: NSAppointmentEntity.GetTitle()
+  fullName: CRMScript.NetServer.NSAppointmentEntity.GetTitle()
+  type: Method
+  summary: ""
+  remarks: 
+  syntax: 
+    content: String GetTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Title for the appointment."
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString title = thing.GetTitle();</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetTask()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetTask()
   id: 'GetTask()'
@@ -1216,7 +1285,7 @@ items:
   nameWithType: NSAppointmentEntity.GetTask()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetTask()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSTaskListItem GetTask()
@@ -1237,7 +1306,7 @@ items:
   nameWithType: NSAppointmentEntity.GetType()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetType()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Integer GetType()
@@ -1258,7 +1327,7 @@ items:
   nameWithType: NSAppointmentEntity.GetUpdatedBy()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetUpdatedBy()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: NSAssociate GetUpdatedBy()
@@ -1279,7 +1348,7 @@ items:
   nameWithType: NSAppointmentEntity.GetUpdatedDate()
   fullName: CRMScript.NetServer.NSAppointmentEntity.GetUpdatedDate()
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: DateTime GetUpdatedDate()
@@ -1342,7 +1411,7 @@ items:
   nameWithType: NSAppointmentEntity.SetActiveDate(DateTime)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetActiveDate(DateTime)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetActiveDate(DateTime activeDate)
@@ -1365,7 +1434,7 @@ items:
   nameWithType: NSAppointmentEntity.SetActiveLinks(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetActiveLinks(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetActiveLinks(Integer activeLinks)
@@ -1388,7 +1457,7 @@ items:
   nameWithType: NSAppointmentEntity.SetAlarmLeadTime(TimeSpan)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetAlarmLeadTime(TimeSpan)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetAlarmLeadTime(TimeSpan alarmLeadTime)
@@ -1411,7 +1480,7 @@ items:
   nameWithType: NSAppointmentEntity.SetAlldayEvent(Bool)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetAlldayEvent(Bool)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetAlldayEvent(Bool isAllDayEvent)
@@ -1433,7 +1502,7 @@ items:
   nameWithType: NSAppointmentEntity.SetAppointmentId(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetAppointmentId(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetAppointmentId(Integer appointmentId)
@@ -1456,7 +1525,7 @@ items:
   nameWithType: NSAppointmentEntity.SetAssignedBy(NSAssociate)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetAssignedBy(NSAssociate)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetAssignedBy(NSAssociate assignedBy)
@@ -1479,7 +1548,7 @@ items:
   nameWithType: NSAppointmentEntity.SetAssignmentStatus(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetAssignmentStatus(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks:
   syntax: 
     content: Void SetAssignmentStatus(Integer assignmentStatus)
@@ -1491,6 +1560,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nInteger assignmentStatus;\nthing.SetAssignmentStatus(assignmentStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
+  id: 'SetAgenda(String)'
+  so.intellisense: NSAppointmentEntity.SetAgenda
+  so.version: 10.2.6
+  langs:
+  - crmscript
+  name: 'SetAgenda(String)'
+  nameWithType: NSAppointmentEntity.SetAgenda(String)
+  fullName: CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
+  type: Method
+  summary: ""
+  remarks:
+  syntax: 
+    content: Void SetAgenda(String agenda)
+    parameters:
+    - id: agenda
+      type: CRMScript.Global.String
+      description: "Agenda for the appointment"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString agenda;\nthing.SetAgenda(agenda);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.SetAssociate(NSAssociate)
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
@@ -1502,7 +1594,7 @@ items:
   nameWithType: NSAppointmentEntity.SetAssociate(NSAssociate)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetAssociate(NSAssociate)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetAssociate(NSAssociate associate)
@@ -1525,7 +1617,7 @@ items:
   nameWithType: NSAppointmentEntity.SetBookingType(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetBookingType(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks:
   syntax: 
     content: Void SetBookingType(Integer bookingType)
@@ -1547,7 +1639,7 @@ items:
   nameWithType: NSAppointmentEntity.SetCautionWarning(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetCautionWarning(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks:
   syntax: 
     content: Void SetCautionWarning(Integer cautionWarning)
@@ -1569,7 +1661,7 @@ items:
   nameWithType: NSAppointmentEntity.SetCentralserviceVideomeetId(String)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetCentralserviceVideomeetId(String)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetCentralserviceVideomeetId(String centralserviceVideomeetId)
@@ -1592,7 +1684,7 @@ items:
   nameWithType: NSAppointmentEntity.SetColorIndex(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetColorIndex(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetColorIndex(Integer colorIndex)
@@ -1615,7 +1707,7 @@ items:
   nameWithType: NSAppointmentEntity.SetCompleted(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetCompleted(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nThis property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set.\n"
   syntax: 
     content: Void SetCompleted(Integer completed)
@@ -1638,7 +1730,7 @@ items:
   nameWithType: NSAppointmentEntity.SetContact(NSContact)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetContact(NSContact)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetContact(NSContact contact)
@@ -1661,7 +1753,7 @@ items:
   nameWithType: NSAppointmentEntity.SetCreatedBy(NSAssociate)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetCreatedBy(NSAssociate)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nThe property is read-only.\n"
   syntax: 
     content: Void SetCreatedBy(NSAssociate createdBy)
@@ -1684,7 +1776,7 @@ items:
   nameWithType: NSAppointmentEntity.SetCreatedDate(DateTime)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetCreatedDate(DateTime)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetCreatedDate(DateTime createdDate)
@@ -1730,7 +1822,7 @@ items:
   nameWithType: NSAppointmentEntity.SetDescription(String)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetDescription(String)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetDescription(String description)
@@ -1753,7 +1845,7 @@ items:
   nameWithType: NSAppointmentEntity.SetEndDate(DateTime)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetEndDate(DateTime)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetEndDate(DateTime endDate)
@@ -1799,7 +1891,7 @@ items:
   nameWithType: NSAppointmentEntity.SetFreeBusy(Bool)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetFreeBusy(Bool)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetFreeBusy(Bool isFreeBusy)
@@ -1821,7 +1913,7 @@ items:
   nameWithType: NSAppointmentEntity.SetHasAlarm(Bool)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetHasAlarm(Bool)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetHasAlarm(Bool hasAlarm)
@@ -1844,7 +1936,7 @@ items:
   nameWithType: NSAppointmentEntity.SetHasConflict(Bool)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetHasConflict(Bool)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetHasConflict(Bool hasConflict)
@@ -1856,6 +1948,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nBool hasConflict;\nthing.SetHasConflict(hasConflict);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
+  id: 'SetInternalNotes(String)'
+  so.intellisense: NSAppointmentEntity.SetInternalNotes
+  so.version: 10.2.6
+  langs:
+  - crmscript
+  name: 'SetInternalNotes(String)'
+  nameWithType: NSAppointmentEntity.SetInternalNotes(String)
+  fullName: CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
+  type: Method
+  summary: ""
+  remarks:
+  syntax: 
+    content: Void SetInternalNotes(String internalNotes)
+    parameters:
+    - id: internalNotes
+      type: CRMScript.Global.String
+      description: "Internal notes for the appointment"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString notes;\nthing.SetInternalNotes(notes);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   id: 'SetInvitationStatus(Integer)'
@@ -1867,7 +1982,7 @@ items:
   nameWithType: NSAppointmentEntity.SetInvitationStatus(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks:
   syntax: 
     content: Void SetInvitationStatus(Integer invitationStatus)
@@ -1890,7 +2005,7 @@ items:
   nameWithType: NSAppointmentEntity.SetInvitedPerson(NSPerson)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetInvitedPerson(NSPerson)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetInvitedPerson(NSPerson invitedPerson)
@@ -1913,7 +2028,7 @@ items:
   nameWithType: NSAppointmentEntity.SetIsAlldayEvent(Bool)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetIsAlldayEvent(Bool)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetIsAlldayEvent(Bool isAlldayEvent)
@@ -1936,7 +2051,7 @@ items:
   nameWithType: NSAppointmentEntity.SetIsFree(Bool)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetIsFree(Bool)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetIsFree(Bool isFree)
@@ -1959,7 +2074,7 @@ items:
   nameWithType: NSAppointmentEntity.SetIsMileStone(Bool)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetIsMileStone(Bool)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetIsMileStone(Bool isMileStone)
@@ -2003,7 +2118,7 @@ items:
   nameWithType: NSAppointmentEntity.SetJoinVideomeetUrl(String)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetJoinVideomeetUrl(String)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetJoinVideomeetUrl(String joinVideomeetUrl)
@@ -2026,7 +2141,7 @@ items:
   nameWithType: NSAppointmentEntity.SetLagTime(TimeSpan)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetLagTime(TimeSpan)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetLagTime(TimeSpan lagTime)
@@ -2049,7 +2164,7 @@ items:
   nameWithType: NSAppointmentEntity.SetLeadTime(TimeSpan)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetLeadTime(TimeSpan)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetLeadTime(TimeSpan leadTime)
@@ -2072,7 +2187,7 @@ items:
   nameWithType: NSAppointmentEntity.SetLinks(NSLink[])
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetLinks(NSLink[])
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetLinks(NSLink[] links)
@@ -2095,7 +2210,7 @@ items:
   nameWithType: NSAppointmentEntity.SetLocation(String)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetLocation(String)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetLocation(String location)
@@ -2118,7 +2233,7 @@ items:
   nameWithType: NSAppointmentEntity.SetMotherAssociate(NSAssociate)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetMotherAssociate(NSAssociate)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nThe mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate.\n"
   syntax: 
     content: Void SetMotherAssociate(NSAssociate motherAssociate)
@@ -2141,7 +2256,7 @@ items:
   nameWithType: NSAppointmentEntity.SetMotherId(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetMotherId(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nIf 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking\n"
   syntax: 
     content: Void SetMotherId(Integer motherId)
@@ -2164,7 +2279,7 @@ items:
   nameWithType: NSAppointmentEntity.SetParticipants(NSParticipantInfo[])
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetParticipants(NSParticipantInfo[])
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetParticipants(NSParticipantInfo[] participants)
@@ -2187,7 +2302,7 @@ items:
   nameWithType: NSAppointmentEntity.SetPerson(NSPerson)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetPerson(NSPerson)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetPerson(NSPerson person)
@@ -2210,7 +2325,7 @@ items:
   nameWithType: NSAppointmentEntity.SetPreferredTZLocation(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetPreferredTZLocation(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetPreferredTZLocation(Integer preferredTZLocation)
@@ -2279,7 +2394,7 @@ items:
   nameWithType: NSAppointmentEntity.SetProject(NSProject)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetProject(NSProject)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetProject(NSProject project)
@@ -2302,7 +2417,7 @@ items:
   nameWithType: NSAppointmentEntity.SetPublishEventDate(DateTime)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetPublishEventDate(DateTime)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetPublishEventDate(DateTime publishDate)
@@ -2368,7 +2483,7 @@ items:
   nameWithType: NSAppointmentEntity.SetRecurrence(NSRecurrenceInfo)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetRecurrence(NSRecurrenceInfo)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetRecurrence(NSRecurrenceInfo recurrence)
@@ -2391,7 +2506,7 @@ items:
   nameWithType: NSAppointmentEntity.SetRejectCounter(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetRejectCounter(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetRejectCounter(Integer rejectCounter)
@@ -2414,7 +2529,7 @@ items:
   nameWithType: NSAppointmentEntity.SetRejectReason(String)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetRejectReason(String)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetRejectReason(String rejectReason)
@@ -2437,7 +2552,7 @@ items:
   nameWithType: NSAppointmentEntity.SetSale(NSSale)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetSale(NSSale)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetSale(NSSale sale)
@@ -2460,7 +2575,7 @@ items:
   nameWithType: NSAppointmentEntity.SetStartDate(DateTime)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetStartDate(DateTime)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetStartDate(DateTime startDate)
@@ -2481,7 +2596,7 @@ items:
   nameWithType: NSAppointmentEntity.SetSuggestedAppointmentId(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetSuggestedAppointmentId(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: "\nNOT VALID for document-type appointments, they have their own link.\n"
   syntax: 
     content: Void SetSuggestedAppointmentId(Integer suggestedAppointmentId)
@@ -2493,6 +2608,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nInteger suggestedAppointmentId;\nthing.SetSuggestedAppointmentId(suggestedAppointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
+  id: 'SetTitle(String)'
+  so.intellisense: NSAppointmentEntity.SetTitle
+  so.version: 10.2.6
+  langs:
+  - crmscript
+  name: 'SetTitle(String)'
+  nameWithType: NSAppointmentEntity.SetTitle(String)
+  fullName: CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
+  type: Method
+  summary: ""
+  remarks:
+  syntax: 
+    content: Void SetTitle(String agenda)
+    parameters:
+    - id: agenda
+      type: CRMScript.Global.String
+      description: "Title for the appointment"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString title;\nthing.SetTitle(title);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
   id: 'SetTask(NSTaskListItem)'
@@ -2504,7 +2642,7 @@ items:
   nameWithType: NSAppointmentEntity.SetTask(NSTaskListItem)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetTask(NSTaskListItem task)
@@ -2527,7 +2665,7 @@ items:
   nameWithType: NSAppointmentEntity.SetType(Integer)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetType(Integer)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks:
   syntax: 
     content: Void SetType(Integer type)
@@ -2550,7 +2688,7 @@ items:
   nameWithType: NSAppointmentEntity.SetUpdatedBy(NSAssociate)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetUpdatedBy(NSAssociate)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetUpdatedBy(NSAssociate updatedBy)
@@ -2573,7 +2711,7 @@ items:
   nameWithType: NSAppointmentEntity.SetUpdatedDate(DateTime)
   fullName: CRMScript.NetServer.NSAppointmentEntity.SetUpdatedDate(DateTime)
   type: Method
-  summary: # TODO
+  summary: ""
   remarks: 
   syntax: 
     content: Void SetUpdatedDate(DateTime updatedDate)
