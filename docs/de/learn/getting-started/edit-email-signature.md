@@ -1,42 +1,47 @@
 ---
 uid: help-de-edit-email-signature
-title: E-Mail-Signatur bearbeiten
-description: E-Mail-Signatur bearbeiten
-author: Bergfrid Dias
-so.date: 03.06.2023
+title: Signaturen bearbeiten
+description: E-Mail-Signatur oder Anfrage-Signatur bearbeiten
 keywords: E-Mail, Signatur
+author: Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10.2.8
 so.topic: howto
-so.version: 10
 language: de
-so.envir:
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
 ---
 
-# E-Mail-Signatur bearbeiten
+# Signaturen bearbeiten
+
+Die standardmäßige Signaturvorlage enthalten Vorlagenvariablen, die durch Daten aus SuperOffice ersetzt werden, sodass Ihre Signaturen immer mit den richtigen Informationen aktualisiert werden.
+
+* **E-Mail-Signatur:** Die Vorlage enthält Variablen für Ihren Namen, Ihre Firma, Ihre Adresse, Telefonnummern, E-Mail-Adresse, Website und so weiter [aus Ihrer Personenkarte][3].
+
+* **Anfrage Signatur:** Die Vorlage enthält Variablen für Ihren Namen, Ihre Firma, E-Mail-Adresse und so weiter, spezifisch für [Antwortvorlagen][2].
 
 > [!NOTE]
-  > Die standardmäßige Signaturvorlage enthält [Vorlagenvariablen][3] für Ihren Namen, Ihre Firma, Adresse, Telefonnummern, E-Mail-Adresse, Website usw. Die Variablen werden durch Daten von Ihrer Personenkarte ersetzt, sodass die Signatur immer anhand der richtigen Informationen aktualisiert wird.
+> Sie können diese beiden Sätze von Vorlagenvariablen nicht mischen.
 
-1. Klicken Sie in der oberen Leiste auf die Schaltfläche **Persönliche Einstellungen**.
+## Schritte
+
+1. Klicken Sie auf die Schaltfläche **Persönliche Einstellungen** in der oberen Leiste.
 
 2. Wählen Sie **Persönliche Signatur bearbeiten**.
 
-3. Wählen Sie im Dialogfeld die Registerkarte **E-Mail-Signatur** oder **Signatur anfordern** aus.
+3. Wählen Sie im Dialogfeld entweder die Registerkarte **E-Mail-Signatur** oder die Registerkarte **Anfrage Signatur**.
 
-4. Bearbeiten Sie die Signatur, indem Sie Informationen löschen oder hinzufügen.
+4. Klicken Sie auf ![icon][img2], um die Symbolleiste des Texteditors zu öffnen. Hier haben Sie verschiedene Optionen zum Bearbeiten von Text und Hinzufügen von zusätzlichem Inhalt.
 
     ![Persönliche Signatur bearbeiten -screenshot][img1]
 
-5. Klicken Sie auf ![Symbol][img2], um die Symbolleiste für den Texteditor zu öffnen. Diese enthält verschiedene Optionen zum Bearbeiten von Text und Hinzufügen zusätzlicher Inhalte.
+    * Klicken Sie auf ![icon][img3] in der Symbolleiste, um Variablen hinzuzufügen, oder gehen Sie zu den oben verlinkten Referenzen für die vollständige Liste der verfügbaren Variablen.
 
-6. Klicken Sie in der Symbolleiste auf ![Symbol][img3], um Variablen hinzuzufügen, oder navigieren Sie für die vollständige Liste der verfügbaren Variablen zu [Vorlagenvariablen][3].
+    * Fügen Sie Bilder und Links mit den Schaltflächen in der Symbolleiste hinzu. Sie können auch Links und Bilder per Drag & Drop hinzufügen. Wählen Sie **Link einfügen**, um Links zu relevanten Ressourcen oder sozialen Medien hinzuzufügen.
 
-7. Fügen Sie mithilfe der Schaltflächen in der Symbolleiste Bilder und Links hinzu. Sie können Links und Bilder auch ziehen und ablegen. Wählen Sie **Link einfügen**, um Links zu Social Media hinzufügen.
+5. Klicken Sie auf **Speichern**, wenn Sie fertig sind.
 
-8. Klicken Sie, sobald Sie fertig sind, auf **Speichern**.
-
-9. Optional: Testen Sie die Signatur, indem Sie eine E-Mail an sich selbst senden oder eine neue Anfrage erstellen. Überprüfen Sie, ob alle Informationen korrekt angezeigt werden, die Links funktionieren und die Bilder wie gewünscht angezeigt werden.
+6. Optional: Testen Sie die Signatur, indem Sie eine E-Mail an sich selbst senden (für E-Mail-Signaturen) oder indem Sie eine neue Anfrage erstellen (für Anfrage Signaturen). Überprüfen Sie, ob alle Informationen korrekt angezeigt werden und die Links funktionieren und die Bilder wie vorgesehen angezeigt werden.
 
 ## Verwandte Themen
 
@@ -44,6 +49,7 @@ so.audience.tooltip: SuperOffice CRM
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
+[2]: ../../request/reply-templates/learn/template-variables.md
 [3]: ../../../en/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
