@@ -4,8 +4,8 @@ title: Schrittoptionen
 description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
 keywords: Marketing, Flow, Schritt, Feld, Option
 author: Bergfrid Dias
-so.date: 05.31.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: de
 so.audience: person
@@ -61,9 +61,18 @@ so.pilot: yes
 | Datum | Das geschätzte Verkaufsdatum. Optionen sind "Geschätzt nach Verkaufstyp" oder "Nach x Tagen/Arbeitstagen/Wochen". |
 | Eigerntümer | Die Person, die für den Verkauf verantwortlich ist. Der "unser Kontakt" des Teilnehmers oder "unser Servicemitarbeiter" oder ein bestimmter benannter Mitarbeiter. |
 
-## Flow beenden
+## Flow schließen
 
-Teilnehmer, die den Abgeschlossenschritt erreichen, haben den Flow abgeschlossen. Der Teilnehmerstatus kann entweder "Abgeschlossen" oder "Mit Erfolg abgeschlossen" sein. Es werden keine weiteren Aktionen für einen Teilnehmer in diesem Flow durchgeführt, sobald dieser Schritt erreicht ist.
+Die Flusskontrollschritte **Aufteilen** und **Auf Aktion warten** (und auch SMS senden) haben eine Option **Flow beenden**, um Teilnehmer, die eine Bedingung nicht erfüllen, aus dem Flow zu ziehen. Wenn ausgewählt, kann der ausgeschiedene Person in einen anderen Flow verschoben und/oder einer Selektion hinzugefügt werden.
+
+| Einstellung | Beschreibung |
+|---|---|
+| Teilnehmer nach dem Beenden zu einem anderen Flow hinzufügen | Der ausgeschiedene Person wird als Teilnehmer für den angegebenen Flow vorgeschlagen. Filter bestimmen, ob sie diesen Flow starten oder nicht. |
+| Teilnehmer nach dem Beenden zur statischen Selektion hinzufügen | Der ausgeschiedene Person wird Mitglied der angegebenen Selektion. Sie können eine neue Selektion über die Schritt-Einstellungen erstellen. |
+
+## Abschließen
+
+Teilnehmer, die den Abschlussschritt erreichen, haben das Ende des Flows erreicht. Der Teilnehmer hat den Flow entweder mit dem Status = abgeschlossen oder mit Erfolg abgeschlossen. Es erfolgen keine weiteren Aktionen für einen Teilnehmer in diesem Flow, wenn der Schritt erreicht wird.
 
 | Einstellung | Beschreibung |
 |---|-|

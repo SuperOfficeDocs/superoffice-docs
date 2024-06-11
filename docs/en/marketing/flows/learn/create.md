@@ -4,8 +4,8 @@ title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
 keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 05.15.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: en
 so.audience: person
@@ -138,6 +138,7 @@ The exclusion list **prevents selected contacts from being added to the flow**. 
     * Flow control
     * [Update participant][4]
     * [Create activity][5]
+    * [Internal actions][10]
 
 Click the X in the step settings header to return to the step menu.
 
@@ -217,6 +218,7 @@ After designing a flow and saving it, the **Flow editor** closes, and the flow c
 [3]: define-flow-actions.md
 [4]: define-flow-actions.md#update
 [5]: define-flow-actions.md#create
+[10]: define-flow-actions.md#internal
 [6]: run-pause-end.md
 [7]: index.md#success
 [9]: step-settings.md

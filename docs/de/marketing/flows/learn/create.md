@@ -4,8 +4,8 @@ title: Neuen Flow erstellen
 description: Neuen Flow erstellen
 keywords: Marketing, Flow
 author: Bergfrid Dias
-so.date: 05.31.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: de
 so.audience: person
@@ -138,6 +138,7 @@ Die Ausschlussliste **verhindert, dass ausgewählte Persone dem Flow hinzugefüg
     * Ablaufsteuerung
     * [Teilnehmer aktualisieren][4]
     * [Aktivität erstellen][5]
+    * [Interne Aktionen][10]
 
 Klicken Sie auf das X im Kopfbereich der Schritteinstellungen, um zum Schrittfeld zurückzukehren.
 
@@ -219,6 +220,7 @@ Nach dem Entwerfen eines Flows und dem Speichern schließt sich der **Flow-Edito
 [3]: define-flow-actions.md
 [4]: define-flow-actions.md#update
 [5]: define-flow-actions.md#create
+[10]: define-flow-actions.md#internal
 [6]: run-pause-end.md
 [7]: index.md#success
 [9]: step-settings.md

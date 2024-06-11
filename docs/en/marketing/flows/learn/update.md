@@ -4,8 +4,8 @@ title: Update flow
 description: Update flow
 keywords: flow, marketing automation, edit flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 05.15.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: en
 so.audience: person
@@ -15,7 +15,7 @@ so.pilot: yes
 
 # Update flow
 
-It is useful to start with a simple flow and extend it after monitoring the performance. You might also want to update a flow while designing it. For example, you wish to add successful participants to a selection, but need to create the selection before you can choose it.
+It is useful to start with a simple flow and extend it after monitoring the performance. You might also want to update a flow while designing it.
 
 To make changes:
 

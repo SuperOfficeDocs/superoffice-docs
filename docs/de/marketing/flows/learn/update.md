@@ -4,8 +4,8 @@ title: Flow aktualisieren
 description: Flow aktualisieren
 keywords: Marketing, Flow, aktualisieren
 author: Bergfrid Dias
-so.date: 05.31.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: de
 so.audience: person
@@ -15,7 +15,7 @@ so.pilot: yes
 
 # Flow aktualisieren
 
-Es ist nützlich, mit einem einfachen Flow zu beginnen und ihn nach Überwachung der Leistung zu erweitern. Möglicherweise möchten Sie auch einen Flow während seiner Gestaltung aktualisieren. Beispielsweise möchten Sie erfolgreiche Teilnehmer zu einer Selektion hinzufügen, müssen aber die Selektion erst erstellen, bevor Sie sie auswählen können.
+Es ist nützlich, mit einem einfachen Flow zu beginnen und ihn nach Überwachung der Leistung zu erweitern. Möglicherweise möchten Sie auch einen Flow während seiner Gestaltung aktualisieren.
 
 Um Änderungen vorzunehmen:
 

@@ -2,10 +2,10 @@
 uid: help-de-flow-actions
 title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
-keywords: Marketing, Flow, Flow-Aktion, Teilnehmer aktualisieren, Nachricht senden
+keywords: Marketing, Flow, Flow-Aktion, Teilnehmer aktualisieren, Nachricht senden, Skript ausführen
 author: Bergfrid Dias
-so.date: 05.31.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: de
 so.audience: person
@@ -20,6 +20,7 @@ so.pilot: yes
 * [Nachricht senden](#send)
 * [Teilnehmer aktualisieren](#update)
 * [Aktivität erstellen](#create)
+* [Interne Aktionen](#internal)
 
 > [!NOTE]
 > Wenn Sie Flow-Aktionen hinzufügen oder aktualisieren, beachten Sie, dass auch Formulare und verfolgte Links Aktionen haben. Sie sollten sicherstellen, dass keine doppelten oder widersprüchlichen Aktionen vorhanden sind. Wir empfehlen, alle Aktionen an einem Ort einzubeziehen, entweder im Formular oder im Flow.
@@ -95,10 +96,8 @@ Dies funktioniert ähnlich wie das [Massenabgleich][11].
 
 Behalten Sie den Überblick über diejenigen, die sich angemeldet oder engagiert haben, oder verfolgen und folgen Sie später nach. Der Person wird als Mitglied der angegebenen Selektion und/oder des Projekts hinzugefügt.
 
-Bevor Sie beginnen, erstellen Sie eine Selektion und/oder ein Projekt, falls erforderlich. Alternativ können Sie die Schritteinstellungen später aktualisieren.
-
 1. Ziehen Sie das **Zur Selektion und/oder zum Projekt hinzufügen**-Feld aus dem Schrittmenü und lassen Sie es in einem verfügbaren Slot im Diagrammm fallen.
-1. Fügen Sie den Person zur statischen Selektion hinzu: Wählen Sie eine statische Person-Selektion aus der Liste.
+1. Fügen Sie den Person zur statischen Selektion hinzu: Wählen Sie eine statische Person-Selektion aus der Liste oder klicken Sie auf **Neu**, um eine neue zu erstellen.
 1. Fügen Sie den Person als Projektmitglied hinzu: Wählen Sie ein Projekt aus der Liste.
 
 > [!TIP]
@@ -125,7 +124,7 @@ Beispiel: Richten Sie eine kostenlose Beratung zum ersten verfügbaren Zeitpunkt
 1. Zuweisen an: Wählen Sie aus, wer den Teilnehmer nachverfolgen soll: "Unser Kontakt" oder "Unser Service-Kontakt", oder ein spezifisch benannter Mitarbeiter.
 1. Geben Sie optional weitere Informationen ein. Weitere Details finden Sie in der [Liste der Schritt-Einstellungen][1] und [wie man eine Folgeaufgabe erstellt][12].
 
-## Anfrage erstellen
+### Anfrage erstellen
 
 1. Ziehen Sie das **Anfrage erstellen**-Feld aus dem Schrittmenü und lassen Sie es in einem verfügbaren Slot im Diagrammm fallen.
 1. Geben Sie einen beschreibenden **Titel** ein.
@@ -139,7 +138,7 @@ Beispiel: Richten Sie eine kostenlose Beratung zum ersten verfügbaren Zeitpunkt
 
 Weitere Details finden Sie in der [Liste der Schritt-Einstellungen][1] und [wie man eine Anfrage erstellt][13].
 
-## Verkauf erstellen
+### Verkauf erstellen
 
 Wenn der Person diesen Schritt erreicht, ist der Person reif und hat Anzeichen für eine Verkaufschance gezeigt.
 
@@ -153,6 +152,18 @@ Wenn der Person diesen Schritt erreicht, ist der Person reif und hat Anzeichen f
     > Fügen Sie auch eine Folgeaufgabe hinzu, um den Eigentümer des Verkaufs über diese neue Gelegenheit zu informieren.
 
 Weitere Details finden Sie in der [Liste der Schritt-Einstellungen][1] und [wie man einen Verkauf erstellt][18].
+
+## <a id="internal" />Interne Aktionen
+
+### Skript ausführen
+
+Führen Sie benutzerdefinierte Geschäftslogik aus, indem Sie ein CRMScript als Teil des Flows auslösen.
+
+1. Ziehen Sie das **Skript ausführen**-Feld aus dem Schrittmenü und lassen Sie es in einem verfügbaren Slot im Diagrammm fallen.
+1. Wählen Sie ein [CRMScript][20] aus der Liste.
+
+> [!NOTE]
+> Der Teilnehmer wird sofort nach dem Auslösen des Skripts zum nächsten Schritt übergehen, ohne auf das Ergebnis zu warten.
 
 ## Flow-Aktion vs. Formular-Aktion
 
@@ -189,6 +200,7 @@ Eine [Link-Aktion][7] könnte:
 [17]: ../../../request/learn/priority/index.md
 [18]: ../../../sale/learn/create.md
 [19]: ../../../custom-objects/learn/extra-field.md
+[20]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-send-email-new.png

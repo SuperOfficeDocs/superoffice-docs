@@ -4,8 +4,8 @@ title: Oppdater flyt
 description: Oppdater flyt
 keywords: flyt, markedsføring, rediger flyt
 author: Bergfrid Dias
-so.date: 05.24.2024
-so.version: 10.3.5
+so.date: 06.11.2024
+so.version: 10.3.7
 so.topic: howto
 language: no
 so.audience: person
@@ -15,7 +15,7 @@ so.pilot: yes
 
 # Oppdater flyt
 
-Det er nyttig å begynne med en enkel flyt og utvide den etter hvert som du overvåker ytelsen. Du kan også ønske å oppdatere en flyt mens du designer den. For eksempel ønsker du å legge til vellykkede deltakere i et utvalg, men må opprette utvalget før du kan velge det.
+Det er nyttig å begynne med en enkel flyt og utvide den etter hvert som du overvåker ytelsen. Du kan også ønske å oppdatere en flyt mens du designer den.
 
 For å gjøre endringer:
 

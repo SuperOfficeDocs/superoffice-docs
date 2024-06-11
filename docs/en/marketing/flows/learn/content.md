@@ -4,7 +4,7 @@ title: Flow content
 description: Flow content
 keywords: Marketing, flow, flow content, flow asset, content creation
 author: Bergfrid Dias, Trude Lien Smedbråten
-so.date: 03.15.2024
+so.date: 06.11.2024
 so.version: 10.3.5
 so.topic: howto
 language: en
@@ -80,6 +80,9 @@ Go to **Marketing** > **Forms**. For details, see [Create form][1].
 
 ## Edit prepared content
 
+> [!NOTE]
+> You cannot edit flow content that is included in a step without pausing the flow.
+
 **As a flow editor:**
 
 1. On the **Flow contents** tab, click the menu button ![icon][img11] on the email you wish to update and select **Edit**.
@@ -88,9 +91,6 @@ Go to **Marketing** > **Forms**. For details, see [Create form][1].
 
 1. Open the Flow editor and go to the email step.
 1. Click the **Edit** icon on the email preview.
-
-> [!NOTE]
-> You must pause the flow to enter edit mode. If you do not wish to do so, update the email from the **Flow contents** tab.
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md

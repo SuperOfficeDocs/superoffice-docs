@@ -4,7 +4,7 @@ title: Inhalt des Flows
 description: Inhalt des Flows
 keywords: Marketing, Flow, Flow-Inhalt, Inhalt des Flows, Inhalt, E-Mail, Verfassen
 author: Bergfrid Dias
-so.date: 05.31.2024
+so.date: 06.11.2024
 so.version: 10.3.5
 so.topic: howto
 language: de
@@ -80,6 +80,9 @@ Gehen Sie zu **Marketing** > **Formulare**. Weitere Informationen finden Sie unt
 
 ## Vorbereiteten Inhalt bearbeiten
 
+> [!NOTE]
+> Sie können Flow-Inhalte, die in einem Schritt enthalten sind, nicht bearbeiten, ohne den Flow pausieren.
+
 **Als Flow-Editor:**
 
 1. Auf der Registerkarte **Inhalt des Flows** klicken Sie auf das Menüsymbol ![Symbol][img11] auf der E-Mail, die Sie aktualisieren möchten, und wählen Sie **Bearbeiten**.
@@ -88,9 +91,6 @@ Gehen Sie zu **Marketing** > **Formulare**. Weitere Informationen finden Sie unt
 
 1. Öffnen Sie den Flow-Editor und gehen Sie zum E-Mail-Schritt.
 1. Klicken Sie auf das **Bearbeiten**-Symbol in der E-Mail-Vorschau.
-
-> [!NOTE]
-> Sie müssen den Flow pausieren, um in den Bearbeitungsmodus zu gelangen. Wenn Sie dies nicht tun möchten, aktualisieren Sie die E-Mail in der Registerkarte **Inhalt des Flows**.
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/create.md
