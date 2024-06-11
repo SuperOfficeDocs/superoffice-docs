@@ -1,42 +1,47 @@
 ---
 uid: help-da-edit-email-signature
-title: Rediger e-mail-signatur
-description: Rediger e-mail-signatur
+title: Rediger signaturer
+description: Rediger e-mail-signatur eller Anmodningssignatur
+keywords: e-mail, signatur, Anmodningssignatur
 author: Bergfrid Dias
-so.date: 03.06.2023
-keywords: e-mail, signatur
+so.date: 06.11.2024
+so.version: 10.2.8
 so.topic: howto
-so.version: 10
 language: da
-so.envir:
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
 ---
 
-# Rediger e-mail-signatur
+# Rediger signaturer
+
+Standardskabelonerne indeholder skabelonvariabler, der erstattes med data fra SuperOffice, så dine signaturer altid opdateres med de korrekte oplysninger.
+
+* **E-mail-signatur:** Skabelonen indeholder variabler for dit navn, firma, adresse, telefonnumre, e-mailadresse, websted osv. [fra dit personkort][3].
+
+* **Anmodningssignatur:** Skabelonen indeholder variabler for dit navn, firma, e-mailadresse osv. specifikt til [svarskabeloner][2].
 
 > [!NOTE]
-  > Standardsignaturskabelonen indeholder [skabelonvariabler][3] for dit navn, firma, adresse, telefonnumre, e-mail-adresse, websted osv. Variablerne erstattes med data fra dit visitkort, så din signatur altid opdateres med de korrekte oplysninger.
+> Du kan ikke blande disse to sæt skabelonvariabler.
 
-1. Klik på knappen **Personlige indstillinger** på den øverste linje.
+## Trin
+
+1. Klik på knappen **Personlige indstillinger** i på den øverste linje.
 
 2. Vælg **Rediger personlig signatur**.
 
-3. Vælg fanen **E-mail-signatur** eller fanen **Anmod om signatur** i dialogboksen.
+3. Vælg i dialogen enten fanen **E-mail-signatur** eller fanen **Anmodningssignatur**.
 
-4. Rediger signaturen ved at slette eller tilføje oplysninger.
+4. Klik på ![ikon][img2] for at åbne teksteditorens værktøjslinje. Her har du forskellige muligheder for at redigere tekst og tilføje yderligere indhold.
 
     ![Rediger personlig signatur -screenshot][img1]
 
-5. Klik på ![ikon][img2] for at åbne teksteditorens værktøjslinje. Her har du forskellige muligheder for redigering af tekst og tilføjelse af yderligere indhold.
+    * Klik på ![ikon][img3] i værktøjslinjen for at tilføje variabler, eller gå til de ovenfor linkede referencer for den komplette liste over tilgængelige skabelonvariabler.
 
-6. Klik på ![ikon][img3] på værktøjslinjen for at tilføje variabler, eller gå til [skabelonvariabler][3] for at se en komplet liste over tilgængelige variabler.
+    * Tilføj billeder og links ved hjælp af knapperne i værktøjslinjen. Du kan også trække og slippe links og billeder. Vælg **Indsæt link** for at tilføje links til relevante ressourcer eller sociale medier.
 
-7. Tilføj billeder og links ved hjælp af knapperne på værktøjslinjen. Du kan også trække og slippe links og billeder. Vælg **Indsæt link** for at tilføje links til sociale medier.
+5. Klik på **Gem**, når du er færdig.
 
-8. Klik på **Gem**, når du er færdig.
-
-9. Valgfrit: Test signaturen ved at sende en e-mail til dig selv eller ved at oprette en ny anmodning. Kontroller, at alle oplysninger vises korrekt, og at linkene fungerer, og billederne vises efter hensigten.
+6. Valgfrit: Test signaturen ved at sende en e-mail til dig selv (for e-mail-signaturer) eller ved at oprette en ny sag (for anmodningssignaturer). Kontroller, at alle oplysninger vises korrekt, og at linkene fungerer, og billederne vises som de skal.
 
 ## Relaterede emner
 
@@ -44,6 +49,7 @@ so.audience.tooltip: SuperOffice CRM
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
+[2]: ../../request/reply-templates/learn/template-variables.md
 [3]: ../../../en/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->

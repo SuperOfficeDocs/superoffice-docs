@@ -1,42 +1,47 @@
 ---
 uid: help-sv-edit-email-signature
-title: Redigera e-postsignatur
+title: Redigera signaturer
 description: Redigera e-postsignatur
-author: Bergfrid Dias
-so.date: 03.06.2023
 keywords: e-post, signatur
+author: Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10.2.8
 so.topic: howto
-so.version: 10
 language: sv
-so.envir:
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
 ---
 
-# Redigera e-postsignatur
+# Redigera signaturer
+
+Standardmallarna innehåller mallvariabler som ersätts med data från SuperOffice, vilket säkerställer att dina signaturer alltid uppdateras med rätt information.
+
+* **E-postsignatur:** Mallen innehåller variabler för ditt namn, företag, adress, telefonnummer, e-postadress, webbplats och så vidare [från ditt kontaktkort][3].
+
+* **Ärandesignatur:** Mallen innehåller variabler för ditt namn, företag, e-postadress och så vidare specifikt för [svarsmallar][2].
 
 > [!NOTE]
-  > Standardsignaturmallen innehåller [mallvariabler][3] för ditt namn, företag, adress, telefonnummer, e-postadress, webbplats osv. Variablerna ersätts med data från ditt kontaktkort, vilket betyder att din signatur alltid uppdateras med rätt information.
+> Du kan inte blanda dessa två uppsättningar mallvariabler.
+
+## Steg
 
 1. Klicka på knappen **Personliga inställningar** i det övre fältet.
 
 2. Välj **Redigera personlig e-postsignatur**.
 
-3. Välj fliken **E-postsignatur** eller fliken **Begär signatur** i dialogrutan.
+3. Välj i dialogrutan antingen fliken **E-postsignatur** eller fliken **Ärandesignatur**.
 
-4. Redigera signaturen genom att ta bort eller lägga till information.
+4. Klicka på ![ikon][img2] för att öppna textredigerarens verktygsfält. Här har du olika alternativ för att redigera text och lägga till ytterligare innehåll.
 
     ![Redigera personlig e-postsignatur -screenshot][img1]
 
-5. Klicka på ![ikon][img2] för att öppna verktygsfältet textredigerare. Här har du olika alternativ för att redigera text och lägga till ytterligare innehåll.
+    * Klicka på ![ikon][img3] i verktygsfältet för att lägga till variabler, eller gå till ovan länkade referenser för den kompletta listan över tillgängliga mallvariabler.
 
-6. Klicka på ![ikon][img3] i verktygsfältet för att lägga till variabler, eller gå till [mallvariabler][3] för den fullständiga listan över tillgängliga variabler.
+    * Lägg till bilder och länkar med hjälp av knapparna i verktygsfältet. Du kan också dra och släppa länkar och bilder. Välj **Infoga länk** för att lägga till länkar till relevanta resurser eller sociala medier.
 
-7. Lägg till bilder och länkar med hjälp av knappar i verktygsfältet. Du kan också dra och släppa länkar och bilder. Använd **Infoga länk** för att lägga till länkar i sociala medier.
+5. Klicka på **Spara** när du är klar.
 
-8. Klicka på **Spara** när du är klar.
-
-9. Tillval: Testa signaturen genom att skicka ett e-postmeddelande till dig själv eller genom att skapa ett nytt ärende. Kontrollera att all information visas korrekt, att länkarna fungerar och att bilderna visas som avsett.
+6. Valfritt: Testa signaturen genom att skicka ett e-postmeddelande till dig själv (för e-postsignaturer) eller genom att skapa ett nytt ärende (för ärandesignatur). Kontrollera att all information visas korrekt, och att länkarna fungerar och bilderna visas som avsett.
 
 ## Relaterade ämnen
 
@@ -44,6 +49,7 @@ so.audience.tooltip: SuperOffice CRM
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
+[2]: ../../request/reply-templates/learn/template-variables.md
 [3]: ../../../en/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->

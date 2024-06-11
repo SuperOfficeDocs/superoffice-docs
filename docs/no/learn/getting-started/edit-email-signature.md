@@ -1,42 +1,47 @@
 ---
 uid: help-no-edit-email-signature
-title: Redigere e-postsignatur
-description: Redigere e-postsignatur
-author: Bergfrid Dias
-so.date: 03.06.2023
+title: Redigere signaturer
+description: Redigere e-postsignatur eller signatur i sak.
 keywords: e-post, signatur
+author: Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10.2.8
 so.topic: howto
-so.version: 10
 language: no
-so.envir:
-so.user: user
-so.user.tooltip: SuperOffice CRM
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
-# Redigere e-postsignatur
+# Redigere signaturer
+
+De standard signaturmalene inneholder malvariabler som erstattes med data fra SuperOffice, slik at signaturene dine alltid oppdateres med riktig informasjon.
+
+* **E-postsignatur:**: Malen inneholder variabler for ditt navn, firma, adresse, telefonnumre, e-postadresse, nettsted, og så videre [fra ditt personkort][3].
+
+* **Signatur i sak:** Malen inneholder variabler for ditt navn, firma, e-postadresse, og så videre spesifikk for [svarmaler][2].
 
 > [!NOTE]
-  > Standard signaturmal inneholder [malvariabler][3] for navn, firma, adresse, telefonnumre, e-postadresser, nettsted og så videre. Variablene erstattes av data fra personkortet, slik at signaturen alltid oppdateres med riktig informasjon.
+> Du kan ikke blande disse to settene med malvariabler.
+
+## Trinn
 
 1. Klikk på **Personlige innstillinger**-knappen i toppraden.
 
 2. Velg **Rediger personlig signatur**.
 
-3. I dialogboksen velger du fanen **E-postsignatur** eller **Be om signatur**.
+3. I dialogboksen, velg enten **E-postsignatur**-fanen eller **signatur i sak**-fanen.
 
-4. Rediger signaturen ved å slette eller legge til informasjon.
+4. Klikk ![ikon][img2] for å åpne verktøylinjen for tekstredigering. Her har du ulike alternativer for å redigere tekst og legge til ekstra innhold.
 
     ![Rediger personlig signatur -screenshot][img1]
 
-5. Klikk på ![icon][img2] for å åpne tekstredigering på verktøylinjen. Her har du forskjellige alternativer for å redigere tekst og legge til ekstra innhold.
+    * Klikk ![ikon][img3] på verktøylinjen for å legge til variabler, eller gå til de ovenforlenkede referansene for den komplette listen over tilgjengelige variabler.
 
-6. Klikk på ![icon][img3] i verktøylinjen for å legge til variabler, eller gå til [malvariabler][3] for den komplette listen over tilgjengelige variabler.
+    * Legg til bilder og lenker ved hjelp av knappene på verktøylinjen. Du kan også dra og slippe lenker og bilder. Velg **Sett inn kobling** for å legge til lenker til relevante ressurser eller sosiale medier.
 
-7. Legg til bilder og koblinger ved hjelp av knappene på Verktøylinjen. Du kan også dra og slippe koblinger og bilder. Velg **Sett inn kobling** for å legge til koblinger i sosiale medier.
+5. Klikk **Lagre** når du er ferdig.
 
-8. Klikk på **Lagre** når du er ferdig.
-
-9. Valgfritt: Test signaturen ved å sende en e-post til deg selv eller ved å opprette en ny sak. Kontroller at all informasjon vises riktig, at koblingene fungerer og at bildene vises som tiltenkt.
+6. Valgfritt: Test signaturen ved å sende en e-post til deg selv (for e-postsignaturer) eller ved å opprette en ny sak (for behandlingssignaturer). Sjekk at all informasjon vises riktig, og at lenkene fungerer og bildene vises som de skal.
 
 ## Aktuelle emner
 
@@ -44,6 +49,7 @@ so.user.tooltip: SuperOffice CRM
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
+[2]: ../../request/reply-templates/learn/template-variables.md
 [3]: ../../../en/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->

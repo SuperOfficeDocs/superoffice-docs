@@ -1,49 +1,55 @@
 ---
 uid: help-en-edit-email-signature
-title: Edit email signature
-description: Edit email signature
-author: Bergfrid Dias
-so.date: 03.06.2023
+title: Edit signatures
+description: How to edit email signature and request signature
 keywords: email, signature
+author: Bergfrid Dias
+so.date: 06.11.2024
+so.version: 10.2.8
 so.topic: howto
-so.version: 10
 language: en
-so.envir:
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
 ---
 
-# Edit email signature
+# Edit signatures
+
+The default templates contain template variables that are replaced with data from SuperOffice, ensuring your signatures are always updated with the correct information.
+
+* **Email signature:** The template contains variables for your name, company, address, phone numbers, email address, website, and so on [from your contact card][3].
+
+* **Request signature:** The template contains variables for your name, company, email address, and so on specific to [reply templates][2].
 
 > [!NOTE]
-  > The default signature template contains [template variables][3] for your name, company, address, phone numbers, email address, website, and so on. The variables are replaced with data from your contact card, so your signature will always be updated with the correct information.
+> You cannot mix these two sets of template variables.
+
+## Steps
 
 1. Click the **Personal settings** button in the top bar.
 
 2. Select **Edit personal signature**.
 
-3. In the dialog, select the **Email signature** tab or the **Request signature** tab.
+3. In the dialog, select either the **Email signature** tab or the **Request signature** tab.
 
-4. Edit the signature by deleting or adding information.
+4. Click ![icon][img2] to open the text editor toolbar. Here you have various options for editing text and adding additional content.
 
-    ![Edit personal signature -screenshot][img1]
+    ![Edit personal email signature -screenshot][img1]
 
-5. Click ![icon][img2] to open the text editor toolbar. Here you have various options for editing text and adding additional content.
+    * Click ![icon][img3] in the toolbar to add variables, or go to the above-linked references for the complete list of available variables.
 
-6. Click ![icon][img3] in the toolbar to add variables, or go to [template variables][3] for the complete list of available variables.
+    * Add images and links using the buttons in the toolbar. You can also drag and drop links and images. Select **Insert link** to add links to relevant resources or social media.
 
-7. Add images and links using the buttons in the toolbar. You can also drag and drop links and images. Select **Insert link** to add links to social media.
+5. Click **Save** when you are done.
 
-8. Click **Save** when you are done.
+6. Optional: Test the signature by sending an email to yourself (for email signatures) or by creating a new request (for request signatures). Check that all information is displayed correctly, and the links work and images are displayed as intended.
 
-9. Optional: Test the signature by sending an email to yourself or by creating a new request. Check that all information is displayed correctly, and the links work and images are displayed as intended.
-
-## Related Topics
+## Related topics
 
 * [Change default mail client in SuperOffice][1]
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
+[2]: ../../request/reply-templates/learn/template-variables.md
 [3]: ../../../en/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
