@@ -16,6 +16,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.GetAssignedBy()
   - CRMScript.NetServer.NSAppointmentEntity.GetAssignmentStatus()
   - CRMScript.NetServer.NSAppointmentEntity.GetAssociate()
+  - CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
   - CRMScript.NetServer.NSAppointmentEntity.GetBookingType()
   - CRMScript.NetServer.NSAppointmentEntity.GetCautionWarning()
   - CRMScript.NetServer.NSAppointmentEntity.GetCentralserviceVideomeetId()
@@ -31,6 +32,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.GetFreeBusy()
   - CRMScript.NetServer.NSAppointmentEntity.GetHasAlarm()
   - CRMScript.NetServer.NSAppointmentEntity.GetHasConflict()
+  - CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
   - CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   - CRMScript.NetServer.NSAppointmentEntity.GetInvitedPerson()
   - CRMScript.NetServer.NSAppointmentEntity.GetIsAlldayEvent()
@@ -60,6 +62,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.GetStartDate()
   - CRMScript.NetServer.NSAppointmentEntity.GetSuggestedAppointmentId()
   - CRMScript.NetServer.NSAppointmentEntity.GetTask()
+  - CRMScript.NetServer.NSAppointmentEntity.GetTitle()
   - CRMScript.NetServer.NSAppointmentEntity.GetType()
   - CRMScript.NetServer.NSAppointmentEntity.GetUpdatedBy()
   - CRMScript.NetServer.NSAppointmentEntity.GetUpdatedDate()
@@ -73,6 +76,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.SetAssignedBy(NSAssociate)
   - CRMScript.NetServer.NSAppointmentEntity.SetAssignmentStatus(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetAssociate(NSAssociate)
+  - CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
   - CRMScript.NetServer.NSAppointmentEntity.SetBookingType(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetCautionWarning(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetCentralserviceVideomeetId(String)
@@ -88,6 +92,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.SetFreeBusy(Bool)
   - CRMScript.NetServer.NSAppointmentEntity.SetHasAlarm(Bool)
   - CRMScript.NetServer.NSAppointmentEntity.SetHasConflict(Bool)
+  - CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
   - CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetInvitedPerson(NSPerson)
   - CRMScript.NetServer.NSAppointmentEntity.SetIsAlldayEvent(Bool)
@@ -117,6 +122,7 @@ items:
   - CRMScript.NetServer.NSAppointmentEntity.SetStartDate(DateTime)
   - CRMScript.NetServer.NSAppointmentEntity.SetSuggestedAppointmentId(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
+  - CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
   - CRMScript.NetServer.NSAppointmentEntity.SetType(Integer)
   - CRMScript.NetServer.NSAppointmentEntity.SetUpdatedBy(NSAssociate)
   - CRMScript.NetServer.NSAppointmentEntity.SetUpdatedDate(DateTime)
@@ -310,6 +316,27 @@ items:
       description: "The owner of the appointment - the associate whose diary/checklist the appointment is in."
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nNSAssociate associate = thing.GetAssociate();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
+  id: 'GetAgenda()'
+  so.intellisense: NSAppointmentEntity.GetAgenda
+  so.version: 10.3.6
+  langs:
+  - crmscript
+  name: 'GetAgenda()'
+  nameWithType: NSAppointmentEntity.GetAgenda()
+  fullName: CRMScript.NetServer.NSAppointmentEntity.GetAgenda()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetAgenda()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Agenda for the appointment."
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString agenda = thing.GetAgenda();</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetBookingType()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetBookingType()
   id: 'GetBookingType()'
@@ -622,6 +649,27 @@ items:
       description: Does the appointment overlap with another appointment in the user's diary?
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nBool hasConflict = thing.GetHasConflict();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
+  id: 'GetInternalNotes()'
+  so.intellisense: NSAppointmentEntity.GetInternalNotes
+  so.version: 10.3.6
+  langs:
+  - crmscript
+  name: 'GetInternalNotes()'
+  nameWithType: NSAppointmentEntity.GetInternalNotes()
+  fullName: CRMScript.NetServer.NSAppointmentEntity.GetInternalNotes()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetInternalNotes()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Internal notes for the appointment."
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString notes = thing.GetInternalNotes();</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetInvitationStatus()
   id: 'GetInvitationStatus()'
@@ -1205,6 +1253,27 @@ items:
       description: Suggested guide item that this appointment is an instance of 
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nInteger suggestedAppointmentId = thing.GetSuggestedAppointmentId();</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.GetTitle()
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetTitle()
+  id: 'GetTitle()'
+  so.intellisense: NSAppointmentEntity.GetTitle
+  so.version: 10.3.6
+  langs:
+  - crmscript
+  name: 'GetTitle()'
+  nameWithType: NSAppointmentEntity.GetTitle()
+  fullName: CRMScript.NetServer.NSAppointmentEntity.GetTitle()
+  type: Method
+  summary: # TODO
+  remarks: 
+  syntax: 
+    content: String GetTitle()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description: "Title for the appointment."
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString title = thing.GetTitle();</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.GetTask()
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.GetTask()
   id: 'GetTask()'
@@ -1491,6 +1560,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nInteger assignmentStatus;\nthing.SetAssignmentStatus(assignmentStatus);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
+  id: 'SetAgenda(String)'
+  so.intellisense: NSAppointmentEntity.SetAgenda
+  so.version: 10.3.6
+  langs:
+  - crmscript
+  name: 'SetAgenda(String)'
+  nameWithType: NSAppointmentEntity.SetAgenda(String)
+  fullName: CRMScript.NetServer.NSAppointmentEntity.SetAgenda(String)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetAgenda(String agenda)
+    parameters:
+    - id: agenda
+      type: CRMScript.Global.String
+      description: "Agenda for the appointment"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString agenda;\nthing.SetAgenda(agenda);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.SetAssociate(NSAssociate)
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetAssociate(NSAssociate)
   id: 'SetAssociate(NSAssociate)'
@@ -1856,6 +1948,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nBool hasConflict;\nthing.SetHasConflict(hasConflict);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
+  id: 'SetInternalNotes(String)'
+  so.intellisense: NSAppointmentEntity.SetInternalNotes
+  so.version: 10.3.6
+  langs:
+  - crmscript
+  name: 'SetInternalNotes(String)'
+  nameWithType: NSAppointmentEntity.SetInternalNotes(String)
+  fullName: CRMScript.NetServer.NSAppointmentEntity.SetInternalNotes(String)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetInternalNotes(String internalNotes)
+    parameters:
+    - id: internalNotes
+      type: CRMScript.Global.String
+      description: "Internal notes for the appointment"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString notes;\nthing.SetInternalNotes(notes);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetInvitationStatus(Integer)
   id: 'SetInvitationStatus(Integer)'
@@ -2493,6 +2608,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nInteger suggestedAppointmentId;\nthing.SetSuggestedAppointmentId(suggestedAppointmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
+  commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
+  id: 'SetTitle(String)'
+  so.intellisense: NSAppointmentEntity.SetTitle
+  so.version: 10.3.6
+  langs:
+  - crmscript
+  name: 'SetTitle(String)'
+  nameWithType: NSAppointmentEntity.SetTitle(String)
+  fullName: CRMScript.NetServer.NSAppointmentEntity.SetTitle(String)
+  type: Method
+  summary: # TODO
+  remarks:
+  syntax: 
+    content: Void SetTitle(String agenda)
+    parameters:
+    - id: agenda
+      type: CRMScript.Global.String
+      description: "Title for the appointment"
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>NSAppointmentEntity thing;\nString title;\nthing.SetTitle(title);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
   commentId: M:CRMScript.NetServer.NSAppointmentEntity.SetTask(NSTaskListItem)
   id: 'SetTask(NSTaskListItem)'
