@@ -1,35 +1,38 @@
 ---
-title: User-defined fields - web services
-uid: api_udef_services
-description: Working with custom fields and web services.
-author: Bergfrid Skaara Dias, AnthonyYates
-so.date: 03.11.2021
-keywords: udef, user-defined field, custom field, API
-so.topic: how-to-guide
-so.audience: api
-so.audience.tooltip: SuperOffice APIs and database
+uid: api-custom-objects-index
+title: Custom Objects
+description: Introduction to the Custom Objects
+author: Eivind Fasting
+so.date: 04.24.2024
+keywords: custom objects
+so.topic: concept
 ---
 
-# How to work with user-defined fields using web services
+# Introduction to the Custom Objects
 
-## How to manage user-defined fields
+Custom Objects are how a customer can either create new entities or extend existing entities inside SuperOffice, and are available in most search areas inside SuperOffice, including the API. When an ExtraTable is created, and has a field relation to a standard Entity (Company, Contact, Sale, Project, Ticket), the new entity and all of its' fields are available in the standard archives as available entities and columns. This makes it possible to create search selections for data stored in both built-in entity tables and extra tables, and combine them when relational fields exist. When an extra tables is marked as `Visible in archive` and contains a field pointing to a built-in entity, it is included as a “top-level” node in selections.
 
-* [Get all user-defined fields][4]
-* [Create a user-defined field][5]
-* [Update a user-defined field][6]
-* [Delete a user-defined field][7]
+The [learn][1] section contains more information about Custom Objects, and how you can work with Extra Tables and Extra Fields in SuperOffice. Learn also contains information about the [Extra fields][7] and how they are different from [User Defined fields][6]. The Learn reference section also provides instructions for creating an ExtraTable and ExtraFields.
 
-## How to work with user-defined field values
+There also exists a section how to work with and search for data based on user defined fields in the [web services][10] documentation.
 
-* [Set udef list-item value][1]
-* [Get udef list and values][2]
-* [Find contact by udef][3]
+This section will focus on how to work with Custom Objects, and explain how to use the API methods [ReadRow][2], [InsertRow][3], [UpsertRow][4], [DeleteRow][5] to perform operations on an ExtraTable custom object.
+
+> [!NOTE]
+> Code-examples can also be found on [git][9]
+
+The [Search][8] documentation contains more details about how to perform searches based on these relations with an example.
 
 <!-- Referenced links -->
-[1]: set-udef-listitem-value.md
-[2]: get-udef-list-and-values.md
-[3]: find-contact-by-udef.md
-[4]: rest-get-all-udef-fields.md
-[5]: rest-create-udef-field.md
-[6]: rest-update-udef-field.md
-[7]: rest-delete-udef-field.md
+[1]: ../../../../custom-objects/overview.md
+[2]: ./custom-objects-read-row.md
+[3]: ./custom-objects-insert-row.md
+[4]: ./custom-objects-update-row.md
+[5]: ./custom-objects-delete-row.md
+[6]: ../../../../custom-objects/learn/udef.md
+[7]: ../../../../custom-objects/learn/extra-field.md
+[8]: ./custom-objects-search.md
+[9]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
+[10]: ../../../web-services/howto/udef-fields/index.md
+
+<!-- Referenced images -->
