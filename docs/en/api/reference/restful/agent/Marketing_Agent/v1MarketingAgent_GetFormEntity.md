@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=757
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=494
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 6,
-  "FormKey": "sapiente",
-  "Name": "Graham-Waelchi",
-  "Description": "Digitized reciprocal interface",
-  "Config": "veniam",
-  "FolderId": 779,
-  "ScriptId": 544,
-  "ResponseShipmentId": 269,
-  "Active": true,
-  "Expires": "2007-09-16T12:57:34.2429559+02:00",
-  "MaxSubmits": 841,
+  "FormId": 409,
+  "FormKey": "dolor",
+  "Name": "Haag-Keeling",
+  "Description": "Organic multi-tasking policy",
+  "Config": "laborum",
+  "FolderId": 939,
+  "ScriptId": 587,
+  "ResponseShipmentId": 564,
+  "Active": false,
+  "Expires": "2018-01-13T04:22:27.0653754+01:00",
+  "MaxSubmits": 469,
   "Type": "Normal",
-  "Recipe": "velit",
-  "GroupId": 307,
+  "Recipe": "nihil",
+  "GroupId": 103,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2016-10-05T12:57:34.2429559+02:00",
-  "RegisteredAssociateId": 366,
-  "Updated": "2007-09-29T12:57:34.2429559+02:00",
-  "UpdatedAssociateId": 559,
-  "UpdatedCount": 860,
+  "Registered": "2020-05-25T04:22:27.0653754+02:00",
+  "RegisteredAssociateId": 389,
+  "Updated": "2003-10-31T04:22:27.0653754+01:00",
+  "UpdatedAssociateId": 545,
+  "UpdatedCount": 913,
   "EmailFlows": [
-    199,
-    95
+    76,
+    94
   ],
-  "FolderName": "Cruickshank-Greenholt",
+  "FolderName": "Farrell Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 19
     }
   }
 }

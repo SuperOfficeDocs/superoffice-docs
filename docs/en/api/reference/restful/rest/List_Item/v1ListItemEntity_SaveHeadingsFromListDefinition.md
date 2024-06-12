@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 817,
-    "Name": "Breitenberg Group",
-    "Tooltip": "in",
+    "HeadingId": 81,
+    "Name": "Howe-Rodriguez",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 120,
-    "UdListDefinitionId": 781
+    "Rank": 469,
+    "UdListDefinitionId": 379
   },
   {
-    "HeadingId": 817,
-    "Name": "Breitenberg Group",
-    "Tooltip": "in",
+    "HeadingId": 81,
+    "Name": "Howe-Rodriguez",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 120,
-    "UdListDefinitionId": 781
+    "Rank": 469,
+    "UdListDefinitionId": 379
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 334,
-    "Name": "Gutmann, Ritchie and Denesik",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 222,
-    "UdListDefinitionId": 914,
+    "HeadingId": 238,
+    "Name": "Keeling, Tremblay and Gleichner",
+    "Tooltip": "placeat",
+    "Deleted": false,
+    "Rank": 155,
+    "UdListDefinitionId": 842,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 88
       }
     }
   }

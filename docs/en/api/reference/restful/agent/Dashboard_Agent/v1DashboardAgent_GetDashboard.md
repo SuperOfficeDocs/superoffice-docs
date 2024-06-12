@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=250
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=820
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 779,
-  "AssociateId": 768,
-  "Caption": "enim",
+  "DashboardId": 90,
+  "AssociateId": 270,
+  "Caption": "rerum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 353,
-      "Caption": "consectetur",
-      "Description": "Front-line fresh-thinking flexibility",
-      "ChartName": "Hintz Inc and Sons",
-      "ChartId": "occaecati",
+      "DashboardTileId": 320,
+      "Caption": "sed",
+      "Description": "Adaptive context-sensitive adapter",
+      "ChartName": "Bogan, Nolan and Sipes",
+      "ChartId": "et",
       "IsDefault": false,
-      "AssociateId": 923,
-      "GroupId": 684,
-      "SelectionId": 730,
-      "Config": "consequatur",
+      "AssociateId": 837,
+      "GroupId": 226,
+      "SelectionId": 268,
+      "Config": "corporis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 927
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

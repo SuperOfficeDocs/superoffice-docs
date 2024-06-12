@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "in"
+  "Domain": "ut"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Pacocha LLC",
-    "SoPrimaryKey": 358,
-    "EntryName": "Stracke, Goldner and Jerde",
-    "EntryIdentifier": "magni",
-    "RuleDisplayName": "Prohaska Group",
+    "RuleName": "Fadel Inc and Sons",
+    "SoPrimaryKey": 528,
+    "EntryName": "Kreiger-Schmidt",
+    "EntryIdentifier": "sint",
+    "RuleDisplayName": "Crooks, Glover and Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 797
       }
     }
   }

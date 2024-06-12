@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 736,
-  "SourcePersonId": 501,
-  "DestinationContactId": 39,
-  "DestinationPersonId": 193,
-  "RelationId": 863,
-  "Comment": "cum",
-  "RelationDefinitionId": 578,
-  "Reversed": 444,
-  "UpdatedDate": "2017-08-26T12:57:42.3076631+02:00",
-  "CreatedDate": "1999-10-03T12:57:42.3076631+02:00",
+  "SourceContactId": 410,
+  "SourcePersonId": 535,
+  "DestinationContactId": 561,
+  "DestinationPersonId": 962,
+  "RelationId": 314,
+  "Comment": "assumenda",
+  "RelationDefinitionId": 691,
+  "Reversed": 234,
+  "UpdatedDate": "2008-03-13T04:22:34.8589991+01:00",
+  "CreatedDate": "2001-12-25T04:22:34.8589991+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Johns-Rippin",
-  "SourcePersonName": "Wolff, Price and Terry",
-  "DestinationContactName": "Larkin, Labadie and Turcotte",
-  "DestinationPersonName": "Olson, Ratke and Hamill",
-  "ActiveText": "soluta",
-  "PassiveText": "animi"
+  "SourceContactName": "Bergstrom Group",
+  "SourcePersonName": "Hegmann-Hansen",
+  "DestinationContactName": "Mann Inc and Sons",
+  "DestinationPersonName": "Haley-Waters",
+  "ActiveText": "possimus",
+  "PassiveText": "esse"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 842,
-  "SourcePersonId": 54,
-  "DestinationContactId": 175,
-  "DestinationPersonId": 897,
-  "RelationId": 57,
-  "Comment": "quibusdam",
-  "RelationDefinitionId": 511,
-  "Reversed": 41,
-  "UpdatedDate": "2004-07-04T12:57:42.3076631+02:00",
-  "CreatedDate": "2001-02-03T12:57:42.3076631+01:00",
+  "SourceContactId": 94,
+  "SourcePersonId": 300,
+  "DestinationContactId": 1002,
+  "DestinationPersonId": 238,
+  "RelationId": 864,
+  "Comment": "in",
+  "RelationDefinitionId": 585,
+  "Reversed": 326,
+  "UpdatedDate": "2016-12-10T04:22:34.8589991+01:00",
+  "CreatedDate": "2005-01-02T04:22:34.8589991+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Harber-Koepp",
-  "SourcePersonName": "Kris-Tillman",
-  "DestinationContactName": "Padberg, Price and Cronin",
-  "DestinationPersonName": "Hand, Kuphal and Schmidt",
-  "ActiveText": "aut",
-  "PassiveText": "autem",
+  "SourceContactName": "Rippin, Hyatt and Weber",
+  "SourcePersonName": "Yundt Inc and Sons",
+  "DestinationContactName": "Rohan, Morissette and Krajcik",
+  "DestinationPersonName": "Lakin, Torp and Feeney",
+  "ActiveText": "non",
+  "PassiveText": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 463
     }
   },
   "_Links": {

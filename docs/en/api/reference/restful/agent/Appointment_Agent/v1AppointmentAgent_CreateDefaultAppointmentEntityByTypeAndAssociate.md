@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 511
+  "AssociateId": 637
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-02-24T12:57:32.9615394+01:00",
-  "AppointmentId": 54,
-  "Description": "Multi-layered scalable forecast",
-  "Title": "pariatur",
-  "Agenda": "deleniti",
-  "InternalNotes": "sed",
-  "StartDate": "2000-12-30T12:57:32.9615394+01:00",
-  "EndDate": "1997-06-29T12:57:32.9615394+02:00",
+  "CreatedDate": "1998-12-14T04:22:25.8559745+01:00",
+  "AppointmentId": 731,
+  "Description": "Optimized responsive access",
+  "Title": "sequi",
+  "Agenda": "qui",
+  "InternalNotes": "eligendi",
+  "StartDate": "2006-03-25T04:22:25.8559745+01:00",
+  "EndDate": "2003-04-22T04:22:25.8559745+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 491,
+  "MotherId": 345,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-03-23T12:57:32.9615394+01:00",
+  "UpdatedDate": "2001-05-07T04:22:25.8559745+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 705,
+  "ActiveLinks": 236,
   "Links": [
     {
-      "EntityName": "Casper-Veum",
-      "Id": 496,
-      "Description": "Profound fresh-thinking internet solution",
-      "ExtraInfo": "sequi",
-      "LinkId": 772,
+      "EntityName": "Vandervort LLC",
+      "Id": 22,
+      "Description": "Down-sized regional encryption",
+      "ExtraInfo": "expedita",
+      "LinkId": 346,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 314
         }
       }
     }
   ],
-  "AlarmLeadTime": "veritatis",
+  "AlarmLeadTime": "fugit",
   "HasAlarm": false,
-  "ColorIndex": 46,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "distinctio",
-  "LeadTime": "maxime",
-  "Location": "asperiores",
-  "RejectCounter": 192,
+  "ColorIndex": 226,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "placeat",
+  "LeadTime": "asperiores",
+  "Location": "sit",
+  "RejectCounter": 588,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 757,
-      "PersonId": 912,
-      "ContactId": 931,
-      "EmailId": 217,
-      "SendEmail": false,
+      "AssociateId": 536,
+      "PersonId": 60,
+      "ContactId": 31,
+      "EmailId": 272,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "stevie@boyerconroy.info",
-      "Description": "Persevering static protocol"
+      "EmailAddress": "florian.jacobson@heathcoteswaniawski.uk",
+      "Description": "Operative real-time algorithm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-08-27T12:57:32.9615394+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2009-10-28T04:22:25.8559745+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 95,
+  "PreferredTZLocation": 276,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 474,
+  "SuggestedAppointmentId": 61,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptates",
+  "CentralserviceVideomeetId": "in",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "487199729"
+    "SuperOffice:1": "Mrs. Jasmin Ryan",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ex",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
     "CustomFields1": "et",
-    "CustomFields2": "quam"
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "2023-01-10T12:57:32.9615394+01:00",
-  "PublishTo": "2021-01-16T12:57:32.9615394+01:00",
-  "PublishFrom": "2024-02-09T12:57:32.9615394+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-11-29T04:22:25.8715965+01:00",
+  "PublishTo": "2016-08-04T04:22:25.8715965+02:00",
+  "PublishFrom": "2005-10-29T04:22:25.8715965+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 907,
+      "VisibleId": 730,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldType": "System.String",
+          "FieldLength": 125
         }
       }
     },
     {
-      "VisibleId": 907,
+      "VisibleId": 730,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldType": "System.String",
+          "FieldLength": 125
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 345
     }
   }
 }

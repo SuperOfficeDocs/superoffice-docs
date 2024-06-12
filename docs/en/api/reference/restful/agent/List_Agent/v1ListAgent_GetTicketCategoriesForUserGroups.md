@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    482,
-    507
+    696,
+    716
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Olson, Weissnat and Cummings",
-    "ToolTip": "Rerum repudiandae dolores quis praesentium adipisci.",
+    "Id": 714,
+    "Name": "O'Conner Inc and Sons",
+    "ToolTip": "Ad quam exercitationem.",
     "Deleted": false,
-    "Rank": 250,
-    "Type": "et",
+    "Rank": 907,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Wolf Group",
-        "ToolTip": "Ad id sunt aut quo fuga.",
+        "Id": 377,
+        "Name": "Torp-Sanford",
+        "ToolTip": "Nemo quo quisquam blanditiis et.",
         "Deleted": false,
-        "Rank": 929,
-        "Type": "optio",
+        "Rank": 405,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "alias",
-        "ColorBlock": 606,
-        "ExtraInfo": "est",
-        "StyleHint": "sapiente",
-        "FullName": "Sienna Balistreri",
+        "IconHint": "est",
+        "ColorBlock": 669,
+        "ExtraInfo": "praesentium",
+        "StyleHint": "quis",
+        "FullName": "Mrs. Iva Zion Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldType": "System.String",
+            "FieldLength": 984
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 172,
-    "ExtraInfo": "itaque",
-    "StyleHint": "quaerat",
-    "FullName": "Francisca Hyatt",
+    "IconHint": "consequatur",
+    "ColorBlock": 325,
+    "ExtraInfo": "praesentium",
+    "StyleHint": "blanditiis",
+    "FullName": "Ida Herbert Shanahan PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 952
       }
     }
   }

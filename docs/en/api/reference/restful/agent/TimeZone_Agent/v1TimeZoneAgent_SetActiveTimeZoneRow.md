@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/TimeZone/SetActiveTimeZoneRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
+  "Id": 930,
   "Active": true
 }
 ```

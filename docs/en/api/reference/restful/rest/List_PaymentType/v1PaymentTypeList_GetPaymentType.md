@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 101,
-  "Name": "Bailey Inc and Sons",
-  "Tooltip": "consequuntur",
+  "Id": 26,
+  "Name": "Bergstrom, Spinka and Dare",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "UdListDefinitionId": 308,
-  "Rank": 821,
+  "UdListDefinitionId": 390,
+  "Rank": 972,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldType": "System.String",
+      "FieldLength": 883
     }
   }
 }

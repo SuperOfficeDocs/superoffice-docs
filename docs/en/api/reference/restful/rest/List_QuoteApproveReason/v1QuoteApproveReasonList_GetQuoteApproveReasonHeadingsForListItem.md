@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Ankunding, Feil and Parker",
-    "ToolTip": "Voluptatem deleniti tenetur eligendi repellendus maxime.",
+    "Id": 441,
+    "Name": "Kreiger-Barrows",
+    "ToolTip": "Et accusamus odit.",
     "Deleted": false,
-    "Rank": 398,
-    "Type": "recusandae",
-    "ColorBlock": 613,
-    "IconHint": "nobis",
+    "Rank": 289,
+    "Type": "quo",
+    "ColorBlock": 5,
+    "IconHint": "fuga",
     "Selected": true,
-    "LastChanged": "2006-08-12T12:57:43.6520109+02:00",
+    "LastChanged": "2012-03-22T04:22:36.1122165+01:00",
     "ChildItems": [
       {
-        "Id": 768,
-        "Name": "Littel-Gibson",
-        "ToolTip": "Nisi minima eum ea.",
+        "Id": 10,
+        "Name": "McCullough-Haley",
+        "ToolTip": "Blanditiis quos et reprehenderit nobis quia rerum labore.",
         "Deleted": false,
-        "Rank": 518,
-        "Type": "quisquam",
-        "ColorBlock": 605,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2017-08-19T12:57:43.6520109+02:00",
+        "Rank": 535,
+        "Type": "repellat",
+        "ColorBlock": 186,
+        "IconHint": "quidem",
+        "Selected": true,
+        "LastChanged": "2012-09-30T04:22:36.1122165+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Prof. Stanton Hildegard O'Kon",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Arvel Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 422
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "soluta",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Teagan Boyer",
+    "FullName": "Marlen Karson Ledner Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 193
       }
     }
   }

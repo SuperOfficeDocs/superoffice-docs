@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 448
+  "PrefDescId": 855
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 149,
-    "PrefDescId": 272,
-    "PrefValue": "qui",
-    "PrefShowValue": "aspernatur",
-    "Description": "Operative coherent model",
+    "PrefDescLineId": 202,
+    "PrefDescId": 295,
+    "PrefValue": "exercitationem",
+    "PrefShowValue": "tempora",
+    "Description": "Right-sized didactic concept",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldType": "System.String",
+        "FieldLength": 712
       }
     }
   }

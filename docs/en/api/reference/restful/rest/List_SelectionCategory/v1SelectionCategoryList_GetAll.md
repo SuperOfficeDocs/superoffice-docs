@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Erdman, Welch and Beier",
-    "Tooltip": "similique",
+    "Id": 537,
+    "Name": "Ernser, Balistreri and West",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 474,
-    "Rank": 94,
+    "UdListDefinitionId": 391,
+    "Rank": 174,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 311
       }
     }
   }

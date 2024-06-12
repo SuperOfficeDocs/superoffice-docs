@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Jakubowski-Rice",
-    "ToolTip": "Sed porro aut ipsa.",
+    "Id": 376,
+    "Name": "Moore Inc and Sons",
+    "ToolTip": "Sed ut sint at saepe aut corrupti.",
     "Deleted": false,
-    "Rank": 863,
-    "Type": "dolorum",
-    "ColorBlock": 115,
-    "IconHint": "dolore",
+    "Rank": 487,
+    "Type": "explicabo",
+    "ColorBlock": 83,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "1998-07-14T12:57:43.3395828+02:00",
+    "LastChanged": "2012-12-07T04:22:35.830971+01:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Gerlach LLC",
-        "ToolTip": "Velit qui culpa.",
+        "Id": 650,
+        "Name": "Parisian, Reinger and O'Conner",
+        "ToolTip": "Ab sequi.",
         "Deleted": false,
-        "Rank": 170,
-        "Type": "voluptas",
-        "ColorBlock": 798,
-        "IconHint": "animi",
+        "Rank": 467,
+        "Type": "sequi",
+        "ColorBlock": 275,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2002-06-08T12:57:43.3395828+02:00",
+        "LastChanged": "2023-08-23T04:22:35.830971+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Madge Jacobs"
+        "ExtraInfo": "beatae",
+        "StyleHint": "voluptate",
+        "Hidden": false,
+        "FullName": "Jaiden Haag"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Donnie Heaney V"
+    "FullName": "Christophe Morissette"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Goldner LLC",
-    "ToolTip": "Rerum ut.",
-    "Deleted": false,
-    "Rank": 254,
-    "Type": "repudiandae",
-    "ColorBlock": 154,
-    "IconHint": "eveniet",
+    "Id": 877,
+    "Name": "Jacobs, Abernathy and Beier",
+    "ToolTip": "Non cupiditate iusto.",
+    "Deleted": true,
+    "Rank": 825,
+    "Type": "qui",
+    "ColorBlock": 775,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2015-09-25T12:57:43.3395828+02:00",
+    "LastChanged": "1997-06-13T04:22:35.830971+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Ruecker, Keeling and O'Connell",
-        "ToolTip": "Nam atque aut aliquid suscipit officiis non.",
-        "Deleted": false,
-        "Rank": 853,
-        "Type": "quo",
-        "ColorBlock": 912,
-        "IconHint": "dicta",
+        "Id": 133,
+        "Name": "Herman-Crooks",
+        "ToolTip": "Vero ipsa expedita et sit odio ad.",
+        "Deleted": true,
+        "Rank": 904,
+        "Type": "pariatur",
+        "ColorBlock": 422,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2021-09-20T12:57:43.3395828+02:00",
+        "LastChanged": "2001-09-09T04:22:35.830971+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "ut",
+        "ExtraInfo": "corporis",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Prof. Suzanne Bergnaum III",
+        "FullName": "Giovanny Kailey Mante DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldLength": 36
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Elva Marquardt",
+    "ExtraInfo": "id",
+    "StyleHint": "atque",
+    "Hidden": true,
+    "FullName": "Roderick Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 937
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "McClure LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 322,
-  "IsCustomList": false,
+  "Id": 828,
+  "Name": "Mertz-Schamberger",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 745,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 855
     }
   },
   "_Links": {

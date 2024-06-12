@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "praesentium",
-  "SearchString": "sed"
+  "Type": "sunt",
+  "SearchString": "minus"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "sed",
-    "molestiae"
+    "omnis",
+    "pariatur"
   ],
   "Users": [
     {
-      "Value": "architecto",
-      "DisplayValue": "sed",
+      "Value": "non",
+      "DisplayValue": "tempora",
       "Columns": [
-        "sunt",
-        "maiores"
+        "non",
+        "id"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 695
+          "FieldLength": 696
         }
       }
     },
     {
-      "Value": "architecto",
-      "DisplayValue": "sed",
+      "Value": "non",
+      "DisplayValue": "tempora",
       "Columns": [
-        "sunt",
-        "maiores"
+        "non",
+        "id"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 695
+          "FieldLength": 696
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 115
     }
   }
 }

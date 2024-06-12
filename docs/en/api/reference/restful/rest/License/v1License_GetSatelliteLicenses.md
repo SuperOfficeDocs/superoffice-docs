@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski-Walsh",
-    "Description": "Managed discrete forecast",
+    "Name": "Turcotte LLC",
+    "Description": "Organized discrete adapter",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 405,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 364,
-        "InUse": 481,
+        "Unrestricted": true,
+        "Total": 826,
+        "Tooltip": "consequatur",
+        "CanAssign": false,
+        "Free": 780,
+        "InUse": 417,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 617,
-        "Name": "Grady, Walter and Orn",
-        "Description": "Sharable non-volatile attitude",
-        "PrerequisiteModuleName": "Heaney Inc and Sons",
-        "SortOrder": 383,
-        "ExtraFlags": 648,
+        "ModuleLicenseId": 846,
+        "Name": "Wiza-Brown",
+        "Description": "Cross-platform mission-critical moderator",
+        "PrerequisiteModuleName": "Olson-Huels",
+        "SortOrder": 681,
+        "ExtraFlags": 273,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldType": "System.String",
+            "FieldLength": 91
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 624,
+        "Unrestricted": true,
+        "Total": 672,
         "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 140,
-        "InUse": 870,
-        "IsHidden": true,
+        "CanAssign": false,
+        "Free": 607,
+        "InUse": 36,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 288,
-        "Name": "Berge LLC",
-        "Description": "Phased actuating neural-net",
-        "PrerequisiteModuleName": "Barrows Group",
-        "SortOrder": 554,
-        "ExtraFlags": 44,
+        "ModuleLicenseId": 651,
+        "Name": "Block Group",
+        "Description": "Synergized reciprocal ability",
+        "PrerequisiteModuleName": "Bogan-Murphy",
+        "SortOrder": 279,
+        "ExtraFlags": 110,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 371
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 502
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   },
   {
-    "Name": "Gusikowski-Walsh",
-    "Description": "Managed discrete forecast",
+    "Name": "Turcotte LLC",
+    "Description": "Organized discrete adapter",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 405,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 364,
-        "InUse": 481,
+        "Unrestricted": true,
+        "Total": 826,
+        "Tooltip": "consequatur",
+        "CanAssign": false,
+        "Free": 780,
+        "InUse": 417,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 617,
-        "Name": "Grady, Walter and Orn",
-        "Description": "Sharable non-volatile attitude",
-        "PrerequisiteModuleName": "Heaney Inc and Sons",
-        "SortOrder": 383,
-        "ExtraFlags": 648,
+        "ModuleLicenseId": 846,
+        "Name": "Wiza-Brown",
+        "Description": "Cross-platform mission-critical moderator",
+        "PrerequisiteModuleName": "Olson-Huels",
+        "SortOrder": 681,
+        "ExtraFlags": 273,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldType": "System.String",
+            "FieldLength": 91
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 624,
+        "Unrestricted": true,
+        "Total": 672,
         "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 140,
-        "InUse": 870,
-        "IsHidden": true,
+        "CanAssign": false,
+        "Free": 607,
+        "InUse": 36,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 288,
-        "Name": "Berge LLC",
-        "Description": "Phased actuating neural-net",
-        "PrerequisiteModuleName": "Barrows Group",
-        "SortOrder": 554,
-        "ExtraFlags": 44,
+        "ModuleLicenseId": 651,
+        "Name": "Block Group",
+        "Description": "Synergized reciprocal ability",
+        "PrerequisiteModuleName": "Bogan-Murphy",
+        "SortOrder": 279,
+        "ExtraFlags": 110,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 371
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 502
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   }

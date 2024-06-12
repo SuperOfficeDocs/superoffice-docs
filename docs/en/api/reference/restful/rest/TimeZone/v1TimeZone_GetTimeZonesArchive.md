@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=cupiditate
-GET /api/v1/TimeZone?$top=349
-GET /api/v1/TimeZone?$skip=609
+GET /api/v1/TimeZone?$entities=perferendis
+GET /api/v1/TimeZone?$top=497
+GET /api/v1/TimeZone?$skip=496
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=omnis
+GET /api/v1/TimeZone?$context=rerum
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eos",
+  "odata.nextLink": "possimus",
   "value": [
     {
-      "PrimaryKey": 5605,
+      "PrimaryKey": 4581,
       "EntityName": "sale",
-      "saleId": 5605,
-      "contactId": 4340,
-      "name": "Bailey-Hermann"
+      "saleId": 4581,
+      "contactId": 5401,
+      "name": "Will, Pfannerstill and Zemlak"
     },
     {
-      "PrimaryKey": 1211,
+      "PrimaryKey": 7403,
       "EntityName": "sale",
-      "saleId": 1211,
-      "contactId": 17,
-      "name": "Reichert Group"
+      "saleId": 7403,
+      "contactId": 7664,
+      "name": "Von, Turcotte and Berge"
     }
   ]
 }

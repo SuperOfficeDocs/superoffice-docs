@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 795,
-  "PersonId": 783,
-  "AppointmentId": 158,
-  "DocumentId": 440,
-  "SaleId": 653,
-  "SelectionId": 539,
-  "ProjectId": 918,
-  "UiCulture": "ut"
+  "ContactId": 661,
+  "PersonId": 536,
+  "AppointmentId": 219,
+  "DocumentId": 316,
+  "SaleId": 819,
+  "SelectionId": 249,
+  "ProjectId": 942,
+  "UiCulture": "repellendus"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 126,
+  "DocumentId": 434,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "asperiores",
-  "Header": "laudantium",
-  "Name": "Gottlieb Inc and Sons",
-  "OurRef": "laboriosam",
-  "YourRef": "tenetur",
-  "CreatedDate": "2002-07-06T12:57:33.8055263+02:00",
-  "UpdatedDate": "2002-05-20T12:57:33.8055263+02:00",
-  "Description": "Distributed directional instruction set",
+  "Attention": "aut",
+  "Header": "facilis",
+  "Name": "Roob-Rowe",
+  "OurRef": "accusamus",
+  "YourRef": "pariatur",
+  "CreatedDate": "2002-12-19T04:22:26.6241113+01:00",
+  "UpdatedDate": "2002-07-15T04:22:26.6241113+02:00",
+  "Description": "Extended holistic budgetary management",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-01-03T12:57:33.8055263+01:00",
-  "ExternalRef": "at",
+  "Date": "2006-01-23T04:22:26.6241113+01:00",
+  "ExternalRef": "voluptatum",
   "Completed": "Completed",
-  "ActiveLinks": 376,
+  "ActiveLinks": 854,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sawayn, Ledner and Luettgen",
-      "Id": 401,
-      "Description": "Seamless multi-state focus group",
-      "ExtraInfo": "porro",
-      "LinkId": 109,
+      "EntityName": "O'Keefe-Champlin",
+      "Id": 477,
+      "Description": "Reduced leading edge knowledge user",
+      "ExtraInfo": "ut",
+      "LinkId": 170,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldLength": 946
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 364,
-  "Snum": 976,
+  "SuggestedDocumentId": 375,
+  "Snum": 988,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Glenna Rosalia Weimann III"
+    "SuperOffice:1": "539127368",
+    "SuperOffice:2": "560505612"
   },
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "quod"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "placeat"
+    "CustomFields1": "iste",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2016-02-04T12:57:33.8055263+01:00",
-  "PublishTo": "2015-01-12T12:57:33.8055263+01:00",
-  "PublishFrom": "2003-05-23T12:57:33.8055263+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-12-09T04:22:26.6397369+01:00",
+  "PublishTo": "1998-10-17T04:22:26.6397369+02:00",
+  "PublishFrom": "2013-01-31T04:22:26.6397369+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 113,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 434
         }
       }
     },
     {
-      "VisibleId": 113,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldLength": 434
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 646
     }
   }
 }

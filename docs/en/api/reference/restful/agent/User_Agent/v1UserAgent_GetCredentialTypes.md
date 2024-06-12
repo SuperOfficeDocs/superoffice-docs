@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "inventore",
-    "Type": "reprehenderit",
-    "Description": "Optional web-enabled moratorium",
+    "DisplayType": "similique",
+    "Type": "aut",
+    "Description": "Distributed reciprocal focus group",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 859
       }
     }
   }

@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Stracke, Jast and Monahan",
+  "CommandName": "Doyle Group",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "omnis",
+  "Message": "est",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 714
     }
   }
 }

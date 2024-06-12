@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 830
+  "SuggestedDocumentId": 808
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 133,
+  "DocumentId": 578,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsam",
-  "Header": "neque",
-  "Name": "Turcotte-O'Hara",
-  "OurRef": "nihil",
-  "YourRef": "accusantium",
-  "CreatedDate": "2013-03-18T12:57:33.8211479+01:00",
-  "UpdatedDate": "2018-10-12T12:57:33.8211479+02:00",
-  "Description": "De-engineered solution-oriented matrices",
+  "Attention": "sint",
+  "Header": "ipsam",
+  "Name": "Connelly Group",
+  "OurRef": "ullam",
+  "YourRef": "pariatur",
+  "CreatedDate": "1997-03-08T04:22:26.6397369+01:00",
+  "UpdatedDate": "2006-02-20T04:22:26.6397369+01:00",
+  "Description": "Networked needs-based alliance",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-05-12T12:57:33.8211479+02:00",
-  "ExternalRef": "accusamus",
+  "Date": "2023-08-21T04:22:26.6553604+02:00",
+  "ExternalRef": "itaque",
   "Completed": "Completed",
-  "ActiveLinks": 436,
+  "ActiveLinks": 489,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sporer, Reichert and Huel",
-      "Id": 851,
-      "Description": "Business-focused motivating Graphical User Interface",
-      "ExtraInfo": "autem",
-      "LinkId": 271,
+      "EntityName": "Bode-Gerlach",
+      "Id": 518,
+      "Description": "Distributed national open system",
+      "ExtraInfo": "quisquam",
+      "LinkId": 663,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldLength": 12
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 337,
-  "Snum": 770,
+  "SuggestedDocumentId": 611,
+  "Snum": 247,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Michael Francisca Leannon",
-    "SuperOffice:2": "Phyllis Ryan"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "quam"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "iure"
+    "CustomFields1": "non",
+    "CustomFields2": "accusamus"
   },
-  "PublishEventDate": "2001-12-04T12:57:33.8211479+01:00",
-  "PublishTo": "2013-04-27T12:57:33.8211479+02:00",
-  "PublishFrom": "2011-01-14T12:57:33.8211479+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-04-17T04:22:26.6553604+02:00",
+  "PublishTo": "1998-01-14T04:22:26.6553604+01:00",
+  "PublishFrom": "2021-04-13T04:22:26.6553604+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 176,
+      "VisibleId": 346,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 816
+          "FieldType": "System.Int32",
+          "FieldLength": 368
         }
       }
     },
     {
-      "VisibleId": 176,
+      "VisibleId": 346,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 816
+          "FieldType": "System.Int32",
+          "FieldLength": 368
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldType": "System.Int32",
+      "FieldLength": 977
     }
   }
 }

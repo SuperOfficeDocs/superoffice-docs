@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Batz-Senger",
-  "Tooltip": "neque",
-  "Deleted": true,
-  "Rank": 61,
+  "Id": 446,
+  "Name": "Murazik Inc and Sons",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "Rank": 831,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "numquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 457
     }
   },
   "_Links": {

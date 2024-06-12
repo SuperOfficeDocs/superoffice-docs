@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Upton LLC",
-  "Comment": "deleniti",
-  "StakeholderRoleId": 917,
-  "CountryId": 68,
-  "PersonId": 412,
-  "EmailDescription": "jazmyn.daniel@harris.biz",
-  "EmailId": 758,
-  "EmailAddress": "clark_rempel@rice.info",
-  "PhoneId": 565,
-  "ContactName": "Blanda LLC",
-  "ContactId": 227,
-  "SaleId": 717,
-  "Mrmrs": "praesentium",
-  "Firstname": "Einar",
-  "MiddleName": "Glover, Koss and Waters",
-  "Lastname": "Rau",
-  "SaleStakeholderId": 939,
-  "Rank": 770,
-  "Phone": "302-680-1648 x9948"
+  "StakeholderRoleName": "Rempel-Bogisich",
+  "Comment": "aut",
+  "StakeholderRoleId": 590,
+  "CountryId": 335,
+  "PersonId": 749,
+  "EmailDescription": "jamar_boehm@hills.com",
+  "EmailId": 971,
+  "EmailAddress": "neal.mitchell@hesselfeeney.uk",
+  "PhoneId": 305,
+  "ContactName": "Gerlach-Oberbrunner",
+  "ContactId": 824,
+  "SaleId": 923,
+  "Mrmrs": "sint",
+  "Firstname": "Emmitt",
+  "MiddleName": "McLaughlin LLC",
+  "Lastname": "Hintz",
+  "SaleStakeholderId": 984,
+  "Rank": 759,
+  "Phone": "1-867-137-5492 x0805"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Becker, Gerlach and Bahringer",
-  "Comment": "non",
-  "StakeholderRoleId": 16,
-  "CountryId": 234,
-  "PersonId": 722,
-  "EmailDescription": "delbert@gibson.biz",
-  "EmailId": 457,
-  "EmailAddress": "bridgette@schulist.us",
-  "PhoneId": 722,
-  "ContactName": "Roberts Inc and Sons",
-  "ContactId": 106,
-  "SaleId": 612,
-  "Mrmrs": "cupiditate",
-  "Firstname": "Monique",
-  "MiddleName": "Lubowitz-Friesen",
-  "Lastname": "Goodwin",
-  "SaleStakeholderId": 901,
-  "Rank": 484,
-  "Phone": "(097)273-2680",
+  "StakeholderRoleName": "D'Amore Inc and Sons",
+  "Comment": "perferendis",
+  "StakeholderRoleId": 959,
+  "CountryId": 484,
+  "PersonId": 303,
+  "EmailDescription": "cameron_harvey@hand.com",
+  "EmailId": 218,
+  "EmailAddress": "josianne@wilderman.ca",
+  "PhoneId": 716,
+  "ContactName": "Pacocha-Stoltenberg",
+  "ContactId": 511,
+  "SaleId": 854,
+  "Mrmrs": "numquam",
+  "Firstname": "Andreane",
+  "MiddleName": "Beer Inc and Sons",
+  "Lastname": "O'Hara",
+  "SaleStakeholderId": 565,
+  "Rank": 767,
+  "Phone": "717-821-9993",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 909
+      "FieldType": "System.Int32",
+      "FieldLength": 845
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

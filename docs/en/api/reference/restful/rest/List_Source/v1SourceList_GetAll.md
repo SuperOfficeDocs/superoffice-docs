@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Roberts, Hegmann and Baumbach",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 592,
-    "Rank": 738,
+    "Id": 662,
+    "Name": "Weimann Inc and Sons",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "UdListDefinitionId": 401,
+    "Rank": 840,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 385
       }
     }
   }

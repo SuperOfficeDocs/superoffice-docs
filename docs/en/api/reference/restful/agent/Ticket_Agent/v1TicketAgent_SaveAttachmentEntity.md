@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 608,
-  "Name": "Wehner LLC",
-  "ContentType": "consequuntur",
-  "AttSize": 320,
+  "AttachmentId": 506,
+  "Name": "Connelly Inc and Sons",
+  "ContentType": "itaque",
+  "AttSize": 46,
   "InlineImage": true,
-  "ContentId": "impedit",
-  "AuthKey": "modi",
-  "IsSafeFileExtension": false
+  "ContentId": "temporibus",
+  "AuthKey": "molestias",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 652,
-  "Name": "Kertzmann, Gusikowski and Jacobs",
-  "ContentType": "at",
-  "AttSize": 712,
-  "InlineImage": false,
-  "ContentId": "reiciendis",
-  "AuthKey": "architecto",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 7,
+  "Name": "Batz, Kerluke and Bogan",
+  "ContentType": "facilis",
+  "AttSize": 486,
+  "InlineImage": true,
+  "ContentId": "harum",
+  "AuthKey": "nulla",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   }
 }

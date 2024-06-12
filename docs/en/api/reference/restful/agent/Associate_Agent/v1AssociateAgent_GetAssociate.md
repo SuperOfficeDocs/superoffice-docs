@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=513
+POST /api/v1/Agents/Associate/GetAssociate?associateId=466
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 202,
-  "Name": "Doyle LLC",
-  "PersonId": 157,
-  "Rank": 131,
-  "Tooltip": "autem",
+  "AssociateId": 244,
+  "Name": "Carroll, Kessler and Pollich",
+  "PersonId": 170,
+  "Rank": 463,
+  "Tooltip": "dolorem",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 594,
-  "FullName": "Mrs. Sheila Caesar Thiel PhD",
-  "FormalName": "Casper-Upton",
+  "GroupIdx": 539,
+  "FullName": "Mr. Nya Ricky Harber",
+  "FormalName": "Zemlak Inc and Sons",
   "Deleted": false,
-  "EjUserId": 465,
-  "UserName": "Von-Connelly",
+  "EjUserId": 723,
+  "UserName": "Volkman, Kuphal and Dickinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 212
     }
   }
 }

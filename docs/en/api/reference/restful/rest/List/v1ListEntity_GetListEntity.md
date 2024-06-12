@@ -92,27 +92,27 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Huel Inc and Sons",
-  "Tooltip": "magnam",
+  "Id": 154,
+  "Name": "Robel Group",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 339,
-  "IsCustomList": false,
+  "Rank": 229,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eaque",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eius",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

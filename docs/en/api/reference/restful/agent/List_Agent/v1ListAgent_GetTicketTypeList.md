@@ -97,38 +97,38 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 497,
-    "Name": "Schuppe-Medhurst",
-    "Rank": 369,
-    "Tooltip": "sapiente",
-    "Icon": "deleniti",
-    "DefaultTicketStatus": 87,
+    "TicketTypeId": 801,
+    "Name": "McKenzie-Barton",
+    "Rank": 936,
+    "Tooltip": "sequi",
+    "Icon": "velit",
+    "DefaultTicketStatus": 772,
     "TicketStatuses": [
-      785,
-      317
+      44,
+      40
     ],
-    "DefaultTicketPriority": 841,
+    "DefaultTicketPriority": 103,
     "TicketPriorities": [
-      854,
-      75
+      474,
+      760
     ],
-    "ReplyTemplate": 203,
+    "ReplyTemplate": 25,
     "IsExternalVisible": false,
     "IsDefault": true,
     "ShowInNew": false,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      59,
-      172
+      724,
+      146
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldType": "System.Int32",
+        "FieldLength": 455
       }
     }
   }

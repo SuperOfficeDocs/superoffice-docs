@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cloned radical parallelism",
-  "Postit": "voluptas",
+  "Description": "Progressive web-enabled complexity",
+  "Postit": "voluptatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 284,
-  "IncludePerson": 605,
+  "GroupIdx": 415,
+  "IncludePerson": 779,
   "MemberCount": 99.99,
-  "Name": "Feeney Group",
-  "PostitTextId": 811,
-  "CreatedDate": "2001-09-11T12:57:34.9302081+02:00",
-  "SelectionId": 469,
-  "SoundEx": "et",
-  "Source": 619,
-  "TextId": 2,
-  "UpdatedDate": "2023-07-03T12:57:34.9302081+02:00",
-  "UpdatedCount": 92,
-  "Visibility": 822,
+  "Name": "Lebsack LLC",
+  "PostitTextId": 186,
+  "CreatedDate": "2004-06-04T04:22:27.6273988+02:00",
+  "SelectionId": 258,
+  "SoundEx": "praesentium",
+  "Source": 426,
+  "TextId": 302,
+  "UpdatedDate": "2015-12-28T04:22:27.6273988+01:00",
+  "UpdatedCount": 222,
+  "Visibility": 558,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 973,
-  "TargetTableName": "West, O'Hara and Schuppe",
-  "Completed": true,
-  "LeftSelectionId": 366,
-  "RightSelectionId": 244,
+  "CompanyUnique": false,
+  "TargetTableNumber": 798,
+  "TargetTableName": "Crona, Russel and Wilderman",
+  "Completed": false,
+  "LeftSelectionId": 697,
+  "RightSelectionId": 689,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Glover Inc and Sons",
-  "ShadowProviderName": "Graham LLC",
-  "ChartKey": "aut",
-  "LastLoaded": "2000-01-11T12:57:34.9302081+01:00",
-  "LastLoadedBy": 792,
+  "MainProviderName": "Hand-Corwin",
+  "ShadowProviderName": "Keebler Group",
+  "ChartKey": "vel",
+  "LastLoaded": "2020-07-16T04:22:27.6273988+02:00",
+  "LastLoadedBy": 174,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-05-03T12:57:34.9302081+02:00",
-  "LastMembershipChangeBy": 185,
+  "LastMembershipChange": "2020-01-03T04:22:27.6273988+01:00",
+  "LastMembershipChangeBy": 160,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rerum",
-  "MemberTabHeading": "consequatur",
-  "MailingsProviderName": "Langosh, Lockman and Senger",
-  "DashboardTileDefinitionId": 773,
+  "MainHeading": "repellat",
+  "MemberTabHeading": "veritatis",
+  "MailingsProviderName": "Reichel, Schmitt and Farrell",
+  "DashboardTileDefinitionId": 872,
   "VisibleFor": [
     {
-      "VisibleId": 64,
+      "VisibleId": 108,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldLength": 993
         }
       }
     },
     {
-      "VisibleId": 64,
+      "VisibleId": 108,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldLength": 993
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldType": "System.String",
+      "FieldLength": 270
     }
   }
 }

@@ -79,25 +79,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 9,
-  "CrmRecordId": 28,
+  "ErpConnectionId": 889,
+  "CrmRecordId": 809,
   "CrmActorType": "Contact",
-  "ErpKey": "tenetur",
+  "ErpKey": "id",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Sipes Inc and Sons",
-      "CrmFieldKey": "quae",
-      "Value": "totam",
-      "DisplayValue": "quis",
+      "DisplayName": "Bashirian, Kulas and Bogan",
+      "CrmFieldKey": "inventore",
+      "Value": "aliquid",
+      "DisplayValue": "blanditiis",
       "SyncToCrm": false,
       "SyncToErp": true
     },
     {
-      "DisplayName": "Sipes Inc and Sons",
-      "CrmFieldKey": "quae",
-      "Value": "totam",
-      "DisplayValue": "quis",
+      "DisplayName": "Bashirian, Kulas and Bogan",
+      "CrmFieldKey": "inventore",
+      "Value": "aliquid",
+      "DisplayValue": "blanditiis",
       "SyncToCrm": false,
       "SyncToErp": true
     }
@@ -111,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

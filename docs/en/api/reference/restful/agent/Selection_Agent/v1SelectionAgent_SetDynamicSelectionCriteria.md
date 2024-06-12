@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 309,
+  "SelectionId": 82,
   "Criteria": [
     {
-      "Name": "Halvorson LLC",
-      "Operator": "doloremque",
+      "Name": "Wiegand-Abshire",
+      "Operator": "consequatur",
       "Values": [
-        "praesentium",
-        "dolorem"
+        "modi",
+        "libero"
       ],
       "DisplayValues": [
-        "iure",
-        "nihil"
+        "recusandae",
+        "repudiandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 429,
+      "InterParenthesis": 770,
       "InterOperator": "And",
-      "UniqueHash": 154
+      "UniqueHash": 789
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dibbert, Price and Botsford",
-    "Operator": "neque",
+    "Name": "Borer-Blanda",
+    "Operator": "fugiat",
     "Values": [
-      "corrupti",
-      "consequatur"
+      "voluptas",
+      "dolorum"
     ],
     "DisplayValues": [
-      "suscipit",
-      "qui"
+      "quo",
+      "ab"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Breitenberg LLC",
-        "Operator": "modi",
+        "Name": "Bosco-Sanford",
+        "Operator": "ratione",
         "Values": [
-          "odio",
-          "tempora"
+          "dolor",
+          "dolorum"
         ],
         "DisplayValues": [
-          "et",
-          "beatae"
+          "consequatur",
+          "odit"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 725,
+        "InterParenthesis": 319,
         "InterOperator": "And",
-        "UniqueHash": 840
+        "UniqueHash": 383
       }
     ],
-    "InterParenthesis": 733,
+    "InterParenthesis": 577,
     "InterOperator": "And",
-    "UniqueHash": 935
+    "UniqueHash": 340
   }
 ]
 ```

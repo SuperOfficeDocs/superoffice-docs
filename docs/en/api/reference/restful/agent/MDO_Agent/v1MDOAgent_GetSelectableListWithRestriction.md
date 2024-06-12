@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stark Group",
-  "AdditionalInfo": "consequatur",
-  "SearchValue": "alias"
+  "Name": "Littel Inc and Sons",
+  "AdditionalInfo": "nulla",
+  "SearchValue": "est"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Brown LLC",
-    "ToolTip": "Ipsam occaecati.",
-    "Deleted": true,
-    "Rank": 70,
-    "Type": "cupiditate",
-    "ColorBlock": 768,
-    "IconHint": "mollitia",
+    "Id": 617,
+    "Name": "King-Parker",
+    "ToolTip": "Eveniet exercitationem doloribus atque reprehenderit.",
+    "Deleted": false,
+    "Rank": 174,
+    "Type": "laborum",
+    "ColorBlock": 664,
+    "IconHint": "in",
     "Selected": true,
-    "LastChanged": "1998-07-13T12:57:34.3835501+02:00",
+    "LastChanged": "2013-08-22T04:22:27.0810055+02:00",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Adams Inc and Sons",
-        "ToolTip": "Qui eum sequi excepturi et exercitationem.",
+        "Id": 590,
+        "Name": "Cruickshank, Considine and Stiedemann",
+        "ToolTip": "Numquam molestiae explicabo occaecati qui.",
         "Deleted": false,
-        "Rank": 338,
-        "Type": "dolorem",
-        "ColorBlock": 373,
-        "IconHint": "praesentium",
+        "Rank": 696,
+        "Type": "quo",
+        "ColorBlock": 897,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2002-08-02T12:57:34.3835501+02:00",
+        "LastChanged": "2014-07-06T04:22:27.0810055+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "quis",
+        "ExtraInfo": "nemo",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Alyson Hahn",
+        "FullName": "Marta Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 97
+            "FieldLength": 820
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "quibusdam",
-    "Hidden": true,
-    "FullName": "Ms. Dillan Orn Sr.",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Ms. Elsa Andres Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 823
       }
     }
   }

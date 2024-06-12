@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "sint",
-    "et"
+    "illo",
+    "cupiditate"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 316,
-    "ResourceId": 243,
-    "Text": "voluptatibus",
+    "LanguageId": 180,
+    "ResourceId": 711,
+    "Text": "voluptatum",
     "Type": "Column",
-    "LocalizedTextId": 737,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 447,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldType": "System.String",
+        "FieldLength": 683
       }
     }
   }

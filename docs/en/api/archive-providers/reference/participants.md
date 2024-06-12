@@ -179,7 +179,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 |isProjectMember|bool|Is project member: This person is a project member|  |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder|  |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow|  |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow|  |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow|  |
 |createdByForm|listAny|Created by form: Created by form|  |
 |email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
 |email/emailAddress|string|E-mail|  |
@@ -246,7 +246,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=simultaneousEjUser,personEmailsInformation,personRegisteredByFullName
+GET /api/v1/archive/Participants?$select=birthDay,emailId,personEmailsInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -29,7 +29,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=877
+GET /api/v1/Person/{personId}/Summary?limit=275
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 197,
-      "TicketStatus": 912,
-      "Title": "distinctio",
-      "Registered": "2012-02-01T12:57:42.5732274+01:00",
-      "IconHint": "dolor"
+      "TicketId": 811,
+      "TicketStatus": 2,
+      "Title": "officia",
+      "Registered": "2007-03-19T04:22:35.1104546+01:00",
+      "IconHint": "deserunt"
     },
     {
-      "TicketId": 197,
-      "TicketStatus": 912,
-      "Title": "distinctio",
-      "Registered": "2012-02-01T12:57:42.5732274+01:00",
-      "IconHint": "dolor"
+      "TicketId": 811,
+      "TicketStatus": 2,
+      "Title": "officia",
+      "Registered": "2007-03-19T04:22:35.1104546+01:00",
+      "IconHint": "deserunt"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 838,
-      "DocumentId": 68,
-      "Date": "2014-01-27T12:57:42.5732274+01:00",
-      "Description": "Networked 24/7 analyzer",
+      "AppointmentId": 691,
+      "DocumentId": 542,
+      "Date": "2002-08-17T04:22:35.1104546+02:00",
+      "Description": "Synchronised background superstructure",
       "Completed": "Completed",
-      "Registered": "2002-03-07T12:57:42.5732274+01:00"
+      "Registered": "2011-04-27T04:22:35.1104546+02:00"
     },
     {
-      "AppointmentId": 838,
-      "DocumentId": 68,
-      "Date": "2014-01-27T12:57:42.5732274+01:00",
-      "Description": "Networked 24/7 analyzer",
+      "AppointmentId": 691,
+      "DocumentId": 542,
+      "Date": "2002-08-17T04:22:35.1104546+02:00",
+      "Description": "Synchronised background superstructure",
       "Completed": "Completed",
-      "Registered": "2002-03-07T12:57:42.5732274+01:00"
+      "Registered": "2011-04-27T04:22:35.1104546+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 456,
-      "DocumentId": 620,
-      "Date": "2004-05-03T12:57:42.5732274+02:00",
-      "Description": "Compatible modular complexity",
+      "AppointmentId": 983,
+      "DocumentId": 218,
+      "Date": "2004-09-26T04:22:35.1104546+02:00",
+      "Description": "Business-focused homogeneous frame",
       "Completed": "Completed",
-      "Registered": "2020-08-23T12:57:42.5732274+02:00"
+      "Registered": "2006-03-27T04:22:35.1104546+02:00"
     },
     {
-      "AppointmentId": 456,
-      "DocumentId": 620,
-      "Date": "2004-05-03T12:57:42.5732274+02:00",
-      "Description": "Compatible modular complexity",
+      "AppointmentId": 983,
+      "DocumentId": 218,
+      "Date": "2004-09-26T04:22:35.1104546+02:00",
+      "Description": "Business-focused homogeneous frame",
       "Completed": "Completed",
-      "Registered": "2020-08-23T12:57:42.5732274+02:00"
+      "Registered": "2006-03-27T04:22:35.1104546+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 558,
-      "SaleDate": "2008-03-28T12:57:42.5732274+01:00",
-      "Probability": 963,
-      "Heading": "maxime",
-      "Amount": 16967.476,
-      "Currency": "libero",
-      "AmountInBaseCurrency": 6214.722,
+      "SaleId": 128,
+      "SaleDate": "2010-11-08T04:22:35.1104546+01:00",
+      "Probability": 724,
+      "Heading": "dolorem",
+      "Amount": 26040.406,
+      "Currency": "sint",
+      "AmountInBaseCurrency": 21308.066,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2017-08-15T12:57:42.5732274+02:00"
+      "Registered": "2018-04-30T04:22:35.1104546+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 123,
-      "Name": "Watsica Inc and Sons",
-      "CompanyName": "Lehner-Bartell",
-      "FirstMessage": "enim",
-      "LastMessage": "ipsa",
-      "WhenRequested": "2002-11-16T12:57:42.5732274+01:00",
-      "WhenEnded": "1997-05-27T12:57:42.5732274+02:00"
+      "ChatSessionId": 682,
+      "Name": "Kilback Inc and Sons",
+      "CompanyName": "McCullough-Wyman",
+      "FirstMessage": "explicabo",
+      "LastMessage": "facere",
+      "WhenRequested": "2012-02-21T04:22:35.1104546+01:00",
+      "WhenEnded": "2006-08-21T04:22:35.1104546+02:00"
     }
   ]
 }

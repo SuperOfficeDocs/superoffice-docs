@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 629,
-  "FieldName": "Cassin Group",
-  "Label": "iure",
-  "Tooltip": "fugit",
+  "QuoteLineConfigurationId": 963,
+  "FieldName": "Koss Inc and Sons",
+  "Label": "voluptatem",
+  "Tooltip": "quas",
   "Editable": true,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 120,
+  "Mandatory": true,
+  "Rank": 495,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldLength": 229
     }
   }
 }

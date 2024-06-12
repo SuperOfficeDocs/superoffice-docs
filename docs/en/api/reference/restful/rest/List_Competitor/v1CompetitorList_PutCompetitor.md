@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Kilback-Bruen",
-  "Tooltip": "exercitationem",
+  "Id": 373,
+  "Name": "Nikolaus Group",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "UdListDefinitionId": 599,
-  "Rank": 968
+  "UdListDefinitionId": 71,
+  "Rank": 652
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Medhurst LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 961,
-  "Rank": 501,
+  "Id": 442,
+  "Name": "Schinner LLC",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "UdListDefinitionId": 48,
+  "Rank": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldLength": 671
     }
   }
 }

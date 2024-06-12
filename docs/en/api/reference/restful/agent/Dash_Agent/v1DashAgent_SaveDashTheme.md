@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 272,
-  "Name": "Predovic LLC",
-  "Config": "accusamus",
-  "Rank": 245,
-  "Client": "rerum",
-  "Style": "voluptatum"
+  "DashboardThemeId": 600,
+  "Name": "DuBuque Inc and Sons",
+  "Config": "rerum",
+  "Rank": 488,
+  "Client": "voluptatum",
+  "Style": "nihil"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 404,
-  "Name": "Sipes Group",
-  "Config": "qui",
-  "Rank": 932,
-  "Client": "sequi",
-  "Style": "voluptate",
+  "DashboardThemeId": 416,
+  "Name": "Monahan Inc and Sons",
+  "Config": "ipsum",
+  "Rank": 735,
+  "Client": "voluptatem",
+  "Style": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 483
     }
   }
 }

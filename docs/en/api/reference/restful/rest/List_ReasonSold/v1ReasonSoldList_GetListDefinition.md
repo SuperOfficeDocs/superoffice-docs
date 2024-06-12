@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 995,
-  "Name": "Pagac LLC",
-  "Tooltip": "et",
+  "Id": 6,
+  "Name": "Powlowski-Dibbert",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 35,
+  "Rank": 824,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 892
     }
   },
   "_Links": {

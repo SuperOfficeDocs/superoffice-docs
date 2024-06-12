@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "quam",
-  "RecordId": 271,
-  "CreatedDate": "1999-12-20T12:57:42.4638774+01:00",
-  "UpdatedDate": "1997-06-25T12:57:42.4638774+02:00",
-  "UpdatedBy": "possimus",
-  "CreatedBy": "ut",
-  "TableName": "Champlin-Klocko"
+  "Key": "aut",
+  "Value": "dolor",
+  "RecordId": 704,
+  "CreatedDate": "2024-02-23T04:22:35.0010854+01:00",
+  "UpdatedDate": "2007-12-31T04:22:35.0010854+01:00",
+  "UpdatedBy": "enim",
+  "CreatedBy": "assumenda",
+  "TableName": "Parisian, Ankunding and Wuckert"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "fuga",
-  "Value": "laborum",
-  "RecordId": 927,
-  "CreatedDate": "2010-05-01T12:57:42.4638774+02:00",
-  "UpdatedDate": "2008-01-01T12:57:42.4638774+01:00",
-  "UpdatedBy": "facere",
-  "CreatedBy": "totam",
-  "TableName": "Leannon LLC",
+  "Key": "quis",
+  "Value": "quia",
+  "RecordId": 610,
+  "CreatedDate": "2004-11-23T04:22:35.0010854+01:00",
+  "UpdatedDate": "2005-11-08T04:22:35.0010854+01:00",
+  "UpdatedBy": "amet",
+  "CreatedBy": "autem",
+  "TableName": "McClure, Parisian and Christiansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 984
     }
   }
 }

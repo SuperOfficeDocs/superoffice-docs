@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 813,
-  "Name": "Zboncak-Ryan",
-  "CurrencyId": 873,
-  "EnglishName": "Block, Hoeger and Dickinson",
+  "CountryId": 986,
+  "Name": "Bradtke-Friesen",
+  "CurrencyId": 639,
+  "EnglishName": "Rempel Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Networked multi-state archive",
-  "OrgNrText": "1161462",
-  "InterAreaPrefix": "facilis",
-  "DialInPrefix": "ullam",
-  "ZipPrefix": "atque",
-  "DomainName": "Cummerata, White and Schinner",
-  "AddressLayoutId": 691,
-  "DomesticAddressLayoutId": 814,
-  "ForeignAddressLayoutId": 468,
-  "Rank": 443,
-  "Tooltip": "esse",
+  "ImageDescription": "Inverse object-oriented benchmark",
+  "OrgNrText": "152998",
+  "InterAreaPrefix": "alias",
+  "DialInPrefix": "dolores",
+  "ZipPrefix": "laudantium",
+  "DomainName": "Ernser-Schaefer",
+  "AddressLayoutId": 542,
+  "DomesticAddressLayoutId": 31,
+  "ForeignAddressLayoutId": 668,
+  "Rank": 408,
+  "Tooltip": "dolorem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

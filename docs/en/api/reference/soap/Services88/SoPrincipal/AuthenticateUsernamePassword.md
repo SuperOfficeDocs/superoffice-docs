@@ -90,7 +90,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISoPrincipalAgent.Authent
       <SoPrincipal:LicenseNumber xsi:type="xsd:int">0</SoPrincipal:LicenseNumber>
       <SoPrincipal:IsHidden xsi:type="xsd:boolean">false</SoPrincipal:IsHidden>
       <SoPrincipal:IsUnrestricted xsi:type="xsd:boolean">false</SoPrincipal:IsUnrestricted>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2024-05-21T10:57:00Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2024-06-05T02:21:48Z</SoPrincipal:ExpiryDate>
      </SoPrincipal:GrantedModuleLicense>
     </SoPrincipal:Licenses>
     <SoPrincipal:FullName xsi:type="xsd:string"></SoPrincipal:FullName>

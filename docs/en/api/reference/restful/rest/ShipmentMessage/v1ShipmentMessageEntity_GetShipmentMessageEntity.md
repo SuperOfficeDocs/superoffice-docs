@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 954,
-  "PlainMessage": "repudiandae",
-  "HtmlMessage": "hic",
-  "SmsMessage": "nostrum",
-  "Description": "Stand-alone tangible benchmark",
-  "Subject": "molestiae",
-  "FolderId": 416,
-  "HeaderField": "quidem",
-  "Design": "veniam",
+  "ShipmentMessageId": 102,
+  "PlainMessage": "molestiae",
+  "HtmlMessage": "sunt",
+  "SmsMessage": "nulla",
+  "Description": "Upgradable high-level open system",
+  "Subject": "numquam",
+  "FolderId": 903,
+  "HeaderField": "et",
+  "Design": "sed",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Compatible system-worthy workforce",
-  "AccessKey": "perspiciatis",
-  "DocumentMessage": 349,
-  "Registered": "2004-12-19T12:57:42.8231706+01:00",
-  "RegisteredAssociateId": 759,
-  "Updated": "2017-04-23T12:57:42.8231706+02:00",
-  "UpdatedAssociateId": 430,
-  "UpdatedCount": 39,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Proactive holistic moratorium",
+  "AccessKey": "et",
+  "DocumentMessage": 1001,
+  "Registered": "2018-05-24T04:22:35.4553554+02:00",
+  "RegisteredAssociateId": 400,
+  "Updated": "2007-07-27T04:22:35.4553554+02:00",
+  "UpdatedAssociateId": 929,
+  "UpdatedCount": 457,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 822
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   },
   "_Links": {

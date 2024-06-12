@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Trantow LLC",
-  "Tooltip": "aut",
+  "Id": 341,
+  "Name": "Hudson-Von",
+  "Tooltip": "provident",
   "Deleted": false,
-  "UdListDefinitionId": 331,
-  "Rank": 917,
+  "UdListDefinitionId": 928,
+  "Rank": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 471
+      "FieldLength": 926
     }
   }
 }

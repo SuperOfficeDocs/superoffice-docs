@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 418,
+  "TicketId": 875,
   "MessageActionType": "Forward",
-  "TicketMessageId": 5,
-  "TicketTypeId": 504
+  "TicketMessageId": 538,
+  "TicketTypeId": 981
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "enim",
+  "Body": "aut",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 177,
-      "Name": "Rice, Lowe and Crist",
-      "ContentType": "deserunt",
-      "AttSize": 582,
-      "InlineImage": false,
-      "ContentId": "culpa",
-      "AuthKey": "perferendis",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 529,
+      "Name": "Grimes LLC",
+      "ContentType": "architecto",
+      "AttSize": 732,
+      "InlineImage": true,
+      "ContentId": "dolor",
+      "AuthKey": "minus",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 114
         }
       }
     }

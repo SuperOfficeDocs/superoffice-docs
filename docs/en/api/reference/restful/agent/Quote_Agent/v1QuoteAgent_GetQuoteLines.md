@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 557
+  "QuoteAlternativeId": 358
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 811,
-    "ERPQuoteLineKey": "sint",
-    "QuoteAlternativeId": 991,
-    "ERPProductKey": "molestiae",
+    "QuoteLineId": 320,
+    "ERPQuoteLineKey": "et",
+    "QuoteAlternativeId": 529,
+    "ERPProductKey": "quia",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 9116.806,
-    "DeliveredQuantity": 25846.097999999998,
-    "Rank": 218,
-    "Name": "Orn-Ortiz",
-    "Description": "Business-focused well-modulated data-warehouse",
-    "Code": "officia",
-    "QuantityUnit": "aut",
-    "PriceUnit": "tempora",
-    "ItemNumber": "329600",
+    "Quantity": 20208.032,
+    "DeliveredQuantity": 14808.15,
+    "Rank": 669,
+    "Name": "Kirlin, DuBuque and Cummerata",
+    "Description": "Fully-configurable eco-centric middleware",
+    "Code": "quia",
+    "QuantityUnit": "neque",
+    "PriceUnit": "quas",
+    "ItemNumber": "1309849",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "assumenda",
-    "ProductTypeKey": "nisi",
-    "Supplier": "architecto",
-    "SupplierCode": "sit",
-    "Thumbnail": "aperiam",
-    "VATInfo": "officiis",
-    "VAT": 10245.046,
-    "UnitCost": 10389.21,
-    "UnitMinimumPrice": 15284.518,
-    "UnitListPrice": 2453.922,
+    "ProductFamilyKey": "commodi",
+    "ProductTypeKey": "vitae",
+    "Supplier": "accusamus",
+    "SupplierCode": "molestiae",
+    "Thumbnail": "consectetur",
+    "VATInfo": "laboriosam",
+    "VAT": 2717.178,
+    "UnitCost": 43.876,
+    "UnitMinimumPrice": 959.004,
+    "UnitListPrice": 10815.434,
     "ExtraInfo": [
       {
-        "Name": "Turner Inc and Sons",
-        "Value": "reiciendis",
+        "Name": "Hauck Inc and Sons",
+        "Value": "beatae",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 482
+            "FieldLength": 446
           }
         }
       },
       {
-        "Name": "Turner Inc and Sons",
-        "Value": "reiciendis",
+        "Name": "Hauck Inc and Sons",
+        "Value": "beatae",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 482
+            "FieldLength": 446
           }
         }
       }
     ],
-    "RawExtraInfo": "labore",
+    "RawExtraInfo": "ut",
     "IsSubscription": true,
-    "SubscriptionUnit": "sint",
-    "SubscriptionQuantity": 4215.23,
-    "SubscriptionStart": "2011-06-23T12:57:34.7584337+02:00",
-    "ERPDiscountPercent": 27497.716,
-    "ERPDiscountAmount": 9527.36,
-    "DiscountPercent": 15930.122,
-    "DiscountAmount": 20226.836,
+    "SubscriptionUnit": "deleniti",
+    "SubscriptionQuantity": 17155.516,
+    "SubscriptionStart": "2024-05-16T04:22:27.4403662+02:00",
+    "ERPDiscountPercent": 4914.112,
+    "ERPDiscountAmount": 27845.59,
+    "DiscountPercent": 27384.892,
+    "DiscountAmount": 10417.416,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 25131.546,
-    "EarningAmount": 2839.404,
-    "SubTotal": 20549.638,
-    "TotalPrice": 22220.059999999998,
-    "Rights": "est",
-    "Rule": "esse",
-    "ExtraField1": "alias",
-    "ExtraField2": "ea",
-    "ExtraField3": "deleniti",
-    "ExtraField4": "quod",
-    "ExtraField5": "temporibus",
+    "EarningPercent": 19951.043999999998,
+    "EarningAmount": 15453.753999999999,
+    "SubTotal": 23746.318,
+    "TotalPrice": 6440.37,
+    "Rights": "repellat",
+    "Rule": "enim",
+    "ExtraField1": "nemo",
+    "ExtraField2": "modi",
+    "ExtraField3": "consectetur",
+    "ExtraField4": "praesentium",
+    "ExtraField5": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldType": "System.Int32",
+        "FieldLength": 535
       }
     }
   }

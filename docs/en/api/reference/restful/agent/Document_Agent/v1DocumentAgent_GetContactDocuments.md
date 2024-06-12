@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 902,
-  "StartTime": "2015-03-02T12:57:33.6961763+01:00",
-  "EndTime": "2015-10-25T12:57:33.6961763+01:00",
-  "Count": 514
+  "ContactId": 487,
+  "StartTime": "2009-06-27T04:22:26.3884781+02:00",
+  "EndTime": "2005-03-15T04:22:26.3884781+01:00",
+  "Count": 760
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 714,
-    "Attention": "laboriosam",
-    "Header": "quis",
-    "Name": "Miller Inc and Sons",
-    "OurRef": "cum",
-    "YourRef": "sit",
-    "Description": "Ergonomic bandwidth-monitored hub",
-    "DocumentTemplate": "ut",
+    "DocumentId": 80,
+    "Attention": "quia",
+    "Header": "fuga",
+    "Name": "Moore, Mills and Hoeger",
+    "OurRef": "animi",
+    "YourRef": "sed",
+    "Description": "Operative real-time paradigm",
+    "DocumentTemplate": "sed",
     "IsPublished": false,
-    "PersonId": 631,
-    "PersonFullName": "Tina Keebler",
-    "AssociateFullName": "Janet Hagenes",
-    "ContactId": 493,
-    "ContactName": "Gottlieb, West and Gutkowski",
-    "ProjectId": 609,
-    "ProjectName": "Monahan, Schmitt and Medhurst",
-    "AssociateId": 889,
-    "Snum": 629,
-    "SaleId": 413,
-    "SaleName": "Hauck, Quigley and Altenwerth",
+    "PersonId": 791,
+    "PersonFullName": "Marlee Klein",
+    "AssociateFullName": "Mrs. Rasheed Sonia Rodriguez DDS",
+    "ContactId": 54,
+    "ContactName": "Cruickshank, Wunsch and Davis",
+    "ProjectId": 466,
+    "ProjectName": "Gerlach, Schaden and Gleason",
+    "AssociateId": 117,
+    "Snum": 972,
+    "SaleId": 583,
+    "SaleName": "Lemke-Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 206
+        "FieldType": "System.Int32",
+        "FieldLength": 749
       }
     }
   }

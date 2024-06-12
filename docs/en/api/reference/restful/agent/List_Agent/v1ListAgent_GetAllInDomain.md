@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": true
+  "Children": false
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 419,
+    "HierarchyId": 438,
     "Domain": "Dashboards",
-    "Name": "Cronin-O'Keefe",
-    "Fullname": "et",
-    "ParentId": 62,
+    "Name": "Kuphal-Willms",
+    "Fullname": "reprehenderit",
+    "ParentId": 469,
     "Children": [
       {
-        "HierarchyId": 653,
+        "HierarchyId": 434,
         "Domain": "Dashboards",
-        "Name": "Miller-Wuckert",
-        "Fullname": "rerum",
-        "ParentId": 516,
+        "Name": "Cummings, Von and Glover",
+        "Fullname": "consequuntur",
+        "ParentId": 49,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2001-12-23T12:57:34.19609+01:00",
-        "RegisteredAssociateId": 101,
-        "Updated": "2017-10-02T12:57:34.19609+02:00",
-        "UpdatedAssociateId": 120,
+        "Registered": "2008-10-10T04:22:27.0173186+02:00",
+        "RegisteredAssociateId": 225,
+        "Updated": "2023-02-09T04:22:27.0173186+01:00",
+        "UpdatedAssociateId": 312,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 584
           }
         }
       }
     ],
-    "Registered": "1998-03-19T12:57:34.19609+01:00",
-    "RegisteredAssociateId": 546,
-    "Updated": "2000-08-14T12:57:34.19609+02:00",
-    "UpdatedAssociateId": 851,
+    "Registered": "2002-05-29T04:22:27.0173186+02:00",
+    "RegisteredAssociateId": 753,
+    "Updated": "2023-05-12T04:22:27.0173186+02:00",
+    "UpdatedAssociateId": 35,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldType": "System.Int32",
+        "FieldLength": 93
       }
     }
   }

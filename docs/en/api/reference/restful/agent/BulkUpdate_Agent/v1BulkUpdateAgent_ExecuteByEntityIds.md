@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "laboriosam",
-      "ValueType": "nam",
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": false,
+      "IsActive": true,
+      "Key": "vel",
+      "ValueType": "natus",
       "Mandatory": true,
-      "EncodedDisplayName": "Bednar Group",
-      "EncodedDisplayDescription": "Customer-focused exuding Graphic Interface",
-      "IconHint": "blanditiis",
+      "EncodedDisplayName": "Fisher-Haley",
+      "EncodedDisplayDescription": "Vision-oriented user-facing portal",
+      "IconHint": "qui",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "et",
-      "EncodedDataCaptionDescription": "Adaptive web-enabled adapter",
-      "CurrentOperationType": "libero",
+      "EncodedDataCaption": "in",
+      "EncodedDataCaptionDescription": "Function-based incremental data-warehouse",
+      "CurrentOperationType": "ut",
       "Values": [
-        "libero",
-        "fugiat"
+        "pariatur",
+        "sit"
       ],
       "DisplayValues": [
-        "rerum",
-        "fugit"
+        "commodi",
+        "quisquam"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Torphy LLC",
-  "Context": "fuga",
-  "Ids": "consequatur"
+  "TableName": "Lakin, Koelpin and Langosh",
+  "Context": "pariatur",
+  "Ids": "iure"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-141
+815
 ```

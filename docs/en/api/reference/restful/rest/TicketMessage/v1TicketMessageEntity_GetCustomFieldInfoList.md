@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Koch Group",
-    "DisplayName": "Morar Inc and Sons",
-    "Description": "Exclusive attitude-oriented initiative",
-    "ShortLabel": "fugiat",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Abshire-Wisozk",
+    "DisplayName": "Cronin Group",
+    "Description": "Multi-lateral impactful encoding",
+    "ShortLabel": "animi",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 918,
-    "TemplateVariableName": "Lehner Inc and Sons"
+    "Rank": 217,
+    "TemplateVariableName": "Kassulke Group"
   }
 ]
 ```

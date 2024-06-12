@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 981,
-    "Comment": "alias",
-    "Registered": "1999-06-07T12:57:42.5576058+02:00",
-    "RegisteredAssociateId": 617,
-    "Updated": "2001-06-26T12:57:42.5576058+02:00",
-    "UpdatedAssociateId": 89,
-    "LegalBaseId": 753,
-    "LegalBaseKey": "blanditiis",
-    "LegalBaseName": "Waelchi Group",
-    "ConsentPurposeId": 552,
-    "ConsentPurposeKey": "in",
-    "ConsentPurposeName": "Lockman-Nikolaus",
-    "ConsentSourceId": 45,
-    "ConsentSourceKey": "voluptatem",
-    "ConsentSourceName": "Leannon LLC",
+    "ConsentPersonId": 642,
+    "Comment": "nihil",
+    "Registered": "2016-10-27T04:22:35.1104546+02:00",
+    "RegisteredAssociateId": 802,
+    "Updated": "2004-07-18T04:22:35.1104546+02:00",
+    "UpdatedAssociateId": 125,
+    "LegalBaseId": 196,
+    "LegalBaseKey": "totam",
+    "LegalBaseName": "Conn-Bergnaum",
+    "ConsentPurposeId": 754,
+    "ConsentPurposeKey": "inventore",
+    "ConsentPurposeName": "Bauch, Huel and Gutmann",
+    "ConsentSourceId": 697,
+    "ConsentSourceKey": "id",
+    "ConsentSourceName": "Haag-Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 125
       }
     }
   }

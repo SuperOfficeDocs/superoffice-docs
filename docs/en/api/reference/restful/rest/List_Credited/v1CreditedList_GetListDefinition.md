@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "Nitzsche Group",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 353,
+  "Id": 898,
+  "Name": "Osinski-Gleichner",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 94,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nisi",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

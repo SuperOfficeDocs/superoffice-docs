@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Prohaska LLC",
-  "Tooltip": "facilis",
+  "Id": 560,
+  "Name": "Pouros Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 94,
-  "Rank": 102
+  "UdListDefinitionId": 244,
+  "Rank": 920
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738,
-  "Name": "Zemlak, Zieme and Mitchell",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "UdListDefinitionId": 416,
-  "Rank": 263,
+  "Id": 690,
+  "Name": "McLaughlin, DuBuque and Nolan",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "UdListDefinitionId": 746,
+  "Rank": 332,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 224
+      "FieldLength": 799
     }
   }
 }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Borer-Kovacek",
-  "DeviceName": "Berge-Ankunding",
-  "DeviceIdentifier": "sit"
+  "ApplicationName": "Feil Inc and Sons",
+  "DeviceName": "Gerlach LLC",
+  "DeviceIdentifier": "dolorem"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 785,
-  "Name": "Christiansen, Maggio and Skiles",
-  "CreatedDate": "2021-06-29T12:57:34.0554972+02:00",
-  "UpdatedDate": "2006-07-25T12:57:34.0554972+02:00",
-  "AssociateFullName": "Theresia Hoeger",
-  "CreatedBy": "aut",
-  "UpdatedBy": "pariatur",
-  "DeviceIdentifier": "reprehenderit",
-  "ForeignAppId": 122,
+  "ForeignDeviceId": 967,
+  "Name": "Grant-Hickle",
+  "CreatedDate": "2021-03-20T04:22:26.8598968+01:00",
+  "UpdatedDate": "2018-12-18T04:22:26.8598968+01:00",
+  "AssociateFullName": "Yoshiko Ransom Deckow PhD",
+  "CreatedBy": "rerum",
+  "UpdatedBy": "autem",
+  "DeviceIdentifier": "rerum",
+  "ForeignAppId": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

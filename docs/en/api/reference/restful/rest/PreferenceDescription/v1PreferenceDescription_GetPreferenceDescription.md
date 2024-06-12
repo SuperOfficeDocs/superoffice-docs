@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 346,
-  "Section": "et",
-  "Key": "ipsam",
-  "Name": "Dach, Streich and Mante",
+  "PrefDescId": 19,
+  "Section": "rerum",
+  "Key": "dicta",
+  "Name": "Cassin Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive optimal projection",
-  "IsBuiltin": false,
-  "TableName": "Beahan-Pollich",
-  "UserDefinedListId": 953,
-  "Rank": 686,
-  "SubGroup": "fuga",
-  "MinLevel": 569,
-  "MaxValue": 253,
-  "MinValue": 371,
-  "RequiredLicense": "perferendis",
+  "Description": "Universal motivating process improvement",
+  "IsBuiltin": true,
+  "TableName": "Quitzon Inc and Sons",
+  "UserDefinedListId": 668,
+  "Rank": 203,
+  "SubGroup": "atque",
+  "MinLevel": 256,
+  "MaxValue": 380,
+  "MinValue": 662,
+  "RequiredLicense": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

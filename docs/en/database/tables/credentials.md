@@ -20,7 +20,7 @@ Alternative credentials
 |associateId|Associate that these credentials iare an alternative identification for|FK [associate](associate.md)| |
 |credentialType|What type of credentials is this|String(254)| |
 |searchName|Searchable (plaintext) representation of credentials|String(254)| |
-|secret|Encrypted secret|String(254)| |
+|secret|Encrypted secret|String(2000)| |
 |validFrom|Start of validity for these credentials|DateTime| |
 |validTo|End of validity for these credentials|DateTime| |
 |isActive|What kind of usage are these credentials for; see enum CredentialUsage for details|Enum [CredentialUsage](enums/credentialusage.md)| |

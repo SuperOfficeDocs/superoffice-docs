@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "fugit"
+  "TriggerScriptUniqueId": "earum"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 142,
-  "Name": "Huel Group",
+  "ScreenChooserId": 715,
+  "Name": "Kuhic LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptate",
-  "Source": "ipsa",
-  "Registered": "2019-02-25T12:57:33.6180694+01:00",
-  "RegisteredAssociateId": 708,
-  "Updated": "2008-03-27T12:57:33.6180694+01:00",
-  "UpdatedAssociateId": 581,
+  "UniqueIdentifier": "et",
+  "Source": "qui",
+  "Registered": "2009-12-06T04:22:26.3246815+01:00",
+  "RegisteredAssociateId": 928,
+  "Updated": "2016-06-29T04:22:26.3246815+02:00",
+  "UpdatedAssociateId": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 84
     }
   }
 }

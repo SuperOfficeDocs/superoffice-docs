@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    237,
-    885
+    467,
+    759
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 396,
-    "Name": "Streich-Rolfson",
-    "Description": "Extended executive frame",
+    "ProjectId": 814,
+    "Name": "Lubowitz, Gibson and Hills",
+    "Description": "Persistent modular success",
     "URL": "http://www.example.com/",
-    "Type": "ex",
-    "AssociateId": 519,
-    "AssociateFullName": "Keshawn Pfeffer",
-    "TypeId": 902,
-    "Updated": "1997-02-23T12:57:34.664705+01:00",
-    "StatusId": 922,
-    "Status": "omnis",
-    "TextId": 98,
-    "PublishTo": "2017-03-06T12:57:34.664705+01:00",
-    "PublishFrom": "2007-11-11T12:57:34.664705+01:00",
-    "IsPublished": true,
+    "Type": "non",
+    "AssociateId": 284,
+    "AssociateFullName": "Lois Torphy",
+    "TypeId": 514,
+    "Updated": "1997-01-19T04:22:27.3466141+01:00",
+    "StatusId": 360,
+    "Status": "neque",
+    "TextId": 366,
+    "PublishTo": "2005-09-03T04:22:27.3466141+02:00",
+    "PublishFrom": "1997-09-30T04:22:27.3466141+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1658567",
-    "ActiveErpLinks": 209,
+    "ProjectNumber": "1306833",
+    "ActiveErpLinks": 139,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 397,
-  "Name": "Spencer, Kuhn and Hammes",
+  "WebhookId": 366,
+  "Name": "Stiedemann-Senger",
   "Events": [
-    "corrupti",
-    "eveniet"
+    "vitae",
+    "quibusdam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "magni",
+  "Secret": "minima",
   "State": "Active",
-  "Type": "repellendus",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "et"
+    "Headers1": "dolores",
+    "Headers2": "porro"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-05-28T12:57:43.2770971+02:00",
+  "Registered": "2005-07-13T04:22:35.7678517+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-01-03T12:57:43.2770971+01:00",
+  "Updated": "2023-05-20T04:22:35.7678517+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "brown@kutch.info"
+  "ErrorsEmail": "sofia.runolfsdottir@runtegibson.us"
 }
 ```
 
@@ -139,28 +139,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 799,
-  "Name": "Bednar, Kemmer and Bode",
+  "WebhookId": 273,
+  "Name": "Schowalter-Nikolaus",
   "Events": [
-    "non",
-    "a"
+    "minima",
+    "velit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "libero",
+  "Secret": "repellat",
   "State": "Active",
-  "Type": "nihil",
+  "Type": "dolorem",
   "Headers": {
-    "Headers1": "amet",
-    "Headers2": "voluptatem"
+    "Headers1": "blanditiis",
+    "Headers2": "quos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-03-17T12:57:43.2770971+01:00",
+  "Registered": "2004-12-08T04:22:35.7678517+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-04-04T12:57:43.2770971+02:00",
+  "Updated": "2021-02-11T04:22:35.7678517+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "kenyatta.schaefer@jaskolski.uk",
+  "ErrorsEmail": "ruthie@framistreich.com",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

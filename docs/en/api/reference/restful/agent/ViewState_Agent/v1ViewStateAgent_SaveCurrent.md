@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 748,
-  "Id": 558,
-  "HistoryName": "Veum-Connelly",
-  "HistoryId": 711,
-  "AssociateId": 1001,
-  "Name": "Krajcik LLC",
-  "ItemInfo": "asperiores",
+  "Rank": 122,
+  "Id": 141,
+  "HistoryName": "Toy, Farrell and Paucek",
+  "HistoryId": 759,
+  "AssociateId": 831,
+  "Name": "Hirthe-Kassulke",
+  "ItemInfo": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   }
 }

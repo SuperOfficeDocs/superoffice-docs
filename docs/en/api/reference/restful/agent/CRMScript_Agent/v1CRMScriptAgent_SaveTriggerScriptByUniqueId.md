@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "odit",
+  "TriggerScriptUniqueId": "aut",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 413,
-  "Name": "Reichert-Skiles",
+  "ScreenChooserId": 741,
+  "Name": "Upton Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quos",
-  "Source": "nihil",
-  "Registered": "2003-05-09T12:57:33.6336908+02:00",
-  "RegisteredAssociateId": 683,
-  "Updated": "2010-07-03T12:57:33.6336908+02:00",
-  "UpdatedAssociateId": 594,
+  "UniqueIdentifier": "voluptates",
+  "Source": "neque",
+  "Registered": "2010-09-12T04:22:26.3246815+02:00",
+  "RegisteredAssociateId": 336,
+  "Updated": "2003-02-04T04:22:26.3246815+01:00",
+  "UpdatedAssociateId": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Gusikowski-Kris",
-    "ToolTip": "Exercitationem consectetur in quia officia.",
-    "Deleted": true,
-    "Rank": 250,
-    "Type": "quae",
+    "Id": 364,
+    "Name": "Hintz-Steuber",
+    "ToolTip": "Qui rem.",
+    "Deleted": false,
+    "Rank": 905,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Walker-Dickinson",
-        "ToolTip": "Consequuntur aut voluptas ratione.",
-        "Deleted": true,
-        "Rank": 944,
-        "Type": "ex",
+        "Id": 294,
+        "Name": "Spinka, Green and Witting",
+        "ToolTip": "Veritatis qui consequatur accusamus sapiente.",
+        "Deleted": false,
+        "Rank": 45,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "excepturi",
-        "ColorBlock": 729,
-        "ExtraInfo": "dolore",
-        "StyleHint": "a",
-        "FullName": "Gracie Bosco",
+        "IconHint": "magnam",
+        "ColorBlock": 403,
+        "ExtraInfo": "ipsa",
+        "StyleHint": "est",
+        "FullName": "Prof. Thad Carter I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 166
+            "FieldLength": 680
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 879,
-    "ExtraInfo": "nihil",
-    "StyleHint": "ex",
-    "FullName": "Miss Collin Abigale Reynolds",
+    "IconHint": "dicta",
+    "ColorBlock": 22,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "non",
+    "FullName": "Kathleen Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 959
+        "FieldType": "System.Int32",
+        "FieldLength": 931
       }
     }
   }

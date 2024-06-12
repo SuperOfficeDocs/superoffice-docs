@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 778,
-    "Name": "Heller LLC",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 759,
-    "UdListDefinitionId": 904,
+    "HeadingId": 353,
+    "Name": "Ondricka, Turcotte and Lebsack",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "Rank": 612,
+    "UdListDefinitionId": 566,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 626
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Morissette-Kuvalis",
-  "Comment": "quis",
-  "StakeholderRoleId": 874,
-  "CountryId": 164,
-  "PersonId": 503,
-  "EmailDescription": "eden@bashirian.uk",
-  "EmailId": 323,
-  "EmailAddress": "francesco_bernhard@moenschimmel.ca",
-  "PhoneId": 160,
-  "ContactName": "Padberg, Waelchi and Terry",
-  "ContactId": 325,
-  "SaleId": 530,
-  "Mrmrs": "ut",
-  "Firstname": "Kiera",
-  "MiddleName": "Koepp Group",
-  "Lastname": "Bode",
-  "SaleStakeholderId": 156,
-  "Rank": 163,
-  "Phone": "702-436-3542 x3908",
+  "StakeholderRoleName": "Erdman-Maggio",
+  "Comment": "veritatis",
+  "StakeholderRoleId": 907,
+  "CountryId": 410,
+  "PersonId": 251,
+  "EmailDescription": "pearl.thiel@howe.name",
+  "EmailId": 376,
+  "EmailAddress": "chanel@friesen.name",
+  "PhoneId": 81,
+  "ContactName": "Fritsch Inc and Sons",
+  "ContactId": 261,
+  "SaleId": 337,
+  "Mrmrs": "adipisci",
+  "Firstname": "Sarah",
+  "MiddleName": "Schaden-Rath",
+  "Lastname": "Crist",
+  "SaleStakeholderId": 956,
+  "Rank": 264,
+  "Phone": "339.072.2761 x98564",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldType": "System.String",
+      "FieldLength": 310
     }
   }
 }

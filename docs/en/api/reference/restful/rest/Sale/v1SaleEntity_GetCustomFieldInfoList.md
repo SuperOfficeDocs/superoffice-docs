@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Walter Inc and Sons",
-    "DisplayName": "Ledner, Hermiston and Stokes",
-    "Description": "Balanced secondary secured line",
-    "ShortLabel": "ipsa",
+    "FieldName": "Daugherty LLC",
+    "DisplayName": "Hodkiewicz Group",
+    "Description": "Mandatory discrete benchmark",
+    "ShortLabel": "omnis",
     "HideLabel": true,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 758,
-    "TemplateVariableName": "Bayer Group"
+    "IsDisplayField": false,
+    "Rank": 38,
+    "TemplateVariableName": "Reynolds-Doyle"
   }
 ]
 ```

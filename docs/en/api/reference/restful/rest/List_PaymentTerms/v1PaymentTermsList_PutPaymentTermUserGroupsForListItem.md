@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Fisher, Dooley and Hirthe",
-    "ToolTip": "Alias recusandae.",
-    "Deleted": true,
-    "Rank": 913,
-    "Type": "porro",
-    "ColorBlock": 257,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2011-08-04T12:57:43.5270395+02:00",
+    "Id": 434,
+    "Name": "Johnston Group",
+    "ToolTip": "Explicabo in ea fuga molestiae et molestiae.",
+    "Deleted": false,
+    "Rank": 923,
+    "Type": "expedita",
+    "ColorBlock": 136,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2007-05-24T04:22:35.9872165+02:00",
     "ChildItems": [
       {
-        "Id": 147,
-        "Name": "O'Hara, Breitenberg and Schroeder",
-        "ToolTip": "Aperiam repellendus dolore quo necessitatibus excepturi officiis.",
+        "Id": 983,
+        "Name": "Kovacek, Jacobs and Dare",
+        "ToolTip": "Quidem non.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "odit",
-        "ColorBlock": 56,
-        "IconHint": "incidunt",
+        "Rank": 88,
+        "Type": "quaerat",
+        "ColorBlock": 560,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2004-11-24T12:57:43.5270395+01:00",
+        "LastChanged": "2002-03-31T04:22:35.9872165+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "atque",
+        "ExtraInfo": "ratione",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Elna Blick"
+        "FullName": "Ms. Niko Hane MD"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "quia",
+    "ExtraInfo": "harum",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Elmo Pagac"
+    "FullName": "Aleen Altenwerth"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Considine-Wilderman",
-    "ToolTip": "Sit est consequatur.",
+    "Id": 920,
+    "Name": "Sipes-Bergnaum",
+    "ToolTip": "Totam unde recusandae quis molestias iusto ut.",
     "Deleted": false,
-    "Rank": 137,
-    "Type": "recusandae",
-    "ColorBlock": 180,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "2008-06-12T12:57:43.5270395+02:00",
+    "Rank": 546,
+    "Type": "voluptas",
+    "ColorBlock": 11,
+    "IconHint": "natus",
+    "Selected": true,
+    "LastChanged": "2013-04-16T04:22:36.0028417+02:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Schmidt LLC",
-        "ToolTip": "Qui illum totam ipsa modi.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "fuga",
-        "ColorBlock": 761,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2011-06-14T12:57:43.5270395+02:00",
+        "Id": 552,
+        "Name": "Renner-Herzog",
+        "ToolTip": "Ratione quod architecto.",
+        "Deleted": false,
+        "Rank": 542,
+        "Type": "laborum",
+        "ColorBlock": 530,
+        "IconHint": "vero",
+        "Selected": false,
+        "LastChanged": "2023-10-08T04:22:36.0028417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "iure",
+        "ExtraInfo": "nam",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Greyson Lubowitz",
+        "FullName": "Rick Funk PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 252
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "dolores",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Deon Leopoldo Lakin DVM",
+    "FullName": "Miss Lafayette Travis Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 782
       }
     }
   }

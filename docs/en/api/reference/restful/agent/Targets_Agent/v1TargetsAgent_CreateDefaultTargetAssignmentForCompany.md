@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 805,
+  "TargetAssignmentInfoId": 451,
   "Values": [
-    484,
-    413
+    317,
+    117
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 628,
-  "DimensionListItemDisplayName": "Veum LLC",
+  "DimensionListItem": 29,
+  "DimensionListItemDisplayName": "Grant-Runolfsson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   }
 }

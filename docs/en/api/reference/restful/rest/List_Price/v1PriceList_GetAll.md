@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=sit
-GET /api/v1/Pricelist?$top=878
-GET /api/v1/Pricelist?$skip=35
+GET /api/v1/Pricelist?$entities=deleniti
+GET /api/v1/Pricelist?$top=516
+GET /api/v1/Pricelist?$skip=936
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=nihil
+GET /api/v1/Pricelist?$context=voluptas
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "autem",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 8865,
+      "PrimaryKey": 4440,
       "EntityName": "sale",
-      "saleId": 8865,
-      "contactId": 506,
-      "name": "Wiza-Kulas"
+      "saleId": 4440,
+      "contactId": 8448,
+      "name": "Quitzon, Wiza and Schoen"
     },
     {
-      "PrimaryKey": 1356,
+      "PrimaryKey": 5793,
       "EntityName": "sale",
-      "saleId": 1356,
-      "contactId": 4301,
-      "name": "Hartmann, McLaughlin and Kautzer"
+      "saleId": 5793,
+      "contactId": 2616,
+      "name": "Wisoky LLC"
     }
   ]
 }

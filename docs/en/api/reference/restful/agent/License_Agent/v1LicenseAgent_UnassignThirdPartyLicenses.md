@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 727,
-  "ModuleOwner": "similique",
+  "AssociateId": 221,
+  "ModuleOwner": "minima",
   "ModuleLicenseNames": [
-    "Kub, Johnson and Gutkowski",
-    "Borer Inc and Sons"
+    "Funk Group",
+    "Bechtelar LLC"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 86,
-    "Tooltip": "fugiat",
+    "Total": 981,
+    "Tooltip": "consectetur",
     "CanAssign": true,
-    "Free": 376,
-    "InUse": 406,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 701,
-    "Name": "Bogan-Schmitt",
-    "Description": "Stand-alone directional attitude",
-    "PrerequisiteModuleName": "Schowalter, Erdman and Botsford",
-    "SortOrder": 478,
-    "ExtraFlags": 48,
+    "Free": 283,
+    "InUse": 348,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 293,
+    "Name": "Towne, Kling and Emmerich",
+    "Description": "Exclusive methodical emulation",
+    "PrerequisiteModuleName": "Ziemann Inc and Sons",
+    "SortOrder": 766,
+    "ExtraFlags": 491,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 160
       }
     }
   }

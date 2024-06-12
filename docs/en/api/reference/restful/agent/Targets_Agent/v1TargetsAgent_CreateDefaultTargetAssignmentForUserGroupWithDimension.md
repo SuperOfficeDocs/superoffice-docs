@@ -86,8 +86,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 23,
-  "TargetDimensionId": 275
+  "UserGroupId": 964,
+  "TargetDimensionId": 930
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 243,
+    "TargetAssignmentInfoId": 181,
     "Values": [
-      939,
-      729
+      989,
+      896
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 562,
-    "DimensionListItemDisplayName": "Moen-Cartwright",
+    "DimensionListItem": 478,
+    "DimensionListItemDisplayName": "Barrows, Hagenes and Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

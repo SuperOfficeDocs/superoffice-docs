@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 36,
-  "Rank": 720,
-  "DefaultTask": 294,
-  "DefaultTaskText": "qui",
-  "IsVisual": false,
-  "LastGenerated": "2006-08-01T12:57:34.7896763+02:00",
-  "Description": "Realigned scalable flexibility",
-  "Name": "O'Reilly-Hintz",
-  "StatusMonitorId": 606,
-  "PictureId": 566,
-  "NeedsUpdate": false,
+  "OwnerTable": 21,
+  "Rank": 605,
+  "DefaultTask": 519,
+  "DefaultTaskText": "soluta",
+  "IsVisual": true,
+  "LastGenerated": "2014-05-05T04:22:27.4788585+02:00",
+  "Description": "Mandatory directional installation",
+  "Name": "Jacobs-Heathcote",
+  "StatusMonitorId": 246,
+  "PictureId": 437,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 229,
-  "NumNeedUpdate": 334,
-  "GenerationStart": "2023-07-03T12:57:34.7896763+02:00",
+  "NumMatches": 902,
+  "NumNeedUpdate": 878,
+  "GenerationStart": "2022-02-20T04:22:27.4788585+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 470
     }
   }
 }

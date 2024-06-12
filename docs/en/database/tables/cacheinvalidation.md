@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# CacheInvalidation Table (522)
+# CacheInvalidation Table (524)
 
 Names and generation numbers for distributed invalidation of caches
 

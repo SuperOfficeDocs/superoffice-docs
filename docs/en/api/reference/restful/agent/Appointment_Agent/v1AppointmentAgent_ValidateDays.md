@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "maiores",
-    "velit"
+    "optio",
+    "rerum"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-01-05T12:57:32.8990255+01:00",
+    "Date": "2015-04-21T04:22:25.809066+02:00",
     "IsConflict": true,
-    "Description": "Customizable analyzing portal",
-    "DescriptionStyleHint": "Self-enabling context-sensitive database",
-    "Tooltip": "excepturi"
+    "Description": "Managed modular concept",
+    "DescriptionStyleHint": "Configurable human-resource concept",
+    "Tooltip": "ut"
   },
   {
-    "Date": "2005-01-05T12:57:32.8990255+01:00",
+    "Date": "2015-04-21T04:22:25.809066+02:00",
     "IsConflict": true,
-    "Description": "Customizable analyzing portal",
-    "DescriptionStyleHint": "Self-enabling context-sensitive database",
-    "Tooltip": "excepturi"
+    "Description": "Managed modular concept",
+    "DescriptionStyleHint": "Configurable human-resource concept",
+    "Tooltip": "ut"
   }
 ]
 ```

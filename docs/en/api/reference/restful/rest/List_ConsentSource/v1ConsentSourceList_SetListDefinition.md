@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "Sporer Inc and Sons",
-  "Tooltip": "optio",
+  "Id": 315,
+  "Name": "Maggio-Veum",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 278,
+  "Rank": 379,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Gutmann LLC",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "Rank": 388,
-  "IsCustomList": false,
+  "Id": 551,
+  "Name": "Tremblay-Mraz",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "Rank": 726,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldLength": 195
     }
   }
 }

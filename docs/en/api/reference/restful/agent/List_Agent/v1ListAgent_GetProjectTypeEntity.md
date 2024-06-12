@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=816
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=305
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 84,
-  "Name": "Stamm-Fadel",
-  "Tooltip": "non",
-  "Rank": 212,
+  "ProjTypeId": 927,
+  "Name": "Sipes-Feil",
+  "Tooltip": "aut",
+  "Rank": 123,
   "DurationUnit": "Century",
-  "ProjectDuration": 418,
+  "ProjectDuration": 125,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 390,
-      "Name": "Osinski-Lebsack",
-      "ToolTip": "Neque esse eligendi dolor dolores.",
+      "Id": 147,
+      "Name": "Jaskolski-Larson",
+      "ToolTip": "Laborum quia ex rerum eveniet distinctio explicabo.",
       "Deleted": false,
-      "Rank": 545,
-      "Type": "eaque",
-      "ColorBlock": 826,
-      "IconHint": "rerum",
-      "Selected": true,
-      "LastChanged": "2004-04-18T12:57:34.117983+02:00",
+      "Rank": 996,
+      "Type": "beatae",
+      "ColorBlock": 778,
+      "IconHint": "molestiae",
+      "Selected": false,
+      "LastChanged": "2010-08-19T04:22:26.9380271+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "rem",
+      "ExtraInfo": "suscipit",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Derrick Grady",
+      "FullName": "Colin Brakus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 489
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldLength": 787
     }
   }
 }

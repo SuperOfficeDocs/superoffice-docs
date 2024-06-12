@@ -28,7 +28,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=454
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=425
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,20 +86,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 674,
-  "AppointmentId": 617,
-  "ProjectId": 150,
-  "SaleId": 24,
+  "DocumentId": 38,
+  "AppointmentId": 261,
+  "ProjectId": 680,
+  "SaleId": 547,
   "Archived": false,
-  "ArchivedAt": "2005-04-26T12:57:33.899292+02:00",
-  "ArchivedBy": 944,
-  "ArchivedDisplayName": "Hilpert, Braun and Jenkins",
+  "ArchivedAt": "2007-08-12T04:22:26.7022333+02:00",
+  "ArchivedBy": 60,
+  "ArchivedDisplayName": "Bergnaum, Ortiz and Paucek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   }
 }

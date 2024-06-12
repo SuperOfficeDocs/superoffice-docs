@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
-  "Name": "Bradtke-Bogisich",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "Rank": 803,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 60,
+  "Name": "Lindgren, Casper and Ullrich",
+  "Tooltip": "ipsum",
+  "Deleted": false,
+  "Rank": 618,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Kuhlman-Homenick",
-  "Tooltip": "ut",
+  "Id": 451,
+  "Name": "Carter Inc and Sons",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "Rank": 99,
+  "Rank": 192,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "odit",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "provident",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 530
     }
   }
 }

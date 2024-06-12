@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Smith Inc and Sons",
-    "ToolTip": "Tempore quidem repellat quo itaque dicta repellendus nobis.",
-    "Deleted": true,
-    "Rank": 372,
-    "Type": "adipisci",
-    "ColorBlock": 110,
-    "IconHint": "reiciendis",
+    "Id": 676,
+    "Name": "Welch-Zieme",
+    "ToolTip": "Repellendus qui dolor labore sunt dolores rerum.",
+    "Deleted": false,
+    "Rank": 326,
+    "Type": "sit",
+    "ColorBlock": 817,
+    "IconHint": "enim",
     "Selected": true,
-    "LastChanged": "1997-04-01T12:57:43.4176894+02:00",
+    "LastChanged": "2023-06-15T04:22:35.8934712+02:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Gutkowski-Lockman",
-        "ToolTip": "Minima quisquam iste.",
+        "Id": 253,
+        "Name": "Mosciski-Parker",
+        "ToolTip": "Omnis voluptatum.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "laboriosam",
-        "ColorBlock": 370,
-        "IconHint": "accusantium",
+        "Rank": 755,
+        "Type": "odit",
+        "ColorBlock": 345,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2009-01-30T12:57:43.4176894+01:00",
+        "LastChanged": "2009-11-20T04:22:35.8934712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Prof. Jaylon Kiehn DVM"
+        "ExtraInfo": "non",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Janice Vandervort"
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Kailee Von"
+    "ExtraInfo": "mollitia",
+    "StyleHint": "eligendi",
+    "Hidden": false,
+    "FullName": "Shanon Walker"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Kuhic Group",
-    "ToolTip": "Atque alias.",
+    "Id": 309,
+    "Name": "Huel, Kiehn and Cassin",
+    "ToolTip": "Amet explicabo rerum est ipsa ut.",
     "Deleted": true,
-    "Rank": 204,
-    "Type": "voluptatem",
-    "ColorBlock": 371,
-    "IconHint": "id",
+    "Rank": 196,
+    "Type": "cum",
+    "ColorBlock": 312,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2013-04-23T12:57:43.4176894+02:00",
+    "LastChanged": "2007-11-06T04:22:35.9090937+01:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Lowe-Pacocha",
-        "ToolTip": "Fugiat nostrum eos dolorem numquam magni.",
+        "Id": 35,
+        "Name": "Turcotte, Jacobs and O'Kon",
+        "ToolTip": "Tempora consectetur corporis eos est dicta ex.",
         "Deleted": false,
-        "Rank": 213,
-        "Type": "id",
-        "ColorBlock": 829,
-        "IconHint": "porro",
+        "Rank": 694,
+        "Type": "sed",
+        "ColorBlock": 872,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2001-01-20T12:57:43.4176894+01:00",
+        "LastChanged": "2001-04-25T04:22:35.9090937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Cydney Turner Larson PhD",
+        "ExtraInfo": "ut",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Betsy Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 905
+            "FieldType": "System.Int32",
+            "FieldLength": 945
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "culpa",
-    "Hidden": false,
-    "FullName": "Milford McCullough",
+    "ExtraInfo": "et",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Miss Cathy Michele Raynor MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldType": "System.Int32",
+        "FieldLength": 451
       }
     }
   }

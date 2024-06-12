@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 57,
-  "Name": "Brakus, Rosenbaum and Zieme",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 900,
+  "Id": 5,
+  "Name": "Beier-Cole",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "Rank": 309,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "a",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Goldner, Kihn and Ritchie",
-  "Tooltip": "quibusdam",
+  "Id": 917,
+  "Name": "D'Amore, Cruickshank and Goyette",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 332,
-  "IsCustomList": true,
+  "Rank": 68,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 458
     }
   }
 }

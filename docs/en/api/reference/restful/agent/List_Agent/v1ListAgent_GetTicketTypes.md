@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,38 +92,38 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 595,
-    "Name": "Aufderhar, Stoltenberg and Wilkinson",
-    "Rank": 841,
-    "Tooltip": "aut",
-    "Icon": "quibusdam",
-    "DefaultTicketStatus": 665,
+    "TicketTypeId": 302,
+    "Name": "Ondricka, Reichert and Trantow",
+    "Rank": 799,
+    "Tooltip": "in",
+    "Icon": "ad",
+    "DefaultTicketStatus": 171,
     "TicketStatuses": [
-      151,
-      126
+      506,
+      292
     ],
-    "DefaultTicketPriority": 901,
+    "DefaultTicketPriority": 777,
     "TicketPriorities": [
-      418,
-      992
+      200,
+      581
     ],
-    "ReplyTemplate": 23,
-    "IsExternalVisible": false,
+    "ReplyTemplate": 796,
+    "IsExternalVisible": true,
     "IsDefault": false,
     "ShowInNew": false,
     "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
+    "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      764,
-      960
+      471,
+      238
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 20
       }
     }
   }

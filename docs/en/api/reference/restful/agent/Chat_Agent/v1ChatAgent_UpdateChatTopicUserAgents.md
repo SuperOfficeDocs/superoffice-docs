@@ -77,26 +77,26 @@ OK
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 404,
+  "ChatTopicId": 648,
   "Useragents": [
     {
-      "TopicId": 309,
+      "TopicId": 661,
       "User": null,
       "CanListen": false,
-      "CanRespond": false,
-      "CanManage": true,
+      "CanRespond": true,
+      "CanManage": false,
       "CanNotify": false
     },
     {
-      "TopicId": 309,
+      "TopicId": 661,
       "User": null,
       "CanListen": false,
-      "CanRespond": false,
-      "CanManage": true,
+      "CanRespond": true,
+      "CanManage": false,
       "CanNotify": false
     }
   ]
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 388,
+    "TopicId": 185,
     "User": null,
-    "CanListen": false,
-    "CanRespond": false,
-    "CanManage": true,
-    "CanNotify": true
+    "CanListen": true,
+    "CanRespond": true,
+    "CanManage": false,
+    "CanNotify": false
   },
   {
-    "TopicId": 388,
+    "TopicId": 185,
     "User": null,
-    "CanListen": false,
-    "CanRespond": false,
-    "CanManage": true,
-    "CanNotify": true
+    "CanListen": true,
+    "CanRespond": true,
+    "CanManage": false,
+    "CanNotify": false
   }
 ]
 ```

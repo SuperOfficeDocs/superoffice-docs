@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 459,
-  "Name": "Simonis-Wolf",
-  "Tooltip": "quaerat",
+  "Id": 972,
+  "Name": "Rosenbaum, Okuneva and Schaden",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "UdListDefinitionId": 909,
-  "Rank": 712,
+  "UdListDefinitionId": 528,
+  "Rank": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

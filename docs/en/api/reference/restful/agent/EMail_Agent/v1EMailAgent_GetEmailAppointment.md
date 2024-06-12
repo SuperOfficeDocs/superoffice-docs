@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 753
+  "MailItemId": 565
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "totam",
-    "tempore"
+    "aliquid",
+    "distinctio"
   ],
-  "Comment": "quibusdam",
-  "Sequence": 643,
-  "DtStart": "2000-03-25T12:57:33.8836618+01:00",
-  "DtEnd": "2004-02-06T12:57:33.8836618+01:00",
+  "Comment": "enim",
+  "Sequence": 875,
+  "DtStart": "2009-05-30T04:22:26.7022333+02:00",
+  "DtEnd": "2001-06-07T04:22:26.7022333+02:00",
   "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldLength": 771
     }
   }
 }

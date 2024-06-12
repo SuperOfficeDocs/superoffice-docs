@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Walsh, Little and Boyle",
-    "Kuhn Inc and Sons"
+    "Medhurst, Becker and Crist",
+    "Strosin, Becker and Grady"
   ],
-  "Culture": "fugiat",
+  "Culture": "ex",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Gusikowski LLC",
-    "ResourceValue": "vitae",
-    "Culture": "et",
+    "ResourceName": "Nitzsche, Pfannerstill and Moore",
+    "ResourceValue": "est",
+    "Culture": "doloribus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 352
       }
     }
   },
   {
-    "ResourceName": "Gusikowski LLC",
-    "ResourceValue": "vitae",
-    "Culture": "et",
+    "ResourceName": "Nitzsche, Pfannerstill and Moore",
+    "ResourceValue": "est",
+    "Culture": "doloribus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 352
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Hand, Koss and Stamm",
-    "ToolTip": "At autem nesciunt.",
+    "Id": 945,
+    "Name": "Schroeder-Bogan",
+    "ToolTip": "Ad dolore nesciunt quas exercitationem saepe.",
     "Deleted": false,
-    "Rank": 497,
-    "Type": "sit",
-    "ColorBlock": 128,
-    "IconHint": "molestiae",
+    "Rank": 626,
+    "Type": "non",
+    "ColorBlock": 425,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-08-03T12:57:43.7457393+02:00",
+    "LastChanged": "2008-07-22T04:22:36.1903389+02:00",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Reilly-Towne",
-        "ToolTip": "Autem et quisquam quidem consequuntur dolore illo.",
-        "Deleted": true,
-        "Rank": 461,
-        "Type": "voluptatibus",
-        "ColorBlock": 841,
-        "IconHint": "quam",
+        "Id": 784,
+        "Name": "Senger-Robel",
+        "ToolTip": "Consequatur enim aut quas.",
+        "Deleted": false,
+        "Rank": 796,
+        "Type": "officiis",
+        "ColorBlock": 622,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "2003-08-07T12:57:43.7457393+02:00",
+        "LastChanged": "2008-02-12T04:22:36.1903389+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "ipsa",
-        "Hidden": false,
-        "FullName": "Dovie Victor Reinger IV",
+        "ExtraInfo": "tempore",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Genesis Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldLength": 277
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "ab",
+    "ExtraInfo": "est",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Lorenz Ryder Cassin IV",
+    "FullName": "Dr. Don Haven Zboncak IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 664
       }
     }
   }

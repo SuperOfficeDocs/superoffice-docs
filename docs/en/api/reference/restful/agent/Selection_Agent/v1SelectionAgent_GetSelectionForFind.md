@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Wolff, Breitenberg and Ward",
-  "TypicalSearchId": 6
+  "EntityName": "Schimmel-Kris",
+  "TypicalSearchId": 602
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bechtelar Inc and Sons",
-  "SelectionId": 369,
+  "ProviderName": "Veum, Green and Schneider",
+  "SelectionId": 723,
   "CanSaveAsSelection": false,
-  "MainHeading": "qui",
-  "FilterScreenHeading": "laudantium",
-  "SelectionEntityHeading": "ea",
+  "MainHeading": "aliquam",
+  "FilterScreenHeading": "ullam",
+  "SelectionEntityHeading": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldLength": 69
     }
   }
 }

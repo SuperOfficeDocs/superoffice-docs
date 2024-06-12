@@ -87,37 +87,37 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Simonis, Quitzon and Streich",
-  "Context": "et",
+  "ProviderName": "Cummerata, O'Conner and Weissnat",
+  "Context": "quia",
   "DesiredEntities": [
-    "architecto",
-    "sit"
+    "vel",
+    "aut"
   ],
   "Columns": [
-    "dolor",
-    "vel"
+    "aut",
+    "tempore"
   ],
   "SortOrder": [
     {
-      "Name": "Christiansen-Koelpin",
+      "Name": "Hagenes-Schmitt",
       "Direction": "ASC"
     },
     {
-      "Name": "Christiansen-Koelpin",
+      "Name": "Hagenes-Schmitt",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Collins, Hilpert and Altenwerth",
-      "Operator": "consequuntur",
+      "Name": "Schneider, Gutkowski and Boyer",
+      "Operator": "sed",
       "Values": [
-        "doloremque",
-        "adipisci"
+        "blanditiis",
+        "maxime"
       ],
       "DisplayValues": [
-        "exercitationem",
-        "est"
+        "minima",
+        "beatae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 257,
+      "InterParenthesis": 6,
       "InterOperator": "And",
-      "UniqueHash": 814
+      "UniqueHash": 425
     }
   ],
-  "ExportType": "beatae",
+  "ExportType": "aliquid",
   "SelectedRowIds": [
-    "fugiat",
-    "sit"
+    "quia",
+    "doloremque"
   ],
-  "EstimatedRowCount": 767
+  "EstimatedRowCount": 331
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 423,
-  "FileName": "Murazik, Hoeger and Swaniawski",
-  "Message": "ad",
+  "BatchTaskId": 256,
+  "FileName": "Rath, Connelly and Sanford",
+  "Message": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldLength": 802
     }
   }
 }

@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 402
+  "ProjectId": 859
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable directional protocol",
-  "Postit": "id",
+  "Description": "Seamless well-modulated analyzer",
+  "Postit": "in",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 358,
-  "IncludePerson": 975,
+  "GroupIdx": 971,
+  "IncludePerson": 186,
   "MemberCount": 99.99,
-  "Name": "Reichert Inc and Sons",
-  "PostitTextId": 983,
-  "CreatedDate": "2006-03-23T12:57:34.9302081+01:00",
-  "SelectionId": 109,
-  "SoundEx": "illo",
-  "Source": 421,
-  "TextId": 444,
-  "UpdatedDate": "2011-03-06T12:57:34.9302081+01:00",
-  "UpdatedCount": 51,
-  "Visibility": 502,
+  "Name": "Johns Inc and Sons",
+  "PostitTextId": 607,
+  "CreatedDate": "1997-09-22T04:22:27.6117762+02:00",
+  "SelectionId": 429,
+  "SoundEx": "quo",
+  "Source": 634,
+  "TextId": 134,
+  "UpdatedDate": "2019-11-06T04:22:27.6117762+01:00",
+  "UpdatedCount": 11,
+  "Visibility": 367,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 799,
-  "TargetTableName": "Maggio, Skiles and Cummerata",
+  "TargetTableNumber": 75,
+  "TargetTableName": "Mosciski Group",
   "Completed": false,
-  "LeftSelectionId": 466,
-  "RightSelectionId": 216,
+  "LeftSelectionId": 257,
+  "RightSelectionId": 320,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pagac-Kassulke",
-  "ShadowProviderName": "Waters-Konopelski",
-  "ChartKey": "et",
-  "LastLoaded": "2017-11-15T12:57:34.9302081+01:00",
-  "LastLoadedBy": 3,
+  "MainProviderName": "Reichert, Hand and Bednar",
+  "ShadowProviderName": "Koch-Wisoky",
+  "ChartKey": "est",
+  "LastLoaded": "2023-05-27T04:22:27.6117762+02:00",
+  "LastLoadedBy": 4,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-05-31T12:57:34.9302081+02:00",
-  "LastMembershipChangeBy": 35,
+  "LastMembershipChange": "2013-09-27T04:22:27.6117762+02:00",
+  "LastMembershipChangeBy": 881,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "corrupti",
-  "MailingsProviderName": "Jones-McLaughlin",
-  "DashboardTileDefinitionId": 326,
+  "MainHeading": "consequatur",
+  "MemberTabHeading": "ad",
+  "MailingsProviderName": "Hamill-Torp",
+  "DashboardTileDefinitionId": 168,
   "VisibleFor": [
     {
-      "VisibleId": 994,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 417
         }
       }
     },
     {
-      "VisibleId": 994,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 417
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 127
     }
   }
 }

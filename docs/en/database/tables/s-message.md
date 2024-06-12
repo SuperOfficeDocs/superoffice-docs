@@ -55,9 +55,11 @@ A message used in a shipment. Can be html and/or plain text
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
-|[email\_flow\_content\_link](email-flow-content-link.md)  |Link message content to an email workflow |
+|[email\_flow](email-flow.md)  |A set of properties related to the email workflow. |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Links content to an email workflow |
 |[external\_document](external-document.md)  |This table stores documents which can be viewed externaly, through the customer module |
 |[s\_attachment](s-attachment.md)  |A connector between a message and attachments. One message can contain many attachments. |
+|[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[s\_sent\_message](s-sent-message.md)  |Emarketeer message control |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 544
+  "ProjectId": 246
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 604,
-    "Attention": "quo",
-    "Header": "hic",
-    "Name": "Metz-Dare",
+    "DocumentId": 866,
+    "Attention": "nam",
+    "Header": "aut",
+    "Name": "Spencer-Smith",
     "OurRef": "sed",
-    "YourRef": "quis",
-    "Description": "Programmable transitional policy",
-    "DocumentTemplate": "hic",
-    "IsPublished": true,
-    "PersonId": 938,
-    "PersonFullName": "Deanna Mayert II",
-    "AssociateFullName": "Major Legros",
-    "ContactId": 886,
-    "ContactName": "Thompson LLC",
-    "ProjectId": 736,
-    "ProjectName": "Schinner LLC",
-    "AssociateId": 468,
-    "Snum": 116,
-    "SaleId": 905,
-    "SaleName": "Johns, Wiegand and Spinka",
+    "YourRef": "repellat",
+    "Description": "Multi-layered object-oriented productivity",
+    "DocumentTemplate": "dolor",
+    "IsPublished": false,
+    "PersonId": 780,
+    "PersonFullName": "Ms. Geoffrey Kerluke V",
+    "AssociateFullName": "Selena Demario Durgan Sr.",
+    "ContactId": 238,
+    "ContactName": "Wiegand Group",
+    "ProjectId": 132,
+    "ProjectName": "Littel-Welch",
+    "AssociateId": 724,
+    "Snum": 308,
+    "SaleId": 597,
+    "SaleName": "Witting-Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tromp-Auer",
-  "Comment": "optio",
-  "StakeholderRoleId": 410,
-  "CountryId": 951,
-  "PersonId": 892,
-  "EmailDescription": "skyla.crist@green.biz",
-  "EmailId": 476,
-  "EmailAddress": "bianka@gorczany.com",
-  "PhoneId": 886,
-  "ContactName": "Buckridge-Macejkovic",
-  "ContactId": 408,
-  "SaleId": 232,
-  "Mrmrs": "blanditiis",
-  "Firstname": "Deborah",
-  "MiddleName": "Veum-Feest",
-  "Lastname": "Bayer",
-  "SaleStakeholderId": 350,
-  "Rank": 209,
-  "Phone": "436-092-8113 x1751",
+  "StakeholderRoleName": "Herzog-Kunze",
+  "Comment": "dolorem",
+  "StakeholderRoleId": 251,
+  "CountryId": 691,
+  "PersonId": 79,
+  "EmailDescription": "maximillia@krisfahey.biz",
+  "EmailId": 243,
+  "EmailAddress": "alvah.wiegand@lueilwitzzulauf.co.uk",
+  "PhoneId": 522,
+  "ContactName": "Walsh-Kuhic",
+  "ContactId": 173,
+  "SaleId": 114,
+  "Mrmrs": "aliquam",
+  "Firstname": "Nola",
+  "MiddleName": "Aufderhar, Bailey and Zboncak",
+  "Lastname": "Adams",
+  "SaleStakeholderId": 85,
+  "Rank": 698,
+  "Phone": "413.286.6593",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   },
   "_Links": {

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Kerluke, Gerlach and Casper",
-    "ToolTip": "Inventore culpa debitis.",
+    "Id": 362,
+    "Name": "Gorczany LLC",
+    "ToolTip": "Nihil non rerum omnis et consequatur.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "aut",
-    "ColorBlock": 980,
-    "IconHint": "quis",
+    "Rank": 107,
+    "Type": "qui",
+    "ColorBlock": 120,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "1997-10-02T12:57:43.3708249+02:00",
+    "LastChanged": "2020-05-10T04:22:35.8622202+02:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Larson Group",
-        "ToolTip": "Magnam porro exercitationem eos.",
+        "Id": 338,
+        "Name": "Simonis, Goyette and Roberts",
+        "ToolTip": "Aut sunt iste sapiente quia sapiente voluptas.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "omnis",
-        "ColorBlock": 698,
-        "IconHint": "magnam",
+        "Rank": 631,
+        "Type": "cum",
+        "ColorBlock": 270,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2001-01-10T12:57:43.3708249+01:00",
+        "LastChanged": "2012-01-29T04:22:35.8622202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "sit",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Nathan Bode"
+        "FullName": "Fatima Jewess"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Emiliano McCullough"
+    "ExtraInfo": "laborum",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Alaina Makenna Hintz IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Kreiger Inc and Sons",
-    "ToolTip": "Quidem harum modi suscipit possimus omnis nesciunt mollitia.",
+    "Id": 56,
+    "Name": "Dooley Inc and Sons",
+    "ToolTip": "Aspernatur dignissimos exercitationem est eos quam sed.",
     "Deleted": false,
-    "Rank": 414,
-    "Type": "facilis",
-    "ColorBlock": 844,
-    "IconHint": "sunt",
+    "Rank": 526,
+    "Type": "aut",
+    "ColorBlock": 738,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2004-04-09T12:57:43.3708249+02:00",
+    "LastChanged": "2021-02-14T04:22:35.8622202+01:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "West-White",
-        "ToolTip": "Impedit doloribus tenetur consequatur molestiae.",
+        "Id": 856,
+        "Name": "Hintz, Walker and Christiansen",
+        "ToolTip": "Recusandae ut pariatur.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "fugit",
-        "ColorBlock": 77,
-        "IconHint": "qui",
+        "Rank": 962,
+        "Type": "maiores",
+        "ColorBlock": 527,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1997-07-18T12:57:43.3708249+02:00",
+        "LastChanged": "2019-07-21T04:22:35.8622202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Lula Beer",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Moriah Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 741
+            "FieldType": "System.Int32",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "iusto",
+    "ExtraInfo": "est",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Jarrod Rutherford",
+    "FullName": "Ms. Ansel Bednar Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 874
       }
     }
   }

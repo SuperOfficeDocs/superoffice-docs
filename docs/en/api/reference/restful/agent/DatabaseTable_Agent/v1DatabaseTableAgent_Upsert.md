@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harber, Herman and Lindgren",
+  "TableName": "Cole-Wintheiser",
   "Columns": [
-    "dolores",
-    "temporibus"
+    "dignissimos",
+    "rerum"
   ],
   "Keys": [
-    "aperiam",
-    "voluptas"
+    "eligendi",
+    "illum"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "illo",
-  "Inserts": 940,
-  "Updates": 209,
-  "Deletes": 993,
+  "Message": "rerum",
+  "Inserts": 416,
+  "Updates": 779,
+  "Deletes": 580,
   "RowStatus": [
     {
-      "PrimaryKey": 323,
+      "PrimaryKey": 267,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "voluptates"
+        "ut",
+        "ab"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldType": "System.String",
+          "FieldLength": 555
         }
       }
     },
     {
-      "PrimaryKey": 323,
+      "PrimaryKey": 267,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "voluptates"
+        "ut",
+        "ab"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldType": "System.String",
+          "FieldLength": 555
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 321
     }
   }
 }

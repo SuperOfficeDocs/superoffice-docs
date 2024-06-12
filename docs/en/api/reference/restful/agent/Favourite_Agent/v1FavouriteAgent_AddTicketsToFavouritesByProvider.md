@@ -71,32 +71,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Tillman, Gerhold and Borer",
+  "ProviderName": "Blanda-Schumm",
   "Restrictions": [
     {
-      "Name": "Waters Group",
-      "Operator": "voluptates",
+      "Name": "O'Kon-Mante",
+      "Operator": "soluta",
       "Values": [
-        "saepe",
-        "minima"
+        "dicta",
+        "consequuntur"
       ],
       "DisplayValues": [
-        "at",
-        "voluptas"
+        "hic",
+        "sed"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 858,
+      "InterParenthesis": 604,
       "InterOperator": "And",
-      "UniqueHash": 697
+      "UniqueHash": 893
     }
   ],
-  "AssociateId": 832,
-  "ExtraInfo": "sed"
+  "AssociateId": 20,
+  "ExtraInfo": "dolorem"
 }
 ```
 

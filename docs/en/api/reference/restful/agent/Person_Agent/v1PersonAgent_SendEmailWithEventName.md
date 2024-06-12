@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "et",
-  "To": "autem",
-  "Subject": "officia",
-  "PlainBody": "qui",
-  "HtmlBody": "nemo",
+  "From": "sit",
+  "To": "odit",
+  "Subject": "suscipit",
+  "PlainBody": "similique",
+  "HtmlBody": "autem",
   "AttachmentIds": [
-    694,
-    219
+    759,
+    137
   ],
-  "EventName": "Quitzon-Leannon"
+  "EventName": "Herman Group"
 }
 ```
 

@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 638,
-  "ParentId": 173,
-  "Name": "Jones, Satterfield and Schmeler",
-  "Fullname": "quo",
-  "CategoryMaster": 358,
+  "TicketCategoryId": 200,
+  "ParentId": 349,
+  "Name": "Hirthe, Mayert and O'Conner",
+  "Fullname": "eligendi",
+  "CategoryMaster": 248,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Spinka LLC",
+  "ExternalName": "Moore LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 831,
-  "ReplyTemplate": 749,
-  "NotificationEmail": "freda.okuneva@zemlak.uk",
+  "AssignmentLag": 587,
+  "ReplyTemplate": 512,
+  "NotificationEmail": "donny.mueller@kertzmannwatsica.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 86,
+  "EffectiveReplyTemplateId": 871,
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "quasi",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "cum",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 54
     }
   }
 }

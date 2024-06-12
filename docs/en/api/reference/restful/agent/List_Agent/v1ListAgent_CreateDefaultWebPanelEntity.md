@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 563,
-  "Name": "Murray Group",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "Rank": 851,
+  "WebPanelId": 509,
+  "Name": "Roob LLC",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 559,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Graham Inc and Sons",
+  "ShowInStatusBar": true,
+  "WindowName": "Vandervort, Tillman and Adams",
   "Url": "http://www.example.com/",
-  "ProgId": "autem",
-  "Icon": 973,
+  "ProgId": "quae",
+  "Icon": 464,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

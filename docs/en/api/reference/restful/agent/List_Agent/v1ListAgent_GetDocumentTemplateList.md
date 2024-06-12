@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 803,
-    "Name": "Stracke-Goyette",
-    "Tooltip": "eligendi",
-    "SaveInDb": 913,
-    "Filename": "non",
-    "DefaultOref": "accusamus",
+    "DocumentTemplateId": 76,
+    "Name": "Lowe-Wisozk",
+    "Tooltip": "laudantium",
+    "SaveInDb": 901,
+    "Filename": "quaerat",
+    "DefaultOref": "rerum",
     "RecordType": "Appointment",
-    "Deleted": 738,
+    "Deleted": 403,
     "Direction": "Incoming",
-    "AutoeventId": 822,
+    "AutoeventId": 285,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 332
+        "FieldLength": 535
       }
     }
   }

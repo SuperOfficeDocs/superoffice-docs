@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 263
+  "PersonId": 356
 }
 ```
 
@@ -99,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "cumque",
-    "PersonId": 897,
-    "AssociateId": 966,
-    "ExtraId": 571,
-    "ExtraInfo": "aut",
-    "Height": 897,
-    "LeftX": 4,
+    "OwnerWindow": "totam",
+    "PersonId": 722,
+    "AssociateId": 869,
+    "ExtraId": 282,
+    "ExtraInfo": "officiis",
+    "Height": 646,
+    "LeftX": 463,
     "State": "Maximized",
-    "UpperY": 281,
-    "Width": 242,
-    "WindowPosSizeId": 575,
+    "UpperY": 789,
+    "Width": 800,
+    "WindowPosSizeId": 180,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 59
       }
     }
   }

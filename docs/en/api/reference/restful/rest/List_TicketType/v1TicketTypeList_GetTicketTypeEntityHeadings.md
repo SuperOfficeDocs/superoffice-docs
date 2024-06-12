@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 254,
-    "Name": "Hirthe Inc and Sons",
-    "Tooltip": "velit",
+    "HeadingId": 386,
+    "Name": "Feest LLC",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 379,
-    "UdListDefinitionId": 396,
+    "Rank": 519,
+    "UdListDefinitionId": 527,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 304
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 260
+  "DocumentId": 179
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "King, White and Gislason",
-  "Type": "maxime",
-  "Size": 484,
+  "Name": "Hills-Crona",
+  "Type": "itaque",
+  "Size": 779,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 956
     }
   }
 }

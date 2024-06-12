@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 907,
-  "ContactName": "Walter-Ritchie",
-  "PersonId": 618,
-  "PersonName": "O'Hara Group",
-  "AssociateId": 534,
-  "Address": "et",
-  "EmailId": 243,
+  "ContactId": 51,
+  "ContactName": "Bergnaum, Purdy and Block",
+  "PersonId": 472,
+  "PersonName": "Rath, Stamm and Kilback",
+  "AssociateId": 537,
+  "Address": "at",
+  "EmailId": 301,
   "DuplicatePersonIds": [
-    922,
-    369
+    841,
+    225
   ],
-  "Name": "Keebler, Huel and Koss",
+  "Name": "Ziemann Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 350
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a SaleType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleType?saleTypeId=525
+POST /api/v1/Agents/List/GetSaleType?saleTypeId=776
 POST /api/v1/Agents/List/GetSaleType?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetSaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 937,
-  "Value": "alias",
-  "Tooltip": "est",
+  "Id": 376,
+  "Value": "odit",
+  "Tooltip": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 585
     }
   }
 }

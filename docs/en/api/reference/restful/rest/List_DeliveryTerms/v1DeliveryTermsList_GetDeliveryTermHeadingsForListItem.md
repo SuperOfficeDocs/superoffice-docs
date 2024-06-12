@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Marquardt-Dickens",
-    "ToolTip": "Autem voluptas sed dolor ducimus.",
-    "Deleted": false,
-    "Rank": 38,
-    "Type": "doloribus",
-    "ColorBlock": 846,
-    "IconHint": "cupiditate",
+    "Id": 267,
+    "Name": "Romaguera Group",
+    "ToolTip": "Pariatur perspiciatis quod similique et facilis.",
+    "Deleted": true,
+    "Rank": 224,
+    "Type": "molestiae",
+    "ColorBlock": 715,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2021-12-30T12:57:43.4489324+01:00",
+    "LastChanged": "2016-11-11T04:22:35.9247166+01:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Schimmel, Funk and Gusikowski",
-        "ToolTip": "Doloribus quis.",
+        "Id": 405,
+        "Name": "Mraz, Mosciski and Cormier",
+        "ToolTip": "Corrupti veniam repellat.",
         "Deleted": false,
-        "Rank": 124,
-        "Type": "soluta",
-        "ColorBlock": 149,
-        "IconHint": "cum",
+        "Rank": 654,
+        "Type": "rerum",
+        "ColorBlock": 458,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1999-05-22T12:57:43.4489324+02:00",
+        "LastChanged": "1999-12-24T04:22:35.9247166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "cumque",
-        "Hidden": false,
-        "FullName": "Adela Kiehn",
+        "ExtraInfo": "aut",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Sincere Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 959
+            "FieldType": "System.String",
+            "FieldLength": 530
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "totam",
+    "ExtraInfo": "atque",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Ettie Bernier",
+    "FullName": "Justina Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldType": "System.String",
+        "FieldLength": 682
       }
     }
   }

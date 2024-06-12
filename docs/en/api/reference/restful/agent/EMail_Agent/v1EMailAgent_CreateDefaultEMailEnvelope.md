@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 481,
-  "MessageId": "totam",
-  "Subject": "facere",
+  "ServerId": 693,
+  "MessageId": "et",
+  "Subject": "sit",
   "From": null,
   "To": [
     {
-      "ContactId": 853,
-      "ContactName": "Jacobson LLC",
-      "PersonId": 941,
-      "PersonName": "Vandervort Group",
-      "AssociateId": 299,
-      "Address": "nihil",
-      "EmailId": 148,
+      "ContactId": 309,
+      "ContactName": "Stehr-Ankunding",
+      "PersonId": 319,
+      "PersonName": "Zulauf Inc and Sons",
+      "AssociateId": 714,
+      "Address": "ut",
+      "EmailId": 882,
       "DuplicatePersonIds": [
-        189,
-        569
+        96,
+        690
       ],
-      "Name": "Gerlach-Roob",
+      "Name": "Davis, Nader and Conroy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     }
   ],
-  "Sent": "1999-06-01T12:57:33.899292+02:00",
+  "Sent": "2016-11-10T04:22:26.7178597+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 376,
+  "Size": 815,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldType": "System.String",
+      "FieldLength": 174
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 743,
-    "ColumnId": 254,
-    "FieldDefault": "culpa",
-    "FieldHeight": 518,
-    "FieldLabel": "atque",
-    "FieldLeft": 427,
-    "FieldTop": 273,
+    "UDefFieldId": 469,
+    "ColumnId": 883,
+    "FieldDefault": "nam",
+    "FieldHeight": 681,
+    "FieldLabel": "fuga",
+    "FieldLeft": 317,
+    "FieldTop": 628,
     "FieldType": "Checkbox",
-    "FieldWidth": 366,
-    "FormatMask": "laudantium",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 77,
-    "LabelLeft": 526,
-    "LabelTop": 127,
-    "LabelWidth": 756,
-    "LastVersionId": 844,
-    "ListTableId": 23,
-    "IsMandatory": false,
+    "FieldWidth": 685,
+    "FormatMask": "repudiandae",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 949,
+    "LabelLeft": 365,
+    "LabelTop": 474,
+    "LabelWidth": 494,
+    "LastVersionId": 947,
+    "ListTableId": 511,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 2,
-    "ProgId": "quidem",
+    "Page1LineNo": 824,
+    "ProgId": "facere",
     "IsReadOnly": true,
-    "ShortLabel": "aspernatur",
-    "TabOrder": 333,
-    "TextLength": 475,
-    "Tooltip": "illum",
-    "UdefIdentity": 239,
-    "UDListDefinitionId": 195,
+    "ShortLabel": "nisi",
+    "TabOrder": 544,
+    "TextLength": 662,
+    "Tooltip": "autem",
+    "UdefIdentity": 4,
+    "UDListDefinitionId": 344,
     "Justification": "Center",
-    "Version": 979,
-    "TemplateVariableName": "Walter LLC",
+    "Version": 39,
+    "TemplateVariableName": "Eichmann, Mills and Altenwerth",
     "HasBeenPublished": false,
-    "MdoListName": "Kuhic-Hessel",
+    "MdoListName": "O'Reilly LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 954
       }
     }
   }

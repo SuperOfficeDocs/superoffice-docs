@@ -397,6 +397,7 @@ title: Services88.PersonAgent WSDL
               <xs:element minOccurs="0" name="Consents" nillable="true" type="tns:ArrayOfConsentInfo" />
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
+              <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />

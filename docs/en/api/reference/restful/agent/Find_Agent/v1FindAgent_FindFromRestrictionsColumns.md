@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Hauck Group",
-      "Operator": "laboriosam",
+      "Name": "Bayer Group",
+      "Operator": "ea",
       "Values": [
-        "perspiciatis",
-        "a"
+        "eos",
+        "ipsum"
       ],
       "DisplayValues": [
-        "autem",
-        "ut"
+        "ipsum",
+        "quis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 235,
+      "InterParenthesis": 396,
       "InterOperator": "And",
-      "UniqueHash": 677
+      "UniqueHash": 792
     }
   ],
-  "ProviderName": "Stoltenberg, Flatley and Ritchie",
+  "ProviderName": "Labadie Group",
   "DesiredColumns": [
-    "quasi",
-    "quasi"
+    "modi",
+    "beatae"
   ],
-  "PageSize": 581,
-  "PageNumber": 62
+  "PageSize": 840,
+  "PageNumber": 994
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sanford LLC",
-      "DisplayTooltip": "sit",
-      "DisplayType": "numquam",
+      "DisplayName": "Nikolaus Inc and Sons",
+      "DisplayTooltip": "recusandae",
+      "DisplayType": "nostrum",
       "CanOrderBy": false,
-      "Name": "Watsica-Brekke",
+      "Name": "Gleichner, Crooks and Terry",
       "CanRestrictBy": false,
-      "RestrictionType": "modi",
-      "RestrictionListName": "Ryan LLC",
+      "RestrictionType": "deleniti",
+      "RestrictionListName": "Ziemann-Mraz",
       "IsVisible": false,
-      "ExtraInfo": "ab",
-      "Width": "quas",
-      "IconHint": "ullam",
-      "HeadingIconHint": "adipisci"
+      "ExtraInfo": "consequatur",
+      "Width": "et",
+      "IconHint": "aut",
+      "HeadingIconHint": "occaecati"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Reynolds, Bauch and Murphy",
-      "PrimaryKey": 339,
+      "EntityName": "Towne, Swift and Cronin",
+      "PrimaryKey": 162,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eligendi",
-          "TooltipHint": "enim",
-          "LinkHint": "eligendi"
+          "DisplayValue": "amet",
+          "TooltipHint": "nihil",
+          "LinkHint": "occaecati"
         }
       },
-      "LinkHint": "voluptate",
-      "StyleHint": "debitis",
+      "LinkHint": "perspiciatis",
+      "StyleHint": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 872
         }
       }
     }
   ],
-  "RowCount": 999,
+  "RowCount": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldLength": 970
     }
   }
 }

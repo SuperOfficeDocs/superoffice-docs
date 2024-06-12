@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 726,
-  "AttachmentId": "quis"
+  "DocId": 797,
+  "AttachmentId": "iure"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded tertiary help-desk",
-  "Filename": "quidem",
-  "Size": 606,
-  "Type": "iure",
-  "Encoding": "corrupti",
-  "Id": "est",
-  "Disposition": "minus",
+  "Description": "Adaptive needs-based benchmark",
+  "Filename": "est",
+  "Size": 360,
+  "Type": "molestias",
+  "Encoding": "cum",
+  "Id": "sapiente",
+  "Disposition": "quaerat",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

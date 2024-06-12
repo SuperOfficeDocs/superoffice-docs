@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Sawayn-Hickle",
-    "ToolTip": "Explicabo eos voluptas eos molestiae.",
-    "Deleted": true,
-    "Rank": 474,
-    "Type": "omnis",
-    "ColorBlock": 829,
-    "IconHint": "ullam",
+    "Id": 5,
+    "Name": "Bernhard, Larkin and Reinger",
+    "ToolTip": "Consectetur aut aliquam.",
+    "Deleted": false,
+    "Rank": 684,
+    "Type": "aut",
+    "ColorBlock": 400,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "2014-08-23T12:57:43.6363894+02:00",
+    "LastChanged": "2018-02-16T04:22:36.0965902+01:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Sauer-Gleichner",
-        "ToolTip": "Eaque beatae sapiente.",
+        "Id": 652,
+        "Name": "Lemke LLC",
+        "ToolTip": "Fuga laboriosam occaecati in.",
         "Deleted": true,
-        "Rank": 336,
-        "Type": "non",
-        "ColorBlock": 853,
-        "IconHint": "labore",
+        "Rank": 749,
+        "Type": "tempore",
+        "ColorBlock": 356,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1997-05-19T12:57:43.6363894+02:00",
+        "LastChanged": "2022-06-08T04:22:36.0965902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "quam",
+        "ExtraInfo": "beatae",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Mabel Schmidt",
+        "FullName": "Zoe Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 215
+            "FieldType": "System.Int32",
+            "FieldLength": 608
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Mrs. Jacklyn Bradtke Sr.",
+    "ExtraInfo": "possimus",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Precious Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldType": "System.Int32",
+        "FieldLength": 656
       }
     }
   }

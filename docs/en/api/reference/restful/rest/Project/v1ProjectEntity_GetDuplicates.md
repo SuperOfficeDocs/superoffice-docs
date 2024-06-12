@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Reinger-Rau",
-    "SoPrimaryKey": 641,
-    "EntryName": "Bradtke-Flatley",
-    "EntryIdentifier": "tenetur",
-    "RuleDisplayName": "Klein Inc and Sons",
+    "RuleName": "Dietrich-Wilderman",
+    "SoPrimaryKey": 697,
+    "EntryName": "Turcotte Group",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Flatley Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 851
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

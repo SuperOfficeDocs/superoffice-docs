@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Breitenberg, Altenwerth and Breitenberg",
-    "Description": "De-engineered client-server parallelism",
+    "Name": "Vandervort, Rohan and Tremblay",
+    "Description": "Distributed static orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 952,
-        "Tooltip": "expedita",
+        "Total": 202,
+        "Tooltip": "perspiciatis",
         "CanAssign": false,
-        "Free": 192,
-        "InUse": 272,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 357,
-        "Name": "Marks-Kunde",
-        "Description": "Seamless discrete concept",
-        "PrerequisiteModuleName": "Skiles LLC",
-        "SortOrder": 365,
-        "ExtraFlags": 64,
+        "Free": 787,
+        "InUse": 788,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 529,
+        "Name": "Willms-Boehm",
+        "Description": "Re-contextualized background architecture",
+        "PrerequisiteModuleName": "Dach Group",
+        "SortOrder": 607,
+        "ExtraFlags": 405,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldType": "System.String",
+            "FieldLength": 554
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 265,
-        "Tooltip": "exercitationem",
+        "Total": 919,
+        "Tooltip": "perferendis",
         "CanAssign": true,
-        "Free": 464,
-        "InUse": 536,
+        "Free": 578,
+        "InUse": 460,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 75,
-        "Name": "Gleichner, Feest and Dare",
-        "Description": "Re-engineered contextually-based pricing structure",
-        "PrerequisiteModuleName": "Gottlieb LLC",
-        "SortOrder": 372,
-        "ExtraFlags": 303,
+        "ModuleLicenseId": 657,
+        "Name": "Kreiger, Hills and Watsica",
+        "Description": "Multi-channelled foreground groupware",
+        "PrerequisiteModuleName": "Reichert LLC",
+        "SortOrder": 870,
+        "ExtraFlags": 405,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 205
+            "FieldLength": 814
           }
         }
       }
@@ -139,36 +139,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   },
   {
-    "Name": "Breitenberg, Altenwerth and Breitenberg",
-    "Description": "De-engineered client-server parallelism",
+    "Name": "Vandervort, Rohan and Tremblay",
+    "Description": "Distributed static orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 952,
-        "Tooltip": "expedita",
+        "Total": 202,
+        "Tooltip": "perspiciatis",
         "CanAssign": false,
-        "Free": 192,
-        "InUse": 272,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 357,
-        "Name": "Marks-Kunde",
-        "Description": "Seamless discrete concept",
-        "PrerequisiteModuleName": "Skiles LLC",
-        "SortOrder": 365,
-        "ExtraFlags": 64,
+        "Free": 787,
+        "InUse": 788,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 529,
+        "Name": "Willms-Boehm",
+        "Description": "Re-contextualized background architecture",
+        "PrerequisiteModuleName": "Dach Group",
+        "SortOrder": 607,
+        "ExtraFlags": 405,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldType": "System.String",
+            "FieldLength": 554
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 265,
-        "Tooltip": "exercitationem",
+        "Total": 919,
+        "Tooltip": "perferendis",
         "CanAssign": true,
-        "Free": 464,
-        "InUse": 536,
+        "Free": 578,
+        "InUse": 460,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 75,
-        "Name": "Gleichner, Feest and Dare",
-        "Description": "Re-engineered contextually-based pricing structure",
-        "PrerequisiteModuleName": "Gottlieb LLC",
-        "SortOrder": 372,
-        "ExtraFlags": 303,
+        "ModuleLicenseId": 657,
+        "Name": "Kreiger, Hills and Watsica",
+        "Description": "Multi-channelled foreground groupware",
+        "PrerequisiteModuleName": "Reichert LLC",
+        "SortOrder": 870,
+        "ExtraFlags": 405,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 205
+            "FieldLength": 814
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   }

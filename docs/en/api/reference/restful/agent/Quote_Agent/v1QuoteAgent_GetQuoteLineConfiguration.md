@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 823
+  "QuoteLineConfigurationId": 683
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 74,
-  "FieldName": "McDermott, Schiller and Runolfsdottir",
-  "Label": "veritatis",
-  "Tooltip": "sequi",
+  "QuoteLineConfigurationId": 340,
+  "FieldName": "Mills, Larson and White",
+  "Label": "quos",
+  "Tooltip": "voluptatem",
   "Editable": false,
-  "InUse": true,
-  "Mandatory": true,
-  "Rank": 413,
+  "InUse": false,
+  "Mandatory": false,
+  "Rank": 886,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldLength": 241
     }
   }
 }

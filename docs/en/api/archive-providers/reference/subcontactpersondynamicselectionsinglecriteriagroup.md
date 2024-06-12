@@ -315,7 +315,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -408,7 +408,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|appointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -593,7 +593,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |createdByForm|listAny|Created by form: Created by form| x |
 |includePersonRestriction|string|Include main contact: Specifies which contacts should be included in the result ('none', 'main', 'all')|  |
 |includePersonWithNoDMRestriction|bool|Include contacts with No Mailings: Should contacts with the 'No Mailings' flag set be included|  |
@@ -718,7 +718,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personSourceRelation/isProjectMember|bool|Source - Is project member: This person is a project member| x |
 |personSourceRelation/isStakeholder|bool|Source - Is stakeholder: This person is a sale stakeholder| x |
 |personSourceRelation/updatedByWorkflow|listAny|Source - Updated by flow: Updated by flow| x |
-|personSourceRelation/whenUpdatedByWorkflow|datetime|Source - Updated by flow: Updated by flow| x |
+|personSourceRelation/whenUpdatedByWorkflow|datetime|Source - When updated by flow: When updated by flow| x |
 |personSourceRelation/createdByForm|listAny|Source - Created by form: Created by form| x |
 |personSourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId|int|Source - Company ID: Database ID of company to fetch relations for|  |
@@ -776,7 +776,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personTargetRelation/isProjectMember|bool|Target - Is project member: This person is a project member| x |
 |personTargetRelation/isStakeholder|bool|Target - Is stakeholder: This person is a sale stakeholder| x |
 |personTargetRelation/updatedByWorkflow|listAny|Target - Updated by flow: Updated by flow| x |
-|personTargetRelation/whenUpdatedByWorkflow|datetime|Target - Updated by flow: Updated by flow| x |
+|personTargetRelation/whenUpdatedByWorkflow|datetime|Target - When updated by flow: When updated by flow| x |
 |personTargetRelation/createdByForm|listAny|Target - Created by form: Created by form| x |
 |personTargetRelation/restrictionContactId|int|Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/restrictionPersonId|int|Target - Company ID: Database ID of company to fetch relations for|  |
@@ -909,7 +909,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
-|request/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -1138,7 +1138,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|personAppointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1198,7 +1198,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=LastTicket,appointment/appointmentUdef/SuperOffice:8,document/associate/mrMrs,document/associate/assocType,document/associate/ejUserId
+GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactAssociate/lastName,sourceRelation/updatedByFullName,sale/activeErpLinks,sale/associate/locationAddress,document/yourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

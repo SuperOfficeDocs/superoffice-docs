@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 849,
-  "Name": "Casper-Stamm",
+  "TicketPriorityId": 561,
+  "Name": "Parisian, Murray and Walsh",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 679,
+  "SortOrder": 121,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 474,
-  "MonStart": "1998-07-01T12:57:43.8082251+02:00",
-  "MonStop": "1999-10-25T12:57:43.8082251+02:00",
-  "TueStart": "2000-07-04T12:57:43.8082251+02:00",
-  "TueStop": "2015-07-27T12:57:43.8082251+02:00",
-  "WedStart": "2022-09-09T12:57:43.8082251+02:00",
-  "WedStop": "2020-07-18T12:57:43.8082251+02:00",
-  "ThuStart": "2009-03-25T12:57:43.8082251+01:00",
-  "ThuStop": "2006-05-01T12:57:43.8082251+02:00",
-  "FriStart": "2000-02-17T12:57:43.8082251+01:00",
-  "FriStop": "2006-06-30T12:57:43.8082251+02:00",
-  "SatStart": "2023-12-07T12:57:43.8082251+01:00",
-  "SatStop": "2008-11-18T12:57:43.8082251+01:00",
-  "SunStart": "2014-08-28T12:57:43.8082251+02:00",
-  "SunStop": "1999-09-17T12:57:43.8082251+02:00",
+  "Deadline": 345,
+  "MonStart": "1999-04-29T04:22:36.2528386+02:00",
+  "MonStop": "1999-09-23T04:22:36.2528386+02:00",
+  "TueStart": "2001-08-24T04:22:36.2528386+02:00",
+  "TueStop": "2021-06-28T04:22:36.2528386+02:00",
+  "WedStart": "2001-02-07T04:22:36.2528386+01:00",
+  "WedStop": "2009-04-06T04:22:36.2528386+02:00",
+  "ThuStart": "1997-05-12T04:22:36.2528386+02:00",
+  "ThuStop": "2000-07-18T04:22:36.2528386+02:00",
+  "FriStart": "2019-07-07T04:22:36.2528386+02:00",
+  "FriStop": "2014-02-01T04:22:36.2528386+01:00",
+  "SatStart": "2017-07-23T04:22:36.2528386+02:00",
+  "SatStop": "2014-04-12T04:22:36.2528386+02:00",
+  "SunStart": "2012-06-30T04:22:36.2528386+02:00",
+  "SunStop": "1999-01-21T04:22:36.2528386+01:00",
   "NonDates": [
-    "voluptatibus",
-    "consequatur"
+    "enim",
+    "nostrum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 528,
-      "AlertLevel": 655,
-      "AlertTimeout": 625,
-      "Action": 114,
-      "DelegateTo": 283,
-      "ScriptId": 584,
-      "EmailTo": "ruthe_denesik@howellpowlowski.uk",
-      "SmsTo": "mollitia",
-      "ReplyTemplateIdCustomer": 178,
-      "ReplyTemplateIdUser": 700,
-      "ReplyTemplateIdCatmast": 444,
-      "ReplyTemplateIdEmail": 506,
-      "RtiCustomerSms": 7,
-      "ReplyTemplateIdUserSms": 444,
-      "ReplyTemplateIdCatmastSms": 450,
-      "ReplyTemplateIdSms": 356,
+      "TicketAlertId": 468,
+      "AlertLevel": 697,
+      "AlertTimeout": 548,
+      "Action": 135,
+      "DelegateTo": 503,
+      "ScriptId": 370,
+      "EmailTo": "maximus@powlowskigoyette.name",
+      "SmsTo": "ducimus",
+      "ReplyTemplateIdCustomer": 767,
+      "ReplyTemplateIdUser": 102,
+      "ReplyTemplateIdCatmast": 362,
+      "ReplyTemplateIdEmail": 662,
+      "RtiCustomerSms": 255,
+      "ReplyTemplateIdUserSms": 472,
+      "ReplyTemplateIdCatmastSms": 135,
+      "ReplyTemplateIdSms": 128,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldLength": 245
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 327
     }
   }
 }

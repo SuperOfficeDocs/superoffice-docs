@@ -134,7 +134,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/isProjectMember|bool|Is project member: This person is a project member| x |
 |documentInstance/person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |documentInstance/person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|documentInstance/person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|documentInstance/person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |documentInstance/person/createdByForm|listAny|Created by form: Created by form| x |
 |documentInstance/person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |documentInstance/person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -673,7 +673,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |documentInstance/sale/description|string|Description: The long description field on Sale|  |
 |documentInstance/sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|documentInstance/sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|documentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -727,7 +727,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=stageName,documentInstance/registeredByFullName,documentInstance/person/restrictionAddress/addressId,documentInstance/person/personAssociate/assocType,documentInstance/person/personAssociate/credentialType
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/hasInfoText,documentInstance/person/personUdef/SuperOffice:11,documentInstance/contact/contactPhone/formattedNumber,documentInstance/contact/postAddress/state,documentInstance/contact/contactExtra/x_contact_short_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "in",
-    "eum"
+    "itaque",
+    "sit"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "consequatur",
+    "Label": "sit",
     "Values": [
       {
-        "Label": "id",
-        "Value": 10790.362,
-        "Description": "Polarised modular customer loyalty",
+        "Label": "amet",
+        "Value": 26024.736,
+        "Description": "Organized bi-directional knowledge user",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldLength": 511
           }
         }
       },
       {
-        "Label": "id",
-        "Value": 10790.362,
-        "Description": "Polarised modular customer loyalty",
+        "Label": "amet",
+        "Value": 26024.736,
+        "Description": "Organized bi-directional knowledge user",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldLength": 511
           }
         }
       }
     ],
-    "Description": "Down-sized composite moderator",
+    "Description": "Seamless 6th generation extranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 386
       }
     }
   },
   {
-    "Label": "consequatur",
+    "Label": "sit",
     "Values": [
       {
-        "Label": "id",
-        "Value": 10790.362,
-        "Description": "Polarised modular customer loyalty",
+        "Label": "amet",
+        "Value": 26024.736,
+        "Description": "Organized bi-directional knowledge user",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldLength": 511
           }
         }
       },
       {
-        "Label": "id",
-        "Value": 10790.362,
-        "Description": "Polarised modular customer loyalty",
+        "Label": "amet",
+        "Value": 26024.736,
+        "Description": "Organized bi-directional knowledge user",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldLength": 511
           }
         }
       }
     ],
-    "Description": "Down-sized composite moderator",
+    "Description": "Seamless 6th generation extranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 386
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "inventore",
-      "HTMLBody": "quo",
+      "Subject": "tenetur",
+      "HTMLBody": "corporis",
       "From": null,
-      "Sent": "2001-10-23T12:57:33.8523907+02:00",
-      "Size": 694,
+      "Sent": "2007-11-08T04:22:26.6709828+01:00",
+      "Size": 322,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "reprehenderit",
-      "PlainBody": "accusantium",
+      "MessageID": "cupiditate",
+      "PlainBody": "excepturi",
       "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 339,
+      "ServerId": 749,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Jakubowski Inc and Sons",
-      "EmailItemId": 522,
-      "AccountId": 717,
-      "ReceivedAt": "2015-02-16T12:57:33.8523907+01:00",
+      "FolderName": "Marvin, Stamm and Walker",
+      "EmailItemId": 145,
+      "AccountId": 344,
+      "ReceivedAt": "2002-06-18T04:22:26.6709828+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2001-10-19T12:57:33.8523907+02:00",
+      "RepliedAt": "2020-12-14T04:22:26.6709828+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,147 +162,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 733,
-        "ContactName": "Toy, Schumm and D'Amore",
-        "PersonId": 273,
-        "PersonName": "Halvorson, Mohr and Moore",
-        "AssociateId": 266,
-        "Address": "cum",
-        "EmailId": 299,
+        "ContactId": 916,
+        "ContactName": "Gulgowski, Heidenreich and Ritchie",
+        "PersonId": 227,
+        "PersonName": "Funk-Wintheiser",
+        "AssociateId": 516,
+        "Address": "quia",
+        "EmailId": 29,
         "DuplicatePersonIds": [
-          834,
-          210
+          766,
+          736
         ],
-        "Name": "Green, Stokes and Langosh",
+        "Name": "D'Amore-Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldLength": 422
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 724,
-        "ContactName": "Murray-Wyman",
-        "PersonId": 124,
-        "PersonName": "Russel-Waters",
-        "AssociateId": 579,
-        "Address": "eveniet",
-        "EmailId": 820,
+        "ContactId": 208,
+        "ContactName": "Hand LLC",
+        "PersonId": 805,
+        "PersonName": "Koss Inc and Sons",
+        "AssociateId": 864,
+        "Address": "rerum",
+        "EmailId": 128,
         "DuplicatePersonIds": [
-          124,
-          875
+          899,
+          610
         ],
-        "Name": "Jewess-Kozey",
+        "Name": "Watsica LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldLength": 35
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 283,
-        "ContactName": "Schultz LLC",
-        "PersonId": 822,
-        "PersonName": "Flatley-Crooks",
-        "AssociateId": 198,
-        "Address": "dignissimos",
-        "EmailId": 747,
+        "ContactId": 770,
+        "ContactName": "Wiza, Kerluke and Crona",
+        "PersonId": 416,
+        "PersonName": "Lindgren, Mosciski and Reichel",
+        "AssociateId": 194,
+        "Address": "voluptatem",
+        "EmailId": 152,
         "DuplicatePersonIds": [
-          781,
-          117
+          390,
+          53
         ],
-        "Name": "Durgan, Deckow and Jones",
+        "Name": "Swift, Quigley and Lesch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 4
+            "FieldType": "System.Int32",
+            "FieldLength": 786
           }
         }
       }
     ],
-    "Subject": "praesentium",
-    "HTMLBody": "dignissimos",
+    "Subject": "nobis",
+    "HTMLBody": "incidunt",
     "From": null,
-    "Sent": "2004-08-23T12:57:33.8523907+02:00",
-    "Size": 653,
+    "Sent": "2018-08-28T04:22:26.6709828+02:00",
+    "Size": 309,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "odio",
-    "PlainBody": "nostrum",
+    "MessageID": "doloremque",
+    "PlainBody": "necessitatibus",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 598,
+    "ServerId": 788,
     "Attachments": [
       {
-        "Description": "Decentralized web-enabled task-force",
-        "Filename": "ipsam",
-        "Size": 312,
-        "Type": "aut",
-        "Encoding": "laborum",
-        "Id": "consequatur",
-        "Disposition": "nesciunt",
-        "IsSafeFileExtension": false,
+        "Description": "Assimilated full-range collaboration",
+        "Filename": "sit",
+        "Size": 939,
+        "Type": "commodi",
+        "Encoding": "quae",
+        "Id": "dolores",
+        "Disposition": "assumenda",
+        "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 755
+            "FieldType": "System.Int32",
+            "FieldLength": 364
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Collins Group",
+        "Name": "Wiza Group",
         "Values": [
-          "qui",
-          "a"
+          "ut",
+          "libero"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 525
           }
         }
       },
       {
-        "Name": "Collins Group",
+        "Name": "Wiza Group",
         "Values": [
-          "qui",
-          "a"
+          "ut",
+          "libero"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 525
           }
         }
       }
     ],
-    "FolderName": "Gorczany LLC",
-    "EmailItemId": 99,
-    "AccountId": 724,
-    "ReceivedAt": "2019-12-23T12:57:33.8523907+01:00",
+    "FolderName": "Flatley-Kshlerin",
+    "EmailItemId": 852,
+    "AccountId": 406,
+    "ReceivedAt": "1997-08-06T04:22:26.686607+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2005-08-21T12:57:33.8523907+02:00",
+    "RepliedAt": "2016-02-25T04:22:26.686607+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 362
       }
     }
   }

@@ -84,16 +84,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 19,
-  "VersionId": "impedit",
+  "DocumentId": 881,
+  "VersionId": "recusandae",
   "AllowedReturnTypes": [
-    "delectus",
-    "dolor"
+    "doloribus",
+    "autem"
   ],
-  "Command": "molestiae",
+  "Command": "quia",
   "AdditionalData": [
-    "cumque",
-    "qui"
+    "quo",
+    "exercitationem"
   ]
 }
 ```
@@ -105,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "rerum",
-  "VersionId": "enim",
+  "ExternalReference": "nobis",
+  "VersionId": "vitae",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ipsum",
-  "AdditionalInfo": "ut"
+  "Value": "doloremque",
+  "AdditionalInfo": "facilis"
 }
 ```

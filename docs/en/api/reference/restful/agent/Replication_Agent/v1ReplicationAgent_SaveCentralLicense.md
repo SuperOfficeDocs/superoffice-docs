@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Howe-Bednar",
-      "Description": "Extended bifurcated monitoring",
+      "Name": "Tillman-Hills",
+      "Description": "Customizable transitional initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Howe-Bednar",
-      "Description": "Extended bifurcated monitoring",
+      "Name": "Tillman-Hills",
+      "Description": "Customizable transitional initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stamm, Reilly and Adams",
-    "Description": "Ergonomic multi-state hub",
+    "Name": "Rowe LLC",
+    "Description": "Robust intangible core",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 322,
-        "Tooltip": "dolorum",
-        "CanAssign": false,
-        "Free": 145,
-        "InUse": 614,
+        "Total": 240,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 507,
+        "InUse": 660,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 896,
-        "Name": "Roob, O'Conner and Pollich",
-        "Description": "Object-based non-volatile extranet",
-        "PrerequisiteModuleName": "Balistreri, Jacobi and Langworth",
-        "SortOrder": 468,
-        "ExtraFlags": 132,
+        "ModuleLicenseId": 397,
+        "Name": "King, Schulist and Hickle",
+        "Description": "Switchable holistic hub",
+        "PrerequisiteModuleName": "Witting-Dietrich",
+        "SortOrder": 878,
+        "ExtraFlags": 838,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 583
+            "FieldLength": 69
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 942,
-        "Tooltip": "expedita",
+        "Unrestricted": false,
+        "Total": 215,
+        "Tooltip": "corporis",
         "CanAssign": false,
-        "Free": 447,
-        "InUse": 987,
-        "IsHidden": false,
+        "Free": 694,
+        "InUse": 390,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 390,
-        "Name": "Pagac-Crooks",
-        "Description": "Universal exuding utilisation",
-        "PrerequisiteModuleName": "Zboncak, Rutherford and Pagac",
-        "SortOrder": 975,
-        "ExtraFlags": 978,
+        "ModuleLicenseId": 608,
+        "Name": "Reynolds LLC",
+        "Description": "Realigned responsive pricing structure",
+        "PrerequisiteModuleName": "Wiegand-Boyer",
+        "SortOrder": 337,
+        "ExtraFlags": 227,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 799
           }
         }
       }
@@ -178,61 +178,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 284
       }
     }
   },
   {
-    "Name": "Stamm, Reilly and Adams",
-    "Description": "Ergonomic multi-state hub",
+    "Name": "Rowe LLC",
+    "Description": "Robust intangible core",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 322,
-        "Tooltip": "dolorum",
-        "CanAssign": false,
-        "Free": 145,
-        "InUse": 614,
+        "Total": 240,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 507,
+        "InUse": 660,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 896,
-        "Name": "Roob, O'Conner and Pollich",
-        "Description": "Object-based non-volatile extranet",
-        "PrerequisiteModuleName": "Balistreri, Jacobi and Langworth",
-        "SortOrder": 468,
-        "ExtraFlags": 132,
+        "ModuleLicenseId": 397,
+        "Name": "King, Schulist and Hickle",
+        "Description": "Switchable holistic hub",
+        "PrerequisiteModuleName": "Witting-Dietrich",
+        "SortOrder": 878,
+        "ExtraFlags": 838,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 583
+            "FieldLength": 69
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 942,
-        "Tooltip": "expedita",
+        "Unrestricted": false,
+        "Total": 215,
+        "Tooltip": "corporis",
         "CanAssign": false,
-        "Free": 447,
-        "InUse": 987,
-        "IsHidden": false,
+        "Free": 694,
+        "InUse": 390,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 390,
-        "Name": "Pagac-Crooks",
-        "Description": "Universal exuding utilisation",
-        "PrerequisiteModuleName": "Zboncak, Rutherford and Pagac",
-        "SortOrder": 975,
-        "ExtraFlags": 978,
+        "ModuleLicenseId": 608,
+        "Name": "Reynolds LLC",
+        "Description": "Realigned responsive pricing structure",
+        "PrerequisiteModuleName": "Wiegand-Boyer",
+        "SortOrder": 337,
+        "ExtraFlags": 227,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 799
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 284
       }
     }
   }

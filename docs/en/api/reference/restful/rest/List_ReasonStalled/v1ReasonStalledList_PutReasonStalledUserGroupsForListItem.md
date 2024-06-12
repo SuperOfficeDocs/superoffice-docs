@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Smitham-Runolfsdottir",
-    "ToolTip": "Ut nesciunt eos ut.",
-    "Deleted": false,
-    "Rank": 476,
-    "Type": "odit",
-    "ColorBlock": 745,
-    "IconHint": "cumque",
+    "Id": 139,
+    "Name": "Bartell LLC",
+    "ToolTip": "Occaecati in voluptatibus pariatur.",
+    "Deleted": true,
+    "Rank": 643,
+    "Type": "id",
+    "ColorBlock": 179,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "1998-12-25T12:57:43.730118+01:00",
+    "LastChanged": "2023-01-04T04:22:36.1747132+01:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Schinner-Streich",
-        "ToolTip": "Corporis autem sed.",
-        "Deleted": false,
-        "Rank": 765,
-        "Type": "sint",
-        "ColorBlock": 409,
-        "IconHint": "praesentium",
+        "Id": 325,
+        "Name": "Toy Group",
+        "ToolTip": "Est est earum ratione illum sequi consequatur exercitationem.",
+        "Deleted": true,
+        "Rank": 289,
+        "Type": "corrupti",
+        "ColorBlock": 232,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2017-05-11T12:57:43.730118+02:00",
+        "LastChanged": "2017-06-27T04:22:36.1747132+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "veniam",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Payton Lesch"
+        "FullName": "Prof. Garrison Lynch IV"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "at",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Ms. Frederique Delphine Pfeffer"
+    "FullName": "Mr. Sadie Barton"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Simonis, Langosh and Williamson",
-    "ToolTip": "Quia explicabo perspiciatis.",
-    "Deleted": false,
-    "Rank": 1000,
-    "Type": "eveniet",
-    "ColorBlock": 508,
-    "IconHint": "minima",
+    "Id": 674,
+    "Name": "McDermott, Doyle and Lakin",
+    "ToolTip": "Id animi.",
+    "Deleted": true,
+    "Rank": 794,
+    "Type": "cumque",
+    "ColorBlock": 143,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2019-12-14T12:57:43.730118+01:00",
+    "LastChanged": "2002-03-09T04:22:36.1747132+01:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Lehner, Torphy and Kessler",
-        "ToolTip": "Et velit est blanditiis et quisquam est.",
-        "Deleted": true,
-        "Rank": 4,
-        "Type": "quia",
-        "ColorBlock": 340,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "2018-12-24T12:57:43.730118+01:00",
+        "Id": 134,
+        "Name": "Heaney Inc and Sons",
+        "ToolTip": "Dicta laborum.",
+        "Deleted": false,
+        "Rank": 921,
+        "Type": "fuga",
+        "ColorBlock": 159,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2004-07-27T04:22:36.1747132+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Philip Carroll",
+        "ExtraInfo": "laborum",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Lillie Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 635
+            "FieldLength": 485
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "dolore",
+    "ExtraInfo": "delectus",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Mrs. Reed Bertrand Wisozk Jr.",
+    "FullName": "Brooklyn Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 749
       }
     }
   }

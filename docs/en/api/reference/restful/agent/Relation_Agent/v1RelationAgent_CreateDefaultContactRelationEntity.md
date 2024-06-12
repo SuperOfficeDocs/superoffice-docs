@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 307,
-  "SourcePersonId": 807,
-  "DestinationContactId": 671,
-  "DestinationPersonId": 786,
-  "RelationId": 453,
-  "Comment": "consequatur",
-  "RelationDefinitionId": 10,
-  "Reversed": 676,
-  "UpdatedDate": "2017-07-20T12:57:34.7584337+02:00",
-  "CreatedDate": "2003-10-05T12:57:34.7584337+02:00",
+  "SourceContactId": 788,
+  "SourcePersonId": 827,
+  "DestinationContactId": 15,
+  "DestinationPersonId": 540,
+  "RelationId": 107,
+  "Comment": "est",
+  "RelationDefinitionId": 698,
+  "Reversed": 785,
+  "UpdatedDate": "2006-05-28T04:22:27.4403662+02:00",
+  "CreatedDate": "2009-12-26T04:22:27.4403662+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Goldner, Schumm and Kulas",
-  "SourcePersonName": "Jakubowski, Bosco and Gulgowski",
-  "DestinationContactName": "Goyette, Zulauf and Stoltenberg",
-  "DestinationPersonName": "Smitham-Walker",
-  "ActiveText": "aliquid",
-  "PassiveText": "voluptates",
+  "SourceContactName": "Stamm, O'Conner and Hartmann",
+  "SourcePersonName": "Nikolaus-Leuschke",
+  "DestinationContactName": "Mitchell LLC",
+  "DestinationPersonName": "Swaniawski Group",
+  "ActiveText": "dolores",
+  "PassiveText": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldType": "System.String",
+      "FieldLength": 624
     }
   }
 }

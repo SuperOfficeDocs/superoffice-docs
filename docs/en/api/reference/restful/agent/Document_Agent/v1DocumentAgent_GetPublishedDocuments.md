@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    999,
-    255
+    793,
+    515
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 696,
-    "Attention": "repudiandae",
-    "Header": "natus",
-    "Name": "Pfeffer-Hane",
-    "OurRef": "tenetur",
-    "YourRef": "dicta",
-    "Description": "Triple-buffered intermediate system engine",
-    "DocumentTemplate": "vel",
-    "IsPublished": true,
-    "PersonId": 314,
-    "PersonFullName": "Genesis Quigley",
-    "AssociateFullName": "Prof. Gerson Enoch Zulauf DVM",
-    "ContactId": 331,
-    "ContactName": "Feeney, Mayert and Effertz",
-    "ProjectId": 707,
-    "ProjectName": "Gleason, Robel and Ferry",
-    "AssociateId": 773,
-    "Snum": 198,
-    "SaleId": 968,
-    "SaleName": "Farrell Inc and Sons",
+    "DocumentId": 277,
+    "Attention": "molestiae",
+    "Header": "blanditiis",
+    "Name": "Hilpert Group",
+    "OurRef": "natus",
+    "YourRef": "nostrum",
+    "Description": "Right-sized user-facing orchestration",
+    "DocumentTemplate": "quo",
+    "IsPublished": false,
+    "PersonId": 605,
+    "PersonFullName": "Prof. Destany Isac Marvin",
+    "AssociateFullName": "Marjory Wunsch",
+    "ContactId": 913,
+    "ContactName": "Orn LLC",
+    "ProjectId": 94,
+    "ProjectName": "Mante Inc and Sons",
+    "AssociateId": 480,
+    "Snum": 957,
+    "SaleId": 934,
+    "SaleName": "Jakubowski-Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldType": "System.String",
+        "FieldLength": 939
       }
     }
   }

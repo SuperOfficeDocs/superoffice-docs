@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 196
+  "TargetDimensionId": 300
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 680,
+    "TargetAssignmentInfoId": 598,
     "Values": [
-      367,
-      940
+      536,
+      218
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 799,
-    "DimensionListItemDisplayName": "Willms Group",
+    "DimensionListItem": 71,
+    "DimensionListItemDisplayName": "Ortiz, Harvey and Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

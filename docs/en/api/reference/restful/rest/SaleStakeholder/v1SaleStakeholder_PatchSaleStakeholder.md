@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "amet",
+    "path": "corporis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "amet",
+    "path": "corporis",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Strosin-Koelpin",
-  "Comment": "molestias",
-  "StakeholderRoleId": 849,
-  "CountryId": 572,
-  "PersonId": 770,
-  "EmailDescription": "bart_tillman@buckridge.name",
-  "EmailId": 715,
-  "EmailAddress": "gracie.lind@balistreri.name",
-  "PhoneId": 433,
-  "ContactName": "Purdy Group",
-  "ContactId": 349,
-  "SaleId": 256,
-  "Mrmrs": "ducimus",
-  "Firstname": "Nellie",
-  "MiddleName": "Brekke Inc and Sons",
-  "Lastname": "Towne",
-  "SaleStakeholderId": 560,
-  "Rank": 602,
-  "Phone": "(088)609-2374",
+  "StakeholderRoleName": "Farrell Inc and Sons",
+  "Comment": "minus",
+  "StakeholderRoleId": 997,
+  "CountryId": 954,
+  "PersonId": 588,
+  "EmailDescription": "toy@mertz.uk",
+  "EmailId": 842,
+  "EmailAddress": "otho.adams@dare.com",
+  "PhoneId": 670,
+  "ContactName": "Strosin, Braun and Windler",
+  "ContactId": 140,
+  "SaleId": 310,
+  "Mrmrs": "excepturi",
+  "Firstname": "Margaret",
+  "MiddleName": "Baumbach Inc and Sons",
+  "Lastname": "Stamm",
+  "SaleStakeholderId": 406,
+  "Rank": 788,
+  "Phone": "1-388-148-2708",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   },
   "_Links": {

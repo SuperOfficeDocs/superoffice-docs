@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rosenbaum-Hudson",
-  "RecordId": 323,
-  "AssociateId": 56
+  "TableName": "Rath-Farrell",
+  "RecordId": 884,
+  "AssociateId": 313
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 710,
-  "Section": "ut",
-  "Key": "eius",
-  "Name": "Pollich, Blanda and Raynor",
+  "PrefDescId": 147,
+  "Section": "in",
+  "Key": "maiores",
+  "Name": "Kautzer, Kunze and Kuphal",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Function-based secondary data-warehouse",
-  "IsBuiltin": true,
-  "TableName": "Hane, Bashirian and Schmitt",
-  "UserDefinedListId": 715,
-  "Rank": 831,
-  "SubGroup": "et",
-  "MinLevel": 977,
-  "MaxValue": 759,
-  "MinValue": 594,
-  "RequiredLicense": "adipisci"
+  "Description": "Synchronised non-volatile hardware",
+  "IsBuiltin": false,
+  "TableName": "Stokes-Nikolaus",
+  "UserDefinedListId": 750,
+  "Rank": 915,
+  "SubGroup": "molestiae",
+  "MinLevel": 196,
+  "MaxValue": 599,
+  "MinValue": 961,
+  "RequiredLicense": "sed"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 286,
-  "Section": "non",
-  "Key": "rerum",
-  "Name": "Powlowski LLC",
+  "PrefDescId": 660,
+  "Section": "qui",
+  "Key": "in",
+  "Name": "Jacobs, Lynch and Feeney",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Automated global function",
+  "Description": "Exclusive multi-state migration",
   "IsBuiltin": false,
-  "TableName": "Eichmann LLC",
-  "UserDefinedListId": 534,
-  "Rank": 237,
-  "SubGroup": "ut",
-  "MinLevel": 959,
-  "MaxValue": 978,
-  "MinValue": 543,
-  "RequiredLicense": "explicabo",
+  "TableName": "Pfannerstill-Oberbrunner",
+  "UserDefinedListId": 876,
+  "Rank": 326,
+  "SubGroup": "facilis",
+  "MinLevel": 820,
+  "MaxValue": 379,
+  "MinValue": 367,
+  "RequiredLicense": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 302
     }
   },
   "_Links": {

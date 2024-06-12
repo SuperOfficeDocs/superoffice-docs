@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Prosacco, Prohaska and Mertz",
-    "ToolTip": "Iste pariatur eligendi.",
+    "Id": 613,
+    "Name": "Kuvalis, Koepp and Grant",
+    "ToolTip": "Porro veniam deleniti veritatis asperiores magni provident.",
     "Deleted": false,
-    "Rank": 183,
-    "Type": "enim",
-    "ColorBlock": 641,
-    "IconHint": "eos",
+    "Rank": 222,
+    "Type": "et",
+    "ColorBlock": 433,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2019-08-05T12:57:43.3552036+02:00",
+    "LastChanged": "2006-07-24T04:22:35.8465939+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Schowalter, Berge and Bogan",
-        "ToolTip": "Sint voluptas quo autem.",
-        "Deleted": true,
-        "Rank": 506,
-        "Type": "numquam",
-        "ColorBlock": 448,
-        "IconHint": "modi",
+        "Id": 380,
+        "Name": "Russel Group",
+        "ToolTip": "Provident libero iste molestiae id commodi et quo.",
+        "Deleted": false,
+        "Rank": 7,
+        "Type": "hic",
+        "ColorBlock": 68,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "2020-12-07T12:57:43.3552036+01:00",
+        "LastChanged": "2003-01-19T04:22:35.8465939+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Gillian Rutherford"
+        "StyleHint": "beatae",
+        "Hidden": false,
+        "FullName": "Caroline Grimes"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Marcia Kovacek"
+    "ExtraInfo": "vel",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Miss Jordy Marquardt"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Franecki-Kshlerin",
-    "ToolTip": "Ut minus quibusdam et eum cum.",
+    "Id": 923,
+    "Name": "Goyette-Turcotte",
+    "ToolTip": "Nam et.",
     "Deleted": false,
-    "Rank": 733,
-    "Type": "accusantium",
-    "ColorBlock": 652,
-    "IconHint": "beatae",
+    "Rank": 12,
+    "Type": "odit",
+    "ColorBlock": 900,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2020-03-01T12:57:43.3552036+01:00",
+    "LastChanged": "2014-07-23T04:22:35.8465939+02:00",
     "ChildItems": [
       {
-        "Id": 644,
-        "Name": "Shanahan LLC",
-        "ToolTip": "Voluptates eum laboriosam enim accusamus totam.",
-        "Deleted": true,
-        "Rank": 521,
-        "Type": "fugit",
-        "ColorBlock": 203,
-        "IconHint": "est",
+        "Id": 862,
+        "Name": "Hickle LLC",
+        "ToolTip": "Earum at ratione.",
+        "Deleted": false,
+        "Rank": 540,
+        "Type": "non",
+        "ColorBlock": 307,
+        "IconHint": "error",
         "Selected": true,
-        "LastChanged": "2021-08-24T12:57:43.3552036+02:00",
+        "LastChanged": "2020-01-21T04:22:35.8465939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "enim",
+        "ExtraInfo": "ut",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Domingo Grimes",
+        "FullName": "Miss Prudence Tania D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 267
+            "FieldType": "System.Int32",
+            "FieldLength": 860
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "quos",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Andreanne Stanton",
+    "FullName": "Ms. Vanessa McClure DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 38
+        "FieldLength": 147
       }
     }
   }

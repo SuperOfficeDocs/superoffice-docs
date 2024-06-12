@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 820,
-  "Name": "Fahey-Lang",
-  "Tooltip": "magni",
-  "Rank": 754,
-  "Rate": 16795.106,
-  "Units": 5218.11,
+  "CurrencyId": 999,
+  "Name": "Mante Group",
+  "Tooltip": "placeat",
+  "Rank": 523,
+  "Rate": 5167.9659999999994,
+  "Units": 2557.344,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 641,
-  "Name": "Stehr-Wolff",
-  "Tooltip": "rerum",
-  "Rank": 837,
-  "Rate": 17970.356,
-  "Units": 15958.328,
-  "Deleted": false,
+  "CurrencyId": 364,
+  "Name": "Bailey LLC",
+  "Tooltip": "eum",
+  "Rank": 64,
+  "Rate": 9514.824,
+  "Units": 25410.471999999998,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

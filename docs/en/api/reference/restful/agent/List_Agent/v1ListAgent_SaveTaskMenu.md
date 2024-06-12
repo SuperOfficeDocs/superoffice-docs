@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 424,
-  "Name": "Kautzer, Collins and Osinski",
-  "Tooltip": "maxime",
-  "TableName": "Koss-Terry",
-  "Area": "quis",
+  "TaskMenuId": 300,
+  "Name": "Champlin-Nitzsche",
+  "Tooltip": "quae",
+  "TableName": "Bosco Group",
+  "Area": "quisquam",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 616,
+  "CrmScriptId": 448,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 863,
+  "Rank": 877,
   "Encoding": "ANSI",
-  "ProgId": "beatae",
-  "Deleted": true
+  "ProgId": "dolore",
+  "Deleted": false
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 520,
-  "Name": "Cruickshank-Koss",
-  "Tooltip": "asperiores",
-  "TableName": "Baumbach, Johns and Kirlin",
-  "Area": "enim",
+  "TaskMenuId": 296,
+  "Name": "Schimmel Inc and Sons",
+  "Tooltip": "praesentium",
+  "TableName": "Wehner Inc and Sons",
+  "Area": "impedit",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 688,
+  "CrmScriptId": 567,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 394,
+  "Rank": 717,
   "Encoding": "ANSI",
-  "ProgId": "voluptas",
-  "Deleted": true,
+  "ProgId": "inventore",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldLength": 888
     }
   }
 }

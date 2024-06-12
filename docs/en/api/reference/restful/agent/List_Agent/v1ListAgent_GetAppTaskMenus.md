@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 528,
-    "Name": "Gibson, Harris and Johnston",
-    "Tooltip": "ut",
-    "TableName": "Kris Inc and Sons",
-    "Area": "est",
+    "TaskMenuId": 880,
+    "Name": "Schneider-Schmidt",
+    "Tooltip": "aut",
+    "TableName": "Glover-Legros",
+    "Area": "perferendis",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 46,
+    "CrmScriptId": 431,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 58,
+    "Rank": 965,
     "Encoding": "ANSI",
-    "ProgId": "quis",
+    "ProgId": "minus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 486
       }
     }
   }

@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "distinctio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "distinctio",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 5,
-  "Name": "Mertz LLC",
-  "Config": "ut",
-  "Rank": 295,
-  "Client": "quibusdam",
-  "Style": "quo",
+  "DashboardThemeId": 797,
+  "Name": "Boehm-Cassin",
+  "Config": "quisquam",
+  "Rank": 855,
+  "Client": "sapiente",
+  "Style": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   },
   "_Links": {

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Name": "Dare, Wyman and Champlin",
-  "Tooltip": "quaerat",
+  "Id": 272,
+  "Name": "Fisher, Koch and Beahan",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 22,
-  "Rank": 335,
+  "UdListDefinitionId": 864,
+  "Rank": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 859
     }
   }
 }

@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 68,
-  "PrefDescId": 377,
-  "PrefValue": "nobis",
-  "PrefShowValue": "eum",
-  "Description": "Virtual user-facing forecast",
-  "IsBuiltin": true,
+  "PrefDescLineId": 190,
+  "PrefDescId": 515,
+  "PrefValue": "sit",
+  "PrefShowValue": "nisi",
+  "Description": "Reverse-engineered directional projection",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 522
     }
   }
 }

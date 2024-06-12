@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Grant Inc and Sons"
+  "OwnerName": "Beatty Group"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "utilize bricks-and-clicks web services",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 325,
-      "NumberOfLicensesFree": 241,
-      "NumberOfLicensesAdded": 813,
-      "NumberOfLicensesNewTotal": 131,
-      "NumberOfLicensesNewFree": 565,
-      "NumberOfLicensesTotal": 885
+      "NumberOfLicensesInUse": 649,
+      "NumberOfLicensesFree": 722,
+      "NumberOfLicensesAdded": 996,
+      "NumberOfLicensesNewTotal": 956,
+      "NumberOfLicensesNewFree": 795,
+      "NumberOfLicensesTotal": 487
     }
   ],
-  "AccumulatedNextCheckDate": "1998-11-21T12:57:34.0867473+01:00"
+  "AccumulatedNextCheckDate": "2013-03-27T04:22:26.8911471+01:00"
 }
 ```

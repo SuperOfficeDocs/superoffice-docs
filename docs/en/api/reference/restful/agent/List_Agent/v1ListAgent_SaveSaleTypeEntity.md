@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 792,
-  "Name": "Bruen Inc and Sons",
-  "Tooltip": "ipsa",
-  "Rank": 644,
+  "SaleTypeId": 903,
+  "Name": "Stroman Group",
+  "Tooltip": "itaque",
+  "Rank": 240,
   "DurationUnit": "Century",
-  "SaleDuration": 768,
-  "SaleTypeCatId": 886,
+  "SaleDuration": 164,
+  "SaleTypeCatId": 728,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 329,
-  "QuoteLinesTemplate": 571,
-  "ConfirmationLinesTemplate": 369,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 546,
-  "MinEarningPercent": 544,
-  "GroupQuoteLinesBy": 500,
-  "SortGroupLinesBy": 663,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 959,
+  "QuoteLinesTemplate": 812,
+  "ConfirmationLinesTemplate": 187,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 561,
+  "MinEarningPercent": 278,
+  "GroupQuoteLinesBy": 380,
+  "SortGroupLinesBy": 85,
   "Stages": [
     {
-      "Id": 896,
-      "Name": "Simonis-Dach",
-      "ToolTip": "Quia et porro error ex.",
+      "Id": 215,
+      "Name": "Connelly LLC",
+      "ToolTip": "Aspernatur consequatur excepturi quos sequi.",
       "Deleted": false,
-      "Rank": 126,
-      "Type": "modi",
-      "ColorBlock": 43,
-      "IconHint": "eum",
-      "Selected": false,
-      "LastChanged": "1999-10-23T12:57:34.2117122+02:00",
+      "Rank": 293,
+      "Type": "autem",
+      "ColorBlock": 35,
+      "IconHint": "perferendis",
+      "Selected": true,
+      "LastChanged": "2003-09-21T04:22:27.0329423+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "occaecati",
+      "ExtraInfo": "illo",
+      "StyleHint": "tempore",
       "Hidden": false,
-      "FullName": "Bartholome Marks"
+      "FullName": "Adriana Bernhard"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 712,
-  "Name": "Rutherford, Vandervort and Kulas",
-  "Tooltip": "aliquam",
-  "Rank": 89,
+  "SaleTypeId": 54,
+  "Name": "Stark Group",
+  "Tooltip": "tempora",
+  "Rank": 174,
   "DurationUnit": "Century",
-  "SaleDuration": 880,
-  "SaleTypeCatId": 888,
-  "Deleted": false,
+  "SaleDuration": 305,
+  "SaleTypeCatId": 484,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 14,
-  "QuoteLinesTemplate": 487,
-  "ConfirmationLinesTemplate": 34,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 520,
+  "QuoteLinesTemplate": 685,
+  "ConfirmationLinesTemplate": 47,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 558,
-  "MinEarningPercent": 495,
-  "GroupQuoteLinesBy": 411,
-  "SortGroupLinesBy": 370,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 187,
+  "MinEarningPercent": 179,
+  "GroupQuoteLinesBy": 972,
+  "SortGroupLinesBy": 427,
   "Stages": [
     {
-      "Id": 721,
-      "Name": "Zulauf, Gaylord and Schimmel",
-      "ToolTip": "Occaecati aut.",
-      "Deleted": true,
-      "Rank": 184,
-      "Type": "sed",
-      "ColorBlock": 844,
-      "IconHint": "odit",
-      "Selected": false,
-      "LastChanged": "2015-12-24T12:57:34.2117122+01:00",
+      "Id": 267,
+      "Name": "Rempel LLC",
+      "ToolTip": "Accusamus ex et distinctio.",
+      "Deleted": false,
+      "Rank": 782,
+      "Type": "cupiditate",
+      "ColorBlock": 205,
+      "IconHint": "soluta",
+      "Selected": true,
+      "LastChanged": "2004-07-06T04:22:27.0329423+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "assumenda",
+      "ExtraInfo": "ut",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Vance Hudson Jr.",
+      "FullName": "Garland Tremblay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 277
+          "FieldType": "System.Int32",
+          "FieldLength": 189
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 63
     }
   }
 }

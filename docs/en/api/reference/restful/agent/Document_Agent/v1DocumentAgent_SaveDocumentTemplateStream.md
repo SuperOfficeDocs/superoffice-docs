@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 362,
+  "DocumentTemplateId": 803,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "neque",
-  "PluginId": 289
+  "LanguageCode": "id",
+  "PluginId": 781
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reinger, Upton and Powlowski",
-  "Description": "Front-line 4th generation service-desk",
-  "ExternalReference": "tempora",
-  "MimeType": "libero",
-  "PluginId": 740
+  "Name": "Cormier-Brekke",
+  "Description": "Reduced executive attitude",
+  "ExternalReference": "beatae",
+  "MimeType": "et",
+  "PluginId": 587
 }
 ```

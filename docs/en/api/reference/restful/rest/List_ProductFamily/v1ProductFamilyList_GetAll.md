@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Ratke Group",
-    "Tooltip": "unde",
+    "Id": 705,
+    "Name": "Bailey LLC",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 703,
-    "Rank": 1002,
+    "UdListDefinitionId": 892,
+    "Rank": 12,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 705
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Johnson, Nitzsche and Kohler",
-    "ToolTip": "Et porro qui.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "sint",
-    "ColorBlock": 860,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2013-11-14T12:57:43.6520109+01:00",
+    "Id": 672,
+    "Name": "Pouros LLC",
+    "ToolTip": "Aliquid omnis earum ratione.",
+    "Deleted": false,
+    "Rank": 566,
+    "Type": "fuga",
+    "ColorBlock": 817,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "2022-08-13T04:22:36.0965902+02:00",
     "ChildItems": [
       {
-        "Id": 467,
-        "Name": "Emmerich, Harris and Hackett",
-        "ToolTip": "Facilis at ullam.",
-        "Deleted": true,
-        "Rank": 111,
-        "Type": "recusandae",
-        "ColorBlock": 200,
-        "IconHint": "nostrum",
-        "Selected": false,
-        "LastChanged": "2011-05-27T12:57:43.6520109+02:00",
+        "Id": 883,
+        "Name": "Davis Group",
+        "ToolTip": "Aut saepe fugit in qui.",
+        "Deleted": false,
+        "Rank": 548,
+        "Type": "asperiores",
+        "ColorBlock": 222,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2008-09-16T04:22:36.0965902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "eveniet",
-        "Hidden": true,
-        "FullName": "Mrs. Flossie Hansen MD"
+        "ExtraInfo": "quo",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Camren Bernardo Hirthe DDS"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "modi",
+    "ExtraInfo": "qui",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Jo Kailee Murphy I"
+    "FullName": "Aliza O'Reilly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Cremin-Ferry",
-    "ToolTip": "Quod deleniti.",
-    "Deleted": false,
-    "Rank": 299,
-    "Type": "est",
-    "ColorBlock": 588,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2020-01-24T12:57:43.6520109+01:00",
+    "Id": 531,
+    "Name": "Schuppe-Schuster",
+    "ToolTip": "Autem neque sed.",
+    "Deleted": true,
+    "Rank": 430,
+    "Type": "dicta",
+    "ColorBlock": 458,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2005-10-18T04:22:36.1122165+02:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Christiansen Group",
-        "ToolTip": "Itaque ut in velit vel maiores.",
-        "Deleted": true,
-        "Rank": 532,
-        "Type": "nobis",
-        "ColorBlock": 360,
-        "IconHint": "laboriosam",
+        "Id": 541,
+        "Name": "Quigley, Rath and Farrell",
+        "ToolTip": "Explicabo in qui nihil illo consequuntur.",
+        "Deleted": false,
+        "Rank": 738,
+        "Type": "impedit",
+        "ColorBlock": 384,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2015-07-05T12:57:43.6520109+02:00",
+        "LastChanged": "2022-12-15T04:22:36.1122165+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "labore",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Caleb Wyman",
+        "FullName": "Dr. Karl Beryl Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldLength": 707
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Vincenza Gislason",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Griffin Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldType": "System.String",
+        "FieldLength": 512
       }
     }
   }

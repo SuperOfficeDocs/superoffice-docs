@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2007-01-02T12:57:33.2116147+01:00",
-  "ToDate": "2011-11-15T12:57:33.2116147+01:00",
+  "FromDate": "2005-01-20T04:22:25.94972+01:00",
+  "ToDate": "2004-02-23T04:22:25.94972+01:00",
   "AssociateList": [
     {
-      "Id": 755,
-      "Name": "Skiles, Ward and Hermiston",
-      "ToolTip": "Temporibus qui nobis eligendi voluptatibus ducimus.",
-      "Deleted": true,
-      "Rank": 963,
-      "Type": "porro",
-      "ColorBlock": 663,
-      "IconHint": "unde",
+      "Id": 69,
+      "Name": "Hoppe-Rippin",
+      "ToolTip": "Incidunt enim non perspiciatis molestiae sequi.",
+      "Deleted": false,
+      "Rank": 290,
+      "Type": "dicta",
+      "ColorBlock": 713,
+      "IconHint": "sequi",
       "Selected": true,
-      "LastChanged": "1998-06-12T12:57:33.2116147+02:00",
+      "LastChanged": "2005-05-29T04:22:25.94972+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laudantium",
-      "StyleHint": "perferendis",
+      "ExtraInfo": "perferendis",
+      "StyleHint": "tempore",
       "Hidden": false,
-      "FullName": "Lorenzo Elisa Veum III",
+      "FullName": "Mark Keaton Dickens DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -113,57 +113,57 @@ Content-Type: application/json; charset=utf-8
   ],
   "GroupList": [
     {
-      "Id": 102,
-      "Name": "Robel, Donnelly and Ratke",
-      "ToolTip": "Ut minima consequatur.",
+      "Id": 943,
+      "Name": "Prohaska-Cormier",
+      "ToolTip": "Vitae nobis aperiam maxime ducimus quia aut omnis.",
       "Deleted": true,
-      "Rank": 501,
-      "Type": "earum",
-      "ColorBlock": 294,
-      "IconHint": "ipsam",
-      "Selected": false,
-      "LastChanged": "2020-03-14T12:57:33.2116147+01:00",
+      "Rank": 221,
+      "Type": "culpa",
+      "ColorBlock": 497,
+      "IconHint": "atque",
+      "Selected": true,
+      "LastChanged": "2014-08-29T04:22:25.94972+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "exercitationem",
-      "Hidden": true,
-      "FullName": "Alex Ron Donnelly PhD",
+      "ExtraInfo": "vel",
+      "StyleHint": "eligendi",
+      "Hidden": false,
+      "FullName": "Hilton Stroman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldType": "System.String",
+          "FieldLength": 812
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 99,
-      "Name": "Ziemann-Muller",
-      "ToolTip": "Cumque ut.",
+      "Id": 529,
+      "Name": "Kilback Inc and Sons",
+      "ToolTip": "Sed ut.",
       "Deleted": false,
-      "Rank": 632,
-      "Type": "consectetur",
+      "Rank": 705,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "atque",
-      "ColorBlock": 600,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "ab",
-      "FullName": "Ms. Kenya Desmond Lind",
+      "IconHint": "labore",
+      "ColorBlock": 401,
+      "ExtraInfo": "a",
+      "StyleHint": "illo",
+      "FullName": "Consuelo Chaim Botsford V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldLength": 526
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldType": "System.Int32",
+      "FieldLength": 535
     }
   }
 }

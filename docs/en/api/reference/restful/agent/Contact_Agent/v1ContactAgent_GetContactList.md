@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 160,
-    "Name": "Nitzsche, Emard and Kulas",
-    "OrgNr": "1170676",
-    "Department": "synthesize revolutionary communities",
+    "ContactId": 864,
+    "Name": "Kozey, Mann and Haley",
+    "OrgNr": "883968",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "quia",
-    "DirectPhone": "1-278-874-9938 x741",
-    "AssociateId": 835,
-    "CountryId": 630,
-    "EmailAddress": "rashawn_altenwerth@blick.info",
-    "Kananame": "dolore",
-    "EmailAddressName": "christy@zemlak.ca",
+    "City": "et",
+    "DirectPhone": "446-503-3394",
+    "AssociateId": 409,
+    "CountryId": 626,
+    "EmailAddress": "perry@muraziklabadie.info",
+    "Kananame": "consequatur",
+    "EmailAddressName": "brannon.pollich@cassinhauck.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Carlo Tremblay",
+    "AssociateFullName": "Gerard Wava Dickinson I",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "accusamus",
-    "FullName": "Dr. Caleigh Stiedemann Jr.",
+    "FormattedAddress": "impedit",
+    "FullName": "Miss Mossie Timothy Moen MD",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 14,
-    "Number1": "720727",
-    "Number2": "614798",
+    "ActiveErpLinks": 808,
+    "Number1": "1201866",
+    "Number2": "1012087",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldLength": 297
       }
     }
   }

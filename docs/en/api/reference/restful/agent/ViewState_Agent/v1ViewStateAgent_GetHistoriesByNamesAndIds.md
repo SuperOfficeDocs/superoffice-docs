@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Torphy-Jaskolski",
-      "EntityOrParentId": 317,
+      "EntityName": "Weimann Group",
+      "EntityOrParentId": 260,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Torphy-Jaskolski",
-      "EntityOrParentId": 317,
+      "EntityName": "Weimann Group",
+      "EntityOrParentId": 260,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 849,
-    "Id": 382,
-    "HistoryName": "Veum, Zboncak and Parisian",
-    "HistoryId": 470,
-    "AssociateId": 575,
-    "Name": "Morissette-Block",
-    "ItemInfo": "laborum",
+    "Rank": 451,
+    "Id": 894,
+    "HistoryName": "Cole-Gerlach",
+    "HistoryId": 949,
+    "AssociateId": 914,
+    "Name": "Rodriguez-Bednar",
+    "ItemInfo": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldLength": 902
       }
     }
   }

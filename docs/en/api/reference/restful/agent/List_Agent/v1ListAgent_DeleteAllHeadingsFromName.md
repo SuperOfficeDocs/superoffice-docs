@@ -68,7 +68,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schiller-Legros"
+  "Name": "Swaniawski-Hermiston"
 }
 ```
 

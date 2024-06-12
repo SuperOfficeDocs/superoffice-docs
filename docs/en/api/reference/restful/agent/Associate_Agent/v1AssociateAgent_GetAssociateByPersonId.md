@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 162
+  "PersonId": 481
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 743,
-  "Name": "Waters, Osinski and Brekke",
-  "PersonId": 394,
-  "Rank": 620,
-  "Tooltip": "pariatur",
+  "AssociateId": 547,
+  "Name": "Klocko LLC",
+  "PersonId": 665,
+  "Rank": 977,
+  "Tooltip": "vel",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 482,
-  "FullName": "Edwardo Bogan",
-  "FormalName": "McDermott, Borer and Schneider",
-  "Deleted": true,
-  "EjUserId": 134,
-  "UserName": "Ziemann Group",
+  "GroupIdx": 749,
+  "FullName": "Savion Fritsch",
+  "FormalName": "Kuhic LLC",
+  "Deleted": false,
+  "EjUserId": 236,
+  "UserName": "Mertz LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 447
     }
   }
 }

@@ -128,7 +128,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -476,7 +476,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/lastName,person/personPager/description,person/personUdef/SuperOffice:7,person/isMailingRecipient,contact/NumberOfSalesInPeriod
+GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=type,person/personAssociate/role,contact/number,contact/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

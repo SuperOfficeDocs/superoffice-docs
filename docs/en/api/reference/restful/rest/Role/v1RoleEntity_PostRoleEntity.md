@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 827,
-  "Name": "Durgan Group",
-  "Tooltip": "hic",
+  "RoleId": 637,
+  "Name": "Klein Group",
+  "Tooltip": "laudantium",
   "RoleType": "Anonymous",
-  "Deleted": 195,
-  "Rank": 584,
-  "Created": "2004-12-22T12:57:42.6513343+01:00",
-  "UseCategories": 394,
+  "Deleted": 685,
+  "Rank": 381,
+  "Created": "2009-03-26T04:22:35.1897687+01:00",
+  "UseCategories": 166,
   "CreatedBy": null,
-  "Updated": "2000-11-02T12:57:42.6513343+01:00",
+  "Updated": "2015-01-01T04:22:35.1897687+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 259,
-  "Name": "Bode LLC",
-  "Tooltip": "necessitatibus",
+  "RoleId": 4,
+  "Name": "Terry, O'Hara and Hane",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 956,
-  "Rank": 167,
-  "Created": "2021-08-12T12:57:42.6513343+02:00",
-  "UseCategories": 549,
+  "Deleted": 323,
+  "Rank": 664,
+  "Created": "2003-01-05T04:22:35.1897687+01:00",
+  "UseCategories": 475,
   "CreatedBy": null,
-  "Updated": "2012-12-22T12:57:42.6513343+01:00",
+  "Updated": "2014-07-04T04:22:35.1897687+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   },
   "_Links": {

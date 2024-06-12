@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 257,
+  "HierarchyId": 529,
   "Domain": "Dashboards",
-  "Name": "Murphy-Mosciski",
-  "Fullname": "rem",
-  "ParentId": 341,
+  "Name": "Parker Group",
+  "Fullname": "ad",
+  "ParentId": 155,
   "Children": [
     {
-      "HierarchyId": 261,
+      "HierarchyId": 388,
       "Domain": "Dashboards",
-      "Name": "Kovacek-Glover",
-      "Fullname": "voluptatem",
-      "ParentId": 392,
+      "Name": "VonRueden-Heathcote",
+      "Fullname": "sunt",
+      "ParentId": 653,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-09-20T12:57:42.4638774+02:00",
-      "RegisteredAssociateId": 903,
-      "Updated": "2005-07-18T12:57:42.4638774+02:00",
-      "UpdatedAssociateId": 918,
+      "Registered": "2016-11-08T04:22:35.0167083+01:00",
+      "RegisteredAssociateId": 193,
+      "Updated": "2000-02-17T04:22:35.0167083+01:00",
+      "UpdatedAssociateId": 729,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 464
+          "FieldLength": 835
         }
       }
     }
   ],
-  "Registered": "2022-11-07T12:57:42.4638774+01:00",
-  "RegisteredAssociateId": 867,
-  "Updated": "2009-01-02T12:57:42.4638774+01:00",
-  "UpdatedAssociateId": 397,
+  "Registered": "2016-07-06T04:22:35.0167083+02:00",
+  "RegisteredAssociateId": 252,
+  "Updated": "2016-09-27T04:22:35.0167083+02:00",
+  "UpdatedAssociateId": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 928
     }
   }
 }

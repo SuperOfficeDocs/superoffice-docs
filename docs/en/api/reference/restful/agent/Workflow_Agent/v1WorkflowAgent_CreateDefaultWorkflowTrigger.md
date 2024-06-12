@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 180,
-  "WorkflowId": 166,
+  "WorkflowTriggerId": 122,
+  "WorkflowId": 528,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Bernier Group",
-      "Description": "Visionary scalable leverage",
-      "Rank": 632,
+      "Name": "Paucek Group",
+      "Description": "Balanced heuristic groupware",
+      "Rank": 614,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bernier Group",
-      "Description": "Visionary scalable leverage",
-      "Rank": 632,
+      "Name": "Paucek Group",
+      "Description": "Balanced heuristic groupware",
+      "Rank": 614,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 345
     }
   }
 }

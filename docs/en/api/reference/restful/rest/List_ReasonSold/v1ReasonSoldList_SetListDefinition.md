@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Kihn, Brakus and Legros",
-  "Tooltip": "quos",
+  "Id": 609,
+  "Name": "Bashirian-Murray",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 607,
+  "Rank": 888,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Raynor-Bahringer",
-  "Tooltip": "voluptas",
+  "Id": 719,
+  "Name": "Hoeger-Parker",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "Rank": 50,
+  "Rank": 349,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": true,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

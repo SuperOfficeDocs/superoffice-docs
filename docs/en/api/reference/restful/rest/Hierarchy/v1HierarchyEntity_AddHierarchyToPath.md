@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 57,
+  "HierarchyId": 14,
   "Domain": "Dashboards",
-  "Name": "Hilpert-Kunze",
-  "Fullname": "autem",
-  "ParentId": 211,
+  "Name": "Auer LLC",
+  "Fullname": "qui",
+  "ParentId": 718,
   "Children": [
     {
-      "HierarchyId": 772,
+      "HierarchyId": 647,
       "Domain": "Dashboards",
-      "Name": "Jacobs Inc and Sons",
-      "Fullname": "libero",
-      "ParentId": 242,
+      "Name": "Satterfield-Auer",
+      "Fullname": "omnis",
+      "ParentId": 308,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-01-10T12:57:42.4638774+01:00",
-      "RegisteredAssociateId": 689,
-      "Updated": "2014-09-08T12:57:42.4638774+02:00",
-      "UpdatedAssociateId": 463,
+      "Registered": "2016-10-31T04:22:35.0167083+01:00",
+      "RegisteredAssociateId": 677,
+      "Updated": "2016-04-25T04:22:35.0167083+02:00",
+      "UpdatedAssociateId": 512,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldType": "System.Int32",
+          "FieldLength": 691
         }
       }
     }
   ],
-  "Registered": "2018-07-05T12:57:42.4638774+02:00",
-  "RegisteredAssociateId": 876,
-  "Updated": "1999-06-16T12:57:42.4638774+02:00",
-  "UpdatedAssociateId": 121,
+  "Registered": "1999-05-08T04:22:35.0167083+02:00",
+  "RegisteredAssociateId": 188,
+  "Updated": "2012-05-23T04:22:35.0167083+02:00",
+  "UpdatedAssociateId": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldLength": 696
     }
   }
 }

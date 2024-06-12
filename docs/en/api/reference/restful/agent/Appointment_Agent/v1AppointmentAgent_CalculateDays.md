@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 1000,
-  "StartDate": "2024-04-27T12:57:32.8990255+02:00",
-  "EndDate": "2017-01-06T12:57:32.8990255+01:00",
-  "RecurrenceCounter": 238,
+  "RecurrenceId": 802,
+  "StartDate": "2002-06-17T04:22:25.809066+02:00",
+  "EndDate": "2009-09-04T04:22:25.809066+02:00",
+  "RecurrenceCounter": 707,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2021-09-19T12:57:32.8990255+02:00",
+      "Date": "1999-05-19T04:22:25.809066+02:00",
       "IsConflict": false,
-      "Description": "Object-based systematic local area network",
-      "DescriptionStyleHint": "Optimized content-based matrix",
-      "Tooltip": "soluta"
+      "Description": "Optimized maximized encryption",
+      "DescriptionStyleHint": "Inverse systemic secured line",
+      "Tooltip": "animi"
     },
     {
-      "Date": "2021-09-19T12:57:32.8990255+02:00",
+      "Date": "1999-05-19T04:22:25.809066+02:00",
       "IsConflict": false,
-      "Description": "Object-based systematic local area network",
-      "DescriptionStyleHint": "Optimized content-based matrix",
-      "Tooltip": "soluta"
+      "Description": "Optimized maximized encryption",
+      "DescriptionStyleHint": "Inverse systemic secured line",
+      "Tooltip": "animi"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

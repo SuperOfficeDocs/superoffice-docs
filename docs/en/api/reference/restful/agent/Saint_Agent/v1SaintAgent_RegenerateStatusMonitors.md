@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Pagac Group",
-  "AssociateId": 584,
-  "DetailsTable": 65,
-  "DetailsRecord": 247,
+  "Id": 187,
+  "Name": "Wilkinson-Hagenes",
+  "AssociateId": 677,
+  "DetailsTable": 632,
+  "DetailsRecord": 128,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "qui",
+    "ParameterObject1": "aut",
     "ParameterObject2": "ipsam"
   },
-  "LastStarted": "2022-07-07T12:57:34.7896763+02:00",
-  "Created": "2011-11-28T12:57:34.7896763+01:00",
-  "StartCount": 413,
-  "DatabaseSerialNumber": "1162761",
-  "Context": "provident",
-  "Result": "in",
+  "LastStarted": "2012-04-12T04:22:27.4811343+02:00",
+  "Created": "2021-06-20T04:22:27.4811343+02:00",
+  "StartCount": 58,
+  "DatabaseSerialNumber": "804770",
+  "Context": "dolor",
+  "Result": "ad",
   "State": "All",
-  "Description": "Upgradable logistical paradigm",
-  "Response": "id",
-  "Request": "recusandae",
-  "ProgressDescription": "Digitized cohesive capacity",
-  "ProgressPercent": 51,
-  "FileName": "Shields Inc and Sons",
+  "Description": "Universal well-modulated parallelism",
+  "Response": "rerum",
+  "Request": "aut",
+  "ProgressDescription": "Total incremental conglomeration",
+  "ProgressPercent": 405,
+  "FileName": "Zemlak, McCullough and Koepp",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lubowitz LLC",
-  "Columns": "aut",
-  "SortOrder": "dignissimos",
-  "Restrictions": "magnam",
-  "Entities": "iusto",
-  "Page": 982,
-  "PageSize": 918
+  "ProviderName": "Sanford Inc and Sons",
+  "Columns": "dicta",
+  "SortOrder": "autem",
+  "Restrictions": "eum",
+  "Entities": "repellendus",
+  "Page": 13,
+  "PageSize": 34
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Cummerata, Lesch and Kling",
-    "PrimaryKey": 833,
+    "EntityName": "Hodkiewicz LLC",
+    "PrimaryKey": 608,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "autem",
-        "TooltipHint": "distinctio",
-        "LinkHint": "molestiae"
+        "DisplayValue": "dolorem",
+        "TooltipHint": "molestias",
+        "LinkHint": "labore"
       }
     },
-    "LinkHint": "sapiente",
-    "StyleHint": "et",
+    "LinkHint": "quisquam",
+    "StyleHint": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 313
       }
     }
   }

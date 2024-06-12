@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetRatingList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Value": "error",
-    "Tooltip": "veniam",
+    "Id": 433,
+    "Value": "et",
+    "Tooltip": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldLength": 258
       }
     }
   },
   {
-    "Id": 142,
-    "Value": "error",
-    "Tooltip": "veniam",
+    "Id": 433,
+    "Value": "et",
+    "Tooltip": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldLength": 258
       }
     }
   }

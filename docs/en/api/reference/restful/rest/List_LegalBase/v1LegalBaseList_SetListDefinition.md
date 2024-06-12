@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Nitzsche Inc and Sons",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 657,
+  "Id": 724,
+  "Name": "Block, Donnelly and Walker",
+  "Tooltip": "recusandae",
+  "Deleted": false,
+  "Rank": 97,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Torp-Koss",
-  "Tooltip": "aut",
+  "Id": 836,
+  "Name": "Hand LLC",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "Rank": 958,
+  "Rank": 278,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 714
     }
   }
 }

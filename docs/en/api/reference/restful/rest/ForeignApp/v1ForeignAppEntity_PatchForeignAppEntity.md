@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "provident",
+    "path": "ratione",
     "value": {}
   },
   {
     "op": "add",
-    "path": "provident",
+    "path": "ratione",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 822,
-  "Name": "Williamson-Glover",
-  "CreatedDate": "1999-06-27T12:57:42.448256+02:00",
-  "UpdatedDate": "2022-03-28T12:57:42.448256+02:00",
+  "ForeignAppId": 216,
+  "Name": "Hudson-Howell",
+  "CreatedDate": "2014-07-17T04:22:35.0010854+02:00",
+  "UpdatedDate": "2002-06-02T04:22:35.0010854+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 764,
-      "Name": "Runte Inc and Sons",
-      "CreatedDate": "2011-05-22T12:57:42.448256+02:00",
-      "UpdatedDate": "2019-02-21T12:57:42.448256+01:00",
-      "AssociateFullName": "Nova Feil",
-      "CreatedBy": "nisi",
-      "UpdatedBy": "iste",
-      "DeviceIdentifier": "odit",
-      "ForeignAppId": 980,
+      "ForeignDeviceId": 842,
+      "Name": "Baumbach, Trantow and Larson",
+      "CreatedDate": "2013-01-06T04:22:35.0010854+01:00",
+      "UpdatedDate": "2022-06-11T04:22:35.0010854+02:00",
+      "AssociateFullName": "Lavern Harris",
+      "CreatedBy": "est",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "cumque",
+      "ForeignAppId": 170,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 9
+          "FieldType": "System.String",
+          "FieldLength": 138
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 935
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

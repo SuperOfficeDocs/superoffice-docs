@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 637,
+  "TargetYear": 996,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 250
+  "Id": 86
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 386,
+  "TargetAssignmentInfoId": 799,
   "Values": [
-    529,
-    798
+    375,
+    197
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 763,
-  "DimensionListItemDisplayName": "Jerde LLC",
+  "DimensionListItem": 938,
+  "DimensionListItemDisplayName": "Denesik, Quigley and Jacobson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 273,
-  "BlobSize": 622,
-  "Description": "Face to face methodical collaboration",
-  "ExtraInfo": "incidunt",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "aut",
-  "OriginalSize": 366,
-  "CreatedDate": "2010-07-07T12:57:43.1677464+02:00",
-  "UpdatedDate": "2003-08-04T12:57:43.1677464+02:00",
+  "BlobId": 12,
+  "BlobSize": 668,
+  "Description": "Mandatory regional service-desk",
+  "ExtraInfo": "ut",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "dolores",
+  "OriginalSize": 918,
+  "CreatedDate": "1997-02-16T04:22:35.674102+01:00",
+  "UpdatedDate": "2012-07-10T04:22:35.674102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam"
+  "ConceptualType": "consequatur"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 885,
-  "BlobSize": 918,
-  "Description": "Upgradable well-modulated workforce",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 79,
+  "BlobSize": 267,
+  "Description": "Switchable 3rd generation software",
+  "ExtraInfo": "ea",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "id",
-  "OriginalSize": 862,
-  "CreatedDate": "2021-10-11T12:57:43.1677464+02:00",
-  "UpdatedDate": "2018-05-29T12:57:43.1677464+02:00",
+  "MimeType": "adipisci",
+  "OriginalSize": 28,
+  "CreatedDate": "2006-04-16T04:22:35.674102+02:00",
+  "UpdatedDate": "2024-05-16T04:22:35.674102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "animi",
+  "ConceptualType": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 626
     }
   }
 }

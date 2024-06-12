@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 366,
+  "TargetDimensionId": 741,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "aut",
-  "DimensionListName": "Miller-Zemlak",
-  "DimensionListId": 574,
-  "DimensionListLabel": "nobis",
+  "DimensionListField": "deleniti",
+  "DimensionListName": "Berge-Ullrich",
+  "DimensionListId": 100,
+  "DimensionListLabel": "nostrum",
   "SelectedDimensions": [
-    198,
-    388
+    378,
+    701
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 69,
+  "TargetDimensionId": 179,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "soluta",
-  "DimensionListName": "Balistreri, Ernser and McGlynn",
-  "DimensionListId": 348,
-  "DimensionListLabel": "veritatis",
+  "DimensionListField": "blanditiis",
+  "DimensionListName": "Schaefer-Dooley",
+  "DimensionListId": 396,
+  "DimensionListLabel": "dolorem",
   "SelectedDimensions": [
-    141,
-    751
+    896,
+    441
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 659
     }
   }
 }

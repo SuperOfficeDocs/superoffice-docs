@@ -91,7 +91,7 @@ blah....
 |hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |description| *None* |Description: The long description field on Sale|  |
 |activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |visibleFor| *None* |Visible for|  |
@@ -153,7 +153,7 @@ blah....
 |person/isProjectMember| *None* |Is project member: This person is a project member|  |
 |person/isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
 |person/updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
-|person/whenUpdatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
+|person/whenUpdatedByWorkflow| *None* |When updated by flow: When updated by flow|  |
 |person/createdByForm| *None* |Created by form: Created by form|  |
 |person/phone/formattedNumber| *None* |Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
@@ -697,7 +697,7 @@ blah....
 |saleStakeholder/person/isProjectMember| *None* |Stakeholder - Is project member: This person is a project member|  |
 |saleStakeholder/person/isStakeholder| *None* |Stakeholder - Is stakeholder: This person is a sale stakeholder|  |
 |saleStakeholder/person/updatedByWorkflow| *None* |Stakeholder - Updated by flow: Updated by flow|  |
-|saleStakeholder/person/whenUpdatedByWorkflow| *None* |Stakeholder - Updated by flow: Updated by flow|  |
+|saleStakeholder/person/whenUpdatedByWorkflow| *None* |Stakeholder - When updated by flow: When updated by flow|  |
 |saleStakeholder/person/createdByForm| *None* |Stakeholder - Created by form: Created by form|  |
 |saleStakeholder/person/phone/formattedNumber| *None* |Stakeholder - Phone: Displays phone number|  |
 |saleStakeholder/person/personDirectPhone/formattedNumber| *None* |Stakeholder - Direct - Phone: Displays phone number|  |
@@ -1341,7 +1341,7 @@ blah....
 |contactSupportPerson/isProjectMember| *None* |User support contact - Is project member: This person is a project member|  |
 |contactSupportPerson/isStakeholder| *None* |User support contact - Is stakeholder: This person is a sale stakeholder|  |
 |contactSupportPerson/updatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
-|contactSupportPerson/whenUpdatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
+|contactSupportPerson/whenUpdatedByWorkflow| *None* |User support contact - When updated by flow: When updated by flow|  |
 |contactSupportPerson/createdByForm| *None* |User support contact - Created by form: Created by form|  |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.|  |
 |contactSupportPerson/personInfo/textId| *None* |User support contact - Text ID|  |
@@ -1505,7 +1505,7 @@ blah....
 |isProjectMember| *None* |Is project member: This person is a project member|  |
 |isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
 |updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
-|whenUpdatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
+|whenUpdatedByWorkflow| *None* |When updated by flow: When updated by flow|  |
 |createdByForm| *None* |Created by form: Created by form|  |
 |favouritePersonAssociateId| *None* |Associate ID: Associate ID|  |
 |emailAddress| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
@@ -1622,7 +1622,7 @@ blah....
 |personSourceRelation/isProjectMember| *None* |Source - Is project member: This person is a project member|  |
 |personSourceRelation/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder|  |
 |personSourceRelation/updatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
-|personSourceRelation/whenUpdatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
+|personSourceRelation/whenUpdatedByWorkflow| *None* |Source - When updated by flow: When updated by flow|  |
 |personSourceRelation/createdByForm| *None* |Source - Created by form: Created by form|  |
 |personSourceRelation/restrictionContactId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
@@ -1676,7 +1676,7 @@ blah....
 |personTargetRelation/isProjectMember| *None* |Target - Is project member: This person is a project member|  |
 |personTargetRelation/isStakeholder| *None* |Target - Is stakeholder: This person is a sale stakeholder|  |
 |personTargetRelation/updatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
-|personTargetRelation/whenUpdatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
+|personTargetRelation/whenUpdatedByWorkflow| *None* |Target - When updated by flow: When updated by flow|  |
 |personTargetRelation/createdByForm| *None* |Target - Created by form: Created by form|  |
 |personTargetRelation/restrictionContactId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/restrictionPersonId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
@@ -1964,7 +1964,7 @@ blah....
 |personContact/contactSupportPerson/isProjectMember| *None* |User support contact - Is project member: This person is a project member|  |
 |personContact/contactSupportPerson/isStakeholder| *None* |User support contact - Is stakeholder: This person is a sale stakeholder|  |
 |personContact/contactSupportPerson/updatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
-|personContact/contactSupportPerson/whenUpdatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
+|personContact/contactSupportPerson/whenUpdatedByWorkflow| *None* |User support contact - When updated by flow: When updated by flow|  |
 |personContact/contactSupportPerson/createdByForm| *None* |User support contact - Created by form: Created by form|  |
 |personContact/contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.|  |
 |personContact/contactSupportPerson/personInfo/textId| *None* |User support contact - Text ID|  |
@@ -2140,7 +2140,7 @@ blah....
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
-|request/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|request/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |request/createdBy/firstName| *None* |Created by - First name: Displays the contact's first name|  |
 |request/createdBy/lastName| *None* |Created by - Last name: Displays the contact's last name|  |
 |request/createdBy/middleName| *None* |Created by - Middle Name: Displays the contact's middle name.|  |
@@ -2369,7 +2369,7 @@ blah....
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
 |personAppointment/duration| *None* |Duration: The duration of the chat session|  |
-|personAppointment/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|personAppointment/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |personAppointment/visibleFor| *None* |Visible for|  |
 |personAppointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |personAppointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -2781,7 +2781,7 @@ blah....
 |mailingAddr/person/isProjectMember| *None* |Contact - Is project member: This person is a project member|  |
 |mailingAddr/person/isStakeholder| *None* |Contact - Is stakeholder: This person is a sale stakeholder|  |
 |mailingAddr/person/updatedByWorkflow| *None* |Contact - Updated by flow: Updated by flow|  |
-|mailingAddr/person/whenUpdatedByWorkflow| *None* |Contact - Updated by flow: Updated by flow|  |
+|mailingAddr/person/whenUpdatedByWorkflow| *None* |Contact - When updated by flow: When updated by flow|  |
 |mailingAddr/person/createdByForm| *None* |Contact - Created by form: Created by form|  |
 |mailingAddr/person/phone/formattedNumber| *None* |Contact - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/formattedNumber| *None* |Contact - Direct - Phone: Displays phone number|  |
@@ -3019,7 +3019,7 @@ blah....
 |sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|sale/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID|  |
 |sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
@@ -3238,7 +3238,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=person/personHasInterests,person/ticketPriority,person/supportLanguage,person/correspondingAssociate/ejDisplayName,contact/department
+GET /api/v1/archive/Favourites?$select=visibleFor,person/personExtra/x_person_category_relation,contact/contactAssociate/ejUserId,contact/contactUdef/SuperOffice:12,project/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

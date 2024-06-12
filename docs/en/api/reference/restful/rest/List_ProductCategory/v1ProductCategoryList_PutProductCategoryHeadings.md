@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Ratke-Jaskolski",
-    "Tooltip": "sint",
+    "HeadingId": 209,
+    "Name": "Torp Group",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 979,
-    "UdListDefinitionId": 7
+    "Rank": 310,
+    "UdListDefinitionId": 510
   },
   {
-    "HeadingId": 934,
-    "Name": "Ratke-Jaskolski",
-    "Tooltip": "sint",
+    "HeadingId": 209,
+    "Name": "Torp Group",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 979,
-    "UdListDefinitionId": 7
+    "Rank": 310,
+    "UdListDefinitionId": 510
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 525,
-    "Name": "Schuster-McClure",
-    "Tooltip": "ex",
+    "HeadingId": 756,
+    "Name": "DuBuque Inc and Sons",
+    "Tooltip": "distinctio",
     "Deleted": true,
-    "Rank": 49,
-    "UdListDefinitionId": 78,
+    "Rank": 128,
+    "UdListDefinitionId": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 414
+        "FieldLength": 409
       }
     }
   }

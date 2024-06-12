@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "et",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 783,
-  "PlainMessage": "incidunt",
-  "HtmlMessage": "similique",
-  "SmsMessage": "temporibus",
-  "Description": "Distributed cohesive productivity",
-  "Subject": "voluptas",
-  "FolderId": 302,
-  "HeaderField": "voluptatibus",
-  "Design": "dicta",
+  "ShipmentMessageId": 264,
+  "PlainMessage": "rem",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "ipsa",
+  "Description": "User-friendly web-enabled customer loyalty",
+  "Subject": "et",
+  "FolderId": 930,
+  "HeaderField": "nemo",
+  "Design": "occaecati",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Object-based logistical analyzer",
-  "AccessKey": "eum",
-  "DocumentMessage": 473,
-  "Registered": "2000-02-01T12:57:42.8231706+01:00",
-  "RegisteredAssociateId": 430,
-  "Updated": "2010-08-12T12:57:42.8231706+02:00",
-  "UpdatedAssociateId": 696,
-  "UpdatedCount": 917,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Front-line contextually-based framework",
+  "AccessKey": "vel",
+  "DocumentMessage": 800,
+  "Registered": "2004-09-28T04:22:35.4553554+02:00",
+  "RegisteredAssociateId": 887,
+  "Updated": "2007-10-11T04:22:35.4553554+02:00",
+  "UpdatedAssociateId": 728,
+  "UpdatedCount": 74,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 228
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

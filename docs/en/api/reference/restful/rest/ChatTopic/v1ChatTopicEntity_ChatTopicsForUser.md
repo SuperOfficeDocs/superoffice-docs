@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,21 +98,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 744,
-    "Name": "Schaden, Langworth and White",
-    "Description": "Grass-roots impactful info-mediaries",
-    "WelcomeMessage": "animi",
+    "ChatTopicId": 137,
+    "Name": "Pagac, Sipes and Prosacco",
+    "Description": "Face to face assymetric hierarchy",
+    "WelcomeMessage": "dignissimos",
     "Language": null,
-    "LastAccept": "2018-05-24T12:57:42.1826916+02:00",
-    "SecondsPrAccept": 187,
-    "AlertRecipient": "praesentium",
+    "LastAccept": "2002-08-05T04:22:34.7340022+02:00",
+    "SecondsPrAccept": 418,
+    "AlertRecipient": "enim",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "voluptas",
+    "CollectConsent": true,
+    "BadgeHeader": "nam",
     "CustomQueueTextEnabled": true,
-    "CustomQueueText": "quis",
-    "WarnNewChatMinutes": 511,
-    "WarnManagerNewChatMinutes": 624,
+    "CustomQueueText": "saepe",
+    "WarnNewChatMinutes": 418,
+    "WarnManagerNewChatMinutes": 861,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -121,20 +121,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 180,
-    "WarnManagerChatMessageMinutes": 213,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 693,
+    "WarnManagerChatMessageMinutes": 639,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 524,
-    "OfflineFormQueueLength": 189,
+    "OfflineFormTimeLimit": 756,
+    "OfflineFormQueueLength": 255,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "dolorem",
+    "WidgetRatingText": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 498
       }
     }
   }

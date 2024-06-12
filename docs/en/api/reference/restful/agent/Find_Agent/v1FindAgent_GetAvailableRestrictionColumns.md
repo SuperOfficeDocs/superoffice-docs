@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "StorageType": "nihil",
-  "ProviderName": "Ortiz, Kozey and Sanford"
+  "ProviderName": "Jenkins-West"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quas",
-  "eum"
+  "voluptate",
+  "ut"
 ]
 ```

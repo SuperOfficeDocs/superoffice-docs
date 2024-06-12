@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 77,
-  "UniqueIdentifier": "aut",
-  "Name": "Keebler Inc and Sons",
-  "Description": "Customizable heuristic productivity",
-  "IncludeId": "quia",
-  "HierarchyId": 739,
-  "Source": "error",
-  "Registered": "1997-02-10T12:57:42.3232848+01:00",
-  "RegisteredAssociateId": 299,
-  "Updated": "2015-05-12T12:57:42.3232848+02:00",
-  "UpdatedAssociateId": 688
+  "EjscriptId": 909,
+  "UniqueIdentifier": "magnam",
+  "Name": "Schinner LLC",
+  "Description": "Expanded client-driven encryption",
+  "IncludeId": "labore",
+  "HierarchyId": 530,
+  "Source": "recusandae",
+  "Registered": "2001-01-28T04:22:34.8589991+01:00",
+  "RegisteredAssociateId": 851,
+  "Updated": "1997-04-02T04:22:34.8589991+02:00",
+  "UpdatedAssociateId": 964
 }
 ```
 
@@ -124,28 +124,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 380,
-  "UniqueIdentifier": "consectetur",
-  "Name": "Kling-Watsica",
-  "Description": "Fundamental 3rd generation algorithm",
-  "IncludeId": "officiis",
-  "HierarchyId": 325,
-  "Source": "cum",
-  "Registered": "2008-09-02T12:57:42.3232848+02:00",
-  "RegisteredAssociateId": 637,
-  "Updated": "2012-07-04T12:57:42.3232848+02:00",
-  "UpdatedAssociateId": 185,
+  "EjscriptId": 728,
+  "UniqueIdentifier": "numquam",
+  "Name": "O'Connell Group",
+  "Description": "Proactive full-range local area network",
+  "IncludeId": "quo",
+  "HierarchyId": 423,
+  "Source": "a",
+  "Registered": "1997-03-19T04:22:34.8589991+01:00",
+  "RegisteredAssociateId": 920,
+  "Updated": "2002-04-03T04:22:34.8589991+02:00",
+  "UpdatedAssociateId": 231,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 323
+      "FieldLength": 934
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

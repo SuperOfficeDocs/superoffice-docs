@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 794
+  "ProjectId": 50
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 577,
-  "Name": "Little Inc and Sons",
-  "Description": "Enhanced hybrid projection",
+  "ProjectId": 814,
+  "Name": "Lehner, Romaguera and Blick",
+  "Description": "Digitized incremental utilisation",
   "URL": "http://www.example.com/",
-  "Type": "et",
-  "AssociateId": 161,
-  "AssociateFullName": "Ewell Koss",
-  "TypeId": 597,
-  "Updated": "2020-06-22T12:57:34.664705+02:00",
-  "StatusId": 603,
-  "Status": "ea",
-  "TextId": 759,
-  "PublishTo": "2006-02-09T12:57:34.664705+01:00",
-  "PublishFrom": "2006-09-12T12:57:34.664705+02:00",
+  "Type": "mollitia",
+  "AssociateId": 835,
+  "AssociateFullName": "Evalyn Hilpert DDS",
+  "TypeId": 302,
+  "Updated": "2014-09-28T04:22:27.3466141+02:00",
+  "StatusId": 488,
+  "Status": "quisquam",
+  "TextId": 147,
+  "PublishTo": "2023-04-10T04:22:27.3466141+02:00",
+  "PublishFrom": "2008-06-03T04:22:27.3466141+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "766561",
-  "ActiveErpLinks": 290,
+  "ProjectNumber": "1066317",
+  "ActiveErpLinks": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 861
     }
   }
 }

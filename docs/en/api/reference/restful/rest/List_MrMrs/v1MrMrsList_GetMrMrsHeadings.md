@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 138,
-    "Name": "Vandervort-Ortiz",
-    "Tooltip": "libero",
+    "HeadingId": 63,
+    "Name": "Morar, Gerhold and Hilll",
+    "Tooltip": "ullam",
     "Deleted": true,
-    "Rank": 384,
-    "UdListDefinitionId": 197,
+    "Rank": 787,
+    "UdListDefinitionId": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldLength": 359
       }
     }
   }

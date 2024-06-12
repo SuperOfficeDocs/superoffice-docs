@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 961,
-    "Name": "McClure-Weissnat",
-    "Tooltip": "cupiditate",
+    "HeadingId": 132,
+    "Name": "Hamill-Schroeder",
+    "Tooltip": "blanditiis",
     "Deleted": false,
-    "Rank": 854,
-    "UdListDefinitionId": 388,
+    "Rank": 222,
+    "UdListDefinitionId": 711,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldType": "System.String",
+        "FieldLength": 376
       }
     }
   }

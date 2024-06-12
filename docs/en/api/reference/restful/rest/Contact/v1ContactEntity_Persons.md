@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Persons?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Persons?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Persons?$orderBy=name asc
-GET /api/v1/Contact/{id}/Persons?$entities=aliquid
-GET /api/v1/Contact/{id}/Persons?$top=79
-GET /api/v1/Contact/{id}/Persons?$skip=171
+GET /api/v1/Contact/{id}/Persons?$entities=minus
+GET /api/v1/Contact/{id}/Persons?$top=783
+GET /api/v1/Contact/{id}/Persons?$skip=908
 GET /api/v1/Contact/{id}/Persons?$mode=Full
 GET /api/v1/Contact/{id}/Persons?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Persons?$context=numquam
+GET /api/v1/Contact/{id}/Persons?$context=modi
 GET /api/v1/Contact/{id}/Persons?$format=JSON
 GET /api/v1/Contact/{id}/Persons?$jsonSafe=False
 GET /api/v1/Contact/{id}/Persons?$output=Display
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 6390,
+      "PrimaryKey": 1895,
       "EntityName": "sale",
-      "saleId": 6390,
-      "contactId": 7135,
-      "name": "Wiza, Crist and Ferry"
+      "saleId": 1895,
+      "contactId": 6901,
+      "name": "Kutch, Nitzsche and Ward"
     },
     {
-      "PrimaryKey": 4481,
+      "PrimaryKey": 8057,
       "EntityName": "sale",
-      "saleId": 4481,
-      "contactId": 4581,
-      "name": "Cremin, Marvin and Nitzsche"
+      "saleId": 8057,
+      "contactId": 4540,
+      "name": "Haag Group"
     }
   ]
 }

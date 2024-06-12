@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 888,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "provident",
-  "Name": "Bernier-Kutch",
-  "Description": "Devolved 4th generation matrices",
-  "Code": "facilis",
-  "PriceUnit": "vel",
-  "QuantityUnit": "est",
+  "ProductId": 373,
+  "ERPProductKey": "nemo",
+  "ERPPriceListKey": "omnis",
+  "Name": "Kohler Group",
+  "Description": "Decentralized systematic process improvement",
+  "Code": "rem",
+  "PriceUnit": "doloremque",
+  "QuantityUnit": "suscipit",
   "IsSubscription": false,
-  "SubscriptionUnit": "corrupti",
-  "DefaultSubscriptionQuantity": 12379.3,
-  "ItemNumber": "1222177",
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 29669.577999999998,
+  "ItemNumber": "920757",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rem",
-  "ProductTypeKey": "voluptatibus",
-  "VAT": 16215.315999999999,
-  "VATInfo": "odit",
-  "UnitCost": 29863.886,
-  "UnitMinimumPrice": 13983.908,
-  "UnitListPrice": 8831.612,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "eius",
+  "VAT": 8806.5399999999991,
+  "VATInfo": "doloribus",
+  "UnitCost": 11605.202,
+  "UnitMinimumPrice": 9511.69,
+  "UnitListPrice": 16262.326,
   "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "quae",
-  "Rights": "minus",
-  "Rule": "facilis",
+  "Supplier": "quaerat",
+  "SupplierCode": "modi",
+  "Rights": "sint",
+  "Rule": "veritatis",
   "ExtraInfo": [
     {
-      "Name": "Kertzmann, Heidenreich and Barton",
-      "Value": "dignissimos",
+      "Name": "Greenholt-O'Conner",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldType": "System.String",
+          "FieldLength": 159
         }
       }
     },
     {
-      "Name": "Kertzmann, Heidenreich and Barton",
-      "Value": "dignissimos",
+      "Name": "Greenholt-O'Conner",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldType": "System.String",
+          "FieldLength": 159
         }
       }
     }
   ],
-  "RawExtraInfo": "fuga",
-  "ExtraField1": "quia",
-  "ExtraField2": "iste",
-  "ExtraField3": "exercitationem",
-  "ExtraField4": "autem",
-  "ExtraField5": "iure",
-  "InStock": 26244.115999999998,
+  "RawExtraInfo": "ex",
+  "ExtraField1": "earum",
+  "ExtraField2": "officiis",
+  "ExtraField3": "fuga",
+  "ExtraField4": "voluptates",
+  "ExtraField5": "et",
+  "InStock": 7678.3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldLength": 478
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 562,
-  "Created": "1998-08-27T12:57:34.7740549+02:00",
+  "SatelliteId": 478,
+  "Created": "2017-04-11T04:22:27.4403662+02:00",
   "CreatedBy": null,
-  "Updated": "2021-03-14T12:57:34.7740549+01:00",
+  "Updated": "2005-06-17T04:22:27.4403662+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Yost-Funk",
-      "Description": "Future-proofed 24/7 protocol",
+      "Name": "Armstrong, Gulgowski and Jones",
+      "Description": "Enhanced fresh-thinking customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 264
         }
       }
     },
     {
-      "Name": "Yost-Funk",
-      "Description": "Future-proofed 24/7 protocol",
+      "Name": "Armstrong, Gulgowski and Jones",
+      "Description": "Enhanced fresh-thinking customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 264
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldLength": 329
     }
   }
 }

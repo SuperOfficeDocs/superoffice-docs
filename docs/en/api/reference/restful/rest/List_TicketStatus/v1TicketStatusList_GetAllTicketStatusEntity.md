@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 13,
-    "Name": "Langosh LLC",
+    "TicketStatusId": 295,
+    "Name": "Monahan, Kemmer and Shields",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
     "IsDefault": false,
-    "UsedInQueue": false,
+    "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 841
       }
     }
   }

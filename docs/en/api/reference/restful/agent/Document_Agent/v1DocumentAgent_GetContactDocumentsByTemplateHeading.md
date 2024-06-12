@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 937,
-  "StartTime": "2016-11-12T12:57:33.6961763+01:00",
-  "EndTime": "2003-10-19T12:57:33.6961763+02:00",
-  "Count": 30,
-  "TemplateHeadingId": 948
+  "ContactId": 815,
+  "StartTime": "2010-04-30T04:22:26.3884781+02:00",
+  "EndTime": "2015-02-07T04:22:26.3884781+01:00",
+  "Count": 305,
+  "TemplateHeadingId": 47
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 816,
-    "Attention": "delectus",
-    "Header": "qui",
-    "Name": "Stehr, Leannon and Hudson",
-    "OurRef": "nihil",
-    "YourRef": "excepturi",
-    "Description": "Mandatory mobile policy",
-    "DocumentTemplate": "dolorem",
-    "IsPublished": true,
-    "PersonId": 52,
-    "PersonFullName": "Mike Sporer",
-    "AssociateFullName": "Jeramy Ankunding",
-    "ContactId": 932,
-    "ContactName": "Altenwerth Inc and Sons",
-    "ProjectId": 369,
-    "ProjectName": "King-Cruickshank",
-    "AssociateId": 398,
-    "Snum": 825,
-    "SaleId": 188,
-    "SaleName": "Rowe LLC",
+    "DocumentId": 253,
+    "Attention": "unde",
+    "Header": "sapiente",
+    "Name": "Bode-Spencer",
+    "OurRef": "voluptatem",
+    "YourRef": "quos",
+    "Description": "Devolved fault-tolerant support",
+    "DocumentTemplate": "sit",
+    "IsPublished": false,
+    "PersonId": 903,
+    "PersonFullName": "Mr. Stewart Smitham",
+    "AssociateFullName": "Adah Bernier",
+    "ContactId": 706,
+    "ContactName": "Koss Group",
+    "ProjectId": 388,
+    "ProjectName": "Bernhard LLC",
+    "AssociateId": 521,
+    "Snum": 173,
+    "SaleId": 37,
+    "SaleName": "Willms-Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 74
       }
     }
   }

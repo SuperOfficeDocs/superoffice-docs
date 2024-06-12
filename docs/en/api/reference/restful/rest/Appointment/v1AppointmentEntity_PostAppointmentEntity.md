@@ -192,7 +192,7 @@ OK
 POST /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -200,105 +200,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-09-24T12:57:41.7826465+02:00",
-  "AppointmentId": 920,
-  "Description": "Integrated motivating throughput",
-  "Title": "at",
-  "Agenda": "doloribus",
-  "InternalNotes": "optio",
-  "StartDate": "2003-06-30T12:57:41.7826465+02:00",
-  "EndDate": "1999-12-01T12:57:41.7826465+01:00",
+  "CreatedDate": "2017-06-21T04:22:34.4996+02:00",
+  "AppointmentId": 909,
+  "Description": "Reactive transitional hierarchy",
+  "Title": "dolorem",
+  "Agenda": "quidem",
+  "InternalNotes": "vel",
+  "StartDate": "2012-04-02T04:22:34.4996+02:00",
+  "EndDate": "2012-05-04T04:22:34.4996+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 376,
+  "MotherId": 805,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-09-25T12:57:41.792153+02:00",
+  "UpdatedDate": "2022-12-08T04:22:34.4996+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 880,
+  "ActiveLinks": 769,
   "Links": [
     {
-      "EntityName": "Hand LLC",
-      "Id": 574,
-      "Description": "Balanced upward-trending secured line",
-      "ExtraInfo": "soluta",
-      "LinkId": 428
+      "EntityName": "Turcotte, Bergnaum and Schaefer",
+      "Id": 884,
+      "Description": "Optimized disintermediate definition",
+      "ExtraInfo": "dolorum",
+      "LinkId": 945
     },
     {
-      "EntityName": "Hand LLC",
-      "Id": 574,
-      "Description": "Balanced upward-trending secured line",
-      "ExtraInfo": "soluta",
-      "LinkId": 428
+      "EntityName": "Turcotte, Bergnaum and Schaefer",
+      "Id": 884,
+      "Description": "Optimized disintermediate definition",
+      "ExtraInfo": "dolorum",
+      "LinkId": 945
     }
   ],
-  "AlarmLeadTime": "quo",
+  "AlarmLeadTime": "vero",
   "HasAlarm": false,
-  "ColorIndex": 517,
+  "ColorIndex": 130,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aut",
-  "LeadTime": "voluptas",
-  "Location": "eligendi",
-  "RejectCounter": 76,
+  "LagTime": "porro",
+  "LeadTime": "iusto",
+  "Location": "aperiam",
+  "RejectCounter": 334,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 427,
-      "PersonId": 976,
-      "ContactId": 673,
-      "EmailId": 737,
+      "AssociateId": 929,
+      "PersonId": 982,
+      "ContactId": 337,
+      "EmailId": 268,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "mina.murphy@gloverhintz.co.uk",
-      "Description": "Ergonomic 24 hour benchmark"
+      "EmailAddress": "camila@mertz.info",
+      "Description": "Business-focused tangible projection"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-10-29T12:57:41.792153+02:00",
+  "ActiveDate": "2023-08-31T04:22:34.4996+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 426,
+  "PreferredTZLocation": 374,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 219,
+  "SuggestedAppointmentId": 369,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatum",
+  "CentralserviceVideomeetId": "minus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Gina Bruen",
-    "SuperOffice:2": "Alfonzo Dickens"
+    "SuperOffice:1": "Georgianna Von",
+    "SuperOffice:2": "Devyn Helga Goodwin V"
   },
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "expedita"
   },
-  "PublishEventDate": "1999-11-26T12:57:41.792153+01:00",
-  "PublishTo": "2011-07-14T12:57:41.792153+02:00",
-  "PublishFrom": "2012-07-08T12:57:41.792153+02:00",
+  "PublishEventDate": "2018-09-02T04:22:34.4996+02:00",
+  "PublishTo": "2008-07-10T04:22:34.4996+02:00",
+  "PublishFrom": "2018-03-07T04:22:34.4996+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 159,
+      "VisibleId": 182,
       "Visibility": "All",
-      "DisplayValue": "suscipit"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 159,
+      "VisibleId": 182,
       "Visibility": "All",
-      "DisplayValue": "suscipit"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -315,120 +315,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-06-25T12:57:41.792153+02:00",
-  "AppointmentId": 967,
-  "Description": "Centralized attitude-oriented database",
-  "Title": "iure",
-  "Agenda": "praesentium",
-  "InternalNotes": "dignissimos",
-  "StartDate": "1997-06-30T12:57:41.792153+02:00",
-  "EndDate": "2019-04-17T12:57:41.792153+02:00",
+  "CreatedDate": "2003-04-02T04:22:34.5152612+02:00",
+  "AppointmentId": 324,
+  "Description": "Expanded heuristic application",
+  "Title": "voluptatem",
+  "Agenda": "corrupti",
+  "InternalNotes": "maiores",
+  "StartDate": "1998-07-27T04:22:34.5152612+02:00",
+  "EndDate": "1998-06-24T04:22:34.5152612+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 695,
+  "MotherId": 145,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2024-02-23T12:57:41.8077777+01:00",
+  "UpdatedDate": "2015-03-04T04:22:34.5152612+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 820,
+  "ActiveLinks": 826,
   "Links": [
     {
-      "EntityName": "Torp-Wolff",
-      "Id": 766,
-      "Description": "Polarised intangible initiative",
-      "ExtraInfo": "dolore",
-      "LinkId": 168,
+      "EntityName": "Lynch, Hintz and Cole",
+      "Id": 224,
+      "Description": "Distributed global open architecture",
+      "ExtraInfo": "dolorem",
+      "LinkId": 999,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 836
         }
       }
     }
   ],
-  "AlarmLeadTime": "quidem",
-  "HasAlarm": true,
-  "ColorIndex": 471,
-  "IsFree": true,
+  "AlarmLeadTime": "nostrum",
+  "HasAlarm": false,
+  "ColorIndex": 605,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "corporis",
-  "LeadTime": "voluptatem",
-  "Location": "ex",
-  "RejectCounter": 279,
-  "RejectReason": "redefine user-centric technologies",
+  "LagTime": "omnis",
+  "LeadTime": "eos",
+  "Location": "ullam",
+  "RejectCounter": 144,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 66,
-      "PersonId": 911,
-      "ContactId": 990,
-      "EmailId": 329,
+      "AssociateId": 433,
+      "PersonId": 377,
+      "ContactId": 121,
+      "EmailId": 417,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "aaliyah@lueilwitz.uk",
-      "Description": "Pre-emptive foreground data-warehouse"
+      "EmailAddress": "dortha@koepp.info",
+      "Description": "Cross-group cohesive Graphic Interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-03-11T12:57:41.8077777+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-01-03T04:22:34.5152612+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 972,
+  "PreferredTZLocation": 360,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 215,
+  "SuggestedAppointmentId": 940,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "praesentium",
+  "CentralserviceVideomeetId": "eum",
   "UserDefinedFields": {
-    "SuperOffice:1": "2035637329",
-    "SuperOffice:2": "281304989"
+    "SuperOffice:1": "Imelda Auer",
+    "SuperOffice:2": "740363456"
   },
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "harum"
+    "CustomFields1": "sunt",
+    "CustomFields2": "corrupti"
   },
-  "PublishEventDate": "2021-04-27T12:57:41.8077777+02:00",
-  "PublishTo": "2001-11-19T12:57:41.8077777+01:00",
-  "PublishFrom": "2011-08-17T12:57:41.8077777+02:00",
+  "PublishEventDate": "2000-08-19T04:22:34.5152612+02:00",
+  "PublishTo": "2021-05-21T04:22:34.5152612+02:00",
+  "PublishFrom": "2012-02-25T04:22:34.5152612+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 311,
+      "VisibleId": 985,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 328
         }
       }
     },
     {
-      "VisibleId": 311,
+      "VisibleId": 985,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 328
         }
       }
     }
@@ -437,8 +437,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   },
   "_Links": {

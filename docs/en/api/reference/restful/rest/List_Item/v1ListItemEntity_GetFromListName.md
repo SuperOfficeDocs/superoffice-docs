@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
-  "Name": "Metz, Altenwerth and Gorczany",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "UdListDefinitionId": 867,
-  "Rank": 266,
+  "Id": 585,
+  "Name": "Graham Inc and Sons",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "UdListDefinitionId": 390,
+  "Rank": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

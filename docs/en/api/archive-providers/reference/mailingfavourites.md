@@ -284,7 +284,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |mailingAddr/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |mailingAddr/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
@@ -591,7 +591,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=mailingAddr/contact/restrictionAddress/zip,mailingAddr/contact/contactUdef/SuperOffice:10,mailingAddr/person/personPrivate/description,project/hasGuide,project/projectUdef/SuperOffice:2
+GET /api/v1/archive/mailingfavourites?$select=mailingOwner,mailingAddr/contact/contactAssociate/credentialType,mailingAddr/contact/contactAssociate/portraitThumbnail,mailingAddr/person/personMobilePhone/formattedNumber,mailingAddr/person/personAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

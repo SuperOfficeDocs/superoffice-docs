@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "cum",
+  "FieldLabel": "perspiciatis",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 956,
-  "ColumnId": 335,
-  "FieldDefault": "et",
-  "FieldHeight": 836,
-  "FieldLabel": "inventore",
-  "FieldLeft": 366,
-  "FieldTop": 71,
+  "UDefFieldId": 646,
+  "ColumnId": 794,
+  "FieldDefault": "minus",
+  "FieldHeight": 675,
+  "FieldLabel": "sit",
+  "FieldLeft": 470,
+  "FieldTop": 239,
   "FieldType": "Checkbox",
-  "FieldWidth": 503,
-  "FormatMask": "quia",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 996,
-  "LabelLeft": 92,
-  "LabelTop": 39,
-  "LabelWidth": 535,
-  "LastVersionId": 424,
-  "ListTableId": 962,
-  "IsMandatory": false,
+  "FieldWidth": 183,
+  "FormatMask": "fuga",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 54,
+  "LabelLeft": 217,
+  "LabelTop": 907,
+  "LabelWidth": 67,
+  "LastVersionId": 585,
+  "ListTableId": 903,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 712,
-  "ProgId": "numquam",
+  "Page1LineNo": 237,
+  "ProgId": "earum",
   "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 959,
-  "TextLength": 777,
-  "Tooltip": "omnis",
-  "UdefIdentity": 715,
-  "UDListDefinitionId": 30,
+  "ShortLabel": "expedita",
+  "TabOrder": 251,
+  "TextLength": 539,
+  "Tooltip": "cum",
+  "UdefIdentity": 756,
+  "UDListDefinitionId": 857,
   "Justification": "Center",
-  "Version": 155,
-  "TemplateVariableName": "Pouros-Grant",
+  "Version": 508,
+  "TemplateVariableName": "Pagac-Nader",
   "HasBeenPublished": true,
-  "MdoListName": "Conn Inc and Sons",
+  "MdoListName": "Dicki Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 786
     }
   }
 }

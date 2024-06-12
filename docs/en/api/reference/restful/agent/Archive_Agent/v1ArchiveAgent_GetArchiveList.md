@@ -108,47 +108,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Breitenberg, Miller and Runolfsson",
-  "ProviderName": "Roberts Inc and Sons",
+  "GuiName": "Koepp Inc and Sons",
+  "ProviderName": "Jewess Group",
   "SortOrder": [
     {
-      "Name": "O'Keefe Inc and Sons",
+      "Name": "Balistreri, O'Kon and Streich",
       "Direction": "ASC"
     },
     {
-      "Name": "O'Keefe Inc and Sons",
+      "Name": "Balistreri, O'Kon and Streich",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Klein, Anderson and Rolfson",
-      "Operator": "facere",
+      "Name": "Rolfson, White and Mueller",
+      "Operator": "et",
       "Values": [
-        "maxime",
-        "dolore"
+        "ducimus",
+        "ut"
       ],
       "DisplayValues": [
-        "fuga",
-        "adipisci"
+        "quia",
+        "quo"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 819,
+      "InterParenthesis": 763,
       "InterOperator": "And",
-      "UniqueHash": 422
+      "UniqueHash": 454
     }
   ],
   "Entities": [
-    "assumenda",
-    "soluta"
+    "harum",
+    "ut"
   ],
-  "Page": 275,
-  "PageSize": 972
+  "Page": 632,
+  "PageSize": 365
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Spinka-Sipes",
-    "PrimaryKey": 178,
+    "EntityName": "McGlynn-Hickle",
+    "PrimaryKey": 851,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nisi",
-        "TooltipHint": "quos",
-        "LinkHint": "repellat"
+        "DisplayValue": "quis",
+        "TooltipHint": "deleniti",
+        "LinkHint": "ipsam"
       }
     },
-    "LinkHint": "omnis",
-    "StyleHint": "dolore",
+    "LinkHint": "doloribus",
+    "StyleHint": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

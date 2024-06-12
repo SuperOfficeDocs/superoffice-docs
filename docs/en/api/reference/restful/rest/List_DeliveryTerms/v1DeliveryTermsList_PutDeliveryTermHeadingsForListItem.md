@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Weber-Berge",
-    "ToolTip": "Et sapiente.",
+    "Id": 654,
+    "Name": "Senger, Thompson and Rau",
+    "ToolTip": "Neque nulla dolores rem nihil incidunt quos qui.",
     "Deleted": true,
-    "Rank": 350,
-    "Type": "odit",
-    "ColorBlock": 901,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2007-01-14T12:57:43.4489324+01:00",
+    "Rank": 23,
+    "Type": "enim",
+    "ColorBlock": 937,
+    "IconHint": "voluptate",
+    "Selected": false,
+    "LastChanged": "2006-12-14T04:22:35.9247166+01:00",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "Lang, O'Hara and Orn",
-        "ToolTip": "Occaecati quo quia amet consequatur voluptas non.",
+        "Id": 622,
+        "Name": "Collier-Dickinson",
+        "ToolTip": "Illum eos et et qui rerum facilis.",
         "Deleted": false,
-        "Rank": 623,
-        "Type": "voluptatem",
-        "ColorBlock": 990,
-        "IconHint": "tempore",
+        "Rank": 799,
+        "Type": "ab",
+        "ColorBlock": 733,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2015-05-27T12:57:43.4489324+02:00",
+        "LastChanged": "2002-02-02T04:22:35.9247166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "architecto",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Dr. Kirsten Kaycee Maggio Sr."
+        "FullName": "Miss Lonnie Cecil Blanda"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "sed",
+    "ExtraInfo": "nihil",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Gardner Upton"
+    "FullName": "Katherine Dach Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Reichel LLC",
-    "ToolTip": "Aut voluptas commodi.",
+    "Id": 959,
+    "Name": "Leuschke Group",
+    "ToolTip": "Sit voluptates.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "exercitationem",
-    "ColorBlock": 82,
-    "IconHint": "distinctio",
+    "Rank": 778,
+    "Type": "dolorem",
+    "ColorBlock": 221,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2008-09-06T12:57:43.4489324+02:00",
+    "LastChanged": "2014-11-01T04:22:35.9247166+01:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Rohan-Hansen",
-        "ToolTip": "Ut officia eum autem sunt enim odit sed.",
+        "Id": 781,
+        "Name": "Cummings, Nader and Littel",
+        "ToolTip": "Voluptas reiciendis et dolor facilis debitis.",
         "Deleted": true,
-        "Rank": 178,
-        "Type": "est",
-        "ColorBlock": 501,
-        "IconHint": "inventore",
+        "Rank": 168,
+        "Type": "distinctio",
+        "ColorBlock": 433,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2018-07-18T12:57:43.4489324+02:00",
+        "LastChanged": "2013-12-21T04:22:35.9247166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "nam",
+        "ExtraInfo": "omnis",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Romaine Quigley",
+        "FullName": "Leonora Legros V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 364
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "odit",
+    "ExtraInfo": "officia",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Miss Grace Eileen Keeling PhD",
+    "FullName": "Ms. Everett Kihn III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 354
       }
     }
   }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 149,
-  "IsActive": false,
+  "ErpConnectionId": 964,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 1000,
-      "CrmFieldKey": "eligendi",
-      "CrmDisplayName": "Hegmann, Stiedemann and Jakubowski",
-      "CrmDisplayTooltip": "ipsum",
-      "ErpFieldKey": "quia",
+      "ErpFieldId": 220,
+      "CrmFieldKey": "nemo",
+      "CrmDisplayName": "Cormier-Brown",
+      "CrmDisplayTooltip": "consequatur",
+      "ErpFieldKey": "illo",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Abernathy-Koelpin",
-      "ErpDisplayTooltip": "magni",
+      "ErpDisplayName": "Greenfelder Group",
+      "ErpDisplayTooltip": "eos",
       "SyncToCrm": true,
       "SyncToErp": true,
       "ShowInGui": false,
-      "ShowInSearch": false,
+      "ShowInSearch": true,
       "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "placeat",
+      "ListReference": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 422
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   }
 }

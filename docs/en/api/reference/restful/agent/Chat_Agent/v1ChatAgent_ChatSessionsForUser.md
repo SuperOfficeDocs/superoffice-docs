@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 343,
-    "TopicId": 953,
+    "ChatSessionId": 269,
+    "TopicId": 46,
     "User": null,
     "Person": null,
-    "CustomerAlias": "voluptas",
-    "CustomerHost": "nobis",
-    "CustomerName": "Douglas Group",
-    "CustomerEmail": "gunner_harvey@swift.biz",
-    "CustomerPhone": "496.820.4110 x90440",
+    "CustomerAlias": "aut",
+    "CustomerHost": "eligendi",
+    "CustomerName": "Wiza, Watsica and Huels",
+    "CustomerEmail": "joshuah@maggioglover.name",
+    "CustomerPhone": "1-423-890-2797",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Murphy, Walker and Turner",
+    "CustomerCompanyName": "Marks, Rosenbaum and Wilkinson",
     "Status": "Closed",
-    "FirstMessage": "eos",
-    "LastMessage": "numquam",
-    "WhenRequested": "2003-11-29T12:57:33.3525051+01:00",
-    "WhenStarted": "2002-10-01T12:57:33.3525051+02:00",
-    "WhenEnded": "2019-04-14T12:57:33.3525051+02:00",
-    "WhenIdle": "2003-09-28T12:57:33.3525051+02:00",
-    "WhenFetched": "2020-04-02T12:57:33.3525051+02:00",
-    "SessionKey": "eius",
-    "InitialQueuePos": 686,
-    "AlertLevel": 155,
-    "Rank": 644,
+    "FirstMessage": "quod",
+    "LastMessage": "distinctio",
+    "WhenRequested": "2017-11-01T04:22:26.0747276+01:00",
+    "WhenStarted": "2009-06-26T04:22:26.0747276+02:00",
+    "WhenEnded": "2024-02-27T04:22:26.0747276+01:00",
+    "WhenIdle": "2005-09-11T04:22:26.0747276+02:00",
+    "WhenFetched": "1997-12-08T04:22:26.0747276+01:00",
+    "SessionKey": "quo",
+    "InitialQueuePos": 275,
+    "AlertLevel": 590,
+    "Rank": 361,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
     "Sale": null,
     "Ticket": null,
     "TransferTo": null,
-    "ChatbotIsActive": false,
-    "Rating": 817,
+    "ChatbotIsActive": true,
+    "Rating": 800,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 71
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Jacobs, Carroll and Upton"
+  "ParameterName": "Macejkovic LLC"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 232,
-  "Name": "DuBuque-Fritsch",
-  "Value": "sed",
-  "CreatedDate": "2004-04-06T12:57:33.2428569+02:00",
-  "UpdatedDate": "1997-01-29T12:57:33.2428569+01:00",
-  "CreatedBy": "id",
-  "UpdatedBy": "quod",
+  "AudienceLayoutId": 136,
+  "Name": "Kuhn LLC",
+  "Value": "sit",
+  "CreatedDate": "2005-03-28T04:22:25.9965968+02:00",
+  "UpdatedDate": "2006-11-16T04:22:25.9965968+01:00",
+  "CreatedBy": "voluptatem",
+  "UpdatedBy": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   }
 }

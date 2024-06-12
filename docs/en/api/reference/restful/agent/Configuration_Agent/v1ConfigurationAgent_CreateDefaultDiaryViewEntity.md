@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 376,
-  "Name": "McDermott, Stokes and Sporer",
-  "Tooltip": "dolore",
-  "VisibleColumns": 340,
-  "Rank": 891,
-  "AssocId": 278,
+  "DiaryViewId": 445,
+  "Name": "Luettgen-Deckow",
+  "Tooltip": "praesentium",
+  "VisibleColumns": 623,
+  "Rank": 748,
+  "AssocId": 755,
   "AssociateList": [
     {
-      "Id": 435,
-      "Name": "Bernhard, Hodkiewicz and Farrell",
-      "ToolTip": "Consectetur enim eius nam velit maiores sed quo.",
-      "Deleted": false,
-      "Rank": 993,
-      "Type": "mollitia",
-      "ColorBlock": 563,
-      "IconHint": "soluta",
-      "Selected": false,
-      "LastChanged": "2019-02-17T12:57:33.430612+01:00",
+      "Id": 523,
+      "Name": "Pouros, Bogan and Harber",
+      "ToolTip": "Repudiandae fuga voluptatem eius.",
+      "Deleted": true,
+      "Rank": 410,
+      "Type": "ipsum",
+      "ColorBlock": 551,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2008-03-15T04:22:26.1528443+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "veritatis",
+      "ExtraInfo": "minima",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Lyda Fisher DVM",
+      "FullName": "Dr. Brady Delta Treutel MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
   ],
-  "TzLocationId": 913,
+  "TzLocationId": 71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

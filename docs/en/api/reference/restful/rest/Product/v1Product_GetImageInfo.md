@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 17 Nov 2013 12:57:43 G11T
+Last-Modified: Mon, 27 Jul 2015 04:22:35 G7T
 
 {
-  "BlobId": 550,
-  "BlobSize": 206,
-  "Description": "Managed system-worthy emulation",
-  "ExtraInfo": "tempore",
+  "BlobId": 411,
+  "BlobSize": 935,
+  "Description": "Down-sized transitional hierarchy",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "id",
-  "OriginalSize": 507,
-  "CreatedDate": "2008-06-24T12:57:43.1677464+02:00",
-  "UpdatedDate": "2013-11-17T12:57:43.1677464+01:00",
+  "MimeType": "a",
+  "OriginalSize": 956,
+  "CreatedDate": "2016-05-08T04:22:35.6584781+02:00",
+  "UpdatedDate": "2015-07-27T04:22:35.6584781+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iste",
+  "ConceptualType": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 638
     }
   }
 }

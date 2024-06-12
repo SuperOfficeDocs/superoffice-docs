@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
+  "Id": 526,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 431,
-  "Name": "Collier, Franecki and Bartell",
-  "Tooltip": "et",
+  "HeadingId": 469,
+  "Name": "Boyle-Smitham",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 168,
-  "UdListDefinitionId": 115,
+  "Rank": 993,
+  "UdListDefinitionId": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldLength": 556
     }
   }
 }

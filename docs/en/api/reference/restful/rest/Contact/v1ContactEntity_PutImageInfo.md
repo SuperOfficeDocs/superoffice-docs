@@ -97,19 +97,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 910,
-  "BlobSize": 190,
-  "Description": "Decentralized didactic groupware",
-  "ExtraInfo": "eos",
+  "BlobId": 848,
+  "BlobSize": 771,
+  "Description": "Robust secondary benchmark",
+  "ExtraInfo": "nemo",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "expedita",
-  "OriginalSize": 843,
-  "CreatedDate": "2022-10-05T12:57:42.1983139+02:00",
-  "UpdatedDate": "2022-05-25T12:57:42.1983139+02:00",
+  "MimeType": "provident",
+  "OriginalSize": 910,
+  "CreatedDate": "1998-07-20T04:22:34.7496337+02:00",
+  "UpdatedDate": "2020-11-07T04:22:34.7496337+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquam"
+  "ConceptualType": "sit"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 23,
-  "BlobSize": 105,
-  "Description": "Persevering even-keeled open system",
-  "ExtraInfo": "maxime",
-  "IsEncrypted": true,
+  "BlobId": 286,
+  "BlobSize": 703,
+  "Description": "Open-source even-keeled internet solution",
+  "ExtraInfo": "quisquam",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 513,
-  "CreatedDate": "2006-04-13T12:57:42.1983139+02:00",
-  "UpdatedDate": "2014-06-05T12:57:42.1983139+02:00",
+  "MimeType": "quisquam",
+  "OriginalSize": 209,
+  "CreatedDate": "2015-08-18T04:22:34.7496337+02:00",
+  "UpdatedDate": "2017-02-16T04:22:34.7496337+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 173
     }
   }
 }

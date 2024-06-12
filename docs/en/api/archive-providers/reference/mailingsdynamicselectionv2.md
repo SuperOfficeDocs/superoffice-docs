@@ -286,7 +286,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |mailingAddr/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |mailingAddr/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
@@ -593,7 +593,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/person/associateType,mailingAddr/contact/LastActivity,mailingAddr/person/email/emailProtocol
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/contactUdef/SuperOffice:11,mailingAddr/person/personExtra/x_person_datetime,associate/contactId,project/projectPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

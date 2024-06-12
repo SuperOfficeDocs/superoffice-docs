@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 653,
-  "PlainMessage": "quibusdam",
-  "HtmlMessage": "temporibus",
-  "SmsMessage": "id",
-  "Description": "Universal composite moderator",
-  "Subject": "laudantium",
-  "FolderId": 337,
-  "HeaderField": "quo",
-  "Design": "officia",
+  "ShipmentMessageId": 333,
+  "PlainMessage": "atque",
+  "HtmlMessage": "modi",
+  "SmsMessage": "aliquid",
+  "Description": "Centralized local function",
+  "Subject": "in",
+  "FolderId": 188,
+  "HeaderField": "corporis",
+  "Design": "ipsa",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Function-based 6th generation concept",
-  "AccessKey": "et",
-  "DocumentMessage": 631,
-  "Registered": "2002-06-29T12:57:34.2429559+02:00",
-  "RegisteredAssociateId": 336,
-  "Updated": "2022-11-16T12:57:34.2429559+01:00",
-  "UpdatedAssociateId": 187,
-  "UpdatedCount": 80,
+  "InlineImages": true,
+  "LongDescription": "Multi-layered value-added website",
+  "AccessKey": "numquam",
+  "DocumentMessage": 35,
+  "Registered": "2016-01-20T04:22:27.0653754+01:00",
+  "RegisteredAssociateId": 333,
+  "Updated": "2006-05-24T04:22:27.0653754+02:00",
+  "UpdatedAssociateId": 241,
+  "UpdatedCount": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

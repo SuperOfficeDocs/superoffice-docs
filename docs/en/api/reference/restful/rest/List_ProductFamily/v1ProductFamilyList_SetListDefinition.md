@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Gutmann-Hoppe",
-  "Tooltip": "nihil",
+  "Id": 664,
+  "Name": "Kuhn, Douglas and Upton",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 965,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "Rank": 87,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 593,
-  "Name": "Schultz, Hoeger and Treutel",
-  "Tooltip": "atque",
+  "Id": 247,
+  "Name": "Greenholt, Dickens and Welch",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 445,
+  "Rank": 17,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "autem",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldType": "System.Int32",
+      "FieldLength": 967
     }
   }
 }

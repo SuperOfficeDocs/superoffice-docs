@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Skiles, Monahan and Hodkiewicz",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "UdListDefinitionId": 647,
-  "Rank": 646,
+  "Id": 121,
+  "Name": "Mills-Klocko",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "UdListDefinitionId": 731,
+  "Rank": 100,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldType": "System.String",
+      "FieldLength": 200
     }
   }
 }

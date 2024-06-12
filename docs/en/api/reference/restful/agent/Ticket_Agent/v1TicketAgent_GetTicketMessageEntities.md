@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 838,
+  "TicketId": 381,
   "MessageIds": [
-    486,
-    44
+    956,
+    318
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 5,
+    "EjMessageId": 720,
     "Ticket": null,
-    "CreatedAt": "1998-03-16T12:57:35.1957723+01:00",
+    "CreatedAt": "2011-10-18T04:22:27.9756303+02:00",
     "CreatedBy": null,
-    "Author": "recusandae",
+    "Author": "quis",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "animi",
-    "TimeSpent": 883,
-    "Body": "suscipit",
-    "HtmlBody": "quasi",
-    "EmailHeader": "herman@stark.biz",
-    "DebugInfo": "minima",
-    "MailSorter": "vel",
+    "MessageId": "minima",
+    "TimeSpent": 680,
+    "Body": "reiciendis",
+    "HtmlBody": "voluptas",
+    "EmailHeader": "herbert@hand.com",
+    "DebugInfo": "omnis",
+    "MailSorter": "odio",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "quasi",
+    "SearchTitle": "tempora",
     "MessageHeaders": [
       {
-        "Id": 371,
-        "Name": "Robel, Jacobs and Kilback",
-        "Value": "tempore",
+        "Id": 382,
+        "Name": "Herzog LLC",
+        "Value": "illum",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 886
+            "FieldType": "System.Int32",
+            "FieldLength": 134
           }
         }
       }
     ],
     "Important": false,
-    "Language": "aut",
-    "Sentiment": 192,
-    "SentimentConfidence": 148,
+    "Language": "distinctio",
+    "Sentiment": 938,
+    "SentimentConfidence": 953,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 242,
-        "Name": "Rowe-Fritsch",
-        "ContentType": "est",
-        "AttSize": 92,
-        "InlineImage": true,
-        "ContentId": "illum",
-        "AuthKey": "veritatis",
+        "AttachmentId": 596,
+        "Name": "Lubowitz Inc and Sons",
+        "ContentType": "iure",
+        "AttSize": 237,
+        "InlineImage": false,
+        "ContentId": "nemo",
+        "AuthKey": "nihil",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldLength": 544
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "sint",
-      "ExtraFields2": "quia"
+      "ExtraFields1": "labore",
+      "ExtraFields2": "eveniet"
     },
     "CustomFields": {
-      "CustomFields1": "quia",
-      "CustomFields2": "fugit"
+      "CustomFields1": "quisquam",
+      "CustomFields2": "nam"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 71
       }
     }
   }

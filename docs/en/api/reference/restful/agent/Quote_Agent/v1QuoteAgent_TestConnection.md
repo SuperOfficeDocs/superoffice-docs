@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Glover, Beer and Carter",
+  "ConnectorName": "Mayer-Walker",
   "ConnectionData": {
-    "ConnectionData1": "sint",
-    "ConnectionData2": "quas"
+    "ConnectionData1": "omnis",
+    "ConnectionData2": "repudiandae"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "blanditiis",
-  "TechExplanation": "laborum",
-  "ErrorCode": "commodi",
+  "UserExplanation": "est",
+  "TechExplanation": "autem",
+  "ErrorCode": "iure",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 821
     }
   }
 }

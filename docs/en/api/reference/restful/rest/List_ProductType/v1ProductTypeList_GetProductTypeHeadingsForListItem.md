@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Nicolas, Runolfsdottir and Stiedemann",
-    "ToolTip": "Molestias voluptate nisi alias amet repudiandae facilis non.",
+    "Id": 574,
+    "Name": "Robel, Mann and Kirlin",
+    "ToolTip": "Odio quisquam possimus vero asperiores optio.",
     "Deleted": false,
-    "Rank": 180,
-    "Type": "consequatur",
+    "Rank": 84,
+    "Type": "error",
     "ColorBlock": 126,
-    "IconHint": "maxime",
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2014-12-09T12:57:43.6207681+01:00",
+    "LastChanged": "2006-08-23T04:22:36.0809665+02:00",
     "ChildItems": [
       {
-        "Id": 145,
-        "Name": "Boyle-Koss",
-        "ToolTip": "Impedit ut.",
+        "Id": 149,
+        "Name": "Dare-Kreiger",
+        "ToolTip": "Itaque rerum facilis.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "qui",
-        "ColorBlock": 239,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2008-09-15T12:57:43.6207681+02:00",
+        "Rank": 122,
+        "Type": "omnis",
+        "ColorBlock": 404,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2006-06-12T04:22:36.0809665+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Caden Lubowitz",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Norwood Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 191
+            "FieldLength": 563
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "nobis",
+    "ExtraInfo": "placeat",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Kiana Parker",
+    "FullName": "Mrs. Andreane Hills MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

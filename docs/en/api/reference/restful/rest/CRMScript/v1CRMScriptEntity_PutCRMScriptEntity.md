@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 773,
-  "UniqueIdentifier": "aut",
-  "Name": "Schimmel-Hamill",
-  "Description": "Up-sized zero tolerance project",
-  "IncludeId": "a",
-  "HierarchyId": 321,
-  "Source": "quas",
-  "Registered": "2010-03-16T12:57:42.3232848+01:00",
-  "RegisteredAssociateId": 462,
-  "Updated": "2014-10-11T12:57:42.3232848+02:00",
-  "UpdatedAssociateId": 857
+  "EjscriptId": 989,
+  "UniqueIdentifier": "quasi",
+  "Name": "Reichel, Grant and Ortiz",
+  "Description": "Mandatory 24 hour workforce",
+  "IncludeId": "aperiam",
+  "HierarchyId": 957,
+  "Source": "veniam",
+  "Registered": "2013-03-31T04:22:34.8589991+02:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2020-05-19T04:22:34.8589991+02:00",
+  "UpdatedAssociateId": 549
 }
 ```
 
@@ -126,23 +126,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 771,
-  "UniqueIdentifier": "architecto",
-  "Name": "Schamberger Group",
-  "Description": "Devolved transitional analyzer",
-  "IncludeId": "et",
-  "HierarchyId": 894,
-  "Source": "praesentium",
-  "Registered": "2001-02-04T12:57:42.3232848+01:00",
-  "RegisteredAssociateId": 849,
-  "Updated": "2014-07-19T12:57:42.3232848+02:00",
-  "UpdatedAssociateId": 11,
+  "EjscriptId": 59,
+  "UniqueIdentifier": "facere",
+  "Name": "Lemke Inc and Sons",
+  "Description": "Balanced 6th generation implementation",
+  "IncludeId": "ducimus",
+  "HierarchyId": 793,
+  "Source": "dolorum",
+  "Registered": "2006-11-19T04:22:34.8589991+01:00",
+  "RegisteredAssociateId": 35,
+  "Updated": "2004-10-23T04:22:34.8589991+02:00",
+  "UpdatedAssociateId": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldLength": 481
     }
   },
   "_Links": {

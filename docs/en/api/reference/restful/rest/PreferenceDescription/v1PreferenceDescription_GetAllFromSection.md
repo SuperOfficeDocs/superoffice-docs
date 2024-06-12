@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 837,
-    "Section": "nesciunt",
-    "Key": "dignissimos",
-    "Name": "Schulist-Boyle",
+    "PrefDescId": 569,
+    "Section": "perferendis",
+    "Key": "eveniet",
+    "Name": "Hahn Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Streamlined empowering info-mediaries",
+    "Description": "Diverse holistic Graphic Interface",
     "IsBuiltin": true,
-    "TableName": "Blick Group",
-    "UserDefinedListId": 827,
-    "Rank": 391,
-    "SubGroup": "perspiciatis",
-    "MinLevel": 137,
-    "MaxValue": 238,
-    "MinValue": 514,
-    "RequiredLicense": "velit",
+    "TableName": "Wilderman, Pacocha and Emmerich",
+    "UserDefinedListId": 854,
+    "Rank": 962,
+    "SubGroup": "temporibus",
+    "MinLevel": 891,
+    "MaxValue": 862,
+    "MinValue": 474,
+    "RequiredLicense": "aliquid",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 89
       }
     }
   }

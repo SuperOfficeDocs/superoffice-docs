@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "tempore",
+      "RawValue": "harum",
       "Specification": null,
-      "DisplayValue": "illum",
-      "DisplayTooltip": "maxime",
+      "DisplayValue": "officia",
+      "DisplayTooltip": "ut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 429,
-      "PrefDescId": 636,
-      "TableName": "Gulgowski-Emmerich",
-      "UserPreferenceId": 672
+      "TargetId": 242,
+      "PrefDescId": 113,
+      "TableName": "Jacobson-Collier",
+      "UserPreferenceId": 219
     }
   ],
   "RemoveLowerLevels": false

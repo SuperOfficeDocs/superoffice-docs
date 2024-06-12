@@ -86,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Eichmann-Conroy",
+  "TableName": "Gleason Inc and Sons",
   "Columns": [
-    "beatae",
-    "dolore"
+    "quisquam",
+    "non"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "id",
-  "Inserts": 308,
-  "Updates": 168,
-  "Deletes": 873,
+  "Success": true,
+  "Message": "laborum",
+  "Inserts": 33,
+  "Updates": 658,
+  "Deletes": 618,
   "RowStatus": [
     {
-      "PrimaryKey": 211,
+      "PrimaryKey": 899,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eveniet",
-        "a"
+        "possimus",
+        "iure"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldLength": 739
         }
       }
     },
     {
-      "PrimaryKey": 211,
+      "PrimaryKey": 899,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eveniet",
-        "a"
+        "possimus",
+        "iure"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldLength": 739
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldLength": 651
     }
   }
 }

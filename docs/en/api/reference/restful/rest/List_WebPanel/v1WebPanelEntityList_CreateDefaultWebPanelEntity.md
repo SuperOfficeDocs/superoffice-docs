@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 984,
-  "Name": "Larkin LLC",
-  "Tooltip": "architecto",
+  "WebPanelId": 429,
+  "Name": "Kreiger LLC",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 693,
+  "Rank": 604,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Sipes-Huels",
+  "ShowInStatusBar": false,
+  "WindowName": "Zieme, Wiegand and Bashirian",
   "Url": "http://www.example.com/",
-  "ProgId": "explicabo",
-  "Icon": 502,
+  "ProgId": "repudiandae",
+  "Icon": 148,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 453
     }
   }
 }

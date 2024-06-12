@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 950,
-  "LanguageCode": "sunt"
+  "DocumentTemplateId": 900,
+  "LanguageCode": "debitis"
 }
 ```
 

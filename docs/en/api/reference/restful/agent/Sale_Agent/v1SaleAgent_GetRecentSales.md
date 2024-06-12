@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 441,
-  "Count": 905
+  "AmountLimit": 683,
+  "Count": 90
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Senger, Breitenberg and Yost",
-    "SaleDate": "2004-04-15T12:57:34.8688339+02:00",
-    "SaleId": 324,
-    "Probability": 540,
-    "Title": "ratione",
-    "Amount": 15826.699999999999,
-    "Currency": "quo",
-    "ProjectName": "Collins Group",
-    "AssociateFullName": "Casandra Deckow",
-    "Description": "Multi-channelled maximized attitude",
+    "ContactName": "Wolf, Abbott and King",
+    "SaleDate": "2023-11-25T04:22:27.5492747+01:00",
+    "SaleId": 160,
+    "Probability": 192,
+    "Title": "et",
+    "Amount": 2344.232,
+    "Currency": "laudantium",
+    "ProjectName": "Barton-Stanton",
+    "AssociateFullName": "Mr. Camryn Maximillian Lebsack Sr.",
+    "Description": "Virtual multi-state service-desk",
     "Status": "Lost",
-    "WeightedAmount": 4804.422,
-    "ProjectId": 325,
-    "EarningPercent": 10699.475999999999,
-    "Earning": 20599.782,
-    "ContactId": 556,
-    "AssociateId": 504,
-    "PersonId": 397,
-    "SaleTypeId": 600,
-    "SaleTypeName": "D'Amore, Blick and Kozey",
-    "PersonFullName": "Conrad Mariano Dare Jr.",
+    "WeightedAmount": 8841.014,
+    "ProjectId": 630,
+    "EarningPercent": 8565.222,
+    "Earning": 27366.088,
+    "ContactId": 780,
+    "AssociateId": 818,
+    "PersonId": 193,
+    "SaleTypeId": 988,
+    "SaleTypeName": "Thiel LLC",
+    "PersonFullName": "Meaghan Crona",
     "Completed": "Completed",
-    "ActiveErpLinks": 746,
-    "NextDueDate": "2004-09-14T12:57:34.8688339+02:00",
-    "Number": "1872967",
+    "ActiveErpLinks": 444,
+    "NextDueDate": "2012-12-01T04:22:27.5492747+01:00",
+    "Number": "42632",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 725
       }
     }
   }

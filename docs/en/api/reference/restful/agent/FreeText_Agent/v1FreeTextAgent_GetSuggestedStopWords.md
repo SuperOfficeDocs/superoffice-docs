@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 673
+  "CountWords": 903
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Stroman LLC",
-    "ToolTip": "Tenetur dolor neque vel tenetur.",
+    "Id": 904,
+    "Name": "Steuber-Kuhic",
+    "ToolTip": "Rem voluptas pariatur veritatis tempora modi dolores.",
     "Deleted": false,
-    "Rank": 224,
-    "Type": "consequatur",
+    "Rank": 528,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Volkman Group",
-        "ToolTip": "Aut recusandae qui.",
+        "Id": 780,
+        "Name": "Olson-Wuckert",
+        "ToolTip": "Quis nesciunt ut.",
         "Deleted": true,
-        "Rank": 644,
-        "Type": "sed",
+        "Rank": 665,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 1002,
-        "ExtraInfo": "eaque",
-        "StyleHint": "corporis",
-        "FullName": "Deborah Ratke",
+        "IconHint": "quaerat",
+        "ColorBlock": 329,
+        "ExtraInfo": "eum",
+        "StyleHint": "molestiae",
+        "FullName": "Junior Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 887
+            "FieldType": "System.Int32",
+            "FieldLength": 928
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 631,
-    "ExtraInfo": "et",
-    "StyleHint": "amet",
-    "FullName": "Amelie Barrows",
+    "IconHint": "error",
+    "ColorBlock": 850,
+    "ExtraInfo": "aliquid",
+    "StyleHint": "deleniti",
+    "FullName": "Caden Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 249
+        "FieldType": "System.Int32",
+        "FieldLength": 959
       }
     }
   }

@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 349
+  "ErpConnectionId": 401
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Dickinson Group",
+      "ErpListName": "Thiel, Hane and Reichert",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Strosin Inc and Sons",
-      "ErpFieldId": 221,
+      "ErpActorTypeName": "Larson-Bosco",
+      "ErpFieldId": 915,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldType": "System.String",
+          "FieldLength": 910
         }
       }
     }
   ],
-  "ErpConnectionId": 161,
-  "ErpConnectionName": "Wisozk-Gottlieb",
+  "ErpConnectionId": 102,
+  "ErpConnectionName": "Quitzon-Kling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 695
     }
   }
 }

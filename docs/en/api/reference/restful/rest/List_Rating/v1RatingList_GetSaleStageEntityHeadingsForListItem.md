@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Reynolds, Borer and Koss",
-    "ToolTip": "Quis beatae dolores molestiae porro incidunt veritatis dicta.",
-    "Deleted": true,
-    "Rank": 335,
-    "Type": "eius",
-    "ColorBlock": 383,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "1997-11-07T12:57:43.6832538+01:00",
+    "Id": 20,
+    "Name": "Tromp LLC",
+    "ToolTip": "Sed natus ut eum saepe cum sunt error.",
+    "Deleted": false,
+    "Rank": 533,
+    "Type": "voluptates",
+    "ColorBlock": 411,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "2016-04-19T04:22:36.1434668+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Monahan, Goyette and Haag",
-        "ToolTip": "Ad vel.",
+        "Id": 287,
+        "Name": "Koss, Wisozk and Ward",
+        "ToolTip": "Dignissimos qui libero.",
         "Deleted": true,
-        "Rank": 685,
-        "Type": "ut",
-        "ColorBlock": 36,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2020-01-07T12:57:43.6832538+01:00",
+        "Rank": 714,
+        "Type": "officia",
+        "ColorBlock": 531,
+        "IconHint": "ipsum",
+        "Selected": true,
+        "LastChanged": "1998-06-04T04:22:36.1434668+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "qui",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Dr. Elena Demario Collier II",
+        "FullName": "Frieda Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldType": "System.Int32",
+            "FieldLength": 438
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "qui",
+    "ExtraInfo": "in",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Hettie Schamberger",
+    "FullName": "Gavin Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 716
       }
     }
   }

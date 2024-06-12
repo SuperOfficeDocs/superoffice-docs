@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Moore, Stoltenberg and Hermiston",
-  "ProviderName": "Marks-Adams"
+  "GuiName": "Carter, Borer and Kertzmann",
+  "ProviderName": "Kovacek-Flatley"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Ondricka, Cremin and Cruickshank",
-      "DisplayTooltip": "provident",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Christiansen-Hammes",
+      "DisplayName": "Mante-Jewess",
+      "DisplayTooltip": "velit",
+      "DisplayType": "dolorem",
+      "CanOrderBy": true,
+      "Name": "Mitchell-Sauer",
       "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Ondricka, Quitzon and Bradtke",
-      "IsVisible": false,
-      "ExtraInfo": "similique",
-      "Width": "dolor",
-      "IconHint": "nobis",
-      "HeadingIconHint": "deleniti"
+      "RestrictionType": "et",
+      "RestrictionListName": "Ratke Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "voluptas",
+      "Width": "quia",
+      "IconHint": "non",
+      "HeadingIconHint": "ipsam"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 276,
-      "Name": "Fahey, Conroy and Wisozk",
-      "ToolTip": "Enim autem voluptas veritatis repellendus et.",
-      "Deleted": false,
-      "Rank": 27,
-      "Type": "est",
-      "ColorBlock": 565,
-      "IconHint": "accusamus",
-      "Selected": true,
-      "LastChanged": "2006-02-28T12:57:33.2116147+01:00",
+      "Id": 190,
+      "Name": "Beer-Boyle",
+      "ToolTip": "Qui odio omnis.",
+      "Deleted": true,
+      "Rank": 116,
+      "Type": "aut",
+      "ColorBlock": 439,
+      "IconHint": "laudantium",
+      "Selected": false,
+      "LastChanged": "2009-11-26T04:22:25.9653503+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "saepe",
-      "Hidden": true,
-      "FullName": "Dr. Gerardo Vincenza Altenwerth Jr.",
+      "ExtraInfo": "sunt",
+      "StyleHint": "quia",
+      "Hidden": false,
+      "FullName": "Dr. Kellie Labadie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldLength": 786
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mohr Inc and Sons",
+      "Name": "Glover, Stoltenberg and Howell",
       "Direction": "ASC"
     },
     {
-      "Name": "Mohr Inc and Sons",
+      "Name": "Glover, Stoltenberg and Howell",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ut",
+  "OwnerKeys": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

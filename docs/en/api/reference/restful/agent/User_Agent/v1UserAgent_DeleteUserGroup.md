@@ -71,8 +71,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupToDelete": 192,
-  "UserGroupToMoveTo": 508
+  "UserGroupToDelete": 272,
+  "UserGroupToMoveTo": 499
 }
 ```
 

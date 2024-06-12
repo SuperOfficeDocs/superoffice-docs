@@ -87,37 +87,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "corrupti",
-  "IsoLangCode": "quos",
-  "UserPrompt": "sunt",
-  "DisplayValue": "tenetur",
+  "ChatId": "quas",
+  "IsoLangCode": "eos",
+  "UserPrompt": "tempora",
+  "DisplayValue": "et",
   "PreviousTurns": [
     {
-      "Timestamp": "2010-07-21T12:57:32.6803248+02:00",
-      "UserPrompt": "eligendi",
-      "UserDisplayText": "repellat",
-      "BotResponse": "dicta",
+      "Timestamp": "2006-04-10T04:22:25.49599+02:00",
+      "UserPrompt": "deserunt",
+      "UserDisplayText": "voluptate",
+      "BotResponse": "exercitationem",
       "BotActions": {
-        "BotActions1": "ex",
-        "BotActions2": "similique"
+        "BotActions1": "error",
+        "BotActions2": "totam"
       },
       "Attachments": [
-        "perspiciatis",
-        "et"
+        "rem",
+        "dolore"
       ]
     },
     {
-      "Timestamp": "2010-07-21T12:57:32.6803248+02:00",
-      "UserPrompt": "eligendi",
-      "UserDisplayText": "repellat",
-      "BotResponse": "dicta",
+      "Timestamp": "2006-04-10T04:22:25.49599+02:00",
+      "UserPrompt": "deserunt",
+      "UserDisplayText": "voluptate",
+      "BotResponse": "exercitationem",
       "BotActions": {
-        "BotActions1": "ex",
-        "BotActions2": "similique"
+        "BotActions1": "error",
+        "BotActions2": "totam"
       },
       "Attachments": [
-        "perspiciatis",
-        "et"
+        "rem",
+        "dolore"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2000-03-21T12:57:32.6803248+01:00",
-  "UserPrompt": "architecto",
-  "UserDisplayText": "ut",
-  "BotResponse": "tempora",
+  "Timestamp": "2022-01-30T04:22:25.49599+01:00",
+  "UserPrompt": "aperiam",
+  "UserDisplayText": "corporis",
+  "BotResponse": "molestiae",
   "BotActions": {
-    "BotActions1": "impedit",
-    "BotActions2": "sit"
+    "BotActions1": "et",
+    "BotActions2": "eligendi"
   },
   "Attachments": [
-    "nostrum",
-    "et"
+    "dolore",
+    "assumenda"
   ]
 }
 ```

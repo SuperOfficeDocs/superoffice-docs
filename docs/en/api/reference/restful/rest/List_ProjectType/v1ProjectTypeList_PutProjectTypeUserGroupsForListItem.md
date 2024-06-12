@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Klocko LLC",
-    "ToolTip": "Deleniti corporis qui omnis quisquam incidunt.",
+    "Id": 108,
+    "Name": "Senger, Keebler and Goyette",
+    "ToolTip": "Quia id fugiat nulla eos.",
     "Deleted": true,
-    "Rank": 996,
-    "Type": "cumque",
-    "ColorBlock": 506,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "2007-11-28T12:57:43.6363894+01:00",
+    "Rank": 790,
+    "Type": "ad",
+    "ColorBlock": 192,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2011-12-24T04:22:36.0965902+01:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "DuBuque Group",
-        "ToolTip": "Magnam sint et ducimus deleniti quia.",
+        "Id": 713,
+        "Name": "Miller, Stark and Breitenberg",
+        "ToolTip": "Aut deserunt voluptate nesciunt sint dolorem.",
         "Deleted": false,
-        "Rank": 848,
-        "Type": "autem",
-        "ColorBlock": 505,
-        "IconHint": "quod",
+        "Rank": 513,
+        "Type": "doloribus",
+        "ColorBlock": 924,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2016-10-30T12:57:43.6363894+01:00",
+        "LastChanged": "2007-06-16T04:22:36.0965902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Felicita Jakubowski"
+        "ExtraInfo": "modi",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Parker Block"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "et",
+    "ExtraInfo": "et",
+    "StyleHint": "rem",
     "Hidden": true,
-    "FullName": "Edwin Cruickshank"
+    "FullName": "Augustine Wisoky"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Moen, Weimann and Eichmann",
-    "ToolTip": "Consequatur accusamus doloremque id quod neque dolorum dolores.",
+    "Id": 447,
+    "Name": "Pollich-Purdy",
+    "ToolTip": "Fuga reprehenderit assumenda asperiores eaque deserunt est.",
     "Deleted": false,
-    "Rank": 438,
-    "Type": "amet",
-    "ColorBlock": 481,
-    "IconHint": "est",
+    "Rank": 420,
+    "Type": "adipisci",
+    "ColorBlock": 702,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2009-12-12T12:57:43.6363894+01:00",
+    "LastChanged": "2016-02-26T04:22:36.0965902+01:00",
     "ChildItems": [
       {
-        "Id": 541,
-        "Name": "Lebsack-Koelpin",
-        "ToolTip": "Aut earum accusamus at pariatur.",
+        "Id": 178,
+        "Name": "Rogahn-Maggio",
+        "ToolTip": "Excepturi facilis.",
         "Deleted": false,
-        "Rank": 383,
-        "Type": "consequatur",
-        "ColorBlock": 503,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2022-08-07T12:57:43.6363894+02:00",
+        "Rank": 49,
+        "Type": "ducimus",
+        "ColorBlock": 68,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1999-05-01T04:22:36.0965902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Anastacio Nitzsche",
+        "ExtraInfo": "officiis",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Dr. Tyrell Madisen Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "hic",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Lisette Thiel",
+    "FullName": "Theron Mosciski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 989
       }
     }
   }

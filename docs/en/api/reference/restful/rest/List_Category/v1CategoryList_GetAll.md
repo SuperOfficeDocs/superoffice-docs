@@ -25,7 +25,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=True
+GET /api/v1/List/Category/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Greenholt LLC",
-    "Tooltip": "excepturi",
+    "Id": 756,
+    "Name": "Harvey-Johnston",
+    "Tooltip": "modi",
     "Deleted": false,
-    "UdListDefinitionId": 251,
-    "Rank": 876,
+    "UdListDefinitionId": 614,
+    "Rank": 117,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 611
       }
     }
   }

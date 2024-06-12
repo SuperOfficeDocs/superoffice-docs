@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 549,
-  "Name": "Parker Group",
-  "Tooltip": "veniam",
-  "Rank": 289,
-  "Rate": 23053.703999999998,
-  "Units": 26494.836,
-  "Deleted": true,
+  "CurrencyId": 922,
+  "Name": "Huels, Turcotte and Effertz",
+  "Tooltip": "dolor",
+  "Rank": 609,
+  "Rate": 8756.3959999999988,
+  "Units": 11100.627999999999,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldLength": 923
     }
   }
 }

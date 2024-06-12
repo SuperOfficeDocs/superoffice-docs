@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=sapiente
+GET /api/v1/List/Credited/MDOItems?query=in
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Carroll Inc and Sons",
-    "ToolTip": "In et quis vel praesentium aut qui.",
-    "Deleted": true,
-    "Rank": 242,
-    "Type": "voluptatem",
+    "Id": 408,
+    "Name": "Kutch-Kreiger",
+    "ToolTip": "Aut quasi qui libero quisquam.",
+    "Deleted": false,
+    "Rank": 390,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Koss Group",
-        "ToolTip": "Iure ad vitae nesciunt libero voluptas quisquam.",
-        "Deleted": false,
-        "Rank": 310,
-        "Type": "qui",
+        "Id": 552,
+        "Name": "Hane, Sipes and Ebert",
+        "ToolTip": "Quasi doloremque adipisci.",
+        "Deleted": true,
+        "Rank": 940,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 228,
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "aliquid",
-        "FullName": "Filiberto Michelle Greenfelder Sr.",
+        "IconHint": "commodi",
+        "ColorBlock": 334,
+        "ExtraInfo": "quia",
+        "StyleHint": "unde",
+        "FullName": "Susanna Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 177
+            "FieldLength": 940
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 687,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "voluptatem",
-    "FullName": "Mr. Rylan Adella Hammes DDS",
+    "IconHint": "praesentium",
+    "ColorBlock": 998,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "harum",
+    "FullName": "Clement Quigley PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 984
       }
     }
   }

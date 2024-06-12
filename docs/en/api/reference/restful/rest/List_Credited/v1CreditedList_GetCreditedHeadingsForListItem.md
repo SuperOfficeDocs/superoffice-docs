@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Gislason-Abbott",
-    "ToolTip": "Est ratione occaecati similique esse quia ipsum dolore.",
+    "Id": 727,
+    "Name": "Hauck-Terry",
+    "ToolTip": "Saepe culpa quo reprehenderit repudiandae provident.",
     "Deleted": false,
-    "Rank": 207,
-    "Type": "qui",
-    "ColorBlock": 853,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "1997-03-28T12:57:43.4176894+01:00",
+    "Rank": 521,
+    "Type": "consequatur",
+    "ColorBlock": 291,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2007-09-19T04:22:35.8934712+02:00",
     "ChildItems": [
       {
-        "Id": 419,
-        "Name": "Marvin LLC",
-        "ToolTip": "Recusandae excepturi tenetur aut voluptatem.",
+        "Id": 805,
+        "Name": "Rippin-Pagac",
+        "ToolTip": "Eligendi id aut sed quo perferendis.",
         "Deleted": true,
-        "Rank": 907,
-        "Type": "consectetur",
-        "ColorBlock": 901,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2007-11-27T12:57:43.4176894+01:00",
+        "Rank": 222,
+        "Type": "repellendus",
+        "ColorBlock": 936,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "1997-01-31T04:22:35.8934712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "eaque",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Colleen O'Kon",
+        "FullName": "Oliver Cormier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 893
+            "FieldType": "System.Int32",
+            "FieldLength": 677
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "atque",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "labore",
     "Hidden": true,
-    "FullName": "Sidney Veum",
+    "FullName": "Mr. Orlando Dovie Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 494
+        "FieldType": "System.Int32",
+        "FieldLength": 48
       }
     }
   }

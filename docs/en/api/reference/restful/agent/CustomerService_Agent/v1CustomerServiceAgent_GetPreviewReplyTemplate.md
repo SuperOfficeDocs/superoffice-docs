@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 956
+  "ReplyTemplateId": 654
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pfannerstill Group",
-  "Description": "Switchable local service-desk",
-  "OwnedByFullName": "Burnice Friesen",
-  "Updated": "2003-10-04T12:57:33.6336908+02:00",
-  "Body": "pariatur",
-  "IsHtml": false,
+  "Name": "Kihn Group",
+  "Description": "Implemented transitional attitude",
+  "OwnedByFullName": "Melba Cruickshank",
+  "Updated": "2001-06-08T04:22:26.3415618+02:00",
+  "Body": "atque",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 270
     }
   }
 }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nienow Group",
-  "Columns": "unde",
-  "SortOrder": "impedit",
-  "Restriction": "et",
-  "Entities": "necessitatibus",
-  "Page": 409,
-  "PageSize": 798,
-  "Options": "consequatur"
+  "ProviderName": "Moen-Corwin",
+  "Columns": "soluta",
+  "SortOrder": "occaecati",
+  "Restriction": "aut",
+  "Entities": "debitis",
+  "Page": 991,
+  "PageSize": 226,
+  "Options": "quae"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 284,
+  "RowCount": 417,
   "Rows": [
     {
-      "EntityName": "Breitenberg, Effertz and DuBuque",
-      "PrimaryKey": 349,
+      "EntityName": "Romaguera LLC",
+      "PrimaryKey": 502,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minus",
-          "TooltipHint": "error",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "ex",
+          "TooltipHint": "est",
+          "LinkHint": "eveniet"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "nemo",
+      "LinkHint": "aut",
+      "StyleHint": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 201
+          "FieldType": "System.Int32",
+          "FieldLength": 564
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 670
+      "FieldType": "System.Int32",
+      "FieldLength": 578
     }
   }
 }

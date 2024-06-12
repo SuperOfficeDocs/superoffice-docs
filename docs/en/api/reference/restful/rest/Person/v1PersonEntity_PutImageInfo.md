@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 336,
-  "BlobSize": 836,
-  "Description": "Visionary high-level Graphic Interface",
-  "ExtraInfo": "consequatur",
-  "IsEncrypted": false,
+  "BlobId": 597,
+  "BlobSize": 498,
+  "Description": "Front-line leading edge info-mediaries",
+  "ExtraInfo": "quo",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "assumenda",
-  "OriginalSize": 689,
-  "CreatedDate": "1999-12-12T12:57:42.588849+01:00",
-  "UpdatedDate": "2014-04-26T12:57:42.588849+02:00",
+  "MimeType": "maxime",
+  "OriginalSize": 739,
+  "CreatedDate": "1999-04-03T04:22:35.1260788+02:00",
+  "UpdatedDate": "2013-09-19T04:22:35.1260788+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque"
+  "ConceptualType": "repellendus"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 773,
-  "BlobSize": 588,
-  "Description": "User-centric zero defect moderator",
-  "ExtraInfo": "perspiciatis",
+  "BlobId": 287,
+  "BlobSize": 858,
+  "Description": "Open-source didactic concept",
+  "ExtraInfo": "distinctio",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "quis",
-  "OriginalSize": 688,
-  "CreatedDate": "2019-03-14T12:57:42.588849+01:00",
-  "UpdatedDate": "1999-08-13T12:57:42.588849+02:00",
+  "IsZipped": true,
+  "MimeType": "voluptate",
+  "OriginalSize": 968,
+  "CreatedDate": "2004-05-19T04:22:35.1260788+02:00",
+  "UpdatedDate": "2002-06-07T04:22:35.1260788+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "officia",
+  "ConceptualType": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 803
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Waters Inc and Sons",
-    "ToolTip": "Magni corrupti voluptatem.",
-    "Deleted": true,
-    "Rank": 484,
-    "Type": "non",
+    "Id": 223,
+    "Name": "Koss, Hartmann and Langosh",
+    "ToolTip": "Magni doloribus quia.",
+    "Deleted": false,
+    "Rank": 880,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 604,
-        "Name": "McGlynn LLC",
-        "ToolTip": "Et accusantium sunt ipsa dolor explicabo ut.",
+        "Id": 713,
+        "Name": "Streich, Funk and Sipes",
+        "ToolTip": "Magni aut voluptas ex necessitatibus.",
         "Deleted": false,
-        "Rank": 499,
-        "Type": "est",
+        "Rank": 950,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 215,
-        "ExtraInfo": "autem",
-        "StyleHint": "qui",
-        "FullName": "Jarret Ryan",
+        "IconHint": "ea",
+        "ColorBlock": 784,
+        "ExtraInfo": "qui",
+        "StyleHint": "ex",
+        "FullName": "Serenity Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldLength": 364
           }
         }
       }
     ],
-    "IconHint": "suscipit",
-    "ColorBlock": 628,
-    "ExtraInfo": "beatae",
-    "StyleHint": "rerum",
-    "FullName": "Stanley Ebert IV",
+    "IconHint": "non",
+    "ColorBlock": 312,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "optio",
+    "FullName": "Dr. Lance Hartmann I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 417
       }
     }
   }

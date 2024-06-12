@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kutch-Schaden",
-    "Operator": "possimus",
+    "Name": "Collins Group",
+    "Operator": "quia",
     "Values": [
-      "id",
-      "quia"
+      "similique",
+      "enim"
     ],
     "DisplayValues": [
-      "ducimus",
-      "explicabo"
+      "aut",
+      "deserunt"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hegmann Inc and Sons",
-        "Operator": "aut",
+        "Name": "Fadel Group",
+        "Operator": "magnam",
         "Values": [
-          "est",
-          "quod"
+          "molestias",
+          "consequatur"
         ],
         "DisplayValues": [
-          "quo",
-          "quam"
+          "molestiae",
+          "quas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 811,
+        "InterParenthesis": 987,
         "InterOperator": "And",
-        "UniqueHash": 593
+        "UniqueHash": 55
       }
     ],
-    "InterParenthesis": 258,
+    "InterParenthesis": 466,
     "InterOperator": "And",
-    "UniqueHash": 824
+    "UniqueHash": 77
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Littel, Bradtke and Wolf",
+    "Name": "Auer Group",
     "Operator": "et",
     "Values": [
-      "quis",
-      "neque"
+      "quos",
+      "debitis"
     ],
     "DisplayValues": [
-      "odit",
-      "dignissimos"
+      "dolores",
+      "adipisci"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Volkman-Lynch",
-        "Operator": "aut",
+        "Name": "DuBuque LLC",
+        "Operator": "voluptatibus",
         "Values": [
-          "sit",
-          "harum"
+          "qui",
+          "non"
         ],
         "DisplayValues": [
-          "consequatur",
-          "id"
+          "ut",
+          "fugit"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 934,
+        "InterParenthesis": 413,
         "InterOperator": "And",
-        "UniqueHash": 203
+        "UniqueHash": 691
       }
     ],
-    "InterParenthesis": 697,
+    "InterParenthesis": 107,
     "InterOperator": "And",
-    "UniqueHash": 824
+    "UniqueHash": 651
   }
 ]
 ```

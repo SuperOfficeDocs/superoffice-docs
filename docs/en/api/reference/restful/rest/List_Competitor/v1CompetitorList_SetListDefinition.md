@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Becker LLC",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 319,
+  "Id": 54,
+  "Name": "Willms Inc and Sons",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "Rank": 913,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "libero",
+  "ListType": "facere",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 594,
-  "Name": "Shanahan Group",
-  "Tooltip": "quasi",
-  "Deleted": true,
-  "Rank": 566,
+  "Id": 494,
+  "Name": "Olson, Nikolaus and Kiehn",
+  "Tooltip": "consectetur",
+  "Deleted": false,
+  "Rank": 741,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

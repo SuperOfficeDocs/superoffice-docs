@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 751,
-      "ContactName": "Gerhold Inc and Sons",
-      "PersonId": 541,
-      "PersonName": "Kuphal, O'Kon and Ziemann",
-      "AssociateId": 594,
-      "Address": "quidem",
-      "EmailId": 370,
+      "ContactId": 562,
+      "ContactName": "Jacobson-Thompson",
+      "PersonId": 716,
+      "PersonName": "Doyle, Okuneva and Powlowski",
+      "AssociateId": 803,
+      "Address": "pariatur",
+      "EmailId": 665,
       "DuplicatePersonIds": [
-        916,
-        186
+        247,
+        777
       ],
-      "Name": "Sipes, Senger and Yost",
+      "Name": "Roberts, Murazik and Dickens",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 942
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 708,
-      "ContactName": "Cole Inc and Sons",
-      "PersonId": 437,
-      "PersonName": "Legros-Powlowski",
-      "AssociateId": 198,
-      "Address": "sint",
-      "EmailId": 907,
+      "ContactId": 687,
+      "ContactName": "Mann Inc and Sons",
+      "PersonId": 449,
+      "PersonName": "Stehr-Ryan",
+      "AssociateId": 259,
+      "Address": "sequi",
+      "EmailId": 768,
       "DuplicatePersonIds": [
-        903,
-        642
+        755,
+        659
       ],
-      "Name": "Morissette, Ferry and Homenick",
+      "Name": "Berge, McDermott and Towne",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 579
+          "FieldType": "System.Int32",
+          "FieldLength": 573
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 165,
-      "ContactName": "Cummerata-Klein",
-      "PersonId": 918,
-      "PersonName": "Altenwerth Inc and Sons",
-      "AssociateId": 231,
-      "Address": "voluptatum",
-      "EmailId": 281,
+      "ContactId": 816,
+      "ContactName": "Little, Schuppe and Mohr",
+      "PersonId": 335,
+      "PersonName": "O'Keefe, Marvin and Emmerich",
+      "AssociateId": 121,
+      "Address": "ut",
+      "EmailId": 836,
       "DuplicatePersonIds": [
-        70,
-        152
+        702,
+        732
       ],
-      "Name": "Johns, Mann and Kassulke",
+      "Name": "Heaney, Sipes and Hartmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldType": "System.String",
+          "FieldLength": 203
         }
       }
     }
   ],
-  "Subject": "dolorum",
-  "HTMLBody": "delectus",
+  "Subject": "quae",
+  "HTMLBody": "molestiae",
   "From": null,
-  "Sent": "2020-05-07T12:57:33.930529+02:00",
-  "Size": 800,
+  "Sent": "2000-01-09T04:22:26.7491153+01:00",
+  "Size": 373,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "magni",
-  "PlainBody": "quis",
+  "MessageID": "iusto",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 842,
+  "ServerId": 144,
   "Attachments": [
     {
-      "Description": "User-centric hybrid groupware",
-      "Filename": "eum",
-      "Size": 848,
-      "Type": "dicta",
-      "Encoding": "iusto",
-      "Id": "quasi",
-      "Disposition": "doloremque",
-      "IsSafeFileExtension": true,
+      "Description": "Grass-roots heuristic instruction set",
+      "Filename": "quia",
+      "Size": 678,
+      "Type": "autem",
+      "Encoding": "qui",
+      "Id": "deserunt",
+      "Disposition": "voluptates",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 289
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Robel, Abernathy and Fay",
+      "Name": "Frami-Bradtke",
       "Values": [
-        "occaecati",
-        "delectus"
+        "deserunt",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 561
         }
       }
     },
     {
-      "Name": "Robel, Abernathy and Fay",
+      "Name": "Frami-Bradtke",
       "Values": [
-        "occaecati",
-        "delectus"
+        "deserunt",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 561
         }
       }
     }
   ],
-  "FolderName": "Homenick Inc and Sons",
-  "EmailItemId": 654,
-  "AccountId": 598,
-  "ReceivedAt": "2004-06-20T12:57:33.930529+02:00",
+  "FolderName": "Ankunding, Schaefer and Spinka",
+  "EmailItemId": 312,
+  "AccountId": 998,
+  "ReceivedAt": "2004-04-04T04:22:26.7491153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-03-06T12:57:33.930529+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2001-07-25T04:22:26.7491153+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 957
     }
   }
 }

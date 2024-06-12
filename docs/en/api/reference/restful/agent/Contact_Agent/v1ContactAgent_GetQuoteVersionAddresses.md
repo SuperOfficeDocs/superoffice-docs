@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 481
+  "QuoteVersionId": 942
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 2917.754,
-    "Wgs84Longitude": 27341.016,
+    "Wgs84Latitude": 25153.484,
+    "Wgs84Longitude": 9536.7619999999988,
     "LocalizedAddress": [
       [
         {
-          "Name": "Sawayn, Altenwerth and Fadel",
-          "Value": "nobis",
-          "Tooltip": "deserunt",
-          "Label": "sit",
-          "ValueLength": 861,
-          "AddressType": "qui",
+          "Name": "Jacobs-Hayes",
+          "Value": "qui",
+          "Tooltip": "nisi",
+          "Label": "et",
+          "ValueLength": 859,
+          "AddressType": "sed",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 460
+              "FieldType": "System.String",
+              "FieldLength": 291
             }
           }
         }
       ],
       [
         {
-          "Name": "Treutel-Howell",
-          "Value": "ducimus",
-          "Tooltip": "quo",
-          "Label": "qui",
-          "ValueLength": 568,
-          "AddressType": "aut",
+          "Name": "Hills, Nader and Ruecker",
+          "Value": "itaque",
+          "Tooltip": "sed",
+          "Label": "amet",
+          "ValueLength": 992,
+          "AddressType": "aspernatur",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 926
+              "FieldType": "System.String",
+              "FieldLength": 425
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "exercitationem",
+    "Formatted": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldLength": 363
       }
     }
   }

@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 834,
-  "Name": "Kulas, Kulas and Pagac",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 563,
-  "UdListDefinitionId": 738
+  "HeadingId": 61,
+  "Name": "Hills-Tillman",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 668,
+  "UdListDefinitionId": 759
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 528,
-  "Name": "Pacocha Inc and Sons",
-  "Tooltip": "sit",
+  "HeadingId": 482,
+  "Name": "Price LLC",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 442,
-  "UdListDefinitionId": 444,
+  "Rank": 48,
+  "UdListDefinitionId": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

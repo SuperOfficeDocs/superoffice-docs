@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Hyatt Group",
-    "ToolTip": "Quas cum dolor.",
-    "Deleted": true,
-    "Rank": 350,
-    "Type": "officiis",
-    "ColorBlock": 203,
-    "IconHint": "sint",
+    "Id": 33,
+    "Name": "Goodwin, Wisoky and Blanda",
+    "ToolTip": "Eos exercitationem nisi aspernatur.",
+    "Deleted": false,
+    "Rank": 64,
+    "Type": "sunt",
+    "ColorBlock": 812,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2017-10-18T12:57:43.6676321+02:00",
+    "LastChanged": "2020-12-11T04:22:36.1278402+01:00",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Turcotte-Harris",
-        "ToolTip": "Est sit magnam exercitationem iusto in ipsum quis.",
+        "Id": 131,
+        "Name": "Lowe Group",
+        "ToolTip": "Eos numquam.",
         "Deleted": true,
-        "Rank": 882,
-        "Type": "iure",
-        "ColorBlock": 484,
-        "IconHint": "quasi",
+        "Rank": 526,
+        "Type": "omnis",
+        "ColorBlock": 407,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2018-06-28T12:57:43.6676321+02:00",
+        "LastChanged": "2023-04-24T04:22:36.1278402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "odio",
+        "ExtraInfo": "quia",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Mrs. Carolyn Jan Hand",
+        "FullName": "Sydnie Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldType": "System.String",
+            "FieldLength": 82
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "qui",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Lonzo Veum",
+    "FullName": "Tremayne Roob II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 80
       }
     }
   }

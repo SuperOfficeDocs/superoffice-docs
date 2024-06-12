@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Corwin-Schaefer"
+  "FunctionalRightName": "Lakin Group"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Willms Group",
-    "ToolTip": "Voluptatem veniam tempore.",
+    "Id": 649,
+    "Name": "Ankunding, Oberbrunner and Harber",
+    "ToolTip": "Ratione et.",
     "Deleted": false,
-    "Rank": 887,
-    "Type": "porro",
+    "Rank": 675,
+    "Type": "recusandae",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Jakubowski-Kemmer",
-        "ToolTip": "Tempore qui.",
+        "Id": 113,
+        "Name": "O'Reilly-Weber",
+        "ToolTip": "Iusto doloribus facilis officiis et consequuntur omnis tempora.",
         "Deleted": false,
-        "Rank": 440,
-        "Type": "et",
+        "Rank": 775,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "harum",
-        "ColorBlock": 663,
-        "ExtraInfo": "dolores",
-        "StyleHint": "dolorem",
-        "FullName": "Prof. Rubye Ashleigh Hayes PhD",
+        "IconHint": "optio",
+        "ColorBlock": 461,
+        "ExtraInfo": "at",
+        "StyleHint": "quo",
+        "FullName": "Angelita Naomi Stracke III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 763
+            "FieldLength": 742
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 557,
-    "ExtraInfo": "eos",
-    "StyleHint": "temporibus",
-    "FullName": "Lilliana Green Batz II",
+    "IconHint": "alias",
+    "ColorBlock": 873,
+    "ExtraInfo": "ipsum",
+    "StyleHint": "dolorem",
+    "FullName": "Katelyn Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 90
       }
     }
   }

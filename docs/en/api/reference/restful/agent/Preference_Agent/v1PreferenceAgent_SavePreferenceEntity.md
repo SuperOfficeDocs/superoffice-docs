@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "eos",
+  "RawValue": "illum",
   "Specification": null,
-  "DisplayValue": "deleniti",
-  "DisplayTooltip": "ut",
+  "DisplayValue": "vel",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 157,
-  "PrefDescId": 238,
-  "TableName": "Kautzer, Stoltenberg and Heidenreich",
-  "UserPreferenceId": 703,
+  "TargetId": 549,
+  "PrefDescId": 684,
+  "TableName": "Casper, Krajcik and Kozey",
+  "UserPreferenceId": 899,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 463
     }
   }
 }

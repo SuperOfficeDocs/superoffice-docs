@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Wolf-Ondricka",
-    "ToolTip": "Veritatis quasi eos quaerat dicta eligendi aperiam.",
+    "Id": 971,
+    "Name": "Schumm LLC",
+    "ToolTip": "Quia ex molestiae sapiente similique.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "veniam",
-    "ColorBlock": 936,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2017-07-21T12:57:43.5270395+02:00",
+    "Rank": 507,
+    "Type": "labore",
+    "ColorBlock": 841,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2024-02-08T04:22:36.0028417+01:00",
     "ChildItems": [
       {
-        "Id": 813,
-        "Name": "Hackett Inc and Sons",
-        "ToolTip": "Impedit aut labore distinctio porro.",
-        "Deleted": true,
-        "Rank": 634,
-        "Type": "voluptas",
-        "ColorBlock": 183,
-        "IconHint": "nisi",
+        "Id": 811,
+        "Name": "Jacobi LLC",
+        "ToolTip": "Voluptates pariatur quis earum ducimus qui id ut.",
+        "Deleted": false,
+        "Rank": 572,
+        "Type": "dolorem",
+        "ColorBlock": 321,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2007-07-23T12:57:43.5270395+02:00",
+        "LastChanged": "2017-10-16T04:22:36.0028417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Jerald Rath",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Liam Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 242
+            "FieldLength": 142
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Wilma Orn",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Mr. Brett Ubaldo D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 270
       }
     }
   }

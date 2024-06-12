@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 532,
+  "DocumentId": 984,
   "AllowedReturnTypes": [
-    "assumenda",
-    "et"
+    "et",
+    "nobis"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ut",
-  "VersionId": "quam",
+  "ExternalReference": "voluptas",
+  "VersionId": "enim",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ipsam",
-  "AdditionalInfo": "quibusdam"
+  "Value": "a",
+  "AdditionalInfo": "ut"
 }
 ```

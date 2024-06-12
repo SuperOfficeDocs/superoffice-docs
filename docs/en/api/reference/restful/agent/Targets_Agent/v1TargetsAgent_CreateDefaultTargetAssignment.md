@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 304,
+  "TargetAssignmentInfoId": 837,
   "Values": [
-    740,
-    620
+    375,
+    806
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 32,
-  "DimensionListItemDisplayName": "Kling-Hettinger",
+  "DimensionListItem": 831,
+  "DimensionListItemDisplayName": "Johnston, Schamberger and Rau",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   }
 }

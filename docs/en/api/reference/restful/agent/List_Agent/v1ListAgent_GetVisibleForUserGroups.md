@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 615,
-  "ListItemId": 34
+  "UdListDefinitionId": 423,
+  "ListItemId": 640
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Herzog-Kilback",
-    "ToolTip": "Odio dolore nam perferendis earum.",
-    "Deleted": false,
-    "Rank": 195,
-    "Type": "enim",
-    "ColorBlock": 651,
-    "IconHint": "ducimus",
+    "Id": 416,
+    "Name": "Mills Group",
+    "ToolTip": "Officiis aut labore iusto rerum atque rerum.",
+    "Deleted": true,
+    "Rank": 414,
+    "Type": "molestiae",
+    "ColorBlock": 586,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2022-01-31T12:57:34.1336045+01:00",
+    "LastChanged": "1998-12-07T04:22:26.9536139+01:00",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Corkery, Heaney and Daugherty",
-        "ToolTip": "Sed ratione blanditiis perferendis.",
+        "Id": 997,
+        "Name": "Barton-Kling",
+        "ToolTip": "Amet officiis vitae magni laborum architecto nisi et.",
         "Deleted": true,
-        "Rank": 197,
-        "Type": "saepe",
-        "ColorBlock": 163,
-        "IconHint": "enim",
+        "Rank": 540,
+        "Type": "ipsum",
+        "ColorBlock": 350,
+        "IconHint": "quo",
         "Selected": true,
-        "LastChanged": "2023-11-27T12:57:34.1336045+01:00",
+        "LastChanged": "2021-04-28T04:22:26.9536139+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "totam",
+        "ExtraInfo": "non",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Anderson Wisoky",
+        "FullName": "Edwardo Alessandro Gusikowski III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 696
+            "FieldLength": 906
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Rudolph Graham",
+    "ExtraInfo": "sit",
+    "StyleHint": "architecto",
+    "Hidden": false,
+    "FullName": "Adaline Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 437
       }
     }
   }

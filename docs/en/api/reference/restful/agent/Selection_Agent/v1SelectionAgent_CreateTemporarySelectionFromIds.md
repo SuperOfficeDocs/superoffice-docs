@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    384,
-    263
+    266,
+    407
   ],
-  "TargetTableNumber": 526
+  "TargetTableNumber": 828
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized non-volatile capacity",
-  "Postit": "placeat",
+  "Description": "Self-enabling 5th generation emulation",
+  "Postit": "nulla",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 434,
-  "IncludePerson": 592,
+  "GroupIdx": 288,
+  "IncludePerson": 700,
   "MemberCount": 99.99,
-  "Name": "Frami, Ankunding and Howe",
-  "PostitTextId": 673,
-  "CreatedDate": "2023-01-08T12:57:34.9458302+01:00",
-  "SelectionId": 261,
-  "SoundEx": "harum",
-  "Source": 512,
-  "TextId": 521,
-  "UpdatedDate": "2018-07-08T12:57:34.9458302+02:00",
-  "UpdatedCount": 104,
-  "Visibility": 938,
+  "Name": "Weimann Inc and Sons",
+  "PostitTextId": 326,
+  "CreatedDate": "1998-01-20T04:22:27.6430234+01:00",
+  "SelectionId": 333,
+  "SoundEx": "odit",
+  "Source": 951,
+  "TextId": 882,
+  "UpdatedDate": "2006-10-05T04:22:27.6430234+02:00",
+  "UpdatedCount": 82,
+  "Visibility": 160,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 368,
-  "TargetTableName": "Gorczany Group",
-  "Completed": true,
-  "LeftSelectionId": 603,
-  "RightSelectionId": 983,
+  "CompanyUnique": false,
+  "TargetTableNumber": 276,
+  "TargetTableName": "Deckow Group",
+  "Completed": false,
+  "LeftSelectionId": 620,
+  "RightSelectionId": 810,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bogisich-Bradtke",
-  "ShadowProviderName": "Dicki, Ortiz and Brekke",
-  "ChartKey": "voluptate",
-  "LastLoaded": "1997-04-16T12:57:34.9458302+02:00",
-  "LastLoadedBy": 745,
+  "MainProviderName": "Wisozk-Quitzon",
+  "ShadowProviderName": "Emmerich-Little",
+  "ChartKey": "veritatis",
+  "LastLoaded": "2018-10-03T04:22:27.6430234+02:00",
+  "LastLoadedBy": 560,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-09-20T12:57:34.9458302+02:00",
-  "LastMembershipChangeBy": 971,
+  "LastMembershipChange": "2010-09-08T04:22:27.6430234+02:00",
+  "LastMembershipChangeBy": 839,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolor",
-  "MemberTabHeading": "ratione",
-  "MailingsProviderName": "Kulas Inc and Sons",
-  "DashboardTileDefinitionId": 329,
+  "MainHeading": "maiores",
+  "MemberTabHeading": "commodi",
+  "MailingsProviderName": "Harber-Robel",
+  "DashboardTileDefinitionId": 334,
   "VisibleFor": [
     {
-      "VisibleId": 737,
+      "VisibleId": 259,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldLength": 346
         }
       }
     },
     {
-      "VisibleId": 737,
+      "VisibleId": 259,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldLength": 346
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldLength": 513
     }
   }
 }

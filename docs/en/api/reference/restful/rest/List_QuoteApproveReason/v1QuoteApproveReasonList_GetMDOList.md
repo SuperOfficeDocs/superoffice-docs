@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=eius
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=earum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Balistreri Group",
-    "ToolTip": "Ratione quod nemo possimus.",
-    "Deleted": false,
-    "Rank": 358,
-    "Type": "quis",
+    "Id": 341,
+    "Name": "White-Swift",
+    "ToolTip": "Explicabo voluptatem.",
+    "Deleted": true,
+    "Rank": 129,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 733,
-        "Name": "Davis, Heidenreich and Erdman",
-        "ToolTip": "Autem quia molestias iste.",
-        "Deleted": false,
-        "Rank": 66,
-        "Type": "sunt",
+        "Id": 880,
+        "Name": "Strosin-Rodriguez",
+        "ToolTip": "Nam voluptate est provident dolores labore odio delectus.",
+        "Deleted": true,
+        "Rank": 758,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 732,
-        "ExtraInfo": "mollitia",
-        "StyleHint": "et",
-        "FullName": "Brody DuBuque",
+        "IconHint": "est",
+        "ColorBlock": 674,
+        "ExtraInfo": "nihil",
+        "StyleHint": "sequi",
+        "FullName": "Virginie Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldLength": 97
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 666,
-    "ExtraInfo": "et",
-    "StyleHint": "quo",
-    "FullName": "Mr. Brett Hortense Ebert",
+    "IconHint": "et",
+    "ColorBlock": 851,
+    "ExtraInfo": "saepe",
+    "StyleHint": "veniam",
+    "FullName": "Dameon Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 197
       }
     }
   }

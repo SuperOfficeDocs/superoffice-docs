@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 167,
+  "TicketMessageEntityId": 754,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 442,
+  "EjMessageId": 949,
   "Ticket": null,
-  "CreatedAt": "2003-05-26T12:57:35.0083152+02:00",
+  "CreatedAt": "2011-11-18T04:22:27.8182504+01:00",
   "CreatedBy": null,
-  "Author": "maiores",
+  "Author": "facere",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nihil",
-  "TimeSpent": 236,
-  "Body": "doloribus",
-  "HtmlBody": "exercitationem",
-  "EmailHeader": "eino.tillman@kessler.uk",
-  "DebugInfo": "qui",
-  "MailSorter": "neque",
+  "MessageId": "architecto",
+  "TimeSpent": 777,
+  "Body": "id",
+  "HtmlBody": "deserunt",
+  "EmailHeader": "katelyn@pouroswintheiser.name",
+  "DebugInfo": "laborum",
+  "MailSorter": "repudiandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "cupiditate",
   "MessageHeaders": [
     {
-      "Id": 79,
-      "Name": "Pouros Group",
-      "Value": "voluptas",
+      "Id": 507,
+      "Name": "Stehr-Gutkowski",
+      "Value": "quas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldType": "System.String",
+          "FieldLength": 949
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "error",
-  "Sentiment": 94,
-  "SentimentConfidence": 811,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 15,
+  "SentimentConfidence": 245,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 487,
-      "Name": "Bauch Group",
-      "ContentType": "ipsum",
-      "AttSize": 234,
-      "InlineImage": true,
-      "ContentId": "consequatur",
-      "AuthKey": "suscipit",
+      "AttachmentId": 729,
+      "Name": "Considine-Waelchi",
+      "ContentType": "ipsam",
+      "AttSize": 341,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "excepturi",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldType": "System.String",
+          "FieldLength": 215
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "earum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

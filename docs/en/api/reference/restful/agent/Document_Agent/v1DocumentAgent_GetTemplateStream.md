@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Schultz LLC",
-  "AllowPersonal": false,
-  "UiCulture": "perspiciatis"
+  "TemplateName": "Lind, Wiza and Leannon",
+  "AllowPersonal": true,
+  "UiCulture": "doloribus"
 }
 ```
 

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 384,
-    "Name": "Kshlerin, Rolfson and Trantow",
-    "Tooltip": "minima",
+    "HeadingId": 866,
+    "Name": "Moore LLC",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 154,
-    "UdListDefinitionId": 489,
+    "Rank": 673,
+    "UdListDefinitionId": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 22
       }
     }
   }

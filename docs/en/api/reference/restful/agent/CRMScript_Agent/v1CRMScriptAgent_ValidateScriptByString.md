@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "aut"
+  "Script": "qui"
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "dolorem",
-  "LineNumber": 30,
+  "ErrorMessage": "totam",
+  "LineNumber": 475,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 152
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

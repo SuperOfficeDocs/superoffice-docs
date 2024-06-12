@@ -71,16 +71,16 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heaney Inc and Sons",
-  "DeviceName": "Bayer-Hane",
-  "DeviceIdentifier": "est",
-  "KeyName": "Treutel-Feeney",
-  "TableName": "Thompson, Green and Willms",
-  "RecordId": 667
+  "ApplicationName": "Mayer-Abbott",
+  "DeviceName": "Lueilwitz LLC",
+  "DeviceIdentifier": "minus",
+  "KeyName": "Blick, Collins and Wiza",
+  "TableName": "Rohan, Buckridge and Price",
+  "RecordId": 814
 }
 ```
 

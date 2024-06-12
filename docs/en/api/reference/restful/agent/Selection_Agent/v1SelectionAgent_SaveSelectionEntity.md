@@ -147,56 +147,56 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic didactic application",
-  "Postit": "quas",
+  "Description": "Object-based uniform capacity",
+  "Postit": "quibusdam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 990,
-  "IncludePerson": 552,
+  "GroupIdx": 943,
+  "IncludePerson": 60,
   "MemberCount": 99.99,
-  "Name": "Batz Inc and Sons",
-  "PostitTextId": 534,
-  "CreatedDate": "2011-03-12T12:57:34.8989653+01:00",
-  "SelectionId": 588,
-  "SoundEx": "occaecati",
-  "Source": 515,
-  "TextId": 581,
-  "UpdatedDate": "2021-12-15T12:57:34.8989653+01:00",
-  "UpdatedCount": 966,
-  "Visibility": 15,
+  "Name": "Hegmann-Waters",
+  "PostitTextId": 742,
+  "CreatedDate": "2002-08-14T04:22:27.5805229+02:00",
+  "SelectionId": 117,
+  "SoundEx": "dignissimos",
+  "Source": 366,
+  "TextId": 642,
+  "UpdatedDate": "2020-10-28T04:22:27.5805229+01:00",
+  "UpdatedCount": 169,
+  "Visibility": 134,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 522,
-  "TargetTableName": "Franecki, Botsford and Rogahn",
-  "Completed": true,
-  "LeftSelectionId": 376,
-  "RightSelectionId": 538,
+  "CompanyUnique": true,
+  "TargetTableNumber": 198,
+  "TargetTableName": "Koch, Hills and DuBuque",
+  "Completed": false,
+  "LeftSelectionId": 799,
+  "RightSelectionId": 919,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gislason LLC",
-  "ShadowProviderName": "Powlowski Inc and Sons",
-  "ChartKey": "culpa",
-  "LastLoaded": "2019-07-03T12:57:34.8989653+02:00",
-  "LastLoadedBy": 666,
+  "MainProviderName": "Cremin LLC",
+  "ShadowProviderName": "Satterfield LLC",
+  "ChartKey": "incidunt",
+  "LastLoaded": "2009-02-04T04:22:27.5805229+01:00",
+  "LastLoadedBy": 257,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-11-15T12:57:34.8989653+01:00",
-  "LastMembershipChangeBy": 925,
+  "LastMembershipChange": "2003-01-10T04:22:27.5805229+01:00",
+  "LastMembershipChangeBy": 678,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Morar LLC",
-  "DashboardTileDefinitionId": 880,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Blanda LLC",
+  "DashboardTileDefinitionId": 336,
   "VisibleFor": [
     {
-      "VisibleId": 42,
+      "VisibleId": 404,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 42,
+      "VisibleId": 404,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated clear-thinking knowledge base",
-  "Postit": "atque",
+  "Description": "Pre-emptive national approach",
+  "Postit": "necessitatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 278,
-  "IncludePerson": 956,
+  "GroupIdx": 682,
+  "IncludePerson": 317,
   "MemberCount": 99.99,
-  "Name": "Lehner-Kilback",
-  "PostitTextId": 15,
-  "CreatedDate": "2013-12-06T12:57:34.8989653+01:00",
-  "SelectionId": 207,
-  "SoundEx": "repudiandae",
-  "Source": 907,
-  "TextId": 290,
-  "UpdatedDate": "2010-04-19T12:57:34.8989653+02:00",
-  "UpdatedCount": 250,
-  "Visibility": 932,
+  "Name": "Kulas, Rice and Lubowitz",
+  "PostitTextId": 858,
+  "CreatedDate": "2000-04-04T04:22:27.5961507+02:00",
+  "SelectionId": 532,
+  "SoundEx": "corrupti",
+  "Source": 690,
+  "TextId": 94,
+  "UpdatedDate": "2005-11-17T04:22:27.5961507+01:00",
+  "UpdatedCount": 197,
+  "Visibility": 237,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 897,
-  "TargetTableName": "Carter, Reichel and Klocko",
-  "Completed": false,
-  "LeftSelectionId": 165,
-  "RightSelectionId": 144,
+  "TargetTableNumber": 607,
+  "TargetTableName": "Morar LLC",
+  "Completed": true,
+  "LeftSelectionId": 689,
+  "RightSelectionId": 210,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schuppe Group",
-  "ShadowProviderName": "Jaskolski Group",
-  "ChartKey": "nulla",
-  "LastLoaded": "1997-11-14T12:57:34.8989653+01:00",
-  "LastLoadedBy": 18,
+  "MainProviderName": "Cummerata LLC",
+  "ShadowProviderName": "Schuster, Brakus and Kutch",
+  "ChartKey": "ut",
+  "LastLoaded": "2010-05-30T04:22:27.5961507+02:00",
+  "LastLoadedBy": 815,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-03-30T12:57:34.8989653+02:00",
-  "LastMembershipChangeBy": 506,
+  "LastMembershipChange": "2019-11-26T04:22:27.5961507+01:00",
+  "LastMembershipChangeBy": 202,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugiat",
-  "MemberTabHeading": "dolores",
-  "MailingsProviderName": "Ledner-Kovacek",
-  "DashboardTileDefinitionId": 92,
+  "MainHeading": "reprehenderit",
+  "MemberTabHeading": "neque",
+  "MailingsProviderName": "Zieme LLC",
+  "DashboardTileDefinitionId": 438,
   "VisibleFor": [
     {
-      "VisibleId": 31,
+      "VisibleId": 699,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 333
         }
       }
     },
     {
-      "VisibleId": 31,
+      "VisibleId": 699,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 333
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 624
     }
   }
 }

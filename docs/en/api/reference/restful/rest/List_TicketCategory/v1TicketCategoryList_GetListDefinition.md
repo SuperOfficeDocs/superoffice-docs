@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 757,
-  "Name": "Rolfson Inc and Sons",
-  "Tooltip": "itaque",
+  "Id": 655,
+  "Name": "Steuber Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 102,
-  "IsCustomList": false,
+  "Rank": 555,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptates",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 654
     }
   },
   "_Links": {

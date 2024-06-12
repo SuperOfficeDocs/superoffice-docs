@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 120
+  "SaleId": 651
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schuster-McClure",
-    "Comment": "ut",
-    "StakeholderRoleId": 494,
-    "CountryId": 969,
-    "PersonId": 313,
-    "EmailDescription": "hillard@reichel.ca",
-    "EmailId": 28,
-    "EmailAddress": "cassandra.powlowski@cummeratajacobs.uk",
-    "PhoneId": 44,
-    "ContactName": "Heathcote LLC",
-    "ContactId": 155,
-    "SaleId": 57,
-    "Mrmrs": "laboriosam",
-    "Firstname": "Eddie",
-    "MiddleName": "Volkman, Goodwin and Ziemann",
-    "Lastname": "Hyatt",
-    "SaleStakeholderId": 993,
-    "Rank": 598,
-    "Phone": "180-024-0918 x728",
+    "StakeholderRoleName": "Hodkiewicz LLC",
+    "Comment": "magnam",
+    "StakeholderRoleId": 783,
+    "CountryId": 380,
+    "PersonId": 161,
+    "EmailDescription": "veronica_monahan@robelgaylord.uk",
+    "EmailId": 910,
+    "EmailAddress": "orlando@mills.info",
+    "PhoneId": 311,
+    "ContactName": "Beatty Inc and Sons",
+    "ContactId": 260,
+    "SaleId": 424,
+    "Mrmrs": "qui",
+    "Firstname": "Maya",
+    "MiddleName": "Runolfsson, Volkman and Prohaska",
+    "Lastname": "Johnson",
+    "SaleStakeholderId": 511,
+    "Rank": 834,
+    "Phone": "220-167-6495 x41738",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 123
+        "FieldType": "System.Int32",
+        "FieldLength": 232
       }
     }
   }

@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 719,
-  "UniqueId": "facilis",
-  "Name": "Bogan-Zulauf",
-  "Description": "Adaptive zero defect system engine",
-  "AssociateId": 440,
-  "Columns": 94,
+  "DashboardId": 916,
+  "UniqueId": "autem",
+  "Name": "Altenwerth LLC",
+  "Description": "Virtual didactic array",
+  "AssociateId": 774,
+  "Columns": 638,
   "Theme": null,
-  "VisibleForAll": 247,
+  "VisibleForAll": 647,
   "VisibleForAssociates": [
-    638,
-    413
+    732,
+    146
   ],
   "VisibleForGroups": [
-    827,
-    817
+    288,
+    411
   ],
-  "PinForAll": 254,
+  "PinForAll": 624,
   "PinForAssociates": [
-    754,
-    536
+    286,
+    958
   ],
   "PinForGroups": [
-    618,
-    616
+    43,
+    772
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 12
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 123,
+  "PersonId": 458,
   "IncludeProjectDocuments": false,
-  "StartTime": "2004-10-16T12:57:33.6961763+02:00",
-  "EndTime": "2000-08-06T12:57:33.6961763+02:00",
-  "Count": 923
+  "StartTime": "2006-07-10T04:22:26.4978545+02:00",
+  "EndTime": "2001-05-21T04:22:26.4978545+02:00",
+  "Count": 565
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 560,
-    "Attention": "sequi",
-    "Header": "deleniti",
-    "Name": "Moore LLC",
-    "OurRef": "facere",
-    "YourRef": "minus",
-    "Description": "Intuitive static system engine",
-    "DocumentTemplate": "dolorem",
+    "DocumentId": 151,
+    "Attention": "facere",
+    "Header": "sequi",
+    "Name": "Carter Group",
+    "OurRef": "eaque",
+    "YourRef": "non",
+    "Description": "User-friendly modular migration",
+    "DocumentTemplate": "officiis",
     "IsPublished": false,
-    "PersonId": 381,
-    "PersonFullName": "Keeley Ebert",
-    "AssociateFullName": "Talon Miguel Stiedemann III",
-    "ContactId": 974,
-    "ContactName": "Braun-Crona",
-    "ProjectId": 811,
-    "ProjectName": "Bednar LLC",
-    "AssociateId": 896,
-    "Snum": 713,
-    "SaleId": 991,
-    "SaleName": "Trantow LLC",
+    "PersonId": 781,
+    "PersonFullName": "Mose Pearline Littel I",
+    "AssociateFullName": "Domenick Luettgen",
+    "ContactId": 381,
+    "ContactName": "Emmerich-Cronin",
+    "ProjectId": 648,
+    "ProjectName": "Strosin Group",
+    "AssociateId": 710,
+    "Snum": 315,
+    "SaleId": 84,
+    "SaleName": "Kautzer, Ullrich and Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldLength": 132
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Smitham, Fadel and Franecki",
-    "Tooltip": "ab",
+    "Id": 496,
+    "Name": "Kunze, Quitzon and Wuckert",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "UdListDefinitionId": 359,
-    "Rank": 365
+    "UdListDefinitionId": 112,
+    "Rank": 322
   },
   {
-    "Id": 434,
-    "Name": "Smitham, Fadel and Franecki",
-    "Tooltip": "ab",
+    "Id": 496,
+    "Name": "Kunze, Quitzon and Wuckert",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "UdListDefinitionId": 359,
-    "Rank": 365
+    "UdListDefinitionId": 112,
+    "Rank": 322
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Kreiger-Zulauf",
-    "Tooltip": "quibusdam",
+    "Id": 523,
+    "Name": "Marquardt-Jacobs",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "UdListDefinitionId": 4,
-    "Rank": 11,
+    "UdListDefinitionId": 361,
+    "Rank": 657,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldType": "System.String",
+        "FieldLength": 644
       }
     }
   }

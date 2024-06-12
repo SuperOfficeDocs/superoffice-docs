@@ -103,23 +103,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 901,
-  "Name": "Wisoky-Herman",
-  "CurrencyId": 99,
-  "EnglishName": "Beahan, O'Keefe and Hermann",
+  "CountryId": 89,
+  "Name": "Steuber-Shields",
+  "CurrencyId": 196,
+  "EnglishName": "Kemmer-Watsica",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergized web-enabled time-frame",
-  "OrgNrText": "925859",
-  "InterAreaPrefix": "consequatur",
-  "DialInPrefix": "a",
-  "ZipPrefix": "reiciendis",
-  "DomainName": "Lynch, Mitchell and Jones",
-  "AddressLayoutId": 80,
-  "DomesticAddressLayoutId": 626,
-  "ForeignAddressLayoutId": 723,
-  "Rank": 305,
-  "Tooltip": "repellat",
+  "ImageDescription": "Expanded user-facing database",
+  "OrgNrText": "511620",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "libero",
+  "ZipPrefix": "rerum",
+  "DomainName": "Bauch-Bins",
+  "AddressLayoutId": 39,
+  "DomesticAddressLayoutId": 985,
+  "ForeignAddressLayoutId": 526,
+  "Rank": 131,
+  "Tooltip": "doloribus",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 823,
-  "Name": "McClure Group",
-  "CurrencyId": 522,
-  "EnglishName": "Volkman, Block and Langworth",
+  "CountryId": 166,
+  "Name": "Schuppe, Kovacek and Cronin",
+  "CurrencyId": 47,
+  "EnglishName": "Upton-Heaney",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Streamlined 3rd generation neural-net",
-  "OrgNrText": "704996",
-  "InterAreaPrefix": "nemo",
-  "DialInPrefix": "deserunt",
-  "ZipPrefix": "temporibus",
-  "DomainName": "Hartmann, Satterfield and Johns",
-  "AddressLayoutId": 516,
-  "DomesticAddressLayoutId": 558,
-  "ForeignAddressLayoutId": 131,
-  "Rank": 325,
-  "Tooltip": "aut",
+  "ImageDescription": "Cloned static moderator",
+  "OrgNrText": "1149592",
+  "InterAreaPrefix": "aliquid",
+  "DialInPrefix": "voluptatem",
+  "ZipPrefix": "atque",
+  "DomainName": "Pfannerstill-White",
+  "AddressLayoutId": 608,
+  "DomesticAddressLayoutId": 426,
+  "ForeignAddressLayoutId": 156,
+  "Rank": 866,
+  "Tooltip": "nam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

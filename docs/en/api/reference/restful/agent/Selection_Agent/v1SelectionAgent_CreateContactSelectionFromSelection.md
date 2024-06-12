@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 256,
-  "Name": "Wehner-Bayer",
+  "SelectionId": 956,
+  "Name": "Kunde-Labadie",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-source user-facing protocol",
-  "Postit": "saepe",
+  "Description": "Function-based 4th generation local area network",
+  "Postit": "temporibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 624,
-  "IncludePerson": 201,
+  "GroupIdx": 629,
+  "IncludePerson": 717,
   "MemberCount": 99.99,
-  "Name": "Schuster, Armstrong and Batz",
-  "PostitTextId": 255,
-  "CreatedDate": "1999-08-05T12:57:34.9145867+02:00",
-  "SelectionId": 924,
-  "SoundEx": "et",
-  "Source": 347,
-  "TextId": 105,
-  "UpdatedDate": "2022-12-28T12:57:34.9145867+01:00",
-  "UpdatedCount": 369,
-  "Visibility": 309,
+  "Name": "Orn-Fisher",
+  "PostitTextId": 515,
+  "CreatedDate": "2020-06-08T04:22:27.6117762+02:00",
+  "SelectionId": 586,
+  "SoundEx": "molestias",
+  "Source": 489,
+  "TextId": 76,
+  "UpdatedDate": "1999-04-11T04:22:27.6117762+02:00",
+  "UpdatedCount": 871,
+  "Visibility": 269,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 484,
-  "TargetTableName": "Cormier, Heller and Barrows",
+  "CompanyUnique": false,
+  "TargetTableNumber": 652,
+  "TargetTableName": "Pfeffer, Rau and Crist",
   "Completed": false,
-  "LeftSelectionId": 80,
-  "RightSelectionId": 456,
+  "LeftSelectionId": 735,
+  "RightSelectionId": 790,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lindgren Group",
-  "ShadowProviderName": "Kihn-Wintheiser",
-  "ChartKey": "cum",
-  "LastLoaded": "2019-01-09T12:57:34.9145867+01:00",
-  "LastLoadedBy": 404,
+  "MainProviderName": "Smitham-Littel",
+  "ShadowProviderName": "Wolf, Oberbrunner and Eichmann",
+  "ChartKey": "blanditiis",
+  "LastLoaded": "2002-07-10T04:22:27.6117762+02:00",
+  "LastLoadedBy": 626,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-03-27T12:57:34.9145867+02:00",
-  "LastMembershipChangeBy": 541,
+  "LastMembershipChange": "2009-01-01T04:22:27.6117762+01:00",
+  "LastMembershipChangeBy": 991,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odit",
-  "MemberTabHeading": "nesciunt",
-  "MailingsProviderName": "Mitchell Group",
-  "DashboardTileDefinitionId": 240,
+  "MainHeading": "sit",
+  "MemberTabHeading": "consequuntur",
+  "MailingsProviderName": "Simonis-Koss",
+  "DashboardTileDefinitionId": 578,
   "VisibleFor": [
     {
-      "VisibleId": 784,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldLength": 951
         }
       }
     },
     {
-      "VisibleId": 784,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldLength": 951
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 54
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=quod
+GET /api/v1/List/PaymentType/MDOItems?query=fuga
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Brown-Sipes",
-    "ToolTip": "Eaque maxime quae fuga.",
-    "Deleted": false,
-    "Rank": 68,
-    "Type": "ipsa",
+    "Id": 36,
+    "Name": "Mills Group",
+    "ToolTip": "Numquam architecto quas dolor quasi iste.",
+    "Deleted": true,
+    "Rank": 653,
+    "Type": "aperiam",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Ebert-Pfeffer",
-        "ToolTip": "Non consequuntur fugit est neque omnis non.",
+        "Id": 848,
+        "Name": "Conroy, Stokes and Bode",
+        "ToolTip": "Tempore non sequi consequatur et recusandae.",
         "Deleted": false,
-        "Rank": 391,
-        "Type": "et",
+        "Rank": 899,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 187,
-        "ExtraInfo": "et",
+        "IconHint": "excepturi",
+        "ColorBlock": 643,
+        "ExtraInfo": "excepturi",
         "StyleHint": "quia",
-        "FullName": "Magdalena Bins",
+        "FullName": "Rogers Rempel Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldLength": 987
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 436,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aut",
-    "FullName": "Shanon Hammes I",
+    "IconHint": "deserunt",
+    "ColorBlock": 102,
+    "ExtraInfo": "est",
+    "StyleHint": "maiores",
+    "FullName": "Dr. Keagan Gabriella Rau II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 641
       }
     }
   }

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bartell, Bauch and Muller",
-  "DeviceName": "Hodkiewicz, Kozey and Quigley",
-  "KeyName": "Lockman-Emard",
-  "KeyValue": "in",
-  "TableName": "Deckow, Stroman and Terry"
+  "ApplicationName": "Upton, O'Kon and Dickens",
+  "DeviceName": "Wilderman Inc and Sons",
+  "KeyName": "McKenzie-Jacobs",
+  "KeyValue": "nostrum",
+  "TableName": "Hane Inc and Sons"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "vel",
-  "Value": "non",
-  "RecordId": 729,
-  "CreatedDate": "2021-02-02T12:57:34.0711192+01:00",
-  "UpdatedDate": "2023-02-07T12:57:34.0711192+01:00",
-  "UpdatedBy": "in",
-  "CreatedBy": "tempora",
-  "TableName": "Kassulke-Cole",
+  "Key": "quia",
+  "Value": "neque",
+  "RecordId": 305,
+  "CreatedDate": "2007-02-12T04:22:26.8755249+01:00",
+  "UpdatedDate": "2010-03-01T04:22:26.8755249+01:00",
+  "UpdatedBy": "cumque",
+  "CreatedBy": "sit",
+  "TableName": "Walsh, Mueller and Jones",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

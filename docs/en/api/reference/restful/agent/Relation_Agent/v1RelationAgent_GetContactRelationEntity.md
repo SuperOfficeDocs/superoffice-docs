@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=714
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=168
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 68,
-  "SourcePersonId": 880,
-  "DestinationContactId": 654,
-  "DestinationPersonId": 372,
-  "RelationId": 718,
-  "Comment": "soluta",
-  "RelationDefinitionId": 244,
-  "Reversed": 760,
-  "UpdatedDate": "2023-01-05T12:57:34.7740549+01:00",
-  "CreatedDate": "2020-11-12T12:57:34.7740549+01:00",
+  "SourceContactId": 79,
+  "SourcePersonId": 590,
+  "DestinationContactId": 390,
+  "DestinationPersonId": 344,
+  "RelationId": 451,
+  "Comment": "qui",
+  "RelationDefinitionId": 194,
+  "Reversed": 712,
+  "UpdatedDate": "2020-07-30T04:22:27.4403662+02:00",
+  "CreatedDate": "2018-11-22T04:22:27.4403662+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Maggio-Nitzsche",
-  "SourcePersonName": "Ankunding-Ortiz",
-  "DestinationContactName": "Watsica, Wisozk and Murazik",
-  "DestinationPersonName": "Hilpert, Shields and Orn",
-  "ActiveText": "ad",
-  "PassiveText": "hic",
+  "SourceContactName": "Lebsack Inc and Sons",
+  "SourcePersonName": "Bins-Hettinger",
+  "DestinationContactName": "Reilly, Hoppe and Schaefer",
+  "DestinationPersonName": "Harris LLC",
+  "ActiveText": "aut",
+  "PassiveText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 729
     }
   }
 }

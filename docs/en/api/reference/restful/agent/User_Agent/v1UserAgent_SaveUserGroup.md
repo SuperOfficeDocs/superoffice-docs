@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "et",
-  "Tooltip": "laudantium",
-  "Id": 12,
-  "Rank": 942,
-  "Deleted": false,
+  "Value": "dolores",
+  "Tooltip": "veritatis",
+  "Id": 361,
+  "Rank": 272,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 273
     }
   }
 }

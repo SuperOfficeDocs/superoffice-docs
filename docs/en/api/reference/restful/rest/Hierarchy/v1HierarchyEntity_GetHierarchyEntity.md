@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 675,
+  "HierarchyId": 301,
   "Domain": "Dashboards",
-  "Name": "Schmitt-Bahringer",
-  "Fullname": "perferendis",
-  "ParentId": 671,
+  "Name": "Crooks-Wolff",
+  "Fullname": "aliquam",
+  "ParentId": 729,
   "Children": [
     {
-      "HierarchyId": 655,
+      "HierarchyId": 304,
       "Domain": "Dashboards",
-      "Name": "Aufderhar Inc and Sons",
-      "Fullname": "quis",
-      "ParentId": 909,
+      "Name": "Borer-Ankunding",
+      "Fullname": "dignissimos",
+      "ParentId": 617,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-12-18T12:57:42.4638774+01:00",
-      "RegisteredAssociateId": 131,
-      "Updated": "2019-09-29T12:57:42.4638774+02:00",
-      "UpdatedAssociateId": 109,
+      "Registered": "2007-02-23T04:22:35.0167083+01:00",
+      "RegisteredAssociateId": 53,
+      "Updated": "2024-02-22T04:22:35.0167083+01:00",
+      "UpdatedAssociateId": 36,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 200
+          "FieldType": "System.Int32",
+          "FieldLength": 870
         }
       }
     }
   ],
-  "Registered": "2003-07-16T12:57:42.4638774+02:00",
-  "RegisteredAssociateId": 552,
-  "Updated": "2002-09-21T12:57:42.4638774+02:00",
-  "UpdatedAssociateId": 75,
+  "Registered": "2013-07-20T04:22:35.0167083+02:00",
+  "RegisteredAssociateId": 277,
+  "Updated": "2020-04-11T04:22:35.0167083+02:00",
+  "UpdatedAssociateId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 344
     }
   },
   "_Links": {

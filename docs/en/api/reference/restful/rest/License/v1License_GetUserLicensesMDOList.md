@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Boyle, Konopelski and Marks",
-    "ToolTip": "Quibusdam sunt cumque.",
-    "Deleted": false,
-    "Rank": 932,
-    "Type": "vel",
-    "ColorBlock": 929,
-    "IconHint": "accusantium",
-    "Selected": true,
-    "LastChanged": "1999-12-12T12:57:43.1365038+01:00",
+    "Id": 155,
+    "Name": "Kshlerin-Towne",
+    "ToolTip": "Dolorem hic nihil repellat fuga voluptas saepe.",
+    "Deleted": true,
+    "Rank": 745,
+    "Type": "quo",
+    "ColorBlock": 245,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2009-01-01T04:22:35.6428553+01:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Kuphal-Wintheiser",
-        "ToolTip": "Sed quasi.",
+        "Id": 749,
+        "Name": "Simonis LLC",
+        "ToolTip": "Expedita eaque voluptatem est deserunt quae.",
         "Deleted": true,
-        "Rank": 218,
-        "Type": "aspernatur",
-        "ColorBlock": 572,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2000-11-30T12:57:43.1365038+01:00",
+        "Rank": 849,
+        "Type": "quam",
+        "ColorBlock": 846,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2017-09-06T04:22:35.6428553+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Alysha Weissnat III",
+        "ExtraInfo": "magnam",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Duncan Hertha Leuschke PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldType": "System.String",
+            "FieldLength": 510
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mrs. Scottie Abshire",
+    "ExtraInfo": "sit",
+    "StyleHint": "libero",
+    "Hidden": true,
+    "FullName": "Lonzo Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

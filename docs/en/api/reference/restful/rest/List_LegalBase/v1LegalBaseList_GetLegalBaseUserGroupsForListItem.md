@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 347,
-    "Name": "Hegmann, Kshlerin and Ernser",
-    "ToolTip": "Voluptatem molestiae dolorum ipsa ducimus.",
+    "Id": 321,
+    "Name": "McDermott-Bauch",
+    "ToolTip": "Dolorem vitae nihil explicabo.",
     "Deleted": true,
-    "Rank": 212,
-    "Type": "et",
-    "ColorBlock": 965,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2015-10-28T12:57:43.4957969+01:00",
+    "Rank": 473,
+    "Type": "ipsa",
+    "ColorBlock": 374,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2007-06-07T04:22:35.9715928+02:00",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Murphy Group",
-        "ToolTip": "Debitis quia aliquid soluta non cupiditate.",
-        "Deleted": true,
-        "Rank": 150,
-        "Type": "velit",
-        "ColorBlock": 285,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2016-03-15T12:57:43.4957969+01:00",
+        "Id": 725,
+        "Name": "Quitzon Group",
+        "ToolTip": "Voluptatem rerum.",
+        "Deleted": false,
+        "Rank": 654,
+        "Type": "quis",
+        "ColorBlock": 267,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2014-11-23T04:22:35.9715928+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "id",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Preston Julianne Williamson",
+        "FullName": "Ms. Oswald Javon Dietrich I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 295
+            "FieldType": "System.Int32",
+            "FieldLength": 205
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "quis",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Kristina Hoeger",
+    "FullName": "Yasmin Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldType": "System.String",
+        "FieldLength": 970
       }
     }
   }

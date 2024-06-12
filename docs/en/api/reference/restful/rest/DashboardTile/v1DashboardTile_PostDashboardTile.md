@@ -102,46 +102,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 804,
-  "Caption": "atque",
-  "Description": "Monitored next generation utilisation",
-  "ChartName": "Hand LLC",
-  "ChartId": "labore",
-  "IsDefault": false,
-  "AssociateId": 922,
-  "GroupId": 783,
-  "SelectionId": 740,
-  "Config": "quia",
+  "DashboardTileId": 559,
+  "Caption": "ut",
+  "Description": "Customizable human-resource portal",
+  "ChartName": "Kihn-McKenzie",
+  "ChartId": "eligendi",
+  "IsDefault": true,
+  "AssociateId": 228,
+  "GroupId": 916,
+  "SelectionId": 881,
+  "Config": "velit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Marks Group",
-      "Description": "User-centric didactic Graphical User Interface",
+      "Name": "Reilly LLC",
+      "Description": "Multi-tiered cohesive protocol",
       "Type": "Boolean",
-      "ListName": "Bernhard-Grady",
+      "ListName": "Friesen-Dietrich",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "consequatur",
+      "Value": "dolore",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 239,
+      "VisibleId": 394,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "molestiae"
     },
     {
-      "VisibleId": 239,
+      "VisibleId": 394,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "molestiae"
     }
   ]
 }
@@ -154,64 +154,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 579,
-  "Caption": "voluptatum",
-  "Description": "Customizable leading edge customer loyalty",
-  "ChartName": "Lang-Huels",
-  "ChartId": "ipsam",
+  "DashboardTileId": 932,
+  "Caption": "aliquam",
+  "Description": "Managed bandwidth-monitored frame",
+  "ChartName": "Emard-Huel",
+  "ChartId": "mollitia",
   "IsDefault": false,
-  "AssociateId": 976,
-  "GroupId": 586,
-  "SelectionId": 352,
-  "Config": "aperiam",
+  "AssociateId": 620,
+  "GroupId": 5,
+  "SelectionId": 952,
+  "Config": "id",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Breitenberg, Purdy and Nicolas",
-      "Description": "Sharable fault-tolerant approach",
+      "Name": "Stanton, O'Conner and Grimes",
+      "Description": "Horizontal global neural-net",
       "Type": "Boolean",
-      "ListName": "Lebsack, Lehner and Hayes",
+      "ListName": "McGlynn LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quaerat",
+      "Value": "commodi",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldType": "System.String",
+          "FieldLength": 728
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 753,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 964
         }
       }
     },
     {
-      "VisibleId": 753,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 964
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   },
   "_Links": {

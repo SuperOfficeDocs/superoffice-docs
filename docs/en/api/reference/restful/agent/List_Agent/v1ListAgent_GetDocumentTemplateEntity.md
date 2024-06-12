@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=649
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=421
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 322,
-  "Name": "Schuster-Walter",
-  "Tooltip": "laborum",
-  "SaveInDb": 3,
-  "Filename": "omnis",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 352,
+  "Name": "Fay-Borer",
+  "Tooltip": "reprehenderit",
+  "SaveInDb": 173,
+  "Filename": "rerum",
+  "DefaultOref": "sit",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 627,
-  "IntentId": 634,
-  "IsDefaultPublished": true,
-  "Rank": 449,
-  "LoadTemplateFromPlugin": 571,
-  "MimeType": "qui",
+  "AutoeventId": 480,
+  "IntentId": 884,
+  "IsDefaultPublished": false,
+  "Rank": 148,
+  "LoadTemplateFromPlugin": 153,
+  "MimeType": "cumque",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 474,
+  "DocumentTypeKey": 177,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "josephine_witting@runte.info",
+  "EmailSubject": "rachael@feeneylehner.us",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cleora.kessler@metzbeahan.info",
+  "SenderEmailAddress": "maude@mayerblick.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldType": "System.String",
+      "FieldLength": 820
     }
   }
 }

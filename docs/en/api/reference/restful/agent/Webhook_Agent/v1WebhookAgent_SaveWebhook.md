@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 724,
-  "Name": "Hickle, Blick and Ruecker",
+  "WebhookId": 14,
+  "Name": "Kozey, Monahan and Hane",
   "Events": [
-    "molestias",
-    "occaecati"
+    "nihil",
+    "voluptas"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "libero",
+  "Secret": "rerum",
   "State": "Active",
-  "Type": "maiores",
+  "Type": "explicabo",
   "Headers": {
-    "Headers1": "molestias",
-    "Headers2": "et"
+    "Headers1": "laboriosam",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-08-02T12:57:35.5399144+02:00",
+  "Registered": "2019-03-24T04:22:28.1475044+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1997-06-01T12:57:35.5399144+02:00",
+  "Updated": "2016-10-08T04:22:28.1475044+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "joshuah@dare.co.uk"
+  "ErrorsEmail": "olaf@beahan.name"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 11,
-  "Name": "McGlynn, Muller and Hane",
+  "WebhookId": 216,
+  "Name": "Leannon-Harber",
   "Events": [
-    "est",
-    "quis"
+    "aspernatur",
+    "voluptatem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quo",
+  "Secret": "quas",
   "State": "Active",
-  "Type": "sapiente",
+  "Type": "delectus",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "voluptates"
+    "Headers1": "iure",
+    "Headers2": "eos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-12-22T12:57:35.5399144+01:00",
+  "Registered": "2014-07-05T04:22:28.1475044+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-07-15T12:57:35.5399144+02:00",
+  "Updated": "2005-09-09T04:22:28.1475044+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "marlon@nienow.ca"
+  "ErrorsEmail": "lavina.eichmann@heller.name"
 }
 ```

@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dooley-Jewess",
-  "ForceFlatList": false,
-  "AdditionalInfo": "explicabo",
+  "Name": "Mills LLC",
+  "ForceFlatList": true,
+  "AdditionalInfo": "quia",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Yost, Shields and Gislason",
-    "ToolTip": "Repellendus magni voluptatem voluptatum aperiam explicabo provident.",
+    "Id": 389,
+    "Name": "Rolfson Inc and Sons",
+    "ToolTip": "Totam atque molestiae.",
     "Deleted": false,
-    "Rank": 498,
-    "Type": "ratione",
-    "ColorBlock": 262,
-    "IconHint": "molestiae",
+    "Rank": 403,
+    "Type": "doloremque",
+    "ColorBlock": 166,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "2013-09-18T12:57:34.3835501+02:00",
+    "LastChanged": "2021-12-20T04:22:27.0810055+01:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Nicolas-Monahan",
-        "ToolTip": "Reprehenderit ex vel unde dicta odio incidunt.",
-        "Deleted": true,
-        "Rank": 682,
-        "Type": "et",
-        "ColorBlock": 97,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2008-08-15T12:57:34.3835501+02:00",
+        "Id": 356,
+        "Name": "Walsh LLC",
+        "ToolTip": "Quasi sequi qui voluptatem.",
+        "Deleted": false,
+        "Rank": 886,
+        "Type": "minima",
+        "ColorBlock": 764,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2008-03-04T04:22:27.0810055+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Dorris Pfannerstill",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Missouri Gerda Hirthe II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 400
+            "FieldType": "System.String",
+            "FieldLength": 154
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Dayna Murphy DDS",
+    "ExtraInfo": "in",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Chaim Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 560
       }
     }
   }

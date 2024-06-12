@@ -79,7 +79,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)|  |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
 |duration|timeSpan|Duration: The duration of the chat session|  |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow|  |
+|createdByWorkflow|listAny|Created by flow: Created by flow|  |
 |visibleFor|listAny|Visible for|  |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -313,7 +313,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/isProjectMember|bool|Is project member: This person is a project member|  |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder|  |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow|  |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow|  |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow|  |
 |person/createdByForm|listAny|Created by form: Created by form|  |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -640,7 +640,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide|  |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow|  |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow|  |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID|  |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field|  |
@@ -829,7 +829,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member|  |
 |saleStakeholder/person/isStakeholder|bool|Stakeholder - Is stakeholder: This person is a sale stakeholder|  |
 |saleStakeholder/person/updatedByWorkflow|listAny|Stakeholder - Updated by flow: Updated by flow|  |
-|saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - Updated by flow: Updated by flow|  |
+|saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - When updated by flow: When updated by flow|  |
 |saleStakeholder/person/createdByForm|listAny|Stakeholder - Created by form: Created by form|  |
 |saleStakeholder/person/phone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
 |saleStakeholder/person/personDirectPhone/formattedNumber|string|Stakeholder - Direct - Phone: Displays phone number|  |
@@ -1437,7 +1437,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |isProjectMember|bool|Is project member: This person is a project member|  |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder|  |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow|  |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow|  |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow|  |
 |createdByForm|listAny|Created by form: Created by form|  |
 |destinationPersonRestrictionId|int|ADD LINK Person DESTINATION RESOURCE: ADD LINK Person DESTINATION TOOLTIP RESOURCE|  |
 |department|string|Department|  |
@@ -1472,7 +1472,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/contactAssociate/ejStatus,person/title,person/personAssociate/mrMrs,person/correspondingAssociate/locationAddress,saleStakeholder/person/personInfo/textId
+GET /api/v1/archive/Links?$select=contact/associateId,person/retired,project/projectUdef/SuperOffice:8,sale/stageRank,sale/hasQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

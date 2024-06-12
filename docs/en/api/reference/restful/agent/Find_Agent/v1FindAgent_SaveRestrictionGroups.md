@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nam",
-  "ProviderName": "Schiller Group",
-  "StorageKey": "illo",
+  "StorageType": "ut",
+  "ProviderName": "D'Amore, Luettgen and Schaefer",
+  "StorageKey": "accusantium",
   "RestrictionGroups": [
     {
-      "Name": "Emmerich-Prohaska",
-      "Description": "Upgradable neutral capacity",
-      "Rank": 715,
+      "Name": "Gutkowski Group",
+      "Description": "Universal composite migration",
+      "Rank": 736,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Emmerich-Prohaska",
-      "Description": "Upgradable neutral capacity",
-      "Rank": 715,
+      "Name": "Gutkowski Group",
+      "Description": "Universal composite migration",
+      "Rank": 736,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "dolores"
+  "Context": "nihil"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quitzon Inc and Sons",
-    "Description": "Virtual assymetric application",
-    "Rank": 970,
+    "Name": "Ryan, Osinski and McClure",
+    "Description": "Stand-alone asynchronous strategy",
+    "Rank": 788,
     "Restrictions": [
       {
-        "Name": "D'Amore-Larkin",
-        "Operator": "libero",
+        "Name": "Goodwin, Lemke and Kunde",
+        "Operator": "et",
         "Values": [
-          "ea",
-          "non"
+          "sapiente",
+          "dolorum"
         ],
         "DisplayValues": [
-          "fugiat",
-          "dolor"
+          "veritatis",
+          "non"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 118,
+        "InterParenthesis": 852,
         "InterOperator": "And",
-        "UniqueHash": 215
+        "UniqueHash": 425
       }
     ]
   },
   {
-    "Name": "Quitzon Inc and Sons",
-    "Description": "Virtual assymetric application",
-    "Rank": 970,
+    "Name": "Ryan, Osinski and McClure",
+    "Description": "Stand-alone asynchronous strategy",
+    "Rank": 788,
     "Restrictions": [
       {
-        "Name": "D'Amore-Larkin",
-        "Operator": "libero",
+        "Name": "Goodwin, Lemke and Kunde",
+        "Operator": "et",
         "Values": [
-          "ea",
-          "non"
+          "sapiente",
+          "dolorum"
         ],
         "DisplayValues": [
-          "fugiat",
-          "dolor"
+          "veritatis",
+          "non"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 118,
+        "InterParenthesis": 852,
         "InterOperator": "And",
-        "UniqueHash": 215
+        "UniqueHash": 425
       }
     ]
   }

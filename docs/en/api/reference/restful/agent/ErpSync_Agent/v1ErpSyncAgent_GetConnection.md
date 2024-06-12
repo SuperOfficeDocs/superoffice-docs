@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 821
+  "ErpConnectionId": 825
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 18,
-  "ErpConnectorId": 953,
-  "DisplayName": "Legros, Mitchell and Hoppe",
-  "DisplayDescription": "Enterprise-wide grid-enabled product",
+  "ErpConnectionId": 733,
+  "ErpConnectorId": 126,
+  "DisplayName": "Rau Group",
+  "DisplayDescription": "Synergistic multimedia system engine",
   "Active": true,
-  "ConnectionId": "nihil",
-  "MostRecentTimestamp": "quam",
+  "ConnectionId": "et",
+  "MostRecentTimestamp": "occaecati",
   "ConfigFields": {
-    "ConfigFields1": "doloremque",
-    "ConfigFields2": "est"
+    "ConfigFields1": "quasi",
+    "ConfigFields2": "et"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    900,
-    214
+    50,
+    810
   ],
   "AssociateAccessIds": [
-    179,
-    971
+    273,
+    102
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 586
     }
   }
 }

@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marquardt-Feil",
-    "DisplayName": "Zulauf Group",
-    "DisplayTooltip": "facilis",
+    "Name": "Gaylord-Hirthe",
+    "DisplayName": "Mertz-Klocko",
+    "DisplayTooltip": "saepe",
     "IsActive": false
   },
   {
-    "Name": "Marquardt-Feil",
-    "DisplayName": "Zulauf Group",
-    "DisplayTooltip": "facilis",
+    "Name": "Gaylord-Hirthe",
+    "DisplayName": "Mertz-Klocko",
+    "DisplayTooltip": "saepe",
     "IsActive": false
   }
 ]

@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-02-09T12:57:32.805296+01:00",
-  "AppointmentId": 646,
-  "Description": "Business-focused needs-based migration",
-  "Title": "dolores",
-  "Agenda": "dolorum",
-  "InternalNotes": "vitae",
-  "StartDate": "2020-11-07T12:57:32.805296+01:00",
-  "EndDate": "2018-08-20T12:57:32.805296+02:00",
+  "CreatedDate": "2002-09-02T04:22:25.7303062+02:00",
+  "AppointmentId": 834,
+  "Description": "Switchable upward-trending knowledge user",
+  "Title": "ducimus",
+  "Agenda": "aperiam",
+  "InternalNotes": "dolore",
+  "StartDate": "2007-05-27T04:22:25.7303062+02:00",
+  "EndDate": "2023-02-17T04:22:25.7303062+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 927,
+  "MotherId": 108,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-06-10T12:57:32.805296+02:00",
+  "UpdatedDate": "2019-05-12T04:22:25.7303062+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 684,
+  "ActiveLinks": 465,
   "Links": [
     {
-      "EntityName": "Rodriguez-Will",
-      "Id": 184,
-      "Description": "Realigned non-volatile help-desk",
-      "ExtraInfo": "possimus",
-      "LinkId": 688,
+      "EntityName": "Johns-Will",
+      "Id": 351,
+      "Description": "Up-sized encompassing interface",
+      "ExtraInfo": "atque",
+      "LinkId": 169,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 988
+          "FieldLength": 435
         }
       }
     }
   ],
-  "AlarmLeadTime": "illum",
-  "HasAlarm": true,
-  "ColorIndex": 395,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 449,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "animi",
-  "LeadTime": "ut",
-  "Location": "ad",
-  "RejectCounter": 528,
+  "IsAlldayEvent": false,
+  "LagTime": "nihil",
+  "LeadTime": "quos",
+  "Location": "expedita",
+  "RejectCounter": 371,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 883,
-      "PersonId": 101,
-      "ContactId": 916,
-      "EmailId": 260,
-      "SendEmail": true,
+      "AssociateId": 461,
+      "PersonId": 228,
+      "ContactId": 274,
+      "EmailId": 298,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "brent_lemke@jacobi.info",
-      "Description": "Front-line multi-state analyzer"
+      "EmailAddress": "kavon@kilback.co.uk",
+      "Description": "Synchronised transitional policy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-06-09T12:57:32.805296+02:00",
+  "ActiveDate": "2005-06-14T04:22:25.7303062+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 846,
+  "PreferredTZLocation": 121,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 697,
+  "SuggestedAppointmentId": 516,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "totam",
   "UserDefinedFields": {
-    "SuperOffice:1": "271842441",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "446768660",
+    "SuperOffice:2": "Ms. Cortney Lulu Mayer III"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "nesciunt"
   },
-  "PublishEventDate": "2009-10-12T12:57:32.805296+02:00",
-  "PublishTo": "2006-11-18T12:57:32.805296+01:00",
-  "PublishFrom": "1997-09-26T12:57:32.805296+02:00",
+  "PublishEventDate": "2016-10-21T04:22:25.7303062+02:00",
+  "PublishTo": "1999-08-24T04:22:25.7303062+02:00",
+  "PublishFrom": "2011-03-13T04:22:25.7303062+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 843,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 437
         }
       }
     },
     {
-      "VisibleId": 843,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 437
         }
       }
     }
@@ -251,8 +251,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 214
     }
   }
 }

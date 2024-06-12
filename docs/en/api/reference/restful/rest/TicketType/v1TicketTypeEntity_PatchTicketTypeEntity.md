@@ -124,18 +124,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "ea",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "ea",
     "value": {}
   }
 ]
@@ -148,43 +148,43 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 103,
-  "Name": "Friesen Group",
-  "Rank": 485,
-  "Tooltip": "ex",
-  "Icon": "rerum",
-  "DefaultTicketStatus": 988,
+  "TicketTypeId": 483,
+  "Name": "Block-Hayes",
+  "Rank": 465,
+  "Tooltip": "est",
+  "Icon": "earum",
+  "DefaultTicketStatus": 455,
   "TicketStatuses": [
-    575,
-    268
+    382,
+    943
   ],
-  "DefaultTicketPriority": 425,
+  "DefaultTicketPriority": 732,
   "TicketPriorities": [
-    470,
-    841
+    243,
+    273
   ],
-  "ReplyTemplate": 818,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 907,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    295,
-    500
+    286,
+    323
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 14
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

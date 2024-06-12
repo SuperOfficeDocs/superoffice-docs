@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 314,
-    "Name": "Muller Group",
-    "Tooltip": "totam",
-    "Deleted": false,
-    "Rank": 972,
-    "UdListDefinitionId": 555,
+    "HeadingId": 990,
+    "Name": "Deckow, Botsford and Bergstrom",
+    "Tooltip": "amet",
+    "Deleted": true,
+    "Rank": 172,
+    "UdListDefinitionId": 562,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 546
+        "FieldLength": 174
       }
     }
   }

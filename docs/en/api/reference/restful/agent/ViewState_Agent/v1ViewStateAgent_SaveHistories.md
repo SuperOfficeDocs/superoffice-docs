@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Hamill Group",
+  "HistoryName": "Sporer, Medhurst and Bergstrom",
   "History": [
     {
-      "Rank": 444,
-      "Id": 861,
-      "HistoryName": "Block, Wehner and Spinka",
-      "HistoryId": 200,
-      "AssociateId": 201,
-      "Name": "Rempel-Kohler",
-      "ItemInfo": "iste"
+      "Rank": 602,
+      "Id": 331,
+      "HistoryName": "Gaylord-Simonis",
+      "HistoryId": 929,
+      "AssociateId": 158,
+      "Name": "Hane-Dooley",
+      "ItemInfo": "omnis"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 697,
-    "Id": 63,
-    "HistoryName": "Harvey LLC",
-    "HistoryId": 580,
-    "AssociateId": 761,
-    "Name": "Douglas Inc and Sons",
-    "ItemInfo": "amet",
+    "Rank": 120,
+    "Id": 633,
+    "HistoryName": "Jaskolski-Kuphal",
+    "HistoryId": 169,
+    "AssociateId": 959,
+    "Name": "Hand Group",
+    "ItemInfo": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 291
       }
     }
   }

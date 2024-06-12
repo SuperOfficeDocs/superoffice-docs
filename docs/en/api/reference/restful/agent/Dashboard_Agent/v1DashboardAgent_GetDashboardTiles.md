@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    82,
-    255
+    42,
+    173
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 369,
-    "Caption": "sint",
-    "Description": "Organized 6th generation infrastructure",
-    "ChartName": "Rosenbaum, Bernhard and Tremblay",
-    "ChartId": "itaque",
-    "IsDefault": true,
-    "AssociateId": 438,
-    "GroupId": 677,
-    "SelectionId": 363,
-    "Config": "totam",
+    "DashboardTileId": 67,
+    "Caption": "distinctio",
+    "Description": "Distributed zero administration synergy",
+    "ChartName": "Bosco LLC",
+    "ChartId": "dolores",
+    "IsDefault": false,
+    "AssociateId": 866,
+    "GroupId": 521,
+    "SelectionId": 171,
+    "Config": "ad",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Von-Zieme",
-        "Description": "User-centric 5th generation firmware",
+        "Name": "Jewess-Beatty",
+        "Description": "Balanced motivating portal",
         "Type": "Boolean",
-        "ListName": "Kassulke, Moen and Waelchi",
+        "ListName": "Smith Inc and Sons",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "enim",
-        "DefaultDataOption": false,
+        "Value": "nostrum",
+        "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 674
+            "FieldType": "System.Int32",
+            "FieldLength": 755
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 807,
+        "VisibleId": 569,
         "Visibility": "All",
-        "DisplayValue": "ullam",
+        "DisplayValue": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldLength": 184
           }
         }
       },
       {
-        "VisibleId": 807,
+        "VisibleId": 569,
         "Visibility": "All",
-        "DisplayValue": "ullam",
+        "DisplayValue": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldLength": 184
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 31
       }
     }
   }

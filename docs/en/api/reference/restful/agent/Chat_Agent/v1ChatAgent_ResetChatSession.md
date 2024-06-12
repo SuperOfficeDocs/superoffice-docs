@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 303
+  "ChatSessionId": 928
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 858,
-  "TopicId": 265,
+  "ChatSessionId": 275,
+  "TopicId": 732,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "a",
-  "CustomerName": "Boehm LLC",
-  "CustomerEmail": "fermin@keeling.ca",
-  "CustomerPhone": "566-014-6610 x56741",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Kozey, Watsica and Walter",
+  "CustomerAlias": "quasi",
+  "CustomerHost": "nam",
+  "CustomerName": "Graham LLC",
+  "CustomerEmail": "esperanza.will@denesikjohnston.name",
+  "CustomerPhone": "079-542-2278",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Ledner LLC",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "ut",
-  "WhenRequested": "2002-10-07T12:57:33.3993692+02:00",
-  "WhenStarted": "2021-12-22T12:57:33.3993692+01:00",
-  "WhenEnded": "2015-04-28T12:57:33.3993692+02:00",
-  "WhenIdle": "2023-01-02T12:57:33.3993692+01:00",
-  "WhenFetched": "2004-08-28T12:57:33.3993692+02:00",
-  "SessionKey": "quis",
-  "InitialQueuePos": 347,
-  "AlertLevel": 900,
-  "Rank": 716,
+  "FirstMessage": "vel",
+  "LastMessage": "non",
+  "WhenRequested": "2006-09-22T04:22:26.1372179+02:00",
+  "WhenStarted": "2003-09-19T04:22:26.1372179+02:00",
+  "WhenEnded": "2000-05-06T04:22:26.1372179+02:00",
+  "WhenIdle": "2019-02-26T04:22:26.1372179+01:00",
+  "WhenFetched": "2023-09-09T04:22:26.1372179+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 135,
+  "AlertLevel": 144,
+  "Rank": 383,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 468,
+  "Rating": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 342
     }
   }
 }

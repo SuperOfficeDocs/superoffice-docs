@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Herzog, Douglas and Tromp",
-  "EmailAddress": "aliyah@goldner.biz"
+  "Name": "Rath-Bartell",
+  "EmailAddress": "rigoberto@vonruedenzulauf.name"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 642,
-    "FullName": "Dave Rohan",
-    "EmailAddress": "jazmyne@howell.biz",
-    "ContactId": 471,
-    "ContactName": "Rogahn-Rodriguez",
-    "ContactDepartment": "scale back-end architectures",
+    "PersonId": 274,
+    "FullName": "Morris Krystal O'Keefe DVM",
+    "EmailAddress": "odie_hamill@bergnaum.us",
+    "ContactId": 409,
+    "ContactName": "Marks Inc and Sons",
+    "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Bayer, Stiedemann and Kautzer",
+    "SortName": "Rogahn, Koss and Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 276
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

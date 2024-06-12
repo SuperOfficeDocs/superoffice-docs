@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 805,
-  "ColumnId": 485,
-  "FieldDefault": "reprehenderit",
-  "FieldHeight": 53,
-  "FieldLabel": "praesentium",
-  "FieldLeft": 328,
-  "FieldTop": 855,
+  "UDefFieldId": 367,
+  "ColumnId": 518,
+  "FieldDefault": "debitis",
+  "FieldHeight": 687,
+  "FieldLabel": "aliquid",
+  "FieldLeft": 289,
+  "FieldTop": 188,
   "FieldType": "Checkbox",
-  "FieldWidth": 109,
-  "FormatMask": "dolorem",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 149,
-  "LabelLeft": 629,
-  "LabelTop": 329,
-  "LabelWidth": 398,
-  "LastVersionId": 797,
-  "ListTableId": 860,
+  "FieldWidth": 490,
+  "FormatMask": "sed",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 495,
+  "LabelLeft": 978,
+  "LabelTop": 517,
+  "LabelWidth": 124,
+  "LastVersionId": 452,
+  "ListTableId": 959,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 88,
-  "ProgId": "molestias",
-  "IsReadOnly": false,
-  "ShortLabel": "dolorum",
-  "TabOrder": 160,
-  "TextLength": 313,
-  "Tooltip": "ea",
-  "UdefIdentity": 355,
-  "UDListDefinitionId": 289,
+  "Page1LineNo": 568,
+  "ProgId": "odio",
+  "IsReadOnly": true,
+  "ShortLabel": "itaque",
+  "TabOrder": 250,
+  "TextLength": 981,
+  "Tooltip": "sed",
+  "UdefIdentity": 58,
+  "UDListDefinitionId": 765,
   "Justification": "Center",
-  "Version": 916,
-  "TemplateVariableName": "Kshlerin LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Bergnaum-Hudson",
+  "Version": 454,
+  "TemplateVariableName": "Glover-McLaughlin",
+  "HasBeenPublished": true,
+  "MdoListName": "Lebsack LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 596
     }
   }
 }

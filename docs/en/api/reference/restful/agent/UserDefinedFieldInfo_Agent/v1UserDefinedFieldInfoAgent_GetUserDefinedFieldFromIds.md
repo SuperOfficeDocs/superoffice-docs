@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    608,
-    990
+    958,
+    913
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 666,
-    "ColumnId": 741,
-    "FieldDefault": "perferendis",
-    "FieldHeight": 202,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 612,
-    "FieldTop": 854,
+    "UDefFieldId": 773,
+    "ColumnId": 301,
+    "FieldDefault": "et",
+    "FieldHeight": 575,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 381,
+    "FieldTop": 64,
     "FieldType": "Checkbox",
-    "FieldWidth": 159,
-    "FormatMask": "sint",
-    "HideLabel": false,
+    "FieldWidth": 605,
+    "FormatMask": "harum",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 524,
-    "LabelLeft": 228,
-    "LabelTop": 547,
-    "LabelWidth": 696,
-    "LastVersionId": 245,
-    "ListTableId": 956,
+    "LabelHeight": 765,
+    "LabelLeft": 395,
+    "LabelTop": 130,
+    "LabelWidth": 367,
+    "LastVersionId": 736,
+    "ListTableId": 695,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 421,
-    "ProgId": "maiores",
-    "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 839,
-    "TextLength": 588,
-    "Tooltip": "doloremque",
-    "UdefIdentity": 404,
-    "UDListDefinitionId": 101,
+    "Page1LineNo": 197,
+    "ProgId": "ab",
+    "IsReadOnly": true,
+    "ShortLabel": "et",
+    "TabOrder": 479,
+    "TextLength": 846,
+    "Tooltip": "optio",
+    "UdefIdentity": 51,
+    "UDListDefinitionId": 974,
     "Justification": "Center",
-    "Version": 278,
-    "TemplateVariableName": "Dietrich, Deckow and Hoppe",
+    "Version": 524,
+    "TemplateVariableName": "Torphy-Klocko",
     "HasBeenPublished": false,
-    "MdoListName": "Blanda LLC",
+    "MdoListName": "Bins-Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 228
       }
     }
   }

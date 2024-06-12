@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "sint",
+  "ProgId": "accusantium",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 72,
-  "ColumnId": 541,
-  "FieldDefault": "nihil",
-  "FieldHeight": 244,
-  "FieldLabel": "est",
-  "FieldLeft": 299,
-  "FieldTop": 492,
+  "UDefFieldId": 671,
+  "ColumnId": 143,
+  "FieldDefault": "quidem",
+  "FieldHeight": 39,
+  "FieldLabel": "eaque",
+  "FieldLeft": 430,
+  "FieldTop": 320,
   "FieldType": "Checkbox",
-  "FieldWidth": 835,
-  "FormatMask": "aut",
-  "HideLabel": false,
+  "FieldWidth": 478,
+  "FormatMask": "ut",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 564,
-  "LabelLeft": 606,
-  "LabelTop": 493,
-  "LabelWidth": 178,
-  "LastVersionId": 487,
-  "ListTableId": 911,
-  "IsMandatory": false,
+  "LabelHeight": 743,
+  "LabelLeft": 917,
+  "LabelTop": 74,
+  "LabelWidth": 907,
+  "LastVersionId": 428,
+  "ListTableId": 945,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 127,
-  "ProgId": "omnis",
+  "Page1LineNo": 512,
+  "ProgId": "voluptatibus",
   "IsReadOnly": false,
-  "ShortLabel": "dolor",
-  "TabOrder": 813,
-  "TextLength": 210,
-  "Tooltip": "deserunt",
-  "UdefIdentity": 908,
-  "UDListDefinitionId": 246,
+  "ShortLabel": "similique",
+  "TabOrder": 551,
+  "TextLength": 837,
+  "Tooltip": "modi",
+  "UdefIdentity": 493,
+  "UDListDefinitionId": 969,
   "Justification": "Center",
-  "Version": 96,
-  "TemplateVariableName": "Nitzsche Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Dickens-Kuhn",
+  "Version": 731,
+  "TemplateVariableName": "Simonis Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Cronin, Marvin and O'Hara",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 178
     }
   }
 }

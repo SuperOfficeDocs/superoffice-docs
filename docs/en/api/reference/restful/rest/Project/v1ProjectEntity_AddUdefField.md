@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 394,
-  "ColumnId": 976,
-  "FieldDefault": "quidem",
-  "FieldHeight": 473,
-  "FieldLabel": "excepturi",
-  "FieldLeft": 679,
-  "FieldTop": 586,
+  "UDefFieldId": 110,
+  "ColumnId": 102,
+  "FieldDefault": "voluptates",
+  "FieldHeight": 741,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 454,
+  "FieldTop": 138,
   "FieldType": "Checkbox",
-  "FieldWidth": 45,
-  "FormatMask": "ea",
+  "FieldWidth": 680,
+  "FormatMask": "quod",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 480,
-  "LabelLeft": 873,
-  "LabelTop": 815,
-  "LabelWidth": 771,
-  "LastVersionId": 676,
-  "ListTableId": 583,
+  "LabelHeight": 36,
+  "LabelLeft": 919,
+  "LabelTop": 739,
+  "LabelWidth": 199,
+  "LastVersionId": 37,
+  "ListTableId": 702,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 251,
-  "ProgId": "qui",
+  "Page1LineNo": 217,
+  "ProgId": "ratione",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 447,
-  "TextLength": 367,
-  "Tooltip": "quos",
-  "UdefIdentity": 698,
-  "UDListDefinitionId": 744,
+  "ShortLabel": "magni",
+  "TabOrder": 825,
+  "TextLength": 552,
+  "Tooltip": "fuga",
+  "UdefIdentity": 220,
+  "UDListDefinitionId": 955,
   "Justification": "Center",
-  "Version": 692,
-  "TemplateVariableName": "Zboncak Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Christiansen LLC",
+  "Version": 669,
+  "TemplateVariableName": "Grant Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Wunsch Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 231
     }
   }
 }

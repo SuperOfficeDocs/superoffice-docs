@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 951,
-    "Name": "Kunze Group",
-    "OrgNr": "175500",
-    "Department": "",
+    "ContactId": 315,
+    "Name": "Spinka-Rodriguez",
+    "OrgNr": "741434",
+    "Department": "transform customized partnerships",
     "URL": "http://www.example.com/",
-    "City": "qui",
-    "DirectPhone": "(227)863-1987",
-    "AssociateId": 39,
-    "CountryId": 957,
-    "EmailAddress": "jennings_zieme@pfannerstilllueilwitz.name",
-    "Kananame": "non",
-    "EmailAddressName": "elyssa_mayer@ernserberge.uk",
+    "City": "est",
+    "DirectPhone": "1-272-013-5860",
+    "AssociateId": 558,
+    "CountryId": 769,
+    "EmailAddress": "dorothea_okon@waelchistehr.ca",
+    "Kananame": "sed",
+    "EmailAddressName": "frederic_kris@reichertwindler.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Jovany Parisian DVM",
+    "AssociateFullName": "Dr. Moses Hardy Steuber MD",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quas",
-    "FullName": "Gloria Welch",
+    "FormattedAddress": "dolorem",
+    "FullName": "Ms. Rosalee Kyle Gutmann",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 65,
-    "Number1": "950505",
-    "Number2": "1639323",
+    "ActiveErpLinks": 699,
+    "Number1": "583415",
+    "Number2": "1351477",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 470
       }
     }
   }

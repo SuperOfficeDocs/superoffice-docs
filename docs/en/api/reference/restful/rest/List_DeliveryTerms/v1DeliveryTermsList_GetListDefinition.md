@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Turcotte, Conn and Boyer",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 515,
+  "Id": 493,
+  "Name": "Ernser Inc and Sons",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 281,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "recusandae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldLength": 736
     }
   },
   "_Links": {

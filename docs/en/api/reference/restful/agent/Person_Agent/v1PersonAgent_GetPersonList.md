@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "perferendis",
-    "PersonId": 293,
-    "Mrmrs": "quia",
-    "Firstname": "Georgiana",
-    "Lastname": "Parisian",
-    "MiddleName": "Rau Group",
-    "Title": "facere",
-    "Description": "Distributed next generation intranet",
-    "Email": "madaline@kreiger.com",
-    "FullName": "Mellie Little",
-    "DirectPhone": "246-734-6744 x60790",
-    "FormalName": "Koelpin-Hahn",
-    "CountryId": 173,
-    "ContactId": 840,
-    "ContactName": "Von, Smitham and Swaniawski",
-    "Retired": 227,
-    "Rank": 525,
-    "ActiveInterests": 211,
+    "Position": "quasi",
+    "PersonId": 732,
+    "Mrmrs": "eius",
+    "Firstname": "Glenda",
+    "Lastname": "Leffler",
+    "MiddleName": "Bartell LLC",
+    "Title": "harum",
+    "Description": "Centralized bifurcated application",
+    "Email": "rosamond_koepp@mayer.name",
+    "FullName": "Georgiana Legros IV",
+    "DirectPhone": "(108)298-8342 x867",
+    "FormalName": "Watsica, Howell and Hermiston",
+    "CountryId": 174,
+    "ContactId": 255,
+    "ContactName": "Goldner Inc and Sons",
+    "Retired": 867,
+    "Rank": 716,
+    "ActiveInterests": 694,
     "ContactDepartment": "",
-    "ContactCountryId": 153,
-    "ContactOrgNr": "848354",
-    "FaxPhone": "1-661-428-0090",
-    "MobilePhone": "1-392-760-1303 x50119",
-    "ContactPhone": "392-592-6311",
-    "AssociateName": "Rippin-Marks",
-    "AssociateId": 640,
+    "ContactCountryId": 668,
+    "ContactOrgNr": "680078",
+    "FaxPhone": "674-400-0516 x82502",
+    "MobilePhone": "(425)665-6747 x951",
+    "ContactPhone": "(515)833-0547",
+    "AssociateName": "Breitenberg, Reinger and Raynor",
+    "AssociateId": 923,
     "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "facilis",
-    "Kanalname": "aut",
-    "Post1": "est",
-    "Post2": "explicabo",
-    "Post3": "corporis",
-    "EmailName": "sandrine_weissnat@barrows.ca",
-    "ContactFullName": "Celestine Bins",
-    "ActiveErpLinks": 505,
-    "TicketPriorityId": 55,
-    "SupportLanguageId": 801,
-    "SupportAssociateId": 695,
+    "ContactFax": "quo",
+    "Kanafname": "facere",
+    "Kanalname": "sed",
+    "Post1": "ad",
+    "Post2": "quod",
+    "Post3": "blanditiis",
+    "EmailName": "dante_gorczany@bauch.biz",
+    "ContactFullName": "Bobby Mante",
+    "ActiveErpLinks": 801,
+    "TicketPriorityId": 782,
+    "SupportLanguageId": 171,
+    "SupportAssociateId": 546,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

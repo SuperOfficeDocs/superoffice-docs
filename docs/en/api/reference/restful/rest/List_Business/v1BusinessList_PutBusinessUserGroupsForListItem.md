@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Feest-Kerluke",
-    "ToolTip": "At minima accusamus.",
+    "Id": 419,
+    "Name": "Zulauf-Bosco",
+    "ToolTip": "Cumque qui enim nihil provident aut.",
     "Deleted": false,
-    "Rank": 897,
-    "Type": "iure",
-    "ColorBlock": 412,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2017-08-01T12:57:43.3239611+02:00",
+    "Rank": 816,
+    "Type": "corporis",
+    "ColorBlock": 128,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2000-06-04T04:22:35.8153337+02:00",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Adams-Ebert",
-        "ToolTip": "Enim non.",
+        "Id": 951,
+        "Name": "Yost-Stoltenberg",
+        "ToolTip": "Ut odit ratione.",
         "Deleted": false,
-        "Rank": 861,
-        "Type": "eaque",
-        "ColorBlock": 872,
-        "IconHint": "fugit",
-        "Selected": false,
-        "LastChanged": "2010-08-14T12:57:43.3239611+02:00",
+        "Rank": 494,
+        "Type": "aut",
+        "ColorBlock": 323,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2021-06-22T04:22:35.8153337+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "sed",
+        "ExtraInfo": "dolore",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Prof. Erich Kelton Gleason"
+        "FullName": "Ulices Herzog MD"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "similique",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Else Stamm"
+    "FullName": "Karl Spinka"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Strosin-Langosh",
-    "ToolTip": "Similique nobis quis.",
+    "Id": 511,
+    "Name": "Waelchi, Ratke and Welch",
+    "ToolTip": "Ex similique.",
     "Deleted": true,
-    "Rank": 22,
-    "Type": "praesentium",
-    "ColorBlock": 285,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2018-09-28T12:57:43.3239611+02:00",
+    "Rank": 348,
+    "Type": "beatae",
+    "ColorBlock": 302,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2023-10-24T04:22:35.8153337+02:00",
     "ChildItems": [
       {
-        "Id": 844,
-        "Name": "Kirlin Inc and Sons",
-        "ToolTip": "Qui ullam.",
-        "Deleted": true,
-        "Rank": 730,
-        "Type": "natus",
-        "ColorBlock": 420,
-        "IconHint": "est",
+        "Id": 573,
+        "Name": "Jacobi, Reichel and Hoppe",
+        "ToolTip": "In sint praesentium quis tenetur quam.",
+        "Deleted": false,
+        "Rank": 969,
+        "Type": "et",
+        "ColorBlock": 322,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2005-10-10T12:57:43.3239611+02:00",
+        "LastChanged": "2013-12-03T04:22:35.8153337+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "omnis",
+        "ExtraInfo": "non",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Erin Lynch",
+        "FullName": "Mr. Percival O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 988
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "tempora",
-    "Hidden": false,
-    "FullName": "Sadie Coleman Streich III",
+    "ExtraInfo": "sit",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Miss Maya Nikolaus DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 332
       }
     }
   }

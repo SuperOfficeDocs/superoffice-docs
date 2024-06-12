@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Paucek Inc and Sons",
+  "UserName": "Wehner, Anderson and Morissette",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 96,
-  "Name": "Krajcik Inc and Sons",
-  "Rank": 558,
-  "Tooltip": "quaerat",
+  "AssociateId": 869,
+  "Name": "Rippin Group",
+  "Rank": 767,
+  "Tooltip": "officiis",
   "LicenseOwners": [
     {
-      "Name": "Koelpin-Jones",
-      "Description": "Face to face full-range matrix",
+      "Name": "Skiles-Hoeger",
+      "Description": "Synergized intangible hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldLength": 312
         }
       }
     },
     {
-      "Name": "Koelpin-Jones",
-      "Description": "Face to face full-range matrix",
+      "Name": "Skiles-Hoeger",
+      "Description": "Synergized intangible hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldLength": 312
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eaque",
-      "Tooltip": "quam",
-      "Id": 957,
-      "Rank": 613,
+      "Value": "debitis",
+      "Tooltip": "ipsum",
+      "Id": 351,
+      "Rank": 528,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 625
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2003-07-28T12:57:35.4930502+02:00",
-  "Lastlogout": "2015-01-29T12:57:35.4930502+01:00",
-  "EjUserId": 132,
-  "RequestSignature": "neque",
+  "Deleted": false,
+  "Lastlogin": "2019-10-26T04:22:28.1006289+02:00",
+  "Lastlogout": "2012-02-23T04:22:28.1006289+01:00",
+  "EjUserId": 253,
+  "RequestSignature": "autem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "corrupti",
-      "DisplayValue": "facilis",
+      "Value": "eaque",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 468
+          "FieldType": "System.Int32",
+          "FieldLength": 588
         }
       }
     },
     {
       "Type": null,
-      "Value": "corrupti",
-      "DisplayValue": "facilis",
+      "Value": "eaque",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 468
+          "FieldType": "System.Int32",
+          "FieldLength": 588
         }
       }
     }
   ],
-  "UserName": "Wyman, Stracke and Cronin",
+  "UserName": "Schinner, Bechtelar and Gutmann",
   "TicketCategories": [
     {
-      "Id": 590,
-      "Name": "Schroeder, Dickinson and Sawayn",
-      "ToolTip": "Nihil earum quaerat facere.",
+      "Id": 580,
+      "Name": "Kub, D'Amore and Abernathy",
+      "ToolTip": "Minima at.",
       "Deleted": false,
-      "Rank": 785,
-      "Type": "aut",
+      "Rank": 720,
+      "Type": "velit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "beatae",
-      "ColorBlock": 505,
-      "ExtraInfo": "ipsum",
-      "StyleHint": "dolores",
-      "FullName": "Arlo Kassulke",
+      "IconHint": "aut",
+      "ColorBlock": 378,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "est",
+      "FullName": "Dr. Katarina Stiedemann I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     }
   ],
-  "NickName": "O'Connell LLC",
-  "WaitingForApproval": true,
+  "NickName": "Armstrong-Becker",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "non",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "id"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schoen, Lebsack and Rice",
-      "DisplayName": "Nolan-Barrows",
-      "Description": "Cloned reciprocal throughput",
-      "ToolTip": "Pariatur consequatur odio id reprehenderit.",
+      "Name": "Auer Group",
+      "DisplayName": "Ziemann-Kutch",
+      "Description": "Innovative systematic structure",
+      "ToolTip": "In officiis voluptatibus ea doloremque facilis dolores.",
       "Actions": "Implicit",
-      "ActionData": "reiciendis",
+      "ActionData": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 398
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

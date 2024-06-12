@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Brekke-O'Keefe",
-    "ToolTip": "Ipsa consectetur quia facilis veritatis.",
-    "Deleted": false,
-    "Rank": 554,
-    "Type": "id",
-    "ColorBlock": 944,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2004-12-03T12:57:43.6207681+01:00",
+    "Id": 633,
+    "Name": "Boehm, Green and Dicki",
+    "ToolTip": "Consequuntur odio dolore nobis.",
+    "Deleted": true,
+    "Rank": 161,
+    "Type": "non",
+    "ColorBlock": 457,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "2007-06-22T04:22:36.0809665+02:00",
     "ChildItems": [
       {
-        "Id": 645,
-        "Name": "Gutkowski LLC",
-        "ToolTip": "Accusamus culpa aut nihil neque labore.",
-        "Deleted": true,
-        "Rank": 745,
-        "Type": "illum",
-        "ColorBlock": 731,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2000-01-26T12:57:43.6207681+01:00",
+        "Id": 676,
+        "Name": "Dicki-Marvin",
+        "ToolTip": "At quia ea sit velit voluptates dolorem.",
+        "Deleted": false,
+        "Rank": 163,
+        "Type": "veritatis",
+        "ColorBlock": 808,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2010-02-16T04:22:36.0809665+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "occaecati",
-        "Hidden": true,
-        "FullName": "Ms. Reba Litzy Doyle Jr."
+        "ExtraInfo": "dolor",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Timmy Kertzmann"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "reprehenderit",
-    "Hidden": true,
-    "FullName": "Liam Weissnat"
+    "ExtraInfo": "debitis",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Annie Lang"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Nolan Group",
-    "ToolTip": "Accusamus accusantium.",
+    "Id": 322,
+    "Name": "Toy-Eichmann",
+    "ToolTip": "Est voluptatibus in sed cumque.",
     "Deleted": false,
-    "Rank": 955,
-    "Type": "quasi",
-    "ColorBlock": 411,
-    "IconHint": "dolorem",
+    "Rank": 781,
+    "Type": "unde",
+    "ColorBlock": 529,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2013-03-26T12:57:43.6207681+01:00",
+    "LastChanged": "2009-07-12T04:22:36.0965902+02:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Dickens-Wunsch",
-        "ToolTip": "Dolore optio est incidunt maxime rerum eligendi.",
+        "Id": 559,
+        "Name": "Hirthe-Quitzon",
+        "ToolTip": "Quam rerum reiciendis.",
         "Deleted": false,
-        "Rank": 306,
-        "Type": "quis",
-        "ColorBlock": 45,
-        "IconHint": "consectetur",
+        "Rank": 134,
+        "Type": "unde",
+        "ColorBlock": 107,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2023-05-09T12:57:43.6207681+02:00",
+        "LastChanged": "2023-08-16T04:22:36.0965902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "odio",
+        "ExtraInfo": "est",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Ms. Amber Parker V",
+        "FullName": "Kendra Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 303
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "earum",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Dr. Kaelyn Damaris O'Keefe",
+    "FullName": "Mr. Taylor Marion Rohan MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldType": "System.String",
+        "FieldLength": 56
       }
     }
   }

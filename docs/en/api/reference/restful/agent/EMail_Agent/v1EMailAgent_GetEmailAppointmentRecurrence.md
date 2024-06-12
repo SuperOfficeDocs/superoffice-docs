@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 77
+  "MailItemId": 392
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 317,
-  "StartDate": "2003-06-20T12:57:33.8836618+02:00",
-  "EndDate": "2023-02-24T12:57:33.8836618+01:00",
-  "RecurrenceCounter": 536,
+  "RecurrenceId": 821,
+  "StartDate": "2014-10-06T04:22:26.7022333+02:00",
+  "EndDate": "2002-07-10T04:22:26.7022333+02:00",
+  "RecurrenceCounter": 505,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2009-09-14T12:57:33.8836618+02:00",
+      "Date": "2004-01-08T04:22:26.7022333+01:00",
       "IsConflict": false,
-      "Description": "Enhanced optimal data-warehouse",
-      "DescriptionStyleHint": "Universal reciprocal neural-net",
-      "Tooltip": "et"
+      "Description": "Virtual client-driven productivity",
+      "DescriptionStyleHint": "Seamless logistical process improvement",
+      "Tooltip": "id"
     },
     {
-      "Date": "2009-09-14T12:57:33.8836618+02:00",
+      "Date": "2004-01-08T04:22:26.7022333+01:00",
       "IsConflict": false,
-      "Description": "Enhanced optimal data-warehouse",
-      "DescriptionStyleHint": "Universal reciprocal neural-net",
-      "Tooltip": "et"
+      "Description": "Virtual client-driven productivity",
+      "DescriptionStyleHint": "Seamless logistical process improvement",
+      "Tooltip": "id"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

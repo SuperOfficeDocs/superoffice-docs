@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=eum
+GET /api/v1/List/LegalBase/MDOItems?query=dolorum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "O'Conner Inc and Sons",
-    "ToolTip": "Quia doloribus ex.",
+    "Id": 744,
+    "Name": "Schmitt-Daugherty",
+    "ToolTip": "Aut impedit possimus ipsa dolorum.",
     "Deleted": true,
-    "Rank": 332,
-    "Type": "est",
+    "Rank": 673,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Farrell-Kling",
-        "ToolTip": "Est est corrupti sed consequatur.",
-        "Deleted": true,
-        "Rank": 88,
-        "Type": "similique",
+        "Id": 734,
+        "Name": "Bogisich Inc and Sons",
+        "ToolTip": "In vel est voluptas occaecati ut excepturi dolor.",
+        "Deleted": false,
+        "Rank": 887,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 485,
-        "ExtraInfo": "est",
-        "StyleHint": "cumque",
-        "FullName": "Finn Conor Lubowitz Sr.",
+        "IconHint": "consequuntur",
+        "ColorBlock": 706,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "voluptates",
+        "FullName": "Velva Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 209
+            "FieldType": "System.Int32",
+            "FieldLength": 346
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 902,
-    "ExtraInfo": "dolores",
-    "StyleHint": "harum",
-    "FullName": "Amparo Hickle",
+    "IconHint": "doloribus",
+    "ColorBlock": 966,
+    "ExtraInfo": "suscipit",
+    "StyleHint": "doloribus",
+    "FullName": "Lance Adelle Zemlak III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 52
       }
     }
   }

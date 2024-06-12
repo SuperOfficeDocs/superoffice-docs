@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 370,
-  "Name": "Hamill Inc and Sons",
-  "Tooltip": "officiis",
-  "SaveInDb": 986,
-  "Filename": "suscipit",
-  "DefaultOref": "illo",
+  "DocumentTemplateId": 20,
+  "Name": "Stiedemann Group",
+  "Tooltip": "sapiente",
+  "SaveInDb": 823,
+  "Filename": "maiores",
+  "DefaultOref": "repudiandae",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 232,
-  "IntentId": 936,
+  "AutoeventId": 907,
+  "IntentId": 383,
   "IsDefaultPublished": false,
-  "Rank": 199,
-  "LoadTemplateFromPlugin": 98,
-  "MimeType": "illo",
+  "Rank": 530,
+  "LoadTemplateFromPlugin": 108,
+  "MimeType": "assumenda",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 746,
+  "DocumentTypeKey": 466,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "benjamin@roob.com",
-  "IncludeSignature": false,
+  "EmailSubject": "patsy@ruecker.com",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "emmanuelle_abernathy@bashirian.uk",
+  "SenderEmailAddress": "brice.quitzon@howellstamm.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 663
     }
   }
 }

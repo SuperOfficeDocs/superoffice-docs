@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Haag, Barton and Larson",
-    "ToolTip": "Nihil nihil et sed voluptas quisquam.",
-    "Deleted": true,
-    "Rank": 850,
-    "Type": "est",
-    "ColorBlock": 151,
-    "IconHint": "libero",
+    "Id": 334,
+    "Name": "Steuber, Wisozk and O'Keefe",
+    "ToolTip": "Rerum laudantium enim doloremque quis.",
+    "Deleted": false,
+    "Rank": 959,
+    "Type": "ea",
+    "ColorBlock": 509,
+    "IconHint": "rem",
     "Selected": true,
-    "LastChanged": "2015-12-15T12:57:43.3395828+01:00",
+    "LastChanged": "2009-04-10T04:22:35.830971+02:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Graham, Effertz and Douglas",
-        "ToolTip": "Eos itaque.",
+        "Id": 261,
+        "Name": "Mitchell, Kulas and Satterfield",
+        "ToolTip": "Totam magni illum animi reiciendis a.",
         "Deleted": false,
-        "Rank": 996,
-        "Type": "consequuntur",
-        "ColorBlock": 622,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2009-12-12T12:57:43.3395828+01:00",
+        "Rank": 1002,
+        "Type": "ut",
+        "ColorBlock": 783,
+        "IconHint": "cumque",
+        "Selected": false,
+        "LastChanged": "2002-09-25T04:22:35.830971+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Orville Towne",
+        "ExtraInfo": "similique",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Dr. Nathanael Carolina Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 179
+            "FieldLength": 919
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "saepe",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Emilio Gutmann",
+    "FullName": "Gracie Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldLength": 727
       }
     }
   }

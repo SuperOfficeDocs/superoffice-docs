@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2021-11-11T12:57:32.945918+01:00"
+  "StartDate": "2007-11-24T04:22:25.8559745+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 474,
-  "StartDate": "2022-05-02T12:57:32.945918+02:00",
-  "EndDate": "2002-03-11T12:57:32.945918+01:00",
-  "RecurrenceCounter": 831,
+  "RecurrenceId": 789,
+  "StartDate": "2022-01-02T04:22:25.8559745+01:00",
+  "EndDate": "2019-05-29T04:22:25.8559745+02:00",
+  "RecurrenceCounter": 787,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-10-26T12:57:32.945918+02:00",
+      "Date": "2013-04-02T04:22:25.8559745+02:00",
       "IsConflict": false,
-      "Description": "Focused object-oriented database",
-      "DescriptionStyleHint": "Digitized real-time firmware",
-      "Tooltip": "iste"
+      "Description": "Digitized uniform ability",
+      "DescriptionStyleHint": "Customizable fresh-thinking hardware",
+      "Tooltip": "mollitia"
     },
     {
-      "Date": "2006-10-26T12:57:32.945918+02:00",
+      "Date": "2013-04-02T04:22:25.8559745+02:00",
       "IsConflict": false,
-      "Description": "Focused object-oriented database",
-      "DescriptionStyleHint": "Digitized real-time firmware",
-      "Tooltip": "iste"
+      "Description": "Digitized uniform ability",
+      "DescriptionStyleHint": "Customizable fresh-thinking hardware",
+      "Tooltip": "mollitia"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 69,
-    "Name": "Johns Inc and Sons",
-    "MaxDataAge": 241,
-    "NumberOfUsers": 192,
-    "NumberOfLogins": 670,
-    "FreetextEnabeled": true,
+    "AreaId": 598,
+    "Name": "Bednar, Metz and Wintheiser",
+    "MaxDataAge": 503,
+    "NumberOfUsers": 435,
+    "NumberOfLogins": 76,
+    "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 285
       }
     }
   }

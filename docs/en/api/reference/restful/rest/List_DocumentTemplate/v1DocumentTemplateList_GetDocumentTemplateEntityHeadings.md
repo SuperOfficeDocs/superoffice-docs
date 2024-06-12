@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 808,
-    "Name": "Hills-Weimann",
-    "Tooltip": "ipsum",
+    "HeadingId": 1001,
+    "Name": "Walsh-Grimes",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 933,
-    "UdListDefinitionId": 493,
+    "Rank": 766,
+    "UdListDefinitionId": 565,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 233
       }
     }
   }

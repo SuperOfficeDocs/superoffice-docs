@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 938,
-  "AssociateId": 630,
-  "Caption": "assumenda",
+  "DashboardId": 57,
+  "AssociateId": 518,
+  "Caption": "animi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 475,
-      "Caption": "qui",
-      "Description": "Centralized bottom-line system engine",
-      "ChartName": "Howe-Feil",
-      "ChartId": "non",
+      "DashboardTileId": 135,
+      "Caption": "et",
+      "Description": "Horizontal user-facing initiative",
+      "ChartName": "Hayes, Bernier and Carter",
+      "ChartId": "ut",
       "IsDefault": false,
-      "AssociateId": 622,
-      "GroupId": 766,
-      "SelectionId": 828,
-      "Config": "et",
+      "AssociateId": 446,
+      "GroupId": 502,
+      "SelectionId": 490,
+      "Config": "qui",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 470,
-  "AssociateId": 558,
-  "Caption": "et",
+  "DashboardId": 916,
+  "AssociateId": 535,
+  "Caption": "hic",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 99,
-      "Caption": "quaerat",
-      "Description": "Ameliorated multimedia monitoring",
-      "ChartName": "Jewess LLC",
-      "ChartId": "voluptate",
-      "IsDefault": true,
-      "AssociateId": 624,
-      "GroupId": 980,
-      "SelectionId": 598,
-      "Config": "saepe",
+      "DashboardTileId": 502,
+      "Caption": "qui",
+      "Description": "Organized asynchronous Graphical User Interface",
+      "ChartName": "Walker Inc and Sons",
+      "ChartId": "porro",
+      "IsDefault": false,
+      "AssociateId": 679,
+      "GroupId": 361,
+      "SelectionId": 685,
+      "Config": "expedita",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldLength": 848
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

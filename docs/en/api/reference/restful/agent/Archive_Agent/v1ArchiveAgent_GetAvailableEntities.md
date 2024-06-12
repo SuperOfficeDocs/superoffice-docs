@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Fahey Inc and Sons",
-  "Context": "dicta"
+  "ProviderName": "Breitenberg LLC",
+  "Context": "ea"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Herman Inc and Sons",
-    "ToolTip": "Aut illum soluta illum ducimus.",
+    "Id": 536,
+    "Name": "Frami-Lakin",
+    "ToolTip": "Est ut id.",
     "Deleted": false,
-    "Rank": 8,
-    "Type": "quae",
+    "Rank": 329,
+    "Type": "facere",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Stokes-Hauck",
-        "ToolTip": "Praesentium omnis quam eum.",
+        "Id": 449,
+        "Name": "Leffler, McDermott and Macejkovic",
+        "ToolTip": "Repellat dolore reiciendis eveniet.",
         "Deleted": false,
-        "Rank": 292,
-        "Type": "occaecati",
+        "Rank": 904,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 874,
-        "ExtraInfo": "et",
-        "StyleHint": "numquam",
-        "FullName": "Mr. Jakob Carlotta Wolff V",
+        "IconHint": "blanditiis",
+        "ColorBlock": 666,
+        "ExtraInfo": "omnis",
+        "StyleHint": "neque",
+        "FullName": "Jaylon Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 295
+            "FieldLength": 614
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 460,
-    "ExtraInfo": "in",
-    "StyleHint": "ducimus",
-    "FullName": "Grace Cremin",
+    "IconHint": "ut",
+    "ColorBlock": 276,
+    "ExtraInfo": "nihil",
+    "StyleHint": "laudantium",
+    "FullName": "Reese Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 136
       }
     }
   }

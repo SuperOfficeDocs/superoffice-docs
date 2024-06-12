@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jacobi-Murphy",
-  "DeviceName": "Brekke-Nader",
-  "DeviceIdentifier": "ea",
-  "TableName": "Smitham Inc and Sons",
-  "RecordId": 239
+  "ApplicationName": "Dibbert Group",
+  "DeviceName": "Lebsack-McLaughlin",
+  "DeviceIdentifier": "ut",
+  "TableName": "Powlowski-Bashirian",
+  "RecordId": 766
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "id",
-    "Value": "qui",
-    "RecordId": 831,
-    "CreatedDate": "2007-04-14T12:57:34.0711192+02:00",
-    "UpdatedDate": "2008-10-11T12:57:34.0711192+02:00",
-    "UpdatedBy": "voluptates",
-    "CreatedBy": "sunt",
-    "TableName": "Dach Inc and Sons",
+    "Key": "repellendus",
+    "Value": "pariatur",
+    "RecordId": 702,
+    "CreatedDate": "2022-07-19T04:22:26.8755249+02:00",
+    "UpdatedDate": "1999-05-13T04:22:26.8755249+02:00",
+    "UpdatedBy": "sunt",
+    "CreatedBy": "totam",
+    "TableName": "Prosacco Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldType": "System.String",
+        "FieldLength": 412
       }
     }
   }

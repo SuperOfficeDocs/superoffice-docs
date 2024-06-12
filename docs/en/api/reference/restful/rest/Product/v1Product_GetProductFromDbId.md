@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 277,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "autem",
-  "Name": "DuBuque-Kassulke",
-  "Description": "Operative empowering product",
-  "Code": "laboriosam",
-  "PriceUnit": "consequatur",
-  "QuantityUnit": "a",
+  "ProductId": 497,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "placeat",
+  "Name": "Brekke, Gerhold and Bernier",
+  "Description": "Re-engineered regional frame",
+  "Code": "aut",
+  "PriceUnit": "sint",
+  "QuantityUnit": "dolore",
   "IsSubscription": true,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 2080.976,
-  "ItemNumber": "845862",
+  "SubscriptionUnit": "consequatur",
+  "DefaultSubscriptionQuantity": 1344.4859999999999,
+  "ItemNumber": "1191021",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fugiat",
-  "ProductTypeKey": "et",
-  "VAT": 17506.523999999998,
-  "VATInfo": "neque",
-  "UnitCost": 21906.66,
-  "UnitMinimumPrice": 14046.588,
-  "UnitListPrice": 13560.818,
+  "ProductFamilyKey": "magni",
+  "ProductTypeKey": "assumenda",
+  "VAT": 12347.96,
+  "VATInfo": "a",
+  "UnitCost": 3544.554,
+  "UnitMinimumPrice": 31208.372,
+  "UnitListPrice": 14895.902,
   "InAssortment": false,
-  "Supplier": "exercitationem",
-  "SupplierCode": "qui",
-  "Rights": "provident",
-  "Rule": "et",
+  "Supplier": "hic",
+  "SupplierCode": "enim",
+  "Rights": "non",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Legros, Padberg and Reynolds",
-      "Value": "atque",
+      "Name": "Mitchell, Sanford and Wunsch",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 988
+          "FieldLength": 315
         }
       }
     },
     {
-      "Name": "Legros, Padberg and Reynolds",
-      "Value": "atque",
+      "Name": "Mitchell, Sanford and Wunsch",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 988
+          "FieldLength": 315
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "iusto",
-  "ExtraField2": "saepe",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "libero",
-  "InStock": 144.164,
+  "RawExtraInfo": "totam",
+  "ExtraField1": "deserunt",
+  "ExtraField2": "asperiores",
+  "ExtraField3": "non",
+  "ExtraField4": "dignissimos",
+  "ExtraField5": "deserunt",
+  "InStock": 410.554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldType": "System.Int32",
+      "FieldLength": 814
     }
   }
 }

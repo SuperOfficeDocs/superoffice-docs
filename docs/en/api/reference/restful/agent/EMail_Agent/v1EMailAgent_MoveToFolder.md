@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    729,
-    370
+    379,
+    881
   ],
-  "TargetFolder": "voluptatem"
+  "TargetFolder": "alias"
 }
 ```
 

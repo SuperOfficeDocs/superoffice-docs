@@ -102,34 +102,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "recusandae",
-    "InputValues2": "quo"
+    "InputValues1": "distinctio",
+    "InputValues2": "quaerat"
   },
   "BlockExecution": false,
-  "NavigateTo": "sed",
-  "Message": "magnam",
-  "ShowDialog": "adipisci",
+  "NavigateTo": "enim",
+  "Message": "saepe",
+  "ShowDialog": "ut",
   "OutputValues": {
-    "OutputValues1": "libero",
-    "OutputValues2": "molestias"
+    "OutputValues1": "est",
+    "OutputValues2": "cupiditate"
   },
   "StateValues": {
-    "StateValues1": "quis",
-    "StateValues2": "et"
+    "StateValues1": "magni",
+    "StateValues2": "quia"
   },
   "Exception": "voluptas",
   "ParserValues": {
-    "ParserValues1": "impedit",
-    "ParserValues2": "debitis"
+    "ParserValues1": "eius",
+    "ParserValues2": "distinctio"
   },
   "CgiVariables": {
-    "CgiVariables1": "ut",
-    "CgiVariables2": "ipsum"
+    "CgiVariables1": "repellat",
+    "CgiVariables2": "rem"
   },
-  "CgiContent": "odit",
+  "CgiContent": "eius",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "similique"
+    "Headers1": "dolor",
+    "Headers2": "eaque"
   }
 }
 ```
@@ -143,41 +143,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "est",
-    "InputValues2": "iusto"
+    "InputValues1": "facilis",
+    "InputValues2": "est"
   },
   "BlockExecution": false,
-  "NavigateTo": "ut",
-  "Message": "dolorem",
-  "ShowDialog": "temporibus",
+  "NavigateTo": "autem",
+  "Message": "et",
+  "ShowDialog": "facilis",
   "OutputValues": {
-    "OutputValues1": "necessitatibus",
-    "OutputValues2": "et"
+    "OutputValues1": "non",
+    "OutputValues2": "aut"
   },
   "StateValues": {
-    "StateValues1": "ut",
-    "StateValues2": "quia"
+    "StateValues1": "qui",
+    "StateValues2": "fugit"
   },
-  "Exception": "sit",
+  "Exception": "natus",
   "ParserValues": {
-    "ParserValues1": "quas",
-    "ParserValues2": "nostrum"
+    "ParserValues1": "aut",
+    "ParserValues2": "et"
   },
   "CgiVariables": {
-    "CgiVariables1": "quod",
+    "CgiVariables1": "repudiandae",
     "CgiVariables2": "et"
   },
-  "CgiContent": "saepe",
+  "CgiContent": "ut",
   "Headers": {
-    "Headers1": "omnis",
-    "Headers2": "harum"
+    "Headers1": "est",
+    "Headers2": "praesentium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

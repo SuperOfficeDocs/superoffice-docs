@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Metz LLC",
-  "Tooltip": "eius",
+  "Id": 461,
+  "Name": "Schmitt-Gorczany",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 677,
+  "Rank": 624,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
+  "ListType": "quibusdam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 686
     }
   },
   "_Links": {

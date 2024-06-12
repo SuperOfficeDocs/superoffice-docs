@@ -110,8 +110,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 527,
-  "ToAssociate": "officia"
+  "ChatSessionId": 581,
+  "ToAssociate": "nam"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 685,
-  "TopicId": 627,
+  "ChatSessionId": 131,
+  "TopicId": 466,
   "User": null,
   "Person": null,
-  "CustomerAlias": "delectus",
-  "CustomerHost": "sed",
-  "CustomerName": "Swift-Bernhard",
-  "CustomerEmail": "davin@wittingdurgan.uk",
-  "CustomerPhone": "1-928-453-9184 x95398",
+  "CustomerAlias": "et",
+  "CustomerHost": "maiores",
+  "CustomerName": "Larkin-Cole",
+  "CustomerEmail": "carlotta_considine@will.us",
+  "CustomerPhone": "679.965.8927",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hand, Bergnaum and Bernier",
+  "CustomerCompanyName": "Abshire-Ferry",
   "Status": "Closed",
-  "FirstMessage": "tempore",
-  "LastMessage": "natus",
-  "WhenRequested": "2017-01-12T12:57:33.3525051+01:00",
-  "WhenStarted": "2018-05-29T12:57:33.3525051+02:00",
-  "WhenEnded": "1998-01-14T12:57:33.3525051+01:00",
-  "WhenIdle": "2002-01-26T12:57:33.3525051+01:00",
-  "WhenFetched": "2020-07-30T12:57:33.3525051+02:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 976,
-  "AlertLevel": 163,
-  "Rank": 879,
+  "FirstMessage": "ut",
+  "LastMessage": "qui",
+  "WhenRequested": "2011-03-22T04:22:26.0903458+01:00",
+  "WhenStarted": "2015-01-09T04:22:26.0903458+01:00",
+  "WhenEnded": "2015-03-08T04:22:26.0903458+01:00",
+  "WhenIdle": "1997-03-01T04:22:26.0903458+01:00",
+  "WhenFetched": "1998-07-30T04:22:26.0903458+02:00",
+  "SessionKey": "laboriosam",
+  "InitialQueuePos": 13,
+  "AlertLevel": 8,
+  "Rank": 34,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 423,
+  "Rating": 653,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldLength": 342
     }
   }
 }

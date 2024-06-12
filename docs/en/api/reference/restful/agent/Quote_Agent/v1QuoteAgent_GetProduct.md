@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 42,
-  "ERPProductKey": "et"
+  "QuoteConnectionId": 278,
+  "ERPProductKey": "facilis"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 568,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "aut",
-  "Name": "Gutmann LLC",
-  "Description": "Customer-focused interactive installation",
-  "Code": "excepturi",
-  "PriceUnit": "laudantium",
-  "QuantityUnit": "nesciunt",
-  "IsSubscription": true,
-  "SubscriptionUnit": "praesentium",
-  "DefaultSubscriptionQuantity": 8558.954,
-  "ItemNumber": "1875718",
+  "ProductId": 399,
+  "ERPProductKey": "debitis",
+  "ERPPriceListKey": "sit",
+  "Name": "Feeney, Legros and Beahan",
+  "Description": "Business-focused national installation",
+  "Code": "est",
+  "PriceUnit": "similique",
+  "QuantityUnit": "doloremque",
+  "IsSubscription": false,
+  "SubscriptionUnit": "excepturi",
+  "DefaultSubscriptionQuantity": 12266.475999999999,
+  "ItemNumber": "103964",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "quia",
-  "VAT": 19794.344,
-  "VATInfo": "et",
-  "UnitCost": 24630.106,
-  "UnitMinimumPrice": 27967.816,
-  "UnitListPrice": 4644.588,
+  "ProductFamilyKey": "laborum",
+  "ProductTypeKey": "occaecati",
+  "VAT": 23417.248,
+  "VATInfo": "iusto",
+  "UnitCost": 27331.613999999998,
+  "UnitMinimumPrice": 4957.988,
+  "UnitListPrice": 10683.806,
   "InAssortment": false,
-  "Supplier": "quam",
-  "SupplierCode": "dolorem",
-  "Rights": "corrupti",
-  "Rule": "voluptate",
+  "Supplier": "minus",
+  "SupplierCode": "tempora",
+  "Rights": "explicabo",
+  "Rule": "praesentium",
   "ExtraInfo": [
     {
-      "Name": "Kuhic-Klocko",
-      "Value": "dolores",
+      "Name": "Halvorson, Medhurst and Trantow",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 838
         }
       }
     },
     {
-      "Name": "Kuhic-Klocko",
-      "Value": "dolores",
+      "Name": "Halvorson, Medhurst and Trantow",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 838
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "et",
-  "ExtraField2": "et",
-  "ExtraField3": "adipisci",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "enim",
-  "InStock": 31.34,
+  "RawExtraInfo": "itaque",
+  "ExtraField1": "eos",
+  "ExtraField2": "ullam",
+  "ExtraField3": "tempora",
+  "ExtraField4": "earum",
+  "ExtraField5": "a",
+  "InStock": 3121.464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 314
     }
   }
 }

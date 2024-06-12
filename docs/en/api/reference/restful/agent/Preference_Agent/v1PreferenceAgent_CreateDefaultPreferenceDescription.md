@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 936,
-  "Section": "omnis",
-  "Key": "voluptatum",
-  "Name": "Trantow, Gaylord and Romaguera",
+  "PrefDescId": 291,
+  "Section": "aut",
+  "Key": "natus",
+  "Name": "Sporer-Adams",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Robust upward-trending projection",
-  "IsBuiltin": false,
-  "TableName": "Altenwerth, Parisian and Botsford",
-  "UserDefinedListId": 933,
-  "Rank": 603,
-  "SubGroup": "voluptatum",
-  "MinLevel": 512,
-  "MaxValue": 311,
-  "MinValue": 83,
-  "RequiredLicense": "aut",
+  "Description": "Multi-channelled analyzing application",
+  "IsBuiltin": true,
+  "TableName": "O'Conner LLC",
+  "UserDefinedListId": 927,
+  "Rank": 350,
+  "SubGroup": "molestiae",
+  "MinLevel": 104,
+  "MaxValue": 889,
+  "MinValue": 693,
+  "RequiredLicense": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 873
     }
   }
 }

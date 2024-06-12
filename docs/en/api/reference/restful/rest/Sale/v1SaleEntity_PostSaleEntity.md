@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "porro",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-01-19T12:57:42.6981992+01:00",
-  "Amount": 7201.932,
-  "SaleId": 946,
-  "Earning": 4418.94,
-  "EarningPercent": 4284.178,
-  "Heading": "iste",
-  "Number": "470994",
-  "Probability": 77,
-  "CreatedDate": "2000-02-09T12:57:42.6981992+01:00",
-  "UpdatedDate": "2016-12-31T12:57:42.6981992+01:00",
+  "Saledate": "2010-11-04T04:22:35.2678919+01:00",
+  "Amount": 30807.219999999998,
+  "SaleId": 383,
+  "Earning": 30500.088,
+  "EarningPercent": 5750.8899999999994,
+  "Heading": "natus",
+  "Number": "1221647",
+  "Probability": 820,
+  "CreatedDate": "2006-11-05T04:22:35.2678919+01:00",
+  "UpdatedDate": "1997-04-16T04:22:35.2678919+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 718,
+  "ActiveLinks": 372,
   "Links": [
     {
-      "EntityName": "Runolfsdottir Group",
-      "Id": 156,
-      "Description": "Adaptive web-enabled paradigm",
-      "ExtraInfo": "eum",
-      "LinkId": 744
+      "EntityName": "Upton-Wisozk",
+      "Id": 783,
+      "Description": "Devolved reciprocal Graphic Interface",
+      "ExtraInfo": "quaerat",
+      "LinkId": 531
     },
     {
-      "EntityName": "Runolfsdottir Group",
-      "Id": 156,
-      "Description": "Adaptive web-enabled paradigm",
-      "ExtraInfo": "eum",
-      "LinkId": 744
+      "EntityName": "Upton-Wisozk",
+      "Id": 783,
+      "Description": "Devolved reciprocal Graphic Interface",
+      "ExtraInfo": "quaerat",
+      "LinkId": 531
     }
   ],
-  "NextDueDate": "2010-10-13T12:57:42.6981992+02:00",
-  "Postit": "est",
+  "NextDueDate": "2020-10-18T04:22:35.2678919+02:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-01-12T12:57:42.6981992+01:00",
+  "ReopenDate": "2022-02-16T04:22:35.2678919+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lynch, Hamill and Simonis",
-      "Comment": "aut",
-      "StakeholderRoleId": 756,
-      "CountryId": 5,
-      "PersonId": 527,
-      "EmailDescription": "eugenia@bergnaum.info",
-      "EmailId": 167,
-      "EmailAddress": "kaleigh@cassin.co.uk",
-      "PhoneId": 456,
-      "ContactName": "Littel, Emmerich and Wiegand",
-      "ContactId": 942,
-      "SaleId": 791,
-      "Mrmrs": "dolore",
-      "Firstname": "Hobart",
-      "MiddleName": "Ziemann-Rempel",
-      "Lastname": "Gusikowski",
-      "SaleStakeholderId": 591,
-      "Rank": 934,
-      "Phone": "767.927.7609 x03973"
+      "StakeholderRoleName": "Sipes Inc and Sons",
+      "Comment": "minus",
+      "StakeholderRoleId": 450,
+      "CountryId": 102,
+      "PersonId": 688,
+      "EmailDescription": "aaliyah.herman@paucek.co.uk",
+      "EmailId": 815,
+      "EmailAddress": "blaise@schmittauer.name",
+      "PhoneId": 164,
+      "ContactName": "Botsford, Zieme and Emard",
+      "ContactId": 622,
+      "SaleId": 642,
+      "Mrmrs": "ut",
+      "Firstname": "Miller",
+      "MiddleName": "Kohler, Feil and VonRueden",
+      "Lastname": "Ebert",
+      "SaleStakeholderId": 957,
+      "Rank": 395,
+      "Phone": "652.679.7569"
     }
   ],
-  "ActiveErpLinks": 636,
+  "ActiveErpLinks": 774,
   "UserDefinedFields": {
-    "SuperOffice:1": "1488168135",
-    "SuperOffice:2": "Jerel Balistreri"
+    "SuperOffice:1": "Dr. Reinhold Emmerich MD",
+    "SuperOffice:2": "Prof. Marjory Spencer Lang"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "et",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "dolore",
-    "CustomFields2": "rerum"
+    "CustomFields1": "id",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2021-11-25T12:57:42.6981992+01:00",
-  "PublishTo": "1999-12-25T12:57:42.6981992+01:00",
-  "PublishFrom": "2015-11-22T12:57:42.6981992+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-06-16T04:22:35.2991407+02:00",
+  "PublishTo": "2008-06-15T04:22:35.2991407+02:00",
+  "PublishFrom": "2004-04-24T04:22:35.2991407+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 465,
+      "VisibleId": 812,
       "Visibility": "All",
-      "DisplayValue": "id"
+      "DisplayValue": "corrupti"
     },
     {
-      "VisibleId": 465,
+      "VisibleId": 812,
       "Visibility": "All",
-      "DisplayValue": "id"
+      "DisplayValue": "corrupti"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "exercitationem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-07-25T12:57:42.7138204+02:00",
-  "Amount": 144.164,
-  "SaleId": 645,
-  "Earning": 6051.754,
-  "EarningPercent": 25915.046,
-  "Heading": "ea",
-  "Number": "1632063",
-  "Probability": 439,
-  "CreatedDate": "2000-01-03T12:57:42.7138204+01:00",
-  "UpdatedDate": "2006-01-04T12:57:42.7138204+01:00",
+  "Saledate": "1999-04-27T04:22:35.361643+02:00",
+  "Amount": 10069.542,
+  "SaleId": 964,
+  "Earning": 13194.14,
+  "EarningPercent": 4343.724,
+  "Heading": "error",
+  "Number": "1569227",
+  "Probability": 466,
+  "CreatedDate": "2010-02-04T04:22:35.361643+01:00",
+  "UpdatedDate": "2021-02-28T04:22:35.361643+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 175,
+  "ActiveLinks": 172,
   "Links": [
     {
-      "EntityName": "Paucek, Gibson and Stroman",
-      "Id": 223,
-      "Description": "Triple-buffered leading edge moratorium",
-      "ExtraInfo": "suscipit",
-      "LinkId": 779,
+      "EntityName": "Bechtelar-Kuphal",
+      "Id": 279,
+      "Description": "Networked impactful paradigm",
+      "ExtraInfo": "nemo",
+      "LinkId": 146,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 985
         }
       }
     }
   ],
-  "NextDueDate": "2022-04-27T12:57:42.7138204+02:00",
-  "Postit": "minus",
+  "NextDueDate": "2016-05-17T04:22:35.361643+02:00",
+  "Postit": "quas",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-06-06T12:57:42.7138204+02:00",
+  "ReopenDate": "2022-06-15T04:22:35.361643+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Towne-Abbott",
-      "Comment": "tempora",
-      "StakeholderRoleId": 573,
-      "CountryId": 915,
-      "PersonId": 557,
-      "EmailDescription": "letitia.okon@renner.com",
-      "EmailId": 857,
-      "EmailAddress": "laisha@cassin.ca",
-      "PhoneId": 154,
-      "ContactName": "Turcotte-Pfannerstill",
-      "ContactId": 438,
-      "SaleId": 209,
-      "Mrmrs": "ullam",
-      "Firstname": "Efrain",
-      "MiddleName": "Heaney, Hauck and Nolan",
-      "Lastname": "Powlowski",
-      "SaleStakeholderId": 767,
-      "Rank": 425,
-      "Phone": "1-869-551-5646",
+      "StakeholderRoleName": "Wiza, Padberg and Bechtelar",
+      "Comment": "ab",
+      "StakeholderRoleId": 90,
+      "CountryId": 196,
+      "PersonId": 664,
+      "EmailDescription": "marjory_pollich@buckridgesauer.com",
+      "EmailId": 227,
+      "EmailAddress": "oswald.kris@hessel.biz",
+      "PhoneId": 117,
+      "ContactName": "Strosin Group",
+      "ContactId": 163,
+      "SaleId": 352,
+      "Mrmrs": "molestiae",
+      "Firstname": "Lydia",
+      "MiddleName": "Lakin, King and Ullrich",
+      "Lastname": "Ritchie",
+      "SaleStakeholderId": 335,
+      "Rank": 992,
+      "Phone": "1-614-191-3039 x5160",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 610
         }
       }
     }
   ],
-  "ActiveErpLinks": 716,
+  "ActiveErpLinks": 448,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1696434694"
+    "SuperOffice:1": "Taylor Cordell Howell II",
+    "SuperOffice:2": "Ken Dickens"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "eos"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2004-04-13T12:57:42.7138204+02:00",
-  "PublishTo": "1998-10-19T12:57:42.7138204+02:00",
-  "PublishFrom": "2006-07-02T12:57:42.7138204+02:00",
+  "PublishEventDate": "2014-12-21T04:22:35.361643+01:00",
+  "PublishTo": "1997-09-17T04:22:35.361643+02:00",
+  "PublishFrom": "2014-04-03T04:22:35.361643+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 518,
+      "VisibleId": 549,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 699
         }
       }
     },
     {
-      "VisibleId": 518,
+      "VisibleId": 549,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 699
         }
       }
     }
@@ -408,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 314
     }
   },
   "_Links": {

@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2002-10-31T12:57:33.1959933+01:00",
-  "EndTime": "2002-10-12T12:57:33.1959933+02:00",
-  "Count": 358
+  "StartTime": "2018-10-21T04:22:25.94972+02:00",
+  "EndTime": "2019-08-05T04:22:25.94972+02:00",
+  "Count": 627
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 72,
-    "StartDate": "2014-04-24T12:57:33.1959933+02:00",
-    "EndDate": "1998-06-08T12:57:33.1959933+02:00",
+    "AppointmentId": 467,
+    "StartDate": "2015-05-15T04:22:25.94972+02:00",
+    "EndDate": "2003-05-02T04:22:25.94972+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Dr. Esta Erwin Ziemann",
-    "ContactName": "Treutel Inc and Sons",
-    "Description": "De-engineered zero tolerance array",
-    "PersonFullName": "Renee Hand",
-    "PersonId": 900,
-    "ContactId": 899,
-    "ProjectId": 976,
-    "ProjectName": "Feest-Ryan",
+    "Task": "beatae",
+    "AssociateFullName": "Prof. Lucile Reichert",
+    "ContactName": "Abernathy, Harris and McGlynn",
+    "Description": "Assimilated scalable secured line",
+    "PersonFullName": "Terrance West",
+    "PersonId": 387,
+    "ContactId": 235,
+    "ProjectId": 803,
+    "ProjectName": "Carroll, Rippin and Jerde",
     "IsPublished": false,
-    "AssociateId": 471,
-    "ColorIndex": 778,
-    "IsFree": false,
+    "AssociateId": 365,
+    "ColorIndex": 962,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 805,
-    "PriorityName": "Schneider Inc and Sons",
+    "PriorityId": 157,
+    "PriorityName": "Abshire-Funk",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2004-08-25T12:57:33.1959933+02:00",
+    "ActiveDate": "2003-07-11T04:22:25.94972+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-04-03T12:57:33.1959933+02:00",
-    "RecurringEndDate": "2018-04-10T12:57:33.1959933+02:00",
-    "MotherId": 744,
-    "AssignedBy": 107,
-    "AssignedByFullName": "Mrs. Raleigh Flatley",
+    "RecurringStartDate": "2009-06-10T04:22:25.94972+02:00",
+    "RecurringEndDate": "2007-06-19T04:22:25.94972+02:00",
+    "MotherId": 756,
+    "AssignedBy": 238,
+    "AssignedByFullName": "Shemar Dooley",
     "RejectReason": "",
-    "Location": "numquam",
-    "AlarmLeadTime": "reprehenderit",
-    "SaleId": 299,
-    "SaleName": "Harvey-Daniel",
-    "AssociateName": "Stroman LLC",
-    "CreatedDate": "2016-08-02T12:57:33.1959933+02:00",
-    "CreatedBy": "ullam",
-    "CreatedByFullName": "Miss Taya Keara Stiedemann Sr.",
-    "CreatedByAssociateId": 173,
+    "Location": "consequatur",
+    "AlarmLeadTime": "delectus",
+    "SaleId": 768,
+    "SaleName": "McCullough-Welch",
+    "AssociateName": "Pacocha-Gleason",
+    "CreatedDate": "2021-08-30T04:22:25.94972+02:00",
+    "CreatedBy": "dignissimos",
+    "CreatedByFullName": "Kari Littel I",
+    "CreatedByAssociateId": 388,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 215,
-    "Title": "nihil",
-    "Agenda": "excepturi",
-    "InternalNotes": "omnis",
+    "PreferredTZLocation": 141,
+    "Title": "at",
+    "Agenda": "sequi",
+    "InternalNotes": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldType": "System.Int32",
+        "FieldLength": 546
       }
     }
   }

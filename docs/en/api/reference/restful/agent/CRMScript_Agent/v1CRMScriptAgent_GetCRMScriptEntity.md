@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=935
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=850
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 628,
-  "UniqueIdentifier": "fuga",
-  "Name": "Pacocha Inc and Sons",
-  "Description": "Configurable even-keeled help-desk",
-  "IncludeId": "ut",
-  "HierarchyId": 815,
-  "Source": "libero",
-  "Registered": "2007-12-07T12:57:33.6180694+01:00",
-  "RegisteredAssociateId": 985,
-  "Updated": "1998-01-02T12:57:33.6180694+01:00",
-  "UpdatedAssociateId": 826,
+  "EjscriptId": 545,
+  "UniqueIdentifier": "unde",
+  "Name": "Adams, Prohaska and Kiehn",
+  "Description": "Enterprise-wide upward-trending database",
+  "IncludeId": "at",
+  "HierarchyId": 770,
+  "Source": "expedita",
+  "Registered": "2014-01-11T04:22:26.3090583+01:00",
+  "RegisteredAssociateId": 889,
+  "Updated": "2005-05-17T04:22:26.3090583+02:00",
+  "UpdatedAssociateId": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldLength": 739
     }
   }
 }

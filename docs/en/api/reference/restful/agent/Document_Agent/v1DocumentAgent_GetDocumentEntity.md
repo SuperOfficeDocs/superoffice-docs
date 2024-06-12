@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=223
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=176
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 872,
+  "DocumentId": 833,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "quia",
-  "Name": "Rempel Group",
-  "OurRef": "quia",
-  "YourRef": "accusantium",
-  "CreatedDate": "1998-04-08T12:57:33.7586621+02:00",
-  "UpdatedDate": "1998-05-01T12:57:33.7586621+02:00",
-  "Description": "Multi-channelled local encoding",
+  "Attention": "explicabo",
+  "Header": "occaecati",
+  "Name": "Ward, Berge and Schamberger",
+  "OurRef": "qui",
+  "YourRef": "repudiandae",
+  "CreatedDate": "2005-05-02T04:22:26.5616122+02:00",
+  "UpdatedDate": "2015-03-15T04:22:26.5616122+01:00",
+  "Description": "Optimized 6th generation customer loyalty",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-03-10T12:57:33.7586621+01:00",
-  "ExternalRef": "et",
+  "Date": "2015-04-27T04:22:26.5616122+02:00",
+  "ExternalRef": "quisquam",
   "Completed": "Completed",
-  "ActiveLinks": 954,
+  "ActiveLinks": 713,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Grant-Krajcik",
-      "Id": 16,
-      "Description": "Programmable modular secured line",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 726,
+      "EntityName": "Schinner, Feeney and Wisozk",
+      "Id": 657,
+      "Description": "Exclusive needs-based help-desk",
+      "ExtraInfo": "placeat",
+      "LinkId": 203,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldType": "System.String",
+          "FieldLength": 772
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 614,
-  "Snum": 552,
+  "SuggestedDocumentId": 751,
+  "Snum": 536,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Valentine Gabriella Franecki",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Sienna Justus Murphy DDS",
+    "SuperOffice:2": "1435759377"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "in"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "culpa"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "natus"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "1997-05-06T12:57:33.7586621+02:00",
-  "PublishTo": "2002-04-08T12:57:33.7586621+02:00",
-  "PublishFrom": "2009-04-29T12:57:33.7586621+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-10-16T04:22:26.5616122+02:00",
+  "PublishTo": "2009-06-28T04:22:26.5616122+02:00",
+  "PublishFrom": "2005-07-07T04:22:26.5616122+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 833,
+      "VisibleId": 768,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 809
         }
       }
     },
     {
-      "VisibleId": 833,
+      "VisibleId": 768,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 809
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 921
     }
   }
 }

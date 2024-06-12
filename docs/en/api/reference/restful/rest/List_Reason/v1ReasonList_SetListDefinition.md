@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Witting Group",
-  "Tooltip": "unde",
+  "Id": 524,
+  "Name": "McKenzie-Heidenreich",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 8,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 297,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "minus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Jacobi, Wiza and Monahan",
-  "Tooltip": "quisquam",
+  "Id": 490,
+  "Name": "McLaughlin Group",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 913,
+  "Rank": 593,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quisquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 15
     }
   }
 }

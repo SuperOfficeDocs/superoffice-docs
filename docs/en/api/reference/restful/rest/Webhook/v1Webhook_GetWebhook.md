@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,28 +97,28 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 406,
-  "Name": "McDermott Inc and Sons",
+  "WebhookId": 426,
+  "Name": "Davis Group",
   "Events": [
-    "dolorem",
-    "et"
+    "iusto",
+    "rerum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "alias",
   "State": "Active",
-  "Type": "rerum",
+  "Type": "dignissimos",
   "Headers": {
-    "Headers1": "sapiente",
-    "Headers2": "amet"
+    "Headers1": "nihil",
+    "Headers2": "consequatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-09-05T12:57:43.2770971+02:00",
+  "Registered": "2022-10-30T04:22:35.7678517+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-10-01T12:57:43.2770971+02:00",
+  "Updated": "2023-07-09T04:22:35.7678517+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "josefina@kohler.ca",
+  "ErrorsEmail": "camron@hartmann.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

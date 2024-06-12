@@ -70,7 +70,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -130,7 +130,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -621,7 +621,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=person/restrictionAddress/formattedAddress,person/correspondingAssociate/personId,contact/mainContact,contact/restrictionAddress/state,contact/contactUdef/SuperOffice:4
+GET /api/v1/archive/SimpleSale?$select=getNoRows,person/personUdef/SuperOffice:7,person/personAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

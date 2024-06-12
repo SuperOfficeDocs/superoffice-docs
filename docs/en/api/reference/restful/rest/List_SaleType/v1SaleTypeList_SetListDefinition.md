@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "repellat",
+  "Id": 836,
+  "Name": "Williamson, Mertz and Kiehn",
+  "Tooltip": "in",
   "Deleted": true,
-  "Rank": 895,
+  "Rank": 718,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quae",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Bashirian, Goodwin and Rippin",
-  "Tooltip": "dolore",
+  "Id": 573,
+  "Name": "Kessler Group",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 850,
+  "Rank": 961,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 269
     }
   }
 }

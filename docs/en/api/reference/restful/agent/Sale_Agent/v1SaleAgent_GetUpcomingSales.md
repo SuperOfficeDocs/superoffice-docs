@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 771,
-  "Count": 235
+  "WeightedAmountLimit": 543,
+  "Count": 503
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Harris, Runolfsson and McCullough",
-    "SaleDate": "2014-01-30T12:57:34.8688339+01:00",
-    "SaleId": 394,
-    "Probability": 130,
-    "Title": "enim",
-    "Amount": 8082.5859999999993,
-    "Currency": "ipsam",
-    "ProjectName": "Koch, Welch and Koepp",
-    "AssociateFullName": "Jonathon Hane DVM",
-    "Description": "Profound composite algorithm",
+    "ContactName": "Schimmel LLC",
+    "SaleDate": "2021-01-25T04:22:27.5492747+01:00",
+    "SaleId": 701,
+    "Probability": 547,
+    "Title": "quas",
+    "Amount": 30528.293999999998,
+    "Currency": "nemo",
+    "ProjectName": "Hand Group",
+    "AssociateFullName": "Lindsay Brakus",
+    "Description": "Multi-channelled transitional monitoring",
     "Status": "Lost",
-    "WeightedAmount": 30186.688,
-    "ProjectId": 771,
-    "EarningPercent": 3253.092,
-    "Earning": 13720.652,
-    "ContactId": 750,
-    "AssociateId": 694,
-    "PersonId": 239,
-    "SaleTypeId": 559,
-    "SaleTypeName": "Murphy, Funk and Sanford",
-    "PersonFullName": "Rowan Maggio",
+    "WeightedAmount": 27040.152,
+    "ProjectId": 97,
+    "EarningPercent": 6459.174,
+    "Earning": 16553.788,
+    "ContactId": 366,
+    "AssociateId": 731,
+    "PersonId": 532,
+    "SaleTypeId": 999,
+    "SaleTypeName": "Conroy Inc and Sons",
+    "PersonFullName": "Benjamin Crooks",
     "Completed": "Completed",
-    "ActiveErpLinks": 455,
-    "NextDueDate": "2009-11-11T12:57:34.8688339+01:00",
-    "Number": "983392",
+    "ActiveErpLinks": 174,
+    "NextDueDate": "2004-08-07T04:22:27.5492747+02:00",
+    "Number": "1300592",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 217
       }
     }
   }

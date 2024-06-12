@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 682,
-    "Name": "Gulgowski Inc and Sons",
-    "ToolTip": "Dolore molestias consequatur magnam non.",
-    "Deleted": true,
-    "Rank": 651,
-    "Type": "sed",
-    "ColorBlock": 876,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2015-02-11T12:57:43.4176894+01:00",
+    "Id": 840,
+    "Name": "Goldner Group",
+    "ToolTip": "Culpa id vel minima natus illum omnis accusamus.",
+    "Deleted": false,
+    "Rank": 766,
+    "Type": "provident",
+    "ColorBlock": 252,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2006-01-04T04:22:35.9090937+01:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Parisian, Shields and Hahn",
-        "ToolTip": "Qui atque provident ipsum sint quia rem doloremque.",
-        "Deleted": false,
-        "Rank": 899,
-        "Type": "distinctio",
-        "ColorBlock": 202,
-        "IconHint": "voluptates",
+        "Id": 816,
+        "Name": "Legros LLC",
+        "ToolTip": "Eum ea sint est eius et.",
+        "Deleted": true,
+        "Rank": 363,
+        "Type": "quia",
+        "ColorBlock": 556,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2014-08-30T12:57:43.4176894+02:00",
+        "LastChanged": "2005-02-02T04:22:35.9090937+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "non",
+        "ExtraInfo": "error",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Pearlie Kiehn",
+        "FullName": "Stacy Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 293
+            "FieldLength": 838
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Ofelia Kuhic",
+    "ExtraInfo": "ad",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Max Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldType": "System.Int32",
+        "FieldLength": 712
       }
     }
   }

@@ -124,7 +124,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -477,7 +477,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=associate/assocType,associate/simultaneousEjUser,person/personAssociateFullName,contact/country,contact/code
+GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=person/personExtra/x_person_longtext,person/correspondingAssociate/simultaneousEjUser,contact/contactAssociate/contactName,contact/LastDoByActivity,contact/saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

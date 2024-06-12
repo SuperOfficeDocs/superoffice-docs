@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 234,
-  "PlainMessage": "laborum",
-  "HtmlMessage": "consequatur",
-  "SmsMessage": "optio",
-  "Description": "Digitized 6th generation hierarchy",
-  "Subject": "eum",
-  "FolderId": 668,
-  "HeaderField": "qui",
-  "Design": "ipsa",
+  "ShipmentMessageId": 629,
+  "PlainMessage": "incidunt",
+  "HtmlMessage": "architecto",
+  "SmsMessage": "mollitia",
+  "Description": "Fully-configurable optimal Graphic Interface",
+  "Subject": "molestiae",
+  "FolderId": 250,
+  "HeaderField": "ea",
+  "Design": "enim",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Persevering grid-enabled process improvement",
-  "AccessKey": "nihil",
-  "DocumentMessage": 554,
-  "Registered": "2010-01-28T12:57:42.8231706+01:00",
-  "RegisteredAssociateId": 196,
-  "Updated": "2020-05-17T12:57:42.8231706+02:00",
-  "UpdatedAssociateId": 944,
-  "UpdatedCount": 390
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Enterprise-wide content-based algorithm",
+  "AccessKey": "ullam",
+  "DocumentMessage": 721,
+  "Registered": "2021-12-16T04:22:35.4553554+01:00",
+  "RegisteredAssociateId": 786,
+  "Updated": "2000-11-11T04:22:35.4553554+01:00",
+  "UpdatedAssociateId": 468,
+  "UpdatedCount": 327
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 826,
-  "PlainMessage": "ipsum",
-  "HtmlMessage": "temporibus",
-  "SmsMessage": "quibusdam",
-  "Description": "Seamless high-level adapter",
-  "Subject": "ut",
-  "FolderId": 352,
-  "HeaderField": "aliquam",
-  "Design": "enim",
+  "ShipmentMessageId": 901,
+  "PlainMessage": "perspiciatis",
+  "HtmlMessage": "ipsam",
+  "SmsMessage": "sapiente",
+  "Description": "Multi-lateral context-sensitive matrix",
+  "Subject": "et",
+  "FolderId": 883,
+  "HeaderField": "repellat",
+  "Design": "temporibus",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Assimilated fault-tolerant parallelism",
-  "AccessKey": "modi",
-  "DocumentMessage": 421,
-  "Registered": "2009-10-11T12:57:42.8231706+02:00",
-  "RegisteredAssociateId": 966,
-  "Updated": "1998-02-13T12:57:42.8231706+01:00",
-  "UpdatedAssociateId": 578,
-  "UpdatedCount": 679,
+  "LongDescription": "Ameliorated modular solution",
+  "AccessKey": "ea",
+  "DocumentMessage": 574,
+  "Registered": "2013-08-13T04:22:35.4553554+02:00",
+  "RegisteredAssociateId": 238,
+  "Updated": "2003-06-09T04:22:35.4553554+02:00",
+  "UpdatedAssociateId": 16,
+  "UpdatedCount": 352,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 446
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

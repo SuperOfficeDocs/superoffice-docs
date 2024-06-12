@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 598,
-  "TopicId": 801,
+  "ChatSessionId": 146,
+  "TopicId": 433,
   "User": null,
   "Person": null,
-  "CustomerAlias": "possimus",
-  "CustomerHost": "expedita",
-  "CustomerName": "Cruickshank, Botsford and Nicolas",
-  "CustomerEmail": "colleen_jewess@mertz.name",
-  "CustomerPhone": "345-558-4119 x32237",
+  "CustomerAlias": "enim",
+  "CustomerHost": "illum",
+  "CustomerName": "Howell LLC",
+  "CustomerEmail": "johnny_reilly@mohr.us",
+  "CustomerPhone": "375.897.5175 x66884",
   "CustomerConsented": false,
-  "CustomerCompanyName": "McCullough-Altenwerth",
+  "CustomerCompanyName": "Von Group",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "cupiditate",
-  "WhenRequested": "2003-01-20T12:57:42.1826916+01:00",
-  "WhenStarted": "2019-03-03T12:57:42.1826916+01:00",
-  "WhenEnded": "2004-03-19T12:57:42.1826916+01:00",
-  "WhenIdle": "1999-05-18T12:57:42.1826916+02:00",
-  "WhenFetched": "2017-06-25T12:57:42.1826916+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 717,
-  "AlertLevel": 342,
-  "Rank": 243,
+  "FirstMessage": "unde",
+  "LastMessage": "illum",
+  "WhenRequested": "1998-08-01T04:22:34.7496337+02:00",
+  "WhenStarted": "2000-04-03T04:22:34.7496337+02:00",
+  "WhenEnded": "2013-07-12T04:22:34.7496337+02:00",
+  "WhenIdle": "2003-12-08T04:22:34.7496337+01:00",
+  "WhenFetched": "2007-11-21T04:22:34.7496337+01:00",
+  "SessionKey": "omnis",
+  "InitialQueuePos": 221,
+  "AlertLevel": 383,
+  "Rank": 757,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -129,13 +129,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 39,
+  "Rating": 305,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 798
     }
   }
 }

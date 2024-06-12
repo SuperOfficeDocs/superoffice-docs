@@ -126,7 +126,7 @@ Implementation of the provider for the combined selection
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -479,7 +479,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=getNoRows,person/correspondingAssociate/middleName,person/restrictionAddress/zip
+GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=person/personInfo/textId,person/personAssociate/portraitThumbnail,contact/contactAssociate/mrMrs,contact/NumberOfTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

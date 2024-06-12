@@ -83,38 +83,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 624,
-  "Name": "Rogahn Inc and Sons",
-  "Rank": 413,
-  "Tooltip": "ullam",
-  "Icon": "fugit",
-  "DefaultTicketStatus": 120,
+  "TicketTypeId": 30,
+  "Name": "Waters LLC",
+  "Rank": 330,
+  "Tooltip": "culpa",
+  "Icon": "dolores",
+  "DefaultTicketStatus": 795,
   "TicketStatuses": [
-    629,
-    885
+    894,
+    853
   ],
-  "DefaultTicketPriority": 742,
+  "DefaultTicketPriority": 116,
   "TicketPriorities": [
-    530,
-    378
+    55,
+    578
   ],
-  "ReplyTemplate": 972,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ReplyTemplate": 724,
+  "IsExternalVisible": true,
+  "IsDefault": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    175,
-    596
+    24,
+    900
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 821
     }
   }
 }

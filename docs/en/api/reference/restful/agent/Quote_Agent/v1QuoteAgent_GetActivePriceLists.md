@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 360,
-  "Currency": "animi"
+  "QuoteConnectionId": 9,
+  "Currency": "ut"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 90,
-    "ERPPriceListKey": "nihil",
-    "QuoteConnectionId": 245,
-    "Name": "Eichmann Group",
-    "Description": "Re-engineered background complexity",
-    "Currency": "non",
-    "CurrencyName": "Langosh-Schneider",
-    "ValidFrom": "2006-09-10T12:57:34.7428121+02:00",
-    "ValidTo": "1997-07-19T12:57:34.7428121+02:00",
+    "PriceListId": 583,
+    "ERPPriceListKey": "vel",
+    "QuoteConnectionId": 810,
+    "Name": "Leffler Inc and Sons",
+    "Description": "Optional fresh-thinking methodology",
+    "Currency": "saepe",
+    "CurrencyName": "Hegmann, Herzog and Hilpert",
+    "ValidFrom": "1997-01-25T04:22:27.4247427+01:00",
+    "ValidTo": "2003-03-22T04:22:27.4247427+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 3
       }
     }
   }

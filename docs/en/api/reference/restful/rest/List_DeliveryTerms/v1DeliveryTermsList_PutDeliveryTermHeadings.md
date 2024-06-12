@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 663,
-    "Name": "Corkery, Altenwerth and Jaskolski",
-    "Tooltip": "sunt",
+    "HeadingId": 968,
+    "Name": "Ankunding LLC",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 461,
-    "UdListDefinitionId": 632
+    "Rank": 708,
+    "UdListDefinitionId": 973
   },
   {
-    "HeadingId": 663,
-    "Name": "Corkery, Altenwerth and Jaskolski",
-    "Tooltip": "sunt",
+    "HeadingId": 968,
+    "Name": "Ankunding LLC",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 461,
-    "UdListDefinitionId": 632
+    "Rank": 708,
+    "UdListDefinitionId": 973
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 738,
-    "Name": "Harber-Nikolaus",
-    "Tooltip": "suscipit",
+    "HeadingId": 95,
+    "Name": "Gorczany-Bergnaum",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 364,
-    "UdListDefinitionId": 733,
+    "Rank": 431,
+    "UdListDefinitionId": 807,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 318
       }
     }
   }

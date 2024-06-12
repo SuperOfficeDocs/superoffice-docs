@@ -59,7 +59,7 @@ OK
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 568,
-    "DisplayName": "Littel, Wintheiser and Terry",
-    "OngoingChats": 93,
+    "UserId": 257,
+    "DisplayName": "Durgan Inc and Sons",
+    "OngoingChats": 409,
     "Present": false,
     "ChatTopics": [
-      209,
-      324
+      65,
+      17
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldLength": 671
       }
     }
   }

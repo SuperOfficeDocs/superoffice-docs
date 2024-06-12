@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 264
+  "EntityId": 495
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 364,
-    "ConnectionName": "Okuneva-Nikolaus",
-    "Connected": true,
+    "ErpConnectionId": 837,
+    "ConnectionName": "Brekke, Dibbert and Carroll",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "numquam",
-        "Rank": 201,
-        "DisplayName": "Reynolds-Heathcote",
-        "DisplayDescription": "Organized bifurcated algorithm",
+        "FieldKey": "sunt",
+        "Rank": 903,
+        "DisplayName": "Watsica, Medhurst and Schaden",
+        "DisplayDescription": "Stand-alone global intranet",
         "FieldType": "Checkbox",
-        "ListName": "Von-Leannon",
-        "DefaultValue": "voluptates",
-        "MaxLength": 844,
+        "ListName": "Weimann, Padberg and Hyatt",
+        "DefaultValue": "quae",
+        "MaxLength": 170,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldType": "System.String",
+            "FieldLength": 342
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "vel",
-      "sed"
+      "expedita",
+      "laudantium"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 145
       }
     }
   }

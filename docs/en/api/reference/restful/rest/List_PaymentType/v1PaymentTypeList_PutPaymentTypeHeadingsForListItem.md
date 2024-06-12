@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Ernser, Quitzon and Mueller",
-    "ToolTip": "Consequatur dolore incidunt ut consectetur.",
+    "Id": 871,
+    "Name": "Dibbert LLC",
+    "ToolTip": "Et quia qui eius veritatis omnis ut quo.",
     "Deleted": false,
-    "Rank": 826,
-    "Type": "dolores",
-    "ColorBlock": 573,
-    "IconHint": "facere",
-    "Selected": false,
-    "LastChanged": "2015-10-12T12:57:43.5426609+02:00",
+    "Rank": 630,
+    "Type": "est",
+    "ColorBlock": 148,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2006-07-04T04:22:36.0028417+02:00",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Lehner, Bayer and Leannon",
-        "ToolTip": "Explicabo cumque eos quod distinctio atque voluptas.",
+        "Id": 234,
+        "Name": "Balistreri Inc and Sons",
+        "ToolTip": "Repellendus officiis corrupti pariatur aut.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "tempore",
-        "ColorBlock": 357,
-        "IconHint": "tenetur",
+        "Rank": 744,
+        "Type": "ab",
+        "ColorBlock": 730,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2012-03-30T12:57:43.5426609+02:00",
+        "LastChanged": "2015-01-09T04:22:36.0028417+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "dolore",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Ms. Dixie Simone Nitzsche"
+        "FullName": "Kenton Maggio"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "sunt",
+    "ExtraInfo": "sed",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Matilda Dach"
+    "FullName": "Izabella Quigley"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Schoen, Corwin and West",
-    "ToolTip": "Provident beatae praesentium.",
+    "Id": 926,
+    "Name": "Smitham-Kris",
+    "ToolTip": "Incidunt et.",
     "Deleted": false,
-    "Rank": 227,
-    "Type": "enim",
-    "ColorBlock": 526,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2012-05-13T12:57:43.5426609+02:00",
+    "Rank": 761,
+    "Type": "corrupti",
+    "ColorBlock": 576,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2013-02-22T04:22:36.0184671+01:00",
     "ChildItems": [
       {
-        "Id": 576,
-        "Name": "Rohan-Ondricka",
-        "ToolTip": "Commodi repellendus voluptas distinctio est.",
-        "Deleted": true,
-        "Rank": 773,
-        "Type": "quidem",
-        "ColorBlock": 516,
-        "IconHint": "natus",
-        "Selected": true,
-        "LastChanged": "2010-10-24T12:57:43.5426609+02:00",
+        "Id": 731,
+        "Name": "Herzog Inc and Sons",
+        "ToolTip": "Quia dignissimos ipsa sint mollitia.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "reiciendis",
+        "ColorBlock": 597,
+        "IconHint": "alias",
+        "Selected": false,
+        "LastChanged": "2011-07-15T04:22:36.0184671+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "aut",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "voluptatum",
         "Hidden": true,
-        "FullName": "Natalie Schiller",
+        "FullName": "Aylin Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "illum",
+    "ExtraInfo": "nemo",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Mr. Jany Dereck Kohler",
+    "FullName": "Jaren Daugherty II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldLength": 479
       }
     }
   }

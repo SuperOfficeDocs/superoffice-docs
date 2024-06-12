@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Koelpin Group",
-  "StorageKey": "temporibus"
+  "StorageType": "sed",
+  "ProviderName": "Altenwerth LLC",
+  "StorageKey": "quis"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Emmerich Inc and Sons",
-    "DisplayTooltip": "nesciunt",
-    "DisplayType": "tempore",
+    "DisplayName": "Mohr, Heathcote and Ortiz",
+    "DisplayTooltip": "quasi",
+    "DisplayType": "distinctio",
     "CanOrderBy": false,
-    "Name": "Luettgen-Gleason",
+    "Name": "Witting, Schinner and Goodwin",
     "CanRestrictBy": false,
-    "RestrictionType": "reprehenderit",
-    "RestrictionListName": "Gorczany, Thompson and Schneider",
-    "IsVisible": true,
-    "ExtraInfo": "sapiente",
-    "Width": "et",
-    "IconHint": "similique",
-    "HeadingIconHint": "omnis"
+    "RestrictionType": "quaerat",
+    "RestrictionListName": "Dach, O'Kon and Casper",
+    "IsVisible": false,
+    "ExtraInfo": "natus",
+    "Width": "quas",
+    "IconHint": "necessitatibus",
+    "HeadingIconHint": "tempora"
   }
 ]
 ```

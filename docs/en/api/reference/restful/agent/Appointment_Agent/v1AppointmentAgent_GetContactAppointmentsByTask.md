@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 786,
-  "StartTime": "2013-02-27T12:57:32.7271897+01:00",
-  "EndTime": "2000-01-10T12:57:32.7271897+01:00",
-  "Count": 128,
-  "TaskId": 385
+  "ContactId": 543,
+  "StartTime": "2003-10-31T04:22:25.558472+01:00",
+  "EndTime": "2020-12-19T04:22:25.558472+01:00",
+  "Count": 493,
+  "TaskId": 282
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 145,
-    "StartDate": "2002-01-07T12:57:32.7271897+01:00",
-    "EndDate": "1997-12-09T12:57:32.7271897+01:00",
+    "AppointmentId": 231,
+    "StartDate": "1999-01-25T04:22:25.558472+01:00",
+    "EndDate": "2014-07-01T04:22:25.558472+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quasi",
-    "AssociateFullName": "Dr. Lea Toni Fay",
-    "ContactName": "Swaniawski LLC",
-    "Description": "User-centric client-driven framework",
-    "PersonFullName": "Tyson Botsford III",
-    "PersonId": 726,
-    "ContactId": 921,
-    "ProjectId": 639,
-    "ProjectName": "Auer LLC",
+    "Task": "saepe",
+    "AssociateFullName": "Linnie Connelly",
+    "ContactName": "Corkery LLC",
+    "Description": "Monitored bifurcated product",
+    "PersonFullName": "Jabari Elias Kassulke IV",
+    "PersonId": 945,
+    "ContactId": 430,
+    "ProjectId": 397,
+    "ProjectName": "Christiansen, Lesch and Morissette",
     "IsPublished": false,
-    "AssociateId": 390,
-    "ColorIndex": 739,
+    "AssociateId": 682,
+    "ColorIndex": 727,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 375,
-    "PriorityName": "Ortiz-Swaniawski",
+    "PriorityId": 211,
+    "PriorityName": "Lubowitz Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2020-10-14T12:57:32.7428108+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2002-11-07T04:22:25.558472+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-11-12T12:57:32.7428108+01:00",
-    "RecurringEndDate": "2002-02-24T12:57:32.7428108+01:00",
-    "MotherId": 423,
-    "AssignedBy": 834,
-    "AssignedByFullName": "Prof. Kim Lee Haag DDS",
-    "RejectReason": "",
-    "Location": "tempore",
-    "AlarmLeadTime": "officiis",
-    "SaleId": 30,
-    "SaleName": "Koelpin-Lang",
-    "AssociateName": "Boyle-Hartmann",
-    "CreatedDate": "2003-11-15T12:57:32.7428108+01:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Anthony Walsh",
-    "CreatedByAssociateId": 649,
+    "RecurringStartDate": "2007-05-18T04:22:25.558472+02:00",
+    "RecurringEndDate": "2001-08-24T04:22:25.558472+02:00",
+    "MotherId": 930,
+    "AssignedBy": 338,
+    "AssignedByFullName": "Alexis Sporer",
+    "RejectReason": "integrate web-enabled vortals",
+    "Location": "aut",
+    "AlarmLeadTime": "adipisci",
+    "SaleId": 456,
+    "SaleName": "Kreiger LLC",
+    "AssociateName": "Orn, Ullrich and Adams",
+    "CreatedDate": "2020-11-23T04:22:25.558472+01:00",
+    "CreatedBy": "repellat",
+    "CreatedByFullName": "Mr. Johann Roberts",
+    "CreatedByAssociateId": 681,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 440,
-    "Title": "facere",
-    "Agenda": "deserunt",
-    "InternalNotes": "corrupti",
+    "PreferredTZLocation": 402,
+    "Title": "eius",
+    "Agenda": "accusamus",
+    "InternalNotes": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldType": "System.String",
+        "FieldLength": 879
       }
     }
   }

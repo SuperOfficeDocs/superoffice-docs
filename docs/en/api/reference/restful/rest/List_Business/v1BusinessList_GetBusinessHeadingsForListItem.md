@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Legros, Ortiz and Green",
-    "ToolTip": "Quaerat ipsam suscipit ut adipisci nemo dolore.",
-    "Deleted": false,
-    "Rank": 179,
-    "Type": "ut",
-    "ColorBlock": 987,
-    "IconHint": "quod",
-    "Selected": false,
-    "LastChanged": "2019-09-30T12:57:43.3239611+02:00",
+    "Id": 276,
+    "Name": "Schiller-Watsica",
+    "ToolTip": "Perferendis possimus quaerat temporibus praesentium molestiae distinctio.",
+    "Deleted": true,
+    "Rank": 455,
+    "Type": "assumenda",
+    "ColorBlock": 914,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "1997-03-05T04:22:35.8153337+01:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Stokes Inc and Sons",
-        "ToolTip": "Veritatis ratione repellat in qui velit iste.",
+        "Id": 578,
+        "Name": "Ernser LLC",
+        "ToolTip": "Cum aut soluta.",
         "Deleted": false,
-        "Rank": 36,
-        "Type": "et",
-        "ColorBlock": 779,
-        "IconHint": "fuga",
-        "Selected": false,
-        "LastChanged": "2019-11-22T12:57:43.3239611+01:00",
+        "Rank": 466,
+        "Type": "velit",
+        "ColorBlock": 952,
+        "IconHint": "saepe",
+        "Selected": true,
+        "LastChanged": "2022-01-22T04:22:35.8153337+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Amara Sauer",
+        "ExtraInfo": "eos",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Miss Alexie Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldType": "System.String",
+            "FieldLength": 553
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Julie Olson",
+    "ExtraInfo": "debitis",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Mrs. Reyna Lind DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 52
       }
     }
   }

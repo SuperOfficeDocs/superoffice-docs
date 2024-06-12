@@ -25,7 +25,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=False
+GET /api/v1/List/ProductCategory/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Frami LLC",
-    "Tooltip": "omnis",
+    "Id": 408,
+    "Name": "Bergnaum-Nitzsche",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "UdListDefinitionId": 12,
-    "Rank": 770,
+    "UdListDefinitionId": 338,
+    "Rank": 149,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 969
       }
     }
   }

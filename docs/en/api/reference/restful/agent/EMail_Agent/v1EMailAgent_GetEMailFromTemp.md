@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Schumm LLC"
+  "FileName": "Lesch, Rice and Hirthe"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 896,
-      "ContactName": "Veum-Kreiger",
-      "PersonId": 615,
-      "PersonName": "Cormier-Larkin",
-      "AssociateId": 473,
-      "Address": "aut",
-      "EmailId": 195,
+      "ContactId": 696,
+      "ContactName": "Mitchell-Ritchie",
+      "PersonId": 398,
+      "PersonName": "Mills-Trantow",
+      "AssociateId": 559,
+      "Address": "minus",
+      "EmailId": 363,
       "DuplicatePersonIds": [
-        159,
-        456
+        191,
+        990
       ],
-      "Name": "Walter Group",
+      "Name": "Cartwright-Donnelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 250
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 754,
-      "ContactName": "Bergstrom, Spinka and Daugherty",
-      "PersonId": 240,
-      "PersonName": "Senger, Hoppe and Hessel",
-      "AssociateId": 70,
-      "Address": "eos",
-      "EmailId": 866,
+      "ContactId": 271,
+      "ContactName": "Tromp, Harris and Connelly",
+      "PersonId": 698,
+      "PersonName": "Borer-Grady",
+      "AssociateId": 117,
+      "Address": "incidunt",
+      "EmailId": 562,
       "DuplicatePersonIds": [
-        153,
-        593
+        80,
+        569
       ],
-      "Name": "Fadel-Rosenbaum",
+      "Name": "Wilkinson-Morissette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldLength": 653
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 859,
-      "ContactName": "Marvin-Yundt",
-      "PersonId": 429,
-      "PersonName": "Hickle-Durgan",
-      "AssociateId": 168,
-      "Address": "fugit",
-      "EmailId": 956,
+      "ContactId": 559,
+      "ContactName": "Gerhold-Champlin",
+      "PersonId": 934,
+      "PersonName": "Rohan-O'Hara",
+      "AssociateId": 245,
+      "Address": "enim",
+      "EmailId": 488,
       "DuplicatePersonIds": [
-        627,
-        660
+        668,
+        671
       ],
-      "Name": "Ernser-Barrows",
+      "Name": "Wilderman-Walter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldLength": 332
         }
       }
     }
   ],
-  "Subject": "ad",
-  "HTMLBody": "est",
+  "Subject": "architecto",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "1998-03-04T12:57:33.9773902+01:00",
-  "Size": 70,
+  "Sent": "2021-02-08T04:22:26.7840717+01:00",
+  "Size": 644,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "beatae",
+  "MessageID": "vitae",
+  "PlainBody": "ut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 479,
+  "ServerId": 340,
   "Attachments": [
     {
-      "Description": "Innovative coherent architecture",
-      "Filename": "dolor",
-      "Size": 822,
-      "Type": "labore",
-      "Encoding": "nihil",
-      "Id": "ut",
-      "Disposition": "optio",
-      "IsSafeFileExtension": false,
+      "Description": "Organized multimedia website",
+      "Filename": "dicta",
+      "Size": 985,
+      "Type": "et",
+      "Encoding": "fugiat",
+      "Id": "error",
+      "Disposition": "facere",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldType": "System.String",
+          "FieldLength": 574
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Batz-Turcotte",
+      "Name": "Gibson Inc and Sons",
       "Values": [
-        "iste",
-        "nisi"
+        "quam",
+        "veritatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldType": "System.String",
+          "FieldLength": 299
         }
       }
     },
     {
-      "Name": "Batz-Turcotte",
+      "Name": "Gibson Inc and Sons",
       "Values": [
-        "iste",
-        "nisi"
+        "quam",
+        "veritatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldType": "System.String",
+          "FieldLength": 299
         }
       }
     }
   ],
-  "FolderName": "Schmidt Inc and Sons",
-  "EmailItemId": 444,
-  "AccountId": 208,
-  "ReceivedAt": "2022-10-05T12:57:33.9773902+02:00",
+  "FolderName": "Nitzsche, Boehm and Effertz",
+  "EmailItemId": 889,
+  "AccountId": 152,
+  "ReceivedAt": "2021-02-06T04:22:26.7840717+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-05-17T12:57:33.9773902+02:00",
+  "RepliedAt": "1998-03-05T04:22:26.7840717+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 87
     }
   }
 }

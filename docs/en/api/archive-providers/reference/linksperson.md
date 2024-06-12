@@ -79,7 +79,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |createdByForm|listAny|Created by form: Created by form| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |text|string|Text: Displays a descriptive text for the item| x |
@@ -119,7 +119,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksPerson?$select=retired,associateId,personSource
+GET /api/v1/archive/LinksPerson?$select=personSource,supportLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

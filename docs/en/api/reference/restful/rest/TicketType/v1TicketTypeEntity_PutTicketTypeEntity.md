@@ -111,35 +111,35 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 292,
-  "Name": "Corwin-Spinka",
-  "Rank": 381,
-  "Tooltip": "deserunt",
-  "Icon": "soluta",
-  "DefaultTicketStatus": 825,
+  "TicketTypeId": 420,
+  "Name": "Bruen, Waelchi and Gerhold",
+  "Rank": 608,
+  "Tooltip": "omnis",
+  "Icon": "tenetur",
+  "DefaultTicketStatus": 262,
   "TicketStatuses": [
-    958,
-    834
+    1002,
+    820
   ],
-  "DefaultTicketPriority": 427,
+  "DefaultTicketPriority": 646,
   "TicketPriorities": [
-    743,
-    865
+    326,
+    946
   ],
-  "ReplyTemplate": 218,
+  "ReplyTemplate": 55,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    156,
-    337
+    728,
+    536
   ]
 }
 ```
@@ -151,38 +151,38 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 291,
-  "Name": "Koepp LLC",
-  "Rank": 185,
-  "Tooltip": "quod",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 958,
+  "TicketTypeId": 501,
+  "Name": "Hermann Inc and Sons",
+  "Rank": 723,
+  "Tooltip": "nihil",
+  "Icon": "at",
+  "DefaultTicketStatus": 990,
   "TicketStatuses": [
-    236,
-    722
+    803,
+    376
   ],
-  "DefaultTicketPriority": 98,
+  "DefaultTicketPriority": 770,
   "TicketPriorities": [
-    220,
-    158
+    941,
+    411
   ],
-  "ReplyTemplate": 117,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ReplyTemplate": 502,
+  "IsExternalVisible": true,
+  "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    47,
-    640
+    549,
+    17
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   },
   "_Links": {

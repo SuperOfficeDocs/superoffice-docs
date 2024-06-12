@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 599,
-  "Section": "qui",
-  "Key": "ab",
-  "Name": "Balistreri Inc and Sons",
+  "PrefDescId": 373,
+  "Section": "et",
+  "Key": "corrupti",
+  "Name": "Jones, Collier and Torphy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative leading edge capability",
+  "Description": "Cloned impactful standardization",
   "IsBuiltin": false,
-  "TableName": "Denesik Group",
-  "UserDefinedListId": 846,
-  "Rank": 448,
-  "SubGroup": "quidem",
-  "MinLevel": 198,
-  "MaxValue": 769,
-  "MinValue": 826,
-  "RequiredLicense": "consequatur"
+  "TableName": "McLaughlin, Rutherford and Walter",
+  "UserDefinedListId": 923,
+  "Rank": 205,
+  "SubGroup": "sed",
+  "MinLevel": 164,
+  "MaxValue": 708,
+  "MinValue": 38,
+  "RequiredLicense": "iusto"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 574,
-  "Section": "ad",
+  "PrefDescId": 294,
+  "Section": "vel",
   "Key": "et",
-  "Name": "Larson Group",
+  "Name": "Watsica-Donnelly",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative client-driven adapter",
-  "IsBuiltin": true,
-  "TableName": "Johnson-Kihn",
-  "UserDefinedListId": 440,
-  "Rank": 363,
-  "SubGroup": "nam",
-  "MinLevel": 471,
-  "MaxValue": 656,
-  "MinValue": 421,
-  "RequiredLicense": "quod",
+  "Description": "Monitored static definition",
+  "IsBuiltin": false,
+  "TableName": "Dare Group",
+  "UserDefinedListId": 606,
+  "Rank": 88,
+  "SubGroup": "laboriosam",
+  "MinLevel": 206,
+  "MaxValue": 242,
+  "MinValue": 316,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 268
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

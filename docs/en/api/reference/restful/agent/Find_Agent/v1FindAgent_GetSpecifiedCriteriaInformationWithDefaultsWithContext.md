@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "beatae",
-  "ProviderName": "Becker, Franecki and Jenkins",
-  "StorageKey": "in",
+  "StorageType": "sapiente",
+  "ProviderName": "Pagac Inc and Sons",
+  "StorageKey": "officiis",
   "DesiredColumnNames": [
-    "Lang Group",
-    "Wyman, Medhurst and O'Reilly"
+    "Moore, Wilderman and Lynch",
+    "Fadel Group"
   ],
   "StaticColumns": [
-    "culpa",
-    "et"
+    "nobis",
+    "sed"
   ],
-  "Context": "sint"
+  "Context": "inventore"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jaskolski-Veum",
-      "Operator": "ab",
+      "Name": "Batz, Dickinson and Grant",
+      "Operator": "atque",
       "Values": [
-        "vero",
-        "architecto"
+        "et",
+        "possimus"
       ],
       "DisplayValues": [
-        "at",
-        "voluptatum"
+        "aliquid",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 330,
+      "InterParenthesis": 111,
       "InterOperator": "And",
-      "UniqueHash": 236
+      "UniqueHash": 205
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "O'Connell, Bogisich and Lakin",
-      "DisplayTooltip": "exercitationem",
-      "DisplayType": "autem",
-      "CanOrderBy": false,
-      "Name": "Dicki Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Moen Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "illo",
-      "IconHint": "ut",
-      "HeadingIconHint": "expedita"
+      "DisplayName": "Wilkinson, Hansen and Towne",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "ad",
+      "CanOrderBy": true,
+      "Name": "Vandervort, Nienow and Gislason",
+      "CanRestrictBy": true,
+      "RestrictionType": "quidem",
+      "RestrictionListName": "Herman Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "culpa",
+      "Width": "et",
+      "IconHint": "rerum",
+      "HeadingIconHint": "sequi"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bode, Ebert and Waelchi",
-      "PrimaryKey": 910,
+      "EntityName": "Leannon, Keeling and Howell",
+      "PrimaryKey": 242,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dicta",
-          "TooltipHint": "accusamus",
-          "LinkHint": "dolorem"
+          "DisplayValue": "inventore",
+          "TooltipHint": "qui",
+          "LinkHint": "maiores"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "saepe",
+      "LinkHint": "est",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Beahan, Schultz and Hilll",
-      "Description": "Customizable local software",
-      "Rank": 557,
+      "Name": "Cruickshank, Kunde and Brown",
+      "Description": "Decentralized explicit concept",
+      "Rank": 926,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Beahan, Schultz and Hilll",
-      "Description": "Customizable local software",
-      "Rank": 557,
+      "Name": "Cruickshank, Kunde and Brown",
+      "Description": "Decentralized explicit concept",
+      "Rank": 926,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldLength": 183
     }
   }
 }

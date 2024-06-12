@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 250,
-  "CurrencyId": 163
+  "QuoteConnectionId": 116,
+  "CurrencyId": 369
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 152,
-    "ERPPriceListKey": "non",
-    "QuoteConnectionId": 666,
-    "Name": "Rohan Inc and Sons",
-    "Description": "Focused responsive hub",
-    "Currency": "voluptatum",
-    "CurrencyName": "Feeney-Treutel",
-    "ValidFrom": "2005-12-31T12:57:34.7428121+01:00",
-    "ValidTo": "1998-07-25T12:57:34.7428121+02:00",
-    "IsActive": false,
+    "PriceListId": 973,
+    "ERPPriceListKey": "consequatur",
+    "QuoteConnectionId": 935,
+    "Name": "Streich, Rodriguez and Hamill",
+    "Description": "Proactive needs-based protocol",
+    "Currency": "veritatis",
+    "CurrencyName": "Klocko Inc and Sons",
+    "ValidFrom": "2023-05-05T04:22:27.4247427+02:00",
+    "ValidTo": "2016-09-16T04:22:27.4247427+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 656
       }
     }
   }

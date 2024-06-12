@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Breitenberg, Zieme and Grant",
-    "ToolTip": "In qui eligendi aut ad.",
+    "Id": 177,
+    "Name": "Effertz Inc and Sons",
+    "ToolTip": "Quia fugiat explicabo.",
     "Deleted": false,
-    "Rank": 164,
-    "Type": "illo",
-    "ColorBlock": 785,
-    "IconHint": "quasi",
+    "Rank": 430,
+    "Type": "quaerat",
+    "ColorBlock": 356,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2006-08-05T12:57:43.5114182+02:00",
+    "LastChanged": "2003-05-24T04:22:35.9872165+02:00",
     "ChildItems": [
       {
-        "Id": 550,
-        "Name": "Conn, Heidenreich and Marks",
-        "ToolTip": "Sint voluptatem nobis et autem dignissimos unde.",
-        "Deleted": false,
-        "Rank": 424,
-        "Type": "ad",
-        "ColorBlock": 629,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2020-03-08T12:57:43.5114182+01:00",
+        "Id": 309,
+        "Name": "Pacocha-Stamm",
+        "ToolTip": "Ex libero voluptatem consectetur in.",
+        "Deleted": true,
+        "Rank": 788,
+        "Type": "voluptate",
+        "ColorBlock": 564,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2013-06-20T04:22:35.9872165+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Prof. Gaylord Dario McLaughlin II"
+        "ExtraInfo": "aut",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Franz Kerluke"
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "porro",
+    "ExtraInfo": "quis",
+    "StyleHint": "dolore",
     "Hidden": true,
-    "FullName": "Dorris Bernier"
+    "FullName": "Ms. Dasia Spinka"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Prosacco-Denesik",
-    "ToolTip": "Beatae dolore quia.",
+    "Id": 105,
+    "Name": "Turner, Witting and Toy",
+    "ToolTip": "Qui assumenda.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "officia",
-    "ColorBlock": 162,
-    "IconHint": "odio",
+    "Rank": 369,
+    "Type": "ab",
+    "ColorBlock": 672,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2010-02-24T12:57:43.5114182+01:00",
+    "LastChanged": "2012-12-17T04:22:35.9872165+01:00",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Gutkowski, Skiles and Bartell",
-        "ToolTip": "Aut et quia sit.",
-        "Deleted": true,
-        "Rank": 764,
-        "Type": "aut",
-        "ColorBlock": 307,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2009-01-18T12:57:43.5114182+01:00",
+        "Id": 521,
+        "Name": "Daniel-Hansen",
+        "ToolTip": "Fugit error quia.",
+        "Deleted": false,
+        "Rank": 508,
+        "Type": "consectetur",
+        "ColorBlock": 274,
+        "IconHint": "eaque",
+        "Selected": false,
+        "LastChanged": "2004-09-13T04:22:35.9872165+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "non",
+        "StyleHint": "culpa",
         "Hidden": true,
-        "FullName": "Miss Doris Pacocha",
+        "FullName": "Katlyn Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 706
+            "FieldLength": 522
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Fernando Morar",
+    "FullName": "Samanta Solon Bernhard V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

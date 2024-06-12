@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Cummings, Bailey and Dare",
-    "ToolTip": "Quia unde dignissimos aut est.",
+    "Id": 404,
+    "Name": "Hessel LLC",
+    "ToolTip": "Et saepe quo enim officiis.",
     "Deleted": false,
-    "Rank": 759,
-    "Type": "quidem",
-    "ColorBlock": 949,
-    "IconHint": "voluptatem",
+    "Rank": 958,
+    "Type": "ut",
+    "ColorBlock": 537,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2002-04-30T12:57:34.0867473+02:00",
+    "LastChanged": "2001-02-05T04:22:26.9067712+01:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Dickinson-Waelchi",
-        "ToolTip": "Eveniet quo enim provident.",
+        "Id": 796,
+        "Name": "Jenkins, Mills and Schimmel",
+        "ToolTip": "Iusto iure et.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "consequuntur",
-        "ColorBlock": 67,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "2007-08-29T12:57:34.0867473+02:00",
+        "Rank": 35,
+        "Type": "eos",
+        "ColorBlock": 834,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2023-02-22T04:22:26.9067712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "fuga",
-        "Hidden": true,
-        "FullName": "Prof. King Gordon Schaefer PhD",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Urban Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 943
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "animi",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Miss Granville Shawn Bergnaum",
+    "FullName": "Jerome Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldType": "System.Int32",
+        "FieldLength": 925
       }
     }
   }

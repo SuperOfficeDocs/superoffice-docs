@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Klein, Jacobson and Goldner",
-  "IncludeDeleted": false
+  "UdListDefinitionName": "Blanda LLC",
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Gislason, Ledner and Stamm",
-    "Tooltip": "omnis",
+    "Id": 582,
+    "Name": "Reilly-Smitham",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 985,
-    "Rank": 811,
+    "UdListDefinitionId": 172,
+    "Rank": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 215
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jaskolski-Rice",
-  "ProviderName": "Romaguera Inc and Sons",
+  "GuiName": "Von-Kunde",
+  "ProviderName": "Labadie-Stracke",
   "Entities": [
-    "officiis",
-    "impedit"
+    "corrupti",
+    "suscipit"
   ]
 }
 ```

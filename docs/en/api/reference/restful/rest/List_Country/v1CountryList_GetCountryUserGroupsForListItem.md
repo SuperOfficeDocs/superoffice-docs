@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Kris, Hartmann and Boyer",
-    "ToolTip": "Magnam incidunt deleniti soluta inventore.",
-    "Deleted": true,
-    "Rank": 410,
-    "Type": "nemo",
-    "ColorBlock": 16,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2020-03-13T12:57:43.402068+01:00",
+    "Id": 175,
+    "Name": "Brekke-Bogisich",
+    "ToolTip": "Nam est sed et.",
+    "Deleted": false,
+    "Rank": 68,
+    "Type": "quaerat",
+    "ColorBlock": 429,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2023-11-27T04:22:35.8778461+01:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Kuhlman-Mann",
-        "ToolTip": "Expedita sit ab alias ut.",
-        "Deleted": true,
-        "Rank": 806,
-        "Type": "voluptatem",
-        "ColorBlock": 305,
-        "IconHint": "ipsam",
+        "Id": 338,
+        "Name": "Brown, Walsh and Stanton",
+        "ToolTip": "Delectus nostrum harum.",
+        "Deleted": false,
+        "Rank": 683,
+        "Type": "magnam",
+        "ColorBlock": 183,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2002-11-15T12:57:43.402068+01:00",
+        "LastChanged": "2009-10-13T04:22:35.8778461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Arely Casper",
+        "ExtraInfo": "qui",
+        "StyleHint": "inventore",
+        "Hidden": false,
+        "FullName": "Erna Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldLength": 62
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Wallace Wisoky",
+    "FullName": "Korbin Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 153
       }
     }
   }

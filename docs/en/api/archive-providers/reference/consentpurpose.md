@@ -93,7 +93,7 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |consentPerson/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |consentPerson/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|consentPerson/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|consentPerson/person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |consentPerson/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |consentPerson/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |consentPerson/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
@@ -182,7 +182,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personCountry,consentPerson/person/retired,consentPerson/person/personUpdatedDate
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personUpdatedDate,consentPerson/person/personMobilePhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

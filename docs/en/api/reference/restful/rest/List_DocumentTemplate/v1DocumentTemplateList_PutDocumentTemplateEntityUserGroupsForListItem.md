@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Hilll, Satterfield and Durgan",
-    "ToolTip": "Ut tempore dignissimos ut reiciendis quisquam deleniti.",
-    "Deleted": false,
-    "Rank": 116,
-    "Type": "vitae",
-    "ColorBlock": 351,
-    "IconHint": "culpa",
+    "Id": 668,
+    "Name": "Senger, Hoppe and Schmidt",
+    "ToolTip": "Nihil officia neque architecto deserunt expedita.",
+    "Deleted": true,
+    "Rank": 626,
+    "Type": "fuga",
+    "ColorBlock": 822,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2010-12-02T12:57:43.4801753+01:00",
+    "LastChanged": "2017-08-23T04:22:35.9559668+02:00",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "Labadie, Sipes and Connelly",
-        "ToolTip": "Repellendus laborum eum rerum aspernatur dicta quis ad.",
-        "Deleted": false,
-        "Rank": 492,
-        "Type": "itaque",
-        "ColorBlock": 220,
-        "IconHint": "at",
-        "Selected": true,
-        "LastChanged": "2001-11-30T12:57:43.4801753+01:00",
+        "Id": 656,
+        "Name": "King, Miller and Oberbrunner",
+        "ToolTip": "Unde ut et autem nostrum.",
+        "Deleted": true,
+        "Rank": 344,
+        "Type": "ut",
+        "ColorBlock": 185,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "2002-09-10T04:22:35.9559668+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "iure",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Alta Kunde"
+        "FullName": "Sheila Schuppe"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "cumque",
-    "Hidden": true,
-    "FullName": "Keaton Toy"
+    "ExtraInfo": "ratione",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Dana Hagenes I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Bins, Larkin and Ferry",
-    "ToolTip": "Sed quasi.",
-    "Deleted": true,
-    "Rank": 981,
-    "Type": "et",
-    "ColorBlock": 19,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "1999-10-06T12:57:43.4801753+02:00",
+    "Id": 856,
+    "Name": "O'Reilly-Lang",
+    "ToolTip": "Autem sunt accusantium eos reiciendis itaque et a.",
+    "Deleted": false,
+    "Rank": 919,
+    "Type": "aut",
+    "ColorBlock": 297,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2018-04-29T04:22:35.9559668+02:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Swift-Haag",
-        "ToolTip": "Hic et facere.",
+        "Id": 213,
+        "Name": "Kilback Inc and Sons",
+        "ToolTip": "Et et nesciunt laudantium qui quo.",
         "Deleted": true,
-        "Rank": 960,
-        "Type": "aut",
-        "ColorBlock": 631,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "2021-02-07T12:57:43.4801753+01:00",
+        "Rank": 701,
+        "Type": "non",
+        "ColorBlock": 368,
+        "IconHint": "illum",
+        "Selected": true,
+        "LastChanged": "1999-11-29T04:22:35.9559668+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "hic",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "assumenda",
         "Hidden": true,
-        "FullName": "Hollie Schimmel",
+        "FullName": "Dr. Geovany Tyshawn O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 792
+            "FieldLength": 543
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Phyllis Stroman",
+    "ExtraInfo": "rem",
+    "StyleHint": "ab",
+    "Hidden": false,
+    "FullName": "Frederik Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 20
       }
     }
   }

@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 427
+  "ErpConnectorId": 482
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "atque",
-    "Rank": 437,
-    "DisplayName": "Herman Group",
-    "DisplayDescription": "Multi-tiered global throughput",
+    "FieldKey": "corrupti",
+    "Rank": 987,
+    "DisplayName": "Goodwin, Walker and Harvey",
+    "DisplayDescription": "Face to face bottom-line hub",
     "FieldType": "Checkbox",
-    "ListName": "Schuppe, Glover and Wintheiser",
-    "DefaultValue": "veritatis",
-    "MaxLength": 680,
+    "ListName": "Bruen-Waelchi",
+    "DefaultValue": "aliquid",
+    "MaxLength": 413,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldType": "System.String",
+        "FieldLength": 447
       }
     }
   }

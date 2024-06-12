@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 286,
-    "Name": "Hamill LLC",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 675,
-    "UdListDefinitionId": 779
+    "HeadingId": 221,
+    "Name": "Reynolds Inc and Sons",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 694,
+    "UdListDefinitionId": 651
   },
   {
-    "HeadingId": 286,
-    "Name": "Hamill LLC",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 675,
-    "UdListDefinitionId": 779
+    "HeadingId": 221,
+    "Name": "Reynolds Inc and Sons",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 694,
+    "UdListDefinitionId": 651
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 381,
-    "Name": "Conroy, Flatley and Franecki",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "Rank": 937,
-    "UdListDefinitionId": 81,
+    "HeadingId": 316,
+    "Name": "Hyatt-Wiegand",
+    "Tooltip": "aliquam",
+    "Deleted": true,
+    "Rank": 42,
+    "UdListDefinitionId": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

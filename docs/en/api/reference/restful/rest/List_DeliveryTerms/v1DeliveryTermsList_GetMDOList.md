@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=provident
+GET /api/v1/List/DeliveryTerm/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Dickens, Wolf and Hackett",
-    "ToolTip": "Sed et.",
-    "Deleted": false,
-    "Rank": 636,
-    "Type": "accusantium",
+    "Id": 957,
+    "Name": "Muller Group",
+    "ToolTip": "Sapiente vero.",
+    "Deleted": true,
+    "Rank": 38,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 695,
-        "Name": "Bosco-McCullough",
-        "ToolTip": "Nam aut rerum vel.",
+        "Id": 100,
+        "Name": "Rippin-Schulist",
+        "ToolTip": "Ipsum sit enim non est vero.",
         "Deleted": false,
-        "Rank": 518,
-        "Type": "eaque",
+        "Rank": 73,
+        "Type": "quae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 675,
-        "ExtraInfo": "dolore",
-        "StyleHint": "explicabo",
-        "FullName": "Ms. Celine Sanford",
+        "IconHint": "est",
+        "ColorBlock": 5,
+        "ExtraInfo": "quos",
+        "StyleHint": "eum",
+        "FullName": "Mariano Kariane Spencer I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldLength": 813
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 403,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "minima",
-    "FullName": "Jaylen Reilly DVM",
+    "IconHint": "ad",
+    "ColorBlock": 250,
+    "ExtraInfo": "officia",
+    "StyleHint": "numquam",
+    "FullName": "Ansley Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldLength": 587
       }
     }
   }

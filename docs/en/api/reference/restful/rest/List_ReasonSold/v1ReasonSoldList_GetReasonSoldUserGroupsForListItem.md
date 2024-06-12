@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Fisher-Wunsch",
-    "ToolTip": "Sit quia maxime id excepturi voluptatum praesentium.",
-    "Deleted": true,
-    "Rank": 974,
-    "Type": "dignissimos",
-    "ColorBlock": 735,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2007-02-02T12:57:43.7144965+01:00",
+    "Id": 253,
+    "Name": "Dietrich-Donnelly",
+    "ToolTip": "Quae est in nulla nulla.",
+    "Deleted": false,
+    "Rank": 767,
+    "Type": "recusandae",
+    "ColorBlock": 56,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2021-07-22T04:22:36.1590905+02:00",
     "ChildItems": [
       {
         "Id": 178,
-        "Name": "Reynolds, Pfannerstill and O'Kon",
-        "ToolTip": "Et voluptate.",
-        "Deleted": false,
-        "Rank": 829,
-        "Type": "alias",
-        "ColorBlock": 202,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2000-08-22T12:57:43.7144965+02:00",
+        "Name": "Hayes-Gerlach",
+        "ToolTip": "Ab reiciendis autem.",
+        "Deleted": true,
+        "Rank": 758,
+        "Type": "ipsa",
+        "ColorBlock": 370,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2004-04-18T04:22:36.1590905+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "odio",
+        "ExtraInfo": "laborum",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Norberto Keebler",
+        "FullName": "Elenora Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 696
+            "FieldType": "System.Int32",
+            "FieldLength": 746
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "in",
+    "ExtraInfo": "qui",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Leilani Schumm",
+    "FullName": "Ms. Holden Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 732
       }
     }
   }

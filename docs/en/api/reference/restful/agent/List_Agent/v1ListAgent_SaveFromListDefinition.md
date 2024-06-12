@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "UdListDefinitionId": 505,
+  "Id": 322,
+  "UdListDefinitionId": 347,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 436,
-  "Name": "Hackett, Mohr and Bartell",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 762,
-  "Rank": 97,
+  "Id": 19,
+  "Name": "Kunze-Johnson",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "UdListDefinitionId": 507,
+  "Rank": 67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 689
+      "FieldLength": 699
     }
   }
 }

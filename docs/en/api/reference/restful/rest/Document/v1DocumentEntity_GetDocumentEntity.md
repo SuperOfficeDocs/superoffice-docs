@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Jan 2016 12:57:42 G1T
+Last-Modified: Sat, 18 Aug 2012 04:22:34 G8T
 
 {
-  "DocumentId": 940,
+  "DocumentId": 248,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "fugiat",
-  "Name": "Braun LLC",
-  "OurRef": "quaerat",
-  "YourRef": "dolorem",
-  "CreatedDate": "2015-08-03T12:57:42.3545273+02:00",
-  "UpdatedDate": "2016-01-13T12:57:42.3545273+01:00",
-  "Description": "Centralized composite support",
+  "Attention": "illo",
+  "Header": "odio",
+  "Name": "Sawayn LLC",
+  "OurRef": "qui",
+  "YourRef": "delectus",
+  "CreatedDate": "2013-08-18T04:22:34.9058744+02:00",
+  "UpdatedDate": "2012-08-18T04:22:34.9058744+02:00",
+  "Description": "User-friendly composite functionalities",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-05-31T12:57:42.3701486+02:00",
-  "ExternalRef": "magnam",
+  "Date": "2022-07-16T04:22:34.9058744+02:00",
+  "ExternalRef": "vero",
   "Completed": "Completed",
-  "ActiveLinks": 544,
+  "ActiveLinks": 998,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jewess-Ankunding",
-      "Id": 574,
-      "Description": "Balanced non-volatile help-desk",
-      "ExtraInfo": "recusandae",
-      "LinkId": 477,
+      "EntityName": "Koch-Gutmann",
+      "Id": 672,
+      "Description": "Reactive bottom-line migration",
+      "ExtraInfo": "rerum",
+      "LinkId": 207,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldType": "System.String",
+          "FieldLength": 151
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 725,
-  "Snum": 503,
+  "SuggestedDocumentId": 156,
+  "Snum": 322,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Cleora Kuhlman DDS",
+    "SuperOffice:1": "130484394",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "et",
+    "CustomFields2": "necessitatibus"
   },
-  "PublishEventDate": "2012-02-07T12:57:42.3701486+01:00",
-  "PublishTo": "2004-01-18T12:57:42.3701486+01:00",
-  "PublishFrom": "2007-05-06T12:57:42.3701486+02:00",
+  "PublishEventDate": "2022-03-03T04:22:34.9058744+01:00",
+  "PublishTo": "2010-01-25T04:22:34.9058744+01:00",
+  "PublishFrom": "2001-03-28T04:22:34.9058744+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 520,
+      "VisibleId": 154,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 781
+          "FieldType": "System.Int32",
+          "FieldLength": 766
         }
       }
     },
     {
-      "VisibleId": 520,
+      "VisibleId": 154,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 781
+          "FieldType": "System.Int32",
+          "FieldLength": 766
         }
       }
     }
@@ -211,12 +211,12 @@ Last-Modified: Wed, 13 Jan 2016 12:57:42 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 371
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 790,
-  "Name": "Dibbert Group",
-  "CreatedDate": "2021-04-21T12:57:42.4326345+02:00",
-  "UpdatedDate": "1997-08-04T12:57:42.4326345+02:00",
+  "ForeignAppId": 188,
+  "Name": "Mueller Group",
+  "CreatedDate": "2000-04-14T04:22:34.9854602+02:00",
+  "UpdatedDate": "2010-03-20T04:22:34.9854602+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 627,
-      "Name": "Green Inc and Sons",
-      "CreatedDate": "2010-04-20T12:57:42.4326345+02:00",
-      "UpdatedDate": "2018-08-21T12:57:42.4326345+02:00",
-      "AssociateFullName": "Evans Reinger",
-      "CreatedBy": "quia",
+      "ForeignDeviceId": 634,
+      "Name": "Donnelly LLC",
+      "CreatedDate": "2003-03-05T04:22:34.9854602+01:00",
+      "UpdatedDate": "2015-01-30T04:22:34.9854602+01:00",
+      "AssociateFullName": "Zachariah Christop Keeling I",
+      "CreatedBy": "enim",
       "UpdatedBy": "doloremque",
-      "DeviceIdentifier": "rem",
-      "ForeignAppId": 754,
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 774,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 182
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 532
     }
   }
 }

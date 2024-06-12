@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "sit",
+  "Path": "est",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 880,
+  "HierarchyId": 860,
   "Domain": "Dashboards",
-  "Name": "Murray, Runolfsson and Daugherty",
-  "Fullname": "odit",
-  "ParentId": 624,
+  "Name": "Cormier-Effertz",
+  "Fullname": "beatae",
+  "ParentId": 551,
   "Children": [
     {
-      "HierarchyId": 132,
+      "HierarchyId": 201,
       "Domain": "Dashboards",
-      "Name": "Farrell, Hamill and Lehner",
-      "Fullname": "tenetur",
-      "ParentId": 419,
+      "Name": "Nitzsche-Hettinger",
+      "Fullname": "sapiente",
+      "ParentId": 272,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-03-24T12:57:34.19609+01:00",
-      "RegisteredAssociateId": 752,
-      "Updated": "2022-11-30T12:57:34.19609+01:00",
-      "UpdatedAssociateId": 404,
+      "Registered": "2000-08-21T04:22:27.0173186+02:00",
+      "RegisteredAssociateId": 144,
+      "Updated": "2001-05-24T04:22:27.0173186+02:00",
+      "UpdatedAssociateId": 130,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 473
         }
       }
     }
   ],
-  "Registered": "2022-05-14T12:57:34.19609+02:00",
-  "RegisteredAssociateId": 172,
-  "Updated": "2022-03-13T12:57:34.19609+01:00",
-  "UpdatedAssociateId": 24,
+  "Registered": "2009-09-18T04:22:27.0173186+02:00",
+  "RegisteredAssociateId": 33,
+  "Updated": "1997-02-13T04:22:27.0173186+01:00",
+  "UpdatedAssociateId": 544,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 92
     }
   }
 }

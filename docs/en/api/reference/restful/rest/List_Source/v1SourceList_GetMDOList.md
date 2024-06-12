@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=perferendis
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=sequi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Dach Group",
-    "ToolTip": "Consequatur magnam eligendi ut rem minima vel.",
-    "Deleted": false,
-    "Rank": 382,
-    "Type": "dolores",
+    "Id": 22,
+    "Name": "Schultz, Zemlak and Jacobson",
+    "ToolTip": "Rerum error.",
+    "Deleted": true,
+    "Rank": 501,
+    "Type": "pariatur",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Donnelly-Labadie",
-        "ToolTip": "Et et quas.",
-        "Deleted": false,
-        "Rank": 43,
-        "Type": "pariatur",
+        "Id": 627,
+        "Name": "Kovacek LLC",
+        "ToolTip": "Dolorem id illo.",
+        "Deleted": true,
+        "Rank": 913,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 879,
-        "ExtraInfo": "et",
-        "StyleHint": "facere",
-        "FullName": "Damien Halvorson",
+        "IconHint": "deleniti",
+        "ColorBlock": 984,
+        "ExtraInfo": "sunt",
+        "StyleHint": "qui",
+        "FullName": "Miss Alyce Lydia Hartmann V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 226
+            "FieldType": "System.Int32",
+            "FieldLength": 443
           }
         }
       }
     ],
-    "IconHint": "totam",
-    "ColorBlock": 517,
-    "ExtraInfo": "earum",
-    "StyleHint": "itaque",
-    "FullName": "Prof. Isadore Ratke V",
+    "IconHint": "vel",
+    "ColorBlock": 462,
+    "ExtraInfo": "vel",
+    "StyleHint": "incidunt",
+    "FullName": "Claudine Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldType": "System.Int32",
+        "FieldLength": 18
       }
     }
   }

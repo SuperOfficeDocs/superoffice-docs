@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 83,
-  "Name": "Becker, Schuppe and Hauck",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 572,
-  "Rank": 383
+  "Id": 37,
+  "Name": "Mohr Inc and Sons",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "UdListDefinitionId": 927,
+  "Rank": 860
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Jakubowski Group",
-  "Tooltip": "corporis",
+  "Id": 679,
+  "Name": "Eichmann Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 546,
-  "Rank": 501,
+  "UdListDefinitionId": 709,
+  "Rank": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   }
 }

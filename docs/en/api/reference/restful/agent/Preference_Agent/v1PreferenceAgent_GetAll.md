@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 655,
-    "Section": "ut",
-    "Key": "amet",
-    "Name": "Wisoky, Gutmann and Johnson",
+    "PrefDescId": 155,
+    "Section": "suscipit",
+    "Key": "maxime",
+    "Name": "Cole, Fadel and VonRueden",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Multi-tiered needs-based open architecture",
+    "Description": "Persistent foreground framework",
     "IsBuiltin": true,
-    "TableName": "Pollich, Williamson and McClure",
-    "UserDefinedListId": 531,
-    "Rank": 623,
-    "SubGroup": "et",
-    "MinLevel": 86,
-    "MaxValue": 861,
-    "MinValue": 620,
-    "RequiredLicense": "autem",
+    "TableName": "Upton, Marks and Spinka",
+    "UserDefinedListId": 721,
+    "Rank": 541,
+    "SubGroup": "qui",
+    "MinLevel": 507,
+    "MaxValue": 251,
+    "MinValue": 180,
+    "RequiredLicense": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldLength": 797
       }
     }
   }

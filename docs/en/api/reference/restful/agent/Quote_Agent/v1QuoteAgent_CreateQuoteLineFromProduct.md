@@ -126,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 375,
+  "QuoteAlternativeId": 450,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 601,
-  "ERPQuoteLineKey": "nulla",
-  "QuoteAlternativeId": 434,
-  "ERPProductKey": "et",
+  "QuoteLineId": 128,
+  "ERPQuoteLineKey": "hic",
+  "QuoteAlternativeId": 181,
+  "ERPProductKey": "ea",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 30196.09,
-  "DeliveredQuantity": 5321.532,
-  "Rank": 341,
-  "Name": "VonRueden, Volkman and Lang",
-  "Description": "Sharable 5th generation secured line",
-  "Code": "quia",
-  "QuantityUnit": "nemo",
-  "PriceUnit": "aut",
-  "ItemNumber": "928295",
+  "Quantity": 20524.566,
+  "DeliveredQuantity": 16538.118,
+  "Rank": 154,
+  "Name": "Conn-Berge",
+  "Description": "Object-based optimal contingency",
+  "Code": "quibusdam",
+  "QuantityUnit": "temporibus",
+  "PriceUnit": "at",
+  "ItemNumber": "302811",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "deserunt",
-  "ProductTypeKey": "ducimus",
-  "Supplier": "vel",
-  "SupplierCode": "deserunt",
-  "Thumbnail": "qui",
-  "VATInfo": "unde",
-  "VAT": 23642.896,
-  "UnitCost": 9420.804,
-  "UnitMinimumPrice": 15948.926,
-  "UnitListPrice": 22972.219999999998,
+  "ProductFamilyKey": "necessitatibus",
+  "ProductTypeKey": "consectetur",
+  "Supplier": "qui",
+  "SupplierCode": "aut",
+  "Thumbnail": "aliquam",
+  "VATInfo": "odit",
+  "VAT": 15770.287999999999,
+  "UnitCost": 376.08,
+  "UnitMinimumPrice": 29052.18,
+  "UnitListPrice": 10621.126,
   "ExtraInfo": [
     {
-      "Name": "Harris-Runte",
-      "Value": "aut",
+      "Name": "Zieme, Treutel and Torphy",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 444
         }
       }
     },
     {
-      "Name": "Harris-Runte",
-      "Value": "aut",
+      "Name": "Zieme, Treutel and Torphy",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 444
         }
       }
     }
   ],
-  "RawExtraInfo": "sunt",
-  "IsSubscription": false,
-  "SubscriptionUnit": "reiciendis",
-  "SubscriptionQuantity": 23890.482,
-  "SubscriptionStart": "2006-02-10T12:57:34.7584337+01:00",
-  "ERPDiscountPercent": 23774.523999999998,
-  "ERPDiscountAmount": 24282.232,
-  "DiscountPercent": 5409.284,
-  "DiscountAmount": 1476.114,
+  "RawExtraInfo": "veniam",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quas",
+  "SubscriptionQuantity": 11016.01,
+  "SubscriptionStart": "2008-11-30T04:22:27.4247427+01:00",
+  "ERPDiscountPercent": 18913.69,
+  "ERPDiscountAmount": 607.996,
+  "DiscountPercent": 8455.532,
+  "DiscountAmount": 13388.448,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 22379.894,
-  "EarningAmount": 4240.302,
-  "SubTotal": 5882.518,
-  "TotalPrice": 9505.422,
-  "Rights": "quisquam",
-  "Rule": "in",
-  "ExtraField1": "sequi",
-  "ExtraField2": "laudantium",
-  "ExtraField3": "velit",
-  "ExtraField4": "et",
-  "ExtraField5": "magni",
+  "EarningPercent": 4171.354,
+  "EarningAmount": 1197.1879999999999,
+  "SubTotal": 25921.314,
+  "TotalPrice": 7913.3499999999995,
+  "Rights": "aut",
+  "Rule": "at",
+  "ExtraField1": "id",
+  "ExtraField2": "harum",
+  "ExtraField3": "autem",
+  "ExtraField4": "at",
+  "ExtraField5": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 907
     }
   }
 }

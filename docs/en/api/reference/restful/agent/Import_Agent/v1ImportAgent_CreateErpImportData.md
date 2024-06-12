@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Pollich, Gottlieb and Gulgowski",
-      "Operator": "voluptatum",
+      "Name": "Baumbach, Hickle and Nikolaus",
+      "Operator": "libero",
       "Values": [
-        "blanditiis",
-        "non"
+        "reiciendis",
+        "sapiente"
       ],
       "DisplayValues": [
-        "sed",
-        "minima"
+        "voluptatem",
+        "perspiciatis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 23,
+      "InterParenthesis": 701,
       "InterOperator": "And",
-      "UniqueHash": 38
+      "UniqueHash": 964
     }
   ],
   "Columns": [
-    "et",
-    "reiciendis"
+    "maxime",
+    "ea"
   ],
-  "ConnectionId": 865,
+  "ConnectionId": 429,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "distinctio",
-        "atque"
+        "qui",
+        "ut"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "et",
+      "ExternalKey": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 837
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Schneider-Jenkins",
-      "DisplayName": "Ebert-Rippin",
+      "Name": "Dickens LLC",
+      "DisplayName": "Crooks-Grady",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 50
+          "FieldType": "System.Int32",
+          "FieldLength": 635
         }
       }
     },
     {
-      "Name": "Schneider-Jenkins",
-      "DisplayName": "Ebert-Rippin",
+      "Name": "Dickens LLC",
+      "DisplayName": "Crooks-Grady",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 50
+          "FieldType": "System.Int32",
+          "FieldLength": 635
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 50
     }
   }
 }

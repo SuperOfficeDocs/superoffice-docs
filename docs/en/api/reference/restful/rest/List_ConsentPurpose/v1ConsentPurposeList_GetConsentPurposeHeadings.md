@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 70,
-    "Name": "Bode-Rowe",
-    "Tooltip": "nesciunt",
+    "HeadingId": 284,
+    "Name": "Waelchi, Jenkins and DuBuque",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 251,
-    "UdListDefinitionId": 652,
+    "Rank": 663,
+    "UdListDefinitionId": 770,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 452
       }
     }
   }

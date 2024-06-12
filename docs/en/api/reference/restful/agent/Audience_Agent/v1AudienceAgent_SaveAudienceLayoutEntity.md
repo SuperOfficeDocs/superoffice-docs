@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 137,
-  "InstanceLayout": "aut",
-  "InstanceName": "Nienow-Runolfsdottir",
-  "CreatedDate": "2015-01-06T12:57:33.2428569+01:00",
-  "UpdatedDate": "2001-06-22T12:57:33.2428569+02:00",
+  "AudienceLayoutId": 52,
+  "InstanceLayout": "et",
+  "InstanceName": "Rosenbaum-McDermott",
+  "CreatedDate": "2003-07-31T04:22:25.9965968+02:00",
+  "UpdatedDate": "2010-08-07T04:22:25.9965968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 141,
-  "InstanceLayout": "vel",
-  "InstanceName": "Schaefer Group",
-  "CreatedDate": "1998-01-12T12:57:33.2428569+01:00",
-  "UpdatedDate": "2009-05-01T12:57:33.2428569+02:00",
+  "AudienceLayoutId": 918,
+  "InstanceLayout": "mollitia",
+  "InstanceName": "Sipes, Jacobi and Kerluke",
+  "CreatedDate": "2002-03-26T04:22:25.9965968+01:00",
+  "UpdatedDate": "2004-04-01T04:22:25.9965968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 259
     }
   }
 }

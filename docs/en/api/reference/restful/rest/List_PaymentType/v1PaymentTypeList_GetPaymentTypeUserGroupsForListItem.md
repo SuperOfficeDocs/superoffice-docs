@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Sanford, Schmidt and Weber",
-    "ToolTip": "Et ut aut facilis nisi voluptas.",
-    "Deleted": false,
-    "Rank": 104,
-    "Type": "iure",
-    "ColorBlock": 151,
-    "IconHint": "quidem",
+    "Id": 52,
+    "Name": "Wiza Inc and Sons",
+    "ToolTip": "Similique et exercitationem deserunt.",
+    "Deleted": true,
+    "Rank": 997,
+    "Type": "cum",
+    "ColorBlock": 493,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2000-10-07T12:57:43.5426609+02:00",
+    "LastChanged": "2016-12-22T04:22:36.0028417+01:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Fahey-Sanford",
-        "ToolTip": "Est voluptatem amet non quia est.",
-        "Deleted": true,
-        "Rank": 888,
-        "Type": "quaerat",
-        "ColorBlock": 370,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2004-06-25T12:57:43.5426609+02:00",
+        "Id": 130,
+        "Name": "Bode-Grant",
+        "ToolTip": "Et fuga dolores natus aliquam id.",
+        "Deleted": false,
+        "Rank": 413,
+        "Type": "soluta",
+        "ColorBlock": 30,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2004-04-10T04:22:36.0028417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "id",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Jeff Shields",
+        "FullName": "Dr. Camille Schuyler Spencer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldType": "System.String",
+            "FieldLength": 856
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "earum",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Mrs. Ari Dane Schmitt",
+    "FullName": "Miss Florida Jamison Weissnat DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 96
       }
     }
   }

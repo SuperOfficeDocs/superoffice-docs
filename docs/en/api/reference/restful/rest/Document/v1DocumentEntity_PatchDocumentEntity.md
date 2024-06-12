@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "mollitia",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "mollitia",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 896,
+  "DocumentId": 151,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "mollitia",
-  "Name": "Trantow, Hickle and Huels",
-  "OurRef": "laboriosam",
-  "YourRef": "architecto",
-  "CreatedDate": "2019-01-15T12:57:42.3857703+01:00",
-  "UpdatedDate": "2014-06-18T12:57:42.3857703+02:00",
-  "Description": "Exclusive content-based access",
+  "Attention": "sequi",
+  "Header": "esse",
+  "Name": "Leannon Group",
+  "OurRef": "quam",
+  "YourRef": "perspiciatis",
+  "CreatedDate": "1997-09-01T04:22:34.9214972+02:00",
+  "UpdatedDate": "2001-12-31T04:22:34.9214972+01:00",
+  "Description": "Exclusive asynchronous installation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-11-30T12:57:42.3857703+01:00",
-  "ExternalRef": "nihil",
+  "Date": "2000-10-18T04:22:34.9214972+02:00",
+  "ExternalRef": "voluptatem",
   "Completed": "Completed",
-  "ActiveLinks": 503,
+  "ActiveLinks": 594,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gleichner-Kassulke",
-      "Id": 903,
-      "Description": "Progressive cohesive software",
-      "ExtraInfo": "nulla",
-      "LinkId": 424,
+      "EntityName": "Herzog-Nicolas",
+      "Id": 204,
+      "Description": "Horizontal actuating array",
+      "ExtraInfo": "nihil",
+      "LinkId": 973,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldType": "System.String",
+          "FieldLength": 562
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 407,
-  "Snum": 325,
+  "SuggestedDocumentId": 140,
+  "Snum": 452,
   "UserDefinedFields": {
-    "SuperOffice:1": "Flossie Wiza",
-    "SuperOffice:2": "2099381272"
+    "SuperOffice:1": "Russel Hansen",
+    "SuperOffice:2": "Brenda Koepp"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "et",
+    "CustomFields2": "nam"
   },
-  "PublishEventDate": "2018-07-17T12:57:42.3857703+02:00",
-  "PublishTo": "2005-05-19T12:57:42.3857703+02:00",
-  "PublishFrom": "2006-05-15T12:57:42.3857703+02:00",
+  "PublishEventDate": "2003-11-13T04:22:34.9214972+01:00",
+  "PublishTo": "2012-11-20T04:22:34.9214972+01:00",
+  "PublishFrom": "2022-09-25T04:22:34.9214972+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 743,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 511
         }
       }
     },
     {
-      "VisibleId": 743,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 511
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 930
     }
   },
   "_Links": {

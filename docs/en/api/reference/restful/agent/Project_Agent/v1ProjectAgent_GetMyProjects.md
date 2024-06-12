@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 461,
-    "Name": "Metz-Predovic",
-    "Description": "Sharable coherent toolset",
+    "ProjectId": 496,
+    "Name": "Boehm Inc and Sons",
+    "Description": "Down-sized radical website",
     "URL": "http://www.example.com/",
-    "Type": "aut",
-    "AssociateId": 449,
-    "AssociateFullName": "Nicolas Huels",
-    "TypeId": 288,
-    "Updated": "1997-09-14T12:57:34.664705+02:00",
-    "StatusId": 266,
-    "Status": "unde",
-    "TextId": 958,
-    "PublishTo": "2004-06-26T12:57:34.664705+02:00",
-    "PublishFrom": "2014-03-14T12:57:34.664705+01:00",
-    "IsPublished": false,
+    "Type": "qui",
+    "AssociateId": 412,
+    "AssociateFullName": "Dr. Maryam Pfeffer V",
+    "TypeId": 841,
+    "Updated": "1998-04-24T04:22:27.3466141+02:00",
+    "StatusId": 604,
+    "Status": "aperiam",
+    "TextId": 979,
+    "PublishTo": "2016-07-13T04:22:27.3466141+02:00",
+    "PublishFrom": "2009-09-03T04:22:27.3466141+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1234997",
-    "ActiveErpLinks": 395,
+    "ProjectNumber": "1115806",
+    "ActiveErpLinks": 296,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 435
       }
     }
   }

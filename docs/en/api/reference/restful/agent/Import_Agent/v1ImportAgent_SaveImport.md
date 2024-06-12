@@ -72,39 +72,39 @@ OK
 POST /api/v1/Agents/Import/SaveImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "illo",
-        "id"
+        "rerum",
+        "earum"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "id"
+      "ExternalKey": "illum"
     },
     {
       "Values": [
-        "illo",
-        "id"
+        "rerum",
+        "earum"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "id"
+      "ExternalKey": "illum"
     }
   ],
   "ColumnDefinition": [
-    "qui",
-    "et"
+    "ducimus",
+    "mollitia"
   ],
   "CreateSelection": true,
-  "Culture": "totam",
-  "Context": "et"
+  "Culture": "rerum",
+  "Context": "vitae"
 }
 ```
 
@@ -115,7 +115,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  864,
-  183
+  421,
+  114
 ]
 ```

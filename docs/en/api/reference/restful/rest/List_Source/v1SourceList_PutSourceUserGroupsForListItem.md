@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Moen LLC",
-    "ToolTip": "Omnis et omnis enim possimus voluptatem.",
-    "Deleted": false,
-    "Rank": 790,
-    "Type": "nobis",
-    "ColorBlock": 447,
-    "IconHint": "ut",
+    "Id": 532,
+    "Name": "Feeney-Kohler",
+    "ToolTip": "Sit sit laborum minus perferendis eius.",
+    "Deleted": true,
+    "Rank": 423,
+    "Type": "ea",
+    "ColorBlock": 941,
+    "IconHint": "repellendus",
     "Selected": true,
-    "LastChanged": "2015-09-10T12:57:43.7769823+02:00",
+    "LastChanged": "2019-12-17T04:22:36.2215887+01:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Bruen, Hauck and Corwin",
-        "ToolTip": "Occaecati amet et perferendis.",
-        "Deleted": false,
-        "Rank": 61,
-        "Type": "nihil",
-        "ColorBlock": 970,
-        "IconHint": "fugit",
+        "Id": 909,
+        "Name": "Cronin LLC",
+        "ToolTip": "Nam qui aperiam sapiente.",
+        "Deleted": true,
+        "Rank": 535,
+        "Type": "unde",
+        "ColorBlock": 114,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2001-01-07T12:57:43.7769823+01:00",
+        "LastChanged": "2019-01-13T04:22:36.2215887+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "hic",
-        "Hidden": false,
-        "FullName": "Miss Tomas Hirthe DDS"
+        "ExtraInfo": "qui",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Douglas Jast"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "non",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Lourdes Pacocha"
+    "FullName": "Ms. Nya Viva Reichel IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Davis, Wilderman and Fisher",
-    "ToolTip": "Et rerum corporis repellat iste temporibus.",
+    "Id": 224,
+    "Name": "Runolfsdottir-Nienow",
+    "ToolTip": "Dolorum tempora voluptatem officia quo quasi quia.",
     "Deleted": true,
-    "Rank": 171,
-    "Type": "esse",
-    "ColorBlock": 207,
-    "IconHint": "aliquid",
+    "Rank": 995,
+    "Type": "aut",
+    "ColorBlock": 989,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2020-08-30T12:57:43.7769823+02:00",
+    "LastChanged": "2008-03-16T04:22:36.2215887+01:00",
     "ChildItems": [
       {
-        "Id": 361,
-        "Name": "Hansen LLC",
-        "ToolTip": "Vitae ad qui distinctio labore minus.",
-        "Deleted": true,
-        "Rank": 697,
-        "Type": "accusantium",
-        "ColorBlock": 282,
-        "IconHint": "in",
+        "Id": 852,
+        "Name": "Leannon LLC",
+        "ToolTip": "Nihil similique aut illum possimus eum optio.",
+        "Deleted": false,
+        "Rank": 558,
+        "Type": "corporis",
+        "ColorBlock": 663,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2022-10-27T12:57:43.7769823+02:00",
+        "LastChanged": "2009-04-11T04:22:36.2215887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "debitis",
+        "ExtraInfo": "eos",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Jonatan Rowe",
+        "FullName": "Roselyn Branson Glover MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 357
+            "FieldType": "System.Int32",
+            "FieldLength": 701
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "id",
+    "ExtraInfo": "sit",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Giovani Hudson",
+    "FullName": "Zander Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 249
       }
     }
   }

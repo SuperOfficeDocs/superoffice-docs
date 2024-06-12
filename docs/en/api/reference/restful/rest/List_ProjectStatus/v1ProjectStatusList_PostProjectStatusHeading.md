@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 180,
-  "Name": "Powlowski, Hills and Carroll",
-  "Tooltip": "voluptates",
+  "HeadingId": 344,
+  "Name": "Braun Group",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 255,
-  "UdListDefinitionId": 573
+  "Rank": 277,
+  "UdListDefinitionId": 127
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 462,
-  "Name": "Padberg Inc and Sons",
-  "Tooltip": "odio",
+  "HeadingId": 525,
+  "Name": "Lind-Mohr",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 485,
-  "UdListDefinitionId": 994,
+  "Rank": 267,
+  "UdListDefinitionId": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 58
     }
   }
 }

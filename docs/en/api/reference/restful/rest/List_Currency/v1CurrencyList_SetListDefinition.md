@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 484,
-  "Name": "Boyer LLC",
-  "Tooltip": "placeat",
+  "Id": 195,
+  "Name": "Wisozk-Boyer",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 677,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 299,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,11 +108,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Wunsch-Trantow",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 638,
+  "Id": 584,
+  "Name": "Harber, Hettinger and Wolff",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 31,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

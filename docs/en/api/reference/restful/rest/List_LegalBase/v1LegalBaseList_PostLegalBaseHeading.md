@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 826,
-  "Name": "Koelpin, Haag and Lemke",
-  "Tooltip": "aut",
+  "HeadingId": 23,
+  "Name": "Mraz, Schimmel and Hagenes",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 43,
-  "UdListDefinitionId": 733
+  "Rank": 311,
+  "UdListDefinitionId": 280
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 493,
-  "Name": "Hudson, Pfannerstill and Reinger",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 125,
-  "UdListDefinitionId": 493,
+  "HeadingId": 563,
+  "Name": "Zboncak Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 149,
+  "UdListDefinitionId": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

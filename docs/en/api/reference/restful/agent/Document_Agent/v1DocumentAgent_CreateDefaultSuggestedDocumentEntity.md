@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 19,
-  "Name": "Turner, Parisian and Harber",
-  "Tooltip": "qui",
-  "Rank": 872,
-  "DoctmplId": 439,
-  "Header": "aut",
-  "OurRef": "quia",
-  "Deleted": true,
+  "SuggestedDocumentId": 803,
+  "Name": "Greenholt LLC",
+  "Tooltip": "voluptatibus",
+  "Rank": 945,
+  "DoctmplId": 561,
+  "Header": "dicta",
+  "OurRef": "accusantium",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

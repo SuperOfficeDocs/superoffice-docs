@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=consequuntur
-GET /api/v1/Script?$top=240
-GET /api/v1/Script?$skip=566
+GET /api/v1/Script?$entities=at
+GET /api/v1/Script?$top=875
+GET /api/v1/Script?$skip=691
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=sed
+GET /api/v1/Script?$context=est
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "necessitatibus",
+  "odata.nextLink": "veritatis",
   "value": [
     {
-      "PrimaryKey": 2926,
+      "PrimaryKey": 3619,
       "EntityName": "sale",
-      "saleId": 2926,
-      "contactId": 7112,
-      "name": "Stoltenberg, Ryan and Abbott"
+      "saleId": 3619,
+      "contactId": 3543,
+      "name": "Schamberger Inc and Sons"
     },
     {
-      "PrimaryKey": 1695,
+      "PrimaryKey": 1721,
       "EntityName": "sale",
-      "saleId": 1695,
-      "contactId": 8123,
-      "name": "Koelpin, Kassulke and Lowe"
+      "saleId": 1721,
+      "contactId": 4559,
+      "name": "Padberg Inc and Sons"
     }
   ]
 }

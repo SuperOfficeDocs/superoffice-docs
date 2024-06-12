@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 307,
-    "Value": "sint",
-    "Tooltip": "nisi",
+    "Id": 253,
+    "Value": "et",
+    "Tooltip": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldType": "System.Int32",
+        "FieldLength": 447
       }
     }
   },
   {
-    "Id": 307,
-    "Value": "sint",
-    "Tooltip": "nisi",
+    "Id": 253,
+    "Value": "et",
+    "Tooltip": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldType": "System.Int32",
+        "FieldLength": 447
       }
     }
   }

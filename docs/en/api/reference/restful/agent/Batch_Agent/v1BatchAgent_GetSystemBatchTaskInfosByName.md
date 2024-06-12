@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Watsica LLC"
+  "TaskName": "Heathcote, Pfannerstill and McCullough"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Beahan, Jaskolski and Orn",
-    "AssociateId": 921,
-    "DetailsTable": 447,
-    "DetailsRecord": 843,
+    "Id": 203,
+    "Name": "Wilderman-Mitchell",
+    "AssociateId": 282,
+    "DetailsTable": 848,
+    "DetailsRecord": 157,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatem",
-      "ParameterObject2": "libero"
+      "ParameterObject1": "voluptates",
+      "ParameterObject2": "quia"
     },
-    "LastStarted": "2002-06-27T12:57:33.2743944+02:00",
-    "Created": "2011-01-06T12:57:33.2743944+01:00",
-    "StartCount": 333,
-    "DatabaseSerialNumber": "1866315",
-    "Context": "fugiat",
-    "Result": "nihil",
+    "LastStarted": "2005-03-18T04:22:26.0122232+01:00",
+    "Created": "2015-12-05T04:22:26.0122232+01:00",
+    "StartCount": 922,
+    "DatabaseSerialNumber": "896762",
+    "Context": "necessitatibus",
+    "Result": "distinctio",
     "State": "All",
-    "Description": "Business-focused scalable moratorium",
-    "Response": "est",
-    "Request": "et",
-    "ProgressDescription": "Customer-focused full-range algorithm",
-    "ProgressPercent": 267,
-    "FileName": "Connelly-Mosciski",
+    "Description": "Future-proofed 4th generation database",
+    "Response": "quia",
+    "Request": "provident",
+    "ProgressDescription": "Intuitive transitional open architecture",
+    "ProgressPercent": 784,
+    "FileName": "Klein LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldType": "System.Int32",
+        "FieldLength": 373
       }
     }
   }

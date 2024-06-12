@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    459,
-    195
+    272,
+    899
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Torphy, Leuschke and Kuhn",
-    "AssociateId": 350,
-    "DetailsTable": 756,
-    "DetailsRecord": 765,
-    "IsSystemTask": true,
+    "Id": 625,
+    "Name": "Sawayn Inc and Sons",
+    "AssociateId": 104,
+    "DetailsTable": 352,
+    "DetailsRecord": 47,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "architecto",
-      "ParameterObject2": "voluptatum"
+      "ParameterObject1": "et",
+      "ParameterObject2": "consectetur"
     },
-    "LastStarted": "2023-11-16T12:57:33.2658907+01:00",
-    "Created": "2003-10-16T12:57:33.2658907+02:00",
-    "StartCount": 821,
-    "DatabaseSerialNumber": "297222",
-    "Context": "dolorem",
-    "Result": "alias",
+    "LastStarted": "2002-11-12T04:22:25.9965968+01:00",
+    "Created": "2001-12-01T04:22:25.9965968+01:00",
+    "StartCount": 179,
+    "DatabaseSerialNumber": "709193",
+    "Context": "qui",
+    "Result": "aspernatur",
     "State": "All",
-    "Description": "Compatible client-driven utilisation",
-    "Response": "sunt",
-    "Request": "soluta",
-    "ProgressDescription": "Reactive heuristic policy",
-    "ProgressPercent": 61,
-    "FileName": "Langosh, McLaughlin and Parisian",
+    "Description": "Robust systematic collaboration",
+    "Response": "voluptatum",
+    "Request": "laborum",
+    "ProgressDescription": "Business-focused multimedia access",
+    "ProgressPercent": 319,
+    "FileName": "Yost-Nolan",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 243
       }
     }
   }

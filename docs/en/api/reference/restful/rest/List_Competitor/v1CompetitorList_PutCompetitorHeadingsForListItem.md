@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Koss-Morar",
-    "ToolTip": "Nemo enim non veritatis ut doloremque.",
-    "Deleted": true,
-    "Rank": 300,
-    "Type": "possimus",
-    "ColorBlock": 974,
-    "IconHint": "labore",
+    "Id": 148,
+    "Name": "Howell, Howell and Feil",
+    "ToolTip": "Quo veniam sit.",
+    "Deleted": false,
+    "Rank": 217,
+    "Type": "repudiandae",
+    "ColorBlock": 709,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2005-10-17T12:57:43.3552036+02:00",
+    "LastChanged": "2006-01-14T04:22:35.8465939+01:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Walter-Wyman",
-        "ToolTip": "Exercitationem ipsum ut.",
-        "Deleted": true,
-        "Rank": 368,
-        "Type": "dolore",
-        "ColorBlock": 565,
-        "IconHint": "veritatis",
+        "Id": 656,
+        "Name": "Kautzer-VonRueden",
+        "ToolTip": "Est alias ea quidem natus omnis.",
+        "Deleted": false,
+        "Rank": 90,
+        "Type": "omnis",
+        "ColorBlock": 900,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2014-02-04T12:57:43.3552036+01:00",
+        "LastChanged": "2005-11-19T04:22:35.8465939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "libero",
+        "ExtraInfo": "numquam",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Mrs. Melisa Floyd Robel"
+        "FullName": "Chester Hillard Rempel V"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Ernestine Mayert"
+    "ExtraInfo": "nisi",
+    "StyleHint": "quas",
+    "Hidden": false,
+    "FullName": "Mrs. Scottie McClure"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Volkman, Mante and Willms",
-    "ToolTip": "Error ea expedita est mollitia.",
-    "Deleted": false,
-    "Rank": 960,
-    "Type": "facere",
-    "ColorBlock": 504,
-    "IconHint": "at",
-    "Selected": true,
-    "LastChanged": "2009-10-24T12:57:43.3552036+02:00",
+    "Id": 597,
+    "Name": "Bednar Inc and Sons",
+    "ToolTip": "Rerum iusto iure.",
+    "Deleted": true,
+    "Rank": 947,
+    "Type": "rem",
+    "ColorBlock": 271,
+    "IconHint": "odio",
+    "Selected": false,
+    "LastChanged": "1998-01-27T04:22:35.8465939+01:00",
     "ChildItems": [
       {
-        "Id": 312,
-        "Name": "Klocko Group",
-        "ToolTip": "Omnis aperiam harum inventore sit quo distinctio.",
-        "Deleted": false,
-        "Rank": 293,
-        "Type": "debitis",
-        "ColorBlock": 778,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2002-07-22T12:57:43.3552036+02:00",
+        "Id": 536,
+        "Name": "Stanton-McKenzie",
+        "ToolTip": "Quos repellat et praesentium.",
+        "Deleted": true,
+        "Rank": 617,
+        "Type": "ex",
+        "ColorBlock": 419,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2015-12-21T04:22:35.8465939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "qui",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Asha Richie Smitham V",
+        "FullName": "Abraham Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldLength": 704
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "labore",
+    "ExtraInfo": "velit",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Darion Haag",
+    "FullName": "Mr. Nia Edgardo Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldType": "System.String",
+        "FieldLength": 147
       }
     }
   }

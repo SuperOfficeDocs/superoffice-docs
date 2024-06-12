@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Willms LLC",
-    "Tooltip": "cum",
+    "Id": 141,
+    "Name": "Klein-Kuhic",
+    "Tooltip": "facilis",
     "Deleted": true,
-    "UdListDefinitionId": 811,
-    "Rank": 59,
+    "UdListDefinitionId": 791,
+    "Rank": 533,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 468
       }
     }
   }

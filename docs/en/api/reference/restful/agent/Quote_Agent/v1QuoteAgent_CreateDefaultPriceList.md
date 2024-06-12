@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 777,
-  "ERPPriceListKey": "doloremque",
-  "QuoteConnectionId": 449,
-  "Name": "Mohr LLC",
-  "Description": "Right-sized web-enabled orchestration",
-  "Currency": "aut",
-  "CurrencyName": "Lubowitz, Nader and Vandervort",
-  "ValidFrom": "2024-04-29T12:57:34.7115695+02:00",
-  "ValidTo": "2000-10-03T12:57:34.7115695+02:00",
+  "PriceListId": 307,
+  "ERPPriceListKey": "reprehenderit",
+  "QuoteConnectionId": 891,
+  "Name": "Johns Group",
+  "Description": "Upgradable reciprocal architecture",
+  "Currency": "vel",
+  "CurrencyName": "Blick-Conn",
+  "ValidFrom": "2016-04-11T04:22:27.393494+02:00",
+  "ValidTo": "2019-07-31T04:22:27.393494+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

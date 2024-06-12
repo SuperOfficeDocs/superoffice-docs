@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 139,
-  "Name": "Schoen, Gislason and Pagac",
-  "Tooltip": "beatae",
-  "Deleted": false,
-  "Rank": 501,
-  "UdListDefinitionId": 523
+  "HeadingId": 101,
+  "Name": "Goodwin Inc and Sons",
+  "Tooltip": "fugit",
+  "Deleted": true,
+  "Rank": 297,
+  "UdListDefinitionId": 751
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 463,
-  "Name": "Heller LLC",
-  "Tooltip": "impedit",
+  "HeadingId": 601,
+  "Name": "Keeling-Mante",
+  "Tooltip": "incidunt",
   "Deleted": true,
-  "Rank": 262,
-  "UdListDefinitionId": 965,
+  "Rank": 998,
+  "UdListDefinitionId": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 251
     }
   }
 }

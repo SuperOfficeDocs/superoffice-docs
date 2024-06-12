@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 350,
-  "TopicId": 576,
+  "ChatSessionId": 968,
+  "TopicId": 15,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consequuntur",
-  "CustomerHost": "eveniet",
-  "CustomerName": "Breitenberg, Corwin and Bradtke",
-  "CustomerEmail": "thurman@bahringer.uk",
-  "CustomerPhone": "(341)377-3202 x212",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Hilpert Group",
+  "CustomerAlias": "pariatur",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Balistreri-Heller",
+  "CustomerEmail": "letha@bogan.info",
+  "CustomerPhone": "1-706-810-6765",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "McGlynn, Willms and Crooks",
   "Status": "Closed",
-  "FirstMessage": "maxime",
-  "LastMessage": "voluptas",
-  "WhenRequested": "2017-08-01T12:57:42.1202066+02:00",
-  "WhenStarted": "2014-03-27T12:57:42.1202066+01:00",
-  "WhenEnded": "2018-02-08T12:57:42.1202066+01:00",
-  "WhenIdle": "1997-02-05T12:57:42.1202066+01:00",
-  "WhenFetched": "2001-05-23T12:57:42.1202066+02:00",
-  "SessionKey": "cumque",
-  "InitialQueuePos": 476,
-  "AlertLevel": 856,
-  "Rank": 226,
+  "FirstMessage": "et",
+  "LastMessage": "mollitia",
+  "WhenRequested": "2021-10-02T04:22:34.6715046+02:00",
+  "WhenStarted": "2017-09-25T04:22:34.6715046+02:00",
+  "WhenEnded": "1998-01-04T04:22:34.6715046+01:00",
+  "WhenIdle": "2007-10-11T04:22:34.6715046+02:00",
+  "WhenFetched": "2002-03-06T04:22:34.6715046+01:00",
+  "SessionKey": "sint",
+  "InitialQueuePos": 353,
+  "AlertLevel": 541,
+  "Rank": 230,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 849,
+  "Rating": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 256
     }
   }
 }

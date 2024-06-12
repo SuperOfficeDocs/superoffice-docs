@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 137,
-  "Name": "Cremin LLC",
-  "Tooltip": "modi",
+  "RoleId": 946,
+  "Name": "Thompson-Skiles",
+  "Tooltip": "ipsum",
   "RoleType": "Anonymous",
-  "Deleted": 562,
-  "Rank": 56,
-  "Created": "2004-01-28T12:57:42.6513343+01:00",
-  "UseCategories": 380,
+  "Deleted": 726,
+  "Rank": 307,
+  "Created": "2012-05-09T04:22:35.2053915+02:00",
+  "UseCategories": 1002,
   "CreatedBy": null,
-  "Updated": "2010-12-26T12:57:42.6513343+01:00",
+  "Updated": "2019-12-06T04:22:35.2053915+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 332,
-  "Name": "Mann Group",
-  "Tooltip": "cumque",
+  "RoleId": 7,
+  "Name": "Champlin-Blick",
+  "Tooltip": "eos",
   "RoleType": "Anonymous",
-  "Deleted": 661,
-  "Rank": 922,
-  "Created": "2023-03-28T12:57:42.6669559+02:00",
-  "UseCategories": 353,
+  "Deleted": 609,
+  "Rank": 801,
+  "Created": "2013-12-05T04:22:35.2053915+01:00",
+  "UseCategories": 358,
   "CreatedBy": null,
-  "Updated": "2015-09-20T12:57:42.6669559+02:00",
+  "Updated": "2008-09-08T04:22:35.2053915+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 890
     }
   },
   "_Links": {

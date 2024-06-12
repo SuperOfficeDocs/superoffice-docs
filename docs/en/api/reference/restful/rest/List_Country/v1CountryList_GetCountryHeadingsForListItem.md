@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Klocko, Mohr and Heathcote",
-    "ToolTip": "Nihil eos.",
+    "Id": 608,
+    "Name": "Crooks, Quitzon and Romaguera",
+    "ToolTip": "Consequatur voluptas molestias.",
     "Deleted": false,
-    "Rank": 731,
-    "Type": "molestiae",
-    "ColorBlock": 440,
-    "IconHint": "autem",
+    "Rank": 23,
+    "Type": "consequuntur",
+    "ColorBlock": 643,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "1997-11-30T12:57:43.402068+01:00",
+    "LastChanged": "2000-12-14T04:22:35.8934712+01:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Mann Inc and Sons",
-        "ToolTip": "Quos repellendus molestiae rerum cumque ipsum.",
+        "Id": 994,
+        "Name": "Abshire, Renner and Hermiston",
+        "ToolTip": "Magni tempora aut ea quam iusto aut.",
         "Deleted": false,
-        "Rank": 46,
-        "Type": "recusandae",
-        "ColorBlock": 428,
-        "IconHint": "eaque",
-        "Selected": false,
-        "LastChanged": "2012-11-24T12:57:43.402068+01:00",
+        "Rank": 365,
+        "Type": "autem",
+        "ColorBlock": 193,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2013-01-05T04:22:35.8934712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "et",
+        "ExtraInfo": "atque",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Jennings Kuhlman IV",
+        "FullName": "Paolo Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 752
+            "FieldLength": 932
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "dicta",
+    "ExtraInfo": "ut",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Bethany Fadel",
+    "FullName": "Jalyn Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 701
       }
     }
   }

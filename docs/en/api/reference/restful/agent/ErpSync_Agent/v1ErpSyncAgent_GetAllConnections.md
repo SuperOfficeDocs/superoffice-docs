@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 218,
-    "ErpConnectorId": 384,
-    "DisplayName": "Kautzer Group",
-    "DisplayDescription": "Triple-buffered fresh-thinking instruction set",
+    "ErpConnectionId": 277,
+    "ErpConnectorId": 33,
+    "DisplayName": "Reilly Group",
+    "DisplayDescription": "Object-based clear-thinking website",
     "Active": true,
-    "ConnectionId": "eveniet",
-    "MostRecentTimestamp": "adipisci",
+    "ConnectionId": "voluptatem",
+    "MostRecentTimestamp": "expedita",
     "ConfigFields": {
-      "ConfigFields1": "at",
-      "ConfigFields2": "et"
+      "ConfigFields1": "eius",
+      "ConfigFields2": "quasi"
     },
-    "Deleted": false,
-    "AllAccess": false,
+    "Deleted": true,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      344,
-      351
+      827,
+      138
     ],
     "AssociateAccessIds": [
-      837,
-      159
+      571,
+      194
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 981
       }
     }
   }

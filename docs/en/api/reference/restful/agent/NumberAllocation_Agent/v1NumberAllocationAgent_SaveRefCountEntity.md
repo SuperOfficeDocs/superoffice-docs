@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 443,
+  "RefCountsId": 446,
   "Field": "reiciendis",
-  "RecordId": 942,
+  "RecordId": 822,
   "SuggestedRecords": [
     {
-      "Id": 366,
-      "Name": "Smitham LLC",
-      "ToolTip": "Dolorum aut voluptatem qui quisquam.",
+      "Id": 82,
+      "Name": "Leuschke-Mills",
+      "ToolTip": "Aut vitae.",
       "Deleted": true,
-      "Rank": 858,
-      "Type": "eligendi",
+      "Rank": 947,
+      "Type": "numquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptate",
-      "ColorBlock": 434,
-      "ExtraInfo": "quo",
-      "StyleHint": "error",
-      "FullName": "Dalton O'Conner"
+      "IconHint": "ratione",
+      "ColorBlock": 301,
+      "ExtraInfo": "commodi",
+      "StyleHint": "et",
+      "FullName": "Mr. Syble Aryanna Monahan"
     }
   ],
-  "CurrentValue": 633,
-  "TravelPrefix": 996,
-  "SatPrefix": 243,
+  "CurrentValue": 725,
+  "TravelPrefix": 6,
+  "SatPrefix": 265,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false
+  "AllowBlank": true
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 699,
-  "Field": "sit",
-  "RecordId": 154,
+  "RefCountsId": 968,
+  "Field": "autem",
+  "RecordId": 617,
   "SuggestedRecords": [
     {
-      "Id": 901,
-      "Name": "Champlin-Toy",
-      "ToolTip": "Debitis ut numquam.",
+      "Id": 686,
+      "Name": "Rutherford, Funk and Ondricka",
+      "ToolTip": "Temporibus neque ullam libero a id odit sit.",
       "Deleted": false,
-      "Rank": 336,
-      "Type": "commodi",
+      "Rank": 495,
+      "Type": "expedita",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sunt",
-      "ColorBlock": 639,
-      "ExtraInfo": "tempora",
-      "StyleHint": "tempore",
-      "FullName": "Damian Johns",
+      "IconHint": "quos",
+      "ColorBlock": 910,
+      "ExtraInfo": "earum",
+      "StyleHint": "et",
+      "FullName": "Florida Thompson II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     }
   ],
-  "CurrentValue": 198,
-  "TravelPrefix": 713,
-  "SatPrefix": 566,
-  "Allocate": true,
-  "Unique": false,
-  "ReadOnly": true,
+  "CurrentValue": 946,
+  "TravelPrefix": 382,
+  "SatPrefix": 34,
+  "Allocate": false,
+  "Unique": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 517
     }
   }
 }

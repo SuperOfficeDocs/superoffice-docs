@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 448,
-  "Name": "O'Conner Group",
-  "Tooltip": "sed",
-  "VisibleColumns": 778,
-  "Rank": 785,
-  "AssocId": 572,
+  "DiaryViewId": 220,
+  "Name": "Schamberger, Lang and Keeling",
+  "Tooltip": "impedit",
+  "VisibleColumns": 257,
+  "Rank": 728,
+  "AssocId": 957,
   "AssociateList": [
     {
-      "Id": 804,
-      "Name": "Zulauf, Torphy and Gislason",
-      "ToolTip": "Tempora eveniet.",
-      "Deleted": true,
-      "Rank": 610,
-      "Type": "nam",
-      "ColorBlock": 577,
-      "IconHint": "quis",
+      "Id": 64,
+      "Name": "Borer, Balistreri and Stanton",
+      "ToolTip": "Qui aut suscipit.",
+      "Deleted": false,
+      "Rank": 572,
+      "Type": "tempora",
+      "ColorBlock": 890,
+      "IconHint": "animi",
       "Selected": false,
-      "LastChanged": "2014-08-23T12:57:33.430612+02:00",
+      "LastChanged": "1997-11-18T04:22:26.1528443+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Simeon Cronin"
+      "ExtraInfo": "dolore",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Melyna Strosin"
     }
   ],
-  "TzLocationId": 276
+  "TzLocationId": 336
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 50,
-  "Name": "Reinger Inc and Sons",
-  "Tooltip": "voluptas",
-  "VisibleColumns": 201,
-  "Rank": 509,
-  "AssocId": 189,
+  "DiaryViewId": 133,
+  "Name": "Koss Inc and Sons",
+  "Tooltip": "tempore",
+  "VisibleColumns": 503,
+  "Rank": 802,
+  "AssocId": 312,
   "AssociateList": [
     {
-      "Id": 508,
-      "Name": "Schmeler, Trantow and Bartoletti",
-      "ToolTip": "Ut aut sit nihil quam.",
+      "Id": 882,
+      "Name": "Jacobs, Jones and Jakubowski",
+      "ToolTip": "Aut dignissimos quis est ullam.",
       "Deleted": false,
-      "Rank": 64,
-      "Type": "sequi",
-      "ColorBlock": 82,
-      "IconHint": "qui",
+      "Rank": 183,
+      "Type": "voluptatem",
+      "ColorBlock": 672,
+      "IconHint": "placeat",
       "Selected": true,
-      "LastChanged": "2001-11-01T12:57:33.430612+01:00",
+      "LastChanged": "1998-10-11T04:22:26.1528443+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "ut",
+      "ExtraInfo": "deserunt",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Hollis Stehr",
+      "FullName": "Adela Kunde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldType": "System.String",
+          "FieldLength": 257
         }
       }
     }
   ],
-  "TzLocationId": 1002,
+  "TzLocationId": 686,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 699
     }
   }
 }

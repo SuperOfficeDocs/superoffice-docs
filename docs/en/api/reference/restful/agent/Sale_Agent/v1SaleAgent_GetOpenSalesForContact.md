@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 280
+  "ContactId": 254
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kuphal, Hagenes and Waters",
-    "SaleDate": "2015-10-15T12:57:34.8688339+02:00",
-    "SaleId": 561,
-    "Probability": 774,
-    "Title": "fugiat",
-    "Amount": 12272.743999999999,
-    "Currency": "libero",
-    "ProjectName": "Lesch Inc and Sons",
-    "AssociateFullName": "Mr. Flossie Lillian Roberts V",
-    "Description": "Re-contextualized non-volatile archive",
+    "ContactName": "Ziemann, Wilderman and Harber",
+    "SaleDate": "2016-05-23T04:22:27.5492747+02:00",
+    "SaleId": 812,
+    "Probability": 339,
+    "Title": "ab",
+    "Amount": 10464.426,
+    "Currency": "tempora",
+    "ProjectName": "Hodkiewicz Group",
+    "AssociateFullName": "Ms. Ena Zora Kessler PhD",
+    "Description": "Organic well-modulated benchmark",
     "Status": "Lost",
-    "WeightedAmount": 2808.064,
-    "ProjectId": 439,
-    "EarningPercent": 13316.366,
-    "Earning": 12203.796,
-    "ContactId": 8,
-    "AssociateId": 907,
-    "PersonId": 274,
-    "SaleTypeId": 950,
-    "SaleTypeName": "Hansen-Ritchie",
-    "PersonFullName": "Nadia Muller DDS",
+    "WeightedAmount": 27272.068,
+    "ProjectId": 812,
+    "EarningPercent": 31289.856,
+    "Earning": 13159.666,
+    "ContactId": 922,
+    "AssociateId": 2,
+    "PersonId": 182,
+    "SaleTypeId": 738,
+    "SaleTypeName": "Koch-Koch",
+    "PersonFullName": "Mr. Ryann Dixie Hermiston V",
     "Completed": "Completed",
-    "ActiveErpLinks": 954,
-    "NextDueDate": "2022-10-12T12:57:34.8688339+02:00",
-    "Number": "793099",
+    "ActiveErpLinks": 153,
+    "NextDueDate": "2015-05-24T04:22:27.5492747+02:00",
+    "Number": "1225631",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 47
       }
     }
   }

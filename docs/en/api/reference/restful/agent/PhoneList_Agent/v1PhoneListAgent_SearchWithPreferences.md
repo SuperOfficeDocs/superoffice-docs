@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "molestias",
+  "SearchString": "eum",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(778)832-6607 x38569",
-    "PersonCellPhone": "585.952.0084",
-    "PersonPrivatePhone": "834.269.6623 x16197",
-    "PersonFaxNumber": "1072759",
-    "PersonPagerNumber": "1138342",
-    "PersonEmail": "helena@boscoyundt.co.uk",
-    "Id": 697,
-    "Name": "Wiza Inc and Sons",
-    "Tooltip": "enim",
-    "UniqueId": "est",
+    "PersonDirectPhone": "(966)018-4214",
+    "PersonCellPhone": "1-814-354-0456 x1819",
+    "PersonPrivatePhone": "301.491.1312 x505",
+    "PersonFaxNumber": "1264386",
+    "PersonPagerNumber": "478057",
+    "PersonEmail": "aileen@gislasonjast.co.uk",
+    "Id": 51,
+    "Name": "Sanford Group",
+    "Tooltip": "rerum",
+    "UniqueId": "rem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldLength": 574
       }
     }
   }

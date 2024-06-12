@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Brakus-Schumm",
-    "ToolTip": "Reprehenderit ratione.",
-    "Deleted": false,
-    "Rank": 412,
-    "Type": "officia",
-    "ColorBlock": 477,
-    "IconHint": "nulla",
+    "Id": 348,
+    "Name": "Grady-Anderson",
+    "ToolTip": "Veniam expedita sequi et.",
+    "Deleted": true,
+    "Rank": 652,
+    "Type": "ratione",
+    "ColorBlock": 908,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2021-01-19T12:57:43.730118+01:00",
+    "LastChanged": "1997-12-28T04:22:36.1747132+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Becker, Farrell and Jerde",
-        "ToolTip": "Fugiat laborum cupiditate harum eaque enim.",
-        "Deleted": false,
-        "Rank": 390,
-        "Type": "id",
-        "ColorBlock": 933,
-        "IconHint": "dicta",
+        "Id": 2,
+        "Name": "Schimmel Group",
+        "ToolTip": "Assumenda et non voluptates voluptas distinctio.",
+        "Deleted": true,
+        "Rank": 222,
+        "Type": "accusamus",
+        "ColorBlock": 254,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2016-12-01T12:57:43.730118+01:00",
+        "LastChanged": "2008-08-13T04:22:36.1747132+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Gage Bednar",
+        "ExtraInfo": "vel",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Alessandra Roberts Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 227
+            "FieldType": "System.Int32",
+            "FieldLength": 504
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "in",
+    "ExtraInfo": "facere",
+    "StyleHint": "eos",
     "Hidden": true,
-    "FullName": "Damion Bosco",
+    "FullName": "Linnie Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 89
       }
     }
   }

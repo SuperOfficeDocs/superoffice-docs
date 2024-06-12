@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 379,
-  "Name": "Champlin, Jewess and Doyle",
-  "Tooltip": "laborum",
-  "SaveInDb": 252,
-  "Filename": "quam",
-  "DefaultOref": "nam",
+  "DocumentTemplateId": 292,
+  "Name": "Mraz, Kuhic and Berge",
+  "Tooltip": "dolores",
+  "SaveInDb": 374,
+  "Filename": "modi",
+  "DefaultOref": "commodi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 152,
-  "IntentId": 137,
+  "AutoeventId": 159,
+  "IntentId": 940,
   "IsDefaultPublished": false,
-  "Rank": 946,
-  "LoadTemplateFromPlugin": 722,
-  "MimeType": "ipsam",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 425,
+  "Rank": 978,
+  "LoadTemplateFromPlugin": 26,
+  "MimeType": "quia",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 629,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lillian@goldner.name",
+  "EmailSubject": "felix@kosscummings.com",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ova.stracke@little.biz",
+  "SenderEmailAddress": "earl_kessler@hodkiewicz.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 837,
-  "Name": "Breitenberg Inc and Sons",
-  "Tooltip": "possimus",
-  "SaveInDb": 767,
-  "Filename": "optio",
-  "DefaultOref": "ipsam",
+  "DocumentTemplateId": 959,
+  "Name": "Jast-Schiller",
+  "Tooltip": "rerum",
+  "SaveInDb": 875,
+  "Filename": "molestiae",
+  "DefaultOref": "aspernatur",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 598,
-  "IntentId": 896,
+  "AutoeventId": 678,
+  "IntentId": 471,
   "IsDefaultPublished": false,
-  "Rank": 842,
-  "LoadTemplateFromPlugin": 452,
-  "MimeType": "delectus",
+  "Rank": 37,
+  "LoadTemplateFromPlugin": 138,
+  "MimeType": "omnis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 273,
+  "DocumentTypeKey": 71,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alanna_langworth@blanda.ca",
-  "IncludeSignature": true,
+  "EmailSubject": "margret@barton.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "anna.weissnat@schamberger.biz",
+  "SenderEmailAddress": "zella@fisher.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 149
     }
   }
 }

@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 750,
-  "Name": "Daniel-Witting",
-  "Description": "Future-proofed content-based Graphic Interface",
-  "DefaultHeight": 512,
-  "DefaultWidth": 73,
+  "DashboardTileDefinitionId": 103,
+  "Name": "Beatty-Parisian",
+  "Description": "Centralized content-based encoding",
+  "DefaultHeight": 467,
+  "DefaultWidth": 836,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Orn Inc and Sons",
-  "SelectionId": 771,
+  "EntityName": "Collins-Stiedemann",
+  "SelectionId": 614,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "vel",
   "Measure": "Average",
-  "MeasureField": "impedit",
-  "SortBy": "ut",
-  "LayoutConfig": "corporis",
-  "SecondarySelectionId": 908,
-  "MeasureByField": "esse",
+  "MeasureField": "ut",
+  "SortBy": "ea",
+  "LayoutConfig": "consequatur",
+  "SecondarySelectionId": 496,
+  "MeasureByField": "tempora",
   "Usage": "Dashboard",
-  "ProviderName": "Quigley, Stroman and Kuvalis"
+  "ProviderName": "Reinger-Kovacek"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 123,
-  "Name": "Schroeder Inc and Sons",
-  "Description": "Open-architected logistical hardware",
-  "DefaultHeight": 328,
-  "DefaultWidth": 486,
+  "DashboardTileDefinitionId": 586,
+  "Name": "Auer-Roberts",
+  "Description": "Cross-platform global attitude",
+  "DefaultHeight": 7,
+  "DefaultWidth": 623,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Graham LLC",
-  "SelectionId": 362,
+  "EntityName": "Schultz, Dickinson and Nikolaus",
+  "SelectionId": 531,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "voluptatem",
   "Measure": "Average",
-  "MeasureField": "eligendi",
-  "SortBy": "rerum",
-  "LayoutConfig": "reiciendis",
-  "SecondarySelectionId": 49,
-  "MeasureByField": "beatae",
+  "MeasureField": "iure",
+  "SortBy": "esse",
+  "LayoutConfig": "eum",
+  "SecondarySelectionId": 500,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Torphy Inc and Sons",
+  "ProviderName": "Hagenes, Denesik and Hintz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 976
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

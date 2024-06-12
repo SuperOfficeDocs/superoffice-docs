@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Reichel-Schiller",
-  "AssociateId": 491,
-  "DetailsTable": 887,
-  "DetailsRecord": 227,
+  "Id": 318,
+  "Name": "Howell, Abshire and Nolan",
+  "AssociateId": 394,
+  "DetailsTable": 613,
+  "DetailsRecord": 233,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "corrupti",
-    "ParameterObject2": "quasi"
+    "ParameterObject1": "itaque",
+    "ParameterObject2": "commodi"
   },
-  "LastStarted": "2010-12-12T12:57:34.0711192+01:00",
-  "Created": "2013-01-06T12:57:34.0711192+01:00",
-  "StartCount": 146,
-  "DatabaseSerialNumber": "1627681",
-  "Context": "velit",
-  "Result": "unde",
+  "LastStarted": "1998-06-22T04:22:26.8911471+02:00",
+  "Created": "2015-02-24T04:22:26.8911471+01:00",
+  "StartCount": 72,
+  "DatabaseSerialNumber": "1161329",
+  "Context": "amet",
+  "Result": "et",
   "State": "All",
-  "Description": "Streamlined fresh-thinking forecast",
-  "Response": "eius",
-  "Request": "adipisci",
-  "ProgressDescription": "Enterprise-wide scalable utilisation",
-  "ProgressPercent": 642,
-  "FileName": "Roberts, Toy and Kirlin",
+  "Description": "Robust object-oriented hierarchy",
+  "Response": "suscipit",
+  "Request": "ut",
+  "ProgressDescription": "Organic secondary process improvement",
+  "ProgressPercent": 163,
+  "FileName": "Smitham, Ondricka and Wilderman",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldType": "System.Int32",
+      "FieldLength": 725
     }
   }
 }

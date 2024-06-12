@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "nostrum",
-    "Type": "inventore",
-    "Description": "Profound secondary conglomeration",
+    "DisplayType": "aut",
+    "Type": "est",
+    "Description": "Public-key needs-based benchmark",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 598
       }
     }
   }

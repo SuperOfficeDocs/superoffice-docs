@@ -88,7 +88,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointmentInstance/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointmentInstance/duration|timeSpan|Duration: The duration of the chat session|  |
-|appointmentInstance/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|appointmentInstance/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointmentInstance/visibleFor|listAny|Visible for|  |
 |appointmentInstance/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentInstance/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -322,7 +322,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/isProjectMember|bool|Is project member: This person is a project member| x |
 |appointmentInstance/person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |appointmentInstance/person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|appointmentInstance/person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|appointmentInstance/person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |appointmentInstance/person/createdByForm|listAny|Created by form: Created by form| x |
 |appointmentInstance/person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |appointmentInstance/person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -653,7 +653,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 | ---- | ----- | ------- | ------ |
 |appointmentInstance/sale/description|string|Description: The long description field on Sale|  |
 |appointmentInstance/sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|appointmentInstance/sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|appointmentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointmentInstance/sale/visibleFor|listAny|Visible for|  |
 |appointmentInstance/sale/sale/textId|int|Text ID| x |
 |appointmentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -743,7 +743,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=text,appointmentInstance/recurring,appointmentInstance/contact/LastSale,appointmentInstance/project/activeErpLinks,appointmentInstance/sale/saleUdef/SuperOffice:4
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/stop,appointmentInstance/person/mrMrs,appointmentInstance/person/personExtra/y_rental/id,appointmentInstance/project/number,appointmentInstance/project/projectAssociate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

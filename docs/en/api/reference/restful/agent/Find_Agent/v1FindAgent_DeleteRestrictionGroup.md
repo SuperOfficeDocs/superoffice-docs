@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "facilis",
-  "ProviderName": "Doyle Inc and Sons",
-  "StorageKey": "provident",
-  "Rank": 929,
-  "Context": "recusandae"
+  "StorageType": "corrupti",
+  "ProviderName": "Flatley-Kub",
+  "StorageKey": "maiores",
+  "Rank": 788,
+  "Context": "nihil"
 }
 ```
 

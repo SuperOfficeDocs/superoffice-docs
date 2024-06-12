@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 614,
-  "Name": "Glover-Kohler",
-  "Tooltip": "omnis",
+  "Id": 705,
+  "Name": "Schmeler-Rice",
+  "Tooltip": "blanditiis",
   "Deleted": true,
-  "Rank": 204,
+  "Rank": 330,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "UseGroupsAndHeadings": false,
+  "ListType": "delectus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Hamill Group",
-  "Tooltip": "minima",
+  "Id": 653,
+  "Name": "Tillman-Greenfelder",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 913,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 600,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 514
     }
   }
 }

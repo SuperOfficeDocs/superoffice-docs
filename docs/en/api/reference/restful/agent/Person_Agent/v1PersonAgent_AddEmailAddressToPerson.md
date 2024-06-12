@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 314,
-  "EmailAddress": "quinn@windler.name",
+  "PersonId": 684,
+  "EmailAddress": "emmanuel.bartoletti@douglas.uk",
   "SetAsPrimaryEmail": false
 }
 ```

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kuhlman Inc and Sons",
-  "ListItemId": 46,
+  "UdListDefinitionName": "Paucek-O'Conner",
+  "ListItemId": 478,
   "UserGroups": [
     {
-      "Id": 820,
-      "Name": "Bosco Inc and Sons",
-      "ToolTip": "Laboriosam fuga rem quo nemo harum voluptates.",
-      "Deleted": true,
-      "Rank": 298,
-      "Type": "quod",
-      "ColorBlock": 277,
-      "IconHint": "occaecati",
+      "Id": 128,
+      "Name": "Batz LLC",
+      "ToolTip": "Aut voluptates qui suscipit quia.",
+      "Deleted": false,
+      "Rank": 817,
+      "Type": "reiciendis",
+      "ColorBlock": 539,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2008-12-02T12:57:34.1492269+01:00",
+      "LastChanged": "2009-12-01T04:22:26.969259+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "beatae",
-      "StyleHint": "fugiat",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "aut",
       "Hidden": true,
-      "FullName": "Vernon Roberts"
+      "FullName": "Ms. Destany Cassin V"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Daugherty-Wyman",
-    "ToolTip": "Qui quasi quo similique.",
-    "Deleted": false,
-    "Rank": 35,
-    "Type": "sunt",
-    "ColorBlock": 886,
-    "IconHint": "deserunt",
+    "Id": 759,
+    "Name": "Cole Inc and Sons",
+    "ToolTip": "Iure a dicta odio ut vitae aspernatur.",
+    "Deleted": true,
+    "Rank": 333,
+    "Type": "veniam",
+    "ColorBlock": 993,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2020-07-17T12:57:34.1492269+02:00",
+    "LastChanged": "1998-05-12T04:22:26.969259+02:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Stroman LLC",
-        "ToolTip": "Et nostrum quo.",
+        "Id": 907,
+        "Name": "Glover LLC",
+        "ToolTip": "Cupiditate non sed impedit sed velit.",
         "Deleted": false,
-        "Rank": 325,
-        "Type": "id",
-        "ColorBlock": 887,
-        "IconHint": "ducimus",
+        "Rank": 511,
+        "Type": "dolorem",
+        "ColorBlock": 103,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2003-02-11T12:57:34.1492269+01:00",
+        "LastChanged": "2011-12-20T04:22:26.969259+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "tempore",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Ms. Delbert Pfeffer",
+        "FullName": "Ms. Jaron Lowe I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 429
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "et",
+    "ExtraInfo": "animi",
+    "StyleHint": "perspiciatis",
     "Hidden": true,
-    "FullName": "Ole Macejkovic",
+    "FullName": "Prof. General Gianni Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 426
       }
     }
   }

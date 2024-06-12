@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 80,
-      "DisplayName": "Schinner Group",
-      "OngoingChats": 477,
+      "UserId": 33,
+      "DisplayName": "Volkman-Franecki",
+      "OngoingChats": 174,
       "Present": false,
       "ChatTopics": [
-        425,
-        496
+        222,
+        345
       ]
     },
     {
-      "UserId": 80,
-      "DisplayName": "Schinner Group",
-      "OngoingChats": 477,
+      "UserId": 33,
+      "DisplayName": "Volkman-Franecki",
+      "OngoingChats": 174,
       "Present": false,
       "ChatTopics": [
-        425,
-        496
+        222,
+        345
       ]
     }
   ]

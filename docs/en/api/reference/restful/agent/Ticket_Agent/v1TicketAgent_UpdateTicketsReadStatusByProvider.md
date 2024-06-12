@@ -74,18 +74,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "reiciendis",
+  "Provider": "aut",
   "Restrictions": [
     {
-      "Name": "Kohler-Stamm",
-      "Operator": "quia",
+      "Name": "Dickinson, Williamson and Crooks",
+      "Operator": "tenetur",
       "Values": [
-        "ab",
-        "qui"
+        "natus",
+        "asperiores"
       ],
       "DisplayValues": [
-        "perspiciatis",
-        "sit"
+        "voluptatem",
+        "ea"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 483,
+      "InterParenthesis": 420,
       "InterOperator": "And",
-      "UniqueHash": 977
+      "UniqueHash": 785
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  967,
-  267
+  256,
+  487
 ]
 ```

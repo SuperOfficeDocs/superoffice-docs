@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=486
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=887
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 274,
-  "InstanceLayout": "quis",
-  "InstanceName": "Spinka, Hermann and Cormier",
-  "CreatedDate": "2014-11-01T12:57:33.2584784+01:00",
-  "UpdatedDate": "1999-03-16T12:57:33.2584784+01:00",
+  "AudienceLayoutId": 993,
+  "InstanceLayout": "voluptas",
+  "InstanceName": "Ebert Inc and Sons",
+  "CreatedDate": "1998-10-22T04:22:25.9965968+02:00",
+  "UpdatedDate": "2004-01-22T04:22:25.9965968+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 97
     }
   }
 }

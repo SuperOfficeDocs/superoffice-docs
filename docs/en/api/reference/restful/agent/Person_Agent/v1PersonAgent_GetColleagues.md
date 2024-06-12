@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "rem",
-    "PersonId": 627,
-    "Mrmrs": "perferendis",
-    "Firstname": "Santiago",
-    "Lastname": "Hettinger",
-    "MiddleName": "Schmeler Inc and Sons",
-    "Title": "iusto",
-    "Description": "Versatile content-based application",
-    "Email": "norbert_heller@kohler.biz",
-    "FullName": "Mrs. Rashawn Kozey",
-    "DirectPhone": "1-944-641-8537",
-    "FormalName": "Cummings Inc and Sons",
-    "CountryId": 507,
-    "ContactId": 185,
-    "ContactName": "Reichel Group",
-    "Retired": 78,
-    "Rank": 453,
-    "ActiveInterests": 847,
+    "Position": "dolor",
+    "PersonId": 1000,
+    "Mrmrs": "voluptatem",
+    "Firstname": "Caesar",
+    "Lastname": "Yundt",
+    "MiddleName": "Champlin-Franecki",
+    "Title": "veniam",
+    "Description": "Ergonomic background software",
+    "Email": "curt@kirlinbruen.us",
+    "FullName": "Jacinthe Hermiston",
+    "DirectPhone": "690-656-5372 x4650",
+    "FormalName": "Sawayn-Jakubowski",
+    "CountryId": 743,
+    "ContactId": 985,
+    "ContactName": "Little-Bergstrom",
+    "Retired": 25,
+    "Rank": 163,
+    "ActiveInterests": 677,
     "ContactDepartment": "",
-    "ContactCountryId": 210,
-    "ContactOrgNr": "905904",
-    "FaxPhone": "995-709-8481 x9621",
-    "MobilePhone": "(074)564-2472",
-    "ContactPhone": "(010)327-5365 x84112",
-    "AssociateName": "Wolf-Johns",
-    "AssociateId": 682,
-    "UsePersonAddress": false,
-    "ContactFax": "facilis",
-    "Kanafname": "qui",
-    "Kanalname": "omnis",
-    "Post1": "temporibus",
-    "Post2": "eaque",
-    "Post3": "ipsam",
-    "EmailName": "michale@mills.name",
-    "ContactFullName": "Helga Medhurst",
-    "ActiveErpLinks": 856,
-    "TicketPriorityId": 254,
-    "SupportLanguageId": 537,
-    "SupportAssociateId": 899,
+    "ContactCountryId": 15,
+    "ContactOrgNr": "561751",
+    "FaxPhone": "211.356.5038",
+    "MobilePhone": "1-134-818-4786 x81541",
+    "ContactPhone": "289-654-2142 x00581",
+    "AssociateName": "Hane Group",
+    "AssociateId": 920,
+    "UsePersonAddress": true,
+    "ContactFax": "tempora",
+    "Kanafname": "quod",
+    "Kanalname": "assumenda",
+    "Post1": "quis",
+    "Post2": "ratione",
+    "Post3": "alias",
+    "EmailName": "jaime_klein@prosacco.info",
+    "ContactFullName": "Mrs. Lurline Mariela Howell",
+    "ActiveErpLinks": 456,
+    "TicketPriorityId": 441,
+    "SupportLanguageId": 238,
+    "SupportAssociateId": 77,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldLength": 207
       }
     }
   }

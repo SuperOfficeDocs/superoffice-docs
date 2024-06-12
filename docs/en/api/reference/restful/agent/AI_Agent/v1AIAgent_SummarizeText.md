@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "voluptatem",
-  "PercentSmaller": 504,
-  "IsoLangCode": "aut"
+  "Text": "animi",
+  "PercentSmaller": 126,
+  "IsoLangCode": "illum"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"magnam"
+"quae"
 ```

@@ -81,21 +81,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 766,
+  "SelectionId": 496,
   "Criteria": [
     {
-      "Name": "Nader-Streich",
-      "Description": "Synergized modular contingency",
-      "Rank": 487,
+      "Name": "Baumbach, Cruickshank and Wolff",
+      "Description": "Horizontal solution-oriented focus group",
+      "Rank": 116,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nader-Streich",
-      "Description": "Synergized modular contingency",
-      "Rank": 487,
+      "Name": "Baumbach, Cruickshank and Wolff",
+      "Description": "Horizontal solution-oriented focus group",
+      "Rank": 116,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski-Haley",
-    "Description": "Horizontal 4th generation core",
-    "Rank": 264,
+    "Name": "West, Wintheiser and Olson",
+    "Description": "Decentralized cohesive secured line",
+    "Rank": 78,
     "Restrictions": [
       {
-        "Name": "Runte-Ferry",
-        "Operator": "neque",
+        "Name": "Witting-Murazik",
+        "Operator": "exercitationem",
         "Values": [
-          "sit",
-          "optio"
+          "labore",
+          "ipsa"
         ],
         "DisplayValues": [
-          "amet",
-          "hic"
+          "nam",
+          "iusto"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 49,
+        "InterParenthesis": 798,
         "InterOperator": "And",
-        "UniqueHash": 38
+        "UniqueHash": 607
       }
     ]
   },
   {
-    "Name": "Gusikowski-Haley",
-    "Description": "Horizontal 4th generation core",
-    "Rank": 264,
+    "Name": "West, Wintheiser and Olson",
+    "Description": "Decentralized cohesive secured line",
+    "Rank": 78,
     "Restrictions": [
       {
-        "Name": "Runte-Ferry",
-        "Operator": "neque",
+        "Name": "Witting-Murazik",
+        "Operator": "exercitationem",
         "Values": [
-          "sit",
-          "optio"
+          "labore",
+          "ipsa"
         ],
         "DisplayValues": [
-          "amet",
-          "hic"
+          "nam",
+          "iusto"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 49,
+        "InterParenthesis": 798,
         "InterOperator": "And",
-        "UniqueHash": 38
+        "UniqueHash": 607
       }
     ]
   }

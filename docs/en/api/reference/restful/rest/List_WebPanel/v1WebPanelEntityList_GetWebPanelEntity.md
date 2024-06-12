@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 669,
-  "Name": "Feest-Pacocha",
-  "Tooltip": "culpa",
-  "Deleted": true,
-  "Rank": 926,
+  "WebPanelId": 264,
+  "Name": "Mitchell, Kris and Roob",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 334,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Walter-Hodkiewicz",
+  "ShowInStatusBar": true,
+  "WindowName": "Mitchell-Jast",
   "Url": "http://www.example.com/",
-  "ProgId": "facilis",
-  "Icon": 694,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "culpa",
+  "Icon": 722,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 122
     }
   }
 }

@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 567,
-  "ERPQuoteLineKey": "hic",
-  "QuoteAlternativeId": 979,
-  "ERPProductKey": "iusto",
+  "QuoteLineId": 977,
+  "ERPQuoteLineKey": "est",
+  "QuoteAlternativeId": 707,
+  "ERPProductKey": "autem",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 15785.957999999999,
-  "DeliveredQuantity": 5873.116,
-  "Rank": 185,
-  "Name": "Spencer Group",
-  "Description": "Focused explicit info-mediaries",
-  "Code": "in",
-  "QuantityUnit": "sit",
-  "PriceUnit": "sed",
-  "ItemNumber": "1206671",
+  "Quantity": 13319.5,
+  "DeliveredQuantity": 23693.04,
+  "Rank": 15,
+  "Name": "Hilll LLC",
+  "Description": "Secured global task-force",
+  "Code": "dolorum",
+  "QuantityUnit": "illo",
+  "PriceUnit": "qui",
+  "ItemNumber": "1199584",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "nihil",
-  "Supplier": "ut",
-  "SupplierCode": "occaecati",
-  "Thumbnail": "quia",
-  "VATInfo": "accusamus",
-  "VAT": 13764.528,
-  "UnitCost": 22640.016,
-  "UnitMinimumPrice": 12200.662,
-  "UnitListPrice": 24943.505999999998,
+  "ProductFamilyKey": "tempora",
+  "ProductTypeKey": "maiores",
+  "Supplier": "quia",
+  "SupplierCode": "quia",
+  "Thumbnail": "sequi",
+  "VATInfo": "incidunt",
+  "VAT": 7618.754,
+  "UnitCost": 2955.362,
+  "UnitMinimumPrice": 29114.86,
+  "UnitListPrice": 17785.45,
   "ExtraInfo": [
     {
-      "Name": "Harvey Inc and Sons",
-      "Value": "et",
+      "Name": "Jewess, Runolfsson and Kohler",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     },
     {
-      "Name": "Harvey Inc and Sons",
-      "Value": "et",
+      "Name": "Jewess, Runolfsson and Kohler",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
+  "RawExtraInfo": "eum",
   "IsSubscription": false,
-  "SubscriptionUnit": "ipsum",
-  "SubscriptionQuantity": 1918.008,
-  "SubscriptionStart": "2019-01-19T12:57:34.7584337+01:00",
-  "ERPDiscountPercent": 14670.253999999999,
-  "ERPDiscountAmount": 21402.086,
-  "DiscountPercent": 20769.018,
-  "DiscountAmount": 16306.202,
+  "SubscriptionUnit": "amet",
+  "SubscriptionQuantity": 30590.974,
+  "SubscriptionStart": "2011-02-08T04:22:27.4403662+01:00",
+  "ERPDiscountPercent": 10552.178,
+  "ERPDiscountAmount": 1281.806,
+  "DiscountPercent": 3651.1099999999997,
+  "DiscountAmount": 27378.624,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17913.944,
-  "EarningAmount": 1344.4859999999999,
-  "SubTotal": 4559.97,
-  "TotalPrice": 11125.699999999999,
-  "Rights": "culpa",
-  "Rule": "iste",
-  "ExtraField1": "modi",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "voluptatibus",
-  "ExtraField4": "nisi",
-  "ExtraField5": "odit",
+  "EarningPercent": 5932.6619999999994,
+  "EarningAmount": 1410.3,
+  "SubTotal": 8305.1,
+  "TotalPrice": 16315.604,
+  "Rights": "nihil",
+  "Rule": "dolor",
+  "ExtraField1": "qui",
+  "ExtraField2": "reiciendis",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "dolorum",
+  "ExtraField5": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 218
     }
   }
 }

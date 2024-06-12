@@ -119,7 +119,7 @@ Link data provider for documents, handles both addressing by source or by destin
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 
 ## Supported Columns (cont.)
@@ -662,7 +662,7 @@ Link data provider for documents, handles both addressing by source or by destin
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -717,7 +717,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=person/personMobilePhone/description,contact/contactAssociate/userName,project/endDate,project/projectAssociate/contactCategory,associate/firstName
+GET /api/v1/archive/LinksDocuments?$select=person/correspondingAssociate/middleName,person/correspondingAssociate/simultaneousEjUser,person/correspondingAssociate/userName,contact/number,contact/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

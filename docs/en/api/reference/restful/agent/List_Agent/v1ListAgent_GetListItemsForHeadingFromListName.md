@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Johnston, Towne and Wisozk",
-  "HeadingId": 926
+  "UdListDefinitionName": "Barton Group",
+  "HeadingId": 948
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Cummings Group",
-    "ToolTip": "Incidunt ut et in aut eligendi.",
-    "Deleted": false,
-    "Rank": 378,
-    "Type": "ut",
-    "ColorBlock": 659,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2009-09-13T12:57:34.1648498+02:00",
+    "Id": 360,
+    "Name": "Becker-Lueilwitz",
+    "ToolTip": "Quis debitis dolorem non rem.",
+    "Deleted": true,
+    "Rank": 297,
+    "Type": "quidem",
+    "ColorBlock": 734,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2012-03-02T04:22:26.9848795+01:00",
     "ChildItems": [
       {
-        "Id": 176,
-        "Name": "Kunze-Rempel",
-        "ToolTip": "Et possimus.",
+        "Id": 784,
+        "Name": "Will-Abbott",
+        "ToolTip": "Ullam vel.",
         "Deleted": true,
-        "Rank": 564,
-        "Type": "velit",
-        "ColorBlock": 25,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2001-08-29T12:57:34.1648498+02:00",
+        "Rank": 85,
+        "Type": "quam",
+        "ColorBlock": 243,
+        "IconHint": "saepe",
+        "Selected": false,
+        "LastChanged": "2023-07-25T04:22:26.9848795+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Anabel Bernhard",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Rhoda Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 980
+            "FieldLength": 528
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Prof. Joe Lang",
+    "ExtraInfo": "veniam",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Miss Orrin Pfannerstill IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

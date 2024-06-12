@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=09/01/1997 12:57:46
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=08/01/2005 12:57:46
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=93
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=10/27/2018 04:22:38
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/21/2000 04:22:38
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=897
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 96,
-  "ERPPriceListKey": "enim",
-  "QuoteConnectionId": 68,
-  "Name": "Sipes LLC",
-  "Description": "Synchronised local monitoring",
-  "Currency": "sapiente",
-  "CurrencyName": "Hoeger LLC",
-  "ValidFrom": "2020-06-14T12:57:43.5582822+02:00",
-  "ValidTo": "2009-05-23T12:57:43.5582822+02:00",
-  "IsActive": true,
+  "PriceListId": 592,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 399,
+  "Name": "Hermiston LLC",
+  "Description": "Extended intangible time-frame",
+  "Currency": "nihil",
+  "CurrencyName": "Rath-D'Amore",
+  "ValidFrom": "2014-01-18T04:22:36.0340897+01:00",
+  "ValidTo": "2000-10-19T04:22:36.0340897+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "reiciendis"
+  "SearchString": "neque"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-889-295-3265 x404",
-    "PersonCellPhone": "643.823.5113 x5700",
-    "PersonPrivatePhone": "834-146-5532",
-    "PersonFaxNumber": "1200550",
-    "PersonPagerNumber": "1121143",
-    "PersonEmail": "cesar@lehner.name",
-    "Id": 341,
-    "Name": "Runte-Corkery",
-    "Tooltip": "fuga",
-    "UniqueId": "porro",
+    "PersonDirectPhone": "1-385-552-6698 x362",
+    "PersonCellPhone": "377.710.0967",
+    "PersonPrivatePhone": "1-393-826-5868 x4348",
+    "PersonFaxNumber": "1072424",
+    "PersonPagerNumber": "1335676",
+    "PersonEmail": "cicero@lindgren.biz",
+    "Id": 923,
+    "Name": "Kris Group",
+    "Tooltip": "aspernatur",
+    "UniqueId": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 137
       }
     }
   }

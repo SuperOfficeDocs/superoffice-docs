@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=eos
+GET /api/v1/List/ProductFamily/MDOItems?query=distinctio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Davis-Bartoletti",
-    "ToolTip": "Voluptates enim doloremque rerum.",
+    "Id": 683,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Autem maiores omnis natus deserunt consequatur.",
     "Deleted": false,
-    "Rank": 607,
-    "Type": "laboriosam",
+    "Rank": 139,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Runolfsdottir Inc and Sons",
-        "ToolTip": "Porro asperiores et totam alias.",
+        "Id": 882,
+        "Name": "Bins, Carroll and Roob",
+        "ToolTip": "Rerum ipsa et.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "repellat",
+        "Rank": 507,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 945,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "illum",
-        "FullName": "Lelah Ryan",
+        "IconHint": "vitae",
+        "ColorBlock": 85,
+        "ExtraInfo": "saepe",
+        "StyleHint": "nostrum",
+        "FullName": "Elwin Kessler Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldLength": 818
           }
         }
       }
     ],
-    "IconHint": "assumenda",
-    "ColorBlock": 194,
-    "ExtraInfo": "repellat",
-    "StyleHint": "quasi",
-    "FullName": "Kellen Weber",
+    "IconHint": "a",
+    "ColorBlock": 294,
+    "ExtraInfo": "autem",
+    "StyleHint": "numquam",
+    "FullName": "Ismael Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 69
       }
     }
   }

@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 793,
-  "Name": "Bartell Group",
-  "Description": "Operative stable ability",
-  "DefaultHeight": 693,
-  "DefaultWidth": 180,
+  "DashboardTileDefinitionId": 589,
+  "Name": "Kris LLC",
+  "Description": "Sharable fault-tolerant website",
+  "DefaultHeight": 984,
+  "DefaultWidth": 289,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kreiger-Lueilwitz",
-  "SelectionId": 912,
+  "EntityName": "Reichel-Terry",
+  "SelectionId": 337,
   "CurrencyMode": "Base",
-  "CurrencyCode": "id",
+  "CurrencyCode": "voluptas",
   "Measure": "Average",
-  "MeasureField": "architecto",
-  "SortBy": "ut",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 119,
-  "MeasureByField": "et",
+  "MeasureField": "temporibus",
+  "SortBy": "a",
+  "LayoutConfig": "autem",
+  "SecondarySelectionId": 691,
+  "MeasureByField": "tenetur",
   "Usage": "Dashboard",
-  "ProviderName": "Ledner-D'Amore",
+  "ProviderName": "Kiehn, Crona and Lehner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

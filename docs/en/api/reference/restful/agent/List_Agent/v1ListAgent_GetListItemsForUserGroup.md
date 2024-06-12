@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 708,
-  "GroupId": 524
+  "UdListDefinitionId": 648,
+  "GroupId": 53
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Marquardt, Robel and Greenfelder",
-    "ToolTip": "Qui consequatur ex.",
+    "Id": 898,
+    "Name": "Kirlin, Roberts and Berge",
+    "ToolTip": "Voluptates ut consectetur odio qui sed.",
     "Deleted": true,
-    "Rank": 998,
-    "Type": "quisquam",
-    "ColorBlock": 888,
-    "IconHint": "dicta",
+    "Rank": 654,
+    "Type": "corrupti",
+    "ColorBlock": 5,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2012-12-05T12:57:34.1492269+01:00",
+    "LastChanged": "2003-01-08T04:22:26.969259+01:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Jenkins-Bayer",
-        "ToolTip": "Iure id consequatur similique nam modi.",
-        "Deleted": true,
-        "Rank": 380,
-        "Type": "enim",
-        "ColorBlock": 762,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2006-08-31T12:57:34.1492269+02:00",
+        "Id": 355,
+        "Name": "Zboncak-Blick",
+        "ToolTip": "Expedita dolores voluptatibus non rerum pariatur ex ut.",
+        "Deleted": false,
+        "Rank": 437,
+        "Type": "minima",
+        "ColorBlock": 966,
+        "IconHint": "sapiente",
+        "Selected": true,
+        "LastChanged": "2002-02-19T04:22:26.969259+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "est",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Aniyah Lowe",
+        "FullName": "Mrs. Cayla Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 252
+            "FieldType": "System.Int32",
+            "FieldLength": 681
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Rachael Mante IV",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "culpa",
+    "Hidden": false,
+    "FullName": "Isaias Damaris Monahan I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldType": "System.String",
+        "FieldLength": 296
       }
     }
   }

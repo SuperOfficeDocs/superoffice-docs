@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 26 Mar 2021 12:57:42 G3T
+Last-Modified: Sat, 17 Oct 2015 04:22:35 G10T
 
 {
-  "Description": "Distributed transitional open architecture",
-  "Postit": "nemo",
+  "Description": "Assimilated heuristic budgetary management",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 596,
-  "IncludePerson": 762,
+  "GroupIdx": 943,
+  "IncludePerson": 347,
   "MemberCount": 99.99,
-  "Name": "Batz LLC",
-  "PostitTextId": 271,
-  "CreatedDate": "2004-02-19T12:57:42.7763061+01:00",
-  "SelectionId": 250,
-  "SoundEx": "accusamus",
-  "Source": 580,
-  "TextId": 589,
-  "UpdatedDate": "2021-03-26T12:57:42.7763061+01:00",
-  "UpdatedCount": 192,
-  "Visibility": 542,
+  "Name": "Kris Group",
+  "PostitTextId": 962,
+  "CreatedDate": "2002-07-06T04:22:35.424107+02:00",
+  "SelectionId": 173,
+  "SoundEx": "et",
+  "Source": 973,
+  "TextId": 864,
+  "UpdatedDate": "2015-10-17T04:22:35.424107+02:00",
+  "UpdatedCount": 171,
+  "Visibility": 505,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 636,
-  "TargetTableName": "Grimes Group",
-  "Completed": true,
-  "LeftSelectionId": 622,
-  "RightSelectionId": 902,
+  "TargetTableNumber": 177,
+  "TargetTableName": "Bahringer, Ferry and Konopelski",
+  "Completed": false,
+  "LeftSelectionId": 512,
+  "RightSelectionId": 12,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Breitenberg-Stiedemann",
-  "ShadowProviderName": "Tillman, Kilback and Steuber",
-  "ChartKey": "aut",
-  "LastLoaded": "2004-12-09T12:57:42.7763061+01:00",
-  "LastLoadedBy": 1001,
+  "MainProviderName": "Graham LLC",
+  "ShadowProviderName": "Krajcik-O'Reilly",
+  "ChartKey": "qui",
+  "LastLoaded": "2009-05-01T04:22:35.424107+02:00",
+  "LastLoadedBy": 729,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-09-30T12:57:42.7763061+02:00",
-  "LastMembershipChangeBy": 244,
+  "LastMembershipChange": "2011-10-16T04:22:35.424107+02:00",
+  "LastMembershipChangeBy": 755,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eum",
-  "MemberTabHeading": "quibusdam",
-  "MailingsProviderName": "Carter-Becker",
-  "DashboardTileDefinitionId": 877,
+  "MainHeading": "libero",
+  "MemberTabHeading": "enim",
+  "MailingsProviderName": "Graham Group",
+  "DashboardTileDefinitionId": 83,
   "VisibleFor": [
     {
-      "VisibleId": 20,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 466
+          "FieldType": "System.Int32",
+          "FieldLength": 38
         }
       }
     },
     {
-      "VisibleId": 20,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 466
+          "FieldType": "System.Int32",
+          "FieldLength": 38
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Fri, 26 Mar 2021 12:57:42 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

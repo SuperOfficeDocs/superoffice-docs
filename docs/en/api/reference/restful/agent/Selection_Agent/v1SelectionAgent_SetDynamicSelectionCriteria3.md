@@ -84,35 +84,35 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 805,
+  "SelectionId": 969,
   "Criteria": [
     {
-      "Name": "Jacobi-Haley",
-      "Operator": "amet",
+      "Name": "Kuphal-Stiedemann",
+      "Operator": "voluptatem",
       "Values": [
-        "autem",
-        "in"
+        "enim",
+        "labore"
       ],
       "DisplayValues": [
-        "consequatur",
-        "voluptas"
+        "maxime",
+        "saepe"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 738,
+      "InterParenthesis": 785,
       "InterOperator": "And",
-      "UniqueHash": 602
+      "UniqueHash": 234
     }
   ],
-  "Filter": "ut"
+  "Filter": "nam"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hodkiewicz, Bode and Abernathy",
-    "Operator": "sint",
+    "Name": "Larson-Boyer",
+    "Operator": "impedit",
     "Values": [
-      "blanditiis",
-      "perferendis"
+      "nemo",
+      "eos"
     ],
     "DisplayValues": [
-      "et",
-      "maxime"
+      "sit",
+      "fugiat"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ernser-McCullough",
-        "Operator": "et",
+        "Name": "Jacobi Inc and Sons",
+        "Operator": "eum",
         "Values": [
-          "sunt",
-          "mollitia"
+          "et",
+          "qui"
         ],
         "DisplayValues": [
-          "iste",
-          "sed"
+          "non",
+          "dolorem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 520,
+        "InterParenthesis": 188,
         "InterOperator": "And",
-        "UniqueHash": 875
+        "UniqueHash": 177
       }
     ],
-    "InterParenthesis": 622,
+    "InterParenthesis": 616,
     "InterOperator": "And",
-    "UniqueHash": 497
+    "UniqueHash": 131
   }
 ]
 ```

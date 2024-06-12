@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 400,
-    "Section": "ut",
-    "Key": "et",
-    "Name": "Macejkovic, Kub and Cole",
+    "PrefDescId": 163,
+    "Section": "sint",
+    "Key": "atque",
+    "Name": "Kuhlman, Morar and Nikolaus",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Optimized even-keeled budgetary management",
-    "IsBuiltin": true,
-    "TableName": "Hermiston-Rowe",
-    "UserDefinedListId": 921,
-    "Rank": 437,
-    "SubGroup": "quo",
-    "MinLevel": 541,
-    "MaxValue": 995,
-    "MinValue": 313,
-    "RequiredLicense": "deleniti",
+    "Description": "Team-oriented bifurcated pricing structure",
+    "IsBuiltin": false,
+    "TableName": "Cruickshank-Heidenreich",
+    "UserDefinedListId": 260,
+    "Rank": 14,
+    "SubGroup": "repellat",
+    "MinLevel": 864,
+    "MaxValue": 739,
+    "MinValue": 345,
+    "RequiredLicense": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 201
       }
     }
   }

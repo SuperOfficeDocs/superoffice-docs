@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 715
+  "SaleId": 255
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 217,
-  "SaleId": 529,
-  "QuoteConnectionId": 487,
-  "ERPQuoteKey": "blanditiis",
-  "ERPOrderKey": "sequi",
-  "ActiveQuoteVersionId": 25,
-  "AcceptedQuoteAlternativeId": 686,
-  "UseValuesFromQuote": 824,
-  "DocumentId": 983,
-  "PoNumber": "619107",
-  "OrderComment": "nostrum",
-  "PreferredEmailCulture": "abdullah@toy.biz",
+  "QuoteId": 255,
+  "SaleId": 78,
+  "QuoteConnectionId": 262,
+  "ERPQuoteKey": "neque",
+  "ERPOrderKey": "optio",
+  "ActiveQuoteVersionId": 322,
+  "AcceptedQuoteAlternativeId": 233,
+  "UseValuesFromQuote": 922,
+  "DocumentId": 747,
+  "PoNumber": "575825",
+  "OrderComment": "id",
+  "PreferredEmailCulture": "alford@gottlieb.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 148
     }
   }
 }

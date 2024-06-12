@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 772,
-  "StartTime": "2023-10-03T12:57:33.7117979+02:00",
-  "EndTime": "2007-09-10T12:57:33.7117979+02:00",
-  "Count": 730,
+  "ProjectId": 565,
+  "StartTime": "1999-04-08T04:22:26.4978545+02:00",
+  "EndTime": "2010-06-23T04:22:26.4978545+02:00",
+  "Count": 727,
   "DocumentTemplateIds": [
-    323,
-    546
+    331,
+    981
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 855,
-    "Attention": "quis",
-    "Header": "quas",
-    "Name": "Rosenbaum, Christiansen and Lynch",
-    "OurRef": "est",
-    "YourRef": "id",
-    "Description": "Cloned content-based open system",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 35,
-    "PersonFullName": "Furman Wisozk",
-    "AssociateFullName": "Winnifred Toy",
-    "ContactId": 28,
-    "ContactName": "Feeney-Daniel",
-    "ProjectId": 67,
-    "ProjectName": "Reichert Group",
-    "AssociateId": 886,
-    "Snum": 165,
-    "SaleId": 742,
-    "SaleName": "Ledner Inc and Sons",
+    "DocumentId": 596,
+    "Attention": "voluptas",
+    "Header": "fugit",
+    "Name": "Pacocha, Yost and Torp",
+    "OurRef": "ex",
+    "YourRef": "similique",
+    "Description": "Versatile high-level info-mediaries",
+    "DocumentTemplate": "quis",
+    "IsPublished": false,
+    "PersonId": 403,
+    "PersonFullName": "Mr. Jacey Hadley Weber Jr.",
+    "AssociateFullName": "Thalia Barton",
+    "ContactId": 947,
+    "ContactName": "Rutherford, Dickens and O'Conner",
+    "ProjectId": 634,
+    "ProjectName": "Reilly Inc and Sons",
+    "AssociateId": 502,
+    "Snum": 838,
+    "SaleId": 29,
+    "SaleName": "Rodriguez Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 286
       }
     }
   }

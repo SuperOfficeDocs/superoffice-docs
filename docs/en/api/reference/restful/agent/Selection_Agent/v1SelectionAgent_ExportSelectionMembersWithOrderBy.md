@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 140,
-  "TemplateName": "Reynolds Group",
+  "SelectionId": 199,
+  "TemplateName": "Jenkins-Hilll",
   "UseContacts": false,
-  "OrderBy": "iusto"
+  "OrderBy": "est"
 }
 ```
 

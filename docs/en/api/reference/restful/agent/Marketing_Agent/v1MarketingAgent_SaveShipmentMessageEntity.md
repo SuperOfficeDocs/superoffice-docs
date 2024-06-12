@@ -107,27 +107,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 637,
-  "PlainMessage": "qui",
-  "HtmlMessage": "culpa",
-  "SmsMessage": "voluptas",
-  "Description": "Compatible client-driven moratorium",
-  "Subject": "est",
-  "FolderId": 965,
-  "HeaderField": "assumenda",
-  "Design": "facere",
+  "ShipmentMessageId": 526,
+  "PlainMessage": "nesciunt",
+  "HtmlMessage": "harum",
+  "SmsMessage": "dolor",
+  "Description": "User-friendly value-added migration",
+  "Subject": "nulla",
+  "FolderId": 564,
+  "HeaderField": "dolor",
+  "Design": "voluptas",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Re-engineered leading edge function",
-  "AccessKey": "debitis",
-  "DocumentMessage": 230,
-  "Registered": "2004-05-10T12:57:34.2429559+02:00",
-  "RegisteredAssociateId": 172,
-  "Updated": "2005-11-13T12:57:34.2429559+01:00",
-  "UpdatedAssociateId": 852,
-  "UpdatedCount": 855
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Face to face object-oriented toolset",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 655,
+  "Registered": "2002-03-19T04:22:27.0653754+01:00",
+  "RegisteredAssociateId": 563,
+  "Updated": "2019-09-03T04:22:27.0653754+02:00",
+  "UpdatedAssociateId": 458,
+  "UpdatedCount": 836
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 994,
-  "PlainMessage": "sit",
-  "HtmlMessage": "nulla",
-  "SmsMessage": "labore",
-  "Description": "Compatible coherent knowledge user",
-  "Subject": "omnis",
-  "FolderId": 999,
-  "HeaderField": "sed",
-  "Design": "odit",
+  "ShipmentMessageId": 627,
+  "PlainMessage": "excepturi",
+  "HtmlMessage": "nobis",
+  "SmsMessage": "quo",
+  "Description": "Sharable maximized paradigm",
+  "Subject": "repellat",
+  "FolderId": 309,
+  "HeaderField": "dolor",
+  "Design": "sunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Enterprise-wide multi-state adapter",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 530,
-  "Registered": "2006-03-24T12:57:34.2429559+01:00",
-  "RegisteredAssociateId": 777,
-  "Updated": "1997-11-23T12:57:34.2429559+01:00",
-  "UpdatedAssociateId": 961,
-  "UpdatedCount": 555,
+  "InlineImages": false,
+  "LongDescription": "Object-based full-range secured line",
+  "AccessKey": "animi",
+  "DocumentMessage": 271,
+  "Registered": "2018-06-26T04:22:27.0653754+02:00",
+  "RegisteredAssociateId": 330,
+  "Updated": "2018-06-10T04:22:27.0653754+02:00",
+  "UpdatedAssociateId": 294,
+  "UpdatedCount": 857,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

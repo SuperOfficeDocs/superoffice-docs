@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 266,
-  "LabelLayoutId": 813,
-  "Filename": "sit",
-  "Language": "quidem",
-  "FileType": "quia",
+  "ReportId": 527,
+  "LabelLayoutId": 885,
+  "Filename": "at",
+  "Language": "qui",
+  "FileType": "aliquam",
   "Restrictions": [
     {
-      "Name": "Block, Herman and Ritchie",
-      "Operator": "facilis",
+      "Name": "Runte, Reilly and Kreiger",
+      "Operator": "ipsam",
       "Values": [
-        "fuga",
-        "suscipit"
+        "necessitatibus",
+        "aut"
       ],
       "DisplayValues": [
-        "atque",
-        "voluptatibus"
+        "expedita",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 264,
+      "InterParenthesis": 621,
       "InterOperator": "And",
-      "UniqueHash": 867
+      "UniqueHash": 425
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"soluta"
+"recusandae"
 ```

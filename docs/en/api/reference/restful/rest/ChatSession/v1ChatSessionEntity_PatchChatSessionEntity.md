@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "dignissimos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "dignissimos",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 161,
-  "TopicId": 340,
+  "ChatSessionId": 7,
+  "TopicId": 343,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "laborum",
-  "CustomerName": "Kulas Inc and Sons",
-  "CustomerEmail": "alberto.douglas@nicolasframi.us",
-  "CustomerPhone": "1-420-476-2548 x2828",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Bins-Hirthe",
+  "CustomerAlias": "earum",
+  "CustomerHost": "corrupti",
+  "CustomerName": "Morissette Group",
+  "CustomerEmail": "axel@cassinherzog.info",
+  "CustomerPhone": "1-766-873-9083 x960",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Thompson-Romaguera",
   "Status": "Closed",
-  "FirstMessage": "eligendi",
-  "LastMessage": "totam",
-  "WhenRequested": "2017-06-19T12:57:41.9327493+02:00",
-  "WhenStarted": "2014-01-30T12:57:41.9327493+01:00",
-  "WhenEnded": "1999-05-05T12:57:41.9327493+02:00",
-  "WhenIdle": "2021-11-25T12:57:41.9327493+01:00",
-  "WhenFetched": "2004-01-08T12:57:41.9327493+01:00",
-  "SessionKey": "excepturi",
-  "InitialQueuePos": 819,
-  "AlertLevel": 931,
-  "Rank": 566,
+  "FirstMessage": "magnam",
+  "LastMessage": "dignissimos",
+  "WhenRequested": "2008-07-11T04:22:34.6402549+02:00",
+  "WhenStarted": "2019-04-04T04:22:34.6402549+02:00",
+  "WhenEnded": "2004-02-09T04:22:34.6402549+01:00",
+  "WhenIdle": "2006-11-24T04:22:34.6402549+01:00",
+  "WhenFetched": "2020-06-23T04:22:34.6402549+02:00",
+  "SessionKey": "expedita",
+  "InitialQueuePos": 838,
+  "AlertLevel": 12,
+  "Rank": 14,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 385,
+  "ChatbotIsActive": false,
+  "Rating": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   },
   "_Links": {

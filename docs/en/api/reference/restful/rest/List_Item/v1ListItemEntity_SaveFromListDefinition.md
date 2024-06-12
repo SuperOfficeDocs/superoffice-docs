@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Ortiz, Deckow and Keeling",
-  "Tooltip": "labore",
+  "Id": 594,
+  "Name": "Koss LLC",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "UdListDefinitionId": 396,
-  "Rank": 191
+  "UdListDefinitionId": 890,
+  "Rank": 549
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 288,
-  "Name": "Quigley-Lakin",
-  "Tooltip": "dolore",
+  "Id": 139,
+  "Name": "Kiehn, Prohaska and Kling",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 563,
-  "Rank": 648,
+  "UdListDefinitionId": 981,
+  "Rank": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "necessitatibus",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "quos",
-  "SignOnText": "voluptatem",
-  "EventDate": "2021-02-02T12:57:34.6178406+01:00",
+  "SignOffConfirmationText": "ut",
+  "SignOffText": "at",
+  "SignOnConfirmationText": "ex",
+  "SignOnText": "est",
+  "EventDate": "2017-09-29T04:22:27.3153732+02:00",
   "Enabled": false,
-  "CreatedDate": "2005-09-06T12:57:34.6178406+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 291,
+  "CreatedDate": "2000-07-09T04:22:27.3153732+02:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 281,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 972,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2013-12-22T12:57:34.6178406+01:00",
+  "SignOnTaskId": 29,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2001-07-17T04:22:27.3153732+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 273,
-  "Id": 697,
-  "PublishFrom": "2021-09-20T12:57:34.6178406+02:00",
+  "ProjectId": 623,
+  "Id": 948,
+  "PublishFrom": "2001-12-15T04:22:27.3153732+01:00",
   "PublishType": "External",
-  "PublishTo": "2005-10-18T12:57:34.6178406+02:00",
+  "PublishTo": "2004-07-01T04:22:27.3153732+02:00",
   "VisibleForCategories": [
     {
-      "Id": 202,
-      "Name": "Hauck-Wisoky",
-      "ToolTip": "Molestiae eveniet accusantium vero ullam quisquam cupiditate voluptatem.",
+      "Id": 599,
+      "Name": "Klein-Steuber",
+      "ToolTip": "Alias dolores est.",
       "Deleted": false,
-      "Rank": 378,
-      "Type": "iusto",
+      "Rank": 69,
+      "Type": "saepe",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloremque",
-      "ColorBlock": 346,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "sit",
-      "FullName": "Lavon Mitchell",
+      "IconHint": "alias",
+      "ColorBlock": 395,
+      "ExtraInfo": "ratione",
+      "StyleHint": "recusandae",
+      "FullName": "Chanel Tillman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 611
+          "FieldType": "System.Int32",
+          "FieldLength": 787
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 619,
-      "Name": "Pacocha-Cruickshank",
-      "ToolTip": "Nostrum nemo cumque dolorem magni incidunt qui.",
-      "Deleted": false,
-      "Rank": 961,
-      "Type": "omnis",
+      "Id": 263,
+      "Name": "Yundt, Fritsch and Bahringer",
+      "ToolTip": "Quia sit placeat ea modi unde et maiores.",
+      "Deleted": true,
+      "Rank": 331,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquid",
-      "ColorBlock": 654,
-      "ExtraInfo": "dolor",
-      "StyleHint": "adipisci",
-      "FullName": "Pansy Callie Crona III",
+      "IconHint": "dicta",
+      "ColorBlock": 37,
+      "ExtraInfo": "velit",
+      "StyleHint": "voluptatibus",
+      "FullName": "Brandt McClure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 688
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 287,
+  "ProjectEventId": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 467
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 36,
-  "Name": "Bahringer, Legros and Littel",
-  "CreatedDate": "2018-02-14T12:57:34.0554972+01:00",
-  "UpdatedDate": "2016-12-13T12:57:34.0554972+01:00",
+  "ForeignAppId": 978,
+  "Name": "Dibbert, Howell and Stokes",
+  "CreatedDate": "2023-07-16T04:22:26.8598968+02:00",
+  "UpdatedDate": "2003-06-23T04:22:26.8598968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 660,
-      "Name": "Emard-Hodkiewicz",
-      "CreatedDate": "1997-09-09T12:57:34.0554972+02:00",
-      "UpdatedDate": "2014-09-09T12:57:34.0554972+02:00",
-      "AssociateFullName": "Emilio D'Amore",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "consequatur",
-      "DeviceIdentifier": "consectetur",
-      "ForeignAppId": 998,
+      "ForeignDeviceId": 159,
+      "Name": "Hilpert-Brown",
+      "CreatedDate": "1999-10-08T04:22:26.8598968+02:00",
+      "UpdatedDate": "2008-03-19T04:22:26.8598968+01:00",
+      "AssociateFullName": "Mr. Sabina Justine Roob Jr.",
+      "CreatedBy": "qui",
+      "UpdatedBy": "commodi",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 251,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 204
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 593,
-  "SelectionId": 24,
-  "Restrictions": "minus"
+  "DashboardTileId": 527,
+  "SelectionId": 459,
+  "Restrictions": "commodi"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Lang-Volkman",
-        "DisplayTooltip": "magnam",
-        "DisplayType": "reprehenderit",
-        "CanOrderBy": true,
-        "Name": "Sauer Inc and Sons",
+        "DisplayName": "Fadel Group",
+        "DisplayTooltip": "sint",
+        "DisplayType": "assumenda",
+        "CanOrderBy": false,
+        "Name": "Smitham Inc and Sons",
         "CanRestrictBy": true,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Goyette Group",
+        "RestrictionType": "quod",
+        "RestrictionListName": "Lesch-Nienow",
         "IsVisible": false,
-        "ExtraInfo": "consequuntur",
-        "Width": "porro",
-        "IconHint": "cumque",
-        "HeadingIconHint": "est"
+        "ExtraInfo": "illum",
+        "Width": "saepe",
+        "IconHint": "eveniet",
+        "HeadingIconHint": "omnis"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Lang-Volkman",
-        "DisplayTooltip": "magnam",
-        "DisplayType": "reprehenderit",
-        "CanOrderBy": true,
-        "Name": "Sauer Inc and Sons",
+        "DisplayName": "Fadel Group",
+        "DisplayTooltip": "sint",
+        "DisplayType": "assumenda",
+        "CanOrderBy": false,
+        "Name": "Smitham Inc and Sons",
         "CanRestrictBy": true,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Goyette Group",
+        "RestrictionType": "quod",
+        "RestrictionListName": "Lesch-Nienow",
         "IsVisible": false,
-        "ExtraInfo": "consequuntur",
-        "Width": "porro",
-        "IconHint": "cumque",
-        "HeadingIconHint": "est"
+        "ExtraInfo": "illum",
+        "Width": "saepe",
+        "IconHint": "eveniet",
+        "HeadingIconHint": "omnis"
       }
     ],
     "Result": null

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 181,
-  "CountryId": 438
+  "ContactId": 762,
+  "CountryId": 454
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 16810.775999999998,
-  "Wgs84Longitude": 13153.398,
+  "Wgs84Latitude": 16500.51,
+  "Wgs84Longitude": 12934.018,
   "LocalizedAddress": [
     [
       {
-        "Name": "Haag Inc and Sons",
-        "Value": "sed",
-        "Tooltip": "repellendus",
-        "Label": "porro",
-        "ValueLength": 412,
-        "AddressType": "reiciendis",
+        "Name": "Smith Group",
+        "Value": "nihil",
+        "Tooltip": "laborum",
+        "Label": "excepturi",
+        "ValueLength": 661,
+        "AddressType": "veritatis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 308
+            "FieldLength": 69
           }
         }
       }
     ],
     [
       {
-        "Name": "Feil-Wisozk",
-        "Value": "magnam",
-        "Tooltip": "porro",
-        "Label": "reprehenderit",
-        "ValueLength": 58,
-        "AddressType": "nihil",
+        "Name": "Hilll-Lehner",
+        "Value": "sit",
+        "Tooltip": "corporis",
+        "Label": "aut",
+        "ValueLength": 771,
+        "AddressType": "laborum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 219
+            "FieldType": "System.Int32",
+            "FieldLength": 675
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "est",
+  "Formatted": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 68
     }
   }
 }

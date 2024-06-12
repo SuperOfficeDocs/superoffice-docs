@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Volkman Inc and Sons"
+  "OwnerName": "Gutkowski, Friesen and Bednar"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "ut",
+  "Message": "recusandae",
   "Url": "http://www.example.com/"
 }
 ```

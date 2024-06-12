@@ -50,7 +50,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotification?$select=notifyDateTime,endDateTime,updateType
+GET /api/v1/archive/AppointmentNotification?$select=updateType,invitedPersonId,updateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -80,17 +80,17 @@ OK
 POST /api/v1/Agents/Appointment/GetNextAvailableTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Associates": [
-    603,
-    386
+    450,
+    311
   ],
-  "StartTime": "2007-06-26T12:57:32.7740533+02:00",
-  "EndTime": "2011-01-07T12:57:32.7740533+01:00",
-  "Count": 734,
+  "StartTime": "2002-06-16T04:22:25.6990591+02:00",
+  "EndTime": "2000-08-07T04:22:25.6990591+02:00",
+  "Count": 7,
   "IsAllDay": true
 }
 ```
@@ -103,30 +103,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AvailableTimeStart": "2012-04-11T12:57:32.7740533+02:00",
-    "AvailableTimeEnd": "2011-08-18T12:57:32.7740533+02:00",
-    "RecommendedTimeStart": "2005-04-24T12:57:32.7740533+02:00",
-    "RecommendedTimeEnd": "2016-09-26T12:57:32.7740533+02:00",
+    "AvailableTimeStart": "2020-05-25T04:22:25.6990591+02:00",
+    "AvailableTimeEnd": "2023-01-01T04:22:25.6990591+01:00",
+    "RecommendedTimeStart": "2005-07-27T04:22:25.6990591+02:00",
+    "RecommendedTimeEnd": "2006-05-29T04:22:25.6990591+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldType": "System.String",
+        "FieldLength": 841
       }
     }
   },
   {
-    "AvailableTimeStart": "2012-04-11T12:57:32.7740533+02:00",
-    "AvailableTimeEnd": "2011-08-18T12:57:32.7740533+02:00",
-    "RecommendedTimeStart": "2005-04-24T12:57:32.7740533+02:00",
-    "RecommendedTimeEnd": "2016-09-26T12:57:32.7740533+02:00",
+    "AvailableTimeStart": "2020-05-25T04:22:25.6990591+02:00",
+    "AvailableTimeEnd": "2023-01-01T04:22:25.6990591+01:00",
+    "RecommendedTimeStart": "2005-07-27T04:22:25.6990591+02:00",
+    "RecommendedTimeEnd": "2006-05-29T04:22:25.6990591+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldType": "System.String",
+        "FieldLength": 841
       }
     }
   }

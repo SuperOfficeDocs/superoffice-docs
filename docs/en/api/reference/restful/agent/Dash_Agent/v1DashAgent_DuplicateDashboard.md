@@ -90,8 +90,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 356,
-  "Name": "Lesch LLC"
+  "DashboardId": 57,
+  "Name": "Turner-Daugherty"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 244,
-  "UniqueId": "ducimus",
-  "Name": "Smith, Heathcote and Padberg",
-  "Description": "Sharable eco-centric artificial intelligence",
-  "AssociateId": 436,
-  "Columns": 188,
+  "DashboardId": 442,
+  "UniqueId": "nam",
+  "Name": "Murphy-Hessel",
+  "Description": "Polarised human-resource info-mediaries",
+  "AssociateId": 162,
+  "Columns": 471,
   "Theme": null,
-  "VisibleForAll": 375,
+  "VisibleForAll": 767,
   "VisibleForAssociates": [
-    865,
-    98
+    292,
+    936
   ],
   "VisibleForGroups": [
-    419,
-    883
+    776,
+    665
   ],
-  "PinForAll": 66,
+  "PinForAll": 56,
   "PinForAssociates": [
-    32,
-    105
+    178,
+    131
   ],
   "PinForGroups": [
-    32,
-    276
+    531,
+    454
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 845
     }
   }
 }

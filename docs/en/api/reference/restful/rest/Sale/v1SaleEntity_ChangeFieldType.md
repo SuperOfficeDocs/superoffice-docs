@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 480,
-  "ColumnId": 654,
-  "FieldDefault": "nisi",
-  "FieldHeight": 379,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 846,
-  "FieldTop": 706,
+  "UDefFieldId": 628,
+  "ColumnId": 721,
+  "FieldDefault": "dicta",
+  "FieldHeight": 295,
+  "FieldLabel": "praesentium",
+  "FieldLeft": 105,
+  "FieldTop": 870,
   "FieldType": "Checkbox",
-  "FieldWidth": 490,
-  "FormatMask": "consectetur",
+  "FieldWidth": 993,
+  "FormatMask": "dolor",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 926,
-  "LabelLeft": 843,
-  "LabelTop": 380,
-  "LabelWidth": 922,
-  "LastVersionId": 355,
-  "ListTableId": 66,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 411,
+  "LabelLeft": 860,
+  "LabelTop": 3,
+  "LabelWidth": 734,
+  "LastVersionId": 462,
+  "ListTableId": 406,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 17,
-  "ProgId": "nesciunt",
+  "Page1LineNo": 478,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "animi",
-  "TabOrder": 656,
-  "TextLength": 777,
-  "Tooltip": "modi",
-  "UdefIdentity": 687,
-  "UDListDefinitionId": 413,
+  "ShortLabel": "quaerat",
+  "TabOrder": 316,
+  "TextLength": 207,
+  "Tooltip": "non",
+  "UdefIdentity": 429,
+  "UDListDefinitionId": 63,
   "Justification": "Center",
-  "Version": 917,
-  "TemplateVariableName": "Schuster, Altenwerth and Morissette",
-  "HasBeenPublished": false,
-  "MdoListName": "Collins-Koch",
+  "Version": 455,
+  "TemplateVariableName": "Feeney-Kihn",
+  "HasBeenPublished": true,
+  "MdoListName": "Hahn, Johnson and Ferry",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 932
     }
   }
 }

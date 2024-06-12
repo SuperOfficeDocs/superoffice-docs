@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 573,
+  "EjMessageId": 854,
   "Ticket": null,
-  "CreatedAt": "2009-08-07T12:57:35.0551794+02:00",
+  "CreatedAt": "1998-04-30T04:22:27.8651245+02:00",
   "CreatedBy": null,
-  "Author": "ad",
+  "Author": "quis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maiores",
-  "TimeSpent": 570,
-  "Body": "molestias",
-  "HtmlBody": "nostrum",
-  "EmailHeader": "pearline@cartwright.name",
-  "DebugInfo": "commodi",
-  "MailSorter": "est",
+  "MessageId": "quia",
+  "TimeSpent": 178,
+  "Body": "sit",
+  "HtmlBody": "unde",
+  "EmailHeader": "angel@rohan.uk",
+  "DebugInfo": "deserunt",
+  "MailSorter": "sapiente",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "voluptate",
   "MessageHeaders": [
     {
-      "Id": 343,
-      "Name": "Franecki, Treutel and Schulist",
+      "Id": 760,
+      "Name": "Larkin-Schroeder",
       "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 93
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "delectus",
-  "Sentiment": 737,
-  "SentimentConfidence": 864,
+  "Important": true,
+  "Language": "quibusdam",
+  "Sentiment": 263,
+  "SentimentConfidence": 564,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 802,
-      "Name": "Von, Schinner and Miller",
-      "ContentType": "dignissimos",
-      "AttSize": 369,
-      "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "magnam",
+      "AttachmentId": 598,
+      "Name": "Okuneva Inc and Sons",
+      "ContentType": "in",
+      "AttSize": 840,
+      "InlineImage": true,
+      "ContentId": "sapiente",
+      "AuthKey": "ea",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "culpa",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "aut"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldLength": 916
     }
   }
 }

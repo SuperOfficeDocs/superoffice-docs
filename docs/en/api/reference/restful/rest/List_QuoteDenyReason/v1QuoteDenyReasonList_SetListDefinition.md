@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 191,
-  "Name": "Bogisich Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 97,
+  "Name": "Mosciski Inc and Sons",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 212,
+  "Rank": 889,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "amet",
+  "ListType": "quam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Fay Inc and Sons",
-  "Tooltip": "maiores",
+  "Id": 672,
+  "Name": "Rutherford-Stracke",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 668,
+  "Rank": 4,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "incidunt",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldType": "System.String",
+      "FieldLength": 168
     }
   }
 }

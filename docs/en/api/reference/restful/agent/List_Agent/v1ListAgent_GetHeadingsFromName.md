@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Purdy Inc and Sons"
+  "Name": "Mayer Inc and Sons"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 219,
-    "Name": "Parker, Doyle and Jewess",
-    "Tooltip": "eligendi",
+    "HeadingId": 89,
+    "Name": "Adams, Quigley and Tromp",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 541,
-    "UdListDefinitionId": 51,
+    "Rank": 172,
+    "UdListDefinitionId": 551,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

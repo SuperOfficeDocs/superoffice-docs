@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 998,
-  "WorkflowId": 870,
+  "WorkflowTriggerId": 538,
+  "WorkflowId": 44,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Kuhlman, Halvorson and Cummerata",
-      "Description": "Robust hybrid moratorium",
-      "Rank": 466,
+      "Name": "Stroman-Dach",
+      "Description": "Polarised cohesive forecast",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kuhlman, Halvorson and Cummerata",
-      "Description": "Robust hybrid moratorium",
-      "Rank": 466,
+      "Name": "Stroman-Dach",
+      "Description": "Polarised cohesive forecast",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 116,
-  "WorkflowId": 127,
+  "WorkflowTriggerId": 92,
+  "WorkflowId": 267,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Erdman-Littel",
-      "Description": "Mandatory bandwidth-monitored benchmark",
-      "Rank": 221,
+      "Name": "Leuschke, Franecki and Boyle",
+      "Description": "Cross-group dedicated middleware",
+      "Rank": 530,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Erdman-Littel",
-      "Description": "Mandatory bandwidth-monitored benchmark",
-      "Rank": 221,
+      "Name": "Leuschke, Franecki and Boyle",
+      "Description": "Cross-group dedicated middleware",
+      "Rank": 530,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 511
     }
   }
 }

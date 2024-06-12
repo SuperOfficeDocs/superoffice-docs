@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 601,
-  "Name": "Erdman Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 936,
+  "Id": 584,
+  "Name": "Walker-Hackett",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 596,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   },
   "_Links": {

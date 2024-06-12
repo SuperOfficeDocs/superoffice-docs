@@ -89,7 +89,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |appointmentInstance/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
 |appointmentInstance/duration| *None* |Duration: The duration of the chat session|  |
-|appointmentInstance/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|appointmentInstance/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |appointmentInstance/visibleFor| *None* |Visible for|  |
 |appointmentInstance/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentInstance/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -323,7 +323,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/person/isProjectMember| *None* |Is project member: This person is a project member|  |
 |appointmentInstance/person/isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
 |appointmentInstance/person/updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
-|appointmentInstance/person/whenUpdatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
+|appointmentInstance/person/whenUpdatedByWorkflow| *None* |When updated by flow: When updated by flow|  |
 |appointmentInstance/person/createdByForm| *None* |Created by form: Created by form|  |
 |appointmentInstance/person/phone/formattedNumber| *None* |Phone : Displays phone number|  |
 |appointmentInstance/person/personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
@@ -654,7 +654,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 | ---- | ----- | ------- | ------ |
 |appointmentInstance/sale/description| *None* |Description: The long description field on Sale|  |
 |appointmentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|appointmentInstance/sale/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|appointmentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |appointmentInstance/sale/visibleFor| *None* |Visible for|  |
 |appointmentInstance/sale/sale/textId| *None* |Text ID|  |
 |appointmentInstance/sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
@@ -830,7 +830,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/isProjectMember| *None* |Is project member: This person is a project member|  |
 |documentInstance/person/isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
 |documentInstance/person/updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
-|documentInstance/person/whenUpdatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
+|documentInstance/person/whenUpdatedByWorkflow| *None* |When updated by flow: When updated by flow|  |
 |documentInstance/person/createdByForm| *None* |Created by form: Created by form|  |
 |documentInstance/person/phone/formattedNumber| *None* |Phone : Displays phone number|  |
 |documentInstance/person/personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
@@ -1369,7 +1369,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |documentInstance/sale/description| *None* |Description: The long description field on Sale|  |
 |documentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|documentInstance/sale/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|documentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |documentInstance/sale/visibleFor| *None* |Visible for|  |
 |documentInstance/sale/sale/textId| *None* |Text ID|  |
 |documentInstance/sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
@@ -1427,7 +1427,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/LastCompletedSale,appointmentInstance/person/email/emailBounceCount,appointmentInstance/sale/credited,appointmentInstance/associate/userName,documentInstance/person/personExtra/y_rental/x_start
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/department,appointmentInstance/contact/contactExtra/x_contact_longtext,appointmentInstance/person/email/emailLastBounce,appointmentInstance/person/personExtra/x_person_appointment_relation,appointmentInstance/person/withdrawnStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

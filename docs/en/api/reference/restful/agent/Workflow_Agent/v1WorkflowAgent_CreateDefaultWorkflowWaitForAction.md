@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 575,
-  "WorkflowStepId": 349,
-  "WorkflowId": 681,
-  "Rank": 893,
+  "WorkflowWaitForActionId": 855,
+  "WorkflowStepId": 617,
+  "WorkflowId": 703,
+  "Rank": 185,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Collins, Gleason and Pouros",
-      "Description": "Enterprise-wide multi-state framework",
-      "Rank": 549,
+      "Name": "Dooley, Raynor and Ratke",
+      "Description": "Adaptive bi-directional approach",
+      "Rank": 965,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Collins, Gleason and Pouros",
-      "Description": "Enterprise-wide multi-state framework",
-      "Rank": 549,
+      "Name": "Dooley, Raynor and Ratke",
+      "Description": "Adaptive bi-directional approach",
+      "Rank": 965,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 571
     }
   }
 }

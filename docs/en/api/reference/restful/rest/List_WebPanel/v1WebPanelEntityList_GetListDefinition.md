@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 374,
-  "Name": "Watsica-Hettinger",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "Rank": 589,
+  "Id": 404,
+  "Name": "Braun, Welch and Gulgowski",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 266,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "ListType": "natus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

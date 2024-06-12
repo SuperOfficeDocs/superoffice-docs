@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 616,
-  "Name": "Rempel, Harris and Collins",
-  "Tooltip": "nihil",
-  "Rank": 34,
-  "Rate": 14939.778,
-  "Units": 21571.322,
-  "Deleted": false
+  "CurrencyId": 446,
+  "Name": "Tromp Group",
+  "Tooltip": "minus",
+  "Rank": 847,
+  "Rate": 1372.692,
+  "Units": 22276.471999999998,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 280,
-  "Name": "Predovic, Hills and Grady",
-  "Tooltip": "earum",
-  "Rank": 92,
-  "Rate": 14071.66,
-  "Units": 21367.612,
-  "Deleted": true,
+  "CurrencyId": 917,
+  "Name": "Ondricka-Lindgren",
+  "Tooltip": "sint",
+  "Rank": 468,
+  "Rate": 19267.832,
+  "Units": 539.048,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 133
     }
   }
 }

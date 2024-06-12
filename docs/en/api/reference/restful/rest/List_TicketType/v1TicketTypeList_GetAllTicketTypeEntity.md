@@ -84,38 +84,38 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 359,
-    "Name": "Schaefer-Murazik",
-    "Rank": 443,
-    "Tooltip": "dolorum",
-    "Icon": "magnam",
-    "DefaultTicketStatus": 792,
+    "TicketTypeId": 629,
+    "Name": "Cronin Group",
+    "Rank": 442,
+    "Tooltip": "animi",
+    "Icon": "voluptas",
+    "DefaultTicketStatus": 19,
     "TicketStatuses": [
-      327,
-      614
+      845,
+      695
     ],
-    "DefaultTicketPriority": 112,
+    "DefaultTicketPriority": 375,
     "TicketPriorities": [
-      161,
-      172
+      176,
+      637
     ],
-    "ReplyTemplate": 542,
+    "ReplyTemplate": 227,
     "IsExternalVisible": false,
-    "IsDefault": false,
+    "IsDefault": true,
     "ShowInNew": false,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": false,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": true,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      750,
-      321
+      634,
+      275
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldLength": 984
       }
     }
   }

@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 256,
-  "Name": "Roob Group",
-  "Tooltip": "error",
-  "PassiveText": "magnam",
-  "Deleted": true,
-  "Rank": 840,
+  "ReldefId": 24,
+  "Name": "Wilderman, Rodriguez and Cummings",
+  "Tooltip": "exercitationem",
+  "PassiveText": "in",
+  "Deleted": false,
+  "Rank": 644,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 549
     }
   },
   "_Links": {

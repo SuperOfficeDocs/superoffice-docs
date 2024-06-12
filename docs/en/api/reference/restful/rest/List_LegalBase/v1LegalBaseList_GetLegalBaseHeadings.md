@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 564,
-    "Name": "Gorczany Group",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 185,
-    "UdListDefinitionId": 547,
+    "HeadingId": 366,
+    "Name": "O'Keefe Inc and Sons",
+    "Tooltip": "rem",
+    "Deleted": false,
+    "Rank": 194,
+    "UdListDefinitionId": 814,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldType": "System.Int32",
+        "FieldLength": 702
       }
     }
   }

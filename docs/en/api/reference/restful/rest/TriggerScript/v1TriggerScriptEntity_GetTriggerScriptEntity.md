@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 486,
-  "Name": "Hartmann, Hettinger and Paucek",
+  "ScreenChooserId": 740,
+  "Name": "Wilderman Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quod",
-  "Source": "consequatur",
-  "Registered": "2013-06-30T12:57:43.0892086+02:00",
-  "RegisteredAssociateId": 181,
-  "Updated": "2005-11-12T12:57:43.0892086+01:00",
-  "UpdatedAssociateId": 503,
+  "UniqueIdentifier": "eos",
+  "Source": "qui",
+  "Registered": "2016-11-21T04:22:35.595979+01:00",
+  "RegisteredAssociateId": 327,
+  "Updated": "1999-09-21T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldType": "System.String",
+      "FieldLength": 56
     }
   },
   "_Links": {

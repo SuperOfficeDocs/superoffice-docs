@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 802,
-  "LanguageId": 670,
-  "PersonId": 726,
-  "TicketId": 625
+  "ReplyTemplateId": 649,
+  "LanguageId": 652,
+  "PersonId": 889,
+  "TicketId": 149
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 813,
-  "PlainParsed": "aspernatur",
-  "HtmlParsed": "voluptas",
+  "ReplyTemplateId": 760,
+  "PlainParsed": "est",
+  "HtmlParsed": "velit",
   "Attachments": [
     {
-      "AttachmentId": 864,
-      "Name": "Blick-Bartoletti",
-      "ContentType": "animi",
-      "AttSize": 101,
-      "InlineImage": false,
-      "ContentId": "aliquam",
-      "AuthKey": "id",
+      "AttachmentId": 437,
+      "Name": "Bernhard-Quitzon",
+      "ContentType": "et",
+      "AttSize": 103,
+      "InlineImage": true,
+      "ContentId": "odit",
+      "AuthKey": "sed",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldLength": 331
         }
       }
     }
   ],
-  "Subject": "perferendis",
+  "Subject": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 875
     }
   }
 }

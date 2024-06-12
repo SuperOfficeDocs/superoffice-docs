@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 25 Jun 2022 12:57:42 G6T
+Last-Modified: Sat, 17 Apr 2010 04:22:35 G4T
 
 {
-  "ForeignAppId": 880,
-  "Name": "Lueilwitz-Bernier",
-  "CreatedDate": "2009-06-03T12:57:42.448256+02:00",
-  "UpdatedDate": "2022-06-25T12:57:42.448256+02:00",
+  "ForeignAppId": 200,
+  "Name": "Koss, Stroman and Fadel",
+  "CreatedDate": "2000-03-14T04:22:35.0010854+01:00",
+  "UpdatedDate": "2010-04-17T04:22:35.0010854+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 641,
-      "Name": "Wisoky, Koch and Nader",
-      "CreatedDate": "2010-08-02T12:57:42.448256+02:00",
-      "UpdatedDate": "2005-04-10T12:57:42.448256+02:00",
-      "AssociateFullName": "Jewel Deonte Aufderhar V",
-      "CreatedBy": "autem",
-      "UpdatedBy": "vel",
-      "DeviceIdentifier": "aliquam",
-      "ForeignAppId": 4,
+      "ForeignDeviceId": 96,
+      "Name": "Gislason-Kris",
+      "CreatedDate": "2013-01-15T04:22:35.0010854+01:00",
+      "UpdatedDate": "2003-02-17T04:22:35.0010854+01:00",
+      "AssociateFullName": "Miss Faustino Koby Buckridge",
+      "CreatedBy": "a",
+      "UpdatedBy": "eum",
+      "DeviceIdentifier": "asperiores",
+      "ForeignAppId": 490,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 496
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Sat, 25 Jun 2022 12:57:42 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

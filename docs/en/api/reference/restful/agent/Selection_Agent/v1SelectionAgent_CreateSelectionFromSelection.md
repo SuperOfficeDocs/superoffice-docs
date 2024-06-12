@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 460,
-  "Name": "Dickens, Schmidt and D'Amore",
+  "SelectionId": 921,
+  "Name": "McDermott, Abbott and Wuckert",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused 6th generation core",
-  "Postit": "id",
+  "Description": "Re-engineered dynamic artificial intelligence",
+  "Postit": "adipisci",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 101,
-  "IncludePerson": 327,
+  "GroupIdx": 641,
+  "IncludePerson": 252,
   "MemberCount": 99.99,
-  "Name": "Friesen LLC",
-  "PostitTextId": 386,
-  "CreatedDate": "1999-02-15T12:57:34.9458302+01:00",
-  "SelectionId": 290,
-  "SoundEx": "expedita",
-  "Source": 522,
-  "TextId": 571,
-  "UpdatedDate": "1997-07-10T12:57:34.9458302+02:00",
-  "UpdatedCount": 167,
-  "Visibility": 371,
+  "Name": "Wisoky, Schroeder and West",
+  "PostitTextId": 980,
+  "CreatedDate": "2013-04-07T04:22:27.6430234+02:00",
+  "SelectionId": 338,
+  "SoundEx": "maiores",
+  "Source": 386,
+  "TextId": 94,
+  "UpdatedDate": "2015-11-19T04:22:27.6430234+01:00",
+  "UpdatedCount": 468,
+  "Visibility": 908,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 598,
-  "TargetTableName": "Luettgen, Lueilwitz and Koch",
-  "Completed": true,
-  "LeftSelectionId": 867,
-  "RightSelectionId": 36,
+  "CompanyUnique": true,
+  "TargetTableNumber": 750,
+  "TargetTableName": "Nolan, Keeling and Grady",
+  "Completed": false,
+  "LeftSelectionId": 794,
+  "RightSelectionId": 235,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Daugherty, Schuppe and Block",
-  "ShadowProviderName": "Lebsack, Jerde and Johnson",
-  "ChartKey": "earum",
-  "LastLoaded": "2005-05-04T12:57:34.9458302+02:00",
-  "LastLoadedBy": 946,
+  "MainProviderName": "Turcotte, Hickle and Trantow",
+  "ShadowProviderName": "Champlin Group",
+  "ChartKey": "recusandae",
+  "LastLoaded": "2005-02-07T04:22:27.6430234+01:00",
+  "LastLoadedBy": 766,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-11-07T12:57:34.9458302+01:00",
-  "LastMembershipChangeBy": 988,
+  "LastMembershipChange": "2020-08-09T04:22:27.6430234+02:00",
+  "LastMembershipChangeBy": 929,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Parker-Christiansen",
-  "DashboardTileDefinitionId": 825,
+  "MainHeading": "accusamus",
+  "MemberTabHeading": "ipsam",
+  "MailingsProviderName": "Mante-Carter",
+  "DashboardTileDefinitionId": 428,
   "VisibleFor": [
     {
-      "VisibleId": 662,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldType": "System.Int32",
+          "FieldLength": 234
         }
       }
     },
     {
-      "VisibleId": 662,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldType": "System.Int32",
+          "FieldLength": 234
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 699
     }
   }
 }

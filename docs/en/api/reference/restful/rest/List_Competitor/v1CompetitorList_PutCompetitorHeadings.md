@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 609,
-    "Name": "Moore-Mills",
-    "Tooltip": "eos",
+    "HeadingId": 214,
+    "Name": "Goyette, Gerlach and Rice",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 161
+    "Rank": 108,
+    "UdListDefinitionId": 90
   },
   {
-    "HeadingId": 609,
-    "Name": "Moore-Mills",
-    "Tooltip": "eos",
+    "HeadingId": 214,
+    "Name": "Goyette, Gerlach and Rice",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 161
+    "Rank": 108,
+    "UdListDefinitionId": 90
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 364,
-    "Name": "Hahn, Torp and Christiansen",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "Rank": 127,
-    "UdListDefinitionId": 805,
+    "HeadingId": 523,
+    "Name": "Quitzon-Adams",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 198,
+    "UdListDefinitionId": 283,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 809
       }
     }
   }

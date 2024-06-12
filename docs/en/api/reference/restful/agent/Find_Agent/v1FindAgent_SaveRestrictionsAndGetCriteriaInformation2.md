@@ -86,11 +86,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestias",
-  "ProviderName": "Howe-Kassulke",
-  "StorageKey": "eaque",
-  "Restrictions": "nemo",
-  "StaticColumns": "deserunt"
+  "StorageType": "ratione",
+  "ProviderName": "Dicki Group",
+  "StorageKey": "qui",
+  "Restrictions": "aut",
+  "StaticColumns": "cupiditate"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Conroy LLC",
-      "Operator": "inventore",
+      "Name": "Ward, Greenfelder and Schulist",
+      "Operator": "et",
       "Values": [
-        "et",
-        "aut"
+        "ipsa",
+        "et"
       ],
       "DisplayValues": [
-        "labore",
-        "est"
+        "cum",
+        "illum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 439,
+      "InterParenthesis": 290,
       "InterOperator": "And",
-      "UniqueHash": 882
+      "UniqueHash": 99
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Shanahan Inc and Sons",
-      "DisplayTooltip": "pariatur",
-      "DisplayType": "eligendi",
+      "DisplayName": "Schinner, Emmerich and Gleichner",
+      "DisplayTooltip": "ea",
+      "DisplayType": "eum",
       "CanOrderBy": false,
-      "Name": "Bechtelar, Hoeger and Anderson",
+      "Name": "Wilkinson Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptates",
-      "RestrictionListName": "Ferry-Barrows",
+      "RestrictionType": "nam",
+      "RestrictionListName": "Nader, Moore and O'Reilly",
       "IsVisible": false,
-      "ExtraInfo": "cupiditate",
-      "Width": "consectetur",
-      "IconHint": "et",
-      "HeadingIconHint": "ipsa"
+      "ExtraInfo": "sint",
+      "Width": "ex",
+      "IconHint": "harum",
+      "HeadingIconHint": "sit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Morar LLC",
-      "PrimaryKey": 463,
+      "EntityName": "Reichel, Rodriguez and Schulist",
+      "PrimaryKey": 634,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ratione",
-          "TooltipHint": "maiores",
-          "LinkHint": "ipsam"
+          "DisplayValue": "a",
+          "TooltipHint": "sunt",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "quibusdam",
-      "StyleHint": "nesciunt",
+      "LinkHint": "eveniet",
+      "StyleHint": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 2
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kunde, Hammes and Schuppe",
-      "Description": "Vision-oriented real-time orchestration",
-      "Rank": 262,
+      "Name": "Price-Witting",
+      "Description": "Progressive transitional algorithm",
+      "Rank": 926,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kunde, Hammes and Schuppe",
-      "Description": "Vision-oriented real-time orchestration",
-      "Rank": 262,
+      "Name": "Price-Witting",
+      "Description": "Progressive transitional algorithm",
+      "Rank": 926,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 778
     }
   }
 }

@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 711,
+  "DocumentId": 370,
   "AllowedReturnTypes": [
-    "dicta",
-    "cumque"
+    "modi",
+    "doloremque"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McKenzie-Fahey",
-    "DisplayName": "Mills-Tromp",
-    "DisplayTooltip": "dolorem",
-    "IconHint": "sunt",
+    "Name": "Wintheiser-Collier",
+    "DisplayName": "Hintz, Brekke and Lang",
+    "DisplayTooltip": "esse",
+    "IconHint": "explicabo",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "McKenzie-Fahey",
-    "DisplayName": "Mills-Tromp",
-    "DisplayTooltip": "dolorem",
-    "IconHint": "sunt",
+    "Name": "Wintheiser-Collier",
+    "DisplayName": "Hintz, Brekke and Lang",
+    "DisplayTooltip": "esse",
+    "IconHint": "explicabo",
     "ReturnType": "CustomGui"
   }
 ]

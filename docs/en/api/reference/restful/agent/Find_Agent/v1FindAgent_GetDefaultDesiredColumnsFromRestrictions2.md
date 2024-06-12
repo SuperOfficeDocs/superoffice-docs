@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Grant-Farrell",
-  "Restrictions": "aliquam"
+  "ProviderName": "Kuvalis Group",
+  "Restrictions": "qui"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Feil Inc and Sons",
-    "DisplayTooltip": "aut",
-    "DisplayType": "fuga",
+    "DisplayName": "Connelly LLC",
+    "DisplayTooltip": "repudiandae",
+    "DisplayType": "esse",
     "CanOrderBy": false,
-    "Name": "Schimmel Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "sed",
-    "RestrictionListName": "Greenholt-Brakus",
-    "IsVisible": true,
-    "ExtraInfo": "ipsum",
-    "Width": "tempore",
-    "IconHint": "temporibus",
-    "HeadingIconHint": "quis"
+    "Name": "Cartwright Group",
+    "CanRestrictBy": true,
+    "RestrictionType": "doloremque",
+    "RestrictionListName": "Tromp-Kuphal",
+    "IsVisible": false,
+    "ExtraInfo": "consequatur",
+    "Width": "dolorem",
+    "IconHint": "minima",
+    "HeadingIconHint": "voluptatem"
   }
 ]
 ```

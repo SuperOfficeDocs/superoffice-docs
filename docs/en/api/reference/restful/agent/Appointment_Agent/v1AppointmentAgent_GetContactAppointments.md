@@ -130,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 639,
-  "StartTime": "2015-10-17T12:57:32.6959465+02:00",
-  "EndTime": "1999-03-22T12:57:32.6959465+01:00",
-  "Count": 668
+  "ContactId": 209,
+  "StartTime": "1999-04-15T04:22:25.5272267+02:00",
+  "EndTime": "2012-12-02T04:22:25.5272267+01:00",
+  "Count": 261
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 827,
-    "StartDate": "2011-08-15T12:57:32.7115681+02:00",
-    "EndDate": "2012-11-02T12:57:32.7115681+01:00",
+    "AppointmentId": 51,
+    "StartDate": "2004-01-08T04:22:25.5272267+01:00",
+    "EndDate": "2014-09-06T04:22:25.5272267+02:00",
     "Type": "BookingForChecklist",
-    "Task": "mollitia",
-    "AssociateFullName": "Hadley Boyer",
-    "ContactName": "Lowe-Hoppe",
-    "Description": "Enhanced motivating toolset",
-    "PersonFullName": "Mrs. Norberto Chelsey Bailey III",
-    "PersonId": 587,
-    "ContactId": 5,
-    "ProjectId": 100,
-    "ProjectName": "Erdman, Reilly and Greenfelder",
-    "IsPublished": true,
-    "AssociateId": 849,
-    "ColorIndex": 281,
+    "Task": "quo",
+    "AssociateFullName": "William Larson",
+    "ContactName": "Reilly, Stiedemann and Graham",
+    "Description": "Persevering assymetric protocol",
+    "PersonFullName": "Mrs. Katheryn Gerlach IV",
+    "PersonId": 558,
+    "ContactId": 73,
+    "ProjectId": 248,
+    "ProjectName": "Murray, Stehr and Hirthe",
+    "IsPublished": false,
+    "AssociateId": 883,
+    "ColorIndex": 404,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 904,
-    "PriorityName": "Mayert-Schmidt",
+    "PriorityId": 181,
+    "PriorityName": "Pagac-Cronin",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2007-08-28T12:57:32.7115681+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2003-04-08T04:22:25.5272267+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-02-07T12:57:32.7115681+01:00",
-    "RecurringEndDate": "2018-04-07T12:57:32.7115681+02:00",
-    "MotherId": 34,
-    "AssignedBy": 68,
-    "AssignedByFullName": "Ines Hartmann",
+    "RecurringStartDate": "1998-03-22T04:22:25.5272267+01:00",
+    "RecurringEndDate": "2023-04-06T04:22:25.5272267+02:00",
+    "MotherId": 963,
+    "AssignedBy": 252,
+    "AssignedByFullName": "Kieran Rolfson",
     "RejectReason": "",
-    "Location": "illo",
-    "AlarmLeadTime": "nulla",
-    "SaleId": 637,
-    "SaleName": "Metz LLC",
-    "AssociateName": "Pacocha LLC",
-    "CreatedDate": "2002-07-15T12:57:32.7115681+02:00",
-    "CreatedBy": "incidunt",
-    "CreatedByFullName": "Miss Lamar Ortiz",
-    "CreatedByAssociateId": 818,
+    "Location": "voluptates",
+    "AlarmLeadTime": "dolorem",
+    "SaleId": 564,
+    "SaleName": "DuBuque Group",
+    "AssociateName": "Dickens-Nikolaus",
+    "CreatedDate": "2006-06-15T04:22:25.5272267+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Flavie Kihn",
+    "CreatedByAssociateId": 9,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 46,
-    "Title": "mollitia",
-    "Agenda": "sunt",
-    "InternalNotes": "suscipit",
+    "PreferredTZLocation": 135,
+    "Title": "dicta",
+    "Agenda": "et",
+    "InternalNotes": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

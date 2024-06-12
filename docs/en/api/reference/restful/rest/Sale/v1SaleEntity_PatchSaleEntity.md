@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quos",
+  "SaleText": "in",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-07-14T12:57:42.745063+02:00",
-  "Amount": 2798.662,
-  "SaleId": 66,
-  "Earning": 31242.845999999998,
-  "EarningPercent": 18158.396,
-  "Heading": "nesciunt",
-  "Number": "1292068",
-  "Probability": 641,
-  "CreatedDate": "1998-12-09T12:57:42.745063+01:00",
-  "UpdatedDate": "1999-12-06T12:57:42.745063+01:00",
+  "Saledate": "2005-12-06T04:22:35.4084818+01:00",
+  "Amount": 22658.82,
+  "SaleId": 331,
+  "Earning": 15231.24,
+  "EarningPercent": 9333.052,
+  "Heading": "dignissimos",
+  "Number": "83412",
+  "Probability": 473,
+  "CreatedDate": "2015-09-15T04:22:35.4084818+02:00",
+  "UpdatedDate": "2003-02-16T04:22:35.4084818+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 640,
+  "ActiveLinks": 988,
   "Links": [
     {
-      "EntityName": "Walsh, Stark and Ritchie",
-      "Id": 632,
-      "Description": "Integrated didactic migration",
-      "ExtraInfo": "enim",
-      "LinkId": 293,
+      "EntityName": "Murphy, Considine and Abernathy",
+      "Id": 161,
+      "Description": "Synergized analyzing synergy",
+      "ExtraInfo": "neque",
+      "LinkId": 436,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldLength": 489
         }
       }
     }
   ],
-  "NextDueDate": "2022-12-18T12:57:42.745063+01:00",
-  "Postit": "ducimus",
+  "NextDueDate": "2004-10-13T04:22:35.4084818+02:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-06-01T12:57:42.7606849+02:00",
+  "ReopenDate": "2005-05-26T04:22:35.4084818+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Block Group",
-      "Comment": "odio",
-      "StakeholderRoleId": 710,
-      "CountryId": 772,
-      "PersonId": 142,
-      "EmailDescription": "nestor@maggio.com",
-      "EmailId": 928,
-      "EmailAddress": "jaydon@hilpertbauch.biz",
-      "PhoneId": 496,
-      "ContactName": "King LLC",
-      "ContactId": 621,
-      "SaleId": 955,
-      "Mrmrs": "debitis",
-      "Firstname": "Zackery",
-      "MiddleName": "Moore, Heidenreich and Lubowitz",
-      "Lastname": "Kling",
-      "SaleStakeholderId": 288,
-      "Rank": 388,
-      "Phone": "1-076-127-1675 x986",
+      "StakeholderRoleName": "Schmeler Group",
+      "Comment": "quos",
+      "StakeholderRoleId": 713,
+      "CountryId": 852,
+      "PersonId": 294,
+      "EmailDescription": "adam@predovic.uk",
+      "EmailId": 191,
+      "EmailAddress": "adan@turcotte.us",
+      "PhoneId": 710,
+      "ContactName": "Johnson-Kovacek",
+      "ContactId": 492,
+      "SaleId": 330,
+      "Mrmrs": "eligendi",
+      "Firstname": "Dell",
+      "MiddleName": "Halvorson, Koss and Ullrich",
+      "Lastname": "Fay",
+      "SaleStakeholderId": 40,
+      "Rank": 855,
+      "Phone": "938.378.1853 x43395",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 682
         }
       }
     }
   ],
-  "ActiveErpLinks": 32,
+  "ActiveErpLinks": 36,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1140972709"
+    "SuperOffice:1": "616018927",
+    "SuperOffice:2": "Stanley Huels"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "dolor"
+    "CustomFields1": "in",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2008-09-09T12:57:42.7606849+02:00",
-  "PublishTo": "2004-01-28T12:57:42.7606849+01:00",
-  "PublishFrom": "2011-08-24T12:57:42.7606849+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2024-02-05T04:22:35.4084818+01:00",
+  "PublishTo": "1998-10-29T04:22:35.4084818+01:00",
+  "PublishFrom": "2002-06-26T04:22:35.4084818+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 796,
+      "VisibleId": 875,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     },
     {
-      "VisibleId": 796,
+      "VisibleId": 875,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     }
@@ -305,8 +305,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   },
   "_Links": {

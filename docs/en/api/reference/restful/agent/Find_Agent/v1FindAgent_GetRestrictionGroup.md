@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "veniam",
-  "ProviderName": "Mraz, Kreiger and Dietrich",
-  "StorageKey": "laudantium",
-  "Rank": 499,
-  "Context": "qui"
+  "StorageType": "consequuntur",
+  "ProviderName": "Feeney LLC",
+  "StorageKey": "recusandae",
+  "Rank": 767,
+  "Context": "laboriosam"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schroeder Inc and Sons",
-  "Description": "Secured leading edge functionalities",
-  "Rank": 917,
+  "Name": "Nitzsche Group",
+  "Description": "Function-based non-volatile ability",
+  "Rank": 656,
   "Restrictions": [
     {
-      "Name": "Bogan LLC",
-      "Operator": "consectetur",
+      "Name": "Windler-Farrell",
+      "Operator": "aliquam",
       "Values": [
-        "a",
-        "voluptate"
+        "natus",
+        "sed"
       ],
       "DisplayValues": [
-        "similique",
-        "ut"
+        "at",
+        "praesentium"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 418,
+      "InterParenthesis": 936,
       "InterOperator": "And",
-      "UniqueHash": 395
+      "UniqueHash": 297
     }
   ]
 }

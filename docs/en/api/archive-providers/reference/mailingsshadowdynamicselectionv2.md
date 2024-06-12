@@ -286,7 +286,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |mailingAddr/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |mailingAddr/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
@@ -593,7 +593,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingSentCount,mailingAddr/person/personNoMail,mailingAddr/person/personUrl/URLDescription,mailingAddr/person/restrictionAddress/wgs84latitude
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingClickRate,mailingAddr/contact/number,mailingAddr/contact/email/emailDescription,project/projectPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

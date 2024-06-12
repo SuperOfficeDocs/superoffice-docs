@@ -71,7 +71,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 |messageLanguage|listAny|Language: Recognized language in messages|  |
 |sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |suggestedCategory|listAny|Suggested category: Suggested service category|  |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -188,7 +188,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -599,7 +599,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -758,7 +758,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=person/ticketPriority,person/personUrl/URLDescription,person/personExtra/y_rental/x_start,person/personAssociate/usergroup,contact/postAddress/line1
+GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=createdBy/credentialDisplayValue,person/personHasInterests,person/personAssociate/fullName,contact/email/emailLastSent,sale/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

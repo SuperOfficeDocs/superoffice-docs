@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "delectus",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "delectus",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 642,
-  "Name": "Aufderhar Group",
-  "Description": "Organized scalable architecture",
-  "DefaultHeight": 686,
-  "DefaultWidth": 341,
+  "DashboardTileDefinitionId": 134,
+  "Name": "Ebert, Wilderman and Zulauf",
+  "Description": "Customizable methodical collaboration",
+  "DefaultHeight": 764,
+  "DefaultWidth": 648,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Krajcik Inc and Sons",
-  "SelectionId": 809,
+  "EntityName": "Mraz, Hilll and Monahan",
+  "SelectionId": 384,
   "CurrencyMode": "Base",
-  "CurrencyCode": "enim",
+  "CurrencyCode": "minus",
   "Measure": "Average",
-  "MeasureField": "iusto",
-  "SortBy": "dolores",
-  "LayoutConfig": "consectetur",
-  "SecondarySelectionId": 810,
-  "MeasureByField": "molestiae",
+  "MeasureField": "dolores",
+  "SortBy": "molestiae",
+  "LayoutConfig": "neque",
+  "SecondarySelectionId": 658,
+  "MeasureByField": "saepe",
   "Usage": "Dashboard",
-  "ProviderName": "Lynch, Ortiz and Stokes",
+  "ProviderName": "Klein-Kassulke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 101
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

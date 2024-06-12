@@ -59,7 +59,7 @@ OK
 GET /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 982,
-  "Name": "Lubowitz-Gleichner"
+  "AssociateId": 548,
+  "Name": "Runte LLC"
 }
 ```

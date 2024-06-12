@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 34,
-  "Name": "Wintheiser-Haag",
-  "Tooltip": "voluptatem",
+  "RoleId": 788,
+  "Name": "Gutmann Group",
+  "Tooltip": "occaecati",
   "RoleType": "Anonymous",
-  "Deleted": 133,
-  "Rank": 600,
-  "Created": "2000-10-14T12:57:35.4618366+02:00",
-  "UseCategories": 814,
+  "Deleted": 671,
+  "Rank": 71,
+  "Created": "1999-08-24T04:22:28.0850044+02:00",
+  "UseCategories": 626,
   "CreatedBy": null,
-  "Updated": "2013-04-06T12:57:35.4618366+02:00",
+  "Updated": "1998-12-18T04:22:28.0850044+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 423
     }
   }
 }

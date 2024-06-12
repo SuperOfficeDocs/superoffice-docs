@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hauck-Weimann",
-  "ModuleName": "Funk Inc and Sons",
-  "ModuleDescription": "Programmable value-added utilisation",
-  "ModuleTooltip": "laudantium",
-  "ModuleVersion": "repellat",
+  "OwnerName": "Grant, Hessel and Roberts",
+  "ModuleName": "Dicki, Murphy and Harris",
+  "ModuleDescription": "Team-oriented 5th generation definition",
+  "ModuleTooltip": "dicta",
+  "ModuleVersion": "libero",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 867,
-  "ExtraFlags": 981,
-  "ExtraInfo": "consequuntur",
-  "SortOrder": 57,
+  "NumberOfLicenses": 80,
+  "ExtraFlags": 393,
+  "ExtraInfo": "fuga",
+  "SortOrder": 864,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Johns Inc and Sons",
-  "Signature": "quia"
+  "PrerequisiteModuleName": "Green-Schaefer",
+  "Signature": "vel"
 }
 ```

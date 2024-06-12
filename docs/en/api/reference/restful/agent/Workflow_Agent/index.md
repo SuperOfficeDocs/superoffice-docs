@@ -54,6 +54,8 @@ generated: true
 
 * [POST Agents/Workflow/UpdateFormSubmissions](v1WorkflowAgent_UpdateFormSubmissions.md)
 
+* [POST Agents/Workflow/SetStatusOnWorkflow](v1WorkflowAgent_SetStatusOnWorkflow.md)
+
 * [POST Agents/Workflow/Run](v1WorkflowAgent_Run.md)
 
 * [POST Agents/Workflow/SendEvent](v1WorkflowAgent_SendEvent.md)

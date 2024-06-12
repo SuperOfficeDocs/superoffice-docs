@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=et
+GET /api/v1/List/ProjectType/MDOItems?query=dignissimos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Kiehn-Pagac",
-    "ToolTip": "Qui consectetur vel.",
-    "Deleted": true,
-    "Rank": 798,
-    "Type": "maiores",
+    "Id": 624,
+    "Name": "Schulist Inc and Sons",
+    "ToolTip": "Cumque labore fuga expedita.",
+    "Deleted": false,
+    "Rank": 432,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Stark, Hansen and Larkin",
-        "ToolTip": "Pariatur quaerat est voluptas.",
+        "Id": 138,
+        "Name": "Terry-Walsh",
+        "ToolTip": "Repellat dicta nobis ut nesciunt.",
         "Deleted": false,
-        "Rank": 546,
-        "Type": "nihil",
+        "Rank": 813,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 555,
-        "ExtraInfo": "omnis",
-        "StyleHint": "et",
-        "FullName": "Alysson Padberg III",
+        "IconHint": "nam",
+        "ColorBlock": 150,
+        "ExtraInfo": "qui",
+        "StyleHint": "quibusdam",
+        "FullName": "Prof. Alyson Kiehn III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 78
+            "FieldType": "System.Int32",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "IconHint": "modi",
-    "ColorBlock": 503,
-    "ExtraInfo": "minima",
-    "StyleHint": "et",
-    "FullName": "Miss Mitchell Stanton MD",
+    "IconHint": "dolor",
+    "ColorBlock": 197,
+    "ExtraInfo": "nulla",
+    "StyleHint": "mollitia",
+    "FullName": "Humberto Kilback III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldLength": 756
       }
     }
   }

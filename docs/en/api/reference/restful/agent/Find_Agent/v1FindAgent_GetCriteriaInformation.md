@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eaque",
-  "ProviderName": "Renner-Fahey",
-  "StorageKey": "quibusdam",
+  "StorageType": "et",
+  "ProviderName": "Bartell-Russel",
+  "StorageKey": "et",
   "StaticColumns": [
-    "provident",
-    "repudiandae"
+    "illum",
+    "rerum"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Mayer, Conroy and Shields",
-      "Operator": "perferendis",
+      "Name": "Bogan LLC",
+      "Operator": "et",
       "Values": [
-        "minima",
-        "quisquam"
+        "rerum",
+        "corporis"
       ],
       "DisplayValues": [
-        "optio",
-        "aut"
+        "similique",
+        "molestiae"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 359,
+      "InterParenthesis": 576,
       "InterOperator": "And",
-      "UniqueHash": 204
+      "UniqueHash": 58
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Block-Breitenberg",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "explicabo",
+      "DisplayName": "Walsh LLC",
+      "DisplayTooltip": "autem",
+      "DisplayType": "saepe",
       "CanOrderBy": true,
-      "Name": "Bradtke, Rogahn and Barrows",
-      "CanRestrictBy": true,
-      "RestrictionType": "dolorum",
-      "RestrictionListName": "Mills Inc and Sons",
+      "Name": "Kreiger-Klocko",
+      "CanRestrictBy": false,
+      "RestrictionType": "porro",
+      "RestrictionListName": "D'Amore Group",
       "IsVisible": false,
-      "ExtraInfo": "consequuntur",
-      "Width": "fuga",
-      "IconHint": "quia",
-      "HeadingIconHint": "deserunt"
+      "ExtraInfo": "aut",
+      "Width": "dolorum",
+      "IconHint": "explicabo",
+      "HeadingIconHint": "cum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Leannon, Crona and Ortiz",
-      "PrimaryKey": 95,
+      "EntityName": "Wiza Group",
+      "PrimaryKey": 202,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "illo",
-          "TooltipHint": "molestiae",
-          "LinkHint": "aut"
+          "DisplayValue": "numquam",
+          "TooltipHint": "omnis",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "tempore",
-      "StyleHint": "sequi",
+      "LinkHint": "in",
+      "StyleHint": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 491
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Christiansen Group",
-      "Description": "Visionary explicit structure",
-      "Rank": 44,
+      "Name": "Brakus Inc and Sons",
+      "Description": "Multi-lateral value-added protocol",
+      "Rank": 393,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Christiansen Group",
-      "Description": "Visionary explicit structure",
-      "Rank": 44,
+      "Name": "Brakus Inc and Sons",
+      "Description": "Multi-lateral value-added protocol",
+      "Rank": 393,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   }
 }

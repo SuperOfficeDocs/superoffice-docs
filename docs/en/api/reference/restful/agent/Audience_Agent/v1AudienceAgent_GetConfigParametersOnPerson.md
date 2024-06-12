@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 115
+  "PersonId": 340
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 85,
-    "Name": "Hegmann-Murphy",
-    "Value": "id",
-    "CreatedDate": "2015-02-20T12:57:33.2428569+01:00",
-    "UpdatedDate": "2007-08-04T12:57:33.2428569+02:00",
-    "CreatedBy": "quo",
-    "UpdatedBy": "odit",
+    "AudienceLayoutId": 352,
+    "Name": "Macejkovic-Anderson",
+    "Value": "doloremque",
+    "CreatedDate": "2002-10-27T04:22:25.9965968+01:00",
+    "UpdatedDate": "1997-10-10T04:22:25.9965968+02:00",
+    "CreatedBy": "consequatur",
+    "UpdatedBy": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldLength": 541
       }
     }
   }

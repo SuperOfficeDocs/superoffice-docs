@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "Gusikowski, Schulist and Barton",
-    "ToolTip": "Animi voluptates.",
-    "Deleted": false,
-    "Rank": 206,
-    "Type": "pariatur",
-    "ColorBlock": 793,
-    "IconHint": "dignissimos",
-    "Selected": true,
-    "LastChanged": "2010-06-04T12:57:43.5739037+02:00",
+    "Id": 88,
+    "Name": "Little-Kuhn",
+    "ToolTip": "Dignissimos est omnis sint quia omnis molestiae.",
+    "Deleted": true,
+    "Rank": 360,
+    "Type": "in",
+    "ColorBlock": 345,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2021-11-06T04:22:36.0340897+01:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Roob Inc and Sons",
-        "ToolTip": "Similique et aut sint aperiam.",
+        "Id": 649,
+        "Name": "Littel LLC",
+        "ToolTip": "Molestiae aspernatur consequuntur.",
         "Deleted": false,
-        "Rank": 442,
-        "Type": "ut",
-        "ColorBlock": 926,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "1999-08-31T12:57:43.5739037+02:00",
+        "Rank": 585,
+        "Type": "eveniet",
+        "ColorBlock": 640,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2010-07-24T04:22:36.0340897+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "aut",
+        "ExtraInfo": "maiores",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Mr. Lemuel Alexane Cummings"
+        "FullName": "Jackson Koch"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "enim",
+    "ExtraInfo": "fuga",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Celia Rolfson"
+    "FullName": "Leta Conroy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Crona Group",
-    "ToolTip": "Quae tenetur accusantium.",
+    "Id": 976,
+    "Name": "Sauer LLC",
+    "ToolTip": "Vitae nesciunt possimus sit voluptas est.",
     "Deleted": false,
-    "Rank": 835,
-    "Type": "voluptatibus",
-    "ColorBlock": 689,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2023-08-01T12:57:43.5739037+02:00",
+    "Rank": 302,
+    "Type": "harum",
+    "ColorBlock": 739,
+    "IconHint": "cumque",
+    "Selected": true,
+    "LastChanged": "2011-04-02T04:22:36.0340897+02:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Kilback-Prosacco",
-        "ToolTip": "Facere libero quo quia accusamus et expedita.",
-        "Deleted": false,
-        "Rank": 983,
-        "Type": "non",
-        "ColorBlock": 926,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2024-01-20T12:57:43.5739037+01:00",
+        "Id": 551,
+        "Name": "Torp-Hudson",
+        "ToolTip": "Vel rerum consequuntur temporibus sit minus.",
+        "Deleted": true,
+        "Rank": 225,
+        "Type": "ducimus",
+        "ColorBlock": 241,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2001-11-02T04:22:36.0340897+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "culpa",
+        "ExtraInfo": "quo",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Rosina Schuster",
+        "FullName": "Earnestine Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldType": "System.Int32",
+            "FieldLength": 104
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Jackie Ledner",
+    "ExtraInfo": "eaque",
+    "StyleHint": "cum",
+    "Hidden": true,
+    "FullName": "Dr. Christy Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 463
       }
     }
   }

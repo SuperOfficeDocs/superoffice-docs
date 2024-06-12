@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Cummerata-Borer",
-    "ToolTip": "Unde sunt commodi aspernatur commodi labore aspernatur officia.",
+    "Id": 505,
+    "Name": "Osinski-Walker",
+    "ToolTip": "Aut eum dicta autem voluptate voluptatibus omnis dolor.",
     "Deleted": false,
-    "Rank": 661,
-    "Type": "voluptatibus",
-    "ColorBlock": 233,
-    "IconHint": "debitis",
+    "Rank": 375,
+    "Type": "vitae",
+    "ColorBlock": 483,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2015-04-15T12:57:43.3552036+02:00",
+    "LastChanged": "2005-03-06T04:22:35.830971+01:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Kemmer-Herman",
-        "ToolTip": "Facere et.",
-        "Deleted": true,
-        "Rank": 506,
-        "Type": "aut",
-        "ColorBlock": 935,
-        "IconHint": "quia",
+        "Id": 12,
+        "Name": "Treutel Group",
+        "ToolTip": "Enim exercitationem voluptas qui.",
+        "Deleted": false,
+        "Rank": 560,
+        "Type": "sit",
+        "ColorBlock": 593,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-12-31T12:57:43.3552036+01:00",
+        "LastChanged": "2008-10-29T04:22:35.830971+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Willie Smith",
+        "ExtraInfo": "magnam",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Miss Billie Arlo Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldType": "System.String",
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Dulce Schamberger",
+    "ExtraInfo": "harum",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Idell Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 810
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "Hickle Group",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 773,
+  "Id": 365,
+  "Name": "Schoen-Cartwright",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 598,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   },
   "_Links": {

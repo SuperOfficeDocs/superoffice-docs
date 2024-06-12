@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 31,
-  "Name": "O'Reilly, Schmidt and Toy",
-  "Tooltip": "nihil",
+  "Id": 579,
+  "Name": "Kling Group",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 957,
-  "Rank": 835,
+  "UdListDefinitionId": 232,
+  "Rank": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldLength": 992
     }
   }
 }

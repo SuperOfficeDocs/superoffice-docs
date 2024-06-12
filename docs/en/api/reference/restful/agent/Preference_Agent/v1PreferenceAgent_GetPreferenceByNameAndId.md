@@ -90,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "suscipit",
-  "PrefKey": "omnis",
+  "PrefSection": "esse",
+  "PrefKey": "fugit",
   "PrefLevel": "Database",
-  "OwnerId": 754
+  "OwnerId": 827
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ipsum",
+  "RawValue": "voluptas",
   "Specification": null,
-  "DisplayValue": "praesentium",
-  "DisplayTooltip": "id",
+  "DisplayValue": "culpa",
+  "DisplayTooltip": "quis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 598,
-  "PrefDescId": 289,
-  "TableName": "Barton, Spinka and Feest",
-  "UserPreferenceId": 710,
+  "TargetId": 2,
+  "PrefDescId": 617,
+  "TableName": "Schimmel, Muller and Graham",
+  "UserPreferenceId": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 693
     }
   }
 }

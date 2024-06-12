@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hahn, Waters and Ryan",
-  "Id": 659
+  "TableName": "Grimes, Johns and Rosenbaum",
+  "Id": 738
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "voluptas",
-    "Values2": "mollitia"
+    "Values1": "error",
+    "Values2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldLength": 145
     }
   }
 }

@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sequi",
-  "ProviderName": "Lehner, Jacobs and Zemlak",
-  "StorageKey": "beatae",
+  "StorageType": "qui",
+  "ProviderName": "Rau, Bayer and Lehner",
+  "StorageKey": "debitis",
   "StaticColumns": [
-    "facilis",
-    "nam"
+    "adipisci",
+    "molestias"
   ],
-  "Context": "quia"
+  "Context": "doloremque"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Harvey Group",
-      "Operator": "cupiditate",
+      "Name": "Cremin, Hodkiewicz and Carter",
+      "Operator": "perferendis",
       "Values": [
-        "sint",
-        "velit"
+        "ut",
+        "exercitationem"
       ],
       "DisplayValues": [
-        "commodi",
-        "suscipit"
+        "ut",
+        "aperiam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 27,
+      "InterParenthesis": 469,
       "InterOperator": "And",
-      "UniqueHash": 32
+      "UniqueHash": 389
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Gusikowski, Thiel and Stiedemann",
-      "DisplayTooltip": "est",
-      "DisplayType": "sed",
+      "DisplayName": "Haley-Schmidt",
+      "DisplayTooltip": "veniam",
+      "DisplayType": "ducimus",
       "CanOrderBy": false,
-      "Name": "Keebler, Moen and Walter",
-      "CanRestrictBy": true,
-      "RestrictionType": "nemo",
-      "RestrictionListName": "Koepp-Murazik",
+      "Name": "Dickinson-Huels",
+      "CanRestrictBy": false,
+      "RestrictionType": "in",
+      "RestrictionListName": "Marquardt LLC",
       "IsVisible": false,
-      "ExtraInfo": "veritatis",
-      "Width": "impedit",
-      "IconHint": "minus",
-      "HeadingIconHint": "consequatur"
+      "ExtraInfo": "magnam",
+      "Width": "quo",
+      "IconHint": "est",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crist LLC",
-      "PrimaryKey": 520,
+      "EntityName": "Purdy-Heathcote",
+      "PrimaryKey": 805,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "saepe",
-          "LinkHint": "repellendus"
+          "DisplayValue": "distinctio",
+          "TooltipHint": "aut",
+          "LinkHint": "sit"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "officia",
+      "LinkHint": "aut",
+      "StyleHint": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 964
+          "FieldType": "System.Int32",
+          "FieldLength": 413
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Turcotte Group",
-      "Description": "Front-line human-resource productivity",
-      "Rank": 281,
+      "Name": "Kemmer-Boyer",
+      "Description": "Advanced directional complexity",
+      "Rank": 928,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Turcotte Group",
-      "Description": "Front-line human-resource productivity",
-      "Rank": 281,
+      "Name": "Kemmer-Boyer",
+      "Description": "Advanced directional complexity",
+      "Rank": 928,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldLength": 829
     }
   }
 }

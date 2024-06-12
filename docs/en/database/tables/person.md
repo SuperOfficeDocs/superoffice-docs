@@ -70,6 +70,9 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |blockEmarketing|Do not send E-marketing materials to this person|Bool|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 |DeletedDate|Datetime (utc) when this record was soft-deleted; if this value is set then the record should not be shown|UtcDateTime|&#x25CF;|
+|created\_by\_form\_id|The form this person was created by|FK [form](form.md)|&#x25CF;|
+|modified\_by\_workflow\_id|The workflow this person last was modified by|FK [workflow](workflow.md)|&#x25CF;|
+|modified\_by\_workflow\_when|When the workflow modified this person|UtcDateTime|&#x25CF;|
 
 
 ![person table relationship diagram](./media/person.png)
@@ -99,6 +102,8 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |contact\_id, rank |FK, UShort |Index |
 |middleName |String(99) |Index |
 |DeletedDate |UtcDateTime |Index |
+|created\_by\_form\_id |FK |Index |
+|modified\_by\_workflow\_id |FK |Index |
 
 ## Relationships
 
@@ -120,6 +125,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
 |[Email](email.md)  |Email addresses for contacts, projects and persons |
 |[email\_item](email-item.md)  |Email data |
+|[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
 |[form\_submission](form-submission.md)  |A form submission |
 |[invoice](invoice.md)  |This table contains invoice entries, normally created when an invoice is sent to a customer, and we want to update the balance. |
 |[invoice\_sum](invoice-sum.md)  |This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies. |
@@ -153,6 +159,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[udpersonSmall](udpersonsmall.md)  |User-defined fields |
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[user\_candidate](user-candidate.md)  |This table will hold user candidate secrets |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
 
 

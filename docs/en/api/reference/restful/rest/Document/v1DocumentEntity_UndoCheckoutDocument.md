@@ -68,7 +68,7 @@ OK
 DELETE /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nemo",
-  "VersionId": "non",
+  "ExternalReference": "iste",
+  "VersionId": "dolore",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "nobis",
-  "AdditionalInfo": "facilis"
+  "Value": "dolores",
+  "AdditionalInfo": "nemo"
 }
 ```

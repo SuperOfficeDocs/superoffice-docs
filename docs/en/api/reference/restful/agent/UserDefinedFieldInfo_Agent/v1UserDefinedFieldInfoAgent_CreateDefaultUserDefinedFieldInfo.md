@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 382,
-  "ColumnId": 736,
-  "FieldDefault": "quia",
-  "FieldHeight": 757,
-  "FieldLabel": "inventore",
-  "FieldLeft": 14,
-  "FieldTop": 151,
+  "UDefFieldId": 867,
+  "ColumnId": 197,
+  "FieldDefault": "iusto",
+  "FieldHeight": 513,
+  "FieldLabel": "minus",
+  "FieldLeft": 707,
+  "FieldTop": 469,
   "FieldType": "Checkbox",
-  "FieldWidth": 48,
-  "FormatMask": "est",
+  "FieldWidth": 604,
+  "FormatMask": "voluptatibus",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 235,
-  "LabelLeft": 584,
-  "LabelTop": 144,
-  "LabelWidth": 895,
-  "LastVersionId": 162,
-  "ListTableId": 810,
-  "IsMandatory": false,
+  "LabelHeight": 600,
+  "LabelLeft": 353,
+  "LabelTop": 837,
+  "LabelWidth": 39,
+  "LastVersionId": 676,
+  "ListTableId": 759,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 437,
-  "ProgId": "recusandae",
+  "Page1LineNo": 617,
+  "ProgId": "blanditiis",
   "IsReadOnly": false,
-  "ShortLabel": "quos",
-  "TabOrder": 87,
-  "TextLength": 624,
-  "Tooltip": "quia",
-  "UdefIdentity": 708,
-  "UDListDefinitionId": 428,
+  "ShortLabel": "et",
+  "TabOrder": 117,
+  "TextLength": 53,
+  "Tooltip": "eveniet",
+  "UdefIdentity": 524,
+  "UDListDefinitionId": 996,
   "Justification": "Center",
-  "Version": 724,
-  "TemplateVariableName": "Medhurst-Sanford",
+  "Version": 498,
+  "TemplateVariableName": "Vandervort LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Schneider, Mante and Ernser",
+  "MdoListName": "Jones, Stoltenberg and Davis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 337
     }
   }
 }

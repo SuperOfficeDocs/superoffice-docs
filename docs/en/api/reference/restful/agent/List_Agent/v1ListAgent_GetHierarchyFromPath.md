@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "dolorem",
-  "Children": false
+  "Path": "at",
+  "Children": true
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 380,
+  "HierarchyId": 539,
   "Domain": "Dashboards",
-  "Name": "Stracke-Zboncak",
-  "Fullname": "aliquam",
-  "ParentId": 513,
+  "Name": "Mraz-Beier",
+  "Fullname": "inventore",
+  "ParentId": 731,
   "Children": [
     {
-      "HierarchyId": 917,
+      "HierarchyId": 471,
       "Domain": "Dashboards",
-      "Name": "Mante-Kemmer",
-      "Fullname": "quia",
-      "ParentId": 226,
+      "Name": "Bergnaum, O'Keefe and Cremin",
+      "Fullname": "sapiente",
+      "ParentId": 211,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-01-22T12:57:34.19609+01:00",
-      "RegisteredAssociateId": 353,
-      "Updated": "2022-07-12T12:57:34.19609+02:00",
-      "UpdatedAssociateId": 15,
+      "Registered": "2011-04-23T04:22:27.0173186+02:00",
+      "RegisteredAssociateId": 831,
+      "Updated": "2015-11-28T04:22:27.0173186+01:00",
+      "UpdatedAssociateId": 680,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldLength": 540
         }
       }
     }
   ],
-  "Registered": "2004-07-30T12:57:34.19609+02:00",
-  "RegisteredAssociateId": 838,
-  "Updated": "2005-10-22T12:57:34.19609+02:00",
-  "UpdatedAssociateId": 631,
+  "Registered": "2006-12-06T04:22:27.0173186+01:00",
+  "RegisteredAssociateId": 8,
+  "Updated": "2015-10-03T04:22:27.0173186+02:00",
+  "UpdatedAssociateId": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 440
     }
   }
 }

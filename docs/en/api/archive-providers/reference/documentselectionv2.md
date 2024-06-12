@@ -110,7 +110,7 @@ This is the archive Provider for the Selection document archive.
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -653,7 +653,7 @@ This is the archive Provider for the Selection document archive.
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -712,7 +712,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionV2?$select=person/personInfo/infoText,contact/saintDirection,project/projectAssociate/userName,project/projectUdef/SuperOffice:3,sale/probPercent
+GET /api/v1/archive/DocumentSelectionV2?$select=isMail,person/phone/formattedNumber,person/personAssociate/contactCategory,person/withdrawnStoreConsent,contact/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

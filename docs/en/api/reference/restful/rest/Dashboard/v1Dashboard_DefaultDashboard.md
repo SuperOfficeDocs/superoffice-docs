@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 213,
-  "AssociateId": 483,
-  "Caption": "omnis",
+  "DashboardId": 748,
+  "AssociateId": 868,
+  "Caption": "nobis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 843,
-      "Caption": "natus",
-      "Description": "Grass-roots 3rd generation collaboration",
-      "ChartName": "Ferry, Wintheiser and Abernathy",
-      "ChartId": "odio",
+      "DashboardTileId": 992,
+      "Caption": "qui",
+      "Description": "Polarised web-enabled knowledge user",
+      "ChartName": "Flatley-Cummerata",
+      "ChartId": "laboriosam",
       "IsDefault": false,
-      "AssociateId": 21,
-      "GroupId": 938,
-      "SelectionId": 413,
-      "Config": "ipsa",
+      "AssociateId": 376,
+      "GroupId": 294,
+      "SelectionId": 394,
+      "Config": "enim",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

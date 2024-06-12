@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Lakin Inc and Sons"
+  "OwnerName": "Schamberger, Vandervort and Jenkins"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 173,
-      "NumberOfLicensesFree": 963,
-      "NumberOfLicensesAdded": 732,
-      "NumberOfLicensesNewTotal": 615,
-      "NumberOfLicensesNewFree": 24,
-      "NumberOfLicensesTotal": 983
+      "NumberOfLicensesInUse": 648,
+      "NumberOfLicensesFree": 718,
+      "NumberOfLicensesAdded": 889,
+      "NumberOfLicensesNewTotal": 651,
+      "NumberOfLicensesNewFree": 951,
+      "NumberOfLicensesTotal": 435
     }
   ],
-  "AccumulatedNextCheckDate": "1999-07-05T12:57:34.0867473+02:00"
+  "AccumulatedNextCheckDate": "2018-03-01T04:22:26.8911471+01:00"
 }
 ```

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Cartwright, Will and Heathcote",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "Rank": 842,
+  "Id": 686,
+  "Name": "Rodriguez LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 926,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Koelpin Group",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 665,
+  "Id": 105,
+  "Name": "Ebert-Hegmann",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 762,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 480
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

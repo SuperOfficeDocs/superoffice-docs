@@ -136,33 +136,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 52,
-  "TopicId": 330,
+  "ChatSessionId": 935,
+  "TopicId": 383,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aliquid",
-  "CustomerHost": "omnis",
-  "CustomerName": "Gibson, Thiel and Stamm",
-  "CustomerEmail": "javier@greenholtkunze.uk",
-  "CustomerPhone": "705-138-1824",
+  "CustomerAlias": "nam",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Rowe-Welch",
+  "CustomerEmail": "efrain.murphy@bruen.info",
+  "CustomerPhone": "(030)676-6950 x82358",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Wilkinson Group",
+  "CustomerCompanyName": "Runolfsson Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "laudantium",
-  "LastMessage": "beatae",
-  "WhenRequested": "2005-01-18T12:57:41.8858847+01:00",
-  "WhenStarted": "2022-04-20T12:57:41.8858847+02:00",
-  "WhenEnded": "2018-06-06T12:57:41.8858847+02:00",
-  "WhenIdle": "2023-02-10T12:57:41.8858847+01:00",
-  "WhenFetched": "2020-11-14T12:57:41.8858847+01:00",
-  "SessionKey": "voluptates",
-  "InitialQueuePos": 460,
-  "AlertLevel": 977,
-  "Rank": 446,
+  "FirstMessage": "et",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2019-11-28T04:22:34.5933791+01:00",
+  "WhenStarted": "2006-05-21T04:22:34.5933791+02:00",
+  "WhenEnded": "2007-02-04T04:22:34.5933791+01:00",
+  "WhenIdle": "2018-07-30T04:22:34.5933791+02:00",
+  "WhenFetched": "2008-08-31T04:22:34.5933791+02:00",
+  "SessionKey": "dolore",
+  "InitialQueuePos": 301,
+  "AlertLevel": 349,
+  "Rank": 586,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 403
+  "Rating": 796
 }
 ```
 
@@ -181,29 +181,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 28,
-  "TopicId": 485,
+  "ChatSessionId": 97,
+  "TopicId": 423,
   "User": null,
   "Person": null,
-  "CustomerAlias": "autem",
-  "CustomerHost": "sapiente",
-  "CustomerName": "Grady Inc and Sons",
-  "CustomerEmail": "angelina_fay@mclaughlin.biz",
-  "CustomerPhone": "1-860-438-8148",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Gaylord, Skiles and Rodriguez",
+  "CustomerAlias": "consequuntur",
+  "CustomerHost": "pariatur",
+  "CustomerName": "Deckow LLC",
+  "CustomerEmail": "rory@krajcikolson.info",
+  "CustomerPhone": "(190)531-8445",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Mills, Rogahn and Hagenes",
   "Status": "Closed",
-  "FirstMessage": "enim",
-  "LastMessage": "nisi",
-  "WhenRequested": "2016-06-05T12:57:41.9015059+02:00",
-  "WhenStarted": "2001-04-17T12:57:41.9015059+02:00",
-  "WhenEnded": "2008-02-06T12:57:41.9015059+01:00",
-  "WhenIdle": "2007-12-05T12:57:41.9015059+01:00",
-  "WhenFetched": "1998-02-06T12:57:41.9015059+01:00",
+  "FirstMessage": "autem",
+  "LastMessage": "optio",
+  "WhenRequested": "2004-04-23T04:22:34.6090085+02:00",
+  "WhenStarted": "2004-10-03T04:22:34.6090085+02:00",
+  "WhenEnded": "2012-01-05T04:22:34.6090085+01:00",
+  "WhenIdle": "2017-05-20T04:22:34.6090085+02:00",
+  "WhenFetched": "2005-01-13T04:22:34.6090085+01:00",
   "SessionKey": "sint",
-  "InitialQueuePos": 924,
-  "AlertLevel": 202,
-  "Rank": 245,
+  "InitialQueuePos": 382,
+  "AlertLevel": 595,
+  "Rank": 664,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -211,18 +211,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 464,
+  "Rating": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldType": "System.Int32",
+      "FieldLength": 770
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

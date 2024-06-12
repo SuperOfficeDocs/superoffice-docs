@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "incidunt"
+  "MimeMessage": "quas"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 321,
-      "ContactName": "Kling-Adams",
-      "PersonId": 258,
-      "PersonName": "Boyer-Will",
-      "AssociateId": 216,
-      "Address": "voluptas",
-      "EmailId": 199,
+      "ContactId": 865,
+      "ContactName": "Kuvalis Group",
+      "PersonId": 287,
+      "PersonName": "Schultz, McCullough and Boyer",
+      "AssociateId": 403,
+      "Address": "laborum",
+      "EmailId": 150,
       "DuplicatePersonIds": [
-        757,
-        292
+        915,
+        799
       ],
-      "Name": "Funk, Trantow and Grant",
+      "Name": "Ritchie Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 220,
-      "ContactName": "Quigley Inc and Sons",
-      "PersonId": 889,
-      "PersonName": "Roob-Pfeffer",
-      "AssociateId": 739,
-      "Address": "qui",
-      "EmailId": 595,
+      "ContactId": 602,
+      "ContactName": "Baumbach, Wisozk and Rohan",
+      "PersonId": 534,
+      "PersonName": "Durgan, Boyer and Erdman",
+      "AssociateId": 537,
+      "Address": "nihil",
+      "EmailId": 488,
       "DuplicatePersonIds": [
-        360,
-        205
+        377,
+        286
       ],
-      "Name": "Jerde, Zieme and Sanford",
+      "Name": "O'Kon-Kuhlman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldType": "System.String",
+          "FieldLength": 24
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 488,
-      "ContactName": "Orn-Hermann",
-      "PersonId": 381,
-      "PersonName": "Spinka, Ankunding and White",
-      "AssociateId": 212,
-      "Address": "tenetur",
-      "EmailId": 977,
+      "ContactId": 734,
+      "ContactName": "Oberbrunner, Keeling and Fritsch",
+      "PersonId": 699,
+      "PersonName": "Witting-Swift",
+      "AssociateId": 189,
+      "Address": "possimus",
+      "EmailId": 839,
       "DuplicatePersonIds": [
-        99,
-        34
+        910,
+        229
       ],
-      "Name": "Hickle, Wolff and McCullough",
+      "Name": "O'Reilly LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 842
         }
       }
     }
   ],
-  "Subject": "architecto",
-  "HTMLBody": "voluptatem",
+  "Subject": "doloremque",
+  "HTMLBody": "alias",
   "From": null,
-  "Sent": "2004-05-18T12:57:33.9617687+02:00",
-  "Size": 472,
+  "Sent": "2018-06-03T04:22:26.7647342+02:00",
+  "Size": 173,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "perferendis",
-  "PlainBody": "sint",
+  "MessageID": "voluptatem",
+  "PlainBody": "suscipit",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 251,
+  "ServerId": 538,
   "Attachments": [
     {
-      "Description": "Realigned homogeneous software",
-      "Filename": "et",
-      "Size": 140,
-      "Type": "molestias",
-      "Encoding": "fugiat",
-      "Id": "sint",
-      "Disposition": "fuga",
+      "Description": "Phased leading edge functionalities",
+      "Filename": "perspiciatis",
+      "Size": 483,
+      "Type": "laboriosam",
+      "Encoding": "et",
+      "Id": "aut",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldType": "System.Int32",
+          "FieldLength": 433
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Oberbrunner, Schulist and Senger",
+      "Name": "Cassin, Maggio and Bogisich",
       "Values": [
-        "est",
-        "quo"
+        "dignissimos",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldType": "System.String",
+          "FieldLength": 575
         }
       }
     },
     {
-      "Name": "Oberbrunner, Schulist and Senger",
+      "Name": "Cassin, Maggio and Bogisich",
       "Values": [
-        "est",
-        "quo"
+        "dignissimos",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldType": "System.String",
+          "FieldLength": 575
         }
       }
     }
   ],
-  "FolderName": "Gerhold, Okuneva and Feest",
-  "EmailItemId": 314,
-  "AccountId": 914,
-  "ReceivedAt": "2018-04-25T12:57:33.9617687+02:00",
+  "FolderName": "Miller-Spencer",
+  "EmailItemId": 340,
+  "AccountId": 539,
+  "ReceivedAt": "2018-11-05T04:22:26.7647342+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-08-14T12:57:33.9617687+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2000-07-14T04:22:26.7803595+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 713
     }
   }
 }

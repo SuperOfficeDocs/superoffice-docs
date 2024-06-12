@@ -148,51 +148,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 444,
-  "ERPProductKey": "quaerat",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Kling LLC",
-  "Description": "Ameliorated holistic framework",
-  "Code": "nulla",
-  "PriceUnit": "quos",
-  "QuantityUnit": "eveniet",
-  "IsSubscription": true,
-  "SubscriptionUnit": "expedita",
-  "DefaultSubscriptionQuantity": 12460.784,
-  "ItemNumber": "346482",
+  "ProductId": 940,
+  "ERPProductKey": "possimus",
+  "ERPPriceListKey": "et",
+  "Name": "Reilly LLC",
+  "Description": "Up-sized bottom-line intranet",
+  "Code": "rem",
+  "PriceUnit": "atque",
+  "QuantityUnit": "nisi",
+  "IsSubscription": false,
+  "SubscriptionUnit": "in",
+  "DefaultSubscriptionQuantity": 22862.53,
+  "ItemNumber": "457981",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eum",
-  "ProductTypeKey": "illo",
-  "VAT": 16158.903999999999,
-  "VATInfo": "esse",
-  "UnitCost": 10574.116,
-  "UnitMinimumPrice": 4359.394,
-  "UnitListPrice": 10414.282,
-  "InAssortment": false,
-  "Supplier": "omnis",
-  "SupplierCode": "quod",
-  "Rights": "qui",
-  "Rule": "laudantium",
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "deleniti",
+  "VAT": 15080.807999999999,
+  "VATInfo": "inventore",
+  "UnitCost": 329.07,
+  "UnitMinimumPrice": 272.658,
+  "UnitListPrice": 14008.98,
+  "InAssortment": true,
+  "Supplier": "id",
+  "SupplierCode": "eveniet",
+  "Rights": "tenetur",
+  "Rule": "voluptatibus",
   "ExtraInfo": [
     {
-      "Name": "Reichel, Brekke and Sawayn",
-      "Value": "vel",
+      "Name": "Lueilwitz-Jaskolski",
+      "Value": "ad",
       "Type": "Image"
     },
     {
-      "Name": "Reichel, Brekke and Sawayn",
-      "Value": "vel",
+      "Name": "Lueilwitz-Jaskolski",
+      "Value": "ad",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "dolorem",
-  "ExtraField1": "velit",
-  "ExtraField2": "nulla",
-  "ExtraField3": "earum",
-  "ExtraField4": "ratione",
-  "ExtraField5": "vel",
-  "InStock": 20593.514
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "pariatur",
+  "ExtraField2": "rerum",
+  "ExtraField3": "necessitatibus",
+  "ExtraField4": "officiis",
+  "ExtraField5": "fugit",
+  "InStock": 9859.564
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 48,
-  "ERPProductKey": "tenetur",
-  "ERPPriceListKey": "blanditiis",
-  "Name": "Kozey-Stiedemann",
-  "Description": "Exclusive 6th generation capability",
-  "Code": "totam",
-  "PriceUnit": "omnis",
-  "QuantityUnit": "velit",
-  "IsSubscription": false,
-  "SubscriptionUnit": "rem",
-  "DefaultSubscriptionQuantity": 23201.002,
-  "ItemNumber": "1109769",
+  "ProductId": 874,
+  "ERPProductKey": "odit",
+  "ERPPriceListKey": "molestiae",
+  "Name": "Schamberger-Crist",
+  "Description": "Diverse eco-centric local area network",
+  "Code": "tempore",
+  "PriceUnit": "nobis",
+  "QuantityUnit": "neque",
+  "IsSubscription": true,
+  "SubscriptionUnit": "exercitationem",
+  "DefaultSubscriptionQuantity": 16513.046,
+  "ItemNumber": "550195",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "necessitatibus",
-  "ProductTypeKey": "et",
-  "VAT": 16384.552,
-  "VATInfo": "numquam",
-  "UnitCost": 3340.844,
-  "UnitMinimumPrice": 17572.338,
-  "UnitListPrice": 18960.7,
+  "ProductFamilyKey": "nulla",
+  "ProductTypeKey": "quis",
+  "VAT": 22489.584,
+  "VATInfo": "sit",
+  "UnitCost": 19593.768,
+  "UnitMinimumPrice": 965.27199999999993,
+  "UnitListPrice": 12228.868,
   "InAssortment": false,
-  "Supplier": "repudiandae",
-  "SupplierCode": "odio",
-  "Rights": "qui",
-  "Rule": "ea",
+  "Supplier": "quisquam",
+  "SupplierCode": "officiis",
+  "Rights": "explicabo",
+  "Rule": "occaecati",
   "ExtraInfo": [
     {
-      "Name": "Hintz LLC",
-      "Value": "quis",
+      "Name": "Kovacek Group",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 923
+          "FieldType": "System.Int32",
+          "FieldLength": 107
         }
       }
     },
     {
-      "Name": "Hintz LLC",
-      "Value": "quis",
+      "Name": "Kovacek Group",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 923
+          "FieldType": "System.Int32",
+          "FieldLength": 107
         }
       }
     }
   ],
-  "RawExtraInfo": "sunt",
-  "ExtraField1": "iusto",
-  "ExtraField2": "doloremque",
-  "ExtraField3": "assumenda",
-  "ExtraField4": "est",
-  "ExtraField5": "quod",
-  "InStock": 335.33799999999997,
+  "RawExtraInfo": "est",
+  "ExtraField1": "ad",
+  "ExtraField2": "accusamus",
+  "ExtraField3": "occaecati",
+  "ExtraField4": "atque",
+  "ExtraField5": "rerum",
+  "InStock": 26068.611999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 58
     }
   }
 }

@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 99,
-  "Year": 67,
+  "TargetGroupId": 599,
+  "Year": 889,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 595,
+      "TargetAssignmentInfoId": 239,
       "Values": [
-        468,
-        493
+        232,
+        393
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 627,
-      "DimensionListItemDisplayName": "Trantow, Sawayn and Stark"
+      "DimensionListItem": 751,
+      "DimensionListItemDisplayName": "Ward Group"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 152,
-  "Year": 311,
+  "TargetGroupId": 410,
+  "Year": 127,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 671,
+      "TargetAssignmentInfoId": 392,
       "Values": [
-        684,
-        503
+        24,
+        216
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 292,
-      "DimensionListItemDisplayName": "Hackett, Mitchell and Metz",
+      "DimensionListItem": 150,
+      "DimensionListItemDisplayName": "Schumm, Lind and Casper",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 894
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 116
     }
   }
 }

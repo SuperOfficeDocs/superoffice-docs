@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "voluptatem"
+  "TriggerScriptUniqueId": "et"
 }
 ```
 
@@ -96,16 +96,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "nesciunt",
-  "LineNumber": 416,
+  "Valid": true,
+  "ErrorMessage": "quos",
+  "LineNumber": 998,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 616
     }
   }
 }

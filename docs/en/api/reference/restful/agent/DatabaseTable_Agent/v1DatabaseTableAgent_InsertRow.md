@@ -73,10 +73,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Emmerich LLC",
+  "TableName": "Hoppe-O'Conner",
   "Values": {
-    "Values1": "nihil",
-    "Values2": "aliquid"
+    "Values1": "delectus",
+    "Values2": "quisquam"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-595
+624
 ```

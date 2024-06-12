@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 483,
-  "ParentId": 387,
-  "Name": "Huel-Mitchell",
-  "Fullname": "quis",
-  "CategoryMaster": 664,
+  "TicketCategoryId": 613,
+  "ParentId": 237,
+  "Name": "Bartell-Barrows",
+  "Fullname": "quisquam",
+  "CategoryMaster": 829,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McLaughlin-Kuphal",
+  "ExternalName": "Schaden, Kerluke and Herzog",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 142,
-  "ReplyTemplate": 383,
-  "NotificationEmail": "alene@champlin.name",
+  "AssignmentLag": 702,
+  "ReplyTemplate": 3,
+  "NotificationEmail": "oswaldo.marquardt@nicolas.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 228,
+  "EffectiveReplyTemplateId": 560,
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "et",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "vitae"
+    "CustomFields1": "minus",
+    "CustomFields2": "esse"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 852,
-  "ParentId": 234,
-  "Name": "Hirthe, Tillman and Dicki",
-  "Fullname": "consequuntur",
-  "CategoryMaster": 184,
+  "TicketCategoryId": 659,
+  "ParentId": 488,
+  "Name": "Swaniawski-Roob",
+  "Fullname": "quasi",
+  "CategoryMaster": 916,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Funk-Osinski",
+  "ExternalName": "D'Amore-Sporer",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 441,
-  "ReplyTemplate": 607,
-  "NotificationEmail": "santos@koepp.name",
+  "AssignmentLag": 444,
+  "ReplyTemplate": 622,
+  "NotificationEmail": "vesta@mohrlegros.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 309,
+  "EffectiveReplyTemplateId": 999,
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
-    "CustomFields2": "veniam"
+    "CustomFields1": "culpa",
+    "CustomFields2": "unde"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

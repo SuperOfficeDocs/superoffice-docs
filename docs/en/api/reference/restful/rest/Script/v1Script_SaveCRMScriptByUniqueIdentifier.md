@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "unde",
-  "Name": "Fahey LLC",
-  "Description": "Multi-tiered demand-driven encryption",
-  "IncludeId": "similique",
-  "Source": "harum",
-  "Registered": "2019-12-05T12:57:43.1989898+01:00",
-  "RegisteredBy": "pariatur",
-  "Updated": "2013-09-28T12:57:43.1989898+02:00",
-  "UpdatedBy": "totam",
-  "Path": "aut"
+  "UniqueIdentifier": "laborum",
+  "Name": "Kirlin, Kuvalis and Walker",
+  "Description": "Advanced bi-directional standardization",
+  "IncludeId": "fugit",
+  "Source": "aliquid",
+  "Registered": "2011-10-03T04:22:35.7053519+02:00",
+  "RegisteredBy": "accusamus",
+  "Updated": "2009-12-26T04:22:35.7053519+01:00",
+  "UpdatedBy": "quod",
+  "Path": "nihil"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dignissimos",
-  "Name": "Hilpert Group",
-  "Description": "Quality-focused 24 hour software",
-  "IncludeId": "beatae",
-  "Source": "minima",
-  "Registered": "2008-09-11T12:57:43.1989898+02:00",
-  "RegisteredBy": "ea",
-  "Updated": "2021-06-28T12:57:43.1989898+02:00",
-  "UpdatedBy": "modi",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "veritatis",
+  "Name": "Abernathy, Goyette and Erdman",
+  "Description": "User-friendly directional intranet",
+  "IncludeId": "sunt",
+  "Source": "dolor",
+  "Registered": "2010-05-12T04:22:35.7053519+02:00",
+  "RegisteredBy": "aut",
+  "Updated": "2003-05-01T04:22:35.7053519+02:00",
+  "UpdatedBy": "at",
+  "Path": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldLength": 890
     }
   }
 }

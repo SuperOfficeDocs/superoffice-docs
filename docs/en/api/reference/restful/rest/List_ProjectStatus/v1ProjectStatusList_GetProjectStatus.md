@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 299,
-  "Name": "Cremin-Bergnaum",
-  "Tooltip": "facilis",
+  "Id": 121,
+  "Name": "Reinger Group",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "UdListDefinitionId": 583,
-  "Rank": 7,
+  "UdListDefinitionId": 296,
+  "Rank": 872,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 730
     }
   }
 }

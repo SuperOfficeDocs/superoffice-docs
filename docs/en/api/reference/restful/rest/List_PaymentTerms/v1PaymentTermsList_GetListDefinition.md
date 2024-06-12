@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Mertz Group",
-  "Tooltip": "doloribus",
-  "Deleted": false,
-  "Rank": 651,
+  "Id": 942,
+  "Name": "Wisoky-Murray",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 647,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
-  "InUseByUserDefinedFields": false,
+  "ListType": "esse",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   },
   "_Links": {

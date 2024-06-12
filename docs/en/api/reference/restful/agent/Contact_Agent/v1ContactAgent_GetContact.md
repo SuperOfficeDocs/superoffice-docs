@@ -26,7 +26,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=79
+POST /api/v1/Agents/Contact/GetContact?contactId=297
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 51,
-  "Name": "Ankunding, Rolfson and Frami",
-  "OrgNr": "1579035",
+  "ContactId": 981,
+  "Name": "Conn-Shields",
+  "OrgNr": "1192276",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "officiis",
-  "DirectPhone": "(849)397-5484 x08922",
-  "AssociateId": 884,
-  "CountryId": 379,
-  "EmailAddress": "bernie.hintz@jacobsonberge.biz",
-  "Kananame": "aut",
-  "EmailAddressName": "amya.cronin@collier.uk",
+  "City": "soluta",
+  "DirectPhone": "581.279.1554",
+  "AssociateId": 406,
+  "CountryId": 176,
+  "EmailAddress": "keely.lowe@schmitt.info",
+  "Kananame": "aliquam",
+  "EmailAddressName": "lilly_lind@dicki.us",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Jayme Hegmann",
+  "AssociateFullName": "Russell Kunde",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "modi",
-  "FullName": "Bell Rodriguez",
+  "FormattedAddress": "corrupti",
+  "FullName": "Riley Ryan",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 390,
-  "Number1": "1319041",
-  "Number2": "1899207",
+  "ActiveErpLinks": 546,
+  "Number1": "1046770",
+  "Number2": "483192",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

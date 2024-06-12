@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 828,
-  "Name": "Jones-Heathcote",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "Rank": 523,
+  "Id": 407,
+  "Name": "Jacobs-Mraz",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 527,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": true,
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   },
   "_Links": {

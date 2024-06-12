@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 235,
-  "ColumnId": 282,
+  "UDefFieldId": 898,
+  "ColumnId": 113,
   "FieldDefault": "quo",
-  "FieldHeight": 86,
-  "FieldLabel": "dolores",
-  "FieldLeft": 905,
-  "FieldTop": 602,
+  "FieldHeight": 964,
+  "FieldLabel": "natus",
+  "FieldLeft": 109,
+  "FieldTop": 624,
   "FieldType": "Checkbox",
-  "FieldWidth": 751,
-  "FormatMask": "voluptate",
-  "HideLabel": false,
+  "FieldWidth": 221,
+  "FormatMask": "voluptates",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 541,
-  "LabelLeft": 367,
-  "LabelTop": 762,
-  "LabelWidth": 878,
-  "LastVersionId": 179,
-  "ListTableId": 65,
+  "LabelHeight": 865,
+  "LabelLeft": 16,
+  "LabelTop": 825,
+  "LabelWidth": 75,
+  "LastVersionId": 73,
+  "ListTableId": 701,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 734,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "nemo",
-  "TabOrder": 606,
-  "TextLength": 492,
-  "Tooltip": "beatae",
-  "UdefIdentity": 445,
-  "UDListDefinitionId": 511,
+  "Page1LineNo": 921,
+  "ProgId": "omnis",
+  "IsReadOnly": true,
+  "ShortLabel": "perspiciatis",
+  "TabOrder": 656,
+  "TextLength": 352,
+  "Tooltip": "magni",
+  "UdefIdentity": 378,
+  "UDListDefinitionId": 911,
   "Justification": "Center",
-  "Version": 787,
-  "TemplateVariableName": "Krajcik Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Bergstrom-Paucek",
+  "Version": 565,
+  "TemplateVariableName": "Becker-Bahringer",
+  "HasBeenPublished": true,
+  "MdoListName": "Hagenes-Mohr",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 507
     }
   }
 }

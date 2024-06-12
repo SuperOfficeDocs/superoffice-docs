@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=sint
-GET /api/v1/Relation?$top=782
-GET /api/v1/Relation?$skip=243
+GET /api/v1/Relation?$entities=est
+GET /api/v1/Relation?$top=560
+GET /api/v1/Relation?$skip=609
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=a
+GET /api/v1/Relation?$context=fugit
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "temporibus",
   "value": [
     {
-      "PrimaryKey": 9637,
+      "PrimaryKey": 5398,
       "EntityName": "sale",
-      "saleId": 9637,
-      "contactId": 4585,
-      "name": "Considine, McKenzie and Corkery"
+      "saleId": 5398,
+      "contactId": 392,
+      "name": "Tremblay, Doyle and Romaguera"
     },
     {
-      "PrimaryKey": 3164,
+      "PrimaryKey": 2634,
       "EntityName": "sale",
-      "saleId": 3164,
-      "contactId": 8814,
-      "name": "Heathcote LLC"
+      "saleId": 2634,
+      "contactId": 1651,
+      "name": "Hoppe-Swaniawski"
     }
   ]
 }

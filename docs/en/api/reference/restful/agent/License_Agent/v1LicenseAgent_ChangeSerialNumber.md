@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Considine-Bosco",
-  "NewSerialNumber": "580543"
+  "NewCompanyName": "O'Keefe Inc and Sons",
+  "NewSerialNumber": "1296836"
 }
 ```
 
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
+  "Succeeded": true,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

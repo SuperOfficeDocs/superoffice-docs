@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 460,
-  "Name": "Barrows, Auer and Schmeler",
-  "Tooltip": "beatae",
-  "Deleted": false,
-  "Rank": 705,
-  "UdListDefinitionId": 508
+  "HeadingId": 919,
+  "Name": "Torp, Walker and Bechtelar",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 790,
+  "UdListDefinitionId": 506
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 451,
-  "Name": "Denesik LLC",
-  "Tooltip": "inventore",
+  "HeadingId": 878,
+  "Name": "Cassin, Hane and Nolan",
+  "Tooltip": "atque",
   "Deleted": true,
-  "Rank": 218,
-  "UdListDefinitionId": 221,
+  "Rank": 325,
+  "UdListDefinitionId": 50,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 115
     }
   }
 }

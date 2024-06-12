@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 142,
-    "Tooltip": "qui",
-    "CanAssign": false,
-    "Free": 180,
-    "InUse": 372,
+    "Total": 311,
+    "Tooltip": "accusamus",
+    "CanAssign": true,
+    "Free": 602,
+    "InUse": 184,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 78,
-    "Name": "Metz, Haag and Renner",
-    "Description": "Synergistic stable orchestration",
-    "PrerequisiteModuleName": "Kuhic, Corwin and Aufderhar",
-    "SortOrder": 986,
-    "ExtraFlags": 737,
+    "ModuleLicenseId": 368,
+    "Name": "Greenholt LLC",
+    "Description": "Open-architected fault-tolerant capacity",
+    "PrerequisiteModuleName": "Lakin-Corkery",
+    "SortOrder": 625,
+    "ExtraFlags": 87,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 181
       }
     }
   }

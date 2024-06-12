@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Jacobson, Langworth and Reichert",
-  "AssociateId": 215,
-  "DetailsTable": 690,
-  "DetailsRecord": 840,
-  "IsSystemTask": false,
+  "Id": 954,
+  "Name": "Nienow, Schinner and Huels",
+  "AssociateId": 868,
+  "DetailsTable": 564,
+  "DetailsRecord": 21,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "corrupti",
-    "ParameterObject2": "sunt"
+    "ParameterObject1": "mollitia",
+    "ParameterObject2": "praesentium"
   },
-  "LastStarted": "2022-05-20T12:57:43.1061613+02:00",
-  "Created": "2015-06-10T12:57:43.1061613+02:00",
-  "StartCount": 87,
-  "DatabaseSerialNumber": "973469",
-  "Context": "sit",
-  "Result": "voluptates",
+  "LastStarted": "2014-04-06T04:22:35.6116053+02:00",
+  "Created": "1999-03-01T04:22:35.6116053+01:00",
+  "StartCount": 701,
+  "DatabaseSerialNumber": "189224",
+  "Context": "eos",
+  "Result": "ex",
   "State": "All",
-  "Description": "Phased context-sensitive alliance",
-  "Response": "assumenda",
-  "Request": "numquam",
-  "ProgressDescription": "Ameliorated bi-directional budgetary management",
-  "ProgressPercent": 40,
-  "FileName": "Bauch-Crona",
+  "Description": "Exclusive exuding synergy",
+  "Response": "tenetur",
+  "Request": "repudiandae",
+  "ProgressDescription": "Assimilated neutral local area network",
+  "ProgressPercent": 450,
+  "FileName": "Stark-Schiller",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 34
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

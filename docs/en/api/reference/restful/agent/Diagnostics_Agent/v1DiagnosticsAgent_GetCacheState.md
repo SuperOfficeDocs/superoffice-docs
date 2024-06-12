@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "West-Harvey",
-    "Rempel-Champlin"
+    "Walter Inc and Sons",
+    "Roob LLC"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"expedita"
+"cumque"
 ```

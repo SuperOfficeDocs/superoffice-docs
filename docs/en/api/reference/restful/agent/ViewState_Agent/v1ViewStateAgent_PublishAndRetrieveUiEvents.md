@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 428,
+  "LatestKnownEventId": 322,
   "PublishEvents": [
     {
-      "EventId": 281,
-      "EventName": "Mills Inc and Sons",
-      "EntityType": "blanditiis",
-      "EntityKey": 104,
-      "AssociateId": 75,
-      "AssociateName": "Wiegand, Walker and Willms",
-      "EventDateTime": "2010-08-06T12:57:35.5399144+02:00"
+      "EventId": 472,
+      "EventName": "Hammes Group",
+      "EntityType": "deleniti",
+      "EntityKey": 593,
+      "AssociateId": 929,
+      "AssociateName": "Mann-Veum",
+      "EventDateTime": "2004-02-02T04:22:28.1475044+01:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Schamberger Group",
-      "Value": 196
+      "Name": "Marquardt, Cruickshank and Parisian",
+      "Value": 900
     },
     {
-      "Name": "Schamberger Group",
-      "Value": 196
+      "Name": "Marquardt, Cruickshank and Parisian",
+      "Value": 900
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 347,
-    "EventName": "Abernathy Group",
-    "EntityType": "velit",
-    "EntityKey": 175,
-    "AssociateId": 237,
-    "AssociateName": "Rodriguez, Schowalter and McGlynn",
-    "EventDateTime": "2010-07-22T12:57:35.5399144+02:00",
+    "EventId": 385,
+    "EventName": "Dare Group",
+    "EntityType": "incidunt",
+    "EntityKey": 607,
+    "AssociateId": 902,
+    "AssociateName": "Sauer-Champlin",
+    "EventDateTime": "1997-04-17T04:22:28.1475044+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldLength": 993
       }
     }
   }

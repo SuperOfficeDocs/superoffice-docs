@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 994,
-  "CurrencyId": 329
+  "QuoteConnectionId": 675,
+  "CurrencyId": 648
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 98,
-    "ERPPriceListKey": "qui",
-    "QuoteConnectionId": 757,
-    "Name": "Sawayn Group",
-    "Description": "Networked holistic groupware",
-    "Currency": "velit",
-    "CurrencyName": "Lebsack-Lang",
-    "ValidFrom": "2017-05-24T12:57:34.7428121+02:00",
-    "ValidTo": "2013-09-08T12:57:34.7428121+02:00",
+    "PriceListId": 21,
+    "ERPPriceListKey": "voluptatibus",
+    "QuoteConnectionId": 998,
+    "Name": "Huel Inc and Sons",
+    "Description": "Function-based non-volatile frame",
+    "Currency": "autem",
+    "CurrencyName": "Dare-Walter",
+    "ValidFrom": "2024-01-08T04:22:27.4247427+01:00",
+    "ValidTo": "2021-03-16T04:22:27.4247427+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldLength": 358
       }
     }
   }

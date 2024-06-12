@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 236,
-  "Section": "tenetur",
-  "Key": "suscipit",
-  "Name": "Douglas, Abshire and Pagac",
+  "PrefDescId": 513,
+  "Section": "magnam",
+  "Key": "quae",
+  "Name": "Schmitt, Paucek and Heaney",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customer-focused systematic product",
+  "Description": "Fundamental systemic moratorium",
   "IsBuiltin": true,
-  "TableName": "Hahn-Olson",
-  "UserDefinedListId": 24,
-  "Rank": 407,
-  "SubGroup": "tempora",
-  "MinLevel": 221,
-  "MaxValue": 827,
-  "MinValue": 956,
-  "RequiredLicense": "quo",
+  "TableName": "Braun, Mraz and Jast",
+  "UserDefinedListId": 174,
+  "Rank": 843,
+  "SubGroup": "aut",
+  "MinLevel": 520,
+  "MaxValue": 519,
+  "MinValue": 799,
+  "RequiredLicense": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 963
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=quasi
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Keebler Group",
-    "ToolTip": "Optio mollitia et ut doloribus perferendis.",
+    "Id": 191,
+    "Name": "Hammes LLC",
+    "ToolTip": "Ea explicabo modi et deleniti.",
     "Deleted": false,
-    "Rank": 923,
-    "Type": "natus",
+    "Rank": 95,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Kerluke-Zemlak",
-        "ToolTip": "Vitae architecto eligendi ad et nemo.",
-        "Deleted": true,
-        "Rank": 180,
-        "Type": "minus",
+        "Id": 784,
+        "Name": "Walsh-Ebert",
+        "ToolTip": "Odit molestias enim et repellat esse assumenda.",
+        "Deleted": false,
+        "Rank": 309,
+        "Type": "aspernatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 268,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "ut",
-        "FullName": "Ashlynn Willms",
+        "IconHint": "voluptates",
+        "ColorBlock": 441,
+        "ExtraInfo": "sint",
+        "StyleHint": "quas",
+        "FullName": "Mr. Lemuel Valentine Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 647
+            "FieldType": "System.Int32",
+            "FieldLength": 587
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 513,
-    "ExtraInfo": "sed",
-    "StyleHint": "illum",
-    "FullName": "Hayley Huels",
+    "IconHint": "nam",
+    "ColorBlock": 929,
+    "ExtraInfo": "officiis",
+    "StyleHint": "doloremque",
+    "FullName": "Edna Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldType": "System.String",
+        "FieldLength": 179
       }
     }
   }

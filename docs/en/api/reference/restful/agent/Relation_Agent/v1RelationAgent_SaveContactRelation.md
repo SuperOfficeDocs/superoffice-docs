@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 264,
-  "SourcePersonId": 758,
-  "DestinationContactId": 908,
-  "DestinationPersonId": 969,
-  "RelationId": 104,
-  "Comment": "expedita",
-  "RelationDefinitionId": 614,
-  "Reversed": 952,
-  "UpdatedDate": "2003-01-12T12:57:34.7740549+01:00",
-  "CreatedDate": "2011-04-21T12:57:34.7740549+02:00",
+  "SourceContactId": 372,
+  "SourcePersonId": 479,
+  "DestinationContactId": 362,
+  "DestinationPersonId": 534,
+  "RelationId": 585,
+  "Comment": "ducimus",
+  "RelationDefinitionId": 246,
+  "Reversed": 698,
+  "UpdatedDate": "2013-06-27T04:22:27.4403662+02:00",
+  "CreatedDate": "2012-09-15T04:22:27.4403662+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jenkins-Kerluke",
-  "SourcePersonName": "Lebsack, Schoen and Keeling",
-  "DestinationContactName": "Fisher-Cronin",
-  "DestinationPersonName": "Erdman, Gorczany and Zulauf",
-  "ActiveText": "quidem",
-  "PassiveText": "sit",
+  "SourceContactName": "Monahan, Hand and D'Amore",
+  "SourcePersonName": "Harris, Koepp and Anderson",
+  "DestinationContactName": "Kertzmann, Bosco and Mayert",
+  "DestinationPersonName": "Olson Inc and Sons",
+  "ActiveText": "distinctio",
+  "PassiveText": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldLength": 652
     }
   }
 }

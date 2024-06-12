@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Cummerata Group",
-    "Oberbrunner, Rowe and Tillman"
+    "Goyette-Mayer",
+    "Balistreri, Mosciski and Bernhard"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  703,
-  702
+  110,
+  744
 ]
 ```

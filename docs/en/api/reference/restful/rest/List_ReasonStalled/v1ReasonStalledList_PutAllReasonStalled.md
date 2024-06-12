@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Wyman-Kshlerin",
-    "Tooltip": "quibusdam",
+    "Id": 351,
+    "Name": "Lang Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 863,
-    "Rank": 520
+    "UdListDefinitionId": 458,
+    "Rank": 860
   },
   {
-    "Id": 444,
-    "Name": "Wyman-Kshlerin",
-    "Tooltip": "quibusdam",
+    "Id": 351,
+    "Name": "Lang Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 863,
-    "Rank": 520
+    "UdListDefinitionId": 458,
+    "Rank": 860
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Kessler-Erdman",
-    "Tooltip": "quibusdam",
+    "Id": 604,
+    "Name": "Paucek Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 421,
+    "UdListDefinitionId": 932,
+    "Rank": 508,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 985
+        "FieldType": "System.Int32",
+        "FieldLength": 886
       }
     }
   }

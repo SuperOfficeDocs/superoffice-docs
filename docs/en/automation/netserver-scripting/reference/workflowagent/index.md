@@ -42,6 +42,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IWorkflowAgent'
 * [SaveWorkflowTrigger](saveworkflowtrigger.md)
 * [SaveWorkflowWaitForAction](saveworkflowwaitforaction.md)
 * [SendEvent](sendevent.md)
+* [SetStatusOnWorkflow](setstatusonworkflow.md)
 * [TryAddPersonsToEmailFlow](tryaddpersonstoemailflow.md)
 * [UpdateFormSubmissions](updateformsubmissions.md)
 

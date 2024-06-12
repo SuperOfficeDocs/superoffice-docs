@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 447,
-  "StartTime": "2012-06-20T12:57:33.6961763+02:00",
-  "EndTime": "2020-03-26T12:57:33.6961763+01:00",
-  "Count": 874,
+  "PersonId": 439,
+  "StartTime": "2011-04-10T04:22:26.4978545+02:00",
+  "EndTime": "2023-12-29T04:22:26.4978545+01:00",
+  "Count": 505,
   "DocumentTemplateIds": [
-    210,
-    922
+    657,
+    463
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 584,
-    "Attention": "aut",
-    "Header": "molestias",
-    "Name": "McCullough LLC",
-    "OurRef": "sunt",
-    "YourRef": "veniam",
-    "Description": "Proactive reciprocal parallelism",
-    "DocumentTemplate": "fugiat",
+    "DocumentId": 463,
+    "Attention": "architecto",
+    "Header": "eius",
+    "Name": "Kshlerin Inc and Sons",
+    "OurRef": "et",
+    "YourRef": "minus",
+    "Description": "Phased multimedia infrastructure",
+    "DocumentTemplate": "rem",
     "IsPublished": false,
-    "PersonId": 440,
-    "PersonFullName": "Prof. Ursula Jesus Watsica Jr.",
-    "AssociateFullName": "Katlynn O'Conner",
-    "ContactId": 237,
-    "ContactName": "Gleason, Beer and Marquardt",
-    "ProjectId": 830,
-    "ProjectName": "Harber Inc and Sons",
-    "AssociateId": 671,
-    "Snum": 423,
-    "SaleId": 438,
-    "SaleName": "Rohan-Paucek",
+    "PersonId": 272,
+    "PersonFullName": "Mariane Steuber",
+    "AssociateFullName": "Breanna Emard MD",
+    "ContactId": 845,
+    "ContactName": "Wilkinson-Rippin",
+    "ProjectId": 347,
+    "ProjectName": "Kassulke Inc and Sons",
+    "AssociateId": 137,
+    "Snum": 176,
+    "SaleId": 654,
+    "SaleName": "Walter Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 828
       }
     }
   }

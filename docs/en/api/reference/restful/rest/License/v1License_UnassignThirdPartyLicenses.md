@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 603,
-    "Tooltip": "aut",
+    "Total": 640,
+    "Tooltip": "sed",
     "CanAssign": true,
-    "Free": 818,
-    "InUse": 417,
+    "Free": 929,
+    "InUse": 44,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 648,
-    "Name": "Cronin LLC",
-    "Description": "Configurable systematic parallelism",
-    "PrerequisiteModuleName": "Dietrich-Stoltenberg",
-    "SortOrder": 994,
-    "ExtraFlags": 676,
+    "ModuleLicenseId": 33,
+    "Name": "Gibson-Jacobson",
+    "Description": "Horizontal 4th generation archive",
+    "PrerequisiteModuleName": "Schultz Group",
+    "SortOrder": 116,
+    "ExtraFlags": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 463
       }
     }
   }

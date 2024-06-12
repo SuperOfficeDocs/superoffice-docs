@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 48,
-  "ERPName": "Bahringer-Glover",
-  "DisplayName": "Green-Yundt",
-  "DisplayDescription": "Programmable methodical policy",
-  "Rank": 43,
-  "ConnectorName": "Mraz-Fisher",
-  "ErpConnectionId": 302,
-  "ExtraData": "alias",
+  "QuoteConnectionId": 398,
+  "ERPName": "Crona, Davis and O'Conner",
+  "DisplayName": "Herman-Treutel",
+  "DisplayDescription": "Phased 24/7 core",
+  "Rank": 434,
+  "ConnectorName": "Hodkiewicz, Johnston and Kihn",
+  "ErpConnectionId": 353,
+  "ExtraData": "ducimus",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 702,
-      "ERPPriceListKey": "aut",
-      "QuoteConnectionId": 622,
-      "Name": "Bogan, Rodriguez and Reynolds",
-      "Description": "Profound intermediate monitoring",
-      "Currency": "dicta",
-      "CurrencyName": "Lemke-Lowe",
-      "ValidFrom": "2009-04-03T12:57:34.7428121+02:00",
-      "ValidTo": "2016-07-19T12:57:34.7428121+02:00",
+      "PriceListId": 517,
+      "ERPPriceListKey": "commodi",
+      "QuoteConnectionId": 265,
+      "Name": "Doyle-Koch",
+      "Description": "Cloned intermediate conglomeration",
+      "Currency": "eum",
+      "CurrencyName": "Lehner, Schulist and O'Conner",
+      "ValidFrom": "2001-03-27T04:22:27.4247427+02:00",
+      "ValidTo": "2001-07-17T04:22:27.4247427+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldType": "System.String",
+          "FieldLength": 449
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    158,
-    116
+    787,
+    34
   ],
   "AssociateAccessIds": [
-    129,
-    604
+    649,
+    297
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 464
     }
   }
 }

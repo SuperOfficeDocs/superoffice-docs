@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Dash/AddNewTileToDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 2,
+  "DashboardId": 280,
   "DashTileDefinition": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 989,
-  "DashboardId": 49,
-  "Height": 462,
-  "Width": 330,
-  "Rank": 670,
+  "DashboardTileId": 95,
+  "DashboardId": 315,
+  "Height": 848,
+  "Width": 182,
+  "Rank": 616,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   }
 }

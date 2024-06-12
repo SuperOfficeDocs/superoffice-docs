@@ -26,7 +26,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=866
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=106
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 513,
-  "Name": "Krajcik Group",
-  "Tooltip": "distinctio",
+  "WebPanelId": 963,
+  "Name": "Rosenbaum Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 659,
+  "Rank": 509,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Koch, Lemke and Predovic",
+  "ShowInStatusBar": false,
+  "WindowName": "Ullrich-Huel",
   "Url": "http://www.example.com/",
-  "ProgId": "enim",
-  "Icon": 54,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "corrupti",
+  "Icon": 625,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 751
     }
   }
 }

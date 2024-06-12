@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Boyle-Dietrich",
-  "IncludeStandard": false
+  "TableName": "Langosh-Kessler",
+  "IncludeStandard": true
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schoen-Hackett",
-    "DisplayName": "Aufderhar-Tillman",
-    "Description": "Customizable 5th generation project",
-    "ShortLabel": "quia",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "FieldName": "Schulist Inc and Sons",
+    "DisplayName": "Quitzon, Rath and Hackett",
+    "Description": "Switchable content-based benchmark",
+    "ShortLabel": "illum",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 201,
-    "TemplateVariableName": "Huels LLC"
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 70,
+    "TemplateVariableName": "Block, Monahan and Bechtelar"
   }
 ]
 ```

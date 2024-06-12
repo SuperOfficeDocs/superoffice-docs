@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Littel Inc and Sons"
+  "HistoryName": "Schamberger, D'Amore and Tremblay"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 760,
-    "Id": 349,
-    "HistoryName": "Gulgowski-Rau",
-    "HistoryId": 137,
-    "AssociateId": 465,
-    "Name": "Douglas-Volkman",
-    "ItemInfo": "sint",
+    "Rank": 151,
+    "Id": 671,
+    "HistoryName": "Brown, Schmidt and Mann",
+    "HistoryId": 291,
+    "AssociateId": 885,
+    "Name": "Beier-Grady",
+    "ItemInfo": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 820
       }
     }
   }

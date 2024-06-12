@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 415,
-    "Name": "Hickle-Dibbert",
-    "Tooltip": "rem",
+    "HeadingId": 55,
+    "Name": "Runte-Parisian",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 627,
-    "UdListDefinitionId": 172
+    "Rank": 852,
+    "UdListDefinitionId": 340
   },
   {
-    "HeadingId": 415,
-    "Name": "Hickle-Dibbert",
-    "Tooltip": "rem",
+    "HeadingId": 55,
+    "Name": "Runte-Parisian",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 627,
-    "UdListDefinitionId": 172
+    "Rank": 852,
+    "UdListDefinitionId": 340
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 36,
-    "Name": "Pfeffer, Waters and McDermott",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 162,
-    "UdListDefinitionId": 39,
+    "HeadingId": 218,
+    "Name": "DuBuque-Ankunding",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 597,
+    "UdListDefinitionId": 997,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldLength": 151
       }
     }
   }

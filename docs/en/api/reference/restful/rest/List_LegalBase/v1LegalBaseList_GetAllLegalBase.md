@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 875,
-    "Name": "Stiedemann-Schoen",
-    "Tooltip": "dolorem",
-    "Rank": 351,
-    "Key": "sunt",
+    "LegalBaseId": 498,
+    "Name": "Murazik LLC",
+    "Tooltip": "nisi",
+    "Rank": 583,
+    "Key": "ea",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 383
       }
     }
   }

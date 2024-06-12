@@ -95,35 +95,35 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 17,
-  "Name": "Berge-Romaguera",
-  "Rank": 324,
-  "Tooltip": "cupiditate",
-  "Icon": "repellendus",
-  "DefaultTicketStatus": 767,
+  "TicketTypeId": 285,
+  "Name": "McDermott-Kerluke",
+  "Rank": 816,
+  "Tooltip": "fugiat",
+  "Icon": "sint",
+  "DefaultTicketStatus": 431,
   "TicketStatuses": [
-    218,
-    485
+    755,
+    870
   ],
-  "DefaultTicketPriority": 459,
+  "DefaultTicketPriority": 82,
   "TicketPriorities": [
-    100,
-    64
+    9,
+    285
   ],
-  "ReplyTemplate": 505,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 485,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    238,
-    651
+    479,
+    470
   ]
 }
 ```
@@ -135,38 +135,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 22,
-  "Name": "Bogan Group",
-  "Rank": 799,
-  "Tooltip": "placeat",
+  "TicketTypeId": 694,
+  "Name": "Pacocha Group",
+  "Rank": 656,
+  "Tooltip": "porro",
   "Icon": "qui",
-  "DefaultTicketStatus": 881,
+  "DefaultTicketStatus": 817,
   "TicketStatuses": [
-    772,
-    617
+    205,
+    198
   ],
-  "DefaultTicketPriority": 236,
+  "DefaultTicketPriority": 743,
   "TicketPriorities": [
-    879,
-    537
+    410,
+    901
   ],
-  "ReplyTemplate": 257,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 952,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    649,
-    165
+    238,
+    410
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 836
     }
   }
 }

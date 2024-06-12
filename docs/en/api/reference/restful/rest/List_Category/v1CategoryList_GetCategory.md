@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Mills-Blick",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "UdListDefinitionId": 649,
-  "Rank": 413,
+  "Id": 563,
+  "Name": "Schaden, McGlynn and Collier",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 862,
+  "Rank": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 727
     }
   }
 }

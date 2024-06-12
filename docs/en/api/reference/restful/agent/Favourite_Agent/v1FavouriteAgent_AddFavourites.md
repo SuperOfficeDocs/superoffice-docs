@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wuckert, Cummerata and Kemmer",
+  "TableName": "Stiedemann-Macejkovic",
   "RecordIds": [
-    328,
-    832
+    355,
+    197
   ],
-  "AssociateId": 949,
-  "ExtraInfo": "excepturi"
+  "AssociateId": 315,
+  "ExtraInfo": "repellat"
 }
 ```
 

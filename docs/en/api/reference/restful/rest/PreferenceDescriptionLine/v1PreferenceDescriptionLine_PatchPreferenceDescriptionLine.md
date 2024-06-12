@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quisquam",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 515,
-  "PrefDescId": 420,
-  "PrefValue": "quos",
-  "PrefShowValue": "nostrum",
-  "Description": "Managed bandwidth-monitored strategy",
-  "IsBuiltin": true,
+  "PrefDescLineId": 929,
+  "PrefDescId": 355,
+  "PrefValue": "illo",
+  "PrefShowValue": "alias",
+  "Description": "Robust modular contingency",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   },
   "_Links": {

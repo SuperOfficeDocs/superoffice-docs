@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 742,
-  "Section": "velit",
-  "Key": "fugit",
-  "Name": "Kling, Conn and Heaney",
+  "PrefDescId": 926,
+  "Section": "cumque",
+  "Key": "at",
+  "Name": "Mayert-Stamm",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed dynamic implementation",
-  "IsBuiltin": false,
-  "TableName": "Koepp Inc and Sons",
-  "UserDefinedListId": 897,
-  "Rank": 469,
-  "SubGroup": "quis",
-  "MinLevel": 1000,
-  "MaxValue": 961,
-  "MinValue": 111,
-  "RequiredLicense": "vel"
+  "Description": "Streamlined 24 hour emulation",
+  "IsBuiltin": true,
+  "TableName": "Streich-Waters",
+  "UserDefinedListId": 514,
+  "Rank": 590,
+  "SubGroup": "doloremque",
+  "MinLevel": 195,
+  "MaxValue": 959,
+  "MinValue": 763,
+  "RequiredLicense": "blanditiis"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 695,
-  "Section": "quia",
-  "Key": "eos",
-  "Name": "McGlynn LLC",
+  "PrefDescId": 569,
+  "Section": "pariatur",
+  "Key": "quibusdam",
+  "Name": "Jones, Flatley and Cummerata",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused bottom-line parallelism",
+  "Description": "Integrated optimal function",
   "IsBuiltin": false,
-  "TableName": "Kub Inc and Sons",
-  "UserDefinedListId": 804,
-  "Rank": 239,
-  "SubGroup": "animi",
-  "MinLevel": 933,
-  "MaxValue": 982,
-  "MinValue": 353,
-  "RequiredLicense": "odit",
+  "TableName": "Schneider-Zieme",
+  "UserDefinedListId": 976,
+  "Rank": 9,
+  "SubGroup": "rerum",
+  "MinLevel": 79,
+  "MaxValue": 422,
+  "MinValue": 357,
+  "RequiredLicense": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 978
     }
   }
 }

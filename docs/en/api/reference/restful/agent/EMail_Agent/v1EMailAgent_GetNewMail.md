@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    828,
-    237
+    201,
+    86
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 815,
-    "MessageId": "nostrum",
-    "Subject": "reiciendis",
+    "ServerId": 107,
+    "MessageId": "aut",
+    "Subject": "atque",
     "From": null,
     "To": [
       {
-        "ContactId": 823,
-        "ContactName": "Tromp-Conn",
-        "PersonId": 558,
-        "PersonName": "Denesik LLC",
-        "AssociateId": 770,
-        "Address": "ratione",
-        "EmailId": 343,
+        "ContactId": 869,
+        "ContactName": "Paucek, Batz and Schulist",
+        "PersonId": 470,
+        "PersonName": "Corwin Inc and Sons",
+        "AssociateId": 661,
+        "Address": "impedit",
+        "EmailId": 31,
         "DuplicatePersonIds": [
-          267,
-          448
+          737,
+          615
         ],
-        "Name": "Daugherty-Farrell",
+        "Name": "Heaney, Mayer and Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 202
+            "FieldType": "System.String",
+            "FieldLength": 499
           }
         }
       }
     ],
-    "Sent": "1998-12-08T12:57:33.8680399+01:00",
+    "Sent": "2015-08-07T04:22:26.686607+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 531,
+    "Size": 836,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 811
       }
     }
   }

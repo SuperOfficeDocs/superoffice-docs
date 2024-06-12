@@ -103,7 +103,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 50
+  "EjUserId": 253
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 698,
-    "Name": "Bernhard LLC",
-    "Rank": 879,
-    "Tooltip": "magni",
+    "AssociateId": 421,
+    "Name": "Schoen Group",
+    "Rank": 72,
+    "Tooltip": "ducimus",
     "LicenseOwners": [
       {
-        "Name": "Sanford-Farrell",
-        "Description": "Synchronised even-keeled groupware",
+        "Name": "Crist-Schultz",
+        "Description": "Switchable discrete forecast",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldLength": 828
           }
         }
       },
       {
-        "Name": "Sanford-Farrell",
-        "Description": "Synchronised even-keeled groupware",
+        "Name": "Crist-Schultz",
+        "Description": "Switchable discrete forecast",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldLength": 828
           }
         }
       }
@@ -165,102 +165,102 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "autem",
-        "Tooltip": "hic",
-        "Id": 193,
-        "Rank": 325,
+        "Value": "modi",
+        "Tooltip": "ea",
+        "Id": 617,
+        "Rank": 635,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 92
+            "FieldType": "System.Int32",
+            "FieldLength": 3
           }
         }
       }
     ],
     "Person": null,
-    "Deleted": false,
-    "Lastlogin": "2023-12-20T12:57:35.5086716+01:00",
-    "Lastlogout": "2004-07-18T12:57:35.5086716+02:00",
-    "EjUserId": 781,
-    "RequestSignature": "consequuntur",
+    "Deleted": true,
+    "Lastlogin": "2022-02-24T04:22:28.1318785+01:00",
+    "Lastlogout": "2020-02-18T04:22:28.1318785+01:00",
+    "EjUserId": 294,
+    "RequestSignature": "est",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
-    "IsOnTravel": true,
+    "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "aut",
-        "DisplayValue": "dignissimos",
+        "Value": "deserunt",
+        "DisplayValue": "quod",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 831
+            "FieldType": "System.String",
+            "FieldLength": 72
           }
         }
       },
       {
         "Type": null,
-        "Value": "aut",
-        "DisplayValue": "dignissimos",
+        "Value": "deserunt",
+        "DisplayValue": "quod",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 831
+            "FieldType": "System.String",
+            "FieldLength": 72
           }
         }
       }
     ],
-    "UserName": "Wintheiser Group",
+    "UserName": "DuBuque, Kirlin and Wuckert",
     "TicketCategories": [
       {
-        "Id": 45,
-        "Name": "Crooks, Balistreri and Collins",
-        "ToolTip": "Tenetur facere sed.",
-        "Deleted": true,
-        "Rank": 353,
-        "Type": "sunt",
+        "Id": 865,
+        "Name": "Purdy-Adams",
+        "ToolTip": "Et quo.",
+        "Deleted": false,
+        "Rank": 695,
+        "Type": "rem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 670,
-        "ExtraInfo": "libero",
-        "StyleHint": "ullam",
-        "FullName": "Evangeline Hodkiewicz",
+        "IconHint": "occaecati",
+        "ColorBlock": 936,
+        "ExtraInfo": "sit",
+        "StyleHint": "qui",
+        "FullName": "Toni Grover Emard PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldType": "System.String",
+            "FieldLength": 851
           }
         }
       }
     ],
-    "NickName": "Collins-Hagenes",
+    "NickName": "Hermann, Kuhn and Ratke",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "ab",
-      "ExtraFields2": "consequatur"
+      "ExtraFields1": "sunt",
+      "ExtraFields2": "quaerat"
     },
     "CustomFields": {
-      "CustomFields1": "corrupti",
-      "CustomFields2": "harum"
+      "CustomFields1": "modi",
+      "CustomFields2": "et"
     },
     "PostSaveCommands": [
       {
-        "Name": "Weimann-Abbott",
-        "DisplayName": "Simonis, Grant and Jacobs",
-        "Description": "Mandatory encompassing encryption",
-        "ToolTip": "Et ea veritatis dignissimos doloremque.",
+        "Name": "Robel, Bartoletti and Senger",
+        "DisplayName": "Waters, Schamberger and Kuhn",
+        "Description": "Stand-alone holistic ability",
+        "ToolTip": "Ut laboriosam quas enim aliquid optio adipisci enim.",
         "Actions": "Implicit",
         "ActionData": "natus",
         "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 633
           }
         }
       }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 453
+        "FieldType": "System.Int32",
+        "FieldLength": 392
       }
     }
   }

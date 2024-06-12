@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "Hudson-Macejkovic",
-    "ToolTip": "Repudiandae voluptas culpa dignissimos quis.",
+    "Id": 427,
+    "Name": "Koepp, Thompson and Gulgowski",
+    "ToolTip": "Culpa minus dicta velit consequatur est.",
     "Deleted": false,
-    "Rank": 444,
-    "Type": "et",
-    "ColorBlock": 543,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2023-07-19T12:57:43.6363894+02:00",
+    "Rank": 994,
+    "Type": "adipisci",
+    "ColorBlock": 401,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "1998-02-03T04:22:36.0965902+01:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Weimann LLC",
-        "ToolTip": "Dolore mollitia sint ad fugit laboriosam molestias fugiat.",
+        "Id": 36,
+        "Name": "Rath LLC",
+        "ToolTip": "Aut sint.",
         "Deleted": false,
-        "Rank": 593,
-        "Type": "iste",
-        "ColorBlock": 521,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2006-11-21T12:57:43.6363894+01:00",
+        "Rank": 4,
+        "Type": "esse",
+        "ColorBlock": 147,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "1997-07-11T04:22:36.0965902+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Clementina Iva Murphy Sr.",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Katelin Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 357
+            "FieldType": "System.Int32",
+            "FieldLength": 258
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "odit",
+    "ExtraInfo": "et",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Prof. Reid Delbert Sanford I",
+    "FullName": "Cheyenne Greenholt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldType": "System.String",
+        "FieldLength": 150
       }
     }
   }

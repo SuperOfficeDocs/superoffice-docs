@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,11 +70,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 790,
-  "NumTemplatesAlreadyMigrated": 38,
+  "NumTemplatesOmitted": 928,
+  "NumTemplatesAlreadyMigrated": 326,
   "TemplateIds": [
-    486,
-    668
+    949,
+    823
   ]
 }
 ```

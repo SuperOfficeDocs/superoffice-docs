@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 883,
-    "Name": "Boehm-Beer",
-    "Tooltip": "qui",
+    "HeadingId": 730,
+    "Name": "Gutmann-Spinka",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 62,
-    "UdListDefinitionId": 153,
+    "Rank": 640,
+    "UdListDefinitionId": 514,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 52
       }
     }
   }

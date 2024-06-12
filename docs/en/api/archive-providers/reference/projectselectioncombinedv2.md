@@ -173,7 +173,7 @@ Implementation of the provider for the combined selection
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -266,7 +266,7 @@ Implementation of the provider for the combined selection
 |appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|appointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -459,7 +459,7 @@ Implementation of the provider for the combined selection
 |projectMember/isProjectMember|bool|Is project member: This person is a project member| x |
 |projectMember/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |projectMember/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|projectMember/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|projectMember/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |projectMember/createdByForm|listAny|Created by form: Created by form| x |
 |projectMember/phone/formattedNumber|string|Phone : Displays phone number|  |
 |projectMember/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -790,7 +790,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectAssociate/contactFullName,sale/associate/personEmail,appointment/isMilestone,document/completed,projectMember/personUrl/URLAddress
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=NumberOfSales,sale/projectId,appointment/recurring,document/documentId,projectMember/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

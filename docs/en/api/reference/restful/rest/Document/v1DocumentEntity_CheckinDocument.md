@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Grass-roots human-resource toolset
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=nesciunt,adipisci
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Synergistic exuding superstructure
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=ea,velit
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "animi",
-  "VersionId": "est",
-  "Success": false,
+  "ExternalReference": "ipsa",
+  "VersionId": "rerum",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "quasi",
-  "AdditionalInfo": "qui"
+  "Value": "odit",
+  "AdditionalInfo": "et"
 }
 ```

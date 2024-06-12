@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 247,
-    "Name": "Johns, Hudson and Romaguera",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 739,
-    "UdListDefinitionId": 257
+    "HeadingId": 431,
+    "Name": "Nikolaus-Kertzmann",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 101,
+    "UdListDefinitionId": 802
   },
   {
-    "HeadingId": 247,
-    "Name": "Johns, Hudson and Romaguera",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 739,
-    "UdListDefinitionId": 257
+    "HeadingId": 431,
+    "Name": "Nikolaus-Kertzmann",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 101,
+    "UdListDefinitionId": 802
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 550,
-    "Name": "Wolff-Abbott",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 873,
-    "UdListDefinitionId": 103,
+    "HeadingId": 858,
+    "Name": "Rippin-Spinka",
+    "Tooltip": "nostrum",
+    "Deleted": true,
+    "Rank": 770,
+    "UdListDefinitionId": 141,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 682
       }
     }
   }

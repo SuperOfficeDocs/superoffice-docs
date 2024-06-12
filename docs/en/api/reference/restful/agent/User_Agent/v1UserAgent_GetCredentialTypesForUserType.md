@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "quo",
-    "Type": "rerum",
-    "Description": "Ergonomic 4th generation data-warehouse",
+    "DisplayType": "nulla",
+    "Type": "aut",
+    "Description": "Reduced bottom-line parallelism",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 733
+        "FieldLength": 850
       }
     }
   }

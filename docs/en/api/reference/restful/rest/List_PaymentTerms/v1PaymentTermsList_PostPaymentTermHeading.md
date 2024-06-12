@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 509,
-  "Name": "Ruecker, Abernathy and Corkery",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "Rank": 848,
-  "UdListDefinitionId": 884
+  "HeadingId": 567,
+  "Name": "Prohaska Inc and Sons",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "Rank": 237,
+  "UdListDefinitionId": 920
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 842,
-  "Name": "Bosco-Dickens",
-  "Tooltip": "et",
+  "HeadingId": 197,
+  "Name": "Schaefer, Koss and Douglas",
+  "Tooltip": "animi",
   "Deleted": true,
-  "Rank": 793,
-  "UdListDefinitionId": 88,
+  "Rank": 296,
+  "UdListDefinitionId": 186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

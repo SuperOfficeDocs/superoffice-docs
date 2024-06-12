@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stroman-Ratke",
-  "DeviceName": "Ledner, Hodkiewicz and Larkin",
-  "KeyName": "Vandervort LLC",
-  "TableName": "Stiedemann-Crist",
-  "RecordId": 108
+  "ApplicationName": "Mitchell, Treutel and Mohr",
+  "DeviceName": "Pagac-Hayes",
+  "KeyName": "Hoppe Inc and Sons",
+  "TableName": "Schultz LLC",
+  "RecordId": 732
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nulla",
-  "Value": "non",
-  "RecordId": 255,
-  "CreatedDate": "1997-11-25T12:57:34.0554972+01:00",
-  "UpdatedDate": "1997-10-03T12:57:34.0554972+02:00",
-  "UpdatedBy": "officiis",
-  "CreatedBy": "deserunt",
-  "TableName": "Leuschke-Gorczany",
+  "Key": "impedit",
+  "Value": "praesentium",
+  "RecordId": 916,
+  "CreatedDate": "2002-02-14T04:22:26.8755249+01:00",
+  "UpdatedDate": "2007-08-15T04:22:26.8755249+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "at",
+  "TableName": "Connelly, Kunze and Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 624
     }
   }
 }

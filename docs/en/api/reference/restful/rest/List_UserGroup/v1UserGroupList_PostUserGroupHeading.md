@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 552,
-  "Name": "Schinner LLC",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "Rank": 927,
-  "UdListDefinitionId": 667
+  "HeadingId": 877,
+  "Name": "Larson Group",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 470,
+  "UdListDefinitionId": 370
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 702,
-  "Name": "Pacocha LLC",
-  "Tooltip": "voluptas",
+  "HeadingId": 394,
+  "Name": "D'Amore, Hettinger and Will",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 846,
-  "UdListDefinitionId": 703,
+  "Rank": 316,
+  "UdListDefinitionId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 758
     }
   }
 }

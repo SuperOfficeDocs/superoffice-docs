@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Christiansen-Terry",
-  "AssociateId": 268,
-  "DetailsTable": 615,
-  "DetailsRecord": 889,
+  "Id": 144,
+  "Name": "Rath Inc and Sons",
+  "AssociateId": 111,
+  "DetailsTable": 375,
+  "DetailsRecord": 227,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ut",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "facere",
+    "ParameterObject2": "ullam"
   },
-  "LastStarted": "2003-03-29T12:57:34.805298+01:00",
-  "Created": "1998-07-18T12:57:34.805298+02:00",
-  "StartCount": 814,
-  "DatabaseSerialNumber": "1042725",
-  "Context": "saepe",
-  "Result": "eius",
+  "LastStarted": "2013-01-26T04:22:27.4822532+01:00",
+  "Created": "2011-11-11T04:22:27.4822532+01:00",
+  "StartCount": 201,
+  "DatabaseSerialNumber": "1114908",
+  "Context": "voluptas",
+  "Result": "eaque",
   "State": "All",
-  "Description": "Centralized content-based framework",
-  "Response": "quam",
-  "Request": "est",
-  "ProgressDescription": "Vision-oriented optimizing hub",
-  "ProgressPercent": 166,
-  "FileName": "Nicolas-Emard",
+  "Description": "Proactive heuristic leverage",
+  "Response": "nobis",
+  "Request": "ratione",
+  "ProgressDescription": "Extended analyzing alliance",
+  "ProgressPercent": 560,
+  "FileName": "Crooks, Luettgen and Schowalter",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 463
     }
   }
 }

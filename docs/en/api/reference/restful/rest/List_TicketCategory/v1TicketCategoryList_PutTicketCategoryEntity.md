@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 564,
-  "ParentId": 93,
-  "Name": "Cartwright-Gleichner",
-  "Fullname": "eveniet",
-  "CategoryMaster": 31,
+  "TicketCategoryId": 93,
+  "ParentId": 982,
+  "Name": "Williamson-Kerluke",
+  "Fullname": "quis",
+  "CategoryMaster": 64,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Keeling, Koelpin and Little",
+  "ExternalName": "Schiller, Pagac and Keeling",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 274,
-  "ReplyTemplate": 411,
-  "NotificationEmail": "jessyca@baumbach.ca",
+  "AssignmentLag": 64,
+  "ReplyTemplate": 614,
+  "NotificationEmail": "jacklyn@tremblay.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 644,
+  "EffectiveReplyTemplateId": 959,
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "omnis"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "quia"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 627,
-  "ParentId": 5,
-  "Name": "Murazik, Hirthe and Haag",
-  "Fullname": "est",
-  "CategoryMaster": 788,
+  "TicketCategoryId": 312,
+  "ParentId": 34,
+  "Name": "Fahey, Torp and Fritsch",
+  "Fullname": "quaerat",
+  "CategoryMaster": 917,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Heidenreich, Dietrich and Bernier",
+  "ExternalName": "Jones, Feeney and Smitham",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 369,
-  "ReplyTemplate": 530,
-  "NotificationEmail": "helmer@blockrice.name",
+  "AssignmentLag": 947,
+  "ReplyTemplate": 561,
+  "NotificationEmail": "arlie.thompson@hellermorar.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 813,
+  "EffectiveReplyTemplateId": 845,
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "est"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "omnis",
+    "CustomFields2": "facere"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 998
     }
   }
 }

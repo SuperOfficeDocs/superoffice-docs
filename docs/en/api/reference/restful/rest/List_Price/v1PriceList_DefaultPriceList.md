@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 491,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 470,
-  "Name": "Shields, Lang and Ward",
-  "Description": "Expanded content-based software",
-  "Currency": "voluptatem",
-  "CurrencyName": "Osinski, Price and Keeling",
-  "ValidFrom": "1997-01-11T12:57:43.5582822+01:00",
-  "ValidTo": "2002-03-14T12:57:43.5582822+01:00",
+  "PriceListId": 434,
+  "ERPPriceListKey": "velit",
+  "QuoteConnectionId": 547,
+  "Name": "Sipes, Toy and Hilll",
+  "Description": "Integrated well-modulated application",
+  "Currency": "aut",
+  "CurrencyName": "Thompson-Dare",
+  "ValidFrom": "2015-02-22T04:22:36.0340897+01:00",
+  "ValidTo": "2002-12-07T04:22:36.0340897+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 636
     }
   }
 }

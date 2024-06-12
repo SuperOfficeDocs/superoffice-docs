@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 307,
-  "Currency": "at"
+  "QuoteConnectionId": 127,
+  "Currency": "magni"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 335,
-    "ERPPriceListKey": "accusantium",
-    "QuoteConnectionId": 618,
-    "Name": "Bergnaum Group",
-    "Description": "Synergized clear-thinking emulation",
-    "Currency": "facere",
-    "CurrencyName": "Berge LLC",
-    "ValidFrom": "2015-01-03T12:57:34.7428121+01:00",
-    "ValidTo": "2010-11-09T12:57:34.7428121+01:00",
-    "IsActive": false,
+    "PriceListId": 251,
+    "ERPPriceListKey": "illo",
+    "QuoteConnectionId": 679,
+    "Name": "Brown LLC",
+    "Description": "Universal tertiary migration",
+    "Currency": "dicta",
+    "CurrencyName": "Grimes LLC",
+    "ValidFrom": "2016-08-25T04:22:27.4247427+02:00",
+    "ValidTo": "2010-10-23T04:22:27.4247427+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 680
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Johnston, Huels and Pollich",
-    "ToolTip": "Aut facere incidunt nostrum excepturi odio tempore deleniti.",
-    "Deleted": false,
-    "Rank": 472,
-    "Type": "voluptas",
-    "ColorBlock": 868,
-    "IconHint": "nobis",
+    "Id": 204,
+    "Name": "Veum Inc and Sons",
+    "ToolTip": "Qui vel veritatis ut non.",
+    "Deleted": true,
+    "Rank": 571,
+    "Type": "harum",
+    "ColorBlock": 648,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2012-07-28T12:57:43.7926038+02:00",
+    "LastChanged": "2010-09-09T04:22:36.2215887+02:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Zulauf Inc and Sons",
-        "ToolTip": "Laborum eius est ipsum.",
-        "Deleted": true,
-        "Rank": 831,
-        "Type": "ipsam",
-        "ColorBlock": 47,
-        "IconHint": "et",
+        "Id": 76,
+        "Name": "Champlin-Zieme",
+        "ToolTip": "Occaecati neque est et.",
+        "Deleted": false,
+        "Rank": 683,
+        "Type": "voluptatem",
+        "ColorBlock": 278,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2023-07-31T12:57:43.7926038+02:00",
+        "LastChanged": "2019-12-01T04:22:36.2215887+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Nash Lockman",
+        "ExtraInfo": "maxime",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Judson O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldLength": 906
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "beatae",
+    "ExtraInfo": "qui",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Tatyana Adams Jr.",
+    "FullName": "Prof. Elmore Bethel Rempel Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 639
+        "FieldType": "System.Int32",
+        "FieldLength": 23
       }
     }
   }

@@ -176,7 +176,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by workflow: Created by workflow| x |
+|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -232,7 +232,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
 |alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
-|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - Updated by flow: Updated by flow| x |
+|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - When updated by flow: When updated by flow| x |
 |alternative/version/quote/sale/person/createdByForm|listAny|Sale - Created by form: Created by form| x |
 |alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
@@ -758,7 +758,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=alternative/version/quote/sale/person/title,alternative/version/quote/sale/contact/contactPhone/description,alternative/version/quote/sale/contact/email/emailId,alternative/version/quote/sale/contact/restrictionAddress/wgs84latitude,alternative/version/quote/sale/contact/contactAssociate/contactCategory
+GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=alternative/version/quote/sale/person/whenUpdatedByWorkflow,alternative/version/quote/sale/person/email/emailId,alternative/version/quote/sale/person/restrictionAddress/formattedAddress,alternative/version/quote/sale/person/personUdef/SuperOffice:10,alternative/version/quote/sale/contact/contactAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

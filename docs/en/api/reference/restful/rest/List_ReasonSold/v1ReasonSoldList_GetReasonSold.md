@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Lehner Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 450,
-  "Rank": 492,
+  "Id": 955,
+  "Name": "Gulgowski LLC",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "UdListDefinitionId": 847,
+  "Rank": 172,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 762
     }
   }
 }

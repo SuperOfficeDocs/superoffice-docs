@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 776,
-  "Name": "Bergnaum LLC",
-  "ConsentText": "corporis",
-  "FormText": "eaque",
-  "Key": "tempore",
-  "Tooltip": "qui",
-  "Active": 712,
-  "UpdatedDate": "2005-12-15T12:57:43.3708249+01:00",
+  "ConsentPurposeId": 132,
+  "Name": "Blanda-Kunze",
+  "ConsentText": "recusandae",
+  "FormText": "ab",
+  "Key": "harum",
+  "Tooltip": "aut",
+  "Active": 839,
+  "UpdatedDate": "2023-09-14T04:22:35.8465939+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 290,
-  "PrivacyStatementDesc": "qui",
+  "Rank": 713,
+  "PrivacyStatementDesc": "quis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 961,
-  "Name": "Predovic, Schneider and Dietrich",
-  "ConsentText": "nobis",
-  "FormText": "dicta",
-  "Key": "ea",
-  "Tooltip": "iusto",
-  "Active": 660,
-  "UpdatedDate": "2005-04-09T12:57:43.3708249+02:00",
+  "ConsentPurposeId": 64,
+  "Name": "Langosh-Kiehn",
+  "ConsentText": "consequatur",
+  "FormText": "harum",
+  "Key": "sit",
+  "Tooltip": "aut",
+  "Active": 761,
+  "UpdatedDate": "1997-12-09T04:22:35.8465939+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 820,
-  "PrivacyStatementDesc": "rerum",
+  "Rank": 148,
+  "PrivacyStatementDesc": "voluptatem",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldLength": 57
     }
   }
 }

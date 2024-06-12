@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "neque",
-  "Name": "Greenfelder, Feest and Ebert",
-  "Description": "Seamless zero administration encoding",
-  "IncludeId": "quis",
-  "Source": "nisi",
-  "Registered": "2000-08-23T12:57:43.1989898+02:00",
-  "RegisteredBy": "iste",
-  "Updated": "2012-04-18T12:57:43.1989898+02:00",
-  "UpdatedBy": "ut",
-  "Path": "consectetur",
+  "UniqueIdentifier": "aut",
+  "Name": "Walsh-Beier",
+  "Description": "Team-oriented tertiary focus group",
+  "IncludeId": "nulla",
+  "Source": "voluptatem",
+  "Registered": "2012-12-22T04:22:35.6897281+01:00",
+  "RegisteredBy": "voluptatem",
+  "Updated": "2007-06-30T04:22:35.6897281+02:00",
+  "UpdatedBy": "laboriosam",
+  "Path": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldLength": 488
     }
   }
 }

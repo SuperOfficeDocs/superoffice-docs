@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 788,
-  "Name": "Bartell Group",
-  "Tooltip": "ea",
+  "HeadingId": 913,
+  "Name": "McLaughlin-Conroy",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 410,
-  "UdListDefinitionId": 553
+  "Rank": 464,
+  "UdListDefinitionId": 40
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 285,
-  "Name": "Sanford-Sanford",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 712,
-  "UdListDefinitionId": 824,
+  "HeadingId": 743,
+  "Name": "Bergnaum Inc and Sons",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "Rank": 70,
+  "UdListDefinitionId": 437,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   }
 }

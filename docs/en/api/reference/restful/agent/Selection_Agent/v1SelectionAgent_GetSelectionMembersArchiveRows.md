@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 274,
-  "Select": "totam"
+  "SelectionId": 422,
+  "Select": "beatae"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Greenfelder-Schaefer",
-    "PrimaryKey": 342,
+    "EntityName": "Marks LLC",
+    "PrimaryKey": 737,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sed",
-        "TooltipHint": "ut",
-        "LinkHint": "voluptatem"
+        "DisplayValue": "numquam",
+        "TooltipHint": "perspiciatis",
+        "LinkHint": "nihil"
       }
     },
-    "LinkHint": "dolores",
-    "StyleHint": "et",
+    "LinkHint": "iusto",
+    "StyleHint": "eius",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldLength": 461
       }
     }
   }

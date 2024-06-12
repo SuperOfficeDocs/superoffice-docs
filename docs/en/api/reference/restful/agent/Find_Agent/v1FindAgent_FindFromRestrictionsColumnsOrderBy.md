@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "O'Hara-Senger",
-      "Operator": "nemo",
+      "Name": "Stokes-Douglas",
+      "Operator": "ea",
       "Values": [
-        "fugiat",
-        "totam"
+        "voluptate",
+        "fuga"
       ],
       "DisplayValues": [
-        "voluptatibus",
-        "omnis"
+        "porro",
+        "quod"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 227,
+      "InterParenthesis": 511,
       "InterOperator": "And",
-      "UniqueHash": 121
+      "UniqueHash": 605
     }
   ],
-  "ProviderName": "Stanton LLC",
+  "ProviderName": "Balistreri, Adams and Douglas",
   "DesiredColumns": [
-    "qui",
-    "illum"
+    "nobis",
+    "necessitatibus"
   ],
   "OrderBy": [
     {
-      "Name": "Fritsch-Auer",
+      "Name": "Leannon LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Fritsch-Auer",
+      "Name": "Leannon LLC",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 773,
-  "PageNumber": 810
+  "PageSize": 246,
+  "PageNumber": 375
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Feest LLC",
-      "DisplayTooltip": "eos",
-      "DisplayType": "quo",
+      "DisplayName": "Weissnat-Prohaska",
+      "DisplayTooltip": "ut",
+      "DisplayType": "sed",
       "CanOrderBy": false,
-      "Name": "Rau Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "impedit",
-      "RestrictionListName": "Price-Walker",
+      "Name": "McCullough Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Olson, Hane and Dickens",
       "IsVisible": false,
-      "ExtraInfo": "consequatur",
-      "Width": "et",
-      "IconHint": "dolores",
-      "HeadingIconHint": "eligendi"
+      "ExtraInfo": "nihil",
+      "Width": "expedita",
+      "IconHint": "tempore",
+      "HeadingIconHint": "perspiciatis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Predovic Inc and Sons",
-      "PrimaryKey": 165,
+      "EntityName": "Batz, Grant and Keebler",
+      "PrimaryKey": 848,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sunt",
-          "TooltipHint": "reprehenderit",
-          "LinkHint": "consequatur"
+          "DisplayValue": "quia",
+          "TooltipHint": "quos",
+          "LinkHint": "fugit"
         }
       },
-      "LinkHint": "cupiditate",
-      "StyleHint": "quis",
+      "LinkHint": "dolorum",
+      "StyleHint": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 97
+          "FieldLength": 361
         }
       }
     }
   ],
-  "RowCount": 949,
+  "RowCount": 475,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 761
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 446,
-  "Name": "Bayer, Schmitt and Hackett",
-  "Tooltip": "reiciendis",
+  "HeadingId": 832,
+  "Name": "Hudson Inc and Sons",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 159,
-  "UdListDefinitionId": 193
+  "Rank": 69,
+  "UdListDefinitionId": 503
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 782,
-  "Name": "Spinka, Bruen and White",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 370,
-  "UdListDefinitionId": 928,
+  "HeadingId": 844,
+  "Name": "Eichmann Inc and Sons",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 97,
+  "UdListDefinitionId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

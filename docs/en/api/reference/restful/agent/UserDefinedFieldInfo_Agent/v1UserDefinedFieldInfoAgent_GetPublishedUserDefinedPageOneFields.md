@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 579
+  "UserGroupId": 861
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 981,
-    "ColumnId": 211,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 700,
-    "FieldLabel": "quaerat",
-    "FieldLeft": 148,
-    "FieldTop": 836,
+    "UDefFieldId": 472,
+    "ColumnId": 513,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 874,
+    "FieldLabel": "sit",
+    "FieldLeft": 557,
+    "FieldTop": 32,
     "FieldType": "Checkbox",
-    "FieldWidth": 988,
-    "FormatMask": "aperiam",
-    "HideLabel": false,
+    "FieldWidth": 110,
+    "FormatMask": "occaecati",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 160,
-    "LabelLeft": 452,
-    "LabelTop": 288,
-    "LabelWidth": 591,
-    "LastVersionId": 395,
-    "ListTableId": 320,
+    "LabelHeight": 607,
+    "LabelLeft": 893,
+    "LabelTop": 78,
+    "LabelWidth": 41,
+    "LastVersionId": 129,
+    "ListTableId": 562,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 919,
-    "ProgId": "doloremque",
+    "Page1LineNo": 337,
+    "ProgId": "quo",
     "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 327,
-    "TextLength": 785,
-    "Tooltip": "dolores",
-    "UdefIdentity": 6,
-    "UDListDefinitionId": 829,
+    "ShortLabel": "non",
+    "TabOrder": 673,
+    "TextLength": 359,
+    "Tooltip": "quibusdam",
+    "UdefIdentity": 416,
+    "UDListDefinitionId": 554,
     "Justification": "Center",
-    "Version": 246,
-    "TemplateVariableName": "Botsford Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Hauck, Hammes and Weimann",
+    "Version": 146,
+    "TemplateVariableName": "Predovic Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Zulauf, Krajcik and Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldType": "System.String",
+        "FieldLength": 168
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 638,
-  "TopicId": 686,
+  "ChatSessionId": 930,
+  "TopicId": 906,
   "User": null,
   "Person": null,
-  "CustomerAlias": "in",
-  "CustomerHost": "quos",
-  "CustomerName": "Quitzon, Larkin and Mann",
-  "CustomerEmail": "lemuel@yostgulgowski.ca",
-  "CustomerPhone": "609.444.8964 x12172",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Auer LLC",
+  "CustomerAlias": "consequatur",
+  "CustomerHost": "explicabo",
+  "CustomerName": "Swift Inc and Sons",
+  "CustomerEmail": "tyson@murphy.name",
+  "CustomerPhone": "1-739-588-5981 x2657",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Beier, Frami and Bednar",
   "Status": "Closed",
-  "FirstMessage": "vel",
-  "LastMessage": "minima",
-  "WhenRequested": "2007-02-24T12:57:42.1045848+01:00",
-  "WhenStarted": "2020-02-28T12:57:42.1045848+01:00",
-  "WhenEnded": "1999-09-14T12:57:42.1045848+02:00",
-  "WhenIdle": "1998-09-13T12:57:42.1045848+02:00",
-  "WhenFetched": "2009-04-13T12:57:42.1045848+02:00",
-  "SessionKey": "beatae",
-  "InitialQueuePos": 936,
-  "AlertLevel": 838,
-  "Rank": 763,
+  "FirstMessage": "numquam",
+  "LastMessage": "nisi",
+  "WhenRequested": "2021-09-26T04:22:34.6558805+02:00",
+  "WhenStarted": "2023-12-01T04:22:34.6558805+01:00",
+  "WhenEnded": "2018-10-31T04:22:34.6558805+01:00",
+  "WhenIdle": "2018-01-04T04:22:34.6558805+01:00",
+  "WhenFetched": "2022-09-23T04:22:34.6558805+02:00",
+  "SessionKey": "maiores",
+  "InitialQueuePos": 859,
+  "AlertLevel": 139,
+  "Rank": 462,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 223,
+  "Rating": 360,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 779
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 771
+  "SatelliteId": 781
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wuckert Inc and Sons",
-    "Description": "Networked client-driven contingency",
+    "Name": "Waelchi, Ebert and Dare",
+    "Description": "Reverse-engineered scalable moderator",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 464,
-        "Tooltip": "corporis",
-        "CanAssign": true,
-        "Free": 337,
-        "InUse": 457,
-        "IsHidden": true,
+        "Total": 230,
+        "Tooltip": "fugiat",
+        "CanAssign": false,
+        "Free": 387,
+        "InUse": 130,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 349,
-        "Name": "Hamill-Crona",
-        "Description": "Future-proofed leading edge interface",
-        "PrerequisiteModuleName": "Buckridge LLC",
-        "SortOrder": 10,
-        "ExtraFlags": 455,
+        "ModuleLicenseId": 978,
+        "Name": "Nolan-Pfeffer",
+        "Description": "Implemented leading edge local area network",
+        "PrerequisiteModuleName": "Schowalter-Conn",
+        "SortOrder": 786,
+        "ExtraFlags": 514,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldType": "System.String",
+            "FieldLength": 588
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 180,
-        "Tooltip": "hic",
+        "Unrestricted": true,
+        "Total": 200,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 123,
-        "InUse": 266,
+        "Free": 459,
+        "InUse": 652,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 564,
-        "Name": "Jacobi, Quitzon and Ryan",
-        "Description": "Advanced full-range info-mediaries",
-        "PrerequisiteModuleName": "Trantow Inc and Sons",
-        "SortOrder": 56,
-        "ExtraFlags": 187,
+        "Assigned": false,
+        "ModuleLicenseId": 211,
+        "Name": "Stark-Halvorson",
+        "Description": "Realigned 24/7 conglomeration",
+        "PrerequisiteModuleName": "Hand Group",
+        "SortOrder": 301,
+        "ExtraFlags": 962,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 816
+            "FieldLength": 55
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 326
       }
     }
   },
   {
-    "Name": "Wuckert Inc and Sons",
-    "Description": "Networked client-driven contingency",
+    "Name": "Waelchi, Ebert and Dare",
+    "Description": "Reverse-engineered scalable moderator",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 464,
-        "Tooltip": "corporis",
-        "CanAssign": true,
-        "Free": 337,
-        "InUse": 457,
-        "IsHidden": true,
+        "Total": 230,
+        "Tooltip": "fugiat",
+        "CanAssign": false,
+        "Free": 387,
+        "InUse": 130,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 349,
-        "Name": "Hamill-Crona",
-        "Description": "Future-proofed leading edge interface",
-        "PrerequisiteModuleName": "Buckridge LLC",
-        "SortOrder": 10,
-        "ExtraFlags": 455,
+        "ModuleLicenseId": 978,
+        "Name": "Nolan-Pfeffer",
+        "Description": "Implemented leading edge local area network",
+        "PrerequisiteModuleName": "Schowalter-Conn",
+        "SortOrder": 786,
+        "ExtraFlags": 514,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldType": "System.String",
+            "FieldLength": 588
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 180,
-        "Tooltip": "hic",
+        "Unrestricted": true,
+        "Total": 200,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 123,
-        "InUse": 266,
+        "Free": 459,
+        "InUse": 652,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 564,
-        "Name": "Jacobi, Quitzon and Ryan",
-        "Description": "Advanced full-range info-mediaries",
-        "PrerequisiteModuleName": "Trantow Inc and Sons",
-        "SortOrder": 56,
-        "ExtraFlags": 187,
+        "Assigned": false,
+        "ModuleLicenseId": 211,
+        "Name": "Stark-Halvorson",
+        "Description": "Realigned 24/7 conglomeration",
+        "PrerequisiteModuleName": "Hand Group",
+        "SortOrder": 301,
+        "ExtraFlags": 962,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 816
+            "FieldLength": 55
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 326
       }
     }
   }

@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 933,
-  "Name": "Osinski, Kuvalis and Tillman",
-  "Rank": 429,
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "consequatur",
+  "ResourceId": 376,
+  "Name": "Mitchell Inc and Sons",
+  "Rank": 404,
+  "Tooltip": "aut",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 812
     }
   }
 }

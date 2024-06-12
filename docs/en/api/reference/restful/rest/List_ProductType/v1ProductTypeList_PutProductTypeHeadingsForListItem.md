@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Gislason-Marvin",
-    "ToolTip": "Rerum accusamus doloremque velit maiores facere.",
-    "Deleted": true,
-    "Rank": 1002,
-    "Type": "velit",
-    "ColorBlock": 469,
-    "IconHint": "fugit",
+    "Id": 763,
+    "Name": "Keeling, Cremin and Reinger",
+    "ToolTip": "Nihil recusandae beatae qui dolorem.",
+    "Deleted": false,
+    "Rank": 639,
+    "Type": "alias",
+    "ColorBlock": 658,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2022-05-29T12:57:43.6207681+02:00",
+    "LastChanged": "2008-01-02T04:22:36.0809665+01:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Nikolaus LLC",
-        "ToolTip": "Veniam omnis omnis.",
+        "Id": 330,
+        "Name": "Turner, Rodriguez and Gerhold",
+        "ToolTip": "Nostrum omnis similique dolor.",
         "Deleted": false,
-        "Rank": 276,
-        "Type": "voluptate",
-        "ColorBlock": 719,
-        "IconHint": "quia",
+        "Rank": 715,
+        "Type": "incidunt",
+        "ColorBlock": 933,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "1998-11-10T12:57:43.6207681+01:00",
+        "LastChanged": "2011-01-22T04:22:36.0809665+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "eos",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Tyrique Buckridge"
+        "FullName": "Darrin Gloria Beier V"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Miss Verlie Rozella McCullough"
+    "ExtraInfo": "commodi",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Darrion Waters"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Dare-Hintz",
-    "ToolTip": "Quibusdam doloribus sint et ut.",
-    "Deleted": true,
-    "Rank": 147,
-    "Type": "aut",
-    "ColorBlock": 323,
-    "IconHint": "repellat",
+    "Id": 528,
+    "Name": "Botsford, Nicolas and Stoltenberg",
+    "ToolTip": "Fuga molestiae illum voluptatum aut minima.",
+    "Deleted": false,
+    "Rank": 258,
+    "Type": "molestias",
+    "ColorBlock": 748,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2011-12-26T12:57:43.6207681+01:00",
+    "LastChanged": "2020-12-08T04:22:36.0809665+01:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Osinski-Kautzer",
-        "ToolTip": "Quibusdam ut quidem possimus quos natus non.",
+        "Id": 255,
+        "Name": "Schuster, Leannon and Spinka",
+        "ToolTip": "Amet laudantium unde.",
         "Deleted": false,
-        "Rank": 569,
-        "Type": "nesciunt",
-        "ColorBlock": 185,
-        "IconHint": "vero",
-        "Selected": false,
-        "LastChanged": "2002-09-03T12:57:43.6207681+02:00",
+        "Rank": 930,
+        "Type": "similique",
+        "ColorBlock": 863,
+        "IconHint": "ipsum",
+        "Selected": true,
+        "LastChanged": "2002-04-01T04:22:36.0809665+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "quis",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Ms. Jaleel Cordie Fahey",
+        "FullName": "Yvonne Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 587
+            "FieldLength": 304
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "dolorum",
-    "Hidden": true,
-    "FullName": "Josiah Powlowski",
+    "ExtraInfo": "sint",
+    "StyleHint": "animi",
+    "Hidden": false,
+    "FullName": "Mrs. Audreanne Jeramy O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 995
+        "FieldLength": 358
       }
     }
   }

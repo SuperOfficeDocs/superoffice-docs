@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 69,
-    "ERPName": "Douglas-Ernser",
-    "DisplayName": "Jacobson, Hilll and Schuppe",
-    "DisplayDescription": "Versatile dynamic project",
-    "Rank": 296,
-    "ConnectorName": "Von LLC",
-    "ErpConnectionId": 892,
-    "ExtraData": "commodi",
+    "QuoteConnectionId": 876,
+    "ERPName": "Waters, Reynolds and Abbott",
+    "DisplayName": "Nolan-Connelly",
+    "DisplayDescription": "Assimilated fresh-thinking time-frame",
+    "Rank": 736,
+    "ConnectorName": "Beatty Inc and Sons",
+    "ErpConnectionId": 759,
+    "ExtraData": "quasi",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 759,
-        "ERPPriceListKey": "et",
-        "QuoteConnectionId": 935,
-        "Name": "Hills Group",
-        "Description": "Business-focused cohesive projection",
-        "Currency": "fugiat",
-        "CurrencyName": "Barrows Group",
-        "ValidFrom": "2012-04-22T12:57:34.7428121+02:00",
-        "ValidTo": "2019-10-16T12:57:34.7428121+02:00",
+        "PriceListId": 506,
+        "ERPPriceListKey": "consequuntur",
+        "QuoteConnectionId": 815,
+        "Name": "Sawayn-Sanford",
+        "Description": "Customizable reciprocal productivity",
+        "Currency": "nostrum",
+        "CurrencyName": "Murazik-Schuster",
+        "ValidFrom": "2005-02-21T04:22:27.4091176+01:00",
+        "ValidTo": "2008-11-10T04:22:27.4091176+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 586
+            "FieldLength": 753
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      4,
-      287
+      773,
+      300
     ],
     "AssociateAccessIds": [
-      175,
-      530
+      649,
+      351
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 725
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   }

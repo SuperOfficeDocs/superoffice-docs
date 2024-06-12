@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 259,
-    "Name": "Grant LLC",
+    "TicketStatusId": 892,
+    "Name": "Hirthe, Ruecker and Wisoky",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": true,
+    "IsDefault": true,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 859
       }
     }
   }

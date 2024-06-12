@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 397,
-  "Name": "Hagenes Group",
-  "Tooltip": "autem",
-  "Rank": 416,
-  "Rate": 4083.602,
-  "Units": 3970.778,
-  "Deleted": true,
+  "CurrencyId": 973,
+  "Name": "Stokes-Macejkovic",
+  "Tooltip": "in",
+  "Rank": 285,
+  "Rate": 2112.316,
+  "Units": 23132.054,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldType": "System.String",
+      "FieldLength": 419
     }
   }
 }

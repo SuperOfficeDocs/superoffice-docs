@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "dolores"
+  "Section": "omnis",
+  "Key": "ut"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 787,
-  "Section": "nam",
-  "Key": "non",
-  "Name": "Ortiz-Mills",
+  "PrefDescId": 465,
+  "Section": "aspernatur",
+  "Key": "reprehenderit",
+  "Name": "Champlin-Hilpert",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental empowering productivity",
+  "Description": "Enterprise-wide needs-based attitude",
   "IsBuiltin": false,
-  "TableName": "Gleason LLC",
-  "UserDefinedListId": 679,
-  "Rank": 845,
-  "SubGroup": "perspiciatis",
-  "MinLevel": 646,
-  "MaxValue": 492,
-  "MinValue": 946,
-  "RequiredLicense": "dolore",
+  "TableName": "Schinner Group",
+  "UserDefinedListId": 38,
+  "Rank": 613,
+  "SubGroup": "consectetur",
+  "MinLevel": 850,
+  "MaxValue": 749,
+  "MinValue": 51,
+  "RequiredLicense": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldLength": 440
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Smitham LLC",
-    "Tooltip": "deleniti",
+    "Id": 917,
+    "Name": "Padberg LLC",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 781,
-    "Rank": 376
+    "UdListDefinitionId": 241,
+    "Rank": 158
   },
   {
-    "Id": 103,
-    "Name": "Smitham LLC",
-    "Tooltip": "deleniti",
+    "Id": 917,
+    "Name": "Padberg LLC",
+    "Tooltip": "est",
     "Deleted": true,
-    "UdListDefinitionId": 781,
-    "Rank": 376
+    "UdListDefinitionId": 241,
+    "Rank": 158
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Fay, Roob and Shanahan",
-    "Tooltip": "id",
-    "Deleted": false,
-    "UdListDefinitionId": 965,
-    "Rank": 506,
+    "Id": 782,
+    "Name": "Bergstrom-Donnelly",
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "UdListDefinitionId": 619,
+    "Rank": 417,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 536
       }
     }
   }

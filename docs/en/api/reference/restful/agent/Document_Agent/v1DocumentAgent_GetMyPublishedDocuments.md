@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 475,
-    "Attention": "fugiat",
-    "Header": "accusantium",
-    "Name": "Ziemann, Kassulke and Beatty",
-    "OurRef": "doloremque",
-    "YourRef": "ut",
-    "Description": "Progressive optimizing support",
-    "DocumentTemplate": "libero",
+    "DocumentId": 630,
+    "Attention": "distinctio",
+    "Header": "reiciendis",
+    "Name": "Cremin-Glover",
+    "OurRef": "sequi",
+    "YourRef": "mollitia",
+    "Description": "Reactive exuding core",
+    "DocumentTemplate": "unde",
     "IsPublished": false,
-    "PersonId": 347,
-    "PersonFullName": "Miss Boris Kshlerin",
-    "AssociateFullName": "Miss Charlene Torp",
-    "ContactId": 423,
-    "ContactName": "Quigley LLC",
-    "ProjectId": 433,
-    "ProjectName": "Koepp Group",
-    "AssociateId": 779,
-    "Snum": 103,
-    "SaleId": 68,
-    "SaleName": "Deckow, Okuneva and Ortiz",
+    "PersonId": 290,
+    "PersonFullName": "Abel Bogisich",
+    "AssociateFullName": "Boyd Turcotte",
+    "ContactId": 490,
+    "ContactName": "O'Hara, Schmidt and Lesch",
+    "ProjectId": 350,
+    "ProjectName": "Rosenbaum Inc and Sons",
+    "AssociateId": 4,
+    "Snum": 122,
+    "SaleId": 986,
+    "SaleName": "Hoppe Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 910
       }
     }
   }

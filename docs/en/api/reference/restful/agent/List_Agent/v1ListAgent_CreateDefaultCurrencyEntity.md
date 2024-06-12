@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 252,
-  "Name": "Greenfelder LLC",
-  "Tooltip": "rerum",
-  "Rank": 588,
-  "Rate": 17036.424,
-  "Units": 1203.456,
-  "Deleted": false,
+  "CurrencyId": 440,
+  "Name": "Will-Hilpert",
+  "Tooltip": "autem",
+  "Rank": 330,
+  "Rate": 4230.9,
+  "Units": 1849.06,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 613
     }
   }
 }

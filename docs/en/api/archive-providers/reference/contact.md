@@ -236,7 +236,7 @@ Contact provider for general use
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
 |contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
-|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - Updated by flow: Updated by flow| x |
+|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - When updated by flow: When updated by flow| x |
 |contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
 |contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
@@ -355,7 +355,7 @@ Contact provider for general use
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=contactSupportPerson/personUdef/SuperOffice:6,contactSupportPerson/personExtra/x_person_user_relation,contactSupportPerson/legalBaseStore
+GET /api/v1/archive/Contact?$select=registeredDate,contactFax/description,contactSupportPerson/personUdef/SuperOffice:7,saintActivityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

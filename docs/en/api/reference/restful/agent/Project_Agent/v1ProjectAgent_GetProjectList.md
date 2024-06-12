@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 749,
-    "Name": "Dickinson Inc and Sons",
-    "Description": "Switchable multi-tasking framework",
+    "ProjectId": 243,
+    "Name": "Mueller LLC",
+    "Description": "Customizable composite standardization",
     "URL": "http://www.example.com/",
-    "Type": "facilis",
-    "AssociateId": 293,
-    "AssociateFullName": "Alta Schmidt",
-    "TypeId": 502,
-    "Updated": "2003-06-06T12:57:34.664705+02:00",
-    "StatusId": 257,
-    "Status": "qui",
-    "TextId": 295,
-    "PublishTo": "2006-12-31T12:57:34.664705+01:00",
-    "PublishFrom": "2023-07-16T12:57:34.664705+02:00",
-    "IsPublished": true,
+    "Type": "sunt",
+    "AssociateId": 427,
+    "AssociateFullName": "Margie Feil",
+    "TypeId": 220,
+    "Updated": "1998-01-07T04:22:27.3466141+01:00",
+    "StatusId": 955,
+    "Status": "recusandae",
+    "TextId": 591,
+    "PublishTo": "2001-03-02T04:22:27.3466141+01:00",
+    "PublishFrom": "2024-01-12T04:22:27.3466141+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1503868",
-    "ActiveErpLinks": 798,
+    "ProjectNumber": "1035000",
+    "ActiveErpLinks": 178,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldLength": 266
       }
     }
   }

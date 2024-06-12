@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 185,
-  "Name": "Langworth Inc and Sons",
-  "Tooltip": "voluptates",
+  "Id": 939,
+  "Name": "Trantow-Jones",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 518,
-  "Rank": 621,
+  "UdListDefinitionId": 943,
+  "Rank": 961,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   }
 }

@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 32,
-      "ContactId": 418
+      "PersonId": 66,
+      "ContactId": 862
     },
     {
-      "PersonId": 32,
-      "ContactId": 418
+      "PersonId": 66,
+      "ContactId": 862
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Automated full-range parallelism",
-  "Postit": "quis",
+  "Description": "Open-architected analyzing interface",
+  "Postit": "in",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 469,
-  "IncludePerson": 118,
+  "GroupIdx": 84,
+  "IncludePerson": 668,
   "MemberCount": 99.99,
-  "Name": "Wilkinson Group",
-  "PostitTextId": 295,
-  "CreatedDate": "2004-05-08T12:57:34.9145867+02:00",
-  "SelectionId": 76,
-  "SoundEx": "velit",
-  "Source": 842,
-  "TextId": 39,
-  "UpdatedDate": "2007-05-16T12:57:34.9145867+02:00",
-  "UpdatedCount": 203,
-  "Visibility": 410,
+  "Name": "Gaylord, Walsh and Stehr",
+  "PostitTextId": 505,
+  "CreatedDate": "2009-03-06T04:22:27.6117762+01:00",
+  "SelectionId": 504,
+  "SoundEx": "aut",
+  "Source": 976,
+  "TextId": 919,
+  "UpdatedDate": "2003-10-20T04:22:27.6117762+02:00",
+  "UpdatedCount": 67,
+  "Visibility": 321,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 623,
-  "TargetTableName": "Cummings, Rippin and Reynolds",
+  "TargetTableNumber": 528,
+  "TargetTableName": "Towne, Haley and Schroeder",
   "Completed": true,
-  "LeftSelectionId": 494,
-  "RightSelectionId": 188,
+  "LeftSelectionId": 430,
+  "RightSelectionId": 417,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Collier Group",
-  "ShadowProviderName": "Zieme, Wilderman and Bernhard",
-  "ChartKey": "ut",
-  "LastLoaded": "2003-06-21T12:57:34.9145867+02:00",
-  "LastLoadedBy": 501,
+  "MainProviderName": "Torphy-Cummings",
+  "ShadowProviderName": "Block, Hackett and Huels",
+  "ChartKey": "illo",
+  "LastLoaded": "1999-03-10T04:22:27.6117762+01:00",
+  "LastLoadedBy": 554,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-09-08T12:57:34.9145867+02:00",
-  "LastMembershipChangeBy": 49,
+  "LastMembershipChange": "2021-11-17T04:22:27.6117762+01:00",
+  "LastMembershipChangeBy": 416,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "saepe",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Williamson, Herman and Thompson",
-  "DashboardTileDefinitionId": 60,
+  "MainHeading": "accusantium",
+  "MemberTabHeading": "totam",
+  "MailingsProviderName": "Muller, Bradtke and Waters",
+  "DashboardTileDefinitionId": 523,
   "VisibleFor": [
     {
-      "VisibleId": 472,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldLength": 273
         }
       }
     },
     {
-      "VisibleId": 472,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldLength": 273
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 5
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

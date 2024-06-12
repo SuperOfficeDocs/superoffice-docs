@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Bradtke-Nienow",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 351,
+  "Id": 125,
+  "Name": "Halvorson-Heaney",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 799,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 944
     }
   },
   "_Links": {

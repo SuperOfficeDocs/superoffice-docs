@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 325,
-  "ConnectorName": "Carroll, Cassin and Stark"
+  "ConnectionId": 282,
+  "ConnectorName": "Jacobi, Wiegand and Hirthe"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "ut",
-    "Rank": 446,
-    "DisplayName": "Wolff-Bartell",
-    "DisplayDescription": "Self-enabling regional algorithm",
+    "FieldKey": "qui",
+    "Rank": 676,
+    "DisplayName": "Conn LLC",
+    "DisplayDescription": "Exclusive bi-directional frame",
     "FieldType": "Checkbox",
-    "ListName": "Hamill-Quitzon",
-    "DefaultValue": "odio",
-    "MaxLength": 402,
+    "ListName": "Graham Inc and Sons",
+    "DefaultValue": "deleniti",
+    "MaxLength": 914,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 84
       }
     }
   }

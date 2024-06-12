@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Lynch-Barrows",
-    "ToolTip": "Quo aut vero et distinctio sit ut.",
-    "Deleted": false,
-    "Rank": 405,
-    "Type": "quas",
-    "ColorBlock": 959,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2017-09-08T12:57:43.7769823+02:00",
+    "Id": 860,
+    "Name": "West LLC",
+    "ToolTip": "Impedit nostrum quas asperiores modi.",
+    "Deleted": true,
+    "Rank": 469,
+    "Type": "in",
+    "ColorBlock": 440,
+    "IconHint": "quidem",
+    "Selected": false,
+    "LastChanged": "2001-12-13T04:22:36.2215887+01:00",
     "ChildItems": [
       {
-        "Id": 698,
-        "Name": "Carter-Klein",
-        "ToolTip": "Ut at fugiat voluptas eos neque.",
+        "Id": 835,
+        "Name": "Stark, Terry and Schroeder",
+        "ToolTip": "Aut mollitia.",
         "Deleted": false,
-        "Rank": 618,
-        "Type": "facilis",
-        "ColorBlock": 433,
-        "IconHint": "tempora",
+        "Rank": 120,
+        "Type": "in",
+        "ColorBlock": 794,
+        "IconHint": "repudiandae",
         "Selected": true,
-        "LastChanged": "2021-10-07T12:57:43.7769823+02:00",
+        "LastChanged": "2020-10-24T04:22:36.2215887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Mya Halvorson",
+        "ExtraInfo": "magnam",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Mr. Nickolas Robel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldLength": 706
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Emelia Leuschke",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "voluptate",
+    "Hidden": false,
+    "FullName": "Elenora Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 463
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

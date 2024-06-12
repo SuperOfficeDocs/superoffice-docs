@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Nolan Inc and Sons",
-  "Id": 383
+  "HistoryName": "Eichmann, Legros and Jakubowski",
+  "Id": 870
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 289,
-  "Id": 107,
-  "HistoryName": "Larkin-Cremin",
-  "HistoryId": 695,
-  "AssociateId": 818,
-  "Name": "Kessler Inc and Sons",
-  "ItemInfo": "sit",
+  "Rank": 195,
+  "Id": 885,
+  "HistoryName": "Mante, Olson and Dibbert",
+  "HistoryId": 16,
+  "AssociateId": 122,
+  "Name": "Larkin, Hickle and Bailey",
+  "ItemInfo": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

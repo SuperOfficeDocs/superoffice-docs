@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 862,
-  "Name": "Schuppe Inc and Sons",
-  "Tooltip": "beatae",
+  "Id": 769,
+  "Name": "Bednar-Tillman",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 951,
+  "Rank": 161,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 221,
-  "Name": "Heaney-Thiel",
-  "Tooltip": "vero",
+  "Id": 679,
+  "Name": "Morissette-Halvorson",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 24,
+  "Rank": 474,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "tenetur",
+  "ListType": "quibusdam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 238
     }
   }
 }

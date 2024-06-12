@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "verlie.dooley@lynch.biz",
-  "Subject": "ducimus",
+  "EmailBody": "stephanie@ernser.biz",
+  "Subject": "beatae",
   "TemplateLanguage": "fugit"
 }
 ```
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 881
     }
   }
 }

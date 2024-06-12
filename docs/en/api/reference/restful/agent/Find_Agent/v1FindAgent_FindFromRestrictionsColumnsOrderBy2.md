@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "et",
-  "ProviderName": "Abbott, Sawayn and Heller",
-  "DesiredColumns": "placeat",
-  "OrderBy": "explicabo",
-  "PageSize": 139,
-  "PageNumber": 577
+  "Restrictions": "aliquid",
+  "ProviderName": "Ward Inc and Sons",
+  "DesiredColumns": "excepturi",
+  "OrderBy": "reiciendis",
+  "PageSize": 584,
+  "PageNumber": 936
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jones, Feil and Steuber",
-      "DisplayTooltip": "in",
-      "DisplayType": "delectus",
+      "DisplayName": "Abbott, Volkman and Padberg",
+      "DisplayTooltip": "similique",
+      "DisplayType": "quo",
       "CanOrderBy": false,
-      "Name": "Kemmer-Bahringer",
+      "Name": "Dooley-Funk",
       "CanRestrictBy": false,
-      "RestrictionType": "ullam",
-      "RestrictionListName": "Vandervort Group",
-      "IsVisible": false,
-      "ExtraInfo": "ratione",
-      "Width": "modi",
-      "IconHint": "in",
-      "HeadingIconHint": "sequi"
+      "RestrictionType": "a",
+      "RestrictionListName": "Bergnaum-O'Keefe",
+      "IsVisible": true,
+      "ExtraInfo": "dignissimos",
+      "Width": "unde",
+      "IconHint": "est",
+      "HeadingIconHint": "repellat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Paucek Inc and Sons",
-      "PrimaryKey": 820,
+      "EntityName": "Lowe-Vandervort",
+      "PrimaryKey": 928,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "atque",
-          "LinkHint": "repudiandae"
+          "DisplayValue": "et",
+          "TooltipHint": "neque",
+          "LinkHint": "cum"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "excepturi",
+      "LinkHint": "dolores",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldType": "System.String",
+          "FieldLength": 870
         }
       }
     }
   ],
-  "RowCount": 427,
+  "RowCount": 646,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 392
     }
   }
 }

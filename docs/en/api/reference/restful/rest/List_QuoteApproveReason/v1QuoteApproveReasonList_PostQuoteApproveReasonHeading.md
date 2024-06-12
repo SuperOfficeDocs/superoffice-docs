@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 915,
-  "Name": "Sipes-Kunde",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 45,
-  "UdListDefinitionId": 643
+  "HeadingId": 79,
+  "Name": "Rodriguez Inc and Sons",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 898,
+  "UdListDefinitionId": 894
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 372,
-  "Name": "Kozey, Johnson and Kertzmann",
-  "Tooltip": "ipsum",
+  "HeadingId": 768,
+  "Name": "Frami Group",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 451,
-  "UdListDefinitionId": 833,
+  "Rank": 140,
+  "UdListDefinitionId": 239,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 489
     }
   }
 }

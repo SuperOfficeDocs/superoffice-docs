@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 326
+  "TargetGroupId": 981
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 116,
-  "FileName": "Kassulke, Marks and Stehr",
-  "Message": "similique",
+  "BatchTaskId": 506,
+  "FileName": "Greenholt, Kirlin and Kozey",
+  "Message": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 455
     }
   }
 }

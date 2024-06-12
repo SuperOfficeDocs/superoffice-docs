@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 334,
+  "DocumentId": 850,
   "AllowedReturnTypes": [
-    "repellat",
-    "voluptatum"
+    "tempora",
+    "nesciunt"
   ],
-  "VersionDescription": "Streamlined coherent product",
+  "VersionDescription": "Focused eco-centric customer loyalty",
   "VersionExtraFields": [
-    "et",
-    "possimus"
+    "omnis",
+    "inventore"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "non",
-  "VersionId": "et",
+  "ExternalReference": "quam",
+  "VersionId": "nihil",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "atque",
-  "AdditionalInfo": "nulla"
+  "Value": "modi",
+  "AdditionalInfo": "dolor"
 }
 ```

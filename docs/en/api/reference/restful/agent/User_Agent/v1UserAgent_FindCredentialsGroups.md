@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "laboriosam",
-  "SearchString": "molestiae"
+  "Type": "nisi",
+  "SearchString": "aut"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan Group",
-    "DisplayName": "Hane, Jenkins and Lang",
+    "Name": "McLaughlin-Hodkiewicz",
+    "DisplayName": "Jerde Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   },
   {
-    "Name": "Beahan Group",
-    "DisplayName": "Hane, Jenkins and Lang",
+    "Name": "McLaughlin-Hodkiewicz",
+    "DisplayName": "Jerde Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 27,
-  "ParentId": 471,
-  "Name": "Gottlieb-Mohr",
-  "Fullname": "similique",
-  "CategoryMaster": 546,
+  "TicketCategoryId": 476,
+  "ParentId": 946,
+  "Name": "Hoppe-O'Conner",
+  "Fullname": "vel",
+  "CategoryMaster": 241,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cartwright-Hudson",
+  "ExternalName": "Jacobs Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 976,
-  "ReplyTemplate": 495,
-  "NotificationEmail": "alexandrine.lowe@rohan.com",
+  "AssignmentLag": 749,
+  "ReplyTemplate": 595,
+  "NotificationEmail": "davion.weissnat@abshire.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 280,
+  "EffectiveReplyTemplateId": 730,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "fugit"
+    "CustomFields1": "maiores",
+    "CustomFields2": "alias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

@@ -98,7 +98,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "enim"
+  "ProgId": "dolorum"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 407,
-  "Name": "Tillman, West and Jones",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 90,
+  "WebPanelId": 351,
+  "Name": "Stehr-Klocko",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 770,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Collins Inc and Sons",
+  "ShowInStatusBar": false,
+  "WindowName": "Wyman, Batz and Bode",
   "Url": "http://www.example.com/",
-  "ProgId": "porro",
-  "Icon": 664,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "rerum",
+  "Icon": 630,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldLength": 346
     }
   }
 }

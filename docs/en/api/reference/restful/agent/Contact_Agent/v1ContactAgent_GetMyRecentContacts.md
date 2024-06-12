@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 981,
-    "Name": "Olson, Rau and Pfannerstill",
-    "OrgNr": "1656430",
-    "Department": "",
+    "ContactId": 40,
+    "Name": "Rau Group",
+    "OrgNr": "890603",
+    "Department": "synergize cross-platform markets",
     "URL": "http://www.example.com/",
-    "City": "rerum",
-    "DirectPhone": "683-447-4632 x0629",
-    "AssociateId": 995,
-    "CountryId": 493,
-    "EmailAddress": "delores_emmerich@pfannerstillgutkowski.co.uk",
-    "Kananame": "voluptas",
-    "EmailAddressName": "rubie@hackett.biz",
+    "City": "sint",
+    "DirectPhone": "1-534-099-1952 x876",
+    "AssociateId": 468,
+    "CountryId": 348,
+    "EmailAddress": "william_mclaughlin@gibson.name",
+    "Kananame": "ex",
+    "EmailAddressName": "dejah_hettinger@kshlerinebert.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Hayley Sheila Renner",
+    "AssociateFullName": "Prof. Elvis Gilberto Hintz DDS",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "in",
-    "FullName": "Braxton Davis",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 68,
-    "Number1": "1235596",
-    "Number2": "103841",
+    "FormattedAddress": "expedita",
+    "FullName": "Hardy Kuphal",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 861,
+    "Number1": "609318",
+    "Number2": "448026",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldType": "System.Int32",
+        "FieldLength": 362
       }
     }
   }

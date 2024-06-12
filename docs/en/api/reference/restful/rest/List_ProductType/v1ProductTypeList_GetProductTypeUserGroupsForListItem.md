@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Lueilwitz LLC",
-    "ToolTip": "Nam pariatur.",
-    "Deleted": true,
-    "Rank": 110,
-    "Type": "et",
-    "ColorBlock": 871,
-    "IconHint": "necessitatibus",
+    "Id": 630,
+    "Name": "Hauck Group",
+    "ToolTip": "Ut architecto tempore.",
+    "Deleted": false,
+    "Rank": 717,
+    "Type": "nobis",
+    "ColorBlock": 360,
+    "IconHint": "ullam",
     "Selected": true,
-    "LastChanged": "2017-01-21T12:57:43.6051463+01:00",
+    "LastChanged": "2004-03-28T04:22:36.0809665+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Satterfield-Goodwin",
-        "ToolTip": "Non nam et magni et vitae ut.",
+        "Id": 914,
+        "Name": "Flatley-Adams",
+        "ToolTip": "Nisi dolore aliquid.",
         "Deleted": false,
-        "Rank": 202,
-        "Type": "officia",
-        "ColorBlock": 177,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2004-12-16T12:57:43.6051463+01:00",
+        "Rank": 865,
+        "Type": "rerum",
+        "ColorBlock": 916,
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "2006-03-19T04:22:36.0809665+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ea",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Miss Luigi Clement Kihn DVM",
+        "FullName": "Glenda Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 294
+            "FieldLength": 827
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "cumque",
-    "Hidden": true,
-    "FullName": "Estella Ewell Wolf Jr.",
+    "ExtraInfo": "enim",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Jedidiah Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldType": "System.String",
+        "FieldLength": 822
       }
     }
   }

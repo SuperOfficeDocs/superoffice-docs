@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=iste
-GET /api/v1/SystemEvent?$top=196
-GET /api/v1/SystemEvent?$skip=497
+GET /api/v1/SystemEvent?$entities=consequatur
+GET /api/v1/SystemEvent?$top=948
+GET /api/v1/SystemEvent?$skip=946
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=voluptatem
+GET /api/v1/SystemEvent?$context=et
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=False
+GET /api/v1/SystemEvent?$jsonSafe=True
 GET /api/v1/SystemEvent?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "optio",
+  "odata.nextLink": "vitae",
   "value": [
     {
-      "PrimaryKey": 205,
+      "PrimaryKey": 3605,
       "EntityName": "sale",
-      "saleId": 205,
-      "contactId": 1729,
-      "name": "Cronin-Jewess"
+      "saleId": 3605,
+      "contactId": 1586,
+      "name": "Hoeger Group"
     },
     {
-      "PrimaryKey": 970,
+      "PrimaryKey": 6792,
       "EntityName": "sale",
-      "saleId": 970,
-      "contactId": 9572,
-      "name": "Balistreri Group"
+      "saleId": 6792,
+      "contactId": 8774,
+      "name": "Blick, Harber and Satterfield"
     }
   ]
 }

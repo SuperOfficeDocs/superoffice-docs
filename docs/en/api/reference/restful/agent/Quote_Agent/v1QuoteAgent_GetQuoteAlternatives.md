@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 440
+  "QuoteVersionId": 874
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 431,
-    "ERPQuoteAlternativeKey": "eos",
-    "QuoteVersionId": 518,
-    "Name": "Strosin Inc and Sons",
-    "Description": "Public-key demand-driven array",
+    "QuoteAlternativeId": 558,
+    "ERPQuoteAlternativeKey": "et",
+    "QuoteVersionId": 652,
+    "Name": "Hauck LLC",
+    "Description": "Optimized full-range architecture",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 26601.392,
-    "ERPDiscountAmount": 28788.924,
-    "DiscountPercent": 17265.206,
-    "DiscountAmount": 6280.536,
+    "ERPDiscountPercent": 24037.78,
+    "ERPDiscountAmount": 30308.914,
+    "DiscountPercent": 949.602,
+    "DiscountAmount": 3011.774,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "nobis",
-    "VAT": 14372.524,
-    "EarningPercent": 5522.108,
-    "EarningAmount": 29760.464,
-    "SubTotal": 23965.698,
-    "TotalPrice": 11799.51,
-    "ExtraField1": "et",
-    "ExtraField2": "praesentium",
-    "ExtraField3": "nihil",
-    "ExtraField4": "ea",
-    "ExtraField5": "sed",
+    "VATInfo": "facere",
+    "VAT": 19938.507999999998,
+    "EarningPercent": 30766.478,
+    "EarningAmount": 3469.3379999999997,
+    "SubTotal": 23924.956,
+    "TotalPrice": 17506.523999999998,
+    "ExtraField1": "est",
+    "ExtraField2": "expedita",
+    "ExtraField3": "et",
+    "ExtraField4": "distinctio",
+    "ExtraField5": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldType": "System.String",
+        "FieldLength": 246
       }
     }
   }

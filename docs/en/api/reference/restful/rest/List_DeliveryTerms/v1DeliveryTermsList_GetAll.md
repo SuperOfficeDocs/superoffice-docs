@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Konopelski-Rogahn",
-    "Tooltip": "fuga",
+    "Id": 388,
+    "Name": "Ankunding, Hills and Friesen",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 790,
-    "Rank": 903,
+    "UdListDefinitionId": 206,
+    "Rank": 739,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldType": "System.Int32",
+        "FieldLength": 131
       }
     }
   }

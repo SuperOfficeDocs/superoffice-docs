@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 553,
-    "Name": "Renner-Emmerich",
-    "Tooltip": "quae",
-    "Rank": 532,
-    "Key": "omnis",
+    "LegalBaseId": 60,
+    "Name": "Wiegand Inc and Sons",
+    "Tooltip": "dignissimos",
+    "Rank": 548,
+    "Key": "sed",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

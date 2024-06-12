@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
+  "Id": 445,
   "IncludeAttachments": false
 }
 ```
@@ -122,114 +122,114 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 582,
-      "ContactName": "Gleason Inc and Sons",
-      "PersonId": 549,
-      "PersonName": "Hane Inc and Sons",
-      "AssociateId": 985,
-      "Address": "laudantium",
-      "EmailId": 545,
+      "ContactId": 452,
+      "ContactName": "Kunze Group",
+      "PersonId": 227,
+      "PersonName": "Hettinger, Wehner and Kuvalis",
+      "AssociateId": 121,
+      "Address": "suscipit",
+      "EmailId": 93,
       "DuplicatePersonIds": [
-        235,
-        486
+        583,
+        205
       ],
-      "Name": "Hessel Inc and Sons",
+      "Name": "Aufderhar, Walsh and Mraz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 934
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 279,
-      "ContactName": "Koch, Brakus and Fay",
-      "PersonId": 692,
-      "PersonName": "Schimmel Inc and Sons",
-      "AssociateId": 947,
-      "Address": "nostrum",
-      "EmailId": 757,
+      "ContactId": 965,
+      "ContactName": "Schumm, Douglas and Kunze",
+      "PersonId": 995,
+      "PersonName": "Lockman, Jewess and Pagac",
+      "AssociateId": 365,
+      "Address": "exercitationem",
+      "EmailId": 851,
       "DuplicatePersonIds": [
-        452,
-        143
+        424,
+        804
       ],
-      "Name": "Larson-Kerluke",
+      "Name": "Bins Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 878
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 923,
-      "ContactName": "Blick LLC",
-      "PersonId": 351,
-      "PersonName": "Walter-Durgan",
-      "AssociateId": 633,
-      "Address": "minima",
-      "EmailId": 948,
+      "ContactId": 356,
+      "ContactName": "Heaney LLC",
+      "PersonId": 384,
+      "PersonName": "Rowe-Parker",
+      "AssociateId": 689,
+      "Address": "illo",
+      "EmailId": 924,
       "DuplicatePersonIds": [
-        933,
-        261
+        509,
+        849
       ],
-      "Name": "Renner, Jewess and Strosin",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
-        }
-      }
-    }
-  ],
-  "Subject": "et",
-  "HTMLBody": "aut",
-  "From": null,
-  "Sent": "2010-03-30T12:57:33.9773902+02:00",
-  "Size": 559,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "amet",
-  "PlainBody": "ut",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 100,
-  "Attachments": [
-    {
-      "Description": "Triple-buffered assymetric hub",
-      "Filename": "voluptas",
-      "Size": 634,
-      "Type": "magnam",
-      "Encoding": "exercitationem",
-      "Id": "facere",
-      "Disposition": "distinctio",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Bartell Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 691
+        }
+      }
+    }
+  ],
+  "Subject": "minus",
+  "HTMLBody": "quia",
+  "From": null,
+  "Sent": "2007-03-29T04:22:26.7924683+02:00",
+  "Size": 584,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "officiis",
+  "PlainBody": "consequatur",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 304,
+  "Attachments": [
+    {
+      "Description": "Enhanced full-range task-force",
+      "Filename": "ipsam",
+      "Size": 14,
+      "Type": "non",
+      "Encoding": "quam",
+      "Id": "nostrum",
+      "Disposition": "cumque",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 915
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bergstrom-White",
+      "Name": "Langworth Inc and Sons",
       "Values": [
-        "non",
+        "sit",
         "et"
       ],
       "TableRight": null,
@@ -237,14 +237,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 492
         }
       }
     },
     {
-      "Name": "Bergstrom-White",
+      "Name": "Langworth Inc and Sons",
       "Values": [
-        "non",
+        "sit",
         "et"
       ],
       "TableRight": null,
@@ -252,26 +252,26 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 492
         }
       }
     }
   ],
-  "FolderName": "Waters-Tillman",
-  "EmailItemId": 45,
-  "AccountId": 892,
-  "ReceivedAt": "2008-07-28T12:57:33.9773902+02:00",
+  "FolderName": "Kassulke, Mertz and Goldner",
+  "EmailItemId": 533,
+  "AccountId": 445,
+  "ReceivedAt": "1998-06-07T04:22:26.7924683+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-10-22T12:57:33.9773902+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2003-02-20T04:22:26.7924683+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 714
     }
   }
 }

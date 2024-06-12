@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 949,
-  "Name": "Braun Inc and Sons",
-  "AssociateId": 754,
-  "DetailsTable": 441,
-  "DetailsRecord": 748,
-  "IsSystemTask": false,
+  "Id": 788,
+  "Name": "Koss, Denesik and Frami",
+  "AssociateId": 10,
+  "DetailsTable": 582,
+  "DetailsRecord": 196,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "adipisci",
-    "ParameterObject2": "eligendi"
+    "ParameterObject1": "maiores",
+    "ParameterObject2": "necessitatibus"
   },
-  "LastStarted": "2004-10-12T12:57:33.2658907+02:00",
-  "Created": "2002-08-18T12:57:33.2658907+02:00",
-  "StartCount": 436,
-  "DatabaseSerialNumber": "1617631",
-  "Context": "quos",
-  "Result": "ipsa",
+  "LastStarted": "2008-10-08T04:22:26.0122232+02:00",
+  "Created": "2012-01-21T04:22:26.0122232+01:00",
+  "StartCount": 625,
+  "DatabaseSerialNumber": "997139",
+  "Context": "cumque",
+  "Result": "ut",
   "State": "All",
-  "Description": "Future-proofed upward-trending moratorium",
-  "Response": "aut",
-  "Request": "aspernatur",
-  "ProgressDescription": "Right-sized explicit superstructure",
-  "ProgressPercent": 16,
-  "FileName": "Mann LLC",
+  "Description": "Diverse dedicated extranet",
+  "Response": "ullam",
+  "Request": "dolor",
+  "ProgressDescription": "Vision-oriented scalable middleware",
+  "ProgressPercent": 193,
+  "FileName": "Lebsack Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 206
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

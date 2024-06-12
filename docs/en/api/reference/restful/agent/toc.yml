@@ -3972,6 +3972,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowWaitForAction.md
   - name: SendEvent
     href: Workflow_Agent/v1WorkflowAgent_SendEvent.md
+  - name: SetStatusOnWorkflow
+    href: Workflow_Agent/v1WorkflowAgent_SetStatusOnWorkflow.md
   - name: TryAddPersonsToEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_TryAddPersonsToEmailFlow.md
   - name: UpdateFormSubmissions

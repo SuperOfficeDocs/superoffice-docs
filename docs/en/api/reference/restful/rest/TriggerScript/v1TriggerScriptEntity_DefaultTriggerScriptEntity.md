@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 268,
-  "Name": "Prosacco LLC",
+  "ScreenChooserId": 707,
+  "Name": "Kirlin LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "repellendus",
-  "Source": "tenetur",
-  "Registered": "2018-03-16T12:57:43.0892086+01:00",
-  "RegisteredAssociateId": 501,
-  "Updated": "1998-06-30T12:57:43.0892086+02:00",
-  "UpdatedAssociateId": 679,
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "quis",
+  "Registered": "2023-10-22T04:22:35.595979+02:00",
+  "RegisteredAssociateId": 917,
+  "Updated": "2011-04-18T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 984,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 901
     }
   }
 }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Swaniawski, Brakus and Schumm",
+  "Name": "Roberts Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Fay Inc and Sons",
-    "AssociateId": 76,
-    "DetailsTable": 255,
-    "DetailsRecord": 683,
-    "IsSystemTask": true,
+    "Id": 860,
+    "Name": "Ward Inc and Sons",
+    "AssociateId": 26,
+    "DetailsTable": 764,
+    "DetailsRecord": 855,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "cum",
-      "ParameterObject2": "alias"
+      "ParameterObject1": "et",
+      "ParameterObject2": "enim"
     },
-    "LastStarted": "2013-01-23T12:57:33.2658907+01:00",
-    "Created": "2009-09-23T12:57:33.2658907+02:00",
-    "StartCount": 979,
-    "DatabaseSerialNumber": "1114370",
-    "Context": "blanditiis",
-    "Result": "placeat",
+    "LastStarted": "1998-04-08T04:22:26.0122232+02:00",
+    "Created": "2008-08-23T04:22:26.0122232+02:00",
+    "StartCount": 696,
+    "DatabaseSerialNumber": "191153",
+    "Context": "quaerat",
+    "Result": "id",
     "State": "All",
-    "Description": "Persevering actuating migration",
-    "Response": "quia",
-    "Request": "nam",
-    "ProgressDescription": "Reactive analyzing concept",
-    "ProgressPercent": 835,
-    "FileName": "Sanford LLC",
+    "Description": "Devolved stable hierarchy",
+    "Response": "iure",
+    "Request": "quam",
+    "ProgressDescription": "Cloned attitude-oriented artificial intelligence",
+    "ProgressPercent": 17,
+    "FileName": "Larkin, Dietrich and Senger",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 3
       }
     }
   }

@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 424,
-  "Name": "Zieme, Rippin and Wiza",
-  "CreatedDate": "2003-12-31T12:57:42.4326345+01:00",
-  "UpdatedDate": "1997-10-13T12:57:42.4326345+02:00",
+  "ForeignAppId": 906,
+  "Name": "Cruickshank, Kassulke and Bauch",
+  "CreatedDate": "1999-03-07T04:22:34.9698352+01:00",
+  "UpdatedDate": "2002-02-03T04:22:34.9698352+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 963,
-      "Name": "VonRueden, Hegmann and Moore",
-      "CreatedDate": "2006-03-03T12:57:42.4326345+01:00",
-      "UpdatedDate": "1998-12-22T12:57:42.4326345+01:00",
-      "AssociateFullName": "Johnathan Sammy Greenholt III",
-      "CreatedBy": "laboriosam",
-      "UpdatedBy": "dolorem",
-      "DeviceIdentifier": "distinctio",
-      "ForeignAppId": 266,
+      "ForeignDeviceId": 70,
+      "Name": "Howe LLC",
+      "CreatedDate": "2024-03-07T04:22:34.9698352+01:00",
+      "UpdatedDate": "2014-03-03T04:22:34.9698352+01:00",
+      "AssociateFullName": "Rodolfo Will",
+      "CreatedBy": "in",
+      "UpdatedBy": "perspiciatis",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 323,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 517
+          "FieldLength": 481
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

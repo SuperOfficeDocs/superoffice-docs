@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=850
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=645
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 88,
-  "ContactId": 873,
-  "ProjectId": 690,
-  "ContactName": "Kuhn Inc and Sons",
+  "ProjectmemberId": 506,
+  "ContactId": 430,
+  "ProjectId": 918,
+  "ContactName": "Torp Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Strosin-Weber",
-  "EmailId": 197,
-  "EmailAddress": "madisen.schowalter@larson.co.uk",
-  "CountryId": 717,
-  "Firstname": "Oswald",
-  "MiddleName": "Bashirian Inc and Sons",
-  "Lastname": "Gislason",
-  "PersonId": 316,
-  "Mrmrs": "magnam",
-  "ProjectMemberTypeName": "Quitzon, Rau and Durgan",
-  "Phone": "1-360-083-2648 x684",
-  "PhoneId": 16,
-  "ProjectMemberTypeId": 498,
-  "EmailAddressName": "beau_wilkinson@oreilly.name",
-  "Comment": "omnis",
-  "FullName": "Davion Moen",
+  "ProjectName": "Schneider LLC",
+  "EmailId": 742,
+  "EmailAddress": "jermey@rowecollier.com",
+  "CountryId": 690,
+  "Firstname": "Herbert",
+  "MiddleName": "Nienow, Auer and Veum",
+  "Lastname": "Bechtelar",
+  "PersonId": 199,
+  "Mrmrs": "dolores",
+  "ProjectMemberTypeName": "Sauer, Schiller and Ryan",
+  "Phone": "039-102-4379 x437",
+  "PhoneId": 574,
+  "ProjectMemberTypeId": 926,
+  "EmailAddressName": "jacinto_zemlak@cummerataschumm.uk",
+  "Comment": "dignissimos",
+  "FullName": "Cullen Sporer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 190
     }
   }
 }

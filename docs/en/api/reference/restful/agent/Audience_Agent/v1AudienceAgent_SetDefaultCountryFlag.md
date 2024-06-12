@@ -71,7 +71,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "O'Conner-Kerluke",
+  "LayoutName": "Franecki, Kihn and Brekke",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

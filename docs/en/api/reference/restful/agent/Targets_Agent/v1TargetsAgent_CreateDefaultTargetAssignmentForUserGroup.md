@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 220
+  "UserGroupId": 260
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 703,
+    "TargetAssignmentInfoId": 776,
     "Values": [
-      167,
-      900
+      692,
+      37
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 300,
-    "DimensionListItemDisplayName": "Okuneva-Heathcote",
+    "DimensionListItem": 881,
+    "DimensionListItemDisplayName": "Pollich, Skiles and Kozey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 942
+        "FieldType": "System.Int32",
+        "FieldLength": 447
       }
     }
   }

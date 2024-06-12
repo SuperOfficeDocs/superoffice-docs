@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    17,
-    358
+    607,
+    4
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 670,
-    "Name": "Paucek Inc and Sons",
-    "TargetTable": "itaque",
-    "Registered": "2023-02-17T12:57:34.961451+01:00",
-    "ProviderName": "Koch-Corkery"
+    "SelectionId": 897,
+    "Name": "Keeling, Buckridge and Christiansen",
+    "TargetTable": "temporibus",
+    "Registered": "2014-12-06T04:22:27.6586455+01:00",
+    "ProviderName": "Upton, Haag and Corkery"
   },
   {
-    "SelectionId": 670,
-    "Name": "Paucek Inc and Sons",
-    "TargetTable": "itaque",
-    "Registered": "2023-02-17T12:57:34.961451+01:00",
-    "ProviderName": "Koch-Corkery"
+    "SelectionId": 897,
+    "Name": "Keeling, Buckridge and Christiansen",
+    "TargetTable": "temporibus",
+    "Registered": "2014-12-06T04:22:27.6586455+01:00",
+    "ProviderName": "Upton, Haag and Corkery"
   }
 ]
 ```

@@ -18,7 +18,6 @@ Some steps can have optional child &apos;flows&apos;, a new series of steps
 |------|-------------|------|:----:|
 |workflow\_step\_option\_id|Primary key|PK| |
 |workflow\_step\_id|The workflow step this instance belongs to|FK [workflow_step](workflow-step.md)|&#x25CF;|
-|workflow\_id|The flow this instance belongs to|FK [workflow](workflow.md)|&#x25CF;|
 |name|The name of this option|String(255)|&#x25CF;|
 |rank|The rank of this option|Int|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -45,7 +44,6 @@ Some steps can have optional child &apos;flows&apos;, a new series of steps
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
 |[workflow\_step\_option\_link](workflow-step-option-link.md)  |Link steps to other steps through step options |
 

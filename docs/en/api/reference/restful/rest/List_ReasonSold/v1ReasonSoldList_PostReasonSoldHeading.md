@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 777,
-  "Name": "Jewess Group",
-  "Tooltip": "optio",
+  "HeadingId": 81,
+  "Name": "Hermann-Mohr",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 317,
-  "UdListDefinitionId": 880
+  "Rank": 110,
+  "UdListDefinitionId": 93
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 48,
-  "Name": "Ratke-Mills",
-  "Tooltip": "adipisci",
+  "HeadingId": 500,
+  "Name": "Weber LLC",
+  "Tooltip": "animi",
   "Deleted": false,
-  "Rank": 389,
-  "UdListDefinitionId": 750,
+  "Rank": 539,
+  "UdListDefinitionId": 994,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

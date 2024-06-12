@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 589,
-  "FormKey": "ad",
-  "Name": "Donnelly, Ortiz and Feest",
-  "Description": "Versatile executive help-desk",
-  "Config": "animi",
-  "FolderId": 141,
-  "ScriptId": 25,
-  "ResponseShipmentId": 390,
+  "FormId": 990,
+  "FormKey": "non",
+  "Name": "Stark, Goldner and Balistreri",
+  "Description": "Digitized regional local area network",
+  "Config": "voluptatum",
+  "FolderId": 455,
+  "ScriptId": 594,
+  "ResponseShipmentId": 888,
   "Active": false,
-  "Expires": "1998-03-22T12:57:34.2429559+01:00",
-  "MaxSubmits": 579,
+  "Expires": "2014-05-22T04:22:27.0653754+02:00",
+  "MaxSubmits": 774,
   "Type": "Normal",
-  "Recipe": "consequuntur",
-  "GroupId": 802,
-  "NewTicket": true,
+  "Recipe": "quia",
+  "GroupId": 618,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-03-01T12:57:34.2429559+01:00",
-  "RegisteredAssociateId": 960,
-  "Updated": "2012-08-20T12:57:34.2429559+02:00",
-  "UpdatedAssociateId": 572,
-  "UpdatedCount": 650,
+  "Registered": "2015-04-11T04:22:27.0653754+02:00",
+  "RegisteredAssociateId": 651,
+  "Updated": "1999-03-15T04:22:27.0653754+01:00",
+  "UpdatedAssociateId": 182,
+  "UpdatedCount": 744,
   "EmailFlows": [
-    349,
-    842
+    44,
+    799
   ],
-  "FolderName": "Ledner Group"
+  "FolderName": "Cormier-Frami"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 769,
+  "FormId": 539,
   "FormKey": "ipsum",
-  "Name": "Nader, Prosacco and Padberg",
-  "Description": "Visionary impactful adapter",
-  "Config": "vel",
-  "FolderId": 258,
-  "ScriptId": 398,
-  "ResponseShipmentId": 863,
-  "Active": false,
-  "Expires": "2018-03-02T12:57:34.2429559+01:00",
-  "MaxSubmits": 670,
+  "Name": "Koss-Beer",
+  "Description": "Public-key discrete ability",
+  "Config": "nam",
+  "FolderId": 498,
+  "ScriptId": 229,
+  "ResponseShipmentId": 142,
+  "Active": true,
+  "Expires": "2010-08-05T04:22:27.0653754+02:00",
+  "MaxSubmits": 632,
   "Type": "Normal",
-  "Recipe": "odio",
-  "GroupId": 776,
+  "Recipe": "sit",
+  "GroupId": 742,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1997-08-31T12:57:34.2429559+02:00",
-  "RegisteredAssociateId": 72,
-  "Updated": "2004-04-23T12:57:34.2429559+02:00",
-  "UpdatedAssociateId": 517,
-  "UpdatedCount": 143,
+  "Registered": "2007-11-21T04:22:27.0653754+01:00",
+  "RegisteredAssociateId": 671,
+  "Updated": "1997-09-28T04:22:27.0653754+02:00",
+  "UpdatedAssociateId": 162,
+  "UpdatedCount": 368,
   "EmailFlows": [
-    167,
-    375
+    192,
+    904
   ],
-  "FolderName": "Pacocha LLC",
+  "FolderName": "Dibbert-Feil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldType": "System.Int32",
+      "FieldLength": 260
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 56,
-  "StartTime": "2013-01-19T12:57:33.6961763+01:00",
-  "EndTime": "2010-09-08T12:57:33.6961763+02:00",
-  "Count": 474,
-  "DocumentTemplateId": 94
+  "PersonId": 105,
+  "StartTime": "2019-04-02T04:22:26.4978545+02:00",
+  "EndTime": "2008-03-25T04:22:26.4978545+01:00",
+  "Count": 791,
+  "DocumentTemplateId": 767
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 480,
-    "Attention": "quos",
-    "Header": "ratione",
-    "Name": "Schiller-Conn",
-    "OurRef": "maiores",
-    "YourRef": "numquam",
-    "Description": "Optional uniform task-force",
-    "DocumentTemplate": "rem",
+    "DocumentId": 687,
+    "Attention": "dicta",
+    "Header": "tenetur",
+    "Name": "Frami LLC",
+    "OurRef": "quia",
+    "YourRef": "minus",
+    "Description": "Expanded explicit migration",
+    "DocumentTemplate": "totam",
     "IsPublished": false,
-    "PersonId": 505,
-    "PersonFullName": "Macy Hansen",
-    "AssociateFullName": "Esther Carroll",
-    "ContactId": 489,
-    "ContactName": "Hansen, Ondricka and Weimann",
-    "ProjectId": 887,
-    "ProjectName": "Doyle-Ullrich",
-    "AssociateId": 636,
-    "Snum": 686,
-    "SaleId": 719,
-    "SaleName": "Fay Inc and Sons",
+    "PersonId": 242,
+    "PersonFullName": "Prof. Evalyn Neal O'Keefe",
+    "AssociateFullName": "Ruben Fadel",
+    "ContactId": 692,
+    "ContactName": "Sauer Inc and Sons",
+    "ProjectId": 67,
+    "ProjectName": "Maggio Group",
+    "AssociateId": 302,
+    "Snum": 696,
+    "SaleId": 101,
+    "SaleName": "Boyle Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 846
       }
     }
   }

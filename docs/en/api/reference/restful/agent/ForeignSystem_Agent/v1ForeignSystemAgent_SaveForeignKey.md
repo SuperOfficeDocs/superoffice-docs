@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Swaniawski-Feeney",
-  "DeviceName": "Ryan-VonRueden",
-  "DeviceIdentifier": "sit"
+  "ApplicationName": "Lesch, Bernhard and Kunde",
+  "DeviceName": "Moore, Hudson and D'Amore",
+  "DeviceIdentifier": "beatae"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "magni",
-  "Value": "tenetur",
-  "RecordId": 406,
-  "CreatedDate": "2021-01-14T12:57:34.0711192+01:00",
-  "UpdatedDate": "1999-05-22T12:57:34.0711192+02:00",
-  "UpdatedBy": "atque",
-  "CreatedBy": "distinctio",
-  "TableName": "Haley-Lynch",
+  "Key": "cupiditate",
+  "Value": "incidunt",
+  "RecordId": 533,
+  "CreatedDate": "1997-07-04T04:22:26.8755249+02:00",
+  "UpdatedDate": "2010-01-02T04:22:26.8755249+01:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "ad",
+  "TableName": "Dietrich LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

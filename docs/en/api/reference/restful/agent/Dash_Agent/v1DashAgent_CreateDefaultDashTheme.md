@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 592,
-  "Name": "Maggio-Langosh",
-  "Config": "quisquam",
-  "Rank": 928,
-  "Client": "deleniti",
-  "Style": "quia",
+  "DashboardThemeId": 993,
+  "Name": "McDermott, Rodriguez and Mayert",
+  "Config": "doloremque",
+  "Rank": 651,
+  "Client": "eveniet",
+  "Style": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

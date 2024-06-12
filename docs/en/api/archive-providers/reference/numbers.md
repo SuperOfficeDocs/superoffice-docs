@@ -87,7 +87,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=fieldId,nextnum,updated_associate/title
+GET /api/v1/archive/Numbers?$select=nextnum,updated_associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

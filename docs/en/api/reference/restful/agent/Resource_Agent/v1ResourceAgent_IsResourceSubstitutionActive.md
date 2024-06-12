@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Kessler-Waters",
-    "Smitham-Baumbach"
+    "Herman Inc and Sons",
+    "Stoltenberg, Treutel and Weber"
   ],
-  "Culture": "eos"
+  "Culture": "consequatur"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Osinski-Wiza",
-    "ResourceValue": "molestiae",
-    "Culture": "repellendus",
-    "IsActive": false,
+    "ResourceName": "Hahn, Bailey and Predovic",
+    "ResourceValue": "culpa",
+    "Culture": "et",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 306
+        "FieldLength": 176
       }
     }
   },
   {
-    "ResourceName": "Osinski-Wiza",
-    "ResourceValue": "molestiae",
-    "Culture": "repellendus",
-    "IsActive": false,
+    "ResourceName": "Hahn, Bailey and Predovic",
+    "ResourceValue": "culpa",
+    "Culture": "et",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 306
+        "FieldLength": 176
       }
     }
   }

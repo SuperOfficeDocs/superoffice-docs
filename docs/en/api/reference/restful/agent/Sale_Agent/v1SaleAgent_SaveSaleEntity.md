@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "asperiores",
+  "SaleText": "ab",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-04-02T12:57:34.8209193+02:00",
-  "Amount": 24808.744,
-  "SaleId": 184,
-  "Earning": 9439.608,
-  "EarningPercent": 16165.171999999999,
-  "Heading": "numquam",
-  "Number": "967773",
-  "Probability": 941,
-  "CreatedDate": "2005-09-29T12:57:34.8209193+02:00",
-  "UpdatedDate": "2022-07-14T12:57:34.8209193+02:00",
+  "Saledate": "1997-12-16T04:22:27.5023991+01:00",
+  "Amount": 24291.634,
+  "SaleId": 57,
+  "Earning": 18600.29,
+  "EarningPercent": 31042.27,
+  "Heading": "fugiat",
+  "Number": "922975",
+  "Probability": 976,
+  "CreatedDate": "2008-01-16T04:22:27.5023991+01:00",
+  "UpdatedDate": "2006-03-09T04:22:27.5023991+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 360,
+  "ActiveLinks": 8,
   "Links": [
     {
-      "EntityName": "Reinger Inc and Sons",
-      "Id": 162,
-      "Description": "Innovative homogeneous application",
-      "ExtraInfo": "expedita",
-      "LinkId": 558
+      "EntityName": "Hauck, Jerde and Willms",
+      "Id": 69,
+      "Description": "Multi-channelled zero administration attitude",
+      "ExtraInfo": "maxime",
+      "LinkId": 575
     },
     {
-      "EntityName": "Reinger Inc and Sons",
-      "Id": 162,
-      "Description": "Innovative homogeneous application",
-      "ExtraInfo": "expedita",
-      "LinkId": 558
+      "EntityName": "Hauck, Jerde and Willms",
+      "Id": 69,
+      "Description": "Multi-channelled zero administration attitude",
+      "ExtraInfo": "maxime",
+      "LinkId": 575
     }
   ],
-  "NextDueDate": "2012-09-26T12:57:34.8209193+02:00",
-  "Postit": "inventore",
+  "NextDueDate": "2023-08-03T04:22:27.5023991+02:00",
+  "Postit": "cum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-06-02T12:57:34.8209193+02:00",
+  "ReopenDate": "2023-01-21T04:22:27.5023991+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Witting-Jakubowski",
-      "Comment": "dicta",
-      "StakeholderRoleId": 386,
-      "CountryId": 752,
-      "PersonId": 725,
-      "EmailDescription": "kariane_murphy@gutkowski.uk",
-      "EmailId": 727,
-      "EmailAddress": "ransom_mccullough@von.biz",
-      "PhoneId": 293,
-      "ContactName": "Morar, Wunsch and VonRueden",
-      "ContactId": 183,
-      "SaleId": 735,
-      "Mrmrs": "cupiditate",
-      "Firstname": "Oda",
-      "MiddleName": "King, Swaniawski and Nikolaus",
-      "Lastname": "Jacobi",
-      "SaleStakeholderId": 914,
-      "Rank": 179,
-      "Phone": "346.343.1593"
+      "StakeholderRoleName": "Eichmann-Blick",
+      "Comment": "quaerat",
+      "StakeholderRoleId": 753,
+      "CountryId": 413,
+      "PersonId": 85,
+      "EmailDescription": "yessenia@friesen.com",
+      "EmailId": 678,
+      "EmailAddress": "amber@schroederrunolfsson.co.uk",
+      "PhoneId": 907,
+      "ContactName": "Sanford, Wisoky and Gislason",
+      "ContactId": 497,
+      "SaleId": 745,
+      "Mrmrs": "aspernatur",
+      "Firstname": "Madilyn",
+      "MiddleName": "Graham, Osinski and Ortiz",
+      "Lastname": "Walter",
+      "SaleStakeholderId": 382,
+      "Rank": 904,
+      "Phone": "872.574.6587 x03979"
     }
   ],
-  "ActiveErpLinks": 559,
+  "ActiveErpLinks": 745,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alphonso Harris II",
-    "SuperOffice:2": "Dr. Brooks Gislason Sr."
+    "SuperOffice:1": "517327652",
+    "SuperOffice:2": "1969150932"
   },
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "odit"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "sint"
+    "CustomFields1": "eveniet",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2013-12-10T12:57:34.8209193+01:00",
-  "PublishTo": "2016-09-18T12:57:34.8209193+02:00",
-  "PublishFrom": "2013-11-29T12:57:34.8209193+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-06-17T04:22:27.5023991+02:00",
+  "PublishTo": "2015-01-03T04:22:27.5023991+01:00",
+  "PublishFrom": "2004-07-26T04:22:27.5023991+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 118,
+      "VisibleId": 680,
       "Visibility": "All",
-      "DisplayValue": "sit"
+      "DisplayValue": "sed"
     },
     {
-      "VisibleId": 118,
+      "VisibleId": 680,
       "Visibility": "All",
-      "DisplayValue": "sit"
+      "DisplayValue": "sed"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "at",
+  "SaleText": "voluptates",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-05-25T12:57:34.8365408+02:00",
-  "Amount": 29782.402,
-  "SaleId": 862,
-  "Earning": 28763.852,
-  "EarningPercent": 28973.829999999998,
-  "Heading": "quidem",
-  "Number": "1143701",
-  "Probability": 643,
-  "CreatedDate": "2015-04-16T12:57:34.8365408+02:00",
-  "UpdatedDate": "2005-09-28T12:57:34.8365408+02:00",
+  "Saledate": "2010-01-28T04:22:27.5180247+01:00",
+  "Amount": 8189.142,
+  "SaleId": 967,
+  "Earning": 9621.38,
+  "EarningPercent": 15278.25,
+  "Heading": "et",
+  "Number": "134624",
+  "Probability": 965,
+  "CreatedDate": "2015-07-19T04:22:27.5180247+02:00",
+  "UpdatedDate": "2017-08-17T04:22:27.5180247+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 438,
+  "ActiveLinks": 406,
   "Links": [
     {
-      "EntityName": "Adams-Kassulke",
-      "Id": 284,
-      "Description": "Assimilated tertiary utilisation",
-      "ExtraInfo": "dolor",
-      "LinkId": 544,
+      "EntityName": "Strosin LLC",
+      "Id": 582,
+      "Description": "Diverse contextually-based open architecture",
+      "ExtraInfo": "nesciunt",
+      "LinkId": 671,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 456
         }
       }
     }
   ],
-  "NextDueDate": "2007-05-23T12:57:34.8365408+02:00",
-  "Postit": "inventore",
+  "NextDueDate": "2023-03-15T04:22:27.5180247+01:00",
+  "Postit": "beatae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1997-04-17T12:57:34.8365408+02:00",
+  "ReopenDate": "2018-04-08T04:22:27.5180247+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schinner-Legros",
-      "Comment": "culpa",
-      "StakeholderRoleId": 625,
-      "CountryId": 994,
-      "PersonId": 483,
-      "EmailDescription": "wilfrid.senger@lemke.biz",
-      "EmailId": 940,
-      "EmailAddress": "richmond@ortiz.ca",
-      "PhoneId": 128,
-      "ContactName": "Mertz-D'Amore",
-      "ContactId": 924,
-      "SaleId": 410,
-      "Mrmrs": "est",
-      "Firstname": "Stevie",
-      "MiddleName": "Hodkiewicz-Emmerich",
-      "Lastname": "Berge",
-      "SaleStakeholderId": 213,
-      "Rank": 745,
-      "Phone": "(779)304-2626",
+      "StakeholderRoleName": "Schinner-Brown",
+      "Comment": "explicabo",
+      "StakeholderRoleId": 157,
+      "CountryId": 223,
+      "PersonId": 345,
+      "EmailDescription": "austen.sporer@nolanstamm.us",
+      "EmailId": 120,
+      "EmailAddress": "zoey@huels.biz",
+      "PhoneId": 867,
+      "ContactName": "Reichel LLC",
+      "ContactId": 358,
+      "SaleId": 177,
+      "Mrmrs": "sed",
+      "Firstname": "Hazel",
+      "MiddleName": "Moore Inc and Sons",
+      "Lastname": "Nicolas",
+      "SaleStakeholderId": 18,
+      "Rank": 149,
+      "Phone": "(355)873-3464 x63776",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 983
         }
       }
     }
   ],
   "ActiveErpLinks": 119,
   "UserDefinedFields": {
-    "SuperOffice:1": "Derek Schaden",
-    "SuperOffice:2": "Mrs. Gerhard O'Hara"
+    "SuperOffice:1": "1245026793",
+    "SuperOffice:2": "Gilbert Kunze"
   },
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "qui"
+    "CustomFields1": "non",
+    "CustomFields2": "vero"
   },
-  "PublishEventDate": "2011-03-16T12:57:34.8365408+01:00",
-  "PublishTo": "2023-07-27T12:57:34.8365408+02:00",
-  "PublishFrom": "2003-07-27T12:57:34.8365408+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-09-06T04:22:27.5180247+02:00",
+  "PublishTo": "2013-06-18T04:22:27.5180247+02:00",
+  "PublishFrom": "2003-09-07T04:22:27.5180247+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 353,
+      "VisibleId": 345,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 282
         }
       }
     },
     {
-      "VisibleId": 353,
+      "VisibleId": 345,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 282
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

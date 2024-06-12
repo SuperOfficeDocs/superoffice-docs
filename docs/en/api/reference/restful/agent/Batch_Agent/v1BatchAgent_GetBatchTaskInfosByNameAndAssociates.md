@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Denesik-Steuber",
+  "Name": "Nolan-Lueilwitz",
   "AssociateIds": [
-    378,
-    896
+    17,
+    678
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Hettinger, Welch and Balistreri",
-    "AssociateId": 555,
-    "DetailsTable": 953,
-    "DetailsRecord": 510,
-    "IsSystemTask": true,
+    "Id": 35,
+    "Name": "Pfannerstill, Sipes and Breitenberg",
+    "AssociateId": 29,
+    "DetailsTable": 8,
+    "DetailsRecord": 577,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "perferendis",
-      "ParameterObject2": "ipsam"
+      "ParameterObject1": "vel",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2017-09-04T12:57:33.2658907+02:00",
-    "Created": "2018-11-07T12:57:33.2658907+01:00",
-    "StartCount": 194,
-    "DatabaseSerialNumber": "1021678",
-    "Context": "voluptatum",
-    "Result": "deleniti",
+    "LastStarted": "2012-05-20T04:22:26.0122232+02:00",
+    "Created": "2007-01-23T04:22:26.0122232+01:00",
+    "StartCount": 426,
+    "DatabaseSerialNumber": "475030",
+    "Context": "beatae",
+    "Result": "molestiae",
     "State": "All",
-    "Description": "Customer-focused grid-enabled functionalities",
-    "Response": "dolorem",
-    "Request": "culpa",
-    "ProgressDescription": "Implemented neutral interface",
-    "ProgressPercent": 75,
-    "FileName": "Mayer-Lubowitz",
+    "Description": "Diverse background flexibility",
+    "Response": "debitis",
+    "Request": "alias",
+    "ProgressDescription": "Versatile even-keeled alliance",
+    "ProgressPercent": 567,
+    "FileName": "Streich Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 124
       }
     }
   }

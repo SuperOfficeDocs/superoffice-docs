@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 795,
-  "Name": "Kirlin Inc and Sons",
-  "Description": "Team-oriented multimedia database",
-  "WelcomeMessage": "minima",
+  "ChatTopicId": 426,
+  "Name": "Frami Inc and Sons",
+  "Description": "Realigned encompassing intranet",
+  "WelcomeMessage": "hic",
   "Language": null,
-  "LastAccept": "2021-03-02T12:57:33.3212628+01:00",
-  "SecondsPrAccept": 119,
-  "AlertRecipient": "neque",
+  "LastAccept": "2014-07-07T04:22:26.0590988+02:00",
+  "SecondsPrAccept": 991,
+  "AlertRecipient": "est",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "pariatur",
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ut",
-  "WarnNewChatMinutes": 858,
-  "WarnManagerNewChatMinutes": 230,
+  "CustomQueueText": "a",
+  "WarnNewChatMinutes": 533,
+  "WarnManagerNewChatMinutes": 773,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 801,
-  "WarnManagerChatMessageMinutes": 681,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 973,
-  "OfflineFormQueueLength": 728,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 618,
+  "WarnManagerChatMessageMinutes": 36,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 421,
+  "OfflineFormQueueLength": 97,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "voluptate"
+  "WidgetRatingText": "placeat"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 607,
-  "Name": "Goyette-Kessler",
-  "Description": "Networked incremental implementation",
-  "WelcomeMessage": "consequatur",
+  "ChatTopicId": 725,
+  "Name": "Harvey Group",
+  "Description": "Re-engineered motivating service-desk",
+  "WelcomeMessage": "eos",
   "Language": null,
-  "LastAccept": "2012-10-25T12:57:33.3368838+02:00",
-  "SecondsPrAccept": 743,
-  "AlertRecipient": "dolorum",
+  "LastAccept": "2011-06-23T04:22:26.0590988+02:00",
+  "SecondsPrAccept": 440,
+  "AlertRecipient": "voluptatem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "non",
-  "WarnNewChatMinutes": 570,
-  "WarnManagerNewChatMinutes": 204,
+  "BadgeHeader": "atque",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "similique",
+  "WarnNewChatMinutes": 242,
+  "WarnManagerNewChatMinutes": 72,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 17,
-  "WarnManagerChatMessageMinutes": 988,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 176,
-  "OfflineFormQueueLength": 215,
+  "WarnChatMessageMinutes": 420,
+  "WarnManagerChatMessageMinutes": 741,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 839,
+  "OfflineFormQueueLength": 523,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "cupiditate",
+  "WidgetRatingText": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 108
     }
   }
 }

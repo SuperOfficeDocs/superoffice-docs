@@ -17,7 +17,7 @@ A set of properties related to the email workflow.
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |email\_flow\_id|Primary key|PK| |
-|workflow\_id|The flow this instance belongs to|FK [workflow](workflow.md)|&#x25CF;|
+|workflow\_id|The workflow this emailflow belongs to|FK [workflow](workflow.md)|&#x25CF;|
 |shipment\_type\_id|Mailing type (subscription type)|FK [ShipmentType](shipmenttype.md)|&#x25CF;|
 |override\_consent\_subscription|Override consent and subscription|Bool|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -40,6 +40,7 @@ A set of properties related to the email workflow.
 |from\_type|Email/Mailing From field address algorithm|Enum [EmailFromType](enums/emailfromtype.md)|&#x25CF;|
 |reply\_to\_type|Email/Mailing Reply-To field address algorithm|Enum [EmailReplyToType](enums/emailreplytotype.md)|&#x25CF;|
 |reply\_to\_name|Email Reply-To name|String(255)|&#x25CF;|
+|main\_message\_id|The main email message, used for thumbnail creation|FK [s_message](s-message.md)|&#x25CF;|
 
 
 ![email_flow table relationship diagram](./media/email_flow.png)
@@ -58,8 +59,9 @@ A set of properties related to the email workflow.
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[email\_flow\_content\_link](email-flow-content-link.md)  |Link message content to an email workflow |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Links content to an email workflow |
 |[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
+|[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
 |[ShipmentType](shipmenttype.md)  |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 

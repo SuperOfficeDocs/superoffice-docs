@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Schmitt-Larson",
-    "ToolTip": "Qui dignissimos et sunt ipsa et.",
+    "Id": 703,
+    "Name": "Watsica Inc and Sons",
+    "ToolTip": "Voluptas rerum nostrum neque quisquam qui.",
     "Deleted": false,
-    "Rank": 292,
-    "Type": "sapiente",
-    "ColorBlock": 957,
-    "IconHint": "et",
+    "Rank": 134,
+    "Type": "ut",
+    "ColorBlock": 318,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2004-10-02T12:57:43.6520109+02:00",
+    "LastChanged": "2018-06-06T04:22:36.1122165+02:00",
     "ChildItems": [
       {
-        "Id": 174,
-        "Name": "Turcotte-Bednar",
-        "ToolTip": "Cupiditate blanditiis libero nostrum illum.",
+        "Id": 269,
+        "Name": "Kiehn Inc and Sons",
+        "ToolTip": "Aliquam minima optio sed ipsa laudantium sunt tempora.",
         "Deleted": false,
-        "Rank": 764,
-        "Type": "similique",
-        "ColorBlock": 932,
-        "IconHint": "deserunt",
+        "Rank": 902,
+        "Type": "odio",
+        "ColorBlock": 88,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2021-08-08T12:57:43.6520109+02:00",
+        "LastChanged": "2009-08-04T04:22:36.1122165+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "at",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Christiana McLaughlin",
+        "FullName": "Stefan O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 62
+            "FieldType": "System.Int32",
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Wilhelmine Howell",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Prof. Tomas Mertz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldLength": 743
       }
     }
   }

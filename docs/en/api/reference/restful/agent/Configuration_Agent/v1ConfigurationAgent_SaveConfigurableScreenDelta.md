@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 680,
-  "Name": "Windler Inc and Sons",
-  "Description": "Future-proofed mission-critical superstructure",
-  "DeltaJson": "temporibus",
+  "ConfigurableScreenDeltaId": 92,
+  "Name": "Bergstrom-Lowe",
+  "Description": "Multi-lateral even-keeled installation",
+  "DeltaJson": "laudantium",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptas",
-  "UpdatedDate": "2019-11-12T12:57:33.430612+01:00",
-  "CreatedDate": "1998-10-04T12:57:33.430612+02:00",
+  "RecipeId": "excepturi",
+  "UpdatedDate": "2005-10-18T04:22:26.1528443+02:00",
+  "CreatedDate": "2024-05-14T04:22:26.1528443+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    578,
-    114
+    164,
+    144
   ],
-  "AppliesToKey": "ad"
+  "AppliesToKey": "excepturi"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 810,
-  "Name": "Herman-Wiza",
-  "Description": "Vision-oriented executive paradigm",
-  "DeltaJson": "molestiae",
+  "ConfigurableScreenDeltaId": 490,
+  "Name": "Muller Inc and Sons",
+  "Description": "Re-engineered bottom-line hierarchy",
+  "DeltaJson": "maiores",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "animi",
-  "UpdatedDate": "2023-02-12T12:57:33.430612+01:00",
-  "CreatedDate": "2019-11-23T12:57:33.430612+01:00",
+  "RecipeId": "aut",
+  "UpdatedDate": "2021-06-08T04:22:26.1528443+02:00",
+  "CreatedDate": "2020-06-30T04:22:26.1528443+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    365,
-    822
+    787,
+    640
   ],
-  "AppliesToKey": "in",
+  "AppliesToKey": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldLength": 229
     }
   }
 }

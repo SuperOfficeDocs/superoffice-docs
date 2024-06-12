@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Kassulke-Brakus",
-    "ToolTip": "Voluptatibus velit vel non ratione.",
-    "Deleted": true,
-    "Rank": 55,
-    "Type": "sunt",
-    "ColorBlock": 995,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2022-07-20T12:57:43.5426609+02:00",
+    "Id": 191,
+    "Name": "Frami Group",
+    "ToolTip": "Quos ea tempore aut tempora ea aliquam nihil.",
+    "Deleted": false,
+    "Rank": 306,
+    "Type": "mollitia",
+    "ColorBlock": 629,
+    "IconHint": "explicabo",
+    "Selected": true,
+    "LastChanged": "2013-02-05T04:22:36.0028417+01:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Gibson, Lindgren and Schinner",
-        "ToolTip": "Qui facilis ex.",
-        "Deleted": true,
-        "Rank": 692,
-        "Type": "dolores",
-        "ColorBlock": 345,
-        "IconHint": "aut",
+        "Id": 687,
+        "Name": "O'Reilly Group",
+        "ToolTip": "Exercitationem quae quo facere earum id non accusantium.",
+        "Deleted": false,
+        "Rank": 695,
+        "Type": "eos",
+        "ColorBlock": 563,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2010-10-23T12:57:43.5426609+02:00",
+        "LastChanged": "2021-04-04T04:22:36.0028417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
+        "ExtraInfo": "voluptas",
         "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Lera Hauck Sr.",
+        "FullName": "Alford Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 327
+            "FieldType": "System.String",
+            "FieldLength": 150
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Lela Hammes",
+    "ExtraInfo": "dolores",
+    "StyleHint": "labore",
+    "Hidden": false,
+    "FullName": "Mrs. Macy Smith I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   }

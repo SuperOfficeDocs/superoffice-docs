@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "nostrum",
-  "LineNumber": 720,
+  "ErrorMessage": "veritatis",
+  "LineNumber": 221,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

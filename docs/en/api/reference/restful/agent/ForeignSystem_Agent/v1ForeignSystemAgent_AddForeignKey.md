@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Witting-Rolfson",
-  "DeviceName": "Hahn-Marquardt",
-  "DeviceIdentifier": "praesentium"
+  "ApplicationName": "Hackett-Price",
+  "DeviceName": "Dibbert LLC",
+  "DeviceIdentifier": "minima"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quos",
-  "Value": "velit",
-  "RecordId": 118,
-  "CreatedDate": "2001-08-04T12:57:34.0711192+02:00",
-  "UpdatedDate": "2021-10-14T12:57:34.0711192+02:00",
-  "UpdatedBy": "minus",
-  "CreatedBy": "nihil",
-  "TableName": "Harber-Veum",
+  "Key": "eligendi",
+  "Value": "itaque",
+  "RecordId": 930,
+  "CreatedDate": "2010-07-07T04:22:26.8755249+02:00",
+  "UpdatedDate": "2002-01-31T04:22:26.8755249+01:00",
+  "UpdatedBy": "laudantium",
+  "CreatedBy": "illum",
+  "TableName": "Lindgren-Osinski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   }
 }

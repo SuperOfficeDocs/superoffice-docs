@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 66
+  "PersonId": 469
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 791,
-    "Name": "Blanda-Tremblay",
-    "Description": "Upgradable demand-driven complexity",
+    "ProjectId": 569,
+    "Name": "Kunze, Paucek and Ullrich",
+    "Description": "Polarised bandwidth-monitored project",
     "URL": "http://www.example.com/",
-    "Type": "deserunt",
-    "AssociateId": 271,
-    "AssociateFullName": "Claudia Hermann Lang II",
-    "TypeId": 703,
-    "Updated": "2021-05-18T12:57:34.664705+02:00",
-    "StatusId": 325,
-    "Status": "expedita",
-    "TextId": 434,
-    "PublishTo": "2018-08-30T12:57:34.664705+02:00",
-    "PublishFrom": "2009-01-11T12:57:34.664705+01:00",
+    "Type": "commodi",
+    "AssociateId": 606,
+    "AssociateFullName": "Mrs. Haylee Beulah Johns MD",
+    "TypeId": 772,
+    "Updated": "2016-07-01T04:22:27.3466141+02:00",
+    "StatusId": 18,
+    "Status": "necessitatibus",
+    "TextId": 947,
+    "PublishTo": "2002-01-29T04:22:27.3466141+01:00",
+    "PublishFrom": "2006-01-13T04:22:27.3466141+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "757802",
-    "ActiveErpLinks": 746,
+    "ProjectNumber": "515738",
+    "ActiveErpLinks": 424,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

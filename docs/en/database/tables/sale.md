@@ -58,6 +58,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |reasonSold\_id|Reason why we made the sale|FK [ReasonSold](reasonsold.md)|&#x25CF;|
 |saleTypeCat\_id|Category of sale type, slaved from saletype|FK [SaleTypeCat](saletypecat.md)|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
+|created\_by\_workflow\_id|The workflow this sale was created by|FK [workflow](workflow.md)|&#x25CF;|
 
 
 ![sale table relationship diagram](./media/sale.png)
@@ -83,6 +84,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |associate\_id, done, saledate |FK, Enum, DateTime |Index |
 |contact\_id, saledate, associate\_id |FK, DateTime, FK |Index |
 |project\_id, saledate, associate\_id |FK, DateTime, FK |Index |
+|created\_by\_workflow\_id |FK |Index |
 
 ## Relationships
 
@@ -114,6 +116,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |[udsalesmall](udsalesmall.md)  |User-defined fields |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 
 
 ## Replication Flags

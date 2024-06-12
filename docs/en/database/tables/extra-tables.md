@@ -33,6 +33,7 @@ This table contains entries for the extra tables in the system.
 |screen\_chooser\_all|The screen chooser to use for this extra table when viewing the table.|FK [screen_chooser](screen-chooser.md)|&#x25CF;|
 |screen\_chooser\_edit|The screen chooser to use for this extra table when editing the table.|FK [screen_chooser](screen-chooser.md)|&#x25CF;|
 |description|Optional description of what this table is used for|String(2047)|&#x25CF;|
+|icon\_id|The id of the binary object entry|FK [BinaryObject](binaryobject.md)|&#x25CF;|
 
 
 ![extra_tables table relationship diagram](./media/extra_tables.png)
@@ -56,6 +57,7 @@ This table contains entries for the extra tables in the system.
 
 | Table|  Description |
 |------|-------------|
+|[BinaryObject](binaryobject.md)  |Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items |
 |[extra\_fields](extra-fields.md)  |This table contains entries for the extra fields in the system. |
 |[extra\_menus](extra-menus.md)  |This table contains entries for the extra menus in the system. |
 |[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |

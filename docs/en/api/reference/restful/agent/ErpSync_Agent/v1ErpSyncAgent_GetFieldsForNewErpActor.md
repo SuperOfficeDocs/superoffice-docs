@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 845,
+  "ErpConnectionId": 760,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "ad",
-    "Rank": 665,
-    "DisplayName": "Kirlin, Schumm and McLaughlin",
-    "DisplayDescription": "Reactive exuding system engine",
+    "FieldKey": "unde",
+    "Rank": 166,
+    "DisplayName": "Block-Armstrong",
+    "DisplayDescription": "Inverse maximized moderator",
     "FieldType": "Checkbox",
-    "ListName": "Zieme Inc and Sons",
-    "DefaultValue": "placeat",
-    "MaxLength": 341,
+    "ListName": "McGlynn, Cremin and Schuppe",
+    "DefaultValue": "quia",
+    "MaxLength": 17,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 840
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

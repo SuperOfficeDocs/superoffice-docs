@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 95,
-    "Name": "Jacobson-Waters",
+    "TicketPriorityId": 766,
+    "Name": "Stark, Gutkowski and Feest",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 466,
+    "SortOrder": 772,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 489,
-    "MonStart": "2013-05-11T12:57:34.1023616+02:00",
-    "MonStop": "2008-09-30T12:57:34.1023616+02:00",
-    "TueStart": "2016-02-09T12:57:34.1023616+01:00",
-    "TueStop": "2007-08-23T12:57:34.1023616+02:00",
-    "WedStart": "2004-11-03T12:57:34.1023616+01:00",
-    "WedStop": "2023-07-27T12:57:34.1023616+02:00",
-    "ThuStart": "2003-04-03T12:57:34.1023616+02:00",
-    "ThuStop": "1998-04-11T12:57:34.1023616+02:00",
-    "FriStart": "2018-03-13T12:57:34.1023616+01:00",
-    "FriStop": "2006-03-30T12:57:34.1023616+02:00",
-    "SatStart": "1998-11-25T12:57:34.1023616+01:00",
-    "SatStop": "2008-05-27T12:57:34.1023616+02:00",
-    "SunStart": "2007-12-10T12:57:34.1023616+01:00",
-    "SunStop": "2013-02-13T12:57:34.1023616+01:00",
+    "Deadline": 294,
+    "MonStart": "2001-05-12T04:22:26.9223945+02:00",
+    "MonStop": "2015-04-23T04:22:26.9223945+02:00",
+    "TueStart": "2009-09-18T04:22:26.9223945+02:00",
+    "TueStop": "2015-06-03T04:22:26.9223945+02:00",
+    "WedStart": "2022-06-14T04:22:26.9223945+02:00",
+    "WedStop": "2012-02-18T04:22:26.9223945+01:00",
+    "ThuStart": "2024-02-12T04:22:26.9223945+01:00",
+    "ThuStop": "2001-06-11T04:22:26.9223945+02:00",
+    "FriStart": "2013-10-04T04:22:26.9223945+02:00",
+    "FriStop": "2000-11-21T04:22:26.9223945+01:00",
+    "SatStart": "2008-06-30T04:22:26.9223945+02:00",
+    "SatStop": "2008-09-24T04:22:26.9223945+02:00",
+    "SunStart": "2000-08-09T04:22:26.9223945+02:00",
+    "SunStop": "2016-02-02T04:22:26.9223945+01:00",
     "NonDates": [
-      "officiis",
-      "est"
+      "voluptatibus",
+      "ut"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 419,
-        "AlertLevel": 58,
-        "AlertTimeout": 900,
-        "Action": 335,
-        "DelegateTo": 961,
-        "ScriptId": 206,
-        "EmailTo": "holly_metz@feeneygislason.co.uk",
-        "SmsTo": "ducimus",
-        "ReplyTemplateIdCustomer": 425,
-        "ReplyTemplateIdUser": 348,
-        "ReplyTemplateIdCatmast": 515,
-        "ReplyTemplateIdEmail": 835,
-        "RtiCustomerSms": 378,
-        "ReplyTemplateIdUserSms": 583,
-        "ReplyTemplateIdCatmastSms": 227,
-        "ReplyTemplateIdSms": 871,
+        "TicketAlertId": 521,
+        "AlertLevel": 401,
+        "AlertTimeout": 842,
+        "Action": 150,
+        "DelegateTo": 568,
+        "ScriptId": 333,
+        "EmailTo": "dewitt@considinebrekke.ca",
+        "SmsTo": "ut",
+        "ReplyTemplateIdCustomer": 359,
+        "ReplyTemplateIdUser": 830,
+        "ReplyTemplateIdCatmast": 611,
+        "ReplyTemplateIdEmail": 371,
+        "RtiCustomerSms": 543,
+        "ReplyTemplateIdUserSms": 671,
+        "ReplyTemplateIdCatmastSms": 427,
+        "ReplyTemplateIdSms": 481,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 93
+            "FieldType": "System.Int32",
+            "FieldLength": 260
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

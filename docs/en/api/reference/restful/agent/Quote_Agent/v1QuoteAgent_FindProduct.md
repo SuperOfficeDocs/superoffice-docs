@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 463,
-  "UserInput": "labore",
-  "PriceListKey": "excepturi"
+  "QuoteAlternativeId": 201,
+  "UserInput": "dicta",
+  "PriceListKey": "animi"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 595,
-    "ERPProductKey": "dolor",
-    "ERPPriceListKey": "non",
-    "Name": "Schimmel, Medhurst and Collins",
-    "Description": "Implemented incremental benchmark",
-    "Code": "non",
-    "PriceUnit": "quia",
-    "QuantityUnit": "rerum",
-    "IsSubscription": false,
-    "SubscriptionUnit": "ipsum",
-    "DefaultSubscriptionQuantity": 26084.282,
-    "ItemNumber": "1161787",
+    "ProductId": 469,
+    "ERPProductKey": "ea",
+    "ERPPriceListKey": "dignissimos",
+    "Name": "Lockman, Emard and Pagac",
+    "Description": "Enhanced stable Graphical User Interface",
+    "Code": "dignissimos",
+    "PriceUnit": "officiis",
+    "QuantityUnit": "ipsum",
+    "IsSubscription": true,
+    "SubscriptionUnit": "reiciendis",
+    "DefaultSubscriptionQuantity": 28851.604,
+    "ItemNumber": "1024014",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "cumque",
-    "ProductTypeKey": "rem",
-    "VAT": 18891.752,
-    "VATInfo": "nisi",
-    "UnitCost": 7734.7119999999995,
-    "UnitMinimumPrice": 18866.68,
-    "UnitListPrice": 6380.824,
-    "InAssortment": false,
-    "Supplier": "id",
-    "SupplierCode": "ex",
-    "Rights": "odit",
-    "Rule": "itaque",
+    "ProductFamilyKey": "voluptatem",
+    "ProductTypeKey": "molestiae",
+    "VAT": 2359.902,
+    "VATInfo": "sequi",
+    "UnitCost": 10226.242,
+    "UnitMinimumPrice": 7136.1179999999995,
+    "UnitListPrice": 11329.41,
+    "InAssortment": true,
+    "Supplier": "occaecati",
+    "SupplierCode": "ut",
+    "Rights": "consequatur",
+    "Rule": "et",
     "ExtraInfo": [
       {
-        "Name": "Koepp LLC",
-        "Value": "odit",
+        "Name": "Lakin-Renner",
+        "Value": "ad",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 686
+            "FieldType": "System.String",
+            "FieldLength": 634
           }
         }
       },
       {
-        "Name": "Koepp LLC",
-        "Value": "odit",
+        "Name": "Lakin-Renner",
+        "Value": "ad",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 686
+            "FieldType": "System.String",
+            "FieldLength": 634
           }
         }
       }
     ],
-    "RawExtraInfo": "vero",
-    "ExtraField1": "ducimus",
-    "ExtraField2": "rerum",
-    "ExtraField3": "quo",
-    "ExtraField4": "sint",
-    "ExtraField5": "natus",
-    "InStock": 20555.906,
+    "RawExtraInfo": "fuga",
+    "ExtraField1": "autem",
+    "ExtraField2": "iste",
+    "ExtraField3": "assumenda",
+    "ExtraField4": "et",
+    "ExtraField5": "id",
+    "InStock": 5945.1979999999994,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "quae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "praesentium",
+    "path": "quae",
     "value": {}
   }
 ]
@@ -145,28 +145,28 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 55,
-  "UniqueIdentifier": "labore",
-  "Name": "Bechtelar-Kassulke",
-  "Description": "Centralized bifurcated help-desk",
-  "IncludeId": "nemo",
-  "HierarchyId": 78,
-  "Source": "ipsum",
-  "Registered": "2005-08-15T12:57:42.3232848+02:00",
-  "RegisteredAssociateId": 778,
-  "Updated": "2014-08-10T12:57:42.3232848+02:00",
-  "UpdatedAssociateId": 821,
+  "EjscriptId": 976,
+  "UniqueIdentifier": "dolorem",
+  "Name": "Mills, Bauch and Vandervort",
+  "Description": "User-friendly dynamic collaboration",
+  "IncludeId": "deleniti",
+  "HierarchyId": 115,
+  "Source": "quo",
+  "Registered": "2007-03-02T04:22:34.8589991+01:00",
+  "RegisteredAssociateId": 686,
+  "Updated": "2005-05-22T04:22:34.8589991+02:00",
+  "UpdatedAssociateId": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldLength": 849
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

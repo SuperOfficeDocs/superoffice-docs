@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Shanahan, Boyer and Franecki",
-    "Tooltip": "qui",
+    "HeadingId": 126,
+    "Name": "Wehner Group",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 207,
-    "UdListDefinitionId": 699
+    "Rank": 453,
+    "UdListDefinitionId": 538
   },
   {
-    "HeadingId": 328,
-    "Name": "Shanahan, Boyer and Franecki",
-    "Tooltip": "qui",
+    "HeadingId": 126,
+    "Name": "Wehner Group",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 207,
-    "UdListDefinitionId": 699
+    "Rank": 453,
+    "UdListDefinitionId": 538
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 69,
-    "Name": "Doyle-White",
-    "Tooltip": "quis",
+    "HeadingId": 293,
+    "Name": "Johnson Inc and Sons",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 449,
-    "UdListDefinitionId": 694,
+    "Rank": 699,
+    "UdListDefinitionId": 245,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldLength": 402
       }
     }
   }

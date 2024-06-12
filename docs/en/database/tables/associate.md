@@ -143,7 +143,7 @@ Employees, resources and other users - except for External persons
 |[Email](email.md)  |Email addresses for contacts, projects and persons |
 |[email\_account](email-account.md)  |Email account information |
 |[email\_flow](email-flow.md)  |A set of properties related to the email workflow. |
-|[email\_flow\_content\_link](email-flow-content-link.md)  |Link message content to an email workflow |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Links content to an email workflow |
 |[email\_folder](email-folder.md)  |Corresponds to an email folder on a mail server |
 |[email\_item](email-item.md)  |Email data |
 |[EntityCounts](entitycounts.md)  |Number of different entities an associate has created for usage statistics |
@@ -167,6 +167,7 @@ Employees, resources and other users - except for External persons
 |[foreigndevice](foreigndevice.md)  |Middle level of Foreign Key system |
 |[foreignkey](foreignkey.md)  |Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables. |
 |[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
+|[form\_field\_value](form-field-value.md)  |Form field values saved in a searchable format |
 |[FunctionRight](functionright.md)  |Functional right definition |
 |[FunctionRightRoleLink](functionrightrolelink.md)  |Functional right definition |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
@@ -412,6 +413,7 @@ Employees, resources and other users - except for External persons
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_goal](workflow-goal.md)  |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached. |
 |[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
+|[workflow\_root\_step\_link](workflow-root-step-link.md)  |Link root steps to the workflow |
 |[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
 |[workflow\_step\_option](workflow-step-option.md)  |Some steps can have optional child &apos;flows&apos;, a new series of steps |
 |[workflow\_step\_option\_link](workflow-step-option-link.md)  |Link steps to other steps through step options |

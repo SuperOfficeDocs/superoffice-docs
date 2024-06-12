@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=874
+POST /api/v1/Agents/List/GetCountry?countryId=719
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 972,
-  "Name": "Aufderhar LLC",
-  "CurrencyId": 254,
-  "EnglishName": "Ratke Inc and Sons",
+  "CountryId": 521,
+  "Name": "Ruecker, Kuvalis and Gislason",
+  "CurrencyId": 37,
+  "EnglishName": "Stoltenberg-Hagenes",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Secured methodical infrastructure",
-  "OrgNrText": "760659",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "dolor",
-  "ZipPrefix": "enim",
-  "DomainName": "Pfannerstill, Lesch and Wilkinson",
-  "AddressLayoutId": 682,
-  "DomesticAddressLayoutId": 754,
-  "ForeignAddressLayoutId": 10,
-  "Rank": 549,
-  "Tooltip": "voluptatem",
-  "Deleted": true,
+  "ImageDescription": "Team-oriented intermediate focus group",
+  "OrgNrText": "1298061",
+  "InterAreaPrefix": "debitis",
+  "DialInPrefix": "voluptatem",
+  "ZipPrefix": "reiciendis",
+  "DomainName": "Considine Group",
+  "AddressLayoutId": 414,
+  "DomesticAddressLayoutId": 11,
+  "ForeignAddressLayoutId": 46,
+  "Rank": 1002,
+  "Tooltip": "vero",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 940
     }
   }
 }

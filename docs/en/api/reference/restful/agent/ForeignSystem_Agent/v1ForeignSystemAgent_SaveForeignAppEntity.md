@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 477,
-  "Name": "Fay Group",
-  "CreatedDate": "2023-02-06T12:57:34.0554972+01:00",
-  "UpdatedDate": "2011-06-24T12:57:34.0554972+02:00",
+  "ForeignAppId": 771,
+  "Name": "Ondricka-Reichert",
+  "CreatedDate": "2004-07-01T04:22:26.8598968+02:00",
+  "UpdatedDate": "1997-05-18T04:22:26.8598968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 792,
-      "Name": "Quigley-Klocko",
-      "CreatedDate": "2013-06-28T12:57:34.0554972+02:00",
-      "UpdatedDate": "2022-09-25T12:57:34.0554972+02:00",
-      "AssociateFullName": "Mrs. Judd Cleve Macejkovic V",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "assumenda",
-      "ForeignAppId": 882
+      "ForeignDeviceId": 337,
+      "Name": "Weimann LLC",
+      "CreatedDate": "2013-10-15T04:22:26.8598968+02:00",
+      "UpdatedDate": "1998-01-05T04:22:26.8598968+01:00",
+      "AssociateFullName": "Julie Yost",
+      "CreatedBy": "ut",
+      "UpdatedBy": "rerum",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 377
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 168,
-  "Name": "Schultz, Raynor and Lindgren",
-  "CreatedDate": "2014-04-03T12:57:34.0554972+02:00",
-  "UpdatedDate": "2023-04-07T12:57:34.0554972+02:00",
+  "ForeignAppId": 793,
+  "Name": "Heathcote, Sipes and Mraz",
+  "CreatedDate": "2024-02-25T04:22:26.8598968+01:00",
+  "UpdatedDate": "2022-12-09T04:22:26.8598968+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 257,
-      "Name": "Mitchell, Mohr and Cremin",
-      "CreatedDate": "2020-10-21T12:57:34.0554972+02:00",
-      "UpdatedDate": "2013-06-22T12:57:34.0554972+02:00",
-      "AssociateFullName": "Fanny Lindgren Sr.",
-      "CreatedBy": "placeat",
-      "UpdatedBy": "labore",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 775,
+      "ForeignDeviceId": 699,
+      "Name": "Littel, Rodriguez and Jewess",
+      "CreatedDate": "2018-03-21T04:22:26.8598968+01:00",
+      "UpdatedDate": "2016-05-24T04:22:26.8598968+02:00",
+      "AssociateFullName": "Sunny Littel",
+      "CreatedBy": "impedit",
+      "UpdatedBy": "consequatur",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 76,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 2
+          "FieldLength": 78
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

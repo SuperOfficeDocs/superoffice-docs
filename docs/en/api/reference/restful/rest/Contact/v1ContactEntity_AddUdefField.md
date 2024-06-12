@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 394,
-  "ColumnId": 917,
-  "FieldDefault": "numquam",
-  "FieldHeight": 429,
-  "FieldLabel": "recusandae",
-  "FieldLeft": 457,
-  "FieldTop": 847,
+  "UDefFieldId": 276,
+  "ColumnId": 874,
+  "FieldDefault": "provident",
+  "FieldHeight": 741,
+  "FieldLabel": "omnis",
+  "FieldLeft": 221,
+  "FieldTop": 528,
   "FieldType": "Checkbox",
-  "FieldWidth": 134,
-  "FormatMask": "iure",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 412,
-  "LabelLeft": 90,
-  "LabelTop": 107,
-  "LabelWidth": 659,
-  "LastVersionId": 946,
-  "ListTableId": 795,
-  "IsMandatory": true,
+  "FieldWidth": 704,
+  "FormatMask": "quibusdam",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 686,
+  "LabelLeft": 46,
+  "LabelTop": 660,
+  "LabelWidth": 361,
+  "LastVersionId": 284,
+  "ListTableId": 862,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 192,
-  "ProgId": "quia",
+  "Page1LineNo": 195,
+  "ProgId": "sequi",
   "IsReadOnly": false,
-  "ShortLabel": "odio",
-  "TabOrder": 288,
-  "TextLength": 816,
-  "Tooltip": "eius",
-  "UdefIdentity": 632,
-  "UDListDefinitionId": 644,
+  "ShortLabel": "rem",
+  "TabOrder": 671,
+  "TextLength": 583,
+  "Tooltip": "ipsa",
+  "UdefIdentity": 561,
+  "UDListDefinitionId": 5,
   "Justification": "Center",
-  "Version": 894,
-  "TemplateVariableName": "Rosenbaum Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Haag, Mitchell and Stamm",
+  "Version": 103,
+  "TemplateVariableName": "Bogan Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Walter-Gottlieb",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 475
     }
   }
 }

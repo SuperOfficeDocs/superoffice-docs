@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Pollich Inc and Sons",
-    "ToolTip": "Sit asperiores necessitatibus modi unde exercitationem.",
+    "Id": 210,
+    "Name": "Hermiston Inc and Sons",
+    "ToolTip": "Tempore sit quo ut qui.",
     "Deleted": false,
-    "Rank": 242,
-    "Type": "possimus",
-    "ColorBlock": 907,
-    "IconHint": "inventore",
+    "Rank": 582,
+    "Type": "in",
+    "ColorBlock": 606,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2001-03-21T12:57:43.5270395+01:00",
+    "LastChanged": "2018-08-02T04:22:36.0028417+02:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Nienow, Kirlin and Bernier",
-        "ToolTip": "Rerum aut.",
-        "Deleted": true,
-        "Rank": 53,
-        "Type": "culpa",
-        "ColorBlock": 187,
-        "IconHint": "et",
+        "Id": 925,
+        "Name": "Steuber-Fadel",
+        "ToolTip": "Asperiores eos quas qui.",
+        "Deleted": false,
+        "Rank": 579,
+        "Type": "non",
+        "ColorBlock": 778,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2006-04-19T12:57:43.5270395+02:00",
+        "LastChanged": "2016-04-02T04:22:36.0028417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Miss Lucie Fay PhD"
+        "ExtraInfo": "praesentium",
+        "StyleHint": "eligendi",
+        "Hidden": true,
+        "FullName": "Theresa Deckow"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "possimus",
+    "StyleHint": "velit",
     "Hidden": true,
-    "FullName": "Otis Mills"
+    "FullName": "Fausto Hagenes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Borer, Gutkowski and Sanford",
-    "ToolTip": "Quae voluptatibus incidunt aut provident sit.",
+    "Id": 312,
+    "Name": "Williamson Group",
+    "ToolTip": "Vitae omnis.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "eaque",
-    "ColorBlock": 799,
-    "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "2015-04-11T12:57:43.5270395+02:00",
+    "Rank": 39,
+    "Type": "non",
+    "ColorBlock": 286,
+    "IconHint": "sint",
+    "Selected": true,
+    "LastChanged": "2007-03-21T04:22:36.0028417+01:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Little Group",
-        "ToolTip": "Est magnam quis.",
-        "Deleted": true,
-        "Rank": 71,
-        "Type": "harum",
-        "ColorBlock": 185,
-        "IconHint": "aut",
+        "Id": 262,
+        "Name": "Lind-Huels",
+        "ToolTip": "Dolores commodi ullam doloremque aut.",
+        "Deleted": false,
+        "Rank": 842,
+        "Type": "fugit",
+        "ColorBlock": 119,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2023-12-09T12:57:43.5270395+01:00",
+        "LastChanged": "2011-03-22T04:22:36.0028417+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "autem",
+        "ExtraInfo": "et",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Santa Schmidt",
+        "FullName": "Freddy Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "rerum",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Dr. Lela Aniyah Hodkiewicz",
+    "FullName": "Ansley Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 274
+        "FieldType": "System.String",
+        "FieldLength": 146
       }
     }
   }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schuppe Group",
-  "DeviceName": "Turcotte Group",
-  "DeviceIdentifier": "perspiciatis"
+  "ApplicationName": "Prohaska, Osinski and Considine",
+  "DeviceName": "Parisian-Hoppe",
+  "DeviceIdentifier": "quia"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 443,
-  "Name": "Kreiger-Effertz",
-  "CreatedDate": "2015-02-09T12:57:34.0554972+01:00",
-  "UpdatedDate": "1997-12-31T12:57:34.0554972+01:00",
-  "AssociateFullName": "Ms. Alejandrin Metz III",
-  "CreatedBy": "asperiores",
-  "UpdatedBy": "omnis",
-  "DeviceIdentifier": "ipsa",
-  "ForeignAppId": 61,
+  "ForeignDeviceId": 782,
+  "Name": "Lebsack-Will",
+  "CreatedDate": "2012-10-24T04:22:26.8598968+02:00",
+  "UpdatedDate": "2006-04-16T04:22:26.8598968+02:00",
+  "AssociateFullName": "Dr. Verlie Sporer Jr.",
+  "CreatedBy": "molestias",
+  "UpdatedBy": "illo",
+  "DeviceIdentifier": "pariatur",
+  "ForeignAppId": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

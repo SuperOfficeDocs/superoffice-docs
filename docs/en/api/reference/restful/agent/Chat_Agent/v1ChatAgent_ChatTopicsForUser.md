@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 319,
-    "Name": "Jacobs-Goodwin",
-    "Description": "Re-contextualized heuristic knowledge base",
-    "WelcomeMessage": "sed",
+    "ChatTopicId": 118,
+    "Name": "Jones-Langosh",
+    "Description": "Stand-alone composite orchestration",
+    "WelcomeMessage": "natus",
     "Language": null,
-    "LastAccept": "2003-10-29T12:57:33.4149905+01:00",
-    "SecondsPrAccept": 814,
-    "AlertRecipient": "nemo",
+    "LastAccept": "2002-09-15T04:22:26.1372179+02:00",
+    "SecondsPrAccept": 353,
+    "AlertRecipient": "qui",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "eaque",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "reprehenderit",
-    "WarnNewChatMinutes": 416,
-    "WarnManagerNewChatMinutes": 561,
+    "CollectConsent": false,
+    "BadgeHeader": "provident",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "fuga",
+    "WarnNewChatMinutes": 984,
+    "WarnManagerNewChatMinutes": 601,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 721,
-    "WarnManagerChatMessageMinutes": 739,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 983,
+    "WarnManagerChatMessageMinutes": 392,
     "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 67,
-    "OfflineFormQueueLength": 186,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "atque",
+    "OfflineFormTimeLimit": 760,
+    "OfflineFormQueueLength": 231,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 281
       }
     }
   }

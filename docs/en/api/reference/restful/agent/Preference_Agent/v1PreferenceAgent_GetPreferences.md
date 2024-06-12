@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "vitae",
-      "Key": "blanditiis"
+      "Section": "molestiae",
+      "Key": "amet"
     },
     {
-      "Section": "vitae",
-      "Key": "blanditiis"
+      "Section": "molestiae",
+      "Key": "amet"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "exercitationem",
+    "RawValue": "facilis",
     "Specification": null,
-    "DisplayValue": "aut",
-    "DisplayTooltip": "consequatur",
+    "DisplayValue": "nihil",
+    "DisplayTooltip": "non",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 27,
-    "PrefDescId": 308,
-    "TableName": "Moore, Mueller and Bradtke",
-    "UserPreferenceId": 266,
+    "TargetId": 708,
+    "PrefDescId": 987,
+    "TableName": "Roberts, Padberg and Conroy",
+    "UserPreferenceId": 19,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 692
       }
     }
   }

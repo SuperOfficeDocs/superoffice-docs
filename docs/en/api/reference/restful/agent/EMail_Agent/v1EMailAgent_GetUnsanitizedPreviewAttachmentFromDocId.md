@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 66,
-  "AttachmentId": "magni"
+  "DocId": 853,
+  "AttachmentId": "et"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic well-modulated intranet",
-  "Filename": "exercitationem",
-  "Size": 648,
-  "Type": "adipisci",
-  "Encoding": "est",
-  "Id": "et",
-  "Disposition": "est",
+  "Description": "Pre-emptive client-driven software",
+  "Filename": "debitis",
+  "Size": 163,
+  "Type": "repellendus",
+  "Encoding": "explicabo",
+  "Id": "eveniet",
+  "Disposition": "illum",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

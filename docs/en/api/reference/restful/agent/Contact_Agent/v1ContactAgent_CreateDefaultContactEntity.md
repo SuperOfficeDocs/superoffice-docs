@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 14,
-  "Name": "Parker LLC",
+  "ContactId": 554,
+  "Name": "Steuber Group",
   "Department": "",
-  "OrgNr": "1229166",
-  "Number1": "895450",
-  "Number2": "532612",
-  "UpdatedDate": "1997-12-12T12:57:33.461855+01:00",
-  "CreatedDate": "2008-09-12T12:57:33.461855+02:00",
+  "OrgNr": "274035",
+  "Number1": "1523763",
+  "Number2": "586281",
+  "UpdatedDate": "2017-06-26T04:22:26.1840946+02:00",
+  "CreatedDate": "1998-02-26T04:22:26.1840946+01:00",
   "Emails": [
     {
-      "Value": "ullam",
-      "StrippedValue": "illo",
-      "Description": "Face to face demand-driven encoding",
+      "Value": "eum",
+      "StrippedValue": "impedit",
+      "Description": "Mandatory value-added pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 587
         }
       }
     },
     {
-      "Value": "ullam",
-      "StrippedValue": "illo",
-      "Description": "Face to face demand-driven encoding",
+      "Value": "eum",
+      "StrippedValue": "impedit",
+      "Description": "Mandatory value-added pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 587
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 485,
-      "Name": "Harvey-Monahan",
-      "ToolTip": "Iusto quos quia non accusantium saepe et.",
-      "Deleted": true,
-      "Rank": 79,
-      "Type": "incidunt",
-      "ColorBlock": 41,
-      "IconHint": "ducimus",
+      "Id": 197,
+      "Name": "Ebert, Quitzon and Hahn",
+      "ToolTip": "Aut ea aut.",
+      "Deleted": false,
+      "Rank": 60,
+      "Type": "neque",
+      "ColorBlock": 253,
+      "IconHint": "atque",
       "Selected": false,
-      "LastChanged": "2001-08-22T12:57:33.461855+02:00",
+      "LastChanged": "2023-10-17T04:22:26.1840946+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "provident",
-      "Hidden": false,
-      "FullName": "Adriana Kautzer",
+      "ExtraInfo": "quas",
+      "StyleHint": "dicta",
+      "Hidden": true,
+      "FullName": "Ernestina Matt Weber DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 13
+          "FieldLength": 787
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "nihil",
-      "StrippedValue": "vel",
-      "Description": "Visionary systemic encoding",
+      "Value": "sed",
+      "StrippedValue": "dolore",
+      "Description": "Cross-group explicit challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldType": "System.Int32",
+          "FieldLength": 931
         }
       }
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "vel",
-      "Description": "Visionary systemic encoding",
+      "Value": "sed",
+      "StrippedValue": "dolore",
+      "Description": "Cross-group explicit challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldType": "System.Int32",
+          "FieldLength": 931
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "vitae",
-      "StrippedValue": "ut",
-      "Description": "Seamless discrete open architecture",
+      "Value": "delectus",
+      "StrippedValue": "saepe",
+      "Description": "Organic dedicated success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldLength": 91
         }
       }
     },
     {
-      "Value": "vitae",
-      "StrippedValue": "ut",
-      "Description": "Seamless discrete open architecture",
+      "Value": "delectus",
+      "StrippedValue": "saepe",
+      "Description": "Organic dedicated success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 757
+          "FieldLength": 91
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "eligendi",
-      "StrippedValue": "autem",
-      "Description": "Function-based neutral database",
+      "Value": "corporis",
+      "StrippedValue": "dolorum",
+      "Description": "Reduced reciprocal analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 963
+          "FieldType": "System.Int32",
+          "FieldLength": 677
         }
       }
     },
     {
-      "Value": "eligendi",
-      "StrippedValue": "autem",
-      "Description": "Function-based neutral database",
+      "Value": "corporis",
+      "StrippedValue": "dolorum",
+      "Description": "Reduced reciprocal analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 963
+          "FieldType": "System.Int32",
+          "FieldLength": 677
         }
       }
     }
   ],
-  "Description": "Innovative exuding system engine",
+  "Description": "Future-proofed local orchestration",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quia",
-      "PersonId": 226,
-      "Mrmrs": "alias",
-      "Firstname": "Elmira",
-      "Lastname": "Gleichner",
-      "MiddleName": "McKenzie-Beer",
-      "Title": "molestiae",
-      "Description": "Front-line scalable standardization",
-      "Email": "zachery.herman@johnson.info",
-      "FullName": "Prof. Lydia Baumbach",
-      "DirectPhone": "029-701-4666",
-      "FormalName": "Beatty Group",
-      "CountryId": 852,
-      "ContactId": 431,
-      "ContactName": "Nitzsche, Schimmel and Ullrich",
-      "Retired": 79,
-      "Rank": 576,
-      "ActiveInterests": 550,
+      "Position": "consequuntur",
+      "PersonId": 294,
+      "Mrmrs": "reiciendis",
+      "Firstname": "Cooper",
+      "Lastname": "Gaylord",
+      "MiddleName": "Hermiston Inc and Sons",
+      "Title": "vel",
+      "Description": "Object-based disintermediate conglomeration",
+      "Email": "rubie.auer@schoen.com",
+      "FullName": "Celine Rau",
+      "DirectPhone": "1-972-926-9835",
+      "FormalName": "Thompson Group",
+      "CountryId": 251,
+      "ContactId": 149,
+      "ContactName": "Toy-Halvorson",
+      "Retired": 583,
+      "Rank": 469,
+      "ActiveInterests": 538,
       "ContactDepartment": "",
-      "ContactCountryId": 128,
-      "ContactOrgNr": "1354654",
-      "FaxPhone": "(744)958-6763 x973",
-      "MobilePhone": "1-719-135-0707 x274",
-      "ContactPhone": "389-499-3517 x56374",
-      "AssociateName": "Cassin Inc and Sons",
-      "AssociateId": 86,
+      "ContactCountryId": 139,
+      "ContactOrgNr": "248295",
+      "FaxPhone": "1-779-230-2927",
+      "MobilePhone": "1-514-967-3772 x14016",
+      "ContactPhone": "745.938.9334 x4104",
+      "AssociateName": "Hessel-Mueller",
+      "AssociateId": 61,
       "UsePersonAddress": false,
-      "ContactFax": "non",
-      "Kanafname": "nostrum",
-      "Kanalname": "esse",
-      "Post1": "veniam",
-      "Post2": "voluptas",
-      "Post3": "laudantium",
-      "EmailName": "uriel.johnston@hudson.com",
-      "ContactFullName": "Dr. Fritz Nienow V",
-      "ActiveErpLinks": 846,
-      "TicketPriorityId": 75,
-      "SupportLanguageId": 238,
-      "SupportAssociateId": 317,
+      "ContactFax": "suscipit",
+      "Kanafname": "dicta",
+      "Kanalname": "totam",
+      "Post1": "unde",
+      "Post2": "nobis",
+      "Post3": "magni",
+      "EmailName": "erna@reichel.biz",
+      "ContactFullName": "Mr. Ara Marion Conroy Jr.",
+      "ActiveErpLinks": 707,
+      "TicketPriorityId": 997,
+      "SupportLanguageId": 809,
+      "SupportAssociateId": 384,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldLength": 830
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "est",
+  "Kananame": "nesciunt",
   "Xstop": true,
-  "ActiveInterests": 576,
-  "GroupId": 548,
-  "ActiveStatusMonitorId": 101,
+  "ActiveInterests": 214,
+  "GroupId": 635,
+  "ActiveStatusMonitorId": 468,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 563,
-  "DbiAgentId": 459,
-  "DbiLastSyncronized": "2012-09-24T12:57:33.461855+02:00",
-  "DbiKey": "architecto",
-  "DbiLastModified": "2014-05-10T12:57:33.461855+02:00",
+  "Deleted": 35,
+  "DbiAgentId": 704,
+  "DbiLastSyncronized": "2012-06-06T04:22:26.1840946+02:00",
+  "DbiKey": "est",
+  "DbiLastModified": "2000-08-24T04:22:26.1840946+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 427,
-  "ActiveErpLinks": 820,
+  "Source": 534,
+  "ActiveErpLinks": 785,
   "BounceEmails": [
-    "darion@raynor.ca",
-    "daisha.wintheiser@boyerzboncak.ca"
+    "dallas@uptonlemke.ca",
+    "maynard.haley@hirthe.co.uk"
   ],
   "Domains": [
-    "voluptas",
-    "ipsa"
+    "rerum",
+    "labore"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Alene Edison Kuhn V",
-    "SuperOffice:2": "Carey Conroy"
+    "SuperOffice:1": "Finn Annabel Hermann V",
+    "SuperOffice:2": "1192872887"
   },
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "non"
+    "CustomFields1": "ab",
+    "CustomFields2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldType": "System.String",
+      "FieldLength": 911
     }
   }
 }

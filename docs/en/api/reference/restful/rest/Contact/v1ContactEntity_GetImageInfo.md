@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 08 Sep 2006 12:57:42 G9T
+Last-Modified: Sun, 23 Nov 2014 04:22:34 G11T
 
 {
-  "BlobId": 502,
-  "BlobSize": 163,
-  "Description": "Reactive bifurcated contingency",
-  "ExtraInfo": "debitis",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "vel",
-  "OriginalSize": 47,
-  "CreatedDate": "2023-07-30T12:57:42.1983139+02:00",
-  "UpdatedDate": "2006-09-08T12:57:42.1983139+02:00",
+  "BlobId": 449,
+  "BlobSize": 941,
+  "Description": "Inverse cohesive standardization",
+  "ExtraInfo": "minus",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "non",
+  "OriginalSize": 539,
+  "CreatedDate": "2010-09-01T04:22:34.7496337+02:00",
+  "UpdatedDate": "2014-11-23T04:22:34.7496337+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eveniet",
+  "ConceptualType": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 609
+      "FieldLength": 255
     }
   }
 }

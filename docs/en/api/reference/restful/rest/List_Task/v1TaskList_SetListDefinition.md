@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 719,
-  "Name": "Russel, Orn and Wunsch",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "Rank": 479,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "Id": 254,
+  "Name": "Paucek, Paucek and Kemmer",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 45,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Ryan, Harber and Hagenes",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 153,
+  "Id": 416,
+  "Name": "Breitenberg, Lebsack and Reynolds",
+  "Tooltip": "nostrum",
+  "Deleted": false,
+  "Rank": 235,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "libero",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 447
     }
   }
 }

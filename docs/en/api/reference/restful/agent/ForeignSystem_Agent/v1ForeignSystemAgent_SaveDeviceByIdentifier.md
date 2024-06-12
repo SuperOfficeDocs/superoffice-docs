@@ -88,9 +88,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Toy Inc and Sons",
-  "DeviceName": "Bradtke LLC",
-  "DeviceIdentifier": "deserunt",
+  "ApplicationName": "O'Connell Group",
+  "DeviceName": "Maggio, Waelchi and Willms",
+  "DeviceIdentifier": "est",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 477,
-  "Name": "Graham, Windler and Terry",
-  "CreatedDate": "2014-07-11T12:57:34.0554972+02:00",
-  "UpdatedDate": "2021-08-27T12:57:34.0554972+02:00",
-  "AssociateFullName": "Moses Bergnaum",
-  "CreatedBy": "dolorum",
-  "UpdatedBy": "molestiae",
-  "DeviceIdentifier": "doloremque",
-  "ForeignAppId": 404,
+  "ForeignDeviceId": 563,
+  "Name": "Cummerata-Upton",
+  "CreatedDate": "2011-11-15T04:22:26.8755249+01:00",
+  "UpdatedDate": "2016-07-17T04:22:26.8755249+02:00",
+  "AssociateFullName": "Dr. Monroe Lindgren",
+  "CreatedBy": "ex",
+  "UpdatedBy": "architecto",
+  "DeviceIdentifier": "numquam",
+  "ForeignAppId": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

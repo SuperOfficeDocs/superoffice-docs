@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 820,
+  "ErpConnectionId": 631,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 51,
-  "IsActive": true,
+  "ErpConnectionId": 624,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 578,
-      "CrmFieldKey": "optio",
-      "CrmDisplayName": "Lueilwitz Inc and Sons",
-      "CrmDisplayTooltip": "vitae",
-      "ErpFieldKey": "ut",
+      "ErpFieldId": 806,
+      "CrmFieldKey": "eos",
+      "CrmDisplayName": "Wolff-Bashirian",
+      "CrmDisplayTooltip": "molestiae",
+      "ErpFieldKey": "deleniti",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Veum Inc and Sons",
-      "ErpDisplayTooltip": "nihil",
-      "SyncToCrm": true,
-      "SyncToErp": true,
+      "ErpDisplayName": "Feil Group",
+      "ErpDisplayTooltip": "accusantium",
+      "SyncToCrm": false,
+      "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "nisi",
+      "ListReference": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 75
+          "FieldLength": 815
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 529
     }
   }
 }

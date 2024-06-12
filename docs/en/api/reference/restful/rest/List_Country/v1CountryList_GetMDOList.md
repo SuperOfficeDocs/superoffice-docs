@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=inventore
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=eaque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Romaguera-McGlynn",
-    "ToolTip": "Quia maiores architecto cupiditate libero.",
-    "Deleted": false,
-    "Rank": 922,
-    "Type": "minus",
+    "Id": 977,
+    "Name": "Dickinson, Mitchell and Watsica",
+    "ToolTip": "Perspiciatis voluptatibus commodi voluptatibus iusto vitae.",
+    "Deleted": true,
+    "Rank": 114,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Ernser, Nikolaus and Lemke",
-        "ToolTip": "Consectetur et at ut magnam voluptatibus quia.",
-        "Deleted": true,
-        "Rank": 959,
-        "Type": "ut",
+        "Id": 59,
+        "Name": "Murray, Vandervort and Krajcik",
+        "ToolTip": "Debitis eius tempora.",
+        "Deleted": false,
+        "Rank": 374,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 244,
-        "ExtraInfo": "modi",
-        "StyleHint": "cum",
-        "FullName": "Bailey Ondricka",
+        "IconHint": "dolor",
+        "ColorBlock": 956,
+        "ExtraInfo": "animi",
+        "StyleHint": "et",
+        "FullName": "Dr. Herminio Gutmann MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldLength": 502
           }
         }
       }
     ],
-    "IconHint": "quae",
-    "ColorBlock": 761,
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "FullName": "Clifford Kling",
+    "IconHint": "expedita",
+    "ColorBlock": 451,
+    "ExtraInfo": "illo",
+    "StyleHint": "qui",
+    "FullName": "Holly Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 129
       }
     }
   }

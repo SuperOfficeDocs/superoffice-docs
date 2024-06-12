@@ -125,7 +125,7 @@ inner participants provider, so that the conflict checking is performed.
 |isProjectMember|bool|Is project member: This person is a project member|  |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder|  |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow|  |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow|  |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow|  |
 |createdByForm|listAny|Created by form: Created by form|  |
 |email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
 |email/emailAddress|string|E-mail|  |
@@ -192,7 +192,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personContact/email/emailLastSent,personEmailsInformation,personRegisteredByFullName
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=startTimeInformation,emailLastSent,personEmailsInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

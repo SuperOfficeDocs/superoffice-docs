@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuhn LLC",
-  "DeviceName": "Hilll Group"
+  "ApplicationName": "Wolff-Schroeder",
+  "DeviceName": "Brakus LLC"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "iure",
-    "Value": "est",
-    "RecordId": 742,
-    "CreatedDate": "2019-07-02T12:57:34.0711192+02:00",
-    "UpdatedDate": "2012-06-04T12:57:34.0711192+02:00",
-    "UpdatedBy": "adipisci",
-    "CreatedBy": "ipsum",
-    "TableName": "Nitzsche-Doyle",
+    "Key": "aut",
+    "Value": "doloribus",
+    "RecordId": 660,
+    "CreatedDate": "2009-01-25T04:22:26.8755249+01:00",
+    "UpdatedDate": "2003-04-08T04:22:26.8755249+02:00",
+    "UpdatedBy": "molestiae",
+    "CreatedBy": "saepe",
+    "TableName": "Bahringer, Torp and Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 933
       }
     }
   }

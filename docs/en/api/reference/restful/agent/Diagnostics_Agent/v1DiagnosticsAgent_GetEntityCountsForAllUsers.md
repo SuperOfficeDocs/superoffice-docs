@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Renner, Kshlerin and Smith",
-    "Records": 927,
+    "EntityName": "Kunde-Fritsch",
+    "Records": 633,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldType": "System.String",
+        "FieldLength": 563
       }
     }
   },
   {
-    "EntityName": "Renner, Kshlerin and Smith",
-    "Records": 927,
+    "EntityName": "Kunde-Fritsch",
+    "Records": 633,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldType": "System.String",
+        "FieldLength": 563
       }
     }
   }

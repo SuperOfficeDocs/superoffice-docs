@@ -89,7 +89,7 @@ the email_id.
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |createdByForm|listAny|Created by form: Created by form| x |
 |phone/formattedNumber|string|Phone : Displays phone number|  |
 |who| *None* |Full name: Displays the contact's full name.| x |
@@ -189,7 +189,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=emailProtocol,personId,personContact/restrictionAddress/zip
+GET /api/v1/archive/emailpersonaddress?$select=supportAssociateFullName,personAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

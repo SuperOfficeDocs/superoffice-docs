@@ -126,7 +126,7 @@ Implementation of the provider for the combined selection
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -479,7 +479,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=person/retired,person/restrictionAddress/line1,person/personExtra/x_person_user_relation
+GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=registeredBy,person/personAssociate/personEmail,person/correspondingAssociate/assocName,contact/restrictionAddress/county,contact/contactInterestIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

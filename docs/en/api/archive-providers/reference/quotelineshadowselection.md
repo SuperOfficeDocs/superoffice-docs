@@ -176,7 +176,7 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by workflow: Created by workflow| x |
+|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -232,7 +232,7 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
 |alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
-|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - Updated by flow: Updated by flow| x |
+|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - When updated by flow: When updated by flow| x |
 |alternative/version/quote/sale/person/createdByForm|listAny|Sale - Created by form: Created by form| x |
 |alternative/version/quote/sale/person/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
 |alternative/version/quote/sale/person/personDirectPhone/formattedNumber|string|Sale - Direct - Phone: Displays phone number|  |
@@ -758,7 +758,7 @@ Shadow contact provider for the quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelection?$select=alternative/extraField2,alternative/version/quote/sale/updatedByFullName,alternative/version/quote/sale/contact/contactAssociate/otherGroups,alternative/version/quote/sale/contact/contactUdef/SuperOffice:1,alternative/version/quote/sale/contact/LastDoBySale
+GET /api/v1/archive/QuoteLineShadowSelection?$select=registeredDate,alternative/version/quote/sale/hasGuide,alternative/version/quote/sale/person/hasInfoText,alternative/version/quote/sale/person/portraitThumbnail,alternative/version/quote/sale/person/personAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

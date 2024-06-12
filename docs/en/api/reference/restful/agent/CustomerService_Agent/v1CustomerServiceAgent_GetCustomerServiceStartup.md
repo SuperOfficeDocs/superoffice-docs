@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 399,
-  "RecaptchaSiteKey": "qui",
+  "TimezoneEnabled": true,
+  "TZOffset": 912,
+  "RecaptchaSiteKey": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 540
     }
   }
 }

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hahn-Reichel",
-  "AssociateId": 701
+  "TableName": "Sauer-Tromp",
+  "AssociateId": 162
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Zulauf Group",
-    "RecordId": 200,
-    "AssociateId": 260,
-    "ExtraInfo": "error",
-    "Rank": 735,
+    "TableName": "Kunde, Waelchi and Boyer",
+    "RecordId": 461,
+    "AssociateId": 103,
+    "ExtraInfo": "repellendus",
+    "Rank": 293,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldLength": 404
       }
     }
   }

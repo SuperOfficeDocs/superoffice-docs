@@ -30,7 +30,7 @@ so.envir: onsite, online
 | [associate](associate.md) |Employees, resources and other users - except for External persons| 2 |
 | [AssociateGroupLink](associategrouplink.md) |User group link table for Associate, for MDO item hiding| 3 |
 | [AssociateHeadingLink](associateheadinglink.md) |Heading link table for associate for display only. Supportive table, used for grouping and filtering on lists. | 4 |
-| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database| 521 |
+| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database| 523 |
 | [attachment](attachment.md) |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table.| 296 |
 | [attachment\_location](attachment-location.md) |A location for storing attachments| 476 |
 | [AudienceConfig](audienceconfig.md) |Configuration data for Audience core and webparts| 236 |
@@ -46,7 +46,7 @@ so.envir: onsite, online
 | [Business](business.md) |Business list table| 61 |
 | [BusinessGroupLink](businessgrouplink.md) |User group link table for Business, for MDO item hiding| 62 |
 | [BusinessHeadingLink](businessheadinglink.md) |Heading link table for Business, for MDO headers| 63 |
-| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches| 522 |
+| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches| 524 |
 | [CacheTables](cachetables.md) |Specifies which tables should be cached to local files (or otherwise), generally these are the lists and other low-frequency-of-change tables. Contains the ID of any tables cached in SOCache. The files are binary and called &lt;tablename&gt;.bin.  &lt;Shift&gt;+&lt;F5&gt; throws all cache files. | 148 |
 | [Category](category.md) |Category list table| 64 |
 | [category\_membership](category-membership.md) |This table connects users to categories (many-to-many).| 270 |
@@ -138,10 +138,10 @@ so.envir: onsite, online
 | [email\_account](email-account.md) |Email account information| 486 |
 | [email\_attachment](email-attachment.md) |Attachment info related to an email_item| 490 |
 | [email\_flow](email-flow.md) |A set of properties related to the email workflow.| 511 |
-| [email\_flow\_content\_link](email-flow-content-link.md) |Link message content to an email workflow| 518 |
+| [email\_flow\_content\_link](email-flow-content-link.md) |Links content to an email workflow| 518 |
 | [email\_folder](email-folder.md) |Corresponds to an email folder on a mail server| 487 |
 | [email\_item](email-item.md) |Email data| 489 |
-| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics| 529 |
+| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics| 531 |
 | [ErpConfiguration](erpconfiguration.md) |Global settings for the Erp Integration Server| 449 |
 | [ErpConnection](erpconnection.md) |One connection to an ERP connector, specifying Client and other required information| 418 |
 | [ErpConnectionAccess](erpconnectionaccess.md) |Access control for Erp Connections| 420 |
@@ -171,6 +171,7 @@ so.envir: onsite, online
 | [foreigndevice](foreigndevice.md) |Middle level of Foreign Key system| 182 |
 | [foreignkey](foreignkey.md) |Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables.| 183 |
 | [form](form.md) |A form which can be published on a webpage and submitted by visitors| 484 |
+| [form\_field\_value](form-field-value.md) |Form field values saved in a searchable format| 522 |
 | [form\_keys](form-keys.md) |Keys that makes sure a form is not posted twice| 366 |
 | [form\_submission](form-submission.md) |A form submission| 485 |
 | [freetextindex](freetextindex.md) |This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale). | 46 |
@@ -319,14 +320,14 @@ so.envir: onsite, online
 | [quick\_reply](quick-reply.md) |Personal quick reply text fragments| 463 |
 | [Quote](quote.md) |Quote root level, at most one per Sale, always connected to one Sale| 34 |
 | [QuoteAlternative](quotealternative.md) |Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.| 47 |
-| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval| 523 |
-| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding| 524 |
-| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers| 525 |
+| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval| 525 |
+| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding| 526 |
+| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers| 527 |
 | [QuoteConnection](quoteconnection.md) |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system.| 26 |
 | [QuoteConnectionAccess](quoteconnectionaccess.md) |Access control for Quote Connections| 27 |
-| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial| 526 |
-| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding| 527 |
-| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers| 528 |
+| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial| 528 |
+| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding| 529 |
+| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers| 530 |
 | [QuoteLine](quoteline.md) |One line in a QuoteAlternative. QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly.| 127 |
 | [QuoteLineConfiguration](quotelineconfiguration.md) |Configuration of quote lines - which fields are in use, rights, labels etc| 445 |
 | [QuoteVersion](quoteversion.md) |There may be multiple Versions of a Quote, with one of them active| 39 |
@@ -486,9 +487,9 @@ so.envir: onsite, online
 | [ticket\_priority](ticket-priority.md) |This table contains the ticket priorities.| 275 |
 | [ticket\_status](ticket-status.md) |This table user defined ticket status values.| 263 |
 | [ticket\_status\_history](ticket-status-history.md) |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved | 261 |
-| [ticket\_type](ticket-type.md) |A ticket (request) type| 530 |
-| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type| 531 |
-| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type| 532 |
+| [ticket\_type](ticket-type.md) |A ticket (request) type| 532 |
+| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type| 533 |
+| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type| 534 |
 | [timestamps](timestamps.md) |Timestamp information| 300 |
 | [travelcurrent](travelcurrent.md) |Information about this database and its place in the hierarchy| 32 |
 | [travelgenerateddatabase](travelgenerateddatabase.md) |Information about all databases generated from this database| 33 |
@@ -540,6 +541,7 @@ so.envir: onsite, online
 | [workflow](workflow.md) |SuperOffice specific info about a workflow| 510 |
 | [workflow\_goal](workflow-goal.md) |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.| 513 |
 | [workflow\_instance](workflow-instance.md) |A set of properties related to the workflow instance of one participant going through the flow| 512 |
+| [workflow\_root\_step\_link](workflow-root-step-link.md) |Link root steps to the workflow| 521 |
 | [workflow\_step](workflow-step.md) |A set of steps related to a workflow.| 514 |
 | [workflow\_step\_option](workflow-step-option.md) |Some steps can have optional child &apos;flows&apos;, a new series of steps| 516 |
 | [workflow\_step\_option\_link](workflow-step-option-link.md) |Link steps to other steps through step options| 517 |

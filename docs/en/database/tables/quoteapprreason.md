@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# QuoteApprReason Table (523)
+# QuoteApprReason Table (525)
 
 QuoteApprReason MDO list item table.
 Predefined reasons for quote approval

@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Harber Inc and Sons",
-  "DeviceName": "Beier Inc and Sons",
-  "DeviceIdentifier": "impedit"
+  "ApplicationName": "Kilback Inc and Sons",
+  "DeviceName": "Hand-Heller",
+  "DeviceIdentifier": "nesciunt"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "reprehenderit",
-    "Value": "est",
-    "RecordId": 849,
-    "CreatedDate": "2002-02-19T12:57:34.0711192+01:00",
-    "UpdatedDate": "2011-01-26T12:57:34.0711192+01:00",
-    "UpdatedBy": "ratione",
-    "CreatedBy": "modi",
-    "TableName": "Senger LLC",
+    "Key": "quos",
+    "Value": "velit",
+    "RecordId": 929,
+    "CreatedDate": "2024-03-18T04:22:26.8755249+01:00",
+    "UpdatedDate": "1998-09-26T04:22:26.8755249+02:00",
+    "UpdatedBy": "consequuntur",
+    "CreatedBy": "sint",
+    "TableName": "Leffler LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 232
       }
     }
   }

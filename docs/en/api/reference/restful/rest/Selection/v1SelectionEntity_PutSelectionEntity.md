@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive encompassing website",
-  "Postit": "reiciendis",
+  "Description": "Organic directional neural-net",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 972,
-  "IncludePerson": 769,
+  "GroupIdx": 386,
+  "IncludePerson": 617,
   "MemberCount": 99.99,
-  "Name": "Olson, Kreiger and Trantow",
-  "PostitTextId": 115,
-  "CreatedDate": "2022-07-29T12:57:42.7919274+02:00",
-  "SelectionId": 144,
-  "SoundEx": "sit",
-  "Source": 180,
-  "TextId": 377,
-  "UpdatedDate": "2006-09-21T12:57:42.7919274+02:00",
-  "UpdatedCount": 783,
-  "Visibility": 145,
+  "Name": "Kiehn Group",
+  "PostitTextId": 201,
+  "CreatedDate": "2000-07-31T04:22:35.4397315+02:00",
+  "SelectionId": 699,
+  "SoundEx": "quis",
+  "Source": 635,
+  "TextId": 759,
+  "UpdatedDate": "2001-10-08T04:22:35.4397315+02:00",
+  "UpdatedCount": 681,
+  "Visibility": 864,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 563,
-  "TargetTableName": "Barton-Renner",
+  "CompanyUnique": false,
+  "TargetTableNumber": 178,
+  "TargetTableName": "Hoeger LLC",
   "Completed": false,
-  "LeftSelectionId": 146,
-  "RightSelectionId": 976,
+  "LeftSelectionId": 432,
+  "RightSelectionId": 403,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Berge-Kshlerin",
-  "ShadowProviderName": "Flatley Inc and Sons",
-  "ChartKey": "natus",
-  "LastLoaded": "2021-07-08T12:57:42.7919274+02:00",
-  "LastLoadedBy": 344,
+  "MainProviderName": "Hahn-Schoen",
+  "ShadowProviderName": "Jacobs-Bartell",
+  "ChartKey": "sapiente",
+  "LastLoaded": "2020-12-11T04:22:35.4397315+01:00",
+  "LastLoadedBy": 253,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-12-05T12:57:42.7919274+01:00",
-  "LastMembershipChangeBy": 734,
+  "LastMembershipChange": "1998-03-20T04:22:35.4397315+01:00",
+  "LastMembershipChangeBy": 73,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cum",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Schroeder-Ruecker",
-  "DashboardTileDefinitionId": 571,
+  "MainHeading": "vel",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Bayer LLC",
+  "DashboardTileDefinitionId": 63,
   "VisibleFor": [
     {
-      "VisibleId": 806,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "veniam"
+      "DisplayValue": "consequatur"
     },
     {
-      "VisibleId": 806,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "veniam"
+      "DisplayValue": "consequatur"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized cohesive data-warehouse",
-  "Postit": "aperiam",
+  "Description": "Ameliorated uniform core",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 530,
-  "IncludePerson": 350,
+  "GroupIdx": 2,
+  "IncludePerson": 238,
   "MemberCount": 99.99,
-  "Name": "Renner, Prosacco and Cruickshank",
-  "PostitTextId": 599,
-  "CreatedDate": "2006-12-05T12:57:42.7919274+01:00",
-  "SelectionId": 910,
-  "SoundEx": "ex",
-  "Source": 360,
-  "TextId": 902,
-  "UpdatedDate": "2015-02-18T12:57:42.7919274+01:00",
-  "UpdatedCount": 760,
-  "Visibility": 994,
+  "Name": "Shanahan-Pacocha",
+  "PostitTextId": 50,
+  "CreatedDate": "2008-05-11T04:22:35.4397315+02:00",
+  "SelectionId": 982,
+  "SoundEx": "aspernatur",
+  "Source": 464,
+  "TextId": 3,
+  "UpdatedDate": "2015-11-23T04:22:35.4397315+01:00",
+  "UpdatedCount": 314,
+  "Visibility": 931,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 926,
-  "TargetTableName": "Rosenbaum LLC",
+  "TargetTableNumber": 740,
+  "TargetTableName": "Botsford LLC",
   "Completed": false,
-  "LeftSelectionId": 501,
-  "RightSelectionId": 261,
+  "LeftSelectionId": 310,
+  "RightSelectionId": 99,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gleason, Green and Treutel",
-  "ShadowProviderName": "Bernhard LLC",
+  "MainProviderName": "Ritchie, Jerde and Marks",
+  "ShadowProviderName": "Deckow-Crooks",
   "ChartKey": "et",
-  "LastLoaded": "2002-02-02T12:57:42.7919274+01:00",
-  "LastLoadedBy": 774,
+  "LastLoaded": "2004-07-09T04:22:35.4397315+02:00",
+  "LastLoadedBy": 225,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-12-03T12:57:42.7919274+01:00",
-  "LastMembershipChangeBy": 534,
+  "LastMembershipChange": "2005-03-18T04:22:35.4397315+01:00",
+  "LastMembershipChangeBy": 256,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quis",
-  "MemberTabHeading": "incidunt",
-  "MailingsProviderName": "Gorczany, Sanford and Rippin",
-  "DashboardTileDefinitionId": 216,
+  "MainHeading": "aut",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Johns, Kunze and Bogisich",
+  "DashboardTileDefinitionId": 912,
   "VisibleFor": [
     {
-      "VisibleId": 74,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldLength": 101
         }
       }
     },
     {
-      "VisibleId": 74,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldLength": 101
         }
       }
     }
@@ -298,13 +298,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

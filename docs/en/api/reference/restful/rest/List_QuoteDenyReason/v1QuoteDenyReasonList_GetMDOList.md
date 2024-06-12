@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=qui
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Lemke-Hartmann",
-    "ToolTip": "Quia nihil illo.",
-    "Deleted": true,
-    "Rank": 512,
-    "Type": "voluptatem",
+    "Id": 290,
+    "Name": "Frami-Ritchie",
+    "ToolTip": "Eveniet eveniet quos temporibus quaerat.",
+    "Deleted": false,
+    "Rank": 129,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Torp, Graham and Kihn",
-        "ToolTip": "Ut repudiandae minus eos quaerat aut voluptate consequatur.",
+        "Id": 790,
+        "Name": "Hamill Inc and Sons",
+        "ToolTip": "Sint et.",
         "Deleted": false,
-        "Rank": 40,
-        "Type": "tempora",
+        "Rank": 396,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 15,
-        "ExtraInfo": "fugit",
-        "StyleHint": "fugit",
-        "FullName": "Wilber Nolan",
+        "IconHint": "voluptatem",
+        "ColorBlock": 250,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "praesentium",
+        "FullName": "Mrs. Breanne Georgianna Bashirian PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 911
+            "FieldLength": 50
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 263,
+    "IconHint": "tempore",
+    "ColorBlock": 435,
     "ExtraInfo": "aut",
-    "StyleHint": "reiciendis",
-    "FullName": "Margarett Harber",
+    "StyleHint": "quidem",
+    "FullName": "Dr. Brock Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 719
       }
     }
   }

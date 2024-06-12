@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805
+  "Id": 421
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 219,
-    "Name": "Zboncak-Bailey",
-    "Tooltip": "sapiente",
-    "Deleted": true,
-    "Rank": 897,
-    "UdListDefinitionId": 863,
+    "HeadingId": 880,
+    "Name": "Schuppe, Blanda and Heathcote",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "Rank": 920,
+    "UdListDefinitionId": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 709
+        "FieldLength": 613
       }
     }
   }

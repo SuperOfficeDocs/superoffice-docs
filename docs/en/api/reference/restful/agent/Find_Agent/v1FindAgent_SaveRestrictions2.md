@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nesciunt",
-  "ProviderName": "Feeney-Balistreri",
-  "StorageKey": "harum",
-  "Restrictions": "quae"
+  "StorageType": "molestiae",
+  "ProviderName": "Kessler-Klocko",
+  "StorageKey": "dolor",
+  "Restrictions": "quia"
 }
 ```
 

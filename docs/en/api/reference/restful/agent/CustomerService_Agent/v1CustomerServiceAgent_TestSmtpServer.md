@@ -82,8 +82,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "doloremque",
-  "From": "et",
+  "SmtpUri": "est",
+  "From": "quas",
   "UseStoredPassword": false
 }
 ```
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "ErrorMessage": "vel",
+  "ErrorMessage": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 702
     }
   }
 }

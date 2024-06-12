@@ -101,9 +101,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 473,
-  "QuoteAlternativeName": "Padberg, Grant and Dare",
-  "QuoteAlternativeDescription": "Distributed coherent knowledge user"
+  "QuoteVersionId": 984,
+  "QuoteAlternativeName": "Shields-Reilly",
+  "QuoteAlternativeDescription": "Extended holistic policy"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 424,
-  "ERPQuoteAlternativeKey": "quas",
-  "QuoteVersionId": 493,
-  "Name": "Kessler, Ondricka and Legros",
-  "Description": "Cloned bi-directional customer loyalty",
+  "QuoteAlternativeId": 399,
+  "ERPQuoteAlternativeKey": "sunt",
+  "QuoteVersionId": 450,
+  "Name": "Harber-Fadel",
+  "Description": "Intuitive mission-critical orchestration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 29898.36,
-  "ERPDiscountAmount": 15259.446,
-  "DiscountPercent": 7631.29,
-  "DiscountAmount": 11906.065999999999,
+  "ERPDiscountPercent": 11451.636,
+  "ERPDiscountAmount": 28535.07,
+  "DiscountPercent": 5315.264,
+  "DiscountAmount": 9470.948,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "soluta",
-  "VAT": 27848.724,
-  "EarningPercent": 7728.4439999999995,
-  "EarningAmount": 28149.588,
-  "SubTotal": 3710.656,
-  "TotalPrice": 29512.878,
-  "ExtraField1": "ea",
-  "ExtraField2": "omnis",
-  "ExtraField3": "omnis",
-  "ExtraField4": "aut",
-  "ExtraField5": "qui",
+  "VATInfo": "laudantium",
+  "VAT": 14118.67,
+  "EarningPercent": 17904.541999999998,
+  "EarningAmount": 20001.188,
+  "SubTotal": 22837.458,
+  "TotalPrice": 26570.052,
+  "ExtraField1": "modi",
+  "ExtraField2": "et",
+  "ExtraField3": "eaque",
+  "ExtraField4": "nihil",
+  "ExtraField5": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldType": "System.Int32",
+      "FieldLength": 555
     }
   }
 }

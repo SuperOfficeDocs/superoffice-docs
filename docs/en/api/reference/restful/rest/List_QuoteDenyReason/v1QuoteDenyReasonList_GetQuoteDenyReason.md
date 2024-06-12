@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 833,
-  "Name": "Lynch Inc and Sons",
-  "Tooltip": "commodi",
-  "Deleted": false,
-  "UdListDefinitionId": 611,
-  "Rank": 282,
+  "Id": 662,
+  "Name": "Little-Dach",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "UdListDefinitionId": 289,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 164
     }
   }
 }

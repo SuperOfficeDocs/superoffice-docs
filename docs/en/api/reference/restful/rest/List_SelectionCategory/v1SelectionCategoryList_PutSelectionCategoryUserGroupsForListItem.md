@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Tromp Group",
-    "ToolTip": "Sunt sit mollitia nihil labore aut et dolores.",
+    "Id": 218,
+    "Name": "Kemmer-Hills",
+    "ToolTip": "Laborum architecto nesciunt quam qui architecto incidunt quia.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "ut",
-    "ColorBlock": 88,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "2010-01-22T12:57:43.7613612+01:00",
+    "Rank": 566,
+    "Type": "reiciendis",
+    "ColorBlock": 479,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2012-11-16T04:22:36.2059631+01:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Watsica, Rutherford and Torphy",
-        "ToolTip": "Ullam perferendis amet.",
+        "Id": 458,
+        "Name": "Pacocha-Hudson",
+        "ToolTip": "Ea asperiores exercitationem maiores assumenda.",
         "Deleted": false,
-        "Rank": 757,
-        "Type": "necessitatibus",
-        "ColorBlock": 731,
-        "IconHint": "deserunt",
+        "Rank": 554,
+        "Type": "consequatur",
+        "ColorBlock": 353,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "2008-09-04T12:57:43.7613612+02:00",
+        "LastChanged": "2019-10-27T04:22:36.2059631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "animi",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Audie Erdman"
+        "FullName": "Noe Schowalter"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "non",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Estelle Ward"
+    "FullName": "Furman Eunice Koch Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Herman Group",
-    "ToolTip": "Quod libero nulla placeat quas.",
-    "Deleted": false,
-    "Rank": 23,
-    "Type": "voluptas",
-    "ColorBlock": 25,
-    "IconHint": "deserunt",
+    "Id": 4,
+    "Name": "Thiel-Miller",
+    "ToolTip": "Laborum eaque nesciunt quis corrupti similique.",
+    "Deleted": true,
+    "Rank": 90,
+    "Type": "omnis",
+    "ColorBlock": 105,
+    "IconHint": "eius",
     "Selected": true,
-    "LastChanged": "2018-06-25T12:57:43.7613612+02:00",
+    "LastChanged": "2019-08-12T04:22:36.2059631+02:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Kshlerin, Christiansen and Gutmann",
-        "ToolTip": "Voluptatem veniam sed atque.",
+        "Id": 195,
+        "Name": "Murray-McDermott",
+        "ToolTip": "Voluptatem harum neque error.",
         "Deleted": false,
-        "Rank": 280,
-        "Type": "repudiandae",
-        "ColorBlock": 32,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "1998-02-12T12:57:43.7613612+01:00",
+        "Rank": 634,
+        "Type": "ad",
+        "ColorBlock": 533,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "2023-01-28T04:22:36.2059631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Ms. Oma Lilian Vandervort DVM",
+        "ExtraInfo": "neque",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Ms. Vilma Maci Auer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldLength": 403
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Emmy Considine",
+    "ExtraInfo": "nemo",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Theresia McGlynn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 120
       }
     }
   }

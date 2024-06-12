@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 745,
-  "Name": "Christiansen Group",
-  "Tooltip": "maiores",
+  "Id": 813,
+  "Name": "Wyman-Kuhlman",
+  "Tooltip": "illum",
   "Deleted": false,
-  "UdListDefinitionId": 816,
-  "Rank": 931,
+  "UdListDefinitionId": 838,
+  "Rank": 876,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 458
     }
   }
 }

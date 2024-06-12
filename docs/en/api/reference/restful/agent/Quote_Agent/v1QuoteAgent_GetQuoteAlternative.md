@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=938
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=180
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 122,
-  "ERPQuoteAlternativeKey": "accusantium",
-  "QuoteVersionId": 238,
-  "Name": "Pfeffer-Sanford",
-  "Description": "Enterprise-wide mission-critical collaboration",
+  "QuoteAlternativeId": 413,
+  "ERPQuoteAlternativeKey": "ut",
+  "QuoteVersionId": 725,
+  "Name": "Morissette-Dickinson",
+  "Description": "Inverse regional structure",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 28719.976,
-  "ERPDiscountAmount": 30428.005999999998,
-  "DiscountPercent": 3121.464,
-  "DiscountAmount": 11830.85,
+  "ERPDiscountPercent": 19371.254,
+  "ERPDiscountAmount": 31249.113999999998,
+  "DiscountPercent": 18800.865999999998,
+  "DiscountAmount": 27933.342,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "a",
-  "VAT": 3720.058,
-  "EarningPercent": 24774.27,
-  "EarningAmount": 30073.863999999998,
-  "SubTotal": 112.824,
-  "TotalPrice": 2457.056,
-  "ExtraField1": "asperiores",
-  "ExtraField2": "laborum",
-  "ExtraField3": "aut",
-  "ExtraField4": "ex",
-  "ExtraField5": "molestiae",
+  "VATInfo": "eum",
+  "VAT": 1419.702,
+  "EarningPercent": 7430.714,
+  "EarningAmount": 27472.644,
+  "SubTotal": 20816.028,
+  "TotalPrice": 9850.162,
+  "ExtraField1": "magnam",
+  "ExtraField2": "qui",
+  "ExtraField3": "rem",
+  "ExtraField4": "itaque",
+  "ExtraField5": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 550
     }
   }
 }

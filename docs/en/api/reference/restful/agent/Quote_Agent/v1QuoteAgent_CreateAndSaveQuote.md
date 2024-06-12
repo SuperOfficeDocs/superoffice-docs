@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 41,
-  "ConnectionId": 529,
-  "FirstAlternativeName": "Rodriguez, Smith and Barrows"
+  "SaleId": 749,
+  "ConnectionId": 273,
+  "FirstAlternativeName": "Marquardt Inc and Sons"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 760,
-  "SaleId": 443,
-  "QuoteConnectionId": 232,
-  "ERPQuoteKey": "sunt",
-  "ERPOrderKey": "cumque",
-  "ActiveQuoteVersionId": 343,
-  "AcceptedQuoteAlternativeId": 139,
-  "UseValuesFromQuote": 154,
-  "DocumentId": 859,
-  "PoNumber": "1547286",
-  "OrderComment": "libero",
-  "PreferredEmailCulture": "sydni_hirthe@ward.us",
+  "QuoteId": 176,
+  "SaleId": 246,
+  "QuoteConnectionId": 30,
+  "ERPQuoteKey": "odio",
+  "ERPOrderKey": "dolor",
+  "ActiveQuoteVersionId": 205,
+  "AcceptedQuoteAlternativeId": 903,
+  "UseValuesFromQuote": 856,
+  "DocumentId": 400,
+  "PoNumber": "643998",
+  "OrderComment": "ullam",
+  "PreferredEmailCulture": "myrtie_mayert@ferry.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 672,
-      "ERPQuoteVersionKey": "aperiam",
-      "QuoteId": 257,
-      "Description": "Grass-roots discrete capacity",
-      "Number": "368189",
+      "QuoteVersionId": 806,
+      "ERPQuoteVersionKey": "hic",
+      "QuoteId": 9,
+      "Description": "Assimilated client-server synergy",
+      "Number": "1915483",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 493,
-      "SentDate": "1997-04-20T12:57:34.7428121+02:00",
-      "FollowupId": 944,
-      "ExpirationDate": "2015-02-09T12:57:34.7428121+01:00",
-      "DeliveryCountryId": 975,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 879,
+      "LikelyQuoteAlternativeId": 228,
+      "SentDate": "1999-07-25T04:22:27.4247427+02:00",
+      "FollowupId": 412,
+      "ExpirationDate": "2012-04-30T04:22:27.4247427+02:00",
+      "DeliveryCountryId": 709,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 455,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "id",
-      "ERPPaymentTypeKey": "optio",
-      "ERPDeliveryTermsKey": "distinctio",
-      "ERPDeliveryTypeKey": "reprehenderit",
-      "Rank": 142,
-      "ApprovedBy": 132,
-      "ApprovedText": "odit",
-      "ApprovedRegisteredBy": 3,
-      "ApprovedRegisteredDate": "2014-08-06T12:57:34.7428121+02:00",
+      "ERPPaymentTermsKey": "nulla",
+      "ERPPaymentTypeKey": "quia",
+      "ERPDeliveryTermsKey": "tempore",
+      "ERPDeliveryTypeKey": "veritatis",
+      "Rank": 336,
+      "ApprovedBy": 582,
+      "ApprovedText": "cumque",
+      "ApprovedRegisteredBy": 726,
+      "ApprovedRegisteredDate": "1998-08-02T04:22:27.4247427+02:00",
       "ExtraField1": "ut",
-      "ExtraField2": "quis",
-      "ExtraField3": "asperiores",
-      "ExtraField4": "dicta",
-      "ExtraField5": "qui",
-      "LastRecalculated": "2012-03-15T12:57:34.7428121+01:00",
-      "Updated": "2014-08-17T12:57:34.7428121+02:00",
-      "UpdatedAssociateId": 645,
-      "Registered": "2000-03-21T12:57:34.7428121+01:00",
-      "RegisteredAssociateId": 493,
-      "RequestAssociateId": 944,
-      "RequestComment": "voluptas",
+      "ExtraField2": "qui",
+      "ExtraField3": "magni",
+      "ExtraField4": "et",
+      "ExtraField5": "a",
+      "LastRecalculated": "2012-08-21T04:22:27.4247427+02:00",
+      "Updated": "2023-05-29T04:22:27.4247427+02:00",
+      "UpdatedAssociateId": 516,
+      "Registered": "1999-10-06T04:22:27.4247427+02:00",
+      "RegisteredAssociateId": 729,
+      "RequestAssociateId": 731,
+      "RequestComment": "exercitationem",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 495
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 473
     }
   }
 }

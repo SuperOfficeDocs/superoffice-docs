@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 863,
-    "Name": "Erdman, Turcotte and Schimmel",
-    "CurrencyId": 264,
-    "EnglishName": "Abernathy Group",
+    "CountryId": 684,
+    "Name": "Runte LLC",
+    "CurrencyId": 42,
+    "EnglishName": "Larkin LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Seamless exuding flexibility",
-    "OrgNrText": "923879",
-    "InterAreaPrefix": "quos",
-    "DialInPrefix": "consequuntur",
-    "ZipPrefix": "sapiente",
-    "DomainName": "Cremin-Gerlach",
-    "AddressLayoutId": 497,
-    "DomesticAddressLayoutId": 449,
-    "ForeignAddressLayoutId": 399,
-    "Rank": 625,
-    "Tooltip": "assumenda",
+    "ImageDescription": "Down-sized human-resource framework",
+    "OrgNrText": "375625",
+    "InterAreaPrefix": "culpa",
+    "DialInPrefix": "excepturi",
+    "ZipPrefix": "repellendus",
+    "DomainName": "Legros-Lindgren",
+    "AddressLayoutId": 665,
+    "DomesticAddressLayoutId": 102,
+    "ForeignAddressLayoutId": 37,
+    "Rank": 155,
+    "Tooltip": "architecto",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

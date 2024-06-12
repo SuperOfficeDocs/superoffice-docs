@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 792,
-  "Name": "Waelchi Group",
-  "Tooltip": "praesentium",
+  "Id": 112,
+  "Name": "Howe Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 622,
-  "Rank": 866
+  "UdListDefinitionId": 747,
+  "Rank": 74
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 343,
-  "Name": "Wiza Inc and Sons",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "UdListDefinitionId": 164,
-  "Rank": 647,
+  "Id": 293,
+  "Name": "Zieme LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 345,
+  "Rank": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

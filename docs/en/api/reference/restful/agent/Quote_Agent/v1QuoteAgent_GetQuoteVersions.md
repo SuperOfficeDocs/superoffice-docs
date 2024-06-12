@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 210
+  "QuoteId": 964
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 811,
-    "ERPQuoteVersionKey": "alias",
-    "QuoteId": 368,
-    "Description": "Cross-platform grid-enabled firmware",
-    "Number": "942464",
+    "QuoteVersionId": 138,
+    "ERPQuoteVersionKey": "consectetur",
+    "QuoteId": 254,
+    "Description": "Focused zero administration core",
+    "Number": "1548839",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 903,
-    "SentDate": "1999-08-20T12:57:34.6959481+02:00",
-    "FollowupId": 661,
-    "ExpirationDate": "2019-06-04T12:57:34.6959481+02:00",
-    "DeliveryCountryId": 695,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 92,
+    "LikelyQuoteAlternativeId": 414,
+    "SentDate": "1999-12-25T04:22:27.3778332+01:00",
+    "FollowupId": 67,
+    "ExpirationDate": "2017-08-20T04:22:27.3778332+02:00",
+    "DeliveryCountryId": 822,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 572,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "odit",
-    "ERPPaymentTypeKey": "consequatur",
-    "ERPDeliveryTermsKey": "quae",
-    "ERPDeliveryTypeKey": "aliquam",
-    "Rank": 945,
-    "ApprovedBy": 348,
-    "ApprovedText": "blanditiis",
-    "ApprovedRegisteredBy": 99,
-    "ApprovedRegisteredDate": "2002-06-17T12:57:34.6959481+02:00",
-    "ExtraField1": "magnam",
-    "ExtraField2": "in",
-    "ExtraField3": "voluptates",
-    "ExtraField4": "ea",
-    "ExtraField5": "soluta",
-    "LastRecalculated": "2015-08-31T12:57:34.6959481+02:00",
-    "Updated": "2007-08-30T12:57:34.6959481+02:00",
-    "UpdatedAssociateId": 972,
-    "Registered": "2009-05-06T12:57:34.6959481+02:00",
-    "RegisteredAssociateId": 25,
-    "RequestAssociateId": 779,
-    "RequestComment": "maxime",
+    "ERPPaymentTermsKey": "enim",
+    "ERPPaymentTypeKey": "facere",
+    "ERPDeliveryTermsKey": "voluptas",
+    "ERPDeliveryTypeKey": "ex",
+    "Rank": 99,
+    "ApprovedBy": 288,
+    "ApprovedText": "modi",
+    "ApprovedRegisteredBy": 489,
+    "ApprovedRegisteredDate": "2014-12-12T04:22:27.3778332+01:00",
+    "ExtraField1": "rem",
+    "ExtraField2": "corporis",
+    "ExtraField3": "enim",
+    "ExtraField4": "tenetur",
+    "ExtraField5": "molestiae",
+    "LastRecalculated": "2017-12-17T04:22:27.3778332+01:00",
+    "Updated": "2024-01-26T04:22:27.3778332+01:00",
+    "UpdatedAssociateId": 336,
+    "Registered": "2013-12-17T04:22:27.3778332+01:00",
+    "RegisteredAssociateId": 54,
+    "RequestAssociateId": 270,
+    "RequestComment": "dolorem",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 87,
-        "ERPQuoteAlternativeKey": "quam",
-        "QuoteVersionId": 844,
-        "Name": "Reilly Group",
-        "Description": "Adaptive scalable archive",
+        "QuoteAlternativeId": 117,
+        "ERPQuoteAlternativeKey": "nemo",
+        "QuoteVersionId": 915,
+        "Name": "Hamill-Baumbach",
+        "Description": "Enterprise-wide intermediate knowledge base",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 30174.152,
-        "ERPDiscountAmount": 20935.12,
-        "DiscountPercent": 19916.57,
-        "DiscountAmount": 2598.086,
+        "ERPDiscountPercent": 4763.68,
+        "ERPDiscountAmount": 8023.04,
+        "DiscountPercent": 17083.434,
+        "DiscountAmount": 22132.308,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "vitae",
-        "VAT": 11786.974,
-        "EarningPercent": 1178.384,
-        "EarningAmount": 28074.372,
-        "SubTotal": 12708.369999999999,
-        "TotalPrice": 15858.039999999999,
+        "VATInfo": "quis",
+        "VAT": 28315.69,
+        "EarningPercent": 21749.96,
+        "EarningAmount": 12539.134,
+        "SubTotal": 23533.206,
+        "TotalPrice": 13024.904,
         "ExtraField1": "ut",
-        "ExtraField2": "eius",
-        "ExtraField3": "quo",
-        "ExtraField4": "et",
-        "ExtraField5": "reprehenderit",
+        "ExtraField2": "aut",
+        "ExtraField3": "quibusdam",
+        "ExtraField4": "dolorem",
+        "ExtraField5": "nihil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 233
+            "FieldType": "System.Int32",
+            "FieldLength": 780
           }
         }
       }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldType": "System.String",
+        "FieldLength": 895
       }
     }
   }

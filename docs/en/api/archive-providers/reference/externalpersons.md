@@ -74,7 +74,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |createdByForm|listAny|Created by form: Created by form| x |
 |phone/formattedNumber|string|Phone : Displays phone number|  |
 |personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -212,7 +212,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personSourceRelation/isProjectMember|bool|Source - Is project member: This person is a project member| x |
 |personSourceRelation/isStakeholder|bool|Source - Is stakeholder: This person is a sale stakeholder| x |
 |personSourceRelation/updatedByWorkflow|listAny|Source - Updated by flow: Updated by flow| x |
-|personSourceRelation/whenUpdatedByWorkflow|datetime|Source - Updated by flow: Updated by flow| x |
+|personSourceRelation/whenUpdatedByWorkflow|datetime|Source - When updated by flow: When updated by flow| x |
 |personSourceRelation/createdByForm|listAny|Source - Created by form: Created by form| x |
 |personSourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId|int|Source - Company ID: Database ID of company to fetch relations for|  |
@@ -270,7 +270,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personTargetRelation/isProjectMember|bool|Target - Is project member: This person is a project member| x |
 |personTargetRelation/isStakeholder|bool|Target - Is stakeholder: This person is a sale stakeholder| x |
 |personTargetRelation/updatedByWorkflow|listAny|Target - Updated by flow: Updated by flow| x |
-|personTargetRelation/whenUpdatedByWorkflow|datetime|Target - Updated by flow: Updated by flow| x |
+|personTargetRelation/whenUpdatedByWorkflow|datetime|Target - When updated by flow: When updated by flow| x |
 |personTargetRelation/createdByForm|listAny|Target - Created by form: Created by form| x |
 |personTargetRelation/restrictionContactId|int|Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/restrictionPersonId|int|Target - Company ID: Database ID of company to fetch relations for|  |
@@ -403,7 +403,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
-|request/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -632,7 +632,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|personAppointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -692,7 +692,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personSourceRelation/supportAssociateFullName,personAssociate/ejDisplayName,personAssociate/ejStatus,personAssociate/isActive,request/author
+GET /api/v1/archive/ExternalPersons?$select=personNumber,personCategory,personExtra/x_person_time,request/extra/x_ticket_longtext,personAppointment/associate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

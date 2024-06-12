@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Swaniawski, Schaefer and Bartoletti",
-    "DisplayName": "Schroeder, Sipes and Kuvalis",
-    "DisplayTooltip": "et",
+    "Name": "Grady, Boyle and Wyman",
+    "DisplayName": "Batz Group",
+    "DisplayTooltip": "odio",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldLength": 330
       }
     }
   },
   {
-    "Name": "Swaniawski, Schaefer and Bartoletti",
-    "DisplayName": "Schroeder, Sipes and Kuvalis",
-    "DisplayTooltip": "et",
+    "Name": "Grady, Boyle and Wyman",
+    "DisplayName": "Batz Group",
+    "DisplayTooltip": "odio",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldLength": 330
       }
     }
   }

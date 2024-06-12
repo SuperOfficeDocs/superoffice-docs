@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Name": "Reynolds-Tromp",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "UdListDefinitionId": 992,
-  "Rank": 476,
+  "Id": 980,
+  "Name": "Hauck Group",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "UdListDefinitionId": 303,
+  "Rank": 653,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldLength": 893
     }
   }
 }

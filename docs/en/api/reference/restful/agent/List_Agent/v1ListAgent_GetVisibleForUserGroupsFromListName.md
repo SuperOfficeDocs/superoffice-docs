@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Herzog, Daugherty and Corwin",
-  "ListItemId": 208
+  "UdListDefinitionName": "Kovacek, Bradtke and West",
+  "ListItemId": 716
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "Mann, Russel and Senger",
-    "ToolTip": "Repellat fugiat consequatur harum nulla facere.",
-    "Deleted": true,
-    "Rank": 849,
-    "Type": "dolor",
-    "ColorBlock": 567,
-    "IconHint": "commodi",
+    "Id": 149,
+    "Name": "Fadel, Wolff and Welch",
+    "ToolTip": "Tempore ipsum ut aperiam.",
+    "Deleted": false,
+    "Rank": 75,
+    "Type": "hic",
+    "ColorBlock": 116,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2002-07-13T12:57:34.1336045+02:00",
+    "LastChanged": "2012-04-28T04:22:26.9536139+02:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Satterfield, Fisher and Cremin",
-        "ToolTip": "Provident iste.",
+        "Id": 452,
+        "Name": "Weber Group",
+        "ToolTip": "Consequuntur et dolores ab voluptatem est sunt rerum.",
         "Deleted": false,
-        "Rank": 294,
-        "Type": "voluptate",
-        "ColorBlock": 205,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "1998-02-22T12:57:34.1336045+01:00",
+        "Rank": 665,
+        "Type": "eos",
+        "ColorBlock": 909,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2015-05-14T04:22:26.969259+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "nobis",
-        "Hidden": true,
-        "FullName": "Melvin Bauch",
+        "ExtraInfo": "fugit",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mrs. Marianne Wava Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 876
+            "FieldType": "System.Int32",
+            "FieldLength": 201
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "quos",
+    "ExtraInfo": "eum",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Miss Winfield Nayeli Hickle",
+    "FullName": "Miss Hilbert Caitlyn Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 493
       }
     }
   }

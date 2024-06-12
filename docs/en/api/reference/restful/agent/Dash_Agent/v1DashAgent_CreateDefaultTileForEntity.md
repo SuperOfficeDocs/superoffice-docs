@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Towne-Veum"
+  "EntityName": "Mante, Heathcote and Hirthe"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 938,
-  "DashboardId": 716,
-  "Height": 998,
-  "Width": 269,
-  "Rank": 921,
+  "DashboardTileId": 191,
+  "DashboardId": 359,
+  "Height": 394,
+  "Width": 755,
+  "Rank": 85,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldLength": 766
     }
   }
 }

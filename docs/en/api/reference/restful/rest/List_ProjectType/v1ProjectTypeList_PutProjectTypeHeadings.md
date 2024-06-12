@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 723,
-    "Name": "Mueller-Johnston",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 334,
-    "UdListDefinitionId": 858
+    "HeadingId": 499,
+    "Name": "Welch Group",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 614,
+    "UdListDefinitionId": 853
   },
   {
-    "HeadingId": 723,
-    "Name": "Mueller-Johnston",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 334,
-    "UdListDefinitionId": 858
+    "HeadingId": 499,
+    "Name": "Welch Group",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 614,
+    "UdListDefinitionId": 853
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 339,
-    "Name": "Parker Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 278,
+    "Name": "Waelchi, Willms and Kautzer",
+    "Tooltip": "ad",
     "Deleted": true,
-    "Rank": 820,
-    "UdListDefinitionId": 958,
+    "Rank": 376,
+    "UdListDefinitionId": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 943
       }
     }
   }

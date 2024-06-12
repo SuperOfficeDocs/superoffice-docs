@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=dignissimos
+GET /api/v1/List/Category/MDOItems?flat=True
+GET /api/v1/List/Category/MDOItems?query=molestiae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Corwin-Mann",
-    "ToolTip": "Eligendi hic adipisci.",
+    "Id": 2,
+    "Name": "Weimann LLC",
+    "ToolTip": "Facere illo.",
     "Deleted": false,
-    "Rank": 981,
-    "Type": "blanditiis",
+    "Rank": 747,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Lakin-Kessler",
-        "ToolTip": "Qui et.",
-        "Deleted": false,
-        "Rank": 609,
-        "Type": "vel",
+        "Id": 199,
+        "Name": "Casper LLC",
+        "ToolTip": "Quas aspernatur deserunt.",
+        "Deleted": true,
+        "Rank": 38,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsa",
-        "ColorBlock": 716,
-        "ExtraInfo": "possimus",
-        "StyleHint": "voluptatem",
-        "FullName": "Ursula Alyson Kihn PhD",
+        "IconHint": "temporibus",
+        "ColorBlock": 261,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "aut",
+        "FullName": "Ms. Deondre Little III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 98
+            "FieldType": "System.String",
+            "FieldLength": 268
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 389,
-    "ExtraInfo": "possimus",
-    "StyleHint": "nulla",
-    "FullName": "Laisha Carter",
+    "IconHint": "vel",
+    "ColorBlock": 880,
+    "ExtraInfo": "rerum",
+    "StyleHint": "architecto",
+    "FullName": "Gerhard Daisy Okuneva DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 554
       }
     }
   }

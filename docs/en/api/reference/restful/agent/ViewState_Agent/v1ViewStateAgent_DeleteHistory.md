@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Muller-Wisoky",
-  "Id": 436
+  "HistoryName": "McDermott LLC",
+  "Id": 17
 }
 ```
 

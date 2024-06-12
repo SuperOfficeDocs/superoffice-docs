@@ -17,6 +17,8 @@ If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType
 |Unknown|0|Unknown - should not be used.|
 |Link|1|Clicked a link in the shipment|
 |Image|2|Viewed an image in the shipment|
+|Unsubscribe|3|Clicked and executed an unsubscribe link in the shipment|
+|Consent|4|Clicked and executed a manage consent link in the shipment|
 
 ## Usage
 

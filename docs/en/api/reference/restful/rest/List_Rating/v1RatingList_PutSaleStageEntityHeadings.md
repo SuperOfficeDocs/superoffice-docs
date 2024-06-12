@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 116,
-    "Name": "Morissette LLC",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "Rank": 430,
-    "UdListDefinitionId": 98
+    "HeadingId": 552,
+    "Name": "Deckow-Bailey",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 627,
+    "UdListDefinitionId": 448
   },
   {
-    "HeadingId": 116,
-    "Name": "Morissette LLC",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "Rank": 430,
-    "UdListDefinitionId": 98
+    "HeadingId": 552,
+    "Name": "Deckow-Bailey",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 627,
+    "UdListDefinitionId": 448
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Emmerich LLC",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 686,
+    "Name": "Auer-Roberts",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 309,
-    "UdListDefinitionId": 718,
+    "Rank": 366,
+    "UdListDefinitionId": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 190
       }
     }
   }

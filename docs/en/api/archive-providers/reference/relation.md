@@ -84,7 +84,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/isProjectMember| *None* |Source - Is project member: This person is a project member|  |
 |source/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder|  |
 |source/updatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
-|source/whenUpdatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
+|source/whenUpdatedByWorkflow| *None* |Source - When updated by flow: When updated by flow|  |
 |source/createdByForm| *None* |Source - Created by form: Created by form|  |
 |source/phone/formattedNumber|string|Source - Phone: Displays phone number|  |
 |source/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
@@ -390,7 +390,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/isProjectMember| *None* |Target - Is project member: This person is a project member|  |
 |target/isStakeholder| *None* |Target - Is stakeholder: This person is a sale stakeholder|  |
 |target/updatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
-|target/whenUpdatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
+|target/whenUpdatedByWorkflow| *None* |Target - When updated by flow: When updated by flow|  |
 |target/createdByForm| *None* |Target - Created by form: Created by form|  |
 |target/restrictionPersonId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
 |target/personDirectPhone/formattedNumber| *None* |Target - Direct - Phone: Displays phone number|  |
@@ -557,7 +557,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/who,source/personDirectPhone/description,target/business,target/email/emailBounceCount,target/postAddress/formattedAddress
+GET /api/v1/archive/Relation?$select=target/registeredBy,target/who,target/email/emailLastSent,source/contactExtra/x_contact_request_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 10 Dec 2000 12:57:42 G12T
+Last-Modified: Sat, 08 Mar 2008 04:22:34 G3T
 
 {
-  "SourceContactId": 863,
-  "SourcePersonId": 49,
-  "DestinationContactId": 99,
-  "DestinationPersonId": 854,
-  "RelationId": 736,
-  "Comment": "amet",
-  "RelationDefinitionId": 762,
-  "Reversed": 913,
-  "UpdatedDate": "2000-12-10T12:57:42.3076631+01:00",
-  "CreatedDate": "2020-05-06T12:57:42.3076631+02:00",
+  "SourceContactId": 549,
+  "SourcePersonId": 843,
+  "DestinationContactId": 446,
+  "DestinationPersonId": 415,
+  "RelationId": 658,
+  "Comment": "quas",
+  "RelationDefinitionId": 587,
+  "Reversed": 439,
+  "UpdatedDate": "2008-03-08T04:22:34.8589991+01:00",
+  "CreatedDate": "1999-09-14T04:22:34.8589991+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Donnelly, Yost and Stehr",
-  "SourcePersonName": "Wunsch-Carroll",
-  "DestinationContactName": "Hegmann-Turcotte",
-  "DestinationPersonName": "Harber Inc and Sons",
-  "ActiveText": "rerum",
-  "PassiveText": "in",
+  "SourceContactName": "Weissnat Inc and Sons",
+  "SourcePersonName": "Howe-Leannon",
+  "DestinationContactName": "Stark, Carter and Johnston",
+  "DestinationPersonName": "Murray-Reynolds",
+  "ActiveText": "labore",
+  "PassiveText": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldType": "System.Int32",
+      "FieldLength": 651
     }
   }
 }

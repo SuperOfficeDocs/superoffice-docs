@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 476,
-  "Name": "Collins LLC",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 192,
-  "UdListDefinitionId": 482
+  "HeadingId": 699,
+  "Name": "Mueller-Kunde",
+  "Tooltip": "aliquam",
+  "Deleted": false,
+  "Rank": 593,
+  "UdListDefinitionId": 816
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 25,
-  "Name": "Veum, Kozey and Hills",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 587,
-  "UdListDefinitionId": 571,
+  "HeadingId": 304,
+  "Name": "Weber Group",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "Rank": 991,
+  "UdListDefinitionId": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 62
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Ratke Inc and Sons",
-    "ToolTip": "Et sint cum est doloribus repellat.",
+    "Id": 395,
+    "Name": "Pacocha-Beahan",
+    "ToolTip": "Et adipisci.",
     "Deleted": false,
-    "Rank": 405,
-    "Type": "aut",
-    "ColorBlock": 9,
-    "IconHint": "fuga",
+    "Rank": 906,
+    "Type": "qui",
+    "ColorBlock": 643,
+    "IconHint": "quisquam",
     "Selected": false,
-    "LastChanged": "2007-09-14T12:57:43.6988788+02:00",
+    "LastChanged": "2015-10-06T04:22:36.1434668+02:00",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Glover Group",
-        "ToolTip": "Nemo pariatur ipsam id rem.",
-        "Deleted": true,
+        "Id": 726,
+        "Name": "Metz Group",
+        "ToolTip": "Natus aliquam repudiandae adipisci necessitatibus.",
+        "Deleted": false,
         "Rank": 399,
-        "Type": "eum",
-        "ColorBlock": 883,
-        "IconHint": "harum",
+        "Type": "ipsam",
+        "ColorBlock": 64,
+        "IconHint": "vero",
         "Selected": true,
-        "LastChanged": "1997-09-23T12:57:43.6988788+02:00",
+        "LastChanged": "1998-12-28T04:22:36.1434668+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "expedita",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Viva Ruecker"
+        "FullName": "Coby Abshire V"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "ut",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Brandyn Johnston"
+    "FullName": "Miss Dusty Crist"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Hansen, O'Kon and Russel",
-    "ToolTip": "Laboriosam et qui.",
+    "Id": 466,
+    "Name": "Schaden, Nikolaus and Runte",
+    "ToolTip": "Consectetur aspernatur non amet iusto.",
     "Deleted": true,
-    "Rank": 848,
-    "Type": "occaecati",
-    "ColorBlock": 778,
-    "IconHint": "nihil",
+    "Rank": 478,
+    "Type": "adipisci",
+    "ColorBlock": 86,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2003-01-04T12:57:43.6988788+01:00",
+    "LastChanged": "2013-05-24T04:22:36.1434668+02:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Jakubowski-Hickle",
-        "ToolTip": "Rerum corporis.",
+        "Id": 464,
+        "Name": "Frami-Wehner",
+        "ToolTip": "Atque dolorem.",
         "Deleted": true,
-        "Rank": 156,
-        "Type": "molestias",
-        "ColorBlock": 892,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2023-10-21T12:57:43.6988788+02:00",
+        "Rank": 640,
+        "Type": "aut",
+        "ColorBlock": 395,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2013-02-05T04:22:36.1434668+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "quo",
+        "ExtraInfo": "beatae",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Khalil Labadie",
+        "FullName": "Mr. Bernadette Afton Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 443
+            "FieldLength": 251
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "sunt",
+    "ExtraInfo": "et",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Colten Hilpert",
+    "FullName": "Mrs. Bobby Cecil Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 943
       }
     }
   }

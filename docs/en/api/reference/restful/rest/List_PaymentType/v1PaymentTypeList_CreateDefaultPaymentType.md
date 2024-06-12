@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Bernier LLC",
-  "Tooltip": "qui",
+  "Id": 830,
+  "Name": "Hauck-Kuhn",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "UdListDefinitionId": 72,
-  "Rank": 571,
+  "UdListDefinitionId": 895,
+  "Rank": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Botsford-Jones",
-  "ListItemId": 73,
+  "UdListDefinitionName": "Homenick, Hermiston and Smitham",
+  "ListItemId": 309,
   "Headings": [
     {
-      "Id": 346,
-      "Name": "Heaney-Hyatt",
-      "ToolTip": "Nam reiciendis inventore quo nesciunt dicta omnis.",
+      "Id": 363,
+      "Name": "Sawayn, Satterfield and Ortiz",
+      "ToolTip": "Facilis aut.",
       "Deleted": false,
-      "Rank": 158,
-      "Type": "et",
-      "ColorBlock": 203,
-      "IconHint": "repellendus",
-      "Selected": false,
-      "LastChanged": "2005-08-22T12:57:34.1492269+02:00",
+      "Rank": 608,
+      "Type": "alias",
+      "ColorBlock": 738,
+      "IconHint": "atque",
+      "Selected": true,
+      "LastChanged": "2011-10-06T04:22:26.9848795+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "qui",
+      "ExtraInfo": "sunt",
+      "StyleHint": "voluptates",
       "Hidden": false,
-      "FullName": "Celestino Rath"
+      "FullName": "Noemy O'Connell"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Hyatt LLC",
-    "ToolTip": "Nihil voluptates.",
+    "Id": 324,
+    "Name": "Kunde, Baumbach and Klocko",
+    "ToolTip": "Eaque autem.",
     "Deleted": false,
-    "Rank": 744,
-    "Type": "asperiores",
-    "ColorBlock": 580,
-    "IconHint": "asperiores",
-    "Selected": true,
-    "LastChanged": "2013-11-01T12:57:34.1648498+01:00",
+    "Rank": 224,
+    "Type": "ea",
+    "ColorBlock": 704,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2018-06-11T04:22:26.9848795+02:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Pouros, Lemke and Keebler",
-        "ToolTip": "Sapiente eum quaerat dolorem quia est.",
+        "Id": 506,
+        "Name": "Dietrich Group",
+        "ToolTip": "Error omnis rerum.",
         "Deleted": false,
-        "Rank": 512,
-        "Type": "est",
-        "ColorBlock": 462,
-        "IconHint": "qui",
+        "Rank": 947,
+        "Type": "et",
+        "ColorBlock": 165,
+        "IconHint": "suscipit",
         "Selected": true,
-        "LastChanged": "2018-06-14T12:57:34.1648498+02:00",
+        "LastChanged": "1997-07-30T04:22:26.9848795+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Eldora Fadel",
+        "ExtraInfo": "totam",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Miss Luna Thiel II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 291
+            "FieldType": "System.Int32",
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Kyler Runte III",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Dr. Aisha Nedra Feeney I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

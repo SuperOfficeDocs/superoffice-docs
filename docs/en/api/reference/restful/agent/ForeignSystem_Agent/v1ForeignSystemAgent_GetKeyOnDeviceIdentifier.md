@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rolfson, Walter and Dicki",
-  "DeviceName": "Wyman, Marvin and Sanford",
-  "DeviceIdentifier": "minus",
-  "KeyName": "Crist Inc and Sons",
-  "TableName": "Smitham, Glover and Dicki",
-  "RecordId": 860
+  "ApplicationName": "DuBuque-Borer",
+  "DeviceName": "Emard Group",
+  "DeviceIdentifier": "repudiandae",
+  "KeyName": "Parisian Inc and Sons",
+  "TableName": "Torphy-Lindgren",
+  "RecordId": 615
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsum",
-  "Value": "veniam",
-  "RecordId": 479,
-  "CreatedDate": "2024-02-04T12:57:34.0554972+01:00",
-  "UpdatedDate": "2022-04-06T12:57:34.0554972+02:00",
-  "UpdatedBy": "hic",
-  "CreatedBy": "est",
-  "TableName": "Pacocha Inc and Sons",
+  "Key": "officiis",
+  "Value": "minima",
+  "RecordId": 172,
+  "CreatedDate": "1997-09-30T04:22:26.8755249+02:00",
+  "UpdatedDate": "2000-06-20T04:22:26.8755249+02:00",
+  "UpdatedBy": "exercitationem",
+  "CreatedBy": "doloribus",
+  "TableName": "Kessler-Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 111
     }
   }
 }

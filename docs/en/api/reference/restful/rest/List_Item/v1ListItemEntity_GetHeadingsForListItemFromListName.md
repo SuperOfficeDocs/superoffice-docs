@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 114,
-    "Name": "Murphy-Williamson",
-    "ToolTip": "Quod deleniti aut voluptas assumenda distinctio.",
+    "Id": 509,
+    "Name": "Harris, Toy and Sanford",
+    "ToolTip": "Dolorem quae nobis eos facilis.",
     "Deleted": false,
-    "Rank": 35,
-    "Type": "et",
-    "ColorBlock": 254,
-    "IconHint": "sit",
+    "Rank": 153,
+    "Type": "atque",
+    "ColorBlock": 354,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2018-07-26T12:57:43.3083396+02:00",
+    "LastChanged": "2007-07-26T04:22:35.7834778+02:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Witting LLC",
-        "ToolTip": "Cumque tempore nostrum praesentium error repellendus ut.",
+        "Id": 702,
+        "Name": "Gerhold-Howe",
+        "ToolTip": "Id quisquam odit aspernatur voluptatem sed magni sit.",
         "Deleted": false,
-        "Rank": 57,
-        "Type": "eveniet",
-        "ColorBlock": 821,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2022-12-07T12:57:43.3083396+01:00",
+        "Rank": 983,
+        "Type": "praesentium",
+        "ColorBlock": 71,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2024-03-09T04:22:35.7834778+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Chaya Kozey",
+        "FullName": "Mr. Maggie Oscar Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 857
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Collin Block",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Prof. Kamren Stuart West V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 285
+        "FieldLength": 585
       }
     }
   }

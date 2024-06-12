@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 324,
+  "QuoteVersionId": 18,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 276
+  "CountryId": 735
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 1241.0639999999999,
-  "Wgs84Longitude": 12341.692,
+  "Wgs84Latitude": 7001.356,
+  "Wgs84Longitude": 13996.444,
   "LocalizedAddress": [
     [
       {
-        "Name": "Koch Inc and Sons",
-        "Value": "suscipit",
-        "Tooltip": "architecto",
-        "Label": "magni",
-        "ValueLength": 588,
-        "AddressType": "voluptatem",
+        "Name": "Franecki LLC",
+        "Value": "dolor",
+        "Tooltip": "aliquam",
+        "Label": "dolor",
+        "ValueLength": 129,
+        "AddressType": "officiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 820
+            "FieldType": "System.Int32",
+            "FieldLength": 830
           }
         }
       }
     ],
     [
       {
-        "Name": "Kassulke-Wisoky",
-        "Value": "veniam",
-        "Tooltip": "et",
-        "Label": "qui",
-        "ValueLength": 806,
-        "AddressType": "porro",
+        "Name": "Stracke, Baumbach and Kulas",
+        "Value": "et",
+        "Tooltip": "voluptatem",
+        "Label": "velit",
+        "ValueLength": 741,
+        "AddressType": "eius",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 222
+            "FieldType": "System.Int32",
+            "FieldLength": 277
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "amet",
+  "Formatted": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   }
 }

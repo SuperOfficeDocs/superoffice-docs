@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Monahan-King",
-  "Comment": "tempore",
-  "StakeholderRoleId": 842,
-  "CountryId": 877,
-  "PersonId": 557,
-  "EmailDescription": "shana.abshire@jacobikertzmann.us",
-  "EmailId": 706,
-  "EmailAddress": "myah@mcclure.com",
-  "PhoneId": 923,
-  "ContactName": "Upton, Collins and Kunze",
-  "ContactId": 247,
-  "SaleId": 74,
-  "Mrmrs": "porro",
-  "Firstname": "Wilfredo",
-  "MiddleName": "Bartell, Rath and Reilly",
-  "Lastname": "Witting",
-  "SaleStakeholderId": 860,
-  "Rank": 340,
-  "Phone": "(770)969-9512 x4129"
+  "StakeholderRoleName": "Rohan Group",
+  "Comment": "doloribus",
+  "StakeholderRoleId": 626,
+  "CountryId": 18,
+  "PersonId": 862,
+  "EmailDescription": "elva@bernier.uk",
+  "EmailId": 128,
+  "EmailAddress": "deondre@little.us",
+  "PhoneId": 377,
+  "ContactName": "Ferry, Parisian and Parker",
+  "ContactId": 929,
+  "SaleId": 763,
+  "Mrmrs": "doloremque",
+  "Firstname": "Arlie",
+  "MiddleName": "Hills LLC",
+  "Lastname": "Kessler",
+  "SaleStakeholderId": 391,
+  "Rank": 893,
+  "Phone": "1-582-345-6824 x0452"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Terry LLC",
-  "Comment": "ea",
-  "StakeholderRoleId": 209,
-  "CountryId": 753,
-  "PersonId": 588,
-  "EmailDescription": "makenzie_keeling@schuppefritsch.name",
-  "EmailId": 151,
-  "EmailAddress": "kacie_barton@collier.uk",
-  "PhoneId": 697,
-  "ContactName": "Kozey-Monahan",
-  "ContactId": 387,
-  "SaleId": 427,
-  "Mrmrs": "sequi",
-  "Firstname": "Tess",
-  "MiddleName": "Schmidt LLC",
-  "Lastname": "Treutel",
-  "SaleStakeholderId": 974,
-  "Rank": 77,
-  "Phone": "(611)747-0640 x0878",
+  "StakeholderRoleName": "Turner, Powlowski and Wuckert",
+  "Comment": "aperiam",
+  "StakeholderRoleId": 488,
+  "CountryId": 647,
+  "PersonId": 133,
+  "EmailDescription": "taya@barrows.com",
+  "EmailId": 534,
+  "EmailAddress": "sandra@feest.co.uk",
+  "PhoneId": 909,
+  "ContactName": "Wiegand-Herman",
+  "ContactId": 363,
+  "SaleId": 898,
+  "Mrmrs": "alias",
+  "Firstname": "Jefferey",
+  "MiddleName": "Daugherty, Lebsack and Schneider",
+  "Lastname": "Leuschke",
+  "SaleStakeholderId": 619,
+  "Rank": 260,
+  "Phone": "504.556.6606 x022",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 62
     }
   },
   "_Links": {

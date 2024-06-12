@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 693,
+  "TicketId": 293,
   "MessageActionType": "Forward",
-  "TicketMessageId": 309,
-  "TicketTypeId": 24,
+  "TicketMessageId": 8,
+  "TicketTypeId": 295,
   "ExcludeSignature": false
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "amet",
+  "Body": "non",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 617,
-      "Name": "Schuster, Raynor and Carroll",
-      "ContentType": "commodi",
-      "AttSize": 843,
+      "AttachmentId": 183,
+      "Name": "Williamson Inc and Sons",
+      "ContentType": "tenetur",
+      "AttSize": 172,
       "InlineImage": false,
-      "ContentId": "in",
-      "AuthKey": "ex",
+      "ContentId": "ab",
+      "AuthKey": "facilis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 389
         }
       }
     }

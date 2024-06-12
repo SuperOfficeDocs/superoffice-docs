@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Leannon-Armstrong",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 387,
+  "Id": 899,
+  "Name": "Ondricka LLC",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "Rank": 594,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
+  "ListType": "quia",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 596
     }
   },
   "_Links": {

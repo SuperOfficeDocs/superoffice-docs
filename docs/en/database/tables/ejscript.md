@@ -32,6 +32,8 @@ ejscript
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort| |
 |type|The type/language of this script|Enum [ScriptType](enums/scripttype.md)| |
+|last\_exec\_http|The last time this script was executed by a HTTP call as a authenticated user|UtcDateTime|&#x25CF;|
+|last\_exec\_anon\_http|The last time this script was executed by a HTTP call anonomously|UtcDateTime|&#x25CF;|
 
 
 ![ejscript table relationship diagram](./media/ejscript.png)

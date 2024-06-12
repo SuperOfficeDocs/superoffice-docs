@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 585,
-  "DocumentId": 781,
+  "SelectionId": 692,
+  "DocumentId": 843,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "ut",
-  "AlwaysUseCustomAttention": true,
+  "CustomAttention": "nulla",
+  "AlwaysUseCustomAttention": false,
   "SaveDocument": true,
-  "CustomMailBody": "magni",
+  "CustomMailBody": "quia",
   "TaskEntity": null,
-  "AddCompanyInterest": 382,
-  "AddPersonInterest": 791,
-  "RemoveCompanyInterest": 620,
-  "RemovePersonInterest": 465,
-  "IncludeNoMailingsRecipient": true,
-  "TestOnly": false,
-  "ProjectId": 565,
-  "IncludeRetiredRecipients": true,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "et",
-  "ExtraInfo": "odio",
-  "Synchronous": false,
+  "AddCompanyInterest": 740,
+  "AddPersonInterest": 889,
+  "RemoveCompanyInterest": 630,
+  "RemovePersonInterest": 971,
+  "IncludeNoMailingsRecipient": false,
+  "TestOnly": true,
+  "ProjectId": 378,
+  "IncludeRetiredRecipients": false,
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "sint",
+  "ExtraInfo": "velit",
+  "Synchronous": true,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldLength": 679
     }
   }
 }

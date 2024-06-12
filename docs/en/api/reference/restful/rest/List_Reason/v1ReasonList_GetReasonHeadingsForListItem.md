@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Corkery, Schuppe and Ondricka",
-    "ToolTip": "Deleniti deleniti sint ut qui nulla dolor.",
+    "Id": 264,
+    "Name": "Abbott Group",
+    "ToolTip": "Sed enim et et esse labore.",
     "Deleted": false,
-    "Rank": 654,
-    "Type": "delectus",
-    "ColorBlock": 563,
-    "IconHint": "dolores",
+    "Rank": 263,
+    "Type": "ut",
+    "ColorBlock": 356,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2016-04-04T12:57:43.6988788+02:00",
+    "LastChanged": "2012-03-28T04:22:36.1434668+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Weissnat LLC",
-        "ToolTip": "Earum tempora deserunt.",
+        "Id": 407,
+        "Name": "Sawayn-Thiel",
+        "ToolTip": "Commodi impedit nobis.",
         "Deleted": false,
-        "Rank": 425,
-        "Type": "doloribus",
-        "ColorBlock": 985,
-        "IconHint": "temporibus",
+        "Rank": 465,
+        "Type": "possimus",
+        "ColorBlock": 793,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "2007-05-07T12:57:43.6988788+02:00",
+        "LastChanged": "2023-04-09T04:22:36.1434668+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "cum",
-        "Hidden": false,
-        "FullName": "Daryl Muller",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Queen Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 725
+            "FieldType": "System.Int32",
+            "FieldLength": 782
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Alf Reichert",
+    "ExtraInfo": "eos",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Tierra Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldType": "System.Int32",
+        "FieldLength": 655
       }
     }
   }

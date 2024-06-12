@@ -18,7 +18,6 @@ Some steps wait for actions, this is info about those actions
 |------|-------------|------|:----:|
 |workflow\_wait\_for\_action\_id|Primary key|PK| |
 |workflow\_step\_id|The workflow step this instance belongs to|FK [workflow_step](workflow-step.md)|&#x25CF;|
-|workflow\_id|The flow this instance belongs to|FK [workflow](workflow.md)|&#x25CF;|
 |ActionType|The type of action|Enum [WorkflowWaitForActionType](enums/workflowwaitforactiontype.md)|&#x25CF;|
 |rank|The rank of this action|Int|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
@@ -43,7 +42,6 @@ Some steps wait for actions, this is info about those actions
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |
 
 

@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Franecki-Farrell",
-  "AssociateId": 250,
-  "DetailsTable": 511,
-  "DetailsRecord": 960,
+  "Id": 586,
+  "Name": "Paucek LLC",
+  "AssociateId": 742,
+  "DetailsTable": 203,
+  "DetailsRecord": 490,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "explicabo",
-    "ParameterObject2": "delectus"
+    "ParameterObject1": "id",
+    "ParameterObject2": "dicta"
   },
-  "LastStarted": "2022-02-26T12:57:43.1061613+01:00",
-  "Created": "2014-07-15T12:57:43.1061613+02:00",
-  "StartCount": 890,
-  "DatabaseSerialNumber": "1442926",
-  "Context": "aliquid",
-  "Result": "possimus",
+  "LastStarted": "2010-04-15T04:22:35.6116053+02:00",
+  "Created": "2015-10-23T04:22:35.6116053+02:00",
+  "StartCount": 550,
+  "DatabaseSerialNumber": "1614985",
+  "Context": "enim",
+  "Result": "corporis",
   "State": "All",
-  "Description": "Future-proofed global standardization",
-  "Response": "facilis",
-  "Request": "officiis",
-  "ProgressDescription": "Customer-focused dedicated hardware",
-  "ProgressPercent": 640,
-  "FileName": "Cummerata, Mertz and Hegmann",
+  "Description": "Operative full-range open architecture",
+  "Response": "esse",
+  "Request": "et",
+  "ProgressDescription": "Reactive tangible product",
+  "ProgressPercent": 631,
+  "FileName": "Goodwin-Conn",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-861
+970
 ```

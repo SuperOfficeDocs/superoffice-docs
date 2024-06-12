@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Aug 2017 12:57:42 G8T
+Last-Modified: Tue, 05 Aug 1997 04:22:35 G8T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Fri, 11 Aug 2017 12:57:42 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eligendi",
+  "SaleText": "non",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Fri, 11 Aug 2017 12:57:42 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-06-27T12:57:42.7138204+02:00",
-  "Amount": 24977.98,
-  "SaleId": 37,
-  "Earning": 18506.27,
-  "EarningPercent": 22229.462,
-  "Heading": "dolor",
-  "Number": "1242858",
-  "Probability": 420,
-  "CreatedDate": "2005-02-18T12:57:42.7138204+01:00",
-  "UpdatedDate": "2017-08-11T12:57:42.7138204+02:00",
+  "Saledate": "2023-12-20T04:22:35.3772322+01:00",
+  "Amount": 3795.274,
+  "SaleId": 908,
+  "Earning": 29174.406,
+  "EarningPercent": 8602.83,
+  "Heading": "facilis",
+  "Number": "1212145",
+  "Probability": 457,
+  "CreatedDate": "2000-02-07T04:22:35.3772322+01:00",
+  "UpdatedDate": "1997-08-05T04:22:35.3772322+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 638,
+  "ActiveLinks": 650,
   "Links": [
     {
-      "EntityName": "Beahan-Graham",
-      "Id": 775,
-      "Description": "Reduced 24/7 software",
-      "ExtraInfo": "deleniti",
-      "LinkId": 371,
+      "EntityName": "Graham, Quigley and Farrell",
+      "Id": 982,
+      "Description": "Cloned multimedia infrastructure",
+      "ExtraInfo": "et",
+      "LinkId": 487,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 144
         }
       }
     }
   ],
-  "NextDueDate": "2005-06-18T12:57:42.7138204+02:00",
-  "Postit": "aut",
+  "NextDueDate": "2023-05-25T04:22:35.3772322+02:00",
+  "Postit": "voluptates",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-01-03T12:57:42.7138204+01:00",
+  "ReopenDate": "2018-06-07T04:22:35.3772322+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kiehn-Reichel",
-      "Comment": "natus",
-      "StakeholderRoleId": 132,
-      "CountryId": 543,
-      "PersonId": 368,
-      "EmailDescription": "corbin_nader@rath.biz",
-      "EmailId": 403,
-      "EmailAddress": "garrett@ondricka.us",
-      "PhoneId": 591,
-      "ContactName": "Boyle Group",
-      "ContactId": 63,
-      "SaleId": 876,
-      "Mrmrs": "voluptates",
-      "Firstname": "Rickey",
-      "MiddleName": "Kshlerin LLC",
-      "Lastname": "Paucek",
-      "SaleStakeholderId": 478,
-      "Rank": 216,
-      "Phone": "174-196-0973 x36440",
+      "StakeholderRoleName": "Wintheiser LLC",
+      "Comment": "eos",
+      "StakeholderRoleId": 27,
+      "CountryId": 773,
+      "PersonId": 618,
+      "EmailDescription": "ceasar.jenkins@gradylittel.name",
+      "EmailId": 733,
+      "EmailAddress": "maybelle_hyatt@oberbrunner.ca",
+      "PhoneId": 594,
+      "ContactName": "Crist, Parisian and Bartell",
+      "ContactId": 674,
+      "SaleId": 630,
+      "Mrmrs": "quia",
+      "Firstname": "Deon",
+      "MiddleName": "Upton-Strosin",
+      "Lastname": "Runolfsson",
+      "SaleStakeholderId": 289,
+      "Rank": 391,
+      "Phone": "(965)891-2334 x23707",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 706
         }
       }
     }
   ],
-  "ActiveErpLinks": 55,
+  "ActiveErpLinks": 584,
   "UserDefinedFields": {
-    "SuperOffice:1": "624795852",
-    "SuperOffice:2": "Morris Batz"
+    "SuperOffice:1": "Katrine Bashirian",
+    "SuperOffice:2": "Prof. Jedidiah Delilah Corkery I"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "debitis"
+    "CustomFields1": "ut",
+    "CustomFields2": "voluptate"
   },
-  "PublishEventDate": "2014-12-28T12:57:42.7138204+01:00",
-  "PublishTo": "2020-10-03T12:57:42.7138204+02:00",
-  "PublishFrom": "2012-11-22T12:57:42.7138204+01:00",
+  "PublishEventDate": "2001-03-19T04:22:35.3772322+01:00",
+  "PublishTo": "2002-01-29T04:22:35.3772322+01:00",
+  "PublishFrom": "2010-07-10T04:22:35.3772322+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 698,
+      "VisibleId": 486,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 948
         }
       }
     },
     {
-      "VisibleId": 698,
+      "VisibleId": 486,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 948
         }
       }
     }
@@ -260,13 +260,13 @@ Last-Modified: Fri, 11 Aug 2017 12:57:42 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldType": "System.String",
+      "FieldLength": 283
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

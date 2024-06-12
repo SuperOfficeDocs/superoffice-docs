@@ -284,7 +284,7 @@ Implementation of the provider for the combined selection
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |mailingAddr/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |mailingAddr/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
@@ -596,7 +596,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionCombinedV2?$select=project/activeErpLinks,project/projectAssociate/isLocation,mailingAddr/contact/NumberOfSales
+GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingAddr/person/restrictionAddress/wgs84latitude,mailingAddr/person/personUdef/SuperOffice:10,mailingAddr/person/personAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

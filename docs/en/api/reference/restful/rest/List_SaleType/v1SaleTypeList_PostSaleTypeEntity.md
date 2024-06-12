@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 440,
-  "Name": "Hauck Group",
-  "Tooltip": "quia",
-  "Rank": 246,
+  "SaleTypeId": 856,
+  "Name": "Altenwerth LLC",
+  "Tooltip": "impedit",
+  "Rank": 296,
   "DurationUnit": "Century",
-  "SaleDuration": 839,
-  "SaleTypeCatId": 25,
+  "SaleDuration": 574,
+  "SaleTypeCatId": 702,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 739,
-  "QuoteLinesTemplate": 957,
-  "ConfirmationLinesTemplate": 280,
+  "DefaultQuoteValidity": 450,
+  "QuoteLinesTemplate": 461,
+  "ConfirmationLinesTemplate": 421,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 94,
-  "MinEarningPercent": 323,
-  "GroupQuoteLinesBy": 489,
-  "SortGroupLinesBy": 890,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 247,
+  "MinEarningPercent": 464,
+  "GroupQuoteLinesBy": 422,
+  "SortGroupLinesBy": 420,
   "Stages": [
     {
-      "Id": 756,
-      "Name": "Hickle, Farrell and Harber",
-      "ToolTip": "Voluptas cupiditate eum inventore rem.",
-      "Deleted": false,
-      "Rank": 853,
-      "Type": "voluptas",
-      "ColorBlock": 452,
-      "IconHint": "eum",
-      "Selected": false,
-      "LastChanged": "1999-08-30T12:57:43.730118+02:00",
+      "Id": 662,
+      "Name": "Walter-Sanford",
+      "ToolTip": "Quod ducimus.",
+      "Deleted": true,
+      "Rank": 492,
+      "Type": "expedita",
+      "ColorBlock": 99,
+      "IconHint": "deserunt",
+      "Selected": true,
+      "LastChanged": "2023-03-21T04:22:36.1747132+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "iste",
-      "Hidden": false,
-      "FullName": "Mrs. Tyler Ryan Sr."
+      "ExtraInfo": "pariatur",
+      "StyleHint": "consequatur",
+      "Hidden": true,
+      "FullName": "Patience Berge"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 450,
-  "Name": "Schmidt, Hyatt and Johns",
-  "Tooltip": "temporibus",
-  "Rank": 963,
+  "SaleTypeId": 720,
+  "Name": "Collier Inc and Sons",
+  "Tooltip": "ipsam",
+  "Rank": 81,
   "DurationUnit": "Century",
-  "SaleDuration": 982,
-  "SaleTypeCatId": 721,
+  "SaleDuration": 680,
+  "SaleTypeCatId": 727,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 196,
-  "QuoteLinesTemplate": 453,
-  "ConfirmationLinesTemplate": 430,
+  "DefaultQuoteValidity": 151,
+  "QuoteLinesTemplate": 530,
+  "ConfirmationLinesTemplate": 172,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 338,
-  "MinEarningPercent": 455,
-  "GroupQuoteLinesBy": 131,
-  "SortGroupLinesBy": 118,
+  "MaxDiscountPercent": 919,
+  "MinEarningPercent": 117,
+  "GroupQuoteLinesBy": 503,
+  "SortGroupLinesBy": 921,
   "Stages": [
     {
-      "Id": 196,
-      "Name": "Lemke-Streich",
-      "ToolTip": "Harum sit.",
-      "Deleted": false,
-      "Rank": 957,
-      "Type": "ea",
-      "ColorBlock": 123,
-      "IconHint": "consequuntur",
+      "Id": 358,
+      "Name": "Block Inc and Sons",
+      "ToolTip": "Nemo possimus necessitatibus repellendus aut.",
+      "Deleted": true,
+      "Rank": 10,
+      "Type": "modi",
+      "ColorBlock": 459,
+      "IconHint": "vero",
       "Selected": false,
-      "LastChanged": "2014-10-07T12:57:43.730118+02:00",
+      "LastChanged": "2005-07-05T04:22:36.1747132+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "veniam",
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "esse",
       "Hidden": false,
-      "FullName": "Tracy Gottlieb",
+      "FullName": "Miss Rodolfo Kuhlman DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 821
+          "FieldType": "System.Int32",
+          "FieldLength": 458
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 672
+  "DepartmentId": 177
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "optio",
-    "PersonId": 121,
-    "Mrmrs": "voluptates",
-    "Firstname": "Luigi",
-    "Lastname": "Kuphal",
-    "MiddleName": "Stark-Keeling",
-    "Title": "fugit",
-    "Description": "Reactive exuding orchestration",
-    "Email": "colby@oconnell.us",
-    "FullName": "Prof. Asha O'Hara II",
-    "DirectPhone": "(633)016-9289 x161",
-    "FormalName": "Vandervort, Stokes and Veum",
-    "CountryId": 349,
-    "ContactId": 752,
-    "ContactName": "Towne-Anderson",
-    "Retired": 734,
-    "Rank": 140,
-    "ActiveInterests": 289,
+    "Position": "ut",
+    "PersonId": 620,
+    "Mrmrs": "aut",
+    "Firstname": "Etha",
+    "Lastname": "Aufderhar",
+    "MiddleName": "Schoen, Koepp and Tromp",
+    "Title": "aut",
+    "Description": "Organized non-volatile collaboration",
+    "Email": "wilburn.rutherford@strosin.co.uk",
+    "FullName": "Sonya Labadie",
+    "DirectPhone": "(068)103-9933",
+    "FormalName": "McCullough-Adams",
+    "CountryId": 477,
+    "ContactId": 40,
+    "ContactName": "Friesen, Maggio and Schamberger",
+    "Retired": 341,
+    "Rank": 716,
+    "ActiveInterests": 896,
     "ContactDepartment": "",
-    "ContactCountryId": 323,
-    "ContactOrgNr": "613851",
-    "FaxPhone": "551-536-7129 x1113",
-    "MobilePhone": "(433)736-9572",
-    "ContactPhone": "807-582-9285 x37273",
-    "AssociateName": "Rice-Ritchie",
-    "AssociateId": 342,
-    "UsePersonAddress": false,
-    "ContactFax": "quia",
-    "Kanafname": "nobis",
-    "Kanalname": "aut",
-    "Post1": "molestias",
-    "Post2": "sed",
-    "Post3": "est",
-    "EmailName": "douglas_schaefer@cormier.us",
-    "ContactFullName": "Annabel Quigley",
-    "ActiveErpLinks": 756,
-    "TicketPriorityId": 674,
-    "SupportLanguageId": 947,
-    "SupportAssociateId": 781,
+    "ContactCountryId": 86,
+    "ContactOrgNr": "1387391",
+    "FaxPhone": "(193)951-7612 x76229",
+    "MobilePhone": "130.885.1767",
+    "ContactPhone": "1-430-483-9205 x67979",
+    "AssociateName": "Stroman-Pacocha",
+    "AssociateId": 453,
+    "UsePersonAddress": true,
+    "ContactFax": "maiores",
+    "Kanafname": "quis",
+    "Kanalname": "magni",
+    "Post1": "minima",
+    "Post2": "distinctio",
+    "Post3": "veritatis",
+    "EmailName": "jeremy@naderraynor.info",
+    "ContactFullName": "Ophelia Lakin",
+    "ActiveErpLinks": 647,
+    "TicketPriorityId": 854,
+    "SupportLanguageId": 851,
+    "SupportAssociateId": 889,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldLength": 756
       }
     }
   }

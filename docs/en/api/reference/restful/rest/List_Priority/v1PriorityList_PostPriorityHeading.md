@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 943,
-  "Name": "Morar, Berge and Waelchi",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "Rank": 24,
-  "UdListDefinitionId": 218
+  "HeadingId": 469,
+  "Name": "Gleason LLC",
+  "Tooltip": "distinctio",
+  "Deleted": true,
+  "Rank": 123,
+  "UdListDefinitionId": 764
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 564,
-  "Name": "Yundt, Schuppe and Rolfson",
-  "Tooltip": "perferendis",
-  "Deleted": true,
-  "Rank": 873,
-  "UdListDefinitionId": 524,
+  "HeadingId": 639,
+  "Name": "Torphy-Braun",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 406,
+  "UdListDefinitionId": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldLength": 180
     }
   }
 }

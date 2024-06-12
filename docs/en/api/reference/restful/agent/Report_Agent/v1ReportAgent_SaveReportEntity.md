@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 894,
+  "ReportId": 703,
   "ReportCategory": "All",
-  "Description": "Future-proofed local forecast",
+  "Description": "Total fault-tolerant model",
   "ReportLayout": "CalendarMonth",
-  "Name": "Daniel, Effertz and Lind",
-  "AssociateId": 675,
-  "TemplateId": 271,
+  "Name": "Mayer-Wintheiser",
+  "AssociateId": 567,
+  "TemplateId": 736,
   "Published": true
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 673,
+  "ReportId": 961,
   "ReportCategory": "All",
-  "Description": "Vision-oriented mission-critical Graphic Interface",
+  "Description": "Inverse dynamic capability",
   "ReportLayout": "CalendarMonth",
-  "Name": "McGlynn-Morar",
-  "AssociateId": 370,
-  "TemplateId": 218,
+  "Name": "Emmerich Inc and Sons",
+  "AssociateId": 627,
+  "TemplateId": 921,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

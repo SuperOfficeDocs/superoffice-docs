@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "Bailey Group",
-  "Tooltip": "distinctio",
+  "Id": 646,
+  "Name": "Corwin-D'Amore",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 117,
-  "Rank": 494
+  "UdListDefinitionId": 222,
+  "Rank": 37
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 277,
-  "Name": "Turner LLC",
-  "Tooltip": "corporis",
-  "Deleted": false,
-  "UdListDefinitionId": 270,
-  "Rank": 498,
+  "Id": 377,
+  "Name": "Cronin-Muller",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "UdListDefinitionId": 818,
+  "Rank": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 623
     }
   }
 }

@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 398,
-  "Name": "Swift, Jewess and Kreiger",
-  "OrgNr": "992216",
+  "ContactId": 464,
+  "Name": "Nikolaus LLC",
+  "OrgNr": "299256",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "recusandae",
-  "DirectPhone": "475-310-1844",
-  "AssociateId": 354,
-  "CountryId": 33,
-  "EmailAddress": "melba.toy@schumm.uk",
-  "Kananame": "sit",
-  "EmailAddressName": "lorenzo_okuneva@johns.ca",
+  "City": "pariatur",
+  "DirectPhone": "1-646-656-9374 x4409",
+  "AssociateId": 475,
+  "CountryId": 115,
+  "EmailAddress": "pattie_cormier@predovic.biz",
+  "Kananame": "necessitatibus",
+  "EmailAddressName": "ana_wolff@hamill.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "River Wehner",
+  "AssociateFullName": "Axel Oberbrunner DVM",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "sed",
-  "FullName": "Era Terry",
+  "FormattedAddress": "quod",
+  "FullName": "Mr. Marcelo Milford Gerlach",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 705,
-  "Number1": "1379738",
-  "Number2": "995402",
+  "ActiveErpLinks": 327,
+  "Number1": "115402",
+  "Number2": "1333398",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

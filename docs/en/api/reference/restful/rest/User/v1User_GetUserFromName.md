@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 238,
-  "Name": "Schmeler-Konopelski",
-  "Rank": 398,
-  "Tooltip": "ipsam",
+  "AssociateId": 325,
+  "Name": "Rempel-Kertzmann",
+  "Rank": 762,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Walter-Runolfsson",
-      "Description": "Grass-roots multi-state capacity",
+      "Name": "Collins Group",
+      "Description": "Profound 3rd generation hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 943
         }
       }
     },
     {
-      "Name": "Walter-Runolfsson",
-      "Description": "Grass-roots multi-state capacity",
+      "Name": "Collins Group",
+      "Description": "Profound 3rd generation hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 943
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "optio",
-      "Tooltip": "deleniti",
-      "Id": 479,
-      "Rank": 171,
+      "Value": "cupiditate",
+      "Tooltip": "rerum",
+      "Id": 835,
+      "Rank": 152,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldLength": 348
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2019-01-30T12:57:43.2458541+01:00",
-  "Lastlogout": "2004-07-16T12:57:43.2458541+02:00",
-  "EjUserId": 377,
-  "RequestSignature": "quae",
+  "Deleted": true,
+  "Lastlogin": "2004-06-16T04:22:35.7366016+02:00",
+  "Lastlogout": "2024-03-04T04:22:35.7366016+01:00",
+  "EjUserId": 687,
+  "RequestSignature": "non",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "optio",
-      "DisplayValue": "animi",
+      "Value": "quas",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     },
     {
       "Type": null,
-      "Value": "optio",
-      "DisplayValue": "animi",
+      "Value": "quas",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
   ],
-  "UserName": "Larkin, Muller and Brown",
+  "UserName": "Farrell, Moen and Pfeffer",
   "TicketCategories": [
     {
-      "Id": 431,
-      "Name": "Nikolaus, Emmerich and Kihn",
-      "ToolTip": "Nostrum quaerat dolor sequi tenetur dolor.",
+      "Id": 352,
+      "Name": "Christiansen-Kihn",
+      "ToolTip": "Doloremque ea et ipsa voluptatem modi et vel.",
       "Deleted": false,
-      "Rank": 107,
-      "Type": "suscipit",
+      "Rank": 293,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "consequatur",
-      "ColorBlock": 178,
-      "ExtraInfo": "provident",
-      "StyleHint": "dolore",
-      "FullName": "Dr. Alford Kohler I",
+      "IconHint": "dolore",
+      "ColorBlock": 957,
+      "ExtraInfo": "aspernatur",
+      "StyleHint": "totam",
+      "FullName": "Beverly Boyer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 133
         }
       }
     }
   ],
-  "NickName": "Bergstrom, Wuckert and Reichert",
-  "WaitingForApproval": false,
+  "NickName": "Hermann Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "beatae"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "delectus"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "sapiente"
   },
   "PostSaveCommands": [
     {
-      "Name": "Larkin Inc and Sons",
-      "DisplayName": "Harris, Kertzmann and Feil",
-      "Description": "Implemented bifurcated access",
-      "ToolTip": "Enim asperiores.",
+      "Name": "Maggio-Rippin",
+      "DisplayName": "Jerde-Larson",
+      "Description": "Re-engineered incremental paradigm",
+      "ToolTip": "Adipisci necessitatibus officiis odit a doloribus.",
       "Actions": "Implicit",
-      "ActionData": "vitae",
+      "ActionData": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 11
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 259
     }
   }
 }

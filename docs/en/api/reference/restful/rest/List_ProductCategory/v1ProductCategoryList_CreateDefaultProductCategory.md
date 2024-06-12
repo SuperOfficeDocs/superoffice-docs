@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Jenkins, Lockman and Bashirian",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "UdListDefinitionId": 779,
-  "Rank": 750,
+  "Id": 641,
+  "Name": "Gaylord-Romaguera",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 346,
+  "Rank": 170,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 892
     }
   }
 }

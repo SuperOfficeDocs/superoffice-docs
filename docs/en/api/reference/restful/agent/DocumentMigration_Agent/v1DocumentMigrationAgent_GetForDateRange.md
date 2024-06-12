@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 127,
-  "MinDate": "2000-08-24T12:57:33.8523907+02:00",
-  "MaxDate": "2009-08-17T12:57:33.8523907+02:00",
+  "DocumentPluginId": 818,
+  "MinDate": "1998-11-07T04:22:26.6709828+01:00",
+  "MaxDate": "2001-07-20T04:22:26.6709828+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 797,
-  "NumDocumentsAlreadyMigrated": 381,
+  "NumDocumentsOmitted": 503,
+  "NumDocumentsAlreadyMigrated": 734,
   "Documents": [
     {
-      "DocumentId": 985,
-      "ContactId": 860,
-      "PersonId": 534,
-      "SaleId": 432,
-      "ProjectId": 256,
-      "DocTmplId": 64,
-      "AssociateId": 734,
-      "UserGroupId": 324,
-      "VisibleForId": 267
+      "DocumentId": 324,
+      "ContactId": 502,
+      "PersonId": 706,
+      "SaleId": 75,
+      "ProjectId": 189,
+      "DocTmplId": 852,
+      "AssociateId": 220,
+      "UserGroupId": 879,
+      "VisibleForId": 581
     }
   ],
   "Associates": [
     {
-      "AssociateId": 378,
-      "EmailAddress": "llewellyn@swaniawskiheller.us"
+      "AssociateId": 765,
+      "EmailAddress": "francis.kub@wunschgoldner.biz"
     },
     {
-      "AssociateId": 378,
-      "EmailAddress": "llewellyn@swaniawskiheller.us"
+      "AssociateId": 765,
+      "EmailAddress": "francis.kub@wunschgoldner.biz"
     }
   ]
 }

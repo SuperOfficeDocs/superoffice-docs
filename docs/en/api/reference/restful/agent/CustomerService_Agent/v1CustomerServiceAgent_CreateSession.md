@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "voluptas"
+  "RemoteIp": "eos"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "fugiat",
-  "LoginId": 965,
-  "UserId": 33,
+  "Key": "labore",
+  "LoginId": 805,
+  "UserId": 142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 379
     }
   }
 }

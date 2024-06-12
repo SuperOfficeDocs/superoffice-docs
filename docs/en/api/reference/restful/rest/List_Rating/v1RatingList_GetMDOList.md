@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=incidunt
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=in
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Welch, Howe and Bogan",
-    "ToolTip": "Voluptates animi expedita.",
+    "Id": 239,
+    "Name": "Spinka, West and Greenholt",
+    "ToolTip": "Voluptas aut.",
     "Deleted": false,
-    "Rank": 976,
-    "Type": "excepturi",
+    "Rank": 988,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Abbott Inc and Sons",
-        "ToolTip": "Modi et magni id esse porro asperiores amet.",
+        "Id": 358,
+        "Name": "Hammes, Kreiger and Kunde",
+        "ToolTip": "Omnis adipisci qui accusantium.",
         "Deleted": false,
-        "Rank": 745,
-        "Type": "quidem",
+        "Rank": 215,
+        "Type": "consectetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 393,
-        "ExtraInfo": "non",
-        "StyleHint": "consectetur",
-        "FullName": "Cecilia Luettgen DVM",
+        "IconHint": "omnis",
+        "ColorBlock": 657,
+        "ExtraInfo": "dolore",
+        "StyleHint": "laboriosam",
+        "FullName": "Antonio Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 868
+            "FieldType": "System.String",
+            "FieldLength": 59
           }
         }
       }
     ],
-    "IconHint": "ipsum",
-    "ColorBlock": 810,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "molestias",
-    "FullName": "Dr. Ibrahim Ebert",
+    "IconHint": "rerum",
+    "ColorBlock": 277,
+    "ExtraInfo": "qui",
+    "StyleHint": "ut",
+    "FullName": "Dr. Geoffrey Grace Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 90
       }
     }
   }

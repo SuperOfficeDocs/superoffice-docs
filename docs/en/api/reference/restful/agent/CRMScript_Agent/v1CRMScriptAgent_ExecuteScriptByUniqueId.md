@@ -75,10 +75,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "suscipit",
+  "CRMScriptUniqueId": "sit",
   "Parameters": {
-    "Parameters1": "quibusdam",
-    "Parameters2": "dolores"
+    "Parameters1": "autem",
+    "Parameters2": "quia"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"sit"
 ```

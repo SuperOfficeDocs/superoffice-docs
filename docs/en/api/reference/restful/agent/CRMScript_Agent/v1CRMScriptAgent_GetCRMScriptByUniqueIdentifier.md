@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "magnam"
+  "UniqueIdentifier": "odio"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dignissimos",
-  "Name": "Yost Group",
-  "Description": "Object-based incremental strategy",
-  "IncludeId": "eligendi",
-  "Source": "minus",
-  "Registered": "2001-08-26T12:57:33.6180694+02:00",
-  "RegisteredBy": "nam",
-  "Updated": "2020-03-13T12:57:33.6180694+01:00",
-  "UpdatedBy": "et",
-  "Path": "praesentium",
+  "UniqueIdentifier": "inventore",
+  "Name": "Dooley-Ebert",
+  "Description": "Proactive interactive secured line",
+  "IncludeId": "fuga",
+  "Source": "quod",
+  "Registered": "1998-09-14T04:22:26.3090583+02:00",
+  "RegisteredBy": "sint",
+  "Updated": "2018-05-01T04:22:26.3090583+02:00",
+  "UpdatedBy": "ab",
+  "Path": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldType": "System.String",
+      "FieldLength": 532
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 562,
-    "Name": "Wisoky-Veum",
-    "Tooltip": "voluptates",
+    "HeadingId": 115,
+    "Name": "Block, Wyman and Fisher",
+    "Tooltip": "facere",
     "Deleted": false,
-    "Rank": 671,
-    "UdListDefinitionId": 241,
+    "Rank": 1002,
+    "UdListDefinitionId": 507,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldType": "System.String",
+        "FieldLength": 913
       }
     }
   }

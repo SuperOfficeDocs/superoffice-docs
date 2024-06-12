@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Johnson-Bayer",
-    "ToolTip": "Qui id provident facilis.",
-    "Deleted": true,
-    "Rank": 888,
-    "Type": "nulla",
-    "ColorBlock": 649,
-    "IconHint": "sint",
+    "Id": 732,
+    "Name": "Little Inc and Sons",
+    "ToolTip": "Distinctio rem magnam dolore reiciendis est laudantium.",
+    "Deleted": false,
+    "Rank": 537,
+    "Type": "consequuntur",
+    "ColorBlock": 880,
+    "IconHint": "mollitia",
     "Selected": false,
-    "LastChanged": "2022-10-08T12:57:43.2927185+02:00",
+    "LastChanged": "1999-10-19T04:22:35.7834778+02:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "King-Boyle",
-        "ToolTip": "Vel minima nobis eos officiis nulla sunt.",
-        "Deleted": true,
-        "Rank": 801,
-        "Type": "inventore",
-        "ColorBlock": 114,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2017-12-31T12:57:43.2927185+01:00",
+        "Id": 689,
+        "Name": "Rolfson-Kiehn",
+        "ToolTip": "Aut voluptas.",
+        "Deleted": false,
+        "Rank": 475,
+        "Type": "error",
+        "ColorBlock": 606,
+        "IconHint": "natus",
+        "Selected": false,
+        "LastChanged": "2020-04-07T04:22:35.7834778+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "itaque",
+        "ExtraInfo": "facere",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Mrs. Timmy Brooks Gusikowski"
+        "FullName": "Mrs. Zion Foster Crona IV"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "officiis",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Dusty Kerluke Jr."
+    "FullName": "Charley Reinger"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Marquardt LLC",
-    "ToolTip": "Libero eligendi debitis.",
+    "Id": 524,
+    "Name": "Lesch-Robel",
+    "ToolTip": "Dolor ducimus voluptates possimus ut.",
     "Deleted": false,
-    "Rank": 491,
-    "Type": "assumenda",
-    "ColorBlock": 138,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2017-11-21T12:57:43.3083396+01:00",
+    "Rank": 325,
+    "Type": "illum",
+    "ColorBlock": 671,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2000-10-06T04:22:35.7834778+02:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Hagenes LLC",
-        "ToolTip": "Laborum laboriosam et.",
+        "Id": 43,
+        "Name": "Hauck, Schaefer and Gutmann",
+        "ToolTip": "Voluptatem rerum natus.",
         "Deleted": false,
-        "Rank": 976,
-        "Type": "asperiores",
-        "ColorBlock": 861,
-        "IconHint": "nam",
+        "Rank": 107,
+        "Type": "fugiat",
+        "ColorBlock": 912,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2005-04-02T12:57:43.3083396+02:00",
+        "LastChanged": "2017-07-07T04:22:35.7834778+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Bret Schiller",
+        "ExtraInfo": "ut",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Zaria Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 59
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "tempore",
-    "Hidden": true,
-    "FullName": "Adrien Smith",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Prof. Josue Rowe Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldType": "System.String",
+        "FieldLength": 97
       }
     }
   }

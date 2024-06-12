@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 82,
-  "RecurrenceRuleId": 265
+  "MotherId": 421,
+  "RecurrenceRuleId": 449
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 402,
-    "StartDate": "2014-10-26T12:57:32.7584322+01:00",
-    "EndDate": "1999-12-25T12:57:32.7584322+01:00",
+    "AppointmentId": 666,
+    "StartDate": "2001-04-15T04:22:25.6834441+02:00",
+    "EndDate": "2015-07-11T04:22:25.6834441+02:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Mae Nienow",
-    "ContactName": "Braun Inc and Sons",
-    "Description": "Progressive homogeneous application",
-    "PersonFullName": "Araceli Barrows",
-    "PersonId": 288,
-    "ContactId": 605,
-    "ProjectId": 31,
-    "ProjectName": "Quitzon-Torphy",
+    "Task": "sed",
+    "AssociateFullName": "Abdiel Alessia Monahan DVM",
+    "ContactName": "Cole-Reichert",
+    "Description": "Profound mobile database",
+    "PersonFullName": "Brandy Pouros",
+    "PersonId": 769,
+    "ContactId": 294,
+    "ProjectId": 412,
+    "ProjectName": "Hamill-Beer",
     "IsPublished": true,
-    "AssociateId": 912,
-    "ColorIndex": 349,
-    "IsFree": false,
+    "AssociateId": 477,
+    "ColorIndex": 40,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 796,
-    "PriorityName": "Muller Group",
+    "PriorityId": 575,
+    "PriorityName": "Runolfsdottir Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2008-12-14T12:57:32.7584322+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2010-08-04T04:22:25.6834441+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-08-28T12:57:32.7584322+02:00",
-    "RecurringEndDate": "1997-05-12T12:57:32.7584322+02:00",
-    "MotherId": 178,
-    "AssignedBy": 607,
-    "AssignedByFullName": "Yasmin Flo Feil Sr.",
-    "RejectReason": "",
-    "Location": "fuga",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 82,
-    "SaleName": "Mueller Group",
-    "AssociateName": "Haley, Wintheiser and Kirlin",
-    "CreatedDate": "2015-10-18T12:57:32.7584322+02:00",
-    "CreatedBy": "cupiditate",
-    "CreatedByFullName": "Maximus Ortiz",
-    "CreatedByAssociateId": 956,
+    "RecurringStartDate": "2009-02-10T04:22:25.6834441+01:00",
+    "RecurringEndDate": "2022-12-06T04:22:25.6834441+01:00",
+    "MotherId": 249,
+    "AssignedBy": 234,
+    "AssignedByFullName": "Ms. Francesco Elmer Block",
+    "RejectReason": "expedite transparent applications",
+    "Location": "dolore",
+    "AlarmLeadTime": "et",
+    "SaleId": 890,
+    "SaleName": "Thiel, Glover and Stanton",
+    "AssociateName": "Kuhic LLC",
+    "CreatedDate": "2016-03-09T04:22:25.6834441+01:00",
+    "CreatedBy": "exercitationem",
+    "CreatedByFullName": "Roberta Schuppe",
+    "CreatedByAssociateId": 718,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 427,
-    "Title": "consectetur",
-    "Agenda": "velit",
-    "InternalNotes": "aspernatur",
+    "PreferredTZLocation": 484,
+    "Title": "et",
+    "Agenda": "ut",
+    "InternalNotes": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldLength": 131
       }
     }
   }

@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abshire LLC",
-    "Delimiter": "labore",
-    "Flags": "nulla",
-    "TotalItems": 197,
-    "UnreadItems": 51,
+    "Name": "Powlowski-Langworth",
+    "Delimiter": "reiciendis",
+    "Flags": "aut",
+    "TotalItems": 654,
+    "UnreadItems": 660,
     "Subscribed": true,
-    "EmailFolderId": 62,
+    "EmailFolderId": 121,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldLength": 550
       }
     }
   }

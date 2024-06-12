@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Morar, Ziemann and Renner",
-    "Comment": "omnis",
-    "StakeholderRoleId": 550,
-    "CountryId": 148,
-    "PersonId": 653,
-    "EmailDescription": "oleta.cronin@pacocha.uk",
-    "EmailId": 887,
-    "EmailAddress": "mario_labadie@rempel.com",
-    "PhoneId": 419,
-    "ContactName": "Emard-Crooks",
-    "ContactId": 46,
-    "SaleId": 625,
-    "Mrmrs": "soluta",
-    "Firstname": "Rowan",
-    "MiddleName": "Strosin Inc and Sons",
-    "Lastname": "Krajcik",
-    "SaleStakeholderId": 902,
-    "Rank": 47,
-    "Phone": "(649)278-4759 x057",
+    "StakeholderRoleName": "Yundt, Haag and Heidenreich",
+    "Comment": "ut",
+    "StakeholderRoleId": 178,
+    "CountryId": 412,
+    "PersonId": 6,
+    "EmailDescription": "brielle@mckenzie.us",
+    "EmailId": 256,
+    "EmailAddress": "virginie@spencer.biz",
+    "PhoneId": 706,
+    "ContactName": "Fritsch, O'Keefe and Connelly",
+    "ContactId": 397,
+    "SaleId": 545,
+    "Mrmrs": "quia",
+    "Firstname": "Mitchel",
+    "MiddleName": "Predovic-Willms",
+    "Lastname": "Bode",
+    "SaleStakeholderId": 145,
+    "Rank": 114,
+    "Phone": "911.278.7812",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 39
       }
     }
   }

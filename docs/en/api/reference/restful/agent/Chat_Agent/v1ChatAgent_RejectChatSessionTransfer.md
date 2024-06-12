@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 480
+  "ChatSessionId": 190
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 795,
-  "TopicId": 74,
+  "ChatSessionId": 479,
+  "TopicId": 793,
   "User": null,
   "Person": null,
-  "CustomerAlias": "earum",
-  "CustomerHost": "nam",
-  "CustomerName": "Kessler-Reichert",
-  "CustomerEmail": "brandon.mccullough@kertzmanngrant.biz",
-  "CustomerPhone": "1-646-521-1279",
+  "CustomerAlias": "modi",
+  "CustomerHost": "cupiditate",
+  "CustomerName": "Stiedemann-Shields",
+  "CustomerEmail": "don@brekkebayer.us",
+  "CustomerPhone": "122.766.3162 x53094",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Streich, Morar and Hyatt",
+  "CustomerCompanyName": "Huel, Hills and Kiehn",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2000-02-22T12:57:33.3837477+01:00",
-  "WhenStarted": "2017-11-01T12:57:33.3837477+01:00",
-  "WhenEnded": "2021-09-02T12:57:33.3837477+02:00",
-  "WhenIdle": "2015-05-19T12:57:33.3837477+02:00",
-  "WhenFetched": "2018-02-13T12:57:33.3837477+01:00",
-  "SessionKey": "pariatur",
-  "InitialQueuePos": 954,
-  "AlertLevel": 78,
-  "Rank": 455,
+  "FirstMessage": "in",
+  "LastMessage": "accusamus",
+  "WhenRequested": "2004-05-18T04:22:26.1059712+02:00",
+  "WhenStarted": "2007-02-11T04:22:26.1059712+01:00",
+  "WhenEnded": "2007-04-18T04:22:26.1059712+02:00",
+  "WhenIdle": "2008-03-11T04:22:26.1059712+01:00",
+  "WhenFetched": "1999-11-22T04:22:26.1059712+01:00",
+  "SessionKey": "deserunt",
+  "InitialQueuePos": 658,
+  "AlertLevel": 199,
+  "Rank": 995,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 661,
+  "ChatbotIsActive": false,
+  "Rating": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   }
 }

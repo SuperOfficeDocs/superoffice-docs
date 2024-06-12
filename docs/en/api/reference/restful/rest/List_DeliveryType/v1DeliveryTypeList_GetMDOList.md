@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=magnam
+GET /api/v1/List/DeliveryType/MDOItems?query=natus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Ebert-Waelchi",
-    "ToolTip": "Blanditiis deleniti deserunt laboriosam aut.",
-    "Deleted": false,
-    "Rank": 371,
-    "Type": "aut",
+    "Id": 660,
+    "Name": "Stiedemann Group",
+    "ToolTip": "Rerum et voluptatem et.",
+    "Deleted": true,
+    "Rank": 850,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Rosenbaum-Johnson",
-        "ToolTip": "Consequatur ut at rerum nobis hic.",
+        "Id": 179,
+        "Name": "Braun Inc and Sons",
+        "ToolTip": "Est error.",
         "Deleted": false,
-        "Rank": 289,
-        "Type": "aliquid",
+        "Rank": 227,
+        "Type": "corrupti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 649,
-        "ExtraInfo": "amet",
-        "StyleHint": "ipsa",
-        "FullName": "Miss Jovanny Cortez Lind",
+        "IconHint": "nobis",
+        "ColorBlock": 253,
+        "ExtraInfo": "id",
+        "StyleHint": "laborum",
+        "FullName": "Myrtis Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldType": "System.String",
+            "FieldLength": 138
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 732,
+    "IconHint": "optio",
+    "ColorBlock": 278,
     "ExtraInfo": "aliquid",
-    "StyleHint": "quia",
-    "FullName": "Jeromy Koelpin",
+    "StyleHint": "eius",
+    "FullName": "Eleanore Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 601
       }
     }
   }

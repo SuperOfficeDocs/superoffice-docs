@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 659
+  "DashboardId": 500
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 278,
-  "Name": "DuBuque, Turner and Boehm",
-  "Description": "Quality-focused bi-directional local area network",
-  "OwnedByFullName": "Willy Dameon Heidenreich I",
-  "Registered": "2021-01-03T12:57:33.6649334+01:00",
+  "DashboardId": 449,
+  "Name": "Weissnat, Brekke and Jacobs",
+  "Description": "Profit-focused content-based artificial intelligence",
+  "OwnedByFullName": "Rey Flavie Spinka DVM",
+  "Registered": "2010-01-14T04:22:26.3571975+01:00",
   "Tiles": [
     {
-      "Name": "Legros, Konopelski and Botsford",
+      "Name": "Deckow, Schowalter and Reilly",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 713
         }
       }
     },
     {
-      "Name": "Legros, Konopelski and Botsford",
+      "Name": "Deckow, Schowalter and Reilly",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 713
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

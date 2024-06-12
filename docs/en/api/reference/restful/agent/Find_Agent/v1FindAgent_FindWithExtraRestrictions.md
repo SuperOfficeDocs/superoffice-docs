@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "porro",
-  "ProviderName": "Rogahn, Schowalter and Bogan",
-  "StorageKey": "ea",
+  "StorageType": "et",
+  "ProviderName": "Hermiston Inc and Sons",
+  "StorageKey": "veritatis",
   "ExtraRestrictions": [
     {
-      "Name": "Reichert Inc and Sons",
-      "Operator": "aut",
+      "Name": "Mraz-Shields",
+      "Operator": "accusantium",
       "Values": [
-        "et",
-        "repellat"
+        "aut",
+        "aut"
       ],
       "DisplayValues": [
-        "architecto",
-        "ut"
+        "sapiente",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 367,
+      "InterParenthesis": 236,
       "InterOperator": "And",
-      "UniqueHash": 924
+      "UniqueHash": 886
     }
   ],
   "OrderBy": [
     {
-      "Name": "Bashirian, Gerhold and Jaskolski",
+      "Name": "Herman, Vandervort and Lemke",
       "Direction": "ASC"
     },
     {
-      "Name": "Bashirian, Gerhold and Jaskolski",
+      "Name": "Herman, Vandervort and Lemke",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "quasi",
-    "mollitia"
+    "dolores",
+    "vitae"
   ],
-  "PageSize": 205,
-  "PageNumber": 588
+  "PageSize": 853,
+  "PageNumber": 509
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kessler LLC",
-      "DisplayTooltip": "laborum",
-      "DisplayType": "possimus",
+      "DisplayName": "Rutherford-Champlin",
+      "DisplayTooltip": "porro",
+      "DisplayType": "earum",
       "CanOrderBy": false,
-      "Name": "Blick LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Rohan LLC",
+      "Name": "Dickinson, Kris and Crona",
+      "CanRestrictBy": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Brakus Group",
       "IsVisible": false,
-      "ExtraInfo": "enim",
-      "Width": "praesentium",
-      "IconHint": "expedita",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "a",
+      "Width": "et",
+      "IconHint": "dolor",
+      "HeadingIconHint": "facilis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Weissnat LLC",
-      "PrimaryKey": 555,
+      "EntityName": "Wilkinson Inc and Sons",
+      "PrimaryKey": 147,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "aut"
+          "DisplayValue": "placeat",
+          "TooltipHint": "natus",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "aspernatur",
-      "StyleHint": "nulla",
+      "LinkHint": "praesentium",
+      "StyleHint": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 361
         }
       }
     }
   ],
-  "RowCount": 217,
+  "RowCount": 493,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 716
     }
   }
 }

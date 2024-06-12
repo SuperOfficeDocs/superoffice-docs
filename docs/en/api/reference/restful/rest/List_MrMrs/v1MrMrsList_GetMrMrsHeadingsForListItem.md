@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Murphy-Denesik",
-    "ToolTip": "Autem et libero.",
+    "Id": 745,
+    "Name": "Cartwright, Glover and Fisher",
+    "ToolTip": "Ut consequatur rerum vel labore pariatur consequuntur repellat.",
     "Deleted": false,
-    "Rank": 439,
-    "Type": "ea",
-    "ColorBlock": 768,
-    "IconHint": "tenetur",
-    "Selected": true,
-    "LastChanged": "2008-12-22T12:57:43.5114182+01:00",
+    "Rank": 616,
+    "Type": "veniam",
+    "ColorBlock": 14,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "1998-10-11T04:22:35.9872165+02:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Jacobi, Bergnaum and Kris",
-        "ToolTip": "Qui nam.",
+        "Id": 707,
+        "Name": "Simonis Group",
+        "ToolTip": "Nisi ipsam veniam omnis voluptates in odit porro.",
         "Deleted": false,
-        "Rank": 37,
-        "Type": "distinctio",
-        "ColorBlock": 806,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2001-10-21T12:57:43.5114182+02:00",
+        "Rank": 673,
+        "Type": "nostrum",
+        "ColorBlock": 281,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2023-02-20T04:22:35.9872165+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "est",
+        "ExtraInfo": "vel",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Selmer O'Connell IV",
+        "FullName": "Burnice Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 452
+            "FieldType": "System.Int32",
+            "FieldLength": 52
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "et",
+    "ExtraInfo": "et",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Vernie Sanford",
+    "FullName": "Lawson Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldLength": 551
       }
     }
   }

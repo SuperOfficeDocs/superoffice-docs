@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=totam
+GET /api/v1/List/PaymentTerm/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Hoeger-Homenick",
-    "ToolTip": "Earum ipsam consectetur sed.",
-    "Deleted": false,
-    "Rank": 221,
-    "Type": "reiciendis",
+    "Id": 450,
+    "Name": "Wehner Group",
+    "ToolTip": "Aut exercitationem consequuntur similique.",
+    "Deleted": true,
+    "Rank": 631,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Brekke Group",
-        "ToolTip": "Saepe non esse mollitia.",
+        "Id": 262,
+        "Name": "Harber, Kassulke and Crist",
+        "ToolTip": "Odio nisi.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "inventore",
+        "Rank": 655,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nisi",
-        "ColorBlock": 325,
-        "ExtraInfo": "sed",
-        "StyleHint": "ea",
-        "FullName": "Dr. Zetta Mayert III",
+        "IconHint": "ex",
+        "ColorBlock": 781,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "voluptatibus",
+        "FullName": "Eli Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldType": "System.String",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 144,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "perferendis",
-    "FullName": "Prof. Maximus Eli Ratke II",
+    "IconHint": "ab",
+    "ColorBlock": 997,
+    "ExtraInfo": "ab",
+    "StyleHint": "consequuntur",
+    "FullName": "Prof. Aimee Patrick Schowalter III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 559
       }
     }
   }

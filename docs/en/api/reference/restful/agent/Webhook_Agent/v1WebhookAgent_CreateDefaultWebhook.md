@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 134,
-  "Name": "Williamson-Zieme",
+  "WebhookId": 607,
+  "Name": "Hegmann, Murphy and Ondricka",
   "Events": [
-    "unde",
-    "est"
+    "deleniti",
+    "omnis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quos",
+  "Secret": "facilis",
   "State": "Active",
-  "Type": "porro",
+  "Type": "est",
   "Headers": {
-    "Headers1": "quas",
-    "Headers2": "quos"
+    "Headers1": "rerum",
+    "Headers2": "tenetur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-02-22T12:57:35.5399144+01:00",
+  "Registered": "2008-06-10T04:22:28.1475044+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-04-27T12:57:35.5399144+02:00",
+  "Updated": "2013-05-28T04:22:28.1475044+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "gloria_jacobs@nader.us"
+  "ErrorsEmail": "gail_keeling@wilderman.com"
 }
 ```

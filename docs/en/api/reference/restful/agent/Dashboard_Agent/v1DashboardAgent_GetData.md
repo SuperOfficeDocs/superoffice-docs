@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 891,
-  "Restrictions": "et"
+  "DashboardTileId": 43,
+  "Restrictions": "qui"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Hilpert, McCullough and Ledner",
-        "DisplayTooltip": "illo",
-        "DisplayType": "aspernatur",
+        "DisplayName": "Dibbert Group",
+        "DisplayTooltip": "quisquam",
+        "DisplayType": "dolore",
         "CanOrderBy": false,
-        "Name": "Dietrich Group",
+        "Name": "Hackett LLC",
         "CanRestrictBy": true,
-        "RestrictionType": "quo",
-        "RestrictionListName": "Huel-Schowalter",
+        "RestrictionType": "id",
+        "RestrictionListName": "Haley-Smith",
         "IsVisible": true,
-        "ExtraInfo": "similique",
+        "ExtraInfo": "veniam",
         "Width": "sit",
-        "IconHint": "est",
-        "HeadingIconHint": "est"
+        "IconHint": "libero",
+        "HeadingIconHint": "quos"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Hilpert, McCullough and Ledner",
-        "DisplayTooltip": "illo",
-        "DisplayType": "aspernatur",
+        "DisplayName": "Dibbert Group",
+        "DisplayTooltip": "quisquam",
+        "DisplayType": "dolore",
         "CanOrderBy": false,
-        "Name": "Dietrich Group",
+        "Name": "Hackett LLC",
         "CanRestrictBy": true,
-        "RestrictionType": "quo",
-        "RestrictionListName": "Huel-Schowalter",
+        "RestrictionType": "id",
+        "RestrictionListName": "Haley-Smith",
         "IsVisible": true,
-        "ExtraInfo": "similique",
+        "ExtraInfo": "veniam",
         "Width": "sit",
-        "IconHint": "est",
-        "HeadingIconHint": "est"
+        "IconHint": "libero",
+        "HeadingIconHint": "quos"
       }
     ],
     "Result": null

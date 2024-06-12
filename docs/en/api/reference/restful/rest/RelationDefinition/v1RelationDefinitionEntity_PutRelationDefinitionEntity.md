@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 954,
-  "Name": "Harber Inc and Sons",
-  "Tooltip": "et",
-  "PassiveText": "placeat",
-  "Deleted": true,
-  "Rank": 578,
+  "ReldefId": 410,
+  "Name": "Kertzmann-Cummerata",
+  "Tooltip": "distinctio",
+  "PassiveText": "illo",
+  "Deleted": false,
+  "Rank": 754,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 402,
-  "Name": "Breitenberg, McDermott and Stokes",
-  "Tooltip": "unde",
-  "PassiveText": "maiores",
+  "ReldefId": 984,
+  "Name": "Robel, Cummings and Predovic",
+  "Tooltip": "animi",
+  "PassiveText": "nemo",
   "Deleted": false,
-  "Rank": 161,
+  "Rank": 62,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 491
     }
   },
   "_Links": {

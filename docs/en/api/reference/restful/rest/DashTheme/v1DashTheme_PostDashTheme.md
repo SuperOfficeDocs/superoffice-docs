@@ -90,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 374,
-  "Name": "O'Kon, Runolfsson and Mayer",
-  "Config": "recusandae",
-  "Rank": 578,
-  "Client": "repudiandae",
-  "Style": "et"
+  "DashboardThemeId": 751,
+  "Name": "Feest-Tillman",
+  "Config": "officiis",
+  "Rank": 437,
+  "Client": "ullam",
+  "Style": "quasi"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 873,
-  "Name": "Huel-Walsh",
-  "Config": "ipsa",
-  "Rank": 77,
-  "Client": "ipsa",
-  "Style": "at",
+  "DashboardThemeId": 91,
+  "Name": "Sawayn-Runolfsdottir",
+  "Config": "ea",
+  "Rank": 987,
+  "Client": "distinctio",
+  "Style": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 942
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Torphy Inc and Sons",
-    "ToolTip": "Mollitia commodi officiis nostrum aliquid.",
+    "Id": 498,
+    "Name": "Ortiz Inc and Sons",
+    "ToolTip": "Qui quo.",
     "Deleted": false,
-    "Rank": 247,
-    "Type": "non",
-    "ColorBlock": 165,
-    "IconHint": "odio",
+    "Rank": 480,
+    "Type": "dolorem",
+    "ColorBlock": 917,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2008-05-05T12:57:43.2927185+02:00",
+    "LastChanged": "2010-11-15T04:22:35.7834778+01:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Rath, McClure and Feest",
-        "ToolTip": "Facere beatae est neque quod labore.",
+        "Id": 546,
+        "Name": "Ondricka Group",
+        "ToolTip": "Sed sapiente rerum.",
         "Deleted": false,
-        "Rank": 892,
-        "Type": "quas",
-        "ColorBlock": 888,
-        "IconHint": "consequatur",
+        "Rank": 90,
+        "Type": "aliquid",
+        "ColorBlock": 408,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2022-04-13T12:57:43.2927185+02:00",
+        "LastChanged": "2015-09-15T04:22:35.7834778+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "dolor",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Forest Jaskolski DDS"
+        "FullName": "Ms. Chester Hyatt"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "minus",
+    "ExtraInfo": "quos",
+    "StyleHint": "necessitatibus",
     "Hidden": true,
-    "FullName": "Marielle Runte"
+    "FullName": "Dedric Sipes"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Moore-Beier",
-    "ToolTip": "Sit optio ab deserunt in omnis.",
+    "Id": 788,
+    "Name": "Kunde-Raynor",
+    "ToolTip": "Dicta quis ut voluptates deserunt non.",
     "Deleted": false,
-    "Rank": 965,
-    "Type": "consequuntur",
-    "ColorBlock": 525,
-    "IconHint": "doloremque",
+    "Rank": 853,
+    "Type": "porro",
+    "ColorBlock": 716,
+    "IconHint": "odio",
     "Selected": true,
-    "LastChanged": "1997-10-17T12:57:43.2927185+02:00",
+    "LastChanged": "2007-03-14T04:22:35.7834778+01:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Brekke, Bednar and Grady",
-        "ToolTip": "Dolor velit tempora exercitationem iure sit delectus corporis.",
-        "Deleted": false,
-        "Rank": 779,
-        "Type": "sed",
-        "ColorBlock": 768,
-        "IconHint": "maxime",
-        "Selected": true,
-        "LastChanged": "2009-11-05T12:57:43.2927185+01:00",
+        "Id": 366,
+        "Name": "Jacobi Inc and Sons",
+        "ToolTip": "Omnis quia tempore nobis itaque.",
+        "Deleted": true,
+        "Rank": 173,
+        "Type": "dolorum",
+        "ColorBlock": 810,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2013-12-22T04:22:35.7834778+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "aut",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Adolfo Schinner",
+        "FullName": "Jakayla Pinkie Bogan IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "rerum",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Mr. Schuyler German Swaniawski",
+    "FullName": "Katlynn Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 820
       }
     }
   }

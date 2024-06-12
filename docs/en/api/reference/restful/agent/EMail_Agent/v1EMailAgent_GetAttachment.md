@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 664,
-  "AttachmentId": "consequuntur"
+  "MessageServerId": 764,
+  "AttachmentId": "ratione"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced object-oriented synergy",
-  "Filename": "mollitia",
-  "Size": 321,
-  "Type": "nam",
-  "Encoding": "quas",
-  "Id": "voluptatibus",
-  "Disposition": "fugiat",
+  "Description": "User-friendly regional collaboration",
+  "Filename": "consequuntur",
+  "Size": 753,
+  "Type": "sapiente",
+  "Encoding": "voluptatibus",
+  "Id": "quia",
+  "Disposition": "inventore",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 729
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99,
-  "Name": "Sipes Group",
-  "Tooltip": "repellendus",
+  "Id": 8,
+  "Name": "Moore LLC",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 156,
-  "Rank": 25,
+  "UdListDefinitionId": 501,
+  "Rank": 958,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldLength": 411
     }
   }
 }

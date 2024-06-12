@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 556,
-  "Name": "Bechtelar, Graham and Flatley",
+  "ScreenChooserId": 965,
+  "Name": "Morar LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "vel",
-  "Source": "rem",
-  "Registered": "2014-07-20T12:57:43.0892086+02:00",
-  "RegisteredAssociateId": 978,
-  "Updated": "2000-01-06T12:57:43.0892086+01:00",
-  "UpdatedAssociateId": 239
+  "UniqueIdentifier": "dolor",
+  "Source": "eveniet",
+  "Registered": "2020-01-19T04:22:35.595979+01:00",
+  "RegisteredAssociateId": 143,
+  "Updated": "2009-06-23T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 191
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 520,
-  "Name": "Rempel-Hamill",
+  "ScreenChooserId": 475,
+  "Name": "Lindgren, Bradtke and Bashirian",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "corrupti",
-  "Source": "ad",
-  "Registered": "2017-06-03T12:57:43.0892086+02:00",
-  "RegisteredAssociateId": 149,
-  "Updated": "2024-03-29T12:57:43.0892086+01:00",
-  "UpdatedAssociateId": 761,
+  "UniqueIdentifier": "illum",
+  "Source": "in",
+  "Registered": "2009-03-23T04:22:35.595979+01:00",
+  "RegisteredAssociateId": 348,
+  "Updated": "2012-04-06T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 94,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 466
     }
   },
   "_Links": {

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "nemo",
-    "DisplayValue": "et",
-    "DisplayDescription": "Horizontal methodical product",
+    "ERPQuoteListItemKey": "omnis",
+    "DisplayValue": "repellat",
+    "DisplayDescription": "Pre-emptive leading edge moratorium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 147
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "nemo",
-    "DisplayValue": "et",
-    "DisplayDescription": "Horizontal methodical product",
+    "ERPQuoteListItemKey": "omnis",
+    "DisplayValue": "repellat",
+    "DisplayDescription": "Pre-emptive leading edge moratorium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 147
       }
     }
   }

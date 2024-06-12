@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Terry Group",
-    "ToolTip": "Velit et nesciunt recusandae.",
+    "Id": 424,
+    "Name": "Auer, Yundt and Kunze",
+    "ToolTip": "Eos odio.",
     "Deleted": false,
-    "Rank": 283,
-    "Type": "sed",
-    "ColorBlock": 490,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "2006-05-31T12:57:43.6207681+02:00",
+    "Rank": 624,
+    "Type": "optio",
+    "ColorBlock": 713,
+    "IconHint": "optio",
+    "Selected": true,
+    "LastChanged": "2002-07-09T04:22:36.0809665+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Flatley Inc and Sons",
-        "ToolTip": "Deserunt commodi.",
+        "Id": 217,
+        "Name": "Hane, Borer and Ankunding",
+        "ToolTip": "Quidem porro vel non delectus sed et.",
         "Deleted": true,
-        "Rank": 460,
-        "Type": "rem",
-        "ColorBlock": 789,
-        "IconHint": "omnis",
+        "Rank": 346,
+        "Type": "ratione",
+        "ColorBlock": 659,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2007-10-03T12:57:43.6207681+02:00",
+        "LastChanged": "2015-08-24T04:22:36.0809665+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Prof. Johann Ratke",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Rylan Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 953
+            "FieldLength": 379
           }
         }
       }
     ],
     "ExtraInfo": "porro",
-    "StyleHint": "quia",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Jo Dietrich PhD",
+    "FullName": "Tate Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 491
       }
     }
   }

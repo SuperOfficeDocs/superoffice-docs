@@ -93,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 861,
-  "Name": "Ryan, McLaughlin and Zulauf",
-  "Config": "occaecati",
-  "Rank": 891,
-  "Client": "itaque",
-  "Style": "quidem"
+  "DashboardThemeId": 487,
+  "Name": "O'Conner-Koelpin",
+  "Config": "explicabo",
+  "Rank": 67,
+  "Client": "accusamus",
+  "Style": "nihil"
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 948,
-  "Name": "Stokes Inc and Sons",
-  "Config": "provident",
-  "Rank": 224,
-  "Client": "doloribus",
-  "Style": "qui",
+  "DashboardThemeId": 833,
+  "Name": "Bogan Inc and Sons",
+  "Config": "quasi",
+  "Rank": 75,
+  "Client": "eos",
+  "Style": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   },
   "_Links": {

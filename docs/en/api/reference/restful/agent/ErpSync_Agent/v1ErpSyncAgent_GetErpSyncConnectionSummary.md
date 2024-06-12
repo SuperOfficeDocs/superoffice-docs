@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 825
+  "ErpSyncConnectionId": 109
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Feest LLC",
-  "DisplayDescription": "Quality-focused exuding productivity",
+  "DisplayName": "O'Conner, Lubowitz and Marvin",
+  "DisplayDescription": "Function-based homogeneous focus group",
   "Active": false,
   "Deleted": true,
-  "LastSync": "2002-09-01T12:57:33.9930117+02:00",
+  "LastSync": "2005-05-18T04:22:26.7973501+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "id",
-      "Mappings": "sint",
+      "Defaults": "sit",
+      "Mappings": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "id",
-      "Mappings": "sint",
+      "Defaults": "sit",
+      "Mappings": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

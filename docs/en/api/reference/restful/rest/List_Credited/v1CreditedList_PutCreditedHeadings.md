@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 933,
-    "Name": "Stehr-Wintheiser",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 37,
-    "UdListDefinitionId": 843
+    "HeadingId": 651,
+    "Name": "Nitzsche Inc and Sons",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 779,
+    "UdListDefinitionId": 989
   },
   {
-    "HeadingId": 933,
-    "Name": "Stehr-Wintheiser",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 37,
-    "UdListDefinitionId": 843
+    "HeadingId": 651,
+    "Name": "Nitzsche Inc and Sons",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 779,
+    "UdListDefinitionId": 989
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 49,
-    "Name": "Rice-Moen",
-    "Tooltip": "aut",
+    "HeadingId": 983,
+    "Name": "Cruickshank, Baumbach and Pfeffer",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 322,
-    "UdListDefinitionId": 101,
+    "Rank": 419,
+    "UdListDefinitionId": 238,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 512
       }
     }
   }

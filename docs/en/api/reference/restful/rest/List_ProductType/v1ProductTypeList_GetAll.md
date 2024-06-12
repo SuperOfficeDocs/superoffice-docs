@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Paucek Inc and Sons",
-    "Tooltip": "unde",
+    "Id": 115,
+    "Name": "Ryan LLC",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 214,
-    "Rank": 677,
+    "UdListDefinitionId": 626,
+    "Rank": 636,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

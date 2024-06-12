@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "aspernatur",
+  "CRMScriptUniqueId": "ipsum",
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "qui",
-    "InputValues2": "sit"
+    "InputValues1": "dolorum",
+    "InputValues2": "excepturi"
   },
   "BlockExecution": false,
-  "NavigateTo": "enim",
-  "Message": "quos",
-  "ShowDialog": "earum",
+  "NavigateTo": "et",
+  "Message": "molestiae",
+  "ShowDialog": "facilis",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "dolor"
+    "OutputValues1": "nemo",
+    "OutputValues2": "dolorem"
   },
   "StateValues": {
-    "StateValues1": "nihil",
-    "StateValues2": "quia"
+    "StateValues1": "ut",
+    "StateValues2": "odio"
   },
-  "Exception": "labore",
+  "Exception": "necessitatibus",
   "ParserValues": {
-    "ParserValues1": "blanditiis",
-    "ParserValues2": "minima"
+    "ParserValues1": "aut",
+    "ParserValues2": "quo"
   },
   "CgiVariables": {
-    "CgiVariables1": "sit",
-    "CgiVariables2": "aliquid"
+    "CgiVariables1": "aspernatur",
+    "CgiVariables2": "ipsam"
   },
-  "CgiContent": "similique",
+  "CgiContent": "eligendi",
   "Headers": {
-    "Headers1": "nobis",
-    "Headers2": "consequatur"
+    "Headers1": "expedita",
+    "Headers2": "quasi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 634
     }
   }
 }

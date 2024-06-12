@@ -86,21 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eaque",
+  "odata.nextLink": "cumque",
   "value": [
     {
-      "PrimaryKey": 127,
+      "PrimaryKey": 8602,
       "EntityName": "sale",
-      "saleId": 127,
-      "contactId": 2445,
-      "name": "Johnson-Fay"
+      "saleId": 8602,
+      "contactId": 2583,
+      "name": "Weissnat-Aufderhar"
     },
     {
-      "PrimaryKey": 5001,
+      "PrimaryKey": 3725,
       "EntityName": "sale",
-      "saleId": 5001,
-      "contactId": 7582,
-      "name": "Legros, Heidenreich and Boyle"
+      "saleId": 3725,
+      "contactId": 8255,
+      "name": "Will, Keebler and Heathcote"
     }
   ]
 }

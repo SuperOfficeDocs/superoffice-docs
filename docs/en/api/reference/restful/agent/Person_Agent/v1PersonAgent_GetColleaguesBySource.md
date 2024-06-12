@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 818
+  "Count": 770
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 92,
-    "Mrmrs": "atque",
-    "Firstname": "Lee",
-    "Lastname": "Jerde",
-    "MiddleName": "Boyle, Konopelski and Schimmel",
-    "Title": "hic",
-    "Description": "Organized analyzing core",
-    "Email": "anderson@brekkekshlerin.info",
-    "FullName": "Davin Bednar",
-    "DirectPhone": "050-692-4286",
-    "FormalName": "Treutel LLC",
-    "CountryId": 689,
-    "ContactId": 627,
-    "ContactName": "Terry, Bernhard and Mueller",
-    "Retired": 550,
-    "Rank": 484,
-    "ActiveInterests": 814,
+    "Position": "eveniet",
+    "PersonId": 904,
+    "Mrmrs": "fugiat",
+    "Firstname": "Jacinthe",
+    "Lastname": "Simonis",
+    "MiddleName": "Kihn Group",
+    "Title": "magnam",
+    "Description": "Inverse bifurcated flexibility",
+    "Email": "jerome.brekke@kulas.uk",
+    "FullName": "Dr. Eloy Belle Kulas II",
+    "DirectPhone": "193.642.7444",
+    "FormalName": "Hilpert LLC",
+    "CountryId": 356,
+    "ContactId": 729,
+    "ContactName": "Padberg, Hartmann and Considine",
+    "Retired": 74,
+    "Rank": 182,
+    "ActiveInterests": 800,
     "ContactDepartment": "",
-    "ContactCountryId": 6,
-    "ContactOrgNr": "934190",
-    "FaxPhone": "1-110-985-8821",
-    "MobilePhone": "917-622-2164",
-    "ContactPhone": "027.653.1988",
-    "AssociateName": "Streich-Jerde",
-    "AssociateId": 350,
+    "ContactCountryId": 198,
+    "ContactOrgNr": "241735",
+    "FaxPhone": "443-904-4660 x905",
+    "MobilePhone": "985.459.1898 x7440",
+    "ContactPhone": "1-484-202-0657 x249",
+    "AssociateName": "Kihn, Reilly and Orn",
+    "AssociateId": 598,
     "UsePersonAddress": true,
-    "ContactFax": "repellat",
-    "Kanafname": "voluptates",
-    "Kanalname": "vel",
-    "Post1": "exercitationem",
-    "Post2": "hic",
-    "Post3": "ut",
-    "EmailName": "natalie@dooley.us",
-    "ContactFullName": "Mrs. Gwendolyn Antwan Connelly MD",
-    "ActiveErpLinks": 483,
-    "TicketPriorityId": 902,
-    "SupportLanguageId": 169,
-    "SupportAssociateId": 581,
+    "ContactFax": "minima",
+    "Kanafname": "est",
+    "Kanalname": "sit",
+    "Post1": "ipsam",
+    "Post2": "nesciunt",
+    "Post3": "maiores",
+    "EmailName": "edgardo.baumbach@dietrich.com",
+    "ContactFullName": "Kristy Lemke",
+    "ActiveErpLinks": 624,
+    "TicketPriorityId": 270,
+    "SupportLanguageId": 860,
+    "SupportAssociateId": 619,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 648
       }
     }
   }

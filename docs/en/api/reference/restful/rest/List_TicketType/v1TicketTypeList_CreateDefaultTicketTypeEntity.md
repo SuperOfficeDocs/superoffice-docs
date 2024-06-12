@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,38 +81,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 577,
-  "Name": "Sipes, Brown and Little",
-  "Rank": 404,
-  "Tooltip": "iure",
-  "Icon": "ducimus",
-  "DefaultTicketStatus": 596,
+  "TicketTypeId": 372,
+  "Name": "Macejkovic LLC",
+  "Rank": 541,
+  "Tooltip": "eum",
+  "Icon": "commodi",
+  "DefaultTicketStatus": 817,
   "TicketStatuses": [
-    756,
-    775
+    40,
+    373
   ],
-  "DefaultTicketPriority": 117,
+  "DefaultTicketPriority": 994,
   "TicketPriorities": [
-    595,
-    888
+    454,
+    817
   ],
-  "ReplyTemplate": 618,
+  "ReplyTemplate": 970,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    760,
-    251
+    150,
+    836
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

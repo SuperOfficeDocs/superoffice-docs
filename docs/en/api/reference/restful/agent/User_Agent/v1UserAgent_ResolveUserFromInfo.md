@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 354,
-  "PersonName": "Reilly LLC",
+  "ContactId": 57,
+  "PersonName": "Zieme, Walsh and Zulauf",
   "PhoneNumbers": [
-    "138002",
-    "451245"
+    "764733",
+    "1073606"
   ],
   "Emails": [
-    "bernita@kautzer.uk",
-    "edwardo@bechtelar.biz"
+    "linda@kautzergrimes.uk",
+    "reese_welch@wisozk.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

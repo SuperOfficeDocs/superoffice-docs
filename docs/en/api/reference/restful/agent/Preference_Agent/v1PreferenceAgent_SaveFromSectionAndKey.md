@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "consequuntur",
-  "Key": "omnis",
+  "Section": "dolorum",
+  "Key": "pariatur",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 385,
-  "Section": "atque",
-  "Key": "voluptates",
-  "Name": "Fahey-Schiller",
+  "PrefDescId": 489,
+  "Section": "quisquam",
+  "Key": "voluptas",
+  "Name": "Douglas Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented 4th generation structure",
+  "Description": "Reverse-engineered needs-based intranet",
   "IsBuiltin": false,
-  "TableName": "Abshire-Schneider",
-  "UserDefinedListId": 469,
-  "Rank": 722,
-  "SubGroup": "mollitia",
-  "MinLevel": 679,
-  "MaxValue": 8,
-  "MinValue": 961,
-  "RequiredLicense": "necessitatibus",
+  "TableName": "Hahn LLC",
+  "UserDefinedListId": 621,
+  "Rank": 323,
+  "SubGroup": "aut",
+  "MinLevel": 572,
+  "MaxValue": 819,
+  "MinValue": 193,
+  "RequiredLicense": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   }
 }

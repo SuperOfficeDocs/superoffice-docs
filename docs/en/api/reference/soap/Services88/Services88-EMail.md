@@ -1448,6 +1448,7 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="Consents" nillable="true" type="q137:ArrayOfConsentInfo" />
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q138:ArrayOfstring" xmlns:q138="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
+              <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q137:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q137:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q137:StringDictionary" />

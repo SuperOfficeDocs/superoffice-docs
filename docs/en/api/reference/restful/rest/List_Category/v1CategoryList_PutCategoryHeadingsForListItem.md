@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Russel, Koss and D'Amore",
-    "ToolTip": "Et unde vel.",
+    "Id": 166,
+    "Name": "Goodwin-Bins",
+    "ToolTip": "Voluptatibus vel sed illum a vel iste.",
     "Deleted": true,
-    "Rank": 12,
-    "Type": "exercitationem",
-    "ColorBlock": 637,
-    "IconHint": "et",
+    "Rank": 417,
+    "Type": "sapiente",
+    "ColorBlock": 977,
+    "IconHint": "eveniet",
     "Selected": true,
-    "LastChanged": "2008-06-25T12:57:43.3395828+02:00",
+    "LastChanged": "2002-06-18T04:22:35.830971+02:00",
     "ChildItems": [
       {
-        "Id": 507,
-        "Name": "Volkman Inc and Sons",
-        "ToolTip": "Aut ratione tenetur explicabo error illum.",
-        "Deleted": false,
-        "Rank": 392,
-        "Type": "quia",
-        "ColorBlock": 302,
-        "IconHint": "incidunt",
+        "Id": 849,
+        "Name": "Ratke, Crist and Murray",
+        "ToolTip": "Illum distinctio quia quos id perspiciatis magni.",
+        "Deleted": true,
+        "Rank": 554,
+        "Type": "sint",
+        "ColorBlock": 654,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2023-08-28T12:57:43.3395828+02:00",
+        "LastChanged": "2022-10-17T04:22:35.830971+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "itaque",
+        "ExtraInfo": "velit",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Billy Veum"
+        "FullName": "Johnpaul Casper Rowe IV"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "rerum",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Ms. Johnny Dooley I"
+    "FullName": "Wilbert Durgan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Grady, Price and Hermann",
-    "ToolTip": "Magnam ut sed natus.",
+    "Id": 238,
+    "Name": "Nitzsche Group",
+    "ToolTip": "Atque voluptate voluptatem velit enim.",
     "Deleted": true,
-    "Rank": 36,
-    "Type": "voluptatem",
-    "ColorBlock": 504,
-    "IconHint": "blanditiis",
-    "Selected": false,
-    "LastChanged": "2018-03-03T12:57:43.3395828+01:00",
+    "Rank": 743,
+    "Type": "perspiciatis",
+    "ColorBlock": 472,
+    "IconHint": "eveniet",
+    "Selected": true,
+    "LastChanged": "2013-07-19T04:22:35.830971+02:00",
     "ChildItems": [
       {
-        "Id": 869,
-        "Name": "Donnelly-Pollich",
-        "ToolTip": "Minus et culpa.",
+        "Id": 408,
+        "Name": "Zieme-Goyette",
+        "ToolTip": "Sint maxime iste rerum omnis dolorum.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "et",
-        "ColorBlock": 19,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "1999-07-21T12:57:43.3395828+02:00",
+        "Rank": 808,
+        "Type": "explicabo",
+        "ColorBlock": 521,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2009-12-14T04:22:35.830971+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "quia",
+        "ExtraInfo": "omnis",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Dr. Renee Kohler V",
+        "FullName": "Ms. Shemar Eloy Fadel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 888
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "fuga",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Miss Sabina Carroll",
+    "FullName": "Kobe Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

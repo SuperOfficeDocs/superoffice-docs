@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# ticket\_type Table (530)
+# ticket\_type Table (532)
 
 A ticket (request) type
 
@@ -31,6 +31,11 @@ A ticket (request) type
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |is\_default|Is this Ticket Type marked as default|Bool|&#x25CF;|
+|show\_in\_new|Enables this request type to be accessible in +New in top bar|Bool| |
+|exclude\_signature|Do not insert user signature automatically|Bool| |
+|exclude\_email\_recipients|Create request without initially having to send outbound e-mail|Bool| |
+|external\_as\_default|Ability to set external access level for this request type|Bool| |
+|visible\_for\_groups|Array of references to the visible for groups|FKArray|&#x25CF;|
 
 
 ![ticket_type table relationship diagram](./media/ticket_type.png)
@@ -46,6 +51,7 @@ A ticket (request) type
 |default\_status |FK |Index |
 |default\_priority |FK |Index |
 |reply\_template |FK |Index |
+|visible\_for\_groups |FKArray |Full text |
 
 ## Relationships
 
@@ -60,6 +66,7 @@ A ticket (request) type
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 |[ticket\_type\_priority](ticket-type-priority.md)  |Link table defining what Priorities are relevant to a particular Ticket type |
 |[ticket\_type\_status](ticket-type-status.md)  |Link table defining what Statuses are relevant to a particular Ticket type |
+|[UserGroup](usergroup.md)  |Secondary user groups |
 
 
 ## Replication Flags

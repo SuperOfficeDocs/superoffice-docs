@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 764,
-  "Caption": "architecto",
-  "Description": "Integrated full-range utilisation",
-  "ChartName": "Weissnat, Herman and Lockman",
-  "ChartId": "et",
+  "DashboardTileId": 374,
+  "Caption": "est",
+  "Description": "Self-enabling bandwidth-monitored infrastructure",
+  "ChartName": "Skiles-Friesen",
+  "ChartId": "aliquam",
   "IsDefault": false,
-  "AssociateId": 416,
-  "GroupId": 937,
-  "SelectionId": 908,
-  "Config": "harum",
+  "AssociateId": 808,
+  "GroupId": 246,
+  "SelectionId": 900,
+  "Config": "voluptatem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Veum Group",
-      "Description": "Sharable local strategy",
+      "Name": "Gulgowski, Cronin and Mohr",
+      "Description": "Open-source exuding functionalities",
       "Type": "Boolean",
-      "ListName": "Miller, Ratke and Nolan",
+      "ListName": "McLaughlin-Bernhard",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "rerum",
-      "DefaultDataOption": false,
+      "Value": "eum",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 373
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 584,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     },
     {
-      "VisibleId": 584,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 175
     }
   }
 }

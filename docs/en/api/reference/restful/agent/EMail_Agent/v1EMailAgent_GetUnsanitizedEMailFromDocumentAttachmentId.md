@@ -105,16 +105,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 110,
+  "DocId": 166,
   "AttachmentIds": [
-    "voluptate",
-    "ipsum"
+    "nulla",
+    "quis"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 140,
-      "ContactName": "Mayer, Friesen and Lehner",
-      "PersonId": 878,
-      "PersonName": "Collins, Zieme and Marks",
-      "AssociateId": 651,
-      "Address": "nobis",
-      "EmailId": 489,
+      "ContactId": 317,
+      "ContactName": "Medhurst-Dach",
+      "PersonId": 118,
+      "PersonName": "Morar-Herzog",
+      "AssociateId": 468,
+      "Address": "adipisci",
+      "EmailId": 98,
       "DuplicatePersonIds": [
-        206,
-        91
+        907,
+        162
       ],
-      "Name": "Schmeler-Altenwerth",
+      "Name": "McKenzie-Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 884
+          "FieldType": "System.Int32",
+          "FieldLength": 278
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 800,
-      "ContactName": "Gibson, Jacobi and Rolfson",
-      "PersonId": 597,
-      "PersonName": "Blanda, Harber and Trantow",
-      "AssociateId": 381,
-      "Address": "repellat",
-      "EmailId": 83,
+      "ContactId": 57,
+      "ContactName": "Sanford-Bogisich",
+      "PersonId": 944,
+      "PersonName": "Kuhlman-Bernhard",
+      "AssociateId": 622,
+      "Address": "laborum",
+      "EmailId": 745,
       "DuplicatePersonIds": [
-        22,
-        690
+        900,
+        271
       ],
-      "Name": "Metz-Waelchi",
+      "Name": "Langworth, Balistreri and Hammes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldLength": 453
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 776,
-      "ContactName": "Lehner, Jacobs and Lind",
+      "ContactId": 517,
+      "ContactName": "D'Amore-Kunze",
       "PersonId": 394,
-      "PersonName": "Ziemann, Hegmann and Osinski",
-      "AssociateId": 672,
-      "Address": "quis",
-      "EmailId": 342,
+      "PersonName": "Wehner-Casper",
+      "AssociateId": 284,
+      "Address": "fugit",
+      "EmailId": 680,
       "DuplicatePersonIds": [
-        860,
-        669
+        386,
+        900
       ],
-      "Name": "Rutherford-Batz",
+      "Name": "Lowe-Torphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldType": "System.String",
+          "FieldLength": 944
         }
       }
     }
   ],
-  "Subject": "ipsum",
-  "HTMLBody": "ut",
+  "Subject": "ut",
+  "HTMLBody": "mollitia",
   "From": null,
-  "Sent": "2013-04-10T12:57:33.9617687+02:00",
-  "Size": 512,
+  "Sent": "2016-12-11T04:22:26.7647342+01:00",
+  "Size": 473,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nihil",
-  "PlainBody": "rerum",
+  "MessageID": "itaque",
+  "PlainBody": "molestiae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 223,
+  "ServerId": 137,
   "Attachments": [
     {
-      "Description": "Horizontal empowering superstructure",
-      "Filename": "soluta",
-      "Size": 290,
-      "Type": "iusto",
-      "Encoding": "nostrum",
-      "Id": "possimus",
-      "Disposition": "omnis",
+      "Description": "Automated tertiary contingency",
+      "Filename": "perferendis",
+      "Size": 907,
+      "Type": "commodi",
+      "Encoding": "amet",
+      "Id": "alias",
+      "Disposition": "sed",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,58 +225,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldLength": 261
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Volkman Group",
+      "Name": "Grimes LLC",
       "Values": [
-        "beatae",
-        "possimus"
+        "quas",
+        "porro"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     },
     {
-      "Name": "Volkman Group",
+      "Name": "Grimes LLC",
       "Values": [
-        "beatae",
-        "possimus"
+        "quas",
+        "porro"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     }
   ],
-  "FolderName": "Hilpert, Kertzmann and Barrows",
-  "EmailItemId": 479,
-  "AccountId": 502,
-  "ReceivedAt": "2014-01-21T12:57:33.9617687+01:00",
+  "FolderName": "Lynch-Schaden",
+  "EmailItemId": 974,
+  "AccountId": 436,
+  "ReceivedAt": "2018-12-12T04:22:26.7647342+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-04-09T12:57:33.9617687+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2017-09-17T04:22:26.7647342+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   }
 }

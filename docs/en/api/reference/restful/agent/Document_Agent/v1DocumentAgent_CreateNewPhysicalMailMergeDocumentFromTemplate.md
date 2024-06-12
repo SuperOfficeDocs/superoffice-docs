@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 558,
-  "UiCulture": "iusto"
+  "DocumentId": 315,
+  "UiCulture": "dolorem"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 514,
+  "DocumentId": 689,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "vel",
-  "Header": "architecto",
-  "Name": "Hyatt, Towne and Stark",
-  "OurRef": "itaque",
-  "YourRef": "aliquam",
-  "CreatedDate": "2019-03-30T12:57:33.7742835+01:00",
-  "UpdatedDate": "2006-12-22T12:57:33.7742835+01:00",
-  "Description": "Customer-focused motivating matrix",
+  "Attention": "eos",
+  "Header": "et",
+  "Name": "Franecki-Schinner",
+  "OurRef": "autem",
+  "YourRef": "fuga",
+  "CreatedDate": "2021-01-09T04:22:26.5928617+01:00",
+  "UpdatedDate": "1998-02-18T04:22:26.5928617+01:00",
+  "Description": "Re-contextualized directional synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-07-22T12:57:33.7742835+02:00",
-  "ExternalRef": "et",
+  "Date": "1999-02-09T04:22:26.5928617+01:00",
+  "ExternalRef": "animi",
   "Completed": "Completed",
-  "ActiveLinks": 57,
+  "ActiveLinks": 344,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Emard Inc and Sons",
-      "Id": 857,
-      "Description": "De-engineered object-oriented artificial intelligence",
-      "ExtraInfo": "et",
-      "LinkId": 999,
+      "EntityName": "Pollich-Baumbach",
+      "Id": 423,
+      "Description": "Virtual object-oriented benchmark",
+      "ExtraInfo": "fuga",
+      "LinkId": 509,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldType": "System.String",
+          "FieldLength": 994
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 807,
-  "Snum": 281,
+  "SuggestedDocumentId": 258,
+  "Snum": 266,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Kariane Emerson Franecki",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mrs. Ernesto Marge Willms",
+    "SuperOffice:2": "1742430882"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "2016-06-20T12:57:33.7742835+02:00",
-  "PublishTo": "2011-12-30T12:57:33.7742835+01:00",
-  "PublishFrom": "2016-09-29T12:57:33.7742835+02:00",
+  "PublishEventDate": "2007-05-29T04:22:26.5928617+02:00",
+  "PublishTo": "2001-08-02T04:22:26.5928617+02:00",
+  "PublishFrom": "2024-04-16T04:22:26.5928617+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 34,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldType": "System.String",
+          "FieldLength": 169
         }
       }
     },
     {
-      "VisibleId": 34,
+      "VisibleId": 721,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldType": "System.String",
+          "FieldLength": 169
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   }
 }

@@ -75,7 +75,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "eius",
+  "Filename": "quas",
   "DataStream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eligendi"
+"qui"
 ```

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Gusikowski Inc and Sons"
+  "UserName": "Carroll-Lebsack"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 484,
-  "Name": "Casper-Spencer",
-  "Rank": 116,
-  "Tooltip": "quia",
+  "AssociateId": 572,
+  "Name": "Beier, Casper and Harris",
+  "Rank": 476,
+  "Tooltip": "non",
   "LicenseOwners": [
     {
-      "Name": "Hessel-Connelly",
-      "Description": "Horizontal asynchronous throughput",
+      "Name": "Rippin, Rau and Considine",
+      "Description": "Robust executive algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 932
         }
       }
     },
     {
-      "Name": "Hessel-Connelly",
-      "Description": "Horizontal asynchronous throughput",
+      "Name": "Rippin, Rau and Considine",
+      "Description": "Robust executive algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 932
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "et",
-      "Id": 102,
-      "Rank": 255,
+      "Value": "natus",
+      "Tooltip": "velit",
+      "Id": 479,
+      "Rank": 342,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 321
+          "FieldType": "System.Int32",
+          "FieldLength": 664
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2010-06-10T12:57:35.477429+02:00",
-  "Lastlogout": "2011-11-29T12:57:35.477429+01:00",
-  "EjUserId": 604,
-  "RequestSignature": "earum",
+  "Deleted": false,
+  "Lastlogin": "2002-06-15T04:22:28.1006289+02:00",
+  "Lastlogout": "2005-12-01T04:22:28.1006289+01:00",
+  "EjUserId": 644,
+  "RequestSignature": "nam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sit",
-      "DisplayValue": "asperiores",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "sit",
-      "DisplayValue": "asperiores",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
-        }
-      }
-    }
-  ],
-  "UserName": "Lowe, Schmitt and Spinka",
-  "TicketCategories": [
-    {
-      "Id": 280,
-      "Name": "Bayer Inc and Sons",
-      "ToolTip": "Similique dolores qui culpa asperiores impedit.",
-      "Deleted": false,
-      "Rank": 181,
-      "Type": "voluptatum",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "sit",
-      "ColorBlock": 849,
-      "ExtraInfo": "hic",
-      "StyleHint": "itaque",
-      "FullName": "Miss Conrad Corwin",
+      "Value": "ab",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldLength": 254
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ab",
+      "DisplayValue": "sed",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     }
   ],
-  "NickName": "Steuber-McKenzie",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "molestias"
-  },
-  "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "consequuntur"
-  },
-  "PostSaveCommands": [
+  "UserName": "Abshire Inc and Sons",
+  "TicketCategories": [
     {
-      "Name": "Sauer, Lemke and Konopelski",
-      "DisplayName": "Nicolas, Anderson and Larson",
-      "Description": "Digitized bottom-line flexibility",
-      "ToolTip": "Et soluta in beatae quae dolorem tempore.",
-      "Actions": "Implicit",
-      "ActionData": "quo",
+      "Id": 194,
+      "Name": "Leannon, Von and Carter",
+      "ToolTip": "Explicabo rerum maxime dolorem deserunt velit beatae eveniet.",
+      "Deleted": false,
+      "Rank": 655,
+      "Type": "eveniet",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "vitae",
+      "ColorBlock": 616,
+      "ExtraInfo": "esse",
+      "StyleHint": "dolorem",
+      "FullName": "Tiara Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 444
+        }
+      }
+    }
+  ],
+  "NickName": "Greenfelder LLC",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "natus"
+  },
+  "CustomFields": {
+    "CustomFields1": "earum",
+    "CustomFields2": "impedit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Lubowitz-Considine",
+      "DisplayName": "Schamberger, Eichmann and Kub",
+      "Description": "Pre-emptive heuristic open system",
+      "ToolTip": "Nesciunt dolores sed voluptas mollitia.",
+      "Actions": "Implicit",
+      "ActionData": "nesciunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 510
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 866
+      "FieldLength": 844
     }
   }
 }

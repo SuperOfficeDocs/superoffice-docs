@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# QuoteApprReasonHeadingLink Table (525)
+# QuoteApprReasonHeadingLink Table (527)
 
 Heading link table for QuoteApprReason, for MDO headers
 

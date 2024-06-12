@@ -70,41 +70,41 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 1000,
-        "NumberOfLicensesFree": 502,
-        "NumberOfLicensesAdded": 712,
-        "NumberOfLicensesNewTotal": 899,
-        "NumberOfLicensesNewFree": 918,
-        "NumberOfLicensesTotal": 706
+        "NumberOfLicensesInUse": 342,
+        "NumberOfLicensesFree": 680,
+        "NumberOfLicensesAdded": 867,
+        "NumberOfLicensesNewTotal": 338,
+        "NumberOfLicensesNewFree": 103,
+        "NumberOfLicensesTotal": 804
       }
     ],
-    "AccumulatedNextCheckDate": "2017-12-13T12:57:43.1365038+01:00"
+    "AccumulatedNextCheckDate": "1999-12-29T04:22:35.6428553+01:00"
   },
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 1000,
-        "NumberOfLicensesFree": 502,
-        "NumberOfLicensesAdded": 712,
-        "NumberOfLicensesNewTotal": 899,
-        "NumberOfLicensesNewFree": 918,
-        "NumberOfLicensesTotal": 706
+        "NumberOfLicensesInUse": 342,
+        "NumberOfLicensesFree": 680,
+        "NumberOfLicensesAdded": 867,
+        "NumberOfLicensesNewTotal": 338,
+        "NumberOfLicensesNewFree": 103,
+        "NumberOfLicensesTotal": 804
       }
     ],
-    "AccumulatedNextCheckDate": "2017-12-13T12:57:43.1365038+01:00"
+    "AccumulatedNextCheckDate": "1999-12-29T04:22:35.6428553+01:00"
   }
 ]
 ```

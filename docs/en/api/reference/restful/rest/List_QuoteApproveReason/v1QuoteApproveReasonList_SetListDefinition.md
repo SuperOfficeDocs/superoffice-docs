@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "McLaughlin-Schmidt",
-  "Tooltip": "quisquam",
-  "Deleted": false,
-  "Rank": 212,
+  "Id": 120,
+  "Name": "Mayer-Greenholt",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 991,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "iure",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 452,
-  "Name": "Tillman-Tromp",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 314,
-  "IsCustomList": true,
+  "Id": 113,
+  "Name": "Emmerich Inc and Sons",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "Rank": 389,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldType": "System.String",
+      "FieldLength": 14
     }
   }
 }

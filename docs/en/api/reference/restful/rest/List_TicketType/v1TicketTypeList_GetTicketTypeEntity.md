@@ -88,38 +88,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 103,
-  "Name": "Spencer-Gaylord",
-  "Rank": 958,
-  "Tooltip": "adipisci",
-  "Icon": "illum",
-  "DefaultTicketStatus": 131,
+  "TicketTypeId": 792,
+  "Name": "Heathcote LLC",
+  "Rank": 410,
+  "Tooltip": "amet",
+  "Icon": "vel",
+  "DefaultTicketStatus": 988,
   "TicketStatuses": [
-    570,
-    908
+    812,
+    301
   ],
-  "DefaultTicketPriority": 286,
+  "DefaultTicketPriority": 245,
   "TicketPriorities": [
-    394,
-    518
+    543,
+    7
   ],
-  "ReplyTemplate": 2,
+  "ReplyTemplate": 313,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    438,
-    754
+    945,
+    65
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 843
+      "FieldType": "System.Int32",
+      "FieldLength": 222
     }
   }
 }

@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Nolan-Vandervort",
-  "ResourceValues": "eaque",
-  "Culture": "id",
-  "IsActive": true
+  "ResourceName": "Ryan LLC",
+  "ResourceValues": "aut",
+  "Culture": "veritatis",
+  "IsActive": false
 }
 ```
 

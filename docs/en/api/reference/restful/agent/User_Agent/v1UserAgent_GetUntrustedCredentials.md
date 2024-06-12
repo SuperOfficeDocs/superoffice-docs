@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "deleniti"
+  "Type": "rerum"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2019-12-26T12:57:35.4930502+01:00",
-    "ValidTo": "2021-12-27T12:57:35.4930502+01:00",
-    "Comment": "laudantium",
-    "SecretValue": "beatae",
-    "PublicValue": "excepturi",
-    "IsActive": true,
+    "ValidFrom": "2019-08-01T04:22:28.1006289+02:00",
+    "ValidTo": "2003-04-12T04:22:28.1006289+02:00",
+    "Comment": "quod",
+    "SecretValue": "sit",
+    "PublicValue": "voluptatem",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

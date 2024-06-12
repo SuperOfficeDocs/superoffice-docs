@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 749,
-  "Name": "McCullough-Beier",
-  "Tooltip": "qui",
+  "WebPanelId": 220,
+  "Name": "Mayert-Douglas",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 645,
+  "Rank": 111,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Wisoky-Bailey",
+  "WindowName": "Green, Corwin and Simonis",
   "Url": "http://www.example.com/",
-  "ProgId": "quo",
-  "Icon": 65,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "debitis",
+  "Icon": 425,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 344,
-  "Name": "VonRueden-Hudson",
-  "Tooltip": "modi",
-  "Deleted": false,
-  "Rank": 937,
+  "WebPanelId": 357,
+  "Name": "Hills, Cronin and Schroeder",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 544,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Kuhn LLC",
+  "ShowInStatusBar": true,
+  "WindowName": "Harber-Hessel",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 598,
+  "ProgId": "repellendus",
+  "Icon": 499,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 13
     }
   }
 }

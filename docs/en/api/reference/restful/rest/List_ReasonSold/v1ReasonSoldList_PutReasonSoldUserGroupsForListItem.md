@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Lind, Conroy and Dibbert",
-    "ToolTip": "Ut assumenda sunt nobis animi nisi velit.",
-    "Deleted": false,
-    "Rank": 794,
-    "Type": "nobis",
-    "ColorBlock": 479,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2005-06-09T12:57:43.7144965+02:00",
+    "Id": 738,
+    "Name": "McDermott Inc and Sons",
+    "ToolTip": "Qui excepturi doloribus dicta debitis.",
+    "Deleted": true,
+    "Rank": 225,
+    "Type": "dignissimos",
+    "ColorBlock": 135,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2014-11-23T04:22:36.1590905+01:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Klein, Senger and Schowalter",
-        "ToolTip": "Non adipisci est sed praesentium.",
+        "Id": 393,
+        "Name": "Kessler-Kovacek",
+        "ToolTip": "Accusamus quibusdam sit.",
         "Deleted": false,
-        "Rank": 57,
-        "Type": "laudantium",
-        "ColorBlock": 80,
-        "IconHint": "doloremque",
-        "Selected": true,
-        "LastChanged": "2022-09-14T12:57:43.7144965+02:00",
+        "Rank": 675,
+        "Type": "a",
+        "ColorBlock": 765,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2000-09-14T04:22:36.1590905+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Dameon Waters"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Prince Jensen Herzog PhD"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "maxime",
+    "ExtraInfo": "iure",
+    "StyleHint": "id",
     "Hidden": true,
-    "FullName": "Jazlyn Larkin"
+    "FullName": "Dayna Grady"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Smitham, Torphy and Rau",
-    "ToolTip": "Fugiat voluptates.",
+    "Id": 812,
+    "Name": "Nienow, Gutmann and Stiedemann",
+    "ToolTip": "Sequi eveniet fugit et.",
     "Deleted": false,
-    "Rank": 345,
-    "Type": "laboriosam",
-    "ColorBlock": 132,
-    "IconHint": "consectetur",
+    "Rank": 225,
+    "Type": "ad",
+    "ColorBlock": 646,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "1997-03-28T12:57:43.7144965+01:00",
+    "LastChanged": "1999-08-06T04:22:36.1590905+02:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Durgan-Jacobi",
-        "ToolTip": "Eveniet et.",
-        "Deleted": true,
-        "Rank": 475,
-        "Type": "accusamus",
-        "ColorBlock": 178,
-        "IconHint": "exercitationem",
+        "Id": 560,
+        "Name": "Mohr LLC",
+        "ToolTip": "Eligendi aut ut et.",
+        "Deleted": false,
+        "Rank": 263,
+        "Type": "mollitia",
+        "ColorBlock": 737,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2014-03-11T12:57:43.7144965+01:00",
+        "LastChanged": "2002-12-07T04:22:36.1590905+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "eum",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Hillard Effertz I",
+        "FullName": "Miss Keenan Serena Prohaska Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 987
+            "FieldLength": 677
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "sed",
+    "ExtraInfo": "vel",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Lucie Haley",
+    "FullName": "Darrin Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldLength": 317
       }
     }
   }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 747,
+  "DocumentId": 719,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nobis",
-  "Header": "praesentium",
-  "Name": "Osinski LLC",
-  "OurRef": "voluptas",
-  "YourRef": "quaerat",
-  "CreatedDate": "2023-06-14T12:57:33.727419+02:00",
-  "UpdatedDate": "2012-02-16T12:57:33.727419+01:00",
-  "Description": "Open-architected solution-oriented projection",
+  "Attention": "in",
+  "Header": "consequatur",
+  "Name": "Hackett-O'Hara",
+  "OurRef": "quis",
+  "YourRef": "voluptas",
+  "CreatedDate": "2019-09-04T04:22:26.5291069+02:00",
+  "UpdatedDate": "2001-03-27T04:22:26.5291069+02:00",
+  "Description": "Quality-focused object-oriented conglomeration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-03-19T12:57:33.727419+01:00",
-  "ExternalRef": "praesentium",
+  "Date": "2007-05-08T04:22:26.5291069+02:00",
+  "ExternalRef": "ipsam",
   "Completed": "Completed",
-  "ActiveLinks": 152,
+  "ActiveLinks": 715,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sawayn, Littel and Crona",
-      "Id": 20,
-      "Description": "Profit-focused discrete definition",
-      "ExtraInfo": "deserunt",
-      "LinkId": 345,
+      "EntityName": "King LLC",
+      "Id": 747,
+      "Description": "Object-based dedicated application",
+      "ExtraInfo": "voluptas",
+      "LinkId": 151,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 231
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 770,
-  "Snum": 633,
+  "SuggestedDocumentId": 68,
+  "Snum": 375,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Desmond Casper"
+    "SuperOffice:1": "511102227",
+    "SuperOffice:2": "Winifred Kaci Borer III"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "recusandae",
-    "CustomFields2": "sit"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "aspernatur"
   },
-  "PublishEventDate": "2011-08-04T12:57:33.727419+02:00",
-  "PublishTo": "2020-03-07T12:57:33.727419+01:00",
-  "PublishFrom": "2019-10-25T12:57:33.727419+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-03-24T04:22:26.5291069+01:00",
+  "PublishTo": "1997-01-18T04:22:26.5291069+01:00",
+  "PublishFrom": "1999-02-24T04:22:26.5291069+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 638,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldType": "System.String",
+          "FieldLength": 365
         }
       }
     },
     {
-      "VisibleId": 638,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldType": "System.String",
+          "FieldLength": 365
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldLength": 898
     }
   }
 }

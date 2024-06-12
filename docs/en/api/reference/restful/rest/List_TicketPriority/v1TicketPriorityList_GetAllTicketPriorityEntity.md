@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 299,
-    "Name": "Swift Inc and Sons",
+    "TicketPriorityId": 661,
+    "Name": "Hettinger Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 459,
+    "SortOrder": 265,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 395,
-    "MonStart": "2008-07-24T12:57:43.8082251+02:00",
-    "MonStop": "2008-03-29T12:57:43.8082251+01:00",
-    "TueStart": "2015-08-10T12:57:43.8082251+02:00",
-    "TueStop": "2021-04-21T12:57:43.8082251+02:00",
-    "WedStart": "2006-04-26T12:57:43.8082251+02:00",
-    "WedStop": "2011-08-09T12:57:43.8082251+02:00",
-    "ThuStart": "2009-07-01T12:57:43.8082251+02:00",
-    "ThuStop": "2016-05-01T12:57:43.8082251+02:00",
-    "FriStart": "2001-07-07T12:57:43.8082251+02:00",
-    "FriStop": "2014-10-01T12:57:43.8082251+02:00",
-    "SatStart": "2021-07-15T12:57:43.8082251+02:00",
-    "SatStop": "1999-09-22T12:57:43.8082251+02:00",
-    "SunStart": "2022-08-03T12:57:43.8082251+02:00",
-    "SunStop": "2016-04-08T12:57:43.8082251+02:00",
+    "Deadline": 364,
+    "MonStart": "2000-09-24T04:22:36.2528386+02:00",
+    "MonStop": "2004-12-14T04:22:36.2528386+01:00",
+    "TueStart": "2023-06-09T04:22:36.2528386+02:00",
+    "TueStop": "2012-09-18T04:22:36.2528386+02:00",
+    "WedStart": "2021-03-03T04:22:36.2528386+01:00",
+    "WedStop": "2015-04-21T04:22:36.2528386+02:00",
+    "ThuStart": "2012-11-28T04:22:36.2528386+01:00",
+    "ThuStop": "2014-10-23T04:22:36.2528386+02:00",
+    "FriStart": "2017-10-13T04:22:36.2528386+02:00",
+    "FriStop": "2011-01-07T04:22:36.2528386+01:00",
+    "SatStart": "2002-06-14T04:22:36.2528386+02:00",
+    "SatStop": "2015-12-11T04:22:36.2528386+01:00",
+    "SunStart": "2001-11-16T04:22:36.2528386+01:00",
+    "SunStop": "2012-06-20T04:22:36.2528386+02:00",
     "NonDates": [
-      "neque",
-      "ipsa"
+      "voluptatem",
+      "perspiciatis"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 155,
-        "AlertLevel": 992,
-        "AlertTimeout": 384,
-        "Action": 874,
-        "DelegateTo": 741,
-        "ScriptId": 546,
-        "EmailTo": "ellen@wildermandenesik.name",
-        "SmsTo": "placeat",
-        "ReplyTemplateIdCustomer": 764,
-        "ReplyTemplateIdUser": 684,
-        "ReplyTemplateIdCatmast": 873,
-        "ReplyTemplateIdEmail": 972,
-        "RtiCustomerSms": 74,
-        "ReplyTemplateIdUserSms": 203,
-        "ReplyTemplateIdCatmastSms": 646,
-        "ReplyTemplateIdSms": 967,
+        "TicketAlertId": 177,
+        "AlertLevel": 9,
+        "AlertTimeout": 158,
+        "Action": 61,
+        "DelegateTo": 115,
+        "ScriptId": 74,
+        "EmailTo": "taurean_russel@yundt.co.uk",
+        "SmsTo": "omnis",
+        "ReplyTemplateIdCustomer": 404,
+        "ReplyTemplateIdUser": 767,
+        "ReplyTemplateIdCatmast": 849,
+        "ReplyTemplateIdEmail": 800,
+        "RtiCustomerSms": 845,
+        "ReplyTemplateIdUserSms": 978,
+        "ReplyTemplateIdCatmastSms": 209,
+        "ReplyTemplateIdSms": 845,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 757
+            "FieldLength": 107
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 542
       }
     }
   }

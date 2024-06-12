@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Wehner-Beatty",
-  "Tooltip": "perspiciatis",
+  "Id": 580,
+  "Name": "Bosco, Rice and Hane",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 565,
+  "Rank": 631,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Lakin Inc and Sons",
-  "Tooltip": "aliquam",
-  "Deleted": true,
-  "Rank": 581,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 508,
+  "Name": "Fadel-O'Conner",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "Rank": 761,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

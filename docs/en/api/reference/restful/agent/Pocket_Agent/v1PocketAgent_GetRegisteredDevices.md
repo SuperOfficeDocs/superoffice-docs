@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 472
+  "AssociateId": 495
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Bartell-Walter",
-    "DeviceIdentifier": "reiciendis",
-    "PocketVersion": "consequatur",
-    "Language": "vel",
-    "PNSHandle": "aliquam",
+    "DeviceName": "Sawayn Group",
+    "DeviceIdentifier": "sapiente",
+    "PocketVersion": "eum",
+    "Language": "sapiente",
+    "PNSHandle": "consectetur",
     "Platform": "Apple",
-    "OSVersion": "assumenda",
-    "TimeZoneId": 522
+    "OSVersion": "qui",
+    "TimeZoneId": 770
   }
 ]
 ```

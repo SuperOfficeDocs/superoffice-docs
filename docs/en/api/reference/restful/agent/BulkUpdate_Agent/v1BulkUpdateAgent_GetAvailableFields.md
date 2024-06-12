@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,73 +106,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": true,
     "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "doloribus",
-    "ValueType": "sit",
+    "IsActive": true,
+    "Key": "vel",
+    "ValueType": "eaque",
     "Mandatory": true,
-    "EncodedDisplayName": "Balistreri-Koepp",
-    "EncodedDisplayDescription": "Monitored 24 hour circuit",
-    "IconHint": "id",
+    "EncodedDisplayName": "Harris-Waters",
+    "EncodedDisplayDescription": "Diverse uniform flexibility",
+    "IconHint": "at",
     "ControlInfos": [
       {
-        "Type": "illo",
-        "Label": "placeat",
-        "Dimension": 33,
-        "ListProviderName": "Kling Inc and Sons",
-        "ListProviderExtraInfo": "itaque",
-        "ListProviderPrimaryKeyName": "Trantow-Strosin",
-        "ListLeadText": "eius",
+        "Type": "animi",
+        "Label": "numquam",
+        "Dimension": 703,
+        "ListProviderName": "Beer, Hintz and Rau",
+        "ListProviderExtraInfo": "omnis",
+        "ListProviderPrimaryKeyName": "Torphy Group",
+        "ListLeadText": "inventore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 727
+            "FieldType": "System.String",
+            "FieldLength": 863
           }
         }
       }
     ],
-    "EncodedDataCaption": "nihil",
-    "EncodedDataCaptionDescription": "Multi-channelled hybrid interface",
-    "CurrentOperationType": "libero",
+    "EncodedDataCaption": "nulla",
+    "EncodedDataCaptionDescription": "Decentralized multi-state matrix",
+    "CurrentOperationType": "est",
     "Values": [
-      "voluptates",
-      "tenetur"
+      "ipsum",
+      "consequatur"
     ],
     "DisplayValues": [
-      "sed",
-      "accusantium"
+      "temporibus",
+      "sed"
     ],
     "OperationInfos": [
       {
-        "Key": "libero",
-        "EncodedDisplayName": "Considine LLC",
+        "Key": "fuga",
+        "EncodedDisplayName": "Becker Group",
         "EncodedLeadTexts": [
-          "consequuntur",
-          "in"
+          "cum",
+          "ratione"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldLength": 421
           }
         }
       },
       {
-        "Key": "libero",
-        "EncodedDisplayName": "Considine LLC",
+        "Key": "fuga",
+        "EncodedDisplayName": "Becker Group",
         "EncodedLeadTexts": [
-          "consequuntur",
-          "in"
+          "cum",
+          "ratione"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldLength": 421
           }
         }
       }

@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 931,
+  "DocumentId": 260,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "provident",
-  "Header": "quo",
-  "Name": "Wolf LLC",
-  "OurRef": "consequatur",
-  "YourRef": "quisquam",
-  "CreatedDate": "2008-03-28T12:57:33.7586621+01:00",
-  "UpdatedDate": "2018-03-18T12:57:33.7586621+01:00",
-  "Description": "Re-engineered bandwidth-monitored hierarchy",
+  "Attention": "necessitatibus",
+  "Header": "doloribus",
+  "Name": "Gorczany-Rath",
+  "OurRef": "et",
+  "YourRef": "voluptatem",
+  "CreatedDate": "1999-01-01T04:22:26.5772376+01:00",
+  "UpdatedDate": "2008-04-10T04:22:26.5772376+02:00",
+  "Description": "Secured actuating help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-10-19T12:57:33.7742835+02:00",
-  "ExternalRef": "minus",
+  "Date": "2022-04-29T04:22:26.5772376+02:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 783,
+  "ActiveLinks": 82,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ziemann-Goodwin",
-      "Id": 913,
-      "Description": "Stand-alone solution-oriented analyzer",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 104,
+      "EntityName": "Bode Group",
+      "Id": 956,
+      "Description": "Open-source static info-mediaries",
+      "ExtraInfo": "sit",
+      "LinkId": 796,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldLength": 30
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 447,
-  "Snum": 987,
+  "SuggestedDocumentId": 389,
+  "Snum": 200,
   "UserDefinedFields": {
-    "SuperOffice:1": "1233980762",
-    "SuperOffice:2": "912360223"
+    "SuperOffice:1": "Mario Rau",
+    "SuperOffice:2": "Margaret Lea Weissnat I"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "illum",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "cumque",
+    "CustomFields2": "quam"
   },
-  "PublishEventDate": "2009-08-19T12:57:33.7742835+02:00",
-  "PublishTo": "2019-07-26T12:57:33.7742835+02:00",
-  "PublishFrom": "2008-08-22T12:57:33.7742835+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-06-12T04:22:26.5772376+02:00",
+  "PublishTo": "2013-08-23T04:22:26.5772376+02:00",
+  "PublishFrom": "1998-07-25T04:22:26.5772376+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 167,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 368
         }
       }
     },
     {
-      "VisibleId": 167,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 368
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 544
     }
   }
 }

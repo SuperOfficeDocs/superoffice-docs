@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Predovic Group",
-    "SaleDate": "2020-03-28T12:57:34.8688339+01:00",
-    "SaleId": 982,
-    "Probability": 898,
-    "Title": "iusto",
-    "Amount": 27469.51,
-    "Currency": "placeat",
-    "ProjectName": "Feil-Schimmel",
-    "AssociateFullName": "Viviane O'Hara",
-    "Description": "Profit-focused actuating archive",
+    "ContactName": "Fritsch, Waelchi and Ruecker",
+    "SaleDate": "2020-10-27T04:22:27.5492747+01:00",
+    "SaleId": 963,
+    "Probability": 542,
+    "Title": "possimus",
+    "Amount": 11041.082,
+    "Currency": "est",
+    "ProjectName": "Muller, Gorczany and Schinner",
+    "AssociateFullName": "Marcelino Beatty",
+    "Description": "Intuitive user-facing open architecture",
     "Status": "Lost",
-    "WeightedAmount": 28660.43,
-    "ProjectId": 108,
-    "EarningPercent": 68.948,
-    "Earning": 11877.859999999999,
-    "ContactId": 330,
-    "AssociateId": 864,
-    "PersonId": 276,
-    "SaleTypeId": 826,
-    "SaleTypeName": "Roob, Hegmann and Rempel",
-    "PersonFullName": "Miss Katelynn Aufderhar",
+    "WeightedAmount": 25730.14,
+    "ProjectId": 639,
+    "EarningPercent": 18440.456,
+    "Earning": 31305.525999999998,
+    "ContactId": 578,
+    "AssociateId": 344,
+    "PersonId": 299,
+    "SaleTypeId": 900,
+    "SaleTypeName": "Rolfson-Little",
+    "PersonFullName": "Ida Bednar",
     "Completed": "Completed",
-    "ActiveErpLinks": 609,
-    "NextDueDate": "1998-01-08T12:57:34.8688339+01:00",
-    "Number": "1155275",
+    "ActiveErpLinks": 155,
+    "NextDueDate": "2024-03-19T04:22:27.5492747+01:00",
+    "Number": "332025",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldLength": 719
       }
     }
   }

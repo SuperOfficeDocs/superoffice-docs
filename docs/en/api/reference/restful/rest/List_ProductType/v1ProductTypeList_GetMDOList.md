@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=reprehenderit
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=quod
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Welch Group",
-    "ToolTip": "Quae alias voluptate.",
-    "Deleted": true,
-    "Rank": 518,
-    "Type": "expedita",
+    "Id": 296,
+    "Name": "Abshire-Reynolds",
+    "ToolTip": "Possimus nihil et dolorem qui.",
+    "Deleted": false,
+    "Rank": 156,
+    "Type": "asperiores",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Thiel-Jewess",
-        "ToolTip": "Doloribus vel.",
-        "Deleted": true,
-        "Rank": 966,
-        "Type": "temporibus",
+        "Id": 367,
+        "Name": "Lind Inc and Sons",
+        "ToolTip": "Eum quam temporibus ducimus possimus quia.",
+        "Deleted": false,
+        "Rank": 888,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 452,
-        "ExtraInfo": "laborum",
-        "StyleHint": "nemo",
-        "FullName": "Gaston Kiehn",
+        "IconHint": "omnis",
+        "ColorBlock": 389,
+        "ExtraInfo": "corporis",
+        "StyleHint": "fugiat",
+        "FullName": "Drake Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 438
+            "FieldLength": 199
           }
         }
       }
     ],
-    "IconHint": "reiciendis",
-    "ColorBlock": 557,
-    "ExtraInfo": "officia",
-    "StyleHint": "accusamus",
-    "FullName": "Prof. Gunner Wintheiser V",
+    "IconHint": "vel",
+    "ColorBlock": 836,
+    "ExtraInfo": "sunt",
+    "StyleHint": "commodi",
+    "FullName": "Giovanny Micah Gaylord V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 91
       }
     }
   }

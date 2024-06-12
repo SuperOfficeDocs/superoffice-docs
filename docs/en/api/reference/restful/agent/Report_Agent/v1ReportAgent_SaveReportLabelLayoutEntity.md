@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 849,
-  "Name": "Pouros-Haag",
-  "Description": "Stand-alone attitude-oriented solution",
+  "ReportLabelLayoutId": 839,
+  "Name": "Baumbach-Grady",
+  "Description": "Grass-roots motivating productivity",
   "Orientation": "Landscape",
-  "PaperWidth": 34,
-  "PaperHeight": 217,
-  "LeftMargin": 435,
-  "RightMargin": 923,
-  "TopMargin": 689,
-  "BottomMargin": 229,
-  "CountColumns": 709,
-  "CountRows": 590
+  "PaperWidth": 921,
+  "PaperHeight": 740,
+  "LeftMargin": 283,
+  "RightMargin": 78,
+  "TopMargin": 616,
+  "BottomMargin": 233,
+  "CountColumns": 713,
+  "CountRows": 121
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 825,
-  "Name": "Watsica, Jacobson and Zboncak",
-  "Description": "Open-source stable framework",
+  "ReportLabelLayoutId": 859,
+  "Name": "Kirlin-Schowalter",
+  "Description": "Profound 4th generation time-frame",
   "Orientation": "Landscape",
-  "PaperWidth": 683,
-  "PaperHeight": 339,
-  "LeftMargin": 596,
-  "RightMargin": 774,
-  "TopMargin": 151,
-  "BottomMargin": 939,
-  "CountColumns": 414,
-  "CountRows": 319,
+  "PaperWidth": 774,
+  "PaperHeight": 961,
+  "LeftMargin": 854,
+  "RightMargin": 900,
+  "TopMargin": 363,
+  "BottomMargin": 636,
+  "CountColumns": 457,
+  "CountRows": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

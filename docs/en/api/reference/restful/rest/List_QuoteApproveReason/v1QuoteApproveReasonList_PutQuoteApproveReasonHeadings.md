@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Gusikowski Inc and Sons",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 756,
-    "UdListDefinitionId": 679
+    "HeadingId": 414,
+    "Name": "Cartwright, Bauch and Walter",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "Rank": 113,
+    "UdListDefinitionId": 139
   },
   {
-    "HeadingId": 14,
-    "Name": "Gusikowski Inc and Sons",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 756,
-    "UdListDefinitionId": 679
+    "HeadingId": 414,
+    "Name": "Cartwright, Bauch and Walter",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "Rank": 113,
+    "UdListDefinitionId": 139
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 349,
-    "Name": "Kassulke, Howe and Nader",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "Rank": 172,
-    "UdListDefinitionId": 137,
+    "HeadingId": 413,
+    "Name": "Greenholt Group",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "Rank": 150,
+    "UdListDefinitionId": 278,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldType": "System.Int32",
+        "FieldLength": 987
       }
     }
   }

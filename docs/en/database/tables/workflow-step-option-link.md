@@ -24,6 +24,7 @@ Link steps to other steps through step options
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|Rank|Step order|Int|&#x25CF;|
 
 
 ![workflow_step_option_link table relationship diagram](./media/workflow_step_option_link.png)

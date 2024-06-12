@@ -115,7 +115,7 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 237,
-  "Name": "Kessler Group",
-  "ContentType": "unde",
-  "AttSize": 911,
+  "AttachmentId": 827,
+  "Name": "Towne-Treutel",
+  "ContentType": "voluptatibus",
+  "AttSize": 125,
   "InlineImage": false,
-  "ContentId": "eum",
-  "AuthKey": "ut",
+  "ContentId": "inventore",
+  "AuthKey": "sapiente",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 900
     }
   },
   "_Links": {

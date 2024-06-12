@@ -72,7 +72,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [Contact](Contact.md)
 * [ContactActivity](ContactActivity.md)
 * [ContactDynamicSelection](ContactDynamicSelection.md)
-* [contactfavourites](contactfavourites.md)
+* [ContactFavourites](contactfavourites.md)
 * [ContactPersonDynamicSelectionSingleCriteriaGroup](ContactPersonDynamicSelectionSingleCriteriaGroup.md)
 * [ContactPersonDynamicSelectionV2](ContactPersonDynamicSelectionV2.md)
 * [ContactPersonSelectionCombinedV2](ContactPersonSelectionCombinedV2.md)

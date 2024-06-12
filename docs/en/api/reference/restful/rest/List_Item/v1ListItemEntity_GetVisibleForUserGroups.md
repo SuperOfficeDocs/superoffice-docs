@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "O'Kon LLC",
-    "ToolTip": "Et velit amet ex repellendus ab.",
+    "Id": 266,
+    "Name": "Bartell, Abernathy and Bergnaum",
+    "ToolTip": "Fuga sit quas quis nisi dignissimos.",
     "Deleted": false,
-    "Rank": 27,
-    "Type": "minus",
-    "ColorBlock": 337,
-    "IconHint": "omnis",
+    "Rank": 886,
+    "Type": "ut",
+    "ColorBlock": 543,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2003-07-17T12:57:43.2927185+02:00",
+    "LastChanged": "2001-02-14T04:22:35.7834778+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Kerluke, Goyette and Hayes",
-        "ToolTip": "Iure iste beatae ipsa sunt.",
+        "Id": 103,
+        "Name": "Abernathy-Feest",
+        "ToolTip": "Corporis aut quos dignissimos inventore est iste.",
         "Deleted": false,
-        "Rank": 490,
-        "Type": "explicabo",
-        "ColorBlock": 23,
-        "IconHint": "voluptas",
+        "Rank": 349,
+        "Type": "quaerat",
+        "ColorBlock": 857,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2008-11-24T12:57:43.2927185+01:00",
+        "LastChanged": "2015-12-16T04:22:35.7834778+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Miguel Kerluke MD",
+        "ExtraInfo": "et",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Keaton Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 168
+            "FieldLength": 532
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Ellsworth Valentina Hermann Sr.",
+    "ExtraInfo": "quae",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Deanna Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 635
       }
     }
   }

@@ -169,18 +169,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Connelly-Johns",
-  "ProviderName": "Doyle LLC",
-  "SortOrder": "error",
-  "Restriction": "minima",
-  "Entities": "et",
-  "Page": 128,
-  "PageSize": 378,
-  "Context": "corporis"
+  "GuiName": "Langworth Inc and Sons",
+  "ProviderName": "Steuber Group",
+  "SortOrder": "sunt",
+  "Restriction": "ipsum",
+  "Entities": "blanditiis",
+  "Page": 112,
+  "PageSize": 605,
+  "Context": "similique"
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gerhold-Russel",
-    "PrimaryKey": 634,
+    "EntityName": "Beier Group",
+    "PrimaryKey": 123,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dignissimos",
-        "TooltipHint": "doloribus",
-        "LinkHint": "ut"
+        "DisplayValue": "consequatur",
+        "TooltipHint": "est",
+        "LinkHint": "sint"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "asperiores",
+    "LinkHint": "temporibus",
+    "StyleHint": "doloribus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 961
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Hintz-Simonis",
-    "ToolTip": "Esse cum.",
-    "Deleted": false,
-    "Rank": 268,
-    "Type": "ea",
-    "ColorBlock": 346,
-    "IconHint": "voluptate",
+    "Id": 163,
+    "Name": "Runolfsson Group",
+    "ToolTip": "Laudantium omnis est cum reiciendis est debitis.",
+    "Deleted": true,
+    "Rank": 411,
+    "Type": "dolor",
+    "ColorBlock": 873,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2022-03-24T12:57:43.3083396+01:00",
+    "LastChanged": "2017-06-07T04:22:35.7991031+02:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Berge, Leffler and Schowalter",
-        "ToolTip": "Est sint.",
+        "Id": 305,
+        "Name": "Casper, Corwin and Parker",
+        "ToolTip": "Labore accusantium tempore laudantium perspiciatis dicta omnis nulla.",
         "Deleted": false,
-        "Rank": 736,
-        "Type": "aut",
-        "ColorBlock": 186,
-        "IconHint": "et",
+        "Rank": 853,
+        "Type": "modi",
+        "ColorBlock": 554,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2010-04-15T12:57:43.3083396+02:00",
+        "LastChanged": "2008-07-15T04:22:35.7991031+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "officia",
+        "ExtraInfo": "et",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Abdullah Fahey"
+        "FullName": "Raymond Howell"
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Elian Koch Jr."
+    "ExtraInfo": "rem",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Gloria Hackett"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Bayer-Bechtelar",
-    "ToolTip": "Sint dolorem reiciendis omnis quaerat inventore molestiae.",
+    "Id": 954,
+    "Name": "Ortiz, Murray and Zboncak",
+    "ToolTip": "Aperiam accusamus est veniam omnis voluptas non.",
     "Deleted": true,
-    "Rank": 635,
-    "Type": "est",
-    "ColorBlock": 695,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2005-05-28T12:57:43.3083396+02:00",
+    "Rank": 306,
+    "Type": "sint",
+    "ColorBlock": 225,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2016-04-09T04:22:35.7991031+02:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Shanahan LLC",
-        "ToolTip": "Saepe dignissimos error eius minima aliquam.",
+        "Id": 849,
+        "Name": "Hettinger, Hackett and McClure",
+        "ToolTip": "Et ut aliquid nesciunt eveniet vel accusamus qui.",
         "Deleted": false,
-        "Rank": 671,
-        "Type": "repudiandae",
-        "ColorBlock": 133,
-        "IconHint": "velit",
+        "Rank": 757,
+        "Type": "aut",
+        "ColorBlock": 953,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2022-06-19T12:57:43.3083396+02:00",
+        "LastChanged": "2019-07-03T04:22:35.7991031+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Macie Nikolaus",
+        "FullName": "Grover Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 184
+            "FieldType": "System.Int32",
+            "FieldLength": 549
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "odio",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Mr. Cordell Pat Lesch Jr.",
+    "FullName": "Prof. Peggie Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldType": "System.String",
+        "FieldLength": 568
       }
     }
   }

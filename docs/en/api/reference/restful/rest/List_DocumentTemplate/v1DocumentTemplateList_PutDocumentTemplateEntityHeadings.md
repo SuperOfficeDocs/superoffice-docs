@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 397,
-    "Name": "Mraz, Quitzon and Yundt",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 554,
-    "UdListDefinitionId": 638
+    "HeadingId": 41,
+    "Name": "Kshlerin-Lakin",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 956,
+    "UdListDefinitionId": 356
   },
   {
-    "HeadingId": 397,
-    "Name": "Mraz, Quitzon and Yundt",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 554,
-    "UdListDefinitionId": 638
+    "HeadingId": 41,
+    "Name": "Kshlerin-Lakin",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 956,
+    "UdListDefinitionId": 356
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 950,
-    "Name": "Waelchi, Lesch and Kerluke",
-    "Tooltip": "repudiandae",
-    "Deleted": true,
-    "Rank": 293,
-    "UdListDefinitionId": 429,
+    "HeadingId": 726,
+    "Name": "Gleichner LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 437,
+    "UdListDefinitionId": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldLength": 119
       }
     }
   }

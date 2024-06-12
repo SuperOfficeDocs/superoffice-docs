@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 732,
-  "ListItemId": 825,
+  "UdListDefinitionId": 79,
+  "ListItemId": 520,
   "Headings": [
     {
-      "Id": 256,
-      "Name": "McKenzie, Gottlieb and Rau",
-      "ToolTip": "Dolorem optio eaque et porro sequi adipisci cum.",
+      "Id": 691,
+      "Name": "Fahey, Auer and Gleason",
+      "ToolTip": "Aliquid at consectetur omnis.",
       "Deleted": false,
-      "Rank": 459,
-      "Type": "eum",
-      "ColorBlock": 360,
-      "IconHint": "sed",
+      "Rank": 92,
+      "Type": "magnam",
+      "ColorBlock": 170,
+      "IconHint": "a",
       "Selected": false,
-      "LastChanged": "1998-01-30T12:57:34.1492269+01:00",
+      "LastChanged": "2024-05-29T04:22:26.969259+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "itaque",
-      "StyleHint": "harum",
+      "ExtraInfo": "dolores",
+      "StyleHint": "corporis",
       "Hidden": false,
-      "FullName": "Miss Maverick Joanny Johnson IV"
+      "FullName": "Dr. Irwin Ortiz"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Walter-Rowe",
-    "ToolTip": "Minima eos ut nihil consequatur optio aut.",
+    "Id": 185,
+    "Name": "Jones-Breitenberg",
+    "ToolTip": "Et tempora.",
     "Deleted": false,
-    "Rank": 720,
-    "Type": "voluptatibus",
-    "ColorBlock": 63,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2010-04-14T12:57:34.1492269+02:00",
+    "Rank": 128,
+    "Type": "vitae",
+    "ColorBlock": 350,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2012-05-01T04:22:26.9848795+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Will-Reichel",
-        "ToolTip": "Aut corrupti dolores nisi eum delectus dolore.",
+        "Id": 751,
+        "Name": "Koelpin, Kunze and Kerluke",
+        "ToolTip": "Ratione et.",
         "Deleted": false,
-        "Rank": 138,
-        "Type": "est",
-        "ColorBlock": 612,
-        "IconHint": "deserunt",
-        "Selected": true,
-        "LastChanged": "1998-01-04T12:57:34.1492269+01:00",
+        "Rank": 170,
+        "Type": "cumque",
+        "ColorBlock": 550,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "1997-02-11T04:22:26.9848795+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Itzel Christiansen",
+        "ExtraInfo": "neque",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Brenna Rhett Johnson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 133
+            "FieldLength": 857
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "soluta",
+    "ExtraInfo": "eum",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Agustin Lehner",
+    "FullName": "Prof. Nicolas Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

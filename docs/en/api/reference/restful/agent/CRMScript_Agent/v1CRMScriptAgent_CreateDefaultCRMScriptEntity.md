@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 337,
-  "UniqueIdentifier": "voluptates",
-  "Name": "Little Inc and Sons",
-  "Description": "Quality-focused assymetric portal",
-  "IncludeId": "quo",
-  "HierarchyId": 786,
-  "Source": "temporibus",
-  "Registered": "2018-12-25T12:57:33.6180694+01:00",
-  "RegisteredAssociateId": 490,
-  "Updated": "1999-07-21T12:57:33.6180694+02:00",
-  "UpdatedAssociateId": 614,
+  "EjscriptId": 816,
+  "UniqueIdentifier": "optio",
+  "Name": "Bergnaum Group",
+  "Description": "Re-engineered static intranet",
+  "IncludeId": "in",
+  "HierarchyId": 688,
+  "Source": "quia",
+  "Registered": "2023-02-17T04:22:26.3090583+01:00",
+  "RegisteredAssociateId": 474,
+  "Updated": "2018-06-04T04:22:26.3090583+02:00",
+  "UpdatedAssociateId": 560,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=799
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=934
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 363,
-  "Name": "Hermann Group",
-  "Tooltip": "error",
-  "Rank": 110,
+  "SaleTypeId": 58,
+  "Name": "Brakus LLC",
+  "Tooltip": "autem",
+  "Rank": 150,
   "DurationUnit": "Century",
-  "SaleDuration": 806,
-  "SaleTypeCatId": 555,
-  "Deleted": false,
+  "SaleDuration": 14,
+  "SaleTypeCatId": 919,
+  "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 664,
-  "QuoteLinesTemplate": 855,
-  "ConfirmationLinesTemplate": 745,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 112,
-  "MinEarningPercent": 870,
-  "GroupQuoteLinesBy": 302,
-  "SortGroupLinesBy": 952,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 1000,
+  "QuoteLinesTemplate": 944,
+  "ConfirmationLinesTemplate": 516,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 26,
+  "MinEarningPercent": 378,
+  "GroupQuoteLinesBy": 14,
+  "SortGroupLinesBy": 370,
   "Stages": [
     {
-      "Id": 431,
-      "Name": "Bednar-Kertzmann",
-      "ToolTip": "Voluptates consequatur ut velit unde officia.",
+      "Id": 357,
+      "Name": "Fahey Group",
+      "ToolTip": "Voluptate quibusdam et maiores sint et velit.",
       "Deleted": false,
-      "Rank": 952,
-      "Type": "ex",
-      "ColorBlock": 753,
-      "IconHint": "qui",
-      "Selected": false,
-      "LastChanged": "2004-02-10T12:57:34.1336045+01:00",
+      "Rank": 843,
+      "Type": "est",
+      "ColorBlock": 782,
+      "IconHint": "expedita",
+      "Selected": true,
+      "LastChanged": "2005-07-03T04:22:26.9536139+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "accusamus",
+      "StyleHint": "eum",
       "Hidden": false,
-      "FullName": "Miss Elsie Von",
+      "FullName": "Joseph Heidenreich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 73
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 644
     }
   }
 }

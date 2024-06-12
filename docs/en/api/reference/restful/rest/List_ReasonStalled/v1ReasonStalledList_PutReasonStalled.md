@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 432,
-  "Name": "Cartwright-Waters",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 218,
-  "Rank": 56
+  "Id": 949,
+  "Name": "Bins, Roob and Ward",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 212,
+  "Rank": 325
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 43,
-  "Name": "Lebsack LLC",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 606,
-  "Rank": 902,
+  "Id": 253,
+  "Name": "Sauer, Cassin and Orn",
+  "Tooltip": "a",
+  "Deleted": true,
+  "UdListDefinitionId": 298,
+  "Rank": 115,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldType": "System.Int32",
+      "FieldLength": 924
     }
   }
 }

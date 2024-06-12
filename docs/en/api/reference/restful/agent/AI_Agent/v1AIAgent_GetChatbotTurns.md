@@ -82,7 +82,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "quod"
+  "ChatId": "ut"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2020-08-16T12:57:32.6803248+02:00",
-    "UserPrompt": "quia",
-    "UserDisplayText": "cumque",
-    "BotResponse": "ea",
+    "Timestamp": "2004-11-26T04:22:25.5115955+01:00",
+    "UserPrompt": "minima",
+    "UserDisplayText": "et",
+    "BotResponse": "atque",
     "BotActions": {
-      "BotActions1": "enim",
-      "BotActions2": "ea"
+      "BotActions1": "officiis",
+      "BotActions2": "architecto"
     },
     "Attachments": [
-      "praesentium",
-      "et"
+      "rerum",
+      "aperiam"
     ]
   },
   {
-    "Timestamp": "2020-08-16T12:57:32.6803248+02:00",
-    "UserPrompt": "quia",
-    "UserDisplayText": "cumque",
-    "BotResponse": "ea",
+    "Timestamp": "2004-11-26T04:22:25.5115955+01:00",
+    "UserPrompt": "minima",
+    "UserDisplayText": "et",
+    "BotResponse": "atque",
     "BotActions": {
-      "BotActions1": "enim",
-      "BotActions2": "ea"
+      "BotActions1": "officiis",
+      "BotActions2": "architecto"
     },
     "Attachments": [
-      "praesentium",
-      "et"
+      "rerum",
+      "aperiam"
     ]
   }
 ]

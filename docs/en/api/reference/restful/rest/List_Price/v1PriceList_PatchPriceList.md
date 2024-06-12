@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "tempora",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "tempora",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 248,
-  "ERPPriceListKey": "itaque",
-  "QuoteConnectionId": 394,
-  "Name": "Terry-Zemlak",
-  "Description": "Re-contextualized modular architecture",
-  "Currency": "in",
-  "CurrencyName": "Lesch Group",
-  "ValidFrom": "2019-12-24T12:57:43.5582822+01:00",
-  "ValidTo": "2011-08-22T12:57:43.5582822+02:00",
+  "PriceListId": 620,
+  "ERPPriceListKey": "ullam",
+  "QuoteConnectionId": 599,
+  "Name": "Brown, Mueller and Smitham",
+  "Description": "Enhanced maximized product",
+  "Currency": "itaque",
+  "CurrencyName": "Hickle, Conroy and Larkin",
+  "ValidFrom": "2000-05-18T04:22:36.0340897+02:00",
+  "ValidTo": "2022-01-23T04:22:36.0340897+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

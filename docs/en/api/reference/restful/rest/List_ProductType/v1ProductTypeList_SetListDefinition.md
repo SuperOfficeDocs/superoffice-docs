@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 499,
-  "Name": "Rolfson LLC",
-  "Tooltip": "ut",
+  "Id": 832,
+  "Name": "Thiel Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 136,
+  "Rank": 294,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "adipisci",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempora",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Hoppe LLC",
-  "Tooltip": "qui",
+  "Id": 287,
+  "Name": "Skiles-Homenick",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 281,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 372,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=similique
+GET /api/v1/List/ReasonSold/MDOItems?query=commodi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Daugherty-Zemlak",
-    "ToolTip": "Sed nesciunt ut odit.",
-    "Deleted": false,
-    "Rank": 689,
-    "Type": "sed",
+    "Id": 608,
+    "Name": "Johnston, Stroman and Bernhard",
+    "ToolTip": "Dolor reiciendis amet et et quisquam maiores.",
+    "Deleted": true,
+    "Rank": 634,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Dibbert, Bartell and Farrell",
-        "ToolTip": "Ut dolorum ut.",
-        "Deleted": false,
-        "Rank": 390,
-        "Type": "assumenda",
+        "Id": 736,
+        "Name": "Swift-Marquardt",
+        "ToolTip": "Magnam quasi voluptatibus praesentium laudantium.",
+        "Deleted": true,
+        "Rank": 680,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 254,
-        "ExtraInfo": "iure",
-        "StyleHint": "doloremque",
-        "FullName": "Mr. Kirk Myrtle Champlin Jr.",
+        "IconHint": "minus",
+        "ColorBlock": 144,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "laboriosam",
+        "FullName": "Terrell Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 896
+            "FieldType": "System.Int32",
+            "FieldLength": 575
           }
         }
       }
     ],
-    "IconHint": "facilis",
-    "ColorBlock": 267,
-    "ExtraInfo": "impedit",
-    "StyleHint": "itaque",
-    "FullName": "Dr. Santina McCullough",
+    "IconHint": "impedit",
+    "ColorBlock": 207,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "nihil",
+    "FullName": "Dr. Joanne Kirlin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 776
       }
     }
   }

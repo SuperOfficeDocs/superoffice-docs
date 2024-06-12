@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 964,
-    "ColumnId": 985,
-    "FieldDefault": "ut",
-    "FieldHeight": 299,
-    "FieldLabel": "quisquam",
-    "FieldLeft": 969,
-    "FieldTop": 250,
+    "UDefFieldId": 1000,
+    "ColumnId": 723,
+    "FieldDefault": "dolore",
+    "FieldHeight": 154,
+    "FieldLabel": "aperiam",
+    "FieldLeft": 188,
+    "FieldTop": 261,
     "FieldType": "Checkbox",
-    "FieldWidth": 475,
-    "FormatMask": "minima",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 882,
-    "LabelLeft": 587,
-    "LabelTop": 807,
-    "LabelWidth": 1001,
-    "LastVersionId": 132,
-    "ListTableId": 695,
+    "FieldWidth": 261,
+    "FormatMask": "vel",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 147,
+    "LabelLeft": 281,
+    "LabelTop": 643,
+    "LabelWidth": 9,
+    "LastVersionId": 852,
+    "ListTableId": 1002,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 981,
-    "ProgId": "atque",
+    "Page1LineNo": 482,
+    "ProgId": "qui",
     "IsReadOnly": true,
-    "ShortLabel": "recusandae",
-    "TabOrder": 154,
-    "TextLength": 714,
-    "Tooltip": "ex",
-    "UdefIdentity": 588,
-    "UDListDefinitionId": 269,
+    "ShortLabel": "ipsam",
+    "TabOrder": 464,
+    "TextLength": 804,
+    "Tooltip": "iure",
+    "UdefIdentity": 794,
+    "UDListDefinitionId": 106,
     "Justification": "Center",
-    "Version": 155,
-    "TemplateVariableName": "Thompson-Romaguera",
+    "Version": 940,
+    "TemplateVariableName": "Maggio, DuBuque and Yundt",
     "HasBeenPublished": false,
-    "MdoListName": "Keeling-Lueilwitz",
+    "MdoListName": "Raynor Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 940
       }
     }
   }

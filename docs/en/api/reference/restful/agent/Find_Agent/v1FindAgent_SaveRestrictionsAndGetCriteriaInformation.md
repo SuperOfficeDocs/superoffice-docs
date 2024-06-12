@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "porro",
-  "ProviderName": "Romaguera-Braun",
-  "StorageKey": "velit",
+  "StorageType": "animi",
+  "ProviderName": "Stanton, Kub and Dach",
+  "StorageKey": "laborum",
   "Restrictions": [
     {
-      "Name": "Kiehn, Rodriguez and Waters",
-      "Operator": "aut",
+      "Name": "Auer-Brekke",
+      "Operator": "adipisci",
       "Values": [
-        "dolores",
-        "aut"
+        "et",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "id",
-        "et"
+        "impedit",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 634,
+      "InterParenthesis": 620,
       "InterOperator": "And",
-      "UniqueHash": 788
+      "UniqueHash": 214
     }
   ],
   "StaticColumns": [
-    "corporis",
-    "consequatur"
+    "ut",
+    "quae"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lindgren-Runte",
-      "Operator": "laborum",
+      "Name": "Streich Group",
+      "Operator": "repellat",
       "Values": [
         "non",
-        "aperiam"
+        "repudiandae"
       ],
       "DisplayValues": [
-        "suscipit",
-        "saepe"
+        "in",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 743,
+      "InterParenthesis": 326,
       "InterOperator": "And",
-      "UniqueHash": 301
+      "UniqueHash": 770
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Gorczany-Ward",
-      "DisplayTooltip": "eum",
-      "DisplayType": "deleniti",
-      "CanOrderBy": false,
-      "Name": "Rice-Cummerata",
+      "DisplayName": "Ernser, Hintz and Herzog",
+      "DisplayTooltip": "laborum",
+      "DisplayType": "aut",
+      "CanOrderBy": true,
+      "Name": "Schumm-Berge",
       "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Fahey Group",
+      "RestrictionType": "ut",
+      "RestrictionListName": "Smitham Group",
       "IsVisible": false,
-      "ExtraInfo": "natus",
-      "Width": "vero",
-      "IconHint": "harum",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "enim",
+      "Width": "error",
+      "IconHint": "in",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Blanda, Leuschke and Harber",
-      "PrimaryKey": 823,
+      "EntityName": "Powlowski, Wiegand and Kohler",
+      "PrimaryKey": 21,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "deleniti",
-          "TooltipHint": "vero",
-          "LinkHint": "ut"
+          "DisplayValue": "sit",
+          "TooltipHint": "molestiae",
+          "LinkHint": "amet"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "tenetur",
+      "LinkHint": "magnam",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 138
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Carroll-Mann",
-      "Description": "Programmable zero tolerance website",
-      "Rank": 366,
+      "Name": "Hilpert Inc and Sons",
+      "Description": "Exclusive reciprocal time-frame",
+      "Rank": 690,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Carroll-Mann",
-      "Description": "Programmable zero tolerance website",
-      "Rank": 366,
+      "Name": "Hilpert Inc and Sons",
+      "Description": "Exclusive reciprocal time-frame",
+      "Rank": 690,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 451
     }
   }
 }

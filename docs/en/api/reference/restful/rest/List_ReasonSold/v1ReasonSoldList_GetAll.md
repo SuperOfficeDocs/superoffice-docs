@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Johnson LLC",
-    "Tooltip": "officiis",
+    "Id": 477,
+    "Name": "Haley, Toy and Beatty",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 463,
-    "Rank": 302,
+    "UdListDefinitionId": 319,
+    "Rank": 792,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 184
+        "FieldType": "System.Int32",
+        "FieldLength": 759
       }
     }
   }

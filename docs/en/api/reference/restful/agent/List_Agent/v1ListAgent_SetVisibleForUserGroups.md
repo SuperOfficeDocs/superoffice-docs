@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 383,
-  "ListItemId": 94,
+  "UdListDefinitionId": 910,
+  "ListItemId": 444,
   "UserGroups": [
     {
-      "Id": 824,
-      "Name": "Volkman-Stiedemann",
-      "ToolTip": "Quia magnam consequuntur provident aspernatur quaerat.",
-      "Deleted": true,
-      "Rank": 219,
-      "Type": "placeat",
-      "ColorBlock": 762,
-      "IconHint": "culpa",
+      "Id": 74,
+      "Name": "Lehner Group",
+      "ToolTip": "Aliquam ipsa non autem iste.",
+      "Deleted": false,
+      "Rank": 430,
+      "Type": "ut",
+      "ColorBlock": 215,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2015-10-08T12:57:34.1336045+02:00",
+      "LastChanged": "2017-09-22T04:22:26.969259+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rerum",
-      "StyleHint": "officia",
-      "Hidden": false,
-      "FullName": "Loma Greenfelder"
+      "ExtraInfo": "inventore",
+      "StyleHint": "impedit",
+      "Hidden": true,
+      "FullName": "Zechariah Hahn"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Kovacek Inc and Sons",
-    "ToolTip": "Enim quaerat ducimus unde.",
+    "Id": 130,
+    "Name": "Runolfsdottir Group",
+    "ToolTip": "Exercitationem voluptatem dolorem iusto voluptas qui.",
     "Deleted": false,
-    "Rank": 564,
-    "Type": "corporis",
-    "ColorBlock": 978,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2014-09-28T12:57:34.1492269+02:00",
+    "Rank": 597,
+    "Type": "dignissimos",
+    "ColorBlock": 138,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2011-03-16T04:22:26.969259+01:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Grady, Walsh and O'Hara",
-        "ToolTip": "Fugiat et.",
-        "Deleted": false,
-        "Rank": 925,
-        "Type": "et",
-        "ColorBlock": 378,
-        "IconHint": "rerum",
+        "Id": 744,
+        "Name": "Greenholt Group",
+        "ToolTip": "Similique placeat id.",
+        "Deleted": true,
+        "Rank": 190,
+        "Type": "quod",
+        "ColorBlock": 534,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2022-06-12T12:57:34.1492269+02:00",
+        "LastChanged": "2017-11-28T04:22:26.969259+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "ut",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Miss Leopold Towne",
+        "FullName": "Dr. Savion Alayna Abernathy II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldType": "System.String",
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Miss Javon Bernhard Cassin III",
+    "ExtraInfo": "rerum",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Taylor Mathias Howell MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 332
+        "FieldLength": 13
       }
     }
   }

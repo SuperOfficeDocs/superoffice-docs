@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=915
+POST /api/v1/Agents/Document/GetDocument?documentId=133
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 769,
-  "Attention": "occaecati",
-  "Header": "similique",
-  "Name": "Gerhold-Johns",
-  "OurRef": "quis",
-  "YourRef": "dolorum",
-  "Description": "Visionary holistic matrices",
-  "DocumentTemplate": "eos",
-  "IsPublished": false,
-  "PersonId": 90,
-  "PersonFullName": "Kyra Smith II",
-  "AssociateFullName": "Fritz Ondricka",
-  "ContactId": 405,
-  "ContactName": "Senger-Rath",
-  "ProjectId": 394,
-  "ProjectName": "Labadie Inc and Sons",
-  "AssociateId": 813,
-  "Snum": 703,
-  "SaleId": 806,
-  "SaleName": "Howe-Braun",
+  "DocumentId": 792,
+  "Attention": "veritatis",
+  "Header": "labore",
+  "Name": "Hyatt, Kreiger and Leuschke",
+  "OurRef": "similique",
+  "YourRef": "quia",
+  "Description": "Vision-oriented high-level workforce",
+  "DocumentTemplate": "at",
+  "IsPublished": true,
+  "PersonId": 771,
+  "PersonFullName": "Celia Jordi VonRueden DVM",
+  "AssociateFullName": "Donny Pfannerstill",
+  "ContactId": 682,
+  "ContactName": "Johnson, Batz and West",
+  "ProjectId": 235,
+  "ProjectName": "Collier-Hackett",
+  "AssociateId": 684,
+  "Snum": 806,
+  "SaleId": 925,
+  "SaleName": "Borer Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 913
     }
   }
 }

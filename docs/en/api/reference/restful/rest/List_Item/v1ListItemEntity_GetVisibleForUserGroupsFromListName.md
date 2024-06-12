@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Zulauf Inc and Sons",
-    "ToolTip": "Non voluptatem id.",
+    "Id": 596,
+    "Name": "Nader-Schinner",
+    "ToolTip": "Consequatur necessitatibus voluptatem.",
     "Deleted": false,
-    "Rank": 787,
-    "Type": "dolore",
-    "ColorBlock": 833,
-    "IconHint": "cupiditate",
+    "Rank": 868,
+    "Type": "corporis",
+    "ColorBlock": 192,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2022-12-23T12:57:43.2927185+01:00",
+    "LastChanged": "2014-10-13T04:22:35.7834778+02:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Mohr, Larkin and Thiel",
-        "ToolTip": "Voluptatem qui qui suscipit in doloremque ut.",
+        "Id": 879,
+        "Name": "Gleason-Herzog",
+        "ToolTip": "Aut cupiditate consequatur molestiae nesciunt.",
         "Deleted": false,
-        "Rank": 25,
-        "Type": "fugit",
-        "ColorBlock": 675,
-        "IconHint": "odit",
+        "Rank": 19,
+        "Type": "nihil",
+        "ColorBlock": 9,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2009-07-19T12:57:43.2927185+02:00",
+        "LastChanged": "2002-07-19T04:22:35.7834778+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Dr. Macie Lemke II",
+        "ExtraInfo": "est",
+        "StyleHint": "officia",
+        "Hidden": true,
+        "FullName": "Ms. Cleta Mauricio Ullrich Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldLength": 265
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Ken Keshawn Labadie DVM",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Samantha Conn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 579
       }
     }
   }

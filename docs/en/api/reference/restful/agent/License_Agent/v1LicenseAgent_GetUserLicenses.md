@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 414
+  "AssociateId": 120
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haley-Homenick",
-    "Description": "Innovative secondary benchmark",
+    "Name": "Green LLC",
+    "Description": "Horizontal fault-tolerant ability",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 387,
-        "Tooltip": "ratione",
+        "Total": 262,
+        "Tooltip": "facere",
         "CanAssign": true,
-        "Free": 314,
-        "InUse": 968,
+        "Free": 498,
+        "InUse": 560,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 143,
-        "Name": "Graham Inc and Sons",
-        "Description": "De-engineered assymetric process improvement",
-        "PrerequisiteModuleName": "Trantow, Volkman and Davis",
-        "SortOrder": 108,
-        "ExtraFlags": 403,
+        "ModuleLicenseId": 668,
+        "Name": "Reynolds-Braun",
+        "Description": "Programmable asynchronous application",
+        "PrerequisiteModuleName": "Metz Group",
+        "SortOrder": 507,
+        "ExtraFlags": 731,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldType": "System.String",
+            "FieldLength": 254
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 280,
-        "Tooltip": "aut",
-        "CanAssign": true,
-        "Free": 152,
-        "InUse": 207,
-        "IsHidden": true,
+        "Total": 958,
+        "Tooltip": "ipsum",
+        "CanAssign": false,
+        "Free": 994,
+        "InUse": 113,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 756,
-        "Name": "Zieme-Jewess",
-        "Description": "Robust multimedia time-frame",
-        "PrerequisiteModuleName": "Dickens Group",
-        "SortOrder": 50,
-        "ExtraFlags": 278,
+        "ModuleLicenseId": 851,
+        "Name": "Boyle-Kihn",
+        "Description": "Implemented contextually-based infrastructure",
+        "PrerequisiteModuleName": "Mertz-Johnston",
+        "SortOrder": 432,
+        "ExtraFlags": 287,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldLength": 257
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 859
       }
     }
   },
   {
-    "Name": "Haley-Homenick",
-    "Description": "Innovative secondary benchmark",
+    "Name": "Green LLC",
+    "Description": "Horizontal fault-tolerant ability",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 387,
-        "Tooltip": "ratione",
+        "Total": 262,
+        "Tooltip": "facere",
         "CanAssign": true,
-        "Free": 314,
-        "InUse": 968,
+        "Free": 498,
+        "InUse": 560,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 143,
-        "Name": "Graham Inc and Sons",
-        "Description": "De-engineered assymetric process improvement",
-        "PrerequisiteModuleName": "Trantow, Volkman and Davis",
-        "SortOrder": 108,
-        "ExtraFlags": 403,
+        "ModuleLicenseId": 668,
+        "Name": "Reynolds-Braun",
+        "Description": "Programmable asynchronous application",
+        "PrerequisiteModuleName": "Metz Group",
+        "SortOrder": 507,
+        "ExtraFlags": 731,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldType": "System.String",
+            "FieldLength": 254
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 280,
-        "Tooltip": "aut",
-        "CanAssign": true,
-        "Free": 152,
-        "InUse": 207,
-        "IsHidden": true,
+        "Total": 958,
+        "Tooltip": "ipsum",
+        "CanAssign": false,
+        "Free": 994,
+        "InUse": 113,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 756,
-        "Name": "Zieme-Jewess",
-        "Description": "Robust multimedia time-frame",
-        "PrerequisiteModuleName": "Dickens Group",
-        "SortOrder": 50,
-        "ExtraFlags": 278,
+        "ModuleLicenseId": 851,
+        "Name": "Boyle-Kihn",
+        "Description": "Implemented contextually-based infrastructure",
+        "PrerequisiteModuleName": "Mertz-Johnston",
+        "SortOrder": 432,
+        "ExtraFlags": 287,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldLength": 257
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 859
       }
     }
   }

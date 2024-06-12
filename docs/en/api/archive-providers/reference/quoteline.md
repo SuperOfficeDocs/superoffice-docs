@@ -71,7 +71,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLine?$select=quoteLineId,UnitListPriceSubscriptionQuantity,unitListPrice
+GET /api/v1/archive/QuoteLine?$select=unitListPrice,productTypeKey,vatAmount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

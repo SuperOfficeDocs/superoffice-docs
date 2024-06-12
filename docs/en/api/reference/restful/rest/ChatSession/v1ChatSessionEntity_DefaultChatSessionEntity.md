@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 947,
-  "TopicId": 247,
+  "ChatSessionId": 950,
+  "TopicId": 55,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ipsa",
-  "CustomerHost": "rerum",
-  "CustomerName": "Connelly, Jewess and DuBuque",
-  "CustomerEmail": "jonathan.abernathy@huelhuel.uk",
-  "CustomerPhone": "(451)805-4891 x988",
+  "CustomerAlias": "eos",
+  "CustomerHost": "enim",
+  "CustomerName": "Klein, Medhurst and Jewess",
+  "CustomerEmail": "sophie@erdman.co.uk",
+  "CustomerPhone": "568.348.5472 x142",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Durgan-Macejkovic",
+  "CustomerCompanyName": "Wiegand Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "aut",
-  "WhenRequested": "2002-07-02T12:57:41.8858847+02:00",
-  "WhenStarted": "2008-12-16T12:57:41.8858847+01:00",
-  "WhenEnded": "1997-01-18T12:57:41.8858847+01:00",
-  "WhenIdle": "2016-10-22T12:57:41.8858847+02:00",
-  "WhenFetched": "2010-09-12T12:57:41.8858847+02:00",
-  "SessionKey": "exercitationem",
-  "InitialQueuePos": 700,
-  "AlertLevel": 197,
-  "Rank": 734,
+  "FirstMessage": "dolor",
+  "LastMessage": "suscipit",
+  "WhenRequested": "2000-01-17T04:22:34.5933791+01:00",
+  "WhenStarted": "2017-12-15T04:22:34.5933791+01:00",
+  "WhenEnded": "2001-04-09T04:22:34.5933791+02:00",
+  "WhenIdle": "2007-03-01T04:22:34.5933791+01:00",
+  "WhenFetched": "2011-05-02T04:22:34.5933791+02:00",
+  "SessionKey": "officiis",
+  "InitialQueuePos": 627,
+  "AlertLevel": 898,
+  "Rank": 461,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 447,
+  "ChatbotIsActive": false,
+  "Rating": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 285
     }
   }
 }

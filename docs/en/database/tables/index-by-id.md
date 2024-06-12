@@ -532,19 +532,21 @@ so.envir: onsite, online
 |515| [workflow\_trigger](workflow-trigger.md) |A set of triggers related to a workflow.|
 |516| [workflow\_step\_option](workflow-step-option.md) |Some steps can have optional child &apos;flows&apos;, a new series of steps|
 |517| [workflow\_step\_option\_link](workflow-step-option-link.md) |Link steps to other steps through step options|
-|518| [email\_flow\_content\_link](email-flow-content-link.md) |Link message content to an email workflow|
+|518| [email\_flow\_content\_link](email-flow-content-link.md) |Links content to an email workflow|
 |519| [temp\_db\_lock](temp-db-lock.md) |Represents a temporary lock on a resource identified by table_id and key|
 |520| [workflow\_wait\_for\_action](workflow-wait-for-action.md) |Some steps wait for actions, this is info about those actions|
-|521| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
-|522| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
-|523| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
-|524| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
-|525| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
-|526| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
-|527| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
-|528| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
-|529| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
-|530| [ticket\_type](ticket-type.md) |A ticket (request) type|
-|531| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
-|532| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
+|521| [workflow\_root\_step\_link](workflow-root-step-link.md) |Link root steps to the workflow|
+|522| [form\_field\_value](form-field-value.md) |Form field values saved in a searchable format|
+|523| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
+|524| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
+|525| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
+|526| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
+|527| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
+|528| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
+|529| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
+|530| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
+|531| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
+|532| [ticket\_type](ticket-type.md) |A ticket (request) type|
+|533| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
+|534| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
 

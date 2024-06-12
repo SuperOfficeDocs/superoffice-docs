@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 256,
-  "IncludeEmails": true
+  "DocumentPluginId": 166,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 334,
-  "NumDocumentsAlreadyMigrated": 358,
+  "NumDocumentsOmitted": 185,
+  "NumDocumentsAlreadyMigrated": 469,
   "Documents": [
     {
-      "DocumentId": 191,
-      "ContactId": 514,
-      "PersonId": 837,
-      "SaleId": 360,
-      "ProjectId": 779,
-      "DocTmplId": 510,
-      "AssociateId": 92,
-      "UserGroupId": 472,
-      "VisibleForId": 908
+      "DocumentId": 464,
+      "ContactId": 913,
+      "PersonId": 412,
+      "SaleId": 182,
+      "ProjectId": 711,
+      "DocTmplId": 907,
+      "AssociateId": 871,
+      "UserGroupId": 824,
+      "VisibleForId": 753
     }
   ],
   "Associates": [
     {
-      "AssociateId": 788,
-      "EmailAddress": "myrtie@dicki.us"
+      "AssociateId": 152,
+      "EmailAddress": "glen@corwin.info"
     },
     {
-      "AssociateId": 788,
-      "EmailAddress": "myrtie@dicki.us"
+      "AssociateId": 152,
+      "EmailAddress": "glen@corwin.info"
     }
   ]
 }

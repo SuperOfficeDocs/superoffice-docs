@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 661,
+  "PersonId": 935,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Crist-Reichert",
-    "SaleDate": "2015-08-24T12:57:34.8833406+02:00",
-    "SaleId": 557,
-    "Probability": 363,
-    "Title": "provident",
-    "Amount": 2526.004,
-    "Currency": "repellendus",
-    "ProjectName": "Murazik, Stoltenberg and Frami",
-    "AssociateFullName": "Miss Ned Euna Powlowski V",
-    "Description": "Up-sized discrete neural-net",
+    "ContactName": "Kemmer, Purdy and Schuppe",
+    "SaleDate": "2008-04-28T04:22:27.5648986+02:00",
+    "SaleId": 133,
+    "Probability": 424,
+    "Title": "repudiandae",
+    "Amount": 17102.238,
+    "Currency": "doloremque",
+    "ProjectName": "Dickinson, Huels and Treutel",
+    "AssociateFullName": "Prof. Gianni Pacocha Jr.",
+    "Description": "Decentralized systematic capability",
     "Status": "Lost",
-    "WeightedAmount": 11727.428,
-    "ProjectId": 912,
-    "EarningPercent": 8060.648,
-    "Earning": 18832.206,
-    "ContactId": 185,
-    "AssociateId": 969,
-    "PersonId": 494,
-    "SaleTypeId": 393,
-    "SaleTypeName": "Treutel Inc and Sons",
-    "PersonFullName": "Eldridge Johns",
+    "WeightedAmount": 7170.592,
+    "ProjectId": 255,
+    "EarningPercent": 12457.65,
+    "Earning": 30565.902,
+    "ContactId": 123,
+    "AssociateId": 2,
+    "PersonId": 755,
+    "SaleTypeId": 641,
+    "SaleTypeName": "Bednar Inc and Sons",
+    "PersonFullName": "Elisabeth Morissette",
     "Completed": "Completed",
-    "ActiveErpLinks": 896,
-    "NextDueDate": "2012-02-06T12:57:34.8833406+01:00",
-    "Number": "1124272",
+    "ActiveErpLinks": 988,
+    "NextDueDate": "2010-04-10T04:22:27.5648986+02:00",
+    "Number": "1035753",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

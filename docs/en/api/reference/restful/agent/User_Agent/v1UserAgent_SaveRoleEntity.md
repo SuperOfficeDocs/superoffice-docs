@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 936,
-  "Name": "Ryan LLC",
+  "RoleId": 172,
+  "Name": "Corwin-Jerde",
   "Tooltip": "soluta",
   "RoleType": "Anonymous",
-  "Deleted": 252,
-  "Rank": 903,
-  "Created": "2001-07-12T12:57:35.2743471+02:00",
-  "UseCategories": 168,
+  "Deleted": 787,
+  "Rank": 127,
+  "Created": "2007-12-15T04:22:28.0537538+01:00",
+  "UseCategories": 250,
   "CreatedBy": null,
-  "Updated": "2022-08-07T12:57:35.2743471+02:00",
+  "Updated": "2023-04-04T04:22:28.0537538+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 686,
-  "Name": "Quigley-Frami",
-  "Tooltip": "iure",
+  "RoleId": 118,
+  "Name": "Koelpin, Lemke and Rogahn",
+  "Tooltip": "blanditiis",
   "RoleType": "Anonymous",
-  "Deleted": 218,
-  "Rank": 828,
-  "Created": "2009-04-08T12:57:35.2743471+02:00",
-  "UseCategories": 142,
+  "Deleted": 571,
+  "Rank": 711,
+  "Created": "1999-11-21T04:22:28.0537538+01:00",
+  "UseCategories": 95,
   "CreatedBy": null,
-  "Updated": "2002-06-05T12:57:35.2743471+02:00",
+  "Updated": "1997-10-03T04:22:28.0537538+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

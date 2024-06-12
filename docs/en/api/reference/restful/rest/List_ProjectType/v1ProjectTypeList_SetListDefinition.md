@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Huel Group",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "Rank": 889,
+  "Id": 75,
+  "Name": "Hodkiewicz, Wintheiser and Tillman",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 563,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Name": "Robel-Smith",
-  "Tooltip": "quam",
+  "Id": 959,
+  "Name": "Ratke-Green",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 567,
+  "Rank": 340,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 476
     }
   }
 }

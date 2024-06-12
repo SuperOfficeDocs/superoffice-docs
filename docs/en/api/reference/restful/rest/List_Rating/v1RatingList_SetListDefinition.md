@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 892,
-  "Name": "O'Keefe-Wiza",
-  "Tooltip": "illum",
+  "Id": 411,
+  "Name": "Baumbach-Trantow",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 685,
+  "Rank": 639,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 294,
-  "Name": "Ferry, Sanford and Corkery",
-  "Tooltip": "quod",
+  "Id": 128,
+  "Name": "Powlowski LLC",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 226,
+  "Rank": 111,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "nulla",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 244
     }
   }
 }

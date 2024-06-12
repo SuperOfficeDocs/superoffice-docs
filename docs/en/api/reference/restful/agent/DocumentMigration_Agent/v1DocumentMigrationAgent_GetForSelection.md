@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 729,
-  "SelectionId": 186,
-  "IncludeEmails": true
+  "DocumentPluginId": 443,
+  "SelectionId": 306,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 990,
-  "NumDocumentsAlreadyMigrated": 939,
+  "NumDocumentsOmitted": 455,
+  "NumDocumentsAlreadyMigrated": 261,
   "Documents": [
     {
-      "DocumentId": 554,
-      "ContactId": 978,
-      "PersonId": 127,
-      "SaleId": 979,
-      "ProjectId": 464,
-      "DocTmplId": 761,
-      "AssociateId": 190,
-      "UserGroupId": 476,
-      "VisibleForId": 822
+      "DocumentId": 428,
+      "ContactId": 158,
+      "PersonId": 100,
+      "SaleId": 726,
+      "ProjectId": 485,
+      "DocTmplId": 698,
+      "AssociateId": 961,
+      "UserGroupId": 628,
+      "VisibleForId": 20
     }
   ],
   "Associates": [
     {
-      "AssociateId": 465,
-      "EmailAddress": "lorenzo@lockmanmccullough.com"
+      "AssociateId": 375,
+      "EmailAddress": "frederique@hirthe.info"
     },
     {
-      "AssociateId": 465,
-      "EmailAddress": "lorenzo@lockmanmccullough.com"
+      "AssociateId": 375,
+      "EmailAddress": "frederique@hirthe.info"
     }
   ]
 }

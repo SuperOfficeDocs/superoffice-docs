@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cole, Maggio and McGlynn",
-  "Context": "quia"
+  "TableName": "Buckridge Group",
+  "Context": "laboriosam"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "CanSupportMultiUse": true,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "reiciendis",
-    "ValueType": "tempore",
-    "Mandatory": true,
-    "EncodedDisplayName": "Tremblay-Champlin",
-    "EncodedDisplayDescription": "Digitized modular success",
-    "IconHint": "quibusdam",
+    "Key": "dolorem",
+    "ValueType": "placeat",
+    "Mandatory": false,
+    "EncodedDisplayName": "Bergnaum-Cruickshank",
+    "EncodedDisplayDescription": "Configurable dynamic leverage",
+    "IconHint": "consequuntur",
     "ControlInfos": [
       {
-        "Type": "debitis",
-        "Label": "qui",
-        "Dimension": 273,
-        "ListProviderName": "Mante, Blick and Funk",
-        "ListProviderExtraInfo": "quo",
-        "ListProviderPrimaryKeyName": "Gottlieb-Farrell",
-        "ListLeadText": "odio",
+        "Type": "qui",
+        "Label": "perferendis",
+        "Dimension": 422,
+        "ListProviderName": "Okuneva-Zboncak",
+        "ListProviderExtraInfo": "modi",
+        "ListProviderPrimaryKeyName": "McClure, Borer and Kessler",
+        "ListLeadText": "officiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 91
+            "FieldType": "System.String",
+            "FieldLength": 812
           }
         }
       }
     ],
-    "EncodedDataCaption": "quos",
-    "EncodedDataCaptionDescription": "Managed stable time-frame",
-    "CurrentOperationType": "at",
+    "EncodedDataCaption": "non",
+    "EncodedDataCaptionDescription": "Business-focused attitude-oriented analyzer",
+    "CurrentOperationType": "rem",
     "Values": [
-      "itaque",
-      "nisi"
+      "recusandae",
+      "in"
     ],
     "DisplayValues": [
-      "odio",
-      "numquam"
+      "in",
+      "voluptas"
     ],
     "OperationInfos": [
       {
-        "Key": "fugit",
-        "EncodedDisplayName": "Kovacek, Hauck and Gorczany",
+        "Key": "rerum",
+        "EncodedDisplayName": "Feeney Inc and Sons",
         "EncodedLeadTexts": [
-          "sint",
-          "quas"
+          "fuga",
+          "ipsa"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldLength": 975
           }
         }
       },
       {
-        "Key": "fugit",
-        "EncodedDisplayName": "Kovacek, Hauck and Gorczany",
+        "Key": "rerum",
+        "EncodedDisplayName": "Feeney Inc and Sons",
         "EncodedLeadTexts": [
-          "sint",
-          "quas"
+          "fuga",
+          "ipsa"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldLength": 975
           }
         }
       }

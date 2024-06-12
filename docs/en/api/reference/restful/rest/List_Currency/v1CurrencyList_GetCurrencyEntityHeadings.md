@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Reinger, Sanford and Lebsack",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "Rank": 986,
-    "UdListDefinitionId": 335,
+    "HeadingId": 620,
+    "Name": "Fadel, West and Davis",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "Rank": 307,
+    "UdListDefinitionId": 146,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

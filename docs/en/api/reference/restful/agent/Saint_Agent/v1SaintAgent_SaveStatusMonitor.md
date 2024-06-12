@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 544,
-  "Rank": 262,
-  "DefaultTask": 994,
-  "DefaultTaskText": "temporibus",
+  "OwnerTable": 228,
+  "Rank": 448,
+  "DefaultTask": 601,
+  "DefaultTaskText": "officiis",
   "IsVisual": false,
-  "LastGenerated": "2024-02-11T12:57:34.7896763+01:00",
-  "Description": "Configurable optimal capability",
-  "Name": "Moen Group",
-  "StatusMonitorId": 990,
-  "PictureId": 993,
+  "LastGenerated": "2011-01-26T04:22:27.4788585+01:00",
+  "Description": "Upgradable 24/7 challenge",
+  "Name": "Hermiston Group",
+  "StatusMonitorId": 553,
+  "PictureId": 343,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 522,
-  "NumNeedUpdate": 285,
-  "GenerationStart": "2003-03-29T12:57:34.7896763+01:00"
+  "NumMatches": 999,
+  "NumNeedUpdate": 852,
+  "GenerationStart": "2009-11-05T04:22:27.4788585+01:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 512,
-  "Rank": 580,
-  "DefaultTask": 80,
-  "DefaultTaskText": "quasi",
-  "IsVisual": false,
-  "LastGenerated": "2006-08-21T12:57:34.7896763+02:00",
-  "Description": "Optional homogeneous contingency",
-  "Name": "Lang LLC",
-  "StatusMonitorId": 144,
-  "PictureId": 876,
+  "OwnerTable": 401,
+  "Rank": 309,
+  "DefaultTask": 293,
+  "DefaultTaskText": "modi",
+  "IsVisual": true,
+  "LastGenerated": "2001-06-13T04:22:27.4788585+02:00",
+  "Description": "Centralized 4th generation process improvement",
+  "Name": "Ritchie, Marks and Koch",
+  "StatusMonitorId": 93,
+  "PictureId": 526,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 127,
-  "NumNeedUpdate": 661,
-  "GenerationStart": "2007-10-09T12:57:34.7896763+02:00",
+  "NumMatches": 689,
+  "NumNeedUpdate": 453,
+  "GenerationStart": "2023-04-03T04:22:27.4788585+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 476
     }
   }
 }

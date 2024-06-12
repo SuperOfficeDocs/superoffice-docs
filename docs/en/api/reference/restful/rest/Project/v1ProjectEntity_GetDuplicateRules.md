@@ -58,7 +58,7 @@ OK
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Conroy Inc and Sons",
-    "DisplayName": "Becker-Bartoletti",
-    "DisplayTooltip": "quaerat",
-    "IsActive": false,
+    "Name": "Bashirian LLC",
+    "DisplayName": "Goyette LLC",
+    "DisplayTooltip": "officia",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldLength": 95
       }
     }
   },
   {
-    "Name": "Conroy Inc and Sons",
-    "DisplayName": "Becker-Bartoletti",
-    "DisplayTooltip": "quaerat",
-    "IsActive": false,
+    "Name": "Bashirian LLC",
+    "DisplayName": "Goyette LLC",
+    "DisplayTooltip": "officia",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldLength": 95
       }
     }
   }

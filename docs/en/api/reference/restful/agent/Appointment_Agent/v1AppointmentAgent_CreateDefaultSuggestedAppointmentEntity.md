@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 334,
-  "Name": "Pollich-Schamberger",
-  "Tooltip": "quis",
-  "Rank": 416,
-  "Deleted": true,
-  "DaysFuture": 86,
-  "Duration": "et",
+  "SuggestedAppointmentId": 581,
+  "Name": "Krajcik, Hickle and Pagac",
+  "Tooltip": "asperiores",
+  "Rank": 619,
+  "Deleted": false,
+  "DaysFuture": 300,
+  "Duration": "omnis",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "exercitationem",
+  "Text": "est",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

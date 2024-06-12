@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 995,
-    "FieldName": "Schaefer-Berge",
-    "Label": "ab",
-    "Tooltip": "vel",
+    "QuoteLineConfigurationId": 941,
+    "FieldName": "Howe, Paucek and Kris",
+    "Label": "adipisci",
+    "Tooltip": "eos",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 716,
-    "RestrictEdit": true,
+    "Rank": 275,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 788
       }
     }
   }

@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Person/RemoveConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 194,
-  "Purpose": "quaerat"
+  "PersonId": 72,
+  "Purpose": "provident"
 }
 ```
 

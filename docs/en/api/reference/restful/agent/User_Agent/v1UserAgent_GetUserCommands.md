@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mitchell LLC",
-    "DisplayName": "Hauck Inc and Sons",
-    "Description": "Up-sized tertiary challenge",
-    "ToolTip": "Exercitationem voluptas accusamus eum veritatis aut maxime dolorem.",
+    "Name": "Abernathy, Rempel and Bernhard",
+    "DisplayName": "Ryan, Boehm and Toy",
+    "Description": "Extended client-server support",
+    "ToolTip": "Quaerat consequatur et ab deserunt facilis quia.",
     "Actions": "Implicit",
-    "ActionData": "at",
+    "ActionData": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

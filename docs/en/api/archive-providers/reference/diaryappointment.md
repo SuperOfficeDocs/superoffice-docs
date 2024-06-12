@@ -67,7 +67,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |duration|timeSpan|Duration: The duration of the chat session|  |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |visibleFor|listAny|Visible for|  |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -301,7 +301,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -628,7 +628,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -722,7 +722,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryAppointment?$select=person/kanaLastName,person/personUpdatedBy,sale/associate/contactName
+GET /api/v1/archive/DiaryAppointment?$select=contact/contactExtra/x_contact_contact_relation,contact/NumberOfNotCompletedSales,person/personBusiness,person/personExtra/x_person_datetime,project/LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

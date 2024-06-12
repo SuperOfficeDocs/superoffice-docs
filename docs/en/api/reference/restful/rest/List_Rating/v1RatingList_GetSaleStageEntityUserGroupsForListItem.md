@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 310,
-    "Name": "Armstrong LLC",
-    "ToolTip": "Corporis quis deserunt et error omnis sapiente.",
+    "Id": 613,
+    "Name": "Hudson-Bins",
+    "ToolTip": "Voluptatibus error laboriosam veritatis similique odio aspernatur.",
     "Deleted": true,
-    "Rank": 552,
-    "Type": "quo",
-    "ColorBlock": 360,
-    "IconHint": "sed",
+    "Rank": 634,
+    "Type": "vero",
+    "ColorBlock": 954,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2006-08-21T12:57:43.6832538+02:00",
+    "LastChanged": "2009-07-03T04:22:36.1278402+02:00",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Gerhold Inc and Sons",
-        "ToolTip": "Nobis nulla aliquid suscipit quaerat quo.",
+        "Id": 219,
+        "Name": "Greenfelder, McLaughlin and Eichmann",
+        "ToolTip": "Fugit aut est ducimus.",
         "Deleted": false,
-        "Rank": 170,
-        "Type": "voluptatum",
-        "ColorBlock": 417,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2020-12-20T12:57:43.6832538+01:00",
+        "Rank": 68,
+        "Type": "quidem",
+        "ColorBlock": 133,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2006-09-29T04:22:36.1278402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "expedita",
+        "ExtraInfo": "sit",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Aniya Howell",
+        "FullName": "Dr. Sophia Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 672
+            "FieldLength": 80
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "eos",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Mr. Max Kip Buckridge II",
+    "FullName": "Dave Miller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 141
       }
     }
   }

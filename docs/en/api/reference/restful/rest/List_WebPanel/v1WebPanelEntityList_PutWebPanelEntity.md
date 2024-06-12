@@ -112,32 +112,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 74,
-  "Name": "Dooley, Dach and Kihn",
-  "Tooltip": "vel",
+  "WebPanelId": 767,
+  "Name": "Waelchi-Jacobi",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 255,
+  "Rank": 898,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Feeney-Willms",
+  "WindowName": "Balistreri Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "architecto",
-  "Icon": 171,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "consequatur",
+  "Icon": 474,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -148,26 +148,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 130,
-  "Name": "Kilback, Greenholt and Buckridge",
-  "Tooltip": "saepe",
+  "WebPanelId": 691,
+  "Name": "Kulas-Schuster",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 758,
+  "Rank": 404,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Hamill, Schowalter and Schiller",
+  "WindowName": "Bechtelar-McLaughlin",
   "Url": "http://www.example.com/",
-  "ProgId": "unde",
-  "Icon": 893,
+  "ProgId": "facilis",
+  "Icon": 221,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldLength": 521
     }
   }
 }

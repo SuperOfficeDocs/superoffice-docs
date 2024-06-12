@@ -111,7 +111,7 @@ Activity archive provider for the Sale card
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -654,7 +654,7 @@ Activity archive provider for the Sale card
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -725,7 +725,7 @@ Activity archive provider for the Sale card
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |duration|timeSpan|Duration: The duration of the chat session|  |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -748,7 +748,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personExtra/x_person_timespan,person/personAssociate/contactDepartment,contact/streetAddress/wgs84longitude,project/projectPublish/publishedFrom,associate/ejDisplayName
+GET /api/v1/archive/SaleActivity?$select=person/personAssociate/mrMrs,contact/postAddress/wgs84longitude,contact/LastSale,project/projectPublish/publishedFrom,project/projectPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

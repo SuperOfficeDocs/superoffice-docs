@@ -286,7 +286,7 @@ Activity archive provider for the Project card
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |mailingAddr/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |mailingAddr/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
@@ -666,7 +666,7 @@ Activity archive provider for the Project card
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -1070,7 +1070,7 @@ Activity archive provider for the Project card
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1141,7 +1141,7 @@ Activity archive provider for the Project card
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |duration|timeSpan|Duration: The duration of the chat session|  |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -1164,7 +1164,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/contactExtra/x_contact_dropdown,mailingAddr/person/personPager/description,mailingAddr/person/personAddress/state,mailingAddr/person/subscription,associate/isActiveText
+GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/email/emailBounceCount,mailingAddr/contact/contactAssociate/contactFullName,mailingAddr/person/supportLanguage,mailingAddr/person/personBusiness,mailingAddr/person/personUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

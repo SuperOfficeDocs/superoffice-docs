@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Keeling Inc and Sons",
-    "ToolTip": "Culpa debitis voluptatem sed.",
+    "Id": 156,
+    "Name": "Ritchie-Hermann",
+    "ToolTip": "Quod quia velit a quo reprehenderit maiores ipsa.",
     "Deleted": true,
-    "Rank": 433,
-    "Type": "quis",
-    "ColorBlock": 196,
-    "IconHint": "soluta",
+    "Rank": 159,
+    "Type": "minima",
+    "ColorBlock": 394,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2017-01-31T12:57:35.2899717+01:00",
+    "LastChanged": "2001-09-25T04:22:28.0850044+02:00",
     "ChildItems": [
       {
-        "Id": 794,
-        "Name": "Kuhn-Beatty",
-        "ToolTip": "Fugit quasi error quae ut unde excepturi a.",
+        "Id": 903,
+        "Name": "Brakus-Emmerich",
+        "ToolTip": "Quae atque consectetur quasi quia fuga officiis ipsa.",
         "Deleted": false,
-        "Rank": 216,
-        "Type": "totam",
-        "ColorBlock": 13,
-        "IconHint": "molestias",
-        "Selected": true,
-        "LastChanged": "2004-02-08T12:57:35.3055929+01:00",
+        "Rank": 919,
+        "Type": "libero",
+        "ColorBlock": 116,
+        "IconHint": "occaecati",
+        "Selected": false,
+        "LastChanged": "2016-05-27T04:22:28.0850044+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "illo",
+        "ExtraInfo": "earum",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Lester Susie Rutherford IV",
+        "FullName": "Linwood McLaughlin PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 347
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Unique Wilkinson",
+    "ExtraInfo": "non",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Dulce Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   }

@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 633
+  "ChatSessionId": 372
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 326,
-  "TopicId": 679,
+  "ChatSessionId": 82,
+  "TopicId": 439,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "omnis",
-  "CustomerName": "Smitham LLC",
-  "CustomerEmail": "hector_ernser@hickle.us",
-  "CustomerPhone": "(511)039-9372 x229",
+  "CustomerAlias": "asperiores",
+  "CustomerHost": "dolorum",
+  "CustomerName": "Weber-Ritchie",
+  "CustomerEmail": "cristobal.prohaska@satterfieldschiller.co.uk",
+  "CustomerPhone": "029.227.9818",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Medhurst Inc and Sons",
+  "CustomerCompanyName": "Roob LLC",
   "Status": "Closed",
-  "FirstMessage": "iusto",
-  "LastMessage": "perspiciatis",
-  "WhenRequested": "2023-03-29T12:57:33.3837477+02:00",
-  "WhenStarted": "2012-04-22T12:57:33.3837477+02:00",
-  "WhenEnded": "2017-07-09T12:57:33.3837477+02:00",
-  "WhenIdle": "2015-04-15T12:57:33.3837477+02:00",
-  "WhenFetched": "2002-03-03T12:57:33.3837477+01:00",
-  "SessionKey": "animi",
-  "InitialQueuePos": 986,
-  "AlertLevel": 508,
-  "Rank": 847,
+  "FirstMessage": "iure",
+  "LastMessage": "itaque",
+  "WhenRequested": "2004-04-15T04:22:26.1215931+02:00",
+  "WhenStarted": "2014-05-06T04:22:26.1215931+02:00",
+  "WhenEnded": "1998-01-05T04:22:26.1215931+01:00",
+  "WhenIdle": "2008-06-18T04:22:26.1215931+02:00",
+  "WhenFetched": "2011-02-17T04:22:26.1215931+01:00",
+  "SessionKey": "nihil",
+  "InitialQueuePos": 60,
+  "AlertLevel": 440,
+  "Rank": 812,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 881,
+  "Rating": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

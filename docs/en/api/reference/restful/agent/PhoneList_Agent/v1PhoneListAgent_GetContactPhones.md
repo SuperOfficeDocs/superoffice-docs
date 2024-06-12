@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 372
+  "ContactId": 812
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-502-425-7394",
-    "PersonCellPhone": "374.916.0113 x89668",
-    "PersonPrivatePhone": "688.230.8305",
-    "PersonFaxNumber": "954567",
-    "PersonPagerNumber": "487660",
-    "PersonEmail": "cora_bins@franecki.uk",
-    "Id": 659,
-    "Name": "Rowe, Blick and Weber",
-    "Tooltip": "nemo",
-    "UniqueId": "sint",
+    "PersonDirectPhone": "765.655.0032 x4484",
+    "PersonCellPhone": "007-046-9335",
+    "PersonPrivatePhone": "1-552-264-7960 x1330",
+    "PersonFaxNumber": "931005",
+    "PersonPagerNumber": "508183",
+    "PersonEmail": "freddie_wintheiser@pollich.co.uk",
+    "Id": 678,
+    "Name": "Jast-Padberg",
+    "Tooltip": "pariatur",
+    "UniqueId": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 958
       }
     }
   }

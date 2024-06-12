@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Marquardt Inc and Sons",
-    "ToolTip": "Nulla magnam praesentium consectetur.",
+    "Id": 661,
+    "Name": "Vandervort, Larkin and Runte",
+    "ToolTip": "Nihil quasi et.",
     "Deleted": false,
-    "Rank": 860,
-    "Type": "dolor",
-    "ColorBlock": 723,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2009-10-22T12:57:43.4333137+02:00",
+    "Rank": 245,
+    "Type": "debitis",
+    "ColorBlock": 162,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2004-08-08T04:22:35.9090937+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Lubowitz LLC",
-        "ToolTip": "Aut illum.",
+        "Id": 502,
+        "Name": "Weissnat LLC",
+        "ToolTip": "Magni modi a.",
         "Deleted": false,
-        "Rank": 493,
-        "Type": "esse",
-        "ColorBlock": 946,
-        "IconHint": "quia",
+        "Rank": 471,
+        "Type": "placeat",
+        "ColorBlock": 101,
+        "IconHint": "aspernatur",
         "Selected": true,
-        "LastChanged": "2017-06-02T12:57:43.4333137+02:00",
+        "LastChanged": "2021-10-04T04:22:35.9090937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "quia",
+        "ExtraInfo": "quidem",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Jonas Hermiston"
+        "FullName": "Gerald Lind"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "qui",
+    "ExtraInfo": "qui",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Ms. Aurelia Theodora Grant"
+    "FullName": "Ms. Alyce Britney Pfeffer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Bergstrom-Bosco",
-    "ToolTip": "Ipsam consequatur.",
+    "Id": 835,
+    "Name": "Nikolaus, Goodwin and Mann",
+    "ToolTip": "Omnis reiciendis sed.",
     "Deleted": false,
-    "Rank": 968,
-    "Type": "commodi",
-    "ColorBlock": 951,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2008-06-16T12:57:43.4333137+02:00",
+    "Rank": 537,
+    "Type": "quos",
+    "ColorBlock": 131,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2006-07-21T04:22:35.9090937+02:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Yost-Waters",
-        "ToolTip": "Explicabo sed ipsam est et recusandae ad quia.",
+        "Id": 349,
+        "Name": "Quigley-Langosh",
+        "ToolTip": "Suscipit necessitatibus exercitationem mollitia est ad similique.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "quam",
-        "ColorBlock": 106,
-        "IconHint": "aut",
+        "Rank": 224,
+        "Type": "optio",
+        "ColorBlock": 364,
+        "IconHint": "minus",
         "Selected": true,
-        "LastChanged": "2014-11-18T12:57:43.4333137+01:00",
+        "LastChanged": "2013-12-18T04:22:35.9090937+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "nemo",
+        "ExtraInfo": "neque",
+        "StyleHint": "commodi",
         "Hidden": true,
-        "FullName": "Moses Rippin",
+        "FullName": "Ima Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldType": "System.String",
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
+    "ExtraInfo": "est",
     "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Henriette Thurman O'Conner MD",
+    "FullName": "Prudence Macejkovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

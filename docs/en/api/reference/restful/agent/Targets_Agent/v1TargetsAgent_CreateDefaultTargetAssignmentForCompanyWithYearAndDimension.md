@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 766,
-  "TargetDimensionId": 16
+  "Year": 711,
+  "TargetDimensionId": 174
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 653,
+    "TargetAssignmentInfoId": 917,
     "Values": [
-      524,
-      689
+      515,
+      491
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 542,
-    "DimensionListItemDisplayName": "Tremblay, Bednar and Cummings",
+    "DimensionListItem": 498,
+    "DimensionListItemDisplayName": "Eichmann, Frami and Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

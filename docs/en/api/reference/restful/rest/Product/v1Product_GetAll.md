@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=facilis
-GET /api/v1/Product?$top=686
-GET /api/v1/Product?$skip=73
+GET /api/v1/Product?$entities=sunt
+GET /api/v1/Product?$top=115
+GET /api/v1/Product?$skip=114
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=similique
+GET /api/v1/Product?$context=sed
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "officiis",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 8540,
+      "PrimaryKey": 4072,
       "EntityName": "sale",
-      "saleId": 8540,
-      "contactId": 8143,
-      "name": "Nikolaus-Rippin"
+      "saleId": 4072,
+      "contactId": 3100,
+      "name": "Johnston-Beer"
     },
     {
-      "PrimaryKey": 8083,
+      "PrimaryKey": 679,
       "EntityName": "sale",
-      "saleId": 8083,
-      "contactId": 6543,
-      "name": "Reynolds-Bayer"
+      "saleId": 679,
+      "contactId": 1012,
+      "name": "Aufderhar-Kertzmann"
     }
   ]
 }

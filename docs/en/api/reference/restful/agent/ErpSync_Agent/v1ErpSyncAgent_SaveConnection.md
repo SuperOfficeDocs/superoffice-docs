@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 748,
-  "ErpConnectorId": 591,
-  "DisplayName": "Jacobs LLC",
-  "DisplayDescription": "Profound multimedia approach",
-  "Active": false,
-  "ConnectionId": "cupiditate",
-  "MostRecentTimestamp": "reprehenderit",
+  "ErpConnectionId": 253,
+  "ErpConnectorId": 442,
+  "DisplayName": "Skiles, Kihn and Boyer",
+  "DisplayDescription": "Reactive eco-centric leverage",
+  "Active": true,
+  "ConnectionId": "quos",
+  "MostRecentTimestamp": "non",
   "ConfigFields": {
-    "ConfigFields1": "corporis",
-    "ConfigFields2": "soluta"
+    "ConfigFields1": "rem",
+    "ConfigFields2": "architecto"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    611,
-    654
+    15,
+    593
   ],
   "AssociateAccessIds": [
-    680,
-    318
+    709,
+    406
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 342
     }
   }
 }

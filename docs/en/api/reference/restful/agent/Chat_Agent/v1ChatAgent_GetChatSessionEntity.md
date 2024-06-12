@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 951,
-  "TopicId": 253,
+  "ChatSessionId": 438,
+  "TopicId": 979,
   "User": null,
   "Person": null,
-  "CustomerAlias": "velit",
-  "CustomerHost": "iure",
-  "CustomerName": "Schmitt, Renner and Waters",
-  "CustomerEmail": "bradly@rathmccullough.biz",
-  "CustomerPhone": "(186)215-3303",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Wunsch, O'Hara and Nader",
+  "CustomerAlias": "assumenda",
+  "CustomerHost": "mollitia",
+  "CustomerName": "McGlynn LLC",
+  "CustomerEmail": "porter_fritsch@zboncakhodkiewicz.info",
+  "CustomerPhone": "1-530-151-3142",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Rosenbaum, Lueilwitz and Wintheiser",
   "Status": "Closed",
-  "FirstMessage": "temporibus",
-  "LastMessage": "eius",
-  "WhenRequested": "2014-07-31T12:57:33.3368838+02:00",
-  "WhenStarted": "2010-10-01T12:57:33.3368838+02:00",
-  "WhenEnded": "2022-06-20T12:57:33.3368838+02:00",
-  "WhenIdle": "2003-02-13T12:57:33.3368838+01:00",
-  "WhenFetched": "2007-08-13T12:57:33.3368838+02:00",
-  "SessionKey": "quo",
-  "InitialQueuePos": 141,
-  "AlertLevel": 779,
-  "Rank": 426,
+  "FirstMessage": "rerum",
+  "LastMessage": "aliquid",
+  "WhenRequested": "2019-01-24T04:22:26.0747276+01:00",
+  "WhenStarted": "2000-06-23T04:22:26.0747276+02:00",
+  "WhenEnded": "1997-05-31T04:22:26.0747276+02:00",
+  "WhenIdle": "2019-11-17T04:22:26.0747276+01:00",
+  "WhenFetched": "1999-11-15T04:22:26.0747276+01:00",
+  "SessionKey": "quasi",
+  "InitialQueuePos": 672,
+  "AlertLevel": 584,
+  "Rank": 328,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 182,
+  "ChatbotIsActive": true,
+  "Rating": 19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 521
     }
   }
 }

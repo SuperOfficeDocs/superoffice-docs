@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 937,
-  "Name": "Johnston Inc and Sons",
-  "Description": "Diverse contextually-based internet solution"
+  "SourceId": 241,
+  "Name": "O'Kon Inc and Sons",
+  "Description": "Monitored optimal function"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 721,
+  "ReportId": 879,
   "ReportCategory": "All",
-  "Description": "Optimized uniform frame",
+  "Description": "Business-focused background budgetary management",
   "ReportLayout": "CalendarMonth",
-  "Name": "Jacobs, Yost and Daugherty",
-  "AssociateId": 116,
-  "TemplateId": 740,
+  "Name": "Monahan LLC",
+  "AssociateId": 576,
+  "TemplateId": 257,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 543
     }
   }
 }

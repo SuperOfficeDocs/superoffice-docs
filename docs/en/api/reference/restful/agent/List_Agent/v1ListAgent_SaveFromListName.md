@@ -84,8 +84,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 349,
-  "UdListDefinitionName": "Kreiger-Torphy",
+  "Id": 196,
+  "UdListDefinitionName": "Kuhic, Denesik and Leffler",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "Name": "Kiehn-Bartell",
-  "Tooltip": "incidunt",
+  "Id": 100,
+  "Name": "West, Collier and Harvey",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "UdListDefinitionId": 321,
-  "Rank": 97,
+  "UdListDefinitionId": 302,
+  "Rank": 161,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 866
+      "FieldType": "System.Int32",
+      "FieldLength": 431
     }
   }
 }

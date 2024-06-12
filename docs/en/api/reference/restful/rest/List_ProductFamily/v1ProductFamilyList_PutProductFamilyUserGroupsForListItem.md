@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Osinski Group",
-    "ToolTip": "Nobis quas quis saepe reprehenderit nesciunt dolorem architecto.",
+    "Id": 929,
+    "Name": "Green-Schaden",
+    "ToolTip": "Officiis officia corrupti a ut repudiandae tempore.",
     "Deleted": false,
-    "Rank": 84,
-    "Type": "nobis",
-    "ColorBlock": 445,
-    "IconHint": "corrupti",
+    "Rank": 846,
+    "Type": "ducimus",
+    "ColorBlock": 403,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2017-09-14T12:57:43.6051463+02:00",
+    "LastChanged": "2024-01-03T04:22:36.06534+01:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Gusikowski, Altenwerth and Bahringer",
-        "ToolTip": "Recusandae et commodi ex eum eaque saepe.",
+        "Id": 354,
+        "Name": "Mayert, Hackett and VonRueden",
+        "ToolTip": "Sunt sit beatae cumque ea maxime.",
         "Deleted": false,
-        "Rank": 966,
-        "Type": "aut",
-        "ColorBlock": 797,
-        "IconHint": "qui",
+        "Rank": 52,
+        "Type": "velit",
+        "ColorBlock": 579,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2001-04-27T12:57:43.6051463+02:00",
+        "LastChanged": "2003-04-03T04:22:36.06534+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "est",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Mrs. Julia Adelle Donnelly"
+        "FullName": "Tiara Hintz"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "est",
+    "StyleHint": "placeat",
     "Hidden": true,
-    "FullName": "Mr. Vincenzo Brown MD"
+    "FullName": "Viola D'Amore"
   }
 ]
 ```
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Abshire-Howe",
-    "ToolTip": "Architecto aliquam ut modi ut architecto.",
+    "Id": 944,
+    "Name": "Langworth, Friesen and Hilll",
+    "ToolTip": "Nostrum aperiam ab ullam veniam qui.",
     "Deleted": false,
-    "Rank": 358,
-    "Type": "quidem",
-    "ColorBlock": 45,
-    "IconHint": "dignissimos",
+    "Rank": 265,
+    "Type": "atque",
+    "ColorBlock": 331,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-03-31T12:57:43.6051463+02:00",
+    "LastChanged": "2016-07-19T04:22:36.06534+02:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "Ferry, Schimmel and Osinski",
-        "ToolTip": "Iusto non dolor inventore.",
-        "Deleted": true,
-        "Rank": 648,
-        "Type": "et",
-        "ColorBlock": 190,
-        "IconHint": "assumenda",
+        "Id": 561,
+        "Name": "Buckridge-Kassulke",
+        "ToolTip": "Rem eum odit enim repellendus nihil dolor.",
+        "Deleted": false,
+        "Rank": 77,
+        "Type": "voluptates",
+        "ColorBlock": 25,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2013-12-30T12:57:43.6051463+01:00",
+        "LastChanged": "2012-07-29T04:22:36.06534+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "labore",
-        "Hidden": false,
-        "FullName": "Prof. Mayra Luciano Rath",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "adipisci",
+        "Hidden": true,
+        "FullName": "Billie Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -190,16 +190,16 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Arvid Cummerata",
+    "ExtraInfo": "magni",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Durward Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldLength": 956
       }
     }
   }

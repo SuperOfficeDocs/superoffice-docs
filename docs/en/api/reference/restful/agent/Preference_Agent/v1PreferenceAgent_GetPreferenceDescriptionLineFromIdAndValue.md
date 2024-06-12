@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 768,
-  "PrefValue": "est"
+  "PrefDescId": 979,
+  "PrefValue": "minus"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 103,
-  "PrefDescId": 386,
-  "PrefValue": "quia",
-  "PrefShowValue": "et",
-  "Description": "Ergonomic leading edge neural-net",
-  "IsBuiltin": false,
+  "PrefDescLineId": 484,
+  "PrefDescId": 799,
+  "PrefValue": "quibusdam",
+  "PrefShowValue": "sint",
+  "Description": "User-centric fresh-thinking attitude",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 5
     }
   }
 }

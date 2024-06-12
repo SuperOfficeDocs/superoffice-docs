@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Crooks, Jones and Stark",
-  "Tooltip": "beatae",
+  "Id": 916,
+  "Name": "Haag-Moen",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 207,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 641,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nobis",
+  "ListType": "tempore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   },
   "_Links": {

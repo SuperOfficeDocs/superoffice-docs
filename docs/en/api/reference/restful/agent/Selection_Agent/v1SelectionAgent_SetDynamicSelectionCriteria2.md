@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 465,
-  "Filter": "recusandae"
+  "SelectionId": 983,
+  "Filter": "a"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hahn, Bechtelar and Stehr",
-    "Operator": "voluptas",
+    "Name": "Nikolaus, Jaskolski and Kuphal",
+    "Operator": "aut",
     "Values": [
-      "labore",
-      "illo"
+      "error",
+      "reiciendis"
     ],
     "DisplayValues": [
-      "dolorem",
-      "enim"
+      "velit",
+      "cumque"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wilkinson LLC",
-        "Operator": "nobis",
+        "Name": "White Inc and Sons",
+        "Operator": "repudiandae",
         "Values": [
-          "quia",
-          "excepturi"
+          "quas",
+          "sit"
         ],
         "DisplayValues": [
-          "et",
-          "error"
+          "iusto",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 406,
+        "InterParenthesis": 657,
         "InterOperator": "And",
-        "UniqueHash": 165
+        "UniqueHash": 117
       }
     ],
-    "InterParenthesis": 775,
+    "InterParenthesis": 937,
     "InterOperator": "And",
-    "UniqueHash": 226
+    "UniqueHash": 16
   }
 ]
 ```

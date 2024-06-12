@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 617,
-  "Field": "rerum",
-  "RecordId": 973,
+  "RefCountsId": 362,
+  "Field": "aspernatur",
+  "RecordId": 249,
   "SuggestedRecords": [
     {
-      "Id": 659,
-      "Name": "Kihn-Witting",
-      "ToolTip": "Excepturi aut praesentium aut temporibus.",
-      "Deleted": false,
-      "Rank": 83,
-      "Type": "rerum",
+      "Id": 241,
+      "Name": "Watsica, Kertzmann and Kirlin",
+      "ToolTip": "Magnam doloribus itaque est.",
+      "Deleted": true,
+      "Rank": 800,
+      "Type": "molestias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "earum",
-      "ColorBlock": 570,
-      "ExtraInfo": "recusandae",
-      "StyleHint": "eaque",
-      "FullName": "Miss Anjali Waelchi",
+      "IconHint": "rerum",
+      "ColorBlock": 61,
+      "ExtraInfo": "nemo",
+      "StyleHint": "consequatur",
+      "FullName": "Sienna Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 971
         }
       }
     }
   ],
-  "CurrentValue": 16,
-  "TravelPrefix": 303,
-  "SatPrefix": 350,
+  "CurrentValue": 592,
+  "TravelPrefix": 687,
+  "SatPrefix": 615,
   "Allocate": false,
   "Unique": true,
-  "ReadOnly": false,
-  "AllowBlank": false,
+  "ReadOnly": true,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

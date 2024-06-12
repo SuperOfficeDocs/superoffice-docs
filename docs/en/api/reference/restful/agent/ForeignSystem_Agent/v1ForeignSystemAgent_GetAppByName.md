@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rodriguez, Grant and Simonis"
+  "ApplicationName": "Cremin, Zulauf and Weissnat"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 725,
-  "Name": "Adams-Schultz",
-  "CreatedDate": "1998-06-07T12:57:34.0554972+02:00",
-  "UpdatedDate": "2019-08-21T12:57:34.0554972+02:00",
+  "ForeignAppId": 519,
+  "Name": "Brown Inc and Sons",
+  "CreatedDate": "1999-11-08T04:22:26.8598968+01:00",
+  "UpdatedDate": "2007-01-12T04:22:26.8598968+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 623,
-      "Name": "Turcotte-Denesik",
-      "CreatedDate": "2019-12-04T12:57:34.0554972+01:00",
-      "UpdatedDate": "2001-01-02T12:57:34.0554972+01:00",
-      "AssociateFullName": "Malvina Rutherford",
-      "CreatedBy": "ut",
-      "UpdatedBy": "ipsum",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 41,
+      "ForeignDeviceId": 297,
+      "Name": "Shields-Quigley",
+      "CreatedDate": "2003-05-18T04:22:26.8598968+02:00",
+      "UpdatedDate": "2011-12-04T04:22:26.8598968+01:00",
+      "AssociateFullName": "Aileen Terry",
+      "CreatedBy": "eos",
+      "UpdatedBy": "dolores",
+      "DeviceIdentifier": "sed",
+      "ForeignAppId": 961,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 373
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

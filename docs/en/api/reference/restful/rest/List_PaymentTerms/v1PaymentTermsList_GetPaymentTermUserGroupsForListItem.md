@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Dare-Hammes",
-    "ToolTip": "Odio non amet.",
+    "Id": 235,
+    "Name": "Mraz, Ruecker and Blanda",
+    "ToolTip": "Ex et sint dolorum veritatis necessitatibus dolor.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "eveniet",
-    "ColorBlock": 68,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2007-03-29T12:57:43.5270395+02:00",
+    "Rank": 921,
+    "Type": "quibusdam",
+    "ColorBlock": 601,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2018-10-05T04:22:35.9872165+02:00",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Murphy, Jones and Nikolaus",
-        "ToolTip": "Consectetur consectetur vero quo aut.",
+        "Id": 523,
+        "Name": "Bogisich Inc and Sons",
+        "ToolTip": "Dicta minima alias fugit qui nostrum maiores.",
         "Deleted": true,
-        "Rank": 653,
-        "Type": "ut",
-        "ColorBlock": 973,
-        "IconHint": "repellat",
+        "Rank": 322,
+        "Type": "eum",
+        "ColorBlock": 953,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2007-12-27T12:57:43.5270395+01:00",
+        "LastChanged": "2014-01-08T04:22:35.9872165+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Ms. Jayne Hanna Schamberger",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "dolore",
+        "Hidden": true,
+        "FullName": "Arne Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 345
+            "FieldType": "System.Int32",
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "eos",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Flo Shields",
+    "FullName": "Elliot Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 90
       }
     }
   }

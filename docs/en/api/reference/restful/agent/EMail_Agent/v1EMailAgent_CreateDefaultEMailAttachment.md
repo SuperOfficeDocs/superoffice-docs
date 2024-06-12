@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless fresh-thinking neural-net",
-  "Filename": "reprehenderit",
-  "Size": 369,
-  "Type": "esse",
-  "Encoding": "blanditiis",
-  "Id": "in",
-  "Disposition": "deleniti",
-  "IsSafeFileExtension": true,
+  "Description": "Inverse mobile customer loyalty",
+  "Filename": "qui",
+  "Size": 942,
+  "Type": "libero",
+  "Encoding": "ut",
+  "Id": "nemo",
+  "Disposition": "velit",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 985
     }
   }
 }

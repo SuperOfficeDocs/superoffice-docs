@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 845,
-    "Name": "Abernathy, Leuschke and Wisozk",
-    "Tooltip": "dolorum",
-    "SaveInDb": 462,
-    "Filename": "nam",
-    "DefaultOref": "velit",
+    "DocumentTemplateId": 850,
+    "Name": "White, O'Reilly and Prosacco",
+    "Tooltip": "esse",
+    "SaveInDb": 248,
+    "Filename": "voluptatem",
+    "DefaultOref": "assumenda",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 793,
-    "IntentId": 536,
-    "IsDefaultPublished": true,
-    "Rank": 975,
-    "LoadTemplateFromPlugin": 53,
-    "MimeType": "fugit",
+    "AutoeventId": 299,
+    "IntentId": 391,
+    "IsDefaultPublished": false,
+    "Rank": 713,
+    "LoadTemplateFromPlugin": 115,
+    "MimeType": "voluptate",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 374,
+    "DocumentTypeKey": 834,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "josefa@mccullough.ca",
+    "EmailSubject": "daron_stehr@purdy.biz",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "eda@brown.biz",
+    "SenderEmailAddress": "hillary@marvinkihn.co.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldLength": 94
       }
     }
   }

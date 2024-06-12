@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 575,
-  "TopicId": 443,
+  "ChatSessionId": 969,
+  "TopicId": 380,
   "User": null,
   "Person": null,
-  "CustomerAlias": "praesentium",
-  "CustomerHost": "dolores",
-  "CustomerName": "Glover-Kihn",
-  "CustomerEmail": "marlon_beer@jones.info",
-  "CustomerPhone": "(532)647-5564 x903",
+  "CustomerAlias": "est",
+  "CustomerHost": "minima",
+  "CustomerName": "Trantow-Blick",
+  "CustomerEmail": "yoshiko_cormier@kreiger.ca",
+  "CustomerPhone": "(001)723-1247 x415",
   "CustomerConsented": false,
-  "CustomerCompanyName": "White, Sauer and Turcotte",
+  "CustomerCompanyName": "Schulist LLC",
   "Status": "Closed",
-  "FirstMessage": "odit",
-  "LastMessage": "autem",
-  "WhenRequested": "2013-06-16T12:57:33.305641+02:00",
-  "WhenStarted": "2001-11-16T12:57:33.305641+01:00",
-  "WhenEnded": "2020-10-27T12:57:33.305641+01:00",
-  "WhenIdle": "2017-11-13T12:57:33.305641+01:00",
-  "WhenFetched": "2017-07-30T12:57:33.305641+02:00",
-  "SessionKey": "officia",
-  "InitialQueuePos": 946,
-  "AlertLevel": 81,
-  "Rank": 504,
+  "FirstMessage": "fuga",
+  "LastMessage": "recusandae",
+  "WhenRequested": "2010-02-21T04:22:26.0434701+01:00",
+  "WhenStarted": "2001-12-09T04:22:26.0434701+01:00",
+  "WhenEnded": "2007-08-07T04:22:26.0434701+02:00",
+  "WhenIdle": "2016-05-10T04:22:26.0434701+02:00",
+  "WhenFetched": "2014-07-15T04:22:26.0434701+02:00",
+  "SessionKey": "maxime",
+  "InitialQueuePos": 390,
+  "AlertLevel": 340,
+  "Rank": 335,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 202
+  "ChatbotIsActive": false,
+  "Rating": 70
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 933,
-  "TopicId": 2,
+  "ChatSessionId": 217,
+  "TopicId": 931,
   "User": null,
   "Person": null,
-  "CustomerAlias": "officia",
-  "CustomerHost": "corporis",
-  "CustomerName": "Swift-Witting",
-  "CustomerEmail": "elsa@parkerhuel.uk",
-  "CustomerPhone": "1-256-850-8341 x68239",
+  "CustomerAlias": "id",
+  "CustomerHost": "reiciendis",
+  "CustomerName": "Berge Group",
+  "CustomerEmail": "samson@watsica.biz",
+  "CustomerPhone": "317.717.9637",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Weber-Kohler",
+  "CustomerCompanyName": "Dibbert, Buckridge and Schroeder",
   "Status": "Closed",
-  "FirstMessage": "molestiae",
-  "LastMessage": "iste",
-  "WhenRequested": "2001-08-27T12:57:33.3212628+02:00",
-  "WhenStarted": "2008-06-02T12:57:33.3212628+02:00",
-  "WhenEnded": "2021-07-28T12:57:33.3212628+02:00",
-  "WhenIdle": "2009-01-19T12:57:33.3212628+01:00",
-  "WhenFetched": "2010-11-21T12:57:33.3212628+01:00",
-  "SessionKey": "laboriosam",
-  "InitialQueuePos": 112,
-  "AlertLevel": 446,
-  "Rank": 846,
+  "FirstMessage": "laudantium",
+  "LastMessage": "saepe",
+  "WhenRequested": "2015-10-09T04:22:26.0590988+02:00",
+  "WhenStarted": "2002-04-04T04:22:26.0590988+02:00",
+  "WhenEnded": "2015-12-23T04:22:26.0590988+01:00",
+  "WhenIdle": "2004-09-02T04:22:26.0590988+02:00",
+  "WhenFetched": "2017-04-30T04:22:26.0590988+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 405,
+  "AlertLevel": 780,
+  "Rank": 126,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 812,
+  "Rating": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 389
     }
   }
 }

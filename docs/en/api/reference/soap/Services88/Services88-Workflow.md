@@ -561,6 +561,7 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="SpecificEmailAddresses" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -580,7 +581,9 @@ title: Services88.WorkflowAgent WSDL
             <xs:sequence>
               <xs:element minOccurs="0" name="To" type="tns:WorkflowNotifySMSType" />
               <xs:element minOccurs="0" name="SpecificPhoneNumbers" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1552,6 +1555,21 @@ title: Services88.WorkflowAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SetStatusOnWorkflow">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
+            <xs:element minOccurs="0" name="Status" type="tns:WorkflowDefinitionStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetStatusOnWorkflowResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="tns:WorkflowDefinitionStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="Run">
         <xs:complexType>
           <xs:sequence />
@@ -2128,6 +2146,23 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SetStatusOnWorkflowRequest">
+    <wsdl:part name="parameters" element="tns:SetStatusOnWorkflow" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusOnWorkflowRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusOnWorkflowResponse">
+    <wsdl:part name="parameters" element="tns:SetStatusOnWorkflowResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusOnWorkflowResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="RunRequest">
     <wsdl:part name="parameters" element="tns:Run" />
   </wsdl:message>
@@ -2386,6 +2421,10 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:operation name="UpdateFormSubmissions">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/UpdateFormSubmissions" name="UpdateFormSubmissionsRequest" message="tns:UpdateFormSubmissionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/UpdateFormSubmissionsResponse" name="UpdateFormSubmissionsResponse" message="tns:UpdateFormSubmissionsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetStatusOnWorkflow">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SetStatusOnWorkflow" name="SetStatusOnWorkflowRequest" message="tns:SetStatusOnWorkflowRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SetStatusOnWorkflowResponse" name="SetStatusOnWorkflowResponse" message="tns:SetStatusOnWorkflowResponse" />
     </wsdl:operation>
     <wsdl:operation name="Run">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/Run" name="RunRequest" message="tns:RunRequest" />
@@ -2779,6 +2818,22 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:UpdateFormSubmissionsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:UpdateFormSubmissionsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:UpdateFormSubmissionsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetStatusOnWorkflow">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SetStatusOnWorkflow" style="document" />
+      <wsdl:input name="SetStatusOnWorkflowRequest">
+        <soap:header message="tns:SetStatusOnWorkflowRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetStatusOnWorkflowRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetStatusOnWorkflowRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetStatusOnWorkflowResponse">
+        <soap:header message="tns:SetStatusOnWorkflowResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetStatusOnWorkflowResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetStatusOnWorkflowResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetStatusOnWorkflowResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

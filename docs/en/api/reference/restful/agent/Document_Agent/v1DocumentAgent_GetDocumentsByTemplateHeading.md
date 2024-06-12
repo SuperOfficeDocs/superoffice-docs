@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 139
+  "TemplateHeadingId": 528
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 319,
-    "Attention": "velit",
-    "Header": "recusandae",
-    "Name": "Rau, Walter and Cartwright",
-    "OurRef": "praesentium",
-    "YourRef": "esse",
-    "Description": "Synchronised content-based access",
-    "DocumentTemplate": "ipsum",
-    "IsPublished": false,
-    "PersonId": 383,
-    "PersonFullName": "Mr. Max Rempel",
-    "AssociateFullName": "Mr. Earline Jerry Emmerich",
-    "ContactId": 258,
-    "ContactName": "Schinner LLC",
-    "ProjectId": 470,
-    "ProjectName": "Berge, Rice and Olson",
-    "AssociateId": 925,
-    "Snum": 612,
-    "SaleId": 884,
-    "SaleName": "Ziemann LLC",
+    "DocumentId": 969,
+    "Attention": "facere",
+    "Header": "voluptate",
+    "Name": "Simonis-Mraz",
+    "OurRef": "et",
+    "YourRef": "quam",
+    "Description": "Open-source 6th generation website",
+    "DocumentTemplate": "voluptatum",
+    "IsPublished": true,
+    "PersonId": 760,
+    "PersonFullName": "Florencio Abdiel Keeling PhD",
+    "AssociateFullName": "Dr. Rachelle Jaylan Pouros",
+    "ContactId": 4,
+    "ContactName": "Stehr-Emard",
+    "ProjectId": 391,
+    "ProjectName": "Ritchie, Terry and Sanford",
+    "AssociateId": 820,
+    "Snum": 843,
+    "SaleId": 271,
+    "SaleName": "Heathcote-Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

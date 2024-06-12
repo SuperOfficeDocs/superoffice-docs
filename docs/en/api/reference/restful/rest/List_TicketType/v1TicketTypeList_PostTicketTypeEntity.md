@@ -97,35 +97,35 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 783,
-  "Name": "Kessler LLC",
-  "Rank": 229,
-  "Tooltip": "tenetur",
-  "Icon": "magnam",
-  "DefaultTicketStatus": 960,
+  "TicketTypeId": 899,
+  "Name": "Hermann-Gibson",
+  "Rank": 210,
+  "Tooltip": "facere",
+  "Icon": "nobis",
+  "DefaultTicketStatus": 409,
   "TicketStatuses": [
-    599,
-    54
+    479,
+    217
   ],
-  "DefaultTicketPriority": 275,
+  "DefaultTicketPriority": 841,
   "TicketPriorities": [
-    37,
-    711
+    659,
+    330
   ],
-  "ReplyTemplate": 925,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 605,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    982,
-    856
+    374,
+    364
   ]
 }
 ```
@@ -137,38 +137,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 792,
-  "Name": "Feest, Waelchi and Kuvalis",
-  "Rank": 588,
-  "Tooltip": "ea",
-  "Icon": "ea",
-  "DefaultTicketStatus": 483,
+  "TicketTypeId": 328,
+  "Name": "Kunde, O'Connell and Schoen",
+  "Rank": 685,
+  "Tooltip": "ipsam",
+  "Icon": "expedita",
+  "DefaultTicketStatus": 128,
   "TicketStatuses": [
-    871,
-    404
+    548,
+    929
   ],
-  "DefaultTicketPriority": 229,
+  "DefaultTicketPriority": 61,
   "TicketPriorities": [
-    497,
-    868
+    768,
+    456
   ],
-  "ReplyTemplate": 214,
+  "ReplyTemplate": 1002,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
+  "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    585,
-    168
+    549,
+    938
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

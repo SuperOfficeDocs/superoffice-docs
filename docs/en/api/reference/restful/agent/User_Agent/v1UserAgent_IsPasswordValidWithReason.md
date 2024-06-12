@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsPasswordValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 416,
+  "AssociateId": 566,
   "Type": "AnonymousAssociate",
-  "PersonId": 174,
-  "Password": "expedita"
+  "PersonId": 181,
+  "Password": "nostrum"
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": true,
+  "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

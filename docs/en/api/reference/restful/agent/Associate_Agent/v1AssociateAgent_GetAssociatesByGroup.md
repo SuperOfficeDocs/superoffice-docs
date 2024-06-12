@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 91,
-  "Type": 860
+  "GroupId": 62,
+  "Type": 673
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 526,
-    "Name": "Cormier-Hodkiewicz",
-    "PersonId": 685,
-    "Rank": 351,
-    "Tooltip": "porro",
+    "AssociateId": 845,
+    "Name": "Schroeder-Wiegand",
+    "PersonId": 473,
+    "Rank": 924,
+    "Tooltip": "quos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 22,
-    "FullName": "Jaquan Will",
-    "FormalName": "Jast, Carroll and Turner",
+    "GroupIdx": 733,
+    "FullName": "Miss Cicero Jeffry Keebler",
+    "FormalName": "Bergnaum, Harris and Kerluke",
     "Deleted": true,
-    "EjUserId": 651,
-    "UserName": "Schuppe Group",
+    "EjUserId": 282,
+    "UserName": "Stoltenberg-Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 523
       }
     }
   }

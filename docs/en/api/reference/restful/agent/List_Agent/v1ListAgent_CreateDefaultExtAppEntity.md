@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 340,
-  "Name": "Carter LLC",
-  "Tooltip": "officiis",
+  "ExtAppId": 181,
+  "Name": "Friesen-Lowe",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "Rank": 451,
-  "Filename": "culpa",
-  "Parameters": "aut",
-  "Workdir": "nostrum",
+  "Rank": 360,
+  "Filename": "exercitationem",
+  "Parameters": "sit",
+  "Workdir": "voluptatem",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 992,
+  "ShowInStatusBar": true,
+  "Icon": 817,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "modi",
+  "Path": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 931
     }
   }
 }

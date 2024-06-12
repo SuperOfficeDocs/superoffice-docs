@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "odit",
-    "DocumentId": 738,
-    "VersionId": "ut",
-    "CheckedInDate": "2000-06-22T12:57:42.4170133+02:00",
-    "CheckedInByName": "Schoen LLC",
-    "CheckedInByAssociateId": 570,
-    "Description": "Reverse-engineered content-based website",
-    "DisplayText": "eos",
+    "ExternalReference": "aut",
+    "DocumentId": 689,
+    "VersionId": "enim",
+    "CheckedInDate": "2007-07-29T04:22:34.9541759+02:00",
+    "CheckedInByName": "Considine Group",
+    "CheckedInByAssociateId": 82,
+    "Description": "Multi-lateral local time-frame",
+    "DisplayText": "tenetur",
     "ExtraFields": [
-      "vel",
-      "maiores"
+      "neque",
+      "fugit"
     ]
   }
 ]

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 661,
-      "ContactName": "Ruecker Inc and Sons",
-      "PersonId": 586,
-      "PersonName": "Erdman Group",
-      "AssociateId": 50,
+      "ContactId": 753,
+      "ContactName": "Zboncak, Jast and Kemmer",
+      "PersonId": 746,
+      "PersonName": "Ward, Cole and Jacobi",
+      "AssociateId": 293,
       "Address": "ut",
-      "EmailId": 2,
+      "EmailId": 181,
       "DuplicatePersonIds": [
-        696,
-        838
+        553,
+        15
       ],
-      "Name": "Walter-Stamm",
+      "Name": "Johnson, Anderson and Schmeler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 409
+          "FieldLength": 972
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 92,
-      "ContactName": "Pfannerstill, Kovacek and Cruickshank",
-      "PersonId": 286,
-      "PersonName": "Konopelski, Stiedemann and Romaguera",
-      "AssociateId": 281,
-      "Address": "non",
-      "EmailId": 660,
+      "ContactId": 558,
+      "ContactName": "Wilderman, Mueller and O'Hara",
+      "PersonId": 916,
+      "PersonName": "Wunsch-Ondricka",
+      "AssociateId": 337,
+      "Address": "sed",
+      "EmailId": 586,
       "DuplicatePersonIds": [
-        238,
-        537
+        90,
+        72
       ],
-      "Name": "Ziemann Inc and Sons",
+      "Name": "Trantow, Trantow and Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 178
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 466,
-      "ContactName": "Prohaska LLC",
-      "PersonId": 635,
-      "PersonName": "Mante Group",
-      "AssociateId": 153,
-      "Address": "quis",
-      "EmailId": 934,
+      "ContactId": 525,
+      "ContactName": "Murphy LLC",
+      "PersonId": 167,
+      "PersonName": "Lind, Schmitt and Friesen",
+      "AssociateId": 342,
+      "Address": "dolorum",
+      "EmailId": 445,
       "DuplicatePersonIds": [
-        669,
-        950
+        499,
+        701
       ],
-      "Name": "Bartell-Braun",
+      "Name": "Dietrich Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldType": "System.String",
+          "FieldLength": 592
         }
       }
     }
   ],
-  "Subject": "provident",
-  "HTMLBody": "qui",
+  "Subject": "perferendis",
+  "HTMLBody": "velit",
   "From": null,
-  "Sent": "2010-09-07T12:57:33.9617687+02:00",
-  "Size": 741,
+  "Sent": "2012-06-04T04:22:26.7647342+02:00",
+  "Size": 777,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "consequatur",
-  "PlainBody": "officiis",
-  "IsSent": false,
+  "MessageID": "omnis",
+  "PlainBody": "fugiat",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 295,
+  "ServerId": 926,
   "Attachments": [
     {
-      "Description": "Reverse-engineered upward-trending complexity",
-      "Filename": "et",
-      "Size": 650,
-      "Type": "autem",
+      "Description": "Enhanced even-keeled policy",
+      "Filename": "repellendus",
+      "Size": 870,
+      "Type": "porro",
       "Encoding": "voluptatem",
-      "Id": "consectetur",
-      "Disposition": "est",
+      "Id": "assumenda",
+      "Disposition": "voluptatem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wiza-Homenick",
+      "Name": "Casper-Gleichner",
       "Values": [
-        "ut",
-        "dolores"
+        "enim",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     },
     {
-      "Name": "Wiza-Homenick",
+      "Name": "Casper-Gleichner",
       "Values": [
-        "ut",
-        "dolores"
+        "enim",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
-  "FolderName": "Moore Group",
-  "EmailItemId": 548,
-  "AccountId": 580,
-  "ReceivedAt": "2011-11-08T12:57:33.9617687+01:00",
+  "FolderName": "O'Conner-Schmitt",
+  "EmailItemId": 585,
+  "AccountId": 954,
+  "ReceivedAt": "2000-10-28T04:22:26.7647342+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-05-24T12:57:33.9617687+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2003-06-22T04:22:26.7647342+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 179
     }
   }
 }

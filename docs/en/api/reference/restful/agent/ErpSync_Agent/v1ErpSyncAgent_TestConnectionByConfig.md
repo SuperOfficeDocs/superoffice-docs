@@ -75,10 +75,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 625,
+  "ErpConnectionId": 638,
   "ConfigFields": {
-    "ConfigFields1": "natus",
-    "ConfigFields2": "dicta"
+    "ConfigFields1": "omnis",
+    "ConfigFields2": "aut"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

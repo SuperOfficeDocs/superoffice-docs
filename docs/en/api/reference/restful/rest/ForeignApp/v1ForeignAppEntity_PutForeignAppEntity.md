@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 358,
-  "Name": "Predovic, West and Erdman",
-  "CreatedDate": "2020-03-20T12:57:42.448256+01:00",
-  "UpdatedDate": "2020-10-09T12:57:42.448256+02:00",
+  "ForeignAppId": 302,
+  "Name": "Watsica, Gulgowski and Armstrong",
+  "CreatedDate": "2006-04-01T04:22:34.9854602+02:00",
+  "UpdatedDate": "2018-01-24T04:22:34.9854602+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 71,
-      "Name": "McLaughlin-Corwin",
-      "CreatedDate": "1997-02-25T12:57:42.448256+01:00",
-      "UpdatedDate": "1997-10-28T12:57:42.448256+01:00",
-      "AssociateFullName": "Hal McClure",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "pariatur",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 745
+      "ForeignDeviceId": 44,
+      "Name": "Ernser-Bernier",
+      "CreatedDate": "2000-05-11T04:22:34.9854602+02:00",
+      "UpdatedDate": "2002-12-29T04:22:34.9854602+01:00",
+      "AssociateFullName": "Rita Bergnaum",
+      "CreatedBy": "facilis",
+      "UpdatedBy": "fugiat",
+      "DeviceIdentifier": "pariatur",
+      "ForeignAppId": 898
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 209,
-  "Name": "Lebsack-Ledner",
-  "CreatedDate": "2011-11-01T12:57:42.448256+01:00",
-  "UpdatedDate": "2023-08-26T12:57:42.448256+02:00",
+  "ForeignAppId": 804,
+  "Name": "Metz Group",
+  "CreatedDate": "2013-05-26T04:22:34.9854602+02:00",
+  "UpdatedDate": "2006-02-05T04:22:34.9854602+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 515,
-      "Name": "Lindgren LLC",
-      "CreatedDate": "2020-07-13T12:57:42.448256+02:00",
-      "UpdatedDate": "2015-09-08T12:57:42.448256+02:00",
-      "AssociateFullName": "Alvah Raphaelle Schmitt DVM",
-      "CreatedBy": "ut",
-      "UpdatedBy": "itaque",
-      "DeviceIdentifier": "necessitatibus",
-      "ForeignAppId": 283,
+      "ForeignDeviceId": 573,
+      "Name": "Wisoky Inc and Sons",
+      "CreatedDate": "2000-07-21T04:22:34.9854602+02:00",
+      "UpdatedDate": "2009-08-04T04:22:34.9854602+02:00",
+      "AssociateFullName": "Mathilde Witting",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 144,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldLength": 237
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 916
     }
   },
   "_Links": {

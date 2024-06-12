@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bins Group",
-  "AdditionalInfo": "excepturi",
-  "SearchValue": "expedita"
+  "Name": "Little, Keeling and Hyatt",
+  "AdditionalInfo": "ad",
+  "SearchValue": "eum"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Harvey-Lynch",
-    "ToolTip": "Placeat et atque aspernatur quod error.",
-    "Deleted": false,
-    "Rank": 213,
-    "Type": "est",
+    "Id": 914,
+    "Name": "Mann-Brown",
+    "ToolTip": "Voluptate ipsa et illum.",
+    "Deleted": true,
+    "Rank": 127,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Hahn-Ebert",
-        "ToolTip": "Cum illo quia minus quo recusandae modi sit.",
-        "Deleted": true,
-        "Rank": 84,
-        "Type": "est",
+        "Id": 922,
+        "Name": "Stokes, Turner and Kuphal",
+        "ToolTip": "Voluptas ea nobis.",
+        "Deleted": false,
+        "Rank": 79,
+        "Type": "officia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "numquam",
-        "ColorBlock": 2,
-        "ExtraInfo": "voluptate",
-        "StyleHint": "delectus",
-        "FullName": "Randal Arne Wisozk IV",
+        "IconHint": "omnis",
+        "ColorBlock": 313,
+        "ExtraInfo": "ut",
+        "StyleHint": "explicabo",
+        "FullName": "Cayla Reina Graham DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 189
+            "FieldType": "System.String",
+            "FieldLength": 27
           }
         }
       }
     ],
-    "IconHint": "exercitationem",
-    "ColorBlock": 851,
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
-    "FullName": "Prof. Theresia Lavinia Kovacek II",
+    "IconHint": "assumenda",
+    "ColorBlock": 701,
+    "ExtraInfo": "atque",
+    "StyleHint": "accusantium",
+    "FullName": "Beau Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 835
       }
     }
   }

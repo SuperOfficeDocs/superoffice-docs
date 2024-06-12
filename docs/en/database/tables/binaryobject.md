@@ -52,6 +52,7 @@ Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail 
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[BinaryObjectLink](binaryobjectlink.md)  |Link table, connects a BinaryObject with one or more owners |
+|[extra\_tables](extra-tables.md)  |This table contains entries for the extra tables in the system. |
 
 
 ## Replication Flags

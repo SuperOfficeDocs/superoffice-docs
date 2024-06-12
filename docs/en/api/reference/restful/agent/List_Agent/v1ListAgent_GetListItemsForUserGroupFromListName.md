@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rutherford-Medhurst",
-  "GroupId": 105
+  "UdListDefinitionName": "Friesen, Jast and Carroll",
+  "GroupId": 431
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Doyle LLC",
-    "ToolTip": "Blanditiis voluptatem nemo quis.",
+    "Id": 707,
+    "Name": "Johnston LLC",
+    "ToolTip": "Sed reprehenderit omnis inventore explicabo quia rerum magni.",
     "Deleted": true,
-    "Rank": 430,
-    "Type": "harum",
-    "ColorBlock": 538,
-    "IconHint": "sequi",
+    "Rank": 670,
+    "Type": "sit",
+    "ColorBlock": 44,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2001-01-13T12:57:34.1492269+01:00",
+    "LastChanged": "2017-07-17T04:22:26.969259+02:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Barrows, Powlowski and Koch",
-        "ToolTip": "Sed rerum ullam.",
-        "Deleted": true,
-        "Rank": 214,
-        "Type": "voluptas",
-        "ColorBlock": 73,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2013-10-09T12:57:34.1492269+02:00",
+        "Id": 715,
+        "Name": "Howe Inc and Sons",
+        "ToolTip": "Laudantium in ducimus rem.",
+        "Deleted": false,
+        "Rank": 69,
+        "Type": "quasi",
+        "ColorBlock": 145,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "1999-01-05T04:22:26.969259+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Precious Hilpert",
+        "ExtraInfo": "cumque",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Mr. Shirley Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 162
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ut",
+    "ExtraInfo": "autem",
+    "StyleHint": "dolor",
     "Hidden": true,
-    "FullName": "Mr. Ward Austin Ritchie DDS",
+    "FullName": "Ms. Jadyn Curtis Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 444
       }
     }
   }

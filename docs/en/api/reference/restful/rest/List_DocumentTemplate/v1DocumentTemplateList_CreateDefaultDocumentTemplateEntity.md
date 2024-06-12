@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 533,
-  "Name": "Vandervort-Daniel",
-  "Tooltip": "delectus",
-  "SaveInDb": 516,
-  "Filename": "ullam",
-  "DefaultOref": "nisi",
+  "DocumentTemplateId": 261,
+  "Name": "Dicki-Ullrich",
+  "Tooltip": "autem",
+  "SaveInDb": 671,
+  "Filename": "dignissimos",
+  "DefaultOref": "sit",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 996,
-  "IntentId": 121,
+  "AutoeventId": 643,
+  "IntentId": 83,
   "IsDefaultPublished": false,
-  "Rank": 60,
-  "LoadTemplateFromPlugin": 611,
-  "MimeType": "aut",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 912,
+  "Rank": 282,
+  "LoadTemplateFromPlugin": 72,
+  "MimeType": "sapiente",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 905,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lucile@jacobsonbailey.com",
+  "EmailSubject": "oleta.legros@hodkiewiczkeebler.uk",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jennings@bashirian.ca",
+  "SenderEmailAddress": "camila.rowe@lowevandervort.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 548
     }
   }
 }

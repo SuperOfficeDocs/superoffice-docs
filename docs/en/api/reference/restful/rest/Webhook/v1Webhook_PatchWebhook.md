@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "totam",
+    "path": "dolores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "totam",
+    "path": "dolores",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 83,
-  "Name": "Ryan, Bayer and Toy",
+  "WebhookId": 550,
+  "Name": "Veum-Osinski",
   "Events": [
-    "porro",
-    "et"
+    "et",
+    "cum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "commodi",
+  "Secret": "minus",
   "State": "Active",
-  "Type": "reprehenderit",
+  "Type": "minima",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "cupiditate"
+    "Headers1": "placeat",
+    "Headers2": "quisquam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-05-02T12:57:43.2770971+02:00",
+  "Registered": "2022-12-19T04:22:35.7678517+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-08-14T12:57:43.2770971+02:00",
+  "Updated": "1998-08-15T04:22:35.7678517+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jennie_nikolaus@buckridgeschimmel.ca",
+  "ErrorsEmail": "shanna@berge.co.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

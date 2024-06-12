@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Fay-Kreiger",
-  "AssociateId": 361,
-  "DetailsTable": 575,
-  "DetailsRecord": 16,
+  "Id": 523,
+  "Name": "Wyman, Nolan and Johnson",
+  "AssociateId": 777,
+  "DetailsTable": 287,
+  "DetailsRecord": 470,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "consequatur",
-    "ParameterObject2": "autem"
+    "ParameterObject1": "omnis",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2017-10-27T12:57:43.1082476+02:00",
-  "Created": "2010-12-18T12:57:43.1082476+01:00",
-  "StartCount": 241,
-  "DatabaseSerialNumber": "959159",
-  "Context": "ea",
-  "Result": "aut",
+  "LastStarted": "2008-03-12T04:22:35.6116053+01:00",
+  "Created": "2011-06-05T04:22:35.6116053+02:00",
+  "StartCount": 44,
+  "DatabaseSerialNumber": "870422",
+  "Context": "error",
+  "Result": "illum",
   "State": "All",
-  "Description": "Intuitive bifurcated functionalities",
-  "Response": "minima",
-  "Request": "laboriosam",
-  "ProgressDescription": "Triple-buffered scalable website",
-  "ProgressPercent": 982,
-  "FileName": "Pouros, Torphy and Bradtke",
+  "Description": "Realigned real-time support",
+  "Response": "vero",
+  "Request": "non",
+  "ProgressDescription": "Re-engineered maximized benchmark",
+  "ProgressPercent": 371,
+  "FileName": "Sauer, Bednar and Parisian",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
-  "Name": "Gleason, Johns and Cronin",
-  "AssociateId": 16,
-  "DetailsTable": 527,
-  "DetailsRecord": 112,
+  "Id": 453,
+  "Name": "Kunze-Spencer",
+  "AssociateId": 762,
+  "DetailsTable": 74,
+  "DetailsRecord": 943,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "repudiandae",
-    "ParameterObject2": "consequuntur"
+    "ParameterObject1": "blanditiis",
+    "ParameterObject2": "sunt"
   },
-  "LastStarted": "2012-10-10T12:57:43.1092891+02:00",
-  "Created": "1998-12-23T12:57:43.1092891+01:00",
-  "StartCount": 543,
-  "DatabaseSerialNumber": "690116",
-  "Context": "aliquam",
-  "Result": "dolores",
+  "LastStarted": "2016-06-19T04:22:35.6116053+02:00",
+  "Created": "2006-11-19T04:22:35.6116053+01:00",
+  "StartCount": 690,
+  "DatabaseSerialNumber": "1596428",
+  "Context": "dicta",
+  "Result": "consequuntur",
   "State": "All",
-  "Description": "Universal multimedia neural-net",
-  "Response": "odit",
-  "Request": "soluta",
-  "ProgressDescription": "Pre-emptive full-range implementation",
-  "ProgressPercent": 149,
-  "FileName": "Cormier-Schulist",
+  "Description": "Object-based fault-tolerant synergy",
+  "Response": "cupiditate",
+  "Request": "omnis",
+  "ProgressDescription": "Object-based object-oriented frame",
+  "ProgressPercent": 420,
+  "FileName": "Langworth-Friesen",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

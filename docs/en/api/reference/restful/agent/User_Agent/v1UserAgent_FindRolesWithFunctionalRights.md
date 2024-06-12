@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Windler LLC",
-    "Carter, Grady and Kessler"
+    "Lakin Inc and Sons",
+    "Wiegand Inc and Sons"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  487,
-  857
+  795,
+  231
 ]
 ```

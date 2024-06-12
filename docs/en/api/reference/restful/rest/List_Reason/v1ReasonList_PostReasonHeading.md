@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 889,
-  "Name": "Macejkovic, Gutmann and Thompson",
-  "Tooltip": "tenetur",
+  "HeadingId": 258,
+  "Name": "Goldner Group",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 216,
-  "UdListDefinitionId": 257
+  "Rank": 662,
+  "UdListDefinitionId": 143
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 290,
-  "Name": "Beer Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 663,
-  "UdListDefinitionId": 849,
+  "HeadingId": 15,
+  "Name": "Metz, Koepp and Crona",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 639,
+  "UdListDefinitionId": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 652
     }
   }
 }

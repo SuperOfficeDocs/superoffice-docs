@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "McKenzie Group",
-    "ToolTip": "Totam qui similique nostrum asperiores sunt ea.",
+    "Id": 835,
+    "Name": "Runolfsson, Hoppe and Zemlak",
+    "ToolTip": "Voluptate voluptas aliquid quia.",
     "Deleted": true,
-    "Rank": 106,
-    "Type": "nobis",
-    "ColorBlock": 922,
-    "IconHint": "reprehenderit",
-    "Selected": false,
-    "LastChanged": "2013-01-14T12:57:43.3864466+01:00",
+    "Rank": 457,
+    "Type": "dignissimos",
+    "ColorBlock": 942,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2015-07-10T04:22:35.8778461+02:00",
     "ChildItems": [
       {
-        "Id": 177,
-        "Name": "Hand, Murray and Terry",
-        "ToolTip": "Et optio ut.",
-        "Deleted": false,
-        "Rank": 1002,
-        "Type": "consequatur",
-        "ColorBlock": 929,
-        "IconHint": "non",
+        "Id": 291,
+        "Name": "Johnson, O'Hara and Rempel",
+        "ToolTip": "Dolor omnis impedit.",
+        "Deleted": true,
+        "Rank": 368,
+        "Type": "sint",
+        "ColorBlock": 641,
+        "IconHint": "in",
         "Selected": true,
-        "LastChanged": "2020-05-08T12:57:43.3864466+02:00",
+        "LastChanged": "2003-11-23T04:22:35.8778461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "et",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Mrs. Nicklaus Mossie Hintz",
+        "FullName": "Eleazar Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 687
+            "FieldLength": 28
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "repudiandae",
-    "Hidden": true,
-    "FullName": "Nikita Parisian",
+    "ExtraInfo": "nemo",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Miss Kaelyn Jakubowski Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldLength": 726
       }
     }
   }

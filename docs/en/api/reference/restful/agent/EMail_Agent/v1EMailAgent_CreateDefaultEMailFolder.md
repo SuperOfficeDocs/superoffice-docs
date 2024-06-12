@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Flatley Group",
-  "Delimiter": "dolore",
-  "Flags": "assumenda",
-  "TotalItems": 616,
-  "UnreadItems": 794,
+  "Name": "Dickens-Considine",
+  "Delimiter": "aspernatur",
+  "Flags": "nisi",
+  "TotalItems": 660,
+  "UnreadItems": 772,
   "Subscribed": false,
-  "EmailFolderId": 718,
+  "EmailFolderId": 364,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 600
     }
   }
 }

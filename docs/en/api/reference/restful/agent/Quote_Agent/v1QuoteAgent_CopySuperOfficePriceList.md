@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 47,
-  "NewName": "Lockman, Marquardt and Bruen",
-  "ValidFrom": "2021-02-18T12:57:34.7115695+01:00",
-  "ValidTo": "2001-08-19T12:57:34.7115695+02:00",
-  "NewCurrencyId": 175,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 384,
+  "NewName": "Bergstrom, Parisian and Streich",
+  "ValidFrom": "1997-09-20T04:22:27.393494+02:00",
+  "ValidTo": "2006-07-01T04:22:27.393494+02:00",
+  "NewCurrencyId": 636,
+  "ConvertCurrency": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 909,
-  "ERPPriceListKey": "illum",
-  "QuoteConnectionId": 444,
-  "Name": "Wilderman, Lindgren and Gerlach",
-  "Description": "Face to face systematic standardization",
-  "Currency": "sit",
-  "CurrencyName": "Glover, McDermott and Marvin",
-  "ValidFrom": "2012-12-08T12:57:34.7115695+01:00",
-  "ValidTo": "2019-09-06T12:57:34.7115695+02:00",
+  "PriceListId": 211,
+  "ERPPriceListKey": "ratione",
+  "QuoteConnectionId": 253,
+  "Name": "Balistreri-Gottlieb",
+  "Description": "Fully-configurable executive methodology",
+  "Currency": "corporis",
+  "CurrencyName": "Welch, Koelpin and Yundt",
+  "ValidFrom": "2005-02-13T04:22:27.393494+01:00",
+  "ValidTo": "2005-08-17T04:22:27.393494+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   }
 }

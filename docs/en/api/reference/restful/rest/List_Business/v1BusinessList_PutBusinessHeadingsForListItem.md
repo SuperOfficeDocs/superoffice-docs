@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Lindgren-Kuhn",
-    "ToolTip": "Recusandae cumque quia nihil expedita qui cumque nam.",
+    "Id": 71,
+    "Name": "Schowalter, Walsh and Johnston",
+    "ToolTip": "Doloremque repellendus et.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "non",
-    "ColorBlock": 293,
-    "IconHint": "eveniet",
+    "Rank": 961,
+    "Type": "recusandae",
+    "ColorBlock": 328,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2010-11-22T12:57:43.3239611+01:00",
+    "LastChanged": "2017-08-14T04:22:35.8153337+02:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Jerde-Halvorson",
-        "ToolTip": "Distinctio debitis.",
+        "Id": 307,
+        "Name": "Nolan-Stanton",
+        "ToolTip": "Ratione minima et consequuntur officiis.",
         "Deleted": false,
-        "Rank": 205,
-        "Type": "est",
-        "ColorBlock": 623,
-        "IconHint": "modi",
-        "Selected": true,
-        "LastChanged": "1999-11-27T12:57:43.3239611+01:00",
+        "Rank": 313,
+        "Type": "quisquam",
+        "ColorBlock": 134,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "2016-03-29T04:22:35.8153337+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Bulah Effertz"
+        "ExtraInfo": "quasi",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Miss Afton Orlo Fadel"
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "nobis",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sylvester McKenzie"
+    "FullName": "Betsy Gaylord"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Armstrong-Swaniawski",
-    "ToolTip": "Ut dolorum facere rerum saepe quos minima.",
+    "Id": 819,
+    "Name": "Cummerata LLC",
+    "ToolTip": "Non autem laborum assumenda rerum.",
     "Deleted": false,
-    "Rank": 518,
-    "Type": "qui",
-    "ColorBlock": 284,
-    "IconHint": "voluptatum",
+    "Rank": 249,
+    "Type": "ipsum",
+    "ColorBlock": 807,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2010-01-01T12:57:43.3395828+01:00",
+    "LastChanged": "2021-08-27T04:22:35.8153337+02:00",
     "ChildItems": [
       {
-        "Id": 544,
-        "Name": "Hackett, Lehner and Boehm",
-        "ToolTip": "Et dolorem beatae voluptatem omnis qui.",
-        "Deleted": false,
-        "Rank": 429,
-        "Type": "sint",
-        "ColorBlock": 145,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2003-08-28T12:57:43.3395828+02:00",
+        "Id": 418,
+        "Name": "Hagenes Inc and Sons",
+        "ToolTip": "Aspernatur quod quis aut earum.",
+        "Deleted": true,
+        "Rank": 115,
+        "Type": "aut",
+        "ColorBlock": 439,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2009-06-28T04:22:35.8153337+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "magni",
+        "ExtraInfo": "ut",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Marisa Roberts",
+        "FullName": "Edwin Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 517
+            "FieldType": "System.Int32",
+            "FieldLength": 903
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "nemo",
+    "ExtraInfo": "ullam",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Miss Shad Dooley",
+    "FullName": "Niko Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldType": "System.String",
+        "FieldLength": 636
       }
     }
   }

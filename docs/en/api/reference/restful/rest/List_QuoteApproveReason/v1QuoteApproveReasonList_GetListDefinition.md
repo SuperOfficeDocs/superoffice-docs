@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 576,
-  "Name": "Emard, Goldner and Schiller",
-  "Tooltip": "quaerat",
-  "Deleted": false,
-  "Rank": 275,
+  "Id": 51,
+  "Name": "Sawayn-Walter",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "Rank": 884,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "illo",
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   },
   "_Links": {

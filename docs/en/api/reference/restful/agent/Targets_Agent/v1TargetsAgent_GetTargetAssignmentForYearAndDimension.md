@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 657,
+  "TargetYear": 499,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 384,
-  "DimensionId": 381
+  "Id": 496,
+  "DimensionId": 577
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 344,
+  "TargetAssignmentInfoId": 778,
   "Values": [
-    352,
-    791
+    72,
+    139
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 502,
-  "DimensionListItemDisplayName": "Bashirian-Ebert",
+  "DimensionListItem": 212,
+  "DimensionListItemDisplayName": "Harber, Luettgen and McKenzie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 363
     }
   }
 }

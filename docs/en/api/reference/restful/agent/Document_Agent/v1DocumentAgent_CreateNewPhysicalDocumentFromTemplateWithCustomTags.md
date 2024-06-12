@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 342,
-  "PersonId": 300,
-  "AppointmentId": 928,
-  "DocumentId": 443,
-  "SaleId": 425,
-  "SelectionId": 354,
-  "ProjectId": 338,
+  "ContactId": 380,
+  "PersonId": 168,
+  "AppointmentId": 697,
+  "DocumentId": 636,
+  "SaleId": 939,
+  "SelectionId": 723,
+  "ProjectId": 480,
   "CustomTags": [
-    "est",
-    "aut"
+    "omnis",
+    "omnis"
   ],
   "CustomValues": [
-    "quisquam",
-    "facilis"
+    "soluta",
+    "aut"
   ],
-  "UiCulture": "voluptatem"
+  "UiCulture": "laborum"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 607,
+  "DocumentId": 457,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nemo",
-  "Header": "rerum",
-  "Name": "Gerlach, Lindgren and Parker",
-  "OurRef": "provident",
-  "YourRef": "enim",
-  "CreatedDate": "2012-03-11T12:57:33.7899048+01:00",
-  "UpdatedDate": "2019-02-20T12:57:33.7899048+01:00",
-  "Description": "Balanced upward-trending local area network",
+  "Attention": "saepe",
+  "Header": "et",
+  "Name": "O'Conner Inc and Sons",
+  "OurRef": "eligendi",
+  "YourRef": "ut",
+  "CreatedDate": "2016-10-18T04:22:26.5928617+02:00",
+  "UpdatedDate": "1998-01-31T04:22:26.5928617+01:00",
+  "Description": "Mandatory homogeneous help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-01-19T12:57:33.7899048+01:00",
-  "ExternalRef": "vitae",
+  "Date": "2001-12-22T04:22:26.608488+01:00",
+  "ExternalRef": "id",
   "Completed": "Completed",
-  "ActiveLinks": 93,
+  "ActiveLinks": 699,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Durgan, Corkery and Blanda",
-      "Id": 480,
-      "Description": "Reactive tertiary info-mediaries",
-      "ExtraInfo": "magni",
-      "LinkId": 524,
+      "EntityName": "Effertz-Pfannerstill",
+      "Id": 43,
+      "Description": "Synergistic incremental ability",
+      "ExtraInfo": "qui",
+      "LinkId": 233,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 360
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 378,
-  "Snum": 70,
+  "SuggestedDocumentId": 507,
+  "Snum": 938,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Magnus Collins MD",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Cornelius Jammie Bode I",
+    "SuperOffice:2": "850377478"
   },
   "ExtraFields": {
-    "ExtraFields1": "cum",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "quam"
+    "CustomFields1": "esse",
+    "CustomFields2": "maiores"
   },
-  "PublishEventDate": "2010-04-11T12:57:33.7899048+02:00",
-  "PublishTo": "2020-11-08T12:57:33.7899048+01:00",
-  "PublishFrom": "2023-07-03T12:57:33.7899048+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-07-29T04:22:26.608488+02:00",
+  "PublishTo": "2002-07-22T04:22:26.608488+02:00",
+  "PublishFrom": "2011-12-10T04:22:26.608488+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 914,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     },
     {
-      "VisibleId": 914,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 208
     }
   }
 }

@@ -91,30 +91,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 183,
-  "UniqueId": "non",
-  "Name": "Ferry-Bartell",
-  "Description": "Enhanced directional intranet",
-  "AssociateId": 841,
-  "Columns": 948,
+  "DashboardId": 775,
+  "UniqueId": "optio",
+  "Name": "Considine, Goodwin and Vandervort",
+  "Description": "Ergonomic mobile Graphical User Interface",
+  "AssociateId": 926,
+  "Columns": 711,
   "Theme": null,
-  "VisibleForAll": 228,
+  "VisibleForAll": 404,
   "VisibleForAssociates": [
-    115,
-    796
+    528,
+    241
   ],
   "VisibleForGroups": [
-    856,
-    750
+    42,
+    729
   ],
-  "PinForAll": 703,
+  "PinForAll": 587,
   "PinForAssociates": [
-    18,
-    642
+    8,
+    506
   ],
   "PinForGroups": [
-    766,
-    415
+    164,
+    619
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 570,
-  "UniqueId": "tempora",
-  "Name": "Mueller-Marvin",
-  "Description": "Fundamental systematic support",
-  "AssociateId": 473,
-  "Columns": 646,
+  "DashboardId": 963,
+  "UniqueId": "recusandae",
+  "Name": "Harvey, Larkin and Sauer",
+  "Description": "Synchronised secondary knowledge base",
+  "AssociateId": 88,
+  "Columns": 810,
   "Theme": null,
-  "VisibleForAll": 112,
+  "VisibleForAll": 182,
   "VisibleForAssociates": [
-    143,
-    860
+    779,
+    492
   ],
   "VisibleForGroups": [
-    249,
-    843
+    396,
+    58
   ],
-  "PinForAll": 190,
+  "PinForAll": 24,
   "PinForAssociates": [
-    266,
-    9
+    299,
+    351
   ],
   "PinForGroups": [
-    651,
-    933
+    439,
+    473
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 491
     }
   }
 }

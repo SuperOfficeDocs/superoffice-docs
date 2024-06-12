@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 458,
-  "UniqueIdentifier": "necessitatibus",
-  "Name": "Pfannerstill, Dibbert and McKenzie",
-  "Description": "Profit-focused responsive internet solution",
-  "IncludeId": "cupiditate",
-  "HierarchyId": 2,
-  "Source": "eaque",
-  "Registered": "2013-11-30T12:57:42.3232848+01:00",
-  "RegisteredAssociateId": 433,
-  "Updated": "2004-05-27T12:57:42.3232848+02:00",
-  "UpdatedAssociateId": 295,
+  "EjscriptId": 276,
+  "UniqueIdentifier": "ea",
+  "Name": "Kutch-Ledner",
+  "Description": "Customizable real-time groupware",
+  "IncludeId": "dicta",
+  "HierarchyId": 475,
+  "Source": "qui",
+  "Registered": "2008-06-14T04:22:34.8589991+02:00",
+  "RegisteredAssociateId": 234,
+  "Updated": "2016-02-22T04:22:34.8589991+01:00",
+  "UpdatedAssociateId": 331,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldLength": 139
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

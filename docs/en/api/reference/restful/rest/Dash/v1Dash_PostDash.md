@@ -104,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 937,
-  "UniqueId": "error",
-  "Name": "Schowalter Group",
-  "Description": "Down-sized client-driven firmware",
-  "AssociateId": 171,
-  "Columns": 454,
+  "DashboardId": 97,
+  "UniqueId": "distinctio",
+  "Name": "Konopelski-Schmitt",
+  "Description": "Upgradable tangible capacity",
+  "AssociateId": 46,
+  "Columns": 361,
   "Theme": null,
-  "VisibleForAll": 296,
+  "VisibleForAll": 161,
   "VisibleForAssociates": [
-    829,
-    690
+    79,
+    957
   ],
   "VisibleForGroups": [
-    609,
-    755
+    739,
+    391
   ],
-  "PinForAll": 807,
+  "PinForAll": 82,
   "PinForAssociates": [
-    239,
-    89
+    897,
+    999
   ],
   "PinForGroups": [
-    493,
-    435
+    628,
+    806
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 289,
-  "UniqueId": "rerum",
-  "Name": "Kertzmann, Muller and Bernier",
-  "Description": "Object-based incremental middleware",
-  "AssociateId": 145,
-  "Columns": 261,
+  "DashboardId": 24,
+  "UniqueId": "ea",
+  "Name": "Kuphal, Mueller and Hickle",
+  "Description": "Realigned non-volatile approach",
+  "AssociateId": 477,
+  "Columns": 570,
   "Theme": null,
-  "VisibleForAll": 52,
+  "VisibleForAll": 26,
   "VisibleForAssociates": [
-    191,
-    317
+    377,
+    460
   ],
   "VisibleForGroups": [
-    167,
-    605
+    307,
+    604
   ],
-  "PinForAll": 413,
+  "PinForAll": 493,
   "PinForAssociates": [
-    781,
-    532
+    493,
+    685
   ],
   "PinForGroups": [
-    55,
-    6
+    102,
+    561
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

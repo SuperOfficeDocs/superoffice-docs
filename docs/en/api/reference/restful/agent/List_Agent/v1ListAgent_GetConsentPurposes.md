@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 617,
-    "Name": "Parker-Zboncak",
-    "ConsentText": "rerum",
-    "FormText": "necessitatibus",
-    "Key": "possimus",
-    "Tooltip": "quis",
-    "Active": 929,
-    "UpdatedDate": "2009-01-08T12:57:34.1648498+01:00",
+    "ConsentPurposeId": 554,
+    "Name": "Huels, Renner and Eichmann",
+    "ConsentText": "consequuntur",
+    "FormText": "illum",
+    "Key": "modi",
+    "Tooltip": "fugit",
+    "Active": 739,
+    "UpdatedDate": "2013-01-03T04:22:27.0006123+01:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 473,
-    "PrivacyStatementDesc": "natus",
+    "Deleted": false,
+    "Rank": 524,
+    "PrivacyStatementDesc": "vitae",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 557
       }
     }
   }

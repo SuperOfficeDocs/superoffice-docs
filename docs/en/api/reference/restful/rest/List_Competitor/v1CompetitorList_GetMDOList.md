@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=ea
+GET /api/v1/List/Competitor/MDOItems?query=fuga
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Zieme, Predovic and Nader",
-    "ToolTip": "Nihil corporis.",
-    "Deleted": false,
-    "Rank": 413,
+    "Id": 33,
+    "Name": "Crooks LLC",
+    "ToolTip": "Maxime eum sunt ipsam ab fugiat sint.",
+    "Deleted": true,
+    "Rank": 626,
     "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Schroeder-Schmitt",
-        "ToolTip": "Voluptatem laboriosam.",
+        "Id": 963,
+        "Name": "Harris, Wyman and Wiza",
+        "ToolTip": "Quisquam asperiores aliquam nihil.",
         "Deleted": false,
-        "Rank": 477,
-        "Type": "iste",
+        "Rank": 335,
+        "Type": "similique",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 744,
-        "ExtraInfo": "soluta",
-        "StyleHint": "consequatur",
-        "FullName": "Madisen Lesch",
+        "IconHint": "quidem",
+        "ColorBlock": 705,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "ut",
+        "FullName": "Natalia Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 266
+            "FieldLength": 906
           }
         }
       }
     ],
-    "IconHint": "atque",
-    "ColorBlock": 781,
-    "ExtraInfo": "rerum",
-    "StyleHint": "vel",
-    "FullName": "Breanne Stephania Murray Jr.",
+    "IconHint": "iure",
+    "ColorBlock": 397,
+    "ExtraInfo": "corporis",
+    "StyleHint": "delectus",
+    "FullName": "Damon Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 333
       }
     }
   }

@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cassin Inc and Sons",
-  "DeviceName": "Harris-Turner",
-  "DeviceIdentifier": "expedita",
-  "KeyName": "Klocko Inc and Sons",
-  "KeyValue": "voluptas",
-  "TableName": "Sanford, Klein and Wilderman"
+  "ApplicationName": "Parker-Cummerata",
+  "DeviceName": "Bechtelar Inc and Sons",
+  "DeviceIdentifier": "provident",
+  "KeyName": "Dibbert LLC",
+  "KeyValue": "voluptatem",
+  "TableName": "Goodwin-Ernser"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "tenetur",
-  "Value": "accusamus",
-  "RecordId": 423,
-  "CreatedDate": "2021-12-12T12:57:34.0711192+01:00",
-  "UpdatedDate": "2015-08-24T12:57:34.0711192+02:00",
-  "UpdatedBy": "repudiandae",
-  "CreatedBy": "quae",
-  "TableName": "Boyle, Weimann and Hauck",
+  "Key": "id",
+  "Value": "ut",
+  "RecordId": 643,
+  "CreatedDate": "2003-09-12T04:22:26.8755249+02:00",
+  "UpdatedDate": "2002-11-30T04:22:26.8755249+01:00",
+  "UpdatedBy": "perferendis",
+  "CreatedBy": "quos",
+  "TableName": "Moore-Herman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 208
     }
   }
 }

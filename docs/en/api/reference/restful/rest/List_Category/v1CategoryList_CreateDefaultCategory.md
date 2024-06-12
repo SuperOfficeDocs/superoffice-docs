@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 742,
-  "Name": "Pfannerstill-Hodkiewicz",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 222,
-  "Rank": 570,
+  "Id": 7,
+  "Name": "Kassulke, Lesch and Ryan",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 812,
+  "Rank": 437,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

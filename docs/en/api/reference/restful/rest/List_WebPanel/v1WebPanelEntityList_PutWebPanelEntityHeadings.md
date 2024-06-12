@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 623,
-    "Name": "Wintheiser Inc and Sons",
-    "Tooltip": "suscipit",
-    "Deleted": false,
-    "Rank": 951,
-    "UdListDefinitionId": 307
+    "HeadingId": 652,
+    "Name": "Blick, Runolfsdottir and Mitchell",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 368,
+    "UdListDefinitionId": 15
   },
   {
-    "HeadingId": 623,
-    "Name": "Wintheiser Inc and Sons",
-    "Tooltip": "suscipit",
-    "Deleted": false,
-    "Rank": 951,
-    "UdListDefinitionId": 307
+    "HeadingId": 652,
+    "Name": "Blick, Runolfsdottir and Mitchell",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 368,
+    "UdListDefinitionId": 15
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 712,
-    "Name": "Franecki LLC",
-    "Tooltip": "saepe",
+    "HeadingId": 469,
+    "Name": "Langosh, Welch and Pfannerstill",
+    "Tooltip": "alias",
     "Deleted": true,
-    "Rank": 298,
-    "UdListDefinitionId": 414,
+    "Rank": 925,
+    "UdListDefinitionId": 573,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 817
       }
     }
   }

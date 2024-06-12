@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 944,
-  "ColumnId": 39,
-  "FieldDefault": "dolor",
-  "FieldHeight": 429,
-  "FieldLabel": "fugit",
-  "FieldLeft": 466,
-  "FieldTop": 606,
+  "UDefFieldId": 887,
+  "ColumnId": 312,
+  "FieldDefault": "id",
+  "FieldHeight": 321,
+  "FieldLabel": "eos",
+  "FieldLeft": 480,
+  "FieldTop": 674,
   "FieldType": "Checkbox",
-  "FieldWidth": 271,
-  "FormatMask": "ut",
-  "HideLabel": false,
+  "FieldWidth": 110,
+  "FormatMask": "amet",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 130,
-  "LabelLeft": 943,
-  "LabelTop": 24,
-  "LabelWidth": 786,
-  "LastVersionId": 791,
-  "ListTableId": 43,
+  "LabelHeight": 12,
+  "LabelLeft": 833,
+  "LabelTop": 329,
+  "LabelWidth": 552,
+  "LastVersionId": 981,
+  "ListTableId": 631,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 178,
-  "ProgId": "quia",
-  "IsReadOnly": false,
-  "ShortLabel": "ducimus",
-  "TabOrder": 801,
-  "TextLength": 597,
+  "Page1LineNo": 107,
+  "ProgId": "praesentium",
+  "IsReadOnly": true,
+  "ShortLabel": "alias",
+  "TabOrder": 994,
+  "TextLength": 822,
   "Tooltip": "aut",
-  "UdefIdentity": 911,
-  "UDListDefinitionId": 135,
+  "UdefIdentity": 82,
+  "UDListDefinitionId": 715,
   "Justification": "Center",
-  "Version": 146,
-  "TemplateVariableName": "Von Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Sauer LLC",
+  "Version": 383,
+  "TemplateVariableName": "Kunze-Fay",
+  "HasBeenPublished": false,
+  "MdoListName": "Boehm-Collier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldLength": 324
     }
   }
 }

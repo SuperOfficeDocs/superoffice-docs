@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 363,
-    "Name": "Rosenbaum Inc and Sons",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 512,
-    "UdListDefinitionId": 51
+    "HeadingId": 590,
+    "Name": "Murray, Zboncak and Marvin",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 784,
+    "UdListDefinitionId": 119
   },
   {
-    "HeadingId": 363,
-    "Name": "Rosenbaum Inc and Sons",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 512,
-    "UdListDefinitionId": 51
+    "HeadingId": 590,
+    "Name": "Murray, Zboncak and Marvin",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 784,
+    "UdListDefinitionId": 119
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 109,
-    "Name": "Langosh-Bayer",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 329,
-    "UdListDefinitionId": 226,
+    "HeadingId": 788,
+    "Name": "Emmerich Group",
+    "Tooltip": "repellendus",
+    "Deleted": false,
+    "Rank": 171,
+    "UdListDefinitionId": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 32
       }
     }
   }

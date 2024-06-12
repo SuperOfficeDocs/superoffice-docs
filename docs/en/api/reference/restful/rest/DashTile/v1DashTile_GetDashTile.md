@@ -78,7 +78,7 @@ DashTile found.
 GET /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 928,
-  "DashboardId": 893,
-  "Height": 197,
-  "Width": 831,
-  "Rank": 575,
+  "DashboardTileId": 72,
+  "DashboardId": 825,
+  "Height": 623,
+  "Width": 722,
+  "Rank": 5,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 31
     }
   },
   "_Links": {

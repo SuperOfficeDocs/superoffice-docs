@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 589,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 6,
-  "Name": "Hoeger-Williamson",
-  "Description": "Open-architected modular open system",
-  "Currency": "consequatur",
-  "CurrencyName": "Mitchell LLC",
-  "ValidFrom": "2011-02-09T12:57:34.7115695+01:00",
-  "ValidTo": "2021-06-01T12:57:34.7115695+02:00",
+  "PriceListId": 61,
+  "ERPPriceListKey": "error",
+  "QuoteConnectionId": 36,
+  "Name": "Bednar LLC",
+  "Description": "Stand-alone grid-enabled service-desk",
+  "Currency": "saepe",
+  "CurrencyName": "Cartwright, Hansen and Hagenes",
+  "ValidFrom": "2017-02-10T04:22:27.393494+01:00",
+  "ValidTo": "2003-02-10T04:22:27.393494+01:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 695,
-  "ERPPriceListKey": "vel",
-  "QuoteConnectionId": 432,
-  "Name": "Wisoky Inc and Sons",
-  "Description": "Inverse tangible success",
-  "Currency": "accusantium",
-  "CurrencyName": "Powlowski-Powlowski",
-  "ValidFrom": "2020-06-29T12:57:34.7115695+02:00",
-  "ValidTo": "2010-06-21T12:57:34.7115695+02:00",
+  "PriceListId": 763,
+  "ERPPriceListKey": "mollitia",
+  "QuoteConnectionId": 878,
+  "Name": "Rohan, Kirlin and Swaniawski",
+  "Description": "Pre-emptive 3rd generation secured line",
+  "Currency": "voluptate",
+  "CurrencyName": "Cormier-Russel",
+  "ValidFrom": "2011-03-28T04:22:27.393494+02:00",
+  "ValidTo": "2006-11-26T04:22:27.393494+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 698
     }
   }
 }

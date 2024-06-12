@@ -71,30 +71,30 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 872,
-  "CrmRecordId": 858,
+  "ErpConnectionId": 508,
+  "CrmRecordId": 205,
   "CrmActorType": "Contact",
-  "ErpKey": "et",
+  "ErpKey": "quibusdam",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Labadie-Skiles",
-      "CrmFieldKey": "veritatis",
-      "Value": "rem",
-      "DisplayValue": "asperiores",
-      "SyncToCrm": false,
+      "DisplayName": "Spinka-Murazik",
+      "CrmFieldKey": "eum",
+      "Value": "error",
+      "DisplayValue": "tempore",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Labadie-Skiles",
-      "CrmFieldKey": "veritatis",
-      "Value": "rem",
-      "DisplayValue": "asperiores",
-      "SyncToCrm": false,
+      "DisplayName": "Spinka-Murazik",
+      "CrmFieldKey": "eum",
+      "Value": "error",
+      "DisplayValue": "tempore",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

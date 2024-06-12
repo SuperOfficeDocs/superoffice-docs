@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 651
+  "DocumentId": 119
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 42,
-      "ContactName": "Graham, Bednar and Zulauf",
-      "PersonId": 960,
-      "PersonName": "Batz-Tremblay",
-      "AssociateId": 512,
-      "Address": "iusto",
-      "EmailId": 933,
+      "ContactId": 836,
+      "ContactName": "Hoppe, Kihn and Balistreri",
+      "PersonId": 232,
+      "PersonName": "Kassulke-Cremin",
+      "AssociateId": 194,
+      "Address": "iure",
+      "EmailId": 407,
       "DuplicatePersonIds": [
-        761,
-        246
+        440,
+        791
       ],
-      "Name": "Schumm-Bernier",
+      "Name": "Kling Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 599
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 523,
-      "ContactName": "Schmeler-Turner",
-      "PersonId": 789,
-      "PersonName": "Turner Inc and Sons",
-      "AssociateId": 890,
-      "Address": "magnam",
-      "EmailId": 954,
+      "ContactId": 545,
+      "ContactName": "Sanford LLC",
+      "PersonId": 470,
+      "PersonName": "Hettinger LLC",
+      "AssociateId": 250,
+      "Address": "unde",
+      "EmailId": 236,
       "DuplicatePersonIds": [
-        808,
-        598
+        516,
+        965
       ],
-      "Name": "Kris LLC",
+      "Name": "Schumm Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldLength": 292
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 885,
-      "ContactName": "Terry Group",
-      "PersonId": 791,
-      "PersonName": "Harber-O'Kon",
-      "AssociateId": 522,
-      "Address": "explicabo",
-      "EmailId": 214,
+      "ContactId": 688,
+      "ContactName": "Kessler, Homenick and Friesen",
+      "PersonId": 772,
+      "PersonName": "Waelchi, Ernser and Bergstrom",
+      "AssociateId": 449,
+      "Address": "iure",
+      "EmailId": 84,
       "DuplicatePersonIds": [
-        422,
-        113
+        102,
+        883
       ],
-      "Name": "Wehner Group",
+      "Name": "Von-Murazik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldType": "System.Int32",
+          "FieldLength": 700
         }
       }
     }
   ],
-  "Subject": "ipsa",
-  "HTMLBody": "nam",
+  "Subject": "quo",
+  "HTMLBody": "illo",
   "From": null,
-  "Sent": "2004-03-13T12:57:33.9461474+01:00",
-  "Size": 867,
+  "Sent": "2012-01-23T04:22:26.7491153+01:00",
+  "Size": 332,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "consequuntur",
-  "PlainBody": "qui",
+  "MessageID": "qui",
+  "PlainBody": "saepe",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 157,
+  "ServerId": 217,
   "Attachments": [
     {
-      "Description": "Ergonomic methodical throughput",
-      "Filename": "libero",
-      "Size": 172,
-      "Type": "et",
-      "Encoding": "perferendis",
-      "Id": "delectus",
-      "Disposition": "consequuntur",
+      "Description": "Re-engineered 5th generation knowledge base",
+      "Filename": "expedita",
+      "Size": 596,
+      "Type": "consequuntur",
+      "Encoding": "sapiente",
+      "Id": "voluptas",
+      "Disposition": "debitis",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldType": "System.String",
+          "FieldLength": 904
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Dooley, Bahringer and Stroman",
+      "Name": "Jerde Inc and Sons",
       "Values": [
-        "nam",
-        "iste"
+        "maiores",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     },
     {
-      "Name": "Dooley, Bahringer and Stroman",
+      "Name": "Jerde Inc and Sons",
       "Values": [
-        "nam",
-        "iste"
+        "maiores",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     }
   ],
-  "FolderName": "Green-Mraz",
-  "EmailItemId": 753,
-  "AccountId": 581,
-  "ReceivedAt": "1997-02-28T12:57:33.9461474+01:00",
+  "FolderName": "Feest, Cronin and Lubowitz",
+  "EmailItemId": 452,
+  "AccountId": 541,
+  "ReceivedAt": "1999-09-22T04:22:26.7491153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-01-01T12:57:33.9461474+01:00",
+  "RepliedAt": "2022-04-27T04:22:26.7491153+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldLength": 758
     }
   }
 }

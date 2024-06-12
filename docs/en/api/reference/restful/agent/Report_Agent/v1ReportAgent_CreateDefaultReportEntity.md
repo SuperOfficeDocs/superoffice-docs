@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 186,
+  "ReportId": 153,
   "ReportCategory": "All",
-  "Description": "Focused even-keeled moderator",
+  "Description": "Balanced bottom-line productivity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Schimmel, Beier and Hahn",
-  "AssociateId": 422,
-  "TemplateId": 70,
-  "Published": true,
+  "Name": "Grady, Wiegand and Bartoletti",
+  "AssociateId": 437,
+  "TemplateId": 930,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   }
 }

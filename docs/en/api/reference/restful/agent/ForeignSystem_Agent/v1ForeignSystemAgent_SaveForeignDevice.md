@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Kilback-Pagac"
+  "ApplicationName": "Breitenberg-Spinka"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 498,
-  "Name": "Lakin LLC",
-  "CreatedDate": "2004-05-21T12:57:34.0711192+02:00",
-  "UpdatedDate": "1997-07-12T12:57:34.0711192+02:00",
-  "AssociateFullName": "Mr. Kevon Laurence Walter V",
-  "CreatedBy": "sapiente",
-  "UpdatedBy": "inventore",
-  "DeviceIdentifier": "quos",
-  "ForeignAppId": 119,
+  "ForeignDeviceId": 966,
+  "Name": "Mueller Group",
+  "CreatedDate": "2004-02-12T04:22:26.8755249+01:00",
+  "UpdatedDate": "2021-09-23T04:22:26.8755249+02:00",
+  "AssociateFullName": "Miss Ramon O'Conner IV",
+  "CreatedBy": "consequatur",
+  "UpdatedBy": "tempora",
+  "DeviceIdentifier": "soluta",
+  "ForeignAppId": 827,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 399
     }
   }
 }

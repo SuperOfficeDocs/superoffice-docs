@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Bartell LLC",
-    "ToolTip": "Consequatur impedit rerum nulla ratione qui dolorem.",
+    "Id": 840,
+    "Name": "D'Amore LLC",
+    "ToolTip": "Quod fuga quasi tenetur aut veniam quia.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "dolor",
-    "ColorBlock": 562,
-    "IconHint": "dolor",
+    "Rank": 999,
+    "Type": "suscipit",
+    "ColorBlock": 238,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2001-04-12T12:57:43.6676321+02:00",
+    "LastChanged": "2020-11-16T04:22:36.1278402+01:00",
     "ChildItems": [
       {
-        "Id": 522,
-        "Name": "Runte, Luettgen and Champlin",
-        "ToolTip": "Magnam minus ducimus iure est consectetur eaque voluptatem.",
+        "Id": 771,
+        "Name": "Langosh LLC",
+        "ToolTip": "Voluptatem numquam nam est omnis qui.",
         "Deleted": false,
-        "Rank": 248,
-        "Type": "quaerat",
-        "ColorBlock": 777,
-        "IconHint": "aperiam",
+        "Rank": 992,
+        "Type": "iste",
+        "ColorBlock": 66,
+        "IconHint": "repellendus",
         "Selected": true,
-        "LastChanged": "2023-06-22T12:57:43.6676321+02:00",
+        "LastChanged": "2020-02-25T04:22:36.1278402+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "ratione",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Ms. Bailey Davis"
+        "FullName": "Ryleigh Pacocha"
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Savannah Chris Kunde DDS"
+    "ExtraInfo": "quasi",
+    "StyleHint": "beatae",
+    "Hidden": false,
+    "FullName": "Clifford Harold Grady III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Bailey, Gleason and Jerde",
-    "ToolTip": "Voluptates iste doloribus nihil quod dolores qui.",
-    "Deleted": false,
-    "Rank": 638,
-    "Type": "corrupti",
-    "ColorBlock": 221,
-    "IconHint": "aut",
+    "Id": 866,
+    "Name": "Bins-Hodkiewicz",
+    "ToolTip": "Nobis laborum laudantium pariatur.",
+    "Deleted": true,
+    "Rank": 169,
+    "Type": "sit",
+    "ColorBlock": 112,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2019-03-29T12:57:43.6676321+01:00",
+    "LastChanged": "2012-11-25T04:22:36.1278402+01:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Treutel LLC",
-        "ToolTip": "Ea reprehenderit.",
+        "Id": 230,
+        "Name": "Wunsch-Hilpert",
+        "ToolTip": "Quae autem illo sit delectus odit eum ipsa.",
         "Deleted": true,
-        "Rank": 961,
-        "Type": "ut",
-        "ColorBlock": 648,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2007-11-14T12:57:43.6676321+01:00",
+        "Rank": 414,
+        "Type": "alias",
+        "ColorBlock": 77,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2018-07-05T04:22:36.1278402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "autem",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Otis Spencer",
+        "FullName": "Efren Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "et",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Mrs. Odie Schoen",
+    "FullName": "Aniyah Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldLength": 413
       }
     }
   }

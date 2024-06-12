@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Runte-Abernathy",
-    "ToolTip": "Quaerat est labore ex porro voluptatem ut facere.",
+    "Id": 654,
+    "Name": "Considine, Gottlieb and Morar",
+    "ToolTip": "Nisi dolorem omnis voluptatem est praesentium itaque laboriosam.",
     "Deleted": false,
-    "Rank": 887,
-    "Type": "aliquam",
-    "ColorBlock": 973,
-    "IconHint": "non",
+    "Rank": 414,
+    "Type": "cum",
+    "ColorBlock": 520,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2008-01-31T12:57:43.7613612+01:00",
+    "LastChanged": "2010-03-24T04:22:36.2059631+01:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Walker, Stark and Schinner",
-        "ToolTip": "Velit a et.",
-        "Deleted": false,
-        "Rank": 729,
-        "Type": "accusantium",
-        "ColorBlock": 627,
-        "IconHint": "praesentium",
+        "Id": 856,
+        "Name": "Kreiger-Cassin",
+        "ToolTip": "Temporibus assumenda enim et voluptas perferendis.",
+        "Deleted": true,
+        "Rank": 810,
+        "Type": "perspiciatis",
+        "ColorBlock": 666,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2003-10-10T12:57:43.7613612+02:00",
+        "LastChanged": "2005-03-08T04:22:36.2059631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Dr. Diana Krajcik Sr.",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Miss Fatima Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 625
+            "FieldType": "System.String",
+            "FieldLength": 377
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "modi",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Giuseppe Schmeler",
+    "FullName": "Norene Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 770
       }
     }
   }

@@ -102,55 +102,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Weissnat, Hane and Collins",
+  "ProviderName": "Cole-Considine",
   "Columns": [
-    "dolores",
-    "eveniet"
+    "saepe",
+    "tempore"
   ],
   "SortOrder": [
     {
-      "Name": "Donnelly-Will",
+      "Name": "Torphy-Watsica",
       "Direction": "ASC"
     },
     {
-      "Name": "Donnelly-Will",
+      "Name": "Torphy-Watsica",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Konopelski, Wisozk and Goldner",
-      "Operator": "provident",
+      "Name": "Gutmann-Crona",
+      "Operator": "repudiandae",
       "Values": [
-        "vel",
-        "qui"
+        "reiciendis",
+        "iste"
       ],
       "DisplayValues": [
-        "accusantium",
-        "vitae"
+        "labore",
+        "iusto"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 919,
+      "InterParenthesis": 228,
       "InterOperator": "And",
-      "UniqueHash": 397
+      "UniqueHash": 862
     }
   ],
   "Entities": [
-    "omnis",
-    "fuga"
+    "enim",
+    "ducimus"
   ],
-  "Page": 520,
-  "PageSize": 747,
-  "Options": "minima"
+  "Page": 950,
+  "PageSize": 565,
+  "Options": "sint"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 84,
+  "RowCount": 9,
   "Rows": [
     {
-      "EntityName": "Durgan Group",
-      "PrimaryKey": 596,
+      "EntityName": "Hahn Inc and Sons",
+      "PrimaryKey": 427,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "sunt",
-          "LinkHint": "recusandae"
+          "DisplayValue": "a",
+          "TooltipHint": "id",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "quod",
+      "LinkHint": "sequi",
+      "StyleHint": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldType": "System.String",
+          "FieldLength": 233
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Graham Group",
+  "TableName": "Hand Inc and Sons",
   "RecordIds": [
-    997,
-    106
+    791,
+    112
   ],
-  "AssociateId": 456
+  "AssociateId": 85
 }
 ```
 

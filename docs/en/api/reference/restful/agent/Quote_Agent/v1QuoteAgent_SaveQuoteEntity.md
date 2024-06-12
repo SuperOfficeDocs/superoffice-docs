@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 894,
-  "SaleId": 96,
-  "QuoteConnectionId": 918,
-  "ERPQuoteKey": "voluptate",
-  "ERPOrderKey": "quia",
-  "ActiveQuoteVersionId": 327,
-  "AcceptedQuoteAlternativeId": 180,
-  "UseValuesFromQuote": 411,
-  "DocumentId": 303,
-  "PoNumber": "889798",
-  "OrderComment": "dignissimos",
-  "PreferredEmailCulture": "leora.hirthe@rath.co.uk",
+  "QuoteId": 663,
+  "SaleId": 33,
+  "QuoteConnectionId": 112,
+  "ERPQuoteKey": "numquam",
+  "ERPOrderKey": "nobis",
+  "ActiveQuoteVersionId": 211,
+  "AcceptedQuoteAlternativeId": 63,
+  "UseValuesFromQuote": 347,
+  "DocumentId": 264,
+  "PoNumber": "1508775",
+  "OrderComment": "cumque",
+  "PreferredEmailCulture": "thora@heaney.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 491,
-      "ERPQuoteVersionKey": "et",
-      "QuoteId": 372,
-      "Description": "Future-proofed 6th generation flexibility",
-      "Number": "1317062",
+      "QuoteVersionId": 451,
+      "ERPQuoteVersionKey": "doloremque",
+      "QuoteId": 298,
+      "Description": "Centralized bottom-line protocol",
+      "Number": "1617897",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 399,
-      "SentDate": "2006-11-23T12:57:34.7584337+01:00",
-      "FollowupId": 482,
-      "ExpirationDate": "2001-01-28T12:57:34.7584337+01:00",
-      "DeliveryCountryId": 318,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 769,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "dolor",
-      "ERPPaymentTypeKey": "dolores",
-      "ERPDeliveryTermsKey": "esse",
-      "ERPDeliveryTypeKey": "aliquam",
-      "Rank": 561,
-      "ApprovedBy": 385,
-      "ApprovedText": "laboriosam",
-      "ApprovedRegisteredBy": 164,
-      "ApprovedRegisteredDate": "1997-04-01T12:57:34.7584337+02:00",
-      "ExtraField1": "vero",
-      "ExtraField2": "et",
-      "ExtraField3": "occaecati",
-      "ExtraField4": "consequatur",
-      "ExtraField5": "aut",
-      "LastRecalculated": "2016-09-22T12:57:34.7584337+02:00",
-      "Updated": "1997-05-06T12:57:34.7584337+02:00",
-      "UpdatedAssociateId": 244,
-      "Registered": "2022-01-19T12:57:34.7584337+01:00",
-      "RegisteredAssociateId": 838,
-      "RequestAssociateId": 195,
-      "RequestComment": "error",
+      "LikelyQuoteAlternativeId": 699,
+      "SentDate": "2001-02-27T04:22:27.4247427+01:00",
+      "FollowupId": 826,
+      "ExpirationDate": "2022-01-11T04:22:27.4247427+01:00",
+      "DeliveryCountryId": 1002,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 462,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "laborum",
+      "ERPPaymentTypeKey": "voluptatibus",
+      "ERPDeliveryTermsKey": "unde",
+      "ERPDeliveryTypeKey": "doloribus",
+      "Rank": 934,
+      "ApprovedBy": 704,
+      "ApprovedText": "tempore",
+      "ApprovedRegisteredBy": 934,
+      "ApprovedRegisteredDate": "2008-12-15T04:22:27.4247427+01:00",
+      "ExtraField1": "et",
+      "ExtraField2": "nostrum",
+      "ExtraField3": "assumenda",
+      "ExtraField4": "placeat",
+      "ExtraField5": "ipsa",
+      "LastRecalculated": "2013-05-30T04:22:27.4247427+02:00",
+      "Updated": "2005-12-02T04:22:27.4247427+01:00",
+      "UpdatedAssociateId": 854,
+      "Registered": "2014-02-10T04:22:27.4247427+01:00",
+      "RegisteredAssociateId": 283,
+      "RequestAssociateId": 127,
+      "RequestComment": "est",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 300
+          "FieldType": "System.Int32",
+          "FieldLength": 647
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

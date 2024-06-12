@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 351,
-    "Name": "Legros-Cole",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 37,
+    "WebPanelId": 686,
+    "Name": "Beahan-Bartell",
+    "Tooltip": "quaerat",
+    "Deleted": true,
+    "Rank": 884,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnSatellite": false,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Doyle-Gislason",
+    "WindowName": "Hodkiewicz, Towne and DuBuque",
     "Url": "http://www.example.com/",
-    "ProgId": "voluptatem",
-    "Icon": 916,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "dolore",
+    "Icon": 850,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldType": "System.Int32",
+        "FieldLength": 530
       }
     }
   }

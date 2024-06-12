@@ -70,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 379
+  "SelectionId": 370
 }
 ```
 

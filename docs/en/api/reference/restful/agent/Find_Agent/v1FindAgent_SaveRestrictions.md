@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deleniti",
-  "ProviderName": "Hahn, Altenwerth and Stiedemann",
-  "StorageKey": "recusandae",
+  "StorageType": "sit",
+  "ProviderName": "Runolfsdottir, Johns and Streich",
+  "StorageKey": "facere",
   "Restrictions": [
     {
-      "Name": "Veum, Langworth and Rolfson",
-      "Operator": "minus",
+      "Name": "Powlowski Inc and Sons",
+      "Operator": "doloribus",
       "Values": [
-        "ut",
-        "illum"
+        "incidunt",
+        "deleniti"
       ],
       "DisplayValues": [
-        "ut",
-        "voluptas"
+        "quod",
+        "eaque"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 522,
+      "InterParenthesis": 591,
       "InterOperator": "And",
-      "UniqueHash": 694
+      "UniqueHash": 973
     }
   ]
 }

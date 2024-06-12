@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 867
+  "ChatTopicId": 114
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 980,
-  "TopicId": 169,
+  "ChatSessionId": 787,
+  "TopicId": 683,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magnam",
-  "CustomerHost": "a",
-  "CustomerName": "Schiller-Toy",
-  "CustomerEmail": "jason@kub.ca",
-  "CustomerPhone": "1-178-975-8707 x321",
+  "CustomerAlias": "corrupti",
+  "CustomerHost": "distinctio",
+  "CustomerName": "McGlynn LLC",
+  "CustomerEmail": "wilfrid@yundt.com",
+  "CustomerPhone": "1-797-598-1227",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Johnston-Conn",
+  "CustomerCompanyName": "Bechtelar, Turner and Walter",
   "Status": "Closed",
-  "FirstMessage": "voluptates",
-  "LastMessage": "sunt",
-  "WhenRequested": "2020-05-19T12:57:33.430612+02:00",
-  "WhenStarted": "1997-08-31T12:57:33.430612+02:00",
-  "WhenEnded": "2011-08-03T12:57:33.430612+02:00",
-  "WhenIdle": "2012-07-28T12:57:33.430612+02:00",
-  "WhenFetched": "2003-05-01T12:57:33.430612+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 466,
-  "AlertLevel": 81,
-  "Rank": 402,
+  "FirstMessage": "delectus",
+  "LastMessage": "eius",
+  "WhenRequested": "2001-05-03T04:22:26.1528443+02:00",
+  "WhenStarted": "2019-12-22T04:22:26.1528443+01:00",
+  "WhenEnded": "2007-04-11T04:22:26.1528443+02:00",
+  "WhenIdle": "2006-02-04T04:22:26.1528443+01:00",
+  "WhenFetched": "2001-11-30T04:22:26.1528443+01:00",
+  "SessionKey": "quis",
+  "InitialQueuePos": 369,
+  "AlertLevel": 411,
+  "Rank": 586,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 713,
+  "Rating": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 64
     }
   }
 }

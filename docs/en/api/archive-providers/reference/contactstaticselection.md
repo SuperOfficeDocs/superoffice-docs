@@ -317,7 +317,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |sale/description| *None* |Description: The long description field on Sale|  |
 |sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|sale/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID|  |
 |sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
@@ -410,7 +410,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
 |appointment/duration| *None* |Duration: The duration of the chat session|  |
-|appointment/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|appointment/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |appointment/visibleFor| *None* |Visible for|  |
 |appointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -595,7 +595,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |createdByForm|listAny|Created by form: Created by form| x |
 |personInfo/textId|int|Text ID| x |
 |personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
@@ -729,7 +729,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personSourceRelation/isProjectMember| *None* |Source - Is project member: This person is a project member|  |
 |personSourceRelation/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder|  |
 |personSourceRelation/updatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
-|personSourceRelation/whenUpdatedByWorkflow| *None* |Source - Updated by flow: Updated by flow|  |
+|personSourceRelation/whenUpdatedByWorkflow| *None* |Source - When updated by flow: When updated by flow|  |
 |personSourceRelation/createdByForm| *None* |Source - Created by form: Created by form|  |
 |personSourceRelation/restrictionContactId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
 |personSourceRelation/restrictionPersonId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
@@ -787,7 +787,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personTargetRelation/isProjectMember| *None* |Target - Is project member: This person is a project member|  |
 |personTargetRelation/isStakeholder| *None* |Target - Is stakeholder: This person is a sale stakeholder|  |
 |personTargetRelation/updatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
-|personTargetRelation/whenUpdatedByWorkflow| *None* |Target - Updated by flow: Updated by flow|  |
+|personTargetRelation/whenUpdatedByWorkflow| *None* |Target - When updated by flow: When updated by flow|  |
 |personTargetRelation/createdByForm| *None* |Target - Created by form: Created by form|  |
 |personTargetRelation/restrictionContactId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
 |personTargetRelation/restrictionPersonId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
@@ -910,7 +910,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
-|request/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|request/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |request/createdBy/firstName| *None* |Created by - First name: Displays the contact's first name|  |
 |request/createdBy/lastName| *None* |Created by - Last name: Displays the contact's last name|  |
 |request/createdBy/middleName| *None* |Created by - Middle Name: Displays the contact's middle name.|  |
@@ -1139,7 +1139,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
 |personAppointment/duration| *None* |Duration: The duration of the chat session|  |
-|personAppointment/createdByWorkflow| *None* |Created by workflow: Created by workflow|  |
+|personAppointment/createdByWorkflow| *None* |Created by flow: Created by flow|  |
 |personAppointment/visibleFor| *None* |Visible for|  |
 |personAppointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |personAppointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1199,7 +1199,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=who,contactPhone/formattedNumber,LastDoByActivity,sale/saleId,sale/saleUdef/SuperOffice:3
+GET /api/v1/archive/ContactStaticSelection?$select=restrictionAddress/addressId,appointment/registeredByFullName,appointment/appointmentUdef/SuperOffice:5,position,personTargetRelation/birthdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

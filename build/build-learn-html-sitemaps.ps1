@@ -3,11 +3,6 @@
 # print working directory
 Get-Location
 
-# give us write permissions to build output folder
-# There isn't a direct equivalent to 'chmod' in PowerShell. You may need to use ACLs (Access Control Lists) in Windows instead.
-# Similarly, 'chown' does not have a direct PowerShell equivalent, as Windows uses a different permissions system. You'll likely need to work with ACLs.
-# For this example, we will skip this step, as it's generally less common to change file permissions this way on Windows.
-
 Get-ChildItem -Path "." -Name
 
 Set-Location -Path .\_site

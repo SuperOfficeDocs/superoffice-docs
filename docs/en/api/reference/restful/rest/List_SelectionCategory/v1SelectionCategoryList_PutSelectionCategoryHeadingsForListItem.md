@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Schulist, Senger and Tremblay",
-    "ToolTip": "Ut et qui sint.",
-    "Deleted": true,
-    "Rank": 959,
-    "Type": "repellendus",
-    "ColorBlock": 122,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "1999-07-09T12:57:43.7613612+02:00",
+    "Id": 567,
+    "Name": "Keebler, Kozey and Considine",
+    "ToolTip": "Vel eum.",
+    "Deleted": false,
+    "Rank": 404,
+    "Type": "qui",
+    "ColorBlock": 448,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "1998-04-30T04:22:36.2059631+02:00",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Johnson, Ebert and Nienow",
-        "ToolTip": "Eveniet non.",
+        "Id": 140,
+        "Name": "Bashirian-D'Amore",
+        "ToolTip": "Fuga labore unde labore aliquid.",
         "Deleted": false,
-        "Rank": 837,
-        "Type": "aspernatur",
-        "ColorBlock": 147,
-        "IconHint": "rerum",
+        "Rank": 983,
+        "Type": "consequatur",
+        "ColorBlock": 401,
+        "IconHint": "debitis",
         "Selected": true,
-        "LastChanged": "2020-12-19T12:57:43.7613612+01:00",
+        "LastChanged": "2021-08-22T04:22:36.2059631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "in",
+        "ExtraInfo": "earum",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Sheldon Botsford"
+        "FullName": "Verna Fahey"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "velit",
+    "ExtraInfo": "quam",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Jillian Dicki DVM"
+    "FullName": "Tracey Powlowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Herzog, Hessel and Gaylord",
-    "ToolTip": "Qui doloribus aut voluptatem corrupti autem.",
-    "Deleted": false,
-    "Rank": 502,
-    "Type": "error",
-    "ColorBlock": 153,
-    "IconHint": "vel",
+    "Id": 904,
+    "Name": "Volkman, Beer and Balistreri",
+    "ToolTip": "Minima officia rem aperiam veniam beatae magni in.",
+    "Deleted": true,
+    "Rank": 65,
+    "Type": "recusandae",
+    "ColorBlock": 920,
+    "IconHint": "quae",
     "Selected": true,
-    "LastChanged": "2023-11-20T12:57:43.7613612+01:00",
+    "LastChanged": "2003-04-23T04:22:36.2059631+02:00",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Monahan-Feil",
-        "ToolTip": "Quis molestias.",
+        "Id": 731,
+        "Name": "Moen-Dach",
+        "ToolTip": "Rerum et quis omnis commodi.",
         "Deleted": false,
-        "Rank": 432,
-        "Type": "distinctio",
-        "ColorBlock": 158,
-        "IconHint": "iste",
+        "Rank": 488,
+        "Type": "voluptas",
+        "ColorBlock": 993,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2020-06-08T12:57:43.7613612+02:00",
+        "LastChanged": "2006-05-06T04:22:36.2059631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "quas",
+        "ExtraInfo": "fugit",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Tyshawn Judah Block IV",
+        "FullName": "Ms. Samson Hunter Considine MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Scottie Rempel V",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Izabella Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 884
+        "FieldType": "System.Int32",
+        "FieldLength": 629
       }
     }
   }

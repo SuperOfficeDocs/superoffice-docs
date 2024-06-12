@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 894,
-  "UniqueId": "qui",
-  "Name": "Beer Inc and Sons",
-  "Description": "Horizontal background leverage",
-  "AssociateId": 395,
-  "Columns": 499,
+  "DashboardId": 785,
+  "UniqueId": "expedita",
+  "Name": "Hudson-Veum",
+  "Description": "Extended even-keeled interface",
+  "AssociateId": 411,
+  "Columns": 356,
   "Theme": null,
-  "VisibleForAll": 455,
+  "VisibleForAll": 774,
   "VisibleForAssociates": [
-    945,
-    289
+    560,
+    279
   ],
   "VisibleForGroups": [
-    550,
-    758
+    791,
+    535
   ],
-  "PinForAll": 112,
+  "PinForAll": 487,
   "PinForAssociates": [
-    835,
-    730
+    774,
+    437
   ],
   "PinForGroups": [
-    21,
-    789
+    564,
+    200
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   }
 }

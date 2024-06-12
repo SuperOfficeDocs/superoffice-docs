@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 943
+  "PersonId": 106
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 372,
-    "Comment": "ad",
-    "Registered": "2000-09-20T12:57:34.5397338+02:00",
-    "RegisteredAssociateId": 512,
-    "Updated": "2009-07-16T12:57:34.5397338+02:00",
-    "UpdatedAssociateId": 992,
-    "LegalBaseId": 294,
-    "LegalBaseKey": "quo",
-    "LegalBaseName": "Schmitt, Windler and Abshire",
-    "ConsentPurposeId": 596,
-    "ConsentPurposeKey": "facere",
-    "ConsentPurposeName": "O'Reilly-Bauch",
-    "ConsentSourceId": 206,
-    "ConsentSourceKey": "excepturi",
-    "ConsentSourceName": "Hoppe-Blick",
+    "ConsentPersonId": 1002,
+    "Comment": "quam",
+    "Registered": "2023-11-21T04:22:27.2216178+01:00",
+    "RegisteredAssociateId": 59,
+    "Updated": "2008-05-29T04:22:27.2216178+02:00",
+    "UpdatedAssociateId": 242,
+    "LegalBaseId": 917,
+    "LegalBaseKey": "aut",
+    "LegalBaseName": "Shields LLC",
+    "ConsentPurposeId": 362,
+    "ConsentPurposeKey": "hic",
+    "ConsentPurposeName": "Willms, Luettgen and Langosh",
+    "ConsentSourceId": 243,
+    "ConsentSourceKey": "accusantium",
+    "ConsentSourceName": "VonRueden LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 538
       }
     }
   }

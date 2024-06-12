@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 695,
-  "Name": "Collier Group",
-  "ContentType": "sed",
-  "AttSize": 36,
-  "InlineImage": true,
-  "ContentId": "voluptas",
-  "AuthKey": "fuga",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 227,
+  "Name": "Bartoletti, Parker and Pfannerstill",
+  "ContentType": "hic",
+  "AttSize": 635,
+  "InlineImage": false,
+  "ContentId": "voluptatibus",
+  "AuthKey": "aperiam",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 821
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

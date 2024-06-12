@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "consequuntur",
-    "eum"
+    "consequatur",
+    "eos"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cassin LLC",
-    "Delimiter": "unde",
-    "Flags": "dolorem",
-    "TotalItems": 663,
-    "UnreadItems": 805,
+    "Name": "Schuster Inc and Sons",
+    "Delimiter": "neque",
+    "Flags": "consequatur",
+    "TotalItems": 802,
+    "UnreadItems": 919,
     "Subscribed": false,
-    "EmailFolderId": 910,
+    "EmailFolderId": 290,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldLength": 554
       }
     }
   }

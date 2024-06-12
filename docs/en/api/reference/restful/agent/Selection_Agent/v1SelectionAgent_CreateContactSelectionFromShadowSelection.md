@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 994,
-  "Name": "Kuhn, Orn and Koss"
+  "SelectionId": 609,
+  "Name": "Rath, Wunsch and Glover"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative system-worthy approach",
-  "Postit": "nobis",
+  "Description": "Future-proofed high-level protocol",
+  "Postit": "possimus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 645,
-  "IncludePerson": 810,
+  "GroupIdx": 705,
+  "IncludePerson": 959,
   "MemberCount": 99.99,
-  "Name": "Kirlin-Heaney",
-  "PostitTextId": 177,
-  "CreatedDate": "2002-02-13T12:57:34.961451+01:00",
-  "SelectionId": 748,
-  "SoundEx": "dolore",
-  "Source": 753,
-  "TextId": 492,
-  "UpdatedDate": "2011-03-15T12:57:34.961451+01:00",
-  "UpdatedCount": 288,
-  "Visibility": 517,
+  "Name": "Ankunding Group",
+  "PostitTextId": 415,
+  "CreatedDate": "2011-08-13T04:22:27.6430234+02:00",
+  "SelectionId": 772,
+  "SoundEx": "consectetur",
+  "Source": 147,
+  "TextId": 979,
+  "UpdatedDate": "2008-09-21T04:22:27.6430234+02:00",
+  "UpdatedCount": 547,
+  "Visibility": 692,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 210,
-  "TargetTableName": "Nikolaus, Bruen and Kautzer",
-  "Completed": false,
-  "LeftSelectionId": 105,
-  "RightSelectionId": 250,
+  "TargetTableNumber": 730,
+  "TargetTableName": "Ziemann, Boyer and Pfeffer",
+  "Completed": true,
+  "LeftSelectionId": 983,
+  "RightSelectionId": 759,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Turner-Miller",
-  "ShadowProviderName": "Gislason, Schinner and Purdy",
-  "ChartKey": "blanditiis",
-  "LastLoaded": "2015-12-19T12:57:34.961451+01:00",
-  "LastLoadedBy": 670,
+  "MainProviderName": "Kuhn LLC",
+  "ShadowProviderName": "Sanford, Deckow and Champlin",
+  "ChartKey": "occaecati",
+  "LastLoaded": "2016-04-19T04:22:27.6430234+02:00",
+  "LastLoadedBy": 399,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-04-15T12:57:34.961451+02:00",
-  "LastMembershipChangeBy": 280,
+  "LastMembershipChange": "2017-08-04T04:22:27.6430234+02:00",
+  "LastMembershipChangeBy": 787,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "neque",
-  "MemberTabHeading": "officiis",
-  "MailingsProviderName": "Koepp Inc and Sons",
-  "DashboardTileDefinitionId": 551,
+  "MainHeading": "placeat",
+  "MemberTabHeading": "quaerat",
+  "MailingsProviderName": "Heaney, Watsica and Harvey",
+  "DashboardTileDefinitionId": 403,
   "VisibleFor": [
     {
-      "VisibleId": 743,
+      "VisibleId": 757,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldLength": 88
         }
       }
     },
     {
-      "VisibleId": 743,
+      "VisibleId": 757,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldLength": 88
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   }
 }

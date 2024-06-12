@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 24,
-  "CredentialType": "nesciunt"
+  "UserId": 512,
+  "CredentialType": "cum"
 }
 ```
 

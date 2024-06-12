@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 377,
+    "UDefFieldId": 295,
     "ColumnId": 513,
-    "FieldDefault": "ut",
-    "FieldHeight": 749,
-    "FieldLabel": "tempore",
-    "FieldLeft": 73,
-    "FieldTop": 766,
+    "FieldDefault": "quasi",
+    "FieldHeight": 711,
+    "FieldLabel": "quis",
+    "FieldLeft": 160,
+    "FieldTop": 193,
     "FieldType": "Checkbox",
-    "FieldWidth": 936,
-    "FormatMask": "voluptas",
+    "FieldWidth": 104,
+    "FormatMask": "et",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 885,
-    "LabelLeft": 2,
-    "LabelTop": 268,
-    "LabelWidth": 414,
-    "LastVersionId": 275,
-    "ListTableId": 1001,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 284,
+    "LabelLeft": 362,
+    "LabelTop": 344,
+    "LabelWidth": 642,
+    "LastVersionId": 599,
+    "ListTableId": 607,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 87,
-    "ProgId": "dignissimos",
+    "Page1LineNo": 305,
+    "ProgId": "quia",
     "IsReadOnly": false,
-    "ShortLabel": "voluptas",
-    "TabOrder": 454,
-    "TextLength": 778,
-    "Tooltip": "consequuntur",
-    "UdefIdentity": 664,
-    "UDListDefinitionId": 214,
+    "ShortLabel": "in",
+    "TabOrder": 233,
+    "TextLength": 268,
+    "Tooltip": "maxime",
+    "UdefIdentity": 804,
+    "UDListDefinitionId": 494,
     "Justification": "Center",
-    "Version": 706,
-    "TemplateVariableName": "Reilly-Bogisich",
-    "HasBeenPublished": true,
-    "MdoListName": "Renner, Parker and Dietrich",
+    "Version": 423,
+    "TemplateVariableName": "Beier, Moen and Hane",
+    "HasBeenPublished": false,
+    "MdoListName": "Stroman-Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldLength": 988
       }
     }
   }

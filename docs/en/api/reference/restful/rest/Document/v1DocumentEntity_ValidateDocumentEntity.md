@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 15,
+  "DocumentId": 121,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "beatae",
-  "Header": "dolores",
-  "Name": "Walker, Hagenes and O'Reilly",
-  "OurRef": "natus",
-  "YourRef": "ullam",
-  "CreatedDate": "1999-10-27T12:57:42.4170133+02:00",
-  "UpdatedDate": "2023-06-01T12:57:42.4170133+02:00",
-  "Description": "Exclusive cohesive superstructure",
+  "Attention": "earum",
+  "Header": "quo",
+  "Name": "Friesen Inc and Sons",
+  "OurRef": "qui",
+  "YourRef": "autem",
+  "CreatedDate": "2008-05-06T04:22:34.9541759+02:00",
+  "UpdatedDate": "2005-12-04T04:22:34.9541759+01:00",
+  "Description": "Optimized demand-driven groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-07-16T12:57:42.4170133+02:00",
-  "ExternalRef": "nemo",
+  "Date": "2003-10-09T04:22:34.9698352+02:00",
+  "ExternalRef": "itaque",
   "Completed": "Completed",
-  "ActiveLinks": 17,
+  "ActiveLinks": 408,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bahringer-Boehm",
-      "Id": 358,
-      "Description": "Balanced radical infrastructure",
-      "ExtraInfo": "pariatur",
-      "LinkId": 663
+      "EntityName": "Hamill-Ziemann",
+      "Id": 484,
+      "Description": "Innovative explicit algorithm",
+      "ExtraInfo": "saepe",
+      "LinkId": 814
     },
     {
-      "EntityName": "Bahringer-Boehm",
-      "Id": 358,
-      "Description": "Balanced radical infrastructure",
-      "ExtraInfo": "pariatur",
-      "LinkId": 663
+      "EntityName": "Hamill-Ziemann",
+      "Id": 484,
+      "Description": "Innovative explicit algorithm",
+      "ExtraInfo": "saepe",
+      "LinkId": 814
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 487,
-  "Snum": 938,
+  "SuggestedDocumentId": 606,
+  "Snum": 123,
   "UserDefinedFields": {
-    "SuperOffice:1": "1756123168",
-    "SuperOffice:2": "42260690"
+    "SuperOffice:1": "1258436578",
+    "SuperOffice:2": "1344519411"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "ut"
+    "CustomFields1": "harum",
+    "CustomFields2": "quidem"
   },
-  "PublishEventDate": "2006-01-06T12:57:42.4170133+01:00",
-  "PublishTo": "2005-10-18T12:57:42.4170133+02:00",
-  "PublishFrom": "2011-12-15T12:57:42.4170133+01:00",
+  "PublishEventDate": "2004-03-03T04:22:34.9698352+01:00",
+  "PublishTo": "2019-11-24T04:22:34.9698352+01:00",
+  "PublishFrom": "2011-04-19T04:22:34.9698352+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 360,
+      "VisibleId": 631,
       "Visibility": "All",
-      "DisplayValue": "velit"
+      "DisplayValue": "reprehenderit"
     },
     {
-      "VisibleId": 360,
+      "VisibleId": 631,
       "Visibility": "All",
-      "DisplayValue": "velit"
+      "DisplayValue": "reprehenderit"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "doloribus",
-  "2": "qui"
+  "1": "modi",
+  "2": "consectetur"
 }
 ```

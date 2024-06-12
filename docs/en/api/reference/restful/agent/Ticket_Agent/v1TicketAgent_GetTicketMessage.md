@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=485
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=855
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 652,
-  "CreatedAt": "2016-10-14T12:57:35.2113938+02:00",
+  "TicketMessageId": 815,
+  "CreatedAt": "2021-06-15T04:22:27.9912543+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "incidunt",
-  "PersonId": 358,
-  "PersonFullName": "Dr. Destany Collins",
-  "ContactId": 484,
-  "ContactName": "Schmidt Inc and Sons",
-  "ContactDepartment": "embrace sticky infrastructures",
-  "NumAttachments": 664,
-  "EmailHeader": "myra@parisianrice.biz",
+  "Author": "ex",
+  "PersonId": 577,
+  "PersonFullName": "Dr. Collin Runolfsson PhD",
+  "ContactId": 633,
+  "ContactName": "Harvey-Farrell",
+  "ContactDepartment": "",
+  "NumAttachments": 56,
+  "EmailHeader": "pete_abshire@auer.uk",
   "MessageHeaders": [
     {
-      "Id": 485,
-      "Name": "Johnson LLC",
-      "Value": "rerum",
+      "Id": 742,
+      "Name": "Cummings, Fay and Kozey",
+      "Value": "quo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 861
+          "FieldLength": 723
         }
       }
     }
   ],
-  "Language": "maxime",
-  "Sentiment": 765,
-  "SentimentConfidence": 718,
-  "CreatedBy": 308,
-  "ChangedAt": "2005-08-03T12:57:35.2113938+02:00",
+  "Language": "rerum",
+  "Sentiment": 213,
+  "SentimentConfidence": 276,
+  "CreatedBy": 969,
+  "ChangedAt": "2019-03-25T04:22:27.9912543+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 819
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 59,
-  "Name": "O'Connell Inc and Sons",
-  "PersonId": 604,
-  "Rank": 435,
-  "Tooltip": "quia",
+  "AssociateId": 468,
+  "Name": "Strosin-Swift",
+  "PersonId": 919,
+  "Rank": 856,
+  "Tooltip": "et",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 966,
-  "FullName": "Dr. Gerard Borer",
-  "FormalName": "Lebsack, Schumm and Stehr",
-  "Deleted": false,
-  "EjUserId": 385,
-  "UserName": "Halvorson LLC",
+  "GroupIdx": 495,
+  "FullName": "Nash Lindsey Morar III",
+  "FormalName": "Kautzer-O'Connell",
+  "Deleted": true,
+  "EjUserId": 619,
+  "UserName": "Conn, Terry and Little",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

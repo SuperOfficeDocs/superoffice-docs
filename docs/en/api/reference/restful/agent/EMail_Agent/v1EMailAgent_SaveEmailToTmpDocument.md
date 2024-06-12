@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "FolderId": 308,
+  "FolderId": 911,
   "StripAttachments": false
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ernestine@cassin.us"
+"hilma@grahamstrosin.biz"
 ```

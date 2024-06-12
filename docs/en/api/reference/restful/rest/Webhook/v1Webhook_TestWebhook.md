@@ -83,28 +83,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 520,
-  "Name": "Hoppe-Stehr",
+  "WebhookId": 475,
+  "Name": "Bauch LLC",
   "Events": [
-    "aut",
-    "voluptatibus"
+    "enim",
+    "qui"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sed",
+  "Secret": "facilis",
   "State": "Active",
-  "Type": "similique",
+  "Type": "quia",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "molestias"
+    "Headers1": "qui",
+    "Headers2": "doloremque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-10-22T12:57:43.2770971+02:00",
+  "Registered": "2021-12-31T04:22:35.7678517+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-09-19T12:57:43.2927185+02:00",
+  "Updated": "2000-06-27T04:22:35.7678517+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "tamia.walker@ziemekertzmann.com"
+  "ErrorsEmail": "viva@okuneva.ca"
 }
 ```
 
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "quidem",
+  "Success": true,
+  "Message": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldLength": 799
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Zieme, Emard and Buckridge",
-    "ToolTip": "Enim maxime atque.",
-    "Deleted": true,
-    "Rank": 84,
-    "Type": "omnis",
-    "ColorBlock": 418,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2003-11-11T12:57:43.6676321+01:00",
+    "Id": 864,
+    "Name": "Spinka Group",
+    "ToolTip": "Distinctio quo optio similique facere velit et.",
+    "Deleted": false,
+    "Rank": 713,
+    "Type": "officia",
+    "ColorBlock": 458,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2004-09-27T04:22:36.1278402+02:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Funk Inc and Sons",
-        "ToolTip": "Eum quibusdam nostrum.",
-        "Deleted": true,
-        "Rank": 897,
-        "Type": "dolores",
-        "ColorBlock": 834,
-        "IconHint": "dolore",
-        "Selected": true,
-        "LastChanged": "2011-02-12T12:57:43.6676321+01:00",
+        "Id": 200,
+        "Name": "Blick-Carroll",
+        "ToolTip": "Incidunt perspiciatis dolorem non nulla.",
+        "Deleted": false,
+        "Rank": 392,
+        "Type": "iste",
+        "ColorBlock": 497,
+        "IconHint": "dignissimos",
+        "Selected": false,
+        "LastChanged": "2019-06-30T04:22:36.1278402+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Miss Hillard Nyasia Kertzmann DDS",
+        "FullName": "Clyde Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 103
+            "FieldType": "System.Int32",
+            "FieldLength": 979
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "provident",
-    "Hidden": false,
-    "FullName": "Prof. Rebeka Schuppe",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "impedit",
+    "Hidden": true,
+    "FullName": "Prof. Moshe Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 816
+        "FieldLength": 576
       }
     }
   }

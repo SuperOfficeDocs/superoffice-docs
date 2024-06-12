@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 164,
-  "Name": "Kessler-Pagac",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "Rank": 131,
+  "Id": 442,
+  "Name": "Smith Group",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 380,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Kuhn Inc and Sons",
-  "Tooltip": "eos",
+  "Id": 134,
+  "Name": "Braun Inc and Sons",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 592,
-  "IsCustomList": false,
+  "Rank": 913,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptate",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

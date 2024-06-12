@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "nostrum",
+  "ProgId": "ex",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 444,
-  "ColumnId": 417,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 384,
-  "FieldLabel": "nostrum",
-  "FieldLeft": 541,
-  "FieldTop": 603,
+  "UDefFieldId": 491,
+  "ColumnId": 867,
+  "FieldDefault": "optio",
+  "FieldHeight": 731,
+  "FieldLabel": "nihil",
+  "FieldLeft": 389,
+  "FieldTop": 234,
   "FieldType": "Checkbox",
-  "FieldWidth": 240,
-  "FormatMask": "quas",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 510,
-  "LabelLeft": 971,
-  "LabelTop": 75,
-  "LabelWidth": 938,
-  "LastVersionId": 569,
-  "ListTableId": 869,
-  "IsMandatory": false,
+  "FieldWidth": 514,
+  "FormatMask": "voluptatem",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 689,
+  "LabelLeft": 939,
+  "LabelTop": 923,
+  "LabelWidth": 88,
+  "LastVersionId": 120,
+  "ListTableId": 15,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 322,
-  "ProgId": "itaque",
+  "Page1LineNo": 563,
+  "ProgId": "repudiandae",
   "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 733,
-  "TextLength": 783,
-  "Tooltip": "qui",
-  "UdefIdentity": 80,
-  "UDListDefinitionId": 739,
+  "ShortLabel": "sit",
+  "TabOrder": 208,
+  "TextLength": 14,
+  "Tooltip": "a",
+  "UdefIdentity": 201,
+  "UDListDefinitionId": 267,
   "Justification": "Center",
-  "Version": 825,
-  "TemplateVariableName": "Hansen Inc and Sons",
+  "Version": 343,
+  "TemplateVariableName": "Kilback Group",
   "HasBeenPublished": false,
-  "MdoListName": "West-Smith",
+  "MdoListName": "Wolff Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldType": "System.Int32",
+      "FieldLength": 226
     }
   }
 }

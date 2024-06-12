@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 50,
-  "Name": "Leffler-Hartmann",
-  "ContentType": "quaerat",
-  "AttSize": 431,
-  "InlineImage": true,
-  "ContentId": "modi",
-  "AuthKey": "quas",
+  "AttachmentId": 826,
+  "Name": "Nienow-Krajcik",
+  "ContentType": "molestiae",
+  "AttSize": 803,
+  "InlineImage": false,
+  "ContentId": "aut",
+  "AuthKey": "dolor",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 803
     }
   }
 }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByIncludeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "enim"
+  "CRMScriptIncludeId": "provident"
 }
 ```
 
@@ -96,16 +96,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "omnis",
-  "LineNumber": 535,
+  "Valid": true,
+  "ErrorMessage": "atque",
+  "LineNumber": 592,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 222
     }
   }
 }

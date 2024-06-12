@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 591,
-    "Name": "Hahn LLC",
-    "Tooltip": "saepe",
+    "HeadingId": 563,
+    "Name": "Schoen, Walsh and Emard",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 899,
-    "UdListDefinitionId": 593,
+    "Rank": 185,
+    "UdListDefinitionId": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldType": "System.String",
+        "FieldLength": 374
       }
     }
   }

@@ -57,7 +57,9 @@ A form which can be published on a webpage and submitted by visitors
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ejscript](ejscript.md)  |ejscript |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Links content to an email workflow |
 |[form\_submission](form-submission.md)  |A form submission |
+|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[s\_picture\_folder](s-picture-folder.md)  |This table contains all picture folders |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[UserGroup](usergroup.md)  |Secondary user groups |

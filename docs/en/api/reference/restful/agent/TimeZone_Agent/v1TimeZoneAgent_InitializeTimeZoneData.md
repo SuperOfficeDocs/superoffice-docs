@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 355,
-    "Name": "Brakus Group",
-    "TZLocationCode": "ipsa",
-    "TZLocationCities": "eos",
-    "IsoNumber": 993,
+    "TZLocationID": 436,
+    "Name": "Larson LLC",
+    "TZLocationCode": "cum",
+    "TZLocationCities": "voluptatum",
+    "IsoNumber": 984,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 973,
-        "StartMonth": 717,
-        "EndDay": 397,
-        "EndMonth": 946,
-        "TZOffset": 543,
-        "StartRulePattern": "fugiat",
-        "EndRulePattern": "pariatur"
+        "StartDay": 131,
+        "StartMonth": 753,
+        "EndDay": 907,
+        "EndMonth": 720,
+        "TZOffset": 684,
+        "StartRulePattern": "tenetur",
+        "EndRulePattern": "tempore"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 932,
-        "StartMonth": 917,
-        "EndDay": 358,
-        "EndMonth": 664,
-        "TZOffset": 284,
-        "StartRulePattern": "et",
-        "EndRulePattern": "quo"
+        "StartDay": 965,
+        "StartMonth": 859,
+        "EndDay": 191,
+        "EndMonth": 435,
+        "TZOffset": 369,
+        "StartRulePattern": "est",
+        "EndRulePattern": "reiciendis"
       }
     }
   }

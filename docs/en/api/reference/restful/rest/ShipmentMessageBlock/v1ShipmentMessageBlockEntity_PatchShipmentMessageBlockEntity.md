@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "sapiente",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "sapiente",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 465,
-  "AssociateId": 362,
-  "Block": "similique",
-  "Registered": "2009-07-27T12:57:42.807549+02:00",
-  "RegisteredAssociateId": 141,
-  "Updated": "2003-11-30T12:57:42.807549+01:00",
-  "UpdatedAssociateId": 423,
-  "UpdatedCount": 19,
+  "ShipmentMessageBlockId": 838,
+  "AssociateId": 405,
+  "Block": "illum",
+  "Registered": "2002-09-22T04:22:35.4553554+02:00",
+  "RegisteredAssociateId": 866,
+  "Updated": "2016-02-06T04:22:35.4553554+01:00",
+  "UpdatedAssociateId": 748,
+  "UpdatedCount": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 155
     }
   },
   "_Links": {

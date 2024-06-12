@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "qui",
-  "PluginId": 486
+  "LanguageCode": "cum",
+  "PluginId": 775
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 605,
-  "Name": "Kshlerin, Dach and Howe",
-  "Tooltip": "velit",
-  "SaveInDb": 539,
-  "Filename": "et",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 310,
+  "Name": "Fisher Inc and Sons",
+  "Tooltip": "et",
+  "SaveInDb": 18,
+  "Filename": "tenetur",
+  "DefaultOref": "architecto",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 711,
-  "IntentId": 441,
-  "IsDefaultPublished": true,
-  "Rank": 214,
-  "LoadTemplateFromPlugin": 701,
-  "MimeType": "culpa",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 642,
+  "AutoeventId": 81,
+  "IntentId": 721,
+  "IsDefaultPublished": false,
+  "Rank": 924,
+  "LoadTemplateFromPlugin": 747,
+  "MimeType": "harum",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 991,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "hadley@lockmansmitham.ca",
+  "EmailSubject": "shane@douglas.com",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jenifer@gislason.us",
+  "SenderEmailAddress": "lurline_corwin@mcclure.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

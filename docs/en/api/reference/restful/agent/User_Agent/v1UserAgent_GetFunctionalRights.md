@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 316
+  "RoleId": 968
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Stamm Group",
-    "ToolTip": "Unde adipisci sapiente.",
-    "Deleted": true,
-    "Rank": 973,
-    "Type": "perferendis",
-    "ColorBlock": 153,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2004-10-19T12:57:35.4618366+02:00",
+    "Id": 979,
+    "Name": "Robel-King",
+    "ToolTip": "Libero vero.",
+    "Deleted": false,
+    "Rank": 780,
+    "Type": "enim",
+    "ColorBlock": 664,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "2012-01-13T04:22:28.0850044+01:00",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Swaniawski, Zieme and VonRueden",
-        "ToolTip": "Fuga voluptas ut similique ea sunt cum accusamus.",
-        "Deleted": true,
-        "Rank": 862,
-        "Type": "sunt",
-        "ColorBlock": 45,
-        "IconHint": "animi",
+        "Id": 635,
+        "Name": "Marquardt-Hills",
+        "ToolTip": "Quo labore quia itaque non est ut.",
+        "Deleted": false,
+        "Rank": 565,
+        "Type": "in",
+        "ColorBlock": 681,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2006-12-04T12:57:35.4618366+01:00",
+        "LastChanged": "2012-01-03T04:22:28.0850044+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "totam",
-        "Hidden": true,
-        "FullName": "Grover Dach",
+        "ExtraInfo": "porro",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Giuseppe Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 195
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "rerum",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Miss Tierra Stracke",
+    "FullName": "Simone Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 593
+        "FieldLength": 539
       }
     }
   }

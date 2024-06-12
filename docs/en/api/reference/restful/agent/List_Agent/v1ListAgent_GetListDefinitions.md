@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Cronin Inc and Sons",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 871,
+    "Id": 756,
+    "Name": "McLaughlin, Bashirian and Davis",
+    "Tooltip": "veritatis",
+    "Deleted": true,
+    "Rank": 18,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": true,
-    "ListType": "voluptas",
+    "ListType": "aliquam",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 828
+        "FieldLength": 660
       }
     }
   }

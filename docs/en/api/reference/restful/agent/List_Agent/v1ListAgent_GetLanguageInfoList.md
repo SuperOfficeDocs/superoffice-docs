@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 560,
-    "LCID": 251,
-    "EnglishName": "Turner-Kozey",
-    "NativeName": "Dooley Inc and Sons",
-    "ThreeLetterISOLanguageName": "Daugherty-Koch",
-    "TwoLetterISOLanguageName": "Rau, Fisher and Armstrong",
+    "LanguageInfoId": 642,
+    "LCID": 784,
+    "EnglishName": "Mills, Johns and Bayer",
+    "NativeName": "Bernier-Dietrich",
+    "ThreeLetterISOLanguageName": "Hoppe Group",
+    "TwoLetterISOLanguageName": "Lynch Group",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 207
       }
     }
   }

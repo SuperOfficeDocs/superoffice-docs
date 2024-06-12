@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 391,
-  "Name": "Schneider, Nikolaus and Rolfson",
-  "Tooltip": "et",
+  "ExtAppId": 900,
+  "Name": "Frami, Powlowski and Wiegand",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 906,
-  "Filename": "quod",
-  "Parameters": "excepturi",
-  "Workdir": "qui",
+  "Rank": 591,
+  "Filename": "corrupti",
+  "Parameters": "in",
+  "Workdir": "veritatis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 476,
-  "WaitToFinish": true,
+  "Icon": 387,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "qui"
+  "Path": "ea"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 328,
-  "Name": "Adams-McKenzie",
-  "Tooltip": "reiciendis",
+  "ExtAppId": 341,
+  "Name": "Shields LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 254,
-  "Filename": "maiores",
-  "Parameters": "aut",
-  "Workdir": "deleniti",
+  "Rank": 934,
+  "Filename": "sapiente",
+  "Parameters": "labore",
+  "Workdir": "beatae",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 552,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 845,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "non",
+  "Path": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldLength": 107
     }
   }
 }

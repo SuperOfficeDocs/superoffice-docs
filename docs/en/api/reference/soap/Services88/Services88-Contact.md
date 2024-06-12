@@ -924,6 +924,7 @@ title: Services88.ContactAgent WSDL
               <xs:element minOccurs="0" name="Consents" nillable="true" type="tns:ArrayOfConsentInfo" />
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
+              <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />

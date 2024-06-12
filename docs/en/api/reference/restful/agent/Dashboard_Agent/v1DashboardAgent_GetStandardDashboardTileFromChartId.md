@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "repellendus"
+  "ChartId": "sequi"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 66,
-  "Caption": "corporis",
-  "Description": "Persistent foreground database",
-  "ChartName": "Rice, Schmidt and Adams",
-  "ChartId": "in",
+  "DashboardTileId": 683,
+  "Caption": "odit",
+  "Description": "Cloned directional time-frame",
+  "ChartName": "O'Keefe Group",
+  "ChartId": "quasi",
   "IsDefault": false,
-  "AssociateId": 572,
-  "GroupId": 629,
-  "SelectionId": 919,
-  "Config": "aperiam",
+  "AssociateId": 721,
+  "GroupId": 510,
+  "SelectionId": 724,
+  "Config": "dolorem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rolfson, Graham and Kerluke",
-      "Description": "Up-sized modular policy",
+      "Name": "Powlowski Inc and Sons",
+      "Description": "Intuitive 24 hour artificial intelligence",
       "Type": "Boolean",
-      "ListName": "Batz LLC",
+      "ListName": "Jakubowski, Rolfson and Pfeffer",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "non",
+      "Value": "officiis",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldType": "System.String",
+          "FieldLength": 637
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 304,
+      "VisibleId": 717,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 455
         }
       }
     },
     {
-      "VisibleId": 304,
+      "VisibleId": 717,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 455
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 209
     }
   }
 }

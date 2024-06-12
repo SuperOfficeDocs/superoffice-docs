@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 74,
-    "Name": "Flatley Inc and Sons",
-    "Tooltip": "distinctio",
-    "Deleted": true,
-    "Rank": 670,
-    "UdListDefinitionId": 457,
+    "HeadingId": 422,
+    "Name": "Macejkovic Inc and Sons",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "Rank": 309,
+    "UdListDefinitionId": 466,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldType": "System.Int32",
+        "FieldLength": 614
       }
     }
   }

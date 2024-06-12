@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 918,
-  "UiCulture": "rerum"
+  "TemplateId": 432,
+  "UiCulture": "consequatur"
 }
 ```
 

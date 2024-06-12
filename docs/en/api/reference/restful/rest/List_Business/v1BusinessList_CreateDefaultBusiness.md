@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "Von, Murray and Stoltenberg",
-  "Tooltip": "ipsam",
+  "Id": 245,
+  "Name": "Will, Mraz and Waters",
+  "Tooltip": "harum",
   "Deleted": false,
-  "UdListDefinitionId": 884,
-  "Rank": 207,
+  "UdListDefinitionId": 478,
+  "Rank": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldType": "System.Int32",
+      "FieldLength": 770
     }
   }
 }

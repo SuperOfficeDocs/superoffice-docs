@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=True
-GET /api/v1/List/Reason/MDOItems?query=dolor
+GET /api/v1/List/Reason/MDOItems?flat=False
+GET /api/v1/List/Reason/MDOItems?query=atque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Name": "West Group",
-    "ToolTip": "Et sit quod eos vitae qui magni.",
+    "Id": 762,
+    "Name": "Gorczany Group",
+    "ToolTip": "Perferendis dolores.",
     "Deleted": false,
-    "Rank": 605,
-    "Type": "laborum",
+    "Rank": 98,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Walter, Rutherford and Gleichner",
-        "ToolTip": "Perferendis in eaque dignissimos debitis distinctio aut beatae.",
-        "Deleted": false,
-        "Rank": 488,
-        "Type": "fuga",
+        "Id": 107,
+        "Name": "Jenkins-Hauck",
+        "ToolTip": "Ipsam aliquam dolorum totam vero perferendis.",
+        "Deleted": true,
+        "Rank": 171,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "et",
-        "ColorBlock": 728,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "ab",
-        "FullName": "Miss Fred Kunze IV",
+        "ColorBlock": 342,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "nobis",
+        "FullName": "Ms. Jermain Lila Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 653
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 374,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "minima",
-    "FullName": "Micah Turcotte",
+    "IconHint": "omnis",
+    "ColorBlock": 39,
+    "ExtraInfo": "velit",
+    "StyleHint": "laudantium",
+    "FullName": "Evans Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldLength": 679
       }
     }
   }

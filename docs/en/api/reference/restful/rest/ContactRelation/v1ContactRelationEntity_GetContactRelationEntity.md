@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 30 Jul 2004 12:57:42 G7T
+Last-Modified: Fri, 17 Mar 2017 04:22:34 G3T
 
 {
-  "SourceContactId": 25,
-  "SourcePersonId": 765,
-  "DestinationContactId": 181,
-  "DestinationPersonId": 63,
-  "RelationId": 723,
-  "Comment": "nisi",
-  "RelationDefinitionId": 602,
-  "Reversed": 365,
-  "UpdatedDate": "2004-07-30T12:57:42.3076631+02:00",
-  "CreatedDate": "2018-06-28T12:57:42.3076631+02:00",
+  "SourceContactId": 58,
+  "SourcePersonId": 680,
+  "DestinationContactId": 230,
+  "DestinationPersonId": 281,
+  "RelationId": 846,
+  "Comment": "quia",
+  "RelationDefinitionId": 550,
+  "Reversed": 595,
+  "UpdatedDate": "2017-03-17T04:22:34.8589991+01:00",
+  "CreatedDate": "2008-04-24T04:22:34.8589991+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Veum, Hickle and Ortiz",
-  "SourcePersonName": "Krajcik-Murphy",
-  "DestinationContactName": "Blanda Group",
-  "DestinationPersonName": "Crist, Davis and Christiansen",
-  "ActiveText": "ducimus",
-  "PassiveText": "autem",
+  "SourceContactName": "Simonis Group",
+  "SourcePersonName": "Kovacek Group",
+  "DestinationContactName": "Ortiz, Weissnat and Friesen",
+  "DestinationPersonName": "Lehner, Torp and Moore",
+  "ActiveText": "ut",
+  "PassiveText": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 411
     }
   },
   "_Links": {

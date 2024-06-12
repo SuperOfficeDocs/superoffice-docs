@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Hessel-Wisoky",
-    "ToolTip": "Modi facere neque tempora iusto.",
+    "Id": 364,
+    "Name": "Runolfsson, Wolff and Funk",
+    "ToolTip": "Ut corrupti qui.",
     "Deleted": false,
-    "Rank": 179,
-    "Type": "aut",
-    "ColorBlock": 223,
-    "IconHint": "earum",
+    "Rank": 86,
+    "Type": "est",
+    "ColorBlock": 734,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "1999-08-07T12:57:43.6207681+02:00",
+    "LastChanged": "2011-10-21T04:22:36.0809665+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Mann-Gusikowski",
-        "ToolTip": "Dolor nisi sit reiciendis enim.",
-        "Deleted": true,
-        "Rank": 769,
-        "Type": "cumque",
-        "ColorBlock": 785,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2018-04-06T12:57:43.6207681+02:00",
+        "Id": 88,
+        "Name": "Bins-O'Reilly",
+        "ToolTip": "Qui maxime quod itaque rem repellat laboriosam nostrum.",
+        "Deleted": false,
+        "Rank": 395,
+        "Type": "et",
+        "ColorBlock": 14,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2020-12-14T04:22:36.0809665+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "ut",
+        "StyleHint": "praesentium",
         "Hidden": true,
-        "FullName": "Prof. Naomi Wallace Gislason IV"
+        "FullName": "Reese Larkin V"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "quos",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Dr. Joel Stone Towne"
+    "FullName": "Anne Bahringer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Gottlieb, Okuneva and Greenfelder",
-    "ToolTip": "Animi ea numquam.",
+    "Id": 239,
+    "Name": "Funk Group",
+    "ToolTip": "Dolor deserunt saepe molestiae voluptatibus.",
     "Deleted": false,
-    "Rank": 618,
-    "Type": "voluptas",
-    "ColorBlock": 963,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "1999-08-03T12:57:43.6207681+02:00",
+    "Rank": 476,
+    "Type": "iste",
+    "ColorBlock": 536,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "2018-08-29T04:22:36.0809665+02:00",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Maggio-Mante",
-        "ToolTip": "Aut quo esse voluptas.",
-        "Deleted": false,
-        "Rank": 569,
-        "Type": "nostrum",
-        "ColorBlock": 733,
-        "IconHint": "qui",
+        "Id": 272,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Soluta voluptatibus dolorum explicabo occaecati quia dolores expedita.",
+        "Deleted": true,
+        "Rank": 461,
+        "Type": "ipsam",
+        "ColorBlock": 757,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2005-10-20T12:57:43.6207681+02:00",
+        "LastChanged": "2008-03-25T04:22:36.0809665+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "ex",
+        "ExtraInfo": "illo",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Miss Otto Jarred Kozey DDS",
+        "FullName": "Carmel Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 359
+            "FieldLength": 494
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Prof. Fatima Swaniawski",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Elmer Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 178
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=10
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=3
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 781,
-  "Name": "Rempel LLC",
-  "Description": "Networked optimal functionalities",
-  "DefaultHeight": 45,
-  "DefaultWidth": 224,
+  "DashboardTileDefinitionId": 167,
+  "Name": "Mraz-Zemlak",
+  "Description": "Realigned upward-trending firmware",
+  "DefaultHeight": 323,
+  "DefaultWidth": 724,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gaylord, Kerluke and Mueller",
-  "SelectionId": 766,
+  "EntityName": "Kling, Cremin and Christiansen",
+  "SelectionId": 400,
   "CurrencyMode": "Base",
-  "CurrencyCode": "mollitia",
+  "CurrencyCode": "adipisci",
   "Measure": "Average",
-  "MeasureField": "dolor",
-  "SortBy": "nisi",
-  "LayoutConfig": "temporibus",
-  "SecondarySelectionId": 619,
-  "MeasureByField": "consequuntur",
+  "MeasureField": "esse",
+  "SortBy": "officiis",
+  "LayoutConfig": "alias",
+  "SecondarySelectionId": 687,
+  "MeasureByField": "distinctio",
   "Usage": "Dashboard",
-  "ProviderName": "Herzog, Farrell and Dietrich",
+  "ProviderName": "Cummerata-Rowe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldLength": 562
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Wolff-Wilderman",
-    "ToolTip": "Sint pariatur.",
-    "Deleted": false,
-    "Rank": 385,
-    "Type": "sint",
-    "ColorBlock": 41,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "1998-05-02T12:57:43.7769823+02:00",
+    "Id": 946,
+    "Name": "Stiedemann LLC",
+    "ToolTip": "Voluptatibus vitae.",
+    "Deleted": true,
+    "Rank": 783,
+    "Type": "sed",
+    "ColorBlock": 526,
+    "IconHint": "saepe",
+    "Selected": true,
+    "LastChanged": "2016-02-05T04:22:36.2215887+01:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Marks-Jenkins",
-        "ToolTip": "Cum ad ipsum placeat commodi.",
-        "Deleted": false,
-        "Rank": 242,
-        "Type": "sed",
-        "ColorBlock": 55,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2008-10-14T12:57:43.7769823+02:00",
+        "Id": 415,
+        "Name": "Goyette, Anderson and Haag",
+        "ToolTip": "Hic et et aut.",
+        "Deleted": true,
+        "Rank": 94,
+        "Type": "ut",
+        "ColorBlock": 578,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2003-09-01T04:22:36.2215887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "itaque",
+        "ExtraInfo": "fuga",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Tressa Marquardt",
+        "FullName": "Logan Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 955
+            "FieldLength": 189
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Scarlett Veum",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Miss Enoch Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldType": "System.String",
+        "FieldLength": 381
       }
     }
   }

@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 679,
+  "SystemEventId": 133,
   "Scope": "Database",
-  "Eta": "2018-10-09T12:57:42.8231706+02:00",
-  "Eventkey": "expedita",
-  "Eventmess": "atque",
-  "ExtraInfo": 170,
-  "Owner": 202,
-  "UpdatedCount": 977,
-  "Registered": "2011-05-02T12:57:42.8231706+02:00",
+  "Eta": "2022-10-22T04:22:35.4553554+02:00",
+  "Eventkey": "est",
+  "Eventmess": "maxime",
+  "ExtraInfo": 195,
+  "Owner": 522,
+  "UpdatedCount": 128,
+  "Registered": "2017-12-06T04:22:35.4709806+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 203,
+  "SystemEventId": 299,
   "Scope": "Database",
-  "Eta": "2016-04-11T12:57:42.8231706+02:00",
-  "Eventkey": "deleniti",
-  "Eventmess": "libero",
-  "ExtraInfo": 608,
-  "Owner": 549,
-  "UpdatedCount": 75,
-  "Registered": "2022-02-17T12:57:42.8231706+01:00",
+  "Eta": "2000-12-25T04:22:35.4709806+01:00",
+  "Eventkey": "est",
+  "Eventmess": "est",
+  "ExtraInfo": 762,
+  "Owner": 860,
+  "UpdatedCount": 581,
+  "Registered": "2006-07-10T04:22:35.4709806+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldLength": 595
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

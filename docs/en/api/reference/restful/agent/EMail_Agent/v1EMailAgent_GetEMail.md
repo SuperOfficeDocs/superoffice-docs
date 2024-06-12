@@ -105,8 +105,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "IncludeAttachments": false
+  "Id": 982,
+  "IncludeAttachments": true
 }
 ```
 
@@ -119,156 +119,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 335,
-      "ContactName": "Brekke LLC",
-      "PersonId": 102,
-      "PersonName": "Bogisich-Hoeger",
-      "AssociateId": 812,
-      "Address": "autem",
-      "EmailId": 672,
+      "ContactId": 350,
+      "ContactName": "Ferry-Mann",
+      "PersonId": 749,
+      "PersonName": "Lesch-Quigley",
+      "AssociateId": 328,
+      "Address": "repellendus",
+      "EmailId": 622,
       "DuplicatePersonIds": [
-        652,
-        540
+        204,
+        911
       ],
-      "Name": "Carter-Harris",
+      "Name": "Ziemann-Lind",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 936
+          "FieldType": "System.String",
+          "FieldLength": 597
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 828,
-      "ContactName": "Raynor, Kiehn and Feest",
-      "PersonId": 739,
-      "PersonName": "Ullrich, Pacocha and Hand",
-      "AssociateId": 671,
-      "Address": "nam",
-      "EmailId": 281,
+      "ContactId": 382,
+      "ContactName": "Rohan LLC",
+      "PersonId": 65,
+      "PersonName": "Lockman-Simonis",
+      "AssociateId": 913,
+      "Address": "blanditiis",
+      "EmailId": 154,
       "DuplicatePersonIds": [
-        47,
-        588
+        107,
+        696
       ],
-      "Name": "Hills Group",
+      "Name": "Jones-Casper",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldLength": 492
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 827,
-      "ContactName": "Langworth Group",
-      "PersonId": 794,
-      "PersonName": "Lubowitz-Abernathy",
-      "AssociateId": 651,
-      "Address": "ipsa",
-      "EmailId": 218,
+      "ContactId": 504,
+      "ContactName": "Klein-Champlin",
+      "PersonId": 844,
+      "PersonName": "Yost Group",
+      "AssociateId": 810,
+      "Address": "distinctio",
+      "EmailId": 205,
       "DuplicatePersonIds": [
-        266,
-        558
+        937,
+        318
       ],
-      "Name": "Beer-Schamberger",
+      "Name": "Mante, Botsford and Bogan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 633
         }
       }
     }
   ],
-  "Subject": "eos",
-  "HTMLBody": "reprehenderit",
+  "Subject": "perspiciatis",
+  "HTMLBody": "dolores",
   "From": null,
-  "Sent": "2016-11-13T12:57:33.9773902+01:00",
-  "Size": 488,
+  "Sent": "1997-07-08T04:22:26.7888743+02:00",
+  "Size": 49,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repellat",
-  "PlainBody": "aliquam",
+  "MessageID": "ut",
+  "PlainBody": "ratione",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 717,
+  "ServerId": 417,
   "Attachments": [
     {
-      "Description": "Profit-focused zero defect leverage",
-      "Filename": "reprehenderit",
-      "Size": 435,
-      "Type": "enim",
+      "Description": "Enhanced client-driven product",
+      "Filename": "ut",
+      "Size": 223,
+      "Type": "quos",
       "Encoding": "qui",
-      "Id": "sequi",
-      "Disposition": "beatae",
+      "Id": "quaerat",
+      "Disposition": "eveniet",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Collins Inc and Sons",
+      "Name": "Ryan-Schaefer",
       "Values": [
-        "est",
-        "qui"
+        "repellendus",
+        "ipsum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 684
         }
       }
     },
     {
-      "Name": "Collins Inc and Sons",
+      "Name": "Ryan-Schaefer",
       "Values": [
-        "est",
-        "qui"
+        "repellendus",
+        "ipsum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 684
         }
       }
     }
   ],
-  "FolderName": "Nicolas, Barrows and Thiel",
-  "EmailItemId": 240,
-  "AccountId": 453,
-  "ReceivedAt": "1997-10-06T12:57:33.9773902+02:00",
+  "FolderName": "Hagenes, Wiegand and Brekke",
+  "EmailItemId": 173,
+  "AccountId": 25,
+  "ReceivedAt": "2012-01-26T04:22:26.7900702+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-12-16T12:57:33.9773902+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-11-13T04:22:26.7900702+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

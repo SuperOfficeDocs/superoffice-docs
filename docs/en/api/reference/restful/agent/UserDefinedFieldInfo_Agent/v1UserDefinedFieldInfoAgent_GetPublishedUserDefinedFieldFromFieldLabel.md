@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "qui",
+  "FieldLabel": "modi",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 149,
-  "ColumnId": 898,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 88,
-  "FieldLabel": "sunt",
-  "FieldLeft": 594,
-  "FieldTop": 46,
+  "UDefFieldId": 816,
+  "ColumnId": 844,
+  "FieldDefault": "ea",
+  "FieldHeight": 638,
+  "FieldLabel": "eos",
+  "FieldLeft": 307,
+  "FieldTop": 644,
   "FieldType": "Checkbox",
-  "FieldWidth": 724,
-  "FormatMask": "sed",
-  "HideLabel": true,
+  "FieldWidth": 226,
+  "FormatMask": "aliquam",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 557,
-  "LabelLeft": 404,
-  "LabelTop": 790,
-  "LabelWidth": 659,
-  "LastVersionId": 579,
-  "ListTableId": 831,
+  "LabelHeight": 682,
+  "LabelLeft": 266,
+  "LabelTop": 977,
+  "LabelWidth": 503,
+  "LastVersionId": 675,
+  "ListTableId": 235,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 255,
-  "ProgId": "inventore",
-  "IsReadOnly": true,
-  "ShortLabel": "quod",
-  "TabOrder": 475,
-  "TextLength": 829,
-  "Tooltip": "iure",
-  "UdefIdentity": 603,
-  "UDListDefinitionId": 484,
+  "Page1LineNo": 983,
+  "ProgId": "laboriosam",
+  "IsReadOnly": false,
+  "ShortLabel": "sit",
+  "TabOrder": 142,
+  "TextLength": 921,
+  "Tooltip": "quod",
+  "UdefIdentity": 910,
+  "UDListDefinitionId": 245,
   "Justification": "Center",
-  "Version": 774,
-  "TemplateVariableName": "Boyle-Reinger",
-  "HasBeenPublished": true,
-  "MdoListName": "Stoltenberg Group",
+  "Version": 434,
+  "TemplateVariableName": "Moen Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Schaden-Hauck",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 230
     }
   }
 }

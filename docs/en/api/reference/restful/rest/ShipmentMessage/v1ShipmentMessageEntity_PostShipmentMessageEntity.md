@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 381,
-  "PlainMessage": "et",
-  "HtmlMessage": "autem",
-  "SmsMessage": "consequuntur",
-  "Description": "Fully-configurable directional middleware",
-  "Subject": "laudantium",
-  "FolderId": 448,
-  "HeaderField": "eligendi",
-  "Design": "sunt",
+  "ShipmentMessageId": 671,
+  "PlainMessage": "provident",
+  "HtmlMessage": "sint",
+  "SmsMessage": "porro",
+  "Description": "Monitored mission-critical knowledge base",
+  "Subject": "quas",
+  "FolderId": 66,
+  "HeaderField": "dolorem",
+  "Design": "laboriosam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Business-focused analyzing array",
-  "AccessKey": "soluta",
-  "DocumentMessage": 823,
-  "Registered": "2017-08-25T12:57:42.807549+02:00",
-  "RegisteredAssociateId": 792,
-  "Updated": "2015-02-23T12:57:42.807549+01:00",
-  "UpdatedAssociateId": 661,
-  "UpdatedCount": 837
+  "InlineImages": false,
+  "LongDescription": "Seamless 4th generation instruction set",
+  "AccessKey": "quo",
+  "DocumentMessage": 894,
+  "Registered": "2024-04-20T04:22:35.4553554+02:00",
+  "RegisteredAssociateId": 659,
+  "Updated": "2017-04-10T04:22:35.4553554+02:00",
+  "UpdatedAssociateId": 885,
+  "UpdatedCount": 811
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 219,
-  "PlainMessage": "nam",
-  "HtmlMessage": "sapiente",
-  "SmsMessage": "voluptas",
-  "Description": "Expanded background product",
-  "Subject": "sapiente",
-  "FolderId": 101,
-  "HeaderField": "quibusdam",
-  "Design": "consequatur",
+  "ShipmentMessageId": 941,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "doloremque",
+  "SmsMessage": "similique",
+  "Description": "Ergonomic didactic portal",
+  "Subject": "similique",
+  "FolderId": 565,
+  "HeaderField": "rem",
+  "Design": "asperiores",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Diverse value-added benchmark",
-  "AccessKey": "consequatur",
-  "DocumentMessage": 543,
-  "Registered": "2012-06-04T12:57:42.807549+02:00",
-  "RegisteredAssociateId": 758,
-  "Updated": "2022-05-03T12:57:42.807549+02:00",
-  "UpdatedAssociateId": 736,
-  "UpdatedCount": 858,
+  "LongDescription": "Up-sized transitional adapter",
+  "AccessKey": "qui",
+  "DocumentMessage": 992,
+  "Registered": "2013-12-12T04:22:35.4553554+01:00",
+  "RegisteredAssociateId": 526,
+  "Updated": "2002-11-09T04:22:35.4553554+01:00",
+  "UpdatedAssociateId": 258,
+  "UpdatedCount": 134,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 795
     }
   },
   "_Links": {

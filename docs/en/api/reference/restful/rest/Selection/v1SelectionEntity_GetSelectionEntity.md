@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 08 Dec 2007 12:57:42 G12T
+Last-Modified: Wed, 02 Sep 2020 04:22:35 G9T
 
 {
-  "Description": "Sharable fault-tolerant adapter",
-  "Postit": "molestiae",
+  "Description": "Expanded optimizing productivity",
+  "Postit": "in",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 211,
-  "IncludePerson": 325,
+  "GroupIdx": 835,
+  "IncludePerson": 714,
   "MemberCount": 99.99,
-  "Name": "Leannon-O'Kon",
-  "PostitTextId": 179,
-  "CreatedDate": "2016-11-08T12:57:42.7919274+01:00",
-  "SelectionId": 980,
-  "SoundEx": "qui",
-  "Source": 406,
-  "TextId": 72,
-  "UpdatedDate": "2007-12-08T12:57:42.7919274+01:00",
-  "UpdatedCount": 345,
-  "Visibility": 652,
+  "Name": "Emard-Glover",
+  "PostitTextId": 302,
+  "CreatedDate": "2007-05-18T04:22:35.4397315+02:00",
+  "SelectionId": 796,
+  "SoundEx": "nobis",
+  "Source": 442,
+  "TextId": 713,
+  "UpdatedDate": "2020-09-02T04:22:35.4397315+02:00",
+  "UpdatedCount": 184,
+  "Visibility": 249,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 478,
-  "TargetTableName": "Dickinson Group",
-  "Completed": false,
-  "LeftSelectionId": 671,
-  "RightSelectionId": 277,
+  "TargetTableNumber": 584,
+  "TargetTableName": "Zulauf, Kshlerin and Spinka",
+  "Completed": true,
+  "LeftSelectionId": 225,
+  "RightSelectionId": 103,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McGlynn-Larkin",
-  "ShadowProviderName": "Yundt, Waters and Kunze",
-  "ChartKey": "atque",
-  "LastLoaded": "2012-11-10T12:57:42.7919274+01:00",
-  "LastLoadedBy": 294,
+  "MainProviderName": "Crona LLC",
+  "ShadowProviderName": "O'Conner LLC",
+  "ChartKey": "eum",
+  "LastLoaded": "2013-07-07T04:22:35.4397315+02:00",
+  "LastLoadedBy": 823,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-06-11T12:57:42.7919274+02:00",
-  "LastMembershipChangeBy": 715,
+  "LastMembershipChange": "2010-08-06T04:22:35.4397315+02:00",
+  "LastMembershipChangeBy": 566,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "nihil",
-  "MailingsProviderName": "Koss, Tromp and Hackett",
-  "DashboardTileDefinitionId": 381,
+  "MainHeading": "quam",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Mohr Inc and Sons",
+  "DashboardTileDefinitionId": 918,
   "VisibleFor": [
     {
-      "VisibleId": 569,
+      "VisibleId": 679,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldType": "System.Int32",
+          "FieldLength": 451
         }
       }
     },
     {
-      "VisibleId": 569,
+      "VisibleId": 679,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldType": "System.Int32",
+          "FieldLength": 451
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Sat, 08 Dec 2007 12:57:42 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 678
     }
   },
   "_Links": {

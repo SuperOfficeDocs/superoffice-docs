@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 173
+  "DocumentId": 357
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gerhold, Ward and Ebert",
-  "Type": "quo",
-  "Size": 174,
+  "Name": "Considine-Spencer",
+  "Type": "pariatur",
+  "Size": 731,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldLength": 463
     }
   }
 }

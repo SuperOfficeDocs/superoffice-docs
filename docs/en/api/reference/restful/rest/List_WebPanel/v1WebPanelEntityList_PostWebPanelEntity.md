@@ -111,27 +111,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 663,
-  "Name": "Grimes-Beer",
-  "Tooltip": "velit",
+  "WebPanelId": 734,
+  "Name": "Dietrich LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 136,
+  "Rank": 244,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Boehm, Deckow and Goyette",
+  "WindowName": "Koepp, Kohler and Brown",
   "Url": "http://www.example.com/",
-  "ProgId": "accusamus",
-  "Icon": 359,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ab",
+  "Icon": 462,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 580,
-  "Name": "Kessler Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 638,
+  "WebPanelId": 814,
+  "Name": "Block, Hoppe and Kulas",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "Rank": 663,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Gaylord-Roob",
+  "ShowInStatusBar": true,
+  "WindowName": "Altenwerth-White",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 11,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "molestiae",
+  "Icon": 116,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

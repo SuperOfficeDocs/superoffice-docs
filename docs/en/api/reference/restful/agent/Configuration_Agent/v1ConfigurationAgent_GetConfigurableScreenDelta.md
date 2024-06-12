@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=935
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=133
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 372,
-  "Name": "Lockman LLC",
-  "Description": "Synergistic empowering system engine",
-  "DeltaJson": "impedit",
+  "ConfigurableScreenDeltaId": 947,
+  "Name": "Schimmel-Cummings",
+  "Description": "Quality-focused mobile toolset",
+  "DeltaJson": "ab",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "magni",
-  "UpdatedDate": "1998-06-13T12:57:33.4462335+02:00",
-  "CreatedDate": "2023-11-07T12:57:33.4462335+01:00",
+  "RecipeId": "est",
+  "UpdatedDate": "2014-03-09T04:22:26.1684694+01:00",
+  "CreatedDate": "2006-07-10T04:22:26.1684694+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    490,
-    658
+    270,
+    777
   ],
-  "AppliesToKey": "voluptatem",
+  "AppliesToKey": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 528
     }
   }
 }

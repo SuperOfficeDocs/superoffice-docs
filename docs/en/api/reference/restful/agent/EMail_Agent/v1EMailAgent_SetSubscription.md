@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Bauch Inc and Sons",
-      "Delimiter": "nam",
-      "Flags": "suscipit",
-      "TotalItems": 484,
-      "UnreadItems": 47,
+      "Name": "Bode-Runolfsson",
+      "Delimiter": "totam",
+      "Flags": "at",
+      "TotalItems": 887,
+      "UnreadItems": 510,
       "Subscribed": false,
-      "EmailFolderId": 261
+      "EmailFolderId": 485
     }
   ]
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 955
+  "DocumentId": 825
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "in",
-    "DocumentId": 933,
-    "VersionId": "qui",
-    "CheckedInDate": "2000-11-04T12:57:33.8211479+01:00",
-    "CheckedInByName": "Beahan, Frami and Bergstrom",
-    "CheckedInByAssociateId": 313,
-    "Description": "Multi-channelled fault-tolerant instruction set",
-    "DisplayText": "quia",
+    "ExternalReference": "quo",
+    "DocumentId": 105,
+    "VersionId": "vero",
+    "CheckedInDate": "2010-02-21T04:22:26.6397369+01:00",
+    "CheckedInByName": "Ferry, Metz and Schmitt",
+    "CheckedInByAssociateId": 829,
+    "Description": "Persevering transitional open system",
+    "DisplayText": "dolore",
     "ExtraFields": [
-      "fuga",
-      "doloremque"
+      "occaecati",
+      "non"
     ]
   }
 ]

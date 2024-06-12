@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 976,
-  "Name": "Kassulke-Larkin",
-  "Tooltip": "facilis",
+  "RoleId": 319,
+  "Name": "Heathcote, O'Keefe and Blanda",
+  "Tooltip": "architecto",
   "RoleType": "Anonymous",
-  "Deleted": 1001,
-  "Rank": 740,
-  "Created": "2018-11-22T12:57:42.6669559+01:00",
-  "UseCategories": 749,
+  "Deleted": 121,
+  "Rank": 584,
+  "Created": "2024-04-03T04:22:35.2053915+02:00",
+  "UseCategories": 747,
   "CreatedBy": null,
-  "Updated": "2015-01-11T12:57:42.6669559+01:00",
+  "Updated": "2013-06-16T04:22:35.2053915+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 308
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ab",
-    "InputValues2": "ad"
+    "InputValues1": "in",
+    "InputValues2": "incidunt"
   },
   "BlockExecution": false,
-  "NavigateTo": "dolor",
+  "NavigateTo": "vel",
   "Message": "enim",
-  "ShowDialog": "quis",
+  "ShowDialog": "quidem",
   "OutputValues": {
-    "OutputValues1": "minima",
-    "OutputValues2": "fugit"
+    "OutputValues1": "laudantium",
+    "OutputValues2": "nam"
   },
   "StateValues": {
-    "StateValues1": "occaecati",
-    "StateValues2": "quam"
+    "StateValues1": "ea",
+    "StateValues2": "dicta"
   },
-  "Exception": "animi",
+  "Exception": "qui",
   "ParserValues": {
-    "ParserValues1": "mollitia",
-    "ParserValues2": "dolore"
+    "ParserValues1": "et",
+    "ParserValues2": "impedit"
   },
   "CgiVariables": {
-    "CgiVariables1": "ex",
-    "CgiVariables2": "maxime"
+    "CgiVariables1": "atque",
+    "CgiVariables2": "illo"
   },
-  "CgiContent": "laudantium",
+  "CgiContent": "similique",
   "Headers": {
-    "Headers1": "modi",
-    "Headers2": "quasi"
+    "Headers1": "ratione",
+    "Headers2": "placeat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 7
     }
   }
 }

@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 2,
-  "Name": "Keeling, Shields and Bergstrom",
-  "Description": "Upgradable value-added hardware",
-  "DeltaJson": "doloribus",
+  "ConfigurableScreenDeltaId": 579,
+  "Name": "Schmidt-Kovacek",
+  "Description": "Re-contextualized maximized matrices",
+  "DeltaJson": "fugit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "neque",
-  "UpdatedDate": "2016-10-27T12:57:33.430612+02:00",
-  "CreatedDate": "1997-01-10T12:57:33.430612+01:00",
+  "RecipeId": "eos",
+  "UpdatedDate": "2011-05-07T04:22:26.1528443+02:00",
+  "CreatedDate": "2022-08-04T04:22:26.1528443+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    6,
-    785
+    387,
+    606
   ],
-  "AppliesToKey": "iure",
+  "AppliesToKey": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 274
     }
   }
 }

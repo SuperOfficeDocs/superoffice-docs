@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 376,
-  "Created": "2019-07-10T12:57:34.7740549+02:00",
+  "SatelliteId": 112,
+  "Created": "2021-04-15T04:22:27.4559933+02:00",
   "CreatedBy": null,
-  "Updated": "2001-06-05T12:57:34.7740549+02:00",
+  "Updated": "2011-06-29T04:22:27.4559933+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Cruickshank Group",
-      "Description": "Upgradable client-server parallelism",
+      "Name": "Bashirian, Pollich and Jacobson",
+      "Description": "Progressive contextually-based hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Cruickshank Group",
-      "Description": "Upgradable client-server parallelism",
+      "Name": "Bashirian, Pollich and Jacobson",
+      "Description": "Progressive contextually-based hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 798,
-  "Created": "2009-05-02T12:57:34.7740549+02:00",
+  "SatelliteId": 642,
+  "Created": "2006-02-01T04:22:27.4559933+01:00",
   "CreatedBy": null,
-  "Updated": "2006-03-27T12:57:34.7740549+02:00",
+  "Updated": "2005-07-24T04:22:27.4559933+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Lakin, Rutherford and Renner",
-      "Description": "Monitored needs-based array",
+      "Name": "Zemlak Group",
+      "Description": "Distributed empowering frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 93
         }
       }
     },
     {
-      "Name": "Lakin, Rutherford and Renner",
-      "Description": "Monitored needs-based array",
+      "Name": "Zemlak Group",
+      "Description": "Distributed empowering frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 93
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 623
     }
   }
 }

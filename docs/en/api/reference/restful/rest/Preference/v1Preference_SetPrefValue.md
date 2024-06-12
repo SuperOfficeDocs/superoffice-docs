@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nobis",
+  "RawValue": "at",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "eius",
+  "DisplayTooltip": "reprehenderit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 723,
-  "PrefDescId": 492,
-  "TableName": "Schmidt, Leuschke and Mante",
-  "UserPreferenceId": 746
+  "TargetId": 487,
+  "PrefDescId": 560,
+  "TableName": "Jast Inc and Sons",
+  "UserPreferenceId": 567
 }
 ```
 

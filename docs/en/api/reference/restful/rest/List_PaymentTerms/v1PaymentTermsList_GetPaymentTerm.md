@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Stracke, Rohan and Labadie",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 343,
-  "Rank": 290,
+  "Id": 293,
+  "Name": "Bernhard-Kerluke",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "UdListDefinitionId": 431,
+  "Rank": 38,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 462
     }
   }
 }

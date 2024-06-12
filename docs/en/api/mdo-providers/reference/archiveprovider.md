@@ -43,11 +43,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Appointment||ConfigurableArchiveAppointment|
-|1|Document||Document|
-|2|EmailFlowEmailContent||EmailFlowEmailContent|
-|3|EmailFlowFormContent||EmailFlowFormContent|
-|4|Sale||Sale|
+|0|Appointment||ProviderName=ConfigurableArchiveAppointment|
+|1|Document||ProviderName=Document|
+|2|EmailFlowEmailContent||ProviderName=EmailFlowEmailContent|
+|3|EmailFlowFormContent||ProviderName=EmailFlowFormContent|
+|4|Sale||ProviderName=Sale|
 
 
 ## Related MDO Lists

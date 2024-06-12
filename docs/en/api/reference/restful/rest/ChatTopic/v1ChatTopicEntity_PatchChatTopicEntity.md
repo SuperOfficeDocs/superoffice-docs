@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ullam",
+    "path": "vitae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ullam",
+    "path": "vitae",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 93,
-  "Name": "Barrows LLC",
-  "Description": "Self-enabling multi-state interface",
-  "WelcomeMessage": "soluta",
+  "ChatTopicId": 518,
+  "Name": "Grimes, Christiansen and Johnston",
+  "Description": "Cross-platform maximized interface",
+  "WelcomeMessage": "occaecati",
   "Language": null,
-  "LastAccept": "2007-06-11T12:57:42.1670705+02:00",
-  "SecondsPrAccept": 541,
-  "AlertRecipient": "exercitationem",
+  "LastAccept": "2024-01-30T04:22:34.7340022+01:00",
+  "SecondsPrAccept": 525,
+  "AlertRecipient": "illum",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "et",
+  "CollectConsent": true,
+  "BadgeHeader": "ipsa",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "iste",
-  "WarnNewChatMinutes": 676,
-  "WarnManagerNewChatMinutes": 540,
+  "CustomQueueText": "at",
+  "WarnNewChatMinutes": 798,
+  "WarnManagerNewChatMinutes": 453,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 726,
-  "WarnManagerChatMessageMinutes": 506,
+  "WarnChatMessageMinutes": 159,
+  "WarnManagerChatMessageMinutes": 92,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 690,
-  "OfflineFormQueueLength": 789,
+  "OfflineFormTimeLimit": 72,
+  "OfflineFormQueueLength": 598,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "est",
+  "WidgetRatingText": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldType": "System.String",
+      "FieldLength": 54
     }
   },
   "_Links": {

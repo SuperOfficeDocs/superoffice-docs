@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 84,
+  "EjMessageId": 78,
   "Ticket": null,
-  "CreatedAt": "2006-02-17T12:57:42.932794+01:00",
+  "CreatedAt": "2015-01-07T04:22:35.5647298+01:00",
   "CreatedBy": null,
-  "Author": "sint",
+  "Author": "autem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 968,
-  "Body": "temporibus",
-  "HtmlBody": "asperiores",
-  "EmailHeader": "jabari.gleason@fahey.name",
-  "DebugInfo": "eligendi",
-  "MailSorter": "dolor",
+  "MessageId": "esse",
+  "TimeSpent": 196,
+  "Body": "explicabo",
+  "HtmlBody": "ut",
+  "EmailHeader": "paula_gulgowski@carroll.uk",
+  "DebugInfo": "aperiam",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "quis",
   "MessageHeaders": [
     {
-      "Id": 141,
-      "Name": "Roob Inc and Sons",
-      "Value": "autem",
+      "Id": 701,
+      "Name": "Wolf-Schmeler",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldType": "System.String",
+          "FieldLength": 20
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 723,
-  "SentimentConfidence": 754,
+  "Language": "autem",
+  "Sentiment": 537,
+  "SentimentConfidence": 9,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 277,
-      "Name": "Homenick, Schmidt and Ratke",
-      "ContentType": "earum",
-      "AttSize": 688,
-      "InlineImage": false,
-      "ContentId": "similique",
-      "AuthKey": "enim",
+      "AttachmentId": 928,
+      "Name": "Gaylord-Muller",
+      "ContentType": "ipsa",
+      "AttSize": 654,
+      "InlineImage": true,
+      "ContentId": "consequuntur",
+      "AuthKey": "omnis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldType": "System.Int32",
+          "FieldLength": 798
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "dolores"
+    "CustomFields1": "a",
+    "CustomFields2": "mollitia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

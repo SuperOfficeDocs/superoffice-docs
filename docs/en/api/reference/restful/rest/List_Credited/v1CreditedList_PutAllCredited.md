@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Dickinson-Blanda",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 89,
-    "Rank": 790
+    "Id": 839,
+    "Name": "Wilkinson, Schmidt and Murray",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 913,
+    "Rank": 910
   },
   {
-    "Id": 5,
-    "Name": "Dickinson-Blanda",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 89,
-    "Rank": 790
+    "Id": 839,
+    "Name": "Wilkinson, Schmidt and Murray",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 913,
+    "Rank": 910
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Lehner Group",
-    "Tooltip": "ut",
+    "Id": 269,
+    "Name": "Schinner-Bernhard",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 359,
-    "Rank": 109,
+    "UdListDefinitionId": 668,
+    "Rank": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 346
       }
     }
   }

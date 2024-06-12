@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Reichert-Orn",
-    "ToolTip": "Ad sed cum necessitatibus.",
+    "Id": 20,
+    "Name": "Pfeffer, Kshlerin and Ratke",
+    "ToolTip": "Quia impedit aut.",
     "Deleted": true,
-    "Rank": 567,
-    "Type": "ut",
-    "ColorBlock": 632,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2004-06-22T12:57:43.3864466+02:00",
+    "Rank": 116,
+    "Type": "impedit",
+    "ColorBlock": 278,
+    "IconHint": "accusamus",
+    "Selected": false,
+    "LastChanged": "2015-11-12T04:22:35.8778461+01:00",
     "ChildItems": [
       {
-        "Id": 817,
-        "Name": "Hoeger Group",
-        "ToolTip": "Laudantium eos eum saepe vitae sed accusamus.",
+        "Id": 898,
+        "Name": "Wiza-Hudson",
+        "ToolTip": "Quia est eum labore.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "rerum",
-        "ColorBlock": 393,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2009-09-15T12:57:43.3864466+02:00",
+        "Rank": 713,
+        "Type": "repellat",
+        "ColorBlock": 554,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2019-10-22T04:22:35.8778461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "hic",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Mr. Bonita Beau Christiansen",
+        "FullName": "Darius Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldLength": 137
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "iure",
+    "ExtraInfo": "dolore",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Dorian Schumm",
+    "FullName": "Olaf Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 465
       }
     }
   }

@@ -126,7 +126,7 @@ Shadow contact provider for the FormSubmission provider.
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -479,7 +479,7 @@ Shadow contact provider for the FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=associate/contactCategory,person/ticketPriority,person/personAddress/wgs84latitude,person/personExtra/x_person_integer,person/correspondingAssociate/role
+GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=person/lastName,person/birthdate,person/correspondingAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

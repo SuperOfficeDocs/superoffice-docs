@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 944,
-  "Name": "Turcotte Group",
-  "Tooltip": "numquam",
+  "HeadingId": 817,
+  "Name": "Steuber Group",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 180,
-  "UdListDefinitionId": 992
+  "Rank": 724,
+  "UdListDefinitionId": 60
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 187,
-  "Name": "Cummings-Leffler",
-  "Tooltip": "assumenda",
+  "HeadingId": 628,
+  "Name": "Lind-Wolff",
+  "Tooltip": "maiores",
   "Deleted": true,
-  "Rank": 940,
-  "UdListDefinitionId": 145,
+  "Rank": 227,
+  "UdListDefinitionId": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldLength": 720
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Bruen LLC",
-    "ToolTip": "Possimus neque voluptatem qui cupiditate ut corrupti vero.",
+    "Id": 149,
+    "Name": "Swift, Wintheiser and Murphy",
+    "ToolTip": "Dignissimos illo quis.",
     "Deleted": false,
-    "Rank": 804,
-    "Type": "et",
-    "ColorBlock": 257,
-    "IconHint": "illum",
+    "Rank": 672,
+    "Type": "ut",
+    "ColorBlock": 908,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2003-04-14T12:57:43.5895249+02:00",
+    "LastChanged": "2016-11-03T04:22:36.0497173+01:00",
     "ChildItems": [
       {
-        "Id": 227,
-        "Name": "Heathcote-Hayes",
-        "ToolTip": "Praesentium corporis dolor incidunt excepturi esse maxime.",
-        "Deleted": true,
-        "Rank": 650,
-        "Type": "sint",
-        "ColorBlock": 376,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2004-11-12T12:57:43.5895249+01:00",
+        "Id": 259,
+        "Name": "Casper-Weimann",
+        "ToolTip": "Id sed consequatur officiis.",
+        "Deleted": false,
+        "Rank": 255,
+        "Type": "recusandae",
+        "ColorBlock": 545,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2019-04-17T04:22:36.0497173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "rem",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "pariatur",
         "Hidden": true,
-        "FullName": "Jay Kris IV",
+        "FullName": "Teagan Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 242
+            "FieldType": "System.Int32",
+            "FieldLength": 882
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Ansel Schulist",
+    "ExtraInfo": "qui",
+    "StyleHint": "corrupti",
+    "Hidden": true,
+    "FullName": "Korbin Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 73
       }
     }
   }

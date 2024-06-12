@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Reynolds Group",
-  "ContactId": 597
+  "TableName": "Macejkovic Group",
+  "ContactId": 908
 }
 ```
 
@@ -90,6 +90,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": ""
+  "Reason": "e-enable efficient architectures"
 }
 ```

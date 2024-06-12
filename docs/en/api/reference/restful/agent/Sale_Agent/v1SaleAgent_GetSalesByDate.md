@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2011-10-04T12:57:34.8688339+02:00",
-  "ToDate": "1997-04-06T12:57:34.8688339+02:00",
-  "AmountLimit": 482,
+  "FromDate": "2013-03-09T04:22:27.5492747+01:00",
+  "ToDate": "2012-08-17T04:22:27.5492747+02:00",
+  "AmountLimit": 515,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bogisich Inc and Sons",
-    "SaleDate": "2022-09-01T12:57:34.8688339+02:00",
-    "SaleId": 816,
-    "Probability": 774,
-    "Title": "voluptatum",
-    "Amount": 26908.523999999998,
-    "Currency": "aliquam",
-    "ProjectName": "Corwin Inc and Sons",
-    "AssociateFullName": "Ms. Margarete Kiel Windler V",
-    "Description": "Focused attitude-oriented info-mediaries",
+    "ContactName": "Lynch LLC",
+    "SaleDate": "2008-10-04T04:22:27.5492747+02:00",
+    "SaleId": 943,
+    "Probability": 638,
+    "Title": "est",
+    "Amount": 19474.676,
+    "Currency": "qui",
+    "ProjectName": "Dooley Inc and Sons",
+    "AssociateFullName": "Estevan Arlo Hauck V",
+    "Description": "Optimized non-volatile archive",
     "Status": "Lost",
-    "WeightedAmount": 4140.014,
-    "ProjectId": 889,
-    "EarningPercent": 15538.372,
-    "Earning": 7321.0239999999994,
-    "ContactId": 180,
-    "AssociateId": 64,
-    "PersonId": 934,
-    "SaleTypeId": 377,
-    "SaleTypeName": "Ruecker-Gleason",
-    "PersonFullName": "Noemi Lorenza Hudson DVM",
+    "WeightedAmount": 25423.007999999998,
+    "ProjectId": 913,
+    "EarningPercent": 27294.005999999998,
+    "Earning": 9803.152,
+    "ContactId": 211,
+    "AssociateId": 442,
+    "PersonId": 640,
+    "SaleTypeId": 586,
+    "SaleTypeName": "Ryan Inc and Sons",
+    "PersonFullName": "Mrs. Sasha Wintheiser II",
     "Completed": "Completed",
-    "ActiveErpLinks": 873,
-    "NextDueDate": "2018-04-28T12:57:34.8688339+02:00",
-    "Number": "677464",
+    "ActiveErpLinks": 402,
+    "NextDueDate": "2016-09-12T04:22:27.5492747+02:00",
+    "Number": "891225",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 756
+        "FieldType": "System.Int32",
+        "FieldLength": 946
       }
     }
   }

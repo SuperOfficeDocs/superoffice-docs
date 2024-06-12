@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=817
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=335
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Padberg LLC",
-  "Comment": "quia",
-  "StakeholderRoleId": 57,
-  "CountryId": 763,
-  "PersonId": 42,
-  "EmailDescription": "darrel@conroyeffertz.info",
-  "EmailId": 130,
-  "EmailAddress": "dayton@weber.biz",
-  "PhoneId": 860,
-  "ContactName": "Abbott, Johnson and Ryan",
-  "ContactId": 312,
-  "SaleId": 248,
-  "Mrmrs": "non",
-  "Firstname": "Kaia",
-  "MiddleName": "Turner, Oberbrunner and Beier",
-  "Lastname": "Mosciski",
-  "SaleStakeholderId": 398,
-  "Rank": 597,
-  "Phone": "007-366-2037 x418",
+  "StakeholderRoleName": "Davis Inc and Sons",
+  "Comment": "vel",
+  "StakeholderRoleId": 45,
+  "CountryId": 260,
+  "PersonId": 743,
+  "EmailDescription": "nettie@armstrong.name",
+  "EmailId": 788,
+  "EmailAddress": "marcos@monahan.ca",
+  "PhoneId": 495,
+  "ContactName": "Parisian, Wehner and Jast",
+  "ContactId": 165,
+  "SaleId": 363,
+  "Mrmrs": "nihil",
+  "Firstname": "Makenna",
+  "MiddleName": "Roob, Baumbach and Watsica",
+  "Lastname": "Pagac",
+  "SaleStakeholderId": 97,
+  "Rank": 484,
+  "Phone": "1-737-271-2293 x53121",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 565
     }
   }
 }

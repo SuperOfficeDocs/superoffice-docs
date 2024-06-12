@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koss-Stracke",
-    "StepNumber": 885,
+    "Name": "Hammes Inc and Sons",
+    "StepNumber": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 342
       }
     }
   },
   {
-    "Name": "Koss-Stracke",
-    "StepNumber": 885,
+    "Name": "Hammes Inc and Sons",
+    "StepNumber": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 342
       }
     }
   }

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 301,
-  "Name": "Hermiston-Torp",
-  "Tooltip": "iste",
-  "Rank": 710,
-  "AmountFrom": 10370.405999999999,
-  "AmountTo": 9076.064,
+  "AmountClassId": 615,
+  "Name": "Orn, Beier and Von",
+  "Tooltip": "nemo",
+  "Rank": 62,
+  "AmountFrom": 20568.442,
+  "AmountTo": 22267.07,
   "Deleted": false,
-  "CurrencyId": 953,
+  "CurrencyId": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 295
     }
   }
 }

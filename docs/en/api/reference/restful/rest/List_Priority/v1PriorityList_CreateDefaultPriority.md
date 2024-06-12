@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "omnis",
+  "Id": 694,
+  "Name": "Emard, Purdy and Turcotte",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "UdListDefinitionId": 867,
-  "Rank": 934,
+  "UdListDefinitionId": 301,
+  "Rank": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 458
     }
   }
 }

@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Cole Group",
-    "ToolTip": "Soluta quas consequatur officia ut.",
+    "Id": 746,
+    "Name": "Connelly, Farrell and Schimmel",
+    "ToolTip": "Ea mollitia eaque quo.",
     "Deleted": false,
-    "Rank": 942,
-    "Type": "sequi",
+    "Rank": 426,
+    "Type": "cupiditate",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Oberbrunner Inc and Sons",
-        "ToolTip": "Ipsum facilis tempore iusto ea impedit nesciunt.",
+        "Id": 890,
+        "Name": "Ziemann, Spencer and Heaney",
+        "ToolTip": "Qui velit rerum omnis nesciunt.",
         "Deleted": false,
-        "Rank": 321,
-        "Type": "magnam",
+        "Rank": 782,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 476,
-        "ExtraInfo": "culpa",
-        "StyleHint": "explicabo",
-        "FullName": "Reese Crooks",
+        "IconHint": "voluptatum",
+        "ColorBlock": 757,
+        "ExtraInfo": "dolorum",
+        "StyleHint": "in",
+        "FullName": "Tomas White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 646
+            "FieldLength": 51
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 446,
-    "ExtraInfo": "ullam",
-    "StyleHint": "nihil",
-    "FullName": "Christy Strosin",
+    "IconHint": "consequuntur",
+    "ColorBlock": 948,
+    "ExtraInfo": "quam",
+    "StyleHint": "alias",
+    "FullName": "Saige Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldType": "System.Int32",
+        "FieldLength": 80
       }
     }
   }

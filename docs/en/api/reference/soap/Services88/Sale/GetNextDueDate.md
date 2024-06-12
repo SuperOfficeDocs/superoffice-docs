@@ -62,7 +62,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Sale="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <Sale:GetNextDueDateResponse>
-   <Sale:Response xsi:type="xsd:dateTime">2024-05-21T10:56:49Z</Sale:Response>
+   <Sale:Response xsi:type="xsd:dateTime">2024-06-05T02:21:38Z</Sale:Response>
   </Sale:GetNextDueDateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

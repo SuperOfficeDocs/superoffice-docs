@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 745
+  "QuoteVersionId": 371
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 928,
-  "ERPQuoteVersionKey": "qui",
-  "QuoteId": 974,
-  "Description": "Up-sized 5th generation adapter",
-  "Number": "1291601",
+  "QuoteVersionId": 389,
+  "ERPQuoteVersionKey": "voluptatum",
+  "QuoteId": 791,
+  "Description": "Balanced actuating capability",
+  "Number": "1113810",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 781,
-  "SentDate": "2006-07-14T12:57:34.6959481+02:00",
-  "FollowupId": 160,
-  "ExpirationDate": "2009-03-17T12:57:34.6959481+01:00",
-  "DeliveryCountryId": 162,
+  "Reason": "grow scalable deliverables",
+  "LikelyQuoteAlternativeId": 961,
+  "SentDate": "2018-07-29T04:22:27.3778332+02:00",
+  "FollowupId": 92,
+  "ExpirationDate": "2014-12-05T04:22:27.3778332+01:00",
+  "DeliveryCountryId": 373,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 994,
+  "InvoiceCountryId": 218,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "reprehenderit",
-  "ERPPaymentTypeKey": "esse",
-  "ERPDeliveryTermsKey": "consequatur",
-  "ERPDeliveryTypeKey": "quas",
-  "Rank": 629,
-  "ApprovedBy": 175,
-  "ApprovedText": "itaque",
-  "ApprovedRegisteredBy": 71,
-  "ApprovedRegisteredDate": "2010-04-18T12:57:34.6959481+02:00",
-  "ExtraField1": "eos",
-  "ExtraField2": "eius",
-  "ExtraField3": "repellat",
-  "ExtraField4": "unde",
-  "ExtraField5": "quod",
-  "LastRecalculated": "2001-04-30T12:57:34.6959481+02:00",
-  "Updated": "2003-10-02T12:57:34.6959481+02:00",
-  "UpdatedAssociateId": 330,
-  "Registered": "2020-12-19T12:57:34.6959481+01:00",
-  "RegisteredAssociateId": 221,
-  "RequestAssociateId": 88,
-  "RequestComment": "quas",
+  "ERPPaymentTermsKey": "alias",
+  "ERPPaymentTypeKey": "quo",
+  "ERPDeliveryTermsKey": "distinctio",
+  "ERPDeliveryTypeKey": "quae",
+  "Rank": 357,
+  "ApprovedBy": 166,
+  "ApprovedText": "dolor",
+  "ApprovedRegisteredBy": 60,
+  "ApprovedRegisteredDate": "1999-04-21T04:22:27.3778332+02:00",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "aut",
+  "ExtraField3": "voluptatum",
+  "ExtraField4": "corporis",
+  "ExtraField5": "soluta",
+  "LastRecalculated": "1999-02-10T04:22:27.3778332+01:00",
+  "Updated": "2016-05-13T04:22:27.3778332+02:00",
+  "UpdatedAssociateId": 577,
+  "Registered": "1997-12-08T04:22:27.3778332+01:00",
+  "RegisteredAssociateId": 526,
+  "RequestAssociateId": 415,
+  "RequestComment": "et",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 20,
-      "ERPQuoteAlternativeKey": "perferendis",
-      "QuoteVersionId": 103,
-      "Name": "Weimann Inc and Sons",
-      "Description": "Reactive context-sensitive adapter",
+      "QuoteAlternativeId": 209,
+      "ERPQuoteAlternativeKey": "quos",
+      "QuoteVersionId": 137,
+      "Name": "King LLC",
+      "Description": "Synchronised zero administration help-desk",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 244.452,
-      "ERPDiscountAmount": 4371.93,
-      "DiscountPercent": 949.602,
-      "DiscountAmount": 12583.01,
+      "ERPDiscountPercent": 27303.408,
+      "ERPDiscountAmount": 12786.72,
+      "DiscountPercent": 11182.112,
+      "DiscountAmount": 21060.48,
       "UserValueOverride": "DiscountAmount",
       "VATInfo": "et",
-      "VAT": 7302.2199999999993,
-      "EarningPercent": 5992.208,
-      "EarningAmount": 22210.658,
-      "SubTotal": 17644.42,
-      "TotalPrice": 30424.872,
-      "ExtraField1": "quia",
-      "ExtraField2": "dolor",
-      "ExtraField3": "facere",
-      "ExtraField4": "quis",
-      "ExtraField5": "nesciunt",
+      "VAT": 4600.7119999999995,
+      "EarningPercent": 18158.396,
+      "EarningAmount": 27052.688,
+      "SubTotal": 11338.812,
+      "TotalPrice": 29180.674,
+      "ExtraField1": "cupiditate",
+      "ExtraField2": "alias",
+      "ExtraField3": "deleniti",
+      "ExtraField4": "est",
+      "ExtraField5": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldType": "System.String",
+          "FieldLength": 294
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 14 Dec 1998 12:57:42 G12T
+Last-Modified: Wed, 25 Apr 2018 04:22:34 G4T
 
 {
-  "ForeignAppId": 135,
-  "Name": "Oberbrunner-Kuhic",
-  "CreatedDate": "2022-12-24T12:57:42.448256+01:00",
-  "UpdatedDate": "1998-12-14T12:57:42.448256+01:00",
+  "ForeignAppId": 428,
+  "Name": "Hammes-Morissette",
+  "CreatedDate": "2000-09-19T04:22:34.9854602+02:00",
+  "UpdatedDate": "2018-04-25T04:22:34.9854602+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 241,
-      "Name": "Strosin, Hegmann and Reichert",
-      "CreatedDate": "2016-11-10T12:57:42.448256+01:00",
-      "UpdatedDate": "2002-09-21T12:57:42.448256+02:00",
-      "AssociateFullName": "Miss Cole Hackett IV",
-      "CreatedBy": "tempora",
-      "UpdatedBy": "illum",
-      "DeviceIdentifier": "perferendis",
-      "ForeignAppId": 381,
+      "ForeignDeviceId": 292,
+      "Name": "Thompson Group",
+      "CreatedDate": "2000-01-25T04:22:34.9854602+01:00",
+      "UpdatedDate": "2001-06-21T04:22:34.9854602+02:00",
+      "AssociateFullName": "Dr. Boyd Durgan I",
+      "CreatedBy": "alias",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "autem",
+      "ForeignAppId": 804,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 670
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Mon, 14 Dec 1998 12:57:42 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 836
+      "FieldLength": 385
     }
   },
   "_Links": {

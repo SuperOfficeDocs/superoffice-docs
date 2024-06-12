@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "marlene_schmeler@grimes.uk"
+  "EmailAddress": "micah.lakin@franecki.co.uk"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 383,
-    "ContactName": "Cole, Bode and Nitzsche",
-    "PersonId": 402,
-    "PersonName": "Collins-Pfannerstill",
-    "AssociateId": 891,
-    "Address": "porro",
-    "EmailId": 314,
+    "ContactId": 836,
+    "ContactName": "Gusikowski-Kilback",
+    "PersonId": 438,
+    "PersonName": "Paucek LLC",
+    "AssociateId": 244,
+    "Address": "suscipit",
+    "EmailId": 3,
     "DuplicatePersonIds": [
-      598,
-      51
+      266,
+      163
     ],
-    "Name": "Heidenreich-Fadel",
+    "Name": "Schimmel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

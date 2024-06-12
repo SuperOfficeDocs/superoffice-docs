@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 719,
-  "Name": "Runte Inc and Sons",
-  "Description": "Robust clear-thinking structure",
+  "ProjectId": 885,
+  "Name": "Kreiger-Hoeger",
+  "Description": "Expanded interactive model",
   "URL": "http://www.example.com/",
-  "Type": "voluptate",
-  "AssociateId": 174,
-  "AssociateFullName": "Joel Hoppe",
-  "TypeId": 591,
-  "Updated": "2011-06-21T12:57:42.6357132+02:00",
-  "StatusId": 360,
-  "Status": "eaque",
-  "TextId": 29,
-  "PublishTo": "2020-05-09T12:57:42.6357132+02:00",
-  "PublishFrom": "2009-11-03T12:57:42.6357132+01:00",
+  "Type": "expedita",
+  "AssociateId": 82,
+  "AssociateFullName": "Diego Monahan",
+  "TypeId": 923,
+  "Updated": "2007-09-26T04:22:35.174142+02:00",
+  "StatusId": 320,
+  "Status": "ut",
+  "TextId": 32,
+  "PublishTo": "2009-03-05T04:22:35.174142+01:00",
+  "PublishFrom": "2020-03-24T04:22:35.174142+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1396366",
-  "ActiveErpLinks": 448,
+  "ProjectNumber": "1054177",
+  "ActiveErpLinks": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 108
     }
   }
 }

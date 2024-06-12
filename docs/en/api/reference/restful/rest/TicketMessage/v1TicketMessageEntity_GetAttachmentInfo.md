@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 95,
-    "Name": "Prosacco, Bartell and Kohler",
-    "ContentType": "consequatur",
-    "AttSize": 492,
+    "AttachmentId": 903,
+    "Name": "Feil Inc and Sons",
+    "ContentType": "rem",
+    "AttSize": 593,
     "InlineImage": true,
-    "ContentId": "dolorum",
-    "AuthKey": "et",
-    "IsSafeFileExtension": true,
+    "ContentId": "deleniti",
+    "AuthKey": "excepturi",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

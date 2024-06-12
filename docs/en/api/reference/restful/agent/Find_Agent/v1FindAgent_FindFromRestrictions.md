@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Wehner, Wilkinson and Krajcik",
-      "Operator": "totam",
+      "Name": "Ratke Inc and Sons",
+      "Operator": "sed",
       "Values": [
-        "ipsa",
-        "dolor"
+        "voluptas",
+        "praesentium"
       ],
       "DisplayValues": [
-        "sed",
-        "quam"
+        "debitis",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 376,
+      "InterParenthesis": 195,
       "InterOperator": "And",
-      "UniqueHash": 413
+      "UniqueHash": 760
     }
   ],
-  "ProviderName": "Purdy, Block and Towne",
-  "PageSize": 820,
-  "PageNumber": 798
+  "ProviderName": "O'Conner-Orn",
+  "PageSize": 242,
+  "PageNumber": 391
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sipes, Kutch and Dickinson",
-      "DisplayTooltip": "ut",
-      "DisplayType": "tempora",
+      "DisplayName": "Schaefer-Morar",
+      "DisplayTooltip": "dolor",
+      "DisplayType": "aspernatur",
       "CanOrderBy": false,
-      "Name": "O'Hara, Schimmel and Feil",
+      "Name": "Jenkins, Goldner and Stroman",
       "CanRestrictBy": false,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Brakus, Williamson and Christiansen",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "commodi",
-      "IconHint": "aut",
-      "HeadingIconHint": "velit"
+      "RestrictionType": "eum",
+      "RestrictionListName": "Fahey, Denesik and Jacobson",
+      "IsVisible": true,
+      "ExtraInfo": "quae",
+      "Width": "unde",
+      "IconHint": "corrupti",
+      "HeadingIconHint": "sint"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Goodwin LLC",
-      "PrimaryKey": 804,
+      "EntityName": "Murray-Greenholt",
+      "PrimaryKey": 834,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "et",
-          "LinkHint": "sapiente"
+          "DisplayValue": "doloremque",
+          "TooltipHint": "quia",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "fugit",
-      "StyleHint": "ea",
+      "LinkHint": "sint",
+      "StyleHint": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldType": "System.String",
+          "FieldLength": 406
         }
       }
     }
   ],
-  "RowCount": 696,
+  "RowCount": 362,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldLength": 74
     }
   }
 }

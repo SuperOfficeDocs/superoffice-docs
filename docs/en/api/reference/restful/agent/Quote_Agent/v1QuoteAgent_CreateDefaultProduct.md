@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 447,
-  "ERPProductKey": "dolores",
-  "ERPPriceListKey": "pariatur",
-  "Name": "Champlin-Maggio",
-  "Description": "Monitored optimizing emulation",
-  "Code": "modi",
-  "PriceUnit": "consequatur",
-  "QuantityUnit": "aut",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ratione",
-  "DefaultSubscriptionQuantity": 579.79,
-  "ItemNumber": "799988",
+  "ProductId": 99,
+  "ERPProductKey": "libero",
+  "ERPPriceListKey": "minima",
+  "Name": "Smitham LLC",
+  "Description": "Versatile multi-tasking concept",
+  "Code": "sed",
+  "PriceUnit": "est",
+  "QuantityUnit": "sunt",
+  "IsSubscription": false,
+  "SubscriptionUnit": "aliquam",
+  "DefaultSubscriptionQuantity": 26566.917999999998,
+  "ItemNumber": "950872",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "expedita",
-  "ProductTypeKey": "debitis",
-  "VAT": 28453.586,
-  "VATInfo": "ducimus",
-  "UnitCost": 10517.704,
-  "UnitMinimumPrice": 17136.712,
-  "UnitListPrice": 4096.138,
-  "InAssortment": true,
-  "Supplier": "id",
-  "SupplierCode": "ex",
-  "Rights": "sed",
-  "Rule": "mollitia",
+  "ProductFamilyKey": "deserunt",
+  "ProductTypeKey": "officia",
+  "VAT": 17258.938,
+  "VATInfo": "non",
+  "UnitCost": 26971.203999999998,
+  "UnitMinimumPrice": 8684.314,
+  "UnitListPrice": 22232.595999999998,
+  "InAssortment": false,
+  "Supplier": "nam",
+  "SupplierCode": "sunt",
+  "Rights": "nostrum",
+  "Rule": "nesciunt",
   "ExtraInfo": [
     {
-      "Name": "Schinner, Braun and Haag",
-      "Value": "nesciunt",
+      "Name": "Turner-Marvin",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldLength": 996
         }
       }
     },
     {
-      "Name": "Schinner, Braun and Haag",
-      "Value": "nesciunt",
+      "Name": "Turner-Marvin",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldLength": 996
         }
       }
     }
   ],
-  "RawExtraInfo": "repellat",
-  "ExtraField1": "iure",
-  "ExtraField2": "perferendis",
-  "ExtraField3": "minus",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "sint",
-  "InStock": 7192.53,
+  "RawExtraInfo": "iste",
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "necessitatibus",
+  "ExtraField3": "sequi",
+  "ExtraField4": "dolores",
+  "ExtraField5": "ratione",
+  "InStock": 19891.498,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldLength": 83
     }
   }
 }

@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 352,
-  "ColumnId": 880,
-  "FieldDefault": "sed",
-  "FieldHeight": 391,
-  "FieldLabel": "eveniet",
-  "FieldLeft": 122,
-  "FieldTop": 290,
+  "UDefFieldId": 36,
+  "ColumnId": 335,
+  "FieldDefault": "voluptatum",
+  "FieldHeight": 861,
+  "FieldLabel": "dignissimos",
+  "FieldLeft": 707,
+  "FieldTop": 836,
   "FieldType": "Checkbox",
-  "FieldWidth": 846,
-  "FormatMask": "laboriosam",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 186,
-  "LabelLeft": 249,
-  "LabelTop": 2,
-  "LabelWidth": 27,
-  "LastVersionId": 305,
-  "ListTableId": 55,
-  "IsMandatory": true,
+  "FieldWidth": 664,
+  "FormatMask": "vitae",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 473,
+  "LabelLeft": 861,
+  "LabelTop": 786,
+  "LabelWidth": 234,
+  "LastVersionId": 4,
+  "ListTableId": 276,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 310,
-  "ProgId": "ipsa",
+  "Page1LineNo": 640,
+  "ProgId": "iure",
   "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 581,
-  "TextLength": 826,
-  "Tooltip": "consectetur",
-  "UdefIdentity": 625,
-  "UDListDefinitionId": 299,
+  "ShortLabel": "nemo",
+  "TabOrder": 654,
+  "TextLength": 205,
+  "Tooltip": "temporibus",
+  "UdefIdentity": 101,
+  "UDListDefinitionId": 826,
   "Justification": "Center",
-  "Version": 69,
-  "TemplateVariableName": "Graham, Collier and Conn",
+  "Version": 39,
+  "TemplateVariableName": "Shields, Ryan and Harvey",
   "HasBeenPublished": false,
-  "MdoListName": "Schuster-Ernser",
+  "MdoListName": "Lakin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 526
     }
   }
 }

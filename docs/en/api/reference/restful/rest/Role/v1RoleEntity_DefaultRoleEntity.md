@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 406,
-  "Name": "Smith-Fadel",
-  "Tooltip": "aut",
+  "RoleId": 258,
+  "Name": "Jacobi LLC",
+  "Tooltip": "labore",
   "RoleType": "Anonymous",
-  "Deleted": 714,
-  "Rank": 8,
-  "Created": "2005-01-05T12:57:42.6513343+01:00",
-  "UseCategories": 262,
+  "Deleted": 611,
+  "Rank": 212,
+  "Created": "1998-12-27T04:22:35.1897687+01:00",
+  "UseCategories": 173,
   "CreatedBy": null,
-  "Updated": "2005-01-12T12:57:42.6513343+01:00",
+  "Updated": "2023-12-24T04:22:35.1897687+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   }
 }

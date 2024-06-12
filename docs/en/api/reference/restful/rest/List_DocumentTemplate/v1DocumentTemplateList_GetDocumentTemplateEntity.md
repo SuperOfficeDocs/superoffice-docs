@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 138,
-  "Name": "Ziemann-Torp",
-  "Tooltip": "consectetur",
-  "SaveInDb": 753,
-  "Filename": "fuga",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 600,
+  "Name": "McGlynn-Terry",
+  "Tooltip": "aut",
+  "SaveInDb": 132,
+  "Filename": "vel",
+  "DefaultOref": "dolor",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 180,
-  "IntentId": 328,
+  "AutoeventId": 307,
+  "IntentId": 515,
   "IsDefaultPublished": false,
-  "Rank": 753,
-  "LoadTemplateFromPlugin": 442,
-  "MimeType": "et",
+  "Rank": 576,
+  "LoadTemplateFromPlugin": 44,
+  "MimeType": "soluta",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 62,
+  "DocumentTypeKey": 97,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kody@ruecker.uk",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "henry@schoen.co.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jessie.homenick@nienowtoy.co.uk",
+  "SenderEmailAddress": "janie_nikolaus@mckenziehahn.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

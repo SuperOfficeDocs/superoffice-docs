@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 205,
-  "ERPQuoteAlternativeKey": "illo",
-  "QuoteVersionId": 201,
-  "Name": "Keeling, Herman and Paucek",
-  "Description": "Enterprise-wide national service-desk",
+  "QuoteAlternativeId": 40,
+  "ERPQuoteAlternativeKey": "ut",
+  "QuoteVersionId": 260,
+  "Name": "Smith, Heidenreich and Herman",
+  "Description": "Centralized eco-centric knowledge base",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 18728.784,
-  "ERPDiscountAmount": 3262.4939999999997,
-  "DiscountPercent": 1391.4959999999999,
-  "DiscountAmount": 8737.592,
+  "ERPDiscountPercent": 27983.486,
+  "ERPDiscountAmount": 4726.072,
+  "DiscountPercent": 21590.126,
+  "DiscountAmount": 25654.924,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptatibus",
-  "VAT": 6603.338,
-  "EarningPercent": 20236.237999999998,
-  "EarningAmount": 26375.744,
-  "SubTotal": 21552.518,
-  "TotalPrice": 17876.336,
-  "ExtraField1": "est",
-  "ExtraField2": "eum",
-  "ExtraField3": "eaque",
-  "ExtraField4": "eum",
-  "ExtraField5": "illo",
+  "VATInfo": "non",
+  "VAT": 6506.184,
+  "EarningPercent": 15112.148,
+  "EarningAmount": 4124.344,
+  "SubTotal": 1927.4099999999999,
+  "TotalPrice": 1134.508,
+  "ExtraField1": "et",
+  "ExtraField2": "unde",
+  "ExtraField3": "corporis",
+  "ExtraField4": "ut",
+  "ExtraField5": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldLength": 389
     }
   }
 }

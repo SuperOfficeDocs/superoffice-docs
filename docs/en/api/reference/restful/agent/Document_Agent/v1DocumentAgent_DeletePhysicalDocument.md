@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/DeletePhysicalDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 556,
+  "DocumentId": 524,
   "AllowedReturnType": [
-    "ut",
-    "eos"
+    "et",
+    "eveniet"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nobis",
-  "VersionId": "quia",
+  "ExternalReference": "adipisci",
+  "VersionId": "atque",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "harum",
-  "AdditionalInfo": "aspernatur"
+  "Value": "placeat",
+  "AdditionalInfo": "sed"
 }
 ```

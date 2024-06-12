@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 172,
-  "Caption": "consequatur",
-  "Description": "Reduced dynamic migration",
-  "ChartName": "Kovacek-Rath",
-  "ChartId": "accusantium",
-  "IsDefault": false,
-  "AssociateId": 39,
-  "GroupId": 428,
-  "SelectionId": 403,
-  "Config": "quia",
+  "DashboardTileId": 828,
+  "Caption": "aspernatur",
+  "Description": "Horizontal system-worthy extranet",
+  "ChartName": "Ratke, McCullough and Klein",
+  "ChartId": "officiis",
+  "IsDefault": true,
+  "AssociateId": 552,
+  "GroupId": 774,
+  "SelectionId": 169,
+  "Config": "error",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Purdy-Bogisich",
-      "Description": "Proactive bottom-line groupware",
+      "Name": "Orn Group",
+      "Description": "Streamlined bottom-line structure",
       "Type": "Boolean",
-      "ListName": "Bergstrom, Nienow and Kovacek",
+      "ListName": "Veum, Quitzon and Trantow",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ipsum",
-      "DefaultDataOption": false,
+      "Value": "deleniti",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 355
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 896,
+      "VisibleId": 595,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 247
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     },
     {
-      "VisibleId": 896,
+      "VisibleId": 595,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 247
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

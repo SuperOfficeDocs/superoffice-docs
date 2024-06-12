@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=expedita
+GET /api/v1/List/Priority/MDOItems?query=provident
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Rippin-Jacobson",
-    "ToolTip": "Quia harum corrupti pariatur odit quibusdam blanditiis facere.",
+    "Id": 148,
+    "Name": "Howe-Bayer",
+    "ToolTip": "Vel sit.",
     "Deleted": false,
-    "Rank": 244,
-    "Type": "nobis",
+    "Rank": 149,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Kessler LLC",
-        "ToolTip": "Voluptatum ut voluptatem natus magni sed rerum.",
+        "Id": 466,
+        "Name": "Dibbert-Reynolds",
+        "ToolTip": "Harum vel veritatis iusto id.",
         "Deleted": true,
-        "Rank": 266,
-        "Type": "non",
+        "Rank": 195,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempore",
-        "ColorBlock": 792,
-        "ExtraInfo": "dolorum",
-        "StyleHint": "commodi",
-        "FullName": "Uriah Armstrong DVM",
+        "IconHint": "iste",
+        "ColorBlock": 781,
+        "ExtraInfo": "sit",
+        "StyleHint": "autem",
+        "FullName": "Daniela Mayert PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldLength": 732
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 476,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "delectus",
-    "FullName": "Ms. Shaylee Adolf Koss Sr.",
+    "IconHint": "repellendus",
+    "ColorBlock": 665,
+    "ExtraInfo": "itaque",
+    "StyleHint": "et",
+    "FullName": "Adela Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 864
       }
     }
   }

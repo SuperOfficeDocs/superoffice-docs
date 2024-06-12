@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 653,
-  "Name": "Olson-Towne",
-  "Description": "Advanced solution-oriented database",
-  "WelcomeMessage": "placeat",
+  "ChatTopicId": 417,
+  "Name": "Donnelly Inc and Sons",
+  "Description": "Versatile maximized capacity",
+  "WelcomeMessage": "dolores",
   "Language": null,
-  "LastAccept": "2023-01-07T12:57:33.3212628+01:00",
-  "SecondsPrAccept": 238,
-  "AlertRecipient": "suscipit",
+  "LastAccept": "2000-02-27T04:22:26.0590988+01:00",
+  "SecondsPrAccept": 219,
+  "AlertRecipient": "sint",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
+  "BadgeHeader": "incidunt",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "temporibus",
-  "WarnNewChatMinutes": 18,
-  "WarnManagerNewChatMinutes": 851,
-  "TicketEnabled": false,
+  "CustomQueueText": "voluptatem",
+  "WarnNewChatMinutes": 289,
+  "WarnManagerNewChatMinutes": 9,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 392,
-  "WarnManagerChatMessageMinutes": 786,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 372,
-  "OfflineFormQueueLength": 302,
+  "WarnChatMessageMinutes": 595,
+  "WarnManagerChatMessageMinutes": 791,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 207,
+  "OfflineFormQueueLength": 848,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "recusandae",
+  "WidgetRatingText": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 531
     }
   }
 }

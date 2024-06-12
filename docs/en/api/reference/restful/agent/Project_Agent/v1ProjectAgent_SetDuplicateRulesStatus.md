@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Kreiger Group",
-      "DisplayName": "Cremin, Sipes and Streich",
-      "DisplayTooltip": "deleniti",
+      "Name": "Adams, Grimes and Jacobs",
+      "DisplayName": "Vandervort, Renner and Kunze",
+      "DisplayTooltip": "enim",
       "IsActive": false
     },
     {
-      "Name": "Kreiger Group",
-      "DisplayName": "Cremin, Sipes and Streich",
-      "DisplayTooltip": "deleniti",
+      "Name": "Adams, Grimes and Jacobs",
+      "DisplayName": "Vandervort, Renner and Kunze",
+      "DisplayTooltip": "enim",
       "IsActive": false
     }
   ]

@@ -79,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 217,
-  "Name": "Ondricka, Ernser and Spinka",
+  "TicketStatusId": 250,
+  "Name": "Upton-Ward",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": true,
-  "UsedInQueue": false
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": true
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 973,
-  "Name": "Koch-Connelly",
+  "TicketStatusId": 527,
+  "Name": "Gibson-Wyman",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
   "IsDefault": true,
-  "UsedInQueue": true,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldLength": 603
     }
   }
 }

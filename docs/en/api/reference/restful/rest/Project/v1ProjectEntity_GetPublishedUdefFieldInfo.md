@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 41,
-  "ColumnId": 737,
-  "FieldDefault": "sapiente",
-  "FieldHeight": 683,
-  "FieldLabel": "autem",
-  "FieldLeft": 157,
-  "FieldTop": 887,
+  "UDefFieldId": 356,
+  "ColumnId": 666,
+  "FieldDefault": "id",
+  "FieldHeight": 153,
+  "FieldLabel": "soluta",
+  "FieldLeft": 731,
+  "FieldTop": 220,
   "FieldType": "Checkbox",
-  "FieldWidth": 767,
-  "FormatMask": "enim",
-  "HideLabel": true,
+  "FieldWidth": 53,
+  "FormatMask": "sapiente",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 788,
-  "LabelLeft": 282,
-  "LabelTop": 551,
-  "LabelWidth": 108,
-  "LastVersionId": 872,
-  "ListTableId": 616,
-  "IsMandatory": false,
+  "LabelHeight": 673,
+  "LabelLeft": 405,
+  "LabelTop": 326,
+  "LabelWidth": 823,
+  "LastVersionId": 24,
+  "ListTableId": 28,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 552,
-  "ProgId": "fugit",
-  "IsReadOnly": true,
-  "ShortLabel": "error",
-  "TabOrder": 965,
-  "TextLength": 534,
-  "Tooltip": "qui",
-  "UdefIdentity": 48,
-  "UDListDefinitionId": 274,
+  "Page1LineNo": 136,
+  "ProgId": "omnis",
+  "IsReadOnly": false,
+  "ShortLabel": "reiciendis",
+  "TabOrder": 962,
+  "TextLength": 603,
+  "Tooltip": "tempora",
+  "UdefIdentity": 346,
+  "UDListDefinitionId": 359,
   "Justification": "Center",
-  "Version": 687,
-  "TemplateVariableName": "VonRueden-Balistreri",
-  "HasBeenPublished": true,
-  "MdoListName": "Blanda-Quitzon",
+  "Version": 322,
+  "TemplateVariableName": "Walker Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Thompson-Kris",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 497
     }
   }
 }

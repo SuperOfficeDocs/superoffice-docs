@@ -84,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ryan, Mohr and Gutkowski",
-  "ProviderName": "Howell-Hermiston",
-  "Context": "voluptatibus"
+  "GuiName": "Rutherford, Weber and Hickle",
+  "ProviderName": "Keeling-Olson",
+  "Context": "natus"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Schuster, Rau and Sawayn",
-      "DisplayTooltip": "quia",
-      "DisplayType": "necessitatibus",
-      "CanOrderBy": true,
-      "Name": "Hickle Group",
+      "DisplayName": "Bauch LLC",
+      "DisplayTooltip": "natus",
+      "DisplayType": "reprehenderit",
+      "CanOrderBy": false,
+      "Name": "Runolfsdottir Group",
       "CanRestrictBy": true,
-      "RestrictionType": "repellendus",
-      "RestrictionListName": "Towne, Mante and McGlynn",
+      "RestrictionType": "iste",
+      "RestrictionListName": "Pfannerstill-Roberts",
       "IsVisible": false,
-      "ExtraInfo": "magnam",
-      "Width": "atque",
-      "IconHint": "blanditiis",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "occaecati",
+      "Width": "molestiae",
+      "IconHint": "dolorem",
+      "HeadingIconHint": "quae"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 471,
-      "Name": "Schuppe Inc and Sons",
-      "ToolTip": "Totam illo reprehenderit repellat laudantium quo aut ut.",
+      "Id": 270,
+      "Name": "Goyette-Hammes",
+      "ToolTip": "Doloremque quibusdam blanditiis.",
       "Deleted": false,
-      "Rank": 317,
-      "Type": "porro",
-      "ColorBlock": 849,
-      "IconHint": "debitis",
+      "Rank": 183,
+      "Type": "delectus",
+      "ColorBlock": 855,
+      "IconHint": "dicta",
       "Selected": false,
-      "LastChanged": "2013-11-21T12:57:33.2116147+01:00",
+      "LastChanged": "2009-08-16T04:22:25.9653503+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "ratione",
+      "ExtraInfo": "sapiente",
+      "StyleHint": "earum",
       "Hidden": true,
-      "FullName": "Prof. Montana Mraz",
+      "FullName": "Jesse Toy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 604
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Metz-Maggio",
+      "Name": "Kuhn LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Metz-Maggio",
+      "Name": "Kuhn LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ratione",
+  "OwnerKeys": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=sapiente
+GET /api/v1/List/SaleType/MDOItems?query=ipsam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Ledner, Beer and Hyatt",
-    "ToolTip": "Cum et quibusdam minima sit.",
-    "Deleted": true,
-    "Rank": 629,
-    "Type": "in",
+    "Id": 675,
+    "Name": "Schmitt, Upton and Fay",
+    "ToolTip": "Dolores eaque et nihil non perferendis ducimus.",
+    "Deleted": false,
+    "Rank": 511,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "Schamberger-Schimmel",
-        "ToolTip": "Provident tempore numquam inventore impedit.",
-        "Deleted": false,
-        "Rank": 664,
-        "Type": "autem",
+        "Id": 122,
+        "Name": "Rowe, Schulist and Hudson",
+        "ToolTip": "Magnam commodi omnis tempora numquam dolorem voluptatem.",
+        "Deleted": true,
+        "Rank": 475,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 27,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "voluptas",
-        "FullName": "Mr. Shane Corkery Jr.",
+        "IconHint": "omnis",
+        "ColorBlock": 648,
+        "ExtraInfo": "repellat",
+        "StyleHint": "eveniet",
+        "FullName": "Carlos Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 176
+            "FieldType": "System.String",
+            "FieldLength": 305
           }
         }
       }
     ],
-    "IconHint": "totam",
-    "ColorBlock": 171,
-    "ExtraInfo": "quas",
-    "StyleHint": "est",
-    "FullName": "Agustin Schmidt",
+    "IconHint": "voluptatem",
+    "ColorBlock": 434,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "tempore",
+    "FullName": "Prof. Ben Kendall Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldLength": 753
       }
     }
   }

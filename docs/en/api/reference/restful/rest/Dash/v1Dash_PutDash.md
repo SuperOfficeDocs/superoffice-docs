@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 674,
-  "UniqueId": "voluptatem",
-  "Name": "Hoppe-Rohan",
-  "Description": "Business-focused 24/7 local area network",
-  "AssociateId": 703,
-  "Columns": 985,
+  "DashboardId": 743,
+  "UniqueId": "esse",
+  "Name": "Weissnat, Reichel and Stark",
+  "Description": "Synergistic human-resource strategy",
+  "AssociateId": 953,
+  "Columns": 29,
   "Theme": null,
-  "VisibleForAll": 872,
+  "VisibleForAll": 279,
   "VisibleForAssociates": [
-    77,
-    245
+    362,
+    867
   ],
   "VisibleForGroups": [
-    533,
-    334
+    321,
+    668
   ],
-  "PinForAll": 960,
+  "PinForAll": 661,
   "PinForAssociates": [
-    943,
-    304
+    245,
+    640
   ],
   "PinForGroups": [
-    107,
-    584
+    980,
+    743
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 987,
-  "UniqueId": "aut",
-  "Name": "Johns, Purdy and Lubowitz",
-  "Description": "Extended leading edge complexity",
-  "AssociateId": 371,
-  "Columns": 895,
+  "DashboardId": 420,
+  "UniqueId": "quam",
+  "Name": "Will, Weissnat and Beer",
+  "Description": "Multi-lateral non-volatile concept",
+  "AssociateId": 105,
+  "Columns": 427,
   "Theme": null,
-  "VisibleForAll": 470,
+  "VisibleForAll": 436,
   "VisibleForAssociates": [
-    913,
-    803
+    279,
+    744
   ],
   "VisibleForGroups": [
-    177,
-    919
+    839,
+    136
   ],
-  "PinForAll": 480,
+  "PinForAll": 492,
   "PinForAssociates": [
-    398,
-    707
+    788,
+    385
   ],
   "PinForGroups": [
-    611,
-    493
+    772,
+    26
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldType": "System.String",
+      "FieldLength": 420
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

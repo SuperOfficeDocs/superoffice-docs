@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Stoltenberg-Ratke",
-  "Tooltip": "quaerat",
+  "Id": 905,
+  "Name": "Bergstrom Group",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "UdListDefinitionId": 698,
-  "Rank": 58,
+  "UdListDefinitionId": 606,
+  "Rank": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

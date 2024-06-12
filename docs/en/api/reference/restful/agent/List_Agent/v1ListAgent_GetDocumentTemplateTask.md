@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 734
+  "DocumentTemplateId": 239
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Value": "aut",
-  "Tooltip": "inventore",
+  "Id": 56,
+  "Value": "eveniet",
+  "Tooltip": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 590
+      "FieldLength": 64
     }
   }
 }

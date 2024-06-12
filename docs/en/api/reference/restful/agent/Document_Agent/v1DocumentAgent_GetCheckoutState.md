@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 690
+  "DocumentId": 869
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 699,
-  "Name": "Stanton Inc and Sons"
+  "AssociateId": 861,
+  "Name": "Dietrich, Torphy and Simonis"
 }
 ```

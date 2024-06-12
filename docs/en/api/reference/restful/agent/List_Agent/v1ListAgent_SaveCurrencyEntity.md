@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 310,
-  "Name": "Romaguera, Christiansen and Stehr",
-  "Tooltip": "nisi",
-  "Rank": 874,
-  "Rate": 3140.268,
-  "Units": 13078.181999999999,
-  "Deleted": true
+  "CurrencyId": 487,
+  "Name": "Schulist-Thompson",
+  "Tooltip": "corporis",
+  "Rank": 790,
+  "Rate": 22417.502,
+  "Units": 13175.336,
+  "Deleted": false
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 924,
-  "Name": "Schmidt, Wuckert and Hartmann",
-  "Tooltip": "aut",
-  "Rank": 193,
-  "Rate": 7703.3719999999994,
-  "Units": 13598.426,
+  "CurrencyId": 968,
+  "Name": "Willms Inc and Sons",
+  "Tooltip": "molestiae",
+  "Rank": 434,
+  "Rate": 952.736,
+  "Units": 10382.942,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

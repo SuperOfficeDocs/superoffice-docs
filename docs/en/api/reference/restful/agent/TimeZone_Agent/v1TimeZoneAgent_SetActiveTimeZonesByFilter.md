@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "qui",
-  "Active": true
+  "Filter": "eaque",
+  "Active": false
 }
 ```
 

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 545,
-    "ColumnId": 117,
-    "FieldDefault": "similique",
-    "FieldHeight": 342,
-    "FieldLabel": "labore",
-    "FieldLeft": 66,
-    "FieldTop": 944,
+    "UDefFieldId": 323,
+    "ColumnId": 730,
+    "FieldDefault": "rem",
+    "FieldHeight": 91,
+    "FieldLabel": "eum",
+    "FieldLeft": 304,
+    "FieldTop": 156,
     "FieldType": "Checkbox",
-    "FieldWidth": 924,
-    "FormatMask": "asperiores",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 406,
-    "LabelLeft": 662,
-    "LabelTop": 108,
-    "LabelWidth": 177,
-    "LastVersionId": 809,
-    "ListTableId": 541,
+    "FieldWidth": 734,
+    "FormatMask": "nemo",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 729,
+    "LabelLeft": 4,
+    "LabelTop": 472,
+    "LabelWidth": 92,
+    "LastVersionId": 142,
+    "ListTableId": 179,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 437,
-    "ProgId": "tempore",
+    "Page1LineNo": 647,
+    "ProgId": "esse",
     "IsReadOnly": false,
-    "ShortLabel": "porro",
-    "TabOrder": 758,
-    "TextLength": 294,
-    "Tooltip": "eligendi",
-    "UdefIdentity": 168,
-    "UDListDefinitionId": 82,
+    "ShortLabel": "qui",
+    "TabOrder": 322,
+    "TextLength": 440,
+    "Tooltip": "tempore",
+    "UdefIdentity": 4,
+    "UDListDefinitionId": 377,
     "Justification": "Center",
-    "Version": 1000,
-    "TemplateVariableName": "Hegmann Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Steuber-Maggio",
+    "Version": 768,
+    "TemplateVariableName": "Satterfield, Hermiston and Renner",
+    "HasBeenPublished": true,
+    "MdoListName": "Greenfelder-Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldType": "System.String",
+        "FieldLength": 629
       }
     }
   }

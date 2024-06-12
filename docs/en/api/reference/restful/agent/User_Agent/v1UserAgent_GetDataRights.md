@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 964,
-  "TableName": "Fritsch, Brakus and Wehner"
+  "RoleId": 965,
+  "TableName": "Stehr, Gleichner and Tremblay"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "alias",
-  "2": "nulla"
+  "1": "inventore",
+  "2": "quam"
 }
 ```

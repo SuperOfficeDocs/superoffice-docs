@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 452,
-  "Name": "Metz-Pfannerstill",
+  "TicketPriorityId": 10,
+  "Name": "Gleichner, Bosco and Ondricka",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 973,
+  "SortOrder": 537,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 84,
-  "MonStart": "2000-10-30T12:57:43.8082251+01:00",
-  "MonStop": "1999-05-15T12:57:43.8082251+02:00",
-  "TueStart": "2010-10-14T12:57:43.8082251+02:00",
-  "TueStop": "2016-06-19T12:57:43.8082251+02:00",
-  "WedStart": "2008-07-18T12:57:43.8082251+02:00",
-  "WedStop": "2002-10-02T12:57:43.8082251+02:00",
-  "ThuStart": "1999-10-07T12:57:43.8082251+02:00",
-  "ThuStop": "2001-01-15T12:57:43.8082251+01:00",
-  "FriStart": "2022-11-01T12:57:43.8082251+01:00",
-  "FriStop": "1997-12-20T12:57:43.8082251+01:00",
-  "SatStart": "2007-04-24T12:57:43.8082251+02:00",
-  "SatStop": "2000-09-20T12:57:43.8082251+02:00",
-  "SunStart": "2013-05-18T12:57:43.8082251+02:00",
-  "SunStop": "2020-12-24T12:57:43.8082251+01:00",
+  "Deadline": 282,
+  "MonStart": "2018-12-16T04:22:36.2528386+01:00",
+  "MonStop": "2016-05-01T04:22:36.2528386+02:00",
+  "TueStart": "2017-07-16T04:22:36.2528386+02:00",
+  "TueStop": "2004-12-22T04:22:36.2528386+01:00",
+  "WedStart": "1997-03-16T04:22:36.2528386+01:00",
+  "WedStop": "2002-11-07T04:22:36.2528386+01:00",
+  "ThuStart": "2021-09-08T04:22:36.2528386+02:00",
+  "ThuStop": "2018-08-14T04:22:36.2528386+02:00",
+  "FriStart": "2011-09-06T04:22:36.2528386+02:00",
+  "FriStop": "2006-06-11T04:22:36.2528386+02:00",
+  "SatStart": "2010-04-03T04:22:36.2528386+02:00",
+  "SatStop": "2002-05-28T04:22:36.2528386+02:00",
+  "SunStart": "2003-02-19T04:22:36.2528386+01:00",
+  "SunStop": "2009-04-01T04:22:36.2528386+02:00",
   "NonDates": [
-    "explicabo",
-    "reiciendis"
+    "sint",
+    "porro"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 314,
-      "AlertLevel": 844,
-      "AlertTimeout": 926,
-      "Action": 432,
-      "DelegateTo": 572,
-      "ScriptId": 143,
-      "EmailTo": "hershel@damore.us",
-      "SmsTo": "placeat",
-      "ReplyTemplateIdCustomer": 247,
-      "ReplyTemplateIdUser": 608,
-      "ReplyTemplateIdCatmast": 869,
-      "ReplyTemplateIdEmail": 79,
-      "RtiCustomerSms": 995,
-      "ReplyTemplateIdUserSms": 309,
-      "ReplyTemplateIdCatmastSms": 673,
-      "ReplyTemplateIdSms": 234,
+      "TicketAlertId": 103,
+      "AlertLevel": 548,
+      "AlertTimeout": 799,
+      "Action": 795,
+      "DelegateTo": 701,
+      "ScriptId": 532,
+      "EmailTo": "evie.franecki@fisherweimann.biz",
+      "SmsTo": "excepturi",
+      "ReplyTemplateIdCustomer": 154,
+      "ReplyTemplateIdUser": 447,
+      "ReplyTemplateIdCatmast": 783,
+      "ReplyTemplateIdEmail": 813,
+      "RtiCustomerSms": 750,
+      "ReplyTemplateIdUserSms": 801,
+      "ReplyTemplateIdCatmastSms": 886,
+      "ReplyTemplateIdSms": 629,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 291
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldLength": 687
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 11,
-  "Name": "Konopelski-Howe",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 647,
-  "IsCustomList": false,
+  "Id": 764,
+  "Name": "Bergstrom-Schmeler",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 206,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 744
     }
   },
   "_Links": {

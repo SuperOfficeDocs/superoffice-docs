@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 721,
-  "Name": "Klein LLC",
-  "CreatedDate": "2010-06-26T12:57:42.448256+02:00",
-  "UpdatedDate": "1999-06-19T12:57:42.448256+02:00",
-  "AssociateFullName": "Easton Lindgren",
-  "CreatedBy": "dolorem",
-  "UpdatedBy": "laborum",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 472
+  "ForeignDeviceId": 346,
+  "Name": "Rodriguez, Krajcik and Emmerich",
+  "CreatedDate": "2014-09-30T04:22:35.0010854+02:00",
+  "UpdatedDate": "1997-01-31T04:22:35.0010854+01:00",
+  "AssociateFullName": "Miss Crystal Kilback",
+  "CreatedBy": "vel",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "cumque",
+  "ForeignAppId": 358
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 441,
-  "Name": "Cummerata LLC",
-  "CreatedDate": "2012-10-03T12:57:42.448256+02:00",
-  "UpdatedDate": "2022-05-25T12:57:42.448256+02:00",
-  "AssociateFullName": "Uriel Scottie Green Jr.",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "enim",
-  "DeviceIdentifier": "dolores",
-  "ForeignAppId": 243,
+  "ForeignDeviceId": 207,
+  "Name": "Beier-Bergnaum",
+  "CreatedDate": "2002-01-25T04:22:35.0010854+01:00",
+  "UpdatedDate": "2017-11-01T04:22:35.0010854+01:00",
+  "AssociateFullName": "Florencio Greenholt",
+  "CreatedBy": "harum",
+  "UpdatedBy": "sit",
+  "DeviceIdentifier": "corrupti",
+  "ForeignAppId": 1001,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldLength": 179
     }
   }
 }

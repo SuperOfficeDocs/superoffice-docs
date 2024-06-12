@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 527,
-  "AppointmentId": 705,
-  "ProjectId": 382,
-  "SaleId": 898,
+  "DocumentId": 288,
+  "AppointmentId": 529,
+  "ProjectId": 493,
+  "SaleId": 956,
   "Archived": true,
-  "ArchivedAt": "2022-07-30T12:57:33.899292+02:00",
-  "ArchivedBy": 824,
-  "ArchivedDisplayName": "Hermann-Hegmann",
+  "ArchivedAt": "2023-03-19T04:22:26.7178597+01:00",
+  "ArchivedBy": 953,
+  "ArchivedDisplayName": "Jewess, Reinger and Trantow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 520
     }
   }
 }

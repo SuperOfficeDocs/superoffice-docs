@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 647,
-  "Name": "Auer, Dibbert and Leannon",
-  "ConsentText": "eum",
-  "FormText": "voluptatem",
-  "Key": "in",
-  "Tooltip": "velit",
-  "Active": 802,
-  "UpdatedDate": "2016-04-30T12:57:43.3708249+02:00",
+  "ConsentPurposeId": 308,
+  "Name": "Heidenreich Inc and Sons",
+  "ConsentText": "nam",
+  "FormText": "enim",
+  "Key": "delectus",
+  "Tooltip": "autem",
+  "Active": 169,
+  "UpdatedDate": "1999-07-14T04:22:35.8622202+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 279,
-  "PrivacyStatementDesc": "sed",
+  "Rank": 115,
+  "PrivacyStatementDesc": "ratione",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 559,
-  "Name": "Becker, Muller and Macejkovic",
-  "ConsentText": "quae",
-  "FormText": "exercitationem",
-  "Key": "voluptatem",
-  "Tooltip": "blanditiis",
-  "Active": 973,
-  "UpdatedDate": "2002-03-03T12:57:43.3708249+01:00",
+  "ConsentPurposeId": 570,
+  "Name": "Hayes-Kessler",
+  "ConsentText": "sequi",
+  "FormText": "ut",
+  "Key": "ipsa",
+  "Tooltip": "distinctio",
+  "Active": 451,
+  "UpdatedDate": "2004-02-14T04:22:35.8622202+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 954,
-  "PrivacyStatementDesc": "est",
+  "Rank": 425,
+  "PrivacyStatementDesc": "eligendi",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   }
 }

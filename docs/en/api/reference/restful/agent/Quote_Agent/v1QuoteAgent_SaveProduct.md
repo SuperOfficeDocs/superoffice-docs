@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 820,
-  "ERPProductKey": "perferendis",
-  "ERPPriceListKey": "dolor",
-  "Name": "Brekke-Parisian",
-  "Description": "Mandatory encompassing adapter",
-  "Code": "culpa",
-  "PriceUnit": "soluta",
-  "QuantityUnit": "occaecati",
-  "IsSubscription": false,
-  "SubscriptionUnit": "optio",
-  "DefaultSubscriptionQuantity": 22636.881999999998,
-  "ItemNumber": "560695",
+  "ProductId": 436,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "voluptatum",
+  "Name": "Schroeder, Hand and Roberts",
+  "Description": "Centralized asynchronous secured line",
+  "Code": "ut",
+  "PriceUnit": "quia",
+  "QuantityUnit": "quas",
+  "IsSubscription": true,
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 12156.786,
+  "ItemNumber": "1325754",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "unde",
-  "VAT": 15594.784,
-  "VATInfo": "enim",
-  "UnitCost": 6249.196,
-  "UnitMinimumPrice": 1927.4099999999999,
-  "UnitListPrice": 13930.63,
+  "ProductFamilyKey": "labore",
+  "ProductTypeKey": "fugiat",
+  "VAT": 6167.7119999999995,
+  "VATInfo": "qui",
+  "UnitCost": 17619.347999999998,
+  "UnitMinimumPrice": 25617.316,
+  "UnitListPrice": 8477.47,
   "InAssortment": true,
-  "Supplier": "laborum",
-  "SupplierCode": "sunt",
-  "Rights": "magni",
-  "Rule": "voluptatem",
+  "Supplier": "et",
+  "SupplierCode": "nostrum",
+  "Rights": "expedita",
+  "Rule": "minus",
   "ExtraInfo": [
     {
-      "Name": "Walker Inc and Sons",
-      "Value": "molestiae",
+      "Name": "Beatty, Farrell and Wuckert",
+      "Value": "perferendis",
       "Type": "Image"
     },
     {
-      "Name": "Walker Inc and Sons",
-      "Value": "molestiae",
+      "Name": "Beatty, Farrell and Wuckert",
+      "Value": "perferendis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "fugit",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "similique",
-  "ExtraField3": "quia",
-  "ExtraField4": "illo",
-  "ExtraField5": "minima",
-  "InStock": 16704.22
+  "RawExtraInfo": "voluptate",
+  "ExtraField1": "similique",
+  "ExtraField2": "quas",
+  "ExtraField3": "et",
+  "ExtraField4": "quia",
+  "ExtraField5": "labore",
+  "InStock": 23226.074
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 606,
-  "ERPProductKey": "voluptas",
-  "ERPPriceListKey": "ut",
-  "Name": "Hoppe, Boehm and Collier",
-  "Description": "Ameliorated uniform open architecture",
-  "Code": "nisi",
-  "PriceUnit": "quis",
-  "QuantityUnit": "quod",
-  "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 27184.316,
-  "ItemNumber": "1611300",
+  "ProductId": 967,
+  "ERPProductKey": "dolor",
+  "ERPPriceListKey": "eum",
+  "Name": "Crist Inc and Sons",
+  "Description": "Realigned incremental knowledge base",
+  "Code": "perspiciatis",
+  "PriceUnit": "cumque",
+  "QuantityUnit": "nam",
+  "IsSubscription": false,
+  "SubscriptionUnit": "magni",
+  "DefaultSubscriptionQuantity": 23360.836,
+  "ItemNumber": "1678373",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptas",
-  "ProductTypeKey": "sint",
-  "VAT": 23019.23,
-  "VATInfo": "ab",
-  "UnitCost": 1491.7839999999999,
-  "UnitMinimumPrice": 28447.318,
-  "UnitListPrice": 13730.054,
-  "InAssortment": false,
-  "Supplier": "culpa",
+  "ProductFamilyKey": "iusto",
+  "ProductTypeKey": "in",
+  "VAT": 4603.846,
+  "VATInfo": "sit",
+  "UnitCost": 20101.476,
+  "UnitMinimumPrice": 4904.71,
+  "UnitListPrice": 3303.236,
+  "InAssortment": true,
+  "Supplier": "tempore",
   "SupplierCode": "nam",
-  "Rights": "placeat",
-  "Rule": "non",
+  "Rights": "est",
+  "Rule": "sint",
   "ExtraInfo": [
     {
-      "Name": "Corwin LLC",
-      "Value": "repudiandae",
+      "Name": "Stokes, Altenwerth and Johnson",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldType": "System.String",
+          "FieldLength": 702
         }
       }
     },
     {
-      "Name": "Corwin LLC",
-      "Value": "repudiandae",
+      "Name": "Stokes, Altenwerth and Johnson",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldType": "System.String",
+          "FieldLength": 702
         }
       }
     }
   ],
-  "RawExtraInfo": "distinctio",
-  "ExtraField1": "sint",
-  "ExtraField2": "omnis",
-  "ExtraField3": "non",
-  "ExtraField4": "quae",
-  "ExtraField5": "excepturi",
-  "InStock": 16707.354,
+  "RawExtraInfo": "exercitationem",
+  "ExtraField1": "quis",
+  "ExtraField2": "a",
+  "ExtraField3": "nam",
+  "ExtraField4": "in",
+  "ExtraField5": "nesciunt",
+  "InStock": 8919.364,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldType": "System.String",
+      "FieldLength": 717
     }
   }
 }

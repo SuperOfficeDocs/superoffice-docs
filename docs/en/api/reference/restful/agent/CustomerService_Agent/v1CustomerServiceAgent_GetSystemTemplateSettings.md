@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 372,
-  "CustomerCustomerReplyTemplateId": 8,
-  "CustomerPasswordTemplateId": 77,
-  "CustomerConfirmEmailTemplateId": 482,
-  "CustomerChatLogTemplateId": 307,
-  "NewLinkTemplateId": 506,
-  "HotlistNewMessageTemplateId": 644,
-  "HotlistTicketActivatedTemplateId": 145,
-  "UserTicketAlarmTemplateId": 236,
-  "HotlistTicketTakenOverTemplateId": 841,
-  "UserActiveTicketsTemplateId": 723,
-  "UserNewMessageTemplateId": 655,
-  "UserTicketActivatedTemplateId": 339,
-  "UserNewTicketTemplateId": 606,
-  "PublishKbQuestionTemplateId": 74,
-  "PublishKbAnswerTemplateId": 788,
-  "UserTicketTakenOverTemplateId": 675,
-  "PrintTicketTemplateId": 543,
-  "WeekStatTemplateId": 344,
-  "TicketAlarmHotlistTemplateId": 317,
-  "EmailAddresses": "vidal.donnelly@heaney.ca",
+  "CustomerNewCustomerTemplateId": 150,
+  "CustomerCustomerReplyTemplateId": 847,
+  "CustomerPasswordTemplateId": 529,
+  "CustomerConfirmEmailTemplateId": 1002,
+  "CustomerChatLogTemplateId": 808,
+  "NewLinkTemplateId": 603,
+  "HotlistNewMessageTemplateId": 943,
+  "HotlistTicketActivatedTemplateId": 988,
+  "UserTicketAlarmTemplateId": 43,
+  "HotlistTicketTakenOverTemplateId": 341,
+  "UserActiveTicketsTemplateId": 154,
+  "UserNewMessageTemplateId": 797,
+  "UserTicketActivatedTemplateId": 225,
+  "UserNewTicketTemplateId": 487,
+  "PublishKbQuestionTemplateId": 430,
+  "PublishKbAnswerTemplateId": 18,
+  "UserTicketTakenOverTemplateId": 488,
+  "PrintTicketTemplateId": 654,
+  "WeekStatTemplateId": 44,
+  "TicketAlarmHotlistTemplateId": 237,
+  "EmailAddresses": "elody@gottlieb.biz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 193
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 601,
-  "Name": "Kovacek-Feeney",
-  "Tooltip": "odit",
+  "Id": 198,
+  "Name": "Franecki-Zulauf",
+  "Tooltip": "illo",
   "Deleted": true,
-  "UdListDefinitionId": 467,
-  "Rank": 796
+  "UdListDefinitionId": 371,
+  "Rank": 648
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Hackett-Lehner",
-  "Tooltip": "inventore",
+  "Id": 350,
+  "Name": "Prosacco, Lockman and Gutkowski",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 76,
-  "Rank": 490,
+  "UdListDefinitionId": 134,
+  "Rank": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 694
     }
   }
 }

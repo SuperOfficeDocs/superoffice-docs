@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Langosh-Green",
-    "ToolTip": "Corrupti tempore.",
-    "Deleted": true,
-    "Rank": 204,
-    "Type": "veritatis",
-    "ColorBlock": 401,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2000-04-13T12:57:43.5895249+02:00",
+    "Id": 501,
+    "Name": "Klocko-Jacobi",
+    "ToolTip": "Inventore veniam voluptatibus modi qui.",
+    "Deleted": false,
+    "Rank": 766,
+    "Type": "placeat",
+    "ColorBlock": 322,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2023-08-05T04:22:36.0497173+02:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Pfannerstill-Gottlieb",
-        "ToolTip": "Et enim cumque doloribus ut eum numquam laudantium.",
+        "Id": 923,
+        "Name": "Dietrich Group",
+        "ToolTip": "Est commodi et iste.",
         "Deleted": false,
-        "Rank": 453,
-        "Type": "nulla",
-        "ColorBlock": 871,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2015-04-20T12:57:43.5895249+02:00",
+        "Rank": 867,
+        "Type": "tempora",
+        "ColorBlock": 324,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2005-09-15T04:22:36.0497173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "nihil",
+        "ExtraInfo": "a",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Timmothy Nader"
+        "FullName": "Ms. Raegan Cecelia O'Conner"
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Adolf Reichert"
+    "ExtraInfo": "harum",
+    "StyleHint": "dolore",
+    "Hidden": false,
+    "FullName": "Carolyn Willms"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Hartmann, Kirlin and Dooley",
-    "ToolTip": "Sit quia libero facere explicabo quo voluptatem.",
+    "Id": 892,
+    "Name": "Kunze-Spencer",
+    "ToolTip": "Deleniti dolore aliquam amet.",
     "Deleted": false,
-    "Rank": 529,
-    "Type": "architecto",
-    "ColorBlock": 375,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2014-02-26T12:57:43.5895249+01:00",
+    "Rank": 877,
+    "Type": "optio",
+    "ColorBlock": 316,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2016-01-16T04:22:36.0497173+01:00",
     "ChildItems": [
       {
-        "Id": 933,
-        "Name": "Green, Pouros and Deckow",
-        "ToolTip": "Quia eum doloremque explicabo ducimus nisi.",
+        "Id": 561,
+        "Name": "Bergnaum LLC",
+        "ToolTip": "Est voluptatem aut ut ad saepe.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "minima",
-        "ColorBlock": 212,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2008-07-24T12:57:43.5895249+02:00",
+        "Rank": 930,
+        "Type": "molestiae",
+        "ColorBlock": 915,
+        "IconHint": "placeat",
+        "Selected": true,
+        "LastChanged": "2018-11-05T04:22:36.0497173+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "laborum",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Dr. Nestor Gaylord V",
+        "FullName": "Mellie Graham IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "accusamus",
-    "Hidden": true,
-    "FullName": "Adell Parker",
+    "ExtraInfo": "labore",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Savannah Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 31
+        "FieldLength": 308
       }
     }
   }

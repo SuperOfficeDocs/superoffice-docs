@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 441,
-  "Name": "Walter, Schultz and Pagac",
+  "ScreenChooserId": 337,
+  "Name": "Wiza Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "temporibus",
-  "Source": "quia",
-  "Registered": "2023-08-09T12:57:43.0892086+02:00",
-  "RegisteredAssociateId": 116,
-  "Updated": "2007-11-22T12:57:43.0892086+01:00",
-  "UpdatedAssociateId": 962
+  "UniqueIdentifier": "sunt",
+  "Source": "sit",
+  "Registered": "2022-03-18T04:22:35.595979+01:00",
+  "RegisteredAssociateId": 16,
+  "Updated": "2019-07-23T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 907
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 21,
-  "Name": "Heidenreich, Brown and Thompson",
+  "ScreenChooserId": 510,
+  "Name": "Nitzsche-Murazik",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "neque",
-  "Source": "dolorem",
-  "Registered": "2001-03-30T12:57:43.0892086+02:00",
-  "RegisteredAssociateId": 776,
-  "Updated": "2010-11-27T12:57:43.0892086+01:00",
-  "UpdatedAssociateId": 192,
+  "UniqueIdentifier": "eos",
+  "Source": "aut",
+  "Registered": "2005-08-11T04:22:35.595979+02:00",
+  "RegisteredAssociateId": 575,
+  "Updated": "2008-04-04T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 855
     }
   },
   "_Links": {

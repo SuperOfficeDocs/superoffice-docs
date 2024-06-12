@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 122,
-  "PrefDescId": 134,
-  "PrefValue": "voluptates",
-  "PrefShowValue": "iusto",
-  "Description": "Organized stable forecast",
+  "PrefDescLineId": 747,
+  "PrefDescId": 845,
+  "PrefValue": "voluptas",
+  "PrefShowValue": "vel",
+  "Description": "Total stable workforce",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 425,
-  "PrefDescId": 824,
-  "PrefValue": "reprehenderit",
-  "PrefShowValue": "ipsam",
-  "Description": "Organized tertiary definition",
+  "PrefDescLineId": 761,
+  "PrefDescId": 251,
+  "PrefValue": "exercitationem",
+  "PrefShowValue": "exercitationem",
+  "Description": "Object-based neutral open system",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   },
   "_Links": {

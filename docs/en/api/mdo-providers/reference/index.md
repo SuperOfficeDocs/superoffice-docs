@@ -123,6 +123,7 @@ so.envir: onsite, online
 | [currency](currency.md) |GenericMDOProvider reads MDO lists with default settings|
 | [currentudeffields](currentudeffields.md) |Get a list of udef fields for a given type. Pass the type as AdditionalInfo|
 | [customerlanguage](customerlanguage.md) |Customer Languages list. From the CustLang table.|
+| [customobjectlist](customobjectlist.md) |<see cref="T:SuperOffice.CRM.Lists.CustomObjectListProvider" /> creates tree list of the custom objects|
 | [customobjectrelation](customobjectrelation.md) ||
 | [dashboard](dashboard.md) |MDO list provider for Dashboard, can be used by Navigator.|
 | [dashboardcurrency](dashboardcurrency.md) ||

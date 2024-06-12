@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "excepturi",
+      "RawValue": "pariatur",
       "Specification": null,
-      "DisplayValue": "modi",
-      "DisplayTooltip": "beatae",
+      "DisplayValue": "et",
+      "DisplayTooltip": "nobis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 400,
-      "PrefDescId": 453,
-      "TableName": "Gaylord Group",
-      "UserPreferenceId": 882
+      "TargetId": 642,
+      "PrefDescId": 993,
+      "TableName": "Graham Inc and Sons",
+      "UserPreferenceId": 256
     }
   ]
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Shields LLC",
-  "Id": 400
+  "ListName": "Hane-Kulas",
+  "Id": 637
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Will LLC",
-  "ToolTip": "Sunt natus sit corporis.",
+  "Id": 287,
+  "Name": "Jast-Abshire",
+  "ToolTip": "Asperiores dolor.",
   "Deleted": false,
-  "Rank": 670,
-  "Type": "error",
+  "Rank": 580,
+  "Type": "dolores",
   "ChildItems": [
     {
-      "Id": 795,
-      "Name": "Gorczany-Zemlak",
-      "ToolTip": "Doloremque consequatur.",
+      "Id": 44,
+      "Name": "McClure-Schiller",
+      "ToolTip": "Et non a distinctio repudiandae illo.",
       "Deleted": false,
-      "Rank": 704,
-      "Type": "adipisci",
+      "Rank": 810,
+      "Type": "numquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sit",
-      "ColorBlock": 28,
-      "ExtraInfo": "quo",
-      "StyleHint": "corrupti",
-      "FullName": "Reinhold Bartoletti",
+      "IconHint": "suscipit",
+      "ColorBlock": 686,
+      "ExtraInfo": "a",
+      "StyleHint": "et",
+      "FullName": "Ewell Murphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldType": "System.String",
+          "FieldLength": 573
         }
       }
     }
   ],
-  "IconHint": "voluptatem",
-  "ColorBlock": 692,
-  "ExtraInfo": "excepturi",
-  "StyleHint": "similique",
-  "FullName": "Rashad Brekke III",
+  "IconHint": "animi",
+  "ColorBlock": 564,
+  "ExtraInfo": "quia",
+  "StyleHint": "repellendus",
+  "FullName": "Granville Nienow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

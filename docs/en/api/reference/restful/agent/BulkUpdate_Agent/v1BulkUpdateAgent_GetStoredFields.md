@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project",
-  "Context": "excepturi"
+  "Tablename": "contact",
+  "Context": "similique"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": true,
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "consequatur",
-    "ValueType": "ex",
-    "Mandatory": false,
-    "EncodedDisplayName": "Jacobs-Jacobson",
-    "EncodedDisplayDescription": "Synchronised multimedia system engine",
-    "IconHint": "repellendus",
+    "Key": "inventore",
+    "ValueType": "autem",
+    "Mandatory": true,
+    "EncodedDisplayName": "Moen Group",
+    "EncodedDisplayDescription": "Synergistic high-level middleware",
+    "IconHint": "maxime",
     "ControlInfos": [
       {
-        "Type": "veritatis",
-        "Label": "cum",
-        "Dimension": 345,
-        "ListProviderName": "Senger, Braun and Kassulke",
-        "ListProviderExtraInfo": "voluptatem",
-        "ListProviderPrimaryKeyName": "Beahan-Skiles",
-        "ListLeadText": "qui",
+        "Type": "tempora",
+        "Label": "officiis",
+        "Dimension": 422,
+        "ListProviderName": "Hyatt LLC",
+        "ListProviderExtraInfo": "molestiae",
+        "ListProviderPrimaryKeyName": "Veum Inc and Sons",
+        "ListLeadText": "cumque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 994
+            "FieldType": "System.String",
+            "FieldLength": 214
           }
         }
       }
     ],
-    "EncodedDataCaption": "maxime",
-    "EncodedDataCaptionDescription": "Customizable full-range algorithm",
-    "CurrentOperationType": "nostrum",
+    "EncodedDataCaption": "corporis",
+    "EncodedDataCaptionDescription": "Universal holistic throughput",
+    "CurrentOperationType": "at",
     "Values": [
-      "nostrum",
-      "excepturi"
+      "sit",
+      "et"
     ],
     "DisplayValues": [
-      "doloribus",
-      "fugit"
+      "aut",
+      "est"
     ],
     "OperationInfos": [
       {
-        "Key": "amet",
-        "EncodedDisplayName": "Watsica-Mills",
+        "Key": "eveniet",
+        "EncodedDisplayName": "Zulauf, Grimes and Daniel",
         "EncodedLeadTexts": [
-          "nulla",
-          "est"
+          "omnis",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldLength": 122
           }
         }
       },
       {
-        "Key": "amet",
-        "EncodedDisplayName": "Watsica-Mills",
+        "Key": "eveniet",
+        "EncodedDisplayName": "Zulauf, Grimes and Daniel",
         "EncodedLeadTexts": [
-          "nulla",
-          "est"
+          "omnis",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldLength": 122
           }
         }
       }

@@ -87,10 +87,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bradtke-White",
-  "DeviceName": "Turner, Goodwin and Ortiz",
-  "DeviceIdentifier": "quisquam",
-  "TableName": "Bashirian-McLaughlin"
+  "ApplicationName": "Stroman Inc and Sons",
+  "DeviceName": "Goyette, Hauck and Homenick",
+  "DeviceIdentifier": "qui",
+  "TableName": "Hamill-Reilly"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "eveniet",
-    "Value": "est",
-    "RecordId": 916,
-    "CreatedDate": "2006-08-22T12:57:34.0711192+02:00",
-    "UpdatedDate": "1997-07-25T12:57:34.0711192+02:00",
-    "UpdatedBy": "illum",
-    "CreatedBy": "aut",
-    "TableName": "Metz, Connelly and Bins",
+    "Key": "quo",
+    "Value": "aut",
+    "RecordId": 941,
+    "CreatedDate": "1999-12-03T04:22:26.8755249+01:00",
+    "UpdatedDate": "2022-11-08T04:22:26.8755249+01:00",
+    "UpdatedBy": "voluptate",
+    "CreatedBy": "deleniti",
+    "TableName": "Rogahn-Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldLength": 953
       }
     }
   }

@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    423,
-    179
+    17,
+    634
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 88,
+  "EjMessageId": 923,
   "Ticket": null,
-  "CreatedAt": "2000-01-25T12:57:35.2270152+01:00",
+  "CreatedAt": "2009-09-16T04:22:28.0225046+02:00",
   "CreatedBy": null,
-  "Author": "recusandae",
+  "Author": "dolore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "perferendis",
-  "TimeSpent": 74,
-  "Body": "qui",
-  "HtmlBody": "soluta",
-  "EmailHeader": "jayce_larson@tremblaywolf.us",
-  "DebugInfo": "inventore",
-  "MailSorter": "vel",
+  "MessageId": "corrupti",
+  "TimeSpent": 208,
+  "Body": "suscipit",
+  "HtmlBody": "nemo",
+  "EmailHeader": "carlotta_mertz@dareupton.ca",
+  "DebugInfo": "voluptas",
+  "MailSorter": "dolore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "soluta",
   "MessageHeaders": [
     {
-      "Id": 283,
-      "Name": "Mueller Group",
-      "Value": "consequatur",
+      "Id": 18,
+      "Name": "Braun, Zieme and Stamm",
+      "Value": "quis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 18
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "nihil",
-  "Sentiment": 217,
-  "SentimentConfidence": 115,
+  "Important": false,
+  "Language": "nemo",
+  "Sentiment": 218,
+  "SentimentConfidence": 443,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 245,
-      "Name": "Heller LLC",
-      "ContentType": "voluptatum",
-      "AttSize": 748,
+      "AttachmentId": 189,
+      "Name": "Murphy-Ortiz",
+      "ContentType": "sed",
+      "AttSize": 813,
       "InlineImage": true,
-      "ContentId": "alias",
-      "AuthKey": "corporis",
+      "ContentId": "minus",
+      "AuthKey": "repudiandae",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldType": "System.Int32",
+          "FieldLength": 811
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "et",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "sunt"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 871
     }
   }
 }

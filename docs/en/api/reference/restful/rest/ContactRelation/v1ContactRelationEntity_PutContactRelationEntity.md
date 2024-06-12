@@ -118,24 +118,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 885,
-  "SourcePersonId": 939,
-  "DestinationContactId": 124,
-  "DestinationPersonId": 712,
-  "RelationId": 57,
-  "Comment": "voluptas",
-  "RelationDefinitionId": 346,
-  "Reversed": 523,
-  "UpdatedDate": "1997-08-12T12:57:42.3076631+02:00",
-  "CreatedDate": "2004-06-05T12:57:42.3076631+02:00",
+  "SourceContactId": 210,
+  "SourcePersonId": 207,
+  "DestinationContactId": 266,
+  "DestinationPersonId": 537,
+  "RelationId": 978,
+  "Comment": "fugit",
+  "RelationDefinitionId": 806,
+  "Reversed": 676,
+  "UpdatedDate": "1999-11-02T04:22:34.8589991+01:00",
+  "CreatedDate": "2018-11-13T04:22:34.8589991+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Collier Group",
-  "SourcePersonName": "Heathcote-Kassulke",
-  "DestinationContactName": "Ward, Kemmer and Legros",
-  "DestinationPersonName": "Harvey LLC",
-  "ActiveText": "voluptatum",
-  "PassiveText": "non"
+  "SourceContactName": "Jerde, Lakin and Murphy",
+  "SourcePersonName": "Huel-Raynor",
+  "DestinationContactName": "Stroman, Olson and Kozey",
+  "DestinationPersonName": "Kassulke LLC",
+  "ActiveText": "quis",
+  "PassiveText": "facilis"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 924,
-  "SourcePersonId": 343,
-  "DestinationContactId": 810,
-  "DestinationPersonId": 5,
-  "RelationId": 880,
-  "Comment": "nemo",
-  "RelationDefinitionId": 590,
-  "Reversed": 144,
-  "UpdatedDate": "2000-03-28T12:57:42.3232848+02:00",
-  "CreatedDate": "2020-07-07T12:57:42.3232848+02:00",
+  "SourceContactId": 216,
+  "SourcePersonId": 291,
+  "DestinationContactId": 430,
+  "DestinationPersonId": 476,
+  "RelationId": 967,
+  "Comment": "similique",
+  "RelationDefinitionId": 774,
+  "Reversed": 240,
+  "UpdatedDate": "2000-08-05T04:22:34.8589991+02:00",
+  "CreatedDate": "2020-12-23T04:22:34.8589991+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Skiles Group",
-  "SourcePersonName": "Heathcote Group",
-  "DestinationContactName": "Strosin LLC",
-  "DestinationPersonName": "Gislason LLC",
-  "ActiveText": "alias",
-  "PassiveText": "eveniet",
+  "SourceContactName": "Block LLC",
+  "SourcePersonName": "Kling-Keebler",
+  "DestinationContactName": "Herman, Medhurst and Pfeffer",
+  "DestinationPersonName": "Feil, Cormier and Mante",
+  "ActiveText": "debitis",
+  "PassiveText": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 173
     }
   },
   "_Links": {

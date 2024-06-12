@@ -531,9 +531,9 @@ items:
   - name: Archive provider reference
     href: archive-providers/reference/toc.yml
     topicHref: archive-providers/reference/index.md
-  - name: MDO providers
+  - name: MDO provider reference
+    href: mdo-providers/reference/toc.yml
     topicHref: mdo-providers/reference/index.md
-    href: mdo-providers/toc.yml
   - name: OData Search in WebApi
     href: search/odata/index.md
     items:

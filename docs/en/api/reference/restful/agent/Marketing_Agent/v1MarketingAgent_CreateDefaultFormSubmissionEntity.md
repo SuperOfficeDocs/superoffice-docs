@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 558,
-  "FormId": 188,
-  "WhenSubmitted": "2011-07-19T12:57:34.2429559+02:00",
-  "ContactId": 544,
-  "PersonId": 346,
-  "EmailAddress": "tremaine@wymanhansen.uk",
-  "ResponseShipmentAddrId": 225,
-  "Response": "voluptatem",
+  "FormSubmissionId": 264,
+  "FormId": 747,
+  "WhenSubmitted": "2005-09-17T04:22:27.0653754+02:00",
+  "ContactId": 478,
+  "PersonId": 620,
+  "EmailAddress": "breana@welchratke.us",
+  "ResponseShipmentAddrId": 557,
+  "Response": "ea",
   "Status": "EmailVerification",
-  "ProcessingLog": "aliquam",
+  "ProcessingLog": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 814
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 533,
-    "ColumnId": 577,
-    "FieldDefault": "sapiente",
-    "FieldHeight": 260,
-    "FieldLabel": "dicta",
-    "FieldLeft": 886,
-    "FieldTop": 651,
+    "UDefFieldId": 9,
+    "ColumnId": 402,
+    "FieldDefault": "maiores",
+    "FieldHeight": 184,
+    "FieldLabel": "quis",
+    "FieldLeft": 440,
+    "FieldTop": 268,
     "FieldType": "Checkbox",
-    "FieldWidth": 131,
-    "FormatMask": "qui",
+    "FieldWidth": 808,
+    "FormatMask": "ut",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 733,
-    "LabelLeft": 418,
-    "LabelTop": 943,
-    "LabelWidth": 42,
-    "LastVersionId": 125,
-    "ListTableId": 577,
+    "IsIndexed": false,
+    "LabelHeight": 532,
+    "LabelLeft": 67,
+    "LabelTop": 971,
+    "LabelWidth": 63,
+    "LastVersionId": 927,
+    "ListTableId": 129,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 786,
-    "ProgId": "ut",
+    "Page1LineNo": 476,
+    "ProgId": "itaque",
     "IsReadOnly": false,
-    "ShortLabel": "iure",
-    "TabOrder": 372,
-    "TextLength": 783,
-    "Tooltip": "pariatur",
-    "UdefIdentity": 25,
-    "UDListDefinitionId": 738,
+    "ShortLabel": "molestiae",
+    "TabOrder": 230,
+    "TextLength": 776,
+    "Tooltip": "illum",
+    "UdefIdentity": 41,
+    "UDListDefinitionId": 711,
     "Justification": "Center",
-    "Version": 649,
-    "TemplateVariableName": "McGlynn, D'Amore and Osinski",
-    "HasBeenPublished": false,
-    "MdoListName": "Thiel Group",
+    "Version": 190,
+    "TemplateVariableName": "Johnston-Anderson",
+    "HasBeenPublished": true,
+    "MdoListName": "Schuster-Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldLength": 351
       }
     }
   }

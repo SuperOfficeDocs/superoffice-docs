@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 191
+  "Count": 785
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Carter, Senger and Reinger",
-    "SaleDate": "1999-07-14T12:57:34.8688339+02:00",
-    "SaleId": 32,
-    "Probability": 463,
-    "Title": "earum",
-    "Amount": 5390.48,
-    "Currency": "quam",
-    "ProjectName": "Schultz, Schumm and Kling",
-    "AssociateFullName": "Macy Padberg",
-    "Description": "Optimized full-range approach",
+    "ContactName": "Roob, Gutkowski and Sanford",
+    "SaleDate": "2016-03-06T04:22:27.5492747+01:00",
+    "SaleId": 54,
+    "Probability": 978,
+    "Title": "porro",
+    "Amount": 586.058,
+    "Currency": "at",
+    "ProjectName": "Boyer Inc and Sons",
+    "AssociateFullName": "Jarrell Mohr",
+    "Description": "Proactive 5th generation model",
     "Status": "Lost",
-    "WeightedAmount": 16509.912,
-    "ProjectId": 309,
-    "EarningPercent": 26952.399999999998,
-    "Earning": 6672.286,
-    "ContactId": 18,
-    "AssociateId": 631,
-    "PersonId": 171,
-    "SaleTypeId": 696,
-    "SaleTypeName": "Quitzon, Walter and Hills",
-    "PersonFullName": "Alicia Pollich",
+    "WeightedAmount": 1983.822,
+    "ProjectId": 661,
+    "EarningPercent": 28719.976,
+    "Earning": 19684.654,
+    "ContactId": 742,
+    "AssociateId": 900,
+    "PersonId": 329,
+    "SaleTypeId": 338,
+    "SaleTypeName": "Strosin-Metz",
+    "PersonFullName": "Reanna Padberg IV",
     "Completed": "Completed",
-    "ActiveErpLinks": 883,
-    "NextDueDate": "2014-07-09T12:57:34.8688339+02:00",
-    "Number": "546164",
+    "ActiveErpLinks": 697,
+    "NextDueDate": "2012-01-30T04:22:27.5492747+01:00",
+    "Number": "1604750",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

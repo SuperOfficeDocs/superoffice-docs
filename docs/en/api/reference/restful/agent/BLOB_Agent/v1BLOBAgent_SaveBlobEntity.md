@@ -91,19 +91,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 201,
-  "BlobSize": 853,
-  "Description": "Extended human-resource conglomeration",
-  "ExtraInfo": "voluptates",
+  "BlobId": 623,
+  "BlobSize": 524,
+  "Description": "Managed 6th generation process improvement",
+  "ExtraInfo": "qui",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "eveniet",
-  "OriginalSize": 525,
-  "CreatedDate": "2009-04-18T12:57:33.2743944+02:00",
-  "UpdatedDate": "2002-06-29T12:57:33.2743944+02:00",
+  "MimeType": "omnis",
+  "OriginalSize": 263,
+  "CreatedDate": "2018-10-20T04:22:26.0122232+02:00",
+  "UpdatedDate": "2020-06-27T04:22:26.0122232+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut"
+  "ConceptualType": "assumenda"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 498,
-  "BlobSize": 202,
-  "Description": "Reduced empowering customer loyalty",
-  "ExtraInfo": "quaerat",
+  "BlobId": 591,
+  "BlobSize": 120,
+  "Description": "Progressive multimedia collaboration",
+  "ExtraInfo": "adipisci",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 801,
-  "CreatedDate": "2015-04-06T12:57:33.2743944+02:00",
-  "UpdatedDate": "2004-05-23T12:57:33.2743944+02:00",
+  "MimeType": "quos",
+  "OriginalSize": 819,
+  "CreatedDate": "2013-01-11T04:22:26.0122232+01:00",
+  "UpdatedDate": "2013-03-04T04:22:26.0122232+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

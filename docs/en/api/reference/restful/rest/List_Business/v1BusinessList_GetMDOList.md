@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=qui
+GET /api/v1/List/Business/MDOItems?query=minus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 455,
-    "Name": "Fahey, Hilpert and Mante",
-    "ToolTip": "Veritatis quis delectus.",
-    "Deleted": true,
-    "Rank": 666,
-    "Type": "tempora",
+    "Id": 841,
+    "Name": "Stroman Group",
+    "ToolTip": "Reprehenderit omnis soluta ea ut asperiores.",
+    "Deleted": false,
+    "Rank": 395,
+    "Type": "ab",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Luettgen-Windler",
-        "ToolTip": "Eligendi a placeat atque consequuntur vel cupiditate.",
+        "Id": 291,
+        "Name": "Heathcote-Graham",
+        "ToolTip": "Voluptate amet occaecati repellendus perspiciatis perspiciatis.",
         "Deleted": false,
-        "Rank": 806,
-        "Type": "ex",
+        "Rank": 973,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 998,
-        "ExtraInfo": "modi",
-        "StyleHint": "molestias",
-        "FullName": "Mrs. Oda Kiehn",
+        "IconHint": "optio",
+        "ColorBlock": 913,
+        "ExtraInfo": "explicabo",
+        "StyleHint": "voluptas",
+        "FullName": "Trevion Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 621
+            "FieldType": "System.String",
+            "FieldLength": 650
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 930,
-    "ExtraInfo": "sed",
-    "StyleHint": "ipsam",
-    "FullName": "Camryn Dibbert",
+    "IconHint": "velit",
+    "ColorBlock": 810,
+    "ExtraInfo": "aut",
+    "StyleHint": "omnis",
+    "FullName": "Shanna Murphy V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldType": "System.String",
+        "FieldLength": 418
       }
     }
   }

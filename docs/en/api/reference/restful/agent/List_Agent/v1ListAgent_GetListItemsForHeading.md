@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 874,
-  "HeadingId": 24
+  "UdListDefinitionId": 405,
+  "HeadingId": 29
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Stroman Group",
-    "ToolTip": "Qui expedita magni et.",
+    "Id": 667,
+    "Name": "Douglas, Breitenberg and Heller",
+    "ToolTip": "Et dolorem qui recusandae pariatur.",
     "Deleted": true,
-    "Rank": 127,
-    "Type": "voluptatibus",
-    "ColorBlock": 977,
-    "IconHint": "voluptas",
+    "Rank": 893,
+    "Type": "impedit",
+    "ColorBlock": 677,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2001-06-10T12:57:34.1648498+02:00",
+    "LastChanged": "2024-01-09T04:22:26.9848795+01:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Heaney, Braun and Wyman",
-        "ToolTip": "Illum qui in suscipit error.",
+        "Id": 369,
+        "Name": "Block LLC",
+        "ToolTip": "Omnis officiis qui harum esse sint.",
         "Deleted": false,
-        "Rank": 221,
-        "Type": "odio",
-        "ColorBlock": 529,
-        "IconHint": "et",
+        "Rank": 754,
+        "Type": "aut",
+        "ColorBlock": 130,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2015-08-26T12:57:34.1648498+02:00",
+        "LastChanged": "2022-05-02T04:22:26.9848795+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "ea",
+        "ExtraInfo": "et",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Bianka Brakus",
+        "FullName": "Elyssa Heidenreich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldType": "System.String",
+            "FieldLength": 534
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "ad",
-    "Hidden": true,
-    "FullName": "Jarrett Jenkins",
+    "ExtraInfo": "alias",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Hardy Conn I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 588
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 482,
-  "Section": "consectetur",
-  "Key": "consequuntur",
-  "Name": "Davis, Gerhold and Barton",
+  "PrefDescId": 790,
+  "Section": "eos",
+  "Key": "officia",
+  "Name": "Breitenberg, Witting and White",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual multimedia implementation",
-  "IsBuiltin": false,
-  "TableName": "Cummings Inc and Sons",
-  "UserDefinedListId": 599,
-  "Rank": 274,
-  "SubGroup": "quasi",
-  "MinLevel": 376,
-  "MaxValue": 944,
-  "MinValue": 750,
-  "RequiredLicense": "sint",
+  "Description": "Face to face content-based Graphic Interface",
+  "IsBuiltin": true,
+  "TableName": "Lueilwitz, Goldner and Rutherford",
+  "UserDefinedListId": 36,
+  "Rank": 692,
+  "SubGroup": "delectus",
+  "MinLevel": 238,
+  "MaxValue": 848,
+  "MinValue": 146,
+  "RequiredLicense": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldLength": 96
     }
   }
 }

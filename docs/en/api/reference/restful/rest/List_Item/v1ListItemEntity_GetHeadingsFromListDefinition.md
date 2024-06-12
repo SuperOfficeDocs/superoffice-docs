@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 673,
-    "Name": "Fahey, Ondricka and Breitenberg",
-    "Tooltip": "saepe",
+    "HeadingId": 11,
+    "Name": "Schoen-Jast",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 878,
-    "UdListDefinitionId": 229,
+    "Rank": 284,
+    "UdListDefinitionId": 726,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 7
       }
     }
   }

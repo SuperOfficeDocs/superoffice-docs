@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 365,
-  "EMailAddress": "repudiandae",
-  "AssociateId": 146,
+  "EMailAccountId": 382,
+  "EMailAddress": "quasi",
+  "AssociateId": 77,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 878,
-  "ErrorCount": 365,
+  "AccountStatus": 406,
+  "ErrorCount": 586,
   "ErrorReason": "",
-  "InboxFolder": "quasi",
-  "SentFolder": "enim",
+  "InboxFolder": "totam",
+  "SentFolder": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 337
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 769,
-  "Name": "Kreiger-Lubowitz",
-  "Tooltip": "impedit",
+  "HeadingId": 855,
+  "Name": "O'Connell-Grady",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 781,
-  "UdListDefinitionId": 890
+  "Rank": 869,
+  "UdListDefinitionId": 570
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 861,
-  "Name": "Terry, Armstrong and Watsica",
-  "Tooltip": "perspiciatis",
+  "HeadingId": 231,
+  "Name": "O'Conner, Tromp and Larkin",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 933,
-  "UdListDefinitionId": 572,
+  "Rank": 529,
+  "UdListDefinitionId": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 948
     }
   }
 }

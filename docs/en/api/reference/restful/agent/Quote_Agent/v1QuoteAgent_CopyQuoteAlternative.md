@@ -101,9 +101,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 121,
-  "QuoteAlternativeId": 199,
-  "QuoteAlternativeName": "Berge, Rowe and Huel"
+  "QuoteVersionId": 352,
+  "QuoteAlternativeId": 544,
+  "QuoteAlternativeName": "Ondricka-Welch"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 409,
-  "ERPQuoteAlternativeKey": "dolorem",
-  "QuoteVersionId": 990,
-  "Name": "Maggio LLC",
-  "Description": "Networked foreground core",
+  "QuoteAlternativeId": 197,
+  "ERPQuoteAlternativeKey": "autem",
+  "QuoteVersionId": 25,
+  "Name": "Yundt-Collier",
+  "Description": "Pre-emptive full-range paradigm",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2977.2999999999997,
-  "ERPDiscountAmount": 269.524,
-  "DiscountPercent": 15199.9,
-  "DiscountAmount": 27206.254,
+  "ERPDiscountPercent": 11138.235999999999,
+  "ERPDiscountAmount": 24156.872,
+  "DiscountPercent": 3137.134,
+  "DiscountAmount": 5895.054,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "minima",
-  "VAT": 24460.87,
-  "EarningPercent": 25808.489999999998,
-  "EarningAmount": 5591.056,
-  "SubTotal": 23304.424,
-  "TotalPrice": 27265.8,
-  "ExtraField1": "deleniti",
-  "ExtraField2": "rerum",
-  "ExtraField3": "accusamus",
-  "ExtraField4": "totam",
-  "ExtraField5": "nihil",
+  "VATInfo": "vero",
+  "VAT": 14413.266,
+  "EarningPercent": 4365.662,
+  "EarningAmount": 26476.032,
+  "SubTotal": 20631.122,
+  "TotalPrice": 7123.5819999999994,
+  "ExtraField1": "accusamus",
+  "ExtraField2": "non",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "est",
+  "ExtraField5": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   }
 }

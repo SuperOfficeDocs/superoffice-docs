@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 280,
-  "ColumnId": 173,
-  "FieldDefault": "ea",
-  "FieldHeight": 989,
-  "FieldLabel": "aut",
-  "FieldLeft": 812,
-  "FieldTop": 111,
+  "UDefFieldId": 507,
+  "ColumnId": 976,
+  "FieldDefault": "qui",
+  "FieldHeight": 449,
+  "FieldLabel": "delectus",
+  "FieldLeft": 99,
+  "FieldTop": 656,
   "FieldType": "Checkbox",
-  "FieldWidth": 684,
-  "FormatMask": "ea",
-  "HideLabel": true,
+  "FieldWidth": 758,
+  "FormatMask": "harum",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 442,
-  "LabelLeft": 434,
-  "LabelTop": 848,
-  "LabelWidth": 621,
-  "LastVersionId": 963,
-  "ListTableId": 444,
+  "LabelHeight": 46,
+  "LabelLeft": 308,
+  "LabelTop": 524,
+  "LabelWidth": 75,
+  "LastVersionId": 930,
+  "ListTableId": 47,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 756,
-  "ProgId": "ipsam",
-  "IsReadOnly": true,
-  "ShortLabel": "totam",
-  "TabOrder": 763,
-  "TextLength": 942,
-  "Tooltip": "porro",
-  "UdefIdentity": 135,
-  "UDListDefinitionId": 418,
+  "Page1LineNo": 693,
+  "ProgId": "neque",
+  "IsReadOnly": false,
+  "ShortLabel": "id",
+  "TabOrder": 110,
+  "TextLength": 254,
+  "Tooltip": "tempora",
+  "UdefIdentity": 591,
+  "UDListDefinitionId": 975,
   "Justification": "Center",
-  "Version": 734,
-  "TemplateVariableName": "Gerhold LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Gaylord, Rutherford and Bayer",
+  "Version": 890,
+  "TemplateVariableName": "Ryan, Quitzon and McGlynn",
+  "HasBeenPublished": true,
+  "MdoListName": "Medhurst Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

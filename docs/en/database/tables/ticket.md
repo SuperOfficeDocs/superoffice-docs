@@ -73,6 +73,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |sentiment|The sentiment index of the last external message|Int|&#x25CF;|
 |sentimentConfidence|The sentiment confidence of the last external message|Int|&#x25CF;|
 |form\_submission\_id|If this ticket was created from a form submission, this field will point to that record|FK [form_submission](form-submission.md)|&#x25CF;|
+|created\_by\_workflow\_id|The workflow this request/ticket was created by|FK [workflow](workflow.md)|&#x25CF;|
 |suggestedCategory\_id|Suggestion for categorization, based on the text of the message (AI)|FK [ej_category](ej-category.md)| |
 |origHumanCategory\_id|Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category|FK [ej_category](ej-category.md)| |
 |sale\_id|Reference to sale table|FK [sale](sale.md)|&#x25CF;|
@@ -109,6 +110,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |dbi\_last\_syncronized |DateTime |Index |
 |dbi\_last\_modified |DateTime |Index |
 |tags |FKArray |Full text |
+|created\_by\_workflow\_id |FK |Index |
 |ticket\_type |FK |Index |
 
 ## Relationships
@@ -140,6 +142,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 |[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
 |[ticket\_type](ticket-type.md)  |A ticket (request) type |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 
 
 ## Replication Flags

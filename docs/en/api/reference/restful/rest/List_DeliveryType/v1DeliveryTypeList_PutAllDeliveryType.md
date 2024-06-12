@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Heathcote, Wisoky and Orn",
-    "Tooltip": "non",
-    "Deleted": false,
-    "UdListDefinitionId": 833,
-    "Rank": 752
+    "Id": 938,
+    "Name": "Keeling-Moen",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "UdListDefinitionId": 879,
+    "Rank": 203
   },
   {
-    "Id": 431,
-    "Name": "Heathcote, Wisoky and Orn",
-    "Tooltip": "non",
-    "Deleted": false,
-    "UdListDefinitionId": 833,
-    "Rank": 752
+    "Id": 938,
+    "Name": "Keeling-Moen",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "UdListDefinitionId": 879,
+    "Rank": 203
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Crooks LLC",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 208,
-    "Rank": 781,
+    "Id": 790,
+    "Name": "Quigley-O'Hara",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "UdListDefinitionId": 637,
+    "Rank": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 97
       }
     }
   }

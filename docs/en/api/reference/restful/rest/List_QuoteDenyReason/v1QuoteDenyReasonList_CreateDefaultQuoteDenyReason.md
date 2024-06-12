@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 92,
-  "Name": "Huel Group",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 210,
-  "Rank": 176,
+  "Id": 595,
+  "Name": "Adams Inc and Sons",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "UdListDefinitionId": 762,
+  "Rank": 935,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   }
 }

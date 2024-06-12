@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 971,
-  "PersonName": "Balistreri Group",
+  "ContactId": 877,
+  "PersonName": "Morar LLC",
   "PhoneNumbers": [
-    "1162658",
-    "1448873"
+    "1344534",
+    "497251"
   ],
   "Emails": [
-    "antone.homenick@fay.com",
-    "adelle_larkin@pollichorn.name"
+    "lexi@carter.ca",
+    "idella_schultz@sipesyost.us"
   ]
 }
 ```
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 170
+      "FieldType": "System.Int32",
+      "FieldLength": 35
     }
   }
 }

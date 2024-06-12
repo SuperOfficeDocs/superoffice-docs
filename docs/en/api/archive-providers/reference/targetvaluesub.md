@@ -283,7 +283,7 @@ Archive of TargetValue - used by .
 |contact/contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contact/contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
 |contact/contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
-|contact/contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - Updated by flow: Updated by flow| x |
+|contact/contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - When updated by flow: When updated by flow| x |
 |contact/contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
 |contact/contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
 |contact/contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
@@ -402,7 +402,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=associate/simultaneousEjUser,contact/restrictionPostalAddress/city,contact/contactSupportPerson/isStakeholder
+GET /api/v1/archive/TargetValueSub?$select=contact/contactSupportAssociate/isActiveText,contact/contactSupportPerson/supportAssociate,contact/contactSupportPerson/hasStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

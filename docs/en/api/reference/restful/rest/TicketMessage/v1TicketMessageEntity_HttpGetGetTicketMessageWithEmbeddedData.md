@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 411,
+  "EjMessageId": 515,
   "Ticket": null,
-  "CreatedAt": "2019-04-19T12:57:43.0579981+02:00",
+  "CreatedAt": "2021-07-18T04:22:35.5803553+02:00",
   "CreatedBy": null,
-  "Author": "ad",
+  "Author": "at",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "temporibus",
-  "TimeSpent": 237,
-  "Body": "illo",
-  "HtmlBody": "aliquid",
-  "EmailHeader": "deion.hagenes@thiel.info",
-  "DebugInfo": "est",
-  "MailSorter": "dignissimos",
+  "MessageId": "quasi",
+  "TimeSpent": 418,
+  "Body": "voluptatem",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "randall@spinka.info",
+  "DebugInfo": "eius",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "expedita",
+  "SearchTitle": "accusamus",
   "MessageHeaders": [
     {
-      "Id": 122,
-      "Name": "Beatty-Bosco",
-      "Value": "qui",
+      "Id": 564,
+      "Name": "Kiehn-Bernhard",
+      "Value": "saepe",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 536
+          "FieldLength": 103
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "harum",
-  "Sentiment": 217,
-  "SentimentConfidence": 788,
+  "Important": true,
+  "Language": "sint",
+  "Sentiment": 4,
+  "SentimentConfidence": 792,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 386,
-      "Name": "Huels Inc and Sons",
-      "ContentType": "sunt",
-      "AttSize": 849,
-      "InlineImage": false,
-      "ContentId": "quidem",
-      "AuthKey": "ut",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 682,
+      "Name": "Reynolds-Lockman",
+      "ContentType": "magni",
+      "AttSize": 516,
+      "InlineImage": true,
+      "ContentId": "dolores",
+      "AuthKey": "eos",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldType": "System.Int32",
+          "FieldLength": 185
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "error"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 90
     }
   }
 }

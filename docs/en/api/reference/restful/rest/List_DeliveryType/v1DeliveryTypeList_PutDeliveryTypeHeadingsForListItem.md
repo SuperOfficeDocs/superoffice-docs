@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Hirthe, Pollich and Bradtke",
-    "ToolTip": "Dicta provident aspernatur aut debitis architecto.",
+    "Id": 454,
+    "Name": "Christiansen-Lesch",
+    "ToolTip": "Placeat minus aut fuga magnam.",
     "Deleted": true,
-    "Rank": 66,
-    "Type": "ea",
-    "ColorBlock": 447,
-    "IconHint": "qui",
+    "Rank": 32,
+    "Type": "beatae",
+    "ColorBlock": 996,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2009-04-06T12:57:43.4645538+02:00",
+    "LastChanged": "2024-03-20T04:22:35.9403427+01:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Mayert LLC",
-        "ToolTip": "Nisi qui.",
+        "Id": 258,
+        "Name": "Marks-Ferry",
+        "ToolTip": "Voluptatibus alias sit quia ullam aut eveniet sit.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "aut",
-        "ColorBlock": 235,
-        "IconHint": "ratione",
+        "Rank": 347,
+        "Type": "odio",
+        "ColorBlock": 986,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2008-10-02T12:57:43.4645538+02:00",
+        "LastChanged": "2011-10-12T04:22:35.9403427+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Emmalee Kertzmann"
+        "ExtraInfo": "sequi",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Mrs. Alvera Margarett Murazik DVM"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "commodi",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Duncan Muller"
+    "FullName": "Elton Beatty Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 458,
-    "Name": "Dickens, Weber and Marquardt",
-    "ToolTip": "Veniam molestiae explicabo occaecati suscipit sed est.",
-    "Deleted": true,
-    "Rank": 577,
-    "Type": "quia",
-    "ColorBlock": 183,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "1998-08-29T12:57:43.4645538+02:00",
+    "Id": 141,
+    "Name": "Huels-Effertz",
+    "ToolTip": "Sint vel facilis aperiam.",
+    "Deleted": false,
+    "Rank": 159,
+    "Type": "explicabo",
+    "ColorBlock": 28,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2022-04-22T04:22:35.9403427+02:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "O'Keefe Group",
-        "ToolTip": "Et non voluptates cumque.",
-        "Deleted": true,
-        "Rank": 995,
-        "Type": "nostrum",
-        "ColorBlock": 838,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2022-03-10T12:57:43.4645538+01:00",
+        "Id": 457,
+        "Name": "Cormier, Adams and Champlin",
+        "ToolTip": "Repellat et iure beatae sint necessitatibus.",
+        "Deleted": false,
+        "Rank": 475,
+        "Type": "enim",
+        "ColorBlock": 589,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2014-12-08T04:22:35.9403427+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Ashley Weimann",
+        "FullName": "Pearlie Beahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldType": "System.String",
+            "FieldLength": 928
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "non",
+    "ExtraInfo": "maiores",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Harley Waelchi IV",
+    "FullName": "Mariam Hermann V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

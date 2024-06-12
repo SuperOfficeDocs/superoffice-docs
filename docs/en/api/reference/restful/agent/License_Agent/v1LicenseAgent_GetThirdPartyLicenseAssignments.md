@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 281,
-  "ModuleOwner": "est"
+  "AssociateId": 313,
+  "ModuleOwner": "tempore"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 462,
-    "Tooltip": "vero",
+    "Total": 555,
+    "Tooltip": "nihil",
     "CanAssign": false,
-    "Free": 814,
-    "InUse": 485,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 349,
-    "Name": "Gusikowski, Roob and Beer",
-    "Description": "Re-contextualized empowering hardware",
-    "PrerequisiteModuleName": "Emard Inc and Sons",
-    "SortOrder": 25,
-    "ExtraFlags": 396,
+    "Free": 223,
+    "InUse": 432,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 242,
+    "Name": "Smitham Group",
+    "Description": "Stand-alone zero defect utilisation",
+    "PrerequisiteModuleName": "Dickens-McGlynn",
+    "SortOrder": 886,
+    "ExtraFlags": 275,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 298
       }
     }
   }

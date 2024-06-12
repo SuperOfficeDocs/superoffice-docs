@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 878,
+  "AssociateId": 293,
   "Type": "AnonymousAssociate",
-  "PersonId": 106,
-  "UserName": "Feeney, Mueller and Koch"
+  "PersonId": 511,
+  "UserName": "Mraz-Ward"
 }
 ```
 
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldLength": 323
     }
   }
 }

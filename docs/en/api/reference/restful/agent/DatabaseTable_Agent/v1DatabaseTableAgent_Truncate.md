@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Welch-Wunsch"
+  "TableName": "Dibbert, Kulas and Rutherford"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "qui",
-  "Inserts": 787,
-  "Updates": 936,
-  "Deletes": 707,
+  "Message": "voluptatibus",
+  "Inserts": 330,
+  "Updates": 360,
+  "Deletes": 295,
   "RowStatus": [
     {
-      "PrimaryKey": 43,
+      "PrimaryKey": 525,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "natus",
-        "eum"
+        "ullam",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 37
         }
       }
     },
     {
-      "PrimaryKey": 43,
+      "PrimaryKey": 525,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "natus",
-        "eum"
+        "ullam",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 37
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 669
     }
   }
 }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 750,
-    "Name": "Borer-Koelpin",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "Rank": 568,
-    "UdListDefinitionId": 400,
+    "HeadingId": 99,
+    "Name": "Leannon, Corkery and Jenkins",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 85,
+    "UdListDefinitionId": 739,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   }

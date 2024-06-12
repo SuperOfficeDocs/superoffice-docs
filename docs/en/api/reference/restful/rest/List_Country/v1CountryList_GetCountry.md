@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 411,
-  "Name": "King, Osinski and Abbott",
-  "CurrencyId": 894,
-  "EnglishName": "Lang, Friesen and Hackett",
+  "CountryId": 252,
+  "Name": "Schmidt, Fahey and White",
+  "CurrencyId": 529,
+  "EnglishName": "Kohler, Pfeffer and Zemlak",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Profit-focused attitude-oriented contingency",
-  "OrgNrText": "818621",
-  "InterAreaPrefix": "rerum",
-  "DialInPrefix": "mollitia",
-  "ZipPrefix": "error",
-  "DomainName": "Romaguera LLC",
-  "AddressLayoutId": 910,
-  "DomesticAddressLayoutId": 630,
-  "ForeignAddressLayoutId": 781,
-  "Rank": 97,
-  "Tooltip": "sit",
+  "ImageDescription": "Enhanced content-based task-force",
+  "OrgNrText": "1410482",
+  "InterAreaPrefix": "molestiae",
+  "DialInPrefix": "fuga",
+  "ZipPrefix": "eius",
+  "DomainName": "Shanahan, Rippin and Volkman",
+  "AddressLayoutId": 98,
+  "DomesticAddressLayoutId": 408,
+  "ForeignAddressLayoutId": 541,
+  "Rank": 525,
+  "Tooltip": "doloremque",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 319
     }
   }
 }

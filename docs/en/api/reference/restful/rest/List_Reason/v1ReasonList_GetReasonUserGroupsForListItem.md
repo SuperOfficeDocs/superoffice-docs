@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Gleason, Becker and Franecki",
-    "ToolTip": "Cumque minus ut perferendis.",
+    "Id": 482,
+    "Name": "Hamill LLC",
+    "ToolTip": "Ut ut sint consequatur quaerat aut dolorem.",
     "Deleted": false,
-    "Rank": 612,
-    "Type": "et",
-    "ColorBlock": 382,
-    "IconHint": "eaque",
-    "Selected": true,
-    "LastChanged": "2004-04-04T12:57:43.6988788+02:00",
+    "Rank": 729,
+    "Type": "ut",
+    "ColorBlock": 198,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2021-10-27T04:22:36.1434668+02:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Feest, Zieme and Hartmann",
-        "ToolTip": "Ad est.",
-        "Deleted": false,
-        "Rank": 130,
-        "Type": "quisquam",
-        "ColorBlock": 711,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2001-06-05T12:57:43.6988788+02:00",
+        "Id": 560,
+        "Name": "Christiansen, Morissette and Mertz",
+        "ToolTip": "Nihil neque inventore est eum ipsam sequi.",
+        "Deleted": true,
+        "Rank": 315,
+        "Type": "quia",
+        "ColorBlock": 588,
+        "IconHint": "maiores",
+        "Selected": false,
+        "LastChanged": "2013-06-10T04:22:36.1434668+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Miss Felton Imogene Pfeffer PhD",
+        "ExtraInfo": "qui",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Martin Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 194
+            "FieldLength": 941
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "sequi",
-    "Hidden": true,
-    "FullName": "Laury Schoen",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Linwood Gerhard Collins PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

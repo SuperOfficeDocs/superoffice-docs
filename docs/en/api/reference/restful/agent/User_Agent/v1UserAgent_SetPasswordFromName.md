@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Balistreri-Kertzmann",
-  "Password": "consequuntur"
+  "AssociateName": "Goodwin LLC",
+  "Password": "odit"
 }
 ```
 

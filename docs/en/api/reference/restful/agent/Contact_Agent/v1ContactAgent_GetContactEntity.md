@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=3
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=685
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 412,
-  "Name": "Labadie, Halvorson and Ratke",
+  "ContactId": 933,
+  "Name": "Ratke, Toy and Brakus",
   "Department": "",
-  "OrgNr": "1078283",
-  "Number1": "882334",
-  "Number2": "1424246",
-  "UpdatedDate": "2001-10-17T12:57:33.5087192+02:00",
-  "CreatedDate": "2010-11-10T12:57:33.5087192+01:00",
+  "OrgNr": "1063170",
+  "Number1": "1428779",
+  "Number2": "1040742",
+  "UpdatedDate": "2010-02-28T04:22:26.2153105+01:00",
+  "CreatedDate": "2002-08-05T04:22:26.2153105+02:00",
   "Emails": [
     {
-      "Value": "voluptate",
-      "StrippedValue": "esse",
-      "Description": "Mandatory mobile system engine",
+      "Value": "nesciunt",
+      "StrippedValue": "voluptas",
+      "Description": "Horizontal homogeneous superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldLength": 697
         }
       }
     },
     {
-      "Value": "voluptate",
-      "StrippedValue": "esse",
-      "Description": "Mandatory mobile system engine",
+      "Value": "nesciunt",
+      "StrippedValue": "voluptas",
+      "Description": "Horizontal homogeneous superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldLength": 697
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 285,
-      "Name": "Runolfsson, Cruickshank and Gleason",
-      "ToolTip": "Quos est quis natus animi veniam modi molestiae.",
-      "Deleted": true,
-      "Rank": 755,
-      "Type": "enim",
-      "ColorBlock": 127,
-      "IconHint": "ut",
+      "Id": 695,
+      "Name": "Langosh Group",
+      "ToolTip": "Aut quas eum eveniet non.",
+      "Deleted": false,
+      "Rank": 679,
+      "Type": "rem",
+      "ColorBlock": 234,
+      "IconHint": "nihil",
       "Selected": false,
-      "LastChanged": "2014-09-18T12:57:33.5087192+02:00",
+      "LastChanged": "2003-09-26T04:22:26.2153105+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestiae",
-      "StyleHint": "illum",
-      "Hidden": false,
-      "FullName": "Mrs. Rose Erna Cassin",
+      "ExtraInfo": "dolores",
+      "StyleHint": "ratione",
+      "Hidden": true,
+      "FullName": "Moshe Hudson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldType": "System.String",
+          "FieldLength": 259
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "praesentium",
-      "StrippedValue": "atque",
-      "Description": "Function-based system-worthy methodology",
+      "Value": "est",
+      "StrippedValue": "esse",
+      "Description": "Fully-configurable needs-based attitude",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     },
     {
-      "Value": "praesentium",
-      "StrippedValue": "atque",
-      "Description": "Function-based system-worthy methodology",
+      "Value": "est",
+      "StrippedValue": "esse",
+      "Description": "Fully-configurable needs-based attitude",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "blanditiis",
-      "StrippedValue": "quo",
-      "Description": "Networked tertiary application",
+      "Value": "porro",
+      "StrippedValue": "qui",
+      "Description": "Customizable heuristic knowledge user",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 971
         }
       }
     },
     {
-      "Value": "blanditiis",
-      "StrippedValue": "quo",
-      "Description": "Networked tertiary application",
+      "Value": "porro",
+      "StrippedValue": "qui",
+      "Description": "Customizable heuristic knowledge user",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 971
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "corporis",
-      "StrippedValue": "pariatur",
-      "Description": "Configurable tangible paradigm",
+      "Value": "nihil",
+      "StrippedValue": "repellat",
+      "Description": "Realigned responsive encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldType": "System.String",
+          "FieldLength": 501
         }
       }
     },
     {
-      "Value": "corporis",
-      "StrippedValue": "pariatur",
-      "Description": "Configurable tangible paradigm",
+      "Value": "nihil",
+      "StrippedValue": "repellat",
+      "Description": "Realigned responsive encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldType": "System.String",
+          "FieldLength": 501
         }
       }
     }
   ],
-  "Description": "Visionary modular application",
+  "Description": "Multi-tiered asynchronous database",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "atque",
-      "PersonId": 887,
-      "Mrmrs": "qui",
-      "Firstname": "Mary",
-      "Lastname": "Rogahn",
-      "MiddleName": "Hudson Group",
-      "Title": "saepe",
-      "Description": "Expanded scalable implementation",
-      "Email": "scottie@bashirian.com",
-      "FullName": "Tremayne Hintz",
-      "DirectPhone": "1-756-673-6158",
-      "FormalName": "Bernhard-Bechtelar",
-      "CountryId": 242,
-      "ContactId": 641,
-      "ContactName": "Barrows, Stracke and Gutmann",
-      "Retired": 234,
-      "Rank": 505,
-      "ActiveInterests": 626,
+      "Position": "non",
+      "PersonId": 723,
+      "Mrmrs": "dolores",
+      "Firstname": "Kyra",
+      "Lastname": "Kemmer",
+      "MiddleName": "Friesen, Gorczany and Erdman",
+      "Title": "sapiente",
+      "Description": "Open-source 3rd generation function",
+      "Email": "flavie@herman.name",
+      "FullName": "Arely Abshire",
+      "DirectPhone": "(408)437-2067",
+      "FormalName": "Steuber-Bayer",
+      "CountryId": 174,
+      "ContactId": 330,
+      "ContactName": "Wehner-Heidenreich",
+      "Retired": 516,
+      "Rank": 10,
+      "ActiveInterests": 777,
       "ContactDepartment": "",
-      "ContactCountryId": 959,
-      "ContactOrgNr": "666299",
-      "FaxPhone": "(139)665-5936 x2963",
-      "MobilePhone": "328-335-5422 x73991",
-      "ContactPhone": "1-951-940-8681 x2093",
-      "AssociateName": "Herzog-Marquardt",
-      "AssociateId": 376,
+      "ContactCountryId": 759,
+      "ContactOrgNr": "1500945",
+      "FaxPhone": "453-622-2548 x72674",
+      "MobilePhone": "463-738-7273 x950",
+      "ContactPhone": "159.042.4871",
+      "AssociateName": "Tremblay, Prohaska and Beatty",
+      "AssociateId": 878,
       "UsePersonAddress": false,
-      "ContactFax": "nesciunt",
-      "Kanafname": "repudiandae",
-      "Kanalname": "ex",
-      "Post1": "adipisci",
-      "Post2": "enim",
-      "Post3": "sint",
-      "EmailName": "jerrell@rippin.us",
-      "ContactFullName": "Judy Macejkovic",
-      "ActiveErpLinks": 82,
-      "TicketPriorityId": 822,
-      "SupportLanguageId": 160,
-      "SupportAssociateId": 352,
+      "ContactFax": "debitis",
+      "Kanafname": "velit",
+      "Kanalname": "esse",
+      "Post1": "sed",
+      "Post2": "itaque",
+      "Post3": "eum",
+      "EmailName": "mozell_bernier@hackett.ca",
+      "ContactFullName": "Lavern Yesenia Hickle I",
+      "ActiveErpLinks": 410,
+      "TicketPriorityId": 230,
+      "SupportLanguageId": 686,
+      "SupportAssociateId": 197,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "ex",
+  "NoMailing": false,
+  "Kananame": "aut",
   "Xstop": false,
-  "ActiveInterests": 534,
-  "GroupId": 870,
-  "ActiveStatusMonitorId": 671,
+  "ActiveInterests": 383,
+  "GroupId": 266,
+  "ActiveStatusMonitorId": 433,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 817,
-  "DbiAgentId": 402,
-  "DbiLastSyncronized": "1999-03-10T12:57:33.5087192+01:00",
-  "DbiKey": "officia",
-  "DbiLastModified": "1997-01-07T12:57:33.5087192+01:00",
+  "Deleted": 685,
+  "DbiAgentId": 871,
+  "DbiLastSyncronized": "1997-01-30T04:22:26.2153105+01:00",
+  "DbiKey": "sapiente",
+  "DbiLastModified": "2010-04-08T04:22:26.2153105+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 313,
-  "ActiveErpLinks": 256,
+  "Source": 756,
+  "ActiveErpLinks": 800,
   "BounceEmails": [
-    "carmella.turcotte@mullereffertz.biz",
-    "peter_lueilwitz@pfeffer.com"
+    "boyd_von@schimmel.us",
+    "marcus.kunde@streich.us"
   ],
   "Domains": [
-    "quibusdam",
-    "architecto"
+    "ut",
+    "itaque"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Mariane Lakin Sr.",
-    "SuperOffice:2": "Prof. Alexander Joe Graham V"
+    "SuperOffice:1": "Ms. Dayne Rigoberto Jones",
+    "SuperOffice:2": "Tyrel Kautzer"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "similique"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "doloribus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 596
     }
   }
 }

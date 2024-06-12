@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lueilwitz Group",
-  "AdditionalInfo": "voluptatum",
+  "Name": "Walsh, Raynor and Rolfson",
+  "AdditionalInfo": "molestiae",
   "SelectableMDOList": [
     {
-      "Id": 62,
-      "Name": "Conn-Hartmann",
-      "ToolTip": "Qui ea laborum.",
+      "Id": 743,
+      "Name": "Ferry, Sanford and Hauck",
+      "ToolTip": "Qui eaque occaecati aspernatur ut.",
       "Deleted": false,
-      "Rank": 729,
-      "Type": "placeat",
-      "ColorBlock": 541,
-      "IconHint": "id",
-      "Selected": false,
-      "LastChanged": "2017-05-08T12:57:34.3835501+02:00",
+      "Rank": 704,
+      "Type": "laboriosam",
+      "ColorBlock": 987,
+      "IconHint": "unde",
+      "Selected": true,
+      "LastChanged": "2006-01-29T04:22:27.0810055+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "quod",
+      "ExtraInfo": "omnis",
+      "StyleHint": "eaque",
       "Hidden": false,
-      "FullName": "Ms. Kay Jarret Bashirian II"
+      "FullName": "Mrs. Angeline Stiedemann III"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Wiegand-Cummings",
-    "ToolTip": "Consequatur assumenda.",
+    "Id": 832,
+    "Name": "Murray, Wiegand and O'Kon",
+    "ToolTip": "Quidem expedita et.",
     "Deleted": false,
-    "Rank": 976,
-    "Type": "ipsa",
-    "ColorBlock": 131,
-    "IconHint": "provident",
+    "Rank": 629,
+    "Type": "esse",
+    "ColorBlock": 590,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2019-09-28T12:57:34.3835501+02:00",
+    "LastChanged": "1999-07-14T04:22:27.0966232+02:00",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Turner LLC",
-        "ToolTip": "Omnis in occaecati molestias.",
-        "Deleted": true,
-        "Rank": 327,
-        "Type": "beatae",
-        "ColorBlock": 343,
-        "IconHint": "nihil",
+        "Id": 985,
+        "Name": "Kunde-Weimann",
+        "ToolTip": "Ut voluptate enim qui quasi est.",
+        "Deleted": false,
+        "Rank": 729,
+        "Type": "placeat",
+        "ColorBlock": 985,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2003-04-12T12:57:34.3835501+02:00",
+        "LastChanged": "2006-06-25T04:22:27.0966232+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "nihil",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Mrs. Garland Cormier IV",
+        "FullName": "Miss Kayden Wyatt Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 979
+            "FieldLength": 3
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "amet",
-    "Hidden": false,
-    "FullName": "Mr. Loyal Ortiz",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Mrs. Claude Hilpert Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldLength": 974
       }
     }
   }

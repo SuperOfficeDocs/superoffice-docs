@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 389,
-  "Name": "Grant-Satterfield",
-  "Tooltip": "asperiores",
-  "Rank": 504,
+  "SaleTypeId": 460,
+  "Name": "Mohr-Ondricka",
+  "Tooltip": "aliquid",
+  "Rank": 565,
   "DurationUnit": "Century",
-  "SaleDuration": 193,
-  "SaleTypeCatId": 430,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 129,
+  "SaleTypeCatId": 301,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 798,
-  "QuoteLinesTemplate": 832,
-  "ConfirmationLinesTemplate": 720,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 215,
+  "QuoteLinesTemplate": 849,
+  "ConfirmationLinesTemplate": 12,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 460,
-  "MinEarningPercent": 491,
-  "GroupQuoteLinesBy": 40,
-  "SortGroupLinesBy": 38,
+  "MaxDiscountPercent": 765,
+  "MinEarningPercent": 330,
+  "GroupQuoteLinesBy": 455,
+  "SortGroupLinesBy": 203,
   "Stages": [
     {
-      "Id": 179,
-      "Name": "Homenick Inc and Sons",
-      "ToolTip": "Aliquid modi quo ipsam nobis.",
-      "Deleted": true,
-      "Rank": 562,
-      "Type": "dolorum",
-      "ColorBlock": 832,
-      "IconHint": "maiores",
-      "Selected": true,
-      "LastChanged": "2024-01-25T12:57:34.2117122+01:00",
+      "Id": 896,
+      "Name": "Schuster, Olson and Jacobson",
+      "ToolTip": "Nihil voluptatum minus praesentium sequi similique sit dicta.",
+      "Deleted": false,
+      "Rank": 450,
+      "Type": "at",
+      "ColorBlock": 762,
+      "IconHint": "non",
+      "Selected": false,
+      "LastChanged": "2023-01-08T04:22:27.0329423+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "explicabo",
-      "StyleHint": "perspiciatis",
+      "ExtraInfo": "nihil",
+      "StyleHint": "corrupti",
       "Hidden": false,
-      "FullName": "Madonna Harvey",
+      "FullName": "Myles Runolfsdottir",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 653
+          "FieldLength": 371
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 29
     }
   }
 }

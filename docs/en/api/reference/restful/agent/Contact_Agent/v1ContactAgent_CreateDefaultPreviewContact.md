@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 935,
-  "Name": "Corwin, Goyette and Wisoky",
+  "ContactId": 959,
+  "Name": "Ankunding Inc and Sons",
   "Department": "",
-  "CountryId": 342,
-  "Number2": "922618",
-  "DirectPhone": "1-632-196-1364",
+  "CountryId": 4,
+  "Number2": "943748",
+  "DirectPhone": "1-634-936-0733 x7640",
   "URL": "http://www.example.com/",
-  "EmailAddress": "krystal_pfannerstill@marks.ca",
+  "EmailAddress": "laura.mante@gutkowski.info",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Ms. Celia Larkin",
+  "AssociateFullName": "Leopold Grant",
   "Address": null
 }
 ```

@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 723,
-  "Name": "Corkery, Satterfield and Haley",
-  "Tooltip": "neque",
-  "PassiveText": "itaque",
+  "ReldefId": 464,
+  "Name": "Dietrich-Bosco",
+  "Tooltip": "laudantium",
+  "PassiveText": "eveniet",
   "Deleted": false,
-  "Rank": 271,
+  "Rank": 686,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 711
     }
   },
   "_Links": {

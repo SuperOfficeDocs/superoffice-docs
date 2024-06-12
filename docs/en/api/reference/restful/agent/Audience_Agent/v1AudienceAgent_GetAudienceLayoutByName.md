@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hackett LLC"
+  "LayoutName": "Mills Group"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 598,
-  "InstanceLayout": "occaecati",
-  "InstanceName": "Reichel-Howell",
-  "CreatedDate": "2002-03-13T12:57:33.2598311+01:00",
-  "UpdatedDate": "2003-12-15T12:57:33.2598311+01:00",
+  "AudienceLayoutId": 690,
+  "InstanceLayout": "sint",
+  "InstanceName": "Rosenbaum, Keeling and Green",
+  "CreatedDate": "2020-01-18T04:22:25.9965968+01:00",
+  "UpdatedDate": "1999-03-02T04:22:25.9965968+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldLength": 799
     }
   }
 }

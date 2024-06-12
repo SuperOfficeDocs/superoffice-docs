@@ -82,7 +82,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/messageLanguage|listAny|Request - Language: Recognized language in messages|  |
 |ticket/sentimentScore|listAny|Request - Sentiment: Sentiment score, -100 to +100|  |
 |ticket/suggestedCategory|listAny|Request - Suggested category: Suggested service category|  |
-|ticket/createdByWorkflow|listAny|Request - Created by workflow: Created by workflow| x |
+|ticket/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
 |ticket/createdBy/firstName|string|Request - Created by - First name: Displays the contact's first name| x |
 |ticket/createdBy/lastName|string|Request - Created by - Last name: Displays the contact's last name| x |
 |ticket/createdBy/middleName|string|Request - Created by - Middle Name: Displays the contact's middle name.| x |
@@ -199,7 +199,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/isProjectMember|bool|Request - Is project member: This person is a project member| x |
 |ticket/person/isStakeholder|bool|Request - Is stakeholder: This person is a sale stakeholder| x |
 |ticket/person/updatedByWorkflow|listAny|Request - Updated by flow: Updated by flow| x |
-|ticket/person/whenUpdatedByWorkflow|datetime|Request - Updated by flow: Updated by flow| x |
+|ticket/person/whenUpdatedByWorkflow|datetime|Request - When updated by flow: When updated by flow| x |
 |ticket/person/createdByForm|listAny|Request - Created by form: Created by form| x |
 |ticket/person/phone/formattedNumber|string|Request - Phone: Displays phone number|  |
 |ticket/person/personDirectPhone/formattedNumber|string|Request - Direct - Phone: Displays phone number|  |
@@ -610,7 +610,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
 |ticket/sale/description|string|Request - Description: The long description field on Sale|  |
 |ticket/sale/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
-|ticket/sale/createdByWorkflow|listAny|Request - Created by workflow: Created by workflow| x |
+|ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
 |ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
 |ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
@@ -813,13 +813,13 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=getNoRows,ticket/content,ticket/person/restrictionAddress/formattedAddress,ticket/person/personExtra/x_person_longtext,ticket/contact/NumberOfNotCompletedSales
+GET /api/v1/archive/TicketMessage?$select=ticket/categoryFullName,ticket/origin,ticket/content,ticket/ownedBy/isActiveText,ticket/ownedBy/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 968,
-  "Name": "Durgan, Klocko and Schamberger",
-  "Tooltip": "veritatis",
+  "Id": 384,
+  "Name": "Schuster, McDermott and Roberts",
+  "Tooltip": "expedita",
   "Deleted": true,
-  "Rank": 495,
+  "Rank": 929,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Cassin Group",
-  "Tooltip": "quibusdam",
-  "Deleted": false,
-  "Rank": 721,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 533,
+  "Name": "Pagac-Gutkowski",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 559,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false,
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 278
     }
   }
 }

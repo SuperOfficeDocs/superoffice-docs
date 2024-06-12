@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 951,
-  "LeadDescription": "Implemented coherent Graphical User Interface",
-  "Relation": "omnis",
-  "RelationId": 956,
-  "LeadContact": "optio",
-  "LeadPersonFirstname": "Camylle",
-  "LeadPersonLastname": "Ankunding",
-  "LeadPersonEmail": "eve@lebsack.info",
-  "LeadPhoneNumber": "1230326",
-  "CreatorsContact": "ullam",
-  "CreatorsFirstname": "Angelica",
-  "CreatorsLastname": "Donnelly"
+  "AssociateIdForNewContact": 839,
+  "LeadDescription": "Up-sized 4th generation data-warehouse",
+  "Relation": "eius",
+  "RelationId": 994,
+  "LeadContact": "aliquid",
+  "LeadPersonFirstname": "Jakayla",
+  "LeadPersonLastname": "O'Reilly",
+  "LeadPersonEmail": "abbie_towne@dooley.info",
+  "LeadPhoneNumber": "1501179",
+  "CreatorsContact": "nisi",
+  "CreatorsFirstname": "Madalyn",
+  "CreatorsLastname": "Koepp"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 237,
-      "Name": "Konopelski-Gorczany",
-      "OrgNr": "598294",
+      "ContactId": 585,
+      "Name": "Jewess, Okuneva and Kihn",
+      "OrgNr": "541949",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "adipisci",
-      "DirectPhone": "028-125-5487",
-      "AssociateId": 646,
-      "CountryId": 633,
-      "EmailAddress": "brooke@feilsawayn.com",
-      "Kananame": "illum",
-      "EmailAddressName": "liliane@quigley.name",
+      "City": "non",
+      "DirectPhone": "(576)406-4177 x7923",
+      "AssociateId": 223,
+      "CountryId": 30,
+      "EmailAddress": "sharon@vonruedenschaden.biz",
+      "Kananame": "qui",
+      "EmailAddressName": "darion@parker.co.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Prof. Rebeca Howe",
+      "AssociateFullName": "Ms. Zakary Hudson IV",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "doloremque",
-      "FullName": "Mr. Amara Lindgren",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 743,
-      "Number1": "1082042",
-      "Number2": "1422237",
+      "FormattedAddress": "quis",
+      "FullName": "Ms. Sabina Jazmyne Muller",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 856,
+      "Number1": "564447",
+      "Number2": "1148211",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldLength": 681
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

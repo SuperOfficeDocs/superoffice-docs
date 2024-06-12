@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 238,
-  "WorkflowId": 646,
+  "WorkflowGoalId": 960,
+  "WorkflowId": 298,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Yundt Inc and Sons",
-      "Description": "Virtual explicit utilisation",
-      "Rank": 375,
+      "Name": "Runolfsdottir-Schmidt",
+      "Description": "Face to face methodical neural-net",
+      "Rank": 561,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Yundt Inc and Sons",
-      "Description": "Virtual explicit utilisation",
-      "Rank": 375,
+      "Name": "Runolfsdottir-Schmidt",
+      "Description": "Face to face methodical neural-net",
+      "Rank": 561,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 57,
-  "WorkflowId": 875,
+  "WorkflowGoalId": 664,
+  "WorkflowId": 523,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Parker-Rau",
-      "Description": "Multi-layered uniform product",
-      "Rank": 451,
+      "Name": "Watsica, Hahn and Corkery",
+      "Description": "Ameliorated bi-directional encoding",
+      "Rank": 304,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Parker-Rau",
-      "Description": "Multi-layered uniform product",
-      "Rank": 451,
+      "Name": "Watsica, Hahn and Corkery",
+      "Description": "Ameliorated bi-directional encoding",
+      "Rank": 304,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldLength": 601
     }
   }
 }

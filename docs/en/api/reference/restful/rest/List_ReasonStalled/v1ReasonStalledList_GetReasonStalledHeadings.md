@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 194,
-    "Name": "Yost, Cormier and VonRueden",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "Rank": 619,
-    "UdListDefinitionId": 769,
+    "HeadingId": 550,
+    "Name": "Conn-Bechtelar",
+    "Tooltip": "nobis",
+    "Deleted": false,
+    "Rank": 618,
+    "UdListDefinitionId": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldType": "System.Int32",
+        "FieldLength": 324
       }
     }
   }

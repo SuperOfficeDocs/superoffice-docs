@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 547,
-  "Name": "Graham-Bauch",
-  "Tooltip": "molestias",
-  "Rank": 523,
+  "SaleTypeId": 470,
+  "Name": "Nitzsche-Langworth",
+  "Tooltip": "eveniet",
+  "Rank": 189,
   "DurationUnit": "Century",
-  "SaleDuration": 663,
-  "SaleTypeCatId": 773,
-  "Deleted": false,
+  "SaleDuration": 842,
+  "SaleTypeCatId": 687,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 150,
-  "QuoteLinesTemplate": 386,
-  "ConfirmationLinesTemplate": 586,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 401,
+  "QuoteLinesTemplate": 183,
+  "ConfirmationLinesTemplate": 136,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 826,
-  "MinEarningPercent": 382,
-  "GroupQuoteLinesBy": 681,
-  "SortGroupLinesBy": 759,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 988,
+  "MinEarningPercent": 226,
+  "GroupQuoteLinesBy": 49,
+  "SortGroupLinesBy": 547,
   "Stages": [
     {
-      "Id": 825,
-      "Name": "Skiles-Sipes",
-      "ToolTip": "Optio nulla ad nemo molestias voluptas.",
+      "Id": 496,
+      "Name": "Stamm-Donnelly",
+      "ToolTip": "Sed repellat autem facere non natus iusto.",
       "Deleted": false,
-      "Rank": 970,
-      "Type": "tenetur",
-      "ColorBlock": 254,
-      "IconHint": "dolorem",
+      "Rank": 43,
+      "Type": "et",
+      "ColorBlock": 716,
+      "IconHint": "labore",
       "Selected": false,
-      "LastChanged": "2020-06-10T12:57:43.730118+02:00",
+      "LastChanged": "1997-11-09T04:22:36.1903389+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illum",
-      "StyleHint": "ut",
+      "ExtraInfo": "qui",
+      "StyleHint": "tempora",
       "Hidden": false,
-      "FullName": "Miss Karolann Predovic I",
+      "FullName": "Dorthy Heller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 345
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 108
     }
   }
 }

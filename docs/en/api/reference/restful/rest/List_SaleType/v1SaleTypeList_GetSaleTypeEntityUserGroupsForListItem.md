@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Ruecker-Schmidt",
-    "ToolTip": "Maxime aliquid mollitia itaque suscipit.",
+    "Id": 796,
+    "Name": "Weimann, Tremblay and Parker",
+    "ToolTip": "Quo vero ipsam voluptatem qui nisi voluptate dolorem.",
     "Deleted": false,
-    "Rank": 744,
-    "Type": "fuga",
-    "ColorBlock": 600,
-    "IconHint": "est",
+    "Rank": 965,
+    "Type": "animi",
+    "ColorBlock": 315,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2009-04-18T12:57:43.7457393+02:00",
+    "LastChanged": "2015-04-14T04:22:36.1903389+02:00",
     "ChildItems": [
       {
-        "Id": 786,
-        "Name": "Torphy Group",
-        "ToolTip": "Enim non itaque qui.",
+        "Id": 425,
+        "Name": "Bogisich, Hartmann and Bednar",
+        "ToolTip": "Sed et fugit totam.",
         "Deleted": true,
-        "Rank": 504,
-        "Type": "sit",
-        "ColorBlock": 708,
-        "IconHint": "praesentium",
+        "Rank": 219,
+        "Type": "nesciunt",
+        "ColorBlock": 468,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "1999-03-04T12:57:43.7457393+01:00",
+        "LastChanged": "2006-09-07T04:22:36.1903389+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "expedita",
-        "Hidden": true,
-        "FullName": "Ms. Rhiannon O'Reilly PhD",
+        "ExtraInfo": "quia",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Tara Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 152
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Prof. Viola Emely Kilback Jr.",
+    "ExtraInfo": "iure",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Edwina Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldType": "System.String",
+        "FieldLength": 969
       }
     }
   }

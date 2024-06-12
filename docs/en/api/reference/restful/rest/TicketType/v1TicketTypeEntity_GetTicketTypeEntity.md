@@ -99,43 +99,43 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 206,
-  "Name": "Rogahn, Halvorson and Fisher",
-  "Rank": 967,
-  "Tooltip": "ratione",
-  "Icon": "dolorum",
-  "DefaultTicketStatus": 609,
+  "TicketTypeId": 245,
+  "Name": "Kerluke Inc and Sons",
+  "Rank": 107,
+  "Tooltip": "pariatur",
+  "Icon": "optio",
+  "DefaultTicketStatus": 6,
   "TicketStatuses": [
-    763,
-    335
+    140,
+    925
   ],
-  "DefaultTicketPriority": 387,
+  "DefaultTicketPriority": 230,
   "TicketPriorities": [
-    459,
-    458
+    570,
+    704
   ],
-  "ReplyTemplate": 760,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 25,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    516,
-    399
+    951,
+    418
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 341
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

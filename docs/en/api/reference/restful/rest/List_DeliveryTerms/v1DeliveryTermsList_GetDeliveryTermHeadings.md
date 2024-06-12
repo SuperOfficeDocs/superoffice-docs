@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 969,
-    "Name": "Pollich-Kozey",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "Rank": 521,
-    "UdListDefinitionId": 231,
+    "HeadingId": 601,
+    "Name": "Lemke-Kreiger",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 652,
+    "UdListDefinitionId": 482,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldType": "System.String",
+        "FieldLength": 609
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kling, Rowe and Maggio",
-    "Description": "Networked tertiary process improvement",
-    "Rank": 211,
+    "Name": "Runolfsdottir, Kreiger and Paucek",
+    "Description": "Organic bifurcated budgetary management",
+    "Rank": 823,
     "Restrictions": [
       {
-        "Name": "Runolfsdottir-Miller",
-        "Operator": "culpa",
+        "Name": "Crooks-Erdman",
+        "Operator": "dignissimos",
         "Values": [
-          "aut",
-          "nobis"
+          "corrupti",
+          "odit"
         ],
         "DisplayValues": [
-          "inventore",
-          "libero"
+          "omnis",
+          "autem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 409,
+        "InterParenthesis": 1001,
         "InterOperator": "And",
-        "UniqueHash": 172
+        "UniqueHash": 384
       }
     ]
   },
   {
-    "Name": "Kling, Rowe and Maggio",
-    "Description": "Networked tertiary process improvement",
-    "Rank": 211,
+    "Name": "Runolfsdottir, Kreiger and Paucek",
+    "Description": "Organic bifurcated budgetary management",
+    "Rank": 823,
     "Restrictions": [
       {
-        "Name": "Runolfsdottir-Miller",
-        "Operator": "culpa",
+        "Name": "Crooks-Erdman",
+        "Operator": "dignissimos",
         "Values": [
-          "aut",
-          "nobis"
+          "corrupti",
+          "odit"
         ],
         "DisplayValues": [
-          "inventore",
-          "libero"
+          "omnis",
+          "autem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 409,
+        "InterParenthesis": 1001,
         "InterOperator": "And",
-        "UniqueHash": 172
+        "UniqueHash": 384
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rowe Inc and Sons",
-    "Description": "Open-source discrete framework",
-    "Rank": 995,
+    "Name": "Wintheiser-Ebert",
+    "Description": "Mandatory grid-enabled application",
+    "Rank": 72,
     "Restrictions": [
       {
-        "Name": "Kerluke, Dickinson and O'Keefe",
-        "Operator": "vero",
+        "Name": "Stark-Durgan",
+        "Operator": "cupiditate",
         "Values": [
-          "saepe",
-          "voluptas"
+          "ipsa",
+          "dolor"
         ],
         "DisplayValues": [
-          "minus",
-          "culpa"
+          "asperiores",
+          "explicabo"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 324,
+        "InterParenthesis": 471,
         "InterOperator": "And",
-        "UniqueHash": 71
+        "UniqueHash": 407
       }
     ]
   },
   {
-    "Name": "Rowe Inc and Sons",
-    "Description": "Open-source discrete framework",
-    "Rank": 995,
+    "Name": "Wintheiser-Ebert",
+    "Description": "Mandatory grid-enabled application",
+    "Rank": 72,
     "Restrictions": [
       {
-        "Name": "Kerluke, Dickinson and O'Keefe",
-        "Operator": "vero",
+        "Name": "Stark-Durgan",
+        "Operator": "cupiditate",
         "Values": [
-          "saepe",
-          "voluptas"
+          "ipsa",
+          "dolor"
         ],
         "DisplayValues": [
-          "minus",
-          "culpa"
+          "asperiores",
+          "explicabo"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 324,
+        "InterParenthesis": 471,
         "InterOperator": "And",
-        "UniqueHash": 71
+        "UniqueHash": 407
       }
     ]
   }

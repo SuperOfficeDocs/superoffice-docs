@@ -90,7 +90,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 952
+  "QuoteId": 521
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 322,
-  "SaleId": 189,
-  "QuoteConnectionId": 179,
-  "ERPQuoteKey": "earum",
-  "ERPOrderKey": "nihil",
-  "ActiveQuoteVersionId": 435,
-  "AcceptedQuoteAlternativeId": 256,
-  "UseValuesFromQuote": 18,
-  "DocumentId": 373,
-  "PoNumber": "1466694",
-  "OrderComment": "excepturi",
-  "PreferredEmailCulture": "alex.torp@wunsch.ca",
+  "QuoteId": 274,
+  "SaleId": 139,
+  "QuoteConnectionId": 536,
+  "ERPQuoteKey": "ea",
+  "ERPOrderKey": "sed",
+  "ActiveQuoteVersionId": 120,
+  "AcceptedQuoteAlternativeId": 161,
+  "UseValuesFromQuote": 724,
+  "DocumentId": 417,
+  "PoNumber": "1324542",
+  "OrderComment": "et",
+  "PreferredEmailCulture": "enid@bayer.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldLength": 647
     }
   }
 }

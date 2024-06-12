@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 870,
-      "UniqueId": "rem",
-      "Name": "Kohler-Terry",
-      "Description": "Optimized 6th generation website",
-      "AssociateId": 966,
-      "Columns": 79,
+      "DashboardId": 244,
+      "UniqueId": "vel",
+      "Name": "Bins LLC",
+      "Description": "Innovative mission-critical project",
+      "AssociateId": 259,
+      "Columns": 219,
       "Theme": null,
-      "VisibleForAll": 516,
+      "VisibleForAll": 597,
       "VisibleForAssociates": [
-        68,
-        327
+        193,
+        134
       ],
       "VisibleForGroups": [
-        807,
-        550
+        146,
+        218
       ],
-      "PinForAll": 657,
+      "PinForAll": 578,
       "PinForAssociates": [
-        982,
-        497
+        754,
+        581
       ],
       "PinForGroups": [
-        916,
-        511
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 848
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 19,
-      "UniqueId": "non",
-      "Name": "Swift, Osinski and Considine",
-      "Description": "Integrated discrete encryption",
-      "AssociateId": 436,
-      "Columns": 936,
-      "Theme": null,
-      "VisibleForAll": 152,
-      "VisibleForAssociates": [
-        177,
-        769
-      ],
-      "VisibleForGroups": [
-        679,
-        705
-      ],
-      "PinForAll": 649,
-      "PinForAssociates": [
-        766,
-        617
-      ],
-      "PinForGroups": [
-        532,
-        894
+        817,
+        930
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 859
+          "FieldLength": 343
         }
       }
     }
   ],
-  "Other": [
+  "Favourites": [
     {
-      "DashboardId": 601,
-      "UniqueId": "hic",
-      "Name": "Prohaska LLC",
-      "Description": "Self-enabling interactive success",
-      "AssociateId": 249,
-      "Columns": 71,
+      "DashboardId": 106,
+      "UniqueId": "cum",
+      "Name": "Swaniawski Group",
+      "Description": "Future-proofed bi-directional info-mediaries",
+      "AssociateId": 3,
+      "Columns": 693,
       "Theme": null,
-      "VisibleForAll": 664,
+      "VisibleForAll": 495,
       "VisibleForAssociates": [
-        18,
-        519
+        839,
+        825
       ],
       "VisibleForGroups": [
-        845,
-        588
+        216,
+        996
       ],
-      "PinForAll": 257,
+      "PinForAll": 6,
       "PinForAssociates": [
-        49,
-        310
+        337,
+        247
       ],
       "PinForGroups": [
-        610,
-        620
+        165,
+        494
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 707
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 668,
+      "UniqueId": "non",
+      "Name": "Zieme Group",
+      "Description": "Optimized coherent secured line",
+      "AssociateId": 391,
+      "Columns": 821,
+      "Theme": null,
+      "VisibleForAll": 159,
+      "VisibleForAssociates": [
+        270,
+        680
+      ],
+      "VisibleForGroups": [
+        188,
+        166
+      ],
+      "PinForAll": 835,
+      "PinForAssociates": [
+        993,
+        37
+      ],
+      "PinForGroups": [
+        120,
+        37
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 230
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

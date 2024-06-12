@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized tangible system engine",
-  "Postit": "quo",
+  "Description": "Customizable systematic knowledge user",
+  "Postit": "minus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 160,
-  "IncludePerson": 247,
+  "GroupIdx": 805,
+  "IncludePerson": 649,
   "MemberCount": 99.99,
-  "Name": "Franecki Group",
-  "PostitTextId": 644,
-  "CreatedDate": "2023-05-03T12:57:34.8989653+02:00",
-  "SelectionId": 206,
-  "SoundEx": "quas",
-  "Source": 735,
-  "TextId": 970,
-  "UpdatedDate": "2018-01-06T12:57:34.8989653+01:00",
-  "UpdatedCount": 804,
-  "Visibility": 900,
+  "Name": "Powlowski, Jast and Eichmann",
+  "PostitTextId": 703,
+  "CreatedDate": "2014-01-13T04:22:27.5805229+01:00",
+  "SelectionId": 726,
+  "SoundEx": "dolores",
+  "Source": 371,
+  "TextId": 426,
+  "UpdatedDate": "2004-10-22T04:22:27.5805229+02:00",
+  "UpdatedCount": 93,
+  "Visibility": 709,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 719,
-  "TargetTableName": "Fisher, Haley and Kirlin",
+  "CompanyUnique": false,
+  "TargetTableNumber": 788,
+  "TargetTableName": "Wolf Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 347,
-  "RightSelectionId": 764,
+  "LeftSelectionId": 88,
+  "RightSelectionId": 210,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Skiles-Nolan",
-  "ShadowProviderName": "Berge LLC",
-  "ChartKey": "nesciunt",
-  "LastLoaded": "2023-06-07T12:57:34.8989653+02:00",
-  "LastLoadedBy": 718,
+  "MainProviderName": "Johnson, Kemmer and Hauck",
+  "ShadowProviderName": "Gutmann, Leuschke and Howell",
+  "ChartKey": "molestias",
+  "LastLoaded": "2007-12-05T04:22:27.5805229+01:00",
+  "LastLoadedBy": 232,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-07-12T12:57:34.8989653+02:00",
-  "LastMembershipChangeBy": 73,
+  "LastMembershipChange": "2007-05-10T04:22:27.5805229+02:00",
+  "LastMembershipChangeBy": 275,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "nihil",
-  "MailingsProviderName": "Balistreri, Bergstrom and Schaefer",
-  "DashboardTileDefinitionId": 907,
+  "MainHeading": "enim",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Gerlach, Raynor and Marks",
+  "DashboardTileDefinitionId": 741,
   "VisibleFor": [
     {
-      "VisibleId": 609,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 723
         }
       }
     },
     {
-      "VisibleId": 609,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 723
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   }
 }

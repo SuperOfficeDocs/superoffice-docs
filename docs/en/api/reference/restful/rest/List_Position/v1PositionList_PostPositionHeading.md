@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 254,
-  "Name": "Upton, Smith and Yost",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 841,
-  "UdListDefinitionId": 850
+  "HeadingId": 587,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "iusto",
+  "Deleted": true,
+  "Rank": 170,
+  "UdListDefinitionId": 29
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 311,
-  "Name": "Johnson-Kerluke",
-  "Tooltip": "delectus",
+  "HeadingId": 538,
+  "Name": "Koch, Herman and Gusikowski",
+  "Tooltip": "officiis",
   "Deleted": true,
-  "Rank": 898,
-  "UdListDefinitionId": 641,
+  "Rank": 919,
+  "UdListDefinitionId": 623,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

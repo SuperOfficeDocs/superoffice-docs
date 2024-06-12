@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Beier Group",
-    "ToolTip": "Magni eos voluptatem debitis voluptatem.",
-    "Deleted": false,
-    "Rank": 430,
-    "Type": "vel",
-    "ColorBlock": 98,
-    "IconHint": "ad",
-    "Selected": false,
-    "LastChanged": "2013-12-10T12:57:43.5895249+01:00",
+    "Id": 395,
+    "Name": "Sawayn LLC",
+    "ToolTip": "Velit itaque eos.",
+    "Deleted": true,
+    "Rank": 128,
+    "Type": "eveniet",
+    "ColorBlock": 401,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2018-12-17T04:22:36.0497173+01:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Donnelly LLC",
-        "ToolTip": "Fuga mollitia esse alias velit blanditiis et.",
+        "Id": 167,
+        "Name": "Schumm Inc and Sons",
+        "ToolTip": "Et veritatis reprehenderit quaerat quisquam eos eius corrupti.",
         "Deleted": false,
-        "Rank": 75,
-        "Type": "beatae",
-        "ColorBlock": 447,
-        "IconHint": "soluta",
+        "Rank": 541,
+        "Type": "quia",
+        "ColorBlock": 95,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2011-11-10T12:57:43.5895249+01:00",
+        "LastChanged": "2014-01-29T04:22:36.0497173+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "totam",
+        "ExtraInfo": "quae",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Leo Cornell Dare I",
+        "FullName": "Prof. Hilario Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldType": "System.String",
+            "FieldLength": 533
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Michael Gibson",
+    "ExtraInfo": "velit",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Ms. Arthur Ella Stoltenberg DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 636
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   }

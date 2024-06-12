@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 635
+  "SelectionId": 713
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dibbert-Windler",
-    "Operator": "dolorem",
+    "Name": "Buckridge Inc and Sons",
+    "Operator": "qui",
     "Values": [
-      "est",
-      "quasi"
+      "in",
+      "inventore"
     ],
     "DisplayValues": [
-      "explicabo",
-      "voluptatem"
+      "ut",
+      "quae"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Mills, Smith and Daugherty",
-        "Operator": "dicta",
+        "Name": "Daugherty, Gibson and Frami",
+        "Operator": "ut",
         "Values": [
-          "saepe",
-          "dolore"
+          "et",
+          "est"
         ],
         "DisplayValues": [
-          "quia",
-          "aliquam"
+          "tempore",
+          "quas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 915,
+        "InterParenthesis": 596,
         "InterOperator": "And",
-        "UniqueHash": 895
+        "UniqueHash": 579
       }
     ],
-    "InterParenthesis": 63,
+    "InterParenthesis": 123,
     "InterOperator": "And",
-    "UniqueHash": 441
+    "UniqueHash": 89
   }
 ]
 ```

@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 242,
-    "AssociateId": 471,
-    "Block": "hic",
-    "Registered": "2001-01-09T12:57:42.807549+01:00",
-    "RegisteredAssociateId": 992,
-    "Updated": "1999-05-11T12:57:42.807549+02:00",
-    "UpdatedAssociateId": 352,
-    "UpdatedCount": 606,
+    "ShipmentMessageBlockId": 707,
+    "AssociateId": 321,
+    "Block": "in",
+    "Registered": "2010-04-01T04:22:35.4553554+02:00",
+    "RegisteredAssociateId": 645,
+    "Updated": "1997-03-06T04:22:35.4553554+01:00",
+    "UpdatedAssociateId": 925,
+    "UpdatedCount": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

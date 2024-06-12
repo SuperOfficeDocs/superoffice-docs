@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=786
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=542
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 592,
-  "ColumnId": 15,
-  "FieldDefault": "voluptates",
-  "FieldHeight": 81,
-  "FieldLabel": "quam",
-  "FieldLeft": 230,
-  "FieldTop": 302,
+  "UDefFieldId": 264,
+  "ColumnId": 129,
+  "FieldDefault": "illum",
+  "FieldHeight": 843,
+  "FieldLabel": "aut",
+  "FieldLeft": 4,
+  "FieldTop": 582,
   "FieldType": "Checkbox",
-  "FieldWidth": 542,
-  "FormatMask": "corrupti",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 822,
-  "LabelLeft": 655,
-  "LabelTop": 764,
-  "LabelWidth": 509,
-  "LastVersionId": 517,
-  "ListTableId": 597,
+  "FieldWidth": 582,
+  "FormatMask": "culpa",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 663,
+  "LabelLeft": 146,
+  "LabelTop": 940,
+  "LabelWidth": 854,
+  "LastVersionId": 44,
+  "ListTableId": 654,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 861,
-  "ProgId": "iusto",
+  "Page1LineNo": 96,
+  "ProgId": "enim",
   "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 972,
-  "TextLength": 35,
-  "Tooltip": "numquam",
-  "UdefIdentity": 284,
-  "UDListDefinitionId": 861,
+  "ShortLabel": "eum",
+  "TabOrder": 663,
+  "TextLength": 535,
+  "Tooltip": "officia",
+  "UdefIdentity": 290,
+  "UDListDefinitionId": 958,
   "Justification": "Center",
-  "Version": 989,
-  "TemplateVariableName": "Daniel, O'Connell and Grant",
+  "Version": 380,
+  "TemplateVariableName": "Hintz Group",
   "HasBeenPublished": true,
-  "MdoListName": "Feil LLC",
+  "MdoListName": "Graham-Johnson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 320,
-  "Name": "Mertz Inc and Sons",
-  "Tooltip": "vero",
+  "Id": 680,
+  "Name": "Prosacco, Frami and Rosenbaum",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 328,
-  "Rank": 865,
+  "UdListDefinitionId": 5,
+  "Rank": 816,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Sauer, Stanton and Kunde",
-    "DisplayName": "Hermann-Cronin",
-    "Description": "Programmable analyzing protocol",
-    "ShortLabel": "est",
+    "FieldName": "Kuhlman-Gaylord",
+    "DisplayName": "Pfeffer Group",
+    "Description": "Ergonomic disintermediate encoding",
+    "ShortLabel": "rem",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 183,
-    "TemplateVariableName": "Jacobs-Macejkovic"
+    "IsDisplayField": false,
+    "Rank": 959,
+    "TemplateVariableName": "Ratke LLC"
   }
 ]
 ```

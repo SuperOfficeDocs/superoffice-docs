@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Boehm-Kutch",
-    "ToolTip": "Quae ut et explicabo vel deserunt eligendi.",
+    "Id": 657,
+    "Name": "Bradtke, White and Aufderhar",
+    "ToolTip": "Ipsam est quo.",
     "Deleted": false,
-    "Rank": 515,
-    "Type": "ea",
-    "ColorBlock": 32,
-    "IconHint": "ipsa",
+    "Rank": 52,
+    "Type": "numquam",
+    "ColorBlock": 129,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2001-01-17T12:57:43.7926038+01:00",
+    "LastChanged": "2014-05-01T04:22:36.2372126+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Berge-Treutel",
-        "ToolTip": "Fuga suscipit nemo et id.",
+        "Id": 360,
+        "Name": "Mueller-Schmitt",
+        "ToolTip": "Quos nam fuga reprehenderit vero doloribus.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "quia",
-        "ColorBlock": 5,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2012-04-23T12:57:43.7926038+02:00",
+        "Rank": 29,
+        "Type": "sunt",
+        "ColorBlock": 596,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2008-04-08T04:22:36.2372126+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Dawson Bernier",
+        "ExtraInfo": "et",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Mollie Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldType": "System.String",
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Dr. Carolyne Pfeffer IV",
+    "ExtraInfo": "quia",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Dr. Raina Ritchie III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 963,
-  "Name": "Gusikowski-Ebert",
-  "Description": "Visionary bi-directional product",
-  "DeltaJson": "est",
+  "ConfigurableScreenDeltaId": 239,
+  "Name": "Corkery LLC",
+  "Description": "Cross-group intermediate initiative",
+  "DeltaJson": "dolorem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quam",
-  "UpdatedDate": "2016-07-23T12:57:33.4462335+02:00",
-  "CreatedDate": "1997-03-06T12:57:33.4462335+01:00",
+  "RecipeId": "perferendis",
+  "UpdatedDate": "2023-04-24T04:22:26.1684694+02:00",
+  "CreatedDate": "2000-09-20T04:22:26.1684694+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    80,
-    336
+    182,
+    503
   ],
-  "AppliesToKey": "quia",
+  "AppliesToKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 766
     }
   }
 }

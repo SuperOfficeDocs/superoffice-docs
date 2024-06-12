@@ -28,7 +28,7 @@ This table contains entries for the user sessions.
 |error\_message|Stores the last error message recorded on this session|String(255)|&#x25CF;|
 |authentication\_type|The authentication type (enum) for this session.|authentication_type|&#x25CF;|
 |active\_menu|The currently active (open) left-menu for this session.|Int|&#x25CF;|
-|ns\_secret|Netserver login secret.|String(255)|&#x25CF;|
+|ns\_secret|Netserver login secret.|String(2000)|&#x25CF;|
 |flags|Bitmask of flags for a service login session|Enum [LoginFlags](enums/loginflags.md)|&#x25CF;|
 
 

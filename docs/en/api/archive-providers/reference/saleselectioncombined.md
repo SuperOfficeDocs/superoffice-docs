@@ -72,7 +72,7 @@ Implementation of the provider for the combined selection
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -132,7 +132,7 @@ Implementation of the provider for the combined selection
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -561,7 +561,7 @@ Implementation of the provider for the combined selection
 |appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|appointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -857,7 +857,7 @@ Implementation of the provider for the combined selection
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
 |saleStakeholder/person/isStakeholder|bool|Stakeholder - Is stakeholder: This person is a sale stakeholder| x |
 |saleStakeholder/person/updatedByWorkflow|listAny|Stakeholder - Updated by flow: Updated by flow| x |
-|saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - Updated by flow: Updated by flow| x |
+|saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - When updated by flow: When updated by flow| x |
 |saleStakeholder/person/createdByForm|listAny|Stakeholder - Created by form: Created by form| x |
 |saleStakeholder/person/phone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
 |saleStakeholder/person/personDirectPhone/formattedNumber|string|Stakeholder - Direct - Phone: Displays phone number|  |
@@ -1307,7 +1307,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombined?$select=getNoRows,stalledComment,person/personAddress/formattedAddress,person/personUdef/SuperOffice:11,person/legalBaseStore
+GET /api/v1/archive/SaleSelectionCombined?$select=contact/country,contact/stop,contact/updatedBy,contact/contactAssociate/contactId,contact/contactAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

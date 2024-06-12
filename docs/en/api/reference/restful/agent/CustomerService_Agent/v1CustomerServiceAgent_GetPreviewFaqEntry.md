@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 836
+  "KbEntryId": 955
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "dolorum",
-  "RegisteredByFullName": "Brenden Baumbach Sr.",
-  "Updated": "2014-03-24T12:57:33.6336908+01:00",
-  "Question": "ut",
-  "Answer": "dolores",
+  "Title": "molestias",
+  "RegisteredByFullName": "Miss Leatha Schroeder",
+  "Updated": "2004-05-06T04:22:26.3415618+02:00",
+  "Question": "voluptas",
+  "Answer": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 735
     }
   }
 }

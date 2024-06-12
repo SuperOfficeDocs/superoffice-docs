@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 927,
+  "DocumentId": 785,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 203,
+  "DocumentId": 189,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eum",
-  "Header": "aut",
-  "Name": "Eichmann-Kertzmann",
-  "OurRef": "rerum",
-  "YourRef": "earum",
-  "CreatedDate": "2010-02-25T12:57:33.8367692+01:00",
-  "UpdatedDate": "2018-04-14T12:57:33.8367692+02:00",
-  "Description": "Face to face eco-centric hardware",
+  "Attention": "repellat",
+  "Header": "rem",
+  "Name": "Sipes LLC",
+  "OurRef": "quam",
+  "YourRef": "magni",
+  "CreatedDate": "2018-04-12T04:22:26.6553604+02:00",
+  "UpdatedDate": "2009-12-25T04:22:26.6553604+01:00",
+  "Description": "Devolved clear-thinking system engine",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-06-06T12:57:33.8367692+02:00",
-  "ExternalRef": "autem",
+  "Date": "2006-09-12T04:22:26.6553604+02:00",
+  "ExternalRef": "accusantium",
   "Completed": "Completed",
-  "ActiveLinks": 339,
+  "ActiveLinks": 304,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bergstrom-Donnelly",
-      "Id": 608,
-      "Description": "Realigned assymetric moratorium",
-      "ExtraInfo": "nesciunt",
-      "LinkId": 646,
+      "EntityName": "Sawayn-Lemke",
+      "Id": 873,
+      "Description": "Advanced multi-tasking framework",
+      "ExtraInfo": "officiis",
+      "LinkId": 1002,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 212
+          "FieldLength": 2
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 582,
-  "Snum": 935,
+  "SuggestedDocumentId": 6,
+  "Snum": 272,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ms. Frida Ullrich"
+    "SuperOffice:1": "Willy Pfannerstill V",
+    "SuperOffice:2": "Madalyn Goyette"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "qui"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "excepturi"
   },
-  "PublishEventDate": "2015-04-16T12:57:33.8367692+02:00",
-  "PublishTo": "2016-03-09T12:57:33.8367692+01:00",
-  "PublishFrom": "2002-10-25T12:57:33.8367692+02:00",
+  "PublishEventDate": "2019-07-06T04:22:26.6553604+02:00",
+  "PublishTo": "2014-12-13T04:22:26.6553604+01:00",
+  "PublishFrom": "2010-08-10T04:22:26.6553604+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 355,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldLength": 401
         }
       }
     },
     {
-      "VisibleId": 355,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldLength": 401
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 596
     }
   }
 }

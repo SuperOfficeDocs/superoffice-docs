@@ -92,7 +92,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 495
+  "ShipmentId": 447
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1998-06-12T12:57:34.2429559+02:00",
+  "StartDate": "1997-08-08T04:22:27.0653754+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 658,
-  "ShipmentDescription": "Mandatory 24 hour software",
-  "FromAddress": "molestias",
-  "Configuration": 680,
-  "PersonId": 558,
-  "PersonFullName": "Ms. Riley Laverna Kling",
-  "ShipmentType": "ipsam",
-  "MessageId": 528,
-  "MessageSubject": "aut",
-  "DocumentMessageId": 835,
-  "NumSent": 405,
-  "NumOpened": 269,
-  "NumBounced": 751,
-  "NumClicks": 620,
+  "ShipmentId": 238,
+  "ShipmentDescription": "Optional background protocol",
+  "FromAddress": "necessitatibus",
+  "Configuration": 486,
+  "PersonId": 341,
+  "PersonFullName": "Wava Hintz",
+  "ShipmentType": "nemo",
+  "MessageId": 431,
+  "MessageSubject": "est",
+  "DocumentMessageId": 30,
+  "NumSent": 844,
+  "NumOpened": 45,
+  "NumBounced": 653,
+  "NumClicks": 117,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   }
 }

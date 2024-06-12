@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Wunsch, Aufderhar and Klein",
-  "PersonId": 445
+  "ParameterName": "Considine, Cummerata and Mertz",
+  "PersonId": 25
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 492,
-  "Name": "Cassin-Ziemann",
-  "Value": "dolore",
-  "CreatedDate": "2006-04-28T12:57:33.2428569+02:00",
-  "UpdatedDate": "2023-04-09T12:57:33.2428569+02:00",
-  "CreatedBy": "vel",
-  "UpdatedBy": "nobis",
+  "AudienceLayoutId": 437,
+  "Name": "O'Kon Inc and Sons",
+  "Value": "aut",
+  "CreatedDate": "1997-02-10T04:22:25.9965968+01:00",
+  "UpdatedDate": "2017-10-04T04:22:25.9965968+02:00",
+  "CreatedBy": "quam",
+  "UpdatedBy": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 34
     }
   }
 }

@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 472,
+  "ChatSessionId": 224,
   "Message": null
 }
 ```
@@ -96,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 327,
-  "ChatSessionId": 302,
+  "ChatMessageId": 636,
+  "ChatSessionId": 525,
   "Type": "Invalid",
-  "Message": "nihil",
-  "Author": "non",
-  "ReadByCustomer": 645,
+  "Message": "et",
+  "Author": "distinctio",
+  "ReadByCustomer": 490,
   "SpecialType": "Block",
-  "SpecialParam": "aut",
-  "WhenPosted": "2019-02-24T12:57:33.4149905+01:00"
+  "SpecialParam": "nisi",
+  "WhenPosted": "2009-03-15T04:22:26.1372179+01:00"
 }
 ```

@@ -132,63 +132,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 323,
+  "EjMessageId": 736,
   "Ticket": null,
-  "CreatedAt": "2018-06-14T12:57:43.0579981+02:00",
+  "CreatedAt": "2016-08-18T04:22:35.5803553+02:00",
   "CreatedBy": null,
-  "Author": "voluptate",
+  "Author": "corporis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 628,
-  "Body": "nemo",
-  "HtmlBody": "error",
-  "EmailHeader": "katarina@schuppe.co.uk",
-  "DebugInfo": "minus",
-  "MailSorter": "minus",
+  "MessageId": "consectetur",
+  "TimeSpent": 475,
+  "Body": "harum",
+  "HtmlBody": "non",
+  "EmailHeader": "aiyana_abshire@renner.name",
+  "DebugInfo": "ut",
+  "MailSorter": "commodi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sit",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 103,
-      "Name": "Jacobs Inc and Sons",
-      "Value": "voluptatem",
+      "Id": 687,
+      "Name": "Gottlieb-Watsica",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 103,
-      "Name": "Jacobs Inc and Sons",
-      "Value": "voluptatem",
+      "Id": 687,
+      "Name": "Gottlieb-Watsica",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "sunt",
-  "Sentiment": 128,
-  "SentimentConfidence": 99,
+  "Language": "est",
+  "Sentiment": 189,
+  "SentimentConfidence": 455,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 647,
-      "Name": "Pollich LLC",
-      "ContentType": "odio",
-      "AttSize": 525,
+      "AttachmentId": 164,
+      "Name": "Kohler, Huel and Dach",
+      "ContentType": "omnis",
+      "AttSize": 308,
       "InlineImage": false,
-      "ContentId": "molestiae",
-      "AuthKey": "aut",
-      "IsSafeFileExtension": false
+      "ContentId": "voluptatem",
+      "AuthKey": "sint",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "est"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "architecto"
+    "CustomFields1": "ratione",
+    "CustomFields2": "maiores"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 952,
+  "EjMessageId": 521,
   "Ticket": null,
-  "CreatedAt": "2003-10-01T12:57:43.073587+02:00",
+  "CreatedAt": "2001-11-28T04:22:35.5803553+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolorem",
-  "TimeSpent": 162,
-  "Body": "corrupti",
-  "HtmlBody": "dolorem",
-  "EmailHeader": "nils_legros@stiedemann.ca",
-  "DebugInfo": "autem",
-  "MailSorter": "ipsum",
+  "MessageId": "et",
+  "TimeSpent": 931,
+  "Body": "quibusdam",
+  "HtmlBody": "et",
+  "EmailHeader": "rylee.strosin@sauer.us",
+  "DebugInfo": "vitae",
+  "MailSorter": "quis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "fugiat",
+  "SearchTitle": "itaque",
   "MessageHeaders": [
     {
-      "Id": 760,
-      "Name": "Fahey, Green and Sipes",
-      "Value": "repudiandae",
+      "Id": 840,
+      "Name": "Medhurst, Dare and Walsh",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 266
+          "FieldType": "System.Int32",
+          "FieldLength": 46
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "voluptatem",
-  "Sentiment": 703,
-  "SentimentConfidence": 719,
+  "Important": false,
+  "Language": "est",
+  "Sentiment": 214,
+  "SentimentConfidence": 889,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 153,
-      "Name": "Leannon-McCullough",
-      "ContentType": "voluptas",
-      "AttSize": 320,
+      "AttachmentId": 762,
+      "Name": "Krajcik-Senger",
+      "ContentType": "quia",
+      "AttSize": 113,
       "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "quos",
+      "ContentId": "neque",
+      "AuthKey": "blanditiis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldType": "System.String",
+          "FieldLength": 417
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "recusandae",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 515
     }
   }
 }

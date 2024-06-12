@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=sunt
+GET /api/v1/List/Position/MDOItems?query=tempore
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Marquardt-Kessler",
-    "ToolTip": "Velit dolorem explicabo est.",
+    "Id": 669,
+    "Name": "Schaefer-Blick",
+    "ToolTip": "Assumenda fugit qui aperiam quibusdam.",
     "Deleted": false,
-    "Rank": 34,
-    "Type": "non",
+    "Rank": 325,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 703,
-        "Name": "Kirlin, Cummings and Fritsch",
-        "ToolTip": "Ab occaecati.",
-        "Deleted": true,
-        "Rank": 397,
-        "Type": "est",
+        "Id": 325,
+        "Name": "Robel-Haag",
+        "ToolTip": "Et placeat delectus et nihil.",
+        "Deleted": false,
+        "Rank": 465,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nemo",
-        "ColorBlock": 214,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "voluptatem",
-        "FullName": "Dr. Riley Heidenreich MD",
+        "IconHint": "eos",
+        "ColorBlock": 106,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "totam",
+        "FullName": "Dr. Burdette Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 843
+            "FieldLength": 4
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 948,
-    "ExtraInfo": "amet",
-    "StyleHint": "excepturi",
-    "FullName": "Katheryn Jenkins",
+    "IconHint": "sunt",
+    "ColorBlock": 250,
+    "ExtraInfo": "distinctio",
+    "StyleHint": "voluptatem",
+    "FullName": "Dr. Patience Rogahn DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 35
       }
     }
   }

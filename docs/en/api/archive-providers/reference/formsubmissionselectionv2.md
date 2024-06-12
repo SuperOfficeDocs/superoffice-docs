@@ -126,7 +126,7 @@ This is the archive Provider for the Selection FormSubmission archive.
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -479,7 +479,7 @@ This is the archive Provider for the Selection FormSubmission archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionV2?$select=associate/assocTooltip,person/kanaFirstName,contact/postAddress/wgs84latitude,contact/contactAssociate/contactCategory
+GET /api/v1/archive/FormSubmissionSelectionV2?$select=person/personDirectPhone/formattedNumber,person/personAssociate/contactId,contact/streetAddress/line3,contact/streetAddress/city,contact/restrictionAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

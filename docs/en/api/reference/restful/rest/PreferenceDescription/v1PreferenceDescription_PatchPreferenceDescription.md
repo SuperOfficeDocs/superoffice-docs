@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "quibusdam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "quibusdam",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 751,
-  "Section": "reprehenderit",
-  "Key": "a",
-  "Name": "Heller, Keebler and Parisian",
+  "PrefDescId": 910,
+  "Section": "architecto",
+  "Key": "at",
+  "Name": "Marks-Lakin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Triple-buffered value-added encryption",
-  "IsBuiltin": true,
-  "TableName": "Vandervort-Hirthe",
-  "UserDefinedListId": 836,
-  "Rank": 572,
-  "SubGroup": "aut",
-  "MinLevel": 204,
-  "MaxValue": 45,
-  "MinValue": 480,
-  "RequiredLicense": "modi",
+  "Description": "Focused web-enabled complexity",
+  "IsBuiltin": false,
+  "TableName": "Olson, Murazik and Kemmer",
+  "UserDefinedListId": 299,
+  "Rank": 479,
+  "SubGroup": "molestiae",
+  "MinLevel": 464,
+  "MaxValue": 960,
+  "MinValue": 787,
+  "RequiredLicense": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldType": "System.String",
+      "FieldLength": 781
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

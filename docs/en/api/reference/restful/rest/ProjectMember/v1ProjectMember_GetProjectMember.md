@@ -93,7 +93,7 @@ ProjectMember found.
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 685,
-  "ContactId": 744,
-  "ProjectId": 465,
-  "ContactName": "Abbott-Lubowitz",
-  "ContactDepartment": "engineer virtual e-commerce",
-  "ProjectName": "Sipes-Crooks",
-  "EmailId": 839,
-  "EmailAddress": "vivian.tromp@manterice.us",
-  "CountryId": 335,
-  "Firstname": "Einar",
-  "MiddleName": "Bosco, Kilback and Bins",
-  "Lastname": "Swaniawski",
-  "PersonId": 55,
-  "Mrmrs": "incidunt",
-  "ProjectMemberTypeName": "Larkin Inc and Sons",
-  "Phone": "1-160-805-1226 x51466",
-  "PhoneId": 75,
-  "ProjectMemberTypeId": 873,
-  "EmailAddressName": "jazmin@manncrooks.uk",
-  "Comment": "doloremque",
-  "FullName": "Mrs. Chloe Ruecker I",
+  "ProjectmemberId": 546,
+  "ContactId": 83,
+  "ProjectId": 871,
+  "ContactName": "Schmeler, Jacobs and Kub",
+  "ContactDepartment": "",
+  "ProjectName": "Dicki, Torphy and Mayert",
+  "EmailId": 801,
+  "EmailAddress": "glen.mcglynn@daughertygrant.uk",
+  "CountryId": 787,
+  "Firstname": "Vidal",
+  "MiddleName": "Quitzon, Padberg and Schuster",
+  "Lastname": "Windler",
+  "PersonId": 321,
+  "Mrmrs": "expedita",
+  "ProjectMemberTypeName": "Robel, Grady and Beatty",
+  "Phone": "1-273-036-2864",
+  "PhoneId": 309,
+  "ProjectMemberTypeId": 667,
+  "EmailAddressName": "katheryn_hamill@emardyost.name",
+  "Comment": "rerum",
+  "FullName": "Prof. Yasmeen Marlene Sawayn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 608
     }
   },
   "_Links": {

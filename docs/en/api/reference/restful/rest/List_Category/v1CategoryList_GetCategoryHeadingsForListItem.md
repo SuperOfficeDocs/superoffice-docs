@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Shanahan-Schimmel",
-    "ToolTip": "Consequatur reprehenderit.",
+    "Id": 896,
+    "Name": "Maggio LLC",
+    "ToolTip": "Quia doloremque vitae voluptatum et ut.",
     "Deleted": false,
-    "Rank": 862,
-    "Type": "sit",
-    "ColorBlock": 180,
-    "IconHint": "eveniet",
+    "Rank": 117,
+    "Type": "omnis",
+    "ColorBlock": 417,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2022-08-12T12:57:43.3395828+02:00",
+    "LastChanged": "2006-08-13T04:22:35.830971+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Wiza-Deckow",
-        "ToolTip": "Repellendus labore vel qui corporis.",
+        "Id": 159,
+        "Name": "Schneider, Feil and Morissette",
+        "ToolTip": "Dolorum repellat est corporis nisi fugiat iusto molestiae.",
         "Deleted": false,
-        "Rank": 494,
-        "Type": "ipsum",
-        "ColorBlock": 820,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "1999-09-13T12:57:43.3395828+02:00",
+        "Rank": 606,
+        "Type": "impedit",
+        "ColorBlock": 372,
+        "IconHint": "pariatur",
+        "Selected": true,
+        "LastChanged": "2010-09-09T04:22:35.830971+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Mrs. Gavin Beatty",
+        "ExtraInfo": "similique",
+        "StyleHint": "quod",
+        "Hidden": false,
+        "FullName": "Nedra Moen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 746
+            "FieldType": "System.Int32",
+            "FieldLength": 793
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "velit",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Erica Hermiston",
+    "FullName": "Mrs. Alexandrea Presley Koch I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 675
       }
     }
   }

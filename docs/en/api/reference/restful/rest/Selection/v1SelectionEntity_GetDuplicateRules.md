@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blanda, Kozey and Parisian",
-    "DisplayName": "Pfannerstill, Bahringer and Yost",
-    "DisplayTooltip": "incidunt",
+    "Name": "Torphy-Kassulke",
+    "DisplayName": "Kertzmann Inc and Sons",
+    "DisplayTooltip": "consectetur",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 499
       }
     }
   },
   {
-    "Name": "Blanda, Kozey and Parisian",
-    "DisplayName": "Pfannerstill, Bahringer and Yost",
-    "DisplayTooltip": "incidunt",
+    "Name": "Torphy-Kassulke",
+    "DisplayName": "Kertzmann Inc and Sons",
+    "DisplayTooltip": "consectetur",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldLength": 499
       }
     }
   }

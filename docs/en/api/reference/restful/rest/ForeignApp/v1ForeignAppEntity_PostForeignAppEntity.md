@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 123,
-  "Name": "Schultz LLC",
-  "CreatedDate": "2016-10-25T12:57:42.4326345+02:00",
-  "UpdatedDate": "2002-04-15T12:57:42.4326345+02:00",
+  "ForeignAppId": 648,
+  "Name": "Robel-Watsica",
+  "CreatedDate": "2003-10-22T04:22:34.9854602+02:00",
+  "UpdatedDate": "2011-10-31T04:22:34.9854602+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 441,
-      "Name": "Hand-Lakin",
-      "CreatedDate": "1997-05-20T12:57:42.4326345+02:00",
-      "UpdatedDate": "2006-03-14T12:57:42.4326345+01:00",
-      "AssociateFullName": "Samara Homenick",
-      "CreatedBy": "qui",
-      "UpdatedBy": "cumque",
-      "DeviceIdentifier": "quos",
-      "ForeignAppId": 569
+      "ForeignDeviceId": 354,
+      "Name": "Rice, Beier and Watsica",
+      "CreatedDate": "2009-09-22T04:22:34.9854602+02:00",
+      "UpdatedDate": "2010-11-17T04:22:34.9854602+01:00",
+      "AssociateFullName": "Otilia Harrison Prosacco II",
+      "CreatedBy": "nostrum",
+      "UpdatedBy": "reprehenderit",
+      "DeviceIdentifier": "facere",
+      "ForeignAppId": 915
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 516,
-  "Name": "Kuphal, Abernathy and Cruickshank",
-  "CreatedDate": "2006-12-06T12:57:42.4326345+01:00",
-  "UpdatedDate": "1998-06-20T12:57:42.4326345+02:00",
+  "ForeignAppId": 619,
+  "Name": "Davis Inc and Sons",
+  "CreatedDate": "1998-06-09T04:22:34.9854602+02:00",
+  "UpdatedDate": "2002-08-03T04:22:34.9854602+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 461,
-      "Name": "Monahan, Pfannerstill and Kohler",
-      "CreatedDate": "2019-06-05T12:57:42.4326345+02:00",
-      "UpdatedDate": "2014-02-11T12:57:42.4326345+01:00",
-      "AssociateFullName": "Miss Gayle Rory Schowalter II",
-      "CreatedBy": "quod",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "impedit",
-      "ForeignAppId": 159,
+      "ForeignDeviceId": 876,
+      "Name": "Johnston, Hagenes and Bahringer",
+      "CreatedDate": "2012-03-13T04:22:34.9854602+01:00",
+      "UpdatedDate": "2006-08-05T04:22:34.9854602+02:00",
+      "AssociateFullName": "Demond Gottlieb",
+      "CreatedBy": "repellendus",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 389,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 103
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 523
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

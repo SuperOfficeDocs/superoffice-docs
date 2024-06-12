@@ -87,11 +87,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 162,
-    "Name": "Kuhn, Buckridge and Gislason",
+    "TicketStatusId": 907,
+    "Name": "Cummerata, Schiller and Walsh",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldLength": 731
       }
     }
   }

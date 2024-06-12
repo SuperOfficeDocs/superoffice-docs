@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 940,
-  "Name": "Torp, Nolan and Hagenes",
-  "Tooltip": "placeat",
+  "Id": 726,
+  "Name": "Carter Inc and Sons",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 11,
+  "Rank": 330,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 148
     }
   },
   "_Links": {

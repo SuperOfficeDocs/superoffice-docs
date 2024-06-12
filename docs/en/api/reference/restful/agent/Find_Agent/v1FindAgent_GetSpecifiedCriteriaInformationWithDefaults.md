@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cupiditate",
-  "ProviderName": "Green, Wiza and Little",
-  "StorageKey": "vel",
+  "StorageType": "eaque",
+  "ProviderName": "McGlynn Inc and Sons",
+  "StorageKey": "eos",
   "DesiredColumnNames": [
-    "McDermott, Terry and Kshlerin",
-    "Brown Inc and Sons"
+    "Bednar Inc and Sons",
+    "Russel LLC"
   ],
   "StaticColumns": [
-    "libero",
-    "corrupti"
+    "similique",
+    "dicta"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Monahan, Bogisich and Schamberger",
-      "Operator": "unde",
+      "Name": "Morissette Group",
+      "Operator": "culpa",
       "Values": [
-        "ea",
-        "ducimus"
+        "cum",
+        "ipsum"
       ],
       "DisplayValues": [
-        "rerum",
-        "magni"
+        "dolore",
+        "omnis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 310,
+      "InterParenthesis": 552,
       "InterOperator": "And",
-      "UniqueHash": 850
+      "UniqueHash": 760
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Leffler, Hammes and Hyatt",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "assumenda",
+      "DisplayName": "Gottlieb Inc and Sons",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "cum",
       "CanOrderBy": false,
-      "Name": "Baumbach-Klein",
-      "CanRestrictBy": true,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Cummerata Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "quis",
-      "Width": "non",
-      "IconHint": "odit",
-      "HeadingIconHint": "debitis"
+      "Name": "Volkman, Wolff and Smith",
+      "CanRestrictBy": false,
+      "RestrictionType": "nemo",
+      "RestrictionListName": "Grimes-Champlin",
+      "IsVisible": true,
+      "ExtraInfo": "autem",
+      "Width": "voluptatem",
+      "IconHint": "sunt",
+      "HeadingIconHint": "aut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bogan Group",
-      "PrimaryKey": 110,
+      "EntityName": "Mitchell Inc and Sons",
+      "PrimaryKey": 392,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "doloremque",
-          "TooltipHint": "laborum",
+          "DisplayValue": "suscipit",
+          "TooltipHint": "et",
           "LinkHint": "qui"
         }
       },
-      "LinkHint": "labore",
-      "StyleHint": "delectus",
+      "LinkHint": "nostrum",
+      "StyleHint": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Thompson, Beier and Stracke",
-      "Description": "Inverse even-keeled process improvement",
-      "Rank": 72,
+      "Name": "Huel Group",
+      "Description": "User-centric intangible circuit",
+      "Rank": 446,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Thompson, Beier and Stracke",
-      "Description": "Inverse even-keeled process improvement",
-      "Rank": 72,
+      "Name": "Huel Group",
+      "Description": "User-centric intangible circuit",
+      "Rank": 446,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldType": "System.Int32",
+      "FieldLength": 289
     }
   }
 }

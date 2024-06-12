@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Halvorson, Bergnaum and Yundt",
-  "Language": "quas"
+  "TemplateName": "Cummerata LLC",
+  "Language": "fuga"
 }
 ```
 
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 622,
-      "ContactName": "Donnelly, Upton and Kreiger",
-      "PersonId": 238,
-      "PersonName": "Braun-Botsford",
-      "AssociateId": 281,
-      "Address": "eligendi",
-      "EmailId": 1002,
+      "ContactId": 985,
+      "ContactName": "Wunsch, Lang and Effertz",
+      "PersonId": 929,
+      "PersonName": "Hilll-Konopelski",
+      "AssociateId": 262,
+      "Address": "ratione",
+      "EmailId": 855,
       "DuplicatePersonIds": [
-        404,
-        620
+        180,
+        105
       ],
-      "Name": "Lakin-D'Amore",
+      "Name": "Hilll Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 669
+          "FieldType": "System.Int32",
+          "FieldLength": 839
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 898,
-      "ContactName": "Buckridge Group",
-      "PersonId": 2,
-      "PersonName": "Hackett-Larson",
-      "AssociateId": 834,
-      "Address": "ea",
-      "EmailId": 364,
+      "ContactId": 421,
+      "ContactName": "Pouros, Kuphal and Cole",
+      "PersonId": 440,
+      "PersonName": "Reinger Inc and Sons",
+      "AssociateId": 560,
+      "Address": "voluptas",
+      "EmailId": 321,
       "DuplicatePersonIds": [
-        98,
-        541
+        961,
+        399
       ],
-      "Name": "Goodwin, Schultz and Champlin",
+      "Name": "Leuschke-Kuhlman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 712
+          "FieldType": "System.String",
+          "FieldLength": 225
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 904,
-      "ContactName": "White-Carroll",
-      "PersonId": 505,
-      "PersonName": "Miller LLC",
-      "AssociateId": 234,
-      "Address": "ipsam",
-      "EmailId": 825,
+      "ContactId": 830,
+      "ContactName": "Schaden LLC",
+      "PersonId": 776,
+      "PersonName": "Skiles-Miller",
+      "AssociateId": 719,
+      "Address": "sunt",
+      "EmailId": 626,
       "DuplicatePersonIds": [
-        870,
-        47
+        472,
+        581
       ],
-      "Name": "Farrell Inc and Sons",
+      "Name": "Huels, Shields and O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 916
         }
       }
     }
   ],
-  "Subject": "nam",
-  "HTMLBody": "voluptas",
+  "Subject": "veritatis",
+  "HTMLBody": "vitae",
   "From": null,
-  "Sent": "2003-05-24T12:57:33.1803718+02:00",
-  "Size": 820,
+  "Sent": "2009-03-05T04:22:25.9340983+01:00",
+  "Size": 294,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "facere",
-  "PlainBody": "rerum",
-  "IsSent": true,
+  "MessageID": "nihil",
+  "PlainBody": "sapiente",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 455,
+  "ServerId": 643,
   "Attachments": [
     {
-      "Description": "Multi-layered leading edge workforce",
-      "Filename": "aut",
-      "Size": 10,
-      "Type": "nulla",
-      "Encoding": "totam",
-      "Id": "temporibus",
-      "Disposition": "quia",
+      "Description": "Synergistic 4th generation migration",
+      "Filename": "aliquid",
+      "Size": 271,
+      "Type": "magnam",
+      "Encoding": "provident",
+      "Id": "accusantium",
+      "Disposition": "dolores",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 838
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Upton Inc and Sons",
+      "Name": "Schoen, Kuphal and Wintheiser",
       "Values": [
-        "sit",
-        "dignissimos"
+        "odio",
+        "neque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 570
         }
       }
     },
     {
-      "Name": "Upton Inc and Sons",
+      "Name": "Schoen, Kuphal and Wintheiser",
       "Values": [
-        "sit",
-        "dignissimos"
+        "odio",
+        "neque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 570
         }
       }
     }
   ],
-  "FolderName": "Huels-Ebert",
-  "EmailItemId": 44,
-  "AccountId": 334,
-  "ReceivedAt": "2003-04-23T12:57:33.1803718+02:00",
+  "FolderName": "Spinka LLC",
+  "EmailItemId": 656,
+  "AccountId": 453,
+  "ReceivedAt": "2012-12-26T04:22:25.9340983+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-10-07T12:57:33.1803718+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2022-11-01T04:22:25.9340983+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 675
     }
   }
 }

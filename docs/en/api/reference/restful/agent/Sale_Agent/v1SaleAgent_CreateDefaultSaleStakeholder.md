@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jewess Inc and Sons",
-  "Comment": "magni",
-  "StakeholderRoleId": 309,
-  "CountryId": 121,
-  "PersonId": 373,
-  "EmailDescription": "madonna@labadie.info",
-  "EmailId": 303,
-  "EmailAddress": "dean_murray@zulauf.us",
-  "PhoneId": 391,
-  "ContactName": "Prosacco-Beier",
-  "ContactId": 265,
-  "SaleId": 673,
-  "Mrmrs": "voluptas",
-  "Firstname": "Geovanny",
-  "MiddleName": "Kutch Group",
-  "Lastname": "Graham",
-  "SaleStakeholderId": 180,
-  "Rank": 706,
-  "Phone": "1-747-750-8570 x154",
+  "StakeholderRoleName": "Rutherford-Schinner",
+  "Comment": "modi",
+  "StakeholderRoleId": 790,
+  "CountryId": 686,
+  "PersonId": 521,
+  "EmailDescription": "maximo@beahan.co.uk",
+  "EmailId": 509,
+  "EmailAddress": "demarcus@kerluke.com",
+  "PhoneId": 764,
+  "ContactName": "Satterfield Inc and Sons",
+  "ContactId": 918,
+  "SaleId": 303,
+  "Mrmrs": "ipsum",
+  "Firstname": "Akeem",
+  "MiddleName": "Schaden, Price and Cronin",
+  "Lastname": "Bogan",
+  "SaleStakeholderId": 345,
+  "Rank": 619,
+  "Phone": "661-337-1690 x33823",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 463
     }
   }
 }

@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=repellat
-GET /api/v1/Ticket?$top=607
-GET /api/v1/Ticket?$skip=272
+GET /api/v1/Ticket?$entities=fugit
+GET /api/v1/Ticket?$top=891
+GET /api/v1/Ticket?$skip=685
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=aspernatur
+GET /api/v1/Ticket?$context=ad
 GET /api/v1/Ticket?$format=JSON
 GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 5382,
+      "PrimaryKey": 705,
       "EntityName": "sale",
-      "saleId": 5382,
-      "contactId": 2658,
-      "name": "Lindgren-Bartoletti"
+      "saleId": 705,
+      "contactId": 8079,
+      "name": "Ferry Inc and Sons"
     },
     {
-      "PrimaryKey": 35,
+      "PrimaryKey": 134,
       "EntityName": "sale",
-      "saleId": 35,
-      "contactId": 8837,
-      "name": "Schmidt-O'Connell"
+      "saleId": 134,
+      "contactId": 6472,
+      "name": "Sporer LLC"
     }
   ]
 }

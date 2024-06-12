@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Lang-Bartoletti",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "Rank": 705,
+  "Id": 946,
+  "Name": "Osinski-Effertz",
+  "Tooltip": "deserunt",
+  "Deleted": false,
+  "Rank": 231,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   },
   "_Links": {

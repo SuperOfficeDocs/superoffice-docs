@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 133,
-    "Name": "Auer LLC",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 399,
-    "UdListDefinitionId": 425,
+    "HeadingId": 922,
+    "Name": "Abbott, Schmidt and Lueilwitz",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 591,
+    "UdListDefinitionId": 595,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

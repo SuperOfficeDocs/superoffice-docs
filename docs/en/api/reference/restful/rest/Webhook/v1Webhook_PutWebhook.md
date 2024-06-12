@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 668,
-  "Name": "Kertzmann Inc and Sons",
+  "WebhookId": 888,
+  "Name": "Renner Inc and Sons",
   "Events": [
-    "aut",
-    "eveniet"
+    "est",
+    "accusamus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sed",
+  "Secret": "sint",
   "State": "Active",
-  "Type": "natus",
+  "Type": "cumque",
   "Headers": {
-    "Headers1": "aliquam",
-    "Headers2": "dignissimos"
+    "Headers1": "suscipit",
+    "Headers2": "dicta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-03-05T12:57:43.2770971+01:00",
+  "Registered": "2000-05-22T04:22:35.7678517+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-10-05T12:57:43.2770971+02:00",
+  "Updated": "2011-06-30T04:22:35.7678517+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "isobel@bernhard.us"
+  "ErrorsEmail": "adrianna@moore.biz"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 247,
-  "Name": "Reynolds-Tremblay",
+  "WebhookId": 207,
+  "Name": "Rau, Kunze and Veum",
   "Events": [
-    "vitae",
-    "laboriosam"
+    "hic",
+    "consectetur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quasi",
+  "Secret": "expedita",
   "State": "Active",
-  "Type": "aliquam",
+  "Type": "id",
   "Headers": {
-    "Headers1": "debitis",
-    "Headers2": "quasi"
+    "Headers1": "voluptas",
+    "Headers2": "consequuntur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-03-02T12:57:43.2770971+01:00",
+  "Registered": "2012-09-08T04:22:35.7678517+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-12-23T12:57:43.2770971+01:00",
+  "Updated": "2021-03-28T04:22:35.7678517+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "makenzie@luettgenhermiston.info",
+  "ErrorsEmail": "baylee.welch@kirlin.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

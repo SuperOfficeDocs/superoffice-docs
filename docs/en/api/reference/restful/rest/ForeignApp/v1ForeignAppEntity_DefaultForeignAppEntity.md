@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 28 Feb 2019 12:57:42 G2T
+Last-Modified: Mon, 10 Nov 2003 04:22:34 G11T
 
 {
-  "ForeignAppId": 638,
-  "Name": "Jenkins Inc and Sons",
-  "CreatedDate": "2003-01-12T12:57:42.4326345+01:00",
-  "UpdatedDate": "2019-02-28T12:57:42.4326345+01:00",
+  "ForeignAppId": 583,
+  "Name": "Streich-Kunze",
+  "CreatedDate": "2006-12-30T04:22:34.9854602+01:00",
+  "UpdatedDate": "2003-11-10T04:22:34.9854602+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 958,
-      "Name": "Feil, Keeling and Rau",
-      "CreatedDate": "2021-03-18T12:57:42.4326345+01:00",
-      "UpdatedDate": "2000-12-16T12:57:42.4326345+01:00",
-      "AssociateFullName": "Alexie Mertz",
-      "CreatedBy": "delectus",
-      "UpdatedBy": "eaque",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 36,
+      "ForeignDeviceId": 694,
+      "Name": "Dickens-Runte",
+      "CreatedDate": "2015-10-16T04:22:34.9854602+02:00",
+      "UpdatedDate": "2008-02-14T04:22:34.9854602+01:00",
+      "AssociateFullName": "Kyle Hayes",
+      "CreatedBy": "quasi",
+      "UpdatedBy": "dolor",
+      "DeviceIdentifier": "unde",
+      "ForeignAppId": 894,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldLength": 625
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Thu, 28 Feb 2019 12:57:42 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 563
     }
   }
 }

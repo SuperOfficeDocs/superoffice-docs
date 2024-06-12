@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "veniam"
+  "1": "sed",
+  "2": "hic"
 }
 ```

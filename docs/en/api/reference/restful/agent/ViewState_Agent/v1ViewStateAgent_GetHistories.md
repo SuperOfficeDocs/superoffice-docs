@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 391,
-    "Id": 543,
-    "HistoryName": "Hudson, Hauck and Adams",
-    "HistoryId": 811,
-    "AssociateId": 662,
-    "Name": "Jenkins-Kertzmann",
-    "ItemInfo": "ducimus",
+    "Rank": 994,
+    "Id": 128,
+    "HistoryName": "Denesik LLC",
+    "HistoryId": 72,
+    "AssociateId": 616,
+    "Name": "Kozey, Lehner and Ward",
+    "ItemInfo": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

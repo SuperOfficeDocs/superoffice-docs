@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 895,
-  "Name": "Mann, Bailey and Swaniawski",
-  "Rank": 74,
-  "Tooltip": "exercitationem",
+  "AssociateId": 877,
+  "Name": "Gorczany, Haag and Homenick",
+  "Rank": 994,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "Lynch Inc and Sons",
-      "Description": "Self-enabling disintermediate paradigm",
+      "Name": "Williamson, Metz and Kunde",
+      "Description": "Implemented value-added matrix",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 35
         }
       }
     },
     {
-      "Name": "Lynch Inc and Sons",
-      "Description": "Self-enabling disintermediate paradigm",
+      "Name": "Williamson, Metz and Kunde",
+      "Description": "Implemented value-added matrix",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldLength": 35
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nam",
-      "Tooltip": "et",
-      "Id": 704,
-      "Rank": 516,
+      "Value": "voluptatibus",
+      "Tooltip": "expedita",
+      "Id": 94,
+      "Rank": 220,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 219
+          "FieldType": "System.Int32",
+          "FieldLength": 459
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2012-10-08T12:57:43.2614753+02:00",
-  "Lastlogout": "1997-10-07T12:57:43.2614753+02:00",
-  "EjUserId": 442,
-  "RequestSignature": "laborum",
+  "Lastlogin": "2004-02-19T04:22:35.7522278+01:00",
+  "Lastlogout": "2010-09-02T04:22:35.7522278+02:00",
+  "EjUserId": 846,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "excepturi",
+      "Value": "possimus",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 848
         }
       }
     },
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "excepturi",
+      "Value": "possimus",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 848
         }
       }
     }
   ],
-  "UserName": "Johnston-Hand",
+  "UserName": "Blanda Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 88,
-      "Name": "Monahan LLC",
-      "ToolTip": "Reiciendis distinctio.",
+      "Id": 938,
+      "Name": "Crist LLC",
+      "ToolTip": "Molestias assumenda aut fuga.",
       "Deleted": false,
-      "Rank": 278,
-      "Type": "unde",
+      "Rank": 357,
+      "Type": "vero",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "illo",
-      "ColorBlock": 672,
-      "ExtraInfo": "consectetur",
-      "StyleHint": "voluptatum",
-      "FullName": "Eugenia Hettinger IV",
+      "IconHint": "numquam",
+      "ColorBlock": 914,
+      "ExtraInfo": "culpa",
+      "StyleHint": "aut",
+      "FullName": "Donald Jaskolski MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldLength": 723
         }
       }
     }
   ],
-  "NickName": "Shields, Thompson and Monahan",
-  "WaitingForApproval": true,
+  "NickName": "Kuphal Inc and Sons",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "quis",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Blanda-Smith",
-      "DisplayName": "Dickinson-Stokes",
-      "Description": "Self-enabling motivating synergy",
-      "ToolTip": "Similique iure officia eos quo quidem ab.",
+      "Name": "Nienow Inc and Sons",
+      "DisplayName": "Ward-Ankunding",
+      "Description": "Organic hybrid portal",
+      "ToolTip": "Est non.",
       "Actions": "Implicit",
-      "ActionData": "vel",
+      "ActionData": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 193
+          "FieldLength": 157
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 824
     }
   }
 }

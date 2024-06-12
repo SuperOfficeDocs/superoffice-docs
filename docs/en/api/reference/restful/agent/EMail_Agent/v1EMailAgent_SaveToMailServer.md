@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 654,
-      "ContactName": "Kuhn-Moen",
-      "PersonId": 45,
-      "PersonName": "O'Connell-Schiller",
-      "AssociateId": 953,
-      "Address": "sed",
-      "EmailId": 367,
+      "ContactId": 127,
+      "ContactName": "Shields Inc and Sons",
+      "PersonId": 175,
+      "PersonName": "King LLC",
+      "AssociateId": 61,
+      "Address": "dolorum",
+      "EmailId": 957,
       "DuplicatePersonIds": [
-        500,
-        306
+        484,
+        330
       ],
-      "Name": "Runolfsson-Wehner",
+      "Name": "McKenzie Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 807
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 426,
-      "ContactName": "Fritsch-O'Kon",
-      "PersonId": 392,
-      "PersonName": "Sporer, Nader and Hirthe",
-      "AssociateId": 794,
-      "Address": "sequi",
-      "EmailId": 816,
+      "ContactId": 232,
+      "ContactName": "Hilll-Pollich",
+      "PersonId": 660,
+      "PersonName": "Jones Group",
+      "AssociateId": 302,
+      "Address": "qui",
+      "EmailId": 323,
       "DuplicatePersonIds": [
-        179,
-        967
+        913,
+        805
       ],
-      "Name": "Purdy Inc and Sons",
+      "Name": "Reinger Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldType": "System.String",
+          "FieldLength": 240
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 615,
-      "ContactName": "Deckow Group",
-      "PersonId": 935,
-      "PersonName": "Goyette Inc and Sons",
-      "AssociateId": 386,
-      "Address": "asperiores",
-      "EmailId": 500,
+      "ContactId": 335,
+      "ContactName": "Von Inc and Sons",
+      "PersonId": 559,
+      "PersonName": "Towne-Leffler",
+      "AssociateId": 835,
+      "Address": "qui",
+      "EmailId": 416,
       "DuplicatePersonIds": [
-        406,
-        320
+        538,
+        91
       ],
-      "Name": "Lakin-Cummings",
+      "Name": "Legros, Harber and Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldType": "System.String",
+          "FieldLength": 193
         }
       }
     }
   ],
-  "Subject": "minus",
-  "HTMLBody": "repellendus",
+  "Subject": "et",
+  "HTMLBody": "voluptatum",
   "From": null,
-  "Sent": "2004-06-04T12:57:33.8523907+02:00",
-  "Size": 42,
+  "Sent": "1999-04-20T04:22:26.6709828+02:00",
+  "Size": 270,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatum",
-  "PlainBody": "accusamus",
+  "MessageID": "eaque",
+  "PlainBody": "voluptatum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 598,
+  "ServerId": 755,
   "Attachments": [
     {
-      "Description": "Programmable human-resource function",
-      "Filename": "facere",
-      "Size": 597,
-      "Type": "assumenda",
-      "Encoding": "voluptatibus",
-      "Id": "sed",
-      "Disposition": "qui",
+      "Description": "Monitored methodical encryption",
+      "Filename": "quod",
+      "Size": 235,
+      "Type": "atque",
+      "Encoding": "illum",
+      "Id": "non",
+      "Disposition": "amet",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldType": "System.Int32",
+          "FieldLength": 489
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Price-Leannon",
+      "Name": "Kerluke, Stamm and Ankunding",
       "Values": [
-        "doloremque",
-        "iure"
+        "aut",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 461
         }
       }
     },
     {
-      "Name": "Price-Leannon",
+      "Name": "Kerluke, Stamm and Ankunding",
       "Values": [
-        "doloremque",
-        "iure"
+        "aut",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 461
         }
       }
     }
   ],
-  "FolderName": "Champlin-Glover",
-  "EmailItemId": 818,
-  "AccountId": 738,
-  "ReceivedAt": "2016-06-01T12:57:33.8523907+02:00",
+  "FolderName": "Koelpin-Gutmann",
+  "EmailItemId": 261,
+  "AccountId": 567,
+  "ReceivedAt": "2003-04-05T04:22:26.6709828+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-03-22T12:57:33.8523907+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1999-02-10T04:22:26.6709828+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 12
     }
   }
 }

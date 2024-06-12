@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 218,
-  "Name": "Bailey, Monahan and Cremin",
-  "Tooltip": "est",
-  "SaveInDb": 232,
-  "Filename": "ea",
-  "DefaultOref": "mollitia",
+  "DocumentTemplateId": 997,
+  "Name": "Hartmann-Rippin",
+  "Tooltip": "aliquid",
+  "SaveInDb": 999,
+  "Filename": "doloremque",
+  "DefaultOref": "ex",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 244,
-  "IntentId": 109,
-  "IsDefaultPublished": false,
-  "Rank": 771,
-  "LoadTemplateFromPlugin": 317,
-  "MimeType": "non",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 435,
+  "AutoeventId": 317,
+  "IntentId": 548,
+  "IsDefaultPublished": true,
+  "Rank": 105,
+  "LoadTemplateFromPlugin": 693,
+  "MimeType": "consequatur",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 5,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jewell_mertz@gorczany.info",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "garett_emmerich@kochpadberg.us",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "merl_dare@kub.co.uk",
+  "SenderEmailAddress": "myrtice@ferry.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 506,
-  "Name": "Balistreri Group",
-  "Tooltip": "sed",
-  "SaveInDb": 442,
-  "Filename": "sed",
-  "DefaultOref": "reprehenderit",
+  "DocumentTemplateId": 545,
+  "Name": "Hilpert-Kub",
+  "Tooltip": "eius",
+  "SaveInDb": 731,
+  "Filename": "reprehenderit",
+  "DefaultOref": "omnis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 418,
-  "IntentId": 221,
+  "AutoeventId": 458,
+  "IntentId": 234,
   "IsDefaultPublished": false,
-  "Rank": 678,
-  "LoadTemplateFromPlugin": 798,
-  "MimeType": "magni",
+  "Rank": 218,
+  "LoadTemplateFromPlugin": 286,
+  "MimeType": "facilis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 958,
+  "DocumentTypeKey": 479,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "matteo_mann@johnson.us",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "tomas_sauer@rau.com",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "daija.auer@white.us",
+  "SenderEmailAddress": "carmel@wiegand.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

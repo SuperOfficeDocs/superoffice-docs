@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 948,
-  "Name": "Wilderman LLC",
+  "TicketPriorityId": 25,
+  "Name": "Barrows-Oberbrunner",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 217,
+  "SortOrder": 806,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 681,
-  "MonStart": "2002-01-16T12:57:34.2273331+01:00",
-  "MonStop": "2015-04-05T12:57:34.2273331+02:00",
-  "TueStart": "2021-10-23T12:57:34.2273331+02:00",
-  "TueStop": "2001-09-30T12:57:34.2273331+02:00",
-  "WedStart": "2004-03-30T12:57:34.2273331+02:00",
-  "WedStop": "1998-01-18T12:57:34.2273331+01:00",
-  "ThuStart": "2023-11-29T12:57:34.2273331+01:00",
-  "ThuStop": "2015-02-02T12:57:34.2273331+01:00",
-  "FriStart": "2002-08-30T12:57:34.2273331+02:00",
-  "FriStop": "2020-11-18T12:57:34.2273331+01:00",
-  "SatStart": "2009-01-25T12:57:34.2273331+01:00",
-  "SatStop": "2010-08-25T12:57:34.2273331+02:00",
-  "SunStart": "2012-01-24T12:57:34.2273331+01:00",
-  "SunStop": "2004-02-29T12:57:34.2273331+01:00",
+  "Deadline": 658,
+  "MonStart": "2008-06-14T04:22:27.0486609+02:00",
+  "MonStop": "2006-12-03T04:22:27.0486609+01:00",
+  "TueStart": "2020-05-13T04:22:27.0486609+02:00",
+  "TueStop": "2003-09-08T04:22:27.0486609+02:00",
+  "WedStart": "2000-08-20T04:22:27.0486609+02:00",
+  "WedStop": "2003-09-27T04:22:27.0486609+02:00",
+  "ThuStart": "2006-02-12T04:22:27.0486609+01:00",
+  "ThuStop": "2005-08-22T04:22:27.0486609+02:00",
+  "FriStart": "2024-05-24T04:22:27.0486609+02:00",
+  "FriStop": "1999-12-18T04:22:27.0486609+01:00",
+  "SatStart": "2008-04-30T04:22:27.0486609+02:00",
+  "SatStop": "2003-09-24T04:22:27.0486609+02:00",
+  "SunStart": "2023-07-31T04:22:27.0486609+02:00",
+  "SunStop": "2014-04-25T04:22:27.0486609+02:00",
   "NonDates": [
-    "totam",
-    "hic"
+    "quibusdam",
+    "numquam"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 889,
-      "AlertLevel": 172,
-      "AlertTimeout": 455,
-      "Action": 138,
-      "DelegateTo": 831,
-      "ScriptId": 991,
-      "EmailTo": "maybell@koch.co.uk",
-      "SmsTo": "tempora",
-      "ReplyTemplateIdCustomer": 501,
-      "ReplyTemplateIdUser": 516,
-      "ReplyTemplateIdCatmast": 831,
-      "ReplyTemplateIdEmail": 286,
-      "RtiCustomerSms": 292,
-      "ReplyTemplateIdUserSms": 123,
-      "ReplyTemplateIdCatmastSms": 330,
-      "ReplyTemplateIdSms": 408,
+      "TicketAlertId": 757,
+      "AlertLevel": 170,
+      "AlertTimeout": 766,
+      "Action": 797,
+      "DelegateTo": 491,
+      "ScriptId": 886,
+      "EmailTo": "kenya_kuhn@dicki.com",
+      "SmsTo": "ea",
+      "ReplyTemplateIdCustomer": 726,
+      "ReplyTemplateIdUser": 824,
+      "ReplyTemplateIdCatmast": 988,
+      "ReplyTemplateIdEmail": 460,
+      "RtiCustomerSms": 538,
+      "ReplyTemplateIdUserSms": 208,
+      "ReplyTemplateIdCatmastSms": 503,
+      "ReplyTemplateIdSms": 76,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 577
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 506
     }
   }
 }

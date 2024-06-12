@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "sunt",
-      "HTMLBody": "sit",
+      "Subject": "est",
+      "HTMLBody": "est",
       "From": null,
-      "Sent": "1998-03-18T12:57:33.930529+01:00",
-      "Size": 576,
+      "Sent": "2012-08-24T04:22:26.7491153+02:00",
+      "Size": 965,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "quia",
-      "PlainBody": "aut",
+      "MessageID": "minima",
+      "PlainBody": "qui",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 851,
+      "ServerId": 506,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Veum Group",
-      "EmailItemId": 506,
-      "AccountId": 999,
-      "ReceivedAt": "2002-06-20T12:57:33.930529+02:00",
+      "FolderName": "Marvin, Gislason and Quigley",
+      "EmailItemId": 450,
+      "AccountId": 710,
+      "ReceivedAt": "2002-12-01T04:22:26.7491153+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2011-08-30T12:57:33.930529+02:00",
-      "HasCalendarData": false,
+      "RepliedAt": "2024-01-09T04:22:26.7491153+01:00",
+      "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,97 +166,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 259,
-        "ContactName": "VonRueden Inc and Sons",
-        "PersonId": 424,
-        "PersonName": "Johnston Group",
-        "AssociateId": 854,
-        "Address": "ut",
-        "EmailId": 295,
+        "ContactId": 253,
+        "ContactName": "McCullough, Lesch and O'Connell",
+        "PersonId": 853,
+        "PersonName": "Ruecker Inc and Sons",
+        "AssociateId": 549,
+        "Address": "in",
+        "EmailId": 604,
         "DuplicatePersonIds": [
-          943,
-          829
-        ],
-        "Name": "Armstrong, Hilll and Daniel",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 923
-          }
-        }
-      }
-    ],
-    "Cc": [
-      {
-        "ContactId": 192,
-        "ContactName": "Bruen LLC",
-        "PersonId": 721,
-        "PersonName": "Ortiz Inc and Sons",
-        "AssociateId": 954,
-        "Address": "accusamus",
-        "EmailId": 970,
-        "DuplicatePersonIds": [
-          89,
-          480
-        ],
-        "Name": "Harris-Reinger",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 107
-          }
-        }
-      }
-    ],
-    "Bcc": [
-      {
-        "ContactId": 121,
-        "ContactName": "Stehr LLC",
-        "PersonId": 453,
-        "PersonName": "Reichel Group",
-        "AssociateId": 68,
-        "Address": "labore",
-        "EmailId": 707,
-        "DuplicatePersonIds": [
-          63,
-          591
+          389,
+          10
         ],
         "Name": "Witting Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 848
+            "FieldType": "System.Int32",
+            "FieldLength": 421
           }
         }
       }
     ],
-    "Subject": "voluptas",
-    "HTMLBody": "ex",
+    "Cc": [
+      {
+        "ContactId": 704,
+        "ContactName": "Okuneva LLC",
+        "PersonId": 92,
+        "PersonName": "Schroeder Group",
+        "AssociateId": 455,
+        "Address": "maiores",
+        "EmailId": 451,
+        "DuplicatePersonIds": [
+          248,
+          731
+        ],
+        "Name": "Towne Inc and Sons",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 137
+          }
+        }
+      }
+    ],
+    "Bcc": [
+      {
+        "ContactId": 518,
+        "ContactName": "Hamill, Batz and McKenzie",
+        "PersonId": 35,
+        "PersonName": "Weimann, Howell and Bauch",
+        "AssociateId": 32,
+        "Address": "nesciunt",
+        "EmailId": 301,
+        "DuplicatePersonIds": [
+          164,
+          889
+        ],
+        "Name": "Murphy Inc and Sons",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 900
+          }
+        }
+      }
+    ],
+    "Subject": "veniam",
+    "HTMLBody": "qui",
     "From": null,
-    "Sent": "2024-01-12T12:57:33.930529+01:00",
-    "Size": 999,
+    "Sent": "2001-04-04T04:22:26.7491153+02:00",
+    "Size": 304,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "iste",
-    "PlainBody": "quam",
+    "MessageID": "veritatis",
+    "PlainBody": "quo",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 213,
+    "ServerId": 448,
     "Attachments": [
       {
-        "Description": "Proactive 3rd generation conglomeration",
-        "Filename": "sequi",
-        "Size": 255,
-        "Type": "veniam",
-        "Encoding": "cupiditate",
-        "Id": "totam",
-        "Disposition": "aut",
+        "Description": "Advanced incremental internet solution",
+        "Filename": "enim",
+        "Size": 375,
+        "Type": "in",
+        "Encoding": "aliquid",
+        "Id": "repellat",
+        "Disposition": "non",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -264,50 +264,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 123
+            "FieldLength": 85
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Roberts Inc and Sons",
+        "Name": "Senger, Murray and Goldner",
         "Values": [
-          "maiores",
-          "commodi"
+          "mollitia",
+          "neque"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldLength": 415
           }
         }
       },
       {
-        "Name": "Roberts Inc and Sons",
+        "Name": "Senger, Murray and Goldner",
         "Values": [
-          "maiores",
-          "commodi"
+          "mollitia",
+          "neque"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldLength": 415
           }
         }
       }
     ],
-    "FolderName": "Bechtelar, O'Keefe and Kuhn",
-    "EmailItemId": 189,
-    "AccountId": 882,
-    "ReceivedAt": "2016-08-04T12:57:33.930529+02:00",
+    "FolderName": "Padberg LLC",
+    "EmailItemId": 899,
+    "AccountId": 205,
+    "ReceivedAt": "2011-10-01T04:22:26.7491153+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2022-12-03T12:57:33.930529+01:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2016-01-18T04:22:26.7491153+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -315,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 598
       }
     }
   }

@@ -89,15 +89,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 733,
-      "FieldName": "Zboncak, Schimmel and Frami",
-      "Label": "quam",
-      "Tooltip": "soluta",
-      "Editable": false,
-      "InUse": false,
+      "QuoteLineConfigurationId": 944,
+      "FieldName": "Kuhlman, Greenholt and Goldner",
+      "Label": "tempore",
+      "Tooltip": "nisi",
+      "Editable": true,
+      "InUse": true,
       "Mandatory": false,
-      "Rank": 444,
-      "RestrictEdit": true
+      "Rank": 739,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 978,
-    "FieldName": "Fahey LLC",
-    "Label": "id",
-    "Tooltip": "quis",
+    "QuoteLineConfigurationId": 933,
+    "FieldName": "Dickinson, Jewess and Schowalter",
+    "Label": "possimus",
+    "Tooltip": "repellat",
     "Editable": false,
-    "InUse": true,
-    "Mandatory": false,
-    "Rank": 548,
-    "RestrictEdit": false,
+    "InUse": false,
+    "Mandatory": true,
+    "Rank": 619,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

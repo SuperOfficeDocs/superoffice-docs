@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 265,
-  "ERPPriceListKey": "minus",
-  "QuoteConnectionId": 420,
-  "Name": "Rohan-Feeney",
-  "Description": "Function-based zero defect challenge",
-  "Currency": "qui",
-  "CurrencyName": "Hane Group",
-  "ValidFrom": "2020-03-02T12:57:43.5582822+01:00",
-  "ValidTo": "2003-06-15T12:57:43.5582822+02:00",
+  "PriceListId": 174,
+  "ERPPriceListKey": "ab",
+  "QuoteConnectionId": 134,
+  "Name": "Sawayn-Gleason",
+  "Description": "Ameliorated 24 hour synergy",
+  "Currency": "quia",
+  "CurrencyName": "Farrell, Torphy and Denesik",
+  "ValidFrom": "2010-01-25T04:22:36.0340897+01:00",
+  "ValidTo": "2009-03-12T04:22:36.0340897+01:00",
   "IsActive": false
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 504,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 981,
-  "Name": "Berge LLC",
-  "Description": "Ergonomic 6th generation strategy",
-  "Currency": "nisi",
-  "CurrencyName": "Flatley-Walsh",
-  "ValidFrom": "2009-11-24T12:57:43.5582822+01:00",
-  "ValidTo": "1999-04-27T12:57:43.5582822+02:00",
+  "PriceListId": 811,
+  "ERPPriceListKey": "quas",
+  "QuoteConnectionId": 658,
+  "Name": "Green-Schuppe",
+  "Description": "Down-sized tertiary Graphic Interface",
+  "Currency": "molestias",
+  "CurrencyName": "Murphy, Cummings and Jast",
+  "ValidFrom": "2009-11-29T04:22:36.0340897+01:00",
+  "ValidTo": "2003-03-15T04:22:36.0340897+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 579
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

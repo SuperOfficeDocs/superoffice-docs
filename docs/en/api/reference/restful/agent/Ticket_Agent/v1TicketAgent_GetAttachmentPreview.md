@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 654
+  "AttachmentId": 605
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tromp-Rice",
-  "MimeType": "ratione",
-  "Size": 311,
+  "Name": "Roberts, Thompson and Fay",
+  "MimeType": "facilis",
+  "Size": 51,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "belle.wilkinson@rath.ca",
-  "EmailFrom": "antonette@legros.ca",
-  "EmailTo": "concepcion@veumryan.us",
-  "EmailCc": "raymundo@windler.us",
-  "EmailDate": "2010-08-09T12:57:35.2113938+02:00",
+  "EmailSubject": "annette.stark@feeneyterry.com",
+  "EmailFrom": "vella@howe.ca",
+  "EmailTo": "ivory@wisozk.us",
+  "EmailCc": "sylvia@blick.com",
+  "EmailDate": "2009-06-15T04:22:28.00688+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 969,
-      "Name": "Schimmel-Herzog",
-      "ContentType": "porro",
-      "AttSize": 232,
+      "AttachmentId": 727,
+      "Name": "Nolan, Upton and Upton",
+      "ContentType": "aut",
+      "AttSize": 966,
       "InlineImage": false,
-      "ContentId": "iusto",
-      "AuthKey": "tempora",
+      "ContentId": "nihil",
+      "AuthKey": "porro",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 882
+          "FieldLength": 328
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 264
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Orn, Schmidt and Steuber",
-    "ToolTip": "Aut eaque maxime et voluptas dignissimos voluptatum ex.",
-    "Deleted": false,
-    "Rank": 859,
-    "Type": "nam",
-    "ColorBlock": 894,
-    "IconHint": "veritatis",
+    "Id": 568,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Voluptas assumenda.",
+    "Deleted": true,
+    "Rank": 786,
+    "Type": "odio",
+    "ColorBlock": 914,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2018-10-09T12:57:43.4333137+02:00",
+    "LastChanged": "2000-08-15T04:22:35.9090937+02:00",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Kuhlman Group",
-        "ToolTip": "Nobis dolorem.",
+        "Id": 1002,
+        "Name": "Torp Inc and Sons",
+        "ToolTip": "Maxime velit consectetur neque doloremque repellendus distinctio voluptatem.",
         "Deleted": false,
-        "Rank": 227,
-        "Type": "quae",
-        "ColorBlock": 254,
-        "IconHint": "temporibus",
+        "Rank": 412,
+        "Type": "consequatur",
+        "ColorBlock": 905,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2001-03-22T12:57:43.4333137+01:00",
+        "LastChanged": "2016-07-18T04:22:35.9090937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Heloise Alfredo Hoeger PhD"
+        "ExtraInfo": "doloremque",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Madyson Ines Rippin PhD"
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "aut",
+    "ExtraInfo": "quia",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Maddison Bahringer"
+    "FullName": "Miss Brandon Torphy IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Welch LLC",
-    "ToolTip": "Alias qui aut.",
-    "Deleted": false,
-    "Rank": 987,
-    "Type": "illum",
-    "ColorBlock": 423,
-    "IconHint": "hic",
+    "Id": 964,
+    "Name": "White Inc and Sons",
+    "ToolTip": "Nam ratione consequatur.",
+    "Deleted": true,
+    "Rank": 91,
+    "Type": "distinctio",
+    "ColorBlock": 911,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2007-10-06T12:57:43.4333137+02:00",
+    "LastChanged": "2024-01-13T04:22:35.9090937+01:00",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Sporer, Buckridge and Zemlak",
-        "ToolTip": "Quia similique voluptas aut.",
-        "Deleted": false,
-        "Rank": 825,
-        "Type": "qui",
-        "ColorBlock": 601,
-        "IconHint": "et",
+        "Id": 175,
+        "Name": "McDermott Inc and Sons",
+        "ToolTip": "Odit architecto dolor qui commodi.",
+        "Deleted": true,
+        "Rank": 745,
+        "Type": "corporis",
+        "ColorBlock": 722,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "1997-09-09T12:57:43.4333137+02:00",
+        "LastChanged": "2015-02-12T04:22:35.9090937+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "sit",
+        "ExtraInfo": "omnis",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Meghan O'Keefe",
+        "FullName": "Ms. Thora Lennie Heaney DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 716
+            "FieldType": "System.Int32",
+            "FieldLength": 158
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "vel",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Mrs. Leonor Senger PhD",
+    "FullName": "Diamond Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 420
       }
     }
   }

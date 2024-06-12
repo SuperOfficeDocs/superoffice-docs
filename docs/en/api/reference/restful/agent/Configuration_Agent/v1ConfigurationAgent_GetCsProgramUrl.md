@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "inventore",
-  "ProgramName": "Baumbach LLC",
-  "Action": "tempore",
-  "ExtraParameters": "voluptatibus"
+  "Language": "illo",
+  "ProgramName": "Stark Group",
+  "Action": "et",
+  "ExtraParameters": "nihil"
 }
 ```
 

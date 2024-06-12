@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Windler Group",
+  "ProviderName": "Kreiger, Hermann and Jenkins",
   "DesiredColumns": [
-    "nemo",
-    "aut"
+    "quisquam",
+    "ad"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Johnson Group",
+    "Name": "Auer, Osinski and Brakus",
     "Direction": "ASC"
   },
   {
-    "Name": "Johnson Group",
+    "Name": "Auer, Osinski and Brakus",
     "Direction": "ASC"
   }
 ]

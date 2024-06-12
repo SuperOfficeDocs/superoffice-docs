@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 35,
-    "ParentId": 760,
-    "Name": "Braun-Strosin",
-    "Fullname": "exercitationem",
-    "CategoryMaster": 159,
+    "TicketCategoryId": 309,
+    "ParentId": 749,
+    "Name": "Barrows, Weimann and Bailey",
+    "Fullname": "modi",
+    "CategoryMaster": 849,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Koelpin Group",
+    "ExternalName": "McLaughlin Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 560,
-    "ReplyTemplate": 360,
-    "NotificationEmail": "noel.zemlak@reichert.ca",
+    "AssignmentLag": 972,
+    "ReplyTemplate": 974,
+    "NotificationEmail": "amalia_rice@bashirian.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 486,
+    "EffectiveReplyTemplateId": 416,
     "ExtraFields": {
-      "ExtraFields1": "itaque",
-      "ExtraFields2": "et"
+      "ExtraFields1": "atque",
+      "ExtraFields2": "nulla"
     },
     "CustomFields": {
-      "CustomFields1": "autem",
-      "CustomFields2": "reprehenderit"
+      "CustomFields1": "voluptates",
+      "CustomFields2": "odit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldLength": 963
       }
     }
   }

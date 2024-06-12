@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Dec 2021 12:57:42 G12T
+Last-Modified: Wed, 28 Mar 2018 04:22:35 G3T
 
 [
   {
-    "ForeignDeviceId": 670,
-    "Name": "Veum, Bayer and Eichmann",
-    "CreatedDate": "2000-08-13T12:57:42.448256+02:00",
-    "UpdatedDate": "2021-12-28T12:57:42.448256+01:00",
-    "AssociateFullName": "Ms. Vern Kari Osinski",
-    "CreatedBy": "et",
-    "UpdatedBy": "eos",
-    "DeviceIdentifier": "molestias",
-    "ForeignAppId": 19,
+    "ForeignDeviceId": 666,
+    "Name": "Botsford-Romaguera",
+    "CreatedDate": "2019-07-11T04:22:35.0010854+02:00",
+    "UpdatedDate": "2018-03-28T04:22:35.0010854+02:00",
+    "AssociateFullName": "Abdullah Rose Nolan PhD",
+    "CreatedBy": "dolores",
+    "UpdatedBy": "voluptatem",
+    "DeviceIdentifier": "velit",
+    "ForeignAppId": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 306
+        "FieldType": "System.Int32",
+        "FieldLength": 210
       }
     }
   }

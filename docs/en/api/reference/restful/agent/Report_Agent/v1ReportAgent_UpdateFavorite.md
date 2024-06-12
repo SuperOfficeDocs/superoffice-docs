@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 556,
+  "ReportId": 236,
   "ReportCategory": "All",
-  "Description": "User-friendly composite interface",
+  "Description": "Balanced fault-tolerant moderator",
   "ReportLayout": "CalendarMonth",
-  "Name": "King Inc and Sons",
-  "AssociateId": 989,
-  "TemplateId": 385,
-  "Published": false,
+  "Name": "Boyer, Collins and Dickens",
+  "AssociateId": 168,
+  "TemplateId": 693,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

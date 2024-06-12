@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "blanditiis",
-      "Key": "minus"
+      "Section": "praesentium",
+      "Key": "pariatur"
     },
     {
-      "Section": "blanditiis",
-      "Key": "minus"
+      "Section": "praesentium",
+      "Key": "pariatur"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ullam",
+    "RawValue": "voluptatibus",
     "Specification": null,
-    "DisplayValue": "et",
-    "DisplayTooltip": "nobis",
+    "DisplayValue": "suscipit",
+    "DisplayTooltip": "dicta",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 337,
-    "PrefDescId": 806,
-    "TableName": "Hansen, Feeney and Botsford",
-    "UserPreferenceId": 946,
+    "TargetId": 214,
+    "PrefDescId": 94,
+    "TableName": "Jacobi, Rolfson and Spinka",
+    "UserPreferenceId": 898,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldLength": 991
       }
     }
   }

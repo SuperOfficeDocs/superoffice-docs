@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 317,
-    "Name": "Johns, Daugherty and Huels",
-    "Description": "Expanded contextually-based alliance",
-    "DeltaJson": "non",
+    "ConfigurableScreenDeltaId": 914,
+    "Name": "Cummings Inc and Sons",
+    "Description": "Horizontal global ability",
+    "DeltaJson": "nulla",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "exercitationem",
-    "UpdatedDate": "2006-08-24T12:57:33.4462335+02:00",
-    "CreatedDate": "2007-08-13T12:57:33.4462335+02:00",
+    "RecipeId": "incidunt",
+    "UpdatedDate": "1999-09-21T04:22:26.1684694+02:00",
+    "CreatedDate": "2017-04-04T04:22:26.1684694+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      553,
-      426
+      589,
+      378
     ],
-    "AppliesToKey": "dolorem",
+    "AppliesToKey": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

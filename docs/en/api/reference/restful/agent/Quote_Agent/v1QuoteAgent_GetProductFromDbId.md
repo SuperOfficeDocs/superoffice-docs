@@ -110,7 +110,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 194
+  "ProductId": 732
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 879,
-  "ERPProductKey": "hic",
-  "ERPPriceListKey": "explicabo",
-  "Name": "Zulauf, Halvorson and Hirthe",
-  "Description": "De-engineered hybrid framework",
-  "Code": "rerum",
-  "PriceUnit": "amet",
-  "QuantityUnit": "dolores",
+  "ProductId": 232,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "impedit",
+  "Name": "Ernser-Upton",
+  "Description": "Distributed next generation attitude",
+  "Code": "excepturi",
+  "PriceUnit": "ipsum",
+  "QuantityUnit": "ratione",
   "IsSubscription": true,
-  "SubscriptionUnit": "doloribus",
-  "DefaultSubscriptionQuantity": 3497.544,
-  "ItemNumber": "1535156",
+  "SubscriptionUnit": "tenetur",
+  "DefaultSubscriptionQuantity": 14256.565999999999,
+  "ItemNumber": "1438812",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatem",
-  "ProductTypeKey": "non",
-  "VAT": 16017.874,
-  "VATInfo": "cupiditate",
-  "UnitCost": 322.80199999999996,
-  "UnitMinimumPrice": 27563.53,
-  "UnitListPrice": 8126.4619999999995,
-  "InAssortment": false,
-  "Supplier": "ut",
-  "SupplierCode": "et",
-  "Rights": "similique",
-  "Rule": "omnis",
+  "ProductFamilyKey": "labore",
+  "ProductTypeKey": "voluptates",
+  "VAT": 26538.712,
+  "VATInfo": "sapiente",
+  "UnitCost": 26407.084,
+  "UnitMinimumPrice": 27920.806,
+  "UnitListPrice": 23517.536,
+  "InAssortment": true,
+  "Supplier": "tempora",
+  "SupplierCode": "ea",
+  "Rights": "est",
+  "Rule": "quam",
   "ExtraInfo": [
     {
-      "Name": "Stiedemann-Zemlak",
-      "Value": "suscipit",
+      "Name": "Pollich Group",
+      "Value": "esse",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldLength": 327
         }
       }
     },
     {
-      "Name": "Stiedemann-Zemlak",
-      "Value": "suscipit",
+      "Name": "Pollich Group",
+      "Value": "esse",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldLength": 327
         }
       }
     }
   ],
-  "RawExtraInfo": "recusandae",
-  "ExtraField1": "eligendi",
-  "ExtraField2": "mollitia",
-  "ExtraField3": "assumenda",
-  "ExtraField4": "iusto",
-  "ExtraField5": "quasi",
-  "InStock": 6390.226,
+  "RawExtraInfo": "libero",
+  "ExtraField1": "non",
+  "ExtraField2": "facilis",
+  "ExtraField3": "molestias",
+  "ExtraField4": "voluptate",
+  "ExtraField5": "expedita",
+  "InStock": 12999.832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 532
     }
   }
 }

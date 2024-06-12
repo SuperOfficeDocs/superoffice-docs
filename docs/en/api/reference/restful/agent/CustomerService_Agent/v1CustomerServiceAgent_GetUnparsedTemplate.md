@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 179,
-  "LanguageId": 196
+  "ReplyTemplateId": 480,
+  "LanguageId": 591
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 925,
+  "ReplyTemplateId": 241,
   "PlainParsed": "qui",
-  "HtmlParsed": "quia",
+  "HtmlParsed": "aspernatur",
   "Attachments": [
     {
-      "AttachmentId": 818,
-      "Name": "Bailey Inc and Sons",
-      "ContentType": "quia",
-      "AttSize": 501,
+      "AttachmentId": 597,
+      "Name": "Pfeffer, Jaskolski and Walter",
+      "ContentType": "quis",
+      "AttSize": 795,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "natus",
-      "IsSafeFileExtension": false,
+      "ContentId": "dolorem",
+      "AuthKey": "inventore",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldLength": 357
         }
       }
     }
   ],
-  "Subject": "dolor",
+  "Subject": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 163
     }
   }
 }

@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 655,
-  "ListItemId": 676,
+  "UdListDefinitionId": 778,
+  "ListItemId": 536,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Dach, Jaskolski and Bernier",
-    "ToolTip": "Et delectus sunt ipsum quae.",
+    "Id": 532,
+    "Name": "Windler-Funk",
+    "ToolTip": "Porro exercitationem laborum a rerum laudantium vero veritatis.",
     "Deleted": true,
-    "Rank": 148,
-    "Type": "deserunt",
-    "ColorBlock": 663,
-    "IconHint": "iusto",
+    "Rank": 402,
+    "Type": "incidunt",
+    "ColorBlock": 762,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "1997-12-20T12:57:34.1492269+01:00",
+    "LastChanged": "2006-07-21T04:22:26.969259+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Pagac LLC",
-        "ToolTip": "Animi quae.",
-        "Deleted": false,
-        "Rank": 112,
-        "Type": "exercitationem",
-        "ColorBlock": 11,
-        "IconHint": "eum",
+        "Id": 820,
+        "Name": "Durgan, Kemmer and Okuneva",
+        "ToolTip": "Ullam et et.",
+        "Deleted": true,
+        "Rank": 624,
+        "Type": "quisquam",
+        "ColorBlock": 590,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2010-10-05T12:57:34.1492269+02:00",
+        "LastChanged": "2015-07-31T04:22:26.969259+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "sunt",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Prof. Gertrude Corine Hodkiewicz V",
+        "FullName": "Hailey Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldLength": 289
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "vitae",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Abdullah Fisher PhD",
+    "FullName": "Felicita Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 803
       }
     }
   }

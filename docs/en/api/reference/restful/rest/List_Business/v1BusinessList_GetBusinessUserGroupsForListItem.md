@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Hagenes LLC",
-    "ToolTip": "Ad est eos sint blanditiis minus qui cumque.",
+    "Id": 232,
+    "Name": "Keebler, Effertz and Johns",
+    "ToolTip": "Voluptates non voluptas aliquid quia.",
     "Deleted": false,
-    "Rank": 544,
-    "Type": "aut",
-    "ColorBlock": 573,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2011-10-18T12:57:43.3239611+02:00",
+    "Rank": 764,
+    "Type": "repudiandae",
+    "ColorBlock": 173,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2006-01-02T04:22:35.8153337+01:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Bailey Group",
-        "ToolTip": "Quo nihil amet culpa cumque.",
-        "Deleted": true,
-        "Rank": 492,
-        "Type": "dolor",
-        "ColorBlock": 720,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2004-03-18T12:57:43.3239611+01:00",
+        "Id": 746,
+        "Name": "Quitzon, Jacobi and Nitzsche",
+        "ToolTip": "Iure quia dolor modi et.",
+        "Deleted": false,
+        "Rank": 413,
+        "Type": "qui",
+        "ColorBlock": 739,
+        "IconHint": "debitis",
+        "Selected": false,
+        "LastChanged": "2009-01-03T04:22:35.8153337+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quis",
+        "ExtraInfo": "unde",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Esteban Huels",
+        "FullName": "Juana Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldLength": 446
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "natus",
-    "Hidden": false,
-    "FullName": "Theo Gerhold",
+    "ExtraInfo": "animi",
+    "StyleHint": "ex",
+    "Hidden": true,
+    "FullName": "Tierra Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 239
       }
     }
   }

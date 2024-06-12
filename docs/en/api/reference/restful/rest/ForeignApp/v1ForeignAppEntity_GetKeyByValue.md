@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=nisi
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=commodi
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 11 Mar 2024 12:57:42 G3T
+Last-Modified: Sun, 12 Aug 2001 04:22:35 G8T
 
 {
-  "Key": "et",
-  "Value": "illum",
-  "RecordId": 808,
-  "CreatedDate": "2015-07-03T12:57:42.4638774+02:00",
-  "UpdatedDate": "2024-03-11T12:57:42.4638774+01:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "quisquam",
-  "TableName": "Collier Inc and Sons",
+  "Key": "ut",
+  "Value": "quidem",
+  "RecordId": 960,
+  "CreatedDate": "2012-10-29T04:22:35.0010854+01:00",
+  "UpdatedDate": "2001-08-12T04:22:35.0010854+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "omnis",
+  "TableName": "Mayert, Rolfson and Gutkowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

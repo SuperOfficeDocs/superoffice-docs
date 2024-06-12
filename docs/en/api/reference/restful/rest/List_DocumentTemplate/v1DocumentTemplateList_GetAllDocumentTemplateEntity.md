@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 84,
-    "Name": "Ruecker, Kiehn and O'Connell",
-    "Tooltip": "vel",
-    "SaveInDb": 439,
-    "Filename": "est",
-    "DefaultOref": "aut",
+    "DocumentTemplateId": 882,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "voluptatem",
+    "SaveInDb": 81,
+    "Filename": "aut",
+    "DefaultOref": "blanditiis",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 242,
-    "IntentId": 519,
+    "AutoeventId": 574,
+    "IntentId": 929,
     "IsDefaultPublished": false,
-    "Rank": 441,
-    "LoadTemplateFromPlugin": 736,
-    "MimeType": "quidem",
+    "Rank": 626,
+    "LoadTemplateFromPlugin": 227,
+    "MimeType": "est",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 637,
+    "DocumentTypeKey": 779,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "donnell_koelpin@little.name",
+    "EmailSubject": "brain@faybeatty.info",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "yazmin.bradtke@mclaughlin.co.uk",
+    "SenderEmailAddress": "tanya@lindgren.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 800
+        "FieldLength": 332
       }
     }
   }

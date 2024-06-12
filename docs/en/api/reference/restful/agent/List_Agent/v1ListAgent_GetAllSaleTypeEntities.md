@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 216,
-    "Name": "Kuvalis LLC",
-    "Tooltip": "itaque",
-    "Rank": 88,
+    "SaleTypeId": 522,
+    "Name": "O'Conner LLC",
+    "Tooltip": "beatae",
+    "Rank": 489,
     "DurationUnit": "Century",
-    "SaleDuration": 614,
-    "SaleTypeCatId": 549,
+    "SaleDuration": 479,
+    "SaleTypeCatId": 279,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 710,
-    "QuoteLinesTemplate": 863,
-    "ConfirmationLinesTemplate": 730,
+    "DefaultQuoteValidity": 673,
+    "QuoteLinesTemplate": 433,
+    "ConfirmationLinesTemplate": 458,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 79,
-    "MinEarningPercent": 520,
-    "GroupQuoteLinesBy": 211,
-    "SortGroupLinesBy": 37,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 522,
+    "MinEarningPercent": 884,
+    "GroupQuoteLinesBy": 608,
+    "SortGroupLinesBy": 131,
     "Stages": [
       {
-        "Id": 145,
-        "Name": "Kulas-Kling",
-        "ToolTip": "Ipsa voluptatem quia.",
+        "Id": 362,
+        "Name": "Brown-Cole",
+        "ToolTip": "Natus tempora.",
         "Deleted": false,
-        "Rank": 742,
-        "Type": "quidem",
-        "ColorBlock": 967,
-        "IconHint": "explicabo",
-        "Selected": false,
-        "LastChanged": "2003-02-22T12:57:34.1336045+01:00",
+        "Rank": 412,
+        "Type": "at",
+        "ColorBlock": 851,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2024-04-29T04:22:26.9536139+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "voluptatum",
-        "Hidden": false,
-        "FullName": "Alexandria Herzog",
+        "ExtraInfo": "et",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Mrs. Mable Wintheiser IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 55
+            "FieldLength": 74
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 190
       }
     }
   }

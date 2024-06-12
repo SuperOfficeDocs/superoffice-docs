@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 769,
-    "ResourceId": 179,
-    "Text": "labore",
+    "LanguageId": 775,
+    "ResourceId": 36,
+    "Text": "deleniti",
     "Type": "Column",
-    "LocalizedTextId": 304,
+    "LocalizedTextId": 569,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 1002
       }
     }
   }

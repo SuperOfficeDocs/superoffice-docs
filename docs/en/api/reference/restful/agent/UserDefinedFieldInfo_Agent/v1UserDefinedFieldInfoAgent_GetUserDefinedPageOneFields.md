@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 683
+  "UserGroupId": 931
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 975,
-    "ColumnId": 290,
-    "FieldDefault": "alias",
-    "FieldHeight": 585,
-    "FieldLabel": "similique",
-    "FieldLeft": 56,
-    "FieldTop": 536,
+    "UDefFieldId": 248,
+    "ColumnId": 659,
+    "FieldDefault": "adipisci",
+    "FieldHeight": 31,
+    "FieldLabel": "ab",
+    "FieldLeft": 186,
+    "FieldTop": 93,
     "FieldType": "Checkbox",
-    "FieldWidth": 16,
-    "FormatMask": "praesentium",
+    "FieldWidth": 811,
+    "FormatMask": "ipsum",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 469,
-    "LabelLeft": 371,
-    "LabelTop": 313,
-    "LabelWidth": 36,
-    "LastVersionId": 283,
-    "ListTableId": 604,
+    "IsIndexed": false,
+    "LabelHeight": 317,
+    "LabelLeft": 327,
+    "LabelTop": 282,
+    "LabelWidth": 540,
+    "LastVersionId": 839,
+    "ListTableId": 402,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 859,
-    "ProgId": "labore",
+    "Page1LineNo": 920,
+    "ProgId": "adipisci",
     "IsReadOnly": false,
-    "ShortLabel": "commodi",
-    "TabOrder": 936,
-    "TextLength": 116,
-    "Tooltip": "ullam",
-    "UdefIdentity": 315,
-    "UDListDefinitionId": 902,
+    "ShortLabel": "adipisci",
+    "TabOrder": 387,
+    "TextLength": 98,
+    "Tooltip": "veniam",
+    "UdefIdentity": 788,
+    "UDListDefinitionId": 761,
     "Justification": "Center",
-    "Version": 803,
-    "TemplateVariableName": "Hegmann, Gusikowski and Lubowitz",
+    "Version": 158,
+    "TemplateVariableName": "Corwin-Konopelski",
     "HasBeenPublished": true,
-    "MdoListName": "Aufderhar LLC",
+    "MdoListName": "Nienow LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 613
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

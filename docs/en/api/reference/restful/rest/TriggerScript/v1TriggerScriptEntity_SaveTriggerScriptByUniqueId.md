@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 526,
-  "Name": "Walter, Hilll and Kovacek",
+  "ScreenChooserId": 671,
+  "Name": "Fay Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "recusandae",
-  "Source": "qui",
-  "Registered": "2017-08-19T12:57:43.0892086+02:00",
-  "RegisteredAssociateId": 714,
-  "Updated": "2004-03-13T12:57:43.0892086+01:00",
-  "UpdatedAssociateId": 71
+  "Enabled": false,
+  "UniqueIdentifier": "ex",
+  "Source": "iusto",
+  "Registered": "2002-03-06T04:22:35.595979+01:00",
+  "RegisteredAssociateId": 276,
+  "Updated": "2008-03-03T04:22:35.595979+01:00",
+  "UpdatedAssociateId": 905
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 317,
-  "Name": "Bailey, Corwin and Renner",
+  "ScreenChooserId": 77,
+  "Name": "Hane-Olson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "tempore",
-  "Source": "qui",
-  "Registered": "2002-03-10T12:57:43.0892086+01:00",
-  "RegisteredAssociateId": 829,
-  "Updated": "2000-06-22T12:57:43.0892086+02:00",
-  "UpdatedAssociateId": 761,
+  "UniqueIdentifier": "omnis",
+  "Source": "voluptatibus",
+  "Registered": "2010-08-17T04:22:35.595979+02:00",
+  "RegisteredAssociateId": 258,
+  "Updated": "2019-04-26T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 278
     }
   }
 }

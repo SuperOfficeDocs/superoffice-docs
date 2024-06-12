@@ -284,7 +284,7 @@ Shadow contact provider for the Mailings provider.
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |mailingAddr/person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
 |mailingAddr/person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - Updated by flow: Updated by flow| x |
+|mailingAddr/person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
 |mailingAddr/person/createdByForm|listAny|Contact - Created by form: Created by form| x |
 |mailingAddr/person/phone/formattedNumber|string|Contact - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectPhone/formattedNumber|string|Contact - Direct - Phone: Displays phone number|  |
@@ -596,7 +596,7 @@ Shadow contact provider for the Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionV2?$select=projectId,mailingAddr/contact/contactAssociate/otherGroups,mailingAddr/person/searchPhone/description,mailingAddr/person/restrictionAddress/line3,mailingAddr/person/personExtra/y_rental/x_start
+GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingType,mailingAddr/person/firstName,mailingAddr/person/personDeletedDate,mailingAddr/person/isProjectMember,mailingAddr/person/isMailingRecipient
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

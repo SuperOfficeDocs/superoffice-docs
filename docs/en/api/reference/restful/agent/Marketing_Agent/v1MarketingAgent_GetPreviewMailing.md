@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 857
+  "ShipmentAddrId": 244
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2006-02-17T12:57:34.2429559+01:00",
+  "SendingTime": "2017-12-17T04:22:27.0653754+01:00",
   "Status": "Blocked",
-  "ShipmentId": 321,
-  "ShipmentDescription": "Open-source static help-desk",
-  "FromAddress": "perspiciatis",
-  "Configuration": 258,
-  "ContactId": 457,
-  "ContactName": "Herzog, Hauck and Hartmann",
-  "PersonId": 670,
-  "PersonFullName": "Nola Hermiston",
-  "ShipmentType": "corrupti",
-  "MessageId": 141,
-  "MessageSubject": "quam",
-  "DocumentMessageId": 1000,
-  "Opened": "2006-08-20T12:57:34.2429559+02:00",
-  "LinkClicks": 24,
+  "ShipmentId": 443,
+  "ShipmentDescription": "Reduced regional challenge",
+  "FromAddress": "accusamus",
+  "Configuration": 43,
+  "ContactId": 980,
+  "ContactName": "Marvin-Hilll",
+  "PersonId": 857,
+  "PersonFullName": "Garrison Trantow",
+  "ShipmentType": "dignissimos",
+  "MessageId": 233,
+  "MessageSubject": "aut",
+  "DocumentMessageId": 158,
+  "Opened": "2005-12-15T04:22:27.0653754+01:00",
+  "LinkClicks": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

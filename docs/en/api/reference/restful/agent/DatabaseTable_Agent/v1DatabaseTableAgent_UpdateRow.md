@@ -70,11 +70,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Murazik, Bashirian and Gerlach",
-  "Id": 1001,
+  "TableName": "Mraz, Rice and Gerlach",
+  "Id": 433,
   "Values": {
-    "Values1": "distinctio",
-    "Values2": "quibusdam"
+    "Values1": "ad",
+    "Values2": "dicta"
   }
 }
 ```

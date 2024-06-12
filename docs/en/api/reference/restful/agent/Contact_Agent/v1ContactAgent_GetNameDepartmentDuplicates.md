@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Green-O'Hara",
+  "Name": "Jast-Wisozk",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Lebsack-Mueller",
-    "SoPrimaryKey": 174,
-    "EntryName": "Nitzsche, Ferry and Champlin",
-    "EntryIdentifier": "eum",
-    "RuleDisplayName": "Murphy Group",
+    "RuleName": "Hand Inc and Sons",
+    "SoPrimaryKey": 34,
+    "EntryName": "Vandervort, Ledner and Kunze",
+    "EntryIdentifier": "excepturi",
+    "RuleDisplayName": "Cormier, Spinka and Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldType": "System.String",
+        "FieldLength": 304
       }
     }
   }

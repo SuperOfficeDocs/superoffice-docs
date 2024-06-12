@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 439,
-  "ColumnId": 945,
-  "FieldDefault": "quod",
-  "FieldHeight": 913,
-  "FieldLabel": "officiis",
-  "FieldLeft": 591,
-  "FieldTop": 337,
+  "UDefFieldId": 819,
+  "ColumnId": 749,
+  "FieldDefault": "porro",
+  "FieldHeight": 880,
+  "FieldLabel": "impedit",
+  "FieldLeft": 536,
+  "FieldTop": 449,
   "FieldType": "Checkbox",
-  "FieldWidth": 62,
-  "FormatMask": "suscipit",
-  "HideLabel": false,
+  "FieldWidth": 512,
+  "FormatMask": "id",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 832,
-  "LabelLeft": 939,
-  "LabelTop": 859,
-  "LabelWidth": 701,
-  "LastVersionId": 319,
-  "ListTableId": 576,
+  "LabelHeight": 797,
+  "LabelLeft": 668,
+  "LabelTop": 355,
+  "LabelWidth": 217,
+  "LastVersionId": 27,
+  "ListTableId": 387,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 597,
-  "ProgId": "ducimus",
-  "IsReadOnly": true,
-  "ShortLabel": "sit",
-  "TabOrder": 923,
-  "TextLength": 765,
-  "Tooltip": "optio",
-  "UdefIdentity": 476,
-  "UDListDefinitionId": 97,
+  "Page1LineNo": 14,
+  "ProgId": "quos",
+  "IsReadOnly": false,
+  "ShortLabel": "iure",
+  "TabOrder": 463,
+  "TextLength": 8,
+  "Tooltip": "facilis",
+  "UdefIdentity": 161,
+  "UDListDefinitionId": 744,
   "Justification": "Center",
-  "Version": 719,
-  "TemplateVariableName": "Stokes, Hermann and Rau",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuvalis, Robel and Veum",
+  "Version": 540,
+  "TemplateVariableName": "Crona-Hodkiewicz",
+  "HasBeenPublished": false,
+  "MdoListName": "Hirthe-Wisoky",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 643
     }
   }
 }

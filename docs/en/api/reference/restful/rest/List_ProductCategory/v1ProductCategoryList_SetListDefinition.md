@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Wisoky, Rodriguez and Funk",
-  "Tooltip": "commodi",
+  "Id": 380,
+  "Name": "Kertzmann Inc and Sons",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 221,
+  "Rank": 193,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 456,
-  "Name": "Abshire, Simonis and Metz",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 386,
+  "Id": 40,
+  "Name": "Bogan, Eichmann and Cassin",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 527,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldType": "System.String",
+      "FieldLength": 615
     }
   }
 }

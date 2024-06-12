@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 926,
+  "TargetDimensionId": 952,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "reiciendis",
-  "DimensionListName": "Heaney-O'Conner",
-  "DimensionListId": 5,
-  "DimensionListLabel": "laudantium",
+  "DimensionListField": "ipsam",
+  "DimensionListName": "Bergstrom Group",
+  "DimensionListId": 858,
+  "DimensionListLabel": "sunt",
   "SelectedDimensions": [
-    358,
-    536
+    341,
+    483
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 105
     }
   }
 }

@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 34,
-  "StartDate": "2013-02-07T12:57:32.8990255+01:00",
-  "EndDate": "2014-03-07T12:57:32.8990255+01:00",
-  "RecurrenceCounter": 244,
+  "RecurrenceId": 82,
+  "StartDate": "2005-08-14T04:22:25.809066+02:00",
+  "EndDate": "2007-03-20T04:22:25.809066+01:00",
+  "RecurrenceCounter": 109,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1998-11-04T12:57:32.8990255+01:00",
+      "Date": "2014-09-21T04:22:25.809066+02:00",
       "IsConflict": true,
-      "Description": "Cross-group scalable standardization",
-      "DescriptionStyleHint": "Adaptive object-oriented database",
-      "Tooltip": "maxime"
+      "Description": "Total optimal software",
+      "DescriptionStyleHint": "Seamless intangible Graphic Interface",
+      "Tooltip": "nulla"
     },
     {
-      "Date": "1998-11-04T12:57:32.8990255+01:00",
+      "Date": "2014-09-21T04:22:25.809066+02:00",
       "IsConflict": true,
-      "Description": "Cross-group scalable standardization",
-      "DescriptionStyleHint": "Adaptive object-oriented database",
-      "Tooltip": "maxime"
+      "Description": "Total optimal software",
+      "DescriptionStyleHint": "Seamless intangible Graphic Interface",
+      "Tooltip": "nulla"
     }
   ],
   "IsRecurrence": true

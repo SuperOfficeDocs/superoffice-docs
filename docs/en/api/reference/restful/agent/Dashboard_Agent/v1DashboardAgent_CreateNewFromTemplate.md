@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 643,
-  "Caption": "earum",
-  "Description": "Optimized intermediate groupware",
-  "SelectionId": 357,
+  "DashboardTileId": 225,
+  "Caption": "quia",
+  "Description": "Exclusive fault-tolerant task-force",
+  "SelectionId": 419,
   "VisibleFor": [
     {
-      "VisibleId": 845,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "mollitia"
+      "DisplayValue": "occaecati"
     },
     {
-      "VisibleId": 845,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "mollitia"
+      "DisplayValue": "occaecati"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 94,
-  "Caption": "fugit",
-  "Description": "Visionary executive forecast",
-  "ChartName": "Dach-Abshire",
-  "ChartId": "voluptatibus",
-  "IsDefault": false,
-  "AssociateId": 608,
-  "GroupId": 607,
-  "SelectionId": 502,
-  "Config": "earum",
+  "DashboardTileId": 716,
+  "Caption": "illum",
+  "Description": "Versatile static focus group",
+  "ChartName": "Kulas Group",
+  "ChartId": "quibusdam",
+  "IsDefault": true,
+  "AssociateId": 359,
+  "GroupId": 731,
+  "SelectionId": 199,
+  "Config": "quis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Padberg-West",
-      "Description": "Networked neutral time-frame",
+      "Name": "Treutel-Purdy",
+      "Description": "Persevering 24/7 model",
       "Type": "Boolean",
-      "ListName": "Kub Inc and Sons",
+      "ListName": "Robel-Schuster",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "excepturi",
-      "DefaultDataOption": false,
+      "Value": "iusto",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 353
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 55,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 252
         }
       }
     },
     {
-      "VisibleId": 55,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldType": "System.String",
+          "FieldLength": 252
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 530
     }
   }
 }

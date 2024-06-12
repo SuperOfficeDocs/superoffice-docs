@@ -92,7 +92,7 @@ the email_id.
 |isProjectMember| *None* |Is project member: This person is a project member|  |
 |isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
 |updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
-|whenUpdatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
+|whenUpdatedByWorkflow| *None* |When updated by flow: When updated by flow|  |
 |createdByForm| *None* |Created by form: Created by form|  |
 |phone/formattedNumber|string|Phone : Displays phone number|  |
 |who| *None* |Full name: Displays the contact's full name.| x |
@@ -396,7 +396,7 @@ the email_id.
 |contactSupportPerson/isProjectMember| *None* |User support contact - Is project member: This person is a project member|  |
 |contactSupportPerson/isStakeholder| *None* |User support contact - Is stakeholder: This person is a sale stakeholder|  |
 |contactSupportPerson/updatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
-|contactSupportPerson/whenUpdatedByWorkflow| *None* |User support contact - Updated by flow: Updated by flow|  |
+|contactSupportPerson/whenUpdatedByWorkflow| *None* |User support contact - When updated by flow: When updated by flow|  |
 |contactSupportPerson/createdByForm| *None* |User support contact - Created by form: Created by form|  |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.|  |
 |contactSupportPerson/personInfo/textId| *None* |User support contact - Text ID|  |
@@ -515,7 +515,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=personMobilePhone/description,personContact/nameDepartment,category,email/emailProtocol,contactSupportPerson/birthMonth
+GET /api/v1/archive/EmailAddress?$select=searchPhone/formattedNumber,postAddress/addressId,postAddress/line2,postAddress/wgs84longitude,restrictionPostalAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Rempel-Blick",
-    "ToolTip": "Autem a sapiente eveniet nihil a maxime.",
+    "Id": 957,
+    "Name": "Bartoletti, Schoen and Ortiz",
+    "ToolTip": "Dolorum et impedit.",
     "Deleted": false,
-    "Rank": 218,
-    "Type": "neque",
-    "ColorBlock": 457,
-    "IconHint": "nulla",
+    "Rank": 28,
+    "Type": "tempora",
+    "ColorBlock": 932,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2019-09-30T12:57:43.6520109+02:00",
+    "LastChanged": "2013-07-03T04:22:36.1122165+02:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Sipes Group",
-        "ToolTip": "Sed ipsum nobis.",
+        "Id": 290,
+        "Name": "Tillman, McClure and Mitchell",
+        "ToolTip": "Et ut vel cumque.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "minima",
-        "ColorBlock": 136,
-        "IconHint": "dolorum",
-        "Selected": false,
-        "LastChanged": "1999-11-15T12:57:43.6520109+01:00",
+        "Rank": 576,
+        "Type": "beatae",
+        "ColorBlock": 367,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2003-11-08T04:22:36.1122165+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Newell Okuneva"
+        "ExtraInfo": "officiis",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Ottilie Green"
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Mrs. Darby Roob"
+    "FullName": "Mr. Chauncey Alejandrin Kuhn II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Fadel LLC",
-    "ToolTip": "Vero est qui quibusdam voluptas aperiam ratione.",
-    "Deleted": false,
-    "Rank": 455,
-    "Type": "ut",
-    "ColorBlock": 412,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2023-07-25T12:57:43.6520109+02:00",
+    "Id": 386,
+    "Name": "Johnston-Shields",
+    "ToolTip": "Ducimus quo.",
+    "Deleted": true,
+    "Rank": 201,
+    "Type": "possimus",
+    "ColorBlock": 173,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2007-02-07T04:22:36.1122165+01:00",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Kshlerin-Murray",
-        "ToolTip": "Fuga repellat.",
-        "Deleted": false,
-        "Rank": 529,
-        "Type": "nam",
-        "ColorBlock": 569,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2004-08-12T12:57:43.6520109+02:00",
+        "Id": 800,
+        "Name": "Littel, McCullough and Aufderhar",
+        "ToolTip": "Natus debitis alias iure.",
+        "Deleted": true,
+        "Rank": 260,
+        "Type": "omnis",
+        "ColorBlock": 460,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "1997-08-11T04:22:36.1122165+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "velit",
+        "ExtraInfo": "corporis",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Jordi Rutherford",
+        "FullName": "Kelley Emard MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldType": "System.String",
+            "FieldLength": 719
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "dolore",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Rhoda Baron King II",
+    "FullName": "Mrs. Luther Norma Larkin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   }

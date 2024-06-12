@@ -85,11 +85,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Mayert-Abbott",
-  "StorageKey": "molestiae",
-  "PageSize": 496,
-  "PageNumber": 503
+  "StorageType": "delectus",
+  "ProviderName": "Fahey-Erdman",
+  "StorageKey": "sed",
+  "PageSize": 536,
+  "PageNumber": 672
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Macejkovic-Corwin",
-      "DisplayTooltip": "eum",
-      "DisplayType": "ipsam",
+      "DisplayName": "Dicki, Kerluke and Casper",
+      "DisplayTooltip": "beatae",
+      "DisplayType": "temporibus",
       "CanOrderBy": false,
-      "Name": "Rodriguez, Wintheiser and Auer",
+      "Name": "Jast-Harvey",
       "CanRestrictBy": false,
-      "RestrictionType": "ex",
-      "RestrictionListName": "Schumm-Sipes",
+      "RestrictionType": "animi",
+      "RestrictionListName": "Huels-Sauer",
       "IsVisible": false,
-      "ExtraInfo": "ex",
-      "Width": "repudiandae",
-      "IconHint": "libero",
-      "HeadingIconHint": "magnam"
+      "ExtraInfo": "facilis",
+      "Width": "odio",
+      "IconHint": "sunt",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Eichmann, Klein and Wunsch",
-      "PrimaryKey": 58,
+      "EntityName": "Pfeffer, Schuppe and Hilpert",
+      "PrimaryKey": 929,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "laborum",
-          "LinkHint": "culpa"
+          "DisplayValue": "ut",
+          "TooltipHint": "et",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "veniam",
+      "LinkHint": "totam",
+      "StyleHint": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldType": "System.Int32",
+          "FieldLength": 375
         }
       }
     }
   ],
-  "RowCount": 874,
+  "RowCount": 215,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldLength": 508
     }
   }
 }

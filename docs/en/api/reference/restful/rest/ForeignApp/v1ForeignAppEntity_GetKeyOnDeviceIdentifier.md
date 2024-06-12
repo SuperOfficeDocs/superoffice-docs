@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 03 Aug 2004 12:57:42 G8T
+Last-Modified: Wed, 28 Oct 2009 04:22:35 G10T
 
 {
-  "Key": "vel",
-  "Value": "doloremque",
-  "RecordId": 629,
-  "CreatedDate": "2017-02-24T12:57:42.4638774+01:00",
-  "UpdatedDate": "2004-08-03T12:57:42.4638774+02:00",
-  "UpdatedBy": "possimus",
-  "CreatedBy": "debitis",
-  "TableName": "Kerluke, Morissette and Kunde",
+  "Key": "dolores",
+  "Value": "perspiciatis",
+  "RecordId": 414,
+  "CreatedDate": "2021-04-04T04:22:35.0010854+02:00",
+  "UpdatedDate": "2009-10-28T04:22:35.0010854+01:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "aliquid",
+  "TableName": "Haley LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 163
     }
   }
 }

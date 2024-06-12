@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 495,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Id": 999,
+  "Name": "Gutmann-Howell",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 338,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "pariatur",
+  "Rank": 905,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldLength": 801
     }
   },
   "_Links": {

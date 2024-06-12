@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 906,
-    "Name": "O'Hara, Hilll and Roberts",
-    "ToolTip": "Fugiat maiores.",
+    "Id": 32,
+    "Name": "Marvin, Turner and Heaney",
+    "ToolTip": "Enim sit maxime rerum quia qui.",
     "Deleted": false,
-    "Rank": 526,
-    "Type": "aut",
-    "ColorBlock": 322,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2017-03-27T12:57:42.6669559+02:00",
+    "Rank": 281,
+    "Type": "ex",
+    "ColorBlock": 635,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "1998-01-05T04:22:35.2053915+01:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Lakin Group",
-        "ToolTip": "Similique hic.",
-        "Deleted": false,
-        "Rank": 448,
-        "Type": "voluptate",
-        "ColorBlock": 736,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "2001-01-29T12:57:42.6669559+01:00",
+        "Id": 504,
+        "Name": "Kohler-Schneider",
+        "ToolTip": "Debitis ullam aut pariatur in dolorem expedita sunt.",
+        "Deleted": true,
+        "Rank": 772,
+        "Type": "ratione",
+        "ColorBlock": 474,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2009-09-26T04:22:35.2053915+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Immanuel Goldner IV",
+        "ExtraInfo": "iste",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Prof. Hanna Jacynthe Fay DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 56
+            "FieldType": "System.Int32",
+            "FieldLength": 882
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Domingo Hahn",
+    "ExtraInfo": "tempore",
+    "StyleHint": "provident",
+    "Hidden": true,
+    "FullName": "Lester Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldType": "System.String",
+        "FieldLength": 760
       }
     }
   }

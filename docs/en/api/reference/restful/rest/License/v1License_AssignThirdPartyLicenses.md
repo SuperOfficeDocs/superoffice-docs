@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 267,
-    "Tooltip": "labore",
+    "Total": 592,
+    "Tooltip": "modi",
     "CanAssign": false,
-    "Free": 724,
-    "InUse": 863,
+    "Free": 367,
+    "InUse": 858,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 645,
-    "Name": "Jones-Bashirian",
-    "Description": "Seamless full-range knowledge user",
-    "PrerequisiteModuleName": "Kessler-Reichert",
-    "SortOrder": 628,
-    "ExtraFlags": 569,
+    "ModuleLicenseId": 518,
+    "Name": "Rutherford, Mills and Wuckert",
+    "Description": "Front-line static migration",
+    "PrerequisiteModuleName": "Ankunding-Mills",
+    "SortOrder": 400,
+    "ExtraFlags": 668,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 561
       }
     }
   }

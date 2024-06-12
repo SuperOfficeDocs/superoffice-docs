@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=32
+POST /api/v1/Agents/Person/GetPerson?personId=486
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ut",
-  "PersonId": 104,
-  "Mrmrs": "quia",
-  "Firstname": "Delphia",
-  "Lastname": "Mitchell",
-  "MiddleName": "West-O'Keefe",
-  "Title": "dolorum",
-  "Description": "Organic multi-state project",
-  "Email": "kayla@stehroconnell.co.uk",
-  "FullName": "Hanna Gislason",
-  "DirectPhone": "699-759-2529",
-  "FormalName": "Cruickshank, Glover and Ward",
-  "CountryId": 926,
-  "ContactId": 810,
-  "ContactName": "Fay, Casper and Medhurst",
-  "Retired": 441,
-  "Rank": 522,
-  "ActiveInterests": 343,
+  "Position": "commodi",
+  "PersonId": 199,
+  "Mrmrs": "consequatur",
+  "Firstname": "Kristian",
+  "Lastname": "Russel",
+  "MiddleName": "Weimann, Medhurst and Wisozk",
+  "Title": "nulla",
+  "Description": "Synchronised solution-oriented workforce",
+  "Email": "gussie@mueller.uk",
+  "FullName": "Lisa Borer",
+  "DirectPhone": "(801)367-3276 x0163",
+  "FormalName": "Dibbert-Boyle",
+  "CountryId": 657,
+  "ContactId": 341,
+  "ContactName": "Casper Group",
+  "Retired": 263,
+  "Rank": 704,
+  "ActiveInterests": 889,
   "ContactDepartment": "",
-  "ContactCountryId": 184,
-  "ContactOrgNr": "823569",
-  "FaxPhone": "(108)688-4132 x73437",
-  "MobilePhone": "(944)474-3648 x68056",
-  "ContactPhone": "345.489.4698",
-  "AssociateName": "Collier Group",
-  "AssociateId": 349,
+  "ContactCountryId": 396,
+  "ContactOrgNr": "1197857",
+  "FaxPhone": "885-044-4780 x417",
+  "MobilePhone": "1-625-795-7473 x7385",
+  "ContactPhone": "1-847-402-2959",
+  "AssociateName": "Beahan-Metz",
+  "AssociateId": 997,
   "UsePersonAddress": false,
-  "ContactFax": "repudiandae",
-  "Kanafname": "maiores",
-  "Kanalname": "voluptas",
-  "Post1": "suscipit",
-  "Post2": "et",
-  "Post3": "sint",
-  "EmailName": "rhea@daniel.biz",
-  "ContactFullName": "Perry Dooley",
-  "ActiveErpLinks": 142,
-  "TicketPriorityId": 108,
-  "SupportLanguageId": 597,
-  "SupportAssociateId": 243,
+  "ContactFax": "ex",
+  "Kanafname": "sunt",
+  "Kanalname": "exercitationem",
+  "Post1": "quo",
+  "Post2": "rerum",
+  "Post3": "iure",
+  "EmailName": "shane@spencer.co.uk",
+  "ContactFullName": "Marlin Hagenes",
+  "ActiveErpLinks": 332,
+  "TicketPriorityId": 203,
+  "SupportLanguageId": 576,
+  "SupportAssociateId": 240,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 970
     }
   }
 }

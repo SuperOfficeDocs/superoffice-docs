@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "facere",
     "value": {}
   },
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "facere",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 531,
+  "HierarchyId": 158,
   "Domain": "Dashboards",
-  "Name": "Wiza LLC",
-  "Fullname": "hic",
-  "ParentId": 998,
+  "Name": "Russel-Murray",
+  "Fullname": "atque",
+  "ParentId": 726,
   "Children": [
     {
-      "HierarchyId": 400,
+      "HierarchyId": 477,
       "Domain": "Dashboards",
-      "Name": "Hodkiewicz, Ebert and Romaguera",
-      "Fullname": "sed",
-      "ParentId": 649,
+      "Name": "Blanda Group",
+      "Fullname": "deleniti",
+      "ParentId": 335,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-06-29T12:57:42.4638774+02:00",
-      "RegisteredAssociateId": 161,
-      "Updated": "2024-04-10T12:57:42.4638774+02:00",
-      "UpdatedAssociateId": 684,
+      "Registered": "2002-02-09T04:22:35.0167083+01:00",
+      "RegisteredAssociateId": 684,
+      "Updated": "2012-04-14T04:22:35.0167083+02:00",
+      "UpdatedAssociateId": 548,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldType": "System.Int32",
+          "FieldLength": 31
         }
       }
     }
   ],
-  "Registered": "1999-04-01T12:57:42.4638774+02:00",
-  "RegisteredAssociateId": 151,
-  "Updated": "2022-11-25T12:57:42.4638774+01:00",
-  "UpdatedAssociateId": 808,
+  "Registered": "2012-11-14T04:22:35.0167083+01:00",
+  "RegisteredAssociateId": 168,
+  "Updated": "2000-01-03T04:22:35.0167083+01:00",
+  "UpdatedAssociateId": 580,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 909
     }
   },
   "_Links": {

@@ -8,7 +8,7 @@ so.topic: reference
 so.envir: onsite, online
 ---
 
-# QuoteApprReasonGroupLink Table (524)
+# QuoteApprReasonGroupLink Table (526)
 
 User group link table for QuoteApprReason, for MDO item hiding
 

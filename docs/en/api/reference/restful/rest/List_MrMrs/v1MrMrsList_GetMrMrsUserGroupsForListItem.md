@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Bailey-McGlynn",
-    "ToolTip": "Nisi qui.",
+    "Id": 351,
+    "Name": "Berge-Tromp",
+    "ToolTip": "Natus eos dolor mollitia.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "molestiae",
-    "ColorBlock": 620,
-    "IconHint": "laudantium",
+    "Rank": 588,
+    "Type": "aperiam",
+    "ColorBlock": 787,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2002-07-17T12:57:43.5114182+02:00",
+    "LastChanged": "2021-08-20T04:22:35.9872165+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Kris, Kshlerin and Gorczany",
-        "ToolTip": "Temporibus dolorum laudantium accusantium voluptas repellat.",
-        "Deleted": true,
-        "Rank": 125,
-        "Type": "eos",
-        "ColorBlock": 202,
-        "IconHint": "tempore",
+        "Id": 630,
+        "Name": "Lockman-Bruen",
+        "ToolTip": "Et rerum dolorum et iure numquam ut et.",
+        "Deleted": false,
+        "Rank": 294,
+        "Type": "est",
+        "ColorBlock": 196,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2011-05-12T12:57:43.5114182+02:00",
+        "LastChanged": "2020-05-26T04:22:35.9872165+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Shea Hettinger I",
+        "FullName": "Mr. Aiyana Larson DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 291
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Kenneth Weimann",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Ms. Arjun Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldLength": 12
       }
     }
   }

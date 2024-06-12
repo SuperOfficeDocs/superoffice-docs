@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Altenwerth, Stroman and Jaskolski",
-  "DeviceName": "Kreiger LLC"
+  "ApplicationName": "Conn, Rohan and Simonis",
+  "DeviceName": "DuBuque, Wisozk and Rowe"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 429,
-  "Name": "Stamm-Balistreri",
-  "CreatedDate": "2008-04-25T12:57:34.0554972+02:00",
-  "UpdatedDate": "2023-11-16T12:57:34.0554972+01:00",
-  "AssociateFullName": "Estevan Wolff III",
-  "CreatedBy": "repellat",
-  "UpdatedBy": "mollitia",
+  "ForeignDeviceId": 889,
+  "Name": "Armstrong LLC",
+  "CreatedDate": "2003-04-29T04:22:26.8598968+02:00",
+  "UpdatedDate": "1997-02-01T04:22:26.8598968+01:00",
+  "AssociateFullName": "Mrs. Lester Hilma McDermott I",
+  "CreatedBy": "architecto",
+  "UpdatedBy": "quibusdam",
   "DeviceIdentifier": "est",
-  "ForeignAppId": 793,
+  "ForeignAppId": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 78
     }
   }
 }

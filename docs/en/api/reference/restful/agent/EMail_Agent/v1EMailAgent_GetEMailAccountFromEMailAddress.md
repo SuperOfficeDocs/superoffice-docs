@@ -88,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "non"
+  "FromAddress": "quas"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 20,
-  "EMailAddress": "dolores",
-  "AssociateId": 921,
+  "EMailAccountId": 685,
+  "EMailAddress": "voluptatem",
+  "AssociateId": 528,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 770,
-  "ErrorCount": 800,
+  "AccountStatus": 6,
+  "ErrorCount": 537,
   "ErrorReason": "",
-  "InboxFolder": "id",
-  "SentFolder": "consequatur",
+  "InboxFolder": "dolores",
+  "SentFolder": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 150
     }
   }
 }

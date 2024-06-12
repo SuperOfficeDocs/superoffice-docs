@@ -29,7 +29,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
 
 
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 872,
+    "HierarchyId": 539,
     "Domain": "Dashboards",
-    "Name": "Windler Group",
-    "Fullname": "facere",
-    "ParentId": 792,
+    "Name": "Rogahn, Bednar and Herzog",
+    "Fullname": "quis",
+    "ParentId": 61,
     "Children": [
       {
-        "HierarchyId": 891,
+        "HierarchyId": 914,
         "Domain": "Dashboards",
-        "Name": "Treutel, Stokes and Franecki",
-        "Fullname": "ut",
-        "ParentId": 247,
+        "Name": "Stehr, Durgan and Beahan",
+        "Fullname": "quasi",
+        "ParentId": 615,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2009-05-17T12:57:42.4638774+02:00",
-        "RegisteredAssociateId": 84,
-        "Updated": "2023-03-29T12:57:42.4638774+02:00",
-        "UpdatedAssociateId": 940,
+        "Registered": "2004-05-23T04:22:35.0167083+02:00",
+        "RegisteredAssociateId": 319,
+        "Updated": "2015-11-15T04:22:35.0167083+01:00",
+        "UpdatedAssociateId": 424,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 759
           }
         }
       }
     ],
-    "Registered": "2014-01-01T12:57:42.4638774+01:00",
-    "RegisteredAssociateId": 794,
-    "Updated": "2003-01-01T12:57:42.4638774+01:00",
-    "UpdatedAssociateId": 849,
+    "Registered": "2014-03-07T04:22:35.0167083+01:00",
+    "RegisteredAssociateId": 291,
+    "Updated": "2003-04-24T04:22:35.0167083+02:00",
+    "UpdatedAssociateId": 284,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 365
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "Name": "McDermott Group",
-  "Tooltip": "non",
+  "Id": 136,
+  "Name": "Runte, Ferry and Kunde",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 190,
+  "Rank": 459,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 813,
-  "Name": "Lubowitz-Keebler",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 348,
+  "Id": 557,
+  "Name": "Little-Romaguera",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 44,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "mollitia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   }
 }

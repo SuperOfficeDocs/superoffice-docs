@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 134,
-  "Name": "Mayer-Prohaska",
-  "Description": "Centralized even-keeled matrix",
-  "WelcomeMessage": "ipsam",
+  "ChatTopicId": 370,
+  "Name": "Terry, Hyatt and Reilly",
+  "Description": "Intuitive executive application",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2013-05-23T12:57:42.1670705+02:00",
-  "SecondsPrAccept": 171,
-  "AlertRecipient": "possimus",
+  "LastAccept": "2023-02-12T04:22:34.7183767+01:00",
+  "SecondsPrAccept": 850,
+  "AlertRecipient": "delectus",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "in",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 195,
-  "WarnManagerNewChatMinutes": 581,
+  "BadgeHeader": "sequi",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "corporis",
+  "WarnNewChatMinutes": 140,
+  "WarnManagerNewChatMinutes": 381,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 395,
-  "WarnManagerChatMessageMinutes": 320,
+  "WarnChatMessageMinutes": 596,
+  "WarnManagerChatMessageMinutes": 712,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 656,
-  "OfflineFormQueueLength": 117,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "nihil",
+  "OfflineFormTimeLimit": 305,
+  "OfflineFormQueueLength": 776,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 556
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

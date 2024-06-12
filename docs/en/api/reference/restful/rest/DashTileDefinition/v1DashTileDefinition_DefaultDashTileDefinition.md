@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 327,
-  "Name": "Mraz, Schaefer and Hudson",
-  "Description": "Seamless actuating methodology",
-  "DefaultHeight": 976,
-  "DefaultWidth": 155,
+  "DashboardTileDefinitionId": 3,
+  "Name": "Morar, Wiegand and Flatley",
+  "Description": "Innovative discrete info-mediaries",
+  "DefaultHeight": 24,
+  "DefaultWidth": 573,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dibbert-Dickens",
-  "SelectionId": 385,
+  "EntityName": "Abbott, Wintheiser and Jenkins",
+  "SelectionId": 339,
   "CurrencyMode": "Base",
-  "CurrencyCode": "nisi",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "culpa",
-  "SortBy": "iste",
-  "LayoutConfig": "vero",
-  "SecondarySelectionId": 627,
+  "MeasureField": "suscipit",
+  "SortBy": "dolores",
+  "LayoutConfig": "inventore",
+  "SecondarySelectionId": 482,
   "MeasureByField": "qui",
   "Usage": "Dashboard",
-  "ProviderName": "Little-Effertz",
+  "ProviderName": "Jerde LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldLength": 851
     }
   }
 }

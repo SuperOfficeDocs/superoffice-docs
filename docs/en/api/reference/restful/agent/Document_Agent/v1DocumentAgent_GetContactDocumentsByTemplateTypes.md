@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 491,
-  "StartTime": "2020-09-12T12:57:33.6805549+02:00",
-  "EndTime": "1999-04-04T12:57:33.6805549+02:00",
-  "Count": 122,
+  "ContactId": 534,
+  "StartTime": "2006-03-22T04:22:26.3884781+01:00",
+  "EndTime": "2011-10-11T04:22:26.3884781+02:00",
+  "Count": 980,
   "DocumentTemplateIds": [
-    567,
-    259
+    779,
+    701
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 917,
-    "Attention": "animi",
-    "Header": "quo",
-    "Name": "VonRueden-Douglas",
-    "OurRef": "aut",
-    "YourRef": "ipsum",
-    "Description": "Integrated value-added task-force",
-    "DocumentTemplate": "suscipit",
+    "DocumentId": 991,
+    "Attention": "omnis",
+    "Header": "voluptatem",
+    "Name": "Franecki LLC",
+    "OurRef": "id",
+    "YourRef": "et",
+    "Description": "Synchronised national firmware",
+    "DocumentTemplate": "quasi",
     "IsPublished": true,
-    "PersonId": 105,
-    "PersonFullName": "Chris Emard DVM",
-    "AssociateFullName": "Declan Jaime Cummings PhD",
-    "ContactId": 108,
-    "ContactName": "Terry-Heaney",
-    "ProjectId": 470,
-    "ProjectName": "Heller LLC",
-    "AssociateId": 784,
-    "Snum": 123,
-    "SaleId": 263,
-    "SaleName": "Predovic-Bednar",
+    "PersonId": 282,
+    "PersonFullName": "Duane Kulas",
+    "AssociateFullName": "Miss Felipa Lilian Johnson I",
+    "ContactId": 228,
+    "ContactName": "Erdman LLC",
+    "ProjectId": 828,
+    "ProjectName": "Schmidt-Roberts",
+    "AssociateId": 687,
+    "Snum": 416,
+    "SaleId": 271,
+    "SaleName": "Rice-Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

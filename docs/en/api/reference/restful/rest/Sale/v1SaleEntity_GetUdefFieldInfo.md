@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 492,
-  "ColumnId": 18,
-  "FieldDefault": "eligendi",
-  "FieldHeight": 385,
-  "FieldLabel": "est",
-  "FieldLeft": 577,
-  "FieldTop": 576,
+  "UDefFieldId": 177,
+  "ColumnId": 753,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 981,
+  "FieldLabel": "quod",
+  "FieldLeft": 517,
+  "FieldTop": 324,
   "FieldType": "Checkbox",
-  "FieldWidth": 771,
-  "FormatMask": "recusandae",
+  "FieldWidth": 550,
+  "FormatMask": "dolore",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 31,
-  "LabelLeft": 440,
-  "LabelTop": 736,
-  "LabelWidth": 455,
-  "LastVersionId": 242,
-  "ListTableId": 103,
-  "IsMandatory": true,
+  "LabelHeight": 406,
+  "LabelLeft": 957,
+  "LabelTop": 804,
+  "LabelWidth": 50,
+  "LastVersionId": 990,
+  "ListTableId": 679,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 417,
-  "ProgId": "eius",
+  "Page1LineNo": 322,
+  "ProgId": "dolorum",
   "IsReadOnly": false,
-  "ShortLabel": "aliquam",
-  "TabOrder": 601,
-  "TextLength": 674,
-  "Tooltip": "totam",
-  "UdefIdentity": 260,
-  "UDListDefinitionId": 597,
+  "ShortLabel": "minima",
+  "TabOrder": 863,
+  "TextLength": 156,
+  "Tooltip": "praesentium",
+  "UdefIdentity": 984,
+  "UDListDefinitionId": 373,
   "Justification": "Center",
-  "Version": 138,
-  "TemplateVariableName": "Lebsack, Will and Barton",
+  "Version": 62,
+  "TemplateVariableName": "Marks Group",
   "HasBeenPublished": true,
-  "MdoListName": "Herman Inc and Sons",
+  "MdoListName": "O'Connell-Bechtelar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 100
     }
   }
 }

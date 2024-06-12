@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 769
+  "SaleId": 283
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-07-01T12:57:32.9929142+02:00",
-  "AppointmentId": 638,
-  "Description": "Sharable interactive open system",
-  "Title": "blanditiis",
-  "Agenda": "beatae",
-  "InternalNotes": "nobis",
-  "StartDate": "2012-07-13T12:57:32.9929142+02:00",
-  "EndDate": "2002-06-19T12:57:32.9929142+02:00",
+  "CreatedDate": "2022-06-01T04:22:25.8872211+02:00",
+  "AppointmentId": 262,
+  "Description": "Diverse logistical local area network",
+  "Title": "eligendi",
+  "Agenda": "quia",
+  "InternalNotes": "sint",
+  "StartDate": "2017-03-14T04:22:25.8872211+01:00",
+  "EndDate": "2005-12-24T04:22:25.8872211+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 934,
+  "MotherId": 794,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-06-29T12:57:33.0085358+02:00",
+  "UpdatedDate": "2017-02-22T04:22:25.8872211+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 66,
+  "ActiveLinks": 342,
   "Links": [
     {
-      "EntityName": "Grant, Homenick and Herzog",
-      "Id": 55,
-      "Description": "Object-based scalable groupware",
-      "ExtraInfo": "beatae",
-      "LinkId": 169,
+      "EntityName": "Stehr, Terry and Hyatt",
+      "Id": 973,
+      "Description": "Total encompassing capacity",
+      "ExtraInfo": "veniam",
+      "LinkId": 809,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 509
         }
       }
     }
   ],
-  "AlarmLeadTime": "qui",
-  "HasAlarm": false,
-  "ColorIndex": 743,
+  "AlarmLeadTime": "magnam",
+  "HasAlarm": true,
+  "ColorIndex": 461,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "tempora",
-  "LeadTime": "rerum",
-  "Location": "rem",
-  "RejectCounter": 84,
-  "RejectReason": "",
+  "LagTime": "debitis",
+  "LeadTime": "voluptatum",
+  "Location": "blanditiis",
+  "RejectCounter": 166,
+  "RejectReason": "utilize compelling bandwidth",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 639,
-      "PersonId": 39,
-      "ContactId": 869,
-      "EmailId": 595,
+      "AssociateId": 690,
+      "PersonId": 641,
+      "ContactId": 104,
+      "EmailId": 783,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jasen@armstrongwisozk.info",
-      "Description": "Phased responsive website"
+      "EmailAddress": "hester@quitzontillman.us",
+      "Description": "User-friendly zero defect access"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-04-14T12:57:33.0085358+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2004-05-20T04:22:25.8872211+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 440,
+  "PreferredTZLocation": 641,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 267,
+  "SuggestedAppointmentId": 965,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "possimus",
+  "CentralserviceVideomeetId": "facere",
   "UserDefinedFields": {
-    "SuperOffice:1": "Haskell Kulas",
-    "SuperOffice:2": "Lewis Dayna Olson III"
+    "SuperOffice:1": "Ms. Guillermo Newton Cassin",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "magnam"
+    "CustomFields1": "inventore",
+    "CustomFields2": "quaerat"
   },
-  "PublishEventDate": "2014-07-14T12:57:33.0085358+02:00",
-  "PublishTo": "2019-03-26T12:57:33.0085358+01:00",
-  "PublishFrom": "2004-05-01T12:57:33.0085358+02:00",
+  "PublishEventDate": "1997-08-25T04:22:25.8872211+02:00",
+  "PublishTo": "2023-10-04T04:22:25.8872211+02:00",
+  "PublishFrom": "2003-11-16T04:22:25.8872211+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 695,
+      "VisibleId": 82,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldLength": 312
         }
       }
     },
     {
-      "VisibleId": 695,
+      "VisibleId": 82,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldLength": 312
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

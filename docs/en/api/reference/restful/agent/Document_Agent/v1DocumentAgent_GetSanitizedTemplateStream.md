@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Jaskolski-Marvin",
-  "AllowPersonal": true,
-  "UiCulture": "repellendus"
+  "TemplateName": "Mraz, Hackett and Predovic",
+  "AllowPersonal": false,
+  "UiCulture": "voluptas"
 }
 ```
 

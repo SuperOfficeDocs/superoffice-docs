@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    633,
-    443
+    45,
+    876
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 185,
-    "ContactName": "Hilpert Group",
-    "PersonId": 739,
-    "PersonName": "Dickinson, Mayer and Renner",
-    "AssociateId": 937,
-    "Address": "voluptatem",
-    "EmailId": 626,
+    "ContactId": 802,
+    "ContactName": "Reichert Group",
+    "PersonId": 3,
+    "PersonName": "Bradtke-Little",
+    "AssociateId": 810,
+    "Address": "voluptas",
+    "EmailId": 754,
     "DuplicatePersonIds": [
-      615,
-      860
+      742,
+      153
     ],
-    "Name": "Toy LLC",
+    "Name": "Effertz-Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

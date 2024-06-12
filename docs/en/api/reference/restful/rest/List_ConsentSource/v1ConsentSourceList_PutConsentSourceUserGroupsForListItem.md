@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Lemke-Cronin",
-    "ToolTip": "Voluptatem tenetur odit.",
+    "Id": 99,
+    "Name": "Harber Inc and Sons",
+    "ToolTip": "Nulla totam nihil quisquam dolor quae.",
     "Deleted": true,
-    "Rank": 539,
-    "Type": "nisi",
-    "ColorBlock": 84,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2009-11-19T12:57:43.3864466+01:00",
+    "Rank": 682,
+    "Type": "nihil",
+    "ColorBlock": 104,
+    "IconHint": "quidem",
+    "Selected": false,
+    "LastChanged": "2001-04-02T04:22:35.8778461+02:00",
     "ChildItems": [
       {
-        "Id": 982,
-        "Name": "Marvin, Keeling and Becker",
-        "ToolTip": "Quia ullam.",
+        "Id": 407,
+        "Name": "Ledner-O'Conner",
+        "ToolTip": "Aut fuga cum.",
         "Deleted": false,
-        "Rank": 950,
-        "Type": "voluptatum",
-        "ColorBlock": 591,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2021-07-03T12:57:43.3864466+02:00",
+        "Rank": 358,
+        "Type": "ut",
+        "ColorBlock": 889,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2008-08-23T04:22:35.8778461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Mr. Violette Jasmin Cummerata"
+        "ExtraInfo": "et",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Ariane Veum IV"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Johnpaul Welch"
+    "ExtraInfo": "dolorum",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Precious Powlowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Balistreri, Bergstrom and Swift",
-    "ToolTip": "Laudantium enim.",
+    "Id": 513,
+    "Name": "Schneider LLC",
+    "ToolTip": "Et iure.",
     "Deleted": false,
-    "Rank": 727,
-    "Type": "corporis",
-    "ColorBlock": 828,
-    "IconHint": "ipsam",
+    "Rank": 268,
+    "Type": "suscipit",
+    "ColorBlock": 441,
+    "IconHint": "nemo",
     "Selected": true,
-    "LastChanged": "2019-02-19T12:57:43.3864466+01:00",
+    "LastChanged": "2000-01-02T04:22:35.8778461+01:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Collins LLC",
-        "ToolTip": "Autem suscipit possimus omnis magni.",
+        "Id": 377,
+        "Name": "Hintz LLC",
+        "ToolTip": "Quaerat est possimus voluptas maxime natus.",
         "Deleted": false,
-        "Rank": 547,
-        "Type": "et",
-        "ColorBlock": 333,
-        "IconHint": "aspernatur",
+        "Rank": 558,
+        "Type": "sit",
+        "ColorBlock": 870,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2011-07-24T12:57:43.3864466+02:00",
+        "LastChanged": "2011-10-23T04:22:35.8778461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quos",
+        "ExtraInfo": "dolor",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Prof. Abel Bashirian DVM",
+        "FullName": "Breanna Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldType": "System.Int32",
+            "FieldLength": 265
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "quod",
+    "ExtraInfo": "ea",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Prof. Collin Brandt Lebsack",
+    "FullName": "Ramiro Hoeger PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

@@ -316,7 +316,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -409,7 +409,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|appointment/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -594,7 +594,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |isProjectMember|bool|Is project member: This person is a project member| x |
 |isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |createdByForm|listAny|Created by form: Created by form| x |
 |personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |personDirectPhone/description|string|Direct - Description: Phone number description| x |
@@ -747,7 +747,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=sourceRelation/orgnr,targetRelation/business,sale/associate/assocName,appointment/updatedDate,appointment/associate/personId
+GET /api/v1/archive/SaintContact?$select=sale/activeErpLinks,sale/associate/portraitThumbnail,appointment/personId,appointment/registeredBy,appointment/appointmentUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

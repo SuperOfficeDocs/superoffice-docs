@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Gleichner-Lang",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 31,
-  "Rank": 847,
+  "Id": 627,
+  "Name": "Howe, Mante and Dare",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "UdListDefinitionId": 300,
+  "Rank": 95,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldType": "System.Int32",
+      "FieldLength": 668
     }
   }
 }

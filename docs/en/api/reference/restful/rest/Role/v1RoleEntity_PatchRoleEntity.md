@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "impedit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "impedit",
     "value": {}
   }
 ]
@@ -146,29 +146,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 337,
-  "Name": "Gibson, Little and Ledner",
-  "Tooltip": "assumenda",
+  "RoleId": 594,
+  "Name": "Stamm, Ryan and Paucek",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 208,
-  "Rank": 485,
-  "Created": "2024-04-02T12:57:42.6669559+02:00",
-  "UseCategories": 946,
+  "Deleted": 379,
+  "Rank": 599,
+  "Created": "2023-06-06T04:22:35.2053915+02:00",
+  "UseCategories": 489,
   "CreatedBy": null,
-  "Updated": "1999-08-01T12:57:42.6669559+02:00",
+  "Updated": "2020-06-23T04:22:35.2053915+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

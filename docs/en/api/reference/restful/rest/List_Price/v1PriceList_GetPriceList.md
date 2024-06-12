@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 628,
-  "ERPPriceListKey": "tenetur",
-  "QuoteConnectionId": 185,
-  "Name": "Kunze-Kuhic",
-  "Description": "Re-engineered uniform migration",
-  "Currency": "harum",
-  "CurrencyName": "Dickens, Ruecker and Nader",
-  "ValidFrom": "2006-03-20T12:57:43.5582822+01:00",
-  "ValidTo": "2019-11-15T12:57:43.5582822+01:00",
-  "IsActive": true,
+  "PriceListId": 178,
+  "ERPPriceListKey": "provident",
+  "QuoteConnectionId": 192,
+  "Name": "Runte-Hickle",
+  "Description": "Down-sized heuristic protocol",
+  "Currency": "praesentium",
+  "CurrencyName": "Wyman-Gerhold",
+  "ValidFrom": "2000-07-15T04:22:36.0340897+02:00",
+  "ValidTo": "2018-05-31T04:22:36.0340897+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 649
     }
   },
   "_Links": {

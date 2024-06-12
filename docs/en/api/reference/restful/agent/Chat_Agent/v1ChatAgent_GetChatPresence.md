@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 468,
-    "DisplayName": "Quitzon, Wilderman and Koepp",
-    "OngoingChats": 43,
+    "UserId": 259,
+    "DisplayName": "Schamberger Group",
+    "OngoingChats": 166,
     "Present": false,
     "ChatTopics": [
-      900,
-      149
+      811,
+      823
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   }

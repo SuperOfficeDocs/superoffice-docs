@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 186,
-    "Name": "Gutkowski Inc and Sons",
-    "Tooltip": "repellat",
-    "Rank": 309,
-    "Key": "numquam",
-    "MailTemplateId": 569,
-    "Deleted": false,
+    "ConsentSourceId": 559,
+    "Name": "McDermott-Goldner",
+    "Tooltip": "cupiditate",
+    "Rank": 217,
+    "Key": "qui",
+    "MailTemplateId": 49,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldType": "System.Int32",
+        "FieldLength": 248
       }
     }
   }

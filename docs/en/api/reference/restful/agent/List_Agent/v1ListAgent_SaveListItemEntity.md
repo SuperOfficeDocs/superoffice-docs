@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Runolfsdottir Inc and Sons",
-  "Tooltip": "est",
+  "Id": 284,
+  "Name": "Heathcote, Lowe and Feil",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 668,
-  "Rank": 254,
+  "UdListDefinitionId": 971,
+  "Rank": 161,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldLength": 444
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=119
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=385
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,38 +93,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 867,
-  "Name": "Wilderman LLC",
-  "Rank": 426,
-  "Tooltip": "libero",
-  "Icon": "iste",
-  "DefaultTicketStatus": 992,
+  "TicketTypeId": 712,
+  "Name": "Ledner-Huel",
+  "Rank": 999,
+  "Tooltip": "id",
+  "Icon": "animi",
+  "DefaultTicketStatus": 538,
   "TicketStatuses": [
-    611,
-    147
+    31,
+    886
   ],
-  "DefaultTicketPriority": 189,
+  "DefaultTicketPriority": 540,
   "TicketPriorities": [
-    850,
-    775
+    336,
+    23
   ],
-  "ReplyTemplate": 167,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 257,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    577,
-    347
+    192,
+    185
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 916
     }
   }
 }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nader-Gerhold",
-  "ForceFlatList": false,
-  "AdditionalInfo": "molestias",
+  "Name": "Corwin, Frami and Price",
+  "ForceFlatList": true,
+  "AdditionalInfo": "sit",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Rowe-Moen",
-    "ToolTip": "Nesciunt sed similique odio iste sit excepturi.",
+    "Id": 891,
+    "Name": "Emard Inc and Sons",
+    "ToolTip": "Labore vero cupiditate.",
     "Deleted": true,
-    "Rank": 395,
-    "Type": "voluptatem",
+    "Rank": 921,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Weissnat Group",
-        "ToolTip": "Enim nemo vel sit et.",
-        "Deleted": false,
-        "Rank": 33,
-        "Type": "ex",
+        "Id": 999,
+        "Name": "Wuckert, Will and Kris",
+        "ToolTip": "Sint similique cumque amet qui saepe voluptatum blanditiis.",
+        "Deleted": true,
+        "Rank": 884,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 278,
-        "ExtraInfo": "dolores",
-        "StyleHint": "quia",
-        "FullName": "Edgar Treutel",
+        "IconHint": "soluta",
+        "ColorBlock": 965,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "velit",
+        "FullName": "Maverick Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 907
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 977,
-    "ExtraInfo": "sit",
-    "StyleHint": "est",
-    "FullName": "Anabel Mayert",
+    "IconHint": "recusandae",
+    "ColorBlock": 785,
+    "ExtraInfo": "id",
+    "StyleHint": "cupiditate",
+    "FullName": "Ressie Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldType": "System.String",
+        "FieldLength": 751
       }
     }
   }

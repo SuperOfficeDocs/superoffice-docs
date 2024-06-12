@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 658,
-    "Name": "Metz Inc and Sons",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 279,
-    "UdListDefinitionId": 628,
+    "HeadingId": 93,
+    "Name": "Mueller, Nader and Hartmann",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 557,
+    "UdListDefinitionId": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldType": "System.Int32",
+        "FieldLength": 97
       }
     }
   }

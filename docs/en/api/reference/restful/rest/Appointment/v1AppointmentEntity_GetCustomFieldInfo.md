@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hermiston-Barrows",
-  "DisplayName": "Rath, Kozey and Stracke",
-  "Description": "Proactive explicit capability",
-  "ShortLabel": "voluptatibus",
+  "FieldName": "Jones-Morar",
+  "DisplayName": "Dickinson Inc and Sons",
+  "Description": "De-engineered 4th generation adapter",
+  "ShortLabel": "doloremque",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsMandatory": false,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 582,
-  "TemplateVariableName": "Kuvalis Inc and Sons"
+  "IsDisplayField": true,
+  "Rank": 219,
+  "TemplateVariableName": "Rogahn LLC"
 }
 ```

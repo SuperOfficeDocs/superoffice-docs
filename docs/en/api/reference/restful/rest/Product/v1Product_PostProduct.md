@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 51,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "voluptatem",
-  "Name": "Price-Maggio",
-  "Description": "Expanded holistic frame",
-  "Code": "ab",
-  "PriceUnit": "quisquam",
-  "QuantityUnit": "accusantium",
+  "ProductId": 46,
+  "ERPProductKey": "ratione",
+  "ERPPriceListKey": "et",
+  "Name": "Kiehn-Quigley",
+  "Description": "Virtual multimedia migration",
+  "Code": "et",
+  "PriceUnit": "quo",
+  "QuantityUnit": "ab",
   "IsSubscription": false,
-  "SubscriptionUnit": "quo",
-  "DefaultSubscriptionQuantity": 4879.638,
-  "ItemNumber": "1142861",
+  "SubscriptionUnit": "sint",
+  "DefaultSubscriptionQuantity": 13153.398,
+  "ItemNumber": "671419",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cum",
-  "ProductTypeKey": "sit",
-  "VAT": 27290.872,
-  "VATInfo": "velit",
-  "UnitCost": 23984.502,
-  "UnitMinimumPrice": 9568.101999999999,
-  "UnitListPrice": 20258.176,
-  "InAssortment": false,
-  "Supplier": "qui",
-  "SupplierCode": "sunt",
-  "Rights": "nemo",
-  "Rule": "dolor",
+  "ProductFamilyKey": "ad",
+  "ProductTypeKey": "qui",
+  "VAT": 30888.703999999998,
+  "VATInfo": "iusto",
+  "UnitCost": 10943.928,
+  "UnitMinimumPrice": 14789.346,
+  "UnitListPrice": 2438.252,
+  "InAssortment": true,
+  "Supplier": "quia",
+  "SupplierCode": "eum",
+  "Rights": "ut",
+  "Rule": "dolores",
   "ExtraInfo": [
     {
-      "Name": "Jast, Feest and Thompson",
-      "Value": "assumenda",
+      "Name": "Swaniawski-Metz",
+      "Value": "non",
       "Type": "Image"
     },
     {
-      "Name": "Jast, Feest and Thompson",
-      "Value": "assumenda",
+      "Name": "Swaniawski-Metz",
+      "Value": "non",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quod",
-  "ExtraField1": "odit",
-  "ExtraField2": "et",
-  "ExtraField3": "aliquid",
-  "ExtraField4": "placeat",
-  "ExtraField5": "consectetur",
-  "InStock": 15093.344
+  "RawExtraInfo": "voluptatem",
+  "ExtraField1": "ad",
+  "ExtraField2": "est",
+  "ExtraField3": "tempora",
+  "ExtraField4": "tempora",
+  "ExtraField5": "recusandae",
+  "InStock": 6079.96
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 603,
-  "ERPProductKey": "voluptatum",
-  "ERPPriceListKey": "est",
-  "Name": "Upton Inc and Sons",
-  "Description": "Profit-focused regional strategy",
-  "Code": "nam",
-  "PriceUnit": "ab",
-  "QuantityUnit": "cum",
+  "ProductId": 586,
+  "ERPProductKey": "quae",
+  "ERPPriceListKey": "dolor",
+  "Name": "Cole-O'Connell",
+  "Description": "Down-sized fault-tolerant core",
+  "Code": "laudantium",
+  "PriceUnit": "ratione",
+  "QuantityUnit": "amet",
   "IsSubscription": false,
-  "SubscriptionUnit": "ex",
-  "DefaultSubscriptionQuantity": 18945.03,
-  "ItemNumber": "293475",
+  "SubscriptionUnit": "commodi",
+  "DefaultSubscriptionQuantity": 3613.502,
+  "ItemNumber": "1125226",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "praesentium",
-  "VAT": 25310.183999999997,
-  "VATInfo": "omnis",
-  "UnitCost": 18073.778,
-  "UnitMinimumPrice": 5346.604,
-  "UnitListPrice": 11298.07,
+  "ProductFamilyKey": "nostrum",
+  "ProductTypeKey": "est",
+  "VAT": 13062.511999999999,
+  "VATInfo": "aliquam",
+  "UnitCost": 15162.292,
+  "UnitMinimumPrice": 25021.856,
+  "UnitListPrice": 4224.632,
   "InAssortment": false,
-  "Supplier": "voluptates",
-  "SupplierCode": "enim",
-  "Rights": "et",
-  "Rule": "in",
+  "Supplier": "et",
+  "SupplierCode": "praesentium",
+  "Rights": "consequuntur",
+  "Rule": "velit",
   "ExtraInfo": [
     {
-      "Name": "Schultz, Grimes and Quigley",
-      "Value": "architecto",
+      "Name": "Cummerata Inc and Sons",
+      "Value": "magni",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 772
+          "FieldLength": 872
         }
       }
     },
     {
-      "Name": "Schultz, Grimes and Quigley",
-      "Value": "architecto",
+      "Name": "Cummerata Inc and Sons",
+      "Value": "magni",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 772
+          "FieldLength": 872
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
-  "ExtraField1": "doloremque",
-  "ExtraField2": "sapiente",
-  "ExtraField3": "quis",
-  "ExtraField4": "eligendi",
-  "ExtraField5": "error",
-  "InStock": 31083.012,
+  "RawExtraInfo": "at",
+  "ExtraField1": "necessitatibus",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "commodi",
+  "ExtraField4": "dicta",
+  "ExtraField5": "consequuntur",
+  "InStock": 5487.634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   }
 }

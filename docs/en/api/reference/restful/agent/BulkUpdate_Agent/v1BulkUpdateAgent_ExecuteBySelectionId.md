@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "eos",
-      "ValueType": "nisi",
+      "Key": "ut",
+      "ValueType": "consequuntur",
       "Mandatory": false,
-      "EncodedDisplayName": "Kuhn, Krajcik and Langosh",
-      "EncodedDisplayDescription": "Enterprise-wide executive circuit",
-      "IconHint": "in",
+      "EncodedDisplayName": "Huel-Botsford",
+      "EncodedDisplayDescription": "Enhanced 3rd generation artificial intelligence",
+      "IconHint": "aspernatur",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "numquam",
-      "EncodedDataCaptionDescription": "Open-source solution-oriented toolset",
-      "CurrentOperationType": "ab",
+      "EncodedDataCaption": "rerum",
+      "EncodedDataCaptionDescription": "Front-line exuding hierarchy",
+      "CurrentOperationType": "in",
       "Values": [
-        "error",
-        "sit"
+        "asperiores",
+        "mollitia"
       ],
       "DisplayValues": [
-        "et",
-        "laborum"
+        "mollitia",
+        "consectetur"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Romaguera-Kling",
-  "Context": "reprehenderit",
-  "SelectionId": 567,
+  "TableName": "Mayer, Orn and O'Reilly",
+  "Context": "est",
+  "SelectionId": 726,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-613
+55
 ```

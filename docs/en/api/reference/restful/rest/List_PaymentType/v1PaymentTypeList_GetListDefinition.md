@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Wolf-Weber",
-  "Tooltip": "pariatur",
+  "Id": 579,
+  "Name": "Crooks, Cruickshank and Kuphal",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 931,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 578,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "qui",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldLength": 325
     }
   },
   "_Links": {

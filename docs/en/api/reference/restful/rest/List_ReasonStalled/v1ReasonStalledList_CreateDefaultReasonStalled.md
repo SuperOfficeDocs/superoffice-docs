@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 13,
-  "Name": "Russel-Hills",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "UdListDefinitionId": 135,
-  "Rank": 86,
+  "Id": 30,
+  "Name": "Wehner-Hyatt",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 80,
+  "Rank": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldLength": 512
     }
   }
 }

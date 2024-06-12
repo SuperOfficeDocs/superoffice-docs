@@ -171,7 +171,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
 |alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by workflow: Created by workflow| x |
+|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -223,7 +223,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
 |alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
-|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - Updated by flow: Updated by flow| x |
+|alternative/version/quote/sale/person/whenUpdatedByWorkflow|datetime|Sale - When updated by flow: When updated by flow| x |
 |alternative/version/quote/sale/person/createdByForm|listAny|Sale - Created by form: Created by form| x |
 
 ## Supported Columns (cont.)
@@ -749,7 +749,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/extraField2,alternative/version/quote/sale/person/searchPhone/description,alternative/version/quote/sale/person/correspondingAssociate/otherGroups,alternative/version/quote/sale/contact/restrictionAddress/line1,alternative/version/quote/sale/contact/LastSale
+GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/version/quote/sale/person/birthYear,alternative/version/quote/sale/person/personRegisteredBy,alternative/version/quote/sale/person/personExtra/x_person_longtext,alternative/version/quote/sale/person/correspondingAssociate/personId,alternative/version/quote/sale/contact/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

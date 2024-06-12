@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 156,
-  "Name": "Osinski, Steuber and Robel",
+  "ScreenChooserId": 363,
+  "Name": "Gulgowski, Tillman and Kovacek",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sapiente",
-  "Source": "vero",
-  "Registered": "2016-03-28T12:57:43.0892086+02:00",
-  "RegisteredAssociateId": 46,
-  "Updated": "2020-07-06T12:57:43.0892086+02:00",
-  "UpdatedAssociateId": 517,
+  "Enabled": true,
+  "UniqueIdentifier": "dolores",
+  "Source": "eum",
+  "Registered": "2009-01-06T04:22:35.595979+01:00",
+  "RegisteredAssociateId": 771,
+  "Updated": "2011-04-21T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldType": "System.Int32",
+      "FieldLength": 349
     }
   }
 }

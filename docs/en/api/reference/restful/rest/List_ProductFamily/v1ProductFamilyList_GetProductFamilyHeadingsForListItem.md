@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Gerhold, Herman and Renner",
-    "ToolTip": "Labore enim architecto suscipit consequatur totam vel.",
+    "Id": 284,
+    "Name": "Effertz, Weimann and Towne",
+    "ToolTip": "Sit quas consequatur officiis numquam inventore.",
     "Deleted": false,
-    "Rank": 591,
-    "Type": "autem",
-    "ColorBlock": 117,
-    "IconHint": "laboriosam",
+    "Rank": 840,
+    "Type": "illum",
+    "ColorBlock": 278,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2020-03-27T12:57:43.6051463+01:00",
+    "LastChanged": "2019-01-26T04:22:36.06534+01:00",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Willms, Bode and Walsh",
-        "ToolTip": "Nostrum voluptas.",
+        "Id": 779,
+        "Name": "Fadel LLC",
+        "ToolTip": "Dolores consequatur rem sed quia.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "labore",
-        "ColorBlock": 572,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2006-03-13T12:57:43.6051463+01:00",
+        "Rank": 819,
+        "Type": "iure",
+        "ColorBlock": 674,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "2009-01-21T04:22:36.06534+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "debitis",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Foster Ivory Kassulke PhD",
+        "FullName": "Madilyn Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldType": "System.String",
+            "FieldLength": 515
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "vero",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Kiarra Bashirian",
+    "FullName": "Weston Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 232
       }
     }
   }

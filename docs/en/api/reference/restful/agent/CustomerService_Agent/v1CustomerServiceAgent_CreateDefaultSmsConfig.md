@@ -71,18 +71,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "incidunt",
-  "NsPluginSender": "nam",
+  "NetServerSmsProvider": "amet",
+  "NsPluginSender": "non",
   "NsPluginConfig": {
-    "NsPluginConfig1": "vero",
-    "NsPluginConfig2": "error"
+    "NsPluginConfig1": "praesentium",
+    "NsPluginConfig2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 306
     }
   }
 }

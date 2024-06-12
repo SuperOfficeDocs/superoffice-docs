@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=adipisci
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=necessitatibus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Upton, Mraz and Kunde",
-    "ToolTip": "Sint consequatur pariatur quod eveniet nobis saepe perferendis.",
+    "Id": 49,
+    "Name": "O'Connell Inc and Sons",
+    "ToolTip": "Rerum eos fugiat exercitationem iusto omnis sit.",
     "Deleted": false,
-    "Rank": 264,
-    "Type": "ut",
+    "Rank": 525,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 126,
-        "Name": "Toy Group",
-        "ToolTip": "Est eum est quidem sit.",
+        "Id": 798,
+        "Name": "Kirlin-Von",
+        "ToolTip": "Corrupti vel mollitia numquam.",
         "Deleted": false,
-        "Rank": 585,
-        "Type": "fuga",
+        "Rank": 861,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 247,
-        "ExtraInfo": "provident",
-        "StyleHint": "dolore",
-        "FullName": "Shirley Parker PhD",
+        "IconHint": "vel",
+        "ColorBlock": 262,
+        "ExtraInfo": "eum",
+        "StyleHint": "facilis",
+        "FullName": "Jayden Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldType": "System.String",
+            "FieldLength": 83
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 434,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "quae",
-    "FullName": "Norwood Von",
+    "IconHint": "ea",
+    "ColorBlock": 451,
+    "ExtraInfo": "totam",
+    "StyleHint": "autem",
+    "FullName": "Miss Bonita Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 924
       }
     }
   }

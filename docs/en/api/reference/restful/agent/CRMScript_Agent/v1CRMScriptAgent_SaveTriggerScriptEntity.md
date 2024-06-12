@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 204,
-  "Name": "Powlowski-Kunde",
+  "ScreenChooserId": 586,
+  "Name": "Wintheiser Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "explicabo",
-  "Source": "doloremque",
-  "Registered": "2011-03-13T12:57:33.6180694+01:00",
-  "RegisteredAssociateId": 585,
-  "Updated": "2023-10-09T12:57:33.6180694+02:00",
-  "UpdatedAssociateId": 124
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "voluptates",
+  "Registered": "2010-04-05T04:22:26.3090583+02:00",
+  "RegisteredAssociateId": 549,
+  "Updated": "2018-02-05T04:22:26.3090583+01:00",
+  "UpdatedAssociateId": 777
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 766,
-  "Name": "Hyatt Group",
+  "ScreenChooserId": 698,
+  "Name": "Shields-Mohr",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "corporis",
-  "Source": "non",
-  "Registered": "2021-12-22T12:57:33.6180694+01:00",
-  "RegisteredAssociateId": 13,
-  "Updated": "2006-08-16T12:57:33.6180694+02:00",
-  "UpdatedAssociateId": 223,
+  "UniqueIdentifier": "sint",
+  "Source": "numquam",
+  "Registered": "2000-09-22T04:22:26.3090583+02:00",
+  "RegisteredAssociateId": 329,
+  "Updated": "1997-10-27T04:22:26.3090583+01:00",
+  "UpdatedAssociateId": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 604
     }
   }
 }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "natus"
+  "ProgId": "quam"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 161,
-  "Name": "Stokes Group",
-  "Tooltip": "perferendis",
-  "TableName": "Boyle-Hermiston",
-  "Area": "sint",
+  "TaskMenuId": 1000,
+  "Name": "Aufderhar LLC",
+  "Tooltip": "nesciunt",
+  "TableName": "O'Kon Inc and Sons",
+  "Area": "repellendus",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 650,
+  "CrmScriptId": 427,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 698,
+  "Rank": 715,
   "Encoding": "ANSI",
-  "ProgId": "sapiente",
-  "Deleted": true,
+  "ProgId": "expedita",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 686
     }
   }
 }

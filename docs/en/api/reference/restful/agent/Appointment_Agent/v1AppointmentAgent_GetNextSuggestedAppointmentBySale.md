@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 743,
-  "CurrentAppointmentId": 743,
+  "SaleId": 392,
+  "CurrentAppointmentId": 141,
   "SkipCompleteCheck": false
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 420,
-  "Deleted": 76,
-  "DaysFuture": 814,
-  "Tooltip": "aut",
-  "Text": "pariatur",
-  "TaskId": 146,
-  "SuggestedAppointmentId": 308,
-  "SaleTypeStageLinkId": 7,
-  "RegisteredAssociateId": 824,
-  "Rank": 197,
-  "ProjectTypeStatusLinkId": 532,
-  "Name": "Lehner, Simonis and Farrell",
-  "Duration": 62,
+  "AutoSuggest": 706,
+  "Deleted": 138,
+  "DaysFuture": 29,
+  "Tooltip": "adipisci",
+  "Text": "molestiae",
+  "TaskId": 432,
+  "SuggestedAppointmentId": 530,
+  "SaleTypeStageLinkId": 450,
+  "RegisteredAssociateId": 954,
+  "Rank": 424,
+  "ProjectTypeStatusLinkId": 681,
+  "Name": "O'Keefe Group",
+  "Duration": 674,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldType": "System.Int32",
+      "FieldLength": 801
     }
   }
 }

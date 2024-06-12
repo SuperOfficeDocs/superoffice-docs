@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "ad",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "ad",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 20,
-  "Name": "Vandervort-Hilpert",
+  "ScreenChooserId": 622,
+  "Name": "Mills, Braun and Walker",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "nihil",
-  "Source": "reprehenderit",
-  "Registered": "1997-02-18T12:57:43.0892086+01:00",
-  "RegisteredAssociateId": 698,
-  "Updated": "2011-03-25T12:57:43.0892086+01:00",
-  "UpdatedAssociateId": 73,
+  "Enabled": false,
+  "UniqueIdentifier": "dicta",
+  "Source": "ea",
+  "Registered": "2001-02-18T04:22:35.595979+01:00",
+  "RegisteredAssociateId": 49,
+  "Updated": "2021-06-26T04:22:35.595979+02:00",
+  "UpdatedAssociateId": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   },
   "_Links": {

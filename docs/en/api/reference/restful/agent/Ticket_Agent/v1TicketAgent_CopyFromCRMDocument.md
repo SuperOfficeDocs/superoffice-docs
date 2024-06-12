@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 275
+  "DocumentId": 39
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 892,
-  "Name": "Barrows, Kiehn and Koepp",
-  "ContentType": "quia",
-  "AttSize": 481,
+  "AttachmentId": 208,
+  "Name": "O'Hara Group",
+  "ContentType": "aspernatur",
+  "AttSize": 163,
   "InlineImage": false,
-  "ContentId": "dolor",
-  "AuthKey": "aut",
-  "IsSafeFileExtension": true,
+  "ContentId": "et",
+  "AuthKey": "et",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldLength": 72
     }
   }
 }

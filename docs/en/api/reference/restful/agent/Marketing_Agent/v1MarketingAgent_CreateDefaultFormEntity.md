@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 419,
-  "FormKey": "eos",
-  "Name": "Funk-Franecki",
-  "Description": "Grass-roots homogeneous adapter",
-  "Config": "earum",
-  "FolderId": 473,
-  "ScriptId": 335,
-  "ResponseShipmentId": 357,
+  "FormId": 50,
+  "FormKey": "necessitatibus",
+  "Name": "Toy-VonRueden",
+  "Description": "Implemented background frame",
+  "Config": "doloremque",
+  "FolderId": 555,
+  "ScriptId": 62,
+  "ResponseShipmentId": 413,
   "Active": false,
-  "Expires": "2014-05-16T12:57:34.2429559+02:00",
-  "MaxSubmits": 342,
+  "Expires": "2005-12-15T04:22:27.0653754+01:00",
+  "MaxSubmits": 55,
   "Type": "Normal",
-  "Recipe": "aut",
-  "GroupId": 488,
-  "NewTicket": false,
+  "Recipe": "est",
+  "GroupId": 154,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2014-12-25T12:57:34.2429559+01:00",
-  "RegisteredAssociateId": 383,
-  "Updated": "2010-08-25T12:57:34.2429559+02:00",
-  "UpdatedAssociateId": 1001,
-  "UpdatedCount": 951,
+  "Registered": "2010-08-01T04:22:27.0653754+02:00",
+  "RegisteredAssociateId": 672,
+  "Updated": "2020-02-27T04:22:27.0653754+01:00",
+  "UpdatedAssociateId": 484,
+  "UpdatedCount": 222,
   "EmailFlows": [
-    193,
-    147
+    69,
+    997
   ],
-  "FolderName": "Schamberger-Kilback",
+  "FolderName": "Will Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 227
     }
   }
 }

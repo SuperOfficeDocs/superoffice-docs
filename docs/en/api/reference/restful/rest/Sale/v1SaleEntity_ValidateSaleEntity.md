@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "laboriosam",
+  "SaleText": "inventore",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-08-02T12:57:42.7606849+02:00",
-  "Amount": 27607.406,
-  "SaleId": 689,
-  "Earning": 9445.876,
-  "EarningPercent": 12388.702,
-  "Heading": "ipsa",
-  "Number": "990645",
-  "Probability": 656,
-  "CreatedDate": "2009-09-27T12:57:42.7606849+02:00",
-  "UpdatedDate": "2023-01-06T12:57:42.7606849+01:00",
+  "Saledate": "2007-12-01T04:22:35.424107+01:00",
+  "Amount": 15914.452,
+  "SaleId": 183,
+  "Earning": 30923.178,
+  "EarningPercent": 23486.196,
+  "Heading": "explicabo",
+  "Number": "1283795",
+  "Probability": 377,
+  "CreatedDate": "2007-10-10T04:22:35.424107+02:00",
+  "UpdatedDate": "2012-03-13T04:22:35.424107+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 13,
+  "ActiveLinks": 342,
   "Links": [
     {
-      "EntityName": "Hamill-Rice",
-      "Id": 272,
-      "Description": "Diverse bifurcated attitude",
-      "ExtraInfo": "tempora",
-      "LinkId": 562
+      "EntityName": "Pagac Inc and Sons",
+      "Id": 960,
+      "Description": "Team-oriented grid-enabled open system",
+      "ExtraInfo": "laudantium",
+      "LinkId": 679
     },
     {
-      "EntityName": "Hamill-Rice",
-      "Id": 272,
-      "Description": "Diverse bifurcated attitude",
-      "ExtraInfo": "tempora",
-      "LinkId": 562
+      "EntityName": "Pagac Inc and Sons",
+      "Id": 960,
+      "Description": "Team-oriented grid-enabled open system",
+      "ExtraInfo": "laudantium",
+      "LinkId": 679
     }
   ],
-  "NextDueDate": "2003-07-17T12:57:42.7606849+02:00",
-  "Postit": "dicta",
+  "NextDueDate": "2021-03-29T04:22:35.424107+02:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-06-10T12:57:42.7606849+02:00",
+  "ReopenDate": "2023-10-14T04:22:35.424107+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kuhn LLC",
-      "Comment": "est",
-      "StakeholderRoleId": 745,
-      "CountryId": 20,
-      "PersonId": 60,
-      "EmailDescription": "alessandro.kovacek@sipesthiel.uk",
-      "EmailId": 194,
-      "EmailAddress": "bessie@langworth.co.uk",
-      "PhoneId": 141,
-      "ContactName": "Lueilwitz, Waters and Heidenreich",
-      "ContactId": 835,
-      "SaleId": 823,
-      "Mrmrs": "aut",
-      "Firstname": "Kris",
-      "MiddleName": "Bins Group",
-      "Lastname": "Altenwerth",
-      "SaleStakeholderId": 931,
-      "Rank": 719,
-      "Phone": "073-579-4185"
+      "StakeholderRoleName": "Casper-McDermott",
+      "Comment": "dolor",
+      "StakeholderRoleId": 61,
+      "CountryId": 547,
+      "PersonId": 394,
+      "EmailDescription": "antonietta@jacobi.com",
+      "EmailId": 442,
+      "EmailAddress": "melvin@considine.ca",
+      "PhoneId": 693,
+      "ContactName": "Farrell-Volkman",
+      "ContactId": 331,
+      "SaleId": 813,
+      "Mrmrs": "nihil",
+      "Firstname": "Nash",
+      "MiddleName": "Cruickshank, Koch and Adams",
+      "Lastname": "Hudson",
+      "SaleStakeholderId": 625,
+      "Rank": 751,
+      "Phone": "746-496-5323"
     }
   ],
-  "ActiveErpLinks": 683,
+  "ActiveErpLinks": 320,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Hillary Kelsi Rau III",
-    "SuperOffice:2": "Miss Jazlyn Trisha Tromp"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "468926873"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "aut",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "1997-02-16T12:57:42.7606849+01:00",
-  "PublishTo": "2015-09-10T12:57:42.7606849+02:00",
-  "PublishFrom": "2016-04-08T12:57:42.7606849+02:00",
+  "PublishEventDate": "2022-07-23T04:22:35.424107+02:00",
+  "PublishTo": "2016-01-17T04:22:35.424107+01:00",
+  "PublishFrom": "2016-02-21T04:22:35.424107+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 364,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "expedita"
     },
     {
-      "VisibleId": 364,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "expedita"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "enim",
-  "2": "ullam"
+  "1": "vero",
+  "2": "pariatur"
 }
 ```

@@ -104,28 +104,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 279,
-  "Name": "Waelchi Group",
-  "CurrencyId": 606,
-  "EnglishName": "Greenholt, Swift and Aufderhar",
+  "CountryId": 186,
+  "Name": "Hoppe LLC",
+  "CurrencyId": 314,
+  "EnglishName": "Murphy Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Enterprise-wide composite benchmark",
-  "OrgNrText": "1758870",
-  "InterAreaPrefix": "quod",
-  "DialInPrefix": "libero",
-  "ZipPrefix": "error",
-  "DomainName": "Stanton, Krajcik and Roberts",
-  "AddressLayoutId": 101,
-  "DomesticAddressLayoutId": 400,
-  "ForeignAddressLayoutId": 586,
-  "Rank": 175,
-  "Tooltip": "accusamus",
-  "Deleted": true
+  "ImageDescription": "Upgradable next generation forecast",
+  "OrgNrText": "1404247",
+  "InterAreaPrefix": "eligendi",
+  "DialInPrefix": "aliquam",
+  "ZipPrefix": "id",
+  "DomainName": "Baumbach-Greenfelder",
+  "AddressLayoutId": 794,
+  "DomesticAddressLayoutId": 345,
+  "ForeignAddressLayoutId": 244,
+  "Rank": 94,
+  "Tooltip": "qui",
+  "Deleted": false
 }
 ```
 
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 26,
-  "Name": "King, Pfannerstill and Upton",
-  "CurrencyId": 186,
-  "EnglishName": "Stamm-Feil",
+  "CountryId": 875,
+  "Name": "Conn, Spencer and Gorczany",
+  "CurrencyId": 464,
+  "EnglishName": "Kling, Runolfsson and Hoeger",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused bottom-line concept",
-  "OrgNrText": "1078048",
-  "InterAreaPrefix": "ex",
-  "DialInPrefix": "quaerat",
-  "ZipPrefix": "ex",
-  "DomainName": "Macejkovic Group",
-  "AddressLayoutId": 457,
-  "DomesticAddressLayoutId": 325,
-  "ForeignAddressLayoutId": 524,
-  "Rank": 209,
-  "Tooltip": "natus",
+  "ImageDescription": "Focused zero tolerance encryption",
+  "OrgNrText": "1642234",
+  "InterAreaPrefix": "voluptatibus",
+  "DialInPrefix": "voluptas",
+  "ZipPrefix": "quisquam",
+  "DomainName": "Mante Group",
+  "AddressLayoutId": 594,
+  "DomesticAddressLayoutId": 788,
+  "ForeignAddressLayoutId": 81,
+  "Rank": 243,
+  "Tooltip": "dolor",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldLength": 19
     }
   }
 }

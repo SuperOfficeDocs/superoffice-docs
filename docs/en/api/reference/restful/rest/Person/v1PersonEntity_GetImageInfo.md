@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 29 Aug 2021 12:57:42 G8T
+Last-Modified: Tue, 18 Dec 2012 04:22:35 G12T
 
 {
-  "BlobId": 898,
-  "BlobSize": 404,
-  "Description": "Implemented 3rd generation moderator",
-  "ExtraInfo": "voluptatem",
-  "IsEncrypted": false,
+  "BlobId": 182,
+  "BlobSize": 728,
+  "Description": "Customer-focused secondary policy",
+  "ExtraInfo": "blanditiis",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "velit",
-  "OriginalSize": 833,
-  "CreatedDate": "2023-03-26T12:57:42.588849+02:00",
-  "UpdatedDate": "2021-08-29T12:57:42.588849+02:00",
+  "MimeType": "eius",
+  "OriginalSize": 665,
+  "CreatedDate": "2022-12-30T04:22:35.1260788+01:00",
+  "UpdatedDate": "2012-12-18T04:22:35.1260788+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

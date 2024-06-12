@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "sed",
-  "MinDate": "1999-02-07T12:57:34.586598+01:00",
-  "MaxDate": "2006-01-11T12:57:34.586598+01:00"
+  "LastHash": "ipsum",
+  "MinDate": "1999-06-12T04:22:27.2841162+02:00",
+  "MaxDate": "2023-07-31T04:22:27.2841162+02:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "quam",
+  "CallerIDHash": "hic",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 359,
-      "PersonId": 63,
-      "PersonName": "Keebler Group",
-      "Mrmrs": "velit",
-      "ContactId": 720,
-      "ContactName": "Murazik Group"
+      "DialInPrefix": 829,
+      "PersonId": 762,
+      "PersonName": "Weissnat-Frami",
+      "Mrmrs": "fugit",
+      "ContactId": 43,
+      "ContactName": "Monahan Group"
     }
   ]
 }

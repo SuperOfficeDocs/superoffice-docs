@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 84,
-  "Name": "Bradtke-Boyle",
-  "Description": "Implemented next generation neural-net",
+  "ReportLabelLayoutId": 591,
+  "Name": "Gislason Inc and Sons",
+  "Description": "Integrated demand-driven concept",
   "Orientation": "Landscape",
-  "PaperWidth": 1002,
-  "PaperHeight": 75,
-  "LeftMargin": 829,
-  "RightMargin": 951,
-  "TopMargin": 173,
-  "BottomMargin": 73,
-  "CountColumns": 172,
-  "CountRows": 250,
+  "PaperWidth": 30,
+  "PaperHeight": 915,
+  "LeftMargin": 103,
+  "RightMargin": 252,
+  "TopMargin": 914,
+  "BottomMargin": 905,
+  "CountColumns": 450,
+  "CountRows": 508,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 250
     }
   }
 }

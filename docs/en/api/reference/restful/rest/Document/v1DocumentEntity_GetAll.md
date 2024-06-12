@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=occaecati
-GET /api/v1/Document?$top=899
-GET /api/v1/Document?$skip=442
+GET /api/v1/Document?$entities=exercitationem
+GET /api/v1/Document?$top=709
+GET /api/v1/Document?$skip=403
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=sunt
+GET /api/v1/Document?$context=aut
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "suscipit",
+  "odata.nextLink": "vitae",
   "value": [
     {
-      "PrimaryKey": 4769,
+      "PrimaryKey": 3737,
       "EntityName": "sale",
-      "saleId": 4769,
-      "contactId": 2215,
-      "name": "Moore-Kunze"
+      "saleId": 3737,
+      "contactId": 1538,
+      "name": "Steuber, Kertzmann and Yost"
     },
     {
-      "PrimaryKey": 3106,
+      "PrimaryKey": 9479,
       "EntityName": "sale",
-      "saleId": 3106,
-      "contactId": 6766,
-      "name": "Emmerich Group"
+      "saleId": 9479,
+      "contactId": 5380,
+      "name": "Dietrich, Hodkiewicz and Bednar"
     }
   ]
 }

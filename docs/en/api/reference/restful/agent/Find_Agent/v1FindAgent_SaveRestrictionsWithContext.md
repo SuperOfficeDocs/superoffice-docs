@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Reynolds-Goodwin",
-  "StorageKey": "molestiae",
+  "StorageType": "fugit",
+  "ProviderName": "Purdy-Lowe",
+  "StorageKey": "quasi",
   "Restrictions": [
     {
-      "Name": "Okuneva, Bechtelar and Schuster",
-      "Operator": "molestiae",
+      "Name": "Carroll, Hudson and Witting",
+      "Operator": "recusandae",
       "Values": [
-        "et",
-        "molestias"
+        "iure",
+        "est"
       ],
       "DisplayValues": [
-        "placeat",
-        "consectetur"
+        "tempora",
+        "dignissimos"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 113,
+      "InterParenthesis": 787,
       "InterOperator": "And",
-      "UniqueHash": 700
+      "UniqueHash": 145
     }
   ],
-  "Context": "assumenda"
+  "Context": "tempora"
 }
 ```
 

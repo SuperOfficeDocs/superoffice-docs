@@ -112,31 +112,31 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 819,
-  "Name": "Heaney-Davis",
-  "Rank": 681,
-  "Tooltip": "quidem",
-  "Icon": "praesentium",
-  "DefaultTicketStatus": 589,
+  "TicketTypeId": 878,
+  "Name": "Lesch, Rutherford and Ziemann",
+  "Rank": 556,
+  "Tooltip": "vel",
+  "Icon": "quis",
+  "DefaultTicketStatus": 365,
   "TicketStatuses": [
-    992,
-    116
+    630,
+    602
   ],
-  "DefaultTicketPriority": 121,
+  "DefaultTicketPriority": 592,
   "TicketPriorities": [
-    977,
-    384
+    549,
+    177
   ],
-  "ReplyTemplate": 62,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 259,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    40,
-    899
+    231,
+    81
   ]
 }
 ```
@@ -148,43 +148,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 289,
-  "Name": "Sauer-Ortiz",
-  "Rank": 98,
-  "Tooltip": "nostrum",
-  "Icon": "officia",
-  "DefaultTicketStatus": 160,
+  "TicketTypeId": 890,
+  "Name": "Monahan, Blanda and Satterfield",
+  "Rank": 56,
+  "Tooltip": "ab",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 905,
   "TicketStatuses": [
-    714,
-    787
+    484,
+    604
   ],
-  "DefaultTicketPriority": 573,
+  "DefaultTicketPriority": 72,
   "TicketPriorities": [
-    815,
-    904
+    57,
+    82
   ],
-  "ReplyTemplate": 982,
+  "ReplyTemplate": 301,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    198,
-    410
+    314,
+    683
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 879
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

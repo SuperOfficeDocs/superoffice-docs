@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 307,
-  "ModuleOwner": "fugit",
+  "AssociateId": 844,
+  "ModuleOwner": "quo",
   "ModuleLicenseNames": [
-    "Crona, VonRueden and Willms",
-    "Sanford Group"
+    "Fadel-Hamill",
+    "Pfannerstill, Prosacco and Langosh"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 482,
-    "Tooltip": "quis",
-    "CanAssign": true,
-    "Free": 957,
-    "InUse": 832,
-    "IsHidden": true,
+    "Total": 719,
+    "Tooltip": "explicabo",
+    "CanAssign": false,
+    "Free": 720,
+    "InUse": 414,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 940,
-    "Name": "Brown LLC",
-    "Description": "Seamless cohesive customer loyalty",
-    "PrerequisiteModuleName": "Dickinson-Ratke",
-    "SortOrder": 677,
-    "ExtraFlags": 587,
+    "ModuleLicenseId": 8,
+    "Name": "Stokes LLC",
+    "Description": "Multi-tiered full-range Graphic Interface",
+    "PrerequisiteModuleName": "Fadel, Christiansen and Mitchell",
+    "SortOrder": 979,
+    "ExtraFlags": 523,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 971
       }
     }
   }

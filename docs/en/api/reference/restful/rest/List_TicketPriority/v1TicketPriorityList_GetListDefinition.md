@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 813,
-  "Name": "Hermann Group",
-  "Tooltip": "minus",
+  "Id": 939,
+  "Name": "Zulauf, Reinger and Witting",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 529,
+  "Rank": 654,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nisi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 867
     }
   },
   "_Links": {

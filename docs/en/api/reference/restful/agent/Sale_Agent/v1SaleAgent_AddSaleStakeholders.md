@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 383,
+  "SaleId": 573,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bergnaum Inc and Sons",
-      "Comment": "qui",
-      "StakeholderRoleId": 600,
-      "CountryId": 141,
-      "PersonId": 299,
-      "EmailDescription": "bennie@mann.biz",
-      "EmailId": 473,
-      "EmailAddress": "brandon@cronin.co.uk",
-      "PhoneId": 816,
-      "ContactName": "Bergnaum LLC",
-      "ContactId": 380,
-      "SaleId": 86,
-      "Mrmrs": "perspiciatis",
-      "Firstname": "Era",
-      "MiddleName": "Breitenberg Group",
-      "Lastname": "Padberg",
-      "SaleStakeholderId": 926,
-      "Rank": 74,
-      "Phone": "543-824-4104 x4174"
+      "StakeholderRoleName": "McDermott, Koch and Dickens",
+      "Comment": "at",
+      "StakeholderRoleId": 714,
+      "CountryId": 857,
+      "PersonId": 649,
+      "EmailDescription": "darron@ullrich.info",
+      "EmailId": 472,
+      "EmailAddress": "suzanne@jakubowski.co.uk",
+      "PhoneId": 165,
+      "ContactName": "Goodwin Inc and Sons",
+      "ContactId": 430,
+      "SaleId": 972,
+      "Mrmrs": "minima",
+      "Firstname": "Geovanny",
+      "MiddleName": "McDermott-Rodriguez",
+      "Lastname": "Murphy",
+      "SaleStakeholderId": 916,
+      "Rank": 469,
+      "Phone": "057-380-9555 x640"
     }
   ]
 }

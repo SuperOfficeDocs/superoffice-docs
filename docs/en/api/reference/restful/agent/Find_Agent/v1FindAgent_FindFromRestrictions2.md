@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "magni",
-  "ProviderName": "Blick Group",
-  "PageSize": 611,
-  "PageNumber": 663
+  "Restrictions": "eum",
+  "ProviderName": "Nienow-Murray",
+  "PageSize": 336,
+  "PageNumber": 470
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Koelpin-Grant",
-      "DisplayTooltip": "qui",
-      "DisplayType": "inventore",
+      "DisplayName": "McKenzie-Zieme",
+      "DisplayTooltip": "nam",
+      "DisplayType": "corporis",
       "CanOrderBy": false,
-      "Name": "Torp-Kunde",
+      "Name": "Kling-Waelchi",
       "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Lindgren-Langosh",
+      "RestrictionType": "repudiandae",
+      "RestrictionListName": "Kulas Group",
       "IsVisible": false,
-      "ExtraInfo": "voluptates",
-      "Width": "minima",
-      "IconHint": "animi",
-      "HeadingIconHint": "aliquam"
+      "ExtraInfo": "impedit",
+      "Width": "qui",
+      "IconHint": "saepe",
+      "HeadingIconHint": "fugiat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Murazik-Cruickshank",
-      "PrimaryKey": 187,
+      "EntityName": "Hoeger Group",
+      "PrimaryKey": 631,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "corrupti",
-          "LinkHint": "sint"
+          "DisplayValue": "eveniet",
+          "TooltipHint": "aliquam",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "eos",
+      "LinkHint": "qui",
+      "StyleHint": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 96
         }
       }
     }
   ],
-  "RowCount": 803,
+  "RowCount": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

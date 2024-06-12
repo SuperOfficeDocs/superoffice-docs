@@ -70,7 +70,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |visibleFor|listAny|Visible for|  |
@@ -132,7 +132,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -676,7 +676,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
 |saleStakeholder/person/isStakeholder|bool|Stakeholder - Is stakeholder: This person is a sale stakeholder| x |
 |saleStakeholder/person/updatedByWorkflow|listAny|Stakeholder - Updated by flow: Updated by flow| x |
-|saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - Updated by flow: Updated by flow| x |
+|saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - When updated by flow: When updated by flow| x |
 |saleStakeholder/person/createdByForm|listAny|Stakeholder - Created by form: Created by form| x |
 |saleStakeholder/person/phone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
 |saleStakeholder/person/personDirectPhone/formattedNumber|string|Stakeholder - Direct - Phone: Displays phone number|  |
@@ -1121,7 +1121,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/salefavourites?$select=person/personPager/description,person/restrictionAddress/addressId,person/restrictionAddress/state,person/correspondingAssociate/contactFullName,contact/contactAssociate/middleName
+GET /api/v1/archive/salefavourites?$select=salePublish/isPublished,person/personInfo/textId,person/personUdef/SuperOffice:8,contact/postAddress/zip,contact/restrictionAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

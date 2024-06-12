@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Block-Becker",
-  "ProviderName": "Toy-Hettinger",
-  "Context": "autem",
-  "OwnerKeys": "eius",
+  "GuiName": "Hyatt Inc and Sons",
+  "ProviderName": "Brown, Dietrich and Kassulke",
+  "Context": "eum",
+  "OwnerKeys": "dolor",
   "ColumnWidths": [
-    "excepturi",
-    "ullam"
+    "et",
+    "expedita"
   ]
 }
 ```

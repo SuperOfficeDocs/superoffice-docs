@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 546,
-  "Select": "aut"
+  "SelectionId": 875,
+  "Select": "nobis"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ledner Group",
-    "PrimaryKey": 534,
+    "EntityName": "Orn-Toy",
+    "PrimaryKey": 127,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aspernatur",
-        "TooltipHint": "et",
-        "LinkHint": "sint"
+        "DisplayValue": "cupiditate",
+        "TooltipHint": "aspernatur",
+        "LinkHint": "deserunt"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "illum",
+    "LinkHint": "cum",
+    "StyleHint": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

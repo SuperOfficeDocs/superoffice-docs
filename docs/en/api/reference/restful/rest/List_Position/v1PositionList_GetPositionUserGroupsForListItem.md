@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Nicolas, Bernhard and Stanton",
-    "ToolTip": "Dolorum fugiat debitis velit sit.",
-    "Deleted": false,
-    "Rank": 578,
-    "Type": "alias",
-    "ColorBlock": 793,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2016-11-09T12:57:43.5426609+01:00",
+    "Id": 125,
+    "Name": "Hills, Nitzsche and Herman",
+    "ToolTip": "Fugiat laboriosam inventore aspernatur blanditiis.",
+    "Deleted": true,
+    "Rank": 600,
+    "Type": "ullam",
+    "ColorBlock": 395,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "1999-06-21T04:22:36.0184671+02:00",
     "ChildItems": [
       {
-        "Id": 718,
-        "Name": "Lockman LLC",
-        "ToolTip": "Aliquam totam.",
+        "Id": 91,
+        "Name": "Keeling, Batz and Ortiz",
+        "ToolTip": "Qui enim sunt et odio.",
         "Deleted": false,
-        "Rank": 836,
-        "Type": "velit",
-        "ColorBlock": 437,
-        "IconHint": "blanditiis",
+        "Rank": 163,
+        "Type": "illo",
+        "ColorBlock": 732,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2017-06-29T12:57:43.5426609+02:00",
+        "LastChanged": "2001-02-19T04:22:36.0184671+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Javonte Edmond Bartell IV",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Ms. Bradley Amber Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "aperiam",
-    "Hidden": false,
-    "FullName": "Prof. Lydia Medhurst",
+    "ExtraInfo": "inventore",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Pearl Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 993
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Kreiger, Feeney and Mohr",
-  "Tooltip": "ea",
+  "Id": 69,
+  "Name": "Schroeder, Schmeler and Corkery",
+  "Tooltip": "impedit",
   "Deleted": true,
-  "Rank": 985,
+  "Rank": 9,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   },
   "_Links": {

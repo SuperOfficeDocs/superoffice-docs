@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 771,
-    "Name": "Lemke LLC",
-    "CurrencyId": 739,
-    "EnglishName": "Herzog, Lubowitz and Olson",
+    "CountryId": 761,
+    "Name": "Wyman-Wintheiser",
+    "CurrencyId": 172,
+    "EnglishName": "Torp, Runte and Bahringer",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Synergized systemic emulation",
-    "OrgNrText": "87254",
-    "InterAreaPrefix": "est",
-    "DialInPrefix": "doloribus",
-    "ZipPrefix": "sint",
-    "DomainName": "Swaniawski-Wilderman",
-    "AddressLayoutId": 866,
-    "DomesticAddressLayoutId": 298,
-    "ForeignAddressLayoutId": 405,
-    "Rank": 654,
-    "Tooltip": "commodi",
-    "Deleted": false,
+    "ImageDescription": "Decentralized transitional framework",
+    "OrgNrText": "155049",
+    "InterAreaPrefix": "nihil",
+    "DialInPrefix": "sed",
+    "ZipPrefix": "exercitationem",
+    "DomainName": "Wolff Group",
+    "AddressLayoutId": 25,
+    "DomesticAddressLayoutId": 612,
+    "ForeignAddressLayoutId": 634,
+    "Rank": 636,
+    "Tooltip": "hic",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldType": "System.Int32",
+        "FieldLength": 837
       }
     }
   }

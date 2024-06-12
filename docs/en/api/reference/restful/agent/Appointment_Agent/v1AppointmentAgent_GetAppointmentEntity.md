@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=857
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=431
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-07-03T12:57:32.8521604+02:00",
-  "AppointmentId": 815,
-  "Description": "Front-line demand-driven core",
-  "Title": "quo",
-  "Agenda": "iste",
-  "InternalNotes": "numquam",
-  "StartDate": "2000-03-03T12:57:32.8521604+01:00",
-  "EndDate": "2016-04-02T12:57:32.8521604+02:00",
+  "CreatedDate": "2015-06-05T04:22:25.7615574+02:00",
+  "AppointmentId": 974,
+  "Description": "Streamlined intermediate structure",
+  "Title": "voluptas",
+  "Agenda": "accusamus",
+  "InternalNotes": "et",
+  "StartDate": "2017-01-11T04:22:25.7615574+01:00",
+  "EndDate": "2007-09-30T04:22:25.7615574+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 97,
+  "MotherId": 8,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-12-22T12:57:32.8521604+01:00",
+  "UpdatedDate": "1997-01-30T04:22:25.7615574+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 203,
+  "ActiveLinks": 488,
   "Links": [
     {
-      "EntityName": "Haley Group",
-      "Id": 697,
-      "Description": "Centralized even-keeled standardization",
-      "ExtraInfo": "nihil",
-      "LinkId": 980,
+      "EntityName": "Schaden, Shields and Zieme",
+      "Id": 76,
+      "Description": "Quality-focused uniform methodology",
+      "ExtraInfo": "cumque",
+      "LinkId": 344,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 633
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "voluptas",
   "HasAlarm": false,
-  "ColorIndex": 90,
+  "ColorIndex": 372,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "dolores",
-  "LeadTime": "dolore",
-  "Location": "non",
-  "RejectCounter": 985,
+  "LagTime": "nam",
+  "LeadTime": "beatae",
+  "Location": "rem",
+  "RejectCounter": 548,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 418,
-      "PersonId": 833,
-      "ContactId": 623,
-      "EmailId": 123,
-      "SendEmail": true,
+      "AssociateId": 76,
+      "PersonId": 920,
+      "ContactId": 794,
+      "EmailId": 830,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "carissa.rodriguez@morarreichert.info",
-      "Description": "Operative methodical synergy"
+      "EmailAddress": "estella_hilll@gloverreilly.uk",
+      "Description": "Fully-configurable assymetric ability"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-01-29T12:57:32.8521604+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2023-07-25T04:22:25.7615574+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 732,
+  "PreferredTZLocation": 595,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 53,
+  "SuggestedAppointmentId": 477,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "iste",
+  "CentralserviceVideomeetId": "animi",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Keira Swaniawski"
+    "SuperOffice:1": "519413556",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "sapiente",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "et"
+    "CustomFields1": "iusto",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2002-06-11T12:57:32.8521604+02:00",
-  "PublishTo": "2019-03-07T12:57:32.8521604+01:00",
-  "PublishFrom": "2016-09-18T12:57:32.8521604+02:00",
+  "PublishEventDate": "2018-08-18T04:22:25.7615574+02:00",
+  "PublishTo": "2023-07-11T04:22:25.7615574+02:00",
+  "PublishFrom": "2017-05-22T04:22:25.7615574+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 460,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 62
+          "FieldLength": 257
         }
       }
     },
     {
-      "VisibleId": 460,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 62
+          "FieldLength": 257
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 390
     }
   }
 }

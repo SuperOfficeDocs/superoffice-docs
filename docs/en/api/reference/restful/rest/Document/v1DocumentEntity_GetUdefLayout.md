@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 373,
-    "ColumnId": 859,
-    "FieldDefault": "veritatis",
-    "FieldHeight": 312,
-    "FieldLabel": "vitae",
-    "FieldLeft": 254,
-    "FieldTop": 924,
+    "UDefFieldId": 335,
+    "ColumnId": 739,
+    "FieldDefault": "deleniti",
+    "FieldHeight": 283,
+    "FieldLabel": "quas",
+    "FieldLeft": 140,
+    "FieldTop": 915,
     "FieldType": "Checkbox",
-    "FieldWidth": 373,
-    "FormatMask": "ut",
+    "FieldWidth": 882,
+    "FormatMask": "delectus",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 5,
-    "LabelLeft": 755,
-    "LabelTop": 249,
-    "LabelWidth": 469,
-    "LastVersionId": 322,
-    "ListTableId": 723,
-    "IsMandatory": false,
+    "LabelHeight": 311,
+    "LabelLeft": 112,
+    "LabelTop": 959,
+    "LabelWidth": 242,
+    "LastVersionId": 254,
+    "ListTableId": 446,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 465,
-    "ProgId": "voluptates",
-    "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 394,
-    "TextLength": 955,
-    "Tooltip": "deserunt",
-    "UdefIdentity": 190,
-    "UDListDefinitionId": 193,
+    "Page1LineNo": 581,
+    "ProgId": "commodi",
+    "IsReadOnly": true,
+    "ShortLabel": "quo",
+    "TabOrder": 126,
+    "TextLength": 641,
+    "Tooltip": "et",
+    "UdefIdentity": 176,
+    "UDListDefinitionId": 548,
     "Justification": "Center",
-    "Version": 685,
-    "TemplateVariableName": "Koepp, Konopelski and Hayes",
+    "Version": 925,
+    "TemplateVariableName": "Bogan, Howe and Kirlin",
     "HasBeenPublished": false,
-    "MdoListName": "Harris-Mosciski",
+    "MdoListName": "Conn, Cartwright and Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldLength": 692
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 814,
-    "Name": "Mills, Casper and Adams",
-    "Tooltip": "ea",
+    "HeadingId": 622,
+    "Name": "Howe-Klein",
+    "Tooltip": "fugiat",
     "Deleted": true,
-    "Rank": 932,
-    "UdListDefinitionId": 459,
+    "Rank": 329,
+    "UdListDefinitionId": 371,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

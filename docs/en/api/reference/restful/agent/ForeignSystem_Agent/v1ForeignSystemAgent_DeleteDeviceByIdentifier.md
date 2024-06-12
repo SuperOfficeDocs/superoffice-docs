@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Davis-Jast",
-  "DeviceName": "Boyer Inc and Sons",
-  "DeviceIdentifier": "eius"
+  "ApplicationName": "McKenzie, Pacocha and Gibson",
+  "DeviceName": "Berge, Bosco and D'Amore",
+  "DeviceIdentifier": "rerum"
 }
 ```
 

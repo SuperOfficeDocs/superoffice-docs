@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kautzer, Osinski and Effertz",
-  "ModuleName": "Rogahn, Bergstrom and Hodkiewicz"
+  "OwnerName": "Muller Group",
+  "ModuleName": "Hansen, Braun and Cronin"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "O'Hara-Kovacek",
-  "ModuleName": "Schultz, Reinger and Wintheiser",
-  "ModuleDescription": "Expanded intangible benchmark",
-  "ModuleTooltip": "voluptas",
-  "ModuleVersion": "dolores",
+  "OwnerName": "Hermiston LLC",
+  "ModuleName": "Friesen, Fay and Weimann",
+  "ModuleDescription": "Configurable explicit infrastructure",
+  "ModuleTooltip": "quo",
+  "ModuleVersion": "ipsam",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 368,
-  "ExtraFlags": 471,
-  "ExtraInfo": "quos",
-  "SortOrder": 558,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Barrows-Parker",
-  "Signature": "non"
+  "NumberOfLicenses": 345,
+  "ExtraFlags": 601,
+  "ExtraInfo": "aut",
+  "SortOrder": 582,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Smith-Reichel",
+  "Signature": "ea"
 }
 ```

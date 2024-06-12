@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Daugherty, Baumbach and Kovacek",
-  "RecordId": 308,
-  "AssociateId": 710,
-  "ExtraInfo": "iusto"
+  "TableName": "Krajcik Inc and Sons",
+  "RecordId": 179,
+  "AssociateId": 631,
+  "ExtraInfo": "consequuntur"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

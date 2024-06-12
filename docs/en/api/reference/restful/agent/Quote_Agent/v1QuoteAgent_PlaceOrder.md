@@ -87,11 +87,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 878,
+  "QuoteAlternativeId": 548,
   "MarkSaleAsSold": false,
-  "PoNumber": "1162051",
-  "OrderComment": "ipsam",
-  "Culture": "recusandae"
+  "PoNumber": "337731",
+  "OrderComment": "dicta",
+  "Culture": "quia"
 }
 ```
 
@@ -103,9 +103,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "adipisci",
-  "TechExplanation": "eos",
-  "ErrorCode": "rerum",
+  "UserExplanation": "deleniti",
+  "TechExplanation": "quae",
+  "ErrorCode": "et",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldType": "System.String",
+      "FieldLength": 85
     }
   }
 }

@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Berge Inc and Sons",
+  "ProviderName": "Adams-Pfannerstill",
   "Restrictions": [
     {
-      "Name": "Torp-Bashirian",
-      "Operator": "sapiente",
+      "Name": "Buckridge-Ernser",
+      "Operator": "aliquam",
       "Values": [
-        "vitae",
-        "harum"
+        "aut",
+        "qui"
       ],
       "DisplayValues": [
-        "deleniti",
-        "aspernatur"
+        "eum",
+        "provident"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 420,
+      "InterParenthesis": 509,
       "InterOperator": "And",
-      "UniqueHash": 843
+      "UniqueHash": 976
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hyatt-Bergstrom",
-    "DisplayTooltip": "magni",
-    "DisplayType": "recusandae",
+    "DisplayName": "Beatty LLC",
+    "DisplayTooltip": "et",
+    "DisplayType": "sed",
     "CanOrderBy": false,
-    "Name": "Wisozk, Hilpert and Nienow",
+    "Name": "Pollich, Connelly and Fahey",
     "CanRestrictBy": false,
-    "RestrictionType": "distinctio",
-    "RestrictionListName": "Ullrich, Ziemann and Beier",
-    "IsVisible": true,
-    "ExtraInfo": "quas",
-    "Width": "eum",
-    "IconHint": "quis",
-    "HeadingIconHint": "sapiente"
+    "RestrictionType": "sit",
+    "RestrictionListName": "Nitzsche-Steuber",
+    "IsVisible": false,
+    "ExtraInfo": "inventore",
+    "Width": "mollitia",
+    "IconHint": "ea",
+    "HeadingIconHint": "rerum"
   }
 ]
 ```

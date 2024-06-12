@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 518,
-  "Name": "Berge-Ledner",
-  "Tooltip": "quisquam",
-  "Rank": 687,
+  "ProjTypeId": 589,
+  "Name": "West-Cormier",
+  "Tooltip": "saepe",
+  "Rank": 979,
   "DurationUnit": "Century",
-  "ProjectDuration": 644,
-  "Deleted": false,
-  "HasGuide": true,
+  "ProjectDuration": 298,
+  "Deleted": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 408,
-      "Name": "Lehner-Krajcik",
-      "ToolTip": "Sint dolor laudantium assumenda earum assumenda consequatur.",
+      "Id": 45,
+      "Name": "Walter, Doyle and Sanford",
+      "ToolTip": "Dolore velit.",
       "Deleted": false,
-      "Rank": 782,
-      "Type": "molestiae",
-      "ColorBlock": 429,
-      "IconHint": "omnis",
-      "Selected": true,
-      "LastChanged": "2012-02-28T12:57:34.2117122+01:00",
+      "Rank": 140,
+      "Type": "et",
+      "ColorBlock": 696,
+      "IconHint": "illum",
+      "Selected": false,
+      "LastChanged": "2014-11-28T04:22:27.0329423+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "amet",
-      "StyleHint": "est",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "voluptatum",
       "Hidden": false,
-      "FullName": "Ms. Modesta Fritz Rohan",
+      "FullName": "Gladyce Shea Kuvalis MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 155
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 345
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Jewess-Schuppe",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 956,
-    "Rank": 90
+    "Id": 717,
+    "Name": "Bins Group",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "UdListDefinitionId": 694,
+    "Rank": 761
   },
   {
-    "Id": 630,
-    "Name": "Jewess-Schuppe",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 956,
-    "Rank": 90
+    "Id": 717,
+    "Name": "Bins Group",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "UdListDefinitionId": 694,
+    "Rank": 761
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Sanford, West and Huel",
-    "Tooltip": "qui",
+    "Id": 624,
+    "Name": "Boyer, Goldner and Braun",
+    "Tooltip": "laborum",
     "Deleted": true,
-    "UdListDefinitionId": 311,
-    "Rank": 839,
+    "UdListDefinitionId": 53,
+    "Rank": 570,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 676
+        "FieldLength": 41
       }
     }
   }

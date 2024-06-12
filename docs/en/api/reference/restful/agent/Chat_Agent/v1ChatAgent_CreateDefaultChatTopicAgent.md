@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,10 +70,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 681,
+  "TopicId": 103,
   "User": null,
-  "CanListen": true,
-  "CanRespond": false,
+  "CanListen": false,
+  "CanRespond": true,
   "CanManage": false,
   "CanNotify": false
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=eum
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=at
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Bruen, Ankunding and Cormier",
-    "ToolTip": "Velit qui accusantium natus similique inventore.",
-    "Deleted": true,
-    "Rank": 576,
-    "Type": "incidunt",
+    "Id": 559,
+    "Name": "Reynolds, VonRueden and Stracke",
+    "ToolTip": "Eveniet vel molestiae nobis quidem dolor nihil.",
+    "Deleted": false,
+    "Rank": 963,
+    "Type": "perferendis",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Wolf, Jones and Kerluke",
-        "ToolTip": "Dolores odit quia.",
-        "Deleted": true,
-        "Rank": 884,
-        "Type": "doloremque",
+        "Id": 35,
+        "Name": "Schneider-Schimmel",
+        "ToolTip": "Et debitis culpa dicta vel aut quis et.",
+        "Deleted": false,
+        "Rank": 190,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 996,
-        "ExtraInfo": "aut",
-        "StyleHint": "repudiandae",
-        "FullName": "Danial Leannon",
+        "IconHint": "vel",
+        "ColorBlock": 925,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "voluptatibus",
+        "FullName": "Samara Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 888
+            "FieldType": "System.Int32",
+            "FieldLength": 249
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 699,
-    "ExtraInfo": "sint",
-    "StyleHint": "rerum",
-    "FullName": "Vickie Kassulke",
+    "IconHint": "quidem",
+    "ColorBlock": 359,
+    "ExtraInfo": "similique",
+    "StyleHint": "et",
+    "FullName": "Verla Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 162
       }
     }
   }

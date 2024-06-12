@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 604,
-  "ParentId": 942,
-  "Name": "Lubowitz Group",
-  "Fullname": "iusto",
-  "CategoryMaster": 201,
+  "TicketCategoryId": 235,
+  "ParentId": 242,
+  "Name": "Witting-McDermott",
+  "Fullname": "dolores",
+  "CategoryMaster": 127,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kautzer-Schuppe",
+  "ExternalName": "Pouros, Littel and Mills",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 571,
-  "ReplyTemplate": 822,
-  "NotificationEmail": "erling@boyle.info",
+  "AssignmentLag": 606,
+  "ReplyTemplate": 42,
+  "NotificationEmail": "jazlyn.dickens@windler.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 302,
+  "EffectiveReplyTemplateId": 57,
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "provident"
+    "CustomFields1": "porro",
+    "CustomFields2": "quam"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 273,
-  "ParentId": 648,
-  "Name": "Koss-Cummings",
-  "Fullname": "in",
-  "CategoryMaster": 242,
+  "TicketCategoryId": 543,
+  "ParentId": 60,
+  "Name": "Hartmann, Wuckert and Crooks",
+  "Fullname": "non",
+  "CategoryMaster": 857,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rogahn Inc and Sons",
+  "ExternalName": "Grant, Feeney and Hegmann",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 739,
-  "ReplyTemplate": 278,
-  "NotificationEmail": "dortha@bogan.co.uk",
+  "AssignmentLag": 659,
+  "ReplyTemplate": 390,
+  "NotificationEmail": "ozella@goldnerdoyle.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 446,
+  "EffectiveReplyTemplateId": 547,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "neque",
+    "CustomFields2": "praesentium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 303
     }
   }
 }

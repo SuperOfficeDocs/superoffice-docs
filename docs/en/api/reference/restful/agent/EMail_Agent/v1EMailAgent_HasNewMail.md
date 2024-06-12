@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 84,
-  "FolderId": 542
+  "MailItemId": 993,
+  "FolderId": 859
 }
 ```
 

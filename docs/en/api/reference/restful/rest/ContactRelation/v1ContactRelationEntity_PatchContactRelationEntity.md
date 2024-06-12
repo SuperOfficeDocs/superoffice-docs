@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 191,
-  "SourcePersonId": 947,
-  "DestinationContactId": 30,
-  "DestinationPersonId": 161,
-  "RelationId": 23,
-  "Comment": "magnam",
-  "RelationDefinitionId": 330,
-  "Reversed": 308,
-  "UpdatedDate": "2015-02-03T12:57:42.3232848+01:00",
-  "CreatedDate": "1999-11-06T12:57:42.3232848+01:00",
+  "SourceContactId": 888,
+  "SourcePersonId": 141,
+  "DestinationContactId": 613,
+  "DestinationPersonId": 234,
+  "RelationId": 807,
+  "Comment": "quibusdam",
+  "RelationDefinitionId": 230,
+  "Reversed": 396,
+  "UpdatedDate": "2015-02-06T04:22:34.8589991+01:00",
+  "CreatedDate": "2005-04-24T04:22:34.8589991+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rutherford, Stokes and Spinka",
-  "SourcePersonName": "Pagac, Ratke and Buckridge",
-  "DestinationContactName": "Auer, Littel and Schuster",
-  "DestinationPersonName": "Bernhard Inc and Sons",
-  "ActiveText": "tempore",
-  "PassiveText": "autem",
+  "SourceContactName": "Fisher LLC",
+  "SourcePersonName": "Bauch LLC",
+  "DestinationContactName": "Christiansen, Metz and Corkery",
+  "DestinationPersonName": "Bogisich LLC",
+  "ActiveText": "possimus",
+  "PassiveText": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 571
     }
   },
   "_Links": {

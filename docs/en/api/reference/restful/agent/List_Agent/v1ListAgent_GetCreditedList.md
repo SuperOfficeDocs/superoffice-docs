@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetCreditedList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Value": "autem",
-    "Tooltip": "omnis",
+    "Id": 94,
+    "Value": "nihil",
+    "Tooltip": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldType": "System.Int32",
+        "FieldLength": 917
       }
     }
   },
   {
-    "Id": 8,
-    "Value": "autem",
-    "Tooltip": "omnis",
+    "Id": 94,
+    "Value": "nihil",
+    "Tooltip": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldType": "System.Int32",
+        "FieldLength": 917
       }
     }
   }

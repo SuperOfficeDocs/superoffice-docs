@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Workflow/CopyEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 696,
-  "ShipmentId": 525
+  "EmailFlowId": 324,
+  "ShipmentId": 945
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-410
+103
 ```

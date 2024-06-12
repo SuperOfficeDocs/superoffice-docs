@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 474,
-    "Name": "O'Keefe Inc and Sons",
-    "Tooltip": "omnis",
+    "HeadingId": 120,
+    "Name": "Hand Group",
+    "Tooltip": "accusamus",
     "Deleted": false,
-    "Rank": 13,
-    "UdListDefinitionId": 631,
+    "Rank": 502,
+    "UdListDefinitionId": 243,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldLength": 796
       }
     }
   }

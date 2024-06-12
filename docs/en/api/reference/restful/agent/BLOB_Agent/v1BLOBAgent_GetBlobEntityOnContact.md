@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 780
+  "ContactId": 38
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 891,
-  "BlobSize": 674,
-  "Description": "Organized mission-critical internet solution",
-  "ExtraInfo": "aut",
+  "BlobId": 14,
+  "BlobSize": 518,
+  "Description": "Horizontal high-level knowledge base",
+  "ExtraInfo": "nam",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 430,
-  "CreatedDate": "2004-08-23T12:57:33.2900193+02:00",
-  "UpdatedDate": "2019-07-15T12:57:33.2900193+02:00",
+  "IsZipped": true,
+  "MimeType": "doloribus",
+  "OriginalSize": 353,
+  "CreatedDate": "2000-04-24T04:22:26.0278466+02:00",
+  "UpdatedDate": "2000-06-13T04:22:26.0278466+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptas",
+  "ConceptualType": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 751
     }
   }
 }

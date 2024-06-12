@@ -69,7 +69,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |messageLanguage|listAny|Language: Recognized language in messages|  |
 |sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |suggestedCategory|listAny|Suggested category: Suggested service category|  |
-|createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |text|positiveString|Favourite: Displays a descriptive text for the item| x |
@@ -190,7 +190,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Updated by flow: Updated by flow| x |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
@@ -601,7 +601,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by workflow: Created by workflow| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -760,7 +760,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=timeSpent,person/personExtra/x_person_appointment_relation,person/personExtra/y_car/id,contact/activeErpLinks,project/projectAssociate/fullName
+GET /api/v1/archive/ticketfavourites?$select=status,person/personUpdatedDate,sale/associate/personId,project/projectAssociate/portraitThumbnail,project/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

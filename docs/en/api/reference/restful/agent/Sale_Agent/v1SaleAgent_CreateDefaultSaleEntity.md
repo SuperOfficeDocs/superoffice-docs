@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ducimus",
+  "SaleText": "esse",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-05-25T12:57:34.805298+02:00",
-  "Amount": 16071.152,
-  "SaleId": 40,
-  "Earning": 10498.9,
-  "EarningPercent": 28340.762,
-  "Heading": "maxime",
-  "Number": "1426122",
-  "Probability": 819,
-  "CreatedDate": "2009-06-04T12:57:34.805298+02:00",
-  "UpdatedDate": "2022-07-01T12:57:34.805298+02:00",
+  "Saledate": "2013-01-31T04:22:27.486728+01:00",
+  "Amount": 14720.398,
+  "SaleId": 666,
+  "Earning": 3453.6679999999997,
+  "EarningPercent": 23373.372,
+  "Heading": "delectus",
+  "Number": "1368883",
+  "Probability": 516,
+  "CreatedDate": "2018-01-26T04:22:27.486728+01:00",
+  "UpdatedDate": "2010-03-19T04:22:27.486728+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 721,
+  "ActiveLinks": 560,
   "Links": [
     {
-      "EntityName": "Lehner-Hoeger",
-      "Id": 658,
-      "Description": "Profound coherent system engine",
-      "ExtraInfo": "vel",
-      "LinkId": 954,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 746
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2001-04-15T12:57:34.805298+02:00",
-  "Postit": "ipsam",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2004-07-28T12:57:34.805298+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Barrows, Pouros and Hagenes",
-      "Comment": "quo",
-      "StakeholderRoleId": 634,
-      "CountryId": 51,
-      "PersonId": 508,
-      "EmailDescription": "coy@krajcikkohler.ca",
-      "EmailId": 915,
-      "EmailAddress": "alanis@medhurstmurazik.biz",
-      "PhoneId": 530,
-      "ContactName": "Ferry, Little and Medhurst",
-      "ContactId": 933,
-      "SaleId": 866,
-      "Mrmrs": "placeat",
-      "Firstname": "Brando",
-      "MiddleName": "Marvin, Dare and Bernhard",
-      "Lastname": "Kunze",
-      "SaleStakeholderId": 373,
-      "Rank": 923,
-      "Phone": "1-023-553-7053 x994",
+      "EntityName": "Gottlieb-Toy",
+      "Id": 456,
+      "Description": "Exclusive clear-thinking initiative",
+      "ExtraInfo": "fugit",
+      "LinkId": 99,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 543
         }
       }
     }
   ],
-  "ActiveErpLinks": 395,
-  "UserDefinedFields": {
-    "SuperOffice:1": "768958872",
-    "SuperOffice:2": "Ms. Enrico Cummerata"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "recusandae"
-  },
-  "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "iure"
-  },
-  "PublishEventDate": "2008-02-25T12:57:34.805298+01:00",
-  "PublishTo": "2011-07-24T12:57:34.805298+02:00",
-  "PublishFrom": "2011-09-09T12:57:34.805298+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2023-06-04T04:22:27.486728+02:00",
+  "Postit": "est",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2008-09-20T04:22:27.486728+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 52,
-      "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "StakeholderRoleName": "Nikolaus, Fritsch and Corkery",
+      "Comment": "delectus",
+      "StakeholderRoleId": 491,
+      "CountryId": 591,
+      "PersonId": 968,
+      "EmailDescription": "estell@gorczanyfeil.ca",
+      "EmailId": 729,
+      "EmailAddress": "woodrow_hegmann@ankundingschultz.info",
+      "PhoneId": 973,
+      "ContactName": "Bartell Inc and Sons",
+      "ContactId": 598,
+      "SaleId": 262,
+      "Mrmrs": "dolor",
+      "Firstname": "Bud",
+      "MiddleName": "Gutmann Group",
+      "Lastname": "Grant",
+      "SaleStakeholderId": 975,
+      "Rank": 95,
+      "Phone": "793.417.7368 x675",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 570
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 100,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Mr. Dexter Matt Fahey I",
+    "SuperOffice:2": "Meagan Swaniawski V"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "nemo"
+  },
+  "CustomFields": {
+    "CustomFields1": "iure",
+    "CustomFields2": "deleniti"
+  },
+  "PublishEventDate": "2004-06-20T04:22:27.486728+02:00",
+  "PublishTo": "1998-04-14T04:22:27.486728+02:00",
+  "PublishFrom": "2011-11-21T04:22:27.486728+01:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 527,
+      "Visibility": "All",
+      "DisplayValue": "tempora",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 40
         }
       }
     },
     {
-      "VisibleId": 52,
+      "VisibleId": 527,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 40
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 833
+      "FieldType": "System.Int32",
+      "FieldLength": 747
     }
   }
 }

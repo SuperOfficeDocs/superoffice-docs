@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 854,
-  "DestinationContactName": "Brekke LLC",
+  "SourceContactId": 450,
+  "DestinationContactName": "Reichert, Corwin and Hackett",
   "DestinationContactDepartment": "",
-  "CopyPersons": true
+  "CopyPersons": false
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-363
+392
 ```

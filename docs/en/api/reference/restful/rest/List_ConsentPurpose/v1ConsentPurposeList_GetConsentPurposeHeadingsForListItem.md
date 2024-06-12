@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Christiansen-Jerde",
-    "ToolTip": "Quibusdam perferendis optio id excepturi.",
-    "Deleted": true,
-    "Rank": 971,
-    "Type": "aut",
-    "ColorBlock": 376,
-    "IconHint": "ab",
+    "Id": 740,
+    "Name": "McClure Inc and Sons",
+    "ToolTip": "Qui quasi expedita eum nisi.",
+    "Deleted": false,
+    "Rank": 493,
+    "Type": "eum",
+    "ColorBlock": 248,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2006-01-08T12:57:43.3708249+01:00",
+    "LastChanged": "2019-07-06T04:22:35.8622202+02:00",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Powlowski Inc and Sons",
-        "ToolTip": "Dolor maxime excepturi modi non ut.",
-        "Deleted": true,
-        "Rank": 73,
-        "Type": "mollitia",
-        "ColorBlock": 778,
-        "IconHint": "consequatur",
+        "Id": 123,
+        "Name": "McClure, Farrell and Thiel",
+        "ToolTip": "Eveniet consequuntur maiores.",
+        "Deleted": false,
+        "Rank": 817,
+        "Type": "enim",
+        "ColorBlock": 745,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2022-03-19T12:57:43.3708249+01:00",
+        "LastChanged": "2015-03-21T04:22:35.8622202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "quis",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Miss Mara Florine Hilpert",
+        "FullName": "Mr. Okey Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "odio",
+    "ExtraInfo": "labore",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Jacquelyn Bednar",
+    "FullName": "Mercedes Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldType": "System.Int32",
+        "FieldLength": 455
       }
     }
   }

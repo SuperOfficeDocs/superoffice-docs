@@ -68,7 +68,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Herman-Corwin",
-    "DisplayName": "Murphy LLC",
-    "Description": "Ergonomic leading edge artificial intelligence",
-    "ShortLabel": "rerum",
-    "HideLabel": true,
+    "FieldName": "Hartmann Inc and Sons",
+    "DisplayName": "Altenwerth Group",
+    "Description": "Customizable well-modulated workforce",
+    "ShortLabel": "voluptas",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 866,
-    "TemplateVariableName": "Altenwerth LLC"
+    "IsDisplayField": true,
+    "Rank": 903,
+    "TemplateVariableName": "Hettinger Group"
   }
 ]
 ```

@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wuckert LLC",
-    "StepNumber": 128,
+    "Name": "Wehner Group",
+    "StepNumber": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 800
       }
     }
   },
   {
-    "Name": "Wuckert LLC",
-    "StepNumber": 128,
+    "Name": "Wehner Group",
+    "StepNumber": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 800
       }
     }
   }

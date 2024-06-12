@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "Name": "Beer Inc and Sons",
-  "Tooltip": "porro",
+  "Id": 612,
+  "Name": "Buckridge-Rice",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 92,
+  "Rank": 211,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Name": "Wunsch-Daugherty",
-  "Tooltip": "aut",
+  "Id": 300,
+  "Name": "Keeling, Huel and Swift",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 583,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 646,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "expedita",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 160
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Hills, Hane and Bogisich",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 645,
-  "Rank": 233
+  "Id": 62,
+  "Name": "Hartmann, Fisher and Koepp",
+  "Tooltip": "in",
+  "Deleted": false,
+  "UdListDefinitionId": 78,
+  "Rank": 796
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Macejkovic, Torp and Greenfelder",
-  "Tooltip": "commodi",
-  "Deleted": false,
-  "UdListDefinitionId": 349,
-  "Rank": 946,
+  "Id": 556,
+  "Name": "Sawayn Inc and Sons",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "UdListDefinitionId": 474,
+  "Rank": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 335
     }
   }
 }

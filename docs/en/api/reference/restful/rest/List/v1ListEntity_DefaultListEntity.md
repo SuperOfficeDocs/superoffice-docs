@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 160,
-  "Name": "Schuster, Howell and Cronin",
-  "Tooltip": "voluptatem",
+  "Id": 974,
+  "Name": "Beatty, Grimes and Streich",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 546,
+  "Rank": 960,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 414
     }
   }
 }

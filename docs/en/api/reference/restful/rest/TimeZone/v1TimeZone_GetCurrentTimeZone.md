@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 977,
-  "Name": "Marks, Marvin and Effertz",
+  "TZLocationID": 475,
+  "Name": "Donnelly-Pagac",
   "TZLocationCode": "et",
-  "TZLocationCities": "consequatur",
-  "IsoNumber": 54,
+  "TZLocationCities": "natus",
+  "IsoNumber": 323,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 232,
+      "StartDay": 2,
       "StartMonth": 966,
-      "EndDay": 471,
-      "EndMonth": 593,
-      "TZOffset": 326,
-      "StartRulePattern": "nobis",
-      "EndRulePattern": "quia"
+      "EndDay": 952,
+      "EndMonth": 973,
+      "TZOffset": 468,
+      "StartRulePattern": "voluptatum",
+      "EndRulePattern": "nesciunt"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 943,
-      "StartMonth": 2,
-      "EndDay": 480,
-      "EndMonth": 85,
-      "TZOffset": 601,
-      "StartRulePattern": "molestiae",
-      "EndRulePattern": "sed"
+      "StartDay": 24,
+      "StartMonth": 786,
+      "EndDay": 354,
+      "EndMonth": 271,
+      "TZOffset": 354,
+      "StartRulePattern": "iste",
+      "EndRulePattern": "ea"
     }
   }
 }

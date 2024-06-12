@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "velit"
+  "Section": "fugiat"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 118,
-    "Section": "id",
-    "Key": "occaecati",
-    "Name": "Blanda-Dach",
+    "PrefDescId": 489,
+    "Section": "minus",
+    "Key": "dignissimos",
+    "Name": "Gerhold-Pacocha",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Cross-platform interactive function",
+    "Description": "Streamlined asynchronous capacity",
     "IsBuiltin": true,
-    "TableName": "Ryan-Jewess",
-    "UserDefinedListId": 220,
-    "Rank": 432,
-    "SubGroup": "distinctio",
-    "MinLevel": 291,
-    "MaxValue": 807,
-    "MinValue": 238,
-    "RequiredLicense": "autem",
+    "TableName": "Schinner Inc and Sons",
+    "UserDefinedListId": 694,
+    "Rank": 153,
+    "SubGroup": "et",
+    "MinLevel": 608,
+    "MaxValue": 446,
+    "MinValue": 763,
+    "RequiredLicense": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 978
       }
     }
   }

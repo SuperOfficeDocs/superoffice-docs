@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=totam
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=minima
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Rice, Wunsch and Rosenbaum",
-    "ToolTip": "Tempore quasi veniam.",
+    "Id": 324,
+    "Name": "Zieme, Hayes and Erdman",
+    "ToolTip": "Id ullam accusamus.",
     "Deleted": true,
-    "Rank": 261,
-    "Type": "est",
+    "Rank": 393,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Ebert Group",
-        "ToolTip": "Sit accusantium praesentium est.",
+        "Id": 234,
+        "Name": "Fay, Price and Thompson",
+        "ToolTip": "Quo veritatis optio ex praesentium quis vero.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "explicabo",
+        "Rank": 407,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 406,
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptatem",
-        "FullName": "Prof. Philip Gerson Reichel",
+        "IconHint": "voluptates",
+        "ColorBlock": 847,
+        "ExtraInfo": "nemo",
+        "StyleHint": "sunt",
+        "FullName": "Cory Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 953
+            "FieldType": "System.String",
+            "FieldLength": 362
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 700,
-    "ExtraInfo": "sapiente",
-    "StyleHint": "accusantium",
-    "FullName": "Prof. Rosalee Kertzmann",
+    "IconHint": "maxime",
+    "ColorBlock": 793,
+    "ExtraInfo": "vel",
+    "StyleHint": "veritatis",
+    "FullName": "Rico Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldType": "System.String",
+        "FieldLength": 969
       }
     }
   }

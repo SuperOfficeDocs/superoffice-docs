@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Lubowitz, Rowe and Purdy",
-      "Comment": "eos",
-      "StakeholderRoleId": 306,
-      "CountryId": 39,
-      "PersonId": 108,
-      "EmailDescription": "electa@heaneybruen.uk",
-      "EmailId": 673,
-      "EmailAddress": "imelda_gleason@herzoggreen.biz",
-      "PhoneId": 308,
-      "ContactName": "Lueilwitz LLC",
-      "ContactId": 135,
-      "SaleId": 123,
-      "Mrmrs": "architecto",
-      "Firstname": "Sydnee",
-      "MiddleName": "Kub, Bartoletti and Mayer",
-      "Lastname": "Kertzmann",
-      "SaleStakeholderId": 99,
-      "Rank": 82,
-      "Phone": "1-117-646-8662"
+      "StakeholderRoleName": "Grady, Tremblay and Yundt",
+      "Comment": "nemo",
+      "StakeholderRoleId": 279,
+      "CountryId": 745,
+      "PersonId": 808,
+      "EmailDescription": "oral@keelingjones.ca",
+      "EmailId": 922,
+      "EmailAddress": "quinton.dooley@gusikowskimayert.ca",
+      "PhoneId": 111,
+      "ContactName": "Hane, Botsford and Braun",
+      "ContactId": 393,
+      "SaleId": 324,
+      "Mrmrs": "tempora",
+      "Firstname": "Zaria",
+      "MiddleName": "McClure, Conn and Senger",
+      "Lastname": "Mueller",
+      "SaleStakeholderId": 911,
+      "Rank": 349,
+      "Phone": "1-873-649-4202 x0363"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Macejkovic Inc and Sons",
-    "Comment": "nobis",
-    "StakeholderRoleId": 801,
-    "CountryId": 161,
-    "PersonId": 218,
-    "EmailDescription": "jessie@romaguera.info",
-    "EmailId": 426,
-    "EmailAddress": "leora.schiller@tillman.name",
-    "PhoneId": 173,
-    "ContactName": "Larkin-Koelpin",
-    "ContactId": 803,
-    "SaleId": 449,
-    "Mrmrs": "dolorem",
-    "Firstname": "Odessa",
-    "MiddleName": "Monahan-Rodriguez",
-    "Lastname": "Dooley",
-    "SaleStakeholderId": 969,
-    "Rank": 91,
-    "Phone": "863-410-6227 x95918",
+    "StakeholderRoleName": "Strosin-Schiller",
+    "Comment": "illo",
+    "StakeholderRoleId": 206,
+    "CountryId": 227,
+    "PersonId": 802,
+    "EmailDescription": "carole@conroy.name",
+    "EmailId": 576,
+    "EmailAddress": "erick.bartell@kautzermcdermott.ca",
+    "PhoneId": 272,
+    "ContactName": "Herzog-Wisozk",
+    "ContactId": 217,
+    "SaleId": 893,
+    "Mrmrs": "porro",
+    "Firstname": "Madaline",
+    "MiddleName": "Padberg, Armstrong and Koepp",
+    "Lastname": "Price",
+    "SaleStakeholderId": 103,
+    "Rank": 402,
+    "Phone": "(164)692-9178",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldType": "System.String",
+        "FieldLength": 779
       }
     }
   }

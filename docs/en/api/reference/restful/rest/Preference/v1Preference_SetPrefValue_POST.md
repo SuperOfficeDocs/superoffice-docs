@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "animi",
+  "RawValue": "repellendus",
   "Specification": null,
-  "DisplayValue": "minima",
-  "DisplayTooltip": "dolor",
+  "DisplayValue": "accusamus",
+  "DisplayTooltip": "dolorem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 581,
-  "PrefDescId": 527,
-  "TableName": "Goldner-Haley",
-  "UserPreferenceId": 720
+  "TargetId": 34,
+  "PrefDescId": 53,
+  "TableName": "Will-Lockman",
+  "UserPreferenceId": 577
 }
 ```
 

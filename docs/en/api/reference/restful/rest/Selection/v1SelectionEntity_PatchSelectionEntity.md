@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "odio",
+    "path": "architecto",
     "value": {}
   },
   {
     "op": "add",
-    "path": "odio",
+    "path": "architecto",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile dynamic task-force",
-  "Postit": "harum",
+  "Description": "Realigned logistical framework",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 315,
-  "IncludePerson": 514,
+  "GroupIdx": 441,
+  "IncludePerson": 769,
   "MemberCount": 99.99,
-  "Name": "Aufderhar Group",
-  "PostitTextId": 156,
-  "CreatedDate": "2022-11-08T12:57:42.807549+01:00",
-  "SelectionId": 261,
-  "SoundEx": "dolore",
-  "Source": 157,
-  "TextId": 483,
-  "UpdatedDate": "2020-11-14T12:57:42.807549+01:00",
-  "UpdatedCount": 435,
-  "Visibility": 930,
+  "Name": "Dare-Terry",
+  "PostitTextId": 852,
+  "CreatedDate": "1999-11-05T04:22:35.4553554+01:00",
+  "SelectionId": 820,
+  "SoundEx": "in",
+  "Source": 345,
+  "TextId": 568,
+  "UpdatedDate": "2001-11-16T04:22:35.4553554+01:00",
+  "UpdatedCount": 591,
+  "Visibility": 558,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 865,
-  "TargetTableName": "Bashirian, Ortiz and Kerluke",
-  "Completed": true,
-  "LeftSelectionId": 685,
-  "RightSelectionId": 180,
+  "CompanyUnique": true,
+  "TargetTableNumber": 442,
+  "TargetTableName": "Mohr LLC",
+  "Completed": false,
+  "LeftSelectionId": 258,
+  "RightSelectionId": 814,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Langosh Inc and Sons",
-  "ShadowProviderName": "Corkery-Hettinger",
-  "ChartKey": "sed",
-  "LastLoaded": "2006-11-06T12:57:42.807549+01:00",
-  "LastLoadedBy": 886,
+  "MainProviderName": "Howell-Kohler",
+  "ShadowProviderName": "Blick LLC",
+  "ChartKey": "est",
+  "LastLoaded": "2022-05-28T04:22:35.4553554+02:00",
+  "LastLoadedBy": 865,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-11-07T12:57:42.807549+01:00",
-  "LastMembershipChangeBy": 367,
+  "LastMembershipChange": "2005-07-25T04:22:35.4553554+02:00",
+  "LastMembershipChangeBy": 74,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Harber Inc and Sons",
-  "DashboardTileDefinitionId": 773,
+  "MainHeading": "suscipit",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Feil, Kilback and Lakin",
+  "DashboardTileDefinitionId": 934,
   "VisibleFor": [
     {
-      "VisibleId": 707,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 966
         }
       }
     },
     {
-      "VisibleId": 707,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 966
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 522
     }
   },
   "_Links": {

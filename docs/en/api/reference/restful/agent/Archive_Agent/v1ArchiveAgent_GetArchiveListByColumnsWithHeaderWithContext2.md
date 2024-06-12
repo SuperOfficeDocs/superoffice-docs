@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cremin LLC",
-  "Columns": "omnis",
-  "SortOrder": "non",
-  "Restriction": "sit",
-  "Entities": "sed",
-  "Page": 918,
-  "PageSize": 629,
-  "Options": "atque",
-  "Context": "nam"
+  "ProviderName": "O'Reilly-Waelchi",
+  "Columns": "voluptatem",
+  "SortOrder": "cum",
+  "Restriction": "qui",
+  "Entities": "ex",
+  "Page": 15,
+  "PageSize": 781,
+  "Options": "iste",
+  "Context": "aliquid"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 99,
+  "RowCount": 6,
   "Rows": [
     {
-      "EntityName": "Wyman LLC",
-      "PrimaryKey": 535,
+      "EntityName": "Kohler-Schiller",
+      "PrimaryKey": 897,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nemo",
-          "TooltipHint": "debitis",
-          "LinkHint": "et"
+          "DisplayValue": "debitis",
+          "TooltipHint": "nesciunt",
+          "LinkHint": "iste"
         }
       },
-      "LinkHint": "labore",
-      "StyleHint": "dolor",
+      "LinkHint": "quia",
+      "StyleHint": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 24
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

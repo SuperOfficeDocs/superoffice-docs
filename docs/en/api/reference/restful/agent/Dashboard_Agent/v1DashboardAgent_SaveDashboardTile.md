@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 558,
-  "Caption": "nihil",
-  "Description": "Re-contextualized global portal",
-  "ChartName": "Kuhlman LLC",
-  "ChartId": "maxime",
+  "DashboardTileId": 62,
+  "Caption": "quae",
+  "Description": "Multi-channelled directional pricing structure",
+  "ChartName": "Flatley, Bernier and Torphy",
+  "ChartId": "reprehenderit",
   "IsDefault": true,
-  "AssociateId": 410,
-  "GroupId": 730,
-  "SelectionId": 209,
-  "Config": "temporibus",
+  "AssociateId": 100,
+  "GroupId": 113,
+  "SelectionId": 207,
+  "Config": "qui",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Greenfelder-Schneider",
-      "Description": "Persistent disintermediate internet solution",
+      "Name": "Luettgen Group",
+      "Description": "Robust attitude-oriented utilisation",
       "Type": "Boolean",
-      "ListName": "Bailey, Smitham and Kuphal",
+      "ListName": "Weissnat Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aperiam",
+      "Value": "unde",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 675,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "dicta"
+      "DisplayValue": "omnis"
     },
     {
-      "VisibleId": 675,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "dicta"
+      "DisplayValue": "omnis"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 947,
-  "Caption": "dolores",
-  "Description": "Reactive systemic knowledge base",
-  "ChartName": "Jakubowski, Kris and Homenick",
-  "ChartId": "maiores",
+  "DashboardTileId": 125,
+  "Caption": "aut",
+  "Description": "Innovative assymetric product",
+  "ChartName": "Ortiz-Strosin",
+  "ChartId": "dolor",
   "IsDefault": false,
-  "AssociateId": 919,
-  "GroupId": 435,
-  "SelectionId": 371,
-  "Config": "ut",
+  "AssociateId": 104,
+  "GroupId": 452,
+  "SelectionId": 749,
+  "Config": "voluptas",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Balistreri, Hilpert and Hirthe",
-      "Description": "Assimilated disintermediate knowledge base",
+      "Name": "Ernser Inc and Sons",
+      "Description": "Extended client-server implementation",
       "Type": "Boolean",
-      "ListName": "Rohan Group",
+      "ListName": "Beier, Stoltenberg and Abbott",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "harum",
+      "Value": "sit",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 332
+          "FieldType": "System.Int32",
+          "FieldLength": 548
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 268,
+      "VisibleId": 685,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 882
         }
       }
     },
     {
-      "VisibleId": 268,
+      "VisibleId": 685,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 882
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 474
     }
   }
 }

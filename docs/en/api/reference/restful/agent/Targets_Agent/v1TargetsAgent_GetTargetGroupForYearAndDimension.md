@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 29,
-  "DimensionId": 381
+  "TargetYear": 754,
+  "DimensionId": 468
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 509,
-  "Year": 247,
+  "TargetGroupId": 540,
+  "Year": 546,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 110,
+      "TargetAssignmentInfoId": 115,
       "Values": [
-        78,
-        886
+        196,
+        969
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 84,
-      "DimensionListItemDisplayName": "Schumm-Jewess",
+      "DimensionListItem": 739,
+      "DimensionListItemDisplayName": "Harvey-Predovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 872
+          "FieldType": "System.Int32",
+          "FieldLength": 832
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldLength": 83
     }
   }
 }

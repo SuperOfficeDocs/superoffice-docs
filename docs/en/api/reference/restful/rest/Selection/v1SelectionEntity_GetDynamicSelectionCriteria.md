@@ -77,44 +77,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bashirian Inc and Sons",
-    "Operator": "vero",
+    "Name": "Walter LLC",
+    "Operator": "ex",
     "Values": [
-      "vero",
-      "fugiat"
+      "reiciendis",
+      "natus"
     ],
     "DisplayValues": [
-      "optio",
-      "aut"
+      "asperiores",
+      "voluptates"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kihn, Shields and Cummerata",
-        "Operator": "voluptatem",
+        "Name": "Kreiger-Kreiger",
+        "Operator": "eaque",
         "Values": [
-          "et",
-          "soluta"
+          "minima",
+          "minus"
         ],
         "DisplayValues": [
-          "harum",
-          "vero"
+          "quis",
+          "similique"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 338,
+        "InterParenthesis": 574,
         "InterOperator": "And",
-        "UniqueHash": 532
+        "UniqueHash": 537
       }
     ],
-    "InterParenthesis": 624,
+    "InterParenthesis": 62,
     "InterOperator": "And",
-    "UniqueHash": 19
+    "UniqueHash": 232
   }
 ]
 ```

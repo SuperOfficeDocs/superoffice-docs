@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 145,
-  "AssociateId": 898,
-  "Caption": "sunt",
+  "DashboardId": 143,
+  "AssociateId": 671,
+  "Caption": "amet",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 115,
-      "Caption": "rerum",
-      "Description": "Focused actuating help-desk",
-      "ChartName": "Wunsch, Nicolas and Mills",
-      "ChartId": "laudantium",
+      "DashboardTileId": 930,
+      "Caption": "magnam",
+      "Description": "Down-sized reciprocal system engine",
+      "ChartName": "Strosin, Treutel and Klocko",
+      "ChartId": "cum",
       "IsDefault": false,
-      "AssociateId": 374,
-      "GroupId": 593,
-      "SelectionId": 702,
-      "Config": "quaerat",
+      "AssociateId": 183,
+      "GroupId": 814,
+      "SelectionId": 605,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 765,
-  "AssociateId": 534,
-  "Caption": "deleniti",
+  "DashboardId": 555,
+  "AssociateId": 677,
+  "Caption": "ratione",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 925,
-      "Caption": "voluptatum",
-      "Description": "Phased multi-tasking success",
-      "ChartName": "Strosin, Nitzsche and Okuneva",
-      "ChartId": "consequatur",
-      "IsDefault": false,
-      "AssociateId": 17,
-      "GroupId": 683,
-      "SelectionId": 3,
-      "Config": "esse",
+      "DashboardTileId": 792,
+      "Caption": "eaque",
+      "Description": "Networked reciprocal moratorium",
+      "ChartName": "Harvey-Fay",
+      "ChartId": "inventore",
+      "IsDefault": true,
+      "AssociateId": 861,
+      "GroupId": 481,
+      "SelectionId": 955,
+      "Config": "dolores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldLength": 303
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 326
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

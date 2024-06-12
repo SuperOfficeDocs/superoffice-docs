@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 147,
-    "ColumnId": 85,
-    "FieldDefault": "deleniti",
-    "FieldHeight": 352,
-    "FieldLabel": "repellat",
-    "FieldLeft": 138,
-    "FieldTop": 662,
+    "UDefFieldId": 345,
+    "ColumnId": 747,
+    "FieldDefault": "praesentium",
+    "FieldHeight": 335,
+    "FieldLabel": "rerum",
+    "FieldLeft": 567,
+    "FieldTop": 508,
     "FieldType": "Checkbox",
-    "FieldWidth": 281,
-    "FormatMask": "rerum",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 195,
-    "LabelLeft": 865,
-    "LabelTop": 898,
-    "LabelWidth": 327,
-    "LastVersionId": 666,
-    "ListTableId": 87,
+    "FieldWidth": 680,
+    "FormatMask": "voluptas",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 234,
+    "LabelLeft": 439,
+    "LabelTop": 502,
+    "LabelWidth": 703,
+    "LastVersionId": 722,
+    "ListTableId": 674,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 12,
-    "ProgId": "optio",
+    "Page1LineNo": 272,
+    "ProgId": "occaecati",
     "IsReadOnly": false,
-    "ShortLabel": "optio",
-    "TabOrder": 972,
-    "TextLength": 420,
-    "Tooltip": "aut",
-    "UdefIdentity": 686,
-    "UDListDefinitionId": 287,
+    "ShortLabel": "quia",
+    "TabOrder": 867,
+    "TextLength": 88,
+    "Tooltip": "magni",
+    "UdefIdentity": 967,
+    "UDListDefinitionId": 630,
     "Justification": "Center",
-    "Version": 511,
-    "TemplateVariableName": "Smitham-Gottlieb",
+    "Version": 875,
+    "TemplateVariableName": "Tromp-Lehner",
     "HasBeenPublished": false,
-    "MdoListName": "Reichel-Anderson",
+    "MdoListName": "Schinner, Stark and Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

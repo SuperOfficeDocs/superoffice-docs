@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 696,
-  "Name": "O'Keefe, Swift and Goodwin",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 985,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "velit",
+  "Id": 726,
+  "Name": "Ryan LLC",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 810,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "Kuvalis, Walsh and Legros",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 243,
-  "IsCustomList": false,
+  "Id": 192,
+  "Name": "Kerluke LLC",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 954,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   }
 }

@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 875,
-  "PlainMessage": "consequatur",
-  "HtmlMessage": "quia",
-  "SmsMessage": "eius",
-  "Description": "Centralized optimal concept",
-  "Subject": "culpa",
-  "FolderId": 531,
-  "HeaderField": "et",
-  "Design": "quis",
+  "ShipmentMessageId": 385,
+  "PlainMessage": "architecto",
+  "HtmlMessage": "temporibus",
+  "SmsMessage": "velit",
+  "Description": "Vision-oriented client-driven structure",
+  "Subject": "esse",
+  "FolderId": 818,
+  "HeaderField": "repudiandae",
+  "Design": "cum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Stand-alone mission-critical task-force",
-  "AccessKey": "consectetur",
-  "DocumentMessage": 252,
-  "Registered": "2011-10-19T12:57:42.807549+02:00",
-  "RegisteredAssociateId": 456,
-  "Updated": "2002-06-25T12:57:42.807549+02:00",
-  "UpdatedAssociateId": 621,
-  "UpdatedCount": 518,
+  "InlineImages": true,
+  "LongDescription": "Expanded mission-critical database",
+  "AccessKey": "quae",
+  "DocumentMessage": 354,
+  "Registered": "2019-06-22T04:22:35.4553554+02:00",
+  "RegisteredAssociateId": 220,
+  "Updated": "2013-09-26T04:22:35.4553554+02:00",
+  "UpdatedAssociateId": 764,
+  "UpdatedCount": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

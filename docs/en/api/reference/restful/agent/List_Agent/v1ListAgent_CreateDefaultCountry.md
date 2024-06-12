@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 980,
-  "Name": "Olson, Spinka and Schaden",
-  "CurrencyId": 667,
-  "EnglishName": "Stokes-Ondricka",
+  "CountryId": 270,
+  "Name": "Jakubowski-Rosenbaum",
+  "CurrencyId": 829,
+  "EnglishName": "Lubowitz, Gutmann and Cormier",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Customer-focused mission-critical focus group",
-  "OrgNrText": "1047433",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "omnis",
-  "ZipPrefix": "dolorem",
-  "DomainName": "Herzog LLC",
-  "AddressLayoutId": 191,
-  "DomesticAddressLayoutId": 841,
-  "ForeignAddressLayoutId": 494,
-  "Rank": 476,
-  "Tooltip": "et",
-  "Deleted": true,
+  "ImageDescription": "Assimilated holistic monitoring",
+  "OrgNrText": "190884",
+  "InterAreaPrefix": "voluptates",
+  "DialInPrefix": "non",
+  "ZipPrefix": "tenetur",
+  "DomainName": "Erdman, Dach and Kertzmann",
+  "AddressLayoutId": 554,
+  "DomesticAddressLayoutId": 643,
+  "ForeignAddressLayoutId": 862,
+  "Rank": 374,
+  "Tooltip": "pariatur",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

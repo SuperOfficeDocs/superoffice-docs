@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 615,
-    "ColumnId": 562,
-    "FieldDefault": "sunt",
-    "FieldHeight": 965,
-    "FieldLabel": "enim",
-    "FieldLeft": 614,
-    "FieldTop": 603,
+    "UDefFieldId": 148,
+    "ColumnId": 851,
+    "FieldDefault": "amet",
+    "FieldHeight": 541,
+    "FieldLabel": "quaerat",
+    "FieldLeft": 814,
+    "FieldTop": 64,
     "FieldType": "Checkbox",
-    "FieldWidth": 285,
-    "FormatMask": "necessitatibus",
-    "HideLabel": false,
+    "FieldWidth": 481,
+    "FormatMask": "enim",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 384,
-    "LabelLeft": 704,
-    "LabelTop": 344,
-    "LabelWidth": 877,
-    "LastVersionId": 256,
-    "ListTableId": 159,
+    "LabelHeight": 189,
+    "LabelLeft": 852,
+    "LabelTop": 103,
+    "LabelWidth": 685,
+    "LastVersionId": 809,
+    "ListTableId": 645,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 509,
-    "ProgId": "magnam",
+    "Page1LineNo": 970,
+    "ProgId": "earum",
     "IsReadOnly": false,
-    "ShortLabel": "qui",
-    "TabOrder": 788,
-    "TextLength": 173,
-    "Tooltip": "veniam",
-    "UdefIdentity": 388,
-    "UDListDefinitionId": 719,
+    "ShortLabel": "rerum",
+    "TabOrder": 24,
+    "TextLength": 9,
+    "Tooltip": "reiciendis",
+    "UdefIdentity": 761,
+    "UDListDefinitionId": 47,
     "Justification": "Center",
-    "Version": 841,
-    "TemplateVariableName": "Blick, Runolfsson and Hilpert",
+    "Version": 264,
+    "TemplateVariableName": "Kassulke LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Conn, Kihn and Hirthe",
+    "MdoListName": "Lindgren Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 355
       }
     }
   }

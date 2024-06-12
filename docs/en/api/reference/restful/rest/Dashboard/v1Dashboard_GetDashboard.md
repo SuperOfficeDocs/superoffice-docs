@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 200,
-  "AssociateId": 929,
-  "Caption": "provident",
+  "DashboardId": 715,
+  "AssociateId": 539,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 595,
-      "Caption": "sit",
-      "Description": "De-engineered intermediate service-desk",
-      "ChartName": "Kessler-Turner",
-      "ChartId": "deserunt",
+      "DashboardTileId": 920,
+      "Caption": "animi",
+      "Description": "Re-engineered 24 hour orchestration",
+      "ChartName": "Flatley Inc and Sons",
+      "ChartId": "vel",
       "IsDefault": false,
-      "AssociateId": 461,
-      "GroupId": 915,
-      "SelectionId": 813,
-      "Config": "consequatur",
+      "AssociateId": 512,
+      "GroupId": 588,
+      "SelectionId": 825,
+      "Config": "laborum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 929
+          "FieldLength": 152
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 440
     }
   },
   "_Links": {

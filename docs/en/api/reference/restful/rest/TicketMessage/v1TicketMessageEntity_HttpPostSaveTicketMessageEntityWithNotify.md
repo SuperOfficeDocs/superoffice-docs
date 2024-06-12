@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=True
+POST /api/v1/TicketMessage?notify=False
 ```
 
 
@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 501,
+  "EjMessageId": 549,
   "Ticket": null,
-  "CreatedAt": "2015-12-23T12:57:42.9359329+01:00",
+  "CreatedAt": "2013-12-19T04:22:35.5647298+01:00",
   "CreatedBy": null,
-  "Author": "voluptas",
+  "Author": "illum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maiores",
-  "TimeSpent": 156,
-  "Body": "quasi",
-  "HtmlBody": "dignissimos",
-  "EmailHeader": "karl@mayer.name",
-  "DebugInfo": "reiciendis",
-  "MailSorter": "ea",
+  "MessageId": "eum",
+  "TimeSpent": 61,
+  "Body": "a",
+  "HtmlBody": "ratione",
+  "EmailHeader": "elvera@bergnaum.info",
+  "DebugInfo": "temporibus",
+  "MailSorter": "corrupti",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "laudantium",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 422,
-      "Name": "Parisian LLC",
-      "Value": "ea",
+      "Id": 261,
+      "Name": "Turcotte LLC",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 422,
-      "Name": "Parisian LLC",
-      "Value": "ea",
+      "Id": 261,
+      "Name": "Turcotte LLC",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "omnis",
-  "Sentiment": 271,
-  "SentimentConfidence": 857,
+  "Language": "sunt",
+  "Sentiment": 188,
+  "SentimentConfidence": 785,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 319,
-      "Name": "Ondricka, Adams and Willms",
-      "ContentType": "voluptas",
-      "AttSize": 486,
-      "InlineImage": true,
-      "ContentId": "ratione",
-      "AuthKey": "dolorem",
+      "AttachmentId": 82,
+      "Name": "Tremblay, Cassin and Quitzon",
+      "ContentType": "vero",
+      "AttSize": 883,
+      "InlineImage": false,
+      "ContentId": "laboriosam",
+      "AuthKey": "molestias",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "id"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "adipisci",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "iure",
+    "CustomFields2": "minima"
   }
 }
 ```
@@ -195,79 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 346,
+  "EjMessageId": 494,
   "Ticket": null,
-  "CreatedAt": "1997-12-06T12:57:42.9400782+01:00",
+  "CreatedAt": "2017-09-11T04:22:35.5647298+02:00",
   "CreatedBy": null,
-  "Author": "sunt",
+  "Author": "illo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "explicabo",
-  "TimeSpent": 54,
-  "Body": "veritatis",
-  "HtmlBody": "nulla",
-  "EmailHeader": "krystal.heaney@koelpin.name",
-  "DebugInfo": "repellendus",
-  "MailSorter": "optio",
+  "MessageId": "magni",
+  "TimeSpent": 991,
+  "Body": "voluptas",
+  "HtmlBody": "rerum",
+  "EmailHeader": "alfonzo@yostleannon.ca",
+  "DebugInfo": "doloribus",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "molestiae",
+  "SearchTitle": "fugit",
   "MessageHeaders": [
     {
-      "Id": 251,
-      "Name": "Huel-Bashirian",
-      "Value": "provident",
+      "Id": 673,
+      "Name": "Stamm, Heaney and Sanford",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldType": "System.String",
+          "FieldLength": 942
         }
       }
     }
   ],
   "Important": false,
-  "Language": "delectus",
-  "Sentiment": 750,
-  "SentimentConfidence": 318,
+  "Language": "est",
+  "Sentiment": 808,
+  "SentimentConfidence": 463,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 356,
-      "Name": "Rath, Lehner and Corkery",
-      "ContentType": "autem",
-      "AttSize": 975,
+      "AttachmentId": 918,
+      "Name": "Bosco, Hilpert and Parker",
+      "ContentType": "velit",
+      "AttSize": 252,
       "InlineImage": false,
-      "ContentId": "ipsam",
-      "AuthKey": "modi",
+      "ContentId": "nulla",
+      "AuthKey": "sint",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 108
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "delectus"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "ex"
+    "CustomFields1": "inventore",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 770
     }
   }
 }

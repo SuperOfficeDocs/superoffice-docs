@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 777,
-  "PrefDescId": 994,
+  "PrefDescLineId": 484,
+  "PrefDescId": 379,
   "PrefValue": "aliquam",
-  "PrefShowValue": "cupiditate",
-  "Description": "Sharable real-time middleware",
+  "PrefShowValue": "vero",
+  "Description": "Profound needs-based instruction set",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 809
     }
   }
 }

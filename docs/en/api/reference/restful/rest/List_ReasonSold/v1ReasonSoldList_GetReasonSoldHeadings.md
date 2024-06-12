@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 182,
-    "Name": "Lockman, Kerluke and Ledner",
-    "Tooltip": "illo",
+    "HeadingId": 525,
+    "Name": "Beatty Group",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 424,
-    "UdListDefinitionId": 170,
+    "Rank": 972,
+    "UdListDefinitionId": 232,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldType": "System.String",
+        "FieldLength": 298
       }
     }
   }

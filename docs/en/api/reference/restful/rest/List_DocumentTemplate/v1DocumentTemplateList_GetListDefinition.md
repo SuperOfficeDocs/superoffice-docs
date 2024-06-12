@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 881,
-  "Name": "Batz, Lakin and Weber",
-  "Tooltip": "quia",
+  "Id": 545,
+  "Name": "Tremblay Group",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 660,
-  "IsCustomList": false,
+  "Rank": 982,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "porro",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

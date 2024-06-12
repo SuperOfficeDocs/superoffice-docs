@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=quaerat
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "Wiza-Ullrich",
-    "ToolTip": "Ut distinctio quidem ut commodi eligendi.",
+    "Id": 230,
+    "Name": "Dietrich-Terry",
+    "ToolTip": "Et possimus.",
     "Deleted": false,
-    "Rank": 147,
-    "Type": "voluptatem",
+    "Rank": 449,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Bogan LLC",
-        "ToolTip": "Neque magnam minima.",
-        "Deleted": true,
-        "Rank": 706,
-        "Type": "placeat",
+        "Id": 157,
+        "Name": "Weimann, Paucek and Orn",
+        "ToolTip": "Ducimus qui neque.",
+        "Deleted": false,
+        "Rank": 323,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 472,
-        "ExtraInfo": "modi",
-        "StyleHint": "aliquam",
-        "FullName": "Dr. Thalia Dietrich",
+        "IconHint": "dolorem",
+        "ColorBlock": 551,
+        "ExtraInfo": "placeat",
+        "StyleHint": "reprehenderit",
+        "FullName": "Russell Johnston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldLength": 307
           }
         }
       }
     ],
-    "IconHint": "facilis",
-    "ColorBlock": 843,
-    "ExtraInfo": "non",
-    "StyleHint": "voluptatum",
-    "FullName": "Ivory Wolf PhD",
+    "IconHint": "aut",
+    "ColorBlock": 623,
+    "ExtraInfo": "praesentium",
+    "StyleHint": "beatae",
+    "FullName": "Eldora Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 852
       }
     }
   }

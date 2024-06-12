@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 223
+  "TicketMessageEntityId": 886
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 465,
-    "Name": "Lakin-Thiel",
-    "ContentType": "sunt",
-    "AttSize": 586,
-    "InlineImage": true,
-    "ContentId": "est",
-    "AuthKey": "dolorem",
+    "AttachmentId": 887,
+    "Name": "Hegmann Group",
+    "ContentType": "facere",
+    "AttSize": 499,
+    "InlineImage": false,
+    "ContentId": "voluptatem",
+    "AuthKey": "nisi",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

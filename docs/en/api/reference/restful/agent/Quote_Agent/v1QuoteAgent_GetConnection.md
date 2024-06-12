@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 889
+  "QuoteConnectionId": 202
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 121,
-  "ERPName": "Harris Inc and Sons",
-  "DisplayName": "Jast LLC",
-  "DisplayDescription": "Organized holistic forecast",
-  "Rank": 926,
-  "ConnectorName": "Rath Group",
-  "ErpConnectionId": 402,
-  "ExtraData": "et",
-  "IsAvailable": true,
+  "QuoteConnectionId": 162,
+  "ERPName": "Berge, Lueilwitz and Ledner",
+  "DisplayName": "Connelly Group",
+  "DisplayDescription": "Secured secondary budgetary management",
+  "Rank": 629,
+  "ConnectorName": "Sipes LLC",
+  "ErpConnectionId": 694,
+  "ExtraData": "rem",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 568,
-      "ERPPriceListKey": "earum",
-      "QuoteConnectionId": 399,
-      "Name": "Konopelski Group",
-      "Description": "Synergized object-oriented solution",
-      "Currency": "mollitia",
-      "CurrencyName": "Sporer, Williamson and Herzog",
-      "ValidFrom": "1998-07-30T12:57:34.7428121+02:00",
-      "ValidTo": "2008-08-19T12:57:34.7428121+02:00",
+      "PriceListId": 324,
+      "ERPPriceListKey": "nihil",
+      "QuoteConnectionId": 191,
+      "Name": "Cronin-Cartwright",
+      "Description": "Secured well-modulated system engine",
+      "Currency": "magni",
+      "CurrencyName": "Wilderman, Wiza and Towne",
+      "ValidFrom": "2018-11-20T04:22:27.4091176+01:00",
+      "ValidTo": "2013-07-02T04:22:27.4091176+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldType": "System.String",
+          "FieldLength": 295
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    880,
-    84
+    929,
+    689
   ],
   "AssociateAccessIds": [
-    803,
-    741
+    154,
+    256
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldLength": 251
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 783,
+    "TargetDimensionId": 58,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "et",
-    "DimensionListName": "Cronin, Crist and Littel",
-    "DimensionListId": 479,
-    "DimensionListLabel": "occaecati",
+    "DimensionListField": "pariatur",
+    "DimensionListName": "Grimes Inc and Sons",
+    "DimensionListId": 512,
+    "DimensionListLabel": "voluptatum",
     "SelectedDimensions": [
-      599,
-      108
+      469,
+      258
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 934
       }
     }
   }

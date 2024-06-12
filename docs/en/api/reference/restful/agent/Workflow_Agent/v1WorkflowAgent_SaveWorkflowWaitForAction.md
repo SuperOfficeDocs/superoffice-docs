@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 389,
-  "WorkflowStepId": 548,
-  "WorkflowId": 57,
-  "Rank": 440,
+  "WorkflowWaitForActionId": 62,
+  "WorkflowStepId": 493,
+  "WorkflowId": 439,
+  "Rank": 30,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Goodwin, Wilkinson and Greenfelder",
-      "Description": "Sharable analyzing firmware",
-      "Rank": 513,
+      "Name": "Bayer, Grant and Jones",
+      "Description": "Total multi-state attitude",
+      "Rank": 865,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Goodwin, Wilkinson and Greenfelder",
-      "Description": "Sharable analyzing firmware",
-      "Rank": 513,
+      "Name": "Bayer, Grant and Jones",
+      "Description": "Total multi-state attitude",
+      "Rank": 865,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 737,
-  "WorkflowStepId": 16,
-  "WorkflowId": 288,
-  "Rank": 371,
+  "WorkflowWaitForActionId": 613,
+  "WorkflowStepId": 928,
+  "WorkflowId": 63,
+  "Rank": 196,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Nikolaus Inc and Sons",
-      "Description": "Implemented coherent approach",
-      "Rank": 302,
+      "Name": "Dicki-Wuckert",
+      "Description": "Diverse systemic capability",
+      "Rank": 584,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nikolaus Inc and Sons",
-      "Description": "Implemented coherent approach",
-      "Rank": 302,
+      "Name": "Dicki-Wuckert",
+      "Description": "Diverse systemic capability",
+      "Rank": 584,
       "Restrictions": [
         {},
         {}
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 608
     }
   }
 }

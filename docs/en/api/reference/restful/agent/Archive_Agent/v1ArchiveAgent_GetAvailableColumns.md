@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Koelpin Inc and Sons",
-  "Context": "soluta"
+  "ProviderName": "White, Hauck and Senger",
+  "Context": "qui"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hirthe LLC",
-    "DisplayTooltip": "molestiae",
-    "DisplayType": "voluptas",
-    "CanOrderBy": false,
-    "Name": "Fadel Inc and Sons",
+    "DisplayName": "Kuhn, Haley and Mitchell",
+    "DisplayTooltip": "tempora",
+    "DisplayType": "sint",
+    "CanOrderBy": true,
+    "Name": "Herman, Spencer and Leffler",
     "CanRestrictBy": false,
-    "RestrictionType": "quo",
-    "RestrictionListName": "Rowe Group",
+    "RestrictionType": "labore",
+    "RestrictionListName": "Paucek-Hammes",
     "IsVisible": true,
-    "ExtraInfo": "molestias",
-    "Width": "omnis",
-    "IconHint": "veniam",
-    "HeadingIconHint": "nisi"
+    "ExtraInfo": "alias",
+    "Width": "inventore",
+    "IconHint": "quaerat",
+    "HeadingIconHint": "molestiae"
   }
 ]
 ```

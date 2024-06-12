@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=866
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=473
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 272,
-  "BlobSize": 966,
-  "Description": "User-friendly dedicated circuit",
-  "ExtraInfo": "aut",
+  "BlobId": 826,
+  "BlobSize": 400,
+  "Description": "Balanced 6th generation local area network",
+  "ExtraInfo": "voluptatem",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "deserunt",
-  "OriginalSize": 699,
-  "CreatedDate": "2013-07-22T12:57:33.2743944+02:00",
-  "UpdatedDate": "2013-03-31T12:57:33.2743944+02:00",
+  "IsZipped": false,
+  "MimeType": "esse",
+  "OriginalSize": 943,
+  "CreatedDate": "2000-10-02T04:22:26.0122232+02:00",
+  "UpdatedDate": "2016-04-27T04:22:26.0122232+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "atque",
+  "ConceptualType": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 1000
     }
   }
 }

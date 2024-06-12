@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 860
+  "SelectionId": 487
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bruen, Leffler and Doyle",
-    "Description": "Devolved background concept",
-    "Rank": 534,
+    "Name": "Fisher-Leannon",
+    "Description": "Automated optimizing system engine",
+    "Rank": 571,
     "Restrictions": [
       {
-        "Name": "Dach-D'Amore",
-        "Operator": "quibusdam",
+        "Name": "Denesik, Runolfsdottir and Corwin",
+        "Operator": "reiciendis",
         "Values": [
-          "consectetur",
-          "eos"
+          "illo",
+          "eaque"
         ],
         "DisplayValues": [
-          "itaque",
-          "earum"
+          "voluptatum",
+          "consequatur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 147,
+        "InterParenthesis": 494,
         "InterOperator": "And",
-        "UniqueHash": 760
+        "UniqueHash": 713
       }
     ]
   },
   {
-    "Name": "Bruen, Leffler and Doyle",
-    "Description": "Devolved background concept",
-    "Rank": 534,
+    "Name": "Fisher-Leannon",
+    "Description": "Automated optimizing system engine",
+    "Rank": 571,
     "Restrictions": [
       {
-        "Name": "Dach-D'Amore",
-        "Operator": "quibusdam",
+        "Name": "Denesik, Runolfsdottir and Corwin",
+        "Operator": "reiciendis",
         "Values": [
-          "consectetur",
-          "eos"
+          "illo",
+          "eaque"
         ],
         "DisplayValues": [
-          "itaque",
-          "earum"
+          "voluptatum",
+          "consequatur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 147,
+        "InterParenthesis": 494,
         "InterOperator": "And",
-        "UniqueHash": 760
+        "UniqueHash": 713
       }
     ]
   }

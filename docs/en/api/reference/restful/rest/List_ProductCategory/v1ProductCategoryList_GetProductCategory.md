@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Conn Inc and Sons",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 400,
-  "Rank": 769,
+  "Id": 983,
+  "Name": "Braun, Lubowitz and Rippin",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "UdListDefinitionId": 810,
+  "Rank": 514,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

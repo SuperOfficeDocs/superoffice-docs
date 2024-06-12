@@ -28,7 +28,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=421
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=368
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 222,
-  "EMailAddress": "repellat",
-  "AssociateId": 836,
+  "EMailAccountId": 835,
+  "EMailAddress": "omnis",
+  "AssociateId": 229,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 35,
-  "ErrorCount": 643,
-  "ErrorReason": "",
-  "InboxFolder": "maxime",
-  "SentFolder": "voluptas",
+  "AccountStatus": 532,
+  "ErrorCount": 294,
+  "ErrorReason": "empower dot-com solutions",
+  "InboxFolder": "consequuntur",
+  "SentFolder": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 805
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Barton, Wiza and Cummings",
-  "Tooltip": "aut",
+  "Id": 490,
+  "Name": "Bogan LLC",
+  "Tooltip": "laudantium",
   "Deleted": true,
-  "Rank": 613,
-  "IsCustomList": false,
+  "Rank": 265,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "culpa",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 476,
-  "Name": "Champlin, Cummings and Quigley",
-  "Tooltip": "velit",
+  "Id": 895,
+  "Name": "Larkin, Wuckert and Predovic",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 26,
+  "Rank": 629,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldType": "System.Int32",
+      "FieldLength": 761
     }
   }
 }

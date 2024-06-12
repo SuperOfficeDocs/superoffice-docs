@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=138
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=131
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 627,
-  "Name": "Rempel-Pfannerstill",
-  "CreatedDate": "2005-04-22T12:57:34.0711192+02:00",
-  "UpdatedDate": "1997-03-24T12:57:34.0711192+01:00",
-  "AssociateFullName": "Ms. Doug Homenick III",
-  "CreatedBy": "libero",
-  "UpdatedBy": "sit",
-  "DeviceIdentifier": "necessitatibus",
-  "ForeignAppId": 555,
+  "ForeignDeviceId": 520,
+  "Name": "Zemlak, Braun and Herman",
+  "CreatedDate": "2019-11-05T04:22:26.8755249+01:00",
+  "UpdatedDate": "2015-04-15T04:22:26.8755249+02:00",
+  "AssociateFullName": "Cristopher Rice DVM",
+  "CreatedBy": "dolor",
+  "UpdatedBy": "sequi",
+  "DeviceIdentifier": "non",
+  "ForeignAppId": 30,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 381
     }
   }
 }

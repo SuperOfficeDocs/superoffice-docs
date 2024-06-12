@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "doloremque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "doloremque",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 233,
-  "UniqueId": "hic",
-  "Name": "Mraz LLC",
-  "Description": "Diverse even-keeled alliance",
-  "AssociateId": 109,
-  "Columns": 554,
+  "DashboardId": 345,
+  "UniqueId": "modi",
+  "Name": "Morissette LLC",
+  "Description": "Distributed holistic toolset",
+  "AssociateId": 152,
+  "Columns": 101,
   "Theme": null,
-  "VisibleForAll": 688,
+  "VisibleForAll": 615,
   "VisibleForAssociates": [
-    972,
-    655
+    511,
+    224
   ],
   "VisibleForGroups": [
-    190,
-    491
+    806,
+    312
   ],
-  "PinForAll": 490,
+  "PinForAll": 906,
   "PinForAssociates": [
-    803,
-    190
+    411,
+    883
   ],
   "PinForGroups": [
-    574,
-    76
+    963,
+    655
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldLength": 604
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

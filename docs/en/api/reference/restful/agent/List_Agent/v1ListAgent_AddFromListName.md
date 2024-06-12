@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Fay Inc and Sons",
+  "UdListDefinitionName": "Mertz-Champlin",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 574,
-  "Name": "Kessler LLC",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "UdListDefinitionId": 508,
-  "Rank": 256,
+  "Id": 795,
+  "Name": "Koepp, Lakin and Satterfield",
+  "Tooltip": "aliquid",
+  "Deleted": false,
+  "UdListDefinitionId": 409,
+  "Rank": 820,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 244
     }
   }
 }

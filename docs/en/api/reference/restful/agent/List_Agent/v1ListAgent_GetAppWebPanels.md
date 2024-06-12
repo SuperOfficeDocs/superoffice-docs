@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 18,
-    "Name": "Heller-Heathcote",
-    "Tooltip": "error",
+    "WebPanelId": 302,
+    "Name": "Purdy-Haag",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 939,
+    "Rank": 930,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": true,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Donnelly, Olson and Brekke",
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": false,
+    "WindowName": "DuBuque, Hauck and Daniel",
     "Url": "http://www.example.com/",
-    "ProgId": "dolore",
-    "Icon": 957,
+    "ProgId": "ea",
+    "Icon": 385,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 971
       }
     }
   }

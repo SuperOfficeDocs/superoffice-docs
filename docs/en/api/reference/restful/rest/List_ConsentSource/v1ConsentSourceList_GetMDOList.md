@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=corrupti
+GET /api/v1/List/ConsentSource/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Bartoletti Inc and Sons",
-    "ToolTip": "Saepe consequatur id quo commodi.",
+    "Id": 441,
+    "Name": "Stamm Group",
+    "ToolTip": "Modi alias quia.",
     "Deleted": false,
-    "Rank": 482,
-    "Type": "voluptates",
+    "Rank": 31,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Pouros, Aufderhar and Stracke",
-        "ToolTip": "Ea rerum dicta.",
+        "Id": 13,
+        "Name": "Murazik LLC",
+        "ToolTip": "Ex corporis harum dolor recusandae placeat.",
         "Deleted": false,
-        "Rank": 473,
-        "Type": "corporis",
+        "Rank": 122,
+        "Type": "odio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 368,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "illo",
-        "FullName": "Mrs. Rollin Janessa Hoeger",
+        "IconHint": "minima",
+        "ColorBlock": 189,
+        "ExtraInfo": "delectus",
+        "StyleHint": "ipsa",
+        "FullName": "Taylor Lourdes Bartoletti II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 607
+            "FieldType": "System.Int32",
+            "FieldLength": 473
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 402,
-    "ExtraInfo": "tempora",
-    "StyleHint": "inventore",
-    "FullName": "Mr. Vivien Lemke",
+    "IconHint": "blanditiis",
+    "ColorBlock": 750,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "sit",
+    "FullName": "Diamond Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldType": "System.String",
+        "FieldLength": 227
       }
     }
   }

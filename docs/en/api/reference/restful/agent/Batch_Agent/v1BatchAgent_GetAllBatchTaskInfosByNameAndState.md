@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Fisher, Collier and West",
+  "TaskName": "Ullrich-Klein",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Flatley, Schaden and Lehner",
-    "AssociateId": 560,
-    "DetailsTable": 961,
-    "DetailsRecord": 468,
+    "Id": 367,
+    "Name": "Dickens, Conn and Balistreri",
+    "AssociateId": 309,
+    "DetailsTable": 428,
+    "DetailsRecord": 804,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "facere",
+      "ParameterObject1": "doloremque",
       "ParameterObject2": "et"
     },
-    "LastStarted": "2008-05-31T12:57:33.2743944+02:00",
-    "Created": "1998-04-28T12:57:33.2743944+02:00",
-    "StartCount": 26,
-    "DatabaseSerialNumber": "1289425",
-    "Context": "atque",
-    "Result": "est",
+    "LastStarted": "2015-12-27T04:22:26.0122232+01:00",
+    "Created": "2023-06-02T04:22:26.0122232+02:00",
+    "StartCount": 78,
+    "DatabaseSerialNumber": "840533",
+    "Context": "laudantium",
+    "Result": "qui",
     "State": "All",
-    "Description": "Persistent transitional support",
-    "Response": "ut",
-    "Request": "laudantium",
-    "ProgressDescription": "Networked coherent algorithm",
-    "ProgressPercent": 908,
-    "FileName": "Barton, Kozey and Murphy",
+    "Description": "Pre-emptive scalable structure",
+    "Response": "cumque",
+    "Request": "asperiores",
+    "ProgressDescription": "Innovative background system engine",
+    "ProgressPercent": 819,
+    "FileName": "Kemmer Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldLength": 534
       }
     }
   }

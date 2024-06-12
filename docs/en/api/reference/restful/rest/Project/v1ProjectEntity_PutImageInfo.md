@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=627
+PUT /api/v1/Project/{id}/ImageInfo?projectId=653
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 532,
-  "BlobSize": 219,
-  "Description": "Re-contextualized solution-oriented attitude",
-  "ExtraInfo": "aut",
+  "BlobId": 216,
+  "BlobSize": 220,
+  "Description": "Cloned motivating workforce",
+  "ExtraInfo": "non",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "possimus",
-  "OriginalSize": 43,
-  "CreatedDate": "2021-05-22T12:57:42.6513343+02:00",
-  "UpdatedDate": "2022-08-13T12:57:42.6513343+02:00",
+  "MimeType": "consectetur",
+  "OriginalSize": 622,
+  "CreatedDate": "2006-08-25T04:22:35.1897687+02:00",
+  "UpdatedDate": "2007-11-29T04:22:35.1897687+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eaque"
+  "ConceptualType": "iste"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 731,
-  "BlobSize": 830,
-  "Description": "Open-architected tertiary service-desk",
-  "ExtraInfo": "expedita",
+  "BlobId": 742,
+  "BlobSize": 190,
+  "Description": "Visionary coherent synergy",
+  "ExtraInfo": "adipisci",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "dolores",
-  "OriginalSize": 489,
-  "CreatedDate": "2020-04-08T12:57:42.6513343+02:00",
-  "UpdatedDate": "2004-07-09T12:57:42.6513343+02:00",
+  "IsZipped": true,
+  "MimeType": "consequatur",
+  "OriginalSize": 412,
+  "CreatedDate": "2022-06-11T04:22:35.1897687+02:00",
+  "UpdatedDate": "2006-10-14T04:22:35.1897687+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "reprehenderit",
+  "ConceptualType": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

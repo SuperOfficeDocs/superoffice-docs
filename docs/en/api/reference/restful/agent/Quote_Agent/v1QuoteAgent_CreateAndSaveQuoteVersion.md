@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 559
+  "QuoteVersionId": 246
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 901,
-  "ERPQuoteVersionKey": "culpa",
-  "QuoteId": 935,
-  "Description": "Automated well-modulated website",
-  "Number": "443260",
+  "QuoteVersionId": 767,
+  "ERPQuoteVersionKey": "velit",
+  "QuoteId": 532,
+  "Description": "Phased tertiary artificial intelligence",
+  "Number": "265432",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 52,
-  "SentDate": "1998-05-23T12:57:34.6959481+02:00",
-  "FollowupId": 603,
-  "ExpirationDate": "2013-02-18T12:57:34.6959481+01:00",
-  "DeliveryCountryId": 905,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 794,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "perspiciatis",
-  "ERPPaymentTypeKey": "at",
-  "ERPDeliveryTermsKey": "consectetur",
-  "ERPDeliveryTypeKey": "ut",
-  "Rank": 655,
-  "ApprovedBy": 443,
-  "ApprovedText": "repudiandae",
-  "ApprovedRegisteredBy": 770,
-  "ApprovedRegisteredDate": "2016-09-05T12:57:34.6959481+02:00",
-  "ExtraField1": "itaque",
-  "ExtraField2": "ut",
-  "ExtraField3": "consequuntur",
-  "ExtraField4": "voluptas",
-  "ExtraField5": "vero",
-  "LastRecalculated": "2015-05-01T12:57:34.6959481+02:00",
-  "Updated": "2011-11-27T12:57:34.6959481+01:00",
-  "UpdatedAssociateId": 413,
-  "Registered": "2004-01-17T12:57:34.6959481+01:00",
-  "RegisteredAssociateId": 12,
-  "RequestAssociateId": 733,
-  "RequestComment": "inventore",
+  "LikelyQuoteAlternativeId": 553,
+  "SentDate": "1999-07-29T04:22:27.3778332+02:00",
+  "FollowupId": 867,
+  "ExpirationDate": "2006-10-04T04:22:27.3778332+02:00",
+  "DeliveryCountryId": 962,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 183,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "cupiditate",
+  "ERPPaymentTypeKey": "laborum",
+  "ERPDeliveryTermsKey": "repellat",
+  "ERPDeliveryTypeKey": "nam",
+  "Rank": 358,
+  "ApprovedBy": 71,
+  "ApprovedText": "dolorum",
+  "ApprovedRegisteredBy": 412,
+  "ApprovedRegisteredDate": "2000-07-01T04:22:27.3778332+02:00",
+  "ExtraField1": "aperiam",
+  "ExtraField2": "vel",
+  "ExtraField3": "at",
+  "ExtraField4": "quas",
+  "ExtraField5": "magnam",
+  "LastRecalculated": "2006-02-06T04:22:27.3778332+01:00",
+  "Updated": "2023-08-19T04:22:27.3778332+02:00",
+  "UpdatedAssociateId": 291,
+  "Registered": "2017-02-02T04:22:27.3778332+01:00",
+  "RegisteredAssociateId": 933,
+  "RequestAssociateId": 317,
+  "RequestComment": "ad",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 228,
-      "ERPQuoteAlternativeKey": "consequatur",
-      "QuoteVersionId": 964,
-      "Name": "Lynch Group",
-      "Description": "Polarised attitude-oriented concept",
+      "QuoteAlternativeId": 409,
+      "ERPQuoteAlternativeKey": "dolores",
+      "QuoteVersionId": 150,
+      "Name": "Veum LLC",
+      "Description": "Progressive scalable capacity",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 7991.7,
-      "ERPDiscountAmount": 2673.302,
-      "DiscountPercent": 20787.822,
-      "DiscountAmount": 4939.184,
+      "ERPDiscountPercent": 22853.128,
+      "ERPDiscountAmount": 21546.25,
+      "DiscountPercent": 18384.043999999998,
+      "DiscountAmount": 22383.028,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "qui",
-      "VAT": 5540.912,
-      "EarningPercent": 25031.257999999998,
-      "EarningAmount": 10846.774,
-      "SubTotal": 15052.601999999999,
-      "TotalPrice": 8386.5839999999989,
-      "ExtraField1": "omnis",
-      "ExtraField2": "amet",
-      "ExtraField3": "est",
-      "ExtraField4": "reiciendis",
-      "ExtraField5": "laudantium",
+      "VATInfo": "et",
+      "VAT": 11790.108,
+      "EarningPercent": 29779.268,
+      "EarningAmount": 5077.08,
+      "SubTotal": 27168.646,
+      "TotalPrice": 20189.228,
+      "ExtraField1": "est",
+      "ExtraField2": "reiciendis",
+      "ExtraField3": "voluptatum",
+      "ExtraField4": "nisi",
+      "ExtraField5": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldType": "System.String",
+          "FieldLength": 836
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 217
     }
   }
 }

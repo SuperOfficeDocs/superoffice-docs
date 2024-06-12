@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 916,
+  "EjMessageId": 503,
   "Ticket": null,
-  "CreatedAt": "2004-01-05T12:57:35.0551794+01:00",
+  "CreatedAt": "2014-11-18T04:22:27.8651245+01:00",
   "CreatedBy": null,
-  "Author": "dolores",
+  "Author": "quis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "iusto",
-  "TimeSpent": 949,
-  "Body": "culpa",
-  "HtmlBody": "expedita",
-  "EmailHeader": "orlo@nitzsche.biz",
-  "DebugInfo": "sapiente",
-  "MailSorter": "enim",
+  "MessageId": "aut",
+  "TimeSpent": 60,
+  "Body": "possimus",
+  "HtmlBody": "vel",
+  "EmailHeader": "andres@braun.name",
+  "DebugInfo": "et",
+  "MailSorter": "sit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "non",
   "MessageHeaders": [
     {
-      "Id": 755,
-      "Name": "Renner Inc and Sons",
-      "Value": "aut",
+      "Id": 147,
+      "Name": "Gottlieb, Littel and O'Hara",
+      "Value": "consectetur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 755,
-      "Name": "Renner Inc and Sons",
-      "Value": "aut",
+      "Id": 147,
+      "Name": "Gottlieb, Littel and O'Hara",
+      "Value": "consectetur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "deserunt",
-  "Sentiment": 17,
-  "SentimentConfidence": 423,
+  "Language": "numquam",
+  "Sentiment": 816,
+  "SentimentConfidence": 139,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 156,
-      "Name": "Schneider LLC",
-      "ContentType": "nihil",
-      "AttSize": 454,
+      "AttachmentId": 318,
+      "Name": "Hegmann, Skiles and Pfannerstill",
+      "ContentType": "quia",
+      "AttSize": 374,
       "InlineImage": true,
-      "ContentId": "rerum",
-      "AuthKey": "itaque",
-      "IsSafeFileExtension": false
+      "ContentId": "omnis",
+      "AuthKey": "omnis",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "numquam",
+    "CustomFields2": "cum"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 842,
+  "EjMessageId": 234,
   "Ticket": null,
-  "CreatedAt": "2013-10-07T12:57:35.0708009+02:00",
+  "CreatedAt": "2016-03-16T04:22:27.8651245+01:00",
   "CreatedBy": null,
-  "Author": "unde",
+  "Author": "incidunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rerum",
-  "TimeSpent": 154,
-  "Body": "et",
-  "HtmlBody": "quibusdam",
-  "EmailHeader": "jessica_schuster@rau.com",
-  "DebugInfo": "ut",
-  "MailSorter": "maxime",
+  "MessageId": "cupiditate",
+  "TimeSpent": 437,
+  "Body": "est",
+  "HtmlBody": "facere",
+  "EmailHeader": "greg.rath@baumbach.ca",
+  "DebugInfo": "vitae",
+  "MailSorter": "cumque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tempore",
+  "SearchTitle": "quo",
   "MessageHeaders": [
     {
-      "Id": 468,
-      "Name": "Brakus, Yundt and Corkery",
-      "Value": "optio",
+      "Id": 934,
+      "Name": "Ankunding, Howell and Ernser",
+      "Value": "consequuntur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 826
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 21,
-  "SentimentConfidence": 194,
+  "Language": "quod",
+  "Sentiment": 436,
+  "SentimentConfidence": 876,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 520,
-      "Name": "Kreiger-Fahey",
-      "ContentType": "quis",
-      "AttSize": 333,
-      "InlineImage": true,
+      "AttachmentId": 980,
+      "Name": "Stamm Group",
+      "ContentType": "minus",
+      "AttSize": 67,
+      "InlineImage": false,
       "ContentId": "culpa",
-      "AuthKey": "provident",
+      "AuthKey": "et",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldType": "System.Int32",
+          "FieldLength": 39
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "labore",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "vel",
+    "CustomFields2": "fugit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 90
     }
   }
 }

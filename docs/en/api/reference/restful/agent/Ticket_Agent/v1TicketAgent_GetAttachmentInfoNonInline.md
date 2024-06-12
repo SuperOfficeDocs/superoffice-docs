@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 131
+  "TicketMessageEntityId": 135
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 457,
-    "Name": "Mante Inc and Sons",
-    "ContentType": "quis",
-    "AttSize": 438,
+    "AttachmentId": 562,
+    "Name": "Rippin-Jast",
+    "ContentType": "enim",
+    "AttSize": 280,
     "InlineImage": true,
-    "ContentId": "et",
-    "AuthKey": "quod",
-    "IsSafeFileExtension": false,
+    "ContentId": "totam",
+    "AuthKey": "atque",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 834
       }
     }
   }

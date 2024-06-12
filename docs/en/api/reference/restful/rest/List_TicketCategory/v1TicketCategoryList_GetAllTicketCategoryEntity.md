@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 698,
-    "ParentId": 18,
-    "Name": "Bruen Inc and Sons",
-    "Fullname": "cum",
-    "CategoryMaster": 378,
+    "TicketCategoryId": 450,
+    "ParentId": 976,
+    "Name": "Labadie-Rogahn",
+    "Fullname": "ullam",
+    "CategoryMaster": 10,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Watsica Group",
+    "ExternalName": "Littel-Harris",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 337,
-    "ReplyTemplate": 380,
-    "NotificationEmail": "brittany@kertzmannmuller.co.uk",
+    "AssignmentLag": 369,
+    "ReplyTemplate": 376,
+    "NotificationEmail": "maureen@gutkowski.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 662,
+    "EffectiveReplyTemplateId": 102,
     "ExtraFields": {
-      "ExtraFields1": "provident",
-      "ExtraFields2": "ut"
+      "ExtraFields1": "consequatur",
+      "ExtraFields2": "voluptate"
     },
     "CustomFields": {
-      "CustomFields1": "itaque",
-      "CustomFields2": "reprehenderit"
+      "CustomFields1": "deserunt",
+      "CustomFields2": "velit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 116
       }
     }
   }

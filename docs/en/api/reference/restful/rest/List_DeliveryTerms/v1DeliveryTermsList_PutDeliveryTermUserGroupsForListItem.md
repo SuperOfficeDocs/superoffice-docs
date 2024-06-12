@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Buckridge-Kuvalis",
-    "ToolTip": "Mollitia non aliquid blanditiis.",
+    "Id": 742,
+    "Name": "Adams LLC",
+    "ToolTip": "Atque maxime quo sunt at consectetur distinctio.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "accusantium",
-    "ColorBlock": 586,
-    "IconHint": "amet",
+    "Rank": 124,
+    "Type": "recusandae",
+    "ColorBlock": 392,
+    "IconHint": "deleniti",
     "Selected": true,
-    "LastChanged": "2022-03-14T12:57:43.4489324+01:00",
+    "LastChanged": "2005-12-01T04:22:35.9247166+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Considine, Murray and Parisian",
-        "ToolTip": "Quis et.",
+        "Id": 24,
+        "Name": "Goodwin, Lakin and Cole",
+        "ToolTip": "Aut saepe.",
         "Deleted": false,
-        "Rank": 880,
-        "Type": "eveniet",
-        "ColorBlock": 775,
-        "IconHint": "error",
+        "Rank": 137,
+        "Type": "numquam",
+        "ColorBlock": 726,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2001-05-03T12:57:43.4489324+02:00",
+        "LastChanged": "2003-06-23T04:22:35.9247166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "illo",
+        "ExtraInfo": "quasi",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Adriana Ignacio O'Keefe V"
+        "FullName": "Mrs. Bertrand Spencer IV"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "magnam",
+    "ExtraInfo": "soluta",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Esther Thiel"
+    "FullName": "Dr. Claudie Marcelina Zulauf III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Block Group",
-    "ToolTip": "Temporibus alias optio inventore ut.",
-    "Deleted": false,
-    "Rank": 992,
-    "Type": "perferendis",
-    "ColorBlock": 911,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2014-08-25T12:57:43.4489324+02:00",
+    "Id": 463,
+    "Name": "Wolf, Fritsch and Goldner",
+    "ToolTip": "Quos aut optio qui molestiae delectus possimus maiores.",
+    "Deleted": true,
+    "Rank": 810,
+    "Type": "cupiditate",
+    "ColorBlock": 111,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "1998-05-02T04:22:35.9247166+02:00",
     "ChildItems": [
       {
-        "Id": 312,
-        "Name": "Marks, Beatty and Hilll",
-        "ToolTip": "Ipsum molestias unde necessitatibus qui et dolor nulla.",
-        "Deleted": true,
-        "Rank": 455,
-        "Type": "quisquam",
-        "ColorBlock": 949,
-        "IconHint": "esse",
+        "Id": 923,
+        "Name": "Zulauf Inc and Sons",
+        "ToolTip": "Dignissimos in quibusdam totam minima.",
+        "Deleted": false,
+        "Rank": 370,
+        "Type": "sed",
+        "ColorBlock": 727,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2004-03-10T12:57:43.4489324+01:00",
+        "LastChanged": "2003-06-30T04:22:35.9247166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "voluptatibus",
-        "Hidden": false,
-        "FullName": "Mrs. Lillie Florida Mayer",
+        "ExtraInfo": "earum",
+        "StyleHint": "earum",
+        "Hidden": true,
+        "FullName": "Prof. Ubaldo Orin Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldLength": 697
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "distinctio",
-    "Hidden": false,
-    "FullName": "Flo Hyatt",
+    "ExtraInfo": "tempora",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Mr. Ara Caleb Jewess Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldLength": 546
       }
     }
   }

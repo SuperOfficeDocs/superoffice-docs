@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=nisi
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Erdman LLC",
-    "ToolTip": "Harum earum sequi omnis.",
-    "Deleted": true,
-    "Rank": 203,
-    "Type": "saepe",
+    "Id": 514,
+    "Name": "Zemlak, Daugherty and Smitham",
+    "ToolTip": "Reprehenderit assumenda consequatur dolorum.",
+    "Deleted": false,
+    "Rank": 879,
+    "Type": "harum",
     "ChildItems": [
       {
-        "Id": 886,
-        "Name": "Kassulke-Crooks",
-        "ToolTip": "Ut qui aut error.",
+        "Id": 694,
+        "Name": "Wolf, Rodriguez and Sporer",
+        "ToolTip": "Et omnis tempora.",
         "Deleted": false,
-        "Rank": 938,
-        "Type": "cumque",
+        "Rank": 126,
+        "Type": "voluptates",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 976,
-        "ExtraInfo": "numquam",
-        "StyleHint": "deleniti",
-        "FullName": "Cayla Tromp",
+        "IconHint": "consequuntur",
+        "ColorBlock": 439,
+        "ExtraInfo": "tempora",
+        "StyleHint": "quas",
+        "FullName": "Zack Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 632
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 381,
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
-    "FullName": "Giovanny Olson",
+    "IconHint": "et",
+    "ColorBlock": 422,
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "numquam",
+    "FullName": "Giles Amira Maggio DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldLength": 694
       }
     }
   }

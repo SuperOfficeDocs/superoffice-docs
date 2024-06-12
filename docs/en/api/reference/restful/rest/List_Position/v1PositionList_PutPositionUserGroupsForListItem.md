@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Barton, Bahringer and Runte",
-    "ToolTip": "Molestiae quidem laudantium.",
+    "Id": 443,
+    "Name": "Bernhard, Douglas and Raynor",
+    "ToolTip": "Dolorem consequatur.",
     "Deleted": true,
-    "Rank": 509,
-    "Type": "tempora",
-    "ColorBlock": 346,
-    "IconHint": "iste",
+    "Rank": 136,
+    "Type": "voluptatem",
+    "ColorBlock": 360,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2015-11-14T12:57:43.5582822+01:00",
+    "LastChanged": "2023-10-31T04:22:36.0184671+01:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Kuvalis Group",
-        "ToolTip": "Rerum optio in numquam fugit ducimus.",
+        "Id": 360,
+        "Name": "Herman-Paucek",
+        "ToolTip": "Numquam enim.",
         "Deleted": false,
-        "Rank": 859,
-        "Type": "similique",
-        "ColorBlock": 517,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2019-12-14T12:57:43.5582822+01:00",
+        "Rank": 264,
+        "Type": "autem",
+        "ColorBlock": 494,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2001-08-23T04:22:36.0184671+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Jensen VonRueden"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Dr. Evelyn Jules Murray"
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Mrs. Kaley Goodwin V"
+    "ExtraInfo": "tenetur",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Dominique Macejkovic"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Zboncak LLC",
-    "ToolTip": "At nobis.",
-    "Deleted": true,
-    "Rank": 606,
-    "Type": "quis",
-    "ColorBlock": 930,
-    "IconHint": "est",
+    "Id": 145,
+    "Name": "Bosco-Stamm",
+    "ToolTip": "Vel iusto non et inventore.",
+    "Deleted": false,
+    "Rank": 49,
+    "Type": "hic",
+    "ColorBlock": 819,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2000-07-03T12:57:43.5582822+02:00",
+    "LastChanged": "1998-07-22T04:22:36.0184671+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Olson-Witting",
-        "ToolTip": "Quos voluptates adipisci quis atque odit odit minima.",
-        "Deleted": true,
-        "Rank": 546,
-        "Type": "incidunt",
-        "ColorBlock": 3,
-        "IconHint": "dolorum",
+        "Id": 312,
+        "Name": "Aufderhar-Lakin",
+        "ToolTip": "Perferendis repudiandae aut consectetur qui atque.",
+        "Deleted": false,
+        "Rank": 78,
+        "Type": "sed",
+        "ColorBlock": 690,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-10-27T12:57:43.5582822+02:00",
+        "LastChanged": "2008-07-09T04:22:36.0184671+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Miss Cheyenne Lamont Ullrich DDS",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Nellie Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 789
+            "FieldType": "System.Int32",
+            "FieldLength": 754
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Josh Kuhic",
+    "ExtraInfo": "debitis",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Mr. Adelbert Wolff III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldType": "System.String",
+        "FieldLength": 286
       }
     }
   }

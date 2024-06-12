@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ratione"
+  "Key": "molestiae"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "repellendus",
-  "AccessToken": "qui",
-  "RefreshToken": "cupiditate",
+  "Provider": "odit",
+  "AccessToken": "laudantium",
+  "RefreshToken": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,38 +83,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 929,
-  "Name": "Hoeger, Collins and Russel",
-  "Rank": 854,
-  "Tooltip": "qui",
-  "Icon": "soluta",
-  "DefaultTicketStatus": 374,
+  "TicketTypeId": 547,
+  "Name": "Leuschke Inc and Sons",
+  "Rank": 65,
+  "Tooltip": "libero",
+  "Icon": "quas",
+  "DefaultTicketStatus": 570,
   "TicketStatuses": [
-    159,
-    851
+    843,
+    68
   ],
-  "DefaultTicketPriority": 519,
+  "DefaultTicketPriority": 700,
   "TicketPriorities": [
-    866,
-    833
+    296,
+    126
   ],
-  "ReplyTemplate": 971,
+  "ReplyTemplate": 489,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    84,
-    756
+    884,
+    211
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 330
     }
   }
 }

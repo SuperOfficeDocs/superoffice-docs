@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 40
+  "PersonId": 214
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 338,
-  "InstanceLayout": "tenetur",
-  "InstanceName": "Leffler, Bergstrom and Feest",
-  "CreatedDate": "2007-02-02T12:57:33.2638772+01:00",
-  "UpdatedDate": "2002-05-27T12:57:33.2638772+02:00",
+  "AudienceLayoutId": 512,
+  "InstanceLayout": "est",
+  "InstanceName": "Fisher-Erdman",
+  "CreatedDate": "1999-01-17T04:22:25.9965968+01:00",
+  "UpdatedDate": "2007-09-23T04:22:25.9965968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 283
     }
   }
 }

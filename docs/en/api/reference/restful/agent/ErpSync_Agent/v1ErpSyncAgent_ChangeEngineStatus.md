@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Run": true
+  "Run": false
 }
 ```
 
@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": true,
-  "StatusMessage": "totam",
-  "Interval": "rerum",
+  "StatusMessage": "animi",
+  "Interval": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

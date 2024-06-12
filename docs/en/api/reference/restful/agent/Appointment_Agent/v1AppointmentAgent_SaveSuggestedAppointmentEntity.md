@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 30,
-  "Name": "Tillman Group",
-  "Tooltip": "optio",
-  "Rank": 542,
+  "SuggestedAppointmentId": 732,
+  "Name": "Hansen-Kihn",
+  "Tooltip": "magni",
+  "Rank": 307,
   "Deleted": true,
-  "DaysFuture": 33,
-  "Duration": "ab",
+  "DaysFuture": 252,
+  "Duration": "quo",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "et",
+  "Text": "blanditiis",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 228,
-  "Name": "Kreiger LLC",
-  "Tooltip": "incidunt",
-  "Rank": 196,
+  "SuggestedAppointmentId": 954,
+  "Name": "King, Luettgen and Doyle",
+  "Tooltip": "ducimus",
+  "Rank": 329,
   "Deleted": false,
-  "DaysFuture": 760,
-  "Duration": "saepe",
+  "DaysFuture": 938,
+  "Duration": "rerum",
   "AutoSuggest": true,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "dicta",
+  "AssignToMember": true,
+  "Text": "ut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   }
 }

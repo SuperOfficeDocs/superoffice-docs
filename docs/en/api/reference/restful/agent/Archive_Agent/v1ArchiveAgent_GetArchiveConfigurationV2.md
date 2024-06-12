@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Oberbrunner, Stark and Stark",
-  "ProviderName": "Schaefer Inc and Sons",
-  "Context": "non",
-  "OwnerKeys": "quas"
+  "GuiName": "Keebler, McLaughlin and Wehner",
+  "ProviderName": "Dibbert, Conn and Blick",
+  "Context": "earum",
+  "OwnerKeys": "qui"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hintz Group",
-      "DisplayTooltip": "blanditiis",
-      "DisplayType": "quis",
+      "DisplayName": "Kirlin-Gleason",
+      "DisplayTooltip": "consequuntur",
+      "DisplayType": "deleniti",
       "CanOrderBy": false,
-      "Name": "Ward-Watsica",
+      "Name": "Grady, Pagac and Crooks",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Jacobs Group",
-      "IsVisible": true,
-      "ExtraInfo": "corrupti",
-      "Width": "animi",
-      "IconHint": "sint",
-      "HeadingIconHint": "aspernatur"
+      "RestrictionType": "doloremque",
+      "RestrictionListName": "Batz-Flatley",
+      "IsVisible": false,
+      "ExtraInfo": "voluptas",
+      "Width": "eveniet",
+      "IconHint": "possimus",
+      "HeadingIconHint": "veritatis"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 559,
-      "Name": "Satterfield, Dickinson and Boyer",
-      "ToolTip": "Eos nihil omnis deleniti occaecati eum expedita quos.",
-      "Deleted": false,
-      "Rank": 914,
-      "Type": "et",
-      "ColorBlock": 27,
-      "IconHint": "exercitationem",
-      "Selected": false,
-      "LastChanged": "1998-11-16T12:57:33.2116147+01:00",
+      "Id": 583,
+      "Name": "Bartell-Shanahan",
+      "ToolTip": "Qui sed incidunt voluptatem commodi harum.",
+      "Deleted": true,
+      "Rank": 572,
+      "Type": "tempora",
+      "ColorBlock": 819,
+      "IconHint": "suscipit",
+      "Selected": true,
+      "LastChanged": "2007-08-18T04:22:25.9653503+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
-      "StyleHint": "facilis",
+      "ExtraInfo": "facilis",
+      "StyleHint": "molestiae",
       "Hidden": false,
-      "FullName": "Mr. Eldon Stefanie Howell",
+      "FullName": "Alivia Demetrius Wuckert I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 889
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Herzog Inc and Sons",
+      "Name": "Grimes, Schimmel and Bednar",
       "Direction": "ASC"
     },
     {
-      "Name": "Herzog Inc and Sons",
+      "Name": "Grimes, Schimmel and Bednar",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "iusto",
+  "OwnerKeys": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 982
     }
   }
 }

@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 733,
-  "AttachmentId": "vel"
+  "MailItemId": 417,
+  "AttachmentId": "quo"
 }
 ```
 
@@ -100,13 +100,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed optimizing concept",
-  "Filename": "animi",
-  "Size": 605,
-  "Type": "non",
-  "Encoding": "incidunt",
-  "Id": "numquam",
-  "Disposition": "ut",
+  "Description": "Phased reciprocal moderator",
+  "Filename": "consequatur",
+  "Size": 50,
+  "Type": "aperiam",
+  "Encoding": "ipsa",
+  "Id": "fugit",
+  "Disposition": "pariatur",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 166
     }
   }
 }

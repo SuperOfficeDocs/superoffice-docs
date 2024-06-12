@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "Nicolas-Schoen",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 142,
-    "UdListDefinitionId": 237,
+    "HeadingId": 916,
+    "Name": "Cummerata Group",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "Rank": 916,
+    "UdListDefinitionId": 604,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 299
+        "FieldType": "System.Int32",
+        "FieldLength": 189
       }
     }
   }

@@ -69,6 +69,7 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |internal\_notes\_text\_id|ID of record containing internal notes text|FK [text](text.md)|&#x25CF;|
 |SendEmail|Send invitation and appointment changes by e-mail to this participant.|Bool|&#x25CF;|
 |modified\_appointment\_fields|Which important fields of an appointment have been changed. Used by notifications.|Enum [ModifiedAppointmentFields](enums/modifiedappointmentfields.md)|&#x25CF;|
+|created\_by\_workflow\_id|The workflow this follow-up was created by|FK [workflow](workflow.md)|&#x25CF;|
 |cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [AppointmentCautionWarning](enums/appointmentcautionwarning.md)|&#x25CF;|
 |mother\_associate\_id|Associate/owner of the mother appointment|FK [associate](associate.md)|&#x25CF;|
 
@@ -111,6 +112,7 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |project\_id, type, activeDate, document\_id, associate\_id, group\_idx, mother\_id, assignedBy, appointment\_id, registered, registered\_associate\_id |FK, Enum, DateTime, FK, FK, FK, FK, FK, PK, UtcDateTime, FK |Unique |
 |agenda\_text\_id |FK |Index |
 |type, activeDate |Enum, DateTime |Index |
+|created\_by\_workflow\_id |FK |Index |
 |associate\_id, status, do\_by, endDate |FK, Enum, DateTime, DateTime |Index |
 
 ## Relationships
@@ -140,6 +142,7 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |[udappntsmall](udappntsmall.md)  |User-defined fields |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+|[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 
 
 ## Replication Flags

@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=iste
+GET /api/v1/List/DocumentTemplate/MDOItems?query=amet
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "McDermott-Marks",
-    "ToolTip": "Illum et.",
+    "Id": 566,
+    "Name": "Herzog, Mayer and Keeling",
+    "ToolTip": "Voluptas rerum.",
     "Deleted": true,
-    "Rank": 638,
-    "Type": "asperiores",
+    "Rank": 596,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Lynch, Welch and Blick",
-        "ToolTip": "Similique sint omnis veritatis numquam qui sunt.",
-        "Deleted": false,
-        "Rank": 335,
-        "Type": "numquam",
+        "Id": 132,
+        "Name": "Heidenreich, Cremin and Mayert",
+        "ToolTip": "Deleniti a.",
+        "Deleted": true,
+        "Rank": 613,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 122,
-        "ExtraInfo": "aut",
-        "StyleHint": "quisquam",
-        "FullName": "Christopher Johnston",
+        "IconHint": "doloribus",
+        "ColorBlock": 730,
+        "ExtraInfo": "occaecati",
+        "StyleHint": "commodi",
+        "FullName": "Dr. Caitlyn McClure Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 364
+            "FieldType": "System.Int32",
+            "FieldLength": 127
           }
         }
       }
     ],
-    "IconHint": "laborum",
-    "ColorBlock": 879,
-    "ExtraInfo": "quidem",
-    "StyleHint": "unde",
-    "FullName": "Kamron Baumbach",
+    "IconHint": "commodi",
+    "ColorBlock": 988,
+    "ExtraInfo": "omnis",
+    "StyleHint": "ex",
+    "FullName": "Jorge Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldLength": 232
       }
     }
   }

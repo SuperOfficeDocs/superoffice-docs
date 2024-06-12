@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 545,
-  "Name": "Welch Inc and Sons",
-  "Rank": 98,
-  "Tooltip": "repudiandae",
+  "AssociateId": 249,
+  "Name": "Terry-Glover",
+  "Rank": 223,
+  "Tooltip": "enim",
   "LicenseOwners": [
     {
-      "Name": "Lubowitz, Kuhlman and Hamill",
-      "Description": "Progressive context-sensitive pricing structure",
+      "Name": "Watsica Inc and Sons",
+      "Description": "Devolved static knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 819
         }
       }
     },
     {
-      "Name": "Lubowitz, Kuhlman and Hamill",
-      "Description": "Progressive context-sensitive pricing structure",
+      "Name": "Watsica Inc and Sons",
+      "Description": "Devolved static knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 819
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "deleniti",
-      "Id": 685,
-      "Rank": 733,
-      "Deleted": false,
+      "Value": "id",
+      "Tooltip": "asperiores",
+      "Id": 410,
+      "Rank": 830,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2021-11-22T12:57:35.5086716+01:00",
-  "Lastlogout": "2009-07-08T12:57:35.5086716+02:00",
-  "EjUserId": 102,
-  "RequestSignature": "distinctio",
+  "Lastlogin": "2019-09-30T04:22:28.1162538+02:00",
+  "Lastlogout": "1997-11-12T04:22:28.1162538+01:00",
+  "EjUserId": 262,
+  "RequestSignature": "dolores",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "et",
+      "Value": "et",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 924
         }
       }
     },
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "et",
+      "Value": "et",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 924
         }
       }
     }
   ],
-  "UserName": "Prohaska, Quigley and Willms",
+  "UserName": "Rohan LLC",
   "TicketCategories": [
     {
-      "Id": 138,
-      "Name": "Hintz LLC",
-      "ToolTip": "Placeat maiores quia itaque.",
+      "Id": 827,
+      "Name": "Oberbrunner Group",
+      "ToolTip": "Ut earum sunt dignissimos cum.",
       "Deleted": false,
-      "Rank": 724,
-      "Type": "qui",
+      "Rank": 863,
+      "Type": "ipsa",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eveniet",
-      "ColorBlock": 470,
-      "ExtraInfo": "vel",
-      "StyleHint": "dolor",
-      "FullName": "Kameron Stehr",
+      "IconHint": "doloremque",
+      "ColorBlock": 496,
+      "ExtraInfo": "odio",
+      "StyleHint": "eos",
+      "FullName": "Alejandra Shanahan Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldLength": 392
         }
       }
     }
   ],
-  "NickName": "Berge, Pacocha and Weissnat",
+  "NickName": "Collier, Harber and Marks",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "et"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "culpa"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hilpert-Ebert",
-      "DisplayName": "Satterfield, Emmerich and Glover",
-      "Description": "Open-source interactive attitude",
-      "ToolTip": "Laboriosam optio fugit ut numquam dolore.",
+      "Name": "Reichel-Mitchell",
+      "DisplayName": "Aufderhar-Farrell",
+      "Description": "Integrated context-sensitive core",
+      "ToolTip": "Necessitatibus voluptates fugiat ratione qui aspernatur vel.",
       "Actions": "Implicit",
-      "ActionData": "sequi",
+      "ActionData": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 876
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 416
     }
   }
 }

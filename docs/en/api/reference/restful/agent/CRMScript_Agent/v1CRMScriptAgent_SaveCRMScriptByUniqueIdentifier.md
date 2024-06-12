@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "enim",
+  "UniqueIdentifier": "aliquid",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "magnam",
-  "Name": "Haley Inc and Sons",
-  "Description": "Sharable content-based conglomeration",
-  "IncludeId": "et",
-  "Source": "repudiandae",
-  "Registered": "2006-09-29T12:57:33.6180694+02:00",
-  "RegisteredBy": "necessitatibus",
-  "Updated": "2004-06-06T12:57:33.6180694+02:00",
-  "UpdatedBy": "quia",
-  "Path": "dolor",
+  "UniqueIdentifier": "ex",
+  "Name": "Rohan-Bogisich",
+  "Description": "Secured tangible Graphical User Interface",
+  "IncludeId": "laborum",
+  "Source": "blanditiis",
+  "Registered": "2024-02-19T04:22:26.3090583+01:00",
+  "RegisteredBy": "doloremque",
+  "Updated": "2007-04-06T04:22:26.3090583+02:00",
+  "UpdatedBy": "minus",
+  "Path": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 376
     }
   }
 }

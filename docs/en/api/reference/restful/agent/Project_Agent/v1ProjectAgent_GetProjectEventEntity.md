@@ -26,7 +26,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=794
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=910
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,94 +106,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quod",
-  "SignOffText": "veritatis",
+  "SignOffConfirmationText": "consectetur",
+  "SignOffText": "et",
   "SignOnConfirmationText": "qui",
-  "SignOnText": "quaerat",
-  "EventDate": "2004-08-22T12:57:34.6490836+02:00",
+  "SignOnText": "nemo",
+  "EventDate": "2008-03-30T04:22:27.3466141+02:00",
   "Enabled": false,
-  "CreatedDate": "2018-11-05T12:57:34.6490836+01:00",
+  "CreatedDate": "2002-10-08T04:22:27.3466141+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 802,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 184,
   "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 773,
+  "SignOnTaskId": 959,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2021-11-21T12:57:34.6490836+01:00",
+  "UpdatedDate": "2001-07-08T04:22:27.3466141+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 27,
-  "Id": 252,
-  "PublishFrom": "2022-03-05T12:57:34.6490836+01:00",
+  "ProjectId": 718,
+  "Id": 267,
+  "PublishFrom": "1997-06-24T04:22:27.3466141+02:00",
   "PublishType": "External",
-  "PublishTo": "2020-09-02T12:57:34.6490836+02:00",
+  "PublishTo": "2003-08-13T04:22:27.3466141+02:00",
   "VisibleForCategories": [
     {
-      "Id": 824,
-      "Name": "Brown Group",
-      "ToolTip": "Alias dignissimos asperiores explicabo.",
-      "Deleted": true,
-      "Rank": 107,
-      "Type": "dolorem",
+      "Id": 742,
+      "Name": "Kihn, Reichel and Hintz",
+      "ToolTip": "Nihil a non consequuntur.",
+      "Deleted": false,
+      "Rank": 517,
+      "Type": "veniam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eaque",
-      "ColorBlock": 927,
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "soluta",
-      "FullName": "Dr. Wilber Littel",
+      "IconHint": "enim",
+      "ColorBlock": 555,
+      "ExtraInfo": "id",
+      "StyleHint": "laudantium",
+      "FullName": "Letha Rutherford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 822
+          "FieldLength": 903
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 710,
-      "Name": "Stokes Inc and Sons",
-      "ToolTip": "Doloremque eligendi porro doloribus aut natus.",
-      "Deleted": false,
-      "Rank": 525,
-      "Type": "iure",
+      "Id": 649,
+      "Name": "Legros-Braun",
+      "ToolTip": "Quia et aut quos corporis quae qui.",
+      "Deleted": true,
+      "Rank": 721,
+      "Type": "illo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eveniet",
-      "ColorBlock": 675,
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "id",
-      "FullName": "Luisa Marquardt",
+      "IconHint": "exercitationem",
+      "ColorBlock": 762,
+      "ExtraInfo": "aut",
+      "StyleHint": "et",
+      "FullName": "Ms. Royal Kessler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldType": "System.Int32",
+          "FieldLength": 388
         }
       }
     }
   ],
   "IsPublished": true,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 593,
+  "ProjectEventId": 825,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 159
     }
   }
 }

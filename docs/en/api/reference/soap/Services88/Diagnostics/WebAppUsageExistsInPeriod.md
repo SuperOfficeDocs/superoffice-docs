@@ -41,7 +41,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Diagnostics:WebAppUsageExistsInPeriod>
     <Diagnostics:AssociateId xsi:type="xsd:int">0</Diagnostics:AssociateId>
     <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2024-05-21T10:55:41Z</Diagnostics:FromDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2024-06-05T02:20:28Z</Diagnostics:FromDate>
    </Diagnostics:WebAppUsageExistsInPeriod>
 
  </SOAP-ENV:Body>

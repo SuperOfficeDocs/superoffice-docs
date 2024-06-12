@@ -56,6 +56,7 @@ Links in messages to measure success rate of a campaign.
 |updated|Last updated when|UtcDateTime|&#x25CF;|
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
+|local\_link|If this references a shipment message, then this is a local link belonging to that message|FK [s_message](s-message.md)|&#x25CF;|
 
 
 ![s_link table relationship diagram](./media/s_link.png)
@@ -96,10 +97,12 @@ Links in messages to measure success rate of a campaign.
 |[ejscript](ejscript.md)  |ejscript |
 |[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
+|[email\_flow\_content\_link](email-flow-content-link.md)  |Links content to an email workflow |
 |[PersInt](persint.md)  |PersInt list table. List of Person interests. |
 |[project](project.md)  |Projects |
 |[s\_link\_customer](s-link-customer.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |
 |[s\_link\_customer\_statical](s-link-customer-statical.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |
+|[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
 |[selection](selection.md)  |Selections |
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |

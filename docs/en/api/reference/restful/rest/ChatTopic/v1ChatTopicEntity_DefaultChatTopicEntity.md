@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 850,
-  "Name": "Fahey-Schaefer",
-  "Description": "Monitored intermediate moratorium",
-  "WelcomeMessage": "sint",
+  "ChatTopicId": 171,
+  "Name": "King, Thompson and Romaguera",
+  "Description": "Universal 24/7 intranet",
+  "WelcomeMessage": "at",
   "Language": null,
-  "LastAccept": "2001-03-28T12:57:42.1514494+02:00",
-  "SecondsPrAccept": 983,
-  "AlertRecipient": "voluptates",
+  "LastAccept": "2005-11-20T04:22:34.7183767+01:00",
+  "SecondsPrAccept": 524,
+  "AlertRecipient": "dolorem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "iste",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "non",
-  "WarnNewChatMinutes": 996,
-  "WarnManagerNewChatMinutes": 709,
+  "BadgeHeader": "blanditiis",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "optio",
+  "WarnNewChatMinutes": 495,
+  "WarnManagerNewChatMinutes": 443,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 742,
-  "WarnManagerChatMessageMinutes": 647,
+  "WarnChatMessageMinutes": 79,
+  "WarnManagerChatMessageMinutes": 430,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 899,
-  "OfflineFormQueueLength": 671,
+  "OfflineFormTimeLimit": 281,
+  "OfflineFormQueueLength": 280,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "numquam",
+  "WidgetRatingText": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 782
     }
   }
 }

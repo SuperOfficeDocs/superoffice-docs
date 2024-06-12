@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    566,
-    72
+    151,
+    691
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 873,
-    "MessageId": "quos",
-    "Subject": "modi",
+    "ServerId": 188,
+    "MessageId": "iure",
+    "Subject": "ratione",
     "From": null,
     "To": [
       {
-        "ContactId": 785,
-        "ContactName": "Goyette-Homenick",
-        "PersonId": 999,
-        "PersonName": "Abshire LLC",
-        "AssociateId": 702,
-        "Address": "omnis",
-        "EmailId": 530,
+        "ContactId": 905,
+        "ContactName": "Bartoletti, Beer and Schmidt",
+        "PersonId": 444,
+        "PersonName": "Green LLC",
+        "AssociateId": 415,
+        "Address": "recusandae",
+        "EmailId": 529,
         "DuplicatePersonIds": [
-          568,
-          882
+          193,
+          1000
         ],
-        "Name": "Marquardt, Abbott and Sawayn",
+        "Name": "Parisian-Botsford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldLength": 8
           }
         }
       }
     ],
-    "Sent": "2014-07-16T12:57:33.9617687+02:00",
+    "Sent": "2003-05-20T04:22:26.7647342+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 849,
+    "Size": 838,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldType": "System.String",
+        "FieldLength": 567
       }
     }
   }

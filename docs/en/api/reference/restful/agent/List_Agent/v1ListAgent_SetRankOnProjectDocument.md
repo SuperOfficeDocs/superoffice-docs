@@ -69,10 +69,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 468,
+  "ProjectTypeStatusLinkId": 7,
   "ItemsIds": [
-    911,
-    850
+    513,
+    937
   ]
 }
 ```

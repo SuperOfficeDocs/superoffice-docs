@@ -91,7 +91,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 328
+  "AssociateId": 254
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 977,
-    "ERPName": "Stiedemann, Schinner and O'Reilly",
-    "DisplayName": "Hirthe-Hansen",
-    "DisplayDescription": "Total motivating process improvement",
-    "Rank": 821,
-    "ConnectorName": "Mayert Inc and Sons",
-    "ErpConnectionId": 17,
-    "ExtraData": "quam",
-    "IsAvailable": true,
+    "QuoteConnectionId": 904,
+    "ERPName": "Thompson, Nader and Smith",
+    "DisplayName": "Botsford-Hermiston",
+    "DisplayDescription": "Streamlined real-time capability",
+    "Rank": 733,
+    "ConnectorName": "Howell, Keebler and Bergstrom",
+    "ErpConnectionId": 645,
+    "ExtraData": "aliquid",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 629,
-        "ERPPriceListKey": "ipsam",
-        "QuoteConnectionId": 110,
-        "Name": "Reichel-Batz",
-        "Description": "Triple-buffered dynamic capability",
-        "Currency": "dicta",
-        "CurrencyName": "Senger-Bartell",
-        "ValidFrom": "2005-07-30T12:57:34.7428121+02:00",
-        "ValidTo": "2010-10-28T12:57:34.7428121+02:00",
-        "IsActive": true,
+        "PriceListId": 626,
+        "ERPPriceListKey": "sapiente",
+        "QuoteConnectionId": 841,
+        "Name": "Howe, Konopelski and Walter",
+        "Description": "Sharable contextually-based complexity",
+        "Currency": "nam",
+        "CurrencyName": "Dietrich-Bechtelar",
+        "ValidFrom": "2022-04-17T04:22:27.4247427+02:00",
+        "ValidTo": "2023-09-29T04:22:27.4247427+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 143
+            "FieldType": "System.Int32",
+            "FieldLength": 259
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": true,
     "UserGroupAccessIds": [
-      635,
-      545
+      908,
+      998
     ],
     "AssociateAccessIds": [
-      11,
-      811
+      185,
+      372
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldLength": 446
       }
     }
   }

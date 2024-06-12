@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ankunding Group",
-    "Id": 710,
-    "Description": "Realigned 24 hour software",
-    "ExtraInfo": "ipsa",
-    "LinkId": 986,
+    "EntityName": "Welch, Fahey and Stark",
+    "Id": 658,
+    "Description": "Robust 4th generation groupware",
+    "ExtraInfo": "quisquam",
+    "LinkId": 968,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 220
       }
     }
   }

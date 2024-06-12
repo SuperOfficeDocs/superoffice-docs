@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 197,
+  "ContactId": 947,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "O'Kon, O'Keefe and Hyatt",
-    "SaleDate": "2001-03-24T12:57:34.8833406+01:00",
-    "SaleId": 838,
-    "Probability": 230,
-    "Title": "quo",
-    "Amount": 8997.714,
-    "Currency": "expedita",
-    "ProjectName": "Weimann Inc and Sons",
-    "AssociateFullName": "River Jones",
-    "Description": "Multi-channelled empowering open system",
+    "ContactName": "Sipes-Herman",
+    "SaleDate": "2020-06-15T04:22:27.5492747+02:00",
+    "SaleId": 447,
+    "Probability": 504,
+    "Title": "autem",
+    "Amount": 17791.718,
+    "Currency": "consequatur",
+    "ProjectName": "Wunsch LLC",
+    "AssociateFullName": "Mr. Ibrahim McClure V",
+    "Description": "Reverse-engineered disintermediate product",
     "Status": "Lost",
-    "WeightedAmount": 16061.75,
-    "ProjectId": 352,
-    "EarningPercent": 30108.338,
-    "Earning": 26601.392,
-    "ContactId": 7,
-    "AssociateId": 256,
-    "PersonId": 835,
-    "SaleTypeId": 865,
-    "SaleTypeName": "Stehr Group",
-    "PersonFullName": "Mr. Mckayla Alexandria Kling V",
+    "WeightedAmount": 28660.43,
+    "ProjectId": 306,
+    "EarningPercent": 4550.568,
+    "Earning": 11395.224,
+    "ContactId": 943,
+    "AssociateId": 364,
+    "PersonId": 851,
+    "SaleTypeId": 305,
+    "SaleTypeName": "Hahn Inc and Sons",
+    "PersonFullName": "Gudrun Stracke",
     "Completed": "Completed",
-    "ActiveErpLinks": 3,
-    "NextDueDate": "2008-11-12T12:57:34.8833406+01:00",
-    "Number": "1322200",
+    "ActiveErpLinks": 150,
+    "NextDueDate": "2002-10-31T04:22:27.5648986+01:00",
+    "Number": "931602",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldType": "System.String",
+        "FieldLength": 403
       }
     }
   }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Frami-Deckow",
+  "TaskName": "Breitenberg, Satterfield and Sanford",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Treutel LLC",
-    "AssociateId": 458,
-    "DetailsTable": 729,
-    "DetailsRecord": 65,
+    "Id": 169,
+    "Name": "Roob, Altenwerth and Maggio",
+    "AssociateId": 350,
+    "DetailsTable": 1001,
+    "DetailsRecord": 430,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "deleniti",
-      "ParameterObject2": "id"
+      "ParameterObject1": "et",
+      "ParameterObject2": "beatae"
     },
-    "LastStarted": "2004-03-18T12:57:33.2743944+01:00",
-    "Created": "2010-11-20T12:57:33.2743944+01:00",
-    "StartCount": 580,
-    "DatabaseSerialNumber": "1600547",
-    "Context": "architecto",
-    "Result": "et",
+    "LastStarted": "2014-12-12T04:22:26.0122232+01:00",
+    "Created": "2010-07-20T04:22:26.0122232+02:00",
+    "StartCount": 301,
+    "DatabaseSerialNumber": "463197",
+    "Context": "iure",
+    "Result": "doloremque",
     "State": "All",
-    "Description": "Exclusive impactful framework",
-    "Response": "occaecati",
-    "Request": "soluta",
-    "ProgressDescription": "Grass-roots mission-critical superstructure",
-    "ProgressPercent": 688,
-    "FileName": "Strosin-Gaylord",
+    "Description": "Reduced tertiary extranet",
+    "Response": "blanditiis",
+    "Request": "similique",
+    "ProgressDescription": "Customizable background budgetary management",
+    "ProgressPercent": 827,
+    "FileName": "Farrell, Becker and Bergstrom",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 418
       }
     }
   }

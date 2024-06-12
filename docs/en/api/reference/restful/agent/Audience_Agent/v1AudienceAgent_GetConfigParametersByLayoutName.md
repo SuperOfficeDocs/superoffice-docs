@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Marks-Hettinger"
+  "LayoutName": "Nolan, Hahn and Powlowski"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 422,
-    "Name": "Kuphal, McLaughlin and Kassulke",
-    "Value": "sunt",
-    "CreatedDate": "2011-06-12T12:57:33.2428569+02:00",
-    "UpdatedDate": "2013-03-29T12:57:33.2428569+01:00",
-    "CreatedBy": "facere",
-    "UpdatedBy": "ipsa",
+    "AudienceLayoutId": 299,
+    "Name": "Brown Inc and Sons",
+    "Value": "officia",
+    "CreatedDate": "2009-04-19T04:22:25.9965968+02:00",
+    "UpdatedDate": "2021-05-20T04:22:25.9965968+02:00",
+    "CreatedBy": "dolorem",
+    "UpdatedBy": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 836
       }
     }
   }

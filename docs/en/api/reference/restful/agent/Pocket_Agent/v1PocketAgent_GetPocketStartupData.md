@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "vel",
-    "voluptas"
+    "deleniti",
+    "vel"
   ],
-  "CurrentClientTime": "1997-03-09T12:57:34.586598+01:00"
+  "CurrentClientTime": "2002-03-17T04:22:27.2841162+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "et",
-    "doloremque"
+    "veritatis",
+    "facere"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 19,
-  "NotificationsCount": 836,
+  "OverdueSalesCount": 462,
+  "NotificationsCount": 690,
   "SystemWebPanels": [
     {
-      "WebPanelId": 349,
-      "Name": "Stamm, Christiansen and Hauck",
-      "Tooltip": "deleniti",
+      "WebPanelId": 178,
+      "Name": "Brown Inc and Sons",
+      "Tooltip": "necessitatibus",
       "Deleted": false,
-      "Rank": 901,
+      "Rank": 758,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": false,
-      "OnTravel": true,
-      "OnSalesMarketingWeb": true,
-      "OnSalesMarketingPocket": true,
+      "OnTravel": false,
+      "OnSalesMarketingWeb": false,
+      "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
+      "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Lynch-Konopelski",
+      "WindowName": "Halvorson-Thiel",
       "Url": "http://www.example.com/",
-      "ProgId": "corrupti",
-      "Icon": 844,
+      "ProgId": "ad",
+      "Icon": 711,
       "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": true,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 694
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "sed",
+      "RawValue": "sint",
       "Specification": null,
-      "DisplayValue": "aut",
-      "DisplayTooltip": "rem",
+      "DisplayValue": "aliquam",
+      "DisplayTooltip": "necessitatibus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 440,
-      "PrefDescId": 270,
-      "TableName": "Bosco LLC",
-      "UserPreferenceId": 493,
+      "TargetId": 874,
+      "PrefDescId": 984,
+      "TableName": "Schimmel, Reynolds and Lesch",
+      "UserPreferenceId": 872,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 212
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "ducimus",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 647
     }
   }
 }

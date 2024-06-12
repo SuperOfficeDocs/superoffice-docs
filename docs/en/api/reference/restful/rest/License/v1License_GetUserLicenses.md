@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grant Inc and Sons",
-    "Description": "Triple-buffered bi-directional functionalities",
+    "Name": "Kunde, Kerluke and McClure",
+    "Description": "Future-proofed reciprocal open architecture",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 565,
-        "Tooltip": "ut",
-        "CanAssign": true,
-        "Free": 463,
-        "InUse": 624,
+        "Unrestricted": true,
+        "Total": 585,
+        "Tooltip": "eligendi",
+        "CanAssign": false,
+        "Free": 231,
+        "InUse": 536,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 223,
-        "Name": "Cole Inc and Sons",
-        "Description": "Ameliorated 24/7 Graphical User Interface",
-        "PrerequisiteModuleName": "Larson, Lesch and Adams",
-        "SortOrder": 576,
-        "ExtraFlags": 501,
+        "ModuleLicenseId": 504,
+        "Name": "Barrows, Bergstrom and Mohr",
+        "Description": "Reduced disintermediate pricing structure",
+        "PrerequisiteModuleName": "Cremin Inc and Sons",
+        "SortOrder": 875,
+        "ExtraFlags": 767,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 527
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 194,
-        "Tooltip": "error",
+        "Total": 25,
+        "Tooltip": "id",
         "CanAssign": false,
-        "Free": 874,
-        "InUse": 50,
+        "Free": 14,
+        "InUse": 846,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 288,
-        "Name": "Champlin, Schuster and Williamson",
-        "Description": "Face to face zero defect budgetary management",
-        "PrerequisiteModuleName": "Rowe, McClure and Rolfson",
-        "SortOrder": 702,
-        "ExtraFlags": 901,
+        "Assigned": true,
+        "ModuleLicenseId": 567,
+        "Name": "Kuhn, Watsica and Waters",
+        "Description": "Switchable didactic architecture",
+        "PrerequisiteModuleName": "VonRueden LLC",
+        "SortOrder": 644,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 924
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 235
       }
     }
   },
   {
-    "Name": "Grant Inc and Sons",
-    "Description": "Triple-buffered bi-directional functionalities",
+    "Name": "Kunde, Kerluke and McClure",
+    "Description": "Future-proofed reciprocal open architecture",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 565,
-        "Tooltip": "ut",
-        "CanAssign": true,
-        "Free": 463,
-        "InUse": 624,
+        "Unrestricted": true,
+        "Total": 585,
+        "Tooltip": "eligendi",
+        "CanAssign": false,
+        "Free": 231,
+        "InUse": 536,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 223,
-        "Name": "Cole Inc and Sons",
-        "Description": "Ameliorated 24/7 Graphical User Interface",
-        "PrerequisiteModuleName": "Larson, Lesch and Adams",
-        "SortOrder": 576,
-        "ExtraFlags": 501,
+        "ModuleLicenseId": 504,
+        "Name": "Barrows, Bergstrom and Mohr",
+        "Description": "Reduced disintermediate pricing structure",
+        "PrerequisiteModuleName": "Cremin Inc and Sons",
+        "SortOrder": 875,
+        "ExtraFlags": 767,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 527
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 194,
-        "Tooltip": "error",
+        "Total": 25,
+        "Tooltip": "id",
         "CanAssign": false,
-        "Free": 874,
-        "InUse": 50,
+        "Free": 14,
+        "InUse": 846,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 288,
-        "Name": "Champlin, Schuster and Williamson",
-        "Description": "Face to face zero defect budgetary management",
-        "PrerequisiteModuleName": "Rowe, McClure and Rolfson",
-        "SortOrder": 702,
-        "ExtraFlags": 901,
+        "Assigned": true,
+        "ModuleLicenseId": 567,
+        "Name": "Kuhn, Watsica and Waters",
+        "Description": "Switchable didactic architecture",
+        "PrerequisiteModuleName": "VonRueden LLC",
+        "SortOrder": 644,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 924
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 235
       }
     }
   }

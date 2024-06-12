@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "delectus",
-  "Value": "quasi",
-  "RecordId": 539,
-  "CreatedDate": "1997-03-14T12:57:42.4638774+01:00",
-  "UpdatedDate": "2006-07-13T12:57:42.4638774+02:00",
-  "UpdatedBy": "velit",
-  "CreatedBy": "officia",
-  "TableName": "Kassulke LLC"
+  "Key": "veniam",
+  "Value": "voluptatem",
+  "RecordId": 111,
+  "CreatedDate": "2020-08-03T04:22:35.0010854+02:00",
+  "UpdatedDate": "2002-07-22T04:22:35.0010854+02:00",
+  "UpdatedBy": "quisquam",
+  "CreatedBy": "saepe",
+  "TableName": "Armstrong Group"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsam",
-  "Value": "ducimus",
-  "RecordId": 767,
-  "CreatedDate": "2012-08-26T12:57:42.4638774+02:00",
-  "UpdatedDate": "2009-10-12T12:57:42.4638774+02:00",
-  "UpdatedBy": "dolores",
-  "CreatedBy": "voluptas",
-  "TableName": "Turcotte Inc and Sons",
+  "Key": "laboriosam",
+  "Value": "provident",
+  "RecordId": 84,
+  "CreatedDate": "2010-08-19T04:22:35.0010854+02:00",
+  "UpdatedDate": "2020-10-12T04:22:35.0010854+02:00",
+  "UpdatedBy": "quaerat",
+  "CreatedBy": "repellat",
+  "TableName": "Kemmer Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldType": "System.String",
+      "FieldLength": 772
     }
   }
 }

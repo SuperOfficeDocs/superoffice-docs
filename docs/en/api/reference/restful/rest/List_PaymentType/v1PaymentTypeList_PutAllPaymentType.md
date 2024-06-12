@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Keebler Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 459,
-    "Rank": 226
+    "Id": 543,
+    "Name": "Nitzsche, Wilkinson and Pacocha",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "UdListDefinitionId": 749,
+    "Rank": 163
   },
   {
-    "Id": 247,
-    "Name": "Keebler Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 459,
-    "Rank": 226
+    "Id": 543,
+    "Name": "Nitzsche, Wilkinson and Pacocha",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "UdListDefinitionId": 749,
+    "Rank": 163
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Ziemann LLC",
-    "Tooltip": "in",
+    "Id": 74,
+    "Name": "Hauck LLC",
+    "Tooltip": "veritatis",
     "Deleted": true,
-    "UdListDefinitionId": 240,
-    "Rank": 222,
+    "UdListDefinitionId": 54,
+    "Rank": 983,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldType": "System.String",
+        "FieldLength": 681
       }
     }
   }

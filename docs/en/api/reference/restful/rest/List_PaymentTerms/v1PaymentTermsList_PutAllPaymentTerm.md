@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Hessel LLC",
-    "Tooltip": "et",
+    "Id": 167,
+    "Name": "Monahan-Gleichner",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 550,
-    "Rank": 767
+    "UdListDefinitionId": 974,
+    "Rank": 434
   },
   {
-    "Id": 39,
-    "Name": "Hessel LLC",
-    "Tooltip": "et",
+    "Id": 167,
+    "Name": "Monahan-Gleichner",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 550,
-    "Rank": 767
+    "UdListDefinitionId": 974,
+    "Rank": 434
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "West-Fadel",
-    "Tooltip": "voluptas",
+    "Id": 519,
+    "Name": "Larkin Group",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 728,
-    "Rank": 438,
+    "UdListDefinitionId": 5,
+    "Rank": 733,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   }

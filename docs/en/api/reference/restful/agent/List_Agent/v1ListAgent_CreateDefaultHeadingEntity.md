@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 945,
-  "Name": "Schmeler, Simonis and Mertz",
-  "Tooltip": "aperiam",
+  "HeadingId": 645,
+  "Name": "Murazik, Lueilwitz and Willms",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 664,
-  "UdListDefinitionId": 277,
+  "Rank": 416,
+  "UdListDefinitionId": 454,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

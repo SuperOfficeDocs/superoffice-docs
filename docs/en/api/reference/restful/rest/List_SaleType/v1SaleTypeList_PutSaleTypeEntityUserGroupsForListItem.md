@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Howe-Lind",
-    "ToolTip": "Repellat saepe error modi molestias in.",
+    "Id": 298,
+    "Name": "Bailey-Walsh",
+    "ToolTip": "Sit est unde.",
     "Deleted": false,
-    "Rank": 268,
-    "Type": "illum",
-    "ColorBlock": 943,
+    "Rank": 885,
+    "Type": "architecto",
+    "ColorBlock": 846,
     "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2000-01-18T12:57:43.7457393+01:00",
+    "Selected": true,
+    "LastChanged": "2015-01-03T04:22:36.1903389+01:00",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Mueller-Rath",
-        "ToolTip": "Qui dolores mollitia aperiam et culpa minus est.",
+        "Id": 761,
+        "Name": "Willms LLC",
+        "ToolTip": "Quaerat odio ut.",
         "Deleted": true,
-        "Rank": 836,
-        "Type": "nulla",
-        "ColorBlock": 273,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2019-11-05T12:57:43.7457393+01:00",
+        "Rank": 967,
+        "Type": "error",
+        "ColorBlock": 408,
+        "IconHint": "voluptatum",
+        "Selected": true,
+        "LastChanged": "2003-02-01T04:22:36.1903389+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "ut",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Wava Schroeder"
+        "FullName": "Zella Hilll"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Ted Leanna King V"
+    "FullName": "Ross Brakus"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Welch, Romaguera and Simonis",
-    "ToolTip": "Quae qui sed eos magni repellendus facere minima.",
+    "Id": 255,
+    "Name": "Goodwin, Cartwright and Kertzmann",
+    "ToolTip": "Vitae similique.",
     "Deleted": false,
-    "Rank": 831,
-    "Type": "laudantium",
-    "ColorBlock": 947,
-    "IconHint": "iusto",
+    "Rank": 654,
+    "Type": "quo",
+    "ColorBlock": 396,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2008-05-16T12:57:43.7457393+02:00",
+    "LastChanged": "2021-08-04T04:22:36.1903389+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Dibbert, Borer and Thompson",
-        "ToolTip": "Voluptas cumque sit dolorum consequatur et debitis.",
+        "Id": 852,
+        "Name": "Wintheiser-Brown",
+        "ToolTip": "Tempore est et tempore voluptas cum.",
         "Deleted": false,
-        "Rank": 716,
-        "Type": "aut",
-        "ColorBlock": 342,
-        "IconHint": "et",
+        "Rank": 719,
+        "Type": "quia",
+        "ColorBlock": 518,
+        "IconHint": "nostrum",
         "Selected": true,
-        "LastChanged": "2014-09-11T12:57:43.7457393+02:00",
+        "LastChanged": "2021-07-06T04:22:36.1903389+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "enim",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Ms. Jorge Waelchi",
+        "FullName": "Kamille Diana Wisoky V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 1001
+            "FieldType": "System.Int32",
+            "FieldLength": 940
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "ut",
+    "ExtraInfo": "aut",
+    "StyleHint": "adipisci",
     "Hidden": true,
-    "FullName": "Miss Jakob Stracke",
+    "FullName": "Prof. Baby Heller DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 733
       }
     }
   }

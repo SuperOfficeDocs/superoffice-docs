@@ -238,7 +238,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
 |contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
-|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - Updated by flow: Updated by flow| x |
+|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - When updated by flow: When updated by flow| x |
 |contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
 |contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
@@ -357,7 +357,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=restrictionPostalAddress/zip,contactAssociate/locationAddress,contactAssociate/contactName
+GET /api/v1/archive/contactfavourites?$select=contactAssociate/credentialDisplayValue,contactSupportPerson/legalBaseStore,contactAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

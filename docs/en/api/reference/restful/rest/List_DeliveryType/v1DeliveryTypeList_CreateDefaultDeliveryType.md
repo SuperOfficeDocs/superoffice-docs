@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 2,
-  "Name": "Hagenes-Considine",
-  "Tooltip": "quo",
+  "Id": 566,
+  "Name": "Maggio-Luettgen",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 313,
-  "Rank": 198,
+  "UdListDefinitionId": 557,
+  "Rank": 716,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 953
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

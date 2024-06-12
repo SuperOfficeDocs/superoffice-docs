@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 497,
-  "Name": "Willms-Medhurst",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "Rank": 269,
+  "Id": 119,
+  "Name": "Little LLC",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 90,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "UseGroupsAndHeadings": false,
+  "ListType": "in",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Stracke-Eichmann",
-  "Tooltip": "officiis",
+  "Id": 291,
+  "Name": "Heidenreich LLC",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 782,
-  "IsCustomList": false,
+  "Rank": 933,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldLength": 71
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

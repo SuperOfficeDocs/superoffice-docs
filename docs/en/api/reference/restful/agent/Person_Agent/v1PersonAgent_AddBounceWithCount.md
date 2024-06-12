@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "chet@davisrowe.uk",
-  "Counts": 452
+  "EmailAddress": "carlos.lakin@krajcik.co.uk",
+  "Counts": 45
 }
 ```
 

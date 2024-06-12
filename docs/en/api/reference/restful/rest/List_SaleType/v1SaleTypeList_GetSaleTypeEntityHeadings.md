@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 37,
-    "Name": "Moore-Parker",
-    "Tooltip": "tempore",
-    "Deleted": false,
-    "Rank": 61,
-    "UdListDefinitionId": 138,
+    "HeadingId": 584,
+    "Name": "Davis, McLaughlin and Brown",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 260,
+    "UdListDefinitionId": 92,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

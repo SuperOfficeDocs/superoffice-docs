@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 627,
-    "Name": "Considine LLC",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 358,
-    "UdListDefinitionId": 952
+    "HeadingId": 85,
+    "Name": "Anderson, Lowe and Stokes",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 346,
+    "UdListDefinitionId": 53
   },
   {
-    "HeadingId": 627,
-    "Name": "Considine LLC",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 358,
-    "UdListDefinitionId": 952
+    "HeadingId": 85,
+    "Name": "Anderson, Lowe and Stokes",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 346,
+    "UdListDefinitionId": 53
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 377,
-    "Name": "Steuber Group",
-    "Tooltip": "perferendis",
+    "HeadingId": 990,
+    "Name": "Thompson, Wiegand and Olson",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "Rank": 895,
-    "UdListDefinitionId": 457,
+    "Rank": 894,
+    "UdListDefinitionId": 336,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldType": "System.String",
+        "FieldLength": 773
       }
     }
   }

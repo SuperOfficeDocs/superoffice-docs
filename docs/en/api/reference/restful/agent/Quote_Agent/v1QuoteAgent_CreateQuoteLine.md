@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 618,
-  "ERPProductKey": "corrupti"
+  "QuoteAlternativeId": 586,
+  "ERPProductKey": "iste"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 338,
-  "ERPQuoteLineKey": "culpa",
-  "QuoteAlternativeId": 972,
-  "ERPProductKey": "esse",
+  "QuoteLineId": 408,
+  "ERPQuoteLineKey": "error",
+  "QuoteAlternativeId": 784,
+  "ERPProductKey": "est",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 6217.856,
-  "DeliveredQuantity": 12137.982,
-  "Rank": 27,
-  "Name": "Raynor Inc and Sons",
-  "Description": "Enterprise-wide stable adapter",
-  "Code": "quo",
-  "QuantityUnit": "fugit",
-  "PriceUnit": "sint",
-  "ItemNumber": "1472869",
+  "Quantity": 8442.996,
+  "DeliveredQuantity": 4663.392,
+  "Rank": 13,
+  "Name": "Feest, Hermann and Mills",
+  "Description": "Advanced contextually-based info-mediaries",
+  "Code": "sint",
+  "QuantityUnit": "a",
+  "PriceUnit": "officiis",
+  "ItemNumber": "770388",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "occaecati",
-  "ProductTypeKey": "incidunt",
-  "Supplier": "sed",
-  "SupplierCode": "nihil",
-  "Thumbnail": "provident",
-  "VATInfo": "doloribus",
-  "VAT": 15682.536,
-  "UnitCost": 27776.642,
-  "UnitMinimumPrice": 27344.149999999998,
-  "UnitListPrice": 4149.416,
+  "ProductFamilyKey": "blanditiis",
+  "ProductTypeKey": "molestias",
+  "Supplier": "exercitationem",
+  "SupplierCode": "labore",
+  "Thumbnail": "optio",
+  "VATInfo": "voluptates",
+  "VAT": 16785.703999999998,
+  "UnitCost": 28246.742,
+  "UnitMinimumPrice": 16290.532,
+  "UnitListPrice": 5080.214,
   "ExtraInfo": [
     {
-      "Name": "Quigley Inc and Sons",
-      "Value": "et",
+      "Name": "Torphy Group",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 379
+          "FieldType": "System.Int32",
+          "FieldLength": 56
         }
       }
     },
     {
-      "Name": "Quigley Inc and Sons",
-      "Value": "et",
+      "Name": "Torphy Group",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 379
+          "FieldType": "System.Int32",
+          "FieldLength": 56
         }
       }
     }
   ],
-  "RawExtraInfo": "non",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quibusdam",
-  "SubscriptionQuantity": 29641.372,
-  "SubscriptionStart": "2009-07-15T12:57:34.7584337+02:00",
-  "ERPDiscountPercent": 25720.737999999998,
-  "ERPDiscountAmount": 2375.572,
-  "DiscountPercent": 6904.202,
-  "DiscountAmount": 30891.838,
+  "RawExtraInfo": "illum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "porro",
+  "SubscriptionQuantity": 19847.622,
+  "SubscriptionStart": "2005-10-20T04:22:27.4247427+02:00",
+  "ERPDiscountPercent": 5080.214,
+  "ERPDiscountAmount": 10665.002,
+  "DiscountPercent": 11855.922,
+  "DiscountAmount": 21295.53,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16469.17,
-  "EarningAmount": 23075.642,
-  "SubTotal": 13416.654,
-  "TotalPrice": 23627.226,
-  "Rights": "veniam",
-  "Rule": "quo",
-  "ExtraField1": "quasi",
-  "ExtraField2": "vitae",
-  "ExtraField3": "autem",
-  "ExtraField4": "a",
-  "ExtraField5": "doloribus",
+  "EarningPercent": 22633.748,
+  "EarningAmount": 9768.678,
+  "SubTotal": 7355.498,
+  "TotalPrice": 12667.627999999999,
+  "Rights": "non",
+  "Rule": "nemo",
+  "ExtraField1": "nobis",
+  "ExtraField2": "qui",
+  "ExtraField3": "est",
+  "ExtraField4": "aut",
+  "ExtraField5": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 160
     }
   }
 }

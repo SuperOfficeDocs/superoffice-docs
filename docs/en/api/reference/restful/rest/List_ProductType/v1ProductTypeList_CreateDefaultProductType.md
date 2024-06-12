@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Romaguera, Greenfelder and Price",
-  "Tooltip": "dolor",
+  "Id": 661,
+  "Name": "Haag, Prohaska and Sipes",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 742,
-  "Rank": 238,
+  "UdListDefinitionId": 803,
+  "Rank": 988,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

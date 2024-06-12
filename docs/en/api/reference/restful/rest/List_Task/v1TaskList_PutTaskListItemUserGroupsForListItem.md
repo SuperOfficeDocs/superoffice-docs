@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Ebert, Kemmer and Johnston",
-    "ToolTip": "Et aliquid iure adipisci nostrum hic.",
-    "Deleted": false,
-    "Rank": 262,
-    "Type": "accusamus",
-    "ColorBlock": 177,
-    "IconHint": "quia",
+    "Id": 405,
+    "Name": "Ratke-Lind",
+    "ToolTip": "Quo est sit nostrum.",
+    "Deleted": true,
+    "Rank": 8,
+    "Type": "voluptates",
+    "ColorBlock": 199,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2021-08-08T12:57:43.7926038+02:00",
+    "LastChanged": "2009-08-08T04:22:36.2215887+02:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Halvorson LLC",
-        "ToolTip": "Sed est ea sit vero in corporis architecto.",
+        "Id": 430,
+        "Name": "Friesen Inc and Sons",
+        "ToolTip": "Laudantium occaecati facilis.",
         "Deleted": false,
-        "Rank": 566,
-        "Type": "dolor",
-        "ColorBlock": 808,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2022-11-04T12:57:43.7926038+01:00",
+        "Rank": 493,
+        "Type": "qui",
+        "ColorBlock": 67,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2009-10-01T04:22:36.2215887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "aut",
+        "ExtraInfo": "quas",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Prof. Tyrique Hudson"
+        "FullName": "Prof. Alba Predovic Sr."
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "occaecati",
-    "Hidden": false,
-    "FullName": "Birdie Bogisich"
+    "ExtraInfo": "autem",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Miss Casandra Bradly Thiel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Cormier Group",
-    "ToolTip": "Eligendi est fugiat.",
+    "Id": 617,
+    "Name": "Thiel, Romaguera and Schamberger",
+    "ToolTip": "Accusamus culpa eos vel numquam.",
     "Deleted": false,
-    "Rank": 843,
-    "Type": "eveniet",
-    "ColorBlock": 466,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2022-02-09T12:57:43.7926038+01:00",
+    "Rank": 944,
+    "Type": "eaque",
+    "ColorBlock": 105,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2017-11-15T04:22:36.2372126+01:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Herman-Robel",
-        "ToolTip": "Quae iure tempora delectus.",
-        "Deleted": true,
-        "Rank": 954,
-        "Type": "sint",
-        "ColorBlock": 940,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "2023-03-23T12:57:43.7926038+01:00",
+        "Id": 848,
+        "Name": "Smith-Skiles",
+        "ToolTip": "Libero amet nulla.",
+        "Deleted": false,
+        "Rank": 306,
+        "Type": "corrupti",
+        "ColorBlock": 743,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2008-06-28T04:22:36.2372126+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "fuga",
-        "Hidden": true,
-        "FullName": "Milan Romaguera",
+        "ExtraInfo": "ad",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Sylvester Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldType": "System.String",
+            "FieldLength": 203
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "expedita",
+    "ExtraInfo": "expedita",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Bernie Schaefer",
+    "FullName": "Mrs. Cleta Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

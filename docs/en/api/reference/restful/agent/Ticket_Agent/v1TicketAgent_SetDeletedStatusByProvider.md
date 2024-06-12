@@ -71,32 +71,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Prohaska Inc and Sons",
+  "ProviderName": "Barrows, Renner and Zieme",
   "Restrictions": [
     {
-      "Name": "Dooley, Johnston and Kiehn",
+      "Name": "Kihn, Hilll and Schumm",
       "Operator": "recusandae",
       "Values": [
-        "cum",
-        "est"
+        "dicta",
+        "quod"
       ],
       "DisplayValues": [
-        "ex",
-        "et"
+        "adipisci",
+        "illo"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 453,
+      "InterParenthesis": 877,
       "InterOperator": "And",
-      "UniqueHash": 223
+      "UniqueHash": 552
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  976,
-  527
+  49,
+  215
 ]
 ```

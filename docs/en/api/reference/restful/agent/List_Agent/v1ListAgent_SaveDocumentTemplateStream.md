@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 157,
+  "DocumentTemplateId": 856,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "numquam",
-  "PluginId": 944
+  "LanguageCode": "aut",
+  "PluginId": 571
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corkery, O'Hara and Stoltenberg",
-  "Description": "Grass-roots intangible definition",
-  "ExternalReference": "et",
-  "MimeType": "soluta",
-  "PluginId": 776
+  "Name": "Murray Group",
+  "Description": "Pre-emptive modular leverage",
+  "ExternalReference": "asperiores",
+  "MimeType": "cupiditate",
+  "PluginId": 90
 }
 ```

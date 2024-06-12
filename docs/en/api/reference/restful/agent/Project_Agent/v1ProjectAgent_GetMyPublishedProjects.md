@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 391,
-    "Name": "Cummerata-Schimmel",
-    "Description": "Fully-configurable bifurcated protocol",
+    "ProjectId": 497,
+    "Name": "Rolfson, Bruen and Stehr",
+    "Description": "Persevering demand-driven local area network",
     "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 578,
-    "AssociateFullName": "Velva Bosco",
-    "TypeId": 622,
-    "Updated": "2024-04-13T12:57:34.664705+02:00",
-    "StatusId": 74,
-    "Status": "voluptate",
-    "TextId": 155,
-    "PublishTo": "2008-01-08T12:57:34.664705+01:00",
-    "PublishFrom": "2001-12-22T12:57:34.664705+01:00",
+    "Type": "nihil",
+    "AssociateId": 888,
+    "AssociateFullName": "Mrs. Anibal Norberto Green V",
+    "TypeId": 324,
+    "Updated": "2020-03-09T04:22:27.3466141+01:00",
+    "StatusId": 937,
+    "Status": "in",
+    "TextId": 879,
+    "PublishTo": "2015-06-20T04:22:27.3466141+02:00",
+    "PublishFrom": "2002-02-10T04:22:27.3466141+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1491497",
-    "ActiveErpLinks": 533,
+    "ProjectNumber": "888406",
+    "ActiveErpLinks": 133,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldType": "System.Int32",
+        "FieldLength": 224
       }
     }
   }

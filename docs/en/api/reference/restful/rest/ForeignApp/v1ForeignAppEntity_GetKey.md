@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 25 Nov 2003 12:57:42 G11T
+Last-Modified: Sat, 05 Oct 2013 04:22:35 G10T
 
 {
-  "Key": "dolorum",
-  "Value": "distinctio",
-  "RecordId": 40,
-  "CreatedDate": "2019-06-12T12:57:42.448256+02:00",
-  "UpdatedDate": "2003-11-25T12:57:42.448256+01:00",
-  "UpdatedBy": "accusamus",
-  "CreatedBy": "qui",
-  "TableName": "Koelpin, Goodwin and Langworth",
+  "Key": "et",
+  "Value": "et",
+  "RecordId": 494,
+  "CreatedDate": "2011-02-20T04:22:35.0010854+01:00",
+  "UpdatedDate": "2013-10-05T04:22:35.0010854+02:00",
+  "UpdatedBy": "ipsum",
+  "CreatedBy": "accusamus",
+  "TableName": "Kirlin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 346
     }
   }
 }

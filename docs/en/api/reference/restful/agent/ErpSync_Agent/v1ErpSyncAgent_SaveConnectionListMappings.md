@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Walker-Shields",
+      "ErpListName": "Walter LLC",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Ondricka Group",
-      "ErpFieldId": 392,
+      "ErpActorTypeName": "Pfeffer Group",
+      "ErpFieldId": 218,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 135
+          "FieldType": "System.Int32",
+          "FieldLength": 335
         }
       }
     }
   ],
-  "ErpConnectionId": 998,
-  "ErpConnectionName": "Fritsch-Emard",
+  "ErpConnectionId": 341,
+  "ErpConnectionName": "Haag, Cartwright and Ruecker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 51
     }
   }
 }

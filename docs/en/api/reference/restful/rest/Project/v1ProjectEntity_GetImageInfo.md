@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 24 May 2001 12:57:42 G5T
+Last-Modified: Sat, 19 Oct 2013 04:22:35 G10T
 
 {
-  "BlobId": 284,
-  "BlobSize": 286,
-  "Description": "Face to face high-level workforce",
-  "ExtraInfo": "id",
+  "BlobId": 286,
+  "BlobSize": 162,
+  "Description": "Versatile logistical ability",
+  "ExtraInfo": "consequatur",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 273,
-  "CreatedDate": "2014-02-19T12:57:42.6513343+01:00",
-  "UpdatedDate": "2001-05-24T12:57:42.6513343+02:00",
+  "MimeType": "sit",
+  "OriginalSize": 881,
+  "CreatedDate": "2012-12-05T04:22:35.1897687+01:00",
+  "UpdatedDate": "2013-10-19T04:22:35.1897687+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "esse",
+  "ConceptualType": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 228
     }
   }
 }

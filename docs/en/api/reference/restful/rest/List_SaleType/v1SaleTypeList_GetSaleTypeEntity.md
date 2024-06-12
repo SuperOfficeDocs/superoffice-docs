@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 976,
-  "Name": "Metz-Bernhard",
-  "Tooltip": "est",
-  "Rank": 720,
+  "SaleTypeId": 248,
+  "Name": "Donnelly Group",
+  "Tooltip": "earum",
+  "Rank": 899,
   "DurationUnit": "Century",
-  "SaleDuration": 703,
-  "SaleTypeCatId": 721,
+  "SaleDuration": 677,
+  "SaleTypeCatId": 69,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 955,
-  "QuoteLinesTemplate": 216,
-  "ConfirmationLinesTemplate": 557,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 945,
+  "QuoteLinesTemplate": 368,
+  "ConfirmationLinesTemplate": 290,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 521,
-  "MinEarningPercent": 340,
-  "GroupQuoteLinesBy": 604,
-  "SortGroupLinesBy": 583,
+  "MaxDiscountPercent": 850,
+  "MinEarningPercent": 225,
+  "GroupQuoteLinesBy": 943,
+  "SortGroupLinesBy": 179,
   "Stages": [
     {
-      "Id": 343,
-      "Name": "Rowe-Stark",
-      "ToolTip": "Aperiam soluta quia sint.",
+      "Id": 488,
+      "Name": "Walter, Nader and Schulist",
+      "ToolTip": "Quo aut in debitis.",
       "Deleted": true,
-      "Rank": 260,
-      "Type": "tempora",
-      "ColorBlock": 653,
-      "IconHint": "porro",
-      "Selected": false,
-      "LastChanged": "2022-04-03T12:57:43.7457393+02:00",
+      "Rank": 385,
+      "Type": "maiores",
+      "ColorBlock": 400,
+      "IconHint": "est",
+      "Selected": true,
+      "LastChanged": "2012-12-06T04:22:36.1903389+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "quam",
-      "Hidden": false,
-      "FullName": "Maximilian Vandervort",
+      "ExtraInfo": "quasi",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Dr. Sunny Gloria Stark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldLength": 737
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

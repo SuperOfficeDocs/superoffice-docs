@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 849,
-    "Name": "Pfeffer, Mertz and Thiel",
-    "ConsentText": "deleniti",
-    "FormText": "illo",
-    "Key": "ex",
-    "Tooltip": "voluptates",
-    "Active": 926,
-    "UpdatedDate": "2020-07-01T12:57:43.3552036+02:00",
+    "ConsentPurposeId": 112,
+    "Name": "Weber Group",
+    "ConsentText": "cupiditate",
+    "FormText": "cumque",
+    "Key": "autem",
+    "Tooltip": "iste",
+    "Active": 895,
+    "UpdatedDate": "2010-11-20T04:22:35.8465939+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 933,
-    "PrivacyStatementDesc": "occaecati",
+    "Deleted": true,
+    "Rank": 754,
+    "PrivacyStatementDesc": "suscipit",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 167
       }
     }
   }

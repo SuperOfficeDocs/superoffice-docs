@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 145
+  "ErpFieldId": 839
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 289,
-  "DefaultValue": "iusto",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "at",
+  "ErpFieldId": 176,
+  "DefaultValue": "dicta",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "ut",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "quia",
+  "ErpFieldKey": "voluptatem",
   "FieldType": "Checkbox",
-  "ListName": "Kessler LLC",
+  "ListName": "Feest, Williamson and Kiehn",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   }
 }

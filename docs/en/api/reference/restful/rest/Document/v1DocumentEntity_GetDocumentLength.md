@@ -29,7 +29,7 @@ Get length of the document content in bytes.
 | versionId | string |  Version ID if applicable; a blank value implies "latest" version and is always acceptable. |
 
 ```http
-GET /api/v1/Document/{documentId}/Length?versionId=omnis
+GET /api/v1/Document/{documentId}/Length?versionId=dolorem
 ```
 
 
@@ -64,7 +64,7 @@ OK
 GET /api/v1/Document/{documentId}/Length
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

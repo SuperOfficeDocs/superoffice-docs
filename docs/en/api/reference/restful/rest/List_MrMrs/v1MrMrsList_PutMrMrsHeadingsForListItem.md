@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Wuckert Inc and Sons",
-    "ToolTip": "Porro aut quidem harum.",
-    "Deleted": false,
-    "Rank": 218,
-    "Type": "optio",
-    "ColorBlock": 253,
-    "IconHint": "velit",
+    "Id": 801,
+    "Name": "Wuckert, Luettgen and Mayer",
+    "ToolTip": "Et et quia cumque voluptatum.",
+    "Deleted": true,
+    "Rank": 691,
+    "Type": "modi",
+    "ColorBlock": 879,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2018-01-27T12:57:43.5114182+01:00",
+    "LastChanged": "2000-03-26T04:22:35.9872165+02:00",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Walter, Schoen and Hermann",
-        "ToolTip": "Sed perferendis enim aperiam ut magni.",
+        "Id": 469,
+        "Name": "Thompson Inc and Sons",
+        "ToolTip": "Est aliquid assumenda.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "sed",
-        "ColorBlock": 819,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1999-03-24T12:57:43.5114182+01:00",
+        "Rank": 372,
+        "Type": "aut",
+        "ColorBlock": 151,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2015-03-12T04:22:35.9872165+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "sunt",
+        "ExtraInfo": "inventore",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Alvah Huels"
+        "FullName": "Mr. Brando Frederic O'Keefe"
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "cumque",
+    "ExtraInfo": "qui",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Euna Ankunding"
+    "FullName": "Iva Tillman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Schuppe Inc and Sons",
-    "ToolTip": "Ducimus possimus tenetur illo.",
+    "Id": 767,
+    "Name": "Pacocha LLC",
+    "ToolTip": "Delectus earum praesentium qui voluptatem.",
     "Deleted": false,
-    "Rank": 274,
-    "Type": "rem",
-    "ColorBlock": 972,
-    "IconHint": "pariatur",
-    "Selected": false,
-    "LastChanged": "2023-05-16T12:57:43.5114182+02:00",
+    "Rank": 860,
+    "Type": "voluptate",
+    "ColorBlock": 918,
+    "IconHint": "culpa",
+    "Selected": true,
+    "LastChanged": "2016-03-23T04:22:35.9872165+01:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Russel, Berge and Mueller",
-        "ToolTip": "Itaque aut ut et ducimus modi.",
-        "Deleted": false,
-        "Rank": 880,
-        "Type": "perspiciatis",
-        "ColorBlock": 609,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2000-06-14T12:57:43.5114182+02:00",
+        "Id": 482,
+        "Name": "Trantow Group",
+        "ToolTip": "Dolorum sit similique est necessitatibus porro corrupti culpa.",
+        "Deleted": true,
+        "Rank": 774,
+        "Type": "blanditiis",
+        "ColorBlock": 986,
+        "IconHint": "placeat",
+        "Selected": true,
+        "LastChanged": "2006-02-25T04:22:35.9872165+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "est",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Mr. Valentin Dangelo Hackett",
+        "FullName": "Prof. Alexandro Bryana Johnson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 838
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "qui",
+    "ExtraInfo": "dicta",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Tito Kutch",
+    "FullName": "Delphine Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 215
       }
     }
   }

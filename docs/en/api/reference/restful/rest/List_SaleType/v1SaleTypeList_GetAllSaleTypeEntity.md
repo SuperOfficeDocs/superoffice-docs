@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 186,
-    "Name": "White LLC",
-    "Tooltip": "est",
-    "Rank": 658,
+    "SaleTypeId": 178,
+    "Name": "Ebert, Vandervort and Torphy",
+    "Tooltip": "ut",
+    "Rank": 230,
     "DurationUnit": "Century",
-    "SaleDuration": 327,
-    "SaleTypeCatId": 99,
-    "Deleted": false,
-    "HasGuide": true,
+    "SaleDuration": 494,
+    "SaleTypeCatId": 984,
+    "Deleted": true,
+    "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 521,
-    "QuoteLinesTemplate": 123,
-    "ConfirmationLinesTemplate": 412,
+    "DefaultQuoteValidity": 755,
+    "QuoteLinesTemplate": 546,
+    "ConfirmationLinesTemplate": 482,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 200,
-    "MinEarningPercent": 82,
-    "GroupQuoteLinesBy": 11,
-    "SortGroupLinesBy": 784,
+    "MaxDiscountPercent": 558,
+    "MinEarningPercent": 959,
+    "GroupQuoteLinesBy": 857,
+    "SortGroupLinesBy": 829,
     "Stages": [
       {
-        "Id": 329,
-        "Name": "Pollich-Crooks",
-        "ToolTip": "Dolorem aut in minima.",
+        "Id": 76,
+        "Name": "O'Reilly Inc and Sons",
+        "ToolTip": "Iste praesentium ullam voluptates provident tenetur dolores.",
         "Deleted": false,
-        "Rank": 931,
-        "Type": "repellat",
-        "ColorBlock": 708,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2023-01-11T12:57:43.730118+01:00",
+        "Rank": 662,
+        "Type": "non",
+        "ColorBlock": 220,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2021-06-14T04:22:36.1747132+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "velit",
+        "ExtraInfo": "aut",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Mrs. Verda Quitzon Jr.",
+        "FullName": "Ricardo Yundt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldType": "System.String",
+            "FieldLength": 132
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 768
+        "FieldType": "System.Int32",
+        "FieldLength": 540
       }
     }
   }

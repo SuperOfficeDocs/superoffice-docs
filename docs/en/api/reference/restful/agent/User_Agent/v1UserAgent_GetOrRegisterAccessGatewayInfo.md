@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "voluptatem"
+  "RedirectUri": "voluptas"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "labore",
-  "RedirectUri": "voluptatem",
+  "ClientId": "maiores",
+  "RedirectUri": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

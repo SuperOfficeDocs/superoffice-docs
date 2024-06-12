@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 831,
-  "Name": "Walter-Koelpin",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 706,
-  "UdListDefinitionId": 694
+  "HeadingId": 459,
+  "Name": "Keeling Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 878,
+  "UdListDefinitionId": 447
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 470,
-  "Name": "Abbott, Shields and Murazik",
-  "Tooltip": "et",
+  "HeadingId": 432,
+  "Name": "Pacocha-Rempel",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 567,
-  "UdListDefinitionId": 653,
+  "Rank": 801,
+  "UdListDefinitionId": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

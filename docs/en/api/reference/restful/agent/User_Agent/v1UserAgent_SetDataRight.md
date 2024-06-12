@@ -76,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 387,
-  "TableName": "Bogan-Dicki",
+  "RoleId": 660,
+  "TableName": "Boehm Group",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "error"
+  "DataRightValue": "aut"
 }
 ```
 

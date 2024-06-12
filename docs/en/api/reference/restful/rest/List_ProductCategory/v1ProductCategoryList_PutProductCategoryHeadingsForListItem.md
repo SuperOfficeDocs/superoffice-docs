@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Gleason-Gorczany",
-    "ToolTip": "Dicta aut ab iusto.",
-    "Deleted": false,
-    "Rank": 511,
-    "Type": "eos",
-    "ColorBlock": 282,
-    "IconHint": "libero",
+    "Id": 574,
+    "Name": "O'Conner Inc and Sons",
+    "ToolTip": "Sint at corrupti aut aliquid.",
+    "Deleted": true,
+    "Rank": 205,
+    "Type": "doloremque",
+    "ColorBlock": 904,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "1997-04-19T12:57:43.5895249+02:00",
+    "LastChanged": "2020-05-31T04:22:36.0497173+02:00",
     "ChildItems": [
       {
-        "Id": 714,
-        "Name": "Keebler-Lesch",
-        "ToolTip": "Consequatur et porro harum eius sunt sit neque.",
+        "Id": 11,
+        "Name": "Reichel, Witting and Wunsch",
+        "ToolTip": "Non quasi.",
         "Deleted": true,
-        "Rank": 507,
-        "Type": "aut",
-        "ColorBlock": 461,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2022-01-12T12:57:43.5895249+01:00",
+        "Rank": 439,
+        "Type": "nisi",
+        "ColorBlock": 48,
+        "IconHint": "magnam",
+        "Selected": true,
+        "LastChanged": "1998-06-06T04:22:36.0497173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Tianna Arjun Cartwright MD"
+        "ExtraInfo": "illum",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Mr. Nella Millie Hermann MD"
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "ullam",
+    "ExtraInfo": "sunt",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Lance Luettgen"
+    "FullName": "Mrs. Nicholas Laney Howell PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 496,
-    "Name": "Simonis LLC",
-    "ToolTip": "Non molestiae magnam dolor sed in.",
+    "Id": 168,
+    "Name": "Botsford-Thiel",
+    "ToolTip": "Pariatur voluptas quisquam debitis aperiam.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "velit",
-    "ColorBlock": 594,
-    "IconHint": "quam",
+    "Rank": 937,
+    "Type": "ut",
+    "ColorBlock": 680,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2022-04-27T12:57:43.5895249+02:00",
+    "LastChanged": "2012-06-08T04:22:36.0497173+02:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Weissnat Inc and Sons",
-        "ToolTip": "Et et non.",
+        "Id": 92,
+        "Name": "O'Connell, Keeling and Langosh",
+        "ToolTip": "Omnis dolores.",
         "Deleted": false,
-        "Rank": 736,
-        "Type": "deserunt",
-        "ColorBlock": 15,
-        "IconHint": "odit",
+        "Rank": 981,
+        "Type": "in",
+        "ColorBlock": 852,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2006-06-10T12:57:43.5895249+02:00",
+        "LastChanged": "2013-06-15T04:22:36.0497173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Geovanni Crooks MD",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "labore",
+        "Hidden": true,
+        "FullName": "Ms. Angelita Schultz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 69
+            "FieldLength": 508
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Jay Ratke",
+    "ExtraInfo": "a",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Mr. Loren Blair Baumbach Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldType": "System.String",
+        "FieldLength": 786
       }
     }
   }

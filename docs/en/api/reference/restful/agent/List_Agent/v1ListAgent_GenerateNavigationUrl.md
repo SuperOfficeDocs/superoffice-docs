@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Champlin, Pollich and Gottlieb"
+  "WindowName": "Boehm-Cormier"
 }
 ```
 

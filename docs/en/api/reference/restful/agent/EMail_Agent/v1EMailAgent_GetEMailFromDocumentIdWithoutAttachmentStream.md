@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 490
+  "DocumentId": 851
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 209,
-      "ContactName": "Bosco Inc and Sons",
-      "PersonId": 146,
-      "PersonName": "Berge-Berge",
-      "AssociateId": 719,
-      "Address": "laborum",
-      "EmailId": 838,
+      "ContactId": 28,
+      "ContactName": "Jones, Purdy and Fritsch",
+      "PersonId": 549,
+      "PersonName": "Oberbrunner Group",
+      "AssociateId": 729,
+      "Address": "officia",
+      "EmailId": 725,
       "DuplicatePersonIds": [
-        130,
-        398
+        555,
+        63
       ],
-      "Name": "Altenwerth Inc and Sons",
+      "Name": "Wolff Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 487
+          "FieldType": "System.Int32",
+          "FieldLength": 400
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 743,
-      "ContactName": "Glover-Dicki",
-      "PersonId": 997,
-      "PersonName": "Hartmann, Auer and Brakus",
-      "AssociateId": 516,
-      "Address": "sed",
-      "EmailId": 139,
+      "ContactId": 199,
+      "ContactName": "Fahey LLC",
+      "PersonId": 74,
+      "PersonName": "Lesch-Daugherty",
+      "AssociateId": 49,
+      "Address": "quo",
+      "EmailId": 863,
       "DuplicatePersonIds": [
-        389,
-        433
+        831,
+        473
       ],
-      "Name": "Swaniawski-Murray",
+      "Name": "Nikolaus, O'Connell and Rippin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 875
+          "FieldLength": 574
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 397,
-      "ContactName": "Lakin, Collins and Rohan",
-      "PersonId": 41,
-      "PersonName": "Muller, Goodwin and Halvorson",
-      "AssociateId": 160,
-      "Address": "optio",
-      "EmailId": 502,
+      "ContactId": 606,
+      "ContactName": "Hahn LLC",
+      "PersonId": 633,
+      "PersonName": "Pagac-Hayes",
+      "AssociateId": 546,
+      "Address": "maiores",
+      "EmailId": 627,
       "DuplicatePersonIds": [
-        257,
-        883
+        581,
+        992
       ],
-      "Name": "Predovic Inc and Sons",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 534
-        }
-      }
-    }
-  ],
-  "Subject": "adipisci",
-  "HTMLBody": "reiciendis",
-  "From": null,
-  "Sent": "2021-02-04T12:57:33.8836618+01:00",
-  "Size": 255,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "temporibus",
-  "PlainBody": "totam",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 814,
-  "Attachments": [
-    {
-      "Description": "Pre-emptive maximized encryption",
-      "Filename": "amet",
-      "Size": 947,
-      "Type": "deleniti",
-      "Encoding": "ipsam",
-      "Id": "illo",
-      "Disposition": "libero",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Roob, Davis and Jewess",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 105
+        }
+      }
+    }
+  ],
+  "Subject": "et",
+  "HTMLBody": "quia",
+  "From": null,
+  "Sent": "2018-07-27T04:22:26.7022333+02:00",
+  "Size": 9,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "inventore",
+  "PlainBody": "ut",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 99,
+  "Attachments": [
+    {
+      "Description": "Multi-channelled uniform concept",
+      "Filename": "asperiores",
+      "Size": 29,
+      "Type": "perferendis",
+      "Encoding": "blanditiis",
+      "Id": "vero",
+      "Disposition": "sed",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 125
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Daniel Inc and Sons",
+      "Name": "Ferry-O'Keefe",
       "Values": [
-        "cumque",
-        "totam"
+        "porro",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 757
         }
       }
     },
     {
-      "Name": "Daniel Inc and Sons",
+      "Name": "Ferry-O'Keefe",
       "Values": [
-        "cumque",
-        "totam"
+        "porro",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 757
         }
       }
     }
   ],
-  "FolderName": "Prohaska-Erdman",
-  "EmailItemId": 615,
-  "AccountId": 351,
-  "ReceivedAt": "2015-12-03T12:57:33.8836618+01:00",
+  "FolderName": "Windler-Tremblay",
+  "EmailItemId": 322,
+  "AccountId": 403,
+  "ReceivedAt": "1998-01-14T04:22:26.7022333+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-08-20T12:57:33.8836618+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2020-05-25T04:22:26.7022333+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 972
+      "FieldLength": 968
     }
   }
 }

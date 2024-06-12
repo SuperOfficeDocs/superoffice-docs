@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 273,
-  "UniqueIdentifier": "tenetur",
-  "Name": "Brakus Inc and Sons",
-  "Description": "User-centric explicit neural-net",
-  "IncludeId": "nihil",
-  "HierarchyId": 266,
-  "Source": "occaecati",
-  "Registered": "2020-07-03T12:57:33.6180694+02:00",
-  "RegisteredAssociateId": 580,
-  "Updated": "2018-01-30T12:57:33.6180694+01:00",
-  "UpdatedAssociateId": 292
+  "EjscriptId": 666,
+  "UniqueIdentifier": "cumque",
+  "Name": "Donnelly, Hyatt and Schoen",
+  "Description": "Virtual dedicated paradigm",
+  "IncludeId": "ab",
+  "HierarchyId": 765,
+  "Source": "alias",
+  "Registered": "2016-09-27T04:22:26.3090583+02:00",
+  "RegisteredAssociateId": 148,
+  "Updated": "2022-01-08T04:22:26.3090583+01:00",
+  "UpdatedAssociateId": 11
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 593,
-  "UniqueIdentifier": "itaque",
-  "Name": "Stanton, Witting and Schuppe",
-  "Description": "Realigned encompassing policy",
-  "IncludeId": "sed",
-  "HierarchyId": 436,
-  "Source": "exercitationem",
-  "Registered": "2007-05-04T12:57:33.6180694+02:00",
-  "RegisteredAssociateId": 11,
-  "Updated": "2003-07-09T12:57:33.6180694+02:00",
-  "UpdatedAssociateId": 595,
+  "EjscriptId": 248,
+  "UniqueIdentifier": "repellendus",
+  "Name": "Thiel, Bode and Keeling",
+  "Description": "Enterprise-wide multimedia infrastructure",
+  "IncludeId": "dicta",
+  "HierarchyId": 901,
+  "Source": "ut",
+  "Registered": "2016-11-26T04:22:26.3090583+01:00",
+  "RegisteredAssociateId": 109,
+  "Updated": "2003-03-23T04:22:26.3090583+01:00",
+  "UpdatedAssociateId": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

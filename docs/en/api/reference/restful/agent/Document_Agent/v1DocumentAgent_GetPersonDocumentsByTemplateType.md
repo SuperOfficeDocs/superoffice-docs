@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 159,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2005-10-29T12:57:33.7117979+02:00",
-  "EndTime": "2023-10-20T12:57:33.7117979+02:00",
-  "Count": 783,
-  "DocumentTemplateId": 202
+  "PersonId": 990,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2018-08-05T04:22:26.5135324+02:00",
+  "EndTime": "2007-07-15T04:22:26.5135324+02:00",
+  "Count": 541,
+  "DocumentTemplateId": 757
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 963,
-    "Attention": "dolorum",
-    "Header": "nesciunt",
-    "Name": "Feest, Braun and Conroy",
-    "OurRef": "ullam",
-    "YourRef": "dolores",
-    "Description": "Progressive local Graphic Interface",
-    "DocumentTemplate": "occaecati",
+    "DocumentId": 497,
+    "Attention": "perspiciatis",
+    "Header": "tempore",
+    "Name": "Sauer Group",
+    "OurRef": "sit",
+    "YourRef": "qui",
+    "Description": "Networked clear-thinking model",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 351,
-    "PersonFullName": "Mrs. Ken Corkery",
-    "AssociateFullName": "Shanie Labadie",
-    "ContactId": 739,
-    "ContactName": "Ratke-Hirthe",
-    "ProjectId": 701,
-    "ProjectName": "Ratke Group",
-    "AssociateId": 657,
-    "Snum": 283,
-    "SaleId": 509,
-    "SaleName": "Botsford-Stanton",
+    "PersonId": 923,
+    "PersonFullName": "Mrs. Darron Wehner",
+    "AssociateFullName": "Clyde Adriana Schoen II",
+    "ContactId": 83,
+    "ContactName": "Feil Inc and Sons",
+    "ProjectId": 817,
+    "ProjectName": "Wiegand LLC",
+    "AssociateId": 192,
+    "Snum": 184,
+    "SaleId": 134,
+    "SaleName": "Monahan, Luettgen and Hoppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldType": "System.Int32",
+        "FieldLength": 944
       }
     }
   }

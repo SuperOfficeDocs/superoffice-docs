@@ -250,7 +250,7 @@ as well as before any ORDER BY, are applied.
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
 |contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
 |contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
-|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - Updated by flow: Updated by flow| x |
+|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - When updated by flow: When updated by flow| x |
 |contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
 |contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
 |contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
@@ -369,7 +369,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=streetAddress/addressId,contactAssociate/simultaneousEjUser,contactSupportPerson/hasInfoText,contactExtra/x_contact_date,LastDoByActivity
+GET /api/v1/archive/FreetextContact?$select=stop,contactAssociate/ejDisplayName,contactSupportAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

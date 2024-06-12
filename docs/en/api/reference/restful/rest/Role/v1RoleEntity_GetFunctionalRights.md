@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Kunze-Purdy",
-    "ToolTip": "Eveniet aspernatur molestias.",
-    "Deleted": true,
-    "Rank": 440,
-    "Type": "aspernatur",
-    "ColorBlock": 219,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2011-02-28T12:57:42.6669559+01:00",
+    "Id": 773,
+    "Name": "Nader-Thiel",
+    "ToolTip": "Qui dolorem possimus mollitia vel voluptatum.",
+    "Deleted": false,
+    "Rank": 146,
+    "Type": "expedita",
+    "ColorBlock": 466,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2019-09-30T04:22:35.2053915+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Dach-Gleichner",
-        "ToolTip": "Est et praesentium velit.",
-        "Deleted": true,
-        "Rank": 687,
-        "Type": "asperiores",
-        "ColorBlock": 662,
-        "IconHint": "ut",
+        "Id": 866,
+        "Name": "Harvey Inc and Sons",
+        "ToolTip": "Assumenda modi ex et consequatur voluptas.",
+        "Deleted": false,
+        "Rank": 56,
+        "Type": "quas",
+        "ColorBlock": 273,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "1998-01-08T12:57:42.6669559+01:00",
+        "LastChanged": "1997-02-24T04:22:35.2053915+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Karen Jast",
+        "ExtraInfo": "velit",
+        "StyleHint": "dolore",
+        "Hidden": false,
+        "FullName": "Martina Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 107
+            "FieldType": "System.Int32",
+            "FieldLength": 615
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "alias",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Cassandra Lesch",
+    "FullName": "Maverick Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldType": "System.String",
+        "FieldLength": 268
       }
     }
   }

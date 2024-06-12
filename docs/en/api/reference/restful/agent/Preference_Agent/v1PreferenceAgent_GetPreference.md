@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 147
+  "Id": 741
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "in",
+  "RawValue": "alias",
   "Specification": null,
-  "DisplayValue": "ea",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "aspernatur",
+  "DisplayTooltip": "beatae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 410,
-  "PrefDescId": 461,
-  "TableName": "Hackett LLC",
-  "UserPreferenceId": 902,
+  "TargetId": 371,
+  "PrefDescId": 184,
+  "TableName": "Yundt-Lindgren",
+  "UserPreferenceId": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 750
     }
   }
 }

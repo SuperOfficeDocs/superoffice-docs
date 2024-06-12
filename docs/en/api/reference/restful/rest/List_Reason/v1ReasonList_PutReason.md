@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Powlowski, Kuhic and Becker",
-  "Tooltip": "enim",
+  "Id": 40,
+  "Name": "Adams Inc and Sons",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 318,
-  "Rank": 262
+  "UdListDefinitionId": 271,
+  "Rank": 275
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Hudson Inc and Sons",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "UdListDefinitionId": 255,
-  "Rank": 684,
+  "Id": 582,
+  "Name": "Leuschke Group",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "UdListDefinitionId": 736,
+  "Rank": 568,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

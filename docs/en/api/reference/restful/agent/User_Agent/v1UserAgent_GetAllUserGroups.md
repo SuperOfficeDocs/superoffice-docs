@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "possimus",
-    "Tooltip": "omnis",
-    "Id": 847,
-    "Rank": 752,
-    "Deleted": true,
+    "Value": "sed",
+    "Tooltip": "hic",
+    "Id": 56,
+    "Rank": 10,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 536
       }
     }
   }

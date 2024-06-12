@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 318
+  "ProjectId": 393
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 982,
-  "BlobSize": 761,
-  "Description": "Innovative systematic conglomeration",
-  "ExtraInfo": "assumenda",
+  "BlobId": 543,
+  "BlobSize": 185,
+  "Description": "Reverse-engineered analyzing throughput",
+  "ExtraInfo": "nesciunt",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "ab",
-  "OriginalSize": 489,
-  "CreatedDate": "2019-06-02T12:57:33.2743944+02:00",
-  "UpdatedDate": "2007-04-09T12:57:33.2743944+02:00",
+  "MimeType": "doloremque",
+  "OriginalSize": 86,
+  "CreatedDate": "2016-07-23T04:22:26.0122232+02:00",
+  "UpdatedDate": "2010-12-12T04:22:26.0122232+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur",
+  "ConceptualType": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   }
 }

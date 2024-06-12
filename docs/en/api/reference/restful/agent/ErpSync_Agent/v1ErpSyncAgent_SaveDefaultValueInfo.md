@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 105,
-  "DefaultValue": "molestias",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "quas",
-  "PromptUser": true,
+  "ErpFieldId": 300,
+  "DefaultValue": "autem",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "beatae",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "omnis",
+  "ErpFieldKey": "enim",
   "FieldType": "Checkbox",
-  "ListName": "Botsford, Waelchi and Dickens",
+  "ListName": "Auer-Barton",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldType": "System.String",
+      "FieldLength": 322
     }
   }
 }

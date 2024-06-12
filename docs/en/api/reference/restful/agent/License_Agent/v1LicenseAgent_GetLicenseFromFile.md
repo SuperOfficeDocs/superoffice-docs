@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "tempora"
+  "FileContent": "reprehenderit"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
-  "CanBeActivated": false,
+  "Reason": "strategize B2C relationships",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 765,
-      "NumberOfLicensesFree": 80,
-      "NumberOfLicensesAdded": 785,
-      "NumberOfLicensesNewTotal": 587,
-      "NumberOfLicensesNewFree": 194,
-      "NumberOfLicensesTotal": 79
+      "NumberOfLicensesInUse": 932,
+      "NumberOfLicensesFree": 106,
+      "NumberOfLicensesAdded": 710,
+      "NumberOfLicensesNewTotal": 20,
+      "NumberOfLicensesNewFree": 302,
+      "NumberOfLicensesTotal": 634
     }
   ],
-  "AccumulatedNextCheckDate": "2014-11-12T12:57:34.0867473+01:00"
+  "AccumulatedNextCheckDate": "2011-12-21T04:22:26.8911471+01:00"
 }
 ```

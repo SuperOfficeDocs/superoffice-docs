@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 120,
-    "ParentId": 348,
-    "Name": "Erdman, Bauch and Hartmann",
-    "Fullname": "est",
-    "CategoryMaster": 13,
+    "TicketCategoryId": 262,
+    "ParentId": 795,
+    "Name": "O'Connell, Pfannerstill and Mitchell",
+    "Fullname": "expedita",
+    "CategoryMaster": 459,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kohler LLC",
+    "ExternalName": "Littel, McGlynn and Gutkowski",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 81,
-    "ReplyTemplate": 64,
-    "NotificationEmail": "monserrate.wintheiser@stiedemann.uk",
+    "AssignmentLag": 205,
+    "ReplyTemplate": 626,
+    "NotificationEmail": "angeline.witting@breitenbergrau.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 426,
+    "EffectiveReplyTemplateId": 760,
     "ExtraFields": {
-      "ExtraFields1": "dolorem",
-      "ExtraFields2": "asperiores"
+      "ExtraFields1": "eum",
+      "ExtraFields2": "ut"
     },
     "CustomFields": {
-      "CustomFields1": "qui",
-      "CustomFields2": "repellat"
+      "CustomFields1": "voluptas",
+      "CustomFields2": "tempore"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldLength": 389
       }
     }
   }

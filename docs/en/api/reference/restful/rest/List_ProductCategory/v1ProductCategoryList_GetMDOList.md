@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=suscipit
+GET /api/v1/List/ProductCategory/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Boehm, Dooley and Ebert",
-    "ToolTip": "Optio qui sit molestiae dolores ipsam sed.",
-    "Deleted": true,
-    "Rank": 617,
-    "Type": "aut",
+    "Id": 84,
+    "Name": "Lubowitz-Vandervort",
+    "ToolTip": "Eveniet officia.",
+    "Deleted": false,
+    "Rank": 739,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Hessel, D'Amore and Hessel",
-        "ToolTip": "Animi voluptatibus voluptatem repudiandae amet labore at.",
+        "Id": 342,
+        "Name": "Christiansen LLC",
+        "ToolTip": "Quo odit et.",
         "Deleted": false,
-        "Rank": 951,
-        "Type": "consequatur",
+        "Rank": 271,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 924,
-        "ExtraInfo": "nostrum",
-        "StyleHint": "dolores",
-        "FullName": "Verona Hills",
+        "IconHint": "temporibus",
+        "ColorBlock": 380,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "dicta",
+        "FullName": "Shirley Henri Satterfield IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 293
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 405,
-    "ExtraInfo": "et",
-    "StyleHint": "commodi",
-    "FullName": "Mrs. Shawn Annetta Parisian DVM",
+    "IconHint": "ut",
+    "ColorBlock": 340,
+    "ExtraInfo": "eos",
+    "StyleHint": "officia",
+    "FullName": "Lexie Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldType": "System.String",
+        "FieldLength": 250
       }
     }
   }

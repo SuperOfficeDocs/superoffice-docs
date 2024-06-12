@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Fritsch, Reynolds and Rosenbaum",
+      "Name": "Cassin, Hamill and Simonis",
       "State": false
     },
     {
-      "Name": "Fritsch, Reynolds and Rosenbaum",
+      "Name": "Cassin, Hamill and Simonis",
       "State": false
     }
   ]

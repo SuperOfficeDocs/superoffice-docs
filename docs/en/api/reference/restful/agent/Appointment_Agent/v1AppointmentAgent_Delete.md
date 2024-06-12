@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 943,
+  "AppointmentId": 679,
   "UpdateMode": "OnlyThis",
   "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,

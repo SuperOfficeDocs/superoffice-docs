@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Medhurst LLC",
-    "ToolTip": "Quae aut.",
+    "Id": 517,
+    "Name": "Batz, Treutel and Spencer",
+    "ToolTip": "Dolorum aliquam modi maiores est qui autem.",
     "Deleted": false,
-    "Rank": 284,
-    "Type": "sunt",
-    "ColorBlock": 2,
-    "IconHint": "sequi",
+    "Rank": 772,
+    "Type": "quia",
+    "ColorBlock": 482,
+    "IconHint": "odit",
     "Selected": true,
-    "LastChanged": "1999-10-11T12:57:43.7144965+02:00",
+    "LastChanged": "2017-07-01T04:22:36.1590905+02:00",
     "ChildItems": [
       {
-        "Id": 404,
-        "Name": "Funk-Brown",
-        "ToolTip": "Deserunt maiores.",
-        "Deleted": true,
-        "Rank": 778,
-        "Type": "enim",
-        "ColorBlock": 396,
-        "IconHint": "molestiae",
+        "Id": 665,
+        "Name": "Emard, Dare and Cruickshank",
+        "ToolTip": "Veritatis commodi nam quo dolorem est.",
+        "Deleted": false,
+        "Rank": 504,
+        "Type": "nesciunt",
+        "ColorBlock": 561,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2022-06-06T12:57:43.7144965+02:00",
+        "LastChanged": "2004-09-08T04:22:36.1590905+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "aut",
+        "ExtraInfo": "sunt",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "David Watsica",
+        "FullName": "Christop Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldLength": 632
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "qui",
+    "ExtraInfo": "sed",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Hannah Bechtelar",
+    "FullName": "Alexandra Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldLength": 791
       }
     }
   }

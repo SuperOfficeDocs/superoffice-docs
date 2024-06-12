@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=319
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=415
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 146,
-  "WorkflowStepId": 695,
-  "WorkflowId": 972,
-  "Rank": 838,
+  "WorkflowWaitForActionId": 575,
+  "WorkflowStepId": 348,
+  "WorkflowId": 401,
+  "Rank": 929,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Towne, Hilpert and Quigley",
-      "Description": "Stand-alone coherent interface",
-      "Rank": 841,
+      "Name": "Frami Inc and Sons",
+      "Description": "Exclusive next generation open architecture",
+      "Rank": 713,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Towne, Hilpert and Quigley",
-      "Description": "Stand-alone coherent interface",
-      "Rank": 841,
+      "Name": "Frami Inc and Sons",
+      "Description": "Exclusive next generation open architecture",
+      "Rank": 713,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 432
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

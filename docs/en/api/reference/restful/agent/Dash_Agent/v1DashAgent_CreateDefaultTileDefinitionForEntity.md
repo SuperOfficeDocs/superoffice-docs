@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Kuphal Inc and Sons"
+  "EntityName": "Armstrong-Reichel"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 124,
-  "Name": "Quigley-Schulist",
-  "Description": "Diverse mobile projection",
-  "DefaultHeight": 899,
-  "DefaultWidth": 496,
+  "DashboardTileDefinitionId": 250,
+  "Name": "Howell Group",
+  "Description": "Down-sized interactive budgetary management",
+  "DefaultHeight": 650,
+  "DefaultWidth": 698,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kuhn Group",
-  "SelectionId": 960,
+  "EntityName": "Deckow-Yundt",
+  "SelectionId": 95,
   "CurrencyMode": "Base",
-  "CurrencyCode": "esse",
+  "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "alias",
-  "SortBy": "tenetur",
-  "LayoutConfig": "libero",
-  "SecondarySelectionId": 364,
-  "MeasureByField": "id",
+  "MeasureField": "sed",
+  "SortBy": "neque",
+  "LayoutConfig": "cum",
+  "SecondarySelectionId": 786,
+  "MeasureByField": "quis",
   "Usage": "Dashboard",
-  "ProviderName": "Streich Group",
+  "ProviderName": "Koch, Koss and Swift",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 983
     }
   }
 }

@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 523,
-  "Name": "Bruen, Boyer and Conn",
-  "Tooltip": "ut",
-  "Rank": 20,
+  "SaleTypeId": 565,
+  "Name": "Hauck Group",
+  "Tooltip": "illum",
+  "Rank": 532,
   "DurationUnit": "Century",
-  "SaleDuration": 663,
-  "SaleTypeCatId": 584,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 109,
+  "SaleTypeCatId": 390,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 370,
-  "QuoteLinesTemplate": 512,
-  "ConfirmationLinesTemplate": 716,
+  "DefaultQuoteValidity": 354,
+  "QuoteLinesTemplate": 419,
+  "ConfirmationLinesTemplate": 745,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 380,
-  "MinEarningPercent": 288,
-  "GroupQuoteLinesBy": 135,
-  "SortGroupLinesBy": 992,
+  "MaxDiscountPercent": 443,
+  "MinEarningPercent": 579,
+  "GroupQuoteLinesBy": 36,
+  "SortGroupLinesBy": 956,
   "Stages": [
     {
-      "Id": 270,
-      "Name": "Torp-Muller",
-      "ToolTip": "Quam eius velit.",
-      "Deleted": true,
-      "Rank": 394,
-      "Type": "deleniti",
-      "ColorBlock": 598,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2010-06-01T12:57:43.7457393+02:00",
+      "Id": 403,
+      "Name": "Gutkowski, Mayert and Maggio",
+      "ToolTip": "Ut quasi cum odit quo.",
+      "Deleted": false,
+      "Rank": 861,
+      "Type": "eveniet",
+      "ColorBlock": 320,
+      "IconHint": "enim",
+      "Selected": true,
+      "LastChanged": "2013-02-08T04:22:36.1903389+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "nam",
-      "Hidden": false,
-      "FullName": "Miles Shanahan"
+      "ExtraInfo": "quod",
+      "StyleHint": "veritatis",
+      "Hidden": true,
+      "FullName": "Chanel Kling"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 564,
-  "Name": "Price, Larson and Koepp",
-  "Tooltip": "quibusdam",
-  "Rank": 354,
+  "SaleTypeId": 676,
+  "Name": "Wunsch-Bartell",
+  "Tooltip": "ut",
+  "Rank": 121,
   "DurationUnit": "Century",
-  "SaleDuration": 216,
-  "SaleTypeCatId": 398,
+  "SaleDuration": 775,
+  "SaleTypeCatId": 308,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 879,
-  "QuoteLinesTemplate": 691,
-  "ConfirmationLinesTemplate": 99,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 241,
-  "MinEarningPercent": 819,
-  "GroupQuoteLinesBy": 669,
-  "SortGroupLinesBy": 16,
+  "DefaultQuoteValidity": 729,
+  "QuoteLinesTemplate": 257,
+  "ConfirmationLinesTemplate": 193,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 196,
+  "MinEarningPercent": 709,
+  "GroupQuoteLinesBy": 452,
+  "SortGroupLinesBy": 480,
   "Stages": [
     {
-      "Id": 350,
-      "Name": "Champlin LLC",
-      "ToolTip": "Nesciunt laborum facilis a totam distinctio.",
-      "Deleted": true,
-      "Rank": 950,
-      "Type": "sunt",
-      "ColorBlock": 371,
-      "IconHint": "omnis",
+      "Id": 437,
+      "Name": "Christiansen, Goyette and Stiedemann",
+      "ToolTip": "Impedit voluptatem.",
+      "Deleted": false,
+      "Rank": 447,
+      "Type": "aut",
+      "ColorBlock": 991,
+      "IconHint": "doloribus",
       "Selected": false,
-      "LastChanged": "2018-04-25T12:57:43.7457393+02:00",
+      "LastChanged": "1999-06-01T04:22:36.1903389+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perspiciatis",
-      "StyleHint": "repudiandae",
+      "ExtraInfo": "libero",
+      "StyleHint": "saepe",
       "Hidden": false,
-      "FullName": "Christelle Rusty Lebsack MD",
+      "FullName": "Vilma Predovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 506
+          "FieldLength": 129
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 752
     }
   }
 }

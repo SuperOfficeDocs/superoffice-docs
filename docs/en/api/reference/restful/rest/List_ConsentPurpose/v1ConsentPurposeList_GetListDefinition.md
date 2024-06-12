@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 185,
-  "Name": "Reichert LLC",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 838,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 983,
+  "Name": "McGlynn-Kemmer",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 918,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "optio",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 434
     }
   },
   "_Links": {

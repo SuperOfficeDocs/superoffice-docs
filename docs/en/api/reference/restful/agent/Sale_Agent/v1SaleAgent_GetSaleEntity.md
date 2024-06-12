@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=532
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=187
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quam",
+  "SaleText": "officiis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-05-07T12:57:34.8521621+02:00",
-  "Amount": 5622.396,
-  "SaleId": 405,
-  "Earning": 7217.602,
-  "EarningPercent": 9176.351999999999,
-  "Heading": "sed",
-  "Number": "1140513",
-  "Probability": 938,
-  "CreatedDate": "2024-04-20T12:57:34.8521621+02:00",
-  "UpdatedDate": "2003-09-24T12:57:34.8521621+02:00",
+  "Saledate": "2009-09-05T04:22:27.5336493+02:00",
+  "Amount": 20323.989999999998,
+  "SaleId": 436,
+  "Earning": 9267.238,
+  "EarningPercent": 29384.384,
+  "Heading": "voluptas",
+  "Number": "585585",
+  "Probability": 141,
+  "CreatedDate": "2023-10-10T04:22:27.5336493+02:00",
+  "UpdatedDate": "2002-09-03T04:22:27.5336493+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 559,
+  "ActiveLinks": 998,
   "Links": [
     {
-      "EntityName": "Feeney Inc and Sons",
-      "Id": 16,
-      "Description": "Distributed responsive flexibility",
-      "ExtraInfo": "ipsa",
-      "LinkId": 284,
+      "EntityName": "Nitzsche LLC",
+      "Id": 155,
+      "Description": "Expanded composite capacity",
+      "ExtraInfo": "voluptatibus",
+      "LinkId": 65,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 919
         }
       }
     }
   ],
-  "NextDueDate": "2002-08-09T12:57:34.8521621+02:00",
-  "Postit": "qui",
+  "NextDueDate": "2016-07-24T04:22:27.5336493+02:00",
+  "Postit": "inventore",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-06-03T12:57:34.8521621+02:00",
+  "ReopenDate": "2002-03-26T04:22:27.5336493+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Cassin-Grant",
-      "Comment": "alias",
-      "StakeholderRoleId": 925,
-      "CountryId": 634,
-      "PersonId": 379,
-      "EmailDescription": "dulce_emmerich@flatley.name",
-      "EmailId": 295,
-      "EmailAddress": "janis.herman@greenholtkiehn.us",
-      "PhoneId": 364,
-      "ContactName": "Lebsack-Willms",
-      "ContactId": 688,
-      "SaleId": 665,
-      "Mrmrs": "expedita",
-      "Firstname": "Cristal",
-      "MiddleName": "Anderson-Walter",
-      "Lastname": "Towne",
-      "SaleStakeholderId": 324,
-      "Rank": 634,
-      "Phone": "(707)368-4275 x14910",
+      "StakeholderRoleName": "Mante Inc and Sons",
+      "Comment": "adipisci",
+      "StakeholderRoleId": 954,
+      "CountryId": 829,
+      "PersonId": 324,
+      "EmailDescription": "thurman_bosco@johnson.name",
+      "EmailId": 228,
+      "EmailAddress": "audreanne@bode.com",
+      "PhoneId": 32,
+      "ContactName": "Tromp-Willms",
+      "ContactId": 814,
+      "SaleId": 768,
+      "Mrmrs": "tempore",
+      "Firstname": "Lee",
+      "MiddleName": "Eichmann-Hessel",
+      "Lastname": "Rohan",
+      "SaleStakeholderId": 627,
+      "Rank": 893,
+      "Phone": "186.655.0262 x016",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 518
         }
       }
     }
   ],
-  "ActiveErpLinks": 982,
+  "ActiveErpLinks": 669,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ericka Pacocha",
-    "SuperOffice:2": "2104777632"
+    "SuperOffice:1": "Augustus McLaughlin Sr.",
+    "SuperOffice:2": "59298586"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "magni"
+    "CustomFields1": "ea",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2017-06-16T12:57:34.8521621+02:00",
-  "PublishTo": "2009-03-08T12:57:34.8521621+01:00",
-  "PublishFrom": "2010-08-04T12:57:34.8521621+02:00",
+  "PublishEventDate": "2021-01-22T04:22:27.5336493+01:00",
+  "PublishTo": "2007-08-13T04:22:27.5336493+02:00",
+  "PublishFrom": "1998-11-09T04:22:27.5336493+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 799,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 961
         }
       }
     },
     {
-      "VisibleId": 799,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 961
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldType": "System.Int32",
+      "FieldLength": 61
     }
   }
 }

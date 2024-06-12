@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 763,
-  "Name": "Mills, Murphy and Ledner",
-  "Tooltip": "eius",
+  "Id": 545,
+  "Name": "Quitzon-Zemlak",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 394,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 638,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quasi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 206
     }
   },
   "_Links": {

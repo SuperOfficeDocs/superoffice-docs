@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Huels LLC",
-  "Tooltip": "delectus",
-  "Deleted": true,
-  "UdListDefinitionId": 382,
-  "Rank": 286,
+  "Id": 943,
+  "Name": "Hoeger-Bartoletti",
+  "Tooltip": "commodi",
+  "Deleted": false,
+  "UdListDefinitionId": 627,
+  "Rank": 839,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

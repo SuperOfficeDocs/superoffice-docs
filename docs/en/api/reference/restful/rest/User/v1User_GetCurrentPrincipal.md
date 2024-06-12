@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "nisi",
-  "AssociateId": 753,
+  "Associate": "necessitatibus",
+  "AssociateId": 535,
   "IsPerson": false,
-  "PersonId": 238,
-  "CountryId": 1002,
-  "HomeCountryId": 317,
-  "ContactId": 112,
-  "GroupId": 596,
-  "BusinessId": 517,
-  "CategoryId": 306,
-  "ContactOwner": 51,
-  "RoleId": 201,
-  "RoleName": "Walsh, Quitzon and Bradtke",
-  "RoleDescription": "Automated composite software",
+  "PersonId": 921,
+  "CountryId": 295,
+  "HomeCountryId": 545,
+  "ContactId": 895,
+  "GroupId": 310,
+  "BusinessId": 622,
+  "CategoryId": 373,
+  "ContactOwner": 50,
+  "RoleId": 976,
+  "RoleName": "Jast-Reichert",
+  "RoleDescription": "Monitored object-oriented structure",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 754,
-      "OwnerName": "Prosacco-Hodkiewicz",
-      "OwnerDescription": "Enterprise-wide object-oriented monitoring",
-      "ModuleId": 426,
-      "Name": "Parisian, Conroy and Kerluke",
-      "Description": "Business-focused systematic solution",
-      "Version": "eum",
+      "OwnerId": 837,
+      "OwnerName": "Gusikowski Group",
+      "OwnerDescription": "Profit-focused dedicated concept",
+      "ModuleId": 940,
+      "Name": "Reynolds-Senger",
+      "Description": "Decentralized optimal task-force",
+      "Version": "quaerat",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 849,
-      "ExtraInfo": "aliquam",
-      "SortOrder": 126,
-      "LicenseNumber": 33,
+      "ExtraFlags": 762,
+      "ExtraInfo": "sequi",
+      "SortOrder": 101,
+      "LicenseNumber": 587,
       "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2010-06-15T12:57:43.2614753+02:00",
+      "ExpiryDate": "2021-10-25T04:22:35.7522278+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 143
         }
       }
     }
   ],
-  "FullName": "Eldora Jason Windler PhD",
-  "EMailAddress": "enim",
+  "FullName": "Miss Kenton Braun",
+  "EMailAddress": "aspernatur",
   "FunctionRights": [
-    "voluptatibus",
-    "laboriosam"
+    "omnis",
+    "enim"
   ],
-  "EjUserId": 467,
-  "EjAccessLevel": 318,
+  "EjUserId": 67,
+  "EjAccessLevel": 899,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "tenetur",
-      "SearchName": "DuBuque-Stanton",
-      "DisplayName": "Koss Group",
-      "CredentialId": 502
+      "Type": "sit",
+      "SearchName": "Lebsack-Beahan",
+      "DisplayName": "Marvin Inc and Sons",
+      "CredentialId": 431
     },
     {
-      "Type": "tenetur",
-      "SearchName": "DuBuque-Stanton",
-      "DisplayName": "Koss Group",
-      "CredentialId": 502
+      "Type": "sit",
+      "SearchName": "Lebsack-Beahan",
+      "DisplayName": "Marvin Inc and Sons",
+      "CredentialId": 431
     }
   ],
   "SecondaryGroups": [
-    552,
-    520
+    979,
+    717
   ],
-  "DatabaseContextIdentifier": "non",
-  "UserName": "Fisher-Rath"
+  "DatabaseContextIdentifier": "sunt",
+  "UserName": "Reilly Inc and Sons"
 }
 ```

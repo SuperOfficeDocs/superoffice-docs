@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 781,
-  "ColumnId": 897,
-  "FieldDefault": "est",
-  "FieldHeight": 511,
-  "FieldLabel": "vitae",
-  "FieldLeft": 669,
-  "FieldTop": 585,
+  "UDefFieldId": 192,
+  "ColumnId": 147,
+  "FieldDefault": "a",
+  "FieldHeight": 161,
+  "FieldLabel": "aut",
+  "FieldLeft": 126,
+  "FieldTop": 90,
   "FieldType": "Checkbox",
-  "FieldWidth": 723,
-  "FormatMask": "odio",
+  "FieldWidth": 216,
+  "FormatMask": "rerum",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 586,
-  "LabelLeft": 366,
-  "LabelTop": 364,
-  "LabelWidth": 345,
-  "LastVersionId": 739,
-  "ListTableId": 271,
+  "LabelHeight": 684,
+  "LabelLeft": 296,
+  "LabelTop": 646,
+  "LabelWidth": 738,
+  "LastVersionId": 62,
+  "ListTableId": 556,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 907,
-  "ProgId": "saepe",
-  "IsReadOnly": false,
-  "ShortLabel": "veritatis",
-  "TabOrder": 599,
-  "TextLength": 462,
-  "Tooltip": "accusantium",
-  "UdefIdentity": 14,
-  "UDListDefinitionId": 924,
+  "Page1LineNo": 826,
+  "ProgId": "cumque",
+  "IsReadOnly": true,
+  "ShortLabel": "minima",
+  "TabOrder": 975,
+  "TextLength": 683,
+  "Tooltip": "corporis",
+  "UdefIdentity": 280,
+  "UDListDefinitionId": 386,
   "Justification": "Center",
-  "Version": 135,
-  "TemplateVariableName": "Kessler, Kassulke and Hodkiewicz",
-  "HasBeenPublished": true,
-  "MdoListName": "Nikolaus, Sipes and Huel",
+  "Version": 705,
+  "TemplateVariableName": "Koelpin-Prosacco",
+  "HasBeenPublished": false,
+  "MdoListName": "Hintz-Stoltenberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 518
     }
   }
 }

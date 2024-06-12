@@ -97,147 +97,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 255,
-      "ContactName": "Williamson-Huel",
-      "PersonId": 216,
-      "PersonName": "Marks-Klein",
-      "AssociateId": 545,
-      "Address": "quae",
-      "EmailId": 953,
+      "ContactId": 550,
+      "ContactName": "Jerde Group",
+      "PersonId": 134,
+      "PersonName": "Johnson-Powlowski",
+      "AssociateId": 591,
+      "Address": "itaque",
+      "EmailId": 435,
       "DuplicatePersonIds": [
-        592,
-        326
+        940,
+        966
       ],
-      "Name": "Beer, Jacobson and White",
+      "Name": "Hartmann LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 108
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 103,
-      "ContactName": "Wolff-Senger",
-      "PersonId": 664,
-      "PersonName": "Shields-Rogahn",
-      "AssociateId": 585,
-      "Address": "dolorum",
-      "EmailId": 84,
+      "ContactId": 602,
+      "ContactName": "O'Hara-Reinger",
+      "PersonId": 511,
+      "PersonName": "Goodwin, Stracke and Williamson",
+      "AssociateId": 164,
+      "Address": "sed",
+      "EmailId": 672,
       "DuplicatePersonIds": [
-        952,
-        703
+        546,
+        765
       ],
-      "Name": "Kuhn, Monahan and Deckow",
+      "Name": "Boyer LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 9
+          "FieldLength": 154
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 340,
-      "ContactName": "Hammes, Mohr and Yundt",
-      "PersonId": 845,
-      "PersonName": "Legros LLC",
-      "AssociateId": 929,
-      "Address": "ullam",
-      "EmailId": 508,
+      "ContactId": 226,
+      "ContactName": "Greenfelder LLC",
+      "PersonId": 461,
+      "PersonName": "Stokes, Dooley and Nikolaus",
+      "AssociateId": 569,
+      "Address": "id",
+      "EmailId": 184,
       "DuplicatePersonIds": [
-        488,
-        764
+        869,
+        301
       ],
-      "Name": "Sipes-West",
+      "Name": "Strosin-Crona",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 820
         }
       }
     }
   ],
-  "Subject": "dignissimos",
-  "HTMLBody": "voluptate",
+  "Subject": "ratione",
+  "HTMLBody": "veritatis",
   "From": null,
-  "Sent": "2003-09-15T12:57:33.899292+02:00",
-  "Size": 648,
+  "Sent": "2020-06-12T04:22:26.7178597+02:00",
+  "Size": 87,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "doloribus",
-  "IsSent": true,
+  "MessageID": "voluptas",
+  "PlainBody": "nihil",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 391,
+  "ServerId": 205,
   "Attachments": [
     {
-      "Description": "Multi-channelled user-facing orchestration",
-      "Filename": "veniam",
-      "Size": 916,
-      "Type": "facere",
-      "Encoding": "deleniti",
-      "Id": "corrupti",
-      "Disposition": "sed",
+      "Description": "Inverse executive function",
+      "Filename": "nulla",
+      "Size": 820,
+      "Type": "enim",
+      "Encoding": "modi",
+      "Id": "est",
+      "Disposition": "voluptas",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldType": "System.String",
+          "FieldLength": 482
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Klein LLC",
+      "Name": "Smitham-Bahringer",
       "Values": [
-        "a",
-        "quam"
+        "asperiores",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     },
     {
-      "Name": "Klein LLC",
+      "Name": "Smitham-Bahringer",
       "Values": [
-        "a",
-        "quam"
+        "asperiores",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     }
   ],
-  "FolderName": "Steuber-Romaguera",
-  "EmailItemId": 852,
-  "AccountId": 415,
-  "ReceivedAt": "2004-11-30T12:57:33.899292+01:00",
+  "FolderName": "Hoppe LLC",
+  "EmailItemId": 791,
+  "AccountId": 19,
+  "ReceivedAt": "1998-02-24T04:22:26.7178597+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-06-26T12:57:33.899292+02:00",
+  "RepliedAt": "2001-08-06T04:22:26.7178597+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -245,8 +245,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 292
     }
   }
 }

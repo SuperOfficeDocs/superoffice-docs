@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    186,
-    26
+    867,
+    88
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 499,
-    "UniqueId": "maxime",
-    "Name": "Baumbach-Kling",
-    "Description": "Customizable motivating hierarchy",
-    "AssociateId": 455,
-    "Columns": 720,
+    "DashboardId": 410,
+    "UniqueId": "sequi",
+    "Name": "Schaefer, Stehr and Bartoletti",
+    "Description": "Seamless leading edge firmware",
+    "AssociateId": 481,
+    "Columns": 2,
     "Theme": null,
-    "VisibleForAll": 211,
+    "VisibleForAll": 980,
     "VisibleForAssociates": [
-      809,
-      329
+      540,
+      386
     ],
     "VisibleForGroups": [
-      442,
-      100
+      500,
+      262
     ],
-    "PinForAll": 513,
+    "PinForAll": 197,
     "PinForAssociates": [
-      275,
-      560
+      289,
+      969
     ],
     "PinForGroups": [
-      514,
-      560
+      617,
+      436
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   }

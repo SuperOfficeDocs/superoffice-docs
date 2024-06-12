@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 877,
+  "CRMScriptId": 871,
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quod",
-    "InputValues2": "laborum"
+    "InputValues1": "temporibus",
+    "InputValues2": "corrupti"
   },
-  "BlockExecution": false,
-  "NavigateTo": "qui",
-  "Message": "cumque",
-  "ShowDialog": "et",
+  "BlockExecution": true,
+  "NavigateTo": "animi",
+  "Message": "numquam",
+  "ShowDialog": "neque",
   "OutputValues": {
-    "OutputValues1": "quas",
-    "OutputValues2": "maiores"
+    "OutputValues1": "eaque",
+    "OutputValues2": "aut"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "velit"
+    "StateValues1": "magnam",
+    "StateValues2": "sed"
   },
-  "Exception": "voluptate",
+  "Exception": "atque",
   "ParserValues": {
-    "ParserValues1": "neque",
-    "ParserValues2": "quisquam"
+    "ParserValues1": "at",
+    "ParserValues2": "aperiam"
   },
   "CgiVariables": {
-    "CgiVariables1": "enim",
-    "CgiVariables2": "ullam"
+    "CgiVariables1": "quo",
+    "CgiVariables2": "quasi"
   },
-  "CgiContent": "consequatur",
+  "CgiContent": "voluptatem",
   "Headers": {
-    "Headers1": "nemo",
-    "Headers2": "perferendis"
+    "Headers1": "et",
+    "Headers2": "pariatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 505
     }
   }
 }

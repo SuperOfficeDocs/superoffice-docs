@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 987,
+  "UdListDefinitionId": 905,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Grimes Group",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "UdListDefinitionId": 199,
-  "Rank": 525,
+  "Id": 802,
+  "Name": "Wiegand, Mann and Sauer",
+  "Tooltip": "harum",
+  "Deleted": false,
+  "UdListDefinitionId": 938,
+  "Rank": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 397,
-    "Name": "Corkery-Feil",
-    "Tooltip": "provident",
+    "HeadingId": 49,
+    "Name": "Christiansen, Collier and Corwin",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 311,
-    "UdListDefinitionId": 444,
+    "Rank": 140,
+    "UdListDefinitionId": 337,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldLength": 61
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Hand Group",
-  "Tooltip": "ea",
+  "Id": 906,
+  "Name": "Trantow Group",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 397,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 723,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true,
+  "ListType": "excepturi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 243
     }
   }
 }

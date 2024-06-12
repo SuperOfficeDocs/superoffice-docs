@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Little-Padberg",
-    "Tooltip": "voluptas",
+    "Id": 79,
+    "Name": "Rolfson, Franecki and DuBuque",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 580,
-    "Rank": 18,
+    "UdListDefinitionId": 836,
+    "Rank": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldLength": 196
       }
     }
   }

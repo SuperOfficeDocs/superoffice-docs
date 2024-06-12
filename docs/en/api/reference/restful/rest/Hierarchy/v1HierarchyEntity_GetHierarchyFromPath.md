@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 499,
+  "HierarchyId": 146,
   "Domain": "Dashboards",
-  "Name": "Abshire Inc and Sons",
-  "Fullname": "qui",
-  "ParentId": 358,
+  "Name": "Collier LLC",
+  "Fullname": "velit",
+  "ParentId": 607,
   "Children": [
     {
-      "HierarchyId": 497,
+      "HierarchyId": 665,
       "Domain": "Dashboards",
-      "Name": "Adams LLC",
-      "Fullname": "cupiditate",
-      "ParentId": 654,
+      "Name": "Schoen-Borer",
+      "Fullname": "vel",
+      "ParentId": 943,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-02-18T12:57:42.4638774+01:00",
-      "RegisteredAssociateId": 731,
-      "Updated": "2017-10-31T12:57:42.4638774+01:00",
-      "UpdatedAssociateId": 667,
+      "Registered": "2008-11-30T04:22:35.0167083+01:00",
+      "RegisteredAssociateId": 339,
+      "Updated": "2007-12-15T04:22:35.0167083+01:00",
+      "UpdatedAssociateId": 13,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldLength": 508
         }
       }
     }
   ],
-  "Registered": "2007-10-21T12:57:42.4638774+02:00",
-  "RegisteredAssociateId": 174,
-  "Updated": "2016-09-17T12:57:42.4638774+02:00",
-  "UpdatedAssociateId": 198,
+  "Registered": "2020-09-03T04:22:35.0167083+02:00",
+  "RegisteredAssociateId": 930,
+  "Updated": "2009-11-03T04:22:35.0167083+01:00",
+  "UpdatedAssociateId": 206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 674
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 845,
-    "Name": "Strosin Inc and Sons",
-    "ToolTip": "Ipsa quasi molestiae assumenda.",
+    "Id": 8,
+    "Name": "Spencer-Kuvalis",
+    "ToolTip": "Sapiente ex velit.",
     "Deleted": false,
-    "Rank": 706,
-    "Type": "aliquam",
-    "ColorBlock": 280,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2006-03-05T12:57:43.4333137+01:00",
+    "Rank": 346,
+    "Type": "veritatis",
+    "ColorBlock": 463,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2023-01-29T04:22:35.9247166+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Schuster-Hartmann",
-        "ToolTip": "Quam consequuntur maiores debitis.",
+        "Id": 365,
+        "Name": "Price, Spinka and Hackett",
+        "ToolTip": "Amet possimus fuga nihil ratione rerum.",
         "Deleted": false,
-        "Rank": 77,
-        "Type": "in",
-        "ColorBlock": 163,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "1998-03-26T12:57:43.4333137+01:00",
+        "Rank": 306,
+        "Type": "similique",
+        "ColorBlock": 750,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2020-12-17T04:22:35.9247166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "saepe",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Mr. Blair Ruecker MD",
+        "FullName": "Tyrese Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 359
+            "FieldType": "System.String",
+            "FieldLength": 493
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "libero",
+    "ExtraInfo": "iste",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Duane Leannon",
+    "FullName": "Jonatan Christiansen Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldLength": 131
       }
     }
   }

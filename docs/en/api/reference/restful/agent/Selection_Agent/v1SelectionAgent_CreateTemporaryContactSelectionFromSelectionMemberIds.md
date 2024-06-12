@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 184,
+  "SelectionId": 557,
   "SelectionMemberIds": [
-    35,
-    832
+    70,
+    769
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative dynamic capability",
-  "Postit": "laborum",
+  "Description": "Right-sized stable focus group",
+  "Postit": "voluptas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 561,
-  "IncludePerson": 559,
+  "GroupIdx": 850,
+  "IncludePerson": 776,
   "MemberCount": 99.99,
-  "Name": "Legros LLC",
-  "PostitTextId": 54,
-  "CreatedDate": "2008-03-14T12:57:34.9302081+01:00",
-  "SelectionId": 796,
-  "SoundEx": "neque",
-  "Source": 826,
-  "TextId": 34,
-  "UpdatedDate": "2009-09-01T12:57:34.9302081+02:00",
-  "UpdatedCount": 520,
-  "Visibility": 842,
+  "Name": "Beahan Inc and Sons",
+  "PostitTextId": 868,
+  "CreatedDate": "2014-04-17T04:22:27.6273988+02:00",
+  "SelectionId": 440,
+  "SoundEx": "et",
+  "Source": 890,
+  "TextId": 749,
+  "UpdatedDate": "2017-08-03T04:22:27.6273988+02:00",
+  "UpdatedCount": 127,
+  "Visibility": 893,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 647,
-  "TargetTableName": "Lockman, Zboncak and Bogan",
-  "Completed": true,
-  "LeftSelectionId": 139,
-  "RightSelectionId": 664,
+  "CompanyUnique": true,
+  "TargetTableNumber": 522,
+  "TargetTableName": "Brown LLC",
+  "Completed": false,
+  "LeftSelectionId": 311,
+  "RightSelectionId": 856,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beahan Group",
-  "ShadowProviderName": "Denesik-Terry",
-  "ChartKey": "quo",
-  "LastLoaded": "2002-11-15T12:57:34.9302081+01:00",
-  "LastLoadedBy": 489,
+  "MainProviderName": "Bogan LLC",
+  "ShadowProviderName": "Senger-Johnson",
+  "ChartKey": "quasi",
+  "LastLoaded": "2017-02-27T04:22:27.6273988+01:00",
+  "LastLoadedBy": 453,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-10-29T12:57:34.9302081+01:00",
-  "LastMembershipChangeBy": 675,
+  "LastMembershipChange": "2001-01-21T04:22:27.6273988+01:00",
+  "LastMembershipChangeBy": 234,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illo",
-  "MemberTabHeading": "rem",
-  "MailingsProviderName": "Lindgren-Kertzmann",
-  "DashboardTileDefinitionId": 706,
+  "MainHeading": "nobis",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Kessler, Schowalter and Torphy",
+  "DashboardTileDefinitionId": 930,
   "VisibleFor": [
     {
-      "VisibleId": 747,
+      "VisibleId": 880,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 27
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     },
     {
-      "VisibleId": 747,
+      "VisibleId": 880,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 27
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldLength": 558
     }
   }
 }

@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wolf LLC",
+  "ProviderName": "Rosenbaum-Hilpert",
   "Restrictions": [
     {
-      "Name": "Streich Inc and Sons",
-      "Operator": "sunt",
+      "Name": "Schiller, Hyatt and Bartoletti",
+      "Operator": "odit",
       "Values": [
-        "neque",
-        "ratione"
+        "laudantium",
+        "eos"
       ],
       "DisplayValues": [
-        "quod",
-        "sed"
+        "ullam",
+        "placeat"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 713,
+      "InterParenthesis": 371,
       "InterOperator": "And",
-      "UniqueHash": 403
+      "UniqueHash": 17
     }
   ],
-  "AssociateId": 49
+  "AssociateId": 874
 }
 ```
 

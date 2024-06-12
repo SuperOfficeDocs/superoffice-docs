@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,7 +79,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Reason": "",
+    "Reason": "enable back-end e-business",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 1000,
-        "NumberOfLicensesFree": 587,
-        "NumberOfLicensesAdded": 508,
-        "NumberOfLicensesNewTotal": 404,
-        "NumberOfLicensesNewFree": 515,
-        "NumberOfLicensesTotal": 174
+        "NumberOfLicensesInUse": 915,
+        "NumberOfLicensesFree": 527,
+        "NumberOfLicensesAdded": 366,
+        "NumberOfLicensesNewTotal": 254,
+        "NumberOfLicensesNewFree": 610,
+        "NumberOfLicensesTotal": 160
       }
     ],
-    "AccumulatedNextCheckDate": "2023-12-10T12:57:34.0867473+01:00"
+    "AccumulatedNextCheckDate": "2016-05-24T04:22:26.8911471+02:00"
   },
   {
-    "Reason": "",
+    "Reason": "enable back-end e-business",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 1000,
-        "NumberOfLicensesFree": 587,
-        "NumberOfLicensesAdded": 508,
-        "NumberOfLicensesNewTotal": 404,
-        "NumberOfLicensesNewFree": 515,
-        "NumberOfLicensesTotal": 174
+        "NumberOfLicensesInUse": 915,
+        "NumberOfLicensesFree": 527,
+        "NumberOfLicensesAdded": 366,
+        "NumberOfLicensesNewTotal": 254,
+        "NumberOfLicensesNewFree": 610,
+        "NumberOfLicensesTotal": 160
       }
     ],
-    "AccumulatedNextCheckDate": "2023-12-10T12:57:34.0867473+01:00"
+    "AccumulatedNextCheckDate": "2016-05-24T04:22:26.8911471+02:00"
   }
 ]
 ```

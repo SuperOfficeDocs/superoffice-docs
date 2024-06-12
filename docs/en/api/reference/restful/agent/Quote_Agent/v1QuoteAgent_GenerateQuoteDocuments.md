@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 939,
-  "EmailBodyTemplateId": 698,
+  "QuoteVersionId": 859,
+  "EmailBodyTemplateId": 220,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 669,
-  "IncludeAttachments": false,
-  "RawMailSubject": "recusandae"
+  "QuotedProductsTemplateId": 722,
+  "IncludeAttachments": true,
+  "RawMailSubject": "magnam"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 330,
-  "QuotedProductsId": 222,
+  "QuoteDocumentId": 203,
+  "QuotedProductsId": 777,
   "QuoteAttachmentIds": [
-    537,
-    435
+    13,
+    218
   ],
-  "MailBody": "optio",
-  "MailSubject": "aut",
-  "ToEmail": "tanya@miller.ca",
-  "ToFullName": "Mrs. Ethyl Willms I",
-  "ErrorMessage": "sed",
+  "MailBody": "voluptas",
+  "MailSubject": "quisquam",
+  "ToEmail": "retha_keeling@hickle.ca",
+  "ToFullName": "Orie Medhurst",
+  "ErrorMessage": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 478
     }
   }
 }

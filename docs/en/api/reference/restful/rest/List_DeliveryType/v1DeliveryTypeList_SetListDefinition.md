@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 847,
-  "Name": "Dach-Daugherty",
-  "Tooltip": "qui",
+  "Id": 628,
+  "Name": "Purdy Inc and Sons",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 241,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
-  "InUseByUserDefinedFields": false
+  "Rank": 90,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "tenetur",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Runolfsson LLC",
-  "Tooltip": "tenetur",
+  "Id": 276,
+  "Name": "Pfeffer-McDermott",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 432,
+  "Rank": 160,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "numquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 433
     }
   }
 }

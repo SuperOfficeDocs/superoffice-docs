@@ -107,7 +107,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 690
+  "DocumentId": 430
 }
 ```
 
@@ -120,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 805,
-      "ContactName": "Kuphal Group",
-      "PersonId": 841,
-      "PersonName": "Brekke, Ebert and Bosco",
-      "AssociateId": 792,
-      "Address": "occaecati",
-      "EmailId": 260,
+      "ContactId": 680,
+      "ContactName": "Muller-Kutch",
+      "PersonId": 834,
+      "PersonName": "Hessel Inc and Sons",
+      "AssociateId": 95,
+      "Address": "vel",
+      "EmailId": 129,
       "DuplicatePersonIds": [
-        762,
-        622
+        39,
+        295
       ],
-      "Name": "Grant, Hayes and Farrell",
+      "Name": "Mayert-Lakin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldLength": 385
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 799,
-      "ContactName": "Douglas-Larson",
-      "PersonId": 699,
-      "PersonName": "Cronin-Davis",
-      "AssociateId": 962,
-      "Address": "ex",
-      "EmailId": 19,
+      "ContactId": 256,
+      "ContactName": "Mueller-Kassulke",
+      "PersonId": 321,
+      "PersonName": "Keeling-Wuckert",
+      "AssociateId": 734,
+      "Address": "aut",
+      "EmailId": 148,
       "DuplicatePersonIds": [
-        728,
-        948
+        576,
+        721
       ],
-      "Name": "Mayer-Lindgren",
+      "Name": "Mante-Hills",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldLength": 835
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 50,
-      "ContactName": "Sanford Inc and Sons",
-      "PersonId": 372,
-      "PersonName": "Nikolaus Inc and Sons",
-      "AssociateId": 24,
-      "Address": "rem",
-      "EmailId": 15,
+      "ContactId": 119,
+      "ContactName": "Weber-Yost",
+      "PersonId": 491,
+      "PersonName": "Price, Beer and Klocko",
+      "AssociateId": 14,
+      "Address": "sapiente",
+      "EmailId": 55,
       "DuplicatePersonIds": [
-        346,
-        300
+        233,
+        487
       ],
-      "Name": "Marks, Swift and Greenfelder",
+      "Name": "Langworth LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldType": "System.String",
+          "FieldLength": 391
         }
       }
     }
   ],
-  "Subject": "magnam",
-  "HTMLBody": "non",
+  "Subject": "corporis",
+  "HTMLBody": "minus",
   "From": null,
-  "Sent": "2011-10-27T12:57:33.8836618+02:00",
-  "Size": 289,
+  "Sent": "2012-05-03T04:22:26.7022333+02:00",
+  "Size": 674,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "mollitia",
-  "PlainBody": "ea",
+  "MessageID": "ut",
+  "PlainBody": "id",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 997,
+  "ServerId": 717,
   "Attachments": [
     {
-      "Description": "Triple-buffered hybrid superstructure",
-      "Filename": "et",
-      "Size": 174,
-      "Type": "rerum",
-      "Encoding": "et",
-      "Id": "explicabo",
-      "Disposition": "explicabo",
+      "Description": "Customer-focused logistical groupware",
+      "Filename": "dolorum",
+      "Size": 554,
+      "Type": "ut",
+      "Encoding": "cum",
+      "Id": "rerum",
+      "Disposition": "assumenda",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,49 +218,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 435
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Feest, Dickinson and Durgan",
+      "Name": "Wisoky LLC",
       "Values": [
-        "sit",
-        "aspernatur"
+        "quis",
+        "sequi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldType": "System.Int32",
+          "FieldLength": 178
         }
       }
     },
     {
-      "Name": "Feest, Dickinson and Durgan",
+      "Name": "Wisoky LLC",
       "Values": [
-        "sit",
-        "aspernatur"
+        "quis",
+        "sequi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldType": "System.Int32",
+          "FieldLength": 178
         }
       }
     }
   ],
-  "FolderName": "Wolff, Hahn and Lubowitz",
-  "EmailItemId": 363,
-  "AccountId": 670,
-  "ReceivedAt": "2017-05-25T12:57:33.8836618+02:00",
+  "FolderName": "Koelpin-Hammes",
+  "EmailItemId": 304,
+  "AccountId": 260,
+  "ReceivedAt": "2017-02-06T04:22:26.7022333+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-12-31T12:57:33.8836618+01:00",
+  "RepliedAt": "2018-10-18T04:22:26.7022333+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldLength": 471
     }
   }
 }

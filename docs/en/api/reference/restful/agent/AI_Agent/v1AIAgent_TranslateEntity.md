@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Pfannerstill, Schneider and Lebsack",
-  "EntityId": 679,
-  "TargetLanguage": "totam"
+  "EntityName": "Will Group",
+  "EntityId": 523,
+  "TargetLanguage": "sapiente"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"tempora"
+"perferendis"
 ```

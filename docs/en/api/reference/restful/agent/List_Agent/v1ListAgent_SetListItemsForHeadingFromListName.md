@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "McKenzie-Waelchi",
-  "HeadingId": 687,
+  "UdListDefinitionName": "Grant-Hamill",
+  "HeadingId": 618,
   "ListItemIds": [
-    601,
-    345
+    129,
+    643
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

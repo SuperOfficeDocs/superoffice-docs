@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 993
+  "ProjectId": 129
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 701,
-  "StartDate": "2011-12-24T12:57:34.6490836+01:00",
-  "EndDate": "2001-04-17T12:57:34.6490836+02:00",
+  "AppointmentId": 885,
+  "StartDate": "2008-02-02T04:22:27.3309943+01:00",
+  "EndDate": "2012-06-05T04:22:27.3309943+02:00",
   "Type": "BookingForChecklist",
-  "Task": "nostrum",
-  "AssociateFullName": "Miss Antonette Hoeger II",
-  "ContactName": "Thiel LLC",
-  "Description": "Enterprise-wide real-time interface",
-  "PersonFullName": "Dr. Lizzie Jayme Bode V",
-  "PersonId": 970,
-  "ContactId": 860,
-  "ProjectId": 989,
-  "ProjectName": "Russel-Stanton",
-  "IsPublished": true,
-  "AssociateId": 109,
-  "ColorIndex": 752,
-  "IsFree": false,
+  "Task": "maiores",
+  "AssociateFullName": "Koby Ruecker DDS",
+  "ContactName": "Wisozk Group",
+  "Description": "Automated analyzing functionalities",
+  "PersonFullName": "Annabell Hansen",
+  "PersonId": 50,
+  "ContactId": 984,
+  "ProjectId": 318,
+  "ProjectName": "Wiegand, Stark and Kautzer",
+  "IsPublished": false,
+  "AssociateId": 294,
+  "ColorIndex": 623,
+  "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 731,
-  "PriorityName": "Will LLC",
+  "PriorityId": 451,
+  "PriorityName": "Hickle-Reynolds",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2007-12-28T12:57:34.6490836+01:00",
+  "ActiveDate": "2020-05-07T04:22:27.3309943+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2022-01-09T12:57:34.6490836+01:00",
-  "RecurringEndDate": "2009-05-18T12:57:34.6490836+02:00",
-  "MotherId": 611,
-  "AssignedBy": 542,
-  "AssignedByFullName": "Mr. Adele Sipes",
-  "RejectReason": "",
-  "Location": "quis",
-  "AlarmLeadTime": "temporibus",
-  "SaleId": 840,
-  "SaleName": "Pagac, Gaylord and Dicki",
-  "AssociateName": "Klein Group",
-  "CreatedDate": "2017-05-16T12:57:34.6490836+02:00",
-  "CreatedBy": "voluptatibus",
-  "CreatedByFullName": "Jeramy Collins",
-  "CreatedByAssociateId": 12,
+  "RecurringStartDate": "2019-04-15T04:22:27.3309943+02:00",
+  "RecurringEndDate": "2020-01-01T04:22:27.3309943+01:00",
+  "MotherId": 950,
+  "AssignedBy": 634,
+  "AssignedByFullName": "Cory Gusikowski",
+  "RejectReason": "repurpose cutting-edge web services",
+  "Location": "voluptatem",
+  "AlarmLeadTime": "minus",
+  "SaleId": 14,
+  "SaleName": "Kshlerin-Nicolas",
+  "AssociateName": "Gulgowski-Kuhlman",
+  "CreatedDate": "2016-09-17T04:22:27.3309943+02:00",
+  "CreatedBy": "aliquam",
+  "CreatedByFullName": "Ms. Federico Tamia Denesik",
+  "CreatedByAssociateId": 877,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 337,
-  "Title": "eos",
-  "Agenda": "est",
-  "InternalNotes": "tempore",
+  "PreferredTZLocation": 284,
+  "Title": "ipsam",
+  "Agenda": "blanditiis",
+  "InternalNotes": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 641
     }
   }
 }

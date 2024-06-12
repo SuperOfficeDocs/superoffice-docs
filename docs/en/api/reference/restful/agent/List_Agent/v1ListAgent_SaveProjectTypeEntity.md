@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 296,
-  "Name": "Mraz Inc and Sons",
-  "Tooltip": "non",
-  "Rank": 774,
+  "ProjTypeId": 95,
+  "Name": "Cummerata, Quigley and Macejkovic",
+  "Tooltip": "cumque",
+  "Rank": 555,
   "DurationUnit": "Century",
-  "ProjectDuration": 880,
-  "Deleted": false,
+  "ProjectDuration": 947,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 771,
-      "Name": "Little Inc and Sons",
-      "ToolTip": "Possimus et debitis non corporis vel.",
+      "Id": 753,
+      "Name": "Feeney-Harvey",
+      "ToolTip": "Aut pariatur tenetur voluptatem.",
       "Deleted": false,
-      "Rank": 952,
-      "Type": "odit",
-      "ColorBlock": 398,
-      "IconHint": "fugit",
-      "Selected": true,
-      "LastChanged": "2003-10-19T12:57:34.2117122+02:00",
+      "Rank": 775,
+      "Type": "delectus",
+      "ColorBlock": 922,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2002-05-27T04:22:27.0329423+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "commodi",
-      "StyleHint": "soluta",
+      "ExtraInfo": "adipisci",
+      "StyleHint": "voluptatum",
       "Hidden": false,
-      "FullName": "Dr. Jovanny Bernier"
+      "FullName": "Zora Rodriguez"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 321,
-  "Name": "Gottlieb Inc and Sons",
-  "Tooltip": "perferendis",
-  "Rank": 376,
+  "ProjTypeId": 732,
+  "Name": "Hilpert-Kerluke",
+  "Tooltip": "incidunt",
+  "Rank": 954,
   "DurationUnit": "Century",
-  "ProjectDuration": 245,
+  "ProjectDuration": 883,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 425,
-      "Name": "Bosco, Hirthe and Emmerich",
-      "ToolTip": "Eius harum quas et inventore.",
+      "Id": 887,
+      "Name": "Emmerich-Volkman",
+      "ToolTip": "Sequi dolorem minus sint accusamus cum.",
       "Deleted": false,
-      "Rank": 44,
-      "Type": "itaque",
-      "ColorBlock": 991,
-      "IconHint": "architecto",
-      "Selected": false,
-      "LastChanged": "2017-02-25T12:57:34.2117122+01:00",
+      "Rank": 796,
+      "Type": "ut",
+      "ColorBlock": 284,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "2010-10-18T04:22:27.0329423+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "debitis",
-      "StyleHint": "vero",
+      "ExtraInfo": "rerum",
+      "StyleHint": "cupiditate",
       "Hidden": false,
-      "FullName": "Tracey Hane",
+      "FullName": "Mireille Ferry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldLength": 842
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

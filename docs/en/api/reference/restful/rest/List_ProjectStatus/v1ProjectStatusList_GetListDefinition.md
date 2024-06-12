@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 271,
-  "Name": "Kerluke Inc and Sons",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "Rank": 639,
-  "IsCustomList": true,
+  "Id": 597,
+  "Name": "Flatley-Kuhic",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 521,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "illo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldLength": 888
     }
   },
   "_Links": {

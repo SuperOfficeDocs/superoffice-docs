@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 840,
-    "Name": "Greenholt Group",
-    "Tooltip": "sit",
-    "Rank": 213,
-    "Rate": 8681.18,
-    "Units": 4970.5239999999994,
+    "CurrencyId": 691,
+    "Name": "Boyle Inc and Sons",
+    "Tooltip": "ex",
+    "Rank": 605,
+    "Rate": 4550.568,
+    "Units": 23345.165999999997,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 866
       }
     }
   }
