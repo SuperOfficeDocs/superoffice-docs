@@ -3,8 +3,8 @@ uid: help-da-marketing
 title: SuperOffice Marketing
 description: "Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet."
 author: SuperOffice RnD
-so.date: 02.12.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: concept
 language: da
 so.audience: person
@@ -21,6 +21,7 @@ Med SuperOffice Marketing kan du oprette følgende:
 
 * **Udsendelser** (e-mails, SMS, dokumenter og formularbesvarelser). [Kom i gang med din første udsendelse][5].
 * **Formularer**. [Kom i gang med din første formular][1].
+* **Flows** (i pilot fra version 10.3.5).
 
 Se denne videorundvisning om produkterne og få en introduktion til funktionerne i SuperOffice Marketing ( videoens længde - 2:31):
 
@@ -77,6 +78,23 @@ SMS-udsendelse er ikke tilgængelig, hvis du bruger CRM Online.
 
 For at få gavn af SuperOffice marketingfunktioner skal du have en basisviden om, hvordan du registrerer grundlæggende CRM-data, såsom kategorier i forhold til virksomhed og kontakter, interesser og abonnementstyper på kontakter (læs mere om GDPR og privatliv), og vide hvordan du anvender udvalg. Disse trin til dataregistrering hjælper dig med at segmentere din kundebase og oprette en effektiv målliste. Hvis du vil vide, hvordan du konfigurerer marketingrelaterede funktioner, skal du kigge i afsnittet Administrer lister i Indstillinger og vedligeholdelse.
 
+## Forskelle mellem Marketing Essentials og Marketing Premium
+
+* **Essentials:** Værktøjerne, du har brug for til bedre at målrette og kommunikere med potentielle kunder og kunder.
+
+* **Premium:** Låser op for CRM-dataens kraft til personaliserede og automatiserede kunderejser.
+
+| Funktion | Essentials | Premium |
+|---|:-:|:-:|
+| Lead capture​ | x | x |
+| Leadgeneration and leadnurturing ​| | x|
+| Kundekommunikation | x | x |
+| Segmenterede e-mail-kampagner | x | x |
+| Onboarding og vedtagelse​ | | x |
+| Automatisering af kunderejser​ | | x |
+| Cross-sell og up-sell-fremme​ | | x |
+| Marketing/salg-tilpasning​ | x | x |
+
 ## Forskelle mellem installationer online og onsite
 
 SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som en onsite-applikation (installeret hos kunden). Der er mindre forskelle mellem de to typer. Specifikke funktionsmæssige forskelle er angivet med ikoner i selve procedurerne eller i emnetitlerne.
@@ -93,6 +111,7 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 | Formularer | Her finder du alle formularerne og opretter nye. | [Opret en ny formular][1] |
 | Formularskabeloner | Her finder du alle formularskabelonerne. | [Arbejde med formularskabeloner][18] |
 | Formularindsendelser | Her finder du alle de indsendte formularer. | [Formularindsendelser][19] |
+| Flows | Indeholder alle flows og opretter nye. | [Opret en ny flow][20] |
 
 ## Hvad vil du foretage dig nu?
 
@@ -118,6 +137,7 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
+[20]: ../flows/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

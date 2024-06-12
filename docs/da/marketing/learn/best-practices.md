@@ -4,8 +4,8 @@ title: Bedste praksis
 description: Bedste praksis
 keywords: Marketing, marketingkampagne, udsendelse
 author: Bergfrid Dias, Jeanette Small Strøm
-so.date: 02.23.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: howto
 language: da
 so.audience: person
@@ -76,6 +76,16 @@ Men hvis du tilføjer en ikke-validerbar eller stavefejl e-mailadresse, kan det 
 Administratorer kan [tilføje valideret domæne][6] i Indstillinger og vedligeholdelse for at sikre, at brugerne vælger det korrekte og autentificerede domæne.
 
 Indholdsforfattere vil se en meddelelse, hvis de bruger en ikke-validerbar e-mailadresse i Fra-feltet, som en påmindelse om at bruge autentificerede domæner. Dette vil også hjælpe med at undgå stavefejl i domænet for e-mail-afsendelse.
+
+## Automatisering (kun pilot)
+
+* Angiv en maksimal ventetid for at undgå, at deltagere forbliver aktive i et flow for evigt.
+
+* Opdater deltagere med nye oplysninger under flowet. For eksempel angiv en ny interesse eller en ny kategori, når personen udvikler sig; tilføj og fjern dem fra lister.
+
+* For at undgå duplikerede eller modstridende handlinger: Inkluder alle handlinger et sted, enten i formularen eller i flowet.
+
+* Du kan opnå den samme effekt ved at have en opdeling i ét flow eller arrangere kommunikationen i to forskellige flows. Om du skal opdele eller definere flere flows afhænger af scenariet og hvilket resultat, du gerne vil spore. Jo mere to kommunikationsspor har til fælles, desto mere effektivt er det for brugeren at arrangere det inden for det samme flow.
 
 ## <a id="mobile" />Tilpasse meddelelsen til visning på mobile enheder
 

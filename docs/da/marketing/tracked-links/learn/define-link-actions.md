@@ -4,8 +4,8 @@ title: Definer automatiserede linkhandlinger
 description: "I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger."
 keywords: Marketing, udsendelse, linkhandling, automatisere
 author: Bergfrid Dias
-so.date: 02.26.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: concept
 language: da
 so.audience: person
@@ -33,7 +33,7 @@ Du kan udnytte de indsamlede oplysninger på flere måder:
 
 ## Tilgængelige handlinger
 
-Baseret på din udsendelses mål og call-to-action kan du opdatere din database. Disse oplysninger kan forbedre segmenteringen eller hjælpe med at følge op med interesserede enkeltpersoner.
+Baseret på din udsendelses mål og call-to-action kan du opdatere din database. Disse oplysninger kan forbedre segmenteringen eller hjælpe med at følge op med interesserede enkeltpersoner. Du kan vælge mere end én handling for et sporet link.
 
 | Fane | Handling |
 |---|---|
@@ -46,7 +46,7 @@ Baseret på din udsendelses mål og call-to-action kan du opdatere din database.
 | [Script](#script) | Køre et script |
 
 > [!TIP]
-> Du kan vælge mere end én handling for et sporet link
+> Når du opdaterer et sporet link, skal du huske, at det muligvis bruges af flere e-mails og/eller automatiserede flows (en pilotfunktion). Du bør sikre dig, at der ikke er nogen duplikerede eller modstridende handlinger.
 
 ## <a id="response" />Respons
 

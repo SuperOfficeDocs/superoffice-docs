@@ -1,20 +1,18 @@
 ---
 uid: help-da-licenses
-title: CRM og licenser
-description: CRM og licenser
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: SuperOffice og licenser
+description: SuperOffice og licenser
 keywords: licens
+author: SuperOffice RnD
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: concept
 language: da
 ---
 
 # SuperOffice og licenser
 
-Der kræves følgende licenser, for at du kan logge på SuperOffice CRM fra en webklient:
-
-* Logonrettigheder til SuperOffice CRM
-* En systemlicens til Standard CRM
+For at du kan logge på SuperOffice CRM fra en webklient kræves logonrettigheder til SuperOffice CRM og Essential- eller Premium-brugerlicens
 
 ## Se licensoplysninger
 
@@ -31,42 +29,30 @@ Der kræves følgende licenser, for at du kan logge på SuperOffice CRM fra en w
 | System | Angiver, hvilke systemer du har adgang til. |
 | SuperOffice Server | Påkrævet til at bruge SuperOffice CRM. |
 | Online Web Services | Påkrævet for at få adgang til SuperOffice CRM fra en webklient. |
-| Områdestyring | Tillader definition af områder i Indstillinger og vedligeholdelse. |
 | Sales Intelligence | Tillader [SAINT-statusovervågning][2]. |
-| Exchange Synchronizer | Tillader brug af SuperOffice Synchronizer.
+| Exchange Synchronizer | Tillader brug af SuperOffice Synchronizer. |
 | SuperOffice Expander Services | Tillader funktionalitet for anonyme og eksterne brugere via blandt andet SuperOffice Audience eller tredjepartsapplikationer. |
 | Customer Centre | Tillader brug af Kundecenteret. |
 | Håndtering af salgstilbud | Tillader brug af tilbud. |
 
-## Site-licenser
+## Brugerplaner
 
-Der findes også såkaldte site-licenser. Et *site* i SuperOffice-sammenhæng svarer til en database eller satellitdatabase. En site-licens angiver følgende:
+Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal brugere. Dette gælder blandt andet følgende produkter:
 
-| Licens | Beskrivelse |
-|---|---|
-| Satellite | Det antal satellitdatabaser, din organisation har mulighed for at definere. |
-| Reporter Studio | Det maksimale antal sites, som kan bruge SuperOffice Reporter Studio. |
-| Audience | Det maksimale antal sites, som kan bruge SuperOffice Audience. |
+* Sales-Essentials
+* Sales-Premium
+* Service-Essentials
+* Service-Premium
+* Marketing-Essentials
+* Marketing-Premium
 
-## Brugerlicenser (Windows - ældre)
+Læs mere om [SuperOffice brugerplaner og abonnementer][6].
 
-Til sidst har vi brugerlicenser for SuperOffice CRM til Windows, som købes til et bestemt antal brugere. Det gælder blandt andet for følgende produkter:
+## Site-licenser og bruger-licenser (Windows - ældre)
 
-| Licens | Beskrivelse |
-|---|---|
-| Standard CRM User | Adgang til Standard CRM. |
-| Marketing User | Adgang til marketing-modulet (SuperOffice Marketing) i tillæg til Standard CRM. |
-| Sales User | Adgang til salgsmodulet i tillæg til Standard CRM. |
-| Service User | Adgang til SuperOffice Service i tillæg til Standard CRM. |
-| Complete CRM User | Adgang til SuperOffice CRM ,Salg og SuperOffice Service. |
-| Windows App | Adgang til Windows-klienten til SuperOffice CRM. |
-| Remote Travel | Adgang til Remote Travel, som muliggør synkronisering mellem den lokale database og den centrale SuperOffice-database, når brugeren er ude at rejse. |
-| Pocket CRM | Adgang til appen Pocket CRM til SuperOffice CRM. |
-| Outlook Synchronizer | Adgang til synkronisering med Outlook. |
-| Sale Quote Access | Adgang til tilbudsmodulet i tillæg til Standard CRM. |
+Licenser til SuperOffice CRM til Windows (sidste udgivelse [SuperOffice G8 8.5 R17][5]) købes til et bestemt antal brugere.
 
-> [!NOTE]
-> Du tildeler brugerlicenser (CAL / Client Access Licence) til brugere fra fanen **Medarbejdere** i skærmbilledet Brugere.
+Læs mere om licenser i [tidligere versioner af SuperOffice][7].
 
 ## Relaterede emner
 
@@ -79,5 +65,8 @@ Til sidst har vi brugerlicenser for SuperOffice CRM til Windows, som købes til 
 [2]: ../../../sale/saint/learn/index.md
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
+[5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
+[6]: ../../../../en/admin/license/user-plans.md
+[7]: https://help.superoffice.com/Documentation/Help/DA/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 
 <!-- Referenced images -->

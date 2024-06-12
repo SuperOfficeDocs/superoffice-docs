@@ -66,7 +66,7 @@ Under **Systemmeddelelser** finder du følgende kolonner:
 | Meddelelse | Viser beskrivelsen af hændelsen. |
 | Aktiveret | Viser, hvornår begivenheden blev startet. |
 | Aktiveret af | Viser, hvem der startede hændelsen (bruger-id og portræt). |
-| Afsluttet | Viser, hvornår hændelsen forventes at slutte.
+| Afsluttet | Viser, hvornår hændelsen forventes at slutte. |
 | Type | Viser, om hændelsen gælder for hele systemet. |
 
 ## Relaterede emner
