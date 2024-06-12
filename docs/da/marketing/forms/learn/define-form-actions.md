@@ -4,8 +4,8 @@ title: Definer formularhandlinger
 description: Definer formularhandlinger
 keywords: skjema, automatisering, formularhandling, formularindsendelse, tilmelding
 author: SuperOffice RnD
-so.date: 03.11.2024
-so.version: 10
+so.date: 06.14.2024
+so.version: 10.3.5
 so.topic: howto
 language: da
 so.audience: person
@@ -59,6 +59,9 @@ Her kan du vælge handlinger, der skal udføres, når en formular behandles (aut
 * **Standardkategori** / **Standardvirksomhed**: Vælg en standardkategori og -virksomhed for alle personer eller firmaer, der føjes til SuperOffice baseret på sendte formularer. Med denne mulighed kan du gruppere formularafsendelser og nye kontakter/virksomheder til en bestemt kategori og/eller virksomhed.
 
     Hvis du f.eks. har en formular til kundeemner, skal du vælge kundeemner som din kategori. Du kan derefter nemt oprette valg baseret på denne kategori og/eller virksomhed.
+
+> [!NOTE]
+> Når du opdaterer et formular, skal du huske, at det kan blive brugt af flere kampagner og/eller automatiserede flows (en pilotfunktion). Sørg for, at der ikke er nogen duplikerede eller modstridende handlinger.
 
 ## Hvad vil du foretage dig nu?
 

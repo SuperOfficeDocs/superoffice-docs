@@ -2,30 +2,38 @@
 uid: help-da-marketing-create-folder
 title: Sådan oprettes en mappe i Markedsføring
 description: Sådan oprettes en mappe i Markedsføring
+keywords: Marketing, mappe
 author: SuperOffice RnD
-so.date: 09.07.2022
-keywords: Marketing
-so.topic: help
+so.date: 06.14.2024
+so.version: 10.3.5
+so.topic: howto
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Sådan opretter du en mappe
 
-Det er altid en god idé at definere en velorganiseret mappestruktur for at få et bedre overblik over dine udsendelser, formularer, skabeloner, links og billeder i SuperOffice Marketing.
+Det er altid en god idé at definere en velorganiseret mappestruktur for at få et bedre overblik over dine udsendelser, formularer, flows, skabeloner, links og billeder i SuperOffice Marketing.
 
-Du kan oprette undermapper i alle mapper, og du kan anbringe de respektive udsendelser, formularer, skabeloner, links og billeder i hver af disse mapper.
-
-**Trin:**
+## Trin
 
 1. Vælg en af hovedfanerne i SuperOffice Marketing.
 
-2. Valgfrit: Åbn en eksisterende mappe for at oprette en undermappe. Du kan klikke på knappen **Alle ...** først.
+2. Klik på knappen **Tilføj mappe**.
 
-3. Klik på knappen **Tilføj mappe** ![ikon][img1] . Dialogboksen **Egenskaber for mappe** vises.
+3. Angiv et beskrivende navn til mappen i feltet **Navn**.
 
-4. Angiv et beskrivende navn på mappen i feltet **Navn**.
+4. Klik på **OK**. Hvis den nye mappe ikke vises i listen, skal du vælge fanen **Min ...** eller **Alle ...**.
 
-5. Klik på **OK**. Hvis mappen ikke vises på listen, skal du klikke på knappen **Min ...** eller **Alle ...** .
+## Undermapper
+
+Du kan oprette undermapper i alle mapper, og du kan placere det relevante marketingmateriale i hver af disse mapper.
+
+Gør ét af følgende:
+
+* Åbn en eksisterende mappe, før du klikker på **Tilføj mappe**. Du skal muligvis først vælge fanen **Alle ...**.
+
+* Klik først på **Tilføj mappe** og vælg derefter en overordnet mappe fra listen **Opret som undermappe af**.
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/folder.png

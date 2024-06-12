@@ -74,8 +74,7 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 |---|---|---|
 | Planlagt | Planlægningsmøde (møde inde) | Konferenceprogram (bemærkning) |
 | Er i gang | Oprettelse af liste over projektdeltagere (Opfølgning) | konference (møde ude) |
-| Afsluttes | Evalueringsmøde (møde inde) |
-| Evalueringsrapport (bemærkning) |
+| Afsluttes | Evalueringsmøde (møde inde) | Evalueringsrapport (bemærkning) |
 
 ### Statussen Planlagt
 
