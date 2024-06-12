@@ -3,7 +3,6 @@ uid: help-da-marketing
 title: SuperOffice Marketing
 description: "Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet."
 author: SuperOffice RnD
-author: SuperOffice RnD
 so.date: 02.12.2024
 so.version: 10
 so.topic: concept

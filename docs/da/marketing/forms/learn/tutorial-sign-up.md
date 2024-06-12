@@ -24,7 +24,7 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 ## Start her
 
-1. I SuperOffice, [opret en statisk udvælgelse][7] af firmaer/personer, der kaldes "Abonnenter på nyhedsbreve (formular)". Vi bruger dette valg senere i denne vejledning.
+1. I SuperOffice, [opret et statisk udvalg][7] af firmaer/personer, der kaldes "Abonnenter på nyhedsbreve (formular)". Vi bruger dette valg senere i denne vejledning.
 
 1. Gå til **Markedsføring** og vælg fanen **Formularer**.
 
